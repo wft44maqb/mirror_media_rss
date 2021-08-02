@@ -2,11 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-02T15:42:03.407Z</updated>
+    <updated>2021-08-02T15:47:05.097Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[稱台灣運動員為「國手」　小 S 遭內地網民斥「台獨」　4 品牌終止合作]]></title>
+        <id>https://www.thestandnews.com/%E5%8F%B0%E7%81%A3/%E7%A8%B1%E5%8F%B0%E7%81%A3%E9%81%8B%E5%8B%95%E5%93%A1%E7%82%BA%E5%9C%8B%E6%89%8B-%E5%B0%8F-s-%E9%81%AD%E5%85%A7%E5%9C%B0%E7%B6%B2%E6%B0%91%E6%96%A5%E5%8F%B0%E7%8D%A8-4-%E5%93%81%E7%89%8C%E7%B5%82%E6%AD%A2%E5%90%88%E4%BD%9C</id>
+        <link href="https://www.thestandnews.com/%E5%8F%B0%E7%81%A3/%E7%A8%B1%E5%8F%B0%E7%81%A3%E9%81%8B%E5%8B%95%E5%93%A1%E7%82%BA%E5%9C%8B%E6%89%8B-%E5%B0%8F-s-%E9%81%AD%E5%85%A7%E5%9C%B0%E7%B6%B2%E6%B0%91%E6%96%A5%E5%8F%B0%E7%8D%A8-4-%E5%93%81%E7%89%8C%E7%B5%82%E6%AD%A2%E5%90%88%E4%BD%9C"/>
+        <updated>2021-08-02T15:44:45.058Z</updated>
+        <summary type="html"><![CDATA[台灣運動員近日於東京奧運屢次取得佳績，台灣藝人小 S 不時於 Instagram 發文支持台灣選手，並將台灣羽毛球「一姐」戴資穎稱為「國手」。不少內地網民出征，批評小 S 是支持台獨及辱華。原與小 S 合作的內地品牌壽全齋、Clear 清揚、JORYA、大人糖今日（2 日）陸續發出聲明，終止與小 S 一切合作。東京奧運期間，小 S 共發表 7 個支持台灣運動員的帖文，其中一個有關戴資穎的帖文中，…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/S_photo1_Ao5bAyN.png"><figcaption><span>資料來源：小s instagram</span></figcaption></figure><p>台灣運動員近日於東京奧運屢次取得佳績，台灣藝人小 S 不時於 Instagram 發文支持台灣選手，並將台灣羽毛球「一姐」戴資穎稱為「國手」。不少內地網民出征，批評小 S 是支持台獨及辱華。原與小 S 合作的內地品牌壽全齋、Clear 清揚、JORYA、大人糖今日（2 日）陸續發出聲明，終止與小 S 一切合作。</p>
+
+<p>東京奧運期間，小 S 共發表 7 個支持台灣運動員的帖文，其中一個有關戴資穎的帖文中，她形容自己緊張到胃痛，稱讚戴資穎「實在太強」。小 S 在同一帖文留言指，提議邀請全部「國手」到她家食飯。</p>
+
+<p>內地網民截圖轉發微博，及後再出征其 Instagram 留言，批評小 S 「支持台獨」，又有大陸網民諷刺「台灣省的確是中國國手」，建議台灣金牌一律與中國金牌一併計算，並稱將「武統台灣」。</p>
+
+<p><strong>小 S ：先讓我靜一靜好嗎？</strong></p>
+
+<p>壽全齋、Clear 清揚、JORYA、大人糖之後陸續發出聲明，宣布基於一個中國原則，決定終止與小 S 一切合作。</p>
+
+<p>台媒<a href="https://www.setn.com/News.aspx?NewsID=976611">《三立新聞網》</a>報道，小 S 事後回覆指，「先讓我靜一靜好嗎？」並附上無奈貼圖符號。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="台灣"/>
+        <published>2021-08-02T15:27:23.207Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[奧運的啟示 — 團結多元]]></title>
         <id>https://www.thestandnews.com/sport/%E5%A5%A7%E9%81%8B%E7%9A%84%E5%95%9F%E7%A4%BA-%E5%9C%98%E7%B5%90%E5%A4%9A%E5%85%83</id>
@@ -874,37 +898,5 @@ Bell, J.D., Senina, I., Adams, T.&nbsp;&amp; <i>et al.</i>&nbsp;(2021). Pathways
         </author>
         <category label="Green"/>
         <published>2021-08-02T06:26:53.286Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【 11.11 三罷】被控管有士巴拿燒烤鉗等　19歲男生判入更生中心　官：若成人須判囚]]></title>
-        <id>https://www.thestandnews.com/court/1111-%E4%B8%89%E7%BD%B7%E8%A2%AB%E6%8E%A7%E7%AE%A1%E6%9C%89%E5%A3%AB%E5%B7%B4%E6%8B%BF%E7%87%92%E7%83%A4%E9%89%97%E7%AD%89-19%E6%AD%B2%E7%94%B7%E7%94%9F%E5%88%A4%E5%85%A5%E6%9B%B4%E7%94%9F%E4%B8%AD%E5%BF%83-%E5%AE%98%E8%8B%A5%E6%98%AF%E6%88%90%E5%B9%B4%E4%BA%BA%E9%A0%88%E5%88%A4%E5%9B%9A</id>
-        <link href="https://www.thestandnews.com/court/1111-%E4%B8%89%E7%BD%B7%E8%A2%AB%E6%8E%A7%E7%AE%A1%E6%9C%89%E5%A3%AB%E5%B7%B4%E6%8B%BF%E7%87%92%E7%83%A4%E9%89%97%E7%AD%89-19%E6%AD%B2%E7%94%B7%E7%94%9F%E5%88%A4%E5%85%A5%E6%9B%B4%E7%94%9F%E4%B8%AD%E5%BF%83-%E5%AE%98%E8%8B%A5%E6%98%AF%E6%88%90%E5%B9%B4%E4%BA%BA%E9%A0%88%E5%88%A4%E5%9B%9A"/>
-        <updated>2021-08-02T09:32:21.926Z</updated>
-        <summary type="html"><![CDATA[前年 11 月 11 日的「三罷」行動中，一名報稱居於紀律部隊宿舍的 19 歲男學生，於筲箕灣一公廁外遭搜出士巴拿及燒烤鉗等，早前被裁定一項「管有適合作非法用途的工具並意圖作非法用途使用」罪成，案件今（2 日）在東區裁判法院判刑。裁判官劉綺雲指，本案性質嚴重，被告事前與其他黑衣人在路障附近出現，同時管有涉案物品，判刑上須有「雙重阻嚇性」，但考慮到被告有悔意，決定判被告入更生中心。被告為學生周智宏…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/east-24_1Af4o.png"></figure><p>前年 11 月 11 日的「三罷」行動中，一名報稱居於紀律部隊宿舍的 19 歲男學生，於筲箕灣一公廁外遭搜出士巴拿及燒烤鉗等，早前被裁定一項「管有適合作非法用途的工具並意圖作非法用途使用」罪成，案件今（2 日）在東區裁判法院判刑。裁判官劉綺雲指，本案性質嚴重，被告事前與其他黑衣人在路障附近出現，同時管有涉案物品，判刑上須有「雙重阻嚇性」，但考慮到被告有悔意，決定判被告入更生中心。</p>
-
-<p>被告為學生周智宏（19 歲），報稱居於紀律部隊宿舍，被控於 2019 年 11 月 11 日，在筲箕灣愛秩序灣遊樂場公廁外，管有士巴拿、燒烤鉗、一包索帶及一卷膠帶。</p>
-
-<p><strong>中學曾參與少年警訊　大學參與學生組織</strong></p>
-
-<p>裁判官劉綺雲在判刑時，先引述辯方求情指，被告與家人關係良好，在家人眼中是孝順、仁慈及守規矩的人，對被告犯案感到震驚；又提及被告在中學時操行良好，願意為他人服務，曾參與少年警訊、童軍、圖書館大使等，即使在考文憑試時因本案受到壓力，仍能在去年 9 月升讀大學修讀歷史系，並繼續參與學生組織服務他人，獲師長讚賞。</p>
-
-<p>裁判官另引述被告的求情信指，被告已感到後悔，當時只是受社會氣氛影響，一時衝動，未有想清楚後果，現已明白當時犯案愚蠢，並為前途擔憂，但求完成學業，望法庭從輕發落。</p>
-
-<p><strong>官指本案嚴重成年人須判囚　考慮被告有悔意判入更生中心</strong></p>
-
-<p>裁判官指，本案性質嚴重，事發前有人堵路，被告與其他黑衣人一同在路障附近出現，</p>
-
-<p>此外被告亦同時管有士巴拿及燒烤鉗，嚴重影響公眾秩序，因此判刑須有「雙重阻嚇性」，若是正常成年人犯案，須判處即時監禁，刑期亦不會短。裁判官強調，上訴庭早前在相關刑期覆核案件，亦有相同觀點。</p>
-
-<p>裁判官續指，懲教署報告指被告在體能、心理及還押時的態度行為上，較適合到更生中心，考慮到被告流露悔意，加上更生中心更能協助犯人更生及重投社會，最終決定按報告建議，判被告入更生中心。</p>
-
-<p>案件編號：ESCC762/2020</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="法庭"/>
-        <published>2021-08-02T08:53:38.472Z</published>
     </entry>
 </feed>
