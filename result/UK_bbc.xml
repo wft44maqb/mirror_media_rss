@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Aug 2021 07:39:42 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Aug 2021 07:44:19 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[香港教育界民主派工會教協被港府「割席」意味著什麼]]></title>
+            <description><![CDATA[中國官媒形容教協是必須鏟除的「毒瘤」，港府隨即表示會停止與教協的工作關係，這個有40多年歷史的教育界團體，為何備受關注？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58067640</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58067640</guid>
+            <pubDate>Tue, 03 Aug 2021 07:41:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[河南水災：死亡人數升至302人 中國國務院稱成立調查組「問責瀆職」]]></title>
             <description><![CDATA[中國河南省近日遭遇罕見極端暴雨，至今造成302人死亡，目前仍有50人失蹤。中國國務院成立調查組，將調查河南鄭州在7月20日的特大暴雨災害。]]></description>
@@ -48,13 +55,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58060845</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58060845</guid>
             <pubDate>Mon, 02 Aug 2021 15:46:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[貨幣貶值、物價飆升 黎巴嫩如何一步步會陷入危機]]></title>
-            <description><![CDATA[黎巴嫩鎊每天都在貶值，當地人民的儲蓄和薪金變得幾乎一文不值，食物、燃料和藥物成為稀缺物品。為什麼黎巴嫩會陷入危機？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58067261</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58067261</guid>
-            <pubDate>Tue, 03 Aug 2021 03:43:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[歌手黃耀明被香港廉政公署起訴 涉嫌「向他人提供娛樂誘使投票」]]></title>
@@ -566,6 +566,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58040111</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58040111</guid>
             <pubDate>Mon, 02 Aug 2021 05:10:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[貨幣貶值、物價飆升 黎巴嫩如何一步步會陷入危機]]></title>
+            <description><![CDATA[黎巴嫩鎊每天都在貶值，當地人民的儲蓄和薪金變得幾乎一文不值，食物、燃料和藥物成為稀缺物品。為什麼黎巴嫩會陷入危機？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58067261</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58067261</guid>
+            <pubDate>Tue, 03 Aug 2021 03:43:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中國企業家孫大午因妨害公務罪等八罪名 被判刑18年]]></title>
