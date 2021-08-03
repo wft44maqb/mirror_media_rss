@@ -6,8 +6,8 @@
   <description>News, Analysis and Service from Germany and Europe - in 30 Languages</description>
   <language>zh</language>
   <copyright>2021 DW.COM, Deutsche Welle</copyright>
-  <pubDate>Tue, 3 Aug 2021 10:26:12 GMT</pubDate>
-  <lastBuildDate>Tue, 3 Aug 2021 10:26:12 GMT</lastBuildDate>
+  <pubDate>Tue, 3 Aug 2021 10:32:00 GMT</pubDate>
+  <lastBuildDate>Tue, 3 Aug 2021 10:32:00 GMT</lastBuildDate>
   <atom:link href="https://rss.dw.com/xml/podcast_radio_china" rel="self"/>
   <image>
    <url>https://static.dw.com/image/2273684_7.jpg</url>
@@ -28,6 +28,19 @@
    <itunes:category text="Politics"/>
   </itunes:category>
   <ttl>10</ttl>
+  <item>
+   <guid isPermaLink="false">58740077</guid>
+   <pubDate>Tue, 3 Aug 2021 10:17:00 GMT</pubDate>
+   <title>致命野火摧残土耳其南部</title>
+   <link>https://www.dw.com/zh/致命野火摧残土耳其南部/av-58740077?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>致命大火正在土耳其南部蔓延，不少民众家园被毁，还有一些人因此丧生。德国之声记者深入现场，带回第一手报道。</description>
+   <category>新闻广角</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>山火, 野火, 土耳其, 爱琴海, 地中海, 气候变化, 极端天气</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210803_001_turkeyfire_01v_sd.mp4" type="video/mp4" length="10629826"/>
+   <itunes:duration>02:10</itunes:duration>
+  </item>
   <item>
    <guid isPermaLink="false">58662077</guid>
    <pubDate>Sun, 1 Aug 2021 07:35:00 GMT</pubDate>
@@ -404,19 +417,6 @@
    <itunes:explicit>clean</itunes:explicit>
    <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210618_001_19789stasi_sd.mp4" type="video/mp4" length="12427145"/>
    <itunes:duration>02:31</itunes:duration>
-  </item>
-  <item>
-   <guid isPermaLink="false">57934734</guid>
-   <pubDate>Thu, 17 Jun 2021 10:43:00 GMT</pubDate>
-   <title>棒棒糖测试！德国为儿童研发新冠检测方法</title>
-   <link>https://www.dw.com/zh/棒棒糖测试！德国为儿童研发新冠检测方法/av-57934734?maca=chi-podcast_radio_china-1169-xml-mrss</link>
-   <description>德国各地的学生都重返校园，这意味着一个班级的孩子回到一间教室上课。为了急躁察觉感染病例，阻断校园感染链，一些地区在学校开展了棒棒糖测试。比起鼻拭子和咽拭子，这种测试方法更让孩子们接受。</description>
-   <category>所有节目</category>
-   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
-   <itunes:keywords>棒棒糖测试, 新冠, 测试, 学校, 学生, 儿童</itunes:keywords>
-   <itunes:explicit>clean</itunes:explicit>
-   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210617_001_60ee8bchi_210610_lolli_1_sd.mp4" type="video/mp4" length="14129907"/>
-   <itunes:duration>02:50</itunes:duration>
   </item>
  </channel>
 </rss>
