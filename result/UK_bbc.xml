@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Aug 2021 09:42:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Aug 2021 09:47:27 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Delta變異病毒在中國大範圍擴散，武漢再現病例1100萬人全民檢測]]></title>
+            <description><![CDATA[大部分城市的疫情爆發和南京機場有關，中國將如何控制這次有Delta變種引爆的疫情？疫苗能否發揮效用？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58067493</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58067493</guid>
+            <pubDate>Tue, 03 Aug 2021 09:43:15 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[香港教育界民主派工會教協被港府「割席」意味著什麼]]></title>
             <description><![CDATA[中國官媒形容教協是必須鏟除的「毒瘤」，港府隨即表示會停止與教協的工作關係，這個有40多年歷史的教育界團體，為何備受關注？]]></description>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58058418</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58058418</guid>
             <pubDate>Mon, 02 Aug 2021 11:07:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[澳洲天空新聞YouTube頻道遭停播 涉爭議性疫情訊息]]></title>
-            <description><![CDATA[天空新聞台資深主持人艾倫·瓊斯在節目中稱，變異病毒德爾塔沒有原始新冠病毒那麼危險，疫苗也沒有幫助。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58054560</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58054560</guid>
-            <pubDate>Mon, 02 Aug 2021 08:20:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中美關係：天津會談最新清單是否能為兩國打破僵局]]></title>
@@ -174,6 +174,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-57267433</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-57267433</guid>
             <pubDate>Fri, 23 Jul 2021 08:48:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[澳洲天空新聞YouTube頻道遭停播 涉爭議性疫情訊息]]></title>
+            <description><![CDATA[天空新聞台資深主持人艾倫·瓊斯在節目中稱，變異病毒德爾塔沒有原始新冠病毒那麼危險，疫苗也沒有幫助。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58054560</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58054560</guid>
+            <pubDate>Mon, 02 Aug 2021 08:20:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[海灣油輪遇襲：船運不斷遭攻擊背後的以色列與伊朗「影子戰爭」]]></title>
@@ -603,13 +610,6 @@
             <pubDate>Fri, 23 Jul 2021 09:52:47 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[消失的非洲獅]]></title>
-            <description><![CDATA[四分之三的非洲獅正在減少，他們面臨與當地社區的衝突。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58009171</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58009171</guid>
-            <pubDate>Sat, 31 Jul 2021 09:22:37 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[東京奧運：希望以日本傳統禮儀為盛會帶來一分安心的義工們]]></title>
             <description><![CDATA[從兩次目睹東京奧運的長者到忙裏偷閒的上班族和年輕人……在圍繞東京奧運的無數爭議與不安背後，有一群默默希望以日本微笑為奧運增添一分平安的義工。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-57976930</link>
@@ -624,13 +624,6 @@
             <pubDate>Mon, 26 Jul 2021 01:18:53 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[郭婞淳: 台灣「舉重女神」拿下東京奧運金牌，打破奧運紀錄還想再拼一屆]]></title>
-            <description><![CDATA[台灣59公斤級舉重選手郭婞淳，今天以破奧運會紀錄的挺舉133公斤，抓舉103公斤，總計236公斤的成績，為中華台北隊奪得本屆奧運會首面金牌。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-57983555</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-57983555</guid>
-            <pubDate>Tue, 27 Jul 2021 11:04:51 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[中國教育減負新政衝擊波 培訓機構股價暴跌千億投資被困]]></title>
             <description><![CDATA[中國政府要求學科類培訓機構一律不得上市融資，嚴禁資本化運作。已違規的要進行清理整治。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/business-57961427</link>
@@ -638,32 +631,11 @@
             <pubDate>Sun, 25 Jul 2021 10:41:56 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[河南水災：城市災難應急管理模範生香港可否被借鑒？]]></title>
-            <description><![CDATA[河南鄭州水災引發地鐵淹水致死等嚴重災情，中國民眾在網絡上追究責任之餘，也有人放眼其他地方的防洪應急經驗。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-57941051</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-57941051</guid>
-            <pubDate>Fri, 23 Jul 2021 11:38:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[台灣防疫降級和奧運奪金迎來「雙喜臨門」]]></title>
-            <description><![CDATA[台灣新冠疫情趨緩，防疫警戒由三級降至二級同日，恰逢舉重拿下東京奧運首金，讓低迷已久的社會氣氛出現些許喜慶與活力。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/57984577</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/57984577</guid>
-            <pubDate>Tue, 27 Jul 2021 19:07:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[周冠威：堅持記錄「時代革命」的偏鋒香港導演]]></title>
             <description><![CDATA[香港電影導演周冠威，在2019年香港反修例運動期間出現在示威現場，記錄了這場運動。他認為自己的這部紀錄片在香港上映的機會渺茫。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-57914553</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-57914553</guid>
             <pubDate>Tue, 27 Jul 2021 01:13:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[東京奧運：香港贏得久違金牌 張家朗獲得男子花劍冠軍　]]></title>
-            <description><![CDATA[香港男子擊劍選手張家朗在男子花劍個人項目奪得金牌，是香港歷來第四面奧運獎牌。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-57973739</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-57973739</guid>
-            <pubDate>Mon, 26 Jul 2021 15:13:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[BBC中文合作伙伴]]></title>
