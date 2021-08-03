@@ -1,235 +1,939 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title><![CDATA[News - Chinese [KBS WORLD Radio] | 国际]]></title><link><![CDATA[http://world.kbs.co.kr/rss/rss_news.htm?lang=c&amp;id=In]]></link><ttl>15</ttl><description><![CDATA[重点报道发生在韩半岛上的重大事件]]></description><language>zh</language><item><title><![CDATA[美国务卿并无计划在东盟地区论坛外长会上与北韩接触]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72462]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国国务院表示，美国国务卿布林肯并无计划在6日举行的东盟地区论坛（ARF）外长会期间与北韩方面进行接触。 
- 
-美国国务院一位高层人士当地时间2日通过电话简报回答“若北韩方面出席6日举行的东盟地区论坛外长会，美国国务卿布林肯是否会与北韩外务相进行接触”的提问时表示，预计北韩将会像往年一样出席会议，但布林肯并无计划针对某一特定问题与北韩方面会晤。
- 
-东盟外长会及系列会议期间举行的东盟地区论坛外长会是北韩唯一参与的地区多边安全协议体，北韩方面几乎每年都出席该项会议。北韩外务相李善权是否出席今年的会议尚不可知。
- 
-此前，美国国务院表示，美国国务卿布林肯预定本周出席5个东盟系列视频外长会。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72462">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Tue, 03 Aug 2021 10:53:26 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72462]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202108/210803093702_92.jpg' type='image/jpeg' /></item><item><title><![CDATA[联合国：北韩粮食短缺或进一步加剧]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72452]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：联合国下属机构分析认为，北韩粮食短缺问题或将进一步恶化。
- 
-联合国粮食及农业组织（FAO）和世界粮食计划署(WFP)在当地时间7月30日发布的联合报告中对北韩的粮食短缺问题深表忧虑。
- 
-报告推算，去年11月至今年10月北韩将有约86万吨的粮食缺口。在相关数据极度有限的情况下，根据北韩中央统计局的最新粮食状况表和联合国粮食及农业组织全球粮食和农业信息及预警系统 (GIEWS)分析显示，这一期间北韩需要进口约110万吨粮食，但正式进口量仅为20.5万吨。
- 
-报告指出，不足的86万吨粮食相当于北韩2.3个月的粮食消费量，导致北韩粮食短缺问题的主要原因是北韩当局限制国际社会人道主义援助和停止对外贸易。报告表示，从新冠疫情全球大流行初期开始，北韩采取限制贸易和国内移动以及管制边境等严厉措施，预计北韩将继续采取这些措施。
- 
-报告还指出，北韩去年8月初到9月中旬遭遇的暴雨和多次台风等极端天气给北韩粮食生产带来了严重影响，北韩今年8-10月也可能将遭遇严重台风袭击。在此境况下，若北韩不能得到粮食援助，今年8-10月北韩居民的生活可能将十分艰难。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72452">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Mon, 02 Aug 2021 16:12:42 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72452]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202108/210802125012_100.jpg' type='image/jpeg' /></item><item><title><![CDATA[美国防部：联合军演是韩美两国间的决定]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72446]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：针对北韩劳动党副部长金与正就韩美联合军演发表谈话，美国国防部表示，任何决定都将在美韩双方协议之下做出。
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.thestandnews.com/rss</id>
+    <title>立場新聞 Stand News - 全部文章</title>
+    <updated>2021-08-03T02:16:05.528Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.thestandnews.com"/>
+    <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
+    <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[【東京奧運．不斷更新】第 11 日賽事　乒乓球女團港隊四強迎日本　110 米欄陳仲泓出戰]]></title>
+        <id>https://www.thestandnews.com/sport/ab%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%E7%AC%AC-11-%E6%97%A5%E8%B3%BD%E4%BA%8B-%E4%B9%92%E4%B9%93%E7%90%83%E5%A5%B3%E5%9C%98%E6%B8%AF%E9%9A%8A%E5%9B%9B%E5%BC%B7%E8%BF%8E%E6%97%A5%E6%9C%AC-110-%E7%B1%B3%E6%AC%84%E9%99%B3%E4%BB%B2%E6%B3%93%E5%87%BA%E6%88%B0</id>
+        <link href="https://www.thestandnews.com/sport/ab%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%E7%AC%AC-11-%E6%97%A5%E8%B3%BD%E4%BA%8B-%E4%B9%92%E4%B9%93%E7%90%83%E5%A5%B3%E5%9C%98%E6%B8%AF%E9%9A%8A%E5%9B%9B%E5%BC%B7%E8%BF%8E%E6%97%A5%E6%9C%AC-110-%E7%B1%B3%E6%AC%84%E9%99%B3%E4%BB%B2%E6%B3%93%E5%87%BA%E6%88%B0"/>
+        <updated>2021-08-03T01:58:33.361Z</updated>
+        <summary type="html"><![CDATA[東京奧運踏入第 11 天，今日焦點為乒乓球女子團體賽四強戰，由杜凱琹、李皓晴及蘇慧音組成的港隊，將會在傍晚 6 時半挑戰主隊日本。差不多同一時間，港將陳仲泓則出戰男子 110 米跨欄第 4 組初賽，同組強敵環伺，包括上屆奧運銀牌得主西班牙人 Orlando Ortega。]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/Untitled-5-01.png"></figure><p>東京奧運踏入第 11 天，今日焦點為乒乓球女子團體賽四強戰，由杜凱琹、李皓晴及蘇慧音組成的港隊，將會在傍晚 6 時半挑戰主隊日本。</p>
 
-美国国防部发言人当地时间1日书面答复金与正谈话有关问题时表示，美方对北韩的立场不做评论，但联合军演是美韩两国间的决定。
+<p>差不多同一時間，港將陳仲泓則出戰男子 110 米跨欄第 4 組初賽，同組強敵環伺，包括上屆奧運銀牌得主西班牙人 Orlando Ortega。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="體育"/>
+        <published>2021-08-03T01:48:48.712Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《女人街，再見了》：廖啟智與無證兒童問題]]></title>
+        <id>https://www.thestandnews.com/art/%E5%A5%B3%E4%BA%BA%E8%A1%97%E5%86%8D%E8%A6%8B%E4%BA%86%E5%BB%96%E5%95%9F%E6%99%BA%E8%88%87%E7%84%A1%E8%AD%89%E5%85%92%E7%AB%A5%E5%95%8F%E9%A1%8C</id>
+        <link href="https://www.thestandnews.com/art/%E5%A5%B3%E4%BA%BA%E8%A1%97%E5%86%8D%E8%A6%8B%E4%BA%86%E5%BB%96%E5%95%9F%E6%99%BA%E8%88%87%E7%84%A1%E8%AD%89%E5%85%92%E7%AB%A5%E5%95%8F%E9%A1%8C"/>
+        <updated>2021-08-03T01:52:47.779Z</updated>
+        <summary type="html"><![CDATA[這部本周上映的香港片，是廖啟智遺作之一，當然有紀念性。據報他參演而未映的影片多達七八部，可見這位好戲之人長期保持專業水準，演技多面又不計較角色輕重，正是「好使好用」，難怪相當多產。另一因素，是過去兩年來戲院因動亂和疫症經常關門，不少港片無法上映，近月才陸續推出。故此積關家忠導演的《女人街，再見了》，廖啟智演得甚好。他飾演九龍某條女人街的賣衫佬，十足粗魯的市井攤販，愛打麻雀，有時還似狂躁，但好心收…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210716-11_copy.png"><figcaption><span>圖片來源：《女人街，再見了》劇照</span></figcaption></figure><p>這部本周上映的香港片，是廖啟智遺作之一，當然有紀念性。據報他參演而未映的影片多達七八部，可見這位好戲之人長期保持專業水準，演技多面又不計較角色輕重，正是「好使好用」，難怪相當多產。另一因素，是過去兩年來戲院因動亂和疫症經常關門，不少港片無法上映，近月才陸續推出。故此積</p>
 
-金与正最近在谈话中敦促韩国就韩美联合军演做出果敢决定。
+<p>關家忠導演的《女人街，再見了》，廖啟智演得甚好。他飾演九龍某條女人街的賣衫佬，十足粗魯的市井攤販，愛打麻雀，有時還似狂躁，但好心收容一個無證兒童，情如骨肉，又像鬥氣冤家，經常吵鬧而「父子」情深。</p>
 
-美国国防部发言人还表示，保护兵力是美韩联合司令部的最优先考虑事项，美韩所有军演都将尊重新冠防疫方针，美韩同盟始终保持高水平的准备态势。
+<p>此片很通俗，拍攝女人街眾生相，亦像廟街龍蛇混雜，有黑幫有卧底，發生劫寶案和綁架案，搞出驚險追逃，同時煽情催淚。除了廖啟智和無證兒童，另一對重要角色是劉心悠與吳卓羲，結成「亡命鴛鴦」。可以說全片沒有冷場，然而堆砌搞戲，不能要求情理充足。</p>
 
-南北韩最近全面修复通信联络线，外界期待这将为南北和美北对话带来积极影响，韩美联合军演作出调整的可能性也引发了关注。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72446">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Mon, 02 Aug 2021 10:11:06 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72446]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202108/210802093921_93.jpg' type='image/jpeg' /></item><item><title><![CDATA[日政府命令发言不妥驻韩总括公使回国]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72443]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：据《日本经济新闻》报道，日本政府已命令日本驻韩国大使馆总括公使相马弘尚回国。此前，相马弘尚针对韩国总统文在寅作出涉及性行为的贬低性发言，引发了巨大争议。
+<p>正式主角其實是無證兒童，由華洋混血的梁伽榕飾演，他「靚仔」又聰明生動，惹人好感。這角色由於無證，只能困在女人街假扮學生，被迫慣於說謊。男童偶然遇上被綁架的富家小女孩，發生天真的「兄妹情」，渴望有真正家庭，成為此片的戲肉。壓軸戲就是他與劉心悠、吳卓羲企圖救出小女孩的驚險過程，結局特別煽情。</p>
 
-韩国外交部确认了这一消息。外交部表示，具体内容将由日本政府公布，希望相马弘尚能够尽快回国。
+<p>梁伽榕是天才童星，小小年紀便有明星感，相信可以提名最佳新人。至於來自大陸的無證兒童，香港曾經有大新聞，惹起爭議，當年很多人認為應該遣返內地，恐怕一旦港府收容，便有越來越多無證兒童湧來。</p>
 
-相马弘尚在7月中旬与韩国一家媒体共进午餐时针对文在寅作出了不妥当发言，随后韩国外交部持续要求日本政府迅速采取相应措施。
+<p>片中廖啟智非常同情這個男童，很擔心他被警方查到而遣返大陸。不過，我覺得這男童留在女人街並非好事，因為不能上學，又不敢走出女人街，簡直毫無出路，而且患病無法求醫，有生命危險。其實這類情況，應該交由政府處理，平民難以解決，一片好心反而可能釀成悲劇。</p>
 
-日本首相菅义伟也对相马弘尚的发言作出了批评。菅义伟表示，作为外交官，这是极为不妥当的言论，对此感到遗憾。
+<p>想起近年大陸女導演白雪拍攝的《過春天》，主角並非無證兒童，而是「單非」有證中學女生，每天從深圳跨境到香港上學，她想賺錢旅遊日本，於是經常為非法集團帶「水貨」上大陸，終於出事。劇情主要發生在香港，拍得甚佳。</p>
 
-相马弘尚在韩日就文在寅出席东京奥运会开幕式进行磋商的情况下作出了相关发言，有意见认为，这导致韩日首脑会谈未能举行。  ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72443">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Mon, 02 Aug 2021 09:45:30 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72443]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202108/210802092729_64.jpg' type='image/jpeg' /></item><item><title><![CDATA[日媒：韩发布重启南北通信联络线前已通报美日]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72422]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：日本共同通信社30日报道，韩国政府发布文在寅总统与北韩国务委员长金正恩就南北韩重新恢复通信联络线达成协议的消息之前，已通过外交途径通报日本和美国。 
- 
-据韩日外交消息灵通人士表示，韩国政府在发布重启通信联络线消息的前一天26日之前，已向日方进行了介绍。
- 
-共同通信社表示，虽然日韩关系因日帝强占时期强征韩国劳工等问题而陷入僵局，但在对北韩政策方面，文在寅政府重视日韩美三方的合作，表现出与日本历史问题分开来谈的态度。
- 
-共同通信社还说，美国拜登政府试图恢复特朗普政府时期弱化了的同盟关系，重视日美韩三方合作，文在寅政府考虑到美方的立场，在发布重启南北通信联络线的消息前预先通报日美。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72422">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Fri, 30 Jul 2021 10:33:24 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72422]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210730092709_95.jpg' type='image/jpeg' /></item><item><title><![CDATA[日本单日新增新冠病例首次接近1万例 奥运会如履薄冰]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72408]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：28日，正在举行奥运会的日本新增近1万例新冠确诊病例，这是新冠疫情暴发以来，日本单日新增病例首次接近1万例。
- 
-当天，本届奥运会举办地日本东京新增逾3000例新冠确诊病例。这是日本去年1月出现首例新冠病例以来，东京单日新增病例首次超过3000例。此前，有专家警告东京单日新增病例或于8月初增加到3000例，但实际增速快于预期。
- 
-新冠疫情还在日本其他地区快速蔓延，日本全境单日新增病例首次接近1万例。尤其是日本首都圈疫情形势十分严峻，正在举办足球和棒球比赛的神奈川县单日新增病例也首次超过1000例。
+<p>《過春天》的女生，與內地媽媽一起住在深圳，飾演香港爸爸的正是廖啟智，在香港有妻有孩，女生只能偷偷摸摸與他會面。廖啟智佔戲不多，低調而傳神，亦演得好。實際上，跨境有證學生甚多，又有香港出生的「雙非」有證兒童，原來超過二十萬，也曾引起爭議。相比起來，無證兒童大概不是很多吧？無論如何，香港與內地的關係實在很複雜。</p>
 
-目前，东京已发布“紧急事态宣言”，东京周边的3个县也表示将要求政府发布“紧急事态宣言”。但日本民众对反复提高防疫级别感到疲劳，且限制餐厅销售酒等防疫措施起不到实质性作用，东京都也未显示出“紧急事态宣言”的效果。再加上传播力极强的新冠病毒德尔塔变异毒株感染病例大幅增加， 目前日本明显呈现出第5轮新冠疫情暴发的态势。专家警告日本疫情形势可能进一步恶化。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72408">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Thu, 29 Jul 2021 13:18:43 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72408]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210729125557_85.jpg' type='image/jpeg' /></item><item><title><![CDATA[美韩日事务副助理国务卿：20世纪蛮行历史无法改变 但韩日需加强合作]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72402]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国国务院负责韩日事务的副助理国务卿马克·兰伯特当地时间28日指出，日本在强占期的行为是蛮行，但同时韩日应将历史问题与当前关系分开对待、加强合作。
+<p>說起來，廖啟智正式做主角的電影不多，做配角就無論佔戲多少也往往有突出表現。他主演之片，較多人提到《點五步》，他演捧球教練。我亦看過他在《大同：康有為在瑞典》主演康有為，這是陳耀成導演的冷門另類影片，結合紀錄片、劇情和舞台式表演。</p>]]></content>
+        <author>
+            <name>石琪</name>
+            <uri>https://www.thestandnews.com/author/%E7%9F%B3%E7%90%AA</uri>
+        </author>
+        <category label="藝術"/>
+        <published>2021-08-03T01:52:47.779Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港建內地課程學校的 3 個實務問題]]></title>
+        <id>https://www.thestandnews.com/society/%E9%A6%99%E6%B8%AF%E5%BB%BA%E5%85%A7%E5%9C%B0%E8%AA%B2%E7%A8%8B%E5%AD%B8%E6%A0%A1%E7%9A%84-3-%E5%80%8B%E5%AF%A6%E5%8B%99%E5%95%8F%E9%A1%8C</id>
+        <link href="https://www.thestandnews.com/society/%E9%A6%99%E6%B8%AF%E5%BB%BA%E5%85%A7%E5%9C%B0%E8%AA%B2%E7%A8%8B%E5%AD%B8%E6%A0%A1%E7%9A%84-3-%E5%80%8B%E5%AF%A6%E5%8B%99%E5%95%8F%E9%A1%8C"/>
+        <updated>2021-08-03T00:44:24.911Z</updated>
+        <summary type="html"><![CDATA[近日教育局邀請團體於天水圍毗鄰香港濕地公園的一幅面積八千多平方米土地，營運提供 12 年中小學班級的中國內地課程學校（下稱內地課程），預計為非本地學生提供 900 個學額，並擬於 2025/26 學年開始運作。教育局表明，辦學團隊須「有開辦內地課程經驗，並承諾將設有機制確保其內地課程具備質素」，且須獲得中聯辦教育科技部發出的支持信件。而學校亦將以私立形式營運，局方不會提供任何經常資助或非經常補助…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/e5b7a5e4bd9ce58d80e59f9f-1_on22jXx.png"><figcaption><span>作者製圖</span></figcaption></figure><p>近日教育局邀請團體於天水圍毗鄰香港濕地公園的一幅面積八千多平方米土地，營運提供 12 年中小學班級的中國內地課程學校（下稱內地課程），預計為非本地學生提供 900 個學額，並擬於 2025/26 學年開始運作。教育局表明，辦學團隊須「有開辦內地課程經驗，並承諾將設有機制確保其內地課程具備質素」，且須獲得中聯辦教育科技部發出的支持信件。而學校亦將以私立形式營運，局方不會提供任何經常資助或非經常補助金。</p>
 
-兰伯特当天在华盛顿出席由韩美同盟财团等主办的和平大会，他在回答“韩美日合作为何重要”的提问时表示，这是一个课题，韩国和日本是美国在亚洲最强有力的盟友。若韩日两国不合作，美国的安全将受到影响，韩日的安全同样也会受到影响。
+<figure>
+<div>
+<div data-href="https://www.facebook.com/standnewshk/posts/4347212462031007" data-width="552"><iframe allowfullscreen="allowfullscreen" data-testid="fb:post Facebook Social Plugin" frameborder="0" height="1000px" name="f1db51eb54f8b2" scrolling="no" src="https://www.facebook.com/v2.3/plugins/post.php?app_id=249643311490&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df60027fb83d27c%26domain%3Dlky.ventures%26origin%3Dhttps%253A%252F%252Flky.ventures%252Ff13b9b8d1ed757%26relation%3Dparent.parent&amp;container_width=552&amp;href=https%3A%2F%2Fwww.facebook.com%2Fstandnewshk%2Fposts%2F4347212462031007&amp;locale=zh_TW&amp;sdk=joey&amp;width=552" title="fb:post Facebook Social Plugin" width="552px"></iframe></div>
+</div>
+</figure>
 
-兰伯特还指出，历史是无法改变的，20世纪发生的蛮行十分明确。这一发言被认为是指日本在强占期间犯下的残暴罪行。不过兰伯特也表示，将这一问题放入一个篮子进行应对，我们的课题是在另一个篮子里推动美韩日在21世纪展开合作。
+<p>在香港建立內地課程的學校不僅開創香港先河，假如成事的話也應成為內地課程面向國際的重要試點 — 現時不少國際教育組織如國際文憑組織（預科課程稱為 IBDP）、英國的國際評審機構（提供課程有 A Level 或 International Advanced Level, IAL）均在世界各地推廣、監管當地學校營運其認可的課程，但國家教育部卻未有同類機構推廣「普通高等學校招生全國統一考試」（高考）。</p>
 
-兰伯特强调，韩国与日本维持友好关系，韩国年轻人将更为安全、稳定，韩国很有可能变得更为繁荣。这对日本、美国的年轻人也是一样的。
+<figure>
+<blockquote>
+<p>假如香港成為試點的話，或許可以成為國家教育政策的一大突破，也呼應了近日教育部為實現「兩個一百年」而推出的《中國教育現代化2035》十大戰略目標之一：全面加強與世界各國和國際組織的教育務實合作，提升我國教育國際影響力。</p>
+</blockquote>
+</figure>
 
-此前，兰伯特曾就韩国总统文在寅访日计划落空表示担忧，不过他也表示，韩日两国副外长之间的对话存在和解与妥协，若两国希望美国发挥作用，美国应从中扮演一定角色。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72402">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Thu, 29 Jul 2021 10:10:13 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72402]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210729103606_38.jpg' type='image/jpeg' /></item><item><title><![CDATA[美国：支持南北韩对话与沟通]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72387]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国国家安全委员会（NSC）印太协调员库尔特·坎贝尔对南北韩进行对话与沟通表示支持。 
- 
-库尔特·坎贝尔在回答是否得知南北韩重新恢复通信联络线的提问时表示，美国支持南北韩对话与沟通。库尔特·坎贝尔表示已获悉南北韩重新恢复了通信联络线。
- 
-美国拜登政府成立后，多次敦促北韩无条件重启对话，因此韩国与美国或已预先紧密共享了南北韩重启对话的信息。
- 
-美国国务院也在记者会上对南北韩重启通信联络线表示欢迎，认为这是为韩半岛无核化作出的积极外交努力。
- 
-另外，正在亚洲地区进行第二次巡访的美国国防部长奥斯汀表示，已敞开与北韩进行对话之门。奥斯汀在回答韩美日三国为应对北韩核威胁有哪些合作方案的提问时强调对话与沟通。奥斯汀说，美国希望与北韩改善关系的意志十分明确，并再次强调美国愿意与北韩进行对话。
- 
-南北韩重新恢复通信联络线是否有助于美国与北韩重启对话尚不可知，但以过去南北韩对话对美北关系起到积极影响来看，也有观点预测，北韩有可能战略性重返对话。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72387">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Wed, 28 Jul 2021 13:24:34 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72387]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210728124701_40.jpg' type='image/jpeg' /></item><item><title><![CDATA[美国对南北韩恢复双方通信联络表示欢迎]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72380]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国国务院当地时间27日积极评价南北韩重新恢复通信联络线，并对此表示欢迎。
- 
-虽然美国已多次提议北韩进行对话，但仍未能为美北关系找到突破口。在此背景下，有观点认为，美国或期待南北韩改善双边关系能为美北无核化谈判创造有力条件。
- 
-美国国务院副发言人波特在当天召开的新闻发布会上回答记者有关“美国对南北韩恢复双方通信联络线持何种立场”的提问时表示，美国支持南北韩对话，并欢迎双方恢复通信联络线。波特称，美方认为这是积极的信号，在实现韩半岛完全无核化及永久和平问题上，外交与对话是必不可少的条件。
- 
-美国国家安全委员会（NSC）印太协调员库尔特·坎贝尔也对南北韩改善双边关系表示支持。 库尔特·坎贝尔当天在华盛顿一家酒店与韩美同盟财团和驻韩美军战友会有关人士共进早餐，随后向特派记者表示，美国支持南北韩对话与沟通。
- 
-根据文在寅总统和北韩国务委员长金正恩的协议，南北韩于韩国时间27日上午10时全面恢复双方通信联络线，这距离北韩去年6月9日单方面切断南北韩通信联络线时隔413天。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72380">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Wed, 28 Jul 2021 09:30:37 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72380]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210727124306_83.jpg' type='image/jpeg' /></item><item><title><![CDATA[拜登：对韩美历史性的友谊感到自豪]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72371]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国总统拜登在韩国战争停战纪念日的前一天(当地时间26日)对韩美两国具有悠久历史的传统友谊感到无比的自豪。
+<hr>
+<h2>教育部轄下未有推廣與評審內地課程的國際機構</h2>
 
-拜登在当天发布的停战纪念日公告中称，美国和韩国是付出共同牺牲的具有悠久历史的同盟。1953年缔结《停战协定》已过去近70年，韩半岛仍处于分裂状态。韩国已成为繁荣昌盛的国家，美韩两国关系在几十年的和平环境中获得了繁荣发展。在韩国战争爆发之际，180万美军为了维护韩国而浴血奋战，在恶劣的天气和地形中，美军展现出大无畏的勇气和忍耐。
+<p>然而，沒有先例意味著須要「摸着石頭過河」，當中有 3 個實務問題須要教育當局、有意營運該學校的辦學團體審視。首先便是該學校如何「確保其內地課程具備質素」。內地境內的主流學校均為公立，另有根據《中外合作辦學條例》、《民辦教育促進法實施條例》為開辦「國際學校」（實行非內地課程的學校）及「民辦學校」（實行內地課程的非公立學校）提供政策基礎。以家長最關心的考試問題為例，現時修讀內地課程的學生，須參加由不同省份舉辦的升學考試，及由國家教育部統籌的高考。國際學校學生如沒有國內學籍但又希望參與「高考」，則須以「社會考生」的身份報名；而「民辦學校」學生則與公立學校無異。</p>
 
-拜登在上述公告中表示，美韩两国的献身与牺牲换来了和平与稳定的果实。派驻海外的美军与韩国将士一起训练，继承了军人的献身精神，并且维护了韩半岛的稳定态势。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72371">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Tue, 27 Jul 2021 15:54:19 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72371]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210727124641_95.jpg' type='image/jpeg' /></item><item><title><![CDATA[美国务院：强制送还脱北者属人权问题 应尽力减轻北韩居民痛苦]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72344]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国国务院当地时间23日就中国有可能强制送还脱北者表示忧虑称，相关问题属于人权问题，应努力减轻北韩居民的痛苦。
+<p>假如教育部為香港這間學校打開新政之門，學校無疑類似國內的「民辦學校」。假如以「民辦學校」為標準的話，內地對民辦學校進行質素保證及課程評審的工作，均由縣級以上教育行政部門負責，不同省市亦有一些政策法規，例如廣東省《非營利性民辦學校監督管理實施辦法》、《民辦學校規範達標計劃和品牌提升計劃（2019—2022 年）》，與深圳市《民辦中小學設置標準》等。</p>
 
-美国国务院副发言人波特在电话例行记者会上就相关提问表示，美国将人权问题置于外交政策的中心并专注于此，其中也包括北韩人权问题。
+<figure>
+<blockquote>
+<p>換言之，獲得毗鄰的廣東省教育廳、深圳市教育局支持，有助維持該學校的質素，長遠則應考慮在教育部國際合作及交流司下開設專責的課程評審機構。</p>
+</blockquote>
+</figure>
 
-此前国际人权组织“人权观察”（Human Rights Watch）指出，中国政府至少关押了1170余名脱北者，并有可能在北韩重新开放边境后强制送还。
+<hr>
+<h2>新校人事組織與課程活動或引起公眾關注</h2>
 
-波特表示，在对北韩问题的总体性解决方案中，我们将继续把人权问题放在优先位置。即使在与北韩政权意见不一致的情况下，我们仍应尽最大努力减轻北韩居民的痛苦。
+<p>師資是學校成功的關鍵之一，假如要符合內地民辦學校要求，校內各級教師便應分別持有由內地政府頒發的「校長任職資格證」、「教師資格證」。雖然 2019 年國家開放香港居民報考內地的教師資格證，但在這所學校開始營運的時候，也許須要聘用內地的認證教師，並獲得港府認可的教育文憑，才可在香港執教。</p>
 
-波特指出，我们将努力以不对北韩居民造成伤害的方式行动，并继续支持国际社会重要的人道主义支援努力，希望北韩能够接受。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72344">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Mon, 26 Jul 2021 10:33:06 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72344]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210726093158_12.jpg' type='image/jpeg' /></item><item><title><![CDATA[美国务院：若符合利益将与中国合作]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72321]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：在美国副国务卿温迪·谢尔曼访问中国之前，美国国务院当地时间22日暗示谢尔曼将与中方就北韩问题合作进行讨论。 
- 
-美国国务院发言人普赖斯当天在记者会上表示，若符合国家利益，美国将与中国保持合作，北韩问题也是符合利益的领域之一。
- 
-普赖斯在提及继访问韩日之后美国副国务卿谢尔曼将于25-26日访问中国时表示，谢尔曼将与中方商讨包括竞争、敌对和暂时合作等两国关系上的所有问题。普赖斯说，在北韩问题方面，美国希望了解中国能起到何种作用。
- 
-普赖斯还说，美国国务卿布林肯与中国政治局委员杨洁篪6月进行通话时向中方介绍美方对北韩政策研讨结果也是因为美方将北韩问题视为两国可进行合作的领域。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72321">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Fri, 23 Jul 2021 11:33:45 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72321]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210723093333_74.jpg' type='image/jpeg' /></item><item><title><![CDATA[世界遗产委员会对日本歪曲军舰岛历史表示强烈遗憾]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72319]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：联合国教科文组织（UNESCO）世界遗产委员会认为日本未能充分介绍战争期间强征韩国劳工的有关情况，对日本管理世界遗产的方式表示强烈遗憾。 
- 
-世界遗产委员会当地时间22日在以视频方式举行的第44届会议中一致通过决定书，敦促日本政府改善介绍军舰岛（又称端岛）的东京产业遗产信息中心。当天通过的决定书与本月12日在世界遗产中心官网公开的决定书内容一致。
- 
-世界遗产委员会对日本仍未认真履行相关决定表示强烈遗憾，建议日本充分参考共同调查团的报告，履行相关决定。
- 
-此前，共同调查团6月7-9日对东京产业遗产信息中心进行视察后，在发布的报告中要求日本政府采取措施，让人们了解违背个人意愿强征韩国等国劳工在恶劣条件中劳役的有关事实和日本政府强征劳工政策，并为纪念遇害者采取适当措施。
- 
-韩国外交部表示，韩国政府密切关注日本改善东京产业遗产信息中心的具体措施履行情况，敦促日方尽早和认真履行世界遗产委员会的决定。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72319">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Fri, 23 Jul 2021 10:28:33 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72319]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210723093137_23.jpg' type='image/jpeg' /></item><item><title><![CDATA[美副国务卿谢尔曼访韩 会晤韩外交安全官员]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72302]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：正在访问亚洲的美国副国务卿温迪·谢尔曼22日起正式展开访韩日程。
+<figure>
+<blockquote>
+<p>內地的課程與課外活動，有不少香港較為陌生的事物。例如歷史課、思想政治課等科目，前者明顯有不少意識形態用字，後者雖然與香港德育及公民教育相近，但其教育理論卻大有分別。</p>
 
-谢尔曼22日上午起先后与韩国政府外交安全领域高层人士会晤。预计谢尔曼将向韩方说明拜登政府在韩美同盟、韩半岛问题、气候变化、新冠疫情应对等领域的政策方向，并与韩方交换意见。
+<p>而內地大部分學校均設立中國共產黨支部、共產主義青年團、少年先鋒隊等，近年內地亦積極加強民辦學校的黨建、團建工作。以上這些在內地極為平常的事，在香港卻會引起公眾關注。將來這所學校是否存在這些科目與組織，除了辦學團體須要思考外，內地的政策法規也有關鍵影響：如這所學校沒有以上的課程與組織，是否符合「內地課程」的定義？</p>
+</blockquote>
+</figure>
 
-23日，韩国外交部次官崔钟建将与谢尔曼举行第9次韩美副外长战略对话。这是两国继去年7月后再次举行战略对话，也是拜登政府成立后的首次。双方将对全球疫苗合作伙伴关系、加强半导体和大容量电池供应链、推动连接新南方政策和印度太平洋战略等今年5月韩美首脑会谈取得的成果进行评估，并探讨具体履行方案。双方还将就推动北韩重返对话的方案进行磋商。
+<p>辦學另一項重要問題，便是收生。接受教育的權利在香港包括永久居民與非永久居民 — 如有經濟需要，非永久居民只要符合學生資助辦事處規定，更可申領各類津貼。身為家長，最關注自然是學校質素與學費。如以「是否須要繳交學費」為香港的學校分類，毋須繳交學費的學校（下稱甲類）多已參與局方的統一派位，其派位組別（Banding）、學校的公眾形象（校方自我宣傳與其「見報」的情況）構成其學校質素。至於須要繳交學費的學校（下稱乙類），由於有一定的教學彈性，其學校質素便包括畢業生在不同國際考試的成績、教師團隊資歷（有些學校標榜教師持有外國名牌大學學歷、博士學位等），有些學校更有獨特的教育理念（例如森林校園 Forest School）。</p>
 
-谢尔曼将在结束访韩日程后，从23日起对蒙古进行访问，并从25日起对中国进行为期2天的访问。不少观察认为，美中两国有可能就拜登与习近平的首次面对面会晤互相试探意向。不过若双方就人权问题、台湾海峡问题等中国强烈抗议的议题展开全面探讨，那么此次会晤有可能无果而终。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72302">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Thu, 22 Jul 2021 09:17:21 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72302]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210722093944_10.jpg' type='image/jpeg' /></item><item><title><![CDATA[韩美日在东京举行副外长会议 商讨韩半岛无核化等合作方案]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72293]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：韩国、美国和日本外交副部长协商会议21日在日本东京举行，这是韩美日时隔近4年首次举行这一会议。 
- 
-韩国外交部第一次官崔钟建、美国副国务卿温迪·谢尔曼和日本外务审议官森健良当天上午在日本外务省饭仓公馆举行第8次韩美日外交副部长协商会议。
- 
-韩美日于2017年10月举行了最后一次外交副部长协商会议。该会议从2015年4月开始举行，2016年共举行了4次会议，但2017年前美国特朗普政府成立后，会议次数减少。此次以美国副国务卿温迪·谢尔曼巡访亚洲为契机，会议在美国的主导下得以重启。
- 
-美国国务院在会议结束后发布声明称，美韩日三国商定在气候变化、应对新冠疫情和经济复苏等方面加强三方合作。美国国务院还说，三方在会议中再次确认共同努力实现韩半岛无核化和密切关注北韩推进核计划带来的威胁，并对破坏国际秩序的行为持反对立场。三方还强调有必要维持印度太平洋地区的自由开放。
- 
-美国副国务卿温迪·谢尔曼表示，美韩日三国的合作明确地向北韩传达了信息。
- 
-正在日本进行访问的韩国外交部第一次官崔钟建前一天在日本外务省饭仓公馆与日本外务审议官森健良举行了韩日外交副部长会谈。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72293">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Wed, 21 Jul 2021 13:26:40 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72293]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210721123705_53.jpg' type='image/jpeg' /></item><item><title><![CDATA[美国务院：韩美日保持牢固关系至关重要]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72289]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国副国务卿温迪·谢尔曼正在对东北亚地区进行巡访。在此情况下，美国国务院表示，为了守护共同安保和利益，美国、韩国、日本三国关系至关重要。
- 
-美国国务院发言人内德·普赖斯在当地时间20日召开的例行新闻发布会上表示，美韩日保持牢固且有效的三边关系很重要，这是美方的一贯立场。普赖斯在有记者提到“文在寅总统以东京奥运会为契机访问日本的计划告吹，韩日关系出现新裂痕”时作出了上述表示。普赖斯称，为了守护自由、民主主义、人权、女性权利，并应对气候变化、促进和平与安保、加强法治，从而实现共同安保和利益，三国间的关系至关重要。
- 
-在有记者问到慰安妇问题时，普赖斯表示，2015年韩日签署慰安妇问题协议时，美方也对此表示欢迎，将其视为展现两国建立建设性关系决心的事例。双方在处理敏感的历史问题时，也要先考虑共同的地区和国际问题，继续保持合作。
- 
-普赖斯在谈到谢尔曼访问中国问题时称，将继续寻找与中国官员接触的机会，如果访问中国能给美国带来实质性和建设性利益，谢尔曼将会予以考虑。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72289">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Wed, 21 Jul 2021 10:31:43 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72289]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210721093111_29.jpg' type='image/jpeg' /></item><item><title><![CDATA[韩日在东京举行外交副部长会谈]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72288]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：文在寅总统访问日本计划告吹后，韩日外交副部长20日在日本东京举行会谈。
- 
-韩国外交部第一次官崔钟建和日本外务审议官森健良当天下午在日本外务省公馆举行会谈，就两国共同关心的问题进行了讨论。
- 
-崔钟建在当天的会谈中问及日本政府对改善韩日关系的决心，并要求日方对发表不当言论引起争议的日本驻韩国大使馆总括公使相马弘尚快速采取适当措施。双方还就日帝强制征用、慰安妇问题以及新冠疫情合作方案等事宜进行了讨论。
- 
-在会谈前，双方拍摄纪念合影，但气氛十分冷漠，反映出严重恶化的两国关系。
- 
-崔钟建21日在东京出席第8次韩美日外交副部长协商会议，美国副国务卿温迪·谢尔曼也与会，共同讨论北韩问题、气候变化、新冠疫情等合作方案。这是韩美日外交副部长时隔约4年首次举行这一会议。随后，崔钟建将于23日在首尔与谢尔曼举行第9次韩美外交副部长战略对话。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72288">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Wed, 21 Jul 2021 09:58:14 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72288]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210721092341_19.jpg' type='image/jpeg' /></item><item><title><![CDATA[日媒：韩日将于奥运会开幕日举行首脑会谈]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72259]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：据日本《读卖新闻》报道，韩日两国首脑商定于23日奥运会开幕日在东京会晤。
+<hr>
+<h2>家長最關注學費與學校質素 新校定位模糊</h2>
 
-《读卖新闻》称，韩国总统文在寅决定借奥运会契机访日，此次日韩首脑会谈将在东京元赤坂迎宾馆举行。
+<p>局方認為由於香港沒有開辦內地課程的學校，一些內地家庭如希望子女回內地升學，則會難以重新融入內地教育系統；隨著大灣區發展，局方推測本港更會增加對內地課程的學額需求。根據政制及內地事務局數字，從內地持單程通行證的新來港兒童數目由 2016 年的高位 14,042 人，跌至 2019 年的 9,774 人；入境處亦有為獲得在港簽證者的子女（受養人）發出簽證，2019 年以此簽證在港生活者有近 25,000 人（當中包括持內地居民身份證者，惟數字並未細分）。</p>
 
-有观察认为，两国首脑将在会谈中就日军慰安妇、强征劳动受害人问题等进行探讨。报道还指出，最近针对文在寅作出不恰当发言的日本驻韩国大使馆总括公使相马弘尚将被更换。
+<p>從數字而言，教育局針對的應是以受養人簽證來港者，這些人士的家境將影響了他們的選校方針。現時內地家長在港為子女報讀學校，均須要與本地家長競爭。假如不願負擔學費，則可選擇到甲類學校「叩門」插班：現時在新界北部便有很多學校取錄了不少新來港學生，有些學生甚至每日往返兩地。至於願意負擔學費的話，乙類學校則各自有其收生政策，有一些名牌國際學校除了層層面試外，更須要購買學校債券，學費對一般人而言實屬天價；亦有由本地辦學團體營運的直資學校，這些學校除了有本地課程，更設有 IB 或英國課程，每年學費約數萬元不等。</p>
 
-相马弘尚本月15日在与韩国媒体记者对话的过程中使用了不恰当的表述妄称文在寅在改善韩日关系方面自以为是。
+<figure>
+<blockquote>
+<p>新校最大的問題是，假如內地家長相信內地課程，以大灣區未來的交通便捷，大可將子女留在內地，或每日來回兩地上課，畢竟深圳有不少質素不俗的學校，有些民辦學校更誕生過高考狀元。假如相信香港的學校，則按家境選擇甲類或乙類——由於新學校沒有政府資助或津貼，若同樣須要繳交數萬元學費的話，內地家長大可選擇由本地愛國學校營運的直資學校，多能確保子女「免受荼毒」，這些學校更為學生提供國際課程。</p>
+</blockquote>
+</figure>
 
-《读卖新闻》还指出，日本政府不希望相马弘尚的不恰当发言影响日韩首脑会谈。该报道还援引青瓦台高层人士的话报道称，关于会谈目前尚无任何确定事项。
+<p>在港建立內地課程學校必然獲得愛國陣營的支持，但不解決上述的實務問題，恐怕這所開創首例的學校，也未能發揮原有的政策期望。</p>
 
-青瓦台此前就文在寅会否访日表示，将以开放的姿态参与磋商，预计19日前后做出决定。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72259">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Mon, 19 Jul 2021 10:01:49 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72259]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210719091930_21.jpg' type='image/jpeg' /></item><item><title><![CDATA[APEC领导人非正式会议16日举行 美中俄首脑出席]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72244]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：亚太经合组织（APEC)领导人非正式会议于16日召开。
+<p>原文刊於<a href="https://lky.ventures/2021/08/02/edu-chinesemainland/?fbclid=IwAR1DwWJ9Y2esREj9RtgGiaXjHv35BdR_V8lMfoYCx1TJAwpEhlYOmMNJ0JA">作者網誌</a></p>]]></content>
+        <author>
+            <name>劉健宇</name>
+            <uri>https://www.thestandnews.com/author/%E5%8A%89%E5%81%A5%E5%AE%87</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-03T00:43:53.393Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「重返亞洲」出事？]]></title>
+        <id>https://www.thestandnews.com/finance/%E9%87%8D%E8%BF%94%E4%BA%9E%E6%B4%B2%E5%87%BA%E4%BA%8B</id>
+        <link href="https://www.thestandnews.com/finance/%E9%87%8D%E8%BF%94%E4%BA%9E%E6%B4%B2%E5%87%BA%E4%BA%8B"/>
+        <updated>2021-08-03T00:36:04.449Z</updated>
+        <summary type="html"><![CDATA[大笨象匯豐中午公布中期業績，盈利表現好過預期，稅前盈利飆升 1.5 倍，比市場估計的好。不過中午過後，匯豐股價就再次出現高飛曲墜情況，上午的升幅幾乎全數蒸發，收市升不足1%。中間出現了什麼問題？大家都知道最大問題是恢復派息後，第二次中期股息只有每股七美仙，不但低於今年二月底復派去年度末期息的15 美仙，亦遠小過市場預期。當疫情前，即是 2018 及 19 年上半年，匯豐的第二次中期股息，都可以達…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/192656337_10223147972200092_4512926440915172532_n_copy.png"><figcaption><span>Peter Wong 攝</span></figcaption></figure><p>大笨象匯豐中午公布中期業績，盈利表現好過預期，稅前盈利飆升 1.5 倍，比市場估計的好。</p>
 
-此次会议以视频方式举行，由今年的主席国新西兰提议举办。美国总统拜登、中国国家主席习近平、俄罗斯总统普京出席此次会议。继今年4月气候峰会后，三国首脑再次以视频方式会晤。韩国国务总理金富谦也出席会议。
+<p dir="auto">不過中午過後，匯豐股價就再次出現高飛曲墜情況，上午的升幅幾乎全數蒸發，收市升不足1%。</p>
 
-此次会议的主要议题是克服亚太地区公共卫生危机、加快推动经济复苏。亚太经合组织成员国领导人将发布联合声明。
+<p dir="auto">中間出現了什麼問題？</p>
 
-新西兰总理阿德恩本月12日向新西兰媒体表示，此次会议旨在探讨共同渡过新冠疫情大流行和经济危机的方案，将就克服危机的即刻行动方案交换意见。阿德恩指出，亚太经合组织的经济规模正出现第二次世界大战后最大幅度的萎缩，强调应共同应对。
+<p dir="auto">大家都知道最大問題是恢復派息後，第二次中期股息只有每股七美仙，不但低於今年二月底復派去年度末期息的15 美仙，亦遠小過市場預期。</p>
 
-亚太经合组织成立于1989年，由亚太地区21个国家组成。目前地区内新冠感染确诊病例超过5000万例，死亡人数超过100万人。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72244">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Fri, 16 Jul 2021 10:09:38 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72244]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210716093153_90.jpg' type='image/jpeg' /></item><item><title><![CDATA[韩美日副外长下周举行战略对话 协调对北政策等]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72243]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国以遏制中国和对北政策为核心的东北亚外交路线在工作层面上正式展开。
+<p dir="auto">當疫情前，即是 2018 及 19 年上半年，匯豐的第二次中期股息，都可以達到 20 美仙，現在事隔一年半暫停派息後，居然派息水平只有區區七美仙，實在令投資者非常失望，如果以出事前全年派息（18/19 年度）可以有 51 美仙計算，七美仙的水平就算再乘七，都仍然不合格。</p>
 
-美国国务院表示，副国务卿温迪·谢尔曼将于当地时间18日至25日访问韩国、日本和蒙古。谢尔曼将首先前往东京，出席时隔4年重启的韩美日副外长战略对话。在此次对话中，预计韩美日将主要探讨三国在对北政策、遏制中国等方面的协调方案。
+<p dir="auto">更令人難以接受，是管理層預告今年的股息派付水平，只會是普通股盈利的 40 至 55% 目標範圍，就更不能接受。</p>
 
-随后谢尔曼将访问韩国，并与韩国外交部第一次官崔钟建举行战略对话。此次对话距离两国副外长上一次磋商时隔1个多月，美国国务院表示，双方将探讨缓解气候变化和传染病、新冠疫情后的经济复苏等问题。
+<p dir="auto">以 2018 年度計，全年派息都可以達到每股盈利的八成。</p>
 
-由于韩国政府极为关注美北、南北对话重启的可能性，因此双方有可能对目前的情况作出评估并全面探讨重启对话的条件。与此同时，负责国防主要问题的青瓦台国家安保室第一次长访问华盛顿、主管美国核战略的美国战略司令部司令查尔斯·理查德访韩，两国安全部门高层的一系列举动引发了外界的关注。
+<p dir="auto">到 2019 年派息，為維持穩定派息政策，全年派息更要比每股盈利高七成，現在這個派息預告，簡直就是一個盈利警告。</p>
 
-美国国防部最近表示，韩美正就8月联合军演的时间和方式进行磋商，并强调与同盟国保持准备态势的重要性。
+<p dir="auto">看匯豐業績，其實盈利大數並不是非常重要，最需要看的是他的收入部份。近年銀行業面對利率近乎零息，加上疫情令經濟幾乎出現衰退，貸款增長是銀行業面對的最頭痛問題。</p>
 
-美国国务院明确指出遏制中国是谢尔曼亚洲之行的目的，不过与外界的预测不同的是，并未发布访问中国的日程。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72243">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Fri, 16 Jul 2021 09:54:31 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72243]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210716092901_36.jpg' type='image/jpeg' /></item><item><title><![CDATA[美部分放宽对伊朗金融制裁 韩企时隔3年追回7000万美元未收货款]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72231]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：韩国企业时隔3年追回了7000万美元、约折合800亿韩元的出口伊朗货物未收货款。
+<p dir="auto">看看上半年，匯豐的收入居然下跌了 4%，如果按季比較，收入更加下跌了一成，這在全球經濟第二季普遍開始出現復甦萌芽的時候，這個收入增長水平又是不合格了。</p>
 
-2018年美国特朗普政府对伊朗实施金融制裁导致韩国企业蒙受损失，最近美国国务院放宽了部分制裁规定，韩国企业得以追回未收款项。
+<p dir="auto">其實不用管理層解釋，大家都知道匯豐業績改善，主要是因為預期信貸損失錄得巨額回撥，基本上盈利只是帳面數。實際的貸款增長，看利息收入就跌了近一成。</p>
 
-美国国务院发言人普赖斯表示，美方始终认为外交是对伊朗核项目进行可验证和永久性控制的最佳手段。
+<p dir="auto">更令市場大跌眼鏡，是匯豐重返亞洲的策略，顯然出了問題，看匯控第二季香港區稅前盈利，居然跌了兩成二，按季亦跌了 7%，反映作為集團核心增長動力的香港市場，出了問題。</p>
 
-美国国务院在提交国会的免除制裁通知中表示，允许伊朗向韩国企业偿还出口商品和劳务的款项。出口货款将从伊朗冻结在韩国国内账户的70亿美元原油出口货款中扣除，并支付给30家韩国企业。
+<p dir="auto">管理層解釋，本港業務表現是受本港同業拆息影響，不過大家都知，同業市場過去半年變化不大（恒生就指出，去年第 3 季開始淨利息收益率平穩發展），匯豐香港的利息收入居然跌了兩成四，是否香港的品牌出事？</p>
 
-2018年伊朗撕毁核协议后，特朗普政府对伊朗实施金融制裁，冻结了寄存在韩国和日本银行的伊朗原油出口货款。对此，今年2月伊朗以污染海洋为由扣押韩国船舶并要求韩国尽快解决冻结资金问题。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72231">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Thu, 15 Jul 2021 10:46:46 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72231]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210715094745_21.jpg' type='image/jpeg' /></item><item><title><![CDATA[美国防部：将就韩美联合军演有关决定与韩国保持紧密磋商]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72228]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国国防部当地时间14日就即将于1个月后举行的韩美联合军演表示，将就军演的规模和范围与韩国政府保持紧密磋商并做出决定。
+<p>同一時間，作為集團重要策略的中國市場，第二季盈利按季跌了近一成二，反映集團經常掛在口中的大灣區市場，亦在期內因內地經濟復蘇乏力，影響了業務表現。</p>
 
-美国国防部发言人约翰·柯比当天在例行记者会上被问及“若韩国反对军演，美国将如何处理”的问题时表示，无法回答尚未发生的假设问题，不过可以透露的是，在关于韩半岛的所有军事作战和军演问题上，美方正与同盟国韩国保持紧密的合作与磋商。
+<p dir="auto">匯豐近年捲入的政治風波，反映兩面不是人，由王冬勝現身街站簽名支持國安法，引來英美國會批評，甚至要行政總裁祈耀年現身英國國會解畫。</p>
 
-柯比还提到了象征韩美同盟的口号“我们一起前行（We go together）”并表示这完全属实，其中包括了对军演类型、范围和参与人员规模、任务执行的讨论，所有一切都将在与同盟国韩国的紧密合作中进行。
+<p dir="auto">同一時間，匯豐在內地又因為華為孟晚舟「篤灰」事件，被內地網民及官媒猛烈批評，甚至一度傳出會被列入不可靠實體清單令股價大跌，再次反映企業必須靠邊站的殘酷現實。</p>
 
-柯比还表示，不清楚8月军演的具体情况，不过在韩半岛保持准备态势是必须且重要的，新任驻韩美军司令正就确保美韩军队保持即刻战斗准备态势与韩方伙伴展开紧密合作。
+<p dir="auto">眼下匯豐最大挑戰不是何時恢復派息或零息環境會維持多久，而是全國人大常委會 8 月 17 日至 20 日討論的「反外國制裁法」。條例一旦在香港實施，到底銀行如何應付被外國制裁的中港官員？是繼續執行外國制裁令，凍結受制裁人士銀行戶口？還是按《反外國制裁法》、不理會外國禁令？</p>
 
-柯比多次强调，力量来自于同盟，来自于与盟友韩国的合作，美方正努力在与同盟国的合作和磋商之中保持准备态势，这是双向的而非单方面的事项。
+<p dir="auto">匯豐陷入兩難局面，行政總裁祈耀年今天只是輕輕回應，稱雖然情况複雜，但該行有經驗和技巧應對。</p>
 
-柯比表示，合作时需要考虑对方的关注事项和希望，在韩半岛上的军演将根据相互间的决定进行。
+<p dir="auto">過去祈耀年屢傳出與主席杜嘉祺及其他高管不和，我估計如果業績既無改善，政治風波又無法平息，這位 CEO 未必可以坐穩，屆時匯豐就好可能要面對中美市場二揀一，重新決定遷冊回港也說不定。</p>
 
-此前，北韩谴责韩美联合军演是战争演习，主张无法与和平共存。对此，韩国统一部表示，综合考虑营造对话氛围以推进韩半岛和平进程等事宜，有必要就军演作出灵活性判断。
+<p dir="auto">原文刊於<a href="https://www.facebook.com/FINANALYSIS2021/posts/123301626686585">財經拆局</a></p>
 
-新任驻韩美军司令保罗·拉卡梅拉今年5月在人事听证会上表示，将与韩国展开磋商，决定合适的军演范围和规模，为对北外交目标提供支持。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72228">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Thu, 15 Jul 2021 09:32:16 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72228]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210703113032_88.jpg' type='image/jpeg' /></item><item><title><![CDATA[日媒：自民党干事长表示希望文在寅访日]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72227]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：据日本电视新闻网（NNN）报道，日本自民党干事长二阶俊博14日会见正在访日的韩日议员联盟会长团，表示希望韩国总统文在寅在东京奥运会开幕期间访日。
+<p>&nbsp;</p>]]></content>
+        <author>
+            <name>顏寶剛</name>
+            <uri>https://www.thestandnews.com/author/%E9%A1%8F%E5%AF%B6%E5%89%9B</uri>
+        </author>
+        <category label="財經"/>
+        <published>2021-08-03T00:26:09.063Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[德軍艦赴南中國海巡航　近 20 年來首次]]></title>
+        <id>https://www.thestandnews.com/international/%E5%BE%B7%E8%BB%8D%E8%89%A6%E8%B5%B4%E5%8D%97%E4%B8%AD%E5%9C%8B%E6%B5%B7%E5%B7%A1%E8%88%AA-%E8%BF%91-20-%E5%B9%B4%E4%BE%86%E9%A6%96%E6%AC%A1</id>
+        <link href="https://www.thestandnews.com/international/%E5%BE%B7%E8%BB%8D%E8%89%A6%E8%B5%B4%E5%8D%97%E4%B8%AD%E5%9C%8B%E6%B5%B7%E5%B7%A1%E8%88%AA-%E8%BF%91-20-%E5%B9%B4%E4%BE%86%E9%A6%96%E6%AC%A1"/>
+        <updated>2021-08-02T22:39:35.869Z</updated>
+        <summary type="html"><![CDATA[中國與多個國家在南中國海有主權爭議。德國周一（ 2 日）派遣軍艦前往南中國海巡航，是近 20 年來首次有此類行動。德國一方面指，此舉目標是維護國際秩序；另一方面又言，軍艦不會進入涉主權爭議的中國南海島礁 12 海里範圍。《德國之聲》指，德國派遣「巴伐利亞號」巡防艦 (Frigate Bayern) 展開長達 6 個月的航程&nbsp;，期間會於多個盟友港口停泊補給，並擬經過涉主權爭議的南海，或展…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/German_frigate_Bayern_F217_underway_in_the_Baltic_Sea_on_10_June_2008_0_N2tOgpa.jpg"><figcaption><span>「巴伐利亞號」巡防艦 (Frigate Bayern) （圖片來源﹕維基百科）</span></figcaption></figure><p>中國與多個國家在南中國海有主權爭議。德國周一（ 2 日）派遣軍艦前往南中國海巡航，是近 20 年來首次有此類行動。德國一方面指，此舉目標是維護國際秩序；另一方面又言，軍艦不會進入涉主權爭議的中國南海島礁 12 海里範圍。</p>
 
-报道称，韩日议员联盟会长团当天访问位于东京的自民党总部，二阶俊博委托代表团务必转达欢迎文在寅访问日本的心意。对此，韩日议员联盟方面回应称，目前正在进行探讨。
+<p><a href="https://www.dw.com/en/german-warship-sets-sail-for-indo-pacific-region/a-58733630">《德國之聲》指</a>，德國派遣「巴伐利亞號」巡防艦 (Frigate Bayern) 展開長達 6 個月的航程&nbsp;，期間會於多個盟友港口停泊補給，並擬經過涉主權爭議的南海，或展示德國不接受中國對南海主權的宣稱，有機會影響中德關係。<a href="https://www.aljazeera.com/news/2021/3/4/german-warship-to-sail-through-south-china-sea">不過德國國防部官員就曾表示</a>，不會在涉主權爭議的南海島礁 12 海里範圍；據報道，「巴伐利亞號」亦不會駛入台灣海峽。</p>
 
-报道还说，虽然二阶俊博与韩日议员联盟会长团在会晤中并未谈到韩日间的具体问题，但双方一致认为面对面展开对话十分重要。
+<p><strong>德外長﹕目標是維護國際秩序</strong></p>
 
-当天下午，会长团还与日方伙伴——日韩议员联盟干事团在位于东京的参议院议员会馆召开了联合干事会议。
+<p>德國外長馬斯 (Heiko Maas) 指，印度太平洋地區是決定未來國際秩序的一部分，表明：「我們的目標是參與維護以規則為基礎的國際秩序，並承擔責任。」<a href="http://www.reuters.com/world/china/german-warship-heads-south-china-sea-amid-tension-with-beijing-2021-08-02/">《路透社》指</a>，該艦預料會在今年 12 月中穿越南海，是自 2002 年以來首次。<a href="https://world.huanqiu.com/article/44BO18LJN7W">中國官媒《環球網》</a>引德媒《明鏡》指，德國政府曾提出讓巴伐利亞號到訪上海港，但中方未有回應。</p>
 
-日韩议员联盟代理会长卫藤征士郎表示，日韩两国正为亚洲的和平与稳定作出重大贡献，两国是亚洲、尤其是东亚稳定与和平的基石。
+<p>德國國防部長卡倫鮑爾 (Annegret Kramp-Karrenbauer) 表明，「我們希望現有法律可得到尊重、海上航線可以自由航行，開放社會得以受保護，貿易也可遵循公平規則進行。」她也在&nbsp;Twitter 表示，「訊息很明確：我們將連同夥伴及盟友，捍衛我們的價值觀與利益。」<br>
+她續指，德國於印太海域的夥伴正面臨航道封閉及安全問題。她亦曾在今年 3 月於 Twitter 指，對中國的軍事威脅腔調感到困擾，認為德國應在能與華合作的地方合作，並在必要時作反對。</p>
 
-韩国共同民主党国会议员、韩日议员联盟会长团会长金振杓提出日军慰安妇、被强征劳工、出口限制措施、福岛核污水等韩日关系面临的问题，并提议首先解决能够通过对话解开的问题。金振杓还强调，外交的基本任务是维持现状，双方应积极管理当前状况，阻止韩日关系进一步恶化。
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="de">Es ist gut, über unsere Werte zu reden, noch besser ist es, konkret etwas<br>
+dafür zu tun. Heute läuft die Fregatte „Bayern“ in Richtung <a href="https://twitter.com/hashtag/Indopazifik?src=hash&amp;ref_src=twsrc%5Etfw">#Indopazifik</a><br>
+aus – ein Zeichen für Stabilität, Wohlstand und eine regelbasierte,<br>
+multilaterale Ordnung. 1/3 <a href="https://t.co/zMv6ut2Ww7">pic.twitter.com/zMv6ut2Ww7</a></p>
+— A. Kramp-Karrenbauer (@akk) <a href="https://twitter.com/akk/status/1422095741141626883?ref_src=twsrc%5Etfw">August 2, 2021</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-当天早些时候，韩日议员联盟会长金振杓、干事长金硕基（国民力量党）、常任干事金汉正（共同民主党）、女性委员长全蕙淑（共同民主党）抵达成田机场，展开访日日程。这是韩日议员联盟会长团自去年11月后，时隔8个月再次访问日本。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72227">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Thu, 15 Jul 2021 09:06:14 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72227]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202010/201020085124_14.jpg' type='image/jpeg' /></item><item><title><![CDATA[北韩：粮食产量10年来最低 因制裁、封锁、灾害而面临困难]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72225]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：北韩公开承认未能完成粮食生产计划，并深受新冠疫苗等必需医药品短缺的困扰。 
- 
-韩国常驻联合国代表部表示，在当地时间13日以视频方式召开的联合国可持续发展高级别政治论坛(HLPF)中，北韩公开了“自愿国别评估”(VNR)报告。
- 
-根据北韩公开的报告，2018年北韩粮食产量为495万吨，未能达到生产计划目标，创10年来的最低值。另外，北韩还承认医疗人力、制药技术基础、医疗设备和必需医药品短缺，并将解决能源短缺问题作为最优先课题，称整体电力产量和人均电力产量均呈减少势头。
- 
-北韩强调，将与所有友好国家加强友好、合作关系，并增进与发展中国家的国际合作。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72225">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Wed, 14 Jul 2021 16:38:29 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72225]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210714010046_73.jpg' type='image/jpeg' /></item><item><title><![CDATA[美国务院：韩日应和平解决独岛主权问题]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72213]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国国务院当地时间13日在谈到日本主张对独岛主权问题时表示，韩日应和平解决相关问题。
- 
-美国国务院发言人在接受韩联社书面采访时就日本通过今年版《防卫白皮书》主张对独岛主权以及韩国政府对此提出强烈抗议作出了上述表示。美国国务院称，美方对利扬库尔岩(Liancourt Rocks)主权问题不采取任何立场。美国将独岛称为“利扬库尔岩”。
- 
-日本曾于今年3月底也通过高中教材主张对独岛主权。当时，美国国务院称，美韩日三方合作至关重要，并敦促韩日和平解决这一问题。但这次美国国务院并未提到三方合作相关内容。而拜登政府在应对北韩和中国问题上一直强调韩美日三方合作的重要性。
- 
-日本13日通过《防卫白皮书》再次主张对独岛主权。对此，韩国政府召见日本驻韩国大使馆总括公使，敦促日方立即撤回相关主张。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72213">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Wed, 14 Jul 2021 09:30:55 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72213]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202106/210624094759_72.jpg' type='image/jpeg' /></item><item><title><![CDATA[日本《防卫白皮书》继续妄称独岛为“日本领土"]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72207]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：日本政府在首相菅义伟13日主持召开的内阁会议上采纳了2021年版《防卫白皮书》。
+<p>《德國之聲》與《新華社》分別指，今次德國派軍艦航行至南中國海海域，是應日本要求。<a href="http://www.xinhuanet.com/mil/2021-08/02/c_1211272364.htm">日本政府於 2018 年</a>曾向德國政府提出，希望該國可在亞洲展示軍事實力。去年 12 月，日本防衛大臣岸信夫，<a href="https://www.dw.com/en/japan-germany-china-defense-challenges/a-55985940">就曾邀請德國派遣軍艦參與聯合軍事演習</a>&nbsp;，並強調要經過南中國海海域，以確保其他船隻可行經該處。</p>
 
-今年的《防卫白皮书》继续妄称独岛为“日本固有领土”，称领土问题仍未获得解决。
+<p><strong>英航母亦進入南海海域一帶</strong></p>
 
-继小泉纯一郎内阁时期的2005年以后，日本已连续17年在《防卫白皮书》中妄称独岛为“日本领土”。日本政府在今年4月发行的今年度《外交蓝皮书》中也称，韩国非法占领独岛。
+<p>中國一直與多國對於南中國海主權有分歧。美國定期在該海域展開「自由航海行動」，駛經一些具爭議性的島嶼，表明反對中國立場。《路透社》指，中國近年成為德國最大貿易夥伴，而德國的對中政策則試圖平衡國防與經濟利益、形同「踩鋼線」。</p>
 
-在涉及韩日两国关系问题时，日本《防卫白皮书》称，作为两国课题之一的防卫合作与交流已受到影响，并声称韩国防卫部门正在采取不当的应对措施。日本防卫省一位有关人士表示，韩国采取的不当措施包括韩国军队在独岛周围海域进行训练以及韩国通报日本终止《韩日军事情报保护协定》等。
+<p>其他西方國家近年也在南海問題上表現得更為強硬，英國上周就派出航空母艦伊麗莎伯女王號 (HMS Queen Elizabeth) 在南海海域一帶航行，甚至有指或將常駐亞太地區，引起中國不滿。</p>
 
-日本在《防卫白皮书》的解说栏中表示，韩国国防费从2000年开始持续增加，以2018年的购买力评价为基准，韩国国防费开支已经超过了日本。在日本除了美国以外的双边防卫合作项目的记述顺序中，韩国继澳大利亚、印度、东盟以后排在第4。
+<p><a href="https://edition.cnn.com/2021/07/30/asia/south-china-sea-military-activity-hms-queen-elizabeth-intl-hnk-ml/index.html">CNN 引述英國國防部指</a>&nbsp;，該航空母艦戰鬥群是合法在南中國海航行。中國官媒《環球時報》指，「中國人民解放軍海軍處於高度戰備狀態」。<a href="https://www.fmprc.gov.cn/web/fyrbt_673021/t1871962.shtml">中國外交部發言人汪文斌</a>曾在 4 月記者會上表示：「中方希望域外國家維護地區國家維護和平、促進發展合作的意志，不要採取使國家軍事化的力量。」<a href="http://www.chinese-embassy.org.uk/chn/sgryr/t1895202.htm">中國駐英國大使館表示</a>：「英方所謂南海航行自由受到威脅的說法純屬無稽之談。英方派航母戰鬥群跑那麼遠到南海挑事生非、秀肌肉，加劇南海軍事緊張形勢，到底誰在『威脅航行自由與安全』？」</p>
 
-在谈到北韩核导威胁问题时，《防卫白皮书》称，北韩正在快速、持续地开发弹道导弹，北韩此举已对日本安全构成重大威胁。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72207">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Tue, 13 Jul 2021 15:15:42 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72207]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210713124544_76.jpg' type='image/jpeg' /></item><item><title><![CDATA[美国务院：北韩人权状况仍令人堪忧]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72201]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国国务院当地时间12日表示，北韩的人权状况仍令人堪忧。 
- 
-美国国务院发言人在回答韩联社有关“北韩发布信息，称不要将人道主义支援用于政治目的”的书面提问时表示，美方已获悉北韩的上述立场，并作出了上述表示。
- 
-美国国务院发言人指出，北韩持续剥削本国人民，为推行非法的核导计划而挪用资源。北韩封锁边境，拒绝国际社会的支援，严重阻碍了外部的援助，并对原有开展人道主义支援计划和进行监督的人员采取限制措施。
- 
-北韩本月11日通过外务省官网针对美国发布信息称，不要在新冠疫情事态中将人道主义支援恶意用于不纯的政治目的。
- 
-此前，美国国务院6月14日表示，美国并没有向北韩提供新冠疫苗的计划，但支持国际社会为向北韩提供人道主义援助所作的努力。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72201">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Tue, 13 Jul 2021 11:05:22 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72201]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210713094152_45.jpg' type='image/jpeg' /></item><item><title><![CDATA[联合国教科文组织对日本军舰岛展览歪曲强征劳工历史深表遗憾]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72200]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：联合国教科文组织世界遗产委员会官网公开了对日本近代产业设施的决定文，指出日本军舰岛相关展览歪曲了强征韩国劳工的历史。 
- 
-决定文指出，日本方面并未如实介绍上世纪40年代韩国人等在相关设施（军舰岛）遭到了强制劳动等有关事实，也没有妥善采取追悼受害者的措施。决定文对日本未能履行后续措施表示强烈遗憾。
- 
-分析认为，联合国教科文组织通常并不进行政治性判断，此次使用措辞强烈的表态并对日本发出警告实属罕见。
- 
-日本2015年将军舰岛申遗时曾承诺将介绍日帝强占韩国时期众多韩国人因遭受强制劳动而受害致死的历史事实。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72200">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Tue, 13 Jul 2021 10:30:02 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72200]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210713093720_25.jpg' type='image/jpeg' /></item><item><title><![CDATA[韩政府：韩专家参加IAEA日本排污检验小组为维护国民安全设最基本防线]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72177]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：有关国际原子能机构（IAEA）组建专家组检验福岛核电站排污入海情况，韩国政府表示，韩方专家金弘锡(音)博士参加专家组后，若日本福岛核电站强行排污，韩方将可通过直接和间接验证，为维护韩国国民安全设最基本防线。 
- 
-韩国国务调整室、外交部和原子力安全委员会9日发布共同报道资料介绍说，国际原子能机构组建专家组检验福岛核电站排污情况，韩方专家金弘锡博士（韩国原子力安全技术院高级研究员、韩国科学技术院（KAIST）原子力及量子工程系教授）也应邀参加专家组。
- 
-金弘锡博士是核安全方面的专家，目前为联合国原子辐射效应科学委员会(UNSCEAR)的韩方首席代表，是放射性物质分析和评估领域的专家。
- 
-韩国政府表示，通过韩方专家参加国际原子能机构国际检验小组，将客观和实际地为检验日本核污水处理全过程作出努力。国民的健康和安全为最优先原则，政府将为解决福岛核电站污水问题尽最大努力。韩国政府将不会同意任何可能危害韩国公民健康的措施。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72177">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Fri, 09 Jul 2021 14:50:48 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72177]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210709011526_72.jpg' type='image/jpeg' /></item><item><title><![CDATA[美国务院：北韩黑客是重大的网络威胁]]></title><link><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72174]]></link><description><![CDATA[ [国际] : <BR>韩国国际广播电台报道：美国国务院当地时间8日表示，北韩黑客是重大的网络威胁，国际社会应加强合作。 
- 
-美国国务院发言人内德·普赖斯当天在记者会上回答有关最近韩国原子力研究院遭到疑似北韩黑客攻击的提问时作出了上述表示。普赖斯表示，北韩恶意的网络活动威胁美国，也威胁同盟、伙伴和全世界国家，北韩正对金融机构实施重大的网络威胁。
- 
-此前，韩国国家情报院在国会情报委员会作报告时表示，韩国原子力研究院在12天期间疑似遭到北韩的黑客攻击，但原子力研究院尚未把握损失规模。
- 
-普赖斯强调，国际社会、网络防御专家和大众不要放松警惕，应为应对北韩网络威胁加强合作。 ...<BR><BR><a href="http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72174">[more...]</a><BR>]]></description><author>KBS WORLD Radio</author><pubDate>Fri, 09 Jul 2021 11:20:16 +0900</pubDate><category>国际</category><guid><![CDATA[http://world.kbs.co.kr/service/news_view.htm?lang=c&Seq_Code=72174]]></guid><enclosure url='http://worldimg.kbs.co.kr/src/images/news/202107/210709093547_100.jpg' type='image/jpeg' /></item></channel></rss>
+<p>來源：</p>
+
+<p><a href="https://www.reuters.com/world/china/german-warship-heads-south-china-sea-amid-tension-with-beijing-2021-08-02/">路透社</a>、<a href="https://www.dw.com/en/german-warship-sets-sail-for-indo-pacific-region/a-58733630">德國之聲</a>、<a href="https://world.huanqiu.com/article/44BO18LJN7W">環球網</a></p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="國際"/>
+        <published>2021-08-02T22:39:35.869Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[羽毛球男單中國諶龍敗丹麥 Axelsen　選手互讚、擁抱、交換球衣]]></title>
+        <id>https://www.thestandnews.com/international/%E7%BE%BD%E6%AF%9B%E7%90%83%E7%94%B7%E5%96%AE%E4%B8%AD%E5%9C%8B%E8%AB%B6%E9%BE%8D%E6%95%97%E4%B8%B9%E9%BA%A5-axelsen-%E9%81%B8%E6%89%8B%E4%BA%92%E8%AE%9A%E6%93%81%E6%8A%B1%E4%BA%A4%E6%8F%9B%E7%90%83%E8%A1%A3</id>
+        <link href="https://www.thestandnews.com/international/%E7%BE%BD%E6%AF%9B%E7%90%83%E7%94%B7%E5%96%AE%E4%B8%AD%E5%9C%8B%E8%AB%B6%E9%BE%8D%E6%95%97%E4%B8%B9%E9%BA%A5-axelsen-%E9%81%B8%E6%89%8B%E4%BA%92%E8%AE%9A%E6%93%81%E6%8A%B1%E4%BA%A4%E6%8F%9B%E7%90%83%E8%A1%A3"/>
+        <updated>2021-08-02T21:19:03.385Z</updated>
+        <summary type="html"><![CDATA[東京奧運昨日舉行羽毛球男單決賽，中國的諶龍連輸兩局予丹麥的 Viktor Axelsen，衛冕失敗。中國網民反應兩極，有人狠批諶龍「丟人」亦有人讚他打得不錯。至於兩位球員，則展現體育精神﹕諶龍先讚&nbsp;Axelsen 值得贏波，Axelsen 則說諶龍對他啟發甚大。二人擁抱，交換球衣。今次交鋒前，二人曾 19 次交手，諶龍 14 勝 5 負，惟當中 3 負是在 2018 年後。諶龍生於 1…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/GettyImages-1331955597.jpg"><figcaption><span>東京奧運羽毛球賽後，中國的諶龍與丹麥的 Viktor Axelsen 交換球衣。(Photo by Lintao Zhang/Getty Images)</span></figcaption></figure><p>東京奧運昨日舉行羽毛球男單決賽，中國的諶龍連輸兩局予丹麥的 Viktor Axelsen，衛冕失敗。中國網民反應兩極，有人狠批諶龍「丟人」亦有人讚他打得不錯。至於兩位球員，則展現體育精神﹕諶龍先讚&nbsp;Axelsen 值得贏波，Axelsen 則說諶龍對他啟發甚大。二人擁抱，交換球衣。</p>
+
+<p>今次交鋒前，二人曾 19 次交手，諶龍 14 勝 5 負，惟當中 3 負是在 2018 年後。諶龍生於 1989 年而 Viktor Axelsen 生於 1994。不少人認為，諶龍是敗於年紀已過羽毛球員黃金年齡。</p>
+
+<p>Viktor Axelsen 曾表明，奧運奪金是他的夢想。「我家有一面銅牌，我想將它換成一面更有趣的顏色。這是我的夢想，也是我的目標。」</p>
+
+<p>最終諶龍首局先輸 15:21，第二局再輸 12:21，失落金牌。贏波的 Viktor Axelson 坦言自己心情興奮，說﹕「當你在奧運決賽直落贏諶龍，你可說幾乎接近你最佳狀態。我真的很開心。」</p>
+
+<p>賽後，中國網民輿論兩極，有人狠批諶龍「丟人」、「成蟲果然成不了龍」，但也有網民反擊這些批評﹕「你啥也不是，除了會造糞和浪費糧食空氣，能為中國幹啥」、「你成啥了呢？是蛆嗎？」</p>
+
+<p>至於兩位運動員，則展現了優秀的體育精神。諶龍在敗戰後，來到 Viktor Axelson 半場，指那是他應得的成果。Axelson 則說諶龍給他許多啟發。二人亦有擁抱，並交換球衣。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="國際"/>
+        <published>2021-08-02T21:19:03.385Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[稱被強制送回國　白羅斯運動員獲波蘭人道簽證　丈夫亦急離國]]></title>
+        <id>https://www.thestandnews.com/international/%E7%A8%B1%E8%A2%AB%E5%BC%B7%E5%88%B6%E9%80%81%E5%9B%9E%E5%9C%8B-%E7%99%BD%E7%BE%85%E6%96%AF%E9%81%8B%E5%8B%95%E5%93%A1%E7%8D%B2%E6%B3%A2%E8%98%AD%E4%BA%BA%E9%81%93%E7%B0%BD%E8%AD%89-%E4%B8%88%E5%A4%AB%E4%BA%A6%E6%80%A5%E9%9B%A2%E5%9C%8B</id>
+        <link href="https://www.thestandnews.com/international/%E7%A8%B1%E8%A2%AB%E5%BC%B7%E5%88%B6%E9%80%81%E5%9B%9E%E5%9C%8B-%E7%99%BD%E7%BE%85%E6%96%AF%E9%81%8B%E5%8B%95%E5%93%A1%E7%8D%B2%E6%B3%A2%E8%98%AD%E4%BA%BA%E9%81%93%E7%B0%BD%E8%AD%89-%E4%B8%88%E5%A4%AB%E4%BA%A6%E6%80%A5%E9%9B%A2%E5%9C%8B"/>
+        <updated>2021-08-02T19:56:18.473Z</updated>
+        <summary type="html"><![CDATA[8&nbsp; 月 1 日晚在東京奧運，白羅斯運動員 Krystsina Tsimanouskaya 指，自己在 IG 批評教練後突被退賽並被強制返國，但她在機場尋求日本警方協助，事件演變成外交風波。外媒報道，Tsimanouskaya 已獲波蘭批出人道簽證。其丈夫 Arseniy Zdanevich 亦已緊急離開白羅斯，現身處烏克蘭。「我無諗過咁大鑊。&nbsp;(I didn&rsquo;t…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/GettyImages-1331967504.jpg"><figcaption><span>白羅斯運動員 Krystsina Tsimanouskaya 在東京波蘭大使館。 (Photo by Yuichi Yamazaki/Getty Images)</span></figcaption></figure><p>8&nbsp; 月 1 日晚在東京奧運，白羅斯運動員 Krystsina Tsimanouskaya 指，自己在 IG 批評教練後突被退賽並被強制返國，但她在機場尋求日本警方協助，事件演變成外交風波。外媒報道，Tsimanouskaya 已獲波蘭批出人道簽證。其丈夫 Arseniy Zdanevich 亦已緊急離開白羅斯，現身處烏克蘭。</p>
+
+<p>「我無諗過咁大鑊。&nbsp;(I didn’t think it would get this serious.)」Zdanevich 說。</p>
+
+<p><strong>被強制參加&nbsp;4X400 賽事</strong></p>
+
+<p>白羅斯短跑運動員 Krystsina Tsimanouskaya 上周五曾參與女子 100 米預賽，得第 4，未能進入決賽。她原定參加昨日（2 日）女子 200 米賽事。</p>
+
+<p>日前，她在 IG 發帖，指自己突被強行加入 4X400 接力賽參賽名單。她說，儘管自己從未跑過 400 米賽事，仍願意為團隊參賽，但指管理層應尊重運動員意見。<a href="http://www.reuters.com/lifestyle/sports/exclusive-olympics-belarusian-athlete-says-she-was-taken-airport-go-home-after-2021-08-01/?fbclid=IwAR3CpY5A7MymQySMmfP_iiyqF_ePKttBihM1jp9Gs_kEx0POlVKBOrsDZOM">路透社引述</a>&nbsp;Tsimanouskaya 指，自己被要求參加 4X400 賽事，是因為有原成員未完成全部禁藥測試，不合參賽資格。</p>
+
+<p>她指，自己公開事件後，總教練就對她說，收到「上頭指示 (order from above)」，要她退賽。她又指自己昨日被教練團隊要求執包袱返國，若不服從就會失去國家隊員身分，更可能要承擔其他後果。她其後被帶到羽田機場，卻借機會尋求日本警方保護，終成功留在日本，未有登機返國。</p>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>白羅斯奧委會則發聲明指，教練團隊是根據醫生有關 Tsimanouskaya 的「情緒和心理狀況」建議，決定要&nbsp;Tsimanouskaya 退賽。Timanovskaya 拒絕接受醫生檢查，指她沒有問題。</p>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p><b>獲波蘭批人道簽證</b></p>
+
+<p>Tsimanouskaya 其後接受白羅斯獨立媒體&nbsp;<a href="https://news.zerkalo.io/cellar/1045.html">Zerkalo.io 訪問</a>，直言擔心若返回白羅斯，可能要入獄。</p>
+
+<p>當地時間今日（8 月 1 日），外媒報道，Tsimanouskaya 已獲波蘭的人道簽證。波蘭副外長&nbsp;Marcin Przydacz 表示，Tsimanouskaya 已經與波蘭外交官直接聯繫，料於本月 4 日稍後飛往當地。「波蘭會盡其所能，幫助她繼續其運動事業。」</p>
+
+<p>外媒報道，除波蘭外，數個歐洲國家亦有意為&nbsp;Tsimanouskaya 提供政治庇護，包括捷克。聯合國難民署 (UNHCR) 亦有介入事件。</p>
+
+<p>東京的白羅斯大使館已正式向日本方面要求提供有關&nbsp;Tsimanouskaya 的資料。</p>
+
+<p>白羅斯現時禁止大部份公民離國。惟當地時間今日（8 月 2 日），Tsimanouskaya 的丈夫 Arseniy Zdanevich 表示，自己亦成功離開白羅斯，現身處烏克蘭首都基輔。</p>
+
+<p>「我無諗過咁大鑊。&nbsp;(I didn’t think it would get this serious.)」他說。</p>
+
+<p>他又指，已於同日早上聯絡&nbsp;Tsimanouskaya，並指她現時平靜、安全。</p>
+
+<p>同是運動員的 Zdanevich 說，他們兩夫妻只是普通運動人，從來沒有聯繫、支持白羅斯的反對派。他又說，他們對反對派運動不感興趣。</p>
+
+<p><strong>多白羅斯成員流亡波蘭</strong></p>
+
+<p>有評論指，今次事件是白羅斯獨裁統治又一案例。白羅斯總統盧卡申科有「歐洲最後獨裁者」之稱。去年，自 1994 年上任的盧卡申科第 6 次當選總統，惟當地市民不滿投票過程缺乏國際觀察員監察，質疑選舉舞弊，觸發大規模示威，造成多人死亡，數千人被捕，當中包括運動員。超過 60 名運動員及教練等，因參與示威活動，失去運動事業。</p>
+
+<p>白羅斯奧委會的總裁，就是盧卡申科長子&nbsp;Victor Lukashenko。除運動員外，許多受白羅斯打壓的反對派人士，現在均居於波蘭。</p>
+
+<p>相關報道</p>
+
+<p><a href="https://www.theguardian.com/sport/2021/aug/02/belarus-athlete-refused-fly-home-reportedly-seeks-asylum-poland">衛報</a>、<a href="https://news.sky.com/story/were-just-normal-sports-people-belarusian-sprinter-krystina-tsimanouskaya-gets-polish-visa-as-husband-enters-ukraine-12370591">SKY</a>、<a href="https://www.telegraph.co.uk/world-news/2021/08/02/belarus-sprinter-safe-tokyo-hotel-european-countries-offer-asylum/">TELEGRAPH</a></p>
+<script async="" src="//www.instagram.com/embed.js"></script>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="國際"/>
+        <published>2021-08-02T19:15:33.744Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中國女排落敗　含淚告別傳奇教練郎平]]></title>
+        <id>https://www.thestandnews.com/sport/%E4%B8%AD%E5%9C%8B%E5%A5%B3%E6%8E%92%E8%90%BD%E6%95%97-%E5%90%AB%E6%B7%9A%E5%91%8A%E5%88%A5%E5%82%B3%E5%A5%87%E6%95%99%E7%B7%B4%E9%83%8E%E5%B9%B3</id>
+        <link href="https://www.thestandnews.com/sport/%E4%B8%AD%E5%9C%8B%E5%A5%B3%E6%8E%92%E8%90%BD%E6%95%97-%E5%90%AB%E6%B7%9A%E5%91%8A%E5%88%A5%E5%82%B3%E5%A5%87%E6%95%99%E7%B7%B4%E9%83%8E%E5%B9%B3"/>
+        <updated>2021-08-02T21:21:59.562Z</updated>
+        <summary type="html"><![CDATA[中國女排昨日雖勝阿根廷，但因早前三連敗，無緣入八強。賽後，女排成員含淚 90 度鞠躬向總教練郎平致謝。郎平被視為傳奇教練，是世界上分別以球員和教練身分獲得奧運女排金牌第一人。她曾帶領中國在奧運奪金，又曾帶領美國在奧運擊敗中國。今次謝幕戰，郎平坦言「有一點遺憾」，但言﹕「可能留點遺憾更好吧，讓年輕人更有夢想，更有渴望，去追求下一個目標」。中國女排在今屆奧運分組賽，接連敗於土耳其、美國及俄羅斯，雖在…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/GettyImages-1331967510.jpg"><figcaption><span>中國女排在東京奧運告別教練郎平。 (Photo by Du Yang/China News Service via Getty Images)</span></figcaption></figure><p>中國女排昨日雖勝阿根廷，但因早前三連敗，無緣入八強。賽後，女排成員含淚 90 度鞠躬向總教練郎平致謝。郎平被視為傳奇教練，是世界上分別以球員和教練身分獲得奧運女排金牌第一人。她曾帶領中國在奧運奪金，又曾帶領美國在奧運擊敗中國。</p>
+
+<p>今次謝幕戰，郎平坦言「有一點遺憾」，但言﹕「可能留點遺憾更好吧，讓年輕人更有夢想，更有渴望，去追求下一個目標」。</p>
+
+<p>中國女排在今屆奧運分組賽，接連敗於土耳其、美國及俄羅斯，雖在其後勝意大利，並於昨日分組賽最後一輪對阿根廷以 25：15、25：22 及 25：19 直落三局擊敗對手，但仍未能打入八強，是為 1984 年參加奧運以來最差戰績。</p>
+
+<p>今次東京奧運是第 10 度參戰。過往 9 屆，中國隊共奪 3 金 1 銀 2 銅，僅於 1992 年巴塞隆拿奧運會及 2012 年倫敦奧運會未能打入 4 強。</p>
+
+<p>有評論認為，今次成績差劣，與主力朱婷腕傷有關。教練郎平則向中國球迷道歉，指問題可能是「我們教練的工作沒做好」。</p>
+
+<p><strong>痛哭鞠躬謝郎平</strong></p>
+
+<p>昨日的賽事完結後，中國女排球員排成一行，向郎平 90 度鞠躬致謝。球員其後與相擁，部份更痛哭不止。原因是，郎平將不再執教國家隊。</p>
+
+<p>現年 60 歲的郎平被視為傳奇人物，是世界上分別以球員和教練身分獲得奧運女排金牌第一人。1978 年，她入選中國女排，1981 年，中國女排奪世界盃冠軍，是中國女排首次獲世界冠軍，郎平也獲「優秀運動員獎」。郎平又曾獲第 9 屆世界女排錦標賽冠軍和洛杉磯奧運會金牌，協助中國女排取得「三連冠」。</p>
+
+<p>1995 年，她擔任中國女排主教練，奪亞特蘭大奧運銀牌，後於 1998 年離任，在各地任教，包括曾任教美國女排，更於 2008 年北京奧運擊敗中國，僅敗於巴西獲銀牌。</p>
+
+<p>2013 年，她再返回中國任教，帶領球隊奪得 2016 里約奧運金牌，以及 2015 及 2019 年女排世界盃冠軍。6 次大賽中，她 5 次帶領球隊打入前三名，惟一一次失敗，就是東京奧運。</p>
+
+<p><strong>「可能留點遺憾更好」</strong></p>
+
+<p>郎平指，自己看着中國女排成長，奪得各比賽獎牌，經歷算完整。她坦言這一屆「有一點遺憾」，但「可能留點遺憾更好吧，讓年輕人更有夢想，更有渴望，去追求下一個目標」。</p>
+
+<p>她又感謝家人讓她投身排球事業，指他們已久等，她應趕緊回去，「享受一些美好的時光」。展望將來，她指自己會邊休息，邊做「輕鬆的事情」，如做國際排球運動推廣工作。</p>
+
+<p>郎平祝球隊安好，希望她們加油備戰巴黎奧運。</p>
+
+<p>「我們的隊員都在不斷成長，希望她們不要太快忘記本屆奧運會的經歷。巴黎奧運會在 3 年後便會舉辦，希望一眾隊員屆時可以一展身手。」</p>
+
+<p>相關報道</p>
+
+<p><a href="http://chinanews.com/ty/2021/08-02/9534681.shtml">中新網</a>、<a href="https://baijiahao.baidu.com/s?id=1706974140689409495&amp;wfr=spider&amp;for=pc">澎湃</a></p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="體育"/>
+        <published>2021-08-02T19:00:50.022Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中國選手身掛毛澤東襟章上頒獎台　路透﹕或違奧運規定]]></title>
+        <id>https://www.thestandnews.com/politics/%E4%B8%AD%E5%9C%8B%E9%81%B8%E6%89%8B%E8%BA%AB%E6%8E%9B%E6%AF%9B%E6%BE%A4%E6%9D%B1%E8%A5%9F%E7%AB%A0%E4%B8%8A%E9%A0%92%E7%8D%8E%E5%8F%B0-%E8%B7%AF%E9%80%8F%E6%88%96%E9%81%95%E5%A5%A7%E9%81%8B%E8%A6%8F%E5%AE%9A</id>
+        <link href="https://www.thestandnews.com/politics/%E4%B8%AD%E5%9C%8B%E9%81%B8%E6%89%8B%E8%BA%AB%E6%8E%9B%E6%AF%9B%E6%BE%A4%E6%9D%B1%E8%A5%9F%E7%AB%A0%E4%B8%8A%E9%A0%92%E7%8D%8E%E5%8F%B0-%E8%B7%AF%E9%80%8F%E6%88%96%E9%81%95%E5%A5%A7%E9%81%8B%E8%A6%8F%E5%AE%9A"/>
+        <updated>2021-08-02T17:55:58.187Z</updated>
+        <summary type="html"><![CDATA[中國場地單車賽兩名金牌得主鮑珊菊與鍾天使，在頒獎台上穿的衣服掛有毛澤東襟章。《路透社》指，此舉或觸犯奧運不可在頒獎台作政治表態的規定。翻查資料，中國奧委會亦曾指，大多數中國運動員認為運動員表達無關運動的意見，既會干擾其他運動員的表現和經驗，亦會令觀眾轉移焦點。根據《奧林匹克憲章》第 44 條，參加奧運的人員都要簽署報名表，內容列明報名人員遵守《奧林匹克憲章》；而《憲章》第 50 條明確提到，「任…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/GettyImages-1331945442.jpg"><figcaption><span>中國場地單車賽兩名金牌得主鮑珊菊與鍾天使。藍圈為《立場》所加，為毛澤東襟章。(Photo by Wei Zheng/CHINASPORTS/VCG via Getty Images)</span></figcaption></figure><p>中國場地單車賽兩名金牌得主鮑珊菊與鍾天使，在頒獎台上穿的衣服掛有毛澤東襟章。<a href="https://www.reuters.com/article/olympics-2020-china-mao/olympics-chinese-champions-wear-mao-badges-on-cycling-podium-idUSL4N2P92WU">《路透社》</a>指，此舉或觸犯奧運不可在頒獎台作政治表態的規定。翻查資料，中國奧委會亦曾指，大多數中國運動員認為運動員表達無關運動的意見，既會干擾其他運動員的表現和經驗，亦會令觀眾轉移焦點。</p>
+
+<p>根據<a href="http://stillmed.olympic.org/media/Document%20Library/OlympicOrg/General/EN-Olympic-Charter.pdf">《奧林匹克憲章》第 44 條</a>，參加奧運的人員都要簽署報名表，內容列明報名人員遵守《奧林匹克憲章》；而<a href="https://stillmed.olympic.org/media/Document%20Library/OlympicOrg/General/EN-Olympic-Charter.pdf">《憲章》第 50 條</a>明確提到，「任何形式的政治宣傳 … 均不可出現於個人、運動服、... 之上」。</p>
+
+<p><a href="https://olympics.com/athlete365/app/uploads/2021/01/Letter-from-COC-AC-Chair.pdf">根據中國奧委會 2020 年 12 月致國際奧委會的信件</a>，大多數中國運動員不傾向容許運動員在奧運會表達個人觀點，「特別是與運動本身無關的觀點」，他們「相信運動員參與奧運會，是為比賽」，部份中國運動員認為，國際奧委會現時給予運動員表達觀點的機會，已經足夠。信件又表示，大多數中國運動員指，其他運動員表達個人意見，既會「干擾 (detract) 他們的表現和經驗」，亦會「轉移焦點，影響將奧林匹克價值傳播給觀眾」。</p>
+
+<p></p><figure><img src="https://assets.thestandnews.com/media/photos/Screenshot_2021-08-02_18.55.10.png"><figcaption><span>涉事毛澤東襟章放大圖。</span></figcaption></figure><p></p>
+
+<p><strong>美鉛球選手 Raven Saunders 交叉雙手亦惹爭議</strong></p>
+
+<p>今屆奧運，《憲章》第 50 條成爭議焦點。<a href="https://www.thestandnews.com/international/%E7%BE%8E%E9%89%9B%E7%90%83%E9%81%B8%E6%89%8B%E4%BA%A4%E5%8F%89%E9%9B%99%E6%89%8B%E9%A0%98%E9%8A%80%E7%89%8C-%E7%82%BA%E6%AD%A3%E5%9C%A8%E6%8A%97%E7%88%AD%E7%9A%84%E4%BA%BA%E7%99%BC%E8%81%B2-%E6%88%96%E5%8F%97%E5%9C%8B%E9%9A%9B%E5%A5%A7%E5%A7%94%E6%9C%83%E6%87%B2%E7%BD%B0">美國鉛球選手 Raven Saunders</a> 早前在頒獎台上高舉雙手交叉，稱為「全球所有正在抗爭 (fighting) 的人」發聲，成今屆首個「犯規」的人，國際奧委會將如何處罰，就仍未有定案。</p>
+
+<p>運動場上應否容許政治表態，一直受國際社會爭議。支持者認為不應侵犯運動員言論自由、漠視運動場外社會充滿不公義；反對者則認為，不應將運動場扭曲為政治戰場。</p>
+
+<p>過去國際奧委會一直不容運動場上有政治表態。去年，2028 洛杉磯奧運組委會總裁 Casey Wasserman 要求國際奧委會主席 Thomas Bach 不再禁止運動員表達政見。同年 12 月，美國奧委會宣布不再就政治表態懲罰美國運動員。</p>
+
+<p>因應美國要求，Bach 指示國際奧委會進行調查。參與調查的運動員有逾 3,500 名，來自 185 個國家／地區，調查結果顯示，約三分二受訪者傾向運動場及頒獎台不應有政治表態。儘管如此，奧委會仍於東京奧運微調規則，指運動員可以在任何場合、包括記者會上表態，但比賽及頒獎場地除外。</p>
+
+<p>在昨日的於靜岡縣伊豆單車館舉行的場地單車賽，鮑珊菊與鍾天使成功衛冕爭先賽女團金牌，亦創出 31.804 秒的世界紀錄。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="政治"/>
+        <published>2021-08-02T17:51:14.713Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[石牆花推探監物資券　供市民用八達通買物資予在囚人士]]></title>
+        <id>https://www.thestandnews.com/society/%E7%9F%B3%E7%89%86%E8%8A%B1%E6%8E%A8%E6%8E%A2%E7%9B%A3%E7%89%A9%E8%B3%87%E5%88%B8-%E4%BE%9B%E5%B8%82%E6%B0%91%E7%94%A8%E5%85%AB%E9%81%94%E9%80%9A%E8%B2%B7%E7%89%A9%E8%B3%87%E4%BA%88%E5%9C%A8%E5%9B%9A%E4%BA%BA%E5%A3%AB</id>
+        <link href="https://www.thestandnews.com/society/%E7%9F%B3%E7%89%86%E8%8A%B1%E6%8E%A8%E6%8E%A2%E7%9B%A3%E7%89%A9%E8%B3%87%E5%88%B8-%E4%BE%9B%E5%B8%82%E6%B0%91%E7%94%A8%E5%85%AB%E9%81%94%E9%80%9A%E8%B2%B7%E7%89%A9%E8%B3%87%E4%BA%88%E5%9C%A8%E5%9B%9A%E4%BA%BA%E5%A3%AB"/>
+        <updated>2021-08-02T16:00:27.758Z</updated>
+        <summary type="html"><![CDATA[在囚者支援組織石牆花今（8月2日）推出「探監物資券」，接受市民以八達通付款購買物資券，用以兌換零食和日用品給在囚人士。石牆花創辦人邵家臻解釋，希望以物資券推動市民關注在囚人士，並以此減低石牆花的財政壓力。「探監物資券」分別設250元零食包、750元日用品包和1000元全餐（零食+日用品）。市民可利用八達通購買物資券，然後贈予在囚者家屬，或選擇委託石牆花轉贈在囚者家屬。石牆花稱，全部收益將用作支援…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/E982B5-02_XzeFC.png"><figcaption><span>石牆花辦公室放滿給在囚人士使用的物資。</span></figcaption></figure><p>在囚者支援組織石牆花今（8月2日）推出「探監物資券」，接受市民以八達通付款購買物資券，用以兌換零食和日用品給在囚人士。石牆花創辦人邵家臻解釋，希望以物資券推動市民關注在囚人士，並以此減低石牆花的財政壓力。</p>
+
+<p>「探監物資券」分別設250元零食包、750元日用品包和1000元全餐（零食+日用品）。市民可利用八達通購買物資券，然後贈予在囚者家屬，或選擇委託石牆花轉贈在囚者家屬。石牆花稱，全部收益將用作支援每月購買探監物資之開支。</p>
+
+<p>石牆花創辦人邵家臻表示，第一天推出物資券的反應一般，有人特意上來購買，惟查詢比購買多。他續指，過去半年一直免費支援在囚人士，特別是每月有逾百位還押人士向石牆花求助，故需花費數萬元，對石牆花造成一定財政壓力。適逢政府派發電子消費券，石牆花推出「探監物資券」，希望能推動市民關心在囚人士。</p>
+
+<p></p><figure><img src="https://assets.thestandnews.com/media/photos/224535559_1729394257246551_4732395536790930074_n.jpg"><figcaption><span>石牆花推探監物資券，讓市民買物資給在囚人士。（石牆花Facebook圖片）</span></figcaption></figure><p></p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-02T10:44:31.276Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[稱台灣運動員為「國手」　小 S 遭內地網民斥「台獨」　4 品牌終止合作]]></title>
+        <id>https://www.thestandnews.com/%E5%8F%B0%E7%81%A3/%E7%A8%B1%E5%8F%B0%E7%81%A3%E9%81%8B%E5%8B%95%E5%93%A1%E7%82%BA%E5%9C%8B%E6%89%8B-%E5%B0%8F-s-%E9%81%AD%E5%85%A7%E5%9C%B0%E7%B6%B2%E6%B0%91%E6%96%A5%E5%8F%B0%E7%8D%A8-4-%E5%93%81%E7%89%8C%E7%B5%82%E6%AD%A2%E5%90%88%E4%BD%9C</id>
+        <link href="https://www.thestandnews.com/%E5%8F%B0%E7%81%A3/%E7%A8%B1%E5%8F%B0%E7%81%A3%E9%81%8B%E5%8B%95%E5%93%A1%E7%82%BA%E5%9C%8B%E6%89%8B-%E5%B0%8F-s-%E9%81%AD%E5%85%A7%E5%9C%B0%E7%B6%B2%E6%B0%91%E6%96%A5%E5%8F%B0%E7%8D%A8-4-%E5%93%81%E7%89%8C%E7%B5%82%E6%AD%A2%E5%90%88%E4%BD%9C"/>
+        <updated>2021-08-02T15:44:45.058Z</updated>
+        <summary type="html"><![CDATA[台灣運動員近日於東京奧運屢次取得佳績，台灣藝人小 S 不時於 Instagram 發文支持台灣選手，並將台灣羽毛球「一姐」戴資穎稱為「國手」。不少內地網民出征，批評小 S 是支持台獨及辱華。原與小 S 合作的內地品牌壽全齋、Clear 清揚、JORYA、大人糖今日（2 日）陸續發出聲明，終止與小 S 一切合作。東京奧運期間，小 S 共發表 7 個支持台灣運動員的帖文，其中一個有關戴資穎的帖文中，…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/S_photo1_Ao5bAyN.png"><figcaption><span>資料來源：小s ig @elephantdee</span></figcaption></figure><p>台灣運動員近日於東京奧運屢次取得佳績，台灣藝人小 S 不時於 Instagram 發文支持台灣選手，並將台灣羽毛球「一姐」戴資穎稱為「國手」。不少內地網民出征，批評小 S 是支持台獨及辱華。原與小 S 合作的內地品牌壽全齋、Clear 清揚、JORYA、大人糖今日（2 日）陸續發出聲明，終止與小 S 一切合作。</p>
+
+<p>東京奧運期間，小 S 共發表 7 個支持台灣運動員的帖文，其中一個有關戴資穎的帖文中，她形容自己緊張到胃痛，稱讚戴資穎「實在太強」。小 S 在同一帖文留言指，提議邀請全部「國手」到她家食飯。</p>
+
+<p>內地網民截圖轉發微博，及後再出征其 Instagram 留言，批評小 S 「支持台獨」，又有大陸網民諷刺「台灣省的確是中國國手」，建議台灣金牌一律與中國金牌一併計算，並稱將「武統台灣」。</p>
+
+<p><strong>小 S ：先讓我靜一靜好嗎？</strong></p>
+
+<p>壽全齋、Clear 清揚、JORYA、大人糖之後陸續發出聲明，宣布基於一個中國原則，決定終止與小 S 一切合作。</p>
+
+<p>台媒<a href="https://www.setn.com/News.aspx?NewsID=976611">《三立新聞網》</a>報道，小 S 事後回覆指，「先讓我靜一靜好嗎？」並附上無奈貼圖符號。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="台灣"/>
+        <published>2021-08-02T15:27:23.207Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[奧運的啟示 — 團結多元]]></title>
+        <id>https://www.thestandnews.com/sport/%E5%A5%A7%E9%81%8B%E7%9A%84%E5%95%9F%E7%A4%BA-%E5%9C%98%E7%B5%90%E5%A4%9A%E5%85%83</id>
+        <link href="https://www.thestandnews.com/sport/%E5%A5%A7%E9%81%8B%E7%9A%84%E5%95%9F%E7%A4%BA-%E5%9C%98%E7%B5%90%E5%A4%9A%E5%85%83"/>
+        <updated>2021-08-02T15:32:26.176Z</updated>
+        <summary type="html"><![CDATA[東京奧運，全球躍動。港隊接連取得佳績，更令全港市民欣喜和鼓舞。正當大家密切關注金牌誰屬時，我仍不忘國際奧委會主席 Thomas Bach 在開幕禮上一番令我深感共鳴的致辭。他的演辭中多次強調「團結」、「平等」、「尊重」和「多元」等字眼，這些用詞正正是我作為倡議平等機會的機構領導者經常會提及的。經歷過百年的發展，奧運的影響早已不再限於體育界，而是遍及全球各國民眾。縱使不是直接出席的體育隊伍，極大多…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/GettyImages-1234317049_copy.png"></figure><p>東京奧運，全球躍動。港隊接連取得佳績，更令全港市民欣喜和鼓舞。</p>
+
+<p>正當大家密切關注金牌誰屬時，我仍不忘國際奧委會主席 Thomas Bach 在開幕禮上一番令我深感共鳴的致辭。他的演辭中多次強調「團結」、「平等」、「尊重」和「多元」等字眼，這些用詞正正是我作為倡議平等機會的機構領導者經常會提及的。</p>
+
+<p>經歷過百年的發展，奧運的影響早已不再限於體育界，而是遍及全球各國民眾。縱使不是直接出席的體育隊伍，極大多數人仍可間接以觀眾身分置身其中。奧運會的確是打破疆界、聯繫全球的其中一項頂級盛事。無論你屬於哪一國家，也可支持與你截然不同、甚或毫無關連的隊伍。奧運會的力量確實十分驚人。</p>
+
+<p>體育是有效促進平等的媒介，奧運便是最好的證明。運動員因才能出眾而贏得尊重，與其出身、種族或居民身分毫無關係。Bach 在開幕致辭中更特別提到難民代表團，他說：「各位難民代表團運動員，你們憑藉個人才能和人類精神，展示了難民如何可增添社會的動力。你們因飽受暴力、飢餓，或只因你們與他人不同而逃離原居國家。今天，我們熱情歡迎你們，並給予你們和平之所。歡迎參加奧運會。」在如此一項全球盛事中談到一群在苦難和掙扎中仍堅持努力和追求卓越的人，此番說話實在發人深省。</p>
+
+<p>這不禁令我想到香港少數族裔人士，包括難民和外來工人的現況。不論他們來港多久，社會是否有給予他們應有的尊重呢？即使《種族歧視條例》涵蓋所有人，保障所有人免受基於種族的歧視和騷擾，訪客、外來工人、難民和尋求庇護人士等亦不例外，可是卻未必能免除他們每日面對的微冒犯（micro-aggressions）、偏見及成見。香港是一個高度發展的城市，他們卻仍然面對此問題，無疑令人惋惜。</p>
+
+<p>最明顯的例子是很多少數族裔家庭所面對的居住問題，在不少業主和鄰居的歧視態度和行為下，拒租和受壓遷離的情況並非罕見。對於一些處於草根階層的少數族裔，議價能力更弱，遑論只靠政府微薄援助維生的尋求庇護人士。結果是基層少數族裔家庭只能選擇較差、甚至最差的居住環境。</p>
+
+<p>為何我們不能摒棄對少數族裔的負面想法，反而如 Bach 所言，視之為可增添香港色彩的動力呢？我確信若要根絕歧視性的行為、消除定型觀念，必須從加強教育和提高意識著手。</p>
+
+<p>奧運會充分展示了天分、技能和體育精神無分種族、膚色或族裔。後輩刷新前輩紀錄是奧運常事，排名較後的選手逆境反勝的情景亦屢見不鮮。賽前沒有人敢確論賽果，因為妄下判斷往往是不智的。這智慧正正是種族歧視者所欠缺的，妄下判斷往往是他們持有定型觀念的源頭。</p>
+
+<p>在開幕禮中另一個觸動人心的情景，是各國代表團魚貫進場時展現的多元種族面貌。這不單指全球各地不同膚色種族的頂級運動員匯首一堂，更令我感受深刻的是不少國家隊內的隊員種族也很多元化。香港代表團也不乏非華裔的運動員和教練，今屆奧運港隊首面金牌得主劍擊運動員張家朗迎接的第一個恭賀，正正來自其非華裔教練 Greg Koenig，土生土長的 100 米和 200 米自由泳銀牌得主何詩蓓亦同時具多元文化背景。</p>
+
+<p>此等例子比比皆是，對推動平等社會亦帶出一些啟示。</p>
+
+<p>首先是用人唯才，正如才幹和技能是入選代表團的首要因素。第二是團隊精神，團隊中不單要有最佳人選，亦講求隊員之間互相支持，才能達致共同目標。第三是體育精神。比賽的性質是競爭，但背後精神卻在於團結。比賽過程固然精彩，同樣令人鼓舞的是賽後競爭者放下勝負互相勉勵，得獎者在頒獎台上相互擁抱道賀。</p>
+
+<p>疫症肆虐全球，無人能獨善其身。奧運在此期間舉行，成功在逆境中起了振奮人心的作用。病毒不分國界，世界各地都受影響，最佳的抗疫方法是團結一致。奧運使全球成為一體，向我們帶出了寶貴的啟示 — 團結、共融、多元是我們在目前逆境下必需持守的價值。</p>]]></content>
+        <author>
+            <name>朱敏健</name>
+            <uri>https://www.thestandnews.com/author/%E6%9C%B1%E6%95%8F%E5%81%A5</uri>
+        </author>
+        <category label="體育"/>
+        <published>2021-08-02T15:32:26.176Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[出售公共資產損害民生 — 領展案例]]></title>
+        <id>https://www.thestandnews.com/society/%E5%87%BA%E5%94%AE%E5%85%AC%E5%85%B1%E8%B3%87%E7%94%A2%E6%90%8D%E5%AE%B3%E6%B0%91%E7%94%9F-%E9%A0%98%E5%B1%95%E6%A1%88%E4%BE%8B</id>
+        <link href="https://www.thestandnews.com/society/%E5%87%BA%E5%94%AE%E5%85%AC%E5%85%B1%E8%B3%87%E7%94%A2%E6%90%8D%E5%AE%B3%E6%B0%91%E7%94%9F-%E9%A0%98%E5%B1%95%E6%A1%88%E4%BE%8B"/>
+        <updated>2021-08-02T15:17:15.019Z</updated>
+        <summary type="html"><![CDATA[政府當年建設新市鎮及新屋邨，把人口搬到偏遠地方，需要一定程度的自給自足，因此屋邨商場和街市是必需的設施，加上過往有不少徙置區和小販，在規劃過程中加入屋邨商場和街市容納基層街坊小店，某程度也是為了安置他們，因此屋邨商場和街市的存在，跟屋邨的民生是密不可分的。市場主導，房委會財困，出售資產2001 至 2007 年梁錦松和唐英年兩任財政司司長都主張「市場主導，政府輔助」（註 1），至今仍然直接影響市…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/01_uX0xl.png"><figcaption><span>圖片來源：領匯監察 Facebook</span></figcaption></figure><p>政府當年建設新市鎮及新屋邨，把人口搬到偏遠地方，需要一定程度的自給自足，因此屋邨商場和街市是必需的設施，加上過往有不少徙置區和小販，在規劃過程中加入屋邨商場和街市容納基層街坊小店，某程度也是為了安置他們，因此<strong>屋邨商場和街市的存在，跟屋邨的民生是密不可分的</strong>。</p>
+
+<p><strong>市場主導，房委會財困，出售資產</strong></p>
+
+<p>2001 至 2007 年梁錦松和唐英年兩任財政司司長都主張「市場主導，政府輔助」（註 1），至今仍然直接影響市民生活的政策措施，包括停建居屋和出售公共屋邨及居屋的商場、街市和停車場等，十多年過去了，我們都知道遺禍不少。</p>
+
+<p><strong>2002 年政府停建居屋後，房屋委員會陷入財政困難，為求減輕負擔，2004 年政府決定把本來屬於房委會資產的公屋商用物業及停車場證券化，組成「領匯」，套取現金給房委會應付短期內的經費需求</strong>（註 2，「領匯」後來改名「領展」）。</p>
+
+<p style="text-align:center"></p><figure><img src="https://assets.thestandnews.com/media/photos/543523452.jpg"><figcaption><span>作者製圖</span></figcaption></figure><p></p>
+
+<p>當年不少民間團體和議員反對這個轉變，擔心房委會失去商場等經常收入後會引致公屋加租，又擔心接手的公司只顧賺錢，會加租趕走原來的小本經營者，公屋居民的低消費經濟會被消滅，他們也質疑政府賤賣資產，有損全港市民利益，但是他們遇上一個人人想賺快錢的時代。</p>
+
+<p>回歸前後香港培育出大群熱衷炒賣的人，五十多萬股民入票申請，炒股群體甚至上街示威，大罵反對領匯上市的人「阻人發達」（註 3）。2005 年領匯成功上市，<strong>政府套現&nbsp;</strong><strong>320 億元，中籤獲配股的散戶短炒獲利，公共物業變成領匯的資產，而領匯的股權則落入國際投資者手中</strong>。</p>
+
+<p><strong>加租改變社區面貌</strong></p>
+
+<p>其後發生的事其實大家都知道，領匯「在商言商」，以股東利益為終極考慮，不管民生影響，大幅加租令無數街坊小店結業，換來各種大型企業連鎖店，高了檔次價錢也相應提高。</p>
+
+<p><strong>原本有溫暖人情味的社區變得冰冷乏味，便宜和配合公屋居民生活需要的商品消失</strong>，基層市民的負擔增加，店舖承受大幅加租，例如 2012 年沙田公屋商場簽訂新租約時，加幅超過一倍（註 4）。<strong>以每平方呎平均每月租金計算，領匯商場及街市由&nbsp;</strong><strong>2005/06 年度起計 12 年，累積升幅達 132%，高於差餉物業估價署私人零售業樓宇租金指數的同期升幅</strong>（註 5）。</p>
+
+<p>前立法會議員張超雄有以下形容：「領匯與壟斷、通脹和貧窮均有莫大關係。成本轉嫁顧客，造成通脹……小商戶無生意可做，便會走向貧窮……現今領匯對很多基層市民，尤其是很多居於公屋的老弱和貧窮市民，造成很大困擾。」（註 6）。</p>
+
+<p>新冠疫症打擊香港，領匯不理屋邨醫生收入大減，依然提出加租三成（註 7）。<strong>跟領匯講社會責任是對牛彈琴，以市場解決民生問題是當年政府一廂情願的空想</strong>。</p>
+
+<p><strong>拆售物業更失控</strong></p>
+
+<p>2014 年領匯進入投資收成期，陸續把名下前房委會物業分拆出售，<strong>2015 年改名領展，至 2019 年已轉售三分之一資產，前房委會商場的業權愈趨分散，衍生的問題也變得五花八門</strong>。</p>
+
+<p>新業主取得商場後自然想變更多的錢，各顯神通，民間團體「領匯監察」2019 年發現，有新業主要求商戶離場以至商場十室九空，有些商場則把邨內唯一的酒樓趕離場，最嚴重的情况在興民商場，2017 年新業主進場後多處被圍兩年，根本無法提供邨民的日常需要（註 8），以上<strong>種種都令商場變得不是「商場」，涉嫌違反成立領匯時的地契規定</strong>，但是看不到政府有做什麼去糾正。</p>
+
+<p>領展還以「外判管理權」形式從多個街市脫身，比較出名的例子是把屯門良景邨街市和青衣長發街市外判給同一公司，<strong>同樣是加租和趕走原有店舖等</strong>，與領展無異。</p>
+
+<p>2014 年第一批物業轉售後，就出現東熹苑及華貴停車場新業主拆售停車場內的車位，以至當區居民無法使用車位（註 8）。其實<strong>地契裏講明公屋停車場必須保留車位給該邨居民，不得隨意出售</strong>，但是事發後看不到跟進報道，政府有沒有核查領匯等出售車位有否踩過界，大眾不得而知。</p>
+
+<p><strong>領展及新業主拒履行地契規定</strong></p>
+
+<p>成立領匯時的《銷售買賣協議》及《限制性契諾》，適用於 23 個屋苑，按照契諾<strong>領匯／領展和商場新業主必須攤分屋苑涉及公共地方的相關管理費用</strong>，但是現實裏小業主面對這些「巨人」被欺負也無計可施。</p>
+
+<p><strong>穗禾苑是重災區，領匯和新業主均拒絕分擔多項費用</strong>，數額以千萬元計。在天馬苑，商場新業主自 2016 年起拒絕繳付相關行車路段的管理費（註 8）。</p>
+
+<p><strong>失去的公共資產成發展障礙</strong></p>
+
+<p>當年匆匆賣走公共資產時，政府沒有保護公共利益，事隔多年，多種問題浮現。</p>
+
+<p>問題之一是地界不清，造成<strong>大量領展和新業主與屋苑業主立案法團之間的糾紛</strong>。</p>
+
+<p>問題之二是鑲嵌在公屋和居屋內的商場、街市和停車場，往往是整座建築的構成部分，因此<strong>屋邨想改造或加建，隨時被領展或新業主卡住</strong>，例如大窩口社區中心因為人口老化需要加建升降機，但是它位於售出了的停車場之上，擾攘 10 年毫無寸進（註 8）。</p>
+
+<p>更大的麻煩在未來，<strong>當屋邨需要整體重建時，這些失去了的公共資產會變成「釘子戶」，為未來的發展規劃造成障礙</strong>，到時我們不知道要付多少「買路費」才能移走阻住發展的障礙。</p>
+
+<p><strong>民生「大山」</strong></p>
+
+<p>民間不斷有呼聲要求政府回購當年出售的資產，行政長官林鄭月娥上任前，政綱裏也指出領展是影響民生的三座大山之一，可惜上任後表示「束手無策」（雖然政府有地契在手當武器）。</p>
+
+<p>回顧這段歷史，「大山」源於停售居屋令房委會出現財困，新自由主義令出售公共資產成為選項，炒賣群體令領匯成事。政府得到區區 320 億元為房委會解決短期資金需要，卻造成一堆永久的傷害，<strong>溫馨街坊社區面貌消失，商場和街市不為邨民提供廉宜食物、日用品和服務，還出現傷害居屋小業主權益的行為，以及對各屋邨和屋苑長遠發展造成障礙，這些損失遠超金錢，是香港社會的痛</strong>。</p>
+
+<p>我們必須認識：「市場」不會解決社會問題，出售公共資產令政府行政權流失，妨礙政府改善民生的功能，從此公共資產一定不能賣！</p>
+
+<p>&nbsp;</p>
+
+<p>註 1：&nbsp;香港政府新聞稿，2006 年 9 月：<a href="https://www.ceo.gov.hk/archive/2012/chi/press/oped.htm" target="_blank">「大市場 小政府」— 我們恪守的經濟原則</a><br>
+註 2：&nbsp;立法會房屋事務委員會，2007 年 1 月 4 日：<a href="https://www.legco.gov.hk/yr06-07/chinese/panels/hg/papers/hg0104cb1-562-5-c.pdf" target="_blank">分拆出售房屋委員會的零售和停車場設施</a>（立法會&nbsp;CB(1)562/06-07(05) 號文件）<br>
+註 3：&nbsp;關鍵評論，2020 年 11 月 20 日：<a href="https://www.thenewslens.com/article/143585" target="_blank">領匯上市被阻滿肚怨氣，螞蟻中伏卻若無其事 — 論香港政府的國師芝加哥學派</a><br>
+註 4：&nbsp;端傳媒，葉寶琳，2016 年 3 月 29 日：<a href="https://theinitium.com/article/20160329-opinion-yipolam-link/" target="_blank">領匯十年，重思本土</a><br>
+註 5：&nbsp;明報，2019 年 2 月 11 日：<a href="https://news.mingpao.com/pns/%E6%B8%AF%E8%81%9E/article/20190211/s00002/1549824699231/" target="_blank">12 年加租逾 130%　有學者贊同規管</a><br>
+註 6：&nbsp;立法會，<a href="https://www.legco.gov.hk/php/hansard/chinese/rundown.php?date=2012-11-21&amp;lang=1" target="_blank">2012 年 11 月 21 日會議過程正式紀錄</a><br>
+註 7：&nbsp;明報，2021 年 4 月 27 日：<a href="https://news.mingpao.com/pns/%E8%A6%81%E8%81%9E/article/20210427/s00001/1619460663551/" target="_blank">料逾百診所倒閉　西醫工會：領展提加租三成</a><br>
+註 8：&nbsp;領匯監察，2019：<a href="https://www.legco.gov.hk/yr18-19/chinese/panels/hg/papers/hg20190401cb1-822-1-c.pdf" target="_blank">領展轉售前房委會商業資產 2019 年民間巡視調查報告</a></p>
+
+<p>（作者按：本文是刪節本，原文刊於 7 月 4 日《明報》行政權流失故事系列<a href="https://news.mingpao.com/pns/%E5%89%AF%E5%88%8A/article/20210704/s00005/1625336535212" target="_blank">〈出售公共資產損害民生 – 領展案例〉</a>）</p>
+
+<p><a href="https://tiandiyouqing.blogspot.com/2021/08/blog-post.html" target="_blank">作者網誌</a></p>]]></content>
+        <author>
+            <name>林超英</name>
+            <uri>https://www.thestandnews.com/author/%E6%9E%97%E8%B6%85%E8%8B%B1</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-02T15:11:14.029Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【消費券】消委會：收 26 宗消費券相關投訴　石門藥房被揭收 2 %手續費刪專頁]]></title>
+        <id>https://www.thestandnews.com/society/a_%E6%B6%88%E8%B2%BB%E5%88%B8%E6%B6%88%E5%A7%94%E6%9C%83%E6%94%B6-26-%E5%AE%97%E6%B6%88%E8%B2%BB%E5%88%B8%E7%9B%B8%E9%97%9C%E6%8A%95%E8%A8%B4-2-%E5%AE%97%E9%87%9D%E5%B0%8D%E8%97%A5%E6%88%BF-%E7%9F%B3%E9%96%80%E8%97%A5%E6%88%BF%E8%A2%AB%E6%8F%AD%E6%94%B6-2-%E6%89%8B%E7%BA%8C%E8%B2%BB%E5%88%AA%E5%B0%88%E9%A0%81</id>
+        <link href="https://www.thestandnews.com/society/a_%E6%B6%88%E8%B2%BB%E5%88%B8%E6%B6%88%E5%A7%94%E6%9C%83%E6%94%B6-26-%E5%AE%97%E6%B6%88%E8%B2%BB%E5%88%B8%E7%9B%B8%E9%97%9C%E6%8A%95%E8%A8%B4-2-%E5%AE%97%E9%87%9D%E5%B0%8D%E8%97%A5%E6%88%BF-%E7%9F%B3%E9%96%80%E8%97%A5%E6%88%BF%E8%A2%AB%E6%8F%AD%E6%94%B6-2-%E6%89%8B%E7%BA%8C%E8%B2%BB%E5%88%AA%E5%B0%88%E9%A0%81"/>
+        <updated>2021-08-02T16:13:48.833Z</updated>
+        <summary type="html"><![CDATA[政府派發首期消費劵僅一日，消委會今日（2 日）即表示，截至 8 月 2 日下午 5 時，共接獲 26 宗與消費券相關的投訴，其中兩宗與藥房相關。沙田石門一間「粧藥店」昨被揭向以八達通消費金額逾 200 元的顧客收取 2%「銀行手續費」，涉違反開戶協議，也超過八達通向商戶收取的 1.5％ 銀行轉賬費 。藥房其後於 FB 發聲明解釋自己「小本經營」，及後刪除專頁。港九藥房總商會副會長劉愛國認為，濫收…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/template-21_tOn7Q32.png"></figure><p>政府派發首期消費劵僅一日，消委會今日（2 日）即表示，截至 8 月 2 日下午 5 時，共接獲 26 宗與消費券相關的投訴，其中兩宗與藥房相關。沙田石門一間「粧藥店」昨被揭向以八達通消費金額逾 200 元的顧客收取 2%「銀行手續費」，涉違反開戶協議，也超過八達通向商戶收取的 1.5％ 銀行轉賬費 。藥房其後於 FB 發聲明解釋自己「小本經營」，及後刪除專頁。港九藥房總商會副會長劉愛國認為，濫收手續費做法不恰當，《有線新聞》報道指涉事藥房今日已停收八達通。</p>
+
+<p><strong>消委會促請支付平台行動</strong>&nbsp;&nbsp;<strong>呼籲業界自律</strong></p>
+
+<p>消委會發表有關消費券計劃的消費提示，截至今日下午 5 時，消委會共接獲 26 宗與消費券相關的投訴，主要關於登記消費券，或商戶優惠時出現的「服務質素」及「價格爭議」，分別有 10 宗及 ９ 宗投訴，另外「銷售手法」、「延誤送貨」及「終止／更改合約」各有兩宗。26 宗投訴當中，2 宗與藥房相關，消委會指涉事藥房有可能違反了和相關支付平台的訂定的合約。</p>
+
+<p>消委會會促請相關平台了解事件，如事件屬實，應即時採取行動。消委會亦將繼續密切關注消費券計劃推出後，各商戶的營銷手法，呼籲業界自律，配合電子消費券計劃安排，同時勸喻消費者切勿衝動和過度消費。</p>
+
+<p><strong>八達通收 1.5％ 手續費&nbsp; 商戶可被取消資格</strong></p>
+
+<p>政府昨日正式發放第一期消費劵，各區商場均現購物人龍。有網民上載在沙田石門一間「粧藥店」的購物單據，投訴藥房收取 2 %手續費．單據顯示事主以八達通購買合共 1,006 元貨品的單據，並被收取 21 元的「服務費」，全單合計1,027元。</p>
+
+<p>該「粧藥店」之後在 FB 回應指，是「小本經營」，如賣價包含銀行手續費將會蝕錢，加上任何手續費均經過買賣雙方同意才完成交易，形容自己「清者自清」，將保留一切法律責任權利，並將追究到底。「萬順安粧藥」及後刪除其 FB 專頁。翻查八達通網頁，八達通向非交通類商戶收取 1.5％ 銀行轉賬費。</p>
+
+<p>八達通回覆傳媒稱，根據商戶開戶協議，商戶只可收取貨品實際價錢，如不按開戶協議並收取額外費用，例如手續費等，八達通有權取消該商戶資格。</p>
+
+<p>港九藥房總商會副會長劉愛國指，暫未留意到市面上藥房有因消費劵而濫收手續費，他認同涉事藥房做法不當，並指如不另收手續費將蝕錢，則一早不應提供八達通作為付款方式。他表示，商會只能勤喻有關藥房停止違規做法，並呼籲市民光顧有信心保證的藥房。</p>
+
+<p>&nbsp;</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-02T14:29:59.711Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【東京奧運】郎平謝幕、女排哭了！中國隊用勝利送別主帥]]></title>
+        <id>https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E9%83%8E%E5%B9%B3%E8%AC%9D%E5%B9%95%E5%A5%B3%E6%8E%92%E5%93%AD%E4%BA%86%E4%B8%AD%E5%9C%8B%E9%9A%8A%E7%94%A8%E5%8B%9D%E5%88%A9%E9%80%81%E5%88%A5%E4%B8%BB%E5%B8%A5</id>
+        <link href="https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E9%83%8E%E5%B9%B3%E8%AC%9D%E5%B9%95%E5%A5%B3%E6%8E%92%E5%93%AD%E4%BA%86%E4%B8%AD%E5%9C%8B%E9%9A%8A%E7%94%A8%E5%8B%9D%E5%88%A9%E9%80%81%E5%88%A5%E4%B8%BB%E5%B8%A5"/>
+        <updated>2021-08-02T14:46:09.125Z</updated>
+        <summary type="html"><![CDATA[【體路專訊】日前在 2020 東京奧運提前出局的中國女排，周一（2 日）在最後一輪分組賽以 3:0 擊敗阿根廷，以一場勝利送別主教練郎平，「鐵榔頭」形容這八年執教中國女排的時光，已經很圓滿，未來可能會在推廣排球方面發展。（奧林匹克運動會圖片）（Credit: AVC）中國女排今屆以兩勝三負戰績完成分組賽，無緣出線，衛冕失敗，更創下自 1984 年洛杉磯奧運後最差戰績。主帥郎平上場對意大利賽後，先…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/674389867927349273465.png"><figcaption><span>《體路》製圖</span></figcaption></figure><p>【體路專訊】日前在 2020 東京奧運提前出局的中國女排，周一（2 日）在最後一輪分組賽以 3:0 擊敗阿根廷，以一場勝利送別主教練郎平，「鐵榔頭」形容這八年執教中國女排的時光，已經很圓滿，未來可能會在推廣排球方面發展。</p>
+
+<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2021/08/0021wQhXgy1gt2l3y2h7yj61900u0n6702.jpeg">
+<figcaption>（奧林匹克運動會圖片）</figcaption>
+</figure>
+
+<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2021/08/Lang-Ping-_volleyball_tokyo2020_20210802_10.jpeg">
+<figcaption>（Credit: AVC）</figcaption>
+</figure>
+
+<p><img src="https://www.sportsroad.hk/wp-content/uploads/2021/08/Lang-Ping-_volleyball_tokyo2020_20210802_011.jpeg"></p>
+
+<p>中國女排今屆以兩勝三負戰績完成分組賽，無緣出線，衛冕失敗，更創下自 1984 年洛杉磯奧運後最差戰績。主帥郎平上場對意大利賽後，先就球隊在分組賽出局向全國球迷道歉，更指長時間擔任中國女排主教練感到疲累，希望能稍作休息，令外界猜測對阿根廷的分組賽，將會是這位中國排球代表人物，最後一次帶領女排作戰。</p>
+
+<p>今場賽後所有中國女排隊員手拉手向郎平鞠躬，郎平亦逐一與隊員相擁，有隊員更止不住眼淚，場面感人。郎平認為今仗可以作為女排備戰巴黎奧運的開端：「年輕人有無限的可能和未來，我們的隊員都在不斷成長，希望她們不要太快忘記本屆奧運會的經歷。巴黎奧運會在三年後便會舉辦，希望一眾隊員皆時可以一展身手。」</p>
+
+<p>她回顧執教女排的八年時光，形容這段時間相當精彩：「我見證中國女排成長，奪得奧運、世界盃冠軍以及其他比賽的獎牌，應該說已經很圓滿。除了這一屆奧運有少許遺憾，可能有一些遺憾會更好，因為可以讓年輕隊員更有憧憬及渴望，向下一個目標邁進。」郎平透露未來可能會在推廣排球方面發展，希望一邊休息一邊做一些較輕鬆的工作。</p>
+
+<p style="text-align:center"><img src="https://www.sportsroad.hk/wp-content/uploads/2021/08/Lang-Ping-_volleyball_tokyo2020_20210802_020.jpeg"></p>
+
+<p style="text-align:center"><img src="https://www.sportsroad.hk/wp-content/uploads/2021/08/Lang-Ping-_volleyball_tokyo2020_20210802_03.jpeg"></p>
+
+<p style="text-align:center"><img src="https://www.sportsroad.hk/wp-content/uploads/2021/08/Lang-Ping-_volleyball_tokyo2020_20210802_013.jpeg"></p>
+
+<p>現年 60 歲的郎平球員時期獲獎無數，曾經奪得奧運金牌、世錦賽及排球世界盃等冠軍。她在 1990 年正式退役，並於 1995 年起擔任中國女排主教練，帶領球隊在 1996 年阿特蘭大奧運奪得銀牌，更於翌年成為國際排聯的年度最佳女排教練。</p>
+
+<p>及至她於 1998 年離任後，曾經擔任美國女排的教練，更於 2008 年北京奧運女排分組賽，擊敗中國甚至殺入決賽，僅敗予巴西而獲得銀牌。五年後，朗平輾轉第二度成為中國女排主教練，任期內兩度奪得女排世界盃。其中郎平第二段中國隊教練任期不得不提的，必定是上屆里約奧運。當時中國隊在小組賽僅以兩勝三敗出線，但球隊卻於淘汰賽回勇，最終在決賽氣走塞爾維亞勇奪金牌，令郎平成為首位分別以球員和教練身份奪得奧運女排金牌的人物。及後郎平表示會在 2020 東京奧運後再度離職，惟中國女排在 2020 東京奧運表現失色，爆冷在分組賽出局，令這位中國排球巨人留有遺憾。</p>
+
+<p>&nbsp;</p>
+
+<p>資料來源：綜合外媒</p>
+
+<p>原刊於<a href="https://www.sportsroad.hk/archives/341970" target="_blank">《體路》</a></p>]]></content>
+        <author>
+            <name>體路報道</name>
+            <uri>https://www.thestandnews.com/author/sportsroad</uri>
+        </author>
+        <category label="體育"/>
+        <published>2021-08-02T14:46:09.125Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【東京奧運】由死亡邊緣走上五環舞台　五個不向命運低頭的生命鬥士]]></title>
+        <id>https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E7%94%B1%E6%AD%BB%E4%BA%A1%E9%82%8A%E7%B7%A3%E8%B5%B0%E4%B8%8A%E4%BA%94%E7%92%B0%E8%88%9E%E5%8F%B0-%E4%BA%94%E5%80%8B%E4%B8%8D%E5%90%91%E5%91%BD%E9%81%8B%E4%BD%8E%E9%A0%AD%E7%9A%84%E7%94%9F%E5%91%BD%E9%AC%A5%E5%A3%AB</id>
+        <link href="https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E7%94%B1%E6%AD%BB%E4%BA%A1%E9%82%8A%E7%B7%A3%E8%B5%B0%E4%B8%8A%E4%BA%94%E7%92%B0%E8%88%9E%E5%8F%B0-%E4%BA%94%E5%80%8B%E4%B8%8D%E5%90%91%E5%91%BD%E9%81%8B%E4%BD%8E%E9%A0%AD%E7%9A%84%E7%94%9F%E5%91%BD%E9%AC%A5%E5%A3%AB"/>
+        <updated>2021-08-02T14:33:24.885Z</updated>
+        <summary type="html"><![CDATA[【體路專訊】運動之所以激勵人心，除了因為運動員在場上的超卓表現，更因為場下一個又一個的動人故事，我們或許永遠無法達到運動員的水平，但挫折是每個人的生命都會遇上的，運動員亦然，他們的經歷令我們產生共鳴，看着這些健兒如何因挫折一度令夢想幾乎幻滅，甚至站在死亡邊緣，卻憑自身毅力浴火重生，一路走上五環舞台，以五位生命鬥士的故事，會給你們一些啟發嗎？池江面對「真實的自己」 領日本 4&times;100 …]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/5748961256456973641.png"><figcaption><span>《體路》製圖</span></figcaption></figure><p>【體路專訊】運動之所以激勵人心，除了因為運動員在場上的超卓表現，更因為場下一個又一個的動人故事，我們或許永遠無法達到運動員的水平，但挫折是每個人的生命都會遇上的，運動員亦然，他們的經歷令我們產生共鳴，看着這些健兒如何因挫折一度令夢想幾乎幻滅，甚至站在死亡邊緣，卻憑自身毅力浴火重生，一路走上五環舞台，以五位生命鬥士的故事，會給你們一些啟發嗎？</p>
+
+<p><strong>池江面對「真實的自己」 領日本 4×100 混闖決賽</strong></p>
+
+<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2020/05/Rikako-Ikee_swimming_20200519_01.jpeg">
+<figcaption>池江璃花子 IG 圖片</figcaption>
+</figure>
+
+<p>「沒有頭髮並不可恥，這是我現在的頭髮，我為自己感到自豪。」愛美的女生都視一把秀髮為生命，日本天才泳手池江璃花子亦然。池江在 2018 雅加達亞運會橫空降世，狂攬六金兩銀獎牌，一鳴驚人，被視為東京奧運金牌熱門，但命運無常，她在 2019 年 2 月時確診白血病，需停止訓練入院治療，歷經十個月的抗癌治療後在同年年底出院，卻失去了女孩最珍而重之的長髮，但池江勇敢面對「真實的自己」，在個人社交平台 IG 貼出身穿白色襯衣的超短髮照片。</p>
+
+<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2021/07/tokyo2020_day7_swimming_RikakoIkee_20210731_007.jpg">
+<figcaption>池江璃花子（體路資料庫圖片）</figcaption>
+</figure>
+
+<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2021/07/tokyo2020_day7_swimming_RikakoIkee_20210731_008.jpg">
+<figcaption>池江璃花子（右）（體路資料庫圖片）</figcaption>
+</figure>
+
+<p>從患病到復康相隔 406 天，她終於上年 3 月 17 日重返泳池，原計劃參戰巴黎奧運，卻因東京奧運延期，奇蹟地復出八個月便趕上尾班車獲東奧門票，日前於上周六（24 日）出戰女子 4×100 自由泳接力，雖然緣盡決賽，但她感言「能在這樣的舞台再次游泳實在感到歡欣」，更立下宣言「今年，是我讓自己輸的最後一年。」池江昨再聯同隊友角逐 4×100 米混合泳接力，並協助日本隊以總排名第 7 位躋身明日（1 日）舉行的決賽。</p>
+
+<p><strong>韋特腦部受創重學走路　衝上浪端東奧奪銅</strong></p>
+
+<p>如果有天發現自己連人類的基本生存技能都失去，你會否選擇放棄人生？澳洲衝浪選手韋特（Owen Wright）就選擇重新開始。時間回到 2015 年，韋特正值生涯顛峰，在斐濟職業巡迴賽中成為首位在同一項賽事獲兩次滿分的衝浪手，他渴望在浪中衝上世界冠軍，卻驟然墜落，於夏威夷 Banzai Pipeline 比賽中不幸遭遇創傷性腦損傷，不僅退出冠軍賽，甚至要重新學習走路，更莫說衝浪。</p>
+
+<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2021/07/Owen-Wright_surfing_20210731_03.png">
+<figcaption>（韋特 IG 圖片）</figcaption>
+</figure>
+
+<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2021/07/Owen-Wright_surfing_20210731_02.jpg">
+<figcaption>（韋特 IG 圖片）</figcaption>
+</figure>
+
+<p>韋特花了四個月重新站在衝浪板上，超過一年回到滑浪競技，兩年後，他終於重返世界衝浪聯盟（WSL），復出第一擊 Quiksilver Pro 即奪冠而回，更在今次奧運擊敗兩屆 WSL 冠軍梅迪拿（Gabriel Medina）奪得銅牌。韋特就：「我經歷了血戰，所有親朋好友都在我身邊，因此，我的目標是戴著獎牌站在這裡（奧運），我不知那會是甚麼顏色，但捱那艱苦的時光後，這絕對推動著我。」五年半前因為衝浪甚至無法走路，但他熱愛衝浪，從低處重新衝上浪端，就像他所說像「走在雲端一樣」。</p>
+
+<p><strong>抗癌鐵人麥杜維　創美國奧運最佳戰績</strong></p>
+
+<p>28 歲美國三項鐵人選手麥杜維（Kevin McDowell）在今屆奧運男子三項鐵人名列個人賽第 6，創美國歷史最佳戰績，另夥拍隊友贏得混合接力賽銀牌，成績亮眼。成功背來，原來他在 10 年正當打算挑戰世界冠軍時，卻被診斷出患有霍奇金氏淋巴瘤。麥杜維回憶說：「我的整個世界都倒轉了，從原本專注在贏得世界冠軍，突然變成對抗癌症。」人生的重心從運動員突然變成抗癌勇士，接受化療的過程令他變得更強：「我現在 28 歲但我感覺像是一個 23、4 歲的人，我的身體比化療前有更好的狀態。」自言曾多次萌生退役念頭的麥杜維歷盡傷病折磨後，決定用不一樣的方式進行訓練，最終獲取佳績，更與美國兒科癌症基金會 Cal’s Angels 合作，利用自身經歷激勵他人。</p>
+
+<p><img src="https://www.sportsroad.hk/wp-content/uploads/2021/07/McDowell-Kevin_triathlon_20210731_06.jpg"></p>
+
+<p><img src="https://www.sportsroad.hk/wp-content/uploads/2021/07/McDowell-Kevin_triathlon_20210731_02-1024x576.jpg"></p>
+
+<p><strong>印教敦捱過癌症治療　跆拳道掛銅啟發同路行</strong></p>
+
+<p>日前贏得東奧跆拳道男子 80 公斤級別銅牌的南韓選手印教敦， 2013 年發現頸部有一塊腫塊，起初以為只是肌肉問題，但經檢查後發現為惡性淋巴瘤，雖然翌年 8 月接受切除手術，但情況並未得改善，接下來的三個月接受了連串治療，痛苦得令曾經想過自殺：「我不想吃任何東西，連食物的氣味都令我感到嘔心，如果我要繼續接受治療，我會選擇死亡，因為實在太痛苦了。」</p>
+
+<p>除了沒法進行訓練，更痛苦的是因化療副作用甩掉頭髮，帶着帽子上課已被同學取笑，更有跆拳道裁判認為他管理身體不善，印教敦有口難言，只能獨自承受。雖然痛不堪言，但他並未放棄治療，同時慢慢重拾訓練，直至 2016 年出戰勇奪亞錦賽金牌，今次東奧又拿下銅牌，印教敦坦言患癌期間根本不敢想「奧運」：「我希望用自己的故事，啟發其他癌症病人。」</p>
+
+<p><img src="https://www.sportsroad.hk/wp-content/uploads/2021/07/In-Kyo-don_korea_20210731.jpg"></p>
+
+<p><strong>禾歌展示傷疤慶重生　換個身份「再戰奧運」</strong></p>
+
+<p>香港人都會認識「牛下女車神」李慧詩（Sarah），但對於 Sarah 昔日勁敵禾歌（Kristina Vogel），你又知幾多？這位前德國女警職業生涯擁有 11 件代表世界冠軍的「彩虹戰衣」，但在 2018 年 6 月 26 日以時速 60 公里與另一車手相撞，再撞向石屎賽道，令她下半身癱瘓，世界頃刻仿似終結了，但現實是世界不會因為什麼而停止轉動：「不管怎麼包裝我就是沒法再走路，是不會改變的事實，但我認為，你越快接受新的環境，你便越能適應過來。」三年來，她以輪椅代步，努力活出第二人生，在「炒車三周年」，她勇敢面對瘡疤，寓意重生。今年奧運禾歌換了另一個身份繼續「征戰」，以德國電視台製作及技術職員的身份前往東京，第三度在五環舞台亮相。</p>
+
+<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2021/06/Kristina-Vogel_cycling_20210625_04.jpeg">
+<figcaption>（禾歌 Facebook 圖片）</figcaption>
+</figure>
+
+<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2021/06/kristinavogel_cycling_20210625_01-.jpeg">
+<figcaption>禾歌在社交平台展示其東京奧運證件。（禾歌 Facebook 圖片）</figcaption>
+</figure>
+
+<p>&nbsp;</p>
+
+<p>文：實習記者嚴天任</p>
+
+<p>原刊於<a href="https://www.sportsroad.hk/archives/340929" target="_blank">《體路》</a></p>]]></content>
+        <author>
+            <name>體路編輯室</name>
+            <uri>https://www.thestandnews.com/author/%E9%AB%94%E8%B7%AF%E7%B7%A8%E8%BC%AF%E5%AE%A4</uri>
+        </author>
+        <category label="體育"/>
+        <published>2021-08-02T14:30:18.908Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[向運動員喝倒采 — 中國「舉國體制」的崩潰]]></title>
+        <id>https://www.thestandnews.com/china/%E5%90%91%E9%81%8B%E5%8B%95%E5%93%A1%E5%96%9D%E5%80%92%E9%87%87-%E4%B8%AD%E5%9C%8B%E8%88%89%E5%9C%8B%E9%AB%94%E5%88%B6%E7%9A%84%E5%B4%A9%E6%BD%B0</id>
+        <link href="https://www.thestandnews.com/china/%E5%90%91%E9%81%8B%E5%8B%95%E5%93%A1%E5%96%9D%E5%80%92%E9%87%87-%E4%B8%AD%E5%9C%8B%E8%88%89%E5%9C%8B%E9%AB%94%E5%88%B6%E7%9A%84%E5%B4%A9%E6%BD%B0"/>
+        <updated>2021-08-02T22:44:36.330Z</updated>
+        <summary type="html"><![CDATA[今屆東京奧運，得到日本的努力下終能在百年一遇的新「瘟疫」（武漢肺炎）之中舉行，當各國運動員力戰後，不論勝負，大多能獲國民支持，畢竟他們付出了大部分的時間、心力，為自己及國家爭光。可是，當中國男雙羽毛球隊在決賽中，以局數二比零落敗給台灣隊後，竟然被國內網民口誅筆伐，其中不乏「不要回國了」、「輸給台灣真丟臉」等，很難想像在這國際盛事中，能夠站上頒獎台的健兒們，會得到如斯對待，無他，皆因「舉國體制」的…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/0LOlfAx9gt0.png"><figcaption><span>北京市奧林匹克公園的奧林匹克塔（資料圖片，來源：SQ He @ Unsplash）</span></figcaption></figure><p>今屆東京奧運，得到日本的努力下終能在百年一遇的新「瘟疫」（武漢肺炎）之中舉行，當各國運動員力戰後，不論勝負，大多能獲國民支持，畢竟他們付出了大部分的時間、心力，為自己及國家爭光。可是，當中國男雙羽毛球隊在決賽中，以局數二比零落敗給台灣隊後，竟然被國內網民口誅筆伐，其中不乏「不要回國了」、「輸給台灣真丟臉」等，很難想像在這國際盛事中，能夠站上頒獎台的健兒們，會得到如斯對待，無他，皆因「舉國體制」的崩潰。</p>
+
+<p>「舉國體制」是甚麼？就是中國體育的管理模式，指的是以「國家利益」為最高目標，由政府選拔及培養有天賦的運動員，而入選的運動員就要接受如軍隊般的訓練，每天訓練十多小時。記得 2008 年北京奧運，有一位名為曹磊的中國舉重運動員，在該屆奧運 75 公斤級比賽奪金，然而，原來教練團暪著曹磊兩個月，<a href="http://fj.sina.com.cn/news/b/2012-08-07/15545224.html" target="_blank">不告知她母親已於兩個月前離世的消息</a>。對了，「白事當紅事辦」的中國就是如此，把這包裝成奧運金牌的辛酸故事，背後卻充滿著不近人情，而且如鐵幕般的訓練生活，連摯親離世，也不能告知運動員。</p>
+
+<p>當然，這個「舉國體制」不是中國自創的，而是抄襲「老大哥」蘇聯而來。冷戰時代，蘇聯除了在世界各地輸出共產主義，建立衛星國家外，在運動競技上也與死敵美國各不相讓，即使在有限的資源下，也全力打造一個「運動強國」的形象，以 1980 年於莫斯科舉行的奧運會最為明顯，當時蘇聯一舉奪得 195 枚獎牌，其中 80 枚是金牌，冠絕全球，不過，當時世上有四成的奧運成員國家及地區抵制，故此認受性也備受質疑。</p>
+
+<p>蘇聯的「良好示範」，中國當然依樣畫葫蘆，2008 年在北京舉行的奧運會，可謂「舉國體制」的極致，超過 8 億人民幣的開幕儀式，耗支數千億的場館興建費用，中國最後更成功於獎牌榜中，不論是金牌、獎數數目，都壓過美國、俄羅斯等兩大列強，成功仿製「舉國體制」。但自 08 年後，中國的金牌數字以不比當年，甚至在倫敦、里約熱內盧的奧運會中一直下滑，令人質疑「舉國體制」是否仍然湊效。</p>
+
+<p>事實上，「舉國體制」絕對是把雙面刃，那年劉翔在北京奧運萬眾矚目，全國上下正預備看他表現之際，他因傷退賽。而四年後的倫敦奧運，支持者在等待他重現賽場時，他再次因傷患而無緣晉級，那時在微博上，<a href="https://www.rfi.fr/tw/%E4%B8%AD%E5%9C%8B/20120807-%E5%8A%89%E7%BF%94%E6%91%94%E5%80%92%EF%BC%9A%E4%B8%AD%E5%9C%8B%E7%B6%B2%E6%B0%91%E5%BE%AE%E5%8D%9A%E8%A9%95%E8%AB%96%E5%89%B5%E7%B4%80%E9%8C%84" target="_blank">足足錄得每秒鐘 19,000 條的破紀錄流量</a>，而不少人也認為在國家體育總局的催迫下，運動員多是身不由己。</p>
+
+<p>誠然，中國國家主席習近平年初已宣佈國家已進入「全面脫貧」，中國現在的經濟情況，父母不願意把子女送到國家體育總局受訓，乃人之常情，而且所謂為國爭光，能夠在奪金後有好下場的運動員，也就只是每屆屈指可數的幾位，而最後窮得要變賣獎牌，甚至因傷病困擾變為殘廢的，也比目皆是，可見這種「舉國體制」的運動發展模式，將來只會出現更大的反效果，也不用說令國民連番「喝倒采」的尷尬場面了。</p>]]></content>
+        <author>
+            <name>家興</name>
+            <uri>https://www.thestandnews.com/author/%E5%AE%B6%E8%88%88</uri>
+        </author>
+        <category label="中國"/>
+        <published>2021-08-02T14:05:33.499Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中西區推商戶獎賞　配合消費券　「老字號」 盼增百分 5 至 10 生意額]]></title>
+        <id>https://www.thestandnews.com/society/%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%8E%A8%E5%95%86%E6%88%B6%E7%8D%8E%E8%B3%9E-%E9%85%8D%E5%90%88%E6%B6%88%E8%B2%BB%E5%88%B8-%E8%80%81%E5%AD%97%E8%99%9F-%E7%9B%BC%E5%A2%9E%E7%99%BE%E5%88%86-5-%E8%87%B3-10-%E7%94%9F%E6%84%8F%E9%A1%8D</id>
+        <link href="https://www.thestandnews.com/society/%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%8E%A8%E5%95%86%E6%88%B6%E7%8D%8E%E8%B3%9E-%E9%85%8D%E5%90%88%E6%B6%88%E8%B2%BB%E5%88%B8-%E8%80%81%E5%AD%97%E8%99%9F-%E7%9B%BC%E5%A2%9E%E7%99%BE%E5%88%86-5-%E8%87%B3-10-%E7%94%9F%E6%84%8F%E9%A1%8D"/>
+        <updated>2021-08-02T14:11:24.492Z</updated>
+        <summary type="html"><![CDATA[政府 5000 元消費券計劃昨（1日）發放第一期，不少商户各岀謀，吸引顧客。香港中西區各界協會為推動中西區消費，今 ( 2 日) 公佈將推行為期半年的「吃喝玩樂　開心中西區獎賞」計劃，協會指商戶將送出 2000 萬優惠，預計有 500 商戶參與，涉及開支約 90 萬。不過協會未有透露這些優惠的實際計劃。參與計劃「老字號」特意增設八達通收款機，期望計劃可增百分 5 至 10 的生意額，亦有都市農場…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/Image_from_iOS_23_lUvewEz.jpg"><figcaption><span>2021.8.2　中西區各界協會為推動中西區消費，今 ( 2 日) 公佈將推行為期半年的「吃喝玩樂 開心中西區獎賞」計劃，商戶將送出 2000 萬優惠，預計有 500 商戶參與。
+
+攝：Tereas Wong</span></figcaption></figure><p>政府 5000 元消費券計劃昨（1日）發放第一期，不少商户各岀謀，吸引顧客。香港中西區各界協會為推動中西區消費，今 ( 2 日) 公佈將推行為期半年的「吃喝玩樂　開心中西區獎賞」計劃，協會指商戶將送出 2000 萬優惠，預計有 500 商戶參與，涉及開支約 90 萬。不過協會未有透露這些優惠的實際計劃。參與計劃「老字號」特意增設八達通收款機，期望計劃可增百分 5 至 10 的生意額，亦有都市農場參與計劃，希望帶動新景點。</p><figure><img src="https://assets.thestandnews.com/media/photos/Image_from_iOS_23_lUvewEz.jpg"><figcaption><span>2021.8.2　中西區各界協會為推動中西區消費，今 ( 2 日) 公佈將推行為期半年的「吃喝玩樂 開心中西區獎賞」計劃，商戶將送出 2000 萬優惠，預計有 500 商戶參與。
+
+攝：Tereas Wong</span></figcaption></figure><p></p>
+
+<p>活動籌備委員會執行主席周超常指，是次活動由今月中至明年一月推行，將送岀約 2000 萬優惠予市民，預計有 500 間商户參與，藉此吸引市民於中西區消費。另外，計劃將於今月起，一共舉辦 6 次疫苗「足金大抽獎」，首五次中獎的市民將獲一兩足金，而第六次中獎的市民將獨得八兩足金。任何已接種一劑疫苗的香港居民，只要年滿 18 歲，及可提供自己於中西區的居住及工作證明，即可參與抽獎。</p>
+
+<p><strong>老字號增八達通收款&nbsp; &nbsp; 都市農場望受惠</strong></p>
+
+<p>參與「中西區商戶優惠及獎賞」計劃的商戶將為市民提供特別購物及餐飲優惠，市民在消費時出示活動登記確認書，即可獲相關優惠。</p>
+
+<p>經營 46 年「老字號」、位於西環的通泰超市，為配合消費券收費，在本來貼上「只收現金」的收銀枱增設新款八達通收款機。老闆李豐年指，昨日有約百分之 5 的顧客使用消費券，已申請增設 Alipay 及 Wechat 收費模式，但暫未考慮加設 Tap n Go ，因為需用另一部收費機。</p>
+
+<p></p><figure><img src="https://assets.thestandnews.com/media/photos/Image_from_iOS_20_XQY7Fr0.jpg"><figcaption><span>2021.8.2　為推動中西區內消費，有店舖安裝八達通付款設備。
+
+攝：Tereas Wong</span></figcaption></figure><p></p>
+
+<p>李先生指，超市生意在疫情下未受太大影響，惟他於酒樓及餐廳的批發生意跌近 2 至 3 成。他期望，計劃可增超市生意額百分 5 至 10，超市亦已推岀全部正價貨品 95 折的優惠，會適時增優惠，例如買米送產品等。</p>
+
+<p>另有參與計劃的中藥零售連鎖店，有齊 4 款消費券收費模式，同時推多種藥材半價優惠。經理林先生表示，過去一年以薄利多銷策略為主，加上中藥生意針對熟客，疫情對生意沒太大影響，惟仍盼計劃可增生意額 2 至 3 成。除一般零售商戶，有位於西環區的都市農場「堅農圃」亦參與計劃，為市民提供耕種導賞團及課程。中西區發展動力執委楊先生表示，期望計劃除振興經濟外，亦可帶出新景點，令受惠商戶更多元化。</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-02T13:54:47.222Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[天文台發出一號戒備信號　晚間維持至周二早上]]></title>
+        <id>https://www.thestandnews.com/society/%E5%A4%A9%E6%96%87%E5%8F%B0%E6%99%9A%E4%B8%8A9%E6%99%8240%E5%88%86%E7%99%BC%E5%87%BA%E4%B8%80%E8%99%9F%E6%88%92%E5%82%99%E4%BF%A1%E8%99%9F</id>
+        <link href="https://www.thestandnews.com/society/%E5%A4%A9%E6%96%87%E5%8F%B0%E6%99%9A%E4%B8%8A9%E6%99%8240%E5%88%86%E7%99%BC%E5%87%BA%E4%B8%80%E8%99%9F%E6%88%92%E5%82%99%E4%BF%A1%E8%99%9F"/>
+        <updated>2021-08-02T14:32:49.152Z</updated>
+        <summary type="html"><![CDATA[天文台晚上9時 40分，發出一號戒備信號，會於晚間至明早維持。天文台指，一熱帶氣旋正在香港約800公里內，可能影響本港。天文台晚上指，位於雷州半島以東的低壓區，已增強為一熱帶低氣壓。發出一號戒備信號後，在觀塘海濱，未有下雨，市民如常在戶外做運動。]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/%E5%A4%A9%E6%B0%A3%E4%B8%80.jpg"><figcaption><span>天文台晚上發出一號戒備信號。</span></figcaption></figure><p>天文台晚上9時 40分，發出一號戒備信號，會於晚間至明早維持。天文台指，一熱帶氣旋正在香港約800公里內，可能影響本港。天文台晚上指，位於雷州半島以東的低壓區，已增強為一熱帶低氣壓。發出一號戒備信號後，在觀塘海濱，未有下雨，市民如常在戶外做運動。</p>
+
+<p></p><figure><img src="https://assets.thestandnews.com/media/photos/%E5%A4%A9%E6%B0%A3.jpg"><figcaption><span>天文台晚上發出一號戒備信號。</span></figcaption></figure><p></p>
+
+<p></p><figure><img src="https://assets.thestandnews.com/media/photos/%E5%A4%A9%E6%96%87%E5%8F%B0.jpg"><figcaption><span>天文台晚上發出一號戒備信號。</span></figcaption></figure><p></p>
+
+<p></p><figure><img src="https://assets.thestandnews.com/media/photos/%E5%A4%A9%E6%B0%A3%E4%B8%80_q6mtcAd.jpg"><figcaption><span>天文台晚上發出一號戒備信號。</span></figcaption></figure><p></p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-02T13:51:22.516Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[河南水災增至 302 人死　國務院成立調查組追責]]></title>
+        <id>https://www.thestandnews.com/china/%E6%B2%B3%E5%8D%97%E6%B0%B4%E7%81%BD%E5%A2%9E%E8%87%B3-302-%E4%BA%BA%E6%AD%BB-%E5%9C%8B%E5%8B%99%E9%99%A2%E6%88%90%E7%AB%8B%E8%AA%BF%E6%9F%A5%E7%B5%84%E8%BF%BD%E8%B2%AC</id>
+        <link href="https://www.thestandnews.com/china/%E6%B2%B3%E5%8D%97%E6%B0%B4%E7%81%BD%E5%A2%9E%E8%87%B3-302-%E4%BA%BA%E6%AD%BB-%E5%9C%8B%E5%8B%99%E9%99%A2%E6%88%90%E7%AB%8B%E8%AA%BF%E6%9F%A5%E7%B5%84%E8%BF%BD%E8%B2%AC"/>
+        <updated>2021-08-02T13:24:00.476Z</updated>
+        <summary type="html"><![CDATA[河南省鄭州市近期暴雨釀災，當地政府新聞辦召開第十場新聞發布會。官方指截至今日（2 日）中午 12 時，水災造成 302 人死亡，50 人失蹤，全省共有超過 1,453 萬人受災，直接經濟損失超過 1,142 億元人民幣。國務院宣布成立調查組，追究失職瀆職行為。接近 1500 萬人受災　轉移安置逾 147 萬人河南省政府新聞辦召開的「河南省防汛救災」新聞發布會上指，截至今日中午 12 時，全省共有…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/template-27.png"></figure><p>河南省鄭州市近期暴雨釀災，當地政府新聞辦召開第十場新聞發布會。官方指截至今日（2 日）中午 12 時，水災造成 302 人死亡，50 人失蹤，全省共有超過 1,453 萬人受災，直接經濟損失超過 1,142 億元人民幣。國務院宣布成立調查組，追究失職瀆職行為。</p>
+
+<p><strong>接近 1500 萬人受災　轉移安置逾 147 萬人</strong></p>
+
+<p>河南省政府新聞辦召開的「河南省防汛救災」新聞發布會上指，截至今日中午 12 時，全省共有 150 個縣（市、區）、1663 個鄉鎮、1453.16 萬人受災。全省組織緊急避險 93.38 萬人，轉移安置超過 147 萬人；農作物成災面積 872 萬畝，絕收面積 380 萬畝，直接經濟損失 1142.69 億元人民幣。事件造成 302 人死亡，50人失蹤。</p>
+
+<p>至於，鄭州全市受災人口 188.49 萬，2,730 處市政道路損毀，1,190 處幹線公路損毀，6,415 處農村道路損毀，受災農村 1126 個，倒塌房屋 5.28 萬間，農作物受損 167.24 萬畝、絕收 43.49 萬畝，最新核實直接經濟損失 532 億元。</p>
+
+<p>目前，鄭州市已陸續下撥災後恢復重建轉移支付資金近 9 億元，主要用於種養殖業農業生產恢復、農村損毀房屋補助、重建房屋群眾的過渡費等方面。</p>
+
+<p><strong>國務院成立調查組　對失職者追究問責</strong></p>
+
+<p>另外，國務院成立調查組，調查鄭州特大暴雨災害，並且會總結災害應對經驗教訓，提出防災減災改進措施，對存在失職瀆職的行為依法依規予以問責追責。</p>
+
+<p>國家防汛抗旱總指揮部表示，今年以來氣候異常，極端天氣事件多發頻發， 尤其是河南省災情重、傷亡大。省會鄭州一度變成澤國，有民眾被困地鐵車廂，亦有居民住的小區被洪水圍困，暴雨一度令不少人斷水斷電，醫院要將病人轉院，全省交通網絡嚴重受阻。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="中國"/>
+        <published>2021-08-02T12:41:26.904Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[父涉姦女家人被控教唆改口供　督察否認曾要求事主 X「起碼供一個人出來」]]></title>
+        <id>https://www.thestandnews.com/court/%E7%88%B6%E6%B6%89%E5%A7%A6%E5%A5%B3%E5%AE%B6%E4%BA%BA%E8%A2%AB%E6%8E%A7%E6%95%99%E5%94%86%E6%94%B9%E5%8F%A3%E4%BE%9B-%E7%9D%A3%E5%AF%9F%E5%90%A6%E8%AA%8D%E6%9B%BE%E8%A6%81%E6%B1%82%E4%BA%8B%E4%B8%BB-x%E8%B5%B7%E7%A2%BC%E4%BE%9B%E4%B8%80%E5%80%8B%E4%BA%BA%E5%87%BA%E4%BE%86</id>
+        <link href="https://www.thestandnews.com/court/%E7%88%B6%E6%B6%89%E5%A7%A6%E5%A5%B3%E5%AE%B6%E4%BA%BA%E8%A2%AB%E6%8E%A7%E6%95%99%E5%94%86%E6%94%B9%E5%8F%A3%E4%BE%9B-%E7%9D%A3%E5%AF%9F%E5%90%A6%E8%AA%8D%E6%9B%BE%E8%A6%81%E6%B1%82%E4%BA%8B%E4%B8%BB-x%E8%B5%B7%E7%A2%BC%E4%BE%9B%E4%B8%80%E5%80%8B%E4%BA%BA%E5%87%BA%E4%BE%86"/>
+        <updated>2021-08-02T13:22:51.939Z</updated>
+        <summary type="html"><![CDATA[13歲女童報警，稱遭親生父親性侵後，於庭上更改口供，生父最終脫罪。警方經調查後，拘捕女童５名親友，包括其父母、祖父母及叔父，控以串謀妨礙司法公正等罪，案件今續審。辯方今盤問高級督察唐凱怡指，她曾於事主Ｘ提及其憂慮時，表示「會盡量幫你，但有一個條件，你起碼要供一個人出來，指使你改口供」，唐否認。負責案件的高級督察唐凱怡，今接受第三被告的律師盤問，並確認Ｘ於2019年1月23日錄取口供前，曾向唐表示…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/template-06.png"></figure><p>13歲女童報警，稱遭親生父親性侵後，於庭上更改口供，生父最終脫罪。警方經調查後，拘捕女童５名親友，包括其父母、祖父母及叔父，控以串謀妨礙司法公正等罪，案件今續審。辯方今盤問高級督察唐凱怡指，她曾於事主Ｘ提及其憂慮時，表示「會盡量幫你，但有一個條件，你起碼要供一個人出來，指使你改口供」，唐否認。</p>
+
+<p>負責案件的高級督察唐凱怡，今接受第三被告的律師盤問，並確認Ｘ於2019年1月23日錄取口供前，曾向唐表示想回深圳及想有屋住，但不同意辯方指，Ｘ當時是在寫一份有關願望或憂慮的清單時提及相關事宜，唐指相關清單是Ｘ於同月29日撰寫。辯方又指，Ｘ於撰寫清單時提及其憂慮，唐則曾回應指「會盡量幫你，但有一個條件，你起碼要供一個人出來，指使你改口供」，唐否認。</p>
+
+<p>代表Ｘ叔父的律師則盤問指，Ｘ曾於2018年4月至6月，前往荔枝角探訪其父親，為何警方得知事件後，沒有向Ｘ查問原因。唐則表示當時警方的調查方向並非是Ｘ。辯方又指，警方於2019年1月23日再次拘捕 X 父親當日，唐曾向 Ｘ 提及會安排 Ｘ 與胞弟入住宿舍，唐同意，並指 Ｘ 對父獲釋表現驚訝，Ｘ 亦沒有對被安排入住宿舍表示反抗或不同意，而過程中唐亦沒有向Ｘ透露當晚會拘捕其家人。</p>
+
+<p>5名被告分別為事主X的父親（44歲）、母親（42歲）、祖母（67歲）、叔父（39歲）及祖父（65歲）。當中 X 父親、祖父母及叔父被控一項串謀妨礙司法公正罪，指他們於 2018 年 10 月 8 日至 2019 年 1 月 23 日期間，在香港一同串謀妨礙司法公正，即令 X 在高等法院一宗刑事案件審訊中，更改原擬作出的證供。X 父母另同被控 1 項作出傾向並意圖妨礙司法公正的作為罪，指他們於 2018 年 10 月 20 日，作出一連串有妨礙司法公正傾向作為，即致使母親及&nbsp;X 離開香港，意圖使她們不以控方證人身分在高等法院一刑事審訊中作供。</p>
+
+<p><br>
+案件編號：HCCC 126/2020</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="法庭"/>
+        <published>2021-08-02T11:11:57.897Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「美隊2.0」被控違限聚　警作供指與「Lunch 哥」及一女士叫口號　片段顯示女士重申僅路過]]></title>
+        <id>https://www.thestandnews.com/court/%E7%BE%8E%E9%9A%8A20%E8%A2%AB%E6%8E%A7%E9%81%95%E9%99%90%E8%81%9A-%E8%AD%A6%E4%BD%9C%E4%BE%9B%E6%8C%87%E8%88%87lunch-%E5%93%A5%E5%8F%8A%E4%B8%80%E5%A5%B3%E5%A3%AB%E5%8F%AB%E5%8F%A3%E8%99%9F-%E7%89%87%E6%AE%B5%E9%A1%AF%E7%A4%BA%E5%A5%B3%E5%A3%AB%E9%87%8D%E7%94%B3%E5%83%85%E8%B7%AF%E9%81%8E</id>
+        <link href="https://www.thestandnews.com/court/%E7%BE%8E%E9%9A%8A20%E8%A2%AB%E6%8E%A7%E9%81%95%E9%99%90%E8%81%9A-%E8%AD%A6%E4%BD%9C%E4%BE%9B%E6%8C%87%E8%88%87lunch-%E5%93%A5%E5%8F%8A%E4%B8%80%E5%A5%B3%E5%A3%AB%E5%8F%AB%E5%8F%A3%E8%99%9F-%E7%89%87%E6%AE%B5%E9%A1%AF%E7%A4%BA%E5%A5%B3%E5%A3%AB%E9%87%8D%E7%94%B3%E5%83%85%E8%B7%AF%E9%81%8E"/>
+        <updated>2021-08-02T11:54:41.610Z</updated>
+        <summary type="html"><![CDATA[去年 8 月 15 日，有網民發起到金鐘太古廣場悼念墮樓身亡的反送中示威者梁凌杰，「美隊 2.0」馬俊文被控當日連同「Lunch 哥」李國永及另一名女士違反當時的二人限聚令，馬俊文否認該傳票控罪，今（2 日）在東區裁判法院受審。作供警員指，當日涉案女子與被告及李國永共 3 人在廣場外默哀，又一同呼叫口號；案發片段則顯示，該女士被警方截停後，不斷重申自己只是路經，當時應了一句口號便遭警方「幾米遠拉…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20200815-33_GvLhl_k6e7pH0.png"></figure><p>去年 8 月 15 日，有網民發起到金鐘太古廣場悼念墮樓身亡的反送中示威者梁凌杰，「美隊 2.0」馬俊文被控當日連同「Lunch 哥」李國永及另一名女士違反當時的二人限聚令，馬俊文否認該傳票控罪，今（2 日）在東區裁判法院受審。作供警員指，當日涉案女子與被告及李國永共 3 人在廣場外默哀，又一同呼叫口號；案發片段則顯示，該女士被警方截停後，不斷重申自己只是路經，當時應了一句口號便遭警方「幾米遠拉阿婆入嚟」。</p>
+
+<p>被告馬俊文（30 歲）現正因被控違反國安法而被還押，他今天沒有法律代表，自行應訊。兩項傳票控罪指稱，他於 2020 年 8 月 15 日，分別於下午 5 時 02 分至 10 分，以及下午 5 時 17 分至 31 分，於金鐘道 88 號太古廣場外，無合法權限或合理辯解參與受禁群組聚集。</p>
+
+<p><strong>警指被告與「Lunch哥」默哀 一女士加入</strong></p>
+
+<p>當日隸屬中區警署保安事務小組、現屬中區警署公眾運動小組的督察朱福弘供稱，當日得知網上有人號召，在金鐘太古廣場悼念悼念梁凌杰逝世，因此在下午 4 時 45 分，他身穿便裝連同另外約 4 至 5 名便裝警員，到太古廣場查開是否確有此活動。</p>
+
+<p>朱表示，他到場後，在廣場 1 樓向下看到身穿黑衣黑褲、戴口罩的被告與李國永在廣場地下中庭逗留，並見兩人先互有交談，及後一同叫「五大訴求，缺一不可」、「沒有暴徒，只有暴政」等口號。朱指當時約有 10 名記者在場，而被告及李在逗留約數分鐘後，一同步出廣場到行人路；朱見狀亦有跟隨兩人步出廣場。</p>
+
+<p>朱稱，被告與李之後向東行，去到廣場外最東面的一位花槽停低，並在十多名記者的鏡頭前，各自手持白花，雙手合十閉眼默哀。不久後，一名叫鄭潔嫦的女子走到花槽前加入默哀，朱形容當時 3 人是一字排開，但相距不足 1 米，而 3 人在默哀約 1 分鐘後，便繼續向東行，但是被告與李行在最前，鄭則是隔着記者跟隨在後。</p>
+
+<p><strong>警：3 人遭首次票控後沒離開 續叫口號</strong></p>
+
+<p>朱續指，被告一等人行了約 20 米後，在廣場一道玻璃門對出停下，並由被告及李輪流再叫喊口號，期間鄭在相隔被告及李不足 1 米之處和應呼喊口號，於是朱通知另一名督察江如騰，隨後江與十多名警員上前截查被告、李及鄭 3 人，並將 3 人帶到一旁發出違反限聚令的告票，及要求 3 人離開該處。</p>
+
+<p>不過朱指出，3 人之後沒有離開，反而在不久後在記者面前「做記招」約 2 分鐘，交代被票控的情況，更在完結後再次呼喊口號約 2 至 3 分鐘，3 人一直保持相距不足 1 米，江遂再次上前截停 3 人，並向他們發出第 2 張告票。</p>
+
+<p><strong>片段見女士自稱路經&nbsp;「幾米遠拉阿婆入嚟」</strong></p>
+
+<p>控方隨後播放案發片段，其中在警方向 3 人發第一張告票時的片段中，可見當時李在廣場外大叫「五大訴求」後，有一把女聲回應「缺一不可」，不久後便見到警方用橙帶圍封現場，同時將鄭帶到被告及李兩人的身旁。鄭在片中多次強調自己只是在路經，指警方「喺街到（聽到她）應一句就要拉市民」、「幾米遠拉阿婆入嚟」。</p>
+
+<p>朱在控方詢問下確認，呼叫「缺一不可」的女聲正是鄭，因當時朱暫在鄭的身旁，即使鄭着口罩亦能聽到，而最後鄭被帶到與被告及李身處的地方一同遭截查發告票，是由於朱向江通知鄭的情況。</p>
+
+<p><strong>警在盤問下同意 兩人叫同一口號已可視為有共同目的聚集</strong></p>
+
+<p>被告馬俊文在親自盤問朱時，問及警方對聚集的定義有否任何指引，朱回應指如果某些人有共同目的做同一樣事情時，已經有機會屬共同聚集。被告追問朱，是否認為他與李在太古廣場內一同叫一句口號，他們二人便屬聚集；朱同意。被告再問若果他與李沒有對話，只在該處流連，是否亦等於聚集，朱就表示要視乎兩人當時在做甚麼。</p>
+
+<p>最後裁判官王證瑜協助被告確認控方案情時，提及記招的部分時，被告表示嚴格來說當時只有他自己與李在做記招，鄭只在附近徘徊。朱就回應指當時只見他們 3 人站在一起，沒留意誰在說話；被告同意朱的說法，但強調只是數分鐘。</p>
+
+<p>裁判官最終裁定本案表證成立，被告將於明天續審時自辯。</p>
+
+<p>案件編號：ESFS8、9/2021</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="法庭"/>
+        <published>2021-08-02T11:36:06.015Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[澳門立會選舉名單出爐　14 名單爭 14 直選議席　間選全部自動當選]]></title>
+        <id>https://www.thestandnews.com/politics/ab_%E6%BE%B3%E9%96%80%E7%AB%8B%E6%9C%83%E9%81%B8%E8%88%89%E5%90%8D%E5%96%AE%E5%87%BA%E7%88%90-14-%E5%90%8D%E5%96%AE%E7%88%AD-14-%E7%9B%B4%E9%81%B8%E8%AD%B0%E5%B8%AD-%E9%96%93%E9%81%B8%E5%85%A8%E9%83%A8%E8%87%AA%E5%8B%95%E7%95%B6%E9%81%B8</id>
+        <link href="https://www.thestandnews.com/politics/ab_%E6%BE%B3%E9%96%80%E7%AB%8B%E6%9C%83%E9%81%B8%E8%88%89%E5%90%8D%E5%96%AE%E5%87%BA%E7%88%90-14-%E5%90%8D%E5%96%AE%E7%88%AD-14-%E7%9B%B4%E9%81%B8%E8%AD%B0%E5%B8%AD-%E9%96%93%E9%81%B8%E5%85%A8%E9%83%A8%E8%87%AA%E5%8B%95%E7%95%B6%E9%81%B8"/>
+        <updated>2021-08-02T12:16:46.894Z</updated>
+        <summary type="html"><![CDATA[澳門特區第七屆立法會選舉將於 9 月 12 日舉行，立法會選舉管理委員會今日（2 日）公佈 14 份直選候選名單及 5 份間選候選名單；直選候選人合共 128 人，間選候選人合共 12 人。隨着終審法院上周裁決駁回被 DQ 候選人的上訴，9 月的澳門立法會選舉僅餘 14 組候選名單，鄭明軒和吳國昌的「民主昌澳門」、蘇嘉豪的「學社前進」、陳偉智和李國強的「新澳門進步協會」、羅全勝的「澳門全勝」及周…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/leung-27.png"><figcaption><span>梁安琪、何潤生</span></figcaption></figure><p>澳門特區第七屆立法會選舉將於 9 月 12 日舉行，立法會選舉管理委員會今日（2 日）公佈 14 份直選候選名單及 5 份間選候選名單；直選候選人合共 128 人，間選候選人合共 12 人。</p>
+
+<p>隨着終審法院上周裁決駁回被 DQ 候選人的上訴，9 月的澳門立法會選舉僅餘 14 組候選名單，鄭明軒和吳國昌的「民主昌澳門」、蘇嘉豪的「學社前進」、陳偉智和李國強的「新澳門進步協會」、羅全勝的「澳門全勝」及周锈芳的「博彩新澳門」均被拒絕接納參選資格。</p>
+
+<p><strong>梁安琪轉間選　福建幫二合一</strong></p>
+
+<p>值得注意的是，多年來盤踞澳門立法會直選議席、被視為建制派議員的「四太」梁安琪及何潤生，在今次選舉中均「轉戰」間接選舉。梁安琪將夥同飲食集團「佳景」的董事總經理陳澤武組成的「旭昇文體聯合會」參與間選，而何潤生則以「社會服務教育促進會」參選。去屆以「優裕文康聯合會」名義參與間選的地產商人張立群，今年未有再選。</p>
+
+<p>建制派騰出的直選議席由誰填補？參考候選名單，「言起新力量」為新面孔，名單排第一的蔡文政是建制組織澳門青年聯合會理事長。至於近屆高票當選的「福建幫」民聯協進會，上屆分拆兩組名單參選，掃走兩席，今年則合拼為同一名單，兩名現屆議員施家倫、宋碧琪分排名單一、二。</p>
+
+<p>第七屆立法會設有 33 個議席，其中 14 個直選議席由 14 張名單以不分區形式角逐，12 個間選議席則分 5 個利益團體組別產生，但今年 5 個名單合共也只有 12 名候選人，因此他們均會自動當選。餘下 7 席，則由行政長官委任。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="政治"/>
+        <published>2021-08-02T10:48:48.106Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【封殺教協】昔日拜票今割席　林鄭斥教協近年政治凌駕專業騎劫教育界]]></title>
+        <id>https://www.thestandnews.com/politics/a-%E6%9B%BE%E8%B5%B4%E6%95%99%E5%8D%94%E6%9C%83%E6%85%B6%E7%A8%B1%E6%87%89%E6%9C%89%E4%B9%8B%E7%BE%A9-%E6%9E%97%E9%84%AD%E7%AB%8B%E5%A0%B4%E8%AE%8A%E6%9C%AC%E5%8A%A0%E5%8E%B2%E9%A8%8E%E5%8A%AB%E6%95%99%E7%95%8C</id>
+        <link href="https://www.thestandnews.com/politics/a-%E6%9B%BE%E8%B5%B4%E6%95%99%E5%8D%94%E6%9C%83%E6%85%B6%E7%A8%B1%E6%87%89%E6%9C%89%E4%B9%8B%E7%BE%A9-%E6%9E%97%E9%84%AD%E7%AB%8B%E5%A0%B4%E8%AE%8A%E6%9C%AC%E5%8A%A0%E5%8E%B2%E9%A8%8E%E5%8A%AB%E6%95%99%E7%95%8C"/>
+        <updated>2021-08-02T11:34:48.149Z</updated>
+        <summary type="html"><![CDATA[官媒《新華社》及《人民日報》日前發文轟教協「煽暴搗亂」，屬須鏟除的「毒瘤」後，教育局一日後即宣布全面終止與教協合作關係。行政長官林鄭月娥今日（2日）首度開腔回應事件，被問及政府會否取締教協，她回應指，要取締一個組織，要有法律基礎。她又批評，教協以政治凌駕教育專業，騎劫整個教育界。她說：教育局公布終止與教協合作，「我完全支持，這不是因一篇社論、一篇文章」，又指在國安法下，香港任何組織不能觸碰國安的…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/ptu-24.png"></figure><p>官媒《新華社》及《人民日報》日前發文轟教協「煽暴搗亂」，屬須鏟除的「毒瘤」後，教育局一日後即宣布全面終止與教協合作關係。行政長官林鄭月娥今日（2日）首度開腔回應事件，被問及政府會否取締教協，她回應指，要取締一個組織，要有法律基礎。她又批評，教協以政治凌駕教育專業，騎劫整個教育界。她說：教育局公布終止與教協合作，「我完全支持，這不是因一篇社論、一篇文章」，又指在國安法下，香港任何組織不能觸碰國安的底線。</p>
+
+<p>在2018年，林鄭月娥出任特首後近一年時，曾出席教協會慶，當時曾指參加活動是「應有之義」。林鄭月娥今日在防疫措施記者會上，被記者問及事件。林鄭指，當時除她以外，亦有5至6名局長和副局長參加活動，氣氛相對平穩。她又指，當時出現活動是為重視老師和教育發展，並希望以後是事務、共同目標的交往。</p>
+
+<p>林鄭表示，本屆政府對教育非常重視，競選時有接觸教協等教育界不同人士，但形容修例風波讓「俾我哋上咗深刻嘅一課，無辦法唔承認教育出咗一啲問題」，她指數以千計違法、參與「暴動」，不少老師有組織、參與和被捕，所以要有決心正本清源，撥亂反正，「讓教育回歸教育」。</p>
+
+<p>她指，教協應以教育專業、團結香港教教做好教育工作；但教協近年如修例期間的工作「大家有目共睹」，較原先教協已存在的立場變本加厲，又借政治立場凌駕教育專業，令政治問題、「反政府反中央」情緒進入學校，騎劫整個教育界，對其他教師不公道。</p>
+
+<p>林鄭稱，完全支持教育局全面終止與教協的合作關係的決定，而有關工作不是一時一日，亦非因「一篇社論、一個文章」；強調有國安法後，任何組織都不可觸碰國安底線，如有違規行為就「有法必依，執法必嚴，違法必究」。</p>
+
+<p>至於會否取締教協，林鄭指取締一個工會要有堅實的法律基礎和充份證據，不會評論有否機構正進行調查工作。</p>
+
+<p>她又指，當局一直主動接觸教育界，亦有另一個教育工會，日後會聯絡辦學團體、校長會、家教會等教育團體。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="政治"/>
+        <published>2021-08-02T11:03:33.631Z</published>
+    </entry>
+</feed>
