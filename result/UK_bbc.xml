@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Aug 2021 07:58:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Aug 2021 08:03:25 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -36,6 +36,13 @@
             <pubDate>Tue, 03 Aug 2021 01:27:11 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[東京奧運：國際奧委會立案調查白俄田徑選手拒絶回國事件]]></title>
+            <description><![CDATA[齊馬努斯卡婭進入東京波蘭使館後，波蘭總理在Facebook上宣佈向她發出人道簽證。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58067580</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58067580</guid>
+            <pubDate>Tue, 03 Aug 2021 08:00:06 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[東京奧運：美國鉛球選手領獎台示威對她個人的意義]]></title>
             <description><![CDATA[8月1日頒獎禮上，當三位獎牌獲得者凖備拍照時，桑德斯舉起雙臂交叉成「X」狀。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/sports-58052945</link>
@@ -48,13 +55,6 @@
             <link>https://www.bbc.com/zhongwen/trad/sports-58052682</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58052682</guid>
             <pubDate>Mon, 02 Aug 2021 05:03:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[海灣油輪遇襲：船運不斷遭攻擊背後的以色列與伊朗「影子戰爭」]]></title>
-            <description><![CDATA[英國、美國和以色列均指責伊朗操縱自殺式無人機襲擊油輪，伊朗則矢口否認。分析指出，這很可能是以色列和伊朗「影子戰爭」的繼續。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58060845</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58060845</guid>
-            <pubDate>Mon, 02 Aug 2021 15:46:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[歌手黃耀明被香港廉政公署起訴 涉嫌「向他人提供娛樂誘使投票」]]></title>
@@ -174,6 +174,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-57267433</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-57267433</guid>
             <pubDate>Fri, 23 Jul 2021 08:48:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[海灣油輪遇襲：船運不斷遭攻擊背後的以色列與伊朗「影子戰爭」]]></title>
+            <description><![CDATA[英國、美國和以色列均指責伊朗操縱自殺式無人機襲擊油輪，伊朗則矢口否認。分析指出，這很可能是以色列和伊朗「影子戰爭」的繼續。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58060845</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58060845</guid>
+            <pubDate>Mon, 02 Aug 2021 15:46:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[白俄羅斯奧運田徑選手齊馬努斯卡婭拒絶「被強制」登機回國]]></title>
