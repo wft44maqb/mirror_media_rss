@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-03T08:23:21.390Z</updated>
+    <updated>2021-08-03T08:28:24.597Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -69,10 +69,12 @@
         <title type="html"><![CDATA[【元朗 7.21 影像分析】《立場》翻看 14 小時片段　揭至少 235 白衣人涉施襲或持武器]]></title>
         <id>https://www.thestandnews.com/politics/%E5%85%83%E6%9C%97-721-%E5%BD%B1%E5%83%8F%E5%88%86%E6%9E%90%E7%AB%8B%E5%A0%B4%E7%BF%BB%E7%9C%8B-14-%E5%B0%8F%E6%99%82%E7%89%87%E6%AE%B5-%E6%8F%AD%E8%87%B3%E5%B0%91-235-%E7%99%BD%E8%A1%A3%E4%BA%BA%E6%B6%89%E6%96%BD%E8%A5%B2%E6%88%96%E6%8C%81%E6%AD%A6%E5%99%A8</id>
         <link href="https://www.thestandnews.com/politics/%E5%85%83%E6%9C%97-721-%E5%BD%B1%E5%83%8F%E5%88%86%E6%9E%90%E7%AB%8B%E5%A0%B4%E7%BF%BB%E7%9C%8B-14-%E5%B0%8F%E6%99%82%E7%89%87%E6%AE%B5-%E6%8F%AD%E8%87%B3%E5%B0%91-235-%E7%99%BD%E8%A1%A3%E4%BA%BA%E6%B6%89%E6%96%BD%E8%A5%B2%E6%88%96%E6%8C%81%E6%AD%A6%E5%99%A8"/>
-        <updated>2021-08-03T08:22:30.941Z</updated>
-        <summary type="html"><![CDATA[.g-body {  margin: 0 auto;  padding: 0;  width: 100%;  font-family: PingFang HK, Noto Sans TC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoj…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/721-05_kn2AAdv.png"></figure><meta charset="utf-8">
-<style type="text/css">.g-body {
+        <updated>2021-08-03T08:28:14.222Z</updated>
+        <summary type="html"><![CDATA[7.21 襲擊兩年，《立場》翻看 60 段、總時長約 14 小時的事發片段，以及 5 張圖片，辨別出至少 343 名白衣人，當中 235 人涉施襲或持武器，另 11 人涉指罵市民。警方調查事件逾兩年，截至 2021 年 7 月底，僅拘捕 48 名白衣人。由於公開資料有限，大部分被捕人的身份不明。《立場》分析事發片段和圖片，辨別出曾施襲、持武器到場的白衣人，人數遠超被捕的 48 人。]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/721-05_kn2AAdv.png"><figcaption><span>7.21 襲擊兩年，《立場》翻看 60 段、總時長約 14 小時的事發片段，以及 5 張圖片，辨別出至少 343 名白衣人，當中 235 人涉施襲或持武器，另 11 人涉指罵市民。警方調查事件逾兩年，截至 2021 年 7 月底，僅拘捕 48 名白衣人。由於公開資料有限，大部分被捕人的身份不明。《立場》分析事發片段和圖片，辨別出曾施襲、持武器到場的白衣人，人數遠超被捕的 48 人。</span></figcaption></figure><meta charset="utf-8">
+<div class="g-meta" style="display:none">7.21 襲擊兩年，《立場》翻看 60 段、總時長約 14 小時的事發片段，以及 5 張圖片，辨別出至少 343 名白衣人，當中 235 人涉施襲或持武器，另 11 人涉指罵市民。警方調查事件逾兩年，截至 2021 年 7 月底，僅拘捕 48 名白衣人。由於公開資料有限，大部分被捕人的身份不明。《立場》分析事發片段和圖片，辨別出曾施襲、持武器到場的白衣人，人數遠超被捕的 48 人。</div>
+<style type="text/css"><style>
+.g-body {
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -587,7 +589,7 @@ body {
 }
 @media screen and (min-width: 600px) {
   .g-scrolly-el .g-scrolly-item.g-scrolly-item-1 .g-text {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 .ArticleDetail_article--specialLayout__Z5ois header,
@@ -3838,9 +3840,9 @@ body {
         <title type="html"><![CDATA[【調查報道】 7.21 影像分析：至少 235 白衣人涉施襲或持武器　兩年僅 48 被捕　8 被控]]></title>
         <id>https://www.thestandnews.com/politics/%E8%AA%BF%E6%9F%A5%E5%A0%B1%E9%81%93-721-%E5%BD%B1%E5%83%8F%E5%88%86%E6%9E%90%E8%87%B3%E5%B0%91-235-%E7%99%BD%E8%A1%A3%E4%BA%BA%E6%B6%89%E6%96%BD%E8%A5%B2%E6%88%96%E6%8C%81%E6%AD%A6%E5%99%A8-%E5%85%A9%E5%B9%B4%E5%83%85-48-%E8%A2%AB%E6%8D%95-8-%E8%A2%AB%E6%8E%A7</id>
         <link href="https://www.thestandnews.com/politics/%E8%AA%BF%E6%9F%A5%E5%A0%B1%E9%81%93-721-%E5%BD%B1%E5%83%8F%E5%88%86%E6%9E%90%E8%87%B3%E5%B0%91-235-%E7%99%BD%E8%A1%A3%E4%BA%BA%E6%B6%89%E6%96%BD%E8%A5%B2%E6%88%96%E6%8C%81%E6%AD%A6%E5%99%A8-%E5%85%A9%E5%B9%B4%E5%83%85-48-%E8%A2%AB%E6%8D%95-8-%E8%A2%AB%E6%8E%A7"/>
-        <updated>2021-08-03T08:15:54.307Z</updated>
-        <summary type="html"><![CDATA[警方調查元朗 7.21 襲擊兩年，至今拘捕 48 人，控告當中 8 人。不過《立場》翻看 60 段、總時長約 14 小時的事發影片，按容貌衣著等特徵辨別出至少 235 名白衣人涉施襲或持武器，另外 11 人涉指罵市民，顯示涉案人數遠超被捕者數目。首宗白衣人暴動案中，除施襲者外，法官指持武器及指罵亦屬以「鼓勵者身份」參與暴動。但按《立場》統計數字計算，至少近 200 名涉案白衣人尚未被捕。記者向警…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/721-06_0nUBDs4.png"></figure><p>警方調查元朗 7.21 襲擊兩年，至今拘捕 48 人，控告當中 8 人。不過《立場》翻看 60 段、總時長約 14 小時的事發影片，按容貌衣著等特徵辨別出至少 235 名白衣人涉施襲或持武器，另外 11 人涉指罵市民，顯示涉案人數遠超被捕者數目。</p>
+        <updated>2021-08-03T08:27:45.904Z</updated>
+        <summary type="html"><![CDATA[警方調查元朗 7.21 襲擊兩年，至今拘捕 48 名白衣人，控告當中 8 人。不過《立場》翻看 60 段、總時長約 14 小時的事發影片，按容貌衣著等特徵辨別出至少 235 名白衣人涉施襲或持武器，另外 11 人涉指罵市民，顯示涉案人數遠超被捕者數目。首宗白衣人暴動案中，除施襲者外，法官指持武器及指罵亦屬以「鼓勵者身份」參與暴動。但按《立場》統計數字計算，至少近 200 名涉案白衣人尚未被捕。記…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/721-06_0nUBDs4.png"></figure><p>警方調查元朗 7.21 襲擊兩年，至今拘捕 48 名白衣人，控告當中 8 人。不過《立場》翻看 60 段、總時長約 14 小時的事發影片，按容貌衣著等特徵辨別出至少 235 名白衣人涉施襲或持武器，另外 11 人涉指罵市民，顯示涉案人數遠超被捕者數目。</p>
 
 <p>首宗白衣人暴動案中，除施襲者外，法官指持武器及指罵亦屬以「鼓勵者身份」參與暴動。但按《立場》統計數字計算，至少近 200 名涉案白衣人尚未被捕。記者向警方及律政司查詢調查和檢控進展，兩部門稱不評論案件，未正面回應會否再作檢控等問題。</p>
 
@@ -3854,7 +3856,7 @@ body {
 
 <p>當中 130 名白衣人涉襲擊他人，例如揮棍、毆打和擲物；105 人涉在衝突現場持刀、棍棒及藤條等武器；11 人涉指罵他人；其餘 97 人則在衝突現場與白衣人群聚集，惟憑影像未能確定他們是否涉及暴力行為。</p>
 
-<p>《立場》翻看的影像資料，包括傳媒直播、新聞報道，以及互聯網和社交媒體的影片和圖片，涵蓋「鳳攸北街」、「元朗站月台及車廂」等 6 個主要衝突地點，惟不包括商戶閉路電視片段。有關影像分析調查的詳細結果、方法及局限，請另看互動專頁。</p>
+<p>《立場》翻看的影像資料，包括傳媒直播、新聞報道，以及互聯網和社交媒體的影片和圖片，涵蓋「鳳攸北街」、「元朗站月台及車廂」等 6 個主要衝突地點，惟不包括商戶閉路電視片段。有關影像分析調查的詳細結果、方法及局限，<a href="https://www.thestandnews.com/politics/%E5%85%83%E6%9C%97-721-%E5%BD%B1%E5%83%8F%E5%88%86%E6%9E%90%E7%AB%8B%E5%A0%B4%E7%BF%BB%E7%9C%8B-14-%E5%B0%8F%E6%99%82%E7%89%87%E6%AE%B5-%E6%8F%AD%E8%87%B3%E5%B0%91-235-%E7%99%BD%E8%A1%A3%E4%BA%BA%E6%B6%89%E6%96%BD%E8%A5%B2%E6%88%96%E6%8C%81%E6%AD%A6%E5%99%A8">請另看互動專頁</a>。</p>
 
 <p><strong>至少 246 白衣人或涉刑責　警拘 48 人</strong></p>
 
@@ -3915,7 +3917,7 @@ body {
 <blockquote>
 <p>《立場》正繼續調查及跟進 7.21襲擊，現徵求 7.21 襲擊的一手影像資料，以及所有相關線索。</p>
 
-<p>報料俾《立場》：<br>
+<p>報料方法：<br>
 Telegram 應用程式：@standnewsreporting<br>
 ProtonMail：standnews@protonmail.com<br>
 Signal 應用程式：94580060</p>
