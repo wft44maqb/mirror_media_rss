@@ -9,17 +9,31 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 04 Aug 2021 00:33:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Aug 2021 01:41:24 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[東京奧運：中國運動員被民族主義者痛擊]]></title>
+            <description><![CDATA[中國運動員面臨前所未有的巨大壓力。在網絡上，任何低於金牌的成績都被憤怒的民族主義者視為運動員不愛國的行為。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58070347</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58070347</guid>
+            <pubDate>Wed, 04 Aug 2021 00:58:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[東京奧運：中國冠軍鍾天使、鮑珊菊頒獎台上戴毛澤東像章引違規爭議]]></title>
             <description><![CDATA[國際奧委會要求中國就場地自行車女子團體競速賽金牌得主別上毛澤東像章領獎一事提交報告，左翼輿論呼籲警惕「資產階級憎恨毛主席」。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/sports-58071222</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58071222</guid>
             <pubDate>Tue, 03 Aug 2021 13:00:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[韓國移民妻子如何克服歧視與文化差異]]></title>
+            <description><![CDATA[很多女性剛到韓國時甚至不懂韓語，但儘管如此，她們在韓國社會中為自己開闢了重要的地位。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58056484</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58056484</guid>
+            <pubDate>Wed, 04 Aug 2021 01:01:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[海灣油輪遇襲事件背後的西方進退兩難]]></title>
@@ -41,20 +55,6 @@
             <link>https://www.bbc.com/zhongwen/trad/science-58076762</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58076762</guid>
             <pubDate>Tue, 03 Aug 2021 19:05:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[東京奧運：位於話題中心的跨性別舉重選手哈伯德]]></title>
-            <description><![CDATA[勞雷爾·哈伯德成為了第一位以與出生時不同的性別參加奧運會比賽的公開跨性別運動員。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58070558</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58070558</guid>
-            <pubDate>Tue, 03 Aug 2021 10:30:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[香港教育界民主派工會教協被港府「割席」意味著什麼]]></title>
-            <description><![CDATA[中國官媒形容教協是必須鏟除的「毒瘤」，港府隨即表示會停止與教協的工作關係，這個有40多年歷史的教育界團體，為何備受關注？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58067640</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58067640</guid>
-            <pubDate>Tue, 03 Aug 2021 07:41:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[河南水災：死亡人數升至302人 中國國務院稱成立調查組「問責瀆職」]]></title>
@@ -176,6 +176,13 @@
             <pubDate>Fri, 23 Jul 2021 08:48:22 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[東京奧運：位於話題中心的跨性別舉重選手哈伯德]]></title>
+            <description><![CDATA[勞雷爾·哈伯德成為了第一位以與出生時不同的性別參加奧運會比賽的公開跨性別運動員。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58070558</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58070558</guid>
+            <pubDate>Tue, 03 Aug 2021 10:30:20 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[海灣油輪遇襲：船運不斷遭攻擊背後的以色列與伊朗「影子戰爭」]]></title>
             <description><![CDATA[英國、美國和以色列均指責伊朗操縱自殺式無人機襲擊油輪，伊朗則矢口否認。分析指出，這很可能是以色列和伊朗「影子戰爭」的繼續。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58060845</link>
@@ -258,13 +265,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58021799</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58021799</guid>
             <pubDate>Fri, 30 Jul 2021 16:26:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[中美「冷戰」信號？ 盤點有關中概股危機的事實與觀點]]></title>
-            <description><![CDATA[在全球主要股市升勢強勁同時，在美國上市的中國公司近來經歷2008年國際金融危機以來最差表現。中國概念股大跌引發多方有關中美「冷戰」開始的分析。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-57983275</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-57983275</guid>
-            <pubDate>Tue, 27 Jul 2021 18:48:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[人體與健康：鬍鬚中鮮為人知的衛生功效和潛在醫學奧秘]]></title>
@@ -463,6 +463,13 @@
             <pubDate>Tue, 13 Jul 2021 10:56:48 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[香港教育界民主派工會教協被港府「割席」意味著什麼]]></title>
+            <description><![CDATA[中國官媒形容教協是必須鏟除的「毒瘤」，港府隨即表示會停止與教協的工作關係，這個有40多年歷史的教育界團體，為何備受關注？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58067640</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58067640</guid>
+            <pubDate>Tue, 03 Aug 2021 07:41:22 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[東京奧運：台灣的奧運會名稱為何如此眾說紛紜]]></title>
             <description><![CDATA[以「中華台北」參與奧運會賽事數十年的台灣，又再次因為參賽名稱問題，引發各方討論。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58013053</link>
@@ -524,13 +531,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-57744112</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-57744112</guid>
             <pubDate>Mon, 26 Jul 2021 01:18:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[中國教育減負新政衝擊波 培訓機構股價暴跌千億投資被困]]></title>
-            <description><![CDATA[中國政府要求學科類培訓機構一律不得上市融資，嚴禁資本化運作。已違規的要進行清理整治。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/business-57961427</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/business-57961427</guid>
-            <pubDate>Sun, 25 Jul 2021 10:41:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[BBC中文合作伙伴]]></title>
