@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>The News Lens 關鍵評論網 - powered by FeedBurner</title>
+        <link href="//feedburner.google.com/fb/lib/stylesheets/undohtml.css" rel="stylesheet" type="text/css" media="all">
+        <link href="//feedburner.google.com/fb/feed-styles/bf30.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="alternate" type="application/rss+xml" title="The News Lens 關鍵評論網" href="http://feeds.feedburner.com/TheNewsLensASEAN">
+        <script type="text/javascript" src="//feedburner.google.com/fb/feed-styles/bf30.js"></script>
+    </head>
+    <body id="browserfriendly" onload="jsFeedUrl='http://feeds.feedburner.com/TheNewsLensASEAN';loadSubscribeAreaUltra('standard');go_decoding()">
+        <div id="cometestme" style="display:none;">&amp;</div>
+        <div id="bodycontainer">
+            <div id="bannerblock">
+                <h1>
+                    <a href="http://www.thenewslens.com/feed/all" title="Link to original website">The News Lens 關鍵評論網</a>
+                </h1>
+                <h2>syndicated content powered by FeedBurner</h2>
+                <p style="clear:both"></p>
+            </div>
+            <div id="bodyblock">
+                <div id="subscribenow" class="subscribeblock action">
+                    <div id="subscribe-userchoice" style="display:none">
+                        <p id="subscribeLink">
+                            <a href="#">...</a>
+                        </p>
+                        <p id="resetLink">
+                            Reset this favorite; <a href="#" onclick="return clearUserchoice('standard')">show all Subscribe options</a>
+                        </p>
+                    </div>
+                    <div id="subscribe-options">
+                        <h3>Subscribe Now!</h3>
+                        <h4>...with web-based news readers. Click your choice below:</h4>
+                        <div id="webbased">
+                            <a href="https://add.my.yahoo.com/rss?url=http://feeds.feedburner.com/TheNewsLensASEAN" onclick="this.href = subscribeNow(this.href,'My Yahoo!');return true"><img src="https://sp.yimg.com/j/assets/ipt/addtomyyahoo.gif" width="91" height="17" alt="addtomyyahoo4"></a>
+                            <br>
+                            <a class="img" href="https://feedly.com/#subscription/feed/http://feeds.feedburner.com/TheNewsLensASEAN" onclick="this.href = subscribeNow(this.href,'Feedly');return true"><img src="https://s3.feedly.com/feedburner/feedly.png" alt="Subscribe with Feedly"></a><a href="https://www.netvibes.com/subscribe.php?url=http://feeds.feedburner.com/TheNewsLensASEAN" onclick="this.href=subscribeNow(this.href,'Netvibes');return true"><img src="https://www.netvibes.com/img/add2netvibes.gif" alt="Add to netvibes"></a>
+                            <br>
+                            <a class="img" href="https://www.subtome.com/#/subscribe?feeds=http://feeds.feedburner.com/TheNewsLensASEAN" onclick="this.href = subscribeNow(this.href,'SubToMe');return true"><img src="https://www.subtome.com/subtome-feedburner.png" alt="Subscribe with SubToMe"></a>
+                        </div>
+                        <h4>...with other readers:</h4>
+                        <form action="https://feedburner.google.com" method="get">
+                            <select onchange="location.href=subscribeNowUltra('feed:http://feeds.feedburner.com/TheNewsLensASEAN',this.options[this.selectedIndex].value)"><option value="--" disabled selected style="padding-left:0">(Choose Your Reader)</option><option value="FeedDemon">FeedDemon</option><option value="NetNewsWire">NetNewsWire</option><option value="NewsFire">NewsFire</option><option value="NewsGator Outlook Edition">NewsGator Outlook Edition</option><option value="RSSOwl">RSSOwl</option><option value="shrook">Shrook</option><option value="USM">Universal Subscription Mechanism (USM)</option></select>
+                        </form>
+                        <p>
+                            <a href="http://feeds.feedburner.com/TheNewsLensASEAN?format=xml"><img src="//feedburner.google.com/fb/lib/images/icons/feed-icon-12x12-orange.gif" alt="original feed"></a> <a href="http://feeds.feedburner.com/TheNewsLensASEAN?format=xml">View Feed XML</a>
+                        </p>
+                    </div>
+                    <input id="savechoice" type="hidden" value="standard">
+                </div>
+                <p class="about">FeedBurner makes it easy to receive content updates in My Yahoo!, Newsgator, Bloglines, and other news readers.</p>
+                <p class="about">
+                    <a href="https://support.google.com/feedburner/answer/79408">Learn more about syndication and FeedBurner...</a>
+                </p>
+                <h3 id="currentFeedContent">Current Feed Content</h3>
+                <ul>
+                    <li class="regularitem" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154526">五度五環：「桌球教父」莊智淵與「網球一哥」盧彥勳的前輩風範</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Wed, 04 Aug 2021 07:59:27 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">台灣網球一哥盧彥勳將在東京奧運後退役，桌球教父莊智淵未來仍留有懸念。這兩個奧運五朝元老，他們的單打戰場已隨著輸球而結束，轉身之後，仍留給台灣球迷們各種回憶。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154525">【串流推片單】公視旗艦時代劇《斯卡羅》備受矚目，《俗女養成記》第二季帶來全新女性聲音</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Wed, 04 Aug 2021 07:59:23 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">無論你是已經回歸實體影城的先鋒，抑或維持居家現狀的支持者，相信都還是會對串流上的獨家影劇感到興趣，8月份的「串流推片單」專欄，一樣要繼續和大家一同關心台灣看得到的正版平台作品。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154532">餐廳蹭「小林同學」人氣引發炎上，為什麼老闆想道歉滅火卻變成提油救火？</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Wed, 04 Aug 2021 07:59:19 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">本來想滅火卻變成提油救火，是什麼原因？這個案例又可以讓其他台灣多數沒有專業公關操盤的中小企業如何借鏡？</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154538">酸民出征幫「中華隊」加油的瑞莎，無助於正名反而削弱台灣派力量</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Wed, 04 Aug 2021 07:59:14 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">特別去質疑瑞莎，會否只是要讓瑞莎這類一直以具體作為愛台灣的人感到灰心而打退堂鼓，藉以弱化愛台者的行動力？或趁機在台灣本土派內進一步藉形式主義搞內鬥，模糊認知，分化團結？</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154521">陳建州使用非法機上盒引爭議，觀看盜版轉播的人有觸法嗎？</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Wed, 04 Aug 2021 07:59:08 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">東京奧運如火如荼地展開，而「黑人」陳建州和朱立倫等人遭質疑使用非法訊號來源觀看賽事。用非法機上盒收看轉播會犯什麼法？</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/feature/life-after-the-olympics/153866">負傷鬥里約奧運成經典，潘樂恩嚐盡悲喜羽毛球場再出發</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 23:55:06 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">「離開咗球場生活唔係淨係得羽毛球，有好多嘢係要去關心你要去知道，唔好喺個籠度傻仔咁。」</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154482">【2020東京奧運】中華隊8/3戰績＆各國獎牌榜：陳少曼馬術確定無法晉級，陳奎儒跨欄進入準決賽</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 21:20:19 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">今日中華隊賽事包含桌球男子團體的莊智淵、陳建安、林昀儒將與德國隊交手，力拚晉級4強。另外國巨千金陳少曼將和愛駒一起挑戰馬術資格賽；曾在世大運拿下銀牌的「台灣欄神」陳奎儒也要力拼在跨欄資格賽。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154523">Dable與全球網媒品質驗證公司IAS合作  鞏固品牌價值</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 20:25:00 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">全球領先個人化推薦行銷科技平台，宣佈與全球數位媒體品質監測領導者 Integral Ad Science (Nasdaq:IAS) 技術合作，推出品牌安全解決方案。透過 Dable 投放廣告的品牌廣告...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154277">《天才的思考：高畑勳與宮崎駿》：《龍貓》《螢火蟲之墓》拓展了吉卜力拍片的深度和廣度</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 20:01:00 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">動畫史一百年，若說吉卜力三巨頭：高畑勳、宮崎駿與鈴木敏夫撐起了半片天一點也不過分。究竟這間最初一個月只能製作五分鐘長度、位在東京市郊的動畫工作室，如何製作一部部膾炙人口、歷久彌新的動畫作品？</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154250">小笠原欣幸《臺灣總統選舉》：「空戰」是否會影響「陸戰」，是評估觀察的一大重點</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 20:00:47 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">在本書中小笠原欣幸即以此宏觀又透徹的視角，帶領讀者走過1996以來的七次總統選舉，在每一屆選舉的章節中檢視各陣營的攻防、分析成敗之因，以及每次選舉結果對台灣民主發展的意義，並且也對許多選舉中的迷團提供...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154261">《成人過動症的真相》：為提升認知功能與學業成績，17%大學生曾經濫用過動症藥物</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 20:00:19 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">以歐美最新研究結果與依戀理論為論據，日本精神科名醫岡田尊司在依戀障礙的基礎上，首度深入闡明過動症的全貌。針對過動症引發的各種現象提出質疑與反思，將為你解開當前社會對成人過動症的迷思！</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154251">小笠原欣幸《臺灣總統選舉》：七次選舉的「台灣認同」意識形態，與各陣營支持結構變化</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 20:00:07 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">本書原文2019年於日本出版，旋即獲得 2020年每日新聞第32回「亞細亞太平洋賞」特別賞以及第15回「樫山純三賞」學術書賞的肯定。此次中譯本作者新增2020選舉的章節，是當前唯一完整討論台灣歷屆總統...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154513">受國家隊徵召日領500、只有奪牌被獎勵，跨黨派立委籲修法保障國手基本薪資4萬3</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 18:23:25 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">賴香伶指出，以近兩屆賽事參與選手人次約3000人，再比照勞動部的經常性薪資之總平均數（現行約4萬2300）來發放，等於一年要發給約15億元。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154512">【東奧場外】一個法國父親絕食抗議前妻強制帶走孩子，律師談日本離婚夫妻：「先綁架小孩就贏了」</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 18:06:40 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">法國男子費雪與一名日本女子育有2子，分別是6歲的兒子與4歲的女兒，但他們在2018年被該名女子帶走。在日本沒有可讓離婚後的配偶雙方共管孩子的法律制度，因此其中一方單方面帶走孩子且拒絕另一方探視的現象不...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154500">美中角力：美國呼籲東協施壓緬甸停止暴力、美中東協線上會議本週輪番登場</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 16:33:52 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">美國官員表示緬甸軍方延後選舉意在「拖延時間」，要求東協國家加強施壓。同時，美國務卿布林肯在本週將參加5場東協系列會議，與中國外長王毅互別苗頭。美中在東南亞的抗衡似乎正在升溫。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154501">新增16例本土、2例死亡，陳時中將簽核BNT疫苗EUA</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 16:26:45 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">台灣目前疫苗施打覆蓋率是34.07%，第五輪將在5日開始預約。針對鴻海、台積電、慈濟捐贈BNT疫苗的最新進度，陳時中表示正在努力完成排程，食藥署也在最短時間內完成緊急使用授權（EUA）的公文，下午就會...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/152870">抵禦高能太空輻射的人造屏障：NASA證實「無線電波」成為地球防護罩</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 16:00:34 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">2017年，NASA的太空探測器偵測到，地球周圍環繞著巨大的人造「屏障」，而這層屏障能幫助地球抵禦高能太空輻射。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/152988">【專訪】上人說「勸善容易、勸素難」，慈濟營養師與志工如何推廣蔬食？</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 16:00:16 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">張亞琳營養師表示，從專業角度來說，只要吃得正確、夠營養，都能讓身體復原，因此葷食做得到的素食也能做到。但素食除了讓患者恢復之外，並不會同時帶來身體的負擔，如飽和脂肪、肉品上的毒素等，在這一點上，他還是...</div>
+                    </li>
+                </ul>
+            </div>
+            <div id="footer">
+                <a href="https://feedburner.google.com"><img src="//feedburner.google.com/fb/feed-styles/images/footer_logo.gif"></a>
+                <p>
+                    FeedBurner delivers the world's subscriptions wherever they need to go. Publish a feed for text or podcasting? <a href="https://feedburner.google.com" target="_blank">
+                        <br>
+                        You should try FeedBurner today</a>.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
