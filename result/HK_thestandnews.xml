@@ -2,11 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-04T03:14:24.224Z</updated>
+    <updated>2021-08-04T03:29:29.195Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[中國新增 96 宗確診　武漢 Delta 變種與江蘇病例高度同源]]></title>
+        <id>https://www.thestandnews.com/china/%E4%B8%AD%E5%9C%8B%E6%96%B0%E5%A2%9E-96-%E5%AE%97%E7%A2%BA%E8%A8%BA-%E6%AD%A6%E6%BC%A2-delta-%E8%AE%8A%E7%A8%AE%E8%88%87%E6%B1%9F%E8%98%87%E7%97%85%E4%BE%8B%E9%AB%98%E5%BA%A6%E5%90%8C%E6%BA%90</id>
+        <link href="https://www.thestandnews.com/china/%E4%B8%AD%E5%9C%8B%E6%96%B0%E5%A2%9E-96-%E5%AE%97%E7%A2%BA%E8%A8%BA-%E6%AD%A6%E6%BC%A2-delta-%E8%AE%8A%E7%A8%AE%E8%88%87%E6%B1%9F%E8%98%87%E7%97%85%E4%BE%8B%E9%AB%98%E5%BA%A6%E5%90%8C%E6%BA%90"/>
+        <updated>2021-08-04T03:21:36.292Z</updated>
+        <summary type="html"><![CDATA[自 7 月下旬，Delta 變種病毒攻入南京後，迅速在大陸蔓延。中國過去一日新增 96 宗武漢肺炎（covid 19）確診，當中 71 宗為本土病例。另外，清零 14 個月的武漢有工人確診，新增確診病例 3 例，無症狀感染者 5 例，當中 2 個樣本測序結果顯示為 Delta 變種病毒，與江蘇本土病例的病毒株高度同源。71 宗本土病例以江蘇最多，有 35 例，湖南 15 例，湖北 9 例。武漢啟…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210712-05.png"></figure><p>自 7 月下旬，Delta 變種病毒攻入南京後，迅速在大陸蔓延。中國過去一日<a href="http://www.nhc.gov.cn/xcs/yqfkdt/202108/1c2667b1d03b45a1804c226120457781.shtml">新增 96 宗</a>武漢肺炎（covid 19）確診，當中 71 宗為本土病例。另外，清零 14 個月的武漢有工人確診，新增確診病例 3 例，無症狀感染者 5 例，當中 2 個樣本測序結果顯示為 Delta 變種病毒，與江蘇本土病例的病毒株高度同源。<br>
+<br>
+71 宗本土病例以江蘇最多，有 35 例，湖南 15 例，湖北 9 例。</p>
+
+<p>武漢啟動全員核酸檢測，部分小區通宵檢測。當地在周日（1 日）起全市恢復 2020 年初的「戰時狀態」，即凡要進入公共場合必須佩戴口罩；進出小區都要掃碼；100 人以上聚集活動取消。機場、高速公路設檢查站等。</p>
+
+<p>湖北省衛健委副主任柳東如表示，7 月 31 日以來，湖北省累計錄得 15 宗本土確診病例，本土無症狀感染者 11 例。昨日&nbsp;(3 日) 新增的 9 例確診、3 例無症狀感染均為武漢同一工地隔離封閉管理人員。據基因測序結果，均屬江蘇淮安確診病例的關聯病例。</p>
+
+<p>&nbsp;</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="中國"/>
+        <published>2021-08-04T02:27:06.743Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[承認訪京曾討論《反制裁法》　鄭若驊：毋須過分憂慮]]></title>
         <id>https://www.thestandnews.com/politics/%E8%AA%8D%E8%A8%AA%E4%BA%AC%E6%9B%BE%E8%A8%8E%E8%AB%96%E5%8F%8D%E5%88%B6%E8%A3%81%E6%B3%95-%E9%84%AD%E8%8B%A5%E9%A9%8A%E6%AF%8B%E9%A0%88%E9%81%8E%E5%88%86%E6%86%82%E6%85%AE</id>
@@ -865,41 +887,5 @@ Condemi,&nbsp;S., Mazières,&nbsp;S., Faux,&nbsp;P. &amp; et al. (2021)&nbsp;Blo
         </author>
         <category label="生活"/>
         <published>2021-08-03T13:35:59.823Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小S、蔡依林、徐佳瑩支持台灣選手　被斥「台獨」遭出征　台文化部：譴責不容異議社會]]></title>
-        <id>https://www.thestandnews.com/%E5%8F%B0%E7%81%A3/%E5%B0%8Fs%E8%94%A1%E4%BE%9D%E6%9E%97%E5%BE%90%E4%BD%B3%E7%91%A9%E6%94%AF%E6%8C%81%E5%8F%B0%E7%81%A3%E9%81%B8%E6%89%8B-%E8%A2%AB%E6%96%A5%E5%8F%B0%E7%8D%A8%E9%81%AD%E5%87%BA%E5%BE%81-%E5%8F%B0%E6%96%87%E5%8C%96%E9%83%A8%E8%AD%B4%E8%B2%AC%E4%B8%8D%E5%AE%B9%E7%95%B0%E8%AD%B0%E7%A4%BE%E6%9C%83</id>
-        <link href="https://www.thestandnews.com/%E5%8F%B0%E7%81%A3/%E5%B0%8Fs%E8%94%A1%E4%BE%9D%E6%9E%97%E5%BE%90%E4%BD%B3%E7%91%A9%E6%94%AF%E6%8C%81%E5%8F%B0%E7%81%A3%E9%81%B8%E6%89%8B-%E8%A2%AB%E6%96%A5%E5%8F%B0%E7%8D%A8%E9%81%AD%E5%87%BA%E5%BE%81-%E5%8F%B0%E6%96%87%E5%8C%96%E9%83%A8%E8%AD%B4%E8%B2%AC%E4%B8%8D%E5%AE%B9%E7%95%B0%E8%AD%B0%E7%A4%BE%E6%9C%83"/>
-        <updated>2021-08-03T12:32:20.846Z</updated>
-        <summary type="html"><![CDATA[不少中國網民在奧運期間批評落敗的中國選手，近日再出現針對台灣藝人的「獵巫潮」，多名藝人均遭「出征」。台灣藝人徐熙娣（小 S）昨因在社交網路留言稱台灣運動員為「國手」，引發多個大陸品牌宣佈與她割蓆；歌手蔡依林及徐佳瑩今日（3 日）亦一同被批為「台獨雙面人」，因蔡在社交網路稱要「抱緊緊」在東奧決賽不敵中國選手的台灣羽毛球員戴資穎，徐佳瑩在 IG 貼出了一連串的 Emoji ，發現全都是台灣獲勝的項目…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/19-21_copy_rqWEsEC.png"><figcaption><span>圖片素材來源：網上圖片、文化部 facebook</span></figcaption></figure><p>不少中國網民在奧運期間批評落敗的中國選手，近日再出現針對台灣藝人的「獵巫潮」，多名藝人均遭「出征」。台灣藝人徐熙娣（小 S）昨因在社交網路留言稱台灣運動員為「國手」，引發多個大陸品牌宣佈與她割蓆；歌手蔡依林及徐佳瑩今日（3 日）亦一同被批為「台獨雙面人」，因蔡在社交網路稱要「抱緊緊」在東奧決賽不敵中國選手的台灣羽毛球員戴資穎，徐佳瑩在 IG 貼出了一連串的 Emoji ，發現全都是台灣獲勝的項目。</p>
-
-<p>台灣文化部同日發文回應風波，譴責「不容許異議發聲的社會」，令運動員及演藝工作者承受高度政治壓力，「沒有選手需為比賽失利、沒得金牌而道歉；也沒有藝人需為了支持自己國家的選手而道歉」。</p>
-
-<p><strong>文化部譴責&nbsp;</strong>&nbsp;<strong>二創台選手勝中國隊「決勝一球」</strong></p>
-
-<p>台灣文化部指，奧運賽事輸贏不是一切，並舉例指曾被台灣羽毛球「一姐」戴資穎打敗的印度及泰國選手，賽後均祝福支持戴資穎，形容她們表現出風度及運動員間的友誼與羈絆，不過「有些國家」的選手因比賽勝負遭到抨擊，甚至有知名藝人單因為支持臺灣選手而成為眾矢之的。</p>
-
-<p>文化部譴責「不容許異議發聲的社會」，令運動員及演藝工作者承受高度政治壓力，重申在臺灣，沒有選手要為比賽失利、沒有得到金牌道歉；也沒有藝人要為支持自己國家的選手道歉，每一位代表國家出賽的選手，不論比賽結果，都值得全體國民的讚許與欽佩；所有國民都應當享有公民社會中最基本的言論自由。</p>
-
-<p>文化部帖文附上一幅羽毛球場的二創圖像，取自台灣選手李洋、王齊麟在男雙賽事，最後一球憑「鷹眼」判定界內，擊敗中國隊的經典場面，但球的落點就由圓形改為台灣的島形。</p>
-
-<p><strong>藝人貼運動符號被指「台獨」出征&nbsp;&nbsp;</strong></p>
-
-<p>台灣運動員近日於東京奧運屢次取得佳績，台灣藝人小 S 不時於 IG&nbsp;發文支持台灣選手，並將台灣羽毛球「一姐」戴資穎稱為「國手」，被中國網民「出征」，批評她支持台獨及辱華。原與小 S 合作的內地品牌壽全齋、Clear 清揚、JORYA、大人糖昨陸續發出聲明，終止與小 S 一切合作。</p>
-
-<p>一日後，內地網民開始重新「檢查」台灣藝人的社交媒體，蔡依林、徐佳瑩、楊丞琳、蔡康永等多都被牽連，其中蔡依林在 FB&nbsp;轉載戴資穎的相片，她當時留言指，「Respect !!!! 抱緊緊，超強的。」中國網民就在微博質疑「蔡依林做的和说的那么明显，为啥啥事都没有」，也有人抱不平，指蔡依林過往曾捐款振災、受邀為北京奧運唱歌。</p>
-
-<p>中國網民亦發現徐佳瑩在 Instagram 限時動態發文，寫道「太精彩了，感動不已！謝謝你們這些在世界頂端實現自己的運動員們，沒有比這更勵志的了。」並附上一連串表情符號，包含羽球、乒乓球、舉重、體操、柔道、高爾夫、射箭，以及金銀銅牌的圖案，全為台灣選手得到三甲的項目，被質疑同樣支援台獨。</p>
-
-<p><strong>中國選手輸台灣&nbsp; 遭國民唾棄</strong></p>
-
-<p>另一邊廂，輸給台灣對手的中國運動員亦不好過，中國組合李俊慧、劉雨辰在羽毛球男雙決賽敗給李洋及王齊麟，李俊慧在微博道歉，並感謝偉大的祖國，祝賀「我們中國的台北隊」。不過中國網民不領情，甚至指兩人台獨，有不少微博留言批評兩人表現，「打的毫無生氣，雖然沒有交流，我懷疑他倆不是什麼東西」、「這樣的人活該被噴死了吧」、「吳亦凡的新聞真的是救了他們，這倆運動員還學明星玻璃心評論」。</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="台灣"/>
-        <published>2021-08-03T11:33:12.562Z</published>
     </entry>
 </feed>
