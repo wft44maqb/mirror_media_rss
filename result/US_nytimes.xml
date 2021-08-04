@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 04 Aug 2021 09:49:22 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Aug 2021 09:59:25 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[官媒批网游为“精神鸦片”，腾讯等公司股价大跌]]></title>
+            <link><![CDATA[https://cn.nytimes.com/technology/20210804/china-video-game-tencent/?utm_source=RSS]]></link>
+            <description><![CDATA[《经济参考报》刊载的文章中，《王者荣耀》被点名。这引发投资者迅速抛售股票，腾讯周二股价一度下跌约10%。此前北京已经连续数月收紧对互联网行业的监管。<p><img src='https://static01.nyt.com/images/2021/08/03/world/03economy-briefing-china-videogames/merlin_191119287_8bc46356-494f-4aca-928d-aae90f6f4539-articleLarge.jpg' alt='周二，腾讯股价收盘下跌约7%。 Mark Schiefelbein/Associated Press'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Mark Schiefelbein/Associated Press</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>周二，腾讯股价收盘下跌约7%。</p>                    ]]></description>
+            <category>科技</category>
+            <dc:creator><![CDATA[曹莉]]></dc:creator>
+            <pubDate>Wed, 04 Aug 2021 09:54:25 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/technology/20210804/china-video-game-tencent/]]></guid>
+        </item>
             <item>
             <title><![CDATA[为何一个小小手势让韩国男性大为光火]]></title>
             <link><![CDATA[https://cn.nytimes.com/opinion/20210803/korea-emoji-feminism-misogyny/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[VANESSA FRIEDMAN]]></dc:creator>
             <pubDate>Fri, 30 Jul 2021 12:42:40 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/style/20210730/olympics-dress-codes-sports/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[不惜一切代价：奥运金牌背后的中国体育举国体制]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210730/china-olympics/?utm_source=RSS]]></link>
-            <description><![CDATA[在举国体制下，国家在全国物色筛选儿童，进行全日制集体培训。培养运动员只有一个目标：为国家荣耀赢得金牌。然而，在奖牌榜背后，运动员做出的牺牲是巨大的。<p><img src='https://static01.nyt.com/images/2021/07/29/world/29olympics-weightlifting-1/29olympics-weightlifting-1-articleLarge.jpg' alt='中国选手侯志慧在东京奥运会上赢得了女子49公斤级举重比赛金牌，并打破了三项奥运会纪录。 Doug Mills/The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Doug Mills/The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>中国选手侯志慧在东京奥运会上赢得了女子49公斤级举重比赛金牌，并打破了三项奥运会纪录。</p>                    ]]></description>
-            <category>中国</category>
-            <dc:creator><![CDATA[HANNAH BEECH]]></dc:creator>
-            <pubDate>Fri, 30 Jul 2021 11:55:00 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210730/china-olympics/]]></guid>
         </item>
     </channel>
 </rss>
