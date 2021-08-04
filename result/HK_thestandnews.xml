@@ -2,11 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-04T08:26:18.572Z</updated>
+    <updated>2021-08-04T08:31:20.531Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[從美國一宗刑事恐嚇案件，淺談資安基本常識]]></title>
+        <id>https://www.thestandnews.com/personal/%E5%BE%9E%E7%BE%8E%E5%9C%8B%E4%B8%80%E5%AE%97%E5%88%91%E4%BA%8B%E6%81%90%E5%9A%87%E6%A1%88%E4%BB%B6%E6%B7%BA%E8%AB%87%E8%B3%87%E5%AE%89%E5%9F%BA%E6%9C%AC%E5%B8%B8%E8%AD%98</id>
+        <link href="https://www.thestandnews.com/personal/%E5%BE%9E%E7%BE%8E%E5%9C%8B%E4%B8%80%E5%AE%97%E5%88%91%E4%BA%8B%E6%81%90%E5%9A%87%E6%A1%88%E4%BB%B6%E6%B7%BA%E8%AB%87%E8%B3%87%E5%AE%89%E5%9F%BA%E6%9C%AC%E5%B8%B8%E8%AD%98"/>
+        <updated>2021-08-04T08:30:51.000Z</updated>
+        <summary type="html"><![CDATA[話說有人用 ProtonMail 發信恐嚇美國總統首席醫療顧問福奇醫生（Dr Anthony Fauci），電郵標題寫道：「希望你今天能在你被出賣的撒旦精靈頭骨中得到一顆子彈。」之後還有多封類似電郵，聲稱會傷害福奇及其家人。先說結果，警方最後成功抓獲涉案人，這宗案件公開的《刑事訴訟書》像一個偵探故事，在這裡跟大家分享，文件可以在美國司法部下載。一，位於瑞士的 ProtonMail 公司應對先提供…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/342453214_1920.png"><figcaption><span>資料圖片，來源：Robinraj Premchand @ Pixabay</span></figcaption></figure><p>話說有人用 ProtonMail 發信恐嚇美國總統首席醫療顧問福奇醫生（Dr Anthony Fauci），電郵標題寫道：「希望你今天能在你被出賣的撒旦精靈頭骨中得到一顆子彈。」之後還有多封類似電郵，聲稱會傷害福奇及其家人。先說結果，警方最後成功抓獲涉案人，這宗案件公開的《刑事訴訟書》像一個偵探故事，在這裡跟大家分享，<a href="https://www.justice.gov/usao-md/pr/man-facing-federal-charges-allegedly-sending-threatening-emails-dr-anthony-fauci-and-dr" target="_blank">文件可以在美國司法部下載</a>。</p>
+
+<p><strong>一，位於瑞士的 ProtonMail 公司應對</strong></p>
+
+<p>先提供一個背景，ProtonMail 是加密的電郵服務供應商，注冊地在瑞士。不少人第一時間想到，既然恐嚇者用了 ProtonMail，理應很安全吧。但關鍵還是涉及當事人如何使用 ProtonMail。</p>
+
+<p>首先，美國警方聯絡了瑞士聯邦，當地法院再要求 ProtonMail 提交當事人的資料，而 ProtonMail 卻只有一項資料能夠提供：該戶口的創建日期為 2018 年 2 月 4 日。沒有提供（或記錄）IP 地址或其他個人訊息，亦看不到電郵內容或聯絡人資料。</p>
+
+<p>ProtonMail 本身聲稱對用戶是「零知識」，即是用戶資料加密，無法得知用戶的電郵內容或聯絡人清單等。不少科技公司都聲稱有「零知識」（zero knowledge）、「零記錄」（zero logging）政策，亦會找第三方做核對（third party auditing），但往往最有力的證據，是來自法院的傳票。</p>
+
+<p>當他們面對法院傳票時，仍然只能提供極少量的資料（這裡只提供開戶日期），可能就是其「零知識」的最佳佐證。情況跟數年前 Signal 通訊軟件的機構收到法院傳票，但只提供到客戶的開戶日期一樣。</p>
+
+<blockquote>
+<p><strong>參看：</strong><br>
+<a href="https://www.patreon.com/posts/39028166" target="_blank">最好的保密者，不止要守口如瓶</a></p>
+</blockquote>
+
+<p>還有一點想說，ProtonMail 設置在瑞士，不屬於「五眼」或「十四眼聯盟」，但即使不屬情報聯盟，但只要美國警方循其他國際協作方式，其實依然可以要求瑞士聯邦協助，要求當地公司交出資料，雖然最後只有一項開戶的日期。</p>
+
+<p><strong>二，Instagram 的聯繫</strong></p>
+
+<p>只有 ProtonMail 開戶日期，不足以找出當事人的身份，但美國警方進一步調查，估計是把該地址發至美國其他網絡服務商，包括 Instagram（估計還有其他，例如 Facebook 等），然後呢，線索就來了。</p>
+
+<p>涉案者用同一個 ProtonMail 的電郵地址，申請了一個 Instagram 帳號。於是 ProtonMail 公司雖然沒有提供用戶的敏感資料，但警方輕而易舉就掌握了涉案人的其他資料。</p>
+
+<p>Instagram 向美國警方提交的資料包括：開戶日期是 2020 年 5 月 14 日以及其 IP 地址。該 IP 地址從同年的 4 月 17 日起，就與涉案人租用的公寓相關，因而也找到目標人物的住宅地址。</p>
+
+<p>涉案人後來招認時，承認選擇 ProtonMail 是因為其遵守瑞士私隱法律，並有點對點加密。ProtonMail 理論上確是可以用來發出匿名電郵，但因為連結了 Instagram 戶口，正負得負，因而也不再匿名。</p>
+
+<p>所以有一點關於資訊安全的基本常識，是要假設自己不能匿名，因為大多人都做不到真正的匿名，總會留有足跡。而我每次聽到別人說自己是「隱身上網」、「匿名」、「用太空卡」，往往都覺心驚膽跳。</p>
+
+<blockquote>
+<p><strong>參看：</strong><br>
+<a href="https://www.patreon.com/posts/38185283" target="_blank">零基資安訓練營（九）：如果要完全隱藏網上身份</a></p>
+</blockquote>
+
+<p><strong>三，Mail.com 的聯繫</strong></p>
+
+<p>美國警方追查該住宅的租屋合約，發現涉案人以一個電話號碼及另一個 Mail.com 的電郵地址作登記。警方取得搜查令，要求 Mail.com 提供當事人的記錄，發現他從 2014 年 7 月就經常使用該戶口。</p>
+
+<p>而由於 Mail.com 沒有加密，調查人員還可以開到 Mail.com 的電郵，看到事主經常用 Mail.com 的戶口發信去 ProtonMail 以及另外兩個 ProtonMail 的地址，估計又是再聯絡瑞士，得知其他 ProtonMail 戶口的開戶日期。之後從其 Mail.com 上沒有加密的電郵，推斷出事主買過 Logic 等軟件。</p>
+
+<p>而在 Mail.com 沒有加密的電郵裡還發現其他訊息，包括事主的求職資料，以及其……登登登 — 個人履歷！原來事主從 1996 年開始便從事「訊息架構師、編輯、高級技術文件撰稿」相關的工作。</p>
+
+<p><strong>四，涉案人的用戶登入名字及密碼</strong></p>
+
+<p>在沒有加密的 Mail.com 郵件中，美國警方還發現了事主一件柒事。他在 2019 年 11 月 25 日，以 ProtonMail 發了一封電郵去 Mail.com，電郵標題是一個疑似用戶登入名字，而內容呢，負責撰寫口供的警員寫道：「根據我的培訓和經驗，電子郵件的正文包含以下內容，看來是密碼。」在隨後的日子，疑犯多次用電郵把用戶名字及密碼發送給自己。</p>
+
+<p>ProtonMail 是加密，如果是 ProtonMail 發信去 ProtonMail，仍是加密。但問題是，從加密的 ProtonMail 發信去沒有加密的 Mail.com，在 ProtonMail 一端上當然仍是加密，但 Mail.com 就可以看到裡面的資料。道理就像是即使阿田阿牧很守秘密，但若然把秘密告訴 Carmen，那就沒有秘密了。</p>
+
+<p>所以儲存密碼，沒有更好的方法，必須使用密碼管理器。</p>
+
+<blockquote>
+<p><strong>參看：</strong><br>
+<a href="https://www.patreon.com/posts/38002570" target="_blank">零基資安訓練營（六）：習慣使用密碼管理器</a><br>
+<a href="https://www.patreon.com/posts/53936034" target="_blank">調整心態，把「密碼管理器」當作筆記簿即可</a></p>
+</blockquote>
+
+<p><strong>五，沒有加密的通訊聊天記錄</strong></p>
+
+<p>這個「高級技術文件撰稿人」，後來還使用沒有加密的 Mail.com 郵件，與其他朋友在電郵中討論福奇醫生：「如果你看到他（福奇）直視鏡頭的照片 — 在我看來他簡直就是魔鬼。」涉案人還在多份電郵中提到疫情、HIV，甚至連發明聚合酶鏈式反應（PCR）技術的生化學家穆利斯（Kary Mullis）也有提及。</p>
+
+<p>Mail.com 沒有加密，任何發送至 Mail.com 的郵件也就等如沒有加密。若要做到加密，除了要求發信及收信雙方均是使用 ProtonMail，也可以用較簡單的方式，使用點對點加密的通訊工具，例如 Signal Messenger。</p>
+
+<blockquote>
+<p><strong>參看：</strong><br>
+<a href="https://www.patreon.com/posts/37689737" target="_blank">轉用 Signal 通訊軟件</a><br>
+<a href="https://www.patreon.com/posts/39576289" target="_blank">在 Signal 上用太空卡與否，這是個問題</a><br>
+<a href="https://www.patreon.com/posts/46290803" target="_blank">Signal 與 Telegram 應共存，但使用場景不同</a><br>
+<a href="https://www.patreon.com/posts/46148281" target="_blank">淺談各種聊天應用軟件</a></p>
+</blockquote>
+
+<p><strong>小結</strong></p>
+
+<p>這宗案件有趣之處，是在短短 13 頁紙的《刑事訴訟書》當中，提供了大量有關資訊安全的例子及教材，尤其要明白「正負得負」的簡單道理，即是：「加密」加上「非加密」，其實就是沒有加密；「隱身」加上「非隱身」，等如沒有隱身。例如有人用加密的 ProtonMail 發送郵件至非加密的 Mail.com 或 Gmail.com；又或是使用隱身的 VPN + TOR 上網，卻用來登入自己的 Facebook 帳號。</p>
+
+<p>文章裡提及的案件，涉及刑事恐嚇在抗疫政策上貢獻良多的福奇醫生，涉案人士被抓，當然值得稱慶。但反過來說，萬一這次偵查的不是三權獨立的美國警方，而是一些卑鄙無恥，下流賤格的網際黑客人渣歹徒，他們運用其有限知識及龐大資源，毫無廉恥地，企圖或意圖利用釣魚攻擊、詐騙電郵、虛弱密碼或騎劫即時通訊軟件帳號等，從而攻擊無辜百姓，對於任何公民來說，後果不堪設想。</p>
+
+<p>守護網絡安全，護己護人，人人有責，還要認清提供資安訊息的渠道，慎防賊喊捉賊。</p>
+
+<p style="text-align:center"></p><figure><img src="https://assets.thestandnews.com/media/photos/227072002.jpg"><figcaption><span>文中提及的相關案件，其《刑事訴訟書》截圖，留意法官個簽名，好似蛇仔，哈哈。</span></figcaption></figure><p></p>
+
+<p>&nbsp;</p>
+
+<p>🔑 <a href="https://www.patreon.com/posts/54385202" target="_blank">【超務實長清單整理，和你加強資訊保安、私隱保護（2021 年 8 月更新）】</a></p>
+
+<p><a href="https://www.patreon.com/posts/54414163" target="_blank">作者 Patreon</a> / <a href="https://www.facebook.com/pazukong/posts/376575673839722" target="_blank">Facebook</a> / <a href="https://mewe.com/p/pazu/show/61086ae05671de216b877073" target="_blank">MeWe</a></p>]]></content>
+        <author>
+            <name>Pazu 薯伯伯</name>
+            <uri>https://www.thestandnews.com/author/pazu-%E8%96%AF%E4%BC%AF%E4%BC%AF</uri>
+        </author>
+        <category label="生活"/>
+        <published>2021-08-04T08:30:09.714Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[澳門全民強檢排長龍、系統故障　檢驗逾 1500名隔離人士　未發現新確診個案]]></title>
         <id>https://www.thestandnews.com/%E6%BE%B3%E9%96%80/a-%E6%AA%A2%E9%A9%97%E9%80%BE-1500-%E4%BA%BA%E6%9C%AA%E7%99%BC%E7%8F%BE-delta-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E6%BE%B3%E9%96%80%E5%85%A8%E6%B0%91%E6%AA%A2%E6%B8%AC%E5%A4%A7%E6%8E%92%E9%95%B7%E9%BE%8D%E7%B3%BB%E7%B5%B1%E6%95%85%E9%9A%9C</id>
@@ -727,28 +827,5 @@ Chandler, J.C., Bevins, S.N., Ellis, J.W. &amp; et al. (2021). SARS-CoV-2 exposu
         </author>
         <category label="法庭"/>
         <published>2021-08-04T03:35:50.081Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中國新增 96 宗確診　武漢 Delta 變種與江蘇病例高度同源]]></title>
-        <id>https://www.thestandnews.com/china/%E4%B8%AD%E5%9C%8B%E6%96%B0%E5%A2%9E-96-%E5%AE%97%E7%A2%BA%E8%A8%BA-%E6%AD%A6%E6%BC%A2-delta-%E8%AE%8A%E7%A8%AE%E8%88%87%E6%B1%9F%E8%98%87%E7%97%85%E4%BE%8B%E9%AB%98%E5%BA%A6%E5%90%8C%E6%BA%90</id>
-        <link href="https://www.thestandnews.com/china/%E4%B8%AD%E5%9C%8B%E6%96%B0%E5%A2%9E-96-%E5%AE%97%E7%A2%BA%E8%A8%BA-%E6%AD%A6%E6%BC%A2-delta-%E8%AE%8A%E7%A8%AE%E8%88%87%E6%B1%9F%E8%98%87%E7%97%85%E4%BE%8B%E9%AB%98%E5%BA%A6%E5%90%8C%E6%BA%90"/>
-        <updated>2021-08-04T03:42:56.972Z</updated>
-        <summary type="html"><![CDATA[自 7 月下旬，Delta 變種病毒攻入南京後，迅速在大陸蔓延。中國過去一日新增 96 宗武漢肺炎（covid 19）確診，當中 71 宗為本土病例。另外，清零 14 個月的武漢有工人確診，新增確診病例 3 例，無症狀感染者 5 例，當中 2 個樣本測序結果顯示為 Delta 變種病毒，與江蘇本土病例的病毒株高度同源。71 宗本土病例以江蘇最多，有 35 例，湖南 15 例，湖北 9 例。武漢啟…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210712-05.png"></figure><p>自 7 月下旬，Delta 變種病毒攻入南京後，迅速在大陸蔓延。中國過去一日<a href="http://www.nhc.gov.cn/xcs/yqfkdt/202108/1c2667b1d03b45a1804c226120457781.shtml">新增 96 宗</a>武漢肺炎（covid 19）確診，當中 71 宗為本土病例。另外，清零 14 個月的武漢有工人確診，新增確診病例 3 例，無症狀感染者 5 例，當中 2 個樣本測序結果顯示為 Delta 變種病毒，與江蘇本土病例的病毒株高度同源。<br>
-<br>
-71 宗本土病例以江蘇最多，有 35 例，湖南 15 例，湖北 9 例。</p>
-
-<p>武漢啟動全員核酸檢測，部分小區通宵檢測。當地在周日（1 日）起全市恢復 2020 年初的「戰時狀態」，即凡要進入公共場合必須佩戴口罩；進出小區都要掃碼；100 人以上聚集活動取消。機場、高速公路設檢查站等。</p>
-
-<p>湖北省衛健委副主任柳東如表示，7 月 31 日以來，湖北省累計錄得 15 宗本土確診病例，本土無症狀感染者 11 例。昨日&nbsp;(3 日) 新增的 9 例確診、3 例無症狀感染均為武漢同一工地隔離封閉管理人員。據基因測序結果，均屬江蘇淮安確診病例的關聯病例。另外，繼江蘇揚州之後，張家界昨日（3日）宣布「封城」，即日起所有居民及遊客不得離開。<br>
-&nbsp;</p>
-
-<p>&nbsp;</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="中國"/>
-        <published>2021-08-04T02:27:06.743Z</published>
     </entry>
 </feed>
