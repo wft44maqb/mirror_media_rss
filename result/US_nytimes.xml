@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 04 Aug 2021 13:00:08 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Aug 2021 14:00:22 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[她极力避免卷入政治，却成为白俄罗斯强权镇压的象征]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210804/kristina-timanovskaya-belarus-interview/?utm_source=RSS]]></link>
+            <description><![CDATA[季马诺夫斯卡娅拒绝被强送回国，让一场体育纠纷演变成重大外交事件。在抗议活动席卷全国的白俄罗斯，她曾极力避免卷入政治，但政治仍妨碍了她职业生涯中最重要的时刻。<p><img src='https://static01.nyt.com/images/2021/08/03/world/03belarus-sprinter2/merlin_192338646_ce222495-aaf5-4e25-9774-a1efe59dc8eb-articleLarge.jpg' alt='白俄罗斯选手克里斯蒂娜·季马诺夫斯卡娅在周五东京奥运会女子100米短跑比赛中。 Petr David Josek/Associated Press'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Petr David Josek/Associated Press</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>白俄罗斯选手克里斯蒂娜·季马诺夫斯卡娅在周五东京奥运会女子100米短跑比赛中。</p>                    ]]></description>
+            <category>国际</category>
+            <dc:creator><![CDATA[VALERIE HOPKINS,TARIQ PANJA]]></dc:creator>
+            <pubDate>Wed, 04 Aug 2021 01:15:32 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210804/kristina-timanovskaya-belarus-interview/]]></guid>
+        </item>
             <item>
             <title><![CDATA[白俄罗斯运动员拒绝被强送回国，获得波兰庇护]]></title>
             <link><![CDATA[https://cn.nytimes.com/world/20210803/belarus-olympics-kristina-timanovskaya/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[APOORVA MANDAVILLI]]></dc:creator>
             <pubDate>Fri, 30 Jul 2021 04:13:28 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210730/cdc-masks-vaccinated-transmission/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[重温贾樟柯长片处女作《小武》：低调而杰出]]></title>
-            <link><![CDATA[https://cn.nytimes.com/culture/20210730/xiao-wu-pickpocket/?utm_source=RSS]]></link>
-            <description><![CDATA[《小武》完全由非专业演员出演，以极小的成本制作，在中国没有得到上映许可。影片描绘了一个游手好闲的中国主人公，以及一个很少有西方人见过的落后环境。<p><img src='https://static01.nyt.com/images/2021/07/20/arts/rewind-xiao-wu/merlin_191091003_a56ac5e0-f8a4-43c7-abf8-a2b74b61e239-articleLarge.jpg' alt='王宏伟在导演的家乡汾阳饰演一个过一天算一天、不太合群的扒手。 Janus Films'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Janus Films</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>王宏伟在导演的家乡汾阳饰演一个过一天算一天、不太合群的扒手。</p>                    ]]></description>
-            <category>文化</category>
-            <dc:creator><![CDATA[J. HOBERMAN]]></dc:creator>
-            <pubDate>Fri, 30 Jul 2021 03:02:59 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/culture/20210730/xiao-wu-pickpocket/]]></guid>
         </item>
     </channel>
 </rss>
