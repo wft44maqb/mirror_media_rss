@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-04T12:48:14.750Z</updated>
+    <updated>2021-08-04T12:53:17.470Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[港府 8.5 起　停廣東省以外「回港易」免檢返港　須家居隔離 14 日]]></title>
+        <id>https://www.thestandnews.com/society/ac_%E6%B8%AF%E5%BA%9C-85-%E8%B5%B7-%E5%81%9C%E5%BB%A3%E6%9D%B1%E7%9C%81%E4%BB%A5%E5%A4%96%E5%85%A7%E5%9C%B0%E5%9C%B0%E5%8D%80%E4%BA%BA%E5%A3%AB%E4%BB%A5%E5%9B%9E%E6%B8%AF%E6%98%93%E5%85%8D%E6%AA%A2%E8%BF%94%E6%B8%AF-%E9%A0%88%E5%AE%B6%E5%B1%85%E9%9A%94%E9%9B%A2-14-%E6%97%A5</id>
+        <link href="https://www.thestandnews.com/society/ac_%E6%B8%AF%E5%BA%9C-85-%E8%B5%B7-%E5%81%9C%E5%BB%A3%E6%9D%B1%E7%9C%81%E4%BB%A5%E5%A4%96%E5%85%A7%E5%9C%B0%E5%9C%B0%E5%8D%80%E4%BA%BA%E5%A3%AB%E4%BB%A5%E5%9B%9E%E6%B8%AF%E6%98%93%E5%85%8D%E6%AA%A2%E8%BF%94%E6%B8%AF-%E9%A0%88%E5%AE%B6%E5%B1%85%E9%9A%94%E9%9B%A2-14-%E6%97%A5"/>
+        <updated>2021-08-04T12:50:12.307Z</updated>
+        <summary type="html"><![CDATA[近日內地疫情反覆，已連續錄得多宗個案。港府今日（4 日）公布，明天（5 日）起，除廣東省外，從其他內地地區返港的香港居民，將不能通過「回港易」免檢疫返港。政府公布，此安排會在 8 月 5 日凌晨零時起生效，而即使在此前已通過「回港易」登記，亦不會獲豁免檢疫。自廣東省以外內地地區回港的人士，須接受 14 日家居強制檢疫。今日港府已公布，把澳門納入「回港易」計劃暫不適用風險地區，停止自澳門回港的人士…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/83638629_10162766944160265_4194055892624211968_o20copy_cT62c.png"><figcaption><span>政府早前公布「回港易」計劃，由廣東或澳門回港的香港居民、持有效武漢肺炎檢測陰性結果，可豁免回港後 14 日強制檢疫。圖為深圳灣口岸。</span></figcaption></figure><p>近日內地疫情反覆，已連續錄得多宗個案。港府今日（4 日）公布，明天（5 日）起，除廣東省外，從其他內地地區返港的香港居民，將不能通過「回港易」免檢疫返港。</p>
+
+<p>政府公布，此安排會在 8 月 5 日凌晨零時起生效，而即使在此前已通過「回港易」登記，亦不會獲豁免檢疫。自廣東省以外內地地區回港的人士，須接受 14 日家居強制檢疫。</p>
+
+<p>今日港府已公布，把澳門納入「回港易」計劃暫不適用風險地區，停止自澳門回港的人士使用「回港易」。<br>
+&nbsp;</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-04T12:45:28.401Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【東京奧運】「獎牌應給老婆」　台灣高球一哥奪銅牌　感激妻子身兼球僮相伴]]></title>
         <id>https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E7%8D%8E%E7%89%8C%E6%87%89%E7%B5%A6%E8%80%81%E5%A9%86-%E5%8F%B0%E7%81%A3%E9%AB%98%E7%90%83%E4%B8%80%E5%93%A5%E5%A5%AA%E9%8A%85%E7%89%8C-%E6%84%9F%E6%BF%80%E5%A6%BB%E5%AD%90%E8%BA%AB%E5%85%BC%E7%90%83%E5%83%AE%E7%9B%B8%E4%BC%B4</id>
@@ -1041,41 +1060,5 @@
         </author>
         <category label="生活"/>
         <published>2021-08-04T08:30:09.714Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[澳門全民強檢排長龍、系統故障　檢驗逾 1500名隔離人士　未發現新確診個案]]></title>
-        <id>https://www.thestandnews.com/%E6%BE%B3%E9%96%80/a-%E6%AA%A2%E9%A9%97%E9%80%BE-1500-%E4%BA%BA%E6%9C%AA%E7%99%BC%E7%8F%BE-delta-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E6%BE%B3%E9%96%80%E5%85%A8%E6%B0%91%E6%AA%A2%E6%B8%AC%E5%A4%A7%E6%8E%92%E9%95%B7%E9%BE%8D%E7%B3%BB%E7%B5%B1%E6%95%85%E9%9A%9C</id>
-        <link href="https://www.thestandnews.com/%E6%BE%B3%E9%96%80/a-%E6%AA%A2%E9%A9%97%E9%80%BE-1500-%E4%BA%BA%E6%9C%AA%E7%99%BC%E7%8F%BE-delta-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E6%BE%B3%E9%96%80%E5%85%A8%E6%B0%91%E6%AA%A2%E6%B8%AC%E5%A4%A7%E6%8E%92%E9%95%B7%E9%BE%8D%E7%B3%BB%E7%B5%B1%E6%95%85%E9%9A%9C"/>
-        <updated>2021-08-04T08:07:27.707Z</updated>
-        <summary type="html"><![CDATA[澳門有一家四口確診 Delta 變種武肺病毒，宣佈明日（5日）起關閉除賭場外的&nbsp;19 類娛樂場所。而今日（4日）開展的全民强檢，則出現系統故障及檢測站大排長龍的情況。澳門特首賀一誠今午（4日）表示，懷疑為源頭之濠江中學西安交流團 18 名在澳團友及超過 1500 名隔離人士已有檢測結果，暫時未有發現確診個案，而逗留在香港及内地的另外 10 名交流團團友亦未有確診，當局會繼續追尋感染源頭…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/Layer200_2wnmm.png"><figcaption><span>澳門疫情，圖片來源：崔子釗 攝</span></figcaption></figure><p>澳門有一家四口確診 Delta 變種武肺病毒，宣佈明日（5日）起關閉除賭場外的&nbsp;19 類娛樂場所。而今日（4日）開展的全民强檢，則出現系統故障及檢測站大排長龍的情況。澳門特首賀一誠今午（4日）表示，懷疑為源頭之濠江中學西安交流團 18 名在澳團友及超過 1500 名隔離人士已有檢測結果，暫時未有發現確診個案，而逗留在香港及内地的另外 10 名交流團團友亦未有確診，當局會繼續追尋感染源頭，但目前不會全面封關。</p>
-
-<p>澳門特首賀一誠表示，暫時未找到感染源頭，而與曾前往西安交流的確診學生，同一班航班的其他學生則未有人染疫，認爲確診學生很大機會透過飛機感染病毒，但不排除患者在西安時曾接觸其他染病人士，當局目前已派遣臨床醫生到澳門機場檢視是否存在播疫漏洞，但在評估經濟與疫情兩者的平衡下，暫時未有全面封關的想法，「全澳門封閉，不是我們想看到的」。</p>
-
-<p><strong>未發現確診個案　有團友身在香港</strong></p>
-
-<p>參與西安舞蹈團的學生，除已確診的 12&nbsp;歲學生外，其餘&nbsp;18 名團友的核酸檢測均為陰性；暫時分別身處香港、内地等，10 名團友亦未有病發跡象及確診個案，並正接受隔離；1903 名確診學生及團友的密切接觸者亦已接受檢測，其中 1560 人已有結果，均爲陰性。而曾與病患接觸的石排灣及路環衛生站的 26 名醫護人員亦已隔離檢測。</p>
-
-<p>全民檢測方面，暫時有超過 18 萬人已預約接受檢測，未見有確診個案。賀一誠又指，市民須有心理準備，不排除進行多次檢測，以確保疫情不會擴散，而所有被隔離人士將再次進行血清抗體測試。</p>
-
-<p>今早正式開展的全民檢測，一開始便出現健康碼連線緩慢的問題，系統更一度出現故障等情況；以百計的市民則在多個檢測站外輪候數小時，或造成傳播風險，亦有外地傭工昨日凌晨起排隊接受檢測，希望可以取得陰性結果通關。</p>
-
-<p>另外，澳門當局未成功將健康碼的結果證明時限，由 24 小時更改至 12 小時，以配合粵澳口岸的限制。賀一誠就系統問題致歉，並呼籲市民通關時採用粵康碼代替，未來則會研究後備軟件，避免系統出錯，影響市民出行。</p>
-
-<p><strong>不會推全民打疫苗　學校有一定責任</strong></p>
-
-<p>有記者在會上問及，會否順勢推行全民打疫苗，賀一誠形容當局會「保守少少」，只會鼓勵市民在自願情況下打疫苗，並不會推出任何鼓勵政策，「好希望大家都去打，但打落去人體的疫苗，希望是自願的性質」。</p>
-
-<p>就該舉辦交流團的澳門濠江中學，是否應就疫情期間依然安排學生北上負責，賀一誠則表示，學校有一定責任，做法存在改良空間，及須汲取教訓，但不能全盤怪責學校，未來局方會與學校溝通，評估疫情及應否照常舉行交流團。</p>
-
-<p>包括出生嬰兒在内的全體澳門市民，在今日（4日）早上九時起的三天内，須透過電子預約系統，到全澳共 41 個檢測站接受核酸檢測。在接受檢測後，健康碼會由藍色變爲綠色，若市民在星期六（7日）早上9時的限期內未有接受檢測，健康碼將轉為黃碼，届時出入部分場所將受限制。政府較早時宣佈，在8 月 5 日凌晨零時起，澳門將關閉 19 類娛樂場所，包括戲院、酒吧、卡拉OK、美容院、保齡球場及健身室等，但賭場則不在此限。（<a href="https://www.thestandnews.com/%E6%BE%B3%E9%96%80/%E6%AD%A6%E8%82%BA%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92%E5%85%A5%E4%BE%B5-%E6%BE%B3%E9%96%80%E5%AE%A3%E4%BD%88%E9%97%9C%E9%96%89%E9%85%92%E5%90%A7%E6%88%B2%E9%99%A2%E5%81%A5%E8%BA%AB%E5%AE%A4%E7%AD%89-19-%E9%A1%9E%E5%A8%9B%E6%A8%82%E5%A0%B4%E6%89%80">另見稿</a>）</p>
-
-<p>&nbsp;</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="澳門"/>
-        <published>2021-08-04T07:31:39.782Z</published>
     </entry>
 </feed>
