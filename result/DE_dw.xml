@@ -6,8 +6,8 @@
   <description>News, Analysis and Service from Germany and Europe - in 30 Languages</description>
   <language>zh</language>
   <copyright>2021 DW.COM, Deutsche Welle</copyright>
-  <pubDate>Wed, 4 Aug 2021 13:26:49 GMT</pubDate>
-  <lastBuildDate>Wed, 4 Aug 2021 13:26:49 GMT</lastBuildDate>
+  <pubDate>Wed, 4 Aug 2021 13:32:09 GMT</pubDate>
+  <lastBuildDate>Wed, 4 Aug 2021 13:32:09 GMT</lastBuildDate>
   <atom:link href="https://rss.dw.com/xml/podcast_radio_china" rel="self"/>
   <image>
    <url>https://static.dw.com/image/2273684_7.jpg</url>
@@ -28,6 +28,19 @@
    <itunes:category text="Politics"/>
   </itunes:category>
   <ttl>10</ttl>
+  <item>
+   <guid isPermaLink="false">58757166</guid>
+   <pubDate>Wed, 4 Aug 2021 13:17:00 GMT</pubDate>
+   <title>客座评论：如果美国真想在东南亚赢得民心</title>
+   <link>https://www.dw.com/zh/客座评论：如果美国真想在东南亚赢得民心/av-58757166?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>美国政府高层近日频繁与东南亚国家互动，试图联合应对中国在印太地区的挑战。但英国皇家国际事务研究所（Chatham House）亚洲问题专家Bill Hayton认为，目前华盛顿应该把重点放在另一个议题上。</description>
+   <category>评论分析</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>美国, 中国, 东南亚, 印太, 新冠, 疫情, 疫苗, 拜登, 习近平, Bill Hayton, Chatham House, 英国皇家国际事务研究所</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210804_001_kolumnehaydon_sd.mp4" type="video/mp4" length="9411691"/>
+   <itunes:duration>01:51</itunes:duration>
+  </item>
   <item>
    <guid isPermaLink="false">58740077</guid>
    <pubDate>Tue, 3 Aug 2021 10:17:00 GMT</pubDate>
@@ -404,19 +417,6 @@
    <itunes:explicit>clean</itunes:explicit>
    <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210618_001_8e534feuerkochwide_sd.mp4" type="video/mp4" length="5255807"/>
    <itunes:duration>01:04</itunes:duration>
-  </item>
-  <item>
-   <guid isPermaLink="false">57951021</guid>
-   <pubDate>Fri, 18 Jun 2021 11:06:00 GMT</pubDate>
-   <title>史塔西档案馆：直面东德历史</title>
-   <link>https://www.dw.com/zh/史塔西档案馆：直面东德历史/av-57951021?maca=chi-podcast_radio_china-1169-xml-mrss</link>
-   <description>数百万人访问过史塔西档案馆，看看东德秘密警察掌握了他们哪些隐私。这里为其他国家如何面对和处理独裁政权历史提供了参考。</description>
-   <category>文化经纬</category>
-   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
-   <itunes:keywords>史塔西, 档案馆, 东德, 历史, 秘密警察, 隐私, 独裁政权</itunes:keywords>
-   <itunes:explicit>clean</itunes:explicit>
-   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210618_001_19789stasi_sd.mp4" type="video/mp4" length="12427145"/>
-   <itunes:duration>02:31</itunes:duration>
   </item>
  </channel>
 </rss>
