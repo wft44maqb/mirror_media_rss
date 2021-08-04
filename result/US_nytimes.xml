@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 04 Aug 2021 14:40:30 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Aug 2021 14:50:31 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[“我觉得完全被侵犯了”：纽约州长科莫性骚扰调查报告出炉]]></title>
+            <link><![CDATA[https://cn.nytimes.com/usa/20210804/cuomo-toxic-workplace/?utm_source=RSS]]></link>
+            <description><![CDATA[检方公布的这报告是迄今为止对科莫不当行为的最全明说明。报告还描述了他是如何保护自己免受性骚扰行为的伤害，可能损害科莫名誉的人成了报复行动的目标。<p><img src='https://static01.nyt.com/images/2021/08/03/us/politics/03ny-cuomotoxic/merlin_187330752_27ce1ad3-b71e-46c3-b522-60c8f60393d2-articleLarge.jpg' alt='根据周二发布的一份报告，州长安德鲁·M·科莫对其政府内外的女性进行了性骚扰。 Pool photo by Spencer Platt'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Pool photo by Spencer Platt</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>根据周二发布的一份报告，州长安德鲁·M·科莫对其政府内外的女性进行了性骚扰。</p>                    ]]></description>
+            <category>美国</category>
+            <dc:creator><![CDATA[MATT FLEGENHEIMER]]></dc:creator>
+            <pubDate>Wed, 04 Aug 2021 02:41:35 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210804/cuomo-toxic-workplace/]]></guid>
+        </item>
             <item>
             <title><![CDATA[她极力避免卷入政治，却成为白俄罗斯强权镇压的象征]]></title>
             <link><![CDATA[https://cn.nytimes.com/world/20210804/kristina-timanovskaya-belarus-interview/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[艾莎,曹莉]]></dc:creator>
             <pubDate>Fri, 30 Jul 2021 05:29:53 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210730/china-education-tutors/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[已接种新冠疫苗的人还会传播Delta毒株吗？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/health/20210730/cdc-masks-vaccinated-transmission/?utm_source=RSS]]></link>
-            <description><![CDATA[有新研究表明，在感染Delta变种后，已接种过疫苗者鼻腔和喉咙中都携带了大量病毒。美国疾控中心尚未公布相关数据，但已建议一些地区的疫苗接种者重新戴上口罩。<p><img src='https://static01.nyt.com/images/2021/07/29/science/29virus-transmit1/merlin_191732004_683cde72-c3bb-4323-9732-80bd27f32fe0-articleLarge.jpg' alt='7月15日，洛杉矶的一家发廊恢复了室内佩戴口罩的规定。 Alex Welsh for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Alex Welsh for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>7月15日，洛杉矶的一家发廊恢复了室内佩戴口罩的规定。</p>                    ]]></description>
-            <category>健康</category>
-            <dc:creator><![CDATA[APOORVA MANDAVILLI]]></dc:creator>
-            <pubDate>Fri, 30 Jul 2021 04:13:28 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210730/cdc-masks-vaccinated-transmission/]]></guid>
         </item>
     </channel>
 </rss>
