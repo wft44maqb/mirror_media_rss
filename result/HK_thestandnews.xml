@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-04T13:43:41.231Z</updated>
+    <updated>2021-08-04T13:48:43.222Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[社區檢測中心收緊免費檢測條件　指定群組如未打針　須出示醫生紙]]></title>
+        <id>https://www.thestandnews.com/society/%E7%A4%BE%E5%8D%80%E6%AA%A2%E6%B8%AC%E4%B8%AD%E5%BF%83%E6%94%B6%E7%B7%8A%E5%85%8D%E8%B2%BB%E6%AA%A2%E6%B8%AC%E6%A2%9D%E4%BB%B6-%E6%8C%87%E5%AE%9A%E7%BE%A4%E7%B5%84%E5%A6%82%E6%9C%AA%E6%89%93%E9%87%9D-%E9%A0%88%E5%87%BA%E7%A4%BA%E9%86%AB%E7%94%9F%E7%B4%99</id>
+        <link href="https://www.thestandnews.com/society/%E7%A4%BE%E5%8D%80%E6%AA%A2%E6%B8%AC%E4%B8%AD%E5%BF%83%E6%94%B6%E7%B7%8A%E5%85%8D%E8%B2%BB%E6%AA%A2%E6%B8%AC%E6%A2%9D%E4%BB%B6-%E6%8C%87%E5%AE%9A%E7%BE%A4%E7%B5%84%E5%A6%82%E6%9C%AA%E6%89%93%E9%87%9D-%E9%A0%88%E5%87%BA%E7%A4%BA%E9%86%AB%E7%94%9F%E7%B4%99"/>
+        <updated>2021-08-04T13:45:18.111Z</updated>
+        <summary type="html"><![CDATA[政府公布，本月起社區檢測中心只會為特定群組人士提供免費病毒檢測，即例如因健康理由而不宜接種疫苗者，須提供醫生證明才可免費檢測。收緊的行業包括餐飲業務員工，未完成疫苗接種人士，只可因健康理由而免費檢測，並須填妥指定表格，向僱主申報及出示醫生證明。而重開的表列處所員工，即浴室、派對房間、夜店或夜總會、卡拉 OK 場所及麻將天九耍樂處所，免費檢測條件亦一樣。另外，亦有新增合資格預約免費檢測的人士，由 …]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/118291099_4558403890899014_8585042641774377893_o_rA5vq_J18spJx.png"><figcaption><span>保安道體育館社區檢測中心</span></figcaption></figure><p>政府公布，本月起社區檢測中心只會為特定群組人士提供免費病毒檢測，即例如因健康理由而不宜接種疫苗者，須提供醫生證明才可免費檢測。</p>
+
+<p>收緊的行業包括餐飲業務員工，未完成疫苗接種人士，只可因健康理由而免費檢測，並須填妥指定表格，向僱主申報及出示醫生證明。而重開的表列處所員工，即浴室、派對房間、夜店或夜總會、卡拉 OK 場所及麻將天九耍樂處所，免費檢測條件亦一樣。</p>
+
+<p>另外，亦有新增合資格預約免費檢測的人士，由 8 月 9 日起，機場員工要已打第一針、或因健康理由不能接種者，才可每 7 天做免費病毒檢測。</p>
+
+<p>但上水屠房從業員，包括營運者、入口商、買手及運輸公司，自&nbsp;8 月 8 日起，不論是否已接種疫苗，只須向檢測中心出示核實身分的證明，就可免費檢測。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-04T13:38:54.979Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【跟著小編遊東奧】要走就要走　搵架車去伊豆（feat. Tokyo2020）]]></title>
         <id>https://www.thestandnews.com/sport/%E8%B7%9F%E8%91%97%E5%B0%8F%E7%B7%A8%E9%81%8A%E6%9D%B1%E5%A5%A7%E8%A6%81%E8%B5%B0%E5%B0%B1%E8%A6%81%E8%B5%B0-%E6%90%B5%E6%9E%B6%E8%BB%8A%E5%8E%BB%E4%BC%8A%E8%B1%86feat-tokyo2020</id>
@@ -825,6 +845,46 @@
         <published>2021-08-04T10:07:48.673Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[給 Rockmui 的一封信]]></title>
+        <id>https://www.thestandnews.com/culture/%E7%B5%A6-rockmui-%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1</id>
+        <link href="https://www.thestandnews.com/culture/%E7%B5%A6-rockmui-%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1"/>
+        <updated>2021-08-04T09:56:12.485Z</updated>
+        <summary type="html"><![CDATA[【文：一位盧凱彤 fans】親愛的 Ellen，你好嗎？不知不覺間你已經離開大家三年了&hellip;&hellip;我一直都覺得你只是去了一趟旅行還沒有回來，你不在的時間，香港也改變了很多。有時候都會想，如果你還在的話，看到香港變成現在這樣你會怎麼樣？向來關心社會議題的你，又會創作怎樣的歌曲？近日明哥因為被指違反選舉條例而被捕，8 月 5 日提堂，這個日子，你最愛的人發生了這樣的事情，更讓我想…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/ellen_4Fmhp.png"><figcaption><span>盧凱彤</span></figcaption></figure><p>【文：一位盧凱彤 fans】</p>
+
+<p>親愛的 Ellen，</p>
+
+<p>你好嗎？不知不覺間你已經離開大家三年了……</p>
+
+<p>我一直都覺得你只是去了一趟旅行還沒有回來，你不在的時間，香港也改變了很多。</p>
+
+<p>有時候都會想，如果你還在的話，看到香港變成現在這樣你會怎麼樣？向來關心社會議題的你，又會創作怎樣的歌曲？</p>
+
+<p><a href="https://www.thestandnews.com/politics/%E6%AD%8C%E6%89%8B%E9%BB%83%E8%80%80%E6%98%8E%E8%A2%AB%E5%BB%89%E7%BD%B2%E6%8B%98%E6%8D%95-%E6%B6%89%E5%AB%8C%E9%81%95%E5%8F%8D%E9%81%B8%E8%88%89%E8%88%9E%E5%BC%8A%E5%8F%8A%E9%9D%9E%E6%B3%95%E8%A1%8C%E7%82%BA%E6%A2%9D%E4%BE%8B" target="_blank">近日明哥因為被指違反選舉條例而被捕</a>，8 月 5 日提堂，這個日子，你最愛的人發生了這樣的事情，更讓我想起你，相信你的心情一定跟大家一樣。</p>
+
+<p>我也不知不覺已經喜歡你六年了，想當初我剛剛考完文憑試因為你的慈善畫展認識了你，繼而成為你的歌迷，很想多謝你，要不是遇到你，我應該還不會懂得認識情緒病。</p>
+
+<p>最近我認識了兩位患情緒病的朋友，面對她們大起大落的情緒有時候都會很擔心，雖然跟她們還不算熟絡，但是我願意一直陪伴他們渡過，有時候看到她們因為講出自己病情而被攻擊，我實在替她們感到難過又憤怒。</p>
+
+<p>自己作為高敏感人，又有驚恐症，大家所面對的經歷都有幾分相似，所以當她們訴說自己當下的情緒反應時，我能夠感到她們有多無助。</p>
+
+<p>6 月商台 Colin 在時代廣場舉辦了一個名為「明日之廣東歌」的展覽，在那裏我錄了給你的信，但很多回憶湧上心頭忍不住哽咽……原來無論時間過了多久，還是會捨不得。</p>
+
+<p>除了想感謝你讓我開始關注情緒病和精神病，也因而認識到兩位朋友，我更想謝謝你的音樂一直陪伴著我。</p>
+
+<p>之前也曾經投稿過一次，提及到自己因為去年的疫情，經歷了一次比較嚴重的驚恐症，因而明白了你的歌《荒原》的意思，這首歌真的引起了共鳴，也給予我很多的鼓勵，謝謝你。</p>
+
+<p>轉眼間又一年了，想起你三年前曾經講話自己希望重返校園去修讀心理學，由於這個疫情自己還沒有工作，我報讀了一個港專的心理學課程，為期半年，希望幫助自己，幫助別人。</p>
+
+<p>願你一切安好</p>]]></content>
+        <author>
+            <name>讀者投稿</name>
+            <uri>https://www.thestandnews.com/author/%E8%AE%80%E8%80%85%E6%8A%95%E7%A8%BF</uri>
+        </author>
+        <category label="文化"/>
+        <published>2021-08-04T09:56:12.485Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hitting the high notes]]></title>
         <id>https://www.thestandnews.com/personal/hitting-the-high-notes</id>
         <link href="https://www.thestandnews.com/personal/hitting-the-high-notes"/>
@@ -867,46 +927,6 @@
         </author>
         <category label="生活"/>
         <published>2021-08-04T09:59:11.999Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[給 Rockmui 的一封信]]></title>
-        <id>https://www.thestandnews.com/culture/%E7%B5%A6-rockmui-%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1</id>
-        <link href="https://www.thestandnews.com/culture/%E7%B5%A6-rockmui-%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1"/>
-        <updated>2021-08-04T09:56:12.485Z</updated>
-        <summary type="html"><![CDATA[【文：一位盧凱彤 fans】親愛的 Ellen，你好嗎？不知不覺間你已經離開大家三年了&hellip;&hellip;我一直都覺得你只是去了一趟旅行還沒有回來，你不在的時間，香港也改變了很多。有時候都會想，如果你還在的話，看到香港變成現在這樣你會怎麼樣？向來關心社會議題的你，又會創作怎樣的歌曲？近日明哥因為被指違反選舉條例而被捕，8 月 5 日提堂，這個日子，你最愛的人發生了這樣的事情，更讓我想…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/ellen_4Fmhp.png"><figcaption><span>盧凱彤</span></figcaption></figure><p>【文：一位盧凱彤 fans】</p>
-
-<p>親愛的 Ellen，</p>
-
-<p>你好嗎？不知不覺間你已經離開大家三年了……</p>
-
-<p>我一直都覺得你只是去了一趟旅行還沒有回來，你不在的時間，香港也改變了很多。</p>
-
-<p>有時候都會想，如果你還在的話，看到香港變成現在這樣你會怎麼樣？向來關心社會議題的你，又會創作怎樣的歌曲？</p>
-
-<p><a href="https://www.thestandnews.com/politics/%E6%AD%8C%E6%89%8B%E9%BB%83%E8%80%80%E6%98%8E%E8%A2%AB%E5%BB%89%E7%BD%B2%E6%8B%98%E6%8D%95-%E6%B6%89%E5%AB%8C%E9%81%95%E5%8F%8D%E9%81%B8%E8%88%89%E8%88%9E%E5%BC%8A%E5%8F%8A%E9%9D%9E%E6%B3%95%E8%A1%8C%E7%82%BA%E6%A2%9D%E4%BE%8B" target="_blank">近日明哥因為被指違反選舉條例而被捕</a>，8 月 5 日提堂，這個日子，你最愛的人發生了這樣的事情，更讓我想起你，相信你的心情一定跟大家一樣。</p>
-
-<p>我也不知不覺已經喜歡你六年了，想當初我剛剛考完文憑試因為你的慈善畫展認識了你，繼而成為你的歌迷，很想多謝你，要不是遇到你，我應該還不會懂得認識情緒病。</p>
-
-<p>最近我認識了兩位患情緒病的朋友，面對她們大起大落的情緒有時候都會很擔心，雖然跟她們還不算熟絡，但是我願意一直陪伴他們渡過，有時候看到她們因為講出自己病情而被攻擊，我實在替她們感到難過又憤怒。</p>
-
-<p>自己作為高敏感人，又有驚恐症，大家所面對的經歷都有幾分相似，所以當她們訴說自己當下的情緒反應時，我能夠感到她們有多無助。</p>
-
-<p>6 月商台 Colin 在時代廣場舉辦了一個名為「明日之廣東歌」的展覽，在那裏我錄了給你的信，但很多回憶湧上心頭忍不住哽咽……原來無論時間過了多久，還是會捨不得。</p>
-
-<p>除了想感謝你讓我開始關注情緒病和精神病，也因而認識到兩位朋友，我更想謝謝你的音樂一直陪伴著我。</p>
-
-<p>之前也曾經投稿過一次，提及到自己因為去年的疫情，經歷了一次比較嚴重的驚恐症，因而明白了你的歌《荒原》的意思，這首歌真的引起了共鳴，也給予我很多的鼓勵，謝謝你。</p>
-
-<p>轉眼間又一年了，想起你三年前曾經講話自己希望重返校園去修讀心理學，由於這個疫情自己還沒有工作，我報讀了一個港專的心理學課程，為期半年，希望幫助自己，幫助別人。</p>
-
-<p>願你一切安好</p>]]></content>
-        <author>
-            <name>讀者投稿</name>
-            <uri>https://www.thestandnews.com/author/%E8%AE%80%E8%80%85%E6%8A%95%E7%A8%BF</uri>
-        </author>
-        <category label="文化"/>
-        <published>2021-08-04T09:56:12.485Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[民主黨民調：近七成市民認為政府未清楚交代　促獨立調查高官犯聚]]></title>
@@ -989,76 +1009,5 @@
         </author>
         <category label="法庭"/>
         <published>2021-08-04T09:05:19.784Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[上古神話「大禹治水」：千年一遇，古今的洪水傳說]]></title>
-        <id>https://www.thestandnews.com/culture/%E4%B8%8A%E5%8F%A4%E7%A5%9E%E8%A9%B1%E5%A4%A7%E7%A6%B9%E6%B2%BB%E6%B0%B4-%E5%8D%83%E5%B9%B4%E4%B8%80%E9%81%87%E5%8F%A4%E4%BB%8A%E7%9A%84%E6%B4%AA%E6%B0%B4%E5%82%B3%E8%AA%AA</id>
-        <link href="https://www.thestandnews.com/culture/%E4%B8%8A%E5%8F%A4%E7%A5%9E%E8%A9%B1%E5%A4%A7%E7%A6%B9%E6%B2%BB%E6%B0%B4-%E5%8D%83%E5%B9%B4%E4%B8%80%E9%81%87%E5%8F%A4%E4%BB%8A%E7%9A%84%E6%B4%AA%E6%B0%B4%E5%82%B3%E8%AA%AA"/>
-        <updated>2021-08-04T08:57:59.137Z</updated>
-        <summary type="html"><![CDATA[據今人研究，世界各地，皆有洪水傳說。前所未有，洪水滅世，掩沒無數生靈。聖經的挪亞方舟，蘇美的吉爾伽美什史詩，以至中國上古神話，共工怒觸不周山。神話傳說，往往來自初民的，原始思維。巫術、宗教以至科學，皆以所知解釋未知。自然造化，冬雷震震，夏雨雪，可驚可佈。我們賦予世界意義，寄託求生之希冀。《淮南子》昔者，共工與顓頊爭為帝，怒而觸不周之山，天柱折，地維絕。天傾西北，故日月星辰移焉；地不滿東南，故水潦…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/0_Lkj_rulnFVcGpsk3.jpeg"><figcaption><span>《明日之後》電影劇照</span></figcaption></figure><p>據今人研究，世界各地，皆有洪水傳說。前所未有，洪水滅世，掩沒無數生靈。聖經的挪亞方舟，蘇美的吉爾伽美什史詩，以至中國上古神話，共工怒觸不周山。</p>
-
-<p>神話傳說，往往來自初民的，原始思維。巫術、宗教以至科學，皆以所知解釋未知。自然造化，冬雷震震，夏雨雪，可驚可佈。我們賦予世界意義，寄託求生之希冀。</p>
-
-<blockquote>
-<p>《淮南子》<br>
-昔者，共工與顓頊爭為帝，怒而觸不周之山，天柱折，地維絕。天傾西北，故日月星辰移焉；地不滿東南，故水潦塵埃歸焉。</p>
-</blockquote>
-
-<p>共工怒觸不周山，口耳相傳，各有記錄。水神共工，或與火神祝融，或與顓頊爭執，共工怒撞不周山，支撐天的柱，繫地之繩，盡皆斷裂，日月星辰向西北，江河流東南。</p>
-
-<p>女媧補青天，大禹治水，希望因而產生。洪水乃古代災害，客觀事實，殘害人命，女媧尚以神話解難，大禹治水乃社會政策，一再反映，先民如何以人力，力抗洪水。</p>
-
-<p></p><figure><img src="https://assets.thestandnews.com/media/photos/0_2QV_roK7KYWKTs_P_YsTGAeU.jpeg"></figure><p></p>
-
-<blockquote>
-<p>《孟子》<br>
-堯之時，水逆行，氾濫於中國。蛇龍居之，民無所定。下者為巢，上者為營窟。《書》曰：「洚水警余。」洚水者，洪水也。使禹治之，禹掘地而注之海，驅蛇龍而放之菹。水由地中行，江、淮、河、漢是也。險阻既遠，鳥獸之害人者消，然後人得平土而居之。</p>
-</blockquote>
-
-<p>水怒為洪，能載舟，亦能覆舟，必須疏導。古代帝王聖人，堯舜禹湯，千古之典範。堯眼見洪水橫流，先命禹之父，鯀治洪水；舜登位後，鯀無功誅殺之，改命大禹接手。</p>
-
-<p>大禹治水，與其父一成對比，鯀頑禹賢。鯀以堵塞之法，岸邊設河堤，水愈積愈高；禹則汲取教訓，疏導各地積水，導向大海，不必等河堤快將崩塌，排洪謀殺無辜百姓。</p>
-
-<blockquote>
-<p>《史記》<br>
-禹乃遂與益、后稷奉帝命，命諸侯百姓興人徒以傅土，行山表木，定高山大川。禹傷先人父鯀功之不成受誅，乃勞身焦思，居外十三年，過家門不敢入。</p>
-</blockquote>
-
-<p>除此之外，最為著名者，乃三過其門不入。大禹接任治水一職，剛和妻子新婚甜蜜，為了工作，三次經過家門，從未相聚休憩，如此克苦明君的形象，故稱許「偉大的禹」。</p>
-
-<p>多年之後，大禹終於成功了，天下太平，沒有氾濫怒水，人民安居樂業，不再驚恐。水本為生存基礎，無所不潤，養育萬物，如百姓期盼明君，好好生活，乃眾人之願。</p>
-
-<p>洪水傳說、神話，一直延續，今日中國。所不同者，上古時期，乃集體創造之願望；獨裁政府，動輒以萬年、千年，自製奇蹟，不為生靈塗炭而悲，卻道，多難興邦。</p>
-
-<p></p><figure><img src="https://assets.thestandnews.com/media/photos/zheng2.jpg"><figcaption><span>河南雨災持續，交通陷於停頓。</span></figcaption></figure><p></p>
-
-<blockquote>
-<p>《荀子》<br>
-治亂，天邪？曰：日月星辰瑞厤，是禹桀之所同也，禹以治，桀以亂；治亂非天也。時邪？曰：繁啟蕃長於春夏，畜積收臧於秋冬，是禹桀之所同也，禹以治，桀以亂；治亂非時也。地邪？曰：得地則生，失地則死，是又禹桀之所同也，禹以治，桀以亂；治亂非地也。</p>
-</blockquote>
-
-<p>荀子論君王治世，不視自然災害作藉口。世界和平或混亂，日月星辰、四季土地，聖王如禹，暴君像桀，他們都有相同條件。人禍實乃問題根本，因此，苦難無窮。</p>
-
-<p></p><figure><img src="https://assets.thestandnews.com/media/photos/20210722-13.png"><figcaption><span>圖片來源：Jiao Xiaoxiang/VCG via Getty Images</span></figcaption></figure><p></p>
-
-<blockquote>
-<p>〈擊壤歌〉<br>
-日出而作，日入而息。<br>
-鑿井而飲，耕田而食。<br>
-帝力於我何有哉？</p>
-</blockquote>
-
-<p>帝堯之世，天下大和，百姓無事，多好，有八九十老人，擊壤而歌，笑聲高昂。這樣安穩，就連皇帝的權力，也不羨慕。套之今日，如此簡單的願望，已被埋沒。</p>
-
-<p>大禹神話已矣，逝者如斯夫，不捨晝夜。當世界由巫術走向宗教，再轉至科學，獨有一國，仍在建構洪水、地震傳說，死亡永遠停留在兩位數，苛政猛於水也。</p>
-
-<p><a href="https://www.facebook.com/Delisver.hk/" target="_blank">作者Facebook</a></p>]]></content>
-        <author>
-            <name>德尼思化</name>
-            <uri>https://www.thestandnews.com/author/%E5%BE%B7%E5%B0%BC%E6%80%9D%E5%8C%96</uri>
-        </author>
-        <category label="文化"/>
-        <published>2021-08-04T08:57:05.548Z</published>
     </entry>
 </feed>
