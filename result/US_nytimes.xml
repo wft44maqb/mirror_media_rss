@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Thu, 05 Aug 2021 15:06:13 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Aug 2021 15:16:15 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[人类还能与彼此好好相处吗？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/opinion/20210805/technology-internet-cooperation/?utm_source=RSS]]></link>
+            <description><![CDATA[在互联网的助推下，当今社会严重分裂。这也导致人们越来越难在新冠疫情、气候变化这样的危机面前团结起来，通过合作与协调走出困境。<p><img src='https://static01.nyt.com/images/2021/08/03/opinion/04manjoo-lead/04manjoo-lead-videoLarge-v2.jpg' alt=' Aaron Wojack for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Aaron Wojack for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>观点与评论</category>
+            <dc:creator><![CDATA[FARHAD MANJOO]]></dc:creator>
+            <pubDate>Thu, 05 Aug 2021 03:14:42 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210805/technology-internet-cooperation/]]></guid>
+        </item>
             <item>
             <title><![CDATA[CNN的科莫难题：明星主播与他丑闻缠身的政客兄长]]></title>
             <link><![CDATA[https://cn.nytimes.com/business/20210805/chris-andrew-cuomo-cnn/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[KEITH BRADSHER,STEVEN LEE MYERS]]></dc:creator>
             <pubDate>Mon, 02 Aug 2021 02:34:23 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210723/china-flood/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[香港国安法首案宣判：骑车撞警男子获刑九年]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210730/hong-kong-protester-security-law/?utm_source=RSS]]></link>
-            <description><![CDATA[唐英杰此前被判犯有恐怖活动和煽动分裂罪，这些罪名最高可被判处终身监禁。本案凸显了新国安法对香港异见人士的震慑作用，也加剧了外界对香港司法独立的担忧。<p><img src='https://static01.nyt.com/images/2021/07/30/world/30hongkong-trial1/30hongkong-trial1-articleLarge.jpg' alt='周五，一辆厢型车将唐英杰带到香港法院接受宣判。 Miguel Candela/EPA, via Shutterstock'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Miguel Candela/EPA, via Shutterstock</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>周五，一辆厢型车将唐英杰带到香港法院接受宣判。</p>                    ]]></description>
-            <category>中国</category>
-            <dc:creator><![CDATA[王霜舟]]></dc:creator>
-            <pubDate>Mon, 02 Aug 2021 02:20:07 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210730/hong-kong-protester-security-law/]]></guid>
         </item>
     </channel>
 </rss>
