@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-05T09:56:41.680Z</updated>
+    <updated>2021-08-05T10:01:46.469Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -954,75 +954,49 @@ Via <a href="https://twitter.com/Belsat_Eng?ref_src=twsrc%5Etfw">@Belsat_Eng</a>
         <published>2021-08-05T04:56:31.230Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【東京奧運．不斷更新】港女乒團挫德國奪銅牌　李慧詩凱林賽無緣爭獎牌　名次賽排第八]]></title>
-        <id>https://www.thestandnews.com/sport/ab%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%E6%B8%AF%E5%A5%B3%E4%B9%92%E5%9C%98%E6%88%B0%E5%BE%B7%E5%9C%8B%E7%88%AD%E9%8A%85%E7%89%8C-%E6%9D%8E%E6%85%A7%E8%A9%A9%E5%87%B1%E6%9E%97%E8%B3%BD%E7%88%AD%E6%99%89%E7%B4%9A</id>
-        <link href="https://www.thestandnews.com/sport/ab%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%E6%B8%AF%E5%A5%B3%E4%B9%92%E5%9C%98%E6%88%B0%E5%BE%B7%E5%9C%8B%E7%88%AD%E9%8A%85%E7%89%8C-%E6%9D%8E%E6%85%A7%E8%A9%A9%E5%87%B1%E6%9E%97%E8%B3%BD%E7%88%AD%E6%99%89%E7%B4%9A"/>
-        <updated>2021-08-05T09:07:40.021Z</updated>
-        <summary type="html"><![CDATA[東京奧運踏入第 13 天賽事，今日焦點為乒乓球女子團體賽及單車女子凱林賽。香港女子乒球隊戰勝德國隊，奪得銅牌；「牛下女車神」李慧詩在凱林賽的半準決賽，無緣爭奪獎牌，在名次賽取得第八的成績。【17:02】凱林賽名次賽　李慧詩得第 8李慧詩在奧運場地單車凱林賽決賽 7 至 12 名次隊得第 8。德國軒絲（Emma Hinze）得第 7，第 9 至 12 名依次為澳洲麥古洛治（Kaarle McCul…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210805-03.png"><figcaption><span>Photo by Steph Chambers, Tim de Waele/Getty Images</span></figcaption></figure><p>東京奧運踏入第 13 天賽事，今日焦點為乒乓球女子團體賽及單車女子凱林賽。香港女子乒球隊戰勝德國隊，奪得銅牌；「牛下女車神」李慧詩在凱林賽的半準決賽，無緣爭奪獎牌，在名次賽取得第八的成績。</p>
+        <title type="html"><![CDATA[港隊女子乒乓團體賽摘銅　場數 3:1 贏德國　今屆第四面獎牌]]></title>
+        <id>https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E4%BB%8A%E5%B1%86%E7%AC%AC%E5%9B%9B%E7%8D%8E%E7%89%8C-%E6%B8%AF%E9%9A%8A%E5%A5%B3%E5%AD%90%E4%B9%92%E4%B9%93%E5%9C%98%E9%AB%94%E8%B3%BD%E6%91%98%E9%8A%85-%E5%A0%B4%E6%95%B8-31-%E8%B4%8F%E5%BE%B7%E5%9C%8B</id>
+        <link href="https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E4%BB%8A%E5%B1%86%E7%AC%AC%E5%9B%9B%E7%8D%8E%E7%89%8C-%E6%B8%AF%E9%9A%8A%E5%A5%B3%E5%AD%90%E4%B9%92%E4%B9%93%E5%9C%98%E9%AB%94%E8%B3%BD%E6%91%98%E9%8A%85-%E5%A0%B4%E6%95%B8-31-%E8%B4%8F%E5%BE%B7%E5%9C%8B"/>
+        <updated>2021-08-05T08:33:44.168Z</updated>
+        <summary type="html"><![CDATA[東京奧運女子乒乓球團體銅牌賽，港隊杜凱琹、蘇慧音、李皓晴，以場數 3 :1 力壓德國隊，奪得銅牌，是香港女子乒乓球隊在奧運史上首個獎牌，亦是港隊在東京奧運第四面獎牌。今次女子乒乓球團體的三名代表都是土生土長球員組成。教練李靜賽後形容部署是「兵行險着」、「奇兵出奇蹟」，同時多謝自己的付出，並寄語港人：「所有嘢唔係諗，付諸行動最實際。」球手蘇慧音則表示被結果「嚇親」，並藉此勉勵香港人，只要相信自己，…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210805-12.png"><figcaption><span>Photo by Steph Chambers/Getty Images</span></figcaption></figure><p>東京奧運女子乒乓球團體銅牌賽，港隊杜凱琹、蘇慧音、李皓晴，以場數 3 :1 力壓德國隊，奪得銅牌，是香港女子乒乓球隊在奧運史上首個獎牌，亦是港隊在東京奧運第四面獎牌。今次女子乒乓球團體的三名代表都是土生土長球員組成。</p>
 
-<div><figure><img src="https://assets.thestandnews.com/media/photos/231670398_4411368172282102_1702632556885677609_n.jpg"></figure></div>
+<p>教練李靜賽後形容部署是「兵行險着」、「奇兵出奇蹟」，同時多謝自己的付出，並寄語港人：「所有嘢唔係諗，付諸行動最實際。」球手蘇慧音則表示被結果「嚇親」，並藉此勉勵香港人，只要相信自己，就可以做到，「真係相信某啲事會發生，就真係會發生。」（<a href="https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E6%B8%AF%E5%A5%B3%E5%9C%98%E5%8B%87%E5%A5%AA%E4%B9%92%E4%B9%93%E9%8A%85%E7%89%8C-%E8%98%87%E6%85%A7%E9%9F%B3%E7%9B%B8%E4%BF%A1%E6%9F%90%E5%95%B2%E4%BA%8B%E6%9C%83%E7%99%BC%E7%94%9F%E5%B0%B1%E7%9C%9F%E4%BF%82%E6%9C%83%E7%99%BC%E7%94%9F?fbclid=IwAR2QeNMk3WtACGi1FPXaljOZCOJVj0qP9xgMU_gBC074ztZn8TSTj4LqHk8">另見報道</a>）</p>
 
-<p><strong>【17:02】凱林賽名次賽　李慧詩得第 8</strong></p>
+<p><strong>蘇慧音：相信某啲事會發生，就真係會發生</strong></p>
 
-<p>李慧詩在奧運場地單車凱林賽決賽 7 至 12 名次隊得第 8。德國軒絲（Emma Hinze）得第 7，第 9 至 12 名依次為澳洲麥古洛治（Kaarle McCulloch）、俄羅斯奧委會絲美利娃（Daria Shmeleva）、墨西哥隊干莎莉絲（Luz Daniela Gaxiola Gonzalez）及中國鍾天使。<br>
-<br>
-荷蘭的芭絲賓妮（Shanne Braspennincx）在決賽奪金，紐西蘭安祖絲（Ellesse Andrews）及加拿大真妮絲特（Lauriane Genest）分別得第二及第三，奪得銀牌及銅牌。</p>
+<p>香港乒乓球女子代表隊勇奪團體賽銅牌，三位女將的家人都有出席電視台的直播節目。其中「大師姐」李皓晴的母親多次激動哽咽憶述女兒奮鬥過程，表示皓晴讀書時，她們與女兒有個協定，給她三年時間，在學業與全職打波之間作抉擇，結果成就了今天的銅牌；李皓晴賽後受訪時感謝父母給她追夢的機會。</p>
 
-<div><figure><img src="https://assets.thestandnews.com/media/photos/231286656_10222978168015084_2227086680383510869_n.jpg"><figcaption><span>奧運場地單車凱林賽半準決賽，港隊代表李慧詩在第 1 組得第 5 名，未能爭取頭三名躋身準決賽。李慧詩會在香港時間 16：37 出戰 7 至 12 名名次賽。Photo by Justin Setterfield/Getty Images</span></figcaption></figure></div>
+<p><strong>乒乓女將奪銅　母親憶述李皓晴曾想放棄</strong></p>
 
-<p>【16:05】<strong>李慧詩未能晉級決賽</strong></p>
+<p>蘇慧音的姊姊則透露，妹妹一向學業成績優秀，轉為全職運動員「放棄咗好多嘢」；蘇慧音表示，有時覺得曾是港隊代表的父親蘇俊華「好煩」，但仍很感謝他不斷鼓勵。（<a href="https://www.thestandnews.com/sport/ab-%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E4%B9%92%E4%B9%93%E5%A5%B3%E5%B0%87%E5%A5%AA%E9%8A%85-%E6%AF%8D%E8%A6%AA%E6%86%B6%E8%BF%B0%E6%9D%8E%E7%9A%93%E6%99%B4%E6%9B%BE%E6%83%B3%E6%94%BE%E6%A3%84-%E5%94%94%E7%B7%8A%E8%A6%81%E6%9C%80%E7%B7%8A%E8%A6%81%E5%95%8F%E4%BD%A0%E8%87%AA%E5%B7%B2%E5%91%A2%E4%B8%89%E5%B9%B4%E4%BF%82%E5%92%AA%E4%BB%98%E5%87%BA%E5%A5%BD%E5%A4%9A">另見報道</a>）</p>
 
-<p>奧運場地單車凱林賽半準決賽，港隊代表李慧詩在第 1 組得第 5 名，未能爭取頭三名躋身準決賽。李慧詩會在香港時間 16：37 出戰 7 至 12 名名次賽。</p>
+<p>現時港隊女子乒乓球教練，為&nbsp;2004 年雅典奧運乒乓球男雙銀牌得主之一李靜。今次亦是首次出現由港隊奧運獎牌得主領軍下，再次獲得奧運獎牌的佳績。</p>
 
-<p>同組車手烏克蘭絲達妮高娃（Olena Starikova）、紐西蘭安祖絲（Ellesse Andrews）、烏克蘭芭素娃（Liubov Basova）出線。而墨西哥隊干莎莉絲（Luz Daniela Gaxiola Gonzalez）、中國鍾天使亦未能晉身決賽。</p>
+<div><figure><img src="https://assets.thestandnews.com/media/photos/228051918_4410901148995471_2211538397127670115_n.jpg"><figcaption><span>2021.8.5 教練李靜、蘇慧音、李皓晴、杜凱琹賽後相擁（AP Photo/Kin Cheung）</span></figcaption></figure></div>
 
-<div><figure><img src="https://assets.thestandnews.com/media/photos/233424101_4411260468959539_4915217721423036638_n.jpg"></figure></div>
+<p>港隊以 1:3 局數先失第一場，第二場港隊以 3:1 局數取回一場，第三場杜凱琹以 11:5、11:6、11:9 直落三局擊退蘇亞，港隊總分以 2:1 反先，最後一場，港隊蘇慧音以局數 3:0&nbsp;勝過德國單曉娜，最終以場數 3:1&nbsp;壓過德國隊，取得銅牌。&nbsp;</p>
 
-<p><strong>【15:10】李慧詩晉級準決賽</strong></p>
+<p><strong>土生土長三港青屢奪世界獎項　二人曾退學追夢</strong></p>
 
-<p>李慧詩今日（5日）繼續出戰東京奧運場地單車女子凱林賽，在半準決賽第 1 組以首名成功晉身準決賽（12 強），準決賽將會在香港時間 15:57 舉行。</p>
+<p>港隊女子乒乓球隊於周日（1日）團體賽16強戰中以3:1戰勝巴西隊殺入八強；其後（2日）在八強中，以場數 3:1 擊敗羅馬尼亞，晉級四強；周二（3日）女子乒乓球團體賽四強中，對賽伊藤美誠坐鎮的2號種子日本，直落輸 3 場，最終未能晉級決賽，與德國爭奪銅牌。</p>
 
-<p>半準決賽中，李慧詩同組對手包括，上屆里約奧運先賽銅牌得主英國隊馬錢治（Katy Marchant）、德國隊主力軒絲（Emma Hinze）、荷蘭隊雲莉辛（Laurine van Riessen）、俄羅斯奧委會絲美利娃（Daria Shmeleva）及烏克蘭隊絲達妮高娃（Olena Starikova）。</p>
+<div><figure><img src="https://assets.thestandnews.com/media/photos/231473847_4410901362328783_6996962092846065459_n.jpg"><figcaption><span>2021.8.5   杜凱琹、蘇慧音、李皓晴</span></figcaption></figure><figure><img src="https://assets.thestandnews.com/media/photos/227596957_4410901048995481_223997537310561083_n.jpg"><figcaption><span>2021.8.5  李皓晴（左）賽後喜極而泣，與隊友蘇慧音相擁</span></figcaption></figure></div>
 
-<p>李慧詩在賽事抽到排第 1 出發，賽事期間出現「炒車」意外，荷蘭雲莉辛撞向英國隊馬錢治，馬錢治最終只能在小組得第 5，而雲莉辛受傷未能完成賽事。</p>
+<p>香港女子乒乓球隊在奧運史上還未贏過獎牌，今次女子乒乓球團體的三名代表都是土生土長球員組成（<a href="https://www.thestandnews.com/sport/%E4%B8%80%E6%96%87%E8%AA%8D%E8%AD%98%E5%A5%B3%E5%AD%90%E4%B9%92%E4%B9%93%E7%90%83%E9%9A%8A%E5%9C%9F%E7%94%9F%E5%9C%9F%E9%95%B7%E4%B8%89%E6%B8%AF%E9%9D%92%E5%B1%A2%E5%A5%AA%E4%B8%96%E7%95%8C%E7%8D%8E%E9%A0%85-%E4%BA%8C%E4%BA%BA%E6%9B%BE%E9%80%80%E5%AD%B8%E8%BF%BD%E5%A4%A2">另見報道</a>），其中杜凱琹曾在2016年里約熱內盧奧運外圍賽東亞區16強中，以局數4：2爆冷淘汰世界排名第一的中國名將劉詩雯。</p>
 
-<div>半準決賽每組前 4 名車手能出線準決賽賽事，準決賽只分兩組，每組前三名進入 1 至 6 名金牌戰，後三名進入 7 至 12 名次賽。<figure><img src="https://assets.thestandnews.com/media/photos/232991011_4411148942304025_6985263681485261029_n.png"></figure></div>
+<p>蘇慧音亦曾獲2018年的世界桌球團體錦標賽中獲得女子團體銅牌，並在同無年的雅加達亞運的女子團體小項上獲得銅牌。</p>
 
-<p><strong>【12:55】乒乓球女團　港隊奪銅牌</strong></p>
+<p>而李皓晴曾在15歲放棄學業，轉為職業運動員，她曾代表香港於2006年科威特公開賽贏得21歲以下女子單打亞軍和雙打季軍，又在2012年出戰澳門舉行的亞洲桌球錦標賽，在團體賽連勝日本的平野早矢香、朝鮮的金仲和金河松，表現備受肯定，同年3月，她在德國的世界桌球團體錦標賽，為香港隊贏得季軍。</p>
 
-<p>第四場單打戰，香港蘇慧音對德國單曉娜，首局先拔頭籌，以 12:10 領先；次局再以後來居上姿態 12:10 再下一城；決勝局蘇慧音再以 11:7 取勝，為港隊拿下銅牌。</p>
+<p>&nbsp;</p>
 
-<div><figure><img src="https://assets.thestandnews.com/media/photos/232723553_4410824735669779_6359768186502310410_n.jpg"></figure></div>
-
-<p><strong>【12:01】乒乓球女團銅牌戰　香港 2:1 反先</strong></p>
-
-<p>第三場續為單打戰，港隊杜凱琹出戰德國蘇亞 (Petrissa Solja)，杜凱琹爆冷以 11:5、11:6、11:9 直落三局擊退蘇亞，港隊總分以 2:1 反先。</p>
-
-<p><strong>【11:46】乒乓球女團銅牌戰　香港與德國 1:1 平手</strong></p>
-
-<p>乒乓球女團銅牌戰，第二場為單打賽，港隊由蘇慧音出戰德國韓瑩。戰情激烈，蘇慧音以 12:10 先贏一局，第二局被韓瑩以 11:9 追平，但蘇慧音再以 11:9、11:7 連贏兩局，以 3:1 為港隊取回一場，總比數 1:1。</p>
-
-<p><strong>【11:11】空手道女將劉慕裳　排名戰失利傍晚爭銅</strong></p>
-
-<p>空手道女子個人形賽事，香港代表劉慕裳在排名賽中失利，得分 26.4 ，不敵西班牙對手 Jaime Sandra Sanchez，只能出戰傍晚 6 時 30 分的銅牌戰。</p>
-
-<p><strong>【11:00】乒乓球女子團體　港隊先失一場</strong></p>
-
-<p>首場為女雙賽，由杜凱琹、李皓晴對單曉娜、蘇亞 (Petrissa Solja) ，港隊以 11:8 先勝一局，但被對方以 11:5、11:7、15:13 連追三局，結果以 1:3 先失第一場。</p>
-
-<p><strong>【10:15】乒乓女團港隊暫領先</strong><br>
-<br>
-女子乒乓球團體銅牌戢，首場女雙賽，由香港杜凱琹、李皓晴對德國單曉娜、蘇亞 (Petrissa Solja) ，港隊暫時以 11:8 先勝一局。</p>
-
-<p>空手道女子個人形賽事，香港代表劉慕裳在小組賽以平均分 26.15 取得晉級排名賽資格，她將於上午 10 時 25 分再出賽，爭取進入金牌戰決賽。</p>
-
-<p>早上的男子 10 公里馬拉松游泳賽，港將方胤 (William Yan Thorley) 在24 名參賽選手中，以第 22 名完成，時間為 1:58:33.4 。該項賽事由德國人 Florian Wellbrock 奪得金牌，時間為 1: 48:33.7。</p>]]></content>
+<p>&nbsp;</p>]]></content>
         <author>
             <name>立場報道</name>
             <uri>https://www.thestandnews.com/author/standnewsreport</uri>
         </author>
         <category label="體育"/>
-        <published>2021-08-05T01:57:35.393Z</published>
+        <published>2021-08-05T04:42:09.745Z</published>
     </entry>
 </feed>
