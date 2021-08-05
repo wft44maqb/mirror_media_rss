@@ -9,17 +9,31 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Aug 2021 01:22:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Aug 2021 01:27:34 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[東京奧運：台灣的「民族主義」時刻？]]></title>
+            <description><![CDATA[奧運會本質上確實無法與政治脫鉤，它與民族主義高度相關；在台灣，奧運會上遇到中國隊伍，複雜的兩岸情結借著選手對壘表露無疑。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58071334</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58071334</guid>
+            <pubDate>Thu, 05 Aug 2021 01:22:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[東京奧運：韓國抗議中國羽毛球選手「爆粗」行為的來龍去脈]]></title>
             <description><![CDATA[韓國羽協稱，針對陳清晨在東京奧運會對陣韓國隊時反覆使用髒話的行為，該機構正在向世界羽毛球聯合會進行正式抗議流程。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58085859</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58085859</guid>
             <pubDate>Wed, 04 Aug 2021 09:20:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[東京奧運：中國運動員被民族主義者痛擊]]></title>
+            <description><![CDATA[中國運動員面臨前所未有的巨大壓力。在網絡上，任何低於金牌的成績都被憤怒的民族主義者視為運動員不愛國的行為。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58070347</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58070347</guid>
+            <pubDate>Wed, 04 Aug 2021 00:58:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：1964夏季奧運時的台灣運動員「投共」事件]]></title>
@@ -36,18 +50,18 @@
             <pubDate>Wed, 04 Aug 2021 12:03:01 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[中國官媒批網絡遊戲為「精神鴉片」，騰訊等公司股價急跌]]></title>
+            <description><![CDATA[中國新華社旗下《經濟參考報》8月3日刊文，點名騰訊遊戲《王者榮耀》，批評電子遊戲為「精神鴉片」。此舉引發遊戲類股價暴跌，騰訊股價一度跌逾10%。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58088849</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58088849</guid>
+            <pubDate>Thu, 05 Aug 2021 01:24:12 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[美國紐約州長科莫被指控性騷擾：獨立調查報告出爐 拜登呼籲辭職]]></title>
             <description><![CDATA[在紐約州總檢察長詹姆斯(Letitia James)公開宣佈科莫違反了美國州和聯邦法律幾個小時後，拜登對科莫提出譴責。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58086553</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58086553</guid>
             <pubDate>Wed, 04 Aug 2021 11:05:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[東京奧運：中國冠軍鍾天使、鮑珊菊頒獎台上戴毛澤東像章引違規爭議]]></title>
-            <description><![CDATA[國際奧林匹克委員會（IOC）表示，中國奧委會承諾盡快就兩名中國自行車運動員戴著毛澤東像章站上東京奧運頒獎台一事提交報告，並保證「這事情不會再發生」。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/sports-58071222</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58071222</guid>
-            <pubDate>Wed, 04 Aug 2021 09:14:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[澳門失守現本土新冠病例 抗疫「優等生」面臨挑戰]]></title>
@@ -57,25 +71,11 @@
             <pubDate>Wed, 04 Aug 2021 08:10:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[東京奧運：中國運動員被民族主義者痛擊]]></title>
-            <description><![CDATA[中國運動員面臨前所未有的巨大壓力。在網絡上，任何低於金牌的成績都被憤怒的民族主義者視為運動員不愛國的行為。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58070347</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58070347</guid>
-            <pubDate>Wed, 04 Aug 2021 00:58:08 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[東京奧運：為什麼中國金牌最多，在美國媒體上卻不是排第一？]]></title>
             <description><![CDATA[美國媒體使用了非官方的奧運獎牌榜排列方式，不以金牌為優先計算次序。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/sports-58083082</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58083082</guid>
             <pubDate>Wed, 04 Aug 2021 05:17:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[韓國移民妻子如何克服歧視與文化差異]]></title>
-            <description><![CDATA[很多女性剛到韓國時甚至不懂韓語，但儘管如此，她們在韓國社會中為自己開闢了重要的地位。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58056484</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58056484</guid>
-            <pubDate>Wed, 04 Aug 2021 01:01:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中美關係：海外中概股此輪暴跌背後的金融脫鉤爭論]]></title>
@@ -477,11 +477,25 @@
             <pubDate>Tue, 13 Jul 2021 10:56:48 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[東京奧運：中國冠軍鍾天使、鮑珊菊頒獎台上戴毛澤東像章引違規爭議]]></title>
+            <description><![CDATA[國際奧林匹克委員會（IOC）表示，中國奧委會承諾盡快就兩名中國自行車運動員戴著毛澤東像章站上東京奧運頒獎台一事提交報告，並保證「這事情不會再發生」。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58071222</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58071222</guid>
+            <pubDate>Wed, 04 Aug 2021 09:14:53 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[東京奧運：國際奧委會立案調查白俄田徑選手拒絶回國事件]]></title>
             <description><![CDATA[齊馬努斯卡婭進入東京波蘭使館後，波蘭總理在Facebook上宣佈向她發出人道簽證。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58067580</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58067580</guid>
             <pubDate>Tue, 03 Aug 2021 08:00:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[韓國移民妻子如何克服歧視與文化差異]]></title>
+            <description><![CDATA[很多女性剛到韓國時甚至不懂韓語，但儘管如此，她們在韓國社會中為自己開闢了重要的地位。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58056484</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58056484</guid>
+            <pubDate>Wed, 04 Aug 2021 01:01:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[南京新冠疫情：Delta變異病毒攻陷後　會導致中國再現全國性疫情嗎？]]></title>
