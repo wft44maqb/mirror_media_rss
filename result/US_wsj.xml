@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Aug 2021 04:10:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Aug 2021 04:14:22 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 Aug 2021 04:10:00 GMT</pubDate>
+        <pubDate>Thu, 05 Aug 2021 04:14:22 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -91,6 +91,20 @@
             <pubDate>Wed, 04 Aug 2021 02:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[飲品生產商調整產品線以迎合消費者口味變化]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LK383_BEVERA_OR_20210803191403.jpg" class="webfeedsFeaturedVisual" alt=""/><p>大型飲料公司正在調整產品線，放棄知名但低利潤的品牌，重新專注於核心產品以及迎合消費者口味變化的新產品線。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E9%A3%B2%E5%93%81%E7%94%9F%E7%94%A2%E5%95%86%E8%AA%BF%E6%95%B4%E7%94%A2%E5%93%81%E7%B7%9A%E4%BB%A5%E8%BF%8E%E5%90%88%E6%B6%88%E8%B2%BB%E8%80%85%E5%8F%A3%E5%91%B3%E8%AE%8A%E5%8C%96-11628136611</link>
+            <guid isPermaLink="false">CT-BIZ-20210805114748</guid>
+            <pubDate>Thu, 05 Aug 2021 04:10:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新冠變異毒株德爾塔考驗航空公司對商務旅行復甦的押注]]></title>
+            <description><![CDATA[<img width="1279" height="812" src="https://si.wsj.net/public/resources/images/S1-LK197_FALLFL_OR_20210803134130.jpg" class="webfeedsFeaturedVisual" alt=""/><p>航空公司正重新繪製自己的航線圖，押注於過去一年基本呈蟄伏狀態的商務旅行者會重新現身，儘管高傳染性德爾塔新冠變異毒株在美國的蔓延引發了新的擔憂。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%96%B0%E5%86%A0%E8%AE%8A%E7%95%B0%E6%AF%92%E6%A0%AA%E5%BE%B7%E7%88%BE%E5%A1%94%E8%80%83%E9%A9%97%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%B0%8D%E5%95%86%E5%8B%99%E6%97%85%E8%A1%8C%E5%BE%A9%E7%94%A6%E7%9A%84%E6%8A%BC%E6%B3%A8-11628136614</link>
+            <guid isPermaLink="false">CT-BIZ-20210805113530</guid>
+            <pubDate>Thu, 05 Aug 2021 04:10:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[趕上模因股熱潮東風，富達選股大師蒂林哈斯特時來運轉]]></title>
             <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LH634_TILLIN_OR_20210727173222.jpg" class="webfeedsFeaturedVisual" alt=""/><p>富達投資選股大師蒂林哈斯特一直挖掘那種估值低廉、被忽視的股票。在最近的模因股熱潮中，他長期持有的一些股票成為了最炙手可熱的股票之一。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E8%B6%95%E4%B8%8A%E6%A8%A1%E5%9B%A0%E8%82%A1%E7%86%B1%E6%BD%AE%E6%9D%B1%E9%A2%A8%EF%BC%8C%E5%AF%8C%E9%81%94%E9%81%B8%E8%82%A1%E5%A4%A7%E5%B8%AB%E8%92%82%E6%9E%97%E5%93%88%E6%96%AF%E7%89%B9%E6%99%82%E4%BE%86%E9%81%8B%E8%BD%89-11628135410</link>
@@ -103,13 +117,6 @@
             <link>https://cn.wsj.com/articles/robinhood%E8%82%A1%E5%83%B9%E9%A3%86%E5%8D%87%EF%BC%8C%E6%9C%9F%E6%AC%8A%E9%96%8B%E5%A7%8B%E4%BA%A4%E6%98%93-11628124009</link>
             <guid isPermaLink="false">CT-MKT-20210805082026</guid>
             <pubDate>Thu, 05 Aug 2021 00:50:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Uber預訂量創新高，乘客數從疫情低點強勁反彈]]></title>
-            <description><![CDATA[<img width="1280" height="844" src="https://si.wsj.net/public/resources/images/S1-LJ389_UBEREA_OR_20210801092929.jpg" class="webfeedsFeaturedVisual" alt=""/><p>Uber的乘客人數在最近一個財季從去年的疫情低點強勁反彈，其送餐業務也顯示出強勁的跡象。</p>]]></description>
-            <link>https://cn.wsj.com/articles/Uber%E9%A0%90%E8%A8%82%E9%87%8F%E5%89%B5%E6%96%B0%E9%AB%98%EF%BC%8C%E4%B9%98%E5%AE%A2%E6%95%B8%E5%BE%9E%E7%96%AB%E6%83%85%E4%BD%8E%E9%BB%9E%E5%BC%B7%E5%8B%81%E5%8F%8D%E5%BD%88-11628121612</link>
-            <guid isPermaLink="false">CT-BIZ-20210805074814</guid>
-            <pubDate>Thu, 05 Aug 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[銷售職位薪水高、機會多，年輕人為何不願做？]]></title>
