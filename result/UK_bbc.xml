@@ -9,17 +9,31 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Aug 2021 11:22:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Aug 2021 19:35:21 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[余英時逝於普林斯頓 享年91歲：立場堅定的華人史學泰斗]]></title>
+            <description><![CDATA[知名美國華裔歷史學家余英時8月1日逝世於美東普林斯頓的家中，享年91歲。他生前鮮明批判中共政權，表明只要結束一黨專政便會回國。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58107149</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58107149</guid>
+            <pubDate>Thu, 05 Aug 2021 17:34:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[東京奧運：台灣的「民族主義」時刻？]]></title>
             <description><![CDATA[奧運會本質上確實無法與政治脫鉤，它與民族主義高度相關；在台灣，奧運會上遇到中國隊伍，複雜的兩岸情結借著選手對壘表露無疑。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58071334</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58071334</guid>
             <pubDate>Thu, 05 Aug 2021 01:22:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[比爾·蓋茨承認「犯大錯」 離婚案中愛潑斯坦元素再現]]></title>
+            <description><![CDATA[比爾·蓋茨受訪媒體正式承認當初會晤愛潑斯坦「犯大錯」，並陳述「個人巨大悲痛的原因」。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58101175</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58101175</guid>
+            <pubDate>Thu, 05 Aug 2021 19:32:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[騰訊被中國官媒點名後股價大跌，市場如何變驚弓之鳥]]></title>
@@ -43,20 +57,6 @@
             <pubDate>Wed, 04 Aug 2021 09:20:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[台灣：拜登政府批准首筆對台軍售 中方提出「嚴正交涉」]]></title>
-            <description><![CDATA[這是拜登政府上台以來的首次批准對台軍售。台灣國防部表示，這筆軍售有望在1個月後正式生效。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58098279</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58098279</guid>
-            <pubDate>Thu, 05 Aug 2021 07:35:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[奧巴馬生日：病毒破壞了派對，要改變計劃嗎？]]></title>
-            <description><![CDATA[好萊塢和華盛頓的一些大明星可能會突然空出來一個周末。美國前總統奧巴馬縮減了本周末生日派對的規模。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58099713</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58099713</guid>
-            <pubDate>Thu, 05 Aug 2021 09:17:05 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[東京奧運：哪國運動服最時尚？日本服由廢料造，德國體操服反「性感化」]]></title>
             <description><![CDATA[東京奧運除了比賽項目引人入勝，運動員別出心裁旳服裝也是亮點。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58086180</link>
@@ -71,8 +71,8 @@
             <pubDate>Thu, 05 Aug 2021 01:26:20 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[東京奧運：1964夏季奧運時的台灣運動員「投共」事件]]></title>
-            <description><![CDATA[日本東京上次舉辦夏季奧運還是1964年。與本屆發生白俄運動員尋求庇護事件相似，上次東京奧運也發生過轟動一時的台灣隊員馬晴山和攝影師陳覺「投共」事件。]]></description>
+            <title><![CDATA[東京奧運：台灣代表團1964奧運期間的成員「投共」事件]]></title>
+            <description><![CDATA[日本上次舉辦夏季奧運還是1964年。與本屆發生白俄運動員尋求庇護事件相似，上次東京奧運也發生過轟動一時的台灣隊員馬晴山和攝影師陳覺的「投共」事件。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58086453</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58086453</guid>
             <pubDate>Wed, 04 Aug 2021 16:10:23 GMT</pubDate>
@@ -183,6 +183,13 @@
             <pubDate>Fri, 23 Jul 2021 08:48:22 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[台灣：拜登政府批准首筆對台軍售 中方提出「嚴正交涉」]]></title>
+            <description><![CDATA[這是拜登政府上台以來的首次批准對台軍售。台灣國防部表示，這筆軍售有望在1個月後正式生效。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58098279</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58098279</guid>
+            <pubDate>Thu, 05 Aug 2021 07:35:08 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[澳門失守現本土新冠病例 抗疫「優等生」面臨挑戰]]></title>
             <description><![CDATA[分析形容，澳門政府在境內控制傳染的工作已經足夠，但外防輸入個案方面就似乎沒有因應情況改變而作出調整。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58083265</link>
@@ -209,6 +216,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58058935</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58058935</guid>
             <pubDate>Mon, 02 Aug 2021 12:51:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[奧巴馬生日：病毒破壞了派對，要改變計劃嗎？]]></title>
+            <description><![CDATA[好萊塢和華盛頓的一些大明星可能會突然空出來一個周末。美國前總統奧巴馬縮減了本周末生日派對的規模。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58099713</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58099713</guid>
+            <pubDate>Thu, 05 Aug 2021 09:17:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中國官媒批網絡遊戲為「精神鴉片」，騰訊等公司股價急跌]]></title>

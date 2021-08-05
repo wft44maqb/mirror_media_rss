@@ -6,8 +6,8 @@
   <description>News, Analysis and Service from Germany and Europe - in 30 Languages</description>
   <language>zh</language>
   <copyright>2021 DW.COM, Deutsche Welle</copyright>
-  <pubDate>Thu, 5 Aug 2021 11:26:34 GMT</pubDate>
-  <lastBuildDate>Thu, 5 Aug 2021 11:26:34 GMT</lastBuildDate>
+  <pubDate>Thu, 5 Aug 2021 19:38:34 GMT</pubDate>
+  <lastBuildDate>Thu, 5 Aug 2021 19:38:34 GMT</lastBuildDate>
   <atom:link href="https://rss.dw.com/xml/podcast_radio_china" rel="self"/>
   <image>
    <url>https://static.dw.com/image/2273684_7.jpg</url>
@@ -28,6 +28,19 @@
    <itunes:category text="Politics"/>
   </itunes:category>
   <ttl>10</ttl>
+  <item>
+   <guid isPermaLink="false">58741610</guid>
+   <pubDate>Thu, 5 Aug 2021 11:43:00 GMT</pubDate>
+   <title>尽管场内空空荡荡 他依然热爱奥运</title>
+   <link>https://www.dw.com/zh/尽管场内空空荡荡-他依然热爱奥运/av-58741610?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>没有观众，场馆内空空荡荡，这意味着像Miguel这样的志愿者没有什么事情可做。但在巴西里约首次体验到奥林匹克精神后，他知道自己必须成为东京团队的一员。现在，他也非常享受这段奥运时光！</description>
+   <category>足坛体坛</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>东京奥运, 志愿者, 奥林匹克, 新冠, 疫情, 病毒</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210803_003_olympicvolunt_01v_sd.mp4" type="video/mp4" length="12168706"/>
+   <itunes:duration>02:28</itunes:duration>
+  </item>
   <item>
    <guid isPermaLink="false">58757166</guid>
    <pubDate>Wed, 4 Aug 2021 13:17:00 GMT</pubDate>
@@ -404,19 +417,6 @@
    <itunes:explicit>clean</itunes:explicit>
    <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210616_001_a722cpsiphon_sd.mp4" type="video/mp4" length="32414594"/>
    <itunes:duration>06:32</itunes:duration>
-  </item>
-  <item>
-   <guid isPermaLink="false">57955969</guid>
-   <pubDate>Fri, 18 Jun 2021 14:19:00 GMT</pubDate>
-   <title>明火做饭的明星大厨</title>
-   <link>https://www.dw.com/zh/明火做饭的明星大厨/av-57955969?maca=chi-podcast_radio_china-1169-xml-mrss</link>
-   <description>这位瑞典星级大厨常常要砍柴。这是因为他只用白桦木烧明火做饭，即便是在做甜点时也少不了“玩火”。</description>
-   <category>文化经纬</category>
-   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
-   <itunes:keywords>大厨, 米其林, 做饭, 烧饭, 做菜, 餐厅, 明火, 白桦木</itunes:keywords>
-   <itunes:explicit>clean</itunes:explicit>
-   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210618_001_8e534feuerkochwide_sd.mp4" type="video/mp4" length="5255807"/>
-   <itunes:duration>01:04</itunes:duration>
   </item>
  </channel>
 </rss>
