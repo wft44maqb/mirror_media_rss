@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Aug 2021 06:45:08 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Aug 2021 06:49:48 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -20,6 +20,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58071334</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58071334</guid>
             <pubDate>Thu, 05 Aug 2021 01:22:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新冠疫苗：世衛呼籲暫緩加強針 美國稱「錯誤選擇」]]></title>
+            <description><![CDATA[德爾塔（Delta）變種病毒在世界不少國家蔓延之時，世界衛生組織（WHO）呼籲，至少要在9月底前暫緩使用新冠病毒加強疫苗。不過，美國稱這是「錯誤選擇」。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58097696</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58097696</guid>
+            <pubDate>Thu, 05 Aug 2021 06:43:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：韓國抗議中國羽毛球選手「爆粗」行為的來龍去脈]]></title>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58083265</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58083265</guid>
             <pubDate>Wed, 04 Aug 2021 08:10:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[新冠疫情：Delta變異病毒在中國大範圍擴散，武漢再現病例1100萬人全民檢測]]></title>
-            <description><![CDATA[大部分城市的疫情爆發和南京機場有關，中國將如何控制這次由Delta變種引爆的疫情？疫苗能否發揮效用？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58067493</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58067493</guid>
-            <pubDate>Tue, 03 Aug 2021 09:43:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中美關係：海外中概股此輪暴跌背後的金融脫鉤爭論]]></title>
@@ -321,6 +321,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58009173</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58009173</guid>
             <pubDate>Sun, 01 Aug 2021 07:30:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新冠疫情：Delta變異病毒在中國大範圍擴散，武漢再現病例1100萬人全民檢測]]></title>
+            <description><![CDATA[大部分城市的疫情爆發和南京機場有關，中國將如何控制這次由Delta變種引爆的疫情？疫苗能否發揮效用？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58067493</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58067493</guid>
+            <pubDate>Tue, 03 Aug 2021 09:43:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：中國冠軍鍾天使、鮑珊菊頒獎台上戴毛澤東像章引違規爭議]]></title>
