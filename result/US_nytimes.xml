@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Thu, 05 Aug 2021 10:14:56 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Aug 2021 10:24:57 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[变种毒株迅速传播，中国防疫模式还能成功吗？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210805/china-delta-covid-testing-outbreak/?utm_source=RSS]]></link>
+            <description><![CDATA[德尔塔毒株有高传染性，依靠此前以遏制为基础的战略控制疫情将更为困难。国产疫苗对变种病毒的效果性有限，民众对多轮核酸以及封锁措施也感到疲惫不堪。<p><img src='https://static01.nyt.com/images/2021/08/04/world/04virus-china1/merlin_192596679_21bc0f95-52ac-4416-bea0-3f8c411d5b53-articleLarge.jpg' alt='周二，等待核酸检测的武汉民众。 Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>周二，等待核酸检测的武汉民众。</p>                    ]]></description>
+            <category>中国</category>
+            <dc:creator><![CDATA[黄瑞黎,ELSIE CHEN]]></dc:creator>
+            <pubDate>Thu, 05 Aug 2021 10:14:59 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210805/china-delta-covid-testing-outbreak/]]></guid>
+        </item>
             <item>
             <title><![CDATA[Delta毒株感染激增，已接种疫苗的人该如何防护？]]></title>
             <link><![CDATA[https://cn.nytimes.com/health/20210804/covid-delta-variant-vaccine-symptoms/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[HANNAH BEECH]]></dc:creator>
             <pubDate>Mon, 02 Aug 2021 10:51:17 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210802/hong-kong-china-olympics-democracy/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[吴亦凡涉强奸被刑拘：中国“我也是”运动向前一步？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210802/kris-wu-detain-china-suspicion-rape/?utm_source=RSS]]></link>
-            <description><![CDATA[吴亦凡是中国因“我也是”指控被拘的最著名人物。尽管当局严格限制异见，但人们对受害者的支持表明该运动在中国仍在发展。此前其他案件受害者甚至出现被诉诽谤的情况。<p><img src='https://static01.nyt.com/images/2021/07/31/world/31china-metoo/31china-metoo-articleLarge.jpg' alt='2018年，吴亦凡在多伦多的一场音乐颁奖典礼上表演。 Christopher Katsarov/The Canadian Press, via Associated Press'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Christopher Katsarov/The Canadian Press, via Associated Press</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>2018年，吴亦凡在多伦多的一场音乐颁奖典礼上表演。</p>                    ]]></description>
-            <category>中国</category>
-            <dc:creator><![CDATA[AMY QIN,ELSIE CHEN]]></dc:creator>
-            <pubDate>Mon, 02 Aug 2021 10:31:54 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210802/kris-wu-detain-china-suspicion-rape/]]></guid>
         </item>
     </channel>
 </rss>
