@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Aug 2021 09:08:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Aug 2021 09:18:17 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -50,6 +50,13 @@
             <pubDate>Thu, 05 Aug 2021 07:35:08 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[奧巴馬生日：病毒破壞了派對，要改變計劃嗎？]]></title>
+            <description><![CDATA[好萊塢和華盛頓的一些大明星可能會突然空出來一個周末。美國前總統奧巴馬縮減了本周末生日派對的規模。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58099713</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58099713</guid>
+            <pubDate>Thu, 05 Aug 2021 09:17:05 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[東京奧運：哪國運動服最時尚？日本服由廢料造，德國體操服反「性感化」]]></title>
             <description><![CDATA[東京奧運除了比賽項目引人入勝，運動員別出心裁旳服裝也是亮點。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58086180</link>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58086453</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58086453</guid>
             <pubDate>Wed, 04 Aug 2021 16:10:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[澳門失守現本土新冠病例 抗疫「優等生」面臨挑戰]]></title>
-            <description><![CDATA[分析形容，澳門政府在境內控制傳染的工作已經足夠，但外防輸入個案方面就似乎沒有因應情況改變而作出調整。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58083265</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58083265</guid>
-            <pubDate>Wed, 04 Aug 2021 08:10:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中美關係：海外中概股此輪暴跌背後的金融脫鉤爭論]]></title>
@@ -181,6 +181,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-57267433</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-57267433</guid>
             <pubDate>Fri, 23 Jul 2021 08:48:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[澳門失守現本土新冠病例 抗疫「優等生」面臨挑戰]]></title>
+            <description><![CDATA[分析形容，澳門政府在境內控制傳染的工作已經足夠，但外防輸入個案方面就似乎沒有因應情況改變而作出調整。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58083265</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58083265</guid>
+            <pubDate>Wed, 04 Aug 2021 08:10:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：為什麼中國金牌最多，在美國媒體上卻不是排第一？]]></title>
