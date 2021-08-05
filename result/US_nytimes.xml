@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Thu, 05 Aug 2021 16:06:32 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Aug 2021 16:16:34 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[央视记者称铅球金牌得主巩立姣“女汉子”引发众怒]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210805/gong-lijiao-shot-put-china/?utm_source=RSS]]></link>
+            <description><![CDATA[巩立姣为中国夺得田赛项目奥运首金后，官媒在采访中称其为“女汉子”，并将问题聚焦在其身为女性的人生计划上。相关报道引发了人们对女性可被讨论话题的热烈讨论。<p><img src='https://static01.nyt.com/images/2021/08/05/sports/05olympics-briefing-china-shotput/05olympics-briefing-china-shotput-articleLarge.jpg' alt='中国选手巩立姣在周日的铅球比赛中赢得金牌。 Hannah Mckay/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Hannah Mckay/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>中国选手巩立姣在周日的铅球比赛中赢得金牌。</p>                    ]]></description>
+            <category>中国</category>
+            <dc:creator><![CDATA[TIFFANY MAY,ELSIE CHEN]]></dc:creator>
+            <pubDate>Thu, 05 Aug 2021 04:09:54 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210805/gong-lijiao-shot-put-china/]]></guid>
+        </item>
             <item>
             <title><![CDATA[人类还能与彼此好好相处吗？]]></title>
             <link><![CDATA[https://cn.nytimes.com/opinion/20210805/technology-internet-cooperation/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[王月眉]]></dc:creator>
             <pubDate>Mon, 02 Aug 2021 03:56:04 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210802/hong-kong-students/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[“他没再回来”：河南洪灾受害者绝望寻找失联亲人]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210723/china-flood/?utm_source=RSS]]></link>
-            <description><![CDATA[灾情导致25万人流离失所，死亡人数仍在不断上升。部分地区断电、停水。巩义、新乡等地也受灾严重。在最严重的洪灾发生48小时后，人们仍在绝望地寻找失联的亲人。<p><img src='https://static01.nyt.com/images/2021/07/22/world/22China-Floods5/merlin_191166858_34589dc1-40d3-4b42-94b1-f31cc341feef-articleLarge.jpg' alt='周四，在中国郑州一条被洪水淹没的道路上跋涉的民众。在连续几天的倾盆大雨之后，天气预报称该地区还会有更多降雨。 Aly Song/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Aly Song/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>周四，在中国郑州一条被洪水淹没的道路上跋涉的民众。在连续几天的倾盆大雨之后，天气预报称该地区还会有更多降雨。</p>                    ]]></description>
-            <category>中国</category>
-            <dc:creator><![CDATA[KEITH BRADSHER,STEVEN LEE MYERS]]></dc:creator>
-            <pubDate>Mon, 02 Aug 2021 02:34:23 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210723/china-flood/]]></guid>
         </item>
     </channel>
 </rss>
