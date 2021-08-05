@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Aug 2021 07:33:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Aug 2021 07:38:14 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -43,18 +43,18 @@
             <pubDate>Wed, 04 Aug 2021 09:20:12 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[台灣：拜登政府批准首筆對台軍售 中方提出「嚴正交涉」]]></title>
+            <description><![CDATA[這是拜登政府上台以來的首次批准對台軍售。台灣國防部表示，這筆軍售有望在1個月後正式生效。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58098279</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58098279</guid>
+            <pubDate>Thu, 05 Aug 2021 07:35:08 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[東京奧運：哪國運動服最時尚？日本服由廢料造，德國體操服反「性感化」]]></title>
             <description><![CDATA[東京奧運除了比賽項目引人入勝，運動員別出心裁旳服裝也是亮點。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58086180</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58086180</guid>
             <pubDate>Thu, 05 Aug 2021 04:36:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[華為孟晚舟案：引渡案聽證進入最後階段 美中爭端溫度計]]></title>
-            <description><![CDATA[華為首席財務官孟晚舟引渡案的最後一輪聽證會，將於8月4日在加拿大展開，這場漫長的法律戰，將進入關鍵階段。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58087519</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58087519</guid>
-            <pubDate>Wed, 04 Aug 2021 12:03:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：抖音成為新世代運動員與粉絲互動的平台]]></title>
@@ -90,6 +90,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58086553</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58086553</guid>
             <pubDate>Wed, 04 Aug 2021 11:05:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[華為孟晚舟案：引渡案聽證進入最後階段 美中爭端溫度計]]></title>
+            <description><![CDATA[華為首席財務官孟晚舟引渡案的最後一輪聽證會，將於8月4日在加拿大展開，這場漫長的法律戰，將進入關鍵階段。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58087519</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58087519</guid>
+            <pubDate>Wed, 04 Aug 2021 12:03:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[海灣油輪遇襲事件背後的西方進退兩難]]></title>
@@ -139,13 +146,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58045842</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58045842</guid>
             <pubDate>Sun, 01 Aug 2021 10:50:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[BBC紀錄片：南中國海之戰]]></title>
-            <description><![CDATA[南中國海正在醞釀一場風暴。中國聲稱對南海的大片海域擁有主權，但美國總統拜登近期警告稱，南海的貿易和航運必須保持開放。被夾在中間的是菲律賓漁民，他們發現自己在海上謀生時，越來越多地受到中國海警和民兵船隻的驅趕。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58007615</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58007615</guid>
-            <pubDate>Thu, 29 Jul 2021 04:37:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：獎牌榜上哪個國家或地區領先？]]></title>
@@ -342,6 +342,13 @@
             <link>https://www.bbc.com/zhongwen/trad/sports-58071222</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58071222</guid>
             <pubDate>Wed, 04 Aug 2021 09:14:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BBC紀錄片：南中國海之戰]]></title>
+            <description><![CDATA[南中國海正在醞釀一場風暴。中國聲稱對南海的大片海域擁有主權，但美國總統拜登近期警告稱，南海的貿易和航運必須保持開放。被夾在中間的是菲律賓漁民，他們發現自己在海上謀生時，越來越多地受到中國海警和民兵船隻的驅趕。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58007615</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58007615</guid>
+            <pubDate>Thu, 29 Jul 2021 04:37:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：國際奧委會立案調查白俄田徑選手拒絶回國事件]]></title>
