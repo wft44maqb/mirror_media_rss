@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 05 Aug 2021 03:19:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Aug 2021 03:21:23 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 05 Aug 2021 03:19:07 GMT</pubDate>
+        <pubDate>Thu, 05 Aug 2021 03:21:22 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -63,11 +63,18 @@
             <pubDate>Wed, 04 Aug 2021 01:30:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[美國企業對於是否強制接種疫苗存在分歧]]></title>
+            <description><![CDATA[<img width="1280" height="855" src="https://si.wsj.net/public/resources/images/S1-LK358_VAXSHI_OR_20210803181522.jpg" class="webfeedsFeaturedVisual" alt=""/><p>面對德爾塔毒株感染病例數的不斷上升，泰森食品和沃爾瑪等企業堅持要求員工接種疫苗。而另外一些公司則堅持勸說和現金激勵。這兩種策略都面臨著風險。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E4%BC%81%E6%A5%AD%E5%B0%8D%E6%96%BC%E6%98%AF%E5%90%A6%E5%BC%B7%E5%88%B6%E6%8E%A5%E7%A8%AE%E7%96%AB%E8%8B%97%E5%AD%98%E5%9C%A8%E5%88%86%E6%AD%A7-11628133618</link>
+            <guid isPermaLink="false">CT-BIZ-20210805103625</guid>
+            <pubDate>Thu, 05 Aug 2021 03:20:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[美國企業未使用授信額度創紀錄，被壓抑支出有望釋放]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LJ738_CREDIT_OR_20210802135756.jpg" class="webfeedsFeaturedVisual" alt=""/><p>企業正坐擁源自美國銀行機構的、規模創紀錄的未使用授信額度，在銀行家們看來，這個經濟復甦進程中的又一怪現象在未來幾個月或許有助於被壓抑支出的釋放。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E4%BC%81%E6%A5%AD%E6%9C%AA%E4%BD%BF%E7%94%A8%E6%8E%88%E4%BF%A1%E9%A1%8D%E5%BA%A6%E5%89%B5%E7%B4%80%E9%8C%84%EF%BC%8C%E8%A2%AB%E5%A3%93%E6%8A%91%E6%94%AF%E5%87%BA%E6%9C%89%E6%9C%9B%E9%87%8B%E6%94%BE-11628132411</link>
             <guid isPermaLink="false">CT-FIN-20210805101714</guid>
-            <pubDate>Thu, 05 Aug 2021 03:10:00 GMT</pubDate>
+            <pubDate>Thu, 05 Aug 2021 03:20:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[美股普遍下跌，投資者擔心復甦停滯]]></title>
