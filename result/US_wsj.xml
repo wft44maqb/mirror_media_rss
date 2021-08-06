@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Aug 2021 01:12:56 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Aug 2021 01:15:13 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 06 Aug 2021 01:12:55 GMT</pubDate>
+        <pubDate>Fri, 06 Aug 2021 01:15:13 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -98,25 +98,18 @@
             <pubDate>Thu, 05 Aug 2021 23:40:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[蘋果公司計劃讓iPhone檢測兒童色情圖片，引發私隱爭論]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LL188_APPLEE_OR_20210805154211.jpg" class="webfeedsFeaturedVisual" alt=""/><p>蘋果公司計劃推出新的iPhone軟體，用於識別和報告收集到的兒童性剝削圖片。多年來，該公司承諾保護消費者私隱，但執法部門希望了解手機上發生的非法活動，此舉旨在彌合兩者之間的分歧。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E8%98%8B%E6%9E%9C%E5%85%AC%E5%8F%B8%E8%A8%88%E5%8A%83%E8%AE%93iphone%E6%AA%A2%E6%B8%AC%E5%85%92%E7%AB%A5%E8%89%B2%E6%83%85%E5%9C%96%E7%89%87%EF%BC%8C%E5%BC%95%E7%99%BC%E7%A7%81%E9%9A%B1%E7%88%AD%E8%AB%96-11628208908</link>
+            <guid isPermaLink="false">CT-TEC-20210806080333</guid>
+            <pubDate>Fri, 06 Aug 2021 01:05:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[美國政府求助於亞馬遜、Google等公司來加強網絡防禦]]></title>
             <description><![CDATA[<img width="1280" height="874" src="https://si.wsj.net/public/resources/images/S1-LK660_CYBERB_OR_20210804142956.jpg" class="webfeedsFeaturedVisual" alt=""/><p>在發生了一系列引人注目的網絡攻擊後，美國政府正在尋求包括亞馬遜、微軟和Google在內的科技公司的幫助，以加強該國關鍵基礎設施對網絡威脅的防禦。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E6%94%BF%E5%BA%9C%E6%B1%82%E5%8A%A9%E6%96%BC%E4%BA%9E%E9%A6%AC%E9%81%9C%E3%80%81Google%E7%AD%89%E5%85%AC%E5%8F%B8%E4%BE%86%E5%8A%A0%E5%BC%B7%E7%B6%B2%E7%B5%A1%E9%98%B2%E7%A6%A6-11628208011</link>
             <guid isPermaLink="false">CT-BGH-20210806074653</guid>
             <pubDate>Fri, 06 Aug 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[亞馬遜將員工返回辦公室的時間推遲到2022年]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LL092_AMAZON_OR_20210805123637.jpg" class="webfeedsFeaturedVisual" alt=""/><p>在德爾塔變異毒株導致新冠病例激增的情況下，亞馬遜加入了企業調整返回辦公室計劃的浪潮。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%BA%9E%E9%A6%AC%E9%81%9C%E5%B0%87%E5%93%A1%E5%B7%A5%E8%BF%94%E5%9B%9E%E8%BE%A6%E5%85%AC%E5%AE%A4%E7%9A%84%E6%99%82%E9%96%93%E6%8E%A8%E9%81%B2%E5%88%B02022%E5%B9%B4-11628207109</link>
-            <guid isPermaLink="false">CT-BIZ-20210806073740</guid>
-            <pubDate>Thu, 05 Aug 2021 23:45:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[高盛集團提高今年及明年的標普500指數目標]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LJ728_GSPAY_OR_20210802132042.jpg" class="webfeedsFeaturedVisual" alt=""/><p>高盛集團的策略師周四提高了他們今年和明年的標普500指數目標，理由是盈利好於預期，且利率低於預期。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E9%AB%98%E7%9B%9B%E9%9B%86%E5%9C%98%E6%8F%90%E9%AB%98%E4%BB%8A%E5%B9%B4%E5%8F%8A%E6%98%8E%E5%B9%B4%E7%9A%84%E6%A8%99%E6%99%AE500%E6%8C%87%E6%95%B8%E7%9B%AE%E6%A8%99-11628159709</link>
-            <guid isPermaLink="false">CT-MKT-20210805182545</guid>
-            <pubDate>Thu, 05 Aug 2021 10:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[銷售職位薪水高、機會多，年輕人為何不願做？]]></title>
