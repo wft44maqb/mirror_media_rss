@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 06 Aug 2021 10:12:46 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Aug 2021 10:22:52 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[美国将允许在美港人延期居留18个月]]></title>
+            <link><![CDATA[https://cn.nytimes.com/usa/20210806/biden-hong-kong-deportation/?utm_source=RSS]]></link>
+            <description><![CDATA[这是拜登政府寻求回应香港镇压异议人士的最新举措。这项命令给与在美香港居民特别庇护，被驱逐出境者将获得18个月的延期。拜登称此举是为香港居民提供“避风港”。<p><img src='https://static01.nyt.com/images/2021/08/05/lens/05political-briefing-hong-kong/merlin_189007230_c051918b-884d-4eca-b648-23a2ef215f8a-articleLarge.jpg' alt='5月在香港举行的一场抗议活动，支持47名因中国国安法受到指控的民主活动人士。高额保释金意味着大多数人在接受审判之前，可能要在监狱中度过数月甚至数年。 Lam Yik Fei for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Lam Yik Fei for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>5月在香港举行的一场抗议活动，支持47名因中国国安法受到指控的民主活动人士。高额保释金意味着大多数人在接受审判之前，可能要在监狱中度过数月甚至数年。</p>                    ]]></description>
+            <category>美国</category>
+            <dc:creator><![CDATA[CHRIS CAMERON]]></dc:creator>
+            <pubDate>Fri, 06 Aug 2021 10:21:14 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210806/biden-hong-kong-deportation/]]></guid>
+        </item>
             <item>
             <title><![CDATA[变种毒株迅速传播，中国防疫模式还能成功吗？]]></title>
             <link><![CDATA[https://cn.nytimes.com/china/20210805/china-delta-covid-testing-outbreak/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[TARIQ PANJA,KEN BELSON]]></dc:creator>
             <pubDate>Mon, 02 Aug 2021 05:14:01 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/culture/20210802/laurel-hubbard-trans-weight-lifting/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[“有一种等死的感觉”：大学学生会成香港当局打压对象]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210802/hong-kong-students/?utm_source=RSS]]></link>
-            <description><![CDATA[学生是香港近年来最坚定的抗议者群体之一，并已成为一股强大的政治力量。如今当局正采取行动削弱学生团体的影响力，学生会办公室被查、校园活动难以组织。<p><img src='https://static01.nyt.com/images/2021/07/30/world/00hongkong-students1/merlin_190923174_0e1f8371-54f3-4cd2-893a-8ef52e999e0c-articleLarge.jpg' alt='7月16日，警方在香港大学学生会办公室外搬运物品。 Isaac Lawrence/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Isaac Lawrence/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>7月16日，警方在香港大学学生会办公室外搬运物品。</p>                    ]]></description>
-            <category>中国</category>
-            <dc:creator><![CDATA[王月眉]]></dc:creator>
-            <pubDate>Mon, 02 Aug 2021 03:56:04 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210802/hong-kong-students/]]></guid>
         </item>
     </channel>
 </rss>
