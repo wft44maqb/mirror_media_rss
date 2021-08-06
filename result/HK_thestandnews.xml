@@ -2,11 +2,85 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-06T01:27:29.394Z</updated>
+    <updated>2021-08-06T01:32:33.212Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[數位內容身份證：從 ISBN 到 ISCN]]></title>
+        <id>https://www.thestandnews.com/society/%E6%95%B8%E4%BD%8D%E5%85%A7%E5%AE%B9%E8%BA%AB%E4%BB%BD%E8%AD%89%E5%BE%9E-isbn-%E5%88%B0-iscn</id>
+        <link href="https://www.thestandnews.com/society/%E6%95%B8%E4%BD%8D%E5%85%A7%E5%AE%B9%E8%BA%AB%E4%BB%BD%E8%AD%89%E5%BE%9E-isbn-%E5%88%B0-iscn"/>
+        <updated>2021-08-06T01:30:39.568Z</updated>
+        <summary type="html"><![CDATA[一年一度的香港書展剛剛閉幕，這次且讓我們聊聊書本。稍微看過書的大概都會見過國際書號 ISBN，一般印在封底那個條碼。但 ISBN 為甚麼需要存在，大概不是每個人都想過。不妨先考考自己：一疊有封面、有名字、釘裝好，滿載圍繞特定主題文字的紙，沒有 ISBN 的話，算是一本書嗎？ISBN 與 metadata是，但也不是。視乎語境。當書泛指文字、圖片、概念的載體，那可以說是，比如動漫愛好者的同人誌一般…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/library.png"></figure><p>一年一度的香港書展剛剛閉幕，這次且讓我們聊聊書本。</p>
+
+<p>稍微看過書的大概都會見過國際書號 ISBN，一般印在封底那個條碼。但 ISBN 為甚麼需要存在，大概不是每個人都想過。不妨先考考自己：一疊有封面、有名字、釘裝好，滿載圍繞特定主題文字的紙，沒有 ISBN 的話，算是一本書嗎？</p>
+
+<h2>ISBN 與 metadata</h2>
+
+<p>是，但也不是。視乎語境。</p>
+
+<p>當書泛指文字、圖片、概念的載體，那可以說是，比如動漫愛好者的同人誌一般都不會有 ISBN。但在出版社、印刷廠、書店、圖書館、貿易發展局等等，即<strong>體制</strong>的眼中，那只是一疊紙，不是書。圖書館不會上架，發行商不會推廣，書店很可能不會進貨或者根本不知道它的存在；甚至，在某些威權國家，書店出售「一疊紙」很可能違法——別怪我口吻不太確定，那可是因為威權國家的法律詮釋完全隨意。換言之，威權政府透過 ISBN 的批核，就能輕鬆牢牢審查學校、圖書館、書店、報攤等地方流通的內容。</p>
+
+<p>當然，ISBN 有其積極、正面的意義，而且在很多民主國家，以及曾經享有高度出版自由的香港，申請 ISBN 都是近乎沒有門檻的。試想像，要不是 1967 年啟用的國際書號，我們根本沒法得知整個世界的書目。ISBN 是書本的 metadata（元資料），讓全人類得以搜尋、發現書目，讓知識有效傳達，作品相互引用。</p>
+
+<figure>
+<ul data-carousel-extra="{&quot;blog_id&quot;:8,&quot;permalink&quot;:&quot;https:\/\/ckxpress.com\/from-isbn-to-iscn\/&quot;}">
+	<li>
+	<figure><a href="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/imdb-1024x576.png"><img alt="" data-attachment-id="9128" data-comments-opened="1" data-id="9128" data-image-caption="" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="imdb" data-large-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/imdb-1024x576.png" data-medium-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/imdb-300x169.png" data-orig-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/imdb.png" data-orig-size="1200,675" data-permalink="https://ckxpress.com/from-isbn-to-iscn/imdb/" height="576" sizes="(max-width: 1024px) 100vw, 1024px" src="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/imdb-1024x576.png" srcset="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/imdb-1024x576.png 1024w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/imdb-300x169.png 300w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/imdb-768x432.png 768w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/imdb.png 1200w" width="1024"></a>
+
+	<figcaption><a href="https://imdb.com/">https://imdb.com</a></figcaption>
+	</figure>
+	</li>
+</ul>
+</figure>
+
+<p>metadata 可以理解為「data about data」：書是 data，ISBN 是 metadata；電影是 data，IMDb 上的各項周邊資料是 metadata；可見元資料對資料整理和發現的重要性。</p>
+
+<p>對於 metadata 有個常見的誤解：只要有 data 就能抓出 metadata。實際上，能從 data 抽取的 metadata，一般只佔少數，很多進階的 metadata 需要額外花工夫整理，從 IMDb 就可看出，即使 Google 和最先進的 AI 都沒法從電影裡面抽取出那些包括票房、製作經費、花絮、時代背景等各種 metadata。</p>
+
+<h2>數位內容與 ISCN</h2>
+
+<p>來到網絡世界，整理知識、發現內容的角色很大程度由 Google 擔當，表面上我們好像不需要 metadata，有關鍵字就好，實際上，關鍵字正正就是 metadata 的一種。而想要內容在搜索結果名列前茅，單單讓 Google 分析網頁內容抽取關鍵字還不夠，還需要主動整理和提交更細緻的 metadata，具體體現為 JSON-LD 格式的 structured data（如嫌火星文，請忽略這句）。</p>
+
+<figure>
+<ul data-carousel-extra="{&quot;blog_id&quot;:8,&quot;permalink&quot;:&quot;https:\/\/ckxpress.com\/from-isbn-to-iscn\/&quot;}">
+	<li>
+	<figure><a href="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/metadata-1024x576.png"><img alt="" data-attachment-id="9129" data-comments-opened="1" data-id="9129" data-image-caption="" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="metadata" data-large-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/metadata-1024x576.png" data-medium-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/metadata-300x169.png" data-orig-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/metadata.png" data-orig-size="1200,675" data-permalink="https://ckxpress.com/from-isbn-to-iscn/metadata/" height="576" sizes="(max-width: 1024px) 100vw, 1024px" src="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/metadata-1024x576.png" srcset="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/metadata-1024x576.png 1024w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/metadata-300x169.png 300w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/metadata-768x432.png 768w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/metadata.png 1200w" width="1024"></a></figure>
+	</li>
+</ul>
+</figure>
+
+<p>〈<a href="https://ckxpress.com/rthk-backup/">RTHK 影片備份：無需硬盤，但要共識</a>〉和〈<a href="https://ckxpress.com/arweave/">dAppledaily 永久儲存蘋果日報，永遠幾遠？</a>〉介紹的 IPFS 和 Arweave，目標是永續儲存 data；至於負責永續儲存 metadata 的，則是借用 ISBN 概念而設計的&nbsp;<a href="https://iscn.io/">ISCN，International Standard Content Number</a>。</p>
+
+<p>當然，不是任何內容都值得永續儲存，事實上，不值得的佔了大多數，比如即時通訊，我全都會設成自焚，以求數位環保。但對於少部分珍貴內容如一本用心寫成的書、一篇深刻的文章、一張經典的照片、一幅雋永的插畫，都值得永遠流傳，避免因為平台倒閉、費用過期、人為錯誤、政治審查等各種原因流失。</p>
+
+<p>要做到這一點，採用的工具除了 IPFS 和 Arweave，也該加上 ISCN，否則假如不被搜尋、發現、引用、交互，data 即使永續存放也沒太大意義。</p>
+
+<figure>
+<ul data-carousel-extra="{&quot;blog_id&quot;:8,&quot;permalink&quot;:&quot;https:\/\/ckxpress.com\/from-isbn-to-iscn\/&quot;}">
+	<li>
+	<figure><a href="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/library.png"><img alt="" data-attachment-id="9133" data-comments-opened="1" data-full-url="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/library.png" data-id="9133" data-image-caption="" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="library" data-large-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/library-1024x576.png" data-link="https://ckxpress.com/?attachment_id=9133" data-medium-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/library-300x169.png" data-orig-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/library.png" data-orig-size="1200,675" data-permalink="https://ckxpress.com/from-isbn-to-iscn/library/" height="576" sizes="(max-width: 1024px) 100vw, 1024px" src="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/library-1024x576.png" srcset="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/library-1024x576.png 1024w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/library-300x169.png 300w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/library-768x432.png 768w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/library.png 1200w" width="1024"></a></figure>
+	</li>
+	<li>
+	<figure><a href="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/iscn-card.png"><img alt="" data-attachment-id="9132" data-comments-opened="1" data-full-url="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/iscn-card.png" data-id="9132" data-image-caption="" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="iscn-card" data-large-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/iscn-card-1024x576.png" data-link="https://ckxpress.com/?attachment_id=9132" data-medium-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/iscn-card-300x169.png" data-orig-file="https://ckxpress.like.community/wp-content/uploads/sites/8/2021/07/iscn-card.png" data-orig-size="1200,675" data-permalink="https://ckxpress.com/from-isbn-to-iscn/iscn-card/" height="576" sizes="(max-width: 1024px) 100vw, 1024px" src="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/iscn-card-1024x576.png" srcset="https://ckxpress.com/wp-content/uploads/sites/8/2021/07/iscn-card-1024x576.png 1024w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/iscn-card-300x169.png 300w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/iscn-card-768x432.png 768w, https://ckxpress.com/wp-content/uploads/sites/8/2021/07/iscn-card.png 1200w" width="1024"></a></figure>
+	</li>
+</ul>
+</figure>
+
+<p>ISCN 就像是區塊鏈年代的 ISBN，但從物理世界搬到網絡，從只應用於書本改為應用到小至一篇文章、一張照片、一首歌曲，大至一部小說、一段影片甚至一齣電影的任何數位內容，從由各個國家政府負責當地號段的批核，變成不設任何「入閘機制」，所有人付出小量 LikeCoin 就可生成的「permissionless」機制。這種無需核准的模式，是無大台機制的核心原則，放諸金融，帶來的是 DeFi；放諸內容，帶來的將是 DePub，無大台出版。</p>
+
+<p>無大台出版賦予了個體出版自由，那虛假訊息、內容農場等諸多問題該如何處理？請留意往後我們對&nbsp;<a href="https://ckxpress.com/tag/dao/">DAO</a>，decentralized autonomous organization 的討論。</p>
+
+<p><a href="https://ckxpress.com/from-isbn-to-iscn/">作者網誌</a></p>]]></content>
+        <author>
+            <name>高重建</name>
+            <uri>https://www.thestandnews.com/author/ckxpress</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-06T01:28:05.108Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[高雄不只有鹽埕駁二　結合公私力量的保育政策]]></title>
         <id>https://www.thestandnews.com/personal/%E9%AB%98%E9%9B%84%E4%B8%8D%E5%8F%AA%E6%9C%89%E9%B9%BD%E5%9F%95%E9%A7%81%E4%BA%8C-%E7%B5%90%E5%90%88%E5%85%AC%E7%A7%81%E5%8A%9B%E9%87%8F%E7%9A%84%E4%BF%9D%E8%82%B2%E6%94%BF%E7%AD%96</id>
@@ -814,43 +888,5 @@ Newby, S.M., Owens, J.D., Schoepfer, S.D.&nbsp;et al.&nbsp;Transient ocean oxyge
         </author>
         <category label="國際"/>
         <published>2021-08-05T09:39:34.927Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[港隊一姐劉慕裳奪銅　11 歲起學空手道　一天苦練逾 10 小時]]></title>
-        <id>https://www.thestandnews.com/sport/%E6%B8%AF%E9%9A%8A%E4%B8%80%E5%A7%90%E5%8A%89%E6%85%95%E8%A3%B3%E5%A5%AA%E9%8A%85-11-%E6%AD%B2%E8%B5%B7%E5%AD%B8%E7%A9%BA%E6%89%8B%E9%81%93-%E4%B8%80%E5%A4%A9%E8%8B%A6%E7%B7%B4%E9%80%BE-10-%E5%B0%8F%E6%99%82</id>
-        <link href="https://www.thestandnews.com/sport/%E6%B8%AF%E9%9A%8A%E4%B8%80%E5%A7%90%E5%8A%89%E6%85%95%E8%A3%B3%E5%A5%AA%E9%8A%85-11-%E6%AD%B2%E8%B5%B7%E5%AD%B8%E7%A9%BA%E6%89%8B%E9%81%93-%E4%B8%80%E5%A4%A9%E8%8B%A6%E7%B7%B4%E9%80%BE-10-%E5%B0%8F%E6%99%82"/>
-        <updated>2021-08-05T11:18:17.181Z</updated>
-        <summary type="html"><![CDATA[香港空手道代表劉慕裳（Grace），今日（5日）傍晚再次為港出戰東京奧運，在空手道個人形銅牌賽中，壓過土耳其的 Dilara Bozan 奪得銅牌。目前世界排名第六的劉慕裳，自 11 歲學習空手道，屢次獲得國際賽獎項，世界排名更一度躍升至第三位，曾被譽為是「亞洲第一」。銅牌戰獲 26.94 高分今屆東京奧運是劉慕裳第一次出戰奧運，也可能是最後一次。今屆奧運首次成為日本國技空手道為競賽項目，惟不被…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/Artboard_1_x6SOEUv.png"><figcaption><span>(Photo by Harry How/Getty Images)</span></figcaption></figure><p>香港空手道代表劉慕裳（Grace），今日（5日）傍晚再次為港出戰東京奧運，在空手道個人形銅牌賽中，壓過土耳其的 Dilara Bozan 奪得銅牌。目前世界排名第六的劉慕裳，自 11 歲學習空手道，屢次獲得國際賽獎項，世界排名更一度躍升至第三位，曾被譽為是「亞洲第一」。</p>
-
-<p><strong>銅牌戰獲&nbsp;26.94 高分</strong></p>
-
-<p>今屆東京奧運是劉慕裳第一次出戰奧運，也可能是最後一次。今屆奧運首次成為日本國技空手道為競賽項目，惟不被納為下屆巴黎奧運之中，因此今屆奧運極具歷史意義。在排名賽中，劉慕裳打出空手道劉衛流套拳「安南大」，這是她第一次在比賽中打出的套拳，雖然獲得 26.40 分佳績，但仍敗給獲得 27.86 分的西班牙選手珊齊絲，無緣爭奪金牌。</p>
-
-<p>劉慕裳以排名賽次名姿態進軍銅牌戰，打出糸東流套拳「北谷屋良公相君」(Chatanyara Kushanku)，得分 26.94 高分，壓過打同一套拳、得分 26.52 分的土耳其選手寶珊。她被視為港隊在今屆奧運獲獎希望，結果她不負所望，歷史性為香港增添一面空手道銅牌。</p>
-
-<p><strong>劉慕裳居世界排名第六</strong></p>
-
-<p>29 歲的劉慕裳在參加今屆東京奧運之前，已在今年五月里斯本空手道 K1（KARATE1）聯賽中先聲奪人。當時她在個人形項目，亦即套路比賽中勝出多局，僅於決賽不敵日本選手大野ひかる，獲得一面銀牌。空手道 K1 聯賽由世界空手道聯盟 (World Karate Federation) 於 2011 年成立，屬全世界最重要的空手道賽事，集合各地空手道精英。在 2011 年首屆 K1 聯賽賽事，年僅 19 歲的劉慕裳就已經參與其中，可惜當時她未能奪得獎牌。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/h2_zD023.PNG"><figcaption><span>劉慕裳贏得今年首面超聯金牌。 相片來源：劉慕裳fb</span></figcaption></figure></div>
-
-<p>劉慕裳一直參加不同比賽，早已打響名堂。2015 年，年僅 23 歲的她在德國哥堡空手道 K1 聯賽中勝出六局，奪得她職業生涯首面空手道 K1 聯賽金牌，兩年後 K1 薩爾斯堡站中，她再下一城奪金。根據世界空手道聯盟女性空手道運動員排名，目前劉慕裳居世界第六。</p>
-
-<p><strong>畢業於城大創意媒體系　動靜皆能</strong></p>
-
-<p>比賽場外判若兩人，是劉慕裳個人特點。身高 5 呎 1 吋的劉慕裳在道場上彷如巨人，表情肉緊和凶狠，揮灑自如打出套拳，爆發力與動感並重，動作轉換技巧細膩；然而嬌小的她在場外卻是經常以甜美笑面迎人。她曾在 ViuTV 節目《體育系…》擔當客串主持，早已深得不少觀眾關注。</p>
-
-<p>劉慕裳畢業於香港城市大學創意媒體系，自小動靜皆能。小學的時候，她學過彈琴和跳芭蕾舞，又踢過足球。劉慕裳的哥哥是香港空手道代表劉知名，小時候劉慕裳常常看哥哥練習空手道，從而受到薰陶，於是她在 11 歲的時候也開始學空手道，19、20 歲開始每年去兩次日本集訓，一天不停練習超過 10 小時。</p>
-
-<p>劉慕裳媽媽接受訪問時說過，鋼琴和芭蕾舞是家人替她選擇的，而空手道就是她自己真正的興趣。當她清楚了自己的興趣，便向著空手道世界一往無前。劉慕裳如今是世界頂尖空手道選手，憑其出色表現，在世界排名中一直名列前茅，更一度躍升至世界第 3 位，壓過其他亞洲選手，故曾被譽為「亞洲第一」。參加今屆奧運之前，她一直參加高水平國際賽事保持狀態，東京奧運積分排名早已十分穩定。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/AP21217111609833.jpg"><figcaption><span>AP Photo/Vincent Thian</span></figcaption></figure></div>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="體育"/>
-        <published>2021-08-05T10:49:33.863Z</published>
     </entry>
 </feed>
