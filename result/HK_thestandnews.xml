@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-06T04:24:35.127Z</updated>
+    <updated>2021-08-06T04:39:45.562Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -122,6 +122,38 @@
         </author>
         <category label="體育"/>
         <published>2021-08-06T04:02:13.453Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CNN 炒 3 名無接種疫苗上班員工　總裁：回辦公室工作須強制打針]]></title>
+        <id>https://www.thestandnews.com/media/cnn-%E7%82%92-3-%E5%90%8D%E7%84%A1%E6%8E%A5%E7%A8%AE%E7%96%AB%E8%8B%97%E4%B8%8A%E7%8F%AD%E5%93%A1%E5%B7%A5-%E7%B8%BD%E8%A3%81%E5%9B%9E%E8%BE%A6%E5%85%AC%E5%AE%A4%E5%B7%A5%E4%BD%9C%E9%A0%88%E5%BC%B7%E5%88%B6%E6%89%93%E9%87%9D</id>
+        <link href="https://www.thestandnews.com/media/cnn-%E7%82%92-3-%E5%90%8D%E7%84%A1%E6%8E%A5%E7%A8%AE%E7%96%AB%E8%8B%97%E4%B8%8A%E7%8F%AD%E5%93%A1%E5%B7%A5-%E7%B8%BD%E8%A3%81%E5%9B%9E%E8%BE%A6%E5%85%AC%E5%AE%A4%E5%B7%A5%E4%BD%9C%E9%A0%88%E5%BC%B7%E5%88%B6%E6%89%93%E9%87%9D"/>
+        <updated>2021-08-06T04:34:46.194Z</updated>
+        <summary type="html"><![CDATA[CNN 總裁 Jeff Zucker 周四 (5/8) 向員工發備忘錄指，公司解僱 3 名未有接種 COVID-19 疫苗的員工。他強調，公司要求所有員工必須接種疫苗才可回辦公室上班或在外與其他員工工作，但 3 人未有理會該接種疫苗要求便上班。 Zucker 說：「讓我說清楚，我們對此採取零容忍政策 。」消息最先由 CNN 記者 Oliver Darcy 在 Twitter 上爆出，美聯社其後也…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/cnn-13.png"></figure><p>CNN 總裁 Jeff Zucker 周四 (5/8) 向員工發備忘錄指，公司解僱 3 名未有接種 COVID-19 疫苗的員工。他強調，公司要求所有員工必須接種疫苗才可回辦公室上班或在外與其他員工工作，但 3 人未有理會該接種疫苗要求便上班。 Zucker 說：「讓我說清楚，我們對此採取零容忍政策 。」</p>
+
+<p>消息最先由 CNN 記者 Oliver Darcy 在 Twitter 上爆出，美聯社其後也獲得 Zucker 發出的備忘錄。不過，暫時未知被炒員工的資料與他們所駐的地區。</p>
+
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">Jeff Zucker adds in his memo to CNN staff: "In the past week, we have been made aware of three employees who were coming to the office unvaccinated. All three have been terminated. Let me be clear -- we have a zero-tolerance policy on this."</p>
+— Oliver Darcy (@oliverdarcy) <a href="https://twitter.com/oliverdarcy/status/1423362395242704898?ref_src=twsrc%5Etfw">August 5, 2021</a></blockquote>
+<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+
+<p>CNN 的大部分辦公室已重新開放，但回辦公室工作則屬自願性質。 Zucker 指，超過三分之一的新聞工作人員已經返回辦公室。他又表示，CNN至今對員工採信任態度，未有硬性要求出示接種疫苗證明，但可能會在未來數周要求員工出示相關證明。</p>
+
+<p>Google 、迪士尼等多家大型美資企業也有要求員工接種疫苗後才可回辦公室上班。</p>
+
+<p>另外，亞特蘭大、華盛頓和洛杉磯的辦公室除吃飯飲水或在封閉的私人空間外，都將全天候需要戴口罩。備忘錄又指，原訂於 9 月 7 日全體員工返回辦公室的計劃將至少推遲到 10 月初至 10 月中旬。</p>
+
+<p>由於美國 COVID-19 病例的增加，其他媒體公司也有類似決定，美聯社周四也指，預計 9 月 13 日的全體員工回歸辦公室計劃也會被推遲。</p>
+
+<p>來源：<br>
+<a href="https://apnews.com/article/business-health-arts-and-entertainment-coronavirus-pandemic-d380120201997e1476908460d0882582">AP</a> 、 <a href="https://www.independent.co.uk/news/world/americas/cnn-fire-unvaccinated-employees-covid-b1897800.html">Independent</a></p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="傳媒"/>
+        <published>2021-08-06T03:55:22.766Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[認為友人把風塗鴉「黑警死全家」　青年判 160 小時社服令　官：被告非始作俑者]]></title>
@@ -950,29 +982,5 @@ Statement here:<a href="https://t.co/bwpr0LrStW">https://t.co/bwpr0LrStW</a> <a 
         </author>
         <category label="國際"/>
         <published>2021-08-05T16:22:12.732Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[屯門一男子倒斃公園　警附近追捕　發現另一男子頸部流血送院]]></title>
-        <id>https://www.thestandnews.com/society/%E5%B1%AF%E9%96%80%E4%B8%80%E7%94%B7%E5%AD%90%E5%80%92%E6%96%83%E5%85%AC%E5%9C%92-%E8%AD%A6%E9%99%84%E8%BF%91%E8%BF%BD%E6%8D%95-%E7%99%BC%E7%8F%BE%E5%8F%A6%E4%B8%80%E7%94%B7%E5%AD%90%E9%A0%B8%E9%83%A8%E6%B5%81%E8%A1%80%E9%80%81%E9%99%A2</id>
-        <link href="https://www.thestandnews.com/society/%E5%B1%AF%E9%96%80%E4%B8%80%E7%94%B7%E5%AD%90%E5%80%92%E6%96%83%E5%85%AC%E5%9C%92-%E8%AD%A6%E9%99%84%E8%BF%91%E8%BF%BD%E6%8D%95-%E7%99%BC%E7%8F%BE%E5%8F%A6%E4%B8%80%E7%94%B7%E5%AD%90%E9%A0%B8%E9%83%A8%E6%B5%81%E8%A1%80%E9%80%81%E9%99%A2"/>
-        <updated>2021-08-05T15:43:40.555Z</updated>
-        <summary type="html"><![CDATA[據了解，今日（5 日）晚上8 時許，有市民在屯門海珠路遊樂場涼亭旁發現一名男子倒卧在地，地上有血跡，未幾有救護員及警員趕至，發現該名男子已死亡，警方以綠色帳篷蓋起男屍，並圍封現場一帶。記者現場所見，警察晚上 10 時許在附近一帶截查人士，突然在公廁附近追撞一名男子，並越過輕鐵站，最終在海榮路將男子拘捕，並雙手鎖上手銬。男子頸部流血，幾米外遺下黑色隨身袋，救護車之後到場，該名男子送上救護車，暫未知…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/35-36_copy.png"></figure><p>據了解，今日（5 日）晚上8 時許，有市民在屯門海珠路遊樂場涼亭旁發現一名男子倒卧在地，地上有血跡，未幾有救護員及警員趕至，發現該名男子已死亡，警方以綠色帳篷蓋起男屍，並圍封現場一帶。</p>
-
-<p>記者現場所見，警察晚上 10 時許在附近一帶截查人士，突然在公廁附近追撞一名男子，並越過輕鐵站，最終在海榮路將男子拘捕，並雙手鎖上手銬。男子頸部流血，幾米外遺下黑色隨身袋，救護車之後到場，該名男子送上救護車，暫未知兩者是否有關係。</p>
-
-<p>警方表示，事件列作「傷者發現」，受傷男子送往醫院。</p>
-
-<p>警方表示，在現場發現一名男子身體多處受傷，明顯死亡。警員之後在附近現現一名男子，身上有傷，亦有武器。</p>
-
-<p>&nbsp;</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/PP_BqMmrF6.jpg"><figcaption><span>2021.8.5  晚上8 時許，有市民在屯門海珠路遊樂場涼亭旁發現一名男子倒卧在地，地上有血跡，未幾有救護員及警員趕至，發現該名男子已死亡。警察晚上 10 時許在附近一帶截查人士，突然在公廁附近追撞一名男子，在海榮路將男子拘捕，並雙手鎖上手銬。男子頸部流血。</span></figcaption></figure></div>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="社會"/>
-        <published>2021-08-05T15:24:57.029Z</published>
     </entry>
 </feed>
