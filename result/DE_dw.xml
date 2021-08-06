@@ -6,8 +6,8 @@
   <description>News, Analysis and Service from Germany and Europe - in 30 Languages</description>
   <language>zh</language>
   <copyright>2021 DW.COM, Deutsche Welle</copyright>
-  <pubDate>Fri, 6 Aug 2021 07:58:23 GMT</pubDate>
-  <lastBuildDate>Fri, 6 Aug 2021 07:58:23 GMT</lastBuildDate>
+  <pubDate>Fri, 6 Aug 2021 23:04:07 GMT</pubDate>
+  <lastBuildDate>Fri, 6 Aug 2021 23:04:07 GMT</lastBuildDate>
   <atom:link href="https://rss.dw.com/xml/podcast_radio_china" rel="self"/>
   <image>
    <url>https://static.dw.com/image/2273684_7.jpg</url>
@@ -28,6 +28,19 @@
    <itunes:category text="Politics"/>
   </itunes:category>
   <ttl>10</ttl>
+  <item>
+   <guid isPermaLink="false">58780764</guid>
+   <pubDate>Fri, 6 Aug 2021 12:16:00 GMT</pubDate>
+   <title>汉堡港需要投资 中国人愿意出钱：为何有人不满意？</title>
+   <link>https://www.dw.com/zh/汉堡港需要投资-中国人愿意出钱：为何有人不满意？/av-58780764?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>德国汉堡港需要基建工程，但无力独自承担费用。中国航运巨头中远集团希望入股，并承担部分费用。来自中远的援手，在汉堡港部分企业和工会中却引发不安。</description>
+   <category>经济纵横</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>中德, 德中, 中国, 德国, 汉堡, 中远, 一带一路, 新丝绸之路, 投资</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210806_001_hamburgcosco_sd.mp4" type="video/mp4" length="12615387"/>
+   <itunes:duration>02:34</itunes:duration>
+  </item>
   <item>
    <guid isPermaLink="false">58741610</guid>
    <pubDate>Thu, 5 Aug 2021 11:43:00 GMT</pubDate>
@@ -404,19 +417,6 @@
    <itunes:explicit>clean</itunes:explicit>
    <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210614_001_3b041eauto_sd.mp4" type="video/mp4" length="7790031"/>
    <itunes:duration>01:34</itunes:duration>
-  </item>
-  <item>
-   <guid isPermaLink="false">57924469</guid>
-   <pubDate>Sun, 20 Jun 2021 07:32:00 GMT</pubDate>
-   <title>德国之声通过赛风 对抗网络审查</title>
-   <link>https://www.dw.com/zh/德国之声通过赛风-对抗网络审查/av-57924469?maca=chi-podcast_radio_china-1169-xml-mrss</link>
-   <description>在言论自由受限的国家，网民不得不面对网络审查。DW在中国、伊朗等地的用户同样受到影响。赛风（Psiphon ）是帮助用户绕过网络审查、安全的“翻墙”工具。针对DW用户们提出的问题，赛风的创始人、总裁Michael Hull进行了解答。</description>
-   <category>科技环境</category>
-   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
-   <itunes:keywords>德国之声, 赛风, 网络审查, Psiphon, 翻墙</itunes:keywords>
-   <itunes:explicit>clean</itunes:explicit>
-   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210616_001_a722cpsiphon_sd.mp4" type="video/mp4" length="32414594"/>
-   <itunes:duration>06:32</itunes:duration>
   </item>
  </channel>
 </rss>
