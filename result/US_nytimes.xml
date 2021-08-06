@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 06 Aug 2021 15:14:28 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Aug 2021 15:54:39 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[美国商业团体敦促拜登政府重启对华贸易谈判]]></title>
+            <link><![CDATA[https://cn.nytimes.com/business/20210806/biden-china-trade/?utm_source=RSS]]></link>
+            <description><![CDATA[一些商业团体致信财政部和贸易代表，呼吁拜登政府重启贸易谈判、削减关税，并确保中国履行在第一阶段协议中所做的承诺。拜登政府对贸易协议的审查尚未公布结果。<p><img src='https://static01.nyt.com/images/2021/08/06/world/06china-trade1/merlin_191861637_832a3df6-8e98-4e64-8035-8f0fcc7e0fdf-articleLarge.jpg' alt='尽管拜登政府在一系列问题上都制定了与中国对抗的战略，但在两国的经济关系上却较少表态 Michael A. McCoy for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Michael A. McCoy for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>尽管拜登政府在一系列问题上都制定了与中国对抗的战略，但在两国的经济关系上却较少表态</p>                    ]]></description>
+            <category>商业与经济</category>
+            <dc:creator><![CDATA[孟建国,DAVID McCABE]]></dc:creator>
+            <pubDate>Fri, 06 Aug 2021 03:46:45 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210806/biden-china-trade/]]></guid>
+        </item>
             <item>
             <title><![CDATA[这些拿了亚军的日本运动员为何道歉？]]></title>
             <link><![CDATA[https://cn.nytimes.com/asia-pacific/20210806/japan-olympics-apology/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[王霜舟]]></dc:creator>
             <pubDate>Tue, 03 Aug 2021 10:03:01 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210802/hong-kong-singer-election/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[奥运场外的较量：羽毛球金牌之争凸显两岸分歧]]></title>
-            <link><![CDATA[https://cn.nytimes.com/asia-pacific/20210802/badminton-gold-taiwan-china/?utm_source=RSS]]></link>
-            <description><![CDATA[中华台北组合在男双决赛中战胜中国队，引发中国网民愤怒，台湾网友则以表情包作出回应。在女单决赛中，中国选手陈雨菲击败中华台北的戴资颖，“两岸之争”愈发激烈。<p><img src='https://static01.nyt.com/images/2021/08/01/sports/01olympics-briefing-badminton/merlin_192207432_e0d1a32e-486b-4f17-8003-63e02e578758-articleLarge.jpg' alt='周六，台湾选手李洋和王齐麟（中）在男子双打羽毛球比赛中获得金牌。台湾是一个自治岛屿，中国声称拥有其主权，台湾以中华台北的名义参加奥运会。 Alexander Nemenov/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Alexander Nemenov/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>周六，台湾选手李洋和王齐麟（中）在男子双打羽毛球比赛中获得金牌。台湾是一个自治岛屿，中国声称拥有其主权，台湾以中华台北的名义参加奥运会。</p>                    ]]></description>
-            <category>亚太</category>
-            <dc:creator><![CDATA[AMY CHANG CHIEN]]></dc:creator>
-            <pubDate>Mon, 02 Aug 2021 08:59:07 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/asia-pacific/20210802/badminton-gold-taiwan-china/]]></guid>
         </item>
     </channel>
 </rss>
