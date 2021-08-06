@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Aug 2021 07:15:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Aug 2021 07:17:06 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -20,6 +20,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58107149</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58107149</guid>
             <pubDate>Thu, 05 Aug 2021 17:34:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[美國允許在美香港居民延期居留，中國批評「雕蟲小技」]]></title>
+            <description><![CDATA[目前在美國的香港居民將可以獲得最長18個月的「暫緩撤離」期限，讓他們暫時得以在美國居住。中國政府對此表示堅決反對和強烈譴責。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58112391</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58112391</guid>
+            <pubDate>Fri, 06 Aug 2021 07:15:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[社交媒體：一個虛假帳號矩陣如何推動親中宣傳和敘事]]></title>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58097696</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58097696</guid>
             <pubDate>Thu, 05 Aug 2021 06:43:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[東京奧運：韓國抗議中國羽毛球選手「爆粗」行為的來龍去脈]]></title>
-            <description><![CDATA[韓國羽協稱，針對陳清晨在東京奧運會對陣韓國隊時反覆使用髒話的行為，該機構正在向世界羽毛球聯合會進行正式抗議流程。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58085859</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58085859</guid>
-            <pubDate>Wed, 04 Aug 2021 09:20:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中美關係：海外中概股此輪暴跌背後的金融脫鉤爭論]]></title>
@@ -351,6 +351,13 @@
             <pubDate>Sun, 01 Aug 2021 07:30:01 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[東京奧運：韓國抗議中國羽毛球選手「爆粗」行為的來龍去脈]]></title>
+            <description><![CDATA[韓國羽協稱，針對陳清晨在東京奧運會對陣韓國隊時反覆使用髒話的行為，該機構正在向世界羽毛球聯合會進行正式抗議流程。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58085859</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58085859</guid>
+            <pubDate>Wed, 04 Aug 2021 09:20:12 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[東京奧運：台灣代表團1964奧運期間的成員「投共」事件]]></title>
             <description><![CDATA[日本上次舉辦夏季奧運還是1964年。與本屆發生白俄運動員尋求庇護事件相似，上次東京奧運也發生過轟動一時的台灣隊員馬晴山和攝影師陳覺的「投共」事件。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58086453</link>
@@ -421,13 +428,6 @@
             <pubDate>Tue, 03 Aug 2021 07:41:22 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[東京奧運：台灣的奧運會名稱為何如此眾說紛紜]]></title>
-            <description><![CDATA[以「中華台北」參與奧運會賽事數十年的台灣，又再次因為參賽名稱問題，引發各方討論。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58013053</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58013053</guid>
-            <pubDate>Mon, 02 Aug 2021 01:32:57 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[為什麼不打疫苗？拒絶疫苗的心理因素分析]]></title>
             <description><![CDATA[新冠疫苗能拯救人命應該是毋庸置疑的，但還是有很多人不願意接受新冠疫苗注射，他們決定的背後有哪些心理因素？]]></description>
             <link>https://www.bbc.com/zhongwen/trad/57942396</link>
@@ -435,25 +435,11 @@
             <pubDate>Sat, 31 Jul 2021 11:56:31 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[中國台山核電站機組出現燃料破損需停機檢修]]></title>
-            <description><![CDATA[6月中，台山核電站被揭發安全性問題，台山方面指責西方媒體造謠炒作，事隔1.5個月，台山以安全理由關閉1號機組。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58037951</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58037951</guid>
-            <pubDate>Sat, 31 Jul 2021 04:48:07 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[秦剛：中國新任駐美大使 熟悉外媒的習近平親密助手]]></title>
             <description><![CDATA[55歲的秦剛曾在中國外交部負責新聞和禮賓事務。他曾多次言辭犀利地回擊外國記者對中國的質疑。他還被視為是中國國家主席習近平的得力助手。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58010492</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58010492</guid>
             <pubDate>Thu, 29 Jul 2021 09:45:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[台灣疫情：在病毒及社會歧視下掙扎的性工作者與「酒店」業者]]></title>
-            <description><![CDATA[BBC中文訪問了台灣性工作者及業者，了解在本土疫情下她們的處境以及為何組織工作協助彼此。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-57747935</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-57747935</guid>
-            <pubDate>Fri, 30 Jul 2021 03:19:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[BBC中文合作伙伴]]></title>
