@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Aug 2021 01:01:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Aug 2021 01:06:01 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -20,6 +20,20 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58107149</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58107149</guid>
             <pubDate>Thu, 05 Aug 2021 17:34:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[社交媒體：一個虛假帳號矩陣如何推動親中宣傳和敘事]]></title>
+            <description><![CDATA[一項新發佈的研究顯示，一個由350個社交媒體賬號組成的矩陣大力傳播親北京的聲音，但很多賬號的個人資料頭像由AI合成，並幾乎在同一時間發佈相同的文字和圖片。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58097366</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58097366</guid>
+            <pubDate>Fri, 06 Aug 2021 01:02:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中國成為塔利班的新朋友 中俄印如何面對阿富汗「改朝換代」]]></title>
+            <description><![CDATA[多年來，北京曾與阿富汗塔利班有過多次互動，但新冠疫情中的此次會面是雙方最高調的一次。美國正從阿富汗全面撤軍，中國需要重新考慮新疆的這個鄰居的角色。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58052388</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58052388</guid>
+            <pubDate>Fri, 06 Aug 2021 01:04:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：台灣的「民族主義」時刻？]]></title>
@@ -57,25 +71,11 @@
             <pubDate>Wed, 04 Aug 2021 09:20:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[東京奧運：哪國運動服最時尚？日本服由廢料造，德國體操服反「性感化」]]></title>
-            <description><![CDATA[東京奧運除了比賽項目引人入勝，運動員別出心裁旳服裝也是亮點。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58086180</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58086180</guid>
-            <pubDate>Thu, 05 Aug 2021 04:36:53 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[東京奧運：抖音成為新世代運動員與粉絲互動的平台]]></title>
             <description><![CDATA[這些運動員自行製作的短視頻非常受歡迎，讓他們吸納數以十萬計的粉絲，也讓觀眾了解到運動員參與奧運以外私底下有趣的一面。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58085989</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58085989</guid>
             <pubDate>Thu, 05 Aug 2021 01:26:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[東京奧運：台灣代表團1964奧運期間的成員「投共」事件]]></title>
-            <description><![CDATA[日本上次舉辦夏季奧運還是1964年。與本屆發生白俄運動員尋求庇護事件相似，上次東京奧運也發生過轟動一時的台灣隊員馬晴山和攝影師陳覺的「投共」事件。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58086453</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58086453</guid>
-            <pubDate>Wed, 04 Aug 2021 16:10:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中美關係：海外中概股此輪暴跌背後的金融脫鉤爭論]]></title>
@@ -351,6 +351,13 @@
             <pubDate>Sun, 01 Aug 2021 07:30:01 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[東京奧運：台灣代表團1964奧運期間的成員「投共」事件]]></title>
+            <description><![CDATA[日本上次舉辦夏季奧運還是1964年。與本屆發生白俄運動員尋求庇護事件相似，上次東京奧運也發生過轟動一時的台灣隊員馬晴山和攝影師陳覺的「投共」事件。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58086453</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58086453</guid>
+            <pubDate>Wed, 04 Aug 2021 16:10:23 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[新冠疫情：Delta變異病毒在中國大範圍擴散，武漢再現病例1100萬人全民檢測]]></title>
             <description><![CDATA[大部分城市的疫情爆發和南京機場有關，中國將如何控制這次由Delta變種引爆的疫情？疫苗能否發揮效用？]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58067493</link>
@@ -370,6 +377,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58007615</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58007615</guid>
             <pubDate>Thu, 29 Jul 2021 04:37:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[東京奧運：哪國運動服最時尚？日本服由廢料造，德國體操服反「性感化」]]></title>
+            <description><![CDATA[東京奧運除了比賽項目引人入勝，運動員別出心裁旳服裝也是亮點。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58086180</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58086180</guid>
+            <pubDate>Thu, 05 Aug 2021 04:36:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：國際奧委會立案調查白俄田徑選手拒絶回國事件]]></title>
