@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 07 Aug 2021 03:37:25 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Aug 2021 03:38:46 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 07 Aug 2021 03:37:25 GMT</pubDate>
+        <pubDate>Sat, 07 Aug 2021 03:38:45 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -35,6 +35,13 @@
             <pubDate>Sat, 07 Aug 2021 01:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[中國7月以美元計進出口同比增速回落至28.1%和19.3%，均不及預期]]></title>
+            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-CO959_TRADEC_G_20190523142832.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國海關總署周六公布的數據顯示，以美元計，7月份出口同比增速顯著回落至19.3%，進口增速也降至28.1%，雙雙不及市場預期；貿易順差擴大至565.9億美元，稍高於預期。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B7%E6%9C%88%E4%BB%A5%E7%BE%8E%E5%85%83%E8%A8%88%E9%80%B2%E5%87%BA%E5%8F%A3%E5%90%8C%E6%AF%94%E5%A2%9E%E9%80%9F%E5%9B%9E%E8%90%BD%E8%87%B328-1%E5%92%8C19-3%EF%BC%8C%E5%9D%87%E4%B8%8D%E5%8F%8A%E9%A0%90%E6%9C%9F-11628307364</link>
+            <guid isPermaLink="false">CT-CEC-20210807112440</guid>
+            <pubDate>Sat, 07 Aug 2021 03:36:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[華為收入下降38%，美國制裁造成的損害加劇]]></title>
             <description><![CDATA[<img width="1280" height="563" src="https://si.wsj.net/public/resources/images/S1-LL396_0806hu_OR_20210806041318.jpg" class="webfeedsFeaturedVisual" alt=""/><p>華為第二季度收入下降38%，為連續第三個季度下降，而且下降速度自2020年底以來加快。美國制裁對其智能手機和電信設備的銷售造成的損害加劇。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E8%8F%AF%E7%82%BA%E6%94%B6%E5%85%A5%E4%B8%8B%E9%99%8D38%EF%BC%8C%E7%BE%8E%E5%9C%8B%E5%88%B6%E8%A3%81%E9%80%A0%E6%88%90%E7%9A%84%E6%90%8D%E5%AE%B3%E5%8A%A0%E5%8A%87-11628242509</link>
@@ -54,13 +61,6 @@
             <link>https://cn.wsj.com/articles/%E5%AF%8C%E5%A3%AB%E5%BA%B7%E5%AE%A3%E5%B8%83%E6%94%B6%E8%B3%BC%E4%B8%80%E5%AE%B6%E5%8F%B0%E7%81%A3%E5%85%AD%E5%AF%B8%E6%99%B6%E5%9C%93%E5%BB%A0%EF%BC%8C%E5%B8%83%E5%B1%80%E8%BB%8A%E7%94%A8%E6%99%B6%E7%89%87-11628220016</link>
             <guid isPermaLink="false">CT-TEC-20210806110349</guid>
             <pubDate>Sat, 07 Aug 2021 03:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[美國為部分香港居民提供「臨時避風港」]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LK980_USHONG_OR_20210805093214.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國總統拜登周四簽署了一項命令，允許一些香港居民留在美國不用回到香港，理由是北京方面對當地政治自由的打壓。符合該計劃資格的香港人將獲得為期18個月的工作許可，並可暫緩被驅逐出境。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E6%8B%9C%E7%99%BB%E7%B0%BD%E7%BD%B2%E5%91%BD%E4%BB%A4%E5%85%81%E8%A8%B1%E9%83%A8%E5%88%86%E9%A6%99%E6%B8%AF%E5%B1%85%E6%B0%91%E7%95%99%E5%9C%A8%E7%BE%8E%E5%9C%8B-11628208308</link>
-            <guid isPermaLink="false">CT-BGH-20210806074817</guid>
-            <pubDate>Sat, 07 Aug 2021 01:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[強於預期的非農就業報告後，美股大多數走高]]></title>
@@ -84,11 +84,11 @@
             <pubDate>Fri, 06 Aug 2021 04:15:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[美國國會預算辦公室估計基建支出法案將令預算赤字增加2,560億美元]]></title>
-            <description><![CDATA[<img width="1279" height="942" src="https://si.wsj.net/public/resources/images/S1-LL237_INFRA0_OR_20210805163903.jpg" class="webfeedsFeaturedVisual" alt=""/><p>國會的無黨派統計人員發現，大約1兆美元的基建法案將在10年內使聯邦預算赤字增加2,560億美元，這與談判人員聲稱該法案的成本將由新稅收和節約措施彌補的說法相矛盾。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E5%9C%8B%E6%9C%83%E9%A0%90%E7%AE%97%E8%BE%A6%E5%85%AC%E5%AE%A4%E4%BC%B0%E8%A8%88%E5%9F%BA%E5%BB%BA%E6%94%AF%E5%87%BA%E6%B3%95%E6%A1%88%E5%B0%87%E4%BB%A4%E9%A0%90%E7%AE%97%E8%B5%A4%E5%AD%97%E5%A2%9E%E5%8A%A02,560%E5%84%84%E7%BE%8E%E5%85%83-11628208310</link>
-            <guid isPermaLink="false">CT-BGH-20210806075554</guid>
-            <pubDate>Sat, 07 Aug 2021 03:15:00 GMT</pubDate>
+            <title><![CDATA[美國為部分香港居民提供「臨時避風港」]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LK980_USHONG_OR_20210805093214.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國總統拜登周四簽署了一項命令，允許一些香港居民留在美國不用回到香港，理由是北京方面對當地政治自由的打壓。符合該計劃資格的香港人將獲得為期18個月的工作許可，並可暫緩被驅逐出境。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%8B%9C%E7%99%BB%E7%B0%BD%E7%BD%B2%E5%91%BD%E4%BB%A4%E5%85%81%E8%A8%B1%E9%83%A8%E5%88%86%E9%A6%99%E6%B8%AF%E5%B1%85%E6%B0%91%E7%95%99%E5%9C%A8%E7%BE%8E%E5%9C%8B-11628208308</link>
+            <guid isPermaLink="false">CT-BGH-20210806074817</guid>
+            <pubDate>Sat, 07 Aug 2021 01:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中國在線輔導隕落之際，印度在線教育吸引資本關注]]></title>
