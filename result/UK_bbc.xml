@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 07 Aug 2021 07:15:48 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Aug 2021 07:21:55 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[海灣油輪遇襲：美國稱證據指向伊朗造無人機]]></title>
+            <description><![CDATA[美國軍方中央司令部指，爆炸品專家調查後認為，發動襲擊的無人機是在伊朗製造，伊朗早前已經否認發動襲擊。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58126192</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58126192</guid>
+            <pubDate>Sat, 07 Aug 2021 07:18:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[新冠疫情：「成功的受害者」中國能否放棄「清零」與病毒共存 ？]]></title>
             <description><![CDATA[專家認為，中國防疫政策若需改變，官員和民眾必須對病毒和疫苗的作用有清醒認識，並且達成與病毒共存的共識。]]></description>
@@ -141,13 +148,6 @@
             <pubDate>Fri, 30 Jul 2021 01:47:41 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[美國通過一萬億基建預算 再次為疫後復蘇打「強心劑」]]></title>
-            <description><![CDATA[這筆投資將用於交通基礎設施的翻新和改造，大幅增加美國政府在道路、橋樑、交通和機場方面的支出，恢復美國民眾所依賴的至關重要但老化的交通連接。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/business-58046940</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/business-58046940</guid>
-            <pubDate>Sun, 01 Aug 2021 09:15:04 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[東京奧運：獎牌榜上哪個國家或地區領先？]]></title>
             <description><![CDATA[東京奧運會2021年7月23日揭幕，獎牌榜上哪個國家或地區領先？]]></description>
             <link>https://www.bbc.com/zhongwen/trad/57681689</link>
@@ -188,6 +188,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58097696</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58097696</guid>
             <pubDate>Thu, 05 Aug 2021 06:43:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[美國通過一萬億基建預算 再次為疫後復蘇打「強心劑」]]></title>
+            <description><![CDATA[這筆投資將用於交通基礎設施的翻新和改造，大幅增加美國政府在道路、橋樑、交通和機場方面的支出，恢復美國民眾所依賴的至關重要但老化的交通連接。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/business-58046940</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/business-58046940</guid>
+            <pubDate>Sun, 01 Aug 2021 09:15:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[澳門失守現本土新冠病例 抗疫「優等生」面臨挑戰]]></title>
