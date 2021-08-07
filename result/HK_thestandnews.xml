@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-07T10:35:18.647Z</updated>
+    <updated>2021-08-07T10:40:22.867Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -135,9 +135,606 @@
         <title type="html"><![CDATA[【2020 東京奧運】拚盡所有、榮辱與共 — 向香港運動員致敬！]]></title>
         <id>https://www.thestandnews.com/sport/2020-%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E5%90%91%E9%A6%99%E6%B8%AF%E9%81%8B%E5%8B%95%E5%93%A1%E8%87%B4%E6%95%AC-%E6%8B%9A%E7%9B%A1%E6%89%80%E6%9C%89%E6%A6%AE%E8%BE%B1%E8%88%87%E5%85%B1</id>
         <link href="https://www.thestandnews.com/sport/2020-%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E5%90%91%E9%A6%99%E6%B8%AF%E9%81%8B%E5%8B%95%E5%93%A1%E8%87%B4%E6%95%AC-%E6%8B%9A%E7%9B%A1%E6%89%80%E6%9C%89%E6%A6%AE%E8%BE%B1%E8%88%87%E5%85%B1"/>
-        <updated>2021-08-07T10:34:50.561Z</updated>
-        <summary type="html"><![CDATA[																																																	2020 東京奧運，香港派出 46 名運動員出戰，暫已取得一金兩銀兩銅，為港隊史上最佳成績。經過 16 天賽事，有人創出佳績，也有人遺憾落敗，但無論如何，只要拚盡所有，已必定是香港人心目中的世界第一。榮辱與共，同喜同悲，因為我們都是 Team Hong Kong。																		…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/template-09_fmo9z7t.png"></figure><div class="g-body">
+        <updated>2021-08-07T10:38:47.865Z</updated>
+        <summary type="html"><![CDATA[2020 東京奧運，香港派出 46 名運動員出戰，暫已取得一金兩銀兩銅，為港隊史上最佳成績。經過 16 天賽事，有人創出佳績，也有人遺憾落敗，但無論如何，只要拚盡所有，已必定是香港人心目中的世界第一。榮辱與共，同喜同悲，因為我們都是 Team Hong Kong。.g-body {  margin: 0 auto;  padding: 0;  width: 100%;  font-family:…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/template-09_fmo9z7t.png"></figure><div class="g-meta" style="display:none">2020 東京奧運，香港派出 46 名運動員出戰，暫已取得一金兩銀兩銅，為港隊史上最佳成績。經過 16 天賽事，有人創出佳績，也有人遺憾落敗，但無論如何，只要拚盡所有，已必定是香港人心目中的世界第一。榮辱與共，同喜同悲，因為我們都是 Team Hong Kong。</div><style>
+.g-body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  font-family: PingFang HK, Noto Sans TC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  color: #444;
+}
+.g-kicker {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.g-kicker .g-inner {
+  display: inline;
+  padding: 0 2px 5px 2px;
+  border-bottom: 1px solid #d3d3d3;
+}
+.g-header .g-headline {
+  font-family: PingFang HK, Noto Sans TC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 700;
+  margin: 0 auto 25px auto;
+  font-size: 32px;
+  line-height: 1.8;
+  max-width: 720px;
+}
+.g-subhed {
+  font-family: PingFang HK, Noto Sans TC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 700;
+  margin: 60px auto 25px auto;
+  font-size: 24px;
+  max-width: 600px;
+}
+.g-text {
+  font-family: PingFang HK, Noto Sans TC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  max-width: 600px;
+  margin: 16px auto;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+.g-bold {
+  font-weight: 700;
+}
+.g-graphic {
+  margin: 25px auto;
+}
+.g-graphic-text {
+  font-family: PingFang HK, Noto Sans TC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.g-image {
+  margin: 35px auto;
+}
+.g-image img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.g-image .g-credit {
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+  color: #999;
+  display: block;
+}
+.g-refer {
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  background: rgba(253, 232, 0, 0.05);
+  padding: 10px 20px;
+  max-width: 460px;
+  margin: 35px auto;
+}
+.g-refer .g-text {
+  font-size: 12px;
+  margin: 0;
+  line-height: 1.5;
+}
+.g-refer .g-text:first-child {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.g-refer .g-bullet:before {
+  content: "•";
+  position: absolute;
+  margin-left: -10px;
+}
+.g-break {
+  margin: 50px auto;
+  text-align: center;
+}
+.g-break em {
+  margin-right: 40px;
+  text-align: center;
+}
+.g-break em:last-child {
+  margin-right: 0;
+}
+.cover-image-wrapper.mobile,
+.author-wrapper {
+  display: none !important;
+}
+.g-promo {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 25px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.g-promo a {
+  color: #444;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+.g-promo a:hover {
+  opacity: 0.6;
+}
+.g-promo .g-promo-asset-cont,
+.g-promo .g-promo-text-cont {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+@media screen and (min-width: 600px) {
+  .g-promo .g-promo-asset-cont {
+    width: calc(68% - 10px);
+  }
+}
+@media screen and (min-width: 600px) {
+  .g-promo .g-promo-text-cont {
+    width: calc(32% - 10px);
+  }
+}
+.g-promo .g-promo-text-cont {
+  margin-right: 10px;
+}
+.g-promo .g-promo-tag {
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.g-promo .g-promo-hed {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 460px) {
+  .g-promo .g-promo-hed {
+    max-width: none;
+  }
+}
+.g-promo .g-promo-text {
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding: 0 16px;
+}
+@media screen and (min-width: 460px) {
+  .g-promo .g-promo-text {
+    padding: 0;
+  }
+}
+.g-promo .g-youtube-cont {
+  width: 100%;
+  padding-bottom: 56%;
+  position: relative;
+}
+.g-promo .g-youtube-cont iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.g-promo .g-img-cont img {
+  width: 100%;
+}
+.g-promo .g-mobile-hed {
+  display: inline;
+}
+@media screen and (min-width: 460px) {
+  .g-promo .g-mobile-hed {
+    display: none;
+  }
+}
+.g-promo .g-desktop-hed {
+  display: none;
+}
+@media screen and (min-width: 460px) {
+  .g-promo .g-desktop-hed {
+    display: block;
+  }
+}
+.g-note {
+  font-size: 13px;
+  text-align: center;
+  color: #999;
+}
+html,
+body {
+  margin: 0;
+  background: #000;
+  position: relative;
+  background-image: url(https://interactive.thestandnews.com/2021/08/olympics/bg.png);
+}
+.g-disable-scroll {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.g-body {
+  padding-bottom: 50px;
+}
+.g-text-kicker {
+  text-align: center;
+  font-weight: normal;
+  margin: 0 auto 0 auto;
+  font-size: 18px;
+  padding-top: 30px;
+}
+.g-text-hed {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 50px;
+}
+.g-text {
+  text-align: center;
+  padding: 0 20px;
+  color: #fff;
+}
+.g-graphic {
+  margin: 0 auto;
+}
+.g-drawings {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.g-artboard {
+  position: relative;
+}
+.g-artboard img {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s;
+  transition: all 0.3s;
+}
+.g-artboard img.g-ready {
+  opacity: 1;
+}
+.g-artboard img:hover {
+  cursor: pointer;
+}
+.g-artboard img.g-fadeback {
+  filter: brightness(70%);
+}
+.g-artboard img.g-front {
+  transform: scale(1.02);
+}
+.g-artboard.g-artboard-desktop {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .g-artboard.g-artboard-desktop {
+    display: block;
+  }
+}
+.g-artboard.g-artboard-square {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .g-artboard.g-artboard-square {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .g-artboard.g-artboard-square {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .g-artboard.g-artboard-mobile {
+    display: none;
+  }
+}
+.g-lightbox {
+  position: fixed;
+  top: 48px;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  pointer-events: none;
+  opacity: 0;
+}
+@media screen and (min-width: 600px) {
+  .g-lightbox {
+    top: 40px;
+  }
+}
+.g-lightbox .g-lightbox-inner {
+  background: #000000;
+  width: 100%;
+  height: auto;
+  overflow: scroll;
+  overflow-y: scroll;
+  height: 100%;
+  max-height: calc(100%);
+}
+.g-lightbox .g-lightbox-inner {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.g-lightbox .g-lightbox-inner::-webkit-scrollbar {
+  display: none;
+}
+.g-lightbox .g-lightbox-inner-2 {
+  padding-bottom: 100px;
+}
+@media screen and (min-width: 600px) {
+  .g-lightbox .g-lightbox-inner-2 {
+    padding-bottom: 50px;
+  }
+}
+.g-lightbox .g-x {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  color: #fff;
+  font-size: 30px;
+  font-family: PingFang HK, Noto Sans TC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  cursor: pointer;
+  user-select: none;
+}
+.g-lightbox .g-img {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  background: #999;
+}
+.g-lightbox .g-img .g-img-credit {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  font-family: PingFang HK, Noto Sans TC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+.g-lightbox .g-img .g-img-inner {
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+  overflow: hidden;
+}
+.g-lightbox .g-img img {
+  position: absolute;
+  width: 100%;
+}
+.g-lightbox .g-hide {
+  display: none;
+}
+.g-lightbox .g-text {
+  color: #fff;
+  text-align: left;
+  padding: 0;
+}
+.g-lightbox .g-text .g-hide {
+  display: none;
+}
+.g-lightbox .g-sport {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.g-lightbox .g-links {
+  position: relative;
+}
+.g-lightbox .g-links .g-links-inner {
+  padding: 0 20px;
+  padding: 10px 5px;
+  background: #171717;
+  border-radius: 5px;
+  border: 0.5px solid #333333;
+  margin-top: 30px;
+  margin: 0 20px;
+  position: relative;
+}
+@media screen and (min-width: 600px) {
+  .g-lightbox .g-links .g-links-inner {
+    margin: 0;
+  }
+}
+.g-lightbox .g-links .g-links-inner:hover {
+  background: #333;
+  cursor: pointer;
+}
+.g-lightbox .g-links .g-links-inner a,
+.g-lightbox .g-links .g-links-inner a:visited {
+  color: #868686dd;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  text-decoration: none;
+  margin-bottom: 0;
+  padding-left: 5px;
+}
+@media screen and (min-width: 600px) {
+  .g-lightbox .g-links .g-links-inner a,
+  .g-lightbox .g-links .g-links-inner a:visited {
+    padding-left: 10px;
+  }
+}
+.g-lightbox .g-links .g-links-inner b {
+  position: absolute;
+  top: 16px;
+  font-size: 7px;
+  left: 6px;
+}
+@media screen and (min-width: 460px) {
+  .g-lightbox .g-links .g-links-inner b {
+    top: 15px;
+    font-size: 7px;
+    left: 9px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .g-lightbox .g-links {
+    padding: 0;
+  }
+}
+.g-lightbox .g-sport-wrap,
+.g-lightbox .g-text-wrap {
+  padding: 0 20px;
+}
+.g-lightbox .g-sport-wrap:after,
+.g-lightbox .g-text-wrap:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: block;
+  margin: 0 auto;
+}
+@media screen and (min-width: 600px) {
+  .g-lightbox .g-sport-wrap,
+  .g-lightbox .g-text-wrap {
+    padding: 0;
+  }
+}
+.g-lightbox .g-sport-wrap .g-text:last-child,
+.g-lightbox .g-text-wrap .g-text:last-child {
+  margin-bottom: 0;
+}
+.g-lightbox .g-sport-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.g-lightbox .g-sport-wrap-inner {
+  margin: 0 auto;
+}
+@media screen and (min-width: 600px) {
+  .g-lightbox .g-sport-wrap-inner {
+    padding: 0 20px;
+  }
+}
+.g-lightbox .g-text-wrap {
+  background: #464646;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.g-lightbox .g-text-wrap .g-text-text {
+  margin: 0;
+  /* line-height: 1.3; */
+  /* font-size: 15px; */
+  line-height: 1.6;
+  padding: 6px 0;
+}
+@media screen and (min-width: 600px) {
+  .g-lightbox .g-text-wrap .g-text-text {
+    padding: 6px 20px;
+  }
+}
+.g-lightbox .g-bite {
+  font-size: 25px;
+  line-height: 1.3;
+  position: relative;
+  color: #ffcc00;
+  font-weight: 700;
+}
+.g-lightbox .g-bite .g-inner {
+  padding: 0 20px;
+}
+.g-lightbox .g-bite:before,
+.g-lightbox .g-bite:after {
+  content: "“";
+  display: block;
+  position: absolute;
+  right: 0;
+  font-size: 120px;
+  line-height: 1;
+  color: rgba(255, 204, 0, 0.3);
+  top: 0;
+  left: -10px;
+}
+.g-lightbox .g-bite:after {
+  content: "”";
+  right: -10px;
+  left: auto;
+  bottom: -10px;
+  top: auto;
+  line-height: 0;
+}
+.g-lightbox .g-event {
+  margin-top: 0;
+}
+.g-lightbox .g-table {
+  display: table;
+  width: 100%;
+  white-space: nowrap;
+}
+.g-lightbox .g-table .g-tr {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.g-lightbox .g-table .g-td {
+  display: table-cell;
+  width: 50%;
+}
+.g-lightbox .g-table .g-td:last-child {
+  text-align: right;
+}
+.g-lightbox .g-table .g-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.g-lightbox .g-name {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 0;
+  background: #ffcc00;
+  color: #000;
+  text-align: left;
+  margin-bottom: 0;
+  position: relative;
+  padding: 3px 0;
+}
+.g-lightbox .g-name .g-inner {
+  padding: 0 20px;
+}
+.g-lightbox .g-name .g-ig {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  width: 26px;
+}
+.g-lightbox .g-name .g-ig img {
+  width: 100%;
+}
+.g-lightbox.g-active {
+  pointer-events: auto;
+  opacity: 1;
+}
+.ArticleDetail_article--specialLayout__Z5ois header {
+  display: none;
+}
+.ArticleDetail_article--specialLayout__Z5ois,
+.ArticleDetailSpecialLayout_contentContainer__3i4U- {
+  max-width: none;
+}
+.ArticleDetail_articleShareWidget__1M_8z {
+  z-index: 5;
+}
+.g-title {
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.g-title img {
+  width: 95%;
+  margin: 0 auto;
+  display: block;
+}
+.HeaderSubNav_headerSubNav__3_UCL {
+  display: none;
+}
+.g-text-credit {
+  margin-top: 100px;
+  opacity: 0.6;
+}
+.g-text-intro {
+  line-height: 1.5;
+  max-width: 640px;
+}
+.ArticleDetail_articleShareWidget__1M_8z {
+  left: 120px;
+}
+.ArticleTags_root__22wDE {
+  display: none;
+}
+</style>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<div class="g-body">
 	<div class="g-title"><img src="https://interactive.thestandnews.com/2021/08/olympics/olytitle2.png?fcghvjbkn"></div>
 			
 		
@@ -228,7 +825,7 @@
 
 						
 
-						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;Photo by Steph Chambers/Getty Images&quot;,&quot;name&quot;:&quot;林兆恒&quot;,&quot;age&quot;:&quot;24&quot;,&quot;sport&quot;:&quot;乒乓球&quot;,&quot;event&quot;:&quot;男單\n男子團體賽&quot;,&quot;result&quot;:&quot;32 強\n16 強&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;&quot;,&quot;bite&quot;:&quot;都是一分一分打，想辦法慢慢追，提醒自己不要太急&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="林兆恒" data-src="https://interactive.thestandnews.com/2021/08/olympics/林兆恒.png?cgyvuhbijnk" style="left:0.294696104098%;top:23.156497548094%;width:13.812351693551001%">
+						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;Photo by Steph Chambers/Getty Images&quot;,&quot;name&quot;:&quot;林兆恒&quot;,&quot;age&quot;:&quot;24&quot;,&quot;sport&quot;:&quot;乒乓球&quot;,&quot;event&quot;:&quot;男單\n男子團體賽&quot;,&quot;result&quot;:&quot;32 強\n16 強&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;https://www.instagram.com/lsh__lamos/&quot;,&quot;bite&quot;:&quot;都是一分一分打，想辦法慢慢追，提醒自己不要太急&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="林兆恒" data-src="https://interactive.thestandnews.com/2021/08/olympics/林兆恒.png?cgyvuhbijnk" style="left:0.294696104098%;top:23.156497548094%;width:13.812351693551001%">
 
 						
 
@@ -268,7 +865,7 @@
 
 						
 
-						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;&quot;,&quot;name&quot;:&quot;黃鎮廷&quot;,&quot;age&quot;:&quot;29&quot;,&quot;sport&quot;:&quot;乒乓球&quot;,&quot;event&quot;:&quot;混雙\n男單\n男子團體賽&quot;,&quot;result&quot;:&quot;8 強\n32 強\n16 強&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;https://www.instagram.com/tingwong0907&quot;,&quot;bite&quot;:&quot;辛苦這麼久來到這一步，卻未能再向前行一步，很遺憾&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="黃鎮廷" data-src="https://interactive.thestandnews.com/2021/08/olympics/黃鎮廷.png?cgyvuhbijnk" style="left:17.938516142220003%;top:34.965605295783%;width:8.596096653375%">
+						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;&quot;,&quot;name&quot;:&quot;黃鎮廷&quot;,&quot;age&quot;:&quot;29&quot;,&quot;sport&quot;:&quot;乒乓球&quot;,&quot;event&quot;:&quot;混雙\n男單\n男子團體賽&quot;,&quot;result&quot;:&quot;8 強\n32 強\n16 強&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;https://www.instagram.com/tingwong0907&quot;,&quot;bite&quot;:&quot;辛苦這麼久來到這一步，卻未能再向前行一步，很遺憾&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="黃鎮廷" data-src="https://interactive.thestandnews.com/2021/08/olympics/黃鎮廷.png?cgyvuhbijnk" style="left:20.775163713740998%;top:34.030739929205%;width:10.212914415616%">
 
 						
 
@@ -320,7 +917,7 @@
 
 						
 
-						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;AP Photo/Thibault Camus&quot;,&quot;name&quot;:&quot;李海恩&quot;,&quot;age&quot;:&quot;31&quot;,&quot;sport&quot;:&quot;場地單車&quot;,&quot;event&quot;:&quot;女子爭先賽\n凱林賽&quot;,&quot;result&quot;:&quot;\n預賽小組第4&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;&quot;,&quot;bite&quot;:&quot;我曾經問過自己好多次，還能不能夠繼續？現在我很感謝上一次選擇堅持的自己&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="李海恩" data-src="https://interactive.thestandnews.com/2021/08/olympics/李海恩.png?cgyvuhbijnk" style="left:12.800508014261998%;top:50.890522875817%;width:7.717112403775%">
+						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;AP Photo/Thibault Camus&quot;,&quot;name&quot;:&quot;李海恩&quot;,&quot;age&quot;:&quot;31&quot;,&quot;sport&quot;:&quot;場地單車&quot;,&quot;event&quot;:&quot;女子爭先賽\n凱林賽&quot;,&quot;result&quot;:&quot;\n預賽小組第4&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;https://www.instagram.com/jlee_721/&quot;,&quot;bite&quot;:&quot;我曾經問過自己好多次，還能不能夠繼續？現在我很感謝上一次選擇堅持的自己&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="李海恩" data-src="https://interactive.thestandnews.com/2021/08/olympics/李海恩.png?cgyvuhbijnk" style="left:12.800508014261998%;top:50.890522875817%;width:7.717112403775%">
 
 						
 
@@ -452,7 +1049,7 @@
 
 						
 
-						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;Photo by Steph Chambers/Getty Images&quot;,&quot;name&quot;:&quot;林兆恒&quot;,&quot;age&quot;:&quot;24&quot;,&quot;sport&quot;:&quot;乒乓球&quot;,&quot;event&quot;:&quot;男單\n男子團體賽&quot;,&quot;result&quot;:&quot;32 強\n16 強&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;&quot;,&quot;bite&quot;:&quot;都是一分一分打，想辦法慢慢追，提醒自己不要太急&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="林兆恒" data-src="https://interactive.thestandnews.com/2021/08/olympics/林兆恒.png?cgyvuhbijnk" style="left:1.160951976389%;top:19.029429039591%;width:20.171157880996%">
+						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;Photo by Steph Chambers/Getty Images&quot;,&quot;name&quot;:&quot;林兆恒&quot;,&quot;age&quot;:&quot;24&quot;,&quot;sport&quot;:&quot;乒乓球&quot;,&quot;event&quot;:&quot;男單\n男子團體賽&quot;,&quot;result&quot;:&quot;32 強\n16 強&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;https://www.instagram.com/lsh__lamos/&quot;,&quot;bite&quot;:&quot;都是一分一分打，想辦法慢慢追，提醒自己不要太急&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="林兆恒" data-src="https://interactive.thestandnews.com/2021/08/olympics/林兆恒.png?cgyvuhbijnk" style="left:1.160951976389%;top:19.029429039591%;width:20.171157880996%">
 
 						
 
@@ -516,7 +1113,7 @@
 
 						
 
-						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;AP Photo/Thibault Camus&quot;,&quot;name&quot;:&quot;李海恩&quot;,&quot;age&quot;:&quot;31&quot;,&quot;sport&quot;:&quot;場地單車&quot;,&quot;event&quot;:&quot;女子爭先賽\n凱林賽&quot;,&quot;result&quot;:&quot;\n預賽小組第4&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;&quot;,&quot;bite&quot;:&quot;我曾經問過自己好多次，還能不能夠繼續？現在我很感謝上一次選擇堅持的自己&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="李海恩" data-src="https://interactive.thestandnews.com/2021/08/olympics/李海恩.png?cgyvuhbijnk" style="left:0.39334494050999996%;top:60.954682441487996%;width:11.251955457531999%">
+						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;AP Photo/Thibault Camus&quot;,&quot;name&quot;:&quot;李海恩&quot;,&quot;age&quot;:&quot;31&quot;,&quot;sport&quot;:&quot;場地單車&quot;,&quot;event&quot;:&quot;女子爭先賽\n凱林賽&quot;,&quot;result&quot;:&quot;\n預賽小組第4&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;https://www.instagram.com/jlee_721/&quot;,&quot;bite&quot;:&quot;我曾經問過自己好多次，還能不能夠繼續？現在我很感謝上一次選擇堅持的自己&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="李海恩" data-src="https://interactive.thestandnews.com/2021/08/olympics/李海恩.png?cgyvuhbijnk" style="left:0.39334494050999996%;top:60.954682441487996%;width:11.251955457531999%">
 
 						
 
@@ -604,7 +1201,7 @@
 
 						
 
-						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;Photo by Steph Chambers/Getty Images&quot;,&quot;name&quot;:&quot;林兆恒&quot;,&quot;age&quot;:&quot;24&quot;,&quot;sport&quot;:&quot;乒乓球&quot;,&quot;event&quot;:&quot;男單\n男子團體賽&quot;,&quot;result&quot;:&quot;32 強\n16 強&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;&quot;,&quot;bite&quot;:&quot;都是一分一分打，想辦法慢慢追，提醒自己不要太急&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="林兆恒" data-src="https://interactive.thestandnews.com/2021/08/olympics/林兆恒.png?cgyvuhbijnk" style="left:60.486194444445%;top:18.307186351306%;width:22.596735277778%">
+						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;Photo by Steph Chambers/Getty Images&quot;,&quot;name&quot;:&quot;林兆恒&quot;,&quot;age&quot;:&quot;24&quot;,&quot;sport&quot;:&quot;乒乓球&quot;,&quot;event&quot;:&quot;男單\n男子團體賽&quot;,&quot;result&quot;:&quot;32 強\n16 強&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;https://www.instagram.com/lsh__lamos/&quot;,&quot;bite&quot;:&quot;都是一分一分打，想辦法慢慢追，提醒自己不要太急&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="林兆恒" data-src="https://interactive.thestandnews.com/2021/08/olympics/林兆恒.png?cgyvuhbijnk" style="left:60.486194444445%;top:18.307186351306%;width:22.596735277778%">
 
 						
 
@@ -716,7 +1313,7 @@
 
 						
 
-						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;AP Photo/Thibault Camus&quot;,&quot;name&quot;:&quot;李海恩&quot;,&quot;age&quot;:&quot;31&quot;,&quot;sport&quot;:&quot;場地單車&quot;,&quot;event&quot;:&quot;女子爭先賽\n凱林賽&quot;,&quot;result&quot;:&quot;\n預賽小組第4&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;&quot;,&quot;bite&quot;:&quot;我曾經問過自己好多次，還能不能夠繼續？現在我很感謝上一次選擇堅持的自己&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="李海恩" data-src="https://interactive.thestandnews.com/2021/08/olympics/李海恩.png?cgyvuhbijnk" style="left:38.271686951807%;top:60.059843864411%;width:14.329816239307%">
+						<img data-data="{&quot;pic&quot;:&quot;1&quot;,&quot;credit&quot;:&quot;AP Photo/Thibault Camus&quot;,&quot;name&quot;:&quot;李海恩&quot;,&quot;age&quot;:&quot;31&quot;,&quot;sport&quot;:&quot;場地單車&quot;,&quot;event&quot;:&quot;女子爭先賽\n凱林賽&quot;,&quot;result&quot;:&quot;\n預賽小組第4&quot;,&quot;text&quot;:&quot;&quot;,&quot;IG acc&quot;:&quot;https://www.instagram.com/jlee_721/&quot;,&quot;bite&quot;:&quot;我曾經問過自己好多次，還能不能夠繼續？現在我很感謝上一次選擇堅持的自己&quot;,&quot;link_title&quot;:&quot;&quot;,&quot;link_url&quot;:&quot;&quot;}" data-name="李海恩" data-src="https://interactive.thestandnews.com/2021/08/olympics/李海恩.png?cgyvuhbijnk" style="left:38.271686951807%;top:60.059843864411%;width:14.329816239307%">
 
 						
 
@@ -763,6 +1360,13 @@
 		
 		
 		
+					
+		
+		
+		
+		
+		
+		
 			</div>
 
 <div class="g-lightbox">
@@ -791,38 +1395,6 @@
         </author>
         <category label="體育"/>
         <published>2021-08-05T10:01:56.158Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《偶然與想像》— 銀熊獎級的劇本　片名五字道盡人生緣份]]></title>
-        <id>https://www.thestandnews.com/culture/%E5%81%B6%E7%84%B6%E8%88%87%E6%83%B3%E5%83%8F-%E9%8A%80%E7%86%8A%E7%8D%8E%E7%B4%9A%E7%9A%84%E5%8A%87%E6%9C%AC-%E7%89%87%E5%90%8D%E4%BA%94%E5%AD%97%E9%81%93%E7%9B%A1%E4%BA%BA%E7%94%9F%E7%B7%A3%E4%BB%BD</id>
-        <link href="https://www.thestandnews.com/culture/%E5%81%B6%E7%84%B6%E8%88%87%E6%83%B3%E5%83%8F-%E9%8A%80%E7%86%8A%E7%8D%8E%E7%B4%9A%E7%9A%84%E5%8A%87%E6%9C%AC-%E7%89%87%E5%90%8D%E4%BA%94%E5%AD%97%E9%81%93%E7%9B%A1%E4%BA%BA%E7%94%9F%E7%B7%A3%E4%BB%BD"/>
-        <updated>2021-08-07T09:26:32.518Z</updated>
-        <summary type="html"><![CDATA[人生　不過就是「偶然與想像」人生到底是什麼？緣分到底是什麼？與其用琅琅百字描述，倒不用「偶然與想像」五字總結般的精簡而到位。人生，就是由偶然組成的片段，再加上由想像建築的明天；緣分，就是偶然創造的相遇，再加上想像作為信心的關係。榮獲柏林影展評審團大獎銀熊獎作品《偶然與想像 Wheel of Fortune and Fantasy》這部電影，也巧妙地利用了「偶然與想像」，透過三個充滿「偶然性」的小…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/10141A646.png"><figcaption><span>電影《偶然與想像》劇照</span></figcaption></figure><p><strong>人生　不過就是「偶然與想像」</strong></p>
-
-<p>人生到底是什麼？緣分到底是什麼？與其用琅琅百字描述，倒不用「偶然與想像」五字總結般的精簡而到位。人生，就是由偶然組成的片段，再加上由想像建築的明天；緣分，就是偶然創造的相遇，再加上想像作為信心的關係。榮獲柏林影展評審團大獎銀熊獎作品《偶然與想像 Wheel of Fortune and Fantasy》這部電影，也巧妙地利用了「偶然與想像」，透過三個充滿「偶然性」的小故事，卻為觀眾留下無盡的想像空間。我看完電影也不得不承認，能把人情世故拍出如此韻味，確實非日本人莫屬。</p>
-
-<p><strong>「因為我只能傷害愛我的人。」</strong></p>
-
-<p>故事一《魔法》在美妙的偶然下展開。兩個一見如故、一見鍾情的男女，彷彿天生一對的偶像劇開場，誰知男方竟然是女方閨蜜的前度。原本理應浪漫的故事，就在另一個偶然下拐了彎。《魔法》，是一個關於關係，關於分手，也關於放手的故事。曾經的甜言蜜語，偶然發現原來已經換了一個主角；曾經的難離難捨，偶然之下必須作出取捨。《魔法》，既然道出「偶然」就是緣份的魔法，讓兩個互不相識的人走在一起；它也同時道出「偶然」也是離別的魔法，放下一個人不能強求，但到了某個時候，命運就會在偶然間助你鬆開前事的綑綁。《魔法》，是一個不但點題，同時也是一個充斥著哀愁與無奈的故事。</p>
-
-<p><strong>「當有人試圖否定你的價值時，請你反抗。」</strong></p>
-
-<p>故事二《門常開》，講述的是一個女學生試圖引誘教授的故事。故事的開首頗為奇情，成功引導觀眾甚有興趣了解到底教授會否被女學生打動。沒想到，發展下去，卻演化成一場女學生真情訴苦，教授循循善誘開導的故事。「門常開」的教授，卻生性孤獨，不見得有人因此而拜訪；試圖引誘的女學生其實內心寂寞，卻總是欠缺他人關心的幸運。兩個寂寞的人，各自敬重，各自勉勵，讓充滿意外的故事走向，同時為所有寂寞而努力的人注滿了溫暖的鼓勵。有些人，看起來總是孤獨，這不代表他們生性奇怪，也許只是他們在我們看不見的時候一直都默默地努力耕耘。</p>
-
-<p><strong>「因為我們內心都有破口，所以我們才容易交心。」</strong></p>
-
-<p>故事三《再一次》，講述一個舊同學偶然遇上舊友，卻發現背後並非如此簡單的故事。在三個故事中，《再一次》是最透澈地運用了「偶然與想像」概念的故事，也是我個人最喜歡的故事。「再一次」的重點，在於人是否能夠擁有再一次機會去表白曾經沒有宣之於口的心聲呢？在「偶然」之下，故事中的主角都獲得了再一次道出心聲的機會，可是再一次機會，是否就代表擁有陳明心跡的決心，或是又只是坐等下一個「再一次」呢？《再一次》的故事彷彿道出，人生，確實充滿偶然。偶然可以帶來「再一次」，也可以帶來「最後一次」。你的心裡，是否也有塵封多年，並未向他人表白的心聲？如果命運給予你「再一次」機會，你又會否與故事中兩位主角般作出抉擇？《再一次》的故事，算是三個故事中最淡然的一個，但同時又是餘韻最悠長的一個。</p>
-
-<p><strong>命運之輪　緣起緣滅　都歸偶然</strong></p>
-
-<p>電影在每個故事轉場的時候，都刻意加入了一段音樂，才疏學淺的我依稀記得它是一首圓舞曲。導演採用圓舞曲，也許就是想要暗喻命運之輪的不住打轉，並創造出一個又一個偶然。《偶然與想像》憑著充滿想像力與巧思的劇本，創造出三個惹人深思，回味無窮的故事，也同時讓我滿懷感恩地離開電影院，感謝命運的「偶然」讓我能遇上這部平凡而不凡的電影。</p>]]></content>
-        <author>
-            <name>爆米花族</name>
-            <uri>https://www.thestandnews.com/author/%E7%88%86%E7%B1%B3%E8%8A%B1%E6%97%8F</uri>
-        </author>
-        <category label="文化"/>
-        <published>2021-08-07T09:26:32.518Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[教協多招妥協　楊潤雄：終止合作決定經深思熟慮　不輕易改變]]></title>
@@ -864,6 +1436,38 @@
         </author>
         <category label="政治"/>
         <published>2021-08-07T08:27:51.946Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《偶然與想像》— 銀熊獎級的劇本　片名五字道盡人生緣份]]></title>
+        <id>https://www.thestandnews.com/culture/%E5%81%B6%E7%84%B6%E8%88%87%E6%83%B3%E5%83%8F-%E9%8A%80%E7%86%8A%E7%8D%8E%E7%B4%9A%E7%9A%84%E5%8A%87%E6%9C%AC-%E7%89%87%E5%90%8D%E4%BA%94%E5%AD%97%E9%81%93%E7%9B%A1%E4%BA%BA%E7%94%9F%E7%B7%A3%E4%BB%BD</id>
+        <link href="https://www.thestandnews.com/culture/%E5%81%B6%E7%84%B6%E8%88%87%E6%83%B3%E5%83%8F-%E9%8A%80%E7%86%8A%E7%8D%8E%E7%B4%9A%E7%9A%84%E5%8A%87%E6%9C%AC-%E7%89%87%E5%90%8D%E4%BA%94%E5%AD%97%E9%81%93%E7%9B%A1%E4%BA%BA%E7%94%9F%E7%B7%A3%E4%BB%BD"/>
+        <updated>2021-08-07T09:26:32.518Z</updated>
+        <summary type="html"><![CDATA[人生　不過就是「偶然與想像」人生到底是什麼？緣分到底是什麼？與其用琅琅百字描述，倒不用「偶然與想像」五字總結般的精簡而到位。人生，就是由偶然組成的片段，再加上由想像建築的明天；緣分，就是偶然創造的相遇，再加上想像作為信心的關係。榮獲柏林影展評審團大獎銀熊獎作品《偶然與想像 Wheel of Fortune and Fantasy》這部電影，也巧妙地利用了「偶然與想像」，透過三個充滿「偶然性」的小…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/10141A646.png"><figcaption><span>電影《偶然與想像》劇照</span></figcaption></figure><p><strong>人生　不過就是「偶然與想像」</strong></p>
+
+<p>人生到底是什麼？緣分到底是什麼？與其用琅琅百字描述，倒不用「偶然與想像」五字總結般的精簡而到位。人生，就是由偶然組成的片段，再加上由想像建築的明天；緣分，就是偶然創造的相遇，再加上想像作為信心的關係。榮獲柏林影展評審團大獎銀熊獎作品《偶然與想像 Wheel of Fortune and Fantasy》這部電影，也巧妙地利用了「偶然與想像」，透過三個充滿「偶然性」的小故事，卻為觀眾留下無盡的想像空間。我看完電影也不得不承認，能把人情世故拍出如此韻味，確實非日本人莫屬。</p>
+
+<p><strong>「因為我只能傷害愛我的人。」</strong></p>
+
+<p>故事一《魔法》在美妙的偶然下展開。兩個一見如故、一見鍾情的男女，彷彿天生一對的偶像劇開場，誰知男方竟然是女方閨蜜的前度。原本理應浪漫的故事，就在另一個偶然下拐了彎。《魔法》，是一個關於關係，關於分手，也關於放手的故事。曾經的甜言蜜語，偶然發現原來已經換了一個主角；曾經的難離難捨，偶然之下必須作出取捨。《魔法》，既然道出「偶然」就是緣份的魔法，讓兩個互不相識的人走在一起；它也同時道出「偶然」也是離別的魔法，放下一個人不能強求，但到了某個時候，命運就會在偶然間助你鬆開前事的綑綁。《魔法》，是一個不但點題，同時也是一個充斥著哀愁與無奈的故事。</p>
+
+<p><strong>「當有人試圖否定你的價值時，請你反抗。」</strong></p>
+
+<p>故事二《門常開》，講述的是一個女學生試圖引誘教授的故事。故事的開首頗為奇情，成功引導觀眾甚有興趣了解到底教授會否被女學生打動。沒想到，發展下去，卻演化成一場女學生真情訴苦，教授循循善誘開導的故事。「門常開」的教授，卻生性孤獨，不見得有人因此而拜訪；試圖引誘的女學生其實內心寂寞，卻總是欠缺他人關心的幸運。兩個寂寞的人，各自敬重，各自勉勵，讓充滿意外的故事走向，同時為所有寂寞而努力的人注滿了溫暖的鼓勵。有些人，看起來總是孤獨，這不代表他們生性奇怪，也許只是他們在我們看不見的時候一直都默默地努力耕耘。</p>
+
+<p><strong>「因為我們內心都有破口，所以我們才容易交心。」</strong></p>
+
+<p>故事三《再一次》，講述一個舊同學偶然遇上舊友，卻發現背後並非如此簡單的故事。在三個故事中，《再一次》是最透澈地運用了「偶然與想像」概念的故事，也是我個人最喜歡的故事。「再一次」的重點，在於人是否能夠擁有再一次機會去表白曾經沒有宣之於口的心聲呢？在「偶然」之下，故事中的主角都獲得了再一次道出心聲的機會，可是再一次機會，是否就代表擁有陳明心跡的決心，或是又只是坐等下一個「再一次」呢？《再一次》的故事彷彿道出，人生，確實充滿偶然。偶然可以帶來「再一次」，也可以帶來「最後一次」。你的心裡，是否也有塵封多年，並未向他人表白的心聲？如果命運給予你「再一次」機會，你又會否與故事中兩位主角般作出抉擇？《再一次》的故事，算是三個故事中最淡然的一個，但同時又是餘韻最悠長的一個。</p>
+
+<p><strong>命運之輪　緣起緣滅　都歸偶然</strong></p>
+
+<p>電影在每個故事轉場的時候，都刻意加入了一段音樂，才疏學淺的我依稀記得它是一首圓舞曲。導演採用圓舞曲，也許就是想要暗喻命運之輪的不住打轉，並創造出一個又一個偶然。《偶然與想像》憑著充滿想像力與巧思的劇本，創造出三個惹人深思，回味無窮的故事，也同時讓我滿懷感恩地離開電影院，感謝命運的「偶然」讓我能遇上這部平凡而不凡的電影。</p>]]></content>
+        <author>
+            <name>爆米花族</name>
+            <uri>https://www.thestandnews.com/author/%E7%88%86%E7%B1%B3%E8%8A%B1%E6%97%8F</uri>
+        </author>
+        <category label="文化"/>
+        <published>2021-08-07T09:26:32.518Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[「正向認識」國情，所為何事？]]></title>
