@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+  <title>DW.COM</title>
+  <link>https://www.dw.com?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+  <description>News, Analysis and Service from Germany and Europe - in 30 Languages</description>
+  <language>zh</language>
+  <copyright>2021 DW.COM, Deutsche Welle</copyright>
+  <pubDate>Sat, 7 Aug 2021 05:36:19 GMT</pubDate>
+  <lastBuildDate>Sat, 7 Aug 2021 05:36:19 GMT</lastBuildDate>
+  <atom:link href="https://rss.dw.com/xml/podcast_radio_china" rel="self"/>
+  <image>
+   <url>https://static.dw.com/image/2273684_7.jpg</url>
+   <title>DW.COM</title>
+   <link>https://www.dw.com?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+  </image>
+  <itunes:image href="https://static.dw.com/image/2273684_7.jpg"/>
+  <itunes:block>no</itunes:block>
+  <itunes:explicit>clean</itunes:explicit>
+  <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+  <itunes:owner>
+   <itunes:name>DW.COM | Deutsche Welle</itunes:name>
+   <itunes:email>podcasts@dw.com</itunes:email>
+  </itunes:owner>
+  <itunes:subtitle>News, Analysis and Service from Germany and Europe - in 30 Languages</itunes:subtitle>
+  <itunes:summary>News, Analysis and Service from Germany and Europe - in 30 Languages</itunes:summary>
+  <itunes:category text="News">
+   <itunes:category text="Politics"/>
+  </itunes:category>
+  <ttl>10</ttl>
+  <item>
+   <guid isPermaLink="false">58780764</guid>
+   <pubDate>Fri, 6 Aug 2021 12:16:00 GMT</pubDate>
+   <title>汉堡港需要投资 中国人愿意出钱：为何有人不满意？</title>
+   <link>https://www.dw.com/zh/汉堡港需要投资-中国人愿意出钱：为何有人不满意？/av-58780764?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>德国汉堡港需要基建工程，但无力独自承担费用。中国航运巨头中远集团希望入股，并承担部分费用。来自中远的援手，在汉堡港部分企业和工会中却引发不安。</description>
+   <category>经济纵横</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>中德, 德中, 中国, 德国, 汉堡, 中远, 一带一路, 新丝绸之路, 投资</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210806_001_hamburgcosco_sd.mp4" type="video/mp4" length="12615387"/>
+   <itunes:duration>02:34</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58741610</guid>
+   <pubDate>Thu, 5 Aug 2021 11:43:00 GMT</pubDate>
+   <title>尽管场内空空荡荡 他依然热爱奥运</title>
+   <link>https://www.dw.com/zh/尽管场内空空荡荡-他依然热爱奥运/av-58741610?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>没有观众，场馆内空空荡荡，这意味着像Miguel这样的志愿者没有什么事情可做。但在巴西里约首次体验到奥林匹克精神后，他知道自己必须成为东京团队的一员。现在，他也非常享受这段奥运时光！</description>
+   <category>足坛体坛</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>东京奥运, 志愿者, 奥林匹克, 新冠, 疫情, 病毒</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210803_003_olympicvolunt_01v_sd.mp4" type="video/mp4" length="12168706"/>
+   <itunes:duration>02:28</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58757166</guid>
+   <pubDate>Wed, 4 Aug 2021 13:17:00 GMT</pubDate>
+   <title>客座评论：如果美国真想在东南亚赢得民心</title>
+   <link>https://www.dw.com/zh/客座评论：如果美国真想在东南亚赢得民心/av-58757166?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>美国政府高层近日频繁与东南亚国家互动，试图联合应对中国在印太地区的挑战。但英国皇家国际事务研究所（Chatham House）亚洲问题专家Bill Hayton认为，目前华盛顿应该把重点放在另一个议题上。</description>
+   <category>评论分析</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>美国, 中国, 东南亚, 印太, 新冠, 疫情, 疫苗, 拜登, 习近平, Bill Hayton, Chatham House, 英国皇家国际事务研究所</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210804_001_kolumnehaydon_sd.mp4" type="video/mp4" length="9411691"/>
+   <itunes:duration>01:51</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58740077</guid>
+   <pubDate>Tue, 3 Aug 2021 10:17:00 GMT</pubDate>
+   <title>致命野火摧残土耳其南部</title>
+   <link>https://www.dw.com/zh/致命野火摧残土耳其南部/av-58740077?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>致命大火正在土耳其南部蔓延，不少民众家园被毁，还有一些人因此丧生。德国之声记者深入现场，带回第一手报道。</description>
+   <category>新闻广角</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>山火, 野火, 土耳其, 爱琴海, 地中海, 气候变化, 极端天气</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210803_001_turkeyfire_01v_sd.mp4" type="video/mp4" length="10629826"/>
+   <itunes:duration>02:10</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58662077</guid>
+   <pubDate>Sun, 1 Aug 2021 07:35:00 GMT</pubDate>
+   <title>忘掉特斯拉吧！太阳能电动车来了</title>
+   <link>https://www.dw.com/zh/忘掉特斯拉吧！太阳能电动车来了/av-58662077?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>这可不是普通的电动汽车，而是利用太阳能的新科技。在慕尼黑一个工业园区，德国一家初创公司展示了一款更环保的汽车。</description>
+   <category>科技环境</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>电动车, 太阳能, 新科技, 初创公司, 环保, 汽车</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210727_001_fbaa1sion_sd.mp4" type="video/mp4" length="6824867"/>
+   <itunes:duration>01:21</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58690237</guid>
+   <pubDate>Thu, 29 Jul 2021 12:14:00 GMT</pubDate>
+   <title>上帝视角：永远飘浮的气球空拍机</title>
+   <link>https://www.dw.com/zh/上帝视角：永远飘浮的气球空拍机/av-58690237?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>科技的日新月异，让空拍机永远飘浮空中变成可能。这台靠氦气球飞行的无人空拍机利用太阳能充电并可持续飘浮，从“上帝的视角”拍摄各种美丽景致。</description>
+   <category>科技环境</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>航拍机, 空拍机, 氦气球, 太阳能, 平流层</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210729_001_drone_01r_sd.mp4" type="video/mp4" length="6766918"/>
+   <itunes:duration>01:21</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58687252</guid>
+   <pubDate>Thu, 29 Jul 2021 10:55:00 GMT</pubDate>
+   <title>德国灾后重建 难民组团当志工</title>
+   <link>https://www.dw.com/zh/德国灾后重建-难民组团当志工/av-58687252?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>德国西部洪灾过后，大量志愿者前往灾区协助清理淤泥，其中也不乏难民的身影。一些难民自发组织了志工小组协助灾区重建，以此报答德国在难民危机中所伸出的援手。</description>
+   <category>科技环境</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>难民, 志工, 德国洪灾, 灾后重建</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210729_001_syrerhelfen_01r_sd.mp4" type="video/mp4" length="14654740"/>
+   <itunes:duration>03:00</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58675220</guid>
+   <pubDate>Wed, 28 Jul 2021 13:46:00 GMT</pubDate>
+   <title>滑板车落伍了！试试轻巧时尚的电动滑板</title>
+   <link>https://www.dw.com/zh/滑板车落伍了！试试轻巧时尚的电动滑板/av-58675220?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>这款电动滑板续航力可达7公里，体积小而且携带方便。它是否能取代电动滑板车，成为街头代步的新趋势？</description>
+   <category>科技环境</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>电动滑板, 滑板车, 交通, 环保, Walkcar</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210728_001_walkcar_01r_sd.mp4" type="video/mp4" length="6878839"/>
+   <itunes:duration>01:19</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58648104</guid>
+   <pubDate>Tue, 27 Jul 2021 13:23:00 GMT</pubDate>
+   <title>退货的结局是销毁？亚马逊仓库遭遇指责</title>
+   <link>https://www.dw.com/zh/退货的结局是销毁？亚马逊仓库遭遇指责/av-58648104?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>亚马逊一个物流中心销毁新品的画面令公众愤怒。德国明令禁止销毁完好无损的商品。但是，人们会遵守吗？疫情造成的库存积压又怎么办呢？</description>
+   <category>经济纵横</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>亚马逊, 物流中心, 销毁, 新品, 德国, 商品, 库存, 积压, 新衣服, 环保, 网络购物, 退货, 可持续发展</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210726_001_30386amazon_sd.mp4" type="video/mp4" length="8039626"/>
+   <itunes:duration>01:39</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58614239</guid>
+   <pubDate>Sun, 25 Jul 2021 08:23:00 GMT</pubDate>
+   <title>洪灾过后 素不相识的志愿者伸出援手</title>
+   <link>https://www.dw.com/zh/洪灾过后-素不相识的志愿者伸出援手/av-58614239?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>德国西部的洪灾过后，风景如画的小镇满目疮痍。不过，面对堆积成山的废墟，当地居民并没有孤立无援。除了专业的救灾队伍，许多素不相识的志愿者也伸出援手。</description>
+   <category>德国新闻</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>德国洪灾, 洪水, 灾区, 山洪, 志愿者</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210723_001_a2984solidaritaet_sd.mp4" type="video/mp4" length="7052379"/>
+   <itunes:duration>01:26</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58614772</guid>
+   <pubDate>Fri, 23 Jul 2021 14:12:00 GMT</pubDate>
+   <title>来德国是为了逃命 去东京是为了梦想</title>
+   <link>https://www.dw.com/zh/来德国是为了逃命-去东京是为了梦想/av-58614772?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>本届东京奥运会与残奥会上，有29名难民运动员参赛，他们并不代表自己的祖国。因为宗教原因流亡德国的伊朗运动员Saeid Fazloula就是其中之一。</description>
+   <category>足坛体坛</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>东京奥运, 难民, 伊朗, 流亡</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210723_001_1eb2brefugeeolympics_sd.mp4" type="video/mp4" length="11731309"/>
+   <itunes:duration>02:19</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58581747</guid>
+   <pubDate>Wed, 21 Jul 2021 14:14:00 GMT</pubDate>
+   <title>疫苗换泡芙 台湾立陶宛礼尚往来</title>
+   <link>https://www.dw.com/zh/疫苗换泡芙-台湾立陶宛礼尚往来/av-58581747?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>台湾一家食品企业，用两个集装箱的甜品回赠立陶宛，以答谢这个波罗的海小国此前捐赠的2万剂新冠疫苗。立陶宛和台湾即将互设代表处。</description>
+   <category>时政风云</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>台湾, 立陶宛, 疫苗, 外交, 泡芙</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210721_001_09acdtwcookie_sd.mp4" type="video/mp4" length="9854606"/>
+   <itunes:duration>02:02</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58318301</guid>
+   <pubDate>Mon, 19 Jul 2021 13:42:00 GMT</pubDate>
+   <title>德总理候选人灾情现场嬉笑引众怒</title>
+   <link>https://www.dw.com/zh/德总理候选人灾情现场嬉笑引众怒/av-58318301?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>德国联邦总统施泰因迈尔在德国西部视察洪水灾情发表讲话时，基民盟总理候选人、北威州州长拉谢特站在背后与旁人聊天哈哈大笑，引发公众愤怒。拉谢特公开表达歉意。</description>
+   <category>德国新闻</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>Laschet, 拉舍特, 洪灾, 山洪, 洪水, 救灾</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210719_001_77d43laschet_sd.mp4" type="video/mp4" length="6174538"/>
+   <itunes:duration>01:10</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58277984</guid>
+   <pubDate>Sun, 18 Jul 2021 07:05:00 GMT</pubDate>
+   <title>怎样对领导说真话？</title>
+   <link>https://www.dw.com/zh/怎样对领导说真话？/av-58277984?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>同领导意见不一时，怎么跟他说？会不会被炒了鱿鱼？现在告你几个招数。</description>
+   <category>文化经纬</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>老板, 领导, 真话, 诚实</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210715_002_leader_01r_sd.mp4" type="video/mp4" length="16099714"/>
+   <itunes:duration>03:13</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58254250</guid>
+   <pubDate>Sat, 17 Jul 2021 09:09:00 GMT</pubDate>
+   <title>腐败是怎样产生的？</title>
+   <link>https://www.dw.com/zh/腐败是怎样产生的？/av-58254250?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>大概从有人起，就有腐败了。然而究竟什么是腐败？又该如何对抗腐败呢？</description>
+   <category>文化经纬</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>腐败, 贿赂, 受贿, 行贿, 贪污, 古代, 文明, 文化, 社会</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210713_001_6800dkorruption_sd.mp4" type="video/mp4" length="12676084"/>
+   <itunes:duration>02:37</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58291950</guid>
+   <pubDate>Sat, 17 Jul 2021 07:24:00 GMT</pubDate>
+   <title>“千面总理”默克尔</title>
+   <link>https://www.dw.com/zh/千面总理-默克尔/av-58291950?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>在默克尔担任德国总理的这16年里，关于她的艺术创作层出不穷。在7月17日她67岁生日之际，我们选出一些她最著名的肖像作品呈现给大家。</description>
+   <category>文化经纬</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>总理, 默克尔, 画像, 肖像画, 艺术, 创作, 德国总理</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210716_001_0dec8merkel2_sd.mp4" type="video/mp4" length="5235033"/>
+   <itunes:duration>01:00</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58280600</guid>
+   <pubDate>Thu, 15 Jul 2021 14:23:00 GMT</pubDate>
+   <title>美国前总统布什接受DW采访谈中国</title>
+   <link>https://www.dw.com/zh/美国前总统布什接受dw采访谈中国/av-58280600?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>布什认为，中国的问题是越发威权化。他在任时每次访华必谈人权，但是以一种不让对方尴尬、不激怒对方的方式进行。</description>
+   <category>时政风云</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>布什, 中国, 人权, 宗教自由</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210715_001_inesbush_01r_sd.mp4" type="video/mp4" length="6541806"/>
+   <itunes:duration>01:17</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58269231</guid>
+   <pubDate>Thu, 15 Jul 2021 08:51:00 GMT</pubDate>
+   <title>帅哥美女才是标准？这个摄影师偏不信！</title>
+   <link>https://www.dw.com/zh/帅哥美女才是标准？这个摄影师偏不信！/av-58269231?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>“人们只是说，我们应该赞美自己。减肥是件好事，它会使我们更漂亮。我们都是听这样的话长大的。你当然可以赞美自己 但不应该是因为你重了或是轻了。”</description>
+   <category>文化经纬</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>Instagram, tiktok, 抖音, 社交媒体, 摄影, 潮流</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210714_001_schoenheitsideal_sd.mp4" type="video/mp4" length="13604593"/>
+   <itunes:duration>02:44</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58264538</guid>
+   <pubDate>Wed, 14 Jul 2021 13:04:00 GMT</pubDate>
+   <title>苹果日报最终章：香港敢言媒体的殒落</title>
+   <link>https://www.dw.com/zh/苹果日报最终章：香港敢言媒体的殒落/av-58264538?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>有26年历史的香港《苹果日报》，遭港府引用国安法冻结资产后被迫停刊。这把中国治下最敢言的异议声音，曾经是一国两制的言论自由象征；但在香港实施国安法不足一年，就走进历史。德国之声近距离记录两位留守最后的苹果日报记者，探讨在今天的香港，记者如何在时代剧变中自处？前方还有没有去路？</description>
+   <category>时政风云</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>苹果日报, 媒体, 香港, 黎智英, 一国两制, 港区国安法, 新闻自由</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210714_001_appledaily_sd.mp4" type="video/mp4" length="70701975"/>
+   <itunes:duration>14:27</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58255409</guid>
+   <pubDate>Tue, 13 Jul 2021 15:52:00 GMT</pubDate>
+   <title>“他娶了另一位妻子后 我们的婚姻变精彩了”</title>
+   <link>https://www.dw.com/zh/他娶了另一位妻子后-我们的婚姻变精彩了/av-58255409?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>在结婚前，Tiqa是反对一夫多妻的。然而后来，她改变了想法，并主动为丈夫纳二房。让我们来听听这位马来西亚女性的故事。</description>
+   <category>文化经纬</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>婚姻, 一夫多妻, 一夫一妻, 妻子, 丈夫, 二房, 马来西亚, 女性, 社会, 文化</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210713_001_786e9polygamytiqa_sd.mp4" type="video/mp4" length="15743912"/>
+   <itunes:duration>03:13</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58217058</guid>
+   <pubDate>Fri, 9 Jul 2021 11:29:00 GMT</pubDate>
+   <title>这些家伙正在入侵印度</title>
+   <link>https://www.dw.com/zh/这些家伙正在入侵印度/av-58217058?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>这种红耳龟原产于北美洲，在印度是一种很流行的宠物。不幸的是，一旦主人对它们感到厌倦，就会把它们扔到野外。这对当地生态系统造成了不利影响。</description>
+   <category>科技环境</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>印度, 外来物种, 红耳滑龟, 生态, 多样性, 宠物, 弃养</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210709_001_turtleindia_sd.mp4" type="video/mp4" length="11554869"/>
+   <itunes:duration>02:15</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58096313</guid>
+   <pubDate>Sun, 4 Jul 2021 07:40:00 GMT</pubDate>
+   <title>树皮做衣服 时尚又环保</title>
+   <link>https://www.dw.com/zh/树皮做衣服-时尚又环保/av-58096313?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>树皮衣是乌干达的一项独特传统工艺，也是世界非物质文化遗产。在乌干达西南部村庄，村民们循环利用树木制作“可再生布料”，发展永续新时尚。</description>
+   <category>文化经纬</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>乌干达, 树皮衣, 可持续发展, 传统工艺, 非物质文化遗产</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210629_001_uganda_01r_sd.mp4" type="video/mp4" length="10408447"/>
+   <itunes:duration>02:08</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58141306</guid>
+   <pubDate>Sat, 3 Jul 2021 07:42:00 GMT</pubDate>
+   <title>外媒记者走访上海干部学院</title>
+   <link>https://www.dw.com/zh/外媒记者走访上海干部学院/av-58141306?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>为了确保党员们在意识形态上与中共领导层保持一致，党员们会定期参加培训课程。德国之声记者Mathias Bölinger参观了上海一家干部学院。</description>
+   <category>所有节目</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>中共, 党员, 干部, 上海</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210702_001_15301bchi_210702_shanghai_sd.mp4" type="video/mp4" length="15033169"/>
+   <itunes:duration>03:03</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58126148</guid>
+   <pubDate>Thu, 1 Jul 2021 14:23:00 GMT</pubDate>
+   <title>新冠期间 飞行员们在干嘛？</title>
+   <link>https://www.dw.com/zh/新冠期间-飞行员们在干嘛？/av-58126148?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>新冠大流行发生后，数以千计的飞行员被解雇或被安排减少工时。在德国，有那么一批飞行员已经在向全新的方向发展。</description>
+   <category>经济纵横</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>新冠, 航空, 飞行员, 失业, 重新就业, 经济, 德国, 汉莎航空, 廉价航空, MBA</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210701_001_aa9c1corona-pilot_sd.mp4" type="video/mp4" length="15738862"/>
+   <itunes:duration>03:11</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58078642</guid>
+   <pubDate>Tue, 29 Jun 2021 12:35:00 GMT</pubDate>
+   <title>小鸡的力量</title>
+   <link>https://www.dw.com/zh/小鸡的力量/av-58078642?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>在秘鲁干燥、贫瘠的沙漠中，一片巨大的柑橘林横空出世。而这要感谢一些伟大的创意，还有600万只小鸡。</description>
+   <category>科技环境</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>秘鲁, 生态, 养殖, 小鸡, 生物炭, 柑橘, 环保</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210628_001_chickenpower_sd.mp4" type="video/mp4" length="8214499"/>
+   <itunes:duration>01:38</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58089204</guid>
+   <pubDate>Tue, 29 Jun 2021 08:35:00 GMT</pubDate>
+   <title>买房梦距离德国人越来越遥远</title>
+   <link>https://www.dw.com/zh/买房梦距离德国人越来越遥远/av-58089204?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>在过去20年里，德国年轻人拥有房产的比例直线下降。一项调查显示，德国拥有房产的居民比例在全欧盟最低。主要原因还是房价太高，和较高的贷款门槛。</description>
+   <category>经济纵横</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>德国, 房地产, 买房, 贷款</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210629_001_5b1f0houseneu_sd.mp4" type="video/mp4" length="8854429"/>
+   <itunes:duration>01:47</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58049746</guid>
+   <pubDate>Sat, 26 Jun 2021 06:16:00 GMT</pubDate>
+   <title>亲历奥兰多枪击案后 她成为急救员</title>
+   <link>https://www.dw.com/zh/亲历奥兰多枪击案后-她成为急救员/av-58049746?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>在五年前发生的奥兰多同志酒吧「脉动」枪击案中，阿曼达身中四枪，与死神擦肩而过。 今天，她成为一名急救员，希望能够挽救更多人的生命。 而自己心灵上的伤痕，却永难愈合。</description>
+   <category>时政风云</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>奥兰多枪击案, 幸存者, 美国, 仇恨, 同性恋, LGBTQ</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210625_001_0cbe0orlando_sd.mp4" type="video/mp4" length="15871090"/>
+   <itunes:duration>03:09</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58002640</guid>
+   <pubDate>Tue, 22 Jun 2021 14:29:00 GMT</pubDate>
+   <title>「媽媽，我不能呼吸了！」</title>
+   <link>https://www.dw.com/zh/「媽媽，我不能呼吸了！」/av-58002640?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>在印尼首都雅加達，由於空氣污染嚴重，5岁的小男孩齊丹差點因爲哮喘而喪命。她的媽媽對記者說：「我每天都活在恐懼之中。」</description>
+   <category>科技环境</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>空气污染, 印尼, 哮喘</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210622_001_cc295indonesiaboy_sd.mp4" type="video/mp4" length="19284209"/>
+   <itunes:duration>03:58</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">57983184</guid>
+   <pubDate>Mon, 21 Jun 2021 14:23:00 GMT</pubDate>
+   <title>儿童画笔下的疫情世界</title>
+   <link>https://www.dw.com/zh/儿童画笔下的疫情世界/av-57983184?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>孩子眼中的新冠疫情是什么模样？来自世界各地的300多名儿童参加了德国之声的绘画比赛，用画笔绘出他们在新冠疫情时期的所思所想。</description>
+   <category>所有节目</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>新冠疫情, 绘画, 儿童</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210621_001_childrendrawings_01r_sd.mp4" type="video/mp4" length="16706747"/>
+   <itunes:duration>03:26</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">57887378</guid>
+   <pubDate>Sun, 20 Jun 2021 07:42:00 GMT</pubDate>
+   <title>边开车边充电？电动车未来可期！</title>
+   <link>https://www.dw.com/zh/边开车边充电？电动车未来可期！/av-57887378?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>在未来，电动车将可以做到边开车边充电。德国研究人员正在测试这项新技术。</description>
+   <category>科技环境</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>开车, 充电, 电动车, 感应充电, 科技, 技术, 电池</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210614_001_3b041eauto_sd.mp4" type="video/mp4" length="7790031"/>
+   <itunes:duration>01:34</itunes:duration>
+  </item>
+ </channel>
+</rss>
