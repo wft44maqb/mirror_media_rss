@@ -6,8 +6,8 @@
   <description>News, Analysis and Service from Germany and Europe - in 30 Languages</description>
   <language>zh</language>
   <copyright>2021 DW.COM, Deutsche Welle</copyright>
-  <pubDate>Sat, 7 Aug 2021 07:15:13 GMT</pubDate>
-  <lastBuildDate>Sat, 7 Aug 2021 07:15:13 GMT</lastBuildDate>
+  <pubDate>Sat, 7 Aug 2021 07:20:30 GMT</pubDate>
+  <lastBuildDate>Sat, 7 Aug 2021 07:20:30 GMT</lastBuildDate>
   <atom:link href="https://rss.dw.com/xml/podcast_radio_china" rel="self"/>
   <image>
    <url>https://static.dw.com/image/2273684_7.jpg</url>
@@ -28,6 +28,19 @@
    <itunes:category text="Politics"/>
   </itunes:category>
   <ttl>10</ttl>
+  <item>
+   <guid isPermaLink="false">58766897</guid>
+   <pubDate>Sat, 7 Aug 2021 07:15:00 GMT</pubDate>
+   <title>新冠重症患者：死里逃生之后</title>
+   <link>https://www.dw.com/zh/新冠重症患者：死里逃生之后/av-58766897?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>来自印度德里的Deepak Agarwahl很高兴能逃过一劫，虽然感染新冠病毒，但最终战胜病情。但是，现在他却依然要和新冠的长期后果做斗争。在家人的帮助下，他慢慢回归正常生活。</description>
+   <category>新闻广角</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>新冠, 疫情, 病毒, 重症, 印度, 后遗症, 加护病房</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210805_001_longcovid_sd.mp4" type="video/mp4" length="14916644"/>
+   <itunes:duration>02:57</itunes:duration>
+  </item>
   <item>
    <guid isPermaLink="false">58780764</guid>
    <pubDate>Fri, 6 Aug 2021 12:16:00 GMT</pubDate>
@@ -404,19 +417,6 @@
    <itunes:explicit>clean</itunes:explicit>
    <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210621_001_childrendrawings_01r_sd.mp4" type="video/mp4" length="16706747"/>
    <itunes:duration>03:26</itunes:duration>
-  </item>
-  <item>
-   <guid isPermaLink="false">57887378</guid>
-   <pubDate>Sun, 20 Jun 2021 07:42:00 GMT</pubDate>
-   <title>边开车边充电？电动车未来可期！</title>
-   <link>https://www.dw.com/zh/边开车边充电？电动车未来可期！/av-57887378?maca=chi-podcast_radio_china-1169-xml-mrss</link>
-   <description>在未来，电动车将可以做到边开车边充电。德国研究人员正在测试这项新技术。</description>
-   <category>科技环境</category>
-   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
-   <itunes:keywords>开车, 充电, 电动车, 感应充电, 科技, 技术, 电池</itunes:keywords>
-   <itunes:explicit>clean</itunes:explicit>
-   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210614_001_3b041eauto_sd.mp4" type="video/mp4" length="7790031"/>
-   <itunes:duration>01:34</itunes:duration>
   </item>
  </channel>
 </rss>
