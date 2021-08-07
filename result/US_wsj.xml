@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 07 Aug 2021 00:14:56 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Aug 2021 03:36:02 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 07 Aug 2021 00:14:55 GMT</pubDate>
+        <pubDate>Sat, 07 Aug 2021 03:36:01 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -28,39 +28,46 @@
         <category><![CDATA[華爾街日報中文網]]></category>
         <category><![CDATA[Wall Street Journal]]></category>
         <item>
-            <title><![CDATA[中國反壟斷監管機構計劃對美團罰款約10億美元]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LL394_cfine_OR_20210806034753.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據了解情況的人士透露，中國反壟斷監管機構準備對美團處以約10億美元的罰款，因其涉嫌濫用市場支配地位，損害商家和競爭對手的利益。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E5%8F%8D%E5%A3%9F%E6%96%B7%E7%9B%A3%E7%AE%A1%E6%A9%9F%E6%A7%8B%E8%A8%88%E5%8A%83%E5%B0%8D%E7%BE%8E%E5%9C%98%E7%BD%B0%E6%AC%BE%E7%B4%8410%E5%84%84%E7%BE%8E%E5%85%83-11628242811</link>
-            <guid isPermaLink="false">CT-BIZ-20210806173027</guid>
-            <pubDate>Fri, 06 Aug 2021 11:55:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[華為收入下降38%，美國制裁造成的損害加劇]]></title>
-            <description><![CDATA[<img width="1280" height="563" src="https://si.wsj.net/public/resources/images/S1-LL396_0806hu_OR_20210806041318.jpg" class="webfeedsFeaturedVisual" alt=""/><p>華為周五公布，季度收入下降了38%，美國制裁對其智能手機和電信設備的銷售造成的損害加劇。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E8%8F%AF%E7%82%BA%E6%94%B6%E5%85%A5%E4%B8%8B%E9%99%8D38%EF%BC%8C%E7%BE%8E%E5%9C%8B%E5%88%B6%E8%A3%81%E9%80%A0%E6%88%90%E7%9A%84%E6%90%8D%E5%AE%B3%E5%8A%A0%E5%8A%87-11628242509</link>
-            <guid isPermaLink="false">CT-BIZ-20210806172107</guid>
-            <pubDate>Fri, 06 Aug 2021 12:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[中國行業整頓初露鋒芒，市場面臨更多風雨]]></title>
             <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LK995_0805CR_OR_20210805101208.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國政府在推動民營企業更多地服務於中共在經濟、社會和國家安全上的關切事項，此舉引發了市場動蕩。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E8%A1%8C%E6%A5%AD%E6%95%B4%E9%A0%93%E5%88%9D%E9%9C%B2%E9%8B%92%E8%8A%92%EF%BC%8C%E5%B8%82%E5%A0%B4%E9%9D%A2%E8%87%A8%E6%9B%B4%E5%A4%9A%E9%A2%A8%E9%9B%A8-11628231714</link>
             <guid isPermaLink="false">CT-BCH-20210806140023</guid>
-            <pubDate>Fri, 06 Aug 2021 09:45:00 GMT</pubDate>
+            <pubDate>Sat, 07 Aug 2021 01:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[華為收入下降38%，美國制裁造成的損害加劇]]></title>
+            <description><![CDATA[<img width="1280" height="563" src="https://si.wsj.net/public/resources/images/S1-LL396_0806hu_OR_20210806041318.jpg" class="webfeedsFeaturedVisual" alt=""/><p>華為第二季度收入下降38%，為連續第三個季度下降，而且下降速度自2020年底以來加快。美國制裁對其智能手機和電信設備的銷售造成的損害加劇。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E8%8F%AF%E7%82%BA%E6%94%B6%E5%85%A5%E4%B8%8B%E9%99%8D38%EF%BC%8C%E7%BE%8E%E5%9C%8B%E5%88%B6%E8%A3%81%E9%80%A0%E6%88%90%E7%9A%84%E6%90%8D%E5%AE%B3%E5%8A%A0%E5%8A%87-11628242509</link>
+            <guid isPermaLink="false">CT-BIZ-20210806172107</guid>
+            <pubDate>Sat, 07 Aug 2021 03:20:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中國反壟斷監管機構計劃對美團罰款約10億美元]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LL394_cfine_OR_20210806034753.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據了解情況的人士透露，中國反壟斷監管機構準備對美團處以約10億美元的罰款，因其涉嫌濫用市場支配地位，損害商家和競爭對手的利益。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E5%8F%8D%E5%A3%9F%E6%96%B7%E7%9B%A3%E7%AE%A1%E6%A9%9F%E6%A7%8B%E8%A8%88%E5%8A%83%E5%B0%8D%E7%BE%8E%E5%9C%98%E7%BD%B0%E6%AC%BE%E7%B4%8410%E5%84%84%E7%BE%8E%E5%85%83-11628242811</link>
+            <guid isPermaLink="false">CT-BIZ-20210806173027</guid>
+            <pubDate>Sat, 07 Aug 2021 01:05:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[富士康宣布收購一家台灣六寸晶圓廠，布局車用晶片]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LK945_FOXCON_OR_20210805072601.jpg" class="webfeedsFeaturedVisual" alt=""/><p>全球最大的電子產品代工商富士康宣布收購一家晶圓製造廠，在全球晶片供應空前緊張的情況下深化晶片業務。通過這項交易，富士康將能夠切入生產正迅速成為電動汽車行業領先技術的半導體產品。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E5%AF%8C%E5%A3%AB%E5%BA%B7%E5%AE%A3%E5%B8%83%E6%94%B6%E8%B3%BC%E4%B8%80%E5%AE%B6%E5%8F%B0%E7%81%A3%E5%85%AD%E5%AF%B8%E6%99%B6%E5%9C%93%E5%BB%A0%EF%BC%8C%E5%B8%83%E5%B1%80%E8%BB%8A%E7%94%A8%E6%99%B6%E7%89%87-11628220016</link>
             <guid isPermaLink="false">CT-TEC-20210806110349</guid>
-            <pubDate>Fri, 06 Aug 2021 03:20:00 GMT</pubDate>
+            <pubDate>Sat, 07 Aug 2021 03:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[美國為部分香港居民提供「臨時避風港」]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LK980_USHONG_OR_20210805093214.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國總統拜登周四簽署了一項命令，允許一些香港居民留在美國不用回到香港，理由是北京方面對當地政治自由的打壓。符合該計劃資格的香港人將獲得為期18個月的工作許可，並可暫緩被驅逐出境。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E6%8B%9C%E7%99%BB%E7%B0%BD%E7%BD%B2%E5%91%BD%E4%BB%A4%E5%85%81%E8%A8%B1%E9%83%A8%E5%88%86%E9%A6%99%E6%B8%AF%E5%B1%85%E6%B0%91%E7%95%99%E5%9C%A8%E7%BE%8E%E5%9C%8B-11628208308</link>
             <guid isPermaLink="false">CT-BGH-20210806074817</guid>
-            <pubDate>Fri, 06 Aug 2021 02:25:00 GMT</pubDate>
+            <pubDate>Sat, 07 Aug 2021 01:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[強於預期的非農就業報告後，美股大多數走高]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LL388_0806pa_OR_20210806031613.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美股大多走高，非農就業報告超預期顯示經濟繼續反彈，但也引發了對美聯儲政策的新質疑。道指和標普500指數再創新高，但漲幅不大。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%BC%B7%E6%96%BC%E9%A0%90%E6%9C%9F%E7%9A%84%E9%9D%9E%E8%BE%B2%E5%B0%B1%E6%A5%AD%E5%A0%B1%E5%91%8A%E5%BE%8C%EF%BC%8C%E7%BE%8E%E8%82%A1%E5%A4%A7%E5%A4%9A%E6%95%B8%E8%B5%B0%E9%AB%98-11628295911</link>
+            <guid isPermaLink="false">CT-MKT-20210807080214</guid>
+            <pubDate>Sat, 07 Aug 2021 03:20:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[美國30多個商業團體呼籲拜登重啟對華貿易談判]]></title>
@@ -77,46 +84,39 @@
             <pubDate>Fri, 06 Aug 2021 04:15:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[美股全線上漲，標普500指數和納指再創新高]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LK916_0805pa_OR_20210805031946.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國股市周四全線上揚，銀行、科技和旅遊類股聯袂上漲。標普500指數創下今年第43個紀錄收盤點位。納指在2021年創下了27次收盤紀錄。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%BE%8E%E8%82%A1%E5%85%A8%E7%B7%9A%E4%B8%8A%E6%BC%B2%EF%BC%8C%E6%A8%99%E6%99%AE500%E6%8C%87%E6%95%B8%E5%92%8C%E7%B4%8D%E6%8C%87%E5%86%8D%E5%89%B5%E6%96%B0%E9%AB%98-11628205910</link>
-            <guid isPermaLink="false">CT-MKT-20210806071221</guid>
-            <pubDate>Fri, 06 Aug 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[美國國會預算辦公室估計基建支出法案將令預算赤字增加2,560億美元]]></title>
-            <description><![CDATA[<img width="1279" height="942" src="https://si.wsj.net/public/resources/images/S1-LL237_INFRA0_OR_20210805163903.jpg" class="webfeedsFeaturedVisual" alt=""/><p>國會的無黨派統計人員發現，大約1兆美元的基礎設施法案將在10年內使聯邦預算赤字增加2,560億美元，這與談判人員聲稱這項法案的成本將由新稅收和節約措施彌補的說法相矛盾。</p>]]></description>
+            <description><![CDATA[<img width="1279" height="942" src="https://si.wsj.net/public/resources/images/S1-LL237_INFRA0_OR_20210805163903.jpg" class="webfeedsFeaturedVisual" alt=""/><p>國會的無黨派統計人員發現，大約1兆美元的基建法案將在10年內使聯邦預算赤字增加2,560億美元，這與談判人員聲稱該法案的成本將由新稅收和節約措施彌補的說法相矛盾。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E5%9C%8B%E6%9C%83%E9%A0%90%E7%AE%97%E8%BE%A6%E5%85%AC%E5%AE%A4%E4%BC%B0%E8%A8%88%E5%9F%BA%E5%BB%BA%E6%94%AF%E5%87%BA%E6%B3%95%E6%A1%88%E5%B0%87%E4%BB%A4%E9%A0%90%E7%AE%97%E8%B5%A4%E5%AD%97%E5%A2%9E%E5%8A%A02,560%E5%84%84%E7%BE%8E%E5%85%83-11628208310</link>
             <guid isPermaLink="false">CT-BGH-20210806075554</guid>
-            <pubDate>Fri, 06 Aug 2021 01:10:00 GMT</pubDate>
+            <pubDate>Sat, 07 Aug 2021 03:15:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[中國電信確定A股發行價，總融資規模超70億美元]]></title>
-            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-FT453_TEAMTE_G_20200418124309.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國三大電信運營商之一的中國電信確定了A股發行價，該公司計劃通過此次發行籌資約73億美元，若交易成功將成為今年以來中國最大規模的IPO交易。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E9%9B%BB%E4%BF%A1%E6%93%AC%E9%80%9A%E9%81%8Ea%E8%82%A1%E4%B8%8A%E5%B8%82%E7%B1%8C%E8%B3%87%E9%80%BE70%E5%84%84%E7%BE%8E%E5%85%83-11628213762</link>
-            <guid isPermaLink="false">CT-MKT-20210806091806</guid>
-            <pubDate>Fri, 06 Aug 2021 09:25:00 GMT</pubDate>
+            <title><![CDATA[中國在線輔導隕落之際，印度在線教育吸引資本關注]]></title>
+            <description><![CDATA[<img width="1280" height="719" src="https://si.wsj.net/public/resources/images/S1-LK002_indiah_OR_20210803054509.jpg" class="webfeedsFeaturedVisual" alt=""/><p>最近中國校外培訓類股票的暴跌讓一些投資者損失慘重，那些正在舔舐傷口的投資者或許應該考慮向西邊的印度進發。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E5%9C%A8%E7%B7%9A%E8%BC%94%E5%B0%8E%E9%9A%95%E8%90%BD%E4%B9%8B%E9%9A%9B%EF%BC%8C%E5%8D%B0%E5%BA%A6%E5%9C%A8%E7%B7%9A%E6%95%99%E8%82%B2%E5%90%B8%E5%BC%95%E8%B3%87%E6%9C%AC%E9%97%9C%E6%B3%A8-11628045711</link>
+            <guid isPermaLink="false">CT-HRD-20210804102423</guid>
+            <pubDate>Wed, 04 Aug 2021 02:55:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[美國競爭加劇之際，SPAC瞄向新興市場]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LK226_EMSPAC_OR_20210803142514.jpg" class="webfeedsFeaturedVisual" alt=""/><p>現如今，為了尋找有吸引力的併購標的，空白支票公司正紛紛把目光投向巴西、以色列、土耳其等遙遠的地方。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E7%AB%B6%E7%88%AD%E5%8A%A0%E5%8A%87%E4%B9%8B%E9%9A%9B%EF%BC%8Cspac%E7%9E%84%E5%90%91%E6%96%B0%E8%88%88%E5%B8%82%E5%A0%B4-11628233208</link>
-            <guid isPermaLink="false">CT-FIN-20210806141348</guid>
-            <pubDate>Fri, 06 Aug 2021 07:00:00 GMT</pubDate>
+            <title><![CDATA[摩根大通獲准全面控股在華證券業務]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LL774_CSECUR_OR_20210806171600.jpg" class="webfeedsFeaturedVisual" alt=""/><p>摩根大通公司周五表示，該公司獲准全面控股在華證券業務，這不僅是一家國際公司首次獲批，也是中國政府在外界對其市場信心下降之際繼續推進金融市場自由化的舉措。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%91%A9%E6%A0%B9%E5%A4%A7%E9%80%9A%E7%8D%B2%E5%87%86%E5%85%A8%E9%9D%A2%E6%8E%A7%E8%82%A1%E5%9C%A8%E8%8F%AF%E8%AD%89%E5%88%B8%E6%A5%AD%E5%8B%99-11628299809</link>
+            <guid isPermaLink="false">CT-FIN-20210807091748</guid>
+            <pubDate>Sat, 07 Aug 2021 01:30:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[汽車保險公司前路顛簸]]></title>
-            <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LL116_INSURA_OR_20210805131700.jpg" class="webfeedsFeaturedVisual" alt=""/><p>由於美國人逐漸恢復正常的開車習慣，保險公司的事故理賠損失增加了，但這些公司也開始考慮上調保費了。投資者或許應該開始考慮重新投資汽車保險類股了。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E6%B1%BD%E8%BB%8A%E4%BF%9D%E9%9A%AA%E5%85%AC%E5%8F%B8%E5%89%8D%E8%B7%AF%E9%A1%9B%E7%B0%B8-11628231108</link>
-            <guid isPermaLink="false">CT-HRD-20210806140707</guid>
-            <pubDate>Fri, 06 Aug 2021 06:25:00 GMT</pubDate>
+            <title><![CDATA[美國聯合大陸成為首家要求員工接種疫苗的大型航司]]></title>
+            <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LL324_UNITED_OR_20210805203514.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國聯合大陸控股有限公司將要求其美國員工今秋接種疫苗，從而成為首家採取這種措施的大型航空公司。眼下新冠變異毒株德爾塔的傳播正導致美國各地新冠疫情反彈。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E8%81%AF%E5%90%88%E5%A4%A7%E9%99%B8%E6%88%90%E7%82%BA%E9%A6%96%E5%AE%B6%E8%A6%81%E6%B1%82%E5%93%A1%E5%B7%A5%E6%8E%A5%E7%A8%AE%E7%96%AB%E8%8B%97%E7%9A%84%E5%A4%A7%E5%9E%8B%E8%88%AA%E5%8F%B8-11628301610</link>
+            <guid isPermaLink="false">CT-BIZ-20210807094449</guid>
+            <pubDate>Sat, 07 Aug 2021 02:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[全球經濟復甦之際，煤炭成為礦商的搖錢樹]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LK675_COALCA_OR_20210804145342.jpg" class="webfeedsFeaturedVisual" alt=""/><p>礦業公司正在從開採動力煤上賺個盆滿缽滿。最大的海運動力煤出口商嘉能上半年實現創紀錄利潤，並預計今年餘下時間煤炭市場將是一棵巨大的搖錢樹。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%85%A8%E7%90%83%E7%B6%93%E6%BF%9F%E5%BE%A9%E7%94%A6%E4%B9%8B%E9%9A%9B%EF%BC%8C%E7%85%A4%E7%82%AD%E6%88%90%E7%82%BA%E7%A4%A6%E5%95%86%E7%9A%84%E6%90%96%E9%8C%A2%E6%A8%B9-11628223910</link>
-            <guid isPermaLink="false">CT-FIN-20210806114817</guid>
-            <pubDate>Fri, 06 Aug 2021 04:25:00 GMT</pubDate>
+            <title><![CDATA[亞馬遜要求美國所有倉庫員工必須戴口罩]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LL697_AMAZON_OR_20210806153034.jpg" class="webfeedsFeaturedVisual" alt=""/><p>亞馬遜公司表示，從下周一開始，其美國數百個倉庫的所有員工都將必須戴口罩，這擴大了一項較有限的要求，以應對德爾塔新冠變異病毒帶來的疫情卷土重來的威脅。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%BA%9E%E9%A6%AC%E9%81%9C%E8%A6%81%E6%B1%82%E7%BE%8E%E5%9C%8B%E6%89%80%E6%9C%89%E5%80%89%E5%BA%AB%E5%93%A1%E5%B7%A5%E5%BF%85%E9%A0%88%E6%88%B4%E5%8F%A3%E7%BD%A9-11628301009</link>
+            <guid isPermaLink="false">CT-BIZ-20210807093846</guid>
+            <pubDate>Sat, 07 Aug 2021 02:05:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[給初入職場者的四步理財計劃]]></title>
