@@ -2,11 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-07T15:03:04.658Z</updated>
+    <updated>2021-08-07T15:08:07.168Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[六甸漢危站旺角警署外牆　消防員帶走　警以公眾地方行為不檢拘捕]]></title>
+        <id>https://www.thestandnews.com/society/%E5%85%AD%E7%94%B8%E6%BC%A2%E5%8D%B1%E7%AB%99%E6%97%BA%E8%A7%92%E8%AD%A6%E7%BD%B2%E5%A4%96%E7%89%86-%E6%B6%88%E9%98%B2%E5%93%A1%E5%B8%B6%E8%B5%B0-%E8%AD%A6%E4%BB%A5%E5%85%AC%E7%9C%BE%E5%9C%B0%E6%96%B9%E8%A1%8C%E7%82%BA%E4%B8%8D%E6%AA%A2%E6%8B%98%E6%8D%95</id>
+        <link href="https://www.thestandnews.com/society/%E5%85%AD%E7%94%B8%E6%BC%A2%E5%8D%B1%E7%AB%99%E6%97%BA%E8%A7%92%E8%AD%A6%E7%BD%B2%E5%A4%96%E7%89%86-%E6%B6%88%E9%98%B2%E5%93%A1%E5%B8%B6%E8%B5%B0-%E8%AD%A6%E4%BB%A5%E5%85%AC%E7%9C%BE%E5%9C%B0%E6%96%B9%E8%A1%8C%E7%82%BA%E4%B8%8D%E6%AA%A2%E6%8B%98%E6%8D%95"/>
+        <updated>2021-08-07T15:03:38.110Z</updated>
+        <summary type="html"><![CDATA[今日（7 日）晚上約 7 時許，一名身穿白色背心、深色短褲的中年男子，爬上太子地鐵站附近的旺角警署外牆，大批警員在場拉起封鎖線，之後由消防員救走，被警方以「公眾地方行為不檢」拘捕。男子在警署一樓窗外危站，一度大力拍打冷氣機，並大聲叫喊。約晚上 7 時 20 分，有消防員到場，約十分鐘後打開氣墊。至晚上約八時，消防員將男子帶離窗邊，男子其後被帶進警署。警方表示，今日下午 7 時許接獲多名住客報案，…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/11-13_copy.png"></figure><p>今日（7 日）晚上約 7 時許，一名身穿白色背心、深色短褲的中年男子，爬上太子地鐵站附近的旺角警署外牆，大批警員在場拉起封鎖線，之後由消防員救走，被警方以「公眾地方行為不檢」拘捕。</p>
+
+<p>男子在警署一樓窗外危站，一度大力拍打冷氣機，並大聲叫喊。約晚上 7 時 20 分，有消防員到場，約十分鐘後打開氣墊。至晚上約八時，消防員將男子帶離窗邊，男子其後被帶進警署。</p>
+
+<p>警方表示，今日下午 7 時許接獲多名住客報案，指一名林姓 66 歲男子於坐在旺角警署的危險位置。警方接報到場，消防員張開救生氣墊，該名男子之後由消防員帶回安全位置，清醒被送往廣華醫院檢查。</p>
+
+<p>該名男子被警方以「公眾地方行為不檢」拘捕，交由旺角警區刑事調查隊第五隊跟進。</p>
+
+<p><iframe allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen="true" frameborder="0" height="316" scrolling="no" src="https://www.facebook.com/plugins/video.php?height=316&amp;href=https%3A%2F%2Fwww.facebook.com%2Fstandnewshk%2Fvideos%2F125591256362536%2F&amp;show_text=false&amp;width=560&amp;t=0" style="border:none;overflow:hidden" width="560"></iframe></p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-07T14:44:18.883Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【電影雜談】老派之必要]]></title>
         <id>https://www.thestandnews.com/culture/%E9%9B%BB%E5%BD%B1%E9%9B%9C%E8%AB%87%E8%80%81%E6%B4%BE%E4%B9%8B%E5%BF%85%E8%A6%81</id>
@@ -1640,51 +1662,5 @@ body {
         </author>
         <category label="中國"/>
         <published>2021-08-07T05:33:51.969Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【東奧直擊】陳芷澄調整球桿表現回勇　並列 50 位結束二次奧運之旅]]></title>
-        <id>https://www.thestandnews.com/sport/%E6%9D%B1%E5%A5%A7%E7%9B%B4%E6%93%8A%E9%99%B3%E8%8A%B7%E6%BE%84%E8%AA%BF%E6%95%B4%E7%90%83%E6%A1%BF%E8%A1%A8%E7%8F%BE%E5%9B%9E%E5%8B%87-%E4%B8%A6%E5%88%97-50-%E4%BD%8D%E7%B5%90%E6%9D%9F%E4%BA%8C%E6%AC%A1%E5%A5%A7%E9%81%8B%E4%B9%8B%E6%97%85</id>
-        <link href="https://www.thestandnews.com/sport/%E6%9D%B1%E5%A5%A7%E7%9B%B4%E6%93%8A%E9%99%B3%E8%8A%B7%E6%BE%84%E8%AA%BF%E6%95%B4%E7%90%83%E6%A1%BF%E8%A1%A8%E7%8F%BE%E5%9B%9E%E5%8B%87-%E4%B8%A6%E5%88%97-50-%E4%BD%8D%E7%B5%90%E6%9D%9F%E4%BA%8C%E6%AC%A1%E5%A5%A7%E9%81%8B%E4%B9%8B%E6%97%85"/>
-        <updated>2021-08-07T05:33:43.805Z</updated>
-        <summary type="html"><![CDATA[【體路日本直擊】東京奧運女子高爾夫球賽今日（7日）在霞關鄉村俱樂部進入最後一輪賽事，香港代表陳芷澄全日以低標準1桿的70桿完成18個洞，總成績以290桿排並列50名作結。雖然排名比上屆里約奧運的37名下跌，但陳芷澄仍慶幸自己能及早發現球桿有移位，在昨日賽事前及時修正，希望汲取經驗後再在巡迴賽，以及巴黎及洛杉磯奧運為港增光。頭兩日賽事表現低落的Tiffany昨日回勇，打出低標準2桿的69桿並將排名…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/tokyo2020_olympics_micah_golf_tiffanychan_20210807-feature.jpg"></figure><p>【體路日本直擊】東京奧運女子高爾夫球賽今日（7日）在霞關鄉村俱樂部進入最後一輪賽事，香港代表陳芷澄全日以低標準1桿的70桿完成18個洞，總成績以290桿排並列50名作結。雖然排名比上屆里約奧運的37名下跌，但陳芷澄仍慶幸自己能及早發現球桿有移位，在昨日賽事前及時修正，希望汲取經驗後再在巡迴賽，以及巴黎及洛杉磯奧運為港增光。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/tokyo2020_olympics_micah_golf_tiffanychan_20210807-05.jpg"></figure></div>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/tokyo2020_olympics_micah_golf_tiffanychan_20210807-07.jpg"></figure></div>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/tokyo2020_olympics_micah_golf_tiffanychan_20210807-10.jpg"></figure></div>
-
-<p>頭兩日賽事表現低落的Tiffany昨日回勇，打出低標準2桿的69桿並將排名提升至51位進入最後一日賽事。提早至日本時間早上8時出戰的港將被編與哥倫比亞的烏莉比（Mariajo Uribe）及波多黎各的托莉絲（Maria Torres）由第10洞出發，於第11洞已率先捉到「小鳥」，其後再在第14及第18洞捉到「小鳥」，以低標3桿進入後9洞賽事。不過Tiffany在第3及第4洞打出高標準1桿的「柏忌」，最後一洞亦僅僅錯過捉到「小鳥」的機會，結果全日打出平標的70桿，總結4日賽事以高6桿的291桿排並列50位。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/tokyo2020_olympics_micah_golf_tiffanychan_20210807-08.jpg"></figure></div>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/tokyo2020_olympics_micah_golf_tiffanychan_20210807-11.jpg"></figure></div>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/tokyo2020_olympics_micah_golf_tiffanychan_20210807-03.jpg"></figure></div>
-
-<p>賽事在Tiffany完成18個洞後不足2分鐘就因天雨暫停，延至約45分鐘後才重開，她亦笑言非常幸運，同樣幸運的還有及早發現球桿問題：「因為之前一直打得很差，比我預期中差。如果自身感覺沒問題，就希望在工具上有調整，果然發現有幾支桿在旅程中移位，所以在打第3日賽事很大膽地作出調整。」Tiffany指自己換桿後發揮改善不少，數據上的確亦能反映出來：「幸好我有信心相信自己的能力，才可以好好完成最後兩日，不過就未能及早發現這個問題，希望這個經驗可應用在巡迴賽上，再為香港增光。」</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/tokyo2020_olympics_micah_golf_tiffanychan_20210807-13.jpg"></figure></div>
-
-<p>除了球桿問題外，Tiffany亦稱心理因素稍稍影響發揮，尤其久未穿上港隊戰衣：「我小時候都是打港隊大，有4、5年沒有穿起香港隊球衣比賽，還要有全世界、全香港支持者看著，我都很想好好表現給大家看到。但打到職業層次，每個小部分都對比賽後重要，有機會令局面不同。」今屆港隊成績一口氣突破以往各屆，雖然未能親身支持其他項目，但Tiffany亦指非常鼓舞：「大家都是運動員，大家都是香港人，無論甚麼項目有成績都是鼓舞。我希望下次是我站上頒獎台，大家為我鼓掌。」</p>
-
-<p>Tiffany明日將返回美國繼續出戰巡迴賽，長遠目標希望能第3次甚至第4次出戰奧運：「我相信3年後的巴黎，甚至洛杉磯奧運都能有好成績，希望自己可以做得更好，令更多香港人認識高爾夫球這項運動。」</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/tokyo2020_olympics_micah_golf_kellykorda_20210804-19.jpg"></figure></div>
-
-<p>前列球手方面，一直保持領先的美國球手確達（Nelly Korda）表現繼續不穩，全日造出低標準兩桿的69桿，更一度被捉到8隻「小鳥」的日本球手稻見萌寧追成平手。但確達最終乘稻見萌寧最後一洞打出「柏忌」，以1桿之差力壓東道主選手，以及上屆銀牌、新西蘭的高寶璟贏得金牌。稻見萌寧與高寶璟出戰亞軍附加洞回合，結果前者以1桿擊敗高寶璟，在主場掛上奧運銀牌。</p>
-
-<p>圖、文：麥景智</p>
-
-<p>&nbsp;</p>
-
-<p><a href="https://tokyo2020.sportsroad.hk/2021/08/【東奧直擊】陳芷澄調整球桿表現回勇-並列50位結/?fbclid=IwAR1a4yZfD96kiIkMCvCqdbTb9TXNxwTi7H0jsPH2EAJ11ZvJSI_u5hTcqzk">原刊於體路</a></p>]]></content>
-        <author>
-            <name>體路報道</name>
-            <uri>https://www.thestandnews.com/author/sportsroad</uri>
-        </author>
-        <category label="體育"/>
-        <published>2021-08-07T05:26:39.845Z</published>
     </entry>
 </feed>
