@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 07 Aug 2021 05:40:12 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Aug 2021 05:43:47 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -50,6 +50,13 @@
             <pubDate>Fri, 06 Aug 2021 07:15:35 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[東京奧運、中國新冠疫情、余英時逝世與本周更多重要故事]]></title>
+            <description><![CDATA[剛剛過去的一周，BBC中文網以下新聞內容受到讀者的關注。如果你錯過了它們，BBC中文帶你一一回顧。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58122897</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58122897</guid>
+            <pubDate>Sat, 07 Aug 2021 05:40:18 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[社交媒體：一個虛假帳號矩陣如何推動親中宣傳和敘事]]></title>
             <description><![CDATA[一項新發佈的研究顯示，一個由350個社交媒體賬號組成的矩陣大力傳播親北京的聲音，但很多賬號的個人資料頭像由AI合成，並幾乎在同一時間發佈相同的文字和圖片。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58097366</link>
@@ -62,13 +69,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58107149</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58107149</guid>
             <pubDate>Thu, 05 Aug 2021 17:34:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[比爾·蓋茨承認「犯大錯」 離婚案中愛潑斯坦元素再現]]></title>
-            <description><![CDATA[比爾·蓋茨受訪媒體正式承認當初會晤愛潑斯坦「犯大錯」，並陳述「個人巨大悲痛的原因」。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58101175</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58101175</guid>
-            <pubDate>Thu, 05 Aug 2021 19:32:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[騰訊被中國官媒點名後股價大跌，市場如何變驚弓之鳥]]></title>
@@ -202,6 +202,13 @@
             <link>https://www.bbc.com/zhongwen/trad/sports-58100046</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58100046</guid>
             <pubDate>Fri, 06 Aug 2021 01:48:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[比爾·蓋茨承認「犯大錯」 離婚案中愛潑斯坦元素再現]]></title>
+            <description><![CDATA[比爾·蓋茨受訪媒體正式承認當初會晤愛潑斯坦「犯大錯」，並陳述「個人巨大悲痛的原因」。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58101175</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58101175</guid>
+            <pubDate>Thu, 05 Aug 2021 19:32:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[台灣：拜登政府批准首筆對台軍售 中方提出「嚴正交涉」]]></title>
