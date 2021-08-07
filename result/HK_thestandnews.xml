@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-07T11:20:48.456Z</updated>
+    <updated>2021-08-07T11:25:50.735Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -292,7 +292,7 @@
         <title type="html"><![CDATA[【2020 東京奧運】拚盡所有、榮辱與共 — 向香港運動員致敬！]]></title>
         <id>https://www.thestandnews.com/sport/2020-%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E5%90%91%E9%A6%99%E6%B8%AF%E9%81%8B%E5%8B%95%E5%93%A1%E8%87%B4%E6%95%AC-%E6%8B%9A%E7%9B%A1%E6%89%80%E6%9C%89%E6%A6%AE%E8%BE%B1%E8%88%87%E5%85%B1</id>
         <link href="https://www.thestandnews.com/sport/2020-%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E5%90%91%E9%A6%99%E6%B8%AF%E9%81%8B%E5%8B%95%E5%93%A1%E8%87%B4%E6%95%AC-%E6%8B%9A%E7%9B%A1%E6%89%80%E6%9C%89%E6%A6%AE%E8%BE%B1%E8%88%87%E5%85%B1"/>
-        <updated>2021-08-07T11:18:25.285Z</updated>
+        <updated>2021-08-07T11:25:19.730Z</updated>
         <summary type="html"><![CDATA[2020 東京奧運，香港派出 46 名運動員出戰，暫已取得一金兩銀兩銅，為港隊史上最佳成績。經過 16 天賽事，有人創出佳績，也有人遺憾落敗，但無論如何，只要拚盡所有，已必定是香港人心目中的世界第一。榮辱與共，同喜同悲，因為我們都是 Team Hong Kong。.g-body {  margin: 0 auto;  padding: 0;  width: 100%;  font-family:…]]></summary>
         <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/template-09_fmo9z7t.png"></figure><div class="g-meta" style="display:none">2020 東京奧運，香港派出 46 名運動員出戰，暫已取得一金兩銀兩銅，為港隊史上最佳成績。經過 16 天賽事，有人創出佳績，也有人遺憾落敗，但無論如何，只要拚盡所有，已必定是香港人心目中的世界第一。榮辱與共，同喜同悲，因為我們都是 Team Hong Kong。</div><style>
 .g-body {
@@ -524,6 +524,7 @@ body {
 .g-drawings {
   max-width: 1200px;
   margin: 0 auto;
+  overflow: hidden;
 }
 .g-artboard {
   position: relative;
@@ -616,13 +617,14 @@ body {
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
   transform: scale(1, 0.8);
   position: absolute;
-  top: 5px;
-  right: 20px;
+  top: -10px;
+  right: 0;
   color: #fff;
   font-size: 30px;
   font-family: PingFang HK, Noto Sans TC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   cursor: pointer;
   user-select: none;
+  padding: 20px;
 }
 .g-lightbox .g-img {
   max-width: 600px;
@@ -634,7 +636,7 @@ body {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 11px;
   font-family: PingFang HK, Noto Sans TC, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
