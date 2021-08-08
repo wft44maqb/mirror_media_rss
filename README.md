@@ -1,19 +1,2 @@
-# mirror_media_rss
+# mirror_media_rss BETA
 
-123\
-123
-\
-\
-\
-123\
-\
-\
-123\
-\
-\
-\
-\
-\
-\
-test\
-1
