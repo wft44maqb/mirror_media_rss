@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 08 Aug 2021 13:18:31 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Aug 2021 13:47:09 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -22,13 +22,6 @@
             <pubDate>Sun, 08 Aug 2021 11:34:49 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[新冠疫情：「成功的受害者」中國能否放棄「清零」與病毒共存 ？]]></title>
-            <description><![CDATA[專家認為，中國防疫政策若需改變，官員和民眾必須對病毒和疫苗的作用有清醒認識，並且達成與病毒共存的共識。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58114696</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58114696</guid>
-            <pubDate>Fri, 06 Aug 2021 13:45:56 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[東京奧運：送錢送房送母牛……各國如何獎勵奪得獎牌的運動員]]></title>
             <description><![CDATA[很多國家都會用各種獎勵來鼓勵運動員在奧運賽場上爭取成績，我們來看看不同的國家和地區可以有多大手筆……]]></description>
             <link>https://www.bbc.com/zhongwen/trad/sports-58112452</link>
@@ -36,11 +29,18 @@
             <pubDate>Sun, 08 Aug 2021 03:11:04 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[海灣油輪遇襲：美國稱證據指向伊朗造無人機]]></title>
-            <description><![CDATA[美國軍方中央司令部指，爆炸品專家調查後認為，發動襲擊的無人機是在伊朗製造，伊朗早前已經否認發動襲擊。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58126192</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58126192</guid>
-            <pubDate>Sat, 07 Aug 2021 07:18:43 GMT</pubDate>
+            <title><![CDATA[納斯達克新規定：董事局必備女性、少數族裔或LGBT成員]]></title>
+            <description><![CDATA[這意味著在納斯達克上市的所有公司將必須至少有兩名多元化董事，包括一名女性以及一名代表程度不足的少數族裔或者LGBTQ+人士。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/business-58137388</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/business-58137388</guid>
+            <pubDate>Sun, 08 Aug 2021 13:13:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新冠疫情：「成功的受害者」中國能否放棄「清零」與病毒共存 ？]]></title>
+            <description><![CDATA[專家認為，中國防疫政策若需改變，官員和民眾必須對病毒和疫苗的作用有清醒認識，並且達成與病毒共存的共識。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58114696</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58114696</guid>
+            <pubDate>Fri, 06 Aug 2021 13:45:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：香港代表團歷史佳績和未能擺脫的政治陰影]]></title>
@@ -183,6 +183,13 @@
             <pubDate>Fri, 23 Jul 2021 08:48:22 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[海灣油輪遇襲：美國稱證據指向伊朗造無人機]]></title>
+            <description><![CDATA[美國軍方中央司令部指，爆炸品專家調查後認為，發動襲擊的無人機是在伊朗製造，伊朗早前已經否認發動襲擊。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58126192</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58126192</guid>
+            <pubDate>Sat, 07 Aug 2021 07:18:43 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[美國允許在美香港居民延期居留，中國批評「雕蟲小技」]]></title>
             <description><![CDATA[目前在美國的香港居民將可以獲得最長18個月的「暫緩撤離」期限，讓他們暫時得以在美國居住。中國政府對此表示堅決反對和強烈譴責。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58112391</link>
@@ -239,13 +246,6 @@
             <pubDate>Wed, 04 Aug 2021 05:17:11 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[東京奧運：位於話題中心的跨性別舉重選手哈伯德]]></title>
-            <description><![CDATA[勞雷爾·哈伯德成為了第一位以與出生時不同的性別參加奧運會比賽的公開跨性別運動員。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58070558</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58070558</guid>
-            <pubDate>Tue, 03 Aug 2021 10:30:20 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[澳洲天空新聞YouTube頻道遭停播 涉爭議性疫情訊息]]></title>
             <description><![CDATA[天空新聞台資深主持人艾倫·瓊斯在節目中稱，變異病毒德爾塔沒有原始新冠病毒那麼危險，疫苗也沒有幫助。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58054560</link>
@@ -258,13 +258,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58058935</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58058935</guid>
             <pubDate>Mon, 02 Aug 2021 12:51:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[美國通過一萬億基建預算 再次為疫後復蘇打「強心劑」]]></title>
-            <description><![CDATA[這筆投資將用於交通基礎設施的翻新和改造，大幅增加美國政府在道路、橋樑、交通和機場方面的支出，恢復美國民眾所依賴的至關重要但老化的交通連接。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/business-58046940</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/business-58046940</guid>
-            <pubDate>Sun, 01 Aug 2021 09:15:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中國官媒批網絡遊戲為「精神鴉片」，騰訊等公司股價急跌]]></title>
