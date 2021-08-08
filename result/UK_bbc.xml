@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 08 Aug 2021 02:44:02 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Aug 2021 02:53:39 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -43,6 +43,20 @@
             <pubDate>Fri, 06 Aug 2021 07:34:18 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[清空居所，記憶永存——BBC主持人整理母親故居有感]]></title>
+            <description><![CDATA[【BBC時事一周（粵語）——記者來鴻】李斯利·柯溫到她的已故母親和繼父過去居住的華倫西亞一個小村莊清理居所，從中看到小海港的變化。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/fooc-58131871</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/fooc-58131871</guid>
+            <pubDate>Sat, 07 Aug 2021 17:10:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[法國人體內為何滿布重金屬]]></title>
+            <description><![CDATA[【BBC時事一周（粵語）——華人談天下】法國特約記者翁素雲講述為什麼法國人體內有那麼多重金屬。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/columns-58131869</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/columns-58131869</guid>
+            <pubDate>Sat, 07 Aug 2021 17:02:16 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[蘋果重拳排查手機上兒童色虐圖片的是與非]]></title>
             <description><![CDATA[美國蘋果公司宣佈加大力度保護兒童，掃描和排查蘋果手機用戶中是否有兒童色虐或不雅圖片。此舉引發人們對隱私權的擔憂。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/business-58120023</link>
@@ -55,13 +69,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58052388</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58052388</guid>
             <pubDate>Fri, 06 Aug 2021 01:04:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[美國允許在美香港居民延期居留，中國批評「雕蟲小技」]]></title>
-            <description><![CDATA[目前在美國的香港居民將可以獲得最長18個月的「暫緩撤離」期限，讓他們暫時得以在美國居住。中國政府對此表示堅決反對和強烈譴責。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58112391</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58112391</guid>
-            <pubDate>Fri, 06 Aug 2021 07:15:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運、中國新冠疫情、余英時逝世與本周更多重要故事]]></title>
@@ -141,13 +148,6 @@
             <pubDate>Mon, 02 Aug 2021 08:20:05 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[中概股暴跌：新華社發文安撫後迎反彈，中港股市坐過山車]]></title>
-            <description><![CDATA[分析人士擔憂，最近圍繞中國科技企業動作頻頻，長期來看，可能會影響海外投資者對中資公司的整體估值。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/business-58011588</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/business-58011588</guid>
-            <pubDate>Fri, 30 Jul 2021 01:47:41 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[東京奧運：獎牌榜上哪個國家或地區領先？]]></title>
             <description><![CDATA[東京奧運會2021年7月23日揭幕，獎牌榜上哪個國家或地區領先？]]></description>
             <link>https://www.bbc.com/zhongwen/trad/57681689</link>
@@ -183,6 +183,20 @@
             <pubDate>Fri, 23 Jul 2021 08:48:22 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[美國允許在美香港居民延期居留，中國批評「雕蟲小技」]]></title>
+            <description><![CDATA[目前在美國的香港居民將可以獲得最長18個月的「暫緩撤離」期限，讓他們暫時得以在美國居住。中國政府對此表示堅決反對和強烈譴責。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58112391</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58112391</guid>
+            <pubDate>Fri, 06 Aug 2021 07:15:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[東京奧運：如何在一屆如此特別的奧運會上做志願者]]></title>
+            <description><![CDATA[在全球疫情下，東京奧運會很多志願者的夢想都破滅了，那些能去東京的，卻沒有多少事情可做。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58100046</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58100046</guid>
+            <pubDate>Fri, 06 Aug 2021 01:48:48 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[新冠疫苗：世衛呼籲暫緩加強針 美國稱「錯誤選擇」]]></title>
             <description><![CDATA[德爾塔（Delta）變種病毒在世界不少國家蔓延之時，世界衛生組織（WHO）呼籲，至少要在9月底前暫緩使用新冠病毒加強疫苗。不過，美國稱這是「錯誤選擇」。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58097696</link>
@@ -202,13 +216,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58083265</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58083265</guid>
             <pubDate>Wed, 04 Aug 2021 08:10:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[東京奧運：如何在一屆如此特別的奧運會上做志願者]]></title>
-            <description><![CDATA[在全球疫情下，東京奧運會很多志願者的夢想都破滅了，那些能去東京的，卻沒有多少事情可做。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/sports-58100046</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58100046</guid>
-            <pubDate>Fri, 06 Aug 2021 01:48:48 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[比爾·蓋茨承認「犯大錯」 離婚案中愛潑斯坦元素再現]]></title>
@@ -260,20 +267,6 @@
             <pubDate>Thu, 05 Aug 2021 01:24:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[東京奧運：美國鉛球選手領獎台示威對她個人的意義]]></title>
-            <description><![CDATA[8月1日頒獎禮上，當三位獎牌獲得者凖備拍照時，桑德斯舉起雙臂交叉成「X」狀。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/sports-58052945</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58052945</guid>
-            <pubDate>Tue, 03 Aug 2021 01:27:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[海灣油輪遇襲：船運不斷遭攻擊背後的以色列與伊朗「影子戰爭」]]></title>
-            <description><![CDATA[英國、美國和以色列均指責伊朗操縱自殺式無人機襲擊油輪，伊朗則矢口否認。分析指出，這很可能是以色列和伊朗「影子戰爭」的繼續。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58060845</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58060845</guid>
-            <pubDate>Mon, 02 Aug 2021 15:46:37 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[旅法大熊貓歡歡順利誕下雙胞胎]]></title>
             <description><![CDATA[旅法大熊貓歡歡8月2日在法國中部的博瓦爾動物園順利誕下一對雙胞胎。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58081705</link>
@@ -281,11 +274,32 @@
             <pubDate>Wed, 04 Aug 2021 02:15:03 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[東京奧運：美國鉛球選手領獎台示威對她個人的意義]]></title>
+            <description><![CDATA[8月1日頒獎禮上，當三位獎牌獲得者凖備拍照時，桑德斯舉起雙臂交叉成「X」狀。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58052945</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58052945</guid>
+            <pubDate>Tue, 03 Aug 2021 01:27:43 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[新冠疫情：不丹如何一周內讓所有成年人接種疫苗？]]></title>
             <description><![CDATA[地處喜馬拉雅深山的不丹有80萬人口。據不丹衛生部稱，90%以上的成年人在短短七天內就已全部接種疫苗。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58055013</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58055013</guid>
             <pubDate>Tue, 03 Aug 2021 01:27:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[運動與健康：新研究顯示足球後衛老年罹患失智症風險更大]]></title>
+            <description><![CDATA[蘇格蘭最新研究顯示頭頂足球是導致運動員失智症的關鍵因素。專家質問：未來足球繼續下去就絶對要用頭頂球嗎？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/science-58076762</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58076762</guid>
+            <pubDate>Tue, 03 Aug 2021 19:05:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[海灣油輪遇襲：船運不斷遭攻擊背後的以色列與伊朗「影子戰爭」]]></title>
+            <description><![CDATA[英國、美國和以色列均指責伊朗操縱自殺式無人機襲擊油輪，伊朗則矢口否認。分析指出，這很可能是以色列和伊朗「影子戰爭」的繼續。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58060845</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58060845</guid>
+            <pubDate>Mon, 02 Aug 2021 15:46:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[白俄羅斯奧運田徑選手齊馬努斯卡婭拒絶「被強制」登機回國]]></title>
@@ -309,13 +323,6 @@
             <pubDate>Mon, 02 Aug 2021 07:09:07 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[運動與健康：新研究顯示足球後衛老年罹患失智症風險更大]]></title>
-            <description><![CDATA[蘇格蘭最新研究顯示頭頂足球是導致運動員失智症的關鍵因素。專家質問：未來足球繼續下去就絶對要用頭頂球嗎？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/science-58076762</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58076762</guid>
-            <pubDate>Tue, 03 Aug 2021 19:05:37 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[氣候變化：「暴洪」日益頻發的原因 和人類自保的辦法]]></title>
             <description><![CDATA[氣候變化和極端天氣導致「暴洪」頻繁，導致生命和財產損失；特別是居住在城鎮的人們因該如何應對呢？]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-57987782</link>
@@ -328,34 +335,6 @@
             <link>https://www.bbc.com/zhongwen/trad/science-57946512</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-57946512</guid>
             <pubDate>Sun, 01 Aug 2021 15:23:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[東京奧運：西蒙·拜爾斯退賽，我們對待運動員精神健康的態度會改變嗎]]></title>
-            <description><![CDATA[東京奧運會暫時失去了其中一個有名的巨星，但是很多人希望拜爾斯的舉動能夠令世界開始關注運動員所承受的精神壓力。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/sports-58009168</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58009168</guid>
-            <pubDate>Thu, 29 Jul 2021 07:19:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[新冠長期「後遺症」：BBC記者親身經歷 講述如何應對]]></title>
-            <description><![CDATA[BBC記者露西·亞當斯2020年3月感染新冠，此後飽受「後遺症」困擾。她想知道，究竟什麼是長新冠？怎樣做、要多久才能恢復？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/science-57914413</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-57914413</guid>
-            <pubDate>Sat, 24 Jul 2021 11:09:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[新冠疫情：英國解封之後是否會成為病毒新變異的溫牀？]]></title>
-            <description><![CDATA[疫情沒有得到完全控制，英國政府仍決定如期解除各類禁令。BBC記者採訪專家，分析病毒不斷擴散和變異的可能性。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/uk-57963196</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/uk-57963196</guid>
-            <pubDate>Tue, 27 Jul 2021 10:27:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[氣候變化：IPCC——給地球氣候寫「體檢報告」的國際權威機構]]></title>
-            <description><![CDATA[氣候變化是世人矚目的重大議題，而又有多少人了解世界上為氣候變化話題定基調、做評估、提供政策建議機構是哪一個呢？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/science-57986692</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-57986692</guid>
-            <pubDate>Fri, 30 Jul 2021 19:20:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：當一位冠軍媽媽是什麼體驗]]></title>
@@ -407,13 +386,6 @@
             <pubDate>Wed, 04 Aug 2021 09:14:53 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[BBC紀錄片：南中國海之戰]]></title>
-            <description><![CDATA[南中國海正在醞釀一場風暴。中國聲稱對南海的大片海域擁有主權，但美國總統拜登近期警告稱，南海的貿易和航運必須保持開放。被夾在中間的是菲律賓漁民，他們發現自己在海上謀生時，越來越多地受到中國海警和民兵船隻的驅趕。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58007615</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58007615</guid>
-            <pubDate>Thu, 29 Jul 2021 04:37:56 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[東京奧運：哪國運動服最時尚？日本服由廢料造，德國體操服反「性感化」]]></title>
             <description><![CDATA[東京奧運除了比賽項目引人入勝，運動員別出心裁旳服裝也是亮點。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58086180</link>
@@ -435,32 +407,11 @@
             <pubDate>Wed, 04 Aug 2021 01:01:50 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[南京新冠疫情：Delta變異病毒攻陷後　會導致中國再現全國性疫情嗎？]]></title>
-            <description><![CDATA[江蘇南京疫情發展出數條第二傳播鏈，促使中國接受壓力測試，也給中國式「零確診」防疫思路的有效性帶來挑戰。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58010812</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58010812</guid>
-            <pubDate>Thu, 29 Jul 2021 10:54:08 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[香港教育界民主派工會教協被港府「割席」意味著什麼]]></title>
             <description><![CDATA[中國官媒形容教協是必須鏟除的「毒瘤」，港府隨即表示會停止與教協的工作關係，這個有40多年歷史的教育界團體，為何備受關注？]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58067640</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58067640</guid>
             <pubDate>Tue, 03 Aug 2021 07:41:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[為什麼不打疫苗？拒絶疫苗的心理因素分析]]></title>
-            <description><![CDATA[新冠疫苗能拯救人命應該是毋庸置疑的，但還是有很多人不願意接受新冠疫苗注射，他們決定的背後有哪些心理因素？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/57942396</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/57942396</guid>
-            <pubDate>Sat, 31 Jul 2021 11:56:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[秦剛：中國新任駐美大使 熟悉外媒的習近平親密助手]]></title>
-            <description><![CDATA[55歲的秦剛曾在中國外交部負責新聞和禮賓事務。他曾多次言辭犀利地回擊外國記者對中國的質疑。他還被視為是中國國家主席習近平的得力助手。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58010492</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58010492</guid>
-            <pubDate>Thu, 29 Jul 2021 09:45:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[BBC中文合作伙伴]]></title>
