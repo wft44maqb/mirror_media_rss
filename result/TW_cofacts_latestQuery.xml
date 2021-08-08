@@ -4,7 +4,7 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sun, 08 Aug 2021 06:25:49 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Aug 2021 06:31:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
@@ -236,6 +236,26 @@ https://www.reuters.com/article/factcheck-health-coronavirus-idUSL2N2ND0WS
             ]]></description>
         </item>
         <item>
+            <title><![CDATA[https://youtu.be/Bswh6mltb38 (普京说：20年后中国⋯⋯]]></title>
+            <link>https://cofacts.tw/article/3egcopwdm1h33?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/3egcopwdm1h33?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sun, 08 Aug 2021 02:05:59 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/3egcopwdm1h33?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          https://youtu.be/Bswh6mltb38 (普京说：20年后中国将成为世界最穷的国家。并给出了六大理由，句句扎心。2020.06.20NO387#俄罗斯#普京)
+        
+              <h2><a href="https://cofacts.tw/reply/90J0JHsBgBgcuemXv_cf">最新回應</a></h2>
+              <p>含有錯誤訊息 by vanillam</p>
+              台灣事實查核中心於去年（2020年10月29日）已查證這是錯誤訊息。
+一、經檢索，俄羅斯《真理報》及其他媒體並未有「普丁指稱中國將成為最窮國家」等相關報導。
+二、網傳文章曾在2012年冠名時任國務卿柯林頓．希拉蕊，2016年冠名時任美國總統歐巴馬，經查證，兩人均未曾有此發言。
+網傳內容為舊謠言重傳，冠名版本從柯林頓．希拉蕊、歐巴馬到普丁，這些政治人物均不曾有相關發言。因此，為「錯誤」訊息。
+
+              <h2>出處</h2>
+              https://tfc-taiwan.org.tw/articles/4639
+            ]]></description>
+        </item>
+        <item>
             <title><![CDATA[https://rumble.com/vkp19y-the-truth-will⋯⋯]]></title>
             <link>https://cofacts.tw/article/m7lpv138vgs5?utm_source=Others&amp;utm_medium=RSS</link>
             <guid>https://cofacts.tw/article/m7lpv138vgs5?utm_source=Others&amp;utm_medium=RSS</guid>
@@ -364,38 +384,6 @@ https://www.cdc.gov.tw/Category/List/cHWik_ePRcL8Uz0A0WPXSw
 
               <h2>出處</h2>
                
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[高端疫苗2期受試者爆料「打完兩劑院方才告知患糖尿病」 質疑隱瞞副作用
-
-http⋯⋯]]></title>
-            <link>https://cofacts.tw/article/b50frq9s87ib?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/b50frq9s87ib?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Sun, 08 Aug 2021 00:03:07 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/b50frq9s87ib?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          高端疫苗2期受試者爆料「打完兩劑院方才告知患糖尿病」 質疑隱瞞副作用
-
-https://vip.udn.com/vip/story/121940/5650003 (高端疫苗2期受試者爆料「打完兩劑院方才告知患糖尿病」 質疑隱瞞副作用 | 聯合報)
-        
-              <h2><a href="https://cofacts.tw/reply/50JlJHsBgBgcuemXrfdz">最新回應</a></h2>
-              <p>含有錯誤訊息 by vanillam</p>
-              依據疫苗床試驗結果，接種高端疫苗後可能發生之反應，包括：
-注射部位疼痛/壓痛；
-痠痛/全身無力；
-肌肉痛；
-頭痛；
-腹瀉；
-注射部位腫脹/硬結；
-噁心/嘔吐；
-注射部位泛紅；
-發燒；
-並沒有糖尿病。
-
-              <h2>出處</h2>
-              疾病管制署
-https://www.cdc.gov.tw/Category/MPage/epjWGimoqASwhAN8X-5Nlw
             ]]></description>
         </item>
     </channel>
