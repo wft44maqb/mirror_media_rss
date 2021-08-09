@@ -2,11 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-09T01:59:01.110Z</updated>
+    <updated>2021-08-09T02:04:04.460Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[Delta 變種病毒肆虐　越南確診宗數創新高]]></title>
+        <id>https://www.thestandnews.com/international/delta-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92%E8%82%86%E8%99%90-%E8%B6%8A%E5%8D%97%E7%A2%BA%E8%A8%BA%E5%AE%97%E6%95%B8%E5%89%B5%E6%96%B0%E9%AB%98</id>
+        <link href="https://www.thestandnews.com/international/delta-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92%E8%82%86%E8%99%90-%E8%B6%8A%E5%8D%97%E7%A2%BA%E8%A8%BA%E5%AE%97%E6%95%B8%E5%89%B5%E6%96%B0%E9%AB%98"/>
+        <updated>2021-08-09T01:59:23.774Z</updated>
+        <summary type="html"><![CDATA[越南於周日（8 日）錄得 9,690 宗 covid 19 新增確診，是疫情爆發以來的新高，比周六的 7,334 宗多出 2,356 宗。越南去年的防疫工作理想，曾經是全球抗疫成功例子之一，透過全民檢測、嚴密的病毒追蹤、隔離及邊境防控，至今年 4 月，當地死於疫症的人數僅為 35 人。然而，正正因為防疫成功，斥巨資向外國藥廠購買疫苗的誘引亦相對減少，埋下了防疫漏洞的伏線。自 4 月底起，Delt…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210606a-04_Pgfr9.png"></figure><p data-testid="paragraph-0">越南於周日（8 日）錄得<a href="https://www.reuters.com/world/asia-pacific/vietnam-reports-record-9690-coronavirus-infections-sunday-2021-08-08/"> 9,690 宗 covid 19 新增確診</a>，是疫情爆發以來的新高，比周六的 7,334 宗多出 2,356 宗。</p>
+
+<p data-testid="paragraph-0">越南去年的防疫工作理想，曾經是全球抗疫成功例子之一，透過全民檢測、嚴密的病毒追蹤、隔離及邊境防控，至今年 4 月，當地<a href="https://www.eastasiaforum.org/2021/08/01/delta-variant-sets-off-alarm-bells-in-vietnam/">死於疫症的人數僅為 35 人</a>。然而，正正因為防疫成功，斥巨資向外國藥廠購買疫苗的誘引亦相對減少，埋下了防疫漏洞的伏線。</p>
+
+<p data-testid="paragraph-0">自&nbsp;4 月底起，Delta 變種病毒擴散全球，越南一貫的防疫措施亦不管用，開始失守。當地衛生部門指，新感染個案主要集中在胡志明市及隔鄰的平陽省及同奈省。首都河內延長封鎖措施至本月 22 日。</p>
+
+<p data-testid="paragraph-0">越南人口約 9,800 萬，至今只接種了 890 萬劑疫苗，涉及人數少於 90 萬。當地自疫情爆發以來，累計有&nbsp;210,405 宗感染，至少 3,397 人死於疫症。</p>
+
+<p data-testid="paragraph-0">&nbsp;</p>
+
+<p data-testid="paragraph-0">&nbsp;</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="國際"/>
+        <published>2021-08-09T01:53:36.139Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[年初遇襲、被大公文匯狙擊　天水圍社區關注組 11 歲主席王繼祖辭職]]></title>
         <id>https://www.thestandnews.com/politics/%E5%B9%B4%E5%88%9D%E9%81%87%E8%A5%B2%E8%A2%AB%E5%A4%A7%E5%85%AC%E6%96%87%E5%8C%AF%E6%8C%87%E6%B8%AF%E7%8D%A8%E6%89%B6%E6%A4%8D-%E5%A4%A9%E6%B0%B4%E5%9C%8D%E7%A4%BE%E5%8D%80%E9%97%9C%E6%B3%A8%E7%B5%84-11-%E6%AD%B2%E4%B8%BB%E5%B8%AD%E7%8E%8B%E7%B9%BC%E7%A5%96%E8%BE%AD%E8%81%B7</id>
@@ -865,131 +889,5 @@
         </author>
         <category label="社會"/>
         <published>2021-08-07T10:54:08.683Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【東京奧運】閉幕禮驚艷　夜空「光之五環」　ARIGATO謝幕  2024巴黎見]]></title>
-        <id>https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%E5%96%AE%E8%BB%8A%E7%88%AD%E5%85%88%E8%B3%BD%E6%9D%8E%E6%85%A7%E8%A9%A9%E5%A5%AA%E9%8A%85%E7%89%8C%E6%B8%AF%E9%9A%8A%E7%B4%AF%E8%A8%88%E7%8D%B26-%E7%8D%8E%E7%89%8C</id>
-        <link href="https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0%E5%96%AE%E8%BB%8A%E7%88%AD%E5%85%88%E8%B3%BD%E6%9D%8E%E6%85%A7%E8%A9%A9%E5%A5%AA%E9%8A%85%E7%89%8C%E6%B8%AF%E9%9A%8A%E7%B4%AF%E8%A8%88%E7%8D%B26-%E7%8D%8E%E7%89%8C"/>
-        <updated>2021-08-08T14:37:04.281Z</updated>
-        <summary type="html"><![CDATA[【20:53】奧林匹克旗幟由巴黎市長接過　象徵接棒辦下屆奧運旗幟根據傳統，男子馬拉松的頒獎禮都會在閉幕禮舉行。今次東奧的閉幕禮，亦為女子馬拉松賽事頒獎禮，是奧運歷史上第一次。奧林匹克旗幟之後緩緩落下，由東京都知事小池百合子，交予國際奧委會主席巴赫，再轉予巴黎市長安娜·伊達爾戈，象徵由巴黎接棒。閉幕禮上播放巴黎鐵塔的現場畫面，見到鐵塔上展示巨大的旗幟，是2024巴黎奧運的圖案。聚集在鐵塔前的民眾揮…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/arigatou-37.png"><figcaption><span>圖片素材來源：Tokyo 2020 facebook、直播片段截圖</span></figcaption></figure><p><strong>【20:53】奧林匹克旗幟由巴黎市長接過　象徵接棒辦下屆奧運旗幟</strong></p>
-
-<p>根據傳統，男子馬拉松的頒獎禮都會在閉幕禮舉行。今次東奧的閉幕禮，亦為女子馬拉松賽事頒獎禮，是奧運歷史上第一次。</p>
-
-<p>奧林匹克旗幟之後緩緩落下，由東京都知事小池百合子，交予國際奧委會主席巴赫，再轉予巴黎市長安娜·伊達爾戈，象徵由巴黎接棒。</p>
-
-<p>閉幕禮上播放巴黎鐵塔的現場畫面，見到鐵塔上展示巨大的旗幟，是2024巴黎奧運的圖案。聚集在鐵塔前的民眾揮起法國國旗。法國精英空中表演隊，在天空渲染藍白紅三色，像在半空掛上法國國旗。</p>
-
-<p>下屆巴黎奧運將會新增街舞作比賽項目。</p>
-
-<p><strong>【20:00】閉幕禮唯一觀眾成參與者　運動員持燈光照成「光之五環」</strong></p>
-
-<p>運動員聚首一堂在新國立競技場的草坪上。隨著奧運告一段落，健兒得到最後的成績表，他們都展現歡顏，紛紛向鏡頭展示自己奮力奪得的獎牌，更有健兒忘我般熱舞。</p>
-
-<p>氣氛一轉，場館燈光突滅，再亮起之時，由場地上運動員手持電話燈光照上天空，效果如瀑布在天花流向地面，再湧上半空砌成「光之五環」。</p>
-
-<p>由於疫情關係，運動員沒有機會體驗東京的風土人情。閉幕禮上有平均年齡 50 歲的大叔組合「東京斯卡樂園管絃樂團」演奏，多名表演人員耍樂，猶如日常的東京公園，此構思是想向健兒展示「沒有疫情的東京是甚麽樣子」。</p>
-
-<p>日本女創作歌手 Milet 亦演唱法文歌曲，呈現「法式元素」，因為下屆奧運東道主是法國巴黎。</p>
-
-<p><strong>【19:15】東京奧運閉幕禮　港隊持旗手由劉慕裳擔任</strong></p>
-
-<p>東京奧運閉幕禮，再度破天荒零公眾觀眾，在香港時間晚上 7 時在新國立競技場上演，典禮以「我們共享的世界」為題。</p>
-
-<p>閉幕禮一開始播放多名運動員參加不同項目的片段。國際奧委會主席巴赫及文仁親王之後入場。多名日本奧運得獎選手，及模特兒持大型日本國旗進場，包括奪金泳手大橋悠依，將旗幟交予國防自衛隊，將國旗升起。</p>
-
-<p>閉幕禮上運動員打破順序和國籍的界限入場，香港就由歷史性在空手道奪銅的劉慕裳任持旗手。</p>
-
-<p><strong>【14:30】單車全能賽港隊逄瑤第 18 名完成　指自己「不夠勇敢」</strong></p>
-
-<p>東京奧運場地單車女子全能賽，港隊代表逄瑤與埃及選手並列第18名完成。</p>
-
-<p>全能賽包括捕捉賽、配速賽、淘汰賽及記分賽共4項，逄瑤在首項捕捉賽與其他車手一度「炒車」，最後仍重新投入比賽，完成賽事。</p>
-
-<p>第二項配速賽，21 名選手中，最終只有 19 人完成，逄瑤在比賽中被兩次超圈，最後包尾完成，在總分得到 4 分。第三項淘汰賽，逄瑤是第四名被淘汰的車手，總分取得 10 分。最後一項記分賽，逄瑤被超兩圈，扣 40 分，最後被列作未能完成比賽。</p>
-
-<p>逄瑤賽後見記者時表示，「炒車」後心情反而放開了去比賽，又指不想自己留有遺憾。她續說，能夠參與奧運為其運動員生涯畫上了一個句號，「真切地感受到甚麼是奧運」。</p>
-
-<p>她又說，過往曾與日本代表比賽，感覺對方進步得很快，但自己在原地踏步。她認為自己「不夠勇敢吧，能力仍欠缺很多」，但仍然要盡力比賽，「勇敢大膽地去做」。</p>
-
-<p><strong>【14:00】美國女排史上首次奪金　累計獲 39 金牌超越中國</strong></p>
-
-<p>美國於女排賽事以 25:21、25:20 及 25:14 直落三局擊敗巴西，歷史上首次奪得這項比賽的金牌。加上美國今早在女籃及場地單車連奪兩金，累計獲 39 面金牌，反超前中國，目前暫居獎牌榜榜首。女排賽事的銀牌和銅牌則分別由巴西及塞爾維亞奪得。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/voll-14_23rfquB.png"></figure></div>
-
-<p><strong>【13:00】民政事務局、行政會議及立法會賀李慧詩奪銅</strong></p>
-
-<p>民政事務局局長徐英偉、行政會議及立法會，先後祝賀港隊首席女單車手李慧詩在東京奧運女子爭先賽奪得銅牌。</p>
-
-<p>徐英偉說，李慧詩在奧運會屢創佳績，為香港體壇帶來無限驚喜，是香港運動員的典範，總教練沈金康及團隊亦為單車隊作出重大貢獻。</p>
-
-<p>行政會議召集人陳智思表示，李慧詩無懼傷患，經歷多年磨練，再次踏上奧運單車場，憑著頑強鬥志，愈戰愈勇，展現超群實力，力壓其他國際選手，勇奪銅牌，充分展示香港運動員的拼搏精神。他又說，李慧詩和單車隊的輝煌成績，肯定香港運動員的實力及本港在體育發展的投放。</p>
-
-<p>立法會主席梁君彥代表全體立法會議員致函祝賀，形容李慧詩實力和意志過人，連場賽事經歷高低起伏，一直展現不屈不撓、遇強愈強的拼搏精神，勝不驕、敗不餒，是運動員的典範。他又說，李慧詩再次締造驕人成績，不僅為港爭光，更為香港體壇寫下新的里程碑。</p>
-
-<p><strong>【12:45】林鄭祝賀李慧詩奪銅　稱政府重視體育發展資源配合</strong></p>
-
-<p>特首林鄭月娥熱烈祝賀港隊首席女單車手李慧詩在東京奧運奪得銅牌，林鄭月娥說李慧詩是首名分別在兩屆奧運會奪得獎牌的香港運動員，形容李慧詩的實力及決心，經得起時間考驗，成績斐然，創造香港體壇傳奇，全港市民對她取得的成就感到欣喜。</p>
-
-<p>林鄭月娥又說，香港單車館近年提供頂級比賽及訓練場地，單車隊亦積極與本地大學合作，運用科研成果提升運動員表現，認為李慧詩和單車隊的成功，為體育發展方向與提升精英運動員培訓帶來啓示，當局一定會更重視這方面的資源配合。</p>
-
-<p><strong>【12:30】美國金牌追平中國　有較多銀牌暫居獎牌榜榜首</strong></p>
-
-<p>美國今早在女籃及場地單車連奪兩金，與中國同樣累計獲 38 面金牌。美國因有較多銀牌，反超前中國，目前暫居獎牌榜榜首。<br>
-<br>
-今日下午，中國在拳擊項目，以及美國在女排、拳擊項目，都有機會奪金，最後獎牌榜榜首之位屬誰，仍是未知之數。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/234834340_4420144544737798_3676037696520290944_n.png"></figure></div>
-
-<p><strong>【12:00】港隊累計獲 6 獎牌</strong></p>
-
-<p>香港運動員在今屆奧運中，累計奪得 1 金 2 銀 3 銅的歷史性佳績。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/234834261_4420116941407225_7170748910250953763_n.jpg"></figure></div>
-
-<p><strong>【11:30】場地單車女子全能賽　港隊逄瑶首戰炒車　</strong></p>
-
-<p>香港場地單車代表逄瑶今早出戰女子全能賽，首個項目捕捉賽比賽期間與立陶宛選手 Olivija Baleisyte 雙雙炒車，隨後主車群亦有多名選手發生意外，包括逄瑶共 9 名選手未能完成賽事，並列第 13 名，獲 16 分。</p>
-
-<p>捕捉賽由美國選手 Jennifer Valente 首先衝線，先取 40 分；其次為日本選手梶原悠未和澳洲選手 Annette Edmondson ，分別獲 38 分和 36 分。中國選手劉佳麗以第 10 名衝線，有 22 分。</p>
-
-<p>逄瑶在意外後續出戰配速賽，以分數計在分項排第 19，英國選手 Laura Kenny 以 7 分在分項居首，荷蘭的 Kirsten Wild 和美國 Jennifer Valente 在排第2和第3。中國的劉佳麗未有取分排第 6。</p>
-
-<p>全能賽隨後再進行淘汰賽賽事，逄瑶力戰多圈，終以第 4 名被淘汰選手，分項排第 16；中國選手劉佳麗亦在兩個圈後被淘汰，分項排第 14。而法國選手 Clara Copponi 和日本選手梶原悠未鬥到最後一圈，最終由 Copponi 首先衝線。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/231572252_4419879978097588_220358664962299081_n.jpg"></figure></div>
-
-<p><strong>【11:30】穿港隊戰衣感受港人力量　李慧詩寄語港人「盡力無悔」</strong></p>
-
-<p>李慧詩在賽後感謝團隊用盡所有方法協助她，形容雖然今次只得第三，已算是實現了「一半的願望」她又表示：「學識咗照顧自己，一直好忙有好多嘢做。呢兩個禮拜同自己講，要愛惜自己多啲先有氣力向前走，自己成為最愛自己的人。」</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/234902148_4419909761427943_5445117597249924106_n.png"></figure></div>
-
-<p>被問到有何說話想對香港人說，她答道：「今次大家都有好大期望，我都會希望拎到金牌、獎牌，但人生就係咁，我哋好用力去完成一件事，雖然結果唔係你想咁，但起碼我哋盡力過，無悔，唔好後悔。」</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/233040923_4419983064753946_1068458191353787687_n.jpg"></figure></div>
-
-<p><strong>【10:50】李慧詩奪銅牌</strong></p>
-
-<p>東京奧運場地單車女子爭先賽，「牛下女車神」李慧詩擊敗德國選手 Emma Hinze，成功為香港再添一面銅牌。</p>
-
-<p>香港運動員在今屆奧運中，累計奪得 1 金 2 銀 3 銅的歷史性佳績。<a aria-hidden="true" href="https://www.facebook.com/iamkenny?__cft__[0]=AZVYvlNtZFTM1V46rZxD0FR4eKn72gqaMgqYQVir0BkadKbQxkyxkwJ-KQXgkhzDWLJ04g1jGqfss0fA-ErOG0ripkFDa1Gi_Nt32zpoewQX_DjrG7QLEBGlAHtAaL2YNMZ7ZF7tnB70UczppkCmYHPS1hvS_PphhVPHt23XbMlsGlId9mMXkOUBkZyZVhuRpuheGFUaxkLFDw7kOROBQ58BjyQUQ6oxzgwBJpjlNmTPdQ&amp;__tn__=%3C%2CP-y0.g-R" role="link" tabindex="-1"><object type="nested/pressable"></object></a></p>
-
-<p><a aria-hidden="true" href="https://www.facebook.com/iamkenny?__cft__[0]=AZVYvlNtZFTM1V46rZxD0FR4eKn72gqaMgqYQVir0BkadKbQxkyxkwJ-KQXgkhzDWLJ04g1jGqfss0fA-ErOG0ripkFDa1Gi_Nt32zpoewQX_DjrG7QLEBGlAHtAaL2YNMZ7ZF7tnB70UczppkCmYHPS1hvS_PphhVPHt23XbMlsGlId9mMXkOUBkZyZVhuRpuheGFUaxkLFDw7kOROBQ58BjyQUQ6oxzgwBJpjlNmTPdQ&amp;__tn__=%3C%2CP-y0.g-R" role="link" tabindex="-1"><object type="nested/pressable"></object></a></p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/230587789_4419836408101945_5379961359766863834_n.jpg"></figure></div>
-
-<p><strong>【10:00】</strong>東京奧運最後一天，今日焦點是場地單車女子爭先賽，「牛下女車神」李慧詩昨於八強賽事擊敗上屆奧運銅牌得主、英國選手Katy Marchant，並於今早出戰四強賽，對手是烏克蘭的史達蓮高娃（Olena Starikova）。</p>
-
-<p>賽事為三局兩勝制，惟李慧詩直落兩局不敵 Olena Starikova，將於 10:20 分轉戰銅牌賽。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/233677878_4419701451448774_5946677643846822185_n.jpg"></figure></div>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="體育"/>
-        <published>2021-08-08T02:06:03.287Z</published>
     </entry>
 </feed>
