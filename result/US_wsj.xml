@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Aug 2021 00:52:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Aug 2021 00:58:32 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 09 Aug 2021 00:52:03 GMT</pubDate>
+        <pubDate>Mon, 09 Aug 2021 00:58:31 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -35,13 +35,6 @@
             <pubDate>Sun, 08 Aug 2021 13:20:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[本周經濟大事：中國和美國的通脹數據、英國GDP]]></title>
-            <description><![CDATA[<img width="1280" height="778" src="https://si.wsj.net/public/resources/images/S1-LL887_0808ec_OR_20210807011902.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國本周將公布CPI和PPI數據，此外，美國勞工部的7月消費者價格報告也是本周經濟數據方面的焦點。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E6%9C%AC%E5%91%A8%E7%B6%93%E6%BF%9F%E5%A4%A7%E4%BA%8B%EF%BC%9A%E4%B8%AD%E5%9C%8B%E5%92%8C%E7%BE%8E%E5%9C%8B%E7%9A%84%E9%80%9A%E8%84%B9%E6%95%B8%E6%93%9A%E3%80%81%E8%8B%B1%E5%9C%8Bgdp-11628468109</link>
-            <guid isPermaLink="false">CT-ECB-20210809080424</guid>
-            <pubDate>Mon, 09 Aug 2021 00:25:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[中國7月以美元計進出口同比增速回落至28.1%和19.3%，均不及預期]]></title>
             <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-CO959_TRADEC_G_20190523142832.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國海關總署公布的數據顯示，以美元計，7月份出口同比增速顯著回落至19.3%，進口增速則降至28.1%，雙雙不及市場預期；貿易順差擴大至565.9億美元，稍高於預期。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B7%E6%9C%88%E4%BB%A5%E7%BE%8E%E5%85%83%E8%A8%88%E9%80%B2%E5%87%BA%E5%8F%A3%E5%90%8C%E6%AF%94%E5%A2%9E%E9%80%9F%E5%9B%9E%E8%90%BD%E8%87%B328-1%E5%92%8C19-3%EF%BC%8C%E5%9D%87%E4%B8%8D%E5%8F%8A%E9%A0%90%E6%9C%9F-11628307364</link>
@@ -61,6 +54,13 @@
             <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E5%8F%8D%E5%A3%9F%E6%96%B7%E7%9B%A3%E7%AE%A1%E6%A9%9F%E6%A7%8B%E8%A8%88%E5%8A%83%E5%B0%8D%E7%BE%8E%E5%9C%98%E7%BD%B0%E6%AC%BE%E7%B4%8410%E5%84%84%E7%BE%8E%E5%85%83-11628242811</link>
             <guid isPermaLink="false">CT-BIZ-20210806173027</guid>
             <pubDate>Sat, 07 Aug 2021 01:05:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[富士康宣布收購一家台灣六寸晶圓廠，布局車用晶片]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LK945_FOXCON_OR_20210805072601.jpg" class="webfeedsFeaturedVisual" alt=""/><p>全球最大的電子產品代工商富士康宣布收購一家晶圓製造廠，在全球晶片供應空前緊張的情況下深化晶片業務。通過這項交易，富士康將能夠切入生產正迅速成為電動汽車行業領先技術的半導體產品。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%AF%8C%E5%A3%AB%E5%BA%B7%E5%AE%A3%E5%B8%83%E6%94%B6%E8%B3%BC%E4%B8%80%E5%AE%B6%E5%8F%B0%E7%81%A3%E5%85%AD%E5%AF%B8%E6%99%B6%E5%9C%93%E5%BB%A0%EF%BC%8C%E5%B8%83%E5%B1%80%E8%BB%8A%E7%94%A8%E6%99%B6%E7%89%87-11628220016</link>
+            <guid isPermaLink="false">CT-TEC-20210806110349</guid>
+            <pubDate>Sat, 07 Aug 2021 03:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[強於預期的非農就業報告後，美股大多數走高]]></title>
