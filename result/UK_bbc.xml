@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Aug 2021 05:54:44 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Aug 2021 09:10:43 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[阿里女員工被性侵案：阿里巴巴最高層道歉與中國民眾的憤怒原因]]></title>
+            <description><![CDATA[由於這起事件發生在當事人與客戶的酒局之後，由此也引發了中國互聯網對阿里巴巴內部反應機制及中國「陪酒文化」的討論與批評。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58144599</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58144599</guid>
+            <pubDate>Mon, 09 Aug 2021 09:09:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[台灣藝人助陣奧運遭遇網軍攻擊 行走兩岸生存新法則？]]></title>
             <description><![CDATA[台灣藝人徐熙娣稱台灣奧運選手加油為「國手」，引發中國網民出征。台灣輿論指藝人行走兩岸時的模糊空間越來越小。]]></description>
@@ -34,6 +41,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58114696</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58114696</guid>
             <pubDate>Fri, 06 Aug 2021 13:45:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[東京奧運：這七個賽場上的女運動員，場下竟是科學家]]></title>
+            <description><![CDATA[這七名女性在今夏最重大的體育盛事挑戰過人類的極限，有些甚至奪得了獎牌；而在場下，她們還有一個戰場是大學和研究所。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/science-58142331</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58142331</guid>
+            <pubDate>Mon, 09 Aug 2021 08:14:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：送錢送房送母牛……各國如何獎勵奪得獎牌的運動員]]></title>
@@ -57,25 +71,11 @@
             <pubDate>Mon, 09 Aug 2021 03:35:15 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[東京奧運：香港代表團歷史佳績和未能擺脫的政治陰影]]></title>
-            <description><![CDATA[站上奧運領獎台或取得佳績對於一個國家或地區來說是難得的榮耀時刻，但是在香港卻有不同的反應。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/sports-58112451</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58112451</guid>
-            <pubDate>Sat, 07 Aug 2021 06:01:09 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[新冠疫苗：世衛呼籲暫緩加強針 美國稱「錯誤選擇」]]></title>
             <description><![CDATA[德爾塔（Delta）變種病毒在世界不少國家蔓延之時，世界衛生組織（WHO）呼籲，至少要在9月底前暫緩使用新冠病毒加強疫苗。不過，美國稱這是「錯誤選擇」。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58097696</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58097696</guid>
             <pubDate>Thu, 05 Aug 2021 06:43:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[蘋果重拳排查手機上兒童色虐圖片的是與非]]></title>
-            <description><![CDATA[美國蘋果公司宣佈加大力度保護兒童，掃描和排查蘋果手機用戶中是否有兒童色虐或不雅圖片。此舉引發人們對隱私權的擔憂。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/business-58120023</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/business-58120023</guid>
-            <pubDate>Fri, 06 Aug 2021 21:18:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[余英時逝於普林斯頓 享年91歲：立場堅定的華人史學泰斗]]></title>
@@ -190,6 +190,13 @@
             <pubDate>Sat, 07 Aug 2021 07:18:43 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[蘋果重拳排查手機上兒童色虐圖片的是與非]]></title>
+            <description><![CDATA[美國蘋果公司宣佈加大力度保護兒童，掃描和排查蘋果手機用戶中是否有兒童色虐或不雅圖片。此舉引發人們對隱私權的擔憂。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/business-58120023</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/business-58120023</guid>
+            <pubDate>Fri, 06 Aug 2021 21:18:23 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[美國允許在美香港居民延期居留，中國批評「雕蟲小技」]]></title>
             <description><![CDATA[目前在美國的香港居民將可以獲得最長18個月的「暫緩撤離」期限，讓他們暫時得以在美國居住。中國政府對此表示堅決反對和強烈譴責。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58112391</link>
@@ -286,6 +293,13 @@
             <link>https://www.bbc.com/zhongwen/trad/fooc-58131871</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/fooc-58131871</guid>
             <pubDate>Sat, 07 Aug 2021 17:10:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[東京奧運：香港代表團歷史佳績和未能擺脫的政治陰影]]></title>
+            <description><![CDATA[站上奧運領獎台或取得佳績對於一個國家或地區來說是難得的榮耀時刻，但是在香港卻有不同的反應。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58112451</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58112451</guid>
+            <pubDate>Sat, 07 Aug 2021 06:01:09 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：美國鉛球選手領獎台示威對她個人的意義]]></title>
