@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Aug 2021 01:33:13 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Aug 2021 01:37:46 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[台灣藝人助陣奧運遭遇網軍攻擊 行走兩岸生存新法則？]]></title>
+            <description><![CDATA[台灣藝人徐熙娣稱台灣奧運選手加油為「國手」，引發中國網民出征。台灣輿論指藝人行走兩岸時的模糊空間越來越小。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58116399</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58116399</guid>
+            <pubDate>Mon, 09 Aug 2021 01:32:26 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[東京奧運閉幕：新冠疫情以外的八大回憶]]></title>
             <description><![CDATA[東京奧運聖火在新冠疫情陰霾下安然熄滅，本屆大會缺少了數以十萬人次計算的現場觀眾，卻留下了許多讓人印象深刻的片段。]]></description>
@@ -62,13 +69,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58112853</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58112853</guid>
             <pubDate>Fri, 06 Aug 2021 07:34:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[法國人體內為何滿布重金屬]]></title>
-            <description><![CDATA[【BBC時事一周（粵語）——華人談天下】法國特約記者翁素雲講述為什麼法國人體內有那麼多重金屬。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/columns-58131869</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/columns-58131869</guid>
-            <pubDate>Sat, 07 Aug 2021 17:02:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運、中國新冠疫情、余英時逝世與本周更多重要故事]]></title>
@@ -370,6 +370,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58086453</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58086453</guid>
             <pubDate>Wed, 04 Aug 2021 16:10:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[法國人體內為何滿布重金屬]]></title>
+            <description><![CDATA[【BBC時事一周（粵語）——華人談天下】法國特約記者翁素雲講述為什麼法國人體內有那麼多重金屬。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/columns-58131869</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/columns-58131869</guid>
+            <pubDate>Sat, 07 Aug 2021 17:02:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：抖音成為新世代運動員與粉絲互動的平台]]></title>
