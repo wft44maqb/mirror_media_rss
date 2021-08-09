@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Mon, 09 Aug 2021 17:07:49 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Aug 2021 17:17:51 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[那些我们没有教给男孩的事]]></title>
+            <link><![CDATA[https://cn.nytimes.com/opinion/20210809/boys-gender-books-culture/?utm_source=RSS]]></link>
+            <description><![CDATA[男孩在成长过程中消费的每一种叙事里都缺乏真实的人类，几乎没有情感的复杂性。这种情感和关系教育的缺失对他们和社会都有负面影响。<p><img src='https://static01.nyt.com/images/2021/08/10/opinion/10whippman-inyt/30whippman_-articleLarge.jpg' alt=' Sam Island'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Sam Island</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>观点与评论</category>
+            <dc:creator><![CDATA[RUTH WHIPPMAN]]></dc:creator>
+            <pubDate>Mon, 09 Aug 2021 05:12:51 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210809/boys-gender-books-culture/]]></guid>
+        </item>
             <item>
             <title><![CDATA[阿里解雇涉嫌强奸下属员工，受害人称此前向公司反映无果]]></title>
             <link><![CDATA[https://cn.nytimes.com/business/20210809/alibaba-rape-china-metoo/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[CHRIS CAMERON]]></dc:creator>
             <pubDate>Fri, 06 Aug 2021 10:21:14 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210806/biden-hong-kong-deportation/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[变种毒株迅速传播，中国防疫模式还能成功吗？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210805/china-delta-covid-testing-outbreak/?utm_source=RSS]]></link>
-            <description><![CDATA[德尔塔毒株有高传染性，依靠此前以遏制为基础的战略控制疫情将更为困难。国产疫苗对变种病毒的效果性有限，民众对多轮核酸以及封锁措施也感到疲惫不堪。<p><img src='https://static01.nyt.com/images/2021/08/04/world/04virus-china1/merlin_192596679_21bc0f95-52ac-4416-bea0-3f8c411d5b53-articleLarge.jpg' alt='周二，等待核酸检测的武汉民众。 Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>周二，等待核酸检测的武汉民众。</p>                    ]]></description>
-            <category>中国</category>
-            <dc:creator><![CDATA[黄瑞黎,ELSIE CHEN]]></dc:creator>
-            <pubDate>Fri, 06 Aug 2021 09:35:12 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210805/china-delta-covid-testing-outbreak/]]></guid>
         </item>
     </channel>
 </rss>
