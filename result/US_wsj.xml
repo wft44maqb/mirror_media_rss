@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Aug 2021 12:08:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Aug 2021 23:29:40 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 09 Aug 2021 12:08:19 GMT</pubDate>
+        <pubDate>Mon, 09 Aug 2021 23:29:39 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -32,7 +32,7 @@
             <description><![CDATA[<img width="1279" height="862" src="https://si.wsj.net/public/resources/images/S1-LM010_ALIMET_OR_20210808090000.jpg" class="webfeedsFeaturedVisual" alt=""/><p>警方正在調查阿里巴巴一名女員工針對其時任主管的性侵指控；這家中國電商巨頭的CEO張勇在內網發帖中稱「震驚，氣憤，羞愧」。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E5%A5%B3%E5%93%A1%E5%B7%A5%E6%80%A7%E4%BE%B5%E6%8C%87%E6%8E%A7%E5%BC%95%E7%99%BC%E7%9C%BE%E6%80%92%E5%8F%8A%E8%AA%BF%E6%9F%A5-11628486109</link>
             <guid isPermaLink="false">CT-BCH-20210809125700</guid>
-            <pubDate>Mon, 09 Aug 2021 05:55:00 GMT</pubDate>
+            <pubDate>Mon, 09 Aug 2021 23:15:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中國7月份PPI跳漲，儘管已採取措施平抑大宗商品價格]]></title>
@@ -63,6 +63,13 @@
             <pubDate>Mon, 09 Aug 2021 05:55:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[美國國務院對未經授權向中國和俄羅斯出口雷達軟體的公司處以罰款]]></title>
+            <description><![CDATA[<img width="1280" height="978" src="https://si.wsj.net/public/resources/images/S1-LM184_RADAR0_OR_20210809102543.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國國務院周一對矽谷一家雷達製造商處以罰款，該公司承認違反美國敏感國防技術出口的規定。Keysight從2015年開始向中國、俄羅斯和其他15個國家出售軟體和設備，共計24次未經授權出口。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E5%9C%8B%E5%8B%99%E9%99%A2%E5%B0%8D%E6%9C%AA%E7%B6%93%E6%8E%88%E6%AC%8A%E5%90%91%E4%B8%AD%E5%9C%8B%E5%92%8C%E4%BF%84%E7%BE%85%E6%96%AF%E5%87%BA%E5%8F%A3%E9%9B%B7%E9%81%94%E8%BB%9F%E9%AB%94%E7%9A%84%E5%85%AC%E5%8F%B8%E8%99%95%E4%BB%A5%E7%BD%B0%E6%AC%BE-11628551208</link>
+            <guid isPermaLink="false">CT-BGH-20210810071000</guid>
+            <pubDate>Mon, 09 Aug 2021 23:25:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[聯合國報告：一些氣候變化影響可能無法挽回]]></title>
             <description><![CDATA[<img width="1280" height="852" src="https://si.wsj.net/public/resources/images/S1-LL769_CLIMAT_OR_20210806170839.jpg" class="webfeedsFeaturedVisual" alt=""/><p>聯合國創建的政府間氣候變化專門委員會在周一公布的最新報告中表示，未來幾個世紀，海平面上升、冰蓋融化和氣候變暖的其他影響可能無可挽回，並且「肯定」是由人類活動排放的溫室氣體所導致。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E8%81%AF%E5%90%88%E5%9C%8B%E5%A0%B1%E5%91%8A%EF%BC%9A%E4%B8%80%E4%BA%9B%E6%B0%A3%E5%80%99%E8%AE%8A%E5%8C%96%E5%BD%B1%E9%9F%BF%E5%8F%AF%E8%83%BD%E7%84%A1%E6%B3%95%E6%8C%BD%E5%9B%9E-11628506210</link>
@@ -84,13 +91,6 @@
             <pubDate>Mon, 09 Aug 2021 06:55:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[創紀錄現金湧入短期市場是不是壞兆頭？]]></title>
-            <description><![CDATA[<img width="1280" height="1280" src="https://si.wsj.net/public/resources/images/S1-LK117_REPO5T_OR_20210803114824.jpg" class="webfeedsFeaturedVisual" alt=""/><p>超1兆美元湧入美聯儲逆回購工具，華爾街擔心未來可能會出現一段動蕩時期。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%89%B5%E7%B4%80%E9%8C%84%E7%8F%BE%E9%87%91%E6%B9%A7%E5%85%A5%E7%9F%AD%E6%9C%9F%E5%B8%82%E5%A0%B4%E6%98%AF%E4%B8%8D%E6%98%AF%E5%A3%9E%E5%85%86%E9%A0%AD%EF%BC%9F-11628487010</link>
-            <guid isPermaLink="false">CT-MKT-20210809131253</guid>
-            <pubDate>Mon, 09 Aug 2021 08:25:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[美國富瑞金融初級員工薪資將與高盛相當，位居華爾街榜首]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LM070_JEFFPA_OR_20210808173240.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據知情人士透露，美國富瑞金融集團將向高盛集團看齊，在華爾街年輕銀行業者薪酬榜上位列榜首，力求與更知名的競爭對手一較高下。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E5%AF%8C%E7%91%9E%E9%87%91%E8%9E%8D%E5%88%9D%E7%B4%9A%E5%93%A1%E5%B7%A5%E8%96%AA%E8%B3%87%E5%B0%87%E8%88%87%E9%AB%98%E7%9B%9B%E7%9B%B8%E7%95%B6%EF%BC%8C%E4%BD%8D%E5%B1%85%E8%8F%AF%E7%88%BE%E8%A1%97%E6%A6%9C%E9%A6%96-11628509510</link>
@@ -102,7 +102,7 @@
             <description><![CDATA[<img width="1280" height="720" src="https://si.wsj.net/public/resources/images/S1-LM124_oilmkt_OR_20210809064740.jpg" class="webfeedsFeaturedVisual" alt=""/><p>石油和其他主要工業大宗商品價格周一下跌，此前中國政府阻止德爾塔變異毒株傳播的措施令投資者對全球能源需求感到擔憂。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E6%B2%B9%E5%83%B9%E7%B9%BC%E7%BA%8C%E4%B8%8B%E6%BB%91%EF%BC%8C%E5%9C%A8%E7%96%AB%E6%83%85%E6%93%94%E6%86%82%E8%A1%9D%E6%93%8A%E4%B8%8B%E8%B5%B0%E4%BD%8E4-11628502909</link>
             <guid isPermaLink="false">CT-FIN-20210809174734</guid>
-            <pubDate>Mon, 09 Aug 2021 11:55:00 GMT</pubDate>
+            <pubDate>Mon, 09 Aug 2021 12:15:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[影院業本財季輕鬆翻盤，但全面復甦仍需時日]]></title>

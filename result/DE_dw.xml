@@ -6,8 +6,8 @@
   <description>News, Analysis and Service from Germany and Europe - in 30 Languages</description>
   <language>zh</language>
   <copyright>2021 DW.COM, Deutsche Welle</copyright>
-  <pubDate>Mon, 9 Aug 2021 12:03:29 GMT</pubDate>
-  <lastBuildDate>Mon, 9 Aug 2021 12:03:29 GMT</lastBuildDate>
+  <pubDate>Mon, 9 Aug 2021 23:25:04 GMT</pubDate>
+  <lastBuildDate>Mon, 9 Aug 2021 23:25:04 GMT</lastBuildDate>
   <atom:link href="https://rss.dw.com/xml/podcast_radio_china" rel="self"/>
   <image>
    <url>https://static.dw.com/image/2273684_7.jpg</url>
@@ -28,6 +28,32 @@
    <itunes:category text="Politics"/>
   </itunes:category>
   <ttl>10</ttl>
+  <item>
+   <guid isPermaLink="false">58810155</guid>
+   <pubDate>Mon, 9 Aug 2021 14:55:00 GMT</pubDate>
+   <title>塔利班卷土重来 生活在印度的他们忧心忡忡</title>
+   <link>https://www.dw.com/zh/塔利班卷土重来-生活在印度的他们忧心忡忡/av-58810155?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>1990年代塔利班在阿富汗掌权之后，成千上万的阿富汗难民逃往印度。他们中的大多数人生活在德里，经济窘迫。由于塔利班可能再度控制阿富汗，这些难民返回祖国的希望日益渺茫，新一波难民可能即将到来。德国之声与一名阿富汗难民进行交谈：面对前景不明的未来，他最担心什么事情？</description>
+   <category>时政风云</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>塔利班, 阿富汗, 难民, 印度</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210809_001_refugeeafghan_sd.mp4" type="video/mp4" length="13759711"/>
+   <itunes:duration>02:49</itunes:duration>
+  </item>
+  <item>
+   <guid isPermaLink="false">58807383</guid>
+   <pubDate>Mon, 9 Aug 2021 12:18:00 GMT</pubDate>
+   <title>苏联时代的这座鬼楼会变成艺术品？</title>
+   <link>https://www.dw.com/zh/苏联时代的这座鬼楼会变成艺术品？/av-58807383?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>在长达50多年的时间里，苏维埃之家都是加里宁格勒丰富文化历史的象征。这座造型醒目的建筑花了20多年才建造完毕，然后却又空置30年，现在面临拆除的命运。</description>
+   <category>文化经纬</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>苏联, 苏维埃, 烂尾楼, 鬼楼, 俄罗斯, 加里宁格勒, 改造, 拆除, 街头艺术, 涂鸦</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210809_001_soviethouse_sd.mp4" type="video/mp4" length="9181259"/>
+   <itunes:duration>01:50</itunes:duration>
+  </item>
   <item>
    <guid isPermaLink="false">58781584</guid>
    <pubDate>Sun, 8 Aug 2021 07:52:00 GMT</pubDate>
@@ -391,32 +417,6 @@
    <itunes:explicit>clean</itunes:explicit>
    <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210629_001_5b1f0houseneu_sd.mp4" type="video/mp4" length="8854429"/>
    <itunes:duration>01:47</itunes:duration>
-  </item>
-  <item>
-   <guid isPermaLink="false">58049746</guid>
-   <pubDate>Sat, 26 Jun 2021 06:16:00 GMT</pubDate>
-   <title>亲历奥兰多枪击案后 她成为急救员</title>
-   <link>https://www.dw.com/zh/亲历奥兰多枪击案后-她成为急救员/av-58049746?maca=chi-podcast_radio_china-1169-xml-mrss</link>
-   <description>在五年前发生的奥兰多同志酒吧「脉动」枪击案中，阿曼达身中四枪，与死神擦肩而过。 今天，她成为一名急救员，希望能够挽救更多人的生命。 而自己心灵上的伤痕，却永难愈合。</description>
-   <category>时政风云</category>
-   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
-   <itunes:keywords>奥兰多枪击案, 幸存者, 美国, 仇恨, 同性恋, LGBTQ</itunes:keywords>
-   <itunes:explicit>clean</itunes:explicit>
-   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210625_001_0cbe0orlando_sd.mp4" type="video/mp4" length="15871090"/>
-   <itunes:duration>03:09</itunes:duration>
-  </item>
-  <item>
-   <guid isPermaLink="false">58002640</guid>
-   <pubDate>Tue, 22 Jun 2021 14:29:00 GMT</pubDate>
-   <title>「媽媽，我不能呼吸了！」</title>
-   <link>https://www.dw.com/zh/「媽媽，我不能呼吸了！」/av-58002640?maca=chi-podcast_radio_china-1169-xml-mrss</link>
-   <description>在印尼首都雅加達，由於空氣污染嚴重，5岁的小男孩齊丹差點因爲哮喘而喪命。她的媽媽對記者說：「我每天都活在恐懼之中。」</description>
-   <category>科技环境</category>
-   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
-   <itunes:keywords>空气污染, 印尼, 哮喘</itunes:keywords>
-   <itunes:explicit>clean</itunes:explicit>
-   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210622_001_cc295indonesiaboy_sd.mp4" type="video/mp4" length="19284209"/>
-   <itunes:duration>03:58</itunes:duration>
   </item>
  </channel>
 </rss>
