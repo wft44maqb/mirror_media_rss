@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Aug 2021 10:12:18 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Aug 2021 10:21:28 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -29,11 +29,11 @@
             <pubDate>Mon, 09 Aug 2021 01:32:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[東京奧運閉幕：新冠疫情以外的八大回憶]]></title>
-            <description><![CDATA[東京奧運聖火在新冠疫情陰霾下安然熄滅，本屆大會缺少了數以十萬人次計算的現場觀眾，卻留下了許多讓人印象深刻的片段。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/sports-58134105</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58134105</guid>
-            <pubDate>Sun, 08 Aug 2021 11:34:49 GMT</pubDate>
+            <title><![CDATA[觀察：東京奧運與中國人奧運觀的變遷]]></title>
+            <description><![CDATA[請問有「神」是排名第六嗎？但在很多中國人看來，排第六也是他們的「神」。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58143640</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58143640</guid>
+            <pubDate>Mon, 09 Aug 2021 10:15:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[新冠疫情：「成功的受害者」中國能否放棄「清零」與病毒共存 ？]]></title>
@@ -48,6 +48,13 @@
             <link>https://www.bbc.com/zhongwen/trad/science-58142331</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58142331</guid>
             <pubDate>Mon, 09 Aug 2021 08:14:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[東京奧運閉幕：新冠疫情以外的八大回憶]]></title>
+            <description><![CDATA[東京奧運聖火在新冠疫情陰霾下安然熄滅，本屆大會缺少了數以十萬人次計算的現場觀眾，卻留下了許多讓人印象深刻的片段。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58134105</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58134105</guid>
+            <pubDate>Sun, 08 Aug 2021 11:34:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運：送錢送房送母牛……各國如何獎勵奪得獎牌的運動員]]></title>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58142031</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58142031</guid>
             <pubDate>Mon, 09 Aug 2021 03:35:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[新冠疫苗：世衛呼籲暫緩加強針 美國稱「錯誤選擇」]]></title>
-            <description><![CDATA[德爾塔（Delta）變種病毒在世界不少國家蔓延之時，世界衛生組織（WHO）呼籲，至少要在9月底前暫緩使用新冠病毒加強疫苗。不過，美國稱這是「錯誤選擇」。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58097696</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58097696</guid>
-            <pubDate>Thu, 05 Aug 2021 06:43:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[余英時逝於普林斯頓 享年91歲：立場堅定的華人史學泰斗]]></title>
@@ -188,6 +188,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58126192</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58126192</guid>
             <pubDate>Sat, 07 Aug 2021 07:18:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新冠疫苗：世衛呼籲暫緩加強針 美國稱「錯誤選擇」]]></title>
+            <description><![CDATA[德爾塔（Delta）變種病毒在世界不少國家蔓延之時，世界衛生組織（WHO）呼籲，至少要在9月底前暫緩使用新冠病毒加強疫苗。不過，美國稱這是「錯誤選擇」。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58097696</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58097696</guid>
+            <pubDate>Thu, 05 Aug 2021 06:43:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[蘋果重拳排查手機上兒童色虐圖片的是與非]]></title>
