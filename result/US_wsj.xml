@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Aug 2021 03:24:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Aug 2021 03:26:48 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 09 Aug 2021 03:24:19 GMT</pubDate>
+        <pubDate>Mon, 09 Aug 2021 03:26:48 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -35,10 +35,10 @@
             <pubDate>Mon, 09 Aug 2021 03:15:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[中國7月PPI同比漲幅再度擴大至9.0%且高於預期，環比漲幅也有所擴大]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-KQ088_0609ci_OR_20210609030615.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國國家統計局公布，在上月漲幅稍稍回落後，7月份PPI同比漲幅再度擴大至9.0%，且強於預期，環比漲幅也有所擴大，主要受油、煤炭及相關產品價格大幅上漲影響。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B7%E6%9C%88ppi%E5%90%8C%E6%AF%94%E6%BC%B2%E5%B9%85%E5%86%8D%E5%BA%A6%E6%93%B4%E5%A4%A7%E8%87%B39-0%E4%B8%94%E9%AB%98%E6%96%BC%E9%A0%90%E6%9C%9F%EF%BC%8C%E7%92%B0%E6%AF%94%E6%BC%B2%E5%B9%85%E4%B9%9F%E6%9C%89%E6%89%80%E6%93%B4%E5%A4%A7-11628474410</link>
-            <guid isPermaLink="false">CT-CEC-20210809095044</guid>
+            <title><![CDATA[面對疫情和極端天氣，中國出口保持韌性]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LL889_0807ct_OR_20210807031202.jpg" class="webfeedsFeaturedVisual" alt=""/><p>儘管中國7月份進出口增長有所放緩，但在國內洪災和德爾塔變種威脅等挑戰之下，中國的出口部門仍然顯示出了持續的韌性。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E9%9D%A2%E5%B0%8D%E7%96%AB%E6%83%85%E5%92%8C%E6%A5%B5%E7%AB%AF%E5%A4%A9%E6%B0%A3%EF%BC%8C%E4%B8%AD%E5%9C%8B%E5%87%BA%E5%8F%A3%E4%BF%9D%E6%8C%81%E9%9F%8C%E6%80%A7-11628478309</link>
+            <guid isPermaLink="false">CT-CEC-20210809103714</guid>
             <pubDate>Mon, 09 Aug 2021 03:20:00 GMT</pubDate>
         </item>
         <item>
@@ -63,6 +63,13 @@
             <pubDate>Sat, 07 Aug 2021 03:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[美國參議院接近通過基建法案]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LL763_infras_OR_20210806170130.jpg" class="webfeedsFeaturedVisual" alt=""/><p>約1兆美元的兩黨基礎設施法案在參議院通過了最後一組程式性障礙，使該立法有望在未來幾天內輕鬆通過。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E5%8F%83%E8%AD%B0%E9%99%A2%E6%8E%A5%E8%BF%91%E9%80%9A%E9%81%8E%E5%9F%BA%E5%BB%BA%E6%B3%95%E6%A1%88-11628478911</link>
+            <guid isPermaLink="false">CT-BGH-20210809104728</guid>
+            <pubDate>Mon, 09 Aug 2021 03:20:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[強於預期的非農就業報告後，美股大多數走高]]></title>
             <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LL388_0806pa_OR_20210806031613.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美股大多走高，非農就業報告超預期顯示經濟繼續反彈，但也引發了對美聯儲政策的新質疑。道指和標普500指數再創新高，但漲幅不大。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E5%BC%B7%E6%96%BC%E9%A0%90%E6%9C%9F%E7%9A%84%E9%9D%9E%E8%BE%B2%E5%B0%B1%E6%A5%AD%E5%A0%B1%E5%91%8A%E5%BE%8C%EF%BC%8C%E7%BE%8E%E8%82%A1%E5%A4%A7%E5%A4%9A%E6%95%B8%E8%B5%B0%E9%AB%98-11628295911</link>
@@ -82,13 +89,6 @@
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E5%B0%87%E8%A8%AD%E5%AE%9A2030%E5%B9%B4%E9%9B%BB%E5%8B%95%E6%B1%BD%E8%BB%8A%E9%8A%B7%E5%94%AE%E9%87%8F%E9%81%94%E5%88%B050%E7%9A%84%E7%9B%AE%E6%A8%99-11628159413</link>
             <guid isPermaLink="false">CT-BGH-20210805181856</guid>
             <pubDate>Fri, 06 Aug 2021 04:15:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[美國為部分香港居民提供「臨時避風港」]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LK980_USHONG_OR_20210805093214.jpg" class="webfeedsFeaturedVisual" alt=""/><p>符合該計劃資格的香港人將獲得為期18個月的工作許可，並可暫緩被驅逐出境。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E6%8B%9C%E7%99%BB%E7%B0%BD%E7%BD%B2%E5%91%BD%E4%BB%A4%E5%85%81%E8%A8%B1%E9%83%A8%E5%88%86%E9%A6%99%E6%B8%AF%E5%B1%85%E6%B0%91%E7%95%99%E5%9C%A8%E7%BE%8E%E5%9C%8B-11628208308</link>
-            <guid isPermaLink="false">CT-BGH-20210806074817</guid>
-            <pubDate>Sat, 07 Aug 2021 03:46:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[比特幣價格在近200日移動均線處上升遇阻]]></title>
@@ -124,6 +124,13 @@
             <link>https://cn.wsj.com/articles/%E7%B5%A6%E5%88%9D%E5%85%A5%E8%81%B7%E5%A0%B4%E8%80%85%E7%9A%84%E5%9B%9B%E6%AD%A5%E7%90%86%E8%B2%A1%E8%A8%88%E5%8A%83-11628209811</link>
             <guid isPermaLink="false">CT-FIN-20210806081523</guid>
             <pubDate>Fri, 06 Aug 2021 08:45:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[銷售職位薪水高、機會多，年輕人為何不願做？]]></title>
+            <description><![CDATA[<img width="1280" height="1280" src="https://si.wsj.net/public/resources/images/S1-LC321_SALESJ_OR_20210713122929.jpg" class="webfeedsFeaturedVisual" alt=""/><p>近年來，銷售工作發生了很大變化，但年輕人可能還是把這一職位與「高壓」聯繫在一起，導致應聘者有限。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E9%8A%B7%E5%94%AE%E8%81%B7%E4%BD%8D%E8%96%AA%E6%B0%B4%E9%AB%98%E3%80%81%E6%A9%9F%E6%9C%83%E5%A4%9A%EF%BC%8C%E5%B9%B4%E8%BC%95%E4%BA%BA%E7%82%BA%E4%BD%95%E4%B8%8D%E9%A1%98%E5%81%9A%EF%BC%9F-11628037616</link>
+            <guid isPermaLink="false">CT-LIF-20210804082257</guid>
+            <pubDate>Wed, 04 Aug 2021 00:40:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Delta變種病毒的傳染性到底有多強？要怎麼防？]]></title>
