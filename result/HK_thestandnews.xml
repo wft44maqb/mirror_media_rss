@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-10T08:43:43.083Z</updated>
+    <updated>2021-08-10T08:48:45.640Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -288,6 +288,22 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
         <published>2021-08-10T05:46:58.547Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[錄 4 宗輸入個案　3 人驗出 L452R 變種病毒　均曾打復必泰]]></title>
+        <id>https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0</id>
+        <link href="https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0"/>
+        <updated>2021-08-10T07:38:12.950Z</updated>
+        <summary type="html"><![CDATA[本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R …]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/213304538_10225413250942820_1816994039630113711_n.png"></figure><p>本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。</p>
+
+<p>4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R 變種病毒；另一名 60 歲女子自泰國抵港，是一名外傭，同樣於 8 月 8 日抵港，亦驗出 L452R 變種病毒。最後一名 34 歲男子自美國抵港，L452R 的檢驗結果待定，其他變種病毒檢驗則呈陰性，於 8 月 6 日抵港。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-10T07:38:12.950Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[新一期綠置居攪珠結果出爐　7.2 萬申請爭 3400 個單位　10 月開始揀樓]]></title>
         <id>https://www.thestandnews.com/society/%E6%96%B0%E4%B8%80%E6%9C%9F%E7%B6%A0%E7%BD%AE%E5%B1%85%E6%94%AA%E7%8F%A0%E7%B5%90%E6%9E%9C%E5%87%BA%E7%88%90-72-%E8%90%AC%E7%94%B3%E8%AB%8B%E7%88%AD-3400-%E5%80%8B%E5%96%AE%E4%BD%8D-10-%E6%9C%88%E9%96%8B%E5%A7%8B%E6%8F%80%E6%A8%93</id>
         <link href="https://www.thestandnews.com/society/%E6%96%B0%E4%B8%80%E6%9C%9F%E7%B6%A0%E7%BD%AE%E5%B1%85%E6%94%AA%E7%8F%A0%E7%B5%90%E6%9E%9C%E5%87%BA%E7%88%90-72-%E8%90%AC%E7%94%B3%E8%AB%8B%E7%88%AD-3400-%E5%80%8B%E5%96%AE%E4%BD%8D-10-%E6%9C%88%E9%96%8B%E5%A7%8B%E6%8F%80%E6%A8%93"/>
@@ -310,58 +326,10 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
         <published>2021-08-10T07:17:55.150Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[錄 4 宗輸入個案　3 人驗出 L452R 變種病毒　均曾打復必泰]]></title>
-        <id>https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0</id>
-        <link href="https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0"/>
-        <updated>2021-08-10T07:38:12.950Z</updated>
-        <summary type="html"><![CDATA[本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R …]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/213304538_10225413250942820_1816994039630113711_n.png"></figure><p>本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。</p>
-
-<p>4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R 變種病毒；另一名 60 歲女子自泰國抵港，是一名外傭，同樣於 8 月 8 日抵港，亦驗出 L452R 變種病毒。最後一名 34 歲男子自美國抵港，L452R 的檢驗結果待定，其他變種病毒檢驗則呈陰性，於 8 月 6 日抵港。</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="社會"/>
-        <published>2021-08-10T07:38:12.950Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[父涉姦女家人涉教唆改口供　辯方：事主有機心、母親原告變被告]]></title>
-        <id>https://www.thestandnews.com/court/%E7%88%B6%E6%B6%89%E5%A7%A6%E5%A5%B3%E5%AE%B6%E4%BA%BA%E6%B6%89%E6%95%99%E5%94%86%E6%94%B9%E5%8F%A3%E4%BE%9B-%E8%BE%AF%E6%96%B9%E4%BA%8B%E4%B8%BB%E6%9C%89%E6%A9%9F%E5%BF%83%E6%AF%8D%E8%A6%AA%E5%8E%9F%E5%91%8A%E8%AE%8A%E8%A2%AB%E5%91%8A</id>
-        <link href="https://www.thestandnews.com/court/%E7%88%B6%E6%B6%89%E5%A7%A6%E5%A5%B3%E5%AE%B6%E4%BA%BA%E6%B6%89%E6%95%99%E5%94%86%E6%94%B9%E5%8F%A3%E4%BE%9B-%E8%BE%AF%E6%96%B9%E4%BA%8B%E4%B8%BB%E6%9C%89%E6%A9%9F%E5%BF%83%E6%AF%8D%E8%A6%AA%E5%8E%9F%E5%91%8A%E8%AE%8A%E8%A2%AB%E5%91%8A"/>
-        <updated>2021-08-10T07:25:06.491Z</updated>
-        <summary type="html"><![CDATA[13 歲女童報警稱遭親生父親性侵後，於庭上更改口供，親父最終脫罪。警方經調查後，拘捕女童５名親友，包括其父母、祖父母及叔父，控以串謀妨礙司法公正等罪，辯方今（10 日）繼續結案陳詞。X 母親的代表律師指，被告在強姦案開審前帶 X 回內地，因她是「小女人」，不敢面對及擔心家醜外傳；代表 X 祖母的大律師則指，X 思想不簡單、有機心，她對祖母有偏見，認為祖母與父親一樣重男輕女、偏心弟弟。代表次被告、…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/%E6%B6%89%E6%95%99%E5%94%86%E6%94%B9%E5%8F%A3%E4%BE%9B.png"></figure><p>13 歲女童報警稱遭親生父親性侵後，於庭上更改口供，親父最終脫罪。警方經調查後，拘捕女童５名親友，包括其父母、祖父母及叔父，控以串謀妨礙司法公正等罪，辯方今（10 日）繼續結案陳詞。X 母親的代表律師指，被告在強姦案開審前帶 X 回內地，因她是「小女人」，不敢面對及擔心家醜外傳；代表 X 祖母的大律師則指，X 思想不簡單、有機心，她對祖母有偏見，認為祖母與父親一樣重男輕女、偏心弟弟。</p>
-
-<p>代表次被告、即事主母親的大律師陳詞指，次被告在強姦案開審前帶 X 回內地，並非有意妨礙司法公正，而是因為她害怕、不敢面對及保護家庭。次被告回港後，亦有上庭向當時處理案件的法官解釋，「我唔想家醜外傳，我選擇逃避返大陸。」辯方指當時法官接納其解釋及沒有追究，亦沒有指次被告妨礙法院執行公義。</p>
-
-<p><strong>辯方：X 母回港後上庭解釋　法官未有追究</strong></p>
-
-<p>辯方續指，次被告只是一個小女人，「佢要面對屋企發生咁樣事情⋯⋯盡佢辦法保護個女」。辯方又指，次被告在審訊前帶 X 及弟弟離港，明白會惹警方及控方懷疑，但強調她當時已向法庭解釋，「法庭冇追究、懲罰，事件已經告一段落。」他指事主父親獲判無罪釋放，與事主母親帶 X 離港，兩件事沒有關連，「點解要拉埋次被告？佢原先係報案人、控方證人，原告變被告。」</p>
-
-<p>代表第三被告、即事主祖母的大律師陳詞指，控方主要依賴 X 的證供，故 X 的可信性很重要。然而，辯方指 X 在法庭一邊作供一邊說謊、隱瞞事實，不是誠實可靠證人。辯方又指，根據早前審訊，祖母一直對 X 照顧有加，X 卻指受祖母賄賂。辯方指 X 有動機指控祖母，因 X 對祖母有偏見，認為她與父親一樣重男輕女、偏心弟弟。</p>
-
-<p><strong>辯方：X 思想不簡單　向警方提出多項要求</strong></p>
-
-<p>辯方又指，X 在「願望清單」寫下願望及憂慮，她要求改名換姓、有樓、到深圳生活及獲得金錢資助，「睇到 X 唔係思想簡單嘅人，係有機心、有計劃嘅人，X 對警方作出一個又一個長遠持續嘅要求。」辯方指處理案件的督察沒有直接拒絕 X 的要求，更答應 X 會盡量幫她，對 X 來說是很大的誘因。</p>
-
-<p>5 名被告分別為事主 X 的父親（44 歲）、母親（42 歲）、祖母（67 歲）、叔父（39 歲）及祖父（65 歲）。當中 X 父親、祖父母及叔父被控一項串謀妨礙司法公正罪，指他們於 2018 年 10 月 8 日至 2019 年 1 月 23 日期間，在香港一同串謀妨礙司法公正，即令 X 在高等法院一宗刑事案件審訊中，更改原擬作出的證供。</p>
-
-<p>X 父母另同被控 1 項作出傾向並意圖妨礙司法公正的作為罪，指他們於 2018 年 10 月 20 日，作出一連串有妨礙司法公正傾向作為，即致使母親及 X 離開香港，意圖使她們不以控方證人身分在高等法院一刑事審訊中作供。</p>
-
-<p>案件編號：HCCC126/2020</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="法庭"/>
-        <published>2021-08-10T07:07:38.918Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【Back Up 香港．3】本土歷史熱　填補課本與學術以外的空白]]></title>
         <id>https://www.thestandnews.com/society/back-up-%E9%A6%99%E6%B8%AF3-%E6%9C%AC%E5%9C%9F%E6%AD%B7%E5%8F%B2%E7%86%B1-%E5%A1%AB%E8%A3%9C%E8%AA%B2%E6%9C%AC%E8%88%87%E5%AD%B8%E8%A1%93%E4%BB%A5%E5%A4%96%E7%9A%84%E7%A9%BA%E7%99%BD</id>
         <link href="https://www.thestandnews.com/society/back-up-%E9%A6%99%E6%B8%AF3-%E6%9C%AC%E5%9C%9F%E6%AD%B7%E5%8F%B2%E7%86%B1-%E5%A1%AB%E8%A3%9C%E8%AA%B2%E6%9C%AC%E8%88%87%E5%AD%B8%E8%A1%93%E4%BB%A5%E5%A4%96%E7%9A%84%E7%A9%BA%E7%99%BD"/>
-        <updated>2021-08-10T07:26:03.286Z</updated>
+        <updated>2021-08-10T08:45:46.062Z</updated>
         <summary type="html"><![CDATA[此為「Back Up 香港」專題第三篇，按此閱讀專題前言及首兩篇文章。牛津大學博士研究生 Reynold 早前整理了社交媒體上的以香港歷史為主題的專頁列表，發現每場大型社會運動之後，香港歷史專頁的數量都會顯著增加—— 2014 年前只有 16 個，隨後的五年間就增加了 35 個，2020 年至今這一年半間，又多了 20 個，可說是出現了研究討論香港史的熱潮。在剛過去的書展，以中立或本土觀點書寫香…]]></summary>
         <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210810-08.png"></figure><blockquote>
 <p>此為「Back Up 香港」專題第三篇，按此閱讀<a href="https://www.thestandnews.com/tag/backup%E9%A6%99%E6%B8%AF">專題前言及首兩篇文章</a>。</p>
@@ -379,7 +347,7 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
 
 <p>早一批於 2014 年傘運後開專頁的「Watershed Hong Kong」和「港識多史」，負責人雖同為 90 後，談歷史時則多了幾分「前輩」的沉著和從容。Watershed 的版主 Taurus 發覺這兩年讀者很想從閱讀歷史中獲得一種共鳴和力量，「所以我哋都多咗講二戰、淪陷時期的人物故事，讓大家知道，就算在好困難的情況下，以前的人係點樣面對、點樣繼續向前走。」</p>
 
-<p>向來走幽默路線、專長社會文化史的「港識多史」負責人 Haidee 笑言，早前整理舊文章結集出書，發現曾經寫過「胡志明以前真的很靚仔」這樣的 caption，「而家嘅我哋應該寫唔出了。」但親身感受過革命的重量後，她還是想努力拾回當初的好心情，「我希望香港人認識歷史唔好只係基於責任、覺得因為呢兩年的事所以我哋有義務去學，而係做到令大家真係鍾意、覺得歷史好有趣所以我想知。用這種心態去睇歷史，會比較長久。」</p>
+<p>向來走幽默路線、專長社會文化史的「港識多史」負責人 Haidee 笑言，早前整理舊文章結集出書，發現曾經寫過「胡志明以前真的很靚仔」這樣的 caption，「而家嘅我哋應該寫唔出了。」但她還是想努力拾回當初的好心情，「我希望香港人認識歷史唔好只係基於責任、覺得因為呢兩年的事所以我哋有義務去學，而係做到令大家真係鍾意、覺得歷史好有趣所以我想知。用這種心態去睇歷史，會比較長久。」</p>
 
 <div><figure><img src="https://assets.thestandnews.com/media/photos/201235250_10165972683250019_4058450668434134282_n.jpg"><figcaption><span>「港識多史」成員 Haidee。</span></figcaption></figure></div>
 
@@ -432,7 +400,7 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
 
 <div style="line-height:1.38"><figure><img src="https://assets.thestandnews.com/media/photos/224900420_2951779328379253_1767534691130507208_n.jpg"><figcaption><span>「港識多史」成員 Godfrey 和 Haidee。</span></figcaption></figure></div>
 
-<p>專頁一開始時的定位，就是以做歷史界的「新假期」為目標：「即係好似『紫薯流心芝士拉絲』咁，你一見到就會想 click 入去睇。」Haidee 笑說：「因為歷史呢件事從來給人的感覺都好悶呀，我哋想用輕鬆啲、搞笑啲、容易入口的方法去講歷史，讓人覺得同你今日去食好嘢、行山搵靚景一樣咁好玩。」例如他們會做一些飲食史的專題，從公仔麵的品牌故事談即食麵在香港的引入和發展，從羅宋湯的演變看中國人口遷移等；最近出版的新書則是介紹 36 個影響香港發展的人物，包括革命背後的金主、傳奇的蜑家婦女、招牌文字藝術師、人類學家等。<br>
+<p>專頁一開始時的定位，就是以做歷史界的「新假期」為目標：「即係好似『紫薯流心芝士拉絲』咁，你一見到就會想 click 入去睇。」Haidee 笑說：「因為歷史呢件事從來給人的感覺都好悶呀，我哋想用輕鬆啲、搞笑啲、容易入口的方法去講歷史，讓人覺得同你今日去食好嘢、行山搵靚景一樣咁好玩。」例如他們會做一些飲食史的專題，從公仔麵的品牌故事談即食麵在香港的引入和發展，從羅宋湯的演變看中國人口遷移等；最近出版的新書則是介紹 36 個影響香港發展的人物，包括傳奇的蜑家婦女、招牌文字藝術師、人類學家等。<br>
 <br>
 由社會文化角度認識香港歷史相對有趣，卻不易掌握整體的發展脈絡。Haidee 覺得：「順著年份去編寫的通史已經好多，但其實無乜人睇的。我哋嘅想法就係 piece by piece 咁引佢哋讀，累積到一個時候，自然就會砌到整體的 picture。」</p>
 
@@ -489,6 +457,38 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
         </author>
         <category label="社會"/>
         <published>2021-08-09T08:47:22.592Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[父涉姦女家人涉教唆改口供　辯方：事主有機心、母親原告變被告]]></title>
+        <id>https://www.thestandnews.com/court/%E7%88%B6%E6%B6%89%E5%A7%A6%E5%A5%B3%E5%AE%B6%E4%BA%BA%E6%B6%89%E6%95%99%E5%94%86%E6%94%B9%E5%8F%A3%E4%BE%9B-%E8%BE%AF%E6%96%B9%E4%BA%8B%E4%B8%BB%E6%9C%89%E6%A9%9F%E5%BF%83%E6%AF%8D%E8%A6%AA%E5%8E%9F%E5%91%8A%E8%AE%8A%E8%A2%AB%E5%91%8A</id>
+        <link href="https://www.thestandnews.com/court/%E7%88%B6%E6%B6%89%E5%A7%A6%E5%A5%B3%E5%AE%B6%E4%BA%BA%E6%B6%89%E6%95%99%E5%94%86%E6%94%B9%E5%8F%A3%E4%BE%9B-%E8%BE%AF%E6%96%B9%E4%BA%8B%E4%B8%BB%E6%9C%89%E6%A9%9F%E5%BF%83%E6%AF%8D%E8%A6%AA%E5%8E%9F%E5%91%8A%E8%AE%8A%E8%A2%AB%E5%91%8A"/>
+        <updated>2021-08-10T07:25:06.491Z</updated>
+        <summary type="html"><![CDATA[13 歲女童報警稱遭親生父親性侵後，於庭上更改口供，親父最終脫罪。警方經調查後，拘捕女童５名親友，包括其父母、祖父母及叔父，控以串謀妨礙司法公正等罪，辯方今（10 日）繼續結案陳詞。X 母親的代表律師指，被告在強姦案開審前帶 X 回內地，因她是「小女人」，不敢面對及擔心家醜外傳；代表 X 祖母的大律師則指，X 思想不簡單、有機心，她對祖母有偏見，認為祖母與父親一樣重男輕女、偏心弟弟。代表次被告、…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/%E6%B6%89%E6%95%99%E5%94%86%E6%94%B9%E5%8F%A3%E4%BE%9B.png"></figure><p>13 歲女童報警稱遭親生父親性侵後，於庭上更改口供，親父最終脫罪。警方經調查後，拘捕女童５名親友，包括其父母、祖父母及叔父，控以串謀妨礙司法公正等罪，辯方今（10 日）繼續結案陳詞。X 母親的代表律師指，被告在強姦案開審前帶 X 回內地，因她是「小女人」，不敢面對及擔心家醜外傳；代表 X 祖母的大律師則指，X 思想不簡單、有機心，她對祖母有偏見，認為祖母與父親一樣重男輕女、偏心弟弟。</p>
+
+<p>代表次被告、即事主母親的大律師陳詞指，次被告在強姦案開審前帶 X 回內地，並非有意妨礙司法公正，而是因為她害怕、不敢面對及保護家庭。次被告回港後，亦有上庭向當時處理案件的法官解釋，「我唔想家醜外傳，我選擇逃避返大陸。」辯方指當時法官接納其解釋及沒有追究，亦沒有指次被告妨礙法院執行公義。</p>
+
+<p><strong>辯方：X 母回港後上庭解釋　法官未有追究</strong></p>
+
+<p>辯方續指，次被告只是一個小女人，「佢要面對屋企發生咁樣事情⋯⋯盡佢辦法保護個女」。辯方又指，次被告在審訊前帶 X 及弟弟離港，明白會惹警方及控方懷疑，但強調她當時已向法庭解釋，「法庭冇追究、懲罰，事件已經告一段落。」他指事主父親獲判無罪釋放，與事主母親帶 X 離港，兩件事沒有關連，「點解要拉埋次被告？佢原先係報案人、控方證人，原告變被告。」</p>
+
+<p>代表第三被告、即事主祖母的大律師陳詞指，控方主要依賴 X 的證供，故 X 的可信性很重要。然而，辯方指 X 在法庭一邊作供一邊說謊、隱瞞事實，不是誠實可靠證人。辯方又指，根據早前審訊，祖母一直對 X 照顧有加，X 卻指受祖母賄賂。辯方指 X 有動機指控祖母，因 X 對祖母有偏見，認為她與父親一樣重男輕女、偏心弟弟。</p>
+
+<p><strong>辯方：X 思想不簡單　向警方提出多項要求</strong></p>
+
+<p>辯方又指，X 在「願望清單」寫下願望及憂慮，她要求改名換姓、有樓、到深圳生活及獲得金錢資助，「睇到 X 唔係思想簡單嘅人，係有機心、有計劃嘅人，X 對警方作出一個又一個長遠持續嘅要求。」辯方指處理案件的督察沒有直接拒絕 X 的要求，更答應 X 會盡量幫她，對 X 來說是很大的誘因。</p>
+
+<p>5 名被告分別為事主 X 的父親（44 歲）、母親（42 歲）、祖母（67 歲）、叔父（39 歲）及祖父（65 歲）。當中 X 父親、祖父母及叔父被控一項串謀妨礙司法公正罪，指他們於 2018 年 10 月 8 日至 2019 年 1 月 23 日期間，在香港一同串謀妨礙司法公正，即令 X 在高等法院一宗刑事案件審訊中，更改原擬作出的證供。</p>
+
+<p>X 父母另同被控 1 項作出傾向並意圖妨礙司法公正的作為罪，指他們於 2018 年 10 月 20 日，作出一連串有妨礙司法公正傾向作為，即致使母親及 X 離開香港，意圖使她們不以控方證人身分在高等法院一刑事審訊中作供。</p>
+
+<p>案件編號：HCCC126/2020</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="法庭"/>
+        <published>2021-08-10T07:07:38.918Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[逃出性別定型之枷鎖：奔向奧運的不一樣難民旅程]]></title>
