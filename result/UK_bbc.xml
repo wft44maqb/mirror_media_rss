@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Aug 2021 07:18:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Aug 2021 07:23:32 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -20,6 +20,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58155654</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58155654</guid>
             <pubDate>Tue, 10 Aug 2021 05:43:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[南海爭議：中美官員再在聯合國安理會會議交鋒]]></title>
+            <description><![CDATA[美國國務卿布林肯不點名批評中國的「霸凌行為」，中方官員則抨擊美國公開在南海地區國家之間挑撥離間，是對南海穩定「最大的威脅」。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58155554</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58155554</guid>
+            <pubDate>Tue, 10 Aug 2021 07:20:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京奧運觀察：中國人奧運觀的變遷]]></title>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/57826426</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/57826426</guid>
             <pubDate>Mon, 09 Aug 2021 13:26:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[台灣中南部連日暴雨成災，多個鄉鎮淹水山壁塌方]]></title>
-            <description><![CDATA[周六（8月7日），受熱帶風暴「盧碧」影響，台灣多地持續暴雨，受災嚴重。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58148274</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58148274</guid>
-            <pubDate>Mon, 09 Aug 2021 12:14:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[社交媒體：一個虛假帳號矩陣如何推動親中宣傳和敘事]]></title>
@@ -204,6 +204,13 @@
             <pubDate>Sun, 08 Aug 2021 15:19:22 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[台灣中南部連日暴雨成災，多個鄉鎮淹水山壁塌方]]></title>
+            <description><![CDATA[周六（8月7日），受熱帶風暴「盧碧」影響，台灣多地持續暴雨，受災嚴重。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58148274</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58148274</guid>
+            <pubDate>Mon, 09 Aug 2021 12:14:45 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[東京奧運：為何這座公廁能問鼎金牌？]]></title>
             <description><![CDATA[集科技之大成的傑作還是多餘複雜？日本首都東京的這座公共廁所也許有點昂貴，但裏面裝載著的功能你也許會意想不到。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58147705</link>
@@ -253,18 +260,18 @@
             <pubDate>Wed, 04 Aug 2021 11:05:25 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[東京奧運：如何在一屆如此特別的奧運會上做志願者]]></title>
-            <description><![CDATA[在全球疫情下，東京奧運會很多志願者的夢想都破滅了，那些能去東京的，卻沒有多少事情可做。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/sports-58100046</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58100046</guid>
-            <pubDate>Fri, 06 Aug 2021 01:48:48 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[澳門失守現本土新冠病例 抗疫「優等生」面臨挑戰]]></title>
             <description><![CDATA[分析形容，澳門政府在境內控制傳染的工作已經足夠，但外防輸入個案方面就似乎沒有因應情況改變而作出調整。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58083265</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58083265</guid>
             <pubDate>Wed, 04 Aug 2021 08:10:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[東京奧運：如何在一屆如此特別的奧運會上做志願者]]></title>
+            <description><![CDATA[在全球疫情下，東京奧運會很多志願者的夢想都破滅了，那些能去東京的，卻沒有多少事情可做。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58100046</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58100046</guid>
+            <pubDate>Fri, 06 Aug 2021 01:48:48 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[比爾·蓋茨承認「犯大錯」 離婚案中愛潑斯坦元素再現]]></title>
