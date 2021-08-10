@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Tue, 10 Aug 2021 11:23:13 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Aug 2021 11:33:16 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[中国加强奥运场馆防疫设计，力保冬奥会顺利举办]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210810/beijing-winter-olympics-covid/?utm_source=RSS]]></link>
+            <description><![CDATA[中国已明确表示，遏制病毒是首要任务。北京已宣布对39个奥运场馆进行重新设计，以防止交叉感染。海外参赛者们也将面临比东京奥运更加严格的防疫规定。<p><img src='https://static01.nyt.com/images/2021/08/09/world/09olympics-beijing1/merlin_185879787_86905712-ccb5-4ce4-bb98-50bc0dce2ff3-articleLarge.jpg' alt='今年4月北京冬奥会场馆试运行期间，医务人员在观看一名花样滑冰运动员的表演。 Andy Wong/Associated Press'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Andy Wong/Associated Press</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>今年4月北京冬奥会场馆试运行期间，医务人员在观看一名花样滑冰运动员的表演。</p>                    ]]></description>
+            <category>中国</category>
+            <dc:creator><![CDATA[KEITH BRADSHER,TARIQ PANJA]]></dc:creator>
+            <pubDate>Tue, 10 Aug 2021 11:27:29 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210810/beijing-winter-olympics-covid/]]></guid>
+        </item>
             <item>
             <title><![CDATA[联合国科学报告：全球升温成定局，极端天气将大幅增加]]></title>
             <link><![CDATA[https://cn.nytimes.com/science/20210810/climate-change-report-ipcc-un/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[孟建国,DAVID McCABE]]></dc:creator>
             <pubDate>Fri, 06 Aug 2021 03:46:45 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210806/biden-china-trade/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[这些拿了亚军的日本运动员为何道歉？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/asia-pacific/20210806/japan-olympics-apology/?utm_source=RSS]]></link>
-            <description><![CDATA[日本选手承受着众多期待和压力，甚至包括用奖牌证明疫中举办奥运会的合理性。为成为世界第二道歉是一种充满感情的忏悔，可能代表着遗憾、感激、义务和谦逊的复杂组合。<p><img src='https://static01.nyt.com/images/2021/08/05/world/05olympics-apologies1b/merlin_192418929_c1ec8adf-0bd5-4326-9719-1b979fa28632-articleLarge.jpg' alt='本周在古典式摔跤比赛中为日本赢得银牌的文田健一郎表示，他对这个“丢人的结果”感到“非常抱歉”。 Jack Guez/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jack Guez/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>本周在古典式摔跤比赛中为日本赢得银牌的文田健一郎表示，他对这个“丢人的结果”感到“非常抱歉”。</p>                    ]]></description>
-            <category>亚太</category>
-            <dc:creator><![CDATA[MOTOKO RICH]]></dc:creator>
-            <pubDate>Fri, 06 Aug 2021 12:36:52 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/asia-pacific/20210806/japan-olympics-apology/]]></guid>
         </item>
     </channel>
 </rss>
