@@ -2,11 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-10T06:07:34.244Z</updated>
+    <updated>2021-08-10T06:12:36.272Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[歷史洪流擋不住 — 1993 年前，網購即屬違法]]></title>
+        <id>https://www.thestandnews.com/technology/%E6%AD%B7%E5%8F%B2%E6%B4%AA%E6%B5%81%E6%93%8B%E4%B8%8D%E4%BD%8F-1993-%E5%B9%B4%E5%89%8D%E7%B6%B2%E8%B3%BC%E5%8D%B3%E5%B1%AC%E9%81%95%E6%B3%95</id>
+        <link href="https://www.thestandnews.com/technology/%E6%AD%B7%E5%8F%B2%E6%B4%AA%E6%B5%81%E6%93%8B%E4%B8%8D%E4%BD%8F-1993-%E5%B9%B4%E5%89%8D%E7%B6%B2%E8%B3%BC%E5%8D%B3%E5%B1%AC%E9%81%95%E6%B3%95"/>
+        <updated>2021-08-10T06:09:58.859Z</updated>
+        <summary type="html"><![CDATA[早前〈陳冠希教你內容備份五大難題〉一文中，誘因、搜索、完整性、正確性幾個難題，前面幾篇文章或多或少都已回應，至於道德考量，在本地公民社會的層面，諷刺地被惡劣的社會環境解決了一大半，因為在當前的惡法下依然沒有撤回言論的作者，幾乎可以肯定是有意識選擇留下來的公共議題，備份者不太需要像往常般顧慮作品的「被遺忘權」，生怕自己的備份有天會成為作者被告的證據。無大台終極難題：慣性和惰性反而，五大難題以外的終…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/35462961920.png"><figcaption><span>資料圖片，來源：Pete Linforth @ Pixabay</span></figcaption></figure><p>早前<a href="https://www.thestandnews.com/society/%E9%99%B3%E5%86%A0%E5%B8%8C%E6%95%99%E4%BD%A0%E5%85%A7%E5%AE%B9%E5%82%99%E4%BB%BD%E4%BA%94%E5%A4%A7%E9%9B%A3%E9%A1%8C" target="_blank">〈陳冠希教你內容備份五大難題〉</a>一文中，誘因、搜索、完整性、正確性幾個難題，前面幾篇文章或多或少都已回應，至於道德考量，在本地公民社會的層面，諷刺地被惡劣的社會環境解決了一大半，因為在當前的惡法下依然沒有撤回言論的作者，幾乎可以肯定是有意識選擇留下來的公共議題，備份者不太需要像往常般顧慮作品的「被遺忘權」，生怕自己的備份有天會成為作者被告的證據。</p>
+
+<p><strong>無大台終極難題：慣性和惰性</strong></p>
+
+<p>反而，五大難題以外的終極難題，是<strong>公眾對無大台出版以至任何無大台運作機制，缺乏重視和深刻理解，總是發生社會事件後才關心一下，然後迅速回到大台懷抱</strong>。最明顯的例子，要算是年初 Facebook 修改 WhatsApp 的 privacy policy，觸發港人群起移民 Signal，讓我高興了一小陣子，以為守得雲開；然後，Facebook 的所謂妥協不是「撤回」而是「暫緩」，已足以令順民港人收貨，等到五月重推政策，已經談都沒人談。很多我發給朋友的 Signal 訊息，不再有反應，顯然多數人已乖乖從 Signal 回到臉書大家庭；至於 MeWe，就更不用說。</p>
+
+<p>類似的例子多不勝數，比如大台銀行無理凍結港人資產後民間罵聲不絕，但 99.9% 個人和公司還是會繼續使用，即使有密碼貨幣這些另類選擇，「電腦白痴」、「唔得閒學」、「太少人用」，三大理由足以成為繼續擁抱大台的完美理由。</p>
+
+<p>出版當然也面對同一情況。香港電台、《蘋果日報》出事，大家都會非常關注，齊齊備份，但只要稍微過一陣子，大部分還是會返回昔日的閱讀、觀看模式，只是看的再不是港台和《蘋果》。假如我們沒花足夠努力從根本去改變，去防衛；只是心存僥倖，但求政權「網開一面」，類似事件必然重演。政權的網的確會開一面，卻肯定不是公民社會想要的那一面。</p>
+
+<p>正所謂同人唔同命，同「De」亦會唔同命。DeFi decentralized finance 雖然仍屬小眾，但至少很吸眼球，增長迅速；反觀 DePub decentralized publishing，卻相當小眾，關注度有限。</p>
+
+<p>除非是二世祖（btw 這個傳統粵語快完全被「富二代」取代了，我趁機推廣保育一下），資產是個人努力成果的積累，在意資產增值、財務自由乃人之常情，DeFi 獲得廣泛關注並無不妥，相反，是好事。我也每日使用 DeFi，不是吐糟甚麼，只是想指出<strong>金錢和內容技術上都是數據，DeFi 和 DePub 不過是把區塊鏈應用在不同場景而已，而報導、歷史、故事，對人類對世界跟資產同等重要，不應該被忽視</strong>。</p>
+
+<p><strong>昨日互聯網　今日區塊鏈</strong></p>
+
+<p>友人常說我「虎爸」，說起無大台、資訊安全等議題時咄咄逼人，毫不體諒。對我來說，那會是一份表揚，我但願那是事實，可惜事實卻是我太佛系，雖然文章和分享做得不少，卻沒花上足夠力氣推廣出去，改變別人，結果是接二連三 — 二、三早就不夠形容 — 資產被無理凍結等事件，全都幫不上忙。除了性格佛系，大概也因為本身做產品的我，會很同意體驗做得足夠簡單易懂是開發者的責任，也唯有這樣，用戶才會埋單。</p>
+
+<p>話雖如此，對於 DePub、DeFi 等新事物，普羅大眾假如只以完全成熟的大台生態作為基準，需要安裝新工具就放棄，多兩下點擊就嫌太麻煩，到頭來吃虧的只會是自己。任何破壞性創新，初段總會比上一代產物難用和不便，就算 YouTube 如此成熟，相對打開電視，依然多出一些點擊一些學習，也就成了大台死忠不使用的理由。</p>
+
+<p>互聯網剛起步時，上網不但又貴又慢，佔著電話線連上網站後，別說是 YouTube，今天互聯網服務的百萬分之一都沒有。很多人不知道，在我首次上網的&nbsp;<strong><a href="https://podcastnotes.org/a16z/andreessen-crypto/" target="_blank">1993 年之前，在互聯網從事商業活動甚至是違法的</a></strong>。今天回看，荒謬絕倫。</p>
+
+<p><strong>當下的區塊鏈和各種無大台應用，正正處於九十年代互聯網的階段，局內的深刻體會到博大精深，局外的只感神神秘秘</strong>，即使從業者多努力，相對打磨了幾十甚至幾百年的舊秩序，難免顯得不成熟，甚至惹來當前體制打壓。</p>
+
+<p>只要理解到互聯網如何走到今日，就知道歷史的洪流終究阻擋不了。區塊鏈定必在全球廣泛應用，早日克服慣性與惰性，一面 unlearn 舊概念，一面學習新知識，除了早著先機，更重要的是，<strong>別讓自己成為死抱舊體制不放的一分子</strong>。</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://ckxpress.com/on-inertia/" target="_blank">作者網誌</a></p>]]></content>
+        <author>
+            <name>高重建</name>
+            <uri>https://www.thestandnews.com/author/ckxpress</uri>
+        </author>
+        <category label="科技"/>
+        <published>2021-08-10T06:08:49.474Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[被裁定 831 翌日襲兩警罪成　男設計師不服上訴　指警證供與辯方影片矛盾]]></title>
         <id>https://www.thestandnews.com/court/%E8%A2%AB%E8%A3%81%E5%AE%9A831%E7%BF%8C%E6%97%A5%E8%A5%B2%E5%85%A9%E8%AD%A6%E7%BD%AA%E6%88%90-%E7%94%B7%E8%A8%AD%E8%A8%88%E5%B8%AB%E4%B8%8D%E6%9C%8D%E4%B8%8A%E8%A8%B4-%E6%8C%87%E8%AD%A6%E8%AD%89%E4%BE%9B%E8%88%87%E8%BE%AF%E6%96%B9%E5%BD%B1%E7%89%87%E7%9F%9B%E7%9B%BE</id>
@@ -293,50 +335,6 @@
         <published>2021-08-10T04:04:50.210Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[為何教練不給答案？]]></title>
-        <id>https://www.thestandnews.com/personal/%E7%82%BA%E4%BD%95%E6%95%99%E7%B7%B4%E4%B8%8D%E7%B5%A6%E7%AD%94%E6%A1%88</id>
-        <link href="https://www.thestandnews.com/personal/%E7%82%BA%E4%BD%95%E6%95%99%E7%B7%B4%E4%B8%8D%E7%B5%A6%E7%AD%94%E6%A1%88"/>
-        <updated>2021-08-10T04:07:29.846Z</updated>
-        <summary type="html"><![CDATA[有人問：我們怎可能20分鐘內，就完成情緒的轉化，讓案主豁然開朗？我覺得，關鍵是連結當下能量，不捲進故事﹑不提供答案﹑不追問內容。我們明知答案，也不提出，因為這個「答案」，只是我的想法，未必適合別人。太快給予意見，會打斷案主的思路。案主從不缺乏解決問題的方法，只因捲進情緒的泥沼，無法自拔。所以，教練不捲進事件內容（因為根本不是關鍵）、不問事件細節（因為事件只是表象）、不追問過去（因為過去只是當下的…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/priscilla-du-preez-F9DFuJoS9EU-unsplash.jpg"><figcaption><span>圖：Priscilla Du Preez @ unsplash</span></figcaption></figure><p>有人問：我們怎可能20分鐘內，就完成情緒的轉化，讓案主豁然開朗？</p>
-
-<p>我覺得，關鍵是連結當下能量，不捲進故事﹑不提供答案﹑不追問內容。</p>
-
-<p>我們明知答案，也不提出，因為這個「答案」，只是我的想法，未必適合別人。太快給予意見，會打斷案主的思路。案主從不缺乏解決問題的方法，只因捲進情緒的泥沼，無法自拔。所以，教練不捲進事件內容（因為根本不是關鍵）、不問事件細節（因為事件只是表象）、不追問過去（因為過去只是當下的演繹），也不會駐足表面行為（因為深層情緒和信念才是底蘊）。</p>
-
-<p>教練只需啟動清淨能量場，讓案主連結內在清淨心；教練會將心中的答案，變成發問，讓案主自主自決。</p>
-
-<p>教練不追問事件的細節，還有一個原因，就是避免觸動生命的傷口，引發二度創傷。我們難以確定案主過去經歷了多少傷害，案主也會高估自己承受的能力，容易觸動未療癒的傷口。平時，我們懂得自我保護，埋藏傷痛；傷口一旦被打開，風險甚高。</p>
-
-<p>哈佛大學教授 Judith Herman&nbsp;在 1992 出版&nbsp;Trauma and Recovery，是創傷治療的經典。Herman 指出：創傷令我們失去力量、無法連結（disempower and disconnect）；出路是重建人際關係中的信任，否則，案主容易投射。教練也要小心自己的投射，一旦被案主攻擊，便惱羞成怒，歸咎受害人，在傷口灑鹽。作為教練，需要留意：</p>
-
-<p>&nbsp;</p>
-
-<p>1、不要追問對方事件的具體情節，避免捲進事件，引發案主二度傷害。</p>
-
-<p>2、讓案主清晰自身權益，尊重自身感受，如果覺得不安，隨時停下來。</p>
-
-<p>3、教練無需分析事件，切忌標籤，只需陪伴案主，讓案主感受到尊重。</p>
-
-<p>4、教練聚焦當下，讓案主臨在當下，毋須用過去的錯去懲罰當下自己。</p>
-
-<p>5、如果教練無法處理案主，就要將案主轉介給更專業的治療師和教練。</p>
-
-<p>6、教練長期連結創傷，如沒健康界線，容易揹負對方責任，自己枯竭。</p>
-
-<p>7、案主無法獨自復原，教練也無法獨自療癒。案主要幫助，教練也要。</p>
-
-<p>&nbsp;</p>
-
-<p><a href="https://www.facebook.com/chouwahshan">作者 Facebook</a></p>]]></content>
-        <author>
-            <name>周華山</name>
-            <uri>https://www.thestandnews.com/author/%E5%91%A8%E8%8F%AF%E5%B1%B1</uri>
-        </author>
-        <category label="生活"/>
-        <published>2021-08-10T04:07:29.846Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[以藝術在亂世修行]]></title>
         <id>https://www.thestandnews.com/art/%E4%BB%A5%E8%97%9D%E8%A1%93%E5%9C%A8%E4%BA%82%E4%B8%96%E4%BF%AE%E8%A1%8C</id>
         <link href="https://www.thestandnews.com/art/%E4%BB%A5%E8%97%9D%E8%A1%93%E5%9C%A8%E4%BA%82%E4%B8%96%E4%BF%AE%E8%A1%8C"/>
@@ -443,6 +441,50 @@
         </author>
         <category label="藝術"/>
         <published>2021-08-05T09:19:11.238Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[為何教練不給答案？]]></title>
+        <id>https://www.thestandnews.com/personal/%E7%82%BA%E4%BD%95%E6%95%99%E7%B7%B4%E4%B8%8D%E7%B5%A6%E7%AD%94%E6%A1%88</id>
+        <link href="https://www.thestandnews.com/personal/%E7%82%BA%E4%BD%95%E6%95%99%E7%B7%B4%E4%B8%8D%E7%B5%A6%E7%AD%94%E6%A1%88"/>
+        <updated>2021-08-10T04:07:29.846Z</updated>
+        <summary type="html"><![CDATA[有人問：我們怎可能20分鐘內，就完成情緒的轉化，讓案主豁然開朗？我覺得，關鍵是連結當下能量，不捲進故事﹑不提供答案﹑不追問內容。我們明知答案，也不提出，因為這個「答案」，只是我的想法，未必適合別人。太快給予意見，會打斷案主的思路。案主從不缺乏解決問題的方法，只因捲進情緒的泥沼，無法自拔。所以，教練不捲進事件內容（因為根本不是關鍵）、不問事件細節（因為事件只是表象）、不追問過去（因為過去只是當下的…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/priscilla-du-preez-F9DFuJoS9EU-unsplash.jpg"><figcaption><span>圖：Priscilla Du Preez @ unsplash</span></figcaption></figure><p>有人問：我們怎可能20分鐘內，就完成情緒的轉化，讓案主豁然開朗？</p>
+
+<p>我覺得，關鍵是連結當下能量，不捲進故事﹑不提供答案﹑不追問內容。</p>
+
+<p>我們明知答案，也不提出，因為這個「答案」，只是我的想法，未必適合別人。太快給予意見，會打斷案主的思路。案主從不缺乏解決問題的方法，只因捲進情緒的泥沼，無法自拔。所以，教練不捲進事件內容（因為根本不是關鍵）、不問事件細節（因為事件只是表象）、不追問過去（因為過去只是當下的演繹），也不會駐足表面行為（因為深層情緒和信念才是底蘊）。</p>
+
+<p>教練只需啟動清淨能量場，讓案主連結內在清淨心；教練會將心中的答案，變成發問，讓案主自主自決。</p>
+
+<p>教練不追問事件的細節，還有一個原因，就是避免觸動生命的傷口，引發二度創傷。我們難以確定案主過去經歷了多少傷害，案主也會高估自己承受的能力，容易觸動未療癒的傷口。平時，我們懂得自我保護，埋藏傷痛；傷口一旦被打開，風險甚高。</p>
+
+<p>哈佛大學教授 Judith Herman&nbsp;在 1992 出版&nbsp;Trauma and Recovery，是創傷治療的經典。Herman 指出：創傷令我們失去力量、無法連結（disempower and disconnect）；出路是重建人際關係中的信任，否則，案主容易投射。教練也要小心自己的投射，一旦被案主攻擊，便惱羞成怒，歸咎受害人，在傷口灑鹽。作為教練，需要留意：</p>
+
+<p>&nbsp;</p>
+
+<p>1、不要追問對方事件的具體情節，避免捲進事件，引發案主二度傷害。</p>
+
+<p>2、讓案主清晰自身權益，尊重自身感受，如果覺得不安，隨時停下來。</p>
+
+<p>3、教練無需分析事件，切忌標籤，只需陪伴案主，讓案主感受到尊重。</p>
+
+<p>4、教練聚焦當下，讓案主臨在當下，毋須用過去的錯去懲罰當下自己。</p>
+
+<p>5、如果教練無法處理案主，就要將案主轉介給更專業的治療師和教練。</p>
+
+<p>6、教練長期連結創傷，如沒健康界線，容易揹負對方責任，自己枯竭。</p>
+
+<p>7、案主無法獨自復原，教練也無法獨自療癒。案主要幫助，教練也要。</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.facebook.com/chouwahshan">作者 Facebook</a></p>]]></content>
+        <author>
+            <name>周華山</name>
+            <uri>https://www.thestandnews.com/author/%E5%91%A8%E8%8F%AF%E5%B1%B1</uri>
+        </author>
+        <category label="生活"/>
+        <published>2021-08-10T04:07:29.846Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[「穆家駿之亂」之後的「湯家驊之亂」]]></title>
@@ -910,37 +952,5 @@
         </author>
         <category label="體育"/>
         <published>2021-08-09T14:51:38.335Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[閃爍與幻滅的燈光組件]]></title>
-        <id>https://www.thestandnews.com/art/%E9%96%83%E7%88%8D%E8%88%87%E5%B9%BB%E6%BB%85%E7%9A%84%E7%87%88%E5%85%89%E7%B5%84%E4%BB%B6</id>
-        <link href="https://www.thestandnews.com/art/%E9%96%83%E7%88%8D%E8%88%87%E5%B9%BB%E6%BB%85%E7%9A%84%E7%87%88%E5%85%89%E7%B5%84%E4%BB%B6"/>
-        <updated>2021-08-09T14:17:57.545Z</updated>
-        <summary type="html"><![CDATA[【文：鍾燕冠】燈光可給人帶來光明，亦可導致幻滅的泡影。在大館正進行的展覽《信任 &amp; 迷惑》，以古巴裔的美國概念藝術家 Félix González-Torres 的燈泡裝置「無題（北方）」做起題，放置在展廳入口不遠處的當眼位置。此作品共十二個燈光部件從天花板懸垂到地上，恍如生命中最美好的時光，隨著時間按不同的組合重新安裝或熄滅，寓意生命的火花閃爍或脆弱流逝，呼應展覽的主題「信任 &amp…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/gfjksdrghgfd.png"><figcaption><span>作者提供圖片</span></figcaption></figure><p>【文：鍾燕冠】</p>
-
-<p>燈光可給人帶來光明，亦可導致幻滅的泡影。在大館正進行的展覽《信任 &amp; 迷惑》，以古巴裔的美國概念藝術家 Félix González-Torres 的燈泡裝置「無題（北方）」做起題，放置在展廳入口不遠處的當眼位置。此作品共十二個燈光部件從天花板懸垂到地上，恍如生命中最美好的時光，隨著時間按不同的組合重新安裝或熄滅，寓意生命的火花閃爍或脆弱流逝，呼應展覽的主題「信任 &amp; 迷惑」只在一線之差。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/gxdfhgngv.jpg"><figcaption><span>Félix González-Torres “Untitled” (North)</span></figcaption></figure></div>
-
-<p>展廳劃分成「白天」和「黑夜」兩個空間，表達白天的信任和黑夜的迷惑，一體兩面的矛盾心情。「白天」內的作品不斷變化，隨著展期而替換或更新不同的作品，而「黑夜」則屬於固定展，展示單人或雙人藝術家的作品。這次大館向紐約州巴德學院藝術研究中心 — 赫賽爾美術館 Marieluise Hessel Collection 借來 Félix González-Torres 的作品「無題（北方）」展出，似是暗示很多意想不到的事情等著發生。</p>
-
-<p>查看 González-Torres 的藝術創作，他的作品隱藏著對「愛、流逝、變化、永恆」的思考，他善用日常生活中的物件創作，如糖果、燈泡、時鐘，鏡子等。在 González-Torres 的藝術生涯裡，最為人爭議的是他公開以男同志身份探討社會和政治議題，其伴侶 Ross Laycock 在 1991 年因愛滋病去世後，他的作品裡經常探討「愛與失去」、「疾病與復興」及「性與性別」主題，呈現他對死亡和親密關係的冥想。1996 年，González-Torres 亦因愛滋病併發症在邁阿密去世，享年 38 歲。在其創作中沒有用深奧的美學詞彙，卻以簡單的文字、物件或圖像展示，讓觀者自行構思作品之間的關係，建立個人或集體的記憶。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/fusdfsafd.jpg"><figcaption><span>Félix González-Torres “Untitled” (Placebo)</span></figcaption></figure></div>
-
-<p>González-Torres 在 1991 年為紐約魯賓藝術博物館舉行的展覽《Measure Your Existence》創作的 “Untitled” (Placebo)，將堆疊的糖果放在一角，讓觀眾自由帶走或消耗它們，愛情如糖果般甜美，放在口中融化亦將消失殆盡，突出作品中的無常，除非得到補充，否則「糖果」會隨著時間 的流逝而逐漸消失，此作品亦表達他失去摯愛的傷痛。其後，González-Torres 創作的燈泡系列作品 “Untitled” (Last Light)，1996 年，將二十四組不同形態的燈泡，讓觀眾重新安裝，決定它最終的模樣。這些燈泡逐漸變暗，更有多重「難以言喻」的意義，包括愛、無常、希望……壽命完結時便無法再發出光芒，就好像人世間的生離死別，無可挽留。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/ggsfgs.jpg"><figcaption><span>Félix González-Torres “Untitled“ (Last Light)</span></figcaption></figure></div>
-
-<p>&nbsp;</p>
-
-<p><strong>作者自我簡介：</strong>曾從事新聞工作，認為新聞只能反映當下沒法探究深層思想和意識，因而走入藝術領域嘗試從中找到答案，執起筆觸徘徊於不同的藝術空間。</p>]]></content>
-        <author>
-            <name>讀者投稿</name>
-            <uri>https://www.thestandnews.com/author/%E8%AE%80%E8%80%85%E6%8A%95%E7%A8%BF</uri>
-        </author>
-        <category label="藝術"/>
-        <published>2021-08-09T14:09:22.958Z</published>
     </entry>
 </feed>
