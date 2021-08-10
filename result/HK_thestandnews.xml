@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-10T08:33:38.459Z</updated>
+    <updated>2021-08-10T08:38:40.720Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -288,6 +288,22 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
         <published>2021-08-10T05:46:58.547Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[錄 4 宗輸入個案　3 人驗出 L452R 變種病毒　均曾打復必泰]]></title>
+        <id>https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0</id>
+        <link href="https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0"/>
+        <updated>2021-08-10T07:38:12.950Z</updated>
+        <summary type="html"><![CDATA[本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R …]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/213304538_10225413250942820_1816994039630113711_n.png"></figure><p>本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。</p>
+
+<p>4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R 變種病毒；另一名 60 歲女子自泰國抵港，是一名外傭，同樣於 8 月 8 日抵港，亦驗出 L452R 變種病毒。最後一名 34 歲男子自美國抵港，L452R 的檢驗結果待定，其他變種病毒檢驗則呈陰性，於 8 月 6 日抵港。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-10T07:38:12.950Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[新一期綠置居攪珠結果出爐　7.2 萬申請爭 3400 個單位　10 月開始揀樓]]></title>
         <id>https://www.thestandnews.com/society/%E6%96%B0%E4%B8%80%E6%9C%9F%E7%B6%A0%E7%BD%AE%E5%B1%85%E6%94%AA%E7%8F%A0%E7%B5%90%E6%9E%9C%E5%87%BA%E7%88%90-72-%E8%90%AC%E7%94%B3%E8%AB%8B%E7%88%AD-3400-%E5%80%8B%E5%96%AE%E4%BD%8D-10-%E6%9C%88%E9%96%8B%E5%A7%8B%E6%8F%80%E6%A8%93</id>
         <link href="https://www.thestandnews.com/society/%E6%96%B0%E4%B8%80%E6%9C%9F%E7%B6%A0%E7%BD%AE%E5%B1%85%E6%94%AA%E7%8F%A0%E7%B5%90%E6%9E%9C%E5%87%BA%E7%88%90-72-%E8%90%AC%E7%94%B3%E8%AB%8B%E7%88%AD-3400-%E5%80%8B%E5%96%AE%E4%BD%8D-10-%E6%9C%88%E9%96%8B%E5%A7%8B%E6%8F%80%E6%A8%93"/>
@@ -308,22 +324,6 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
         </author>
         <category label="社會"/>
         <published>2021-08-10T07:17:55.150Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[錄 4 宗輸入個案　3 人驗出 L452R 變種病毒　均曾打復必泰]]></title>
-        <id>https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0</id>
-        <link href="https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0"/>
-        <updated>2021-08-10T07:38:12.950Z</updated>
-        <summary type="html"><![CDATA[本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R …]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/213304538_10225413250942820_1816994039630113711_n.png"></figure><p>本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。</p>
-
-<p>4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R 變種病毒；另一名 60 歲女子自泰國抵港，是一名外傭，同樣於 8 月 8 日抵港，亦驗出 L452R 變種病毒。最後一名 34 歲男子自美國抵港，L452R 的檢驗結果待定，其他變種病毒檢驗則呈陰性，於 8 月 6 日抵港。</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="社會"/>
-        <published>2021-08-10T07:38:12.950Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[父涉姦女家人涉教唆改口供　辯方：事主有機心、母親原告變被告]]></title>
