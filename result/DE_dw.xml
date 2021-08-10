@@ -6,8 +6,8 @@
   <description>News, Analysis and Service from Germany and Europe - in 30 Languages</description>
   <language>zh</language>
   <copyright>2021 DW.COM, Deutsche Welle</copyright>
-  <pubDate>Tue, 10 Aug 2021 12:25:13 GMT</pubDate>
-  <lastBuildDate>Tue, 10 Aug 2021 12:25:13 GMT</lastBuildDate>
+  <pubDate>Tue, 10 Aug 2021 12:31:38 GMT</pubDate>
+  <lastBuildDate>Tue, 10 Aug 2021 12:31:38 GMT</lastBuildDate>
   <atom:link href="https://rss.dw.com/xml/podcast_radio_china" rel="self"/>
   <image>
    <url>https://static.dw.com/image/2273684_7.jpg</url>
@@ -28,6 +28,19 @@
    <itunes:category text="Politics"/>
   </itunes:category>
   <ttl>10</ttl>
+  <item>
+   <guid isPermaLink="false">58819198</guid>
+   <pubDate>Tue, 10 Aug 2021 12:27:00 GMT</pubDate>
+   <title>新一波新冠疫情重创印尼</title>
+   <link>https://www.dw.com/zh/新一波新冠疫情重创印尼/av-58819198?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>德国之声记者访问印尼首都雅加达一座不堪重负的医院。该国已经成为亚洲疫情最为严重地区，刚刚录得全球单日新冠死亡人数新高。每日感染人数曾一度超过5万。专家担心，真实数字可能比官方统计还要高。</description>
+   <category>时政风云</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>新冠, 疫情, 病毒, 疫苗, 印尼, 科兴, 感染</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210810_001_covidindonesia_sd.mp4" type="video/mp4" length="16383015"/>
+   <itunes:duration>03:21</itunes:duration>
+  </item>
   <item>
    <guid isPermaLink="false">58810155</guid>
    <pubDate>Mon, 9 Aug 2021 14:55:00 GMT</pubDate>
@@ -404,19 +417,6 @@
    <itunes:explicit>clean</itunes:explicit>
    <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210628_001_chickenpower_sd.mp4" type="video/mp4" length="8214499"/>
    <itunes:duration>01:38</itunes:duration>
-  </item>
-  <item>
-   <guid isPermaLink="false">58089204</guid>
-   <pubDate>Tue, 29 Jun 2021 08:35:00 GMT</pubDate>
-   <title>买房梦距离德国人越来越遥远</title>
-   <link>https://www.dw.com/zh/买房梦距离德国人越来越遥远/av-58089204?maca=chi-podcast_radio_china-1169-xml-mrss</link>
-   <description>在过去20年里，德国年轻人拥有房产的比例直线下降。一项调查显示，德国拥有房产的居民比例在全欧盟最低。主要原因还是房价太高，和较高的贷款门槛。</description>
-   <category>经济纵横</category>
-   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
-   <itunes:keywords>德国, 房地产, 买房, 贷款</itunes:keywords>
-   <itunes:explicit>clean</itunes:explicit>
-   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210629_001_5b1f0houseneu_sd.mp4" type="video/mp4" length="8854429"/>
-   <itunes:duration>01:47</itunes:duration>
   </item>
  </channel>
 </rss>
