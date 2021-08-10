@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Aug 2021 10:02:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Aug 2021 10:06:26 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[香港教協宣佈解散　最大行業工會遭中國官媒指控包庇「黑暴」]]></title>
+            <description><![CDATA[稍早前，中國官媒形容香港教協是必須鏟除的「毒瘤」，港府隨即表示會停止與教協的工作關係。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58158124</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58158124</guid>
+            <pubDate>Tue, 10 Aug 2021 10:02:24 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[氣候變化：近50國回應IPCC報告稱：「我們瀕臨滅絶」]]></title>
             <description><![CDATA[聯合國發表最新氣候變化報告發出「人類生存紅色警報」，最受影響發展中國家共同呼籲採取行動，不然它們將被推至「滅絶邊緣」。]]></description>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/science-58145798</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58145798</guid>
             <pubDate>Tue, 10 Aug 2021 02:05:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[家務分配與性別平等：「思慮萬千」讓媽媽們心力交瘁]]></title>
-            <description><![CDATA[論及家庭責任，女性的腦力和情感付出都遠甚過男性。原因何在？我們能做什麼來達至公平分擔家務嗎？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/57826426</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/57826426</guid>
-            <pubDate>Mon, 09 Aug 2021 13:26:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[社交媒體：一個虛假帳號矩陣如何推動親中宣傳和敘事]]></title>
@@ -188,6 +188,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58138484</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58138484</guid>
             <pubDate>Sun, 08 Aug 2021 15:19:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[家務分配與性別平等：「思慮萬千」讓媽媽們心力交瘁]]></title>
+            <description><![CDATA[論及家庭責任，女性的腦力和情感付出都遠甚過男性。原因何在？我們能做什麼來達至公平分擔家務嗎？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/57826426</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/57826426</guid>
+            <pubDate>Mon, 09 Aug 2021 13:26:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[台灣中南部連日暴雨成災，多個鄉鎮淹水山壁塌方]]></title>
