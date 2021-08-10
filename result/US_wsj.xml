@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Aug 2021 05:04:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Aug 2021 05:08:19 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 10 Aug 2021 05:04:48 GMT</pubDate>
+        <pubDate>Tue, 10 Aug 2021 05:08:19 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -63,6 +63,13 @@
             <pubDate>Mon, 09 Aug 2021 06:05:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[聯合國IPCC報告：一些氣候變化影響恐怕不可逆轉]]></title>
+            <description><![CDATA[<img width="1280" height="852" src="https://si.wsj.net/public/resources/images/S1-LL769_CLIMAT_OR_20210806170839.jpg" class="webfeedsFeaturedVisual" alt=""/><p>聯合國支持的一個科學小組周一在一份新報告中稱，海平面上升、冰蓋融化和氣候變暖的其他影響恐怕在幾個世紀內都不可逆轉，且毫無疑問是人類活動產生的溫室氣體排放造成。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E8%81%AF%E5%90%88%E5%9C%8B%E5%A0%B1%E5%91%8A%EF%BC%9A%E4%B8%80%E4%BA%9B%E6%B0%A3%E5%80%99%E8%AE%8A%E5%8C%96%E5%BD%B1%E9%9F%BF%E5%8F%AF%E8%83%BD%E7%84%A1%E6%B3%95%E6%8C%BD%E5%9B%9E-11628506210</link>
+            <guid isPermaLink="false">CT-BGH-20210809183714</guid>
+            <pubDate>Tue, 10 Aug 2021 05:05:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[美國就中國強制勞動問題加大對美企的施壓力度]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LL712_UYGHUR_OR_20210806154751.jpg" class="webfeedsFeaturedVisual" alt=""/><p>拜登政府正對對華貿易政策進行全面評估。雖然新計劃還沒有揭曉，但多名美國政府官員最近幾周就已明確，針對強迫勞動問題與中國政府展開對抗是其貿易戰略的一個關鍵組成部分。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E5%B0%B1%E4%B8%AD%E5%9C%8B%E5%BC%B7%E5%88%B6%E5%8B%9E%E5%8B%95%E5%95%8F%E9%A1%8C%E5%8A%A0%E5%A4%A7%E5%B0%8D%E7%BE%8E%E4%BC%81%E7%9A%84%E6%96%BD%E5%A3%93%E5%8A%9B%E5%BA%A6-11628562613</link>
@@ -82,13 +89,6 @@
             <link>https://cn.wsj.com/articles/%E5%8F%83%E8%AD%B0%E9%99%A2%E6%B0%91%E4%B8%BB%E9%BB%A8%E4%BA%BA%E5%85%AC%E5%B8%833-5%E5%85%86%E7%BE%8E%E5%85%83%E5%8F%8D%E8%B2%A7%E5%9B%B0%E5%92%8C%E6%B0%A3%E5%80%99%E8%A8%88%E5%8A%83%E5%A4%A7%E7%B6%B1-11628552110</link>
             <guid isPermaLink="false">CT-BGH-20210810072112</guid>
             <pubDate>Tue, 10 Aug 2021 02:35:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[美國國務院對未經授權向中國和俄羅斯出口雷達軟體的公司處以罰款]]></title>
-            <description><![CDATA[<img width="1280" height="978" src="https://si.wsj.net/public/resources/images/S1-LM184_RADAR0_OR_20210809102543.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國國務院周一對矽谷一家雷達製造商處以罰款，該公司承認違反美國敏感國防技術出口的規定。Keysight從2015年開始向中國、俄羅斯和其他15個國家出售軟體和設備，共計24次未經授權出口。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E5%9C%8B%E5%8B%99%E9%99%A2%E5%B0%8D%E6%9C%AA%E7%B6%93%E6%8E%88%E6%AC%8A%E5%90%91%E4%B8%AD%E5%9C%8B%E5%92%8C%E4%BF%84%E7%BE%85%E6%96%AF%E5%87%BA%E5%8F%A3%E9%9B%B7%E9%81%94%E8%BB%9F%E9%AB%94%E7%9A%84%E5%85%AC%E5%8F%B8%E8%99%95%E4%BB%A5%E7%BD%B0%E6%AC%BE-11628551208</link>
-            <guid isPermaLink="false">CT-BGH-20210810071000</guid>
-            <pubDate>Tue, 10 Aug 2021 03:05:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[NBC東京奧運會轉播收視率創歷史新低]]></title>
