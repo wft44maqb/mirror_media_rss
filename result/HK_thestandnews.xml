@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-10T08:38:40.720Z</updated>
+    <updated>2021-08-10T08:43:43.083Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[《環時》：美駐港總領事館以營商風險增加為由　促美企撤出香港]]></title>
+        <id>https://www.thestandnews.com/politics/%E7%92%B0%E6%99%82%E7%BE%8E%E9%A7%90%E6%B8%AF%E7%B8%BD%E9%A0%98%E4%BA%8B%E9%A4%A8%E4%BB%A5%E7%87%9F%E5%95%86%E9%A2%A8%E9%9A%AA%E5%A2%9E%E5%8A%A0%E7%82%BA%E7%94%B1-%E4%BF%83%E7%BE%8E%E4%BC%81%E6%92%A4%E5%87%BA%E9%A6%99%E6%B8%AF</id>
+        <link href="https://www.thestandnews.com/politics/%E7%92%B0%E6%99%82%E7%BE%8E%E9%A7%90%E6%B8%AF%E7%B8%BD%E9%A0%98%E4%BA%8B%E9%A4%A8%E4%BB%A5%E7%87%9F%E5%95%86%E9%A2%A8%E9%9A%AA%E5%A2%9E%E5%8A%A0%E7%82%BA%E7%94%B1-%E4%BF%83%E7%BE%8E%E4%BC%81%E6%92%A4%E5%87%BA%E9%A6%99%E6%B8%AF"/>
+        <updated>2021-08-10T08:30:41.986Z</updated>
+        <summary type="html"><![CDATA[美國國務院上月中向企業發出公告，警告國安法下在港營商有風險。中國官媒《環球時報》英文版今日（10 日）在報道中引述一名消息人士，表示美國駐港澳總領事館召集一些美國公司召開會議，以在香港營商風險增加為由，敦促他們撤出香港。該消息人士又指，美國對香港發出風險警告後，是試圖通過行政措施干預市場。報道引述全國港澳研究會理事、大陸法律學者田飛龍表示，美國再次干涉香港事務，令香港製造混亂，損害中國主權和安全…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/62461513_10161663777205265_415125060357980160_n_copy.png"><figcaption><span>美國駐港總領事館</span></figcaption></figure><p>美國國務院上月中向企業發出公告，警告國安法下在港營商有風險。中國官媒《<a href="https://www.globaltimes.cn/page/202108/1231025.shtml">環球時報</a>》英文版今日（10 日）在報道中引述一名消息人士，表示美國駐港澳總領事館召集一些美國公司召開會議，以在香港營商風險增加為由，敦促他們撤出香港。該消息人士又指，美國對香港發出風險警告後，是試圖通過行政措施干預市場。</p>
+
+<p>報道引述全國港澳研究會理事、大陸法律學者田飛龍表示，美國再次干涉香港事務，令香港製造混亂，損害中國主權和安全利益。他指，美方無視事實，企圖破壞美國企業與香港的營商關係，損害美國利益，亦對美國公司及員工極不負責任，令美國企業帶來前所未有的風險。</p>
+
+<p><strong>彭博引述美國務院發言稱：報道不準確</strong></p>
+
+<p>但《<a href="https://big5.ftchinese.com/premium/001093507?topnav=china&amp;subnav=chinareport&amp;exclusive">彭博</a>》引述美國國務院發言人稱，有關報道不準確，是基於錯誤的前提，並重申美國繼續支持香港的長遠利益，期望香港可繼續高度自治。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="政治"/>
+        <published>2021-08-10T08:21:30.519Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[火星與木星之間小行星帶隕石致 6,600 萬年前恐龍大滅絕]]></title>
         <id>https://www.thestandnews.com/cosmos/%E7%81%AB%E6%98%9F%E8%88%87%E6%9C%A8%E6%98%9F%E4%B9%8B%E9%96%93%E5%B0%8F%E8%A1%8C%E6%98%9F%E5%B8%B6%E9%9A%95%E7%9F%B3%E8%87%B4-6600-%E8%90%AC%E5%B9%B4%E5%89%8D%E6%81%90%E9%BE%8D%E5%A4%A7%E6%BB%85%E7%B5%95</id>
@@ -40,26 +60,6 @@ Nesvorný, D., Bottke, W.F. &amp; Marchi, S. (2021). Dark primitive asteroids ac
         </author>
         <category label="Cosmos"/>
         <published>2021-08-10T06:12:57.622Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《環時》：美駐港總領事館以營商風險增加為由　促美企撤出香港]]></title>
-        <id>https://www.thestandnews.com/politics/%E7%92%B0%E6%99%82%E7%BE%8E%E9%A7%90%E6%B8%AF%E7%B8%BD%E9%A0%98%E4%BA%8B%E9%A4%A8%E4%BB%A5%E7%87%9F%E5%95%86%E9%A2%A8%E9%9A%AA%E5%A2%9E%E5%8A%A0%E7%82%BA%E7%94%B1-%E4%BF%83%E7%BE%8E%E4%BC%81%E6%92%A4%E5%87%BA%E9%A6%99%E6%B8%AF</id>
-        <link href="https://www.thestandnews.com/politics/%E7%92%B0%E6%99%82%E7%BE%8E%E9%A7%90%E6%B8%AF%E7%B8%BD%E9%A0%98%E4%BA%8B%E9%A4%A8%E4%BB%A5%E7%87%9F%E5%95%86%E9%A2%A8%E9%9A%AA%E5%A2%9E%E5%8A%A0%E7%82%BA%E7%94%B1-%E4%BF%83%E7%BE%8E%E4%BC%81%E6%92%A4%E5%87%BA%E9%A6%99%E6%B8%AF"/>
-        <updated>2021-08-10T08:30:41.986Z</updated>
-        <summary type="html"><![CDATA[美國國務院上月中向企業發出公告，警告國安法下在港營商有風險。中國官媒《環球時報》英文版今日（10 日）在報道中引述一名消息人士，表示美國駐港澳總領事館召集一些美國公司召開會議，以在香港營商風險增加為由，敦促他們撤出香港。該消息人士又指，美國對香港發出風險警告後，是試圖通過行政措施干預市場。報道引述全國港澳研究會理事、大陸法律學者田飛龍表示，美國再次干涉香港事務，令香港製造混亂，損害中國主權和安全…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/62461513_10161663777205265_415125060357980160_n_copy.png"><figcaption><span>美國駐港總領事館</span></figcaption></figure><p>美國國務院上月中向企業發出公告，警告國安法下在港營商有風險。中國官媒《<a href="https://www.globaltimes.cn/page/202108/1231025.shtml">環球時報</a>》英文版今日（10 日）在報道中引述一名消息人士，表示美國駐港澳總領事館召集一些美國公司召開會議，以在香港營商風險增加為由，敦促他們撤出香港。該消息人士又指，美國對香港發出風險警告後，是試圖通過行政措施干預市場。</p>
-
-<p>報道引述全國港澳研究會理事、大陸法律學者田飛龍表示，美國再次干涉香港事務，令香港製造混亂，損害中國主權和安全利益。他指，美方無視事實，企圖破壞美國企業與香港的營商關係，損害美國利益，亦對美國公司及員工極不負責任，令美國企業帶來前所未有的風險。</p>
-
-<p><strong>彭博引述美國務院發言稱：報道不準確</strong></p>
-
-<p>但《<a href="https://big5.ftchinese.com/premium/001093507?topnav=china&amp;subnav=chinareport&amp;exclusive">彭博</a>》引述美國國務院發言人稱，有關報道不準確，是基於錯誤的前提，並重申美國繼續支持香港的長遠利益，期望香港可繼續高度自治。</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="政治"/>
-        <published>2021-08-10T08:21:30.519Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[移植年輕小鼠糞便　能逆轉年老小鼠大腦衰退、增學習能力]]></title>
@@ -262,10 +262,10 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
         <published>2021-08-10T08:05:26.496Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[廉署起訴製衣集團主席李謀任　涉謙詐騙中銀 4,300 萬元信用證]]></title>
+        <title type="html"><![CDATA[廉署起訴製衣集團主席李謀任　涉嫌詐騙中銀 4,300 萬元信用證]]></title>
         <id>https://www.thestandnews.com/court/%E5%BB%89%E7%BD%B2%E8%B5%B7%E8%A8%B4%E8%A3%BD%E8%A1%A3%E9%9B%86%E5%9C%98%E4%B8%BB%E5%B8%AD%E6%9D%8E%E8%AC%80%E4%BB%BB-%E6%B6%89%E8%AC%99%E8%A9%90%E9%A8%99%E4%B8%AD%E9%8A%80-4300-%E8%90%AC%E5%85%83%E4%BF%A1%E7%94%A8%E8%AD%89</id>
         <link href="https://www.thestandnews.com/court/%E5%BB%89%E7%BD%B2%E8%B5%B7%E8%A8%B4%E8%A3%BD%E8%A1%A3%E9%9B%86%E5%9C%98%E4%B8%BB%E5%B8%AD%E6%9D%8E%E8%AC%80%E4%BB%BB-%E6%B6%89%E8%AC%99%E8%A9%90%E9%A8%99%E4%B8%AD%E9%8A%80-4300-%E8%90%AC%E5%85%83%E4%BF%A1%E7%94%A8%E8%AD%89"/>
-        <updated>2021-08-10T08:27:42.310Z</updated>
+        <updated>2021-08-10T08:40:55.658Z</updated>
         <summary type="html"><![CDATA[製衣業鉅亨、茂榮集團主席李謀任被廉政公署起訴，控告他以虛假業務交易詐騙中國銀行，令中銀向一間供應商發放總值逾 550 萬美元 (港幣約 4,300 萬元)的信用證，以及清洗有關犯罪得益。李謀任曾獲頒「世界傑出華人獎」，據報道，其公司客戶包括 H&amp;M、Levi's 及 Zara等國際知名品牌。廉政公署表示，今日 (10 日)落案起訴 59 歲的茂榮實業有限公司董事兼股東李謀任，四項控罪包括…]]></summary>
         <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210810-07.png"></figure><p>製衣業鉅亨、茂榮集團主席李謀任被廉政公署起訴，控告他以虛假業務交易詐騙中國銀行，令中銀向一間供應商發放總值逾 550 萬美元 (港幣約 4,300 萬元)的信用證，以及清洗有關犯罪得益。李謀任曾獲頒「世界傑出華人獎」，據報道，其公司客戶包括 H&amp;M、Levi's 及 Zara等國際知名品牌。</p>
 
@@ -288,22 +288,6 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
         <published>2021-08-10T05:46:58.547Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[錄 4 宗輸入個案　3 人驗出 L452R 變種病毒　均曾打復必泰]]></title>
-        <id>https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0</id>
-        <link href="https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0"/>
-        <updated>2021-08-10T07:38:12.950Z</updated>
-        <summary type="html"><![CDATA[本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R …]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/213304538_10225413250942820_1816994039630113711_n.png"></figure><p>本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。</p>
-
-<p>4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R 變種病毒；另一名 60 歲女子自泰國抵港，是一名外傭，同樣於 8 月 8 日抵港，亦驗出 L452R 變種病毒。最後一名 34 歲男子自美國抵港，L452R 的檢驗結果待定，其他變種病毒檢驗則呈陰性，於 8 月 6 日抵港。</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="社會"/>
-        <published>2021-08-10T07:38:12.950Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[新一期綠置居攪珠結果出爐　7.2 萬申請爭 3400 個單位　10 月開始揀樓]]></title>
         <id>https://www.thestandnews.com/society/%E6%96%B0%E4%B8%80%E6%9C%9F%E7%B6%A0%E7%BD%AE%E5%B1%85%E6%94%AA%E7%8F%A0%E7%B5%90%E6%9E%9C%E5%87%BA%E7%88%90-72-%E8%90%AC%E7%94%B3%E8%AB%8B%E7%88%AD-3400-%E5%80%8B%E5%96%AE%E4%BD%8D-10-%E6%9C%88%E9%96%8B%E5%A7%8B%E6%8F%80%E6%A8%93</id>
         <link href="https://www.thestandnews.com/society/%E6%96%B0%E4%B8%80%E6%9C%9F%E7%B6%A0%E7%BD%AE%E5%B1%85%E6%94%AA%E7%8F%A0%E7%B5%90%E6%9E%9C%E5%87%BA%E7%88%90-72-%E8%90%AC%E7%94%B3%E8%AB%8B%E7%88%AD-3400-%E5%80%8B%E5%96%AE%E4%BD%8D-10-%E6%9C%88%E9%96%8B%E5%A7%8B%E6%8F%80%E6%A8%93"/>
@@ -324,6 +308,22 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
         </author>
         <category label="社會"/>
         <published>2021-08-10T07:17:55.150Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[錄 4 宗輸入個案　3 人驗出 L452R 變種病毒　均曾打復必泰]]></title>
+        <id>https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0</id>
+        <link href="https://www.thestandnews.com/society/%E9%8C%84-4-%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-3-%E4%BA%BA%E9%A9%97%E5%87%BA-l452r-%E8%AE%8A%E7%A8%AE%E7%97%85%E6%AF%92-%E5%9D%87%E6%9B%BE%E6%89%93%E5%BE%A9%E5%BF%85%E6%B3%B0"/>
+        <updated>2021-08-10T07:38:12.950Z</updated>
+        <summary type="html"><![CDATA[本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R …]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/213304538_10225413250942820_1816994039630113711_n.png"></figure><p>本港今日錄得 4 宗輸入確診個案，當中 3 宗驗出 L452R 變種病毒，另外一宗仍在等待 L452R 的檢驗結果，4 宗個案分別從德國、法國、泰國及美國來港，其中 3 人都曾在本港接種復必泰疫苗。而初步確診則少於 5 宗。</p>
+
+<p>4 宗個案中，31 歲男子自德國抵港，是一名機組人員，於 8 月 8 日抵港，驗出 L452R 變種病毒；54 歲男子自法國抵港，於 8 月 8 日抵港，亦驗出 L452R 變種病毒；另一名 60 歲女子自泰國抵港，是一名外傭，同樣於 8 月 8 日抵港，亦驗出 L452R 變種病毒。最後一名 34 歲男子自美國抵港，L452R 的檢驗結果待定，其他變種病毒檢驗則呈陰性，於 8 月 6 日抵港。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-10T07:38:12.950Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[父涉姦女家人涉教唆改口供　辯方：事主有機心、母親原告變被告]]></title>
@@ -944,7 +944,7 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
         <title type="html"><![CDATA[《千高原》訴說小眾故事　讓觀眾做選擇主導劇場]]></title>
         <id>https://www.thestandnews.com/art/%E5%8D%83%E9%AB%98%E5%8E%9F%E8%A8%B4%E8%AA%AA%E5%B0%8F%E7%9C%BE%E6%95%85%E4%BA%8B%E8%AE%93%E8%A7%80%E7%9C%BE%E5%81%9A%E9%81%B8%E6%93%87%E4%B8%BB%E5%B0%8E%E5%8A%87%E5%A0%B4</id>
         <link href="https://www.thestandnews.com/art/%E5%8D%83%E9%AB%98%E5%8E%9F%E8%A8%B4%E8%AA%AA%E5%B0%8F%E7%9C%BE%E6%95%85%E4%BA%8B%E8%AE%93%E8%A7%80%E7%9C%BE%E5%81%9A%E9%81%B8%E6%93%87%E4%B8%BB%E5%B0%8E%E5%8A%87%E5%A0%B4"/>
-        <updated>2021-08-10T06:39:19.757Z</updated>
+        <updated>2021-08-10T08:42:50.062Z</updated>
         <summary type="html"><![CDATA[在剛落幕的東京奧運，南韓射箭選手安山奪得三面金牌，卻因一頭短髮，被韓國網民指她是「厭男的女性主義者」，遭多番批評；中國選手鞏立姣在女子舉重賽事中奪金，賽後記者稱她為「女漢子」並問及她的未來計劃，當鞏立姣答可能會減肥、結婚生子，隨即被追問感情狀況、擇偶條件，引起網民關注「女生能被討論的只有婚姻嗎？」；新西蘭舉重選手哈伯德因為是「跨女」而備受熱議，她曾經說：「當人們遇見有別於以往認知、新的事物時，人…]]></summary>
         <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/chin-04_uZ6GIjp.png"></figure><p>在剛落幕的東京奧運，南韓射箭選手安山奪得三面金牌，卻因一頭短髮，被韓國網民指她是「厭男的女性主義者」，遭多番批評；中國選手鞏立姣在女子舉重賽事中奪金，賽後記者稱她為「女漢子」並問及她的未來計劃，當鞏立姣答可能會減肥、結婚生子，隨即被追問感情狀況、擇偶條件，引起網民關注「女生能被討論的只有婚姻嗎？」；新西蘭舉重選手哈伯德因為是「跨女」而備受熱議，她曾經說：「當人們遇見有別於以往認知、新的事物時，人們只會相信他們願意相信的。」</p>
 
@@ -1008,6 +1008,8 @@ Boehme, M., Guzzetta, K.E., Bastiaanssen, T.F.S. &amp; et al. (2021). Microbiota
 <p>8月15及21日（星期日、六）15:00、16:45、19:15、21：00<br>
 8月18至20日（星期三至五）19:15、21：00<br>
 8月22日（星期日）15:00、16:45、19:15</p>
+
+<p>詳情：https://wk.org.hk/2VFG10s</p>
 </blockquote>]]></content>
         <author>
             <name>立場報道</name>
