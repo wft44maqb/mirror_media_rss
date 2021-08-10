@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Aug 2021 05:36:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Aug 2021 05:47:47 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[氣候變化：近50國回應IPCC報告稱：「我們瀕臨滅絶」]]></title>
+            <description><![CDATA[聯合國發表最新氣候變化報告發出「人類生存紅色警報」，最受影響發展中國家共同呼籲採取行動，不然它們將被推至「滅絶邊緣」。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58155654</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58155654</guid>
+            <pubDate>Tue, 10 Aug 2021 05:43:33 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[東京奧運觀察：中國人奧運觀的變遷]]></title>
             <description><![CDATA[請問有「神」是排名第六嗎？但在很多中國人看來，排第六也是他們的「神」。]]></description>
@@ -55,13 +62,6 @@
             <link>https://www.bbc.com/zhongwen/trad/science-58145798</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58145798</guid>
             <pubDate>Tue, 10 Aug 2021 02:05:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[東京奧運：為何這座公廁能問鼎金牌？]]></title>
-            <description><![CDATA[集科技之大成的傑作還是多餘複雜？日本首都東京的這座公共廁所也許有點昂貴，但裏面裝載著的功能你也許會意想不到。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58147705</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58147705</guid>
-            <pubDate>Tue, 10 Aug 2021 02:06:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[家務分配與性別平等：「思慮萬千」讓媽媽們心力交瘁]]></title>
@@ -202,6 +202,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58138484</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58138484</guid>
             <pubDate>Sun, 08 Aug 2021 15:19:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[東京奧運：為何這座公廁能問鼎金牌？]]></title>
+            <description><![CDATA[集科技之大成的傑作還是多餘複雜？日本首都東京的這座公共廁所也許有點昂貴，但裏面裝載著的功能你也許會意想不到。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58147705</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58147705</guid>
+            <pubDate>Tue, 10 Aug 2021 02:06:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[海灣油輪遇襲：美國稱證據指向伊朗造無人機]]></title>
