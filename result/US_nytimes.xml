@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Tue, 10 Aug 2021 10:43:02 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Aug 2021 10:53:05 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[联合国科学报告：全球升温成定局，极端天气将大幅增加]]></title>
+            <link><![CDATA[https://cn.nytimes.com/science/20210810/climate-change-report-ipcc-un/?utm_source=RSS]]></link>
+            <description><![CDATA[报告得出结论，由于控制化石燃料排放不力，地球温度可能在未来20年内升高1.5度，这将给十几亿人口和动植物带来毁灭性灾难。但立即和持续的减排仍可能控制升温幅度。<p><img src='https://static01.nyt.com/images/2021/08/09/climate/09cli-ipccreport-3/merlin_192692550_3d5e43d9-a626-4a74-869f-6e7bdec851a7-articleLarge.jpg' alt='迪克西火灾周日成为了加州史上最第二大的野火。这场大火摧毁了一个镇子，迫使数以千计的人离开他们位于加州北部的家园。 David Swanson/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>David Swanson/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>迪克西火灾周日成为了加州史上最第二大的野火。这场大火摧毁了一个镇子，迫使数以千计的人离开他们位于加州北部的家园。</p>                    ]]></description>
+            <category>科学</category>
+            <dc:creator><![CDATA[BRAD PLUMER,HENRY FOUNTAIN]]></dc:creator>
+            <pubDate>Tue, 10 Aug 2021 10:45:47 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/science/20210810/climate-change-report-ipcc-un/]]></guid>
+        </item>
             <item>
             <title><![CDATA[关于德尔塔变种病毒，科学家们知道些什么？]]></title>
             <link><![CDATA[https://cn.nytimes.com/health/20210630/delta-variant-covid/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[MOTOKO RICH]]></dc:creator>
             <pubDate>Fri, 06 Aug 2021 12:36:52 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/asia-pacific/20210806/japan-olympics-apology/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[美国将允许在美港人延期居留18个月]]></title>
-            <link><![CDATA[https://cn.nytimes.com/usa/20210806/biden-hong-kong-deportation/?utm_source=RSS]]></link>
-            <description><![CDATA[这是拜登政府寻求回应香港镇压异议人士的最新举措。这项命令给予在美香港居民特别庇护，被驱逐出境者将获得18个月的延期。拜登称此举是为香港居民提供“避风港”。<p><img src='https://static01.nyt.com/images/2021/08/05/lens/05political-briefing-hong-kong/merlin_189007230_c051918b-884d-4eca-b648-23a2ef215f8a-articleLarge.jpg' alt='5月在香港举行的一场抗议活动，支持47名因中国国安法受到指控的民主活动人士。高额保释金意味着大多数人在接受审判之前，可能要在监狱中度过数月甚至数年。 Lam Yik Fei for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Lam Yik Fei for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>5月在香港举行的一场抗议活动，支持47名因中国国安法受到指控的民主活动人士。高额保释金意味着大多数人在接受审判之前，可能要在监狱中度过数月甚至数年。</p>                    ]]></description>
-            <category>美国</category>
-            <dc:creator><![CDATA[CHRIS CAMERON]]></dc:creator>
-            <pubDate>Fri, 06 Aug 2021 10:21:14 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210806/biden-hong-kong-deportation/]]></guid>
         </item>
     </channel>
 </rss>
