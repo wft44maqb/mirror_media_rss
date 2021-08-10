@@ -4,10 +4,30 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Tue, 10 Aug 2021 09:13:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Aug 2021 09:14:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[聞蒜頭可以預防新冠病毒嗎？]]></title>
+            <link>https://cofacts.tw/article/7mrjeklhq0zw?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/7mrjeklhq0zw?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Tue, 10 Aug 2021 09:13:24 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/7mrjeklhq0zw?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          聞蒜頭可以預防新冠病毒嗎？
+        
+              <h2><a href="https://cofacts.tw/reply/jUJWL3sBgBgcuemXg__r">最新回應</a></h2>
+              <p>含有錯誤訊息 by uienwt</p>
+              醫師表示這樣的刺激性氣味，恐造成呼吸道黏膜的傷害，甚至會因此破壞細胞修復的能力，不建議轉傳這樣沒有確切科學實證的偏方。
+另外醫師也表示生病還是多喝水多休息，平常健全的營養和保有運動的習慣才是正確的觀念。
+
+              <h2>出處</h2>
+              https://www.mygopen.com/2020/05/garlic.html
+https://www.mohw.gov.tw/cp-17-51631-1.html
+https://www.commonhealth.com.tw/article/80888
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[💉💉接種疫苗前，先 #加入國光客運好友，領取 #疫苗險!
 👉👉https⋯⋯]]></title>
@@ -260,25 +280,6 @@ http://www.mygopen.com/2017/12/lineline.html
 
               <h2>出處</h2>
               https://mypaper.pchome.com.tw/hridaya/post/1271187631
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[出處：https://zh.wikipedia.org/zh-tw/地震預測 (⋯⋯]]></title>
-            <link>https://cofacts.tw/article/3lkpsm9mx0klf?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/3lkpsm9mx0klf?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Tue, 10 Aug 2021 05:03:11 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/3lkpsm9mx0klf?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          出處：https://zh.wikipedia.org/zh-tw/地震預測 (地震預測 - 維基百科，自由的百科全書)
-
-http://pansci.asia/archives/120710 (為什麼地震預測這麼難？——《震識》 - PanSci 泛科學)
-        
-              <h2><a href="https://cofacts.tw/reply/20JxLnsBgBgcuemXbv7f">最新回應</a></h2>
-              <p>含有正確訊息 by Lin</p>
-              地震學家目前仍無法預測地震的確切發生時間。地震測報中心主任郭鎧紋強調，地震科學上是採觀測，而非預測，且地震預測須有嚴謹定義，包括震央、範圍大小和時間等。台大地質系教授陳宏宇表示，歐美及日本等國家學術單位都無法準確預測地震，民間預測更是不可考。
-
-              <h2>出處</h2>
-              https://earthquakewang.pixnet.net/blog/post/296586322
             ]]></description>
         </item>
     </channel>
