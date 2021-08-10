@@ -4,10 +4,29 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Tue, 10 Aug 2021 05:02:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Aug 2021 05:04:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[出處：https://zh.wikipedia.org/zh-tw/地震預測 (⋯⋯]]></title>
+            <link>https://cofacts.tw/article/3lkpsm9mx0klf?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/3lkpsm9mx0klf?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Tue, 10 Aug 2021 05:03:11 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/3lkpsm9mx0klf?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          出處：https://zh.wikipedia.org/zh-tw/地震預測 (地震預測 - 維基百科，自由的百科全書)
+
+http://pansci.asia/archives/120710 (為什麼地震預測這麼難？——《震識》 - PanSci 泛科學)
+        
+              <h2><a href="https://cofacts.tw/reply/20JxLnsBgBgcuemXbv7f">最新回應</a></h2>
+              <p>含有正確訊息 by Lin</p>
+              地震學家目前仍無法預測地震的確切發生時間。地震測報中心主任郭鎧紋強調，地震科學上是採觀測，而非預測，且地震預測須有嚴謹定義，包括震央、範圍大小和時間等。台大地質系教授陳宏宇表示，歐美及日本等國家學術單位都無法準確預測地震，民間預測更是不可考。
+
+              <h2>出處</h2>
+              https://earthquakewang.pixnet.net/blog/post/296586322
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[https://tw.stockbrokerviews.com/forums/c⋯⋯]]></title>
             <link>https://cofacts.tw/article/24ci8ewm5jv4j?utm_source=Others&amp;utm_medium=RSS</link>
@@ -227,27 +246,6 @@ https://helpcenter.ace.io/hc/zh-tw/articles/360045093051-假投資詐騙網站�
 https://helpcenter.ace.io/hc/zh-tw/articles/360045093051
 https://www.dcard.tw/f/money/p/234227040
  
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[https://foreignexchange.smpstrades.com/ ⋯⋯]]></title>
-            <link>https://cofacts.tw/article/2g442zq59u64k?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/2g442zq59u64k?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Mon, 09 Aug 2021 16:29:48 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/2g442zq59u64k?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          https://foreignexchange.smpstrades.com/ (SMART+ 先進智慧投資助理)
-
-        
-              <h2><a href="https://cofacts.tw/reply/HUK_K3sBgBgcuemXs_22">最新回應</a></h2>
-              <p>含有錯誤訊息 by Lin</p>
-              這是假投資詐騙網站，不建議貿然加入，投資理財不適合複製他人經驗，內政部165全民防騙網有更多資訊。若有任何疑慮建議請至165防詐騙諮詢專線聯繫。
-
-              <h2>出處</h2>
-              https://www.sfc.hk/en/
-https://helpcenter.ace.io/hc/zh-tw/articles/360045093051-假投資詐騙網站資訊
-https://helpcenter.ace.io/hc/zh-tw/articles/360045093051
-https://www.dcard.tw/f/money/p/234227040
             ]]></description>
         </item>
     </channel>
