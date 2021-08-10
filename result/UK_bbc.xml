@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Aug 2021 02:01:08 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Aug 2021 02:07:24 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -50,6 +50,13 @@
             <pubDate>Fri, 06 Aug 2021 13:45:56 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[新冠疫苗：針頭恐懼症患者如何克服恐懼和戰勝病毒？]]></title>
+            <description><![CDATA[針頭恐懼症會導致對注射的極度恐懼，並且在許多情況下只看到針頭就感到焦慮。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/science-58145798</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58145798</guid>
+            <pubDate>Tue, 10 Aug 2021 02:05:19 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[東京奧運：這七個賽場上的女運動員，場下竟是科學家]]></title>
             <description><![CDATA[這七名女性在今夏最重大的體育盛事挑戰過人類的極限，有些甚至奪得了獎牌；而在場下，她們還有一個戰場是大學和研究所。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/science-58142331</link>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58148274</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58148274</guid>
             <pubDate>Mon, 09 Aug 2021 12:14:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[中國人口：養老院能否解決「中國式養老」困局？]]></title>
-            <description><![CDATA[出生率下降，老齡化加劇。 中國目前有超過4萬間註冊養老院，但由於種種原因，養老問題仍將是一個難以破解的難題。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58142031</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58142031</guid>
-            <pubDate>Mon, 09 Aug 2021 03:35:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[余英時逝於普林斯頓 享年91歲：立場堅定的華人史學泰斗]]></title>
@@ -188,6 +188,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58138484</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58138484</guid>
             <pubDate>Sun, 08 Aug 2021 15:19:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中國人口：養老院能否解決「中國式養老」困局？]]></title>
+            <description><![CDATA[出生率下降，老齡化加劇。 中國目前有超過4萬間註冊養老院，但由於種種原因，養老問題仍將是一個難以破解的難題。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58142031</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58142031</guid>
+            <pubDate>Mon, 09 Aug 2021 03:35:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[海灣油輪遇襲：美國稱證據指向伊朗造無人機]]></title>
