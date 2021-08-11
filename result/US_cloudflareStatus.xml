@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-08-11T10:29:30Z</updated>
+  <updated>2021-08-11T10:54:51Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
+  <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7737052</id>
+    <published>2021-08-11T10:54:14Z</published>
+    <updated>2021-08-11T10:54:14Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/ch1t3rh1v40k"/>
+    <title>Issues authenticating using Cloudflare Access in certain data centers</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;11&lt;/var&gt;, &lt;var data-var='time'&gt;10:54&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues authenticating into Cloudflare Access&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7731979</id>
     <published>2021-08-10T21:47:14Z</published>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/6dv08vhmcn0s"/>
     <title>SSO login errors on Cloudflare Dashboard</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;25&lt;/var&gt;, &lt;var data-var='time'&gt;00:18&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;22:51&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;21:22&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with SSO login errors on Cloudflare Dashboard.&lt;br /&gt;&lt;br /&gt;These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.&lt;br /&gt;&lt;br /&gt;Some customers may encounter issues when logging Cloudflare's dashboard using SSO.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7594323</id>
-    <published>2021-07-24T20:55:44Z</published>
-    <updated>2021-07-24T20:55:44Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/m88hvpg4qq76"/>
-    <title>Distributed Web Gateway</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;20:55&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;20:21&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;19:26&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;19:20&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with its Ethereum Gateway and Distributed Web Resolver. Access to view content on the Distributed Web Gateway may be impacted.&lt;br /&gt;&lt;br /&gt;We are working to understand the full impact and mitigate this problem. More updates to follow shortly.&lt;/p&gt;</content>
   </entry>
 </feed>
