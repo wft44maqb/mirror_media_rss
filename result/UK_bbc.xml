@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Aug 2021 09:24:36 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Aug 2021 09:29:42 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -50,6 +50,13 @@
             <pubDate>Wed, 11 Aug 2021 08:29:46 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[「梅西感覺被巴塞羅那背叛了」：西甲球王離隊加盟巴黎聖日耳曼內幕]]></title>
+            <description><![CDATA[直到兩周前，梅西本人和全世界人都仍然以為他將會繼續留在效力半生的巴塞羅那，但是現在，人們以為不可能的一天還是到來了。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58171248</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58171248</guid>
+            <pubDate>Wed, 11 Aug 2021 09:27:04 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[香港教協解散：本地最大工會「無力化解危機」　連日被官媒指控為「毒瘤」]]></title>
             <description><![CDATA[中國官媒接連形容香港教協是必須鏟除的「毒瘤」。國際特赦組織則認為「恐懼滲透教育界」。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58158124</link>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/sports-58154933</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58154933</guid>
             <pubDate>Wed, 11 Aug 2021 02:19:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[南海爭議：中美官員在聯合國安理會會議再次交鋒]]></title>
-            <description><![CDATA[美國國務卿布林肯不點名批評中國的「霸凌行為」，中方官員則抨擊美國公開在南海地區國家之間挑撥離間，是對南海穩定「最大的威脅」。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58155554</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58155554</guid>
-            <pubDate>Tue, 10 Aug 2021 07:20:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿里女員工被性侵案：阿里巴巴最高層道歉與中國民眾的憤怒原因]]></title>
@@ -181,6 +181,13 @@
             <link>https://www.bbc.com/zhongwen/trad/sports-58052682</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58052682</guid>
             <pubDate>Mon, 02 Aug 2021 05:03:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[南海爭議：中美官員在聯合國安理會會議再次交鋒]]></title>
+            <description><![CDATA[美國國務卿布林肯不點名批評中國的「霸凌行為」，中方官員則抨擊美國公開在南海地區國家之間挑撥離間，是對南海穩定「最大的威脅」。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58155554</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58155554</guid>
+            <pubDate>Tue, 10 Aug 2021 07:20:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[氣候變化：近50國回應IPCC報告稱：「我們瀕臨滅絶」]]></title>
