@@ -6,8 +6,8 @@
   <description>News, Analysis and Service from Germany and Europe - in 30 Languages</description>
   <language>zh</language>
   <copyright>2021 DW.COM, Deutsche Welle</copyright>
-  <pubDate>Wed, 11 Aug 2021 13:20:08 GMT</pubDate>
-  <lastBuildDate>Wed, 11 Aug 2021 13:20:08 GMT</lastBuildDate>
+  <pubDate>Wed, 11 Aug 2021 13:25:14 GMT</pubDate>
+  <lastBuildDate>Wed, 11 Aug 2021 13:25:14 GMT</lastBuildDate>
   <atom:link href="https://rss.dw.com/xml/podcast_radio_china" rel="self"/>
   <image>
    <url>https://static.dw.com/image/2273684_7.jpg</url>
@@ -28,6 +28,19 @@
    <itunes:category text="Politics"/>
   </itunes:category>
   <ttl>10</ttl>
+  <item>
+   <guid isPermaLink="false">58819172</guid>
+   <pubDate>Wed, 11 Aug 2021 12:55:00 GMT</pubDate>
+   <title>地图找不到的“中华台北”</title>
+   <link>https://www.dw.com/zh/地图找不到的-中华台北/av-58819172?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>东京奥运告一段落，但台湾的代表队是否应该“正名”，成为了国际热门话题。台湾人怎么看？正名有什么阻力？</description>
+   <category>时政风云</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>奥运, 台湾, 中国台北, 中华台北, 正名, 两岸关系</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210810_001_olytaiwan_sd.mp4" type="video/mp4" length="18951049"/>
+   <itunes:duration>03:49</itunes:duration>
+  </item>
   <item>
    <guid isPermaLink="false">58810155</guid>
    <pubDate>Mon, 9 Aug 2021 14:55:00 GMT</pubDate>
@@ -404,19 +417,6 @@
    <itunes:explicit>clean</itunes:explicit>
    <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210628_001_chickenpower_sd.mp4" type="video/mp4" length="8214499"/>
    <itunes:duration>01:38</itunes:duration>
-  </item>
-  <item>
-   <guid isPermaLink="false">58089204</guid>
-   <pubDate>Tue, 29 Jun 2021 08:35:00 GMT</pubDate>
-   <title>买房梦距离德国人越来越遥远</title>
-   <link>https://www.dw.com/zh/买房梦距离德国人越来越遥远/av-58089204?maca=chi-podcast_radio_china-1169-xml-mrss</link>
-   <description>在过去20年里，德国年轻人拥有房产的比例直线下降。一项调查显示，德国拥有房产的居民比例在全欧盟最低。主要原因还是房价太高，和较高的贷款门槛。</description>
-   <category>经济纵横</category>
-   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
-   <itunes:keywords>德国, 房地产, 买房, 贷款</itunes:keywords>
-   <itunes:explicit>clean</itunes:explicit>
-   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210629_001_5b1f0houseneu_sd.mp4" type="video/mp4" length="8854429"/>
-   <itunes:duration>01:47</itunes:duration>
   </item>
  </channel>
 </rss>
