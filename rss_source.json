@@ -49,6 +49,8 @@
 	"美國_香港Yahoo新聞_新聞專輯@US_hkYahooTopic": "https://hk.news.yahoo.com/rss/topic",
 	"美國_香港Yahoo新聞_焦點@US_hkYahoo": "https://hk.news.yahoo.com/rss/",
 	"美國_香港Yahoo新聞_香港@US_hkYahooHK": "https://hk.news.yahoo.com/rss/hong-kong",
+	"美國_Cloudflare_狀態@US_cloudflareStatus": "https://www.cloudflarestatus.com/history.atom",
+	"美國_Cloudflare_博客@US_cloudflareBlog": "https://blog.cloudflare.com/zh-tw/rss",
 	"英國_BBC@UK_bbc": "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml",
 	"韓國_KBS_南北韓@KR_kbsIK": "http://world.kbs.co.kr/rss/rss_news.htm?lang=c&id=IK",
 	"韓國_KBS_國際@KR_kbsIntl": "http://world.kbs.co.kr/rss/rss_news.htm?lang=c&id=In",
