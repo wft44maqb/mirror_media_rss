@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 11 Aug 2021 18:12:16 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Aug 2021 18:22:17 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[“拼图”还原东德斯塔西罪恶档案]]></title>
+            <link><![CDATA[https://cn.nytimes.com/europe/20210811/stasi-archive-puzzle/?utm_source=RSS]]></link>
+            <description><![CDATA[柏林墙倒塌前，斯塔西销毁了大部分监视本国公民的记录。活动人士在最后时刻挽救了部分证据，保留下大量碎纸。此后的30年间，一群“拼图者”一直致力于手工恢复这些文件。<p><img src='https://static01.nyt.com/images/2021/08/10/autossell/puzzlers16190/puzzlers16190-articleLarge.png' alt=' '/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>欧洲</category>
+            <dc:creator><![CDATA[ANNALISA QUINN]]></dc:creator>
+            <pubDate>Wed, 11 Aug 2021 06:19:47 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/europe/20210811/stasi-archive-puzzle/]]></guid>
+        </item>
             <item>
             <title><![CDATA[中国以间谍罪名判处加拿大商人11年有期徒刑]]></title>
             <link><![CDATA[https://cn.nytimes.com/china/20210811/china-canada-spavor-kovrig/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[RUTH WHIPPMAN]]></dc:creator>
             <pubDate>Mon, 09 Aug 2021 05:12:51 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210809/boys-gender-books-culture/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[阿里解雇涉嫌强奸下属员工，受害人称此前向公司反映无果]]></title>
-            <link><![CDATA[https://cn.nytimes.com/business/20210809/alibaba-rape-china-metoo/?utm_source=RSS]]></link>
-            <description><![CDATA[阿里女员工自述出差期间遭客户灌酒、上司强奸，向公司报告后未得到反馈。事件发酵后阿里高层作出回应。事件引发人们对女性职场生存环境及酒桌文化的批评。<p><img src='https://static01.nyt.com/images/2021/08/08/world/08china-metoo/merlin_190777800_5d1c1c40-bc1f-4340-b7dd-121c955b3e8a-articleLarge.jpg' alt='中国电子商务巨头阿里巴巴集团周日表示，在一名员工遭女性下属指控强奸后，已将其解雇。 Tingshu Wang/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Tingshu Wang/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>中国电子商务巨头阿里巴巴集团周日表示，在一名员工遭女性下属指控强奸后，已将其解雇。</p>                    ]]></description>
-            <category>商业与经济</category>
-            <dc:creator><![CDATA[黄瑞黎]]></dc:creator>
-            <pubDate>Mon, 09 Aug 2021 03:57:49 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210809/alibaba-rape-china-metoo/]]></guid>
         </item>
     </channel>
 </rss>
