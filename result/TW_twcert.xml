@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Tue, 10 Aug 2021 09:10:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[台灣資安專家發表 MS Exchange Server ProxyShell 漏洞報告後，有駭侵者開始進行惡意掃瞄]]></title><link>http://www.twcert.org.tw/tw/cp-104-4999-4d782-1.html</link><description><![CDATA[<p><strong>台灣資安廠商研究員在近期的一場學術會議上發表關於 Microsoft Exchange 的資安漏洞相關報告後，即有駭侵者開始利用這些漏洞進行掃瞄，意圖利用這些漏洞發動攻擊。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Wed, 11 Aug 2021 09:45:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[數千 Facebook 帳號資訊遭全新 Android FlyTrap 惡意軟體竊取]]></title><link>http://www.twcert.org.tw/tw/cp-104-5003-d6b79-1.html</link><description><![CDATA[<p><strong>資安廠商發現一個全新的 Android 惡意軟體 FlyTrap，會藉由提供折價券或有獎徵答遊戲，吸引用戶下載安裝並注入惡意木馬軟體，以竊取用戶的 Facebook 帳號相關資訊。</strong><br />
+<br />
+資安廠商 Zimperium 旗下的研究團隊，日前發現一個全新的 Android 惡意軟體 FlyTrap，會藉由提供折價券或有獎徵答遊戲，吸引用戶下載安裝並注入惡意木馬軟體 FlyTrap，以竊取用戶的 Facebook 帳號相關資訊。<br />
+<br />
+根據 Zimperium 的研究報告指出，FlyTrap 會以簡單的社交工程手法，騙取用戶信任以下載其惡意軟體，並且在該 App 中登入 Facebook 帳號以參加抽獎或其他活動，例如 Netflix 專用折價券或 Google AdWords 的折價券等；受害者依其 App 指示登入其 Facebook 帳號後，該惡意軟體中的木馬程式即可透過內建的 JavaScript 注入以竊取用戶的 Facebook cookie、用戶帳號詳細資訊、所在地、IP 位址等。<br />
+<br />
+FlyTrap 收集到這些資訊後，即會上傳到駭侵者設立的控制伺服器；Zimperium 的資安專家發現該控制伺服器的漏洞並入侵後，取得了該批駭侵者竊得的資料。分析該批資料後，發現感染 FlyTrap 惡意軟體的 Android 手機超過 10,000 台以上，分布遍及全球 144 國，受害的 Facebook 用戶有數千名之多。<br />
+<br />
+值得注意的是，包含 FlyTrap 惡意軟體的 Android App，其用戶介面設計十分精良，且在 Google Play Store 與多個第三方 Android 行動應用程式商店均有上架；雖然在 Zimperium 通報 Google 後，這些惡意軟體已自 Google Play Store 下架，但仍在其他第三方 Android 行動應用程式商店中保持上架狀態。</p>]]></description><pubDate>Wed, 11 Aug 2021 09:45:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5003-d6b79-1.html</guid></item><item><title><![CDATA[台灣資安專家發表 MS Exchange Server ProxyShell 漏洞報告後，有駭侵者開始進行惡意掃瞄]]></title><link>http://www.twcert.org.tw/tw/cp-104-4999-4d782-1.html</link><description><![CDATA[<p><strong>台灣資安廠商研究員在近期的一場學術會議上發表關於 Microsoft Exchange 的資安漏洞相關報告後，即有駭侵者開始利用這些漏洞進行掃瞄，意圖利用這些漏洞發動攻擊。</strong><br />
 <br />
 台灣資安廠商 DEVCORE 研究員蔡政達（Orange Tsai），在近期的一場學術會議 Black Hat talk 上發表關於 Microsoft Exchange 的資安漏洞相關報告後，即有駭侵者開始利用這些漏洞，針對網路上的 Microsoft Exchange Server 進行掃瞄，意圖利用這些漏洞發動攻擊。<br />
 <br />
@@ -295,18 +303,4 @@ Cloudian 針對 200 位近兩年來曾遭勒贖攻擊的各大公私組織中 IT
 	<li>因為勒贖攻擊造成其他的額外損失，平均為 183,000 美元；</li>
 	<li>資安相關保險僅能彌補所有勒贖攻擊損失的 60%；</li>
 	<li>支付了贖金後，僅有 57% 企業能夠取回所有資料。</li>
-</ul>]]></description><pubDate>Tue, 20 Jul 2021 09:06:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4936-54ae7-1.html</guid></item><item><title><![CDATA[資安廠商發表 2021 年第一季駭侵攻擊報告，攻擊量較去年同期增加 17％]]></title><link>http://www.twcert.org.tw/tw/cp-104-4920-2db2d-1.html</link><description><![CDATA[<p><strong>資安廠商發表 2021 年第一季駭侵攻擊統計報告指出，各種駭侵攻擊活動的數量，較去年同期相比，增加 17％。</strong><br />
-<br />
-資安廠商 Positive Technologies 日前發表 2021 年第一季駭侵攻擊統計報告，報告中指出各種駭侵攻擊活動的數量，較去年同期相比，增加 17％；如果是跟上一季（2020 年第四季）相較，增加幅度為 1.2。<br />
-<br />
-在所有攻擊活動當中，針對組織發動的佔 88%，針對個人的佔 12%。<br />
-<br />
-以攻擊的目的來看，針對組織發動的攻擊中，資料竊取佔 62%、詐財佔 43％、激進駭客活動（Hacktivism）佔 9%、利用企業資源發動其他攻擊佔 2%；而企業被竊取的資料中，31% 為個人機敏資訊、24% 為智慧財産權、23% 為登入資訊、醫療資訊、客戶資料庫、付款卡片資訊等各佔 6%。<br />
-<br />
-針對個人發動的攻擊活動，69％ 是為了取得個人資訊，24% 為了詐取財物、11% 為激進駭客活動；個人被竊取的資料中，51％ 為登入資訊、23% 為個人機敏資訊、12％ 為通訊内容、6% 為金融卡或信用卡資訊%，其他類則為 8%。<br />
-<br />
-被攻擊的組織類型，政府機關佔比最高，達 12%、其次是製造業佔 11%、科學與教育機構佔 11%、醫療保健機構佔 8%、IT 産業佔 8%、金融業佔 7%、電信業佔 6%、其他産業佔 26％。<br />
-<br />
-從攻擊手法來看，利用惡意軟體發動的攻擊數量，不論機構或個人都佔 58%、利用社交攻擊手法，機構佔 52%，個人佔 89%。<br />
-<br />
-值得注意的是，針對政府機關發動的勒贖攻擊，近年來有日益增加的趨勢；觀察政府機關所有攻擊事件中，勒贖攻擊佔所有惡意軟體攻擊的比例，去年（2020 年)第一季到第四季分別為 28%、26%、37％、54％，而到今年（2021 年）第一季已高達 70%。</p>]]></description><pubDate>Mon, 19 Jul 2021 09:56:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4920-2db2d-1.html</guid></item></channel></rss>
+</ul>]]></description><pubDate>Tue, 20 Jul 2021 09:06:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4936-54ae7-1.html</guid></item></channel></rss>
