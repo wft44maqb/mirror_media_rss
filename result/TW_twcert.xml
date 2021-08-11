@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Wed, 11 Aug 2021 09:45:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[數千 Facebook 帳號資訊遭全新 Android FlyTrap 惡意軟體竊取]]></title><link>http://www.twcert.org.tw/tw/cp-104-5003-d6b79-1.html</link><description><![CDATA[<p><strong>資安廠商發現一個全新的 Android 惡意軟體 FlyTrap，會藉由提供折價券或有獎徵答遊戲，吸引用戶下載安裝並注入惡意木馬軟體，以竊取用戶的 Facebook 帳號相關資訊。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Wed, 11 Aug 2021 09:47:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[去中心化交易協定 Poly Network 遭駭，被竊資金高達 6.11 億美元]]></title><link>http://www.twcert.org.tw/tw/cp-104-5005-2f8ae-1.html</link><description><![CDATA[<p><strong>跨鏈加密貨幣交易平台 Poly Network，日前發生加密貨幣史上最大駭侵案件；該協定在數個區塊鏈的流動性池同時遭到駭侵攻擊，損失金額高達 6.11 億美元。</strong><br />
+<br />
+提供跨區塊鏈加密貨幣交易轉換的交易平台 Poly Network，日前發生加密貨幣史上最大的駭侵案件；該協定在數個區塊鏈的流動性池，在同一時間遭到駭侵攻擊，被竊取的損失金額高達 6.11 億美元。<br />
+<br />
+Poly Network 提供的服務，是在不同的區塊鏈上轉換加密貨幣，包括比特幣、以太幣與 Ontology。據區塊鏈專業媒體 The Block 的研究人員 Igor Igamberdiev 指出，Poly Network 被攻擊的原因是出在加密問題之上。<br />
+<br />
+這次 Poly Network 被竊事件，同時發生在多個區塊鏈協定上；據目前的估計，Poly Network 在以太坊上被竊的以太幣資金多達 2.73 億美元、在幣安智慧鏈 (Binance Smart Chain）上損失的幣安幣（BNB）也高達 2.53 億美元、而在 Polygon Network 區塊鏈上損失的 USDC 穩定幣則為 8,500 萬美元。<br />
+<br />
+值得一提的是，在這起駭侵事件發生後，管理集中化穩定幣泰達幣（USDT）的 Tether 公司，立即將等值 3,300 萬美元的泰達幣加以鎖定，使得駭客無法進行轉帳洗錢。<br />
+<br />
+不過，幣安交易所的創辦人則在 Twitter 上指出，該公司雖然知道這次攻擊事件，也盡全力提供各式協助，但因為幣安智慧鏈與以太坊都是高度去中心化的區塊鏈，沒有人能夠完全控制該鏈上的活動，因此無法保證任何事，只能在其能力範圍能盡力協助。<br />
+<br />
+目前幣圈各界正在密切注意被竊資金的流向，但駭客很可能透過隱密性較高的門羅幣等其他加密貨幣進行洗錢。該案後續發展仍有待觀察。</p>]]></description><pubDate>Wed, 11 Aug 2021 09:47:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5005-2f8ae-1.html</guid></item><item><title><![CDATA[數千 Facebook 帳號資訊遭全新 Android FlyTrap 惡意軟體竊取]]></title><link>http://www.twcert.org.tw/tw/cp-104-5003-d6b79-1.html</link><description><![CDATA[<p><strong>資安廠商發現一個全新的 Android 惡意軟體 FlyTrap，會藉由提供折價券或有獎徵答遊戲，吸引用戶下載安裝並注入惡意木馬軟體，以竊取用戶的 Facebook 帳號相關資訊。</strong><br />
 <br />
 資安廠商 Zimperium 旗下的研究團隊，日前發現一個全新的 Android 惡意軟體 FlyTrap，會藉由提供折價券或有獎徵答遊戲，吸引用戶下載安裝並注入惡意木馬軟體 FlyTrap，以竊取用戶的 Facebook 帳號相關資訊。<br />
 <br />
@@ -271,36 +283,4 @@ FBI 指出，目前的情報並不足以證實有某些特定團體，意圖針�
 <br />
 FBI 說，像奧運這類高知名度的大型活動，往往會成為駭侵團體的攻擊目標，藉以獲取不法金錢利益、製造混亂、加強該團體的知名度、影響主辦單位或執法者的形象，或是宣揚其意識形態。<br />
 <br />
-FBI 指出，2018 年的平昌冬季奧運，就發現疑似有駭侵團體，針對將於 2018 年 2 月 9 日舉辦的開幕典禮進行駭侵攻擊，目標是要破壞開幕典禮的運作；同樣有大批參與該屆冬季奧運的南韓官員、民眾、各國運動員、合作伙伴等相關個人或組織遭到駭入。</p>]]></description><pubDate>Wed, 21 Jul 2021 09:20:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4938-865b3-1.html</guid></item><item><title><![CDATA[資安廠商調查指出，54% 勒贖攻擊受害者接受過釣魚攻擊防護訓練]]></title><link>http://www.twcert.org.tw/tw/cp-104-4936-54ae7-1.html</link><description><![CDATA[<p><strong>資安廠商調查指出，釣魚郵件攻擊是勒贖攻擊者用以發動攻擊的主要手法，各大企業組織也普遍舉辦釣魚攻擊防護訓練；然而在遭到從釣魚郵件開始進行勒贖攻擊的受害者中，有 54% 都接受過釣魚攻擊防護訓練。</strong><br />
-<br />
-資安廠商 Cloudian 日前發表調查報告指出，釣魚郵件攻擊是勒贖攻擊者用以發動攻擊的主要手法，各大企業組織也普遍舉辦釣魚攻擊防護訓練；然而在遭到從釣魚郵件開始進行勒贖攻擊的受害者中，有 65% 都接受過釣魚攻擊防護訓練。<br />
-<br />
-Cloudian 針對 200 位近兩年來曾遭勒贖攻擊的各大公私組織中 IT 部門決策者進行調查，得到的調查結果顯示，傳統的勒贖攻擊防護機制是無效的；調查結果摘要如下：</p>
-
-<ul>
-	<li>24% 的勒贖攻擊，透過釣魚攻擊開始發動；</li>
-	<li>54% 的受害者公司，都曾針對員工舉辦過釣魚郵件防護訓練；</li>
-	<li>49% 的受害者，原本就建置有類似攻擊的防護系統；</li>
-	<li>31% 的勒贖攻擊從公有雲開始發動；</li>
-	<li>44% 的公司在儲存資料時有進行即時加密；</li>
-	<li>43% 的公司會限制内部資料或主機的存取權。</li>
-</ul>
-
-<p>此外，調查也顯示勒贖攻擊者的反應速度極快，有 56％ 的受害者表示，勒贖攻擊者能在 12 小時内完全控制該公司的資料，並且要求支付贖款；30% 受害者表示在 24 小時内發生；而超過一半以上的受害者表示，勒贖攻擊對該公司的財務、日常運作、員工、顧客和公司聲譽造成顯著損害：</p>
-
-<ul>
-	<li>對員工造成損害：59%；</li>
-	<li>對公司財務造成損害：58%；</li>
-	<li>對公司營運造成衝擊：57%；</li>
-	<li>對顧客造成影響：57%；</li>
-	<li>對公司聲譽造成負面影響：52%。</li>
-</ul>
-
-<p>調查也指出，勒贖攻擊造成的受害者財務損失，並不只有支付贖金而已：</p>
-
-<ul>
-	<li>55% 的受害公司會支付勒款；平均支付金額為 223,000 美元，更有 14% 支付超過 500,000 美元；</li>
-	<li>因為勒贖攻擊造成其他的額外損失，平均為 183,000 美元；</li>
-	<li>資安相關保險僅能彌補所有勒贖攻擊損失的 60%；</li>
-	<li>支付了贖金後，僅有 57% 企業能夠取回所有資料。</li>
-</ul>]]></description><pubDate>Tue, 20 Jul 2021 09:06:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4936-54ae7-1.html</guid></item></channel></rss>
+FBI 指出，2018 年的平昌冬季奧運，就發現疑似有駭侵團體，針對將於 2018 年 2 月 9 日舉辦的開幕典禮進行駭侵攻擊，目標是要破壞開幕典禮的運作；同樣有大批參與該屆冬季奧運的南韓官員、民眾、各國運動員、合作伙伴等相關個人或組織遭到駭入。</p>]]></description><pubDate>Wed, 21 Jul 2021 09:20:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4938-865b3-1.html</guid></item></channel></rss>
