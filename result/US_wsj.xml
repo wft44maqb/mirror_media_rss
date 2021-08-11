@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Aug 2021 09:58:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Aug 2021 10:04:09 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 11 Aug 2021 09:58:14 GMT</pubDate>
+        <pubDate>Wed, 11 Aug 2021 10:04:09 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -42,13 +42,6 @@
             <pubDate>Wed, 11 Aug 2021 09:30:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[資金鏈緊張的恆大集團尋求出售優質資產]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LN050_0811EV_OR_20210811021922.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國恆大股價周三跳漲，這家資金鏈緊張的房地產開發商此前表示，正就出售旗下部分優質資產展開磋商。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E8%B3%87%E9%87%91%E9%8F%88%E7%B7%8A%E5%BC%B5%E7%9A%84%E6%81%86%E5%A4%A7%E9%9B%86%E5%9C%98%E5%B0%8B%E6%B1%82%E5%87%BA%E5%94%AE%E5%84%AA%E8%B3%AA%E8%B3%87%E7%94%A2-11628667909</link>
-            <guid isPermaLink="false">CT-FIN-20210811152950</guid>
-            <pubDate>Wed, 11 Aug 2021 09:40:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[中國重體力行業男性勞動力不足，更多女性開始填補缺口]]></title>
             <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LL241_CWOMEN_OR_20210805165020.jpg" class="webfeedsFeaturedVisual" alt=""/><p>低出生率和人口老齡化所造成的勞動力短缺正促使更多中國女性進入建築、運輸等男性傳統行業從事重體力勞動，毛澤東時代的「鐵姑娘」們又回來了。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E9%87%8D%E9%AB%94%E5%8A%9B%E8%A1%8C%E6%A5%AD%E7%94%B7%E6%80%A7%E5%8B%9E%E5%8B%95%E5%8A%9B%E4%B8%8D%E8%B6%B3%EF%BC%8C%E6%9B%B4%E5%A4%9A%E5%A5%B3%E6%80%A7%E9%96%8B%E5%A7%8B%E5%A1%AB%E8%A3%9C%E7%BC%BA%E5%8F%A3-11628664910</link>
@@ -61,6 +54,13 @@
             <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E6%B3%95%E9%99%A2%E4%BB%A5%E9%96%93%E8%AB%9C%E7%BD%AA%E5%88%A4%E8%99%95%E5%8A%A0%E6%8B%BF%E5%A4%A7%E4%BA%BA%E6%96%AF%E5%B8%95%E5%BC%9711%E5%B9%B4%E6%9C%89%E6%9C%9F%E5%BE%92%E5%88%91-11628660110</link>
             <guid isPermaLink="false">CT-BGH-20210811131251</guid>
             <pubDate>Wed, 11 Aug 2021 08:15:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[資金鏈緊張的恆大集團尋求出售優質資產]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LN050_0811EV_OR_20210811021922.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國恆大股價周三跳漲，這家資金鏈緊張的房地產開發商此前表示，正就出售旗下部分優質資產展開磋商。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E8%B3%87%E9%87%91%E9%8F%88%E7%B7%8A%E5%BC%B5%E7%9A%84%E6%81%86%E5%A4%A7%E9%9B%86%E5%9C%98%E5%B0%8B%E6%B1%82%E5%87%BA%E5%94%AE%E5%84%AA%E8%B3%AA%E8%B3%87%E7%94%A2-11628667909</link>
+            <guid isPermaLink="false">CT-FIN-20210811152950</guid>
+            <pubDate>Wed, 11 Aug 2021 09:40:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[美國參議院通過民主黨3.5兆美元的預算計劃]]></title>
