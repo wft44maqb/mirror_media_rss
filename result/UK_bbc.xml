@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Aug 2021 07:05:43 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Aug 2021 08:45:23 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -22,6 +22,13 @@
             <pubDate>Wed, 11 Aug 2021 02:13:35 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[中國加大力度指責美國「抗疫失敗」 美軍實驗室洩露論再起]]></title>
+            <description><![CDATA[德爾塔變種病毒在中國掀起新一輪疫情的同時，中國不斷加大對美國的批判力度。中國多家官媒引述智庫報告，指責美國是「抗疫失敗國」和「疫情擴散國」。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58169540</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58169540</guid>
+            <pubDate>Wed, 11 Aug 2021 08:10:56 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[新冠疫情：中國加碼全球疫苗供應 「疫苗外交」再升溫]]></title>
             <description><![CDATA[德爾塔變種病毒在全球多個地區蔓延，貧困國家面臨進一步疫苗短缺。當美國等西方國家考慮為民眾接種第三針之時，中國啟動新一輪疫苗對外供應計劃。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58158134</link>
@@ -29,11 +36,18 @@
             <pubDate>Wed, 11 Aug 2021 02:17:30 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[加拿大人斯帕弗因刺探、非法提供國家秘密罪被中國判監11年]]></title>
+            <title><![CDATA[美國紐約州州長科莫：性騷擾報告出爐後辭職]]></title>
+            <description><![CDATA[紐約州州長安德魯·科莫辭職。此前一項調查發現，他對多名女性進行性騷擾，促使人們呼籲將他免職。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58170493</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58170493</guid>
+            <pubDate>Wed, 11 Aug 2021 08:42:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[斯帕弗因「刺探國家秘密」被中國判監11年 加拿大批評裁決「不能接受、不公平」]]></title>
             <description><![CDATA[加拿大當局一直指控北京透過斯帕弗和另一名加拿大人康明凱的案件施壓，令加拿大法院拒絶把華為董事長孟晚舟引渡到美國，但北京否認。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58168687</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58168687</guid>
-            <pubDate>Wed, 11 Aug 2021 03:35:50 GMT</pubDate>
+            <pubDate>Wed, 11 Aug 2021 08:29:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[香港教協解散：本地最大工會「無力化解危機」　連日被官媒指控為「毒瘤」]]></title>
@@ -62,20 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58155554</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58155554</guid>
             <pubDate>Tue, 10 Aug 2021 07:20:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[台灣同運會決定不參加明年的香港「同樂運動會」]]></title>
-            <description><![CDATA[台灣同志運動發展協會擔心，台灣運動員及工作人員在香港期間揮動「青天白日旗」，可能會觸犯《香港國安法》，決定不會組隊參與明年的同樂運動會。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58160437</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58160437</guid>
-            <pubDate>Wed, 11 Aug 2021 05:24:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[美國國會法案：這一萬億美元基建計劃將如何改變歷史？]]></title>
-            <description><![CDATA[從修復橋樑、全球氣候變暖到遠程工作技術，美國的1萬億美元基建計劃旨在覆蓋廣大的領域。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58156359</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58156359</guid>
-            <pubDate>Tue, 10 Aug 2021 09:32:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿里女員工被性侵案：阿里巴巴最高層道歉與中國民眾的憤怒原因]]></title>
@@ -190,6 +190,13 @@
             <pubDate>Tue, 10 Aug 2021 05:43:33 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[台灣同運會決定不參加明年的香港「同樂運動會」]]></title>
+            <description><![CDATA[台灣同志運動發展協會擔心，台灣運動員及工作人員在香港期間揮動「青天白日旗」，可能會觸犯《香港國安法》，決定不會組隊參與明年的同樂運動會。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58160437</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58160437</guid>
+            <pubDate>Wed, 11 Aug 2021 05:24:49 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[日本超級食物納豆：讓人愛憎分明的奇葩]]></title>
             <description><![CDATA[日本人一向將納豆視為超級食物，甚至有「一日一盒納豆，死亡遠離我」的說法。但前提是你要先受得了納豆散發出的刺鼻氣味，以及放入口中像粘液一樣拉絲的口感。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/57826425</link>
@@ -204,18 +211,18 @@
             <pubDate>Mon, 09 Aug 2021 01:32:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[海灣油輪遇襲事件背後的西方進退兩難]]></title>
-            <description><![CDATA[海灣油輪遭遇襲擊，一名英國人和一名羅馬尼亞人死亡，希望能重啟核協議的西方政府面臨進退兩難局面。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58076654</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58076654</guid>
-            <pubDate>Tue, 03 Aug 2021 19:05:43 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[東京奧運： 美國閉幕日奪回金牌榜首 中台港均成績優異]]></title>
             <description><![CDATA[東京奧運8月8日閉幕 ，金牌榜上美國以39枚居首，中國以38枚排第二名；日本、英國、俄奧委代表隊順序列三、四、五名。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58138484</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58138484</guid>
             <pubDate>Sun, 08 Aug 2021 15:19:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[海灣油輪遇襲事件背後的西方進退兩難]]></title>
+            <description><![CDATA[海灣油輪遭遇襲擊，一名英國人和一名羅馬尼亞人死亡，希望能重啟核協議的西方政府面臨進退兩難局面。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58076654</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58076654</guid>
+            <pubDate>Tue, 03 Aug 2021 19:05:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[家務分配與性別平等：「思慮萬千」讓媽媽們心力交瘁]]></title>
@@ -363,6 +370,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58081705</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58081705</guid>
             <pubDate>Wed, 04 Aug 2021 02:15:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[美國國會法案：這一萬億美元基建計劃將如何改變歷史？]]></title>
+            <description><![CDATA[從修復橋樑、全球氣候變暖到遠程工作技術，美國的1萬億美元基建計劃旨在覆蓋廣大的領域。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58156359</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58156359</guid>
+            <pubDate>Tue, 10 Aug 2021 09:32:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[氣候變化：IPCC——給地球氣候寫「體檢報告」的國際權威機構]]></title>
