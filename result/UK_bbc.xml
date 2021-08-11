@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Aug 2021 11:15:01 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Aug 2021 11:20:11 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[中國、立陶宛與台灣爭端：北京召回大使的前前後後]]></title>
+            <description><![CDATA[北京因不滿台北以「台灣」名義設立代表處而宣佈召回駐立陶宛大使，美國與歐盟表態支持維爾紐斯與台北發展關係，對抗北京。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58172684</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58172684</guid>
+            <pubDate>Wed, 11 Aug 2021 11:17:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[新冠疫情：牛津大學流行病學教授陳錚鳴如何看「共存說」與「清零論」]]></title>
             <description><![CDATA[牛津大學流行病學教授陳錚鳴建議中國盡快提高疫苗接種率，完善疫苗設計和引進國外疫苗等。他認為，應對新冠病毒是科學問題，不是政治問題。]]></description>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58157888</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58157888</guid>
             <pubDate>Tue, 10 Aug 2021 16:05:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[北京冬奧2022：中國新一輪新冠疫情會影響冬奧嗎]]></title>
-            <description><![CDATA[新冠疫情導致東京奧運會延期，讓這兩場奧運會的間隔前所未有地縮短。但北京面臨著和東京一樣的問題，新冠病毒依然在全球肆虐，如何在防疫和觀賽上取得平衡？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/sports-58154933</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58154933</guid>
-            <pubDate>Wed, 11 Aug 2021 02:19:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿里女員工被性侵案：阿里巴巴最高層道歉與中國民眾的憤怒原因]]></title>
@@ -188,6 +188,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58155554</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58155554</guid>
             <pubDate>Tue, 10 Aug 2021 07:20:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[北京冬奧2022：中國新一輪新冠疫情會影響冬奧嗎]]></title>
+            <description><![CDATA[新冠疫情導致東京奧運會延期，讓這兩場奧運會的間隔前所未有地縮短。但北京面臨著和東京一樣的問題，新冠病毒依然在全球肆虐，如何在防疫和觀賽上取得平衡？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58154933</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58154933</guid>
+            <pubDate>Wed, 11 Aug 2021 02:19:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[氣候變化：近50國回應IPCC報告稱：「我們瀕臨滅絶」]]></title>
