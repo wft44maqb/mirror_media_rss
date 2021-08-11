@@ -2,11 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-11T06:18:15.310Z</updated>
+    <updated>2021-08-11T06:23:18.223Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[如何較安全地使用雲端檔案儲存空間]]></title>
+        <id>https://www.thestandnews.com/personal/%E5%A6%82%E4%BD%95%E8%BC%83%E5%AE%89%E5%85%A8%E5%9C%B0%E4%BD%BF%E7%94%A8%E9%9B%B2%E7%AB%AF%E6%AA%94%E6%A1%88%E5%84%B2%E5%AD%98%E7%A9%BA%E9%96%93</id>
+        <link href="https://www.thestandnews.com/personal/%E5%A6%82%E4%BD%95%E8%BC%83%E5%AE%89%E5%85%A8%E5%9C%B0%E4%BD%BF%E7%94%A8%E9%9B%B2%E7%AB%AF%E6%AA%94%E6%A1%88%E5%84%B2%E5%AD%98%E7%A9%BA%E9%96%93"/>
+        <updated>2021-08-11T06:18:40.474Z</updated>
+        <summary type="html"><![CDATA[儲存檔案在雲端甚為方便，但用得不妥當，隨時方便自己，亦方便歹徒，所以使用雲端服務時，更應加倍小心。有三點要注意：一，基本保安要求，密碼、二步認證二，雲端儲存空間上較敏感的資料應額外加密三，慎選雲端服務供應商以下逐點去講。一，基本保安要求，密碼、二步認證不論你用哪間服務供應商，但基本的保安必須做好，包括密碼不重複，不會與其他戶口共用密碼，並且要有開啟二步認證。若然密碼太多記不住，就要習慣使用密碼管…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/06087fs6df.jpg"><figcaption><span>很久沒有從飛機上看過雲，放一張雲圖來應景。我想起多年前有位印度稅務局前官員 Vishwa Bandh 曾經說過，雲端的軟件（CD？）及檔案很危險，但無人預料得到，萬一打風落雨怎麼辦。 https://youtu.be/AnxrJiS5uKU?t=133</span></figcaption></figure><p>儲存檔案在雲端甚為方便，但用得不妥當，隨時方便自己，亦方便歹徒，所以使用雲端服務時，更應加倍小心。</p>
+
+<p><strong>有三點要注意：</strong></p>
+
+<p><strong>一，基本保安要求，密碼、二步認證<br>
+二，雲端儲存空間上較敏感的資料應額外加密<br>
+三，慎選雲端服務供應商</strong></p>
+
+<p>以下逐點去講。</p>
+
+<p><strong>一，基本保安要求，密碼、二步認證</strong></p>
+
+<p>不論你用哪間服務供應商，但基本的保安必須做好，包括密碼不重複，不會與其他戶口共用密碼，並且要有開啟二步認證。若然密碼太多記不住，就要習慣使用密碼管理器。如果密碼重複使用，萬一另一間網絡供應商的資料外洩了（經常發生），別人就能猜到你其他戶口的密碼。</p>
+
+<p><a href="https://www.patreon.com/posts/38002570" target="_blank">有關密碼管理器</a><br>
+<a href="https://www.patreon.com/posts/38049149" target="_blank">二步認證的設置</a></p>
+
+<p><strong>二，雲端儲存空間上較敏感的資料應額外加密</strong></p>
+
+<p>檔案放上雲端，要作好最壞打算，隨時有被盜的風險，不要心存僥倖。入侵的方式可以是外部，但也有可能是該公司出賣客戶資料。對於較為敏感的檔案，當然最好避免上傳至雲端，但若然自己衡量風險後認為要放上雲端，就建議要做一層額外的加密。</p>
+
+<p>有兩種加密方式，分別是在本機電腦用 Veracrypt 製作加密碟，或使用附加在 Google Drive 或 Dropbox 的加密服務。</p>
+
+<p><em>甲，在本機電腦用 Veracrypt 製作加密碟</em></p>
+
+<p>Veracrypt 的使用方法大致是，在電腦上使用免費開源的 Veracrypt 軟件，製造一個加密碟影像檔案，使用起來好像是一個虛擬的 USB 手指，實質只是一個檔案。</p>
+
+<p>在電腦上打開 Veracrypt，選擇加密碟影像檔案，把檔案放入去，之後再把整個加密碟影像檔案上傳至雲端。由於每次一有微細的檔案更改，都要整個加密碟檔案重新上傳，所以加密碼碟不宜太大。</p>
+
+<blockquote>
+<p><strong>好處：</strong>Veracrypt 是資訊保安界裡其中一個最廣為使用的加密工具，運作非常穩定。</p>
+
+<p><strong>壞處：</strong>只能在 Mac、PC 等電腦上操作，檔案不能在手機上解鎖。另外，對新手來說，操作上有點複雜。</p>
+</blockquote>
+
+<p>我之前寫過一篇文章介紹 Veracrypt，請看：<a href="https://www.patreon.com/posts/38341752" target="_blank">〈簡易製作加密虛擬碟中碟〉</a></p>
+
+<p><em>乙，附加在 Google Drive 或 Dropbox 的加密服務</em></p>
+
+<p>Google Drive、Dropbox、OneDrive 等最流行的服務，都不是「零知識」，即是他們有能力把你的資料向他們披露。他們會不會這樣做是一回事，但我就是不喜歡他們有這個權限。</p>
+
+<p>其中一個簡單的解決方法，<a href="https://cryptomator.org/downloads/" target="_blank">是使用 Cryptomator</a>，能夠在 Google Drive、Dropbox、OneDrive 上加入一個加密文件夾，放進去的資料，即使是總公司，也不能查看當中內容。</p>
+
+<p>電腦版免費使用，但手機 app 要付費。</p>
+
+<blockquote>
+<p><strong>好處：</strong>手機及電腦均能解密，方便使用。</p>
+
+<p><strong>壞處：</strong>在網上論壇，經常有人提及自己以 Cryptomator（或另一類似軟件 Boxcryptor），會有些檔案消失，可能是使用者使用不當，也有可能是其他原因，而更重要是，我自己有次也出現過類似情況。所以，即使用這個軟件，我也只會加密非常少量檔案，而絕不敢用它來加密整個 Google Drive。另外，檔案本身也有較好的備份。</p>
+</blockquote>
+
+<p><strong>三，慎選雲端服務供應商：推介 Tresorit</strong></p>
+
+<p>雲端檔案儲存系統，最流行的是 Google Drive、Dropbox、Onedrive 等，但這些都不是「零知識」，即是這些服務的公司理論上都能查看用戶的資料。公平一點說，不是任何一個員工都有此權限，而看過檔案的員工也會留有記錄，如果是法庭要求交出資料，美國的科技巨頭也會在其《透明報告》中披露相關數據。</p>
+
+<p>但問題是，我為甚麼要任由別人去決定如何保管我的資料？我不管他們會否交出我的檔案，但我對於他們這個能力，已覺不舒服。所以我寧願多付一點錢，選擇一間對我的檔案是「零知識」的服務商，即是檔案有加密，而服務供應商沒有密鑰，亦無法打開我的任何檔案。</p>
+
+<p>考慮到公司背景、所在國瑞士、審計報告、風評、用戶組織等等，<a href="https://tresorit.com/individuals" target="_blank">我推介的是 Tresorit</a>。該公司設在瑞士及匈牙利，要遵照瑞士及歐盟的私隱政策，數據中心設在愛爾蘭及荷蘭。Tresorit 在 2021 被瑞士郵政收購，雖然郵政也是政府機關，但一來該公司利用「零知識」的運作模式，想出賣用戶數據也沒有甚麼可以出賣，二來該政府是瑞士，出名對私隱保護較強，不像某些下流的國度。</p>
+
+<p>Tresorit 的功能與 Google Drive 類似，都是雲端硬盤，但是「零知識」，他們沒有能力查看用戶檔案。使用起來也大同小異，但涉及大量人工智能搜索功能就欠奉，這點算是一個妥協。另外，Tresorit 本身都有加密，所以不用搭配 Cryptomator。</p>
+
+<p>申請時會有十四天免費試用期，在十四天內取消，計劃會變成 Basic，基本的計劃應該也有 Camera Upload（相簿同步）的功能。Tresorit 的價錢稍貴，Premium 計劃每月 10.42 美金（500 GB 空間），Solo 計劃每月 24 美金（2,500 GB 空間）。</p>
+
+<p>如果有學校 edu 尾（包含 edu.hk）的電郵地址，可以直接發信給 Support（support@tresorit.com）查詢並取得八折優惠。<a href="https://tresorit.com/subscribe-nonprofit" target="_blank">如果是注冊的非牟利組織</a>，更有五折優惠。</p>
+
+<p>另有幾間點對點加密的雲端硬盤，例如加拿大的 <a href="https://sync.com/" target="_blank">Sync.com</a>，以及 pCloud、CrashPlan（慢慢慢）、SpiderOak，我自己測試過，覺得速度未如理想，而 Proton Drive 暫時仍屬 beta 版，空間不大。Tresorit 及 Sync.com 均有試用期，不妨試一星期才決定用哪個。至於 NAS，我不是太確定其安全系數，沒有使用。</p>
+
+<blockquote>
+<p><strong>Tresorit 好處：</strong>速度算快，手機及電腦的應用介面易用，運作方式是「零知識」，即該公司沒有能力出賣你。注冊國在瑞士，對私隱保障佳。</p>
+
+<p><strong>Tresorit 壞處：</strong>較錢會是其中一個最大的阻力，其實也不是太貴，但因為 Google Drive 太便宜，大多數人會以此為價格的參考基準。</p>
+</blockquote>
+
+<p>整體而言我對 Tresorit 很滿意。</p>
+
+<p><strong>總結：</strong></p>
+
+<p>最敏感的檔案不只不應上傳至雲端，甚至不應該儲存在可以上網的設備，有些人甚至會刻意把專門儲存敏感資料的電腦的上網元件拆除，確保完全與網絡隔絕，即所謂的「氣隙」（air gap）。</p>
+
+<p>但如果真的要把檔案放到雲端，較理想的做法是選用 Tresorit 這些零知識的雲端檔案儲存空間。如果不能負擔，使用 Google Drive 等，則應把較敏感的資料以 Veracrypt 或 Cryptomator 加密。</p>
+
+<blockquote>
+<p><strong>較理想的雲端方案：</strong>Tresorit</p>
+
+<p><strong>次理想的雲端方案：</strong>Google Drive / Dropbox + Veracrypt</p>
+
+<p><strong>或：</strong>Google Drive / Dropbox + Cryptomator（只加密少量檔案）</p>
+</blockquote>
+
+<p>另外有一點想提，一些服務供應商可以透過改變註冊地來改變儲存雲端檔案的地理位置，例如由人權較差的國家轉至人權較好的國家，但一來政策不是太透明，二來不是所有服務都有提供相關選項（Google 似乎要商業用戶才有此選項）。如果改到就改，最好還是選用更安全可靠的服務商。</p>
+
+<p>&nbsp;</p>
+
+<p>🔑 <a href="https://www.patreon.com/posts/54385202" target="_blank">【超務實長清單整理，和你加強資訊保安、私隱保護（2021 年 8 月更新）】</a></p>
+
+<p><a href="https://www.patreon.com/posts/54741568" target="_blank">作者 Patreon</a> / <a href="https://www.facebook.com/pazukong/posts/382023406628282" target="_blank">Facebook</a> / <a href="https://mewe.com/p/pazu/show/611304f027fe7b1d2a1443e3" target="_blank">MeWe</a></p>]]></content>
+        <author>
+            <name>Pazu 薯伯伯</name>
+            <uri>https://www.thestandnews.com/author/pazu-%E8%96%AF%E4%BC%AF%E4%BC%AF</uri>
+        </author>
+        <category label="生活"/>
+        <published>2021-08-11T06:18:40.474Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[人工智能審視 24 萬篇研究　發現高血糖水平或為 COVID-19 重症原因]]></title>
         <id>https://www.thestandnews.com/cosmos/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AF%A9%E8%A6%96-24-%E8%90%AC%E7%AF%87%E7%A0%94%E7%A9%B6-%E7%99%BC%E7%8F%BE%E9%AB%98%E8%A1%80%E7%B3%96%E6%B0%B4%E5%B9%B3%E6%88%96%E7%82%BA-covid-19-%E9%87%8D%E7%97%87%E5%8E%9F%E5%9B%A0</id>
@@ -961,43 +1070,5 @@ ________________________________</p>
         </author>
         <category label="政治"/>
         <published>2021-08-11T00:25:17.547Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[牛津專家﹕群體免疫不可能]]></title>
-        <id>https://www.thestandnews.com/international/%E7%89%9B%E6%B4%A5%E5%B0%88%E5%AE%B6%E8%AD%89%E7%BE%A4%E9%AB%94%E5%85%8D%E7%96%AB%E4%B8%8D%E5%8F%AF%E8%83%BD</id>
-        <link href="https://www.thestandnews.com/international/%E7%89%9B%E6%B4%A5%E5%B0%88%E5%AE%B6%E8%AD%89%E7%BE%A4%E9%AB%94%E5%85%8D%E7%96%AB%E4%B8%8D%E5%8F%AF%E8%83%BD"/>
-        <updated>2021-08-10T23:56:48.641Z</updated>
-        <summary type="html"><![CDATA[世界多國新冠肺炎疫苗注射計劃都以群體免疫為目標，但牛津疫苗組 (Oxford Vaccine Group) 總監 Andrew Pollard 10 日指，由於 Delta 變種仍會感染接種者，群體免疫僅是「神話 (mythical)」。Andrew Pollard 是牛津大學醫學專家，有份參與研發牛津／阿斯利康疫苗。他在 10 日向英國國會議員指，Delta 變種的新冠肺炎不似麻疹，可透過疫苗…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210623-17_rblcU.png"></figure><p>世界多國新冠肺炎疫苗注射計劃都以群體免疫為目標，但牛津疫苗組 (Oxford Vaccine Group) 總監 Andrew Pollard 10 日指，由於 Delta 變種仍會感染接種者，群體免疫僅是「神話 (mythical)」。</p>
-
-<p>Andrew Pollard 是牛津大學醫學專家，有份參與研發牛津／阿斯利康疫苗。他在 10 日向英國國會議員指，Delta 變種的新冠肺炎不似麻疹，可透過疫苗達致群體免疫。</p>
-
-<p>麻疹在 95% 人口已接種疫苗的情況下，可遏止傳播。</p>
-
-<p>不過 Pollard 指，疫苗或可減慢 Delta 新冠肺炎傳播速度，因數據顯示接種人士若確診，似乎能以較短時間恢復。&nbsp;</p>
-
-<p>疫苗無法做到群體免疫，亦不等於疫苗無效。多國數字證明，疫苗能有效減少染疫後出現重症和死亡的風險。以英國為例，自從大多數成年人注射疫苗後，雖然新增確診數字仍每日逾 2 萬，但死亡人數已大幅減少至百餘。</p>
-
-<p>有見及此，他認為疫苗注射計劃不應以達致群體免疫為目標。他又指，若繼續追求社區檢測，擔憂感染人數，「我們可能會出現一個情況，就是不斷打加強劑，處理一件根本無法控制的事。」</p>
-
-<p>Pollard 更認為，新冠肺炎病毒或將再出現變種，能在已注射疫苗的人士當中傳播得更快。</p>
-
-<p>英格蘭公眾健康 (Public Health England, PHE) 研究指，已注射疫苗的人士感染病毒時，帶有的病毒量跟未注射疫苗的人士差不多，傳播能力亦可能相近。</p>
-
-<p>東英吉利亞大學 (University of East Anglia) 教授 Paul Hunter 指，「群體免疫的概念不可能達到，因為我們知道 . . . &nbsp;打兩劑疫苗，針對感染只有大約 50% 保護率。」</p>
-
-<p>諾定咸大學教授 Keith Neal 指，新冠肺炎可在未來數十年繼續存在，直至人類研發出有效終止它傳播的疫苗。「我們要將新冠肺炎看做不會消失的感冒。」</p>
-
-<p>&nbsp;</p>
-
-<p>相關報道</p>
-
-<p><a href="https://www.politico.eu/article/herd-immunity-not-a-possibility-with-delta-variant/">POLITICO</a>、<a href="http://independent.co.uk/news/science/covid-cases-uk-herd-immunity-b1900198.html">INDEPENDENT</a>、<a href="https://www.telegraph.co.uk/news/2021/08/10/delta-variant-has-wrecked-hopes-herd-immunity-warn-scientists/">TELEGRAPH</a></p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="國際"/>
-        <published>2021-08-10T21:30:02.566Z</published>
     </entry>
 </feed>
