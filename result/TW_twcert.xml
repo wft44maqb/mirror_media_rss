@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Tue, 10 Aug 2021 09:10:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[台灣資安專家發表 MS Exchange Server ProxyShell 漏洞報告後，有駭侵者開始進行惡意掃瞄]]></title><link>http://www.twcert.org.tw/tw/cp-104-4999-4d782-1.html</link><description><![CDATA[<p><strong>台灣資安廠商研究員在近期的一場學術會議上發表關於 Microsoft Exchange 的資安漏洞相關報告後，即有駭侵者開始利用這些漏洞進行掃瞄，意圖利用這些漏洞發動攻擊。</strong><br />
+<br />
+台灣資安廠商 DEVCORE 研究員蔡政達（Orange Tsai），在近期的一場學術會議 Black Hat talk 上發表關於 Microsoft Exchange 的資安漏洞相關報告後，即有駭侵者開始利用這些漏洞，針對網路上的 Microsoft Exchange Server 進行掃瞄，意圖利用這些漏洞發動攻擊。<br />
+<br />
+駭侵者掃瞄並欲加以利用的一組三個 MS Exchange Server 漏洞，被合稱為 ProxyShell 漏洞，分別是 CVE-2021-34474、CVE-2021-34523 與 CVE-2021-31207，這三個漏洞的組合，可讓駭侵者不需要經過登入驗證，即可在 Microsoft Exchange Server 上遠端執行任意程式碼。<br />
+<br />
+台灣資安廠商 DEVCORE 的首席研究員蔡政達，因為發現這三個漏洞而獲得今年四月 Pwn2Own 2021 駭侵測試的大獎，而這些漏洞也在今年四月到五月之間，由 Microsoft 官方發布的資安修補程式予以修復。<br />
+<br />
+在蔡政達於在 Black Hat talk 上發表研究成果，並解釋 ProxyShell 漏洞可以如何運作後，另有兩位資安研究專家發表了相關技術研究報告，指出如何實作該漏洞的攻擊後，就有另一位資安專家 Kevin Beaumont 發現有駭侵者試圖偵測他設立的 Microsoft Exchange Server 是否有該漏洞可入侵，在進一步追查後，發現有駭侵者開始大規模掃瞄網路上的 Microsoft Exchange Server，以利用 ProxyShell 漏洞發動攻擊。<br />
+<br />
+Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏洞發表更新，但據信整個 Internet 上還有 50% 的 Microsoft Exchange Server 尚未套用這些更新。</p>]]></description><pubDate>Tue, 10 Aug 2021 09:10:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4999-4d782-1.html</guid></item><item><title><![CDATA[多廠牌路由器登入驗證跳過漏洞，現已遭大規模用於攻擊]]></title><link>http://www.twcert.org.tw/tw/cp-104-4998-a175a-1.html</link><description><![CDATA[<p><strong>網通大廠旗下的資安研究團隊，發現一個出現在多廠牌路由器的嚴重資安漏洞，可導致駭侵者跳過登入驗證過程，直接取得路由器的控制權；該漏洞且已遭駭侵者大規模用於攻擊。</strong><br />
+<br />
+全球網通大廠 Juniper 旗下的資安研究團隊，近日發現一個出現在多廠牌路由器的嚴重資安漏洞，可導致駭侵者跳過登入驗證過程，直接取得路由器的控制權；該漏洞且已遭駭侵者大規模用於攻擊。<br />
+<br />
+資安專家指出，該漏洞出現在各廠牌路由器採用的公版 Arcadyan firmware，目前更多現有駭侵者利用此漏洞跳過路由器登入驗證程序，取得路由器控取權限後，在路由器內安裝名為 Mirai 的僵屍網路惡意軟體。<br />
+<br />
+該漏洞的 CVE 編號為 CVE-2021-20090，發生在 Arcadyan 公版路由器韌體程式的 web 控制界面；攻擊者可以利用這個漏洞，在被攻擊的路由器中啟動 telnet 連線，以命令列方式控制受到感染的路由器。<br />
+<br />
+這個 CVE-2021-20090 漏洞的 CVSS 分數高達 9.9 分（滿分為 10 分）；據資安專家表示該漏洞存於 Arcadyan 公版韌體至少有 10 年以上。<br />
+<br />
+據該團隊發表的研究報告指出，目前已知有 17 個廠牌，20 種以上的各廠牌路由器產品內含此一漏洞，其中包括在台灣比較暢銷的品牌 4 款路由器在內（DSL-AC88U、DSL-AC87VG、DSL-AC3100、DSL-AC68VG）。<br />
+<br />
+值得注意的是，Juniper 是在發表了該漏洞的概念驗證攻擊方法後 2 天，開始觀察到有駭侵者利用此漏洞大規模發動攻擊。<br />
+<br />
+由於含有此漏洞路由器的廠牌極多，用戶應隨時注意原廠發表的更新訊息，在原廠發表的韌體更新程式推出後，應立即進行更新。</p>
+
+<ul>
+	<li>CVE編號：CVE-2021-20090</li>
+</ul>
+
+<ul>
+	<li>影響產品/版本：詳見 Juniper 資安研究報告中列表</li>
+</ul>]]></description><pubDate>Tue, 10 Aug 2021 09:09:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4998-a175a-1.html</guid></item><item><title><![CDATA[資安廠商公布 SaaS 服務資安統計數字，雲端用戶資安設定高達 44% 發生錯誤]]></title><link>http://www.twcert.org.tw/tw/cp-104-4997-d82a3-1.html</link><description><![CDATA[<p><strong>資安廠商日前發表一份關於雲端 SaaS（Software as a Service，軟體即服務）的資安調查報告，發現高達 44% 的用戶資安設定是錯誤的，不當給予過高的操作權限，對 SaaS 用戶的資安造成嚴重潛在風險。</strong><br />
+<br />
+資安廠商 Varonis 日前發表一份關於雲端 SaaS（Software as a Service，軟體即服務）的資安調查報告，發現多種 SaaS 使用者帳號資安設定的錯誤。<br />
+<br />
+Varinos 是利用 DatAdvantage Cloud 服務，收集該公司客戶在使用各種 SaaS 服務，如 Amazon Web Services、Box、GitHub、Google Drive、Jira、Okta、Salesforce、Slack、Zoom 等知名常見 SaaS 服務的資料，經由分析後得到此 SaaS 資安研究報告的統計數字。<br />
+<br />
+在這份報告列舉的多項統計數字中，其中有高達 44% 的 SaaS 用戶，其資安設定是錯誤的；管理者經常不當給予組織成員過高的操作權限，使其可以存取超過其職務所需範圍的資料，或進行不必要的操作；這可能對該 SaaS 使用單位的資安造成嚴重潛在風險。<br />
+<br />
+另外有高達 75% 的約聘工作者使用的 SaaS 帳號，在該約聘人員離職之後，並未立即由管理員進行關閉歸檔的操作，反而持續能夠使用；這種錯誤也很容易造成潛在的資安風險，因為不只是約聘人員可能被駭侵者以各種方法攻擊，造成登入資訊被竊，約聘人員本人也可能竊取之前工作上獲得的資訊。<br />
+<br />
+報告也指出，有 15% 的 SaaS 企業用戶員工，會將自己 SaaS 帳號中的資料或檔案，轉存到個人擁有的裝置或個人雲端服務帳號中。<br />
+<br />
+統計數字也說，在所有 SaaS 雲端服務中，有高達 43％ 的帳號處於被放棄的狀態；這些帳號久未使用，但也沒有被各 SaaS 企業用戶的負責管理者將之移除或回收，就此棄之不顧；這對駭侵者來說充滿可趁之機，也對 SaaS 用戶本身造成極大的資安風險。</p>]]></description><pubDate>Tue, 10 Aug 2021 09:07:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4997-d82a3-1.html</guid></item><item><title><![CDATA[美國資安主管機關 CISA 聯手 Google、Amazon、Microsoft 以打擊勒贖攻擊]]></title><link>http://www.twcert.org.tw/tw/cp-104-4994-29640-1.html</link><description><![CDATA[<p><strong>美國資安主管機關 CISA 日前公布一項計畫，結合公部門與民間力量防制勒贖攻擊等資安威脅；首波民間合作單位包括 Amazon、Google、Microsoft 等多家企業。</strong><br />
+<br />
+美國資安主管機關資訊安全與基礎設施安全局（Cybersecurity and Infrastructure Security Agency，CISA），日前公布一項名為「聯合資安防護協作」（Joint Cyber Defense Collaborative，JCDC）的合作計畫；該計畫旨在結合公部門與民間力量，共同防制勒贖攻擊等各種資安威脅。<br />
+<br />
+該專案的目的，是讓 CISA 可以發展各種資安協同防護計畫，結合美國各級政府（聯邦、州與地方政府）以及民間企業或組織的力量，以發揮整體防護戰力，對抗日益猖獗的資安攻擊，保護可能遭到攻擊的各種關鍵基礎設施。<br />
+<br />
+在 JCDC 發表的首波民間合作單位，即包括 Amazon Web Services、Google Cloud、Microsoft、AT&amp;T、Crowdstrike、FireEye Mandiant、Lumen、Palo Alto Networks、Verizon 等多家企業，其業務範圍包括資安防護、雲端服務、電信服務等資安相關的重要關鍵基礎設施。<br />
+<br />
+已經加入 JCDC 計畫的美國各級政府單位，則包括美國國防部、國家安全局、司法部、聯邦調查局、美國網路作戰司令部、國家情報總監辦公室（Office of the Director of National Intelligence）等。<br />
+<br />
+CISA 總監 Jen Esterly 在 JCDC 的新聞稿中指出，同意加入 JCDC 的產業合作伙伴，將與 CISA 和各相關政府單位並肩作戰，共同對抗各種針對美國發動的資安攻擊事件，並且同步發展新的解決方案。</p>]]></description><pubDate>Mon, 09 Aug 2021 09:04:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4994-29640-1.html</guid></item><item><title><![CDATA[國內網通設備大廠修補無線路由器產品的RCE漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-4993-5e1f4-1.html</link><description><![CDATA[<p>國內網通設備大廠於2021年7月13日接獲HITCON ZeroDay漏洞通報平台之資安漏洞通報，修復其無線路由器DIR-819之遠端程式碼執行(Remote Code Execution, RCE)漏洞。</p>
+
+<p>廠商已於2021年8月5日釋出beta版韌體來修正此資安漏洞；擁有這類裝置的用戶，應立即進行更新，以免遭有心人士利用已知的漏洞發動攻擊而造成損失。</p>
+
+<p>相關訊息請點此參考廠商發布之<a href="https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10231" target="_blank" title="韌體修補更新公告(開新視窗)">韌體修補更新公告</a>。</p>
+
+<ul>
+	<li>影響產品：無線路由器DIR-819型號，韌體版本v1.06及先前之版本。</li>
+</ul>
+
+<ul>
+	<li>建議採取資安強化措施：根據廠商釋出之beta版韌體進行更新；待正式版發布後，請依照官方提供之更新公告，將產品更新至已修復版本。</li>
+</ul>]]></description><pubDate>Mon, 09 Aug 2021 09:02:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4993-5e1f4-1.html</guid></item><item><title><![CDATA[避免Synology NAS產品遭駭客攻擊，建議用戶強化帳號與密碼安全設定]]></title><link>http://www.twcert.org.tw/tw/cp-104-4982-765b9-1.html</link><description><![CDATA[<p>群暉科技Synology近日接獲數起使用者詢問，觀察到有異常數量IP企圖嘗試登入NAS產品，經產品安全團隊調查，確認為駭客使用暴力密碼破解手法，而非利用特定系統安全性弱點。Synology也呼籲使用者毋須恐慌，同時建議使用者持續加強帳號權限與密碼設定，以阻斷駭客入侵的可能。</p>
+
+<p>經Synology產品安全團隊分析攻擊樣本，這次事件為知名惡意程式StealthWorker的攻擊，該駭客組織利用暴力密碼破解手法登入受害裝置，植入惡意程式後進行資料加密勒索，再利用受害裝置進一步探索並攻擊更多弱密碼裝置，可能被攻擊的對象包括一般Linux主機及市面上各廠牌NAS。</p>
+
+<p>目前Synology已與國內外相關資安CERT單位展開協作，透過TWCERT/CC對國外通報惡意程式的C&amp;C Server(Command and Control Server)的IP，並請相關單位將其關機，以儘快結束此次攻擊事件。</p>
+
+<p>「Synology將確保您的系統與資料安全視為首要之務，我們不僅成立專責產品安全團隊(PSIRT)，也透過與相關資安單位協作，確實管理並快速回應資安事件。」Synology安全事件應變組經理林涵恩表示，「資安攻擊手法日新月異，我們也呼籲所有Synology使用者透過DiskStationManager(DSM)內建的各項帳號與密碼管理設定，持續加強NAS的安全性，以防範惡意攻擊。」</p>
+
+<p>Synology建議使用者採取以下行動來加強NAS系統安全性：</p>
+
+<ul>
+	<li>於控制台&gt;使用者帳號新增一組具管理員權限的帳號，並停用系統預設的「admin」帳號</li>
+	<li>加強所有帳號密碼的複雜性，並啟用多步驟驗證(如OTP一次性密碼)或是SecureSignIn為帳號提供多一道安全防護</li>
+</ul>
+
+<p>此外，若您擔心設備因使用弱密碼而已遭到攻擊，可以透過下列方式進行檢查：</p>
+
+<ol>
+	<li>登入DSM，至控制台&gt;任務排程表檢查是否被建立異常的程式碼。您也可以透過日誌中心搜尋「ScheduledTask」。</li>
+	<li>檢查FileStation是否有檔案被加密(副檔名可能已被修改)。</li>
+	<li>如有上述提及的任何狀況，請備份您的資料並重新安裝最新正式版本DSM來確保系統完全乾淨。</li>
+</ol>
+
+<p>若有其他不確定性的異狀，建議直接聯絡Synology原廠獲取技術支援：</p>
+
+<ol start="4">
+	<li>請至DSM中的技術與支援中心&gt;支援服務&gt;勾選啟用遠端存取，並提供技術支援識別碼與暫時的DSM帳號密碼。</li>
+</ol>
+
+<p>關於Synology對安全性的努力，歡迎您透過<a href="https://www.synology.com/zh-tw/security" target="_blank" title="產品安全性總覽(開新視窗)">產品安全性總覽</a>瞭解更多。</p>]]></description><pubDate>Fri, 06 Aug 2021 09:19:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4982-765b9-1.html</guid></item><item><title><![CDATA[Google Play Protect 僅能偵測出 31% 的 Android 追蹤監控惡意軟體]]></title><link>http://www.twcert.org.tw/tw/cp-104-4979-96546-1.html</link><description><![CDATA[<p><strong>資安廠商日前發表研究報告，指出 Google Play Store 内建的 Google Play Protect 惡意軟體偵防機制，僅能偵測到 31% 的 Android 追蹤監控惡意軟體，比例遠低於市售商業防毒防駭軟體。</strong><br />
+<br />
+資安廠商 Atlas VPN 旗下的資安研究人員日前發表研究報告，指出 Google Play Store 内建的 Google Play Protect 惡意軟體偵防機制，在測試中表現不佳，僅能偵測到 31% 的 Android 追蹤監控惡意軟體（Stalkerware），成功偵測的比例，遠低於市售商業防毒防駭軟體的一般表現。<br />
+<br />
+Atlas VPN 的資安專家說，該單位會同獨立研究機構 AV-Test，以常見的 29 種 Stalkerware 來測試市售常見的 18 種 Android 專用防毒防駭軟體，結果 Google Play Protect 的表現敬陪末座，29 種追蹤監控惡意軟體，只能成功偵測出 9 種，比例為 31%。<br />
+<br />
+同樣表現不佳的 Android 防毒防駭軟體，還包括由 Norton 推出的 NortonLifeLock Norton 360；29 種惡意軟體中僅偵測出 17 種，成功偵側比例僅為 58.6%。<br />
+<br />
+表現最佳的 Android 防毒防駭軟體有三款，分別是 Antiy AVL、Bitdefender Mobile Security、Trend Micro Mobile Security；這三種軟體都 100% 偵測出全部 29 種追蹤監控惡意軟體。<br />
+<br />
+兩種來自知名資安廠商 ESET 與 Kaspersky 的産品 SET Mobile Security 與 Kaspersky Internet Security for Android，表現也相當優秀，僅有 1 支惡意軟體沒有偵測到，成功率達 96.6%。<br />
+<br />
+有鑑於 Android 平台上的惡意軟體為數眾多，建議 Android 手機用戶務必安裝實際有效的防毒防駭軟體，以降低各種遭到駭侵攻擊的風險。</p>]]></description><pubDate>Tue, 03 Aug 2021 08:55:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4979-96546-1.html</guid></item><item><title><![CDATA[資安專家再次發現 Windows Print Server 嚴重漏洞，任何人均可輕易取得系統權限]]></title><link>http://www.twcert.org.tw/tw/cp-104-4976-ae096-1.html</link><description><![CDATA[<p><strong>雖然日前微軟針對 PrintNightmare 0-day 嚴重漏洞進行修復，但資安專家日前再度發現嚴重漏洞，可透過一個特製的印表機驅動程式，讓任何人輕易取得 Windows 系統權限。</strong><br />
+<br />
+雖然日前微軟針對 PrintNightmare 0-day 嚴重漏洞進行修復，但資安專家日前再度發現與 Windows 列印子系統相關的嚴重資安漏洞；駭侵者可透過一個特製的印表機驅動程式，讓任何人輕易取得 Windows 系統權限。<br />
+<br />
+資安專家 Benjamin Delpy 最近針對 Windows 列印子系統中的多項資安漏洞，陸續發表研究報告；最新的一份報告是可以藉由一個特製的印表機驅動程式，進而提升受限 Windows 用戶的權限至系統權限。<br />
+<br />
+Delpy 展示了一種概念證實攻擊方式。他設置了一個放在網路上的列印服務，任何人都可以點擊該連結，然後在其 Windows 系統上安裝一個特製的印表機驅動程式；該驅動程式執行後，會觸發一個漏洞，自動以系統權限執行一個 DLL 檔；該 DLL 即可用系統權限於 C:\Windows\System32 寫入一個必須擁有系統權限才能寫入的 log 檔。<br />
+<br />
+之後 Delpy 稍稍修改該 DLL，只要安裝他提供的特製印表機驅動程式，即可執行該DLL，並且以系統權限叫出命令列輸入行；因此任何人都可以透過這個漏洞，直接取得系統權限並執行任意程式碼。<br />
+<br />
+資安媒體 BleepingComputer 測試該特製的印表機驅動程式時，發現該 DLL 可以關閉 Windows 内建資安防護軟體 Windows Defender，因此能順利提升執行權限。<br />
+<br />
+資安專家建議 Windows 用戶，在微軟針對此問題推出資安修補程式前，可暫時停止 Windows Print Spooler 的運作，或是在防火牆上設定，阻擋來自外部的 SMB 與 RPC 連線要求；也可以在 Windows Server 上設定 PackagePointAndPrintServerList 的群組原則，只允許擁有 admin 權限的用戶安裝印表機驅動程式。</p>]]></description><pubDate>Mon, 02 Aug 2021 09:08:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4976-ae096-1.html</guid></item><item><title><![CDATA[美國國家安全局提供遠距工作者無線設備資安防護指南]]></title><link>http://www.twcert.org.tw/tw/cp-104-4968-5fb2e-1.html</link><description><![CDATA[<p><strong>美國國家安全局於 2021 年 7 月 29 日發表最新的資安指南，針對遠距工作情境下各種無線連線裝置的使用，提供多個防範資安攻擊破壞的安全使用指引。</strong><br />
+<br />
+美國國家安全局（National Security Agency，NSA）於 2021 年 7 月 29 日，發表最新的資安指南；該指南針對遠距工作情境下各種無線連線裝置的使用，提供多個防範資安攻擊破壞的安全使用指引。<br />
+<br />
+該局提供的指引，主要是提供給美國政府旗下如國家安全系統（National Security System）、國防部（Department of Defense）、國防工業與技術基礎（Defense Industry Base）等單位的遠距工作者遵循之用，但也適用於所有官方與民間單位的遠距工作者。<br />
+<br />
+NSA 在指南中指出，駭侵者可以透過藍牙、公眾 Wi-Fi 無線網路、近場通訊（NFC）等方式攻擊各類資訊裝置，造成個人與組織資料、登入資訊與裝置的危害。<br />
+<br />
+該指南要求遠距工作者如有可能，避免連線到任何公眾 Wi-Fi 無線網路，應盡量以企業組織或個人的 Wi-Fi 連線進行加密安全連線，以提高連線安全性；必須使用公眾 Wi-Fi 網路時，特別不需要密碼即可連線的無限制網路時，更應提高警覺。<br />
+<br />
+NSA 指出，即使是需要密碼才能使用的公眾 Wi-Fi 無線網路，其資料傳輸也未必經過加密，且駭客很可能握有解密用的金鑰；因此在使用公眾 Wi-Fi 連線時，最好使用公私單位或個人的 VPN 連線，進一步對傳輸資料進行加密，以提高安全性。<br />
+<br />
+此外，裝置上開放的藍牙連線與 NFC 近場傳輸功能，也有可能遭不肖人士用於駭入裝置並竊取資訊，遠距工作者也應特別注意不明裝置的連線要求。<br />
+<br />
+NSA 在指南中建議用戶，應保持裝置上作業系統與各種軟體更新至最新版本、使用有效的防毒防駭軟體，並在各項服務上使用多階段登入驗證；如果是經常必須連線到無法信任的網路服務（特別是行動裝置），應該經常重新開機。</p>]]></description><pubDate>Fri, 30 Jul 2021 09:42:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4968-5fb2e-1.html</guid></item><item><title><![CDATA[新發現 Android 惡意軟體 Vultur，會透過 VNC 遠端遙控協定竊取用戶密碼]]></title><link>http://www.twcert.org.tw/tw/cp-104-4966-3fb77-1.html</link><description><![CDATA[<p><strong>資安專家發現一個全新的 Android 惡意軟體，會透過可遠端進行遙控操作的 VNC 協定，記錄用戶在手機上的一切操作，同時竊取鍵盤輸入字元與密碼。</strong><br />
+<br />
+荷蘭資安廠商 ThreatFabric 旗下的資安專家，日前發現一個全新的 Android 惡意軟體 Vultur，會透過可遠端進行遙控操作的 VNC 協定，記錄用戶在手機上的一切操作，同時竊取鍵盤輸入字元與密碼。<br />
+<br />
+Vultur 最早是於 2021 年 3 月時被 ThreatFabric 的資安專家觀察到其活動。ThreatFabric 在報告中說，Vultur 變種自其他 Android 惡意軟體；原先的惡意軟體會在用戶開啟其他正常軟體進行登入時，覆蓋一層假冒的登入頁面，藉以騙取用戶輸入的帳號與密碼。<br />
+<br />
+Vultur 的作法則有所有不同。它會在受感染的 Android 手機上開啟一個 VNC 伺服器，並於背景執行；由於 VNC 原本的功能，就是將電腦設備的畫面傳到另一台電腦上，並使用另一台電腦進行遠端遙控，因此感染 Vultur 的手機，其操作畫面就會被傳送到駭侵者設立的控制伺服器錄製下來，Vultur 幕後的駭侵者即可取得各種 app 的登入帳號與密碼。<br />
+<br />
+據 ThreatFabric 的分析，目前遭到 Vultur 感染的 Android 手機，多為先前遭到另一支惡意軟體 Brunhilda malware 感染的受害者；Brunhilda malware 過去曾出現在 Google Play Store 軟體商店中若干 app 之中，其功能之一就是「酬載」其它的惡意軟體程式碼。<br />
+<br />
+用戶的 Android 裝置若是感染 Vultur，Vultur 會試圖欺騙用戶給予完整的手機控制權限；一旦成功，Vultur 即可取得完整的手機控制權。另外，當用戶想要移除内含 Vultur 惡意程式碼的 app 時，Vultur 會自動按下「回上頁」按鈕。<br />
+<br />
+用戶如果在 Android 的通知面板中看到一個執行中的螢幕分享程式，名為「Protection Guard」的話，就是遭到 Vultur 的感染；另外，Vultur 也會在受害者的手機中，透過 VNC 遠端遙控功能，安裝更多惡意軟體。</p>]]></description><pubDate>Fri, 30 Jul 2021 09:39:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4966-3fb77-1.html</guid></item><item><title><![CDATA[LockBit 勒贖軟體現可利用群組原則，自動加密 Windows 網域下所有電腦]]></title><link>http://www.twcert.org.tw/tw/cp-104-4964-4ceaa-1.html</link><description><![CDATA[<p><strong>資安專家發現，新版 LockBit 勒贖軟體，可透過 Windows Server 設定的群組原則，自動加密整個 Windows 網域下的所有電腦。使用 Windows Server 的企業網域管理員，應特別提高警覺。</strong><br />
+<br />
+資安專家發現，新版 LockBit 勒贖軟體 2.0 版多出數項新功能，其中一項可透過 Windows Server 設定的群組原則，自動加密整個 Windows 網域下的所有電腦。使用 Windows Server 管理旗下所有電腦的企業網域管理員，應特別提高警覺。<br />
+<br />
+LockBit 勒贖軟體出現於 2019 年 9 月，是一個「勒贖軟體即服務」(Ransomware as a service），想要發動勒贖攻擊的人，可以「租用」他們的服務，並且設定要攻擊的對象。<br />
+<br />
+一旦勒贖攻擊成功令受害者支付贖款，租用服務的人可以得到 70%~80% 的贖金，LockBit 的開發團隊則會收取其餘的贖款做為佣金。<br />
+<br />
+近年來，LockBit 的勒贖攻擊相當猖獗，其團隊成員為了「促銷」，也在許多駭侵相關論壇主動提供各種「支援」；在許多駭侵相關論壇紛紛禁止勒贖相關主題貼文後，LockBit 的活動便轉到該團體自己設立的資料洩露網站中。<br />
+<br />
+在該團體網站中，最近公布的 LockBit 2.0 最新功能中，即包括可利用群組原則，自動感染 Windows 網域控制站旗下所有 Windows 電腦的功能；攻擊者不必自行撰寫程式碼進行勒贖軟體「布署」，只要取得 Windows Server 網域控制器的存取權，就會自動進行布署。<br />
+<br />
+執行時，LockBit 2.0 會自動産生新的群組原則設定檔，並且禁用 Microsoft Defender 的即時防護功能，避免布署活動遭到阻斷。</p>]]></description><pubDate>Fri, 30 Jul 2021 09:36:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4964-4ceaa-1.html</guid></item><item><title><![CDATA[資安調查報告指出，修復高危險性漏洞所需時間，六個月内自 197 天增加至 246 天]]></title><link>http://www.twcert.org.tw/tw/cp-104-4959-a4713-1.html</link><description><![CDATA[<p><strong>資安廠商的調查報告指出，各家廠商修復高危險性資安漏洞所需的時間，在最近 6 個月内，自 197 天增加到 246 天。</strong><br />
+<br />
+資安廠商 NTT Application Security 日前發表的最新 AppSec Flash Report 調查報告指出，各家廠商修復高危險性資安漏洞所需的時間，在最近 6 個月内，自 197 天增加到 246 天。<br />
+<br />
+這份報告主要調查資安漏洞在得到修復前的空窗期長度，因為在空窗期之内，漏洞很可能遭駭侵者用以發動駭侵攻擊。<br />
+<br />
+最新的報告指出，自今年（2021）年初到六月底的半年期間，雖然最主要的五大類漏洞的平均修復日期和過去差別不大，但各種應用程式的漏洞修復空窗期，明顯都拉長了。資安廠商稱「這是常見漏洞修復的系統性失敗」。<br />
+<br />
+根據 NTT Application Security 的資安專家指出，今年上半年一月到六月間，所有漏洞的平均修復需時，自年初的 205 天略為減少到六月的 202 天；而高度危險性的資安漏洞修復需時，卻從年初的 194 天大幅增加到六月的 246 天，多了快要 2 個月。<br />
+<br />
+至於各類型、各種危險程度漏洞的修復比率，也自今年年初的 54%，下降到六月底的 48%；高危險性漏洞的修復比率，更是從年初的 50% 大幅下降到六月底的 38%。<br />
+<br />
+該報告也分析了各種應用程式類型的漏洞出現比例。工具類應用程式中，有高達 65% 至少含有一個嚴重資安漏洞，為所有應用類型之冠。<br />
+<br />
+報告也說，教育、製造、零售、批發商等産業的漏洞修復空窗期，在近期也拉長了 4%；醫療産業的空窗期則拉長了 2%。至於金融保險産業的空窗期則略有改善，減少了 2%。</p>]]></description><pubDate>Thu, 29 Jul 2021 09:02:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4959-a4713-1.html</guid></item><item><title><![CDATA[Apple 修復已遭大規模濫用的 iPhone、Mac 0-day 漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-4957-1b8f3-1.html</link><description><![CDATA[<p><strong>Apple 近曰緊急推出 iOS 14.7.1、iPad OS 14,7.1 與 macOS Big Sur 11.5.1，修復一個據信已遭駭侵者大規模用於攻擊的 0-day 資安漏洞。</strong><br />
+<br />
+Apple 近曰緊急推出 iOS 14.7.1、iPad OS 14.7.1 與 macOS Big Sur 11.5.1，修復一個據信已遭駭侵者大規模用於攻擊的 0-day 資安漏洞；擁有這類裝置的用戶，應立即升級至最新作業系統版本。<br />
+<br />
+得到修補的 0-day 漏洞，其 CVE 編號為 CVE-2021-30807，發生在 IOMobileFramebuffer 的核心延伸組件；由於這個組件的記憶體處理錯誤，駭侵者可利用此漏洞，以核心權限遠端執行任意程式碼；不過要利用此漏洞，駭侵者必須先取得裝置的登入權限。<br />
+<br />
+這個漏洞的 CVSS 危險程度評分為 7.5 分，危險程度分級為「高」等級。<br />
+<br />
+Apple 在近期發出的資安通告中指出，該公司已經獲悉這個 0-day 漏洞可能已遭駭侵者用於大規模駭侵攻擊行動，但目前尚無具體攻擊事件的相關情報。<br />
+<br />
+這個漏洞是由匿名的發現者提供給 Apple，Apple 於 7 月 26 曰推出 iOS、iPad OS、macOS 的更新版本，修復此一漏洞。<br />
+<br />
+受此 0-day 漏洞影響的 Apple 各類産品，範圍和數量極廣且多；包括各型 Mac 桌上型與筆記型電腦、iPhone 6s 與所有後續機種、iPad Pro 全系列、iPad Air 2 與後續所有機種、iPad 第五代與所有後續機種、iPad mini 4 與所有後續機種、iPod Touch 第七代等，全都含有該 0-day 漏洞；這些機型的用戶，應立即更新作業系統。</p>]]></description><pubDate>Thu, 29 Jul 2021 08:57:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4957-1b8f3-1.html</guid></item><item><title><![CDATA[Apple 修復可能造成 iPhone Wi-Fi 功能損壞之嚴重 RCE 資安漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-4951-d638c-1.html</link><description><![CDATA[<p><strong>Apple 日前推出 iOS 14.7 更新版，修復一個可能損壞 iPhone、iPad Wi-Fi 連線功能的嚴重漏洞；該漏洞亦可能讓駭侵者遠端執行任意程式碼。</strong><br />
+<br />
+Apple 日前推出 iOS 14.7 更新版，修復一個可能損壞 iPhone、iPad、iPod 等 iOS 裝置 Wi-Fi 連線功能的嚴重漏洞；該漏洞亦可能讓駭侵者遠端執行任意程式碼。<br />
+<br />
+該漏洞的 CVE 編號為 CVE-2021-30800，是由資安研究人 Cark Schou 發現的 0-day 嚴重漏洞；其發生原因是因為 iOS Wi-Fi 安全檢查機制的漏洞；駭侵者可以透過特製含有「%@」特殊字元的 Wi-Fi SSID（例如 DDDD%x%x%x%@），來誘發此一漏泂，可造成 iOS 裝置的 Wi-Fi 連線功能故障而無法使用，甚至在重新開機後亦不能恢復正常。<br />
+<br />
+Wi-Fi 連線功能被破壞的 iOS 裝置，僅能進入系統設定選單，刪除所有網路連線設定，清除有問題的 SSID 名稱後，才能恢復正常連線；但該漏洞亦可導致駭侵者遠端執行任意程式碼，發動進一步的駭侵攻擊。<br />
+<br />
+攻擊者可以在人潮眾多的地方，設立無須密碼，可自由使用的公眾 Wi-Fi 熱點，誘使已將 iOS 裝置的 Wi-Fi 連線設定為自動加入新 Wi-Fi 熱點的用戶連入，進一步發動駭侵攻擊。<br />
+<br />
+這個漏洞出現在 iPhone 6s 與所有後續機種、所有 iPad Pro 機種、iPad Air 2 與所有後續機種、iPad （第五代）與所有後續機種、iPad mini 4 與所有後續機種、iPod touch （第七代），作業系統版本則為 iOS 或 iPad OS 14.7 之前所有版本。<br />
+<br />
+各種 iOS、iPad OS 裝置用戶，應立即更新至 iOS、iPad OS 14.7 或更新版本，以避免遭駭侵者透過此漏洞發動攻擊；暫時無法更新作業系統版本的用戶，則可以進入設定頁面，取消「自動加入熱點」功能也可以。</p>
+
+<ul>
+	<li>CVE編號：CVE-2021-30800</li>
+</ul>
+
+<ul>
+	<li>影響產品/版本：iPhone 6s 與所有後續機種、所有 iPad Pro 機種、iPad Air 2 與所有後續機種、iPad （第五代）與所有後續機種、iPad mini 4 與所有後續機種、iPod touch （第七代），作業系統版本則為 iOS 或 iPad OS 14.7 之前所有版本。</li>
+</ul>
+
+<ul>
+	<li>解決方案：更新至 iOS、iPad OS 14.7 或更新版本，或進入設定頁面，取消「自動加入熱點」功能。</li>
+</ul>]]></description><pubDate>Tue, 27 Jul 2021 09:23:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4951-d638c-1.html</guid></item><item><title><![CDATA[Twitter 公布調查報告，開啟二階段登入驗證之用戶比例低]]></title><link>http://www.twcert.org.tw/tw/cp-104-4949-01719-1.html</link><description><![CDATA[<p><strong>Twitter 近日公布調查報告，指出其活躍用戶中，已啟用二階段登入驗證功能的用戶比例極低，僅有 2.3%。</strong><br />
+<br />
+全球大型社群平台 Twitter 近日公布其 2020 年度透明度調查報告，其中關於用戶資安的部分統計數字指出，自 2020 年 7 月到 12 月為止，其活躍用戶中，已啟用任何一種二階段登入驗證功能的用戶比例極低，僅有 2.3%。<br />
+<br />
+如同許多大型社群或網路服務一樣，Twitter 為防止日益猖獗的帳號竊取事件，提供二階段登入驗證功能；用戶在登入服務時，除了須輸入原有的帳號與密碼外，還需要另外輸入一組隨機産生的登入驗證碼，才能順利登入並使用服務。<br />
+<br />
+Twitter 提供的二階段登入驗證，其隨機驗證碼可以透過簡訊、第三方驗證碼産生軟體，或是硬體隨機驗證碼産生器來取得；在 2.3% 啟用二階段登入驗證的用戶中，有高達 79.6% 的用戶選擇使用簡訊接收驗證碼，30.9% 使用第三方驗證碼産生軟體，使用硬體隨機驗證碼産生器的用戶比例僅有 0.5%。<br />
+<br />
+不過，統計數字也指出，採用二階段登入驗證的用戶比例，在調查期間内還略為增加了 9.1%。<br />
+<br />
+資安專家指出，二階段驗證碼的使用率低落，並不只是 Twitter 一家業者獨有的現象，而是資訊服務産業面臨的共同問題；由於二階段驗證碼的操作過程，比起傳統只需帳號密碼的登入方式更為複雜，也不夠直覺，因此許多不夠重視自身資安防護的用戶，就不願採用二階段登入驗證功能。<br />
+<br />
+即使是採用了二階段登入驗證的用戶，也有極高比例透過手機門號接收透過簡訊傳來的二階段登入驗證碼；但資安專家指出這仍有風險，因為駭侵者很可能會利用 SIM-Swap 攻擊來取得用戶手機門號的使用權，直接攔截傳來的二階段登入驗證碼。</p>]]></description><pubDate>Tue, 27 Jul 2021 09:18:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4949-01719-1.html</guid></item><item><title><![CDATA[曾駭入 TikTok、Snapchat 的駭侵者，因 Twitter 駭侵攻擊在西班牙被捕]]></title><link>http://www.twcert.org.tw/tw/cp-104-4947-ccd39-1.html</link><description><![CDATA[<p><strong>一名在去年七月犯下 Twitter 名人帳號挾持案件的嫌犯，於日前在西班牙遭到逮捕；他也曾經挾持過其他社群平台如 TikTok 和 Snapchat 上的帳號。</strong><br />
+<br />
+一名在去年七月犯下 Twitter 名人帳號挾持案件的嫌犯 Joseph O&rsquo;Connor，於日前在西班牙遭到逮捕；他也曾經犯下挾持其他社群平台如 TikTok 和 Snapchat 上帳號的罪行。<br />
+<br />
+Joseph O&rsquo;Connor 是英國籍，現年 22 歲，他和 Mason Sheppard （又名 Chaewon，19 歲，英國籍）、Nima Fazeli（又名 Rolex，22 歲，美國籍）、Graham Ivan Clark（又名 Kirk，美國籍）等其他三人，在去年 7 月時以 SIM swap 與社交工程等方式，成功駭入 Twitter 的内部管理系統，並且挾持多達 130 個名人與著名公司的 Twitter 帳號，並利用這些帳號發布比特幣詐騙訊息；嫌犯假稱任何匯進指定錢包的比特幣，都可以收到兩倍的匯回款，以此吸引被害人匯款。<br />
+<br />
+在去年的攻擊事件中，被挾持用來發布詐騙訊息的名人或知名公司帳號，包括時為美國總統民主黨候選人的 Joe Biden、Amazon 執行長 Jeff Bezos、美國前總統 Barrack Obama、特斯拉執行長 Elon Musk、前紐約市長 Michael Bloomberg，以及著名投資大師 Warren Buffet，以及全球最大的加密貨幣交易所 Binance、蘋果公司、另一家加密貨幣交易所 Coinbase、共享交通公司 Uber 等。<br />
+<br />
+該次帳號挾持與比特幣詐騙攻擊中，嫌犯控制的比特幣錢包位置，在 24 小時内收到 383 次比特幣轉入，得到近 13 枚比特幣，當時的幣價相當於 117,000 美元。<br />
+<br />
+這些嫌犯也將透過 Twitter 内部系統竊得的超短帳號（如@dark、@w、@l、@R9、@50、@vague）等，在相關社群平台上販售。<br />
+<br />
+這四人目前都被指控多項駭侵罪名。</p>]]></description><pubDate>Mon, 26 Jul 2021 09:27:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4947-ccd39-1.html</guid></item><item><title><![CDATA[國內網路産品製造大廠修復路由器密碼硬編寫暨多個RCE嚴重漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-4945-a841f-1.html</link><description><![CDATA[<p><strong>國內網路産品製造大廠日前推出無線路由器新版韌體，修復先前遭發現的密碼硬編寫與多個其他漏洞；該款産品用戶應即更新韌體。</strong></p>
+
+<p>國內網路産品製造大廠日前推出無線路由器産品 DIR-3040 的新版韌體，同時修復先前遭發現的密碼「硬編寫」(Hard Code)錯誤與多個其他漏洞；該款産品用戶應立即更新韌體，以排除這些錯誤，降低遭駭侵攻擊的風險。</p>
+
+<p>這些錯誤係由 Cisco 旗下的資安專家發現，一共有 5 個漏洞，分列如下：</p>
+
+<ul>
+	<li>CVE-2021-21816：系統 log 檔（Syslog）資訊洩露漏洞；</li>
+	<li>CVE-2021-21817：Zebra IP Routing Manager 資訊洩露漏洞；</li>
+	<li>CVE-2021-21818：Zebra IP Routing Manager 密碼硬編寫漏洞；</li>
+	<li>CVE-2021-21819：Libcli 指令注入漏洞；</li>
+	<li>CVE-2021-21820：Libcli 測試環境密碼硬編寫漏洞。</li>
+</ul>
+
+<p>其中 CVE-2021-21818 和 CVE-2021-21820 這兩個漏洞屬於密碼硬編寫漏洞，也就是將系統登入所需的密碼，直接寫在程式碼中；駭侵者將可以透過特制的網路連線要求，觸發這個漏洞並通過登入驗證，直接進入用戶的 DIR-3040 路由器控制界面，並且發動進一步的攻擊，例如利用此裝置對外發動 DoS 攻擊，或是遠端執行任意程式碼。</p>
+
+<p>CVE-2021-21819 是個嚴重的作業系統指令注入漏洞，也可讓駭侵者遠端執行任意程式碼；另外駭侵者還可利用此漏洞，在用戶的 DIR-3040 路由器中建立一個隱藏的 telnet 服務，並且利用硬編寫在路由器程式碼中的密碼進行登入。</p>
+
+<ul>
+	<li>建議採取資安強化措施</li>
+</ul>
+
+<p>針對這些漏洞進行修補的新版韌體已經發布，版本號碼為 V.1.13B03 Hotfix；若用戶的 DIR-3040 路由器韌體版本號碼為 V1.13B03 與更舊的版本，務必立即更新，以防駭侵者利用這些漏洞發動攻擊。</p>]]></description><pubDate>Mon, 26 Jul 2021 09:23:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4945-a841f-1.html</guid></item><item><title><![CDATA[美國聯邦調查局發出警訊，提防駭侵者對東京奧運發動攻擊]]></title><link>http://www.twcert.org.tw/tw/cp-104-4938-865b3-1.html</link><description><![CDATA[<p><strong>美國聯邦調查局發出資安警訊，指出即將開幕的東京奧運，以及與奧運相關的個人或組織，近期很可能會面臨駭侵者針對性的攻擊，應提高資安防護準備。</strong><br />
+<br />
+美國聯邦調查局（Federal Investigation Bereau，FBI）日前發出資安警訊，指出即將開幕的東京奧運，以及與奧運相關的個人或組織，近期很可能會面臨駭侵者針對性的攻擊，應提高資安防護準備。<br />
+<br />
+在 FBI 近期發表的「私人産業通報」（Private Industry Notification, PIN）中指出，可能的攻擊行動類型，將包括勒贖攻擊、分散式服務阻斷攻擊（Distributed Denial of Service, DDoS）、社交工程攻擊、釣魚詐騙活動、局内人威脅阻斷或騷擾運動賽事轉播、機敏資料之竊取、洩漏、佔有，或是阻斷、影響奧運活動依賴的基礎設施運作等等。<br />
+<br />
+另外，FBI 也說，奧運賽事期間的運動競技、媒體轉播環境、人員住宿、交通、票務與安保措施很可能也會受到駭侵攻擊事件的衝擊。<br />
+<br />
+FBI 指出，目前的情報並不足以證實有某些特定團體，意圖針對特定奧運項目發動何種攻擊；但與奧運相關的直接或間接關係人、組織等，都應該針對其網路與數位環境做好資安防護整備工作。<br />
+<br />
+FBI 說，像奧運這類高知名度的大型活動，往往會成為駭侵團體的攻擊目標，藉以獲取不法金錢利益、製造混亂、加強該團體的知名度、影響主辦單位或執法者的形象，或是宣揚其意識形態。<br />
+<br />
+FBI 指出，2018 年的平昌冬季奧運，就發現疑似有駭侵團體，針對將於 2018 年 2 月 9 日舉辦的開幕典禮進行駭侵攻擊，目標是要破壞開幕典禮的運作；同樣有大批參與該屆冬季奧運的南韓官員、民眾、各國運動員、合作伙伴等相關個人或組織遭到駭入。</p>]]></description><pubDate>Wed, 21 Jul 2021 09:20:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4938-865b3-1.html</guid></item><item><title><![CDATA[資安廠商調查指出，54% 勒贖攻擊受害者接受過釣魚攻擊防護訓練]]></title><link>http://www.twcert.org.tw/tw/cp-104-4936-54ae7-1.html</link><description><![CDATA[<p><strong>資安廠商調查指出，釣魚郵件攻擊是勒贖攻擊者用以發動攻擊的主要手法，各大企業組織也普遍舉辦釣魚攻擊防護訓練；然而在遭到從釣魚郵件開始進行勒贖攻擊的受害者中，有 54% 都接受過釣魚攻擊防護訓練。</strong><br />
+<br />
+資安廠商 Cloudian 日前發表調查報告指出，釣魚郵件攻擊是勒贖攻擊者用以發動攻擊的主要手法，各大企業組織也普遍舉辦釣魚攻擊防護訓練；然而在遭到從釣魚郵件開始進行勒贖攻擊的受害者中，有 65% 都接受過釣魚攻擊防護訓練。<br />
+<br />
+Cloudian 針對 200 位近兩年來曾遭勒贖攻擊的各大公私組織中 IT 部門決策者進行調查，得到的調查結果顯示，傳統的勒贖攻擊防護機制是無效的；調查結果摘要如下：</p>
+
+<ul>
+	<li>24% 的勒贖攻擊，透過釣魚攻擊開始發動；</li>
+	<li>54% 的受害者公司，都曾針對員工舉辦過釣魚郵件防護訓練；</li>
+	<li>49% 的受害者，原本就建置有類似攻擊的防護系統；</li>
+	<li>31% 的勒贖攻擊從公有雲開始發動；</li>
+	<li>44% 的公司在儲存資料時有進行即時加密；</li>
+	<li>43% 的公司會限制内部資料或主機的存取權。</li>
+</ul>
+
+<p>此外，調查也顯示勒贖攻擊者的反應速度極快，有 56％ 的受害者表示，勒贖攻擊者能在 12 小時内完全控制該公司的資料，並且要求支付贖款；30% 受害者表示在 24 小時内發生；而超過一半以上的受害者表示，勒贖攻擊對該公司的財務、日常運作、員工、顧客和公司聲譽造成顯著損害：</p>
+
+<ul>
+	<li>對員工造成損害：59%；</li>
+	<li>對公司財務造成損害：58%；</li>
+	<li>對公司營運造成衝擊：57%；</li>
+	<li>對顧客造成影響：57%；</li>
+	<li>對公司聲譽造成負面影響：52%。</li>
+</ul>
+
+<p>調查也指出，勒贖攻擊造成的受害者財務損失，並不只有支付贖金而已：</p>
+
+<ul>
+	<li>55% 的受害公司會支付勒款；平均支付金額為 223,000 美元，更有 14% 支付超過 500,000 美元；</li>
+	<li>因為勒贖攻擊造成其他的額外損失，平均為 183,000 美元；</li>
+	<li>資安相關保險僅能彌補所有勒贖攻擊損失的 60%；</li>
+	<li>支付了贖金後，僅有 57% 企業能夠取回所有資料。</li>
+</ul>]]></description><pubDate>Tue, 20 Jul 2021 09:06:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4936-54ae7-1.html</guid></item><item><title><![CDATA[資安廠商發表 2021 年第一季駭侵攻擊報告，攻擊量較去年同期增加 17％]]></title><link>http://www.twcert.org.tw/tw/cp-104-4920-2db2d-1.html</link><description><![CDATA[<p><strong>資安廠商發表 2021 年第一季駭侵攻擊統計報告指出，各種駭侵攻擊活動的數量，較去年同期相比，增加 17％。</strong><br />
+<br />
+資安廠商 Positive Technologies 日前發表 2021 年第一季駭侵攻擊統計報告，報告中指出各種駭侵攻擊活動的數量，較去年同期相比，增加 17％；如果是跟上一季（2020 年第四季）相較，增加幅度為 1.2。<br />
+<br />
+在所有攻擊活動當中，針對組織發動的佔 88%，針對個人的佔 12%。<br />
+<br />
+以攻擊的目的來看，針對組織發動的攻擊中，資料竊取佔 62%、詐財佔 43％、激進駭客活動（Hacktivism）佔 9%、利用企業資源發動其他攻擊佔 2%；而企業被竊取的資料中，31% 為個人機敏資訊、24% 為智慧財産權、23% 為登入資訊、醫療資訊、客戶資料庫、付款卡片資訊等各佔 6%。<br />
+<br />
+針對個人發動的攻擊活動，69％ 是為了取得個人資訊，24% 為了詐取財物、11% 為激進駭客活動；個人被竊取的資料中，51％ 為登入資訊、23% 為個人機敏資訊、12％ 為通訊内容、6% 為金融卡或信用卡資訊%，其他類則為 8%。<br />
+<br />
+被攻擊的組織類型，政府機關佔比最高，達 12%、其次是製造業佔 11%、科學與教育機構佔 11%、醫療保健機構佔 8%、IT 産業佔 8%、金融業佔 7%、電信業佔 6%、其他産業佔 26％。<br />
+<br />
+從攻擊手法來看，利用惡意軟體發動的攻擊數量，不論機構或個人都佔 58%、利用社交攻擊手法，機構佔 52%，個人佔 89%。<br />
+<br />
+值得注意的是，針對政府機關發動的勒贖攻擊，近年來有日益增加的趨勢；觀察政府機關所有攻擊事件中，勒贖攻擊佔所有惡意軟體攻擊的比例，去年（2020 年)第一季到第四季分別為 28%、26%、37％、54％，而到今年（2021 年）第一季已高達 70%。</p>]]></description><pubDate>Mon, 19 Jul 2021 09:56:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4920-2db2d-1.html</guid></item></channel></rss>
