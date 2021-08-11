@@ -25,6 +25,7 @@
 	"台灣_真的假的_最新查核_最近被回應@TW_cofacts_latestResponse": "https://cofacts.tw/api/articles/rss2?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&source=Others",
 	"台灣_真的假的_最新查核_最近被查詢@TW_cofacts_latestQuery": "https://cofacts.tw/api/articles/rss2?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&source=Others",
 	"台灣_真的假的_最新查核_最多人詢問@TW_cofacts_mostQuery": "https://cofacts.tw/api/articles/rss2?json=XQAAAAI7AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2LLQmwFwJH5OGn_7TZf2GS3ob1rM__OmQAA&source=Others",
+	"台灣_台灣電腦網路危機處理暨協調中心_資安新聞@TW_twcert": "https://www.twcert.org.tw/tw/rss-104-1.xml",
 	"德國_德國之聲@DE_dw": "https://rss.dw.com/xml/podcast_radio_china",
 	"法國_法廣@FR_rfi": "https://www.rfi.fr/tw/rss",
 	"澳門_澳廣視_即時新聞@MO_tdm": "https://www.tdm.com.mo/global/xml/livenews_rss.php",
@@ -60,5 +61,6 @@
 	"香港_端傳媒@HK_theinitium": "https://www.theinitium.com/newsfeed/",
 	"香港_香港電台_中國@HK_rthkCN": "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_greaterchina.xml",
 	"香港_香港電台_國際@HK_rthkIntl": "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cinternational.xml",
-	"香港_浸大事實查核中心@HK_hkbuFactCheck": "https://comd.hkbu.edu.hk/factcheckservice/feed/"
+	"香港_浸大事實查核中心@HK_hkbuFactCheck": "https://comd.hkbu.edu.hk/factcheckservice/feed/",
+	"香港_香港電腦保安事故協調中心_資安快訊@HK_hkcert": "https://www.hkcert.org/tc/getrss/security-bulletin"
 }
