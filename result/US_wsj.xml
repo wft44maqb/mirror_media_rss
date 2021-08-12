@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 12 Aug 2021 09:28:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Aug 2021 09:32:05 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 12 Aug 2021 09:28:14 GMT</pubDate>
+        <pubDate>Thu, 12 Aug 2021 09:32:05 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -63,6 +63,13 @@
             <pubDate>Wed, 11 Aug 2021 09:40:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[IEA：德爾塔疫情削弱今年石油需求復甦勢頭]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LN545_iea081_OR_20210812032726.jpg" class="webfeedsFeaturedVisual" alt=""/><p>國際能源署周四表示，從迅速蔓延的新冠德爾塔毒株疫情及其對全球經濟的影響來看，今年全球石油需求量將低於之前預期。</p>]]></description>
+            <link>https://cn.wsj.com/articles/iea%EF%BC%9A%E5%BE%B7%E7%88%BE%E5%A1%94%E7%96%AB%E6%83%85%E5%89%8A%E5%BC%B1%E4%BB%8A%E5%B9%B4%E7%9F%B3%E6%B2%B9%E9%9C%80%E6%B1%82%E5%BE%A9%E7%94%A6%E5%8B%A2%E9%A0%AD-11628760613</link>
+            <guid isPermaLink="false">CT-FIN-20210812170827</guid>
+            <pubDate>Thu, 12 Aug 2021 09:30:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[英國最新數據提升控制德爾塔疫情的信心]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LM651_UKDELT_OR_20210810102546.jpg" class="webfeedsFeaturedVisual" alt=""/><p>最近英國新冠病例激增的情況讓醫生和科學家們更加樂觀地認為，廣泛的疫苗接種和公眾的謹慎態度可以控制高傳染性的新冠病毒德爾塔變異毒株的傳播。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E8%8B%B1%E5%9C%8B%E6%9C%80%E6%96%B0%E6%95%B8%E6%93%9A%E6%8F%90%E5%8D%87%E6%8E%A7%E5%88%B6%E5%BE%B7%E7%88%BE%E5%A1%94%E7%96%AB%E6%83%85%E7%9A%84%E4%BF%A1%E5%BF%83-11628745012</link>
@@ -82,13 +89,6 @@
             <link>https://cn.wsj.com/articles/%E5%A1%94%E5%88%A9%E7%8F%AD%E6%94%BB%E5%9F%8E%E7%95%A5%E5%9C%B0%E9%80%9F%E5%BA%A6%E4%B9%8B%E5%BF%AB%E4%BB%A4%E6%8B%9C%E7%99%BB%E6%94%BF%E5%BA%9C%E6%84%8F%E5%A4%96%EF%BC%8C%E8%AE%93%E7%BE%8E%E5%9C%8B%E7%9B%9F%E5%8F%8B%E6%B2%AE%E5%96%AA-11628742614</link>
             <guid isPermaLink="false">CT-BGH-20210812120158</guid>
             <pubDate>Thu, 12 Aug 2021 05:20:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[白宮敦促歐佩克在全球復甦之際提高石油產量]]></title>
-            <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LN105_OPEC08_OR_20210811091207.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國白宮周三敦促石油輸出國組織提高產量，稱世界各國正努力擺脫新冠疫情，而歐佩克最近計劃的增產幅度不夠。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%99%BD%E5%AE%AE%E6%95%A6%E4%BF%83%E6%AD%90%E4%BD%A9%E5%85%8B%E5%9C%A8%E5%85%A8%E7%90%83%E5%BE%A9%E7%94%A6%E4%B9%8B%E9%9A%9B%E6%8F%90%E9%AB%98%E7%9F%B3%E6%B2%B9%E7%94%A2%E9%87%8F-11628724908</link>
-            <guid isPermaLink="false">CT-BGH-20210812072442</guid>
-            <pubDate>Thu, 12 Aug 2021 06:40:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[加密貨幣6億美元離奇大劫案：駭客盜走後為何又歸還三分之一]]></title>
