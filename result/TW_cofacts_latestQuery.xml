@@ -4,10 +4,29 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Thu, 12 Aug 2021 01:58:43 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Aug 2021 02:02:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Trust global
+全球信託]]></title>
+            <link>https://cofacts.tw/article/35s3oqkdq8qys?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/35s3oqkdq8qys?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Thu, 12 Aug 2021 01:59:30 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/35s3oqkdq8qys?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          Trust global
+全球信託
+        
+              <h2><a href="https://cofacts.tw/reply/n0P0NXsBgBgcuemXDASF">最新回應</a></h2>
+              <p>含有錯誤訊息 by Lin</p>
+              TRUST GLOBAL是網路上的「財富管理」公司，但由於其有複雜的資金流向，有詐騙之虞，不建議使用。
+
+              <h2>出處</h2>
+              https://helpcenter.ace.io/hc/zh-tw/articles/360045093051-疑似假投資詐騙網站資訊
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[  請你心裡隨便記住一個號碼，等看完視頻後，你記住的號碼就會從屏幕上消失。很神奇⋯⋯]]></title>
             <link>https://cofacts.tw/article/34qpfn19a1alg?utm_source=Others&amp;utm_medium=RSS</link>
@@ -186,25 +205,6 @@ https://cofacts.tw/article/1zbx5ay6u3vge 已有類似補充。
 
               <h2>出處</h2>
               https://www.youtube.com/watch?v=upSe9g_wfd8
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Trust global
-全球信託]]></title>
-            <link>https://cofacts.tw/article/35s3oqkdq8qys?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/35s3oqkdq8qys?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Wed, 11 Aug 2021 14:58:45 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/35s3oqkdq8qys?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          Trust global
-全球信託
-        
-              <h2><a href="https://cofacts.tw/reply/n0P0NXsBgBgcuemXDASF">最新回應</a></h2>
-              <p>含有錯誤訊息 by Lin</p>
-              TRUST GLOBAL是網路上的「財富管理」公司，但由於其有複雜的資金流向，有詐騙之虞，不建議使用。
-
-              <h2>出處</h2>
-              https://helpcenter.ace.io/hc/zh-tw/articles/360045093051-疑似假投資詐騙網站資訊
             ]]></description>
         </item>
     </channel>
