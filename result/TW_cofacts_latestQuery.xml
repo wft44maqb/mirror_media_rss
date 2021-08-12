@@ -4,10 +4,27 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Thu, 12 Aug 2021 16:01:33 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Aug 2021 16:06:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[郭婞淳奧運金牌的手，No pain no gain.]]></title>
+            <link>https://cofacts.tw/article/1vlvrx06kubm4?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/1vlvrx06kubm4?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Thu, 12 Aug 2021 16:05:28 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/1vlvrx06kubm4?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          郭婞淳奧運金牌的手，No pain no gain.
+        
+              <h2><a href="https://cofacts.tw/reply/pUMcO3sBgBgcuemX5gjf">最新回應</a></h2>
+              <p>含有錯誤訊息 by Lin</p>
+              假的。這是菲律賓舉重選手狄亞士（Hidilyn Diaz）的雙手。
+
+              <h2>出處</h2>
+              https://tfc-taiwan.org.tw/articles/6084
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[
 彰化縣警察局芳苑分局西港派出所的貼文
@@ -260,23 +277,6 @@ https://news.ltn.com.tw/news/life/breakingnews/3635546 (永和社區大樓爆群
               <h2>出處</h2>
               https://news.ltn.com.tw/news/life/breakingnews/3635546
 https://udn.com/news/story/120940/5668903
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[奧運金牌郭婞淳的手，繭是長這樣子的，她的努力可佩，心志剛強不懈，讚!]]></title>
-            <link>https://cofacts.tw/article/38ksb4qbpicos?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/38ksb4qbpicos?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Thu, 12 Aug 2021 05:09:15 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/38ksb4qbpicos?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          奧運金牌郭婞淳的手，繭是長這樣子的，她的努力可佩，心志剛強不懈，讚!
-        
-              <h2><a href="https://cofacts.tw/reply/qUPEOHsBgBgcuemXTgZB">最新回應</a></h2>
-              <p>含有錯誤訊息 by Lin</p>
-              假的。照片為菲律賓舉重選手狄亞士（Hidilyn Diaz）手掌，狄亞士獲得東京奧運55公斤組的金牌。這並不是郭婞淳的手。
-
-              <h2>出處</h2>
-              https://tfc-taiwan.org.tw/articles/6084
             ]]></description>
         </item>
     </channel>
