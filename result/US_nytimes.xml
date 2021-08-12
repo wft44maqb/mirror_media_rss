@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Thu, 12 Aug 2021 15:09:22 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Aug 2021 15:19:25 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[六天占领九省会，塔利班会全面接管阿富汗吗？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210812/taliban-afghanistan-troops-explainer/?utm_source=RSS]]></link>
+            <description><![CDATA[塔利班的攻势从农村升级至城市，给阿富汗政府带来毁灭性打击，也加剧了人们对其可能占领首都、进行全面军事接管的担忧。我们总结了目前的情况，并对未来局势作出展望。<p><img src='https://static01.nyt.com/images/2021/08/11/world/11afghanistan-explainer/merlin_192879819_4e6197c2-6710-4f24-8680-a125e6f255be-articleLarge.jpg' alt='本月，塔利班在阿富汗坎大哈短暂占领了一个警察哨所，随后该哨所被摧毁。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>本月，塔利班在阿富汗坎大哈短暂占领了一个警察哨所，随后该哨所被摧毁。</p>                    ]]></description>
+            <category>国际</category>
+            <dc:creator><![CDATA[CHRISTINA GOLDBAUM]]></dc:creator>
+            <pubDate>Thu, 12 Aug 2021 03:19:17 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210812/taliban-afghanistan-troops-explainer/]]></guid>
+        </item>
             <item>
             <title><![CDATA[关于突破性感染和德尔塔变种，你需要了解的五件事]]></title>
             <link><![CDATA[https://cn.nytimes.com/science/20210812/covid-breakthrough-delta-variant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[BRAD PLUMER,HENRY FOUNTAIN]]></dc:creator>
             <pubDate>Tue, 10 Aug 2021 10:45:47 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/science/20210810/climate-change-report-ipcc-un/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[关于德尔塔变种病毒，科学家们知道些什么？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/health/20210630/delta-variant-covid/?utm_source=RSS]]></link>
-            <description><![CDATA[德尔塔变种病毒的传播正促使世界各地采取新的封锁措施，公共卫生官员也发出了新的警告。它的传染性有多强？已经传播到哪些国家？对已接种疫苗者会有影响吗？<p><img src='https://static01.nyt.com/images/2021/06/29/science/22virus-delta-explainer-1/22virus-delta-explainer-1-articleLarge.jpg' alt='在英格兰布莱克本，行人走过一块电子信息牌，上面显示了有关“本地需要注意的”Covid-19变种的信息。 Oli Scarff/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Oli Scarff/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>在英格兰布莱克本，行人走过一块电子信息牌，上面显示了有关“本地需要注意的”Covid-19变种的信息。</p>                    ]]></description>
-            <category>健康</category>
-            <dc:creator><![CDATA[EMILY ANTHES]]></dc:creator>
-            <pubDate>Tue, 10 Aug 2021 09:04:00 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210630/delta-variant-covid/]]></guid>
         </item>
     </channel>
 </rss>
