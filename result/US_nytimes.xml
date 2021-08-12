@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Thu, 12 Aug 2021 17:09:55 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Aug 2021 17:19:56 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[为何这个偶像男团在香港掀起热潮？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210812/hong-kong-mirror-band/?utm_source=RSS]]></link>
+            <description><![CDATA[MIRROR是香港目前最炙手可热的偶像团体，从他们身上几乎看不出政治动荡的影子。但他们用朗朗上口的节拍为香港注入了欢乐，为一座焦虑的城市提供了一种音乐调剂 。<p><img src='https://static01.nyt.com/images/2021/08/09/world/00hongkong-boyband1/merlin_191599572_2abf6491-91cb-45f8-92ba-f1566376d89e-articleLarge.jpg' alt='粤语流行音乐组合MIRROR的成员柳应廷上个月在香港的一场推广活动上。 Anthony Kwan for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Anthony Kwan for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>粤语流行音乐组合MIRROR的成员柳应廷上个月在香港的一场推广活动上。</p>                    ]]></description>
+            <category>中国</category>
+            <dc:creator><![CDATA[王月眉,JOY DONG]]></dc:creator>
+            <pubDate>Thu, 12 Aug 2021 05:15:09 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210812/hong-kong-mirror-band/]]></guid>
+        </item>
             <item>
             <title><![CDATA[六天占领九省会，塔利班会全面接管阿富汗吗？]]></title>
             <link><![CDATA[https://cn.nytimes.com/world/20210812/taliban-afghanistan-troops-explainer/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[KEITH BRADSHER,TARIQ PANJA]]></dc:creator>
             <pubDate>Tue, 10 Aug 2021 11:27:29 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210810/beijing-winter-olympics-covid/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[联合国科学报告：全球升温成定局，极端天气将大幅增加]]></title>
-            <link><![CDATA[https://cn.nytimes.com/science/20210810/climate-change-report-ipcc-un/?utm_source=RSS]]></link>
-            <description><![CDATA[报告得出结论，由于控制化石燃料排放不力，地球温度可能在未来20年内升高1.5度，这将给十几亿人口和动植物带来毁灭性灾难。但立即和持续的减排仍可能控制升温幅度。<p><img src='https://static01.nyt.com/images/2021/08/09/climate/09cli-ipccreport-3/merlin_192692550_3d5e43d9-a626-4a74-869f-6e7bdec851a7-articleLarge.jpg' alt='迪克西火灾周日成为了加州史上最第二大的野火。这场大火摧毁了一个镇子，迫使数以千计的人离开他们位于加州北部的家园。 David Swanson/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>David Swanson/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>迪克西火灾周日成为了加州史上最第二大的野火。这场大火摧毁了一个镇子，迫使数以千计的人离开他们位于加州北部的家园。</p>                    ]]></description>
-            <category>科学</category>
-            <dc:creator><![CDATA[BRAD PLUMER,HENRY FOUNTAIN]]></dc:creator>
-            <pubDate>Tue, 10 Aug 2021 10:45:47 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/science/20210810/climate-change-report-ipcc-un/]]></guid>
         </item>
     </channel>
 </rss>
