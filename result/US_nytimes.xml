@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Thu, 12 Aug 2021 11:38:01 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Aug 2021 11:48:04 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[关于突破性感染和德尔塔变种，你需要了解的五件事]]></title>
+            <link><![CDATA[https://cn.nytimes.com/science/20210812/covid-breakthrough-delta-variant/?utm_source=RSS]]></link>
+            <description><![CDATA[新冠疫苗旨在预防重症，而非感染。突破性感染可能并不常见，但目前缺乏数据，其真正危险在于未接种疫苗的人。在一些罕见病例中，突破性感染可能导致持续症状。<p><img src='https://static01.nyt.com/images/2021/08/10/science/00virus-breakthrough2/merlin_192270498_5dc4dd99-73d4-4f84-8d13-4f564b4dee1c-articleLarge.jpg' alt='上个月，人们在佐治亚州莫尔特里接种新冠疫苗。 疫苗在预防重症和死亡方面非常有效，但尚不清楚德尔塔变异毒株如何影响突破性感染的概率。 Matthew Odom for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Matthew Odom for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>上个月，人们在佐治亚州莫尔特里接种新冠疫苗。 疫苗在预防重症和死亡方面非常有效，但尚不清楚德尔塔变异毒株如何影响突破性感染的概率。</p>                    ]]></description>
+            <category>科学</category>
+            <dc:creator><![CDATA[APOORVA MANDAVILLI]]></dc:creator>
+            <pubDate>Thu, 12 Aug 2021 11:47:53 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/science/20210812/covid-breakthrough-delta-variant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[中国以间谍罪名判处加拿大商人11年有期徒刑]]></title>
             <link><![CDATA[https://cn.nytimes.com/china/20210811/china-canada-spavor-kovrig/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[EMILY ANTHES]]></dc:creator>
             <pubDate>Tue, 10 Aug 2021 09:04:00 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210630/delta-variant-covid/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[那些我们没有教给男孩的事]]></title>
-            <link><![CDATA[https://cn.nytimes.com/opinion/20210809/boys-gender-books-culture/?utm_source=RSS]]></link>
-            <description><![CDATA[男孩在成长过程中消费的每一种叙事里都缺乏真实的人类，几乎没有情感的复杂性。这种情感和关系教育的缺失对他们和社会都有负面影响。<p><img src='https://static01.nyt.com/images/2021/08/10/opinion/10whippman-inyt/30whippman_-articleLarge.jpg' alt=' Sam Island'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Sam Island</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
-            <category>观点与评论</category>
-            <dc:creator><![CDATA[RUTH WHIPPMAN]]></dc:creator>
-            <pubDate>Mon, 09 Aug 2021 05:12:51 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210809/boys-gender-books-culture/]]></guid>
         </item>
     </channel>
 </rss>
