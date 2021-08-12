@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 12 Aug 2021 11:43:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Aug 2021 11:49:23 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 12 Aug 2021 11:43:53 GMT</pubDate>
+        <pubDate>Thu, 12 Aug 2021 11:49:22 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -27,6 +27,13 @@
         <category><![CDATA[華爾街日報]]></category>
         <category><![CDATA[華爾街日報中文網]]></category>
         <category><![CDATA[Wall Street Journal]]></category>
+        <item>
+            <title><![CDATA[中國監管風暴促使投資者湧向政府支持領域]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LM606_CONSHO_OR_20210810075508.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國的企業整頓行動已重創互聯網類股，正促使投資者轉向高科技製造和可再生能源等仍受中國政府看重的領域。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E7%9B%A3%E7%AE%A1%E9%A2%A8%E6%9A%B4%E4%BF%83%E4%BD%BF%E6%8A%95%E8%B3%87%E8%80%85%E6%B9%A7%E5%90%91%E6%94%BF%E5%BA%9C%E6%94%AF%E6%8C%81%E9%A0%98%E5%9F%9F-11628737811</link>
+            <guid isPermaLink="false">CT-MKT-20210812104821</guid>
+            <pubDate>Thu, 12 Aug 2021 07:30:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[中國公司赴美IPO審查升級之際，港交所收到的上市諮詢數量激增]]></title>
             <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LN096_HKEX08_OR_20210811083038.jpg" class="webfeedsFeaturedVisual" alt=""/><p>在中美監管機構承諾加強對中國公司赴美上市的限制後，香港交易所負責人周三表示他們收到的上市諮詢量激增。</p>]]></description>
@@ -54,6 +61,13 @@
             <link>https://cn.wsj.com/articles/%E8%B3%87%E9%87%91%E9%8F%88%E7%B7%8A%E5%BC%B5%E7%9A%84%E6%81%86%E5%A4%A7%E9%9B%86%E5%9C%98%E5%B0%8B%E6%B1%82%E5%87%BA%E5%94%AE%E5%84%AA%E8%B3%AA%E8%B3%87%E7%94%A2-11628667909</link>
             <guid isPermaLink="false">CT-FIN-20210811152950</guid>
             <pubDate>Wed, 11 Aug 2021 09:40:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新冠疫苗詐騙盯上數十個國家政府]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LN313_SCAMVA_OR_20210811150119.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據文件和知情人士透露，有些犯罪組織和個人聲稱可以獲得新冠疫苗，與數十個國家的有關部門進行聯繫，希望能簽署數以百萬美元的非法合同。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97%E8%A9%90%E9%A8%99%E7%9B%AF%E4%B8%8A%E6%95%B8%E5%8D%81%E5%80%8B%E5%9C%8B%E5%AE%B6%E6%94%BF%E5%BA%9C-11628768711</link>
+            <guid isPermaLink="false">CT-BGH-20210812192639</guid>
+            <pubDate>Thu, 12 Aug 2021 11:45:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[IEA：德爾塔疫情削弱今年石油需求復甦勢頭]]></title>
@@ -84,6 +98,20 @@
             <pubDate>Thu, 12 Aug 2021 06:55:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[YouTube封禁發表「口罩無用論」的參議員賬號七天]]></title>
+            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-KB189_ASKPJ_G_20210422150608.jpg" class="webfeedsFeaturedVisual" alt=""/><p>Alphabet Inc旗下的YouTube表示，肯塔基州共和黨參議員蘭德·保羅曾在一個現已刪除的影片中聲稱「口罩對防止新冠病毒感染或傳播是無效的」，因此已禁止他在YouTube上發布影片，為期七天。</p>]]></description>
+            <link>https://cn.wsj.com/articles/youtube%E5%B0%81%E7%A6%81%E7%99%BC%E8%A1%A8%E3%80%8C%E5%8F%A3%E7%BD%A9%E7%84%A1%E7%94%A8%E8%AB%96%E3%80%8D%E7%9A%84%E5%8F%83%E8%AD%B0%E5%93%A1%E8%B3%AC%E8%99%9F%E4%B8%83%E5%A4%A9-11628733363</link>
+            <guid isPermaLink="false">CT-TEC-20210812094600</guid>
+            <pubDate>Thu, 12 Aug 2021 04:05:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Moderna股價跌16%，美國銀行質疑其估值]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LM543_MODERN_OR_20210809223728.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據道瓊斯數據，Moderna Inc.周三下跌16%，或創下2020年5月以來的最大單日跌幅，因美國銀行分析師Geoff Meacham周二發表了一份有關該公司的悲觀報告，質疑其估值。</p>]]></description>
+            <link>https://cn.wsj.com/articles/moderna%E8%B7%8C16%EF%BC%8C%E7%BE%8E%E5%9C%8B%E9%8A%80%E8%A1%8C%E8%B3%AA%E7%96%91%E5%85%B6%E4%BC%B0%E5%80%BC-11628726711</link>
+            <guid isPermaLink="false">CT-MKT-20210812075319</guid>
+            <pubDate>Thu, 12 Aug 2021 00:35:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Lordstown Motors虧損擴大，預計今秋開始生產電動卡車]]></title>
             <description><![CDATA[<img width="1280" height="914" src="https://si.wsj.net/public/resources/images/S1-LM315_LORDST_OR_20210809133558.jpg" class="webfeedsFeaturedVisual" alt=""/><p>Lordstown Motors公布第二財季虧損1.082億美元，並表示其電動卡車的生產將於下個月如期開始。</p>]]></description>
             <link>https://cn.wsj.com/articles/lordstown-motors%E8%99%A7%E6%90%8D%E6%93%B4%E5%A4%A7%EF%BC%8C%E9%A0%90%E8%A8%88%E4%BB%8A%E7%A7%8B%E9%96%8B%E5%A7%8B%E7%94%9F%E7%94%A2%E9%9B%BB%E5%8B%95%E5%8D%A1%E8%BB%8A-11628725510</link>
@@ -96,6 +124,13 @@
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E4%BC%81%E6%A5%AD%E4%BD%95%E4%BB%A5%E6%B7%AA%E7%82%BA%E6%94%BF%E6%B2%BB%E5%AD%A4%E5%85%92-11628727611</link>
             <guid isPermaLink="false">CT-OPN-20210812080846</guid>
             <pubDate>Thu, 12 Aug 2021 00:25:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[接棒東京奧運，北京冬奧會勢將天氣更冷，政治爭論更熱]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LM125_colymp_OR_20210809074308.jpg" class="webfeedsFeaturedVisual" alt=""/><p>在東京奧運會期間，中國的民族主義情緒高漲，這將左右2022年冬奧會氛圍的走向；目前距離冬奧會開幕僅剩不到六個月的時間，門票銷售安排仍不明朗。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%8E%A5%E6%A3%92%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%EF%BC%8C%E5%8C%97%E4%BA%AC%E5%86%AC%E5%A5%A7%E6%9C%83%E5%8B%A2%E5%B0%87%E5%A4%A9%E6%B0%A3%E6%9B%B4%E5%86%B7%EF%BC%8C%E6%94%BF%E6%B2%BB%E7%88%AD%E8%AB%96%E6%9B%B4%E7%86%B1-11628578210</link>
+            <guid isPermaLink="false">CT-BGH-20210810142034</guid>
+            <pubDate>Thu, 12 Aug 2021 01:40:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[別指望員工回公司上班，因為他們辭職了]]></title>

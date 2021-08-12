@@ -4,7 +4,7 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Thu, 12 Aug 2021 11:43:39 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Aug 2021 11:49:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
@@ -152,6 +152,32 @@ https://udn.com/news/story/120940/5668903
             ]]></description>
         </item>
         <item>
+            <title><![CDATA[
+         武林比賽
+少林寺玄空大師對抗
+美國拳王泰森
+https://⋯⋯]]></title>
+            <link>https://cofacts.tw/article/83e1chtvvc3o?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/83e1chtvvc3o?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Thu, 12 Aug 2021 05:06:01 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/83e1chtvvc3o?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          
+         武林比賽
+少林寺玄空大師對抗
+美國拳王泰森
+https://youtu.be/GU4EG9RKKbk (泰森大战少林方丈玄空大师！方丈一记大劈腿直接拿下对手！)
+        
+              <h2><a href="https://cofacts.tw/reply/0kMvOnsBgBgcuemXcgfT">最新回應</a></h2>
+              <p>含有錯誤訊息 by Oscar</p>
+              其實影片下方有說明是遊戲解說喔！
+砍起來也確實像動畫，下方為原影片連結
+
+              <h2>出處</h2>
+              https://www.youtube.com/watch?v=GU4EG9RKKbk
+            ]]></description>
+        </item>
+        <item>
             <title><![CDATA[《美國疾病管制局CDC》在2003年，就發現了可以大撈一筆的機會，亦即後來在亞洲⋯⋯]]></title>
             <link>https://cofacts.tw/article/2tq1oniban352?utm_source=Others&amp;utm_medium=RSS</link>
             <guid>https://cofacts.tw/article/2tq1oniban352?utm_source=Others&amp;utm_medium=RSS</guid>
@@ -204,27 +230,6 @@ https://udn.com/news/story/120940/5668903
 
               <h2>出處</h2>
               https://tfc-taiwan.org.tw/articles/6054
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[砲轟中國封鎖台灣！達克沃絲曝：美將贈台400萬劑疫苗 | 自由電子報 | LIN⋯⋯]]></title>
-            <link>https://cofacts.tw/article/2r533a2jpk1sa?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/2r533a2jpk1sa?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Thu, 12 Aug 2021 04:01:16 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/2r533a2jpk1sa?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          砲轟中國封鎖台灣！達克沃絲曝：美將贈台400萬劑疫苗 | 自由電子報 | LINE TODAY
-
-https://liff.line.me/1454987169-1WAXAP3K/v2/article/nVj7XJ?utm_source=lineshare (砲轟中國封鎖台灣！達克沃絲曝：美將贈台400萬劑疫苗 | 自由電子報 | LINE TODAY)
-        
-              <h2><a href="https://cofacts.tw/reply/EENAOXsBgBgcuemXcQfD">最新回應</a></h2>
-              <p>含有錯誤訊息 by Oscar</p>
-              不知道詢問者是否看過更正後的新聞，目前已經更新，內容說明美國目前已贈與台灣250萬劑疫苗，目前無追加計畫，可參考連結中的新聞
-
-              <h2>出處</h2>
-              https://udn.com/news/story/122190/5668096
-https://tw.news.yahoo.com/「贈台-400-萬劑疫苗」是口誤-美國無額外捐贈台灣疫苗計畫-011658759.html
-https://news.ltn.com.tw/news/politics/breakingnews/3635648
             ]]></description>
         </item>
     </channel>
