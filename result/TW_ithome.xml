@@ -6,6 +6,22 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>愈來愈多網釣連結濫用Google開放重定向功能</title>
+ <link>https://www.ithome.com.tw/news/146184</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.greathorn.com/blog/google-and-open-redirects-preventing-your-users-from-becoming-a-victim-of-attacks/&quot; target=&quot;_blank&quot;&gt;安全廠商Greathorn發現&lt;/a&gt;，近日有愈來有多網釣攻擊者利用Google Meet和Google DoubleClick的開放重定向（open redirect）功能，將用戶導向惡意網站騙取帳密。&lt;/p&gt;
+&lt;p&gt;Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet和Google DoubleClick中的開放重定向功能的網釣攻擊成長了84%。&lt;/p&gt;
+&lt;p&gt;開放重定向是一項功能，也可說是一項漏洞。合法網域，像是Google允許使用者輸入並指定URL目的地為何，而將使用者導向任何協力網站、包括惡意網站。開放重定向功能也常被用在網釣攻擊，以騙取用戶的帳號及密碼。&lt;/p&gt;
+&lt;p&gt;DoubleClick是Google 2007年收購的老牌廣告聯盟技術，但從2008年就被發現重定向的安全隱憂，但是迄今尚未解決。2014年的惡意廣告攻擊就是利用doubleclick.net廣告聯盟網路所為。在開放重定向攻擊中，只要參數中加入目的地URL即可；在DoubleClick中用的是參數是「adurl=」，攻擊者甚至無需DoubleClick帳號即可設定開放重定向。&lt;/p&gt;
+&lt;p&gt;而Google Meet則在COVID-19疫情下，成為新興的惡意連結散布管道。拜去年的疫情所賜，遠距辦公及虛擬會議需求大增，Google Meet每日與會者超過1億，但也成為犯罪者的工具。在Google Meet傳送的URL使用「linkredirect?」即可發動開放重定向攻擊。&lt;/p&gt;
+&lt;p&gt;根據Greathorn估計，今年1到2季之間，利用Google Meet傳送的惡意連結量成長57%，而利用DoubleClick平臺傳送的惡意連結更大增141%。&lt;/p&gt;
+&lt;p&gt;為防止Google二項服務成為網釣攻擊管道，安全廠商建議搞清楚其電子郵件安全平臺是怎麼分析網域權重（Domain Authority）及目的地網站，以防用戶受到開放重定向攻擊。同時也應設定限定自家合法網域的URL重定向。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 13 Aug 2021 05:58:56 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146184 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146184#comments</comments>
+</item>
+<item>
  <title>Fintech周報第193期：台新銀行與新創業者合作開發，為外籍移工推出ATM跨境匯款代收服務</title>
  <link>https://www.ithome.com.tw/news/146180</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3 style=&quot;vertical-align: top; margin: 10px 0px; font-family: 微軟正黑體, sans-serif; font-weight: bold; line-height: 1.25em; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; color: inherit; font-size: 18px;&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; color: rgb(0, 0, 205);&quot;&gt;0807～0813&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
@@ -210,20 +226,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146162 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146162#comments</comments>
-</item>
-<item>
- <title>駭客屈服了，開始歸還自Poly Network盜走的6.1億美元加密貨幣</title>
- <link>https://www.ithome.com.tw/news/146161</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;跨鏈協定網路&lt;a href=&quot;https://www.ithome.com.tw/news/146138&quot; target=&quot;_blank&quot;&gt;Poly Network在8月10日晚間遭到駭客攻擊&lt;/a&gt;，駭客成功轉移了價值6.1億美元的加密貨幣到3個加密貨幣錢包，不過，在不到一天的時間內，駭客就決定歸還所盜走的資產。&lt;/p&gt;
-&lt;p&gt;揭露此事的是專注於區塊鏈生態體系安全性的慢霧科技（SlowMist），&lt;a href=&quot;https://slowmist.medium.com/the-analysis-and-q-a-of-poly-network-being-hacked-8112a35beb39&quot; target=&quot;_blank&quot;&gt;該公司也在11日張貼了此一攻擊的詳細分析&lt;/a&gt;，同時&lt;a href=&quot;https://twitter.com/PolyNetwork2/status/1425130017546149891&quot; target=&quot;_blank&quot;&gt;Poly Network也坦承&lt;/a&gt;，駭客開採的是Poly Network網路上有關合約調用的安全漏洞。&lt;/p&gt;
-&lt;p&gt;駭客總計盜轉了價值2.7億美元的以太坊代幣，約2.5億美元的幣安代幣，以及Polygon網路上約8,500萬美元的USDC。但駭客約莫在8月11日下午就決定要物歸原主，&lt;a href=&quot;https://twitter.com/PolyNetwork2/status/1425509322126024708&quot; target=&quot;_blank&quot;&gt;當天Poly Network就收到了約2.6億美元的加密貨幣資產&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;目前並不確定駭客回心轉意的原因，有人猜測是因慢霧科技已追蹤到駭客所使用的郵件信箱、IP與裝置指紋，亦在探查駭客的身分，且Poly Network已揚言要採取法律行動，並號召全球交易平台封鎖駭客所使用的電子錢包。&lt;/p&gt;
-&lt;p&gt;幣圈除了納悶駭客的行動之外，也替駭客求情，認為Poly Network至少應支付一部分的遭竊金額，作為該名駭客的抓漏獎金，或者直接聘請他。不論如何，這起去中心化金融平臺（DeFi）史上最大的竊盜事件看似將能圓滿落幕。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 12 Aug 2021 12:41:15 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146161 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146161#comments</comments>
 </item>
 </channel>
 </rss>
