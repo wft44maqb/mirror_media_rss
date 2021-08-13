@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/2227" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/2227</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/2227" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
     <title>甫獲公平會同意，亞太電信與遠傳啟動5G共頻共網服務</title>
     <link>https://www.ithome.com.tw/news/146193</link>
@@ -53,6 +53,14 @@
      <pubDate>2021-08-13  02:08:55</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146187</guid>
+  </item>
+  <item>
+    <title>延伸口罩偵測、出勤、視訊監控應用，訊連臉部辨識攻實體安全</title>
+    <link>https://www.ithome.com.tw/review/146186</link>
+    <description> 以多媒體內容處理軟體著稱的訊連科技（CyberLink），過去最為人所知的產品，有影音播放軟體PowerDVD、圖片處理軟體PhotoImpact、影片處理軟體威力導演（‎PowerDirector），而從2018年起，他們開始主推臉部辨識技術FaceMe，而最初發表的產品FaceMe SDK，也是訊連臉部辨識的核心，隨後，他們參與2019年的消費性電子展（CES）、台北國際電腦展（Computex）等多項國際大型展覽，積極對外展示臉部辨識引擎與解決方案。</description>
+     <pubDate>2021-08-13  02:08:27</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/review/146186</guid>
   </item>
   <item>
     <title>明日起GitHub的Git操作將無法再採用密碼認證</title>
@@ -244,14 +252,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-12  11:08:02</pubDate>
  <dc:creator>余至浩</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146149</guid>
-  </item>
-  <item>
-    <title>OpenAI開放可將自然語言轉為程式碼的AI系統Codex</title>
-    <link>https://www.ithome.com.tw/news/146142</link>
-    <description> OpenAI改進Codex釋出新版本，OpenAI Codex是一個能夠將自然語言轉換成為程式碼的人工智慧系統，也就是說，Codex能夠讓開發者用簡單的口語指令來編寫程式，現在OpenAI將Codex的API以私人Beta測試的形式對外釋出。</description>
-     <pubDate>2021-08-12  10:08:23</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146142</guid>
   </item>
   </channel>
 </rss>
