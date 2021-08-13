@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/4178" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/4178</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/4178" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=24&amp;profile=rss20" rel="self" type="application/rss+xml" />
       <item>
+    <title>穩定幣USDC發行商Circle宣布將朝向正式銀行邁進</title>
+    <link>https://www.ithome.com.tw/news/146192</link>
+    <description> 穩定幣USDC發行商Circle本周宣布，將努力發展成一家具備100%準備金的全儲備銀行，成為美國正式的商業銀行，且會在符合美國聯邦儲備（Federal Reserve）、美國財政部、美國貨幣總稽核辦公室（OCC）與美國聯邦存款保險公司（FDIC）的監督與風險管理要求的條件下經營。</description>
+     <pubDate>2021-08-13  03:08:47</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146192</guid>
+  </item>
+  <item>
     <title>臉書也將美國、部份國外員工回公司時程延到2022年1月</title>
     <link>https://www.ithome.com.tw/news/146190</link>
     <description> CNBC報導，因為COVID-19疫情再次燃起，臉書周四再將美國員工以及部份海外員工回公司上班的日期，推遲到明年1月。</description>
@@ -246,14 +254,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-12  07:08:00</pubDate>
  <dc:creator>黃郁芸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/people/146076</guid>
-  </item>
-  <item>
-    <title>提供立即可用的資料流處理環境，紅帽推全代管Kafka服務</title>
-    <link>https://www.ithome.com.tw/review/146126</link>
-    <description> 今年紅帽在4月底舉行的全球用戶大會當中，發表了3套代管服務，我們先前已介紹OpenShift Data Science，是用於機器學習模型開發的解決方案，接著再來看看另一套OpenShift Streams for Apache Kafka，它同樣緊密整合該公司發展的OpenShift Dedicated代管服務，能讓企業在使用現代化的IT環境之餘，也能藉助這樣的服務模式來減少維運複雜度，並且在橫跨開放式混合雲與多雲的架構下，獲得通用的功能組合。</description>
-     <pubDate>2021-08-12  01:08:05</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/review/146126</guid>
   </item>
   </channel>
 </rss>
