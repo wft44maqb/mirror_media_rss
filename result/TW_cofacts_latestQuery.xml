@@ -4,7 +4,7 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Fri, 13 Aug 2021 16:07:14 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 16:14:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
@@ -70,6 +70,23 @@ https://youtu.be/YYc6cubKQDY (一個鷄蛋這樣吃，讓你一輩子遠離中�
 
               <h2>出處</h2>
               https://tfc-taiwan.org.tw/articles/6031
+            ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[下|燾8萬2千︴專ˉ3萬5千資驄萄2千譏羅2萄7千鴉國3華8千【矚1萬2千]]]></title>
+            <link>https://cofacts.tw/article/q02lwbfmntfc?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/q02lwbfmntfc?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Fri, 13 Aug 2021 12:15:43 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/q02lwbfmntfc?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          下|燾8萬2千︴專ˉ3萬5千資驄萄2千譏羅2萄7千鴉國3華8千【矚1萬2千]
+        
+              <h2><a href="https://cofacts.tw/reply/YUNJQHsBgBgcuemX_QyQ">最新回應</a></h2>
+              <p>不在查證範圍 by Asdfgh</p>
+              測試用之無意義訊息。
+
+              
+              
             ]]></description>
         </item>
         <item>
@@ -265,25 +282,6 @@ https://www.youtube.com/watch?v=AG8TZVbTKQY
 
 台視新聞:
 https://www.youtube.com/watch?v=TNMfOuXxMHo
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[單腳站立等於走路50分鐘]]></title>
-            <link>https://cofacts.tw/article/ouz87f6in3kg?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/ouz87f6in3kg?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Fri, 13 Aug 2021 01:06:42 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/ouz87f6in3kg?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          單腳站立等於走路50分鐘
-        
-              <h2><a href="https://cofacts.tw/reply/kUNTPXsBgBgcuemXmwkd">最新回應</a></h2>
-              <p>含有個人意見 by uienwt</p>
-              此為日本研究發現，身體如有不適，建議尋求專業醫師協助。
-
-              <h2>出處</h2>
-              https://www.bh.ntuh.gov.tw/public/education/bb9d0bc32b1953399923f71cef1c8a33.pdf p.42
-https://news.ltn.com.tw/news/life/breakingnews/1770649
-https://www.youtube.com/watch?v=bRCqR2203S0
             ]]></description>
         </item>
     </channel>
