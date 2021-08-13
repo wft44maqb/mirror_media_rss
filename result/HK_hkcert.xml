@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Fri, 13 Aug 2021 10:05:35 +0800</pubDate>
-		<lastBuildDate>Fri, 13 Aug 2021 10:05:35 +0800</lastBuildDate>
+		<pubDate>Fri, 13 Aug 2021 10:10:25 +0800</pubDate>
+		<lastBuildDate>Fri, 13 Aug 2021 10:10:25 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,6 +15,37 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>Node.js 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/node-js-multiple-vulnerabilities_20210813</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/node-js-multiple-vulnerabilities_20210813</guid>
+			<pubDate>Fri, 13 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Node.js 發現一些漏洞，遠端使用者可利用這些漏洞，於目標系統觸發跨網站指令碼、阻斷服務狀況、遠端執行任...
+			  <p>影響</p>
+			  <ul>
+			          <li>跨網站指令碼</li>
+			          <li>阻斷服務</li>
+			          <li>遠端執行程式碼</li>
+			          <li>繞過保安限制</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Node.js 16.x, 14.x, 和 12.x 版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<ul>
+				<li>安裝軟件供應商提供的修補程式：<br />
+				<a href="https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/" target="_blank">https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
 		<item>
 			<title>蘋果 iTunes 遠端執行程式碼漏洞</title>
 			<link>https://www.hkcert.org/tc/security-bulletin/apple-itunes-remote-code-execution-vulnerabilities_20210813</link>
@@ -716,56 +747,6 @@
 				<a href="https://www.suse.com/support/update/announcement/2021/suse-su-20212538-1/" target="_blank">https://www.suse.com/support/update/announcement/2021/suse-su-20212538-1/</a><br />
 				<a href="https://ubuntu.com/security/notices/LSN-0079-1" target="_blank">https://ubuntu.com/security/notices/LSN-0079-1</a></li>
 			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>蘋果產品遠端執行程式碼漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/apple-products-remote-code-execution-vulnerability_20210727</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/apple-products-remote-code-execution-vulnerability_20210727</guid>
-			<pubDate>Tue, 27 Jul 2021 09:00:00 +0800</pubDate>
-			<description><![CDATA[  於蘋果產品發現一個漏洞，遠端攻擊者可利用此漏洞，於目標系統觸發遠端任意執行程式碼。
-			
-			 
-			
-			注意﹕
-			CVE-2021-30807 漏...
-			  <p>影響</p>
-			  <ul>
-			          <li>遠端執行程式碼</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <p>以下版本以前的版本:</p>
-			
-			<p>&nbsp;</p>
-			
-			<ul>
-				<li>iOS 14.7.1</li>
-				<li>iPadOS 14.7.1</li>
-				<li>macOS Big Sur 11.5.1</li>
-				<li>watchOS 7.6.1</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<p>&nbsp;</p>
-			
-			<p>安裝供應商提供的修補程式：</p>
-			
-			<p>&nbsp;</p>
-			
-			<div>
-			<ul>
-				<li>iOS 14.7.1</li>
-				<li>iPadOS 14.7.1</li>
-				<li>macOS Big Sur 11.5.1</li>
-				<li>watchOS 7.6.1</li>
-			</ul>
-			</div>
 			
 			  <hr>
 			]]></description>
