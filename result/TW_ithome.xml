@@ -22,6 +22,27 @@
  <comments>https://www.ithome.com.tw/news/146184#comments</comments>
 </item>
 <item>
+ <title>釣魚郵件攻擊出現新手法，駭客採用摩斯編碼、ASCII等多種編碼來混淆附件內容</title>
+ <link>https://www.ithome.com.tw/news/146181</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;攻擊者為了避免釣魚郵件遭到攔截，附件檔案很可能會利用較為少見的檔案格式，來挾帶作案工具，例如，&lt;a href=&quot;https://www.ithome.com.tw/news/145659&quot;&gt;光碟映象檔（ISO、IMG）&lt;/a&gt;，甚至是&lt;a href=&quot;https://www.ithome.com.tw/news/145336&quot;&gt;Windows映象檔格式（WIM）&lt;/a&gt;等，這些檔案格式對於部分郵件防護系統而言，無法解讀其中的內容，沒辦法得知是否有害。但最近也有攻擊者改變策略，使用一般郵件可能會出現的附件檔案類型，來挾帶含有攻擊意圖的工具，避免上述附件的檔案格式可能會被網管人員列為黑名單封鎖的情況。&lt;/p&gt;
+&lt;p&gt;最近&lt;a href=&quot;https://www.microsoft.com/security/blog/2021/08/12/attackers-use-morse-code-other-encryption-methods-in-evasive-phishing-campaign/&quot;&gt;微軟揭露一起挾帶HTML檔案的釣魚郵件攻擊&lt;/a&gt;，攻擊者以寄送發票為幌子，目的是要偷取使用者Office 365的帳密。這起攻擊行動自2020年7月出現，為期至少一年，而當中較為特別的地方，就是攻擊者藉由Base64、ASCII、Unicode、摩斯編碼，將HTML程式碼混淆，來規避郵件防護系統檢查內容的範圍，而且，攻擊者每隔1到2個月（平均間隔37天），便會調整、改進編碼搭配的方式，使得這類釣魚郵件的附件更難被察覺異狀。&lt;/p&gt;
+&lt;p&gt;值得留意的是，並非整個HTML檔案的程式碼，攻擊者都會採用相同的編碼進行混淆，而是有可能在不同的程式碼片段，利用2至3種編碼。微軟指出，從HTML程式碼的功能來看，大致可區分為4個模組。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Fig3b-anatomy-of-phishing-campaign.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Fig3b-anatomy-of-phishing-campaign.png&quot; style=&quot;width: 580px; height: 291px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第1個是攻擊目標的電子郵件信箱位址，第2個則是從特定來源網站取得受害者所屬企業的商標，假若來源網站沒有對應的圖片檔案，HTML檔案便會顯示Office 365圖示。&lt;/p&gt;
+&lt;p&gt;接著，第3與第4個模組皆為JavaScript程式碼，但功能不同：第3與模組的用途，是載入看起來很模糊的Excel文件畫面，並顯示使用者登入Office 365逾時，需要重新登入。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Fig2-sample-credentials-dialog-box.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Fig2-sample-credentials-dialog-box.png&quot; style=&quot;width: 580px; height: 262px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;至於第4個模組的用途，則是會顯示假的Office 365登入介面，一旦使用者上當輸入帳密，這組程式碼便會將帳號資料回傳，並顯示輸入密碼錯誤的訊息。&lt;/p&gt;
+&lt;p&gt;從微軟彙整出的混淆手法演進過程而言，駭客迄今已經更換了10次混淆手法。例如，以攻擊初期（2020年7月）而言，駭客尚未採用混淆手法，HTML檔案的內容，皆是一般明文的HTML程式碼；而到了2020年8月下旬至10月的攻擊行動中，攻擊者開始針對企業商標的圖片，以及釣魚工具套件的來源網域，採用Escape編碼機制來進行混淆處理，其餘部分仍是使用明文的HTML程式碼。&lt;/p&gt;
+&lt;p&gt;在這些混淆手法的演進過程中，攻擊者混合了多種演算法來處理附件的HTML檔案，像是Base64、ASCII、Unicode編碼，以及摩斯編碼等，甚至還有部分模組透過二次編碼處理的情況，混淆手法可說是相當複雜。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Fig4c-timeline.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Fig4c-timeline.png&quot; style=&quot;width: 580px; height: 333px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;微軟指出，這樣的HTML檔案，各部分程式碼看起來都是無害的，只有在經過解密且組合在一起的時候，才會顯現攻擊意圖，因此，許多郵件防護系統可能難以偵測出異常。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 13 Aug 2021 04:49:05 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146181 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146181#comments</comments>
+</item>
+<item>
  <title>Fintech周報第193期：台新銀行與新創業者合作開發，為外籍移工推出ATM跨境匯款代收服務</title>
  <link>https://www.ithome.com.tw/news/146180</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3 style=&quot;vertical-align: top; margin: 10px 0px; font-family: 微軟正黑體, sans-serif; font-weight: bold; line-height: 1.25em; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; color: inherit; font-size: 18px;&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; color: rgb(0, 0, 205);&quot;&gt;0807～0813&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
@@ -207,25 +228,6 @@
  <dc:creator>黃郁芸</dc:creator>
  <guid isPermaLink="false">146175 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146175#comments</comments>
-</item>
-<item>
- <title>IG推出新工具，讓使用者可以暫時關閉陌生留言與私訊</title>
- <link>https://www.ithome.com.tw/news/146162</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://about.instagram.com/blog/announcements/introducing-new-ways-to-protect-our-community-from-abuse&quot; target=&quot;_blank&quot;&gt;Instagram（IG）在本周發表了3項功能&lt;/a&gt;，以避免使用者受到騷擾或霸凌，包括可以暫時關閉陌生留言與私訊的Limits，在使用者準備張貼攻擊性留言時就祭出強烈的警告，以及於全球部署Hidden Words功能，以自動過濾任何使用者指定的字眼或表情符號。&lt;/p&gt;
-&lt;p&gt;其中，Limits很適合身處事件或新聞風暴中的Instagram用戶使用，該功能主要是用來限制陌生的互動，包括禁止非粉絲的留言或私訊，也能禁止最近才成為粉絲的留言或互動，還能設定禁止期限。Instagram舉例，像是最近在奧運賽事上得獎的選手帳號，可能就會突然湧入大量的支持者，但有時候這也代表著該帳號流入了大量不想要的評論或訊息，藉由Limits就可以暫時獲得清靜。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0812-IG%20limits.jpg&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;圖片來源_Instagram&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Instagram解釋，這是因為有些名人表示他們並不想要完全關閉留言及訊息，仍想維持既有的關係，但同時也不想接受大量的陌生言論，特別是那些傷人的言論。Limits即日起便將開始部署至全球的Instagram帳號。&lt;/p&gt;
-&lt;p&gt;過去Instagram原本就會在使用者企圖張貼攻擊性留言時祭出警告，並在該名使用者接二連三張貼攻擊性留言時採用更強烈的警告，宣稱該留言可能會被移除或隱藏。不過，現在Instagram將會在首次察覺攻擊性留言時，就採用強烈的警告。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0812-IG%20Stronger%20warnings%20to%20discourage%20harassment.jpg&quot; style=&quot;width: 265px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Instagram&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;根據Instagram的測試，上周平均每天釋出了100萬次的強烈警告，就有50%的使用者決定修改或刪除留言。&lt;/p&gt;
-&lt;p&gt;而今年初Instagram也開始於特定市場測試Hidden Words，讓使用者能夠於留言區或私訊中自動過濾攻擊性的單字、句子或者是表情符號，也能夠自動過濾垃圾訊息，另也容許使用者檢視這些被隱藏的內容，現在Instagram則決定把此一功能擴大到全球市場。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 12 Aug 2021 12:41:30 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146162 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146162#comments</comments>
 </item>
 </channel>
 </rss>

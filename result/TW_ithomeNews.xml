@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/1135" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/atom/1135</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=399&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/1135" rel="self" type="application/rss+xml" />
       <item>
+    <title>愈來愈多網釣連結濫用Google開放重定向功能</title>
+    <link>https://www.ithome.com.tw/news/146184</link>
+    <description> 安全廠商Greathorn發現，近日有愈來有多網釣攻擊者利用Google Meet和Google DoubleClick的開放重定向（open redirect）功能，將用戶導向惡意網站騙取帳密。
+Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet和Google DoubleClick中的開放重定向功能的網釣攻擊成長了84%。</description>
+     <pubDate>2021-08-13  01:08:56</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146184</guid>
+  </item>
+  <item>
     <title>Fintech周報第193期：台新銀行與新創業者合作開發，為外籍移工推出ATM跨境匯款代收服務</title>
     <link>https://www.ithome.com.tw/news/146180</link>
     <description> </description>
@@ -245,14 +254,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-11  02:08:24</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146137</guid>
-  </item>
-  <item>
-    <title>Prometheus勒索軟體受害者能自救了！臺資安業者奧義智慧成功破解並提供解密工具</title>
-    <link>https://www.ithome.com.tw/news/146136</link>
-    <description> 為了阻止勒索軟體的危害，過去已有一些資安業者，設法找到勒索軟體的弱點，或是偕同執法單位破獲其組織，進而開發出相應的解密工具，而且免費提供給大家使用，讓受害者免於繼續遭受勒索軟體威脅，恢復那些被惡意加密的檔案。最近，又有一款勒索軟體解密工具釋出，是針對普羅米修斯（Prometheus）勒索軟體而來，而它的開發者正是近年來備受關注的臺灣資安新創業者──奧義智慧，他們也是繼趨勢科技之後，國內第二間打造出勒索軟體解密工具的公司。</description>
-     <pubDate>2021-08-11  02:08:59</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146136</guid>
   </item>
   </channel>
 </rss>
