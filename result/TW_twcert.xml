@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Wed, 11 Aug 2021 09:47:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[去中心化交易協定 Poly Network 遭駭，被竊資金高達 6.11 億美元]]></title><link>http://www.twcert.org.tw/tw/cp-104-5005-2f8ae-1.html</link><description><![CDATA[<p><strong>跨鏈加密貨幣交易平台 Poly Network，日前發生加密貨幣史上最大駭侵案件；該協定在數個區塊鏈的流動性池同時遭到駭侵攻擊，損失金額高達 6.11 億美元。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Fri, 13 Aug 2021 09:17:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[發生於硬體亂數產生器的嚴重錯誤，將導致數十億台 IoT 裝置面臨資安攻擊風險]]></title><link>http://www.twcert.org.tw/tw/cp-104-5013-83391-1.html</link><description><![CDATA[<p><strong>資安廠商發現普遍應用於 IoT 裝置硬體中的「亂數產生器」存有錯誤，可能因此導致全球數十億台 IoT 裝置面臨嚴重資安攻擊風險。</strong><br />
+<br />
+資安廠商 Bishop Fox 旗下的研究人員 Dan Petro 與 Allan Cecil，日前發現普遍應用於 IoT 裝置硬體中的「亂數產生器」（Random Number Generator, RNG）存有嚴重錯誤，可能因此導致全球數十億台 IoT 裝置面臨嚴重資安攻擊風險。<br />
+<br />
+兩位研究人員在報告中指出，這些有問題的硬體亂數產生器，原本應該在每次運作時都隨機產生無法預測的亂數；但在某些需要頻繁產生亂數的使用情境時，有時會產生僅部分無序的亂數，有時產生的亂數都是 0，甚至還可能造成記憶體初始錯誤。<br />
+<br />
+研究人員指出，由於這個亂數產生器的錯誤發生在硬體層，因此無法以作業系統或軟體方式加以修補；研究人員也說而為 IoT 裝置撰寫的軟體，通常都不會針對亂數產生的結果予以嚴密檢查。<br />
+<br />
+由於在各種 IoT 裝置的資料加密過程中，加密金鑰的生成過程，需要使用硬體亂數產生器產生的亂數；一旦這些加密金鑰是有序的、容易預測，甚至根本就是 0 的話，加密的內容就很容易遭到解密，因而使得加密過程變得無效，影響這些 IoT 裝置的資安。<br />
+<br />
+另外，這些 IoT 裝置搭載的作業系統，因為成本和執行效能的考量，大多是簡化的版本，在作業系統層面並未提供軟體亂數產生機制，而這類 IoT 裝置的數量又極多，估計全球約有數十億台已布署的 IoT 裝置。而這些 IoT 裝置在上市後的軟體更新極為困難，因此該錯誤對採用這些 IoT 裝置的公私單位、組織與個人，可能產生嚴重的資安風險。</p>]]></description><pubDate>Fri, 13 Aug 2021 09:17:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5013-83391-1.html</guid></item><item><title><![CDATA[微軟推出 2021 年 8 月 Patch Tuesday 資安修補包，修復 44 個資安漏洞，內含 3 個 0-day 漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-5012-32728-1.html</link><description><![CDATA[<p><strong>微軟推出例行性的 2021 年 8 月份 Patch Tuesday 資安修補包，一共修復 44 個資安漏洞，包括 3 個 0-day 漏洞在內；微軟各種產品用戶，應立即更新此修補包。</strong><br />
+<br />
+微軟近日推出例行性的 2021 年 8 月份 Patch Tuesday 每月資安修補包，一共修復微軟多種軟體系統共 44 個資安漏洞，其中更包括 3 個 0-day 漏洞在內；微軟各種產品的用戶，應立即透過系統更新功能，更新此修補包，以降低遭到駭侵攻擊的風險。<br />
+<br />
+在這次推出的資安修補包中，除了 3 個 0-day 資安漏洞外，以資安漏洞的危險程度評及來看，共有 7 個列為「嚴重」（Critical）等級，37 個列為「重要」等級（Important）；若以漏洞性質與錯誤類型來看，共有 13 個屬於可讓駭侵者遠端執行任意程式碼的 RCE 漏洞，8 個屬於資料外洩漏洞，2 個屬於服務阻斷（DoS）漏洞，4 個屬於詐騙（Spoofing）漏洞。<br />
+<br />
+值得一提的是，3 個 0-day 漏洞中，已經有一個遭到駭侵者大規模濫用；這個漏洞是 CVE-2021-36948，是發生在 Windows 10 與 Windows Server 系統中的 Windows Update Medic Service 中的執行權限提升漏洞；駭侵者可以先以較低權限入侵系統，然後利用這個漏洞提升自身的執行權限，在未經授權的情形下執行任意程式碼，發動進一步的攻擊。<br />
+<br />
+另兩個得到修復的 0-day 漏洞是 CVE-2021-36939 與 CVE-2021-36942；前者是發生在 Windows Print Spooler 的遠端執行任意程式碼漏洞，後者是 Windows LSA Spoofing 漏洞。目前這兩個漏洞都還沒有遭到駭侵者大規模濫用。</p>]]></description><pubDate>Fri, 13 Aug 2021 09:16:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5012-32728-1.html</guid></item><item><title><![CDATA[去中心化交易協定 Poly Network 遭駭，被竊資金高達 6.11 億美元]]></title><link>http://www.twcert.org.tw/tw/cp-104-5005-2f8ae-1.html</link><description><![CDATA[<p><strong>跨鏈加密貨幣交易平台 Poly Network，日前發生加密貨幣史上最大駭侵案件；該協定在數個區塊鏈的流動性池同時遭到駭侵攻擊，損失金額高達 6.11 億美元。</strong><br />
 <br />
 提供跨區塊鏈加密貨幣交易轉換的交易平台 Poly Network，日前發生加密貨幣史上最大的駭侵案件；該協定在數個區塊鏈的流動性池，在同一時間遭到駭侵攻擊，被竊取的損失金額高達 6.11 億美元。<br />
 <br />
@@ -249,38 +267,4 @@ Joseph O&rsquo;Connor 是英國籍，現年 22 歲，他和 Mason Sheppard （�
 <br />
 這些嫌犯也將透過 Twitter 内部系統竊得的超短帳號（如@dark、@w、@l、@R9、@50、@vague）等，在相關社群平台上販售。<br />
 <br />
-這四人目前都被指控多項駭侵罪名。</p>]]></description><pubDate>Mon, 26 Jul 2021 09:27:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4947-ccd39-1.html</guid></item><item><title><![CDATA[國內網路産品製造大廠修復路由器密碼硬編寫暨多個RCE嚴重漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-4945-a841f-1.html</link><description><![CDATA[<p><strong>國內網路産品製造大廠日前推出無線路由器新版韌體，修復先前遭發現的密碼硬編寫與多個其他漏洞；該款産品用戶應即更新韌體。</strong></p>
-
-<p>國內網路産品製造大廠日前推出無線路由器産品 DIR-3040 的新版韌體，同時修復先前遭發現的密碼「硬編寫」(Hard Code)錯誤與多個其他漏洞；該款産品用戶應立即更新韌體，以排除這些錯誤，降低遭駭侵攻擊的風險。</p>
-
-<p>這些錯誤係由 Cisco 旗下的資安專家發現，一共有 5 個漏洞，分列如下：</p>
-
-<ul>
-	<li>CVE-2021-21816：系統 log 檔（Syslog）資訊洩露漏洞；</li>
-	<li>CVE-2021-21817：Zebra IP Routing Manager 資訊洩露漏洞；</li>
-	<li>CVE-2021-21818：Zebra IP Routing Manager 密碼硬編寫漏洞；</li>
-	<li>CVE-2021-21819：Libcli 指令注入漏洞；</li>
-	<li>CVE-2021-21820：Libcli 測試環境密碼硬編寫漏洞。</li>
-</ul>
-
-<p>其中 CVE-2021-21818 和 CVE-2021-21820 這兩個漏洞屬於密碼硬編寫漏洞，也就是將系統登入所需的密碼，直接寫在程式碼中；駭侵者將可以透過特制的網路連線要求，觸發這個漏洞並通過登入驗證，直接進入用戶的 DIR-3040 路由器控制界面，並且發動進一步的攻擊，例如利用此裝置對外發動 DoS 攻擊，或是遠端執行任意程式碼。</p>
-
-<p>CVE-2021-21819 是個嚴重的作業系統指令注入漏洞，也可讓駭侵者遠端執行任意程式碼；另外駭侵者還可利用此漏洞，在用戶的 DIR-3040 路由器中建立一個隱藏的 telnet 服務，並且利用硬編寫在路由器程式碼中的密碼進行登入。</p>
-
-<ul>
-	<li>建議採取資安強化措施</li>
-</ul>
-
-<p>針對這些漏洞進行修補的新版韌體已經發布，版本號碼為 V.1.13B03 Hotfix；若用戶的 DIR-3040 路由器韌體版本號碼為 V1.13B03 與更舊的版本，務必立即更新，以防駭侵者利用這些漏洞發動攻擊。</p>]]></description><pubDate>Mon, 26 Jul 2021 09:23:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4945-a841f-1.html</guid></item><item><title><![CDATA[美國聯邦調查局發出警訊，提防駭侵者對東京奧運發動攻擊]]></title><link>http://www.twcert.org.tw/tw/cp-104-4938-865b3-1.html</link><description><![CDATA[<p><strong>美國聯邦調查局發出資安警訊，指出即將開幕的東京奧運，以及與奧運相關的個人或組織，近期很可能會面臨駭侵者針對性的攻擊，應提高資安防護準備。</strong><br />
-<br />
-美國聯邦調查局（Federal Investigation Bereau，FBI）日前發出資安警訊，指出即將開幕的東京奧運，以及與奧運相關的個人或組織，近期很可能會面臨駭侵者針對性的攻擊，應提高資安防護準備。<br />
-<br />
-在 FBI 近期發表的「私人産業通報」（Private Industry Notification, PIN）中指出，可能的攻擊行動類型，將包括勒贖攻擊、分散式服務阻斷攻擊（Distributed Denial of Service, DDoS）、社交工程攻擊、釣魚詐騙活動、局内人威脅阻斷或騷擾運動賽事轉播、機敏資料之竊取、洩漏、佔有，或是阻斷、影響奧運活動依賴的基礎設施運作等等。<br />
-<br />
-另外，FBI 也說，奧運賽事期間的運動競技、媒體轉播環境、人員住宿、交通、票務與安保措施很可能也會受到駭侵攻擊事件的衝擊。<br />
-<br />
-FBI 指出，目前的情報並不足以證實有某些特定團體，意圖針對特定奧運項目發動何種攻擊；但與奧運相關的直接或間接關係人、組織等，都應該針對其網路與數位環境做好資安防護整備工作。<br />
-<br />
-FBI 說，像奧運這類高知名度的大型活動，往往會成為駭侵團體的攻擊目標，藉以獲取不法金錢利益、製造混亂、加強該團體的知名度、影響主辦單位或執法者的形象，或是宣揚其意識形態。<br />
-<br />
-FBI 指出，2018 年的平昌冬季奧運，就發現疑似有駭侵團體，針對將於 2018 年 2 月 9 日舉辦的開幕典禮進行駭侵攻擊，目標是要破壞開幕典禮的運作；同樣有大批參與該屆冬季奧運的南韓官員、民眾、各國運動員、合作伙伴等相關個人或組織遭到駭入。</p>]]></description><pubDate>Wed, 21 Jul 2021 09:20:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4938-865b3-1.html</guid></item></channel></rss>
+這四人目前都被指控多項駭侵罪名。</p>]]></description><pubDate>Mon, 26 Jul 2021 09:27:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4947-ccd39-1.html</guid></item></channel></rss>
