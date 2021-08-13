@@ -6,6 +6,22 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>甲骨文以機器學習強化MySQL Heatwave，叫戰Amazon Aurora、Google BigQuery</title>
+ <link>https://www.ithome.com.tw/news/146176</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;甲骨文本周宣布&lt;a href=&quot;https://www.oracle.com/news/announcement/mysql-autopilot-for-heatwave-2021-08-10/&quot; target=&quot;_blank&quot;&gt;MySQL Autopilot&lt;/a&gt;，以機器學習技術來強化線上資料庫查詢加速引擎MySQL Heatwave的運作，挑戰Amazon Aurora、Google BigQuery和Snowflake。&lt;/p&gt;
+&lt;p&gt;MySQL Heatwave是甲骨文去年12月發布的服務，是用於Oracle Cloud Infrastructure上MySQL Database雲端服務的in-memory查詢加速引擎，可同時支援OLTP及OLAP，讓使用者得以執行混合式分析作業，或是以比傳統MySQL資料庫快10到1000倍的速度進行即時分析。而Autopilot則是使用機器學習技術來進一步強化MySQL Heatwave的查詢速度及可擴充性。MySQL Heatwave用戶可免費獲得Autopilot。&lt;/p&gt;
+&lt;p&gt;MySQL Heatwave定位在中小型企業市場，主打性價比。針對大型企業市場，仍將以Oracle Exadata及Autonomous Database為主。&lt;/p&gt;
+&lt;p&gt;Autopilot以機器學習強化Heatwave的資料庫調撥（provisioning）及查詢加速。它一共涵括9項以機器學習實現的功能，包括自動化叢集節點的調撥、資料平行倒入Heatwave、資料在記憶體內分區的配置，並以機器學習協助查詢預測、查詢排程規劃、最佳化查詢執行，以及Heatwave系統錯誤的應變等。&lt;/p&gt;
+&lt;p&gt;甲骨文宣稱，結合Autopilot，在標竿測試中Heatwave的效能價格比是Snowflake的35倍、Amazon Redshift加AQUA組合的13倍，也是Google BigQuery的36倍，或是Azure Synapse的15倍。此外，在混合式分析作業上，MySQL、HeatWave組合延遲率是Amazon Aurora的1/18。&lt;/p&gt;
+&lt;p&gt;連同MySQL Autopilot，甲骨文也同時推出MySQL向外擴充（Scale-Out）資料管理，可提升資料重倒入HeatWave的效能達100倍，可進一步拉抬效能。利用這項功能，HeatWave支援節點由24個節點增加到最多64個，而資料處理量也從之前的12TB提升到32TB。&lt;/p&gt;
+&lt;p&gt;甲骨文也宣布一些中小型企業，包括日本的FAN Communications、線上遊戲業者Tetris.co、行銷業者Red3i由較貴的Amazon Aurora轉移到MySQL Heatwave上。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 13 Aug 2021 02:38:41 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146176 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146176#comments</comments>
+</item>
+<item>
  <title>IG推出新工具，讓使用者可以暫時關閉陌生留言與私訊</title>
  <link>https://www.ithome.com.tw/news/146162</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://about.instagram.com/blog/announcements/introducing-new-ways-to-protect-our-community-from-abuse&quot; target=&quot;_blank&quot;&gt;Instagram（IG）在本周發表了3項功能&lt;/a&gt;，以避免使用者受到騷擾或霸凌，包括可以暫時關閉陌生留言與私訊的Limits，在使用者準備張貼攻擊性留言時就祭出強烈的警告，以及於全球部署Hidden Words功能，以自動過濾任何使用者指定的字眼或表情符號。&lt;/p&gt;
@@ -171,22 +187,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146154 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146154#comments</comments>
-</item>
-<item>
- <title>美國議員提出《開放程式市集法案》，準備打破蘋果與Google所建構的程式市集競爭高牆</title>
- <link>https://www.ithome.com.tw/news/146152</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國民主黨參議員Richard Blumenthal與Amy Klobuchar，以及共和黨參議員Marsha Blackburn在周三（8/11）&lt;a href=&quot;https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-blackburn-and-klobuchar-introduce-bipartisan-antitrust-legislation-to-promote-app-store-competition&quot; target=&quot;_blank&quot;&gt;共同提出了《開放程式市集法案》&lt;/a&gt;（Open App Markets Act），企圖打破蘋果與Google建築的程式市集競爭高牆，以讓小型的新創公司擁有競爭機會，並使消費者有更多的選擇。&lt;/p&gt;
-&lt;p&gt;行動裝置現已是消費者經濟、社交與生活的中心，而行動程式市集更是此一數位經濟的關鍵功能，光是在2020年，美國的消費者就下載了134億個行動程式，相關支出為330億美元。&lt;/p&gt;
-&lt;p&gt;目前蘋果只允許iOS裝置在自家的App Store下載程式，Google雖然並未限制第三方的Android程式市集，但Google Play依然是全球規模最大的Android程式市集，不管是蘋果或Google都握有主宰行動程式市集的能力。&lt;/p&gt;
-&lt;p&gt;Blumenthal表示，此一兩黨法案將有助於打破科技巨頭的鐵腕控制，讓新的競爭對手加入行動程式經濟，也將賦予消費者對自己所購買的裝置擁有更多的控制權。&lt;/p&gt;
-&lt;p&gt;Blackburn亦說，這些科技巨頭是以危害創新為代價，以向消費者推廣自家的程式市集，它們希望消費者與開發者不要使用第二方的程式市集，此一反競爭的行為將直接威脅市場的自由與公平 。&lt;/p&gt;
-&lt;p&gt;《開放程式市集法案》的宗旨包括：保護開發者提供低價訊息或具競爭價格的權利，保護使用者側載行動程式的權利，替新創的應用程式、第三方的程式市集及支付服務開闢競爭途徑，讓開發者可利用裝置功能替消費者帶來新的體驗，賦予消費者更多的裝置控制，避免程式市集對開發者不利，以及設計保障措施以維護消費者的隱私與安全。&lt;/p&gt;
-&lt;p&gt;非營利的消費者權益機構Public Citizen競爭政策倡導者Alex Harman亦認為，大型行動程式市集所獲得的龐大獲利，都是直接來自它們違反競爭且不公平地經營，藉由新法案將讓程式市集的競爭更加開放，也能保護小型的開發者，並讓消費者以更低的價格取得程式或服務。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 12 Aug 2021 05:46:32 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146152 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146152#comments</comments>
 </item>
 </channel>
 </rss>

@@ -4,10 +4,31 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Fri, 13 Aug 2021 02:36:59 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 02:41:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[https://www.chinatimes.com/realtimenews/⋯⋯]]></title>
+            <link>https://cofacts.tw/article/20sbnrw15dyfe?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/20sbnrw15dyfe?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Fri, 13 Aug 2021 02:41:40 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/20sbnrw15dyfe?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          https://www.chinatimes.com/realtimenews/20210704003745-260402 (高端疫苗董事會成員擋疫苗進口？ 刑事局：假消息偵辦中 - 社會)
+        
+              <h2><a href="https://cofacts.tw/reply/rENiPXsBgBgcuemX8wkn">最新回應</a></h2>
+              <p>含有正確訊息 by uienwt</p>
+              此新聞內容是正確的，是針對網傳「高端生技董事會名單擋進口疫苗？」為錯誤訊息報導，刑事局也已偵辦。
+
+刑事警察局偵查第四大隊將偵辦此不實假訊息案，並呼籲民眾對於未經證實的消息內容切勿張貼或轉傳，避免助長錯誤訊息傳遞，影響國內抗疫工作，民眾如接獲來源不明或未經證實的疫情資訊時，應先查證內容是否屬實，切勿任意散播、轉傳，以免觸法。
+警方提醒，Line公司已推出「訊息查核官方帳號」(@LINE Fact Checker)，民眾可將有疑慮的訊息連結貼在官方帳號裡，接著就會有專業的組織幫用戶查核事實，該「訊息查核官方帳號」有和「台灣事實查核中心」、「Cofacts 真的假的」、「蘭姆酒吐司Rumor & Truth」、「MyGoPen」等事實查核機構合作。
+
+              <h2>出處</h2>
+              https://tfc-taiwan.org.tw/articles/6002
+https://udn.com/news/story/7321/5577891
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[https://rumble.com/vkjcqw-do-you-want-va⋯⋯]]></title>
             <link>https://cofacts.tw/article/1ff4jnr1wom1j?utm_source=Others&amp;utm_medium=RSS</link>
@@ -279,26 +300,6 @@ https://www.bbc.com/zhongwen/trad/chinese-news-57901423
               <h2>出處</h2>
               [1]BBC: 高端疫苗緊急使用 為何引發激烈辯論
 https://www.bbc.com/zhongwen/trad/chinese-news-57901423  
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[25fr.com 是假平台嗎]]></title>
-            <link>https://cofacts.tw/article/1giv2b97l3vfz?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/1giv2b97l3vfz?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Thu, 12 Aug 2021 16:54:52 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/1giv2b97l3vfz?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          25fr.com 是假平台嗎
-        
-              <h2><a href="https://cofacts.tw/reply/xUNJO3sBgBgcuemXuQhz">最新回應</a></h2>
-              <p>含有錯誤訊息 by Lin</p>
-              這是假投資詐騙群組，不建議貿然加入，投資理財不適合複製他人經驗，內政部165全民防騙網有更多資訊。若有任何疑慮建議請至165防詐騙諮詢專線聯繫。
-
-              <h2>出處</h2>
-              https://www.sfc.hk/en/
-https://helpcenter.ace.io/hc/zh-tw/articles/360045093051-假投資詐騙網站資訊
-https://helpcenter.ace.io/hc/zh-tw/articles/360045093051
-https://www.dcard.tw/f/money/p/234227040
             ]]></description>
         </item>
     </channel>

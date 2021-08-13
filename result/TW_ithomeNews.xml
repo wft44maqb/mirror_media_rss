@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>甲骨文以機器學習強化MySQL Heatwave，叫戰Amazon Aurora、Google BigQuery</title>
+    <link>https://www.ithome.com.tw/news/146176</link>
+    <description> 甲骨文本周宣布MySQL Autopilot，以機器學習技術來強化線上資料庫查詢加速引擎MySQL Heatwave的運作，挑戰Amazon Aurora、Google BigQuery和Snowflake。</description>
+     <pubDate>2021-08-13  10:08:41</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146176</guid>
+  </item>
+  <item>
     <title>IG推出新工具，讓使用者可以暫時關閉陌生留言與私訊</title>
     <link>https://www.ithome.com.tw/news/146162</link>
     <description> Instagram（IG）在本周發表了3項功能，以避免使用者受到騷擾或霸凌，包括可以暫時關閉陌生留言與私訊的Limits，在使用者準備張貼攻擊性留言時就祭出強烈的警告，以及於全球部署Hidden Words功能，以自動過濾任何使用者指定的字眼或表情符號。</description>
@@ -248,14 +256,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-11  11:08:52</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146127</guid>
-  </item>
-  <item>
-    <title>瑞士百年郵政也積極轉型，將郵務服務結合一鍵訂購IoT按鈕，讓民眾免出門在家就能寄信及包裹</title>
-    <link>https://www.ithome.com.tw/news/146129</link>
-    <description> 就像亞馬遜幾年前推出了一鍵式訂購按鈕，讓消費者免出門在家就能購物，來自瑞士一家百年老字號的瑞士郵政（Swiss Post），近來也開始在自家郵政服務整合了一鍵訂購IoT按鈕，來提供到府快遞服務，讓民眾免外出在家就能夠寄送信件及包裹。</description>
-     <pubDate>2021-08-11  11:08:12</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146129</guid>
   </item>
   </channel>
 </rss>
