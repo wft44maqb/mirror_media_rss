@@ -44,7 +44,7 @@
 	"美國_台灣Yahoo新聞_國際@US_twYahooIntl": "https://tw.news.yahoo.com/rss/world/",
 	"美國_台灣Yahoo新聞_新聞專題@US_twYahooTopic": "https://tw.news.yahoo.com/rss/topic/",
 	"美國_台灣Yahoo新聞_焦點@US_twYahoo": "https://tw.news.yahoo.com/rss",
-	"美國_紐約時報@US_nytimes": "https://cn.nytimes.com/rss/",
+	"美國_紐約時報@US_nytimes": "https://cn.nytimes.com/rss/zh-hant/",
 	"美國_華爾街日報@US_wsj": "https://cn.wsj.com/zh-hant/rss",
 	"美國_香港Google新聞@US_hkGoogle": "https://news.google.com/rss?hl=zh-HK&gl=HK&ceid=HK:zh-Hant",
 	"美國_香港MSN新聞@US_hkMsn": "https://rss.msn.com/zh-hk/",
@@ -64,5 +64,6 @@
 	"香港_香港電台_中國@HK_rthkCN": "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_greaterchina.xml",
 	"香港_香港電台_國際@HK_rthkIntl": "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cinternational.xml",
 	"香港_浸大事實查核中心@HK_hkbuFactCheck": "https://comd.hkbu.edu.hk/factcheckservice/feed/",
-	"香港_香港電腦保安事故協調中心_資安快訊@HK_hkcert": "https://www.hkcert.org/tc/getrss/security-bulletin"
+	"香港_香港電腦保安事故協調中心_資安快訊@HK_hkcert": "https://www.hkcert.org/tc/getrss/security-bulletin",
+	"未知_GreatFire#可能跟法輪功有關係@UNK_greatfire": "https://zh.greatfire.org/news/blog/rss"
 }
