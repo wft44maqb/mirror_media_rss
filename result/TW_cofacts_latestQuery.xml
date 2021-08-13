@@ -4,7 +4,7 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Fri, 13 Aug 2021 15:48:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 15:53:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
@@ -25,6 +25,28 @@
 
               <h2>出處</h2>
               https://helpcenter.ace.io/hc/zh-tw/articles/360045093051-疑似假投資詐騙網站資訊
+            ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[施打高端疫苗會有糖尿病！]]></title>
+            <link>https://cofacts.tw/article/9njibb5agc4k?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/9njibb5agc4k?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Fri, 13 Aug 2021 14:11:42 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/9njibb5agc4k?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          施打高端疫苗會有糖尿病！
+        
+              <h2><a href="https://cofacts.tw/reply/UUM1QHsBgBgcuemXvAzI">最新回應</a></h2>
+              <p>含有錯誤訊息 by 辛小潭</p>
+              在衛生福利部疾病管制署的疫苗簡介中，高端的副作用和其他可能之反應都不包刮糖尿病。
+
+              <h2>出處</h2>
+              衛福部對以下四支疫苗的分別簡介:
+AstraZeneca之COVID-19疫苗 
+Pfizer-BioNTech之COVID-19疫苗 
+Moderna之COVID-19疫苗 
+高端新冠肺炎疫苗(MVC COVID-19 Vaccine)
+https://www.cdc.gov.tw/Category/MPage/epjWGimoqASwhAN8X-5Nlw
             ]]></description>
         </item>
         <item>
@@ -262,27 +284,6 @@ https://www.youtube.com/watch?v=TNMfOuXxMHo
               https://www.bh.ntuh.gov.tw/public/education/bb9d0bc32b1953399923f71cef1c8a33.pdf p.42
 https://news.ltn.com.tw/news/life/breakingnews/1770649
 https://www.youtube.com/watch?v=bRCqR2203S0
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[https://www.chinatimes.com/realtimenews/⋯⋯]]></title>
-            <link>https://cofacts.tw/article/20sbnrw15dyfe?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/20sbnrw15dyfe?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Thu, 12 Aug 2021 23:45:07 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/20sbnrw15dyfe?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          https://www.chinatimes.com/realtimenews/20210704003745-260402 (高端疫苗董事會成員擋疫苗進口？ 刑事局：假消息偵辦中 - 社會)
-        
-              <h2><a href="https://cofacts.tw/reply/rENiPXsBgBgcuemX8wkn">最新回應</a></h2>
-              <p>含有正確訊息 by uienwt</p>
-              此新聞內容是正確的，是針對網傳「高端生技董事會名單擋進口疫苗？」為錯誤訊息報導，刑事局也已偵辦。
-
-刑事警察局偵查第四大隊將偵辦此不實假訊息案，並呼籲民眾對於未經證實的消息內容切勿張貼或轉傳，避免助長錯誤訊息傳遞，影響國內抗疫工作，民眾如接獲來源不明或未經證實的疫情資訊時，應先查證內容是否屬實，切勿任意散播、轉傳，以免觸法。
-警方提醒，Line公司已推出「訊息查核官方帳號」(@LINE Fact Checker)，民眾可將有疑慮的訊息連結貼在官方帳號裡，接著就會有專業的組織幫用戶查核事實，該「訊息查核官方帳號」有和「台灣事實查核中心」、「Cofacts 真的假的」、「蘭姆酒吐司Rumor & Truth」、「MyGoPen」等事實查核機構合作。
-
-              <h2>出處</h2>
-              https://tfc-taiwan.org.tw/articles/6002
-https://udn.com/news/story/7321/5577891
             ]]></description>
         </item>
     </channel>
