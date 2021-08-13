@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/1135" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/5043" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/atom/1135</link>
+    <link>https://www.ithome.com.tw/latest/rss20/5043</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/atom/1135" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/5043" rel="self" type="application/rss+xml" />
       <item>
     <title>愈來愈多網釣連結濫用Google開放重定向功能</title>
     <link>https://www.ithome.com.tw/news/146184</link>
@@ -13,6 +13,14 @@ Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet�
      <pubDate>2021-08-13  01:08:56</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146184</guid>
+  </item>
+  <item>
+    <title>釣魚郵件攻擊出現新手法，駭客採用摩斯編碼、ASCII等多種編碼來混淆附件內容</title>
+    <link>https://www.ithome.com.tw/news/146181</link>
+    <description> 攻擊者為了避免釣魚郵件遭到攔截，附件檔案很可能會利用較為少見的檔案格式，來挾帶作案工具，例如，光碟映象檔（ISO、IMG），甚至是Windows映象檔格式（WIM）等，這些檔案格式對於部分郵件防護系統而言，無法解讀其中的內容，沒辦法得知是否有害。但最近也有攻擊者改變策略，使用一般郵件可能會出現的附件檔案類型，來挾帶含有攻擊意圖的工具，避免上述附件的檔案格式可能會被網管人員列為黑名單封鎖的情況。</description>
+     <pubDate>2021-08-13  12:08:05</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146181</guid>
   </item>
   <item>
     <title>Fintech周報第193期：台新銀行與新創業者合作開發，為外籍移工推出ATM跨境匯款代收服務</title>
@@ -246,14 +254,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-11  04:08:55</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146138</guid>
-  </item>
-  <item>
-    <title>Telegram被用在雲端Windows Server發動挖礦攻擊</title>
-    <link>https://www.ithome.com.tw/news/146137</link>
-    <description> Splunk安全研究人員發現一樁挖礦攻擊，駭客結合Telegram作為攻擊工具，鎖定Amazon Web Service（AWS）上的Windows Server植入挖礦軟體。</description>
-     <pubDate>2021-08-11  02:08:24</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146137</guid>
   </item>
   </channel>
 </rss>
