@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/board/id/13" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/board/id/13</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/board/id/13" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>臉書也將美國、部份國外員工回公司時程延到2022年1月</title>
+    <link>https://www.ithome.com.tw/news/146190</link>
+    <description> CNBC報導，因為COVID-19疫情再次燃起，臉書周四再將美國員工以及部份海外員工回公司上班的日期，推遲到明年1月。</description>
+     <pubDate>2021-08-13  03:08:30</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146190</guid>
+  </item>
+  <item>
     <title>英國對臉書併購Giphy一案展開調查，若危害競爭將要求臉書出售Giphy</title>
     <link>https://www.ithome.com.tw/news/146188</link>
     <description> 臉書在去年5月宣布收購GIF圖庫暨分享平臺Giphy，並將Giphy納入Instagram麾下，當時外傳的收購金額為4億美元。然而，英國競爭與市場管理局（Competition and Markets Authority，CMA）本周表示，正在調查臉書與Giphy的合併案是否違反市場競爭，倘若答案是肯定的，可能會要求臉書出售Giphy資產。</description>
@@ -246,14 +254,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-12  01:08:05</pubDate>
  <dc:creator>李宗翰</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/review/146126</guid>
-  </item>
-  <item>
-    <title>eCh0raix勒索軟體鎖定威聯通與群暉NAS發動攻擊，25萬臺設備恐成目標</title>
-    <link>https://www.ithome.com.tw/news/146141</link>
-    <description> 鎖定特定廠牌NAS設備的勒索軟體攻擊，最近2到3年來陸續傳出數起事故，當中不少是針對臺灣廠商威聯通科技（QNAP）、群暉科技（Synology）的NAS設備而來，但近期較新的勒索軟體，開始具備能同時對於不同廠牌設備發動攻擊的能力。</description>
-     <pubDate>2021-08-11  07:08:57</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146141</guid>
   </item>
   </channel>
 </rss>
