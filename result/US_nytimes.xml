@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 13 Aug 2021 10:55:55 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 13 Aug 2021 11:05:58 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[感染德尔塔毒株后有何特殊症状？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/health/20210813/delta-variant-symptoms/?utm_source=RSS]]></link>
+            <description><![CDATA[味觉、嗅觉丧失，发烧、咳嗽、呼吸急促和疲劳都是感染新冠的标志性症状。随着德尔塔变异株愈发普遍，人们患病后的症状是否也会随之发生变化？这里是来自专家的说法。<p><img src='https://static01.nyt.com/images/2021/08/12/well/12sci-well-deltasymptoms1/merlin_192685878_20fee2ad-1caf-4092-95c9-e638177258fd-articleLarge.jpg' alt=' Mike Kai Chen for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Mike Kai Chen for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>健康</category>
+            <dc:creator><![CDATA[CHRISTINA CARON]]></dc:creator>
+            <pubDate>Fri, 13 Aug 2021 11:05:03 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210813/delta-variant-symptoms/]]></guid>
+        </item>
             <item>
             <title><![CDATA[德尔塔变异株威胁儿童群体，致重症可能性引担忧]]></title>
             <link><![CDATA[https://cn.nytimes.com/health/20210813/coronavirus-children-delta/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[储百亮]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 11:18:14 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/obits/20210811/ying-shih-yu-dead/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[中国房地产帝国恒大陷入债务危机]]></title>
-            <link><![CDATA[https://cn.nytimes.com/business/20210811/china-evergrande-debt-property/?utm_source=RSS]]></link>
-            <description><![CDATA[恒大长期靠举债实现扩张，如今已成为中国经济的“灰犀牛”。据估计恒大目前负债超过1.8万亿元，超过偿还能力，也因此面临巨大监管压力。它已经开始出售资产和业务。<p><img src='https://static01.nyt.com/images/2021/08/09/business/00China-Property-1/merlin_193101288_ef401dc9-f5ad-4f6b-b39e-91d7c519fdc8-articleLarge.jpg' alt='恒大在香港开发的珺珑湾项目。 Lam Yik/Bloomberg'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Lam Yik/Bloomberg</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>恒大在香港开发的珺珑湾项目。</p>                    ]]></description>
-            <category>商业与经济</category>
-            <dc:creator><![CDATA[艾莎,曹莉]]></dc:creator>
-            <pubDate>Wed, 11 Aug 2021 10:17:35 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210811/china-evergrande-debt-property/]]></guid>
         </item>
     </channel>
 </rss>
