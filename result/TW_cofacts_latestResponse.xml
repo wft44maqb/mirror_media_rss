@@ -4,10 +4,30 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Fri, 13 Aug 2021 19:06:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 19:11:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA["直播》陳培哲對國產疫苗疑慮大 指揮中心最新說明 - 生活 - 中時新聞網" h⋯⋯]]></title>
+            <link>https://cofacts.tw/article/2kzo617t0o1qj?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/2kzo617t0o1qj?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Fri, 13 Aug 2021 19:07:52 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/2kzo617t0o1qj?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          "直播》陳培哲對國產疫苗疑慮大 指揮中心最新說明 - 生活 - 中時新聞網" https://www.chinatimes.com/realtimenews/20210608001245-260405?ctrack=mo_main_headl_p01 (直播》陳培哲對國產疫苗疑慮大 指揮中心最新說明 - 生活)
+        
+              <h2><a href="https://cofacts.tw/reply/v0PpQHsBgBgcuemX2Qwk">最新回應</a></h2>
+              <p>含有個人意見 by Lopez</p>
+              有關國產疫苗的爭論，主要來自跳過三期臨床實驗，與現今美歐世衛國際通行的EUA準則不同。可以參考國際主媒BBC的評論報導。refer[1]
+
+
+              <h2>出處</h2>
+              [1]BBC: 高端疫苗緊急使用 為何引發激烈辯論
+https://www.bbc.com/zhongwen/trad/chinese-news-57901423
+
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA["時評》陳培哲戳中要害 - 中時社論 - 言論" https://www.chi⋯⋯]]></title>
             <link>https://cofacts.tw/article/2o556bucdhm2i?utm_source=Others&amp;utm_medium=RSS</link>
@@ -218,31 +238,6 @@ https://www.reuters.com/business/healthcare-pharmaceuticals/novavax-again-delays
 
               <h2>出處</h2>
               [1] https://www.storm.mg/article/3738692?page=1
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[陳培哲開炮：EUA審委撤換 不能想聘誰就聘誰 - Yahoo奇摩新聞
-
-http⋯⋯]]></title>
-            <link>https://cofacts.tw/article/316tqakoxnlf0?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/316tqakoxnlf0?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Fri, 13 Aug 2021 17:54:46 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/316tqakoxnlf0?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          陳培哲開炮：EUA審委撤換 不能想聘誰就聘誰 - Yahoo奇摩新聞
-
-https://yns.page.link/RGRk8
-        
-              <h2><a href="https://cofacts.tw/reply/pkOmQHsBgBgcuemX6wxH">最新回應</a></h2>
-              <p>含有個人意見 by Lopez</p>
-              (1)"EUA審委撤換 不能想聘誰就聘誰"=> （甄選審查委員的SOP如果不妥，必須從制度上來就事論事 來直接辯論檢討。） 
-(2)"BNT採購 蔡政府也言行不一"=> 民主政體隨時接受檢驗，由選民做判斷。
-(3)"心痛600條人命 施明德開嗆"=> 民主政體隨時接受檢驗，由選民做判斷。
-(4)"學者批指定裁判 作莊不會輸"=> （這是類比辯論，兩者不一定有實質上的同源性，其類比也不見得「合理」不是直接的 就事論事來辯論。）
-
-              <h2>出處</h2>
-              [1]BBC: 高端疫苗緊急使用 為何引發激烈辯論
-https://www.bbc.com/zhongwen/trad/chinese-news-57901423
             ]]></description>
         </item>
     </channel>
