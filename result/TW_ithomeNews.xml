@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>明日起GitHub的Git操作將無法再採用密碼認證</title>
+    <link>https://www.ithome.com.tw/news/146185</link>
+    <description> GitHub周四（8/12）警告，從太平洋標準時間（PST）8月13日早上9點（臺北時間8月14日凌晨1點）起，GitHub.com將不再接受以帳號/密碼進行身分驗證的方式來執行Git操作，而是必須採用基於權杖（Tokens）的身分驗證方式才行。</description>
+     <pubDate>2021-08-13  02:08:09</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146185</guid>
+  </item>
+  <item>
     <title>愈來愈多網釣連結濫用Google開放重定向功能</title>
     <link>https://www.ithome.com.tw/news/146184</link>
     <description> 安全廠商Greathorn發現，近日有愈來有多網釣攻擊者利用Google Meet和Google DoubleClick的開放重定向（open redirect）功能，將用戶導向惡意網站騙取帳密。
@@ -246,14 +254,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-11  04:08:02</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146139</guid>
-  </item>
-  <item>
-    <title>跨鏈協定Poly Network遭盜走價值6.1億美元的加密貨幣</title>
-    <link>https://www.ithome.com.tw/news/146138</link>
-    <description> 打造跨鏈協定以讓不同區塊鏈得以互動的Poly Network周二（8/10）宣布，駭客攻擊了此一去中心化的金融平臺（DeFi），並成功移轉了價值達6.1億美元的加密貨幣。Poly Net已發布公開信要求駭客歸還所盜走的加密資產，且宣稱這是DeFi史上最大的一次駭客事件。</description>
-     <pubDate>2021-08-11  04:08:55</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146138</guid>
   </item>
   </channel>
 </rss>
