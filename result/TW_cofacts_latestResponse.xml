@@ -4,10 +4,49 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Fri, 13 Aug 2021 18:56:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 19:01:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[這位對疫苗的說明最清楚,一看就明白,完全去除心裡的疑惑,聽完大家一定安心多了,請⋯⋯]]></title>
+            <link>https://cofacts.tw/article/2n55z1gtla53w?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/2n55z1gtla53w?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Fri, 13 Aug 2021 18:57:15 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/2n55z1gtla53w?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          這位對疫苗的說明最清楚,一看就明白,完全去除心裡的疑惑,聽完大家一定安心多了,請從頭到尾看完,謝謝🙏
+
+https://youtu.be/Xv9ftbQog0M (2021新冠肺炎疫苗怎麼選？打疫苗真的有效嗎？圖解科普疫苗原理!)
+        
+              <h2><a href="https://cofacts.tw/reply/tEPgQHsBgBgcuemXIQwn">最新回應</a></h2>
+              <p>含有錯誤訊息 by Ashley</p>
+              下方有網友leica2528留言勘誤補上相關資訊佐證：
+📌0:54 COVID-19 是疾病名稱，SARS-CoV-2 才是病毒名
+📖 https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it
+📌1:11 病毒一定會有的是蛋白質外鞘，將遺傳因子包在蛋白質外鞘裡面，套膜是一個脂質構造，不是所有的病毒都有套膜 (envelope)，只是剛好冠狀病毒有套膜，像腸病毒就沒有套膜
+📖 http://www2.nsysu.edu.tw/Bio/images/commen/Virol-intro10605.pdf
+📌1:24 不是RNA 就一定是單股，冠狀病毒是單股 RNA 病毒，但是也有雙股RNA病毒，像是輪狀病毒。
+📖 http://www2.nsysu.edu.tw/Bio/images/commen/Virol-intro10605.pdf
+📌1:30 一顆冠狀病毒裡面的 RNA 【只有一條】，只是這一條RNA根據它能轉譯出的蛋白質，分成好幾個 "開放閱讀區塊" (open reading frame, ORF)，不是像所畫的圖那樣分成好幾條啊！
+📖 http://www2.nsysu.edu.tw/Bio/images/commen/Virol-intro10605.pdf
+📌1:50 選擇棘蛋白 (spike protein, 影片中寫錯字，不是 spine protein) 來製作疫苗，是因為病毒靠棘蛋白與人體細胞上的受體 (血管收縮素轉化酶第二型) 結合，病毒才能進入細胞，成為製作疫苗的標的。
+
+- 📌2:17 冠狀病毒在 2003 之前，是很常見的季節性感冒病原，甚至，大部分經產道自然產嬰兒身上，都會發現冠狀病毒的存在，被認為是人體的【正常微生物叢】，一直到 2003 年 SARS 之後，有三株病毒：SARS-CoV (SARS), MERS-CoV (MERS)和 SARS-CoV-2 (COVID-19) 會引起嚴重急性肺損傷與急性呼吸窘迫 (ALI and ARDS)，才引起重視。
+
+📌7:17 雖然蛋白質相對於RNA比較穩定 (DNA的穩定性和蛋白質不會差多少)，但是，蛋白質的純化過程非常繁瑣，疫苗製作時間比較長，成本不會比較低。
+
+📌7:19 病毒突變是否會影響疫苗效力的問題，不只發生在蛋白質次單元疫苗，mRNA 疫苗或腺病毒載體疫苗也有相同問題。和高端、聯亞使用相同蛋白質次單元技術的 Novavax疫苗，最近公布其第三期臨床試驗結果，對於變種病毒也有保護力。但是，因為疫苗設計牽涉到使用的佐劑不同，不能把 Novavax 的成功就直接推論高端、聯亞的疫苗就會有效，要等到實際的臨床試驗結果出來再說。
+
+📌影片中沒提到的，蛋白質次單元疫苗因為是已經長期在人體上使用的成熟技術，可以事先避免掉已知的不良反應，所以，是副作用比較低，安全性比較高的疫苗，只是因為臨床試驗還未完成，不能確定其保護力如何。
+
+📌影片尾端關於保護力的論述是對的，不同疫苗在進行人體試驗時的條件不同，保護力數據不能直接做比較。不管是 AZ, Pfizer, Moderna, Janssen，甚至，日後如果高端、聯亞疫苗的臨床試驗數據能證明其保護力，也可以施打。
+
+              <h2>出處</h2>
+              WHO定名公告 https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it
+病毒學概論 http://www2.nsysu.edu.tw/Bio/images/commen/Virol-intro10605.pdf
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[民進黨 陳時中 就是要民『等死中』變 『陳屍中』.....
 
@@ -242,34 +281,6 @@ http://read01.com/AJmoD8P.html
 
               
               
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[松樹開花竟然這麼美!從沒見過松樹花開,只見過乾燥的松核!
-
-https://yo⋯⋯]]></title>
-            <link>https://cofacts.tw/article/2u4vgtmn8h6an?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/2u4vgtmn8h6an?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Fri, 13 Aug 2021 17:29:19 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/2u4vgtmn8h6an?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          松樹開花竟然這麼美!從沒見過松樹花開,只見過乾燥的松核!
-
-https://youtu.be/Z7ZdDzJfGZI (天吶，太美了！太美了！萬年松樹開花，震驚你的雙眼！ok)
-
-
-        
-              <h2><a href="https://cofacts.tw/reply/l0OPQHsBgBgcuemXngwt">最新回應</a></h2>
-              <p>含有正確訊息 by cho</p>
-              松樹是會開花的。松樹是雌雄同株，每一種松樹都會開花，但花期不長(約7-8天)且不會散發香味，因此較不引人注目。
-
-
-              <h2>出處</h2>
-              花卉百科園_松樹會開花嗎？松樹開花後結的果實原來是它啊！
-https://www.hhbky.com/yanghua/zhiwuzhishi/39777.html
-
-每日頭條_松樹開花，你見過嗎？實拍松樹開花美景
-https://kknews.cc/zh-tw/travel/k3aezkp.html
             ]]></description>
         </item>
     </channel>
