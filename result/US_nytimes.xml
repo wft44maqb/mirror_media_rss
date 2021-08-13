@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 13 Aug 2021 10:15:37 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 13 Aug 2021 10:25:40 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[德尔塔变异株威胁儿童群体，致重症可能性引担忧]]></title>
+            <link><![CDATA[https://cn.nytimes.com/health/20210813/coronavirus-children-delta/?utm_source=RSS]]></link>
+            <description><![CDATA[随着德尔塔变异株迅速传播，尚无资格接种疫苗的儿童感染人数不断攀升。但科学家表示，大多数患儿症状较轻，尚未确凿证据表明德尔塔毒株会对儿童造成更严重疾病。<p><img src='https://static01.nyt.com/images/2021/08/06/science/00virus-kids-delta-1/merlin_192910797_d75b91c4-59fd-4836-bc42-3b22f3c54cc7-articleLarge.jpg' alt='8月，12岁的索菲娅·戈麦兹在位于佛罗里达州的自家门外，此前她因为感染新冠病毒入院治疗六天。 Alfonso Duran for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Alfonso Duran for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>8月，12岁的索菲娅·戈麦兹在位于佛罗里达州的自家门外，此前她因为感染新冠病毒入院治疗六天。</p>                    ]]></description>
+            <category>健康</category>
+            <dc:creator><![CDATA[EMILY ANTHES]]></dc:creator>
+            <pubDate>Fri, 13 Aug 2021 10:22:42 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210813/coronavirus-children-delta/]]></guid>
+        </item>
             <item>
             <title><![CDATA[为何这个偶像男团在香港掀起热潮？]]></title>
             <link><![CDATA[https://cn.nytimes.com/china/20210812/hong-kong-mirror-band/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[艾莎,曹莉]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 10:17:35 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210811/china-evergrande-debt-property/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[东京奥运会上的“金牌”造型]]></title>
-            <link><![CDATA[https://cn.nytimes.com/style/20210810/tokyo-olympics-best-style/?utm_source=RSS]]></link>
-            <description><![CDATA[开幕式上的彩虹蛋糕裙、狂野的文身、中性队服、夺人眼球的发型和美甲、场边织毛衣的选手……除了赛场上的精彩，东京奥运会也留下了令人难忘的时尚印记。<p><img src='https://static01.nyt.com/images/2021/08/09/fashion/09OlympicFashionMoments-misia/09OlympicFashionMoments-misia-articleLarge.jpg' alt='在开幕式上，米西亚穿着小泉智贵设计的彩虹色礼服，演唱日本国歌。 Yonhap/EPA, via Shutterstock'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Yonhap/EPA, via Shutterstock</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>在开幕式上，米西亚穿着小泉智贵设计的彩虹色礼服，演唱日本国歌。</p>                    ]]></description>
-            <category>风尚</category>
-            <dc:creator><![CDATA[ELIZABETH PATON]]></dc:creator>
-            <pubDate>Tue, 10 Aug 2021 05:58:03 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/style/20210810/tokyo-olympics-best-style/]]></guid>
         </item>
     </channel>
 </rss>
