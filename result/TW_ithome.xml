@@ -6,6 +6,33 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>趨勢科技修補已遭到攻擊的Apex One產品漏洞</title>
+ <link>https://www.ithome.com.tw/news/146178</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://success.trendmicro.com/solution/000287819&quot; target=&quot;_blank&quot;&gt;趨勢科技近日發布安全公告&lt;/a&gt;，修補旗下端點安全產品，包括本地部署及雲端版Apex One中的4項漏洞，同時警告其中2個漏洞已經被駭客串聯起來對用戶發動攻擊。&lt;/p&gt;
+&lt;p&gt;這次修補的漏洞包括CVE-2021-32464、CVE-2021-32465、CVE-2021-36741、CVE-2021-36742。其中CVE-2021-32464和CVE-2021-32465各為權限許可分配和許可保存不當，造成的權限升級及驗證繞過漏洞。CVE-2021-36741為任意檔案上傳漏洞，CVE-2021-36742則為本地權限升級漏洞。前二項漏洞是外部研究人員Kharosx0和HexKitchen發現後通報，而後2項則為趨勢科技研究人員發現。這4項漏洞皆屬於CVSS 3.0風險值7.1到7.8的安全漏洞。&lt;/p&gt;
+&lt;p&gt;受到影響的產品涵括本地部署的端點安全產品Apex One，以及SaaS 版的Apex One as a Service。&lt;/p&gt;
+&lt;p&gt;趨勢科技警告，已經觀察到網路上發生至少一起串聯 CVE-2021-36741和CVE-2021-36742的開採活動，並已通知這些企業客戶。CVE-2021-36741需要攻擊者登入產品管理介面才能開採，如果成功即能上傳任意檔案。CVE-2021-36742需要攻擊者在受害系統上執行低權限程式，但一經開採漏洞，他就能進一步提升系統權限。雖然這些漏洞需要有一些先決條件，但為確保安全，趨勢科技仍呼籲用戶儘速將產品升級到最新版本。&lt;/p&gt;
+&lt;p&gt;這是今年以來Apex One第二波被人試圖駭入。&lt;a href=&quot;https://success.trendmicro.com/solution/000245571&quot; target=&quot;_blank&quot;&gt;今年5月趨勢科技更新一則安全公告&lt;/a&gt;，&lt;a href=&quot;https://www.ithome.com.tw/news/136422&quot; target=&quot;_blank&quot;&gt;指出去年修補的Apex One及OfficeScan（Apex One前身）漏洞遭人第二度攻擊&lt;/a&gt;。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 13 Aug 2021 03:35:49 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146178 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146178#comments</comments>
+</item>
+<item>
+ <title>Redis Labs更改公司名稱與記憶體資料庫Redis同名</title>
+ <link>https://www.ithome.com.tw/news/146174</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;記憶體資料庫Redis主要貢獻和贊助廠商&lt;a href=&quot;http://redis.com/blog/becoming-one-redis/&quot;&gt;Redis Labs&lt;/a&gt;，現在要更改名稱，刪除Labs字樣，使用與記憶體資料庫相同名字Redis，官方提到，這項更改反映出他們專注的目標與提供的產品。&lt;/p&gt;
+&lt;p&gt;對於將公司名稱直接改為Redis，該公司在部落格說明了其正當性。Redis Labs在2011年成立之後，便開始貢獻Redis專案，當時Redis專案創建不到2年，在2015年的時候，Redis Labs便進一步開始贊助Redis專案，而Redis創建者Salvatore Sanfilippo也加入Redis Labs，成為主要專案貢獻者，雖然Salvatore Sanfilippo在2020年的時候不再專注維護Redis，但是仍是Redis Labs諮詢委員會成員之一。&lt;/p&gt;
+&lt;p&gt;Redis Labs多年來，其商業模式是以Redis為基礎，開發模組擴展功能集，提供企業級服務，在去年開發了RedisRaft，於Redis 7.0發布的時候一起釋出，使得Redis可成為強一致性資料庫。官方強調，雖然公司名稱變更，但是Redis的授權、管理和控制方式沒有改變，Redis將會繼續使用BSD授權，而去年更新的治理模式，也會繼續維持。&lt;/p&gt;
+&lt;p&gt;官方提到，名稱變化對客戶來說，在程式碼和授權都不會有任何變化，但是網站會使用新的標誌，合約上也會使用新的名稱。對於合作夥伴也不會有任何影響，官方希望藉由名稱更改，讓客戶更直接了解Redis產品和合作夥伴的產品，有助於Redis發展與成長。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 13 Aug 2021 03:20:48 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146174 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146174#comments</comments>
+</item>
+<item>
  <title>OpenSFF推出Allstar App助開源專案修復安全性問題</title>
  <link>https://www.ithome.com.tw/news/146166</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;OpenSFF推出GitHub應用程式&lt;a href=&quot;https://openssf.org/blog/2021/08/11/introducing-the-allstar-github-app/&quot;&gt;Allstar&lt;/a&gt;，可自動且持續地對GitHub專案，執行安全最佳實踐。藉由使用Allstar，專案擁有者可以檢查儲存庫安全政策遵守的狀況，並且設置必要的強制執行措施，在組織或是專案儲存庫中的設定和檔案更改時，觸發執行這些措施，進而降低開源社群的安全風險。&lt;/p&gt;
@@ -85,7 +112,7 @@
  <link>https://www.ithome.com.tw/news/146175</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(0, 0, 255);&quot;&gt;重點新聞（2021/08/05～2021/08/11）&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  IDC調查  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  臺灣  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  公有雲服務市場  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
-&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;IDC：2020年臺灣公有雲服務市場規模破870億美元，年成長率22.5%&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;IDC：2020年臺灣公有雲服務市場規模達8.7百萬美元，年成長率22.5%&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;市場調查機構IDC近日發布最新公有雲服務市場半年度追蹤報告，針對臺灣公有雲整體市場調查的結果顯示，2020年臺灣公有雲整體市場規模達870.9百萬美元，年成長率為22.5%。其中，IaaS占整體市場規模的39.9%，PaaS占比為7.5%，SaaS的比重則是52.6%。IDC表示，由於疫情帶動臺灣企業加速數位轉型，預期2021年臺灣公有雲市場將成長達10.57億美元，年成長率21.4%，並會以19.1%的年複合成長率，於2025年達20.85億美元的規模。&lt;/p&gt;
 &lt;p&gt;另外，2020年IaaS主要業者在臺灣公有雲的市占表現，AWS以接近5成的市占率維持最大公有雲服務業者的位置。IDC觀察AWS仍是臺灣數位原生、新創和中小企業採用公有雲服務的首選。居次的是微軟，IDC觀察其近年積極搶攻臺灣大型企業市場，加上疫情期間遠端辦公服務的需求迅速上升，促使微軟2020年在臺灣市場的IaaS營收呈現穩定增長的態勢。&lt;/p&gt;
 &lt;p&gt;Google市佔率排名第三，IDC表示，其不斷擴大GCP銷售團隊和在地合作夥伴數量，再加上具本地資料中心、價格等優勢，是線上遊戲、影音串流和媒體內容等業者最喜愛的公有雲服務業者。臺灣本土公有雲服務業者中華電信、遠傳電信則維持第四、第五名。&lt;a href=&quot; https://www.idc.com/getdoc.jsp?containerId=prAP48131121&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
@@ -185,36 +212,6 @@
  <dc:creator>黃郁芸</dc:creator>
  <guid isPermaLink="false">146164 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146164#comments</comments>
-</item>
-<item>
- <title>百萬信用卡資料於駭客論壇流竄，原因是為了宣傳黑市，臺灣有345張卡片受影響</title>
- <link>https://www.ithome.com.tw/news/146163</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;盜賣竊得信用卡資料的市集，為了吸引顧客上門，也會採取「免費大放送」的手段。資安公司&lt;a href=&quot;https://blog.cyble.com/2021/08/08/one-million-credit-cards-leaked-in-a-cybercrime-forum-for-free/&quot;&gt;Cyble&lt;/a&gt;與&lt;a href=&quot;https://www.d3lab.net/un-milione-di-carte-di-credito-condivise-nel-deep-web/&quot;&gt;D3Labs&lt;/a&gt;揭露在駭客論壇上，近期有人公開了100萬筆信用卡資料，並宣稱都是在2018年到2019年之間偷到的，當中約有20%為有效資料，這些資料包含了卡片號碼、到期日、CVV碼、持有者姓名、國家、住址，以及電子郵件信箱或電話號碼等，當中也有345張臺灣的信用卡資料。&lt;/p&gt;
-&lt;p&gt;而這些資料的提供來源，張貼文章的人士表明是來自信用卡資料黑市All World Cards，目的是為了進行宣傳，吸引更多駭客前往購買資料。&lt;/p&gt;
-&lt;p&gt;針對這些資料的有效性，張貼上述訊息的人士宣稱，他隨機抽出98張信用卡的資料進行測試，約有27%卡片是仍在使用的狀態。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Schermata-2021-08-04-alle-11_05_54.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Schermata-2021-08-04-alle-11_05_54.png&quot; style=&quot;width: 580px; height: 344px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;而針對這批免費的信用卡資料，Cyble與D3Labs也公布他們初步分析的結果。Cyble分析了其中的40萬張卡片資料，並列出各國受害的情形，最嚴重的依序是印度、墨西哥、美國（臺灣的信用卡資料有345筆）。此外，該公司也羅列前500大受害銀行名單。&lt;/p&gt;
-&lt;p&gt;另一家資安業者D3Labs則是認為，雖然提供這些資料的人士認為有效資料不到3成，但根據他們的分析，約有50%仍是有效資料，這些資料外洩帶來的影響，可能比提供者認為的還要嚴重。而且，All World Cards大約是6月開始在駭客論壇宣傳，但免費提供如此大量的資料做為手段，這還是他們第一次看到。&lt;/p&gt;
-&lt;p&gt;針對這批資料含有的資料類型，D3Lab也做了一些分析，這些卡片有逾四分之三（76%）是記帳卡（Debit Card），信用卡僅占24%；Visa、Master發行的金融卡各占近半數，分別為49%與48%；而在卡片的等級分布來說，經典卡（Classic）最多，占30%，其次有24%是標準卡（Standard）、17%是預付卡（Prepaid），但金卡、鈦金卡、商務卡也有一定的比例。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 12 Aug 2021 11:06:31 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146163 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146163#comments</comments>
-</item>
-<item>
- <title>研究人員以AI產生人臉萬能金鑰，能夠仿冒三大人臉辨識系統的一半人像</title>
- <link>https://www.ithome.com.tw/news/146159</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;來自以色列特拉維夫大學電子工程學院與電腦科學學院的3名研究人員，於近日出版了一研究報告《&lt;a href=&quot;https://arxiv.org/pdf/2108.01077.pdf&quot; target=&quot;_blank&quot;&gt;Generating Master Faces for Dictionary Attacks with a Network-Assisted Latent Space Evolution&lt;/a&gt;》，透過AI技術產生9張人臉，並將這些人臉當作萬能金鑰，而能攻陷FaceNet、SphereFace與Dlib三大人臉辨識系統，且成功機率介於44%~64%之間。&lt;/p&gt;
-&lt;p&gt;研究人員指出，生物辨識的比對能力並不精確，而且生物特徵資料的分布亦不均勻，意味著可能只要少數的樣本，就能覆蓋多數人群，例如單一的人臉就能覆蓋LFW人臉資料庫中的20%。&lt;/p&gt;
-&lt;p&gt;這使得研究人員決定利用StyleGAN生成對抗網路來產生人臉，並效法字典攻擊，以AI產生的人臉充當金鑰，以對不同的人臉辨識系統展開暴力破解，他們不斷重覆產生人臉的過程，以儘可能地提高人臉金鑰的覆蓋率，總計製造了9張人臉萬能金鑰。&lt;/p&gt;
-&lt;p&gt;在以這9張人臉萬能金鑰針對FaceNet 、SphereFace與Dlib三大人臉辨識系統進行實驗時，發現其覆蓋率分別達到43.82%、44.15%，以及63.92%。另也發現，相較於年輕人，60歲以上的白人五官差異更小了，使得單一人臉的覆蓋率更高。&lt;/p&gt;
-&lt;p&gt;研究人員表示，此一結果意味著基於人臉的身分認證系統非常的脆弱，而且他們完全未取得任何目標對象的生物資訊，儘管許多人臉辨識系統都部署了反欺騙技術，但將此一方法結合諸如DeepFake等既有的技術，也許就能繞過該防禦機制，反過來說，人臉辨識系統也可透過人臉萬能金鑰來進一步強化該系統的安全性。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 12 Aug 2021 09:08:12 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146159 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146159#comments</comments>
 </item>
 </channel>
 </rss>

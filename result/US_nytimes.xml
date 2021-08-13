@@ -1,193 +1,193 @@
 <?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
-    <title>纽约时报中文网 国际纵览</title>
+    <title>紐約時報中文網 國際縱覽</title>
     <link>https://cn.nytimes.com</link>
-    <description>纽约时报中文网 国际纵览</description>
+    <description>紐約時報中文網 國際縱覽</description>
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 13 Aug 2021 11:16:01 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 13 Aug 2021 12:29:12 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
-    <atom:link href="https://cn.nytimes.com/rss.html" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
             <item>
-            <title><![CDATA[感染德尔塔毒株有何特殊症状？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/health/20210813/delta-variant-symptoms/?utm_source=RSS]]></link>
-            <description><![CDATA[味觉、嗅觉丧失，发烧、咳嗽、呼吸急促和疲劳都是感染新冠的标志性症状。随着德尔塔变异株愈发普遍，人们患病后的症状是否也会随之发生变化？这里是来自专家的说法。<p><img src='https://static01.nyt.com/images/2021/08/12/well/12sci-well-deltasymptoms1/merlin_192685878_20fee2ad-1caf-4092-95c9-e638177258fd-articleLarge.jpg' alt=' Mike Kai Chen for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Mike Kai Chen for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <title><![CDATA[美國白人人口首次下降，亞裔和西語裔人口激增]]></title>
+            <link><![CDATA[https://cn.nytimes.com/usa/20210813/census-demographics-asian-hispanic/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[人口普查數據顯示，過去十年，美國總體人口增長急劇放緩。老齡化和出生率下降等因素導致白人人口出現有記錄以來的首次下降，認為自己屬於一個以上種族的人大幅增加。<p><img src='https://static01.nyt.com/images/2021/08/12/us/12census-briefing-setup-1/12census-briefing-setup-1-articleLarge.jpg' alt='去年，在得克薩斯州奧斯汀的一個越南新年節日上，工作人員分發了有關美國人口普查的小冊子。 Go Nakamura for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Go Nakamura for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>去年，在得克薩斯州奧斯汀的一個越南新年節日上，工作人員分發了有關美國人口普查的小冊子。</p>                    ]]></description>
+            <category>美國</category>
+            <dc:creator><![CDATA[SABRINA TAVERNISE,ROBERT GEBELOFF]]></dc:creator>
+            <pubDate>Fri, 13 Aug 2021 12:01:42 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210813/census-demographics-asian-hispanic/zh-hant/]]></guid>
+        </item>
+            <item>
+            <title><![CDATA[感染德爾塔毒株有何特殊癥狀？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/health/20210813/delta-variant-symptoms/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[味覺、嗅覺喪失，發燒、咳嗽、呼吸急促和疲勞都是感染新冠的標誌性癥狀。隨著德爾塔變異株愈發普遍，人們患病後的癥狀是否也會隨之發生變化？這裡是來自專家的說法。<p><img src='https://static01.nyt.com/images/2021/08/12/well/12sci-well-deltasymptoms1/merlin_192685878_20fee2ad-1caf-4092-95c9-e638177258fd-articleLarge.jpg' alt=' Mike Kai Chen for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Mike Kai Chen for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
             <category>健康</category>
             <dc:creator><![CDATA[CHRISTINA CARON]]></dc:creator>
             <pubDate>Fri, 13 Aug 2021 11:15:14 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210813/delta-variant-symptoms/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210813/delta-variant-symptoms/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[德尔塔变异株威胁儿童群体，致重症可能性引担忧]]></title>
-            <link><![CDATA[https://cn.nytimes.com/health/20210813/coronavirus-children-delta/?utm_source=RSS]]></link>
-            <description><![CDATA[随着德尔塔变异株迅速传播，尚无资格接种疫苗的儿童感染人数不断攀升。但科学家表示，大多数患儿症状较轻，尚未确凿证据表明德尔塔毒株会对儿童造成更严重疾病。<p><img src='https://static01.nyt.com/images/2021/08/06/science/00virus-kids-delta-1/merlin_192910797_d75b91c4-59fd-4836-bc42-3b22f3c54cc7-articleLarge.jpg' alt='8月，12岁的索菲娅·戈麦兹在位于佛罗里达州的自家门外，此前她因为感染新冠病毒入院治疗六天。 Alfonso Duran for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Alfonso Duran for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>8月，12岁的索菲娅·戈麦兹在位于佛罗里达州的自家门外，此前她因为感染新冠病毒入院治疗六天。</p>                    ]]></description>
+            <title><![CDATA[德爾塔變異株威脅兒童群體，致重症可能性引擔憂]]></title>
+            <link><![CDATA[https://cn.nytimes.com/health/20210813/coronavirus-children-delta/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[隨著德爾塔變異株迅速傳播，尚無資格接種疫苗的兒童感染人數不斷攀升。但科學家表示，大多數患兒癥狀較輕，尚未確鑿證據表明德爾塔毒株會對兒童造成更嚴重疾病。<p><img src='https://static01.nyt.com/images/2021/08/06/science/00virus-kids-delta-1/merlin_192910797_d75b91c4-59fd-4836-bc42-3b22f3c54cc7-articleLarge.jpg' alt='8月，12歲的索菲婭·戈麥茲在位於佛羅里達州的自家門外，此前她因為感染新冠病毒入院治療六天。 Alfonso Duran for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Alfonso Duran for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>8月，12歲的索菲婭·戈麥茲在位於佛羅里達州的自家門外，此前她因為感染新冠病毒入院治療六天。</p>                    ]]></description>
             <category>健康</category>
             <dc:creator><![CDATA[EMILY ANTHES]]></dc:creator>
             <pubDate>Fri, 13 Aug 2021 10:22:42 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210813/coronavirus-children-delta/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210813/coronavirus-children-delta/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[为何这个偶像男团在香港掀起热潮？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210812/hong-kong-mirror-band/?utm_source=RSS]]></link>
-            <description><![CDATA[MIRROR是香港目前最炙手可热的偶像团体，从他们身上几乎看不出政治动荡的影子。但他们用朗朗上口的节拍为香港注入了欢乐，为一座焦虑的城市提供了一种音乐调剂。<p><img src='https://static01.nyt.com/images/2021/08/09/world/00hongkong-boyband1/merlin_191599572_2abf6491-91cb-45f8-92ba-f1566376d89e-articleLarge.jpg' alt='粤语流行音乐组合MIRROR的成员柳应廷上个月在香港的一场推广活动上。 Anthony Kwan for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Anthony Kwan for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>粤语流行音乐组合MIRROR的成员柳应廷上个月在香港的一场推广活动上。</p>                    ]]></description>
-            <category>中国</category>
+            <title><![CDATA[為何這個偶像男團在香港掀起熱潮？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210812/hong-kong-mirror-band/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[MIRROR是香港目前最炙手可熱的偶像團體，從他們身上幾乎看不出政治動盪的影子。但他們用朗朗上口的節拍為香港注入了歡樂，為一座焦慮的城市提供了一種音樂調劑。<p><img src='https://static01.nyt.com/images/2021/08/09/world/00hongkong-boyband1/merlin_191599572_2abf6491-91cb-45f8-92ba-f1566376d89e-articleLarge.jpg' alt='粵語流行音樂組合MIRROR的成員柳應廷上個月在香港的一場推廣活動上。 Anthony Kwan for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Anthony Kwan for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>粵語流行音樂組合MIRROR的成員柳應廷上個月在香港的一場推廣活動上。</p>                    ]]></description>
+            <category>中國</category>
             <dc:creator><![CDATA[王月眉,JOY DONG]]></dc:creator>
             <pubDate>Fri, 13 Aug 2021 09:14:40 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210812/hong-kong-mirror-band/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210812/hong-kong-mirror-band/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[当工作让你身心疲惫，不妨请一天“悲伤假”]]></title>
-            <link><![CDATA[https://cn.nytimes.com/health/20210812/mental-health-day/?utm_source=RSS]]></link>
-            <description><![CDATA[“悲伤假”也称心理健康假，通常用来帮助那些不在状态的员工，为他们提供一个放松心情的机会。它不一定能解决深层次的问题，但有时从工作中短暂抽离会产生很大的不同。<p><img src='https://static01.nyt.com/images/2021/07/29/well/29WELL-SAD-DAY/29WELL-SAD-DAY-articleLarge.jpg' alt=' Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <title><![CDATA[當工作讓你身心疲憊，不妨請一天「悲傷假」]]></title>
+            <link><![CDATA[https://cn.nytimes.com/health/20210812/mental-health-day/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[「悲傷假」也稱心理健康假，通常用來幫助那些不在狀態的員工，為他們提供一個放鬆心情的機會。它不一定能解決深層次的問題，但有時從工作中短暫抽離會產生很大的不同。<p><img src='https://static01.nyt.com/images/2021/07/29/well/29WELL-SAD-DAY/29WELL-SAD-DAY-articleLarge.jpg' alt=' Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
             <category>健康</category>
             <dc:creator><![CDATA[CHRISTINA CARON]]></dc:creator>
             <pubDate>Thu, 12 Aug 2021 05:45:37 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210812/mental-health-day/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210812/mental-health-day/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[阿里性侵丑闻再揭中国科技业阴暗面]]></title>
-            <link><![CDATA[https://cn.nytimes.com/business/20210812/china-alibaba-technology-sexual-assault/?utm_source=RSS]]></link>
-            <description><![CDATA[从破冰仪式、酒桌文化到性侵害，这个由男性主导的行业长期以来都在物化女性、指责受害者，并将性暴力常规化。这种有毒文化根深蒂固，要治本并不容易。<p><img src='https://static01.nyt.com/images/2021/08/11/business/00newworld-1/merlin_191849670_803df933-097d-4995-87c5-0efbc34842de-articleLarge.jpg' alt='全球最大的互联网公司之一阿里巴巴的6000多名员工签署了一封致管理层的信，要求公司禁止在破冰和商务会议里出现与性相关的言论和游戏。 Aly Song/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Aly Song/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>全球最大的互联网公司之一阿里巴巴的6000多名员工签署了一封致管理层的信，要求公司禁止在破冰和商务会议里出现与性相关的言论和游戏。</p>                    ]]></description>
-            <category>商业与经济</category>
+            <title><![CDATA[阿里性侵醜聞再揭中國科技業陰暗面]]></title>
+            <link><![CDATA[https://cn.nytimes.com/business/20210812/china-alibaba-technology-sexual-assault/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[從破冰儀式、酒桌文化到性侵害，這個由男性主導的行業長期以來都在物化女性、指責受害者，並將性暴力常規化。這種有毒文化根深蒂固，要治本並不容易。<p><img src='https://static01.nyt.com/images/2021/08/11/business/00newworld-1/merlin_191849670_803df933-097d-4995-87c5-0efbc34842de-articleLarge.jpg' alt='全球最大的互聯網公司之一阿里巴巴的6000多名員工簽署了一封致管理層的信，要求公司禁止在破冰和商務會議裡出現與性相關的言論和遊戲。 Aly Song/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Aly Song/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>全球最大的互聯網公司之一阿里巴巴的6000多名員工簽署了一封致管理層的信，要求公司禁止在破冰和商務會議裡出現與性相關的言論和遊戲。</p>                    ]]></description>
+            <category>商業與經濟</category>
             <dc:creator><![CDATA[袁莉]]></dc:creator>
             <pubDate>Thu, 12 Aug 2021 05:32:08 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210812/china-alibaba-technology-sexual-assault/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210812/china-alibaba-technology-sexual-assault/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[六天占领九省会，塔利班会全面接管阿富汗吗？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210812/taliban-afghanistan-troops-explainer/?utm_source=RSS]]></link>
-            <description><![CDATA[塔利班的攻势从农村升级至城市，给阿富汗政府带来毁灭性打击，也加剧了人们对其可能占领首都、进行全面军事接管的担忧。我们总结了目前的情况，并对未来局势作出展望。<p><img src='https://static01.nyt.com/images/2021/08/11/world/11afghanistan-explainer/merlin_192879819_4e6197c2-6710-4f24-8680-a125e6f255be-articleLarge.jpg' alt='本月，塔利班在阿富汗坎大哈短暂占领了一个警察哨所，随后该哨所被摧毁。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>本月，塔利班在阿富汗坎大哈短暂占领了一个警察哨所，随后该哨所被摧毁。</p>                    ]]></description>
-            <category>国际</category>
+            <title><![CDATA[六天佔領九省會，塔利班會全面接管阿富汗嗎？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210812/taliban-afghanistan-troops-explainer/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[塔利班的攻勢從農村升級至城市，給阿富汗政府帶來毀滅性打擊，也加劇了人們對其可能佔領首都、進行全面軍事接管的擔憂。我們總結了目前的情況，並對未來局勢作出展望。<p><img src='https://static01.nyt.com/images/2021/08/11/world/11afghanistan-explainer/merlin_192879819_4e6197c2-6710-4f24-8680-a125e6f255be-articleLarge.jpg' alt='本月，塔利班在阿富汗坎達哈短暫佔領了一個警察哨所，隨後該哨所被摧毀。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>本月，塔利班在阿富汗坎達哈短暫佔領了一個警察哨所，隨後該哨所被摧毀。</p>                    ]]></description>
+            <category>國際</category>
             <dc:creator><![CDATA[CHRISTINA GOLDBAUM]]></dc:creator>
             <pubDate>Thu, 12 Aug 2021 03:19:17 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210812/taliban-afghanistan-troops-explainer/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210812/taliban-afghanistan-troops-explainer/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[关于突破性感染和德尔塔变种，你需要了解的五件事]]></title>
-            <link><![CDATA[https://cn.nytimes.com/science/20210812/covid-breakthrough-delta-variant/?utm_source=RSS]]></link>
-            <description><![CDATA[新冠疫苗旨在预防重症，而非感染。突破性感染可能并不常见，但目前缺乏数据，其真正危险在于未接种疫苗的人。在一些罕见病例中，突破性感染可能导致持续症状。<p><img src='https://static01.nyt.com/images/2021/08/10/science/00virus-breakthrough2/merlin_192270498_5dc4dd99-73d4-4f84-8d13-4f564b4dee1c-articleLarge.jpg' alt='上个月，人们在佐治亚州莫尔特里接种新冠疫苗。 疫苗在预防重症和死亡方面非常有效，但尚不清楚德尔塔变异毒株如何影响突破性感染的概率。 Matthew Odom for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Matthew Odom for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>上个月，人们在佐治亚州莫尔特里接种新冠疫苗。 疫苗在预防重症和死亡方面非常有效，但尚不清楚德尔塔变异毒株如何影响突破性感染的概率。</p>                    ]]></description>
-            <category>科学</category>
+            <title><![CDATA[關於突破性感染和德爾塔變種，你需要了解的五件事]]></title>
+            <link><![CDATA[https://cn.nytimes.com/science/20210812/covid-breakthrough-delta-variant/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[新冠疫苗旨在預防重症，而非感染。突破性感染可能並不常見，但目前缺乏數據，其真正危險在於未接種疫苗的人。在一些罕見病例中，突破性感染可能導致持續癥狀。<p><img src='https://static01.nyt.com/images/2021/08/10/science/00virus-breakthrough2/merlin_192270498_5dc4dd99-73d4-4f84-8d13-4f564b4dee1c-articleLarge.jpg' alt='上個月，人們在喬治亞州莫爾特里接種新冠疫苗。 疫苗在預防重症和死亡方面非常有效，但尚不清楚德爾塔變異毒株如何影響突破性感染的概率。 Matthew Odom for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Matthew Odom for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>上個月，人們在喬治亞州莫爾特里接種新冠疫苗。 疫苗在預防重症和死亡方面非常有效，但尚不清楚德爾塔變異毒株如何影響突破性感染的概率。</p>                    ]]></description>
+            <category>科學</category>
             <dc:creator><![CDATA[APOORVA MANDAVILLI]]></dc:creator>
             <pubDate>Thu, 12 Aug 2021 11:47:53 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/science/20210812/covid-breakthrough-delta-variant/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/science/20210812/covid-breakthrough-delta-variant/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[中国以间谍罪名判处加拿大商人11年有期徒刑]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210811/china-canada-spavor-kovrig/?utm_source=RSS]]></link>
-            <description><![CDATA[中国丹东一家法院裁定斯帕弗犯有为境外刺探、非法提供国家秘密罪。此案被广泛视为中国对加拿大拘留华为高管孟晚舟的政治报复，加深了两国的政治裂痕。<p><img src='https://static01.nyt.com/images/2021/08/11/world/11china-canada-HFO1/merlin_193143387_e30a6c5d-7894-467e-8d79-5688657e9c37-articleLarge.jpg' alt='周三，加拿大大使鲍达民（中）抵达中国丹东市的拘留中心，迈克尔·斯帕弗被关押在那里，他被控从事间谍活动。 Noel Celis/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Noel Celis/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>周三，加拿大大使鲍达民（中）抵达中国丹东市的拘留中心，迈克尔·斯帕弗被关押在那里，他被控从事间谍活动。</p>                    ]]></description>
-            <category>中国</category>
-            <dc:creator><![CDATA[储百亮,DAN BILEFSKY,TRACY SHERLOCK]]></dc:creator>
+            <title><![CDATA[中國以間諜罪名判處加拿大商人11年有期徒刑]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210811/china-canada-spavor-kovrig/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[中國丹東一家法院裁定斯帕弗犯有為境外刺探、非法提供國家祕密罪。此案被廣泛視為中國對加拿大拘留華為高管孟晚舟的政治報復，加深了兩國的政治裂痕。<p><img src='https://static01.nyt.com/images/2021/08/11/world/11china-canada-HFO1/merlin_193143387_e30a6c5d-7894-467e-8d79-5688657e9c37-articleLarge.jpg' alt='週三，加拿大大使鮑達民（中）抵達中國丹東市的拘留中心，麥可·斯帕弗被關押在那裡，他被控從事間諜活動。 Noel Celis/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Noel Celis/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>週三，加拿大大使鮑達民（中）抵達中國丹東市的拘留中心，麥可·斯帕弗被關押在那裡，他被控從事間諜活動。</p>                    ]]></description>
+            <category>中國</category>
+            <dc:creator><![CDATA[儲百亮,DAN BILEFSKY,TRACY SHERLOCK]]></dc:creator>
             <pubDate>Thu, 12 Aug 2021 09:47:17 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210811/china-canada-spavor-kovrig/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210811/china-canada-spavor-kovrig/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[“拼图”还原东德斯塔西罪恶档案]]></title>
-            <link><![CDATA[https://cn.nytimes.com/europe/20210811/stasi-archive-puzzle/?utm_source=RSS]]></link>
-            <description><![CDATA[柏林墙倒塌前，斯塔西销毁了大部分监视本国公民的记录。活动人士在最后时刻挽救了部分证据，保留下大量碎纸。此后的30年间，一群“拼图者”一直致力于手工恢复这些文件。<p><img src='https://static01.nyt.com/images/2021/08/10/autossell/puzzlers16190/puzzlers16190-articleLarge.png' alt=' '/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
-            <category>欧洲</category>
+            <title><![CDATA[「拼圖」還原東德斯塔西罪惡檔案]]></title>
+            <link><![CDATA[https://cn.nytimes.com/europe/20210811/stasi-archive-puzzle/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[柏林牆倒塌前，斯塔西銷毀了大部分監視本國公民的記錄。活動人士在最後時刻挽救了部分證據，保留下大量碎紙。此後的30年間，一群「拼圖者」一直致力於手工恢復這些文件。<p><img src='https://static01.nyt.com/images/2021/08/10/autossell/puzzlers16190/puzzlers16190-articleLarge.png' alt=' '/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>歐洲</category>
             <dc:creator><![CDATA[ANNALISA QUINN]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 06:19:47 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/europe/20210811/stasi-archive-puzzle/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/europe/20210811/stasi-archive-puzzle/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[安德鲁王子面临强奸诉讼，英国王室形象再遭重击]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210811/prince-andrew-lawsuit/?utm_source=RSS]]></link>
-            <description><![CDATA[爱泼斯坦案的一名受害者在纽约起诉安德鲁王子，称自己在17岁时被爱泼斯坦多次提供给安德鲁王子，遭到强奸和性虐待。安德鲁王子否认指控，称自己“不记得”见过她。<p><img src='https://static01.nyt.com/images/2021/08/10/world/10uk-andrew01/10uk-andrew01-articleLarge.jpg' alt='2019年，安德鲁王子（中）在英格兰阿斯科特。 Jonathan Brady/PA Images, via Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jonathan Brady/PA Images, via Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>2019年，安德鲁王子（中）在英格兰阿斯科特。</p>                    ]]></description>
-            <category>国际</category>
+            <title><![CDATA[安德魯王子面臨強姦訴訟，英國王室形象再遭重擊]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210811/prince-andrew-lawsuit/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[愛潑斯坦案的一名受害者在紐約起訴安德魯王子，稱自己在17歲時被愛潑斯坦多次提供給安德魯王子，遭到強姦和性虐待。安德魯王子否認指控，稱自己「不記得」見過她。<p><img src='https://static01.nyt.com/images/2021/08/10/world/10uk-andrew01/10uk-andrew01-articleLarge.jpg' alt=' Jonathan Brady/PA Images, via Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jonathan Brady/PA Images, via Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>國際</category>
             <dc:creator><![CDATA[BENJAMIN MUELLER]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 02:16:12 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210811/prince-andrew-lawsuit/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210811/prince-andrew-lawsuit/zh-hant/]]></guid>
         </item>
             <item>
             <title><![CDATA[加拿大人如何看待孟晚舟？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20190305/huawei-canada-meng-wanzhou/?utm_source=RSS]]></link>
-            <description><![CDATA[相比被中国拘捕的两名加拿大公民，身处豪宅、只需安装GPS追踪器就可相对自由活动的孟晚舟触动了加拿大人的神经，引发了人们对飙升的房价和外国投资影响的关注。<p><img src='https://static01.nyt.com/images/2019/03/05/world/05meng1/merlin_151598562_9876f0c7-1d89-4b31-9a49-30f94e60c9e4-articleLarge.jpg' alt='去年12月，在华为首席财务官孟晚舟保释听证会的第三天，支持者在温哥华的不列颠哥伦比亚最高法院外抗议。 Darryl Dyck/The Canadian Press, via Associated Press'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Darryl Dyck/The Canadian Press, via Associated Press</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>去年12月，在华为首席财务官孟晚舟保释听证会的第三天，支持者在温哥华的不列颠哥伦比亚最高法院外抗议。</p>                    ]]></description>
-            <category>国际</category>
+            <link><![CDATA[https://cn.nytimes.com/world/20190305/huawei-canada-meng-wanzhou/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[相比被中國拘捕的兩名加拿大公民，身處豪宅、只需安裝GPS追蹤器就可相對自由活動的孟晚舟觸動了加拿大人的神經，引發了人們對飆升的房價和外國投資影響的關注。<p><img src='https://static01.nyt.com/images/2019/03/05/world/05meng1/merlin_151598562_9876f0c7-1d89-4b31-9a49-30f94e60c9e4-articleLarge.jpg' alt='去年12月，在華為首席財務官孟晚舟保釋聽證會的第三天，支持者在溫哥華英屬哥倫比亞最高法院外抗議。 Darryl Dyck/The Canadian Press, via Associated Press'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Darryl Dyck/The Canadian Press, via Associated Press</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>去年12月，在華為首席財務官孟晚舟保釋聽證會的第三天，支持者在溫哥華英屬哥倫比亞最高法院外抗議。</p>                    ]]></description>
+            <category>國際</category>
             <dc:creator><![CDATA[DAN BILEFSKY]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 02:14:36 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20190305/huawei-canada-meng-wanzhou/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20190305/huawei-canada-meng-wanzhou/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[加拿大法院裁定美国寻求引渡孟晚舟符合法律要求]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20200528/huawei-extradition-meng-wanzhou/?utm_source=RSS]]></link>
-            <description><![CDATA[法官判定孟晚舟被指控“故意做出虚假陈述”的行为属欺诈性质，构成双重犯罪；这清除了依据加拿大法律引渡孟晚舟的基本障碍。这一判决预计将加剧中加关系恶化。<p><img src='https://static01.nyt.com/images/2020/05/27/world/27meng-extradition-new/merlin_172889289_c60f01f4-d24b-4954-bab1-b184c00e9b11-articleLarge.jpg' alt='周三，科技巨头华为的首席财务官孟晚舟在去往温哥华法院的路上。 Jennifer Gauthier/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jennifer Gauthier/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>周三，科技巨头华为的首席财务官孟晚舟在去往温哥华法院的路上。</p>                    ]]></description>
-            <category>国际</category>
+            <title><![CDATA[加拿大法院裁定美國尋求引渡孟晚舟符合法律要求]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20200528/huawei-extradition-meng-wanzhou/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[法官判定孟晚舟被指控「故意做出虛假陳述」的行為屬欺詐性質，構成雙重犯罪；這清除了依據加拿大法律引渡孟晚舟的基本障礙。這一判決預計將加劇中加關係惡化。<p><img src='https://static01.nyt.com/images/2020/05/27/world/27meng-extradition-new/merlin_172889289_c60f01f4-d24b-4954-bab1-b184c00e9b11-articleLarge.jpg' alt='週三，科技巨頭華為的首席財務官孟晚舟在去往溫哥華法院的路上。 Jennifer Gauthier/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jennifer Gauthier/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>週三，科技巨頭華為的首席財務官孟晚舟在去往溫哥華法院的路上。</p>                    ]]></description>
+            <category>國際</category>
             <dc:creator><![CDATA[TRACY SHERLOCK,DAN BILEFSKY]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 02:13:57 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20200528/huawei-extradition-meng-wanzhou/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20200528/huawei-extradition-meng-wanzhou/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[中国以“刺探国家机密”等罪名起诉两名加拿大公民]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20200619/china-canada-kovrig-spavor/?utm_source=RSS]]></link>
-            <description><![CDATA[前加拿大外交官康明凯和商业顾问斯帕弗分别被指控“为境外刺探国家秘密、情报”与“为境外刺探、非法提供国家秘密”。中加之间自孟晚舟事件以来的紧张关系再次升级。<p><img src='https://static01.nyt.com/images/2020/06/19/world/19china-canada-1/merlin_151709361_cc525af6-7660-410e-8932-0bbb5e0d0043-articleLarge.jpg' alt='去年在不列颠哥伦比亚省温哥华举行的抗议活动中，人们要求释放自2018年以来被中国关押的加拿大人康明凯和迈克尔·斯帕弗。 Lindsey Wasson/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Lindsey Wasson/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>去年在不列颠哥伦比亚省温哥华举行的抗议活动中，人们要求释放自2018年以来被中国关押的加拿大人康明凯和迈克尔·斯帕弗。</p>                    ]]></description>
-            <category>中国</category>
+            <title><![CDATA[中國以「刺探國家機密」等罪名起訴兩名加拿大公民]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20200619/china-canada-kovrig-spavor/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[前加拿大外交官康明凱和商業顧問斯帕弗分別被指控「為境外刺探國家祕密、情報」與「為境外刺探、非法提供國家祕密」。中加之間自孟晚舟事件以來的緊張關係再次升級。<p><img src='https://static01.nyt.com/images/2020/06/19/world/19china-canada-1/merlin_151709361_cc525af6-7660-410e-8932-0bbb5e0d0043-articleLarge.jpg' alt='去年在不列顛哥倫比亞省溫哥華舉行的抗議活動中，人們要求釋放自2018年以來被中國關押的加拿大人康明凱和麥可·斯帕弗。 Lindsey Wasson/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Lindsey Wasson/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>去年在不列顛哥倫比亞省溫哥華舉行的抗議活動中，人們要求釋放自2018年以來被中國關押的加拿大人康明凱和麥可·斯帕弗。</p>                    ]]></description>
+            <category>中國</category>
             <dc:creator><![CDATA[赫海威]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 02:10:37 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20200619/china-canada-kovrig-spavor/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20200619/china-canada-kovrig-spavor/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[中国再拘留一名加拿大公民，外交紧张局势加剧]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20190715/china-canadian-arrested/?utm_source=RSS]]></link>
-            <description><![CDATA[这名加拿大人上周在烟台被捕，几乎同时，徐州逮捕了多名涉嫌吸毒的外教和学生。分析认为两起事件可能相关，也有可能是中国继续向加拿大施压，希望释放孟晚舟。]]></description>
-            <category>中国</category>
+            <title><![CDATA[中國再拘留一名加拿大公民，外交緊張局勢加劇]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20190715/china-canadian-arrested/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[這名加拿大人上週在煙台被捕，幾乎同時，徐州逮捕了多名涉嫌吸毒的外教和學生。分析認為兩起事件可能相關，也有可能是中國繼續向加拿大施壓，希望釋放孟晚舟。]]></description>
+            <category>中國</category>
             <dc:creator><![CDATA[JANE PERLEZ]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 02:08:05 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20190715/china-canadian-arrested/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20190715/china-canadian-arrested/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[被中国拘留两年后，两名加拿大人仍命运难料]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20201210/china-canada-michael-kovrig-spavor/?utm_source=RSS]]></link>
-            <description><![CDATA[康明凯和斯帕沃尔已经成为北京强势外交政策后果的象征。一些加拿大官员和专家寄望于拜登入主白宫后改善中美关系，为两人的释放铺平道路；其他人则没有这么乐观。<p><img src='https://static01.nyt.com/images/2020/12/10/world/10china-canadians1/merlin_151707867_81c35bfa-6c7e-4133-bd32-c210e723521d-articleLarge.jpg' alt='去年，在温哥华抗议中国逮捕康明凯和斯帕沃尔的示威者。 Jason Redmond/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jason Redmond/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>去年，在温哥华抗议中国逮捕康明凯和斯帕沃尔的示威者。</p>                    ]]></description>
-            <category>国际</category>
+            <title><![CDATA[被中國拘留兩年後，兩名加拿大人仍命運難料]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20201210/china-canada-michael-kovrig-spavor/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[康明凱和斯帕沃爾已經成為北京強勢外交政策後果的象徵。一些加拿大官員和專家寄望於拜登入主白宮後改善中美關係，為兩人的釋放鋪平道路；其他人則沒有這麼樂觀。<p><img src='https://static01.nyt.com/images/2020/12/10/world/10china-canadians1/merlin_151707867_81c35bfa-6c7e-4133-bd32-c210e723521d-articleLarge.jpg' alt='去年，在溫哥華抗議中國逮捕康明凱和斯帕沃爾的示威者。 Jason Redmond/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jason Redmond/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>去年，在溫哥華抗議中國逮捕康明凱和斯帕沃爾的示威者。</p>                    ]]></description>
+            <category>國際</category>
             <dc:creator><![CDATA[赫海威,DAN BILEFSKY]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 02:06:55 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20201210/china-canada-michael-kovrig-spavor/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20201210/china-canada-michael-kovrig-spavor/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[豪宅、艺术课和包场购物：孟晚舟在加拿大生活状态曝光]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210115/canada-meng-huawei-detention/?utm_source=RSS]]></link>
-            <description><![CDATA[尽管受到一定限制，华为高管孟晚舟在保释期间的生活条件仍比人们之前所知的更优越。本周，其法律团队再次提出申请，希望允许她在没有保安的情况下自由行动。<p><img src='https://static01.nyt.com/images/2021/01/14/world/14canada-meng/merlin_182258148_05b18144-04ca-4191-9968-dc106d2b4e3f-articleLarge.jpg' alt='去年，孟晚舟离开家参加在温哥华的法庭听证会。 Jennifer Gauthier/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jennifer Gauthier/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>去年，孟晚舟离开家参加在温哥华的法庭听证会。</p>                    ]]></description>
-            <category>国际</category>
+            <title><![CDATA[豪宅、藝術課和包場購物：孟晚舟在加拿大生活狀態曝光]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210115/canada-meng-huawei-detention/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[儘管受到一定限制，華為高管孟晚舟在保釋期間的生活條件仍比人們之前所知的更優越。本週，其法律團隊再次提出申請，希望允許她在沒有保安的情況下自由行動。<p><img src='https://static01.nyt.com/images/2021/01/14/world/14canada-meng/merlin_182258148_05b18144-04ca-4191-9968-dc106d2b4e3f-articleLarge.jpg' alt='去年，孟晚舟離開家參加在溫哥華的法庭聽證會。 Jennifer Gauthier/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jennifer Gauthier/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>去年，孟晚舟離開家參加在溫哥華的法庭聽證會。</p>                    ]]></description>
+            <category>國際</category>
             <dc:creator><![CDATA[DAN BILEFSKY]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 02:05:40 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210115/canada-meng-huawei-detention/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210115/canada-meng-huawei-detention/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[两名在华被拘加拿大人将受审，预计会发生什么？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210319/canadians-trial-spying-china/?utm_source=RSS]]></link>
-            <description><![CDATA[康明凯和迈克尔·斯帕沃尔被含糊地指控从事间谍活动。开庭意味着中国对加拿大惩罚行动的升级。届时将会出现什么情况？审理是否会公开？这里是我们的一份总结。<p><img src='https://static01.nyt.com/images/2021/03/18/world/18china-canada-1/merlin_185174253_d9197ffc-8bc6-48b8-9254-a1150777b39d-articleLarge.jpg' alt='2019年，不列颠哥伦比亚省温哥华的抗议者举着被中国拘留的加拿大人迈克尔·斯帕弗和康明凯的照片。 Jason Redmond/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jason Redmond/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>2019年，不列颠哥伦比亚省温哥华的抗议者举着被中国拘留的加拿大人迈克尔·斯帕弗和康明凯的照片。</p>                    ]]></description>
-            <category>中国</category>
+            <title><![CDATA[兩名在華被拘加拿大人將受審，預計會發生什麼？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210319/canadians-trial-spying-china/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[康明凱和麥可·斯帕沃爾被含糊地指控從事間諜活動。開庭意味著中國對加拿大懲罰行動的升級。屆時將會出現什麼情況？審理是否會公開？這裡是我們的一份總結。<p><img src='https://static01.nyt.com/images/2021/03/18/world/18china-canada-1/merlin_185174253_d9197ffc-8bc6-48b8-9254-a1150777b39d-articleLarge.jpg' alt='2019年，不列顛哥倫比亞省溫哥華的抗議者舉著被中國拘留的加拿大人麥可·斯帕弗和康明凱的照片。 Jason Redmond/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jason Redmond/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>2019年，不列顛哥倫比亞省溫哥華的抗議者舉著被中國拘留的加拿大人麥可·斯帕弗和康明凱的照片。</p>                    ]]></description>
+            <category>中國</category>
             <dc:creator><![CDATA[赫海威]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 02:04:31 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210319/canadians-trial-spying-china/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210319/canadians-trial-spying-china/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[加拿大公民走私毒品案：中国法院二审维持死刑判决]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210810/china-canada-death-sentence-drug-trafficking/?utm_source=RSS]]></link>
-            <description><![CDATA[谢伦伯格最初因走私毒品被判15年监禁，但2019年孟晚舟事件发生后，中国法院对该案重申，他被改判死刑。目前，还有另外两名加拿大公民因间谍罪等待中国法庭判决。<p><img src='https://static01.nyt.com/images/2021/08/10/world/10china-canada/merlin_149201391_e3a9f29c-5d7d-4e10-85a5-daecac19ef68-articleLarge.jpg' alt='2019年，罗伯特·劳埃德·谢伦伯格在中国大连一家法院接受贩毒指控的重审。 Intermediate Peoples' Court of Dalian'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Intermediate Peoples' Court of Dalian</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>2019年，罗伯特·劳埃德·谢伦伯格在中国大连一家法院接受贩毒指控的重审。</p>                    ]]></description>
-            <category>中国</category>
+            <title><![CDATA[加拿大公民走私毒品案：中國法院二審維持死刑判決]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210810/china-canada-death-sentence-drug-trafficking/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[謝倫伯格最初因走私毒品被判15年監禁，但2019年孟晚舟事件發生後，中國法院對該案重申，他被改判死刑。目前，還有另外兩名加拿大公民因間諜罪等待中國法庭判決。<p><img src='https://static01.nyt.com/images/2021/08/10/world/10china-canada/merlin_149201391_e3a9f29c-5d7d-4e10-85a5-daecac19ef68-articleLarge.jpg' alt='2019年，羅伯特·勞埃德·謝倫伯格在中國大連一家法院接受販毒指控的重審。 Intermediate Peoples' Court of Dalian'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Intermediate Peoples' Court of Dalian</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>2019年，羅伯特·勞埃德·謝倫伯格在中國大連一家法院接受販毒指控的重審。</p>                    ]]></description>
+            <category>中國</category>
             <dc:creator><![CDATA[王霜舟]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 02:01:29 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210810/china-canada-death-sentence-drug-trafficking/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210810/china-canada-death-sentence-drug-trafficking/zh-hant/]]></guid>
         </item>
             <item>
-            <title><![CDATA[深陷性骚扰丑闻和弹劾危机，纽约州长科莫宣布辞职]]></title>
-            <link><![CDATA[https://cn.nytimes.com/usa/20210811/andrew-cuomo-resigns/?utm_source=RSS]]></link>
-            <description><![CDATA[科莫的辞呈将在14天后生效，现任副州长霍舒尔将接替其职位，成为纽约州史上首位女州长。科莫继续否认针对自己的性骚扰指控，他通过自愿辞职避免了被弹劾的命运。<p><img src='https://static01.nyt.com/images/2021/03/12/nyregion/00Cuomo-resignHFO/00Cuomo-resignHFO-articleLarge.jpg' alt='纽约州长安德鲁·科莫面临着辞职的压力，就连他最坚定的盟友拜登总统也呼吁他辞职。 Byron Smith/Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Byron Smith/Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>纽约州长安德鲁·科莫面临着辞职的压力，就连他最坚定的盟友拜登总统也呼吁他辞职。</p>                    ]]></description>
-            <category>美国</category>
+            <title><![CDATA[深陷性騷擾醜聞和彈劾危機，紐約州長科莫宣布辭職]]></title>
+            <link><![CDATA[https://cn.nytimes.com/usa/20210811/andrew-cuomo-resigns/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[科莫的辭呈將在14天後生效，現任副州長霍舒爾將接替其職位，成為紐約州史上首位女州長。科莫繼續否認針對自己的性騷擾指控，他通過自願辭職避免了被彈劾的命運。<p><img src='https://static01.nyt.com/images/2021/03/12/nyregion/00Cuomo-resignHFO/00Cuomo-resignHFO-articleLarge.jpg' alt='紐約州長安德魯·科莫面臨著辭職的壓力，就連他最堅定的盟友拜登總統也呼籲他辭職。 Byron Smith/Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Byron Smith/Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>紐約州長安德魯·科莫面臨著辭職的壓力，就連他最堅定的盟友拜登總統也呼籲他辭職。</p>                    ]]></description>
+            <category>美國</category>
             <dc:creator><![CDATA[LUIS FERRÉ-SADURNÍ,J. DAVID GOODMAN]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 11:52:51 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210811/andrew-cuomo-resigns/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[史学泰斗余英时去世，坚守中国传统与自由价值]]></title>
-            <link><![CDATA[https://cn.nytimes.com/obits/20210811/ying-shih-yu-dead/?utm_source=RSS]]></link>
-            <description><![CDATA[研究中国传统思想的著名学者余英时8月1日在美国家中去世，享年91岁。他坚信中国悠久的传统可以成为启蒙、个人尊严和民主的源泉，知识分子有责任推进这些理想。<p><img src='https://static01.nyt.com/images/2021/08/09/obituaries/09Yu/09Yu-videoLarge.jpg' alt='余英时，照片拍摄日期不详。 The Tang Prize Foundation'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>The Tang Prize Foundation</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>余英时，照片拍摄日期不详。</p>                    ]]></description>
-            <category>讣告</category>
-            <dc:creator><![CDATA[储百亮]]></dc:creator>
-            <pubDate>Wed, 11 Aug 2021 11:18:14 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/obits/20210811/ying-shih-yu-dead/]]></guid>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210811/andrew-cuomo-resigns/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>

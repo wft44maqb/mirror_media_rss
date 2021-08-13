@@ -4,8 +4,24 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=989&amp;profile=atom" rel="self" type="application/rss+xml" />
       <item>
+    <title>趨勢科技修補已遭到攻擊的Apex One產品漏洞</title>
+    <link>https://www.ithome.com.tw/news/146178</link>
+    <description> 趨勢科技近日發布安全公告，修補旗下端點安全產品，包括本地部署及雲端版Apex One中的4項漏洞，同時警告其中2個漏洞已經被駭客串聯起來對用戶發動攻擊。</description>
+     <pubDate>2021-08-13  11:08:49</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146178</guid>
+  </item>
+  <item>
+    <title>Redis Labs更改公司名稱與記憶體資料庫Redis同名</title>
+    <link>https://www.ithome.com.tw/news/146174</link>
+    <description> 記憶體資料庫Redis主要貢獻和贊助廠商Redis Labs，現在要更改名稱，刪除Labs字樣，使用與記憶體資料庫相同名字Redis，官方提到，這項更改反映出他們專注的目標與提供的產品。</description>
+     <pubDate>2021-08-13  11:08:48</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146174</guid>
+  </item>
+  <item>
     <title>OpenSFF推出Allstar App助開源專案修復安全性問題</title>
     <link>https://www.ithome.com.tw/news/146166</link>
     <description> OpenSFF推出GitHub應用程式Allstar，可自動且持續地對GitHub專案，執行安全最佳實踐。藉由使用Allstar，專案擁有者可以檢查儲存庫安全政策遵守的狀況，並且設置必要的強制執行措施，在組織或是專案儲存庫中的設定和檔案更改時，觸發執行這些措施，進而降低開源社群的安全風險。</description>
@@ -237,22 +253,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-11  02:08:17</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146135</guid>
-  </item>
-  <item>
-    <title>Google VPN服務新增服務市場，臺灣還要再等等</title>
-    <link>https://www.ithome.com.tw/news/146134</link>
-    <description> Google本周宣布Google VPN服務將透過Google One方案，擴展到數個海外市場的手機用戶。</description>
-     <pubDate>2021-08-11  12:08:23</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146134</guid>
-  </item>
-  <item>
-    <title>NortonLifeLock完成收購Avast</title>
-    <link>https://www.ithome.com.tw/news/146133</link>
-    <description> 上個月防毒與身份安全防護業者NortonLifeLock公布收購捷克防毒軟體公司Avast的計畫，昨（10）日雙方宣佈收購已經完成。</description>
-     <pubDate>2021-08-11  12:08:00</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146133</guid>
   </item>
   </channel>
 </rss>

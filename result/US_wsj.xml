@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Aug 2021 03:25:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 04:36:14 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 13 Aug 2021 03:25:16 GMT</pubDate>
+        <pubDate>Fri, 13 Aug 2021 04:36:13 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -28,13 +28,6 @@
         <category><![CDATA[華爾街日報中文網]]></category>
         <category><![CDATA[Wall Street Journal]]></category>
         <item>
-            <title><![CDATA[中國監管風暴促使投資者湧向政府支持領域]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LM606_CONSHO_OR_20210810075508.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國的企業整頓行動已重創互聯網類股，正促使投資者轉向高科技製造和可再生能源等仍受中國政府看重的領域。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E7%9B%A3%E7%AE%A1%E9%A2%A8%E6%9A%B4%E4%BF%83%E4%BD%BF%E6%8A%95%E8%B3%87%E8%80%85%E6%B9%A7%E5%90%91%E6%94%BF%E5%BA%9C%E6%94%AF%E6%8C%81%E9%A0%98%E5%9F%9F-11628737811</link>
-            <guid isPermaLink="false">CT-MKT-20210812104821</guid>
-            <pubDate>Thu, 12 Aug 2021 07:30:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[阿里巴巴在員工性侵指控後宣布反性騷擾新政策]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LN604_ALIACT_OR_20210812101446.jpg" class="webfeedsFeaturedVisual" alt=""/><p>阿里巴巴宣布的措施包括，成立一個由五名女性高管組成的防止性騷擾專門委員會，成立單獨工作團隊負責調查投訴，並改進處理性騷擾和工作場所不當行為的政策。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E5%9C%A8%E5%93%A1%E5%B7%A5%E6%80%A7%E4%BE%B5%E6%8C%87%E7%A8%B1%E5%BE%8C%E5%88%B6%E5%AE%9A%E5%8F%8D%E6%80%A7%E9%A8%B7%E6%93%BE%E6%8E%AA%E6%96%BD-11628811308</link>
@@ -49,6 +42,13 @@
             <pubDate>Fri, 13 Aug 2021 02:53:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[償債壓力巨大，中國恆大出售資產能否自救？]]></title>
+            <description><![CDATA[<img width="1279" height="592" src="https://si.wsj.net/public/resources/images/S1-LN556_everhe_OR_20210812052604.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國恆大出售子公司股份或許有助於在一定程度上緩解迫在眉睫的流動性壓力，但該公司仍需要出售更多資產來填補財務缺口。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%84%9F%E5%82%B5%E5%A3%93%E5%8A%9B%E5%B7%A8%E5%A4%A7%EF%BC%8C%E4%B8%AD%E5%9C%8B%E6%81%86%E5%A4%A7%E5%87%BA%E5%94%AE%E8%B3%87%E7%94%A2%E8%83%BD%E5%90%A6%E8%87%AA%E6%95%91%EF%BC%9F-11628827196</link>
+            <guid isPermaLink="false">CT-HRD-20210813114153</guid>
+            <pubDate>Fri, 13 Aug 2021 03:59:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[中國公司赴美IPO審查升級之際，港交所收到的上市諮詢數量激增]]></title>
             <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LN096_HKEX08_OR_20210811083038.jpg" class="webfeedsFeaturedVisual" alt=""/><p>在中美監管機構承諾加強對中國公司赴美上市的限制後，香港交易所負責人周三表示他們收到的上市諮詢量激增。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E5%85%AC%E5%8F%B8%E8%B5%B4%E7%BE%8Eipo%E5%AF%A9%E6%9F%A5%E5%8D%87%E7%B4%9A%E4%B9%8B%E9%9A%9B%EF%BC%8C%E6%B8%AF%E4%BA%A4%E6%89%80%E6%94%B6%E5%88%B0%E7%9A%84%E4%B8%8A%E5%B8%82%E8%AB%AE%E8%A9%A2%E6%95%B8%E9%87%8F%E6%BF%80%E5%A2%9E-11628730310</link>
@@ -56,18 +56,11 @@
             <pubDate>Thu, 12 Aug 2021 04:40:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[中國女性開始填補重體力行業的勞動力缺口]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LL241_CWOMEN_OR_20210805165020.jpg" class="webfeedsFeaturedVisual" alt=""/><p>低出生率和人口老齡化所造成的勞動力短缺正促使更多中國女性進入建築、運輸等男性傳統行業從事重體力勞動，毛澤東時代的「鐵姑娘」們又回來了。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E9%87%8D%E9%AB%94%E5%8A%9B%E8%A1%8C%E6%A5%AD%E7%94%B7%E6%80%A7%E5%8B%9E%E5%8B%95%E5%8A%9B%E4%B8%8D%E8%B6%B3%EF%BC%8C%E6%9B%B4%E5%A4%9A%E5%A5%B3%E6%80%A7%E9%96%8B%E5%A7%8B%E5%A1%AB%E8%A3%9C%E7%BC%BA%E5%8F%A3-11628664910</link>
-            <guid isPermaLink="false">CT-BCH-20210811142443</guid>
-            <pubDate>Thu, 12 Aug 2021 07:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[新冠疫苗接種率達80%的以色列暴發新一波疫情]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LM243_ISRVAX_OR_20210809111633.jpg" class="webfeedsFeaturedVisual" alt=""/><p>自8月初以來，德爾塔變異毒株導致以色列重症病例數量達到400例，其中240名是接種了疫苗的人。醫學專家得到的初步數據顯示，60歲及以上人群已接種新冠疫苗者的重症保護率已從4月中旬的97%下降至81%。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97%E6%8E%A5%E7%A8%AE%E7%8E%87%E9%81%9480%E7%9A%84%E4%BB%A5%E8%89%B2%E5%88%97%E6%9A%B4%E7%99%BC%E6%96%B0%E4%B8%80%E6%B3%A2%E7%96%AB%E6%83%85-11628822711</link>
-            <guid isPermaLink="false">CT-BGH-20210813102017</guid>
-            <pubDate>Fri, 13 Aug 2021 02:55:00 GMT</pubDate>
+            <title><![CDATA[FDA批准給某些免疫力低下人群注射新冠疫苗加強針]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LN662_FBABOO_OR_20210812121022.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國食品藥品管理局批准為某些免疫力低下的人群注射新冠疫苗加強針，由此可能會掀起旨在更有效防範德爾塔這種免疫逃避性變異毒株的更廣泛疫苗接種行動。</p>]]></description>
+            <link>https://cn.wsj.com/articles/fda%E6%89%B9%E5%87%86%E7%B5%A6%E6%9F%90%E4%BA%9B%E5%85%8D%E7%96%AB%E5%8A%9B%E4%BD%8E%E4%B8%8B%E4%BA%BA%E7%BE%A4%E6%B3%A8%E5%B0%84%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97%E5%8A%A0%E5%BC%B7%E9%87%9D-11628829009</link>
+            <guid isPermaLink="false">CT-BGH-20210813121830</guid>
+            <pubDate>Fri, 13 Aug 2021 04:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[WHO新冠溯源小組負責人呼籲對武漢實驗室進行更仔細的審查]]></title>
@@ -84,11 +77,25 @@
             <pubDate>Fri, 13 Aug 2021 02:25:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[美國將大規模撤離駐阿富汗大使館人員，只留核心人員]]></title>
-            <description><![CDATA[<img width="1280" height="860" src="https://si.wsj.net/public/resources/images/S1-LN687_USAFGH_OR_20210812124245.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據美國官員表示，美國預計將從駐喀布爾大使館撤離數千名人員。美國國務院發言人內德·普賴斯說，大使館目前仍在開放，只有核心外交人員。</p>]]></description>
+            <title><![CDATA[美軍將協助駐阿富汗大使館人員撤離，只保留核心人員]]></title>
+            <description><![CDATA[<img width="1280" height="860" src="https://si.wsj.net/public/resources/images/S1-LN687_USAFGH_OR_20210812124245.jpg" class="webfeedsFeaturedVisual" alt=""/><p>在塔利班武裝向阿富汗首都推進之際，美國官員表示，美國正向波斯灣和阿富汗臨時部署數千名士兵，協助從美國駐喀布爾大使館撤離外交人員，削減當地外交人員人數。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E9%A0%90%E8%A8%88%E5%B0%87%E5%9F%BA%E6%96%BC%E5%AE%89%E5%85%A8%E6%93%94%E6%86%82%E5%A4%A7%E5%B9%85%E7%B8%AE%E7%B7%A8%E9%A7%90%E5%96%80%E5%B8%83%E7%88%BE%E5%A4%A7%E4%BD%BF%E9%A4%A8%E4%BA%BA%E5%93%A1-11628814608</link>
             <guid isPermaLink="false">CT-BGH-20210813081306</guid>
-            <pubDate>Fri, 13 Aug 2021 02:20:00 GMT</pubDate>
+            <pubDate>Fri, 13 Aug 2021 04:05:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[迪士尼兩頭兼顧，影院和流媒體業務均表現強勁]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LN615_DISNEY_OR_20210812104356.jpg" class="webfeedsFeaturedVisual" alt=""/><p>娛樂業巨頭華特迪士尼公司現在必須進行艱難的平衡，既要給人們提供居家娛樂，又要吸引他們走出家門。最近財季的業績證明，迪士尼在這兩方面都游刃有餘。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E8%BF%AA%E5%A3%AB%E5%B0%BC%E5%85%A9%E9%A0%AD%E5%85%BC%E9%A1%A7%EF%BC%8C%E5%BD%B1%E9%99%A2%E5%92%8C%E6%B5%81%E5%AA%92%E9%AB%94%E6%A5%AD%E5%8B%99%E5%9D%87%E8%A1%A8%E7%8F%BE%E5%BC%B7%E5%8B%81-11628828710</link>
+            <guid isPermaLink="false">CT-HRD-20210813120402</guid>
+            <pubDate>Fri, 13 Aug 2021 04:25:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[比爾·蓋茲承諾為基礎設施法案下新氣候項目提供15億美元]]></title>
+            <description><![CDATA[<img width="1280" height="720" src="https://si.wsj.net/public/resources/images/S1-LN673_GATESI_OR_20210812122341.jpg" class="webfeedsFeaturedVisual" alt=""/><p>蓋茲稱，如果這項基礎設施提案不能成為法律，Breakthrough可能將把用在其中最大項目上的資金轉用於歐洲和亞洲。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%AF%94%E7%88%BE%C2%B7%E8%93%8B%E8%8C%B2%E6%89%BF%E8%AB%BE%E7%82%BA%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD%E6%B3%95%E6%A1%88%E4%B8%8B%E6%96%B0%E6%B0%A3%E5%80%99%E9%A0%85%E7%9B%AE%E6%8F%90%E4%BE%9B15%E5%84%84%E7%BE%8E%E5%85%83-11628826011</link>
+            <guid isPermaLink="false">CT-BIZ-20210813112305</guid>
+            <pubDate>Fri, 13 Aug 2021 03:40:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[亞馬遜工作室將把《指環王》電視劇的拍攝轉移到英國]]></title>
@@ -98,46 +105,11 @@
             <pubDate>Fri, 13 Aug 2021 03:16:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Facebook將返回辦公室的日期推遲到2022年1月]]></title>
-            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-KQ134_FACEBO_G_20210609085502.jpg" class="webfeedsFeaturedVisual" alt=""/><p>受持續存在的德爾塔變異毒株疫情影響，Facebook已將美國員工返回辦公室的日期至少推遲到2022年1月。Facebook認為這一推遲也將適用美國以外的一些國家。</p>]]></description>
-            <link>https://cn.wsj.com/articles/facebook%E5%B0%87%E8%BF%94%E5%9B%9E%E8%BE%A6%E5%85%AC%E5%AE%A4%E7%9A%84%E6%97%A5%E6%9C%9F%E6%8E%A8%E9%81%B2%E5%88%B02022%E5%B9%B41%E6%9C%88-11628817362</link>
-            <guid isPermaLink="false">CT-BIZ-20210813090412</guid>
-            <pubDate>Fri, 13 Aug 2021 01:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[特斯拉CEO馬斯克在回應基金經理推文中強調晶片供應鏈問題]]></title>
-            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-KQ737_TESLAM_G_20210610115518.jpg" class="webfeedsFeaturedVisual" alt=""/><p>馬斯克周四在回應女股神Cathie Wood的推特時稱，「我們在某些‘標準’汽車晶片方面的供應鏈受到極大的限制。到目前為止，問題最多的是瑞薩(Renesas)和博世(Bosch)。」</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%89%B9%E6%96%AF%E6%8B%89ceo%E9%A6%AC%E6%96%AF%E5%85%8B%E5%9C%A8%E5%9B%9E%E6%87%89%E5%9F%BA%E9%87%91%E7%B6%93%E7%90%86%E6%8E%A8%E6%96%87%E4%B8%AD%E5%BC%B7%E8%AA%BF%E6%99%B6%E7%89%87%E4%BE%9B%E6%87%89%E9%8F%88%E5%95%8F%E9%A1%8C-11628816761</link>
-            <guid isPermaLink="false">CT-BIZ-20210813085106</guid>
-            <pubDate>Fri, 13 Aug 2021 01:25:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[阿迪達斯同意以至多25億美元將銳步出售給Authentic Brands]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LN650_adidas_OR_20210812115328.jpg" class="webfeedsFeaturedVisual" alt=""/><p>阿迪達斯今年早些時候曾表示，將出售銳步，該公司於2006年以約38億美元的價格收購了銳步。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E9%98%BF%E8%BF%AA%E9%81%94%E6%96%AF%E5%90%8C%E6%84%8F%E4%BB%A5%E8%87%B3%E5%A4%9A25%E5%84%84%E7%BE%8E%E5%85%83%E5%B0%87%E9%8A%B3%E6%AD%A5%E5%87%BA%E5%94%AE%E7%B5%A6authentic-brands-11628815815</link>
-            <guid isPermaLink="false">CT-BIZ-20210813083207</guid>
-            <pubDate>Fri, 13 Aug 2021 01:10:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[美國企業何以淪為政治孤兒]]></title>
-            <description><![CDATA[<img width="1280" height="1280" src="https://si.wsj.net/public/resources/images/S1-LG195_SEIBBU_OR_20210723091655.jpg" class="webfeedsFeaturedVisual" alt=""/><p>隨著共和黨內的民粹主義風越刮越甚，加之民主黨的左翼色彩愈加濃烈，美國商界很難在一個兩極分化的時代找到盟友。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E4%BC%81%E6%A5%AD%E4%BD%95%E4%BB%A5%E6%B7%AA%E7%82%BA%E6%94%BF%E6%B2%BB%E5%AD%A4%E5%85%92-11628727611</link>
-            <guid isPermaLink="false">CT-OPN-20210812080846</guid>
-            <pubDate>Thu, 12 Aug 2021 00:25:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[接棒東京奧運，北京冬奧會勢將天氣更冷，政治爭論更熱]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LM125_colymp_OR_20210809074308.jpg" class="webfeedsFeaturedVisual" alt=""/><p>在東京奧運會期間，中國的民族主義情緒高漲，這將左右2022年冬奧會氛圍的走向；目前距離冬奧會開幕僅剩不到六個月的時間，門票銷售安排仍不明朗。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E6%8E%A5%E6%A3%92%E6%9D%B1%E4%BA%AC%E5%A5%A7%E9%81%8B%EF%BC%8C%E5%8C%97%E4%BA%AC%E5%86%AC%E5%A5%A7%E6%9C%83%E5%8B%A2%E5%B0%87%E5%A4%A9%E6%B0%A3%E6%9B%B4%E5%86%B7%EF%BC%8C%E6%94%BF%E6%B2%BB%E7%88%AD%E8%AB%96%E6%9B%B4%E7%86%B1-11628578210</link>
-            <guid isPermaLink="false">CT-BGH-20210810142034</guid>
-            <pubDate>Thu, 12 Aug 2021 01:40:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[別指望員工回公司上班，因為他們辭職了]]></title>
-            <description><![CDATA[<img width="1280" height="1600" src="https://si.wsj.net/public/resources/images/S1-KR362_JOBSWI_OR_20210611141648.jpg" class="webfeedsFeaturedVisual" alt=""/><p>隨著美國經濟復甦，全國選擇跳槽的員工的比例創下至少20年來的最高水平。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%88%A5%E6%8C%87%E6%9C%9B%E5%93%A1%E5%B7%A5%E5%9B%9E%E5%85%AC%E5%8F%B8%E4%B8%8A%E7%8F%AD%EF%BC%8C%E5%9B%A0%E7%82%BA%E4%BB%96%E5%80%91%E8%BE%AD%E8%81%B7%E4%BA%86-11628557812</link>
-            <guid isPermaLink="false">CT-ECB-20210810081303</guid>
-            <pubDate>Tue, 10 Aug 2021 03:15:00 GMT</pubDate>
+            <title><![CDATA[波音公司Starliner太空艙發射可能會推遲幾個月]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LN900_BOEING_OR_20210812184156.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據知情人士透露，該太空艙發射可能會推遲幾個月，因波音可能需要將其從火箭上拆下來進行維修。這一延遲將是波音航天計劃的一次挫折。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%B3%A2%E9%9F%B3%E5%85%AC%E5%8F%B8starliner%E5%A4%AA%E7%A9%BA%E8%89%99%E7%99%BC%E5%B0%84%E5%8F%AF%E8%83%BD%E6%9C%83%E6%8E%A8%E9%81%B2%E5%B9%BE%E5%80%8B%E6%9C%88-11628811308</link>
+            <guid isPermaLink="false">CT-BIZ-20210813072509</guid>
+            <pubDate>Fri, 13 Aug 2021 02:35:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
