@@ -4,7 +4,7 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=989&amp;profile=atom" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
     <title>趨勢科技修補已遭到攻擊的Apex One產品漏洞</title>
     <link>https://www.ithome.com.tw/news/146178</link>
