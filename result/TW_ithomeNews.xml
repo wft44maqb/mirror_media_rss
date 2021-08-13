@@ -4,8 +4,17 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=113&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=257&amp;profile=atom" rel="self" type="application/rss+xml" />
       <item>
+    <title>甫獲公平會同意，亞太電信與遠傳啟動5G共頻共網服務</title>
+    <link>https://www.ithome.com.tw/news/146193</link>
+    <description> 上周剛獲得公平會審議通過，亞太電信宣布啟動國內第一個5G共頻共網服務，以遠傳電信的3.5GHz頻段5G網路，對外提供5G服務。
+亞太電信在去年初5G首次釋照，在當時的策略之下，只取得28GHz毫米波頻段，相較於其他業者在28GHz之外，還取得較主流的3.5GH頻段，並已在去年開臺時搶先提供主流5G服務，亞太電信為唯一一家未取得3.5GHz頻段的電信業者。為挽回5G市場競爭劣勢，該公司去年9月和遠傳電信達成國內第一個5G共頻共網合作協議，亞太電信分攤遠傳電信九分之二的頻譜費用，換取其取得頻段的20年使用權。去年10月亞太電信開臺，先以MVNO身分與遠傳電信合作推出5G服務。</description>
+     <pubDate>2021-08-13  04:08:11</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146193</guid>
+  </item>
+  <item>
     <title>Google應用神經網路開發音訊編碼器，不只壓縮音訊還能抑制噪音</title>
     <link>https://www.ithome.com.tw/news/146194</link>
     <description> Google發表最新將人工智慧應用在音訊解編碼器的研究，釋出端到端神經解編碼器SoundStream，這是一個應用神經網路的音訊解編碼器，可以提供高音質的音訊，並且支援清楚的語音、有雜音和回聲的語音，甚至是混雜音樂、語音和環境音的音訊，Google提到，SoundStream是第一個可以處理語音和音樂的神經網路解編碼器，可以在智慧型手機上即時執行。</description>
@@ -243,16 +252,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-12  10:08:23</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146142</guid>
-  </item>
-  <item>
-    <title>從疾病檢驗到單純貝氏分類</title>
-    <link>https://www.ithome.com.tw/voice/146077</link>
-    <description> 單純貝氏分類（Naive bayes classifier）是基於貝氏定理，那麼，貝氏定理又是什麼呢？若不小心迷失在P(A|B)、P(A)等公式的符號中，不妨從生活實例開始理解，進一步地抽取現象的特徵作為計算，就可以應用單純貝氏分類。
-貝氏定理與疾病檢驗
-在機器學習的領域中，單純貝氏分類是諸多分類方法中的一個，它從貝氏定理P(A|B)=P(B|A)*P(A)/P(B)出發，其中P(A)、P(B)各代表A、B事件發生的機率，P(A|B)代表在觀察到B事件時，又觀察到A事件的機率，P(B|A)代表在觀察到A事件時，又觀察到B事件的機率。</description>
-     <pubDate>2021-08-12  07:08:00</pubDate>
- <dc:creator>林信良</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/voice/146077</guid>
   </item>
   </channel>
 </rss>

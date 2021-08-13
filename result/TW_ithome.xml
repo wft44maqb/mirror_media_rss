@@ -6,6 +6,23 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>甫獲公平會同意，亞太電信與遠傳啟動5G共頻共網服務</title>
+ <link>https://www.ithome.com.tw/news/146193</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;上周剛獲得公平會審議通過，亞太電信宣布啟動國內第一個5G共頻共網服務，以遠傳電信的3.5GHz頻段5G網路，對外提供5G服務。&lt;/p&gt;
+&lt;p&gt;亞太電信在去年初5G首次釋照，在當時的策略之下，只取得28GHz毫米波頻段，相較於其他業者在28GHz之外，還取得較主流的3.5GH頻段，並已在去年開臺時搶先提供主流5G服務，亞太電信為唯一一家未取得3.5GHz頻段的電信業者。為挽回5G市場競爭劣勢，該公司去年9月和遠傳電信達成國內第一個5G共頻共網合作協議，亞太電信分攤遠傳電信九分之二的頻譜費用，換取其取得頻段的20年使用權。去年10月亞太電信開臺，先以MVNO身分與遠傳電信合作推出5G服務。&lt;/p&gt;
+&lt;p&gt;這項5G共頻共網合作受到外界的注目，除了新電信管理法上路後，國內首次有電信業者達成共頻共網協議，合力布局5G市場，更因為遠傳與亞太電信的合作涉及資金、股權、董事，關係到電信市場的競爭公平性。&lt;/p&gt;
+&lt;p&gt;今年3月NCC以有條件方式同意兩家公司共用3.5GHz頻段，要求包括兩家公司獨立控管網路，增加2千座基地臺建設，且需提供雙方用戶無差別待遇共同使用網路，並不得共享用戶資料。&lt;/p&gt;
+&lt;p&gt;公平會也在8月初以附附款方式通過兩家的共頻共網合作，考量到遠傳與亞太的共頻共網為水平結合類型，在無線頻譜資源有限下，可避免資源浪費，但應排除兩家業者合作不利於市場競爭的情形，要求在共頻共網之外，不得在資費、終端裝置補貼、行銷有共同經營、聯合行為。&lt;/p&gt;
+&lt;p&gt;在主管機關、市場公平競爭監督機關先後同意之下，亞太電信本周宣布與遠傳電信啟動國內第一個3.5GHz頻段5G共頻共網服務，推出新的5G費率方案。共用遠傳電信3.5GHz頻段5G網路，亞太電信宣稱5G服務已涵蓋全臺網路人口的8成，在共頻共網之下，80MHz頻寬，最快5G下載速度可達到1Gbps。&lt;/p&gt;
+&lt;p&gt;亞太電信指出，由於5G需要大量的基地臺建設，業者間透過共頻共網合作，除了有效利用頻譜資源，也和合作業者加速網路建設，提升上網速率、網路涵蓋，改善用戶的體驗。對電信營運商而言，共頻共網能節省營運成本，聚焦於5G內容、應用發展。&lt;/p&gt;
+&lt;p&gt;配合啟動共頻共網5G服務，亞太電信也推出新的5G資費，包括購機方案及單方號方案，為吸引非吃到飽的5G用戶，加贈上網補充包，提高非吃到飽用戶每月可使用的流量。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 13 Aug 2021 08:31:11 +0000</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="false">146193 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146193#comments</comments>
+</item>
+<item>
  <title>Google應用神經網路開發音訊編碼器，不只壓縮音訊還能抑制噪音</title>
  <link>https://www.ithome.com.tw/news/146194</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google發表最新將人工智慧應用在音訊解編碼器的研究，釋出端到端神經解編碼器&lt;a href=&quot;https://ai.googleblog.com/2021/08/soundstream-end-to-end-neural-audio.html&quot;&gt;SoundStream&lt;/a&gt;，這是一個應用神經網路的音訊解編碼器，可以提供高音質的音訊，並且支援清楚的語音、有雜音和回聲的語音，甚至是混雜音樂、語音和環境音的音訊，Google提到，SoundStream是第一個可以處理語音和音樂的神經網路解編碼器，可以在智慧型手機上即時執行。&lt;/p&gt;
@@ -170,20 +187,6 @@
  <dc:creator>李靜宜</dc:creator>
  <guid isPermaLink="false">146180 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146180#comments</comments>
-</item>
-<item>
- <title>趨勢科技修補已遭到攻擊的Apex One產品漏洞</title>
- <link>https://www.ithome.com.tw/news/146178</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://success.trendmicro.com/solution/000287819&quot; target=&quot;_blank&quot;&gt;趨勢科技近日發布安全公告&lt;/a&gt;，修補旗下端點安全產品，包括本地部署及雲端版Apex One中的4項漏洞，同時警告其中2個漏洞已經被駭客串聯起來對用戶發動攻擊。&lt;/p&gt;
-&lt;p&gt;這次修補的漏洞包括CVE-2021-32464、CVE-2021-32465、CVE-2021-36741、CVE-2021-36742。其中CVE-2021-32464和CVE-2021-32465各為權限許可分配和許可保存不當，造成的權限升級及驗證繞過漏洞。CVE-2021-36741為任意檔案上傳漏洞，CVE-2021-36742則為本地權限升級漏洞。前二項漏洞是外部研究人員Kharosx0和HexKitchen發現後通報，而後2項則為趨勢科技研究人員發現。這4項漏洞皆屬於CVSS 3.0風險值7.1到7.8的安全漏洞。&lt;/p&gt;
-&lt;p&gt;受到影響的產品涵括本地部署的端點安全產品Apex One，以及SaaS 版的Apex One as a Service。&lt;/p&gt;
-&lt;p&gt;趨勢科技警告，已經觀察到網路上發生至少一起串聯 CVE-2021-36741和CVE-2021-36742的開採活動，並已通知這些企業客戶。CVE-2021-36741需要攻擊者登入產品管理介面才能開採，如果成功即能上傳任意檔案。CVE-2021-36742需要攻擊者在受害系統上執行低權限程式，但一經開採漏洞，他就能進一步提升系統權限。雖然這些漏洞需要有一些先決條件，但為確保安全，趨勢科技仍呼籲用戶儘速將產品升級到最新版本。&lt;/p&gt;
-&lt;p&gt;這是今年以來Apex One第二波被人試圖駭入。&lt;a href=&quot;https://success.trendmicro.com/solution/000245571&quot; target=&quot;_blank&quot;&gt;今年5月趨勢科技更新一則安全公告&lt;/a&gt;，&lt;a href=&quot;https://www.ithome.com.tw/news/136422&quot; target=&quot;_blank&quot;&gt;指出去年修補的Apex One及OfficeScan（Apex One前身）漏洞遭人第二度攻擊&lt;/a&gt;。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 13 Aug 2021 03:35:49 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146178 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146178#comments</comments>
 </item>
 </channel>
 </rss>
