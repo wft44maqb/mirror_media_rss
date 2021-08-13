@@ -14,7 +14,7 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Fri, 13 Aug 2021 18:20:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 19:22:02 GMT</lastBuildDate>
         <ttl>60</ttl>
         
         <item>
@@ -63,6 +63,34 @@
             
             
             <author><![CDATA[安刚]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[AlphaFold：AI能否解决未来疫情大流行｜TECH]]></title>
+            <description><![CDATA[<p>2021年7月中下旬，Google母公司Alphabet拥有的人工智能企业DeepMind公开了旗下蛋白质结构预测程式AlphaFold的原始码，以及其为包括人类在内等21个物种总共36.5万个3D蛋白质结构图像数据，比蛋白质资料库（PDB）的约18万个蛋白质结构在数字上超出一倍多。由于蛋白质的结构决定其运作，如果人工智能能够让我们迅速掌握蛋白质结构的话，这对更有效控制未来疫情，以至处理塑胶废料等幅度极广的问题，都有重大助益。</p><p>跟DNA由简单4个核苷酸序列组成类似，蛋白质由数目甚低的约20种胺基酸排列而成。一个蛋白质的胺基酸数目可由数十个至数千个不等，由于胺基酸的组合数目随着其胺基酸数量而以几何级数字上升——例如由10个胺基酸组成的序列就有超过10万亿个可能组合——所以潜在的“蛋白质序列”数字非常巨大，自然界只现实化了其中一小部分，为人类未来研究留下广阔空间。<b>一个等待人工智能解决的问题？</b>而让蛋白质研究更加复杂的，是蛋白质的运作取决于其3D结构，例如正正是新冠病毒的外围尖刺蛋白（Spike Protein）结构让它能像钥匙一般接上不少人体细胞上的ACE2膜蛋白结构，从而造成感染。</p><figure>
+        <img src="https://media.dwnews.net/hk01/5IKEVPMTxdOyBVgPXcwVhNxSC7I%3D/320*0/media/images/dw/20210806/500312357759619072342059.jpeg" alt="新冠病毒的受体结合域（receptor-binding domain，即所谓的尖刺蛋白）与细胞ACE2受体（绿色部份）结合的3D蛋白质结构图。（《Nature》网站截图）" referrerpolicy="no-referrer">
+        <figcaption>新冠病毒的受体结合域（receptor-binding domain，即所谓的尖刺蛋白）与细胞ACE2受体（绿色部份）结合的3D蛋白质结构图。（《Nature》网站截图）</figcaption>
+        </figure><br><p>虽然蛋白质的胺基酸序列理论上将能决定蛋白质的3D结构，但由于此结构的形成至少取决于胺基酸之间各种连结的物理和化学关系，一个蛋白质序列在折叠成一个3D结构的时候有极大的自由度。根据美国分子生物学家利文索尔（Cyrus Levinthal）的说法，一个普通的蛋白质可有10^300个可能组合。如果蛋白质的折叠是要经历过种种不同的组成才达至其最终结构的话，其需时将比宇宙寿命还要长，然而在实际上，蛋白质的折叠几乎是即时性的。这就产生了所谓的“利文索尔悖论”（Levinthal’s Paradox）。</p><p>这种有近乎无限种可能组合，却可根据一些基本的法则或关连性而达至一定目标结果的问题，正如DeepMind的AlphaGo所要解决的“围棋”问题一般，看起来就很像是深度学习人工智能能够解决的疑问。</p><figure>
+        <img src="https://media.dwnews.net/hk01/pMrSXccVA46z3ZfymGOKeDNW-GA%3D/320*0/media/images/dw/20210806/500309871590117376052849.jpeg" alt="人类嗅觉受器的蛋白质预测3D模型，左方显示模型中各部份的模型可信度自评结果。（AlphaFold Protein Structure Database）" referrerpolicy="no-referrer">
+        <figcaption>人类嗅觉受器的蛋白质预测3D模型，左方显示模型中各部份的模型可信度自评结果。（AlphaFold Protein Structure Database）</figcaption>
+        </figure><b>序列与结构之间的差距</b>然而，如果一组蛋白质的3D结构是很容易可以透过观察而得知的话，AlphaFold的发展可能不会像今天般具震撼性。但事实上，要观察一组蛋白质的3D结构极其困难，传统上只能透过将目标蛋白质转化为结晶体，再由X光进行观察，或者以极低温急速冷冻，再用电子显微镜进行观察。然而，这些方法却极其费时失事，例如要将蛋白质转化为质量高的结晶体在极端的例子之下就可花费10年以上的时间。<p></p><p>同时，随着近年蛋白质测序的发展，蛋白质序列资料库</p><p>已收集了超过两亿个蛋白质序列。但正如上文所料，我们所知的蛋白质3D结构却只有18万个左右。从两者差距可见，从蛋白质序列推测出其具体结构的需求极大，而AlphaFold就因而应运而生。</p><p>事实上，早在上世纪80年代和90年代就有人尝试以电脑推测蛋白质结构，然而当时类似深度学习人工智能的技术在电脑计算能力有限的背景下尚未出现，相关尝试多以失败告终。</p><figure>
+        <img src="https://media.dwnews.net/hk01/Q7h0t36qsaQ__2YNq6RhD-Janx8%3D/320*0/media/images/dw/20210806/500313282897252352504913.jpeg" alt="AlphaFold的数据库预计在本年底前将公布多达1.3亿个蛋白质3D结构预测模型。（AlphaFold Protein Structure Database）" referrerpolicy="no-referrer">
+        <figcaption>AlphaFold的数据库预计在本年底前将公布多达1.3亿个蛋白质3D结构预测模型。（AlphaFold Protein Structure Database）</figcaption>
+        </figure><b>难题已被解决？</b>然而，推测蛋白质结构的难题一直存在。1994年，有学者就创办了两年一度的<p></p><p>（Critical Assessment of protein Structure Prediction，CASP），以最近以实验方式发现、尚未公布的蛋白质结构为题目，考验参赛团队的预测能力，其中一项主要判准是以团队预测结果与实验得出结果对比得出的准确度作评分*。以首五佳结果作计算，在2016年未有AlphaFold参赛之前，最佳团队得分只在40分的水平（满分为100分，90分以上可被视为与实验证明的结构相等）。</p><blockquote>*准确度以所谓的“整体距离测试”（Global Distance Test，GDT）为标准，主要量度预测结构中与正确胺基酸位置处于一定短距离之中的胺基酸数量比例。</blockquote><p>2018年，AlphaFold首次参赛已有接近60分的水平，到2020年更接近90分，大大抛离了其各科学团队。一位德国演化生物学家Andrei Lupas就指，AlphaFold的程式使他找到一个使其实验室困惑十年的蛋白质结构；美国华盛顿大学的生物化学家David Baker亦指在参照AlphaFold的程式设计后，他们的预测程式表现已几乎比得上AlphaFold。</p><p>去年CASP比赛之后，其中一位创办人就称：“在某种意义之下，（预测蛋白质结构）的问题已被解决。”<b>疫情中的牛刀小试</b>在去年疫情来袭之初，AlphaFold已小试牛刀，将其程式用作预测新冠病毒的各种蛋白质结构之上，</p><p>。本年5月一篇发表在《自然-方法》（Nature Methods）期刊的</p><p>，亦显示在新冠毒物的17个至少部分被实验解决的蛋白质结构中，包括AlphaFold在内的预测程式都达至甚为准确的结果，而他们达至结果3D模型的速度平均比实验方式快86天。</p><figure>
+        <img src="https://media.dwnews.net/hk01/xu9GcSW-jk5cZq7zEn4rT5G7ZK0%3D/320*0/media/images/dw/20210806/500313996159619072629038.jpeg" alt="AlphaFold参加CASP比赛后的表现增长。（DeepMind网站截图）" referrerpolicy="no-referrer">
+        <figcaption>AlphaFold参加CASP比赛后的表现增长。（DeepMind网站截图）</figcaption>
+        </figure><br><p>如果类似AlphaFold的蛋白质预测程式在未来能够大致可靠地替代实验结果的话，针对类似新冠肺炎大流行的病毒的药物研究和疫苗开发，将可能会比这次疫情中的速度更快。伴随着mRNA技术的发展，我们对于病毒各种蛋白质结构的迅速掌握，以至对其抗体结构的准确预测，除了可加快开发疫苗之外，更或可直接以mRNA技术指示人体制造出能针对病苗的抗体。</p><p>当然，AlphaFold此刻的进展只是一个开端，未来尚有很长的一段路要走。首先，蛋白质很多时候是以复合体的形式运作，而AlphaFold的预测则集中於单一蛋白质的结构之上。上述的《白然-方法》论文就指出，要描述大分子蛋白质复合体的结构尚是一大挑战。同时，AlphaFold预测的可靠程度尚须实验进一步验证。</p><p>不过，AlphaFold对于蛋白质复合体结构的预测其实已能达至一定程度的准确；而且其对自身的预测局限也有</p><p>——AlphaFold会为自身的预测提供可信度评分，目前分析显示其评分较低的都出现在其预测被证明有错，或者该独立蛋白质本身就结构不稳定的例子上。由此可见，未来这一段路是很可能走得完的。</p><p>如果未来我们能够快速并准确地预测蛋白质结构，甚至设计出新的蛋白质，这将为我们的生活带来重大改变，包括制药、食物生产，各种工业用酵素应用等等。例如在自然环境中极难化解的塑胶制品就能被不同的</p><p>加速化解，蛋白质结构预测的技术将能在此扮演重要角色。</p><p>《自然》（Nature）杂志为AlphaFold的发展</p><p>了十数位研究人员，他们的共识是，要预测人工智能在生命科技上的应用将有什么影响尚是言之过早，可是任何影响都将会是“变革性的”（transformative）。</p><p>2021年是玛丽雪莱（Mary Shelley）署名出版（即在巴黎出版的第二版）《科学怪人》（Frankenstein）的200周年纪念，该书象征了人类对科学发展的焦虑和恐惧。两百年后的今天，科学却是带领全世界走出新冠疫情阴霾的唯一出路。这也许是在告诉我们，即使是应用广如对蛋白质结构操控的科技，只是人类手中的工具，如何妥当地把握科学带来的可能性将决定我们未来的命运。</p>]]></description>
+            <pubDate>Fri, 13 Aug 2021 13:19:01 GMT</pubDate>
+            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60255187/AlphaFoldAI%E8%83%BD%E5%90%A6%E8%A7%A3%E5%86%B3%E6%9C%AA%E6%9D%A5%E7%96%AB%E6%83%85%E5%A4%A7%E6%B5%81%E8%A1%8CTECH</guid>
+            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60255187/AlphaFoldAI%E8%83%BD%E5%90%A6%E8%A7%A3%E5%86%B3%E6%9C%AA%E6%9D%A5%E7%96%AB%E6%83%85%E5%A4%A7%E6%B5%81%E8%A1%8CTECH</link>
+            
+            
+            
+            <author><![CDATA[叶德豪]]></author>
             
                 
             
@@ -247,22 +275,6 @@
             <pubDate>Fri, 13 Aug 2021 11:52:01 GMT</pubDate>
             <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256427/%E4%B8%AD%E4%BF%84%E8%81%94%E5%90%88%E5%86%9B%E6%BC%94%E6%BC%94%E4%B9%A0%E7%BB%93%E6%9D%9F%E4%B8%A4%E5%9B%BD%E9%98%B2%E9%95%BF%E8%A7%81%E8%AF%81%E7%AD%BE%E7%BD%B2%E5%90%88%E4%BD%9C%E6%96%87%E4%BB%B6%E5%9B%BE</guid>
             <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256427/%E4%B8%AD%E4%BF%84%E8%81%94%E5%90%88%E5%86%9B%E6%BC%94%E6%BC%94%E4%B9%A0%E7%BB%93%E6%9D%9F%E4%B8%A4%E5%9B%BD%E9%98%B2%E9%95%BF%E8%A7%81%E8%AF%81%E7%AD%BE%E7%BD%B2%E5%90%88%E4%BD%9C%E6%96%87%E4%BB%B6%E5%9B%BE</link>
-            
-            
-            
-            <author><![CDATA[司亭亭]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[阿富汗总统救星向塔利班投诚]]></title>
-            <description><![CDATA[<blockquote>据塔利班发言人穆贾希德（Zabihullah Mujahid）在社交媒体推特上宣布被阿富汗总统当做救星的75岁的军阀伊斯梅尔汗（Ismail Khan）及他的私人武装已加入塔利班。</blockquote><p>据塔利班发言人穆贾希德8月13日在社交媒体上宣布当，曾经被称为阿富汗总统救星的阿富汗军阀伊斯梅尔汗以及他的私人武装，在该国第三大城市赫拉特加入塔利班。</p><p>据穆贾希德称，伊斯梅尔汗受到了塔利班赫拉特省省长等官员们的欢迎，并获得了安全又有尊严的生活。</p><p>据悉，曾经美军与阿富汗交锋时，阿富汗总统加尼向伊斯梅尔汗寻求帮助。伊斯梅尔汗则表示将与阿富汗政府军一道与塔利班作战，夺回对阿富汗西部部分地区的控制权。</p><p>伊斯梅尔汗此前接受采访时称，他和他的武装已准备好与塔利班作战，并表示希望赫拉特的所有人此刻决定支持抵抗阵线，捍卫他们的自由和荣誉。<b>推荐阅读：</b></p>]]></description>
-            <pubDate>Fri, 13 Aug 2021 11:35:01 GMT</pubDate>
-            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256419/%E9%98%BF%E5%AF%8C%E6%B1%97%E6%80%BB%E7%BB%9F%E6%95%91%E6%98%9F%E5%90%91%E5%A1%94%E5%88%A9%E7%8F%AD%E6%8A%95%E8%AF%9A</guid>
-            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256419/%E9%98%BF%E5%AF%8C%E6%B1%97%E6%80%BB%E7%BB%9F%E6%95%91%E6%98%9F%E5%90%91%E5%A1%94%E5%88%A9%E7%8F%AD%E6%8A%95%E8%AF%9A</link>
             
             
             
