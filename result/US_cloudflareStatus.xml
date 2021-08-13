@@ -4,17 +4,17 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-08-13T08:58:18Z</updated>
+  <updated>2021-08-13T09:01:10Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7752831</id>
-    <published>2021-08-13T04:41:14Z</published>
-    <updated>2021-08-13T04:41:14Z</updated>
+    <published>2021-08-13T09:01:10Z</published>
+    <updated>2021-08-13T09:01:10Z</updated>
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/wl7mct3rp3wd"/>
     <title>Network Performance Issues in Atlanta, ATL</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;04:41&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Cloudflare has implemented a fix for this issue and is currently monitoring the results.&lt;br /&gt;&lt;br /&gt;We will update the status once the issue is resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;04:26&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Cloudflare has identified the issue and is implementing a fix.&lt;br /&gt;&lt;br /&gt;We will update the status once we implement the fix.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;04:08&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with network performance in Atlanta. &lt;br /&gt;&lt;br /&gt;We are working to analyse and mitigate this problem.  More updates to follow shortly.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;09:01&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;04:41&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Cloudflare has implemented a fix for this issue and is currently monitoring the results.&lt;br /&gt;&lt;br /&gt;We will update the status once the issue is resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;04:26&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Cloudflare has identified the issue and is implementing a fix.&lt;br /&gt;&lt;br /&gt;We will update the status once we implement the fix.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;04:08&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with network performance in Atlanta. &lt;br /&gt;&lt;br /&gt;We are working to analyse and mitigate this problem.  More updates to follow shortly.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7751047</id>
