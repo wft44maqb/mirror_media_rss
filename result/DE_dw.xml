@@ -6,8 +6,8 @@
   <description>News, Analysis and Service from Germany and Europe - in 30 Languages</description>
   <language>zh</language>
   <copyright>2021 DW.COM, Deutsche Welle</copyright>
-  <pubDate>Fri, 13 Aug 2021 13:28:57 GMT</pubDate>
-  <lastBuildDate>Fri, 13 Aug 2021 13:28:57 GMT</lastBuildDate>
+  <pubDate>Fri, 13 Aug 2021 13:34:35 GMT</pubDate>
+  <lastBuildDate>Fri, 13 Aug 2021 13:34:35 GMT</lastBuildDate>
   <atom:link href="https://rss.dw.com/xml/podcast_radio_china" rel="self"/>
   <image>
    <url>https://static.dw.com/image/2273684_7.jpg</url>
@@ -28,6 +28,19 @@
    <itunes:category text="Politics"/>
   </itunes:category>
   <ttl>10</ttl>
+  <item>
+   <guid isPermaLink="false">58856260</guid>
+   <pubDate>Fri, 13 Aug 2021 13:09:00 GMT</pubDate>
+   <title>若为自由故——具有历史意义的一跳</title>
+   <link>https://www.dw.com/zh/若为自由故-具有历史意义的一跳/av-58856260?maca=chi-podcast_radio_china-1169-xml-mrss</link>
+   <description>60年前，19岁的东德士兵康拉德·舒曼纵身跨越了正在修建过程中的柏林墙。那时的他并不知道等待自己的是什么，此生还能否再见到家人。</description>
+   <category>德国新闻</category>
+   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
+   <itunes:keywords>柏林墙, 历史</itunes:keywords>
+   <itunes:explicit>clean</itunes:explicit>
+   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210813_001_20553bchi_210813_jump_sd.mp4" type="video/mp4" length="13790771"/>
+   <itunes:duration>02:44</itunes:duration>
+  </item>
   <item>
    <guid isPermaLink="false">58819172</guid>
    <pubDate>Wed, 11 Aug 2021 12:55:00 GMT</pubDate>
@@ -404,19 +417,6 @@
    <itunes:explicit>clean</itunes:explicit>
    <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210701_001_aa9c1corona-pilot_sd.mp4" type="video/mp4" length="15738862"/>
    <itunes:duration>03:11</itunes:duration>
-  </item>
-  <item>
-   <guid isPermaLink="false">58078642</guid>
-   <pubDate>Tue, 29 Jun 2021 12:35:00 GMT</pubDate>
-   <title>小鸡的力量</title>
-   <link>https://www.dw.com/zh/小鸡的力量/av-58078642?maca=chi-podcast_radio_china-1169-xml-mrss</link>
-   <description>在秘鲁干燥、贫瘠的沙漠中，一片巨大的柑橘林横空出世。而这要感谢一些伟大的创意，还有600万只小鸡。</description>
-   <category>科技环境</category>
-   <itunes:author>DW.COM | Deutsche Welle</itunes:author>
-   <itunes:keywords>秘鲁, 生态, 养殖, 小鸡, 生物炭, 柑橘, 环保</itunes:keywords>
-   <itunes:explicit>clean</itunes:explicit>
-   <enclosure url="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210628_001_chickenpower_sd.mp4" type="video/mp4" length="8214499"/>
-   <itunes:duration>01:38</itunes:duration>
   </item>
  </channel>
 </rss>
