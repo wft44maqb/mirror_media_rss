@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Aug 2021 05:48:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 05:54:10 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[中美關係：美國副國務卿會見中國新任駐美大使秦剛，首次活動傳遞什麼信號]]></title>
+            <description><![CDATA[目前美中關係緊張，在多個領域激烈競爭甚至對抗，此前幾次高官會談也未能破冰，外界對秦剛的舉動甚為期待。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58197158</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58197158</guid>
+            <pubDate>Fri, 13 Aug 2021 05:46:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[台灣語言學習中心進軍美國, 挑戰中國的孔子學院?]]></title>
             <description><![CDATA[台灣今年決定在美、英、法、德國建立20所語言學習中心，相信是要搶佔一些孔子學院退場後留出的華語學習市場。]]></description>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58187598</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58187598</guid>
             <pubDate>Thu, 12 Aug 2021 11:12:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[谷歌可能會對在家工作的員工減薪]]></title>
-            <description><![CDATA[谷歌已開發出一個薪酬計算器，讓員工了解遠程工作或移動辦公室帶來的影響。一些選擇遠程辦公的員工，特別是那些通勤時間長的員工，可能在地址不變的情況下被減薪。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58185727</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58185727</guid>
-            <pubDate>Thu, 12 Aug 2021 09:19:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中國、立陶宛與台灣爭端：北京召回大使的前前後後]]></title>
@@ -188,6 +188,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58182825</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58182825</guid>
             <pubDate>Thu, 12 Aug 2021 07:52:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[谷歌可能會對在家工作的員工減薪]]></title>
+            <description><![CDATA[谷歌已開發出一個薪酬計算器，讓員工了解遠程工作或移動辦公室帶來的影響。一些選擇遠程辦公的員工，特別是那些通勤時間長的員工，可能在地址不變的情況下被減薪。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58185727</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58185727</guid>
+            <pubDate>Thu, 12 Aug 2021 09:19:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中國加大力度指責美國「抗疫失敗」 美軍實驗室洩露論再起]]></title>
