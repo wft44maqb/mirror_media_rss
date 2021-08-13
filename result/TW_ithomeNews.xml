@@ -1,11 +1,27 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/110" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/110</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/110" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>OpenSFF推出Allstar App助開源專案修復安全性問題</title>
+    <link>https://www.ithome.com.tw/news/146166</link>
+    <description> OpenSFF推出GitHub應用程式Allstar，可自動且持續地對GitHub專案，執行安全最佳實踐。藉由使用Allstar，專案擁有者可以檢查儲存庫安全政策遵守的狀況，並且設置必要的強制執行措施，在組織或是專案儲存庫中的設定和檔案更改時，觸發執行這些措施，進而降低開源社群的安全風險。</description>
+     <pubDate>2021-08-13  11:08:57</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146166</guid>
+  </item>
+  <item>
+    <title>Dogfooding！GitHub.com工程團隊開發環境上Codespaces</title>
+    <link>https://www.ithome.com.tw/news/146165</link>
+    <description> 隨著GitHub的規模不斷擴增，程式碼庫也越來越龐大，為了讓GitHub新的開發成員快速上手，以及提供更方便的開發環境，GitHub工程團隊從原先以macOS為中心的開發模型，轉而使用Codespaces，並且採用預建置等方法，將啟動開發環境的時間縮減至10秒鐘。另外，GitHub也宣布，開始向Team和Enterprise Cloud方案用戶提供Codespaces，並擴展個人方案用戶的測試規模。</description>
+     <pubDate>2021-08-13  11:08:12</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146165</guid>
+  </item>
+  <item>
     <title>三星發表第三代摺疊螢幕手機Galaxy Z Fold 3與Galaxy Z Flip 3</title>
     <link>https://www.ithome.com.tw/news/146177</link>
     <description> 南韓的三星電子在本周三（8/11）發表了該公司第三代的兩款摺疊螢幕手機Galaxy Z Fold 3與Galaxy Z Flip 3，它們皆支援5G網路，售價分別是1799.99美元與999.99美元，即日起開放預購，預計於8月27日上市。</description>
@@ -237,25 +253,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-11  12:08:00</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146133</guid>
-  </item>
-  <item>
-    <title>資安一周第158期：戴夫寇爾研究員獲Pwnie Awards最佳伺服器漏洞獎</title>
-    <link>https://www.ithome.com.tw/news/146132</link>
-    <description> 8/5-8/11必看資安新聞
- 
-＃黑帽大會  ＃Pwnie Awards  ＃Exchange
-戴夫寇爾研究員獲Pwnie Awards最佳伺服器漏洞獎</description>
-     <pubDate>2021-08-11  12:08:25</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146132</guid>
-  </item>
-  <item>
-    <title>群暉科技：殭屍網路程式正試圖攻擊NAS用戶</title>
-    <link>https://www.ithome.com.tw/news/146131</link>
-    <description> 網路附加儲存（Network-Attach Storage，NAS）廠商群暉科技（Synology）於8月4日發出公告，警告一隻名為StealthWorker的殭屍網路程式，正在對其用戶的NAS系統發動攻擊。</description>
-     <pubDate>2021-08-11  12:08:31</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146131</guid>
   </item>
   </channel>
 </rss>

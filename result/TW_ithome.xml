@@ -6,6 +6,42 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>OpenSFF推出Allstar App助開源專案修復安全性問題</title>
+ <link>https://www.ithome.com.tw/news/146166</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;OpenSFF推出GitHub應用程式&lt;a href=&quot;https://openssf.org/blog/2021/08/11/introducing-the-allstar-github-app/&quot;&gt;Allstar&lt;/a&gt;，可自動且持續地對GitHub專案，執行安全最佳實踐。藉由使用Allstar，專案擁有者可以檢查儲存庫安全政策遵守的狀況，並且設置必要的強制執行措施，在組織或是專案儲存庫中的設定和檔案更改時，觸發執行這些措施，進而降低開源社群的安全風險。&lt;/p&gt;
+&lt;p&gt;Google發布的Security Scorecards專案在Allstar中扮演重要角色，Security Scorecards是可評估儲存庫和相依項目安全風險的自動化工具，能夠以許多啟發式方法進行多種重要的檢查，像是專案是否使用分支保護，對構件進行加密簽章，或是需要程式碼審核等。&lt;/p&gt;
+&lt;p&gt;用戶透過這些分數，可以了解專案的安全狀況，而Allstar則從這些分數採取下一階段行動，供維護人員選擇自動執行特定檢查，當儲存庫無法通過特定檢查，則Allstar便會自動進行必要的更改來修復問題，簡單來說，Security Scorecards可以協助用戶評估專案安全狀態，而Allstar則可以協助用戶實現安全目標。&lt;/p&gt;
+&lt;p&gt;Allstar會根據安全政策，持續檢查GitHub API狀態和儲存庫檔案內容，並且在狀態不符合政策的時候，強制採取行動來修正問題。官方提到，Allstar能夠確保安全狀態的連續性，像是當有惡意攻擊者突然禁用分支保護，想要在重新啟用保護之前進行惡意更改，Allstar能夠偵測該行為並且採取行動。&lt;/p&gt;
+&lt;p&gt;接下來，Allstar還會加入自動相依項目更新，以及凍結相依性等功能。由於開源套件會定期發現和修復安全漏洞，而Allstar可以自動更新專案的相依項目，來排除已知漏洞，另外，跳過審查自動合併新的相依項目版本，是一種攻擊手法，而凍結檔案和部分固定檔案，可以防止受入侵的相依項目進到專案中。&lt;/p&gt;
+&lt;p&gt;OpenSSF提供一個公用的執行個體，供所有人安裝和使用，但是用戶也可以創建和執行私人的Allstar執行個體。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 13 Aug 2021 03:17:57 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146166 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146166#comments</comments>
+</item>
+<item>
+ <title>Dogfooding！GitHub.com工程團隊開發環境上Codespaces</title>
+ <link>https://www.ithome.com.tw/news/146165</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;隨著GitHub的規模不斷擴增，程式碼庫也越來越龐大，為了讓GitHub新的開發成員快速上手，以及提供更方便的開發環境，&lt;a href=&quot;https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces/&quot;&gt;GitHub工程團隊從原先以macOS為中心的開發模型，轉而使用Codespaces&lt;/a&gt;，並且採用預建置等方法，將啟動開發環境的時間縮減至10秒鐘。另外，GitHub也宣布，開始向Team和Enterprise Cloud方案用戶提供Codespaces，並擴展個人方案用戶的測試規模。&lt;/p&gt;
+&lt;p&gt;距離GitHub.com第一個程式碼提交已經14年，在這14年間，GitHub.com核心儲存庫已經收到超過一百萬次提交，而這些提交絕大多數，來自在macOS上建置和測試的開發人員，而隨著GitHub開發平臺不斷發展，macOS模型已經不適用。&lt;/p&gt;
+&lt;p&gt;多年來，GitHub採用一種稱為Scripts-to-rule-them-all的方法，讓新加入開發團隊的成員，可以複製github/github儲存庫、執行設定、載入腳本，並且能夠在半天的時間，就成功於本地執行個體執行GitHub.com，當流程無法順利進行，則腳本會自動幫新進成員連接到內部支援人員，以快速解決問題。&lt;/p&gt;
+&lt;p&gt;但GitHub提到，儘管他們做出許多努力，但本地端開發環境仍然非常脆弱容易出錯，有時候甚至需要開發者花數小時的時間來恢復開發環境，而且這種情形並不少見，他們甚至特別編寫了一個稱為--nuke-from-orbit的腳本來解決這類問題，該腳本會嘗試刪除設定，盡可能將本地環境恢復成為良好狀態。&lt;/p&gt;
+&lt;p&gt;另外，GitHub認為，單一上下文且訂製的本地端開發環境，與現在GitHub的營運需求，包含即時啟動、從任何地方存取的哲學格格不入，開發者在跨多個專案的多個分支上協作更是不便，當新分支加入新的相依項目、發布架構更改或是從不同的SHA分支的時候，常需要花費45分鐘以上的等待時間。&lt;/p&gt;
+&lt;p&gt;在GitHub建構Codespaces時，他們發現不少企業遭遇相同的問題，而這些企業也在組織內建構類似Codespaces的平臺，來解決這類問題，GitHub提到，在大規模的組織中，消除這類型的生產力損失，將會是明顯提升生產力的好方法。&lt;/p&gt;
+&lt;p&gt;Codespaces是GitHub在2020年發布的新服務，讓用戶可以直接在網頁IDE編輯程式碼，並且使用所有VS Code瀏覽器版本的所有功能，包括配置程式碼和相依項目等功能，其一大優點是可以簡單地切換開發環境。官方提到，將GitHub.com程式碼庫搬到Codespaces，解決了GitHub開發環境現有的缺點。&lt;/p&gt;
+&lt;p&gt;Codespaces讓開發者依據手上任務，按需獲取開發環境，不過，這也帶來新的問題，基於任務的工作流程，需要接近即時的速度，但因為光是簡單地複製GitHub.com儲存庫13 GB的檔案，就需要20分鐘，再加上相依性配置設定，要完整載入一個GitHub.com程式碼空間，需要花費45分鐘，這個時間無法滿足基於任務的開發環境條件。&lt;/p&gt;
+&lt;p&gt;因此GitHub進行了一些方法來加速獲取程式碼庫的速度，首先是改變Codespaces複製的方法，讓Codespaces進行淺層複製，不在配置時進行完整複製，僅在最新的程式碼提交，Codespace創建之後，才會在背景進行非淺層複製，這樣可使得一開始複製時間，從20分鐘降為90秒。同時，GitHub每晚還會執行一個GitHub Action，將儲存庫、相依項目和建置等檔案打包成為映像檔，這個映像檔被用作github/github的開發容器，以配置即程式碼的方式建構Codespaces環境。&lt;/p&gt;
+&lt;p&gt;這兩項改變以及一些應用和服務層級的最佳化，使得GitHub.com程式碼空間的創建時間，從45分鐘縮短至5分鐘。雖然5分鐘已經是很大的進步了，但是GitHub仍不滿足，因此他們又採用預建置方法，在Codespaces池中準備事先啟動的開發環境，等待需要的開發者連接存取，這樣的方法可以讓開發者在10秒內，立即使用到GitHub.com開發環境。&lt;/p&gt;
+&lt;p&gt;在Codespaces中，GitHub能夠簡單地配置每個開發者所使用的機器規格，一開始使用8核心、16 GB記憶體的虛擬機器，為了符合更多元服務的需求，因此進一步提高機器規格到32核心、64 GB記憶體的虛擬機器，GitHub提到，這個過程只需要更改一行配置，就能夠立刻升級每個工程師的機器。&lt;/p&gt;
+&lt;p&gt;除了使用VS Code作為主要來操作程式碼空間的工具，原本使用Vim和Emacs的用戶，也能夠使用程式碼空間，GitHub藉由升級預建置映像檔，讓該映像檔使用GitHub公鑰，並且開啟22連接埠，並從埠口轉送程式碼空間，讓不使用圖形介面編輯器的用戶也可以用到Codespaces。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 13 Aug 2021 03:16:12 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146165 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146165#comments</comments>
+</item>
+<item>
  <title>三星發表第三代摺疊螢幕手機Galaxy Z Fold 3與Galaxy Z Flip 3</title>
  <link>https://www.ithome.com.tw/news/146177</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;南韓的三星電子在本周三（8/11）發表了該公司第三代的兩款摺疊螢幕手機&lt;a href=&quot;https://news.samsung.com/global/the-next-chapter-in-mobile-innovation-unfold-your-world-with-galaxy-z-fold3-5g-and-galaxy-z-flip3-5g&quot; target=&quot;_blank&quot;&gt;Galaxy Z Fold 3與Galaxy Z Flip 3&lt;/a&gt;，它們皆支援5G網路，售價分別是1799.99美元與999.99美元，即日起開放預購，預計於8月27日上市。&lt;/p&gt;
@@ -179,43 +215,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146159 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146159#comments</comments>
-</item>
-<item>
- <title>臺北市政府與國網中心聯手，北市府異地備援第2中心落腳臺中</title>
- <link>https://www.ithome.com.tw/news/146155</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;為確保市政資訊服務不中斷，強化城市營運韌性，臺北市政府與國研院國家高速網路與計算中心（簡稱國網中心）合作，雙方簽定合作備忘錄，在國網中心協助下推動2nd Taipei計畫，將在臺中建立異地備援第2中心。&lt;/p&gt;
-&lt;p&gt;北市資訊局長呂新科表示，北市府推動數位轉型過程中，重視災難恢復及駭客攻擊的惡意行為，去年陪同市長參訪愛沙尼亞，對其在盧森堡建立數位大使館印象深刻，當發生數位攻擊時，便能自境外恢復系統及資料。因此，臺北市政府推動2nd Taipei，在臺北市以外的地理位置，設立異地備援備分中心。&lt;/p&gt;
-&lt;p&gt;目前臺北市政府底下各局處單位，各自依業務的需要，建置不同的地端備援、備分系統，缺乏一個統一的異地備援中心，以資訊局為例，先前就已和國網中心合作，在新竹機房建立資訊局內部的備分備援，而此次推動2nd Taipei，仍舊與國網中心合作，在國網中心位於臺中的新機房，規畫設立北市府異地備援的第2中心。&lt;/p&gt;
-&lt;p&gt;國網中心在臺中的新機房，已為北市府第2中心保留10個機櫃空間，臺北市資訊局計畫先讓臺北市政府的17個核心資訊系統，例如北市官方網站、臺北通、公文、核銷等系統，優先建立異地備援、備分架構，將分階段在今年底、明年6月之前完成。&lt;/p&gt;
-&lt;p&gt;呂新科表示，市府會先採同心圓策略，先將核心系統優先列入異地備援、備分，經過討論找出適當機制，在離鋒時間進行長距離的備援、備分。資訊局與國網中心先建立遠距異地備援、備分框架，其他局處未來也能依此框架，將重要的業務及資料，在第2中心建立異地備援及備分。&lt;/p&gt;
-&lt;p&gt;至於建立異地備援、備分第2中心的重要性，呂新科認為，不論是天然災害發生，或是遭受駭客攻擊如勒索軟體，對系統恢復、資料回復帶來挑戰，因此市府各單位都需對建立異地備援、備分加大力度，提高應變的能力。雖然目前國網中心只保留10個機櫃，未來視其他局處加入，再調整擴大。&lt;/p&gt;
-&lt;p&gt;從網路架構來看，目前臺北市政府的臺北機房，是以1Gb連接臺灣學術網路，再以1Gb連至國網中心的新竹機房，未來新竹機房下架後，而國網中心的臺中機房第2中心啟用後，市府的臺北機房同樣以1Gb連到臺灣學術網路，再以1Gb連至國網中心的臺中機房。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/messageImage_1628734899463-1.jpg&quot; style=&quot;width: 600px; height: 321px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;臺北市整體的系統備援、資料備分架構，市府的構想是當災難發生，第一時間以地端的即時備援、備分為主，遠端的第2中心則扮演非即時的備援、備分中心角色，「如此才能提高臺北市應變災難的對抗性」，呂新科說。&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 12 Aug 2021 08:21:23 +0000</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="false">146155 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146155#comments</comments>
-</item>
-<item>
- <title>蘋果與提供虛擬iPhone的虛擬化業者Corellium達成官司和解</title>
- <link>https://www.ithome.com.tw/news/146158</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;蘋果本周和提供虛擬iPhone的虛擬化新創業者Corellium 達成和解，撤銷對後者的版權控告。&lt;/p&gt;
-&lt;p&gt;Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部署在雲端或其他平臺上。它實際應用最出名的，是可在筆電或桌機上模擬出一臺「虛擬iPhone」，讓第三方研究人員可以找出iPhone安全漏洞或功能瑕疵。&lt;/p&gt;
-&lt;p&gt;這讓蘋果很不滿。蘋果在2019年以Corellium違反數位千禧年著作權法（Digital Millennium Copyright Act，DMCA）為由，&lt;a href=&quot;https://www.ithome.com.tw/news/132473&quot; target=&quot;_blank&quot;&gt;向這家總部位於佛州的新創公司提告&lt;/a&gt;。蘋果的論點是，Corellium 突破了蘋果安全機制而得以重製蘋果的iOS、iTunes及圖像使用者介面，侵害了蘋果的著作權。&lt;/p&gt;
-&lt;p&gt;本案預定在下周審理，雙方將傳喚證人。&lt;a href=&quot;https://www.forbes.com/sites/thomasbrewster/2021/08/11/apple-v-corellium-iphone-copyright-lawsuit-settles/&quot; target=&quot;_blank&quot;&gt;不過本周Forbes報導&lt;/a&gt;，法院公告顯示，已經達成和解，且雙方當事人及律師也都簽具了機密的和解條件。&lt;/p&gt;
-&lt;p&gt;雙方都未評論此事。不過&lt;a href=&quot;https://www.washingtonpost.com/technology/2021/08/10/apple-drops-corellium-lawsuit/&quot; target=&quot;_blank&quot;&gt;華盛頓郵報引述Corellium業務團隊指出&lt;/a&gt;，該公司仍然持續販售產品。&lt;/p&gt;
-&lt;p&gt;事實上，蘋果或許更在意iOS被公開研究。蘋果在法院文件中指控，這家小公司將其軟體販售給政府單位，使其能在iOS中找出破解漏洞。電子疆域基金會（EFF）曾批評蘋果此舉是濫用對版權的定義，將對安全研究界引發寒蟬效應。&lt;/p&gt;
-&lt;p&gt;Corellium的反駁論點則是，蘋果本意是藉機打擊越獄，不讓用戶繞過iOS的軟體限制，安裝未授權的應用程式。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/141950&quot; target=&quot;_blank&quot;&gt;去年12月美國地方法院駁回蘋果對版權的說詞&lt;/a&gt;，法官也認為Corellium作法屬於合理使用範圍。&lt;/p&gt;
-&lt;p&gt;但對法院駁回蘋果版權的說法這點，蘋果仍然可以上訴。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 12 Aug 2021 08:19:09 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146158 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146158#comments</comments>
 </item>
 </channel>
 </rss>
