@@ -6,6 +6,22 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>英國對臉書併購Giphy一案展開調查，若危害競爭將要求臉書出售Giphy</title>
+    <link>https://www.ithome.com.tw/news/146188</link>
+    <description> 臉書在去年5月宣布收購GIF圖庫暨分享平臺Giphy，並將Giphy納入Instagram麾下，當時外傳的收購金額為4億美元。然而，英國競爭與市場管理局（Competition and Markets Authority，CMA）本周表示，正在調查臉書與Giphy的合併案是否違反市場競爭，倘若答案是肯定的，可能會要求臉書出售Giphy資產。</description>
+     <pubDate>2021-08-13  02:08:43</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146188</guid>
+  </item>
+  <item>
+    <title>傳Amazon考慮監視客服員工打字以防止客戶個資外洩</title>
+    <link>https://www.ithome.com.tw/news/146187</link>
+    <description> 由於客服人員帳密被冒用或被買通洩露客戶個資情形嚴重，電商龍頭Amazon設法防堵。The Motherboard取得的一份內部文件顯示，Amazon正在評估導入監控客服人員鍵擊動作的技術，以防止不肖員工或駭客竊取客戶個資的情形。</description>
+     <pubDate>2021-08-13  02:08:55</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146187</guid>
+  </item>
+  <item>
     <title>明日起GitHub的Git操作將無法再採用密碼認證</title>
     <link>https://www.ithome.com.tw/news/146185</link>
     <description> GitHub周四（8/12）警告，從太平洋標準時間（PST）8月13日早上9點（臺北時間8月14日凌晨1點）起，GitHub.com將不再接受以帳號/密碼進行身分驗證的方式來執行Git操作，而是必須採用基於權杖（Tokens）的身分驗證方式才行。</description>
@@ -238,22 +254,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-11  07:08:57</pubDate>
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146141</guid>
-  </item>
-  <item>
-    <title>Google祭出兒童/青少年保護措施，可移除18歲以下使用者照片</title>
-    <link>https://www.ithome.com.tw/news/146140</link>
-    <description> 儘管現代的兒童或青少年都已與資訊科技密不可分，但各大社交平臺仍企圖在網路上保護這些未成年人，Google本周即宣布多項保護措施，包括可請求Google於圖片搜尋結果中刪除未滿18歲的兒童/青少年照片，也將YouTube上未成年的上傳預設值調整為最嚴格的隱私選項。</description>
-     <pubDate>2021-08-11  05:08:00</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146140</guid>
-  </item>
-  <item>
-    <title>臉書動手移除專門散布不實資訊的緬甸與俄羅斯網路</title>
-    <link>https://www.ithome.com.tw/news/146139</link>
-    <description> 《紐約時報》（The New York Time）在今年7月底的調查報導中，以源自俄羅斯、設立於倫敦的行銷公司Fazze為例，指出不實資訊的製造及散布已日益形成一個產業，而本周臉書即宣布，在今年7月該平臺移除了兩個「協作不真實行為」（Coordinated Inauthentic Behavior，CIB）網路，它們分別來自</description>
-     <pubDate>2021-08-11  04:08:02</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146139</guid>
   </item>
   </channel>
 </rss>
