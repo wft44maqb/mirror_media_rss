@@ -6,6 +6,19 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>臉書也將美國、部份國外員工回公司時程延到2022年1月</title>
+ <link>https://www.ithome.com.tw/news/146190</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.cnbc.com/2021/08/12/facebook-delays-return-to-office-until-january-2022-for-us-some-international-employees.html&quot; target=&quot;_blank&quot;&gt;CNBC報導&lt;/a&gt;，因為COVID-19疫情再次燃起，臉書周四再將美國員工以及部份海外員工回公司上班的日期，推遲到明年1月。&lt;/p&gt;
+&lt;p&gt;臉書聲明，資料是公司判斷員工返回公司的決策依據。由於近日健康資料顯示COVID-19 Delta變種的確診案例激增，本公司美國團隊在2022年1月之前，不會被要求返回公司上班，而某些海外國家也可望採行相同作法。臉書表示會持續關注情況，確保所有人安全回公司上班。&lt;/p&gt;
+&lt;p&gt;有鑒於美國COVID-19疫情隨管制放鬆再度復燃，使科技公司放緩公司重回正軌的腳步。&lt;a href=&quot;https://www.ithome.com.tw/news/146066&quot; target=&quot;_blank&quot;&gt;Amazon上個星期&lt;/a&gt;首先宣布允許美國員工在家辦公直到明年1月3日。&lt;a href=&quot;https://www.cnbc.com/2021/07/30/companies-are-already-pushing-their-return-to-office-plans-to-2022.html&quot; target=&quot;_blank&quot;&gt;Lyft也宣布同樣計畫&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;目前微軟、Google都還是維持今年10月回公司辦公的計畫，但也表示會持續關注疫情而調整措施。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 13 Aug 2021 07:15:30 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146190 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146190#comments</comments>
+</item>
+<item>
  <title>英國對臉書併購Giphy一案展開調查，若危害競爭將要求臉書出售Giphy</title>
  <link>https://www.ithome.com.tw/news/146188</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;臉書在去年5月宣布收購GIF圖庫暨分享平臺Giphy，並將Giphy納入Instagram麾下，當時外傳的收購金額為4億美元。然而，&lt;a href=&quot;https://www.gov.uk/government/news/facebook-s-takeover-of-giphy-raises-competition-concerns&quot; target=&quot;_blank&quot;&gt;英國競爭與市場管理局（Competition and Markets Authority，CMA）本周表示&lt;/a&gt;，正在調查臉書與Giphy的合併案是否違反市場競爭，倘若答案是肯定的，可能會要求臉書出售Giphy資產。&lt;/p&gt;
@@ -166,27 +179,6 @@
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="false">146166 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146166#comments</comments>
-</item>
-<item>
- <title>Dogfooding！GitHub.com工程團隊開發環境上Codespaces</title>
- <link>https://www.ithome.com.tw/news/146165</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;隨著GitHub的規模不斷擴增，程式碼庫也越來越龐大，為了讓GitHub新的開發成員快速上手，以及提供更方便的開發環境，&lt;a href=&quot;https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces/&quot;&gt;GitHub工程團隊從原先以macOS為中心的開發模型，轉而使用Codespaces&lt;/a&gt;，並且採用預建置等方法，將啟動開發環境的時間縮減至10秒鐘。另外，GitHub也宣布，開始向Team和Enterprise Cloud方案用戶提供Codespaces，並擴展個人方案用戶的測試規模。&lt;/p&gt;
-&lt;p&gt;距離GitHub.com第一個程式碼提交已經14年，在這14年間，GitHub.com核心儲存庫已經收到超過一百萬次提交，而這些提交絕大多數，來自在macOS上建置和測試的開發人員，而隨著GitHub開發平臺不斷發展，macOS模型已經不適用。&lt;/p&gt;
-&lt;p&gt;多年來，GitHub採用一種稱為Scripts-to-rule-them-all的方法，讓新加入開發團隊的成員，可以複製github/github儲存庫、執行設定、載入腳本，並且能夠在半天的時間，就成功於本地執行個體執行GitHub.com，當流程無法順利進行，則腳本會自動幫新進成員連接到內部支援人員，以快速解決問題。&lt;/p&gt;
-&lt;p&gt;但GitHub提到，儘管他們做出許多努力，但本地端開發環境仍然非常脆弱容易出錯，有時候甚至需要開發者花數小時的時間來恢復開發環境，而且這種情形並不少見，他們甚至特別編寫了一個稱為--nuke-from-orbit的腳本來解決這類問題，該腳本會嘗試刪除設定，盡可能將本地環境恢復成為良好狀態。&lt;/p&gt;
-&lt;p&gt;另外，GitHub認為，單一上下文且訂製的本地端開發環境，與現在GitHub的營運需求，包含即時啟動、從任何地方存取的哲學格格不入，開發者在跨多個專案的多個分支上協作更是不便，當新分支加入新的相依項目、發布架構更改或是從不同的SHA分支的時候，常需要花費45分鐘以上的等待時間。&lt;/p&gt;
-&lt;p&gt;在GitHub建構Codespaces時，他們發現不少企業遭遇相同的問題，而這些企業也在組織內建構類似Codespaces的平臺，來解決這類問題，GitHub提到，在大規模的組織中，消除這類型的生產力損失，將會是明顯提升生產力的好方法。&lt;/p&gt;
-&lt;p&gt;Codespaces是GitHub在2020年發布的新服務，讓用戶可以直接在網頁IDE編輯程式碼，並且使用所有VS Code瀏覽器版本的所有功能，包括配置程式碼和相依項目等功能，其一大優點是可以簡單地切換開發環境。官方提到，將GitHub.com程式碼庫搬到Codespaces，解決了GitHub開發環境現有的缺點。&lt;/p&gt;
-&lt;p&gt;Codespaces讓開發者依據手上任務，按需獲取開發環境，不過，這也帶來新的問題，基於任務的工作流程，需要接近即時的速度，但因為光是簡單地複製GitHub.com儲存庫13 GB的檔案，就需要20分鐘，再加上相依性配置設定，要完整載入一個GitHub.com程式碼空間，需要花費45分鐘，這個時間無法滿足基於任務的開發環境條件。&lt;/p&gt;
-&lt;p&gt;因此GitHub進行了一些方法來加速獲取程式碼庫的速度，首先是改變Codespaces複製的方法，讓Codespaces進行淺層複製，不在配置時進行完整複製，僅在最新的程式碼提交，Codespace創建之後，才會在背景進行非淺層複製，這樣可使得一開始複製時間，從20分鐘降為90秒。同時，GitHub每晚還會執行一個GitHub Action，將儲存庫、相依項目和建置等檔案打包成為映像檔，這個映像檔被用作github/github的開發容器，以配置即程式碼的方式建構Codespaces環境。&lt;/p&gt;
-&lt;p&gt;這兩項改變以及一些應用和服務層級的最佳化，使得GitHub.com程式碼空間的創建時間，從45分鐘縮短至5分鐘。雖然5分鐘已經是很大的進步了，但是GitHub仍不滿足，因此他們又採用預建置方法，在Codespaces池中準備事先啟動的開發環境，等待需要的開發者連接存取，這樣的方法可以讓開發者在10秒內，立即使用到GitHub.com開發環境。&lt;/p&gt;
-&lt;p&gt;在Codespaces中，GitHub能夠簡單地配置每個開發者所使用的機器規格，一開始使用8核心、16 GB記憶體的虛擬機器，為了符合更多元服務的需求，因此進一步提高機器規格到32核心、64 GB記憶體的虛擬機器，GitHub提到，這個過程只需要更改一行配置，就能夠立刻升級每個工程師的機器。&lt;/p&gt;
-&lt;p&gt;除了使用VS Code作為主要來操作程式碼空間的工具，原本使用Vim和Emacs的用戶，也能夠使用程式碼空間，GitHub藉由升級預建置映像檔，讓該映像檔使用GitHub公鑰，並且開啟22連接埠，並從埠口轉送程式碼空間，讓不使用圖形介面編輯器的用戶也可以用到Codespaces。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 13 Aug 2021 03:16:12 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146165 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146165#comments</comments>
 </item>
 </channel>
 </rss>
