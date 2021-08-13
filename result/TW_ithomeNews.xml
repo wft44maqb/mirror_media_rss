@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/7397" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/257" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/7397</link>
+    <link>https://www.ithome.com.tw/latest/atom/257</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/7397" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/257" rel="self" type="application/rss+xml" />
       <item>
+    <title>Fintech周報第193期：台新銀行與新創業者合作開發，為外籍移工推出ATM跨境匯款代收服務</title>
+    <link>https://www.ithome.com.tw/news/146180</link>
+    <description> </description>
+     <pubDate>2021-08-13  12:08:54</pubDate>
+ <dc:creator>李靜宜</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146180</guid>
+  </item>
+  <item>
     <title>趨勢科技修補已遭到攻擊的Apex One產品漏洞</title>
     <link>https://www.ithome.com.tw/news/146178</link>
     <description> 趨勢科技近日發布安全公告，修補旗下端點安全產品，包括本地部署及雲端版Apex One中的4項漏洞，同時警告其中2個漏洞已經被駭客串聯起來對用戶發動攻擊。</description>
@@ -245,14 +253,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-11  02:08:59</pubDate>
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146136</guid>
-  </item>
-  <item>
-    <title>微軟8月Patch Tuesday修補3個零時差漏洞， 包含一新的Print Spooler漏洞</title>
-    <link>https://www.ithome.com.tw/news/146135</link>
-    <description> 微軟於本周二（8/10）的Patch Tuesday修補了44個安全漏洞，當中有7個被列為重大（Critical）漏洞。另有3個已被公開的漏洞，包含尚未被開採的CVE-2021-36942與涉及Print Spooler的新漏洞CVE-2021-36936，以及已經遭到開採的CVE-2021-36948。此外，微軟本周亦修補了於今年7月中對外警告、有關Print Spooler的CVE-2021-34481漏洞。</description>
-     <pubDate>2021-08-11  02:08:17</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146135</guid>
   </item>
   </channel>
 </rss>
