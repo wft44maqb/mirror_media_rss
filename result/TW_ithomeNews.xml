@@ -4,7 +4,7 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=113&amp;profile=rss20" rel="self" type="application/rss+xml" />
       <item>
     <title>Google應用神經網路開發音訊編碼器，不只壓縮音訊還能抑制噪音</title>
     <link>https://www.ithome.com.tw/news/146194</link>
