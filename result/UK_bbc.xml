@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Aug 2021 07:53:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 07:54:59 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -43,6 +43,13 @@
             <pubDate>Thu, 12 Aug 2021 10:46:34 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[烏賈禁賽：東京奧運英國短跑接力銀牌選手興奮劑檢測呈陽性]]></title>
+            <description><![CDATA[英國短跑選手、東京奧運4x100接力銀牌得主CJ·烏賈違禁物質檢測呈陽性，已被禁賽；若奧運成績被取消，中國將可能遞補獲得獎牌。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58197504</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58197504</guid>
+            <pubDate>Fri, 13 Aug 2021 07:52:02 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[騰訊和微信：中國互聯網巨頭為何遭遇罕見的公益訴訟]]></title>
             <description><![CDATA[中國監管部門經常對企業進行約談，傳達比較即時的監管要求。這種情況下，通過公益訴訟的方式再對騰訊監管是否還有必要？]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58169210</link>
@@ -55,13 +62,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58184074</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58184074</guid>
             <pubDate>Thu, 12 Aug 2021 06:39:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[利比亞境內的俄羅斯瓦格納僱傭軍]]></title>
-            <description><![CDATA[利比亞自2011年起便陷入戰亂之中。俄羅斯雖然沒有參加作戰，但在利比亞境內卻有俄羅斯戰士的蹤跡。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58171519</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58171519</guid>
-            <pubDate>Fri, 13 Aug 2021 06:04:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗戰爭：美國結束「最持久軍事行動」的四大相關問題]]></title>
@@ -188,6 +188,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58182825</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58182825</guid>
             <pubDate>Thu, 12 Aug 2021 07:52:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[利比亞境內的俄羅斯瓦格納僱傭軍]]></title>
+            <description><![CDATA[利比亞自2011年起便陷入戰亂之中。俄羅斯雖然沒有參加作戰，但在利比亞境內卻有俄羅斯戰士的蹤跡。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58171519</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58171519</guid>
+            <pubDate>Fri, 13 Aug 2021 06:04:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[安德魯王子性侵案律師：他不能無視法庭]]></title>

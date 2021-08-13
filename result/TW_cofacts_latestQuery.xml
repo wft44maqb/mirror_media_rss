@@ -4,7 +4,7 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Fri, 13 Aug 2021 07:54:21 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 08:01:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
@@ -202,6 +202,27 @@ https://tfc-taiwan.org.tw/articles/4823
             ]]></description>
         </item>
         <item>
+            <title><![CDATA[https://www.wealth.com.tw/home/articles/⋯⋯]]></title>
+            <link>https://cofacts.tw/article/d6wa228siwb2?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/d6wa228siwb2?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Fri, 13 Aug 2021 02:02:21 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/d6wa228siwb2?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          https://www.wealth.com.tw/home/articles/33325?utm_source=line&utm_medium=wealth
+        
+              <h2><a href="https://cofacts.tw/reply/q0OBPnsBgBgcuemXxwqM">最新回應</a></h2>
+              <p>含有正確訊息 by 辛小潭</p>
+              歐盟藥品管理局（European Medicines Agency，EMA）在8月11日發布疫苗安全性報告，指出根據少部份民眾回報，安全委員會正在評估是否將多形性紅斑（Erythema multiforme）、腎絲球腎炎（Glomerulonephritis）及腎病症候群（Nephrotic syndrome）列為mRNA疫苗可能的副作用。
+
+              <h2>出處</h2>
+              ANC新聞報導:
+https://www.youtube.com/watch?v=AG8TZVbTKQY
+
+台視新聞:
+https://www.youtube.com/watch?v=TNMfOuXxMHo
+            ]]></description>
+        </item>
+        <item>
             <title><![CDATA[單腳站立等於走路50分鐘]]></title>
             <link>https://cofacts.tw/article/ouz87f6in3kg?utm_source=Others&amp;utm_medium=RSS</link>
             <guid>https://cofacts.tw/article/ouz87f6in3kg?utm_source=Others&amp;utm_medium=RSS</guid>
@@ -256,29 +277,6 @@ https://udn.com/news/story/7321/5577891
 
               
               
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[美國FDA 回函台灣，打臉衛福部無恥護航：
-無法接受…以免疫橋接方式= 3 期實⋯⋯]]></title>
-            <link>https://cofacts.tw/article/12nmqkxn8jwsj?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/12nmqkxn8jwsj?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Thu, 12 Aug 2021 23:08:00 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/12nmqkxn8jwsj?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          美國FDA 回函台灣，打臉衛福部無恥護航：
-無法接受…以免疫橋接方式= 3 期實驗。
-https://udn.com/news/story/122190/5537728?utm_source=udnplus (獨／免疫橋接能替代三期試驗？知情人士：美FDA已打臉 | 聯合新聞網：最懂你的新聞網站)
-        
-              <h2><a href="https://cofacts.tw/reply/BkOoPHsBgBgcuemX0glD">最新回應</a></h2>
-              <p>含有錯誤訊息 by Lopez</p>
-              (1)原文引用聯合報報導 參考[1]. 原報導指出
-“”美國FDA回函表示，「Unfortunately,FDA is still discussing approaches to immunobridging and an official position at this time is not possible.」（可翻譯為：「很遺憾，食品藥物管理局仍在討論免疫橋接的方法，目前尚不可能有正式立場。」）“”
-(2) po文故意避開原報導的翻譯，另行造謠“《無法接受》…以免疫橋接方式= 3 期實驗“，應是造假。
- 
-
-              <h2>出處</h2>
-              [1] https://udn.com/news/story/122190/5537728?utm_source=udnplus
             ]]></description>
         </item>
     </channel>
