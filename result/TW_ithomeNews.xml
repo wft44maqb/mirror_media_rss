@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?feed=rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>Google應用神經網路開發音訊編碼器，不只壓縮音訊還能抑制噪音</title>
+    <link>https://www.ithome.com.tw/news/146194</link>
+    <description> Google發表最新將人工智慧應用在音訊解編碼器的研究，釋出端到端神經解編碼器SoundStream，這是一個應用神經網路的音訊解編碼器，可以提供高音質的音訊，並且支援清楚的語音、有雜音和回聲的語音，甚至是混雜音樂、語音和環境音的音訊，Google提到，SoundStream是第一個可以處理語音和音樂的神經網路解編碼器，可以在智慧型手機上即時執行。</description>
+     <pubDate>2021-08-13  04:08:54</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146194</guid>
+  </item>
+  <item>
     <title>穩定幣USDC發行商Circle宣布將朝向正式銀行邁進</title>
     <link>https://www.ithome.com.tw/news/146192</link>
     <description> 穩定幣USDC發行商Circle本周宣布，將努力發展成一家具備100%準備金的全儲備銀行，成為美國正式的商業銀行，且會在符合美國聯邦儲備（Federal Reserve）、美國財政部、美國貨幣總稽核辦公室（OCC）與美國聯邦存款保險公司（FDIC）的監督與風險管理要求的條件下經營。</description>
@@ -245,15 +253,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-12  07:08:00</pubDate>
  <dc:creator>林信良</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/voice/146077</guid>
-  </item>
-  <item>
-    <title>用戶宅在家避疫情增加看播時長，直播平臺靠IT解流量尖峰挑戰</title>
-    <link>https://www.ithome.com.tw/people/146076</link>
-    <description> 2020年，當全世界飽受病毒肆虐時，因防疫有成，臺灣猶如平行世界，依然可以如往地生活，然而，提供跨國服務的業者早已面對海外不平靜的情勢，感受疫情改變用戶習慣帶來的衝擊。全球擁有超過5千萬名用戶的直播服務業者17Live，就是其中一家深刻感受海外疫情衝擊的企業。
-去年3月，日本爆發疫情後，占據日本直播龍頭的17Live，開始面對系統流量增長的挑戰。日本民眾遵守防疫規範長期宅在家，大幅增加使用網路服務的時間。因為缺少了許多實體社交機會，具即時互動特性的直播服務比過去更加受到歡迎，迅速湧入了爆量用戶，不但考驗直播平臺既有雲端架構的部署，也考驗即時性互動功能的支援力。</description>
-     <pubDate>2021-08-12  07:08:00</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/people/146076</guid>
   </item>
   </channel>
 </rss>

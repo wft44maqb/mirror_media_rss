@@ -6,7 +6,7 @@
  <description></description>
  <language>zh-hant</language>
 <item>
- <title>Google應用神經網路開發音訊編碼器，不只能壓縮音訊還能抑制噪音</title>
+ <title>Google應用神經網路開發音訊編碼器，不只壓縮音訊還能抑制噪音</title>
  <link>https://www.ithome.com.tw/news/146194</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google發表最新將人工智慧應用在音訊解編碼器的研究，釋出端到端神經解編碼器&lt;a href=&quot;https://ai.googleblog.com/2021/08/soundstream-end-to-end-neural-audio.html&quot;&gt;SoundStream&lt;/a&gt;，這是一個應用神經網路的音訊解編碼器，可以提供高音質的音訊，並且支援清楚的語音、有雜音和回聲的語音，甚至是混雜音樂、語音和環境音的音訊，Google提到，SoundStream是第一個可以處理語音和音樂的神經網路解編碼器，可以在智慧型手機上即時執行。&lt;/p&gt;
 &lt;p&gt;音訊解編碼器用於有效率地壓縮音訊，以減少儲存和網路頻寬需求，而理想的情況，音訊解編碼器的存在，應該要讓使用者無感，包括無法察覺解碼後的音訊，與原始音訊間存在差異，而且解編碼的過程，也不能產生可察覺的延遲。&lt;/p&gt;
