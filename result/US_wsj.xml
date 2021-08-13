@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Aug 2021 02:49:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 02:54:24 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 13 Aug 2021 02:49:31 GMT</pubDate>
+        <pubDate>Fri, 13 Aug 2021 02:54:23 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -63,6 +63,13 @@
             <pubDate>Thu, 12 Aug 2021 07:30:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[新冠疫苗接種率達80%的以色列暴發新一波疫情]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LM243_ISRVAX_OR_20210809111633.jpg" class="webfeedsFeaturedVisual" alt=""/><p>自8月初以來，德爾塔變異毒株導致以色列重症病例數量達到400例，其中240名是接種了疫苗的人。醫學專家得到的初步數據顯示，60歲及以上人群已接種新冠疫苗者的重症保護率已從4月中旬的97%下降至81%。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97%E6%8E%A5%E7%A8%AE%E7%8E%87%E9%81%9480%E7%9A%84%E4%BB%A5%E8%89%B2%E5%88%97%E6%9A%B4%E7%99%BC%E6%96%B0%E4%B8%80%E6%B3%A2%E7%96%AB%E6%83%85-11628822711</link>
+            <guid isPermaLink="false">CT-BGH-20210813102017</guid>
+            <pubDate>Fri, 13 Aug 2021 02:45:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[WHO新冠溯源小組負責人呼籲對武漢實驗室進行更仔細的審查]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LN882_COVIDL_OR_20210812180619.jpg" class="webfeedsFeaturedVisual" alt=""/><p>WHO新冠溯源小組的丹麥負責人本·安巴雷克呼籲對中國城市武漢的一個實驗室進行更嚴格的檢查，該實驗室位於發生第一起已知的聚集性感染病例的市場附近。</p>]]></description>
             <link>https://cn.wsj.com/articles/who%E6%96%B0%E5%86%A0%E6%BA%AF%E6%BA%90%E5%B0%8F%E7%B5%84%E8%B2%A0%E8%B2%AC%E4%BA%BA%E5%91%BC%E7%B1%B2%E5%B0%8D%E6%AD%A6%E6%BC%A2%E5%AF%A6%E9%A9%97%E5%AE%A4%E9%80%B2%E8%A1%8C%E6%9B%B4%E4%BB%94%E7%B4%B0%E7%9A%84%E5%AF%A9%E6%9F%A5-11628821509</link>
@@ -82,13 +89,6 @@
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E9%A0%90%E8%A8%88%E5%B0%87%E5%9F%BA%E6%96%BC%E5%AE%89%E5%85%A8%E6%93%94%E6%86%82%E5%A4%A7%E5%B9%85%E7%B8%AE%E7%B7%A8%E9%A7%90%E5%96%80%E5%B8%83%E7%88%BE%E5%A4%A7%E4%BD%BF%E9%A4%A8%E4%BA%BA%E5%93%A1-11628814608</link>
             <guid isPermaLink="false">CT-BGH-20210813081306</guid>
             <pubDate>Fri, 13 Aug 2021 02:20:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[美國7月PPI環比躍升1%]]></title>
-            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-IO953_MANUFA_G_20201214134450.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國7月份批發價格連續第六個月大幅上漲，幾乎沒有證據表明一波大的通貨膨脹即將見頂。美國7月份生產者價格指數同比上升7.8%，創下2010年該指數重置以來的最大單月同比升幅。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B7%E6%9C%88ppi%E7%92%B0%E6%AF%94%E8%BA%8D%E5%8D%871-11628811908</link>
-            <guid isPermaLink="false">CT-ECB-20210813073544</guid>
-            <pubDate>Fri, 13 Aug 2021 02:41:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Facebook將返回辦公室的日期推遲到2022年1月]]></title>
