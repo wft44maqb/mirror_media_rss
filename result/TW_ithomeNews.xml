@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/110" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/110</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=821&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/110" rel="self" type="application/rss+xml" />
       <item>
+    <title>三星發表第三代摺疊螢幕手機Galaxy Z Fold 3與Galaxy Z Flip 3</title>
+    <link>https://www.ithome.com.tw/news/146177</link>
+    <description> 南韓的三星電子在本周三（8/11）發表了該公司第三代的兩款摺疊螢幕手機Galaxy Z Fold 3與Galaxy Z Flip 3，它們皆支援5G網路，售價分別是1799.99美元與999.99美元，即日起開放預購，預計於8月27日上市。</description>
+     <pubDate>2021-08-13  11:08:03</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146177</guid>
+  </item>
+  <item>
     <title>甲骨文以機器學習強化MySQL Heatwave，叫戰Amazon Aurora、Google BigQuery</title>
     <link>https://www.ithome.com.tw/news/146176</link>
     <description> 甲骨文本周宣布，MySQL Autopilot以機器學習技術來強化線上資料庫查詢加速引擎MySQL Heatwave的運作，挑戰Amazon Aurora、Google BigQuery和Snowflake。</description>
@@ -248,14 +256,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-11  12:08:31</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146131</guid>
-  </item>
-  <item>
-    <title>HashiCorp讓用戶跨地區聯合HCP Consul叢集建立高可用性系統</title>
-    <link>https://www.ithome.com.tw/news/146128</link>
-    <description> HashiCorp新發表Consul Plus方案提供聯合（Federation）功能，可以讓用戶簡單地將Consul用於跨地區的應用程式，主要帶來的好處包含更快的故障恢復和更強的系統韌性，能夠良好地服務跨多個地區的使用者，且支援重疊IP範圍。</description>
-     <pubDate>2021-08-11  11:08:30</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146128</guid>
   </item>
   </channel>
 </rss>
