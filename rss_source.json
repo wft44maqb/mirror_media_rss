@@ -71,5 +71,8 @@
 	"香港_浸大事實查核中心@HK_hkbuFactCheck": "https://comd.hkbu.edu.hk/factcheckservice/feed/",
 	"香港_香港電腦保安事故協調中心_資安快訊@HK_hkcert": "https://www.hkcert.org/tc/getrss/security-bulletin",
 	"香港_頭條日報@HK_headlineDaily": "https://hd.stheadline.com/rss/news/daily/",
+	"香港_香港政府新聞網_政府澄清@HK_newsHKclarification": "https://www.news.gov.hk/tc/categories/clarification/html/articlelist.rss.xml",
+	"香港_衞生防護中心_新聞稿@HK_chpPress": "https://www.chp.gov.hk/rss/pressreleases_zh_tw_RSS.xml",
+	"香港_衞生防護中心_非傳染病直擊@HK_chpNcdaware": "https://www.chp.gov.hk/rss/ncdaware_zh_tw_RSS.xml",
 	"未知_GreatFire#可能跟法輪功有關係@UNK_greatfire": "https://zh.greatfire.org/news/blog/rss"
 }
