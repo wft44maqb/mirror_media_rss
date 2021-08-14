@@ -14,8 +14,304 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Fri, 13 Aug 2021 22:49:18 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Aug 2021 00:22:19 GMT</lastBuildDate>
         <ttl>60</ttl>
+        
+        <item>
+            <title><![CDATA[AlphaFold：AI能否解决未来疫情大流行｜TECH]]></title>
+            <description><![CDATA[<p>2021年7月中下旬，Google母公司Alphabet拥有的人工智能企业DeepMind公开了旗下蛋白质结构预测程式AlphaFold的原始码，以及其为包括人类在内等21个物种总共36.5万个3D蛋白质结构图像数据，比蛋白质资料库（PDB）的约18万个蛋白质结构在数字上超出一倍多。由于蛋白质的结构决定其运作，如果人工智能能够让我们迅速掌握蛋白质结构的话，这对更有效控制未来疫情，以至处理塑胶废料等幅度极广的问题，都有重大助益。</p><p>跟DNA由简单4个核苷酸序列组成类似，蛋白质由数目甚低的约20种胺基酸排列而成。一个蛋白质的胺基酸数目可由数十个至数千个不等，由于胺基酸的组合数目随着其胺基酸数量而以几何级数字上升——例如由10个胺基酸组成的序列就有超过10万亿个可能组合——所以潜在的“蛋白质序列”数字非常巨大，自然界只现实化了其中一小部分，为人类未来研究留下广阔空间。<b>一个等待人工智能解决的问题？</b>而让蛋白质研究更加复杂的，是蛋白质的运作取决于其3D结构，例如正正是新冠病毒的外围尖刺蛋白（Spike Protein）结构让它能像钥匙一般接上不少人体细胞上的ACE2膜蛋白结构，从而造成感染。</p><figure>
+        <img src="https://media.dwnews.net/hk01/5IKEVPMTxdOyBVgPXcwVhNxSC7I%3D/320*0/media/images/dw/20210806/500312357759619072342059.jpeg" alt="新冠病毒的受体结合域（receptor-binding domain，即所谓的尖刺蛋白）与细胞ACE2受体（绿色部份）结合的3D蛋白质结构图。（《Nature》网站截图）" referrerpolicy="no-referrer">
+        <figcaption>新冠病毒的受体结合域（receptor-binding domain，即所谓的尖刺蛋白）与细胞ACE2受体（绿色部份）结合的3D蛋白质结构图。（《Nature》网站截图）</figcaption>
+        </figure><br><p>虽然蛋白质的胺基酸序列理论上将能决定蛋白质的3D结构，但由于此结构的形成至少取决于胺基酸之间各种连结的物理和化学关系，一个蛋白质序列在折叠成一个3D结构的时候有极大的自由度。根据美国分子生物学家利文索尔（Cyrus Levinthal）的说法，一个普通的蛋白质可有10^300个可能组合。如果蛋白质的折叠是要经历过种种不同的组成才达至其最终结构的话，其需时将比宇宙寿命还要长，然而在实际上，蛋白质的折叠几乎是即时性的。这就产生了所谓的“利文索尔悖论”（Levinthal’s Paradox）。</p><p>这种有近乎无限种可能组合，却可根据一些基本的法则或关连性而达至一定目标结果的问题，正如DeepMind的AlphaGo所要解决的“围棋”问题一般，看起来就很像是深度学习人工智能能够解决的疑问。</p><figure>
+        <img src="https://media.dwnews.net/hk01/pMrSXccVA46z3ZfymGOKeDNW-GA%3D/320*0/media/images/dw/20210806/500309871590117376052849.jpeg" alt="人类嗅觉受器的蛋白质预测3D模型，左方显示模型中各部份的模型可信度自评结果。（AlphaFold Protein Structure Database）" referrerpolicy="no-referrer">
+        <figcaption>人类嗅觉受器的蛋白质预测3D模型，左方显示模型中各部份的模型可信度自评结果。（AlphaFold Protein Structure Database）</figcaption>
+        </figure><b>序列与结构之间的差距</b>然而，如果一组蛋白质的3D结构是很容易可以透过观察而得知的话，AlphaFold的发展可能不会像今天般具震撼性。但事实上，要观察一组蛋白质的3D结构极其困难，传统上只能透过将目标蛋白质转化为结晶体，再由X光进行观察，或者以极低温急速冷冻，再用电子显微镜进行观察。然而，这些方法却极其费时失事，例如要将蛋白质转化为质量高的结晶体在极端的例子之下就可花费10年以上的时间。<p></p><p>同时，随着近年蛋白质测序的发展，蛋白质序列资料库</p><p>已收集了超过两亿个蛋白质序列。但正如上文所料，我们所知的蛋白质3D结构却只有18万个左右。从两者差距可见，从蛋白质序列推测出其具体结构的需求极大，而AlphaFold就因而应运而生。</p><p>事实上，早在上世纪80年代和90年代就有人尝试以电脑推测蛋白质结构，然而当时类似深度学习人工智能的技术在电脑计算能力有限的背景下尚未出现，相关尝试多以失败告终。</p><figure>
+        <img src="https://media.dwnews.net/hk01/Q7h0t36qsaQ__2YNq6RhD-Janx8%3D/320*0/media/images/dw/20210806/500313282897252352504913.jpeg" alt="AlphaFold的数据库预计在本年底前将公布多达1.3亿个蛋白质3D结构预测模型。（AlphaFold Protein Structure Database）" referrerpolicy="no-referrer">
+        <figcaption>AlphaFold的数据库预计在本年底前将公布多达1.3亿个蛋白质3D结构预测模型。（AlphaFold Protein Structure Database）</figcaption>
+        </figure><b>难题已被解决？</b>然而，推测蛋白质结构的难题一直存在。1994年，有学者就创办了两年一度的<p></p><p>（Critical Assessment of protein Structure Prediction，CASP），以最近以实验方式发现、尚未公布的蛋白质结构为题目，考验参赛团队的预测能力，其中一项主要判准是以团队预测结果与实验得出结果对比得出的准确度作评分*。以首五佳结果作计算，在2016年未有AlphaFold参赛之前，最佳团队得分只在40分的水平（满分为100分，90分以上可被视为与实验证明的结构相等）。</p><blockquote>*准确度以所谓的“整体距离测试”（Global Distance Test，GDT）为标准，主要量度预测结构中与正确胺基酸位置处于一定短距离之中的胺基酸数量比例。</blockquote><p>2018年，AlphaFold首次参赛已有接近60分的水平，到2020年更接近90分，大大抛离了其各科学团队。一位德国演化生物学家Andrei Lupas就指，AlphaFold的程式使他找到一个使其实验室困惑十年的蛋白质结构；美国华盛顿大学的生物化学家David Baker亦指在参照AlphaFold的程式设计后，他们的预测程式表现已几乎比得上AlphaFold。</p><p>去年CASP比赛之后，其中一位创办人就称：“在某种意义之下，（预测蛋白质结构）的问题已被解决。”<b>疫情中的牛刀小试</b>在去年疫情来袭之初，AlphaFold已小试牛刀，将其程式用作预测新冠病毒的各种蛋白质结构之上，</p><p>。本年5月一篇发表在《自然-方法》（Nature Methods）期刊的</p><p>，亦显示在新冠毒物的17个至少部分被实验解决的蛋白质结构中，包括AlphaFold在内的预测程式都达至甚为准确的结果，而他们达至结果3D模型的速度平均比实验方式快86天。</p><figure>
+        <img src="https://media.dwnews.net/hk01/xu9GcSW-jk5cZq7zEn4rT5G7ZK0%3D/320*0/media/images/dw/20210806/500313996159619072629038.jpeg" alt="AlphaFold参加CASP比赛后的表现增长。（DeepMind网站截图）" referrerpolicy="no-referrer">
+        <figcaption>AlphaFold参加CASP比赛后的表现增长。（DeepMind网站截图）</figcaption>
+        </figure><br><p>如果类似AlphaFold的蛋白质预测程式在未来能够大致可靠地替代实验结果的话，针对类似新冠肺炎大流行的病毒的药物研究和疫苗开发，将可能会比这次疫情中的速度更快。伴随着mRNA技术的发展，我们对于病毒各种蛋白质结构的迅速掌握，以至对其抗体结构的准确预测，除了可加快开发疫苗之外，更或可直接以mRNA技术指示人体制造出能针对病苗的抗体。</p><p>当然，AlphaFold此刻的进展只是一个开端，未来尚有很长的一段路要走。首先，蛋白质很多时候是以复合体的形式运作，而AlphaFold的预测则集中於单一蛋白质的结构之上。上述的《白然-方法》论文就指出，要描述大分子蛋白质复合体的结构尚是一大挑战。同时，AlphaFold预测的可靠程度尚须实验进一步验证。</p><p>不过，AlphaFold对于蛋白质复合体结构的预测其实已能达至一定程度的准确；而且其对自身的预测局限也有</p><p>——AlphaFold会为自身的预测提供可信度评分，目前分析显示其评分较低的都出现在其预测被证明有错，或者该独立蛋白质本身就结构不稳定的例子上。由此可见，未来这一段路是很可能走得完的。</p><p>如果未来我们能够快速并准确地预测蛋白质结构，甚至设计出新的蛋白质，这将为我们的生活带来重大改变，包括制药、食物生产，各种工业用酵素应用等等。例如在自然环境中极难化解的塑胶制品就能被不同的</p><p>加速化解，蛋白质结构预测的技术将能在此扮演重要角色。</p><p>《自然》（Nature）杂志为AlphaFold的发展</p><p>了十数位研究人员，他们的共识是，要预测人工智能在生命科技上的应用将有什么影响尚是言之过早，可是任何影响都将会是“变革性的”（transformative）。</p><p>2021年是玛丽雪莱（Mary Shelley）署名出版（即在巴黎出版的第二版）《科学怪人》（Frankenstein）的200周年纪念，该书象征了人类对科学发展的焦虑和恐惧。两百年后的今天，科学却是带领全世界走出新冠疫情阴霾的唯一出路。这也许是在告诉我们，即使是应用广如对蛋白质结构操控的科技，只是人类手中的工具，如何妥当地把握科学带来的可能性将决定我们未来的命运。</p>]]></description>
+            <pubDate>Fri, 13 Aug 2021 13:19:01 GMT</pubDate>
+            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60255187/AlphaFoldAI%E8%83%BD%E5%90%A6%E8%A7%A3%E5%86%B3%E6%9C%AA%E6%9D%A5%E7%96%AB%E6%83%85%E5%A4%A7%E6%B5%81%E8%A1%8CTECH</guid>
+            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60255187/AlphaFoldAI%E8%83%BD%E5%90%A6%E8%A7%A3%E5%86%B3%E6%9C%AA%E6%9D%A5%E7%96%AB%E6%83%85%E5%A4%A7%E6%B5%81%E8%A1%8CTECH</link>
+            
+            
+            
+            <author><![CDATA[叶德豪]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[东京奥组委改口　首次承认拉姆达与奥运有关]]></title>
+            <description><![CDATA[<blockquote>据日媒报道称，东京奥运相关工作人员透露称，从秘鲁飞往日本被确诊感染拉姆达（Lambda）变种毒株女性是来日本参加东奥闭幕的官员。在7月20日，即奥运会开始前，她抵达羽田机场时被发现受到感染。</blockquote><figure>
+        <img src="https://media.dwnews.net/hk01/vhqyWb_ldStU098nZ7aG-nYg6EA%3D/320*0/media/images/dw/20210811/502164023509258240854369.jpeg" alt="2021年8月6日，日本副总理麻生太郎专属司机被确诊感染上“拉姆达”变种病毒。（Getty）" referrerpolicy="no-referrer">
+        <figcaption>2021年8月6日，日本副总理麻生太郎专属司机被确诊感染上“拉姆达”变种病毒。（Getty）</figcaption>
+        </figure><br><p>据日本《读卖新闻》8月13日报道称，东京奥运相关工作人员透露称，1名女性从秘鲁飞往日本时被证实是第一位感染拉姆达变异株病毒的人，而她是来日本参加东京奥运闭幕的官员。在7月20日，即奥运会开幕前3天，她抵达羽田机场时被发现受到感染。</p><p>然而在日本厚生劳动省7月30日和8月6日的例行记者会上，该病例却并未被提及，一直到8月6日晚才发布消息。据悉，此举意为日方在奥运会期间故意不让新冠病毒变种的消息出现在新闻发布会上。</p><p>而日前，国际奥运组委会（IOC）的公共关系负责人在7月29日的新闻发布会上表示，不相信东京新冠疫情感染扩大会由奥运会相关人员传播。</p><p>国际奥委会相关人员在一次新闻发布会上说：“我们是做测试最多的群体，我们也在限制在运动员队伍中的人们外出。我们不认为我们将疾病传播到了东京。”并否定了疫情可能源于奥运会相关官员的可能性。</p><p>而在7月28日，日本首相菅义伟拒绝接受记者对感染人数激增一事的采访。对此，日本内阁官房长加藤胜信在7月29日的新闻发布会上也表示，当记者询问如果应对感染人数新高时，没有办法给出答案，没什么好说的。<b>推荐阅读：</b></p>]]></description>
+            <pubDate>Fri, 13 Aug 2021 13:09:01 GMT</pubDate>
+            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256435/%E4%B8%9C%E4%BA%AC%E5%A5%A5%E7%BB%84%E5%A7%94%E6%94%B9%E5%8F%A3%E9%A6%96%E6%AC%A1%E6%89%BF%E8%AE%A4%E6%8B%89%E5%A7%86%E8%BE%BE%E4%B8%8E%E5%A5%A5%E8%BF%90%E6%9C%89%E5%85%B3</guid>
+            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256435/%E4%B8%9C%E4%BA%AC%E5%A5%A5%E7%BB%84%E5%A7%94%E6%94%B9%E5%8F%A3%E9%A6%96%E6%AC%A1%E6%89%BF%E8%AE%A4%E6%8B%89%E5%A7%86%E8%BE%BE%E4%B8%8E%E5%A5%A5%E8%BF%90%E6%9C%89%E5%85%B3</link>
+            
+            
+            
+            <author><![CDATA[司亭亭]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[俄罗斯要求BBC驻莫斯科记者8月底前离境]]></title>
+            <description><![CDATA[<blockquote>俄罗斯国营电视台8月12日报道，俄罗斯已要求一名英国扩播公司（BBC）驻莫斯科记者，在8月底签证到期前离境，以报复英国对俄罗斯记者的歧视行为。</blockquote><p>俄罗斯24（Rossiya-24）新闻频道指，BBC记者雷恩斯福德（Sarah Rainsford）已被列为不受欢迎人物，并将以“象征式驱逐”的方式回国。</p><figure>
+        <img src="https://media.dwnews.net/hk01/XL9flVQmlaFL_R0e8rZU5uweSMU%3D/320*0/media/images/dw/20210813/502941048532635648985201.jpeg" alt="图为2014年3月25日英国伦敦的民众在英国广播公司总部外走过。（Getty）" referrerpolicy="no-referrer">
+        <figcaption>图为2014年3月25日英国伦敦的民众在英国广播公司总部外走过。（Getty）</figcaption>
+        </figure><br><p>俄罗斯24指，俄罗斯有关部门已决定不延长对雷恩斯福德外国记者的认证，以报复英国不为俄罗斯记者签发或延长签证。</p><p>路透社8月13日报道，英国广播公司及雷恩斯福德未有即时回应。英国驻莫斯科大使馆也暂未回应事件。<b>推荐阅读：</b></p>]]></description>
+            <pubDate>Fri, 13 Aug 2021 13:08:01 GMT</pubDate>
+            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256436/%E4%BF%84%E7%BD%97%E6%96%AF%E8%A6%81%E6%B1%82BBC%E9%A9%BB%E8%8E%AB%E6%96%AF%E7%A7%91%E8%AE%B0%E8%80%858%E6%9C%88%E5%BA%95%E5%89%8D%E7%A6%BB%E5%A2%83</guid>
+            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256436/%E4%BF%84%E7%BD%97%E6%96%AF%E8%A6%81%E6%B1%82BBC%E9%A9%BB%E8%8E%AB%E6%96%AF%E7%A7%91%E8%AE%B0%E8%80%858%E6%9C%88%E5%BA%95%E5%89%8D%E7%A6%BB%E5%A2%83</link>
+            
+            
+            
+            <author><![CDATA[何文翰]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[默克尔将于20日访俄　与普京举行会谈]]></title>
+            <description><![CDATA[<blockquote>德国总理默克尔（Angela Merkel）将于8月20日访问俄罗斯，并与俄罗斯总统普京（Vladimir Putin）进行会谈。</blockquote><figure>
+        <img src="https://media.dwnews.net/hk01/NGNqmVpKWpHFnGzPBKl5T_--Fbc%3D/320*0/media/images/dw/20210726/496411220648136704215738.jpeg" alt="2021年7月22日，德国总理默克尔举行了自己任期内的最后一场新闻记者会。（AP）" referrerpolicy="no-referrer">
+        <figcaption>2021年7月22日，德国总理默克尔举行了自己任期内的最后一场新闻记者会。（AP）</figcaption>
+        </figure><br><p>德国政府发言人在8月13日的新闻发布会上表示，德国总理默克尔将在8月20日访问俄罗斯。</p><p>他还表示：“总理将于8月20日前往莫斯科，显然，默克尔将在莫斯科与普京举行会晤，但是具体日程我们将于下周告知。”</p><p>日前7月22日，默克尔出席其任期内最后一次年度新闻发布会。回顾自己16年的执政生涯，除了带领德国应对5大危机之外，在对中美关系的处理上也明确了德国的立场。</p><p>默克尔谈论和中国的关系表示，德国应当为与中国关系的改善作出努力，同时她表示，德国现在已经在欧盟内做到了这点，现在美国也应该做到。<b>推荐阅读：</b></p>]]></description>
+            <pubDate>Fri, 13 Aug 2021 12:42:01 GMT</pubDate>
+            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256431/%E9%BB%98%E5%85%8B%E5%B0%94%E5%B0%86%E4%BA%8E20%E6%97%A5%E8%AE%BF%E4%BF%84%E4%B8%8E%E6%99%AE%E4%BA%AC%E4%B8%BE%E8%A1%8C%E4%BC%9A%E8%B0%88</guid>
+            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256431/%E9%BB%98%E5%85%8B%E5%B0%94%E5%B0%86%E4%BA%8E20%E6%97%A5%E8%AE%BF%E4%BF%84%E4%B8%8E%E6%99%AE%E4%BA%AC%E4%B8%BE%E8%A1%8C%E4%BC%9A%E8%B0%88</link>
+            
+            
+            
+            <author><![CDATA[司亭亭]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[中国副外长当上百外交官面质问：美国为何不敢开放德堡实验室]]></title>
+            <description><![CDATA[<blockquote>在新冠病毒溯源问题上，中美一直互相指责。中国副外长马朝旭8月13日召开新闻发布会，质问美国为何不敢开放德特里克堡实验室。</blockquote><p>2021年8月13日上午，中国外交部副部长马朝旭主持召开新冠病毒（SARS-CoV-2）溯源问题使节吹风会。吹风会以线上线下结合方式进行，160多位驻华使节和国际组织代表出席。中国—世卫组织（WHO）溯源联合研究专家组中方组长梁万年、武汉国家生物安全实验室主任袁志明也出席了这次记者会。</p><figure>
+        <img src="https://media.dwnews.net/hk01/4TYBy_M9ZtRjfjuWlX1pebG6cSM%3D/320*0/media/images/dw/20210813/502950836561776640130496.jpeg" alt="美国在新冠病毒溯源问题上一直指责中国，马朝旭8月13日在新闻发布会上反驳美国。（中国外交部网站）" referrerpolicy="no-referrer">
+        <figcaption>美国在新冠病毒溯源问题上一直指责中国，马朝旭8月13日在新闻发布会上反驳美国。（中国外交部网站）</figcaption>
+        </figure><br><p>马朝旭说，中方始终高度重视全球溯源工作，从疫情初期，中方就积极同世卫组织开展溯源合作，第一时间分享病毒基因序列，两次邀请世卫专家来华开展溯源研究。中方专家及时向世卫专家提交了中国方案，第一时间向世卫秘书处反馈了对其第二阶段工作计划的修改意见。中方正在积极落实联合研究报告建议，愿同各方分享中国溯源研究成果。中方反对的是政治溯源，反对的是违反世卫大会决议的溯源，反对的是抛弃第一阶段联合研究报告另起炉灶。美国等个别国家罔顾事实，指责中国拒绝溯源合作，这完全是颠倒黑白、混淆是非。拒绝溯源的帽子戴不到中国头上，戴到美国头上倒很合适。</p><p>马朝旭表示，中国—世卫组织联合研究报告的形成，完全遵循世卫组织程序，采取了科学方法，已经被证明是一份有价值的、权威的、经得起科学检验、经得起历史检验的报告。这份报告已由世卫组织正式发布，理应成为全球溯源工作的基础和指南，任何企图推翻和歪曲联合研究报告结论的做法，都是政治操弄，也是对全球科学家和科学的不尊重。<b>WHO专家组曾访问武汉病毒研究所，否决了病毒从实验室泄露的猜测（点击查看大图）：</b></p><figure>
+        <img src="https://media.dwnews.net/dw/ue0IoPrkfq97kCipDNq_-aUDNHM%3D/320*0/media/images/dw/130f430b9a078c9d96960f13a43345d0.jpg" alt="2021年2月3日，武汉遭遇大雾天气，WHO国际专家组成员一起离开酒店。（AP）" referrerpolicy="no-referrer">
+        <figcaption>2021年2月3日，武汉遭遇大雾天气，WHO国际专家组成员一起离开酒店。（AP）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/fi7g328CfnKr73HJ986-sOb9QyI%3D/320*0/media/images/dw/d62ad292119aa286b5efafe04d6ac96f.jpg" alt="WHO专家组达斯扎克（Peter Daszak）在酒店外打电话。（AP）" referrerpolicy="no-referrer">
+        <figcaption>WHO专家组达斯扎克（Peter Daszak）在酒店外打电话。（AP）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/YhlIT1IAVSyNLfwgAGrn8jyEil0%3D/320*0/media/images/dw/5f85f4249fff267290c0eca5cf512901.jpg" alt="2021年2月3日，WHO专家组乘车抵达武汉病毒研究所。（Reuters）" referrerpolicy="no-referrer">
+        <figcaption>2021年2月3日，WHO专家组乘车抵达武汉病毒研究所。（Reuters）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/_5hSNNRjMwfZvYypkMl1Du2CUDg%3D/320*0/media/images/dw/cd1c3c90d40df9dab24c7816a0b3dd50.jpg" alt="安保人员为WHO专家组成员开路。（Reuters）" referrerpolicy="no-referrer">
+        <figcaption>安保人员为WHO专家组成员开路。（Reuters）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/Zu4wlxUeXjqcAJ_EzR11BlRxH6U%3D/320*0/media/images/dw/5d7b5dddfa1fba3b3b6b62fc7e646343.jpg" alt="2021年2月3日，在武汉的媒体记者围住达斯札克，争分夺秒进行采访。（Reuters）" referrerpolicy="no-referrer">
+        <figcaption>2021年2月3日，在武汉的媒体记者围住达斯札克，争分夺秒进行采访。（Reuters）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/x6919ZZtHRxWrjFIj8MX9uxjEnQ%3D/320*0/media/images/dw/aaa4d2d7cf501b7cce41f0f27bee0bc8.jpg" alt="坐在后排的国际专家组专家是丹麦病毒专家菲舍尔（Thea Fischer）。这一站是WHO专家组武汉调查行的重中之重。（Reuters）" referrerpolicy="no-referrer">
+        <figcaption>坐在后排的国际专家组专家是丹麦病毒专家菲舍尔（Thea Fischer）。这一站是WHO专家组武汉调查行的重中之重。（Reuters）</figcaption>
+        </figure><br>马朝旭说：“武汉病毒所泄漏极不可能，这是中国—世卫组织联合研究报告得出的明确结论，炒作“实验室泄漏”论不得人心。美方在没有任何事实根据情况下，大肆炒作“病毒从武汉病毒所泄漏”，这一做法既不科学、也不道德。美国自己把溯源的大门关得死死的，却要再到中国溯源，请问这公平吗？正常吗？”<p></p><p>他还说，事实上，美国才是实验室问题最多的国家，近日，2,500万中国民众联署要求调查德特里克堡实验室，充分反映了民众的合理关切和正当要求。美国为什么不敢开放德特里克堡？如果美国心里没有鬼，就应该邀请世卫组织去德特里克堡、北卡罗来纳大学进行溯源调查。</p><p>美国方面有人认为，新冠病毒起源于武汉的病毒实验室，美国国务卿布林肯（Antony Blinken）6月11日与中共中央政治局委员、中央外事工作委员会办公室主任杨洁篪通话时，要求专家组再赴华调查。</p><p>美国《华尔街日报》此前披露的一份情报报告显示，在2019年11月，武汉病毒研究所的多名研究人员曾出现严重病情。这比报告首例新冠病毒感染病例的时间，提前了1个月。</p><p>美国总统拜登（Joe Biden）5月底下令美国情报机构加倍努力调查新冠病毒的起源。<b>推荐阅读：</b></p>]]></description>
+            <pubDate>Fri, 13 Aug 2021 12:37:01 GMT</pubDate>
+            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256430/%E4%B8%AD%E5%9B%BD%E5%89%AF%E5%A4%96%E9%95%BF%E5%BD%93%E4%B8%8A%E7%99%BE%E5%A4%96%E4%BA%A4%E5%AE%98%E9%9D%A2%E8%B4%A8%E9%97%AE%E7%BE%8E%E5%9B%BD%E4%B8%BA%E4%BD%95%E4%B8%8D%E6%95%A2%E5%BC%80%E6%94%BE%E5%BE%B7%E5%A0%A1%E5%AE%9E%E9%AA%8C%E5%AE%A4</guid>
+            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256430/%E4%B8%AD%E5%9B%BD%E5%89%AF%E5%A4%96%E9%95%BF%E5%BD%93%E4%B8%8A%E7%99%BE%E5%A4%96%E4%BA%A4%E5%AE%98%E9%9D%A2%E8%B4%A8%E9%97%AE%E7%BE%8E%E5%9B%BD%E4%B8%BA%E4%BD%95%E4%B8%8D%E6%95%A2%E5%BC%80%E6%94%BE%E5%BE%B7%E5%A0%A1%E5%AE%9E%E9%AA%8C%E5%AE%A4</link>
+            
+            
+            
+            <author><![CDATA[东坡]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[多名中国公民携槟榔入境土耳其被捕　中领馆：当地认定为毒品]]></title>
+            <description><![CDATA[<blockquote>据中国驻土耳其伊斯坦布尔总领事馆网站周四（12日）公布，多名中国公民近日因携带槟榔，于入境时被捕。</blockquote><p>消息指，多名中国公民近期在乘坐不同航班入境土耳其时，因携带槟榔被捕，被捕者包括台湾人。目前，有关案件正在审理中。</p><p>根据土耳其法律，槟榔含有的槟榔碱具有致幻性，因此其被认定为毒品。领馆郑重提醒中国民众入境土耳其时切勿携带槟榔，以免违反当地法律身陷囹圄。</p>]]></description>
+            <pubDate>Fri, 13 Aug 2021 12:25:01 GMT</pubDate>
+            <guid isPermaLink="false">https://www.dwnews.com/%E4%B8%AD%E5%9B%BD/60256370/%E5%A4%9A%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E6%90%BA%E6%A7%9F%E6%A6%94%E5%85%A5%E5%A2%83%E5%9C%9F%E8%80%B3%E5%85%B6%E8%A2%AB%E6%8D%95%E4%B8%AD%E9%A2%86%E9%A6%86%E5%BD%93%E5%9C%B0%E8%AE%A4%E5%AE%9A%E4%B8%BA%E6%AF%92%E5%93%81</guid>
+            <link>https://www.dwnews.com/%E4%B8%AD%E5%9B%BD/60256370/%E5%A4%9A%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E6%90%BA%E6%A7%9F%E6%A6%94%E5%85%A5%E5%A2%83%E5%9C%9F%E8%80%B3%E5%85%B6%E8%A2%AB%E6%8D%95%E4%B8%AD%E9%A2%86%E9%A6%86%E5%BD%93%E5%9C%B0%E8%AE%A4%E5%AE%9A%E4%B8%BA%E6%AF%92%E5%93%81</link>
+            
+            
+            
+            <author><![CDATA[陳進安]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[新冠疫苗｜内地12至17岁打逾6千万针　不良反应发生率不高于成人]]></title>
+            <description><![CDATA[<blockquote>周五（13日），国家卫健委表示，内地12至17岁人群的新冠疫苗接种工作正有序进行中，截至目前，相关人群的接种数量已有逾6,000万剂次。</blockquote><figure>
+        <img src="https://media.dwnews.net/hk01/dtPD9DWNP3uZ9EDNZ373wDax-7c%3D/320*0/media/images/dw/20210813/502900690243293184510749.jpeg" alt="内地12至17岁人群接种新冠疫苗有序进行 。（新华社）" referrerpolicy="no-referrer">
+        <figcaption>内地12至17岁人群接种新冠疫苗有序进行 。（新华社）</figcaption>
+        </figure><br><p>国务院联防联控机制在北京召开记者会，介绍疫情防控相关情况。被问及内地为何展开为12至17岁青少年接种新冠疫苗，中国疾控中心免疫规划首席专家王华庆表示，早期时，人们普遍认为儿童发病率和患病率不高，但随著疫情的持续传播，一些国家的儿童患病率不断上升，有些已甚至达到去年同期的水平。</p><p>王华庆指，随著疫情的发展，儿童感染新冠肺炎的个案逐渐增多，其中更有出现重症、死亡的情况。而不论是成人还是儿童，只要染疫就是传染源，从传染源管控的角度来说，对于儿童也要加强管理。</p><p>王华庆又称，在大多数国家，无论是采取控制传染源还是切断传播途径，新冠肺炎仍未得到有效控制，“将来我们期望建立群体免疫，儿童通过接种疫苗，在建立群体免疫过程中也是不可或缺的一部分。”</p><figure>
+        <img src="https://media.dwnews.net/hk01/rxu5rNhXPmEYY6cumlFbeswapMo%3D/320*0/media/images/dw/20210813/502900842232287232748359.jpeg" alt="内地12至17岁人群接种新冠疫苗有序进行 。（新华社）" referrerpolicy="no-referrer">
+        <figcaption>内地12至17岁人群接种新冠疫苗有序进行 。（新华社）</figcaption>
+        </figure><br><p>那么，12至17岁人群的新冠疫苗接种进程如何？国家卫生健康委疾控局一级巡视员贺青华表示，各省份已经陆续开展对12-17岁人群新冠疫苗接种工作，截至目前，内地已累计报告12至17岁人群接种总剂次数超过6000万剂。下一步，将在确保接种安全的基础上，继续有序的推进12-17岁人群的疫苗接种工作。</p><p>此外，至于12至17岁人群接种新冠疫苗后产生的不良反应又有哪些？与成年人相比有什么不同？王华庆指，根据目前对不良反应的监测分析，发现儿童和青少年接种新冠疫苗不良反应的发生率不高于18岁以上的成人，既包括一般反应，也包括异常反应。青少年接种后出现的一般反应主要表现为发热，另外是局部的疼痛、红肿。异常反应主要是过敏反应，虽然很罕见，但亦有个别出现，主要为过敏性皮疹，症状相对较轻。</p>]]></description>
+            <pubDate>Fri, 13 Aug 2021 12:24:01 GMT</pubDate>
+            <guid isPermaLink="false">https://www.dwnews.com/%E4%B8%AD%E5%9B%BD/60256396/%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97%E5%86%85%E5%9C%B012%E8%87%B317%E5%B2%81%E6%89%93%E9%80%BE6%E5%8D%83%E4%B8%87%E9%92%88%E4%B8%8D%E8%89%AF%E5%8F%8D%E5%BA%94%E5%8F%91%E7%94%9F%E7%8E%87%E4%B8%8D%E9%AB%98%E4%BA%8E%E6%88%90%E4%BA%BA</guid>
+            <link>https://www.dwnews.com/%E4%B8%AD%E5%9B%BD/60256396/%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97%E5%86%85%E5%9C%B012%E8%87%B317%E5%B2%81%E6%89%93%E9%80%BE6%E5%8D%83%E4%B8%87%E9%92%88%E4%B8%8D%E8%89%AF%E5%8F%8D%E5%BA%94%E5%8F%91%E7%94%9F%E7%8E%87%E4%B8%8D%E9%AB%98%E4%BA%8E%E6%88%90%E4%BA%BA</link>
+            
+            
+            
+            <author><![CDATA[北海]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[中国男星致歉在靖国神社自拍　中共党媒简评被指避重就轻惹议[图]]]></title>
+            <description><![CDATA[<blockquote>中国知名男星就曾在靖国神社前自拍一事致歉，但未能平息争议。中共喉舌《人民日报》发声评论被指避重就轻，引发网友不满。</blockquote><figure>
+        <img src="https://media.dwnews.net/dw/xuYF8YBDtA4zrLDFIAROZ1wn62U%3D/320*0/media/images/dw/cab553790e3c5be58e0640a804ac24e6.jpg" alt="张哲瀚发布的致歉声明，但网友不买账。（微博@张哲瀚疯子）" referrerpolicy="no-referrer">
+        <figcaption>张哲瀚发布的致歉声明，但网友不买账。（微博@张哲瀚疯子）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/0tgBgoqfoNSBege__kG66vdb7Qw%3D/320*0/media/images/dw/c1b07c2a3730e6480f8757f661a83e50.jpg" alt="他的工作室发文。（微博@张哲瀚疯子工作室）" referrerpolicy="no-referrer">
+        <figcaption>他的工作室发文。（微博@张哲瀚疯子工作室）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/mznAJnZONz4M3hhglvVLsEFL5D8%3D/320*0/media/images/dw/5996999034d91e7bcbe85a3c98b60bc1.png" alt="中共喉舌《人民日报》的微评惹议后，又将“补课”的说法进行删改。（微博@人民日报）" referrerpolicy="no-referrer">
+        <figcaption>中共喉舌《人民日报》的微评惹议后，又将“补课”的说法进行删改。（微博@人民日报）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/kiie5nFOwRU5ZxCQ_oSHaPVLOks%3D/320*0/media/images/dw/8bd6349456e71403b6df8d21744cf934.png" alt="张哲瀚事件中网友的评价。（中国社交平台微博截图）" referrerpolicy="no-referrer">
+        <figcaption>张哲瀚事件中网友的评价。（中国社交平台微博截图）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/8FIA0DiW2kECASM0E0EvFRBtm8Q%3D/320*0/media/images/dw/bdf1babb2a23e18d54500d89b3ac0d8c.jpg" alt="针对张哲瀚事件，中国公安部治安管理局官方微博发文。（微博@中国警方在线）" referrerpolicy="no-referrer">
+        <figcaption>针对张哲瀚事件，中国公安部治安管理局官方微博发文。（微博@中国警方在线）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/WmGo2MN-LClUlEcyOSOidtw6Uwc%3D/320*0/media/images/dw/4ffb2ee441dd5478bc84298027c69109.jpg" alt="中国反邪教官微的发文。（微博@中国反邪教）" referrerpolicy="no-referrer">
+        <figcaption>中国反邪教官微的发文。（微博@中国反邪教）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/1-UGu7FYaUqeT-DNM2PNN6djUZY%3D/320*0/media/images/dw/a62593e58d44d08eab5909ba7d6db665.jpg" alt="中国共青团四川省委官方微博直接喊话张哲瀚。（微博@四川共青团）" referrerpolicy="no-referrer">
+        <figcaption>中国共青团四川省委官方微博直接喊话张哲瀚。（微博@四川共青团）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/5eH3cB7ZluxP_c47JlkIqhGdqEc%3D/320*0/media/images/dw/8f1fea3b320a8fc5a9fb4020f38d51a3.jpg" alt="中国共青团四川省委官方微博的评论。（微博@四川共青团）" referrerpolicy="no-referrer">
+        <figcaption>中国共青团四川省委官方微博的评论。（微博@四川共青团）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/mbpWTxEFFnojKpPvBBjdohbRU4A%3D/320*0/media/images/dw/2dcf3b3be451c7d1eb9d129f8dacee30.jpg" alt="中国国家文化安全与意识形态建设研究中心官方微博发文斥责张哲瀚。（微博@思想火炬）" referrerpolicy="no-referrer">
+        <figcaption>中国国家文化安全与意识形态建设研究中心官方微博发文斥责张哲瀚。（微博@思想火炬）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/FIRp__9C6obWya55KjOZxuK0wgE%3D/320*0/media/images/dw/a0afef1c766bb8704d5ab9a86b32064f.jpg" alt="中国媒体环球网评论称，“那个拜鬼的靖国神社里，藏着日本最脏的灵魂。”（微博@环球网）" referrerpolicy="no-referrer">
+        <figcaption>中国媒体环球网评论称，“那个拜鬼的靖国神社里，藏着日本最脏的灵魂。”（微博@环球网）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/wHNG8pH_gUC8NvupYvkirnh8dqk%3D/320*0/media/images/dw/8042262c39a13888ee17227471e78b0e.jpg" alt="此前，张哲瀚朋友介绍自己的婚礼在乃木神社举行。（微博@娱扒匠）" referrerpolicy="no-referrer">
+        <figcaption>此前，张哲瀚朋友介绍自己的婚礼在乃木神社举行。（微博@娱扒匠）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/hvBUXC_PKlKOJF3hdItdAHliNr0%3D/320*0/media/images/dw/674abb7db485e8af17250ddcd07a0c93.jpg" alt="据称，日本乃木神社供奉的是乃木希典。乃木希典在日俄战争中曾入侵中国旅顺、辽阳，曾屠杀众多中国人。（微博@娱扒匠）" referrerpolicy="no-referrer">
+        <figcaption>据称，日本乃木神社供奉的是乃木希典。乃木希典在日俄战争中曾入侵中国旅顺、辽阳，曾屠杀众多中国人。（微博@娱扒匠）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/PzOmZk18jpedpP8WMxDQqPCspz8%3D/320*0/media/images/dw/243ca1582a2b2de1fd43fdfa5fd4d0c7.jpg" alt="婚礼邀请了张哲瀚和黛薇夫人。（微博@娱扒匠）" referrerpolicy="no-referrer">
+        <figcaption>婚礼邀请了张哲瀚和黛薇夫人。（微博@娱扒匠）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/ShHMnKCU6zIgC9eHTCKPFwN5OZ4%3D/320*0/media/images/dw/392ae4ca28a4b598eb17399e9276a9fe.jpg" alt="张哲瀚在朋友婚礼上致辞。（微博@娱扒匠）" referrerpolicy="no-referrer">
+        <figcaption>张哲瀚在朋友婚礼上致辞。（微博@娱扒匠）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/a08c5I2uGnjLCQTeTEmNZrlw9xg%3D/320*0/media/images/dw/a1fb76ed609394fad120b318bf751d24.jpg" alt="据爆料，黛薇夫人与张哲瀚一同在乃木神社出席朋友婚礼，这是网络曝光的黛薇夫人在现场送祝福。（微博@娱扒匠）" referrerpolicy="no-referrer">
+        <figcaption>据爆料，黛薇夫人与张哲瀚一同在乃木神社出席朋友婚礼，这是网络曝光的黛薇夫人在现场送祝福。（微博@娱扒匠）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/dgHZemQITCNbaF98GJJMXweDGMc%3D/320*0/media/images/dw/b6daba3ed134461c635e913772df5e4b.jpg" alt="张哲瀚（中）在乃木神社参加朋友婚礼。（微博@娱扒匠）" referrerpolicy="no-referrer">
+        <figcaption>张哲瀚（中）在乃木神社参加朋友婚礼。（微博@娱扒匠）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/nw-JvxAGSEDFazQh0kBWo1lTZ6Q%3D/320*0/media/images/dw/589eb71454be38b7c808529bf32c2139.jpg" alt="有网友曝光他和黛薇夫人的合影。（微博@丑人莫碰瓷制片人）" referrerpolicy="no-referrer">
+        <figcaption>有网友曝光他和黛薇夫人的合影。（微博@丑人莫碰瓷制片人）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/js68ceXGKnw866O_xmi9y6zMV8c%3D/320*0/media/images/dw/61c7ea322e28cdee7e3eb86108929444.jpg" alt="有网友表示张哲瀚多次去靖国神社。（中国社交平台微博截图）" referrerpolicy="no-referrer">
+        <figcaption>有网友表示张哲瀚多次去靖国神社。（中国社交平台微博截图）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/vpoT5r08mpFJhxI76NvTvxEwbt8%3D/320*0/media/images/dw/aeded7dec9ef8013615a6d49dcd0e3d6.jpg" alt="有网友晒出他之前自己在靖国神社下拍的照片。（微博@芝麻板栗）" referrerpolicy="no-referrer">
+        <figcaption>有网友晒出他之前自己在靖国神社下拍的照片。（微博@芝麻板栗）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/Vbf0FNtyGXnOtRBM-aLNYZPrbng%3D/320*0/media/images/dw/e160a2de61c5e917ce668e8e2c0e24ad.jpg" alt="张哲瀚微博曾经发布带有日本旭日旗的车。（微博@张哲瀚疯子）" referrerpolicy="no-referrer">
+        <figcaption>张哲瀚微博曾经发布带有日本旭日旗的车。（微博@张哲瀚疯子）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/Fqn3IHjWfVLvNlyeedCY4knX1Tc%3D/320*0/media/images/dw/21ca9f7f02366b0ae1fb75d5d01f9c30.jpg" alt="还有网友披露张哲瀚的书单，其中有两本都介绍过靖国神社的由来与历史。（微博@蓝宇的爱）" referrerpolicy="no-referrer">
+        <figcaption>还有网友披露张哲瀚的书单，其中有两本都介绍过靖国神社的由来与历史。（微博@蓝宇的爱）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/hk01/Khc4eSewc7rFjrEhv9os8ihT0WY%3D/320*0/media/images/dw/20210813/502880768918294528764253.jpeg" alt="有网友晒出张哲瀚此前在杭州革命烈士纪念馆门口做纳粹手势。（微博@饭爱豆文化 ）" referrerpolicy="no-referrer">
+        <figcaption>有网友晒出张哲瀚此前在杭州革命烈士纪念馆门口做纳粹手势。（微博@饭爱豆文化 ）</figcaption>
+        </figure><br><p>北京时间8月13日，《人民日报》微评称，要道歉，更要“补课”。接着评论还指出，这道歉，是为自己无知买单，也是为冒犯国人情感而寻求宽宥。身为公众人物，对历史常识如此匮乏，对民族苦难浑然不觉，太不应该。事关民族大义，不容任何试探，更不容有任何挑战。若明知故犯，就得付出沉重代价。 ​​​​</p><p>其中，“补课”一说法遭到网友不满。有网友称，“补补课？好轻松哦，建党百年，这就是你们媒体做的爱国主义教育吗？以日本军国主义伤害了中国人民的感情，参与靖国神社不仅是不爱国更是反人类！！不被封杀不足以平民愤！ ​”</p><p>还有网友指出，“人民日报拈轻怕重，措辞有些暧昧，写了个若明知故犯，人家本来就是明知故犯啊，正常人都看得出来，对汉奸这么仁慈干嘛，旭日旗、靖国神社、乃木神社、日本右翼，张哲瀚这种人就应该去吃吃牢饭。 ​”</p><figure>
+        <img src="https://media.dwnews.net/dw/eajdeI2qkX9ZYGOqZvW7sAEHQ8Q%3D/320*0/media/images/dw/00e7126f184a3a428dc1cee5ed692602.jpg" alt="张哲瀚照片。（微博@张哲瀚疯子）" referrerpolicy="no-referrer">
+        <figcaption>张哲瀚照片。（微博@张哲瀚疯子）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/Kxu0rXZha7oSUi8lgx6fasVY6m4%3D/320*0/media/images/dw/0723f01355c77ad9397f5eeb3c6e8dfe.jpg" alt="有网友翻出张哲瀚此前去日本游玩的照片，并指张哲瀚去过靖国神社。（微博@娱扒匠）" referrerpolicy="no-referrer">
+        <figcaption>有网友翻出张哲瀚此前去日本游玩的照片，并指张哲瀚去过靖国神社。（微博@娱扒匠）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/7Lwe2iV9aM2r0Ld77hlmqx1oRD8%3D/320*0/media/images/dw/7fb51b3581d80a5eff68dacab764aa35.jpg" alt="有网友对张哲瀚进行考古，发现他不仅去过乃木神社，还曾参拜过靖国神社。（微博@别生气坐下喝杯茶儿）" referrerpolicy="no-referrer">
+        <figcaption>有网友对张哲瀚进行考古，发现他不仅去过乃木神社，还曾参拜过靖国神社。（微博@别生气坐下喝杯茶儿）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/JNxIn-TBG6dXw6Wley54aM1kMDQ%3D/320*0/media/images/dw/d96173c1fbf7c16beb1bfe6cd03737b8.png" alt="因被曝多次参拜日本神社，中国男星张哲瀚被网友批评精日。（微博@张哲瀚疯子）" referrerpolicy="no-referrer">
+        <figcaption>因被曝多次参拜日本神社，中国男星张哲瀚被网友批评精日。（微博@张哲瀚疯子）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/zndvxyeZMvvHM6raGuvR3yjZc98%3D/320*0/media/images/dw/edef00b9bc07a460ea330a71cd988e7f.jpg" alt="网友晒出张哲瀚去过靖国神社的证据。（微博@娱扒匠）" referrerpolicy="no-referrer">
+        <figcaption>网友晒出张哲瀚去过靖国神社的证据。（微博@娱扒匠）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/bQRfihEiGdNH7R36uHeZgGN-WAY%3D/320*0/media/images/dw/8d0a89e9e7043db06fa547ff65195442.jpg" alt="网友曝出，张哲瀚在几年前就曾因为晒日本军旗引发批评，张哲瀚在当时还发文怼网友。（微博@娱扒匠）" referrerpolicy="no-referrer">
+        <figcaption>网友曝出，张哲瀚在几年前就曾因为晒日本军旗引发批评，张哲瀚在当时还发文怼网友。（微博@娱扒匠）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/rIZUWJZiisxSeKem2xar_GHhIj8%3D/320*0/media/images/dw/1b79a3db85e5fb56c97ecc8e63a155f3.png" alt="日本旭日旗。（维基百科公有领域）" referrerpolicy="no-referrer">
+        <figcaption>日本旭日旗。（维基百科公有领域）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/nyYK-dvBKM8vf5sXA_VnQWIw21o%3D/320*0/media/images/dw/17e0718620fd97ef654617ca7329ce1a.jpg" alt="中国女星赵薇曾因身穿旭日旗在当时被内地广泛抵制。（微博＠娱扒匠）" referrerpolicy="no-referrer">
+        <figcaption>中国女星赵薇曾因身穿旭日旗在当时被内地广泛抵制。（微博＠娱扒匠）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/V_ER-vO0W-vf1vMWYdlE5mUJm_I%3D/320*0/media/images/dw/7e6de12f9193964207f395b1ab84f915.png" alt="网络对张哲瀚参拜日本神社的评论。（微博截图）" referrerpolicy="no-referrer">
+        <figcaption>网络对张哲瀚参拜日本神社的评论。（微博截图）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/ao_qMTWSOsKjgTH17TSUn-Vlg7U%3D/320*0/media/images/dw/a384a10569d95c756947e2ed1ec63e40.png" alt="张哲瀚的政治立场引发争议，有网友批评其精日。（微博@Vivian_泡泡奶牛）" referrerpolicy="no-referrer">
+        <figcaption>张哲瀚的政治立场引发争议，有网友批评其精日。（微博@Vivian_泡泡奶牛）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/0tY47_ZJHDlwpZCn4bhFtPFNE_U%3D/320*0/media/images/dw/1a459ca451a77a8dccd78ae411a67650.png" alt="之前，张哲瀚工作室置顶律师声明，称张哲瀚爱党爱国。（微博@张哲瀚疯子工作室）" referrerpolicy="no-referrer">
+        <figcaption>之前，张哲瀚工作室置顶律师声明，称张哲瀚爱党爱国。（微博@张哲瀚疯子工作室）</figcaption>
+        </figure><br><p>还有网友表示，“我想问下人民日报是真认为他是无知吗？！如果是真的，那就去查查9年义务教育都教了些啥吧？！也自身反省一下你们媒体都干了些啥？！宣传太不到位，没有对大众起到很好的警示引导作用，这么大的明星居然能不知道靖国神社是什么鬼？！我真是第一次知道中国人还有不知道这个的！ ​”</p><p>随着网友的质疑声，《人民日报》后续更改了评论，将“要道歉，更要‘补课’”这一句话进行删除。</p><p>随后，中国央视新闻评论称，无论在靖国神社前合影，还是到乃木神社参加婚礼，张哲瀚都触碰了历史伤痕，伤害了民族感情，不能简单归咎为“曾经无知”。就在刚刚，有日本大臣到靖国神社“拜鬼”，中方坚决反对日本政要这种错误做法。身为中国人，应铭记历史，砥砺前行；绝不能是非不分，甚至误导青少年！请记住：靖国神社尽是鬼，勿忘历史当自强！<b>多个品牌宣布与张哲瀚解约：</b></p><figure>
+        <img src="https://media.dwnews.net/dw/40wiX6y5ulEp_ancQqIufxQGwyM%3D/320*0/media/images/dw/d846d7ccd0b7f07ffa4d2ab98a472da5.png" alt="张哲瀚事件中，娃哈哈品牌第一个宣布与他解约。。（微博@娃哈哈）" referrerpolicy="no-referrer">
+        <figcaption>张哲瀚事件中，娃哈哈品牌第一个宣布与他解约。。（微博@娃哈哈）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/ndvE6Px7xxhVqG9mLwZXR330qvM%3D/320*0/media/images/dw/35a8487745dd00bcc676d1c9456b0324.png" alt="品牌徐福记宣布与其解约。（微博@徐福记中国）" referrerpolicy="no-referrer">
+        <figcaption>品牌徐福记宣布与其解约。（微博@徐福记中国）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/YCoB-oJUlyORWUg3jeqf1LBIrVo%3D/320*0/media/images/dw/dab1b6fb09410c414d31667565a0e62a.jpg" alt="水星家纺品牌与其解约。（微博@水星家纺电商）" referrerpolicy="no-referrer">
+        <figcaption>水星家纺品牌与其解约。（微博@水星家纺电商）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/hIxjC6iKxryTo3ROFhvyupg5Gds%3D/320*0/media/images/dw/d7a14340c690bf2a0abd34a2ef210521.jpg" alt="手游品牌与其解约。（微博@梦幻新诛仙手游）" referrerpolicy="no-referrer">
+        <figcaption>手游品牌与其解约。（微博@梦幻新诛仙手游）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/gV-f0YaFZLyD7ndvCL__-8ze2ss%3D/320*0/media/images/dw/d3ea8163a6cf1f5a07f7b055c44cc8a8.jpg" alt="张哲瀚的新电影宣布与其结束合作。（微博@电影维和防暴队）" referrerpolicy="no-referrer">
+        <figcaption>张哲瀚的新电影宣布与其结束合作。（微博@电影维和防暴队）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/MCvvtmcxiOpJoyOiJRm9E5whdjc%3D/320*0/media/images/dw/9a53ffc147448c2f1f3b1dc16459ff20.jpg" alt="百草味宣布与张哲瀚解约。（微博@百草味）" referrerpolicy="no-referrer">
+        <figcaption>百草味宣布与张哲瀚解约。（微博@百草味）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/dw/eC_JRRuZY33fxQZ2qbGFP5QWEIk%3D/320*0/media/images/dw/bd7b65804ada20e644e53ce4d35806f0.png" alt="多个品牌纷纷与张哲瀚解约。（微博@KIMTRUE且初）" referrerpolicy="no-referrer">
+        <figcaption>多个品牌纷纷与张哲瀚解约。（微博@KIMTRUE且初）</figcaption>
+        </figure><br>中国社会科学院国家文化安全与意识形态建设研究中心官方微博“思想火炬”评论指，“在大是大非面前不能糊涂、摇摆，更不能是非颠倒！两面三刀必被唾弃，不爱国者必被国弃！”<p></p><p>中国媒体环球网则表示，“那个拜鬼的靖国神社里，藏着日本最脏的灵魂。”</p><p>目前，已众多品牌与张哲瀚解约，包括娃哈哈、徐福记、且初、Anker安克、水星家纺、梦幻新诛仙手游、Pandora潘多拉珠宝、百草味。</p><p>除品牌解约外，中国军事类电影维和防暴队也宣布与张哲瀚结束合作 ​。</p><p>此外，值得一提的是，张哲瀚是中国知名女星、企业家赵薇旗下艺人。赵薇就曾因为身披日本旭日军旗拍摄电影宣传片引发全网愤怒，一度被封杀。<b>推荐阅读：</b></p>]]></description>
+            <pubDate>Fri, 13 Aug 2021 12:21:01 GMT</pubDate>
+            <guid isPermaLink="false">https://www.dwnews.com/%E4%B8%AD%E5%9B%BD/60256426/%E4%B8%AD%E5%9B%BD%E7%94%B7%E6%98%9F%E8%87%B4%E6%AD%89%E5%9C%A8%E9%9D%96%E5%9B%BD%E7%A5%9E%E7%A4%BE%E8%87%AA%E6%8B%8D%E4%B8%AD%E5%85%B1%E5%85%9A%E5%AA%92%E7%AE%80%E8%AF%84%E8%A2%AB%E6%8C%87%E9%81%BF%E9%87%8D%E5%B0%B1%E8%BD%BB%E6%83%B9%E8%AE%AE%E5%9B%BE</guid>
+            <link>https://www.dwnews.com/%E4%B8%AD%E5%9B%BD/60256426/%E4%B8%AD%E5%9B%BD%E7%94%B7%E6%98%9F%E8%87%B4%E6%AD%89%E5%9C%A8%E9%9D%96%E5%9B%BD%E7%A5%9E%E7%A4%BE%E8%87%AA%E6%8B%8D%E4%B8%AD%E5%85%B1%E5%85%9A%E5%AA%92%E7%AE%80%E8%AF%84%E8%A2%AB%E6%8C%87%E9%81%BF%E9%87%8D%E5%B0%B1%E8%BD%BB%E6%83%B9%E8%AE%AE%E5%9B%BE</link>
+            
+            
+            
+            <author><![CDATA[林瑾]]></author>
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[陆港两地坚持“清零”目标　通关才有商量]]></title>
@@ -686,206 +982,6 @@
             
             
             <author><![CDATA[唐飞]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[阿富汗局势｜塔利班势力持续扩大　再控制2省会]]></title>
-            <description><![CDATA[<blockquote>阿富汗警方8月13日表示，赫尔曼德省（Helmand）首府拉什卡尔加（Lashkar Gah）和巴德吉斯省（Badghis）纳乌堡（Qala-e-Naw）已被当地武装组织塔利班（Taliban）控制。</blockquote><figure>
-        <img src="https://media.dwnews.net/hk01/jdNy8UD_ZDfcNpUq8bOAL7VjwZg%3D/320*0/media/images/dw/20210813/502780307884216320105973.jpeg" alt="阿富汗局势：图为8月12日，塔利班武装份子在加兹尼省首府加兹尼市内巡逻。（AP）" referrerpolicy="no-referrer">
-        <figcaption>阿富汗局势：图为8月12日，塔利班武装份子在加兹尼省首府加兹尼市内巡逻。（AP）</figcaption>
-        </figure><br><p>路透社13日引述官员称，政府和资深武装部队官员12日约午夜时分乘搭直升机离开政府最后一个据点。</p><p>这名官员称，有约200名留在省长办公室的阿富汗国家安全部队（ANDSF）成员向塔利班投降。</p>]]></description>
-            <pubDate>Fri, 13 Aug 2021 09:41:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256398/%E9%98%BF%E5%AF%8C%E6%B1%97%E5%B1%80%E5%8A%BF%E5%A1%94%E5%88%A9%E7%8F%AD%E5%8A%BF%E5%8A%9B%E6%8C%81%E7%BB%AD%E6%89%A9%E5%A4%A7%E5%86%8D%E6%8E%A7%E5%88%B62%E7%9C%81%E4%BC%9A</guid>
-            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256398/%E9%98%BF%E5%AF%8C%E6%B1%97%E5%B1%80%E5%8A%BF%E5%A1%94%E5%88%A9%E7%8F%AD%E5%8A%BF%E5%8A%9B%E6%8C%81%E7%BB%AD%E6%89%A9%E5%A4%A7%E5%86%8D%E6%8E%A7%E5%88%B62%E7%9C%81%E4%BC%9A</link>
-            
-            
-            
-            <author><![CDATA[洪怡霖]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[加拿大与中国陷司法互斗　专家称或需美国在孟晚舟案上让步]]></title>
-            <description><![CDATA[<blockquote>加拿大警方2018年应美国要求拘捕中国华为副董事长孟晚舟后，中加关系跌至谷底，两国近日再就两名加国公民在中国法庭的判刑事件爆发争拗，加拿大专家表示，要解开僵局，可能需要美国在孟晚舟案上让步。</blockquote><p>加拿大新不伦瑞克省（New Brunswick）蒙克顿大学（University of Moncton）政治学教授与中国专家尚塔尔（Roromme Chantal）说，拘捕孟晚舟“突然破坏两国自1970年代起很好的关系”。</p><p>他说，在这事件中，加拿大显然是被夹在美中地缘政治世仇之间，他相信中国会“尽一切可能让孟晚舟获释”。</p><figure>
-        <img src="https://media.dwnews.net/hk01/HaqjJQiAr5enjEif1uIiw-bcC6w%3D/320*0/media/images/dw/20210701/487285157271703552516834.jpeg" alt="2021年6月29日，华为首席财务官孟晚舟离开位于加拿大温哥华的住所，前往法院。（Reuters）" referrerpolicy="no-referrer">
-        <figcaption>2021年6月29日，华为首席财务官孟晚舟离开位于加拿大温哥华的住所，前往法院。（Reuters）</figcaption>
-        </figure><br><p>在孟晚舟被捕后，中国先后拘捕加拿大商人斯帕弗（Michael Spavor）与前外交官康明凯（Michael Kovrig）的事件受到关注，斯帕弗8月11日在中国法院被判监11年。</p><p>加拿大驻中国前大使赵朴（Guy Saint-Jacques）指，发生在这时间点并非偶然，“没有巧合”。他又认为这些拘捕行动相当于“挟持人质”。</p><figure>
-        <img src="https://media.dwnews.net/hk01/Gs1Xir_uaHMD4O2U1Q1pWomoSg0%3D/320*0/media/images/dw/20210813/502878040771006464750234.jpeg" alt="8月11日中国华为首席财务官孟晚舟乘车抵达加拿大不列颠哥伦比亚省高等法院。（Getty）" referrerpolicy="no-referrer">
-        <figcaption>8月11日中国华为首席财务官孟晚舟乘车抵达加拿大不列颠哥伦比亚省高等法院。（Getty）</figcaption>
-        </figure><br><p>赵朴认为，康明凯会获得更严厉的判决，因为他是前外交官，中国知道这能带来重大影响。</p><p>赵朴称，其中一个解决方法是让美国撤销对孟晚舟的指控，或与中国达成协议，但他补充称，目前为止，美国没有让步的迹象。<b>推荐阅读：</b></p>]]></description>
-            <pubDate>Fri, 13 Aug 2021 09:34:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256386/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E4%B8%8E%E4%B8%AD%E5%9B%BD%E9%99%B7%E5%8F%B8%E6%B3%95%E4%BA%92%E6%96%97%E4%B8%93%E5%AE%B6%E7%A7%B0%E6%88%96%E9%9C%80%E7%BE%8E%E5%9B%BD%E5%9C%A8%E5%AD%9F%E6%99%9A%E8%88%9F%E6%A1%88%E4%B8%8A%E8%AE%A9%E6%AD%A5</guid>
-            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256386/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E4%B8%8E%E4%B8%AD%E5%9B%BD%E9%99%B7%E5%8F%B8%E6%B3%95%E4%BA%92%E6%96%97%E4%B8%93%E5%AE%B6%E7%A7%B0%E6%88%96%E9%9C%80%E7%BE%8E%E5%9B%BD%E5%9C%A8%E5%AD%9F%E6%99%9A%E8%88%9F%E6%A1%88%E4%B8%8A%E8%AE%A9%E6%AD%A5</link>
-            
-            
-            
-            <author><![CDATA[何文翰]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[NASA 2024年登月计划面临泡汤　开发2件新式太空衣花逾10亿美元]]></title>
-            <description><![CDATA[<blockquote>美国太空总署（NASA）启动“阿提米丝计划”(Artemis program)，目标是在二○二四年重回月球。但是“华盛顿邮报”报导，此计划一路走来荆棘遍布，现在连可能将耗资十亿美元的新式太空衣问题也来搅局，让二○二四年登月的目标愈发困难。</blockquote><p>NASA督察长十一日发布报告，指NASA在十四年前启动新式太空衣计划，其预算快速增加，从启动到二○一七年间花费二亿美元，从二○一七年迄今又花费二点二亿美元，估计到二○二五财年之前还要再花费六点二五二亿美元，让两件新式太空衣的整体预算超过十亿美元。</p><p>这是NASA四十多年来首度主导新式太空衣开发；新式太空衣将有如小型太空船，而且更为合身，舒适度提高，并让太空人活动容易，尤其是下半身将可更易行走、跪下，不再像首次登月时的“兔子跳”那样。</p><figure>
-        <img src="https://media.dwnews.net/hk01/is5717ZZxf7IEKN7Qz5Ot5KJfSs%3D/320*0/media/images/dw/20210813/502886932305416192763985.jpeg" alt="NASA开发2件新式太空衣花逾10亿美元。（NASA）" referrerpolicy="no-referrer">
-        <figcaption>NASA开发2件新式太空衣花逾10亿美元。（NASA）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/hk01/W6VdejvUb_r18df7Jie34sKNTPo%3D/320*0/media/images/dw/20210813/502886934532722688107329.jpeg" alt="NASA开发2件新式太空衣花逾10亿美元。（NASA）" referrerpolicy="no-referrer">
-        <figcaption>NASA开发2件新式太空衣花逾10亿美元。（NASA）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/hk01/XrCJO-WLw02mWgxfC3A-SgGL-nA%3D/320*0/media/images/dw/20210813/502886936676143104761520.jpeg" alt="NASA开发2件新式太空衣花逾10亿美元。（NASA）" referrerpolicy="no-referrer">
-        <figcaption>NASA开发2件新式太空衣花逾10亿美元。（NASA）</figcaption>
-        </figure><br><p>NASA督察长的报告说，当前国际太空站使用的太空衣已超过其设计年限的廿五年以上，为确保太空站上的人员安全，反因此耗费巨额资金在养护上，且随著女太空人增加，针对男性的设计也因过大而不合时宜。</p><p>但是该报告指出，由于资金短缺，新疫情冲击，以及技术上的挑战要解决，让此项目的进度落后二年，因此NASA督察长的结论是：新式太空衣最快要到二○二五年才能到位，NASA要在二○二四年末重返月球，根本不可行。</p><p>报告上说，NASA在开发新式太空衣上遇到技术及设计问题，例如以靴子来说，因为登月计划预计在处于永夜的南极著陆，因此靴子不但要能承受“极端的温度波动”，而且还要能够在登月舱内的“温和环境”，与月球南极的“恶劣环境”之间转换。</p><p>不过报告也说，新式太空衣“绝对不是”影响重返月球进程的唯一因素，例如太空发射系统、猎户座太空船等开发时程的“重大延宕”，以及登月舱研发落后等，都是二○二四年难以重返月球的原因。</p><p>此外，NASA在今年四月与马斯克的SpaceX签下卅亿美元的“星舰”合约，作为阿提米丝计划的一部份；但是竞标失败的贝佐斯的蓝源及国防承包商Dynetics提出异议，虽然并未成功，但确实让NASA与SpaceX的合作受到拖累。</p><p>延伸阅读：</p><p>【本文获“</p><p>”授权转载。】</p>]]></description>
-            <pubDate>Fri, 13 Aug 2021 09:33:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256378/NASA2024%E5%B9%B4%E7%99%BB%E6%9C%88%E8%AE%A1%E5%88%92%E9%9D%A2%E4%B8%B4%E6%B3%A1%E6%B1%A4%E5%BC%80%E5%8F%912%E4%BB%B6%E6%96%B0%E5%BC%8F%E5%A4%AA%E7%A9%BA%E8%A1%A3%E8%8A%B1%E9%80%BE10%E4%BA%BF%E7%BE%8E%E5%85%83</guid>
-            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256378/NASA2024%E5%B9%B4%E7%99%BB%E6%9C%88%E8%AE%A1%E5%88%92%E9%9D%A2%E4%B8%B4%E6%B3%A1%E6%B1%A4%E5%BC%80%E5%8F%912%E4%BB%B6%E6%96%B0%E5%BC%8F%E5%A4%AA%E7%A9%BA%E8%A1%A3%E8%8A%B1%E9%80%BE10%E4%BA%BF%E7%BE%8E%E5%85%83</link>
-            
-            
-            
-            <author><![CDATA[联合新闻网]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[东京残奥会东京都区将于16日正式决定是否无观众]]></title>
-            <description><![CDATA[<blockquote>据日媒报道称，东京残奥会将于8月24日开幕，在东京，千叶和埼玉这三个县已宣布进入紧急状态将不对公众开放， 日方政府和国际残奥委员会将于8月16日举行四方会议，以正式作出决定。</blockquote><figure>
-        <img src="https://media.dwnews.net/dw/rH8hqUySJEHWRCFc_DTYKcpfsB8%3D/320*0/media/images/dw/33a34de97c94a76d12c65f5b7245ee8d.jpg" alt="2020年8月24日，在日本东京车站前的显示东京残奥会开幕式倒计时。（新华社）" referrerpolicy="no-referrer">
-        <figcaption>2020年8月24日，在日本东京车站前的显示东京残奥会开幕式倒计时。（新华社）</figcaption>
-        </figure><br><p>据日本《每日新闻》8月13日报道称，东京残奥会临近开幕， 日本政府，奥运组委会，东京都政府和国际残奥委员会将于8月16日举行四方会议，以正式作出决定残奥会开幕是否有观众。</p><p>据称，静冈县没有发布任何消息，仍处于防御疫情优先措施之下，预计将在50%的容量内允许最多5千名观众。</p><p>据日本奥组委官员称，16日四方会议之后，将召开联络委员会，以决定如何处理其余东京，千叶和埼玉三个县的问题。</p><p>据报道称，在残奥会开幕式上，即使不允许普通民众作为观众参加，也考虑采用与学校挂钩的观众计划。 8月5日，日本残奥会委员会主席访问了千叶县政府，并向其县长提交了申请，要求儿童和学生能够观看残奥会比赛。并补充表示，观看残奥会对儿童有教育意义。</p><p>据悉，东京残奥会将在四个县，东京，千叶，埼玉和静冈举行，将在22个大项目中设置539个种类。预计将有168个国家和地区获得参加，这是历史上最大的数字。<b>推荐阅读：</b></p>]]></description>
-            <pubDate>Fri, 13 Aug 2021 09:30:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256393/%E4%B8%9C%E4%BA%AC%E6%AE%8B%E5%A5%A5%E4%BC%9A%E4%B8%9C%E4%BA%AC%E9%83%BD%E5%8C%BA%E5%B0%86%E4%BA%8E16%E6%97%A5%E6%AD%A3%E5%BC%8F%E5%86%B3%E5%AE%9A%E6%98%AF%E5%90%A6%E6%97%A0%E8%A7%82%E4%BC%97</guid>
-            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256393/%E4%B8%9C%E4%BA%AC%E6%AE%8B%E5%A5%A5%E4%BC%9A%E4%B8%9C%E4%BA%AC%E9%83%BD%E5%8C%BA%E5%B0%86%E4%BA%8E16%E6%97%A5%E6%AD%A3%E5%BC%8F%E5%86%B3%E5%AE%9A%E6%98%AF%E5%90%A6%E6%97%A0%E8%A7%82%E4%BC%97</link>
-            
-            
-            
-            <author><![CDATA[司亭亭]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[香港教协应重新出发　重回正轨才负责任]]></title>
-            <description><![CDATA[<p>近日，“教协宣布解散”的消息可谓震撼香港各界。香港教育专业人员协会（教协）毕竟创会至今已48年，一直以来都是推动香港教育及社会进步的重要力量。但须注意的是，严格而言“教协宣布解散”并非事实。</p><p>事实上，解散教协的权力并不在理事会。根据《教协章程》第二十条，“本会必须有全体合格会员三份之二或以上以秘密投票表示同意方得解散。”故此，虽然教协现届理事会虽然已一致通过解散组织，并获监事会支持，但理事会只是宣布启动相关程序。理事会本身并没有解散教协的权力，而必须交由全体合格会员作决定。</p><figure>
-        <img src="https://media.dwnews.net/hk01/MWXr_qx2I_SqkCjUt1b6muPlBwI%3D/320*0/media/images/dw/20210810/501844338259529728920487.jpeg" alt="教协在过去备受批评，香港教育局亦公布全面终止与其的工作关系。(HK01)" referrerpolicy="no-referrer">
-        <figcaption>教协在过去备受批评，香港教育局亦公布全面终止与其的工作关系。(HK01)</figcaption>
-        </figure><b>全体会员三份二同意方可解散</b><p></p><p>这个细节并非琐碎，也非旁枝末节，而是反映了教协去留应该由谁来决定的原则问题。根据《教协章程》，最高权力机构为会员代表大会，闭会期间由理事会负责管理会务，换言之会员才是教协的话事人，理事会只是每两年被委托的会务管理人。</p><p>如今教协理事会指出，“近年社会和政治环境改变，加上近期一些急剧发展，教协承受巨大压力，面对严峻的危机”，“难以延续工作目标”。即使在记者会上被问及认为要解散教协的具体原因，亦只是笼统重复以上论调。<b>重回正轨才是负责任</b>诚然，教协在过去一个多星期备受批评，包括中国官媒、香港建制报纸及港府官员，香港教育局亦公布全面终止与其的工作关系。但正如其后教协已定位去政治化，宣布“将聚焦教育专业和权益的工作，全力做好工会的本业”，并设立中国历史文化工作组，推动教师正面认识国情，教协显然明白他们的定位及职责所在。</p><p>如今因为一些建制力量的声音便放弃为9.5万会员服务，又是否对广大教师负责任的做法？他们不是表示，“工会在保障职工权益及完善政策扮演正面作用”的吗？退一步说，即使有一些建制声音的存在，但教协只要守法、专注于教育本业，难道就不能承受一些威吓的压力吗？建制派中被视为“大哥”的谭耀宗，不也曾表示希望教协会重回正轨，不要“搞政治”为主吗？按此说法的逻辑，其实也不是指教协并无立足之处。</p><p>教协合资格会员应该否决理事会的解散动议，而且更换理事会，让有志于继续推动香港教育发展、服务广大教师的会员组成新一届理事会，带领教协重新出发。<b>推荐阅读：</b></p>]]></description>
-            <pubDate>Fri, 13 Aug 2021 09:30:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.dwnews.com/%E4%B8%AD%E5%9B%BD/60256306/%E9%A6%99%E6%B8%AF%E6%95%99%E5%8D%8F%E5%BA%94%E9%87%8D%E6%96%B0%E5%87%BA%E5%8F%91%E9%87%8D%E5%9B%9E%E6%AD%A3%E8%BD%A8%E6%89%8D%E8%B4%9F%E8%B4%A3%E4%BB%BB</guid>
-            <link>https://www.dwnews.com/%E4%B8%AD%E5%9B%BD/60256306/%E9%A6%99%E6%B8%AF%E6%95%99%E5%8D%8F%E5%BA%94%E9%87%8D%E6%96%B0%E5%87%BA%E5%8F%91%E9%87%8D%E5%9B%9E%E6%AD%A3%E8%BD%A8%E6%89%8D%E8%B4%9F%E8%B4%A3%E4%BB%BB</link>
-            
-            
-            
-            <author><![CDATA[香港01評論]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[涉嫌出卖国家机密　一名俄罗斯高超音速专家遭俄安局逮捕]]></title>
-            <description><![CDATA[<blockquote>俄罗斯高超音速系统科学研究企业总经理兼首席设计师亚历山大·库拉诺夫 （Alexander Kuranov)）因叛国罪被俄罗斯联邦安全局（FSB）逮捕。</blockquote><p>国际文传电讯社8月12日援引知情人士的话称，从事高超音速技术研究多年的库拉诺夫，将包含有这些国家机密科学发展的信息交给了一名外国公民。</p><figure>
-        <img src="https://media.dwnews.net/dw/5C7XM8dcKK1bVad0HXhj6E2AxxU%3D/320*0/media/images/dw/20200414/15868362155e9532f77ee22.jpg" alt="俄罗斯国家安全局严厉打击出卖本国高新技术的行为。图为俄罗斯警察正在检查一名男子的证件。（AP）" referrerpolicy="no-referrer">
-        <figcaption>俄罗斯国家安全局严厉打击出卖本国高新技术的行为。图为俄罗斯警察正在检查一名男子的证件。（AP）</figcaption>
-        </figure><br><p>另一位消息人士则称，库拉诺夫参与了阿贾克斯高超音速飞机的研发。虽然这是苏联时期的项目，但始终是科学家感兴趣的领域，在2000年代，飞机的研发工作仍在继续。作为飞机研发的一部分，俄方还与外国代表就此举行过会议。</p><p>其中，美国和中国的代表特别对此表现出了兴趣。不过，消息人士没有具体说明，库拉诺夫被拘捕是否与这些情况有关。</p><p>莫斯科列福尔托沃区法院的新闻服务部门表示，在没有具体说明案件细节的情况下，调查人员提交了逮捕库拉诺夫的申请书，被拘留者目前属于嫌疑犯。该案件目前被列为“绝密”。</p><p>执法部门消息人士称，FSB将要求法院将库拉诺夫拘留两个月。</p><p>公开消息显示，库拉诺夫是圣彼得堡理工大学技术科学博士、控制系统与技术系教授，也是开放式股份公司高超音速系统科学研究企业首席执行官兼首席设计师，还参与了与飞机碳氢燃料相关的科学研究。<b>推荐阅读：</b></p>]]></description>
-            <pubDate>Fri, 13 Aug 2021 09:13:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256387/%E6%B6%89%E5%AB%8C%E5%87%BA%E5%8D%96%E5%9B%BD%E5%AE%B6%E6%9C%BA%E5%AF%86%E4%B8%80%E5%90%8D%E4%BF%84%E7%BD%97%E6%96%AF%E9%AB%98%E8%B6%85%E9%9F%B3%E9%80%9F%E4%B8%93%E5%AE%B6%E9%81%AD%E4%BF%84%E5%AE%89%E5%B1%80%E9%80%AE%E6%8D%95</guid>
-            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256387/%E6%B6%89%E5%AB%8C%E5%87%BA%E5%8D%96%E5%9B%BD%E5%AE%B6%E6%9C%BA%E5%AF%86%E4%B8%80%E5%90%8D%E4%BF%84%E7%BD%97%E6%96%AF%E9%AB%98%E8%B6%85%E9%9F%B3%E9%80%9F%E4%B8%93%E5%AE%B6%E9%81%AD%E4%BF%84%E5%AE%89%E5%B1%80%E9%80%AE%E6%8D%95</link>
-            
-            
-            
-            <author><![CDATA[唐飞]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[美媒：美国对伊核谈判态度悲观　或与以色列实行B方案]]></title>
-            <description><![CDATA[<blockquote>美媒报道称，在以色列总理贝内特（Naftali Bennett）和美国中央情报局局长伯恩斯（William Burns）的会面上，双方都表示了对伊核谈判的怀疑态度。</blockquote><p>美国政治新闻网站Axios8月13日报道，以色列总理贝内特在8月11日会见美国中央情报局局长伯恩斯时表示，如果伊朗拒绝重新加入2015年的核协议，耶路撒冷和华盛顿应该形成一个战略联盟。</p><p>报道援引一名以色列官员的消息称，会谈中贝内特向伯恩斯介绍了他对伊朗的评估和接下来的策略，美国方面也对伊朗是否准备重新全面遵守该协议持怀疑态度。</p><figure>
-        <img src="https://media.dwnews.net/dw/Ix0HPRbE6cUrMcTITE52e9HGiBg%3D/320*0/media/images/dw/c3cd8da8dd7529d0b466478fc656d27e.jpg" alt="美媒称，以色列总理贝内特担心伊朗拒绝重返核谈判，盼与美国结盟应对谈判失败后果。（AP）" referrerpolicy="no-referrer">
-        <figcaption>美媒称，以色列总理贝内特担心伊朗拒绝重返核谈判，盼与美国结盟应对谈判失败后果。（AP）</figcaption>
-        </figure><br><p>该官员还表示，以色列反对美国重返伊核协议，但也不会“自动延续”前总理内塔尼亚胡（Benjamin Netanyahu）时期对待伊核协议的政策，会有“不同的方案”。</p><p>报道称，以色列情报界、外交部和其他国家安全机构认为，随着伊朗强硬派总统莱希（Ebrahim Raisi）上台，伊朗决定重返核协议的可能性下降。以色列方面还担心，就算伊朗接下来继续推进其核项目，美国和其他西方大国也不会大力反击。</p><p>8月5日，在伊朗总统就职仪式上，莱希曾表示，伊朗人期望新政府改善他们的生活，“所有对伊朗的非法美国制裁必须撤销”。</p><p>2015年7月，伊朗与美国、英国、法国、俄罗斯、中国和德国达成伊朗核问题全面协议。根据协议，伊朗承诺限制其核计划，国际社会解除对伊制裁。但美国前总统特朗普（Donald Trump）2018年5月8日宣布美国正式退出协议，并逐步恢复对伊制裁。<b>推荐阅读：</b></p>]]></description>
-            <pubDate>Fri, 13 Aug 2021 08:48:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60256337/%E7%BE%8E%E5%AA%92%E7%BE%8E%E5%9B%BD%E5%AF%B9%E4%BC%8A%E6%A0%B8%E8%B0%88%E5%88%A4%E6%80%81%E5%BA%A6%E6%82%B2%E8%A7%82%E6%88%96%E4%B8%8E%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%9E%E8%A1%8CB%E6%96%B9%E6%A1%88</guid>
-            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60256337/%E7%BE%8E%E5%AA%92%E7%BE%8E%E5%9B%BD%E5%AF%B9%E4%BC%8A%E6%A0%B8%E8%B0%88%E5%88%A4%E6%80%81%E5%BA%A6%E6%82%B2%E8%A7%82%E6%88%96%E4%B8%8E%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%9E%E8%A1%8CB%E6%96%B9%E6%A1%88</link>
-            
-            
-            
-            <author><![CDATA[胡羽西]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[中国知名女星于月仙车祸原因引质疑　官方整改涉事路段]]></title>
-            <description><![CDATA[<p>中国女演员于月仙8月9日在内蒙古因突发交通事故不幸去世，引发网络关注。事故原因引发社会热议，针对管理弊端，当地官方予以整改。</p><p>综合媒体8月13日报道，中国内蒙古阿右旗公安局交警大队消息，经阿拉善右旗公安局批准，阿拉善右旗公安局交通管理大队决定在S228线（阿拉善右旗至金昌）路段增设移动测速电子监控抓拍设备，限速值为80公里/小时。</p><p>8月9日，《乡村爱情》“谢大脚”扮演者于月仙在S228线443公里500米处发生交通事故不幸遇难。</p><p>据媒体报道，因车辆撞上通过马路的骆驼，才导致车祸发生。</p><p>8月10日，有媒体实地探访了位于内蒙古阿拉善的事故现场。时隔一天，公路上依然可见清晰的刹车痕迹，地上还残留着撞击之后留下的车牌。</p><p>车祸现场已经被封锁，但是仍能见到散落在四处的骆驼内脏。一辆红色的SUV被撞得面目全非，车辆顶部直接被掀开，车头也因撞击严重变形。</p><p>事故发生的现场离村庄比较近，当地路段限速60公里。以往也曾有车祸发生，不是车撞车，就是车撞骆驼，也有过骆驼被撞身亡的情况。</p><p>据悉，于月仙所乘车辆车内包括司机在内一共4人，只有于月仙1人身亡，其余3人并无生命危险。</p><p>有网友质疑车内4人只有于月仙身亡，是否是因为其没系安全带。</p><figure>
-        <img src="https://media.dwnews.net/hk01/9Csjrt5jcbmTatkku9_wnP_W-M8%3D/320*0/media/images/dw/20210810/501804205384667136534908.png" alt="在电视剧《乡村爱情》里面饰演“谢大脚”的于月仙，在8月9日赶往拍戏地点时，不幸发生车祸，最终抢救无效被宣告死亡。（视频截图）" referrerpolicy="no-referrer">
-        <figcaption>在电视剧《乡村爱情》里面饰演“谢大脚”的于月仙，在8月9日赶往拍戏地点时，不幸发生车祸，最终抢救无效被宣告死亡。（视频截图）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/hk01/cgPo7WmAngizoDG062c2MYe4yaw%3D/320*0/media/images/dw/20210810/501804208098512896185732.png" alt="于月仙所乘的SUV最终撞停在一道土坡处，车头和车顶破损严重。（视频截图）" referrerpolicy="no-referrer">
-        <figcaption>于月仙所乘的SUV最终撞停在一道土坡处，车头和车顶破损严重。（视频截图）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/hk01/vAoWq2iNYQues65jFuskk6MxYVI%3D/320*0/media/images/dw/20210810/501804211223400448197562.png" alt="据媒体报道，因车子撞上通过马路的骆驼，才导致车祸发生，现场也发现了两头骆驼的尸体，尸身也被撞得惨不忍睹。（视频截图）" referrerpolicy="no-referrer">
-        <figcaption>据媒体报道，因车子撞上通过马路的骆驼，才导致车祸发生，现场也发现了两头骆驼的尸体，尸身也被撞得惨不忍睹。（视频截图）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/hk01/Za89mAlY8TCVArZR_fSEFC8yAfg%3D/320*0/media/images/dw/20210810/501805397863043072569072.jpeg" alt="事发道路少有车辆经过，且周边均为荒落，少有人居住。在没有人类打扰的情况下，这片地方也成为了骆驼栖息生活的好地方。当地司机都知道阿拉善有些路段时不时会有动物出没，是不敢开那么快的，可以看到路边还有“注意牲畜”的警示牌。（视频截图）" referrerpolicy="no-referrer">
-        <figcaption>事发道路少有车辆经过，且周边均为荒落，少有人居住。在没有人类打扰的情况下，这片地方也成为了骆驼栖息生活的好地方。当地司机都知道阿拉善有些路段时不时会有动物出没，是不敢开那么快的，可以看到路边还有“注意牲畜”的警示牌。（视频截图）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/dw/yrueIzYqah55yIYEtc03aT1X6Ug%3D/320*0/media/images/dw/20161124/147994614458362fa0285c0.jpg" alt="8月9日，凭借《乡村爱情》中谢大脚一角而深受观众喜爱的演员于月仙因车祸去世，年仅50岁。当晚，她的丈夫张学松发布讣告：“斯人已逝，笑貌永存。疫情当前，丧仪从简。”（微博@于月仙）" referrerpolicy="no-referrer">
-        <figcaption>8月9日，凭借《乡村爱情》中谢大脚一角而深受观众喜爱的演员于月仙因车祸去世，年仅50岁。当晚，她的丈夫张学松发布讣告：“斯人已逝，笑貌永存。疫情当前，丧仪从简。”（微博@于月仙）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/hk01/35B_cOfvxirtyKOOtoWoIyBBHUM%3D/320*0/media/images/dw/20210810/501870256025767936435920.jpeg" alt="于月仙是赵本山的小姨子，也就是赵本山妻子马丽娟的表妹。于月仙中戏毕业后当了演员，通过本山传媒推出的《乡村爱情故事》系列走红，荣膺过华鼎奖十佳电视明星等殊荣。（微博@于月仙）" referrerpolicy="no-referrer">
-        <figcaption>于月仙是赵本山的小姨子，也就是赵本山妻子马丽娟的表妹。于月仙中戏毕业后当了演员，通过本山传媒推出的《乡村爱情故事》系列走红，荣膺过华鼎奖十佳电视明星等殊荣。（微博@于月仙）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/dw/J07Q0k6NMKrjbLQg_lQuNxJpuTs%3D/320*0/media/images/dw/20151216/14502409535670ebb9605f6.jpg" alt="2015年12月16日上午，于月仙晒出一组在赵忠祥家中做客的照片。（微博@于月仙）" referrerpolicy="no-referrer">
-        <figcaption>2015年12月16日上午，于月仙晒出一组在赵忠祥家中做客的照片。（微博@于月仙）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/dw/r8C7P3MYObvrelQyyQZFvMSzax0%3D/320*0/media/images/dw/20160908/147332148257d11a0a49043.jpg" alt="2016年9月6日，《乡村爱情》中的演员在大脚超市相聚。（微博@于月仙）" referrerpolicy="no-referrer">
-        <figcaption>2016年9月6日，《乡村爱情》中的演员在大脚超市相聚。（微博@于月仙）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/dw/R__tdDGB-4A37lUklkW0kWCa4NQ%3D/320*0/media/images/dw/20160703/14675436575778f069442de.jpg" alt="于月仙是著名演员兼导演，在电视剧《乡村爱情》因演出谢大脚的脚色备受喜爱，且红遍当地。（微博@于月仙）" referrerpolicy="no-referrer">
-        <figcaption>于月仙是著名演员兼导演，在电视剧《乡村爱情》因演出谢大脚的脚色备受喜爱，且红遍当地。（微博@于月仙）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/dw/j_eI7Cokcq3Lf05Lvw-Vp2pspuc%3D/320*0/media/images/dw/20161124/147994599958362f0fefddc.jpg" alt="2016年11月23日，于月仙参加中央三套《回声嘹亮》春节特别节目“王母娘娘”的造型设计。（微博@于月仙）" referrerpolicy="no-referrer">
-        <figcaption>2016年11月23日，于月仙参加中央三套《回声嘹亮》春节特别节目“王母娘娘”的造型设计。（微博@于月仙）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/dw/D7XfkjEe3NNkYybBSQJ36jynkKM%3D/320*0/media/images/dw/20160523/146396726757425e23c9679.jpg" alt="2016年5月23日，于月仙在微博晒出自己在赤峰演出的照片。（微博@于月仙）" referrerpolicy="no-referrer">
-        <figcaption>2016年5月23日，于月仙在微博晒出自己在赤峰演出的照片。（微博@于月仙）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/dw/TmRVaswk3rPgxBfKMLaI0ig1RHs%3D/320*0/media/images/dw/20151201/1448949785565d3819906a8.jpg" alt="2015年11月30日，于月仙晒出一组自己在家乡赤峰秋冬达里湖拍摄的最新写真，当时44岁的于月仙穿着民族风长衫，在一艘废弃的轮船边大凹造型，霸气出镜。（微博@于月仙）" referrerpolicy="no-referrer">
-        <figcaption>2015年11月30日，于月仙晒出一组自己在家乡赤峰秋冬达里湖拍摄的最新写真，当时44岁的于月仙穿着民族风长衫，在一艘废弃的轮船边大凹造型，霸气出镜。（微博@于月仙）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/dw/RJ9biXSRVAiQEYU3B3rAGMkDpQg%3D/320*0/media/images/dw/20150714/143683224455a451f40e533.jpg" alt="2015年7月13日，于月仙晒出一组在片场的美艳自拍和新剧的造型。（微博@于月仙）" referrerpolicy="no-referrer">
-        <figcaption>2015年7月13日，于月仙晒出一组在片场的美艳自拍和新剧的造型。（微博@于月仙）</figcaption>
-        </figure><br><figure>
-        <img src="https://media.dwnews.net/dw/ZUkdxhqQ-smJm-ZHMNwSLaDpN84%3D/320*0/media/images/dw/20150309/142585875754fce0c5f31d6.jpg" alt="于月仙年轻时超美艳。（微博@于月仙）" referrerpolicy="no-referrer">
-        <figcaption>于月仙年轻时超美艳。（微博@于月仙）</figcaption>
-        </figure><br><p>但经过警方调查得知，车内4人均系有安全带，且于月仙所乘坐的位置是在副驾驶的后方座位上，至于为何只有于月仙一人遭此劫难，还需进一步的详细调查才能得知。</p><p>资料显示，于月仙1971年4月24日出生于内蒙古自治区赤峰市，毕业于中央戏剧学院表演系92班，生前是天津人民艺术剧院演员。</p><p>于月仙出道较晚，早期在荧屏上亮相是98版的《水浒传》，她在剧中饰演鲁提辖拳打镇关西一段中的金翠莲。</p><p>2006年开始拍摄《乡村爱情》第一部正式走红。</p><p>值得一提的是，于月仙之所以常年和本山传媒合作，出演《乡村爱情》等作品，除了适合谢大脚这个角色、演技出色外，她和本山传媒，以及“小品大王”赵本山都很有渊源。</p><p>于月仙的表姐是马丽娟，而马丽娟是赵本山的现任妻子。<b>推荐阅读：</b></p>]]></description>
-            <pubDate>Fri, 13 Aug 2021 08:38:00 GMT</pubDate>
-            <guid isPermaLink="false">https://www.dwnews.com/%E4%B8%AD%E5%9B%BD/60256382/%E4%B8%AD%E5%9B%BD%E7%9F%A5%E5%90%8D%E5%A5%B3%E6%98%9F%E4%BA%8E%E6%9C%88%E4%BB%99%E8%BD%A6%E7%A5%B8%E5%8E%9F%E5%9B%A0%E5%BC%95%E8%B4%A8%E7%96%91%E5%AE%98%E6%96%B9%E6%95%B4%E6%94%B9%E6%B6%89%E4%BA%8B%E8%B7%AF%E6%AE%B5</guid>
-            <link>https://www.dwnews.com/%E4%B8%AD%E5%9B%BD/60256382/%E4%B8%AD%E5%9B%BD%E7%9F%A5%E5%90%8D%E5%A5%B3%E6%98%9F%E4%BA%8E%E6%9C%88%E4%BB%99%E8%BD%A6%E7%A5%B8%E5%8E%9F%E5%9B%A0%E5%BC%95%E8%B4%A8%E7%96%91%E5%AE%98%E6%96%B9%E6%95%B4%E6%94%B9%E6%B6%89%E4%BA%8B%E8%B7%AF%E6%AE%B5</link>
-            
-            
-            
-            <author><![CDATA[施予]]></author>
             
                 
             
