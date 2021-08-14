@@ -4,10 +4,30 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sat, 14 Aug 2021 15:48:43 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Aug 2021 15:52:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ 喝熱水防癌]]></title>
+            <link>https://cofacts.tw/article/2fylkj7nabfzn?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/2fylkj7nabfzn?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sat, 14 Aug 2021 15:52:24 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/2fylkj7nabfzn?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+           喝熱水防癌
+        
+              <h2><a href="https://cofacts.tw/reply/7UNdRXsBgBgcuemXQQ84">最新回應</a></h2>
+              <p>含有錯誤訊息 by Carol</p>
+              錯誤消息。
+飲用熱水或溫水都無法破壞癌細胞，
+
+
+
+              <h2>出處</h2>
+              https://www.mygopen.com/2017/12/line_25.html
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[打完疫苗 手臂會吸湯匙]]></title>
             <link>https://cofacts.tw/article/azgfsaoova6m?utm_source=Others&amp;utm_medium=RSS</link>
@@ -414,37 +434,6 @@ https://newtalk.tw/news/view/2017-03-10/82727
               <h2>出處</h2>
               [1] Atlantic: Joe Biden Worries That China Might Win
  https://www.theatlantic.com/international/archive/2021/06/joe-biden-foreign-policy/619130/
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[終於抓到了 高血壓、高血糖、心血管疾病的最主要元凶，不會再心肌梗塞、猝死了 保健⋯⋯]]></title>
-            <link>https://cofacts.tw/article/18y18n7yhyv89?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/18y18n7yhyv89?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Fri, 13 Aug 2021 23:22:52 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/18y18n7yhyv89?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          終於抓到了 高血壓、高血糖、心血管疾病的最主要元凶，不會再心肌梗塞、猝死了 保健先生 吳學峯
-
-https://www.youtube.com/watch?v=6ZkuMTKHdQ8 (終於抓到了 高血壓、高血糖、心血管疾病的最主要元凶，不會再心肌梗塞、猝死了 保健先生 吳學峯)
-        
-              <h2><a href="https://cofacts.tw/reply/CUPTQXsBgBgcuemXUA1w">最新回應</a></h2>
-              <p>含有錯誤訊息 by Happy Cat</p>
-              膽固醇的部分純屬個人價值觀，並非客觀事實。
-新光醫院心臟內科主治醫師張哲明對膽固醇的功用說明如下:
-1.膽固醇是組成細胞膜的主要成分，在維持細胞膜功能運作上扮演重要的角色。
-2.膽固醇也是合成重要荷爾蒙的原料，包括副腎皮質荷爾蒙、性荷爾蒙 (如雄性激素及雌性激素)以及合成維他命 D 及膽酸的重要元素。
-若將膽固醇1的功能轉變為修補血管皮的功用是過度延伸的說法。
-另外，低密度膽固醇在運送過程中會在血管壁沉積，導致心血管疾病。
-而人體血液酸性學說已被證實為虛構理論。
-
-
-              <h2>出處</h2>
-              認識膽固醇 - 新光醫院
-https://www.skh.org.tw/skh_resource/leap_do/health_picture/1542261859669/%E8%AA%8D%E8%AD%98%E8%86%BD%E5%9B%BA%E9%86%87.pdf
-香港食物安全焦點
-https://www.cfs.gov.hk/tc_chi/multimedia/multimedia_pub/multimedia_pub_fsf_33_02.html
-衛生福利部對人體酸鹼體質的說明
-https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=1425&pid=11098
             ]]></description>
         </item>
     </channel>
