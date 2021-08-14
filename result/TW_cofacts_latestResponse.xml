@@ -4,10 +4,30 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sat, 14 Aug 2021 15:37:51 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Aug 2021 15:44:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[打完疫苗 手臂會吸湯匙]]></title>
+            <link>https://cofacts.tw/article/azgfsaoova6m?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/azgfsaoova6m?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sat, 14 Aug 2021 15:42:45 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/azgfsaoova6m?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          打完疫苗 手臂會吸湯匙
+        
+              <h2><a href="https://cofacts.tw/reply/40NURXsBgBgcuemXag-1">最新回應</a></h2>
+              <p>含有錯誤訊息 by Carol</p>
+              假的。
+此現象是因為膠帶殘膠或手臂上的油脂產生摩擦力所導致的，與注射疫苗無關。
+
+              <h2>出處</h2>
+              https://www.cdc.gov/coronavirus/2019-ncov/vaccines/facts.html
+
+https://tfc-taiwan.org.tw/articles/5994
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[七夕限定！「每人390元有找」爽玩義大　和東奧英雄同姓玩六福村5折 | ETto⋯⋯]]></title>
             <link>https://cofacts.tw/article/3njf7xpp8ybxr?utm_source=Others&amp;utm_medium=RSS</link>
@@ -425,29 +445,6 @@ https://www.skh.org.tw/skh_resource/leap_do/health_picture/1542261859669/%E8%AA%
 https://www.cfs.gov.hk/tc_chi/multimedia/multimedia_pub/multimedia_pub_fsf_33_02.html
 衛生福利部對人體酸鹼體質的說明
 https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=1425&pid=11098
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[美國疫苗多到Costco擁3品牌任君挑　還有藥妝店免費打！台網友已羨慕
-htt⋯⋯]]></title>
-            <link>https://cofacts.tw/article/1squhbtgh19it?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/1squhbtgh19it?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Fri, 13 Aug 2021 22:51:12 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/1squhbtgh19it?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          美國疫苗多到Costco擁3品牌任君挑　還有藥妝店免費打！台網友已羨慕
-https://tw.appledaily.com/international/20210526/LNW6J4BCFZD6FIA5TZZBWLGST4/ (美國疫苗多到Costco擁3品牌任君挑　還有藥妝店免費打！台網友已羨慕 ｜ 蘋果新聞網 ｜ 蘋果日報)
-        
-              <h2><a href="https://cofacts.tw/reply/9UO2QXsBgBgcuemXUgzE">最新回應</a></h2>
-              <p>含有正確訊息 by Happy Cat</p>
-              依照東森新聞中所提供美國costco網頁連結進行搜尋後發現確有相關英文公告。
-
-              <h2>出處</h2>
-              東森財經新聞2021/05/26
-https://fnc.ebc.net.tw/fncnews/world/135066
-
-美國costco網頁相關英文公告
-https://www.costco.com/covid-vaccine.html
             ]]></description>
         </item>
     </channel>
