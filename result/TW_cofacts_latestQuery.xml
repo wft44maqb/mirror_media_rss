@@ -4,10 +4,30 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sat, 14 Aug 2021 09:12:56 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Aug 2021 09:17:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[
+]]></title>
+            <link>https://cofacts.tw/article/334kb79jk4lrf?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/334kb79jk4lrf?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sat, 14 Aug 2021 09:14:27 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/334kb79jk4lrf?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          
+
+        
+              <h2><a href="https://cofacts.tw/reply/5qnmAngB9w1KR1IkSwEs">最新回應</a></h2>
+              <p>不在查證範圍 by Asdfgh</p>
+              測試用之無意義訊息。
+ 
+
+              
+              
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[2020年驚爆十月新聞
 
@@ -440,24 +460,6 @@ Aifian app 並非詐騙。
 
               
               
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[竹筍開花，100年才有一次機會。這叫地湧金蓮花，是佛教的五樹六花之一]]></title>
-            <link>https://cofacts.tw/article/2xvp4hbtga9zq?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/2xvp4hbtga9zq?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Fri, 13 Aug 2021 21:49:23 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/2xvp4hbtga9zq?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          竹筍開花，100年才有一次機會。這叫地湧金蓮花，是佛教的五樹六花之一
-        
-              <h2><a href="https://cofacts.tw/reply/5kOhQXsBgBgcuemXcwwg">最新回應</a></h2>
-              <p>含有錯誤訊息 by Happy Cat</p>
-              佛經中的五樹六花，五樹指菩提樹、大青樹（闊葉榕）、貝葉棕、檳榔樹、糖棕或椰子；六花則是荷花、文殊蘭、黃薑花、黃玉蘭、雞蛋花、地湧金蓮。裡面跟竹筍這種植物無關。
-
-              <h2>出處</h2>
-              人間福報[植物教室]2008.09.17
-https://www.merit-times.com/newspage.aspx?unid=97073
             ]]></description>
         </item>
     </channel>
