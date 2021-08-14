@@ -4,9 +4,9 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=24&amp;profile=rss20" rel="self" type="application/rss+xml" />
       <item>
-    <title>支援記憶體ECC，Nvidia新款專業繪圖GPU上場</title>
+    <title>支援記憶體ECC，Nvidia新款Ampere架構專業繪圖GPU上場</title>
     <link>https://www.ithome.com.tw/review/146172</link>
     <description> 4月中舉行的年度GTC大會期間，Nvidia在專業繪圖加速卡的產品線當中，針對工作站系統，推出RTX A5000、RTX A4000等兩款機型，針對筆電GPU，推出RTX A5000、RTX A4000、RTX A3000、RTX A2000。
 而在8月舉行的SIGGRAPH年度電腦繪圖大會，Nvidia發表新款工作站GPU：RTX A2000，它是目前體型最為緊緻、具有能源使用效率的GPU產品，可廣泛搭配標準與小型工作站，預計10月上市，將會在華碩、BOXX、Dell Technologies、HP、聯想，以及Nvidia全球經銷合作廠商的工作站產品當中提供。</description>
