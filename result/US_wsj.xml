@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Aug 2021 00:50:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Aug 2021 00:54:26 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 14 Aug 2021 00:50:24 GMT</pubDate>
+        <pubDate>Sat, 14 Aug 2021 00:54:26 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -35,6 +35,13 @@
             <pubDate>Fri, 13 Aug 2021 11:10:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[WHO新冠溯源小組負責人呼籲對武漢一個實驗室進行更仔細的審查]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LN882_COVIDL_OR_20210812180619.jpg" class="webfeedsFeaturedVisual" alt=""/><p>WHO新冠溯源小組的丹麥負責人安巴雷克稱，調查人員應該尋求有關武漢市疾控中心一個實驗室的更多資訊。</p>]]></description>
+            <link>https://cn.wsj.com/articles/who%E6%96%B0%E5%86%A0%E6%BA%AF%E6%BA%90%E5%B0%8F%E7%B5%84%E8%B2%A0%E8%B2%AC%E4%BA%BA%E5%91%BC%E7%B1%B2%E5%B0%8D%E6%AD%A6%E6%BC%A2%E5%AF%A6%E9%A9%97%E5%AE%A4%E9%80%B2%E8%A1%8C%E6%9B%B4%E4%BB%94%E7%B4%B0%E7%9A%84%E5%AF%A9%E6%9F%A5-11628821509</link>
+            <guid isPermaLink="false">CT-BGH-20210813092600</guid>
+            <pubDate>Sat, 14 Aug 2021 00:45:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[阿里巴巴在員工性侵指控後宣布反性騷擾新政策]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LN604_ALIACT_OR_20210812101446.jpg" class="webfeedsFeaturedVisual" alt=""/><p>阿里巴巴宣布的措施包括，成立一個由五名女性高管組成的防止性騷擾專門委員會，成立單獨工作團隊負責調查投訴，並改進處理性騷擾和工作場所不當行為的政策。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E5%9C%A8%E5%93%A1%E5%B7%A5%E6%80%A7%E4%BE%B5%E6%8C%87%E7%A8%B1%E5%BE%8C%E5%88%B6%E5%AE%9A%E5%8F%8D%E6%80%A7%E9%A8%B7%E6%93%BE%E6%8E%AA%E6%96%BD-11628811308</link>
@@ -56,13 +63,6 @@
             <pubDate>Fri, 13 Aug 2021 11:10:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[萬隆辭任萬洲國際行政總裁]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LN562_WHGROU_OR_20210812073559.jpg" class="webfeedsFeaturedVisual" alt=""/><p>全球最大豬肉食品企業萬洲國際的老闆萬隆周四辭任行政總裁一職，並將繼續擔任該公司執行董事、董事會主席。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%85%A8%E7%90%83%E6%9C%80%E5%A4%A7%E8%B1%AC%E8%82%89%E7%94%9F%E7%94%A2%E5%95%86%E8%90%AC%E6%B4%B2%E5%9C%8B%E9%9A%9B%E8%A1%8C%E6%94%BF%E7%B8%BD%E8%A3%81%E8%90%AC%E9%9A%86%E5%8D%B8%E4%BB%BB-11628811610</link>
-            <guid isPermaLink="false">CT-BIZ-20210813073120</guid>
-            <pubDate>Fri, 13 Aug 2021 11:10:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Delta毒株拖累美國小企業信心降至3月以來最低水平]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LO012_SBCONF_OR_20210813101819.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國小型企業信心指數降至自初春以來的最低水平，因為Delta毒株相關病例的增加對預期造成了影響，並使企業家們變得更加謹慎。</p>]]></description>
             <link>https://cn.wsj.com/articles/delta%E6%AF%92%E6%A0%AA%E6%8B%96%E7%B4%AF%E7%BE%8E%E5%9C%8B%E5%B0%8F%E4%BC%81%E6%A5%AD%E4%BF%A1%E5%BF%83%E9%99%8D%E8%87%B33%E6%9C%88%E4%BB%A5%E4%BE%86%E6%9C%80%E4%BD%8E%E6%B0%B4%E5%B9%B3-11628901612</link>
@@ -77,18 +77,18 @@
             <pubDate>Fri, 13 Aug 2021 04:30:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[WHO新冠溯源小組負責人呼籲對武漢一個實驗室進行更仔細的審查]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LN882_COVIDL_OR_20210812180619.jpg" class="webfeedsFeaturedVisual" alt=""/><p>WHO新冠溯源小組的丹麥負責人安巴雷克稱，調查人員應該尋求有關武漢市疾控中心一個實驗室的更多資訊。</p>]]></description>
-            <link>https://cn.wsj.com/articles/who%E6%96%B0%E5%86%A0%E6%BA%AF%E6%BA%90%E5%B0%8F%E7%B5%84%E8%B2%A0%E8%B2%AC%E4%BA%BA%E5%91%BC%E7%B1%B2%E5%B0%8D%E6%AD%A6%E6%BC%A2%E5%AF%A6%E9%A9%97%E5%AE%A4%E9%80%B2%E8%A1%8C%E6%9B%B4%E4%BB%94%E7%B4%B0%E7%9A%84%E5%AF%A9%E6%9F%A5-11628821509</link>
-            <guid isPermaLink="false">CT-BGH-20210813092600</guid>
-            <pubDate>Sat, 14 Aug 2021 00:45:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[面對社會議題，貝萊德等重量級投資者更多參與股東交鋒]]></title>
             <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LM634_PROXY__OR_20210810095627.jpg" class="webfeedsFeaturedVisual" alt=""/><p>過去一年，貝萊德和其他一些重量級投資者變得更願意對所投資的公司施加影響，這為將來在董事會席位和氣候變化資訊披露等一系列議題上挑戰公司埋下伏筆。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E9%9D%A2%E5%B0%8D%E7%A4%BE%E6%9C%83%E8%AD%B0%E9%A1%8C%EF%BC%8C%E8%B2%9D%E8%90%8A%E5%BE%B7%E7%AD%89%E9%87%8D%E9%87%8F%E7%B4%9A%E6%8A%95%E8%B3%87%E8%80%85%E6%9B%B4%E5%A4%9A%E5%8F%83%E8%88%87%E8%82%A1%E6%9D%B1%E4%BA%A4%E9%8B%92-11628844014</link>
             <guid isPermaLink="false">CT-FIN-20210813155136</guid>
             <pubDate>Fri, 13 Aug 2021 08:40:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[迪士尼第三財季扭虧為盈，因遊客重返主題公園]]></title>
+            <description><![CDATA[<img width="1280" height="982" src="https://si.wsj.net/public/resources/images/S1-LM145_DISNEY_OR_20210809085700.jpg" class="webfeedsFeaturedVisual" alt=""/><p>隨著抗疫限制措施放鬆、人們紛紛走出家門，華特迪士尼公司的主題公園遊客數量強勁反彈，但該公司承認，德爾塔變異毒株使未來前景存在不確定性。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E8%BF%AA%E5%A3%AB%E5%B0%BC%E9%8A%B7%E5%94%AE%E9%A1%8D%E5%BC%B7%E5%8B%81%E5%8F%8D%E5%BD%88%EF%BC%8C%E5%9B%A0%E9%81%8A%E5%AE%A2%E9%87%8D%E8%BF%94%E4%B8%BB%E9%A1%8C%E5%85%AC%E5%9C%92-11628812208</link>
+            <guid isPermaLink="false">CT-BIZ-20210813073921</guid>
+            <pubDate>Fri, 13 Aug 2021 11:25:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[歐洲電氣三巨頭擁抱數位化浪潮]]></title>
