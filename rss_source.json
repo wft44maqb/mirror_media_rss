@@ -28,6 +28,12 @@
 	"台灣_台灣電腦網路危機處理暨協調中心_資安新聞@TW_twcert": "https://www.twcert.org.tw/tw/rss-104-1.xml",
 	"台灣_iThome@TW_ithome": "https://www.ithome.com.tw/rss.xml",
 	"台灣_iThome新聞@TW_ithomeNews": "https://www.ithome.com.tw/rss",
+	"台灣_新頭殼@TW_newtalk": "https://newtalk.tw/rss/all/",
+	"台灣_新頭殼_國際@TW_newtalkIntl": "https://newtalk.tw/rss/category/1",
+	"台灣_新頭殼_中國@TW_newtalkCN": "https://newtalk.tw/rss/category/7",
+	"台灣_新頭殼_觀點@TW_newtalkOpinion": "https://newtalk.tw/rss/opinion_news",
+	"台灣_新頭殼_公民連線@TW_newtalkCitizen": "https://newtalk.tw/rss/citizen",
+	"台灣_中華民國外交部全球資訊網_即時新聞澄清@TW_mofaClarification": "https://www.mofa.gov.tw/OpenData.aspx?SN=FB09C9C041E34414",
 	"德國_德國之聲@DE_dw": "https://rss.dw.com/xml/podcast_radio_china",
 	"法國_法廣@FR_rfi": "https://www.rfi.fr/tw/rss",
 	"澳門_澳廣視_即時新聞@MO_tdm": "https://www.tdm.com.mo/global/xml/livenews_rss.php",
@@ -65,5 +71,9 @@
 	"香港_香港電台_國際@HK_rthkIntl": "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cinternational.xml",
 	"香港_浸大事實查核中心@HK_hkbuFactCheck": "https://comd.hkbu.edu.hk/factcheckservice/feed/",
 	"香港_香港電腦保安事故協調中心_資安快訊@HK_hkcert": "https://www.hkcert.org/tc/getrss/security-bulletin",
+	"香港_頭條日報@HK_headlineDaily": "https://hd.stheadline.com/rss/news/daily/",
+	"香港_香港政府新聞網_政府澄清@HK_hkGovClarification": "https://www.news.gov.hk/tc/categories/clarification/html/articlelist.rss.xml",
+	"香港_衞生防護中心_新聞稿@HK_chpPress": "https://www.chp.gov.hk/rss/pressreleases_zh_tw_RSS.xml",
+	"香港_衞生防護中心_非傳染病直擊@HK_chpNcdaware": "https://www.chp.gov.hk/rss/ncdaware_zh_tw_RSS.xml",
 	"未知_GreatFire#可能跟法輪功有關係@UNK_greatfire": "https://zh.greatfire.org/news/blog/rss"
 }
