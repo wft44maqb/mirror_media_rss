@@ -6,6 +6,15 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>支援記憶體ECC，Nvidia新款專業繪圖GPU上場</title>
+    <link>https://www.ithome.com.tw/review/146172</link>
+    <description> 4月中舉行的年度GTC大會期間，Nvidia在專業繪圖加速卡的產品線當中，針對工作站系統，推出RTX A5000、RTX A4000等兩款機型，針對筆電GPU，推出RTX A5000、RTX A4000、RTX A3000、RTX A2000。
+而在8月舉行的SIGGRAPH年度電腦繪圖大會，Nvidia發表新款工作站GPU：RTX A2000，它是目前體型最為緊緻、具有能源使用效率的GPU產品，可廣泛搭配標準與小型工作站，預計10月上市，將會在華碩、BOXX、Dell Technologies、HP、聯想，以及Nvidia全球經銷合作廠商的工作站產品當中提供。</description>
+     <pubDate>2021-08-14  05:08:02</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/review/146172</guid>
+  </item>
+  <item>
     <title>甫獲公平會同意，亞太電信與遠傳啟動5G共頻共網服務</title>
     <link>https://www.ithome.com.tw/news/146193</link>
     <description> 上周剛獲得公平會審議通過，亞太電信宣布啟動國內第一個5G共頻共網服務，以遠傳電信的3.5GHz頻段5G網路，對外提供5G服務。
@@ -243,15 +252,6 @@ Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部�
      <pubDate>2021-08-12  01:08:54</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146151</guid>
-  </item>
-  <item>
-    <title>搶攻大眾市場！聯發科再推兩款新5G手機SoC晶片天璣920和天璣810</title>
-    <link>https://www.ithome.com.tw/news/146149</link>
-    <description> 除了高階5G手機市場外，近日，聯發科加碼再推出兩款新5G SoC晶片天璣920和天璣810，鎖定中階及大眾市場。預計採用這兩款5G手機晶片的終端裝置，將於2021年Q3推出上市。
-聯發科過去一年多已經推出好幾款5G SoC晶片，能夠支援中階及入門5G手機的使用，現在不少萬元以下的5G新手機，很多都採用其5G晶片做開發，像是前不久推出的5G手機晶片天璣900，OPPO新款5G手機Reno6已採用，另一家手機大廠三星一款5G手機A32，也使用天璣720G晶片做開發，就連小米也同樣使用聯發科天璣800U打造自己的5G紅米手機產品。</description>
-     <pubDate>2021-08-12  11:08:02</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146149</guid>
   </item>
   </channel>
 </rss>
