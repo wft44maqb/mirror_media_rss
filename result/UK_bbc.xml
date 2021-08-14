@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Aug 2021 11:17:28 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Aug 2021 11:24:46 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[氣候變化：中國應對政策對全世界有何重要]]></title>
+            <description><![CDATA[考慮到中國的碳排放量全球第一，世界對抗氣候變化的成敗就取決於中國。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/58146804</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/58146804</guid>
+            <pubDate>Sat, 14 Aug 2021 11:11:44 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[阿富汗局勢：塔利班的軍事攻勢為何勢如破竹]]></title>
             <description><![CDATA[塔利班的攻勢為何勢如破竹？而英美長期在阿富汗的支援，卻對幫助阿富汗政府的功效如此有限？]]></description>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/sports-58197504</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58197504</guid>
             <pubDate>Fri, 13 Aug 2021 07:52:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[如何提升睡眠質量 每晚睡個好覺]]></title>
-            <description><![CDATA[新冠疫情下許多人受到失眠困擾，一些公司協助員工放鬆壓力、提升睡眠質量。專家建議，最重要的是，要把睡覺當成一天的頭等大事。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/58186448</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/58186448</guid>
-            <pubDate>Fri, 13 Aug 2021 14:11:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[新冠疫情：中國抗疫專家張文宏因撐「與病毒共存」論遭攻擊 風頭浪尖上敢言專家]]></title>
@@ -195,6 +195,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58197117</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58197117</guid>
             <pubDate>Fri, 13 Aug 2021 08:02:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[如何提升睡眠質量 每晚睡個好覺]]></title>
+            <description><![CDATA[新冠疫情下許多人受到失眠困擾，一些公司協助員工放鬆壓力、提升睡眠質量。專家建議，最重要的是，要把睡覺當成一天的頭等大事。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/58186448</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/58186448</guid>
+            <pubDate>Fri, 13 Aug 2021 14:11:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[蕾哈娜身價17億美元 她是如何致富的]]></title>
