@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-15T06:45:02.579Z</updated>
+    <updated>2021-08-15T06:50:04.985Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -28,6 +28,26 @@
         </author>
         <category label="社會"/>
         <published>2021-08-15T05:55:38.365Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【民陣解散】警方：積極跟進民陣違反《社團條例》　刑責不會因解散而被抹走]]></title>
+        <id>https://www.thestandnews.com/politics/%E6%B0%91%E9%99%A3%E8%A7%A3%E6%95%A3%E8%AD%A6%E6%96%B9%E7%A9%8D%E6%A5%B5%E8%B7%9F%E9%80%B2%E6%B0%91%E9%99%A3%E9%81%95%E5%8F%8D%E7%A4%BE%E5%9C%98%E6%A2%9D%E4%BE%8B-%E5%88%91%E8%B2%AC%E4%B8%8D%E6%9C%83%E5%9B%A0%E8%A7%A3%E6%95%A3%E8%80%8C%E8%A2%AB%E6%8A%B9%E8%B5%B0</id>
+        <link href="https://www.thestandnews.com/politics/%E6%B0%91%E9%99%A3%E8%A7%A3%E6%95%A3%E8%AD%A6%E6%96%B9%E7%A9%8D%E6%A5%B5%E8%B7%9F%E9%80%B2%E6%B0%91%E9%99%A3%E9%81%95%E5%8F%8D%E7%A4%BE%E5%9C%98%E6%A2%9D%E4%BE%8B-%E5%88%91%E8%B2%AC%E4%B8%8D%E6%9C%83%E5%9B%A0%E8%A7%A3%E6%95%A3%E8%80%8C%E8%A2%AB%E6%8A%B9%E8%B5%B0"/>
+        <updated>2021-08-15T06:45:40.119Z</updated>
+        <summary type="html"><![CDATA[民陣中午宣布解散，警方及後發稿指，現正積極跟進民陣違反《社團條例》內的罪行。警方指，今年 4 月曾根據《社團條例》第 15 條，要求該組織提交其成員、活動及資金等資料，惟該組織未有依時向社團事務主任提交所需資料，現正跟進民陣違反《社團條例》內的罪行。 警方又指民陣自 2002 年成立以來，一直未有向公司註冊處註冊為公司，亦非向警察牌照課註冊的合法社團，因此，該組織是一個不合法地運作的組織。警方重…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/popo-04.png"></figure><p>民陣中午宣布解散，警方及後發稿指，現正積極跟進民陣違反《社團條例》內的罪行。</p>
+
+<p>警方指，今年 4 月曾根據《社團條例》第 15 條，要求該組織提交其成員、活動及資金等資料，惟該組織未有依時向社團事務主任提交所需資料，現正跟進民陣違反《社團條例》內的罪行。&nbsp;</p>
+
+<p>警方又指民陣自 2002 年成立以來，一直未有向公司註冊處註冊為公司，亦非向警察牌照課註冊的合法社團，因此，該組織是一個不合法地運作的組織。警方重申，「一個組織及成員犯下的罪行，其刑責不會因解散組織或成員的辭職而被抹走」，指會繼續全力追究任何組織及人士，有否違反《香港國安法》及其他香港法例。</p>
+
+<p>民陣今日中午發聲明，指於 8 月 13 日召開周年大會，出席成員團體一致議決由即日起解散。民陣約 160 萬元的資產，會指示民陣資產託管團體捐給合適的團體。（<a href="https://www.thestandnews.com/politics/%E6%B0%91%E9%99%A3%E5%AE%A3%E5%B8%83%E8%A7%A3%E6%95%A3-160-%E8%90%AC%E8%B3%87%E7%94%A2%E6%8D%90%E5%90%88%E9%81%A9%E5%9C%98%E9%AB%94-%E9%A6%99%E6%B8%AF%E4%BA%BA%E5%8A%A0%E6%B2%B9%E4%BA%BA%E5%9C%A8%E5%B8%8C%E6%9C%9B%E5%9C%A8">另見報道</a>）</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="政治"/>
+        <published>2021-08-15T06:32:23.461Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[港大新生註冊日　校方禁宣傳學生會　部分學會遮「SU」字眼]]></title>
@@ -899,49 +919,5 @@ MORE ➡️<a href="https://t.co/kde3zbbxfH">https://t.co/kde3zbbxfH</a></p>
         </author>
         <category label="政治"/>
         <published>2021-08-14T14:01:00.100Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[山景邨法團改選　挑戰者斥現屆黑箱作業冀踢走　保安選前上門催票惹質疑]]></title>
-        <id>https://www.thestandnews.com/society/%E5%B1%B1%E6%99%AF%E9%82%A8%E6%B3%95%E5%9C%98%E6%94%B9%E9%81%B8-%E6%8C%91%E6%88%B0%E8%80%85%E6%96%A5%E7%8F%BE%E5%B1%86%E9%BB%91%E7%AE%B1%E4%BD%9C%E6%A5%AD%E5%86%80%E8%B8%A2%E8%B5%B0-%E4%BF%9D%E5%AE%89%E9%81%B8%E5%89%8D%E4%B8%8A%E9%96%80%E5%82%AC%E7%A5%A8%E6%83%B9%E8%B3%AA%E7%96%91</id>
-        <link href="https://www.thestandnews.com/society/%E5%B1%B1%E6%99%AF%E9%82%A8%E6%B3%95%E5%9C%98%E6%94%B9%E9%81%B8-%E6%8C%91%E6%88%B0%E8%80%85%E6%96%A5%E7%8F%BE%E5%B1%86%E9%BB%91%E7%AE%B1%E4%BD%9C%E6%A5%AD%E5%86%80%E8%B8%A2%E8%B5%B0-%E4%BF%9D%E5%AE%89%E9%81%B8%E5%89%8D%E4%B8%8A%E9%96%80%E5%82%AC%E7%A5%A8%E6%83%B9%E8%B3%AA%E7%96%91"/>
-        <updated>2021-08-14T13:45:34.150Z</updated>
-        <summary type="html"><![CDATA[山景邨業主立案法團改選原於去年 6 月舉行，惟因疫情一再延期，改選終篤定於明日（ 15 日 ）舉行。有居民不滿現任法團表現，成立組織「山景新氣象」打對台。然而，最近有疑似保安人員逐家拍門，為現任法團主席吳蕙蘭索取授權書，代表出席 15 日的業主周年大會。吳蕙蘭是前山景北區議員，其後曾任山景區議員，獨立建制派吳觀鴻議員助理。2019 年區選，她曾為吳觀鴻的女兒吳鍱珮助選，惟吳最終敗予民主派、屯門社…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/11-13_copy_8sujrRh.png"><figcaption><span>圖片素材來源：山景新氣象 facebook</span></figcaption></figure><p>山景邨業主立案法團改選原於去年 6 月舉行，惟因疫情一再延期，改選終篤定於明日（ 15 日 ）舉行。有居民不滿現任法團表現，成立組織「山景新氣象」打對台。然而，最近有疑似保安人員逐家拍門，為現任法團主席吳蕙蘭索取授權書，代表出席 15 日的業主周年大會。</p>
-
-<p>吳蕙蘭是前山景北區議員，其後曾任山景區議員，獨立建制派吳觀鴻議員助理。2019 年區選，她曾為吳觀鴻的女兒吳鍱珮助選，惟吳最終敗予民主派、屯門社區網絡黃丹晴。</p>
-
-<p>延期一年後，山景邨法團改選將於本周日（15 日）下午 2 時，假山景足球場舉行。山景足球場關起閘門，貼上通告指因管理公司已租用山景足球場召開會議之用，由 8 月 13 日起暫時關閉，至 16 日重開，目前山景足球場的場邊掛起了帆布遮蔽球場。</p>
-
-<p><iframe allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen="true" frameborder="0" height="690" scrolling="no" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLemonWongHK%2Fposts%2F885035572127303&amp;show_text=true&amp;width=500" style="border:none;overflow:hidden" width="500"></iframe></p>
-
-<p><strong>保安上門替法團主席索授權書</strong></p>
-
-<p>現任法團日前傳出醜聞，有居民<a href="https://www.youtube.com/watch?v=6UQAWQzcWYI">向網媒《誌》提供片段</a>，顯示有掛着「置佳物業管理公司」職員證的人員，以及保安和清潔工上門，逐戶拍門查問業主會否出席出席 8 月 15 日的業主周年大會，如不能出席，則可簽授權書代表他們出席。其中有疑似保安員稱，如業主簽署授權書，將授權法團主席，即吳蕙蘭代表出席。保安人員的證件上沒有具名，亦無保安號碼及照片，有居民不滿上門催票做法，遂報警求助。</p>
-
-<p>記者曾致電吳蕙蘭，惟無人接聽，而致電法團原有電話，則發現該號碼已無用戶登記。《立場》已向置佳物業服務有限公司查詢，未獲回覆。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/%E6%88%AA%E5%9C%96.png"><figcaption><span>有疑似保安員上門拍門取授權書。（山景新氣象 Facebook 影片截圖）</span></figcaption></figure></div>
-
-<p><strong>選舉在即仍未知出選隊伍</strong></p>
-
-<p>「山景新氣象」成員 Ivan 批評現任法團工作極不透明，會議內容和財務報表皆沒有公佈，批評這如黑箱作業、隻手遮天，「當業主係咩？如果冇人做，就我哋自己出嚟選，一人一票踢走佢哋。」</p>
-
-<p>Ivan表示，團隊自去年起已開始宣傳，因此對選情有信心。他解釋，根據他觀察，現屆獲得約800票授權票，而「山景新氣象」就獲得 300 至 400 授權票，即大概欠 4、500 票。Ivan 認為，還有 2,000 至 3,000 未簽授權票的小業主，將是這場選舉的關鍵。</p>
-
-<p>雖然選舉即將舉行，惟至今仍他未知參選名單，甚至不知道「山景新氣象」團隊是否已入閘，「正常選舉都有兩隊人咁選，我哋單張都做晒，聽日投票，但係連 number（參選人號碼）都未知，真係好肉酸。」</p>
-
-<p>山景邨自 1983 年入伙，2004 年起成為租置租置計劃屋邨，半數居民是業主，主要設施由業主立案法團管理，吳蕙蘭自 2010 年起成為法團主席，並連任 4 屆，現屆法團改選原定於去年 6 月舉行，惟法團發通告指，基於疫情理由押後選舉。</p>
-
-<p>多家傳媒<a href="https://www.hk01.com/18%E5%8D%80%E6%96%B0%E8%81%9E/492859/%E5%B1%B1%E6%99%AF%E9%82%A8%E8%A8%AD%E6%96%BD%E6%97%A5%E4%B9%85%E5%A4%B1%E4%BF%AE-%E7%84%A1%E7%8E%8B%E7%AE%A1-%E8%A1%97%E5%9D%8A%E5%8B%9F%E7%B0%BD%E7%9B%BC%E4%BB%A55-%E6%A5%AD%E6%AC%8A%E9%80%BC%E4%BB%A4%E6%B3%95%E5%9C%98%E9%96%8B%E6%9C%83">曾報道</a>，山景邨設施日久失修，石屎破裂水喉現鏽跡，惟法團自去年起一直未召開業主大會，街坊投訴無門，難以追究責任。</p>
-
-<p>2017 年<a href="https://www.facebook.com/news.lancet/videos/814542035385506">有線《新聞刺針》報道</a>，山景邨內近 10 間社福機構使用山景邨公共用地時，要得到法團同意，過去一直相安無事，惟到換法團和管理公司後改變，如以往社會服務團體復康巴士可駛進邨，惟換法團和管理公司之後，復康巴士只可泊在路邊斜坡位置，申請將復康巴士駛近卻遭管理公司拒絕。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/225806871_876945819602945_9064188542006349669_n.jpg"><figcaption><span>明日（ 15 日）山景邨業主周年大會將議決新一屆法團成員。</span></figcaption></figure></div>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="社會"/>
-        <published>2021-08-14T12:56:39.620Z</published>
     </entry>
 </feed>
