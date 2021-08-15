@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 15 Aug 2021 07:28:39 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Aug 2021 07:38:28 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -20,6 +20,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58201174</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58201174</guid>
             <pubDate>Sun, 15 Aug 2021 05:46:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[阿富汗局勢：塔利班攻下除首都喀布爾外的所有關鍵城市]]></title>
+            <description><![CDATA[塔利班已經控制了阿富汗34座省會城市中的23座，朝重奪阿富汗全面控制權更進一步。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58220470</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58220470</guid>
+            <pubDate>Sun, 15 Aug 2021 07:37:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[氣候變化：中國應對政策對全世界有何重要]]></title>
@@ -62,13 +69,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58218850</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58218850</guid>
             <pubDate>Sun, 15 Aug 2021 02:50:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[東京奧運： 一起來認識下最年輕的冠軍]]></title>
-            <description><![CDATA[13歲的西矢椛（Momiji Nishiya）在剛剛結束的東京奧運會上贏得了歷史上首枚奧運女子街式滑板金牌。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58188451</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58188451</guid>
-            <pubDate>Sat, 14 Aug 2021 07:47:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[韓國奧運金牌得主一頭短髮引發的風波和爭議]]></title>
@@ -190,6 +190,13 @@
             <pubDate>Sun, 15 Aug 2021 02:24:31 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[東京奧運： 一起來認識下最年輕的冠軍]]></title>
+            <description><![CDATA[13歲的西矢椛（Momiji Nishiya）在剛剛結束的東京奧運會上贏得了歷史上首枚奧運女子街式滑板金牌。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58188451</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58188451</guid>
+            <pubDate>Sat, 14 Aug 2021 07:47:36 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[中美關係：美國副國務卿謝爾曼會見中國新任駐美大使秦剛，首次活動傳遞什麼信號]]></title>
             <description><![CDATA[目前美中關係緊張，在多個領域激烈競爭甚至對抗，此前幾次高官會談也未能破冰，外界對秦剛的舉動甚為期待。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58197158</link>
@@ -204,18 +211,18 @@
             <pubDate>Wed, 11 Aug 2021 02:17:30 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[東京奧運：英國男子接力選手藥檢呈陽性被禁賽，中國田徑項目能再創歷史嗎？]]></title>
-            <description><![CDATA[英國短跑選手、東京奧運4x100接力銀牌得主CJ·烏賈違禁物質檢測呈陽性，已被禁賽；若奧運成績被取消，中國將可能遞補獲得獎牌。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/sports-58197504</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58197504</guid>
-            <pubDate>Fri, 13 Aug 2021 07:52:02 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[新冠疫情期間，如何讓企鵝保持身心健康？]]></title>
             <description><![CDATA[為了企鵝們的身心健康，泰國動物園保育人員決定多帶牠們去戶外水池游泳、曬太陽，加大運動量的同時保持其規律的飲食和作息。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58199874</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58199874</guid>
             <pubDate>Fri, 13 Aug 2021 09:08:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[東京奧運：英國男子接力選手藥檢呈陽性被禁賽，中國田徑項目能再創歷史嗎？]]></title>
+            <description><![CDATA[英國短跑選手、東京奧運4x100接力銀牌得主CJ·烏賈違禁物質檢測呈陽性，已被禁賽；若奧運成績被取消，中國將可能遞補獲得獎牌。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58197504</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/sports-58197504</guid>
+            <pubDate>Fri, 13 Aug 2021 07:52:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[新冠疫情：牛津大學流行病學教授陳錚鳴如何看「共存說」與「清零論」]]></title>
