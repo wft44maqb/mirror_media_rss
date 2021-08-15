@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-08-15T07:24:38Z</updated>
+ <updated>2021-08-15T07:34:47Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,17 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58819198</id>
+  <title><![CDATA[新一波新冠疫情重创印尼]]></title>
+  <updated>2021-08-15T07:20:00Z</updated>
+  <published>2021-08-15T07:20:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/新一波新冠疫情重创印尼/av-58819198?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[德国之声记者访问印尼首都雅加达一座不堪重负的医院。该国已经成为亚洲疫情最为严重地区，刚刚录得全球单日新冠死亡人数新高。每日感染人数曾一度超过5万。专家担心，真实数字可能比官方统计还要高。]]></summary>
+  <category term="时政风云"/>
+  <link rel="enclosure" type="video/mp4" length="16383015" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210810_001_covidindonesia_sd.mp4" title="新一波新冠疫情重创印尼"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58856260</id>
   <title><![CDATA[若为自由故——具有历史意义的一跳]]></title>
@@ -332,16 +343,5 @@
   <summary><![CDATA[为了确保党员们在意识形态上与中共领导层保持一致，党员们会定期参加培训课程。德国之声记者Mathias Bölinger参观了上海一家干部学院。]]></summary>
   <category term="所有节目"/>
   <link rel="enclosure" type="video/mp4" length="15033169" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210702_001_15301bchi_210702_shanghai_sd.mp4" title="外媒记者走访上海干部学院"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58126148</id>
-  <title><![CDATA[新冠期间 飞行员们在干嘛？]]></title>
-  <updated>2021-07-01T14:23:00Z</updated>
-  <published>2021-07-01T14:23:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/新冠期间-飞行员们在干嘛？/av-58126148?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[新冠大流行发生后，数以千计的飞行员被解雇或被安排减少工时。在德国，有那么一批飞行员已经在向全新的方向发展。]]></summary>
-  <category term="经济纵横"/>
-  <link rel="enclosure" type="video/mp4" length="15738862" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210701_001_aa9c1corona-pilot_sd.mp4" title="新冠期间 飞行员们在干嘛？"/>
  </entry>
 </feed>
