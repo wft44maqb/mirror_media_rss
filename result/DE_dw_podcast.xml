@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-08-15T11:10:56Z</updated>
+ <updated>2021-08-15T14:41:51Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,17 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58819339</id>
+  <title><![CDATA[为了未来而奋斗的难民“学霸”]]></title>
+  <updated>2021-08-15T12:58:00Z</updated>
+  <published>2021-08-15T12:58:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/为了未来而奋斗的难民-学霸/av-58819339?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[2015年，扎伊娜作为叙利亚难民来到德国时，她一句德语也不会说。现在，她成为德国最优秀的高中毕业生之一，并帮助他人获得成功。]]></summary>
+  <category term="德国新闻"/>
+  <link rel="enclosure" type="video/mp4" length="16780510" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210809_001_zaina_sd.mp4" title="为了未来而奋斗的难民“学霸”"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58819198</id>
   <title><![CDATA[新一波新冠疫情重创印尼]]></title>
@@ -332,16 +343,5 @@
   <summary><![CDATA[树皮衣是乌干达的一项独特传统工艺，也是世界非物质文化遗产。在乌干达西南部村庄，村民们循环利用树木制作“可再生布料”，发展永续新时尚。]]></summary>
   <category term="文化经纬"/>
   <link rel="enclosure" type="video/mp4" length="10408447" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210629_001_uganda_01r_sd.mp4" title="树皮做衣服 时尚又环保"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58141306</id>
-  <title><![CDATA[外媒记者走访上海干部学院]]></title>
-  <updated>2021-07-03T07:42:00Z</updated>
-  <published>2021-07-03T07:42:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/外媒记者走访上海干部学院/av-58141306?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[为了确保党员们在意识形态上与中共领导层保持一致，党员们会定期参加培训课程。德国之声记者Mathias Bölinger参观了上海一家干部学院。]]></summary>
-  <category term="所有节目"/>
-  <link rel="enclosure" type="video/mp4" length="15033169" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210702_001_15301bchi_210702_shanghai_sd.mp4" title="外媒记者走访上海干部学院"/>
  </entry>
 </feed>
