@@ -5,7 +5,7 @@
     <channel>
         <title><![CDATA[i-CABLE 即時新聞]]></title>
         <link>http://cablenews.i-cable.com/ci/news/listing</link>
-        <atom:link href="http://rsshub.app/icable/all" rel="self" type="application/rss+xml" />
+        <atom:link href="https://rsshub-wft44maqb.herokuapp.com/icable/all" rel="self" type="application/rss+xml" />
         <description><![CDATA[有線新聞 - 走在事實最前線 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
         <generator>RSSHub</generator>
         <webMaster>i@diygod.me (DIYgod)</webMaster>
@@ -14,8 +14,72 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Mon, 16 Aug 2021 12:47:45 GMT</lastBuildDate>
-        <ttl>60</ttl>
+        <lastBuildDate>Mon, 16 Aug 2021 15:27:16 GMT</lastBuildDate>
+        <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[26歲男涉月初灑鹽殺蝸牛被捕]]></title>
+            <description><![CDATA[<img src="http://cablenews.i-cable.com/ci/news/article/37/null" referrerpolicy="no-referrer"><p></p><div>【有線新聞】警方拘捕一名26歲男子，涉嫌殘酷對待動物。</div><div>被捕男子黑布蒙頭，由警方帶上尖沙咀住所蒐證。警方指本月4日，在尖沙咀加連威老道一個水池附近發現多隻蝸牛，懷疑被人灑上大量鹽分致死。被捕人涉嫌殘酷對待動物正被扣留調查。</div><p></p>]]></description>
+            <pubDate>Mon, 16 Aug 2021 15:01:13 GMT</pubDate>
+            <guid isPermaLink="false">759193</guid>
+            <link>http://cablenews.i-cable.com/ci/news/article/37/759193</link>
+            
+            
+            
+            <author><![CDATA[有線新聞]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[北京朝陽檢察院以涉強姦罪批准逮捕吳亦凡]]></title>
+            <description><![CDATA[<img src="https://news.i-cable.com/uploads//(CT)WU-2130(MON).transfer_frame_1161.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】北京朝陽區人民檢察院以涉嫌強姦罪，批准逮捕內地歌手吳亦凡。北京市公安局早前公布，針對網絡舉報吳亦凡多次誘騙年輕女性發生性關係，以涉嫌強姦罪將他刑事拘留，之後他被內地影音及社交平台全面封殺。多間官媒也評論事件，其中中紀委評論指出，無論從事哪一種職業或擁有任何國家的國籍，都不是違法的護身符。</div><p></p>]]></description>
+            <pubDate>Mon, 16 Aug 2021 13:18:37 GMT</pubDate>
+            <guid isPermaLink="false">759187</guid>
+            <link>http://cablenews.i-cable.com/ci/news/article/37/759187</link>
+            
+            
+            
+            <author><![CDATA[有線新聞]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[塔利班攻佔阿富汗　當地人憂極權重現失自由　年輕一代：感受到希望破滅]]></title>
+            <description><![CDATA[<img src="https://news.i-cable.com/uploads//0816_AFG_WORRY.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】塔利班在1990年代中，以極端管治模式在阿富汗執政近5年，這次進駐首都後承諾會與時並進，但當地人仍憂慮在塔利班統治下會失去自由。</div><div>在首都喀布爾街頭，有人將牆身原本印有女模特兒穿上婚紗照片塗上白色油漆，相信是擔心觸犯塔利班奉行的伊斯蘭律法。如此惶恐，是因為過往在塔利班治下出現過不少極權治國情境。塔利班在2001年炸毀有逾千年歷史的巴米揚大佛，理由是大佛不符合伊斯蘭教教義。而女性在塔利班政權時代，社會地位極低，有婦女因不滿遭夫家虐待，逃跑不成功後被丈夫割去鼻和耳朵以示懲罰。當地人擔心這些「噩夢」會重現。</div><div>在伊斯蘭教律法下，男人必須留鬍鬚，女人必須穿蒙面長袍，禁止電視、音樂和電影等娛樂，10歲或以上的女孩則不得上學。雖然塔利班表明會「與時並進」、尊重女性，教育部門地方官員亦表明男孩和女孩可以上學，且沒有年齡限制，但當地依然人心惶惶。</div><div>當地居民：「最近人們的生活變得艱難，擔心塔利班以前和現在對待我們的方式有點不同。（問題是你能相信他們對你很好嗎？）嗯，我們只想要和平。」住在喀布爾、見證塔利班入城的前阿富汗駐聯合國青年代表、22歲的胡拉姆則表示，她這一代人感受到焦慮、恐懼和希望破滅，根本不知兩個月後能否大學畢業，眼見美國使館人員撤走，覺得被背叛。</div><div>曾與美國傳媒合作的阿富汗記者亦身同感受，說若知道美軍駐守阿富汗只是短暫承諾，他根本不會冒性命危險留在國內，批評美國沒有想過這做等同放棄數千人性命。亦有阿富汗女記者阿扎米在兵臨城下時，哭着向同事發送語音信息說有持槍的人來敲門，但根本不知這刻該打電話給警察，還是向塔利班求助。</div><div><br></div><p></p>]]></description>
+            <pubDate>Mon, 16 Aug 2021 12:46:16 GMT</pubDate>
+            <guid isPermaLink="false">759178</guid>
+            <link>http://cablenews.i-cable.com/ci/news/article/37/759178</link>
+            
+            
+            
+            <author><![CDATA[有線新聞]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[機場員工初確暫列本地源頭不明　政府圍封逸東邨美逸樓強檢　另今增三宗輸入個案]]></title>
+            <description><![CDATA[<img src="https://news.i-cable.com/uploads//vlcsnap-2021-08-16-20h34m36s986.png" referrerpolicy="no-referrer"><p></p><div><span style="font-size: 12px;">【有線新聞】本地零確診可能斷纜，一名機場員工初步確診，暫列本地源頭不明個案，她帶有變異病毒株，政府晚上圍封她的住所。</span><br></div><div>初步確診的47歲機場女員工住在東涌逸東邨美逸樓，警方晚上封鎖大廈門口，設置檢測用的帳篷，居民下樓登記檢測，政府目標星期二早上七時解封。</div><div>初步確診的機場員工在航空公司貴賓室工作，星期日發燒向私家醫生及北大嶼山醫院求醫，同日檢測結果初步陽性，帶有L452R變異病毒株，她沒打過疫苗，發病前一天仍然有上班。</div><div>另外，本港新增3宗新型肺炎確診，全部是輸入個案，患者分別從瑞士、日本及馬來西亞抵港，全部帶有L452R變種病毒；其中來自日本的48歲男患者，5月在本港接種兩劑復必泰疫苗。</div><p></p>]]></description>
+            <pubDate>Mon, 16 Aug 2021 12:34:44 GMT</pubDate>
+            <guid isPermaLink="false">759175</guid>
+            <link>http://cablenews.i-cable.com/ci/news/article/37/759175</link>
+            
+            
+            
+            <author><![CDATA[有線新聞]]></author>
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[指控中國於迪拜設秘密監獄　異見人士未婚妻稱曾遭拘留八日]]></title>
@@ -83,7 +147,7 @@
         
         <item>
             <title><![CDATA[內地英語教育培訓機構陷財困 事先張揚破產]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//20210816%20(CT)%20EDUCATION%20TC02_frame_1369.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】擁有48年歷史，在內地有多間分店的華爾街英語傳出破產消息，在北京有分店已經停業。</div><div>在北京位於朝陽區的華爾街英語，大門已被上鎖店面更用白布遮蓋，管理處貼出告示指該分店已停業，至於未完成課程的學生應自行向華爾街英語協商。至於另一間在崇文門的分店，雖然招牌仍在，不過已經再沒有職員上班，留下的只有擺設和桌椅，店外亦沒有貼出任何結業告示。</div><div>據內地傳媒報道 ，華爾街英語負責人，早前已通知各分校表示公司將會宣布破產，要求各校長通知分校員工辦理離職手續。有受影響的學生表示，課程是以預繳方式支付，有人更一次過預繳了數十個月的學費，「如果我們沒有課上，我們還要一直交費，那如果我們不交的話，其實非常影響我們的徵信，然後我有一個朋友是新開的信用卡，然後他要還貸款36期，但是他只學了一個月。」</div><div>有任職華爾街英語的員工指，早幾個月前公司已出現財困，拖糧已不是一、兩個月的事：「從2月初開始，我們收到的關於公司工資延遲發放的郵件，從那之後開始基本上每個月都會收到公司的郵件， </div><div>一直到差不多五、六月份，就告訴我們又延遲了。」</div><div>在北京的華爾街英語最高峰時分店有近20間，但單是去年至少關了六間分店，現時北京只餘下8間。內地早前宣布實行「雙減」政策，提出全面規範校外培訓，包括規定學科類培訓機構不得上市融資，</div><div>嚴禁資本化運作。各地不再審批新的學科類校外培訓機構，現有學科類培訓機構則統一登記為非營利性機構，有分析認為相關政策令校外培訓機構經營困難。</div><div><br></div><p></p>]]></description>
+            <description><![CDATA[<img src="https://news.i-cable.com/uploads//20210816%20(CT)%20EDUCATION%20TC02_frame_1369.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】擁有48年歷史，在內地有多間分店的華爾街英語傳出破產消息，在北京有分店已經停業。</div><div>在北京位於朝陽區的華爾街英語，大門已被上鎖店面更用白布遮蓋，管理處貼出告示指該分店已停業，至於未完成課程的學生應自行向華爾街英語協商。至於另一間在崇文門的分店，雖然招牌仍在，不過已經再沒有職員上班，留下的只有擺設和桌椅，店外亦沒有貼出任何結業告示。</div><div>據內地傳媒報道 ，華爾街英語負責人，早前已通知各分校表示公司將會宣布破產，要求各校長通知分校員工辦理離職手續。有受影響的學生表示，課程是以預繳方式支付，有人更一次過預繳了數十個月的學費，「如果我們沒有課上，我們還要一直交費，那如果我們不交的話，其實非常影響我們的徵信，然後我有一個朋友是新開的信用卡，然後他要還貸款36期，但是他只學了一個月。」</div><div>有任職華爾街英語的員工指，早幾個月前公司已出現財困，拖糧已不是一、兩個月的事：「從2月初開始，我們收到的關於公司工資延遲發放的郵件，從那之後開始基本上每個月都會收到公司的郵件， <span style="font-size: 12px;">一直到差不多五、六月份，就告訴我們又延遲了。」</span></div><div>在北京的華爾街英語最高峰時分店有近20間，但單是去年至少關了六間分店，現時北京只餘下8間。內地早前宣布實行「雙減」政策，提出全面規範校外培訓，包括規定學科類培訓機構不得上市融資，<span style="font-size: 12px;">嚴禁資本化運作。各地不再審批新的學科類校外培訓機構，現有學科類培訓機構則統一登記為非營利性機構，有分析認為相關政策令校外培訓機構經營困難。</span></div><div><br></div><p></p>]]></description>
             <pubDate>Mon, 16 Aug 2021 11:56:38 GMT</pubDate>
             <guid isPermaLink="false">759160</guid>
             <link>http://cablenews.i-cable.com/ci/news/article/37/759160</link>
@@ -115,7 +179,7 @@
         
         <item>
             <title><![CDATA[泰傭柬傭禁飛港　中介指兩地供應少影響微　料港府本周與菲印就疫苗認證達共識]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//vlcsnap-2021-08-16-19h10m00s649.png" referrerpolicy="no-referrer"><p></p><div><span style="font-size: 12px;">【有線新聞】繼菲律賓和印尼後，另外兩個外傭輸出國泰國和柬埔寨禁止來港，有外傭中介說影響有限，相信港府在這個星期會與菲律賓和印尼就認可疫苗記錄達成共識。</span><br></div><div>菲律賓和印尼航班禁止來港多個月，令本港外傭供應大受影響。根據入境處數字，截至6月底，全港只有36萬名外傭，比去年同期少2萬人，來自柬埔寨的外傭增加，由去年6月的80人增至今年136人。不過隨著港府將柬埔寨和泰國等地列入高風險地區，來自這些地區的外傭亦不能來港。香港人力資源仲介協會主席廖翠蘭：「柬埔寨和泰國來的外傭很少，（禁飛）應該影響不大，因為事實現在情況已很差。」</div><div>香港僱傭公會主席陳東風：「柬埔寨原本給了僱主一點希望，現在連這希望都終止，無論僱主或外傭最大希望都是香港政府與菲律賓及印尼商討疫苗證書安排，應該這星期有消息，大家都期待中。」陳東風說據他了解，香港政府要求菲律賓和印尼當局統一處理疫苗證書，第三方亦可以隨時查詢疫苗資料庫。陳：「這兩個標準不論菲律賓或印尼都正向此目標進行，我看不到港府有其他理由拒絕。」</div><div>勞工處表示，政府正與主要外傭輸出國的駐港總領事館商討，如何確認當地接種疫苗記錄的真確性，計劃安排這些外傭集中於一至兩間酒店檢疫，確定安排後會公布詳情。</div><div><br></div><p></p>]]></description>
+            <description><![CDATA[<img src="https://news.i-cable.com/uploads//0816_HELPER.jpg" referrerpolicy="no-referrer"><p></p><div><span style="font-size: 12px;">【有線新聞】繼菲律賓和印尼後，另外兩個外傭輸出國泰國和柬埔寨禁止來港，有外傭中介說影響有限，相信港府在這個星期會與菲律賓和印尼就認可疫苗記錄達成共識。</span><br></div><div>菲律賓和印尼航班禁止來港多個月，令本港外傭供應大受影響。根據入境處數字，截至6月底，全港只有36萬名外傭，比去年同期少2萬人，來自柬埔寨的外傭增加，由去年6月的80人增至今年136人。不過隨著港府將柬埔寨和泰國等地列入高風險地區，來自這些地區的外傭亦不能來港。香港人力資源仲介協會主席廖翠蘭：「柬埔寨和泰國來的外傭很少，（禁飛）應該影響不大，因為事實現在情況已很差。」</div><div>香港僱傭公會主席陳東風：「柬埔寨原本給了僱主一點希望，現在連這希望都終止，無論僱主或外傭最大希望都是香港政府與菲律賓及印尼商討疫苗證書安排，應該這星期有消息，大家都期待中。」陳東風說據他了解，香港政府要求菲律賓和印尼當局統一處理疫苗證書，第三方亦可以隨時查詢疫苗資料庫。陳：「這兩個標準不論菲律賓或印尼都正向此目標進行，我看不到港府有其他理由拒絕。」</div><div>勞工處表示，政府正與主要外傭輸出國的駐港總領事館商討，如何確認當地接種疫苗記錄的真確性，計劃安排這些外傭集中於一至兩間酒店檢疫，確定安排後會公布詳情。</div><div><br></div><p></p>]]></description>
             <pubDate>Mon, 16 Aug 2021 11:04:44 GMT</pubDate>
             <guid isPermaLink="false">759151</guid>
             <link>http://cablenews.i-cable.com/ci/news/article/37/759151</link>
@@ -146,8 +210,24 @@
         </item>
         
         <item>
+            <title><![CDATA[訛稱探丈夫申延期居留　離婚內地婦判囚8個月]]></title>
+            <description><![CDATA[<img src="https://news.i-cable.com/uploads//Channel%20Cover_FL-06.jpg" referrerpolicy="no-referrer"><p></p><div><span style="font-size: 12px;">【有線新聞】一名內地女子被控向入境處職員作出虛假申述，上星期四在沙田裁判法院，被判監禁8個月。</span><br></div><div>52歲的被告較早前以旅客身分抵港，期間以探望在香港的丈夫為理由向入境處申請延期逗留，但入境處在處理有關申請時發現被告申請前已經離婚，被告在警誡下承認為了令申請獲批，而報稱探望丈夫。</div><p></p>]]></description>
+            <pubDate>Mon, 16 Aug 2021 10:39:59 GMT</pubDate>
+            <guid isPermaLink="false">759145</guid>
+            <link>http://cablenews.i-cable.com/ci/news/article/37/759145</link>
+            
+            
+            
+            <author><![CDATA[有線新聞]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
             <title><![CDATA[認前年8.5「大三罷」毁交通燈等罪　一人判勞教、四人各囚4個月]]></title>
-            <description><![CDATA[<img src="http://cablenews.i-cable.com/ci/news/article/37/null" referrerpolicy="no-referrer"><p></p><div><span style="font-size: 12px;">【有線新聞】5名男女早前承認刑事毀壞等6罪，4人各被判囚4個月，1人判入勞教中心，並需賠償交通燈清潔費。</span><br></div><div>案件在西九龍法院審理，裁判官指雖然交通燈損毀輕微，但本案嚴重之處在於事發當日有人在網上號召行動，相關地點亦找到油漆及通訊器，反映早有預謀，各被告有規模地破壞交通燈、意圖癱瘓交通、阻止市民上班，藉此發洩不滿，必須嚴懲，除了22歲陳祖澤被判入勞教中心，其餘4人被判監禁4個月。</div><div>案情指，4男1女被告前年8月5日在荃灣多處破壞交通燈，當中2人未能出示身份證。</div><p></p>]]></description>
+            <description><![CDATA[<img src="https://news.i-cable.com/uploads//vlcsnap-2021-08-16-21h23m09s926.png" referrerpolicy="no-referrer"><p></p><div><span style="font-size: 12px;">【有線新聞】5名男女早前承認刑事毀壞等6罪，4人各被判囚4個月，1人判入勞教中心，並需賠償交通燈清潔費。</span><br></div><div>案件在西九龍法院審理，裁判官指雖然交通燈損毀輕微，但本案嚴重之處在於事發當日有人在網上號召行動，相關地點亦找到油漆及通訊器，反映早有預謀，各被告有規模地破壞交通燈、意圖癱瘓交通、阻止市民上班，藉此發洩不滿，必須嚴懲，除了22歲陳祖澤被判入勞教中心，其餘4人被判監禁4個月。</div><div>案情指，4男1女被告前年8月5日在荃灣多處破壞交通燈，當中2人未能出示身份證。</div><p></p>]]></description>
             <pubDate>Mon, 16 Aug 2021 10:34:37 GMT</pubDate>
             <guid isPermaLink="false">759142</guid>
             <link>http://cablenews.i-cable.com/ci/news/article/37/759142</link>
@@ -274,8 +354,8 @@
         </item>
         
         <item>
-            <title><![CDATA[周五起美國等15國納高風險地區　僅限打齊針港人回港　梁子超：中風險地區亦受變種病毒影響]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//vlcsnap-2021-08-16-16h07m23s116.jpg" referrerpolicy="no-referrer"><p></p><div><span style="font-size: 12px;">【有線新聞】政府星期五起將美國、法國等15個國家列作高風險地區，在這些地區已打針的本港居民才可以登機回港。衞生防護中心轄下科學委員會建議，來自中低風險地區的人士不論是否有抗體，統一酒店檢疫14日。</span><br></div><div>最新由中風險地區提升至高風險的涉及15個國家，包括美國、法國、瑞士、西班牙、孟加拉、馬來西亞、泰國等，星期五起，當局只會容許這些地方已打齊兩針的本港居民登機，抵港後必須到檢疫酒店檢疫21日，其間要接受多次檢測。</div><div>低風險地區的澳洲將會提升至中風險，在當地所有的香港居民及已打針的非香港居民可以繼續登機，沒有打針要21日酒店檢疫，但打了針都要在酒店檢疫14天。呼吸系統科專科醫生梁子超：「如果潛伏期大家公認打針與否都是1至14天，你怎樣可以讓打了針的人縮短檢疫期至7日？即使現時中風險地區，其實都受Delta變種病毒嚴重影響，如果她們疫情再度惡化，我們可能連非香港居民來港措施都要收緊，可能要再將他們放在高風險組別。」新發現及動物傳染病科學委員會主席許樹昌：「如果看首7天的酒店檢疫，你會走漏12%（確診個案），至於A組輸入的個案，因為他是否打針都要檢疫21天，之後都有7天的監測，當中都做了多次測試，流失機會應減最低。」</div><p></p>]]></description>
+            <title><![CDATA[周五起美法等15國納高風險地區　僅限打齊針港人回港　科委會倡抵港人士一律酒店檢疫兩周]]></title>
+            <description><![CDATA[<img src="https://news.i-cable.com/uploads//vlcsnap-2021-08-16-16h07m23s116.jpg" referrerpolicy="no-referrer"><p></p><div><span style="font-size: 12px;">【有線新聞】政府星期五起將美國、法國等15個國家列作高風險地區，在這些地區已打針的本港居民才可以登機回港。衞生防護中心轄下科學委員會建議，來自中低風險地區的人士不論是否有抗體，統一酒店檢疫14日。</span><br></div><div>最新由中風險地區提升至高風險的涉及15個國家，包括美國、法國、瑞士、西班牙、孟加拉、馬來西亞、泰國等，星期五起，當局只會容許這些地方已打齊兩針的本港居民登機，抵港後必須到檢疫酒店檢疫21日，其間要接受多次檢測。</div><div>澳洲則會由低風險地區提升至中風險，在當地所有的香港居民及已打針的非香港居民可以繼續登機，沒有打針要酒店檢疫21日，已打針就14天，驗到有抗體可以再縮短至7日。</div><div>不過衞生防護中心轄下兩個科學委員會審視數據，建議無論有無抗體，中低風險都應一律檢疫14日。新發現及動物傳染病科學委員會主席許樹昌：「如果只看首7天的酒店檢疫，你會走漏12%（確診個案），14天內就只會找到92.5%確診個案，不要理它有無變種，總之是輸入個案，仍然有7.5%機會在14天之後（發現），所以7天監測做多數次測試，你是有機會將他捉回來。至於A組（高風險）地區輸入的個案，無論他打針與否都要在酒店檢疫21天，所以流失機會應會減至最低。」衞生防護中心就表示與酒店業商討接收容量後，會盡快推行科學委員會的建議。</div><p></p>]]></description>
             <pubDate>Mon, 16 Aug 2021 08:00:34 GMT</pubDate>
             <guid isPermaLink="false">759085</guid>
             <link>http://cablenews.i-cable.com/ci/news/article/37/759085</link>
@@ -290,8 +370,8 @@
         </item>
         
         <item>
-            <title><![CDATA[新一輪「賞你住」下月可預訂　參加者須打一針　消費滿800元獲500元酒店優惠]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//stay0816.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】旅發局新一輪「賞你住」活動下月接受預訂，新增的參加條件要打一針。</div><div>年滿18歲的參加者，即日起在本地零售或餐飲消費滿800元，又打了一針疫苗，就獲得500元本地酒店住宿優惠，下月7日可以向140間參與計劃的酒店預訂房間，名額2萬個，同行入住的人可以不打針。</div><div>旅發局指上輪「賞你住」活動參加者平均消費較換領要求高七成，希望消費券繼續帶動消費。</div><p></p>]]></description>
+            <title><![CDATA[新一輪「賞你住」下月起預訂　訂房者須至少打一針　酒店料消費券或使反應更熱烈]]></title>
+            <description><![CDATA[<img src="https://news.i-cable.com/uploads//stay0816.jpg" referrerpolicy="no-referrer"><p></p><div><span style="font-size: 12px;">【有線新聞】旅發局再推出新一輪「賞你住」酒店住宿優惠活動，下月起登記預訂，今次增加一項參加條件，便是訂房的人要最少打一針。</span><br></div><div>參加了「賞你住」計劃的這間荃灣酒店預計在消費券帶動下，這輪反應會較上次熱烈，如心酒店集團市場營銷總監蔡慧詩：「因為暑假時黃金期，9至10月可能平日會稍為回落，我們希望賞你住計劃令到平日入住率亦提升，希望維持九成入住率。我不會覺得打針是阻力，參加『賞你住』可能推動到打針，都是一件好事。」集團說旗下有兩間酒店都為了「賞你住」計劃提供500元一晚的房，變相毋須額外補錢入住，希望吸引客人。</div><div>想參加「賞你住」要注意了，年滿18歲的參加者即日起至10月底要在本地零售或餐飲消費滿800元，最多兩張單據，與上次不同的是，參加者要接種至少一劑疫苗，入住酒店時出示接種紀錄，同行入住的人沒有打針限制。想參加的人可在下月7日直接向酒店預訂，用電郵或酒店預訂系統都可以，用電郵預訂的標題則要註明這個推廣碼，用酒店訂房系統的都一樣要輸入。這次名額兩萬個，參與酒店超過140間，先到先得。</div><p></p>]]></description>
             <pubDate>Mon, 16 Aug 2021 07:59:44 GMT</pubDate>
             <guid isPermaLink="false">759082</guid>
             <link>http://cablenews.i-cable.com/ci/news/article/37/759082</link>
@@ -547,7 +627,7 @@
         
         <item>
             <title><![CDATA[聯合國安理會今晚緊急商討阿富汗局勢　英、俄不承認塔利班政權　中國尊重當地人選擇]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//FB_Frame_20210816B.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】聯合國安理會今晚召開緊急會議，商討阿富汗局勢最新發展。</div><div><div>美、加、英、法、德等逾60個國家和歐盟發表聯合聲明，呼籲保持阿富汗邊境開放，讓想離開的人安全有序離開。俄羅斯大使館人員與塔利班代表開會。</div><div>至於早前曾與塔利班代表會面的中國，指注意到塔利班提出協商建立開放包容的伊斯蘭政府，尊重當地人選擇，期待這些表態能夠落實，確保阿富汗局勢實現平穩過渡；又指中國大使館仍正常運作，中方會繼續關注當地局勢發展。英國則敦促國際社會不要承認塔利班的政權。</div></div><div><br></div><p></p>]]></description>
+            <description><![CDATA[<img src="http://cablenews.i-cable.com/ci/news/article/37/null" referrerpolicy="no-referrer"><p></p><div>【有線新聞】聯合國安理會今晚召開緊急會議，商討阿富汗局勢最新發展。</div><div><div>美、加、英、法、德等逾60個國家和歐盟發表聯合聲明，呼籲保持阿富汗邊境開放，讓想離開的人安全有序離開。俄羅斯大使館人員與塔利班代表開會。</div><div>至於早前曾與塔利班代表會面的中國，指注意到塔利班提出協商建立開放包容的伊斯蘭政府，尊重當地人選擇，期待這些表態能夠落實，確保阿富汗局勢實現平穩過渡；又指中國大使館仍正常運作，中方會繼續關注當地局勢發展。英國則敦促國際社會不要承認塔利班的政權。</div></div><div><br></div><p></p>]]></description>
             <pubDate>Mon, 16 Aug 2021 05:32:44 GMT</pubDate>
             <guid isPermaLink="false">758995</guid>
             <link>http://cablenews.i-cable.com/ci/news/article/37/758995</link>
@@ -691,7 +771,7 @@
         
         <item>
             <title><![CDATA[塔利班進佔阿富汗首都　稱戰爭已結束、承諾尊重女性權利　英美加歐促開放機場、加緊撤僑]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//afg1816.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】阿富汗局勢劇變。塔利班進佔首都喀布爾，說戰爭已經結束，正籌組新政府。總統加尼已經離開阿富汗。美國正匆忙撤走外交人員，同時增兵到當地協助撤僑。大批阿富汗人湧至機場逃亡，美軍向天鳴槍示警，阻止當地人湧上用作撤離外國人的軍機。喀布爾機場管理局指已取消所有商業航班，呼籲民眾勿再湧往機場。</div><div><div>阿富汗首都喀布爾機場，混亂情況持續至早上。大批希望逃離塔利班政權的當地人，湧至停機坪。於前一晚更不時傳出槍聲，幾乎出現人踩人。機場一度暫停所有商業航班。美軍之後接管機場控制塔，正用軍機撤走美國的外交人員和僑民、以及曾協助美軍而獲批簽證的阿富汗人；又會增派軍力至6000人到當地，加快撤離行動。多國將大使館遷移到機場。美國、英國、德國、法國的大使留守，協助撤走僑民。</div><div>塔利班武裝進入首都喀布爾，佔據總統府，收起原有阿富汗國旗。塔利班政治辦公室表示，戰爭已經結束，正開會商討成立新政府，承諾確保民眾和外國使館安全，尊重女性權利；又說不希望受到國際社會孤立，準備好透過對話解決對方的關注，相信外國軍隊不會重複犯錯。</div><div>身處多哈的塔利班談判代表說，組織將於未來數天開會，成立開放、包容的伊斯蘭政府。有塔利班高級成員向路透社透露，計劃待所有外國駐兵離開才籌組政府；已經警告武裝分子不要嚇驚平民，維持市面正常活動。前總統卡爾扎伊等多個阿富汗領袖組成聯合委員會，將與塔利班開會，商討和平移交權力，避免混亂。但據報喀布爾出現零星搶掠。</div><div>獲美國撐腰20年的阿富汗文人政府一日瓦解，與總統加尼突然離國的消息傳開有關。出走的加尼於社交網站發文，解釋離開國家是要避免流血衝突，形容決定艱難。據報他到鄰國塔吉克，亦有報道指他身在烏茲別克，有多名閣員同行。</div><div>原本美軍駐守、全國最大的巴格拉姆空軍基地，亦落入塔利班控制。美國國務卿布林肯承認，阿富汗失守速度比預計快，但稱以為美國留守就可以維持現狀的想法錯誤。布林肯說：「讓我們向後退一步，這明顯不是西貢。我們正確保我方人員安全，現正遷移大使館到機場。因此總統拜登宣布派兵，確保我們維持外交運作，以安全有序的方式進行。」身為三軍總司令的總統拜登，在大衛營聽取匯報。據報他會在數天後，才就阿富汗局勢公開表態。</div></div><p></p>]]></description>
+            <description><![CDATA[<img src="https://news.i-cable.com/uploads//afg1816.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】阿富汗局勢劇變，塔利班進佔首都喀布爾，說戰爭已經結束，會著手籌組新政府。大批阿富汗人湧至機場逃亡，外電報道至少5人在混亂中身亡，美國暫停撤離航班起飛，先疏散聚集的人。</div><div>在喀布爾機場連續第二日有大批阿富汗人湧至，有人甚至爬上登機橋希望可以登機離開。喀布爾機場管理局指，已取消所有商業航班，呼籲民眾勿再湧往機場。</div><div>接管機場控制塔的美軍加快撤離行動，又設鐵絲網分隔民眾。另有片段見到多人攀上正行駛準備起飛的美軍軍機。美國官員稱，美軍曾向天鳴槍示警。外電引述消息指，有人在混亂期間死亡，未知是中槍、抑或人踩人致死。</div><div>不少人聚集在機場跑道，德國外交部指令撤離飛機無法起飛。除了德國外，英國、荷蘭、新西蘭、卡塔爾、阿聯酋，以至俄羅斯等，先後宣布將撤走大使館外交人員或僑民，多國又將大使館遷移到機場。</div><div>塔利班武裝進駐喀布爾的第二日在市內設檢查站，又宣布回收槍等武器，指現時已安全不需武器自衛。在總統府外的阿富汗國旗已經落下。</div><div>塔利班武裝分子前一日佔據總統府。塔利班政治辦公室表示，戰爭已經結束，正開會商討成立新政府，承諾確保民眾和外國使館安全，尊重女性權利，又說不希望受到國際社會孤立，準備好透過對話解決對方的關注，相信外國軍隊不會重複犯錯。</div><div>身處多哈的塔利班談判代表說，組織將於未來數天開會，成立開放、包容的伊斯蘭政府。有塔利班高級成員向路透社透露，計劃待所有外國駐兵離開才籌組政府，已經警告武裝分子不要嚇驚平民，維持市面正常活動。</div><div>獲美國撐腰20年的阿富汗文人政府一日瓦解，與總統加尼突然離國的消息傳開有關。出走的加尼於社交網站發文，解釋離開國家是要避免流血衝突，形容決定艱難。原本美軍駐守、全國最大的巴格拉姆空軍基地，亦落入塔利班控制。</div><div>美國國務卿布林肯承認阿富汗失守速度比預計快，但如以為美國留守就可以維持現狀這種想法是錯誤的。國家安全顧文沙利文則歸咎阿富汗政府軍缺乏戰鬥意志，重申美國無理由繼續涉足阿富汗的內部衝突。身為三軍總司令的總統拜登在大衛營聽取匯報，據報他會在數天內對阿富汗局勢表態及向公眾交代。</div><p></p>]]></description>
             <pubDate>Mon, 16 Aug 2021 02:42:44 GMT</pubDate>
             <guid isPermaLink="false">758959</guid>
             <link>http://cablenews.i-cable.com/ci/news/article/37/758959</link>
@@ -12095,7 +12175,7 @@ Calibri;mso-hansi-theme-font:minor-latin">戶無人應門。</span><span lang="E
         
         <item>
             <title><![CDATA[新型肺炎疫情速報　確診數字、相關消息不斷更新]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//615_COVID19.jpg" referrerpolicy="no-referrer"><p></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">【有線新聞】香港：12,033人確診，212人死亡</span></p><p class="MsoNormal"><br></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">疫情速報<br></span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">8.16</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">．東涌逸東二邨美逸樓晚上七時起列限制區</span><br><span style="font-family: 新細明體, serif;">．一名47歲機場女員工初步確診　暫列作本地源頭不明　現於北大嶼山醫院留醫</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">．政府收緊海外人士抵港檢疫要求　美、法、泰等15地區提升至高風險　澳洲提升至中風險　周五起生效</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">．增三宗輸入個案　一人曾在港接種兩劑復必泰、由日本抵港</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;"><br></span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">8.15</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">．增一宗輸入個案　患者由墨西哥抵港</span></p><p class="MsoNormal"><br></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">8.14</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">．增兩宗輸入個案　已打針返港外傭染變種病毒　完成7日檢疫期曾訪多處、第12日檢測呈陽性</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;"><br></span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">中、澳、台確診數字</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">內地94,430宗、澳門63宗、台灣15,852宗</span></p><p class="MsoNormal"><br></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">外國確診數字（首10位）</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">美國36,669,696宗、印度32,192,576宗、巴西20,364,099宗、俄羅斯6,511,431宗、法國6,471,262宗、英國 6,297,157宗、土耳其6,078,673宗、阿根廷5,084,635宗、哥倫比亞4,867,761宗、西班牙4,693,540宗</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;"><br></span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">全球確診個案</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">・增至207,137,460宗</span></p><p class="MsoNormal"><br></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">全球死亡個案</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">・增至4,361,399宗</span></p><p></p>]]></description>
+            <description><![CDATA[<img src="https://news.i-cable.com/uploads//615_COVID19.jpg" referrerpolicy="no-referrer"><p></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">【有線新聞】香港：12,036人確診，212人死亡</span></p><p class="MsoNormal"><br></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">疫情速報<br></span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">8.16</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">．東涌逸東二邨美逸樓晚上七時起列限制區</span><br><span style="font-family: 新細明體, serif;">．一名47歲機場女員工初步確診　暫列作本地源頭不明　現於北大嶼山醫院留醫</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">．政府收緊海外人士抵港檢疫要求　美、法、泰等15地區提升至高風險　澳洲提升至中風險　周五起生效</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">．增三宗輸入個案　一人曾在港接種兩劑復必泰、由日本抵港</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;"><br></span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">8.15</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">．增一宗輸入個案　患者由墨西哥抵港</span></p><p class="MsoNormal"><br></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">8.14</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">．增兩宗輸入個案　已打針返港外傭染變種病毒　完成7日檢疫期曾訪多處、第12日檢測呈陽性</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;"><br></span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">中、澳、台確診數字</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">內地94,430宗、澳門63宗、台灣15,862宗</span></p><p class="MsoNormal"><br></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">外國確診數字（首10位）</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">美國36,681,559宗、印度32,225,513宗、巴西20,364,099宗、俄羅斯6,531,585宗、法國6,471,455宗、英國6,297,165宗、土耳其6,078,623宗、阿根廷5,084,635宗、哥倫比亞4,867,761宗、西班牙4,693,540宗</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;"><br></span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">全球確診個案</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">・增至207,366,191宗</span></p><p class="MsoNormal"><br></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">全球死亡個案</span></p><p class="MsoNormal"><span style="font-family: 新細明體, serif;">・增至4,365,541宗</span></p><p></p>]]></description>
             <pubDate>Mon, 02 Aug 2021 10:21:27 GMT</pubDate>
             <guid isPermaLink="false">754922</guid>
             <link>http://cablenews.i-cable.com/ci/news/article/37/754922</link>
@@ -19341,91 +19421,11 @@ mso-fareast-language:ZH-HK">」</span><span lang="EN-US"><o:p></o:p></span></p><
         </item>
         
         <item>
-            <title><![CDATA[公社科樣本試卷出爐　問如何釋除國安法疑慮等　通識老師評思考層次較低]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//PAPER-1600(FRI)_frame_179.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】公民與社會發展科九月上馬，考評局公布樣本試卷，題目問及國安法的實施。有通識科老師認為問題單向性，答案在資料冊都找到，很容易合格。</div><div>公民科九月成為中四的教授科目，2024年文憑試會是第一次考試。考評局公布樣本試卷，全卷三條必答題，兩小時內完成。</div><div>第一條有關全球麻疹疫情，資料說疫苗猶豫現象來自對醫護、衞生系統不信任，以及受公眾人物言論影響，短答題要考生參考資料指出一個導致疫苗猶豫的原因。</div><div>第二條引用的資料，包括《國安法》第一條、引述財爺說國安法實施以來，香港金融市場保持平穩，以及全民國家安全教育日的政府新聞稿。</div><div>多項選擇題問國安法堅持的法治原則；短題目問商界對國安法有何疑慮及如何釋除，亦有問培養青少年國家觀念，學校教育有多重要。</div><div>最後一題要求考生解釋青年人到大灣區發展為何既有機遇，亦有挑戰。</div><div>通識科老師田方澤：「他有一個指定方向，然後要你去論證。可能背書、然後在資料抄寫，可能有少許解說都會達到合格的分數，所以與以往思考正反討論層次又會低了。」</div><div>考評局說考核設多種題型讓考生展現不同能力，增加試卷的信度和效度。</div><p></p>]]></description>
-            <pubDate>Fri, 23 Jul 2021 03:37:18 GMT</pubDate>
-            <guid isPermaLink="false">752027</guid>
-            <link>http://cablenews.i-cable.com/ci/news/article/37/752027</link>
-            
-            
-            
-            <author><![CDATA[有線新聞]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[料五年內逾32萬人移英　倫敦市政府將撥90萬英鎊助當地港人]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//MOVEENG07213.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】因應近期不少香港人移居英國，倫敦市長簡世德指市政府會撥款90萬英鎊，折合約960萬港元，協助移民港人在當地找工作及在房屋和教育方面提供協助，強調有道義責任協助港人。</div><div>簡世德：「我自己也是移民後代，現為倫敦市長。我們不會改變我對從海外移民的人所說的重要字詞，就是『倫敦是開放的』。無數人因為疫情或脫歐離開英國，倫敦就業市場空缺史無前例。倫敦出現住屋問題，但和港人無關，這是因為供應不足以應付需求和房屋類型不合適，重點是不應指責港人，要為他們到來前已出現的問題負責。」</div><div>簡世德指截至三月尾已有超過3.4萬人申請BNO簽證移民，但礙於疫情只有少數人到達，相信現時放寬香港旅客的檢疫安排後情況會更明朗。當局估計今年申請簽證人數介乎12.3萬至15.3萬人，預計未來五年逾32萬人移居英國。簡世德相信移民的港人有多達三分一會選擇定居倫敦，簡世德又指因為疫情當地針對亞裔的仇恨罪案去年初起曾上升，現時已回落。</div><p></p>]]></description>
-            <pubDate>Fri, 23 Jul 2021 03:34:45 GMT</pubDate>
-            <guid isPermaLink="false">752021</guid>
-            <link>http://cablenews.i-cable.com/ci/news/article/37/752021</link>
-            
-            
-            
-            <author><![CDATA[有線新聞]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[台山核電站上月氣體濃度升　法國電力集團重申無決定權關閉電廠]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//0723_NUCLEAR.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】廣東台山核電站上月有氣體濃度上升，有份營運的法國電力集團認為當時應暫時關閉電廠。</div><div>經過約一個月調查，法國電力集團指氣體濃度未有超標，未構成緊急情況。不過認為若相同情況在法國發生，集團會決定暫時關閉反應堆，以便更準確判斷情況及避免事態惡化。</div><div>聲明指，由於集團只擁有電廠大約三成股權，決定權在台山核電公司。中國國家核安全局較早前指核電站一號機組有燃料棒包殼破損。</div><p></p>]]></description>
-            <pubDate>Fri, 23 Jul 2021 03:34:22 GMT</pubDate>
-            <guid isPermaLink="false">752018</guid>
-            <link>http://cablenews.i-cable.com/ci/news/article/37/752018</link>
-            
-            
-            
-            <author><![CDATA[有線新聞]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[重提修例風波　林鄭否認屬錯誤決定　稱反抗的人欠警隊一個道歉　或立例規管媒體報道方式]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//0723_CARRIE_V1_10.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】前年政府撤回修訂《逃犯條例》，特首林鄭月娥指，至今都不認為當初提出修例是錯。對於當時她的一段認錯錄音被公開，林鄭月娥再次對事件表示不滿，指可能要立例規管媒體行為。</div><div>修訂《逃犯條例》引起一連串風波，事隔兩年，特首林鄭月娥指當年推動修例的錯在於公關工作不足，「我不認為它是個錯誤決定去推動修訂《逃犯條例》，我們向人們宣傳及解說做得不好，然後給予了另一些人一個漏洞，我已為解說得不好負責。」</div><div>路透社當時獲得一段錄音，指林鄭月娥與商界會面時說自己犯了不能原諒的錯。林鄭月娥：「那是個閉門會議，我不是說閉門會議說的是謊話，但公開錄音顯示了一些媒體的誠信及道德。（它是由一些在場的人提供給媒體。）媒體不應報道那種方式得來的東西。（為何不應？你是關乎公眾利益的人，這是關於透明度。）我現時更了解媒體運作。（當我們獲發一些東西）不查證？（它是個錄音，它不是非法，以我所知沒有犯法。）也許需要在此基礎上引入一項法律。」</div><div>她又指反修例時警方受到不公平對待，「那些同情暴徒的人以及反抗或與警方對立的人，我認為他們欠警隊一個道歉。」</div><div>她否認自己用警隊回應政治問題，說當時示威者擲磚、縱火等是治安問題，並非政治問題，強調不能以對政府的不滿合理化暴力行為。</div><p></p>]]></description>
-            <pubDate>Fri, 23 Jul 2021 03:29:44 GMT</pubDate>
-            <guid isPermaLink="false">752015</guid>
-            <link>http://cablenews.i-cable.com/ci/news/article/37/752015</link>
-            
-            
-            
-            <author><![CDATA[有線新聞]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
             <title><![CDATA[【小事大意義】皂出新天地：本地機構回收酒店肥皂　青年、長者、少數族裔共同送暖有需要人士]]></title>
             <description><![CDATA[<img src="https://news.i-cable.com/uploads//(SML)SOAP.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】每年都數以百萬的小朋友因欠缺衛生用品及清水而死去。香港作為一個物質豐盛的城市，每年卻把超過千萬箱的肥皂、梘液送往堆填區。試想想，如果把這些物資送往其他有需要的國家，可以拯救多少寶貴的生命？</div><div>香港有一間專門回收肥皂的機構，於10年前就開始回收肥皂，將回收得來的肥皂送給本地及海外有需要的人。開初這個工場是由創辦人David和香港大學的學生一起營運。他提及過「再皂福」的成立並不只是為了回收肥皂，而是為了提供一個地方可以讓學生於日常生活運用自身能力和知識。而這個肥皂工場也是一個讓不同年齡、背景、文化的人一起工作、交流的地方，然後再將處理好的肥皂、梘液分發出去，讓福祉惠及其他人。</div><div><br></div><p></p>]]></description>
             <pubDate>Fri, 23 Jul 2021 03:25:17 GMT</pubDate>
             <guid isPermaLink="false">752012</guid>
             <link>http://cablenews.i-cable.com/ci/news/article/37/752012</link>
-            
-            
-            
-            <author><![CDATA[有線新聞]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[【東京奧運】港隊體操代表石偉雄熱身試跳　總教練指備戰情況按計劃進行]]></title>
-            <description><![CDATA[<img src="https://news.i-cable.com/uploads//N_20210723_(S)SHEK(SUB)-0600(FRI)_logo.jpg" referrerpolicy="no-referrer"><p></p><div>【有線新聞】港隊體操代表石偉雄在比賽場地有明競技場熱身，總教練熊松良指備戰情況按計劃進行。</div><div>作為港隊唯一的體操代表，石偉雄這天與其他國家選手一齊進場，每人先有三跳熱身，之後再有兩次試跳。</div><div>分別使出「李世光跳」和「李世光2」，其中第一跳笠松轉體270度後空翻兩周，接近完美，旁邊圍觀的人都忍不住拍手。</div><div>熊松良：「我看到他這兩跳非常之好，基本上是跟我們出發前的計劃，是正常的。作為運動員來說，雖然不是正式比賽，但屬於場地的實習，對於運動員而言都是有些緊張。我剛問了裁判，他認為第二跳給了我的分數是扣了0.8分的，原因可能是技術上不是十分、取得百分百的成功，基本上都是成功的，當然分數上扣了少許。」</div><div>總教練又說，為了讓石偉雄專心備戰，他會留待決賽之後再接受傳媒訪問。</div><p></p>]]></description>
-            <pubDate>Fri, 23 Jul 2021 02:03:27 GMT</pubDate>
-            <guid isPermaLink="false">752003</guid>
-            <link>http://cablenews.i-cable.com/ci/news/article/37/752003</link>
             
             
             

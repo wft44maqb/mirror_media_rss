@@ -5,7 +5,7 @@
     <channel>
         <title><![CDATA[多维新闻网 - 24 小时新闻排行榜]]></title>
         <link>http://www.dwnews.com/</link>
-        <atom:link href="http://rsshub.app/dwnews/rank" rel="self" type="application/rss+xml" />
+        <atom:link href="https://rsshub-wft44maqb.herokuapp.com/dwnews/rank" rel="self" type="application/rss+xml" />
         <description><![CDATA[多维新闻网—记住世界的轨迹 更需多维的视线，海外华人首选的中文门户新闻网站，及时全面的向全球海外华人更新世界各地时事政治、经济、科技、人文历史、图片、视频等新闻内容，是海外华人必上的新闻门户网站。 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
         <generator>RSSHub</generator>
         <webMaster>i@diygod.me (DIYgod)</webMaster>
@@ -14,8 +14,8 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Mon, 16 Aug 2021 15:20:17 GMT</lastBuildDate>
-        <ttl>60</ttl>
+        <lastBuildDate>Mon, 16 Aug 2021 15:27:06 GMT</lastBuildDate>
+        <ttl>5</ttl>
         
         <item>
             <title><![CDATA[索罗斯批中共高层：正摧毁“下金蛋的鹅”　抛弃邓小平遗产]]></title>
@@ -191,7 +191,7 @@
         
         <item>
             <title><![CDATA[阿富汗局势 | 塔利班控制总统府宣布将建国　美英法中俄紧急表态]]></title>
-            <description><![CDATA[<blockquote>阿富汗局势一夜变天，塔利班宣布控制喀布尔与总统府，并很快成立阿富汗伊斯兰酋长国。阿富汗总统去向不明。美英法紧急反应，安理会将召开紧急会议。</blockquote><figure>
+            <description><![CDATA[<blockquote>阿富汗局势一夜变天，塔利班宣布控制喀布尔与总统府，并很快成立阿富汗伊斯兰酋长国。阿富汗总统去向不明。美英法紧急反应，中俄做出表态，安理会将召开紧急会议。</blockquote><figure>
         <img src="https://media.dwnews.net/dw/8QzbmW_rWbaQvd7rpZld2z5uzdM%3D/320*0/media/images/dw/20200301/15830410145e5b49f6e59f6.jpg" alt="阿富汗总统加尼目前去向不明。图为2020年2月29日，阿富汗总统加尼在喀布尔总统府举行的联合新闻发布会上发表讲话。（AP）" referrerpolicy="no-referrer">
         <figcaption>阿富汗总统加尼目前去向不明。图为2020年2月29日，阿富汗总统加尼在喀布尔总统府举行的联合新闻发布会上发表讲话。（AP）</figcaption>
         </figure><b>塔利班控制总统府</b>据中国官媒央视报道，当地时间8月15日夜间，阿富汗塔利班发布消息称，其已控制位于阿富汗首都喀布尔的总统府。<p></p><p>部分塔利班武装人员在总统府对媒体表示，塔利班将对与西方国家政府和军队合作的阿富汗人实施大赦。</p><p>他们同时表示，塔利班领导层返回喀布尔的准备工作正在进行中。<b>塔利班武装分子控制总统府现场画面曝光（请点击图集浏览）：</b></p><figure>
@@ -230,7 +230,7 @@
         </figure><br><figure>
         <img src="https://media.dwnews.net/hk01/_E-4r-G79iVmMLZGiU6c_pdcW0E%3D/320*0/media/images/dw/20210815/503421847023390720057613.jpeg" alt="8月15日消息，塔利班已攻占阿富汗东部城市贾拉拉巴德。（AP）" referrerpolicy="no-referrer">
         <figcaption>8月15日消息，塔利班已攻占阿富汗东部城市贾拉拉巴德。（AP）</figcaption>
-        </figure><br>美联社8月15日引述塔利班发言人的话报道称，塔利班很快将在喀布尔总统府宣布成立阿富汗伊斯兰酋长国。塔利班发言人还表示，已控制喀布尔11个区域。<p></p><p>据阿拉伯电视台（Al Arabiya）报道，塔利班武装分子已经控制喀布尔市内的国家电视台，并发表演说呼吁市民不要恐慌。<b>阿富汗总统去向不明</b>阿富汗民族和解高级委员会主席阿卜杜拉8月15日发表视频讲话时表示，阿富汗总统加尼（Ashraf Ghani）已经离开阿富汗。他在讲话中称加尼为“前总统”。</p><p>当地时间8月15日夜间，国际文传电讯社援引乌兹别克斯坦相关消息人士的话说，乌方并未收到阿富汗方面有关接受阿富汗总统加尼所乘坐航班的申请。</p><p>稍早时，《纽约时报》网站报道称，阿富汗总统加尼与夫人及两名顾问已由喀布尔飞往乌兹别克斯坦。</p><p>另外，还有消息称加尼已前往塔吉克斯坦，但塔外交部予以否认。 <b>中国与塔利班关系迅速升温，王毅在天津会见塔利班领导人一行（请点击浏览大图）：</b></p><figure>
+        </figure><br>美联社8月15日引述塔利班发言人的话报道称，塔利班很快将在喀布尔总统府宣布成立阿富汗伊斯兰酋长国。塔利班发言人还表示，已控制喀布尔11个区域。<p></p><p>据阿拉伯电视台（Al Arabiya）报道，塔利班武装分子已经控制喀布尔市内的国家电视台，并发表演说呼吁市民不要恐慌。<b>阿富汗总统去向不明</b>阿富汗民族和解高级委员会主席阿卜杜拉（Abdullah Abdullah）8月15日发表视频讲话时表示，阿富汗总统加尼（Ashraf Ghani）已经离开阿富汗。他在讲话中称加尼为“前总统”。</p><p>当地时间8月15日夜间，国际文传电讯社援引乌兹别克斯坦相关消息人士的话说，乌方并未收到阿富汗方面有关接受阿富汗总统加尼所乘坐航班的申请。</p><p>稍早时，《纽约时报》网站报道称，阿富汗总统加尼与夫人及两名顾问已由喀布尔飞往乌兹别克斯坦。</p><p>另外，还有消息称加尼已前往塔吉克斯坦，但塔外交部予以否认。 <b>中国与塔利班关系迅速升温，王毅在天津会见塔利班领导人一行（请点击浏览大图）：</b></p><figure>
         <img src="https://media.dwnews.net/dw/FBVVh8tJ89lTC59Mhj-pMeruvzg%3D/320*0/media/images/dw/f08a900ae2a282c88e64ff9e82a3e928.jpg" alt="2021年7月28日，中国国务委员兼外长王毅（右）在天津会见来华访问的阿富汗塔利班政治委员会负责人巴拉达尔（左）一行。（中国外交部官网）" referrerpolicy="no-referrer">
         <figcaption>2021年7月28日，中国国务委员兼外长王毅（右）在天津会见来华访问的阿富汗塔利班政治委员会负责人巴拉达尔（左）一行。（中国外交部官网）</figcaption>
         </figure><br><figure>
@@ -242,7 +242,7 @@
         </figure><br><figure>
         <img src="https://media.dwnews.net/dw/UBBM-cvmoyQXG5mF_uZdBQfWBWY%3D/320*0/media/images/dw/7a6b888841bd93b423afa8dab34fbfd4.jpg" alt="王毅表示，希望阿塔同“东伊运”等一切恐怖组织彻底划清界限，予以坚决有效打击。（中国外交部官网）" referrerpolicy="no-referrer">
         <figcaption>王毅表示，希望阿塔同“东伊运”等一切恐怖组织彻底划清界限，予以坚决有效打击。（中国外交部官网）</figcaption>
-        </figure><b>安理会行动　美英法表态</b>针对阿富汗目前局势，多方均作出表态。<p></p><p>当地时间8月15日下午，联合国安理会方面决定将在16日上午，就当前阿富汗局势进行紧急会议，联合国秘书长古特雷斯（António Guterres）将会出席会议并进行报告。</p><p>美国有线电视新闻网（CNN）报道，美国总统拜登（Joe Biden）预计将于未来几天就阿富汗局势向全美发表讲话。</p><p>CNN引述消息人士报道称，美国已经完成驻喀布尔使馆人员疏散工作，外交官已抵达喀布尔机场。<b>美国仓促从阿富汗撤军招致各方激烈批评（请点击大图浏览）：</b></p><figure>
+        </figure><b>安理会行动　美英法表态</b>针对阿富汗目前局势，多方均做出表态。<p></p><p>当地时间8月15日下午，联合国安理会方面决定将在16日上午，就当前阿富汗局势进行紧急会议，联合国秘书长古特雷斯（António Guterres）将会出席会议并进行报告。</p><p>美国有线电视新闻网（CNN）报道，美国总统拜登（Joe Biden）预计将于未来几天就阿富汗局势向全美发表讲话。</p><p>CNN引述消息人士报道称，美国已经完成驻喀布尔使馆人员疏散工作，外交官已抵达喀布尔机场。<b>美国仓促从阿富汗撤军招致各方激烈批评（请点击大图浏览）：</b></p><figure>
         <img src="https://media.dwnews.net/hk01/_nfGUSrCa1I0Ok2bgBC4Lz6MlBY%3D/320*0/media/images/dw/20210415/459443083025584128806143.jpeg" alt="2011年9月11日，驻阿富汗美军纪念“911”恐怖袭击事件10周年。（AP）" referrerpolicy="no-referrer">
         <figcaption>2011年9月11日，驻阿富汗美军纪念“911”恐怖袭击事件10周年。（AP）</figcaption>
         </figure><br><figure>
@@ -263,7 +263,7 @@
         </figure><br><figure>
         <img src="https://media.dwnews.net/dw/AV0hoaRx51ySNLpfyOBovdb7Ag8%3D/320*0/media/images/dw/25974bac9c1192a1bd50b77dc653d7ca.jpg" alt="2009年6月9日，美国海军陆战队员在阿富汗赫尔曼德省的一个帐篷里休息。（AP）" referrerpolicy="no-referrer">
         <figcaption>2009年6月9日，美国海军陆战队员在阿富汗赫尔曼德省的一个帐篷里休息。（AP）</figcaption>
-        </figure><br>美国国务卿布林肯（Antony Blinken）说，如果执政阿富汗的塔利班不支持阿富汗人民的权利，那么应该对塔利班实行制裁。<p></p><p>布林肯在接受CNN采访时说：“如果塔利班将要领导阿富汗政府，支持国际社会，那么什么都不会发生，如果他们不承认阿富汗人的基本权利并重新回到支持恐怖分子，那么将采取制裁，他们将无法旅行。”</p><p>据俄罗斯卫星通讯社报道，英国首相约翰逊（Boris Johnson）敦促联合国和北约召开紧急会议，讨论阿富汗局势。</p><p>法国总统府爱丽舍宫15日对法新社表示，法国当前绝对的首要考量是仍处在当地的法国公民及驻外机构工作人员的安全。</p><p>目前，法国驻阿富汗大使馆并未关闭。但自今年4月以来，法国就一直呼吁在阿法国公民离开阿富汗。<b>阿富汗稳定与新疆反恐成败息息相关。中国公开发生在新疆、云南与北京天安门等地袭击事件的画面，凸显反恐形势的严峻：</b></p><figure>
+        </figure><br>美国国务卿布林肯（Antony Blinken）说，如果执政阿富汗的塔利班不支持阿富汗人民的权利，那么应该对塔利班实行制裁。<p></p><p>布林肯在接受CNN采访时说：“如果塔利班将要领导阿富汗政府，支持国际社会，那么什么都不会发生，如果他们不承认阿富汗人的基本权利并重新回到支持恐怖分子，那么将采取制裁，他们将无法旅行。”</p><p>据俄罗斯卫星通讯社报道，英国首相约翰逊（Boris Johnson）敦促联合国和北约召开紧急会议，讨论阿富汗局势。</p><p>法国总统府爱丽舍宫15日对法新社表示，法国当前绝对的首要考量是仍处在当地的法国公民及驻外机构工作人员的安全。</p><p>目前，法国驻阿富汗大使馆并未关闭。但自2021年4月以来，法国就一直呼吁在阿法国公民离开阿富汗。<b>阿富汗稳定与新疆反恐成败息息相关。中国公开发生在新疆、云南与北京天安门等地袭击事件的画面，凸显反恐形势的严峻：</b></p><figure>
         <img src="https://media.dwnews.net/dw/6qOC6Epi6IX6ZP_mtYrVsPC4EU4%3D/320*0/media/images/dw/20191206/15756300955dea350fe4152.jpg" alt="2008年8月4日，恐怖分子驾驶一辆偷窃来的自卸货车，在新疆喀什市色满路从背后冲撞正在出操的中国武警队列，并投掷自制手雷，造成16人死亡、16人受伤。（新华社）" referrerpolicy="no-referrer">
         <figcaption>2008年8月4日，恐怖分子驾驶一辆偷窃来的自卸货车，在新疆喀什市色满路从背后冲撞正在出操的中国武警队列，并投掷自制手雷，造成16人死亡、16人受伤。（新华社）</figcaption>
         </figure><br><figure>
