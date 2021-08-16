@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Mon, 16 Aug 2021 17:41:24 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Aug 2021 17:51:26 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[阿富汗撤軍：拜登無法擺脫的失敗形象]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210816/afghanistan-biden/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[拜登政府在執行撤軍時犯下一系列重大錯誤。無論公平與否，拜登將以這樣的形象被載入史冊：在他的領導下，美國在阿富汗的實驗以這樣一個恥辱性的方式落幕。<p><img src='https://static01.nyt.com/images/2021/08/15/us/politics/15dc-prexy-1/merlin_193198014_4d717085-117d-4369-829f-977bb2a2aa1a-articleLarge.jpg' alt='拜登政府七個月來似乎表現出了美國迫切需要的能力，但美國在阿富汗最後幾天的所作所為粉碎了這一形象。 Stefani Reynolds for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Stefani Reynolds for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>拜登政府七個月來似乎表現出了美國迫切需要的能力，但美國在阿富汗最後幾天的所作所為粉碎了這一形象。</p>                    ]]></description>
+            <category>國際</category>
+            <dc:creator><![CDATA[DAVID E. SANGER]]></dc:creator>
+            <pubDate>Mon, 16 Aug 2021 05:45:55 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210816/afghanistan-biden/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[塔利班奪取喀布爾，美國在阿富汗20年猝然落幕]]></title>
             <link><![CDATA[https://cn.nytimes.com/world/20210816/afghanistan-taliban-kabul-surrender/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[赫海威]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 02:10:37 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20200619/china-canada-kovrig-spavor/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[中國再拘留一名加拿大公民，外交緊張局勢加劇]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20190715/china-canadian-arrested/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[這名加拿大人上週在煙台被捕，幾乎同時，徐州逮捕了多名涉嫌吸毒的外教和學生。分析認為兩起事件可能相關，也有可能是中國繼續向加拿大施壓，希望釋放孟晚舟。]]></description>
-            <category>中國</category>
-            <dc:creator><![CDATA[JANE PERLEZ]]></dc:creator>
-            <pubDate>Wed, 11 Aug 2021 02:08:05 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20190715/china-canadian-arrested/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
