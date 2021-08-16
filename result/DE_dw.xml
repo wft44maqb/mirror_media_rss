@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-16T12:48:09Z</updated>
+ <updated>2021-08-16T12:52:00Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,46 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58878379</id>
+  <title><![CDATA[张文宏陷网络交锋 复旦调查抄袭指控]]></title>
+  <updated>2021-08-16T12:40:00Z</updated>
+  <published>2021-08-16T12:40:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/张文宏陷网络交锋-复旦调查抄袭指控/a-58878379?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[本月以来，中国最知名的新冠防治专家之一张文宏因其防疫主张陷入了一场舆论口水战。近日他又被举报涉嫌学术作假，被推到风口浪尖。 ]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58878349</id>
+  <title><![CDATA[德国疫苗接种委员会：12岁以上都建议打疫苗]]></title>
+  <updated>2021-08-16T12:39:00Z</updated>
+  <published>2021-08-16T12:39:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国疫苗接种委员会：12岁以上都建议打疫苗/a-58878349?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[青少年是否也应接种冠状病毒疫苗？在此问题上，德国国内已热辩数周。现在，基于最新数据，国家常设疫苗接种委员会 (Stiko) 也改变了此前的保守立场。]]></summary>
+  <category term="科技环境"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:57217683</id>
+  <title><![CDATA[巴赫：小提琴组曲第三号第三乐章]]></title>
+  <updated>2021-08-16T12:26:00Z</updated>
+  <published>2021-08-16T12:26:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/巴赫：小提琴组曲第三号第三乐章/a-57217683?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[约翰·塞巴斯蒂安·巴赫的无伴奏小提琴奏鸣曲与组曲是音樂史上最著名的小提琴作品之一，大约创作于1720年。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58878282</id>
+  <title><![CDATA[索罗斯：习近平已经将自己变成了独裁者]]></title>
+  <updated>2021-08-16T12:21:00Z</updated>
+  <published>2021-08-16T12:21:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/索罗斯：习近平已经将自己变成了独裁者/a-58878282?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中美冲突的核心是什么？习近平为何与邓小平的经济改革路线背道而驰？阿里巴巴、滴滴等商界巨头何以被打压？美国投资家、慈善家索罗斯在为《华尔街日报》撰写的观点文章中说，为了2022年后继续掌权，完成他认为的人生使命，习近平将自己变成了独裁者，而这样的独裁统治已威胁到中国的未来。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58876706</id>
   <title><![CDATA[评论：终止虚伪的阿富汗政策！]]></title>
@@ -41,7 +81,7 @@
   <published>2021-08-16T09:10:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/多国撤离阿富汗-喀布尔机场出现死伤/a-58875900?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[塔利班进入阿富汗首都喀布尔后，当地居民涌入机场，场面混乱且有目击者称有5人死亡，死因尚未明朗。捷克、义大利撤离班机皆已离境，其馀多国正在安排撤侨，中俄则尚无撤离阿富汗的计划。]]></summary>
+  <summary><![CDATA[塔利班进入阿富汗首都喀布尔后，当地居民涌入机场，场面混乱且有目击者称有5人死亡，死因尚未明朗。捷克、意大利撤离班机皆已离境，其余多国正在安排撤侨，中俄则尚无撤离阿富汗的计划。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -185,16 +225,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58831014</id>
-  <title><![CDATA[欧洲大火肆虐：四大问题解疑]]></title>
-  <updated>2021-08-15T07:19:00Z</updated>
-  <published>2021-08-15T07:19:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧洲大火肆虐：四大问题解疑/a-58831014?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[夏天刚过一半，巴尔干半岛、意大利和地中海东南部野火烧毁的土地面积已经超过了一年的平均水平。]]></summary>
-  <category term="科技环境"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58855881</id>
   <title><![CDATA[德国使馆推文伤害了部分日本国民自尊心]]></title>
   <updated>2021-08-15T07:19:00Z</updated>
@@ -203,6 +233,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国使馆推文伤害了部分日本国民自尊心/a-58855881?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[二战结束 76 年之际，德国驻日大使馆对二战中日本和德国有相似之处的评论引发激烈争论。有日本极右翼分子表示，不能把日本同德国相提并论，这一表态又引中韩网民的抗议。德国之声记者Martin Fritz从东京发来以下报道。]]></summary>
   <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58831014</id>
+  <title><![CDATA[欧洲大火肆虐：四大问题解疑]]></title>
+  <updated>2021-08-15T07:19:00Z</updated>
+  <published>2021-08-15T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧洲大火肆虐：四大问题解疑/a-58831014?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[夏天刚过一半，巴尔干半岛、意大利和地中海东南部野火烧毁的土地面积已经超过了一年的平均水平。]]></summary>
+  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58819096</id>
@@ -435,16 +475,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58800781</id>
-  <title><![CDATA[南欧山火烧不停 农民担心严重减产]]></title>
-  <updated>2021-08-08T14:53:00Z</updated>
-  <published>2021-08-08T14:53:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/南欧山火烧不停-农民担心严重减产/a-58800781?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[希腊的森林大火愈演愈烈，埃维亚岛、伯罗奔尼撒半岛的大部分都受到了波及。同样在地中海沿岸的土耳其、意大利也受到了此次严重森林大火的冲击。]]></summary>
-  <category term="科技环境"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58772035</id>
   <title><![CDATA[当德国遇到台湾：德国啤酒纯酿法在台湾]]></title>
   <updated>2021-08-08T11:32:00Z</updated>
@@ -600,15 +630,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -616,6 +637,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="在线报导"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
