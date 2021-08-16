@@ -75,6 +75,8 @@
  <link>https://www.ithome.com.tw/news/146220</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blogs.cisco.com/news/12082021&quot; target=&quot;_blank&quot;&gt;網通設備大廠思科（Cisco）上周宣布&lt;/a&gt;打算買下以色列的應用監控新創Epsagon，以強化思科的全棧觀察（Full-Stack Observability）解決方案。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://epsagon.com/&quot; target=&quot;_blank&quot;&gt;Epsagon&lt;/a&gt;主要開發奠基於容器及無伺服器的應用程式觀察能力，可自動追蹤所有應用程式所調用的函式庫，在服務出現異常時送出警報，可透過分析及儀表板以辨識造成問題的調用，或是搜尋調用中的酬載、使用者或標籤，也能查詢不同微服務之間的端對端請求流程。客戶可於不同的程式語言中植入Epsagon代理機制，將它整合到不同的服務上，以讓Epsagon自動檢查各種應用的效能。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0816-cisco%20Epsagon.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Epsagon&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;思科表示，為了加速應用程式的開發周期，愈來愈多企業大規模地採用了雲端技術、微服務及容器化元件，而這些則牽涉到新的網頁或傳統元件、第三方服務或是APIs，使得企業的IT環境日趨複雜，並由不同的團隊負責不同元件的效能，該公司的全棧觀察解決方案即能讓不同的團隊共享效能的脈絡，以提高維護體驗，還能改善成本、安全性與效能。&lt;/p&gt;
 &lt;p&gt;而Epsagon的專長正巧符合全棧觀察的需求，透過觀察不同服務之間的脈絡，可協助不同的團隊更了解各自的系統，也能更快速的解決問題並維繫應用程式的體驗。&lt;/p&gt;
 &lt;p&gt;雙方並未公布收購金額，交易完成後Epsagon團隊將會加入思科的策略、培育暨應用程式部門。&lt;/p&gt;
