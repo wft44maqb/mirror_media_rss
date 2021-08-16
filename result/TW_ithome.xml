@@ -6,6 +6,23 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>LockBit 2.0勒索軟體大舉侵襲澳洲，當地網路安全中心發布警告</title>
+ <link>https://www.ithome.com.tw/news/146226</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;駭客利用勒索軟體LockBit 2.0攻擊的現象，最近出現數起事故。例如，於8月11日，運用該勒索軟體的駭客，&lt;a href=&quot;https://www.ithome.com.tw/news/146157&quot;&gt;宣稱攻陷IT大型顧問公司Accenture&lt;/a&gt;，並要求限時支付贖金，否則就要把竊得的資料公開。針對勒索軟體LockBit 2.0的攻擊事故已有數起，&lt;a href=&quot;https://www.cyber.gov.au/acsc/view-all-content/advisories/2021-006-acsc-ransomware-profile-lockbit-20&quot;&gt;澳洲網路安全中心（ACSC）提出警告&lt;/a&gt;，表示他們近期屢屢接獲當地企業通報，發生遭到LockBit 2.0攻擊的事故。&lt;/p&gt;
+&lt;p&gt;針對此波LockBit 2.0攻擊，ACSC也透過MITRE ATT&amp;amp;CK框架，描敘駭客在攻擊過程中會採用的手法，並提出緩解措施。&lt;/p&gt;
+&lt;p&gt;勒索軟體LockBit（又被稱為ABCD）最早出現於2019年9月，而ACSC指出，開發這個攻擊工具的開發者，自2021年1月在俄語網路犯罪論壇上銷售，以訂閱服務的型式提供給買家使用，並採用贖金抽成的方式獲利。到了6月，開發者發布了後繼版本「LockBit 2.0」，宣稱新增了名為StealBit的竊密功能。&lt;/p&gt;
+&lt;p&gt;濫用LockBit的攻擊者往往會使用雙重勒索的招數，藉由將偷得的機密資料，上傳到位於暗網的LockBit 2.0網站，要脅受害組織付款，若是不從，就把這些資料出售或是公開。LockBit 2.0網站架設在洋蔥路由網路（Tor network），而使得攻擊者的行蹤更加隱匿。&lt;/p&gt;
+&lt;p&gt;根據ACSC接獲的事故通報，澳洲當地自2020年開始，傳出遭到LockBit與LockBit 2.0攻擊的情況，但該單位指出，大部分事故都是在2021年7月通報，這代表相較於其他的勒索軟體，LockBit 2.0的攻擊行動急劇增加。&lt;/p&gt;
+&lt;p&gt;對於LockBit 2.0入侵受害組織的管道，ACSC表示，提供工具的開發者會建議買家，透過遠端桌面連線（RDP）、VPN，並搭配外洩的帳密來進行，或者，建議買家使用Cobalt Strike與Metasploit等滲透測試工具，入侵攻擊的目標。&lt;/p&gt;
+&lt;p&gt;但針對近期的攻擊事件，ACSC指出，最近攻擊者偏向利用Fortinet的SSL VPN漏洞CVE-2018-13379，這項漏洞存在於執行舊版FortiOS作業系統的網路設備，以及FortiProxy網路安全閘道產品。&lt;/p&gt;
+&lt;p&gt;而究竟LockBit 2.0被用於攻擊的對象為何？根據ACSC的觀察，濫用此勒索軟體的事故，發生在專業服務、建築業、製造業、零售業，以及食品產業等多種行業之中，ACSC認為，攻擊者挑選目標是隨機的，因為該勒索軟體能攻擊不同的產業。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 16 Aug 2021 11:27:16 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146226 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146226#comments</comments>
+</item>
+<item>
  <title>中華電信投入逾10億元參與亞太新海纜Apricot建設案</title>
  <link>https://www.ithome.com.tw/news/146221</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;中華電信宣布參與新的亞太地區海纜投資計畫，將和其他電信商，以及Google、臉書等科技巨頭聯手，合資打造全新海纜Apricot，以提升亞太地區網路連接容量及穩定性。&lt;/p&gt;
@@ -149,22 +166,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146211 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146211#comments</comments>
-</item>
-<item>
- <title>微軟與Netflix等科技公司成立基金會推動開源eBPF沙盒技術發展</title>
- <link>https://www.ithome.com.tw/news/146195</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;臉書、Google、Isovalent、微軟和Netflix，宣布共同創立&lt;a href=&quot;https://www.linuxfoundation.org/press-release/facebook-google-isovalent-microsoft-and-netflix-launch-ebpf-foundation-as-part-of-the-linux-foundation/&quot;&gt;eBPF基金會&lt;/a&gt;，並且託管在Linux基金會旗下。eBPF是一項起源於Linux核心的技術，能夠在作業系統中執行沙盒程式，目的是要在不更改核心原始碼或是加載核心模組的情況下，安全地擴展核心功能。&lt;/p&gt;
-&lt;p&gt;之所以需要eBPF技術，是為了讓作業系統能夠發展創新技術，官方解釋，由於核心具有監督和控制整個系統的特權，因此作業系統是實現可觀察性、安全性和網路功能的理想場所，但又因為作業系統核心有較高的穩定性和安全性要求，因此難以革新，與作業系統之外的實作相比，作業系統等級的創新進展有限。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/overview-bf463455a5666fc3fb841b9240d588ff.png&quot; style=&quot;width: 580px; height: 297px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;但是eBPF改變了這個情況，由於eBPF能夠在作業系統中執行沙盒程式，應用程式開發人員便可以執行eBPF程式，在執行時向作業系統添加額外的功能，在保證作業系統安全性和效率的情況下，使用JIT編譯器和驗證引擎，執行原生編譯。eBPF目前逐漸成為實現廣泛基礎設施的首選方法，具有提高效率和效能的優點，並且可以明顯降低系統複雜性。&lt;/p&gt;
-&lt;p&gt;臉書核心開發人員，同時也是eBPF共同創建者和維護者Alexei Starovoitov提到，eBPF讓開發者不需要承擔更改核心程式碼的風險和成本，就能夠即時修改作業系統的行為，也就是說，開發者現在具有快速迭代作業系統的網路、安全和容器化內容的能力。&lt;/p&gt;
-&lt;p&gt;官方認為，eBPF改變了作業系統和基礎設施服務的設計方式，其橋接了內核和用戶空間，能夠促進網路、安全、應用程式分析追蹤系統，以及可觀察性的開源技術進展，eBPF甚至讓開發者可以跨多個傳統上獨立的子系統，組合並且執行邏輯。eBPF讓網路、安全和應用程式分析等領域，能夠開發全新的工具，而這些工具不需要再仰賴現有的核心功能，且能夠在不影響執行效率或安全性的情況下，主動重新程式化執行時行為。&lt;/p&gt;
-&lt;p&gt;eBPF基金會將會繼續擴充eBPF的功能，並且舉辦各種活動培養社群，以進一步推動eBPF生態系的發展。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 02:59:21 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146195 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146195#comments</comments>
 </item>
 </channel>
 </rss>
