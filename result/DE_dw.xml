@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-16T10:48:50Z</updated>
+ <updated>2021-08-16T10:54:41Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58876706</id>
+  <title><![CDATA[评论：终止虚伪的阿富汗政策！]]></title>
+  <updated>2021-08-16T10:24:00Z</updated>
+  <published>2021-08-16T10:24:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/评论：终止虚伪的阿富汗政策！/a-58876706?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[多少年了，阿富汗一直被说成是安全的。而现在，塔利班占领了这个国家。西方一些人对此惊诧不已。德国之声记者Waslat Hasrat-Nazimi指出，西方必须结束这种虚伪。]]></summary>
+  <category term="评论分析"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58876575</id>
   <title><![CDATA[中国经济增长受疫情和洪灾影响而放缓]]></title>
@@ -172,16 +182,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/香港民阵宣布解散-中国媒体称-咎由自取/a-58863850?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[香港民阵8月15日发声明宣布解散。此前，香港警务处处长萧泽颐接受《大公报》专访时表示，警方正在搜集相关证据，检控该组织过去可能涉嫌违反国安法的行为。中国媒体发文称，“民阵的覆灭，完全是咎由自取”。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58830263</id>
-  <title><![CDATA[不为人知的新冠死亡数字]]></title>
-  <updated>2021-08-15T07:19:00Z</updated>
-  <published>2021-08-15T07:19:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/不为人知的新冠死亡数字/a-58830263?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[一个新的国际数据库发现，新冠疫情实际死亡人数与公布的数据之间存在巨大差异。尤其在五个实行专制式统治的国家，这种差异特别大。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
