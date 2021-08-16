@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/110/4329" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/110/4329</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/110/4329" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>LockBit 2.0勒索軟體大舉侵襲澳洲，當地網路安全中心發布警告</title>
+    <link>https://www.ithome.com.tw/news/146226</link>
+    <description> 駭客利用勒索軟體LockBit 2.0攻擊的現象，最近出現數起事故。例如，於8月11日，運用該勒索軟體的駭客，宣稱攻陷IT大型顧問公司Accenture，並要求限時支付贖金，否則就要把竊得的資料公開。</description>
+     <pubDate>2021-08-16  07:08:16</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146226</guid>
+  </item>
+  <item>
     <title>中華電信投入逾10億元參與亞太新海纜Apricot建設案</title>
     <link>https://www.ithome.com.tw/news/146221</link>
     <description> 中華電信宣布參與新的亞太地區海纜投資計畫，將和其他電信商，以及Google、臉書等科技巨頭聯手，合資打造全新海纜Apricot，以提升亞太地區網路連接容量及穩定性。
@@ -250,14 +258,6 @@ Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet�
      <pubDate>2021-08-13  11:08:12</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146165</guid>
-  </item>
-  <item>
-    <title>三星發表第三代摺疊螢幕手機Galaxy Z Fold 3與Galaxy Z Flip 3</title>
-    <link>https://www.ithome.com.tw/news/146177</link>
-    <description> 南韓的三星電子在本周三（8/11）發表了該公司第三代的兩款摺疊螢幕手機Galaxy Z Fold 3與Galaxy Z Flip 3，它們皆支援5G網路，售價分別是1799.99美元與999.99美元，即日起開放預購，預計於8月27日上市。</description>
-     <pubDate>2021-08-13  11:08:03</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146177</guid>
   </item>
   </channel>
 </rss>
