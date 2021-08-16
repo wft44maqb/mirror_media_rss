@@ -6,6 +6,20 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Google及臉書參與連結新加坡、日本與臺灣的Apricot海底電纜建置</title>
+ <link>https://www.ithome.com.tw/news/146223</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google及臉書在本周宣布，將參與新的Apricot海底電纜建置，Apricot將連結新加坡、日本、關島、菲律賓、臺灣與印尼，全長1.2萬公里，預計於2024年啟用。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cloud.google.com/blog/products/infrastructure/new-apricot-subsea-cable-brings-more-connectivity-to-asia&quot; target=&quot;_blank&quot;&gt;Google指出&lt;/a&gt;，Apricot將可與另一條海底電纜Echo互補，讓Google在亞洲具備多條海底電纜路徑，以增強Google Cloud及Google數位服務的彈性，讓亞洲的企業及新創業者在存取Google服務時有更低的延遲、更多的頻寬，也能強化它們與東南亞、北亞及美國之間的連線能力。&lt;/p&gt;
+&lt;p&gt;計畫於2023年啟用的Echo主要連結新加坡及北美，中途則會經過關島及印尼，且不只是Google，&lt;a href=&quot;https://www.ithome.com.tw/news/143532&quot; target=&quot;_blank&quot;&gt;臉書也參與了Echo的建置&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Google引用了Mason的研究指出，該公司從2010年到2019年對亞太地區基礎設施的投資，替該區域額外帶來了4,300億美元的國內生產總額（GDP）與110萬個工作機會。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://engineering.fb.com/2021/08/15/connectivity/apricot-subsea-cable/&quot; target=&quot;_blank&quot;&gt;臉書則說明&lt;/a&gt;，Apricot的容量設計為每秒190Tb，將可用來滿足該地區漸增的資料傳輸需求，包括寬頻、4G及5G，還能支援既有的海底電纜系統，以服務臉書用戶。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 16 Aug 2021 08:33:21 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146223 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146223#comments</comments>
+</item>
+<item>
  <title>思科買下以色列的應用監控業者Epsagon</title>
  <link>https://www.ithome.com.tw/news/146220</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blogs.cisco.com/news/12082021&quot; target=&quot;_blank&quot;&gt;網通設備大廠思科（Cisco）上周宣布&lt;/a&gt;打算買下以色列的應用監控新創Epsagon，以強化思科的全棧觀察（Full-Stack Observability）解決方案。&lt;/p&gt;
@@ -229,63 +243,6 @@
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="false">146182 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146182#comments</comments>
-</item>
-<item>
- <title>十年養成玉山AI力，下一步瞄準零接觸金融</title>
- <link>https://www.ithome.com.tw/news/146179</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;今年5月疫情爆發，政府啟動勞工紓困專案，「短短幾天，玉山就湧入數十萬件申請案件！」玉山銀行董事長黃男州回憶。&lt;/p&gt;
-&lt;p&gt;但在短時間內，玉山就一條鞭消化這些爆量申請，撥出60、70億元貸款，甚至不動用大量人力就能完成。他們靠的是機器人流程自動化（RPA）和AI，自動審核超過80%的申請案件，黃男州驕傲地說：「這就是科技的力量！」在這之中，AI更是一股重要力量。&lt;/p&gt;
-&lt;p&gt;比如2年前，玉山已開始將AI落地到金融服務中。他們自建信用卡盜刷偵測模型，0.1秒就能判斷信用卡是否被冒用，一天用上數十萬次，一年更省下上億元的損失。&lt;/p&gt;
-&lt;p&gt;不只如此，他們也自行開發理財認知偏好推薦AI 模型，能根據客戶承受風險等級和交易紀錄，在7秒內推薦最合適的5檔基金。&lt;/p&gt;
-&lt;p&gt;就連貸款，也高度仰賴AI。玉山利用機器學習打造零人工介入的線上貸款流程，最快58秒就可撥出款項。在風控領域，更用AI加速黑名單掃描、風險評估，甚至是辨識詐騙帳戶，精準度還比傳統人工方法高出40倍。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;玉山AI力不是一夕成軍，而是十年養成&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;玉山AI遍地開花，可不是一夕成就。&lt;/p&gt;
-&lt;p&gt;回到2012年，玉山啟動第三個十年目標，要從服務的玉山、專業的玉山，邁向科技的玉山。那時，原本100多人規模的玉山資訊處，已開始大動作延攬人才，成為玉山千人科技聯隊的濫觴。&lt;/p&gt;
-&lt;p&gt;在技術研究和實作方向上，也開始轉變。2013年，玉山大舉將資料分析成果應用到數位業務，兩年後更成立創新發展中心（IDC），來觀察新技術。&lt;/p&gt;
-&lt;p&gt;那一年，2015年，玉山進一步調整關鍵組織，一方面專注發展新業務領域，一方面將AI技術落地到實務場景中。他們成立數位金融處，設置全臺第一個金融數位長職位，來專攻數位金融服務。數金處瞄準普惠金融、場景金融和智慧金融三大目標，要讓金融如水電便利、走到顧客生活中，還要用AI來優化服務流程。&lt;/p&gt;
-&lt;p&gt;這也是首次，AI罕見地出現在玉山重要業務組織的任務中。數金處誕生後，也成為科技聯隊一員。&lt;/p&gt;
-&lt;p&gt;不只調整組織，玉山在基礎建設上，也往AI靠攏。2016年，玉山開始設計新核心系統、制定4年汰換上線計畫，除了將老舊的程式語言COBOL，汰換為時下熱門的.NET和Java語言之外，更重要的是，將原本大型主機的「大核心」模式，轉換為小核心的微服務架構和開放式平臺。如此一來，玉山就能更快速更迭服務，也更容易共享資料，讓後續的AI模型開發更便利。&lt;/p&gt;
-&lt;p&gt;2017年，玉山進一步著墨新技術研究。他們成立創新實驗室（Innovation Lab），來鑽研AI、區塊鏈、身分辨識、電子支付等前瞻技術，同時下設研發、商轉、顧問和育成四大中心，來鞏固技術人才資源佈局。&lt;/p&gt;
-&lt;p&gt;2018年，迎來了玉山AI力養成的關鍵轉捩點。&lt;/p&gt;
-&lt;p&gt;當時，他們率先全臺成立科技長辦公室，定調金融AI發展藍圖，還終止多個不乏達上千萬元等級的專案，改將資源投注在AI上。那年，玉山開始打造自家機器學習即服務（MLaaS）平臺，成為後來AI落地的關鍵基礎設施之一。&lt;/p&gt;
-&lt;p&gt;但設立科技長辦公室還不夠。2019年，玉山還成立專責單位，將運作十多年的大數據分析團隊CRV，正式轉型為負責開發AI應用的智能金融處，成為內部AI供應商，要將AI融入到玉山各個業務中。&lt;/p&gt;
-&lt;p&gt;這兩個組織，也陸續成為玉山科技聯隊的核心成員，形成科技聯隊資訊處、數金處與智金處的鐵三角架構。至此，玉山AI組織到位、關鍵團隊正式成形，成為「科技的玉山」中一股重要推力。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;神經系統、AI大腦相互分工，下一步瞄準零接觸金融&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;這個科技聯隊規模達上千人。黃男州進一步解析，科技聯隊有四大成員，包括800多人組成的資訊處與信用卡處IT團隊、100多人的數位暨客戶處、100多人的智金處，以及30人的資安處。&lt;/p&gt;
-&lt;p&gt;如果資訊處是玉山的神經系統，負責串起各種業務流程，那麼，智金處就是「玉山的大腦系統。」黃男州比喻，這個AI大腦專門解析大量資料，用機器學習將資料轉化為有益業務的AI系統，優化服務。&lt;/p&gt;
-&lt;p&gt;而玉山之所以敢大力嘗試AI，是因為科技聯隊中，有個扮演「煞車角色」的資安處。這個部門規模雖小，但負責檢核IT應用安全性，成為創新的煞車。黃男州甚至形容：「如果沒有煞車，大家只會慢速前進！」正因為有它，科技聯隊才敢加速，才敢創新，甚至是嘗試AI新技術。&lt;/p&gt;
-&lt;p&gt;不只如此，對玉山AI大腦來說，他們還有顆很重要的強韌「心臟」，也就是去年上線的新核心系統。黃男州指出，開放式新核心平臺主打交易、會計分離，能處理更大量的交易，與一年前相比，交易量成長可達50%，尖峰時段甚至更高。&lt;/p&gt;
-&lt;p&gt;這對AI大腦有著深遠影響。因為，更多的交易量，意味著更多的資料，「大腦也就更聰明。」&lt;/p&gt;
-&lt;p&gt;他甚至直言，核心系統上線後，迎來了AI應用大爆發的寒武紀：在行銷面，AI可以找出顧客下一個最需要的產品、分析顧客生命周期對玉山的整體貢獻，在風控面，AI可以快速掃完幾百份報紙、找出關鍵名詞建立黑名單，也能快速揪出信用卡盜刷交易、即時阻擋。&lt;/p&gt;
-&lt;p&gt;甚至還能優化客服中心，「客服通話一定要真人嗎？人工語音也能回答很多問題，」黃男州還舉例，透過語音轉文字，還能大規模檢驗客服品質、改善客戶服務。&lt;/p&gt;
-&lt;p&gt;不只如此，對他來說，AI還能自動化更多流程，舉凡財富管理、申請貸款、開戶等原本需要人工處理的業務，都包括在內。玉山也預告，零接觸金融是他們下一個發展目標。&lt;/p&gt;
-&lt;p&gt;玉山金控科技長張智星更透露，未來還要以NLP為核心，來發展AI客服，以及其他金融業務的流程自動化；只要主管機關開放，玉山就會用技術力轉化為零接觸金融服務。&lt;/p&gt;
-&lt;p&gt;這些遍地開花的AI應用，不是偶一為之。在各種AI服務落地前，玉山早已大動作重整組織、調整文化，組成100多人的AI開發團隊，來打造專用技術平臺，提供源源不絕的AI活水。接下來，我們將從戰略面、組織面、技術面來剖析玉山AI力。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;font-size:36px;&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; AI如何成為科技玉山的重要力量 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2012年 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;啟動第三個十年目標：科技的玉山&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2013年 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;開始將資料分析成果運用到數位業務&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2015年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;成立創新發展中心（IDC），研究新技術；成立數位金融處，設置全臺第一位金融數位長，瞄準普惠金融、場景金融和智慧金融，要用AI槓桿優化金融服務&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2016年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;開始設計新核心系統架構、擬定4年上線計畫，要從大型主機的「大核心」邁向微服務架構的「小核心」，該架構也讓資料分享更容易&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2017年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;成立創新實驗室（Innovation Lab），研究區塊鏈、AI、身分辨識、電子支付、大數據和AR/VR等六大技術，下設研發、商轉、顧問和育成四大中心，鞏固技術人才資源&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2018年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;鎖定AI，領先全臺金融界成立科技長辦公室、設置科技長，開始建立專屬AI生產技術工具&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2019年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;原有大數據分析團隊CRV轉型為智能金融處，由科技長擔任處長，專門打造AI應用；科技聯隊鐵三角正式成形&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2020年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;新核心系統上線，開放式平臺特性將交易、會計分離，一年後交易量比舊時代成長至少40%至50%，更多資料有益於AI分析&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2021年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;智金處內部改組，強調服務落地及相關法遵風管；至此，玉山AI已在賦能、風控、流程、行銷、服務等5大領域遍地開花&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;資料來源：玉山金控，iThome整理，2021年8月&lt;/span&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Sun, 15 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146179 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146179#comments</comments>
 </item>
 </channel>
 </rss>

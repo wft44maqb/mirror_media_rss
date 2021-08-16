@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/110" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/atom/110</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/atom/110" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>Google及臉書參與連結新加坡、日本與臺灣的Apricot海底電纜建置</title>
+    <link>https://www.ithome.com.tw/news/146223</link>
+    <description> Google及臉書在本周宣布，將參與新的Apricot海底電纜建置，Apricot將連結新加坡、日本、關島、菲律賓、臺灣與印尼，全長1.2萬公里，預計於2024年啟用。</description>
+     <pubDate>2021-08-16  04:08:21</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146223</guid>
+  </item>
+  <item>
     <title>思科買下以色列的應用監控業者Epsagon</title>
     <link>https://www.ithome.com.tw/news/146220</link>
     <description> 網通設備大廠思科（Cisco）上周宣布打算買下以色列的應用監控新創Epsagon，以強化思科的全棧觀察（Full-Stack Observability）解決方案。</description>
@@ -248,14 +256,6 @@ Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet�
      <pubDate>2021-08-13  10:08:41</pubDate>
  <dc:creator>黃郁芸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146175</guid>
-  </item>
-  <item>
-    <title>IG推出新工具，讓使用者可以暫時關閉陌生留言與私訊</title>
-    <link>https://www.ithome.com.tw/news/146162</link>
-    <description> Instagram（IG）在本周發表了3項功能，以避免使用者受到騷擾或霸凌，包括可以暫時關閉陌生留言與私訊的Limits，在使用者準備張貼攻擊性留言時就祭出強烈的警告，以及於全球部署Hidden Words功能，以自動過濾任何使用者指定的字眼或表情符號。</description>
-     <pubDate>2021-08-12  08:08:30</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146162</guid>
   </item>
   </channel>
 </rss>
