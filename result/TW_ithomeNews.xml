@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/2043/4874" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/2043/4874</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/2043/4874" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>駭客正在兜售來自T-Mobile的1億用戶資料</title>
+    <link>https://www.ithome.com.tw/news/146215</link>
+    <description> Motherboard與BleepingComputer相繼報導，有賣家於地下論壇中兜售一個含有1億筆美國用戶的資料庫，並向買家與媒體宣稱該資料庫來自美國電信業者T</description>
+     <pubDate>2021-08-16  02:08:30</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146215</guid>
+  </item>
+  <item>
     <title>華為被控竊取美國公司軟體商業機密、監控巴基斯坦</title>
     <link>https://www.ithome.com.tw/news/146214</link>
     <description> 美國IT顧問業者Business Efficiency Solutions（BES）上周向美國加州地方法院控告華為竊取其軟體商業機密，並利用其系統蒐集巴基斯坦國家安全和企業資訊。</description>
@@ -249,14 +257,6 @@ PChome網路家庭投資長兼策略長周磊表示，流量和會員是電商�
      <pubDate>2021-08-12  07:08:31</pubDate>
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146163</guid>
-  </item>
-  <item>
-    <title>研究人員以AI產生人臉萬能金鑰，能夠仿冒三大人臉辨識系統的一半人像</title>
-    <link>https://www.ithome.com.tw/news/146159</link>
-    <description> 來自以色列特拉維夫大學電子工程學院與電腦科學學院的3名研究人員，於近日出版了一研究報告《Generating Master Faces for Dictionary Attacks with a Network-Assisted Latent Space Evolution》，透過AI技術產生9張人臉，並將這些人臉當作萬能金鑰，而能攻陷FaceNet、SphereFace與Dlib三大人臉辨識系統，且成功機率介於44%~64%之間。</description>
-     <pubDate>2021-08-12  05:08:12</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146159</guid>
   </item>
   </channel>
 </rss>

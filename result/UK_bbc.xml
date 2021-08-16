@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 16 Aug 2021 06:12:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Aug 2021 06:19:32 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -57,6 +57,13 @@
             <pubDate>Mon, 16 Aug 2021 00:53:34 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[氣候變化：在遭遇嚴重乾旱的哈薩克斯坦，牧民和馬群苦苦掙扎]]></title>
+            <description><![CDATA[哈薩克斯坦南部的曼格斯套州出現了異常的高溫，乾旱的草原上四處可見馬的屍體，嚴重的乾旱不僅導致這些動物沒有食物和水，也威脅到成百上千牧民的生計。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58172780</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58172780</guid>
+            <pubDate>Mon, 16 Aug 2021 06:17:27 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[新冠疫苗接種出現的疏漏和醫療事故：一次性被打兩針疫苗、鹽水當疫苗打]]></title>
             <description><![CDATA[近期香港和德國出現給市民「打錯針」或者「亂打針」的情況，引發接種者擔憂。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/science-58196903</link>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/science-58162669</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58162669</guid>
             <pubDate>Sun, 15 Aug 2021 11:19:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[健康新知：最新研究剖析新陳代謝之謎 解開中年發福密碼]]></title>
-            <description><![CDATA[中年發福與新陳代謝有什麼關係？兒童時期營養不良為什麼貽害終身？最新研究結果為未來的醫療、保健甚至能源危機都提供了新的思路和行動空間。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/science-58200798</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58200798</guid>
-            <pubDate>Sat, 14 Aug 2021 16:33:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：塔利班的軍事攻勢為何勢如破竹]]></title>
@@ -426,6 +426,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58157888</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58157888</guid>
             <pubDate>Tue, 10 Aug 2021 16:05:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[健康新知：最新研究剖析新陳代謝之謎 解開中年發福密碼]]></title>
+            <description><![CDATA[中年發福與新陳代謝有什麼關係？兒童時期營養不良為什麼貽害終身？最新研究結果為未來的醫療、保健甚至能源危機都提供了新的思路和行動空間。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/science-58200798</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58200798</guid>
+            <pubDate>Sat, 14 Aug 2021 16:33:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[社交媒體：一個虛假帳號矩陣如何推動親中宣傳和敘事]]></title>
