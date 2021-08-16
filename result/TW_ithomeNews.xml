@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/1597" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/atom/1597</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/atom/1597" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>中華電信投入逾10億元參與亞太新海纜Apricot建設案</title>
+    <link>https://www.ithome.com.tw/news/146221</link>
+    <description> 中華電信宣布參與新的亞太地區海纜投資計畫，將和其他電信商，以及Google、臉書等科技巨頭聯手，合資打造全新海纜Apricot，以提升亞太地區網路連接容量及穩定性。
+Apricot將連接日本、臺灣、關島、菲律賓、印尼、新加坡，總長度1,2000公里，預計於2024年完工啟，屆用時將帶來超過190Tbps的總容量。根據中華電信稍早公開的訊息指出，這條國際海纜建設商為SubCom，海纜及相關設施的建設成本將由Apricot會員依投資比例分攤，中華電信投資金額將超過新台幣10億元。</description>
+     <pubDate>2021-08-16  05:08:14</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146221</guid>
+  </item>
+  <item>
     <title>Google改善視覺化工具方便Compute Engine使用者除錯</title>
     <link>https://www.ithome.com.tw/news/146222</link>
     <description> Google推出強化上下文（In-Context）的UI工具集，供用戶更快速地對Compute Engine進行除錯，藉由各種指標、圖表和視覺化功能，能夠助用戶分析指標和網路變化，並且找出適合的磁碟大小，甚至是調整和測量記憶體效能等。
@@ -249,14 +258,6 @@ Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet�
      <pubDate>2021-08-13  11:08:03</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146177</guid>
-  </item>
-  <item>
-    <title>甲骨文以機器學習強化MySQL Heatwave，叫戰Amazon Aurora、Google BigQuery</title>
-    <link>https://www.ithome.com.tw/news/146176</link>
-    <description> 甲骨文本周宣布，MySQL Autopilot以機器學習技術來強化線上資料庫查詢加速引擎MySQL Heatwave的運作，挑戰Amazon Aurora、Google BigQuery和Snowflake。</description>
-     <pubDate>2021-08-13  10:08:41</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146176</guid>
   </item>
   </channel>
 </rss>
