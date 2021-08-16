@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-16T07:48:11Z</updated>
+ <updated>2021-08-16T07:53:40Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58874745</id>
+  <title><![CDATA[美中角色互调？美经济增长未来数季超越中国]]></title>
+  <updated>2021-08-16T07:46:00Z</updated>
+  <published>2021-08-16T07:46:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美中角色互调？美经济增长未来数季超越中国/a-58874745?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[多家研调机构指出，美国经济成长在未来三到五个季度将会强压中国，这将可能是自1990年以来，美国经济增长速度首度持续超过中国的时期。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58874403</id>
   <title><![CDATA[端点星案宣判 陈玫证实已获释返家]]></title>
@@ -175,16 +185,6 @@
   <category term="评论分析"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58864497</id>
-  <title><![CDATA[对“跑偏”零容忍 官媒:网游不得篡改历史]]></title>
-  <updated>2021-08-14T13:12:00Z</updated>
-  <published>2021-08-14T13:12:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/对-跑偏-零容忍-官媒-网游不得篡改历史/a-58864497?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[一款名为“江南百景图”的古风模拟经营类手游因为涉嫌“篡改历史”遭到官媒批评。鉴于中国官媒近期对网游的关注，业内人士担忧，网络游戏行业将成为下一个被监管的目标。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58864492</id>
   <title><![CDATA[中国卫建委：全国疫情风险总体可控]]></title>
   <updated>2021-08-14T13:12:00Z</updated>
@@ -192,6 +192,16 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国卫建委：全国疫情风险总体可控/a-58864492?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国国家卫建委的官员称，尽管中国面临短时间内多源多点发生疫情的复杂局面，但全国的疫情风险总体可控，全国层面发生大规模的疫情风险是比较小的。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58864497</id>
+  <title><![CDATA[对“跑偏”零容忍 官媒:网游不得篡改历史]]></title>
+  <updated>2021-08-14T13:12:00Z</updated>
+  <published>2021-08-14T13:12:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/对-跑偏-零容忍-官媒-网游不得篡改历史/a-58864497?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[一款名为“江南百景图”的古风模拟经营类手游因为涉嫌“篡改历史”遭到官媒批评。鉴于中国官媒近期对网游的关注，业内人士担忧，网络游戏行业将成为下一个被监管的目标。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -212,16 +222,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班势如破竹-中国准备接受苦涩现实/a-58863871?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[最迟从7月底中国外长王毅在天津会晤塔利班代表起，中国宣传机关就在悄然为舆论做铺垫，准备接受塔利班全面掌管邻国阿富汗的现实。目前，这一极端伊斯兰组织正在快速占领阿富汗大片地区。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58863672</id>
-  <title><![CDATA[美国重申支持立陶宛与台湾发展互惠关系]]></title>
-  <updated>2021-08-14T10:21:00Z</updated>
-  <published>2021-08-14T10:21:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美国重申支持立陶宛与台湾发展互惠关系/a-58863672?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国副国务卿舍曼周五与立陶宛外长兰斯伯格斯通话，重申美国对立陶宛与台湾往来的支持。台湾外交部则感谢美国展现全球民主阵营领袖风范，在民主国家面对专制政体胁迫时，公开且坚定表达支持。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
