@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/110" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/atom/110</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/atom/110" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>全球百大銀行已有55%投資加密貨幣或區塊鏈，巴克萊銀行投資家數居冠</title>
+    <link>https://www.ithome.com.tw/news/146217</link>
+    <description> 根據區塊鏈市場情報機構Blockdata的調查，全球百大銀行中，已有55家直接或透過子公司投資區塊鏈或加密貨幣企業，其中，以英國巴克萊銀行（Barclays）的投資範圍最大，總計投資了19家相關業者。</description>
+     <pubDate>2021-08-16  03:08:43</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146217</guid>
+  </item>
+  <item>
     <title>阿根廷球星梅西部分薪資將以加密貨幣支付</title>
     <link>https://www.ithome.com.tw/news/146216</link>
     <description> 本月足球界大事要算是阿根廷球星梅西（Lionel Messi）離開西班牙巴賽隆納足球俱樂部，加入法國巴黎聖日耳曼（Paris Saint-Germain，PSG）。對科技界而言一件值得關注的事是，梅西的薪資將有一部分以加密貨幣支付。
@@ -248,16 +256,6 @@ Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet�
      <pubDate>2021-08-12  08:08:15</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146161</guid>
-  </item>
-  <item>
-    <title>投資網路保險平臺，PChome要將生態圈更深入數位金融領域</title>
-    <link>https://www.ithome.com.tw/news/146164</link>
-    <description> PChome網路家庭今日（8/12）宣布投資網路保險經紀人公司易安網，展開異業結盟，要藉由易安網網路投保平臺的網路投保業務許可，拓展PChome生態圈在數位金融領域的服務觸角，把用戶留在生態圈內，完成線上投保。
-這不是PChome第一次與保險業者合作，從2019年開始，陸續與國泰產險、富邦產險等合作，在Pi拍錢包App裡，導引用戶到保險公司網站，完成投保，而以往的這些合作偏行銷活動性質。
-PChome網路家庭投資長兼策略長周磊表示，流量和會員是電商最大的資產，與不同保險公司合作，也可分享保險產品給消費者，但，他表示，「PChome更希望自身生態圈能滿足消費者的需求。」</description>
-     <pubDate>2021-08-12  07:08:04</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146164</guid>
   </item>
   </channel>
 </rss>
