@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-16T10:01:03.784Z</updated>
+    <updated>2021-08-16T10:06:05.220Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -171,6 +171,26 @@
         </author>
         <category label="法庭"/>
         <published>2021-08-16T08:58:21.432Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[教協民陣解散　鄧炳強：罪行不因解散辭任消失　否則法治難彰顯]]></title>
+        <id>https://www.thestandnews.com/politics/%E6%95%99%E5%8D%94%E6%B0%91%E9%99%A3%E8%A7%A3%E6%95%A3-%E9%84%A7%E7%82%B3%E5%BC%B7%E7%BD%AA%E8%A1%8C%E4%B8%8D%E5%9B%A0%E8%A7%A3%E6%95%A3%E8%BE%AD%E4%BB%BB%E6%B6%88%E5%A4%B1-%E5%90%A6%E5%89%87%E6%B3%95%E6%B2%BB%E9%9B%A3%E5%BD%B0%E9%A1%AF</id>
+        <link href="https://www.thestandnews.com/politics/%E6%95%99%E5%8D%94%E6%B0%91%E9%99%A3%E8%A7%A3%E6%95%A3-%E9%84%A7%E7%82%B3%E5%BC%B7%E7%BD%AA%E8%A1%8C%E4%B8%8D%E5%9B%A0%E8%A7%A3%E6%95%A3%E8%BE%AD%E4%BB%BB%E6%B6%88%E5%A4%B1-%E5%90%A6%E5%89%87%E6%B3%95%E6%B2%BB%E9%9B%A3%E5%BD%B0%E9%A1%AF"/>
+        <updated>2021-08-16T10:01:52.787Z</updated>
+        <summary type="html"><![CDATA[官媒點名發炮加上警方表示會調查，教協和民陣在一星期內相繼宣布解散，保安局局長鄧炳強在網誌撰文，指即使這些組織已公布決定解散，但任何人或機構「犯下的罪行」，不會因解散辭任而消失，亦不意味可以藉此逃避罪責，若任何人動輒能以「解散」、「退場」等逃避責任「法治將難以彰顯」，執法部門必定會繼續全方位打擊，調查危害國家安全的人及組織，不論相關組織是否已停止運作，一定會按國安法等追究刑事責任。鄧炳強在文章中指…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210816-22.png"></figure><h4>官媒點名發炮加上警方表示會調查，教協和民陣在一星期內相繼宣布解散，保安局局長鄧炳強在網誌撰文，指即使這些組織已公布決定解散，但任何人或機構「犯下的罪行」，不會因解散辭任而消失，亦不意味可以藉此逃避罪責，若任何人動輒能以「解散」、「退場」等逃避責任「法治將難以彰顯」，執法部門必定會繼續全方位打擊，調查危害國家安全的人及組織，不論相關組織是否已停止運作，一定會按國安法等追究刑事責任。</h4>
+
+<p>鄧炳強在文章中指，他曾多次表示，雖然國安法立竿見影，「香港由亂變治」，但維護國家安全仍然要面對不少挑戰，特別是一些「別有用心」的人和機構「死心不息」，利用在社會或業界的影響力鼓吹滲透，必須依法追究堵塞漏洞。</p>
+
+<p>其中民陣自 2002 年成立一直無向註冊為公司或合法為團，警方四月已要求民陣提交資金﹑户口等資料，民陣並沒有依時提交；而教協「縱容」黑暴和危害國安等勢力，甚至「誘導」學生罷課及參與違法遊行，「令人憤慨」。</p>
+
+<p>鄧炳強強調「違法就是違法」，即使這些組織已經決定解散，但犯下的罪行不會因解散辭任而消失，執法部門必定繼續全方位打擊，絕不容許「違法組織及犯法者」借解散逍遙法外，確保危害國安的人受到應有法律制裁。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="政治"/>
+        <published>2021-08-16T09:44:35.029Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[統計處公佈數字　去年就業人數大減 19 萬　住宿膳食業跌幅最大]]></title>
@@ -517,9 +537,11 @@ Santoro, E.P., Borges, R.M., Espinoza, J.L. &amp; et al. (2021). Coral microbiom
         <title type="html"><![CDATA[以舔過私匙舀公用糖罐惹食客不滿　五旬漢與對方打鬥後不治　死因聆訊開審]]></title>
         <id>https://www.thestandnews.com/court/%E4%BB%A5%E8%88%94%E9%81%8E%E7%A7%81%E5%8C%99%E8%88%80%E5%85%AC%E7%94%A8%E7%B3%96%E7%BD%90%E6%83%B9%E9%A3%9F%E5%AE%A2%E4%B8%8D%E6%BB%BF-%E4%BA%94%E6%97%AC%E6%BC%A2%E8%88%87%E5%B0%8D%E6%96%B9%E6%89%93%E9%AC%A5%E5%BE%8C%E4%B8%8D%E6%B2%BB-%E6%AD%BB%E5%9B%A0%E8%81%86%E8%A8%8A%E9%96%8B%E5%AF%A9</id>
         <link href="https://www.thestandnews.com/court/%E4%BB%A5%E8%88%94%E9%81%8E%E7%A7%81%E5%8C%99%E8%88%80%E5%85%AC%E7%94%A8%E7%B3%96%E7%BD%90%E6%83%B9%E9%A3%9F%E5%AE%A2%E4%B8%8D%E6%BB%BF-%E4%BA%94%E6%97%AC%E6%BC%A2%E8%88%87%E5%B0%8D%E6%96%B9%E6%89%93%E9%AC%A5%E5%BE%8C%E4%B8%8D%E6%B2%BB-%E6%AD%BB%E5%9B%A0%E8%81%86%E8%A8%8A%E9%96%8B%E5%AF%A9"/>
-        <updated>2021-08-16T08:22:39.339Z</updated>
-        <summary type="html"><![CDATA[2015 年 10 月，五旬漢黃文權在觀塘順天邨茶餐廳喝奶茶時，涉以舔過的私匙舀公用糖罐內的砂糖，同枱男食客不滿食其「口水尾」，雙方初時口角，其後在餐廳外打鬥。黃期間倒地送院，留院三個月不治，事隔接近六年，死因庭今（16 日）召開研訊。食客梁寶鈿供稱，當日看到死者行為遂斥他缺德，對方回應「唔滿意呀？出去傾囉！」他甫步出餐廳遭死者拳打，自己反擊是自衛。他強調沒打算畏罪潛逃，並主動留電話號碼給餐廳老…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/leung-16.png"><figcaption><span>梁寶鈿</span></figcaption></figure><p>2015 年 10 月，五旬漢黃文權在觀塘順天邨茶餐廳喝奶茶時，涉以舔過的私匙舀公用糖罐內的砂糖，同枱男食客不滿食其「口水尾」，雙方初時口角，其後在餐廳外打鬥。黃期間倒地送院，留院三個月不治，事隔接近六年，死因庭今（16 日）召開研訊。食客梁寶鈿供稱，當日看到死者行為遂斥他缺德，對方回應「唔滿意呀？出去傾囉！」他甫步出餐廳遭死者拳打，自己反擊是自衛。他強調沒打算畏罪潛逃，並主動留電話號碼給餐廳老闆。</p>
+        <updated>2021-08-16T10:03:47.189Z</updated>
+        <summary type="html"><![CDATA[【下午 5 時 30 分更新報道：餐廳老闆：死者倒地後有人說「唔好詐暈」】2015 年 10 月，五旬漢黃文權在觀塘順天邨茶餐廳喝奶茶時，涉以舔過的私匙舀公用糖罐內的砂糖，同枱男食客不滿食其「口水尾」，雙方初時口角，其後在餐廳外打鬥。黃期間倒地送院，留院三個月不治，事隔接近六年，死因庭今（16 日）召開研訊。食客梁寶鈿供稱，當日看到死者行為遂斥他缺德，對方回應「唔滿意呀？出去傾囉！」他甫步出餐廳…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/leung-16.png"><figcaption><span>梁寶鈿</span></figcaption></figure><p>【下午 5 時 30 分更新報道：餐廳老闆：死者倒地後有人說「唔好詐暈」】</p>
+
+<p>2015 年 10 月，五旬漢黃文權在觀塘順天邨茶餐廳喝奶茶時，涉以舔過的私匙舀公用糖罐內的砂糖，同枱男食客不滿食其「口水尾」，雙方初時口角，其後在餐廳外打鬥。黃期間倒地送院，留院三個月不治，事隔接近六年，死因庭今（16 日）召開研訊。食客梁寶鈿供稱，當日看到死者行為遂斥他缺德，對方回應「唔滿意呀？出去傾囉！」他甫步出餐廳遭死者拳打，自己反擊是自衛。他強調沒打算畏罪潛逃，並主動留電話號碼給餐廳老闆。</p>
 
 <p>當日與黃文權同枱的食客梁寶鈿供稱，早上 10 時多看到黃用私匙舀公用糖罐內的砂糖，將該匙放在自己的杯試味，其後覺得不夠味，再次用私匙舀糖。梁見狀問「咁樣都得呀？」黃則回應：「咩呀，唔得呀？好多人都咁做啦，你好唔滿意咩？」梁表示「緊係唔得啦，好缺德，人人食你口水尾咩？糖罐又濕晒。」黃再稱：「係呀，唔滿意呀？出去傾囉！」</p>
 
@@ -532,6 +554,10 @@ Santoro, E.P., Borges, R.M., Espinoza, J.L. &amp; et al. (2021). Coral microbiom
 <p><strong>食客主動留電話號碼　無打算畏罪潛逃</strong></p>
 
 <p>他指黃倒地後仍有喘氣聲及「不忿氣的聲音」，強調與死者的肢體衝突只是自衛，亦願意留下電話號碼，沒有打算畏罪潛逃，「我成日喺度食嘢，件事因我而起，負返啲責任好合理。」</p>
+
+<p><strong>餐廳老闆：死者倒地後有人說「唔好詐暈」</strong></p>
+
+<p>茶餐廳老闆曾潮興下午供稱，死者及梁寶鈿經常到茶餐廳吃飯，當日兩人搭枱。他看到死者在餐廳外倒地不省人事，不確定死者是否撞到枱或牆，亦不確定是否衝力過大或絆倒，期間聽到有人說「唔好詐暈」。時任救護隊目杜耀禮供稱，當時到達現場看到死者倒地，遂將他身軀反轉，發現死者沒有呼吸。偵緝警員陳國偉則供稱，當日接獲一宗公眾地方打鬥事件，到場看到死者身上有血。他其後得悉涉案人離開現場前留下電話號碼，遂與同袍在順天邨調查，確認梁是涉案人。被問及為何沒有化驗血跡，他回應是案件是兩個人的打鬥，血跡只會屬於其中一人，故無助調查案件，最後決定不化驗血跡。法庭明日（17 日）傳召法醫作供。</p>
 
 <p>黃文權於 2016 年 1 月 16 日身亡，終年 58 歲。案件由死因裁判官黃偉權、五男陪審團共同處理，案發當日與死者爭執的梁寶鈿有律師代表，以有適當利害關係的身份列席。</p>
 
@@ -803,36 +829,5 @@ My heart breaks for women of Afghanistan. The world has failed them. History wil
         </author>
         <category label="政治"/>
         <published>2021-08-16T06:16:11.198Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[郭采潔數羊數進入的自由之夢]]></title>
-        <id>https://www.thestandnews.com/culture/%E9%83%AD%E9%87%87%E6%BD%94%E6%95%B8%E7%BE%8A%E6%95%B8%E9%80%B2%E5%85%A5%E7%9A%84%E8%87%AA%E7%94%B1%E4%B9%8B%E5%A4%A2</id>
-        <link href="https://www.thestandnews.com/culture/%E9%83%AD%E9%87%87%E6%BD%94%E6%95%B8%E7%BE%8A%E6%95%B8%E9%80%B2%E5%85%A5%E7%9A%84%E8%87%AA%E7%94%B1%E4%B9%8B%E5%A4%A2"/>
-        <updated>2021-08-16T05:55:08.424Z</updated>
-        <summary type="html"><![CDATA[如孔雀開屏、雨傘打開，《Vol.13-1986數羊》表現了入行13年、生於1986的郭采潔，在音樂上的另一種可能性，令人「刮耳相聽」。專輯有內蒙古電子音樂人Yider（伊德爾）的深度參與，給郭采潔編織了一個，她可能一直很想做的夢。而作為廠牌「遊牧城市」(NomadCityRecords)的首秀，此張唱片聽似與遊牧無關，但展現了歌者不安定的靈魂，卻同時也觸碰到某些屬於「根源性」的東西，是郭采潔重新…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/001_IO1uYJL.jpeg"></figure><p>如孔雀開屏、雨傘打開，《Vol.13-1986數羊》表現了入行13年、生於1986的郭采潔，在音樂上的另一種可能性，令人「刮耳相聽」。專輯有內蒙古電子音樂人Yider（伊德爾）的深度參與，給郭采潔編織了一個，她可能一直很想做的夢。而作為廠牌「遊牧城市」(NomadCityRecords)的首秀，此張唱片聽似與遊牧無關，但展現了歌者不安定的靈魂，卻同時也觸碰到某些屬於「根源性」的東西，是郭采潔重新由1開始數起的作品。</p>
-
-<p>專輯第一首《我有一顆蘋果Hide-and-Go-Seek》的溫柔哼唱前奏，像是哄你入睡，但之後迅速的轉變，如帶你進入奇幻之夢；而發出型格宣言般口白的郭采潔，仿佛跟她過去的形象告別。第二首《If You Love My Soul》，顯得明亮起來，歌詞的隨意，對比下是編曲、音色選擇、或是混音的用心；而《Never Let Me Go》提起了更加自信的腳步，並升起了New Wave的旗幟，既復古又時尚；那電子合成器的音色，如營造了美夢仙境、小橋流水，跟歌詞所寫的：「山不能無泉&nbsp;/&nbsp;花怎能無蝶」，相互配合。</p>
-
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/zK_IOHCbKH4" title="YouTube video player" width="560"></iframe></p>
-
-<p>主題曲《數羊》，編曲細節依然豐富，那像燃氣爐被打火時響起的Trap镲聲或甚至加入了Sax的吹奏，有時「熱鬧」得像一堆食材於鐵鍋上霹靂啪啦；而回憶過去的《丟丟銅仔》，採用了類似流水那樣的聲效，歲月如水一般地淌過，重頭重拾某印象，從重重疊的光影裡；此歌是源自台灣宜蘭的童謠，當老式火車穿過隧道，Vocal變得斷斷續續(Glitch Hop)，好比隧道內信號的不穩定。至於致敬蒙古搖籃曲的《Buuve》（Buuve是蒙古語中「寶貝」的意思），是首夢幻又甜美的Ambient Pop，它與小野麗莎的版本各有優勢，能讓人浸泡在無壓力的夏夜之中。</p>
-
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/VFnmNG5okhc" title="YouTube video player" width="560"></iframe></p>
-
-<p>《別派一群兔子獵殺一隻狐狸》，這首歌的歌名和主要歌詞，源自《Ghost in the Shell》中的一句話，短短之字句，卻有不同或很多的解讀，而此歌的音樂上具復古的動感、水汽瀰朦之效果(Vaporwave)，也有點Cyberpunk的感覺。《NaKuNa》繼續顯得濕潤，可副歌如站立起，元氣充滿地、無懼暴風雨地向前行，是專輯少有的帶勵志色彩的部分。不過勃起之後，就會軟下來，《昨天的月亮是圓的》，軟如蛇而纏繞在你的耳邊，此歌性感或嫵媚，想起東方女子撩人的姿態。壓軸的《Etude&nbsp;練習曲》，又換回了暗黑皮衣般型格的服飾，一首具迷幻電子味（也滲著點異國風情味）的作品，配以郭采潔的口白，對應了開始時《我有一顆蘋果Hide-and-Go-Seek》的解脫或精神上的釋放。</p>
-
-<p>這專輯是零碎的——像那零碎化的歌詞、「零碎」的電音修飾、乃至像網友所說的「不完整的旋律創作」；但這零碎感，又與專輯所建構的仿如夢一般的世界相符合（夢境都是較為碎片化）。《Vol.13-1986數羊》確實解開了郭采潔過去音樂上的某些束縛，她顯得更加自由、也更能表達到她內心的一些，可能更貼近到「真實」的情緒；而Yider（伊德爾）的製作、把關，又如一條繩、鏈，讓這些零碎片或散開的珠子，被串連了起來。</p>
-
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/nXDG2AI2mq4" title="YouTube video player" width="560"></iframe></p>
-
-<p>首選：Never Let Me Go,&nbsp;丟丟銅仔<br>
-評分：7.9/10</p>]]></content>
-        <author>
-            <name>田中小百合</name>
-            <uri>https://www.thestandnews.com/author/%E7%94%B0%E4%B8%AD%E5%B0%8F%E7%99%BE%E5%90%88</uri>
-        </author>
-        <category label="文化"/>
-        <published>2021-08-16T05:53:31.519Z</published>
     </entry>
 </feed>
