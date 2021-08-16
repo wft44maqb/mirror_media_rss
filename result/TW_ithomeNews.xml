@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/board/id/5" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/board/id/5</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/board/id/5" rel="self" type="application/rss+xml" />
       <item>
+    <title>思科買下以色列的應用監控業者Epsagon</title>
+    <link>https://www.ithome.com.tw/news/146220</link>
+    <description> 網通設備大廠思科（Cisco）上周宣布打算買下以色列的應用監控新創Epsagon，以強化思科的全棧觀察（Full-Stack Observability）解決方案。</description>
+     <pubDate>2021-08-16  04:08:26</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146220</guid>
+  </item>
+  <item>
     <title>全球百大銀行已有55%投資加密貨幣或區塊鏈，巴克萊銀行投資家數居冠</title>
     <link>https://www.ithome.com.tw/news/146217</link>
     <description> 根據區塊鏈市場情報機構Blockdata的調查，全球百大銀行中，已有55家直接或透過子公司投資區塊鏈或加密貨幣企業，其中，以英國巴克萊銀行（Barclays）的投資範圍最大，總計投資了19家相關業者。</description>
@@ -248,14 +256,6 @@ Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet�
      <pubDate>2021-08-12  08:08:30</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146162</guid>
-  </item>
-  <item>
-    <title>駭客屈服了，開始歸還自Poly Network盜走的6.1億美元加密貨幣</title>
-    <link>https://www.ithome.com.tw/news/146161</link>
-    <description> 跨鏈協定網路Poly Network在8月10日晚間遭到駭客攻擊，駭客成功轉移了價值6.1億美元的加密貨幣到3個加密貨幣錢包，不過，在不到一天的時間內，駭客就決定歸還所盜走的資產。</description>
-     <pubDate>2021-08-12  08:08:15</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146161</guid>
   </item>
   </channel>
 </rss>
