@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-15T18:13:08Z</updated>
+ <updated>2021-08-16T06:16:44Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,56 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58874403</id>
+  <title><![CDATA[端点星案宣判 陈玫证实已获释返家]]></title>
+  <updated>2021-08-16T04:48:00Z</updated>
+  <published>2021-08-16T04:48:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/端点星案宣判-陈玫证实已获释返家/a-58874403?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[端点星案的两名被告陈玫与蔡伟在13日正式遭判刑15个月後，陈玫的哥哥表示弟弟已於15日获释返家。专家分析，中国政府处理此案的方式显示，备份中国政府删除的内容可能被视为犯罪。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58874479</id>
+  <title><![CDATA[中国警方：阿里巴巴女员工遭「强制猥亵」未被性侵]]></title>
+  <updated>2021-08-16T04:45:00Z</updated>
+  <published>2021-08-16T04:45:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国警方：阿里巴巴女员工遭「强制猥亵」未被性侵/a-58874479?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[震惊中国社会的阿里巴巴性侵案，初步调查结果公布，警方称被害人受上司及客户三度实施「强制猥亵」，但表示并无证据证明有强奸的犯罪情形。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58874401</id>
+  <title><![CDATA[中国柴达尔煤矿崩塌  1死19人受困]]></title>
+  <updated>2021-08-16T04:02:00Z</updated>
+  <published>2021-08-16T04:02:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国柴达尔煤矿崩塌-1死19人受困/a-58874401?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国青海柴达尔煤矿崩塌，仍有19人被困，中国媒体称该矿在事发时已被责令停产整顿，目前搜救人员仍在现场，救援最大挑战为何？]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58874216</id>
+  <title><![CDATA[中国加强上市定价审查  19家机构投资者遭惩]]></title>
+  <updated>2021-08-16T01:59:00Z</updated>
+  <published>2021-08-16T01:59:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国加强上市定价审查-19家机构投资者遭惩/a-58874216?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[为因应中国证监会加强对IPO(首次公开募股)的定价审查，中国证券业协会对19家机构投资者采取自律措施，这些机构投资者受到相关惩罚或警示。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58874208</id>
+  <title><![CDATA[塔利班宣布战争结束 中专家：塔利班表现不差]]></title>
+  <updated>2021-08-16T01:42:00Z</updated>
+  <published>2021-08-16T01:42:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班宣布战争结束-中专家：塔利班表现不差/a-58874208?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[在塔利班於16日重新控制阿富汗之际，欧美各国持续疏散其公民。阿富汗总统加尼在逃离该国後，於社媒发文表示该举动是为了避免流血冲突。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58871228</id>
   <title><![CDATA[德国绿党候选人：不能被中国牵着鼻子走]]></title>
@@ -145,16 +195,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58864444</id>
-  <title><![CDATA[用生理盐水替代新冠疫苗 德国护士给出解释]]></title>
-  <updated>2021-08-14T12:42:00Z</updated>
-  <published>2021-08-14T12:42:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/用生理盐水替代新冠疫苗-德国护士给出解释/a-58864444?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[在德国下萨克森州的弗里斯兰（Friesland） 地区，一名护士被指控用生理盐水替代新冠疫苗给人注射。约有8557人可能受到影响，他们已被要求重新接种。]]></summary>
-  <category term="德国新闻"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58863866</id>
   <title><![CDATA[美气象机构：7月是全球有记录以来最热月份]]></title>
   <updated>2021-08-14T10:36:00Z</updated>
@@ -193,36 +233,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：有了自信-欧洲就不用选边站/a-58858471?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[《法兰克福汇报》指出，相比气候保护，就业岗位才是中国民众更为关心的议题，中共自然明白这一点。《南德意志报》则呼吁，欧洲只有通过加强自身竞争力，才能避免在中美争霸中被迫选边站。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58858034</id>
-  <title><![CDATA[联合国：阿富汗面临“人道主义灾难”]]></title>
-  <updated>2021-08-13T14:32:00Z</updated>
-  <published>2021-08-13T14:32:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/联合国：阿富汗面临-人道主义灾难/a-58858034?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[在联合国提醒注意阿富汗人民处境之时，塔利班继续推进。观察人士认为，五角大楼的最新举措已无法逆转局势。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58857997</id>
-  <title><![CDATA[日本官员参拜靖国神社惹怒中韩]]></title>
-  <updated>2021-08-13T14:27:00Z</updated>
-  <published>2021-08-13T14:27:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/日本官员参拜靖国神社惹怒中韩/a-58857997?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[日本防卫相岸信夫周五前往靖国神社参拜，引发中韩不满。韩国周五召见日本公使表达抗议， 中国官媒则批日本“供奉双手沾满世界人民鲜血的刽子手、犯下滔天罪行的历史罪人，是对历史的否定”。中国男星张哲瀚因曾与靖国神社合照也遭官方点名批评。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58854993</id>
-  <title><![CDATA[台湾争取参加民主峰会 《环时》：决不允许蔡英文与会]]></title>
-  <updated>2021-08-13T10:56:00Z</updated>
-  <published>2021-08-13T10:56:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/台湾争取参加民主峰会-《环时》：决不允许蔡英文与会/a-58854993?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[台湾正积极争取参与美国即将在12月举办的民主峰会。对此，《环球时报》主编胡锡进措辞强硬地表示，大陆决不会允许蔡英文与会，否则将是“对一个中国原则的宣战”。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58854314</id>
@@ -545,16 +555,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:57217845</id>
-  <title><![CDATA[塞隆尼斯·孟克：午夜时分]]></title>
-  <updated>2021-08-02T13:37:00Z</updated>
-  <published>2021-08-02T13:37:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塞隆尼斯·孟克：午夜时分/a-57217845?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[塞隆尼斯·孟克是知名美国爵士乐钢琴家和作曲家，当代小提琴家路易斯·曼乔卡瓦洛在改编的爵士乐“午夜时分”版本的基础上又加入了自己的风格。请听快乐马卡合奏家乐团和多萝西·奥伯林格用木笛对这首爵士乐的演绎。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/埃以边境发生10年来最严重恐怖袭击事件/a-16146518?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[埃以边境发生10年来最严重恐怖袭击事件]]></title>
   <updated>2012-08-06T06:07:00Z</updated>
@@ -600,15 +600,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -616,6 +607,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="在线报导"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>

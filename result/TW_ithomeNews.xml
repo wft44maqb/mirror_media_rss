@@ -1,11 +1,67 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/2043/4874" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/2043/4874</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/2043/4874" rel="self" type="application/rss+xml" />
       <item>
+    <title>華為被控竊取美國公司軟體商業機密、監控巴基斯坦</title>
+    <link>https://www.ithome.com.tw/news/146214</link>
+    <description> 美國IT顧問業者Business Efficiency Solutions（BES）上周向美國加州地方法院控告華為竊取其軟體商業機密，並利用其系統蒐集巴基斯坦國家安全和企業資訊。</description>
+     <pubDate>2021-08-16  02:08:09</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146214</guid>
+  </item>
+  <item>
+    <title>臉書為Messenger語音、視訊提供全程加密，群組通訊加密為下階段</title>
+    <link>https://www.ithome.com.tw/news/146211</link>
+    <description> 臉書近日宣布已經為Messenger語音、視訊提供全程加密（end to end encryption，E2EE），而稍後也將開始測試，以便將全程加密推向Messenger群組通訊及Instagram（IG）上。
+臉書於上周宣布2項新隱私通訊功能，以及即將進行測試的2項隱私功能。2項新增的隱私通訊功能，包括為Messenger語音及視訊通話提供全程加密，以及讓用戶設定文字訊息自動消失的時間。</description>
+     <pubDate>2021-08-16  11:08:23</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146211</guid>
+  </item>
+  <item>
+    <title>微軟與Netflix等科技公司成立基金會推動開源eBPF沙盒技術發展</title>
+    <link>https://www.ithome.com.tw/news/146195</link>
+    <description> 臉書、Google、Isovalent、微軟和Netflix，宣布共同創立eBPF基金會，並且託管在Linux基金會旗下。eBPF是一項起源於Linux核心的技術，能夠在作業系統中執行沙盒程式，目的是要在不更改核心原始碼或是加載核心模組的情況下，安全地擴展核心功能。</description>
+     <pubDate>2021-08-16  10:08:21</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146195</guid>
+  </item>
+  <item>
+    <title>Martech月報第8期：臺灣去年程式化廣告支出增3成，顯示程式化購買已成數位廣告投放新主流</title>
+    <link>https://www.ithome.com.tw/news/146198</link>
+    <description> 重點新聞(0709~0812)</description>
+     <pubDate>2021-08-16  08:08:04</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146198</guid>
+  </item>
+  <item>
+    <title>【玉山AI力關鍵人物：玉山金控科技長張智星】玉山科技長的3大AI核心戰略</title>
+    <link>https://www.ithome.com.tw/news/146182</link>
+    <description> 玉山AI應用如何成功遍地開花？
+靠「AI大腦和IT神經系統」是簡答，背後嚴密的中長期策略規畫才是詳解。玉山金控科技長張智星，就是關鍵領軍人物。這位帶頭跑的指揮官，如何思考玉山AI的發展方向？如何進一步運用玉山科技實力，來發揮AI服務效益？
+他列出了三項重要原則，來說明玉山AI戰略。
+AI戰略一：深化創新
+首先是深化創新。「要不斷創新、深化創新，」張智星解釋，不只技術要創新、服務要創新、平臺要創新，還要「第一層次、第二層次和第三層次往下深化創新。」</description>
+     <pubDate>2021-08-16  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146182</guid>
+  </item>
+  <item>
+    <title>十年養成玉山AI力，下一步瞄準零接觸金融</title>
+    <link>https://www.ithome.com.tw/news/146179</link>
+    <description> 今年5月疫情爆發，政府啟動勞工紓困專案，「短短幾天，玉山就湧入數十萬件申請案件！」玉山銀行董事長黃男州回憶。
+但在短時間內，玉山就一條鞭消化這些爆量申請，撥出60、70億元貸款，甚至不動用大量人力就能完成。他們靠的是機器人流程自動化（RPA）和AI，自動審核超過80%的申請案件，黃男州驕傲地說：「這就是科技的力量！」在這之中，AI更是一股重要力量。
+比如2年前，玉山已開始將AI落地到金融服務中。他們自建信用卡盜刷偵測模型，0.1秒就能判斷信用卡是否被冒用，一天用上數十萬次，一年更省下上億元的損失。
+不只如此，他們也自行開發理財認知偏好推薦AI 模型，能根據客戶承受風險等級和交易紀錄，在7秒內推薦最合適的5檔基金。</description>
+     <pubDate>2021-08-16  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146179</guid>
+  </item>
+  <item>
     <title>支援記憶體ECC，Nvidia新款Ampere架構專業繪圖GPU上場</title>
     <link>https://www.ithome.com.tw/review/146172</link>
     <description> 4月中舉行的年度GTC大會期間，Nvidia在專業繪圖加速卡的產品線當中，針對工作站系統，推出RTX A5000、RTX A4000等兩款機型，針對筆電GPU，推出RTX A5000、RTX A4000、RTX A3000、RTX A2000。
@@ -201,57 +257,6 @@ PChome網路家庭投資長兼策略長周磊表示，流量和會員是電商�
      <pubDate>2021-08-12  05:08:12</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146159</guid>
-  </item>
-  <item>
-    <title>臺北市政府與國網中心聯手，北市府異地備援第2中心落腳臺中</title>
-    <link>https://www.ithome.com.tw/news/146155</link>
-    <description> 為確保市政資訊服務不中斷，強化城市營運韌性，臺北市政府與國研院國家高速網路與計算中心（簡稱國網中心）合作，雙方簽定合作備忘錄，在國網中心協助下推動2nd Taipei計畫，將在臺中建立異地備援第2中心。
-北市資訊局長呂新科表示，北市府推動數位轉型過程中，重視災難恢復及駭客攻擊的惡意行為，去年陪同市長參訪愛沙尼亞，對其在盧森堡建立數位大使館印象深刻，當發生數位攻擊時，便能自境外恢復系統及資料。因此，臺北市政府推動2nd Taipei，在臺北市以外的地理位置，設立異地備援備分中心。</description>
-     <pubDate>2021-08-12  04:08:23</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146155</guid>
-  </item>
-  <item>
-    <title>蘋果與提供虛擬iPhone的虛擬化業者Corellium達成官司和解</title>
-    <link>https://www.ithome.com.tw/news/146158</link>
-    <description> 蘋果本周和提供虛擬iPhone的虛擬化新創業者Corellium 達成和解，撤銷對後者的版權控告。
-Corellium是一家行動裝置虛擬化業者，可將iOS、Android或Linux部署在雲端或其他平臺上。它實際應用最出名的，是可在筆電或桌機上模擬出一臺「虛擬iPhone」，讓第三方研究人員可以找出iPhone安全漏洞或功能瑕疵。</description>
-     <pubDate>2021-08-12  04:08:09</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146158</guid>
-  </item>
-  <item>
-    <title>大型IT顧問公司Accenture遭LockBit勒索軟體攻擊，強調已復原受害系統，但尚未證實是否支付贖金</title>
-    <link>https://www.ithome.com.tw/news/146157</link>
-    <description> 跨國大型IT顧問公司Accenture，驚傳遭到勒索軟體LockBit攻擊。</description>
-     <pubDate>2021-08-12  04:08:17</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146157</guid>
-  </item>
-  <item>
-    <title>微軟正式修補好重大風險漏洞PetitPotam</title>
-    <link>https://www.ithome.com.tw/news/146154</link>
-    <description> 經過兩周，微軟正式於本周的Patch Tuesday安全更新中，修補影響Windows AD網域的PetitPotam漏洞。微軟也證實該漏洞風險值高達9.8。</description>
-     <pubDate>2021-08-12  02:08:38</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146154</guid>
-  </item>
-  <item>
-    <title>美國議員提出《開放程式市集法案》，準備打破蘋果與Google所建構的程式市集競爭高牆</title>
-    <link>https://www.ithome.com.tw/news/146152</link>
-    <description> 美國民主黨參議員Richard Blumenthal與Amy Klobuchar，以及共和黨參議員Marsha Blackburn在周三（8/11）共同提出了《開放程式市集法案》（Open App Markets Act），企圖打破蘋果與Google建築的程式市集競爭高牆，以讓小型的新創公司擁有</description>
-     <pubDate>2021-08-12  01:08:32</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146152</guid>
-  </item>
-  <item>
-    <title>SAP修補Business One、NetWeaver重大風險漏洞</title>
-    <link>https://www.ithome.com.tw/news/146151</link>
-    <description> SAP本周釋出安全公告，以修補19項產品安全漏洞，包含位於中小企業產品Business One及NetWeaver 的3個風險層級9.0以上的重大漏洞。
-這3個在SAP分類中被列為「Hot News」的重大風險漏洞，有2個是CVSS 3.0風險分數達9.9的漏洞。其中CVE-2021-33698存在於Business One，可讓攻擊者上傳惡意檔案，包括惡意腳本語言。影響產品為Business One version 10。</description>
-     <pubDate>2021-08-12  01:08:54</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146151</guid>
   </item>
   </channel>
 </rss>

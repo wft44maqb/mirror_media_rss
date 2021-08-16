@@ -6,6 +6,238 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>駭客正在兜售來自T-Mobile的1億用戶資料</title>
+ <link>https://www.ithome.com.tw/news/146215</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.vice.com/en/article/akg8wg/tmobile-investigating-customer-data-breach-100-million&quot; target=&quot;_blank&quot;&gt;Motherboard&lt;/a&gt;與&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/hacker-claims-to-steal-data-of-100-million-t-mobile-customers/&quot; target=&quot;_blank&quot;&gt;BleepingComputer&lt;/a&gt;相繼報導，賣家於地下論壇中兜售一個含有1億筆美國用戶的資料庫，並向買家與媒體宣稱該資料庫來自美國電信業者T-Mobile，得知此事的T-Mobile已展開調查。&lt;/p&gt;
+&lt;p&gt;賣家向BleepingComputer透露他們是在兩周前入侵了T-Mobile的伺服器，取得了龐大的用戶資料，還展示了與T-Mobile資料庫之間建立連結的螢幕截圖以茲證明，且他們並未向T-Mobile勒索，而是選擇出售給其他駭客。&lt;/p&gt;
+&lt;p&gt;賣家宣稱總計取得了多達106GB的資料，包含約1億名T-Mobile客戶的姓名、電話號碼、生日、駕照號碼、IMEI行動裝置辨識碼與社會安全碼等，並在駭客論壇中以6個比特幣（約28萬美元）的價格出售。&lt;/p&gt;
+&lt;p&gt;網路犯罪情報公司Hudson Rock技術長&lt;a href=&quot;https://twitter.com/UnderTheBreach/status/1426923538099970050&quot; target=&quot;_blank&quot;&gt;Alon Gal 則說&lt;/a&gt;，當他聯繫賣家時，賣家表示此舉是為了傷害美國的基礎設施，以報復美國中情局與土耳其情報幹員在2019年，綁架並嚴刑拷打疑似ISIS恐怖組織成員的John Erin Binns，當時Binns只有19歲，身為美國公民的Binns亦於隔年控告美國司法部、FBI與中情局。&lt;/p&gt;
+&lt;p&gt;Motherboard表示，根據駭客所提供的樣本，已證實該資料庫所存放的T-Mobile客戶資訊是真實的。至於T-Mobile則正積極展開調查，包括是否真的被攻陷，或是有哪些資料遭竊等。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 16 Aug 2021 06:10:30 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146215 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146215#comments</comments>
+</item>
+<item>
+ <title>華為被控竊取美國公司軟體商業機密、監控巴基斯坦</title>
+ <link>https://www.ithome.com.tw/news/146214</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國IT顧問業者Business Efficiency Solutions&lt;a href=&quot;https://fingfx.thomsonreuters.com/gfx/legaldocs/zjvqkqxwkvx/IP%20HUAWEI%20TRADESECRETS%20complaint.pdf&quot; target=&quot;_blank&quot;&gt;（BES）上周向美國加州地方法院控告華為&lt;/a&gt;竊取其軟體商業機密，並利用其系統蒐集巴基斯坦國家安全和企業資訊。&lt;/p&gt;
+&lt;p&gt;總部位於加州布耶那公園市（Buena Park）的BES指控，2015年華為和該公司合作，贏得巴基斯坦拉合爾警局（Lahore）1.5億美元的「安全城市」標案。在這個公共安全與資安有關的標案中，BES負責開發其中一部份軟體。BES控告華為竊取了該公司為此專案開發的多項軟體程式碼及其他產業機密，且在其軟體中植入後門程式，藉此輸入到巴國，竊取該國國家安全、民間公司機密，以及巴國公民個資。&lt;/p&gt;
+&lt;p&gt;根據訴狀，BES為此專案開發了8項軟體，包括資料交換、建物管理系統、警用資源管理、社交媒體管理、影像媒體、警用攝影機、無人機管理等系統，主要用於蒐集及管理民眾個資、警用影像監控設備、臉書或推特及廣電、平面媒體內容之監管。這個標案涵括了該市鉅細靡遺的國家資料，包括民眾入出境、稅務、民眾車輛、註冊企業及犯罪活動資料等。&lt;/p&gt;
+&lt;p&gt;等BES開發完成後，華為以測試為由，要求BES提供8項軟體的詳細設計（low-level design）資訊，包括原始碼、系統架構、概念設計、介面、diagram/schematic、workflow、協定等文件及資訊，表示要在中國安裝測試。等取得BES的商業機密後，華為卻取消BES存取華為測試實驗室的權限，之後未歸還BES軟體智財，也未從華為實驗室伺服器移除BES軟體。&lt;/p&gt;
+&lt;p&gt;這家公司聲稱，2017年華為以拒絕付款要脅，並稱已取得巴國許可，BES將這完整系統在中國境內複製，使華為得以利用這臺系統作為後門，存取並可操弄汲取攸關巴基斯坦國安的敏感資訊。&lt;/p&gt;
+&lt;p&gt;BES要求華為為其竊取及非法使用BES的智財賠償，並尋求禁止華為持續不法使用該公司的商業祕密和智財。&lt;/p&gt;
+&lt;p&gt;訴狀也稱，他們不是唯一被利用的工具。&lt;a href=&quot;https://www.bbc.com/news/technology-47856098&quot; target=&quot;_blank&quot;&gt;2019年BBC報導&lt;/a&gt;，華為出貨到巴基斯坦的閉路電視內建的Wi-Fi模組也被安裝後門程式，以用來監控巴國民眾。&lt;/p&gt;
+&lt;p&gt;包括&lt;a href=&quot;https://www.reuters.com/legal/transactional/huawei-accused-stealing-trade-secrets-spying-pakistan-2021-08-12/&quot; target=&quot;_blank&quot;&gt;路透&lt;/a&gt;及&lt;a href=&quot;https://www.theregister.com/2021/08/13/huawei_accused_of_trade_secret/&quot; target=&quot;_blank&quot;&gt;The Register&lt;/a&gt;、&lt;a href=&quot;https://www.wsj.com/articles/huawei-accused-in-suit-of-installing-data-back-door-in-pakistan-project-11628947988&quot; target=&quot;_blank&quot;&gt;華爾街日報&lt;/a&gt;皆未獲得華為的回應。&lt;/p&gt;
+&lt;p&gt;本案可望使華為及中國和美國之間的關係再度惡化。華為自2019年5月以國安威脅為由，被商務部列入實體名單，此後再也無法取得發展手機及晶片的關鍵技術，包括晶片及Google軟體。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 16 Aug 2021 06:02:09 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146214 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146214#comments</comments>
+</item>
+<item>
+ <title>臉書為Messenger語音、視訊提供全程加密，群組通訊加密為下階段</title>
+ <link>https://www.ithome.com.tw/news/146211</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://messengernews.fb.com/2021/08/13/messenger-updates-end-to-end-encrypted-chats-with-new-features/&quot; target=&quot;_blank&quot;&gt;臉書近日宣布&lt;/a&gt;已經為Messenger語音、視訊提供全程加密（end to end encryption，E2EE），而稍後也將開始測試，以便將全程加密推向Messenger群組通訊及Instagram（IG）上。&lt;/p&gt;
+&lt;p&gt;臉書於上周宣布2項新隱私通訊功能，以及即將進行測試的2項隱私功能。2項新增的隱私通訊功能，包括為Messenger語音及視訊通話提供全程加密，以及讓用戶設定文字訊息自動消失的時間。&lt;/p&gt;
+&lt;p&gt;臉書旗下的WhatsApp本來就提供全程加密，臉書Messenger也從2016年就提供了文字訊息的全程加密。但去年以來，用戶使用Messenger打語音電話和視訊的用量大增，現在每天Messenger上進行的視訊高達1.5億次。同時間全程加密也成了產業標準化作法，促使臉書將全程加密功能推向Messenger語音和視訊。不過這項隱私功能屬於選擇加入（opt-in），用戶必須自行開啟。&lt;/p&gt;
+&lt;p&gt;臉書另外更新1對1文字訊息消失的功能。現在臉書加入一項時間設定，讓用戶設定訊息消失的時間，最短5秒，最長可到24小時。&lt;/p&gt;
+&lt;p&gt;此外，臉書也預告，再過幾個星期會開始公測新的隱私通訊功能。首先是Messenger群組通話及視訊全程加密，但前提是彼此已經互加好友。另外也將測試多項用戶控制設定，包括設定誰可以加入聊天室清單、訊息信件匣（request folder），以及誰完全被禁止傳送訊息給用戶。&lt;/p&gt;
+&lt;p&gt;最後，臉書也將針對部份國家的成人限量測試IG 文字及語音私訊的全程加密，不過和Messenger一樣，這僅限彼此互加好友的用戶。這項功能也是選擇加入（opt-in）功能。但用戶必要時仍然可以封鎖不想通訊的其他用戶。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 16 Aug 2021 03:18:23 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146211 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146211#comments</comments>
+</item>
+<item>
+ <title>微軟與Netflix等科技公司成立基金會推動開源eBPF沙盒技術發展</title>
+ <link>https://www.ithome.com.tw/news/146195</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;臉書、Google、Isovalent、微軟和Netflix，宣布共同創立&lt;a href=&quot;https://www.linuxfoundation.org/press-release/facebook-google-isovalent-microsoft-and-netflix-launch-ebpf-foundation-as-part-of-the-linux-foundation/&quot;&gt;eBPF基金會&lt;/a&gt;，並且託管在Linux基金會旗下。eBPF是一項起源於Linux核心的技術，能夠在作業系統中執行沙盒程式，目的是要在不更改核心原始碼或是加載核心模組的情況下，安全地擴展核心功能。&lt;/p&gt;
+&lt;p&gt;之所以需要eBPF技術，是為了讓作業系統能夠發展創新技術，官方解釋，由於核心具有監督和控制整個系統的特權，因此作業系統是實現可觀察性、安全性和網路功能的理想場所，但又因為作業系統核心有較高的穩定性和安全性要求，因此難以革新，與作業系統之外的實作相比，作業系統等級的創新進展有限。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/overview-bf463455a5666fc3fb841b9240d588ff.png&quot; style=&quot;width: 580px; height: 297px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;但是eBPF改變了這個情況，由於eBPF能夠在作業系統中執行沙盒程式，應用程式開發人員便可以執行eBPF程式，在執行時向作業系統添加額外的功能，在保證作業系統安全性和效率的情況下，使用JIT編譯器和驗證引擎，執行原生編譯。eBPF目前逐漸成為實現廣泛基礎設施的首選方法，具有提高效率和效能的優點，並且可以明顯降低系統複雜性。&lt;/p&gt;
+&lt;p&gt;臉書核心開發人員，同時也是eBPF共同創建者和維護者Alexei Starovoitov提到，eBPF讓開發者不需要承擔更改核心程式碼的風險和成本，就能夠即時修改作業系統的行為，也就是說，開發者現在具有快速迭代作業系統的網路、安全和容器化內容的能力。&lt;/p&gt;
+&lt;p&gt;官方認為，eBPF改變了作業系統和基礎設施服務的設計方式，其橋接了內核和用戶空間，能夠促進網路、安全、應用程式分析追蹤系統，以及可觀察性的開源技術進展，eBPF甚至讓開發者可以跨多個傳統上獨立的子系統，組合並且執行邏輯。eBPF讓網路、安全和應用程式分析等領域，能夠開發全新的工具，而這些工具不需要再仰賴現有的核心功能，且能夠在不影響執行效率或安全性的情況下，主動重新程式化執行時行為。&lt;/p&gt;
+&lt;p&gt;eBPF基金會將會繼續擴充eBPF的功能，並且舉辦各種活動培養社群，以進一步推動eBPF生態系的發展。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 16 Aug 2021 02:59:21 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146195 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146195#comments</comments>
+</item>
+<item>
+ <title>Martech月報第8期：臺灣去年程式化廣告支出增3成，顯示程式化購買已成數位廣告投放新主流</title>
+ <link>https://www.ithome.com.tw/news/146198</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;重點新聞(0709~0812)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Verizon Media &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 程式化廣告購買 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 第三方Cookie退場 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;Verizon Media發布2021臺灣程式化廣告購買洞察報告&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;針對數位廣告購買的市場，Verizon Media近期發布2021臺灣程式化購買洞察報告。程式化廣告，是結合即時競價（RTB）與精準行銷的方法，透過演算法即時分析顧客數據，讓廣告能自動對適合的用戶來投放。這份調查顯示，67%廣告主已開始使用程式化購買，年增率16%，而臺灣去年全年度的數位廣告購買來到482.56億元，程式化購買支出增加到193億元，佔總數位廣告支出近4成。&lt;/p&gt;
+&lt;p&gt;Verizon Media也調查了近200位廣告主與代理商，程式化購買的現況。調查發現，有一半的受訪者打算在今年增加程式化購買的支出佔比，也有近半數受訪者滿意程式化投放廣告的成效。但是，在預算控管與分配、成效評估方面，也成為用戶要面對的新課題。&lt;/p&gt;
+&lt;p&gt;面對第三方Cookie即將退場的挑戰，近9成受訪者已經採取行動來因應Cookie淘汰可能帶來的影響。其中，53%企業正在嘗試各種解決方案，51%自建了第一方會員數據庫，47%與導入了身份識別方案的廣告平臺合作，44%則增加與擁有第一方數據的廣告平臺合作。近5成廣告主與代理商更表示，未來不介意與廣告平臺共享數據，目標要實現更好的廣告優化效益。（&lt;a href=&quot;https://promo.campaign.yahoo.com.tw/corpblog/article.php?u=3b9d963f-d010-4061-9ee2-e09c1be7bc9b&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-04%20%E4%B8%8B%E5%8D%884_58_51.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Salesforce &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 行銷成效衡量指標 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 第三方Cookie退場 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;Salesforce發布2021行銷報告，發現行銷人員採用更多指標來衡量行銷成效&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Salesforce近期發布了最新版本的行銷報告，這份報告針對全球37個國家、8,200名行銷人員展開調查，顯示企業最新的行銷策略、挑戰與技術，如何隨著經濟與社會環境變化而改變。其中一項觀察指出，行銷人員正在嘗試更多、更複雜的行銷成效衡量指標，從收益（Revenue）、行銷漏斗（marketing funnel）表現、顧客滿意度分析、內容參與度、顧客獲取成本、顧客保留率到網站與行動裝置分析等指標，企業採用比例與去年相比都有顯著成長。這是因為，行銷人員試圖在消費者行為急遽改變的去年，快速了解哪些策略有效或無效，這也使得這個行業，變得更加以KPI為導向。&lt;/p&gt;
+&lt;p&gt;另一項觀察，則是隨著Cookie技術帶來的行銷價值下降，行銷人員正在重新排序數據來源的重要程度。比如從調查結果來看，已知的數位身分、第二方數據、推論而得的興趣與偏好，從去年以來的受歡迎程度大幅成長，相對的，線下身份、匿名數位身分的受歡迎度則是大幅下滑。（&lt;a href=&quot;https://www.salesforce.com/news/stories/state-of-marketing-in-2021/&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/26(3).png&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-13%20%E4%B8%8B%E5%8D%889_11_02.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 臉書 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 隱私技術 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 精準廣告投放 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;傳臉書正在建立具隱私技術專長的&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;團隊，研發不解密用戶資訊也能精準投放廣告的方法&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.theinformation.com/articles/facebook-researchers-hope-to-bring-together-two-foes-encryption-and-ads&quot;&gt;The Information&lt;/a&gt;報導，臉書正在建立團隊，要研發不需解密用戶訊息，即可分析用戶行為的技術，以便能持續發送個人化廣告。報導發現，臉書的徵才廣告顯示，臉書正在尋找具隱私技術背景，包括同態加密（homomorphic encryption）、安全運算及資料匿名化的專家，組成專門團隊來研究相關作法。消息人士指出，臉書這項計畫還在執行初期，目前主要實施對象是WhatsApp用戶內容。臉書希望新團隊發展的技術讓他們不需解密用戶訊息的情況下，還能分析資料。&lt;/p&gt;
+&lt;p&gt;同態加密是一種加密類型，在實際應用上，同態加密讓資料在運算時仍可維持加密狀態，最大程度降低資料暴露的風險，且同態加密還能夠限制解密功能，讓特定對象僅看到有權存取的部分。但是它需要龐大運算資源，直到現今逐漸克服效能問題後，才得以普及化。（&lt;a href=&quot;https://www.ithome.com.tw/news/146007&quot; target=&quot;_blank&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Consumer Acquisition &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 蘋果隱私政策 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 廣告營收下降 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;Consumer Acquisition：蘋果對iOS的追蹤限制讓廣告主營收下滑15%～20%&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;社交廣告代理商Consumer Acquisition分析了價值3億美元的社交廣告支出，指出在蘋果釋出了基於程式追蹤透明化（App Tracking Transparency，ATT）政策的iOS 14.5之後，iOS廣告主的營收下滑了15%～20%。此一現象，也讓廣告主把廣告支出從iOS轉移到Android，比如程式行銷監控平臺&lt;a class=&quot;notion-link-token notion-enable-hover&quot; data-reactroot=&quot;&quot; data-token-index=&quot;1&quot; href=&quot;https://www2.branch.io/rs/315-FTT-121/images/2021-EB-Mobile-Growth-Handbook.pdf&quot; rel=&quot;noopener noreferrer&quot; style=&quot;cursor:pointer;color:inherit;word-wrap:break-word;text-decoration:inherit&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;link-annotation-unknown-block-id--507363163&quot; style=&quot;border-bottom:0.05em solid;border-color:rgba(55,53,47,0.4);opacity:0.7&quot;&gt;Branch的調查&lt;/span&gt;&lt;/a&gt;便顯示，在後IDFA時代，Android平臺上的廣告支出增加了8～21%。因此，Consumer Acquisition推測，有鑑於廣告收入也是iOS開發者投入該平臺的原因之一，蘋果可能會在今年的感恩節（11/25）之前，收回或修改ATT政策。（&lt;a class=&quot;notion-link-token notion-enable-hover&quot; data-reactroot=&quot;&quot; data-token-index=&quot;3&quot; href=&quot;https://www.ithome.com.tw/news/145670&quot; rel=&quot;noopener noreferrer&quot; style=&quot;cursor:pointer;color:inherit;word-wrap:break-word;text-decoration:inherit&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;link-annotation-unknown-block-id--601087752&quot; style=&quot;border-bottom:0.05em solid;border-color:rgba(55,53,47,0.4);opacity:0.7&quot;&gt;詳全文&lt;/span&gt;&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Adobe &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 體驗雲平臺 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 個人化功能 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;Adobe宣布在體驗雲平臺與商業服務中強化個人化功能&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Adobe 7月宣布在Adobe體驗雲平臺（Adobe Experience Cloud）推出新功能，將根據企業搜集的第一方顧客資料，讓企業能提供顧客更加個人化的購物體驗。其中一項功能是仍在測試階段的細分匹配（Segment Match），未來整合到Adobe的CDP產品中，可以擴充客戶的第一方資料庫，讓客戶在經用戶授權與其他企業共享非敏感的顧客數據時，能近一步匹配顧客數據來獲得更多洞察。體驗雲也改進了洞察分析的功能，用來簡化數據搜集的過程，並提供更多洞察結果，比如讓企業了解受眾增長趨勢、哪些管道為他們帶來更多互動等客戶成長分析。&lt;/p&gt;
+&lt;p&gt;另一項功能則是Adobe旅程優化器（Adobe Journey Optimizer ），這項功能已經上市，讓企業能依據即時顧客資料，來設計、編排、傳送個人化訊息與促銷活動。這項功能還配備了數位資產管理的輕量級UI（Adobe Experience Manager Assets Essentials），可讓客戶在一個集中、以雲端為本的工作空間中，跨團隊進行儲存、發掘和分發數位資產。而且，透過核心AI引擎Adobe Sensei，還能對數位資產進行直觀的搜尋。&lt;/p&gt;
+&lt;p&gt;此外，Adobe也在商業雲服務（Adobe Commerce）中新增了以AI驅動的即時搜尋功能（Live Search），讓企業能提供顧客更個人化的關聯性搜尋結果，讓顧客快速找到想要的商品。Adobe指出，這是因為使用店面搜尋功能的消費者，下單的可能性較其他瀏覽人士高出四倍，所以網站搜尋功能的優化，也是企業用來提升顧客體驗的關鍵。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Walmart &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Adobe &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 零售技術 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;Walmart宣布將整合Marketplace、訂單履行與取貨到Adobe商業雲平臺中&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Walmart近期宣布與Adobe合作，要將自家的電商平臺Walmart Marketplace、線上及店內訂單履行（fulfillment）與取貨技術，與Adobe商業雲服務（Adobe Commerce）整合。也就是說，未來透過Adobe商業雲平臺，零售業者可以採用Walmart以雲端為基礎的服務，來提供無縫取貨與配送服務給他們的消費者。企業也可以透過Walmart Marketplace接觸到更多新顧客，並利用Marketplace的配送服務，讓美國國內的顧客都可以享有2天內到貨的服務。Walmart指出，與Adobe的合作，可以讓任何規模的企業，透過更有效率的營運來改善顧客體驗。（&lt;a class=&quot;notion-link-token notion-enable-hover&quot; data-reactroot=&quot;&quot; data-token-index=&quot;1&quot; href=&quot;https://corporate.walmart.com/newsroom/2021/07/28/walmart-to-offer-technologies-and-capabilities-to-help-other-businesses-navigate-their-own-digital-transformation&quot; rel=&quot;noopener noreferrer&quot; style=&quot;cursor:pointer;color:inherit;word-wrap:break-word;text-decoration:inherit&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;link-annotation-unknown-block-id-2076546250&quot; style=&quot;border-bottom:0.05em solid;border-color:rgba(55,53,47,0.4);opacity:0.7&quot;&gt;詳全文&lt;/span&gt;&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Twitter &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 購物模組 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;Twitter開始測試購物模組，讓用戶能在商家頁面中瀏覽商品並下單&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Twitter近期宣布，將開始在Twitter上測試購物模組，目標透過這個功能，在Twitter上建立一條從探索、談論到下單購買商品的新通路。這個購物模組位於商家的Twitter頁面中，讓賣家可以在這裡展示他們販售的商品，當用戶瀏覽添加了購物模組的商家頁面時，他們可以在商品輪播中點擊單一商品來瞭解更多資訊，甚至可以在Twitter應用程式內瀏覽器無縫的購買該商品，不需要離開Twitter購買。Twitter目前開始與少數美國品牌開始合作，在iOS裝置上以英文使用Twitter的美國用戶，將可以開始看見購物模組的功能。（&lt;a class=&quot;notion-link-token notion-enable-hover&quot; data-reactroot=&quot;&quot; data-token-index=&quot;1&quot; href=&quot;https://blog.twitter.com/en_us/topics/product/2021/twitter-shopping--testing-shoppable-profiles-on-twitter&quot; rel=&quot;noopener noreferrer&quot; style=&quot;cursor:pointer;color:inherit;word-wrap:break-word;text-decoration:inherit&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;link-annotation-unknown-block-id-2037388584&quot; style=&quot;border-bottom:0.05em solid;border-color:rgba(55,53,47,0.4);opacity:0.7&quot;&gt;詳全文&lt;/span&gt;&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Shop_Module_Hero_July.jpeg_img_fullhd_medium.jpg&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Martech工具 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Martech之父 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;企業該買Martech工具還是自建？Martech之父這樣看&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;行銷科技之父Scott Brinker在自己的部落格中探討，企業應購買現成的Martech工具還是要自行開發？他指出，企業不應該從零開始建立自己的CRM平臺、網頁伺服器或Email發送引擎，因為市面上已經有太多標準化的產品，直接購買現成產品是更經濟的方法，尤其不要低估維運大量軟體的重要性。&lt;/p&gt;
+&lt;p&gt;不過，他認為，在網站的建置上，雖然企業不應該浪費時間和金錢，來建立自己的HTTPS協議或快取文件系統，但必須在這些商品化的基礎之上，建構屬於自己的網站，因為其中的資訊架構、內容、功能性的網站與應用程式邏輯，需要隨著企業、顧客需求、競爭的市場多樣性而不斷演變。不只是網站建置，企業也應該充分利用市售平臺與應用程式，可以獲得更立即、基礎性的功能，也能為企業提供特定的流程與體驗。&lt;/p&gt;
+&lt;p&gt;他以一個有趣的比喻來形容，企業採用Martech工具的方式，就像去超市購物，可以在那裡買到已經烹飪好的食品，或是生食與烹飪原料，有了這些食材後，你必須考量到時間、烹飪能力、有利條件與體驗，用一種較佳的方式把他們結合起來，才能得到滿意的結果。（&lt;a href=&quot;https://chiefmartec.com/2021/07/build-buy-martech/&quot; target=&quot;_blank&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/build-or-buy-to-build-and-buy-768x180.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; CMO &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 顧客體驗 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;一份CMO調查報告指出：顧客體驗難提升的最大阻礙，是缺乏科技與資料管理的知識與技能&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在全球提供Martech活動與課程資源的Martech聯盟（Martech Alliance）與CDP供應商Treasure Data，近期發布了2021年顧客體驗（CX）趨勢報告。這份調查以行銷人員對顧客體驗的重視程度，來說明顧客體驗之於企業的重要性。比如其中一項數據顯示，約有78.5%的行銷長認為，提供出色的顧客體驗為企業帶來競爭優勢，只有7.5%不認同這項說法。但儘管大多數行銷長都這麼想，仍有48%企業自評，認為提供的顧客體驗還有改進空間，只有49%自認已經滿足顧客期許。&lt;/p&gt;
+&lt;p&gt;進一步探究企業顧客體驗難以精進的原因，有53%行銷長認為，最大阻礙就是缺乏科技與資料管理的技能與知識，也有43%認為，缺乏所需的行銷科技解決方案是一大挑戰。Martech聯盟指出，這顯示出，越來越多企業仰賴合適的科技，來提升顧客體驗，比如電子商務、內容平臺、顧客數據管理平臺到個人化工具等。（&lt;a href=&quot;https://www.martechalliance.com/stories/what-is-customer-experience-and-why-does-it-matter&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/cmo%20attitudes%20to%20CX.png&quot; style=&quot;width: 599px;&quot; /&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 更多Martech動態 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.Appier首次實現單月營業獲利，這一季AI平臺新支援深度多模型學習（&lt;a class=&quot;notion-link-token notion-enable-hover&quot; data-reactroot=&quot;&quot; data-token-index=&quot;1&quot; href=&quot;https://www.ithome.com.tw/news/146040&quot; rel=&quot;noopener noreferrer&quot; style=&quot;cursor:pointer;color:inherit;word-wrap:break-word;text-decoration:inherit&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;link-annotation-unknown-block-id--601063820&quot; style=&quot;border-bottom:0.05em solid;border-color:rgba(55,53,47,0.4);opacity:0.7&quot;&gt;詳全文&lt;/span&gt;&lt;/a&gt;）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.投放目標式廣告未經用戶同意，Amazon遭判違反GDPR面臨7.46億歐元的罰款（&lt;a class=&quot;notion-link-token notion-enable-hover&quot; data-reactroot=&quot;&quot; data-token-index=&quot;1&quot; href=&quot;https://www.ithome.com.tw/news/145975&quot; rel=&quot;noopener noreferrer&quot; style=&quot;cursor:pointer;color:inherit;word-wrap:break-word;text-decoration:inherit&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;link-annotation-unknown-block-id--601084864&quot; style=&quot;border-bottom:0.05em solid;border-color:rgba(55,53,47,0.4);opacity:0.7&quot;&gt;詳全文&lt;/span&gt;&lt;/a&gt;）&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;責任編輯／翁芊儒&lt;/p&gt;
+&lt;p&gt;圖片來源／Verizon Media、Salesforce、Twitter、Scott Brinker、Martech Alliance&lt;/p&gt;
+&lt;p&gt;資料來源：iThome整理，2021年8月&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 16 Aug 2021 00:52:04 +0000</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="false">146198 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146198#comments</comments>
+</item>
+<item>
+ <title>【玉山AI力關鍵人物：玉山金控科技長張智星】玉山科技長的3大AI核心戰略</title>
+ <link>https://www.ithome.com.tw/news/146182</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;玉山AI應用如何成功遍地開花？&lt;/p&gt;
+&lt;p&gt;靠「AI大腦和IT神經系統」是簡答，背後嚴密的中長期策略規畫才是詳解。玉山金控科技長張智星，就是關鍵領軍人物。這位帶頭跑的指揮官，如何思考玉山AI的發展方向？如何進一步運用玉山科技實力，來發揮AI服務效益？&lt;/p&gt;
+&lt;p&gt;他列出了三項重要原則，來說明玉山AI戰略。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;AI戰略一：深化創新&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;首先是深化創新。「要不斷創新、深化創新，」張智星解釋，不只技術要創新、服務要創新、平臺要創新，還要「第一層次、第二層次和第三層次往下深化創新。」&lt;/p&gt;
+&lt;p&gt;比如，玉山在對客戶服務的自然語言處理（NLP）策略上，就先從文字聊天機器人做起。他們在2017年聯手IBM，共同打造玉山小i隨身金融顧問，來提供外匯諮詢、信用卡推薦和房貸利率評估等三大金融問答服務。&lt;/p&gt;
+&lt;p&gt;這也是玉山第一次大動作將AI嵌入顧客服務，讓使用者透過Line和臉書Messenger就能詢問小i相關問題、得到解答。&lt;/p&gt;
+&lt;p&gt;再來，玉山進一步深化NLP客服應用，透過客服語音分析推動數位導流。他們建立一套NLP模型，來分析每通客服通話、找出顧客問題，並以簡訊發送相關連結和使用教學，來給顧客參考。&lt;/p&gt;
+&lt;p&gt;甚至，玉山還進一步走向語音生成，開發一套語音引擎，讓自動撥號系統能以語音方式提供顧客一次性密碼（OTP）。接下來，他們要以此為基礎，繼續擴展語音服務種類。&lt;/p&gt;
+&lt;p&gt;玉山NLP應用一路走來，先從容易入門的聊天機器人試水溫，再投入NLP技術研究，現在甚至朝NLP中難度更高的自然語言生成（NLG）邁進，在在說明玉山AI深化創新的例子。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;AI戰略二：兼具穩定和韌性&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;玉山科技長的第二個AI戰略目標，是「穩定和韌性」。&lt;/p&gt;
+&lt;p&gt;「金融是受高度監管的單位，因此要確保AI模型的穩定和韌性。」張智星舉例，這次臺灣疫情爆發，全國進入三級警戒，民眾長時間在家、刷卡習慣改變，詐騙手法也跟著更新，進而影響玉山自行開發的信用卡盜刷偵測模型準確度。&lt;/p&gt;
+&lt;p&gt;他甚至用「震撼」來形容疫情對模型的衝擊。「以前，我們從不認為模型會出什麼問題，」張智星表示，信用卡盜刷偵測模型上線後，表現一直很穩定，直到今年疫情爆發、業務單位告知模型效度不如以往後，他與智能金融處團隊立刻著手處理。&lt;/p&gt;
+&lt;p&gt;「這是事先沒預料到的，世界在變化，我們才跟著感受到它的變化。」這次震撼教育，讓玉山意識到大局勢對模型的影響有多大。「若系統抓不到趨勢，就不會穩定，」張智星指出，智金處從這次事件中，了解到有些模型得隨時抓取新資料、重新訓練，再重新上線，以維持準確性。&lt;/p&gt;
+&lt;p&gt;他也舉例，這次疫情加劇，玉山短短幾天湧入大量勞工紓困專案，是去年的十倍。為快速消化這些爆量申請，團隊調整先前開發的RPA和AI，來自動化文件審核流程。&lt;/p&gt;
+&lt;p&gt;但也不是所有模型都得時時更新。以票據手寫辨識模型為例，這個模型的主要任務是辨識支票手寫金額，但手寫風格變化緩慢，再加上玉山開發模型時，就已收集大量、多元的資料來訓練模型，因此只要適時調整即可。&lt;/p&gt;
+&lt;p&gt;張智星也補充，穩定和韌性不只適用於模型，還適用於開發AI用的平臺工具。智金處擁有100多名人力，其中50人負責開發、50人負責維運技術平臺，這個技術平臺，包括了玉山用來開發新模型的AI研發雲，以及將模型串接到業務單位的MLaaS平臺。&lt;/p&gt;
+&lt;p&gt;因為看重穩定和韌性，玉山今年也大力推動MLOps，來加強AI模型上線後的維運管理，比如自動觸發模型重新訓練、重新上下架等。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;AI戰略三：平臺式的落地&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;玉山科技長的第三個AI戰略原則，則是平臺式的落地。&lt;/p&gt;
+&lt;p&gt;「有好的深化創新、穩定和韌性，下一步就是如何落地、找到能發揮的平臺。」張智星這句話的關鍵有兩個，一個是利用平臺開發出穩定的AI模型，另一個是將這些模型落地到業務場景平臺，來維持源源不絕的AI開發和落地，長長久久地進行。&lt;/p&gt;
+&lt;p&gt;在平臺部分，玉山先是建立了AI研發雲和MLaaS平臺兩大工具，來開發、串接AI模型。以AI研發雲來說，它以世界主流的底層開源框架Kubernetes（即K8s）為基礎，再以網頁介面搭配Jupyter Notebook開發環境，來提供給資料科學家使用。&lt;/p&gt;
+&lt;p&gt;AI研發雲開發的模型，經測試穩定後，就會打包、部署到MLaaS平臺，以API呼叫方式，來與業管系統介接。這麼做的優點是，系統與系統間的邊界非常清楚，業務邏輯保留在前端系統，後端模型可自行更新，不必遷就前端系統。&lt;/p&gt;
+&lt;p&gt;有了開發、串接的技術平臺，接下來，就是利用這些AI模型，來精進業務平臺服務，達到智慧化決策目標。比如，他們透過AI審核模型，來加速玉山e速貸平臺的貸款申請流程，最快58秒就能撥出貸款。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;借鏡科技業經驗吸引人才&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;推動金融AI不只要有戰略，「人」也很重要。&lt;/p&gt;
+&lt;p&gt;「我們常比對科技公司，他們怎麼做，我們就思考怎麼做。」張智星舉例，玉山近來開始建立工程師職等，設立不同級別的工程師職稱，比如助理工程師、主任工程師、首席工程師，要讓想踏進金融業的工程師，清楚知道未來在玉山的職涯發展。他們希望透過這個方式，來吸引更多人才。&lt;/p&gt;
+&lt;p&gt;此外，就連工程師的辦公型態，也是玉山考量的新方向。因為，疫情爆發時，智金處八成人員居家辦公，證明了不必到辦公室，也能執行任務。&lt;/p&gt;
+&lt;p&gt;這讓他們思考，疫情結束後是否該保留居家辦公這個工作型態。「因為，許多科技公司都採虛擬辦公，不需實體辦公室，」張智星分析，虛擬辦公不僅省下辦公室成本，還有機會招募到不同國家的人才，「這正是我們在討論的議題。」&lt;/p&gt;
+&lt;p&gt;不只工作職稱和型態參考科技業經驗，玉山還有一點，也借鏡了科技界作法。近年來，玉山積極與頂尖學術機構辦理產學合作，先後與交大、臺大、中研院等機構，共同設置玉山AI研究中心，來探索前瞻技術應用潛力。&lt;/p&gt;
+&lt;p&gt;這是因為，「學校能把最新技術源源不斷帶進產業，甚至是人才，讓技術發展更完整，」他說。&lt;/p&gt;
+&lt;p&gt;不可否認，科技是推動玉山創新的一大關鍵。「玉山銀行、玉山金控，乾脆稱玉山科技好了，因為科技占了玉山很大一部分，」他形容，科技是玉山的觔斗雲，讓玉山跑得更快、飛得更遠。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;&lt;span style=&quot;font-size:36px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 玉山科技長：臺灣要發展AI國力 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;玉山AI應用遍地開花，開源模型扮演關鍵角色。玉山金控科技長張智星指出，玉山關注的AI技術很廣，舉凡自然語言處理（NLP）、語音合成、影像辨識、生物認證、聲紋辨識、活體偵測等，都在研究範圍內。通常，他們會採用現有的開源預訓練模型，再用自家資料來微調，將模型調整為適合玉山場景的AI系統。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;比如，他們會用Google三年前開源的經典NLP預訓練模型BERT，來微調成能揪出反洗錢黑名單的AI幫手。「這類NLP開源模型準確度很高，只需微調一點就行，」他說。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;甚至如BERT、Transformer這類開源NLP模型，在玉山內部已運用得滿坑滿谷了。正因如此，張智星深刻體會到，AI代表國力，比如Google耗費上千萬美元打造BERT，免費開源給全球社群使用，讓資源不足的使用者，也能使用昂貴的模型，在在彰顯美國AI國力。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;但由OpenAI打造、比BERT還強大的自然語言生成模型GPT-3，就未開源給全球使用者使用。企業若有需求，只能選擇其他次等的開源模型。對玉山來說，為進一步探索比開源模型更深入的突破性技術，他們得積極與學術機構合作，找出有潛力的前瞻性技術、打造金融新服務。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;因此，他也悟出：「臺灣不能只等別的國家開源模型，也要有能力自行開發。」張智星直言，對臺灣來說，唯一的解方是靠政府發起，以政府的資源和力量，號召臺灣企業、學界投入研發，打造臺灣專屬的大型預訓練模型。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;「至少科技部、國網中心要出來，提供運算資源來讓產學界開發，」他強調：「這種特別時刻，要動員整體國家力量，才會更快與國際接軌。」&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Sun, 15 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146182 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146182#comments</comments>
+</item>
+<item>
+ <title>十年養成玉山AI力，下一步瞄準零接觸金融</title>
+ <link>https://www.ithome.com.tw/news/146179</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;今年5月疫情爆發，政府啟動勞工紓困專案，「短短幾天，玉山就湧入數十萬件申請案件！」玉山銀行董事長黃男州回憶。&lt;/p&gt;
+&lt;p&gt;但在短時間內，玉山就一條鞭消化這些爆量申請，撥出60、70億元貸款，甚至不動用大量人力就能完成。他們靠的是機器人流程自動化（RPA）和AI，自動審核超過80%的申請案件，黃男州驕傲地說：「這就是科技的力量！」在這之中，AI更是一股重要力量。&lt;/p&gt;
+&lt;p&gt;比如2年前，玉山已開始將AI落地到金融服務中。他們自建信用卡盜刷偵測模型，0.1秒就能判斷信用卡是否被冒用，一天用上數十萬次，一年更省下上億元的損失。&lt;/p&gt;
+&lt;p&gt;不只如此，他們也自行開發理財認知偏好推薦AI 模型，能根據客戶承受風險等級和交易紀錄，在7秒內推薦最合適的5檔基金。&lt;/p&gt;
+&lt;p&gt;就連貸款，也高度仰賴AI。玉山利用機器學習打造零人工介入的線上貸款流程，最快58秒就可撥出款項。在風控領域，更用AI加速黑名單掃描、風險評估，甚至是辨識詐騙帳戶，精準度還比傳統人工方法高出40倍。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;玉山AI力不是一夕成軍，而是十年養成&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;玉山AI遍地開花，可不是一夕成就。&lt;/p&gt;
+&lt;p&gt;回到2012年，玉山啟動第三個十年目標，要從服務的玉山、專業的玉山，邁向科技的玉山。那時，原本100多人規模的玉山資訊處，已開始大動作延攬人才，成為玉山千人科技聯隊的濫觴。&lt;/p&gt;
+&lt;p&gt;在技術研究和實作方向上，也開始轉變。2013年，玉山大舉將資料分析成果應用到數位業務，兩年後更成立創新發展中心（IDC），來觀察新技術。&lt;/p&gt;
+&lt;p&gt;那一年，2015年，玉山進一步調整關鍵組織，一方面專注發展新業務領域，一方面將AI技術落地到實務場景中。他們成立數位金融處，設置全臺第一個金融數位長職位，來專攻數位金融服務。數金處瞄準普惠金融、場景金融和智慧金融三大目標，要讓金融如水電便利、走到顧客生活中，還要用AI來優化服務流程。&lt;/p&gt;
+&lt;p&gt;這也是首次，AI罕見地出現在玉山重要業務組織的任務中。數金處誕生後，也成為科技聯隊一員。&lt;/p&gt;
+&lt;p&gt;不只調整組織，玉山在基礎建設上，也往AI靠攏。2016年，玉山開始設計新核心系統、制定4年汰換上線計畫，除了將老舊的程式語言COBOL，汰換為時下熱門的.NET和Java語言之外，更重要的是，將原本大型主機的「大核心」模式，轉換為小核心的微服務架構和開放式平臺。如此一來，玉山就能更快速更迭服務，也更容易共享資料，讓後續的AI模型開發更便利。&lt;/p&gt;
+&lt;p&gt;2017年，玉山進一步著墨新技術研究。他們成立創新實驗室（Innovation Lab），來鑽研AI、區塊鏈、身分辨識、電子支付等前瞻技術，同時下設研發、商轉、顧問和育成四大中心，來鞏固技術人才資源佈局。&lt;/p&gt;
+&lt;p&gt;2018年，迎來了玉山AI力養成的關鍵轉捩點。&lt;/p&gt;
+&lt;p&gt;當時，他們率先全臺成立科技長辦公室，定調金融AI發展藍圖，還終止多個不乏達上千萬元等級的專案，改將資源投注在AI上。那年，玉山開始打造自家機器學習即服務（MLaaS）平臺，成為後來AI落地的關鍵基礎設施之一。&lt;/p&gt;
+&lt;p&gt;但設立科技長辦公室還不夠。2019年，玉山還成立專責單位，將運作十多年的大數據分析團隊CRV，正式轉型為負責開發AI應用的智能金融處，成為內部AI供應商，要將AI融入到玉山各個業務中。&lt;/p&gt;
+&lt;p&gt;這兩個組織，也陸續成為玉山科技聯隊的核心成員，形成科技聯隊資訊處、數金處與智金處的鐵三角架構。至此，玉山AI組織到位、關鍵團隊正式成形，成為「科技的玉山」中一股重要推力。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;神經系統、AI大腦相互分工，下一步瞄準零接觸金融&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;這個科技聯隊規模達上千人。黃男州進一步解析，科技聯隊有四大成員，包括800多人組成的資訊處與信用卡處IT團隊、100多人的數位暨客戶處、100多人的智金處，以及30人的資安處。&lt;/p&gt;
+&lt;p&gt;如果資訊處是玉山的神經系統，負責串起各種業務流程，那麼，智金處就是「玉山的大腦系統。」黃男州比喻，這個AI大腦專門解析大量資料，用機器學習將資料轉化為有益業務的AI系統，優化服務。&lt;/p&gt;
+&lt;p&gt;而玉山之所以敢大力嘗試AI，是因為科技聯隊中，有個扮演「煞車角色」的資安處。這個部門規模雖小，但負責檢核IT應用安全性，成為創新的煞車。黃男州甚至形容：「如果沒有煞車，大家只會慢速前進！」正因為有它，科技聯隊才敢加速，才敢創新，甚至是嘗試AI新技術。&lt;/p&gt;
+&lt;p&gt;不只如此，對玉山AI大腦來說，他們還有顆很重要的強韌「心臟」，也就是去年上線的新核心系統。黃男州指出，開放式新核心平臺主打交易、會計分離，能處理更大量的交易，與一年前相比，交易量成長可達50%，尖峰時段甚至更高。&lt;/p&gt;
+&lt;p&gt;這對AI大腦有著深遠影響。因為，更多的交易量，意味著更多的資料，「大腦也就更聰明。」&lt;/p&gt;
+&lt;p&gt;他甚至直言，核心系統上線後，迎來了AI應用大爆發的寒武紀：在行銷面，AI可以找出顧客下一個最需要的產品、分析顧客生命周期對玉山的整體貢獻，在風控面，AI可以快速掃完幾百份報紙、找出關鍵名詞建立黑名單，也能快速揪出信用卡盜刷交易、即時阻擋。&lt;/p&gt;
+&lt;p&gt;甚至還能優化客服中心，「客服通話一定要真人嗎？人工語音也能回答很多問題，」黃男州還舉例，透過語音轉文字，還能大規模檢驗客服品質、改善客戶服務。&lt;/p&gt;
+&lt;p&gt;不只如此，對他來說，AI還能自動化更多流程，舉凡財富管理、申請貸款、開戶等原本需要人工處理的業務，都包括在內。玉山也預告，零接觸金融是他們下一個發展目標。&lt;/p&gt;
+&lt;p&gt;玉山金控科技長張智星更透露，未來還要以NLP為核心，來發展AI客服，以及其他金融業務的流程自動化；只要主管機關開放，玉山就會用技術力轉化為零接觸金融服務。&lt;/p&gt;
+&lt;p&gt;這些遍地開花的AI應用，不是偶一為之。在各種AI服務落地前，玉山早已大動作重整組織、調整文化，組成100多人的AI開發團隊，來打造專用技術平臺，提供源源不絕的AI活水。接下來，我們將從戰略面、組織面、技術面來剖析玉山AI力。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;font-size:36px;&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; AI如何成為科技玉山的重要力量 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2012年 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;啟動第三個十年目標：科技的玉山&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2013年 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;開始將資料分析成果運用到數位業務&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2015年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;成立創新發展中心（IDC），研究新技術；成立數位金融處，設置全臺第一位金融數位長，瞄準普惠金融、場景金融和智慧金融，要用AI槓桿優化金融服務&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2016年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;開始設計新核心系統架構、擬定4年上線計畫，要從大型主機的「大核心」邁向微服務架構的「小核心」，該架構也讓資料分享更容易&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2017年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;成立創新實驗室（Innovation Lab），研究區塊鏈、AI、身分辨識、電子支付、大數據和AR/VR等六大技術，下設研發、商轉、顧問和育成四大中心，鞏固技術人才資源&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2018年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;鎖定AI，領先全臺金融界成立科技長辦公室、設置科技長，開始建立專屬AI生產技術工具&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2019年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;原有大數據分析團隊CRV轉型為智能金融處，由科技長擔任處長，專門打造AI應用；科技聯隊鐵三角正式成形&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2020年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;新核心系統上線，開放式平臺特性將交易、會計分離，一年後交易量比舊時代成長至少40%至50%，更多資料有益於AI分析&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2021年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;智金處內部改組，強調服務落地及相關法遵風管；至此，玉山AI已在賦能、風控、流程、行銷、服務等5大領域遍地開花&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;資料來源：玉山金控，iThome整理，2021年8月&lt;/span&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Sun, 15 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146179 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146179#comments</comments>
+</item>
+<item>
  <title>甫獲公平會同意，亞太電信與遠傳啟動5G共頻共網服務</title>
  <link>https://www.ithome.com.tw/news/146193</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;上周剛獲得公平會審議通過，亞太電信宣布啟動國內第一個5G共頻共網服務，以遠傳電信的3.5GHz頻段5G網路，對外提供5G服務。&lt;/p&gt;
@@ -54,139 +286,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146192 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146192#comments</comments>
-</item>
-<item>
- <title>臉書也將美國、部份國外員工回公司時程延到2022年1月</title>
- <link>https://www.ithome.com.tw/news/146190</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.cnbc.com/2021/08/12/facebook-delays-return-to-office-until-january-2022-for-us-some-international-employees.html&quot; target=&quot;_blank&quot;&gt;CNBC報導&lt;/a&gt;，因為COVID-19疫情再次燃起，臉書周四再將美國員工以及部份海外員工回公司上班的日期，推遲到明年1月。&lt;/p&gt;
-&lt;p&gt;臉書聲明，資料是公司判斷員工返回公司的決策依據。由於近日健康資料顯示COVID-19 Delta變種的確診案例激增，本公司美國團隊在2022年1月之前，不會被要求返回公司上班，而某些海外國家也可望採行相同作法。臉書表示會持續關注情況，確保所有人安全回公司上班。&lt;/p&gt;
-&lt;p&gt;有鑒於美國COVID-19疫情隨管制放鬆再度復燃，使科技公司放緩公司重回正軌的腳步。&lt;a href=&quot;https://www.ithome.com.tw/news/146066&quot; target=&quot;_blank&quot;&gt;Amazon上個星期&lt;/a&gt;首先宣布允許美國員工在家辦公直到明年1月3日。&lt;a href=&quot;https://www.cnbc.com/2021/07/30/companies-are-already-pushing-their-return-to-office-plans-to-2022.html&quot; target=&quot;_blank&quot;&gt;Lyft也宣布同樣計畫&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;目前微軟、Google都還是維持今年10月回公司辦公的計畫，但也表示會持續關注疫情而調整措施。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 13 Aug 2021 07:15:30 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146190 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146190#comments</comments>
-</item>
-<item>
- <title>英國對臉書併購Giphy一案展開調查，若危害競爭將要求臉書出售Giphy</title>
- <link>https://www.ithome.com.tw/news/146188</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;臉書在去年5月宣布收購GIF圖庫暨分享平臺Giphy，並將Giphy納入Instagram麾下，當時外傳的收購金額為4億美元。然而，&lt;a href=&quot;https://www.gov.uk/government/news/facebook-s-takeover-of-giphy-raises-competition-concerns&quot; target=&quot;_blank&quot;&gt;英國競爭與市場管理局（Competition and Markets Authority，CMA）本周表示&lt;/a&gt;，正在調查臉書與Giphy的合併案是否違反市場競爭，倘若答案是肯定的，可能會要求臉書出售Giphy資產。&lt;/p&gt;
-&lt;p&gt;CMA的考量從臉書家族的市占率、Giphy市占率、Giphy廣告為臉書競爭對手，一直到收購Giphy可能對臉書競爭對手不利的因素著手。&lt;/p&gt;
-&lt;p&gt;根據調查，全球網路使用者在社交平臺上所花費的時間，包括Facebook、WhatsApp與Instagram等臉書家族就囊括了7成，另一方面，Giphy身為全球最大的GIF圖庫，市場上唯一能與Giphy競爭的是Google Tenor。&lt;/p&gt;
-&lt;p&gt;有鑑於使用者愈來愈常於社交平臺上使用GIF，CMA擔心此一收購將限制諸如TikTok、Twitter或Snapchat等臉書競爭對手使用Giphy服務，包括拒絕它們使用，或者是要求競爭對手必須提供用戶資料才能使用等。&lt;/p&gt;
-&lt;p&gt;另一方面，Giphy在美國市場推出的付費廣告服務，亦為臉書陳列式廣告服務的競爭對手，且原本已準備將付費廣告服務擴張到英國市場，但臉書卻在雙方完成交易之後，中止了Giphy在英國的各種付費廣告合作協議，顯示出此一併購案不僅消滅了臉書的潛在競爭，也影響了當地廣告主的選擇。&lt;/p&gt;
-&lt;p&gt;此外，英國一年的陳列式廣告市場規模約為55億英鎊，而光是臉書就占了50%。&lt;/p&gt;
-&lt;p&gt;CMA說，除了英國之外，還有其它市場的競爭監管機構正在調查此一併購案，它們打算進行交流以協助彼此的調查，而判斷該交易是否危害市場競爭的正式報告，預計在今年10月6日出爐。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 13 Aug 2021 06:50:43 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146188 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146188#comments</comments>
-</item>
-<item>
- <title>傳Amazon考慮監視客服員工打字以防止客戶個資外洩</title>
- <link>https://www.ithome.com.tw/news/146187</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;由於客服人員帳密被冒用或被買通洩露客戶個資情形嚴重，電商龍頭Amazon設法防堵。&lt;a href=&quot;https://www.vice.com/en/article/dyvejq/amazon-monitor-employees-keyboard-mouse&quot; target=&quot;_blank&quot;&gt;The Motherboard取得的一份內部文件顯示&lt;/a&gt;，Amazon正在評估導入監控客服人員鍵擊動作的技術，以防止不肖員工或駭客竊取客戶個資的情形。&lt;/p&gt;
-&lt;p&gt;根據媒體取得的內部報告，Amazon正在評估的技術並非鍵盤側錄、蒐集員工輸入內容，而是一種姿勢辨識技術。它是根據員工打字及使用滑鼠的自然動作，產生資料檔，然後持續監控未來使用同帳號的人的打字、滑鼠使用是否為員工本人，或者是用了員工帳號或趁他不在盜用電腦的第三人。&lt;/p&gt;
-&lt;p&gt;這份報告也點出Amazon目前在保護客戶資料的挑戰。這些挑戰包括員工居家上班的資料外洩風險，該公司驗證外部、委外員工身分安全工具不足，以及Amazon營運地點包含腐敗及犯罪行為嚴重的地區。Amazon考慮蒐集員工所有鍵擊動作，並能用於遠端辦公情境，來克服可能的資料竊取行為。&lt;/p&gt;
-&lt;p&gt;這份報告列出了可能的客戶資料外洩情形。其中包括員工在家上班，但其同住室友想看一下名人買了哪些產品，或是員工利用一種50美元的高速鍵擊裝置，可在一小時內竊取數千客戶個資。此外，客服人員也可能被駭客買通出借其帳密或雙因素驗證裝置，使「買主」得以存取客戶紀錄。&lt;/p&gt;
-&lt;p&gt;Amazon文件也引用該公司在特定期間，於全球營運市場發生安全威脅事件的比例，其中印度、菲律賓及美國名列前三。不過報告未說明安全威脅事件所指為何。&lt;/p&gt;
-&lt;p&gt;針對這份報導，Amazon回應維護客戶及員工資料安全與隱私是其最重要任務，該公司拒絕透露使用了什麼技術，但表示會持續尋求新方法來保護客戶個資，同時維持員工隱私。&lt;/p&gt;
-&lt;p&gt;過去一年來Amazon已經發生數起員工勾結外部人士盜取數TB的機密資訊，或竄改平臺上的資料圖利特定賣家，以及&lt;a href=&quot;https://www.ithome.com.tw/news/140802&quot; onclick=&quot;window.open(this.href, &#039;&#039;, &#039;resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no&#039;); return false;&quot;&gt;洩露Amazon上數千名賣家員工或消費者個資&lt;/a&gt;，&lt;a href=&quot;https://www.ithome.com.tw/news/140116&quot; target=&quot;_blank&quot;&gt;而遭到Amazon解僱及起訴&lt;/a&gt;。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 13 Aug 2021 06:40:55 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146187 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146187#comments</comments>
-</item>
-<item>
- <title>明日起GitHub的Git操作將無法再採用密碼認證</title>
- <link>https://www.ithome.com.tw/news/146185</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2021-08-12-git-password-authentication-is-shutting-down/&quot; target=&quot;_blank&quot;&gt;GitHub周四（8/12）警告&lt;/a&gt;，從太平洋標準時間（PST）8月13日早上9點（臺北時間8月14日凌晨1點）起，GitHub.com將不再接受以帳號/密碼進行身分驗證的方式來執行Git操作，而是必須採用基於權杖（Tokens）的身分驗證方式才行。&lt;/p&gt;
-&lt;p&gt;其實&lt;a href=&quot;https://www.ithome.com.tw/news/141715&quot; target=&quot;_blank&quot;&gt;GitHub自去年底就發布了此一訊息&lt;/a&gt;，目的是為了保護該站用戶的帳號安全，並鼓勵使用者透過個人存取權杖、OAuth、SSH Key或GitHub App等方式進行身分驗證。&lt;/p&gt;
-&lt;p&gt;為了協助使用者適應此一變更，GitHub早在今年的6月與7月各執行兩次的演習，暫時關閉對密碼驗證的支援，以密碼執行的Git操作也會失效。&lt;/p&gt;
-&lt;p&gt;GitHub指出，相較於密碼，權杖具備許多安全優勢，包括它是個單次、獨一無二且專為GitHub產生的，還可隨時個別撤銷且不必更新憑證，還能縮小可存取的範圍，並能預防諸如字典攻擊或暴力破解等型態的攻擊行動。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 13 Aug 2021 06:26:09 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146185 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146185#comments</comments>
-</item>
-<item>
- <title>愈來愈多網釣連結濫用Google開放重定向功能</title>
- <link>https://www.ithome.com.tw/news/146184</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.greathorn.com/blog/google-and-open-redirects-preventing-your-users-from-becoming-a-victim-of-attacks/&quot; target=&quot;_blank&quot;&gt;安全廠商Greathorn發現&lt;/a&gt;，近日有愈來有多網釣攻擊者利用Google Meet和Google DoubleClick的開放重定向（open redirect）功能，將用戶導向惡意網站騙取帳密。&lt;/p&gt;
-&lt;p&gt;Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet和Google DoubleClick中的開放重定向功能的網釣攻擊成長了84%。&lt;/p&gt;
-&lt;p&gt;開放重定向是一項功能，也可說是一項漏洞。合法網域，像是Google允許使用者輸入並指定URL目的地為何，而將使用者導向任何協力網站、包括惡意網站。開放重定向功能也常被用在網釣攻擊，以騙取用戶的帳號及密碼。&lt;/p&gt;
-&lt;p&gt;DoubleClick是Google 2007年收購的老牌廣告聯盟技術，但從2008年就被發現重定向的安全隱憂，但是迄今尚未解決。2014年的惡意廣告攻擊就是利用doubleclick.net廣告聯盟網路所為。在開放重定向攻擊中，只要參數中加入目的地URL即可；在DoubleClick中用的是參數是「adurl=」，攻擊者甚至無需DoubleClick帳號即可設定開放重定向。&lt;/p&gt;
-&lt;p&gt;而Google Meet則在COVID-19疫情下，成為新興的惡意連結散布管道。拜去年的疫情所賜，遠距辦公及虛擬會議需求大增，Google Meet每日與會者超過1億，但也成為犯罪者的工具。在Google Meet傳送的URL使用「linkredirect?」即可發動開放重定向攻擊。&lt;/p&gt;
-&lt;p&gt;根據Greathorn估計，今年1到2季之間，利用Google Meet傳送的惡意連結量成長57%，而利用DoubleClick平臺傳送的惡意連結更大增141%。&lt;/p&gt;
-&lt;p&gt;為防止Google二項服務成為網釣攻擊管道，安全廠商建議搞清楚其電子郵件安全平臺是怎麼分析網域權重（Domain Authority）及目的地網站，以防用戶受到開放重定向攻擊。同時也應設定限定自家合法網域的URL重定向。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 13 Aug 2021 05:58:56 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146184 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146184#comments</comments>
-</item>
-<item>
- <title>釣魚郵件攻擊出現新手法，駭客採用摩斯編碼、ASCII等多種編碼來混淆附件內容</title>
- <link>https://www.ithome.com.tw/news/146181</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;攻擊者為了避免釣魚郵件遭到攔截，附件檔案很可能會利用較為少見的檔案格式，來挾帶作案工具，例如，&lt;a href=&quot;https://www.ithome.com.tw/news/145659&quot;&gt;光碟映象檔（ISO、IMG）&lt;/a&gt;，甚至是&lt;a href=&quot;https://www.ithome.com.tw/news/145336&quot;&gt;Windows映象檔格式（WIM）&lt;/a&gt;等，這些檔案格式對於部分郵件防護系統而言，無法解讀其中的內容，沒辦法得知是否有害。但最近也有攻擊者改變策略，使用一般郵件可能會出現的附件檔案類型，來挾帶含有攻擊意圖的工具，避免上述附件的檔案格式可能會被網管人員列為黑名單封鎖的情況。&lt;/p&gt;
-&lt;p&gt;最近&lt;a href=&quot;https://www.microsoft.com/security/blog/2021/08/12/attackers-use-morse-code-other-encryption-methods-in-evasive-phishing-campaign/&quot;&gt;微軟揭露一起挾帶HTML檔案的釣魚郵件攻擊&lt;/a&gt;，攻擊者以寄送發票為幌子，目的是要偷取使用者Office 365的帳密。這起攻擊行動自2020年7月出現，為期至少一年，而當中較為特別的地方，就是攻擊者藉由Base64、ASCII、Unicode、摩斯編碼，將HTML程式碼混淆，來規避郵件防護系統檢查內容的範圍，而且，攻擊者每隔1到2個月（平均間隔37天），便會調整、改進編碼搭配的方式，使得這類釣魚郵件的附件更難被察覺異狀。&lt;/p&gt;
-&lt;p&gt;值得留意的是，並非整個HTML檔案的程式碼，攻擊者都會採用相同的編碼進行混淆，而是有可能在不同的程式碼片段，利用2至3種編碼。微軟指出，從HTML程式碼的功能來看，大致可區分為4個模組。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Fig3b-anatomy-of-phishing-campaign.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Fig3b-anatomy-of-phishing-campaign.png&quot; style=&quot;width: 580px; height: 291px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;第1個是攻擊目標的電子郵件信箱位址，第2個則是從特定來源網站取得受害者所屬企業的商標，假若來源網站沒有對應的圖片檔案，HTML檔案便會顯示Office 365圖示。&lt;/p&gt;
-&lt;p&gt;接著，第3與第4個模組皆為JavaScript程式碼，但功能不同：第3與模組的用途，是載入看起來很模糊的Excel文件畫面，並顯示使用者登入Office 365逾時，需要重新登入。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Fig2-sample-credentials-dialog-box.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Fig2-sample-credentials-dialog-box.png&quot; style=&quot;width: 580px; height: 262px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;至於第4個模組的用途，則是會顯示假的Office 365登入介面，一旦使用者上當輸入帳密，這組程式碼便會將帳號資料回傳，並顯示輸入密碼錯誤的訊息。&lt;/p&gt;
-&lt;p&gt;從微軟彙整出的混淆手法演進過程而言，駭客迄今已經更換了10次混淆手法。例如，以攻擊初期（2020年7月）而言，駭客尚未採用混淆手法，HTML檔案的內容，皆是一般明文的HTML程式碼；而到了2020年8月下旬至10月的攻擊行動中，攻擊者開始針對企業商標的圖片，以及釣魚工具套件的來源網域，採用Escape編碼機制來進行混淆處理，其餘部分仍是使用明文的HTML程式碼。&lt;/p&gt;
-&lt;p&gt;在這些混淆手法的演進過程中，攻擊者混合了多種演算法來處理附件的HTML檔案，像是Base64、ASCII、Unicode編碼，以及摩斯編碼等，甚至還有部分模組透過二次編碼處理的情況，混淆手法可說是相當複雜。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Fig4c-timeline.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Fig4c-timeline.png&quot; style=&quot;width: 580px; height: 333px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;微軟指出，這樣的HTML檔案，各部分程式碼看起來都是無害的，只有在經過解密且組合在一起的時候，才會顯現攻擊意圖，因此，許多郵件防護系統可能難以偵測出異常。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 13 Aug 2021 04:49:05 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146181 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146181#comments</comments>
-</item>
-<item>
- <title>Fintech周報第193期：台新銀行與新創業者合作開發，為外籍移工推出ATM跨境匯款代收服務</title>
- <link>https://www.ithome.com.tw/news/146180</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3 style=&quot;vertical-align: top; margin: 10px 0px; font-family: 微軟正黑體, sans-serif; font-weight: bold; line-height: 1.25em; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; color: inherit; font-size: 18px;&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; color: rgb(0, 0, 205);&quot;&gt;0807～0813&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 台新銀行 &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; Q Pay &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 外籍移工匯款 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;台新銀行與新創業者合作開發，為外籍移工推出ATM跨境匯款代收服務&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;依據勞動部5月底的統計資料顯示，全臺有超過71萬名外籍移工在臺工作，每年外籍移工匯回家鄉的薪資總額達30億美元。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;不過，台新銀行表示，移工們時常受限於工作時間和語言隔閡，導致無法在營業時間到銀行順利辦理交易，往往是以地下匯兌的方式進行交易，除了有被收取較高的匯款手續費，以及較差的匯率條件風險之外，更有不確定如期全額到帳的風險存在。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;鎖定外籍移工匯款商機，台新銀行近期與新創業者共同開發，推出ATM跨境匯款代收服務，同時，台新銀行ATM支援英文、印尼文、泰文、越南文等移工較常使用的7國語系，讓移工不受時間限制，使用跨境匯款代收服務，乃國內銀行業首創。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; BBVA &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 螞蟻集團 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 區塊鏈 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;BBVA將金融服務整合到螞蟻集團的全球貿易區塊鏈平臺Trusple&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%962_%20BBVA_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_%20BBVA.png&quot; /&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;西班牙外換銀行BBVA與阿里巴巴旗下螞蟻集團已簽署協議，將BBVA的跨境支付與融資服務，整合到螞蟻集團的全球貿易區塊鏈平臺Trusple上。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;Trusple平臺在去年9月推出，是螞蟻集團以自行開發的螞蟻鏈為基礎，建構的數位化國際貿易與金融服務平臺，主要服務對象為中小型企業，提供一站式進出口貿易服務，從查看供應商的資料、起草訂單、約定支付條件、自動付款與發貨保障、貿易金融服務到交易結束。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;目前，全球已有10多家金融機構加入該平臺，包括法國巴黎銀行（BNP Paribas）、花旗銀行（Citibank）、星展銀行（DBS）、德意志銀行（Deutsche Bank ）、阿聯酋杜拜國家銀行（Emirates NBD）、泰國大城銀行、瑞穗銀行（Mizuho Bank）、三菱日聯銀行（MUFG Bank）、華僑銀行（OCBC Bank）、渣打銀行（Standard Chartered）。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;BBVA表示，服務將由BBVA墨西哥與BBVA西班牙提供，以便從中國進口貨物的墨西哥與西班牙進口商，可以在Trusple平臺支付營運費用，不用再使用外部服務。此系統透過使用智能合約，當進口商與出口商達到合約中所設定的條件時，便能自動執行交易。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;BBVA預計，首批試點系統將在2022年初推出，將為從中國進口貨物的西班牙與墨西哥的中小企業顧客提供服務。&lt;a href=&quot;https://www.bbva.com/en/bbva-to-offer-payment-and-financing-services-on-trusple-ant-groups-blockchain-platform-for-global-trade/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 台灣人壽 &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 大數據分析 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;台灣人壽集結百人專案團隊全面改版官網，用大數據分析增添多項新功能&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;近期，台灣人壽宣布推出改版後的新官網，由內部近百名通路、服務、行銷、資訊等人員所組成的專案團隊共同打造，主要在UI/UX全面再造操作流程與使用介面，並應用大數據分析與快速篩選功能，針對商品特色與給付項目設計易懂圖樣，讓用戶可快速了解產品特性，並找到想要的產品。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;同時，改版後的官網也歸出最適產品推薦的功能，用戶在填寫簡單的問題後，系統會依照個人化人生階段或目標，結合台灣人壽大數據團隊建議，推薦所需商品組合並提供給付項目比較。此外，為了提供投資型保單理想投資標的資訊平臺，台灣人壽官網也新增了強化設置標的查詢功能，提供市場警訊及最新趨勢。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 視訊輔助平臺 &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 集保結算所 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;集保結算所上線視訊輔助股東會平臺，投資人可透過3項管道視訊參與股東會&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%963_%E8%A6%96%E8%A8%8A%E8%BC%94%E5%8A%A9%E5%B9%B3%E8%87%BA_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_%E8%87%BA%E7%81%A3%E9%9B%86%E4%B8%AD%E4%BF%9D%E7%AE%A1%E7%B5%90%E7%AE%97%E6%89%80.jpg&quot; /&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;因應疫情，金管會在今年6月底宣布，所有公開發行公司在8月16日到31日這段時間，除了可召開實體股東會外，符合一定條件的公開發行公司，可採取實體股東會並以視訊輔助，並委由臺灣集中保管結算所建置視訊輔助股東會平臺。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;該平臺近期已正式上線，集保結算所總經理朱漢強表示，視訊輔助股東會平臺是國內首次推動的新制度，截至7月底，已有十幾家發行公司申請使用，這些發行公司尚未電子投票或交付委託書的股東，在股東會4天前完成登記後，股東會當日便能使用視訊方式參與股東會。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;集保結算所表示，投資人可以透過3項管道登記並以視訊方式參與股東會，分別是使用手機，透過集保e手掌握App或券商下單App，導入股東e票通平臺；或使用電腦以自然人憑證、工商憑證或TW FidO行動識別等認證方式登入股東e票通平臺。&lt;a href=&quot;https://www.tdcc.com.tw/portal/zh/news/content/402897957a8b50db017b1ad861090040&quot;&gt;（詳全文）&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 國泰世華銀行 &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 點數經濟 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;國泰世華銀行信用卡紅利點數已全數轉換為區塊鏈平臺小樹點，要作為經營顧客的工具&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%964_%E5%9C%8B%E6%B3%B0%E4%B8%96%E8%8F%AF_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_%E5%9C%8B%E6%B3%B0%E4%B8%96%E8%8F%AF%E9%8A%80%E8%A1%8C.jpeg&quot; /&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;近期，國泰世華銀行將所有信用卡紅利點數，低調改用區塊鏈平臺小樹點。國泰世華銀行資深副總經理鄭有欽提到，國泰世華銀行在今年6月底，已將過往信用卡消費所回饋的紅利點數正式更名為「小樹點」，並進行換匯，讓小樹點1點等同於新臺幣1元，作為經營顧客的工具。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;現在，國泰世華信用卡用戶在每次刷卡後，可立即透過網銀App等多個數位平臺，以消費累積回饋的小樹點折抵該筆消費金額，不必等到每月帳單結算時才能折抵。另外，該行表示，信用卡消費所回饋的小樹點，也能夠在國泰優惠App上兌換各式商品，進一步放大回饋點數的應用價值。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 永豐銀行 &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 校園金融 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 成功大學 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;成大自動繳費機導入永豐銀行動支付服務，2萬名學生可用掃碼支付學雜費&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%965_%E6%B0%B8%E8%B1%90%E9%8A%80%E8%A1%8C_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_%E6%B0%B8%E8%B1%90%E9%8A%80%E8%A1%8C.jpeg&quot; /&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;永豐銀行與成功大學自去年開始，啟動第二階段產學合作，雙方共同推動校園未來金融實驗專案。近期，成大自動繳費機導入永豐行動支付服務正式上線，讓成大2萬多名學生在繳交學雜費或其他行政規費時，不用帶大筆現金，只要掃一下自動繳費機的QR Code，就能以任一銀行支援行動支付綁定的信用卡、簽帳金融卡或Samsung Pay、Apple Pay、Google Pay這3大行動支付完成繳費。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;配合2023年起《民法》成年定義下修至18歲，到時候大學生可自主開戶或辦理信用卡。永豐銀行與成大未來金融實驗團隊，花費3個月時間，進行學生體驗統整、實際場域訪查後，在今年7月底在自動繳費機導入永豐行動支付服務，可繳納學雜費、成績單、學位相關證明文件或補發識別證等規費、宿舍電費、行政費及臨時停車費等，同時，減少校方日終現金清點與對帳程序。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;永豐銀行透露，下一階段將與成大計算機與網路中心合作，開發線上繳費平臺，透過API應用串接金流與校內資訊流，預計今年9月上旬正式上線。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;font-size: 14pt; vertical-align: top;&quot;&gt;圖片來源／&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;BBVA&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;臺灣集中保管結算所&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;國泰世華銀行&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;永豐銀行&lt;/span&gt;&lt;br /&gt;
-責任編輯／李靜宜&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 金融科技近期新聞 &lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong style=&quot;font-size: 14pt; vertical-align: top;&quot;&gt;1&lt;/strong&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;. &lt;/strong&gt;&lt;strong&gt;中國信託銀行上線「股利e通知」服務，422家發行公司每年1千萬封股利紙本通知書可全面數位化&lt;/strong&gt;&lt;br /&gt;&lt;strong style=&quot;font-size: 14pt; vertical-align: top;&quot;&gt;資料來源：iThome整理，2021年8月&lt;/strong&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 13 Aug 2021 04:41:54 +0000</pubDate>
- <dc:creator>李靜宜</dc:creator>
- <guid isPermaLink="false">146180 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146180#comments</comments>
 </item>
 </channel>
 </rss>

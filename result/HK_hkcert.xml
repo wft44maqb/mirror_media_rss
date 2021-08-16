@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Mon, 16 Aug 2021 02:14:05 +0800</pubDate>
-		<lastBuildDate>Mon, 16 Aug 2021 02:14:05 +0800</lastBuildDate>
+		<pubDate>Mon, 16 Aug 2021 14:17:37 +0800</pubDate>
+		<lastBuildDate>Mon, 16 Aug 2021 14:17:37 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,6 +15,122 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>NetApp 產品資料篡改漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/netapp-products-data-manipulation-vulnerability_20210816</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/netapp-products-data-manipulation-vulnerability_20210816</guid>
+			<pubDate>Mon, 16 Aug 2021 09:15:00 +0800</pubDate>
+			<description><![CDATA[  於 NetApp Products 發現一個漏洞，遠端使用者可利用此漏洞，於目標系統觸發洩露敏感資料及資料篡改。
+			  <p>影響</p>
+			  <ul>
+			          <li>資料洩露</li>
+			          <li>篡改</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Active IQ Unified Manager for Linux</li>
+				<li>Active IQ Unified Manager for Microsoft Windows</li>
+				<li>E-Series SANtricity OS Controller Software 11.x</li>
+				<li>E-Series SANtricity Web Services (REST API) for Web Services Proxy</li>
+				<li>Element Plug-in for vCenter Server</li>
+				<li>NetApp SANtricity Cloud Connector</li>
+				<li>Snap Creator Framework</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<ul>
+				<li>安裝供應商提供的修補程式，詳情請參閱以下連結：<br />
+				<a href="https://security.netapp.com/advisory/ntap-20210813-0003/" target="_blank">https://security.netapp.com/advisory/ntap-20210813-0003/</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Microsoft Windows 遠端執行程式碼漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/microsoft-windows-remote-code-execution-vulnerability_20210816</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/microsoft-windows-remote-code-execution-vulnerability_20210816</guid>
+			<pubDate>Mon, 16 Aug 2021 09:10:00 +0800</pubDate>
+			<description><![CDATA[  於 Microsoft Windows 發現一個漏洞，遠端使用者可利用此漏洞，於目標系統觸發遠端執行任意程式碼。
+			  <p>影響</p>
+			  <ul>
+			          <li>遠端執行程式碼</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Windows Print Spooler</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p>注意：</p>
+			
+			<ul>
+				<li>暫無可用的修補程式</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p><strong>對於以上提及的受影響系統，請執行以下臨時處理方法：</strong></p>
+			
+			<ul>
+				<li>停用 Print Spooler service</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p><strong>臨時處理方法影響：</strong>停止和禁用 Print Spooler service 會禁用打印功能(包括遠端)。詳情請參閱以下連結：</p>
+			
+			<ul>
+				<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36958" target="_blank">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36958</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Linux 內核多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210816</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210816</guid>
+			<pubDate>Mon, 16 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Linux 內核發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、權限提升、洩露敏感資料、...
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			          <li>權限提升</li>
+			          <li>資料洩露</li>
+			          <li>篡改</li>
+			          <li>繞過保安限制</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>SUSE MicroOS 5.0</li>
+				<li>SUSE Linux Enterprise Module for Realtime 15-SP2</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式：</p>
+			
+			<ul>
+				<li><a href="https://www.suse.com/support/update/announcement/2021/suse-su-20212678-1/" target="_blank">https://www.suse.com/support/update/announcement/2021/suse-su-20212678-1/</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
 		<item>
 			<title>Node.js 多個漏洞</title>
 			<link>https://www.hkcert.org/tc/security-bulletin/node-js-multiple-vulnerabilities_20210813</link>
@@ -634,118 +750,6 @@
 			
 			<ul>
 				<li>更新至 92.0.4515.131 版本</li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>Node.js 遠端執行程式碼漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/node-js-remote-code-execution-vulnerability_20210802</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/node-js-remote-code-execution-vulnerability_20210802</guid>
-			<pubDate>Mon, 02 Aug 2021 09:10:00 +0800</pubDate>
-			<description><![CDATA[  於 Node.js 發現一個漏洞，遠端使用者可利用此漏洞，於目標系統觸發阻斷服務狀況及遠端執行任意程式碼。
-			  <p>影響</p>
-			  <ul>
-			          <li>阻斷服務</li>
-			          <li>遠端執行程式碼</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>Node.js 16.x, 14.x, 和 12.x 版本</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<ul>
-				<li>安裝軟件供應商提供的修補程式：<br />
-				<a href="https://nodejs.org/en/blog/vulnerability/july-2021-security-releases-2/" target="_blank">https://nodejs.org/en/blog/vulnerability/july-2021-security-releases-2/</a></li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>Linux 內核多個漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210802</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210802</guid>
-			<pubDate>Mon, 02 Aug 2021 09:05:00 +0800</pubDate>
-			<description><![CDATA[  於 Linux 內核發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、權限提升及資料篡改。
-			  <p>影響</p>
-			  <ul>
-			          <li>阻斷服務</li>
-			          <li>權限提升</li>
-			          <li>篡改</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>SUSE Linux Enterprise Module for Live Patching 15-SP1</li>
-				<li>SUSE Linux Enterprise Module for Live Patching 15-SP3</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<p>&nbsp;</p>
-			
-			<ul>
-				<li>安裝供應商提供的修補程式：
-				<p><a href="https://www.suse.com/support/update/announcement/2021/suse-su-20212559-1/" target="_blank">https://www.suse.com/support/update/announcement/2021/suse-su-20212559-1/</a><br />
-				<a href="https://www.suse.com/support/update/announcement/2021/suse-su-20212560-1/" target="_blank">https://www.suse.com/support/update/announcement/2021/suse-su-20212560-1/</a></p>
-				</li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>Linux 內核多個漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210727</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210727</guid>
-			<pubDate>Tue, 27 Jul 2021 09:05:00 +0800</pubDate>
-			<description><![CDATA[  於 Linux 內核發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況及遠端執行任意程式碼。
-			
-			 
-			
-			[更新...
-			  <p>影響</p>
-			  <ul>
-			          <li>阻斷服務</li>
-			          <li>遠端執行程式碼</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>SUSE Linux Enterprise Live Patching 12-SP4</li>
-				<li>SUSE Linux Enterprise Live Patching 12-SP5</li>
-				<li>SUSE Linux Enterprise Module for Live Patching 15</li>
-				<li>SUSE Linux Enterprise Module for Live Patching 15-SP1</li>
-				<li>SUSE Linux Enterprise Module for Live Patching 15-SP2</li>
-				<li>SUSE Linux Enterprise Module for Live Patching 15-SP3</li>
-				<li>SUSE Linux Enterprise Server 12-SP3-LTSS</li>
-				<li>SUSE Linux Enterprise Server for SAP 12-SP3</li>
-				<li>Ubuntu 14.04 ESM</li>
-				<li>Ubuntu 16.04 ESM</li>
-				<li>Ubuntu 18.04 LTS</li>
-				<li>Ubuntu 20.04 LTS</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<ul>
-				<li>安裝供應商提供的修補程式：<br />
-				<br />
-				詳情請參閱以下連結:<br />
-				<a href="https://www.suse.com/support/update/announcement/2021/suse-su-20212487-1/" target="_blank">https://www.suse.com/support/update/announcement/2021/suse-su-20212487-1/</a><br />
-				<a href="https://www.suse.com/support/update/announcement/2021/suse-su-20212538-1/" target="_blank">https://www.suse.com/support/update/announcement/2021/suse-su-20212538-1/</a><br />
-				<a href="https://ubuntu.com/security/notices/LSN-0079-1" target="_blank">https://ubuntu.com/security/notices/LSN-0079-1</a></li>
 			</ul>
 			
 			  <hr>
