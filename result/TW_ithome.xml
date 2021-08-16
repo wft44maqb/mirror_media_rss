@@ -6,6 +6,22 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Google改善視覺化工具方便Compute Engine使用者除錯</title>
+ <link>https://www.ithome.com.tw/news/146222</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google推出強化上下文（In-Context）的UI工具集，供用戶更快速地對Compute Engine進行除錯，藉由各種指標、圖表和視覺化功能，能夠助用戶分析指標和網路變化，並且找出適合的磁碟大小，甚至是調整和測量記憶體效能等。&lt;/p&gt;
+&lt;p&gt;Google提到，要對虛擬機器在生產環境進行除錯，過程可能很複雜，因為不只需要多個基礎設施的資料點和訊號，還需要來自應用程式的指標。所以當用戶遭遇延遲、停機和錯誤等情況時，便需要在不同的工具和UI間切換，來探索造成問題的根本原因，但這個過程可能拖慢除錯速度。&lt;/p&gt;
+&lt;p&gt;過去Google在Compute Engine控制臺提供一組進階指標，來簡化虛擬機器除錯，雖然如此，用戶仍需要在不同工具之間切換查看，才能對問題進行根本原因分析，官方舉例，當CPU使用率在特定時間到達峰值，這可能是一個有用的分析起點，但是要解決問題，就必須要深入了解造成該問題的原因，而這會需要與程序相關的許多資料和訊號。&lt;/p&gt;
+&lt;p&gt;為了解決這個問題，Google在Compute Engine頁面添加了指標、圖表和各種新的視覺化功能，其中部分新增的功能，則是來自Google雲端Ops代理所產生的深度指標，而Ops代理能夠透過Terraform、Puppet、Ansible和安裝腳本簡單地安裝。由Ops代理所提供的新圖表，包括來自作業系統報告的CPU使用率、記憶體使用率，和由用戶造成的記憶體故障，還能顯示像是核心、磁碟快取、I/O延遲和程序指標等資訊。&lt;/p&gt;
+&lt;p&gt;雖然難以提供單一故障排除流程，一次滿足所有場景需求，但Google表示，這套經強化的可觀察性工具，能夠讓用戶更直覺迅速地處理多種場景。像是當用戶從指標和日誌辨識出網路變化，無論是意外的網路流量增加、網路資料封包大小或是網路連接的峰值，用戶可以藉由日誌工具，來快速過濾並找到關鍵的日誌紀錄，並且利用日誌資源管理器中的深度連結，在Compute Engine和Cloud Logging服務之間快速無縫切換瀏覽。&lt;/p&gt;
+&lt;p&gt;另外，用戶也能夠從磁碟監控工具中，發現在高負載的情況下，例如當每秒IOPS峰值（Peak 1-second IOPS）圖表上的數值線段呈現水平，則可能代表磁碟效能受限制，如果此時I/O延遲平均也相對應的增加，就能夠確定I/O遭到限制，根據這些資訊，用戶可找出負責大部分IOPS的磁碟類型，並且增加磁碟容量，來提高儲存效能限制。&lt;/p&gt;
+&lt;p&gt;新的UI工具集也能用來測量和調整記憶體效能，Google提到，大多數虛擬機器系列都需要Ops代理來收集記憶體使用率，透過檢查Top程序的記憶體使用，開發人員就能偵測記憶體洩漏，進行重新分配或是終止違規程序。營運人員也能夠藉由按分類檢視記憶體細節，來發現應用程式使用記憶體的狀況，選擇更適合的虛擬機器類型。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 16 Aug 2021 08:38:27 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146222 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146222#comments</comments>
+</item>
+<item>
  <title>Google及臉書參與連結新加坡、日本與臺灣的Apricot海底電纜建置</title>
  <link>https://www.ithome.com.tw/news/146223</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google及臉書在本周宣布，將參與新的Apricot海底電纜建置，Apricot將連結新加坡、日本、關島、菲律賓、臺灣與印尼，全長1.2萬公里，預計於2024年啟用。&lt;/p&gt;
@@ -194,55 +210,6 @@
  <dc:creator>翁芊儒</dc:creator>
  <guid isPermaLink="false">146198 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146198#comments</comments>
-</item>
-<item>
- <title>【玉山AI力關鍵人物：玉山金控科技長張智星】玉山科技長的3大AI核心戰略</title>
- <link>https://www.ithome.com.tw/news/146182</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;玉山AI應用如何成功遍地開花？&lt;/p&gt;
-&lt;p&gt;靠「AI大腦和IT神經系統」是簡答，背後嚴密的中長期策略規畫才是詳解。玉山金控科技長張智星，就是關鍵領軍人物。這位帶頭跑的指揮官，如何思考玉山AI的發展方向？如何進一步運用玉山科技實力，來發揮AI服務效益？&lt;/p&gt;
-&lt;p&gt;他列出了三項重要原則，來說明玉山AI戰略。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;AI戰略一：深化創新&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;首先是深化創新。「要不斷創新、深化創新，」張智星解釋，不只技術要創新、服務要創新、平臺要創新，還要「第一層次、第二層次和第三層次往下深化創新。」&lt;/p&gt;
-&lt;p&gt;比如，玉山在對客戶服務的自然語言處理（NLP）策略上，就先從文字聊天機器人做起。他們在2017年聯手IBM，共同打造玉山小i隨身金融顧問，來提供外匯諮詢、信用卡推薦和房貸利率評估等三大金融問答服務。&lt;/p&gt;
-&lt;p&gt;這也是玉山第一次大動作將AI嵌入顧客服務，讓使用者透過Line和臉書Messenger就能詢問小i相關問題、得到解答。&lt;/p&gt;
-&lt;p&gt;再來，玉山進一步深化NLP客服應用，透過客服語音分析推動數位導流。他們建立一套NLP模型，來分析每通客服通話、找出顧客問題，並以簡訊發送相關連結和使用教學，來給顧客參考。&lt;/p&gt;
-&lt;p&gt;甚至，玉山還進一步走向語音生成，開發一套語音引擎，讓自動撥號系統能以語音方式提供顧客一次性密碼（OTP）。接下來，他們要以此為基礎，繼續擴展語音服務種類。&lt;/p&gt;
-&lt;p&gt;玉山NLP應用一路走來，先從容易入門的聊天機器人試水溫，再投入NLP技術研究，現在甚至朝NLP中難度更高的自然語言生成（NLG）邁進，在在說明玉山AI深化創新的例子。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;AI戰略二：兼具穩定和韌性&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;玉山科技長的第二個AI戰略目標，是「穩定和韌性」。&lt;/p&gt;
-&lt;p&gt;「金融是受高度監管的單位，因此要確保AI模型的穩定和韌性。」張智星舉例，這次臺灣疫情爆發，全國進入三級警戒，民眾長時間在家、刷卡習慣改變，詐騙手法也跟著更新，進而影響玉山自行開發的信用卡盜刷偵測模型準確度。&lt;/p&gt;
-&lt;p&gt;他甚至用「震撼」來形容疫情對模型的衝擊。「以前，我們從不認為模型會出什麼問題，」張智星表示，信用卡盜刷偵測模型上線後，表現一直很穩定，直到今年疫情爆發、業務單位告知模型效度不如以往後，他與智能金融處團隊立刻著手處理。&lt;/p&gt;
-&lt;p&gt;「這是事先沒預料到的，世界在變化，我們才跟著感受到它的變化。」這次震撼教育，讓玉山意識到大局勢對模型的影響有多大。「若系統抓不到趨勢，就不會穩定，」張智星指出，智金處從這次事件中，了解到有些模型得隨時抓取新資料、重新訓練，再重新上線，以維持準確性。&lt;/p&gt;
-&lt;p&gt;他也舉例，這次疫情加劇，玉山短短幾天湧入大量勞工紓困專案，是去年的十倍。為快速消化這些爆量申請，團隊調整先前開發的RPA和AI，來自動化文件審核流程。&lt;/p&gt;
-&lt;p&gt;但也不是所有模型都得時時更新。以票據手寫辨識模型為例，這個模型的主要任務是辨識支票手寫金額，但手寫風格變化緩慢，再加上玉山開發模型時，就已收集大量、多元的資料來訓練模型，因此只要適時調整即可。&lt;/p&gt;
-&lt;p&gt;張智星也補充，穩定和韌性不只適用於模型，還適用於開發AI用的平臺工具。智金處擁有100多名人力，其中50人負責開發、50人負責維運技術平臺，這個技術平臺，包括了玉山用來開發新模型的AI研發雲，以及將模型串接到業務單位的MLaaS平臺。&lt;/p&gt;
-&lt;p&gt;因為看重穩定和韌性，玉山今年也大力推動MLOps，來加強AI模型上線後的維運管理，比如自動觸發模型重新訓練、重新上下架等。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;AI戰略三：平臺式的落地&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;玉山科技長的第三個AI戰略原則，則是平臺式的落地。&lt;/p&gt;
-&lt;p&gt;「有好的深化創新、穩定和韌性，下一步就是如何落地、找到能發揮的平臺。」張智星這句話的關鍵有兩個，一個是利用平臺開發出穩定的AI模型，另一個是將這些模型落地到業務場景平臺，來維持源源不絕的AI開發和落地，長長久久地進行。&lt;/p&gt;
-&lt;p&gt;在平臺部分，玉山先是建立了AI研發雲和MLaaS平臺兩大工具，來開發、串接AI模型。以AI研發雲來說，它以世界主流的底層開源框架Kubernetes（即K8s）為基礎，再以網頁介面搭配Jupyter Notebook開發環境，來提供給資料科學家使用。&lt;/p&gt;
-&lt;p&gt;AI研發雲開發的模型，經測試穩定後，就會打包、部署到MLaaS平臺，以API呼叫方式，來與業管系統介接。這麼做的優點是，系統與系統間的邊界非常清楚，業務邏輯保留在前端系統，後端模型可自行更新，不必遷就前端系統。&lt;/p&gt;
-&lt;p&gt;有了開發、串接的技術平臺，接下來，就是利用這些AI模型，來精進業務平臺服務，達到智慧化決策目標。比如，他們透過AI審核模型，來加速玉山e速貸平臺的貸款申請流程，最快58秒就能撥出貸款。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;借鏡科技業經驗吸引人才&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;推動金融AI不只要有戰略，「人」也很重要。&lt;/p&gt;
-&lt;p&gt;「我們常比對科技公司，他們怎麼做，我們就思考怎麼做。」張智星舉例，玉山近來開始建立工程師職等，設立不同級別的工程師職稱，比如助理工程師、主任工程師、首席工程師，要讓想踏進金融業的工程師，清楚知道未來在玉山的職涯發展。他們希望透過這個方式，來吸引更多人才。&lt;/p&gt;
-&lt;p&gt;此外，就連工程師的辦公型態，也是玉山考量的新方向。因為，疫情爆發時，智金處八成人員居家辦公，證明了不必到辦公室，也能執行任務。&lt;/p&gt;
-&lt;p&gt;這讓他們思考，疫情結束後是否該保留居家辦公這個工作型態。「因為，許多科技公司都採虛擬辦公，不需實體辦公室，」張智星分析，虛擬辦公不僅省下辦公室成本，還有機會招募到不同國家的人才，「這正是我們在討論的議題。」&lt;/p&gt;
-&lt;p&gt;不只工作職稱和型態參考科技業經驗，玉山還有一點，也借鏡了科技界作法。近年來，玉山積極與頂尖學術機構辦理產學合作，先後與交大、臺大、中研院等機構，共同設置玉山AI研究中心，來探索前瞻技術應用潛力。&lt;/p&gt;
-&lt;p&gt;這是因為，「學校能把最新技術源源不斷帶進產業，甚至是人才，讓技術發展更完整，」他說。&lt;/p&gt;
-&lt;p&gt;不可否認，科技是推動玉山創新的一大關鍵。「玉山銀行、玉山金控，乾脆稱玉山科技好了，因為科技占了玉山很大一部分，」他形容，科技是玉山的觔斗雲，讓玉山跑得更快、飛得更遠。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#ffffff;&quot;&gt;&lt;span style=&quot;font-size:36px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 玉山科技長：臺灣要發展AI國力 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;玉山AI應用遍地開花，開源模型扮演關鍵角色。玉山金控科技長張智星指出，玉山關注的AI技術很廣，舉凡自然語言處理（NLP）、語音合成、影像辨識、生物認證、聲紋辨識、活體偵測等，都在研究範圍內。通常，他們會採用現有的開源預訓練模型，再用自家資料來微調，將模型調整為適合玉山場景的AI系統。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;比如，他們會用Google三年前開源的經典NLP預訓練模型BERT，來微調成能揪出反洗錢黑名單的AI幫手。「這類NLP開源模型準確度很高，只需微調一點就行，」他說。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;甚至如BERT、Transformer這類開源NLP模型，在玉山內部已運用得滿坑滿谷了。正因如此，張智星深刻體會到，AI代表國力，比如Google耗費上千萬美元打造BERT，免費開源給全球社群使用，讓資源不足的使用者，也能使用昂貴的模型，在在彰顯美國AI國力。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;但由OpenAI打造、比BERT還強大的自然語言生成模型GPT-3，就未開源給全球使用者使用。企業若有需求，只能選擇其他次等的開源模型。對玉山來說，為進一步探索比開源模型更深入的突破性技術，他們得積極與學術機構合作，找出有潛力的前瞻性技術、打造金融新服務。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;因此，他也悟出：「臺灣不能只等別的國家開源模型，也要有能力自行開發。」張智星直言，對臺灣來說，唯一的解方是靠政府發起，以政府的資源和力量，號召臺灣企業、學界投入研發，打造臺灣專屬的大型預訓練模型。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;「至少科技部、國網中心要出來，提供運算資源來讓產學界開發，」他強調：「這種特別時刻，要動員整體國家力量，才會更快與國際接軌。」&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Sun, 15 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146182 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146182#comments</comments>
 </item>
 </channel>
 </rss>

@@ -6,6 +6,15 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>Google改善視覺化工具方便Compute Engine使用者除錯</title>
+    <link>https://www.ithome.com.tw/news/146222</link>
+    <description> Google推出強化上下文（In-Context）的UI工具集，供用戶更快速地對Compute Engine進行除錯，藉由各種指標、圖表和視覺化功能，能夠助用戶分析指標和網路變化，並且找出適合的磁碟大小，甚至是調整和測量記憶體效能等。
+Google提到，要對虛擬機器在生產環境進行除錯，過程可能很複雜，因為不只需要多個基礎設施的資料點和訊號，還需要來自應用程式的指標。所以當用戶遭遇延遲、停機和錯誤等情況時，便需要在不同的工具和UI間切換，來探索造成問題的根本原因，但這個過程可能拖慢除錯速度。</description>
+     <pubDate>2021-08-16  04:08:27</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146222</guid>
+  </item>
+  <item>
     <title>Google及臉書參與連結新加坡、日本與臺灣的Apricot海底電纜建置</title>
     <link>https://www.ithome.com.tw/news/146223</link>
     <description> Google及臉書在本周宣布，將參與新的Apricot海底電纜建置，Apricot將連結新加坡、日本、關島、菲律賓、臺灣與印尼，全長1.2萬公里，預計於2024年啟用。</description>
@@ -248,14 +257,6 @@ Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet�
      <pubDate>2021-08-13  10:08:41</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146176</guid>
-  </item>
-  <item>
-    <title>Cloud周報第116期：IDC：疫情加速企業數位轉型，2025年臺灣公有雲服務市場規模將破20億美元，年複合成長率19.1%</title>
-    <link>https://www.ithome.com.tw/news/146175</link>
-    <description> 重點新聞（2021/08/05～2021/08/11）</description>
-     <pubDate>2021-08-13  10:08:41</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146175</guid>
   </item>
   </channel>
 </rss>
