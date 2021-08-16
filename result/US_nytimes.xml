@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Mon, 16 Aug 2021 15:19:31 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Aug 2021 15:29:39 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[塔利班奪取喀布爾，美國在阿富汗20年猝然落幕]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210816/afghanistan-taliban-kabul-surrender/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[塔利班橫掃城鎮與鄉村的速度和暴力程度讓美國軍方和阿富汗政府措手不及。阿富汗總統已逃離該國，武裝分子湧入首都，喀布爾街道上充斥著恐慌和絕望的場景。<p><img src='https://static01.nyt.com/images/2021/08/15/world/15afghanistan-promo/merlin_193304262_e05f3b6d-2960-4f33-81b9-8d5a99ab234d-articleLarge.jpg' alt='塔利班武裝分子週日在首都喀布爾乘坐從阿富汗軍隊手中奪取的一輛悍馬車。塔利班橫掃阿富汗的速度令美國官員感到震驚。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>塔利班武裝分子週日在首都喀布爾乘坐從阿富汗軍隊手中奪取的一輛悍馬車。塔利班橫掃阿富汗的速度令美國官員感到震驚。</p>                    ]]></description>
+            <category>國際</category>
+            <dc:creator><![CDATA[DAVID ZUCCHINO,JIM HUYLEBROEK,KIANA HAYERI]]></dc:creator>
+            <pubDate>Mon, 16 Aug 2021 03:24:09 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210816/afghanistan-taliban-kabul-surrender/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[黑山天價高速公路：中國的好買賣，黑山的災難？]]></title>
             <link><![CDATA[https://cn.nytimes.com/world/20210816/montenegro-highway-china/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[JANE PERLEZ]]></dc:creator>
             <pubDate>Wed, 11 Aug 2021 02:08:05 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20190715/china-canadian-arrested/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[被中國拘留兩年後，兩名加拿大人仍命運難料]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20201210/china-canada-michael-kovrig-spavor/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[康明凱和斯帕沃爾已經成為北京強勢外交政策後果的象徵。一些加拿大官員和專家寄望於拜登入主白宮後改善中美關係，為兩人的釋放鋪平道路；其他人則沒有這麼樂觀。<p><img src='https://static01.nyt.com/images/2020/12/10/world/10china-canadians1/merlin_151707867_81c35bfa-6c7e-4133-bd32-c210e723521d-articleLarge.jpg' alt='去年，在溫哥華抗議中國逮捕康明凱和斯帕沃爾的示威者。 Jason Redmond/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jason Redmond/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>去年，在溫哥華抗議中國逮捕康明凱和斯帕沃爾的示威者。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[赫海威,DAN BILEFSKY]]></dc:creator>
-            <pubDate>Wed, 11 Aug 2021 02:06:55 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20201210/china-canada-michael-kovrig-spavor/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
