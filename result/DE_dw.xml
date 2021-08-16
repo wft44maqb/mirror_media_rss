@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-16T09:19:50Z</updated>
+ <updated>2021-08-16T09:25:41Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58875900</id>
+  <title><![CDATA[多国撤离阿富汗 喀布尔机场出现死伤]]></title>
+  <updated>2021-08-16T09:10:00Z</updated>
+  <published>2021-08-16T09:10:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/多国撤离阿富汗-喀布尔机场出现死伤/a-58875900?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[塔利班进入阿富汗首都喀布尔后，当地居民涌入机场，场面混乱且有目击者称有5人死亡，死因尚未明朗。捷克、义大利撤离班机皆已离境，其馀多国正在安排撤侨，中俄则尚无撤离阿富汗的计划。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58875545</id>
   <title><![CDATA[客座评论: 北京为何死守防疫"动态清零"政策]]></title>
@@ -155,14 +165,14 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58831014</id>
-  <title><![CDATA[欧洲大火肆虐：四大问题解疑]]></title>
+  <id>tag:dw.com,2021:58830263</id>
+  <title><![CDATA[不为人知的新冠死亡数字]]></title>
   <updated>2021-08-15T07:19:00Z</updated>
   <published>2021-08-15T07:19:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧洲大火肆虐：四大问题解疑/a-58831014?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[夏天刚过一半，巴尔干半岛、意大利和地中海东南部野火烧毁的土地面积已经超过了一年的平均水平。]]></summary>
-  <category term="科技环境"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/不为人知的新冠死亡数字/a-58830263?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[一个新的国际数据库发现，新冠疫情实际死亡人数与公布的数据之间存在巨大差异。尤其在五个实行专制式统治的国家，这种差异特别大。]]></summary>
+  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58855881</id>
@@ -175,14 +185,14 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58830263</id>
-  <title><![CDATA[不为人知的新冠死亡数字]]></title>
+  <id>tag:dw.com,2021:58831014</id>
+  <title><![CDATA[欧洲大火肆虐：四大问题解疑]]></title>
   <updated>2021-08-15T07:19:00Z</updated>
   <published>2021-08-15T07:19:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/不为人知的新冠死亡数字/a-58830263?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[一个新的国际数据库发现，新冠疫情实际死亡人数与公布的数据之间存在巨大差异。尤其在五个实行专制式统治的国家，这种差异特别大。]]></summary>
-  <category term="时政风云"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧洲大火肆虐：四大问题解疑/a-58831014?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[夏天刚过一半，巴尔干半岛、意大利和地中海东南部野火烧毁的土地面积已经超过了一年的平均水平。]]></summary>
+  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58819096</id>
@@ -203,16 +213,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体-新时代的毛泽东不坑自己人/a-58864645?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[奥地利《信使报》认为，国际社会本应该就疫情向中国索取天价赔偿，但是西方国家却忌惮利益受损而不敢这么做。德国《焦点》杂志则抨击了中国的“一带一路”，认为这和毛泽东“大跃进”的主要区别在于：“一带一路”坑害的是外国人。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58864497</id>
-  <title><![CDATA[对“跑偏”零容忍 官媒:网游不得篡改历史]]></title>
-  <updated>2021-08-14T13:12:00Z</updated>
-  <published>2021-08-14T13:12:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/对-跑偏-零容忍-官媒-网游不得篡改历史/a-58864497?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[一款名为“江南百景图”的古风模拟经营类手游因为涉嫌“篡改历史”遭到官媒批评。鉴于中国官媒近期对网游的关注，业内人士担忧，网络游戏行业将成为下一个被监管的目标。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58863866</id>
