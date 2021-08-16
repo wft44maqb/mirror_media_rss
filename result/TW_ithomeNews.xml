@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/257" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/atom/257</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/257" rel="self" type="application/rss+xml" />
       <item>
     <title>中華電信投入逾10億元參與亞太新海纜Apricot建設案</title>
     <link>https://www.ithome.com.tw/news/146221</link>
@@ -206,7 +206,7 @@ Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet�
   <item>
     <title>釣魚郵件攻擊出現新手法，駭客採用摩斯編碼、ASCII等多種編碼來混淆附件內容</title>
     <link>https://www.ithome.com.tw/news/146181</link>
-    <description> 攻擊者為了避免釣魚郵件遭到攔截，附件檔案很可能會利用較為少見的檔案格式，來挾帶作案工具，例如，光碟映象檔（ISO、IMG），甚至是Windows映象檔格式（WIM）等，這些檔案格式對於部分郵件防護系統而言，無法解讀其中的內容，沒辦法得知是否有害。但最近也有攻擊者改變策略，使用一般郵件可能會出現的附件檔案類型，來挾帶含有攻擊意圖的工具，避免上述附件的檔案格式可能會被網管人員列為黑名單封鎖的情況。</description>
+    <description> 攻擊者為了避免釣魚郵件遭到攔截，附件檔案很可能會利用較為少見的檔案格式，來挾帶作案工具，例如，光碟映像檔（ISO、IMG），甚至是Windows映像檔格式（WIM）等，這些檔案格式對於部分郵件防護系統而言，無法解讀其中的內容，沒辦法得知是否有害。但最近也有攻擊者改變策略，使用一般郵件可能會出現的附件檔案類型，來挾帶含有攻擊意圖的工具，避免上述附件的檔案格式可能會被網管人員列為黑名單封鎖的情況。</description>
      <pubDate>2021-08-13  12:08:05</pubDate>
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146181</guid>
