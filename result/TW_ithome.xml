@@ -6,6 +6,19 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Twitter指派加密貨幣開發者來主導分散式社交網路Bluesky</title>
+ <link>https://www.ithome.com.tw/news/146245</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Twitter創辦人暨執行長Jack Dorsey在2019年12月，發表了&lt;a href=&quot;https://blueskyweb.org/&quot; target=&quot;_blank&quot;&gt;分散式社交網路專案Bluesky&lt;/a&gt;，但一直到本周，才指派加密貨幣開發者Jay Graber來主導該專案。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/jack/status/1204766095988576256&quot; target=&quot;_blank&quot;&gt;Dorsey認為&lt;/a&gt;，不管是網路或社交平台都應該是開放且透明的，不應該由單一的企業控制，因而發起Bluesky專案，企圖建立社交媒體的分散式標準。當初Bluesky專案包括架構師、工程師與設計師在內只有5名成員，且一直沒有負責人，&lt;a href=&quot;https://twitter.com/jack/status/1427315839666118662&quot; target=&quot;_blank&quot;&gt;直至本周&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Graber是一名軟體工程師，曾於區塊鏈商用服務公司Skuchain任職，後來加入Zcash加密貨幣團隊，有了Graber的助陣，可望加速Bluesky專案的進展。&lt;/p&gt;
+&lt;p&gt;Dorsey之前便曾說Bluesky並非一蹴可幾，可能需要多年的時間才能發展出一個建全、有彈性且可用的社交媒體分散式標準。而&lt;a href=&quot;https://twitter.com/arcalinea/status/1427314482154414080&quot; target=&quot;_blank&quot;&gt;Graber則表示&lt;/a&gt;，過去一年來她一直與分散式社交生態體系的社群密切合作，加入Bluesky的下一步就是招募更多的好手。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 15:08:27 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146245 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146245#comments</comments>
+</item>
+<item>
  <title>美國政府對特斯拉的自動駕駛輔助系統展開調查</title>
  <link>https://www.ithome.com.tw/news/146238</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國國家公路交通安全管理局（NHTSA）宣布，&lt;a href=&quot;https://siliconangle.com/2021/08/16/u-s-government-launches-investigation-teslas-autopilot-system/&quot; target=&quot;_blank&quot;&gt;對特斯拉的自動駕駛輔助系統（Autopilot）展開調查&lt;/a&gt;。NHTSA在官網列出了特斯拉車輛，從2018年至今的11起車禍，而2021年到現在，也已經發生4起車禍案件，最近的一起是在7月10日的加州聖地牙哥。&lt;/p&gt;
@@ -181,102 +194,6 @@
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="false">146227 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146227#comments</comments>
-</item>
-<item>
- <title>【先用AI研發雲創新，再靠MLaaS將AI嵌入業務系統】玉山2大AI關鍵平臺大解密</title>
- <link>https://www.ithome.com.tw/news/146196</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;玉山內部執行的AI專案超過半百，維持玉山AI力源源不絕的關鍵，除了人力，還有玉山銀行智能金融處（後簡稱玉山智金處）打造的兩大技術平臺——AI研發雲和MLaaS。玉山用它們來嘗試各種新點子，也用來測試新模型，更用來將成熟穩定的AI模型，介接到實際金融業務場景，賦予系統內建的AI能力。&lt;/p&gt;
-&lt;p&gt;資料是企業最重要的資產，若要把資料變成可運用的資產，需有一套整體性的運用體系，才能讓AI源源不斷地發揮資料的價值。傳統大數據分析常見的作法是，數據團隊產出各種分析報表，提供給業務單位來取用。但玉山認為，只做到這樣還不夠，更關鍵的是，AI必須整合到業務中，這正是他們打造兩大技術平臺的理由。&lt;/p&gt;
-&lt;p&gt;當玉山在2018年定調全力發展AI後，就展開多項與AI相關的重大系統開發，AI研發雲就是提供給資料科學團隊的開發環境，而MLaaS就是讓這些開發成果可以嵌入業務流程的平臺。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;AI研發雲：猶如創新沙盒，供開發者嘗試各種新點子&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;玉山金控科技長張智星指出：「AI研發雲的定位很清楚，服務對象是人，」這朵雲由將近20臺機器組成了一套運算叢集，底層架構則採世界主流的開源容器管理框架Kubernetes（簡稱K8s），能根據使用者需求自動調度資源，降低系統管理負擔，也能更有效運用資源。不只如此，平臺中還準備了多種常用的機器學習開發框架或函式庫，讓使用者在這個平臺上進行資料處理、建模、模型測試或是分享資料，「就像沙盒一樣，開發者可以創新、嘗試新點子，」張智星說。&lt;/p&gt;
-&lt;p&gt;在ML開發環境上，AI研發雲則採用Jupyter Notebook，可供ML開發人員使用熱門的程式語言Python及相關套件，來進行各種運算。介面採取自助式網頁設計，ML開發人員登入平臺後，可以自行選擇所需的運算資源，比如，這次運算需要4核CPU、16Gb記憶體和1張GPU，底層K8s會根據這些需求，將所需的Docker容器環境部署到合適的機器上，再提供給這些開發者。使用完畢後，AI研發雲會回收資源，重新安排給下一位使用者使用。&lt;/p&gt;
-&lt;p&gt;AI研發雲可供資料科學家盡情探索，「就像遊樂園一樣。」張智星強調，正因為有這樣的環境，才有辦法嘗試新技術，「這些新技術在當下可能還沒很成熟，但有應用潛力，這種嘗試非常重要！」&lt;/p&gt;
-&lt;p&gt;這朵雲不只是創新實驗，更是玉山AI的主力開發環境，孕育出不少成熟穩定的AI模型。這些模型開發完成後，下一個去處就是打包部署到玉山另一個重磅AI平臺——MLaaS。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;MLaaS平臺：連接成熟AI模型和業務系統的橋樑&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;MLaaS平臺是Machine Learning as a Service的簡稱，玉山又稱其為機器學習服務平臺。對玉山來說，它是將AI嵌入業務系統的橋樑。&lt;/p&gt;
-&lt;p&gt;「MLaaS的服務對象是系統，所以必須快、準，」張智星說。&lt;/p&gt;
-&lt;p&gt;快，指的是AI推論速度必須快，比如玉山信用卡盜刷偵測模型，得在刷卡資料輸入的0.1秒內回傳模型推論結果，來決定這筆交易是否正常，並由業務系統進一步處置，如疑似異常時得電話通知等。為求快速，MLaaS平臺甚至將特定模型推論時所需的資料預載到記憶體中，來加速運算。&lt;/p&gt;
-&lt;p&gt;快，還有另一個含義，也就是長期下來，模型能快速更新，甚至更換模型時，也不對業務系統造成影響。由於MLaaS平臺採API形式來提供服務，當業務系統需要AI判讀時，靠API呼叫就能串接所需的MLaaS模型。這個設計，可讓前端業務系統與後端MLaaS系統的邊界非常清楚，當後端模型更新時，只需牽動資料和演算法程式即可，不會牽動到API呼叫機制和前端業務系統。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;設計理念：把AI當作外掛機制，讓現有系統呼叫使用&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;但玉山為何如此設計MLaaS平臺？&lt;/p&gt;
-&lt;p&gt;負責打造這個平臺的玉山智金處指出，設計之初考量過2種作法，一種是打造成AI函式庫的形式，資訊系統可以像內部函式庫一樣直接呼叫來使用。好處是，反應速度更快、更省資源，也能根據不同需求，來客製化開發AI模型。但採取這種方法，就得面臨一個問題，可能得改寫或修改現行系統所用的函式庫。&lt;/p&gt;
-&lt;p&gt;這對玉山智金處而言，是個不可能的挑戰，因為光是銀行系統歷年累積的程式碼量就十分龐大，更不用說還需要不同程式語言的版本，包括Java、C#和COBOL等。若要重整這些程式碼，太耗費時間和人力。&lt;/p&gt;
-&lt;p&gt;因此，為了快速上手AI，玉山智金處採取另一種設計方法，將AI視為一種外掛機制，當前端業務系統需要某一項AI功能時，直接用API呼叫這項AI功能的MLaaS服務，再由API回傳AI模型推論的結果。這個作法，等於是將AI嵌入現有系統中，讓系統具備內建的AI能力。&lt;/p&gt;
-&lt;p&gt;如此一來，玉山就能快速開發AI應用，也能在短期內看到AI帶來的效益。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;MLaaS 1.0：整合AI推論、模型訓練和ETL功能&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;決定了運作架構後，玉山銀行智金處在2018年第一季，開始建置第一代MLaaS平臺，來提供AI推論、模型訓練、資料ETL等三大類服務。特別的是，MLaaS採取了無狀態（Stateless）API的設計方式，前端系統將推論所需的所有參數資料，透過API傳遞給MLaaS，但讓業務邏輯仍保留在前端系統中，而不在MLaaS平臺上紀錄任何業務判斷。&lt;/p&gt;
-&lt;p&gt;舉例來說，MLaaS平臺有一支用來分析單筆交易信用卡盜刷機率的API，前端系統呼叫這個API，透過參數傳遞推論所需資料給MLaaS平臺，運算完成後，同樣透過API回傳推論後的機率數值給業務系統，再由前端系統的業務邏輯程式來決定是否要終止或放行這筆交易。對MLaaS信用卡盜刷判斷API而言，每一筆都是獨立的一次推論，在MLaaS系統上不需要記錄這筆刷卡交易的結果。&lt;/p&gt;
-&lt;p&gt;因為採取了無狀態API的設計，MLaaS 1.0的技術架構相對簡單，採取了Web 1.0時期的簡單架構，將同一套程式碼複製到多臺主機的作法，使用4臺搭載GPU的主機，前端再搭配負載平衡機制來分流。&lt;/p&gt;
-&lt;p&gt;如此一來，任何一臺機器當機，都能改由其他機器接手，提供API呼叫服務。這個做法也讓維運工作可以簡化，像是遇到模型改版時，只需將程式碼重新部署一次，再同步到所有機器上即可，不論是除錯、維運，每一臺機器的作法都一樣。&lt;/p&gt;
-&lt;p&gt;玉山智金處選擇這個架構的動機，是要用最簡單的方法，將維運壓力最小化，讓團隊快速累積AI開發經驗。也因此，他們很清楚，MLaaS 1.0上線後，勢必會遇到擴充性問題。&lt;/p&gt;
-&lt;p&gt;尤其是，MLaaS 1.0平臺底層部署在裸機架構上，無法根據服務量大小自動調度主機資源，也因為每一臺都是相同的複製版本，遇到用量少的API，還是會部署到所有機器上，無法有效利用主機的運算資源。再來，在1.0架構下，程式碼開發完成後的持續整合、持續部署等CI/CD流程，仍須人力介入。&lt;/p&gt;
-&lt;p&gt;2019年第二季，MLaaS 1.0上線，玉山智金處也開始思考如何設計2.0版，來提高擴充性。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;MLaaS 2.0改用K8s改善擴充性，更有效運用資源&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;MLaaS 2.0設計時就訂出兩大目標：系統資源運用更有效率、系統自動化程度要更高。這一次，玉山看上開源的容器叢集管理平臺K8s，來解決這些問題。張智星指出，K8s的高彈性，可實現上述兩個目標，舉例來說，K8s可進行系統資源排程，根據服務量需求來調配資源，某項服務只需要兩臺主機，K8s可從原有10臺機器中，自動選擇2臺最合適的機器來部署服務。&lt;/p&gt;
-&lt;p&gt;此外，團隊也能運用K8s建立多項自動化作業，比如，讓開發者在K8s上自訂專屬的CI/CD工作流程，再整合工作流程管理平臺Airflow建立的ETL流程。當ETL執行完畢後，就可以通知CI/CD流程，自動觸發下一個動作，像是模型重新訓練、部署，或是服務上、下架等。這些優點，都是智金處看好K8s的原因。&lt;/p&gt;
-&lt;p&gt;K8s對玉山智金處的吸引力，不只是技術考量，在經驗引進與人才培養上也相對容易。因為，K8s是世界主流的容器管理框架，已有許多業界最佳示範可參考，這些經驗可以很容易轉換為適合玉山的作法，團隊也不必從零開始閉門造車。&lt;/p&gt;
-&lt;p&gt;再者，先前採用裸機架構時，MLaaS所用的是玉山自家環境，玉山智金處得自行培訓維運人員，從頭開始熟悉環境和架構，但改用K8s後，他們評估，不必耗費心思訓練人才來理解底層架構，而可以直接聚焦於上層應用邏輯即可。&lt;/p&gt;
-&lt;p&gt;於是，2020年初，他們決定採用K8s來打造MLaaS 2.0，同時成立專案小組研究如何用K8s改善1.0版的不足。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;數月研究K8s，2020年下半年動工打造MLaaS 2.0&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;不過，張智星坦言，K8s進入門檻不低。玉山銀行智金處花了幾個月的時間研究、打基礎，還進行兩個PoC專案，來驗證K8s的可行性。&lt;/p&gt;
-&lt;p&gt;這麼花時間的原因是，這套開源K8s的彈性非常高，提供了大量功能，從CPU資源排程、記憶體排程、網路拓撲、儲存配置等，都有豐富的API。甚至可以說，只要是企業想要的功能，K8s幾乎都能實現，但前提是，企業得先知道如何使用它。MLaaS 2.0系統設計人員的經驗是，先從K8s設計理念開始熟悉，例如K8s網路架構、不同儲存類型的設計初衷等，比較容易上手。&lt;/p&gt;
-&lt;p&gt;2020年下半年，智金處確定技術架構後，便著手開始發展MLaaS 2.0。第二版的功能不變，依然鎖定AI推論、模型訓練、資料ETL，只不過，底層框架改用K8s來自動調度資源。&lt;/p&gt;
-&lt;p&gt;在這段期間，MLaaS也已提供不少AI模型供業務系統呼叫，2019年上線的信用卡盜刷偵測模型就是其一。這個模型，是用來判斷信用卡交易的正當性，每當信用卡交易主機接到交易訊息時，就會呼叫MLaaS盜刷偵測模型API，由模型判斷盜刷機率，並在0.1秒內將結果回傳到業務系統。&lt;/p&gt;
-&lt;p&gt;光是這個偵測模型API，玉山銀行每天平均使用超過66萬次，一年下來，更阻擋了上億元的信用卡盜刷損失金額。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;上線後挑戰才開始，用資料分布監控模型表現&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;然而，模型部署上線後，挑戰才真正開始。&lt;/p&gt;
-&lt;p&gt;傳統應用程式完成開發後，上線後的執行環境固定，所用的資料也大都是靜態資料，但AI模型上線後，得面對不斷流動的資料。動態資料如何流進模型，再提供正確的訊息輸出，就是玉山智金處所面對的課題。&lt;/p&gt;
-&lt;p&gt;他們要提供的，不是靜止的產品，而是活著的服務。因此，AI模型準確度的維持，就是MLaaS服務的關鍵。比如，信用卡盜刷偵測模型API，得在與業務部門約定的0.1秒內回傳結果，並時時達到銀行要求的判斷準確度。準確度一旦下降，勢必影響前端業務系統的判斷，嚴重時甚至會導致對外服務的中斷。&lt;/p&gt;
-&lt;p&gt;這個講求準確度的特性，一如張智星那句「MLaaS的服務對象是系統，所以必須快、準」的「準」字。玉山智金處就像是玉山內部的AI供應商，對於所提供的MLaaS服務，也必須設計一套模型效度的監控系統，來確保這些AI服務品質的持續。&lt;/p&gt;
-&lt;p&gt;那，這套監控系統如何設計呢？&lt;/p&gt;
-&lt;p&gt;玉山銀行智金處有一套獨到的作法。由於MLaaS平臺採無狀態API設計，呼叫一次API所傳遞的參數，就涵蓋了一次推論所需的各種輸入值，將這些參數資料累積一段時間後，來計算資料分布（Data distribution），可以作為模型準確度的衡量指標。&lt;/p&gt;
-&lt;p&gt;舉例來說，每當業務系統呼叫信用卡盜刷偵測模型API時，在請求中傳遞的參數，包括如刷卡地點、刷卡金額、刷卡時間等參數，來讓MLaaS的AI模型計算盜刷機率。&lt;/p&gt;
-&lt;p&gt;將這些參數的輸入值累積一段時間後，可以用來觀察資料分布狀態。比如，過去一個月，呼叫這支模型API的參數中，若多數刷卡時間發生在下午3點，但隔了一個月，卻發現多數刷卡時間轉變為早上9點，這就會觸發一個資料分布異常的通知，MLaaS的監控系統會偵測到資料分布的變化，觸發下一個動作，發送警示通知給資料科學家。&lt;/p&gt;
-&lt;p&gt;玉山解釋，因為資料不斷流動，當輸入值的資料分布改變了，可能意味著使用者的習慣改變了，以過去使用者資料所訓練出來的AI模型，可能也得跟著調整才行。透過這套監控系統，來揪出這些可能影響模型準確度的跡象，就能自動觸發後續措施，來重新訓練模型，或是發送警示通知，讓資料科學家進一步評估模型。&lt;/p&gt;
-&lt;p&gt;不只是MLaaS平臺API參數的資料分布，玉山銀行智金處也會收集其他類型的資料，比如每個月的模型回應平均值、模型每個階段的Log日誌，來設計更多監控指標，制定後續維運措施的觸發參考。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;時機成熟力推MLOps，要跨出金融界的一大步&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;監控系統只是玉山AI維運的起手式，今年，他們有一個更遠大目標，要實踐MLOps作法，希望能建立一套機器學習模型的自動化維運管理方式。&lt;/p&gt;
-&lt;p&gt;讓AI深入業務，一直是玉山銀行智金處的目標，AI研發雲提供了AI模型開發環境，MLaaS平臺把這些AI模型變成了容易嵌入到業務系統的API服務，下一步，就是要讓各事業單位更容易串接、運用這些AI服務。這就考驗MLaaS平臺的服務水準（SLA）。&lt;/p&gt;
-&lt;p&gt;對玉山智金處來說，一套系統必須穩定和可靠，才能讓眾人使用。智金處今年的目標是，讓AI與各種業務結合，要讓各單位有信心、願意使用。為了做出穩定又可靠的AI服務，MLOps成為智金處關注的焦點。&lt;/p&gt;
-&lt;p&gt;所以，玉山智金處計畫建立一套MLOps流程，來強化、提升原有的AI模型產製過程。進一步來說，AI模型在AI研發雲中訓練完成後，要打包成API，經過CI/CD流程才會上架到MLaaS上，成為一項正式上線的API服務。玉山希望在CI/CD上，提供更多不同用途的流程機制，並納入更多相應的Log機制，可用於上線、除錯使用。&lt;/p&gt;
-&lt;p&gt;另一方面，他們還要建立更多監測模型效能的指標，不只是先前提到的API參數的輸入或輸出資料，甚至連建模時的中繼過程，例如產製模型真正特徵前的預處理步驟，也需要留下檢核因子。&lt;/p&gt;
-&lt;p&gt;尤其，使用者行為會不斷改變，模型更換成了一種常態，不論是為了解決問題，還是為了優化模型。為此，玉山智金處已選取少數專案，運用正在開發的MLaaS 2.0平臺，來以K8s來試行模型維運自動化。若能成功，他們將在年底放行更多AI模型到MLaaS 2.0上，自動監控這些模型的狀態，來進行再訓練或下架的動作。&lt;/p&gt;
-&lt;p&gt;不過，當要更換那些涉及業務的AI模型時，這就不只是系統議題，還需考慮更換後對制度、人員、法規等面向的影響。金融業是備受監管的單位，許多科技業能做的事，比如模型重新訓練後快速再上架，但金融業不一定能直接這樣做。所以，玉山銀行智金處今年初也增設了企劃部，要聯手風控團隊站在業務角度，既要讓AI安全落地，也站在智金處角度，尋找法規突破口。&lt;/p&gt;
-&lt;p&gt;為了做到這一步，他們還將模型效能監控機制，串接到範圍更廣的CI/CD流程上。同時，玉山智金處也正建立網站可靠信工程（SRE）制度，要進一步將模型維運納入整體軟體維運工作中，合而為一。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;MLOps人機協作也是資料治理的利器&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;玉山今年要推動MLOps還有另一個原因。「模型更新後的表現要如何定義？怎樣算不夠好？不夠好要在何時更新？」張智星以信用卡盜刷偵測模型為例，假設系統察覺100筆交易中，有10筆異常，銀行人員就能立即打電話向客戶詢問、獲得回饋，即時核對模型預測準確率。&lt;/p&gt;
-&lt;p&gt;但一些模型沒察覺出的盜刷行為，反而要在一個月後（即客戶收到帳單後），才能獲得回饋。由於資料回饋存在時間差，如何同步這些資料來更新模型，就是玉山AI維運的重要課題。&lt;/p&gt;
-&lt;p&gt;隨著資料治理逐漸到位，MLOps的加入能協助使用者掌管模型生命周期，包括資料擷取、模型訓練、測試，以及模型部署上線後的表現監控等環節。張智星點出，監控最大的好處，是能讓使用者立即回饋資料至AI系統，及時校正模型表現。&lt;/p&gt;
-&lt;p&gt;不過，MLOps雖強調全自動化，但張智星認為，人機協作還是必然。因為，模型表現牽涉到「模型出錯成本。」比如，票據手寫辨識模型將10萬元辨識為100萬元，就會造成極大損失，因此模型不容出錯，得仰賴人工再核對一次。「這就像A I人機協作，電腦做一部分，人同時要覆核，少部分抽驗，來確保不出錯，」他表示，人員的抽驗資料也得回饋到系統作業流程，如此才能優化整體系統，實現資料治理。&lt;/p&gt;
-&lt;p&gt;「這是玉山今年的大事，」張智星說。雖然實踐MLOps看來是一小步，但玉山能實現它，就會是金融業運用AI的一大步。因為這代表，玉山能將資料作為燃料，用來驅動整個業務流程，自動化執行。這一步，正是玉山今年最重要的AI戰略，讓AI更融入業務單位中。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;font-size:36px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 玉山兩大AI關鍵平臺分工 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; AI研發雲 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;服務對象是人（資料科學家），供資料科學家盡情探索，嘗試新技術。可自助式提供AI模型開發環境，來進行資料處理、模型訓練、模型測試等。底層採用K8自動建立Docker環境作為開發之用，上層則提供Jupyter Notebook的Python網頁開發環境。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 機器學習服務（MLaaS）平臺 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;服務對象是系統（各部門業務系統），將AI嵌入業務系統的橋樑，講究快和準。採取無狀態API設計，來提供AI推論、模型訓練、資料ETL等三大類服務。ML模型在AI研發雲開發完成後，會打包成API，部署到MLaaS平臺上，再提供給各業務系統呼叫使用。底層採K8s，可依據服務量需求，自動配置運算資源來執行各個API服務。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;資料來源：玉山金控，iThome整理，2021年8月&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;font-size:36px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 玉山AI維運3箭：系統、制度、人 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1038-%E7%8E%89%E5%B1%B1%E9%8A%80-%E6%B4%AA%E6%94%BF%E5%81%89%E6%94%9D.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;攝影／洪政偉&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;當AI內化到一定程度，企業就會出現模型維運需求，玉山也不例外。作為玉山AI發電廠、負責打造玉山各種AI應用系統的玉山銀行智能金融處（即智金處），鎖定三個層面著手維運管理：系統、制度、人。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第一項系統是指，打造一套可以掌握模型表現的監控系統。智金處收集MLaaS平臺上的API參數，來比對不同時期的資料分布（Data distribution），並結合其他指標，根據這些資料來設計後續模型調整措施。不只如此，他們也計畫在今年大力推廣MLOps，要更自動化管理各機器學習生命周期任務、維護資料品質，還要掌握模型上線後的效能監測。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;在制度方面，玉山則有兩套做法。首先是分工認定，比如在AI專案成立時，就先決定系統是否需要專屬維運，若採用構造簡單的模型，就交由業管單位的IT團隊負責。若採用MLaaS平臺模型，則是由智金處負責AI相關維運。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;另一個制度化的作法，是每月進行專屬月會，來追蹤模型成效。智金處每月針對重要專案舉辦會議，這是因為，玉山雖有不少系統監測模型、發送警示，但他們的經驗是，金融模型非常容易受景氣影響。景氣變動，模型沒變動，不代表模型沒問題，因此需要定期檢視。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;有了系統和制度的支持，還需要「人」來接續維運。負責推動AI的智金處，要求旗下服務部的每位職員，至少都得負責一個維運工作，來累積模型維運的知識。對玉山來說，這三個層面是練就AI維運實戰經驗的關鍵。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 新方向：轉核後下一步，打造資料中臺加速AI創新 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;去年8月，玉山完成為期4年的第一次核心系統轉換工程，不只把原本綁在大型主機上的核心系統服務API化，更將老舊的COBOL程式語言汰換為熱門的新程式語言。他們的目標，是要用微服務架構和開放式平臺，來推動玉山第三個十年的發展目標：科技的玉山。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;不過，早在他們啟動核心系統轉換前，就已縝密地佈局科技化藍圖了。玉山先是研究主流技術，如區塊鏈、行銷科技（MarTech）、監理科技（RegTech）、AR/VR和AI，最後鎖定AI，並重整所有資源，全投注在AI上。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;也正是那年，2016年，玉山在全力發展AI的戰略下，開始規劃、設計新核心系統，並在去年8月正式上線。玉山金控科技長張智星指出，新系統的特色是「小核心、大周邊」，能彈性拆卸核心周邊應用，更快速打造新應用。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;「我們蹲了很久，4年後的現在終於跳起來，」他形容，轉核後的平臺不只更有彈性、更有效率，資料分享也更容易，「這對AI發展相當重要。」他更透露，玉山轉核下一步是要建立資料中臺，來破除老舊系統疊層架屋的技術債，加速資料分享和AI發展。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;這是因為，過去以來，玉山先是採用大型主機，作為所有核心系統開發、儲存和執行的環境。隨著技術演進，玉山陸續採用新軟體開發服務、建置資料庫。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;這一點一滴，累積出疊層架屋的技術債問題。張智星舉例，在不同平臺間搬遷資料時，會遇到儲存問題、資料庫問題和計算能力問題，比如，將A平臺的資料搬遷到B平臺分析時，會遇到B平臺容量太小的問題，但資料繞道改搬遷到容量大的C平臺，可能會遇上C平臺有速度慢、存取慢的缺點，「欠缺了一個統一的平臺來解決問題。」&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;玉山轉核後的新平臺，解決大部分技術債問題，更進一步，玉山還要打造資料中臺，來統整各類資料和開發工具，甚至是AI模型，作為創新應用的中繼站。&lt;/strong&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146196 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146196#comments</comments>
 </item>
 </channel>
 </rss>

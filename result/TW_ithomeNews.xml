@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/110" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/3058/7415" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/110</link>
+    <link>https://www.ithome.com.tw/latest/3058/7415</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/110" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/3058/7415" rel="self" type="application/rss+xml" />
       <item>
+    <title>美國政府對特斯拉的自動駕駛輔助系統展開調查</title>
+    <link>https://www.ithome.com.tw/news/146238</link>
+    <description> 美國國家公路交通安全管理局（NHTSA）宣布，對特斯拉的自動駕駛輔助系統（Autopilot）展開調查。NHTSA在官網列出了特斯拉車輛，從2018年至今的11起車禍，而2021年到現在，也已經發生4起車禍案件，最近的一起是在7月10日的加州聖地牙哥。</description>
+     <pubDate>2021-08-17  10:08:34</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146238</guid>
+  </item>
+  <item>
     <title>微軟政府最高機密雲Azure Government Top Secret正式上線</title>
     <link>https://www.ithome.com.tw/news/146244</link>
     <description> 微軟去年12月公布專門提供給政府儲存機密資訊的Azure Government Top Secret，本周微軟宣布這項服務正式上線。</description>
@@ -254,14 +262,6 @@ AI戰略一：深化創新
      <pubDate>2021-08-13  03:08:30</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146190</guid>
-  </item>
-  <item>
-    <title>英國對臉書併購Giphy一案展開調查，若危害競爭將要求臉書出售Giphy</title>
-    <link>https://www.ithome.com.tw/news/146188</link>
-    <description> 臉書在去年5月宣布收購GIF圖庫暨分享平臺Giphy，並將Giphy納入Instagram麾下，當時外傳的收購金額為4億美元。然而，英國競爭與市場管理局（Competition and Markets Authority，CMA）本周表示，正在調查臉書與Giphy的合併案是否違反市場競爭，倘若答案是肯定的，可能會要求臉書出售Giphy資產。</description>
-     <pubDate>2021-08-13  02:08:43</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146188</guid>
   </item>
   </channel>
 </rss>
