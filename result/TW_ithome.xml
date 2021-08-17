@@ -6,6 +6,20 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>AWS推出最新x86架構的M6i通用目的EC2執行個體</title>
+ <link>https://www.ithome.com.tw/news/146243</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS推出第6代x86架構的EC2執行個體&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/new-amazon-ec2-m6i-instances-powered-by-the-latest-generation-intel-xeon-scalable-processors/&quot;&gt;M6i&lt;/a&gt;，採用最新一代英特爾Xeon可擴充處理器，全核心渦輪加速頻率可達3.5 GHz，記憶體頻寬提升20％，Amazon EBS吞吐量可達40 Gbps，網路頻寬最高能配置50 Gbps，比起同類的第5代執行個體，整體性價比提高15％。&lt;/p&gt;
+&lt;p&gt;最高規格的M6i執行個體m6i.32xlarge，具有128個vCPU和512 GiB記憶體，可以更容易地整合工作負載，並且擴展應用程式，AWS提到，M6i適合用來執行通用工作負載，像是網頁和應用程式伺服器、容器化應用程式、微服務和小型資料儲存。&lt;/p&gt;
+&lt;p&gt;而且因為M6i具有更大的記憶體頻寬，因此也適合用來執行像是SAP HANA等企業應用程式，或是計算流體力學等高效能運算工作負載。M6i執行個體經過SAP認證，可以提供比M5執行個體多15％的SAP應用程式性價比。&lt;/p&gt;
+&lt;p&gt;這個新的執行個體也是使用AWS Nitro系統建構，該系統是一個建構模組的集合，藉由將許多傳統的虛擬化功能，卸載至專用硬體上，來提高系統效能、可用性和安全性。M6i執行個體目前先在6個AWS地區提供，除了美東、美西和歐洲地區外，亞太也開始在新加坡地區提供M6i。&lt;/p&gt;
+&lt;p&gt;EC2的執行個體採用多種處理器，像是M6i後綴為i的執行個體，便是使用英特爾處理器，而後綴為a，則是使用AMD處理器，至於AWS自己所設計的Graviton處理器，則後綴使用g。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 15:16:57 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146243 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146243#comments</comments>
+</item>
+<item>
  <title>Visual Studio 2022更新前端開發體驗，加入新的JavaScript專案類別</title>
  <link>https://www.ithome.com.tw/news/146239</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟在Visual Studio 2022中加入新工具，&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/&quot;&gt;改善JavaScript和TypeScript的前端開發體驗&lt;/a&gt;，開發者將可以選擇新的JavaScript/TypeScript專案類別，獨立開發Angular、React和Vue專案，且簡單地將前端專案，與ASP.NET Core後端整合，並應用像是Test Explorer等現有的工具。&lt;/p&gt;
@@ -176,23 +190,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146234 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146234#comments</comments>
-</item>
-<item>
- <title>曾感染臺灣的勒索軟體Magniber正在開採PrintNightmare漏洞</title>
- <link>https://www.ithome.com.tw/news/146233</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Windows PrintNightmare漏洞正成為駭客界的最愛。隨著PrintNightmare漏洞愈來愈多，&lt;a href=&quot;https://www.crowdstrike.com/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/&quot; target=&quot;_blank&quot;&gt;研究人員近日發現&lt;/a&gt;一隻過去曾感染臺灣用戶的勒索軟體Magniber，也將之納入新的攻擊目標。&lt;/p&gt;
-&lt;p&gt;近2個月Windows列印多工緩衝處理器（Print Spooler）&lt;a href=&quot;https://www.ithome.com.tw/news/145546&quot; target=&quot;_blank&quot;&gt;不斷被揭露有大大小小的漏洞&lt;/a&gt;。從6月中起的CVE-2021-1675、7月初的CVE-2021-34527，到上周Patch Tuesday修補的&lt;a href=&quot;https://www.ithome.com.tw/news/146135&quot; target=&quot;_blank&quot;&gt;CVE-2021-36936&lt;/a&gt;，它們都能讓駭客擴充本地權限而以系統權限執行程式碼。其中濫用Print Spooler服務組態及Windows Point and Print政策，而使攻擊者藉由上傳惡意驅動程式開採，造成以系統權限執行任意程式碼，甚至遠端執行者，微軟才會將之列為Printnightmare。&lt;/p&gt;
-&lt;p&gt;原本PrintNightmare僅指CVE-2021-1675和CVE-2021-34527。不過上周Patch Tuesday之後又爆出了&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36958&quot; target=&quot;_blank&quot;&gt;CVE-2021-36958&lt;/a&gt;，是微軟證實的第三個PrintNightmare。微軟上周僅能提供緩解建議，因為修補程式還在趕製中。&lt;/p&gt;
-&lt;p&gt;但是安全廠商&lt;a href=&quot;https://www.crowdstrike.com/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/&quot; target=&quot;_blank&quot;&gt;Crowdstrike發現&lt;/a&gt;駭客已經利用勒索程式Magniber磨刀霍霍。&lt;/p&gt;
-&lt;p&gt;CrowdStrike威脅研究與通報中心總監Liviu Arsene指出，Magniber首見於2017年，利用現成開採工具Magnitude EK，透過惡意廣告、惡意或被駭網站下載感染南韓用戶。但&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/magniber-ransomware-expands-from-south-korea-to-target-other-asian-countries/&quot; target=&quot;_blank&quot;&gt;BleepingComputer報導&lt;/a&gt;Magniber 2018年也擴及其他亞洲地區，包括臺灣、香港、中國、新加坡、馬來西亞等地。&lt;/p&gt;
-&lt;p&gt;同時間Magniber使用的漏洞也正在增加。這隻勒索軟體開採最多的漏洞是Internet Explorer（IE）漏洞CVE-2018-8174、CVE-2021-26411、CVE-2020-0968、 CVE-2019-1367或Adobe Flash漏洞CVE-2018-8174，直到2021年初，研究人員還偵測到它開採CVE-2020-0968。&lt;/p&gt;
-&lt;p&gt;但是近日CrowdStrike發現Magniber已開始瞄準PrintNightmare。安全研究小組偵測到一個實際開採PrintNightmare的惡意Dll，它進入用戶系統、載入spoolsv.exe行程後即寫入\Device\HarddiskVolume2\Windows\System32\spool\DRIVERS\x64\3\New\資料夾。這隻Dll即和Magniber勒索程式有關，負責協助後者的核心Dll注入遠端行程。&lt;/p&gt;
-&lt;p&gt;研究人員指出，雖然這項發現頗令人驚訝，但是以PrintNightmare漏洞的影響，又可想而知，而且也有多個概念驗證程式已在網路流傳。因此真正下載惡意程式碼的開採也只是時間早晚而已。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 03:28:20 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146233 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146233#comments</comments>
 </item>
 </channel>
 </rss>

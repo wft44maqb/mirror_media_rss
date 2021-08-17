@@ -1,11 +1,27 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/632" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/632</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=83&amp;profile=atom" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/632" rel="self" type="application/rss+xml" />
       <item>
+    <title>AWS推出最新x86架構的M6i通用目的EC2執行個體</title>
+    <link>https://www.ithome.com.tw/news/146243</link>
+    <description> AWS推出第6代x86架構的EC2執行個體M6i，採用最新一代英特爾Xeon可擴充處理器，全核心渦輪加速頻率可達3.5 GHz，記憶體頻寬提升20％，Amazon EBS吞吐量可達40 Gbps，網路頻寬最高能配置50 Gbps，比起同類的第5代執行個體，整體性價比提高15％。</description>
+     <pubDate>2021-08-17  11:08:57</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146243</guid>
+  </item>
+  <item>
+    <title>Visual Studio 2022更新前端開發體驗，加入新的JavaScript專案類別</title>
+    <link>https://www.ithome.com.tw/news/146239</link>
+    <description> 微軟在Visual Studio 2022中加入新工具，改善JavaScript和TypeScript的前端開發體驗，開發者將可以選擇新的JavaScript/TypeScript專案類別，獨立開發Angular、React和Vue專案，且簡單地將前端專案，與ASP.NET Core後端整合，並應用像是Test Explorer等現有的工具。</description>
+     <pubDate>2021-08-17  11:08:44</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146239</guid>
+  </item>
+  <item>
     <title>Twitter指派加密貨幣開發者來主導分散式社交網路Bluesky</title>
     <link>https://www.ithome.com.tw/news/146245</link>
     <description> Twitter創辦人暨執行長Jack Dorsey在2019年12月，發表了分散式社交網路專案Bluesky，但一直到本周，才指派加密貨幣開發者Jay Graber來主導該專案。</description>
@@ -246,22 +262,6 @@ AI戰略一：深化創新
      <pubDate>2021-08-13  04:08:11</pubDate>
  <dc:creator>蘇文彬</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146193</guid>
-  </item>
-  <item>
-    <title>Google應用神經網路開發音訊編碼器，不只壓縮音訊還能抑制噪音</title>
-    <link>https://www.ithome.com.tw/news/146194</link>
-    <description> Google發表最新將人工智慧應用在音訊解編碼器的研究，釋出端到端神經解編碼器SoundStream，這是一個應用神經網路的音訊解編碼器，可以提供高音質的音訊，並且支援清楚的語音、有雜音和回聲的語音，甚至是混雜音樂、語音和環境音的音訊，Google提到，SoundStream是第一個可以處理語音和音樂的神經網路解編碼器，可以在智慧型手機上即時執行。</description>
-     <pubDate>2021-08-13  04:08:54</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146194</guid>
-  </item>
-  <item>
-    <title>穩定幣USDC發行商Circle宣布將朝向正式銀行邁進</title>
-    <link>https://www.ithome.com.tw/news/146192</link>
-    <description> 穩定幣USDC發行商Circle本周宣布，將努力發展成一家具備100%準備金的全儲備銀行，成為美國正式的商業銀行，且會在符合美國聯邦儲備（Federal Reserve）、美國財政部、美國貨幣總稽核辦公室（OCC）與美國聯邦存款保險公司（FDIC）的監督與風險管理要求的條件下經營。</description>
-     <pubDate>2021-08-13  03:08:47</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146192</guid>
   </item>
   </channel>
 </rss>
