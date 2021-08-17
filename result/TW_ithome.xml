@@ -6,6 +6,35 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>美國政府對特斯拉的自動駕駛輔助系統展開調查</title>
+ <link>https://www.ithome.com.tw/news/146238</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國國家公路交通安全管理局（NHTSA）宣布，&lt;a href=&quot;https://siliconangle.com/2021/08/16/u-s-government-launches-investigation-teslas-autopilot-system/&quot; target=&quot;_blank&quot;&gt;對特斯拉的自動駕駛輔助系統（Autopilot）展開調查&lt;/a&gt;。NHTSA在官網列出了特斯拉車輛，從2018年至今的11起車禍，而2021年到現在，也已經發生4起車禍案件，最近的一起是在7月10日的加州聖地牙哥。&lt;/p&gt;
+&lt;p&gt;特斯拉的Autopilot是一種進階自動駕駛輔助系統，能夠自動以定速行駛，並且維持車輛在車道中間，NHTSA提到，即便是進階自動駕駛輔助系統啟動的狀態，駕駛員都必須對物體和事件的偵測和回應負主要責任，像是在駕駛期間，就要注意道路中的障礙物以及鄰車的不良駕駛。&lt;/p&gt;
+&lt;p&gt;也就是說，在啟用Autopilot的同時，駕駛員仍必須把手一直放在方向盤上，而這使得Autopilot成為2級自動系統。自動駕駛系統分為5個等級，2級自動系統能夠自動執行部分任務，但是仍需要有駕駛員，並且持續監視車輛。&lt;/p&gt;
+&lt;p&gt;NHTSA提到，大多數特斯拉的事故都發生在天黑之後，而特斯拉車輛碰撞到的東西，包括反光箭頭號誌、路錐以及救護交通燈等現場控制號誌，所有發生事故的車輛，都確定在撞擊前啟用Autopilot或是交通感知巡航控制（Traffic Aware Cruise Control，TACC）系統。&lt;/p&gt;
+&lt;p&gt;目前NHTSA針對特斯拉的MODEL 3、S、X和Y型號的Autopilot系統展開調查，車輛出場年份從2014年到2021年，這項調查會評估Autopilot在啟動期間，所進行的監控、協助和強制駕駛員參與駕駛的技術和方法，並且了解車輛在自動駕駛模式下，對於物體和事件的偵測與回應狀況。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 14:51:34 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146238 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146238#comments</comments>
+</item>
+<item>
+ <title>微軟政府最高機密雲Azure Government Top Secret正式上線</title>
+ <link>https://www.ithome.com.tw/news/146244</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟&lt;a href=&quot;https://www.ithome.com.tw/news/141522&quot; target=&quot;_blank&quot;&gt;去年12月公布&lt;/a&gt;專門提供給政府儲存機密資訊的Azure Government Top Secret，&lt;a href=&quot;https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/&quot; target=&quot;_blank&quot;&gt;本周微軟宣布&lt;/a&gt;這項服務正式上線。&lt;/p&gt;
+&lt;p&gt;Azure Government Top Secret是微軟政府雲的一部份，後者另外還包括Azure Government，以及代管政府機密資料的Azure Government Secret。Azure Government Top Secret是由微軟和美國政府合作開發，連同安全等級較低的Azure Government Secret，滿足美國情報單位、國防部及聯邦政府要求的安全層級的雲端服務。&lt;/p&gt;
+&lt;p&gt;這項新服務旨在看準美國接連多起安全事件波及政府單位，促使拜登政府加碼聯邦政府資訊安全。&lt;/p&gt;
+&lt;p&gt;Azure Government Top Secret現階段包括60多項服務，包括Azure Kubernetes Service (AKS)、Azure Functions和Azure App Service、Azure Security Center及安全管理平臺 Azure Sentinel，日後還再推出新服務，而多區域也讓這項服務滿足本地、雲端及邊緣的資料儲存需求。&lt;/p&gt;
+&lt;p&gt;微軟也宣布Azure Government Top Secret獲得美國聯邦政府對資訊系統的ATO（Authorization to Operate）授權許可，也具備美國政府專門安全標準如ICD　503及ICD 705。&lt;/p&gt;
+&lt;p&gt;連同今天Azure Government Top Secret上線，微軟也宣布Azure Government Secret新增服務，使服務來到73項。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 14:46:30 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146244 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146244#comments</comments>
+</item>
+<item>
  <title>Adobe文件服務新推2大API，能自動擷取完整PDF結構輸出JSON檔方便整合Web，還能嵌入Word</title>
  <link>https://www.ithome.com.tw/news/146240</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p dir=&quot;ltr&quot;&gt;Adobe在文件服務（Adobe Document Services）中新增兩大API功能，分別是Adobe PDF Extract API與Adobe Document Generation API。前者能根據PDF內容的檔案結構，透過Adobe核心AI引擎Adobe Sensei擷取文字、表格資料、圖像等元素，並以JSON格式輸出；後者則可以將JSON格式資料，嵌入Microsoft Word文件內容中，來生成具動態資料的PDF檔案。&lt;/p&gt;
@@ -248,108 +277,6 @@
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="false">146196 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146196#comments</comments>
-</item>
-<item>
- <title>【從技術研發到加速服務落地，AI團隊不斷轉型再進化】玉山AI力關鍵團隊如何養成</title>
- <link>https://www.ithome.com.tw/news/146183</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;三年前，時任玉山金控科技長陳昇瑋，不只定調玉山AI發展藍圖，還與當時的玉山金控暨銀行總經理黃男州，做了個重大的決定。&lt;/p&gt;
-&lt;p&gt;他們拍板終止數個正在進行、每個都上千萬元等級的專案，集中資源投注在AI上，來強化資料團隊的AI應用能力。這項決定，催生了玉山AI化的主力推手──智能金融處（簡稱智金處），在短短兩、三年內打造AI研發專用的技術平臺，還經手半百個AI專案，將不少AI系統內化到日常工作流程，成為玉山人的必備工具。&lt;/p&gt;
-&lt;p&gt;可三年前，沒人知道這個轉型決策是好是壞，全臺也沒先例可循，玉山只能一步步且戰且走。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;十多年不斷改組轉型：從CRV大數據分析到CTOO定調AI發展路線&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;其實玉山這一步，已經醞釀十多年。早在2006年，玉山就於金控底下設置大數據分析團隊CRV（Client&#039;s Risk &amp;amp;Value），瞄準顧客風險價值，來探勘既有的客戶KYC（Know Your Customer）資料，更細緻地將客戶分群。除了內部資料，他們還梳理客戶複雜的外部數位足跡，來開發顆粒度更細緻的個人化推薦服務，奠定了精準行銷基礎。&lt;/p&gt;
-&lt;p&gt;這些經歷，強化了他們的資料分析能力，漸漸累積商業智慧（BI）以外的資料處理經驗。2013年，CRV更朝資料科學應用發展，開始將資料分析成果運用與數位業務，還要從更大量、動態變化的數據中，挖掘有意義的洞察。&lt;/p&gt;
-&lt;p&gt;那幾年，正逢新技術不斷崛起。2010年，世界第一個加密貨幣交易所誕生，掀起區塊鏈去中心化技術的應用浪潮；2012年，深度學習在ImageNet大賽中崛起；AR/VR也隨著智慧型手機和裝置普及，開始竄紅。&lt;/p&gt;
-&lt;p&gt;一如追逐新技術的科技公司，玉山也成立專門組織來研究新技術。2015年，玉山創新發展中心（Innovation Development Center，IDC）誕生，來研究AI、區塊鏈等技術，CRV則繼續專攻大數據分析。但經過1、2年運作，團隊意識到，IDC終究是以資料為創新導向的組織，並非完全以研究新技術而成立的組織，難以將技術落地到服務中。&lt;/p&gt;
-&lt;p&gt;於是，玉山調整方向，在2017年初成立創新實驗室（Innovation Lab），來研究區塊鏈、AI、身分辨識、電子支付、大數據和AR/VR等六大前瞻性技術，同時在實驗室下設研發、商轉、顧問和育成四大中心，拓展技術人才資源布局。&lt;/p&gt;
-&lt;p&gt;不過，改變的腳步並未停下。2018年，玉山再次調整方向，這一次，他們打破臺灣金融界先例，成立科技長辦公室（CTO Office），找來已故臺灣人工智慧學校執行長陳昇瑋擔任科技長，來加速金融科技研發和落地。那段時間裡，創新實驗室的所有工作，也轉移到科技長辦公室執行。&lt;/p&gt;
-&lt;p&gt;但新興技術這麼多，科技長如何選擇有潛力的技術？「昇瑋上任後，隨即與產學討論，確認AI能改善商業模式和獲利模式，因此決定全力發展金融AI，」現任玉山金控科技長張智星回憶。這個決定，定調了玉山科技發展藍圖，讓玉山過去十多年來科技實力的積累，有了新方向。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;直奔銀行第一線，開發底層工具作內部AI供應商&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;玉山對AI策略的重視程度之高，不惜終止了幾個千萬元等級的專案，挪出資源改集中到AI研發上。不只如此，他們還在2019年成立了專責單位，來實踐AI藍圖。&lt;/p&gt;
-&lt;p&gt;這個單位，就是玉山AI化的核心推手──智能金融處，由科技長出任處長，指揮團隊建置AI底層架構、開發AI系統。而CRV也功成身退，轉型為智金處來推動金融AI服務的使命。雖是一脈相承的單位，但有別於設置在金控層級的CRV，智金處則隸屬於銀行。在這個位置，「可以做第一線業務，也更容易從第一線視角觀察使用者需求，」張智星點出這項組織設計的戰略意義。&lt;/p&gt;
-&lt;p&gt;智金處到底做哪些事呢？張智星以「內部AI供應商」這個角色來形容。&lt;/p&gt;
-&lt;p&gt;許多企業內部AI部門，常是負責AI技術研發，也參與各部門不同的AI專案，共同開發。但玉山智金處更進一步，把這些AI技術，打造成一套內部專用的AI服務產品，讓各單位可以自行運用。&lt;/p&gt;
-&lt;p&gt;例如，玉山智金處在2018年第一季，開始著手打造機器學習服務（MLaaS）平臺，作為內部開發AI的共用支援服務。他們的設計思維，是將MLaaS平臺視為一種外掛機制，透過Web服務串接現有系統。當有系統需要某項AI功能時，直接用API呼叫對應的MLaaS服務，API就會回傳AI模型推論的結果。這個作法，等於將AI嵌入現有系統，讓系統具備內建的AI能力。不只提供AI推論功能，MLaaS平臺還具備模型訓練、資料ETL的功能。&lt;/p&gt;
-&lt;p&gt;張智星解釋，MLaaS平臺的服務對象是系統，特色是「快、準，」不只講究嵌入到其他系統的上線運作速度要快， 還特別注重提供AI推論結果的速度，也要快。&lt;/p&gt;
-&lt;p&gt;以信用卡盜刷偵測模型來說，MLaaS平臺的模型可以做到在0.1秒內回傳推論結果至前端系統，並且準確度要達到業管單位的要求。他透露，為了維持模型的準確度，智金處更決定在今年推動MLOps，來協助團隊監控模型表現，即時更新模型或下架，來維持判斷品質。&lt;/p&gt;
-&lt;p&gt;這一點，點出了智金處與一般AI研究單位的另一個不同之處。智金處還要負責AI模型後續的維運，張智星說明，舉凡模型上線後的表現監控、利用新資料再訓練等工作，都包含在內。舉例來說， 疫情間民眾的消費模式改變，智金處每周就得利用當周收集的新資料，來更新信用卡盜刷偵測模型，以保持模型準確度。&lt;/p&gt;
-&lt;p&gt;除了MLaaS平臺，智金處還建立另一個內部共用的工具型服務──AI研發雲。這朵AI研發雲可以用來建立一個開發環境，具備各種函式庫，供不同專案的開發者共用資料、建立模型，甚至是嘗試新點子，「就像沙盒一樣，」張智星說。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;與資訊處、數金處三方合作，打造玉山金融科技服務&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;智金處提供AI開發服務，但模型訓練牽涉到資料收集、資安等議題，因此也得和資訊單位分工合作。「整體系統維運、資料庫建置、防火牆設置等工作，都由800人規模的資訊處負責。」張智星補充，玉山銀行資訊處掌管大型系統的建置， 也負責對外服務平臺開發、大型資料庫建置，以及資安維護等工作。&lt;/p&gt;
-&lt;p&gt;另一方面，玉山銀行旗下還設置了數位金融處（簡稱數金處），負責數位金融應用相關的工作，這個單位比智金處早幾年成立，兩者性質相仿，都編制在銀行下，目標都是推動金融科技應用。不過，數金處聚焦普惠金融、智慧金融和場景金融等更業務面的發展，舉凡數位品牌如e.Fingo、e指系列、行動銀行和玉山Wallet等，都由數金處負責設計、開發。&lt;/p&gt;
-&lt;p&gt;同樣地，數金處這些系統背後的維運、資料庫建置等工作，還是由資訊處掌管，而是數金處開發的服務需要用到AI功能時，智金處也會投入開發、建模。張智星表示，玉山資訊處、智金處、數金處三方協力，正是彰顯玉山金融科技力的關鍵。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;不只做AI，還三管齊下打造玉山科技力形象&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;不過，智金處的職責不只這些。&lt;/p&gt;
-&lt;p&gt;他們還有一個特別的任務──品牌經營，負責展現玉山科技力的形象。他們將品牌經營分為對內和對外，對內，智金處得負責技術推廣，時常到各單位舉辦服務宣導活動，解釋智金處兩套AI 開發平臺的功能和成效，也會主動至不同單位訪談需求。&lt;/p&gt;
-&lt;p&gt;幾年下來，這個做法建立了玉山內部對智金處的共同形象，也就是負責提供內部AI服務，甚至玉山科技聯隊的其他部門，如資訊處、數金處，也都讚賞MLaaS平臺這樣的內部服務。&lt;/p&gt;
-&lt;p&gt;對外品牌經營上，智金處則三管齊下，透過三種管道來展現玉山科技力品牌形象。首先，他們鎖定學術圈，在多家頂尖大學設置玉山AI暨金融科技研發中心，與專精特定技術的師生展開研究；同時，他們也積極到合作學校演講，分享金融科技實務經驗和發展。如此一來，智金處不只能快速接觸最新的AI技術進展，也能展現玉山積極擁抱科技的形象。&lt;/p&gt;
-&lt;p&gt;再來，第二個管道是，智金處透過AI競賽，一方面吸引人才，一方面傳達玉山對AI技術的重視，一方面也藉助群眾智慧，來精進自家的分析方法。玉山自2018年開始，每年舉辦人工智慧公開挑戰賽，提供去識別化資料，來吸引AI好手解決真實世界的金融問題。光是前四屆就有約5,700人次參賽者，一半是學生，另一半則來自不同領域的AI在職人員。其中兩屆的冠軍，後來都加入玉山AI團隊，成了多項高難度非結構化資料分析專案的助力。&lt;/p&gt;
-&lt;p&gt;最後，智金處也積極融入技術社群，參加不少開發者論壇和技術圈活動，像是臺灣Pycon數位論壇，來樹立玉山對各種技術開放心態的形象。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;借鏡國外多家科技銀行經驗，智金處要人人具備寫程式和資料處理的基本能力&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;智金處要經營企業品牌，還要懂業務需求、打造底層架構、開發AI系統，他們用什麼樣的組織文化，來培養如此強大的韌性？&lt;/p&gt;
-&lt;p&gt;這在智金處成立時，就埋下伏筆了。當時，智金處核心成員遠赴國外參訪不少科技銀行，他們想借鏡這些銀行的經驗，來發展玉山金融科技策略。他們與這些銀行技術長促膝長談，話題涵蓋硬體規格、開發模式、工程師特質和人才選擇，一次請教清楚。&lt;/p&gt;
-&lt;p&gt;最令他們印象深刻的是，國外不乏以工程師主導的銀行，有些銀行組織中的工程師人力占比甚至高達到8成，其餘2成才是業務、法務、會計。而這80%的工程師，完全掌握金融業務產品的開發。甚至，智金處還觀察到，有些技術長會親自跳到第一線寫程式、盯專案，這在層層分工的金融界，是非常少見的作法。&lt;/p&gt;
-&lt;p&gt;於是，玉山團隊回臺後，開始思考如何塑造智金處的組織文化。雖然無法如國外科技銀行般，以8成工程師為主來帶動AI發展，但陳昇瑋決定，要求所有同仁在3個月內學會Python程式語言。他希望，智金處人人都能具備相同的邏輯思考語言。&lt;/p&gt;
-&lt;p&gt;這個決定，也漸漸塑造出智金處新的行事風格。過去，CRV時代著重BI 分析，負責大數據研發的同仁，多為企管、統計出身，而且習慣使用套裝軟體工具。經過兩、三年發展，這個氛圍逐漸轉換為以機器學習技術運用、自行開發程式和資料處理為主的工作型態。&lt;/p&gt;
-&lt;p&gt;智金處成員既要具備金融領域知識，也得擁有資料處理的基本能力，就連非開發人員的商業分析、產品經理等人，也要求能操控資料庫、執行特徵化（Featurization），甚至連資料預處理都很熟悉。「最重要的是，大家能以同一種思維語言溝通，更能在業管單位和IT單位間切換思考，」張智星說。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;再調組織催生企劃部研究法規，招人準則是夠聰明、學習能力強&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;除了培養內部人才技能來實踐AI策略，智金處也不斷調整組織架構，來配合銀行未來發展目標。起初，智金處內部只簡單分為智能分析部和智能系統部兩大單位，期望成員將自己視為產品開發者，而非只受限於工程師單一角色。&lt;/p&gt;
-&lt;p&gt;但隨著時間推移，他們意識到進一步分工的必要。今年初，智金處也進行了一次大改組，新增設智能系統部、智能企劃部，原本的智能分析部則改為智能服務部，共有三個部門。在智能服務部下，還細分為智能應用科、智能風險科和智能技術科。&lt;/p&gt;
-&lt;p&gt;這麼做，是為了更細緻地分工。舉例來說，為了將AI融入到銀行業務，就需要懂業管單位需求的智能應用科，來扮演溝通橋樑；而智能技術科，則專門打造AI模型。開發模型時，則有智能風險科來提供信評、風險等相關金融專業領域的知識，幫助資料科學家團隊訓練出更貼近需求的AI。&lt;/p&gt;
-&lt;p&gt;特別的是，智能企劃部是智金處下專門研究金融法規的單位。玉山解釋，智金處設置於銀行之下，雖能執行第一線業務，但也必須符合許多法遵要求。於是，企劃部因應而生，專門負責法規研究，不只要幫團隊找到合規、好用的系統，還要找出法規可突破之處，讓研發團隊先做足準備。&lt;/p&gt;
-&lt;p&gt;由於智金處的多元特性，他們在招募人才上也有一套偏好。他們的招人準則很簡單，只要具備程式能力且夠聰明、學習能力強，就會納入考量。智金處特別看重學習能力，因為，團隊雖然專攻機器學習，但要解決的問題五花八門，周遭的同事或前輩不見得能幫上忙，得靠自己查資料、研究。&lt;/p&gt;
-&lt;p&gt;這個過程，可能很挫折。但強大的學習能力，就能克服這個難關；智金處可望吸引夠聰明、有強大學習心態的人才，因為他們有各式各樣有趣的問題，等待人才來解決。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;AI供應商只是起點，未來要成為金控金融科技推手&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;回首來時路，玉山技術發展與組織轉型息息相關，從數十年前的大數據分析團隊CRV，一路改組轉型到現在的智金處，在這個過程中，他們歷經了商業洞察提供者、資料加值提供者、模型服務提供者的定位轉換，每個時代都被賦予不同的角色和使命。內部AI供應商，也只是智金處所有的其中一個身分。&lt;/p&gt;
-&lt;p&gt;玉山對智金處充滿期待，他們寄予厚望，要智金處成為玉山金融科技發展的主力，甚至扮演玉山第三個十年目標「科技的玉山」核心推手，以科技帶領所有業務。&lt;/p&gt;
-&lt;p&gt;一如玉山金控暨銀行資訊長謝萬里在2016年揭露：「玉山要成為資訊科技公司！」也如同2018年，陳昇瑋一上任玉山金控科技長所喊出：「玉山要成為領有金融執照的科技公司！」現在，張智星接棒玉山科技長後強調：「我們往同一個方向繼續邁進。」這個科技玉山的方向，一直沒有改變。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 玉山AI組織發展史：從資料倉儲、資料科學到AI &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2006年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;成立大數據分析團隊CRV，著重資料倉儲分析、風險模型，以及商業智慧分析應用&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2009年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;開始發展客群導向的精準行銷&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2013年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;開始將資料分析成果應用到數位業務&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2015年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;成立創新發展中心（IDC）來研究新技術，2年後收回&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2017年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;成立創新實驗室（Innovation Lab），研究區塊鏈、AI、身分辨識、電子支付、大數據和AR/VR等六大技術；實驗室下設研發、商轉、顧問和育成四大中心，拓展技術人才資源佈局&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2018年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;成立科技長辦公室，定調玉山AI發展藍圖，由已故臺灣人工智慧學校執行長陳昇瑋擔任科技長&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2019年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;玉山銀行下設智能金融處（即智金處），由科技長指揮建置AI開發平臺和串接平臺。CRV功成身退，轉型為智金處&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2020年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;由臺大金融科技中心主任張智星接任玉山金控科技長一職&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2021年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;智金處改組，將原智能分析部改為智能服務部，以強調服務落地，下設智能應用科、智能風險科及智能應用科；並新增智能企劃部，負責服務落地的相關法遵風管等議題；智能系統部持續承接系統開發與平臺建置等任務&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;資料來源：玉山金控，iThome整理，2021年8月&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 智金處與數金處、資訊處的分工 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;資訊處、數金處和智金處是玉山科技聯隊中的鐵三角，智金處扮演AI大腦，資訊處是神經系統，數金處則運用AI大腦和神經系統發展數位應用，這是玉山推動金融科技服務的鐵三角，另外還有一個人數較少而未列入的資安處，則扮演煞車的角色。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span style=&quot;background-color:#ffff00;&quot;&gt; 智金處 &lt;/span&gt;&lt;/span&gt; 打造AI研發雲和MLaaS平臺，作為AI系統開發的兩大工具，負責建模、訓練、部署和模型維運&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#FFFF00;&quot;&gt; 數金處 &lt;/span&gt; 鎖定普惠金融、智慧金融和場景金融，負責設計、開發數位金融服務的各種平臺&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#FFFF00;&quot;&gt; 資訊處 &lt;/span&gt; 建置及管理大型核心系統和交易系統、資料庫、防火牆等，也會開發對外服務系統與平臺&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;資料來源：玉山金控，iThome整理，2021年8月&lt;/span&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146183 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146183#comments</comments>
-</item>
-<item>
- <title>LockBit 2.0勒索軟體大舉侵襲澳洲，當地網路安全中心發布警告</title>
- <link>https://www.ithome.com.tw/news/146226</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;駭客利用勒索軟體LockBit 2.0攻擊的現象，最近出現數起事故。例如，於8月11日，運用該勒索軟體的駭客，&lt;a href=&quot;https://www.ithome.com.tw/news/146157&quot;&gt;宣稱攻陷IT大型顧問公司Accenture&lt;/a&gt;，並要求限時支付贖金，否則就要把竊得的資料公開。針對勒索軟體LockBit 2.0的攻擊事故已有數起，&lt;a href=&quot;https://www.cyber.gov.au/acsc/view-all-content/advisories/2021-006-acsc-ransomware-profile-lockbit-20&quot;&gt;澳洲網路安全中心（ACSC）提出警告&lt;/a&gt;，表示他們近期屢屢接獲當地企業通報，發生遭到LockBit 2.0攻擊的事故。&lt;/p&gt;
-&lt;p&gt;針對此波LockBit 2.0攻擊，ACSC也透過MITRE ATT&amp;amp;CK框架，描敘駭客在攻擊過程中會採用的手法，並提出緩解措施。&lt;/p&gt;
-&lt;p&gt;勒索軟體LockBit（又被稱為ABCD）最早出現於2019年9月，而ACSC指出，開發這個攻擊工具的開發者，自2021年1月在俄語網路犯罪論壇上銷售，以訂閱服務的型式提供給買家使用，並採用贖金抽成的方式獲利。到了6月，開發者發布了後繼版本「LockBit 2.0」，宣稱新增了名為StealBit的竊密功能。&lt;/p&gt;
-&lt;p&gt;濫用LockBit的攻擊者往往會使用雙重勒索的招數，藉由將偷得的機密資料，上傳到位於暗網的LockBit 2.0網站，要脅受害組織付款，若是不從，就把這些資料出售或是公開。LockBit 2.0網站架設在洋蔥路由網路（Tor network），而使得攻擊者的行蹤更加隱匿。&lt;/p&gt;
-&lt;p&gt;根據ACSC接獲的事故通報，澳洲當地自2020年開始，傳出遭到LockBit與LockBit 2.0攻擊的情況，但該單位指出，大部分事故都是在2021年7月通報，這代表相較於其他的勒索軟體，LockBit 2.0的攻擊行動急劇增加。&lt;/p&gt;
-&lt;p&gt;對於LockBit 2.0入侵受害組織的管道，ACSC表示，提供工具的開發者會建議買家，透過遠端桌面連線（RDP）、VPN，並搭配外洩的帳密來進行，或者，建議買家使用Cobalt Strike與Metasploit等滲透測試工具，入侵攻擊的目標。&lt;/p&gt;
-&lt;p&gt;但針對近期的攻擊事件，ACSC指出，最近攻擊者偏向利用Fortinet的SSL VPN漏洞CVE-2018-13379，這項漏洞存在於執行舊版FortiOS作業系統的網路設備，以及FortiProxy網路安全閘道產品。&lt;/p&gt;
-&lt;p&gt;而究竟LockBit 2.0被用於攻擊的對象為何？根據ACSC的觀察，濫用此勒索軟體的事故，發生在專業服務、建築業、製造業、零售業，以及食品產業等多種行業之中，ACSC認為，攻擊者挑選目標是隨機的，因為該勒索軟體能攻擊不同的產業。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 11:27:16 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146226 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146226#comments</comments>
 </item>
 </channel>
 </rss>

@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/110" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/110</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/110" rel="self" type="application/rss+xml" />
       <item>
+    <title>微軟政府最高機密雲Azure Government Top Secret正式上線</title>
+    <link>https://www.ithome.com.tw/news/146244</link>
+    <description> 微軟去年12月公布專門提供給政府儲存機密資訊的Azure Government Top Secret，本周微軟宣布這項服務正式上線。</description>
+     <pubDate>2021-08-17  10:08:30</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146244</guid>
+  </item>
+  <item>
     <title>Adobe文件服務新推2大API，能自動擷取完整PDF結構輸出JSON檔方便整合Web，還能嵌入Word</title>
     <link>https://www.ithome.com.tw/news/146240</link>
     <description> Adobe在文件服務（Adobe Document Services）中新增兩大API功能，分別是Adobe PDF Extract API與Adobe Document Generation API。前者能根據PDF內容的檔案結構，透過Adobe核心AI引擎Adobe Sensei擷取文字、表格資料、圖像等元素，並以JSON格式輸出；後者則可以將JSON格式資料，嵌入Microsoft Word文件內容中，來生成具動態資料的PDF檔案。</description>
@@ -254,14 +262,6 @@ AI戰略一：深化創新
      <pubDate>2021-08-13  02:08:43</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146188</guid>
-  </item>
-  <item>
-    <title>傳Amazon考慮監視客服員工打字以防止客戶個資外洩</title>
-    <link>https://www.ithome.com.tw/news/146187</link>
-    <description> 由於客服人員帳密被冒用或被買通洩露客戶個資情形嚴重，電商龍頭Amazon設法防堵。The Motherboard取得的一份內部文件顯示，Amazon正在評估導入監控客服人員鍵擊動作的技術，以防止不肖員工或駭客竊取客戶個資的情形。</description>
-     <pubDate>2021-08-13  02:08:55</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146187</guid>
   </item>
   </channel>
 </rss>
