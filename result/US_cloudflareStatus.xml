@@ -4,10 +4,26 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-08-16T16:43:08Z</updated>
+  <updated>2021-08-17T08:48:13Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
+  <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7777181</id>
+    <published>2021-08-16T23:42:04Z</published>
+    <updated>2021-08-16T23:42:04Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/v4pgw9rbcnpw"/>
+    <title>Durable Objects timeouts</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;16&lt;/var&gt;, &lt;var data-var='time'&gt;23:42&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;16&lt;/var&gt;, &lt;var data-var='time'&gt;21:08&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues related to network connectivity to Durable Objects.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7776871</id>
+    <published>2021-08-16T20:29:35Z</published>
+    <updated>2021-08-16T20:29:35Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/4tw4b2f15z2d"/>
+    <title>Cloudflare for Teams: Gateway Issues</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;16&lt;/var&gt;, &lt;var data-var='time'&gt;20:29&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;16&lt;/var&gt;, &lt;var data-var='time'&gt;20:26&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Cloudflare has implemented a fix for this issue and is currently monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;16&lt;/var&gt;, &lt;var data-var='time'&gt;20:25&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;16&lt;/var&gt;, &lt;var data-var='time'&gt;20:09&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with the HTTP proxy component within Gateway. Performance and connectivity through Gateway may be impacted.&lt;br /&gt;&lt;br /&gt;We are working to understand the full impact and mitigate this problem. More updates to follow shortly.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7752831</id>
     <published>2021-08-13T09:01:10Z</published>
@@ -191,21 +207,5 @@
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/f2f5s9jvc6j9"/>
     <title>Customer Impacting Issue</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;19:57&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;19:33&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;18:42&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;18:12&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is aware of, and investigating a Health Check monitoring issue which potentially impacts multiple customers. Further detail will be provided as more information becomes available.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7623282</id>
-    <published>2021-07-28T11:25:23Z</published>
-    <updated>2021-07-28T11:25:23Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/x320n4ntn2pj"/>
-    <title>Cloudflare for Teams Dashboard issues</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;11:25&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;11:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;10:19&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with Cloudflare for Teams Dashboard.&lt;br /&gt;&lt;br /&gt;Some users might see problems logging into Cloudflare for Teams Dashboard.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7620592</id>
-    <published>2021-07-28T03:14:52Z</published>
-    <updated>2021-07-28T03:14:52Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/mbdny5mx45wm"/>
-    <title>Cloudflare is investigating reports of issues with single-file cache purging (purge by URL).</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;03:14&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;03:04&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;02:26&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare single-file cache purging requests (purge by URL) called via the Dashboard/API may fail. &lt;br /&gt;&lt;br /&gt;We are working to resolve this issue as soon as possible. Until then you may use the Purge Everything or Purge by Hostname feature but do be aware it may cause a surge in traffic to your origin server(s). More updates to follow.&lt;/p&gt;</content>
   </entry>
 </feed>

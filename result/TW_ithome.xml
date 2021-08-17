@@ -6,6 +6,305 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>【技術管理者成長系列2】商業如何驅動架構設計？成為架構師前要先懂的8件事</title>
+ <link>https://www.ithome.com.tw/news/146160</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在臺灣不少技術管理者或技術主管，在公司內也擔任架構師的角色，但相較於國外，過去在臺灣少有架構師公開分享自身架構設計的實驗經驗，不過，近日在一場線上技術管理者論壇上，鼎恒科技應用產品設計中心協理林承毅，大方傳授多年來擔任架構師的工作經驗，不僅教導開發人員怎麼學習平衡開發與架構設計之間的工作，更分享他如何透過商業來驅動架構設計。&lt;/p&gt;
+&lt;p&gt;林承毅過去在博奕產業IT待了十多年，一手主導不少大型軟體架構設計，來因應各種大流量與高併發的應用場景，對於架構設計相當熟諳，後來進到鼎恒科技，更帶領其中一個產品研發中心團隊，負責應用產品設計與開發。&lt;/p&gt;
+&lt;h2&gt;第一件事：架構師和開發人員的本質不同&lt;/h2&gt;
+&lt;p&gt;許多人用蛻變升級來形容，資深開發人員成為架構師的過程，但林承毅認為，從開發人員到架構師，更像是一種轉職的過程，等於是個人職業生涯的大轉換。因為，取得架構師職位後，意謂著，開發人員有可能必須放棄習慣持續精進的技術能力，轉而提升視野，增加自己的技術廣度。他也以自身為例，擔任架構師幾年來，雖論開發技巧或開發能力，公司比他厲害的人不少，但他對於知識掌握更多，更廣，可以看到更多不同面向。「這是本質上，架構師和一般開發人員的差異。」&lt;/p&gt;
+&lt;h2&gt;第二件事：單有技術深度不夠，架構師還必須持續增加技術廣度  &lt;/h2&gt;
+&lt;p&gt;架構師需要建立自己的架構思維，主要有兩個面向，一個是技術深度，一個是技術廣度。&lt;/p&gt;
+&lt;p&gt;他也說，絕大多數的架構師，成為架構師前，通常是IT團隊裡最資深且技術最扎實的開發人員之一，這些人會對特定技術持續深入學習，一直不斷累積實戰經驗，增加自己的技術深度。然而，成為架構師後要面臨的問題，不僅僅是技術問題，還包括商業領域問題、安全問題、部署環境問題、公司組織文化問題，甚至還有預算考量和法規限制。&lt;/p&gt;
+&lt;p&gt;正因為時間有限，需要處理的問題實在太多，所以，架構師很難像以前一樣有足夠時間持續精進技術深度，只能在技術深度與技術廣度兩者之間，盡可能取得平衡。&lt;/p&gt;
+&lt;p&gt;為何架構師需要足夠的技術廣度？林承毅解釋，架構師必須要能看出不同解決方案的差異，甚至分析好壞，才能判斷出還有哪些類似問題可能影響原本的架構設計。而想具備這樣的判斷能力，重點不是對技術掌握多深，而是要有廣度，才能夠很快找出方案中潛藏的問題點。所以，持續增加技術廣度，對於架構師來說很重要。&lt;/p&gt;
+&lt;h2&gt;第三件事：學習平衡開發與架構設計之間的工作&lt;/h2&gt;
+&lt;p&gt;不光如此，團隊中的架構師，得學習平衡開發與架構設計之間的工作分配。通常在決定好架構設計後，多半會認為該由架構師負責核心與最底層的開發任務，聽起來沒有問題，因為架構師最了解自己的設計，但他指出，這樣的作法，衍出生另一個問題，當整體架構出問題，往往只靠架構師自己解決，其他人很難給予協助，這就帶來瓶頸。例如架構師離職了，就沒人懂這個架構，久而久之，原來好的架構設計，會變成團隊必須背負的技術債（或稱祖產），「當你架構沒辦法演化或進化，你的商業模式是很難再進化。」&lt;/p&gt;
+&lt;p&gt;對於團隊開發與架構設計，林承毅建議，較好的合作模式是，架構師先決定好框架和架構設計後，交由團隊其他成員來負責開發任務，讓架構師只需負責跟業務相關的開發任務，這樣的好處是，一來讓架構師有時間可以持續深化技術不至於與技術脫節，二來團隊成員也能對於架構設計有更多了解，知道開發核心樣貌。&lt;/p&gt;
+&lt;h2&gt;第四件事：架構設計過程深受關鍵需求的影響&lt;/h2&gt;
+&lt;p&gt;開始設計架構時，架構師會依據需求來做取捨，決定整體架構設計樣貌。確認需求有很多方法，林承毅也說，其中一個是可通過ADMEMS需求矩陣進行需求結構化，進而得到需求全貌。一般來說，這些關鍵需求大致可分為功能性需求、約束性需求與品質需求，這些需求都會影響到架構設計，而從需求提取出來的架構特性，可以幫助架構師有效控制需求複雜性，並降低架構設計失敗的風險，以及作為架構設計衝突時的取捨依據。&lt;/p&gt;
+&lt;h2&gt;第五件事：運用DDD方法論將技術架構與商業架構對齊&lt;/h2&gt;
+&lt;p&gt;正因為許多架構師，都是從開發人員、資深開發人員一路往上爬，林承毅有感而發的說：「成為架構師以後，免不了在設計架構時，容易只從技術角度來設計架構，以致於，最後要將商業模型放進架構時，才發現設計出問題，需要犧牲架構其他部分。」所以，他建議，架構師得拆解原本的技術架構，想辦法讓這個架構能夠與商業架構對齊。&lt;/p&gt;
+&lt;p&gt;要對齊商業架構，也有各種不同作法，他表示，其中一個作法就是可以採用近幾年因微服務盛行而竄紅的領域驅動設計（Domain Driven Design,DDD）方法論，透過這套方法論，能夠從業務相關的領域知識、對問題與解決方案進行切割，找出商業問題邊界、技術邊界、人員溝通一致性邊界，進而理解軟體架構需要解決哪些商業問題及其邊界範圍。他也提到，要讓技術架構能夠對齊商業架構，架構師可以透過DDD方法論中提及的Bounded Context與Subdomaion觀念，來定義問題與解法，建立一個通用語言讓團隊能夠彼此一致對話。&lt;/p&gt;
+&lt;p&gt;林承毅也說，當我們設計的技術架構跟商業架構能夠互相匹配，就能夠透過商業變化來驅動技術架構上的變化。當技術架構進化了，自然會帶動商業型態再一次改變。「這是業界明顯可以看到的現象。」&lt;/p&gt;
+&lt;h2&gt;第六件事：架構師必須經常取捨，才能達到持續改善的目標 &lt;/h2&gt;
+&lt;p&gt;林承毅表示，持續改善架構設計過程中，架構師會一直面臨取捨，甚至有時得放棄一開始認為不錯的架構優點，並接受原先認為有問題的缺點。他補充說明，這是因為最初的缺點或優點，會隨著整個商業模式、營運方式、架構設計而改變，「 缺點不見得永遠都是缺點，優點不見得永遠都是優點。」&lt;/p&gt;
+&lt;p&gt;因為如此，他強調，架構師必須要了解不同架構設計風格，會帶來哪些影響，比如為了調整服務間的通訊方式，提升整個架構的靈活性，而改採用事件驅動的架構風格，雖然有其好處，但缺點是架構變更複雜，維護不易，不僅架構整體容錯性需重新設計，同時要避免事件本身在版本差異上造成的衝突。「所以在選擇架構風格時，架構師除了需要知道它可能帶來的負面影響，也得讓團隊理解需要承擔哪些風險。」他說。&lt;/p&gt;
+&lt;h2&gt;第七件事：建立架構設計該有的基本流程與方法&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-05-22%20%E4%B8%8B%E5%8D%883_25_31.png&quot; style=&quot;width: 600px; height: 366px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;林承毅以一張團隊協作的流程圖，來說明建立架構設計該有的流程與方法。從這張流程圖可以看到，一開始，團隊與領域專家和使用者對話，針對公司的商業目標、問題、需求來彼此溝通，發展出屬於自己的通用語言，藉由通用語言去拆分出問題的解決方案、不同領域問題，然後透過不同的Bounded Context邊界來管理團隊、分析與建模，如此一來，就會產生屬於自己的領域模型，透過這些領域模型撰寫可用於生產或正式環境的程式碼，以及測試環境的程式碼，再透過測試程式碼驗證生產環境程式碼有無問題，過程中並以領域模型同時指導生產與測試環境的程式碼，然後在重開發過程中，重新提煉出經進化完成的通用語言，再從這個通用語言結合新的需求、新的商業目標、問題再拆分出可能要面對的新的Bounded Context邊界。並成為一個反覆循環過程，「我認為這才是在做架構設計應該要有的流程與方法。」&lt;/p&gt;
+&lt;h2&gt;第八件事：架構師要懂得傾聽建議、與團隊緊密合作&lt;/h2&gt;
+&lt;p&gt;因此，林承毅特別強調團隊協作，尤其，對於架構師來說，不只要理解團隊協作怎麼做，還要發揮領導力和學習處理政治問題，讓團隊能夠往期望的目標前進。除此之外，還要落實架構治理，管理決策，以及架構風險等等。&lt;/p&gt;
+&lt;p&gt;另外，他說，架構師要懂得傾聽團隊成員對架構改善的建議，因架構設計並沒有完美的決策，每一個架構決策，都需要經過充份且激烈的討論。因此，想要讓架構真的可行和成功落地，架構師與團隊需要緊密合作，才有機會達到目標。&lt;/p&gt;
+&lt;p&gt;最後他還提到，投資基礎工程實務重要性，包括有無完成整合測試、建立自動化測試流程、整合CI/CD測試流程，以及以程式碼方式來控管基儲設施等，這些都能夠幫助開發團隊縮短產品發布時程。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;更多技術管理者系列報導：&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/145685&quot;&gt;【技術管理者成長系列1】在商業與技術抉擇前，該考慮6件事&lt;/a&gt;&lt;/h3&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 08:13:17 +0000</pubDate>
+ <dc:creator>余至浩</dc:creator>
+ <guid isPermaLink="false">146160 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146160#comments</comments>
+</item>
+<item>
+ <title>Realtek晶片10多項安全漏洞可導致系統被接管，影響至少65家IoT廠商</title>
+ <link>https://www.ithome.com.tw/news/146236</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.iot-inspector.com/blog/advisory-multiple-issues-realtek-sdk-iot-supply-chain/&quot; target=&quot;_blank&quot;&gt;安全廠商IoT Inspector本周公布&lt;/a&gt;瑞昱半導體的一款無線裝置晶片，有10多項漏洞，可使駭客執行任意程式碼，最嚴重可導致系統被接管。瑞昱已經完成修補。&lt;/p&gt;
+&lt;p&gt;研究人員是在研究一臺雙SoC設計的網路數據機時發現問題，最後在其中所用的Realtek SoC晶片發現安全漏洞。這臺裝置主要SoC跑的是Linux，另一顆SoC是瑞昱的Realtek RTL819xD。這塊晶片所屬的RTL8xxx SoC系列是IoT裝置常用的無線晶片。在這次的系統上，它負責裝置上所有的AP（Access Point）功能，跑的是瑞昱寫的精簡版Linux系統。&lt;/p&gt;
+&lt;p&gt;研究人員發現RTL819xD使用的Realtek SDK可能導致服務曝露在網路上，而使IoT裝置有安全風險。經過分析，該SDK當中的二進位檔存在10多項漏洞，從指令注入、到記憶體毁損，影響UPnP、HTTP介面，以及Realtek開發的網路服務。&lt;/p&gt;
+&lt;p&gt;有問題的SDK包括Realtek SDK v2.x、Realtek “Jungle” SDK v3.0到v3.4，以及Realtek “Luna” SDK 1.3.2以前版本。&lt;/p&gt;
+&lt;p&gt;所有使用RTL8xxx系列SoC的IoT裝置都因此曝險。研究人員表示，若是讓攻擊者開採這些漏洞，他們可以以最高權限執行任意程式碼，最嚴重是完全接管受害裝置。&lt;/p&gt;
+&lt;p&gt;研究人員評估至少65家廠商受影響，包括Netgear、LG、ZTE、Zyxel，涵括將近200個不同產品。受影響的裝置涵括多種IoT裝置，包括家用閘道、旅行用路由器、Wi-Fi 訊號放大器、IP攝影機、或智慧照明閘道，甚至可連網的兒童玩具。&lt;/p&gt;
+&lt;p&gt;研究人員今年5月通報瑞昱後，該公司已經釋出新版SDK，修補Realtek Jungle SDK及Luna SDK，&lt;a href=&quot;https://www.realtek.com/images/safe-report/Realtek_APRouter_SDK_Advisory-CVE-2021-35392_35395.pdf&quot; target=&quot;_blank&quot;&gt;並釋出安全公告&lt;/a&gt;。但Realtek SDK v2.x已經是11年的舊軟體，現在瑞昱已不支援，廠商應考慮升級版本。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;http://www.realtek.com/images/safe-report/Realtek_APRouter_SDK_Advisory-CVE-2021-35392_35395.pdf&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0817-realtek-600-1.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 05:46:55 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146236 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146236#comments</comments>
+</item>
+<item>
+ <title>190萬名恐怖份子觀察名單在網路上曝光</title>
+ <link>https://www.ithome.com.tw/news/146235</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;SecurityDiscovery.com的網路威脅情報總監Bob Diachenko在7月19日，&lt;a href=&quot;https://twitter.com/MayhemDayOne/status/1417174479323680775&quot; target=&quot;_blank&quot;&gt;發現了一份約190萬名全球恐怖份子的觀察名單&lt;/a&gt;，該名單是放置在一個Elasticsearch叢集上，而且沒有任何密碼保護，來源是美國聯邦調查局（FBI）所管轄的恐怖份子審查中心（Terrorist Screening Center，TSC）。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0817-Bob%20Diachenko.jpg&quot; style=&quot;width: 591px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;TSC負責維護美國的禁飛名單，雖是由FBI管轄，但所蒐集的資料來自美國國務院、國防部、交通安全局、海關暨邊境保護局，以及美國的其它盟國等，這次被發現的190萬筆資料，可能只是全球恐怖份子觀察名單中的一部份，該名單包含姓名、國籍、性別、生日、護照號碼與禁飛指示等。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/pulse/americas-secret-terrorist-watchlist-exposed-web-report-diachenko/&quot; target=&quot;_blank&quot;&gt;Diachenko指出&lt;/a&gt;，Censys與ZoomEye兩大搜尋引擎是在7月19日索引了該Elasticsearch伺服器，而他同一天便發現了曝光的名單，並立即通知美國國土安全部（DHS），但存放名單的伺服器一直到8月9日才下線。奇怪的是，此一資料庫的IP位址並非位於美國，而是中東的巴林。&lt;/p&gt;
+&lt;p&gt;此一美國恐怖份子觀察名單過去屬於機密文件，只有經過授權的美國機構及官員得以存取，但在2015年之後，美國變更了相關政策，開始通知境內被列為恐怖份子觀察名單的民眾，但國外民眾往往是在搭機時才發現，自己被懷疑是恐怖份子而被禁飛。&lt;/p&gt;
+&lt;p&gt;Diachenko表示，名單上的民眾都只是涉嫌，並未被定罪，但倘若落入壞人的手上，民眾或其家人可能會被壓迫或騷擾，也會對無辜的人帶來困擾。此外，美國有時會說服某些嫌犯轉為線人，並解除他們的禁飛限制，名單的外洩也可能讓線人的身分曝光。&lt;/p&gt;
+&lt;p&gt;至於不管是國土安全部或是FBI都未正式回覆Diachenko。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 05:22:23 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146235 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146235#comments</comments>
+</item>
+<item>
+ <title>iCloud for Windows 12.5版終於加入密碼管理功能</title>
+ <link>https://www.ithome.com.tw/news/146234</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/p/icloud/9pktq5699m62?activetab=pivot:overviewtab&quot; target=&quot;_blank&quot;&gt;蘋果iCloud for Windows 12.5版&lt;/a&gt;周一在Windows Store上架，新版App終於也加入iCloud‌ Keychain密碼管理器功能。&lt;/p&gt;
+&lt;p&gt;今年初雖然也更新了一版iCloud for Windows，但要等到這個版本才加入了許多同時使用Windows、Mac電腦及iPhone用戶期盼的iCloud Passwords密碼管理功能。&lt;a href=&quot;https://support.apple.com/guide/icloud-windows/manage-passwords-icwa812f1681/1.0/icloud/1.0&quot; target=&quot;_blank&quot;&gt;根據蘋果指出&lt;/a&gt;，利用iCloud for Windows 12.5，現在使用者可以在Windows電腦上存取儲存在iCloud keychain的密碼，也可以新增、編輯、刪除、及複製用戶名稱及密碼。&lt;/p&gt;
+&lt;p&gt;此外，iCloud for Windows 12.5也提供瀏覽器外掛版本，以便在Microsoft Edge使用，它具有Autofill功能，可加速存取網頁服務的速度。iCloud for Windows之前已支援Windows版Google Chrome。&lt;/p&gt;
+&lt;p&gt;除了新增的iCloud Passwords之外，iCloud for Windows還包括存取iCloud Mail、聯絡人、Calendars、書籤、相片和雲端硬碟等功能。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 04:09:00 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146234 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146234#comments</comments>
+</item>
+<item>
+ <title>曾感染臺灣的勒索軟體Magniber正在開採PrintNightmare漏洞</title>
+ <link>https://www.ithome.com.tw/news/146233</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Windows PrintNightmare漏洞正成為駭客界的最愛。隨著PrintNightmare漏洞愈來愈多，&lt;a href=&quot;https://www.crowdstrike.com/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/&quot; target=&quot;_blank&quot;&gt;研究人員近日發現&lt;/a&gt;一隻過去曾感染臺灣用戶的勒索軟體Magniber，也將之納入新的攻擊目標。&lt;/p&gt;
+&lt;p&gt;近2個月Windows列印多工緩衝處理器（Print Spooler）&lt;a href=&quot;https://www.ithome.com.tw/news/145546&quot; target=&quot;_blank&quot;&gt;不斷被揭露有大大小小的漏洞&lt;/a&gt;。從6月中起的CVE-2021-1675、7月初的CVE-2021-34527，到上周Patch Tuesday修補的&lt;a href=&quot;https://www.ithome.com.tw/news/146135&quot; target=&quot;_blank&quot;&gt;CVE-2021-36936&lt;/a&gt;，它們都能讓駭客擴充本地權限而以系統權限執行程式碼。其中濫用Print Spooler服務組態及Windows Point and Print政策，而使攻擊者藉由上傳惡意驅動程式開採，造成以系統權限執行任意程式碼，甚至遠端執行者，微軟才會將之列為Printnightmare。&lt;/p&gt;
+&lt;p&gt;原本PrintNightmare僅指CVE-2021-1675和CVE-2021-34527。不過上周Patch Tuesday之後又爆出了&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36958&quot; target=&quot;_blank&quot;&gt;CVE-2021-36958&lt;/a&gt;，是微軟證實的第三個PrintNightmare。微軟上周僅能提供緩解建議，因為修補程式還在趕製中。&lt;/p&gt;
+&lt;p&gt;但是安全廠商&lt;a href=&quot;https://www.crowdstrike.com/blog/magniber-ransomware-caught-using-printnightmare-vulnerability/&quot; target=&quot;_blank&quot;&gt;Crowdstrike發現&lt;/a&gt;駭客已經利用勒索程式Magniber磨刀霍霍。&lt;/p&gt;
+&lt;p&gt;CrowdStrike威脅研究與通報中心總監Liviu Arsene指出，Magniber首見於2017年，利用現成開採工具Magnitude EK，透過惡意廣告、惡意或被駭網站下載感染南韓用戶。但&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/magniber-ransomware-expands-from-south-korea-to-target-other-asian-countries/&quot; target=&quot;_blank&quot;&gt;BleepingComputer報導&lt;/a&gt;Magniber 2018年也擴及其他亞洲地區，包括臺灣、香港、中國、新加坡、馬來西亞等地。&lt;/p&gt;
+&lt;p&gt;同時間Magniber使用的漏洞也正在增加。這隻勒索軟體開採最多的漏洞是Internet Explorer（IE）漏洞CVE-2018-8174、CVE-2021-26411、CVE-2020-0968、 CVE-2019-1367或Adobe Flash漏洞CVE-2018-8174，直到2021年初，研究人員還偵測到它開採CVE-2020-0968。&lt;/p&gt;
+&lt;p&gt;但是近日CrowdStrike發現Magniber已開始瞄準PrintNightmare。安全研究小組偵測到一個實際開採PrintNightmare的惡意Dll，它進入用戶系統、載入spoolsv.exe行程後即寫入\Device\HarddiskVolume2\Windows\System32\spool\DRIVERS\x64\3\New\資料夾。這隻Dll即和Magniber勒索程式有關，負責協助後者的核心Dll注入遠端行程。&lt;/p&gt;
+&lt;p&gt;研究人員指出，雖然這項發現頗令人驚訝，但是以PrintNightmare漏洞的影響，又可想而知，而且也有多個概念驗證程式已在網路流傳。因此真正下載惡意程式碼的開採也只是時間早晚而已。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 03:28:20 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146233 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146233#comments</comments>
+</item>
+<item>
+ <title>雲端資料倉儲Amazon Redshift現提供跨帳戶資料共享功能</title>
+ <link>https://www.ithome.com.tw/news/146227</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS現在宣布讓雲端資料倉儲Redshift用戶，可以&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/cross-account-data-sharing-for-amazon-redshift/&quot;&gt;跨AWS帳戶共享資料&lt;/a&gt;，也就是說，Redshift資料交換不再限於單一帳戶中的使用者。&lt;/p&gt;
+&lt;p&gt;在資料驅動的時代，不少企業將資料視為資產，透過分析收集而來的資料，來獲得更多的資訊，進而做出更好的決定。部分企業甚至將自家的資料和分析轉為服務，提供給客戶或是合作夥伴等外部組織，藉以創造新的收入。各方都希望能夠共享和使用單一來源的資料，並在查詢資料的同時，不會降低叢集效能，且存取準確且正確的資料。&lt;/p&gt;
+&lt;p&gt;過去AWS讓Redshift用戶，可以和同一個AWS帳戶中的使用者共享資料，但是要和其他帳戶共享和協作資料，就必須要從系統擷取資料，並且載入到另一個系統中，完成這項工作需要擷取、轉換和載入等大量手動工作，而且隨著用戶資料共享的規模增加，或是跟更多的組織分享資料，複雜性也會隨之增加，而維護資料安全的監控、法遵和安全實踐等工作，也會變得困難。&lt;/p&gt;
+&lt;p&gt;AWS也提到，由於手動流程可能產生延遲或是資料不一致的情況，使得這種共享方式不能提供完整且最新的資料檢視表，導致資料老舊或是對終端用戶回應緩慢等問題。&lt;/p&gt;
+&lt;p&gt;為了解決這個問題，現在AWS直接提供了Redshift跨帳戶資料共享的功能，讓用戶可以跨帳戶和任意數量的組織，共享Redshift中的資料，透過這個新的資料共享功能，可以確保資料的新鮮、完整和一致性。由於Amazon Redshift整合IAM和AWS CloudTrail等服務，因此用戶可以利用安全控制和稽核功能，來監控提供給資料消費者的共享權限和使用狀況。&lt;/p&gt;
+&lt;p&gt;用戶能以多個等級共享資料，包括資料庫、架構、表格、檢視表、資料行和用戶定義的函式，並且對需要存取Redshift資料的用戶，制定精細的存取控制規則。想要共享Redshift資料的用戶，可以從控制臺進行操作，跨帳戶資料共享總共有兩個步驟，需要先由資料生產者叢集的管理員，創建資料共享並且添加物件，設定消費者存取權限，第二步則是由生產者的AWS帳戶管理員，授予指定的消費者帳戶共享資料的權限。&lt;/p&gt;
+&lt;p&gt;目前跨帳戶資料共享功能僅在Amazon Redshift RA3節點提供，美東、美西、南美和歐洲等地區都已經上線，在亞太地區則有孟買、首爾、新加坡、雪梨和東京。跨帳戶資料共享僅能在同地區的叢集間共享資料，用戶不需要支付額外費用，僅需要對使用的Redshift叢集付費。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 02:27:33 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146227 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146227#comments</comments>
+</item>
+<item>
+ <title>【先用AI研發雲創新，再靠MLaaS將AI嵌入業務系統】玉山2大AI關鍵平臺大解密</title>
+ <link>https://www.ithome.com.tw/news/146196</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;玉山內部執行的AI專案超過半百，維持玉山AI力源源不絕的關鍵，除了人力，還有玉山銀行智能金融處（後簡稱玉山智金處）打造的兩大技術平臺——AI研發雲和MLaaS。玉山用它們來嘗試各種新點子，也用來測試新模型，更用來將成熟穩定的AI模型，介接到實際金融業務場景，賦予系統內建的AI能力。&lt;/p&gt;
+&lt;p&gt;資料是企業最重要的資產，若要把資料變成可運用的資產，需有一套整體性的運用體系，才能讓AI源源不斷地發揮資料的價值。傳統大數據分析常見的作法是，數據團隊產出各種分析報表，提供給業務單位來取用。但玉山認為，只做到這樣還不夠，更關鍵的是，AI必須整合到業務中，這正是他們打造兩大技術平臺的理由。&lt;/p&gt;
+&lt;p&gt;當玉山在2018年定調全力發展AI後，就展開多項與AI相關的重大系統開發，AI研發雲就是提供給資料科學團隊的開發環境，而MLaaS就是讓這些開發成果可以嵌入業務流程的平臺。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;AI研發雲：猶如創新沙盒，供開發者嘗試各種新點子&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;玉山金控科技長張智星指出：「AI研發雲的定位很清楚，服務對象是人，」這朵雲由將近20臺機器組成了一套運算叢集，底層架構則採世界主流的開源容器管理框架Kubernetes（簡稱K8s），能根據使用者需求自動調度資源，降低系統管理負擔，也能更有效運用資源。不只如此，平臺中還準備了多種常用的機器學習開發框架或函式庫，讓使用者在這個平臺上進行資料處理、建模、模型測試或是分享資料，「就像沙盒一樣，開發者可以創新、嘗試新點子，」張智星說。&lt;/p&gt;
+&lt;p&gt;在ML開發環境上，AI研發雲則採用Jupyter Notebook，可供ML開發人員使用熱門的程式語言Python及相關套件，來進行各種運算。介面採取自助式網頁設計，ML開發人員登入平臺後，可以自行選擇所需的運算資源，比如，這次運算需要4核CPU、16Gb記憶體和1張GPU，底層K8s會根據這些需求，將所需的Docker容器環境部署到合適的機器上，再提供給這些開發者。使用完畢後，AI研發雲會回收資源，重新安排給下一位使用者使用。&lt;/p&gt;
+&lt;p&gt;AI研發雲可供資料科學家盡情探索，「就像遊樂園一樣。」張智星強調，正因為有這樣的環境，才有辦法嘗試新技術，「這些新技術在當下可能還沒很成熟，但有應用潛力，這種嘗試非常重要！」&lt;/p&gt;
+&lt;p&gt;這朵雲不只是創新實驗，更是玉山AI的主力開發環境，孕育出不少成熟穩定的AI模型。這些模型開發完成後，下一個去處就是打包部署到玉山另一個重磅AI平臺——MLaaS。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;MLaaS平臺：連接成熟AI模型和業務系統的橋樑&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;MLaaS平臺是Machine Learning as a Service的簡稱，玉山又稱其為機器學習服務平臺。對玉山來說，它是將AI嵌入業務系統的橋樑。&lt;/p&gt;
+&lt;p&gt;「MLaaS的服務對象是系統，所以必須快、準，」張智星說。&lt;/p&gt;
+&lt;p&gt;快，指的是AI推論速度必須快，比如玉山信用卡盜刷偵測模型，得在刷卡資料輸入的0.1秒內回傳模型推論結果，來決定這筆交易是否正常，並由業務系統進一步處置，如疑似異常時得電話通知等。為求快速，MLaaS平臺甚至將特定模型推論時所需的資料預載到記憶體中，來加速運算。&lt;/p&gt;
+&lt;p&gt;快，還有另一個含義，也就是長期下來，模型能快速更新，甚至更換模型時，也不對業務系統造成影響。由於MLaaS平臺採API形式來提供服務，當業務系統需要AI判讀時，靠API呼叫就能串接所需的MLaaS模型。這個設計，可讓前端業務系統與後端MLaaS系統的邊界非常清楚，當後端模型更新時，只需牽動資料和演算法程式即可，不會牽動到API呼叫機制和前端業務系統。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;設計理念：把AI當作外掛機制，讓現有系統呼叫使用&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;但玉山為何如此設計MLaaS平臺？&lt;/p&gt;
+&lt;p&gt;負責打造這個平臺的玉山智金處指出，設計之初考量過2種作法，一種是打造成AI函式庫的形式，資訊系統可以像內部函式庫一樣直接呼叫來使用。好處是，反應速度更快、更省資源，也能根據不同需求，來客製化開發AI模型。但採取這種方法，就得面臨一個問題，可能得改寫或修改現行系統所用的函式庫。&lt;/p&gt;
+&lt;p&gt;這對玉山智金處而言，是個不可能的挑戰，因為光是銀行系統歷年累積的程式碼量就十分龐大，更不用說還需要不同程式語言的版本，包括Java、C#和COBOL等。若要重整這些程式碼，太耗費時間和人力。&lt;/p&gt;
+&lt;p&gt;因此，為了快速上手AI，玉山智金處採取另一種設計方法，將AI視為一種外掛機制，當前端業務系統需要某一項AI功能時，直接用API呼叫這項AI功能的MLaaS服務，再由API回傳AI模型推論的結果。這個作法，等於是將AI嵌入現有系統中，讓系統具備內建的AI能力。&lt;/p&gt;
+&lt;p&gt;如此一來，玉山就能快速開發AI應用，也能在短期內看到AI帶來的效益。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;MLaaS 1.0：整合AI推論、模型訓練和ETL功能&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;決定了運作架構後，玉山銀行智金處在2018年第一季，開始建置第一代MLaaS平臺，來提供AI推論、模型訓練、資料ETL等三大類服務。特別的是，MLaaS採取了無狀態（Stateless）API的設計方式，前端系統將推論所需的所有參數資料，透過API傳遞給MLaaS，但讓業務邏輯仍保留在前端系統中，而不在MLaaS平臺上紀錄任何業務判斷。&lt;/p&gt;
+&lt;p&gt;舉例來說，MLaaS平臺有一支用來分析單筆交易信用卡盜刷機率的API，前端系統呼叫這個API，透過參數傳遞推論所需資料給MLaaS平臺，運算完成後，同樣透過API回傳推論後的機率數值給業務系統，再由前端系統的業務邏輯程式來決定是否要終止或放行這筆交易。對MLaaS信用卡盜刷判斷API而言，每一筆都是獨立的一次推論，在MLaaS系統上不需要記錄這筆刷卡交易的結果。&lt;/p&gt;
+&lt;p&gt;因為採取了無狀態API的設計，MLaaS 1.0的技術架構相對簡單，採取了Web 1.0時期的簡單架構，將同一套程式碼複製到多臺主機的作法，使用4臺搭載GPU的主機，前端再搭配負載平衡機制來分流。&lt;/p&gt;
+&lt;p&gt;如此一來，任何一臺機器當機，都能改由其他機器接手，提供API呼叫服務。這個做法也讓維運工作可以簡化，像是遇到模型改版時，只需將程式碼重新部署一次，再同步到所有機器上即可，不論是除錯、維運，每一臺機器的作法都一樣。&lt;/p&gt;
+&lt;p&gt;玉山智金處選擇這個架構的動機，是要用最簡單的方法，將維運壓力最小化，讓團隊快速累積AI開發經驗。也因此，他們很清楚，MLaaS 1.0上線後，勢必會遇到擴充性問題。&lt;/p&gt;
+&lt;p&gt;尤其是，MLaaS 1.0平臺底層部署在裸機架構上，無法根據服務量大小自動調度主機資源，也因為每一臺都是相同的複製版本，遇到用量少的API，還是會部署到所有機器上，無法有效利用主機的運算資源。再來，在1.0架構下，程式碼開發完成後的持續整合、持續部署等CI/CD流程，仍須人力介入。&lt;/p&gt;
+&lt;p&gt;2019年第二季，MLaaS 1.0上線，玉山智金處也開始思考如何設計2.0版，來提高擴充性。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;MLaaS 2.0改用K8s改善擴充性，更有效運用資源&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;MLaaS 2.0設計時就訂出兩大目標：系統資源運用更有效率、系統自動化程度要更高。這一次，玉山看上開源的容器叢集管理平臺K8s，來解決這些問題。張智星指出，K8s的高彈性，可實現上述兩個目標，舉例來說，K8s可進行系統資源排程，根據服務量需求來調配資源，某項服務只需要兩臺主機，K8s可從原有10臺機器中，自動選擇2臺最合適的機器來部署服務。&lt;/p&gt;
+&lt;p&gt;此外，團隊也能運用K8s建立多項自動化作業，比如，讓開發者在K8s上自訂專屬的CI/CD工作流程，再整合工作流程管理平臺Airflow建立的ETL流程。當ETL執行完畢後，就可以通知CI/CD流程，自動觸發下一個動作，像是模型重新訓練、部署，或是服務上、下架等。這些優點，都是智金處看好K8s的原因。&lt;/p&gt;
+&lt;p&gt;K8s對玉山智金處的吸引力，不只是技術考量，在經驗引進與人才培養上也相對容易。因為，K8s是世界主流的容器管理框架，已有許多業界最佳示範可參考，這些經驗可以很容易轉換為適合玉山的作法，團隊也不必從零開始閉門造車。&lt;/p&gt;
+&lt;p&gt;再者，先前採用裸機架構時，MLaaS所用的是玉山自家環境，玉山智金處得自行培訓維運人員，從頭開始熟悉環境和架構，但改用K8s後，他們評估，不必耗費心思訓練人才來理解底層架構，而可以直接聚焦於上層應用邏輯即可。&lt;/p&gt;
+&lt;p&gt;於是，2020年初，他們決定採用K8s來打造MLaaS 2.0，同時成立專案小組研究如何用K8s改善1.0版的不足。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;數月研究K8s，2020年下半年動工打造MLaaS 2.0&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;不過，張智星坦言，K8s進入門檻不低。玉山銀行智金處花了幾個月的時間研究、打基礎，還進行兩個PoC專案，來驗證K8s的可行性。&lt;/p&gt;
+&lt;p&gt;這麼花時間的原因是，這套開源K8s的彈性非常高，提供了大量功能，從CPU資源排程、記憶體排程、網路拓撲、儲存配置等，都有豐富的API。甚至可以說，只要是企業想要的功能，K8s幾乎都能實現，但前提是，企業得先知道如何使用它。MLaaS 2.0系統設計人員的經驗是，先從K8s設計理念開始熟悉，例如K8s網路架構、不同儲存類型的設計初衷等，比較容易上手。&lt;/p&gt;
+&lt;p&gt;2020年下半年，智金處確定技術架構後，便著手開始發展MLaaS 2.0。第二版的功能不變，依然鎖定AI推論、模型訓練、資料ETL，只不過，底層框架改用K8s來自動調度資源。&lt;/p&gt;
+&lt;p&gt;在這段期間，MLaaS也已提供不少AI模型供業務系統呼叫，2019年上線的信用卡盜刷偵測模型就是其一。這個模型，是用來判斷信用卡交易的正當性，每當信用卡交易主機接到交易訊息時，就會呼叫MLaaS盜刷偵測模型API，由模型判斷盜刷機率，並在0.1秒內將結果回傳到業務系統。&lt;/p&gt;
+&lt;p&gt;光是這個偵測模型API，玉山銀行每天平均使用超過66萬次，一年下來，更阻擋了上億元的信用卡盜刷損失金額。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;上線後挑戰才開始，用資料分布監控模型表現&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;然而，模型部署上線後，挑戰才真正開始。&lt;/p&gt;
+&lt;p&gt;傳統應用程式完成開發後，上線後的執行環境固定，所用的資料也大都是靜態資料，但AI模型上線後，得面對不斷流動的資料。動態資料如何流進模型，再提供正確的訊息輸出，就是玉山智金處所面對的課題。&lt;/p&gt;
+&lt;p&gt;他們要提供的，不是靜止的產品，而是活著的服務。因此，AI模型準確度的維持，就是MLaaS服務的關鍵。比如，信用卡盜刷偵測模型API，得在與業務部門約定的0.1秒內回傳結果，並時時達到銀行要求的判斷準確度。準確度一旦下降，勢必影響前端業務系統的判斷，嚴重時甚至會導致對外服務的中斷。&lt;/p&gt;
+&lt;p&gt;這個講求準確度的特性，一如張智星那句「MLaaS的服務對象是系統，所以必須快、準」的「準」字。玉山智金處就像是玉山內部的AI供應商，對於所提供的MLaaS服務，也必須設計一套模型效度的監控系統，來確保這些AI服務品質的持續。&lt;/p&gt;
+&lt;p&gt;那，這套監控系統如何設計呢？&lt;/p&gt;
+&lt;p&gt;玉山銀行智金處有一套獨到的作法。由於MLaaS平臺採無狀態API設計，呼叫一次API所傳遞的參數，就涵蓋了一次推論所需的各種輸入值，將這些參數資料累積一段時間後，來計算資料分布（Data distribution），可以作為模型準確度的衡量指標。&lt;/p&gt;
+&lt;p&gt;舉例來說，每當業務系統呼叫信用卡盜刷偵測模型API時，在請求中傳遞的參數，包括如刷卡地點、刷卡金額、刷卡時間等參數，來讓MLaaS的AI模型計算盜刷機率。&lt;/p&gt;
+&lt;p&gt;將這些參數的輸入值累積一段時間後，可以用來觀察資料分布狀態。比如，過去一個月，呼叫這支模型API的參數中，若多數刷卡時間發生在下午3點，但隔了一個月，卻發現多數刷卡時間轉變為早上9點，這就會觸發一個資料分布異常的通知，MLaaS的監控系統會偵測到資料分布的變化，觸發下一個動作，發送警示通知給資料科學家。&lt;/p&gt;
+&lt;p&gt;玉山解釋，因為資料不斷流動，當輸入值的資料分布改變了，可能意味著使用者的習慣改變了，以過去使用者資料所訓練出來的AI模型，可能也得跟著調整才行。透過這套監控系統，來揪出這些可能影響模型準確度的跡象，就能自動觸發後續措施，來重新訓練模型，或是發送警示通知，讓資料科學家進一步評估模型。&lt;/p&gt;
+&lt;p&gt;不只是MLaaS平臺API參數的資料分布，玉山銀行智金處也會收集其他類型的資料，比如每個月的模型回應平均值、模型每個階段的Log日誌，來設計更多監控指標，制定後續維運措施的觸發參考。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;時機成熟力推MLOps，要跨出金融界的一大步&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;監控系統只是玉山AI維運的起手式，今年，他們有一個更遠大目標，要實踐MLOps作法，希望能建立一套機器學習模型的自動化維運管理方式。&lt;/p&gt;
+&lt;p&gt;讓AI深入業務，一直是玉山銀行智金處的目標，AI研發雲提供了AI模型開發環境，MLaaS平臺把這些AI模型變成了容易嵌入到業務系統的API服務，下一步，就是要讓各事業單位更容易串接、運用這些AI服務。這就考驗MLaaS平臺的服務水準（SLA）。&lt;/p&gt;
+&lt;p&gt;對玉山智金處來說，一套系統必須穩定和可靠，才能讓眾人使用。智金處今年的目標是，讓AI與各種業務結合，要讓各單位有信心、願意使用。為了做出穩定又可靠的AI服務，MLOps成為智金處關注的焦點。&lt;/p&gt;
+&lt;p&gt;所以，玉山智金處計畫建立一套MLOps流程，來強化、提升原有的AI模型產製過程。進一步來說，AI模型在AI研發雲中訓練完成後，要打包成API，經過CI/CD流程才會上架到MLaaS上，成為一項正式上線的API服務。玉山希望在CI/CD上，提供更多不同用途的流程機制，並納入更多相應的Log機制，可用於上線、除錯使用。&lt;/p&gt;
+&lt;p&gt;另一方面，他們還要建立更多監測模型效能的指標，不只是先前提到的API參數的輸入或輸出資料，甚至連建模時的中繼過程，例如產製模型真正特徵前的預處理步驟，也需要留下檢核因子。&lt;/p&gt;
+&lt;p&gt;尤其，使用者行為會不斷改變，模型更換成了一種常態，不論是為了解決問題，還是為了優化模型。為此，玉山智金處已選取少數專案，運用正在開發的MLaaS 2.0平臺，來以K8s來試行模型維運自動化。若能成功，他們將在年底放行更多AI模型到MLaaS 2.0上，自動監控這些模型的狀態，來進行再訓練或下架的動作。&lt;/p&gt;
+&lt;p&gt;不過，當要更換那些涉及業務的AI模型時，這就不只是系統議題，還需考慮更換後對制度、人員、法規等面向的影響。金融業是備受監管的單位，許多科技業能做的事，比如模型重新訓練後快速再上架，但金融業不一定能直接這樣做。所以，玉山銀行智金處今年初也增設了企劃部，要聯手風控團隊站在業務角度，既要讓AI安全落地，也站在智金處角度，尋找法規突破口。&lt;/p&gt;
+&lt;p&gt;為了做到這一步，他們還將模型效能監控機制，串接到範圍更廣的CI/CD流程上。同時，玉山智金處也正建立網站可靠信工程（SRE）制度，要進一步將模型維運納入整體軟體維運工作中，合而為一。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;MLOps人機協作也是資料治理的利器&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;玉山今年要推動MLOps還有另一個原因。「模型更新後的表現要如何定義？怎樣算不夠好？不夠好要在何時更新？」張智星以信用卡盜刷偵測模型為例，假設系統察覺100筆交易中，有10筆異常，銀行人員就能立即打電話向客戶詢問、獲得回饋，即時核對模型預測準確率。&lt;/p&gt;
+&lt;p&gt;但一些模型沒察覺出的盜刷行為，反而要在一個月後（即客戶收到帳單後），才能獲得回饋。由於資料回饋存在時間差，如何同步這些資料來更新模型，就是玉山AI維運的重要課題。&lt;/p&gt;
+&lt;p&gt;隨著資料治理逐漸到位，MLOps的加入能協助使用者掌管模型生命周期，包括資料擷取、模型訓練、測試，以及模型部署上線後的表現監控等環節。張智星點出，監控最大的好處，是能讓使用者立即回饋資料至AI系統，及時校正模型表現。&lt;/p&gt;
+&lt;p&gt;不過，MLOps雖強調全自動化，但張智星認為，人機協作還是必然。因為，模型表現牽涉到「模型出錯成本。」比如，票據手寫辨識模型將10萬元辨識為100萬元，就會造成極大損失，因此模型不容出錯，得仰賴人工再核對一次。「這就像A I人機協作，電腦做一部分，人同時要覆核，少部分抽驗，來確保不出錯，」他表示，人員的抽驗資料也得回饋到系統作業流程，如此才能優化整體系統，實現資料治理。&lt;/p&gt;
+&lt;p&gt;「這是玉山今年的大事，」張智星說。雖然實踐MLOps看來是一小步，但玉山能實現它，就會是金融業運用AI的一大步。因為這代表，玉山能將資料作為燃料，用來驅動整個業務流程，自動化執行。這一步，正是玉山今年最重要的AI戰略，讓AI更融入業務單位中。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;font-size:36px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 玉山兩大AI關鍵平臺分工 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; AI研發雲 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;服務對象是人（資料科學家），供資料科學家盡情探索，嘗試新技術。可自助式提供AI模型開發環境，來進行資料處理、模型訓練、模型測試等。底層採用K8自動建立Docker環境作為開發之用，上層則提供Jupyter Notebook的Python網頁開發環境。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 機器學習服務（MLaaS）平臺 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;服務對象是系統（各部門業務系統），將AI嵌入業務系統的橋樑，講究快和準。採取無狀態API設計，來提供AI推論、模型訓練、資料ETL等三大類服務。ML模型在AI研發雲開發完成後，會打包成API，部署到MLaaS平臺上，再提供給各業務系統呼叫使用。底層採K8s，可依據服務量需求，自動配置運算資源來執行各個API服務。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;資料來源：玉山金控，iThome整理，2021年8月&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;font-size:36px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 玉山AI維運3箭：系統、制度、人 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1038-%E7%8E%89%E5%B1%B1%E9%8A%80-%E6%B4%AA%E6%94%BF%E5%81%89%E6%94%9D.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;攝影／洪政偉&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;當AI內化到一定程度，企業就會出現模型維運需求，玉山也不例外。作為玉山AI發電廠、負責打造玉山各種AI應用系統的玉山銀行智能金融處（即智金處），鎖定三個層面著手維運管理：系統、制度、人。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第一項系統是指，打造一套可以掌握模型表現的監控系統。智金處收集MLaaS平臺上的API參數，來比對不同時期的資料分布（Data distribution），並結合其他指標，根據這些資料來設計後續模型調整措施。不只如此，他們也計畫在今年大力推廣MLOps，要更自動化管理各機器學習生命周期任務、維護資料品質，還要掌握模型上線後的效能監測。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在制度方面，玉山則有兩套做法。首先是分工認定，比如在AI專案成立時，就先決定系統是否需要專屬維運，若採用構造簡單的模型，就交由業管單位的IT團隊負責。若採用MLaaS平臺模型，則是由智金處負責AI相關維運。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;另一個制度化的作法，是每月進行專屬月會，來追蹤模型成效。智金處每月針對重要專案舉辦會議，這是因為，玉山雖有不少系統監測模型、發送警示，但他們的經驗是，金融模型非常容易受景氣影響。景氣變動，模型沒變動，不代表模型沒問題，因此需要定期檢視。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;有了系統和制度的支持，還需要「人」來接續維運。負責推動AI的智金處，要求旗下服務部的每位職員，至少都得負責一個維運工作，來累積模型維運的知識。對玉山來說，這三個層面是練就AI維運實戰經驗的關鍵。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 新方向：轉核後下一步，打造資料中臺加速AI創新 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;去年8月，玉山完成為期4年的第一次核心系統轉換工程，不只把原本綁在大型主機上的核心系統服務API化，更將老舊的COBOL程式語言汰換為熱門的新程式語言。他們的目標，是要用微服務架構和開放式平臺，來推動玉山第三個十年的發展目標：科技的玉山。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不過，早在他們啟動核心系統轉換前，就已縝密地佈局科技化藍圖了。玉山先是研究主流技術，如區塊鏈、行銷科技（MarTech）、監理科技（RegTech）、AR/VR和AI，最後鎖定AI，並重整所有資源，全投注在AI上。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;也正是那年，2016年，玉山在全力發展AI的戰略下，開始規劃、設計新核心系統，並在去年8月正式上線。玉山金控科技長張智星指出，新系統的特色是「小核心、大周邊」，能彈性拆卸核心周邊應用，更快速打造新應用。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「我們蹲了很久，4年後的現在終於跳起來，」他形容，轉核後的平臺不只更有彈性、更有效率，資料分享也更容易，「這對AI發展相當重要。」他更透露，玉山轉核下一步是要建立資料中臺，來破除老舊系統疊層架屋的技術債，加速資料分享和AI發展。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;這是因為，過去以來，玉山先是採用大型主機，作為所有核心系統開發、儲存和執行的環境。隨著技術演進，玉山陸續採用新軟體開發服務、建置資料庫。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;這一點一滴，累積出疊層架屋的技術債問題。張智星舉例，在不同平臺間搬遷資料時，會遇到儲存問題、資料庫問題和計算能力問題，比如，將A平臺的資料搬遷到B平臺分析時，會遇到B平臺容量太小的問題，但資料繞道改搬遷到容量大的C平臺，可能會遇上C平臺有速度慢、存取慢的缺點，「欠缺了一個統一的平臺來解決問題。」&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;玉山轉核後的新平臺，解決大部分技術債問題，更進一步，玉山還要打造資料中臺，來統整各類資料和開發工具，甚至是AI模型，作為創新應用的中繼站。&lt;/strong&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 16 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146196 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146196#comments</comments>
+</item>
+<item>
+ <title>【從技術研發到加速服務落地，AI團隊不斷轉型再進化】玉山AI力關鍵團隊如何養成</title>
+ <link>https://www.ithome.com.tw/news/146183</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;三年前，時任玉山金控科技長陳昇瑋，不只定調玉山AI發展藍圖，還與當時的玉山金控暨銀行總經理黃男州，做了個重大的決定。&lt;/p&gt;
+&lt;p&gt;他們拍板終止數個正在進行、每個都上千萬元等級的專案，集中資源投注在AI上，來強化資料團隊的AI應用能力。這項決定，催生了玉山AI化的主力推手──智能金融處（簡稱智金處），在短短兩、三年內打造AI研發專用的技術平臺，還經手半百個AI專案，將不少AI系統內化到日常工作流程，成為玉山人的必備工具。&lt;/p&gt;
+&lt;p&gt;可三年前，沒人知道這個轉型決策是好是壞，全臺也沒先例可循，玉山只能一步步且戰且走。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;十多年不斷改組轉型：從CRV大數據分析到CTOO定調AI發展路線&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;其實玉山這一步，已經醞釀十多年。早在2006年，玉山就於金控底下設置大數據分析團隊CRV（Client&#039;s Risk &amp;amp;Value），瞄準顧客風險價值，來探勘既有的客戶KYC（Know Your Customer）資料，更細緻地將客戶分群。除了內部資料，他們還梳理客戶複雜的外部數位足跡，來開發顆粒度更細緻的個人化推薦服務，奠定了精準行銷基礎。&lt;/p&gt;
+&lt;p&gt;這些經歷，強化了他們的資料分析能力，漸漸累積商業智慧（BI）以外的資料處理經驗。2013年，CRV更朝資料科學應用發展，開始將資料分析成果運用與數位業務，還要從更大量、動態變化的數據中，挖掘有意義的洞察。&lt;/p&gt;
+&lt;p&gt;那幾年，正逢新技術不斷崛起。2010年，世界第一個加密貨幣交易所誕生，掀起區塊鏈去中心化技術的應用浪潮；2012年，深度學習在ImageNet大賽中崛起；AR/VR也隨著智慧型手機和裝置普及，開始竄紅。&lt;/p&gt;
+&lt;p&gt;一如追逐新技術的科技公司，玉山也成立專門組織來研究新技術。2015年，玉山創新發展中心（Innovation Development Center，IDC）誕生，來研究AI、區塊鏈等技術，CRV則繼續專攻大數據分析。但經過1、2年運作，團隊意識到，IDC終究是以資料為創新導向的組織，並非完全以研究新技術而成立的組織，難以將技術落地到服務中。&lt;/p&gt;
+&lt;p&gt;於是，玉山調整方向，在2017年初成立創新實驗室（Innovation Lab），來研究區塊鏈、AI、身分辨識、電子支付、大數據和AR/VR等六大前瞻性技術，同時在實驗室下設研發、商轉、顧問和育成四大中心，拓展技術人才資源布局。&lt;/p&gt;
+&lt;p&gt;不過，改變的腳步並未停下。2018年，玉山再次調整方向，這一次，他們打破臺灣金融界先例，成立科技長辦公室（CTO Office），找來已故臺灣人工智慧學校執行長陳昇瑋擔任科技長，來加速金融科技研發和落地。那段時間裡，創新實驗室的所有工作，也轉移到科技長辦公室執行。&lt;/p&gt;
+&lt;p&gt;但新興技術這麼多，科技長如何選擇有潛力的技術？「昇瑋上任後，隨即與產學討論，確認AI能改善商業模式和獲利模式，因此決定全力發展金融AI，」現任玉山金控科技長張智星回憶。這個決定，定調了玉山科技發展藍圖，讓玉山過去十多年來科技實力的積累，有了新方向。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;直奔銀行第一線，開發底層工具作內部AI供應商&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;玉山對AI策略的重視程度之高，不惜終止了幾個千萬元等級的專案，挪出資源改集中到AI研發上。不只如此，他們還在2019年成立了專責單位，來實踐AI藍圖。&lt;/p&gt;
+&lt;p&gt;這個單位，就是玉山AI化的核心推手──智能金融處，由科技長出任處長，指揮團隊建置AI底層架構、開發AI系統。而CRV也功成身退，轉型為智金處來推動金融AI服務的使命。雖是一脈相承的單位，但有別於設置在金控層級的CRV，智金處則隸屬於銀行。在這個位置，「可以做第一線業務，也更容易從第一線視角觀察使用者需求，」張智星點出這項組織設計的戰略意義。&lt;/p&gt;
+&lt;p&gt;智金處到底做哪些事呢？張智星以「內部AI供應商」這個角色來形容。&lt;/p&gt;
+&lt;p&gt;許多企業內部AI部門，常是負責AI技術研發，也參與各部門不同的AI專案，共同開發。但玉山智金處更進一步，把這些AI技術，打造成一套內部專用的AI服務產品，讓各單位可以自行運用。&lt;/p&gt;
+&lt;p&gt;例如，玉山智金處在2018年第一季，開始著手打造機器學習服務（MLaaS）平臺，作為內部開發AI的共用支援服務。他們的設計思維，是將MLaaS平臺視為一種外掛機制，透過Web服務串接現有系統。當有系統需要某項AI功能時，直接用API呼叫對應的MLaaS服務，API就會回傳AI模型推論的結果。這個作法，等於將AI嵌入現有系統，讓系統具備內建的AI能力。不只提供AI推論功能，MLaaS平臺還具備模型訓練、資料ETL的功能。&lt;/p&gt;
+&lt;p&gt;張智星解釋，MLaaS平臺的服務對象是系統，特色是「快、準，」不只講究嵌入到其他系統的上線運作速度要快， 還特別注重提供AI推論結果的速度，也要快。&lt;/p&gt;
+&lt;p&gt;以信用卡盜刷偵測模型來說，MLaaS平臺的模型可以做到在0.1秒內回傳推論結果至前端系統，並且準確度要達到業管單位的要求。他透露，為了維持模型的準確度，智金處更決定在今年推動MLOps，來協助團隊監控模型表現，即時更新模型或下架，來維持判斷品質。&lt;/p&gt;
+&lt;p&gt;這一點，點出了智金處與一般AI研究單位的另一個不同之處。智金處還要負責AI模型後續的維運，張智星說明，舉凡模型上線後的表現監控、利用新資料再訓練等工作，都包含在內。舉例來說， 疫情間民眾的消費模式改變，智金處每周就得利用當周收集的新資料，來更新信用卡盜刷偵測模型，以保持模型準確度。&lt;/p&gt;
+&lt;p&gt;除了MLaaS平臺，智金處還建立另一個內部共用的工具型服務──AI研發雲。這朵AI研發雲可以用來建立一個開發環境，具備各種函式庫，供不同專案的開發者共用資料、建立模型，甚至是嘗試新點子，「就像沙盒一樣，」張智星說。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;與資訊處、數金處三方合作，打造玉山金融科技服務&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;智金處提供AI開發服務，但模型訓練牽涉到資料收集、資安等議題，因此也得和資訊單位分工合作。「整體系統維運、資料庫建置、防火牆設置等工作，都由800人規模的資訊處負責。」張智星補充，玉山銀行資訊處掌管大型系統的建置， 也負責對外服務平臺開發、大型資料庫建置，以及資安維護等工作。&lt;/p&gt;
+&lt;p&gt;另一方面，玉山銀行旗下還設置了數位金融處（簡稱數金處），負責數位金融應用相關的工作，這個單位比智金處早幾年成立，兩者性質相仿，都編制在銀行下，目標都是推動金融科技應用。不過，數金處聚焦普惠金融、智慧金融和場景金融等更業務面的發展，舉凡數位品牌如e.Fingo、e指系列、行動銀行和玉山Wallet等，都由數金處負責設計、開發。&lt;/p&gt;
+&lt;p&gt;同樣地，數金處這些系統背後的維運、資料庫建置等工作，還是由資訊處掌管，而是數金處開發的服務需要用到AI功能時，智金處也會投入開發、建模。張智星表示，玉山資訊處、智金處、數金處三方協力，正是彰顯玉山金融科技力的關鍵。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;不只做AI，還三管齊下打造玉山科技力形象&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;不過，智金處的職責不只這些。&lt;/p&gt;
+&lt;p&gt;他們還有一個特別的任務──品牌經營，負責展現玉山科技力的形象。他們將品牌經營分為對內和對外，對內，智金處得負責技術推廣，時常到各單位舉辦服務宣導活動，解釋智金處兩套AI 開發平臺的功能和成效，也會主動至不同單位訪談需求。&lt;/p&gt;
+&lt;p&gt;幾年下來，這個做法建立了玉山內部對智金處的共同形象，也就是負責提供內部AI服務，甚至玉山科技聯隊的其他部門，如資訊處、數金處，也都讚賞MLaaS平臺這樣的內部服務。&lt;/p&gt;
+&lt;p&gt;對外品牌經營上，智金處則三管齊下，透過三種管道來展現玉山科技力品牌形象。首先，他們鎖定學術圈，在多家頂尖大學設置玉山AI暨金融科技研發中心，與專精特定技術的師生展開研究；同時，他們也積極到合作學校演講，分享金融科技實務經驗和發展。如此一來，智金處不只能快速接觸最新的AI技術進展，也能展現玉山積極擁抱科技的形象。&lt;/p&gt;
+&lt;p&gt;再來，第二個管道是，智金處透過AI競賽，一方面吸引人才，一方面傳達玉山對AI技術的重視，一方面也藉助群眾智慧，來精進自家的分析方法。玉山自2018年開始，每年舉辦人工智慧公開挑戰賽，提供去識別化資料，來吸引AI好手解決真實世界的金融問題。光是前四屆就有約5,700人次參賽者，一半是學生，另一半則來自不同領域的AI在職人員。其中兩屆的冠軍，後來都加入玉山AI團隊，成了多項高難度非結構化資料分析專案的助力。&lt;/p&gt;
+&lt;p&gt;最後，智金處也積極融入技術社群，參加不少開發者論壇和技術圈活動，像是臺灣Pycon數位論壇，來樹立玉山對各種技術開放心態的形象。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;借鏡國外多家科技銀行經驗，智金處要人人具備寫程式和資料處理的基本能力&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;智金處要經營企業品牌，還要懂業務需求、打造底層架構、開發AI系統，他們用什麼樣的組織文化，來培養如此強大的韌性？&lt;/p&gt;
+&lt;p&gt;這在智金處成立時，就埋下伏筆了。當時，智金處核心成員遠赴國外參訪不少科技銀行，他們想借鏡這些銀行的經驗，來發展玉山金融科技策略。他們與這些銀行技術長促膝長談，話題涵蓋硬體規格、開發模式、工程師特質和人才選擇，一次請教清楚。&lt;/p&gt;
+&lt;p&gt;最令他們印象深刻的是，國外不乏以工程師主導的銀行，有些銀行組織中的工程師人力占比甚至高達到8成，其餘2成才是業務、法務、會計。而這80%的工程師，完全掌握金融業務產品的開發。甚至，智金處還觀察到，有些技術長會親自跳到第一線寫程式、盯專案，這在層層分工的金融界，是非常少見的作法。&lt;/p&gt;
+&lt;p&gt;於是，玉山團隊回臺後，開始思考如何塑造智金處的組織文化。雖然無法如國外科技銀行般，以8成工程師為主來帶動AI發展，但陳昇瑋決定，要求所有同仁在3個月內學會Python程式語言。他希望，智金處人人都能具備相同的邏輯思考語言。&lt;/p&gt;
+&lt;p&gt;這個決定，也漸漸塑造出智金處新的行事風格。過去，CRV時代著重BI 分析，負責大數據研發的同仁，多為企管、統計出身，而且習慣使用套裝軟體工具。經過兩、三年發展，這個氛圍逐漸轉換為以機器學習技術運用、自行開發程式和資料處理為主的工作型態。&lt;/p&gt;
+&lt;p&gt;智金處成員既要具備金融領域知識，也得擁有資料處理的基本能力，就連非開發人員的商業分析、產品經理等人，也要求能操控資料庫、執行特徵化（Featurization），甚至連資料預處理都很熟悉。「最重要的是，大家能以同一種思維語言溝通，更能在業管單位和IT單位間切換思考，」張智星說。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;再調組織催生企劃部研究法規，招人準則是夠聰明、學習能力強&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;除了培養內部人才技能來實踐AI策略，智金處也不斷調整組織架構，來配合銀行未來發展目標。起初，智金處內部只簡單分為智能分析部和智能系統部兩大單位，期望成員將自己視為產品開發者，而非只受限於工程師單一角色。&lt;/p&gt;
+&lt;p&gt;但隨著時間推移，他們意識到進一步分工的必要。今年初，智金處也進行了一次大改組，新增設智能系統部、智能企劃部，原本的智能分析部則改為智能服務部，共有三個部門。在智能服務部下，還細分為智能應用科、智能風險科和智能技術科。&lt;/p&gt;
+&lt;p&gt;這麼做，是為了更細緻地分工。舉例來說，為了將AI融入到銀行業務，就需要懂業管單位需求的智能應用科，來扮演溝通橋樑；而智能技術科，則專門打造AI模型。開發模型時，則有智能風險科來提供信評、風險等相關金融專業領域的知識，幫助資料科學家團隊訓練出更貼近需求的AI。&lt;/p&gt;
+&lt;p&gt;特別的是，智能企劃部是智金處下專門研究金融法規的單位。玉山解釋，智金處設置於銀行之下，雖能執行第一線業務，但也必須符合許多法遵要求。於是，企劃部因應而生，專門負責法規研究，不只要幫團隊找到合規、好用的系統，還要找出法規可突破之處，讓研發團隊先做足準備。&lt;/p&gt;
+&lt;p&gt;由於智金處的多元特性，他們在招募人才上也有一套偏好。他們的招人準則很簡單，只要具備程式能力且夠聰明、學習能力強，就會納入考量。智金處特別看重學習能力，因為，團隊雖然專攻機器學習，但要解決的問題五花八門，周遭的同事或前輩不見得能幫上忙，得靠自己查資料、研究。&lt;/p&gt;
+&lt;p&gt;這個過程，可能很挫折。但強大的學習能力，就能克服這個難關；智金處可望吸引夠聰明、有強大學習心態的人才，因為他們有各式各樣有趣的問題，等待人才來解決。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;AI供應商只是起點，未來要成為金控金融科技推手&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;回首來時路，玉山技術發展與組織轉型息息相關，從數十年前的大數據分析團隊CRV，一路改組轉型到現在的智金處，在這個過程中，他們歷經了商業洞察提供者、資料加值提供者、模型服務提供者的定位轉換，每個時代都被賦予不同的角色和使命。內部AI供應商，也只是智金處所有的其中一個身分。&lt;/p&gt;
+&lt;p&gt;玉山對智金處充滿期待，他們寄予厚望，要智金處成為玉山金融科技發展的主力，甚至扮演玉山第三個十年目標「科技的玉山」核心推手，以科技帶領所有業務。&lt;/p&gt;
+&lt;p&gt;一如玉山金控暨銀行資訊長謝萬里在2016年揭露：「玉山要成為資訊科技公司！」也如同2018年，陳昇瑋一上任玉山金控科技長所喊出：「玉山要成為領有金融執照的科技公司！」現在，張智星接棒玉山科技長後強調：「我們往同一個方向繼續邁進。」這個科技玉山的方向，一直沒有改變。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 玉山AI組織發展史：從資料倉儲、資料科學到AI &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2006年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;成立大數據分析團隊CRV，著重資料倉儲分析、風險模型，以及商業智慧分析應用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2009年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;開始發展客群導向的精準行銷&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2013年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;開始將資料分析成果應用到數位業務&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2015年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;成立創新發展中心（IDC）來研究新技術，2年後收回&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2017年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;成立創新實驗室（Innovation Lab），研究區塊鏈、AI、身分辨識、電子支付、大數據和AR/VR等六大技術；實驗室下設研發、商轉、顧問和育成四大中心，拓展技術人才資源佈局&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2018年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;成立科技長辦公室，定調玉山AI發展藍圖，由已故臺灣人工智慧學校執行長陳昇瑋擔任科技長&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2019年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;玉山銀行下設智能金融處（即智金處），由科技長指揮建置AI開發平臺和串接平臺。CRV功成身退，轉型為智金處&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2020年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;由臺大金融科技中心主任張智星接任玉山金控科技長一職&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;background-color:#B22222;&quot;&gt; 2021年 &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;智金處改組，將原智能分析部改為智能服務部，以強調服務落地，下設智能應用科、智能風險科及智能應用科；並新增智能企劃部，負責服務落地的相關法遵風管等議題；智能系統部持續承接系統開發與平臺建置等任務&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;資料來源：玉山金控，iThome整理，2021年8月&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 智金處與數金處、資訊處的分工 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;資訊處、數金處和智金處是玉山科技聯隊中的鐵三角，智金處扮演AI大腦，資訊處是神經系統，數金處則運用AI大腦和神經系統發展數位應用，這是玉山推動金融科技服務的鐵三角，另外還有一個人數較少而未列入的資安處，則扮演煞車的角色。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span style=&quot;background-color:#ffff00;&quot;&gt; 智金處 &lt;/span&gt;&lt;/span&gt; 打造AI研發雲和MLaaS平臺，作為AI系統開發的兩大工具，負責建模、訓練、部署和模型維運&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#FFFF00;&quot;&gt; 數金處 &lt;/span&gt; 鎖定普惠金融、智慧金融和場景金融，負責設計、開發數位金融服務的各種平臺&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#FFFF00;&quot;&gt; 資訊處 &lt;/span&gt; 建置及管理大型核心系統和交易系統、資料庫、防火牆等，也會開發對外服務系統與平臺&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;資料來源：玉山金控，iThome整理，2021年8月&lt;/span&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 16 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146183 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146183#comments</comments>
+</item>
+<item>
  <title>LockBit 2.0勒索軟體大舉侵襲澳洲，當地網路安全中心發布警告</title>
  <link>https://www.ithome.com.tw/news/146226</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;駭客利用勒索軟體LockBit 2.0攻擊的現象，最近出現數起事故。例如，於8月11日，運用該勒索軟體的駭客，&lt;a href=&quot;https://www.ithome.com.tw/news/146157&quot;&gt;宣稱攻陷IT大型顧問公司Accenture&lt;/a&gt;，並要求限時支付贖金，否則就要把竊得的資料公開。針對勒索軟體LockBit 2.0的攻擊事故已有數起，&lt;a href=&quot;https://www.cyber.gov.au/acsc/view-all-content/advisories/2021-006-acsc-ransomware-profile-lockbit-20&quot;&gt;澳洲網路安全中心（ACSC）提出警告&lt;/a&gt;，表示他們近期屢屢接獲當地企業通報，發生遭到LockBit 2.0攻擊的事故。&lt;/p&gt;
@@ -23,151 +322,26 @@
  <comments>https://www.ithome.com.tw/news/146226#comments</comments>
 </item>
 <item>
- <title>中華電信投入逾10億元參與亞太新海纜Apricot建設案</title>
+ <title>Google啟動亞太新海纜計畫，中華電信也將投資逾台幣10億元</title>
  <link>https://www.ithome.com.tw/news/146221</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;中華電信宣布參與新的亞太地區海纜投資計畫，將和其他電信商，以及Google、臉書等科技巨頭聯手，合資打造全新海纜Apricot，以提升亞太地區網路連接容量及穩定性。&lt;/p&gt;
-&lt;p&gt;Apricot將連接日本、臺灣、關島、菲律賓、印尼、新加坡，總長度1,2000公里，預計於2024年完工啟，屆用時將帶來超過190Tbps的總容量。根據中華電信稍早公開的訊息指出，這條國際海纜建設商為SubCom，海纜及相關設施的建設成本將由Apricot會員依投資比例分攤，中華電信投資金額將超過新台幣10億元。&lt;/p&gt;
-&lt;p&gt;中華電信表示，未來海纜完工後，取得超大頻寬承載能力，將能充分展現5G的高速、低延遲、大連結的網路特性，為該公司在亞太地區的跨國電信業務合作奠定基礎，同時推升臺灣在區域市場的重地位。&lt;/p&gt;
-&lt;p&gt;新的海纜除了提升臺灣對外連網頻寬容量，也可藉此分散我國對外的海纜路由。例如這幾年中華電信參與的國際海纜建設計畫，陸續展現成果，例如2016年的亞太直達海纜APG，2018年的新橫太平洋海纜NCP，先後在宜蘭頭城海纜站啟用，還有預計2022年完工的SJC2，規畫在淡水、枋山雙登陸站，以避免單一海纜站故障的風險。&lt;/p&gt;
-&lt;p&gt;海纜經常因海流、地震、颱風或是長期腐蝕等因素產生故障，故分散海纜路由能降低因災害或故障導致連網中斷的風險。以APG為例，該海纜在今年初曾因發生故障，導致國內用戶連接美國、日本、中國等地的服務，例如Netflix、Line出現卡頓的情形，在修復之前，緊急調度其他海纜頻寬支援，雖然用戶使用網路服務可能出現延遲，但不致完全中斷不能使用。&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google宣布新的亞太地區海纜投資計畫，將和臉書及區域性的電信業者合作，共同投資建設新海纜Apricot，國內的中華電信也宣布將投入超過臺幣10億元參與海纜建設，未來新的海纜啟用之後，可望提升亞太地區網路連接容量及穩定性。&lt;/p&gt;
+&lt;p&gt;Apricot將連接日本、臺灣、關島、菲律賓、印尼及新加坡，總長度1,2000公里，預計於2024年完工啟動，屆時將帶來超過190Tbps的總容量。&lt;/p&gt;
+&lt;p&gt;Google表示，全球約有98%的國際網路流量仰賴海纜傳輸。隨著人們工作、娛樂及互動連結趨向數位化，穩定的網路連結比以往來得更重要。今年初宣布的Echo海纜，將連接美國、新加坡、關島、印尼，Echo將和Apricot構成互補的海纜系統，為亞太地區帶來多個進出路徑的優勢，包括南亞的獨立路由。將確保提升Google Cloud及數位服務有更高的韌性，讓亞洲的企業及新創連接南亞、北亞、美國，享有較低的延遲、更多的頻寬及韌性。&lt;/p&gt;
+&lt;p&gt;該公司提及網路基礎建設的投資帶來的經濟效益，引用分析機構Mason的報告，Google在2010年到2019年期間，在APAC的網路基礎建設投資，帶動共4,300億美元的GDP，1.1萬個工作機會。&lt;/p&gt;
+&lt;p&gt;另一家參與海纜投資的科技巨頭臉書則表示，Apricot帶來190Tbps的總容量將滿足亞太地區日漸增加的資料傳輸需求，包括成長中的4G、5G及寬頻連網，同時支援既有的海纜系統，如近期宣布的Echo、Bifrost海纜系統。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;中華電信也參與&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;國內的中華電信也同時宣布參與Apricot海纜建設計畫，根據中華電信的公開資訊，這條國際海纜建設商將會由SubCom負責，海纜及相關設施的建設成本將由參與Apricot海纜建設的會員依投資比例分攤，中華電信將投資超過新台幣10億元。&lt;/p&gt;
+&lt;p&gt;中華電信表示，未來海纜完工後，取得超大頻寬承載能力，將能充分展現5G的高速、低延遲、大連結的網路特性，為該公司在亞太地區的跨國電信業務合作奠定基礎，同時推升臺灣在區域市場的重要地位。&lt;/p&gt;
+&lt;p&gt;除了提升臺灣對外連網頻寬容量，新海纜也可分散路由，據了解，Apricot將會在宜蘭的頭城海纜站登陸。這幾年中華電信參與的國際海纜建設計畫，陸續展現成果，例如2016年的亞太直達海纜APG，2018年的新橫太平洋海纜NCP，先後在宜蘭頭城海纜站啟用，還有預計2022年完工的SJC2，規畫在淡水、枋山雙登陸站，以避免單一海纜站故障的風險。 &lt;/p&gt;
+&lt;p&gt;海纜經常因海流、地震、颱風或是長期腐蝕等因素產生故障，故分散海纜路由能降低連網因此中斷的風險。以APG為例，該海纜在今年初曾因發生故障，導致國內用戶連接美國、日本、中國等地的服務，例如Netflix、Line出現卡頓的情形，在修復之前，緊急調度其他海纜頻寬支援，雖然用戶使用網路服務可能出現延遲，但不致完全中斷不能使用。&lt;/p&gt;
 &lt;p&gt;中華電信表示，此次Apricot海纜由菲律賓東側、穿越印尼海域，直達新加坡的全新路由，提升我國對外海纜路由分散度，確保臺灣對外連網頻寬安全。&lt;/p&gt;
 &lt;p&gt;中華電信國際分公司總經理吳學蘭明確指出，Apricot的戰略意義，未來搭配APG、SJC2海纜經香港、越南、泰國的路由，將形成更完整的東南亞國際海纜環路，該公司未來將持續強化環太平洋、環東南亞建構的亞太海纜雙環，完整亞太地區海纜路由分散，並以雙環軸心的優勢，深化國際電信市場布局。&lt;/p&gt;
-&lt;p&gt;參與Apricot還有Google，該公司也在第一時間發文指出，未來Apricot將和今年初宣布連接美國、新加坡、關島、印尼的Echo海纜，構成相互連結支援的海纜系統，為亞洲用戶提供多條連網出入通道，抱括貫穿南亞的專門路由，提升Google Cloud及數位服務的彈性，帶來充足的頻寬、更低的延遲，穩定及彈性的服務。&lt;/p&gt;
-&lt;p&gt;另一家參與海纜投資的科技巨頭臉書則表示，Apricot帶來190Tbps的總容量將滿足亞太地區日漸增加的資料傳輸需求，包括成長中的4G、5G及寬頻連網，同時支援既有的海纜系統，如近期宣布的Echo、Bifrost海纜系統。&lt;/p&gt;
+&lt;div&gt; &lt;/div&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
  <pubDate>Mon, 16 Aug 2021 09:32:14 +0000</pubDate>
  <dc:creator>蘇文彬</dc:creator>
  <guid isPermaLink="false">146221 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146221#comments</comments>
-</item>
-<item>
- <title>Google改善視覺化工具方便Compute Engine使用者除錯</title>
- <link>https://www.ithome.com.tw/news/146222</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google推出強化上下文（In-Context）的UI工具集，供用戶更快速地對Compute Engine進行除錯，藉由各種指標、圖表和視覺化功能，能夠助用戶分析指標和網路變化，並且找出適合的磁碟大小，甚至是調整和測量記憶體效能等。&lt;/p&gt;
-&lt;p&gt;Google提到，要對虛擬機器在生產環境進行除錯，過程可能很複雜，因為不只需要多個基礎設施的資料點和訊號，還需要來自應用程式的指標。所以當用戶遭遇延遲、停機和錯誤等情況時，便需要在不同的工具和UI間切換，來探索造成問題的根本原因，但這個過程可能拖慢除錯速度。&lt;/p&gt;
-&lt;p&gt;過去Google在Compute Engine控制臺提供一組進階指標，來簡化虛擬機器除錯，雖然如此，用戶仍需要在不同工具之間切換查看，才能對問題進行根本原因分析，官方舉例，當CPU使用率在特定時間到達峰值，這可能是一個有用的分析起點，但是要解決問題，就必須要深入了解造成該問題的原因，而這會需要與程序相關的許多資料和訊號。&lt;/p&gt;
-&lt;p&gt;為了解決這個問題，Google在Compute Engine頁面添加了指標、圖表和各種新的視覺化功能，其中部分新增的功能，則是來自Google雲端Ops代理所產生的深度指標，而Ops代理能夠透過Terraform、Puppet、Ansible和安裝腳本簡單地安裝。由Ops代理所提供的新圖表，包括來自作業系統報告的CPU使用率、記憶體使用率，和由用戶造成的記憶體故障，還能顯示像是核心、磁碟快取、I/O延遲和程序指標等資訊。&lt;/p&gt;
-&lt;p&gt;雖然難以提供單一故障排除流程，一次滿足所有場景需求，但Google表示，這套經強化的可觀察性工具，能夠讓用戶更直覺迅速地處理多種場景。像是當用戶從指標和日誌辨識出網路變化，無論是意外的網路流量增加、網路資料封包大小或是網路連接的峰值，用戶可以藉由日誌工具，來快速過濾並找到關鍵的日誌紀錄，並且利用日誌資源管理器中的深度連結，在Compute Engine和Cloud Logging服務之間快速無縫切換瀏覽。&lt;/p&gt;
-&lt;p&gt;另外，用戶也能夠從磁碟監控工具中，發現在高負載的情況下，例如當每秒IOPS峰值（Peak 1-second IOPS）圖表上的數值線段呈現水平，則可能代表磁碟效能受限制，如果此時I/O延遲平均也相對應的增加，就能夠確定I/O遭到限制，根據這些資訊，用戶可找出負責大部分IOPS的磁碟類型，並且增加磁碟容量，來提高儲存效能限制。&lt;/p&gt;
-&lt;p&gt;新的UI工具集也能用來測量和調整記憶體效能，Google提到，大多數虛擬機器系列都需要Ops代理來收集記憶體使用率，透過檢查Top程序的記憶體使用，開發人員就能偵測記憶體洩漏，進行重新分配或是終止違規程序。營運人員也能夠藉由按分類檢視記憶體細節，來發現應用程式使用記憶體的狀況，選擇更適合的虛擬機器類型。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 08:38:27 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146222 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146222#comments</comments>
-</item>
-<item>
- <title>Google及臉書參與連結新加坡、日本與臺灣的Apricot海底電纜建置</title>
- <link>https://www.ithome.com.tw/news/146223</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google及臉書在本周宣布，將參與新的Apricot海底電纜建置，Apricot將連結新加坡、日本、關島、菲律賓、臺灣與印尼，全長1.2萬公里，預計於2024年啟用。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cloud.google.com/blog/products/infrastructure/new-apricot-subsea-cable-brings-more-connectivity-to-asia&quot; target=&quot;_blank&quot;&gt;Google指出&lt;/a&gt;，Apricot將可與另一條海底電纜Echo互補，讓Google在亞洲具備多條海底電纜路徑，以增強Google Cloud及Google數位服務的彈性，讓亞洲的企業及新創業者在存取Google服務時有更低的延遲、更多的頻寬，也能強化它們與東南亞、北亞及美國之間的連線能力。&lt;/p&gt;
-&lt;p&gt;計畫於2023年啟用的Echo主要連結新加坡及北美，中途則會經過關島及印尼，且不只是Google，&lt;a href=&quot;https://www.ithome.com.tw/news/143532&quot; target=&quot;_blank&quot;&gt;臉書也參與了Echo的建置&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Google引用了Mason的研究指出，該公司從2010年到2019年對亞太地區基礎設施的投資，替該區域額外帶來了4,300億美元的國內生產總額（GDP）與110萬個工作機會。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://engineering.fb.com/2021/08/15/connectivity/apricot-subsea-cable/&quot; target=&quot;_blank&quot;&gt;臉書則說明&lt;/a&gt;，Apricot的容量設計為每秒190Tb，將可用來滿足該地區漸增的資料傳輸需求，包括寬頻、4G及5G，還能支援既有的海底電纜系統，以服務臉書用戶。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 08:33:21 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146223 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146223#comments</comments>
-</item>
-<item>
- <title>思科買下以色列的應用監控業者Epsagon</title>
- <link>https://www.ithome.com.tw/news/146220</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blogs.cisco.com/news/12082021&quot; target=&quot;_blank&quot;&gt;網通設備大廠思科（Cisco）上周宣布&lt;/a&gt;打算買下以色列的應用監控新創Epsagon，以強化思科的全棧觀察（Full-Stack Observability）解決方案。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://epsagon.com/&quot; target=&quot;_blank&quot;&gt;Epsagon&lt;/a&gt;主要開發奠基於容器及無伺服器的應用程式觀察能力，可自動追蹤所有應用程式所調用的函式庫，在服務出現異常時送出警報，可透過分析及儀表板以辨識造成問題的調用，或是搜尋調用中的酬載、使用者或標籤，也能查詢不同微服務之間的端對端請求流程。客戶可於不同的程式語言中植入Epsagon代理機制，將它整合到不同的服務上，以讓Epsagon自動檢查各種應用的效能。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0816-cisco%20Epsagon.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Epsagon&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;思科表示，為了加速應用程式的開發周期，愈來愈多企業大規模地採用了雲端技術、微服務及容器化元件，而這些則牽涉到新的網頁或傳統元件、第三方服務或是APIs，使得企業的IT環境日趨複雜，並由不同的團隊負責不同元件的效能，該公司的全棧觀察解決方案即能讓不同的團隊共享效能的脈絡，以提高維護體驗，還能改善成本、安全性與效能。&lt;/p&gt;
-&lt;p&gt;而Epsagon的專長正巧符合全棧觀察的需求，透過觀察不同服務之間的脈絡，可協助不同的團隊更了解各自的系統，也能更快速的解決問題並維繫應用程式的體驗。&lt;/p&gt;
-&lt;p&gt;雙方並未公布收購金額，交易完成後Epsagon團隊將會加入思科的策略、培育暨應用程式部門。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 08:04:26 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146220 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146220#comments</comments>
-</item>
-<item>
- <title>全球百大銀行已有55%投資加密貨幣或區塊鏈，巴克萊銀行投資家數居冠</title>
- <link>https://www.ithome.com.tw/news/146217</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;根據區塊鏈市場情報機構Blockdata的調查，全球百大銀行中，已有55家直接或透過子公司投資區塊鏈或加密貨幣企業，其中，&lt;a href=&quot;https://app.blockdata.tech/blog/general/banks-investing-blockchain-companies&quot; target=&quot;_blank&quot;&gt;以英國巴克萊銀行（Barclays）的投資範圍最大&lt;/a&gt;，總計投資了19家相關業者。而&lt;a href=&quot;https://app.blockdata.tech/blog/general/blockchain-companies-funded-banks&quot; target=&quot;_blank&quot;&gt;最受銀行業者青睞的區塊鏈公司&lt;/a&gt;，則是近來知名度大增的Circle，總計收到了超過7億美元的資金。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;https://app.blockdata.tech/blog/general/banks-investing-blockchain-companies&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/top-banks-investing-in-crypto-and-blockchain-companies-as-of-july-2021%5B1%5D.jpeg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Blockdata&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;調查顯示，截至今年7月，這55家銀行已在全球17個國家，投資了71家與區塊鏈及加密貨幣相關的企業，目前存活的是69家。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;https://app.blockdata.tech/blog/general/blockchain-companies-funded-banks&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://img.blockdata.tech/blog-posts/post-images/610a73ae2645c80012ae39cc/d85b467f-9050-4263-a1e0-65140cf5de21/2021-7-10-1628608718449/resized/original/blockchain-companies-invested-in-by-top-100-banks.jpeg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;圖片來源_Blockdata&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;收到最多資金的前三名業者為Circle、Dianrong與Ripple。其中，Circle為穩定幣USDC的發行商，準備在今年第四季藉由與特殊目的收購公司（Special Purpose Acquisition Company，SPAC）Concord Acquisition Corp合併登上美國股市，Circle還在上周揭露了&lt;a href=&quot;https://www.ithome.com.tw/news/146192&quot; target=&quot;_blank&quot;&gt;成為正式商業銀行的野心&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;至於收到6.5億美元資金的DianRong，則為一中國業者，其中文名稱為點融，專門提供個人及中小企業的P2P融資服務，亦開發區塊鏈商業平臺，以協助客戶加速部署區塊鏈應用的腳步。排名第三的是打造Ripple支付協定與發行瑞波幣的Ripple Labs，收到3.9億美元的資金。&lt;/p&gt;
-&lt;p&gt;此外，觀察百大銀行的投資標的，顯示最近熱門的是加密貨幣托管，這是因為百大銀行中，有23家正在建置托管解決方案，或是投資托管解決方案供應商。&lt;/p&gt;
-&lt;p&gt;Blockdata分析，百大銀行決定參與加密貨幣的原因涵蓋了看到加密貨幣的交易量大增、客戶不斷要求銀行提供比特幣解決方案，以及有愈來愈多的政府同意銀行提供加密貨幣托管解決方案，這些趨勢也讓過去曾經警告客戶不要使用加密貨幣的銀行產業改變態度，將觸角伸進相關領域。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 07:01:43 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146217 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146217#comments</comments>
-</item>
-<item>
- <title>阿根廷球星梅西部分薪資將以加密貨幣支付</title>
- <link>https://www.ithome.com.tw/news/146216</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;本月足球界大事要算是阿根廷球星梅西（Lionel Messi）離開西班牙巴賽隆納足球俱樂部，加入法國巴黎聖日耳曼（Paris Saint-Germain，PSG）。對科技界而言一件值得關注的事是，梅西的薪資將有一部分以加密貨幣支付。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://en.psg.fr/teams/club/content/paris-saint-germain-concludes-first-player-signing-featuring-fan-tokens&quot; target=&quot;_blank&quot;&gt;PSG上周宣布&lt;/a&gt;，梅西接受以「大量$PSG球迷幣」（$PSG FAN Token）作為其簽約金的一部分，成為世界首例。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.insider.com/lionel-messi-joins-paris-saint-germain-deal-soccer-biggest-transfer-2021-8&quot; target=&quot;_blank&quot;&gt;上星期梅西與這支法國頂級球隊簽下2年合約&lt;/a&gt;，據傳年薪包含3000,萬歐元加紅利，以及數千萬歐元的簽約金。PSG指出梅西的「見面禮」包含加密貨幣$ PSG球迷幣（FAN Token），將使他立即建立與數百萬球迷的聯繫，也使PSG成為世界最創新而前衛的球會。&lt;/p&gt;
-&lt;p&gt;PSG是在2018年1月和球迷忠誠度方案商Socios.com發行$PSG幣，目的在經營PSG的球迷關係。Socios.com背後是專注於運動及娛樂業的區塊鏈和加密貨幣公司Chiliz。球迷買了球迷幣後，可參與球隊投票，或享有購票、周邊商品的優惠等。許多知名球會也是這個平臺的用戶。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://pbs.twimg.com/media/EqempQnXMAAcwp_.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Paris Saint-Germain&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Socios.com指出，「球迷幣」在頂級運動中扮演的角色將愈來愈重要。使用球迷幣可讓新一代觀眾和球會更有互動，也能開闢可觀的營收財源。&lt;/p&gt;
-&lt;p&gt;2020年的COVID-19疫情影響下，所有主要運動賽事皆不開放觀眾入場，嚴重影響仰賴門票收入的商業運動營運。梅西所屬的西甲巴賽隆納俱樂部財務更加惡化，而無法再負擔梅西的薪資。在東京奧運閉幕日當天，&lt;a href=&quot;https://www.youtube.com/watch?v=nwwp6OSLg_4&quot; target=&quot;_blank&quot;&gt;梅西在記者會上確認&lt;/a&gt;將離開待了21年的巴賽隆納和西班牙足球界，並在上周轉戰法國足壇。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 06:29:27 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146216 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146216#comments</comments>
-</item>
-<item>
- <title>駭客正在兜售來自T-Mobile的1億用戶資料</title>
- <link>https://www.ithome.com.tw/news/146215</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.vice.com/en/article/akg8wg/tmobile-investigating-customer-data-breach-100-million&quot; target=&quot;_blank&quot;&gt;Motherboard&lt;/a&gt;與&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/hacker-claims-to-steal-data-of-100-million-t-mobile-customers/&quot; target=&quot;_blank&quot;&gt;BleepingComputer&lt;/a&gt;相繼報導，有賣家於地下論壇中兜售一個含有1億筆美國用戶的資料庫，並向買家與媒體宣稱該資料庫來自美國電信業者T-Mobile，得知此事的T-Mobile已展開調查。&lt;/p&gt;
-&lt;p&gt;賣家向BleepingComputer透露他們是在兩周前入侵了T-Mobile的伺服器，取得了龐大的用戶資料，還展示了與T-Mobile資料庫之間建立連結的螢幕截圖以茲證明，且他們並未向T-Mobile勒索，而是選擇出售給其他駭客。&lt;/p&gt;
-&lt;p&gt;賣家宣稱總計取得了多達106GB的資料，包含約1億名T-Mobile客戶的姓名、電話號碼、生日、駕照號碼、IMEI行動裝置辨識碼與社會安全碼等，並在駭客論壇中以6個比特幣（約28萬美元）的價格出售。&lt;/p&gt;
-&lt;p&gt;網路犯罪情報公司Hudson Rock技術長&lt;a href=&quot;https://twitter.com/UnderTheBreach/status/1426923538099970050&quot; target=&quot;_blank&quot;&gt;Alon Gal 則說&lt;/a&gt;，當他聯繫賣家時，賣家表示此舉是為了傷害美國的基礎設施，以報復美國中情局與土耳其情報幹員在2019年，綁架並嚴刑拷打疑似ISIS恐怖組織成員的John Erin Binns，當時Binns只有19歲，身為美國公民的Binns亦於隔年控告美國司法部、FBI與中情局。&lt;/p&gt;
-&lt;p&gt;Motherboard表示，根據駭客所提供的樣本，已證實該資料庫所存放的T-Mobile客戶資訊是真實的。至於T-Mobile則正積極展開調查，包括是否真的被攻陷，或是有哪些資料遭竊等。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 06:10:30 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146215 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146215#comments</comments>
-</item>
-<item>
- <title>華為被控竊取美國公司軟體商業機密、監控巴基斯坦</title>
- <link>https://www.ithome.com.tw/news/146214</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國IT顧問業者Business Efficiency Solutions&lt;a href=&quot;https://fingfx.thomsonreuters.com/gfx/legaldocs/zjvqkqxwkvx/IP%20HUAWEI%20TRADESECRETS%20complaint.pdf&quot; target=&quot;_blank&quot;&gt;（BES）上周向美國加州地方法院控告華為&lt;/a&gt;竊取其軟體商業機密，並利用其系統蒐集巴基斯坦國家安全和企業資訊。&lt;/p&gt;
-&lt;p&gt;總部位於加州布耶那公園市（Buena Park）的BES指控，2015年華為和該公司合作，贏得巴基斯坦拉合爾警局（Lahore）1.5億美元的「安全城市」標案。在這個公共安全與資安有關的標案中，BES負責開發其中一部份軟體。BES控告華為竊取了該公司為此專案開發的多項軟體程式碼及其他產業機密，且在其軟體中植入後門程式，藉此輸入到巴國，竊取該國國家安全、民間公司機密，以及巴國公民個資。&lt;/p&gt;
-&lt;p&gt;根據訴狀，BES為此專案開發了8項軟體，包括資料交換、建物管理系統、警用資源管理、社交媒體管理、影像媒體、警用攝影機、無人機管理等系統，主要用於蒐集及管理民眾個資、警用影像監控設備、臉書或推特及廣電、平面媒體內容之監管。這個標案涵括了該市鉅細靡遺的國家資料，包括民眾入出境、稅務、民眾車輛、註冊企業及犯罪活動資料等。&lt;/p&gt;
-&lt;p&gt;等BES開發完成後，華為以測試為由，要求BES提供8項軟體的詳細設計（low-level design）資訊，包括原始碼、系統架構、概念設計、介面、diagram/schematic、workflow、協定等文件及資訊，表示要在中國安裝測試。等取得BES的商業機密後，華為卻取消BES存取華為測試實驗室的權限，之後未歸還BES軟體智財，也未從華為實驗室伺服器移除BES軟體。&lt;/p&gt;
-&lt;p&gt;這家公司聲稱，2017年華為以拒絕付款要脅，並稱已取得巴國許可，BES將這完整系統在中國境內複製，使華為得以利用這臺系統作為後門，存取並可操弄汲取攸關巴基斯坦國安的敏感資訊。&lt;/p&gt;
-&lt;p&gt;BES要求華為為其竊取及非法使用BES的智財賠償，並尋求禁止華為持續不法使用該公司的商業祕密和智財。&lt;/p&gt;
-&lt;p&gt;訴狀也稱，他們不是唯一被利用的工具。&lt;a href=&quot;https://www.bbc.com/news/technology-47856098&quot; target=&quot;_blank&quot;&gt;2019年BBC報導&lt;/a&gt;，華為出貨到巴基斯坦的閉路電視內建的Wi-Fi模組也被安裝後門程式，以用來監控巴國民眾。&lt;/p&gt;
-&lt;p&gt;包括&lt;a href=&quot;https://www.reuters.com/legal/transactional/huawei-accused-stealing-trade-secrets-spying-pakistan-2021-08-12/&quot; target=&quot;_blank&quot;&gt;路透&lt;/a&gt;及&lt;a href=&quot;https://www.theregister.com/2021/08/13/huawei_accused_of_trade_secret/&quot; target=&quot;_blank&quot;&gt;The Register&lt;/a&gt;、&lt;a href=&quot;https://www.wsj.com/articles/huawei-accused-in-suit-of-installing-data-back-door-in-pakistan-project-11628947988&quot; target=&quot;_blank&quot;&gt;華爾街日報&lt;/a&gt;皆未獲得華為的回應。&lt;/p&gt;
-&lt;p&gt;本案可望使華為及中國和美國之間的關係再度惡化。華為自2019年5月以國安威脅為由，被商務部列入實體名單，此後再也無法取得發展手機及晶片的關鍵技術，包括晶片及Google軟體。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 06:02:09 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146214 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146214#comments</comments>
-</item>
-<item>
- <title>臉書為Messenger語音、視訊提供全程加密，群組通訊加密為下階段</title>
- <link>https://www.ithome.com.tw/news/146211</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://messengernews.fb.com/2021/08/13/messenger-updates-end-to-end-encrypted-chats-with-new-features/&quot; target=&quot;_blank&quot;&gt;臉書近日宣布&lt;/a&gt;已經為Messenger語音、視訊提供全程加密（end to end encryption，E2EE），而稍後也將開始測試，以便將全程加密推向Messenger群組通訊及Instagram（IG）上。&lt;/p&gt;
-&lt;p&gt;臉書於上周宣布2項新隱私通訊功能，以及即將進行測試的2項隱私功能。2項新增的隱私通訊功能，包括為Messenger語音及視訊通話提供全程加密，以及讓用戶設定文字訊息自動消失的時間。&lt;/p&gt;
-&lt;p&gt;臉書旗下的WhatsApp本來就提供全程加密，臉書Messenger也從2016年就提供了文字訊息的全程加密。但去年以來，用戶使用Messenger打語音電話和視訊的用量大增，現在每天Messenger上進行的視訊高達1.5億次。同時間全程加密也成了產業標準化作法，促使臉書將全程加密功能推向Messenger語音和視訊。不過這項隱私功能屬於選擇加入（opt-in），用戶必須自行開啟。&lt;/p&gt;
-&lt;p&gt;臉書另外更新1對1文字訊息消失的功能。現在臉書加入一項時間設定，讓用戶設定訊息消失的時間，最短5秒，最長可到24小時。&lt;/p&gt;
-&lt;p&gt;此外，臉書也預告，再過幾個星期會開始公測新的隱私通訊功能。首先是Messenger群組通話及視訊全程加密，但前提是彼此已經互加好友。另外也將測試多項用戶控制設定，包括設定誰可以加入聊天室清單、訊息信件匣（request folder），以及誰完全被禁止傳送訊息給用戶。&lt;/p&gt;
-&lt;p&gt;最後，臉書也將針對部份國家的成人限量測試IG 文字及語音私訊的全程加密，不過和Messenger一樣，這僅限彼此互加好友的用戶。這項功能也是選擇加入（opt-in）功能。但用戶必要時仍然可以封鎖不想通訊的其他用戶。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 03:18:23 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146211 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146211#comments</comments>
 </item>
 </channel>
 </rss>

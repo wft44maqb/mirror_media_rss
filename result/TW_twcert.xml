@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Fri, 13 Aug 2021 09:17:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[發生於硬體亂數產生器的嚴重錯誤，將導致數十億台 IoT 裝置面臨資安攻擊風險]]></title><link>http://www.twcert.org.tw/tw/cp-104-5013-83391-1.html</link><description><![CDATA[<p><strong>資安廠商發現普遍應用於 IoT 裝置硬體中的「亂數產生器」存有錯誤，可能因此導致全球數十億台 IoT 裝置面臨嚴重資安攻擊風險。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Tue, 17 Aug 2021 08:30:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[美國行動通訊服務商 T-Mobile 發生大規模客戶資料外洩事件，近億用戶個資遭竊]]></title><link>http://www.twcert.org.tw/tw/cp-104-5017-c33a1-1.html</link><description><![CDATA[<p><strong>美國行動通訊服務商 T-Mobile 有近億顧客資料，日前被放上網路待價而沽；T-Mobile 也證實這批資料被竊，目前正在進行調查作業。</strong><br />
+<br />
+美國大型行動通訊服務商 T-Mobile，日前發生嚴重資安事件；有近億顧客資料日前被放上網路待價而沽；T-Mobile 也證實這批資料被竊，目前正在進行調查作業。<br />
+<br />
+據資安專業媒體 BleepingComputer 報導指出，有駭侵者成功入侵 T-Mobile 的多台資料庫主機，竊得近 1&nbsp;億名 T-Mobile 用戶的多種個資，並放上駭侵相關網站求售。<br />
+<br />
+BleepingComputer 取得駭侵者的說法，指出該批資料包括用戶使用行動裝置的 IMEI 與 IMSI 編號、電話號碼、顧客姓名、裝置安全密碼（PIN）、社會安全碼、駕照號碼與出生年月日等。<br />
+<br />
+駭侵者也說，這批資料中的 IMEI 號碼，最遠可溯及 2004 年。<br />
+<br />
+該批資料是在約兩星期前的一波駭侵攻擊中取得。據 BleepingComputer 報導，駭侵者係透過 ssh 連線到 T-Mobile 所屬內部資料中心的 Oracle Database Server，進而取得這批資料。<br />
+<br />
+而當 BleepingComputer 向 T-Mobile 針對此事進行採訪時，T-Mobile 證實該公司發生了駭侵攻擊事件，也證實該公司所屬的伺服器，確實發生過外界不當存取事件，且有部分資料外洩；但該公司說「目前尚未確認是否有顧客個資遭到竊取」。<br />
+<br />
+T-Mobile 在聲明中說，該公司已經會同專家與司法單位，針對此次資料外洩事件積極展開調查；目前也已經關閉駭侵者攻擊使用的進入點；但該公司也說，在調查行動告一段落之前，無法確認外界宣稱的受影響者人數。</p>]]></description><pubDate>Tue, 17 Aug 2021 08:30:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5017-c33a1-1.html</guid></item><item><title><![CDATA[發生於硬體亂數產生器的嚴重錯誤，將導致數十億台 IoT 裝置面臨資安攻擊風險]]></title><link>http://www.twcert.org.tw/tw/cp-104-5013-83391-1.html</link><description><![CDATA[<p><strong>資安廠商發現普遍應用於 IoT 裝置硬體中的「亂數產生器」存有錯誤，可能因此導致全球數十億台 IoT 裝置面臨嚴重資安攻擊風險。</strong><br />
 <br />
 資安廠商 Bishop Fox 旗下的研究人員 Dan Petro 與 Allan Cecil，日前發現普遍應用於 IoT 裝置硬體中的「亂數產生器」（Random Number Generator, RNG）存有嚴重錯誤，可能因此導致全球數十億台 IoT 裝置面臨嚴重資安攻擊風險。<br />
 <br />
@@ -255,16 +269,4 @@ Twitter 提供的二階段登入驗證，其隨機驗證碼可以透過簡訊、
 <br />
 資安專家指出，二階段驗證碼的使用率低落，並不只是 Twitter 一家業者獨有的現象，而是資訊服務産業面臨的共同問題；由於二階段驗證碼的操作過程，比起傳統只需帳號密碼的登入方式更為複雜，也不夠直覺，因此許多不夠重視自身資安防護的用戶，就不願採用二階段登入驗證功能。<br />
 <br />
-即使是採用了二階段登入驗證的用戶，也有極高比例透過手機門號接收透過簡訊傳來的二階段登入驗證碼；但資安專家指出這仍有風險，因為駭侵者很可能會利用 SIM-Swap 攻擊來取得用戶手機門號的使用權，直接攔截傳來的二階段登入驗證碼。</p>]]></description><pubDate>Tue, 27 Jul 2021 09:18:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4949-01719-1.html</guid></item><item><title><![CDATA[曾駭入 TikTok、Snapchat 的駭侵者，因 Twitter 駭侵攻擊在西班牙被捕]]></title><link>http://www.twcert.org.tw/tw/cp-104-4947-ccd39-1.html</link><description><![CDATA[<p><strong>一名在去年七月犯下 Twitter 名人帳號挾持案件的嫌犯，於日前在西班牙遭到逮捕；他也曾經挾持過其他社群平台如 TikTok 和 Snapchat 上的帳號。</strong><br />
-<br />
-一名在去年七月犯下 Twitter 名人帳號挾持案件的嫌犯 Joseph O&rsquo;Connor，於日前在西班牙遭到逮捕；他也曾經犯下挾持其他社群平台如 TikTok 和 Snapchat 上帳號的罪行。<br />
-<br />
-Joseph O&rsquo;Connor 是英國籍，現年 22 歲，他和 Mason Sheppard （又名 Chaewon，19 歲，英國籍）、Nima Fazeli（又名 Rolex，22 歲，美國籍）、Graham Ivan Clark（又名 Kirk，美國籍）等其他三人，在去年 7 月時以 SIM swap 與社交工程等方式，成功駭入 Twitter 的内部管理系統，並且挾持多達 130 個名人與著名公司的 Twitter 帳號，並利用這些帳號發布比特幣詐騙訊息；嫌犯假稱任何匯進指定錢包的比特幣，都可以收到兩倍的匯回款，以此吸引被害人匯款。<br />
-<br />
-在去年的攻擊事件中，被挾持用來發布詐騙訊息的名人或知名公司帳號，包括時為美國總統民主黨候選人的 Joe Biden、Amazon 執行長 Jeff Bezos、美國前總統 Barrack Obama、特斯拉執行長 Elon Musk、前紐約市長 Michael Bloomberg，以及著名投資大師 Warren Buffet，以及全球最大的加密貨幣交易所 Binance、蘋果公司、另一家加密貨幣交易所 Coinbase、共享交通公司 Uber 等。<br />
-<br />
-該次帳號挾持與比特幣詐騙攻擊中，嫌犯控制的比特幣錢包位置，在 24 小時内收到 383 次比特幣轉入，得到近 13 枚比特幣，當時的幣價相當於 117,000 美元。<br />
-<br />
-這些嫌犯也將透過 Twitter 内部系統竊得的超短帳號（如@dark、@w、@l、@R9、@50、@vague）等，在相關社群平台上販售。<br />
-<br />
-這四人目前都被指控多項駭侵罪名。</p>]]></description><pubDate>Mon, 26 Jul 2021 09:27:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4947-ccd39-1.html</guid></item></channel></rss>
+即使是採用了二階段登入驗證的用戶，也有極高比例透過手機門號接收透過簡訊傳來的二階段登入驗證碼；但資安專家指出這仍有風險，因為駭侵者很可能會利用 SIM-Swap 攻擊來取得用戶手機門號的使用權，直接攔截傳來的二階段登入驗證碼。</p>]]></description><pubDate>Tue, 27 Jul 2021 09:18:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4949-01719-1.html</guid></item></channel></rss>

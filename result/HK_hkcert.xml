@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Tue, 17 Aug 2021 02:01:40 +0800</pubDate>
-		<lastBuildDate>Tue, 17 Aug 2021 02:01:40 +0800</lastBuildDate>
+		<pubDate>Tue, 17 Aug 2021 17:58:11 +0800</pubDate>
+		<lastBuildDate>Tue, 17 Aug 2021 17:58:11 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,6 +15,38 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>Google Chrome 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20210817</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20210817</guid>
+			<pubDate>Tue, 17 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Google Chrome 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發遠端執行程式碼、阻斷服務狀況、繞過保安限...
+			  <p>影響</p>
+			  <ul>
+			          <li>遠端執行程式碼</li>
+			          <li>資料洩露</li>
+			          <li>阻斷服務</li>
+			          <li>繞過保安限制</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Google Chrome&nbsp;92.0.4515.159 之前的版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>安裝軟件供應商提供的修補程式：</p>
+			
+			<ul>
+				<li>更新至 92.0.4515.159版本</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
 		<item>
 			<title>NetApp 產品資料篡改漏洞</title>
 			<link>https://www.hkcert.org/tc/security-bulletin/netapp-products-data-manipulation-vulnerability_20210816</link>
@@ -717,39 +749,6 @@
 			<ul>
 				<li>安裝軟件供應商提供的修補程式：<br />
 				<a href="https://source.android.com/security/bulletin/2021-08-01" target="_blank">https://source.android.com/security/bulletin/2021-08-01</a></li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>Google Chrome 多個漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20210803</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20210803</guid>
-			<pubDate>Tue, 03 Aug 2021 09:00:00 +0800</pubDate>
-			<description><![CDATA[  於 Google Chrome 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發遠端執行程式碼、阻斷服務狀況、繞過保安限...
-			  <p>影響</p>
-			  <ul>
-			          <li>遠端執行程式碼</li>
-			          <li>資料洩露</li>
-			          <li>阻斷服務</li>
-			          <li>繞過保安限制</li>
-			          <li>篡改</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>Google Chrome&nbsp;92.0.4515.131 之前的版本</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<p>安裝軟件供應商提供的修補程式：</p>
-			
-			<ul>
-				<li>更新至 92.0.4515.131 版本</li>
 			</ul>
 			
 			  <hr>

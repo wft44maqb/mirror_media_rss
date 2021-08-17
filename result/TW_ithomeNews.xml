@@ -1,11 +1,80 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/1135" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/atom/1135</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/1135" rel="self" type="application/rss+xml" />
       <item>
+    <title>【技術管理者成長系列2】商業如何驅動架構設計？成為架構師前要先懂的8件事</title>
+    <link>https://www.ithome.com.tw/news/146160</link>
+    <description> 在臺灣不少技術管理者或技術主管，在公司內也擔任架構師的角色，但相較於國外，過去在臺灣少有架構師公開分享自身架構設計的實驗經驗，不過，近日在一場線上技術管理者論壇上，鼎恒科技應用產品設計中心協理林承毅，大方傳授多年來擔任架構師的工作經驗，不僅教導開發人員怎麼學習平衡開發與架構設計之間的工作，更分享他如何透過商業來驅動架構設計。
+林承毅過去在博奕產業IT待了十多年，一手主導不少大型軟體架構設計，來因應各種大流量與高併發的應用場景，對於架構設計相當熟諳，後來進到鼎恒科技，更帶領其中一個產品研發中心團隊，負責應用產品設計與開發。</description>
+     <pubDate>2021-08-17  04:08:17</pubDate>
+ <dc:creator>余至浩</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146160</guid>
+  </item>
+  <item>
+    <title>Realtek晶片10多項安全漏洞可導致系統被接管，影響至少65家IoT廠商</title>
+    <link>https://www.ithome.com.tw/news/146236</link>
+    <description> 安全廠商IoT Inspector本周公布瑞昱半導體的一款無線裝置晶片，有10多項漏洞，可使駭客執行任意程式碼，最嚴重可導致系統被接管。瑞昱已經完成修補。</description>
+     <pubDate>2021-08-17  01:08:55</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146236</guid>
+  </item>
+  <item>
+    <title>190萬名恐怖份子觀察名單在網路上曝光</title>
+    <link>https://www.ithome.com.tw/news/146235</link>
+    <description> SecurityDiscovery.com的網路威脅情報總監Bob Diachenko在7月19日，發現了一份約190萬名全球恐怖份子的觀察名單，該名單是放置在一個Elasticsearch叢集上，而且沒有任何密碼保護，來源是美國聯邦調查局（FBI）所管轄的恐怖份子審查中心（Terrorist Screening Center，TSC）。</description>
+     <pubDate>2021-08-17  01:08:23</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146235</guid>
+  </item>
+  <item>
+    <title>iCloud for Windows 12.5版終於加入密碼管理功能</title>
+    <link>https://www.ithome.com.tw/news/146234</link>
+    <description> 蘋果iCloud for Windows 12.5版周一在Windows Store上架，新版App終於也加入iCloud‌ Keychain密碼管理器功能。</description>
+     <pubDate>2021-08-17  12:08:00</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146234</guid>
+  </item>
+  <item>
+    <title>曾感染臺灣的勒索軟體Magniber正在開採PrintNightmare漏洞</title>
+    <link>https://www.ithome.com.tw/news/146233</link>
+    <description> Windows PrintNightmare漏洞正成為駭客界的最愛。隨著PrintNightmare漏洞愈來愈多，研究人員近日發現一隻過去曾感染臺灣用戶的勒索軟體Magniber，也將之納入新的攻擊目標。</description>
+     <pubDate>2021-08-17  11:08:20</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146233</guid>
+  </item>
+  <item>
+    <title>雲端資料倉儲Amazon Redshift現提供跨帳戶資料共享功能</title>
+    <link>https://www.ithome.com.tw/news/146227</link>
+    <description> AWS現在宣布讓雲端資料倉儲Redshift用戶，可以跨AWS帳戶共享資料，也就是說，Redshift資料交換不再限於單一帳戶中的使用者。
+在資料驅動的時代，不少企業將資料視為資產，透過分析收集而來的資料，來獲得更多的資訊，進而做出更好的決定。部分企業甚至將自家的資料和分析轉為服務，提供給客戶或是合作夥伴等外部組織，藉以創造新的收入。各方都希望能夠共享和使用單一來源的資料，並在查詢資料的同時，不會降低叢集效能，且存取準確且正確的資料。</description>
+     <pubDate>2021-08-17  10:08:33</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146227</guid>
+  </item>
+  <item>
+    <title>【先用AI研發雲創新，再靠MLaaS將AI嵌入業務系統】玉山2大AI關鍵平臺大解密</title>
+    <link>https://www.ithome.com.tw/news/146196</link>
+    <description> 玉山內部執行的AI專案超過半百，維持玉山AI力源源不絕的關鍵，除了人力，還有玉山銀行智能金融處（後簡稱玉山智金處）打造的兩大技術平臺——AI研發雲和MLaaS。玉山用它們來嘗試各種新點子，也用來測試新模型，更用來將成熟穩定的AI模型，介接到實際金融業務場景，賦予系統內建的AI能力。
+資料是企業最重要的資產，若要把資料變成可運用的資產，需有一套整體性的運用體系，才能讓AI源源不斷地發揮資料的價值。傳統大數據分析常見的作法是，數據團隊產出各種分析報表，提供給業務單位來取用。但玉山認為，只做到這樣還不夠，更關鍵的是，AI必須整合到業務中，這正是他們打造兩大技術平臺的理由。</description>
+     <pubDate>2021-08-17  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146196</guid>
+  </item>
+  <item>
+    <title>【從技術研發到加速服務落地，AI團隊不斷轉型再進化】玉山AI力關鍵團隊如何養成</title>
+    <link>https://www.ithome.com.tw/news/146183</link>
+    <description> 三年前，時任玉山金控科技長陳昇瑋，不只定調玉山AI發展藍圖，還與當時的玉山金控暨銀行總經理黃男州，做了個重大的決定。
+他們拍板終止數個正在進行、每個都上千萬元等級的專案，集中資源投注在AI上，來強化資料團隊的AI應用能力。這項決定，催生了玉山AI化的主力推手──智能金融處（簡稱智金處），在短短兩、三年內打造AI研發專用的技術平臺，還經手半百個AI專案，將不少AI系統內化到日常工作流程，成為玉山人的必備工具。
+可三年前，沒人知道這個轉型決策是好是壞，全臺也沒先例可循，玉山只能一步步且戰且走。</description>
+     <pubDate>2021-08-17  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146183</guid>
+  </item>
+  <item>
     <title>LockBit 2.0勒索軟體大舉侵襲澳洲，當地網路安全中心發布警告</title>
     <link>https://www.ithome.com.tw/news/146226</link>
     <description> 駭客利用勒索軟體LockBit 2.0攻擊的現象，最近出現數起事故。例如，於8月11日，運用該勒索軟體的駭客，宣稱攻陷IT大型顧問公司Accenture，並要求限時支付贖金，否則就要把竊得的資料公開。</description>
@@ -14,10 +83,10 @@
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146226</guid>
   </item>
   <item>
-    <title>中華電信投入逾10億元參與亞太新海纜Apricot建設案</title>
+    <title>Google啟動亞太新海纜計畫，中華電信也將投資逾台幣10億元</title>
     <link>https://www.ithome.com.tw/news/146221</link>
-    <description> 中華電信宣布參與新的亞太地區海纜投資計畫，將和其他電信商，以及Google、臉書等科技巨頭聯手，合資打造全新海纜Apricot，以提升亞太地區網路連接容量及穩定性。
-Apricot將連接日本、臺灣、關島、菲律賓、印尼、新加坡，總長度1,2000公里，預計於2024年完工啟，屆用時將帶來超過190Tbps的總容量。根據中華電信稍早公開的訊息指出，這條國際海纜建設商為SubCom，海纜及相關設施的建設成本將由Apricot會員依投資比例分攤，中華電信投資金額將超過新台幣10億元。</description>
+    <description> Google宣布新的亞太地區海纜投資計畫，將和臉書及區域性的電信業者合作，共同投資建設新海纜Apricot，國內的中華電信也宣布將投入超過臺幣10億元參與海纜建設，未來新的海纜啟用之後，可望提升亞太地區網路連接容量及穩定性。
+Apricot將連接日本、臺灣、關島、菲律賓、印尼及新加坡，總長度1,2000公里，預計於2024年完工啟動，屆時將帶來超過190Tbps的總容量。</description>
      <pubDate>2021-08-16  05:08:14</pubDate>
  <dc:creator>蘇文彬</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146221</guid>
@@ -193,71 +262,6 @@ AI戰略一：深化創新
      <pubDate>2021-08-13  02:08:27</pubDate>
  <dc:creator>李宗翰</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/review/146186</guid>
-  </item>
-  <item>
-    <title>明日起GitHub的Git操作將無法再採用密碼認證</title>
-    <link>https://www.ithome.com.tw/news/146185</link>
-    <description> GitHub周四（8/12）警告，從太平洋標準時間（PST）8月13日早上9點（臺北時間8月14日凌晨1點）起，GitHub.com將不再接受以帳號/密碼進行身分驗證的方式來執行Git操作，而是必須採用基於權杖（Tokens）的身分驗證方式才行。</description>
-     <pubDate>2021-08-13  02:08:09</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146185</guid>
-  </item>
-  <item>
-    <title>愈來愈多網釣連結濫用Google開放重定向功能</title>
-    <link>https://www.ithome.com.tw/news/146184</link>
-    <description> 安全廠商Greathorn發現，近日有愈來有多網釣攻擊者利用Google Meet和Google DoubleClick的開放重定向（open redirect）功能，將用戶導向惡意網站騙取帳密。
-Greathorn研究團隊估計，今年第1季到第2季之間，使用Google Meet和Google DoubleClick中的開放重定向功能的網釣攻擊成長了84%。</description>
-     <pubDate>2021-08-13  01:08:56</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146184</guid>
-  </item>
-  <item>
-    <title>釣魚郵件攻擊出現新手法，駭客採用摩斯編碼、ASCII等多種編碼來混淆附件內容</title>
-    <link>https://www.ithome.com.tw/news/146181</link>
-    <description> 攻擊者為了避免釣魚郵件遭到攔截，附件檔案很可能會利用較為少見的檔案格式，來挾帶作案工具，例如，光碟映像檔（ISO、IMG），甚至是Windows映像檔格式（WIM）等，這些檔案格式對於部分郵件防護系統而言，無法解讀其中的內容，沒辦法得知是否有害。但最近也有攻擊者改變策略，使用一般郵件可能會出現的附件檔案類型，來挾帶含有攻擊意圖的工具，避免上述附件的檔案格式可能會被網管人員列為黑名單封鎖的情況。</description>
-     <pubDate>2021-08-13  12:08:05</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146181</guid>
-  </item>
-  <item>
-    <title>Fintech周報第193期：台新銀行與新創業者合作開發，為外籍移工推出ATM跨境匯款代收服務</title>
-    <link>https://www.ithome.com.tw/news/146180</link>
-    <description> </description>
-     <pubDate>2021-08-13  12:08:54</pubDate>
- <dc:creator>李靜宜</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146180</guid>
-  </item>
-  <item>
-    <title>趨勢科技修補已遭到攻擊的Apex One產品漏洞</title>
-    <link>https://www.ithome.com.tw/news/146178</link>
-    <description> 趨勢科技近日發布安全公告，修補旗下端點安全產品，包括本地部署及雲端版Apex One中的4項漏洞，同時警告其中2個漏洞已經被駭客串聯起來對用戶發動攻擊。</description>
-     <pubDate>2021-08-13  11:08:49</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146178</guid>
-  </item>
-  <item>
-    <title>Redis Labs更改公司名稱與記憶體資料庫Redis同名</title>
-    <link>https://www.ithome.com.tw/news/146174</link>
-    <description> 記憶體資料庫Redis主要貢獻和贊助廠商Redis Labs，現在要更改名稱，刪除Labs字樣，使用與記憶體資料庫相同名字Redis，官方提到，這項更改反映出他們專注的目標與提供的產品。</description>
-     <pubDate>2021-08-13  11:08:48</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146174</guid>
-  </item>
-  <item>
-    <title>OpenSFF推出Allstar App助開源專案修復安全性問題</title>
-    <link>https://www.ithome.com.tw/news/146166</link>
-    <description> OpenSFF推出GitHub應用程式Allstar，可自動且持續地對GitHub專案，執行安全最佳實踐。藉由使用Allstar，專案擁有者可以檢查儲存庫安全政策遵守的狀況，並且設置必要的強制執行措施，在組織或是專案儲存庫中的設定和檔案更改時，觸發執行這些措施，進而降低開源社群的安全風險。</description>
-     <pubDate>2021-08-13  11:08:57</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146166</guid>
-  </item>
-  <item>
-    <title>Dogfooding！GitHub.com工程團隊開發環境上Codespaces</title>
-    <link>https://www.ithome.com.tw/news/146165</link>
-    <description> 隨著GitHub的規模不斷擴增，程式碼庫也越來越龐大，為了讓GitHub新的開發成員快速上手，以及提供更方便的開發環境，GitHub工程團隊從原先以macOS為中心的開發模型，轉而使用Codespaces，並且採用預建置等方法，將啟動開發環境的時間縮減至10秒鐘。另外，GitHub也宣布，開始向Team和Enterprise Cloud方案用戶提供Codespaces，並擴展個人方案用戶的測試規模。</description>
-     <pubDate>2021-08-13  11:08:12</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146165</guid>
   </item>
   </channel>
 </rss>
