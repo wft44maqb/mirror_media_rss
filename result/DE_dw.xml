@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-17T13:58:44Z</updated>
+ <updated>2021-08-17T14:01:31Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58886334</id>
+  <title><![CDATA[德国第一架军机仅载7人离开 塔利班: 本国人不应离境]]></title>
+  <updated>2021-08-17T13:40:00Z</updated>
+  <published>2021-08-17T13:40:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国第一架军机仅载7人离开-塔利班-本国人不应离境/a-58886334?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[在喀布尔机场上空盘旋5小时后，载有“空降猎兵”的德国联邦国防军一架A400M运输机周一至周二夜间终于在该机场降落。由于只获短暂停留时间，该机很快匆匆起飞，机上只搭载了7名需要疏散的人员。不过在数小时后，德国第二架载有120人的运输机也升空。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58887407</id>
   <title><![CDATA[塔利班的前世今生]]></title>
@@ -33,16 +43,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/大火熊熊燃烧！以色列亟需更多灭火飞机/a-58886306?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[以色列政府要求国际社会提供支援，帮助该国应对耶路撒冷西部地区森林大火。有消息称，此次严重火灾也可能是人为纵火的结果。]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58886334</id>
-  <title><![CDATA[德军机仅载7人离开喀布尔 塔利班宣布本国人不应离境]]></title>
-  <updated>2021-08-17T11:07:00Z</updated>
-  <published>2021-08-17T11:07:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德军机仅载7人离开喀布尔-塔利班宣布本国人不应离境/a-58886334?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[在喀布尔机场上空盘旋5小时后，载有快速部队“空降猎兵”的德国联邦国防军一架A400M运输机周一至周二夜间终于在该机场降落。由于只获短暂停留时间，该机很快匆匆起飞，机上只搭载了7名需要疏散的人员。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58886242</id>
