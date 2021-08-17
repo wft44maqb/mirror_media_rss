@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-17T13:29:38Z</updated>
+ <updated>2021-08-17T13:33:24Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58887407</id>
+  <title><![CDATA[塔利班的前世今生]]></title>
+  <updated>2021-08-17T13:00:00Z</updated>
+  <published>2021-08-17T13:00:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班的前世今生/a-58887407?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[作为激进派伊斯兰武装，塔利班已经重新夺回阿富汗政权。那么，它究竟是一个怎样的组织，它的历史如何，今后又会做什么呢？]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58886306</id>
   <title><![CDATA[大火熊熊燃烧！以色列亟需更多灭火飞机]]></title>
@@ -213,16 +223,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/索罗斯：习近平已经将自己变成了独裁者/a-58878282?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中美冲突的核心是什么？习近平为何与邓小平的经济改革路线背道而驰？阿里巴巴、滴滴等商界巨头何以被打压？美国投资家、慈善家索罗斯在为《华尔街日报》撰写的观点文章中说，为了2022年后继续掌权，完成他认为的人生使命，习近平将自己变成了独裁者，而这样的独裁统治已威胁到中国的未来。]]></summary>
   <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58876706</id>
-  <title><![CDATA[评论：终止虚伪的阿富汗政策！]]></title>
-  <updated>2021-08-16T10:24:00Z</updated>
-  <published>2021-08-16T10:24:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/评论：终止虚伪的阿富汗政策！/a-58876706?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[多少年了，阿富汗一直被说成是安全的。而现在，塔利班占领了这个国家。西方一些人对此惊诧不已。德国之声记者Waslat Hasrat-Nazimi指出，西方必须结束这种虚伪。]]></summary>
-  <category term="评论分析"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58876575</id>
