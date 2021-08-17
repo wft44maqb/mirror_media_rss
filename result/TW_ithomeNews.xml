@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/759" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/atom/759</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/atom/759" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=203&amp;profile=rss20" rel="self" type="application/rss+xml" />
       <item>
+    <title>Adobe文件服務新推2大API，能自動擷取完整PDF結構輸出JSON檔方便整合Web，還能嵌入Word</title>
+    <link>https://www.ithome.com.tw/news/146240</link>
+    <description> Adobe在文件服務（Adobe Document Services）中新增兩大API功能，分別是Adobe PDF Extract API與Adobe Document Generation API。前者能根據PDF內容的檔案結構，透過Adobe核心AI引擎Adobe Sensei擷取文字、表格資料、圖像等元素，並以JSON格式輸出；後者則可以將JSON格式資料，嵌入Microsoft Word文件內容中，來生成具動態資料的PDF檔案。</description>
+     <pubDate>2021-08-17  06:08:12</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146240</guid>
+  </item>
+  <item>
     <title>【技術管理者成長系列2】商業如何驅動架構設計？成為架構師前要先懂的8件事</title>
     <link>https://www.ithome.com.tw/news/146160</link>
     <description> 在臺灣不少技術管理者或技術主管，在公司內也擔任架構師的角色，但相較於國外，過去在臺灣少有架構師公開分享自身架構設計的實驗經驗，不過，近日在一場線上技術管理者論壇上，鼎恒科技應用產品設計中心協理林承毅，大方傳授多年來擔任架構師的工作經驗，不僅教導開發人員怎麼學習平衡開發與架構設計之間的工作，更分享他如何透過商業來驅動架構設計。
@@ -254,14 +262,6 @@ AI戰略一：深化創新
      <pubDate>2021-08-13  02:08:55</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146187</guid>
-  </item>
-  <item>
-    <title>延伸口罩偵測、出勤、視訊監控應用，訊連臉部辨識攻實體安全</title>
-    <link>https://www.ithome.com.tw/review/146186</link>
-    <description> 以多媒體內容處理軟體著稱的訊連科技（CyberLink），過去最為人所知的產品，有影音播放軟體PowerDVD、圖片處理軟體PhotoImpact、影片處理軟體威力導演（‎PowerDirector），而從2018年起，他們開始主推臉部辨識技術FaceMe，而最初發表的產品FaceMe SDK，也是訊連臉部辨識的核心，隨後，他們參與2019年的消費性電子展（CES）、台北國際電腦展（Computex）等多項國際大型展覽，積極對外展示臉部辨識引擎與解決方案。</description>
-     <pubDate>2021-08-13  02:08:27</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/review/146186</guid>
   </item>
   </channel>
 </rss>

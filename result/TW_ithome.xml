@@ -6,6 +6,36 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Adobe文件服務新推2大API，能自動擷取完整PDF結構輸出JSON檔方便整合Web，還能嵌入Word</title>
+ <link>https://www.ithome.com.tw/news/146240</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p dir=&quot;ltr&quot;&gt;Adobe在文件服務（Adobe Document Services）中新增兩大API功能，分別是Adobe PDF Extract API與Adobe Document Generation API。前者能根據PDF內容的檔案結構，透過Adobe核心AI引擎Adobe Sensei擷取文字、表格資料、圖像等元素，並以JSON格式輸出；後者則可以將JSON格式資料，嵌入Microsoft Word文件內容中，來生成具動態資料的PDF檔案。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Adobe文件服務提供了一套SDK和Restful API，可供開發者打造各項PDF文件的應用，比如客製化的端到端協議（Agreement）、內容發布、資料分析工作流等任務。這套服務SDK可以在AWS Marketplace下載。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;這次新增的兩大雲端API，一是Adobe PDF Extract API，透過AI分析PDF檔案的內文結構，從中提取包括文字、表格資料、圖像在內的所有PDF元素。文字擷取過程中，除了能依據內文格式辨識出標題、列表、註解等內容，還能理解文件中常見的跨欄、跨頁段落，依照閱讀順序擷取完整內容文字。這些從PDF檔中擷取的各種元素，例如文字、表格資料與圖片，可以輸出成網頁應用慣用的JSON格式，表格資料也可以選擇以CSV或XLSX來儲存，圖片則可選擇以PNG儲存，以便開發者可以輕易地儲存、分析與操作這些數據，並與其他的系統結合，比如資料庫、記錄系統（systems of record）、CRM、ERP等系統，或是用來開發NLP應用、RPA自動化流程、ML模型或進行數據分析等。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-17%20%E4%B8%8A%E5%8D%8811_30_28.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Adobe PDF Extract API的一大功能，就是能辨識出文件中的標題、段落、表格、粗體字等不同的內文編排，依據這些編排來擷取各類元素。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-17%20%E4%B8%8A%E5%8D%8811_35_07.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;擷取出內文、表格、影像等元素後，則會以JSON、PNG、CSV等檔案儲存，以利後續與其他系統結合應用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-17%20%E4%B8%8A%E5%8D%8811_33_24.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;比如表格資料可以在直接擷取後，匯入其它系統進行資料分析與視覺化。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p dir=&quot;ltr&quot;&gt;另一項Adobe Document Generation API，則是能讓開發者將JSON格式資料，嵌入Microsoft Word文件內容，來生成具動態資料的Word和PDF檔案。開發者在使用時，須先在Word外掛Adobe文件生成標籤功能（Adobe Document Generation Tagger），並上傳JSON資料，由系統將自動依據JSON資料模型生成標籤，或是自行建立可重複使用的標籤，以便後續在Word中動態加入標籤、影像、列表，或基於輸入資料與條件生成的客製化表格。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;在文件中完成標籤與表格等元素的設定後，在生成PDF的過程中，系統將依據標籤將指定的JSON資料結合到文件，快速生成一份自定義的文件內容，而不需要手動輸入各類資料來建立一份文件。這項功能也已經與Adobe Sign整合，讓用戶可在文件中使用電子簽名。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Adobe在官網上也提供了多種常用文件範本，用戶可直接下載使用，也可上傳自己的Word與JSON檔來操作。這項功能常用於協議文件與合約的建立，包括銷售提議及合約、法律合約、NDA保密協議、員工聘用信函、法律信函與聲明等文件類型。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-17%20%E4%B8%8B%E5%8D%882_55_55.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p dir=&quot;ltr&quot;&gt;Adobe Document Generation API，主要功能是將JSON格式資料，嵌入Microsoft Word文件內，來生成具動態資料的Word和PDF檔案。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-17%20%E4%B8%8B%E5%8D%884_30_20.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p dir=&quot;ltr&quot;&gt;Demo的左邊是JSON資料的上傳處，右邊黃色螢光筆是添加到文件中的標籤，不同標籤代表要加入的不同資料類型，比如是產品名稱、產品價錢等，設定完成後生成PDF，過程中，系統就會依據標籤將指定的JSON資料，結合到文件中。&lt;/p&gt;
+&lt;/blockquote&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 10:04:12 +0000</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="false">146240 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146240#comments</comments>
+</item>
+<item>
  <title>【技術管理者成長系列2】商業如何驅動架構設計？成為架構師前要先懂的8件事</title>
  <link>https://www.ithome.com.tw/news/146160</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在臺灣不少技術管理者或技術主管，在公司內也擔任架構師的角色，但相較於國外，過去在臺灣少有架構師公開分享自身架構設計的實驗經驗，不過，近日在一場線上技術管理者論壇上，鼎恒科技應用產品設計中心協理林承毅，大方傳授多年來擔任架構師的工作經驗，不僅教導開發人員怎麼學習平衡開發與架構設計之間的工作，更分享他如何透過商業來驅動架構設計。&lt;/p&gt;
@@ -320,28 +350,6 @@
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="false">146226 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146226#comments</comments>
-</item>
-<item>
- <title>Google啟動亞太新海纜計畫，中華電信也將投資逾台幣10億元</title>
- <link>https://www.ithome.com.tw/news/146221</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google宣布新的亞太地區海纜投資計畫，將和臉書及區域性的電信業者合作，共同投資建設新海纜Apricot，國內的中華電信也宣布將投入超過臺幣10億元參與海纜建設，未來新的海纜啟用之後，可望提升亞太地區網路連接容量及穩定性。&lt;/p&gt;
-&lt;p&gt;Apricot將連接日本、臺灣、關島、菲律賓、印尼及新加坡，總長度1,2000公里，預計於2024年完工啟動，屆時將帶來超過190Tbps的總容量。&lt;/p&gt;
-&lt;p&gt;Google表示，全球約有98%的國際網路流量仰賴海纜傳輸。隨著人們工作、娛樂及互動連結趨向數位化，穩定的網路連結比以往來得更重要。今年初宣布的Echo海纜，將連接美國、新加坡、關島、印尼，Echo將和Apricot構成互補的海纜系統，為亞太地區帶來多個進出路徑的優勢，包括南亞的獨立路由。將確保提升Google Cloud及數位服務有更高的韌性，讓亞洲的企業及新創連接南亞、北亞、美國，享有較低的延遲、更多的頻寬及韌性。&lt;/p&gt;
-&lt;p&gt;該公司提及網路基礎建設的投資帶來的經濟效益，引用分析機構Mason的報告，Google在2010年到2019年期間，在APAC的網路基礎建設投資，帶動共4,300億美元的GDP，1.1萬個工作機會。&lt;/p&gt;
-&lt;p&gt;另一家參與海纜投資的科技巨頭臉書則表示，Apricot帶來190Tbps的總容量將滿足亞太地區日漸增加的資料傳輸需求，包括成長中的4G、5G及寬頻連網，同時支援既有的海纜系統，如近期宣布的Echo、Bifrost海纜系統。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;中華電信也參與&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;國內的中華電信也同時宣布參與Apricot海纜建設計畫，根據中華電信的公開資訊，這條國際海纜建設商將會由SubCom負責，海纜及相關設施的建設成本將由參與Apricot海纜建設的會員依投資比例分攤，中華電信將投資超過新台幣10億元。&lt;/p&gt;
-&lt;p&gt;中華電信表示，未來海纜完工後，取得超大頻寬承載能力，將能充分展現5G的高速、低延遲、大連結的網路特性，為該公司在亞太地區的跨國電信業務合作奠定基礎，同時推升臺灣在區域市場的重要地位。&lt;/p&gt;
-&lt;p&gt;除了提升臺灣對外連網頻寬容量，新海纜也可分散路由，據了解，Apricot將會在宜蘭的頭城海纜站登陸。這幾年中華電信參與的國際海纜建設計畫，陸續展現成果，例如2016年的亞太直達海纜APG，2018年的新橫太平洋海纜NCP，先後在宜蘭頭城海纜站啟用，還有預計2022年完工的SJC2，規畫在淡水、枋山雙登陸站，以避免單一海纜站故障的風險。 &lt;/p&gt;
-&lt;p&gt;海纜經常因海流、地震、颱風或是長期腐蝕等因素產生故障，故分散海纜路由能降低連網因此中斷的風險。以APG為例，該海纜在今年初曾因發生故障，導致國內用戶連接美國、日本、中國等地的服務，例如Netflix、Line出現卡頓的情形，在修復之前，緊急調度其他海纜頻寬支援，雖然用戶使用網路服務可能出現延遲，但不致完全中斷不能使用。&lt;/p&gt;
-&lt;p&gt;中華電信表示，此次Apricot海纜由菲律賓東側、穿越印尼海域，直達新加坡的全新路由，提升我國對外海纜路由分散度，確保臺灣對外連網頻寬安全。&lt;/p&gt;
-&lt;p&gt;中華電信國際分公司總經理吳學蘭明確指出，Apricot的戰略意義，未來搭配APG、SJC2海纜經香港、越南、泰國的路由，將形成更完整的東南亞國際海纜環路，該公司未來將持續強化環太平洋、環東南亞建構的亞太海纜雙環，完整亞太地區海纜路由分散，並以雙環軸心的優勢，深化國際電信市場布局。&lt;/p&gt;
-&lt;div&gt; &lt;/div&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 16 Aug 2021 09:32:14 +0000</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="false">146221 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146221#comments</comments>
 </item>
 </channel>
 </rss>
