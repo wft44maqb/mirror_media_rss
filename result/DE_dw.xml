@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-17T14:30:26Z</updated>
+ <updated>2021-08-17T14:32:14Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58888435</id>
+  <title><![CDATA[新西兰：新增一个病例 全国封锁三天]]></title>
+  <updated>2021-08-17T14:13:00Z</updated>
+  <published>2021-08-17T14:13:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/新西兰：新增一个病例-全国封锁三天/a-58888435?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[新西兰发现六个月以来首例本土新冠病例后，该国总理宣布实行全国性的封锁措施。]]></summary>
+  <category term="新闻广角"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58886334</id>
   <title><![CDATA[德国第一架军机仅载7人离开 塔利班: 本国人不应离境]]></title>
@@ -233,16 +243,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国经济增长受疫情和洪灾影响而放缓/a-58876575?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国国家统计局公布的今年7月中国国民经济数据显示，中国工业生产和零售业增速放缓，新冠疫情的反弹对市场需求造成影响，同时多地出现的洪涝灾情也影响了企业的正常生产和运营。]]></summary>
   <category term="经济纵横"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58875519</id>
-  <title><![CDATA[国民党争取年轻世代支持  学者：两岸论述是最大挑战]]></title>
-  <updated>2021-08-16T08:34:00Z</updated>
-  <published>2021-08-16T08:34:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/国民党争取年轻世代支持-学者：两岸论述是最大挑战/a-58875519?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[国民党日前举办「网红青年营」，希望强化网路声势，吸引年轻人认同，但有台湾网媒指出当天演讲冗长，缺少青年互动，遭国民党回应驳斥。作为台湾最大的在野党，在争取年轻人的支持上，最大挑战为何？]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58874479</id>
