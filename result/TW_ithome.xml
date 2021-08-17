@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Visual Studio 2022更新前端開發體驗，加入新的JavaScript專案類別</title>
+ <link>https://www.ithome.com.tw/news/146239</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟在Visual Studio 2022中加入新工具，&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/&quot;&gt;改善JavaScript和TypeScript的前端開發體驗&lt;/a&gt;，開發者將可以選擇新的JavaScript/TypeScript專案類別，獨立開發Angular、React和Vue專案，且簡單地將前端專案，與ASP.NET Core後端整合，並應用像是Test Explorer等現有的工具。&lt;/p&gt;
+&lt;p&gt;當前包含在Visual Studio中的Angular、React和Vue樣板通常不是最新的，而微軟為了解決這個問題，在Visual Studio 2022中使用每一個框架的原生CLI工具，來產生前端專案樣板，包括Angular CLI、Create React App和Vue CLI。&lt;/p&gt;
+&lt;p&gt;Visual Studio會探索並使用安裝在路徑中的CLI建構專案，因此當開發者電腦沒有安裝所選擇的CLI，則創建專案的對話視窗便會收到錯誤訊息。由於React和Vue皆支援TypeScript與JavaScript，因此開發者可以指定想要使用的語言，Visual Studio便會在CLI命令中添加適當的旗標。&lt;/p&gt;
+&lt;p&gt;微軟提到，不少開發者習慣把前端和後端專案分開，以便在不同的編輯器中開啟，而Visual Studio 2022現在也提供類似的配置，在同一個解決方案設置前端和後端專案，而JavaScript/TypeScript專案可以簡單地與ASP.NET Core Web API整合，並且選擇一起或是各自獨立運作、除錯和編輯。&lt;/p&gt;
+&lt;p&gt;創建JavaScript/TypeScript專案時，開發者可以啟用Test Explorer進行單元測試，微軟在React和Vue專案使用Jest，並在Angular專案使用Karma和Jasmine，在預設情況下，開發者可以執行每個框架所提供的預設測試，或是自己編寫各種測試。&lt;/p&gt;
+&lt;p&gt;不只在Visual Studio，用戶也能夠在VS Code中快速對JavaScript/TypeScript專案除錯，微軟在專案樣板提供了一個launch.json檔案，該文件可以使用於Visual Studio以及VS Code，以設定啟動配置，因此開發者可以在Visual Studio以及VS Code間就能無縫地開啟、編輯和除錯JavaScript/TypeScript專案。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 15:14:44 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146239 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146239#comments</comments>
+</item>
+<item>
  <title>Twitter指派加密貨幣開發者來主導分散式社交網路Bluesky</title>
  <link>https://www.ithome.com.tw/news/146245</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Twitter創辦人暨執行長Jack Dorsey在2019年12月，發表了&lt;a href=&quot;https://blueskyweb.org/&quot; target=&quot;_blank&quot;&gt;分散式社交網路專案Bluesky&lt;/a&gt;，但一直到本周，才指派加密貨幣開發者Jay Graber來主導該專案。&lt;/p&gt;
@@ -178,22 +193,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146233 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146233#comments</comments>
-</item>
-<item>
- <title>雲端資料倉儲Amazon Redshift現提供跨帳戶資料共享功能</title>
- <link>https://www.ithome.com.tw/news/146227</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS現在宣布讓雲端資料倉儲Redshift用戶，可以&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/cross-account-data-sharing-for-amazon-redshift/&quot;&gt;跨AWS帳戶共享資料&lt;/a&gt;，也就是說，Redshift資料交換不再限於單一帳戶中的使用者。&lt;/p&gt;
-&lt;p&gt;在資料驅動的時代，不少企業將資料視為資產，透過分析收集而來的資料，來獲得更多的資訊，進而做出更好的決定。部分企業甚至將自家的資料和分析轉為服務，提供給客戶或是合作夥伴等外部組織，藉以創造新的收入。各方都希望能夠共享和使用單一來源的資料，並在查詢資料的同時，不會降低叢集效能，且存取準確且正確的資料。&lt;/p&gt;
-&lt;p&gt;過去AWS讓Redshift用戶，可以和同一個AWS帳戶中的使用者共享資料，但是要和其他帳戶共享和協作資料，就必須要從系統擷取資料，並且載入到另一個系統中，完成這項工作需要擷取、轉換和載入等大量手動工作，而且隨著用戶資料共享的規模增加，或是跟更多的組織分享資料，複雜性也會隨之增加，而維護資料安全的監控、法遵和安全實踐等工作，也會變得困難。&lt;/p&gt;
-&lt;p&gt;AWS也提到，由於手動流程可能產生延遲或是資料不一致的情況，使得這種共享方式不能提供完整且最新的資料檢視表，導致資料老舊或是對終端用戶回應緩慢等問題。&lt;/p&gt;
-&lt;p&gt;為了解決這個問題，現在AWS直接提供了Redshift跨帳戶資料共享的功能，讓用戶可以跨帳戶和任意數量的組織，共享Redshift中的資料，透過這個新的資料共享功能，可以確保資料的新鮮、完整和一致性。由於Amazon Redshift整合IAM和AWS CloudTrail等服務，因此用戶可以利用安全控制和稽核功能，來監控提供給資料消費者的共享權限和使用狀況。&lt;/p&gt;
-&lt;p&gt;用戶能以多個等級共享資料，包括資料庫、架構、表格、檢視表、資料行和用戶定義的函式，並且對需要存取Redshift資料的用戶，制定精細的存取控制規則。想要共享Redshift資料的用戶，可以從控制臺進行操作，跨帳戶資料共享總共有兩個步驟，需要先由資料生產者叢集的管理員，創建資料共享並且添加物件，設定消費者存取權限，第二步則是由生產者的AWS帳戶管理員，授予指定的消費者帳戶共享資料的權限。&lt;/p&gt;
-&lt;p&gt;目前跨帳戶資料共享功能僅在Amazon Redshift RA3節點提供，美東、美西、南美和歐洲等地區都已經上線，在亞太地區則有孟買、首爾、新加坡、雪梨和東京。跨帳戶資料共享僅能在同地區的叢集間共享資料，用戶不需要支付額外費用，僅需要對使用的Redshift叢集付費。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 02:27:33 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146227 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146227#comments</comments>
 </item>
 </channel>
 </rss>
