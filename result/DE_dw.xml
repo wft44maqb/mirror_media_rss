@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-17T10:27:48Z</updated>
+ <updated>2021-08-17T10:30:29Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58885398</id>
+  <title><![CDATA[解放军在台湾周边海空域举行实兵演练]]></title>
+  <updated>2021-08-17T10:27:00Z</updated>
+  <published>2021-08-17T10:27:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/解放军在台湾周边海空域举行实兵演练/a-58885398?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[解放军东部战区发布声明称，17日，东部战区出动作战舰艇、反潜机、歼击机等多军种力量，在台湾岛西南、东南等周边海空域组织联合火力突击等实兵演练。东部战区发言人称，这次军演是“对外部势力干涉和台独势力挑衅的严正回应”。台湾军方回应称充分掌握并已做好因应准备。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58885172</id>
   <title><![CDATA[被指曾性虐待12岁女童  鲍勃·迪伦遭起诉]]></title>
@@ -203,16 +213,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/多国撤离阿富汗-喀布尔机场出现死伤/a-58875900?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[塔利班进入阿富汗首都喀布尔后，当地居民涌入机场，场面混乱且有目击者称有5人死亡，死因尚未明朗。捷克、意大利撤离班机皆已离境，其余多国正在安排撤侨，中俄则尚无撤离阿富汗的计划。]]></summary>
   <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58875545</id>
-  <title><![CDATA[客座评论: 北京为何死守防疫"动态清零"政策]]></title>
-  <updated>2021-08-16T08:42:00Z</updated>
-  <published>2021-08-16T08:42:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/客座评论-北京为何死守防疫-动态清零-政策/a-58875545?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[关于中国官方现在坚持的“动态清零”和世界绝大多数国家实际实行的“与病毒共存”两种抗疫路线的讨论，成为一个热点话题。政论家邓聿文认为，这背后反映的是中国民众对官方现行清零政策和做法能否有效对付变异病毒，并未有很大信心。]]></summary>
-  <category term="评论分析"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58875519</id>
