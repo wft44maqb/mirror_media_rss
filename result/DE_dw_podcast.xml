@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-08-17T13:28:35Z</updated>
+ <updated>2021-08-17T13:36:07Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,17 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58887644</id>
+  <title><![CDATA[塔利班卷土重来 阿富汗女性忧心忡忡]]></title>
+  <updated>2021-08-17T13:11:00Z</updated>
+  <published>2021-08-17T13:11:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班卷土重来-阿富汗女性忧心忡忡/av-58887644?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[在女性权益问题上，塔利班可谓劣迹斑斑：禁止女童上学、强迫女性穿全身罩袍……随着美军撤离，塔利班再次掌控了阿富汗全境，该国的女性担心重返黑暗年代。]]></summary>
+  <category term="时政风云"/>
+  <link rel="enclosure" type="video/mp4" length="6965027" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210817_001_4fcebafghanwomen_sd.mp4" title="塔利班卷土重来 阿富汗女性忧心忡忡"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58819339</id>
   <title><![CDATA[为了未来而奋斗的难民“学霸”]]></title>
@@ -332,16 +343,5 @@
   <summary><![CDATA[这种红耳龟原产于北美洲，在印度是一种很流行的宠物。不幸的是，一旦主人对它们感到厌倦，就会把它们扔到野外。这对当地生态系统造成了不利影响。]]></summary>
   <category term="科技环境"/>
   <link rel="enclosure" type="video/mp4" length="11554869" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210709_001_turtleindia_sd.mp4" title="这些家伙正在入侵印度"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58096313</id>
-  <title><![CDATA[树皮做衣服 时尚又环保]]></title>
-  <updated>2021-07-04T07:40:00Z</updated>
-  <published>2021-07-04T07:40:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/树皮做衣服-时尚又环保/av-58096313?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[树皮衣是乌干达的一项独特传统工艺，也是世界非物质文化遗产。在乌干达西南部村庄，村民们循环利用树木制作“可再生布料”，发展永续新时尚。]]></summary>
-  <category term="文化经纬"/>
-  <link rel="enclosure" type="video/mp4" length="10408447" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210629_001_uganda_01r_sd.mp4" title="树皮做衣服 时尚又环保"/>
  </entry>
 </feed>
