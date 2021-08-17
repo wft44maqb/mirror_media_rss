@@ -4,7 +4,7 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Tue, 17 Aug 2021 12:57:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Aug 2021 13:00:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
@@ -113,13 +113,18 @@ AI Trader 是否真的有效？
  
 提示：即使您還沒有決定好是否立即開始投資，我們都建議您先免費註冊帳戶，註冊連結隨時可能關閉。
         
-              <h2><a href="https://cofacts.tw/reply/XUNISHsBgBgcuemXLBFv">最新回應</a></h2>
-              <p>含有個人意見 by 吳松澤</p>
-              
-110.8.15下午1點左右, 有打電話問165專線, 線上阿Sir建議不要上當, 供各位參考!
+              <h2><a href="https://cofacts.tw/reply/1kMxVHsBgBgcuemXKBjk">最新回應</a></h2>
+              <p>含有錯誤訊息 by Max</p>
+              我們光從新聞（其實是廣告）頁面來看：
+1. 該頁面下面的FB貼文串讚數太多，很假（例如無意義留言七分鐘就258讚）。而且根本不是從FB串來的iframe，而是寫死的，所以是假的ＦＢ貼文串，讓瀏覽者感覺使用者反應都很好 
+2. 該廣告頁面頁面上的新聞時間是動態，例如我看到的是今天8/17，讓瀏覽者以為是最新新聞
+3. 不管點哪個連結都會連到註冊網頁 
+
+
+該頁面根本為一個偽裝成新聞的廣告頁面，那他推薦的產品會如何，請自行判斷
 
               <h2>出處</h2>
-              https://finance-asia.online/tw/ai-trader/?cep=lKMzq4DsjOT1z-4ZxYfeVwF22S7BPYv48gaF0mJpc0_H7tZorjLmUcdym4VR_M-4sxFMpTS2ngrY3jh25yaooAI9u6xwPYzJrTLafXErtvHNPjgF8c6-tdhn8wfAkS1IN9bch7i8g8pedJ_QhY8_5SF3miAVRE4qDdKgHNxNlPqI9HS8HsVoL60EaOsgR1G1Bq6crftVE-yva1FAxe3WLpMs8-pwNSOFrVI5Pt_83X0T6-Wqt53tQ-v37pJMfajXO1rEBZTxL98Y57tsbymRwW-7Np8-pv7Na2LpXC29Rv0N2kynHcgOOw8T4xLGquez9brGD0vTWT9BGdAr6-XZLS6iiwHzgYz7Y6MftdiKHPwWL20TLMgeiO1LQHRLsihteWYcXMT9Ng-4Y_CZSWZsQeon9xp_6Zr08iA0InK1icM&lptoken=16d3293300e7581e8679&creative_id=d4
+              https://finance-asia.online/tw/ai-trader/?cep=Ayl3P0bbwULTQKD2mWkXCMsga_2igdq0aKYF2cMgxiOvXmDwzkn-ckS4kiFvEE8uJfSqaWFU_Jc52QWnrDYoUGdGfc1obcpQ48HwunZ9AP6QZ2BPGObQnMKfcxIOxp0rsgerkYRbWgB2TWLfMC_mowemOMcb01jGmyJavnJTdFilDovHBL0ECn83BxvNNOTGLeFjUl3X9xx2Gj6WWYIty-guYdriUxzK02-hZeEuQPsxLSYylrvXt3G5e58yv0A7aV-aHw_qwllnBM9jnGP7GMUtiH9cK_xGkTgg--Pbq4kZ1ME1KuPDB4eCgv2dzcs86ECrVPpsDHJlDbPIXTi6oYiPq4jLvcw2pBG6O5k7j2r-wkm1QCwkwtOAPbENglTO-_nWunZ_mqrqH2UeJGqcEePDvRz8k401CdCzByYbMQI&lptoken=164a295c20e952044771&creative_id=d4
             ]]></description>
         </item>
         <item>
