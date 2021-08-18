@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-18T08:59:53Z</updated>
+ <updated>2021-08-18T09:02:44Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58682323</id>
+  <title><![CDATA[中国间谍案新进展  两名台湾退役军官遭搜索约谈]]></title>
+  <updated>2021-08-18T08:36:00Z</updated>
+  <published>2021-08-18T08:36:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国间谍案新进展-两名台湾退役军官遭搜索约谈/a-58682323?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[被台媒称为史上最大「共谍案」有最新进展，台湾中央社指出，台北地检署周三（8月18日）指挥法务部调查局搜索两名涉案退役军官住处，全案依台湾《国家安全法》为大陆地区发展组织罪约谈两人到案。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:49258763</id>
   <title><![CDATA[「反送中」效应延烧 台港公民交流渐趋频繁]]></title>
@@ -192,16 +202,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美媒：中国疑在迪拜设「境外黑牢」-内有维吾尔人士/a-58882450?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国异议人士王靖渝的未婚妻、26岁的吴欢接受美联社专访时称，自己曾被监禁在迪拜的一间由中国管理的祕密监狱内，狱友还包含维族人士。中国及阿联酋皆否认该指控，但吴欢提供了她接受中国官员问讯的录音等证据。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58882306</id>
-  <title><![CDATA[拜登捍卫阿富汗撤军决定 中外长: 美造成负面影响]]></title>
-  <updated>2021-08-17T02:32:00Z</updated>
-  <published>2021-08-17T02:32:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/拜登捍卫阿富汗撤军决定-中外长-美造成负面影响/a-58882306?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[在塔利班掌控阿富汗大多城市後，美国总统拜登16日在谈话中为撤军决定辩护，并称阿富汗政府与军方抵抗不力为塔利班重新掌权的主要原因。拜登称，阿富汗总统拒绝与塔利班达成政治和解。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
