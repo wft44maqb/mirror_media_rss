@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/1597" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/atom/1597</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/1597" rel="self" type="application/rss+xml" />
       <item>
+    <title>近四成企業於12個月內遭遇勒索軟體攻擊事故</title>
+    <link>https://www.ithome.com.tw/news/146260</link>
+    <description> 勒索軟體攻擊日益猖獗的現象，究竟有多嚴重？除了不時傳出有企業或組織遭到攻擊的消息，有研究報告也針對企業進行相關調查。</description>
+     <pubDate>2021-08-18  11:08:34</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146260</guid>
+  </item>
+  <item>
     <title>物聯智慧Kalay平臺含有重大漏洞，將允許駭客自遠端存取IoT裝置</title>
     <link>https://www.ithome.com.tw/news/146258</link>
     <description> 美國國土安全部旗下的網路安全暨基礎架構安全署（CISA）與資安業者FireEye本周警告，臺灣IoT平臺業者物聯智慧（ThroughTek）所打造的Kalay P2P SDK含有一重大安全漏洞CVE-2021-2837</description>
@@ -258,15 +266,6 @@
      <pubDate>2021-08-16  07:08:16</pubDate>
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146226</guid>
-  </item>
-  <item>
-    <title>Google啟動亞太新海纜計畫，中華電信也將投資逾台幣10億元</title>
-    <link>https://www.ithome.com.tw/news/146221</link>
-    <description> Google宣布新的亞太地區海纜投資計畫，將和臉書及區域性的電信業者合作，共同投資建設新海纜Apricot，國內的中華電信也宣布將投入超過臺幣10億元參與海纜建設，未來新的海纜啟用之後，可望提升亞太地區網路連接容量及穩定性。
-Apricot將連接日本、臺灣、關島、菲律賓、印尼及新加坡，總長度1,2000公里，預計於2024年完工啟動，屆時將帶來超過190Tbps的總容量。</description>
-     <pubDate>2021-08-16  05:08:14</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146221</guid>
   </item>
   </channel>
 </rss>

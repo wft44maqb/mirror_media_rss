@@ -6,16 +6,28 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>近四成企業於12個月內遭遇勒索軟體攻擊事故</title>
+ <link>https://www.ithome.com.tw/news/146260</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;勒索軟體攻擊日益猖獗的現象，究竟有多嚴重？除了不時傳出有企業或組織遭到攻擊的消息，有研究報告也針對企業進行相關調查。最近&lt;a href=&quot;https://www.businesswire.com/news/home/20210812005739/en/IDC-Survey-Finds-More-Than-One-Third-of-Organizations-Worldwide-Have-Experienced-a-Ransomware-Attack-or-Breach&quot;&gt;市場調查公司IDC發布了2021年的勒索軟體調查報告&lt;/a&gt;《2021 Ransomware Study: Where You Are Matters!》，當中與近800名IT決策人員（或能影響決策的人士）進行訪談，結果發現，約有37%企業在過去的12個月內，曾經遭遇勒索軟體的攻擊，導致IT系統與資料的存取受到阻礙。&lt;/p&gt;
+&lt;p&gt;另一項值得留意的發現，則是在遭遇攻擊的時候，企業是否會選擇支付贖金因應？這份調查指出，僅有13%受害組織沒有付錢。這樣的結果，代表了多數受害的企業選擇付錢了事，來加快復原IT系統的運作。而這種有許多企業在面臨勒索軟體攻擊的時候，會願意支付贖金的現象，在IDC的另一份「全球事件準備度焦點調查」調查報告也有類似的發現：若是遇到勒索軟體攻擊，有近半數（44%）受訪的企業會願意付錢給歹徒。&lt;/p&gt;
+&lt;p&gt;而企業到底付了多少贖金給攻擊者？IDC表示，平均每個受害組織會支付近25萬美元，但IDC認為，這當中有一些是超過百萬美元的大筆贖金，而使得平均值被大幅拉高。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Aug 2021 15:48:34 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146260 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146260#comments</comments>
+</item>
+<item>
  <title>物聯智慧Kalay平臺含有重大漏洞，將允許駭客自遠端存取IoT裝置</title>
  <link>https://www.ithome.com.tw/news/146258</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國國土安全部旗下的網路安全暨基礎架構安全署（&lt;a href=&quot;https://us-cert.cisa.gov/ics/advisories/icsa-21-229-01&quot; target=&quot;_blank&quot;&gt;CISA&lt;/a&gt;）與資安業者&lt;a href=&quot;https://www.fireeye.com/blog/threat-research/2021/08/mandiant-discloses-critical-vulnerability-affecting-iot-devices.html&quot; target=&quot;_blank&quot;&gt;FireEye&lt;/a&gt;本周警告，臺灣IoT平臺業者物聯智慧（ThroughTek）所打造的Kalay P2P SDK含有一重大安全漏洞CVE-2021-28372，將允許駭客自遠端執行任意程式或存取機密資訊，而物聯智慧則已修補該漏洞，&lt;a href=&quot;https://www.throughtek.com.tw/please-update-the-sdk-version-to-minimize-the-risk-of-sensitive-information-being-accessed-by-unauthorized-third-party/&quot; target=&quot;_blank&quot;&gt;並呼籲用戶儘快更新&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;而就在&lt;a href=&quot;https://www.ithome.com.tw/news/145096&quot;&gt;兩個月前，CISA也曾警告該公司SDK含有CVE-2021-32934漏洞&lt;/a&gt;，而當時物聯智慧也說明早已於2018年釋出的SDK 3.1.10修補該漏洞，以及客戶不升級的狀況。&lt;/p&gt;
 &lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;https://www.throughtek.com.tw/please-update-the-sdk-version-to-minimize-the-risk-of-sensitive-information-being-accessed-by-unauthorized-third-party/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0818-ThroughTek%20kalay%20platform-600-2.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;根據物聯智慧的說明，Kalay為一奠基於P2P技術的基礎架構，具備多種模組化功能，還能根據客戶需求進行客製化，亦能以SDK形式嵌入應用程式或IoT裝置。&lt;/p&gt;
 &lt;p&gt;FireEye指出，CVE-2021-28372藏匿在Kalay平臺的一個核心元件中，駭客必須非常熟悉Kalay協定，並具備產生及傳送訊息的能力，也必須先取得Kalay的用戶ID（UID）才能發動攻擊，進一步危害相關UID的裝置。CISA則說，成功開採漏洞將允許駭客執行惡意程式或存取機密資訊，包括攝影機的音訊與視訊。其CVSS風險指數高達9.6。&lt;/p&gt;
 &lt;p&gt;研究人員表示，他們並不確定有多少裝置受到該漏洞的影響，但物聯智慧的官網顯示，全球有超過8,300萬個裝置採用Kalay平臺。&lt;/p&gt;
 &lt;p&gt;受到波及的Kalay P2P SDK包括3.1.5與之前的版本，擁有nossl標籤的SDK，在IOTC連線時未使用AuthKey的裝置韌體，採用AVAPI模組卻未啟用DTLS機制的韌體，以及採用RDT模組或P2PTunnel的韌體。&lt;/p&gt;
 &lt;p&gt;迄今尚未發現任何鎖定該漏洞的攻擊程式，物聯智慧建議用戶應立即更新。&lt;/p&gt;
+&lt;p&gt;此外，在&lt;a href=&quot;https://www.ithome.com.tw/news/145096&quot;&gt;兩個月前，CISA也曾警告該公司SDK含有CVE-2021-32934漏洞&lt;/a&gt;，當時物聯智慧說明早已於2018年釋出的SDK 3.1.10修補該漏洞，以及客戶不升級的狀況。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
  <pubDate>Wed, 18 Aug 2021 09:05:34 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
@@ -207,7 +219,7 @@
  <title>誠品與金石堂等書店型電商屢列網購高風險平臺，8月另有多達35個愛心協會捐款資料外洩，上百捐款人報案遭騙</title>
  <link>https://www.ithome.com.tw/news/146250</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;近日誠品網路書店客戶個資外洩問題再度浮上檯面，根據東森電視臺的報導，最近誠品網路書店在短短五天內，就有上百會員被騙千萬元，各大媒體也跟進引用內容，但相關報導內容存在著爭議，我們洽詢警方想確認此事真實性，他們表示，被騙千萬應是長期累計金額。但無論如何這類事件相當嚴重，也再次突顯了臺灣電商平臺的資料外洩問題。&lt;/p&gt;
-&lt;p&gt;事實上，根據165反詐騙每週公布解除分期付款的民眾通報高風險賣場名單，在今年4、5月間，誠品網路書店就屢屢列入，當時許多網友或受害者指出，對方不僅假冒誠品的客服人員，還能清楚說明訂單內容、日期、金額，以及住址等資訊，有些民眾更是因此誤信對方而上當，導致遭受ATM解除分期詐騙。對此，我們也聯繫誠品，了解4月就傳出的客戶個資外洩問題，是否發布相關資安事件公告，但他們不願多談。&lt;/p&gt;
+&lt;p&gt;事實上，根據165反詐騙每週公布解除分期付款的民眾通報高風險賣場名單，在今年4、5月間，誠品網路書店就屢屢列入，當時許多網友或受害者指出，對方不僅假冒誠品的客服人員，還能清楚說明訂單內容、日期、金額，以及住址等資訊，以及再搭配假冒金融機關人員來電，有些民眾更是因此誤信對方而上當，導致遭受ATM解除分期詐騙。對此，我們也聯繫誠品，了解4月就傳出的客戶個資外洩問題，是否發布相關資安事件公告，但他們不願多談。&lt;/p&gt;
 &lt;p&gt;在8月初第一週，誠品網路書局再度被165公布為最嚴重的電商平臺，由於過去警方曾表示，每次詐騙高峰期通常持續2~3個月，這也意味著，近期可能還會有一波假冒誠品客服人員的ATM解除分期詐騙，需要當心。而在8月17日中午，Whoscall與165全民防騙的臉書粉絲專頁上，也發布宣導貼文，他們表示，偽冒誠品電話的數量飆升，提醒民眾注意。基本上，最要的還是要知道，應自行搜尋正確客服電話並去電確認，以及ATM操作沒有解除分期的功能。&lt;/p&gt;
 &lt;p&gt;但更要注意的是，今年不只是誠品網路書店資料外洩情況嚴重，金石堂網路書店、Booking.com、HITO本舖，以及小三美日等，同樣面臨客戶資料外洩問題。特別的是，今年8月還有新的網路攻擊趨勢，有多個慈善愛心協會，同時遭遇客戶資料外洩問題。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/_誠品個資外洩_圖片來源擷取自Whoscall臉書.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/_%E8%AA%A0%E5%93%81%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%93%B7%E5%8F%96%E8%87%AAWhoscall%E8%87%89%E6%9B%B8.jpg&quot; style=&quot;width: 225px;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://s4.itho.me/sites/default/files/images/2021-08-17_140730_誠品個資外洩_圖片來源擷取自Whoscall臉書(1).jpg.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-17_140730_%E8%AA%A0%E5%93%81%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%93%B7%E5%8F%96%E8%87%AAWhoscall%E8%87%89%E6%9B%B8(1).jpg.jpg&quot; style=&quot;width: 365px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -254,33 +266,6 @@
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="false">146250 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146250#comments</comments>
-</item>
-<item>
- <title>打造臺灣資安前瞻研究與人才培育重鎮，資安卓越中心現正招募百位技術與研究人才</title>
- <link>https://www.ithome.com.tw/news/146249</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;關於臺灣政府推動資安的發展現況，在8月5日舉行的全國資訊安全會議的一場演講中，透露最新進度。行政院副執行秘書李育杰指出，&lt;a href=&quot;https://www.ithome.com.tw/news/142509&quot;&gt;今年初定案將設立的資安卓越中心（Cyber Security Center of Excellence（CCoE）&lt;/a&gt;，現在已經進入籌備階段，預計明年2022年初就會正式成立，現在他們正要大量招募國內大量頂尖人才加入。&lt;/p&gt;
-&lt;p&gt;屆時，這個國家級的資安卓越中心，不僅是要增進資安前瞻研究的能量，並要解決組織資安人力不足的問題，做到長期培訓產業所需資安人才。&lt;/p&gt;
-&lt;p&gt;李育杰表示，在目前的規畫中，預計明年新成立的數位發展部之下，將設有資安行政法人性質的國家資通安全研究院，旗下則籌畫兩個中心，分別是納入之前就有的行政院國家資通安全會報技術服務中心，以及正在新籌備的資安卓越中心。&lt;/p&gt;
-&lt;p&gt;目前，資安卓越中心正將招募逾百位技術與研究人員。李育杰表示，招募人員的計畫已經啟動，涵蓋工程師、程式設計師與研究人員，且南北兩地都會設有據點，其中南部將設於臺南沙崙智慧綠能科學城，位於資安暨智慧科技研發大樓。&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;推動資安前瞻研究建立三大研究主軸實驗室&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;對於資安卓越中心的未來發展，李育杰談到具體的規畫。他指出，將設有前瞻相關研究的實驗室，目前共畫分三大主軸，包括：網路威脅防禦實驗室，網路數據分析實驗室，以及先進密碼實驗室。&lt;/p&gt;
-&lt;p&gt;具體而言，這些單位將負責那些工作？以網路威脅防禦實驗室為例，政府希望建立完善的基礎建設，從各種來源蒐集漏洞、病毒、蠕蟲與木馬等網路威脅，打造即時資料庫與搜尋引擎，另外，他們也將針對國內常用系統進行漏洞挖掘，同時開發偵測與防護工具。&lt;/p&gt;
-&lt;p&gt;而在網路數據分析實驗室的部分，目標是希望發展針對基於行為、網路流量異常的新型態的數位鑑識技術，主要研究內容，是針對現今社交工程的威脅，以及社群媒體上假新聞、假粉絲專頁等這類流量異常的問題，還有像是深度假造（Deepfake）等議題。&lt;/p&gt;
-&lt;p&gt;在先進密碼實驗室方面，主要聚焦於國內後量子密碼學（PQC）的研究能量，希望透過實驗室開發出相關工具包，以及希望探索日後後量子密碼的導入與部屬，以及相關旁通道的分析研究，甚至結合臺灣晶片製造能量開發相關安全晶片。&lt;/p&gt;
-&lt;p&gt;此外，由於資安涵蓋的領域相當廣泛，資安卓越中心勢必無法包含所有研究，因此除了中心本身推動各種技術的發展，也將與分布在國內7所大學的TWISC資通安全研究與教學中心的子中心合作；而在國際方面，資安卓越中心也期望成為未來臺灣資安研究與國際合作的聯繫窗口。&lt;/p&gt;
-&lt;p&gt;政府積極推動國內資安的另一個重點，在於資安人才培訓。過去雖然持續進行，但發展規模一直無法跟上大家的期望，例如，面對資通安全管理法所要求的公務機關專責人力，一直有很大的缺口。現在政府希望從多方面著手，除了應要建構產業生態，能培訓組織所需資安人才，資安卓越中心旗下將設有資安培訓所，目標包括培育資安研發人才，建立政府資安班、國際學員班，工控資安人才也在其中，並希望充分與國內民間資安社群HITCON等合作，以培訓菁英國手。&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;促進國內資安環境，打造實體中心成關鍵&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;同樣都是資安卓越中心，令人好奇的是，臺灣的CCoE與美國NIST旗下NCCoE有何不同？對此，李育杰於會後表示，兩者有點類似，不過現階段臺灣的CCoE主要專注在三大面向，包括：資安的前瞻研究，人才培育與國際合作。&lt;/p&gt;
-&lt;p&gt;他指出，過去政府在推動相關資安政策時，多是基於計畫性質，但這會有許多常設性問題一直發生，因此，在2018年開始，他們就開始討論要成立實體中心，不過，當時先設立了虛擬的資安學院（算是資安卓越中心的前身），直到2021年前瞻計畫預算編列後，資安卓越中心正式開始籌辦，終於能實現成立實體中心。&lt;/p&gt;
-&lt;p&gt;李育杰指出，政府期望資安卓越中心所扮演的角色，可以作為技服中心的支援與後盾，而這兩個單位的性質不同，也將扮演不同角色，例如，技服中心負責緊急因應與處理，資安卓越中心則負責後續的研究調查。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/2021-08-05_102045.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-05_102045.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;行政院資安處推動的《臺灣資安卓越深耕計畫－資安卓越中心計畫》，將聚焦於銜命國家安全的前瞻資安研究，以及國內資安人才培訓，而資安卓越中心這樣的實體中心設立後，相較於之前虛擬的資安學院，將可有固定運作經費來永續推動。而在前瞻研究方面，行政院副執行秘書李育杰揭露最新動向，包括三大實驗室，包括：網路威脅防禦、網路數據分析與先進密碼的研究主軸。&lt;/p&gt;
-&lt;/blockquote&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 02:34:57 +0000</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="false">146249 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146249#comments</comments>
 </item>
 </channel>
 </rss>
