@@ -1,11 +1,22 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/775/10072" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/775/10072</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/775/10072" rel="self" type="application/rss+xml" />
       <item>
+    <title>資安一周第159期：勒索軟體eCh0raix變種同時鎖定威聯通與群暉NAS下手。勒索軟體LockBit攻擊IT顧問公司Accenture</title>
+    <link>https://www.ithome.com.tw/news/146255</link>
+    <description> 8/12-8/18必看資安新聞
+ 
+＃漏洞攻擊  ＃暴力破解  ＃NAS  ＃勒索軟體攻擊
+勒索軟體eCh0raix變種同時具備攻擊威聯通與群暉NAS的能力</description>
+     <pubDate>2021-08-18  03:08:03</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146255</guid>
+  </item>
+  <item>
     <title>Google發表支援5G的Pixel 5a，將是最後一款附有充電器的Pixel手機</title>
     <link>https://www.ithome.com.tw/news/146254</link>
     <description> Google周二（8/17）發表了入門款的5G手機Pixel 5a，它是首款具備IP67防塵暨防水功能的A系列Pixel手機，也將是最後一款附有充電器的Pixel手機，它的規格與去年發表的Pixel 5高階手機非常類似，售價為449美元，不過，Pixel 5a目前只在美國與日本銷售，Google並未揭露是否有擴張至其它市場的計畫。</description>
@@ -256,14 +267,6 @@ Google提到，要對虛擬機器在生產環境進行除錯，過程可能很�
      <pubDate>2021-08-16  04:08:26</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146220</guid>
-  </item>
-  <item>
-    <title>全球百大銀行已有55%投資加密貨幣或區塊鏈，巴克萊銀行投資家數居冠</title>
-    <link>https://www.ithome.com.tw/news/146217</link>
-    <description> 根據區塊鏈市場情報機構Blockdata的調查，全球百大銀行中，已有55家直接或透過子公司投資區塊鏈或加密貨幣企業，其中，以英國巴克萊銀行（Barclays）的投資範圍最大，總計投資了19家相關業者。</description>
-     <pubDate>2021-08-16  03:08:43</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146217</guid>
   </item>
   </channel>
 </rss>

@@ -6,6 +6,77 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>資安一周第159期：勒索軟體eCh0raix變種同時鎖定威聯通與群暉NAS下手。勒索軟體LockBit攻擊IT顧問公司Accenture</title>
+ <link>https://www.ithome.com.tw/news/146255</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;8/12-8/18必看資安新聞&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3&gt; &lt;/h3&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃漏洞攻擊  ＃暴力破解  ＃NAS  ＃勒索軟體攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;勒索軟體eCh0raix變種同時具備攻擊威聯通與群暉NAS的能力&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;資安業者Palo Alto Networks揭露新的eCh0raix（亦被稱為QNAPCrypt）勒索軟體變種，並指出新版本與過往eCh0raix最大的差異，就是首度能同時針對威聯通科技（QNAP）、群暉科技（Synology）的NAS設備發動攻擊。&lt;/p&gt;
+&lt;p&gt;對於本次新變種勒索軟體的攻擊手法，Palo Alto表示，攻擊者分別對於兩個廠牌的設備，利用了漏洞攻擊與暴力破解的方式入侵。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146141&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;勒索軟體LockBit攻擊IT顧問公司Accenture，要脅限期支付贖金&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;跨國大型IT顧問公司Accenture，驚傳遭到勒索軟體LockBit攻擊。根據ZDNet、Bleeping Computer、Security Affairs、CyberScoop等新聞網站的報導，勒索軟體駭客組織於8月11日下午在網站中，將Accenture列入受害者名單，該網頁顯示倒數計時器並表明，若是沒有如期收到贖金，將會把竊得的資料於世界協調時間（UTC）8月11日下午5時30分公開。&lt;/p&gt;
+&lt;p&gt;針對此事的狀態，Accenture向各家媒體表示，公司營運不受影響，並未對本身的受害情況多做說明。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146157&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃勒索軟體攻擊&lt;/strong&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;澳洲網路安全中心針對LockBit 2.0勒索軟體攻擊提出警告&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;澳洲網路安全中心（ACSC）近日提出警告，表示他們屢屢接獲當地企業通報，發生遭到LockBit 2.0攻擊的事故。&lt;/p&gt;
+&lt;p&gt;根據ACSC接獲的事故通報，澳洲當地自2020年開始，傳出遭到LockBit與LockBit 2.0攻擊的情況，但該單位指出，大部分事故都是在2021年7月通報，這代表相較於其他的勒索軟體，LockBit 2.0的攻擊行動急劇增加。&lt;/p&gt;
+&lt;p&gt;針對此波攻擊，ACSC也透過MITRE ATT&amp;amp;CK框架，描敘駭客在攻擊過程中會採用的手法，並提出緩解措施。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146226&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/159-1-lockbit-2-0_ACSC.png&quot; style=&quot;width: 400px; height: 211px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#808080;&quot;&gt;圖片來源：澳洲網路安全中心&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊  ＃漏洞攻擊  ＃PrintNightmare&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;勒索軟體Magniber正在濫用PrintNightmare漏洞&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;近2個月，Windows列印多工緩衝處理器（Print Spooler）相關的漏洞「PrintNightmare」已被發現數個，但資安廠商發現，已有勒索軟體駭客開始用來發動攻擊。資安業者CrowdStrike指出，在今年7月，勒索軟體Magniber利用PrintNightmare於南韓發動攻擊。&lt;/p&gt;
+&lt;p&gt;除了上述的PrintNightmare漏洞，CrowdStrike指出，Magniber濫用的漏洞數量也在逐步增加，其中濫用較為頻繁的漏洞，包含了Internet Explorer（IE）漏洞CVE-2018-8174、CVE-2021-26411、CVE-2020-0968、CVE-2019-1367，以及Adobe Flash漏洞CVE-2018-8174。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146233&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃釣魚郵件攻擊&lt;/strong&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;釣魚郵件攻擊出現新手法，駭客採用摩斯電碼、ASCII等多種編碼來混淆附件內容&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;微軟揭露自2020年7月開始出現、為期一年的釣魚郵件攻擊，攻擊者在郵件裡挾帶了宣稱是發票的HTML檔案，來竊取Office 365帳密。為了規避郵件防護系統的偵測，攻擊者不只採用數種編碼法混淆，並且平均每37天就更換新的手法。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146181&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃漏洞揭露  ＃物聯網資安&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;瑞昱無線晶片重大漏洞恐波及逾200款連網設備&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;安全廠商IoT Inspector於8月16日揭露，瑞昱半導體（Realtek）的無線晶片RTL819xD，存在十多項漏洞，一旦駭客濫用，可藉此執行任意程式碼，最嚴重可導致裝置被接管。瑞昱已經發布新版SDK修補相關漏洞。&lt;/p&gt;
+&lt;p&gt;根據研究人員的評估，至少65家廠商受影響，包括Netgear、LG、ZTE、Zyxel，涵括將近200個不同產品。受影響的裝置涵括多種IoT裝置，包括家用閘道、旅行用路由器、Wi-Fi 訊號放大器、IP攝影機、或智慧照明閘道，甚至可連網的兒童玩具等。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146236&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃漏洞揭露  ＃防毒軟體&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;趨勢科技修補已遭到濫用的Apex One產品漏洞&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;趨勢科技於7月底發布安全公告，修補旗下端點安全產品Apex One的4項漏洞，同時警告其中的2個漏洞：CVE-2021-36741和CVE-2021-36742，已經被駭客串聯起來對用戶發動攻擊。&lt;/p&gt;
+&lt;p&gt;這是今年以來Apex One第二波被人試圖駭入。5月趨勢科技更新一則安全公告，指出2020年修補的Apex One及OfficeScan漏洞，遭人二度用於攻擊。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146178&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/159-2-apex-one-4-vul.png&quot; style=&quot;width: 400px; height: 297px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;圖片來源：趨勢科技&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃免費勒索軟體解密工具  ＃資安產業動態&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;臺資安業者奧義智慧成功破解Prometheus勒索軟體，並提供解密工具&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;在2020年崛起的Prometheus勒索軟體，全球已有40多個受害者，臺灣也有大企業遇害。近期國內資安業者奧義智慧，推出針對該勒索軟體的解密工具，讓受害者能夠自救，復原那些被惡意加密的檔案，而他們也將加入全球性No More Ransom計畫成為合作夥伴。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146136&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃資料外洩  ＃電信業者&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong&gt;駭客正在兜售1億筆T-Mobile用戶資料&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;根據Motherboard與BleepingComputer等新聞網站的報導，有賣家於地下論壇中兜售含有1億筆美國用戶的資料庫，並向買家與媒體宣稱該資料庫來自美國電信業者T-Mobile，得知此事的T-Mobile已展開調查。&lt;/p&gt;
+&lt;p&gt;網路犯罪情報公司Hudson Rock技術長Alon Gal 指出，賣家表示此舉是為了傷害美國的基礎設施，以報復美國中情局與土耳其情報幹員在2019年，綁架並嚴刑拷打疑似ISIS恐怖組織成員的John Erin Binns。&lt;a href=&quot;https://www.ithome.com.tw/news/146215&quot;&gt;&lt;strong&gt;詳全文&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃資料外洩&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;百萬信用卡資料於駭客論壇流竄，原因是為了宣傳黑市，臺灣有345張卡片受影響&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;盜賣竊得信用卡資料的市集，為了吸引顧客上門，也會採取「免費大放送」的手段。資安公司Cyble與D3Labs揭露在駭客論壇上，近期有人公開了100萬筆信用卡資料，並宣稱都是在2018年到2019年之間偷到的，當中也有345張臺灣的信用卡資料。&lt;/p&gt;
+&lt;p&gt;而這些資料的提供來源，張貼文章的人士表明是來自信用卡資料黑市All World Cards，目的是為了進行宣傳，吸引更多駭客前往購買資料。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146163&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/159-3-Schermata_all-world-cards.png&quot; style=&quot;width: 400px; height: 237px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#808080;&quot;&gt;圖片來源：D3Labs&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;&lt;span style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;更多資安動態&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;h3&gt;●&lt;a href=&quot;https://www.ithome.com.tw/news/146138&quot;&gt;去中心化金融平臺Poly Network遭盜走6.1億美元加密貨幣&lt;/a&gt;&lt;br /&gt;
+●&lt;a href=&quot;https://www.ithome.com.tw/news/146137&quot;&gt;駭客在AWS發動挖礦攻擊，濫用Telegram控制受害伺服器&lt;/a&gt;&lt;br /&gt;
+●&lt;a href=&quot;https://www.ithome.com.tw/news/146125&quot;&gt;Android木馬FlyTrap挾持數千個臉書帳號&lt;/a&gt;&lt;/h3&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Aug 2021 07:46:03 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146255 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146255#comments</comments>
+</item>
+<item>
  <title>Google發表支援5G的Pixel 5a，將是最後一款附有充電器的Pixel手機</title>
  <link>https://www.ithome.com.tw/news/146254</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blog.google/products/pixel/pixel5a-with-5g-new-google-phone/&quot; target=&quot;_blank&quot;&gt;Google周二（8/17）發表&lt;/a&gt;了入門款的5G手機Pixel 5a，它是首款具備IP67防塵暨防水功能的A系列Pixel手機，也將是最後一款附有充電器的Pixel手機，它的規格與去年發表的Pixel 5高階手機非常類似，售價為449美元，不過，Pixel 5a目前只在美國與日本銷售，Google並未揭露是否有擴張至其它市場的計畫。&lt;/p&gt;
@@ -76,13 +147,13 @@
 <item>
  <title>誠品等書店型電商屢列網購高風險平臺，今年8月上半另有多達35個愛心協會捐款資料外洩，上百捐款人報案遭騙</title>
  <link>https://www.ithome.com.tw/news/146250</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;近日誠品網路書店客戶個資外洩問題再度浮上檯面，根據東森電視臺的報導，誠品網路書店在短短五天內，就有上百會員被騙千萬元，各大媒體也跟進引用內容，但相關報導內容存在著爭議，我們洽詢警方想確認此事真實性，他們表示，被騙千萬應是長期累計金額。但無論如何這類事件相當嚴重，也突顯了臺灣電商平臺的資料外洩問題。&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;近日誠品網路書店客戶個資外洩問題再度浮上檯面，根據東森電視臺的報導，最近誠品網路書店在短短五天內，就有上百會員被騙千萬元，各大媒體也跟進引用內容，但相關報導內容存在著爭議，我們洽詢警方想確認此事真實性，他們表示，被騙千萬應是長期累計金額。但無論如何這類事件相當嚴重，也突顯了臺灣電商平臺的資料外洩問題。&lt;/p&gt;
 &lt;p&gt;事實上，根據165反詐騙每週公布解除分期付款的民眾通報高風險賣場名單，誠品網路書店在今年4、5月間，就曾經出現詐騙高峰期，當時許多網友或受害者指出，假冒誠品的客服人員清楚說明他的訂單內容、日期、金額與住址等資訊，有些民眾更是因此而誤信對方而上當，導致遭受ATM解除分期詐騙。對此，我們也聯繫誠品，了解4月就傳出的客戶個資外洩問題，是否發布相關資安事件公告，但他們不願多談。&lt;/p&gt;
 &lt;p&gt;在8月初第一週，誠品網路書局再度被165公布為最嚴重的電商平臺，這也意味著，近期可能還會有一波假冒誠品客服人員的ATM解除分期詐騙，需要當心。而在8月17日中午，Whoscall與165全民防騙的臉書粉絲專頁上，也發布宣導貼文，他們表示，偽冒誠品電話的數量飆升，提醒民眾注意。基本上，最要的還是要知道，應自行搜尋正確客服電話並去電確認，以及ATM操作沒有解除分期的功能。&lt;/p&gt;
 &lt;p&gt;但更要注意的是，今年不只是誠品網路書店資料外洩情況嚴重，金石堂網路書店、Booking.com、HITO本舖，以及小三美日等，同樣面臨客戶資料外洩問題。特別的是，今年8月還有新的網路攻擊趨勢，有多個慈善愛心協會，同時遭遇客戶資料外洩問題。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/_誠品個資外洩_圖片來源擷取自Whoscall臉書.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/_%E8%AA%A0%E5%93%81%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%93%B7%E5%8F%96%E8%87%AAWhoscall%E8%87%89%E6%9B%B8.jpg&quot; style=&quot;width: 225px;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://s4.itho.me/sites/default/files/images/2021-08-17_140730_誠品個資外洩_圖片來源擷取自Whoscall臉書(1).jpg.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-17_140730_%E8%AA%A0%E5%93%81%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%93%B7%E5%8F%96%E8%87%AAWhoscall%E8%87%89%E6%9B%B8(1).jpg.jpg&quot; style=&quot;width: 365px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;在8月17日中午，Whoscall臉書粉絲專頁指出近期偽冒誠品電話飆升，提醒民眾要注意詐騙號碼特徵。&lt;/p&gt;
-&lt;p&gt;另外值得注意的是，過去詐騙集團也曾結合二類電信讓來電號碼的顯示，可以與真實號碼一模一樣，因此民眾應要有相關認知，最好的方式，應自行搜尋正確客服電話再三確認並去電聯繫，以及要知道ATM操作沒有解除分期的功能，就不會被解除分期詐騙話術所騙。（圖片來源：擷取自Whoscall臉書貼文）&lt;/p&gt;
+&lt;p&gt;另外值得注意的是，過去詐騙集團也曾結合二類電信讓來電號碼的顯示，可以與真實號碼一模一樣，因此民眾應要有相關認知，最好的方式，應自行搜尋正確客服電話再三確認並去電聯繫，以及要知道ATM操作沒有解除分期的功能，就不會被話術所騙。（圖片來源：擷取自Whoscall臉書貼文）&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;&lt;strong&gt;第二季誠品網路書店以310件最嚴重，金石堂175件次之&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;在2021年上半，臺灣有那些電商平臺遭遇客戶資料外洩問題？我們聯繫刑事警察局股長洪國倫，他表示，近年165反詐騙每季公布相關統計數據，警方在接獲大量民眾通報後，由於對方都掌握了客戶個資與訂單明細等資訊，因此也針對這些疑似個資外洩電商，進行相關反詐騙宣導。&lt;/p&gt;
@@ -98,7 +169,7 @@
 &lt;/blockquote&gt;
 &lt;h3&gt;&lt;strong&gt;愛心捐款協會也被詐騙集團鎖定，捐款人資料遭竊&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;另一值得關注的攻擊與詐騙趨勢，警方提醒，現在詐騙集團除了針對電商平臺的客戶資料庫攻擊，也會鎖定愛心捐款組織。&lt;/p&gt;
-&lt;p&gt;洪國倫表示，在7月底、8月初，他們接獲了多起民眾通報，都是對方掌握被害人姓名、電話、捐款金額等資料的詐騙案件，通報對象包括台灣樂作創益協會、中華育幼機構兒童關懷協會、弘化同心共濟會、臺灣防盲基金會、中華民國兒童癌症基金會，以及愛盲基金會等，到了8月中旬，統計已經多達35家這類的愛心慈善協會發生個資外洩，總計接獲超過120件民眾報案，財損超過1600萬元。&lt;/p&gt;
+&lt;p&gt;洪國倫表示，在7月底、8月初，他們接獲了多起民眾通報，都是對方掌握被害人姓名、電話、捐款金額等資料的詐騙案件，通報對象包括台灣樂作創益協會、中華育幼機構兒童關懷協會、弘化同心共濟會、臺灣防盲基金會、中華民國兒童癌症基金會，以及愛盲基金會等，到了8月中旬（至16日止），統計已經多達35家這類的愛心慈善協會發生個資外洩，警方現階段總計接獲超過120件民眾報案，財損超過1600萬元。&lt;/p&gt;
 &lt;p&gt;後續詐騙手法則如出一轍，大多利用ATM解除分期詐騙取財，只不過詐騙話術略有差異。對方以工作人員操作錯誤，導致網路匯款變成分期付款或定期扣款等名義，打電話給捐款民眾，再謊稱至ATM輸入解除錯誤密碼，但實為詐騙方受款帳戶，混淆民眾。導致這些報案民眾，總財損金額約200多萬元。&lt;/p&gt;
 &lt;p&gt;這起事件另一特殊之處，是這些協會都委託同一資訊系統服務商。洪國倫表示，遭入侵的管道有很多種，他舉例，包括對方透過撞庫攻擊取得系統存取權限，以及偽裝客訴信寄送釣魚文件，一旦客服人員點擊暗藏木馬的該文件或連結，之後駭客就能一步步取得受害公司員工的存取權限，竊取客戶個資，再將這些客戶個資往外傳送。&lt;/p&gt;
 &lt;p&gt;關於上述事件的目前調查進度，刑事局研發科還在與系統商釐清相關資訊，以及進行相關資安檢測。另外，洪國倫指出，誠品網路書店與這些慈善協會並非使用同一系統資訊商，屬不同事件。&lt;/p&gt;
@@ -106,7 +177,7 @@
 &lt;p&gt;為了避免民眾遭受後續的詐騙，警方在接獲通報當下，都會通知業者，需在官方網站進行反詐騙警語，並以電子郵件或簡訊通知會員，並提醒平臺強化資安防護，但這些事件為何持續出現？因為有很多問題一直沒有解決。&lt;/p&gt;
 &lt;p&gt;除了業者要強化資安，他們也應該重視資安事件公告的發布，讓民眾知道事件調查、影響範圍，以及受影響者該如何因應。&lt;/p&gt;
 &lt;p&gt;然而，有許多受害電商平臺只發布防詐騙警語，卻未正式發布客戶資料外洩公告。儘管有些民眾看到警示，可能就猜得到該業者可能有客戶資料外洩狀況，但這樣隱晦、間接的資安事件發布方式，是否合理？政府該如何採取對策？&lt;/p&gt;
-&lt;p&gt;畢竟，業者只發布防詐騙警示，不一定代表他們真的受害，有可能只是配合政府政策。像是&lt;a href=&quot;https://www.ithome.com.tw/news/142711&quot;&gt;今年過年前夕，出現大規模假冒銀行釣魚簡訊詐騙&lt;/a&gt;，由於接連有銀行遇害，因此警方也呼籲各家銀行先發布警示，因此，對於其他銀行而言，傳達這些資訊並非表示自身已遭假冒，而是先行提醒。&lt;/p&gt;
+&lt;p&gt;畢竟，業者只發布防詐騙警示，不一定代表他們真的受害，有可能只是配合政府政策。像是&lt;a href=&quot;https://www.ithome.com.tw/news/142711&quot;&gt;今年過年前夕，出現大規模假冒銀行釣魚簡訊詐騙&lt;/a&gt;，由於接連有銀行被假冒，因此警方也呼籲各家銀行先發布警示，因此，對於其他銀行而言，傳達這些資訊並非表示自身已遭假冒，而是先行提醒。&lt;/p&gt;
 &lt;p&gt;而從法規面向來看，根據個人資料保護法第12條規定，公務機關或非公務機關違反本法規定，致個人資料被竊取、洩漏、竄改或其他侵害者，應查明後以適當方式通知當事人。&lt;/p&gt;
 &lt;p&gt;關於個人資料法的求償，之前我們曾報導過2017年&lt;a href=&quot;https://www.ithome.com.tw/news/133473&quot;&gt;EZ訂個資外洩客戶遭騙判決出爐，最終是業者應付起7成部分責任&lt;/a&gt;，但多數民眾可能往往不知道這可以提告。同時，民眾對業者提出集體訴訟的狀況不興盛，也是導致業者消極、被動應對的原因，過去曾有成功獲得賠償的案例，例如，關於&lt;a href=&quot;https://www.consumers.org.tw/product-detail-2519883.html&quot;&gt;雄獅旅行社資料外洩事件，受害者提出集體訴訟，一審雖然敗訴，但到了二審後，2020年7月終於進行調解並獲得賠償金&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/960x420zhu_tu_bezding_ge_zi_wai_xie_ke_hu_zao_pian_pan_jue_chu_lu_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%93%B7%E5%8F%96%E8%87%AA%E5%8F%B8%E6%B3%95%E9%99%A2%E6%B3%95%E5%AD%B8%E8%B3%87%E6%96%99%E6%AA%A2%E7%B4%A2%E7%B3%BB%E7%B5%B1.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
@@ -206,50 +277,6 @@
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="false">146199 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146199#comments</comments>
-</item>
-<item>
- <title>【靠AI化被動為主動，打造無人化、零接觸金融服務】玉山未來3年3大AI願景</title>
- <link>https://www.ithome.com.tw/news/146197</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;談起未來3年的AI發展願景，玉山金控科技長張智星先是拋出這一句：「金融未來的服務對象，是數位原住民。」&lt;/p&gt;
-&lt;p&gt;這群人，一出生就會使用智慧型手機、平板，對金融服務的想像更是動動手指就能線上完成。為此，玉山把未來3年的AI目標，設定為「無人化、零接觸的金融服務。」今年爆發的疫情，正加速玉山實現這個目標&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;第一步：全面使用Chatbot，抓住顧客意圖&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E3%80%90%E4%BD%8D%E7%BD%AE%EF%BC%9A2017%E5%B9%B44%E6%9C%88%E3%80%91%E6%94%9D%E5%BD%B1%EF%BC%8F%E6%B4%AA%E6%94%BF%E5%81%89%5B1%5D.jpg&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;攝影／洪政偉&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;張智星將零接觸金融服務分為三大步，第一步是要全面使用聊天機器人（Chatbot）。他解釋，這些機器人以文字為主，得根據不同業務場景一一打造，除了要具備特定領域知識外，還要能「了解客戶意圖（Intention）。」這正是玉山積極規畫的領域。&lt;/p&gt;
-&lt;p&gt;實現這一點的關鍵，就是自然語言處理（NLP）技術。玉山早在過去幾年，就已累積不少NLP開發經驗，他們先是在2017年開發玉山小i隨身金融顧問，能一次回答房貸評估、外匯諮詢和信用卡推薦3大問題。&lt;/p&gt;
-&lt;p&gt;為打造玉山小i，他們當時組成了40人團隊來發想Chatbot應用場景，再找來IBM，採其Watson Conversation服務，聯手建立Chatbot分析語意所需的意圖（Intent）、實體概念（Entity）和對話流程，再進行各種玉山小i的測試。&lt;/p&gt;
-&lt;p&gt;玉山小i問世後，玉山更進一步投入NLP技術研究，直接找上臺大自然語言處理實驗室，來鎖定使用者意圖分析與偵測技術，要從使用者在各種公開網路平臺上的異質源資料，來探索、拼湊出完整的使用者資訊，建立更好的預測模型。雖然那次研究的目的是精準行銷，但玉山也培養了NLP能力。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;第二步：大量分析語音客服，不只做數位導流還要調整服務&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;接下來，實現零接觸金融的第二步，是要透過語音客服分析，來進行數位導流。它的意思是，透過NLP模型分析客服電話對話、找出顧客問題，再自動發送相關資訊給顧客。&lt;/p&gt;
-&lt;p&gt;以玉山近來推出的數位導流系統平臺為例，這套平臺在客服通話結束後，會先以NLP模型分析通話語音檔案、判斷顧客問題，比如帳單金額查詢、信用卡額度查詢等，再發送簡訊給顧客，附上相關服務的連結和使用教學供參考。&lt;/p&gt;
-&lt;p&gt;這就是玉山正在發展的，以NLP技術驅動的全自動數位導流。他們要透過這個方式即時解決客戶問題，不需人工介入也能做到。&lt;/p&gt;
-&lt;p&gt;不只導流，張智星補充，語音分析還能對客服通話進行品質檢驗。比如，透過語音辨識技術將客服電話對話轉為逐字稿，再從中了解客戶問題、調整服務，「假設多數客戶來電詢問三倍券或紓困專案，就表示玉山的網頁說明還不夠清楚，」團隊能依此進一步調整網頁說明。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;第三步：打造24小時全智能語音Chatbot&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;實現零接觸金融的第三步，是要打造24小時不停歇的全智能對話客服系統，來提供真人般的客服語音服務。&lt;/p&gt;
-&lt;p&gt;這背後的思維是「用科技減少勞力需求。」張智星指出，玉山每天有上萬通客服電話要處理，人力支出極大。要是顧客撥打客服專線時，通話前半段至少由機器人回答，就能減少客服人力需求。他認為，這個方法再加上文字Chatbot，就能提供24小時的顧客服務。&lt;/p&gt;
-&lt;p&gt;為做到這一點，玉山近來也發展相關服務來練兵。比如今年3月，他們發表一項OTP語音服務，以自行開發的語音自動外撥系統，來告知使用者一次性密碼，取代傳統簡訊方法。&lt;/p&gt;
-&lt;p&gt;這項服務瞄準首次綁定行動裝置的顧客，在操作過程中，系統會自動撥打顧客設定的手機號碼，以電話語音提供一次性密碼。同樣地，首次申請網銀或忘記密碼時，顧客也能選擇語音OTP或透過晶片金融卡，來得到一次性密碼。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3800000000000001;margin-top:12pt;margin-bottom:12pt;&quot;&gt;玉山自建這套語音引擎，不僅能穩定提供服務，還能根據業務需求擴展服務範圍。這一點，正是玉山邁向全智能語音Chatbot的關鍵能力。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;化被動為主動，在顧客問問題前就先解答&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;玉山將客服AI視為未來3年關鍵應用，背後還有一個原因，也就是化被動為主動。「主動接近顧客、提供有用的資訊，而不是等顧客來問問題，我們才回答，」張智星說。&lt;/p&gt;
-&lt;p&gt;早在10多年前，玉山就已意識到主動出擊的重要性。那時，玉山大數據分析團隊已開始琢磨精準行銷，他們不只分析內部顧客資料，更結合高度複雜、顆粒度粗大的外部社群平臺資料，來更精細地分群顧客、推薦商品。&lt;/p&gt;
-&lt;p&gt;此後數年，玉山不斷鑽研顧客意圖分析，更將這門課題列為產學研究的重要方向，要主動發掘顧客喜好、推動精準行銷。&lt;/p&gt;
-&lt;p&gt;現在，他們進行的仍然是意圖辨識，但最終目的不是推薦商品，而是給予解答。&lt;/p&gt;
-&lt;p&gt;一如過往從不同平臺收集使用者資訊、拼湊出完整的使用者樣貌來推薦商品，為了解顧客的潛在問題、提供有用資訊，玉山先是盤點顧客接觸玉山的管道，如Email、電話、ATM提款機、實體分行等，因為，顧客很有可能在這些管道中，就已經表現出疑問的徵兆了。&lt;/p&gt;
-&lt;p&gt;玉山希望透過這個方式，整合出顧客的完整資訊，從中分析潛在問題，再從顧客熟悉的數位管道，來提供解答。這也是今年玉山AI的一大重要發展領域。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;發展零接觸金融，也別忘了數位身分認證&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;玉山未來3年的AI發展願景以NLP為核心，除了AI客服，還包括其他金融業務的自動審核，比如線上對保、立即辦卡，甚至是存匯、授信等，只要主管機關開放，玉山就會用技術力轉化為零接觸金融服務。&lt;/p&gt;
-&lt;p&gt;這種指來速的金融服務雖然方便，但「數位身分認證也很重要。」張智星指出，零接觸金融服務不得面對面完成業務，如何得知螢幕前的使用者就是顧客本人，就得靠辨識技術來確認。&lt;/p&gt;
-&lt;p&gt;比如人臉辨識、活體辨識、聲紋辨識、指紋辨識等，都是身分驗證手段。玉山對生物辨識技術的重視，在2018年就可看出。那年，他們推出刷臉ATM服務，以建檔留臉、更新刷臉和快速掃臉三個步驟，來讓使用者靠臉取款。在刷臉ATM服務的背後，其實藏著玉山精心規畫的四道安全機制，包括動態密碼、無卡交易密碼、活體偵測、超高速臉部辨識，來確保眼前的顧客就是本人。&lt;/p&gt;
-&lt;p&gt;現在，使用場景轉移到線上，玉山不只考慮生物辨識，還思考知識問答的可行性，多一條路來認證數位身分。如何將不同辨識技術結合到零接觸金融，正是玉山要攻克的課題。&lt;/p&gt;
-&lt;div id=&quot;gtx-trans&quot; style=&quot;position: absolute; left: 2px; top: 1290px;&quot;&gt;
-&lt;div class=&quot;gtx-trans-icon&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146197 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146197#comments</comments>
 </item>
 </channel>
 </rss>
