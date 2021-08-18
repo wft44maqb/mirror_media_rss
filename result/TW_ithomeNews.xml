@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/775/10072" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/area/id/1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/775/10072</link>
+    <link>https://www.ithome.com.tw/latest/area/id/1</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/775/10072" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/area/id/1" rel="self" type="application/rss+xml" />
       <item>
     <title>資安一周第159期：勒索軟體eCh0raix變種同時鎖定威聯通與群暉NAS下手。勒索軟體LockBit攻擊IT顧問公司Accenture</title>
     <link>https://www.ithome.com.tw/news/146255</link>
@@ -54,7 +54,7 @@
   <item>
     <title>誠品等書店型電商屢列網購高風險平臺，今年8月上半另有多達35個愛心協會捐款資料外洩，上百捐款人報案遭騙</title>
     <link>https://www.ithome.com.tw/news/146250</link>
-    <description> 近日誠品網路書店客戶個資外洩問題再度浮上檯面，根據東森電視臺的報導，誠品網路書店在短短五天內，就有上百會員被騙千萬元，各大媒體也跟進引用內容，但相關報導內容存在著爭議，我們洽詢警方想確認此事真實性，他們表示，被騙千萬應是長期累計金額。但無論如何這類事件相當嚴重，也突顯了臺灣電商平臺的資料外洩問題。</description>
+    <description> 近日誠品網路書店客戶個資外洩問題再度浮上檯面，根據東森電視臺的報導，最近誠品網路書店在短短五天內，就有上百會員被騙千萬元，各大媒體也跟進引用內容，但相關報導內容存在著爭議，我們洽詢警方想確認此事真實性，他們表示，被騙千萬應是長期累計金額。但無論如何這類事件相當嚴重，也突顯了臺灣電商平臺的資料外洩問題。</description>
      <pubDate>2021-08-18  11:08:07</pubDate>
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146250</guid>
