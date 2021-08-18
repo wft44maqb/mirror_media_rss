@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-18T10:30:05Z</updated>
+ <updated>2021-08-18T10:32:40Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58894721</id>
+  <title><![CDATA[美将中国、台湾列入非法渔业清单 恐遭国际制裁]]></title>
+  <updated>2021-08-18T10:24:00Z</updated>
+  <published>2021-08-18T10:24:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美将中国、台湾列入非法渔业清单-恐遭国际制裁/a-58894721?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国国家海洋暨大气总署（NOAA）发布每两年一度的「国际渔业管理改善报告」，中国、台湾双双被列入「非法渔业」及「混获」的两个清单上，其中台湾更是首次上榜。]]></summary>
+  <category term="科技环境"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58893881</id>
   <title><![CDATA[台湾开打自产「高端」疫苗  未完成三期试验引争论]]></title>
@@ -483,16 +493,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/民族主义笼罩-跨足两岸的台湾艺人「进退两难」/a-58815291?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[在中国民族主义浪潮下，艺人在公众领域的發言似乎越来越容易引發争议。德国之声採访多名台湾演艺人士，试图了解业界的因应之道。]]></summary>
   <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58810966</id>
-  <title><![CDATA[全球气候变化报告：十万火急]]></title>
-  <updated>2021-08-09T15:38:00Z</updated>
-  <published>2021-08-09T15:38:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/全球气候变化报告：十万火急/a-58810966?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[暴雨、热浪、海平面上升：联合国政府间气候变化专门委员会（IPCC）在其最新报告中再度发出对全球变暖后果的紧急警报，要求立即大幅减少温室气体排放。]]></summary>
-  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58806447</id>
