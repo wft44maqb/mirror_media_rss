@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/1252" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/1252</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/1252" rel="self" type="application/rss+xml" />
       <item>
-    <title>物聯智慧Kalay平臺含有一重大漏洞，將允許駭客自遠端存取IoT裝置</title>
+    <title>物聯智慧Kalay平臺含有重大漏洞，將允許駭客自遠端存取IoT裝置</title>
     <link>https://www.ithome.com.tw/news/146258</link>
     <description> 美國國土安全部旗下的網路安全暨基礎架構安全署（CISA）與資安業者FireEye本周警告，臺灣IoT平臺業者物聯智慧（ThroughTek）所打造的Kalay P2P SDK含有一重大安全漏洞CVE-2021-2837</description>
      <pubDate>2021-08-18  05:08:34</pubDate>

@@ -6,10 +6,10 @@
  <description></description>
  <language>zh-hant</language>
 <item>
- <title>物聯智慧Kalay平臺含有一重大漏洞，將允許駭客自遠端存取IoT裝置</title>
+ <title>物聯智慧Kalay平臺含有重大漏洞，將允許駭客自遠端存取IoT裝置</title>
  <link>https://www.ithome.com.tw/news/146258</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國國土安全部旗下的網路安全暨基礎架構安全署（&lt;a href=&quot;https://us-cert.cisa.gov/ics/advisories/icsa-21-229-01&quot; target=&quot;_blank&quot;&gt;CISA&lt;/a&gt;）與資安業者&lt;a href=&quot;https://www.fireeye.com/blog/threat-research/2021/08/mandiant-discloses-critical-vulnerability-affecting-iot-devices.html&quot; target=&quot;_blank&quot;&gt;FireEye&lt;/a&gt;本周警告，臺灣IoT平臺業者物聯智慧（ThroughTek）所打造的Kalay P2P SDK含有一重大安全漏洞CVE-2021-28372，將允許駭客自遠端執行任意程式或存取機密資訊，而物聯智慧則已修補該漏洞，&lt;a href=&quot;https://www.throughtek.com.tw/please-update-the-sdk-version-to-minimize-the-risk-of-sensitive-information-being-accessed-by-unauthorized-third-party/&quot; target=&quot;_blank&quot;&gt;並呼籲用戶儘快更新&lt;/a&gt;。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0818-ThroughTek%20kalay%20platform-600.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;https://www.throughtek.com.tw/please-update-the-sdk-version-to-minimize-the-risk-of-sensitive-information-being-accessed-by-unauthorized-third-party/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0818-ThroughTek%20kalay%20platform-600-2.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;根據物聯智慧的說明，Kalay為一奠基於P2P技術的基礎架構，具備多種模組化功能，還能根據客戶需求進行客製化，亦能以SDK形式嵌入應用程式或IoT裝置。&lt;/p&gt;
 &lt;p&gt;FireEye指出，CVE-2021-28372藏匿在Kalay平臺的一個核心元件中，駭客必須非常熟悉Kalay協定，並具備產生及傳送訊息的能力，也必須先取得Kalay的用戶ID（UID）才能發動攻擊，進一步危害相關UID的裝置。CISA則說，成功開採漏洞將允許駭客執行惡意程式或存取機密資訊，包括攝影機的音訊與視訊。其CVSS風險指數高達9.6。&lt;/p&gt;
 &lt;p&gt;研究人員表示，他們並不確定有多少裝置受到該漏洞的影響，但物聯智慧的官網顯示，全球有超過8,300萬個裝置採用Kalay平臺。&lt;/p&gt;
@@ -28,6 +28,7 @@
 &lt;p&gt;新版Parallels Desktop能夠在搭載英特爾或蘋果M1處理器的Mac電腦上，執行Windows應用程式，以因應Mac電腦處理器處交替的使用需要；在作業系統方面，蘋果、微軟今年相繼發表新作業系統，Parallels Desktop17 for Mac為通用二進位應用程式，針對macOS Monterey及Windows 11進行優化。&lt;/p&gt;
 &lt;p&gt;目前的Parallels Desktop 17 for Mac可支援Windows 10及macOS Monterey，儘管微軟今年6月發表Windows 11有些出人意表，但Parallels高級產品經理Kurt Schmucker強調，Windows 11在今年推出之後，Parallels Desktop 17也將能全面支援Windows 11，不論使用英特爾或蘋果M1處理器的Mac電腦。&lt;/p&gt;
 &lt;p&gt;儘管現在Windows 11尚未正式推出，但微軟目前已先釋出Insider Preview預覽版供外界體驗，Kurt也現場展示Parallels Desktop 17 for Mac上，以虛擬機器執行Windows 11的預覽版本。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/thumbnail.jpg&quot; style=&quot;width: 600px; height: 483px;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;此外，Kurt表示，新版本為二進位應用程式，除了對消費者而言，可用於英特爾及M1的Mac，同樣對IT管理者有利，較容易部署Windows至數百臺Mac電腦。以Parallels Desktop 17 for Mac Business版為例，企業可將預建的Windows虛擬機器部署至大量混合英特爾與M1處理器的Mac上。&lt;/p&gt;
 &lt;p&gt;不過，他也坦言，如同蘋果在英特爾及M1的Mac，兩者尚無法做到完全相同的功能，Parallels Desktop 17在英特爾和M1版本Mac上執行，兩者的功能體驗目前也還無法做到百分之百相同。&lt;/p&gt;
 &lt;p&gt;Kurt指出，Parallels Desktop 17在英特爾與M1版Mac上執行guest OS的差異。由於英特爾版Mac發展時間較長，Parallels Desktop 17支援的OS，從Windows 11、10到Windows XP，macOS則從Monterey到Lion，至於M1版Mac，支援的guest OS以arm架構OS為主，包括Windows 10、11，macOS的Monterey及幾個Linux版本。&lt;/p&gt;
