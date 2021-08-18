@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-18T11:29:21Z</updated>
+ <updated>2021-08-18T11:32:57Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,36 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58895283</id>
+  <title><![CDATA[NGO：在海外被投诉不负责任的中国企业数量增加]]></title>
+  <updated>2021-08-18T11:27:00Z</updated>
+  <published>2021-08-18T11:27:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/ngo：在海外被投诉不负责任的中国企业数量增加/a-58895283?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[英国非盈利机构企业责任资源中心最新发布的一份报告指出，随着中国企业，尤其是能源、建筑（包括基础设施建设）、采矿和金属行业的海外扩张，民间社会和媒体对特别是在亚洲、非洲和拉丁美洲地区与之相关的社会、环境和人权侵犯的报道也不断增加。]]></summary>
+  <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58895390</id>
+  <title><![CDATA[中国网民如何看塔利班重新上台？]]></title>
+  <updated>2021-08-18T11:23:00Z</updated>
+  <published>2021-08-18T11:23:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国网民如何看塔利班重新上台？/a-58895390?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美军撤离后，塔利班不战而胜占领喀布尔并将很快正式接管权力。中国网民对此议论纷纷。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58895372</id>
+  <title><![CDATA[古巴扩大对互联网的监控]]></title>
+  <updated>2021-08-18T11:20:00Z</updated>
+  <published>2021-08-18T11:20:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/古巴扩大对互联网的监控/a-58895372?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[哈瓦那政府对上月爆发的抗议浪潮做出了反应，对私营经济进一步开放。不过，一项新法律显示，当局意欲继续控制公民的互联网活动。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58894721</id>
   <title><![CDATA[美将中国、台湾列入非法渔业清单 恐遭国际制裁]]></title>
@@ -203,26 +233,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国整治娱乐圈-80名艺人自发签「德行承诺书」/a-58883336?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国娱乐圈近来有3位艺人接连因丑闻遭封杀，中国政府也频频发声抵制「劣迹艺人」。对此，中国湖南卫视芒果TV旗下80多位艺人自发签署承诺书，强调他们会做「德艺双馨」、「以人民为中心」的艺人。]]></summary>
   <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58882600</id>
-  <title><![CDATA[港特首回应民阵解散：自动结束是唯一选择]]></title>
-  <updated>2021-08-17T06:08:00Z</updated>
-  <published>2021-08-17T06:08:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/港特首回应民阵解散：自动结束是唯一选择/a-58882600?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[香港特首林郑月娥首度针对民阵解散作出回应，她称过去肆意触碰「红线」的人或团体，选择自动结束是「唯一选择」。香港律师会会成为下一波被打压的标的吗？]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58882450</id>
-  <title><![CDATA[美媒：中国疑在迪拜设「境外黑牢」  内有维吾尔人士]]></title>
-  <updated>2021-08-17T04:39:00Z</updated>
-  <published>2021-08-17T04:39:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美媒：中国疑在迪拜设「境外黑牢」-内有维吾尔人士/a-58882450?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国异议人士王靖渝的未婚妻、26岁的吴欢接受美联社专访时称，自己曾被监禁在迪拜的一间由中国管理的祕密监狱内，狱友还包含维族人士。中国及阿联酋皆否认该指控，但吴欢提供了她接受中国官员问讯的录音等证据。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58879843</id>
@@ -522,16 +532,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国市场：德国电动汽车落人之后/a-58758175?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[作为全球最大汽车市场，中国对德国企业也至关重要。然而，在中华人民共和国最畅销电动汽车制造商名单上，并无大众、戴姆勒和宝马。 ]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58753070</id>
-  <title><![CDATA[中国投资：巴基斯坦的经济命脉]]></title>
-  <updated>2021-08-08T07:44:00Z</updated>
-  <published>2021-08-08T07:44:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国投资：巴基斯坦的经济命脉/a-58753070?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[尽管面对恐怖攻击的威胁以及当地居民日益增长的愤慨，中国仍持续向巴基斯坦注入数十亿美元，并在各行各业进行投资。]]></summary>
   <category term="经济纵横"/>
  </entry>
  <entry>
