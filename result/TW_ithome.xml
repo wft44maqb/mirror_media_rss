@@ -6,6 +6,47 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Parallels Desktop 17 for Mac上市! 同時支援英特爾與Apple M1處理器，未來還將支援Windows 11</title>
+ <link>https://www.ithome.com.tw/news/146256</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;專門在Mac提供硬體虛擬化軟體的Parallels，在周二推出Parallels Desktop 17 for Mac，支援採用英特爾與蘋果M1處理器的新舊Mac，在作業系統方面，也針對蘋果macOS12及微軟Windows&lt;span&gt;  &lt;/span&gt;11優化。&lt;/p&gt;
+&lt;p&gt;新版Parallels Desktop能夠在搭載英特爾或蘋果M1處理器的Mac電腦上，執行Windows應用程式，以因應Mac電腦處理器處交替的使用需要；在作業系統方面，蘋果、微軟今年相繼發表新作業系統，Parallels Desktop17 for Mac為通用二進位應用程式，針對macOS Monterey及Windows 11進行優化。&lt;/p&gt;
+&lt;p&gt;目前的Parallels Desktop 17 for Mac可支援Windows 10及macOS Monterey，儘管微軟今年6月發表Windows 11有些出人意表，但Parallels高級產品經理Kurt Schmucker強調，Windows 11在今年推出之後，Parallels Desktop 17也將能全面支援Windows 11，不論使用英特爾或蘋果M1處理器的Mac電腦。&lt;/p&gt;
+&lt;p&gt;儘管現在Windows 11尚未正式推出，但微軟目前已先釋出Insider Preview預覽版供外界體驗，Kurt也現場展示Parallels Desktop 17 for Mac上，以虛擬機器執行Windows 11的預覽版本。&lt;/p&gt;
+&lt;p&gt;此外，Kurt表示，新版本為二進位應用程式，除了對消費者而言，可用於英特爾及M1的Mac，同樣對IT管理者有利，較容易部署Windows至數百臺Mac電腦。以Parallels Desktop 17 for Mac Business版為例，企業可將預建的Windows虛擬機器部署至大量混合英特爾與M1處理器的Mac上。&lt;/p&gt;
+&lt;p&gt;不過，他也坦言，如同蘋果在英特爾及M1的Mac，兩者尚無法做到完全相同的功能，Parallels Desktop 17在英特爾和M1版本Mac上執行，兩者的功能體驗目前也還無法做到百分之百相同。&lt;/p&gt;
+&lt;p&gt;Kurt指出，Parallels Desktop 17在英特爾與M1版Mac上執行guest OS的差異。由於英特爾版Mac發展時間較長，Parallels Desktop 17支援的OS，從Windows 11、10到Windows XP，macOS則從Monterey到Lion，至於M1版Mac，支援的guest OS以arm架構OS為主，包括Windows 10、11，macOS的Monterey及幾個Linux版本。&lt;/p&gt;
+&lt;p&gt;由於這些差異，Kurt建議用戶若購買M1的Mac，仍可保留舊的英特爾版Mac，在目前Mac搭載的處理器過渡期間，仍能執行原本的應用。&lt;/p&gt;
+&lt;p&gt;至於效能提升方面，新的Parallels Desktop 17 for Mac強調不論在英特爾或M1版Mac上有更好的效能，包括在Windows、Linux、macOS上開機速度提升38%，OpenGL圖形處理速度也提升7倍。&lt;/p&gt;
+&lt;p&gt;單單看M1版本Mac電腦的表現，Parallels也提供幾個例子，執行Windows 10 on Arm Insider Preview啟動速度提升33%，磁碟效能也提升20%，在DX11處理上也提升28%。而在英特爾版Mac(執行macOS Big Sur或更新版本)，連網速度提升60%。&lt;/p&gt;
+&lt;p&gt;在功能方面，Parallels Desktop 17支援虛擬TPM，可在Windows 10與11執行Bitlocker、Secure Boot；而在Coherence模式也有改良，同時執行Windows與Mac應用程式，隱藏Windows桌面，並將Windows關機、更新或登入畫面視窗化。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Coherence模式可同時執行Mac與Windows應用程式：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Enhanced%20Coherence%20Mode_3_Parallels%20Desktop%2017%20for%20Mac.jpg&quot; style=&quot;width: 600px; height: 375px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;虛擬TPM安全晶片功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Virtual%20TPM%20chip%20ARM%20(Security)_Parallels%20Desktop%2017%20for%20Mac.jpg&quot; style=&quot;width: 600px; height: 398px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;今年新版本的價格保持一樣，只要8月1日到9月30日購買的Parallels Desktop 16的用戶，能夠免費升級至17版。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Aug 2021 08:03:11 +0000</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="false">146256 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146256#comments</comments>
+</item>
+<item>
+ <title>傳大通銀行因系統問題導致客戶資料可被他人查詢</title>
+ <link>https://www.ithome.com.tw/news/146257</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/chase-bank-accidentally-leaked-customer-info-to-other-customers/&quot; target=&quot;_blank&quot;&gt;Bleeping Computer&lt;/a&gt;報導，美國摩根大通（JP Morgan Chase &amp;amp; Co）旗下子公司大通銀行（Chase Bank）一個不知名的系統問題，導致銀行客戶的個資及交易資料可被其他網站、App用戶查詢看光。&lt;/p&gt;
+&lt;p&gt;大通銀行因向受影響的用戶發出通知函，使這件烏龍曝光。根據媒體取得的通知函，今年5月24日到7月14日之間，因為大通銀行的「系統問題」，導致部份客戶的資料在「有相似資訊」的其他客戶利用網站或銀行App查詢時顯示出來，或是在寄發對帳單時將客戶資料寄給了第三人。&lt;/p&gt;
+&lt;p&gt;可能曝光的客戶資料包括對帳單、戶頭餘額、交易清單、客戶姓名、戶頭帳號等。&lt;/p&gt;
+&lt;p&gt;大通銀行僅表示，沒有接獲告知有客戶資料被誤用的情形。&lt;/p&gt;
+&lt;p&gt;目前不知肇禍的是何種技術問題，以及受影響的用戶人數，以及是個人還是法人客戶。信用卡資料是否外洩也不得而知。但是大通銀行仍然對受害用戶提供信用監控的服務。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/91279&quot; target=&quot;_blank&quot;&gt;摩根大通2014年也傳出遭到駭客攻擊&lt;/a&gt;，導致客戶姓名、地址、電話、電子郵件，以及該公司內部資訊外洩，受影響用戶高達近7600萬個家庭及700萬小型企業，成為史上最大的資料外洩案之一。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Aug 2021 08:02:40 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146257 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146257#comments</comments>
+</item>
+<item>
  <title>資安一周第159期：勒索軟體eCh0raix變種同時鎖定威聯通與群暉NAS下手。勒索軟體LockBit攻擊IT顧問公司Accenture</title>
  <link>https://www.ithome.com.tw/news/146255</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;8/12-8/18必看資安新聞&lt;/strong&gt;&lt;/h3&gt;
@@ -54,7 +95,7 @@
 &lt;p&gt;在2020年崛起的Prometheus勒索軟體，全球已有40多個受害者，臺灣也有大企業遇害。近期國內資安業者奧義智慧，推出針對該勒索軟體的解密工具，讓受害者能夠自救，復原那些被惡意加密的檔案，而他們也將加入全球性No More Ransom計畫成為合作夥伴。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146136&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃資料外洩  ＃電信業者&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong&gt;駭客正在兜售1億筆T-Mobile用戶資料&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;strong&gt;駭客兜售1億筆T-Mobile用戶資料&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;根據Motherboard與BleepingComputer等新聞網站的報導，有賣家於地下論壇中兜售含有1億筆美國用戶的資料庫，並向買家與媒體宣稱該資料庫來自美國電信業者T-Mobile，得知此事的T-Mobile已展開調查。&lt;/p&gt;
 &lt;p&gt;網路犯罪情報公司Hudson Rock技術長Alon Gal 指出，賣家表示此舉是為了傷害美國的基礎設施，以報復美國中情局與土耳其情報幹員在2019年，綁架並嚴刑拷打疑似ISIS恐怖組織成員的John Erin Binns。&lt;a href=&quot;https://www.ithome.com.tw/news/146215&quot;&gt;&lt;strong&gt;詳全文&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
@@ -233,50 +274,6 @@
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="false">146201 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146201#comments</comments>
-</item>
-<item>
- <title>【玉山AI實例2】一年千萬張支票如何消化？玉山銀行靠票據辨識來加速</title>
- <link>https://www.ithome.com.tw/news/146200</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;玉山銀行一年要發出上千萬張支票，為正確登記票據金額，往往得動用大量人力登打資料。&lt;/p&gt;
-&lt;p&gt;從流程上來說，每張支票或匯款單進入分行後，分行會開始審核、簡單建檔以及掃描影像，再由集中作業部人工建立完整檔案、確認資料，最後才交給票據交換所。&lt;/p&gt;
-&lt;p&gt;而玉山銀行的最大痛點，就在集中作業部。因為，他們得耗費大量人力和工時來登打資料，每到月初月底，還得調度人力應付大量業務。這種調度仰賴經驗，沒有系統能即時監控、輔助決策；也因為沒有系統，支援紀錄不被留存，考核時更難有依據依循。&lt;/p&gt;
-&lt;p&gt;為解決問題，玉山銀行展開一項AI專案，要打造一套票據手寫辨識模型，來輔助人員登打資料。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;收集各種資料，要讓模型辨識國字、數字和不同字體&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;這套模型的任務，是要辨識票據上的日期、新臺幣大寫金額，以及阿拉伯數字金額。但對開發這套模型的智能金融處來說，還有個挑戰，也就是不同字體的辨識。&lt;/p&gt;
-&lt;p&gt;舉例來說，票據上的日期有可能是手寫或印刷體，也有可能是機器打印。為了讓模型學會辨識多元字體，玉山銀行收集了大量票據資料來訓練。&lt;/p&gt;
-&lt;p&gt;模型訓練完畢後，就部署到內部MLaaS平臺上，讓業務系統透過API呼叫模型辨識。在辨識流程上，前端票據作業系統收到票據掃描檔後，會呼叫MLaaS平臺的票據辨識模型，來判斷票據資訊。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;設計專屬Feedback API即時教模型，每天解放4、5名人力&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;這時，票據辨識模型會先告知系統，是否能正確辨識票據金額和日期。若能辨識，就會進入後續自動化流程，要是無法，則由前端票據作業系統觸發人工處理通知。&lt;/p&gt;
-&lt;p&gt;這麼做的好處是，團隊可以即時回饋資料，用人工辨識的資料來重新訓練模型、提高辨識準確度。為加強這一點，玉山還設計一支Feedback API，能從前端票據作業系統傳遞交易ID和基準值（Ground Truth）數值，來觸發後端系統，重新訓練模型。&lt;/p&gt;
-&lt;p&gt;玉山透露，現在約9成票據不再由人工辨識，相當於每天解放4、5名人力，來從事更有價值的工作。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146200 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146200#comments</comments>
-</item>
-<item>
- <title>【玉山AI實例1】0.1秒揪出信用卡盜刷行為，一年擋下上億元損失</title>
- <link>https://www.ithome.com.tw/news/146199</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;不只有數百萬張信用卡在市面流通，玉山銀行每天還得處理數十萬次的刷卡交易。如何從這些交易中揪出異常行為、即時攔截，是玉山一直面對的難題。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;&lt;strong&gt;規則式系統仰賴人工調整，趕不上盜用行為變化&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;過去，玉山銀行仰賴一套傳統規則式系統，靠其中的上百條固定規則，來偵測信用卡交易異常行為。&lt;/p&gt;
-&lt;p&gt;但玉山金控科技長張智星指出，這種規則式系統，每月需要人工調整一次規則和參數，不僅難以捕捉快速變化的盜冒行為，還會產出大量異常名單，得耗費大量人力一一打電話確認。&lt;/p&gt;
-&lt;p&gt;為改善這個問題，玉山發起一項AI專案，要用刷卡歷史資料，訓練一套信用卡盜刷偵測模型，來判斷盜刷風險。他們想藉此減輕銀行人力負荷、提高辨識準確度。&lt;/p&gt;
-&lt;p&gt;&lt;strong style=&quot;font-size: 28px;&quot;&gt;0.1秒揪出異常、年省上億元損失&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;首先，他們透過探索式資料分析，產生了將近400種因子的模型資料庫，再使用整合式決策樹演算法，來提高模型的泛化程度和預測能力。&lt;/p&gt;
-&lt;p&gt;經反覆測試、確認模型穩定後，他們將演算法程式打包，部署至機器學習即服務（MLaaS）平臺上，來讓業務系統以API呼叫模型。&lt;/p&gt;
-&lt;p&gt;在使用流程上，可分為兩部分，一部分是批次資料處理，先將原始資料加密、寫入專屬資料庫，再送至特徵工程主機，進行特徵工程處理。另一部分是即時資料處理。每當信用卡處系統接收一筆交易時，就會呼叫MLaaS平臺的盜刷偵測模型API，上傳這筆交易相關參數、讓模型判斷盜刷風險。&lt;/p&gt;
-&lt;p&gt;進一步來說，每次執行AI推論時，會先從特徵資料庫中索取特徵資料，提供給模型，用來計算風險。之後再將這筆交易的盜刷機率數值，回傳給前端信用卡處系統，讓前端系統決定交易是否終止。此外，前端系統也會依據風險程度，來啟動相對應措施，比如電話通知、簡訊通知等。&lt;/p&gt;
-&lt;p&gt;這套信用卡盜刷偵測模型在2019年正式上線，當時可在1秒內回傳推論預測結果。但玉山並未停步，他們幾經改良，最後讓模型在0.1秒內，就能回傳盜刷風險。玉山統計，這套模型在2020年替玉山阻擋了上億元的損失。&lt;/p&gt;
-&lt;div id=&quot;gtx-trans&quot; style=&quot;position: absolute; left: 695px; top: 356px;&quot;&gt;
-&lt;div class=&quot;gtx-trans-icon&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146199 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146199#comments</comments>
 </item>
 </channel>
 </rss>

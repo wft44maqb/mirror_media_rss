@@ -1,11 +1,28 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/6200/13490" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/6200/13490</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/6200/13490" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=989&amp;profile=atom" rel="self" type="application/rss+xml" />
       <item>
+    <title>Parallels Desktop 17 for Mac上市! 同時支援英特爾與Apple M1處理器，未來還將支援Windows 11</title>
+    <link>https://www.ithome.com.tw/news/146256</link>
+    <description> 專門在Mac提供硬體虛擬化軟體的Parallels，在周二推出Parallels Desktop 17 for Mac，支援採用英特爾與蘋果M1處理器的新舊Mac，在作業系統方面，也針對蘋果macOS12及微軟Windows  11優化。
+新版Parallels Desktop能夠在搭載英特爾或蘋果M1處理器的Mac電腦上，執行Windows應用程式，以因應Mac電腦處理器處交替的使用需要；在作業系統方面，蘋果、微軟今年相繼發表新作業系統，Parallels Desktop17 for Mac為通用二進位應用程式，針對macOS Monterey及Windows 11進行優化。</description>
+     <pubDate>2021-08-18  04:08:11</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146256</guid>
+  </item>
+  <item>
+    <title>傳大通銀行因系統問題導致客戶資料可被他人查詢</title>
+    <link>https://www.ithome.com.tw/news/146257</link>
+    <description> Bleeping Computer報導，美國摩根大通（JP Morgan Chase &amp;amp; Co）旗下子公司大通銀行（Chase Bank）一個不知名的系統問題，導致銀行客戶的個資及交易資料可被其他網站、App用戶查詢看光。</description>
+     <pubDate>2021-08-18  04:08:40</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146257</guid>
+  </item>
+  <item>
     <title>資安一周第159期：勒索軟體eCh0raix變種同時鎖定威聯通與群暉NAS下手。勒索軟體LockBit攻擊IT顧問公司Accenture</title>
     <link>https://www.ithome.com.tw/news/146255</link>
     <description> 8/12-8/18必看資安新聞
@@ -251,22 +268,6 @@ Google提到，要對虛擬機器在生產環境進行除錯，過程可能很�
      <pubDate>2021-08-16  04:08:27</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146222</guid>
-  </item>
-  <item>
-    <title>Google及臉書參與連結新加坡、日本與臺灣的Apricot海底電纜建置</title>
-    <link>https://www.ithome.com.tw/news/146223</link>
-    <description> Google及臉書在本周宣布，將參與新的Apricot海底電纜建置，Apricot將連結新加坡、日本、關島、菲律賓、臺灣與印尼，全長1.2萬公里，預計於2024年啟用。</description>
-     <pubDate>2021-08-16  04:08:21</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146223</guid>
-  </item>
-  <item>
-    <title>思科買下以色列的應用監控業者Epsagon</title>
-    <link>https://www.ithome.com.tw/news/146220</link>
-    <description> 網通設備大廠思科（Cisco）上周宣布打算買下以色列的應用監控新創Epsagon，以強化思科的全棧觀察（Full-Stack Observability）解決方案。</description>
-     <pubDate>2021-08-16  04:08:26</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146220</guid>
   </item>
   </channel>
 </rss>
