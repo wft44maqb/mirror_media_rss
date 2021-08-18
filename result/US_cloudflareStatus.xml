@@ -4,10 +4,26 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-08-17T17:59:13Z</updated>
+  <updated>2021-08-18T06:29:45Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
+  <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7784643</id>
+    <published>2021-08-17T19:03:41Z</published>
+    <updated>2021-08-17T19:03:41Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/rl4q92gprw2z"/>
+    <title>Cloudflare for Teams: Gateway Issues</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;17&lt;/var&gt;, &lt;var data-var='time'&gt;19:03&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;17&lt;/var&gt;, &lt;var data-var='time'&gt;18:52&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;17&lt;/var&gt;, &lt;var data-var='time'&gt;18:23&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with the DNS Resolver component within Gateway. Performance and connectivity through Gateway may be impacted. &lt;br /&gt;&lt;br /&gt;We are working to understand the full impact and mitigate this problem. More updates to follow shortly.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7784931</id>
+    <published>2021-08-17T17:30:00Z</published>
+    <updated>2021-08-17T19:12:30Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/0h0yvg61l2g6"/>
+    <title>Elevated failure rates for Cron Triggers</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;17&lt;/var&gt;, &lt;var data-var='time'&gt;17:30&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - On 2021/08/17 from 16:30 to 17:13 UTC, Cron Triggers experienced high failure rates. Cloudflare is investigating the extent of these failures.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7782833</id>
     <published>2021-08-17T13:20:35Z</published>
@@ -191,21 +207,5 @@
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/v6dztk2fy0gb"/>
     <title>Cache Purging Delays</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;18:27&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;13:31&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;13:16&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare single-file cache purging (purge by URL) called via the Dashboard/API is delayed.&lt;br /&gt;&lt;br /&gt;We are working to resolve this issue as soon as possible. Until then you may use the Purge Everything feature but do be aware it may cause a surge in traffic to your origin server(s). More updates to follow.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7635105</id>
-    <published>2021-07-29T17:43:37Z</published>
-    <updated>2021-07-29T17:43:37Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/49cm3g3xr9l4"/>
-    <title>Cloudflare Stream Issues</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;17:43&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;17:26&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;17:05&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;16:55&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with Stream. We are working to understand the full impact and mitigate this problem. More updates to follow shortly. Video playback of existing videos on Stream is not impacted.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7633137</id>
-    <published>2021-07-29T14:52:32Z</published>
-    <updated>2021-07-29T14:52:32Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/04982rd61q5r"/>
-    <title>Network Performance Issues in Singapore</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;14:52&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;13:45&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We are continuing to monitor for any further issues.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;13:43&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the situation.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;12:49&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;12:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with network performance in Singapore. &lt;br /&gt;&lt;br /&gt;We are working to analyse and mitigate this problem.  More updates to follow shortly.&lt;/p&gt;</content>
   </entry>
 </feed>

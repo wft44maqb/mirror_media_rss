@@ -1,11 +1,96 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/765" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/765</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/765" rel="self" type="application/rss+xml" />
       <item>
+    <title>巴基斯坦國稅局網站疑遭駭客攻擊斷線2天</title>
+    <link>https://www.ithome.com.tw/news/146253</link>
+    <description> 巴基斯坦國稅局上周傳出駭客攻擊導致網站斷線2天，但巴國政府稱是升級系統移轉過程中發生的非預期停機所致。
+周末巴基斯坦當地媒體引述匿名的官方人士報導，巴國國稅局（FBR）資料中心周六遭到網路攻擊。攻擊者成功駭入資料中心的Hyper-V系統，並影響代管的虛擬應用。
+這次攻擊發生在周六凌晨2:00。消息人士指出，由於系統毁損，巴國需要花2天重建虛擬環境，以期於周一恢復網站運作。</description>
+     <pubDate>2021-08-18  02:08:37</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146253</guid>
+  </item>
+  <item>
+    <title>英特爾將終止RealSense相機業務</title>
+    <link>https://www.ithome.com.tw/news/146252</link>
+    <description> CRN報導，處理器大廠英特爾重整半導體晶片業務之際，也將關閉近年衍生的智慧相機RealSense業務。
+這消息獲得英特爾官方證實。英特爾表示公司將關閉RealSense業務，並將電腦視覺、技術和產品移轉出去，以著重推動核心業務及IDM2.0的技術創新。英特爾也表示將持續支援現有客戶，並與員工及客戶合作確保「平順移轉」。</description>
+     <pubDate>2021-08-18  12:08:15</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146252</guid>
+  </item>
+  <item>
+    <title>Salesforce公布首批整合Slack的服務</title>
+    <link>https://www.ithome.com.tw/news/146251</link>
+    <description> 在7月完成收購線上協同平臺Slack後，CRM大廠Salesforce.com本周宣布雙方產品整合的首批成果。</description>
+     <pubDate>2021-08-18  12:08:46</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146251</guid>
+  </item>
+  <item>
+    <title>誠品等書店型電商屢列網購高風險平臺，今年8月上半另有多達35個愛心協會捐款資料外洩，上百捐款人報案遭騙</title>
+    <link>https://www.ithome.com.tw/news/146250</link>
+    <description> 近日誠品網路書店客戶個資外洩問題再度浮上檯面，根據東森電視臺的報導，誠品網路書店在短短五天內，就有上百會員被騙千萬元，各大媒體也跟進引用內容，但相關報導內容存在著爭議，我們洽詢警方想確認此事真實性，他們表示，被騙千萬應是長期累計金額。但無論如何這類事件相當嚴重，也突顯了臺灣電商平臺的資料外洩問題。</description>
+     <pubDate>2021-08-18  11:08:07</pubDate>
+ <dc:creator>羅正漢</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146250</guid>
+  </item>
+  <item>
+    <title>打造臺灣資安前瞻研究與人才培育重鎮，資安卓越中心現正招募百位技術與研究人才</title>
+    <link>https://www.ithome.com.tw/news/146249</link>
+    <description> 關於臺灣政府推動資安的發展現況，在8月5日舉行的全國資訊安全會議的一場演講中，透露最新進度。行政院副執行秘書李育杰指出，今年初定案將設立的資安卓越中心（Cyber Security Center of Excellence（CCoE），現在已經進入籌備階段，預計明年2022年初就會正式成立，現在他們正要大量招募國內大量頂尖人才加入。
+屆時，這個國家級的資安卓越中心，不僅是要增進資安前瞻研究的能量，並要解決組織資安人力不足的問題，做到長期培訓產業所需資安人才。</description>
+     <pubDate>2021-08-18  10:08:57</pubDate>
+ <dc:creator>羅正漢</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146249</guid>
+  </item>
+  <item>
+    <title>【玉山AI實例3】自建反洗錢黑名單偵測模型，快速揪出問題</title>
+    <link>https://www.ithome.com.tw/news/146201</link>
+    <description> 反洗錢（AML）一直是整個金融業兢兢業業、嚴陣以待的議題，他們拼命抓漏，也不願放過任何風險。對玉山銀行來說，更是如此。
+用NLP快速分類、揪出特定名詞，加速負面新聞分類</description>
+     <pubDate>2021-08-18  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146201</guid>
+  </item>
+  <item>
+    <title>【玉山AI實例2】一年千萬張支票如何消化？玉山銀行靠票據辨識來加速</title>
+    <link>https://www.ithome.com.tw/news/146200</link>
+    <description> 玉山銀行一年要發出上千萬張支票，為正確登記票據金額，往往得動用大量人力登打資料。
+從流程上來說，每張支票或匯款單進入分行後，分行會開始審核、簡單建檔以及掃描影像，再由集中作業部人工建立完整檔案、確認資料，最後才交給票據交換所。
+而玉山銀行的最大痛點，就在集中作業部。因為，他們得耗費大量人力和工時來登打資料，每到月初月底，還得調度人力應付大量業務。這種調度仰賴經驗，沒有系統能即時監控、輔助決策；也因為沒有系統，支援紀錄不被留存，考核時更難有依據依循。
+為解決問題，玉山銀行展開一項AI專案，要打造一套票據手寫辨識模型，來輔助人員登打資料。</description>
+     <pubDate>2021-08-18  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146200</guid>
+  </item>
+  <item>
+    <title>【玉山AI實例1】0.1秒揪出信用卡盜刷行為，一年擋下上億元損失</title>
+    <link>https://www.ithome.com.tw/news/146199</link>
+    <description> 不只有數百萬張信用卡在市面流通，玉山銀行每天還得處理數十萬次的刷卡交易。如何從這些交易中揪出異常行為、即時攔截，是玉山一直面對的難題。
+規則式系統仰賴人工調整，趕不上盜用行為變化
+過去，玉山銀行仰賴一套傳統規則式系統，靠其中的上百條固定規則，來偵測信用卡交易異常行為。
+但玉山金控科技長張智星指出，這種規則式系統，每月需要人工調整一次規則和參數，不僅難以捕捉快速變化的盜冒行為，還會產出大量異常名單，得耗費大量人力一一打電話確認。</description>
+     <pubDate>2021-08-18  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146199</guid>
+  </item>
+  <item>
+    <title>【靠AI化被動為主動，打造無人化、零接觸金融服務】玉山未來3年3大AI願景</title>
+    <link>https://www.ithome.com.tw/news/146197</link>
+    <description> 談起未來3年的AI發展願景，玉山金控科技長張智星先是拋出這一句：「金融未來的服務對象，是數位原住民。」
+這群人，一出生就會使用智慧型手機、平板，對金融服務的想像更是動動手指就能線上完成。為此，玉山把未來3年的AI目標，設定為「無人化、零接觸的金融服務。」今年爆發的疫情，正加速玉山實現這個目標
+第一步：全面使用Chatbot，抓住顧客意圖</description>
+     <pubDate>2021-08-18  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146197</guid>
+  </item>
+  <item>
     <title>AWS推出最新x86架構的M6i通用目的EC2執行個體</title>
     <link>https://www.ithome.com.tw/news/146243</link>
     <description> AWS推出第6代x86架構的EC2執行個體M6i，採用最新一代英特爾Xeon可擴充處理器，全核心渦輪加速頻率可達3.5 GHz，記憶體頻寬提升20％，Amazon EBS吞吐量可達40 Gbps，網路頻寬最高能配置50 Gbps，比起同類的第5代執行個體，整體性價比提高15％。</description>
@@ -180,88 +265,6 @@ PSG上周宣布，梅西接受以「大量$PSG球迷幣」（$PSG FAN Token）�
      <pubDate>2021-08-16  02:08:27</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146216</guid>
-  </item>
-  <item>
-    <title>駭客正在兜售來自T-Mobile的1億用戶資料</title>
-    <link>https://www.ithome.com.tw/news/146215</link>
-    <description> Motherboard與BleepingComputer相繼報導，有賣家於地下論壇中兜售一個含有1億筆美國用戶的資料庫，並向買家與媒體宣稱該資料庫來自美國電信業者T</description>
-     <pubDate>2021-08-16  02:08:30</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146215</guid>
-  </item>
-  <item>
-    <title>華為被控竊取美國公司軟體商業機密、監控巴基斯坦</title>
-    <link>https://www.ithome.com.tw/news/146214</link>
-    <description> 美國IT顧問業者Business Efficiency Solutions（BES）上周向美國加州地方法院控告華為竊取其軟體商業機密，並利用其系統蒐集巴基斯坦國家安全和企業資訊。</description>
-     <pubDate>2021-08-16  02:08:09</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146214</guid>
-  </item>
-  <item>
-    <title>臉書為Messenger語音、視訊提供全程加密，群組通訊加密為下階段</title>
-    <link>https://www.ithome.com.tw/news/146211</link>
-    <description> 臉書近日宣布已經為Messenger語音、視訊提供全程加密（end to end encryption，E2EE），而稍後也將開始測試，以便將全程加密推向Messenger群組通訊及Instagram（IG）上。
-臉書於上周宣布2項新隱私通訊功能，以及即將進行測試的2項隱私功能。2項新增的隱私通訊功能，包括為Messenger語音及視訊通話提供全程加密，以及讓用戶設定文字訊息自動消失的時間。</description>
-     <pubDate>2021-08-16  11:08:23</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146211</guid>
-  </item>
-  <item>
-    <title>微軟與Netflix等科技公司成立基金會推動開源eBPF沙盒技術發展</title>
-    <link>https://www.ithome.com.tw/news/146195</link>
-    <description> 臉書、Google、Isovalent、微軟和Netflix，宣布共同創立eBPF基金會，並且託管在Linux基金會旗下。eBPF是一項起源於Linux核心的技術，能夠在作業系統中執行沙盒程式，目的是要在不更改核心原始碼或是加載核心模組的情況下，安全地擴展核心功能。</description>
-     <pubDate>2021-08-16  10:08:21</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146195</guid>
-  </item>
-  <item>
-    <title>Martech月報第8期：臺灣去年程式化廣告支出增3成，顯示程式化購買已成數位廣告投放新主流</title>
-    <link>https://www.ithome.com.tw/news/146198</link>
-    <description> 重點新聞(0709~0812)</description>
-     <pubDate>2021-08-16  08:08:04</pubDate>
- <dc:creator>翁芊儒</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146198</guid>
-  </item>
-  <item>
-    <title>【玉山AI力關鍵人物：玉山金控科技長張智星】玉山科技長的3大AI核心戰略</title>
-    <link>https://www.ithome.com.tw/news/146182</link>
-    <description> 玉山AI應用如何成功遍地開花？
-靠「AI大腦和IT神經系統」是簡答，背後嚴密的中長期策略規畫才是詳解。玉山金控科技長張智星，就是關鍵領軍人物。這位帶頭跑的指揮官，如何思考玉山AI的發展方向？如何進一步運用玉山科技實力，來發揮AI服務效益？
-他列出了三項重要原則，來說明玉山AI戰略。
-AI戰略一：深化創新
-首先是深化創新。「要不斷創新、深化創新，」張智星解釋，不只技術要創新、服務要創新、平臺要創新，還要「第一層次、第二層次和第三層次往下深化創新。」</description>
-     <pubDate>2021-08-16  07:08:00</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146182</guid>
-  </item>
-  <item>
-    <title>十年養成玉山AI力，下一步瞄準零接觸金融</title>
-    <link>https://www.ithome.com.tw/news/146179</link>
-    <description> 今年5月疫情爆發，政府啟動勞工紓困專案，「短短幾天，玉山就湧入數十萬件申請案件！」玉山銀行董事長黃男州回憶。
-但在短時間內，玉山就一條鞭消化這些爆量申請，撥出60、70億元貸款，甚至不動用大量人力就能完成。他們靠的是機器人流程自動化（RPA）和AI，自動審核超過80%的申請案件，黃男州驕傲地說：「這就是科技的力量！」在這之中，AI更是一股重要力量。
-比如2年前，玉山已開始將AI落地到金融服務中。他們自建信用卡盜刷偵測模型，0.1秒就能判斷信用卡是否被冒用，一天用上數十萬次，一年更省下上億元的損失。
-不只如此，他們也自行開發理財認知偏好推薦AI 模型，能根據客戶承受風險等級和交易紀錄，在7秒內推薦最合適的5檔基金。</description>
-     <pubDate>2021-08-16  07:08:00</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146179</guid>
-  </item>
-  <item>
-    <title>支援記憶體ECC，Nvidia新款Ampere架構專業繪圖GPU上場</title>
-    <link>https://www.ithome.com.tw/review/146172</link>
-    <description> 4月中舉行的年度GTC大會期間，Nvidia在專業繪圖加速卡的產品線當中，針對工作站系統，推出RTX A5000、RTX A4000等兩款機型，針對筆電GPU，推出RTX A5000、RTX A4000、RTX A3000、RTX A2000。
-而在8月舉行的SIGGRAPH年度電腦繪圖大會，Nvidia發表新款工作站GPU：RTX A2000，它是目前體型最為緊緻、具有能源使用效率的GPU產品，可廣泛搭配標準與小型工作站，預計10月上市，將會在華碩、BOXX、Dell Technologies、HP、聯想，以及Nvidia全球經銷合作廠商的工作站產品當中提供。</description>
-     <pubDate>2021-08-14  05:08:02</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/review/146172</guid>
-  </item>
-  <item>
-    <title>甫獲公平會同意，亞太電信與遠傳啟動5G共頻共網服務</title>
-    <link>https://www.ithome.com.tw/news/146193</link>
-    <description> 上周剛獲得公平會審議通過，亞太電信宣布啟動國內第一個5G共頻共網服務，以遠傳電信的3.5GHz頻段5G網路，對外提供5G服務。
-亞太電信在去年初5G首次釋照，在當時的策略之下，只取得28GHz毫米波頻段，相較於其他業者在28GHz之外，還取得較主流的3.5GH頻段，並已在去年開臺時搶先提供主流5G服務，亞太電信為唯一一家未取得3.5GHz頻段的電信業者。為挽回5G市場競爭劣勢，該公司去年9月和遠傳電信達成國內第一個5G共頻共網合作協議，亞太電信分攤遠傳電信九分之二的頻譜費用，換取其取得頻段的20年使用權。去年10月亞太電信開臺，先以MVNO身分與遠傳電信合作推出5G服務。</description>
-     <pubDate>2021-08-13  04:08:11</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146193</guid>
   </item>
   </channel>
 </rss>

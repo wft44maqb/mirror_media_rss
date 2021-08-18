@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Wed, 18 Aug 2021 02:03:34 +0800</pubDate>
-		<lastBuildDate>Wed, 18 Aug 2021 02:03:34 +0800</lastBuildDate>
+		<pubDate>Wed, 18 Aug 2021 15:11:55 +0800</pubDate>
+		<lastBuildDate>Wed, 18 Aug 2021 15:11:55 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,6 +15,59 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>F5 BIG-IP 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/f5-big-ip-multiple-vulnerabilities_20210818</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/f5-big-ip-multiple-vulnerabilities_20210818</guid>
+			<pubDate>Wed, 18 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 F5 BIG-IP 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、洩露敏感資料、資料篡改...
+			  <p>影響</p>
+			  <ul>
+			          <li>跨網站指令碼</li>
+			          <li>阻斷服務</li>
+			          <li>繞過保安限制</li>
+			          <li>資料洩露</li>
+			          <li>篡改</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <p>詳情請參閱以下連結﹕</p>
+			
+			<ul>
+				<li><a href="https://support.f5.com/csp/article/K09940637" target="_blank">https://support.f5.com/csp/article/K09940637</a></li>
+				<li><a href="https://support.f5.com/csp/article/K09604370" target="_blank">https://support.f5.com/csp/article/K09604370</a></li>
+				<li><a href="https://support.f5.com/csp/article/K40540405" target="_blank">https://support.f5.com/csp/article/K40540405</a></li>
+				<li><a href="https://support.f5.com/csp/article/K01869532" target="_blank">https://support.f5.com/csp/article/K01869532</a></li>
+				<li><a href="https://support.f5.com/csp/article/K04337834" target="_blank">https://support.f5.com/csp/article/K04337834</a></li>
+				<li><a href="https://support.f5.com/csp/article/K07020416" target="_blank">https://support.f5.com/csp/article/K07020416</a></li>
+				<li><a href="https://support.f5.com/csp/article/K41412302" target="_blank">https://support.f5.com/csp/article/K41412302</a></li>
+				<li><a href="https://support.f5.com/csp/article/K15104541" target="_blank">https://support.f5.com/csp/article/K15104541</a></li>
+				<li><a href="https://support.f5.com/csp/article/K21350967" target="_blank">https://support.f5.com/csp/article/K21350967</a></li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式：</p>
+			
+			<ul>
+				<li><a href="https://support.f5.com/csp/article/K09940637" target="_blank">https://support.f5.com/csp/article/K09940637</a></li>
+				<li><a href="https://support.f5.com/csp/article/K09604370" target="_blank">https://support.f5.com/csp/article/K09604370</a></li>
+				<li><a href="https://support.f5.com/csp/article/K40540405" target="_blank">https://support.f5.com/csp/article/K40540405</a></li>
+				<li><a href="https://support.f5.com/csp/article/K01869532" target="_blank">https://support.f5.com/csp/article/K01869532</a></li>
+				<li><a href="https://support.f5.com/csp/article/K04337834" target="_blank">https://support.f5.com/csp/article/K04337834</a></li>
+				<li><a href="https://support.f5.com/csp/article/K07020416" target="_blank">https://support.f5.com/csp/article/K07020416</a></li>
+				<li><a href="https://support.f5.com/csp/article/K41412302" target="_blank">https://support.f5.com/csp/article/K41412302</a></li>
+				<li><a href="https://support.f5.com/csp/article/K15104541" target="_blank">https://support.f5.com/csp/article/K15104541</a></li>
+				<li><a href="https://support.f5.com/csp/article/K21350967" target="_blank">https://support.f5.com/csp/article/K21350967</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
 		<item>
 			<title>Google Chrome 多個漏洞</title>
 			<link>https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20210817</link>
@@ -329,16 +382,23 @@
 			          <li>阻斷服務</li>
 			          <li>繞過保安限制</li>
 			          <li>跨網站指令碼</li>
+			          <li>資料洩露</li>
 			      </ul>
 			  <hr>
 			  <p>受影響之系統或技術</p>
 			  <ul>
-				<li>Magento Commerce 2.4.2 及以前版本</li>
-				<li>Magento Commerce 2.4.2-p1 及以前版本</li>
-				<li>Magento Commerce 2.3.7 及以前版本</li>
+				<li>Adobe Commerce 2.4.2 及以前版本</li>
+				<li>Adobe Commerce 2.4.2-p1 及以前版本</li>
+				<li>Adobe Commerce 2.3.7 及以前版本</li>
 				<li>Magento Open Source 2.4.2-p1 及以前版本</li>
 				<li>Magento Open Source 2.3.7 及以前版本</li>
 				<li>Adobe Connect 11.2.2  及以前版本</li>
+				<li>Adobe Media Encoder 15.4 及以前版本</li>
+				<li>Adobe Bridge  11.1 及以前版本</li>
+				<li>Photoshop 2020 21.2.10 及以前版本</li>
+				<li>Photoshop 2021 22.4.3  及以前版本</li>
+				<li>Adobe XMP-Toolkit-SDK 2020.1 及以前版本</li>
+				<li>Adobe Captivate 2019 11.5.5 及以前版本</li>
 			</ul>
 			
 			  <hr>
@@ -723,36 +783,6 @@
 			<guid isPermaLink="false">https://www.hkcert.org/tc/blog/beware-of-malicious-or-vulnerable-third-party-dependencies</guid>
 			<pubDate>Wed, 04 Aug 2021 00:00:00 +0800</pubDate>
 			<description><![CDATA[第三方開源軟件（包括函式庫、套件和容器映像檔等）應用迅速增長，改變了軟件開發過程。除自家開發的程式碼...]]></description>
-		</item>
-		<item>
-			<title>Android 多個漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/android-multiple-vulnerabilities_20210803</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/android-multiple-vulnerabilities_20210803</guid>
-			<pubDate>Tue, 03 Aug 2021 09:05:00 +0800</pubDate>
-			<description><![CDATA[  於 Android 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發權限提升、繞過保安限制及遠端執行程式碼。
-			  <p>影響</p>
-			  <ul>
-			          <li>權限提升</li>
-			          <li>遠端執行程式碼</li>
-			          <li>繞過保安限制</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>2021-08-05 前的 Android&nbsp;保安更新級別</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<ul>
-				<li>安裝軟件供應商提供的修補程式：<br />
-				<a href="https://source.android.com/security/bulletin/2021-08-01" target="_blank">https://source.android.com/security/bulletin/2021-08-01</a></li>
-			</ul>
-			
-			  <hr>
-			]]></description>
 		</item>
 	</channel>
 </rss>

@@ -6,6 +6,233 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>巴基斯坦國稅局網站疑遭駭客攻擊斷線2天</title>
+ <link>https://www.ithome.com.tw/news/146253</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;巴基斯坦國稅局上周傳出駭客攻擊導致網站斷線2天，但巴國政府稱是升級系統移轉過程中發生的非預期停機所致。&lt;/p&gt;
+&lt;p&gt;周末巴&lt;a href=&quot;https://tribune.com.pk/story/2315712/fbr-reels-under-a-major-cyberattack&quot; target=&quot;_blank&quot;&gt;基斯坦當地媒體&lt;/a&gt;引述匿名的官方人士報導，巴國國稅局（FBR）資料中心周六遭到網路攻擊。攻擊者成功駭入資料中心的Hyper-V系統，並影響代管的虛擬應用。&lt;/p&gt;
+&lt;p&gt;這次攻擊發生在周六凌晨2:00。消息人士指出，由於系統毁損，巴國需要花2天重建虛擬環境，以期於周一恢復網站運作。&lt;/p&gt;
+&lt;p&gt;報導指出，由於時值巴國的獨立紀念日，巴國判斷是一場網路恐怖攻擊。這場攻擊的背後主使者身份尚未能確認。&lt;/p&gt;
+&lt;p&gt;另一名消息人士指出，去年3月也曾有不明攻擊者企圖存取該國國稅局系統，當時被及時發現，但這次就無法倖免。&lt;/p&gt;
+&lt;p&gt;不過周末巴國國稅局指報導不正確。根據&lt;a href=&quot;https://www.fbr.gov.pk/pr/fbr-issues-clarification-regarding-service-op/163118&quot; target=&quot;_blank&quot;&gt;國稅局的公告&lt;/a&gt;指出，為提升生產力及IT運作，FBR資料中心正在進行系統升級及服務移轉，移轉過程中發生「未預期的異常狀況」，才導致周末的斷線，而回復運作需要48小時。&lt;/p&gt;
+&lt;p&gt;巴國國稅局網站於本周一恢復上線。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Aug 2021 06:19:37 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146253 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146253#comments</comments>
+</item>
+<item>
+ <title>英特爾將終止RealSense相機業務</title>
+ <link>https://www.ithome.com.tw/news/146252</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.crn.com/news/components-peripherals/intel-says-it-s-shuttering-realsense-camera-business&quot; target=&quot;_blank&quot;&gt;CRN報導&lt;/a&gt;，處理器大廠英特爾重整半導體晶片業務之際，也將關閉近年衍生的智慧相機RealSense業務。&lt;/p&gt;
+&lt;p&gt;這消息獲得英特爾官方證實。英特爾表示公司將關閉RealSense業務，並將電腦視覺、技術和產品移轉出去，以著重推動核心業務及IDM2.0的技術創新。英特爾也表示將持續支援現有客戶，並與員工及客戶合作確保「平順移轉」。&lt;/p&gt;
+&lt;p&gt;RealSense是英特爾發展的3D影像感測技術部門，發展深度感知及物件追蹤相關的處理器、ASIC、相機系統以及軟體。為了強化RealSense技術，&lt;a href=&quot;https://www.ithome.com.tw/news/108285&quot; target=&quot;_blank&quot;&gt;英特爾還買下&lt;/a&gt;電腦視覺新創公司Movidius近年發展出的空間感測及體感技術，也推向自駕車、無人機、AR/VR、智慧家庭及機器人等產業。&lt;a href=&quot;https://www.ithome.com.tw/news/142089&quot; target=&quot;_blank&quot;&gt;年初RealSense還加入臉部辨識&lt;/a&gt;作為出入驗證等應用。&lt;/p&gt;
+&lt;p&gt;不過CRN報導，RealSense部門主管Sagi Ben Moshe兩周前在LinkedIn上證實，他將在待了10年之後離開英特爾。報導指出，對通路商而言，RealSense仍然屬於貢獻度較小的業務。&lt;/p&gt;
+&lt;p&gt;結束RealSense業務的主因，可能與新CEO Pat Gelsinger政策有關。Gelsinger上任後宣布砸巨資設廠重振PC、伺服器晶片業務以搶回龍頭地位，並且計畫跨足晶圓代工。通路商也看好英特爾加碼核心業務的策略，認為更能帶動生態圈的成長。&lt;/p&gt;
+&lt;p&gt;即使在Gelsinger之前，去年英特爾已著手清理非核心業務，包括&lt;a href=&quot;https://www.ithome.com.tw/news/136795&quot; target=&quot;_blank&quot;&gt;家用閘道器&lt;/a&gt;、&lt;a href=&quot;https://www.ithome.com.tw/news/140615&quot; target=&quot;_blank&quot;&gt;NAND記憶體&lt;/a&gt;，更早之前也已&lt;a href=&quot;https://www.ithome.com.tw/news/113265&quot; target=&quot;_blank&quot;&gt;將防毒軟體業務McAfee獨立分割出去&lt;/a&gt;。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Aug 2021 04:33:15 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146252 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146252#comments</comments>
+</item>
+<item>
+ <title>Salesforce公布首批整合Slack的服務</title>
+ <link>https://www.ithome.com.tw/news/146251</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在7月&lt;a href=&quot;https://www.ithome.com.tw/news/145805&quot; target=&quot;_blank&quot;&gt;完成收購線上協同平臺Slack&lt;/a&gt;後，CRM大廠&lt;a href=&quot;https://www.salesforce.com/news/press-releases/2021/08/17/slack-supercharges-salesforce-customer-360-for-sales-service-marketing-and-analytics/&quot; target=&quot;_blank&quot;&gt;Salesforce.com本周宣布雙方產品整合的首批成果&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;兩公司整合將支援企業未來的混合式工作模式，以建立「數位總部」（digital HQ），最終願景是以Slack作為企業使用Salesforce及其他商務應用、系統的單一整合前端介面，作為協同、內部溝通、工作流程，涵括行銷、業務、服務等所有活動，並以Slack Connect作為和外部合作夥伴、廠商及客戶的聯繫工具。公布的初步整合功能，是打造在Salesforce單一CRM資料源基礎上，建立Slack為優先（Slack-First）的Customer 360的一環。&lt;/p&gt;
+&lt;p&gt;首批整合成果是和業務、服務、行銷及分析相關的Slack新服務功能。業務面功能包括允許業務團隊在Slack針對特定客戶或訂單協同或檔案交換的數位交易室、以及提供業務人員自訂簡報的自動化每日簡報服務。服務面新功能首先是提供服務部門針對複雜、重要客戶協同的Slack頻道，另一功能為專家配對功能，可依據案件自動辨識相關專家加入該Slack頻道。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0818-slack%20Digital%20deal%20rooms.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Salesforce&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;在行銷方面，一項AI服務可從Salesforce行銷雲或資料庫分析出行銷活動不足的客戶或業務，而工作流程通知服務則供行銷部門以Slack管理行銷活動。最後在分析功能方面，自動通知服務可在Tableau資料來到特定閥值時向Slack傳送通知，像是sales pipeline低於一定值時。觀察清單摘要（watchlist）可設定特定量測值或趨勢的每日更新，而訂閱服務則自動將儀表板（dashboard）更新數字發布到各部門的Slack頻道。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://www.salesforce.com/news/wp-content/uploads/sites/3/2021/08/Slack-First-Marketing-Datorama-and-Marketing-Cloud-Journeys.png?resize=2048,1208&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://www.salesforce.com/news/wp-content/uploads/sites/3/2021/08/Slack-First-Analytics-Tableau-on-mobile-device-in-Slack-channel.png?resize=473,1024&quot; style=&quot;width: 231px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;圖片來源_Salesforce&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;同時使用Salesforce和Slack的客戶，除了IBM外還包括智慧音響廠商Sonos。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Aug 2021 04:18:46 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146251 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146251#comments</comments>
+</item>
+<item>
+ <title>誠品等書店型電商屢列網購高風險平臺，今年8月上半另有多達35個愛心協會捐款資料外洩，上百捐款人報案遭騙</title>
+ <link>https://www.ithome.com.tw/news/146250</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;近日誠品網路書店客戶個資外洩問題再度浮上檯面，根據東森電視臺的報導，誠品網路書店在短短五天內，就有上百會員被騙千萬元，各大媒體也跟進引用內容，但相關報導內容存在著爭議，我們洽詢警方想確認此事真實性，他們表示，被騙千萬應是長期累計金額。但無論如何這類事件相當嚴重，也突顯了臺灣電商平臺的資料外洩問題。&lt;/p&gt;
+&lt;p&gt;事實上，根據165反詐騙每週公布解除分期付款的民眾通報高風險賣場名單，誠品網路書店在今年4、5月間，就曾經出現詐騙高峰期，當時許多網友或受害者指出，假冒誠品的客服人員清楚說明他的訂單內容、日期、金額與住址等資訊，有些民眾更是因此而誤信對方而上當，導致遭受ATM解除分期詐騙。對此，我們也聯繫誠品，了解4月就傳出的客戶個資外洩問題，是否發布相關資安事件公告，但他們不願多談。&lt;/p&gt;
+&lt;p&gt;在8月初第一週，誠品網路書局再度被165公布為最嚴重的電商平臺，這也意味著，近期可能還會有一波假冒誠品客服人員的ATM解除分期詐騙，需要當心。而在8月17日中午，Whoscall與165全民防騙的臉書粉絲專頁上，也發布宣導貼文，他們表示，偽冒誠品電話的數量飆升，提醒民眾注意。基本上，最要的還是要知道，應自行搜尋正確客服電話並去電確認，以及ATM操作沒有解除分期的功能。&lt;/p&gt;
+&lt;p&gt;但更要注意的是，今年不只是誠品網路書店資料外洩情況嚴重，金石堂網路書店、Booking.com、HITO本舖，以及小三美日等，同樣面臨客戶資料外洩問題。特別的是，今年8月還有新的網路攻擊趨勢，有多個慈善愛心協會，同時遭遇客戶資料外洩問題。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/_誠品個資外洩_圖片來源擷取自Whoscall臉書.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/_%E8%AA%A0%E5%93%81%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%93%B7%E5%8F%96%E8%87%AAWhoscall%E8%87%89%E6%9B%B8.jpg&quot; style=&quot;width: 225px;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://s4.itho.me/sites/default/files/images/2021-08-17_140730_誠品個資外洩_圖片來源擷取自Whoscall臉書(1).jpg.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-17_140730_%E8%AA%A0%E5%93%81%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%93%B7%E5%8F%96%E8%87%AAWhoscall%E8%87%89%E6%9B%B8(1).jpg.jpg&quot; style=&quot;width: 365px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;在8月17日中午，Whoscall臉書粉絲專頁指出近期偽冒誠品電話飆升，提醒民眾要注意詐騙號碼特徵。&lt;/p&gt;
+&lt;p&gt;另外值得注意的是，過去詐騙集團也曾結合二類電信讓來電號碼的顯示，可以與真實號碼一模一樣，因此民眾應要有相關認知，最好的方式，應自行搜尋正確客服電話再三確認並去電聯繫，以及要知道ATM操作沒有解除分期的功能，就不會被解除分期詐騙話術所騙。（圖片來源：擷取自Whoscall臉書貼文）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;第二季誠品網路書店以310件最嚴重，金石堂175件次之&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;在2021年上半，臺灣有那些電商平臺遭遇客戶資料外洩問題？我們聯繫刑事警察局股長洪國倫，他表示，近年165反詐騙每季公布相關統計數據，警方在接獲大量民眾通報後，由於對方都掌握了客戶個資與訂單明細等資訊，因此也針對這些疑似個資外洩電商，進行相關反詐騙宣導。&lt;/p&gt;
+&lt;p&gt;從今年上半的概況來看，刑事局受理「解除分期付款詐騙（ATM）」案件，多達1,675件，較去年同期增加255件。&lt;/p&gt;
+&lt;p&gt;以第一季而言，民眾通報5大高風險賣場，分別是HITO本舖（121件）、GOMAJI（107件）、Booking.com（102件）、DR情趣（95件），以及Check2Check（94件）。&lt;/p&gt;
+&lt;p&gt;第二季民眾通報5大高風險賣場，分別是誠品網路書店（310件）、金石堂網路書店（175件）、萬年東海模型（147件）、婕洛妮絲計（144件）與 Booking.com（119件）。&lt;/p&gt;
+&lt;p&gt;綜合來看，以網路書店類型電商平臺的通報量最大，像是：誠品網路書店、金石堂網路書店，都相當嚴重，至於前三年連續列為年度5大高風險賣場的讀冊生活，在該公司董事長去年表明要強化資安後，今年顯然好轉。&lt;/p&gt;
+&lt;p&gt;洪國倫表示，Booking.com的客戶資料外洩問題去年同樣備受關注，後續該業者雖然換過資訊服務商，但今年又連續兩季入榜。&lt;/p&gt;
+&lt;p&gt;此外，HITO本舖、小三美日、GOMAJI也是近年榜上常客，而萬年東海模型、婕洛妮絲計同樣值得注意，今年新入榜，且通報量不小。因此，其會員也應關注這些業者的資料外洩情形。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E4%B8%BB%E5%9C%96%EF%BC%89%E8%AA%A0%E5%93%81%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9_960x420.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/zhu_tu_xing_shi_jing_cha_ju_2019_2020nian_du_gao_feng_xian_mai_chang_S.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;假冒電商詐騙橫行多年，根據刑事警察局統計，我們可以發現，&lt;a href=&quot;https://www.ithome.com.tw/news/142240&quot;&gt;在2019年與2020年，小三美日與讀冊生活就曾連續兩年名列年度5大高風險網購平臺&lt;/a&gt;，而國內大型網購業者在2020年也首次列入年度高風險賣場。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;愛心捐款協會也被詐騙集團鎖定，捐款人資料遭竊&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;另一值得關注的攻擊與詐騙趨勢，警方提醒，現在詐騙集團除了針對電商平臺的客戶資料庫攻擊，也會鎖定愛心捐款組織。&lt;/p&gt;
+&lt;p&gt;洪國倫表示，在7月底、8月初，他們接獲了多起民眾通報，都是對方掌握被害人姓名、電話、捐款金額等資料的詐騙案件，通報對象包括台灣樂作創益協會、中華育幼機構兒童關懷協會、弘化同心共濟會、臺灣防盲基金會、中華民國兒童癌症基金會，以及愛盲基金會等，到了8月中旬，已經多達35家這類的愛心慈善協會發生個資外洩，總計接獲超過120件民眾報案，財損超過1600萬元。&lt;/p&gt;
+&lt;p&gt;後續詐騙手法則如出一轍，大多利用ATM解除分期詐騙取財，只不過詐騙話術略有差異。對方以工作人員操作錯誤，導致網路匯款變成分期付款或定期扣款等名義，打電話給捐款民眾，再謊稱至ATM輸入解除錯誤密碼，但實為詐騙方受款帳戶，混淆民眾。導致這些報案民眾，總財損金額約200多萬元。&lt;/p&gt;
+&lt;p&gt;這起事件另一特殊之處，是這些協會都委託同一資訊系統服務商。洪國倫表示，用戶遭入侵的管道有很多種，他舉例，包括對方透過撞庫攻擊取得系統存取權限，以及偽裝客訴信寄送釣魚文件，一旦客服人員點擊暗藏木馬的該文件或連結，之後駭客就能一步步取得受害公司員工的存取權限，竊取客戶個資，再將這些客戶個資往外傳送。&lt;/p&gt;
+&lt;p&gt;關於上述事件的目前調查進度，刑事局研發科還在與系統商釐清相關資訊，以及進行相關資安檢測。另外，洪國倫指出，誠品網路書店與這些慈善協會並非使用同一系統資訊商，屬不同事件。&lt;/p&gt;
+&lt;h2 class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#0099ff;&quot;&gt;&lt;strong&gt;配合警方發布反詐騙警語，業者本身確無客戶個資外洩公告？&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;為了避免民眾遭受後續的詐騙，警方在接獲通報當下，都會通知業者，需在官方網站進行反詐騙警語，並以電子郵件或簡訊通知會員，並提醒平臺強化資安防護，但這些事件為何持續出現？因為有很多問題一直沒有解決。&lt;/p&gt;
+&lt;p&gt;除了業者要強化資安，他們也應該重視資安事件公告的發布，讓民眾知道事件調查、影響範圍，以及受影響者該如何因應。&lt;/p&gt;
+&lt;p&gt;然而，有許多受害電商平臺只發布防詐騙警語，卻未正式發布客戶資料外洩公告。儘管有些民眾看到警示，可能就猜得到該業者可能有客戶資料外洩狀況，但這樣隱晦、間接的資安事件發布方式，是否合理？政府該如何採取對策？&lt;/p&gt;
+&lt;p&gt;畢竟，業者只發布防詐騙警示，不一定代表他們真的受害，有可能只是配合政府政策。像是今年過年前夕，出現大規模假冒銀行釣魚簡訊詐騙，由於接連有銀行遇害，因此警方也呼籲各家銀行先發布警示，因此，對於其他銀行而言，傳達這些資訊並非表示自身已遭假冒，而是先行提醒。&lt;/p&gt;
+&lt;p&gt;而從法規面向來看，關於個人資料法的求償，之前我們曾報導過2017年&lt;a href=&quot;https://www.ithome.com.tw/news/133473&quot;&gt;EZ訂個資外洩客戶遭騙判決出爐，最終是業者應付起7成部分責任&lt;/a&gt;，但多數民眾可能往往不知道這可以提告。同時，民眾對業者提出集體訴訟的狀況不興盛，也是導致業者消極、被動應對的原因，過去曾有成功獲得賠償的案例，例如，關於&lt;a href=&quot;https://www.consumers.org.tw/product-detail-2519883.html&quot;&gt;雄獅旅行社資料外洩事件，受害者提出集體訴訟，一審雖然敗訴，但到了二審後，2020年7月終於進行調解並獲得賠償金&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/960x420zhu_tu_bezding_ge_zi_wai_xie_ke_hu_zao_pian_pan_jue_chu_lu_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%93%B7%E5%8F%96%E8%87%AA%E5%8F%B8%E6%B3%95%E9%99%A2%E6%B3%95%E5%AD%B8%E8%B3%87%E6%96%99%E6%AA%A2%E7%B4%A2%E7%B3%BB%E7%B5%B1.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/133473&quot;&gt;在2019年9月，有民眾提告EZ訂個資外洩的二審判決出爐&lt;/a&gt;，判決報告中說明業者也應付起7成部分責任。&lt;span style=&quot;font-family: Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-style: italic;&quot;&gt;(圖片來源:擷取自司法院法學資料檢索系統)&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E9%9B%84%E7%8D%85%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9%E5%9C%98%E9%AB%94%E8%A8%B4%E8%A8%9F%E9%80%B2%E5%BA%A6%E8%A1%A8(%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%B6%88%E5%9F%BA%E6%9C%83).jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;在2020年7月，&lt;span style=&quot;font-family: Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-style: italic;&quot;&gt;消費者文教基金會針對雄獅旅行社客戶資料外洩提起個資受害者團體訴訟案有了結果，該訴訟案最終於台灣高等法院民事庭成立調解，消費者也獲得賠償金。&lt;/span&gt;(圖片來源:擷取自消費者文教基金會網站)&lt;/p&gt;
+&lt;/blockquote&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Aug 2021 03:46:07 +0000</pubDate>
+ <dc:creator>羅正漢</dc:creator>
+ <guid isPermaLink="false">146250 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146250#comments</comments>
+</item>
+<item>
+ <title>打造臺灣資安前瞻研究與人才培育重鎮，資安卓越中心現正招募百位技術與研究人才</title>
+ <link>https://www.ithome.com.tw/news/146249</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;關於臺灣政府推動資安的發展現況，在8月5日舉行的全國資訊安全會議的一場演講中，透露最新進度。行政院副執行秘書李育杰指出，&lt;a href=&quot;https://www.ithome.com.tw/news/142509&quot;&gt;今年初定案將設立的資安卓越中心（Cyber Security Center of Excellence（CCoE）&lt;/a&gt;，現在已經進入籌備階段，預計明年2022年初就會正式成立，現在他們正要大量招募國內大量頂尖人才加入。&lt;/p&gt;
+&lt;p&gt;屆時，這個國家級的資安卓越中心，不僅是要增進資安前瞻研究的能量，並要解決組織資安人力不足的問題，做到長期培訓產業所需資安人才。&lt;/p&gt;
+&lt;p&gt;李育杰表示，在目前的規畫中，預計明年新成立的數位發展部之下，將設有資安行政法人性質的國家資通安全研究院，旗下則籌畫兩個中心，分別是納入之前就有的行政院國家資通安全會報技術服務中心，以及正在新籌備的資安卓越中心。&lt;/p&gt;
+&lt;p&gt;目前，資安卓越中心正將招募逾百位技術與研究人員。李育杰表示，招募人員的計畫已經啟動，涵蓋工程師、程式設計師與研究人員，且南北兩地都會設有據點，其中南部將設於臺南沙崙智慧綠能科學城，位於資安暨智慧科技研發大樓。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;推動資安前瞻研究建立三大研究主軸實驗室&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;對於資安卓越中心的未來發展，李育杰談到具體的規畫。他指出，將設有前瞻相關研究的實驗室，目前共畫分三大主軸，包括：網路威脅防禦實驗室，網路數據分析實驗室，以及先進密碼實驗室。&lt;/p&gt;
+&lt;p&gt;具體而言，這些單位將負責那些工作？以網路威脅防禦實驗室為例，政府希望建立完善的基礎建設，從各種來源蒐集漏洞、病毒、蠕蟲與木馬等網路威脅，打造即時資料庫與搜尋引擎，另外，他們也將針對國內常用系統進行漏洞挖掘，同時開發偵測與防護工具。&lt;/p&gt;
+&lt;p&gt;而在網路數據分析實驗室的部分，目標是希望發展針對基於行為、網路流量異常的新型態的數位鑑識技術，主要研究內容，是針對現今社交工程的威脅，以及社群媒體上假新聞、假粉絲專頁等這類流量異常的問題，還有像是深度假造（Deepfake）等議題。&lt;/p&gt;
+&lt;p&gt;在先進密碼實驗室方面，主要聚焦於國內後量子密碼學（PQC）的研究能量，希望透過實驗室開發出相關工具包，以及希望探索日後後量子密碼的導入與部屬，以及相關旁通道的分析研究，甚至結合臺灣晶片製造能量開發相關安全晶片。&lt;/p&gt;
+&lt;p&gt;此外，由於資安涵蓋的領域相當廣泛，資安卓越中心勢必無法包含所有研究，因此除了中心本身推動各種技術的發展，也將與分布在國內7所大學的TWISC資通安全研究與教學中心的子中心合作；而在國際方面，資安卓越中心也期望成為未來臺灣資安研究與國際合作的聯繫窗口。&lt;/p&gt;
+&lt;p&gt;政府積極推動國內資安的另一個重點，在於資安人才培訓。過去雖然持續進行，但發展規模一直無法跟上大家的期望，例如，面對資通安全管理法所要求的公務機關專責人力，一直有很大的缺口。現在政府希望從多方面著手，除了應要建構產業生態，能培訓組織所需資安人才，資安卓越中心旗下將設有資安培訓所，目標包括培育資安研發人才，建立政府資安班、國際學員班，工控資安人才也在其中，並希望充分與國內民間資安社群HITCON等合作，以培訓菁英國手。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;促進國內資安環境，打造實體中心成關鍵&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;同樣都是資安卓越中心，令人好奇的是，臺灣的CCoE與美國NIST旗下NCCoE有何不同？對此，李育杰於會後表示，兩者有點類似，不過現階段臺灣的CCoE主要專注在三大面向，包括：資安的前瞻研究，人才培育與國際合作。&lt;/p&gt;
+&lt;p&gt;他指出，過去政府在推動相關資安政策時，多是基於計畫性質，但這會有許多常設性問題一直發生，因此，在2018年開始，他們就開始討論要成立實體中心，不過，當時先設立了虛擬的資安學院（算是資安卓越中心的前身），直到2021年前瞻計畫預算編列後，資安卓越中心正式開始籌辦，終於能實現成立實體中心。&lt;/p&gt;
+&lt;p&gt;李育杰指出，政府期望資安卓越中心所扮演的角色，可以作為技服中心的支援與後盾，而這兩個單位的性質不同，也將扮演不同角色，例如，技服中心負責緊急因應與處理，資安卓越中心則負責後續的研究調查。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/2021-08-05_102045.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-05_102045.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;行政院資安處推動的《臺灣資安卓越深耕計畫－資安卓越中心計畫》，將聚焦於銜命國家安全的前瞻資安研究，以及國內資安人才培訓，而資安卓越中心這樣的實體中心設立後，相較於之前虛擬的資安學院，將可有固定運作經費來永續推動。而在前瞻研究方面，行政院副執行秘書李育杰揭露最新動向，包括三大實驗室，包括：網路威脅防禦、網路數據分析與先進密碼的研究主軸。&lt;/p&gt;
+&lt;/blockquote&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Aug 2021 02:34:57 +0000</pubDate>
+ <dc:creator>羅正漢</dc:creator>
+ <guid isPermaLink="false">146249 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146249#comments</comments>
+</item>
+<item>
+ <title>【玉山AI實例3】自建反洗錢黑名單偵測模型，快速揪出問題</title>
+ <link>https://www.ithome.com.tw/news/146201</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;反洗錢（AML）一直是整個金融業兢兢業業、嚴陣以待的議題，他們拼命抓漏，也不願放過任何風險。對玉山銀行來說，更是如此。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;用NLP快速分類、揪出特定名詞，加速負面新聞分類&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;反洗錢機制如此重要，玉山銀行靠AI模型和三大步驟，來簡化傳統耗時耗力的AML負面新聞蒐集工作。他們設計一套新AML黑名單偵測流程，以自然語言處理（NLP）技術來加速負面新聞辨識；新流程拆解了玉山舊有的人工閱讀和辨識作業，可分為負面新聞分類、事件聚合分析、黑名單資訊擷取三大步驟。首先，團隊先用人工標註的新聞資料，來微調NLP經典預訓練模型BERT，建立二元分類器、分辨負面新聞。再來，第二步進入事件聚合分析階段，將相似的新聞文章歸為同類。此處會由預訓練模型產出文章語意向量，再將語意相似的文章向量，歸為相同事件。&lt;/p&gt;
+&lt;p&gt;最後進入黑名單資訊擷取階段，利用人工標註的文章黑名單出現位置、外部訓練資料和BERT模型，打造一套人名辨識（NER）模型、罪名QA模型和地名擷取模型，來產出黑名單預測結果。&lt;/p&gt;
+&lt;p&gt;這些資訊，最終會呈現在前端介面，包括新聞文本、涉案人名、罪名和犯案地等，同仁可直接編輯、驗證，省下原本要手動查詢大量新聞、將文章複製貼上的時間成本。&lt;/p&gt;
+&lt;p&gt;而且，新流程在閱讀上也大有幫助。因為，傳統方法需要人工閱讀所有與特定人物相關的新聞，一個人可能就有上百篇，但NLP模型可直接分類文章、挑出有問題的幾篇新聞，再由人工精讀即可。未來，玉山銀行還要讓這套AML黑名單偵測模型學會更多技能，比如能進一步回答人與時間、地點和金額的對應關係，變得更聰明。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146201 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146201#comments</comments>
+</item>
+<item>
+ <title>【玉山AI實例2】一年千萬張支票如何消化？玉山銀行靠票據辨識來加速</title>
+ <link>https://www.ithome.com.tw/news/146200</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;玉山銀行一年要發出上千萬張支票，為正確登記票據金額，往往得動用大量人力登打資料。&lt;/p&gt;
+&lt;p&gt;從流程上來說，每張支票或匯款單進入分行後，分行會開始審核、簡單建檔以及掃描影像，再由集中作業部人工建立完整檔案、確認資料，最後才交給票據交換所。&lt;/p&gt;
+&lt;p&gt;而玉山銀行的最大痛點，就在集中作業部。因為，他們得耗費大量人力和工時來登打資料，每到月初月底，還得調度人力應付大量業務。這種調度仰賴經驗，沒有系統能即時監控、輔助決策；也因為沒有系統，支援紀錄不被留存，考核時更難有依據依循。&lt;/p&gt;
+&lt;p&gt;為解決問題，玉山銀行展開一項AI專案，要打造一套票據手寫辨識模型，來輔助人員登打資料。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;收集各種資料，要讓模型辨識國字、數字和不同字體&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;這套模型的任務，是要辨識票據上的日期、新臺幣大寫金額，以及阿拉伯數字金額。但對開發這套模型的智能金融處來說，還有個挑戰，也就是不同字體的辨識。&lt;/p&gt;
+&lt;p&gt;舉例來說，票據上的日期有可能是手寫或印刷體，也有可能是機器打印。為了讓模型學會辨識多元字體，玉山銀行收集了大量票據資料來訓練。&lt;/p&gt;
+&lt;p&gt;模型訓練完畢後，就部署到內部MLaaS平臺上，讓業務系統透過API呼叫模型辨識。在辨識流程上，前端票據作業系統收到票據掃描檔後，會呼叫MLaaS平臺的票據辨識模型，來判斷票據資訊。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;設計專屬Feedback API即時教模型，每天解放4、5名人力&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;這時，票據辨識模型會先告知系統，是否能正確辨識票據金額和日期。若能辨識，就會進入後續自動化流程，要是無法，則由前端票據作業系統觸發人工處理通知。&lt;/p&gt;
+&lt;p&gt;這麼做的好處是，團隊可以即時回饋資料，用人工辨識的資料來重新訓練模型、提高辨識準確度。為加強這一點，玉山還設計一支Feedback API，能從前端票據作業系統傳遞交易ID和基準值（Ground Truth）數值，來觸發後端系統，重新訓練模型。&lt;/p&gt;
+&lt;p&gt;玉山透露，現在約9成票據不再由人工辨識，相當於每天解放4、5名人力，來從事更有價值的工作。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146200 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146200#comments</comments>
+</item>
+<item>
+ <title>【玉山AI實例1】0.1秒揪出信用卡盜刷行為，一年擋下上億元損失</title>
+ <link>https://www.ithome.com.tw/news/146199</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;不只有數百萬張信用卡在市面流通，玉山銀行每天還得處理數十萬次的刷卡交易。如何從這些交易中揪出異常行為、即時攔截，是玉山一直面對的難題。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;&lt;strong&gt;規則式系統仰賴人工調整，趕不上盜用行為變化&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;過去，玉山銀行仰賴一套傳統規則式系統，靠其中的上百條固定規則，來偵測信用卡交易異常行為。&lt;/p&gt;
+&lt;p&gt;但玉山金控科技長張智星指出，這種規則式系統，每月需要人工調整一次規則和參數，不僅難以捕捉快速變化的盜冒行為，還會產出大量異常名單，得耗費大量人力一一打電話確認。&lt;/p&gt;
+&lt;p&gt;為改善這個問題，玉山發起一項AI專案，要用刷卡歷史資料，訓練一套信用卡盜刷偵測模型，來判斷盜刷風險。他們想藉此減輕銀行人力負荷、提高辨識準確度。&lt;/p&gt;
+&lt;p&gt;&lt;strong style=&quot;font-size: 28px;&quot;&gt;0.1秒揪出異常、年省上億元損失&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;首先，他們透過探索式資料分析，產生了將近400種因子的模型資料庫，再使用整合式決策樹演算法，來提高模型的泛化程度和預測能力。&lt;/p&gt;
+&lt;p&gt;經反覆測試、確認模型穩定後，他們將演算法程式打包，部署至機器學習即服務（MLaaS）平臺上，來讓業務系統以API呼叫模型。&lt;/p&gt;
+&lt;p&gt;在使用流程上，可分為兩部分，一部分是批次資料處理，先將原始資料加密、寫入專屬資料庫，再送至特徵工程主機，進行特徵工程處理。另一部分是即時資料處理。每當信用卡處系統接收一筆交易時，就會呼叫MLaaS平臺的盜刷偵測模型API，上傳這筆交易相關參數、讓模型判斷盜刷風險。&lt;/p&gt;
+&lt;p&gt;進一步來說，每次執行AI推論時，會先從特徵資料庫中索取特徵資料，提供給模型，用來計算風險。之後再將這筆交易的盜刷機率數值，回傳給前端信用卡處系統，讓前端系統決定交易是否終止。此外，前端系統也會依據風險程度，來啟動相對應措施，比如電話通知、簡訊通知等。&lt;/p&gt;
+&lt;p&gt;這套信用卡盜刷偵測模型在2019年正式上線，當時可在1秒內回傳推論預測結果。但玉山並未停步，他們幾經改良，最後讓模型在0.1秒內，就能回傳盜刷風險。玉山統計，這套模型在2020年替玉山阻擋了上億元的損失。&lt;/p&gt;
+&lt;div id=&quot;gtx-trans&quot; style=&quot;position: absolute; left: 695px; top: 356px;&quot;&gt;
+&lt;div class=&quot;gtx-trans-icon&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146199 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146199#comments</comments>
+</item>
+<item>
+ <title>【靠AI化被動為主動，打造無人化、零接觸金融服務】玉山未來3年3大AI願景</title>
+ <link>https://www.ithome.com.tw/news/146197</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;談起未來3年的AI發展願景，玉山金控科技長張智星先是拋出這一句：「金融未來的服務對象，是數位原住民。」&lt;/p&gt;
+&lt;p&gt;這群人，一出生就會使用智慧型手機、平板，對金融服務的想像更是動動手指就能線上完成。為此，玉山把未來3年的AI目標，設定為「無人化、零接觸的金融服務。」今年爆發的疫情，正加速玉山實現這個目標&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;第一步：全面使用Chatbot，抓住顧客意圖&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E3%80%90%E4%BD%8D%E7%BD%AE%EF%BC%9A2017%E5%B9%B44%E6%9C%88%E3%80%91%E6%94%9D%E5%BD%B1%EF%BC%8F%E6%B4%AA%E6%94%BF%E5%81%89%5B1%5D.jpg&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;攝影／洪政偉&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;張智星將零接觸金融服務分為三大步，第一步是要全面使用聊天機器人（Chatbot）。他解釋，這些機器人以文字為主，得根據不同業務場景一一打造，除了要具備特定領域知識外，還要能「了解客戶意圖（Intention）。」這正是玉山積極規畫的領域。&lt;/p&gt;
+&lt;p&gt;實現這一點的關鍵，就是自然語言處理（NLP）技術。玉山早在過去幾年，就已累積不少NLP開發經驗，他們先是在2017年開發玉山小i隨身金融顧問，能一次回答房貸評估、外匯諮詢和信用卡推薦3大問題。&lt;/p&gt;
+&lt;p&gt;為打造玉山小i，他們當時組成了40人團隊來發想Chatbot應用場景，再找來IBM，採其Watson Conversation服務，聯手建立Chatbot分析語意所需的意圖（Intent）、實體概念（Entity）和對話流程，再進行各種玉山小i的測試。&lt;/p&gt;
+&lt;p&gt;玉山小i問世後，玉山更進一步投入NLP技術研究，直接找上臺大自然語言處理實驗室，來鎖定使用者意圖分析與偵測技術，要從使用者在各種公開網路平臺上的異質源資料，來探索、拼湊出完整的使用者資訊，建立更好的預測模型。雖然那次研究的目的是精準行銷，但玉山也培養了NLP能力。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;第二步：大量分析語音客服，不只做數位導流還要調整服務&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;接下來，實現零接觸金融的第二步，是要透過語音客服分析，來進行數位導流。它的意思是，透過NLP模型分析客服電話對話、找出顧客問題，再自動發送相關資訊給顧客。&lt;/p&gt;
+&lt;p&gt;以玉山近來推出的數位導流系統平臺為例，這套平臺在客服通話結束後，會先以NLP模型分析通話語音檔案、判斷顧客問題，比如帳單金額查詢、信用卡額度查詢等，再發送簡訊給顧客，附上相關服務的連結和使用教學供參考。&lt;/p&gt;
+&lt;p&gt;這就是玉山正在發展的，以NLP技術驅動的全自動數位導流。他們要透過這個方式即時解決客戶問題，不需人工介入也能做到。&lt;/p&gt;
+&lt;p&gt;不只導流，張智星補充，語音分析還能對客服通話進行品質檢驗。比如，透過語音辨識技術將客服電話對話轉為逐字稿，再從中了解客戶問題、調整服務，「假設多數客戶來電詢問三倍券或紓困專案，就表示玉山的網頁說明還不夠清楚，」團隊能依此進一步調整網頁說明。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;第三步：打造24小時全智能語音Chatbot&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;實現零接觸金融的第三步，是要打造24小時不停歇的全智能對話客服系統，來提供真人般的客服語音服務。&lt;/p&gt;
+&lt;p&gt;這背後的思維是「用科技減少勞力需求。」張智星指出，玉山每天有上萬通客服電話要處理，人力支出極大。要是顧客撥打客服專線時，通話前半段至少由機器人回答，就能減少客服人力需求。他認為，這個方法再加上文字Chatbot，就能提供24小時的顧客服務。&lt;/p&gt;
+&lt;p&gt;為做到這一點，玉山近來也發展相關服務來練兵。比如今年3月，他們發表一項OTP語音服務，以自行開發的語音自動外撥系統，來告知使用者一次性密碼，取代傳統簡訊方法。&lt;/p&gt;
+&lt;p&gt;這項服務瞄準首次綁定行動裝置的顧客，在操作過程中，系統會自動撥打顧客設定的手機號碼，以電話語音提供一次性密碼。同樣地，首次申請網銀或忘記密碼時，顧客也能選擇語音OTP或透過晶片金融卡，來得到一次性密碼。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3800000000000001;margin-top:12pt;margin-bottom:12pt;&quot;&gt;玉山自建這套語音引擎，不僅能穩定提供服務，還能根據業務需求擴展服務範圍。這一點，正是玉山邁向全智能語音Chatbot的關鍵能力。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;化被動為主動，在顧客問問題前就先解答&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;玉山將客服AI視為未來3年關鍵應用，背後還有一個原因，也就是化被動為主動。「主動接近顧客、提供有用的資訊，而不是等顧客來問問題，我們才回答，」張智星說。&lt;/p&gt;
+&lt;p&gt;早在10多年前，玉山就已意識到主動出擊的重要性。那時，玉山大數據分析團隊已開始琢磨精準行銷，他們不只分析內部顧客資料，更結合高度複雜、顆粒度粗大的外部社群平臺資料，來更精細地分群顧客、推薦商品。&lt;/p&gt;
+&lt;p&gt;此後數年，玉山不斷鑽研顧客意圖分析，更將這門課題列為產學研究的重要方向，要主動發掘顧客喜好、推動精準行銷。&lt;/p&gt;
+&lt;p&gt;現在，他們進行的仍然是意圖辨識，但最終目的不是推薦商品，而是給予解答。&lt;/p&gt;
+&lt;p&gt;一如過往從不同平臺收集使用者資訊、拼湊出完整的使用者樣貌來推薦商品，為了解顧客的潛在問題、提供有用資訊，玉山先是盤點顧客接觸玉山的管道，如Email、電話、ATM提款機、實體分行等，因為，顧客很有可能在這些管道中，就已經表現出疑問的徵兆了。&lt;/p&gt;
+&lt;p&gt;玉山希望透過這個方式，整合出顧客的完整資訊，從中分析潛在問題，再從顧客熟悉的數位管道，來提供解答。這也是今年玉山AI的一大重要發展領域。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;發展零接觸金融，也別忘了數位身分認證&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;玉山未來3年的AI發展願景以NLP為核心，除了AI客服，還包括其他金融業務的自動審核，比如線上對保、立即辦卡，甚至是存匯、授信等，只要主管機關開放，玉山就會用技術力轉化為零接觸金融服務。&lt;/p&gt;
+&lt;p&gt;這種指來速的金融服務雖然方便，但「數位身分認證也很重要。」張智星指出，零接觸金融服務不得面對面完成業務，如何得知螢幕前的使用者就是顧客本人，就得靠辨識技術來確認。&lt;/p&gt;
+&lt;p&gt;比如人臉辨識、活體辨識、聲紋辨識、指紋辨識等，都是身分驗證手段。玉山對生物辨識技術的重視，在2018年就可看出。那年，他們推出刷臉ATM服務，以建檔留臉、更新刷臉和快速掃臉三個步驟，來讓使用者靠臉取款。在刷臉ATM服務的背後，其實藏著玉山精心規畫的四道安全機制，包括動態密碼、無卡交易密碼、活體偵測、超高速臉部辨識，來確保眼前的顧客就是本人。&lt;/p&gt;
+&lt;p&gt;現在，使用場景轉移到線上，玉山不只考慮生物辨識，還思考知識問答的可行性，多一條路來認證數位身分。如何將不同辨識技術結合到零接觸金融，正是玉山要攻克的課題。&lt;/p&gt;
+&lt;div id=&quot;gtx-trans&quot; style=&quot;position: absolute; left: 2px; top: 1290px;&quot;&gt;
+&lt;div class=&quot;gtx-trans-icon&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146197 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146197#comments</comments>
+</item>
+<item>
  <title>AWS推出最新x86架構的M6i通用目的EC2執行個體</title>
  <link>https://www.ithome.com.tw/news/146243</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS推出第6代x86架構的EC2執行個體&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/new-amazon-ec2-m6i-instances-powered-by-the-latest-generation-intel-xeon-scalable-processors/&quot;&gt;M6i&lt;/a&gt;，採用最新一代英特爾Xeon可擴充處理器，全核心渦輪加速頻率可達3.5 GHz，記憶體頻寬提升20％，Amazon EBS吞吐量可達40 Gbps，網路頻寬最高能配置50 Gbps，比起同類的第5代執行個體，整體性價比提高15％。&lt;/p&gt;
@@ -18,178 +245,6 @@
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="false">146243 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146243#comments</comments>
-</item>
-<item>
- <title>Visual Studio 2022更新前端開發體驗，加入新的JavaScript專案類別</title>
- <link>https://www.ithome.com.tw/news/146239</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟在Visual Studio 2022中加入新工具，&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/&quot;&gt;改善JavaScript和TypeScript的前端開發體驗&lt;/a&gt;，開發者將可以選擇新的JavaScript/TypeScript專案類別，獨立開發Angular、React和Vue專案，且簡單地將前端專案，與ASP.NET Core後端整合，並應用像是Test Explorer等現有的工具。&lt;/p&gt;
-&lt;p&gt;當前包含在Visual Studio中的Angular、React和Vue樣板通常不是最新的，而微軟為了解決這個問題，在Visual Studio 2022中使用每一個框架的原生CLI工具，來產生前端專案樣板，包括Angular CLI、Create React App和Vue CLI。&lt;/p&gt;
-&lt;p&gt;Visual Studio會探索並使用安裝在路徑中的CLI建構專案，因此當開發者電腦沒有安裝所選擇的CLI，則創建專案的對話視窗便會收到錯誤訊息。由於React和Vue皆支援TypeScript與JavaScript，因此開發者可以指定想要使用的語言，Visual Studio便會在CLI命令中添加適當的旗標。&lt;/p&gt;
-&lt;p&gt;微軟提到，不少開發者習慣把前端和後端專案分開，以便在不同的編輯器中開啟，而Visual Studio 2022現在也提供類似的配置，在同一個解決方案設置前端和後端專案，而JavaScript/TypeScript專案可以簡單地與ASP.NET Core Web API整合，並且選擇一起或是各自獨立運作、除錯和編輯。&lt;/p&gt;
-&lt;p&gt;創建JavaScript/TypeScript專案時，開發者可以啟用Test Explorer進行單元測試，微軟在React和Vue專案使用Jest，並在Angular專案使用Karma和Jasmine，在預設情況下，開發者可以執行每個框架所提供的預設測試，或是自己編寫各種測試。&lt;/p&gt;
-&lt;p&gt;不只在Visual Studio，用戶也能夠在VS Code中快速對JavaScript/TypeScript專案除錯，微軟在專案樣板提供了一個launch.json檔案，該文件可以使用於Visual Studio以及VS Code，以設定啟動配置，因此開發者可以在Visual Studio以及VS Code間就能無縫地開啟、編輯和除錯JavaScript/TypeScript專案。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 15:14:44 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146239 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146239#comments</comments>
-</item>
-<item>
- <title>Twitter指派加密貨幣開發者來主導分散式社交網路Bluesky</title>
- <link>https://www.ithome.com.tw/news/146245</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Twitter創辦人暨執行長Jack Dorsey在2019年12月，發表了&lt;a href=&quot;https://blueskyweb.org/&quot; target=&quot;_blank&quot;&gt;分散式社交網路專案Bluesky&lt;/a&gt;，但一直到本周，才指派加密貨幣開發者Jay Graber來主導該專案。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/jack/status/1204766095988576256&quot; target=&quot;_blank&quot;&gt;Dorsey認為&lt;/a&gt;，不管是網路或社交平台都應該是開放且透明的，不應該由單一的企業控制，因而發起Bluesky專案，企圖建立社交媒體的分散式標準。當初Bluesky專案包括架構師、工程師與設計師在內只有5名成員，且一直沒有負責人，&lt;a href=&quot;https://twitter.com/jack/status/1427315839666118662&quot; target=&quot;_blank&quot;&gt;直至本周&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Graber是一名軟體工程師，曾於區塊鏈商用服務公司Skuchain任職，後來加入Zcash加密貨幣團隊，有了Graber的助陣，可望加速Bluesky專案的進展。&lt;/p&gt;
-&lt;p&gt;Dorsey之前便曾說Bluesky並非一蹴可幾，可能需要多年的時間才能發展出一個建全、有彈性且可用的社交媒體分散式標準。而&lt;a href=&quot;https://twitter.com/arcalinea/status/1427314482154414080&quot; target=&quot;_blank&quot;&gt;Graber則表示&lt;/a&gt;，過去一年來她一直與分散式社交生態體系的社群密切合作，加入Bluesky的下一步就是招募更多的好手。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 15:08:27 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146245 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146245#comments</comments>
-</item>
-<item>
- <title>美國政府對特斯拉的自動駕駛輔助系統展開調查</title>
- <link>https://www.ithome.com.tw/news/146238</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國國家公路交通安全管理局（NHTSA）宣布，&lt;a href=&quot;https://siliconangle.com/2021/08/16/u-s-government-launches-investigation-teslas-autopilot-system/&quot; target=&quot;_blank&quot;&gt;對特斯拉的自動駕駛輔助系統（Autopilot）展開調查&lt;/a&gt;。NHTSA在官網列出了特斯拉車輛，從2018年至今的11起車禍，而2021年到現在，也已經發生4起車禍案件，最近的一起是在7月10日的加州聖地牙哥。&lt;/p&gt;
-&lt;p&gt;特斯拉的Autopilot是一種進階自動駕駛輔助系統，能夠自動以定速行駛，並且維持車輛在車道中間，NHTSA提到，即便是進階自動駕駛輔助系統啟動的狀態，駕駛員都必須對物體和事件的偵測和回應負主要責任，像是在駕駛期間，就要注意道路中的障礙物以及鄰車的不良駕駛。&lt;/p&gt;
-&lt;p&gt;也就是說，在啟用Autopilot的同時，駕駛員仍必須把手一直放在方向盤上，而這使得Autopilot成為2級自動系統。自動駕駛系統分為5個等級，2級自動系統能夠自動執行部分任務，但是仍需要有駕駛員，並且持續監視車輛。&lt;/p&gt;
-&lt;p&gt;NHTSA提到，大多數特斯拉的事故都發生在天黑之後，而特斯拉車輛碰撞到的東西，包括反光箭頭號誌、路錐以及救護交通燈等現場控制號誌，所有發生事故的車輛，都確定在撞擊前啟用Autopilot或是交通感知巡航控制（Traffic Aware Cruise Control，TACC）系統。&lt;/p&gt;
-&lt;p&gt;目前NHTSA針對特斯拉的MODEL 3、S、X和Y型號的Autopilot系統展開調查，車輛出場年份從2014年到2021年，這項調查會評估Autopilot在啟動期間，所進行的監控、協助和強制駕駛員參與駕駛的技術和方法，並且了解車輛在自動駕駛模式下，對於物體和事件的偵測與回應狀況。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 14:51:34 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146238 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146238#comments</comments>
-</item>
-<item>
- <title>微軟政府最高機密雲Azure Government Top Secret正式上線</title>
- <link>https://www.ithome.com.tw/news/146244</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟&lt;a href=&quot;https://www.ithome.com.tw/news/141522&quot; target=&quot;_blank&quot;&gt;去年12月公布&lt;/a&gt;專門提供給政府儲存機密資訊的Azure Government Top Secret，&lt;a href=&quot;https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/&quot; target=&quot;_blank&quot;&gt;本周微軟宣布&lt;/a&gt;這項服務正式上線。&lt;/p&gt;
-&lt;p&gt;Azure Government Top Secret是微軟政府雲的一部份，後者另外還包括Azure Government，以及代管政府機密資料的Azure Government Secret。Azure Government Top Secret是由微軟和美國政府合作開發，連同安全等級較低的Azure Government Secret，滿足美國情報單位、國防部及聯邦政府要求的安全層級的雲端服務。&lt;/p&gt;
-&lt;p&gt;這項新服務旨在看準美國接連多起安全事件波及政府單位，促使拜登政府加碼聯邦政府資訊安全。&lt;/p&gt;
-&lt;p&gt;Azure Government Top Secret現階段包括60多項服務，包括Azure Kubernetes Service (AKS)、Azure Functions和Azure App Service、Azure Security Center及安全管理平臺 Azure Sentinel，日後還再推出新服務，而多區域也讓這項服務滿足本地、雲端及邊緣的資料儲存需求。&lt;/p&gt;
-&lt;p&gt;微軟也宣布Azure Government Top Secret獲得美國聯邦政府對資訊系統的ATO（Authorization to Operate）授權許可，也具備美國政府專門安全標準如ICD　503及ICD 705。&lt;/p&gt;
-&lt;p&gt;連同今天Azure Government Top Secret上線，微軟也宣布Azure Government Secret新增服務，使服務來到73項。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 14:46:30 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146244 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146244#comments</comments>
-</item>
-<item>
- <title>Adobe文件服務新推2大API，能自動擷取完整PDF結構輸出JSON檔方便整合Web，還能嵌入Word</title>
- <link>https://www.ithome.com.tw/news/146240</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p dir=&quot;ltr&quot;&gt;Adobe在文件服務（Adobe Document Services）中新增兩大API功能，分別是Adobe PDF Extract API與Adobe Document Generation API。前者能根據PDF內容的檔案結構，透過Adobe核心AI引擎Adobe Sensei擷取文字、表格資料、圖像等元素，並以JSON格式輸出；後者則可以將JSON格式資料，嵌入Microsoft Word文件內容中，來生成具動態資料的PDF檔案。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;Adobe文件服務提供了一套SDK和Restful API，可供開發者打造各項PDF文件的應用，比如客製化的端到端協議（Agreement）、內容發布、資料分析工作流等任務。這套服務SDK可以在AWS Marketplace下載。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;這次新增的兩大雲端API，一是Adobe PDF Extract API，透過AI分析PDF檔案的內文結構，從中提取包括文字、表格資料、圖像在內的所有PDF元素。文字擷取過程中，除了能依據內文格式辨識出標題、列表、註解等內容，還能理解文件中常見的跨欄、跨頁段落，依照閱讀順序擷取完整內容文字。這些從PDF檔中擷取的各種元素，例如文字、表格資料與圖片，可以輸出成網頁應用慣用的JSON格式，表格資料也可以選擇以CSV或XLSX來儲存，圖片則可選擇以PNG儲存，以便開發者可以輕易地儲存、分析與操作這些數據，並與其他的系統結合，比如資料庫、記錄系統（systems of record）、CRM、ERP等系統，或是用來開發NLP應用、RPA自動化流程、ML模型或進行數據分析等。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-17%20%E4%B8%8A%E5%8D%8811_30_28.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Adobe PDF Extract API的一大功能，就是能辨識出文件中的標題、段落、表格、粗體字等不同的內文編排，依據這些編排來擷取各類元素。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-17%20%E4%B8%8A%E5%8D%8811_35_07.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;擷取出內文、表格、影像等元素後，則會以JSON、PNG、CSV等檔案儲存，以利後續與其他系統結合應用。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-17%20%E4%B8%8A%E5%8D%8811_33_24.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;比如表格資料可以在直接擷取後，匯入其它系統進行資料分析與視覺化。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p dir=&quot;ltr&quot;&gt;另一項Adobe Document Generation API，則是能讓開發者將JSON格式資料，嵌入Microsoft Word文件內容，來生成具動態資料的Word和PDF檔案。開發者在使用時，須先在Word外掛Adobe文件生成標籤功能（Adobe Document Generation Tagger），並上傳JSON資料，由系統將自動依據JSON資料模型生成標籤，或是自行建立可重複使用的標籤，以便後續在Word中動態加入標籤、影像、列表，或基於輸入資料與條件生成的客製化表格。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;在文件中完成標籤與表格等元素的設定後，在生成PDF的過程中，系統將依據標籤將指定的JSON資料結合到文件，快速生成一份自定義的文件內容，而不需要手動輸入各類資料來建立一份文件。這項功能也已經與Adobe Sign整合，讓用戶可在文件中使用電子簽名。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;Adobe在官網上也提供了多種常用文件範本，用戶可直接下載使用，也可上傳自己的Word與JSON檔來操作。這項功能常用於協議文件與合約的建立，包括銷售提議及合約、法律合約、NDA保密協議、員工聘用信函、法律信函與聲明等文件類型。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-17%20%E4%B8%8B%E5%8D%882_55_55.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p dir=&quot;ltr&quot;&gt;Adobe Document Generation API，主要功能是將JSON格式資料，嵌入Microsoft Word文件內，來生成具動態資料的Word和PDF檔案。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-17%20%E4%B8%8B%E5%8D%884_30_20.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p dir=&quot;ltr&quot;&gt;Demo的左邊是JSON資料的上傳處，右邊黃色螢光筆是添加到文件中的標籤，不同標籤代表要加入的不同資料類型，比如是產品名稱、產品價錢等，設定完成後生成PDF，過程中，系統就會依據標籤將指定的JSON資料，結合到文件中。&lt;/p&gt;
-&lt;/blockquote&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 10:04:12 +0000</pubDate>
- <dc:creator>翁芊儒</dc:creator>
- <guid isPermaLink="false">146240 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146240#comments</comments>
-</item>
-<item>
- <title>【技術管理者成長系列2】商業如何驅動架構設計？成為架構師前要先懂的8件事</title>
- <link>https://www.ithome.com.tw/news/146160</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在臺灣不少技術管理者或技術主管，在公司內也擔任架構師的角色，但相較於國外，過去在臺灣少有架構師公開分享自身架構設計的實驗經驗，不過，近日在一場線上技術管理者論壇上，鼎恒科技應用產品設計中心協理林承毅，大方傳授多年來擔任架構師的工作經驗，不僅教導開發人員怎麼學習平衡開發與架構設計之間的工作，更分享他如何透過商業來驅動架構設計。&lt;/p&gt;
-&lt;p&gt;林承毅過去在博奕產業IT待了十多年，一手主導不少大型軟體架構設計，來因應各種大流量與高併發的應用場景，對於架構設計相當熟諳，後來進到鼎恒科技，更帶領其中一個產品研發中心團隊，負責應用產品設計與開發。&lt;/p&gt;
-&lt;h2&gt;第一件事：架構師和開發人員的本質不同&lt;/h2&gt;
-&lt;p&gt;許多人用蛻變升級來形容，資深開發人員成為架構師的過程，但林承毅認為，從開發人員到架構師，更像是一種轉職的過程，等於是個人職業生涯的大轉換。因為，取得架構師職位後，意謂著，開發人員有可能必須放棄習慣持續精進的技術能力，轉而提升視野，增加自己的技術廣度。他也以自身為例，擔任架構師幾年來，雖論開發技巧或開發能力，公司比他厲害的人不少，但他對於知識掌握更多，更廣，可以看到更多不同面向。「這是本質上，架構師和一般開發人員的差異。」&lt;/p&gt;
-&lt;h2&gt;第二件事：單有技術深度不夠，架構師還必須持續增加技術廣度  &lt;/h2&gt;
-&lt;p&gt;架構師需要建立自己的架構思維，主要有兩個面向，一個是技術深度，一個是技術廣度。&lt;/p&gt;
-&lt;p&gt;他也說，絕大多數的架構師，成為架構師前，通常是IT團隊裡最資深且技術最扎實的開發人員之一，這些人會對特定技術持續深入學習，一直不斷累積實戰經驗，增加自己的技術深度。然而，成為架構師後要面臨的問題，不僅僅是技術問題，還包括商業領域問題、安全問題、部署環境問題、公司組織文化問題，甚至還有預算考量和法規限制。&lt;/p&gt;
-&lt;p&gt;正因為時間有限，需要處理的問題實在太多，所以，架構師很難像以前一樣有足夠時間持續精進技術深度，只能在技術深度與技術廣度兩者之間，盡可能取得平衡。&lt;/p&gt;
-&lt;p&gt;為何架構師需要足夠的技術廣度？林承毅解釋，架構師必須要能看出不同解決方案的差異，甚至分析好壞，才能判斷出還有哪些類似問題可能影響原本的架構設計。而想具備這樣的判斷能力，重點不是對技術掌握多深，而是要有廣度，才能夠很快找出方案中潛藏的問題點。所以，持續增加技術廣度，對於架構師來說很重要。&lt;/p&gt;
-&lt;h2&gt;第三件事：學習平衡開發與架構設計之間的工作&lt;/h2&gt;
-&lt;p&gt;不光如此，團隊中的架構師，得學習平衡開發與架構設計之間的工作分配。通常在決定好架構設計後，多半會認為該由架構師負責核心與最底層的開發任務，聽起來沒有問題，因為架構師最了解自己的設計，但他指出，這樣的作法，衍出生另一個問題，當整體架構出問題，往往只靠架構師自己解決，其他人很難給予協助，這就帶來瓶頸。例如架構師離職了，就沒人懂這個架構，久而久之，原來好的架構設計，會變成團隊必須背負的技術債（或稱祖產），「當你架構沒辦法演化或進化，你的商業模式是很難再進化。」&lt;/p&gt;
-&lt;p&gt;對於團隊開發與架構設計，林承毅建議，較好的合作模式是，架構師先決定好框架和架構設計後，交由團隊其他成員來負責開發任務，讓架構師只需負責跟業務相關的開發任務，這樣的好處是，一來讓架構師有時間可以持續深化技術不至於與技術脫節，二來團隊成員也能對於架構設計有更多了解，知道開發核心樣貌。&lt;/p&gt;
-&lt;h2&gt;第四件事：架構設計過程深受關鍵需求的影響&lt;/h2&gt;
-&lt;p&gt;開始設計架構時，架構師會依據需求來做取捨，決定整體架構設計樣貌。確認需求有很多方法，林承毅也說，其中一個是可通過ADMEMS需求矩陣進行需求結構化，進而得到需求全貌。一般來說，這些關鍵需求大致可分為功能性需求、約束性需求與品質需求，這些需求都會影響到架構設計，而從需求提取出來的架構特性，可以幫助架構師有效控制需求複雜性，並降低架構設計失敗的風險，以及作為架構設計衝突時的取捨依據。&lt;/p&gt;
-&lt;h2&gt;第五件事：運用DDD方法論將技術架構與商業架構對齊&lt;/h2&gt;
-&lt;p&gt;正因為許多架構師，都是從開發人員、資深開發人員一路往上爬，林承毅有感而發的說：「成為架構師以後，免不了在設計架構時，容易只從技術角度來設計架構，以致於，最後要將商業模型放進架構時，才發現設計出問題，需要犧牲架構其他部分。」所以，他建議，架構師得拆解原本的技術架構，想辦法讓這個架構能夠與商業架構對齊。&lt;/p&gt;
-&lt;p&gt;要對齊商業架構，也有各種不同作法，他表示，其中一個作法就是可以採用近幾年因微服務盛行而竄紅的領域驅動設計（Domain Driven Design,DDD）方法論，透過這套方法論，能夠從業務相關的領域知識、對問題與解決方案進行切割，找出商業問題邊界、技術邊界、人員溝通一致性邊界，進而理解軟體架構需要解決哪些商業問題及其邊界範圍。他也提到，要讓技術架構能夠對齊商業架構，架構師可以透過DDD方法論中提及的Bounded Context與Subdomaion觀念，來定義問題與解法，建立一個通用語言讓團隊能夠彼此一致對話。&lt;/p&gt;
-&lt;p&gt;林承毅也說，當我們設計的技術架構跟商業架構能夠互相匹配，就能夠透過商業變化來驅動技術架構上的變化。當技術架構進化了，自然會帶動商業型態再一次改變。「這是業界明顯可以看到的現象。」&lt;/p&gt;
-&lt;h2&gt;第六件事：架構師必須經常取捨，才能達到持續改善的目標 &lt;/h2&gt;
-&lt;p&gt;林承毅表示，持續改善架構設計過程中，架構師會一直面臨取捨，甚至有時得放棄一開始認為不錯的架構優點，並接受原先認為有問題的缺點。他補充說明，這是因為最初的缺點或優點，會隨著整個商業模式、營運方式、架構設計而改變，「 缺點不見得永遠都是缺點，優點不見得永遠都是優點。」&lt;/p&gt;
-&lt;p&gt;因為如此，他強調，架構師必須要了解不同架構設計風格，會帶來哪些影響，比如為了調整服務間的通訊方式，提升整個架構的靈活性，而改採用事件驅動的架構風格，雖然有其好處，但缺點是架構變更複雜，維護不易，不僅架構整體容錯性需重新設計，同時要避免事件本身在版本差異上造成的衝突。「所以在選擇架構風格時，架構師除了需要知道它可能帶來的負面影響，也得讓團隊理解需要承擔哪些風險。」他說。&lt;/p&gt;
-&lt;h2&gt;第七件事：建立架構設計該有的基本流程與方法&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-05-22%20%E4%B8%8B%E5%8D%883_25_31.png&quot; style=&quot;width: 600px; height: 366px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;林承毅以一張團隊協作的流程圖，來說明建立架構設計該有的流程與方法。從這張流程圖可以看到，一開始，團隊與領域專家和使用者對話，針對公司的商業目標、問題、需求來彼此溝通，發展出屬於自己的通用語言，藉由通用語言去拆分出問題的解決方案、不同領域問題，然後透過不同的Bounded Context邊界來管理團隊、分析與建模，如此一來，就會產生屬於自己的領域模型，透過這些領域模型撰寫可用於生產或正式環境的程式碼，以及測試環境的程式碼，再透過測試程式碼驗證生產環境程式碼有無問題，過程中並以領域模型同時指導生產與測試環境的程式碼，然後在重開發過程中，重新提煉出經進化完成的通用語言，再從這個通用語言結合新的需求、新的商業目標、問題再拆分出可能要面對的新的Bounded Context邊界。並成為一個反覆循環過程，「我認為這才是在做架構設計應該要有的流程與方法。」&lt;/p&gt;
-&lt;h2&gt;第八件事：架構師要懂得傾聽建議、與團隊緊密合作&lt;/h2&gt;
-&lt;p&gt;因此，林承毅特別強調團隊協作，尤其，對於架構師來說，不只要理解團隊協作怎麼做，還要發揮領導力和學習處理政治問題，讓團隊能夠往期望的目標前進。除此之外，還要落實架構治理，管理決策，以及架構風險等等。&lt;/p&gt;
-&lt;p&gt;另外，他說，架構師要懂得傾聽團隊成員對架構改善的建議，因架構設計並沒有完美的決策，每一個架構決策，都需要經過充份且激烈的討論。因此，想要讓架構真的可行和成功落地，架構師與團隊需要緊密合作，才有機會達到目標。&lt;/p&gt;
-&lt;p&gt;最後他還提到，投資基礎工程實務重要性，包括有無完成整合測試、建立自動化測試流程、整合CI/CD測試流程，以及以程式碼方式來控管基儲設施等，這些都能夠幫助開發團隊縮短產品發布時程。&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;更多技術管理者系列報導：&lt;/strong&gt;&lt;/h3&gt;
-&lt;h3&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/145685&quot;&gt;【技術管理者成長系列1】在商業與技術抉擇前，該考慮6件事&lt;/a&gt;&lt;/h3&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 08:13:17 +0000</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="false">146160 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146160#comments</comments>
-</item>
-<item>
- <title>Realtek晶片10多項安全漏洞可導致系統被接管，影響至少65家IoT廠商</title>
- <link>https://www.ithome.com.tw/news/146236</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.iot-inspector.com/blog/advisory-multiple-issues-realtek-sdk-iot-supply-chain/&quot; target=&quot;_blank&quot;&gt;安全廠商IoT Inspector本周公布&lt;/a&gt;瑞昱半導體的一款無線裝置晶片，有10多項漏洞，可使駭客執行任意程式碼，最嚴重可導致系統被接管。瑞昱已經完成修補。&lt;/p&gt;
-&lt;p&gt;研究人員是在研究一臺雙SoC設計的網路數據機時發現問題，最後在其中所用的Realtek SoC晶片發現安全漏洞。這臺裝置主要SoC跑的是Linux，另一顆SoC是瑞昱的Realtek RTL819xD。這塊晶片所屬的RTL8xxx SoC系列是IoT裝置常用的無線晶片。在這次的系統上，它負責裝置上所有的AP（Access Point）功能，跑的是瑞昱寫的精簡版Linux系統。&lt;/p&gt;
-&lt;p&gt;研究人員發現RTL819xD使用的Realtek SDK可能導致服務曝露在網路上，而使IoT裝置有安全風險。經過分析，該SDK當中的二進位檔存在10多項漏洞，從指令注入、到記憶體毁損，影響UPnP、HTTP介面，以及Realtek開發的網路服務。&lt;/p&gt;
-&lt;p&gt;有問題的SDK包括Realtek SDK v2.x、Realtek “Jungle” SDK v3.0到v3.4，以及Realtek “Luna” SDK 1.3.2以前版本。&lt;/p&gt;
-&lt;p&gt;所有使用RTL8xxx系列SoC的IoT裝置都因此曝險。研究人員表示，若是讓攻擊者開採這些漏洞，他們可以以最高權限執行任意程式碼，最嚴重是完全接管受害裝置。&lt;/p&gt;
-&lt;p&gt;研究人員評估至少65家廠商受影響，包括Netgear、LG、ZTE、Zyxel，涵括將近200個不同產品。受影響的裝置涵括多種IoT裝置，包括家用閘道、旅行用路由器、Wi-Fi 訊號放大器、IP攝影機、或智慧照明閘道，甚至可連網的兒童玩具。&lt;/p&gt;
-&lt;p&gt;研究人員今年5月通報瑞昱後，該公司已經釋出新版SDK，修補Realtek Jungle SDK及Luna SDK，&lt;a href=&quot;https://www.realtek.com/images/safe-report/Realtek_APRouter_SDK_Advisory-CVE-2021-35392_35395.pdf&quot; target=&quot;_blank&quot;&gt;並釋出安全公告&lt;/a&gt;。但Realtek SDK v2.x已經是11年的舊軟體，現在瑞昱已不支援，廠商應考慮升級版本。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;http://www.realtek.com/images/safe-report/Realtek_APRouter_SDK_Advisory-CVE-2021-35392_35395.pdf&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0817-realtek-600-1.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 05:46:55 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146236 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146236#comments</comments>
-</item>
-<item>
- <title>190萬名恐怖份子觀察名單在網路上曝光</title>
- <link>https://www.ithome.com.tw/news/146235</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;SecurityDiscovery.com的網路威脅情報總監Bob Diachenko在7月19日，&lt;a href=&quot;https://twitter.com/MayhemDayOne/status/1417174479323680775&quot; target=&quot;_blank&quot;&gt;發現了一份約190萬名全球恐怖份子的觀察名單&lt;/a&gt;，該名單是放置在一個Elasticsearch叢集上，而且沒有任何密碼保護，來源是美國聯邦調查局（FBI）所管轄的恐怖份子審查中心（Terrorist Screening Center，TSC）。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0817-Bob%20Diachenko.jpg&quot; style=&quot;width: 591px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;TSC負責維護美國的禁飛名單，雖是由FBI管轄，但所蒐集的資料來自美國國務院、國防部、交通安全局、海關暨邊境保護局，以及美國的其它盟國等，這次被發現的190萬筆資料，可能只是全球恐怖份子觀察名單中的一部份，該名單包含姓名、國籍、性別、生日、護照號碼與禁飛指示等。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/pulse/americas-secret-terrorist-watchlist-exposed-web-report-diachenko/&quot; target=&quot;_blank&quot;&gt;Diachenko指出&lt;/a&gt;，Censys與ZoomEye兩大搜尋引擎是在7月19日索引了該Elasticsearch伺服器，而他同一天便發現了曝光的名單，並立即通知美國國土安全部（DHS），但存放名單的伺服器一直到8月9日才下線。奇怪的是，此一資料庫的IP位址並非位於美國，而是中東的巴林。&lt;/p&gt;
-&lt;p&gt;此一美國恐怖份子觀察名單過去屬於機密文件，只有經過授權的美國機構及官員得以存取，但在2015年之後，美國變更了相關政策，開始通知境內被列為恐怖份子觀察名單的民眾，但國外民眾往往是在搭機時才發現，自己被懷疑是恐怖份子而被禁飛。&lt;/p&gt;
-&lt;p&gt;Diachenko表示，名單上的民眾都只是涉嫌，並未被定罪，但倘若落入壞人的手上，民眾或其家人可能會被壓迫或騷擾，也會對無辜的人帶來困擾。此外，美國有時會說服某些嫌犯轉為線人，並解除他們的禁飛限制，名單的外洩也可能讓線人的身分曝光。&lt;/p&gt;
-&lt;p&gt;至於不管是國土安全部或是FBI都未正式回覆Diachenko。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 05:22:23 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146235 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146235#comments</comments>
-</item>
-<item>
- <title>iCloud for Windows 12.5版終於加入密碼管理功能</title>
- <link>https://www.ithome.com.tw/news/146234</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/p/icloud/9pktq5699m62?activetab=pivot:overviewtab&quot; target=&quot;_blank&quot;&gt;蘋果iCloud for Windows 12.5版&lt;/a&gt;周一在Windows Store上架，新版App終於也加入iCloud‌ Keychain密碼管理器功能。&lt;/p&gt;
-&lt;p&gt;今年初雖然也更新了一版iCloud for Windows，但要等到這個版本才加入了許多同時使用Windows、Mac電腦及iPhone用戶期盼的iCloud Passwords密碼管理功能。&lt;a href=&quot;https://support.apple.com/guide/icloud-windows/manage-passwords-icwa812f1681/1.0/icloud/1.0&quot; target=&quot;_blank&quot;&gt;根據蘋果指出&lt;/a&gt;，利用iCloud for Windows 12.5，現在使用者可以在Windows電腦上存取儲存在iCloud keychain的密碼，也可以新增、編輯、刪除、及複製用戶名稱及密碼。&lt;/p&gt;
-&lt;p&gt;此外，iCloud for Windows 12.5也提供瀏覽器外掛版本，以便在Microsoft Edge使用，它具有Autofill功能，可加速存取網頁服務的速度。iCloud for Windows之前已支援Windows版Google Chrome。&lt;/p&gt;
-&lt;p&gt;除了新增的iCloud Passwords之外，iCloud for Windows還包括存取iCloud Mail、聯絡人、Calendars、書籤、相片和雲端硬碟等功能。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 04:09:00 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146234 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146234#comments</comments>
 </item>
 </channel>
 </rss>
