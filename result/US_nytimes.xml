@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 18 Aug 2021 15:13:40 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Aug 2021 15:24:02 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[《同呼吸》：武漢危機與世界常態消失前的最後一刻]]></title>
+            <link><![CDATA[https://cn.nytimes.com/culture/20210818/in-the-same-breath-review/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[《獨生之國》導演王男栿的新作重新審視了新冠大流行。它帶我們回到封城前的武漢，展示了錯誤信息如何塑造普通人的生活，又如何定義了一個民族的自我意識和國家意識。<p><img src='https://static01.nyt.com/images/2021/08/18/arts/18inthesamebreath2/merlin_193170747_75a20fca-632e-49a5-82e5-7abd8c787731-articleLarge.jpg' alt='紀錄片《同呼吸》中的一個場景。 HBO Documentary Films'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>HBO Documentary Films</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>紀錄片《同呼吸》中的一個場景。</p>                    ]]></description>
+            <category>文化</category>
+            <dc:creator><![CDATA[MANOHLA DARGIS]]></dc:creator>
+            <pubDate>Wed, 18 Aug 2021 03:21:10 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/culture/20210818/in-the-same-breath-review/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[我為我的阿富汗姐妹們擔憂]]></title>
             <link><![CDATA[https://cn.nytimes.com/opinion/20210818/malala-afghanistan-taliban-women/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[EMILY ANTHES]]></dc:creator>
             <pubDate>Fri, 13 Aug 2021 10:22:42 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210813/coronavirus-children-delta/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[為何這個偶像男團在香港掀起熱潮？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210812/hong-kong-mirror-band/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[MIRROR是香港目前最炙手可熱的偶像團體，從他們身上幾乎看不出政治動盪的影子。但他們用朗朗上口的節拍為香港注入了歡樂，為一座焦慮的城市提供了一種音樂調劑。<p><img src='https://static01.nyt.com/images/2021/08/09/world/00hongkong-boyband1/merlin_191599572_2abf6491-91cb-45f8-92ba-f1566376d89e-articleLarge.jpg' alt='粵語流行音樂組合MIRROR的成員柳應廷上個月在香港的一場推廣活動上。 Anthony Kwan for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Anthony Kwan for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>粵語流行音樂組合MIRROR的成員柳應廷上個月在香港的一場推廣活動上。</p>                    ]]></description>
-            <category>中國</category>
-            <dc:creator><![CDATA[王月眉,JOY DONG]]></dc:creator>
-            <pubDate>Fri, 13 Aug 2021 09:14:40 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210812/hong-kong-mirror-band/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
