@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-08-18T13:25:27Z</updated>
+  <updated>2021-08-18T13:28:44Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
+  <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7790845</id>
+    <published>2021-08-18T13:28:44Z</published>
+    <updated>2021-08-18T13:28:44Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/v4lb3mr7kz4l"/>
+    <title>Firewall Configuration Update Delays</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;18&lt;/var&gt;, &lt;var data-var='time'&gt;13:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is aware of, and investigating an issue which might cause some firewall configurations delay at being published.&lt;br /&gt;&lt;br /&gt;Further detail will be provided as more information becomes available.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7784643</id>
     <published>2021-08-17T19:03:41Z</published>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/6j8htcqxvj1k"/>
     <title>Cloudflare Edge Side Code (ESC) Issue</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;23:56&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;21:12&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;20:57&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating an issue where some conditions create issues for Edge Side Code (ESC). Further detail will be provided as more information becomes available.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7633554</id>
-    <published>2021-07-29T18:27:43Z</published>
-    <updated>2021-07-29T18:27:43Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/v6dztk2fy0gb"/>
-    <title>Cache Purging Delays</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;18:27&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;13:31&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;13:16&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare single-file cache purging (purge by URL) called via the Dashboard/API is delayed.&lt;br /&gt;&lt;br /&gt;We are working to resolve this issue as soon as possible. Until then you may use the Purge Everything feature but do be aware it may cause a surge in traffic to your origin server(s). More updates to follow.&lt;/p&gt;</content>
   </entry>
 </feed>
