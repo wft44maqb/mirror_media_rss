@@ -70,6 +70,8 @@
 	"美國_ELLE台灣.看展覽@US_elleTwCulture": "https://www.elle.com/tw/rss/culture.xml/",
 	"美國_ELLE台灣.Beauty@US_elleTwBeauty": "https://www.elle.com/rss/beauty.xml/",
 	"美國_ELLE台灣.時尚@US_elleTwFashion": "https://www.elle.com/tw/rss/fashion.xml/",
+	"美國_Cosmopolitan台灣": "https://www.cosmopolitan.com/tw/sitemap_google_news.xml/",
+	"美國_Cosmopolitan香港": "https://www.cosmopolitan.com.hk/var/storage/xml/rss/google_news_sitemap.xml",
 	"英國_路透社@UK_reuters.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/reuters/theWire",
 	"英國_BBC@UK_bbc": "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml",
 	"香港_立場新聞@HK_thestandnews": "https://www.thestandnews.com/rss/",
