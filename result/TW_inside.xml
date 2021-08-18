@@ -10,7 +10,27 @@
         <link>https://www.inside.com.tw/feed/rss</link>
         <description></description>
         <language>zh-tw</language>
-        <lastBuildDate>2021-08-18T19:41:29+08:00</lastBuildDate>
+        <lastBuildDate>2021-08-18T19:47:47+08:00</lastBuildDate>
+                    <item>
+                <title><![CDATA[解密硬體新品與跨國工作經驗！Google 台灣硬體團隊成員現身說法揭秘幕後秘辛]]></title>
+                                    <category><![CDATA[趨勢]]></category>
+                                    <category><![CDATA[活動採訪]]></category>
+                                    <category><![CDATA[Google]]></category>
+                                    <category><![CDATA[硬體]]></category>
+                                    <category><![CDATA[軟硬整合]]></category>
+                                    <category><![CDATA[AI]]></category>
+                                    <category><![CDATA[Pixel]]></category>
+                                    <category><![CDATA[智慧音箱]]></category>
+                                    <category><![CDATA[Google Nest]]></category>
+                                    <category><![CDATA[Pixel Buds A-Series]]></category>
+                                <link>https://www.inside.com.tw/article/24559-google-taiwan-hardware-team-sharing</link>
+                <guid isPermaLink="true">https://www.inside.com.tw/article/24559-google-taiwan-hardware-team-sharing</guid>
+                <pubDate>2021-08-18T19:44:40+08:00</pubDate>
+                <author><![CDATA[Anny]]></author>
+                <description><![CDATA[剛登台的無線藍牙耳機 Pixel Buds A-Serie，在秋季也將發表Pixel 6 和 Pixel 6 Pro，台灣身為 Google 硬體研發重鎮親自揭開更多產品背後技術。]]></description>
+                <content:encoded><![CDATA[<figure><img src="https://inside-assets1.inside.com.tw/2021/8/9ksy0qpyiajlj5rwcyj2zguao2ehsd.jpeg?w=730&fit=max&q=80"></figure><p>Google 近日在硬體生態系發展積極並強調 AI 軟硬整合，Nest 智慧居家系列、剛登台的無線藍牙耳機 Pixel Buds A-Series，繼 Pixel 5A 後預計在今年秋天發表的 Pixel 6 和 Pixel 6 Pro，率先用上在自家晶片 Tensor ，全球硬體佈局少不了台灣團隊的投注，Google 台灣硬體團隊現身說法，與我們談談這些產品背後的開發秘辛！</p><h3>AI 軟硬整合產品打造用戶需求產品 從智慧居家到 Pixel 相機</h3><p>Pixel Buds A-Series 在台登場，新產品的特點，當然就是結合 Google 軟體服務，智慧語音助理以及即時翻譯，這款真無線藍牙耳機致力打造出更符合用戶使用情境的產品，Pixel Buds A-Series 產品經理張瑩潔 Austine 舉例，包含：背景音量變化偵測、耳內音頻音量模擬、漸進式的順暢音量調節，智慧音效調整功能能根據使用者的背景環境噪音音量來自動調節耳機音量，透過耳機的麥克風定時且不間斷地的偵測背景音，來判斷背景音是否有足夠的變化，以判別是短暫或是會持續一段時間的背景音變化。</p><p> Austine 強調，為了不要讓音量調節忽大忽小影響收聽體驗，因此在音量的改變也是採取階段性的。每一級的音量改變，以及改變的速度都經過調校，讓使用者享受無縫式的體驗。</p><p>隨著智慧家庭在市場的接受度和使用率越來越高，在 Google Nest 上台灣硬體團隊又是扮演什麼樣的角色，智慧家庭背後技術又是如何串接打造用戶需求產品呢？Google Nest 資深技術解決方案工程師周鴻仁 Eric 現身說法，他表示除了產品開發研發，團隊的核心也在於整合智慧家電解決方案，讓用戶在更多情境下能使用智慧科技，即便是不同品牌的家電。</p><figure class="wp-caption aligncenter"><img src="https://inside-assets1.inside.com.tw/2021/8/cs0ti8vbqagu08cv5fxj63hy2p7cy1.jpeg" width="1600" height="900" alt="(WIP)Master_Preso_Deck_-_Decode_Google_-" /><figcaption class="wp-caption-text">拆解 Google Nest 語音助理背後的運作流程</figcaption></figure><p>Eric 表示，在 Google Nest 上為了讓語音助理穩定性更高，除了雲端也會走本地實際家電命令控制，拆解背後的運作流程，Google 智慧家庭解決方案是透過已定義好的 API 串連 Nest 智慧音箱與其他智慧家電之間的溝通，使用者在家中設置了第三方合作夥伴的智慧家電裝置（例如燈泡），並透過 Nest Audio 以及 Google 帳號來連結智慧家電，Google 會請第三方合作夥伴提供識別該裝置的相關訊息，並透過 API 傳送給 Google ，進而建立一個居家圖譜 (Home Graph)。居家圖譜會根據第三方夥伴回傳的資訊來認識使用者家庭中的智慧家電設備，例如有哪些智慧家電，數量、名稱、廠牌分別為何。</p><p>當使用者針對某個裝置做出指令，Google 助理就可以根據居家圖譜裡面的資訊組成正確的指令，並送到第三方合作夥伴的雲端服務平台，理解指令後第三方合作夥伴平台就可以用他們自己定義控制對應裝置。</p><p>至於眾所囑目即將在秋季登場的新手機  Pixel 6 和 Pixel 6 Pro，雖然沒有資訊可以透露，不過 Android 及 Pixel 相機產品經理傅敬文 Kevin 還是向大家說明在相機開發上的幕後，為了打造更符合需求的產品，全面的洞察市場，相機開發上需要參考不同族群皮膚顏色特性，大到市場分析小到個人用戶回饋。</p><p>Kevin 舉例像是先前在內建美顏上曾經發生過東歐人發現鬍子被修掉，用戶向官方提出回饋，也讓團隊更注意到「美顏盡可能不去改變一個人的樣貌」。</p><p>他以影片穩定模式為例，Pixel 如何在錄影功能做到防手震：結合軟、硬體整合的優勢，Google 首先從手機上的陀螺儀以及光學防手震得出手機移動的資訊，再透過機器學習，去預測出接下來使用者可能會如何移動手機，例如使用者可能是要左右橫移，Pixel 會針對上下晃動加強修正，最後搭配分析多張畫面，取出穩定的部分來合成出一支畫面穩定的影片。</p><p>而在肖像打光上，其實 Google 會先在實驗室打造可以模擬出各種光打在人臉的角度的機器，透過拍出大量各種燈光的人像照，將這些資料用機器學習訓練出一套模型。完成後，只要是偵測到有人臉的照片，肖像打光功能就能合成出數張由不同角度打在臉上的燈光。</p><p>對使用者來說，只要按下快門在肖像模式下拍攝照片，若是偵測到臉部過暗的話，Pixel 就會自動在被拍攝者臉上打光。如果想要發揮更多創意，使用者也可到 Google 相簿透過後製方式，自行決定從哪個角度打光在臉上。</p><h3>打造全球硬體產品 跨國工作溝通為最大挑戰</h3><p>台灣身為硬體研發的重鎮，在跨國工作上是否遇到哪些挑戰呢？在今天與會的 Googler 不約而同地表示，溝通是最大的挑戰，在跨國協作的過程中，無可避免遇上時區、文字的侷限性、文化差異，這些都影響著溝通的過程和結果。善用透過 Google 雲端協作工具，或是透過 Meet 打破距離限制，Kevin 提到尤其在疫情更著重溝通的同步，內部形成廣發會議紀錄的習慣讓所有人都能有對等的資訊。</p><p>不過，身為 Googler 有很多可以發揮的空間， Google 工程師現身說法在 Google 工作體驗還是相當可貴的經驗，不僅讓人更熱衷發現問題解決問題，能遇到結合軟硬體功能的專案，且還能面向全球用戶，如同站在巨人身上打怪一樣。</p><p style="padding-left: 30px">核稿編輯：Mia</p><p><strong>延伸閱讀：</strong></p><ul><li><a href="https://www.inside.com.tw/article/22411-felix-share-google-office-culture" target="_blank">Google 辦公豪華設備能用嗎？前 Nest 台灣研發團隊負責人洪福利五大 Q&A破解</a></li><li><a href="https://www.inside.com.tw/article/24541-google-pixel-buds-a-series-open-pre-order" target="_blank">Google 真無線藍牙耳機 Pixel Buds A-Series 18 日起預購 台灣大獨賣</a></li><li><a href="https://www.inside.com.tw/article/24545-google-pixel6-no-charger" target="_blank">Google 宣布 Pixel 6 將不再隨盒附充電頭</a></li><li><a href="https://www.inside.com.tw/article/24541-google-pixel-buds-a-series-open-pre-order" target="_blank">Google 真無線藍牙耳機 Pixel Buds A-Series 18 日起預購 台灣大獨賣</a></li></ul><p><br></p>]]></content:encoded>
+                                    <media:content url="https://inside-assets1.inside.com.tw/2021/8/9ksy0qpyiajlj5rwcyj2zguao2ehsd.jpeg" medium="image"/>
+                            </item>
                     <item>
                 <title><![CDATA[【Arm 專欄】決定物聯網裝置連接的五個關鍵思考]]></title>
                                     <category><![CDATA[專欄]]></category>
@@ -156,21 +176,6 @@
                 <description><![CDATA[這樣的計算速度幾乎是 Google 在2019 年使用旗下雲端運算資源刷新紀錄的兩倍，更是 2020 年寫下前一次世界紀錄的 3.5 倍！]]></description>
                 <content:encoded><![CDATA[<figure><img src="https://inside-assets1.inside.com.tw/2021/8/tjitjfd8uy0z5qitowyktls07054ww.jpeg?w=730&fit=max&q=80"></figure><p style="padding-left: 30px"><strong>本篇來自合作媒體</strong><a href="https://www.cna.com.tw/news/firstnews/202108170037.aspx" target="_blank"><strong>中央社</strong></a><strong>，INSIDE 經授權轉載。</strong></p><p>瑞士研究人員今天表示，超級電腦已將圓周率 π 的小數點後數字計算到第 62.8 兆進位，締造新的世界紀錄。</p><p>格勞賓登應用科技大學（Graubuenden Universityof Applied Sciences）在聲明中說，研究人員使用超級電腦，「耗時 108 天又 9 個小時」，計算到圓周率小數點後的第62.8兆進位數字。</p><p>根據這所大學的數據分析、形象化與模擬中心（Centre for Data Analytics, Visualisation andSimulation），這樣的計算速度「幾乎是谷歌（Google）在2019年使用旗下雲端運算資源刷新紀錄的兩倍，更是 2020 年寫下前一次世界紀錄的 3.5 倍」。</p><p>研究人員正在等待金氏世界紀錄大全（GuinnessBook of Records）認證這項成就，在那之前，他們僅公布計算到的圓周率最後十位數字為7817924264。</p><p>先前寫下的世界紀錄，已經將圓周率小數點後的數字計算到第 50 兆進位。</p><p>圓周率是圓的周長與直徑的比值，小數點後有無限位數，儘管如此，研究人員仍繼續利用強大的電腦進行計算。圓周率的前 10 個數字是 3.141592653。</p><p>瑞士研究團隊表示，他們在計算π方面積累的經驗可應用於其他領域，例如「RNA 分析、流體動力學模擬和文本分析」。</p><p>責任編輯：Anny<br>核稿編輯：Chris</p><p><strong>延伸閱讀：</strong></p><ul><li><a href="https://www.inside.com.tw/article/15782-google-emma-haruka-iwao-pi-record" target="_blank">普天同慶！圓周率日 Google Cloud 員工用雲端運算刷新「π」紀錄</a></li></ul><p><br></p>]]></content:encoded>
                                     <media:content url="https://inside-assets1.inside.com.tw/2021/8/tjitjfd8uy0z5qitowyktls07054ww.jpeg" medium="image"/>
-                            </item>
-                    <item>
-                <title><![CDATA[瞄準出海，群募平台嘖嘖宣布結盟韓國 SETOWORKS]]></title>
-                                    <category><![CDATA[趨勢]]></category>
-                                    <category><![CDATA[Crowdsourcing]]></category>
-                                    <category><![CDATA[嘖嘖]]></category>
-                                    <category><![CDATA[群募]]></category>
-                                    <category><![CDATA[群眾集資]]></category>
-                                <link>https://www.inside.com.tw/article/24546-zeczec-x-setoworks</link>
-                <guid isPermaLink="true">https://www.inside.com.tw/article/24546-zeczec-x-setoworks</guid>
-                <pubDate>2021-08-18T10:56:07+08:00</pubDate>
-                <author><![CDATA[INSIDE 硬塞的網路趨勢觀察]]></author>
-                <description><![CDATA[透過本次協議，嘖嘖將協助台灣計畫透過 SETOWORKS 進軍更大規模的市場，同時 SETOWORKS 也將積極引進旗下管理的優質計畫進入台灣。]]></description>
-                <content:encoded><![CDATA[<figure><img src="https://inside-assets1.inside.com.tw/2021/8/3omvprxhemr4gqd24xh0dt3pflwgb3.png?w=730&fit=max&q=80"></figure><p style="padding-left: 30px"><strong>本文為嘖嘖提供之新聞稿，並經 INSIDE 編審後刊載。</strong></p><p>台灣群眾集資平台「嘖嘖」今日宣布已與韓國最大的群眾集資顧問公司 SETOWORKS 簽訂獨家「平台戰略合作夥伴協議」，為台灣群眾集資平台首例，也是嘖嘖向海外市場佈局所邁出的第一步。</p><p>SETOWORKS 是韓國顧問案件數、累計集資總額而言皆為最大的群眾集資顧問公司，目前已在美國、日本等主要市場設有子公司，在韓國業界中是唯一可同時在六個國家上線群眾集資計畫的顧問公司，並同時與「韓國投資振興公社」（KOTRA）及「首爾產業振興院」（SBA）等一級官方組織合作。</p><p>透過本次簽訂協議，嘖嘖表示將協助台灣在地優質計畫透過 SETOWORKS 的跨國集資經驗與實力，進軍更大規模的市場。同時，SETOWORKS 也將積極引進旗下管理的優質計畫進入台灣，並以嘖嘖為台灣首要的群眾集資平台。</p><p>嘖嘖在新聞稿中表示，群眾集資在 COVID-19 非常時期中持續扮演了重要角色，在各大市場中都可以讓創作、創業者提早了解市場並進一步獲得資金。以嘖嘖為例，在 2021 年 5 月台灣升級全國疫情警戒至第三級後，立即針對受創最嚴重的實體商家業者推出「挺好店」專屬方案，在短短 45 天的時間內協助超過 100 個商家募集超過千萬元的資金。</p><p>嘖嘖共同創辦人徐震表示，近年來嘖嘖是最關心的目標之一就是讓台灣在地的好創意能被更多市場中的群眾看見。過去一年以來的合作經驗讓他們相信 SETOWORKS 是一起實踐上述目標的最佳夥伴；而 SETOWORKS 代表趙忠淵也說明，過去一年來首次嘗試在台灣的嘖嘖平台上進行了群眾集資，結果創造了比美國的 Kickstater 和 Indiegogo 更好的成績，相信透過雙方深度合作，未來將能更快地將台、韓兩地的創意帶入雙方的市場中。</p><p>責任編輯：Chris</p><p><strong>延伸閱讀：</strong></p><ul><li><a href="https://www.inside.com.tw/article/23232-zeczec-10-years-new-milestone" target="_blank">集資累積金額 46 億台幣！嘖嘖邁向十週年，推出四大全新機制擴大產業動能</a></li></ul><p><br></p><p><br></p>]]></content:encoded>
-                                    <media:content url="https://inside-assets1.inside.com.tw/2021/8/3omvprxhemr4gqd24xh0dt3pflwgb3.png" medium="image"/>
                             </item>
             </channel>
 </rss>
