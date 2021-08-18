@@ -6,6 +6,22 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>物聯智慧Kalay平臺含有一重大漏洞，將允許駭客自遠端存取IoT裝置</title>
+ <link>https://www.ithome.com.tw/news/146258</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國國土安全部旗下的網路安全暨基礎架構安全署（&lt;a href=&quot;https://us-cert.cisa.gov/ics/advisories/icsa-21-229-01&quot; target=&quot;_blank&quot;&gt;CISA&lt;/a&gt;）與資安業者&lt;a href=&quot;https://www.fireeye.com/blog/threat-research/2021/08/mandiant-discloses-critical-vulnerability-affecting-iot-devices.html&quot; target=&quot;_blank&quot;&gt;FireEye&lt;/a&gt;本周警告，臺灣IoT平臺業者物聯智慧（ThroughTek）所打造的Kalay P2P SDK含有一重大安全漏洞CVE-2021-28372，將允許駭客自遠端執行任意程式或存取機密資訊，而物聯智慧則已修補該漏洞，&lt;a href=&quot;https://www.throughtek.com.tw/please-update-the-sdk-version-to-minimize-the-risk-of-sensitive-information-being-accessed-by-unauthorized-third-party/&quot; target=&quot;_blank&quot;&gt;並呼籲用戶儘快更新&lt;/a&gt;。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0818-ThroughTek%20kalay%20platform-600.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;根據物聯智慧的說明，Kalay為一奠基於P2P技術的基礎架構，具備多種模組化功能，還能根據客戶需求進行客製化，亦能以SDK形式嵌入應用程式或IoT裝置。&lt;/p&gt;
+&lt;p&gt;FireEye指出，CVE-2021-28372藏匿在Kalay平臺的一個核心元件中，駭客必須非常熟悉Kalay協定，並具備產生及傳送訊息的能力，也必須先取得Kalay的用戶ID（UID）才能發動攻擊，進一步危害相關UID的裝置。CISA則說，成功開採漏洞將允許駭客執行惡意程式或存取機密資訊，包括攝影機的音訊與視訊。其CVSS風險指數高達9.6。&lt;/p&gt;
+&lt;p&gt;研究人員表示，他們並不確定有多少裝置受到該漏洞的影響，但物聯智慧的官網顯示，全球有超過8,300萬個裝置採用Kalay平臺。&lt;/p&gt;
+&lt;p&gt;受到波及的Kalay P2P SDK包括3.1.5與之前的版本，擁有nossl標籤的SDK，在IOTC連線時未使用AuthKey的裝置韌體，採用AVAPI模組卻未啟用DTLS機制的韌體，以及採用RDT模組或P2PTunnel的韌體。&lt;/p&gt;
+&lt;p&gt;迄今尚未發現任何鎖定該漏洞的攻擊程式，物聯智慧建議用戶應立即更新。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Aug 2021 09:05:34 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146258 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146258#comments</comments>
+</item>
+<item>
  <title>Parallels Desktop 17 for Mac上市! 同時支援英特爾與Apple M1處理器，未來還將支援Windows 11</title>
  <link>https://www.ithome.com.tw/news/146256</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;專門在Mac提供硬體虛擬化軟體的Parallels，在周二推出Parallels Desktop 17 for Mac，支援採用英特爾與蘋果M1處理器的新舊Mac，在作業系統方面，也針對蘋果macOS12及微軟Windows&lt;span&gt;  &lt;/span&gt;11優化。&lt;/p&gt;
@@ -259,21 +275,6 @@
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="false">146249 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146249#comments</comments>
-</item>
-<item>
- <title>【玉山AI實例3】自建反洗錢黑名單偵測模型，快速揪出問題</title>
- <link>https://www.ithome.com.tw/news/146201</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;反洗錢（AML）一直是整個金融業兢兢業業、嚴陣以待的議題，他們拼命抓漏，也不願放過任何風險。對玉山銀行來說，更是如此。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;用NLP快速分類、揪出特定名詞，加速負面新聞分類&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;反洗錢機制如此重要，玉山銀行靠AI模型和三大步驟，來簡化傳統耗時耗力的AML負面新聞蒐集工作。他們設計一套新AML黑名單偵測流程，以自然語言處理（NLP）技術來加速負面新聞辨識；新流程拆解了玉山舊有的人工閱讀和辨識作業，可分為負面新聞分類、事件聚合分析、黑名單資訊擷取三大步驟。首先，團隊先用人工標註的新聞資料，來微調NLP經典預訓練模型BERT，建立二元分類器、分辨負面新聞。再來，第二步進入事件聚合分析階段，將相似的新聞文章歸為同類。此處會由預訓練模型產出文章語意向量，再將語意相似的文章向量，歸為相同事件。&lt;/p&gt;
-&lt;p&gt;最後進入黑名單資訊擷取階段，利用人工標註的文章黑名單出現位置、外部訓練資料和BERT模型，打造一套人名辨識（NER）模型、罪名QA模型和地名擷取模型，來產出黑名單預測結果。&lt;/p&gt;
-&lt;p&gt;這些資訊，最終會呈現在前端介面，包括新聞文本、涉案人名、罪名和犯案地等，同仁可直接編輯、驗證，省下原本要手動查詢大量新聞、將文章複製貼上的時間成本。&lt;/p&gt;
-&lt;p&gt;而且，新流程在閱讀上也大有幫助。因為，傳統方法需要人工閱讀所有與特定人物相關的新聞，一個人可能就有上百篇，但NLP模型可直接分類文章、挑出有問題的幾篇新聞，再由人工精讀即可。未來，玉山銀行還要讓這套AML黑名單偵測模型學會更多技能，比如能進一步回答人與時間、地點和金額的對應關係，變得更聰明。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 17 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146201 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146201#comments</comments>
 </item>
 </channel>
 </rss>

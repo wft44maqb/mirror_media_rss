@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>物聯智慧Kalay平臺含有一重大漏洞，將允許駭客自遠端存取IoT裝置</title>
+    <link>https://www.ithome.com.tw/news/146258</link>
+    <description> 美國國土安全部旗下的網路安全暨基礎架構安全署（CISA）與資安業者FireEye本周警告，臺灣IoT平臺業者物聯智慧（ThroughTek）所打造的Kalay P2P SDK含有一重大安全漏洞CVE-2021-2837</description>
+     <pubDate>2021-08-18  05:08:34</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146258</guid>
+  </item>
+  <item>
     <title>Parallels Desktop 17 for Mac上市! 同時支援英特爾與Apple M1處理器，未來還將支援Windows 11</title>
     <link>https://www.ithome.com.tw/news/146256</link>
     <description> 專門在Mac提供硬體虛擬化軟體的Parallels，在周二推出Parallels Desktop 17 for Mac，支援採用英特爾與蘋果M1處理器的新舊Mac，在作業系統方面，也針對蘋果macOS12及微軟Windows  11優化。
@@ -259,15 +267,6 @@ Apricot將連接日本、臺灣、關島、菲律賓、印尼及新加坡，總�
      <pubDate>2021-08-16  05:08:14</pubDate>
  <dc:creator>蘇文彬</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146221</guid>
-  </item>
-  <item>
-    <title>Google改善視覺化工具方便Compute Engine使用者除錯</title>
-    <link>https://www.ithome.com.tw/news/146222</link>
-    <description> Google推出強化上下文（In-Context）的UI工具集，供用戶更快速地對Compute Engine進行除錯，藉由各種指標、圖表和視覺化功能，能夠助用戶分析指標和網路變化，並且找出適合的磁碟大小，甚至是調整和測量記憶體效能等。
-Google提到，要對虛擬機器在生產環境進行除錯，過程可能很複雜，因為不只需要多個基礎設施的資料點和訊號，還需要來自應用程式的指標。所以當用戶遭遇延遲、停機和錯誤等情況時，便需要在不同的工具和UI間切換，來探索造成問題的根本原因，但這個過程可能拖慢除錯速度。</description>
-     <pubDate>2021-08-16  04:08:27</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146222</guid>
   </item>
   </channel>
 </rss>
