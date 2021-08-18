@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 18 Aug 2021 17:55:33 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Aug 2021 18:05:42 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[塔利班的統治對阿富汗女性意味著什麼？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210818/afghanistan-women-taliban/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[重新掌權後，塔利班聲稱女性將被允許工作、學習和參與政府事務，但阿富汗女性仍面臨巨大的不確定性。已有零星跡象表明，塔利班在部分地區已重新實施舊秩序。<p><img src='https://static01.nyt.com/images/2021/08/17/world/17afghanistan-women5/merlin_152369871_2638c444-f603-4e3e-9c74-dcc412f577e0-articleLarge.jpg' alt='2018年，阿富汗女子機器人小組的一些成員到美國參加比賽。 Andrea DiCenzo for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Andrea DiCenzo for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>2018年，阿富汗女子機器人小組的一些成員到美國參加比賽。</p>                    ]]></description>
+            <category>國際</category>
+            <dc:creator><![CDATA[FARNAZ FASSIHI,DAN BILEFSKY]]></dc:creator>
+            <pubDate>Wed, 18 Aug 2021 05:57:03 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210818/afghanistan-women-taliban/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[香港大學四名學生因涉嫌「宣揚恐怖主義」被捕]]></title>
             <link><![CDATA[https://cn.nytimes.com/china/20210818/hong-kong-university-arrests/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[SABRINA TAVERNISE,ROBERT GEBELOFF]]></dc:creator>
             <pubDate>Fri, 13 Aug 2021 12:01:42 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210813/census-demographics-asian-hispanic/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[感染德爾塔毒株有何特殊癥狀？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/health/20210813/delta-variant-symptoms/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[味覺、嗅覺喪失，發燒、咳嗽、呼吸急促和疲勞都是感染新冠的標誌性癥狀。隨著德爾塔變異株愈發普遍，人們患病後的癥狀是否也會隨之發生變化？這裡是來自專家的說法。<p><img src='https://static01.nyt.com/images/2021/08/12/well/12sci-well-deltasymptoms1/merlin_192685878_20fee2ad-1caf-4092-95c9-e638177258fd-articleLarge.jpg' alt=' Mike Kai Chen for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Mike Kai Chen for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
-            <category>健康</category>
-            <dc:creator><![CDATA[CHRISTINA CARON]]></dc:creator>
-            <pubDate>Fri, 13 Aug 2021 11:15:14 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/health/20210813/delta-variant-symptoms/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
