@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-19T13:48:23Z</updated>
+ <updated>2021-08-19T13:51:51Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58908823</id>
+  <title><![CDATA[反制“熔断”机制 美限制中国航班载客量]]></title>
+  <updated>2021-08-19T13:22:00Z</updated>
+  <published>2021-08-19T13:22:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/反制-熔断-机制-美限制中国航班载客量/a-58908823?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国政府宣布，将限制中国航空公司部分航班载客量。这是美国不满中国为新冠防疫实施航班“熔断”措施做出的回应。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58908269</id>
   <title><![CDATA[德国情报部门严重误判阿富汗局势]]></title>
@@ -213,16 +223,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/台湾开打自产「高端」疫苗-未完成三期试验引争论/a-58893881?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[台湾23日起将为民众施打自产的高端疫苗，18日更宣布要扩大开放至20岁以上的民众接种高端，然而该款疫苗未经三期试验且没有国际认证，有效及安全性引发讨论，医界看法、民众态度为何？]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58682323</id>
-  <title><![CDATA[中国间谍案新进展  两名台湾退役军官遭搜索约谈]]></title>
-  <updated>2021-08-18T08:36:00Z</updated>
-  <published>2021-08-18T08:36:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国间谍案新进展-两名台湾退役军官遭搜索约谈/a-58682323?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[被台媒称为史上最大「共谍案」有最新进展，台湾中央社指出，台北地检署周三（8月18日）指挥法务部调查局搜索两名涉案退役军官住处，全案依台湾《国家安全法》为大陆地区发展组织罪约谈两人到案。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58889106</id>
