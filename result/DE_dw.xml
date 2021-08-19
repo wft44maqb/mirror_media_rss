@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-19T12:39:06Z</updated>
+ <updated>2021-08-19T12:51:43Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58908269</id>
+  <title><![CDATA[德国情报部门严重误判阿富汗局势]]></title>
+  <updated>2021-08-19T12:45:00Z</updated>
+  <published>2021-08-19T12:45:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国情报部门严重误判阿富汗局势/a-58908269?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[包括德国联邦情报局在内的各国情报部门似乎都没有意识到，塔利班能够在如此短的时间内拿下喀布尔，以至于联邦政府撤离驻阿外交人员及阿籍员工时显得仓皇失措，完全乱了阵脚。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58907207</id>
   <title><![CDATA[海地震后死亡攀升 民众苦等救援日益绝望]]></title>
@@ -212,16 +222,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国间谍案新进展-两名台湾退役军官遭搜索约谈/a-58682323?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[被台媒称为史上最大「共谍案」有最新进展，台湾中央社指出，台北地检署周三（8月18日）指挥法务部调查局搜索两名涉案退役军官住处，全案依台湾《国家安全法》为大陆地区发展组织罪约谈两人到案。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:49258763</id>
-  <title><![CDATA[「反送中」效应延烧 台港公民交流渐趋频繁]]></title>
-  <updated>2021-08-18T06:55:00Z</updated>
-  <published>2021-08-18T06:55:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/「反送中」效应延烧-台港公民交流渐趋频繁/a-49258763?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[在香港反逃犯条例修正草案的情绪持续高涨之时，台湾立法院也于周一跨党派通过3点共同声明，谴责香港政府用武力处理群众运动，并呼吁香港政府撤回逃犯条例草案。 此外，立法院还建议台湾政府以行动支持香港人民。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
