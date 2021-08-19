@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.ithome.com.tw"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>iThome</title>
+ <link>https://www.ithome.com.tw</link>
+ <description></description>
+ <language>zh-hant</language>
+<item>
+ <title>針對勒索軟體Diavol與製作TrickBot的駭客組織的關連，IBM找到更多線索</title>
+ <link>https://www.ithome.com.tw/news/146280</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;資安業者Fortinet&lt;a href=&quot;https://www.ithome.com.tw/news/145461&quot;&gt;在7月初揭露名為的Diavol勒索軟體&lt;/a&gt;，並基於與Conti有許多共通的特性，認為可能是出自製作Trickbot殭屍病毒的駭客「Wizard Spider」之手。對於這個勒索軟體的研究，最近出現了新的進展：IBM X-Force威脅情報研究團隊指出，&lt;a href=&quot;https://securityintelligence.com/posts/analysis-of-diavol-ransomware-link-trickbot-gang/&quot;&gt;他們找到了Diavol的早期開發版本並進行研究&lt;/a&gt;，根據程式碼的編排方式來判斷，這款勒索軟體應該就是來自Wizard Spider。&lt;/p&gt;
+&lt;p&gt;原本IBM進行研究的動機，是想要針對Fortinet發現的Diavol進一步分析，但他們找到了另一款Diavol勒索軟體的檔案，與先前被Fortinet發現的勒索軟體存在許多相似之處，當中最主要的差別，是IBM找到的版本仍處於開發階段，看起來是駭客用來測試的檔案，而不像Fortinet找到的檔案，已經是具備完整功能的勒索軟體。&lt;/p&gt;
+&lt;p&gt;這兩個版本的Diavol編譯時間存在明顯的出入，IBM指出，Fortine發現的版本於2021年4月30日編譯，但他們找到的是在2020年3月5日製作。此外，這個開發版本的檔案，在2021年1月27日被上傳到惡意軟體分析平臺VirusTotal，檔案名稱為malware.exe。&lt;/p&gt;
+&lt;p&gt;再者，針對加密檔案的方式，開發版本的Diavol與後繼版本也有所不同──開發版本採用RSA演算法，攻擊者可設置需要優先加密的檔案類型，並且能終止指定的處理程序或是服務，以免加密檔案的過程遭到中斷。相較之下，先前被揭露的版本採用了非同步程序呼叫（Asynchronous Procedure Calls，APC），取代許多勒索軟體使用的對稱式加密機制。&lt;/p&gt;
+&lt;p&gt;此外，由於是開發版本，研究人員表示，他們執行Diavol的過程中，雖然會將檔案加密，但不會刪除原始檔案，如果被拿來用於攻擊行動，受害者根本不會支付贖金。&lt;/p&gt;
+&lt;p&gt;而為何會IBM認為Diavol出自Wizard Spider？該公司提出兩項發現。首先，針對Diavol執行的過程中，該勒索軟體會結合收集到的受害電腦資訊，產生一組Bot ID，以便攻擊者進行追蹤，這組。而IBM發現，這組Bot ID的格式，與TrickBot惡意軟體幾乎相同，僅增加了使用者名稱（username）的部分，而這樣的格式，特徵也與Wizard Spider另一款惡意軟體Anchor DNS相似。&lt;/p&gt;
+&lt;p&gt;另一項與Wizard Spider有關的證據，則是與駭客偏好的語言有關。研究人員指出，在Diavol開發版與C2伺服器通訊的HTTP標頭中，設置偏好以俄語呈現內容，而操作TrickBot的駭客也慣用俄文。&lt;/p&gt;
+&lt;p&gt;而與語言相關的線索，還有開發版本Diavol具備檢查受害電腦作業系統語言的機制，一旦發現是位於俄羅斯，或是獨立國家國協（Commonwealth of Independent States）的電腦，就不會發動攻擊。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 11:13:06 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146280 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146280#comments</comments>
+</item>
+<item>
+ <title>美國SEC控告3名Netflix前工程師涉及內線交易</title>
+ <link>https://www.ithome.com.tw/news/146278</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國證券交易委員會（Securities and Exchange Commission，SEC）&lt;a href=&quot;https://www.sec.gov/news/press-release/2021-158&quot; target=&quot;_blank&quot;&gt;周三（8/18）控告3名Netflix的前工程師及其親友從事內線交易&lt;/a&gt;，在2016年至2019年間不當獲利超過300萬美元，違反美國《證券法》（Exchange Act Rule）。&lt;/p&gt;
+&lt;p&gt;根據SEC的調查，帶頭的是曾任職Netflix的Sung Mo Jun，因為他知道Netflix每季的訂閱用戶數的成長趨勢將左右該公司的股價，因此在Netflix尚未發布財報前，就將相關資訊透露給他的哥哥Joon Mo Jun與好友Junwoo Chon，以讓他們能在財報公布前進場操作。&lt;/p&gt;
+&lt;p&gt;雖然Jun在2017年就離開Netflix，卻持續透過仍就職的同事Ayden Lee及Jae Hyeon Bae獲取Netflix訂閱用戶數的成長資訊，一直到2019年為止，估計總計利用13季的財報期間獲利超過300萬美元。&lt;/p&gt;
+&lt;p&gt;此一內線交易事件是由SEC市場濫用部門分析暨偵測中心所發現，該中心是透過多種資料分析工具，辨識出這群人長期以來出人意料的成功交易。&lt;/p&gt;
+&lt;p&gt;此外，為了避人耳目，Jun與親友都是透過加密傳訊程式來討論交易內容，並以現金來支付回扣。除了可能受到《證券法》的懲處之外，華盛頓的檢察官辦公室也對其中的4人提出了刑事訴訟。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 09:32:02 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146278 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146278#comments</comments>
+</item>
+<item>
+ <title>研究人員揭露蘋果掃描機制含有安全漏洞，蘋果：那不是蘋果所採用的版本</title>
+ <link>https://www.ithome.com.tw/news/146277</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;蘋果計畫在今年問世的iOS中嵌入兒童色情掃描機制，以遏制兒童性剝削內容（Child Sexual Abuse Material，CSAM）的散布，然而，隱私與安全專家群起反對，本周一名GitHub用戶&lt;a href=&quot;https://github.com/AsuharietYgvar/AppleNeuralHash2ONNX&quot; target=&quot;_blank&quot;&gt;Asuhariet Ygvar公布了&lt;/a&gt;蘋果用來將CSAM加密的NeuralHash雜湊技術模型，幾小時後就有另一名用戶Cory Cornelius找到該演算法的漏洞，製造了雜湊碰撞（Hash Collisions），讓兩張不同的圖片產生一樣的加密指紋，然而，&lt;a href=&quot;https://www.vice.com/en/article/wx5yzq/apple-defends-its-anti-child-abuse-imagery-tech-after-claims-of-hash-collisions&quot; target=&quot;_blank&quot;&gt;蘋果向Motherboard表示&lt;/a&gt;，Ygvar所公布的NeuralHash是通用版，並非蘋果所採用的版本。&lt;/p&gt;
+&lt;p&gt;蘋果準備在iOS 15、iPadOS 15、watchOS 8與macOS Monterey等作業系統上嵌入CSAM資料庫，並透過NeuralHash將資料庫中的照片轉換成獨立的加密金鑰，當使用者要將照片上傳到iCloud時，系統就會將該照片與CSAM資料庫進行比對，在符合的筆數達到30筆之後，就會觸動警報，再改由人工手動檢查這些照片，決定是否通報主管機關或關閉使用者帳號。&lt;/p&gt;
+&lt;p&gt;雖然蘋果的用意是為了保護兒童，但隱私與安全專家卻認為此事不可為，認為CSAM偵測功能將成為蘋果作業系統的後門，已有超過8,000名GitHub用戶連署反對，電子前線基金會（Electronic Frontier Foundation，EFF）&lt;a href=&quot;https://act.eff.org/action/tell-apple-don-t-scan-our-phones&quot; target=&quot;_blank&quot;&gt;亦於近日發動連署&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;在反對之餘，資安專家也詳細檢視蘋果的作法，包括NeuralHash在內。儘管蘋果宣稱未來的作業系統使用的是蘋果變更過的NeuralHash版本，而不是Ygvar所公布的版本，但約翰霍普金斯大學的密碼學教授Matthew Green認為，碰撞既然會發生在一般版的NeuralHash，應該也會發生在蘋果的版本上。&lt;/p&gt;
+&lt;p&gt;只不過，目前看來NeuralHash的碰撞並不會對CSAM的偵測帶來太多問題，因為它頂多可把非CSAM的圖片標記成CSAM圖片，快速達到跳出警告的30張門檻，造成手動檢查人員的困擾。&lt;/p&gt;
+&lt;p&gt;即使外界的反對聲浪不斷，惟迄今蘋果仍尚未釋出可能改變心意的訊息。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 09:18:41 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146277 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146277#comments</comments>
+</item>
+<item>
+ <title>Gozi/Ursnif銀行木馬利用假CAPTCHA繞過瀏覽器防護植入電腦</title>
+ <link>https://www.ithome.com.tw/news/146276</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;CAPTCHA是網站為防止網頁爬蟲而設計的驗證機制，以確定用戶是真人而非機器人程式，但是安全研究人員發現有一隻銀行木馬程式Gozi卻利用CAPTCHA企圖繞過瀏覽器的安全功能，以下載到用戶電腦。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/malware-campaign-uses-clever-captcha-to-bypass-browser-warning/&quot; target=&quot;_blank&quot;&gt;Bleeping Computer&lt;/a&gt;報導，安全研究人員MalwareHunterTeam發現了銀行木馬Gozi的高明手法。一個影片連結在網路上流傳，當用戶點入連結網站準備觀看影片時，網路即跳出一個類似Google reCAPTCHA的圖形驗證。這則reCAPTCHA由數個鍵組成。提示訊息要求用戶依序點入鍵盤中的B、S、Tab鍵、 A、F、以及Enter鍵才能觀看。&lt;/p&gt;
+&lt;p&gt;研究人員指出，這其實是在瞞天過海下，誘使用戶繞過瀏覽器的防護，同意下載安裝程式。以Google Chrome而言，當用戶企圖從網站下載程式時，Chrome會出現提示訊息，要求使用者確認是「繼續」或「取消」。以本例而言，當用戶按到Tab鍵時，就會使Chrome的「繼續」鍵呈現準備。而當用戶按下reCAPTCHA中的Enter鍵時，就會開啟以下載並執行程式。&lt;/p&gt;
+&lt;p&gt;下載的動作會在用戶的「%AppData%\Bouncy for .NET Helper」資料夾中安裝很多檔案，其中的BouncyDotNet.exe持續執行，即啟動PowerShell指令，並建立銀行木馬Gozi（或稱Ursnif）的DLL檔。遭感染的用戶應儘速變更網銀密碼以免受害。&lt;/p&gt;
+&lt;p&gt;Gozi/Ursnif在受害者電腦中會竊取銀行帳密、下載更多惡意程式，並且遠端執行攻擊者的指令，被安全廠商列為五大惡意程式之一。&lt;a href=&quot;https://www.ithome.com.tw/news/143035&quot; target=&quot;_blank&quot;&gt;今年三月Ursnif木馬也在歐洲橫行&lt;/a&gt;，超過百家義大利銀行客戶受害。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 08:53:02 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146276 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146276#comments</comments>
+</item>
+<item>
+ <title>勒索軟體Conti在攻擊前會先偵察目標組織的營收和保險資料</title>
+ <link>https://www.ithome.com.tw/news/146275</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;駭客為了增加能夠收到贖金的機會，在下手發動勒索軟體攻擊之前，試圖掌握對方的財務狀態，以便決定要開口索討的金額。&lt;a href=&quot;https://www.advanced-intel.com/post/hunting-for-corporate-insurance-policies-indicators-of-ransom-exfiltrations&quot;&gt;威脅情報業者Advanced Intelligence（AdvIntel）在近期的一起攻擊事故裡發現&lt;/a&gt;，使用Conti勒索軟體的駭客，在攻擊目標的網路植入勒索軟體之前，先上傳了名為Rclone的開源資料備份工具，複製並竊取受害組織的保單資料。&lt;/p&gt;
+&lt;p&gt;根據上述的現象，AdvIntel詳細整理出駭客在使用勒索軟體加密之前，所執行的偵察流程。首先，Conti入侵了受害組織的網路，並取得網域管理員的存取權限。接下來，攻擊者使用滲透測試工具Cobalt Strike，建立Beacon通訊連線，然後偵察網路環境，並調查重要的財務與保險資料。&lt;/p&gt;
+&lt;p&gt;找到上述提及的財務及保險資料之後，攻擊者從檔案共享網站Mega，傳送一個支援多平臺且開源、又可簡化雲端儲存服務操作的Rclone應用程式，到受害組織的網域控制器（DC），接著，他們將財務及保險相關的資料，藉由網路共享的方式，複製到指定位置，以便能讓Conti能夠「安全存取」。&lt;/p&gt;
+&lt;p&gt;完成上述工作後，攻擊者才執行serverlock.bat指令碼（Script）鎖住網路，並且加密檔案。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/conti-leakage-insurance-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/conti-leakage-insurance-s.png&quot; style=&quot;width: 580px; height: 284px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;為何駭客會使用Rclone？這是能夠傳輸檔案到雲端服務的命令列工具，AdvIntel指出，Conti駭客將其當作外洩資料的武器，並事先針對攻擊目標配置相關設定來「同步」資料。&lt;/p&gt;
+&lt;p&gt;上述AdvIntel的發現，也與之前該組織外洩的「教戰手則」內容相符。&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/angry-conti-ransomware-affiliate-leaks-gangs-attack-playbook/&quot;&gt;根據新聞網站Bleeping Computer於8月5日的報導&lt;/a&gt;，有資安研究人員發現，有人疑似對Conti心生不滿，憤而將其111MB的訓練資料發布到網路論壇，內容包含了該組織使用的指令與C2伺服器的IP位址等細節。而AdvIntel指出，從事件記錄的內容，他們發現攻擊者在執行Rclone之前，會下達Invoke_ShareFinder指令，這很可能是將外洩檔案名單造冊，匯出成純文字檔案的工作。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/forum-post-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/forum-post-s.png&quot; style=&quot;width: 580px; height: 151px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;除此之外，在先前Conti外流的文件中，指示攻擊者要依序從網路共享資料夾裡，找尋財務（Finance）、會計（Accounting）、保險（Insurance），以及IT相關文件，也與本次AdvIntel的發現大致相符。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 05:55:08 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146275 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146275#comments</comments>
+</item>
+<item>
+ <title>Fortinet抨擊安全廠商在90天保密期限前就揭露其產品漏洞</title>
+ <link>https://www.ithome.com.tw/news/146274</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;安全研究人員及產品廠商之間的緊張關係再度引爆。網路安全設備商Fortinet批評安全廠商Rapid 7未遵守業界通用的漏洞通報90天保密期，在還沒到90天前就將Fortinet產品漏洞公諸於世。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.rapid7.com/blog/post/2021/08/17/fortinet-fortiweb-os-command-injection/&quot; target=&quot;_blank&quot;&gt;本周Rapid 7公布Fortinet網頁應用防火牆產品FortiWeb 管理介面的漏洞&lt;/a&gt;。&lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2021-22123&quot; target=&quot;_blank&quot;&gt;編號CVE-2021-22123的漏洞是一項OS指令注入漏洞&lt;/a&gt;，可讓遠端取得授權的攻擊者透過SAML伺服器組態頁面執行任意指令。該漏洞風險值8.8，屬於高風險漏洞，影響FortiWeb管理介面6.3.7以前、6.2.3以前及6.1.x, 6.0.x, 5.9.x版本。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0819-rapid7.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.fortiguard.com/psirt/FG-IR-20-120&quot; target=&quot;_blank&quot;&gt;Fortinet 在6月曾發出安全公告&lt;/a&gt;，但是預定要到8月底才有修補程式釋出。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.zdnet.com/article/fortinet-slams-rapid7-for-disclosing-vulnerability-before-end-of-90-day-window/&quot; target=&quot;_blank&quot;&gt;Fortinet批評&lt;/a&gt;，Rapid 7在6月發現這個漏洞，卻在不到90天就公諸於世，違反了&lt;a href=&quot;https://www.fortiguard.com/psirt_policy&quot; target=&quot;_blank&quot;&gt;Fortinet漏洞揭露政策&lt;/a&gt;中，要求通報者在完整解決漏洞前保密的規定，使他們來不及釋出修補程式。&lt;/p&gt;
+&lt;p&gt;但是Rapid 7指出，&lt;a href=&quot;https://www.fortiguard.com/zeroday/responsible-disclosure&quot; target=&quot;_blank&quot;&gt;Fortinet 公布的90天保密期&lt;/a&gt;是規範他們自己作為資安廠商的規定，他們和第三方安全研究人員的漏洞揭露政策並未說明幾天，於是&lt;a href=&quot;https://www.rapid7.com/security/disclosure/#zeroday&quot; target=&quot;_blank&quot;&gt;Rapid 7採用自己的揭露政策&lt;/a&gt;，保密漏洞資訊60天。&lt;/p&gt;
+&lt;p&gt;Rapid 7研究總監Tom Beardsley對媒體表示，該公司於6月10日通報Fortinet，並在6月11日接獲對方確認。之後該公司也曾多次試圖聯繫，但皆未獲得回應。於是60天一到，Rapid 7就公布了這個漏洞，而對方也說即將釋出修補程式。&lt;/p&gt;
+&lt;p&gt;Rapid 7指出，目前未發現該漏洞被濫用的情形。在修補程式來到之前，用戶應關閉未受信任，包括網際網路連線存取FortiWeb管理介面。&lt;/p&gt;
+&lt;p&gt;這並非第一次安全廠商和其他網路或軟體業者為公布漏洞而衝突。微軟即多次因為Google Project Zero在它還沒釋出修補程前，便公布漏洞而感到不滿，甚至演變成&lt;a href=&quot;https://www.ithome.com.tw/news/117580&quot; target=&quot;_blank&quot;&gt;公布Google產品漏洞作為報復&lt;/a&gt;。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 05:34:38 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146274 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146274#comments</comments>
+</item>
+<item>
+ <title>T-Mobile證實遭駭客入侵並外洩資料</title>
+ <link>https://www.ithome.com.tw/news/146273</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;就在&lt;a href=&quot;https://www.ithome.com.tw/news/146215&quot; target=&quot;_blank&quot;&gt;日前媒體披露&lt;/a&gt;有駭客在論壇中兜售T-Mobile的1億用戶資料之後，&lt;a href=&quot;https://www.t-mobile.com/news/network/additional-information-regarding-2021-cyberattack-investigation&quot; target=&quot;_blank&quot;&gt;T-Mobile於本周證實&lt;/a&gt;該公司的系統含有安全漏洞，且初步估計約有4,860萬名用戶的資料外洩。&lt;/p&gt;
+&lt;p&gt;T-Mobile表示，收到通知後，他們即聘請資安專家來協助調查，發現並立即關閉了相信是駭客用來非法存取的入口。&lt;/p&gt;
+&lt;p&gt;根據T-Mobile初步的調查，駭客存取的資料包括780萬名現有的月租型用戶，85萬名現有的預付卡用戶，以及逾4,000萬名過去及潛在用戶的個資，總計約有4,860萬名用戶的個資受到影響。&lt;/p&gt;
+&lt;p&gt;其中，780萬名月租型用戶，以及逾4,000萬名過去/潛在用戶的外洩資料類型，主要為姓名、生日、社會安全號碼，以及駕照/身分證資訊，並未含有電話號碼、帳號資訊、密碼、PIN碼或金融資訊。&lt;/p&gt;
+&lt;p&gt;然而，85萬名預付卡用戶的外洩資料，含有姓名、電話號碼及帳號的PIN碼。&lt;/p&gt;
+&lt;p&gt;T-Mobile立即重設了所有預付卡用戶的PIN碼，為了保險起見，亦建議月租型用戶主動重設PIN碼。此外，即日起所有的T-Mobile用戶都將擁有兩年免費的身分保護服務。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 04:56:21 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146273 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146273#comments</comments>
+</item>
+<item>
+ <title>Windows 11讓用戶不小心就把Edge變成預設瀏覽器</title>
+ <link>https://www.ithome.com.tw/news/146271</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Windows 11令許多用戶引頸期盼，但微軟似乎想讓用戶更無法擺脫他的瀏覽器。&lt;a href=&quot;https://www.theverge.com/22630319/microsoft-windows-11-default-browser-changes&quot; target=&quot;_blank&quot;&gt;The Verge報導Windows 11一項新作法&lt;/a&gt;，只要使用者一不小心，就得使用它的Edge瀏覽器。&lt;/p&gt;
+&lt;p&gt;在Windows 10上，用戶首次啟動新安裝的瀏覽器時，會跳出提示訊息，讓使用者勾選是否作為預設瀏覽器。用戶可以自由選擇Mozilla Firefox、Chrome、Opera、Brave、或微軟自己的Explorer作為開啟所有檔案的預設瀏覽器，或是只一次使用這款瀏覽器。The Verge 發現，和Windows 10一樣，Windows 11以Microsoft Edge為預設瀏覽器，但不同的是，如果用戶首次啟用Firefox或Chrome忘了或疏忽沒有按下「永遠使用這個應用程式」的按鍵，則Windows 11會將Edge當成你的預設瀏覽器。&lt;/p&gt;
+&lt;p&gt;而且Windows 11的設計讓預設瀏覽器的修改變得很麻煩。如果用戶發現預設瀏覽器變成Edge想修改時，必須按檔案或連線類型，如HTML、PDF、SVG、SHTML、WEBP、XHT、XHTML、FTP、HTTP和HTTPS等，再一個個變更成想要的瀏覽器。&lt;/p&gt;
+&lt;p&gt;媒體測試Windows 11的多個瀏覽器顯示，其他瀏覽器業者為了能綁住用戶及對抗微軟，除了Mozilla Firefox以外，幾乎每家瀏覽器，包括微軟Edge都在第一次啟動時，跳出要求使用者將之設為預設的提示。&lt;/p&gt;
+&lt;p&gt;但這在Windows 11的工作列widget則不管用。不論用戶預設設定為何，工作列widget一律以Edge作為預設瀏覽器。&lt;/p&gt;
+&lt;p&gt;對於修改預覽瀏覽器變得更困難，微軟的說詞是，這是根據用戶回饋的結果。新的設計提供用戶更精細的控制，也將所有應用程式拉到預設介面上供用戶選擇。如果用戶未來有什麼意見，微軟也會不斷修正。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 03:39:33 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146271 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146271#comments</comments>
+</item>
+<item>
+ <title>Visual Studio 2022新增安全機制防止開發者意外開啟惡意內容</title>
+ <link>https://www.ithome.com.tw/news/146261</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟在Visual Studio 2022第3預覽版本重新設計了&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/improving-developer-security-with-visual-studio-2022/&quot;&gt;信任配置功能&lt;/a&gt;，其目的是要提高開發者對於陌生程式碼風險的意識，並協助防範惡意攻擊者，從開啟內容到建置和執行應用程式，Visual Studio 2022能夠提供額外的安全防護。&lt;/p&gt;
+&lt;p&gt;微軟提到，近來軟體開發人員開始成為攻擊者的目標，出現像是Nobelium、Octopus Scanner和ZINC開源函式庫攻擊事件，而微軟試著提供安全工具鏈，讓開發者能夠更小心處理不受信任的內容。Visual Studio能夠評估開發者要開啟的內容，在設計階段的建置動作，能辨識專案結構和相依性，以提供豐富的功能，但是從威脅評估的角度來看，微軟表示，建置程式碼相當於執行，而這代表攻擊者可以創建一個場景，讓開發者只需要在Visual Studio中開啟內容，就有可能遭受攻擊。&lt;/p&gt;
+&lt;p&gt;在Visual Studio 2015的時候，微軟開始注意到這個問題，因此將信任範圍擴展到專案之外的項目，並且使用來自網路內容標籤來提示開發者，但是因為標籤使用規則不一致，導致整體設計出現問題，而且隨著開源軟體興盛，大多數開發人員取得和使用專案樣板的方式出現變化，因此這些安全顧慮再次成為值得關注問題。&lt;/p&gt;
+&lt;p&gt;在Visual Studio 2022中，微軟徹底更改了信任配置功能，在開發者嘗試開啟未受信任的內容時，能夠提供額外的安全防護，這個新功能主要由可信位置（Trusted Locations）和受限模式（Restricted Mode）兩部分構成。開發者在Visual Studio 2022第3預覽版本可以手動啟用可信位置功能，開啟之後，當Visual Studio偵測到開發者嘗試要開啟不受信任內容時，便會警示用戶相關的安全疑慮。&lt;/p&gt;
+&lt;p&gt;當開發者啟用可信位置功能，在Visual Studio 2022中開啟的所有內容，都會被視為不受信任，除非開發者或是企業透過群組政策，把這些內容添加到受信任位置列表中，用戶可以藉由配置資料夾位置、git儲存庫或是git儲存庫擁有者，來設定可信任內容。微軟提到，之中有許多安全性和可用性的權衡，因此他們最佳化了多種工作流程，盡量降低對開發者造成的影響。&lt;/p&gt;
+&lt;p&gt;不過，要信任原始碼並不是一個簡單的決定，開發者通常需要手動檢查程式碼，才能消除部分安全性疑慮，因此微軟也加入了受限模式，讓開發者能夠瀏覽和編輯不受信任的原始碼。雖然在這個模式中，開發者無法使用程式碼分析器或是視覺設計工具等設計時建置功能，但是能夠打開和檢查不受信任的程式碼，避免遠端程式碼執行等風險。&lt;/p&gt;
+&lt;p&gt;開發者可以Visual Studio 2022第3預覽版本啟用可信位置功能，微軟也提到，在下一個版本該功能會預設啟用，企業現在已經可以利用Windows群組政策，來設定受信任的儲存庫，並且禁止信任以及開啟限制之外的內容。而受限模式目前仍未開放，開發者還需要再等等。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 03:20:02 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146261 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146261#comments</comments>
+</item>
+<item>
+ <title>YouTube搜尋改版，將新增影片段落及他國翻譯影片</title>
+ <link>https://www.ithome.com.tw/news/146270</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blog.youtube/news-and-events/next-phase-searching-youtube&quot; target=&quot;_blank&quot;&gt;YouTube於17日宣布&lt;/a&gt;，該平臺的搜尋服務將進入下一個階段，當使用者以關鍵字搜尋所需的影片時，將不再只是呈現靜態的畫面，而是會出現影片中不同主題的段落，點選後還可直接播放，另外，就算使用者以中文搜尋，YouTube現在也會主動補充英文的影片內容，未來亦會支援其它語言。&lt;/p&gt;
+&lt;p&gt;光是從影片的標題與部份的文字摘錄，可能很難從YouTube的搜尋結果中找到自己所需的內容，因此，新的搜尋功能所出現的影片將提供不同主題的片段，使用者可直接點選其中一個片段進行觀看，以判斷是否符合需求。&lt;/p&gt;
+&lt;p&gt;舉例來說，當你想要尋找一個酸種食譜，企圖學習揉麵糰的技巧時，藉由新的YouTube搜尋，使用者將可檢視所有的步驟，並直接點選揉麵糰的片段。該功能已率先出現在桌面版的YouTube上，並準備部署至行動裝置。&lt;/p&gt;
+&lt;p&gt;此外，為了打破語言的隔閡，YouTube也將開始於搜尋結果中提供非當地語言的影片。只是，根據Google的說法，現在這個功能只會出現在當使用者以當地語言搜尋卻沒有發現相關結果時，系統就會搜尋基於其它語言的影片內容，而且會自動翻譯這些影片的名稱、描述與字幕。&lt;/p&gt;
+&lt;p&gt;因此，泰國民眾可能可以向麻省理工學院的教授學習量子物理，巴西民眾也可在家探索大峽谷。目前YouTube只會主動補充英文的搜尋結果，但計畫擴張至其它語言，最終目標是讓全球的使用者都能藉由翻譯的字幕存取所有內容。&lt;/p&gt;
+&lt;p&gt;YouTube也已於印度及印尼的行動裝置上測試一項新的功能，亦即在查無相關影片時，於YouTube搜尋結果中提供來自Google Search的網站連結或其它形式的內容，並打算將該功能擴張至其它市場。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 03:11:45 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146270 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146270#comments</comments>
+</item>
+</channel>
+</rss>

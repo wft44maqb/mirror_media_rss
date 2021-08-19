@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>The News Lens 關鍵評論網 - powered by FeedBurner</title>
+        <link href="//feedburner.google.com/fb/lib/stylesheets/undohtml.css" rel="stylesheet" type="text/css" media="all">
+        <link href="//feedburner.google.com/fb/feed-styles/bf30.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="alternate" type="application/rss+xml" title="The News Lens 關鍵評論網" href="http://feeds.feedburner.com/TheNewsLensINTL">
+        <script type="text/javascript" src="//feedburner.google.com/fb/feed-styles/bf30.js"></script>
+    </head>
+    <body id="browserfriendly" onload="jsFeedUrl='http://feeds.feedburner.com/TheNewsLensINTL';loadSubscribeAreaUltra('standard');go_decoding()">
+        <div id="cometestme" style="display:none;">&amp;</div>
+        <div id="bodycontainer">
+            <div id="bannerblock">
+                <h1>
+                    <a href="http://international.thenewslens.com/feed/all" title="Link to original website">The News Lens 關鍵評論網</a>
+                </h1>
+                <h2>syndicated content powered by FeedBurner</h2>
+                <p style="clear:both"></p>
+            </div>
+            <div id="bodyblock">
+                <div id="subscribenow" class="subscribeblock action">
+                    <div id="subscribe-userchoice" style="display:none">
+                        <p id="subscribeLink">
+                            <a href="#">...</a>
+                        </p>
+                        <p id="resetLink">
+                            Reset this favorite; <a href="#" onclick="return clearUserchoice('standard')">show all Subscribe options</a>
+                        </p>
+                    </div>
+                    <div id="subscribe-options">
+                        <h3>Subscribe Now!</h3>
+                        <h4>...with web-based news readers. Click your choice below:</h4>
+                        <div id="webbased">
+                            <a href="https://add.my.yahoo.com/rss?url=http://feeds.feedburner.com/TheNewsLensINTL" onclick="this.href = subscribeNow(this.href,'My Yahoo!');return true"><img src="https://sp.yimg.com/j/assets/ipt/addtomyyahoo.gif" width="91" height="17" alt="addtomyyahoo4"></a>
+                            <br>
+                            <a class="img" href="https://feedly.com/#subscription/feed/http://feeds.feedburner.com/TheNewsLensINTL" onclick="this.href = subscribeNow(this.href,'Feedly');return true"><img src="https://s3.feedly.com/feedburner/feedly.png" alt="Subscribe with Feedly"></a><a href="https://www.netvibes.com/subscribe.php?url=http://feeds.feedburner.com/TheNewsLensINTL" onclick="this.href=subscribeNow(this.href,'Netvibes');return true"><img src="https://www.netvibes.com/img/add2netvibes.gif" alt="Add to netvibes"></a>
+                            <br>
+                            <a class="img" href="https://www.subtome.com/#/subscribe?feeds=http://feeds.feedburner.com/TheNewsLensINTL" onclick="this.href = subscribeNow(this.href,'SubToMe');return true"><img src="https://www.subtome.com/subtome-feedburner.png" alt="Subscribe with SubToMe"></a>
+                        </div>
+                        <h4>...with other readers:</h4>
+                        <form action="https://feedburner.google.com" method="get">
+                            <select onchange="location.href=subscribeNowUltra('feed:http://feeds.feedburner.com/TheNewsLensINTL',this.options[this.selectedIndex].value)"><option value="--" disabled selected style="padding-left:0">(Choose Your Reader)</option><option value="FeedDemon">FeedDemon</option><option value="NetNewsWire">NetNewsWire</option><option value="NewsFire">NewsFire</option><option value="NewsGator Outlook Edition">NewsGator Outlook Edition</option><option value="RSSOwl">RSSOwl</option><option value="shrook">Shrook</option><option value="USM">Universal Subscription Mechanism (USM)</option></select>
+                        </form>
+                        <p>
+                            <a href="http://feeds.feedburner.com/TheNewsLensINTL?format=xml"><img src="//feedburner.google.com/fb/lib/images/icons/feed-icon-12x12-orange.gif" alt="original feed"></a> <a href="http://feeds.feedburner.com/TheNewsLensINTL?format=xml">View Feed XML</a>
+                        </p>
+                    </div>
+                    <input id="savechoice" type="hidden" value="standard">
+                </div>
+                <p class="about">FeedBurner makes it easy to receive content updates in My Yahoo!, Newsgator, Bloglines, and other news readers.</p>
+                <p class="about">
+                    <a href="https://support.google.com/feedburner/answer/79408">Learn more about syndication and FeedBurner...</a>
+                </p>
+                <h3 id="currentFeedContent">Current Feed Content</h3>
+                <ul>
+                    <li class="regularitem" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/155270">Singaporeans Are Upset About Covid Restrictions. Will They Notice Migrant Workers? </a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 16:05:20 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">There are likely more people upset about being blocked from going to a restaurant or a gym, because of their vaccination status, than people upset about the prolonged and unfair confinement of tens of thousands of men regardless of their vaccination status.</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/155263">Indonesia: Will The Army&rsquo;s Ban on &lsquo;Virginity Tests&rsquo; Last?</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 14:47:49 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">The Indonesian army says it will no longer conduct virginity tests on women applying to join the forces, but there are worries that the ban might not last long. </div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/155182">New Zealand Locks Down after One Covid-19 Case</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Wed, 18 Aug 2021 12:25:30 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">Strong response towards New Zealand&apos;s first Covid-19 case in six months. It is suspected to be caused by delta variant, but not confirmed.</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/155145">How Did Chinese Propaganda Force Hong Kong&rsquo;s Largest Teachers Union To Disband?</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 17 Aug 2021 16:50:21 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">No evidence shows that the teachers’ union has violated the national security law, but the police sa...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/155075">Analysts: China Expanding Influence in Africa Via Telecom Network Deals</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Mon, 16 Aug 2021 13:10:11 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">Critics worry about government purchases of Chinese equipment enabling repressive regimes, but in many African markets, a lack of options has created a dependence on Beijing-financed projects</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/155029">Overcoming the Next Challenges in Taiwan&rsquo;s Vaccination Campaign</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Fri, 13 Aug 2021 18:13:49 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">As Taiwan’s government is stepping up to secure vaccine supplies from global manufacturers, it should boost confidence in domestically-produced vaccines by asking the companies to kick off Phase III trials.</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/155002">Australian Researchers Find New Species of Flying Prehistoric Reptile</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Fri, 13 Aug 2021 13:24:34 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">New species of a flying prehistoric reptile found. They say it&apos;s the “closest thing we have to a real-life dragon.”</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/154977">What Tokyo Olympics Means to Taiwan</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 12 Aug 2021 18:50:27 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">China will continue blocking Taiwan’s participation as a country in international sports events, but it cannot prevent the Taiwanese contingent from advancing to the final games and contesting a medal with its athletes. </div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/154970">Thailand: Growing Covid Crisis Heats Up Political Tension</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 12 Aug 2021 17:40:22 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">Thailand is experiencing its worst surge in cases since the pandemic began, which has increased discontent with the government and reinvigorated an ongoing protest movement. </div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/154886">China&rsquo;s Likely Responses to European and Indian Warships in Sea it Calls its Own</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Wed, 11 Aug 2021 12:48:35 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">In response to challenges to their claim on the disputed South China Sea, Chinese authorities may tail foreign vessels, protest verbally and target other countries one by one, analysts suggest</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/154823">&ldquo;I Am a Taiwanese&rdquo;: Eastern Europeans See a Cold War in East Asia</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 10 Aug 2021 14:45:09 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">Memories of life under authoritarianism forge ties between Taiwan and a growing number of Eastern European states.</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/154758">Taiwan&rsquo;s Pandemic Hit Hotel Industry Needs a Lifeline</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Mon, 09 Aug 2021 12:48:50 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">The Covid-19 outbreak that began in mid-May has brought hotels to their knees. Without a larger relief package, some may not survive.</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/154680">US Announces Temporary 'Safe Haven' for Hong Kong Residents</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Fri, 06 Aug 2021 12:55:05 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">U.S. President Joe Biden said the &amp;quot;significant erosion&amp;quot; of rights and &amp;quot;politically motivated arrests&amp;quot; were behind the move. Hong Kong residents in the U.S. can now extend their stay.</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/154629">The Diplomatic Struggle Over Taiwan&rsquo;s Name in the Olympics</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 05 Aug 2021 16:35:47 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">The Taiwanese team can only compete under the name of Chinese Taipei in the Games. Some are trying to change that.</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/154551">How Many Antibodies Does It Take To Be Immune to the Coronavirus?</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Wed, 04 Aug 2021 13:31:44 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">Antibodies are important for a vaccination to work, but scientists don&apos;t yet know what level they must reach. The new delta variant poses another problem.</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/154508">China Threatens the West&rsquo;s Primacy, Not Its Democratic Systems</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Tue, 03 Aug 2021 16:25:56 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">Cold War tropes misrepresent Beijing’s challenge, and exaggerate its material and ideological power.</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/154442">Myanmar Junta Forms Caretaker Government; Min Aung Hlaing is Prime Minister</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Mon, 02 Aug 2021 11:24:20 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">6 months after coup, Myanmar military leader claims both recommitment to elections as well as working with ASEAN representatives. </div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://international.thenewslens.com/article/154438">Survey: US Perceptions of China in the Early Biden Era</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Mon, 02 Aug 2021 09:06:31 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">Our survey indicates a broadly shared concern about China in the United States, but not necessarily a consensus on what to do in regards to the economic challenges China poses.</div>
+                    </li>
+                </ul>
+            </div>
+            <div id="footer">
+                <a href="https://feedburner.google.com"><img src="//feedburner.google.com/fb/feed-styles/images/footer_logo.gif"></a>
+                <p>
+                    FeedBurner delivers the world's subscriptions wherever they need to go. Publish a feed for text or podcasting? <a href="https://feedburner.google.com" target="_blank">
+                        <br>
+                        You should try FeedBurner today</a>.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

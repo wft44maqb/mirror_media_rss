@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>The News Lens 關鍵評論網 - powered by FeedBurner</title>
+        <link href="//feedburner.google.com/fb/lib/stylesheets/undohtml.css" rel="stylesheet" type="text/css" media="all">
+        <link href="//feedburner.google.com/fb/feed-styles/bf30.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="alternate" type="application/rss+xml" title="The News Lens 關鍵評論網" href="http://feeds.feedburner.com/TheNewsLensASEAN">
+        <script type="text/javascript" src="//feedburner.google.com/fb/feed-styles/bf30.js"></script>
+    </head>
+    <body id="browserfriendly" onload="jsFeedUrl='http://feeds.feedburner.com/TheNewsLensASEAN';loadSubscribeAreaUltra('standard');go_decoding()">
+        <div id="cometestme" style="display:none;">&amp;</div>
+        <div id="bodycontainer">
+            <div id="bannerblock">
+                <h1>
+                    <a href="http://www.thenewslens.com/feed/all" title="Link to original website">The News Lens 關鍵評論網</a>
+                </h1>
+                <h2>syndicated content powered by FeedBurner</h2>
+                <p style="clear:both"></p>
+            </div>
+            <div id="bodyblock">
+                <div id="subscribenow" class="subscribeblock action">
+                    <div id="subscribe-userchoice" style="display:none">
+                        <p id="subscribeLink">
+                            <a href="#">...</a>
+                        </p>
+                        <p id="resetLink">
+                            Reset this favorite; <a href="#" onclick="return clearUserchoice('standard')">show all Subscribe options</a>
+                        </p>
+                    </div>
+                    <div id="subscribe-options">
+                        <h3>Subscribe Now!</h3>
+                        <h4>...with web-based news readers. Click your choice below:</h4>
+                        <div id="webbased">
+                            <a href="https://add.my.yahoo.com/rss?url=http://feeds.feedburner.com/TheNewsLensASEAN" onclick="this.href = subscribeNow(this.href,'My Yahoo!');return true"><img src="https://sp.yimg.com/j/assets/ipt/addtomyyahoo.gif" width="91" height="17" alt="addtomyyahoo4"></a>
+                            <br>
+                            <a class="img" href="https://feedly.com/#subscription/feed/http://feeds.feedburner.com/TheNewsLensASEAN" onclick="this.href = subscribeNow(this.href,'Feedly');return true"><img src="https://s3.feedly.com/feedburner/feedly.png" alt="Subscribe with Feedly"></a><a href="https://www.netvibes.com/subscribe.php?url=http://feeds.feedburner.com/TheNewsLensASEAN" onclick="this.href=subscribeNow(this.href,'Netvibes');return true"><img src="https://www.netvibes.com/img/add2netvibes.gif" alt="Add to netvibes"></a>
+                            <br>
+                            <a class="img" href="https://www.subtome.com/#/subscribe?feeds=http://feeds.feedburner.com/TheNewsLensASEAN" onclick="this.href = subscribeNow(this.href,'SubToMe');return true"><img src="https://www.subtome.com/subtome-feedburner.png" alt="Subscribe with SubToMe"></a>
+                        </div>
+                        <h4>...with other readers:</h4>
+                        <form action="https://feedburner.google.com" method="get">
+                            <select onchange="location.href=subscribeNowUltra('feed:http://feeds.feedburner.com/TheNewsLensASEAN',this.options[this.selectedIndex].value)"><option value="--" disabled selected style="padding-left:0">(Choose Your Reader)</option><option value="FeedDemon">FeedDemon</option><option value="NetNewsWire">NetNewsWire</option><option value="NewsFire">NewsFire</option><option value="NewsGator Outlook Edition">NewsGator Outlook Edition</option><option value="RSSOwl">RSSOwl</option><option value="shrook">Shrook</option><option value="USM">Universal Subscription Mechanism (USM)</option></select>
+                        </form>
+                        <p>
+                            <a href="http://feeds.feedburner.com/TheNewsLensASEAN?format=xml"><img src="//feedburner.google.com/fb/lib/images/icons/feed-icon-12x12-orange.gif" alt="original feed"></a> <a href="http://feeds.feedburner.com/TheNewsLensASEAN?format=xml">View Feed XML</a>
+                        </p>
+                    </div>
+                    <input id="savechoice" type="hidden" value="standard">
+                </div>
+                <p class="about">FeedBurner makes it easy to receive content updates in My Yahoo!, Newsgator, Bloglines, and other news readers.</p>
+                <p class="about">
+                    <a href="https://support.google.com/feedburner/answer/79408">Learn more about syndication and FeedBurner...</a>
+                </p>
+                <h3 id="currentFeedContent">Current Feed Content</h3>
+                <ul>
+                    <li class="regularitem" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155104">【專訪】泰國漫畫家JUNG Senarak：在電梯「見鬼」的經驗，開啟我創作鬼漫畫的動力</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 22:00:06 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">在創作過程中，JUNG Senarak也透過蒐集實際資料與研究，將泰國民俗傳統元素融入作品中，許多生僻的儀式文化，就被JUNG蒐集來用在作品裡，既吸引讀者的好奇心，又有真實感。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155287">台灣不負「螺絲王國」美名稱霸美國市場，業者：韓國是未來最大勁敵</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 21:26:23 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">台灣螺絲帽產業受惠各國疫情穩定，經濟逐漸復甦加上各國積極推動基礎建設，截至5月生產值579億元，年增21.5%，數據顯示於美國市占率居冠，而台灣螺絲帽業者—台灣三星科技指出，台灣螺絲帽產業品質好，成為...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154861">《零下六十八度：二戰後臺灣人的西伯利亞戰俘經驗》：很快地，眾人發現這並非日本海，而是貝加爾湖</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 20:00:36 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">除了日本人，當時的臺灣人成為戰俘後，也被送往西伯利亞。臺灣人來自溫暖海島，更加不能適應北地氣候，然而，這段歷史卻被抹去、消失於臺灣人的記憶中。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155043">謝伯讓《大腦簡史》：為什麼生物的重要感官與神經細胞大多集中在頭部？</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 20:00:35 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">中樞神經系統發展出來後，很快就把內分泌系統的主導權收回手中。前腦中的下視丘和腦下垂體，變成了內分泌系統的首腦，強力主宰了身體的內分泌系統。至於體內的各種消化、循環、呼吸等系統，也在交感神經和副交感神經...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154795">《瘋狂的年代》：一旦短期刺激效應用盡，此時美國不「正好」也需要一場及時的戰爭嗎？</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 20:00:31 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">前事不忘，後事之師。人類要避免再次爆發如二十世紀上半葉連續兩次瘋狂殺戮之世界大戰，唯有認真面對和理解戰爭爆發的因由，才有可能獲得啟發和教訓，否則兩次世界大戰就不只是歷史，而是即將到來的事實。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154899">《思維的良率》：七個提問技巧，培養基層員工具備高階主管的思維</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 20:00:16 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">提問能力、問題分析與解決、邏輯思考能力，這些職場的基本功，不會隨著時代變遷失去重要性，每個時代、每個產業、每個職場，都會有新的問題有待我們突破。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/154841">《巫師與先知》：「巫師」和「先知」不是兩個壁壘分明的陣營，而是對良好生活有不同看法</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 20:00:09 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">兩種觀點之間的衝突不是善與惡的衝突，而是對良好生活的不同看法，以及重視個人自由和重視所謂「連結」的倫理秩序的衝突。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155291">疑因近期對台友好，中國國企「中鐵集裝箱」取消直達立陶宛鐵路貨運</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 19:05:10 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">中鐵集裝箱將於8月底中斷直達立陶宛鐵路貨運，負責交通運輸事務的立陶宛駐中國大使館參贊林姆柯斯（Ramūnas Rimkus）認為，中方的決定是政治考量。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155265">知名遊戲發行商Ubisoft新加坡分部，遭指控發生種族歧視與性騷擾</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 18:26:21 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">Ubisoft新加坡分部現職或前員工指出他們遭受的職場不公對待，其中兩位女性指控遭受不適當的觸摸和言論，另有一位員工說，「本地員工和外籍員工間的薪資差距簡直瘋了。」</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155221">將軍澳路牌排版亂，最致命係指錯方向（附改善建議）</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 18:03:06 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">路牌唔係大塊就易睇。亂排版嘅話，幾大塊都好難睇。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155279">《醫官同謀》一場大火之後： 貪腐體制政府殘民自肥， 愚公應該移山還是移民？</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 18:00:26 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">紀錄片可看到，於這次火災，大家都有責任；過去30多年就如過著跟執政者當共犯一樣的生活，明明以前除了聽政府話外，還可以做點甚麼。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155101">【專訪】泰國漫畫家Munin：圖畫不只是小孩子的東西，台灣插畫家幾米為我開了一扇門</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 18:00:02 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">善於觀察旁人情感的Munin，作品總能觸及讀者柔軟心緒。這些漫畫之所以動人，與她的每部作品都真誠呼應自己的感情，並隨人生階段不斷變化，應該關係匪淺。從他國漫畫影響中跳脫的表現形式，貼近日常的題材與細膩...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155277">中國華融虧損達1029億人民幣，甩鍋被判死的前董事長賴小民「貪官傳奇」</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 17:59:01 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">由中國政府出資且控股的「中國華融資產管理公司」傳出去（2020）年的財報虧損達到人民幣1029億元，面對如此駭人聽聞的數字，中國華融緊急發表聲明，這些是主要由前董事長賴小民所造成，其任內貪腐無能且管理...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155269">「其實落雨又有咩好怕喎」！東坡如何超越「希望在明天」？</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 17:58:43 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">希望不在明天，要做到不以物喜，不以己悲之境界。「其實落雨又有咩好怕喎！」</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155218">四處都是認知行為治療，一定是最好？</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 17:54:29 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">在部分人眼中，認知行為治療（CBT）就是現今心理治療的金科玉律，但在一些人身上就不怎麼奏效。</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155280">阿富汗鴉片產量佔全球83％，獲利甚豐的塔利班如何打造「無毒國家」？</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 17:51:28 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">美國前國務院阿富汗問題顧問Barnett Bubin表示，非法毒品是阿富汗除了戰爭以外最大的產業。過去，在阿富汗的第二大城坎大哈（Kandahar），每運送1公斤的海洛因就要向塔利班支付63至95美元...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155081">（更新）「當沖降稅」任務已結束？資深投資人：別走回頭路，台股無量緩跌才是最大危機</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 16:44:00 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">近來當沖降稅優惠即將到期，而是否延期成為市場上關切的焦點，有人認為降稅的政策目的已經達成，長痛不如短痛，應回歸市場正常化，否則將助長「投機」，使金融市場失序淪為「賭場」；而另一派則主張有成交量才有上漲...</div>
+                    </li>
+                    <li class="regularitem">
+                        <h4 class="itemtitle">
+                            <a href="https://www.thenewslens.com/article/155206">振興券排除電商，是在懲罰數位轉型的店家嗎？</a>
+                        </h4>
+                        <h5 class="itemposttime">
+                            <span>Posted:</span>Thu, 19 Aug 2021 16:00:55 +0800
+                        </h5>
+                        <div class="itemcontent" name="decodeable">振興券要排除電商，只有部分白名單可以使用，當然電商業者會不開心了。但是這些怨言其實也帶來了振興券「專攻實體」之外，一些值得思考的面向。</div>
+                    </li>
+                </ul>
+            </div>
+            <div id="footer">
+                <a href="https://feedburner.google.com"><img src="//feedburner.google.com/fb/feed-styles/images/footer_logo.gif"></a>
+                <p>
+                    FeedBurner delivers the world's subscriptions wherever they need to go. Publish a feed for text or podcasting? <a href="https://feedburner.google.com" target="_blank">
+                        <br>
+                        You should try FeedBurner today</a>.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
