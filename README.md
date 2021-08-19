@@ -1,6 +1,11 @@
-### 無污染dns伺服器 (beta)：
+### **無污染dns伺服器（beta）：**
+#### 直連伺服器：（推廌）
 ```
 https://wft44maqb.me/dns-query
+```
+#### 經Cloudflare：（複雜網絡地區用戶有望加強穩定性並減少延遲。）
+```
+https://dns.wft44maqb.me/dns-query
 ```
 
 # RSS鏡像 免翻牆
