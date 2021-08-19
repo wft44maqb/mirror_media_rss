@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/5043" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/5043</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/5043" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>針對勒索軟體Diavol與製作TrickBot的駭客組織的關連，IBM找到更多線索</title>
+    <link>https://www.ithome.com.tw/news/146280</link>
+    <description> 資安業者Fortinet在7月初揭露名為的Diavol勒索軟體，並基於與Conti有許多共通的特性，認為可能是出自製作Trickbot殭屍病毒的駭客「Wizard Spider」之手。</description>
+     <pubDate>2021-08-19  07:08:06</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146280</guid>
+  </item>
+  <item>
     <title>美國SEC控告3名Netflix前工程師涉及內線交易</title>
     <link>https://www.ithome.com.tw/news/146278</link>
     <description> 美國證券交易委員會（Securities and Exchange Commission，SEC）周三（8/18）控告3名Netflix的前工程師及其親友從事內線交易，在2016年至2019年間不當獲利超過300萬美元，違反美國《證券法》（Exchange Act Rule）。</description>
@@ -255,17 +263,6 @@ AI內化引爆資料治理需求，轉核也是關鍵推力
      <pubDate>2021-08-18  07:08:00</pubDate>
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146201</guid>
-  </item>
-  <item>
-    <title>【玉山AI實例2】一年千萬張支票如何消化？玉山銀行靠票據辨識來加速</title>
-    <link>https://www.ithome.com.tw/news/146200</link>
-    <description> 玉山銀行一年要發出上千萬張支票，為正確登記票據金額，往往得動用大量人力登打資料。
-從流程上來說，每張支票或匯款單進入分行後，分行會開始審核、簡單建檔以及掃描影像，再由集中作業部人工建立完整檔案、確認資料，最後才交給票據交換所。
-而玉山銀行的最大痛點，就在集中作業部。因為，他們得耗費大量人力和工時來登打資料，每到月初月底，還得調度人力應付大量業務。這種調度仰賴經驗，沒有系統能即時監控、輔助決策；也因為沒有系統，支援紀錄不被留存，考核時更難有依據依循。
-為解決問題，玉山銀行展開一項AI專案，要打造一套票據手寫辨識模型，來輔助人員登打資料。</description>
-     <pubDate>2021-08-18  07:08:00</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146200</guid>
   </item>
   </channel>
 </rss>
