@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 19 Aug 2021 23:54:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Aug 2021 23:56:45 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 19 Aug 2021 23:54:12 GMT</pubDate>
+        <pubDate>Thu, 19 Aug 2021 23:56:44 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -33,6 +33,13 @@
             <link>https://cn.wsj.com/articles/%E7%BF%92%E8%BF%91%E5%B9%B3%E5%BC%B7%E8%AA%BF%E5%85%B1%E5%90%8C%E5%AF%8C%E8%A3%95%EF%BC%8C%E5%B8%8C%E6%9C%9B%E5%9B%9E%E6%AD%B8%E4%B8%AD%E5%85%B1%E5%88%9D%E5%BF%83-11629358206</link>
             <guid isPermaLink="false">CT-BCH-20210819141206</guid>
             <pubDate>Thu, 19 Aug 2021 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中國金融監管機構約談中國恆大高管]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ241_EVERSU_OR_20210819073858.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國金融監管機構周四約談了中國恆大高管，並稱該公司需要維護房地產和金融市場穩定的前提下解決債務問題。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E9%87%91%E8%9E%8D%E7%9B%A3%E7%AE%A1%E6%A9%9F%E6%A7%8B%E7%B4%84%E8%AB%87%E4%B8%AD%E5%9C%8B%E6%81%86%E5%A4%A7%E9%AB%98%E7%AE%A1-11629417306</link>
+            <guid isPermaLink="false">CT-BIZ-20210820071740</guid>
+            <pubDate>Thu, 19 Aug 2021 23:55:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中國監管日益收緊，滴滴董事會因赴美上市出現裂痕]]></title>
@@ -60,7 +67,14 @@
             <description><![CDATA[<img width="1280" height="815" src="https://si.wsj.net/public/resources/images/S1-LQ393_AFCABL_OR_20210819125215.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國官員和知情人士透露，在喀布爾大使館工作的大約二十多名國務院官員上個月向美國國務卿布林肯和另一名國務院高級官員發送了一份內部通知，警告說喀布爾在8月31日撤軍最後期限過後不久可能就會崩潰。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E5%9C%8B%E5%8B%99%E9%99%A27%E6%9C%88%E6%9B%BE%E6%94%B6%E5%88%B0%E6%A9%9F%E5%AF%86%E9%9B%BB%E5%A0%B1%E8%AD%A6%E5%91%8A%E9%98%BF%E5%AF%8C%E6%B1%97%E6%88%96%E8%BF%85%E9%80%9F%E5%B4%A9%E6%BD%B0-11629415206</link>
             <guid isPermaLink="false">CT-BGH-20210820070644</guid>
-            <pubDate>Thu, 19 Aug 2021 23:30:00 GMT</pubDate>
+            <pubDate>Thu, 19 Aug 2021 23:55:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[美國FTC對Facebook提起新的反壟斷訴訟]]></title>
+            <description><![CDATA[<img width="1280" height="907" src="https://si.wsj.net/public/resources/images/S1-LP501_FACEBO_OR_20210817145447.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國聯邦貿易委員會周四對Facebook提起了新的反壟斷訴訟，試圖通過對該公司濫用社交媒體壟斷地位的加強版指控來啟動其案件。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8Bftc%E5%B0%8Dfacebook%E6%8F%90%E8%B5%B7%E6%96%B0%E7%9A%84%E5%8F%8D%E5%A3%9F%E6%96%B7%E8%A8%B4%E8%A8%9F-11629417305</link>
+            <guid isPermaLink="false">CT-TEC-20210820072528</guid>
+            <pubDate>Thu, 19 Aug 2021 23:55:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[美聯儲暗示資產購買計劃可能在今年減速]]></title>
@@ -95,13 +109,6 @@
             <description><![CDATA[<img width="1280" height="857" src="https://si.wsj.net/public/resources/images/S1-LQ112_AMAZON_OR_20210818180308.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據知情人士稱，亞馬遜計劃在美國開設幾家大型實體零售店，其經營方式類似於百貨公司，這一舉措有助於這家科技公司擴大其在服裝、家居用品、電子產品和其他領域的銷售範圍。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E4%BA%9E%E9%A6%AC%E9%81%9C%E8%A8%88%E5%8A%83%E9%96%8B%E8%A8%AD%E9%A1%9E%E4%BC%BC%E7%99%BE%E8%B2%A8%E5%95%86%E5%BA%97%E7%9A%84%E5%A4%A7%E5%9E%8B%E9%9B%B6%E5%94%AE%E8%A8%AD%E6%96%BD-11629415806</link>
             <guid isPermaLink="false">CT-BIZ-20210820072104</guid>
-            <pubDate>Thu, 19 Aug 2021 23:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[三名前Netflix軟體工程師被控內幕交易]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ368_ST_NET_OR_20210819121548.jpg" class="webfeedsFeaturedVisual" alt=""/><p>訴狀稱，三名前Netflix軟體工程師及兩名親友通過交易有關Netflix用戶增長的機密資訊獲利約300萬美元。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%B8%89%E5%90%8D%E5%89%8Dnetflix%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%A2%AB%E6%8E%A7%E5%85%A7%E5%B9%95%E4%BA%A4%E6%98%93-11629415806</link>
-            <guid isPermaLink="false">CT-MKT-20210820072001</guid>
             <pubDate>Thu, 19 Aug 2021 23:30:00 GMT</pubDate>
         </item>
         <item>
