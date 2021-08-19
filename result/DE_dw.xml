@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-19T10:17:47Z</updated>
+ <updated>2021-08-19T10:20:46Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58905974</id>
+  <title><![CDATA[“12港人案”李宇轩承认“串谋勾结外国势力”]]></title>
+  <updated>2021-08-19T10:12:00Z</updated>
+  <published>2021-08-19T10:12:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/12港人案-李宇轩承认-串谋勾结外国势力/a-58905974?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[香港12港人偷渡案涉案人员、香港故事成员李宇轩被控违反香港国安法下一项“串谋勾结外国或者境外势力危害国家安全”罪名。今天他在法庭上认罪。与他一起当庭认罪的还有律师助理陈梓华。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58905844</id>
   <title><![CDATA[多名美国驻德外交官或患哈瓦那综合症]]></title>
@@ -202,16 +212,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/驳台湾阿富汗类比-美国安顾问：对台承诺坚实/a-58892491?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[美国撤军阿富汗后，部分中国、台湾媒体质疑美国对台湾的承诺，并称「今日阿富汗、明日台湾」。对此，美国国安顾问沙利文将台湾与以色列并置，表示美国对盟友的承诺「神圣不可侵犯」。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58892329</id>
-  <title><![CDATA[港警国安处逮捕港大学生  传涉「七一袭警案」]]></title>
-  <updated>2021-08-18T05:21:00Z</updated>
-  <published>2021-08-18T05:21:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/港警国安处逮捕港大学生-传涉「七一袭警案」/a-58892329?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[香港警方国安处的员警18日上午逮捕至少四名前港大学生会成员，指他们与悼念「七一袭警案」嫌犯一事有关。同日，曾协助「反送中」示威者的基金也宣布，将以有秩序的方式停止运作。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
