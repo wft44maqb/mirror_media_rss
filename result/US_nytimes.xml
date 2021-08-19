@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Thu, 19 Aug 2021 18:32:43 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Aug 2021 18:42:54 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[拜登仍有可能避免在阿富汗徹底失敗]]></title>
+            <link><![CDATA[https://cn.nytimes.com/opinion/20210819/afghanistan-biden-taliban/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[塔利班是否會重回20年前的老路尚屬未知，而美國通過多元化培育阿富汗的穩定這一理論本身沒有錯。重要的是拜登政府如何應對此後的局面。<p><img src='https://static01.nyt.com/images/2021/08/17/opinion/16friedman-lead/16friedman-lead-articleLarge-v2.jpg' alt=' Kiana Hayeri for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Kiana Hayeri for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>觀點與評論</category>
+            <dc:creator><![CDATA[湯馬斯·佛里曼]]></dc:creator>
+            <pubDate>Thu, 19 Aug 2021 06:42:02 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210819/afghanistan-biden-taliban/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[中國謹慎應對阿富汗局勢：如何與塔利班打交道？]]></title>
             <link><![CDATA[https://cn.nytimes.com/world/20210819/china-afghanistan-taliban/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[DAVID ZUCCHINO,JIM HUYLEBROEK,KIANA HAYERI]]></dc:creator>
             <pubDate>Mon, 16 Aug 2021 03:24:09 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210816/afghanistan-taliban-kabul-surrender/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[黑山天價高速公路：中國的好買賣，黑山的災難？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210816/montenegro-highway-china/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[這條高速公路耗資近10億美元、曾被譽為「一帶一路」倡議的早期勝利。但隨著黑山國內政治形勢變化，它成為眾矢之的，也令中國陷入巴爾幹錯綜複雜的地緣政治鬥爭。<p><img src='https://static01.nyt.com/images/2021/08/05/world/xxmontenegro-china01/merlin_192773721_879a4a5e-e304-45d8-befe-15b994db2b17-articleLarge.jpg' alt='中國建造的新高速公路穿過黑山山脈，耗資近10億美元。 Laura Boushnak for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Laura Boushnak for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>中國建造的新高速公路穿過黑山山脈，耗資近10億美元。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[ANDREW HIGGINS]]></dc:creator>
-            <pubDate>Mon, 16 Aug 2021 03:05:41 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210816/montenegro-highway-china/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
