@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Tue, 17 Aug 2021 08:30:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[美國行動通訊服務商 T-Mobile 發生大規模客戶資料外洩事件，近億用戶個資遭竊]]></title><link>http://www.twcert.org.tw/tw/cp-104-5017-c33a1-1.html</link><description><![CDATA[<p><strong>美國行動通訊服務商 T-Mobile 有近億顧客資料，日前被放上網路待價而沽；T-Mobile 也證實這批資料被竊，目前正在進行調查作業。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Thu, 19 Aug 2021 09:33:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[數千萬台 IoT 裝置內含嚴重資安漏洞，可導致駭侵者取得監看監聽資訊]]></title><link>http://www.twcert.org.tw/tw/cp-104-5020-e9ab3-1.html</link><description><![CDATA[<p><strong>資安專家發現一個嚴重資安漏洞，存於數千萬台使用 Kalay IoT 雲端平台與開發工具的 IoT 產品中，可導致駭侵者取得這些 IoT 裝置產生的監控資訊，甚至於裝置控制權。</strong><br />
+<br />
+資安廠商 Mandiant 旗下的資安專家，在 2020 年底發現一個嚴重資安漏洞，存於數千萬台使用 Kalay IoT 雲端平台與開發工具的 IoT 產品中；這些 IoT 產品主要是連網監視裝置，該漏洞可導致駭侵者遠端取得這些 IoT 裝置產生的監控資訊，甚至於裝置控制權。<br />
+<br />
+該漏洞的 CVE 編號定為 CVE-2021-21873，發生在提供給 IoT 裝置廠商用以開發軟體所需的開發工具（SDK）內的 Kalay protocol；其 CVSS 危險程度評分高達 9.6 分（滿分為 10 分）。<br />
+<br />
+資安專家指出， 各種支援 Kalay protocol 的 IoT 裝置，只需要提供一個裝置的不重覆識別碼（UID），即可註冊使用 Kalay 雲端服務，並且把監控資料儲存到其雲端伺服器內；而該裝置的用戶在使用 Kalay 提供的行動 app 或 web 界面時，也只需提供該 UID，即可取得存在雲端的監控資料。<br />
+<br />
+由於驗證過程的安全性很薄弱，因此攻擊者可以透過提供 UID，以偽造身分的方式，即可自 Kalay 雲端服務中輕易取得監控畫面或錄音的資料，甚至還能進一步結合其他漏洞，完全控制監裝置。<br />
+<br />
+Mandiant 的資安專家以此漏洞為基礎，發展出的攻擊概念證明程式，可以透過此漏洞掃瞄裝置、註冊並取得 UID、遠端連線到該裝置並登入其控制界面，最終取得監控的畫面與音訊資料。<br />
+<br />
+此漏洞已經緊急推出暫時解決方案，美國資安主管機關 CISA 也發表資安通報，提供技術指導與處理建議。</p>]]></description><pubDate>Thu, 19 Aug 2021 09:33:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5020-e9ab3-1.html</guid></item><item><title><![CDATA[美國行動通訊服務商 T-Mobile 發生大規模客戶資料外洩事件，近億用戶個資遭竊]]></title><link>http://www.twcert.org.tw/tw/cp-104-5017-c33a1-1.html</link><description><![CDATA[<p><strong>美國行動通訊服務商 T-Mobile 有近億顧客資料，日前被放上網路待價而沽；T-Mobile 也證實這批資料被竊，目前正在進行調查作業。</strong><br />
 <br />
 美國大型行動通訊服務商 T-Mobile，日前發生嚴重資安事件；有近億顧客資料日前被放上網路待價而沽；T-Mobile 也證實這批資料被竊，目前正在進行調查作業。<br />
 <br />
@@ -257,16 +269,4 @@ Wi-Fi 連線功能被破壞的 iOS 裝置，僅能進入系統設定選單，刪
 
 <ul>
 	<li>解決方案：更新至 iOS、iPad OS 14.7 或更新版本，或進入設定頁面，取消「自動加入熱點」功能。</li>
-</ul>]]></description><pubDate>Tue, 27 Jul 2021 09:23:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4951-d638c-1.html</guid></item><item><title><![CDATA[Twitter 公布調查報告，開啟二階段登入驗證之用戶比例低]]></title><link>http://www.twcert.org.tw/tw/cp-104-4949-01719-1.html</link><description><![CDATA[<p><strong>Twitter 近日公布調查報告，指出其活躍用戶中，已啟用二階段登入驗證功能的用戶比例極低，僅有 2.3%。</strong><br />
-<br />
-全球大型社群平台 Twitter 近日公布其 2020 年度透明度調查報告，其中關於用戶資安的部分統計數字指出，自 2020 年 7 月到 12 月為止，其活躍用戶中，已啟用任何一種二階段登入驗證功能的用戶比例極低，僅有 2.3%。<br />
-<br />
-如同許多大型社群或網路服務一樣，Twitter 為防止日益猖獗的帳號竊取事件，提供二階段登入驗證功能；用戶在登入服務時，除了須輸入原有的帳號與密碼外，還需要另外輸入一組隨機産生的登入驗證碼，才能順利登入並使用服務。<br />
-<br />
-Twitter 提供的二階段登入驗證，其隨機驗證碼可以透過簡訊、第三方驗證碼産生軟體，或是硬體隨機驗證碼産生器來取得；在 2.3% 啟用二階段登入驗證的用戶中，有高達 79.6% 的用戶選擇使用簡訊接收驗證碼，30.9% 使用第三方驗證碼産生軟體，使用硬體隨機驗證碼産生器的用戶比例僅有 0.5%。<br />
-<br />
-不過，統計數字也指出，採用二階段登入驗證的用戶比例，在調查期間内還略為增加了 9.1%。<br />
-<br />
-資安專家指出，二階段驗證碼的使用率低落，並不只是 Twitter 一家業者獨有的現象，而是資訊服務産業面臨的共同問題；由於二階段驗證碼的操作過程，比起傳統只需帳號密碼的登入方式更為複雜，也不夠直覺，因此許多不夠重視自身資安防護的用戶，就不願採用二階段登入驗證功能。<br />
-<br />
-即使是採用了二階段登入驗證的用戶，也有極高比例透過手機門號接收透過簡訊傳來的二階段登入驗證碼；但資安專家指出這仍有風險，因為駭侵者很可能會利用 SIM-Swap 攻擊來取得用戶手機門號的使用權，直接攔截傳來的二階段登入驗證碼。</p>]]></description><pubDate>Tue, 27 Jul 2021 09:18:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4949-01719-1.html</guid></item></channel></rss>
+</ul>]]></description><pubDate>Tue, 27 Jul 2021 09:23:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4951-d638c-1.html</guid></item></channel></rss>
