@@ -80,6 +80,8 @@
 	"美國_Linode_狀態@US_linodeStatus": "https://status.linode.com/history.atom",
 	"美國_Vultr_狀態@US_vultrStatus": "https://status.vultr.com/status.json",
 	"美國_Vultr_警報@US_vultrAlerts": "https://status.vultr.com/alerts.json",
+	"美國_Fastly_狀態@US_fastlyStatus": "https://status.fastly.com/history.atom",
+	"美國_AWS_狀態@US_awsStatus": "https://status.aws.amazon.com/rss/all.rss",
 	"英國_路透社@UK_reuters.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/reuters/theWire",
 	"英國_BBC@UK_bbc": "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml",
 	"香港_立場新聞@HK_thestandnews": "https://www.thestandnews.com/rss/",
