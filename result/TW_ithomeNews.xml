@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=234&amp;profile=atom" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>美國SEC控告3名Netflix前工程師涉及內線交易</title>
+    <link>https://www.ithome.com.tw/news/146278</link>
+    <description> 美國證券交易委員會（Securities and Exchange Commission，SEC）周三（8/18）控告3名Netflix的前工程師及其親友從事內線交易，在2016年至2019年間不當獲利超過300萬美元，違反美國《證券法》（Exchange Act Rule）。</description>
+     <pubDate>2021-08-19  05:08:02</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146278</guid>
+  </item>
+  <item>
     <title>研究人員揭露蘋果掃描機制含有安全漏洞，蘋果：那不是蘋果所採用的版本</title>
     <link>https://www.ithome.com.tw/news/146277</link>
     <description> 蘋果計畫在今年問世的iOS中嵌入兒童色情掃描機制，以遏制兒童性剝削內容（Child Sexual Abuse Material，CSAM）的散布，然而，隱私與安全專家群起反對，本周一名GitHub用戶Asuhariet Ygvar公布了蘋果用來將CSAM加密的NeuralHash雜湊技術模型，幾小時後就有另一名用戶Cory Cornelius找到該演算法的漏洞，製造了雜湊碰撞（Hash Collisions），讓兩張不同的圖片產生一樣的加密指紋，然而，</description>
@@ -258,17 +266,6 @@ AI內化引爆資料治理需求，轉核也是關鍵推力
      <pubDate>2021-08-18  07:08:00</pubDate>
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146200</guid>
-  </item>
-  <item>
-    <title>【玉山AI實例1】0.1秒揪出信用卡盜刷行為，一年擋下上億元損失</title>
-    <link>https://www.ithome.com.tw/news/146199</link>
-    <description> 不只有數百萬張信用卡在市面流通，玉山銀行每天還得處理數十萬次的刷卡交易。如何從這些交易中揪出異常行為、即時攔截，是玉山一直面對的難題。
-規則式系統仰賴人工調整，趕不上盜用行為變化
-過去，玉山銀行仰賴一套傳統規則式系統，靠其中的上百條固定規則，來偵測信用卡交易異常行為。
-但玉山金控科技長張智星指出，這種規則式系統，每月需要人工調整一次規則和參數，不僅難以捕捉快速變化的盜冒行為，還會產出大量異常名單，得耗費大量人力一一打電話確認。</description>
-     <pubDate>2021-08-18  07:08:00</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146199</guid>
   </item>
   </channel>
 </rss>

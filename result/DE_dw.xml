@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-19T09:48:54Z</updated>
+ <updated>2021-08-19T09:51:21Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58905844</id>
+  <title><![CDATA[多名美国驻德外交官或患哈瓦那综合症]]></title>
+  <updated>2021-08-19T09:49:00Z</updated>
+  <published>2021-08-19T09:49:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/多名美国驻德外交官或患哈瓦那综合症/a-58905844?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国驻德国外交人员中似乎也出现了神秘的哈瓦那综合症症状。《华尔街日报》报道说，其中至少有两人不得不送医治疗。]]></summary>
+  <category term="新闻广角"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58903119</id>
   <title><![CDATA[美国卫生官员：准备9月底开打加强针]]></title>
