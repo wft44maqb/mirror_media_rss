@@ -6,267 +6,216 @@
  <description></description>
  <language>zh-hant</language>
 <item>
- <title>近四成企業於12個月內遭遇勒索軟體攻擊事故</title>
- <link>https://www.ithome.com.tw/news/146260</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;勒索軟體攻擊日益猖獗的現象，究竟有多嚴重？除了不時傳出有企業或組織遭到攻擊的消息，有研究報告也針對企業進行相關調查。最近&lt;a href=&quot;https://www.businesswire.com/news/home/20210812005739/en/IDC-Survey-Finds-More-Than-One-Third-of-Organizations-Worldwide-Have-Experienced-a-Ransomware-Attack-or-Breach&quot;&gt;市場調查公司IDC發布了2021年的勒索軟體調查報告&lt;/a&gt;《2021 Ransomware Study: Where You Are Matters!》，當中與近800名IT決策人員（或能影響決策的人士）進行訪談，結果發現，約有37%企業在過去的12個月內，曾經遭遇勒索軟體的攻擊，導致IT系統與資料的存取受到阻礙。&lt;/p&gt;
-&lt;p&gt;另一項值得留意的發現，則是在遭遇攻擊的時候，企業是否會選擇支付贖金因應？這份調查指出，僅有13%受害組織沒有付錢。這樣的結果，代表了多數受害的企業選擇付錢了事，來加快復原IT系統的運作。而這種有許多企業在面臨勒索軟體攻擊的時候，會願意支付贖金的現象，在IDC的另一份「全球事件準備度焦點調查」調查報告也有類似的發現：若是遇到勒索軟體攻擊，有近半數（44%）受訪的企業會願意付錢給歹徒。&lt;/p&gt;
-&lt;p&gt;而企業到底付了多少贖金給攻擊者？IDC表示，平均每個受害組織會支付近25萬美元，但IDC認為，這當中有一些是超過百萬美元的大筆贖金，而使得平均值被大幅拉高。&lt;/p&gt;
+ <title>勒索軟體Conti在攻擊前會先偵察目標組織的營收和保險資料</title>
+ <link>https://www.ithome.com.tw/news/146275</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;駭客為了增加能夠收到贖金的機會，在下手發動勒索軟體攻擊之前，試圖掌握對方的財務狀態，以便決定要開口索討的金額。&lt;a href=&quot;https://www.advanced-intel.com/post/hunting-for-corporate-insurance-policies-indicators-of-ransom-exfiltrations&quot;&gt;威脅情報業者Advanced Intelligence（AdvIntel）在近期的一起攻擊事故裡發現&lt;/a&gt;，使用Conti勒索軟體的駭客，在攻擊目標的網路植入勒索軟體之前，先上傳了名為Rclone的開源資料備份工具，複製並竊取受害組織的保單資料。&lt;/p&gt;
+&lt;p&gt;根據上述的現象，AdvIntel詳細整理出駭客在使用勒索軟體加密之前，所執行的偵察流程。首先，Conti入侵了受害組織的網路，並取得網域管理員的存取權限。接下來，攻擊者使用滲透測試工具Cobalt Strike，建立Beacon通訊連線，然後偵察網路環境，並調查重要的財務與保險資料。&lt;/p&gt;
+&lt;p&gt;找到上述提及的財務及保險資料之後，攻擊者從檔案共享網站Mega，傳送一個支援多平臺且開源、又可簡化雲端儲存服務操作的Rclone應用程式，到受害組織的網域控制器（DC），接著，他們將財務及保險相關的資料，藉由網路共享的方式，複製到指定位置，以便能讓Conti能夠「安全存取」。&lt;/p&gt;
+&lt;p&gt;完成上述工作後，攻擊者才執行serverlock.bat指令碼（Script）鎖住網路，並且加密檔案。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/conti-leakage-insurance-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/conti-leakage-insurance-s.png&quot; style=&quot;width: 580px; height: 284px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;為何駭客會使用Rclone？這是能夠傳輸檔案到雲端服務的命令列工具，AdvIntel指出，Conti駭客將其當作外洩資料的武器，並事先針對攻擊目標配置相關設定來「同步」資料。&lt;/p&gt;
+&lt;p&gt;上述AdvIntel的發現，也與之前該組織外洩的「教戰手則」內容相符。&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/angry-conti-ransomware-affiliate-leaks-gangs-attack-playbook/&quot;&gt;根據新聞網站Bleeping Computer於8月5日的報導&lt;/a&gt;，有資安研究人員發現，有人疑似對Conti心生不滿，憤而將其111MB的訓練資料發布到網路論壇，內容包含了該組織使用的指令與C2伺服器的IP位址等細節。而AdvIntel指出，從事件記錄的內容，他們發現攻擊者在執行Rclone之前，會下達Invoke_ShareFinder指令，這很可能是將外洩檔案名單造冊，匯出成純文字檔案的工作。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/forum-post-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/forum-post-s.png&quot; style=&quot;width: 580px; height: 151px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;除此之外，在先前Conti外流的文件中，指示攻擊者要依序從網路共享資料夾裡，找尋財務（Finance）、會計（Accounting）、保險（Insurance），以及IT相關文件，也與本次AdvIntel的發現大致相符。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 15:48:34 +0000</pubDate>
+ <pubDate>Thu, 19 Aug 2021 05:55:08 +0000</pubDate>
  <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146260 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146260#comments</comments>
+ <guid isPermaLink="false">146275 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146275#comments</comments>
 </item>
 <item>
- <title>物聯智慧Kalay平臺含有重大漏洞，將允許駭客自遠端存取IoT裝置</title>
- <link>https://www.ithome.com.tw/news/146258</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國國土安全部旗下的網路安全暨基礎架構安全署（&lt;a href=&quot;https://us-cert.cisa.gov/ics/advisories/icsa-21-229-01&quot; target=&quot;_blank&quot;&gt;CISA&lt;/a&gt;）與資安業者&lt;a href=&quot;https://www.fireeye.com/blog/threat-research/2021/08/mandiant-discloses-critical-vulnerability-affecting-iot-devices.html&quot; target=&quot;_blank&quot;&gt;FireEye&lt;/a&gt;本周警告，臺灣IoT平臺業者物聯智慧（ThroughTek）所打造的Kalay P2P SDK含有一重大安全漏洞CVE-2021-28372，將允許駭客自遠端執行任意程式或存取機密資訊，而物聯智慧則已修補該漏洞，&lt;a href=&quot;https://www.throughtek.com.tw/please-update-the-sdk-version-to-minimize-the-risk-of-sensitive-information-being-accessed-by-unauthorized-third-party/&quot; target=&quot;_blank&quot;&gt;並呼籲用戶儘快更新&lt;/a&gt;。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;https://www.throughtek.com.tw/please-update-the-sdk-version-to-minimize-the-risk-of-sensitive-information-being-accessed-by-unauthorized-third-party/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0818-ThroughTek%20kalay%20platform-600-2.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;根據物聯智慧的說明，Kalay為一奠基於P2P技術的基礎架構，具備多種模組化功能，還能根據客戶需求進行客製化，亦能以SDK形式嵌入應用程式或IoT裝置。&lt;/p&gt;
-&lt;p&gt;FireEye指出，CVE-2021-28372藏匿在Kalay平臺的一個核心元件中，駭客必須非常熟悉Kalay協定，並具備產生及傳送訊息的能力，也必須先取得Kalay的用戶ID（UID）才能發動攻擊，進一步危害相關UID的裝置。CISA則說，成功開採漏洞將允許駭客執行惡意程式或存取機密資訊，包括攝影機的音訊與視訊。其CVSS風險指數高達9.6。&lt;/p&gt;
-&lt;p&gt;研究人員表示，他們並不確定有多少裝置受到該漏洞的影響，但物聯智慧的官網顯示，全球有超過8,300萬個裝置採用Kalay平臺。&lt;/p&gt;
-&lt;p&gt;受到波及的Kalay P2P SDK包括3.1.5與之前的版本，擁有nossl標籤的SDK，在IOTC連線時未使用AuthKey的裝置韌體，採用AVAPI模組卻未啟用DTLS機制的韌體，以及採用RDT模組或P2PTunnel的韌體。&lt;/p&gt;
-&lt;p&gt;迄今尚未發現任何鎖定該漏洞的攻擊程式，物聯智慧建議用戶應立即更新。&lt;/p&gt;
-&lt;p&gt;此外，在&lt;a href=&quot;https://www.ithome.com.tw/news/145096&quot;&gt;兩個月前，CISA也曾警告該公司SDK含有CVE-2021-32934漏洞&lt;/a&gt;，當時物聯智慧說明早已於2018年釋出的SDK 3.1.10修補該漏洞，以及客戶不升級的狀況。&lt;/p&gt;
+ <title>Fortinet抨擊安全廠商在90天保密期限前就揭露其產品漏洞</title>
+ <link>https://www.ithome.com.tw/news/146274</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;安全研究人員及產品廠商之間的緊張關係再度引爆。網路安全設備商Fortinet批評安全廠商Rapid 7未遵守業界通用的漏洞通報90天保密期，在還沒到90天前就將Fortinet產品漏洞公諸於世。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.rapid7.com/blog/post/2021/08/17/fortinet-fortiweb-os-command-injection/&quot; target=&quot;_blank&quot;&gt;本周Rapid 7公布Fortinet網頁應用防火牆產品FortiWeb 管理介面的漏洞&lt;/a&gt;。&lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2021-22123&quot; target=&quot;_blank&quot;&gt;編號CVE-2021-22123的漏洞是一項OS指令注入漏洞&lt;/a&gt;，可讓遠端取得授權的攻擊者透過SAML伺服器組態頁面執行任意指令。該漏洞風險值8.8，屬於高風險漏洞，影響FortiWeb管理介面6.3.7以前、6.2.3以前及6.1.x, 6.0.x, 5.9.x版本。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0819-rapid7.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.fortiguard.com/psirt/FG-IR-20-120&quot; target=&quot;_blank&quot;&gt;Fortinet 在6月曾發出安全公告&lt;/a&gt;，但是預定要到8月底才有修補程式釋出。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.zdnet.com/article/fortinet-slams-rapid7-for-disclosing-vulnerability-before-end-of-90-day-window/&quot; target=&quot;_blank&quot;&gt;Fortinet批評&lt;/a&gt;，Rapid 7在6月發現這個漏洞，卻在不到90天就公諸於世，違反了&lt;a href=&quot;https://www.fortiguard.com/psirt_policy&quot; target=&quot;_blank&quot;&gt;Fortinet漏洞揭露政策&lt;/a&gt;中，要求通報者在完整解決漏洞前保密的規定，使他們來不及釋出修補程式。&lt;/p&gt;
+&lt;p&gt;但是Rapid 7指出，&lt;a href=&quot;https://www.fortiguard.com/zeroday/responsible-disclosure&quot; target=&quot;_blank&quot;&gt;Fortinet 公布的90天保密期&lt;/a&gt;是規範他們自己作為資安廠商的規定，他們和第三方安全研究人員的漏洞揭露政策並未說明幾天，於是&lt;a href=&quot;https://www.rapid7.com/security/disclosure/#zeroday&quot; target=&quot;_blank&quot;&gt;Rapid 7採用自己的揭露政策&lt;/a&gt;，保密漏洞資訊60天。&lt;/p&gt;
+&lt;p&gt;Rapid 7研究總監Tom Beardsley對媒體表示，該公司於6月10日通報Fortinet，並在6月11日接獲對方確認。之後該公司也曾多次試圖聯繫，但皆未獲得回應。於是60天一到，Rapid 7就公布了這個漏洞，而對方也說即將釋出修補程式。&lt;/p&gt;
+&lt;p&gt;Rapid 7指出，目前未發現該漏洞被濫用的情形。在修補程式來到之前，用戶應關閉未受信任，包括網際網路連線存取FortiWeb管理介面。&lt;/p&gt;
+&lt;p&gt;這並非第一次安全廠商和其他網路或軟體業者為公布漏洞而衝突。微軟即多次因為Google Project Zero在它還沒釋出修補程前，便公布漏洞而感到不滿，甚至演變成&lt;a href=&quot;https://www.ithome.com.tw/news/117580&quot; target=&quot;_blank&quot;&gt;公布Google產品漏洞作為報復&lt;/a&gt;。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 09:05:34 +0000</pubDate>
+ <pubDate>Thu, 19 Aug 2021 05:34:38 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146274 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146274#comments</comments>
+</item>
+<item>
+ <title>T-Mobile證實遭駭客入侵並外洩資料</title>
+ <link>https://www.ithome.com.tw/news/146273</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;就在&lt;a href=&quot;https://www.ithome.com.tw/news/146215&quot; target=&quot;_blank&quot;&gt;日前媒體披露&lt;/a&gt;有駭客在論壇中兜售T-Mobile的1億用戶資料之後，&lt;a href=&quot;https://www.t-mobile.com/news/network/additional-information-regarding-2021-cyberattack-investigation&quot; target=&quot;_blank&quot;&gt;T-Mobile於本周證實&lt;/a&gt;該公司的系統含有安全漏洞，且初步估計約有4,860萬名用戶的資料外洩。&lt;/p&gt;
+&lt;p&gt;T-Mobile表示，收到通知後，他們即聘請資安專家來協助調查，發現並立即關閉了相信是駭客用來非法存取的入口。&lt;/p&gt;
+&lt;p&gt;根據T-Mobile初步的調查，駭客存取的資料包括780萬名現有的月租型用戶，85萬名現有的預付卡用戶，以及逾4,000萬名過去及潛在用戶的個資，總計約有4,860萬名用戶的個資受到影響。&lt;/p&gt;
+&lt;p&gt;其中，780萬名月租型用戶，以及逾4,000萬名過去/潛在用戶的外洩資料類型，主要為姓名、生日、社會安全號碼，以及駕照/身分證資訊，並未含有電話號碼、帳號資訊、密碼、PIN碼或金融資訊。&lt;/p&gt;
+&lt;p&gt;然而，85萬名預付卡用戶的外洩資料，含有姓名、電話號碼及帳號的PIN碼。&lt;/p&gt;
+&lt;p&gt;T-Mobile立即重設了所有預付卡用戶的PIN碼，為了保險起見，亦建議月租型用戶主動重設PIN碼。此外，即日起所有的T-Mobile用戶都將擁有兩年免費的身分保護服務。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 04:56:21 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146258 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146258#comments</comments>
+ <guid isPermaLink="false">146273 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146273#comments</comments>
 </item>
 <item>
- <title>Parallels Desktop 17 for Mac上市! 同時支援英特爾與Apple M1處理器，未來還將支援Windows 11</title>
- <link>https://www.ithome.com.tw/news/146256</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;專門在Mac提供硬體虛擬化軟體的Parallels，在周二推出Parallels Desktop 17 for Mac，支援採用英特爾與蘋果M1處理器的新舊Mac，在作業系統方面，也針對蘋果macOS12及微軟Windows&lt;span&gt;  &lt;/span&gt;11優化。&lt;/p&gt;
-&lt;p&gt;新版Parallels Desktop能夠在搭載英特爾或蘋果M1處理器的Mac電腦上，執行Windows應用程式，以因應Mac電腦處理器處交替的使用需要；在作業系統方面，蘋果、微軟今年相繼發表新作業系統，Parallels Desktop17 for Mac為通用二進位應用程式，針對macOS Monterey及Windows 11進行優化。&lt;/p&gt;
-&lt;p&gt;目前的Parallels Desktop 17 for Mac可支援Windows 10及macOS Monterey，儘管微軟今年6月發表Windows 11有些出人意表，但Parallels高級產品經理Kurt Schmucker強調，Windows 11在今年推出之後，Parallels Desktop 17也將能全面支援Windows 11，不論使用英特爾或蘋果M1處理器的Mac電腦。&lt;/p&gt;
-&lt;p&gt;儘管現在Windows 11尚未正式推出，但微軟目前已先釋出Insider Preview預覽版供外界體驗，Kurt也現場展示Parallels Desktop 17 for Mac上，以虛擬機器執行Windows 11的預覽版本。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/thumbnail.jpg&quot; style=&quot;width: 600px; height: 483px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;此外，Kurt表示，新版本為二進位應用程式，除了對消費者而言，可用於英特爾及M1的Mac，同樣對IT管理者有利，較容易部署Windows至數百臺Mac電腦。以Parallels Desktop 17 for Mac Business版為例，企業可將預建的Windows虛擬機器部署至大量混合英特爾與M1處理器的Mac上。&lt;/p&gt;
-&lt;p&gt;不過，他也坦言，如同蘋果在英特爾及M1的Mac，兩者尚無法做到完全相同的功能，Parallels Desktop 17在英特爾和M1版本Mac上執行，兩者的功能體驗目前也還無法做到百分之百相同。&lt;/p&gt;
-&lt;p&gt;Kurt指出，Parallels Desktop 17在英特爾與M1版Mac上執行guest OS的差異。由於英特爾版Mac發展時間較長，Parallels Desktop 17支援的OS，從Windows 11、10到Windows XP，macOS則從Monterey到Lion，至於M1版Mac，支援的guest OS以arm架構OS為主，包括Windows 10、11，macOS的Monterey及幾個Linux版本。&lt;/p&gt;
-&lt;p&gt;由於這些差異，Kurt建議用戶若購買M1的Mac，仍可保留舊的英特爾版Mac，在目前Mac搭載的處理器過渡期間，仍能執行原本的應用。&lt;/p&gt;
-&lt;p&gt;至於效能提升方面，新的Parallels Desktop 17 for Mac強調不論在英特爾或M1版Mac上有更好的效能，包括在Windows、Linux、macOS上開機速度提升38%，OpenGL圖形處理速度也提升7倍。&lt;/p&gt;
-&lt;p&gt;單單看M1版本Mac電腦的表現，Parallels也提供幾個例子，執行Windows 10 on Arm Insider Preview啟動速度提升33%，磁碟效能也提升20%，在DX11處理上也提升28%。而在英特爾版Mac(執行macOS Big Sur或更新版本)，連網速度提升60%。&lt;/p&gt;
-&lt;p&gt;在功能方面，Parallels Desktop 17支援虛擬TPM，可在Windows 10與11執行Bitlocker、Secure Boot；而在Coherence模式也有改良，同時執行Windows與Mac應用程式，隱藏Windows桌面，並將Windows關機、更新或登入畫面視窗化。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Coherence模式可同時執行Mac與Windows應用程式：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Enhanced%20Coherence%20Mode_3_Parallels%20Desktop%2017%20for%20Mac.jpg&quot; style=&quot;width: 600px; height: 375px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;虛擬TPM安全晶片功能：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Virtual%20TPM%20chip%20ARM%20(Security)_Parallels%20Desktop%2017%20for%20Mac.jpg&quot; style=&quot;width: 600px; height: 398px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;今年新版本的價格保持一樣，只要8月1日到9月30日購買的Parallels Desktop 16的用戶，能夠免費升級至17版。&lt;/p&gt;
+ <title>Windows 11讓用戶不小心就把Edge變成預設瀏覽器</title>
+ <link>https://www.ithome.com.tw/news/146271</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Windows 11令許多用戶引頸期盼，但微軟似乎想讓用戶更無法擺脫他的瀏覽器。&lt;a href=&quot;https://www.theverge.com/22630319/microsoft-windows-11-default-browser-changes&quot; target=&quot;_blank&quot;&gt;The Verge報導Windows 11一項新作法&lt;/a&gt;，只要使用者一不小心，就得使用它的Edge瀏覽器。&lt;/p&gt;
+&lt;p&gt;在Windows 10上，用戶首次啟動新安裝的瀏覽器時，會跳出提示訊息，讓使用者勾選是否作為預設瀏覽器。用戶可以自由選擇Mozilla Firefox、Chrome、Opera、Brave、或微軟自己的Explorer作為開啟所有檔案的預設瀏覽器，或是只一次使用這款瀏覽器。The Verge 發現，和Windows 10一樣，Windows 11以Microsoft Edge為預設瀏覽器，但不同的是，如果用戶首次啟用Firefox或Chrome忘了或疏忽沒有按下「永遠使用這個應用程式」的按鍵，則Windows 11會將Edge當成你的預設瀏覽器。&lt;/p&gt;
+&lt;p&gt;而且Windows 11的設計讓預設瀏覽器的修改變得很麻煩。如果用戶發現預設瀏覽器變成Edge想修改時，必須按檔案或連線類型，如HTML、PDF、SVG、SHTML、WEBP、XHT、XHTML、FTP、HTTP和HTTPS等，再一個個變更成想要的瀏覽器。&lt;/p&gt;
+&lt;p&gt;媒體測試Windows 11的多個瀏覽器顯示，其他瀏覽器業者為了能綁住用戶及對抗微軟，除了Mozilla Firefox以外，幾乎每家瀏覽器，包括微軟Edge都在第一次啟動時，跳出要求使用者將之設為預設的提示。&lt;/p&gt;
+&lt;p&gt;但這在Windows 11的工作列widget則不管用。不論用戶預設設定為何，工作列widget一律以Edge作為預設瀏覽器。&lt;/p&gt;
+&lt;p&gt;對於修改預覽瀏覽器變得更困難，微軟的說詞是，這是根據用戶回饋的結果。新的設計提供用戶更精細的控制，也將所有應用程式拉到預設介面上供用戶選擇。如果用戶未來有什麼意見，微軟也會不斷修正。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 08:03:11 +0000</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="false">146256 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146256#comments</comments>
-</item>
-<item>
- <title>傳大通銀行因系統問題導致客戶資料可被他人查詢</title>
- <link>https://www.ithome.com.tw/news/146257</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/chase-bank-accidentally-leaked-customer-info-to-other-customers/&quot; target=&quot;_blank&quot;&gt;Bleeping Computer&lt;/a&gt;報導，美國摩根大通（JP Morgan Chase &amp;amp; Co）旗下子公司大通銀行（Chase Bank）一個不知名的系統問題，導致銀行客戶在網站、App進行查詢時，會顯示其他用戶個資及交易資料。&lt;/p&gt;
-&lt;p&gt;大通銀行因向受影響的用戶發出通知函，使這件烏龍曝光。根據媒體取得的通知函，今年5月24日到7月14日之間，因為大通銀行的「系統問題」，導致部份客戶的資料在「有相似資訊」的其他客戶利用網站或銀行App查詢時顯示出來，或是在寄發對帳單時將客戶資料寄給了第三人。&lt;/p&gt;
-&lt;p&gt;可能曝光的客戶資料包括對帳單、戶頭餘額、交易清單、客戶姓名、戶頭帳號等。&lt;/p&gt;
-&lt;p&gt;大通銀行僅表示，沒有接獲告知有客戶資料被誤用的情形。&lt;/p&gt;
-&lt;p&gt;目前不知肇禍的是何種技術問題，以及受影響的用戶人數，以及是個人還是法人客戶。信用卡資料是否外洩也不得而知。但是大通銀行仍然對受害用戶提供信用監控的服務。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/91279&quot; target=&quot;_blank&quot;&gt;摩根大通2014年也傳出遭到駭客攻擊&lt;/a&gt;，導致客戶姓名、地址、電話、電子郵件，以及該公司內部資訊外洩，受影響用戶高達近7600萬個家庭及700萬小型企業，成為史上最大的資料外洩案之一。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 08:02:40 +0000</pubDate>
+ <pubDate>Thu, 19 Aug 2021 03:39:33 +0000</pubDate>
  <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146257 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146257#comments</comments>
+ <guid isPermaLink="false">146271 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146271#comments</comments>
 </item>
 <item>
- <title>資安一周第159期：勒索軟體eCh0raix變種同時鎖定威聯通與群暉NAS下手。勒索軟體LockBit攻擊IT顧問公司Accenture</title>
- <link>https://www.ithome.com.tw/news/146255</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;8/12-8/18必看資安新聞&lt;/strong&gt;&lt;/h3&gt;
-&lt;h3&gt; &lt;/h3&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃漏洞攻擊  ＃暴力破解  ＃NAS  ＃勒索軟體攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;勒索軟體eCh0raix變種同時具備攻擊威聯通與群暉NAS的能力&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;資安業者Palo Alto Networks揭露新的eCh0raix（亦被稱為QNAPCrypt）勒索軟體變種，並指出新版本與過往eCh0raix最大的差異，就是首度能同時針對威聯通科技（QNAP）、群暉科技（Synology）的NAS設備發動攻擊。&lt;/p&gt;
-&lt;p&gt;對於本次新變種勒索軟體的攻擊手法，Palo Alto表示，攻擊者分別對於兩個廠牌的設備，利用了漏洞攻擊與暴力破解的方式入侵。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146141&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;勒索軟體LockBit攻擊IT顧問公司Accenture，要脅限期支付贖金&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;跨國大型IT顧問公司Accenture，驚傳遭到勒索軟體LockBit攻擊。根據ZDNet、Bleeping Computer、Security Affairs、CyberScoop等新聞網站的報導，勒索軟體駭客組織於8月11日下午在網站中，將Accenture列入受害者名單，該網頁顯示倒數計時器並表明，若是沒有如期收到贖金，將會把竊得的資料於世界協調時間（UTC）8月11日下午5時30分公開。&lt;/p&gt;
-&lt;p&gt;針對此事的狀態，Accenture向各家媒體表示，公司營運不受影響，並未對本身的受害情況多做說明。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146157&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃勒索軟體攻擊&lt;/strong&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;澳洲網路安全中心針對LockBit 2.0勒索軟體攻擊提出警告&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;澳洲網路安全中心（ACSC）近日提出警告，表示他們屢屢接獲當地企業通報，發生遭到LockBit 2.0攻擊的事故。&lt;/p&gt;
-&lt;p&gt;根據ACSC接獲的事故通報，澳洲當地自2020年開始，傳出遭到LockBit與LockBit 2.0攻擊的情況，但該單位指出，大部分事故都是在2021年7月通報，這代表相較於其他的勒索軟體，LockBit 2.0的攻擊行動急劇增加。&lt;/p&gt;
-&lt;p&gt;針對此波攻擊，ACSC也透過MITRE ATT&amp;amp;CK框架，描敘駭客在攻擊過程中會採用的手法，並提出緩解措施。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146226&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/159-1-lockbit-2-0_ACSC.png&quot; style=&quot;width: 400px; height: 211px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#808080;&quot;&gt;圖片來源：澳洲網路安全中心&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊  ＃漏洞攻擊  ＃PrintNightmare&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;勒索軟體Magniber正在濫用PrintNightmare漏洞&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;近2個月，Windows列印多工緩衝處理器（Print Spooler）相關的漏洞「PrintNightmare」已被發現數個，但資安廠商發現，已有勒索軟體駭客開始用來發動攻擊。資安業者CrowdStrike指出，在今年7月，勒索軟體Magniber利用PrintNightmare於南韓發動攻擊。&lt;/p&gt;
-&lt;p&gt;除了上述的PrintNightmare漏洞，CrowdStrike指出，Magniber濫用的漏洞數量也在逐步增加，其中濫用較為頻繁的漏洞，包含了Internet Explorer（IE）漏洞CVE-2018-8174、CVE-2021-26411、CVE-2020-0968、CVE-2019-1367，以及Adobe Flash漏洞CVE-2018-8174。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146233&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃釣魚郵件攻擊&lt;/strong&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;釣魚郵件攻擊出現新手法，駭客採用摩斯電碼、ASCII等多種編碼來混淆附件內容&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;微軟揭露自2020年7月開始出現、為期一年的釣魚郵件攻擊，攻擊者在郵件裡挾帶了宣稱是發票的HTML檔案，來竊取Office 365帳密。為了規避郵件防護系統的偵測，攻擊者不只採用數種編碼法混淆，並且平均每37天就更換新的手法。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146181&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃漏洞揭露  ＃物聯網資安&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;瑞昱無線晶片重大漏洞恐波及逾200款連網設備&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;安全廠商IoT Inspector於8月16日揭露，瑞昱半導體（Realtek）的無線晶片RTL819xD，存在十多項漏洞，一旦駭客濫用，可藉此執行任意程式碼，最嚴重可導致裝置被接管。瑞昱已經發布新版SDK修補相關漏洞。&lt;/p&gt;
-&lt;p&gt;根據研究人員的評估，至少65家廠商受影響，包括Netgear、LG、ZTE、Zyxel，涵括將近200個不同產品。受影響的裝置涵括多種IoT裝置，包括家用閘道、旅行用路由器、Wi-Fi 訊號放大器、IP攝影機、或智慧照明閘道，甚至可連網的兒童玩具等。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146236&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃漏洞揭露  ＃防毒軟體&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;趨勢科技修補已遭到濫用的Apex One產品漏洞&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;趨勢科技於7月底發布安全公告，修補旗下端點安全產品Apex One的4項漏洞，同時警告其中的2個漏洞：CVE-2021-36741和CVE-2021-36742，已經被駭客串聯起來對用戶發動攻擊。&lt;/p&gt;
-&lt;p&gt;這是今年以來Apex One第二波被人試圖駭入。5月趨勢科技更新一則安全公告，指出2020年修補的Apex One及OfficeScan漏洞，遭人二度用於攻擊。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146178&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/159-2-apex-one-4-vul.png&quot; style=&quot;width: 400px; height: 297px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;圖片來源：趨勢科技&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃免費勒索軟體解密工具  ＃資安產業動態&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;臺資安業者奧義智慧成功破解Prometheus勒索軟體，並提供解密工具&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;在2020年崛起的Prometheus勒索軟體，全球已有40多個受害者，臺灣也有大企業遇害。近期國內資安業者奧義智慧，推出針對該勒索軟體的解密工具，讓受害者能夠自救，復原那些被惡意加密的檔案，而他們也將加入全球性No More Ransom計畫成為合作夥伴。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146136&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃資料外洩  ＃電信業者&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong&gt;駭客兜售1億筆T-Mobile用戶資料&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;根據Motherboard與BleepingComputer等新聞網站的報導，有賣家於地下論壇中兜售含有1億筆美國用戶的資料庫，並向買家與媒體宣稱該資料庫來自美國電信業者T-Mobile，得知此事的T-Mobile已展開調查。&lt;/p&gt;
-&lt;p&gt;網路犯罪情報公司Hudson Rock技術長Alon Gal 指出，賣家表示此舉是為了傷害美國的基礎設施，以報復美國中情局與土耳其情報幹員在2019年，綁架並嚴刑拷打疑似ISIS恐怖組織成員的John Erin Binns。&lt;a href=&quot;https://www.ithome.com.tw/news/146215&quot;&gt;&lt;strong&gt;詳全文&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃資料外洩&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;百萬信用卡資料於駭客論壇流竄，原因是為了宣傳黑市，臺灣有345張卡片受影響&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;盜賣竊得信用卡資料的市集，為了吸引顧客上門，也會採取「免費大放送」的手段。資安公司Cyble與D3Labs揭露在駭客論壇上，近期有人公開了100萬筆信用卡資料，並宣稱都是在2018年到2019年之間偷到的，當中也有345張臺灣的信用卡資料。&lt;/p&gt;
-&lt;p&gt;而這些資料的提供來源，張貼文章的人士表明是來自信用卡資料黑市All World Cards，目的是為了進行宣傳，吸引更多駭客前往購買資料。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146163&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/159-3-Schermata_all-world-cards.png&quot; style=&quot;width: 400px; height: 237px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#808080;&quot;&gt;圖片來源：D3Labs&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2&gt;&lt;span style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;更多資安動態&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;h3&gt;●&lt;a href=&quot;https://www.ithome.com.tw/news/146138&quot;&gt;去中心化金融平臺Poly Network遭盜走6.1億美元加密貨幣&lt;/a&gt;&lt;br /&gt;
-●&lt;a href=&quot;https://www.ithome.com.tw/news/146137&quot;&gt;駭客在AWS發動挖礦攻擊，濫用Telegram控制受害伺服器&lt;/a&gt;&lt;br /&gt;
-●&lt;a href=&quot;https://www.ithome.com.tw/news/146125&quot;&gt;Android木馬FlyTrap挾持數千個臉書帳號&lt;/a&gt;&lt;/h3&gt;
+ <title>Visual Studio 2022新增安全機制防止開發者意外開啟惡意內容</title>
+ <link>https://www.ithome.com.tw/news/146261</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟在Visual Studio 2022第3預覽版本重新設計了&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/improving-developer-security-with-visual-studio-2022/&quot;&gt;信任配置功能&lt;/a&gt;，其目的是要提高開發者對於陌生程式碼風險的意識，並協助防範惡意攻擊者，從開啟內容到建置和執行應用程式，Visual Studio 2022能夠提供額外的安全防護。&lt;/p&gt;
+&lt;p&gt;微軟提到，近來軟體開發人員開始成為攻擊者的目標，出現像是Nobelium、Octopus Scanner和ZINC開源函式庫攻擊事件，而微軟試著提供安全工具鏈，讓開發者能夠更小心處理不受信任的內容。Visual Studio能夠評估開發者要開啟的內容，在設計階段的建置動作，能辨識專案結構和相依性，以提供豐富的功能，但是從威脅評估的角度來看，微軟表示，建置程式碼相當於執行，而這代表攻擊者可以創建一個場景，讓開發者只需要在Visual Studio中開啟內容，就有可能遭受攻擊。&lt;/p&gt;
+&lt;p&gt;在Visual Studio 2015的時候，微軟開始注意到這個問題，因此將信任範圍擴展到專案之外的項目，並且使用來自網路內容標籤來提示開發者，但是因為標籤使用規則不一致，導致整體設計出現問題，而且隨著開源軟體興盛，大多數開發人員取得和使用專案樣板的方式出現變化，因此這些安全顧慮再次成為值得關注問題。&lt;/p&gt;
+&lt;p&gt;在Visual Studio 2022中，微軟徹底更改了信任配置功能，在開發者嘗試開啟未受信任的內容時，能夠提供額外的安全防護，這個新功能主要由可信位置（Trusted Locations）和受限模式（Restricted Mode）兩部分構成。開發者在Visual Studio 2022第3預覽版本可以手動啟用可信位置功能，開啟之後，當Visual Studio偵測到開發者嘗試要開啟不受信任內容時，便會警示用戶相關的安全疑慮。&lt;/p&gt;
+&lt;p&gt;當開發者啟用可信位置功能，在Visual Studio 2022中開啟的所有內容，都會被視為不受信任，除非開發者或是企業透過群組政策，把這些內容添加到受信任位置列表中，用戶可以藉由配置資料夾位置、git儲存庫或是git儲存庫擁有者，來設定可信任內容。微軟提到，之中有許多安全性和可用性的權衡，因此他們最佳化了多種工作流程，盡量降低對開發者造成的影響。&lt;/p&gt;
+&lt;p&gt;不過，要信任原始碼並不是一個簡單的決定，開發者通常需要手動檢查程式碼，才能消除部分安全性疑慮，因此微軟也加入了受限模式，讓開發者能夠瀏覽和編輯不受信任的原始碼。雖然在這個模式中，開發者無法使用程式碼分析器或是視覺設計工具等設計時建置功能，但是能夠打開和檢查不受信任的程式碼，避免遠端程式碼執行等風險。&lt;/p&gt;
+&lt;p&gt;開發者可以Visual Studio 2022第3預覽版本啟用可信位置功能，微軟也提到，在下一個版本該功能會預設啟用，企業現在已經可以利用Windows群組政策，來設定受信任的儲存庫，並且禁止信任以及開啟限制之外的內容。而受限模式目前仍未開放，開發者還需要再等等。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 07:46:03 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146255 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146255#comments</comments>
+ <pubDate>Thu, 19 Aug 2021 03:20:02 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146261 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146261#comments</comments>
 </item>
 <item>
- <title>Google發表支援5G的Pixel 5a，將是最後一款附有充電器的Pixel手機</title>
- <link>https://www.ithome.com.tw/news/146254</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blog.google/products/pixel/pixel5a-with-5g-new-google-phone/&quot; target=&quot;_blank&quot;&gt;Google周二（8/17）發表&lt;/a&gt;了入門款的5G手機Pixel 5a，它是首款具備IP67防塵暨防水功能的A系列Pixel手機，也將是最後一款附有充電器的Pixel手機，它的規格與去年發表的Pixel 5高階手機非常類似，售價為449美元，不過，Pixel 5a目前只在美國與日本銷售，Google並未揭露是否有擴張至其它市場的計畫。&lt;/p&gt;
-&lt;p&gt;迄今Google已發表3款5G手機，包括去年推出的Pixel 4a與Pixel 5，以及本周問世的Pixel 5a。其實今年第二季就有傳聞指出，由於晶片短缺問題，Google可能會取消Pixel 5a的上市計畫，但&lt;a href=&quot;https://9to5google.com/2021/04/09/google-pixel-5a-5g-official/&quot; target=&quot;_blank&quot;&gt;當時Google出面闢謠&lt;/a&gt;，指出儘管晶片供應鏈吃緊，但依然會在美國及日本推出Pixel 5a。但並未提及是否會在其它市場上市。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0818-google%20pixel%205a-600.png&quot; style=&quot;width: 280px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Google&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://store.google.com/us/magazine/compare_pixel?hl=en-US&quot; target=&quot;_blank&quot;&gt;比較Pixel 5與Pixel 5a的硬體規格&lt;/a&gt;，前者採用6吋螢幕、4080 mAh電池、8GB記憶體、128GB儲存空間、高通Snapdragon 765G與Adreno 620處理器、具備IP68防塵/水等級、內建Android 11；而Pixel 5a則是採用6.3吋螢幕、4680 mAh電池、6GB記憶體，128GB儲存空間、具備IP67防塵/水等級、採用與Pixel 5同樣的作業系統及處理器。&lt;/p&gt;
-&lt;p&gt;看起來Pixel 5a只有在記憶體與防塵/水規格上低於Pixel 5，而Pixel 5的IP67防塵/水等級除了可完全防塵之外，可於1米深的水中支撐30分鐘，也是首款具備IP67等級的A系列Pixel手機。&lt;/p&gt;
-&lt;p&gt;此外，Pixel 5a與Pixel 5的相機功能完全一致，包括其後方相機支援1,220萬畫素、ƒ/1.7 光圈、光學/電子穩定度、77度視野與117度的超廣角功能，以及前方相機的800萬畫素、ƒ/2.0光圈與80度視野。而且，有別於Pixel 5僅提供USB-C音訊接孔，Pixel 5a還額外提供了3.5mm的音訊接孔。&lt;/p&gt;
-&lt;p&gt;根據&lt;a href=&quot;https://www.theverge.com/2021/8/17/22628702/google-pixel-6-charger-not-included?scrolla=5eb6d68b7fedc32c19ef33b4&quot; target=&quot;_blank&quot;&gt;外電報導&lt;/a&gt;，Pixel 5a將成為Google最後一代隨附充電器的Pixel手機，原因是絕大多數的使用者都已擁有USB-C的充電器。蘋果從2020年發表的iPhone 12就不再附充電器及耳機，三星也在今年初宣布未來的新手機將會逐步移除相關配件。&lt;/p&gt;
-&lt;p&gt;Pixel 5a即日起於美國及日本市場開放預購，預計於8月26日出貨。至於臺灣的Google商店並未張貼任何有關Pixel 5a的消息，倒是&lt;a href=&quot;https://store.google.com/tw/product/pixel_5?hl=zh-TW&quot; target=&quot;_blank&quot;&gt;預告了Pixel 6與Pixel 6 Pro&lt;/a&gt;會在今年秋天登場的訊息。&lt;/p&gt;
+ <title>YouTube搜尋改版，將新增影片段落及他國翻譯影片</title>
+ <link>https://www.ithome.com.tw/news/146270</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blog.youtube/news-and-events/next-phase-searching-youtube&quot; target=&quot;_blank&quot;&gt;YouTube於17日宣布&lt;/a&gt;，該平臺的搜尋服務將進入下一個階段，當使用者以關鍵字搜尋所需的影片時，將不再只是呈現靜態的畫面，而是會出現影片中不同主題的段落，點選後還可直接播放，另外，就算使用者以中文搜尋，YouTube現在也會主動補充英文的影片內容，未來亦會支援其它語言。&lt;/p&gt;
+&lt;p&gt;光是從影片的標題與部份的文字摘錄，可能很難從YouTube的搜尋結果中找到自己所需的內容，因此，新的搜尋功能所出現的影片將提供不同主題的片段，使用者可直接點選其中一個片段進行觀看，以判斷是否符合需求。&lt;/p&gt;
+&lt;p&gt;舉例來說，當你想要尋找一個酸種食譜，企圖學習揉麵糰的技巧時，藉由新的YouTube搜尋，使用者將可檢視所有的步驟，並直接點選揉麵糰的片段。該功能已率先出現在桌面版的YouTube上，並準備部署至行動裝置。&lt;/p&gt;
+&lt;p&gt;此外，為了打破語言的隔閡，YouTube也將開始於搜尋結果中提供非當地語言的影片。只是，根據Google的說法，現在這個功能只會出現在當使用者以當地語言搜尋卻沒有發現相關結果時，系統就會搜尋基於其它語言的影片內容，而且會自動翻譯這些影片的名稱、描述與字幕。&lt;/p&gt;
+&lt;p&gt;因此，泰國民眾可能可以向麻省理工學院的教授學習量子物理，巴西民眾也可在家探索大峽谷。目前YouTube只會主動補充英文的搜尋結果，但計畫擴張至其它語言，最終目標是讓全球的使用者都能藉由翻譯的字幕存取所有內容。&lt;/p&gt;
+&lt;p&gt;YouTube也已於印度及印尼的行動裝置上測試一項新的功能，亦即在查無相關影片時，於YouTube搜尋結果中提供來自Google Search的網站連結或其它形式的內容，並打算將該功能擴張至其它市場。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 07:15:27 +0000</pubDate>
+ <pubDate>Thu, 19 Aug 2021 03:11:45 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146254 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146254#comments</comments>
+ <guid isPermaLink="false">146270 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146270#comments</comments>
 </item>
 <item>
- <title>巴基斯坦國稅局網站疑遭駭客攻擊斷線2天</title>
- <link>https://www.ithome.com.tw/news/146253</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;巴基斯坦國稅局上周傳出駭客攻擊導致網站斷線2天，但巴國政府稱是升級系統移轉過程中發生的非預期停機所致。&lt;/p&gt;
-&lt;p&gt;周末巴&lt;a href=&quot;https://tribune.com.pk/story/2315712/fbr-reels-under-a-major-cyberattack&quot; target=&quot;_blank&quot;&gt;基斯坦當地媒體&lt;/a&gt;引述匿名的官方人士報導，巴國國稅局（FBR）資料中心周六遭到網路攻擊。攻擊者成功駭入資料中心的Hyper-V系統，並影響代管的虛擬應用。&lt;/p&gt;
-&lt;p&gt;這次攻擊發生在周六凌晨2:00。消息人士指出，由於系統毁損，巴國需要花2天重建虛擬環境，以期於周一恢復網站運作。&lt;/p&gt;
-&lt;p&gt;報導指出，由於時值巴國的獨立紀念日，巴國判斷是一場網路恐怖攻擊。這場攻擊的背後主使者身份尚未能確認。&lt;/p&gt;
-&lt;p&gt;另一名消息人士指出，去年3月也曾有不明攻擊者企圖存取該國國稅局系統，當時被及時發現，但這次就無法倖免。&lt;/p&gt;
-&lt;p&gt;不過周末巴國國稅局指報導不正確。根據&lt;a href=&quot;https://www.fbr.gov.pk/pr/fbr-issues-clarification-regarding-service-op/163118&quot; target=&quot;_blank&quot;&gt;國稅局的公告&lt;/a&gt;指出，為提升生產力及IT運作，FBR資料中心正在進行系統升級及服務移轉，移轉過程中發生「未預期的異常狀況」，才導致周末的斷線，而回復運作需要48小時。&lt;/p&gt;
-&lt;p&gt;巴國國稅局網站於本周一恢復上線。&lt;/p&gt;
+ <title>Qualcomm發表下一代5G AI無人機平臺</title>
+ <link>https://www.ithome.com.tw/news/146259</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Qualcomm（高通）推出全球第一個5G人工智慧無人機平臺，&lt;a href=&quot;https://www.qualcomm.com/news/onq/2021/08/17/qualcomm-flight-rb5-5g-platform-worlds-first-5g-and-ai-enabled-drone-platform&quot;&gt;Flight RB5 5G平臺&lt;/a&gt;可用於加速和擴展無人機的開發，滿足企業和工業開發無人機應用的需求。Flight RB5 5G平臺採用該公司最新的QRB5165處理器，作為新一代高效能、低功率5G無人機的基礎，Qualcomm希望新平臺能夠加速無人機開發，並且透過邊緣運算，來強化商業、企業和工業無人機應用。&lt;/p&gt;
+&lt;p&gt;在今年4月的時候，NASA的火星無人直升機獨創號（Ingenuity），成功在火星上試飛，這是人類第一臺在其他星球的動力可控飛行器，而Qualcomm飛行平臺便是獨創號試飛成功的重要功臣。Qualcomm認為，無人機迅速發展，在各領域開啟各種應用可能性，而無人機與5G、長距離Wi-Fi連接性，還有人工智慧技術的結合，將會是接下來無人機發展的關鍵。&lt;/p&gt;
+&lt;p&gt;因此Qualcomm推出了Flight RB5 5G平臺，來滿足無人機開發需求，該平臺是專為小型無人機系統設計，結合異構、低功耗的運算和攝影系統，與人工智慧、5G和Wi-Fi 6等技術，使無人機具有15 TOPS（Trillion Pperations Per Seconds）成像能力，以及先進的通訊能力。&lt;/p&gt;
+&lt;p&gt;Flight RB5 5G平臺擁有8個QRB5165中央處理器、1個GPU和1個神經處理引擎，還有能夠捕捉4K和8K解析度影片的攝影鏡頭，而其5G和Wi-Fi 6連接能力，能夠實現長達8公里的可視距離飛行。&lt;/p&gt;
+&lt;p&gt;Qualcomm Flight RB5 5G平臺能夠支援7臺相機並行運算，以高品質格式同時捕捉多個鏡頭影像，平臺上的第5代Qualcomm人工智慧引擎能夠處理複雜的任務，像是電腦視覺、感知和自主性功能，先進的4K或是8K無人機攝影機，能夠提供電子影像穩定器、水平功能和數位變焦等功能，拍攝出電影品質的影像，另外，電腦視覺則可以提供多目標偵測和追蹤、數位雲臺以及立體視野深度等功能。該平臺自主功能，具有像是路徑規畫和障礙物迴避等能力，使得無人機可以平穩飛行。&lt;/p&gt;
+&lt;p&gt;長距離連接性也是Qualcomm飛行平臺的重點，藉由5G和Wi-Fi 6可以與控制器低延遲連接，達到精確移動和即時第一人稱視角的回應時間，使用者也能夠將無人機透過HDMI連接外部顯示器，以快速查看無人機鏡頭影像。Qualcomm無人機平臺也採用安全連接和加密技術，來保持應用的安全性，在用戶遠端控制無人機的同時，以網路安全、資料保護和無人機安全功能，來確保操作的安全性。&lt;/p&gt;
+&lt;p&gt;Qualcomm Flight RB5 5G無人機參照設計現在於無人機製造商ModalAI上預售，而開發套件則預計會在今年第4季上市。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 06:19:37 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146253 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146253#comments</comments>
+ <pubDate>Thu, 19 Aug 2021 03:01:36 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146259 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146259#comments</comments>
 </item>
 <item>
- <title>英特爾將終止RealSense相機業務</title>
- <link>https://www.ithome.com.tw/news/146252</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.crn.com/news/components-peripherals/intel-says-it-s-shuttering-realsense-camera-business&quot; target=&quot;_blank&quot;&gt;CRN報導&lt;/a&gt;，處理器大廠英特爾重整半導體晶片業務之際，也將關閉近年衍生的智慧相機RealSense業務。&lt;/p&gt;
-&lt;p&gt;這消息獲得英特爾官方證實。英特爾表示公司將關閉RealSense業務，並將電腦視覺、技術和產品移轉出去，以著重推動核心業務及IDM2.0的技術創新。英特爾也表示將持續支援現有客戶，並與員工及客戶合作確保「平順移轉」。&lt;/p&gt;
-&lt;p&gt;RealSense是英特爾發展的3D影像感測技術部門，發展深度感知及物件追蹤相關的處理器、ASIC、相機系統以及軟體。為了強化RealSense技術，&lt;a href=&quot;https://www.ithome.com.tw/news/108285&quot; target=&quot;_blank&quot;&gt;英特爾還買下&lt;/a&gt;電腦視覺新創公司Movidius近年發展出的空間感測及體感技術，也推向自駕車、無人機、AR/VR、智慧家庭及機器人等產業。&lt;a href=&quot;https://www.ithome.com.tw/news/142089&quot; target=&quot;_blank&quot;&gt;年初RealSense還加入臉部辨識&lt;/a&gt;作為出入驗證等應用。&lt;/p&gt;
-&lt;p&gt;不過CRN報導，RealSense部門主管Sagi Ben Moshe兩周前在LinkedIn上證實，他將在待了10年之後離開英特爾。報導指出，對通路商而言，RealSense仍然屬於貢獻度較小的業務。&lt;/p&gt;
-&lt;p&gt;結束RealSense業務的主因，可能與新CEO Pat Gelsinger政策有關。Gelsinger上任後宣布砸巨資設廠重振PC、伺服器晶片業務以搶回龍頭地位，並且計畫跨足晶圓代工。通路商也看好英特爾加碼核心業務的策略，認為更能帶動生態圈的成長。&lt;/p&gt;
-&lt;p&gt;即使在Gelsinger之前，去年英特爾已著手清理非核心業務，包括&lt;a href=&quot;https://www.ithome.com.tw/news/136795&quot; target=&quot;_blank&quot;&gt;家用閘道器&lt;/a&gt;、&lt;a href=&quot;https://www.ithome.com.tw/news/140615&quot; target=&quot;_blank&quot;&gt;NAND記憶體&lt;/a&gt;，更早之前也已&lt;a href=&quot;https://www.ithome.com.tw/news/113265&quot; target=&quot;_blank&quot;&gt;將防毒軟體業務McAfee獨立分割出去&lt;/a&gt;。&lt;/p&gt;
+ <title>Cloud周報第117期：跨國連鎖飯店集團要利用AWS機器學習服務，協助加盟商優化房價提升住房率</title>
+ <link>https://www.ithome.com.tw/news/146263</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(0, 0, 255);&quot;&gt;重點新聞（2021/08/12～2021/08/18）&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  飯店業 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  雲端採用 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  疫情  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;跨國連鎖飯店集團目標搬遷9成基礎設施上雲，訂房系統、飯店管理系統等已上雲&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;全球最大飯店連鎖集團溫德姆酒店（Wyndham Hotels &amp;amp; Resorts）日前宣布擴大採用雲端服務，並分享近年上雲的成果。該集團旗下有約9千家飯店，房源每日經歷超過9萬次的價格變化。為了最大化住房率，溫德姆酒店集團將採用AWS機器學習服務，納入飯店位置、天氣和時間段等不同因素，來協助加盟商確認適合不同市場、飯店品牌的最佳價格、折扣和住宿方案。另外，該集團將開發雲原生服務，供入住房客自動辦理入住手續。疫情期間，該集團也利用雲端資源，快速開發防疫相關應用，例如於數周內完成開發的房務服務應用，可為飯店清潔人員更新客房清潔的作業流程清單。&lt;/p&gt;
+&lt;p&gt;2018年時，溫德姆酒店集團從母公司溫德姆環球分割後，考量需快速建立自身的IT基礎設施，決定採用AWS，來轉變為獨立的實體組織。為了降低營運成本，該集團陸續關閉了數個資料中心，以實現9成基礎設施上雲的目標。迄今，已搬遷訂房系統、飯店管理系統和資料處理平臺上AWS。溫德姆酒店集團資訊長Scott Strickland表示，搬遷大部分工作負載上雲，使集團能夠快速因應疫情下不斷變化的業務環境，且現可隨不同地區逐步重啟，來擴展業務。&lt;a href=&quot;https://press.aboutamazon.com/news-releases/news-release-details/wyndham-hotels-resorts-selects-aws-its-preferred-cloud-provider&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  海底電纜  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;strong style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  亞太地區  &lt;/span&gt;&lt;/strong&gt; &lt;strong style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  臺灣  &lt;/span&gt;&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;Google及臉書宣布參與亞太新海纜Apricot建置，連結日本、臺灣與新加坡&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Google及臉書近日宣布，參與串連亞太多國的新海底電纜Apricot的建置工程。這條全長1.2萬公里的海底電纜，將連結日本、關島、臺灣、菲律賓、新加坡與印尼，並與另一條Google及臉書都有參與，於今年年初宣布建置的電纜Echo連結，成為可相互支援的海覽系統。計畫於2023年啟用的Echo，主要連結新加坡及北美，中途會經過關島及印尼。&lt;/p&gt;
+&lt;p&gt;Google表示，兩條海底電纜連結將提供多條進出亞洲的網路通道，大幅提升Google 雲端及Google數位服務的彈性，並提供亞洲企業及新創更低延遲的服務，以及更多的頻寬，也能強化亞太地區與美國間的網路連結穩定性和彈性。&lt;/p&gt;
+&lt;p&gt;新電纜Apricot預計2024年完工，可以提供超過190Tbps的總容量。中華電信也是投資新海纜建置工程的一員，預計將投資超過新台幣10億元，來提升臺灣對外連網頻寬的容量，以及分散對外的海纜路由。中華電信表示，Apricot海纜走菲律賓東側、穿越印尼海域，直達新加坡的全新路由，可提升臺灣對外海纜路由分散度，確保對外連網頻寬安全性。&lt;a href=&quot; https://cloud.google.com/blog/products/infrastructure/new-apricot-subsea-cable-brings-more-connectivity-to-asia&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Azure &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;strong style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 勒索軟體偵測  &lt;/span&gt;&lt;/strong&gt; &lt;strong style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  機器學習  &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;Azure新增勒索軟體偵測服務，利用機器學習模型辨識可疑勒索軟體活動&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微軟日前推出Azure新的勒索軟體偵測服務Fusion，藉由機器學習模型偵測可疑的勒索軟體活動，再透過雲端安全資訊與事件管理員（SIEM）平臺Azure Sentinel，發送訊息給企業管理員。這項新服務由Azure團隊和微軟威脅情報中心共同開發，會整合微軟各項安全產品發送的訊號，包含Azure Defender、Microsoft Defender for Endpoint、Microsoft Defender for Identity、Azure Sentinel排程分析規則等，以及來自網路及雲端的訊號，並加以找出訊號間的關聯性，以供企業更全面地剖析可疑活動。
+&lt;/p&gt;&lt;p&gt;微軟表示，新服務可縮短惡意活動的平均偵測時間，以及平均回應時間。企業收到Azure Sentinel發出的警告後，需立即檢視警告並採取回應行動，像是隔離特定機器、執行全系統掃描、回復狀態，並檢查整體網路安全。微軟將持續增進Fusion的多階段攻擊情境偵測能力。&lt;a href=&quot; https://techcommunity.microsoft.com/t5/azure-sentinel/what-s-new-fusion-detection-for-ransomware/ba-p/2621373&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Google雲端 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  VM監控  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  除錯  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;Google強化Compute Engine控制臺呈現VM運作數據的能力，供企業快速排除VM錯誤&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/3(44).jpg&quot; style=&quot;width: 600px; height: 383px;&quot; /&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Google雲端為Compute Engine控制臺新增強化上下文（In-Context）的UI工具集，供企業從具脈絡的視覺化資訊中，監控和排除VM故障，來更快地解決問題。Compute Engine控制臺添加了各種指標、圖表等視覺化功能，能夠協助企業分析指標和網路變化，並且找出適合的磁碟大小，甚至是調整和測量記憶體效能等。部分新增圖表的資訊來自Google雲端Ops產生的指標，包含作業系統報告的CPU使用率、記憶體使用率等，還有核心、磁碟快取、I/O延遲和程序指標等資訊。&lt;/p&gt;
+&lt;p&gt;以往企業從Compute Engine控制臺掌握指標來排除VM故障，需切換不同工具查看指標，才能進行根本原因分析。Google表示，雖然新工具沒有提供單一故障排除流程，一次滿足所有除錯需求，但企業能更直覺、迅速地處理多種場景狀況。像是當企業從指標和日誌辨識網路變化，可以藉由日誌工具，來快速過濾並找到關鍵的日誌記錄，並且利用日誌資源管理器中的深度連結，在Compute Engine和Cloud Logging服務之間快速無縫切換瀏覽。&lt;a href=&quot;https://cloud.google.com/blog/products/operations/better-access-to-observability-data-for-virtual-machines&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  AWS   &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  資料倉儲  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;  &lt;strong style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  跨帳戶資料共享  &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;Amazon Redshift新增跨帳戶資料共享功能，方便企業分享資料給外部帳戶&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/4(21).jpg&quot; style=&quot;width: 600px; height: 418px;&quot; /&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;AWS近日宣布雲端資料倉儲Redshift新增跨帳戶資料共享功能，供企業跨AWS帳戶共享資料，也就是說，Redshift資料交換不再限於單一帳戶中的使用者。透過新功能，企業可以跨帳戶和組織，共享Redshift中的資料，來確保資料的完整性和一致性，避免遭遇以往因擷取、載入資料至另一個系統，衍生的資料安全維護問題。&lt;/p&gt;
+&lt;p&gt;Amazon Redshift整合IAM和AWS CloudTrail等服務，因此企業可以利用安全控制和稽核功能，來監控提供給資料使用者的共享權限，以及資料使用狀況。此外，企業可以分享多個層級的資料，包含資料庫、架構、表格、檢視表和用戶定義的函式，並且制定精細的存取控制規則，掌控用戶的資料存取權限。新功能僅支援同地區叢集間的資料共享需求，目前僅在Amazon Redshift RA3節點提供，包含北維吉尼亞州、俄亥俄州、法蘭克福、首爾、東京、新加坡等地區，現已上線供使用。企業按資料共享使用的Redshift叢集，來付費。&lt;a href=&quot; https://aws.amazon.com/blogs/aws/cross-account-data-sharing-for-amazon-redshift/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Azure   &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;strong style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  DDoS攻擊  &lt;/span&gt;&lt;/strong&gt; &lt;strong style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  網路流量  &lt;/span&gt;&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;Azure上半年總計防禦破25萬次DDoS攻擊，單日最高緩解破2千次攻擊&lt;/span&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2(40).png&quot; style=&quot;width: 600px; height: 348px;&quot; /&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微軟近日回顧Azure DDoS防禦團隊今年上半年抵擋攻擊的情況，並分享他們觀察到的DDoS攻擊趨勢。今年上半年，微軟觀察到每日急劇增加的DDoS攻擊事件，Azure每天平均緩解1,392次DDoS攻擊，相比2020年第四季，每日平均緩解的攻擊次數成長了25%。其中，2021年5月24日遭受攻擊次數達最高峰，整日共遭遇多達2,043次攻擊。整體而言，微軟總共防禦了超過25萬次針對Azure全球基礎設施的DDoS攻擊。&lt;/p&gt;
+&lt;p&gt;如同去年觀察到的趨勢，微軟持續看到疫情大流行下，網路活動暴增促使DDoS攻擊的發生次數，以及攻擊複雜性皆顯著提升的態勢。此外，隨著物聯網設備和加密貨幣的使用量上升，微軟還觀察到勒索軟體和DDoS勒索攻擊事件增加，受害者包含墨西哥國家彩券網站、Bitcoin.org等。 根據統計，微軟防禦的DDoS攻擊多屬短暫性事件，時長落在30分鐘內的攻擊，占74%，而87%攻擊的時長則為1小時內。微軟特別提到，今年攻擊者採用了更先進的技術，例如回收IP來發動短暫且密集式攻擊。&lt;a href=&quot; https://azure.microsoft.com/en-us/blog/azure-ddos-protection-2021-q1-and-q2-ddos-attack-trends/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  市場調查 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  公有雲 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  應用程式現代化  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;IDC預測：2025年全球公有雲IaaS和PaaS市場規模，達4千億美元&lt;/span&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;IDC最近發布了全球公有雲IaaS和PaaS市場的新預測，預估到2025年，公有雲IaaS和PaaS市場的整體規模將達到4千億美元，複合年均成長率為28.8%。IDC雲端基礎設施服務研究經理Andrew Smith表示，企業投資公有雲基礎設施的金額，持續增長的比投資傳統IT基礎設施快。除此之外，IDC觀察企業正從搬遷工作負載上雲，走向在公有雲上，推動工作負載現代化。IDC表示，去年，投資公有雲IaaS的企業越來越重視應用程式現代化工作，且視現代化為應用程式邁向敏捷交付和雲端運作，不可或缺的一環。再者，隨著企業希望有效管理增長的數據和IT預算，促使他們決定繼續搬遷更多的工作負載上雲。IDC表示，雲端平臺通過實現可按需取用的資源容量，滿足企業控制IT預算的需求。&lt;a href=&quot;https://www.idc.com/getdoc.jsp?containerId=prUS48129821&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;圖片來源／溫德姆酒店集團、Google雲端、AWS、微軟&lt;/p&gt;
+&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  更多Cloud動態  &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1.甲骨文宣布以機器學習強化資料庫查詢加速引擎MySQL Heatwave，挑戰Amazon Aurora、Google BigQuery和Snowflake&lt;a href=&quot;https://www.oracle.com/news/announcement/mysql-autopilot-for-heatwave-2021-08-10/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2.Azure復原服務Site Recovery現支援全球災難復原，企業可跨洲複製應用程式&lt;a href=&quot;https://azure.microsoft.com/en-us/updates/global-dr-with-asr/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3.AWS推出最新x86架構的M6i通用目的EC2執行實例，相比同類第5代執行實例，整體性價比提高15％&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/new-amazon-ec2-m6i-instances-powered-by-the-latest-generation-intel-xeon-scalable-processors/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;資料來源：iThome整理，2021年8月&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 04:33:15 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146252 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146252#comments</comments>
+ <pubDate>Thu, 19 Aug 2021 02:27:47 +0000</pubDate>
+ <dc:creator>黃郁芸</dc:creator>
+ <guid isPermaLink="false">146263 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146263#comments</comments>
 </item>
 <item>
- <title>Salesforce公布首批整合Slack的服務</title>
- <link>https://www.ithome.com.tw/news/146251</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在7月&lt;a href=&quot;https://www.ithome.com.tw/news/145805&quot; target=&quot;_blank&quot;&gt;完成收購線上協同平臺Slack&lt;/a&gt;後，CRM大廠&lt;a href=&quot;https://www.salesforce.com/news/press-releases/2021/08/17/slack-supercharges-salesforce-customer-360-for-sales-service-marketing-and-analytics/&quot; target=&quot;_blank&quot;&gt;Salesforce.com本周宣布雙方產品整合的首批成果&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;兩公司整合將支援企業未來的混合式工作模式，以建立「數位總部」（digital HQ），最終願景是以Slack作為企業使用Salesforce及其他商務應用、系統的單一整合前端介面，作為協同、內部溝通、工作流程，涵括行銷、業務、服務等所有活動，並以Slack Connect作為和外部合作夥伴、廠商及客戶的聯繫工具。公布的初步整合功能，是打造在Salesforce單一CRM資料源基礎上，建立Slack為優先（Slack-First）的Customer 360的一環。&lt;/p&gt;
-&lt;p&gt;首批整合成果是和業務、服務、行銷及分析相關的Slack新服務功能。業務面功能包括允許業務團隊在Slack針對特定客戶或訂單協同或檔案交換的數位交易室、以及提供業務人員自訂簡報的自動化每日簡報服務。服務面新功能首先是提供服務部門針對複雜、重要客戶協同的Slack頻道，另一功能為專家配對功能，可依據案件自動辨識相關專家加入該Slack頻道。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0818-slack%20Digital%20deal%20rooms.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Salesforce&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;在行銷方面，一項AI服務可從Salesforce行銷雲或資料庫分析出行銷活動不足的客戶或業務，而工作流程通知服務則供行銷部門以Slack管理行銷活動。最後在分析功能方面，自動通知服務可在Tableau資料來到特定閥值時向Slack傳送通知，像是sales pipeline低於一定值時。觀察清單摘要（watchlist）可設定特定量測值或趨勢的每日更新，而訂閱服務則自動將儀表板（dashboard）更新數字發布到各部門的Slack頻道。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://www.salesforce.com/news/wp-content/uploads/sites/3/2021/08/Slack-First-Marketing-Datorama-and-Marketing-Cloud-Journeys.png?resize=2048,1208&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://www.salesforce.com/news/wp-content/uploads/sites/3/2021/08/Slack-First-Analytics-Tableau-on-mobile-device-in-Slack-channel.png?resize=473,1024&quot; style=&quot;width: 231px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;圖片來源_Salesforce&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;同時使用Salesforce和Slack的客戶，除了IBM外還包括智慧音響廠商Sonos。&lt;/p&gt;
+ <title>微軟注資零信任資料管理業者Rubrik</title>
+ <link>https://www.ithome.com.tw/news/146262</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;創立於2014年的雲端資料管理業者Rubrik於17日宣布，&lt;a href=&quot;https://www.rubrik.com/company/newsroom/press-releases/21/strategic-agreement-with-microsoft-to-mitigate-ransomware-threats&quot; target=&quot;_blank&quot;&gt;已與微軟達成策略協議&lt;/a&gt;，協議內容包括獲得微軟注資，以及提供基於Microsoft Azure的各種零信任資料保護解決方案。雙方並未公布投資金額，&lt;a href=&quot;https://www.bloomberg.com/news/articles/2021-08-17/microsoft-invests-in-rubrik-to-protect-against-cyberattacks&quot; target=&quot;_blank&quot;&gt;但彭博社引用消息來源報導&lt;/a&gt;，微軟以Rubrik身價約40億美元的估值投入了數千萬美元。&lt;/p&gt;
+&lt;p&gt;Rubrik定位為零信任資料管理業者，強調沒有任何裝置、使用者或應用程式是可靠的，目的為確保資料不被竄改、加密或刪除，服務的範疇從雲端資料管理、雲端備份與復原到安全及法規遵循等。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0819-rubrik%20UI.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Rubrik&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;根據Rubrik與微軟的協議，雙方將共同提供Microsoft 365與混合雲的資料保護服務，並整合Microsoft Azure上的各式雲端服務，將把Rubrik的勒索軟體攻擊資料復原、自動化資料處理，以及將資料遷移至雲端的能力，應用在橫跨包括Microsoft 365在內的資料中心、邊緣及雲端環境上。&lt;/p&gt;
+&lt;p&gt;Rubrik表示，此一合作將可滿足客戶日益增加的需求，以防止不斷出現的勒索軟體攻擊。&lt;/p&gt;
+&lt;p&gt;負責全球合作夥伴解決方案的微軟副總裁Nick Parker表示，端對端的應用與資料管理對於業務的成功扮演關鍵角色，相信在Microsoft Azure與Microsoft 365上整合Rubrik的零信任資料管理解決方案，將可協助客戶改善其零信任流程。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 04:18:46 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146251 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146251#comments</comments>
+ <pubDate>Thu, 19 Aug 2021 02:24:02 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146262 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146262#comments</comments>
 </item>
 <item>
- <title>誠品與金石堂等書店型電商屢列網購高風險平臺，8月另有多達35個愛心協會捐款資料外洩，上百捐款人報案遭騙</title>
- <link>https://www.ithome.com.tw/news/146250</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;近日誠品網路書店客戶個資外洩問題再度浮上檯面，根據東森電視臺的報導，最近誠品網路書店在短短五天內，就有上百會員被騙千萬元，各大媒體也跟進引用內容，但相關報導內容存在著爭議，我們洽詢警方想確認此事真實性，他們表示，被騙千萬應是長期累計金額。但無論如何這類事件相當嚴重，也再次突顯了臺灣電商平臺的資料外洩問題。&lt;/p&gt;
-&lt;p&gt;事實上，根據165反詐騙每週公布解除分期付款的民眾通報高風險賣場名單，在今年4、5月間，誠品網路書店就屢屢列入，當時許多網友或受害者指出，對方不僅假冒誠品的客服人員，還能清楚說明訂單內容、日期、金額，以及住址等資訊，以及再搭配假冒的金融機關人員來電，有些民眾更是因此誤信對方而上當，導致遭受ATM解除分期詐騙。對此，我們也聯繫誠品，了解4月就傳出的客戶個資外洩問題，是否發布相關資安事件公告，但他們不願多談。&lt;/p&gt;
-&lt;p&gt;在8月初第一週，誠品網路書局再度被165公布為最嚴重的電商平臺，由於過去警方曾表示，每次詐騙高峰期通常持續2~3個月，這也意味著，近期可能還會有一波假冒誠品客服人員的ATM解除分期詐騙，需要當心。而在8月17日中午，Whoscall與165全民防騙的臉書粉絲專頁上，也發布宣導貼文，他們表示，偽冒誠品電話的數量飆升，提醒民眾注意。基本上，最要的還是要知道，應自行搜尋正確客服電話並去電確認，以及ATM操作沒有解除分期的功能。&lt;/p&gt;
-&lt;p&gt;但更要注意的是，今年不只是誠品網路書店資料外洩情況嚴重，金石堂網路書店、Booking.com、HITO本舖，以及小三美日等，同樣面臨客戶資料外洩問題。特別的是，今年8月還有新的網路攻擊趨勢，有多個慈善愛心協會，同時遭遇客戶資料外洩問題。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/_誠品個資外洩_圖片來源擷取自Whoscall臉書.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/_%E8%AA%A0%E5%93%81%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%93%B7%E5%8F%96%E8%87%AAWhoscall%E8%87%89%E6%9B%B8.jpg&quot; style=&quot;width: 225px;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://s4.itho.me/sites/default/files/images/2021-08-17_140730_誠品個資外洩_圖片來源擷取自Whoscall臉書(1).jpg.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-17_140730_%E8%AA%A0%E5%93%81%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%93%B7%E5%8F%96%E8%87%AAWhoscall%E8%87%89%E6%9B%B8(1).jpg.jpg&quot; style=&quot;width: 365px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;在8月17日中午，Whoscall臉書粉絲專頁指出近期偽冒誠品電話飆升，提醒民眾要注意詐騙號碼特徵。&lt;/p&gt;
-&lt;p&gt;另外值得注意的是，過去詐騙集團也曾結合二類電信讓來電號碼的顯示，可以與真實號碼一模一樣，因此民眾應要有相關認知，最好的方式，應自行搜尋正確客服電話再三確認並去電聯繫，以及要知道ATM操作沒有解除分期的功能，就不會被話術所騙。（圖片來源：擷取自Whoscall臉書粉絲專頁）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%961%EF%BC%89%E8%AA%A0%E5%93%81%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/h3&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;span style=&quot;color:#0033ff;&quot;&gt;最近國內資料外洩問題有兩大值得重視的焦點，根據在165反詐騙諮詢專線統計，在110/8/2-110/8/8民眾通報高風險賣場名單中，首先，誠品網路書局與金石堂網路商店又名列前兩名，另一更受關注的是，還有多個愛心協會同時入榜。&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#0033ff;&quot;&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/133558&quot;&gt;常見的受害情境&lt;/a&gt;，舉例來說，民眾接到詐騙集團假冒XXX平臺客服人員的詐騙電話，對方誆稱系統異常，導致民眾的訂單有重複下單與扣況的情況，將通報銀行協助處理。接下來，就有另名歹徒假冒XXX銀行客服打電話給民眾，謊稱要民眾配合至ATM操作，以取消錯誤的扣款。接下來就有不慎的民眾誤信，聽從歹徒指示操作，被騙走數萬元，甚至持續被這樣騙錢。&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;&lt;strong&gt;第二季誠品網路書店以310件最嚴重，金石堂175件次之&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;在2021年上半，臺灣有那些電商平臺遭遇客戶資料外洩問題？我們聯繫刑事警察局股長洪國倫，他表示，近年165反詐騙每季公布相關統計數據，警方在接獲大量民眾通報後，由於假冒客服的詐騙者都掌握了客戶個資與訂單明細等資訊，因此也針對這些疑似個資外洩電商，進行相關反詐騙宣導。&lt;/p&gt;
-&lt;p&gt;從今年上半的概況來看，刑事局受理「解除分期付款詐騙（ATM）」案件，多達1,675件，較去年同期增加255件。&lt;/p&gt;
-&lt;p&gt;以第一季而言，民眾通報5大高風險賣場，分別是HITO本舖（121件）、GOMAJI（107件）、Booking.com（102件）、DR情趣（95件），以及Check2Check（94件）。&lt;/p&gt;
-&lt;p&gt;第二季民眾通報5大高風險賣場，分別是誠品網路書店（310件）、金石堂網路書店（175件）、萬年東海模型（147件）、婕洛妮絲計（144件）與 Booking.com（119件）。&lt;/p&gt;
-&lt;p&gt;綜合來看，以網路書店類型電商平臺的通報量最大，像是：誠品網路書店、金石堂網路書店，都相當嚴重，至於前三年連續列為年度5大高風險賣場的讀冊生活，在該公司董事長去年表明要強化資安後，今年顯然好轉。&lt;/p&gt;
-&lt;p&gt;洪國倫表示，Booking.com的客戶資料外洩問題去年同樣備受關注，後續該業者雖然換過資訊服務商，但今年又連續兩季入榜。&lt;/p&gt;
-&lt;p&gt;此外，HITO本舖、小三美日、GOMAJI也是近年榜上常客，而萬年東海模型、婕洛妮絲計同樣值得注意，今年新入榜，且通報量不小。因此，其會員也應關注這些業者的資料外洩情形。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E4%B8%BB%E5%9C%96%EF%BC%89%E8%AA%A0%E5%93%81%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9_960x420.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/zhu_tu_xing_shi_jing_cha_ju_2019_2020nian_du_gao_feng_xian_mai_chang_S.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;假冒電商詐騙橫行多年，根據刑事警察局統計，我們可以發現，&lt;a href=&quot;https://www.ithome.com.tw/news/142240&quot;&gt;在2019年與2020年，小三美日與讀冊生活就曾連續兩年名列年度5大高風險網購平臺&lt;/a&gt;，而國內大型網購業者在2020年也首次列入年度高風險賣場。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;&lt;strong&gt;愛心捐款協會也被詐騙集團鎖定，捐款人資料遭竊&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;另一值得關注的攻擊與詐騙趨勢，警方提醒，現在詐騙集團除了針對電商平臺的客戶資料庫攻擊，也會鎖定愛心捐款組織。&lt;/p&gt;
-&lt;p&gt;洪國倫表示，在7月底、8月初，他們接獲了多起民眾通報，都是對方掌握被害人姓名、電話、捐款金額等資料的詐騙案件，最初通報對象包括台灣樂作創益協會、中華育幼機構兒童關懷協會、弘化同心共濟會、臺灣防盲基金會、中華民國兒童癌症基金會，以及愛盲基金會等。&lt;/p&gt;
-&lt;p&gt;接下來，出現多起通報的還有育成社會福利基金會、第一社會福利基金會、沐風關懷協會、微客公益行動協會與導盲犬協會，到了8月中旬（至16日止），警方統計，已經多達35家這類的愛心慈善協會發生個資外洩，進而導致民眾遭詐騙，這三周以來，警方已接獲超過120件民眾報案，財損更是超過1600萬元。&lt;/p&gt;
-&lt;p&gt;其中後續詐騙手法則如出一轍，大多利用ATM解除分期詐騙取財，只不過詐騙話術略有差異。對方以工作人員操作錯誤，導致網路匯款變成分期付款或定期扣款等名義，打電話給捐款民眾，再謊稱至ATM輸入解除錯誤密碼，但實為詐騙方受款帳戶，混淆民眾。&lt;/p&gt;
-&lt;p&gt;這起事件另一特殊之處，是這些協會都委託同一資訊系統服務商。洪國倫表示，遭入侵的管道有很多種，他舉例，包括對方透過撞庫攻擊取得系統存取權限，以及偽裝客訴信寄送釣魚文件，一旦客服人員點擊暗藏木馬的該文件或連結，之後駭客就能一步步取得受害公司員工的存取權限，竊取客戶個資，再將這些客戶個資往外傳送。&lt;/p&gt;
-&lt;p&gt;關於上述事件的目前調查進度，刑事局研發科還在與系統商釐清相關資訊，以及進行相關資安檢測。另外，洪國倫指出，誠品網路書店與這些慈善協會並非使用同一系統資訊商，屬不同事件。&lt;/p&gt;
-&lt;h2 class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#0099ff;&quot;&gt;&lt;strong&gt;配合警方發布反詐騙警語，業者本身卻無公告客戶個資外洩？&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;為了避免民眾遭受後續的詐騙，警方在接獲通報當下，都會通知業者，需在官方網站進行反詐騙警語，並以電子郵件或簡訊通知會員，並提醒平臺強化資安防護，但這些事件為何持續出現？因為有很多問題一直沒有解決。&lt;/p&gt;
-&lt;p&gt;除了業者要強化資安，他們也應該重視資安事件公告的發布，讓民眾知道事件調查、影響範圍，以及受影響者該如何因應。&lt;/p&gt;
-&lt;p&gt;然而，有許多受害電商平臺只發布防詐騙警語，卻未正式發布客戶資料外洩公告。儘管有些民眾看到警示，可能就猜得到該業者可能有客戶資料外洩狀況，但這樣隱晦、間接的資安事件發布方式，是否合理？隨著個資法宣導多年，讓企業準備，現在政府又該如何採取對策？&lt;/p&gt;
-&lt;p&gt;畢竟，業者只發布防詐騙警示，不一定代表他們真的受害，有可能只是配合政府政策。像是&lt;a href=&quot;https://www.ithome.com.tw/news/142711&quot;&gt;今年過年前夕，出現大規模假冒銀行釣魚簡訊詐騙&lt;/a&gt;，由於接連有銀行被假冒，因此警方也呼籲各家銀行先發布警示，因此，對於其他銀行而言，傳達這些資訊並非表示自身已遭假冒，而是先行提醒。&lt;/p&gt;
-&lt;p&gt;而從法規面向來看，根據個人資料保護法第12條規定，公務機關或非公務機關違反本法規定，致個人資料被竊取、洩漏、竄改或其他侵害者，應查明後以適當方式通知當事人。&lt;/p&gt;
-&lt;p&gt;關於個人資料法的求償，之前我們曾報導過2017年&lt;a href=&quot;https://www.ithome.com.tw/news/133473&quot;&gt;EZ訂個資外洩客戶遭騙判決出爐，最終是業者應付起7成部分責任&lt;/a&gt;，但多數民眾可能往往不知道這可以提告。同時，民眾對業者提出集體訴訟的狀況不興盛，也是導致業者消極、被動應對的原因，過去曾有成功獲得賠償的案例，例如，關於&lt;a href=&quot;https://www.consumers.org.tw/product-detail-2519883.html&quot;&gt;雄獅旅行社資料外洩事件，受害者提出集體訴訟，一審雖然敗訴，但到了二審後，此案在2020年7月終於進行調解，該案消費者並獲得賠償金&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/960x420zhu_tu_bezding_ge_zi_wai_xie_ke_hu_zao_pian_pan_jue_chu_lu_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%93%B7%E5%8F%96%E8%87%AA%E5%8F%B8%E6%B3%95%E9%99%A2%E6%B3%95%E5%AD%B8%E8%B3%87%E6%96%99%E6%AA%A2%E7%B4%A2%E7%B3%BB%E7%B5%B1.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/133473&quot;&gt;在2019年9月，有民眾提告EZ訂個資外洩的二審判決出爐&lt;/a&gt;，判決報告中說明業者也應付起7成部分責任。&lt;span style=&quot;font-family: Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-style: italic;&quot;&gt;(圖片來源:擷取自司法院法學資料檢索系統)&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E9%9B%84%E7%8D%85%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9%E5%9C%98%E9%AB%94%E8%A8%B4%E8%A8%9F%E9%80%B2%E5%BA%A6%E8%A1%A8(%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E6%B6%88%E5%9F%BA%E6%9C%83).jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;在2020年7月，&lt;span style=&quot;font-family: Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-style: italic;&quot;&gt;消費者文教基金會針對雄獅旅行社客戶資料外洩提起個資受害者團體訴訟案有了結果，該訴訟案最終於台灣高等法院民事庭成立調解，消費者也獲得賠償金。&lt;/span&gt;(圖片來源:擷取自消費者文教基金會網站)&lt;/p&gt;
-&lt;/blockquote&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 03:46:07 +0000</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="false">146250 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146250#comments</comments>
+ <title>在高維中尋找線性</title>
+ <link>https://www.ithome.com.tw/voice/146206</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;核方法（Kernel method）是提升特徵維度，讓特徵能成為線性可分的技巧，在運作上，核函數的選擇是個挑戰，然而挑戰的出發點不是認識核函數的數學公式，而是在深入的分析、理解資料本身。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;這會是高維資料投影嗎？&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;我在先前專欄〈&lt;a href=&quot;https://www.ithome.com.tw/voice/145817&quot; target=&quot;_blank&quot;&gt;從影子遊戲到主成分分析&lt;/a&gt;〉中談過，對於高維度的資料，我們可以透過主成分分析來降低資料的維度，而在盡量保留取特徵中重要資訊的前提之下，以便進行可視化、抽取特徵、清理資料等動作。&lt;/p&gt;
+&lt;p&gt;然而，相對於主成分分析會進行降維的動作，實際上，這時候，還存在著對於既有資料提升維度的需求。&lt;/p&gt;
+&lt;p&gt;我們可以從一個簡單的例子，來理解為何要提升維度。如果有一組資料，特徵值為(1,0)、(0,1)、(-1,0)、(0,-1)，分別標記為0、1、0、1，若使用散布圖，分別用o與x來標示這組資料，o與x會交叉成為XOR的情況，也就是無法找出一條直線，將資料分為兩類，顯然地，這簡單的四筆資料並不是線性可分的問題。&lt;/p&gt;
+&lt;p&gt;然而，這只是二維的情況，如果從另一個角度來想，如果四個點，o的部份降低，x的部份升高又如何呢？&lt;/p&gt;
+&lt;p&gt;也就是徑自將特徵值的維度提升為三維，在第三個維度上，o的資料設定為1，而x設定為-1，成為(1,0,-1)、(0,1,1)、(-1,0,-1)、(0,-1,1)，那麼，就可以用一個平面將資料分為兩類，也就是提升維度後的資料，成為線性可分的問題。&lt;/p&gt;
+&lt;p&gt;當然，只有四個點很簡單，如果有很多點呢？例如在〈&lt;a href=&quot;https://bit.ly/3hDsiiV&quot; target=&quot;_blank&quot;&gt;二維線性不可分&lt;/a&gt;〉這個gist，畫出來的散布圖中有一百個點，在只有兩類的情況下，寫程式根據一百個點的標記，將o的部份降低，x的部份升高，雖然足以應付，只不過如果標記也很多之際，這種方式就顯得笨重，最好還是依既有的特徵值想辦法提升維度。&lt;/p&gt;
+&lt;p&gt;如果你觀察力很敏銳，或許會發現可以用雙抛物面公式──直接透過公式來轉換維度。像是〈&lt;a href=&quot;https://bit.ly/3eg4JuB&quot; target=&quot;_blank&quot;&gt;雙拋物面提升維度&lt;/a&gt;〉這個gist，在經過雙抛物面公式轉換維度後，相同分類的資料各座落在XY平面的兩側，之後就能用提高維度後的資料來進行線性分類。&lt;/p&gt;
+&lt;p&gt;簡單來說，對於一組線性不可分的資料，我們可以合理地懷疑，它們會不會是高維度且線性可分的資料投影，雖然不可能得知資料在高維度的真正資訊，然而，如果只是能針對既有資料分類，只要能合理地虛構出高維時線性可分的資料，就能夠達到目的。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;從特徵衍生到核函數&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;透過將特徵提升維度，可以在不改變線性模型的情況下，對既有的資料進行非線性分類，這並不是什麼新鮮事，在先前專欄〈&lt;a href=&quot;https://www.ithome.com.tw/voice/145566&quot; target=&quot;_blank&quot;&gt;淺談迴歸與感知器&lt;/a&gt;〉就曾經談過，若使用sklearn，透過PolynomialFeatures轉換特徵值，就可以讓線性模型LinearRegression進行非線性的迴歸。&lt;/p&gt;
+&lt;p&gt;從另一個角度來思考PolynomialFeatures轉換後的特徵值，例如，若PolynomialFeatures指定階數為二，(x)會被轉換為(1,x,x^2)，像這樣將特徵進行衍生，不就是維度提升嗎？在提升後的維度使用線性模型LinearRegression，就是在尋找一個超平面作為線性迴歸的結果。&lt;/p&gt;
+&lt;p&gt;在〈&lt;a href=&quot;https://bit.ly/3yVlB1v&quot; target=&quot;_blank&quot;&gt;多元線性迴歸（二）&lt;/a&gt;〉當中，就有個例子。我試著在三維座標中可視化特徵衍生後的結果，也試著旋轉座標來觀察，某個角度下，視覺上可以找到一個線性關係，這意謂著，線性模型LinearRegression可以基於特徵衍生後的結果，尋找這個線性關係。&lt;/p&gt;
+&lt;p&gt;回到分類的問題，理論上，對於一組特徵X，我們總是可以找到一個轉換函式φ(X)，能夠將X轉換至更高維度的特徵，從而使得問題成為線性可分，只不過，若特徵數很多時，將這些點各自投影到更高維度，會耗費大量的運算。&lt;/p&gt;
+&lt;p&gt;仔細想想，其實，真正的目的是要基於特徵訓練來學習分類，提高維度只不過是中間的一個過程，幸運的是，存在著稱為核方法（Kernel method）的技巧，可以在分類的推導過程去消除φ(X)。&lt;/p&gt;
+&lt;p&gt;假設A與B是維度相同的向量，內積運算A.B會是純量，φ(A).φ(B)也會是個純量，若能找到一個K函式，使得K(A,B)=φ(A).φ(B)，則稱K為核函數（Kernel function），由於核函數的存在，在推導的最終就不需要φ(x)，也就是說，有了核函數，可以在既有的維度中進行運算，不用有轉換至高維度的這道手續，也能進行分類。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;從簡單的核函數開始認識&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;由於核函數必須滿足K(A,B)=φ(A).φ(B)，如果我們試著去認識公式推導的過程，最後確實也能發現φ(x)被消除了，只不過此時，你可能還是很難具體地理解核函數到底是什麼，更別說去選擇不同的核函數了。&lt;/p&gt;
+&lt;p&gt;此時，我們可以從另一個角度來認識，例如，從最簡單的線性核（Linear Kernel）K(A,B)=A.B開始，顯然地，對應的φ(X)=X，也就是沒有提高維度，直接在既有的維度上學習分類，相當於沒有用到核方法。&lt;/p&gt;
+&lt;p&gt;若是K(A,B)=(A.B)^2，則為平方核心（Quadratic kernel）的一個例子，例如，如果A為(a1,a2)，B為(b1,b2)，K(A,B)=(a1*b1+a2*b2)^2，我們可以將等號的右邊，試著進行計算，以及重新整理以後，可以成為(a1^2,a2^2,sqrt(2)*a1*a2).(b1^2,b2^2,sqrt(2)*b1*b2)，也就是對應的φ(X)=(x1^2,x2^2,sqrt(2)*x1*x2)。&lt;/p&gt;
+&lt;p&gt;換言之，以A為例，其特徵被提高至三維的空間後，a1*a2若為正，也就是原本第一或第三象限的特徵，會被提高維度後會是位於三維座標中的第一卦限，a1*a2若為負，也就是原本第二或第四象限的特徵，被提高維度後，會是位於第五卦限；相對來說，如果原本第一或第三象限的特徵是同一分類，原本第二或第四象限的特徵是另一分類，就可以使用K(A,B)=(A.B)^2作為核函數。&lt;/p&gt;
+&lt;p&gt;透過以上的方式，我們可以理解核函數有對應的φ(X)，而此舉會有助於理解與選擇核函數，例如，sklearn的PolynomialCountSketch就實作了多項式核函數；如果資料的分布上像是個圓，圍繞著內圈為一個分類，較外圈為另一分類呢？對此，RBFSampler提供了基於半徑基函式（Radial Basis Function）的核函數。&lt;/p&gt;
+&lt;p&gt;在模型的選擇上，核函數經常是支援向量機（Support vector machine）的設定選項之一，因為支援向量機本身是個線性模型，然而透過核方法，也就是選擇適當的核函數，也能有效地進行非線性分類，就類似LinearRegression，可藉由PolynomialFeatures來進行非線性迴歸的關係。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;認識資料的一種方式&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;實際上，核方法並不僅用於搭配支援向量機，其本身是一種觀察資料的方式，只不過相對於主成分分析使用降維來尋找主要特徵，核方法是透過提升維度來衍生出必要的特徵。&lt;/p&gt;
+&lt;p&gt;只不過如何衍生出必要的特徵，並非憑空選擇轉換函式φ(X)或核函數，確實地，核函數的選擇是個挑戰，然而，這個挑戰的出發點，並不是去認識核函數的數學公式，而是在深入的分析、理解資料本身，以及維度轉換後的資料意謂著什麼。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%A0%B8%E6%96%B9%E6%B3%95&quot;&gt;核方法&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/kernel-method&quot;&gt;Kernel method&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%A0%B8%E5%87%BD%E6%95%B8&quot;&gt;核函數&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%B3%87%E6%96%99%E7%B6%AD%E5%BA%A6&quot;&gt;資料維度&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E7%A8%8B%E5%BC%8F%E4%BA%BA&quot;&gt;程式人&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E6%9E%97%E4%BF%A1%E8%89%AF&quot;&gt;林信良&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 18 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>林信良</dc:creator>
+ <guid isPermaLink="false">146206 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/voice/146206#comments</comments>
 </item>
 </channel>
 </rss>

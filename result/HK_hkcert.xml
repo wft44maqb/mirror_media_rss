@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Thu, 19 Aug 2021 04:02:05 +0800</pubDate>
-		<lastBuildDate>Thu, 19 Aug 2021 04:02:05 +0800</lastBuildDate>
+		<pubDate>Thu, 19 Aug 2021 17:08:03 +0800</pubDate>
+		<lastBuildDate>Thu, 19 Aug 2021 17:08:03 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,6 +15,108 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>思科產品多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/cisco-products-multiple-vulnerabilities_20210819</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/cisco-products-multiple-vulnerabilities_20210819</guid>
+			<pubDate>Thu, 19 Aug 2021 09:10:00 +0800</pubDate>
+			<description><![CDATA[  於 Cisco Products 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、洩露敏感資料、資料篡改及繞...
+			  <p>影響</p>
+			  <ul>
+			          <li>篡改</li>
+			          <li>繞過保安限制</li>
+			          <li>資料洩露</li>
+			          <li>阻斷服務</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Cisco Secure Email and Web Manager</li>
+				<li>Cisco Web Security Appliance (WSA)</li>
+				<li>Cisco Firepower Threat Defense (FTD)</li>
+				<li>Snort detection engine</li>
+				<li>Cisco 3000 Series Industrial Security Appliances (ISAs)</li>
+				<li>Cisco Small Business RV110W, RV130, RV130W, and RV215W Routers</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>詳情請參閱以下連結﹕</p>
+			
+			<ul>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-spam-jPxUXMk" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-spam-jPxUXMk</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sni-data-exfil-mFgzXqLN" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sni-data-exfil-mFgzXqLN</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5</a></li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><b>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</b>&nbsp;</p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式:</p>
+			
+			<ul>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-spam-jPxUXMk" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-spam-jPxUXMk</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sni-data-exfil-mFgzXqLN" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sni-data-exfil-mFgzXqLN</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5</a></li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p><strong>注意﹕ </strong>由於 Cisco Small Business RV110W, RV130, RV130W, and RV215W Routers&nbsp;產品已進入生命週期結束流程，因此供應商已停止為這些產品提供修補程式。用戶應盡快更換受影響的產品。</p>
+			
+			<p>&nbsp;</p>
+			
+			<p><strong>臨時處理方法：</strong>禁用受影響的功能。詳情請參閱以下連結：</p>
+			
+			<ul>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Linux 內核多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210819</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210819</guid>
+			<pubDate>Thu, 19 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Linux 內核發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、遠端執行任意程式碼及洩露...
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			          <li>遠端執行程式碼</li>
+			          <li>資料洩露</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Ubuntu 14.04 ESM</li>
+				<li>Ubuntu 16.04 ESM</li>
+				<li>Ubuntu 18.04 LTS</li>
+				<li>Ubuntu 20.04 LTS</li>
+				<li>Ubuntu 21.04</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式：</p>
+			
+			<ul>
+				<li><a href="https://ubuntu.com/security/notices/USN-5044-1" target="_blank">https://ubuntu.com/security/notices/USN-5044-1</a></li>
+				<li><a href="https://ubuntu.com/security/notices/USN-5045-1" target="_blank">https://ubuntu.com/security/notices/USN-5045-1</a></li>
+				<li><a href="https://ubuntu.com/security/notices/USN-5046-1" target="_blank">https://ubuntu.com/security/notices/USN-5046-1</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
 		<item>
 			<title>F5 BIG-IP 多個漏洞</title>
 			<link>https://www.hkcert.org/tc/security-bulletin/f5-big-ip-multiple-vulnerabilities_20210818</link>
@@ -744,45 +846,6 @@
 			
 			  <hr>
 			]]></description>
-		</item>
-		<item>
-			<title>Fortinet FortiOS 遠端執行程式碼漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/fortinet-fortios-remote-code-execution-vulnerabilities_20210804</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/fortinet-fortios-remote-code-execution-vulnerabilities_20210804</guid>
-			<pubDate>Wed, 04 Aug 2021 09:00:00 +0800</pubDate>
-			<description><![CDATA[  於 Fortinet FortiOS 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發遠端執行任意程式碼。
-			  <p>影響</p>
-			  <ul>
-			          <li>遠端執行程式碼</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>FortiOS 7.0.0 版本</li>
-				<li>FortiOS 6.4.6 及之前的版本</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<p>&nbsp;</p>
-			
-			<ul>
-				<li>安裝供應商提供的修補程式：<br />
-				<a href="https://www.fortiguard.com/psirt/FG-IR-19-301" target="_blank">https://www.fortiguard.com/psirt/FG-IR-19-301</a><br />
-				<a href="https://www.fortiguard.com/psirt/FG-IR-21-046" target="_blank">https://www.fortiguard.com/psirt/FG-IR-21-046</a></li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>[Security Blog] 慎防惡意或有保安漏洞的第三方開源軟件</title>
-			<link>https://www.hkcert.org/tc/blog/beware-of-malicious-or-vulnerable-third-party-dependencies</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/blog/beware-of-malicious-or-vulnerable-third-party-dependencies</guid>
-			<pubDate>Wed, 04 Aug 2021 00:00:00 +0800</pubDate>
-			<description><![CDATA[第三方開源軟件（包括函式庫、套件和容器映像檔等）應用迅速增長，改變了軟件開發過程。除自家開發的程式碼...]]></description>
 		</item>
 	</channel>
 </rss>

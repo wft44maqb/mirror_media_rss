@@ -6,6 +6,128 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>勒索軟體Conti在攻擊前會先偵察目標組織的營收和保險資料</title>
+    <link>https://www.ithome.com.tw/news/146275</link>
+    <description> 駭客為了增加能夠收到贖金的機會，在下手發動勒索軟體攻擊之前，試圖掌握對方的財務狀態，以便決定要開口索討的金額。威脅情報業者Advanced Intelligence（AdvIntel）在近期的一起攻擊事故裡發現，使用Conti勒索軟體的駭客，在攻擊目標的網路植入勒索軟體之前，先上傳了名為Rclone的開源資料備份工具，複製並竊取受害組織的保單資料。</description>
+     <pubDate>2021-08-19  01:08:08</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146275</guid>
+  </item>
+  <item>
+    <title>Fortinet抨擊安全廠商在90天保密期限前就揭露其產品漏洞</title>
+    <link>https://www.ithome.com.tw/news/146274</link>
+    <description> 安全研究人員及產品廠商之間的緊張關係再度引爆。網路安全設備商Fortinet批評安全廠商Rapid 7未遵守業界通用的漏洞通報90天保密期，在還沒到90天前就將Fortinet產品漏洞公諸於世。</description>
+     <pubDate>2021-08-19  01:08:38</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146274</guid>
+  </item>
+  <item>
+    <title>T-Mobile證實遭駭客入侵並外洩資料</title>
+    <link>https://www.ithome.com.tw/news/146273</link>
+    <description> 就在日前媒體披露有駭客在論壇中兜售T-Mobile的1億用戶資料之後，T-Mobile於本周證實該公司的系統含有安全漏洞，且初步估計約有4,860萬名用戶的資料外洩。</description>
+     <pubDate>2021-08-19  12:08:21</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146273</guid>
+  </item>
+  <item>
+    <title>Windows 11讓用戶不小心就把Edge變成預設瀏覽器</title>
+    <link>https://www.ithome.com.tw/news/146271</link>
+    <description> Windows 11令許多用戶引頸期盼，但微軟似乎想讓用戶更無法擺脫他的瀏覽器。The Verge報導Windows 11一項新作法，只要使用者一不小心，就得使用它的Edge瀏覽器。</description>
+     <pubDate>2021-08-19  11:08:33</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146271</guid>
+  </item>
+  <item>
+    <title>Visual Studio 2022新增安全機制防止開發者意外開啟惡意內容</title>
+    <link>https://www.ithome.com.tw/news/146261</link>
+    <description> 微軟在Visual Studio 2022第3預覽版本重新設計了信任配置功能，其目的是要提高開發者對於陌生程式碼風險的意識，並協助防範惡意攻擊者，從開啟內容到建置和執行應用程式，Visual Studio 2022能夠提供額外的安全防護。</description>
+     <pubDate>2021-08-19  11:08:02</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146261</guid>
+  </item>
+  <item>
+    <title>YouTube搜尋改版，將新增影片段落及他國翻譯影片</title>
+    <link>https://www.ithome.com.tw/news/146270</link>
+    <description> YouTube於17日宣布，該平臺的搜尋服務將進入下一個階段，當使用者以關鍵字搜尋所需的影片時，將不再只是呈現靜態的畫面，而是會出現影片中不同主題的段落，點選後還可直接播放，另外，就算使用者以中文搜尋，YouTube現在也會主動補充英文的影片內容，未來亦會支援其它語言。
+光是從影片的標題與部份的文字摘錄，可能很難從YouTube的搜尋結果中找到自己所需的內容，因此，新的搜尋功能所出現的影片將提供不同主題的片段，使用者可直接點選其中一個片段進行觀看，以判斷是否符合需求。</description>
+     <pubDate>2021-08-19  11:08:45</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146270</guid>
+  </item>
+  <item>
+    <title>Qualcomm發表下一代5G AI無人機平臺</title>
+    <link>https://www.ithome.com.tw/news/146259</link>
+    <description> Qualcomm（高通）推出全球第一個5G人工智慧無人機平臺，Flight RB5 5G平臺可用於加速和擴展無人機的開發，滿足企業和工業開發無人機應用的需求。Flight RB5 5G平臺採用該公司最新的QRB5165處理器，作為新一代高效能、低功率5G無人機的基礎，Qualcomm希望新平臺能夠加速無人機開發，並且透過邊緣運算，來強化商業、企業和工業無人機應用。</description>
+     <pubDate>2021-08-19  11:08:36</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146259</guid>
+  </item>
+  <item>
+    <title>Cloud周報第117期：跨國連鎖飯店集團要利用AWS機器學習服務，協助加盟商優化房價提升住房率</title>
+    <link>https://www.ithome.com.tw/news/146263</link>
+    <description> 重點新聞（2021/08/12～2021/08/18）</description>
+     <pubDate>2021-08-19  10:08:47</pubDate>
+ <dc:creator>黃郁芸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146263</guid>
+  </item>
+  <item>
+    <title>微軟注資零信任資料管理業者Rubrik</title>
+    <link>https://www.ithome.com.tw/news/146262</link>
+    <description> 創立於2014年的雲端資料管理業者Rubrik於17日宣布，已與微軟達成策略協議，協議內容包括獲得微軟注資，以及提供基於Microsoft Azure的各種零信任資料保護解決方案。</description>
+     <pubDate>2021-08-19  10:08:02</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146262</guid>
+  </item>
+  <item>
+    <title>在高維中尋找線性</title>
+    <link>https://www.ithome.com.tw/voice/146206</link>
+    <description> 核方法（Kernel method）是提升特徵維度，讓特徵能成為線性可分的技巧，在運作上，核函數的選擇是個挑戰，然而挑戰的出發點不是認識核函數的數學公式，而是在深入的分析、理解資料本身。
+這會是高維資料投影嗎？
+我在先前專欄〈從影子遊戲到主成分分析〉中談過，對於高維度的資料，我們可以透過主成分分析來降低資料的維度，而在盡量保留取特徵中重要資訊的前提之下，以便進行可視化、抽取特徵、清理資料等動作。</description>
+     <pubDate>2021-08-19  07:08:00</pubDate>
+ <dc:creator>林信良</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/voice/146206</guid>
+  </item>
+  <item>
+    <title>抗疫靠資料治理打造數位服務，勞動部IT成紓困政策推動關鍵</title>
+    <link>https://www.ithome.com.tw/people/146205</link>
+    <description> 「執行政策的時候，也要考量到IT的配合度。就算政策立意良好，但IT不給力，民眾也會抱怨。」勞動部資訊處處長莊明芬一句話點出IT之於政府的重要性。這不只是她在公務機關任職多年的體認，更是勞動部IT單位，在紓困4.0政策下扮演的關鍵角色。
+臺灣COVID-19疫情在5月急轉直下，打工族首當其衝，直接面臨排班減少、薪資砍半的處境。行政院6月緊急祭出的紓困4.0政策中，將部分工時受僱勞工也納入補助，也就是打工族們，可以領取1萬元的生活補貼。
+不過，在疫情最嚴峻的時期，任何公共場所的群聚都可能成為防疫破口，人數眾多的打工族該如何請領補助？為了讓他們能夠快速、零接觸的請領到補助款，線上管道成了疫情下的首選解方。</description>
+     <pubDate>2021-08-19  07:08:00</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/people/146205</guid>
+  </item>
+  <item>
+    <title>玉山AI力</title>
+    <link>https://www.ithome.com.tw/article/146204</link>
+    <description> 玉山AI遍地開花，不是偶一為之，而是耗費了十年、多次組織調整、傾力打造關鍵技術平臺，才養成「AI大腦」，不只提供源源不絕AI活水，一場疫情更交出亮麗成績單。下一步，他們要靠AI邁向零接觸金融
+ </description>
+     <pubDate>2021-08-19  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/article/146204</guid>
+  </item>
+  <item>
+    <title>玉山的科技金融之路</title>
+    <link>https://www.ithome.com.tw/voice/146203</link>
+    <description> 「成為一家科技公司！」這是不少非科技公司，給自己立下的數位轉型大目標，尤其在臺灣，有好幾家大型銀行，都以此為目標，不只是力擁金融科技（FinTech），更要成為科技金融（TechFin），就像是一家擁有金融執照的科技公司，但是，這條路，不是一條簡單、容易的路。
+玉山銀行就是其中一家，早在2012年，就訂出「科技的玉山」戰略目標，從科技人力開始著手。當時只有百餘人的玉山資訊處，後來，玉山開始大力招募、擴編，陸續增加了數金處、智金處等單位，到現在快速發展成千人規模的科技聯隊。玉山在2018年時，更率先設立了臺灣第一個金控科技長職務，來掌舵科技發展方向。</description>
+     <pubDate>2021-08-19  07:08:00</pubDate>
+ <dc:creator>王宏仁</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/voice/146203</guid>
+  </item>
+  <item>
+    <title>【強化資料治理，今年聚焦MLOps人機協作】不惜發動29年最大組織改造，玉山要打造一條鞭資料治理流程</title>
+    <link>https://www.ithome.com.tw/news/146202</link>
+    <description> 今年初，玉山金控振奮地宣布成立法人金融事業總處和個人金融事業總處，來聚焦跨境、數位、風險管理三大策略和ESG永續發展。玉山銀行董事長黃男州更揭露，大個金將整合玉山的通路、客群和產品部門，甚至是數位金融處，來共同創造客戶價值。
+這是玉山29年來最大規模的組織改造。但玉山沒明說的是，這也是他們實踐資料治理的關鍵一步。
+AI內化引爆資料治理需求，轉核也是關鍵推力
+為何一個資料治理，能讓玉山如此勞師動眾？</description>
+     <pubDate>2021-08-19  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146202</guid>
+  </item>
+  <item>
     <title>近四成企業於12個月內遭遇勒索軟體攻擊事故</title>
     <link>https://www.ithome.com.tw/news/146260</link>
     <description> 勒索軟體攻擊日益猖獗的現象，究竟有多嚴重？除了不時傳出有企業或組織遭到攻擊的消息，有研究報告也針對企業進行相關調查。</description>
@@ -149,123 +271,6 @@
      <pubDate>2021-08-17  11:08:57</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146243</guid>
-  </item>
-  <item>
-    <title>Visual Studio 2022更新前端開發體驗，加入新的JavaScript專案類別</title>
-    <link>https://www.ithome.com.tw/news/146239</link>
-    <description> 微軟在Visual Studio 2022中加入新工具，改善JavaScript和TypeScript的前端開發體驗，開發者將可以選擇新的JavaScript/TypeScript專案類別，獨立開發Angular、React和Vue專案，且簡單地將前端專案，與ASP.NET Core後端整合，並應用像是Test Explorer等現有的工具。</description>
-     <pubDate>2021-08-17  11:08:44</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146239</guid>
-  </item>
-  <item>
-    <title>Twitter指派加密貨幣開發者來主導分散式社交網路Bluesky</title>
-    <link>https://www.ithome.com.tw/news/146245</link>
-    <description> Twitter創辦人暨執行長Jack Dorsey在2019年12月，發表了分散式社交網路專案Bluesky，但一直到本周，才指派加密貨幣開發者Jay Graber來主導該專案。</description>
-     <pubDate>2021-08-17  11:08:27</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146245</guid>
-  </item>
-  <item>
-    <title>美國政府對特斯拉的自動駕駛輔助系統展開調查</title>
-    <link>https://www.ithome.com.tw/news/146238</link>
-    <description> 美國國家公路交通安全管理局（NHTSA）宣布，對特斯拉的自動駕駛輔助系統（Autopilot）展開調查。NHTSA在官網列出了特斯拉車輛，從2018年至今的11起車禍，而2021年到現在，也已經發生4起車禍案件，最近的一起是在7月10日的加州聖地牙哥。</description>
-     <pubDate>2021-08-17  10:08:34</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146238</guid>
-  </item>
-  <item>
-    <title>微軟政府最高機密雲Azure Government Top Secret正式上線</title>
-    <link>https://www.ithome.com.tw/news/146244</link>
-    <description> 微軟去年12月公布專門提供給政府儲存機密資訊的Azure Government Top Secret，本周微軟宣布這項服務正式上線。</description>
-     <pubDate>2021-08-17  10:08:30</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146244</guid>
-  </item>
-  <item>
-    <title>Adobe文件服務新推2大API，能自動擷取完整PDF結構輸出JSON檔方便整合Web，還能嵌入Word</title>
-    <link>https://www.ithome.com.tw/news/146240</link>
-    <description> Adobe在文件服務（Adobe Document Services）中新增兩大API功能，分別是Adobe PDF Extract API與Adobe Document Generation API。前者能根據PDF內容的檔案結構，透過Adobe核心AI引擎Adobe Sensei擷取文字、表格資料、圖像等元素，並以JSON格式輸出；後者則可以將JSON格式資料，嵌入Microsoft Word文件內容中，來生成具動態資料的PDF檔案。</description>
-     <pubDate>2021-08-17  06:08:12</pubDate>
- <dc:creator>翁芊儒</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146240</guid>
-  </item>
-  <item>
-    <title>【技術管理者成長系列2】商業如何驅動架構設計？成為架構師前要先懂的8件事</title>
-    <link>https://www.ithome.com.tw/news/146160</link>
-    <description> 在臺灣不少技術管理者或技術主管，在公司內也擔任架構師的角色，但相較於國外，過去在臺灣少有架構師公開分享自身架構設計的實驗經驗，不過，近日在一場線上技術管理者論壇上，鼎恒科技應用產品設計中心協理林承毅，大方傳授多年來擔任架構師的工作經驗，不僅教導開發人員怎麼學習平衡開發與架構設計之間的工作，更分享他如何透過商業來驅動架構設計。
-林承毅過去在博奕產業IT待了十多年，一手主導不少大型軟體架構設計，來因應各種大流量與高併發的應用場景，對於架構設計相當熟諳，後來進到鼎恒科技，更帶領其中一個產品研發中心團隊，負責應用產品設計與開發。</description>
-     <pubDate>2021-08-17  04:08:17</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146160</guid>
-  </item>
-  <item>
-    <title>Realtek晶片10多項安全漏洞可導致系統被接管，影響至少65家IoT廠商</title>
-    <link>https://www.ithome.com.tw/news/146236</link>
-    <description> 安全廠商IoT Inspector本周公布瑞昱半導體的一款無線裝置晶片，有10多項漏洞，可使駭客執行任意程式碼，最嚴重可導致系統被接管。瑞昱已經完成修補。</description>
-     <pubDate>2021-08-17  01:08:55</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146236</guid>
-  </item>
-  <item>
-    <title>190萬名恐怖份子觀察名單在網路上曝光</title>
-    <link>https://www.ithome.com.tw/news/146235</link>
-    <description> SecurityDiscovery.com的網路威脅情報總監Bob Diachenko在7月19日，發現了一份約190萬名全球恐怖份子的觀察名單，該名單是放置在一個Elasticsearch叢集上，而且沒有任何密碼保護，來源是美國聯邦調查局（FBI）所管轄的恐怖份子審查中心（Terrorist Screening Center，TSC）。</description>
-     <pubDate>2021-08-17  01:08:23</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146235</guid>
-  </item>
-  <item>
-    <title>iCloud for Windows 12.5版終於加入密碼管理功能</title>
-    <link>https://www.ithome.com.tw/news/146234</link>
-    <description> 蘋果iCloud for Windows 12.5版周一在Windows Store上架，新版App終於也加入iCloud‌ Keychain密碼管理器功能。</description>
-     <pubDate>2021-08-17  12:08:00</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146234</guid>
-  </item>
-  <item>
-    <title>曾感染臺灣的勒索軟體Magniber正在開採PrintNightmare漏洞</title>
-    <link>https://www.ithome.com.tw/news/146233</link>
-    <description> Windows PrintNightmare漏洞正成為駭客界的最愛。隨著PrintNightmare漏洞愈來愈多，研究人員近日發現一隻過去曾感染臺灣用戶的勒索軟體Magniber，也將之納入新的攻擊目標。</description>
-     <pubDate>2021-08-17  11:08:20</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146233</guid>
-  </item>
-  <item>
-    <title>雲端資料倉儲Amazon Redshift現提供跨帳戶資料共享功能</title>
-    <link>https://www.ithome.com.tw/news/146227</link>
-    <description> AWS現在宣布讓雲端資料倉儲Redshift用戶，可以跨AWS帳戶共享資料，也就是說，Redshift資料交換不再限於單一帳戶中的使用者。
-在資料驅動的時代，不少企業將資料視為資產，透過分析收集而來的資料，來獲得更多的資訊，進而做出更好的決定。部分企業甚至將自家的資料和分析轉為服務，提供給客戶或是合作夥伴等外部組織，藉以創造新的收入。各方都希望能夠共享和使用單一來源的資料，並在查詢資料的同時，不會降低叢集效能，且存取準確且正確的資料。</description>
-     <pubDate>2021-08-17  10:08:33</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146227</guid>
-  </item>
-  <item>
-    <title>【先用AI研發雲創新，再靠MLaaS將AI嵌入業務系統】玉山2大AI關鍵平臺大解密</title>
-    <link>https://www.ithome.com.tw/news/146196</link>
-    <description> 玉山內部執行的AI專案超過半百，維持玉山AI力源源不絕的關鍵，除了人力，還有玉山銀行智能金融處（後簡稱玉山智金處）打造的兩大技術平臺——AI研發雲和MLaaS。玉山用它們來嘗試各種新點子，也用來測試新模型，更用來將成熟穩定的AI模型，介接到實際金融業務場景，賦予系統內建的AI能力。
-資料是企業最重要的資產，若要把資料變成可運用的資產，需有一套整體性的運用體系，才能讓AI源源不斷地發揮資料的價值。傳統大數據分析常見的作法是，數據團隊產出各種分析報表，提供給業務單位來取用。但玉山認為，只做到這樣還不夠，更關鍵的是，AI必須整合到業務中，這正是他們打造兩大技術平臺的理由。</description>
-     <pubDate>2021-08-17  07:08:00</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146196</guid>
-  </item>
-  <item>
-    <title>【從技術研發到加速服務落地，AI團隊不斷轉型再進化】玉山AI力關鍵團隊如何養成</title>
-    <link>https://www.ithome.com.tw/news/146183</link>
-    <description> 三年前，時任玉山金控科技長陳昇瑋，不只定調玉山AI發展藍圖，還與當時的玉山金控暨銀行總經理黃男州，做了個重大的決定。
-他們拍板終止數個正在進行、每個都上千萬元等級的專案，集中資源投注在AI上，來強化資料團隊的AI應用能力。這項決定，催生了玉山AI化的主力推手──智能金融處（簡稱智金處），在短短兩、三年內打造AI研發專用的技術平臺，還經手半百個AI專案，將不少AI系統內化到日常工作流程，成為玉山人的必備工具。
-可三年前，沒人知道這個轉型決策是好是壞，全臺也沒先例可循，玉山只能一步步且戰且走。</description>
-     <pubDate>2021-08-17  07:08:00</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146183</guid>
-  </item>
-  <item>
-    <title>LockBit 2.0勒索軟體大舉侵襲澳洲，當地網路安全中心發布警告</title>
-    <link>https://www.ithome.com.tw/news/146226</link>
-    <description> 駭客利用勒索軟體LockBit 2.0攻擊的現象，最近出現數起事故。例如，於8月11日，運用該勒索軟體的駭客，宣稱攻陷IT大型顧問公司Accenture，並要求限時支付贖金，否則就要把竊得的資料公開。</description>
-     <pubDate>2021-08-16  07:08:16</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146226</guid>
   </item>
   </channel>
 </rss>
