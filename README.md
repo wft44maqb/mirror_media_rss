@@ -7,6 +7,7 @@ https://wft44maqb.me/dns-query
 ```
 https://dns.wft44maqb.me/dns-query
 ```
+可靠的上游dns服務供應商‧·開源軟件AdguardHome架設
 
 # RSS鏡像 免翻牆
 ## 中國大陸_多維新聞_全球@CN_dwIntl.RSSHUB
