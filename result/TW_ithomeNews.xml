@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/area/id/5" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/area/id/5</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/area/id/5" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=234&amp;profile=atom" rel="self" type="application/rss+xml" />
       <item>
+    <title>研究人員揭露蘋果掃描機制含有安全漏洞，蘋果：那不是蘋果所採用的版本</title>
+    <link>https://www.ithome.com.tw/news/146277</link>
+    <description> 蘋果計畫在今年問世的iOS中嵌入兒童色情掃描機制，以遏制兒童性剝削內容（Child Sexual Abuse Material，CSAM）的散布，然而，隱私與安全專家群起反對，本周一名GitHub用戶Asuhariet Ygvar公布了蘋果用來將CSAM加密的NeuralHash雜湊技術模型，幾小時後就有另一名用戶Cory Cornelius找到該演算法的漏洞，製造了雜湊碰撞（Hash Collisions），讓兩張不同的圖片產生一樣的加密指紋，然而，</description>
+     <pubDate>2021-08-19  05:08:41</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146277</guid>
+  </item>
+  <item>
     <title>Gozi/Ursnif銀行木馬利用假CAPTCHA繞過瀏覽器防護植入電腦</title>
     <link>https://www.ithome.com.tw/news/146276</link>
     <description> CAPTCHA是網站為防止網頁爬蟲而設計的驗證機制，以確定用戶是真人而非機器人程式，但是安全研究人員發現有一隻銀行木馬程式Gozi卻利用CAPTCHA企圖繞過瀏覽器的安全功能，以下載到用戶電腦。</description>
@@ -261,16 +269,6 @@ AI內化引爆資料治理需求，轉核也是關鍵推力
      <pubDate>2021-08-18  07:08:00</pubDate>
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146199</guid>
-  </item>
-  <item>
-    <title>【靠AI化被動為主動，打造無人化、零接觸金融服務】玉山未來3年3大AI願景</title>
-    <link>https://www.ithome.com.tw/news/146197</link>
-    <description> 談起未來3年的AI發展願景，玉山金控科技長張智星先是拋出這一句：「金融未來的服務對象，是數位原住民。」
-這群人，一出生就會使用智慧型手機、平板，對金融服務的想像更是動動手指就能線上完成。為此，玉山把未來3年的AI目標，設定為「無人化、零接觸的金融服務。」今年爆發的疫情，正加速玉山實現這個目標
-第一步：全面使用Chatbot，抓住顧客意圖</description>
-     <pubDate>2021-08-18  07:08:00</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146197</guid>
   </item>
   </channel>
 </rss>
