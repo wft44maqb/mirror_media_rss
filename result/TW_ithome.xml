@@ -6,6 +6,35 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>研究人員揭露蘋果掃描機制含有安全漏洞，蘋果：那不是蘋果所採用的版本</title>
+ <link>https://www.ithome.com.tw/news/146277</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;蘋果計畫在今年問世的iOS中嵌入兒童色情掃描機制，以遏制兒童性剝削內容（Child Sexual Abuse Material，CSAM）的散布，然而，隱私與安全專家群起反對，本周一名GitHub用戶&lt;a href=&quot;https://github.com/AsuharietYgvar/AppleNeuralHash2ONNX&quot; target=&quot;_blank&quot;&gt;Asuhariet Ygvar公布了&lt;/a&gt;蘋果用來將CSAM加密的NeuralHash雜湊技術模型，幾小時後就有另一名用戶Cory Cornelius找到該演算法的漏洞，製造了雜湊碰撞（Hash Collisions），讓兩張不同的圖片產生一樣的加密指紋，然而，&lt;a href=&quot;https://www.vice.com/en/article/wx5yzq/apple-defends-its-anti-child-abuse-imagery-tech-after-claims-of-hash-collisions&quot; target=&quot;_blank&quot;&gt;蘋果向Motherboard表示&lt;/a&gt;，Ygvar所公布的NeuralHash是通用版，並非蘋果所採用的版本。&lt;/p&gt;
+&lt;p&gt;蘋果準備在iOS 15、iPadOS 15、watchOS 8與macOS Monterey等作業系統上嵌入CSAM資料庫，並透過NeuralHash將資料庫中的照片轉換成獨立的加密金鑰，當使用者要將照片上傳到iCloud時，系統就會將該照片與CSAM資料庫進行比對，在符合的筆數達到30筆之後，就會觸動警報，再改由人工手動檢查這些照片，決定是否通報主管機關或關閉使用者帳號。&lt;/p&gt;
+&lt;p&gt;雖然蘋果的用意是為了保護兒童，但隱私與安全專家卻認為此事不可為，認為CSAM偵測功能將成為蘋果作業系統的後門，已有超過8,000名GitHub用戶連署反對，電子前線基金會（Electronic Frontier Foundation，EFF）&lt;a href=&quot;https://act.eff.org/action/tell-apple-don-t-scan-our-phones&quot; target=&quot;_blank&quot;&gt;亦於近日發動連署&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;在反對之餘，資安專家也詳細檢視蘋果的作法，包括NeuralHash在內。儘管蘋果宣稱未來的作業系統使用的是蘋果變更過的NeuralHash版本，而不是Ygvar所公布的版本，但約翰霍普金斯大學的密碼學教授Matthew Green認為，碰撞既然會發生在一般版的NeuralHash，應該也會發生在蘋果的版本上。&lt;/p&gt;
+&lt;p&gt;只不過，目前看來NeuralHash的碰撞並不會對CSAM的偵測帶來太多問題，因為它頂多可把非CSAM的圖片標記成CSAM圖片，快速達到跳出警告的30張門檻，造成手動檢查人員的困擾。&lt;/p&gt;
+&lt;p&gt;即使外界的反對聲浪不斷，惟迄今蘋果仍尚未釋出可能改變心意的訊息。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 09:18:41 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146277 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146277#comments</comments>
+</item>
+<item>
+ <title>Gozi/Ursnif銀行木馬利用假CAPTCHA繞過瀏覽器防護植入電腦</title>
+ <link>https://www.ithome.com.tw/news/146276</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;CAPTCHA是網站為防止網頁爬蟲而設計的驗證機制，以確定用戶是真人而非機器人程式，但是安全研究人員發現有一隻銀行木馬程式Gozi卻利用CAPTCHA企圖繞過瀏覽器的安全功能，以下載到用戶電腦。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/malware-campaign-uses-clever-captcha-to-bypass-browser-warning/&quot; target=&quot;_blank&quot;&gt;Bleeping Computer&lt;/a&gt;報導，安全研究人員MalwareHunterTeam發現了銀行木馬Gozi的高明手法。一個影片連結在網路上流傳，當用戶點入連結網站準備觀看影片時，網路即跳出一個類似Google reCAPTCHA的圖形驗證。這則reCAPTCHA由數個鍵組成。提示訊息要求用戶依序點入鍵盤中的B、S、Tab鍵、 A、F、以及Enter鍵才能觀看。&lt;/p&gt;
+&lt;p&gt;研究人員指出，這其實是在瞞天過海下，誘使用戶繞過瀏覽器的防護，同意下載安裝程式。以Google Chrome而言，當用戶企圖從網站下載程式時，Chrome會出現提示訊息，要求使用者確認是「繼續」或「取消」。以本例而言，當用戶按到Tab鍵時，就會使Chrome的「繼續」鍵呈現準備。而當用戶按下reCAPTCHA中的Enter鍵時，就會開啟以下載並執行程式。&lt;/p&gt;
+&lt;p&gt;下載的動作會在用戶的「%AppData%\Bouncy for .NET Helper」資料夾中安裝很多檔案，其中的BouncyDotNet.exe持續執行，即啟動PowerShell指令，並建立銀行木馬Gozi（或稱Ursnif）的DLL檔。遭感染的用戶應儘速變更網銀密碼以免受害。&lt;/p&gt;
+&lt;p&gt;Gozi/Ursnif在受害者電腦中會竊取銀行帳密、下載更多惡意程式，並且遠端執行攻擊者的指令，被安全廠商列為五大惡意程式之一。&lt;a href=&quot;https://www.ithome.com.tw/news/143035&quot; target=&quot;_blank&quot;&gt;今年三月Ursnif木馬也在歐洲橫行&lt;/a&gt;，超過百家義大利銀行客戶受害。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 08:53:02 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146276 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146276#comments</comments>
+</item>
+<item>
  <title>勒索軟體Conti在攻擊前會先偵察目標組織的營收和保險資料</title>
  <link>https://www.ithome.com.tw/news/146275</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;駭客為了增加能夠收到贖金的機會，在下手發動勒索軟體攻擊之前，試圖掌握對方的財務狀態，以便決定要開口索討的金額。&lt;a href=&quot;https://www.advanced-intel.com/post/hunting-for-corporate-insurance-policies-indicators-of-ransom-exfiltrations&quot;&gt;威脅情報業者Advanced Intelligence（AdvIntel）在近期的一起攻擊事故裡發現&lt;/a&gt;，使用Conti勒索軟體的駭客，在攻擊目標的網路植入勒索軟體之前，先上傳了名為Rclone的開源資料備份工具，複製並竊取受害組織的保單資料。&lt;/p&gt;
@@ -164,58 +193,6 @@
  <dc:creator>黃郁芸</dc:creator>
  <guid isPermaLink="false">146263 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146263#comments</comments>
-</item>
-<item>
- <title>微軟注資零信任資料管理業者Rubrik</title>
- <link>https://www.ithome.com.tw/news/146262</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;創立於2014年的雲端資料管理業者Rubrik於17日宣布，&lt;a href=&quot;https://www.rubrik.com/company/newsroom/press-releases/21/strategic-agreement-with-microsoft-to-mitigate-ransomware-threats&quot; target=&quot;_blank&quot;&gt;已與微軟達成策略協議&lt;/a&gt;，協議內容包括獲得微軟注資，以及提供基於Microsoft Azure的各種零信任資料保護解決方案。雙方並未公布投資金額，&lt;a href=&quot;https://www.bloomberg.com/news/articles/2021-08-17/microsoft-invests-in-rubrik-to-protect-against-cyberattacks&quot; target=&quot;_blank&quot;&gt;但彭博社引用消息來源報導&lt;/a&gt;，微軟以Rubrik身價約40億美元的估值投入了數千萬美元。&lt;/p&gt;
-&lt;p&gt;Rubrik定位為零信任資料管理業者，強調沒有任何裝置、使用者或應用程式是可靠的，目的為確保資料不被竄改、加密或刪除，服務的範疇從雲端資料管理、雲端備份與復原到安全及法規遵循等。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0819-rubrik%20UI.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Rubrik&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;根據Rubrik與微軟的協議，雙方將共同提供Microsoft 365與混合雲的資料保護服務，並整合Microsoft Azure上的各式雲端服務，將把Rubrik的勒索軟體攻擊資料復原、自動化資料處理，以及將資料遷移至雲端的能力，應用在橫跨包括Microsoft 365在內的資料中心、邊緣及雲端環境上。&lt;/p&gt;
-&lt;p&gt;Rubrik表示，此一合作將可滿足客戶日益增加的需求，以防止不斷出現的勒索軟體攻擊。&lt;/p&gt;
-&lt;p&gt;負責全球合作夥伴解決方案的微軟副總裁Nick Parker表示，端對端的應用與資料管理對於業務的成功扮演關鍵角色，相信在Microsoft Azure與Microsoft 365上整合Rubrik的零信任資料管理解決方案，將可協助客戶改善其零信任流程。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 19 Aug 2021 02:24:02 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146262 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146262#comments</comments>
-</item>
-<item>
- <title>在高維中尋找線性</title>
- <link>https://www.ithome.com.tw/voice/146206</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;核方法（Kernel method）是提升特徵維度，讓特徵能成為線性可分的技巧，在運作上，核函數的選擇是個挑戰，然而挑戰的出發點不是認識核函數的數學公式，而是在深入的分析、理解資料本身。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;這會是高維資料投影嗎？&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;我在先前專欄〈&lt;a href=&quot;https://www.ithome.com.tw/voice/145817&quot; target=&quot;_blank&quot;&gt;從影子遊戲到主成分分析&lt;/a&gt;〉中談過，對於高維度的資料，我們可以透過主成分分析來降低資料的維度，而在盡量保留取特徵中重要資訊的前提之下，以便進行可視化、抽取特徵、清理資料等動作。&lt;/p&gt;
-&lt;p&gt;然而，相對於主成分分析會進行降維的動作，實際上，這時候，還存在著對於既有資料提升維度的需求。&lt;/p&gt;
-&lt;p&gt;我們可以從一個簡單的例子，來理解為何要提升維度。如果有一組資料，特徵值為(1,0)、(0,1)、(-1,0)、(0,-1)，分別標記為0、1、0、1，若使用散布圖，分別用o與x來標示這組資料，o與x會交叉成為XOR的情況，也就是無法找出一條直線，將資料分為兩類，顯然地，這簡單的四筆資料並不是線性可分的問題。&lt;/p&gt;
-&lt;p&gt;然而，這只是二維的情況，如果從另一個角度來想，如果四個點，o的部份降低，x的部份升高又如何呢？&lt;/p&gt;
-&lt;p&gt;也就是徑自將特徵值的維度提升為三維，在第三個維度上，o的資料設定為1，而x設定為-1，成為(1,0,-1)、(0,1,1)、(-1,0,-1)、(0,-1,1)，那麼，就可以用一個平面將資料分為兩類，也就是提升維度後的資料，成為線性可分的問題。&lt;/p&gt;
-&lt;p&gt;當然，只有四個點很簡單，如果有很多點呢？例如在〈&lt;a href=&quot;https://bit.ly/3hDsiiV&quot; target=&quot;_blank&quot;&gt;二維線性不可分&lt;/a&gt;〉這個gist，畫出來的散布圖中有一百個點，在只有兩類的情況下，寫程式根據一百個點的標記，將o的部份降低，x的部份升高，雖然足以應付，只不過如果標記也很多之際，這種方式就顯得笨重，最好還是依既有的特徵值想辦法提升維度。&lt;/p&gt;
-&lt;p&gt;如果你觀察力很敏銳，或許會發現可以用雙抛物面公式──直接透過公式來轉換維度。像是〈&lt;a href=&quot;https://bit.ly/3eg4JuB&quot; target=&quot;_blank&quot;&gt;雙拋物面提升維度&lt;/a&gt;〉這個gist，在經過雙抛物面公式轉換維度後，相同分類的資料各座落在XY平面的兩側，之後就能用提高維度後的資料來進行線性分類。&lt;/p&gt;
-&lt;p&gt;簡單來說，對於一組線性不可分的資料，我們可以合理地懷疑，它們會不會是高維度且線性可分的資料投影，雖然不可能得知資料在高維度的真正資訊，然而，如果只是能針對既有資料分類，只要能合理地虛構出高維時線性可分的資料，就能夠達到目的。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;從特徵衍生到核函數&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;透過將特徵提升維度，可以在不改變線性模型的情況下，對既有的資料進行非線性分類，這並不是什麼新鮮事，在先前專欄〈&lt;a href=&quot;https://www.ithome.com.tw/voice/145566&quot; target=&quot;_blank&quot;&gt;淺談迴歸與感知器&lt;/a&gt;〉就曾經談過，若使用sklearn，透過PolynomialFeatures轉換特徵值，就可以讓線性模型LinearRegression進行非線性的迴歸。&lt;/p&gt;
-&lt;p&gt;從另一個角度來思考PolynomialFeatures轉換後的特徵值，例如，若PolynomialFeatures指定階數為二，(x)會被轉換為(1,x,x^2)，像這樣將特徵進行衍生，不就是維度提升嗎？在提升後的維度使用線性模型LinearRegression，就是在尋找一個超平面作為線性迴歸的結果。&lt;/p&gt;
-&lt;p&gt;在〈&lt;a href=&quot;https://bit.ly/3yVlB1v&quot; target=&quot;_blank&quot;&gt;多元線性迴歸（二）&lt;/a&gt;〉當中，就有個例子。我試著在三維座標中可視化特徵衍生後的結果，也試著旋轉座標來觀察，某個角度下，視覺上可以找到一個線性關係，這意謂著，線性模型LinearRegression可以基於特徵衍生後的結果，尋找這個線性關係。&lt;/p&gt;
-&lt;p&gt;回到分類的問題，理論上，對於一組特徵X，我們總是可以找到一個轉換函式φ(X)，能夠將X轉換至更高維度的特徵，從而使得問題成為線性可分，只不過，若特徵數很多時，將這些點各自投影到更高維度，會耗費大量的運算。&lt;/p&gt;
-&lt;p&gt;仔細想想，其實，真正的目的是要基於特徵訓練來學習分類，提高維度只不過是中間的一個過程，幸運的是，存在著稱為核方法（Kernel method）的技巧，可以在分類的推導過程去消除φ(X)。&lt;/p&gt;
-&lt;p&gt;假設A與B是維度相同的向量，內積運算A.B會是純量，φ(A).φ(B)也會是個純量，若能找到一個K函式，使得K(A,B)=φ(A).φ(B)，則稱K為核函數（Kernel function），由於核函數的存在，在推導的最終就不需要φ(x)，也就是說，有了核函數，可以在既有的維度中進行運算，不用有轉換至高維度的這道手續，也能進行分類。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;從簡單的核函數開始認識&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;由於核函數必須滿足K(A,B)=φ(A).φ(B)，如果我們試著去認識公式推導的過程，最後確實也能發現φ(x)被消除了，只不過此時，你可能還是很難具體地理解核函數到底是什麼，更別說去選擇不同的核函數了。&lt;/p&gt;
-&lt;p&gt;此時，我們可以從另一個角度來認識，例如，從最簡單的線性核（Linear Kernel）K(A,B)=A.B開始，顯然地，對應的φ(X)=X，也就是沒有提高維度，直接在既有的維度上學習分類，相當於沒有用到核方法。&lt;/p&gt;
-&lt;p&gt;若是K(A,B)=(A.B)^2，則為平方核心（Quadratic kernel）的一個例子，例如，如果A為(a1,a2)，B為(b1,b2)，K(A,B)=(a1*b1+a2*b2)^2，我們可以將等號的右邊，試著進行計算，以及重新整理以後，可以成為(a1^2,a2^2,sqrt(2)*a1*a2).(b1^2,b2^2,sqrt(2)*b1*b2)，也就是對應的φ(X)=(x1^2,x2^2,sqrt(2)*x1*x2)。&lt;/p&gt;
-&lt;p&gt;換言之，以A為例，其特徵被提高至三維的空間後，a1*a2若為正，也就是原本第一或第三象限的特徵，會被提高維度後會是位於三維座標中的第一卦限，a1*a2若為負，也就是原本第二或第四象限的特徵，被提高維度後，會是位於第五卦限；相對來說，如果原本第一或第三象限的特徵是同一分類，原本第二或第四象限的特徵是另一分類，就可以使用K(A,B)=(A.B)^2作為核函數。&lt;/p&gt;
-&lt;p&gt;透過以上的方式，我們可以理解核函數有對應的φ(X)，而此舉會有助於理解與選擇核函數，例如，sklearn的PolynomialCountSketch就實作了多項式核函數；如果資料的分布上像是個圓，圍繞著內圈為一個分類，較外圈為另一分類呢？對此，RBFSampler提供了基於半徑基函式（Radial Basis Function）的核函數。&lt;/p&gt;
-&lt;p&gt;在模型的選擇上，核函數經常是支援向量機（Support vector machine）的設定選項之一，因為支援向量機本身是個線性模型，然而透過核方法，也就是選擇適當的核函數，也能有效地進行非線性分類，就類似LinearRegression，可藉由PolynomialFeatures來進行非線性迴歸的關係。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;認識資料的一種方式&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;實際上，核方法並不僅用於搭配支援向量機，其本身是一種觀察資料的方式，只不過相對於主成分分析使用降維來尋找主要特徵，核方法是透過提升維度來衍生出必要的特徵。&lt;/p&gt;
-&lt;p&gt;只不過如何衍生出必要的特徵，並非憑空選擇轉換函式φ(X)或核函數，確實地，核函數的選擇是個挑戰，然而，這個挑戰的出發點，並不是去認識核函數的數學公式，而是在深入的分析、理解資料本身，以及維度轉換後的資料意謂著什麼。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%A0%B8%E6%96%B9%E6%B3%95&quot;&gt;核方法&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/kernel-method&quot;&gt;Kernel method&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%A0%B8%E5%87%BD%E6%95%B8&quot;&gt;核函數&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%B3%87%E6%96%99%E7%B6%AD%E5%BA%A6&quot;&gt;資料維度&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E7%A8%8B%E5%BC%8F%E4%BA%BA&quot;&gt;程式人&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E6%9E%97%E4%BF%A1%E8%89%AF&quot;&gt;林信良&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 18 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>林信良</dc:creator>
- <guid isPermaLink="false">146206 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/voice/146206#comments</comments>
 </item>
 </channel>
 </rss>
