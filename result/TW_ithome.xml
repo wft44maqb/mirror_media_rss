@@ -6,6 +6,23 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>針對勒索軟體Diavol與製作TrickBot的駭客組織的關連，IBM找到更多線索</title>
+ <link>https://www.ithome.com.tw/news/146280</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;資安業者Fortinet&lt;a href=&quot;https://www.ithome.com.tw/news/145461&quot;&gt;在7月初揭露名為的Diavol勒索軟體&lt;/a&gt;，並基於與Conti有許多共通的特性，認為可能是出自製作Trickbot殭屍病毒的駭客「Wizard Spider」之手。對於這個勒索軟體的研究，最近出現了新的進展：IBM X-Force威脅情報研究團隊指出，&lt;a href=&quot;https://securityintelligence.com/posts/analysis-of-diavol-ransomware-link-trickbot-gang/&quot;&gt;他們找到了Diavol的早期開發版本並進行研究&lt;/a&gt;，根據程式碼的編排方式來判斷，這款勒索軟體應該就是來自Wizard Spider。&lt;/p&gt;
+&lt;p&gt;原本IBM進行研究的動機，是想要針對Fortinet發現的Diavol進一步分析，但他們找到了另一款Diavol勒索軟體的檔案，與先前被Fortinet發現的勒索軟體存在許多相似之處，當中最主要的差別，是IBM找到的版本仍處於開發階段，看起來是駭客用來測試的檔案，而不像Fortinet找到的檔案，已經是具備完整功能的勒索軟體。&lt;/p&gt;
+&lt;p&gt;這兩個版本的Diavol編譯時間存在明顯的出入，IBM指出，Fortine發現的版本於2021年4月30日編譯，但他們找到的是在2020年3月5日製作。此外，這個開發版本的檔案，在2021年1月27日被上傳到惡意軟體分析平臺VirusTotal，檔案名稱為malware.exe。&lt;/p&gt;
+&lt;p&gt;再者，針對加密檔案的方式，開發版本的Diavol與後繼版本也有所不同──開發版本採用RSA演算法，攻擊者可設置需要優先加密的檔案類型，並且能終止指定的處理程序或是服務，以免加密檔案的過程遭到中斷。相較之下，先前被揭露的版本採用了非同步程序呼叫（Asynchronous Procedure Calls，APC），取代許多勒索軟體使用的對稱式加密機制。&lt;/p&gt;
+&lt;p&gt;此外，由於是開發版本，研究人員表示，他們執行Diavol的過程中，雖然會將檔案加密，但不會刪除原始檔案，如果被拿來用於攻擊行動，受害者根本不會支付贖金。&lt;/p&gt;
+&lt;p&gt;而為何會IBM認為Diavol出自Wizard Spider？該公司提出兩項發現。首先，針對Diavol執行的過程中，該勒索軟體會結合收集到的受害電腦資訊，產生一組Bot ID，以便攻擊者進行追蹤，這組。而IBM發現，這組Bot ID的格式，與TrickBot惡意軟體幾乎相同，僅增加了使用者名稱（username）的部分，而這樣的格式，特徵也與Wizard Spider另一款惡意軟體Anchor DNS相似。&lt;/p&gt;
+&lt;p&gt;另一項與Wizard Spider有關的證據，則是與駭客偏好的語言有關。研究人員指出，在Diavol開發版與C2伺服器通訊的HTTP標頭中，設置偏好以俄語呈現內容，而操作TrickBot的駭客也慣用俄文。&lt;/p&gt;
+&lt;p&gt;而與語言相關的線索，還有開發版本Diavol具備檢查受害電腦作業系統語言的機制，一旦發現是位於俄羅斯，或是獨立國家國協（Commonwealth of Independent States）的電腦，就不會發動攻擊。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 19 Aug 2021 11:13:06 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146280 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146280#comments</comments>
+</item>
+<item>
  <title>美國SEC控告3名Netflix前工程師涉及內線交易</title>
  <link>https://www.ithome.com.tw/news/146278</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國證券交易委員會（Securities and Exchange Commission，SEC）&lt;a href=&quot;https://www.sec.gov/news/press-release/2021-158&quot; target=&quot;_blank&quot;&gt;周三（8/18）控告3名Netflix的前工程師及其親友從事內線交易&lt;/a&gt;，在2016年至2019年間不當獲利超過300萬美元，違反美國《證券法》（Exchange Act Rule）。&lt;/p&gt;
@@ -144,22 +161,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146270 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146270#comments</comments>
-</item>
-<item>
- <title>Qualcomm發表下一代5G AI無人機平臺</title>
- <link>https://www.ithome.com.tw/news/146259</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Qualcomm（高通）推出全球第一個5G人工智慧無人機平臺，&lt;a href=&quot;https://www.qualcomm.com/news/onq/2021/08/17/qualcomm-flight-rb5-5g-platform-worlds-first-5g-and-ai-enabled-drone-platform&quot;&gt;Flight RB5 5G平臺&lt;/a&gt;可用於加速和擴展無人機的開發，滿足企業和工業開發無人機應用的需求。Flight RB5 5G平臺採用該公司最新的QRB5165處理器，作為新一代高效能、低功率5G無人機的基礎，Qualcomm希望新平臺能夠加速無人機開發，並且透過邊緣運算，來強化商業、企業和工業無人機應用。&lt;/p&gt;
-&lt;p&gt;在今年4月的時候，NASA的火星無人直升機獨創號（Ingenuity），成功在火星上試飛，這是人類第一臺在其他星球的動力可控飛行器，而Qualcomm飛行平臺便是獨創號試飛成功的重要功臣。Qualcomm認為，無人機迅速發展，在各領域開啟各種應用可能性，而無人機與5G、長距離Wi-Fi連接性，還有人工智慧技術的結合，將會是接下來無人機發展的關鍵。&lt;/p&gt;
-&lt;p&gt;因此Qualcomm推出了Flight RB5 5G平臺，來滿足無人機開發需求，該平臺是專為小型無人機系統設計，結合異構、低功耗的運算和攝影系統，與人工智慧、5G和Wi-Fi 6等技術，使無人機具有15 TOPS（Trillion Pperations Per Seconds）成像能力，以及先進的通訊能力。&lt;/p&gt;
-&lt;p&gt;Flight RB5 5G平臺擁有8個QRB5165中央處理器、1個GPU和1個神經處理引擎，還有能夠捕捉4K和8K解析度影片的攝影鏡頭，而其5G和Wi-Fi 6連接能力，能夠實現長達8公里的可視距離飛行。&lt;/p&gt;
-&lt;p&gt;Qualcomm Flight RB5 5G平臺能夠支援7臺相機並行運算，以高品質格式同時捕捉多個鏡頭影像，平臺上的第5代Qualcomm人工智慧引擎能夠處理複雜的任務，像是電腦視覺、感知和自主性功能，先進的4K或是8K無人機攝影機，能夠提供電子影像穩定器、水平功能和數位變焦等功能，拍攝出電影品質的影像，另外，電腦視覺則可以提供多目標偵測和追蹤、數位雲臺以及立體視野深度等功能。該平臺自主功能，具有像是路徑規畫和障礙物迴避等能力，使得無人機可以平穩飛行。&lt;/p&gt;
-&lt;p&gt;長距離連接性也是Qualcomm飛行平臺的重點，藉由5G和Wi-Fi 6可以與控制器低延遲連接，達到精確移動和即時第一人稱視角的回應時間，使用者也能夠將無人機透過HDMI連接外部顯示器，以快速查看無人機鏡頭影像。Qualcomm無人機平臺也採用安全連接和加密技術，來保持應用的安全性，在用戶遠端控制無人機的同時，以網路安全、資料保護和無人機安全功能，來確保操作的安全性。&lt;/p&gt;
-&lt;p&gt;Qualcomm Flight RB5 5G無人機參照設計現在於無人機製造商ModalAI上預售，而開發套件則預計會在今年第4季上市。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 19 Aug 2021 03:01:36 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146259 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146259#comments</comments>
 </item>
 </channel>
 </rss>
