@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:a10="http://www.w3.org/2005/Atom"
+  version="2.0">
+  <channel xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title>Azure 狀態</title>
+    <link>https://status.azure.com/zh-tw/status/</link>
+    <description>Azure 狀態</description>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 19 Aug 2021 22:26:00 Z</lastBuildDate>
+  </channel>
+</rss>
