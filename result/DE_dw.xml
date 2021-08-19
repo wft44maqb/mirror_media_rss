@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-19T14:49:29Z</updated>
+ <updated>2021-08-19T14:51:32Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,36 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58910134</id>
+  <title><![CDATA[德语媒体：北京为何要为塔利班铺红毯？]]></title>
+  <updated>2021-08-19T14:29:00Z</updated>
+  <published>2021-08-19T14:29:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：北京为何要为塔利班铺红毯？/a-58910134?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[《世界报》指出，虽然中俄对于美国在阿富汗的失败幸灾乐祸，但在阿富汗问题上美俄中的态度相去不远，中国人虽喜谈经济项目，但当下聚焦的是边境安全的不确定性。《巴登日报》认为，为预防阿富汗成为新疆独立势力的助力，北京很早就为塔利班铺上外交红毯。]]></summary>
+  <category term="评论分析"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58910156</id>
+  <title><![CDATA[妮可·基德曼赴港拍片免隔离遭投诉]]></title>
+  <updated>2021-08-19T14:29:00Z</updated>
+  <published>2021-08-19T14:29:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/妮可·基德曼赴港拍片免隔离遭投诉/a-58910156?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[香港有关当局决定给予好莱坞明星妮可·基德曼隔离豁免，激起民愤。基德曼此行赴港为监制并出演美国新剧《Expats》，故事以香港作背景，改编自香港出生、韩裔美籍女作家李允卿的小说《The Expatriates》。]]></summary>
+  <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58910094</id>
+  <title><![CDATA[回忆：“八一九”政变加快了苏联解体进程]]></title>
+  <updated>2021-08-19T14:21:00Z</updated>
+  <published>2021-08-19T14:21:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/回忆：-八一九-政变加快了苏联解体进程/a-58910094?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[1991年8月19日，已经摇摇欲坠的苏联帝国发生军事政变，坦克开进莫斯科市内，苏共总书记戈尔巴乔夫被扣押，全世界的目光都投向克里姆林宫，难道刚刚结束的冷战又要死灰复燃了吗？记者Christian F. Trippe回顾了他所经历的“八一九”政变。]]></summary>
+  <category term="新闻广角"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58908823</id>
   <title><![CDATA[反制“熔断”机制 美限制中国航班载客量]]></title>
@@ -143,16 +173,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：帝国坟场与大国棋局/a-58898703?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[德国《商报》呼吁中美两国在阿富汗问题上开展合作，不要相互指责，这样才能避免阿富汗重新变成恐怖主义温床。瑞士《每日导报》指出，中国并没有支持塔利班，北京与之对话不过是一种实用主义的态度。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58898799</id>
-  <title><![CDATA[宁波港短暂停摆  全球物流面临考验]]></title>
-  <updated>2021-08-18T14:52:00Z</updated>
-  <published>2021-08-18T14:52:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/宁波港短暂停摆-全球物流面临考验/a-58898799?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[周二，中国第二大港口宁波，有五十多艘集装箱货轮在排队等候装卸，中国其他港口的拥堵现象也非常严重。此举对全球物流和经济的影响，目前还难以估量。]]></summary>
-  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58897423</id>
@@ -483,16 +503,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/台湾菠萝大举销日-两岸水果政治角力的启示/a-58827737?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国政府在2021年2月底宣布禁止台湾菠萝进口，让正要迎来「金钻菠萝」盛产季的台湾措手不及，在一波转销努力之后，两岸由此而生的政经角力余波荡漾，德国之声请专家分析这个事件的后续影响。]]></summary>
   <category term="经济纵横"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58832322</id>
-  <title><![CDATA[德语媒体：国际社会绝不应屈从于中国的人质外交]]></title>
-  <updated>2021-08-11T14:32:00Z</updated>
-  <published>2021-08-11T14:32:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：国际社会绝不应屈从于中国的人质外交/a-58832322?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[为了迫使加拿大司法当局释放华为高管孟晚舟，中方竟逮捕关押了两名加拿大人。《南德意志报》发表评论称，面对这种人质外交，任何人都是不安全的。]]></summary>
-  <category term="评论分析"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58829914</id>
