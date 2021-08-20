@@ -136,6 +136,34 @@
  <comments>https://www.ithome.com.tw/news/146296#comments</comments>
 </item>
 <item>
+ <title>駭客以百萬美元贖金利誘員工，意圖在企業內部植入勒索軟體</title>
+ <link>https://www.ithome.com.tw/news/146295</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;駭客發動勒索軟體攻擊的方式，除了藉由網路攻擊來入侵企業，也可能串通對公司的員工來進行，而無需對付企業對外的資安防護系統。例如，2020年8月美國司法部公布，&lt;a href=&quot;https://www.ithome.com.tw/news/139693&quot;&gt;他們破獲有俄羅斯人企圖買通特斯拉員工，在特斯拉內部植入勒索軟體未果&lt;/a&gt;，該公司創辦人暨執行長Elon Musk證實此事時，亦認為這是「計畫完備的攻擊行動」。&lt;/p&gt;
+&lt;p&gt;但除了這種鎖定特定公司發動攻擊的事故，也有來自奈及利亞的駭客直接寄送電子郵件，想要勾結可能對公司有怨言的員工來犯案。&lt;a href=&quot;https://abnormalsecurity.com/blog/nigerian-ransomware-soliciting-employees-demonware/&quot;&gt;郵件安全公司Abnormal Security於8月12日&lt;/a&gt;，攔截一批寄送給該公司用戶的可疑電子郵件，寄件者宣稱是與DemonWare勒索軟體相關人士，要求收信人參與他們的攻擊計畫，在公司內部植入勒索軟體，假若勒索成功，收信人將能得到高額的報酬。&lt;/p&gt;
+&lt;p&gt;這些電子郵件的內容提及，收信人只要能夠在任何公司裡的主要Windows伺服器中，安裝並啟動DemonWare，寄件者將會給予40%的報酬，相當於價值100萬美元的比特幣（代表可以收到的贖金為250萬美元）。寄件者留下了電子郵件信箱與Telegram帳號，供收信人與他們聯繫，行徑可說是相當明目張膽。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/demonware-initial-email-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/demonware-initial-email-s.png&quot; style=&quot;width: 580px; height: 198px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一般來說，勒索軟體駭客會透過電子郵件的管道入侵，手法通常是藉由社交工程，寄送帶有勒索軟體等作案工具的釣魚信件，誘使收件人開啟附件檔案，進而在公司網路環境感染勒索軟體。但這種想要利誘員工來對公司攻擊的方法，Abnormal Security認為相當值得留意，因為這樣的手法可能難以透過資安防護系統攔截。&lt;/p&gt;
+&lt;p&gt;對此，研究人員謊稱成一家虛構公司的員工，依據信裡的聯絡資料，透過Telegram聯繫寄件人，經由與對方討論長達5天的過程，而對攻擊者有了進一步的了解。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/demonware-initial-response.png&quot; style=&quot;width: 440px; height: 141px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;當他們聯絡這名駭客並表明來意之後，對方很快就提供了勒索軟體的下載連結──駭客將檔案存放在Mega與WeTransfer雲端硬碟裡，檔案名稱是Walletconnect (1).exe。研究人員分析後，證實這個檔案確實是勒索軟體。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/demonware-links-1_.png&quot; style=&quot;width: 440px; height: 676px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;接下來，研究人員與駭客談論這起「攻擊行動」的其他細節。首先是贖金的部分，根據信件裡提及收件者的報酬，攻擊者打算勒索250萬美元，但這名駭客很快就降低至25萬美元。後來，研究人員向他宣稱，所屬公司的年營收是5千萬美元，對方又再度調整贖金為12萬美元。&lt;/p&gt;
+&lt;p&gt;在對話的過程中，駭客再三承諾研究人員不會被公司抓到，因為該勒索軟體會加密受害電腦的所有資料，駭客宣稱，若是伺服器裡存放了閉路電視（CCTV）的檔案，也同樣無法逃過被加密的命運。&lt;/p&gt;
+&lt;p&gt;而對於攻擊行動的操作，駭客也指示研究人員，在執行完勒索軟體之後必須刪除，並且檔案也要從資源回收筒清除。根據對話的內容，Abnormal Security認為，這名駭客希望員工能實體存取受害伺服器，而且不甚了解數位鑑識與事件回應調查，可能採集到的證據。&lt;/p&gt;
+&lt;p&gt;勒索軟體Demonware亦被稱為Black Kingdom，其實是開放原始碼的專案，檔案可在GitHub取得，該專案發起人的動機，是要突顯製作勒索軟體的難度不高。但攻擊者宣稱，他是使用Python編譯這款勒索軟體。Abnormal Security認為檔案是來自上述GitHub專案的原因，在於駭客提供的勒索訊息截圖，幾乎與該專案提供的截圖一致，僅有少部分訊息有所調整。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/demonware-github-example-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/demonware-github-example-s.png&quot; style=&quot;width: 580px; height: 217px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;根據左圖駭客提供給研究人員的勒索訊息截圖，以及右圖DemonWare專案的勒索訊息截圖範例，我們可以發現勒索訊息內容差不多，甚至連署名也一樣，下方時間倒數的部分，也都是文字左右配置了警示標誌。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;究竟駭客如何得到攻擊目標的聯絡資訊？這名駭客宣稱是透過LinkedIn收集而得，原本打算對於所有高階主管發動釣魚郵件攻擊，但在攻擊沒有成功之後，他改以向收件人合作發動勒索軟體的名義，發送相關信件。&lt;/p&gt;
+&lt;p&gt;到底這名駭客的身分為何？Abnormal Security根據他們收集的情報，再加上這名駭客表明他就在奈及利亞，研究人員認為這起攻擊行動出自奈及利亞的駭客。&lt;/p&gt;
+&lt;p&gt;疫情當前，民眾普遍收入減少的情況下，駭客祭出百萬美元利誘，難保不會有員工因此鋌而走險出賣公司。而針對這樣的情況，企業要如何強化相關防護，來因應這樣的態勢？可能就是接下來需要思考的問題。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 07:17:30 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146295 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146295#comments</comments>
+</item>
+<item>
  <title>微軟明年調漲企業版Office 365、Microsoft 365價格</title>
  <link>https://www.ithome.com.tw/news/146291</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/microsoft-365/blog/2021/08/19/new-pricing-for-microsoft-365/&quot; target=&quot;_blank&quot;&gt;微軟昨（19）日宣布&lt;/a&gt;，明年三月調漲企業版Office 365及Microsoft 365，消費版及教育版則維持價格不變。&lt;/p&gt;
@@ -167,19 +195,6 @@
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="false">146281 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146281#comments</comments>
-</item>
-<item>
- <title>Nvidia營收持續跨大步，第二季成長68%</title>
- <link>https://www.ithome.com.tw/news/146290</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2022&quot; target=&quot;_blank&quot;&gt;Nvidia周三（8/18）公布&lt;/a&gt;該公司截至今年8月1日的2022財年第二季財報，該季創下65.1億美元的營收，再度刷新Nvidia的單季營收紀錄，亦比去年同期成長68%，該季每股盈餘為0.94美元，成長276%。&lt;/p&gt;
-&lt;p&gt;在65.1億美元的營收中，遊戲營收占了30.6億美元，成長85%，資料中心營收占了23.7億美元，成長35%，專業視覺化營收占了5.19億美元，成長156%，汽車類別營收則是1.52億美元，成長37%，OEM與其它營收占了4.09億美元，成長68%。&lt;/p&gt;
-&lt;p&gt;Nvidia說明，今年2月才發表的挖礦專用CMP處理器被計入OEM營收中，該類別的營收成長也是由CMP所帶動，於該季的貢獻為2.66億美元，高於上一季的1.55億美元。&lt;/p&gt;
-&lt;p&gt;其實該季Nvidia還舉行了GPU技術大會（GTC），當時媒體誤以為Nvidia執行長黃仁勳在虛擬會議中栩栩如生的表現都是動畫，並廣為報導，使得&lt;a href=&quot;https://blogs.nvidia.com/blog/2021/08/11/omniverse-making-of-gtc/&quot; target=&quot;_blank&quot;&gt;Nvidia後來澄清&lt;/a&gt;影片中只有14秒的黃仁勳動畫，其它絕大多數時間都是黃仁勳親自上陣，這個新聞也淹沒了Nvidia當天所要推廣的3D即時模擬與協作平臺Nvidia Omniverse。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 20 Aug 2021 02:36:55 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146290 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146290#comments</comments>
 </item>
 </channel>
 </rss>
