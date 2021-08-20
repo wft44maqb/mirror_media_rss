@@ -30,15 +30,5 @@
 &lt;p&gt;&lt;strong&gt;Additional details:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The issue has been mitigated and the problematic service has been identified and canceled. Query operations have returned to normal.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Operations&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: We experienced performance issues with Cloud Dataflow between 2021-08-18 20:40 Pacific Time to 2021-08-19 01:40 Pacific Time.
-Some streaming jobs may have seen higher than usual watermark. Multiple regions affected eg: europe-west1, us-west2
-The issue is fully resolved and service is restored.
-We apologize to all who are affected by the disruption.</title>
-    <link href="https://status.cloud.google.com/incidents/QEcZsLuW9bqYZggLZXgS" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:QEcZsLuW9bqYZggLZXgS.A21iyavci9MH6zurwxsX</id>
-    <updated>2021-08-19T09:02:39+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-18 20:40&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-19 01:40&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Performance degradation of Dataflow streaming jobs in multiple regions.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
   </entry>
 </feed>
