@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 20 Aug 2021 18:23:41 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Aug 2021 18:44:05 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[從西貢到喀布爾，歷史的悲劇再次上演]]></title>
+            <link><![CDATA[https://cn.nytimes.com/opinion/20210820/afghanistan-vietnam-war-refugees/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[西貢的淪陷和越戰後遺症預示著阿富汗人可能的命運。噩夢不會隨著美國宣布戰爭結束而結束。美國有義務幫助處於致命危險中的阿富汗人。<p><img src='https://static01.nyt.com/images/2021/08/21/opinion/21Nguyen2-inyt/17Nguyen2-articleLarge.jpg' alt='1975年，南越平民爬上美國大使館的圍牆，絕望地試圖乘坐從西貢起飛的疏散航班離開越南。 Neal Ulevich/Associated Press'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Neal Ulevich/Associated Press</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>1975年，南越平民爬上美國大使館的圍牆，絕望地試圖乘坐從西貢起飛的疏散航班離開越南。</p>                    ]]></description>
+            <category>觀點與評論</category>
+            <dc:creator><![CDATA[VIET THANH NGUYEN]]></dc:creator>
+            <pubDate>Fri, 20 Aug 2021 06:33:12 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210820/afghanistan-vietnam-war-refugees/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[如果我就阿富汗局勢採訪習近平……]]></title>
             <link><![CDATA[https://cn.nytimes.com/opinion/20210820/afghanistan-us-taliban/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[HELENE COOPER,ERIC SCHMITT]]></dc:creator>
             <pubDate>Wed, 18 Aug 2021 11:07:37 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210818/afghans-deaths-us-plane/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[阿富汗敗局或進一步損害美國信譽]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210817/afghanistan-eu-us-credibility/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[拜登尋求重新確立美國在國際事務中的領導地位之際，阿富汗局勢的迅速崩潰令人們進一步質疑美國的信譽，也強化了一種觀點，即美國對盟友的支持不是無限的。<p><img src='https://static01.nyt.com/images/2021/08/13/world/13afghan-europe01/merlin_192879168_da0853a9-a860-44c8-b427-e8127c51365c-articleLarge.jpg' alt='上週，坎達哈街頭流離失所的家庭。在過去幾個月裡，至少有40萬阿富汗人失去了家園，這個數字可能會大幅上升。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>上週，坎達哈街頭流離失所的家庭。在過去幾個月裡，至少有40萬阿富汗人失去了家園，這個數字可能會大幅上升。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[STEVEN ERLANGER]]></dc:creator>
-            <pubDate>Tue, 17 Aug 2021 05:37:54 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210817/afghanistan-eu-us-credibility/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
