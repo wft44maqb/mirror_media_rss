@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-08-20T21:59:06Z</updated>
+  <updated>2021-08-20T22:09:10Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
+  <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7809800</id>
+    <published>2021-08-20T22:04:31Z</published>
+    <updated>2021-08-20T22:07:57Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/1pkbxsjxxppz"/>
+    <title>Increased HTTP 502/504 Errors in ISB and LHE</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;22:04&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Cloudflare is investigating an increased level of HTTP 502/504 errors. &lt;br /&gt;&lt;br /&gt;We are working to analyze and mitigate this problem.  More updates to follow shortly.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7808910</id>
     <published>2021-08-20T20:17:07Z</published>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/t1xx39p1lv4s"/>
     <title>Argo tunnel connection propagation delay</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt; 4&lt;/var&gt;, &lt;var data-var='time'&gt;19:07&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt; 4&lt;/var&gt;, &lt;var data-var='time'&gt;19:02&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt; 4&lt;/var&gt;, &lt;var data-var='time'&gt;18:46&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating delays when creating new Cloudflare Tunnel connections. Existing Tunnels are not impacted, but restarting could cause delays in reconnections.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7673758</id>
-    <published>2021-08-03T17:30:50Z</published>
-    <updated>2021-08-03T17:30:50Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/8jvd5j5fx287"/>
-    <title>Upcoming Datacenter Upgrades</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt; 3&lt;/var&gt;, &lt;var data-var='time'&gt;17:30&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt; 3&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Throughout the month of August 2021, we will be performing maintenance on various datacenters. Each window will be between 1am-6am local time of the data center. There is a possibility of a slight increase in latency during these maintenance windows. The most up-to-date schedule can be located here: &lt;a href="https://support.cloudflare.com/hc/en-us/articles/360060050511-Planned-maintenance-for-Cloudflare-data-centers"&gt;Planned maintenance for Cloudflare data centers&lt;/a&gt;.&lt;/p&gt;</content>
   </entry>
 </feed>
