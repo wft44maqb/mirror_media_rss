@@ -6,6 +6,22 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>微軟明年調漲企業版Office 365、Microsoft 365價格</title>
+ <link>https://www.ithome.com.tw/news/146291</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/microsoft-365/blog/2021/08/19/new-pricing-for-microsoft-365/&quot; target=&quot;_blank&quot;&gt;微軟昨（19）日宣布&lt;/a&gt;，明年三月調漲企業版Office 365及Microsoft 365，消費版及教育版則維持價格不變。&lt;/p&gt;
+&lt;p&gt;微軟Microsoft 365企業副總裁Jared Spataro表示，這次漲價是 Office 365推出10年來的首次「明顯調漲」。微軟表示，這次漲價也反映了微軟為Office 365在三項領域所做的功能強化，包括協同、安全與法規遵循，以及人工智慧（AI）和自動化，像是2017年加入的協同平臺Teams、Yammer、低程式碼開發及流程平臺Power Platform、資料防外洩（DLP），並為Office及Outlook應用加入AI功能，如即時翻譯字幕等。微軟說，從4年前整合Office365、Windows及企業行動及管理（Enterprise Mobile and Security，EMS）推出Microsoft 365以來，他們已加入了24項應用程式。&lt;/p&gt;
+&lt;p&gt;從2022年3月1日起，Office 365及Microsoft 365大型企業及中小型企業方案將調漲價格。其中Microsoft 365 Business Basic每名用戶月費由5元調漲為6美元，Business Premium由20元漲為22美元。Microsoft 365 E3方案則由32漲為36美元。此外，Office 365 E1、E3及E5調漲後的價格，各為10、23及38美元。&lt;/p&gt;
+&lt;p&gt;消費者、教育版Office 365及Microsoft，以及最高等級的Microsoft 365 E5皆不受影響。&lt;/p&gt;
+&lt;p&gt;為了反映物超所值，微軟今天也宣布將為Office 365再加入一項不限人數以傳統電話加入（dial-in）Teams語音會議的功能。這項功能適合網路頻寬不足地區，原本只提供最頂級Microsoft 365和Office 365 E5方案用戶，現在提供給所有版本，涵括政府及中小企業。微軟表示，這項功能未來幾個月將部署到全球70餘國，支援44種語言或方言。&lt;/p&gt;
+&lt;p&gt;微軟表示，推出10年以來，Office 365商用付費席次已超過3億。&lt;/p&gt;
+&lt;p&gt;媒體分析，由於Office 365擁有如此龐大用戶群，小調一點就能反映在明年的財報上。&lt;a href=&quot;https://www.ithome.com.tw/news/145898&quot; target=&quot;_blank&quot;&gt;根據微軟上個月發布的上季財報&lt;/a&gt;，在&lt;a href=&quot;https://www.microsoft.com/en-us/Investor/earnings/FY-2021-Q4/press-release-webcast&quot; target=&quot;_blank&quot;&gt;Office 365商用營收成長25%&lt;/a&gt;推升下，Office商業產品及雲端營收已較去年同期成長了20%。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 02:59:47 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146291 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146291#comments</comments>
+</item>
+<item>
  <title>Git 2.33加入新的合併策略可提升合併效能達9,000倍</title>
  <link>https://www.ithome.com.tw/news/146281</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://lore.kernel.org/lkml/xmqq1r6touqi.fsf@gitster.g/&quot;&gt;Git 2.33&lt;/a&gt;現在已經推出，有不少使用者不會有太大感覺的背景修改，不過仍有新功能可以提升開發者的日常使用經驗，像是這個版本新增一種稱為merge-ort的合併策略，能解決合併正確性和效能方面的問題，並且作為未來新功能的基礎。&lt;/p&gt;
@@ -145,24 +161,6 @@
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="false">146275 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146275#comments</comments>
-</item>
-<item>
- <title>Fortinet抨擊安全廠商在90天保密期限前就揭露其產品漏洞</title>
- <link>https://www.ithome.com.tw/news/146274</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;安全研究人員及產品廠商之間的緊張關係再度引爆。網路安全設備商Fortinet批評安全廠商Rapid 7未遵守業界通用的漏洞通報90天保密期，在還沒到90天前就將Fortinet產品漏洞公諸於世。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.rapid7.com/blog/post/2021/08/17/fortinet-fortiweb-os-command-injection/&quot; target=&quot;_blank&quot;&gt;本周Rapid 7公布Fortinet網頁應用防火牆產品FortiWeb 管理介面的漏洞&lt;/a&gt;。&lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2021-22123&quot; target=&quot;_blank&quot;&gt;編號CVE-2021-22123的漏洞是一項OS指令注入漏洞&lt;/a&gt;，可讓遠端取得授權的攻擊者透過SAML伺服器組態頁面執行任意指令。該漏洞風險值8.8，屬於高風險漏洞，影響FortiWeb管理介面6.3.7以前、6.2.3以前及6.1.x, 6.0.x, 5.9.x版本。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0819-rapid7.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.fortiguard.com/psirt/FG-IR-20-120&quot; target=&quot;_blank&quot;&gt;Fortinet 在6月曾發出安全公告&lt;/a&gt;，但是預定要到8月底才有修補程式釋出。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.zdnet.com/article/fortinet-slams-rapid7-for-disclosing-vulnerability-before-end-of-90-day-window/&quot; target=&quot;_blank&quot;&gt;Fortinet批評&lt;/a&gt;，Rapid 7在6月發現這個漏洞，卻在不到90天就公諸於世，違反了&lt;a href=&quot;https://www.fortiguard.com/psirt_policy&quot; target=&quot;_blank&quot;&gt;Fortinet漏洞揭露政策&lt;/a&gt;中，要求通報者在完整解決漏洞前保密的規定，使他們來不及釋出修補程式。&lt;/p&gt;
-&lt;p&gt;但是Rapid 7指出，&lt;a href=&quot;https://www.fortiguard.com/zeroday/responsible-disclosure&quot; target=&quot;_blank&quot;&gt;Fortinet 公布的90天保密期&lt;/a&gt;是規範他們自己作為資安廠商的規定，他們和第三方安全研究人員的漏洞揭露政策並未說明幾天，於是&lt;a href=&quot;https://www.rapid7.com/security/disclosure/#zeroday&quot; target=&quot;_blank&quot;&gt;Rapid 7採用自己的揭露政策&lt;/a&gt;，保密漏洞資訊60天。&lt;/p&gt;
-&lt;p&gt;Rapid 7研究總監Tom Beardsley對媒體表示，該公司於6月10日通報Fortinet，並在6月11日接獲對方確認。之後該公司也曾多次試圖聯繫，但皆未獲得回應。於是60天一到，Rapid 7就公布了這個漏洞，而對方也說即將釋出修補程式。&lt;/p&gt;
-&lt;p&gt;Rapid 7指出，目前未發現該漏洞被濫用的情形。在修補程式來到之前，用戶應關閉未受信任，包括網際網路連線存取FortiWeb管理介面。&lt;/p&gt;
-&lt;p&gt;這並非第一次安全廠商和其他網路或軟體業者為公布漏洞而衝突。微軟即多次因為Google Project Zero在它還沒釋出修補程前，便公布漏洞而感到不滿，甚至演變成&lt;a href=&quot;https://www.ithome.com.tw/news/117580&quot; target=&quot;_blank&quot;&gt;公布Google產品漏洞作為報復&lt;/a&gt;。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 19 Aug 2021 05:34:38 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146274 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146274#comments</comments>
 </item>
 </channel>
 </rss>
