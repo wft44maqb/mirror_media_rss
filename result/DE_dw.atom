@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-20T08:28:28Z</updated>
+ <updated>2021-08-20T08:31:41Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -75,16 +75,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58910156</id>
-  <title><![CDATA[妮可·基德曼赴港拍片免隔离遭投诉]]></title>
-  <updated>2021-08-19T14:29:00Z</updated>
-  <published>2021-08-19T14:29:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/妮可·基德曼赴港拍片免隔离遭投诉/a-58910156?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[香港有关当局决定给予好莱坞明星妮可·基德曼隔离豁免，激起民愤。基德曼此行赴港为监制并出演美国新剧《Expats》，故事以香港作背景，改编自香港出生、韩裔美籍女作家李允卿的小说《The Expatriates》。]]></summary>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58910134</id>
   <title><![CDATA[德语媒体：北京为何要为塔利班铺红毯？]]></title>
   <updated>2021-08-19T14:29:00Z</updated>
@@ -93,6 +83,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：北京为何要为塔利班铺红毯？/a-58910134?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[《世界报》指出，虽然中俄对于美国在阿富汗的失败幸灾乐祸，但在阿富汗问题上美俄中的态度相去不远，中国人虽喜谈经济项目，但当下聚焦的是边境安全的不确定性。《巴登日报》认为，为预防阿富汗成为新疆独立势力的助力，北京很早就为塔利班铺上外交红毯。]]></summary>
   <category term="评论分析"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58910156</id>
+  <title><![CDATA[妮可·基德曼赴港拍片免隔离遭投诉]]></title>
+  <updated>2021-08-19T14:29:00Z</updated>
+  <published>2021-08-19T14:29:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/妮可·基德曼赴港拍片免隔离遭投诉/a-58910156?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[香港有关当局决定给予好莱坞明星妮可·基德曼隔离豁免，激起民愤。基德曼此行赴港为监制并出演美国新剧《Expats》，故事以香港作背景，改编自香港出生、韩裔美籍女作家李允卿的小说《The Expatriates》。]]></summary>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58910094</id>
@@ -153,6 +153,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/12港人案-李宇轩承认-串谋勾结外国势力/a-58905974?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[香港12港人偷渡案涉案人员、香港故事成员李宇轩被控违反香港国安法下一项“串谋勾结外国或者境外势力危害国家安全”罪名。今天他在法庭上认罪。与他一起当庭认罪的还有律师助理陈梓华。]]></summary>
   <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58905844</id>
+  <title><![CDATA[多名美国驻德外交官或患哈瓦那综合症]]></title>
+  <updated>2021-08-19T09:49:00Z</updated>
+  <published>2021-08-19T09:49:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/多名美国驻德外交官或患哈瓦那综合症/a-58905844?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国驻德国外交人员中似乎也出现了神秘的哈瓦那综合症症状。《华尔街日报》报道说，其中至少有两人不得不送医治疗。]]></summary>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58903119</id>
@@ -375,16 +385,6 @@
   <category term="评论分析"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58855881</id>
-  <title><![CDATA[德国使馆推文伤害了部分日本国民自尊心]]></title>
-  <updated>2021-08-15T07:19:00Z</updated>
-  <published>2021-08-15T07:19:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国使馆推文伤害了部分日本国民自尊心/a-58855881?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[二战结束 76 年之际，德国驻日大使馆对二战中日本和德国有相似之处的评论引发激烈争论。有日本极右翼分子表示，不能把日本同德国相提并论，这一表态又引中韩网民的抗议。德国之声记者Martin Fritz从东京发来以下报道。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58831014</id>
   <title><![CDATA[欧洲大火肆虐：四大问题解疑]]></title>
   <updated>2021-08-15T07:19:00Z</updated>
@@ -393,6 +393,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧洲大火肆虐：四大问题解疑/a-58831014?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[夏天刚过一半，巴尔干半岛、意大利和地中海东南部野火烧毁的土地面积已经超过了一年的平均水平。]]></summary>
   <category term="科技环境"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58855881</id>
+  <title><![CDATA[德国使馆推文伤害了部分日本国民自尊心]]></title>
+  <updated>2021-08-15T07:19:00Z</updated>
+  <published>2021-08-15T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国使馆推文伤害了部分日本国民自尊心/a-58855881?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[二战结束 76 年之际，德国驻日大使馆对二战中日本和德国有相似之处的评论引发激烈争论。有日本极右翼分子表示，不能把日本同德国相提并论，这一表态又引中韩网民的抗议。德国之声记者Martin Fritz从东京发来以下报道。]]></summary>
+  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58819096</id>
@@ -640,15 +650,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -656,6 +657,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="在线报导"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
