@@ -4,7 +4,7 @@
   <link rel="alternate" type="text/html" href="https://status.digitalocean.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.digitalocean.com/history.atom"/>
   <title>DigitalOcean Status - Incident History</title>
-  <updated>2021-08-20T16:10:45Z</updated>
+  <updated>2021-08-20T16:18:19Z</updated>
   <author>
     <name>DigitalOcean</name>
   </author>
@@ -51,7 +51,7 @@
   <entry>
     <id>tag:status.digitalocean.com,2005:Incident/7758681</id>
     <published>2021-08-14T07:43:46Z</published>
-    <updated>2021-08-20T16:10:45Z</updated>
+    <updated>2021-08-20T16:18:19Z</updated>
     <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/731hxh64llq9"/>
     <title>Network Outage in NYC3</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;14&lt;/var&gt;, &lt;var data-var='time'&gt;07:43&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our Engineering team has resolved the issue with networking in our NYC3 region. Networking service should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;21:19&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our Engineering team has implemented a fix for the issues that caused an impact on multiple products. We are continuing to monitor the situation closely. We apologize for the inconvenience and will share another update once the matter is fully resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;20:58&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Our engineering team has identified the cause of the networking issue with our NYC3 region and is actively working on a fix.&lt;br /&gt;We will post an update as soon as possible&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;20:51&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Our Engineering team is currently investigating an issue impacting multiple products. During this time, users may experience errors when interacting with Cloud Control Panel, API, and our Community platform. Users may see issues when accessing the Container Registry systems as well. There may be authentication issues for users with Managed Kubernetes clusters. Users may see connectivity issues with their Droplets in the NYC3 region as well. We apologize for any inconvenience and will share more information as soon as it's available.&lt;/p&gt;</content>
