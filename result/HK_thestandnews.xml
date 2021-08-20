@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-20T18:53:12.527Z</updated>
+    <updated>2021-08-20T18:58:14.455Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[首款 DNA 疫苗獲印度批准緊急使用]]></title>
+        <id>https://www.thestandnews.com/international/%E9%A6%96%E6%AC%BE-dna-%E7%96%AB%E8%8B%97%E7%8D%B2%E5%8D%B0%E5%BA%A6%E6%89%B9%E5%87%86%E7%B7%8A%E6%80%A5%E4%BD%BF%E7%94%A8</id>
+        <link href="https://www.thestandnews.com/international/%E9%A6%96%E6%AC%BE-dna-%E7%96%AB%E8%8B%97%E7%8D%B2%E5%8D%B0%E5%BA%A6%E6%89%B9%E5%87%86%E7%B7%8A%E6%80%A5%E4%BD%BF%E7%94%A8"/>
+        <updated>2021-08-20T18:56:24.236Z</updated>
+        <summary type="html"><![CDATA[路透社周五（20 日）報道，印度藥品監管機構批准印度製藥商 Zydus Cadila 新冠疫苗 ZyCoV-D 「緊急使用」於 12 歲或以上青少年和成人。該疫苗是世界首款針對新冠病毒的 DNA 疫苗。Zydus Cadila 以每年生產 1 億至 1.2 億劑 ZyCoV-D 疫苗為目標。與只需接種一至兩劑的其他新冠疫苗不同，ZyCoV-D 疫苗要分三劑接種。Zydus Cadila 7 月表…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/ZyCov-D-packshot.jpg"><figcaption><span>ZyCov-D疫苗（Zydus Cadila網頁圖片）</span></figcaption></figure><p><a href="https://www.reuters.com/business/healthcare-pharmaceuticals/india-approves-zydus-cadilas-covid-19-vaccine-emergency-use-2021-08-20/">路透社</a>周五（20 日）報道，印度藥品監管機構批准印度製藥商 Zydus Cadila 新冠疫苗 ZyCoV-D 「緊急使用」於&nbsp;12 歲或以上青少年和成人。該疫苗是世界首款針對新冠病毒的 DNA 疫苗。</p>
+
+<p>Zydus Cadila 以每年生產 1 億至 1.2 億劑 ZyCoV-D 疫苗為目標。與只需接種一至兩劑的其他新冠疫苗不同，ZyCoV-D 疫苗要分三劑接種。</p>
+
+<p>Zydus Cadila 7 月表示，其新冠疫苗對新的新冠病毒突變種有效用，特別是對 Delta 變種。該藥廠於上月 1 日就 ZyCoV-D 申請緊急使用授權，而據中期研究結果顯示，該疫苗效力達&nbsp;66.6%。Zydus Cadila 的疫苗是該公司與印度生物技術部合作研發，是繼 Bharat Biotech 的 Covaxin 之後，第二款於印度獲批緊急授權的本土疫苗。</p>
+
+<p>ZyCoV-D 疫苗利用新冠病毒 (SARS-CoV-2) 中的一部份基因密碼（DNA 或 RNA），來刺激對抗病毒刺突蛋白 (spike protein) 的免疫反應。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="國際"/>
+        <published>2021-08-20T18:49:51.786Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【彌敦道 190 號．導賞】是洋樓不是唐樓　學者：裝飾藝術風　建築美學高分]]></title>
         <id>https://www.thestandnews.com/society/%E5%BD%8C%E6%95%A6%E9%81%93-190-%E8%99%9F%E5%A4%9A%E5%9C%96%E6%98%AF%E6%B4%8B%E6%A8%93%E4%B8%8D%E6%98%AF%E5%94%90%E6%A8%93-%E5%AD%B8%E8%80%85%E5%B0%8E%E8%B3%9E%E8%A3%9D%E9%A3%BE%E8%97%9D%E8%A1%93%E9%A2%A8-%E5%BB%BA%E7%AF%89%E7%BE%8E%E5%AD%B8%E9%AB%98%E5%88%86</id>
@@ -1049,45 +1069,5 @@ Bandini, E., Grossmann, J., Funk, M. &amp; et al. (2021). Naïve orangutans (Pon
         </author>
         <category label="法庭"/>
         <published>2021-08-20T09:53:15.240Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[父涉姦女脫罪 4 家人教唆改口供罪成 8.23 判刑　官：難對被告有同情心]]></title>
-        <id>https://www.thestandnews.com/court/ab_%E7%88%B6%E6%B6%89%E5%A7%A6%E5%A5%B3%E8%84%AB%E7%BD%AA-%E7%88%B6%E6%AF%8D%E7%AD%89-4-%E5%AE%B6%E4%BA%BA%E6%95%99%E5%94%86%E6%94%B9%E5%8F%A3%E4%BE%9B%E7%BD%AA%E6%88%90-823-%E5%88%A4%E5%88%91-%E5%AE%98%E9%9B%A3%E5%B0%8D%E8%A2%AB%E5%91%8A%E6%9C%89%E5%90%8C%E6%83%85%E5%BF%83</id>
-        <link href="https://www.thestandnews.com/court/ab_%E7%88%B6%E6%B6%89%E5%A7%A6%E5%A5%B3%E8%84%AB%E7%BD%AA-%E7%88%B6%E6%AF%8D%E7%AD%89-4-%E5%AE%B6%E4%BA%BA%E6%95%99%E5%94%86%E6%94%B9%E5%8F%A3%E4%BE%9B%E7%BD%AA%E6%88%90-823-%E5%88%A4%E5%88%91-%E5%AE%98%E9%9B%A3%E5%B0%8D%E8%A2%AB%E5%91%8A%E6%9C%89%E5%90%8C%E6%83%85%E5%BF%83"/>
-        <updated>2021-08-20T11:20:20.938Z</updated>
-        <summary type="html"><![CDATA[13 歲女童 X 報警稱遭親生父親性侵後，於庭上更改口供，親父最終就強姦等罪脫罪。警方事後拘捕女童父母、祖父母及叔父共５人，控以串謀妨礙司法公正等罪，案件經審訊後，7 人陪審員早前裁定除祖父罪脫外，其餘 4 被告均罪成。辯方今求情指，無證據顯示 X 父親是主事人，其餘被告處於兩難及誤判情況等，望可寬大處理。法官李運騰指案情嚴重，「好難對佢（女童父親）有同情心，坦白講」，但強調會依法處理。控方一度…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/7-10_copy_0TVUn4Q.png"></figure><p>13 歲女童 X 報警稱遭親生父親性侵後，於庭上更改口供，親父最終就強姦等罪脫罪。警方事後拘捕女童父母、祖父母及叔父共５人，控以串謀妨礙司法公正等罪，案件經審訊後，7 人陪審員早前裁定除祖父罪脫外，其餘 4 被告均罪成。辯方今求情指，無證據顯示 X 父親是主事人，其餘被告處於兩難及誤判情況等，望可寬大處理。法官李運騰指案情嚴重，「好難對佢（女童父親）有同情心，坦白講」，但強調會依法處理。</p>
-
-<p>控方一度申請為女童Ｘ索取創傷報告，讓法庭了解本案對Ｘ的影響。惟法官考慮後拒絕，指難以要求心理學家，分辨 X 所受影響是出於本案，還是強姦案，最終押後案件至下周一判刑。</p>
-
-<p>控方又於法官詢問下透露，現時 17 歲多的Ｘ居於院舍，惟她年滿18歲後，將無法繼續於院舍居住。控方又提到她不打算升學，正在尋找工作。法官形容Ｘ現時「無依無靠」，呼籲社署向她提供適當協助，尤其住所安排。</p>
-
-<p><strong>官：相信Ｘ父親為主事人　慫恿家人犯案</strong></p>
-
-<p>辯方今求情指，X 父親案發前任職司機，工作穩定，為家中經濟支柱。他十分擔心現年8歲兒子無人照顧，希望可盡快出獄照顧兒子。法官則指Ｘ父親行為嚴重違法誠信，有理由相信他為主事人，慫恿家人以身試法，並指判刑須反映案件嚴重性，指被告行為削弱、甚至剝奪法庭執行公義能力。</p>
-
-<p>辯方回應指，沒證據顯示Ｘ父親為主事人。而他因強姦案曾遭還押 466 日，希望法庭考慮判刑時可酌情扣減部分刑期，盡量寬大處理。法官聞言表示「好難對佢（女童父親）有同情心，坦白講」，但強調會依法處理，不會考慮被告涉及性罪行的背景。</p>
-
-<p><strong>辯方：Ｘ母親是小女人　面對不幸家事難作判斷</strong></p>
-
-<p>Ｘ母親的律師代表則求情指，她當初帶女兒離港，只是出於想保護女兒，而她犯案行為造成的實質影響，只是令強姦案審期延遲，強調她教育程度低，只是「小女人」，家中發生如此不幸事件，要作出判斷並不容易。</p>
-
-<p>至於Ｘ祖母，辯方指她出身寒微，與丈夫、即 X 祖父婚後育有五名兒女，丈夫其後另結新歡，兩人最終離婚。本案發生時，兩名事主「一個係仔、一個係孫女」，她夾在中間十分難受，又指她已經還押逾兩年，精神接近崩潰。</p>
-
-<p><strong>辯方：X 叔父為幫家人　沒個人得益</strong></p>
-
-<p>辯方續求情指，X 叔父現已十分後悔。惟法官指出，叔父於求情信提及「加害者與受害者只是一線之差」，質疑他是否有悔意。辯方回應指，叔父當時是因一時錯判，導致「幫大佬而唔幫姪女」，強調他是因為幫家人而犯案，並沒有個人得益。法官則指相關說法危險，或會令人覺得因幫助家人而犯案屬求情理由，再次強調法庭不應對任何妨礙司法公正的人懷有同情心。</p>
-
-<p>5名被告分別為事主X的父親（44歲）、母親（42歲）、祖母（67歲）、叔父（39歲）及祖父（65歲）。當中 X 父親、祖父母及叔父被控一項串謀妨礙司法公正罪，指他們於 2018 年 10 月 8 日至 2019 年 1 月 23 日期間，在香港串謀妨礙司法公正，令 X 在高等法院一宗刑事案件審訊中，更改原擬作出的證供。</p>
-
-<p>X 父母另同被控 1 項作出傾向並意圖妨礙司法公正的作為罪，指他們於 2018 年 10 月 20 日，作出一連串有妨礙司法公正傾向作為，致使母親及 X 離開香港，意圖使她們不以控方證人身分在高等法院一刑事審訊中作供。</p>
-
-<p>案件編號：HCCC126/2020</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="法庭"/>
-        <published>2021-08-20T10:51:54.542Z</published>
     </entry>
 </feed>
