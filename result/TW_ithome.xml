@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Epic控告Google壟斷的法院文件顯示，Google曾以提高分潤手段，說服手機廠商不安裝競爭軟體商店App</title>
+ <link>https://www.ithome.com.tw/news/146296</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.documentcloud.org/documents/21046008-epic-v-google-unredacted-complaint#document/p43&quot; target=&quot;_blank&quot;&gt;一項法院文件顯示&lt;/a&gt;，Google提供Android裝置廠商優厚的分潤，以換取他們生產的裝置不安裝Google Play Store以外的第三方軟體商店。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.theverge.com/2021/8/19/22632806/google-epic-premier-device-program-lg-motorola-hmd&quot; target=&quot;_blank&quot;&gt;The Verge報導&lt;/a&gt;，這份文件是在Google vs Epic持續審理的官司中，Epic委任律師提交的文件。&lt;/p&gt;
+&lt;p&gt;文件指出，Google深知裝置中預安裝App商店會威脅Play Store的獨大地位，因此Google必須設法阻止這些品牌廠商（OEM）和競爭者的來往。其中一個手法是提供OEM加入頂級裝置方案（Premier Device Program），承諾他們，在方案涵蓋的裝置上可拿比現有更高的裝置搜尋分潤比例，條件是不得安裝具有「即APK安裝權的應用程式」，意即不得安裝可安裝其他App的應用程式（即App軟體商店），像是Epic自己的Fortnite Launcher。&lt;/p&gt;
+&lt;p&gt;在這優惠的分潤方案下，OEM可拿到的Google搜尋分潤比例可由原本的8%提高到12%。此外還有其他利誘措施，像是Google提供LG、Motorola 裝置上衍生的Play Store營收中的3-6%分潤。&lt;/p&gt;
+&lt;p&gt;這項方案也要求，涵蓋的裝置不得安裝和Google Play競爭的App，或功能和Google Play重疊的預安裝App。預安裝App必須同時在Google Play散佈，確保這已經過Google獲得允許。此外Google 要求OEM裝置中安裝的所有安裝器須經過Google審查同意，所有安裝器（installer）皆不得推銷Google Play以外的「另類服務」。&lt;/p&gt;
+&lt;p&gt;文件顯示，在去年5月之前許多知名OEM都加入了頂級裝置方案，其中Motorola和LG幾乎所有（98%及95%）新裝置都涵蓋在這方案下，Nokia手機製造商HMD則為100%加入。其他加入者還包括小米（40%）、生產Oppo、Vivo及OnePlus等品牌的中國BBK（70%）、夏普（50%）和Sony（50%）等。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 07:48:12 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146296 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146296#comments</comments>
+</item>
+<item>
  <title>微軟明年調漲企業版Office 365、Microsoft 365價格</title>
  <link>https://www.ithome.com.tw/news/146291</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/microsoft-365/blog/2021/08/19/new-pricing-for-microsoft-365/&quot; target=&quot;_blank&quot;&gt;微軟昨（19）日宣布&lt;/a&gt;，明年三月調漲企業版Office 365及Microsoft 365，消費版及教育版則維持價格不變。&lt;/p&gt;
@@ -143,24 +158,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146276 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146276#comments</comments>
-</item>
-<item>
- <title>勒索軟體Conti在攻擊前會先偵察目標組織的營收和保險資料</title>
- <link>https://www.ithome.com.tw/news/146275</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;駭客為了增加能夠收到贖金的機會，在下手發動勒索軟體攻擊之前，試圖掌握對方的財務狀態，以便決定要開口索討的金額。&lt;a href=&quot;https://www.advanced-intel.com/post/hunting-for-corporate-insurance-policies-indicators-of-ransom-exfiltrations&quot;&gt;威脅情報業者Advanced Intelligence（AdvIntel）在近期的一起攻擊事故裡發現&lt;/a&gt;，使用Conti勒索軟體的駭客，在攻擊目標的網路植入勒索軟體之前，先上傳了名為Rclone的開源資料備份工具，複製並竊取受害組織的保單資料。&lt;/p&gt;
-&lt;p&gt;根據上述的現象，AdvIntel詳細整理出駭客在使用勒索軟體加密之前，所執行的偵察流程。首先，Conti入侵了受害組織的網路，並取得網域管理員的存取權限。接下來，攻擊者使用滲透測試工具Cobalt Strike，建立Beacon通訊連線，然後偵察網路環境，並調查重要的財務與保險資料。&lt;/p&gt;
-&lt;p&gt;找到上述提及的財務及保險資料之後，攻擊者從檔案共享網站Mega，傳送一個支援多平臺且開源、又可簡化雲端儲存服務操作的Rclone應用程式，到受害組織的網域控制器（DC），接著，他們將財務及保險相關的資料，藉由網路共享的方式，複製到指定位置，以便能讓Conti能夠「安全存取」。&lt;/p&gt;
-&lt;p&gt;完成上述工作後，攻擊者才執行serverlock.bat指令碼（Script）鎖住網路，並且加密檔案。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/conti-leakage-insurance-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/conti-leakage-insurance-s.png&quot; style=&quot;width: 580px; height: 284px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;為何駭客會使用Rclone？這是能夠傳輸檔案到雲端服務的命令列工具，AdvIntel指出，Conti駭客將其當作外洩資料的武器，並事先針對攻擊目標配置相關設定來「同步」資料。&lt;/p&gt;
-&lt;p&gt;上述AdvIntel的發現，也與之前該組織外洩的「教戰手則」內容相符。&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/angry-conti-ransomware-affiliate-leaks-gangs-attack-playbook/&quot;&gt;根據新聞網站Bleeping Computer於8月5日的報導&lt;/a&gt;，有資安研究人員發現，有人疑似對Conti心生不滿，憤而將其111MB的訓練資料發布到網路論壇，內容包含了該組織使用的指令與C2伺服器的IP位址等細節。而AdvIntel指出，從事件記錄的內容，他們發現攻擊者在執行Rclone之前，會下達Invoke_ShareFinder指令，這很可能是將外洩檔案名單造冊，匯出成純文字檔案的工作。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/forum-post-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/forum-post-s.png&quot; style=&quot;width: 580px; height: 151px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;除此之外，在先前Conti外流的文件中，指示攻擊者要依序從網路共享資料夾裡，找尋財務（Finance）、會計（Accounting）、保險（Insurance），以及IT相關文件，也與本次AdvIntel的發現大致相符。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 19 Aug 2021 05:55:08 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146275 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146275#comments</comments>
 </item>
 </channel>
 </rss>

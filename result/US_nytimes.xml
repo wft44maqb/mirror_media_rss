@@ -6,16 +6,25 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 20 Aug 2021 15:41:45 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Aug 2021 15:51:49 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[中國疫苗外交受挫，美國或在亞洲打開新局面]]></title>
+            <link><![CDATA[https://cn.nytimes.com/business/20210820/china-vaccine-us-covid-diplomacy/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[不少國家質疑疫苗有效性，其他國家則對中國提供疫苗的附加條件不滿。隨著印尼、泰國都已決定改用其他國家的疫苗，美國或有可能借援助恢復與該地區的關係。<p><img src='https://static01.nyt.com/images/2021/08/13/business/00china-vaccine-1/merlin_187355166_f4fc60b9-4b94-4aa1-91c7-3029823200bf-articleLarge.jpg' alt='馬來西亞衛生部長說，現有的供應量用完後，該國將停止使用科興疫苗。 Ahmad Yusni/EPA, via Shutterstock'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Ahmad Yusni/EPA, via Shutterstock</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>馬來西亞衛生部長說，現有的供應量用完後，該國將停止使用科興疫苗。</p>                    ]]></description>
+            <category>商業與經濟</category>
+            <dc:creator><![CDATA[黃瑞黎,STEVEN LEE MYERS]]></dc:creator>
+            <pubDate>Fri, 20 Aug 2021 03:43:46 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210820/china-vaccine-us-covid-diplomacy/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[韓國人對中國負面看法加深，年輕人尤甚]]></title>
             <link><![CDATA[https://cn.nytimes.com/asia-pacific/20210820/korea-china-election-young-voters/zh-hant/?utm_source=RSS]]></link>
             <description><![CDATA[民調顯示，中國已取代前殖民統治者日本成為韓國人最不喜歡的國家；年輕人對中國的負面看法更是比前幾代人更多。對華政策已成為明年韓國總統大選的關鍵議題。<p><img src='https://static01.nyt.com/images/2021/08/13/world/00skorea-china/00skorea-china-articleLarge.jpg' alt='今年8月，首爾街頭的人們。反華情緒今年的上升幅度如此之高，以至於中國已取代了日本成為韓國最不喜歡的國家。 Simon Shin/SOPA Images, via LightRocket, via Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Simon Shin/SOPA Images, via LightRocket, via Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>今年8月，首爾街頭的人們。反華情緒今年的上升幅度如此之高，以至於中國已取代了日本成為韓國最不喜歡的國家。</p>                    ]]></description>
             <category>亞太</category>
             <dc:creator><![CDATA[CHOE SANG-HUN]]></dc:creator>
-            <pubDate>Fri, 20 Aug 2021 03:35:00 +0800</pubDate>
+            <pubDate>Fri, 20 Aug 2021 03:41:45 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/asia-pacific/20210820/korea-china-election-young-voters/zh-hant/]]></guid>
         </item>
             <item>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[CARLOTTA GALL,RUHULLAH KHAPALWAK]]></dc:creator>
             <pubDate>Tue, 17 Aug 2021 02:44:30 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210817/afghanistan-airport-evacuation-us-withdrawal/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[我的阿富汗噩夢已成現實]]></title>
-            <link><![CDATA[https://cn.nytimes.com/opinion/20210817/afghanistan-war-veteran/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[如果撤軍對美國來說是正確決定，那對阿富汗人來說就是災難。他們被迫重新生活在宗教暴政下，短暫的自由經歷使這種生活變得更加痛苦。<p><img src='https://static01.nyt.com/images/2021/08/16/opinion/sunday/16Kudo/16Kudo-articleLarge.jpg' alt=' The New York Times, Photograph by Scott Olson/Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>The New York Times, Photograph by Scott Olson/Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
-            <category>觀點與評論</category>
-            <dc:creator><![CDATA[TIMOTHY KUDO]]></dc:creator>
-            <pubDate>Tue, 17 Aug 2021 02:38:32 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210817/afghanistan-war-veteran/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>

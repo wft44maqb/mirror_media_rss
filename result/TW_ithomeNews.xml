@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/1252" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/1252</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/1252" rel="self" type="application/rss+xml" />
       <item>
+    <title>文件顯示Google曾給錢換取手機廠商不安裝競爭軟體商店App</title>
+    <link>https://www.ithome.com.tw/news/146296</link>
+    <description> 一項法院文件顯示，Google提供Android裝置廠商優厚的分潤，以換取他們生產的裝置不安裝Google Play Store以外的第三方軟體商店。</description>
+     <pubDate>2021-08-20  03:08:12</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146296</guid>
+  </item>
+  <item>
     <title>微軟明年調漲企業版Office 365、Microsoft 365價格</title>
     <link>https://www.ithome.com.tw/news/146291</link>
     <description> 微軟昨（19）日宣布，明年三月調漲企業版Office 365及Microsoft 365，消費版及教育版則維持價格不變。</description>
@@ -251,16 +259,6 @@ AI內化引爆資料治理需求，轉核也是關鍵推力
      <pubDate>2021-08-18  03:08:27</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146254</guid>
-  </item>
-  <item>
-    <title>巴基斯坦國稅局網站疑遭駭客攻擊斷線2天</title>
-    <link>https://www.ithome.com.tw/news/146253</link>
-    <description> 巴基斯坦國稅局上周傳出駭客攻擊導致網站斷線2天，但巴國政府稱是升級系統移轉過程中發生的非預期停機所致。
-周末巴基斯坦當地媒體引述匿名的官方人士報導，巴國國稅局（FBR）資料中心周六遭到網路攻擊。攻擊者成功駭入資料中心的Hyper-V系統，並影響代管的虛擬應用。
-這次攻擊發生在周六凌晨2:00。消息人士指出，由於系統毁損，巴國需要花2天重建虛擬環境，以期於周一恢復網站運作。</description>
-     <pubDate>2021-08-18  02:08:37</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146253</guid>
   </item>
   </channel>
 </rss>
