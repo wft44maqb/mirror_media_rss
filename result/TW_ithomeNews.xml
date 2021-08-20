@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=296&amp;profile=atom" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>日本加密貨幣交易所Liquid遭駭，駭客偷走近上億美元加密貨幣</title>
+    <link>https://www.ithome.com.tw/news/146310</link>
+    <description> 針對加密貨幣交易平臺的網路攻擊，近期已有數起事故。例如，去中心化（DeFi）金融平臺Poly Network，在8月10日公告遭到攻擊，駭客轉走了6.1億美元的加密貨幣，雖然事隔不到1天就歸還不法所得，但此起事故仍引起加密貨幣圈的關注。</description>
+     <pubDate>2021-08-20  08:08:45</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146310</guid>
+  </item>
+  <item>
     <title>MarTech驅動行銷大轉型</title>
     <link>https://www.ithome.com.tw/article/146309</link>
     <description> 什麼是「行銷5.0」？「行銷5.0」與1.0到4.0的行銷有何不同呢？科特勒等人告訴我們，行銷從1.0到5.0，代表著五個階段的行銷理念轉變——
@@ -245,16 +253,6 @@ VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔
      <pubDate>2021-08-19  10:08:02</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146262</guid>
-  </item>
-  <item>
-    <title>在高維中尋找線性</title>
-    <link>https://www.ithome.com.tw/voice/146206</link>
-    <description> 核方法（Kernel method）是提升特徵維度，讓特徵能成為線性可分的技巧，在運作上，核函數的選擇是個挑戰，然而挑戰的出發點不是認識核函數的數學公式，而是在深入的分析、理解資料本身。
-這會是高維資料投影嗎？
-我在先前專欄〈從影子遊戲到主成分分析〉中談過，對於高維度的資料，我們可以透過主成分分析來降低資料的維度，而在盡量保留取特徵中重要資訊的前提之下，以便進行可視化、抽取特徵、清理資料等動作。</description>
-     <pubDate>2021-08-19  07:08:00</pubDate>
- <dc:creator>林信良</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/voice/146206</guid>
   </item>
   </channel>
 </rss>
