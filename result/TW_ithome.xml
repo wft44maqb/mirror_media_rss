@@ -6,6 +6,20 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>美國人口統計局因去年一起資安事件暴露IT管控缺失，被糾舉多項疏失</title>
+ <link>https://www.ithome.com.tw/news/146297</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;監察長辦公室（Office of Inspector General，&lt;a href=&quot;https://www.oig.doc.gov/OIGPublications/OIG-21-034-A.pdf&quot; target=&quot;_blank&quot;&gt;OIG）本周發布一份調查報告&lt;/a&gt;，公布美國人口統計局去年初一樁不成功的資安事件中，該局未能事前防禦、又未能及早發現，事後又未見改善的種種缺失。&lt;/p&gt;
+&lt;p&gt;這份美國政府文件顯示，去年1月11日美國人口統計局（Census Bureau）管理的數臺伺服遭到以公開可取得的開採工具攻擊。這些伺服器主要是用於員工遠端存取以進行任務作業、開發及實驗之用。攻擊者企圖遠端執行程式碼，成功變更了系統上使用者帳號資料，但是未能如願在系統上植入後門程式，因此攻擊者未能成功駭入該單位網路。&lt;/p&gt;
+&lt;p&gt;OIG於去年11月到今年3月著手調查。他們也點出人口統計局的數項缺失，包括未能在2019年12月伺服器廠商發布漏洞資訊，以及美國標準與技術研究所（NIST）將伺服器漏洞列為「重大」時及時修補，導致隔年1月的資安事件。此外，該局資安事件管理（SIEM）系統並未用於主動防禦，只作為被動調查，因而未能偵測伺服器的惡意活動，期間雖也接獲第三方廠商惡意IP情報，但管理員誤判以為已封鎖，遲至2周後才察覺異狀。另外，事發後，人口統計局系統設定疏失，未保留足夠的伺服器log，以致延誤調查。&lt;/p&gt;
+&lt;p&gt;OIG還發現，人口統計局心存僥倖，不但事件發生後未能強化資安管理，甚至還持續使用受入侵、且已經EoL（end of life）的原本那幾臺伺服器。&lt;/p&gt;
+&lt;p&gt;最後，OIG在報告中提出建議，要求人口統計局改善，包括定期全系統漏洞掃瞄、自動化安全通知、蒐集系統log、強化人員教育、事件回應流程、資安政策落實，以及建立EoL產品除役政策等。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 08:02:08 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146297 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146297#comments</comments>
+</item>
+<item>
  <title>Epic控告Google壟斷的法院文件顯示，Google曾以提高分潤手段，說服手機廠商不安裝競爭軟體商店App</title>
  <link>https://www.ithome.com.tw/news/146296</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.documentcloud.org/documents/21046008-epic-v-google-unredacted-complaint#document/p43&quot; target=&quot;_blank&quot;&gt;一項法院文件顯示&lt;/a&gt;，Google提供Android裝置廠商優厚的分潤，以換取他們生產的裝置不安裝Google Play Store以外的第三方軟體商店。&lt;/p&gt;
@@ -144,20 +158,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146277 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146277#comments</comments>
-</item>
-<item>
- <title>Gozi/Ursnif銀行木馬利用假CAPTCHA繞過瀏覽器防護植入電腦</title>
- <link>https://www.ithome.com.tw/news/146276</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;CAPTCHA是網站為防止網頁爬蟲而設計的驗證機制，以確定用戶是真人而非機器人程式，但是安全研究人員發現有一隻銀行木馬程式Gozi卻利用CAPTCHA企圖繞過瀏覽器的安全功能，以下載到用戶電腦。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/malware-campaign-uses-clever-captcha-to-bypass-browser-warning/&quot; target=&quot;_blank&quot;&gt;Bleeping Computer&lt;/a&gt;報導，安全研究人員MalwareHunterTeam發現了銀行木馬Gozi的高明手法。一個影片連結在網路上流傳，當用戶點入連結網站準備觀看影片時，網路即跳出一個類似Google reCAPTCHA的圖形驗證。這則reCAPTCHA由數個鍵組成。提示訊息要求用戶依序點入鍵盤中的B、S、Tab鍵、 A、F、以及Enter鍵才能觀看。&lt;/p&gt;
-&lt;p&gt;研究人員指出，這其實是在瞞天過海下，誘使用戶繞過瀏覽器的防護，同意下載安裝程式。以Google Chrome而言，當用戶企圖從網站下載程式時，Chrome會出現提示訊息，要求使用者確認是「繼續」或「取消」。以本例而言，當用戶按到Tab鍵時，就會使Chrome的「繼續」鍵呈現準備。而當用戶按下reCAPTCHA中的Enter鍵時，就會開啟以下載並執行程式。&lt;/p&gt;
-&lt;p&gt;下載的動作會在用戶的「%AppData%\Bouncy for .NET Helper」資料夾中安裝很多檔案，其中的BouncyDotNet.exe持續執行，即啟動PowerShell指令，並建立銀行木馬Gozi（或稱Ursnif）的DLL檔。遭感染的用戶應儘速變更網銀密碼以免受害。&lt;/p&gt;
-&lt;p&gt;Gozi/Ursnif在受害者電腦中會竊取銀行帳密、下載更多惡意程式，並且遠端執行攻擊者的指令，被安全廠商列為五大惡意程式之一。&lt;a href=&quot;https://www.ithome.com.tw/news/143035&quot; target=&quot;_blank&quot;&gt;今年三月Ursnif木馬也在歐洲橫行&lt;/a&gt;，超過百家義大利銀行客戶受害。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 19 Aug 2021 08:53:02 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146276 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146276#comments</comments>
 </item>
 </channel>
 </rss>
