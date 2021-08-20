@@ -4,17 +4,17 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-08-20T20:13:26Z</updated>
+  <updated>2021-08-20T20:18:27Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7808910</id>
-    <published>2021-08-20T19:16:14Z</published>
-    <updated>2021-08-20T19:16:14Z</updated>
+    <published>2021-08-20T20:17:07Z</published>
+    <updated>2021-08-20T20:17:07Z</updated>
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/wpkb7n8ywr44"/>
     <title>TLS termination failures for some China customers</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;19:16&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Some China customers Edge requests are experiencing TLS Termination failures.  The Cloudflare team has identified an issue and working on applying the fix.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;20:17&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;19:16&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Some China customers Edge requests are experiencing TLS Termination failures.  The Cloudflare team has identified an issue and working on applying the fix.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7801224</id>
