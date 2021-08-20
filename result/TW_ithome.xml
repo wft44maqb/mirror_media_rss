@@ -6,6 +6,23 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Git 2.33加入新的合併策略可提升合併效能達9,000倍</title>
+ <link>https://www.ithome.com.tw/news/146281</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://lore.kernel.org/lkml/xmqq1r6touqi.fsf@gitster.g/&quot;&gt;Git 2.33&lt;/a&gt;現在已經推出，有不少使用者不會有太大感覺的背景修改，不過仍有新功能可以提升開發者的日常使用經驗，像是這個版本新增一種稱為merge-ort的合併策略，能解決合併正確性和效能方面的問題，並且作為未來新功能的基礎。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.blog/2021-08-16-highlights-from-git-2-33/&quot;&gt;GitHub解釋&lt;/a&gt;，目前Git在兩分支合併時，使用稱為合併遞迴（Merge-Recursive）的方法，這個方法有兩個好處，在交叉合併的情況下，政策可以對每個可能的基礎進行一系列合併，這能夠解決政策產生衝突的情況，而且能夠偵測每個分支重新命名的檔案，當一個檔案被修改，又被另一方重新命名，合併遞迴能夠將修改應用於重新命名的目標。&lt;/p&gt;
+&lt;p&gt;一直以來合併遞迴都是Git預設配置，但是該方法存在一些不可忽視的缺點。GitHub提到，由於合併遞迴起初是當作外部Python腳本來開發，其使用Git管線命令來檢查資料，後來使用C語言重寫，雖然速度獲得提升，但是其程式碼組織和資料結構仍然承襲舊版本，主要依靠Git索引和工作樹運作，導致長年出現一些難解的臭蟲和極端案例問題。&lt;/p&gt;
+&lt;p&gt;合併遞迴使得最佳化和擴充程式碼變得困難，雖然合併時間在大多數的工作流程中並非瓶頸，但是在部分情況，特別是牽涉檔案重新命名，合併會變得非常慢，而合併後端又被用於cherry-pick和rebase操作，這兩個操作都會執行一系列合併，因此能加快合併速度，就能有效提升執行效能以及使用者體驗。&lt;/p&gt;
+&lt;p&gt;這個新的merge-ort是完全重寫的政策，具有相同的遞迴和重新命名偵測等概念，但是解決了長期存在的正確性和效能問題，執行速度比合併遞迴快上許多，在大型且複雜包含重新命名的極端合併案例，merge-ort獲得500倍的加速，而像是需要進行一系列合併的rebase操作，更是加速超過9,000倍。&lt;/p&gt;
+&lt;p&gt;這些極端案例對於合併遞迴政策特別不利，因此在merge-ort有很大幅度的加速，一般典型的合併情況，merge-ort只會比合併遞迴快一些，GitHub解釋，merge-ort價值在於在各種情況都能維持合併效能，但是合併遞迴的效能卻有極大的差異。&lt;/p&gt;
+&lt;p&gt;merge-ort另外一個優點，是生成的程式碼更清楚可用，其修復了合併遞迴部分已知的錯誤，不會存取樹中未變更的部分，因此執行部分合併操作，Git不需要下載額外的物件，就能進行更多的合併工作，而且因為merge-ort在合併時，不依賴索引和工作樹，因此git log等工具便能有機會發揮更大的作用，像是顯示合併結果和最終提交狀態的差異，藉以呈現作者解決衝突的方法。&lt;/p&gt;
+&lt;p&gt;merge-ort很可能會成為未來Git版本的預設政策，開發者現在可以使用git merge -sort指令，或是將pull.twohead配置設定成ort，不過，GitHub提到，這樣的更改並無法完全感受merge-ort帶來的加速效果，因為還需要更改Git其他部分，但是仍可以先嚐鮮。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 02:41:58 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146281 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146281#comments</comments>
+</item>
+<item>
  <title>Nvidia營收持續跨大步，第二季成長68%</title>
  <link>https://www.ithome.com.tw/news/146290</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2022&quot; target=&quot;_blank&quot;&gt;Nvidia周三（8/18）公布&lt;/a&gt;該公司截至今年8月1日的2022財年第二季財報，該季創下65.1億美元的營收，再度刷新Nvidia的單季營收紀錄，亦比去年同期成長68%，該季每股盈餘為0.94美元，成長276%。&lt;/p&gt;
@@ -146,21 +163,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146274 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146274#comments</comments>
-</item>
-<item>
- <title>T-Mobile證實遭駭客入侵並外洩資料</title>
- <link>https://www.ithome.com.tw/news/146273</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;就在&lt;a href=&quot;https://www.ithome.com.tw/news/146215&quot; target=&quot;_blank&quot;&gt;日前媒體披露&lt;/a&gt;有駭客在論壇中兜售T-Mobile的1億用戶資料之後，&lt;a href=&quot;https://www.t-mobile.com/news/network/additional-information-regarding-2021-cyberattack-investigation&quot; target=&quot;_blank&quot;&gt;T-Mobile於本周證實&lt;/a&gt;該公司的系統含有安全漏洞，且初步估計約有4,860萬名用戶的資料外洩。&lt;/p&gt;
-&lt;p&gt;T-Mobile表示，收到通知後，他們即聘請資安專家來協助調查，發現並立即關閉了相信是駭客用來非法存取的入口。&lt;/p&gt;
-&lt;p&gt;根據T-Mobile初步的調查，駭客存取的資料包括780萬名現有的月租型用戶，85萬名現有的預付卡用戶，以及逾4,000萬名過去及潛在用戶的個資，總計約有4,860萬名用戶的個資受到影響。&lt;/p&gt;
-&lt;p&gt;其中，780萬名月租型用戶，以及逾4,000萬名過去/潛在用戶的外洩資料類型，主要為姓名、生日、社會安全號碼，以及駕照/身分證資訊，並未含有電話號碼、帳號資訊、密碼、PIN碼或金融資訊。&lt;/p&gt;
-&lt;p&gt;然而，85萬名預付卡用戶的外洩資料，含有姓名、電話號碼及帳號的PIN碼。&lt;/p&gt;
-&lt;p&gt;T-Mobile立即重設了所有預付卡用戶的PIN碼，為了保險起見，亦建議月租型用戶主動重設PIN碼。此外，即日起所有的T-Mobile用戶都將擁有兩年免費的身分保護服務。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 19 Aug 2021 04:56:21 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146273 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146273#comments</comments>
 </item>
 </channel>
 </rss>
