@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-20T04:37:05Z</updated>
+ <updated>2021-08-20T04:39:44Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58914579</id>
+  <title><![CDATA[美国副总统将访东南亚 寻求支持抗衡中国]]></title>
+  <updated>2021-08-20T04:30:00Z</updated>
+  <published>2021-08-20T04:30:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美国副总统将访东南亚-寻求支持抗衡中国/a-58914579?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国副总统哈里斯22日将展开5天的新加坡及越南的访问之旅。白宫官员强调，哈里斯此行将再次强调「自由开放的印太政策」，重申美国对此区域的承诺。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58914557</id>
+  <title><![CDATA[塔利班射杀德国之声记者家人 多家德媒吁柏林协助]]></title>
+  <updated>2021-08-20T04:16:00Z</updated>
+  <published>2021-08-20T04:16:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班射杀德国之声记者家人-多家德媒吁柏林协助/a-58914557?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[消息指出，连日来塔利班突袭了至少三名德国之声记者在阿富汗的家，其中一名记者的一名家人遭塔利班成员杀害，另一名家人不幸受重伤。德国之声联合其他媒体，呼吁德国政府确保记者在阿富汗的安全。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58914555</id>
   <title><![CDATA[英特尔公开与台积电合作细节  以5奈米生产绘图晶片]]></title>
@@ -45,16 +65,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58910156</id>
-  <title><![CDATA[妮可·基德曼赴港拍片免隔离遭投诉]]></title>
-  <updated>2021-08-19T14:29:00Z</updated>
-  <published>2021-08-19T14:29:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/妮可·基德曼赴港拍片免隔离遭投诉/a-58910156?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[香港有关当局决定给予好莱坞明星妮可·基德曼隔离豁免，激起民愤。基德曼此行赴港为监制并出演美国新剧《Expats》，故事以香港作背景，改编自香港出生、韩裔美籍女作家李允卿的小说《The Expatriates》。]]></summary>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58910134</id>
   <title><![CDATA[德语媒体：北京为何要为塔利班铺红毯？]]></title>
   <updated>2021-08-19T14:29:00Z</updated>
@@ -63,6 +73,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：北京为何要为塔利班铺红毯？/a-58910134?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[《世界报》指出，虽然中俄对于美国在阿富汗的失败幸灾乐祸，但在阿富汗问题上美俄中的态度相去不远，中国人虽喜谈经济项目，但当下聚焦的是边境安全的不确定性。《巴登日报》认为，为预防阿富汗成为新疆独立势力的助力，北京很早就为塔利班铺上外交红毯。]]></summary>
   <category term="评论分析"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58910156</id>
+  <title><![CDATA[妮可·基德曼赴港拍片免隔离遭投诉]]></title>
+  <updated>2021-08-19T14:29:00Z</updated>
+  <published>2021-08-19T14:29:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/妮可·基德曼赴港拍片免隔离遭投诉/a-58910156?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[香港有关当局决定给予好莱坞明星妮可·基德曼隔离豁免，激起民愤。基德曼此行赴港为监制并出演美国新剧《Expats》，故事以香港作背景，改编自香港出生、韩裔美籍女作家李允卿的小说《The Expatriates》。]]></summary>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58910094</id>
@@ -213,16 +233,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/教宗方济各表示接种疫苗是一种-关爱行为/a-58897423?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[天主教罗马教宗方济各表示，新冠疫苗让人们看到结束新冠大流行瘟疫的希望，而接种疫苗是一种“关爱行为”。]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58896985</id>
-  <title><![CDATA[面对塔利班，阿富汗政府军为何如此不堪一击？]]></title>
-  <updated>2021-08-18T12:36:00Z</updated>
-  <published>2021-08-18T12:36:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/面对塔利班，阿富汗政府军为何如此不堪一击？/a-58896985?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[塔利班在如此短的时间内就接管了几乎阿富汗全境，令西方国家大为吃惊。因为谁都没有想到，装备精良、又受过西方国家长期培训的阿富汗政府军竟如此不堪一击。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58895283</id>
