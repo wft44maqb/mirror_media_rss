@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/1135" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/110" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/atom/1135</link>
+    <link>https://www.ithome.com.tw/latest/atom/110</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/atom/1135" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/110" rel="self" type="application/rss+xml" />
       <item>
+    <title>股票交易程式Robinhood財報出爐，有一半的營收來自以狗狗幣為主的加密貨幣交易</title>
+    <link>https://www.ithome.com.tw/news/146289</link>
+    <description> 在7月29日以每股38美元登上那斯達克股市的股票交易程式Robinhood，於周三（8/18）公布了該公司上市後的首次財報，指出今年第二季創下5.65億美元的營收，比去年同期成長131%。儘管營收呈倍數成長，但可能因為Robinhood警告加密貨幣投資的熱潮在今年第三季可能不如第二季，使得Robinhood周四（8/19）盤前即下滑超過10%，股價在44美元左右浮動。</description>
+     <pubDate>2021-08-20  10:08:35</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146289</guid>
+  </item>
+  <item>
     <title>VS Code  1.59預覽以機器學習技術偵測開發者所編寫的程式語言</title>
     <link>https://www.ithome.com.tw/news/146279</link>
     <description> 微軟釋出了最新的VS Code 1.59版本，在圖形介面區域和編輯器都有更新，同時也改進了終端機操作，另外，這個版本微軟還加入一項預覽功能，能夠使用機器學習技術，自動判斷未命名檔案所使用的程式語言。
@@ -254,15 +262,6 @@ AI內化引爆資料治理需求，轉核也是關鍵推力
      <pubDate>2021-08-18  11:08:07</pubDate>
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146250</guid>
-  </item>
-  <item>
-    <title>打造臺灣資安前瞻研究與人才培育重鎮，資安卓越中心現正招募百位技術與研究人才</title>
-    <link>https://www.ithome.com.tw/news/146249</link>
-    <description> 關於臺灣政府推動資安的發展現況，在8月5日舉行的全國資訊安全會議的一場演講中，透露最新進度。行政院副執行秘書李育杰指出，今年初定案將設立的資安卓越中心（Cyber Security Center of Excellence（CCoE），現在已經進入籌備階段，預計明年2022年初就會正式成立，現在他們正要大量招募國內大量頂尖人才加入。
-屆時，這個國家級的資安卓越中心，不僅是要增進資安前瞻研究的能量，並要解決組織資安人力不足的問題，做到長期培訓產業所需資安人才。</description>
-     <pubDate>2021-08-18  10:08:57</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146249</guid>
   </item>
   </channel>
 </rss>
