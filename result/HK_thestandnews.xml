@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-20T14:06:15.441Z</updated>
+    <updated>2021-08-20T14:16:18.824Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -62,6 +62,28 @@
         </author>
         <category label="社會"/>
         <published>2021-08-20T11:08:47.245Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【醫療事故】瑪麗遺失腎樣本　腎臟出現腫塊女病人須再穿刺活檢]]></title>
+        <id>https://www.thestandnews.com/society/%E9%86%AB%E7%99%82%E4%BA%8B%E6%95%85%E7%91%AA%E9%BA%97%E9%81%BA%E5%A4%B1%E8%85%8E%E6%A8%A3%E6%9C%AC-%E8%85%8E%E8%87%9F%E5%87%BA%E7%8F%BE%E8%85%AB%E5%A1%8A%E5%A5%B3%E7%97%85%E4%BA%BA%E9%A0%88%E5%86%8D%E7%A9%BF%E5%88%BA%E6%B4%BB%E6%AA%A2</id>
+        <link href="https://www.thestandnews.com/society/%E9%86%AB%E7%99%82%E4%BA%8B%E6%95%85%E7%91%AA%E9%BA%97%E9%81%BA%E5%A4%B1%E8%85%8E%E6%A8%A3%E6%9C%AC-%E8%85%8E%E8%87%9F%E5%87%BA%E7%8F%BE%E8%85%AB%E5%A1%8A%E5%A5%B3%E7%97%85%E4%BA%BA%E9%A0%88%E5%86%8D%E7%A9%BF%E5%88%BA%E6%B4%BB%E6%AA%A2"/>
+        <updated>2021-08-20T14:13:18.724Z</updated>
+        <summary type="html"><![CDATA[瑪麗醫院發生罕見醫療事故。醫管局今日（20 日）公布，一名女病人腎臟出現腫塊，本月 16 日在瑪麗醫院作穿刺活檢，取出腎臟組織樣本，放進樣本容器並貼上病人資料，惟翌日職員化驗時發現容器內並無樣本，即時尋找亦未能尋獲。院方就事件向病人致歉，並安排病人下周內再作活檢化驗。醫管局公布，一名女病人因腎臟出現腫塊，本月 16 日在瑪麗醫院接受電腦斷層掃描檢查，並在超聲波引導下作穿刺活檢，取出腎臟組織樣本進…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/12-15_copy_YWwu9Nk.png"></figure><p>瑪麗醫院發生罕見醫療事故。醫管局今日（20 日）公布，一名女病人腎臟出現腫塊，本月 16 日在瑪麗醫院作穿刺活檢，取出腎臟組織樣本，放進樣本容器並貼上病人資料，惟翌日職員化驗時發現容器內並無樣本，即時尋找亦未能尋獲。院方就事件向病人致歉，並安排病人下周內再作活檢化驗。</p>
+
+<p>醫管局公布，一名女病人因腎臟出現腫塊，本月 16 日在瑪麗醫院接受電腦斷層掃描檢查，並在超聲波引導下作穿刺活檢，取出腎臟組織樣本進行病理化驗，協助醫生診斷病情和制訂治療方案。</p>
+
+<p>根據醫療紀錄，放射科醫生在穿刺活檢過程中成功取出樣本。醫護人員即場核對病人身份後，在樣本容器貼上病人資料，並將容器置於密封收集袋，送往病理化驗室。</p>
+
+<p>翌日，病理學部職員化驗時發現樣本容器內並無組織樣本，隨即通知上司及相關部門，院方即時尋找有關樣本惟未能尋獲。</p>
+
+<p>瑪麗醫院昨日及今日向病人及其家屬解釋事件及致歉，並安排病人於下周內再作活檢化驗，將配合其他檢查以確認腎臟腫塊屬性。院方表示非常關注事件，已透過早期事故通報系統向醫管局總辦事處呈報，將調查遺失樣本的事發經過及根本原因，並提出改善建議。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-20T13:47:43.757Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【特稿】抗疫兩陣營　清零 vs 共存　回望過去一年　香港是如何逐步與新加坡走遠？]]></title>
@@ -714,10 +736,10 @@ Bandini, E., Grossmann, J., Funk, M. &amp; et al. (2021). Naïve orangutans (Pon
         <published>2021-08-20T10:51:54.542Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[年初因違高度限制觸礁　新地高鐵西九站上蓋商廈發展再闖關　微調 11 米今獲城規會通過]]></title>
+        <title type="html"><![CDATA[年初因違高度限制觸礁　新地高鐵西九站上蓋商廈發展再闖關　微調 11 米城規會有條件通過]]></title>
         <id>https://www.thestandnews.com/society/%E5%B9%B4%E5%88%9D%E5%9B%A0%E9%81%95%E9%AB%98%E5%BA%A6%E9%99%90%E5%88%B6%E8%A7%B8%E7%A4%81-%E6%96%B0%E5%9C%B0%E9%AB%98%E9%90%B5%E8%A5%BF%E4%B9%9D%E7%AB%99%E4%B8%8A%E8%93%8B%E5%95%86%E5%BB%88%E7%99%BC%E5%B1%95%E5%86%8D%E9%97%96%E9%97%9C-%E5%BE%AE%E8%AA%BF-11-%E7%B1%B3%E4%BB%8A%E7%8D%B2%E6%89%B9</id>
         <link href="https://www.thestandnews.com/society/%E5%B9%B4%E5%88%9D%E5%9B%A0%E9%81%95%E9%AB%98%E5%BA%A6%E9%99%90%E5%88%B6%E8%A7%B8%E7%A4%81-%E6%96%B0%E5%9C%B0%E9%AB%98%E9%90%B5%E8%A5%BF%E4%B9%9D%E7%AB%99%E4%B8%8A%E8%93%8B%E5%95%86%E5%BB%88%E7%99%BC%E5%B1%95%E5%86%8D%E9%97%96%E9%97%9C-%E5%BE%AE%E8%AA%BF-11-%E7%B1%B3%E4%BB%8A%E7%8D%B2%E6%89%B9"/>
-        <updated>2021-08-20T13:30:17.255Z</updated>
+        <updated>2021-08-20T14:15:40.300Z</updated>
         <summary type="html"><![CDATA[新鴻基地產向城規會申請發展高鐵西九龍站上蓋商業項目，由於物業高度超出樓宇高度限制，破壞維港山脊線景觀，今年 1 月曾遭城規會否決。新地調整項目設計後，今日再闖關，獲城規會通過。新方案把兩幢商廈的高度分別調低 11 米和 9 米，雖然規劃署不反對，但根據規劃署總城市規劃師指出，新方案下，商廈高度仍然超出畢架山/獅子山的山脊線，入侵了山脊線以下的 「20% 無大廈區域」。原有方案計劃在高鐵西九龍站上…]]></summary>
         <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/template-06_ybgdyw1.png"></figure><p>新鴻基地產向城規會申請發展高鐵西九龍站上蓋商業項目，由於物業高度超出樓宇高度限制，破壞維港山脊線景觀，今年 1 月曾遭城規會否決。新地調整項目設計後，今日再闖關，獲城規會通過。新方案把兩幢商廈的高度分別調低 11 米和 9 米，雖然規劃署不反對，但根據規劃署總城市規劃師指出，新方案下，商廈高度仍然超出畢架山/獅子山的山脊線，入侵了山脊線以下的 「20% 無大廈區域」。</p>
 
@@ -940,31 +962,5 @@ Bandini, E., Grossmann, J., Funk, M. &amp; et al. (2021). Naïve orangutans (Pon
         </author>
         <category label="政治"/>
         <published>2021-08-20T09:28:47.894Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[因戰亂而崛起的阿富汗板球]]></title>
-        <id>https://www.thestandnews.com/international/%E5%9B%A0%E6%88%B0%E4%BA%82%E8%80%8C%E5%B4%9B%E8%B5%B7%E7%9A%84%E9%98%BF%E5%AF%8C%E6%B1%97%E6%9D%BF%E7%90%83</id>
-        <link href="https://www.thestandnews.com/international/%E5%9B%A0%E6%88%B0%E4%BA%82%E8%80%8C%E5%B4%9B%E8%B5%B7%E7%9A%84%E9%98%BF%E5%AF%8C%E6%B1%97%E6%9D%BF%E7%90%83"/>
-        <updated>2021-08-20T09:16:42.323Z</updated>
-        <summary type="html"><![CDATA[塔利班準備重新控制喀布爾之際，傳來原可代表阿富汗參加傷殘人士奧運會的選手無法成行的消息。據部是由於局勢影響了航空交通，令運動員難以成行。與此同時，阿富汗板球理事會強調男子國家隊會如常參加國際賽。8 月 18 日，更傳出球隊在喀布爾訓練的消息。根據原有安排，阿富汗男子板球隊將於 9 月初到斯里蘭卡跟巴基斯坦交手。阿富汗男子板球隊可謂近年冒起最快的男子板球國家隊。球隊在 2015 年首度亮相世界盃決…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/56739482369305844.png"><figcaption><span>圖片來源：Afghanistan Cricket Board Facebook</span></figcaption></figure><p>塔利班準備重新控制喀布爾之際，<a href="https://www.thestandnews.com/international/ab%E5%A1%94%E5%88%A9%E7%8F%AD%E5%A5%AA%E6%AC%8A%E9%98%BF%E5%AF%8C%E6%B1%97%E4%BB%A3%E8%A1%A8%E5%9C%98%E9%80%80%E5%87%BA%E6%9D%B1%E4%BA%AC%E6%AE%98%E5%A5%A7-%E5%A5%B3%E9%81%8B%E5%8B%95%E5%93%A1%E5%8F%83%E8%B3%BD%E5%89%B5%E6%AD%B7%E5%8F%B2%E5%A4%A2%E7%A2%8E" target="_blank">傳來原可代表阿富汗參加傷殘人士奧運會的選手無法成行的消息</a>。據部是由於局勢影響了航空交通，令運動員難以成行。與此同時，阿富汗板球理事會強調男子國家隊會如常參加國際賽。8 月 18 日，更傳出球隊在喀布爾訓練的消息。根據原有安排，阿富汗男子板球隊將於 9 月初到斯里蘭卡跟巴基斯坦交手。</p>
-
-<p>阿富汗男子板球隊可謂近年冒起最快的男子板球國家隊。球隊在 2015 年首度亮相世界盃決賽週。兩年後，球隊獲國際板球理事會授予參加最高級別的五日制 Test Match 資格。現時阿富男子隊在 20/20 制賽事的世界排名高踞第七位，比起斯里蘭卡和西印度群島兩支老牌勁旅還要高。</p>
-
-<p>然而，阿富汗板球的冒起，或多或少是悲劇的結果。過去數十年阿富汗的戰事幾無停止過。先是蘇聯為了保住阿富汗的左翼政權，在 1979 年揮軍入侵阿富汗。塔利班就是當年多個抵抗蘇軍的力量之一，而且亦得到美國的支持。到蘇聯撤軍後不久，阿富汗人民民主黨的政權到 1992 年就撐不住。之後阿富汗各派持續混戰，塔利班在 1996 年入主喀布爾建政。反塔利班的力量則匯合成北方聯盟，內戰持續。2001 年九一一慘案後，美國決意入侵阿富汗，與北方聯盟聯手推翻了塔利班。塔利班政權倒下，但從來沒有放棄武力抵抗。暫時的結果就是今天大家在電視／電腦見到的畫面。</p>
-
-<p>長年的戰爭，令到阿富汗大量難民逃到鄰國巴基斯坦。阿富汗本是多民族國家，其中佔人口最多的普什圖族（針對塔利班的其中一項指控是該組織為普什圖族沙文主義者）。但其實在巴基斯坦境內，普什圖族的人口更多。不過，普什圖族在人口逾二億的巴基斯坦內，只佔人口 15% 左右。在巴阿邊境附近的巴基斯坦第六大城市白沙瓦（Peshawar），既是普什圖族為主的城市，也因此是大量阿富汗難民棲息之地。</p>
-
-<p>正是由於有大量阿富汗難民逃到巴基斯坦境內，巴基斯坦的國技板球也成為了不少難民的娛樂。從巴基斯坦學會的板球技術和知識，成為了日後阿富汗板球崛起的基礎。阿富汗隊中其中一位球星 Rashid Khan 現時正身處英格蘭打職業賽。他幼時就曾因為戰亂而在巴基斯坦生活過。而據說反對西方文化（包括現代體育運動）的塔利班，在上次倒台前卻容許板球運動舉行。阿富汗加入國際板球理事會的年份是 2000 年，即當時還是塔利班執政的時代。</p>
-
-<p>&nbsp;</p>
-
-<p><a href="https://www.facebook.com/sportscommune/posts/2939871076283574/" target="_blank">運動公社 Facebook</a></p>]]></content>
-        <author>
-            <name>運動公社</name>
-            <uri>https://www.thestandnews.com/author/%E9%81%8B%E5%8B%95%E5%85%AC%E7%A4%BE</uri>
-        </author>
-        <category label="國際"/>
-        <published>2021-08-20T09:16:42.323Z</published>
     </entry>
 </feed>
