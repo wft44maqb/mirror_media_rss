@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/775" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/recent" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/775</link>
+    <link>https://www.ithome.com.tw/latest/recent</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/775" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/recent" rel="self" type="application/rss+xml" />
       <item>
     <title>日本加密貨幣交易所Liquid遭駭，駭客偷走近上億美元加密貨幣</title>
     <link>https://www.ithome.com.tw/news/146310</link>
@@ -101,9 +101,9 @@ FinOps全名是Cloud Financial Operations或是Cloud Financial Management，顧�
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146295</guid>
   </item>
   <item>
-    <title>鬍鬚張遭受勒索軟體攻擊，系統與資料均已復原，並通知會員資料外洩狀況</title>
+    <title>鬍鬚張上個月遭受勒索軟體攻擊，系統與資料均已復原，並通知會員資料外洩狀況</title>
     <link>https://www.ithome.com.tw/news/146292</link>
-    <description> 勒索軟體的危害，不論企業規模大小都受其衝擊，儘管許多曝光於新聞的事件，受害者都是大型企業，有的勒索軟體組織更是只針對有能力付贖金的企業，但還有許多勒索軟體組織，不會因為中小企業的資源缺乏而放過，因此只有資安防護越周全、備份愈妥善，以及應變越彈性的企業，才能讓遭受的損害降低。今年以來，國內已有宏碁、廣達、威剛與技嘉等大型企業，遭勒索軟體攻擊、資料被竊取的事件，值得關注的是，近期國內知名連鎖餐飲業者──鬍鬚張，也成為駭客的目標，該公司近期發布資安事件公告，說明遭駭與資料外洩情形，並陸續通知消費者。</description>
+    <description> 勒索軟體的危害，不論企業規模大小都受其衝擊，儘管許多曝光於新聞的事件，受害者都是大型企業，有的勒索軟體組織更是只針對有能力付贖金的企業，但還有許多勒索軟體組織，不會因為中小企業的資源缺乏而放過，因此只有資安防護越周全、備份愈妥善，以及應變越彈性的企業，才能讓遭受的損害降低。今年以來，國內已有宏碁、廣達、威剛與技嘉等大型企業，遭勒索軟體攻擊、資料被竊取的事件，值得關注的是，一個月前國內知名連鎖餐飲業者──鬍鬚張，也成為駭客的目標，當時該公司發布資安事件公告，說明遭駭與資料外洩情形，並陸續通知消費者。</description>
      <pubDate>2021-08-20  12:08:57</pubDate>
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146292</guid>
