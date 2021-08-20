@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Google：美國政府調閱用戶資料的搜查令中，有25%攸關地理圍欄</title>
+ <link>https://www.ithome.com.tw/news/146301</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在&lt;a href=&quot;https://www.eff.org/deeplinks/2021/08/its-time-google-resist-geofence-warrants-and-stand-its-affected-users&quot; target=&quot;_blank&quot;&gt;電子前線基金會（EFF）疾呼Google&lt;/a&gt;應對抗美國政府所調閱的用戶位置歷史資訊之後，Google本周四（8/19）首度公布了美國的調閱請求中，有關地理圍欄（Geofence）搜查令的請求數量，顯示它佔了美國政府機關所請求筆數的25%。&lt;/p&gt;
+&lt;p&gt;所謂的地理圍欄指的是Google用戶在特定時間內，是否曾到過特定地區的資料。EFF指出，美國憲法《第四修正案》要求當局所發出的搜查令必須有明確的地點或事物，例如家中、銀行保險箱或手機等，而且只能在有足夠的犯罪證據及理由時才能發布搜查令，然而，有關地理圍欄的搜查令卻跟《第四修正案》背道而馳，它要求Google搜尋那些曾在某個時間點位於某處的使用者，所調查或涵蓋的對象可能跟犯罪完全無關。&lt;/p&gt;
+&lt;p&gt;在受到EFF的質疑之後，&lt;a href=&quot;https://www.documentcloud.org/documents/21046081-google-geofence-warrants&quot; target=&quot;_blank&quot;&gt;Google即公布了相關的搜查令數據&lt;/a&gt;，指出在2018年至2020年間，美國政府機構向Google調閱用戶資料的搜索令中，就有25%涉及地理圍欄資訊，而且數量有逐漸攀升的趨勢。&lt;/p&gt;
+&lt;p&gt;根據Google所公布的數據，在2018年第四季以前，美國政府向該公司提出的地理圍欄搜查令還不到1,000筆，卻在2020年第一季達到逾3,000筆的高峰，去年第四季也僅略低於3,000筆。&lt;/p&gt;
+&lt;p&gt;此外，在這期間提出地理圍欄搜查令的機構中，只有4.4%的搜查令來自聯邦機構，各州政府機構占了95.6%。&lt;/p&gt;
+&lt;p&gt;EFF指出，Google應該要捍衛使用者的隱私，拒絕這些不合法的地理圍欄搜查令。至於Google並未對EFF的呼籲表態，僅說該公司會慎審評估所有的搜查令是否合法，且除非法律或法院命令禁止Google透露訊息，否則Google也會在提交用戶的地理圍欄資訊時告知使用者。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 08:39:03 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146301 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146301#comments</comments>
+</item>
+<item>
  <title>Fintech周報第194期：民眾的金融個資授權能自己管，中國信託行動銀行App今年推出開放金融授權管理功能</title>
  <link>https://www.ithome.com.tw/news/146299</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3 style=&quot;vertical-align: top; margin: 10px 0px; font-family: 微軟正黑體, sans-serif; font-weight: bold; line-height: 1.25em; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; color: inherit; font-size: 18px;&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; color: rgb(0, 0, 205);&quot;&gt;0814～0820&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
@@ -86,7 +101,7 @@
  <comments>https://www.ithome.com.tw/news/146297#comments</comments>
 </item>
 <item>
- <title>Epic控告Google壟斷的法院文件顯示，Google曾以提高分潤手段，說服手機廠商不安裝競爭軟體商店App</title>
+ <title>Epic控告Google壟斷的法院文件顯示，Google曾以提高分潤手段，說服手機廠商拒絕第三方軟體商店App</title>
  <link>https://www.ithome.com.tw/news/146296</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.documentcloud.org/documents/21046008-epic-v-google-unredacted-complaint#document/p43&quot; target=&quot;_blank&quot;&gt;一項法院文件顯示&lt;/a&gt;，Google提供Android裝置廠商優厚的分潤，以換取他們生產的裝置不安裝Google Play Store以外的第三方軟體商店。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.theverge.com/2021/8/19/22632806/google-epic-premier-device-program-lg-motorola-hmd&quot; target=&quot;_blank&quot;&gt;The Verge報導&lt;/a&gt;，這份文件是在Google vs Epic持續審理的官司中，Epic委任律師提交的文件。&lt;/p&gt;
@@ -160,24 +175,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146289 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146289#comments</comments>
-</item>
-<item>
- <title>VS Code  1.59預覽以機器學習技術偵測開發者所編寫的程式語言</title>
- <link>https://www.ithome.com.tw/news/146279</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟釋出了最新的&lt;a href=&quot;https://code.visualstudio.com/updates/v1_59#_terminal&quot;&gt;VS Code 1.59版本&lt;/a&gt;，在圖形介面區域和編輯器都有更新，同時也改進了終端機操作，另外，這個版本微軟還加入一項預覽功能，能夠使用機器學習技術，自動判斷未命名檔案所使用的程式語言。&lt;/p&gt;
-&lt;p&gt;VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔案所使用的程式語言，微軟提到，該功能使用機器學習技術偵測開發者正在編寫的語言，並且自動設定相對應的語言模式。這項功能使用開源機器學習函式庫Tensorflow.js，以及社群成員所貢獻的機器學習模型。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://code.visualstudio.com/assets/updates/1_59/automaticlanguagedetection.gif&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;目前開發者必需手動啟用該功能，一旦啟動之後，VS Code便會在開發者撰寫程式的時候偵測語言，還會推薦安裝相對應的擴充套件。用戶也可以設定對特定語言不啟用自動偵測功能，像是可以停止自動偵測Markdown無標題檔案。&lt;/p&gt;
-&lt;p&gt;這個VS Code 版本在擴充套件介面，進行多項更改，包括用戶可以放大縮小擴充套件的瀏覽窗格，並且隨著寬度調整顯示的細節，而當用戶把游標懸停在擴充套件上，也會顯示更豐富的訊息，除了詳細的擴充套件描述資訊之外，也會提供停用和推薦等有用訊息。開發者可以在擴充套件窗格中，檢查擴充套件執行時的狀態資訊，包括啟動時間以及過程中所出現的警示和錯誤。&lt;/p&gt;
-&lt;p&gt;設定編輯器也有更新，現在設定編輯器支援物件驗證，也支援多行字串設定，使得設定值能夠在多行文字區域中顯示，而非單行輸入框。而終端機介面現在支援拖放操作，開發者可以將終端機視窗從頁籤列表或是編輯器區域，拖放到另一個視窗的頁籤列表、編輯區域或是面板中。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://code.visualstudio.com/assets/updates/1_59/terminal-dnd.gif&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;而微軟也在這個版本，將原本用來處理讀取*.ipynb檔案的Jupyter Notebook擴充套件，改為新的內建擴充套件，這代表用戶現在可以直接在VS Code開啟Jupyter的筆記本，而不需要完整安裝Jupyter Notebook擴充套件，但是使用執行單元格、使用ipywidgets查看輸出，或是其他複雜的渲染類型，還是必需要安裝Jupyter擴充套件。&lt;/p&gt;
-&lt;p&gt;VS Code  1.59綑綁了跨平臺應用程式開發框架Electron 13，這是一個主要的Electron版本，並且附帶了Chromium 91.0.4472.124，而這個版本的Node.js則沒有更新，仍然是v14.16.0。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 20 Aug 2021 02:21:24 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146279 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146279#comments</comments>
 </item>
 </channel>
 </rss>
