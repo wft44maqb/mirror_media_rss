@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-20T15:29:22Z</updated>
+ <updated>2021-08-20T15:32:48Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58933822</id>
+  <title><![CDATA[中国通过数据保护法 全球最严? 例外颇多?]]></title>
+  <updated>2021-08-20T15:01:00Z</updated>
+  <published>2021-08-20T15:01:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国通过数据保护法-全球最严-例外颇多/a-58933822?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国本周通过的《个人信息保护法》，被认为是全球最严格的数据保护法案之一，在很多方面都参照了欧盟的《通用数据保护条例》。不过，学者指出，两者之间还是存在着很大的不同；对于欧洲在华企业而言，这意味着一定的风险。]]></summary>
+  <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58933992</id>
+  <title><![CDATA[分析：中国“战狼”外交章法有点乱]]></title>
+  <updated>2021-08-20T15:00:00Z</updated>
+  <published>2021-08-20T15:00:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/分析：中国-战狼-外交章法有点乱/a-58933992?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[习近平要求努力塑造中国“可信、可爱、可敬”的形象，但是中国外交官们似乎正在加倍地冒犯西方国家。中国嘲笑新冠病毒从武汉实验室泄露的阴谋论，却又推动同样性质的德特里克堡实验室泄露说。一些西方外交官认为，中国的“战狼“外交章法有点乱，效果适得其反。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58933564</id>
   <title><![CDATA[中国修法：可生三胎 超生不罚 ]]></title>
@@ -202,16 +222,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国盼塔利班与恐怖势力彻底切割/a-58906652?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国外交部长王毅周四对塔利班释放出的“积极信号”表示肯定，同时他也呼吁塔利班与一切恐怖势力彻底切割。但多名专家指出，塔利班不会信守承诺。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58905974</id>
-  <title><![CDATA[“12港人案”李宇轩承认“串谋勾结外国势力”]]></title>
-  <updated>2021-08-19T10:12:00Z</updated>
-  <published>2021-08-19T10:12:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/12港人案-李宇轩承认-串谋勾结外国势力/a-58905974?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[香港12港人偷渡案涉案人员、香港故事成员李宇轩被控违反香港国安法下一项“串谋勾结外国或者境外势力危害国家安全”罪名。今天他在法庭上认罪。与他一起当庭认罪的还有律师助理陈梓华。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -532,16 +542,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国ppi涨幅9-消费品物价涨幅回落/a-58806447?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[8月9日，中国国家统计局发布的今年7月主要经济数据显示，工业生产者出厂价格指数（PPI）上涨幅度达9%，鉴于中国是出口大国，这一趋势势必对很多国家的消费者价格产生直接影响。]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58772035</id>
-  <title><![CDATA[当德国遇到台湾：德国啤酒纯酿法在台湾]]></title>
-  <updated>2021-08-08T11:32:00Z</updated>
-  <published>2021-08-08T11:32:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/当德国遇到台湾：德国啤酒纯酿法在台湾/a-58772035?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[德国啤酒纯酿法已经有500多年的历史。当德国人正在讨论是否应该松绑传统，拥抱创新；台湾人却渐渐喜欢上它。]]></summary>
   <category term="经济纵横"/>
  </entry>
  <entry>
