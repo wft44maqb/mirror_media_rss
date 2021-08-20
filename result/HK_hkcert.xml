@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Fri, 20 Aug 2021 10:19:07 +0800</pubDate>
-		<lastBuildDate>Fri, 20 Aug 2021 10:19:07 +0800</lastBuildDate>
+		<pubDate>Fri, 20 Aug 2021 10:21:52 +0800</pubDate>
+		<lastBuildDate>Fri, 20 Aug 2021 10:21:52 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,6 +15,38 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>ISC BIND 阻斷服務漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/isc-bind-denial-of-service-vulnerability_20210820</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/isc-bind-denial-of-service-vulnerability_20210820</guid>
+			<pubDate>Fri, 20 Aug 2021 09:10:00 +0800</pubDate>
+			<description><![CDATA[  於 BIND 發現一個漏洞，遠端攻擊者可利用此漏洞，於目標系統觸發阻斷服務狀況。
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>BIND 9.16.19&nbsp;</li>
+				<li>BIND 9.17.16</li>
+				<li>BIND 9.16.19-S1</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<ul>
+				<li>安裝供應商提供的修補程式：</li>
+				<li>BIND 9.16.20</li>
+				<li>BIND 9.17.17</li>
+				<li>BIND 9.16.20-S1</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
 		<item>
 			<title>思科產品多個漏洞</title>
 			<link>https://www.hkcert.org/tc/security-bulletin/cisco-products-multiple-vulnerabilities_20210819</link>
@@ -802,46 +834,6 @@
 			<ul>
 				<li><a href="https://www.suse.com/support/update/announcement/2021/suse-su-20212599-1/" target="_blank">https://www.suse.com/support/update/announcement/2021/suse-su-20212599-1/</a></li>
 				<li><a href="https://linux.oracle.com/errata/ELSA-2021-9395.html" target="_blank">https://linux.oracle.com/errata/ELSA-2021-9395.html</a></li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>Fortinet Products 阻斷服務漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/fortinet-products-denial-of-service-vulnerability_20210805</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/fortinet-products-denial-of-service-vulnerability_20210805</guid>
-			<pubDate>Thu, 05 Aug 2021 09:00:00 +0800</pubDate>
-			<description><![CDATA[  於 Fortinet Products 發現一個漏洞，遠端使用者可利用此漏洞，於目標系統觸發阻斷服務狀況。
-			  <p>影響</p>
-			  <ul>
-			          <li>阻斷服務</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>FortiSandbox 3.2.1 及之前的版本</li>
-				<li>FortiSandbox 3.1.4 及之前的版本</li>
-				<li>FortiSandbox 3.0.6 及之前的版本</li>
-				<li>FortiAuthenticator 6.0.5 及之前的版本</li>
-				<li>FortiAuthenticator 5.5.0 及之前的版本</li>
-				<li>FortiAuthenticator 5.4.1 及之前的版本</li>
-				<li>FortiAuthenticator 5.3.1 及之前的版本</li>
-				<li>FortiAuthenticator 5.2.2 及之前的版本</li>
-				<li>FortiAuthenticator 5.1.2 及之前的版本</li>
-				<li>FortiAuthenticator 5.0.0 及之前的版本</li>
-				<li>FortiAuthenticator 4.3.4 及之前的版本</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<p>&nbsp;</p>
-			
-			<ul>
-				<li>安裝供應商提供的修補程式：<br />
-				<a href="https://www.fortiguard.com/psirt/FG-IR-20-170" target="_blank">https://www.fortiguard.com/psirt/FG-IR-20-170</a></li>
 			</ul>
 			
 			  <hr>

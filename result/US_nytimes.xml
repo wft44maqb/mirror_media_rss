@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 20 Aug 2021 10:08:46 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Aug 2021 10:18:47 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[「壞賬銀行」華融將獲國資救助]]></title>
+            <link><![CDATA[https://cn.nytimes.com/business/20210820/huarong-bailout-china/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[華融去年虧損超過千億元。該公司宣布將從五家國企獲得資金援助，並表示沒有債務重組的計劃。多年來華融與中國金融體系關係緊密，被認為「大到不能倒」，造成監管難題。<p><img src='https://static01.nyt.com/images/2021/08/19/world/19china-badbank-01/merlin_188889084_699ee7c2-aa68-4f30-a1dc-ab0d737cc68f-articleLarge.jpg' alt='4月，華融北京總部。該公司本週表示2020年虧損人民幣1029.03億元。 Thomas Peter/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Thomas Peter/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>4月，華融北京總部。該公司本週表示2020年虧損人民幣1029.03億元。</p>                    ]]></description>
+            <category>商業與經濟</category>
+            <dc:creator><![CDATA[艾莎,曹莉]]></dc:creator>
+            <pubDate>Fri, 20 Aug 2021 10:15:10 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210820/huarong-bailout-china/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[拜登仍有可能避免在阿富汗徹底失敗]]></title>
             <link><![CDATA[https://cn.nytimes.com/opinion/20210819/afghanistan-biden-taliban/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[DAVID E. SANGER]]></dc:creator>
             <pubDate>Mon, 16 Aug 2021 05:53:11 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210816/afghanistan-biden/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[塔利班奪取喀布爾，美國在阿富汗20年猝然落幕]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210816/afghanistan-taliban-kabul-surrender/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[塔利班橫掃城鎮與鄉村的速度和暴力程度讓美國軍方和阿富汗政府措手不及。阿富汗總統已逃離該國，武裝分子湧入首都，喀布爾街道上充斥著恐慌和絕望的場景。<p><img src='https://static01.nyt.com/images/2021/08/15/world/15afghanistan-promo/merlin_193304262_e05f3b6d-2960-4f33-81b9-8d5a99ab234d-articleLarge.jpg' alt='塔利班武裝分子週日在首都喀布爾乘坐從阿富汗軍隊手中奪取的一輛悍馬車。塔利班橫掃阿富汗的速度令美國官員感到震驚。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>塔利班武裝分子週日在首都喀布爾乘坐從阿富汗軍隊手中奪取的一輛悍馬車。塔利班橫掃阿富汗的速度令美國官員感到震驚。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[DAVID ZUCCHINO,JIM HUYLEBROEK,KIANA HAYERI]]></dc:creator>
-            <pubDate>Mon, 16 Aug 2021 03:24:09 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210816/afghanistan-taliban-kabul-surrender/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
