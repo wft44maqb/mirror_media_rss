@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-20T15:00:32Z</updated>
+ <updated>2021-08-20T15:03:22Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -145,16 +145,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58910134</id>
-  <title><![CDATA[德语媒体：北京为何要为塔利班铺红毯？]]></title>
-  <updated>2021-08-19T14:29:00Z</updated>
-  <published>2021-08-19T14:29:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：北京为何要为塔利班铺红毯？/a-58910134?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[《世界报》指出，虽然中俄对于美国在阿富汗的失败幸灾乐祸，但在阿富汗问题上美俄中的态度相去不远，中国人虽喜谈经济项目，但当下聚焦的是边境安全的不确定性。《巴登日报》认为，为预防阿富汗成为新疆独立势力的助力，北京很早就为塔利班铺上外交红毯。]]></summary>
-  <category term="评论分析"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58910156</id>
   <title><![CDATA[妮可·基德曼赴港拍片免隔离遭投诉]]></title>
   <updated>2021-08-19T14:29:00Z</updated>
@@ -163,6 +153,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/妮可·基德曼赴港拍片免隔离遭投诉/a-58910156?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[香港有关当局决定给予好莱坞明星妮可·基德曼隔离豁免，激起民愤。基德曼此行赴港为监制并出演美国新剧《Expats》，故事以香港作背景，改编自香港出生、韩裔美籍女作家李允卿的小说《The Expatriates》。]]></summary>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58910134</id>
+  <title><![CDATA[德语媒体：北京为何要为塔利班铺红毯？]]></title>
+  <updated>2021-08-19T14:29:00Z</updated>
+  <published>2021-08-19T14:29:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：北京为何要为塔利班铺红毯？/a-58910134?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[《世界报》指出，虽然中俄对于美国在阿富汗的失败幸灾乐祸，但在阿富汗问题上美俄中的态度相去不远，中国人虽喜谈经济项目，但当下聚焦的是边境安全的不确定性。《巴登日报》认为，为预防阿富汗成为新疆独立势力的助力，北京很早就为塔利班铺上外交红毯。]]></summary>
+  <category term="评论分析"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58910094</id>
