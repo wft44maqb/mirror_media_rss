@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-20T12:59:46Z</updated>
+ <updated>2021-08-20T13:06:18Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58929098</id>
+  <title><![CDATA[客座评论：塔利班获胜对世界民主的影响]]></title>
+  <updated>2021-08-20T12:37:00Z</updated>
+  <published>2021-08-20T12:37:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/客座评论：塔利班获胜对世界民主的影响/a-58929098?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[塔利班比起20年前更重视外交和形象，但是本质并没有发生改变。政论家张俊华认为，在与塔利班打交道的过程中，西方国家应该想出一个办法：不能让好东西都让中国拿去，而烂摊子都由自己来收。]]></summary>
+  <category term="评论分析"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58924132</id>
   <title><![CDATA[ “三次分配”助中国减少贫富差距？]]></title>
@@ -115,16 +125,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58910134</id>
-  <title><![CDATA[德语媒体：北京为何要为塔利班铺红毯？]]></title>
-  <updated>2021-08-19T14:29:00Z</updated>
-  <published>2021-08-19T14:29:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：北京为何要为塔利班铺红毯？/a-58910134?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[《世界报》指出，虽然中俄对于美国在阿富汗的失败幸灾乐祸，但在阿富汗问题上美俄中的态度相去不远，中国人虽喜谈经济项目，但当下聚焦的是边境安全的不确定性。《巴登日报》认为，为预防阿富汗成为新疆独立势力的助力，北京很早就为塔利班铺上外交红毯。]]></summary>
-  <category term="评论分析"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58910156</id>
   <title><![CDATA[妮可·基德曼赴港拍片免隔离遭投诉]]></title>
   <updated>2021-08-19T14:29:00Z</updated>
@@ -133,6 +133,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/妮可·基德曼赴港拍片免隔离遭投诉/a-58910156?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[香港有关当局决定给予好莱坞明星妮可·基德曼隔离豁免，激起民愤。基德曼此行赴港为监制并出演美国新剧《Expats》，故事以香港作背景，改编自香港出生、韩裔美籍女作家李允卿的小说《The Expatriates》。]]></summary>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58910134</id>
+  <title><![CDATA[德语媒体：北京为何要为塔利班铺红毯？]]></title>
+  <updated>2021-08-19T14:29:00Z</updated>
+  <published>2021-08-19T14:29:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：北京为何要为塔利班铺红毯？/a-58910134?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[《世界报》指出，虽然中俄对于美国在阿富汗的失败幸灾乐祸，但在阿富汗问题上美俄中的态度相去不远，中国人虽喜谈经济项目，但当下聚焦的是边境安全的不确定性。《巴登日报》认为，为预防阿富汗成为新疆独立势力的助力，北京很早就为塔利班铺上外交红毯。]]></summary>
+  <category term="评论分析"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58910094</id>
@@ -182,16 +192,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/12港人案-李宇轩承认-串谋勾结外国势力/a-58905974?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[香港12港人偷渡案涉案人员、香港故事成员李宇轩被控违反香港国安法下一项“串谋勾结外国或者境外势力危害国家安全”罪名。今天他在法庭上认罪。与他一起当庭认罪的还有律师助理陈梓华。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58903119</id>
-  <title><![CDATA[美国卫生官员：准备9月底开打加强针]]></title>
-  <updated>2021-08-19T09:02:00Z</updated>
-  <published>2021-08-19T09:02:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美国卫生官员：准备9月底开打加强针/a-58903119?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国卫生官员周三（8月18日）宣布让所有美国人接种新冠肺炎加强针的规划，并预计将从9月20日那周开始施打。不过，外界也出现不同的声音。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
