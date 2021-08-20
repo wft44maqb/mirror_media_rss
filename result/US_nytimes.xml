@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 20 Aug 2021 15:31:40 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Aug 2021 15:41:45 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[韓國人對中國負面看法加深，年輕人尤甚]]></title>
+            <link><![CDATA[https://cn.nytimes.com/asia-pacific/20210820/korea-china-election-young-voters/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[民調顯示，中國已取代前殖民統治者日本成為韓國人最不喜歡的國家；年輕人對中國的負面看法更是比前幾代人更多。對華政策已成為明年韓國總統大選的關鍵議題。<p><img src='https://static01.nyt.com/images/2021/08/13/world/00skorea-china/00skorea-china-articleLarge.jpg' alt='今年8月，首爾街頭的人們。反華情緒今年的上升幅度如此之高，以至於中國已取代了日本成為韓國最不喜歡的國家。 Simon Shin/SOPA Images, via LightRocket, via Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Simon Shin/SOPA Images, via LightRocket, via Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>今年8月，首爾街頭的人們。反華情緒今年的上升幅度如此之高，以至於中國已取代了日本成為韓國最不喜歡的國家。</p>                    ]]></description>
+            <category>亞太</category>
+            <dc:creator><![CDATA[CHOE SANG-HUN]]></dc:creator>
+            <pubDate>Fri, 20 Aug 2021 03:35:00 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/asia-pacific/20210820/korea-china-election-young-voters/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[阿富汗多地爆發抗議活動，塔利班武力鎮壓]]></title>
             <link><![CDATA[https://cn.nytimes.com/world/20210820/afghanistan-protests/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[TIMOTHY KUDO]]></dc:creator>
             <pubDate>Tue, 17 Aug 2021 02:38:32 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210817/afghanistan-war-veteran/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[避免嚴格封鎖和大規模檢測，台灣是如何讓疫情趨緩的]]></title>
-            <link><![CDATA[https://cn.nytimes.com/asia-pacific/20210817/heres-how-taiwan-is-curbing-outbreaks-without-strict-lockdowns/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[通過提高居民防範意識和對入境者進行嚴格追蹤和隔離，台灣將單日本土傳播病例控制在10例以內。目前39%的居民已接種第一劑疫苗，一種本土研發疫苗即將上市。<p><img src='https://static01.nyt.com/images/2021/08/13/us/13virus-briefing-taiwan-new/merlin_191202432_af5a3a55-3a24-46dc-8297-a217a7bf13b9-articleLarge.jpg' alt='台灣目前每天只有不到10例本地傳播病例。圖片攝於今年6月的台北街頭。 Ann Wang/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Ann Wang/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>台灣目前每天只有不到10例本地傳播病例。圖片攝於今年6月的台北街頭。</p>                    ]]></description>
-            <category>亞太</category>
-            <dc:creator><![CDATA[AMY CHANG CHIEN]]></dc:creator>
-            <pubDate>Tue, 17 Aug 2021 01:22:21 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/asia-pacific/20210817/heres-how-taiwan-is-curbing-outbreaks-without-strict-lockdowns/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
