@@ -4,10 +4,29 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Fri, 20 Aug 2021 13:16:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Aug 2021 13:19:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[http://vip.udn.com/vip/story/121940/5650⋯⋯]]></title>
+            <link>https://cofacts.tw/article/36r9wmqvglkw8?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/36r9wmqvglkw8?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Fri, 20 Aug 2021 12:41:59 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/36r9wmqvglkw8?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          http://vip.udn.com/vip/story/121940/5650003 (高端疫苗2期受試者爆料「打完兩劑院方才告知患糖尿病」 質疑隱瞞副作用 | 聯合報)
+        
+              <h2><a href="https://cofacts.tw/reply/w0PxQHsBgBgcuemX-AyJ">最新回應</a></h2>
+              <p>含有個人意見 by Carol</p>
+              新聞中說明打完疫苗後一個月，院方告知確診糖尿病。
+並未說明是因為打疫苗所以產生的副作用為糖尿病，
+目前此事件未查詢到有明確證實兩者關聯性的資料。
+
+              <h2>出處</h2>
+              https://health.businessweekly.com.tw/AArticle.aspx?id=ARTL003005725
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[轉發：
 
@@ -263,23 +282,6 @@ https://www.cw.com.tw/article/5117739?utm_campaign=email_edm-email-cw-210820-511
 
               
               
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[打破疫苗神話! 打了兩劑輝瑞Pfizer疫苗對Delta變種病毒無效!? 以色列⋯⋯]]></title>
-            <link>https://cofacts.tw/article/16x7yy8klr3v0?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/16x7yy8klr3v0?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Fri, 20 Aug 2021 05:00:59 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/16x7yy8klr3v0?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          打破疫苗神話! 打了兩劑輝瑞Pfizer疫苗對Delta變種病毒無效!? 以色列衛生署數據公開實證，根本無法防止染疫與重症，免疫防護力幾乎是零?
-        
-              <h2><a href="https://cofacts.tw/reply/RkPwYXsBgBgcuemXiyE-">最新回應</a></h2>
-              <p>含有錯誤訊息 by Lin</p>
-              新冠疫苗對Delta變異株在防止感染上保護力降低，但是對防止重症及死亡的保護力仍非常高。將以色列的確診數從2020年底即進行時序分析，可觀察2021的確診數處在相對低點，不能否定疫苗對於群體的防護效果。
-
-              <h2>出處</h2>
-              https://tfc-taiwan.org.tw/articles/6152
             ]]></description>
         </item>
     </channel>
