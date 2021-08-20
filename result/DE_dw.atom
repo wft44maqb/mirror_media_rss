@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-20T09:58:41Z</updated>
+ <updated>2021-08-20T10:01:32Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58918191</id>
+  <title><![CDATA[德国新冠疫情进入第四波]]></title>
+  <updated>2021-08-20T09:41:00Z</updated>
+  <published>2021-08-20T09:41:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国新冠疫情进入第四波/a-58918191?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[德国联邦疾控研究中心罗伯特·科赫研究所（RKI）称，德国已经明显开始了第四波新冠疫情，年轻人群受到影响尤其严重。]]></summary>
+  <category term="科技环境"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58916055</id>
   <title><![CDATA[阿富汗女大生：外交官梦想破碎丶年轻世代被西方背叛]]></title>
@@ -85,16 +95,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58910134</id>
-  <title><![CDATA[德语媒体：北京为何要为塔利班铺红毯？]]></title>
-  <updated>2021-08-19T14:29:00Z</updated>
-  <published>2021-08-19T14:29:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：北京为何要为塔利班铺红毯？/a-58910134?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[《世界报》指出，虽然中俄对于美国在阿富汗的失败幸灾乐祸，但在阿富汗问题上美俄中的态度相去不远，中国人虽喜谈经济项目，但当下聚焦的是边境安全的不确定性。《巴登日报》认为，为预防阿富汗成为新疆独立势力的助力，北京很早就为塔利班铺上外交红毯。]]></summary>
-  <category term="评论分析"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58910156</id>
   <title><![CDATA[妮可·基德曼赴港拍片免隔离遭投诉]]></title>
   <updated>2021-08-19T14:29:00Z</updated>
@@ -103,6 +103,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/妮可·基德曼赴港拍片免隔离遭投诉/a-58910156?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[香港有关当局决定给予好莱坞明星妮可·基德曼隔离豁免，激起民愤。基德曼此行赴港为监制并出演美国新剧《Expats》，故事以香港作背景，改编自香港出生、韩裔美籍女作家李允卿的小说《The Expatriates》。]]></summary>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58910134</id>
+  <title><![CDATA[德语媒体：北京为何要为塔利班铺红毯？]]></title>
+  <updated>2021-08-19T14:29:00Z</updated>
+  <published>2021-08-19T14:29:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：北京为何要为塔利班铺红毯？/a-58910134?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[《世界报》指出，虽然中俄对于美国在阿富汗的失败幸灾乐祸，但在阿富汗问题上美俄中的态度相去不远，中国人虽喜谈经济项目，但当下聚焦的是边境安全的不确定性。《巴登日报》认为，为预防阿富汗成为新疆独立势力的助力，北京很早就为塔利班铺上外交红毯。]]></summary>
+  <category term="评论分析"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58910094</id>
@@ -192,16 +202,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/孟晚舟案结束听证会-10月公布裁决日期/a-58902235?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[孟晚舟案的最後一轮听证会周三(8月18日)结束，法官表示将在10月21日确定最後裁决日期。若决定引渡，此案将交付加拿大司法部长，孟晚舟也会有30天的时间提出上诉。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58902360</id>
-  <title><![CDATA[世卫：相信中国会配合新冠朔源调查]]></title>
-  <updated>2021-08-19T05:48:00Z</updated>
-  <published>2021-08-19T05:48:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/世卫：相信中国会配合新冠朔源调查/a-58902360?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[在今年1月的新冠朔源调查在透明度及资料完整度上受外界质疑后，世卫又展开了第二阶段的朔源研究，但中国拒绝提供关于最早新冠确诊者的相关数据。然而世卫18日又表示，他们有信心中国会继续协助朔源工作。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -445,16 +445,6 @@
   <category term="评论分析"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58854314</id>
-  <title><![CDATA[水灾仍在继续：湖北遭遇极端强降雨 多人遇难]]></title>
-  <updated>2021-08-13T10:22:00Z</updated>
-  <published>2021-08-13T10:22:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/水灾仍在继续：湖北遭遇极端强降雨-多人遇难/a-58854314?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[继河南、内蒙古等地后，湖北多地也遭遇特大暴雨，引发灾情。截至8月13日，已造成21人死亡。目前，强降水仍在继续，多地发布预警。与此同时，“为何今年暴雨频发”、“雨还要下多久” 也成为中国网络热搜词条。]]></summary>
-  <category term="科技环境"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58853907</id>
   <title><![CDATA[提告政府胜诉 台湾澳门同性伴侣顺利结婚]]></title>
   <updated>2021-08-13T10:20:00Z</updated>
@@ -650,15 +640,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -666,6 +647,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
