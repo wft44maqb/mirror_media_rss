@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Aug 2021 05:56:40 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Aug 2021 06:06:23 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -43,6 +43,13 @@
             <pubDate>Fri, 20 Aug 2021 00:59:43 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[阿富汗局勢：從喀布爾美軍飛機上墜下身亡的國家青年隊足球員安瓦裏]]></title>
+            <description><![CDATA[19歲的扎基·安瓦裏曾是阿富汗國家青年足球隊成員，他也其中一個在喀布爾嘗試爬上美國軍機逃離這個國家然後墜下身亡的人。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58277891</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58277891</guid>
+            <pubDate>Fri, 20 Aug 2021 04:25:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[阿富汗局勢：塔利班回歸對國際秩序有何影響]]></title>
             <description><![CDATA[莫斯科和北京目前會對這個局勢露出微笑，但真正重要的，是這起事件在華盛頓盟友中間造成的影響。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58253881</link>
@@ -62,13 +69,6 @@
             <link>https://www.bbc.com/zhongwen/trad/business-58267694</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/business-58267694</guid>
             <pubDate>Thu, 19 Aug 2021 08:37:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[阿富汗局勢持續更新：流亡總統加尼否認攜款逃跑 多地爆發反塔利班示威]]></title>
-            <description><![CDATA[阿富汗流亡海外的總統加尼（Ashraf Ghani）表示，自己是「迫於」安全團隊的要求離開阿富汗的，因為「我很可能會被捕並被殺害」。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58264978</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58264978</guid>
-            <pubDate>Thu, 19 Aug 2021 05:44:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[人工智能AI和法律：機器人給你當律師會是什麼樣]]></title>
@@ -181,6 +181,13 @@
             <link>https://www.bbc.com/zhongwen/trad/science-55846146</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-55846146</guid>
             <pubDate>Tue, 13 Jul 2021 13:59:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[阿富汗局勢持續更新：流亡總統加尼否認攜款逃跑 多地爆發反塔利班示威]]></title>
+            <description><![CDATA[阿富汗流亡海外的總統加尼（Ashraf Ghani）表示，自己是「迫於」安全團隊的要求離開阿富汗的，因為「我很可能會被捕並被殺害」。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58264978</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58264978</guid>
+            <pubDate>Thu, 19 Aug 2021 05:44:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：塔利班重掌政權　中美相互批評]]></title>
