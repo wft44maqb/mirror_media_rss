@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/2529" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/2529</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/2529" rel="self" type="application/rss+xml" />
       <item>
+    <title>微軟發表首批官方的Windows 11 ISO</title>
+    <link>https://www.ithome.com.tw/news/146300</link>
+    <description> 微軟於周四（8/19）釋出了首批的官方Windows 11 ISOs，其版本別為Windows 11 Insider Preview Build 22000.132，將允許使用者利用此一映像檔進行Windows 11的升級或全新安裝，前提是必須先加入Windows Insider專案。</description>
+     <pubDate>2021-08-20  04:08:18</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146300</guid>
+  </item>
+  <item>
     <title>被法院駁回訴狀的FTC捲土重來，再告臉書壟斷</title>
     <link>https://www.ithome.com.tw/news/146298</link>
     <description> 在控告臉書違反美國反托拉斯法令的訴狀遭法官駁回之後，美國聯邦交易委員會（Federal Trade Commission，FTC）本周四（8/19）重新提出了修改後的訴狀，有鑑於法官駁回的理由是「未具備足夠的事實」，FTC這次更有條理的說明了臉書採用「買或掩埋」（buy-or-bury）的策略，來</description>
@@ -248,14 +256,6 @@ AI內化引爆資料治理需求，轉核也是關鍵推力
      <pubDate>2021-08-18  04:08:11</pubDate>
  <dc:creator>蘇文彬</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146256</guid>
-  </item>
-  <item>
-    <title>傳大通銀行因系統問題導致客戶資料可被他人查詢</title>
-    <link>https://www.ithome.com.tw/news/146257</link>
-    <description> Bleeping Computer報導，美國摩根大通（JP Morgan Chase &amp;amp; Co）旗下子公司大通銀行（Chase Bank）一個不知名的系統問題，導致銀行客戶在網站、App進行查詢時，會顯示其他用戶個資及交易資料。</description>
-     <pubDate>2021-08-18  04:08:40</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146257</guid>
   </item>
   </channel>
 </rss>
