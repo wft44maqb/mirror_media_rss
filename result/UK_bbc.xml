@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Aug 2021 12:07:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Aug 2021 12:12:08 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -43,6 +43,13 @@
             <pubDate>Fri, 20 Aug 2021 08:52:13 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[妮可·基德曼免隔離入境引爭議，香港豁免隔離政策再遭質疑]]></title>
+            <description><![CDATA[過往豁免隔離政策造成的防疫漏洞已招致公眾對於港府優待特殊群體的批評。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58280933</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58280933</guid>
+            <pubDate>Fri, 20 Aug 2021 12:10:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[新冠疫苗：解讀免疫橋接，台灣產疫苗「高端」的辯論熱區]]></title>
             <description><![CDATA[有台灣醫學界人士指出，免疫橋接在疫苗研發中十分常見，以往台灣的流感疫苗就是這樣開發。但也有學者對此表示擔憂。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58280257</link>
@@ -57,11 +64,11 @@
             <pubDate>Fri, 20 Aug 2021 06:15:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[中國政府入股字節跳動 美議員呼籲拜登再禁TikTok]]></title>
-            <description><![CDATA[路透社援引消息人士稱，具有國資背景的網投中文在字節跳動可擁有一個董事會席位。字節跳動可能謀求在美國上市。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58268021</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58268021</guid>
-            <pubDate>Fri, 20 Aug 2021 00:59:01 GMT</pubDate>
+            <title><![CDATA[阿富汗局勢：喀布爾民眾逃亡心切，把幼童遞給美軍盼助登機]]></title>
+            <description><![CDATA[阿富汗首都喀布爾急欲逃離塔利班統治的群眾繼續包圍機場，有人甚至把年幼女孩遞給看守的美軍士兵。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58282504</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58282504</guid>
+            <pubDate>Fri, 20 Aug 2021 12:08:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：讓美軍撤走的那份「和平協議」]]></title>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58259235</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58259235</guid>
             <pubDate>Fri, 20 Aug 2021 00:59:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[阿富汗局勢：拜登過往言論顯示美國或錯判當地形勢]]></title>
-            <description><![CDATA[拜登曾表示裝備精良的阿富汗政府軍可以抵禦塔利班，並稱塔利班極不可能重新掌權，但在8月15日，塔利班武裝進入阿富汗首都。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58278518</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58278518</guid>
-            <pubDate>Fri, 20 Aug 2021 06:10:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[詳解阿富汗塔利班的五大領導人]]></title>
@@ -92,11 +92,25 @@
             <pubDate>Tue, 17 Aug 2021 09:52:46 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[中國政府入股字節跳動 美議員呼籲拜登再禁TikTok]]></title>
+            <description><![CDATA[路透社援引消息人士稱，具有國資背景的網投中文在字節跳動可擁有一個董事會席位。字節跳動可能謀求在美國上市。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58268021</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58268021</guid>
+            <pubDate>Fri, 20 Aug 2021 00:59:01 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[香港國安法首有被告認罪：12港人案李宇軒承認「串謀勾結外國勢力」]]></title>
             <description><![CDATA[香港媒體報導稱，李宇軒在庭上認罪時鞠躬致歉，這是港區國安法實施以來，首次有被告選擇認罪，法官把案件押後至明年1月再訊。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58264977</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58264977</guid>
             <pubDate>Thu, 19 Aug 2021 06:25:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[阿富汗局勢：拜登過往言論顯示美國或錯判當地形勢]]></title>
+            <description><![CDATA[拜登曾表示裝備精良的阿富汗政府軍可以抵禦塔利班，並稱塔利班極不可能重新掌權，但在8月15日，塔利班武裝進入阿富汗首都。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58278518</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58278518</guid>
+            <pubDate>Fri, 20 Aug 2021 06:10:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：美國總統拜登撤軍亂局的三個重要問題]]></title>
