@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Thu, 19 Aug 2021 09:33:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[數千萬台 IoT 裝置內含嚴重資安漏洞，可導致駭侵者取得監看監聽資訊]]></title><link>http://www.twcert.org.tw/tw/cp-104-5020-e9ab3-1.html</link><description><![CDATA[<p><strong>資安專家發現一個嚴重資安漏洞，存於數千萬台使用 Kalay IoT 雲端平台與開發工具的 IoT 產品中，可導致駭侵者取得這些 IoT 裝置產生的監控資訊，甚至於裝置控制權。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Fri, 20 Aug 2021 09:12:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[Google 自 Play Store 中下架多個假冒雲端挖礦 app]]></title><link>http://www.twcert.org.tw/tw/cp-104-5024-e6ab7-1.html</link><description><![CDATA[<p><strong>Google 近期自其 Googe Play Store 中下架 8 個蓄意假冒為雲端挖礦服務，實際上會進行各種詐騙的惡意 app；然而資安專家指出在 Google Play Store 上，仍有多個同類惡意 app 並未遭到下架。</strong><br />
+<br />
+Google 近期自其 Googe Play Store 中下架 8 個蓄意假冒為雲端挖礦服務，實際上會進行各種詐騙的惡意 Android app；然而資安廠商趨勢科技旗下的資安專家指出，在 Google Play Store 上，仍有多個同類惡意 app 並未遭到下架。<br />
+<br />
+這些被 Google 下架的惡意雲端挖礦 app，假借幫用戶在雲端挖掘比特幣等加密貨幣為理由，下載安裝這些 app；這些 app 甚至還會鼓勵用戶付費取得更多挖礦算力，分得更多加密貨幣。實際上用戶不但得不到任何加密貨幣分潤，甚至還會被植入大量廣告，或是在不知情的情況下，訂閱昂貴的數位服務。<br />
+<br />
+資安專家指出，在這 8 個遭下架的 app 中，都內建了 1 到 2 個如 FakeMinerPay 或 FakeMinerAd 之類的惡意軟體；其中一個名為 BitFunds 的惡意 app，下載安裝次數突破 100,000 次以上，有兩支 app 甚至還需要付費安裝。<br />
+<br />
+資安專家也說，這些 app 實際上沒有任何挖礦功能，卻會顯示計數器之類的畫面，以愚弄用戶，以為真的正在進行挖礦賺錢的過程；有些 app 還會慫恿用戶付費取得更強大的挖礦能力，賺取更多加密貨幣，「服務費用」從 14.99 美元到高達 189.99 美元不等。<br />
+<br />
+趨勢科技也說有兩支假冒挖礦 app，會對用戶顯示大量廣告；這些 app 會要求用戶觀看廣告，廣告結束後才能繼續挖礦，或是加快挖礦速度；有些 app 甚至還會在背景進行假冒廣告點擊的詐騙活動。<br />
+<br />
+趨勢科技說，雖然 Google 此次移除了 8 個假冒挖礦 app，但在 Google Play Store 中以「cloud mining」（雲端挖礦）來搜尋，仍有非常多可疑的 app 存在，用戶必須提高警覺，避免因一時貪念，下載安裝這類詐騙挖礦 app。</p>]]></description><pubDate>Fri, 20 Aug 2021 09:12:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5024-e6ab7-1.html</guid></item><item><title><![CDATA[數千萬台 IoT 裝置內含嚴重資安漏洞，可導致駭侵者取得監看監聽資訊]]></title><link>http://www.twcert.org.tw/tw/cp-104-5020-e9ab3-1.html</link><description><![CDATA[<p><strong>資安專家發現一個嚴重資安漏洞，存於數千萬台使用 Kalay IoT 雲端平台與開發工具的 IoT 產品中，可導致駭侵者取得這些 IoT 裝置產生的監控資訊，甚至於裝置控制權。</strong><br />
 <br />
 資安廠商 Mandiant 旗下的資安專家，在 2020 年底發現一個嚴重資安漏洞，存於數千萬台使用 Kalay IoT 雲端平台與開發工具的 IoT 產品中；這些 IoT 產品主要是連網監視裝置，該漏洞可導致駭侵者遠端取得這些 IoT 裝置產生的監控資訊，甚至於裝置控制權。<br />
 <br />
@@ -245,28 +257,4 @@ Apple 在近期發出的資安通告中指出，該公司已經獲悉這個 0-da
 <br />
 這個漏洞是由匿名的發現者提供給 Apple，Apple 於 7 月 26 曰推出 iOS、iPad OS、macOS 的更新版本，修復此一漏洞。<br />
 <br />
-受此 0-day 漏洞影響的 Apple 各類産品，範圍和數量極廣且多；包括各型 Mac 桌上型與筆記型電腦、iPhone 6s 與所有後續機種、iPad Pro 全系列、iPad Air 2 與後續所有機種、iPad 第五代與所有後續機種、iPad mini 4 與所有後續機種、iPod Touch 第七代等，全都含有該 0-day 漏洞；這些機型的用戶，應立即更新作業系統。</p>]]></description><pubDate>Thu, 29 Jul 2021 08:57:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4957-1b8f3-1.html</guid></item><item><title><![CDATA[Apple 修復可能造成 iPhone Wi-Fi 功能損壞之嚴重 RCE 資安漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-4951-d638c-1.html</link><description><![CDATA[<p><strong>Apple 日前推出 iOS 14.7 更新版，修復一個可能損壞 iPhone、iPad Wi-Fi 連線功能的嚴重漏洞；該漏洞亦可能讓駭侵者遠端執行任意程式碼。</strong><br />
-<br />
-Apple 日前推出 iOS 14.7 更新版，修復一個可能損壞 iPhone、iPad、iPod 等 iOS 裝置 Wi-Fi 連線功能的嚴重漏洞；該漏洞亦可能讓駭侵者遠端執行任意程式碼。<br />
-<br />
-該漏洞的 CVE 編號為 CVE-2021-30800，是由資安研究人 Cark Schou 發現的 0-day 嚴重漏洞；其發生原因是因為 iOS Wi-Fi 安全檢查機制的漏洞；駭侵者可以透過特製含有「%@」特殊字元的 Wi-Fi SSID（例如 DDDD%x%x%x%@），來誘發此一漏泂，可造成 iOS 裝置的 Wi-Fi 連線功能故障而無法使用，甚至在重新開機後亦不能恢復正常。<br />
-<br />
-Wi-Fi 連線功能被破壞的 iOS 裝置，僅能進入系統設定選單，刪除所有網路連線設定，清除有問題的 SSID 名稱後，才能恢復正常連線；但該漏洞亦可導致駭侵者遠端執行任意程式碼，發動進一步的駭侵攻擊。<br />
-<br />
-攻擊者可以在人潮眾多的地方，設立無須密碼，可自由使用的公眾 Wi-Fi 熱點，誘使已將 iOS 裝置的 Wi-Fi 連線設定為自動加入新 Wi-Fi 熱點的用戶連入，進一步發動駭侵攻擊。<br />
-<br />
-這個漏洞出現在 iPhone 6s 與所有後續機種、所有 iPad Pro 機種、iPad Air 2 與所有後續機種、iPad （第五代）與所有後續機種、iPad mini 4 與所有後續機種、iPod touch （第七代），作業系統版本則為 iOS 或 iPad OS 14.7 之前所有版本。<br />
-<br />
-各種 iOS、iPad OS 裝置用戶，應立即更新至 iOS、iPad OS 14.7 或更新版本，以避免遭駭侵者透過此漏洞發動攻擊；暫時無法更新作業系統版本的用戶，則可以進入設定頁面，取消「自動加入熱點」功能也可以。</p>
-
-<ul>
-	<li>CVE編號：CVE-2021-30800</li>
-</ul>
-
-<ul>
-	<li>影響產品/版本：iPhone 6s 與所有後續機種、所有 iPad Pro 機種、iPad Air 2 與所有後續機種、iPad （第五代）與所有後續機種、iPad mini 4 與所有後續機種、iPod touch （第七代），作業系統版本則為 iOS 或 iPad OS 14.7 之前所有版本。</li>
-</ul>
-
-<ul>
-	<li>解決方案：更新至 iOS、iPad OS 14.7 或更新版本，或進入設定頁面，取消「自動加入熱點」功能。</li>
-</ul>]]></description><pubDate>Tue, 27 Jul 2021 09:23:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4951-d638c-1.html</guid></item></channel></rss>
+受此 0-day 漏洞影響的 Apple 各類産品，範圍和數量極廣且多；包括各型 Mac 桌上型與筆記型電腦、iPhone 6s 與所有後續機種、iPad Pro 全系列、iPad Air 2 與後續所有機種、iPad 第五代與所有後續機種、iPad mini 4 與所有後續機種、iPod Touch 第七代等，全都含有該 0-day 漏洞；這些機型的用戶，應立即更新作業系統。</p>]]></description><pubDate>Thu, 29 Jul 2021 08:57:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4957-1b8f3-1.html</guid></item></channel></rss>
