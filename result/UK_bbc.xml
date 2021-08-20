@@ -9,24 +9,31 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Aug 2021 03:49:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Aug 2021 03:56:14 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
-        <item>
-            <title><![CDATA[中國政府入股字節跳動 美議員呼籲拜登再禁TikTok]]></title>
-            <description><![CDATA[路透社援引消息人士稱，具有國資背景的網投中文在字節跳動可擁有一個董事會席位。字節跳動可能謀求在美國上市。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58268021</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58268021</guid>
-            <pubDate>Fri, 20 Aug 2021 00:59:01 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[習近平提「共同富裕」和「三次分配」 ， 大型私企或成為中國貧富不均的「替罪羊」]]></title>
             <description><![CDATA[中國在過去半年多裏加大力度監管大型民營企業，讓人瞠目結舌，近日一場重要的高層會議透露出「加速度」背後的邏輯。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58265470</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58265470</guid>
             <pubDate>Fri, 20 Aug 2021 01:00:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[西藏舉行「和平解放」70週年大會 巨型習近平畫像高聳]]></title>
+            <description><![CDATA[在布達拉宮廣場舉行大會上樹立的習近平巨型肖像圖，引起關注，而出席活動的中國官員強調，沒有共產黨，就沒有新西藏。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58277339</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58277339</guid>
+            <pubDate>Fri, 20 Aug 2021 03:49:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中國政府入股字節跳動 美議員呼籲拜登再禁TikTok]]></title>
+            <description><![CDATA[路透社援引消息人士稱，具有國資背景的網投中文在字節跳動可擁有一個董事會席位。字節跳動可能謀求在美國上市。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58268021</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58268021</guid>
+            <pubDate>Fri, 20 Aug 2021 00:59:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：讓美軍撤走的那份「和平協議」]]></title>
@@ -62,13 +69,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58264978</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58264978</guid>
             <pubDate>Thu, 19 Aug 2021 05:44:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[長壽秘訣：我們是否應該學習日本人的飲食結構？]]></title>
-            <description><![CDATA[日本是世界上國人預期壽命最長的國家之一。日本人的「盤中餐」是不是長壽秘訣？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-57849972</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-57849972</guid>
-            <pubDate>Thu, 19 Aug 2021 12:50:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[人工智能AI和法律：機器人給你當律師會是什麼樣]]></title>
@@ -321,6 +321,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58166368</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58166368</guid>
             <pubDate>Thu, 12 Aug 2021 04:43:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[長壽秘訣：我們是否應該學習日本人的飲食結構？]]></title>
+            <description><![CDATA[日本是世界上國人預期壽命最長的國家之一。日本人的「盤中餐」是不是長壽秘訣？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-57849972</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-57849972</guid>
+            <pubDate>Thu, 19 Aug 2021 12:50:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[氣候變化：中國應對政策對全世界有何重要]]></title>
