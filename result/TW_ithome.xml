@@ -6,6 +6,26 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>雲端新省錢術FinOps</title>
+ <link>https://www.ithome.com.tw/voice/146307</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;我有一份每日必讀網站清單，整理了近50個國外的指標性IT新聞網站、活躍社群、意見領袖的連結清單。每天一有空，就會花上半小時，掃過當天最新文章的標題，來追蹤最新的IT情報。&lt;/p&gt;
+&lt;p&gt;前一陣子，突然在好幾個社群和意見領袖Twitter上都看到了一個新單字「FinOps」，立刻引起了我的注意。這是金融科技的新名詞嗎？不是。這是雲端社群從去年開始竄起的新話題。&lt;/p&gt;
+&lt;p&gt;FinOps全名是Cloud Financial Operations或是Cloud Financial Management，顧名思義就是探討雲端維運財務管理的一門學問。為何雲端維運費用的管理，越來越重要，甚至形成了一門學問。&lt;/p&gt;
+&lt;p&gt;一來是企業上雲的比重越來越高，所用的雲端環境也越來越複雜，不只是本地端機房和一朵公雲的混合雲架構，甚至越來越多企業會用2朵或3朵雲。因為在各家雲端供應商所用的雲端服務不相同，業者各自的計價方式相當多元，再加多數雲端服務常按用量計價，會有不同的折扣，甚至是競價折扣的做法，各種複雜的雲端計費方式，簡直讓人眼花撩亂。&lt;/p&gt;
+&lt;p&gt;不只是廠商計價方式的複雜性，容器和K8s技術的盛行，更讓雲端運算資源使用量的估算面臨新的技術性挑戰。要如何衡量一隻API程式所用容器的使用時間，若是使用無伺服器的容器託管服務，可以取得業者提供的用量統計數據，但若是自己上雲端租用虛擬機器來部署了一套K8s平臺，透過自動調度工具來建立一支Ap所需要的Pod叢集資源，要如何計算這個AP所耗用的雲端資源？尤其當K8s用量一多，企業多半會使用自動擴充機制，隨時按照用量增減這支Ap所用的Pod節點數量，如何攤提雲端虛擬機器的租用費用，精算出這一支AP所應負擔的費用成本，就是一大挑戰。&lt;/p&gt;
+&lt;p&gt;而且這不只是一個技術問題，更是維運問題。因為一支AP能運用的雲端資源越多，這支AP的運作效率就能越好，使用者的體驗也越流暢，但相對地，也就越花錢。如何拿捏投入的雲端資源，來提供夠用的使用者體驗，這就是業務抉擇，甚至是攸關顧客經營方式，像是區隔出高速流暢體驗的VIP會員，和一般操作可用的免費會員，這又是經營上的決策問題。&lt;/p&gt;
+&lt;p&gt;所以，這套雲端省錢術鼓勵，企業最好由CIO或CTO帶頭，找來維運人員、工程團隊、業務團隊、產品主管、財務人員和採購人員，共同組成一個FinOps團隊，來建立雲端維運的財務管理作法。&lt;/p&gt;
+&lt;p&gt;FinOps就是一群想要共同鑽研雲端維運財務問題，來降低維運成本的企業，後來也有不少雲端業者加入，所發展出來的一套學問，可說就是一門全新的雲端省錢術。&lt;/p&gt;
+&lt;p&gt;後來還出現了專門推廣FinOps組織，Linux基金會在旗下成立了一個子機構FinOps基金會，來推廣相關的FinOps作法、知識，去年底，FinOps基金會和CNCF組織更聯手發表了一份K8s雲端財務管理白皮書，介紹各種雲端K8s的維運作法。甚至還發展出了一套雲端省錢術的訓練課程和認證，已培養出超過2千5百位的雲端財務管理師。這個基金會的成員不少是大型科技業者，如Google、VMware、或是國際知名顧問公司如Deloitte、Accenture。&lt;/p&gt;
+&lt;p&gt;FinOps基金會在2020年底調查了804家企業上雲遇到的維運財務管理現況，超過35%的企業每年要付給雲端業者數百萬美元的費用，甚至有25%的企業每年的雲端費用超過了1,000萬美元，也難怪必須不斷追求更有效率的雲端維運成本控管作法。&lt;/p&gt;
+&lt;p&gt;在北美，已有近4成企業意識到FinOps的重要性，開始設立FinOps專責團隊，但在亞洲只有7.75%的企業設立這類團隊。不過，隨著後疫新常態，企業越來越倚重各種雲端服務，雲端省錢術勢必在臺灣也將成為一門新顯學。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E7%B7%A8%E8%80%85%E7%9A%84%E8%A9%B1-0&quot;&gt;編者的話&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/finops&quot;&gt;FinOps&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/cloud-financial-operations&quot;&gt;Cloud Financial Operations&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/cloud-financial-management&quot;&gt;Cloud Financial Management&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF%E7%B6%AD%E9%81%8B%E8%B2%A1%E5%8B%99%E7%AE%A1%E7%90%86&quot;&gt;雲端維運財務管理&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF%E7%B6%AD%E9%81%8B%E6%88%90%E6%9C%AC%E6%8E%A7%E7%AE%A1&quot;&gt;雲端維運成本控管&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF%E9%A0%90%E7%AE%97&quot;&gt;雲端預算&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF%E6%9C%8D%E5%8B%99-0&quot;&gt;雲端服務&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/cloud&quot;&gt;Cloud&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF%E7%9C%81%E9%8C%A2%E8%A1%93&quot;&gt;雲端省錢術&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 09:39:30 +0000</pubDate>
+ <dc:creator>王宏仁</dc:creator>
+ <guid isPermaLink="false">146307 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/voice/146307#comments</comments>
+</item>
+<item>
  <title>Google：美國政府調閱用戶資料的搜查令中，有25%攸關地理圍欄</title>
  <link>https://www.ithome.com.tw/news/146301</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在&lt;a href=&quot;https://www.eff.org/deeplinks/2021/08/its-time-google-resist-geofence-warrants-and-stand-its-affected-users&quot; target=&quot;_blank&quot;&gt;電子前線基金會（EFF）疾呼Google&lt;/a&gt;應對抗美國政府所調閱的用戶位置歷史資訊之後，Google本周四（8/19）首度公布了美國的調閱請求中，有關地理圍欄（Geofence）搜查令的請求數量，顯示它佔了美國政府機關所請求筆數的25%。&lt;/p&gt;
@@ -160,21 +180,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146290 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146290#comments</comments>
-</item>
-<item>
- <title>股票交易程式Robinhood財報出爐，有一半的營收來自以狗狗幣為主的加密貨幣交易</title>
- <link>https://www.ithome.com.tw/news/146289</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在7月29日以每股38美元登上那斯達克股市的股票交易程式Robinhood，&lt;a href=&quot;https://investors.robinhood.com/news/news-details/2021/Robinhood-Reports-Second-Quarter-2021-Results/default.aspx&quot; target=&quot;_blank&quot;&gt;於周三（8/18）公布了該公司上市後的首次財報&lt;/a&gt;，指出今年第二季創下5.65億美元的營收，比去年同期成長131%。儘管營收呈倍數成長，但可能因為Robinhood警告加密貨幣投資的熱潮在今年第三季可能不如第二季，使得Robinhood周四（8/19）盤前即下滑超過10%，股價在44美元左右浮動。&lt;/p&gt;
-&lt;p&gt;Robinhood的主要營收為交易營收，今年第二季的交易營收為4.51億美元，占總收入近80%，居次的是6,770萬美元的利息收入，占了12%。&lt;/p&gt;
-&lt;p&gt;在交易營收中，光是與加密貨幣有關的交易營收就達2.33億美元，占所有交易營收的52%，遠高於去年同期的500萬美元；選擇權的交易營收為1.65億美元，成長48%，股票交易營收則僅有5,200萬美元，下滑26%。而在加密貨幣的交易中，又有62%來自狗狗幣（Dogecoin，DOGE）的交易貢獻。&lt;/p&gt;
-&lt;p&gt;很明顯地可看出加密貨幣或狗狗幣，對於Robinhood今年第二季的營收表現功不可沒。今年第一季時，Robinhood的整體營收只有17%來自加密貨幣的交易，第二季即竄升到41%；第一季時，狗狗幣的營收只占加密貨幣交易營收的34%，但第二季增加至62%。&lt;/p&gt;
-&lt;p&gt;不過，&lt;a href=&quot;https://www.ithome.com.tw/news/144447&quot; target=&quot;_blank&quot;&gt;以狗狗幣為首的迷因幣狂潮在今年第二季時出現泡沫化的疑慮&lt;/a&gt;，也使得Robinhood在&lt;a href=&quot;https://d18rn0p25nwr6d.cloudfront.net/CIK-0001783879/fed1afc9-fc82-4a7a-8735-caed2497fbd3.pdf&quot; target=&quot;_blank&quot;&gt;提交給美國證券交易委員會的10-Q報告&lt;/a&gt;中表示，該公司除了會受到全球加密貨幣經濟的影響之外，倘若狗狗幣的市場惡化或價格下跌，例如出現狗狗幣的負面看法或是有愈來愈多交易平台支援狗狗幣等，都將影響Robinhood的加密貨幣交易營收。&lt;/p&gt;
-&lt;p&gt;此外，Robinhood也預期今年第三季的交易活動將會減少，使得營收與新帳號數量不如第二季。雖然營收成長超過100%，但該季Robinhood虧損了5億美元，每股虧損2.16美元。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 20 Aug 2021 02:28:35 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146289 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146289#comments</comments>
 </item>
 </channel>
 </rss>

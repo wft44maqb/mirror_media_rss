@@ -6,6 +6,16 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>雲端新省錢術FinOps</title>
+    <link>https://www.ithome.com.tw/voice/146307</link>
+    <description> 我有一份每日必讀網站清單，整理了近50個國外的指標性IT新聞網站、活躍社群、意見領袖的連結清單。每天一有空，就會花上半小時，掃過當天最新文章的標題，來追蹤最新的IT情報。
+前一陣子，突然在好幾個社群和意見領袖Twitter上都看到了一個新單字「FinOps」，立刻引起了我的注意。這是金融科技的新名詞嗎？不是。這是雲端社群從去年開始竄起的新話題。
+FinOps全名是Cloud Financial Operations或是Cloud Financial Management，顧名思義就是探討雲端維運財務管理的一門學問。為何雲端維運費用的管理，越來越重要，甚至形成了一門學問。</description>
+     <pubDate>2021-08-20  05:08:30</pubDate>
+ <dc:creator>王宏仁</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/voice/146307</guid>
+  </item>
+  <item>
     <title>Google：美國政府調閱用戶資料的搜查令中，有25%攸關地理圍欄</title>
     <link>https://www.ithome.com.tw/news/146301</link>
     <description> 在電子前線基金會（EFF）疾呼Google應對抗美國政府所調閱的用戶位置歷史資訊之後，Google本周四（8/19）首度公布了美國的調閱請求中，有關地理圍欄（Geofence）搜查令的請求數量，顯示它佔了美國政府機關所請求筆數的25%。</description>
@@ -247,14 +257,6 @@ AI內化引爆資料治理需求，轉核也是關鍵推力
      <pubDate>2021-08-19  07:08:00</pubDate>
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146202</guid>
-  </item>
-  <item>
-    <title>近四成企業於12個月內遭遇勒索軟體攻擊事故</title>
-    <link>https://www.ithome.com.tw/news/146260</link>
-    <description> 勒索軟體攻擊日益猖獗的現象，究竟有多嚴重？除了不時傳出有企業或組織遭到攻擊的消息，有研究報告也針對企業進行相關調查。</description>
-     <pubDate>2021-08-18  11:08:34</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146260</guid>
   </item>
   </channel>
 </rss>

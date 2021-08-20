@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 20 Aug 2021 17:32:57 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Aug 2021 17:43:05 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[如果我就阿富汗局勢採訪強生總統和習近平……]]></title>
+            <link><![CDATA[https://cn.nytimes.com/opinion/20210820/afghanistan-us-taliban/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[有關阿富汗的事態發展，我最渴望採訪這三個人：前總統強生、中國主席習近平和阿富汗最後一位國王查希爾。本文是我想像中的採訪內容。<p><img src='https://static01.nyt.com/images/2021/08/19/opinion/19friedman-new-lead/merlin_107406217_378b2066-1224-47c3-9c99-81d827055573-articleLarge.jpg' alt=' Andrew Quilty for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Andrew Quilty for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>觀點與評論</category>
+            <dc:creator><![CDATA[湯馬斯·佛里曼]]></dc:creator>
+            <pubDate>Fri, 20 Aug 2021 05:41:42 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210820/afghanistan-us-taliban/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[拜登仍有可能避免在阿富汗徹底失敗]]></title>
             <link><![CDATA[https://cn.nytimes.com/opinion/20210819/afghanistan-biden-taliban/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[STEVEN ERLANGER]]></dc:creator>
             <pubDate>Tue, 17 Aug 2021 05:37:54 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210817/afghanistan-eu-us-credibility/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[德爾塔毒株帶來的痛苦真相：「新冠病毒不會消失」]]></title>
-            <link><![CDATA[https://cn.nytimes.com/usa/20210817/covid-delta-variant-us/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[各地病例激增，美國進入疫情新階段，人們意識到新冠病毒不會很快消失。大部分地區仍然完全開放，許多州沒有出台新限制措施，而是傾向於鼓勵人們戴口罩和接種疫苗。<p><img src='https://static01.nyt.com/images/2021/08/13/us/virus-stateofthevirus-1/virus-stateofthevirus-1-videoLarge.jpg' alt='美國每天都報告大約13萬例病例，幾乎是去年夏天最高水平的兩倍。 Rozette Rago for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Rozette Rago for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>美國每天都報告大約13萬例病例，幾乎是去年夏天最高水平的兩倍。</p>                    ]]></description>
-            <category>美國</category>
-            <dc:creator><![CDATA[JULIE BOSMAN,MITCH SMITH]]></dc:creator>
-            <pubDate>Tue, 17 Aug 2021 03:33:31 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210817/covid-delta-variant-us/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
