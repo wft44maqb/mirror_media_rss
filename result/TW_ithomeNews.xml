@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/21" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/atom/21</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/atom/21" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>英特爾揭露下一代PC處理器將採效能及效率核心混合架構，資料中心、HPC也將翻新架構</title>
+    <link>https://www.ithome.com.tw/news/146308</link>
+    <description> 英特爾在今天(8/20)舉行架構日，對外揭露未來在PC、資料中心、HPC的全新架構，其中的PC處理器，今年將會採用效能與效率核心的混合架構設計，而資料中心端，Xeon與HPC也將採用新架構，結合英特爾自家與台積電的製程技術，提升擴充性及資料吞吐能力。
+英特爾在架構日的一開始，首先介紹了準備從今年開始，在PC處理器上採用新的混合式架構Alder Lake，為英特爾首款混合式架構，最大特色在於結合兩款x86核心，分別稱為效率核心(Efficent Core，先前代號Gracemont)、效能核心(Performance Core，先前代號Golden Cove)。</description>
+     <pubDate>2021-08-20  05:08:27</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146308</guid>
+  </item>
+  <item>
     <title>雲端新省錢術FinOps</title>
     <link>https://www.ithome.com.tw/voice/146307</link>
     <description> 我有一份每日必讀網站清單，整理了近50個國外的指標性IT新聞網站、活躍社群、意見領袖的連結清單。每天一有空，就會花上半小時，掃過當天最新文章的標題，來追蹤最新的IT情報。
@@ -245,15 +254,6 @@ VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔
      <pubDate>2021-08-19  07:08:00</pubDate>
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/article/146204</guid>
-  </item>
-  <item>
-    <title>玉山的科技金融之路</title>
-    <link>https://www.ithome.com.tw/voice/146203</link>
-    <description> 「成為一家科技公司！」這是不少非科技公司，給自己立下的數位轉型大目標，尤其在臺灣，有好幾家大型銀行，都以此為目標，不只是力擁金融科技（FinTech），更要成為科技金融（TechFin），就像是一家擁有金融執照的科技公司，但是，這條路，不是一條簡單、容易的路。
-玉山銀行就是其中一家，早在2012年，就訂出「科技的玉山」戰略目標，從科技人力開始著手。當時只有百餘人的玉山資訊處，後來，玉山開始大力招募、擴編，陸續增加了數金處、智金處等單位，到現在快速發展成千人規模的科技聯隊。玉山在2018年時，更率先設立了臺灣第一個金控科技長職務，來掌舵科技發展方向。</description>
-     <pubDate>2021-08-19  07:08:00</pubDate>
- <dc:creator>王宏仁</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/voice/146203</guid>
   </item>
   </channel>
 </rss>

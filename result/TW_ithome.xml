@@ -6,6 +6,33 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>英特爾揭露下一代PC處理器將採效能及效率核心混合架構，資料中心、HPC也將翻新架構</title>
+ <link>https://www.ithome.com.tw/news/146308</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;英特爾在今天(8/20)舉行架構日，對外揭露未來在PC、資料中心、HPC的全新架構，其中的PC處理器，今年將會採用效能與效率核心的混合架構設計，而資料中心端，Xeon與HPC也將採用新架構，結合英特爾自家與台積電的製程技術，提升擴充性及資料吞吐能力。&lt;/p&gt;
+&lt;p&gt;英特爾在架構日的一開始，首先介紹了準備從今年開始，在PC處理器上採用新的混合式架構Alder Lake，為英特爾首款混合式架構，最大特色在於結合兩款x86核心，分別稱為效率核心(Efficent Core，先前代號Gracemont)、效能核心(Performance Core，先前代號Golden Cove)。&lt;/p&gt;
+&lt;p&gt;其中，效率核心追求在低功耗下有效率的執行工作負載，以滿足低功耗的行動應用到多核心微服務需求，相較於目前的Skylake微架構，效率核心在相同功耗下，可提高4成的效能，而在多核心處理之下，4個效率核心比4個執行緒的Skylake雙核心，高出8成的效能並降低功耗，或是在相同效能下，降低8成的功耗。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;每核心1執行緒的x86效率核心：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202021-08-20%20%E4%B8%8B%E5%8D%885_45_22.jpg&quot; style=&quot;width: 600px; height: 310px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;而效能核心號稱是英特爾打造的最高效能CPU核心，提升平行作業處理，降低延遲提升效能，以支援大量資料、程式碼的應用。英特爾解釋，效能核心的原則是在低延遲下的最好單執行緒，最短時間做大量資料的處理與第11代Core相比，效能核心在相同頻率下，一般工作負載的效能平均能提升19%。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;x86效能核心：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202021-08-20%20%E4%B8%8B%E5%8D%885_46_05.jpg&quot; style=&quot;width: 600px; height: 309px;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;搭配效率與效能核心，Alder Lake還採用了Intel Thread Director排程器，Thread Director可根據核心的低階遙測資訊、指令混合比例，將需要較高效能的執行緒交由效能核心處理，或是將需要能源效率的執行緒移至效率核心執行。英特爾表示，該公司與微軟合作，以協助作業系統作出更好的排程決策，微軟將推出的Windows 11已針對Intel Thread Director優化效能。&lt;/p&gt;
+&lt;p&gt;Alder Lake將採用Intel 7製程技術，最高到16個核心(8個效能核心與8個效率核心)，支援到24個執行者，並且支援新的I/O，包括DDR5-4800記憶體、PCIe Gen 5、Thunderbolt 4、Wi-Fi 6E等，功耗設計從9瓦到125瓦，將涵蓋桌上型、筆電到以省電續航力為特色的Ultra Mobile筆電等PC用戶市場。&lt;/p&gt;
+&lt;p&gt;GPU部分，英特爾日前發表高效能GPU品牌Arc，將採用代號Alcemist的Xe-HPG微架構，將採用台積電6奈米製程，鎖定效能級遊戲玩家及內容創作者，預計明年第一季就會有產品問世。Xe-HPG微架構最多支援8個Render Slice及針對DirectX12的固定單元，並內建具有16個向量及距陣引擎的Xe-core。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;資料中心端運算也將採用新架構&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;至於資料中心端，英特爾也揭露了代號為Sapphire Rapids的下一代Xeon可擴充處理器，英特爾表示，新的Xeon處理器可針對資料中心大量且多樣化的工作負載最佳化，在雲端、AI與微服務提升效能。Sapphire Rapids將採Intel 7製程技術，並使用新的效能核心微架構，為針對速度、低延遲，同時兼顧單執行緒應用程式效能所設計。&lt;/p&gt;
+&lt;p&gt;Sapphire Rapids在架構上採用可模組化的單元設計，搭配EMIB嵌入式多晶片互連技術，提供更高的擴充性。此外，還內建加速引擎，其中針對AI方面的深度學習及訓練需求，內建Intel AMX(Advanced Matrix Extensions)，以專用硬體與指令集，加速距陣乘法的運算，與英特爾原有的指令集相比，AI運算速度提升超過7倍。&lt;/p&gt;
+&lt;p&gt;在記憶體方面，Sapphire Rapids也支援DDR5，以及PCIe 5、HBM等技術。&lt;/p&gt;
+&lt;p&gt;為了釋放資料中心CPU資源，英特爾從過去發展FPGA SmartNIC的經驗為基礎，揭露該公司首款ASIC IPU，稱為Mount Evans，提供高效能網路、儲存卸載功能，降低CPU工作負載。支援NVMe硬體加速、Intel QuickAssist加密及壓縮技術。&lt;/p&gt;
+&lt;p&gt;另外，HPC高效能運算架構也有革新，Ponte Vecchio採用Xe HPC的高效能運算架構，將在2022年推出，內部採用多種不同功能的晶片塊組成，搭配高速晶片互連技術。Ponte Vecchio結合多個製程技術，突顯英特爾日前發表IDM 2.0策略，內部採用Xe-core的運算晶片堆使用台積電N5製程，基底晶片塊使用英特爾自家Intel 7製程，Xe Link高速連結晶片塊則使用台積電N7，搭配英特爾Foveros 3D封裝技術，英特爾宣稱為該公司打造最複雜的SoC。&lt;/p&gt;
+&lt;p&gt;英特爾以初期晶片測試AI表現，ResNet推論效能可達每秒超過4萬3千張照片，ResNet訓練可達每秒超過3千4百張照片。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 09:54:27 +0000</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="false">146308 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146308#comments</comments>
+</item>
+<item>
  <title>雲端新省錢術FinOps</title>
  <link>https://www.ithome.com.tw/voice/146307</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;我有一份每日必讀網站清單，整理了近50個國外的指標性IT新聞網站、活躍社群、意見領袖的連結清單。每天一有空，就會花上半小時，掃過當天最新文章的標題，來追蹤最新的IT情報。&lt;/p&gt;
@@ -178,23 +205,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146291 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146291#comments</comments>
-</item>
-<item>
- <title>Git 2.33加入新的合併策略可提升合併效能達9,000倍</title>
- <link>https://www.ithome.com.tw/news/146281</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://lore.kernel.org/lkml/xmqq1r6touqi.fsf@gitster.g/&quot;&gt;Git 2.33&lt;/a&gt;現在已經推出，有不少使用者不會有太大感覺的背景修改，不過仍有新功能可以提升開發者的日常使用經驗，像是這個版本新增一種稱為merge-ort的合併策略，能解決合併正確性和效能方面的問題，並且作為未來新功能的基礎。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.blog/2021-08-16-highlights-from-git-2-33/&quot;&gt;GitHub解釋&lt;/a&gt;，目前Git在兩分支合併時，使用稱為合併遞迴（Merge-Recursive）的方法，這個方法有兩個好處，在交叉合併的情況下，政策可以對每個可能的基礎進行一系列合併，這能夠解決政策產生衝突的情況，而且能夠偵測每個分支重新命名的檔案，當一個檔案被修改，又被另一方重新命名，合併遞迴能夠將修改應用於重新命名的目標。&lt;/p&gt;
-&lt;p&gt;一直以來合併遞迴都是Git預設配置，但是該方法存在一些不可忽視的缺點。GitHub提到，由於合併遞迴起初是當作外部Python腳本來開發，其使用Git管線命令來檢查資料，後來使用C語言重寫，雖然速度獲得提升，但是其程式碼組織和資料結構仍然承襲舊版本，主要依靠Git索引和工作樹運作，導致長年出現一些難解的臭蟲和極端案例問題。&lt;/p&gt;
-&lt;p&gt;合併遞迴使得最佳化和擴充程式碼變得困難，雖然合併時間在大多數的工作流程中並非瓶頸，但是在部分情況，特別是牽涉檔案重新命名，合併會變得非常慢，而合併後端又被用於cherry-pick和rebase操作，這兩個操作都會執行一系列合併，因此能加快合併速度，就能有效提升執行效能以及使用者體驗。&lt;/p&gt;
-&lt;p&gt;這個新的merge-ort是完全重寫的政策，具有相同的遞迴和重新命名偵測等概念，但是解決了長期存在的正確性和效能問題，執行速度比合併遞迴快上許多，在大型且複雜包含重新命名的極端合併案例，merge-ort獲得500倍的加速，而像是需要進行一系列合併的rebase操作，更是加速超過9,000倍。&lt;/p&gt;
-&lt;p&gt;這些極端案例對於合併遞迴政策特別不利，因此在merge-ort有很大幅度的加速，一般典型的合併情況，merge-ort只會比合併遞迴快一些，GitHub解釋，merge-ort價值在於在各種情況都能維持合併效能，但是合併遞迴的效能卻有極大的差異。&lt;/p&gt;
-&lt;p&gt;merge-ort另外一個優點，是生成的程式碼更清楚可用，其修復了合併遞迴部分已知的錯誤，不會存取樹中未變更的部分，因此執行部分合併操作，Git不需要下載額外的物件，就能進行更多的合併工作，而且因為merge-ort在合併時，不依賴索引和工作樹，因此git log等工具便能有機會發揮更大的作用，像是顯示合併結果和最終提交狀態的差異，藉以呈現作者解決衝突的方法。&lt;/p&gt;
-&lt;p&gt;merge-ort很可能會成為未來Git版本的預設政策，開發者現在可以使用git merge -sort指令，或是將pull.twohead配置設定成ort，不過，GitHub提到，這樣的更改並無法完全感受merge-ort帶來的加速效果，因為還需要更改Git其他部分，但是仍可以先嚐鮮。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 20 Aug 2021 02:41:58 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146281 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146281#comments</comments>
 </item>
 </channel>
 </rss>
