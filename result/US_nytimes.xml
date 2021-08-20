@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 20 Aug 2021 16:12:09 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Aug 2021 16:22:11 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[美國新聞機構如何幫助阿富汗僱員及親屬撤離]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210820/afghanistan-news-organizations/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[隨著當地局勢惡化，一些阿富汗僱員擔心，塔利班會對曾為美國媒體工作的人採取行動。從美國的新聞編輯室到五角大廈再到卡達杜哈，一場全球救援行動保證了他們的撤離。<p><img src='https://static01.nyt.com/images/2021/08/19/business/19afghanistan-escape/19afghanistan-escape-articleLarge.jpg' alt='週一，在阿富汗喀布爾國際機場外圍，數百人聚集在一架美國空軍C-17運輸機附近。 Shekib Rahmani/Associated Press'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Shekib Rahmani/Associated Press</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>週一，在阿富汗喀布爾國際機場外圍，數百人聚集在一架美國空軍C-17運輸機附近。</p>                    ]]></description>
+            <category>國際</category>
+            <dc:creator><![CDATA[MICHAEL M. GRYNBAUM,TIFFANY HSU,KATIE ROBERTSON]]></dc:creator>
+            <pubDate>Fri, 20 Aug 2021 04:15:16 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210820/afghanistan-news-organizations/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[中國疫苗外交受挫，美國或在亞洲打開新局面]]></title>
             <link><![CDATA[https://cn.nytimes.com/business/20210820/china-vaccine-us-covid-diplomacy/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[JULIE BOSMAN,MITCH SMITH]]></dc:creator>
             <pubDate>Tue, 17 Aug 2021 03:33:31 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210817/covid-delta-variant-us/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[喀布爾機場撤離慘象：人群攀爬飛機，數人從空中墜落]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210817/afghanistan-airport-evacuation-us-withdrawal/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[塔利班佔領喀布爾後，絕望的當地人湧入機場試圖逃離。一些人甚至試圖抓住即將起飛的美國軍用飛機機身。有人從天上掉落，另有至少兩人被試圖控制場面的美國士兵擊斃。<p><img src='https://static01.nyt.com/images/2021/08/16/world/16AFGHANISTAN-AIRPORT1/merlin_193327512_993006f7-70a5-4b1b-8bd8-d0db60546e76-articleLarge.jpg' alt='週一，喀布爾機場停機坪上的阿富汗人。 Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>週一，喀布爾機場停機坪上的阿富汗人。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[CARLOTTA GALL,RUHULLAH KHAPALWAK]]></dc:creator>
-            <pubDate>Tue, 17 Aug 2021 02:44:30 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210817/afghanistan-airport-evacuation-us-withdrawal/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
