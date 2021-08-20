@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/1710" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/1135" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/1710</link>
+    <link>https://www.ithome.com.tw/latest/atom/1135</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/1710" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/1135" rel="self" type="application/rss+xml" />
       <item>
+    <title>VS Code  1.59預覽以機器學習技術偵測開發者所編寫的程式語言</title>
+    <link>https://www.ithome.com.tw/news/146279</link>
+    <description> 微軟釋出了最新的VS Code 1.59版本，在圖形介面區域和編輯器都有更新，同時也改進了終端機操作，另外，這個版本微軟還加入一項預覽功能，能夠使用機器學習技術，自動判斷未命名檔案所使用的程式語言。
+VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔案所使用的程式語言，微軟提到，該功能使用機器學習技術偵測開發者正在編寫的語言，並且自動設定相對應的語言模式。這項功能使用開源機器學習函式庫Tensorflow.js，以及社群成員所貢獻的機器學習模型。</description>
+     <pubDate>2021-08-20  10:08:24</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146279</guid>
+  </item>
+  <item>
     <title>針對勒索軟體Diavol與製作TrickBot的駭客組織的關連，IBM找到更多線索</title>
     <link>https://www.ithome.com.tw/news/146280</link>
     <description> 資安業者Fortinet在7月初揭露名為的Diavol勒索軟體，並基於與Conti有許多共通的特性，認為可能是出自製作Trickbot殭屍病毒的駭客「Wizard Spider」之手。</description>
@@ -254,15 +263,6 @@ AI內化引爆資料治理需求，轉核也是關鍵推力
      <pubDate>2021-08-18  10:08:57</pubDate>
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146249</guid>
-  </item>
-  <item>
-    <title>【玉山AI實例3】自建反洗錢黑名單偵測模型，快速揪出問題</title>
-    <link>https://www.ithome.com.tw/news/146201</link>
-    <description> 反洗錢（AML）一直是整個金融業兢兢業業、嚴陣以待的議題，他們拼命抓漏，也不願放過任何風險。對玉山銀行來說，更是如此。
-用NLP快速分類、揪出特定名詞，加速負面新聞分類</description>
-     <pubDate>2021-08-18  07:08:00</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146201</guid>
   </item>
   </channel>
 </rss>

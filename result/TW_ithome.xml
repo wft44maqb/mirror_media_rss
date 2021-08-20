@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>股票交易程式Robinhood財報出爐，有一半的營收來自以狗狗幣為主的加密貨幣交易</title>
+ <link>https://www.ithome.com.tw/news/146289</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在7月29日以每股38美元登上那斯達克股市的股票交易程式Robinhood，&lt;a href=&quot;https://investors.robinhood.com/news/news-details/2021/Robinhood-Reports-Second-Quarter-2021-Results/default.aspx&quot; target=&quot;_blank&quot;&gt;於周三（8/18）公布了該公司上市後的首次財報&lt;/a&gt;，指出今年第二季創下5.65億美元的營收，比去年同期成長131%。儘管營收呈倍數成長，但可能因為Robinhood警告加密貨幣投資的熱潮在今年第三季可能不如第二季，使得Robinhood周四（8/19）盤前即下滑超過10%，股價在44美元左右浮動。&lt;/p&gt;
+&lt;p&gt;Robinhood的主要營收為交易營收，今年第二季的交易營收為4.51億美元，占總收入近80%，居次的是6,770萬美元的利息收入，占了12%。&lt;/p&gt;
+&lt;p&gt;在交易營收中，光是與加密貨幣有關的交易營收就達2.33億美元，占所有交易營收的52%，遠高於去年同期的500萬美元；選擇權的交易營收為1.65億美元，成長48%，股票交易營收則僅有5,200萬美元，下滑26%。而在加密貨幣的交易中，又有62%來自狗狗幣（Dogecoin，DOGE）的交易貢獻。&lt;/p&gt;
+&lt;p&gt;很明顯地可看出加密貨幣或狗狗幣，對於Robinhood今年第二季的營收表現功不可沒。今年第一季時，Robinhood的整體營收只有17%來自加密貨幣的交易，第二季即竄升到41%；第一季時，狗狗幣的營收只占加密貨幣交易營收的34%，但第二季增加至62%。&lt;/p&gt;
+&lt;p&gt;不過，&lt;a href=&quot;https://www.ithome.com.tw/news/144447&quot; target=&quot;_blank&quot;&gt;以狗狗幣為首的迷因幣狂潮在今年第二季時出現泡沫化的疑慮&lt;/a&gt;，也使得Robinhood在&lt;a href=&quot;https://d18rn0p25nwr6d.cloudfront.net/CIK-0001783879/fed1afc9-fc82-4a7a-8735-caed2497fbd3.pdf&quot; target=&quot;_blank&quot;&gt;提交給美國證券交易委員會的10-Q報告&lt;/a&gt;中表示，該公司除了會受到全球加密貨幣經濟的影響之外，倘若狗狗幣的市場惡化或價格下跌，例如出現狗狗幣的負面看法或是有愈來愈多交易平台支援狗狗幣等，都將影響Robinhood的加密貨幣交易營收。&lt;/p&gt;
+&lt;p&gt;此外，Robinhood也預期今年第三季的交易活動將會減少，使得營收與新帳號數量不如第二季。雖然營收成長超過100%，但該季Robinhood虧損了5億美元，每股虧損2.16美元。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 02:28:35 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146289 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146289#comments</comments>
+</item>
+<item>
  <title>VS Code  1.59預覽以機器學習技術偵測開發者所編寫的程式語言</title>
  <link>https://www.ithome.com.tw/news/146279</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟釋出了最新的&lt;a href=&quot;https://code.visualstudio.com/updates/v1_59#_terminal&quot;&gt;VS Code 1.59版本&lt;/a&gt;，在圖形介面區域和編輯器都有更新，同時也改進了終端機操作，另外，這個版本微軟還加入一項預覽功能，能夠使用機器學習技術，自動判斷未命名檔案所使用的程式語言。&lt;/p&gt;
@@ -148,22 +163,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146271 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146271#comments</comments>
-</item>
-<item>
- <title>Visual Studio 2022新增安全機制防止開發者意外開啟惡意內容</title>
- <link>https://www.ithome.com.tw/news/146261</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟在Visual Studio 2022第3預覽版本重新設計了&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/improving-developer-security-with-visual-studio-2022/&quot;&gt;信任配置功能&lt;/a&gt;，其目的是要提高開發者對於陌生程式碼風險的意識，並協助防範惡意攻擊者，從開啟內容到建置和執行應用程式，Visual Studio 2022能夠提供額外的安全防護。&lt;/p&gt;
-&lt;p&gt;微軟提到，近來軟體開發人員開始成為攻擊者的目標，出現像是Nobelium、Octopus Scanner和ZINC開源函式庫攻擊事件，而微軟試著提供安全工具鏈，讓開發者能夠更小心處理不受信任的內容。Visual Studio能夠評估開發者要開啟的內容，在設計階段的建置動作，能辨識專案結構和相依性，以提供豐富的功能，但是從威脅評估的角度來看，微軟表示，建置程式碼相當於執行，而這代表攻擊者可以創建一個場景，讓開發者只需要在Visual Studio中開啟內容，就有可能遭受攻擊。&lt;/p&gt;
-&lt;p&gt;在Visual Studio 2015的時候，微軟開始注意到這個問題，因此將信任範圍擴展到專案之外的項目，並且使用來自網路內容標籤來提示開發者，但是因為標籤使用規則不一致，導致整體設計出現問題，而且隨著開源軟體興盛，大多數開發人員取得和使用專案樣板的方式出現變化，因此這些安全顧慮再次成為值得關注問題。&lt;/p&gt;
-&lt;p&gt;在Visual Studio 2022中，微軟徹底更改了信任配置功能，在開發者嘗試開啟未受信任的內容時，能夠提供額外的安全防護，這個新功能主要由可信位置（Trusted Locations）和受限模式（Restricted Mode）兩部分構成。開發者在Visual Studio 2022第3預覽版本可以手動啟用可信位置功能，開啟之後，當Visual Studio偵測到開發者嘗試要開啟不受信任內容時，便會警示用戶相關的安全疑慮。&lt;/p&gt;
-&lt;p&gt;當開發者啟用可信位置功能，在Visual Studio 2022中開啟的所有內容，都會被視為不受信任，除非開發者或是企業透過群組政策，把這些內容添加到受信任位置列表中，用戶可以藉由配置資料夾位置、git儲存庫或是git儲存庫擁有者，來設定可信任內容。微軟提到，之中有許多安全性和可用性的權衡，因此他們最佳化了多種工作流程，盡量降低對開發者造成的影響。&lt;/p&gt;
-&lt;p&gt;不過，要信任原始碼並不是一個簡單的決定，開發者通常需要手動檢查程式碼，才能消除部分安全性疑慮，因此微軟也加入了受限模式，讓開發者能夠瀏覽和編輯不受信任的原始碼。雖然在這個模式中，開發者無法使用程式碼分析器或是視覺設計工具等設計時建置功能，但是能夠打開和檢查不受信任的程式碼，避免遠端程式碼執行等風險。&lt;/p&gt;
-&lt;p&gt;開發者可以Visual Studio 2022第3預覽版本啟用可信位置功能，微軟也提到，在下一個版本該功能會預設啟用，企業現在已經可以利用Windows群組政策，來設定受信任的儲存庫，並且禁止信任以及開啟限制之外的內容。而受限模式目前仍未開放，開發者還需要再等等。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 19 Aug 2021 03:20:02 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146261 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146261#comments</comments>
 </item>
 </channel>
 </rss>
