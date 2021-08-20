@@ -277,3 +277,106 @@
   </item>
   </channel>
 </rss>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-hant" lang="zh-hant" dir="ltr">
+
+<head>
+  <title>錯誤 | 台灣事實查核中心</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://tfc-taiwan.org.tw/sites/default/files/favico.ico" type="image/vnd.microsoft.icon" />
+  <style type="text/css" media="all">
+@import url("https://tfc-taiwan.org.tw/modules/system/system.base.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/modules/system/system.menus.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/modules/system/system.messages.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/modules/system/system.theme.css?qy4y8m");
+</style>
+<style type="text/css" media="all">
+@import url("https://tfc-taiwan.org.tw/modules/book/book.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/date/date_api/date.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/modules/field/theme/field.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/field_hidden/field_hidden.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/google_cse/google_cse.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/logintoboggan/logintoboggan.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/modules/node/node.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/modules/search/search.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/modules/user/user.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/youtube/css/youtube.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/extlink/extlink.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/views/css/views.css?qy4y8m");
+</style>
+<style type="text/css" media="all">
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/colorbox/styles/default/colorbox_style.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/ctools/css/ctools.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/custom/netivism_admin_better/css/admin_menu_style.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/custom/netivism_admin_better/css/simplemenu_style.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/custom/netivism_admin_better/css/netivism_admin_better.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/modules/panels/css/panels.css?qy4y8m");
+</style>
+<style type="text/css" media="all">
+@import url("https://tfc-taiwan.org.tw/sites/all/themes/netivism/css/default.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/themes/netivism/css/override.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/themes/netivism/css/style.css?qy4y8m");
+@import url("https://tfc-taiwan.org.tw/sites/all/themes/netivism/css/custom.css?qy4y8m");
+</style>
+<style type="text/css" media="print">
+@import url("https://tfc-taiwan.org.tw/sites/all/themes/netivism/css/print.css?qy4y8m");
+</style>
+  <script type="text/javascript" src="https://tfc-taiwan.org.tw/sites/all/modules/jquery_update/replace/jquery/1.9/jquery.min.js?v=1.9.1"></script>
+<script type="text/javascript" src="https://tfc-taiwan.org.tw/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://tfc-taiwan.org.tw/misc/drupal.js?qy4y8m"></script>
+<script type="text/javascript" src="https://tfc-taiwan.org.tw/sites/all/modules/google_cse/google_cse.js?qy4y8m"></script>
+<script type="text/javascript" src="https://tfc-taiwan.org.tw/sites/default/files/languages/zh-hant_HIWO-NRQqKjQjf-Owxhw3x-eBjoRuYvLe38lOLEpBpo.js?qy4y8m"></script>
+<script type="text/javascript" src="https://tfc-taiwan.org.tw/sites/all/libraries/colorbox/jquery.colorbox-min.js?qy4y8m"></script>
+<script type="text/javascript" src="https://tfc-taiwan.org.tw/sites/all/modules/colorbox/js/colorbox.js?qy4y8m"></script>
+<script type="text/javascript" src="https://tfc-taiwan.org.tw/sites/all/modules/colorbox/styles/default/colorbox_style.js?qy4y8m"></script>
+<script type="text/javascript" src="https://tfc-taiwan.org.tw/sites/all/themes/netivism/js/theme.js?qy4y8m"></script>
+<script type="text/javascript" src="https://tfc-taiwan.org.tw/sites/all/themes/netivism/js/custom.js?qy4y8m"></script>
+<script type="text/javascript">jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"netivism","theme_token":"63IC3lyUMwwrOzAlgsmjDSgDVcRQREQ__zMF4V1qQkc","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/field_hidden\/field_hidden.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/youtube\/css\/youtube.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/themes\/netivism\/css\/tabs.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/netivism_admin_better\/css\/admin_menu_style.css":1,"sites\/all\/modules\/custom\/netivism_admin_better\/css\/simplemenu_style.css":1,"sites\/all\/modules\/custom\/netivism_admin_better\/css\/netivism_admin_better.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/themes\/netivism\/css\/default.css":1,"sites\/all\/themes\/netivism\/css\/override.css":1,"sites\/all\/themes\/netivism\/css\/style.css":1,"sites\/all\/themes\/netivism\/css\/custom.css":1,"sites\/all\/themes\/netivism\/css\/print.css":1},"js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"public:\/\/languages\/zh-hant_HIWO-NRQqKjQjf-Owxhw3x-eBjoRuYvLe38lOLEpBpo.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/themes\/netivism\/js\/theme.js":1,"sites\/all\/themes\/netivism\/js\/custom.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"\u95dc\u9589","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"googleCSE":{"cx":"016739345681392223711:urihlbomoaq","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":0},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"}});</script>
+</head>
+<body class="maintenance-page in-maintenance no-sidebars">
+  <div id="page">
+    <div id="header">
+      <div id="logo-title">
+
+                  <a href="/" title="首頁" rel="home" id="logo">
+            <img src="https://tfc-taiwan.org.tw/sites/default/files/TFC_LOGO.png" alt="首頁" />
+          </a>
+        
+        <div id="name-and-slogan">
+                      <h1 id="site-name">
+              <a href="/" title="首頁" rel="home"><span>台灣事實查核中心</span></a>
+            </h1>
+          
+                      <div id="site-slogan">Taiwan FactCheck Center</div>
+                  </div> <!-- /name-and-slogan -->
+      </div> <!-- /logo-title -->
+
+      
+    </div> <!-- /header -->
+
+    <div id="container" class="clearfix">
+
+      
+      <div id="main" class="column"><div id="main-squeeze">
+
+        <div id="content">
+          <h1 class="title" id="page-title">錯誤</h1>                    <div id="content-content" class="clearfix">
+            網站遇到非預期錯誤。請稍後再試。          </div> <!-- /content-content -->
+        </div> <!-- /content -->
+
+      </div></div> <!-- /main-squeeze /main -->
+
+      
+    </div> <!-- /container -->
+
+    <div id="footer-wrapper">
+      <div id="footer">
+              </div> <!-- /footer -->
+    </div> <!-- /footer-wrapper -->
+
+  </div> <!-- /page -->
+
+</body>
+</html>
