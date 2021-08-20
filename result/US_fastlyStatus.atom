@@ -4,7 +4,7 @@
   <link rel="alternate" type="text/html" href="https://status.fastly.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.fastly.com/history.atom"/>
   <title>Fastly Status - Incident History</title>
-  <updated>2021-08-19T21:52:01Z</updated>
+  <updated>2021-08-20T23:19:39Z</updated>
   <author>
     <name>Fastly</name>
   </author>
@@ -18,11 +18,11 @@
   </entry>
   <entry>
     <id>tag:status.fastly.com,2005:Incident/7725124</id>
-    <published>2021-08-24T10:30:00Z</published>
-    <updated>2021-08-17T04:35:00Z</updated>
+    <published>2021-08-24T09:30:00Z</published>
+    <updated>2021-08-20T23:19:39Z</updated>
     <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/67p4n11mfvbq"/>
     <title>Globalsign Intermediate Certificate Rotation</title>
-    <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;10:30&lt;/var&gt; - &lt;var data-var='time'&gt;11:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;17&lt;/var&gt;, &lt;var data-var='time'&gt;04:35&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Please be advised that the time of this maintenance event has changed from Aug 24, entire day to Aug 24, 10:30 - 11:00 UTC.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;10&lt;/var&gt;, &lt;var data-var='time'&gt;00:53&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - On August 24, 2021 GlobalSign will rotate their Atlas TLS CAs intermediate certificates.&lt;br /&gt;&lt;br /&gt;Beginning 2022, GlobalSign will start rotating their intermediate certificates on a quarterly basis, on the second Monday of every quarter. &lt;br /&gt;&lt;br /&gt;For customers who are using Fastly TLS managed certificates issued by GlobalSign, also known as Fastly TLS Commercial CA, this change will require action on your part if you are using certificate or public key pinning to avoid any impact to your traffic. &lt;br /&gt;&lt;br /&gt;For more information on the update from GlobalSign, please refer to the following links:&lt;br /&gt;https://www.globalsign.com/en/blog/upcoming-changes-publicly-trusted-tls-certificates &lt;br /&gt;https://support.globalsign.com/atlas/atlas-tls/atlas-tls-ica-rotations-2021&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;09:30&lt;/var&gt; - &lt;var data-var='time'&gt;10:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;23:19&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - The time for this to take place is: 9:30-10:00 UTC.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;17&lt;/var&gt;, &lt;var data-var='time'&gt;04:35&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Please be advised that the time of this maintenance event has changed from Aug 24, entire day to Aug 24, 10:30 - 11:00 UTC.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;10&lt;/var&gt;, &lt;var data-var='time'&gt;00:53&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - On August 24, 2021 GlobalSign will rotate their Atlas TLS CAs intermediate certificates.&lt;br /&gt;&lt;br /&gt;Beginning 2022, GlobalSign will start rotating their intermediate certificates on a quarterly basis, on the second Monday of every quarter. &lt;br /&gt;&lt;br /&gt;For customers who are using Fastly TLS managed certificates issued by GlobalSign, also known as Fastly TLS Commercial CA, this change will require action on your part if you are using certificate or public key pinning to avoid any impact to your traffic. &lt;br /&gt;&lt;br /&gt;For more information on the update from GlobalSign, please refer to the following links:&lt;br /&gt;https://www.globalsign.com/en/blog/upcoming-changes-publicly-trusted-tls-certificates &lt;br /&gt;https://support.globalsign.com/atlas/atlas-tls/atlas-tls-ica-rotations-2021&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.fastly.com,2005:Incident/7802252</id>
