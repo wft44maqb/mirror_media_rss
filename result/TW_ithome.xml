@@ -6,6 +6,18 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Go 1.17改進編譯器提升程式執行效能</title>
+ <link>https://www.ithome.com.tw/news/146303</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Go團隊發布了最新版本&lt;a href=&quot;https://go.dev/blog/go1.17&quot;&gt;1.17&lt;/a&gt;，這個版本改進了編譯器，在傳遞函式參數和結果，使用了新的方法，而這項改進使得Go程式的效能得以提高約5％，amd64平臺的二進位檔案大小減少2％，官方提到，未來版本還會支援更多的平臺。另外，Go 1.17還增加對Windows上64位元Arm架構的支援，因此Go程式可以在更多的裝置上原生運作。&lt;/p&gt;
+&lt;p&gt;這個新版本使用了修整過後的模組圖（Module Graphs），在Go 1.17或是更高的版本，開發者於go.mod檔案中指定模組，則模組圖將會僅包含其他Go 1.17模組的直接相依項目，而非完整的遞移相依（Transitive Dependency）項目，這將有助於避免下載或是讀取go.mod檔案，取用不相關的相依項目，可有效節省日常開發時間。&lt;/p&gt;
+&lt;p&gt;在語言功能上，Go 1.17有3個小改動，前兩個是unsafe套件中的新函式，能使程式更容易遵循unsafe.Pointer規則，分別是unsafe.Add，允許安全地指針運算，還有unsafe.Slice，則能夠安全地將指針轉換成為切片（Slice）。第3個變化是語言類型轉換規則的擴充，允許切片轉換為陣列指針，不過這項操作的前提是，切片在執行時至少要和陣列一樣大。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 15:11:58 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146303 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146303#comments</comments>
+</item>
+<item>
  <title>日本加密貨幣交易所Liquid遭駭，駭客偷走近上億美元加密貨幣</title>
  <link>https://www.ithome.com.tw/news/146310</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;針對加密貨幣交易平臺的網路攻擊，近期已有數起事故。例如，去中心化（DeFi）金融平臺Poly Network，&lt;a href=&quot;https://www.ithome.com.tw/news/146138&quot;&gt;在8月10日公告遭到攻擊&lt;/a&gt;，駭客轉走了6.1億美元的加密貨幣，雖然&lt;a href=&quot;https://www.ithome.com.tw/news/146161&quot;&gt;事隔不到1天就歸還不法所得&lt;/a&gt;，但此起事故仍引起加密貨幣圈的關注。&lt;/p&gt;
@@ -198,21 +210,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146297 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146297#comments</comments>
-</item>
-<item>
- <title>Epic控告Google壟斷的法院文件顯示，Google曾以提高分潤手段，說服手機廠商拒絕第三方軟體商店App</title>
- <link>https://www.ithome.com.tw/news/146296</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.documentcloud.org/documents/21046008-epic-v-google-unredacted-complaint#document/p43&quot; target=&quot;_blank&quot;&gt;一項法院文件顯示&lt;/a&gt;，Google提供Android裝置廠商優厚的分潤，以換取他們生產的裝置不安裝Google Play Store以外的第三方軟體商店。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.theverge.com/2021/8/19/22632806/google-epic-premier-device-program-lg-motorola-hmd&quot; target=&quot;_blank&quot;&gt;The Verge報導&lt;/a&gt;，這份文件是在Google vs Epic持續審理的官司中，Epic委任律師提交的文件。&lt;/p&gt;
-&lt;p&gt;文件指出，Google深知裝置中預安裝App商店會威脅Play Store的獨大地位，因此Google必須設法阻止這些品牌廠商（OEM）和競爭者的來往。其中一個手法是提供OEM加入頂級裝置方案（Premier Device Program），承諾他們，在方案涵蓋的裝置上可拿比現有更高的裝置搜尋分潤比例，條件是不得安裝具有「即APK安裝權的應用程式」，意即不得安裝可安裝其他App的應用程式（即App軟體商店），像是Epic自己的Fortnite Launcher。&lt;/p&gt;
-&lt;p&gt;在這優惠的分潤方案下，OEM可拿到的Google搜尋分潤比例可由原本的8%提高到12%。此外還有其他利誘措施，像是Google提供LG、Motorola 裝置上衍生的Play Store營收中的3-6%分潤。&lt;/p&gt;
-&lt;p&gt;這項方案也要求，涵蓋的裝置不得安裝和Google Play競爭的App，或功能和Google Play重疊的預安裝App。預安裝App必須同時在Google Play散佈，確保這已經過Google獲得允許。此外Google 要求OEM裝置中安裝的所有安裝器須經過Google審查同意，所有安裝器（installer）皆不得推銷Google Play以外的「另類服務」。&lt;/p&gt;
-&lt;p&gt;文件顯示，在去年5月之前許多知名OEM都加入了頂級裝置方案，其中Motorola和LG幾乎所有（98%及95%）新裝置都涵蓋在這方案下，Nokia手機製造商HMD則為100%加入。其他加入者還包括小米（40%）、生產Oppo、Vivo及OnePlus等品牌的中國BBK（70%）、夏普（50%）和Sony（50%）等。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 20 Aug 2021 07:48:12 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146296 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146296#comments</comments>
 </item>
 </channel>
 </rss>
