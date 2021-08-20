@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/213/356" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/213/356</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/213/356" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
     <title>AWS推出可作為主資料庫的記憶體資料庫服務MemoryDB for Redis</title>
     <link>https://www.ithome.com.tw/news/146312</link>
@@ -117,7 +117,7 @@ FinOps全名是Cloud Financial Operations或是Cloud Financial Management，顧�
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146296</guid>
   </item>
   <item>
-    <title>駭客以百萬美元贖金利誘員工，意圖在企業內部植入勒索軟體</title>
+    <title>駭客以百萬美元贖金分紅利誘員工，意圖在企業內部植入勒索軟體</title>
     <link>https://www.ithome.com.tw/news/146295</link>
     <description> 駭客發動勒索軟體攻擊的方式，除了藉由網路攻擊來入侵企業，也可能串通對公司的員工來進行，而無需對付企業對外的資安防護系統。例如，2020年8月美國司法部公布，他們破獲有俄羅斯人企圖買通特斯拉員工，在特斯拉內部植入勒索軟體未果，該公司創辦人暨執行長Elon Musk證實此事時，亦認為這是「計畫完備的攻擊行動」。</description>
      <pubDate>2021-08-20  03:08:30</pubDate>
