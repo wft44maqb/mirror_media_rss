@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>AWS推出可作為主資料庫的記憶體資料庫服務MemoryDB for Redis</title>
+    <link>https://www.ithome.com.tw/news/146312</link>
+    <description> AWS在推出Amazon ElastiCache for Redis全託管記憶體快取服務之後，現在又推出另一款，同樣是相容於Redis的記憶體資料庫服務Amazon MemoryDB for Redis，供開發者建構需要微秒讀取，以及個位數毫秒寫入效能，且具有資料持久性和高可用性的應用程式。</description>
+     <pubDate>2021-08-20  11:08:22</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146312</guid>
+  </item>
+  <item>
     <title>臉書發布VR遠端協作解決方案Horizon Workrooms</title>
     <link>https://www.ithome.com.tw/news/146311</link>
     <description> 臉書推出讓使用者以虛擬實境（VR）的方式，線上交流協作的解決方案Horizon Workrooms，Workrooms讓使用者可以在同一虛擬房間開會、處理文件，或是使用虛擬白板集思廣益，官方提到，這是他們將最新技術整合VR系統Quest 2的新體驗，使用的技術包括混合實境桌面、鍵盤和手部追蹤，遠端桌面串流傳輸、視訊會議、空間音訊以及新的Oculus虛擬形象等。</description>
@@ -245,14 +253,6 @@ VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔
      <pubDate>2021-08-19  11:08:45</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146270</guid>
-  </item>
-  <item>
-    <title>Qualcomm發表下一代5G AI無人機平臺</title>
-    <link>https://www.ithome.com.tw/news/146259</link>
-    <description> Qualcomm（高通）推出全球第一個5G人工智慧無人機平臺，Flight RB5 5G平臺可用於加速和擴展無人機的開發，滿足企業和工業開發無人機應用的需求。Flight RB5 5G平臺採用該公司最新的QRB5165處理器，作為新一代高效能、低功率5G無人機的基礎，Qualcomm希望新平臺能夠加速無人機開發，並且透過邊緣運算，來強化商業、企業和工業無人機應用。</description>
-     <pubDate>2021-08-19  11:08:36</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146259</guid>
   </item>
   </channel>
 </rss>
