@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Fri, 20 Aug 2021 09:12:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[Google 自 Play Store 中下架多個假冒雲端挖礦 app]]></title><link>http://www.twcert.org.tw/tw/cp-104-5024-e6ab7-1.html</link><description><![CDATA[<p><strong>Google 近期自其 Googe Play Store 中下架 8 個蓄意假冒為雲端挖礦服務，實際上會進行各種詐騙的惡意 app；然而資安專家指出在 Google Play Store 上，仍有多個同類惡意 app 並未遭到下架。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Fri, 20 Aug 2021 09:14:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[求職社群網站 LinkedIn 遭發現漏洞，任何人均可冒名任何公司發布職缺訊息]]></title><link>http://www.twcert.org.tw/tw/cp-104-5026-4e217-1.html</link><description><![CDATA[<p><strong>資安專家發現全球熱門求職求才社群網站 LinkedIn 的流程漏洞：任何人均可冒名任何公司張貼虛假求才訊息，不但能取得求職者的詳細資訊，也能夾帶各種惡意檔案。</strong><br />
+<br />
+資安專家 Herman Singh 近曰發現全球熱門求職求才社群網站 LinkedIn，在張貼職缺的流程中存有一個嚴重漏洞，導致任何人均可冒名任何公司張貼虛假求才訊息，不但能取得求職者的詳細資訊，也能夾帶各種惡意檔案，進一步發動各種駭侵攻擊。<br />
+<br />
+據資安專業媒體 BleepingComputer 的測試，LinkedIn 在張貼求才職缺訊息的流程中，預設情形下並未限制僅能由求才公司所屬的帳號來張貼職缺訊息，因此任何人都能「代替」任何公司，在 LinkedIn 上張貼職缺；而且用這種方式張貼出來的職缺，看起來和被冒名公司開出的職缺，幾乎沒有差別。<br />
+<br />
+資安專家指出，LinkedIn 在張貼職缺公告的這個漏洞，將可導致嚴重的資安風險；一來會有很多不知情的求職者，針對虛假的大公司熱門職缺投遞個人履歷，駭侵者可藉以收集大量求職者的機敏個資，包括姓名、性別、Email、照片、工作經歷、連絡方式等資訊，另外還可以在求職訊息中夾帶各式可用來進行駭侵攻擊的元件，例如植入惡意軟體的檔案、將求職者導向惡意網站，以發動釣魚攻擊的連結等等。<br />
+<br />
+BleepingComputer 指出，在 LinkedIn 網站上，並未提供驗證張貼者真實資格的流程，也沒有選項可讓公司行號限制只有哪些帳號可以張貼連結；BleepingComputer 去函微軟公司旗下的 LinkedIn 資安團隊，也沒有得到具體的解釋。<br />
+<br />
+資安專家建議各大公司的人資部門人員，在 LinkedIn 針對此問題提出解決方案前，應該提高警覺，定期巡查自己公司在 LinkedIn 上的相關內容，並且透過搜尋功能，檢視有無任何冒名張貼職缺的情況，發現後即刻回報 LinkedIn 進行處理。</p>]]></description><pubDate>Fri, 20 Aug 2021 09:14:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5026-4e217-1.html</guid></item><item><title><![CDATA[Google 自 Play Store 中下架多個假冒雲端挖礦 app]]></title><link>http://www.twcert.org.tw/tw/cp-104-5024-e6ab7-1.html</link><description><![CDATA[<p><strong>Google 近期自其 Googe Play Store 中下架 8 個蓄意假冒為雲端挖礦服務，實際上會進行各種詐騙的惡意 app；然而資安專家指出在 Google Play Store 上，仍有多個同類惡意 app 並未遭到下架。</strong><br />
 <br />
 Google 近期自其 Googe Play Store 中下架 8 個蓄意假冒為雲端挖礦服務，實際上會進行各種詐騙的惡意 Android app；然而資安廠商趨勢科技旗下的資安專家指出，在 Google Play Store 上，仍有多個同類惡意 app 並未遭到下架。<br />
 <br />
@@ -245,16 +255,4 @@ LockBit 勒贖軟體出現於 2019 年 9 月，是一個「勒贖軟體即服務
 <br />
 該報告也分析了各種應用程式類型的漏洞出現比例。工具類應用程式中，有高達 65% 至少含有一個嚴重資安漏洞，為所有應用類型之冠。<br />
 <br />
-報告也說，教育、製造、零售、批發商等産業的漏洞修復空窗期，在近期也拉長了 4%；醫療産業的空窗期則拉長了 2%。至於金融保險産業的空窗期則略有改善，減少了 2%。</p>]]></description><pubDate>Thu, 29 Jul 2021 09:02:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4959-a4713-1.html</guid></item><item><title><![CDATA[Apple 修復已遭大規模濫用的 iPhone、Mac 0-day 漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-4957-1b8f3-1.html</link><description><![CDATA[<p><strong>Apple 近曰緊急推出 iOS 14.7.1、iPad OS 14,7.1 與 macOS Big Sur 11.5.1，修復一個據信已遭駭侵者大規模用於攻擊的 0-day 資安漏洞。</strong><br />
-<br />
-Apple 近曰緊急推出 iOS 14.7.1、iPad OS 14.7.1 與 macOS Big Sur 11.5.1，修復一個據信已遭駭侵者大規模用於攻擊的 0-day 資安漏洞；擁有這類裝置的用戶，應立即升級至最新作業系統版本。<br />
-<br />
-得到修補的 0-day 漏洞，其 CVE 編號為 CVE-2021-30807，發生在 IOMobileFramebuffer 的核心延伸組件；由於這個組件的記憶體處理錯誤，駭侵者可利用此漏洞，以核心權限遠端執行任意程式碼；不過要利用此漏洞，駭侵者必須先取得裝置的登入權限。<br />
-<br />
-這個漏洞的 CVSS 危險程度評分為 7.5 分，危險程度分級為「高」等級。<br />
-<br />
-Apple 在近期發出的資安通告中指出，該公司已經獲悉這個 0-day 漏洞可能已遭駭侵者用於大規模駭侵攻擊行動，但目前尚無具體攻擊事件的相關情報。<br />
-<br />
-這個漏洞是由匿名的發現者提供給 Apple，Apple 於 7 月 26 曰推出 iOS、iPad OS、macOS 的更新版本，修復此一漏洞。<br />
-<br />
-受此 0-day 漏洞影響的 Apple 各類産品，範圍和數量極廣且多；包括各型 Mac 桌上型與筆記型電腦、iPhone 6s 與所有後續機種、iPad Pro 全系列、iPad Air 2 與後續所有機種、iPad 第五代與所有後續機種、iPad mini 4 與所有後續機種、iPod Touch 第七代等，全都含有該 0-day 漏洞；這些機型的用戶，應立即更新作業系統。</p>]]></description><pubDate>Thu, 29 Jul 2021 08:57:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4957-1b8f3-1.html</guid></item></channel></rss>
+報告也說，教育、製造、零售、批發商等産業的漏洞修復空窗期，在近期也拉長了 4%；醫療産業的空窗期則拉長了 2%。至於金融保險産業的空窗期則略有改善，減少了 2%。</p>]]></description><pubDate>Thu, 29 Jul 2021 09:02:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4959-a4713-1.html</guid></item></channel></rss>
