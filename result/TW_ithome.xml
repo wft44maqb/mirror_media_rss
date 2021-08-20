@@ -6,6 +6,24 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>VS Code  1.59預覽以機器學習技術偵測開發者所編寫的程式語言</title>
+ <link>https://www.ithome.com.tw/news/146279</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟釋出了最新的&lt;a href=&quot;https://code.visualstudio.com/updates/v1_59#_terminal&quot;&gt;VS Code 1.59版本&lt;/a&gt;，在圖形介面區域和編輯器都有更新，同時也改進了終端機操作，另外，這個版本微軟還加入一項預覽功能，能夠使用機器學習技術，自動判斷未命名檔案所使用的程式語言。&lt;/p&gt;
+&lt;p&gt;VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔案所使用的程式語言，微軟提到，該功能使用機器學習技術偵測開發者正在編寫的語言，並且自動設定相對應的語言模式。這項功能使用開源機器學習函式庫Tensorflow.js，以及社群成員所貢獻的機器學習模型。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://code.visualstudio.com/assets/updates/1_59/automaticlanguagedetection.gif&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;目前開發者必需手動啟用該功能，一旦啟動之後，VS Code便會在開發者撰寫程式的時候偵測語言，還會推薦安裝相對應的擴充套件。用戶也可以設定對特定語言不啟用自動偵測功能，像是可以停止自動偵測Markdown無標題檔案。&lt;/p&gt;
+&lt;p&gt;這個VS Code 版本在擴充套件介面，進行多項更改，包括用戶可以放大縮小擴充套件的瀏覽窗格，並且隨著寬度調整顯示的細節，而當用戶把游標懸停在擴充套件上，也會顯示更豐富的訊息，除了詳細的擴充套件描述資訊之外，也會提供停用和推薦等有用訊息。開發者可以在擴充套件窗格中，檢查擴充套件執行時的狀態資訊，包括啟動時間以及過程中所出現的警示和錯誤。&lt;/p&gt;
+&lt;p&gt;設定編輯器也有更新，現在設定編輯器支援物件驗證，也支援多行字串設定，使得設定值能夠在多行文字區域中顯示，而非單行輸入框。而終端機介面現在支援拖放操作，開發者可以將終端機視窗從頁籤列表或是編輯器區域，拖放到另一個視窗的頁籤列表、編輯區域或是面板中。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://code.visualstudio.com/assets/updates/1_59/terminal-dnd.gif&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;而微軟也在這個版本，將原本用來處理讀取*.ipynb檔案的Jupyter Notebook擴充套件，改為新的內建擴充套件，這代表用戶現在可以直接在VS Code開啟Jupyter的筆記本，而不需要完整安裝Jupyter Notebook擴充套件，但是使用執行單元格、使用ipywidgets查看輸出，或是其他複雜的渲染類型，還是必需要安裝Jupyter擴充套件。&lt;/p&gt;
+&lt;p&gt;VS Code  1.59綑綁了跨平臺應用程式開發框架Electron 13，這是一個主要的Electron版本，並且附帶了Chromium 91.0.4472.124，而這個版本的Node.js則沒有更新，仍然是v14.16.0。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 02:21:24 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146279 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146279#comments</comments>
+</item>
+<item>
  <title>針對勒索軟體Diavol與製作TrickBot的駭客組織的關連，IBM找到更多線索</title>
  <link>https://www.ithome.com.tw/news/146280</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;資安業者Fortinet&lt;a href=&quot;https://www.ithome.com.tw/news/145461&quot;&gt;在7月初揭露名為的Diavol勒索軟體&lt;/a&gt;，並基於與Conti有許多共通的特性，認為可能是出自製作Trickbot殭屍病毒的駭客「Wizard Spider」之手。對於這個勒索軟體的研究，最近出現了新的進展：IBM X-Force威脅情報研究團隊指出，&lt;a href=&quot;https://securityintelligence.com/posts/analysis-of-diavol-ransomware-link-trickbot-gang/&quot;&gt;他們找到了Diavol的早期開發版本並進行研究&lt;/a&gt;，根據程式碼的編排方式來判斷，這款勒索軟體應該就是來自Wizard Spider。&lt;/p&gt;
@@ -146,21 +164,6 @@
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="false">146261 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146261#comments</comments>
-</item>
-<item>
- <title>YouTube搜尋改版，將新增影片段落及他國翻譯影片</title>
- <link>https://www.ithome.com.tw/news/146270</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blog.youtube/news-and-events/next-phase-searching-youtube&quot; target=&quot;_blank&quot;&gt;YouTube於17日宣布&lt;/a&gt;，該平臺的搜尋服務將進入下一個階段，當使用者以關鍵字搜尋所需的影片時，將不再只是呈現靜態的畫面，而是會出現影片中不同主題的段落，點選後還可直接播放，另外，就算使用者以中文搜尋，YouTube現在也會主動補充英文的影片內容，未來亦會支援其它語言。&lt;/p&gt;
-&lt;p&gt;光是從影片的標題與部份的文字摘錄，可能很難從YouTube的搜尋結果中找到自己所需的內容，因此，新的搜尋功能所出現的影片將提供不同主題的片段，使用者可直接點選其中一個片段進行觀看，以判斷是否符合需求。&lt;/p&gt;
-&lt;p&gt;舉例來說，當你想要尋找一個酸種食譜，企圖學習揉麵糰的技巧時，藉由新的YouTube搜尋，使用者將可檢視所有的步驟，並直接點選揉麵糰的片段。該功能已率先出現在桌面版的YouTube上，並準備部署至行動裝置。&lt;/p&gt;
-&lt;p&gt;此外，為了打破語言的隔閡，YouTube也將開始於搜尋結果中提供非當地語言的影片。只是，根據Google的說法，現在這個功能只會出現在當使用者以當地語言搜尋卻沒有發現相關結果時，系統就會搜尋基於其它語言的影片內容，而且會自動翻譯這些影片的名稱、描述與字幕。&lt;/p&gt;
-&lt;p&gt;因此，泰國民眾可能可以向麻省理工學院的教授學習量子物理，巴西民眾也可在家探索大峽谷。目前YouTube只會主動補充英文的搜尋結果，但計畫擴張至其它語言，最終目標是讓全球的使用者都能藉由翻譯的字幕存取所有內容。&lt;/p&gt;
-&lt;p&gt;YouTube也已於印度及印尼的行動裝置上測試一項新的功能，亦即在查無相關影片時，於YouTube搜尋結果中提供來自Google Search的網站連結或其它形式的內容，並打算將該功能擴張至其它市場。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 19 Aug 2021 03:11:45 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146270 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146270#comments</comments>
 </item>
 </channel>
 </rss>
