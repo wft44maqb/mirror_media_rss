@@ -1,11 +1,27 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/775" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/775</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/775" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>被法院駁回訴狀的FTC捲土重來，再告臉書壟斷</title>
+    <link>https://www.ithome.com.tw/news/146298</link>
+    <description> 在控告臉書違反美國反托拉斯法令的訴狀遭法官駁回之後，美國聯邦交易委員會（Federal Trade Commission，FTC）本周四（8/19）重新提出了修改後的訴狀，有鑑於法官駁回的理由是「未具備足夠的事實」，FTC這次更有條理的說明了臉書採用「買或掩埋」（buy-or-bury）的策略，來</description>
+     <pubDate>2021-08-20  04:08:10</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146298</guid>
+  </item>
+  <item>
+    <title>美國人口統計局因一起資安事件暴露IT管控失格，被監察長辦公室糾舉多項疏失</title>
+    <link>https://www.ithome.com.tw/news/146297</link>
+    <description> 監察長辦公室（Office of Inspector General，OIG）本周發布一份調查報告，公布美國人口統計局去年初一樁不成功的資安事件中，該局未能事前防禦、又未能及早發現，事後又未見改善的種種缺失。</description>
+     <pubDate>2021-08-20  04:08:08</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146297</guid>
+  </item>
+  <item>
     <title>Epic控告Google壟斷的法院文件顯示，Google曾以提高分潤手段，說服手機廠商不安裝競爭軟體商店App</title>
     <link>https://www.ithome.com.tw/news/146296</link>
     <description> 一項法院文件顯示，Google提供Android裝置廠商優厚的分潤，以換取他們生產的裝置不安裝Google Play Store以外的第三方軟體商店。</description>
@@ -240,25 +256,6 @@ AI內化引爆資料治理需求，轉核也是關鍵推力
      <pubDate>2021-08-18  04:08:40</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146257</guid>
-  </item>
-  <item>
-    <title>資安一周第159期：勒索軟體eCh0raix變種同時鎖定威聯通與群暉NAS下手。勒索軟體LockBit攻擊IT顧問公司Accenture</title>
-    <link>https://www.ithome.com.tw/news/146255</link>
-    <description> 8/12-8/18必看資安新聞
- 
-＃漏洞攻擊  ＃暴力破解  ＃NAS  ＃勒索軟體攻擊
-勒索軟體eCh0raix變種同時具備攻擊威聯通與群暉NAS的能力</description>
-     <pubDate>2021-08-18  03:08:03</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146255</guid>
-  </item>
-  <item>
-    <title>Google發表支援5G的Pixel 5a，將是最後一款附有充電器的Pixel手機</title>
-    <link>https://www.ithome.com.tw/news/146254</link>
-    <description> Google周二（8/17）發表了入門款的5G手機Pixel 5a，它是首款具備IP67防塵暨防水功能的A系列Pixel手機，也將是最後一款附有充電器的Pixel手機，它的規格與去年發表的Pixel 5高階手機非常類似，售價為449美元，不過，Pixel 5a目前只在美國與日本銷售，Google並未揭露是否有擴張至其它市場的計畫。</description>
-     <pubDate>2021-08-18  03:08:27</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146254</guid>
   </item>
   </channel>
 </rss>

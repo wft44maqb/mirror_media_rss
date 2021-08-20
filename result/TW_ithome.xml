@@ -6,7 +6,23 @@
  <description></description>
  <language>zh-hant</language>
 <item>
- <title>美國人口統計局因去年一起資安事件暴露IT管控缺失，被糾舉多項疏失</title>
+ <title>被法院駁回訴狀的FTC捲土重來，再告臉書壟斷</title>
+ <link>https://www.ithome.com.tw/news/146298</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在&lt;a href=&quot;https://www.ithome.com.tw/news/145313&quot; target=&quot;_blank&quot;&gt;控告臉書違反美國反托拉斯法令的訴狀遭法官駁回&lt;/a&gt;之後，美國聯邦交易委員會（Federal Trade Commission，FTC）&lt;a href=&quot;https://storage.courtlistener.com/recap/gov.uscourts.dcd.224921/gov.uscourts.dcd.224921.75.1_1.pdf&quot; target=&quot;_blank&quot;&gt;本周四（8/19）重新提出了修改後的訴狀&lt;/a&gt;，有鑑於法官駁回的理由是「未具備足夠的事實」，FTC這次更有條理的說明了臉書採用「買或掩埋」（buy-or-bury）的策略，來擊退競爭對手，維持自己的壟斷地位。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ftc.gov/news-events/press-releases/2021/08/ftc-alleges-facebook-resorted-illegal-buy-or-bury-scheme-crush&quot; target=&quot;_blank&quot;&gt;FTC指控&lt;/a&gt;，臉書總是在自己的服務不如人之際，以併購作為消滅競爭對手的手段，例如在臉書未能成功從桌面平台轉至行動平台時，於2012年買下了Instagram，再於2014年吞併WhatsApp。&lt;/p&gt;
+&lt;p&gt;且為了進一步維持獨占地位，臉書先利用開放為名，吸引開發者至該平台，再透過政策來箝制開發者成為競爭對手的機會。&lt;/p&gt;
+&lt;p&gt;FTC在訴狀中描述，臉書於2007年時積極邀請開放者加入該平台，允許開發者存取能與臉書互動的APIs，此一政策加速了臉書平台的發展，也間接帶動臉書的廣告獲利，但隨著開發者的服務大受歡迎，臉書卻又變更其API政策，要求開發者必須同意不與臉書的核心服務競爭，也不促進臉書潛在對手成長的狀況下，才能存取臉書平台。&lt;/p&gt;
+&lt;p&gt;此一政策的變更，等同於減少開發者成為臉書競爭對手的機會。&lt;/p&gt;
+&lt;p&gt;此外，FTC也認為，臉書龐大的用戶基礎，以及用戶之間的緊密連結，使得幾乎沒有其它社交平台得以與之競爭。&lt;/p&gt;
+&lt;p&gt;FTC指出，不管是併購競爭對手或者是抑制潛在的競爭對手，都將強化臉書的獨占地位，使得臉書能持續推廣基於監控的廣告模式，且缺乏競爭的結果也可能造成服務品質的下降，因而希望可藉由司法制度，糾正或預防臉書所採取的反競爭手法。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 08:15:10 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146298 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146298#comments</comments>
+</item>
+<item>
+ <title>美國人口統計局因一起資安事件暴露IT管控失格，被監察長辦公室糾舉多項疏失</title>
  <link>https://www.ithome.com.tw/news/146297</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;監察長辦公室（Office of Inspector General，&lt;a href=&quot;https://www.oig.doc.gov/OIGPublications/OIG-21-034-A.pdf&quot; target=&quot;_blank&quot;&gt;OIG）本周發布一份調查報告&lt;/a&gt;，公布美國人口統計局去年初一樁不成功的資安事件中，該局未能事前防禦、又未能及早發現，事後又未見改善的種種缺失。&lt;/p&gt;
 &lt;p&gt;這份美國政府文件顯示，去年1月11日美國人口統計局（Census Bureau）管理的數臺伺服遭到以公開可取得的開採工具攻擊。這些伺服器主要是用於員工遠端存取以進行任務作業、開發及實驗之用。攻擊者企圖遠端執行程式碼，成功變更了系統上使用者帳號資料，但是未能如願在系統上植入後門程式，因此攻擊者未能成功駭入該單位網路。&lt;/p&gt;
@@ -143,21 +159,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146278 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146278#comments</comments>
-</item>
-<item>
- <title>研究人員揭露蘋果掃描機制含有安全漏洞，蘋果：那不是蘋果所採用的版本</title>
- <link>https://www.ithome.com.tw/news/146277</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;蘋果計畫在今年問世的iOS中嵌入兒童色情掃描機制，以遏制兒童性剝削內容（Child Sexual Abuse Material，CSAM）的散布，然而，隱私與安全專家群起反對，本周一名GitHub用戶&lt;a href=&quot;https://github.com/AsuharietYgvar/AppleNeuralHash2ONNX&quot; target=&quot;_blank&quot;&gt;Asuhariet Ygvar公布了&lt;/a&gt;蘋果用來將CSAM加密的NeuralHash雜湊技術模型，幾小時後就有另一名用戶Cory Cornelius找到該演算法的漏洞，製造了雜湊碰撞（Hash Collisions），讓兩張不同的圖片產生一樣的加密指紋，然而，&lt;a href=&quot;https://www.vice.com/en/article/wx5yzq/apple-defends-its-anti-child-abuse-imagery-tech-after-claims-of-hash-collisions&quot; target=&quot;_blank&quot;&gt;蘋果向Motherboard表示&lt;/a&gt;，Ygvar所公布的NeuralHash是通用版，並非蘋果所採用的版本。&lt;/p&gt;
-&lt;p&gt;蘋果準備在iOS 15、iPadOS 15、watchOS 8與macOS Monterey等作業系統上嵌入CSAM資料庫，並透過NeuralHash將資料庫中的照片轉換成獨立的加密金鑰，當使用者要將照片上傳到iCloud時，系統就會將該照片與CSAM資料庫進行比對，在符合的筆數達到30筆之後，就會觸動警報，再改由人工手動檢查這些照片，決定是否通報主管機關或關閉使用者帳號。&lt;/p&gt;
-&lt;p&gt;雖然蘋果的用意是為了保護兒童，但隱私與安全專家卻認為此事不可為，認為CSAM偵測功能將成為蘋果作業系統的後門，已有超過8,000名GitHub用戶連署反對，電子前線基金會（Electronic Frontier Foundation，EFF）&lt;a href=&quot;https://act.eff.org/action/tell-apple-don-t-scan-our-phones&quot; target=&quot;_blank&quot;&gt;亦於近日發動連署&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;在反對之餘，資安專家也詳細檢視蘋果的作法，包括NeuralHash在內。儘管蘋果宣稱未來的作業系統使用的是蘋果變更過的NeuralHash版本，而不是Ygvar所公布的版本，但約翰霍普金斯大學的密碼學教授Matthew Green認為，碰撞既然會發生在一般版的NeuralHash，應該也會發生在蘋果的版本上。&lt;/p&gt;
-&lt;p&gt;只不過，目前看來NeuralHash的碰撞並不會對CSAM的偵測帶來太多問題，因為它頂多可把非CSAM的圖片標記成CSAM圖片，快速達到跳出警告的30張門檻，造成手動檢查人員的困擾。&lt;/p&gt;
-&lt;p&gt;即使外界的反對聲浪不斷，惟迄今蘋果仍尚未釋出可能改變心意的訊息。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 19 Aug 2021 09:18:41 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146277 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146277#comments</comments>
 </item>
 </channel>
 </rss>
