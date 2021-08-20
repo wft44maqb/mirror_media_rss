@@ -6,6 +6,37 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>AWS推出可作為主資料庫的記憶體資料庫服務MemoryDB for Redis</title>
+ <link>https://www.ithome.com.tw/news/146312</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS在推出Amazon ElastiCache for Redis全託管記憶體快取服務之後，現在又推出另一款，同樣是相容於Redis的記憶體資料庫服務&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/introducing-amazon-memorydb-for-redis-a-redis-compatible-durable-in-memory-database-service/&quot;&gt;Amazon MemoryDB for Redis&lt;/a&gt;，供開發者建構需要微秒讀取，以及個位數毫秒寫入效能，且具有資料持久性和高可用性的應用程式。&lt;/p&gt;
+&lt;p&gt;由於互動式應用程式需要快速地處理請求和回應，AWS提到，當開發者採用微服務，且架構由許多相互獨立的小服務組成時，低延遲的請求處理和回應速度更是重要。資料庫在應用程式的效能占重要的位置，而要將讀取延遲降低到微秒等級，開發者通常會在持久資料庫前，設置像是Redis等記憶體快取。&lt;/p&gt;
+&lt;p&gt;之前AWS所推出的Amazon ElastiCache for Redis，便是讓用戶在AWS雲端上，使用該服務作為Amazon Aurora或Amazon DynamoDB等持久資料庫的低延遲快取，不過這樣的配置，使用者必須要自己定義維持快取和資料庫同步的邏輯，並且也會產生執行快取和資料庫的成本。&lt;/p&gt;
+&lt;p&gt;而AWS現在推出的Amazon MemoryDB for Redis就是要來簡化這個架構，用戶可以將MemoryDB直接用作單個主要資料庫，而不僅是持久資料庫之前的低延遲快取，也就是說，使用MemoryDB，用戶的所有資料都會儲存在記憶體中，進而實現低延遲和高吞吐量的資料存取能力。MemoryDB使用分散式交易性日誌，能跨可用區域儲存，支援資料恢復和節點重啟，具有高持久性。&lt;/p&gt;
+&lt;p&gt;AWS解釋MemoryDB和ElastiCache適合的情境，MemoryDB能夠成為應用程式的主資料庫，提供資料持久性，而且微秒讀取和毫秒寫入的速度，使用MemoryDB就不需要在資料庫之前添加快取，就可實現互動式應用程式和微服務架構所需要的低延遲。而ElastiCache對讀取和寫入都提供微秒延遲，適用於快取工作負載，可加快現有資料庫的存取速度，在用戶可以接受資料丟失的情況，也可以將ElastiCache用作主資料庫儲存。&lt;/p&gt;
+&lt;p&gt;Amazon MemoryDB for Redis目前已在美東、歐洲和南美洲上線，亞洲則是孟買地區，用戶可以使用AWS控制臺、命令列介面和AWS開發工具包，快速創建MemoryDB叢集，能夠從ElastiCache搬遷到MemoryDB，或是使用儲存在Amazon S3上的Redis備份檔案創建叢集。值得注意的是，目前MemoryDB僅支援R6g Graviton2執行個體。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 15:19:22 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146312 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146312#comments</comments>
+</item>
+<item>
+ <title>臉書發布VR遠端協作解決方案Horizon Workrooms</title>
+ <link>https://www.ithome.com.tw/news/146311</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;臉書推出讓使用者以虛擬實境（VR）的方式，線上交流協作的解決方案&lt;a href=&quot;https://about.fb.com/news/2021/08/introducing-horizon-workrooms-remote-collaboration-reimagined/&quot;&gt;Horizon Workrooms&lt;/a&gt;，Workrooms讓使用者可以在同一虛擬房間開會、處理文件，或是使用虛擬白板集思廣益，官方提到，這是他們將最新技術整合VR系統Quest 2的新體驗，使用的技術包括混合實境桌面、鍵盤和手部追蹤，遠端桌面串流傳輸、視訊會議、空間音訊以及新的Oculus虛擬形象等。&lt;/p&gt;
+&lt;p&gt;Workrooms是一個虛擬會議空間，使用者可以從任何地方，使用虛擬形象加入虛擬實境會議，Workrooms提供混合實境的體驗，因此實體的辦公桌和相容的鍵盤，也能呈現在這個虛擬空間中，結合使用適用於Mac和Windows的Oculus遠端桌面配套應用程式，就可以在虛擬實境中存取電腦，或是在會議中做筆記，將檔案帶入虛擬空間中，甚至可以和同事共享螢幕。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/CD21_546-_-NRP-Oculus-Cross-Post_-Horizon-Workrooms-Launch_Inline-2.jpg&quot; style=&quot;width: 580px; height: 326px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Oculus虛擬形象和空間音訊功能，讓使用者在虛擬環境中，能夠有身歷其境的感覺，除了虛擬人物外型可以精細的自定義外，高品質與低延遲的空間音訊，也能進行逼真的對話，依據虛擬空間中的方位，使用者透過耳機可聽到具空間感的聲音，就像在真實的房間中一樣。&lt;/p&gt;
+&lt;p&gt;虛擬會議空間中的虛擬白板，可供使用者方便的構思，每個虛擬空間都有無限的白板空間，用戶藉由使用控制器就能夠像使用白板筆，在白板上繪製或是書寫，而且用戶還可以將電腦中的圖片，固定在白板上，供一同開會的成員查看。該白板會一直存在於虛擬空間中，因此可以隨時回來同一個房間工作，並且查看白板上的內容，或是以圖片的形式匯出白板，供後續查看。&lt;/p&gt;
+&lt;p&gt;即便沒有頭戴裝置，無法加入虛擬實境的空間，也能夠以視訊通話一起開會，使用者可以從電腦上連接Workrooms房間，或是由成員邀請來賓進入，共享會議與一般視訊會議軟體一樣，可以透過簡單的連結加入，視訊會議參加者會出現在房間，以螢幕畫面的方式呈現，就像是真實的會議一樣。Workrooms支援最多16個虛擬實境參加者，視訊和音訊通話則最多50位。&lt;/p&gt;
+&lt;p&gt;Workrooms網路應用程式目前在臉書服務的地區提供，使用者可以使用虛擬實境和電腦輕鬆協作，每個房間都有一個網路空間，能夠在開會過程紀錄筆記、操作項目、連結和檔案，以及團隊的聊天，使用者可以將會議排程整合到Outlook或Google日曆，並方便地發送會議邀請。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 20 Aug 2021 15:15:22 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146311 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146311#comments</comments>
+</item>
+<item>
  <title>Go 1.17改進編譯器提升程式執行效能</title>
  <link>https://www.ithome.com.tw/news/146303</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Go團隊發布了最新版本&lt;a href=&quot;https://go.dev/blog/go1.17&quot;&gt;1.17&lt;/a&gt;，這個版本改進了編譯器，在傳遞函式參數和結果，使用了新的方法，而這項改進使得Go程式的效能得以提高約5％，amd64平臺的二進位檔案大小減少2％，官方提到，未來版本還會支援更多的平臺。另外，Go 1.17還增加對Windows上64位元Arm架構的支援，因此Go程式可以在更多的裝置上原生運作。&lt;/p&gt;
@@ -180,36 +211,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146300 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146300#comments</comments>
-</item>
-<item>
- <title>被法院駁回訴狀的FTC捲土重來，再告臉書壟斷</title>
- <link>https://www.ithome.com.tw/news/146298</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在&lt;a href=&quot;https://www.ithome.com.tw/news/145313&quot; target=&quot;_blank&quot;&gt;控告臉書違反美國反托拉斯法令的訴狀遭法官駁回&lt;/a&gt;之後，美國聯邦交易委員會（Federal Trade Commission，FTC）&lt;a href=&quot;https://storage.courtlistener.com/recap/gov.uscourts.dcd.224921/gov.uscourts.dcd.224921.75.1_1.pdf&quot; target=&quot;_blank&quot;&gt;本周四（8/19）重新提出了修改後的訴狀&lt;/a&gt;，有鑑於法官駁回的理由是「未具備足夠的事實」，FTC這次更有條理的說明了臉書採用「買或掩埋」（buy-or-bury）的策略，來擊退競爭對手，維持自己的壟斷地位。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ftc.gov/news-events/press-releases/2021/08/ftc-alleges-facebook-resorted-illegal-buy-or-bury-scheme-crush&quot; target=&quot;_blank&quot;&gt;FTC指控&lt;/a&gt;，臉書總是在自己的服務不如人之際，以併購作為消滅競爭對手的手段，例如在臉書未能成功從桌面平台轉至行動平台時，於2012年買下了Instagram，再於2014年吞併WhatsApp。&lt;/p&gt;
-&lt;p&gt;且為了進一步維持獨占地位，臉書先利用開放為名，吸引開發者至該平台，再透過政策來箝制開發者成為競爭對手的機會。&lt;/p&gt;
-&lt;p&gt;FTC在訴狀中描述，臉書於2007年時積極邀請開放者加入該平台，允許開發者存取能與臉書互動的APIs，此一政策加速了臉書平台的發展，也間接帶動臉書的廣告獲利，但隨著開發者的服務大受歡迎，臉書卻又變更其API政策，要求開發者必須同意不與臉書的核心服務競爭，也不促進臉書潛在對手成長的狀況下，才能存取臉書平台。&lt;/p&gt;
-&lt;p&gt;此一政策的變更，等同於減少開發者成為臉書競爭對手的機會。&lt;/p&gt;
-&lt;p&gt;此外，FTC也認為，臉書龐大的用戶基礎，以及用戶之間的緊密連結，使得幾乎沒有其它社交平台得以與之競爭。&lt;/p&gt;
-&lt;p&gt;FTC指出，不管是併購競爭對手或者是抑制潛在的競爭對手，都將強化臉書的獨占地位，使得臉書能持續推廣基於監控的廣告模式，且缺乏競爭的結果也可能造成服務品質的下降，因而希望可藉由司法制度，糾正或預防臉書所採取的反競爭手法。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 20 Aug 2021 08:15:10 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146298 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146298#comments</comments>
-</item>
-<item>
- <title>美國人口統計局因一起資安事件暴露IT管控失格，被監察長辦公室糾舉多項疏失</title>
- <link>https://www.ithome.com.tw/news/146297</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;監察長辦公室（Office of Inspector General，&lt;a href=&quot;https://www.oig.doc.gov/OIGPublications/OIG-21-034-A.pdf&quot; target=&quot;_blank&quot;&gt;OIG）本周發布一份調查報告&lt;/a&gt;，公布美國人口統計局去年初一樁不成功的資安事件中，該局未能事前防禦、又未能及早發現，事後又未見改善的種種缺失。&lt;/p&gt;
-&lt;p&gt;這份美國政府文件顯示，去年1月11日美國人口統計局（Census Bureau）管理的數臺伺服遭到以公開可取得的開採工具攻擊。這些伺服器主要是用於員工遠端存取以進行任務作業、開發及實驗之用。攻擊者企圖遠端執行程式碼，成功變更了系統上使用者帳號資料，但是未能如願在系統上植入後門程式，因此攻擊者未能成功駭入該單位網路。&lt;/p&gt;
-&lt;p&gt;OIG於去年11月到今年3月著手調查。他們也點出人口統計局的數項缺失，包括未能在2019年12月伺服器廠商發布漏洞資訊，以及美國標準與技術研究所（NIST）將伺服器漏洞列為「重大」時及時修補，導致隔年1月的資安事件。此外，該局資安事件管理（SIEM）系統並未用於主動防禦，只作為被動調查，因而未能偵測伺服器的惡意活動，期間雖也接獲第三方廠商惡意IP情報，但管理員誤判以為已封鎖，遲至2周後才察覺異狀。另外，事發後，人口統計局系統設定疏失，未保留足夠的伺服器log，以致延誤調查。&lt;/p&gt;
-&lt;p&gt;OIG還發現，人口統計局心存僥倖，不但事件發生後未能強化資安管理，甚至還持續使用受入侵、且已經EoL（end of life）的原本那幾臺伺服器。&lt;/p&gt;
-&lt;p&gt;最後，OIG在報告中提出建議，要求人口統計局改善，包括定期全系統漏洞掃瞄、自動化安全通知、蒐集系統log、強化人員教育、事件回應流程、資安政策落實，以及建立EoL產品除役政策等。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 20 Aug 2021 08:02:08 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146297 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146297#comments</comments>
 </item>
 </channel>
 </rss>
