@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Aug 2021 05:13:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Aug 2021 05:15:51 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Aug 2021 05:13:18 GMT</pubDate>
+        <pubDate>Fri, 20 Aug 2021 05:15:51 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -27,13 +27,6 @@
         <category><![CDATA[華爾街日報]]></category>
         <category><![CDATA[華爾街日報中文網]]></category>
         <category><![CDATA[Wall Street Journal]]></category>
-        <item>
-            <title><![CDATA[習近平強調共同富裕，希望回歸中共初心]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LP765_CPROSP_OR_20210818073457.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國領導人習近平暗示，將實施力度更大的計劃來促進社會公平，力圖為中國共產黨的持續執政夯實民眾基礎。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%BF%92%E8%BF%91%E5%B9%B3%E5%BC%B7%E8%AA%BF%E5%85%B1%E5%90%8C%E5%AF%8C%E8%A3%95%EF%BC%8C%E5%B8%8C%E6%9C%9B%E5%9B%9E%E6%AD%B8%E4%B8%AD%E5%85%B1%E5%88%9D%E5%BF%83-11629358206</link>
-            <guid isPermaLink="false">CT-BCH-20210819141206</guid>
-            <pubDate>Fri, 20 Aug 2021 03:45:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[中國通過全球最嚴格的數據私隱保護法之一]]></title>
             <description><![CDATA[<img width="1280" height="852" src="https://si.wsj.net/public/resources/images/S1-LQ677_cdatal_OR_20210819230703.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國批准了一項全面的私隱保護法，將控制科技公司各類數據收集，但政策分析師說，這不太可能限制中國國內對監控的廣泛使用。</p>]]></description>
@@ -61,6 +54,13 @@
             <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E5%A4%AE%E8%A1%8C1%E5%B9%B4%E6%9C%9F%E5%92%8C5%E5%B9%B4%E6%9C%9F%E4%BB%A5%E4%B8%8Alpr%E7%B9%BC%E7%BA%8C%E4%BF%9D%E6%8C%81%E4%B8%8D%E8%AE%8A%EF%BC%8C%E5%84%98%E7%AE%A1%E5%B8%82%E5%A0%B4%E6%86%A7%E6%86%AC%E5%AF%AC%E9%AC%86-11629425233</link>
             <guid isPermaLink="false">CT-FIN-20210820095826</guid>
             <pubDate>Fri, 20 Aug 2021 03:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中國關閉一家美國在華勞動審計機構，加大反擊強迫勞動指控]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ324_VERITE_OR_20210819110058.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國有關部門關閉了一家美國勞動審計公司在中國的合作夥伴，該機構被迪士尼和蘋果聘請為中國工廠的勞工問題做諮詢，這次行動可能會加大跨國公司在中國認證供應鏈的難度。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%BC%B7%E8%BF%AB%E5%8B%9E%E5%8B%95%E6%8C%87%E7%A8%B1%E5%B0%8E%E8%87%B4%E7%B7%8A%E5%BC%B5%E5%B1%80%E5%8B%A2%E5%8D%87%E7%B4%9A%E4%B9%8B%E9%9A%9B%EF%BC%8C%E4%B8%AD%E5%9C%8B%E9%97%9C%E9%96%89%E4%B8%80%E5%AE%B6%E7%BE%8E%E5%9C%8B%E5%9C%A8%E8%8F%AF%E5%8B%9E%E5%8B%95%E5%AF%A9%E8%A8%88%E6%A9%9F%E6%A7%8B-11629417606</link>
+            <guid isPermaLink="false">CT-BGH-20210820074657</guid>
+            <pubDate>Fri, 20 Aug 2021 01:05:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[塔利班武力驅散抗議人群，數千人尋求逃離阿富汗]]></title>
