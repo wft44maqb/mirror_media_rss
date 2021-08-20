@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=635&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>微軟明年調漲企業版Office 365、Microsoft 365價格</title>
+    <link>https://www.ithome.com.tw/news/146291</link>
+    <description> 微軟昨（19）日宣布，明年三月調漲企業版Office 365及Microsoft 365，消費版及教育版則維持價格不變。</description>
+     <pubDate>2021-08-20  10:08:47</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146291</guid>
+  </item>
+  <item>
     <title>Git 2.33加入新的合併策略可提升合併效能達9,000倍</title>
     <link>https://www.ithome.com.tw/news/146281</link>
     <description> Git 2.33現在已經推出，有不少使用者不會有太大感覺的背景修改，不過仍有新功能可以提升開發者的日常使用經驗，像是這個版本新增一種稱為merge-ort的合併策略，能解決合併正確性和效能方面的問題，並且作為未來新功能的基礎。</description>
@@ -253,15 +261,6 @@ AI內化引爆資料治理需求，轉核也是關鍵推力
      <pubDate>2021-08-18  02:08:37</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146253</guid>
-  </item>
-  <item>
-    <title>英特爾將終止RealSense相機業務</title>
-    <link>https://www.ithome.com.tw/news/146252</link>
-    <description> CRN報導，處理器大廠英特爾重整半導體晶片業務之際，也將關閉近年衍生的智慧相機RealSense業務。
-這消息獲得英特爾官方證實。英特爾表示公司將關閉RealSense業務，並將電腦視覺、技術和產品移轉出去，以著重推動核心業務及IDM2.0的技術創新。英特爾也表示將持續支援現有客戶，並與員工及客戶合作確保「平順移轉」。</description>
-     <pubDate>2021-08-18  12:08:15</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146252</guid>
   </item>
   </channel>
 </rss>
