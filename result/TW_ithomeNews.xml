@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/21" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/atom/21</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/21" rel="self" type="application/rss+xml" />
       <item>
     <title>雲端新省錢術FinOps</title>
     <link>https://www.ithome.com.tw/voice/146307</link>
@@ -62,6 +62,14 @@ FinOps全名是Cloud Financial Operations或是Cloud Financial Management，顧�
      <pubDate>2021-08-20  03:08:12</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146296</guid>
+  </item>
+  <item>
+    <title>駭客以百萬美元贖金利誘員工，意圖在企業內部植入勒索軟體</title>
+    <link>https://www.ithome.com.tw/news/146295</link>
+    <description> 駭客發動勒索軟體攻擊的方式，除了藉由網路攻擊來入侵企業，也可能串通對公司的員工來進行，而無需對付企業對外的資安防護系統。例如，2020年8月美國司法部公布，他們破獲有俄羅斯人企圖買通特斯拉員工，在特斯拉內部植入勒索軟體未果，該公司創辦人暨執行長Elon Musk證實此事時，亦認為這是「計畫完備的攻擊行動」。</description>
+     <pubDate>2021-08-20  03:08:30</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146295</guid>
   </item>
   <item>
     <title>微軟明年調漲企業版Office 365、Microsoft 365價格</title>
@@ -246,17 +254,6 @@ VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔
      <pubDate>2021-08-19  07:08:00</pubDate>
  <dc:creator>王宏仁</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/voice/146203</guid>
-  </item>
-  <item>
-    <title>【強化資料治理，今年聚焦MLOps人機協作】不惜發動29年最大組織改造，玉山要打造一條鞭資料治理流程</title>
-    <link>https://www.ithome.com.tw/news/146202</link>
-    <description> 今年初，玉山金控振奮地宣布成立法人金融事業總處和個人金融事業總處，來聚焦跨境、數位、風險管理三大策略和ESG永續發展。玉山銀行董事長黃男州更揭露，大個金將整合玉山的通路、客群和產品部門，甚至是數位金融處，來共同創造客戶價值。
-這是玉山29年來最大規模的組織改造。但玉山沒明說的是，這也是他們實踐資料治理的關鍵一步。
-AI內化引爆資料治理需求，轉核也是關鍵推力
-為何一個資料治理，能讓玉山如此勞師動眾？</description>
-     <pubDate>2021-08-19  07:08:00</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146202</guid>
   </item>
   </channel>
 </rss>
