@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-20T11:30:42Z</updated>
+ <updated>2021-08-20T11:33:15Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58924132</id>
+  <title><![CDATA[ “三次分配”助中国减少贫富差距？]]></title>
+  <updated>2021-08-20T11:13:00Z</updated>
+  <published>2021-08-20T11:13:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/三次分配-助中国减少贫富差距？/a-58924132?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[日前习近平主持的一次中共中央财经委会议，在“共同富裕”的议题下提出“三次分配”的规划，引起舆论的关注。什么是“三次分配”，它能减少收入和财富的巨大差距吗？]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58919548</id>
   <title><![CDATA[北京意外推迟表决《反外国制裁法》在港实施]]></title>
@@ -155,16 +165,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58907207</id>
-  <title><![CDATA[海地震后死亡攀升 民众苦等救援日益绝望]]></title>
-  <updated>2021-08-19T12:00:00Z</updated>
-  <published>2021-08-19T12:00:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/海地震后死亡攀升-民众苦等救援日益绝望/a-58907207?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[海地地震造成的死亡人数已升至近2200人，与此同时，余震仍接连不断。幸存者亟需援助，然而某些帮派控制公路交通，导致安全状况堪忧，救援人员最初难以抵达灾区。]]></summary>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58906652</id>
   <title><![CDATA[中国盼塔利班与恐怖势力彻底切割]]></title>
   <updated>2021-08-19T11:05:00Z</updated>
@@ -192,26 +192,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美国卫生官员：准备9月底开打加强针/a-58903119?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[美国卫生官员周三（8月18日）宣布让所有美国人接种新冠肺炎加强针的规划，并预计将从9月20日那周开始施打。不过，外界也出现不同的声音。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58901639</id>
-  <title><![CDATA[塔利班见前阿富汗总统  东部大城传示威者丧命]]></title>
-  <updated>2021-08-19T06:27:00Z</updated>
-  <published>2021-08-19T06:27:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班见前阿富汗总统-东部大城传示威者丧命/a-58901639?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[塔利班高层18日会见了前总统卡尔扎伊与前首席执行官阿卜杜拉，商讨组建政府之事。目前在阿联酋避难的前总统加尼称，他支持相关谈判。但与此同时，阿富汗东部城市传出示威者死亡的消息。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58902235</id>
-  <title><![CDATA[孟晚舟案结束听证会  10月公布裁决日期]]></title>
-  <updated>2021-08-19T05:54:00Z</updated>
-  <published>2021-08-19T05:54:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/孟晚舟案结束听证会-10月公布裁决日期/a-58902235?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[孟晚舟案的最後一轮听证会周三(8月18日)结束，法官表示将在10月21日确定最後裁决日期。若决定引渡，此案将交付加拿大司法部长，孟晚舟也会有30天的时间提出上诉。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -630,15 +610,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -646,6 +617,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
