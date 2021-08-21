@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Aug 2021 15:15:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Aug 2021 15:18:03 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 21 Aug 2021 15:15:31 GMT</pubDate>
+        <pubDate>Sat, 21 Aug 2021 15:18:03 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -27,6 +27,13 @@
         <category><![CDATA[華爾街日報]]></category>
         <category><![CDATA[華爾街日報中文網]]></category>
         <category><![CDATA[Wall Street Journal]]></category>
+        <item>
+            <title><![CDATA[中國通過數據私隱保護法，嚴厲程度全球居前]]></title>
+            <description><![CDATA[<img width="1280" height="852" src="https://si.wsj.net/public/resources/images/S1-LQ677_cdatal_OR_20210819230703.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國批准了一項全面的私隱保護法，將遏制科技公司對各類數據的收集行為。但政策分析人士說，這不太可能限制中國普遍存在的監控做法。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E9%80%9A%E9%81%8E%E5%85%A8%E7%90%83%E6%9C%80%E5%9A%B4%E6%A0%BC%E7%9A%84%E6%95%B8%E6%93%9A%E7%A7%81%E9%9A%B1%E4%BF%9D%E8%AD%B7%E6%B3%95%E4%B9%8B%E4%B8%80-11629430506</link>
+            <guid isPermaLink="false">CT-BCH-20210820112403</guid>
+            <pubDate>Fri, 20 Aug 2021 11:35:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[中國推遲在港實施反制裁法]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ722_hksanc_OR_20210820071934.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據香港人大代表譚耀宗周五表示，全國人大常委會周五決定暫時不推進可能禁止香港銀行和企業遵守對中國公民制裁的計劃，對有關問題繼續進行研究。</p>]]></description>
@@ -82,6 +89,13 @@
             <link>https://cn.wsj.com/articles/autopilot%E9%81%AD%E8%AA%BF%E6%9F%A5%E4%B9%8B%E9%9A%9B%EF%BC%8C%E9%A6%AC%E6%96%AF%E5%85%8B%E8%88%89%E8%BE%A6%E7%89%B9%E6%96%AF%E6%8B%89ai%E6%97%A5%E6%B4%BB%E5%8B%95-11629429006</link>
             <guid isPermaLink="false">CT-TEC-20210820105213</guid>
             <pubDate>Sat, 21 Aug 2021 02:25:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中概股簡報：《人民日報》呼籲加強互聯網處方監管引發強烈擔憂]]></title>
+            <description><![CDATA[<img width="749" height="499" src="https://si.wsj.net/public/resources/images/BN-IS648_0603cs_P_20150603073143.jpg" class="webfeedsFeaturedVisual" alt=""/><p>阿里巴巴港股續創新低，多家國產獨立遊戲廠商發布反淘寶盜版聯合聲明；報導稱Google曾計劃向騰訊收購Epic Games股份；螞蟻集團螞蟻鏈與天能鋰電達成新能源領域深度合作。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%B8%AD%E6%A6%82%E8%82%A1%E7%B0%A1%E5%A0%B1%EF%BC%9A%E3%80%8A%E4%BA%BA%E6%B0%91%E6%97%A5%E5%A0%B1%E3%80%8B%E5%91%BC%E7%B1%B2%E5%8A%A0%E5%BC%B7%E4%BA%92%E8%81%AF%E7%B6%B2%E8%99%95%E6%96%B9%E7%9B%A3%E7%AE%A1%E5%BC%95%E7%99%BC%E5%BC%B7%E7%83%88%E6%93%94%E6%86%82-11629512534</link>
+            <guid isPermaLink="false">CT-MKT-20210821100829</guid>
+            <pubDate>Sat, 21 Aug 2021 02:31:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[亞馬遜開設實體商店自有道理]]></title>
