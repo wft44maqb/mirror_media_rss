@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-21T12:29:37Z</updated>
+ <updated>2021-08-21T12:32:19Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58940788</id>
+  <title><![CDATA[巴基斯坦中国公民再次遭遇自杀式袭击]]></title>
+  <updated>2021-08-21T12:10:00Z</updated>
+  <published>2021-08-21T12:10:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/巴基斯坦中国公民再次遭遇自杀式袭击/a-58940788?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[在巴基斯坦西南部的俾路支省再次发生自杀式袭击后，中国再次提醒在巴基斯坦的中国公民提高警惕，并敦促该国有关部门采取有效防御措施。分离主义叛乱分子组成的俾路支解放军声称对爆炸事件负责。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58940628</id>
   <title><![CDATA[默克尔访俄：要求普京向塔利班施压]]></title>
@@ -185,16 +195,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58914557</id>
-  <title><![CDATA[塔利班射杀德国之声记者家人 多家德媒吁柏林协助]]></title>
-  <updated>2021-08-20T04:16:00Z</updated>
-  <published>2021-08-20T04:16:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班射杀德国之声记者家人-多家德媒吁柏林协助/a-58914557?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[消息指出，连日来塔利班突袭了至少三名德国之声记者在阿富汗的家，其中一名记者的一名家人遭塔利班成员杀害，另一名家人不幸受重伤。德国之声联合其他媒体，呼吁德国政府确保记者在阿富汗的安全。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58914555</id>
   <title><![CDATA[英特尔公开与台积电合作细节  以5奈米生产绘图芯片]]></title>
   <updated>2021-08-20T04:01:00Z</updated>
@@ -213,16 +213,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：北京为何要为塔利班铺红毯？/a-58910134?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[《世界报》指出，虽然中俄对于美国在阿富汗的失败幸灾乐祸，但在阿富汗问题上美俄中的态度相去不远，中国人虽喜谈经济项目，但当下聚焦的是边境安全的不确定性。《巴登日报》认为，为预防阿富汗成为新疆独立势力的助力，北京很早就为塔利班铺上外交红毯。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58910094</id>
-  <title><![CDATA[回忆：“八一九”政变加快了苏联解体进程]]></title>
-  <updated>2021-08-19T14:21:00Z</updated>
-  <published>2021-08-19T14:21:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/回忆：-八一九-政变加快了苏联解体进程/a-58910094?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[1991年8月19日，已经摇摇欲坠的苏联帝国发生军事政变，坦克开进莫斯科市内，苏共总书记戈尔巴乔夫被扣押，全世界的目光都投向克里姆林宫，难道刚刚结束的冷战又要死灰复燃了吗？记者Christian F. Trippe回顾了他所经历的“八一九”政变。]]></summary>
-  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58898703</id>
@@ -555,16 +545,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:57217730</id>
-  <title><![CDATA[维瓦尔第：C大调协奏曲和G大调协奏曲片段]]></title>
-  <updated>2021-08-06T10:19:00Z</updated>
-  <published>2021-08-06T10:19:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/维瓦尔第：c大调协奏曲和g大调协奏曲片段/a-57217730?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[安东尼奥·维瓦尔第作品丰富，是巴洛克音乐的代表人物。请听维瓦尔第C大调协奏曲，作品443号中的快板以及G大调协奏曲，作品第151号中的片段。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/埃以边境发生10年来最严重恐怖袭击事件/a-16146518?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[埃以边境发生10年来最严重恐怖袭击事件]]></title>
   <updated>2012-08-06T06:07:00Z</updated>
@@ -610,15 +590,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -626,6 +597,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>

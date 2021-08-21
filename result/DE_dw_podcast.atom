@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-08-21T12:27:19Z</updated>
+ <updated>2021-08-21T12:32:28Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,17 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58879966</id>
+  <title><![CDATA[TikTok为何叫人上瘾?]]></title>
+  <updated>2021-08-21T12:25:00Z</updated>
+  <published>2021-08-21T12:25:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/tiktok为何叫人上瘾/av-58879966?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[TikTok在全球市场的成功，离不开其优秀的推送算法。它不断搜集用户的观看喜好，并且自动解析影片中的每一帧画面，力争让用户看到的每一支影片都越来越符合其个人喜好。]]></summary>
+  <category term="文化经纬"/>
+  <link rel="enclosure" type="video/mp4" length="10460662" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210816_001_180cetiktok_sd.mp4" title="TikTok为何叫人上瘾?"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58888900</id>
   <title><![CDATA[灰烬之中的昔日希腊天堂]]></title>
@@ -332,16 +343,5 @@
   <summary><![CDATA[有26年历史的香港《苹果日报》，遭港府引用国安法冻结资产后被迫停刊。这把中国治下最敢言的异议声音，曾经是一国两制的言论自由象征；但在香港实施国安法不足一年，就走进历史。德国之声近距离记录两位留守最后的苹果日报记者，探讨在今天的香港，记者如何在时代剧变中自处？前方还有没有去路？]]></summary>
   <category term="时政风云"/>
   <link rel="enclosure" type="video/mp4" length="70701975" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210714_001_appledaily_sd.mp4" title="苹果日报最终章：香港敢言媒体的殒落"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58255409</id>
-  <title><![CDATA[“他娶了另一位妻子后 我们的婚姻变精彩了”]]></title>
-  <updated>2021-07-13T15:52:00Z</updated>
-  <published>2021-07-13T15:52:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/他娶了另一位妻子后-我们的婚姻变精彩了/av-58255409?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[在结婚前，Tiqa是反对一夫多妻的。然而后来，她改变了想法，并主动为丈夫纳二房。让我们来听听这位马来西亚女性的故事。]]></summary>
-  <category term="文化经纬"/>
-  <link rel="enclosure" type="video/mp4" length="15743912" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210713_001_786e9polygamytiqa_sd.mp4" title="“他娶了另一位妻子后 我们的婚姻变精彩了”"/>
  </entry>
 </feed>
