@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-21T14:27:52Z</updated>
+ <updated>2021-08-21T14:31:27Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58944171</id>
+  <title><![CDATA[香港律师会理事候选人罗彰南宣布退选]]></title>
+  <updated>2021-08-21T14:25:00Z</updated>
+  <published>2021-08-21T14:25:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/香港律师会理事候选人罗彰南宣布退选/a-58944171?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[香港律师会理事候选人之一罗彰南周六发表声明："为了我个人和我家人的安全，我宣布退选。"并称，“我们这个备受尊敬的机构的理事会选举沦落至此，对香港来说是可耻和可悲的一天。”]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58943718</id>
+  <title><![CDATA[喀布尔机场混乱持续 拜登：属史上最难空中撤离行动]]></title>
+  <updated>2021-08-21T14:06:00Z</updated>
+  <published>2021-08-21T14:06:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/喀布尔机场混乱持续-拜登：属史上最难空中撤离行动/a-58943718?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[阿富汗首都喀布尔国际机场依旧一片混乱，美国驻喀布尔大使馆甚至建议当地美国公民避免前往机场。撤离行动继续的同时，有报告称，塔利班正在搜捕前政府和北约的“合作者”。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58942373</id>
   <title><![CDATA[欧洲杯决赛演变为"超级传播事件"]]></title>
@@ -182,26 +202,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗女大生：外交官梦想破碎丶年轻世代被西方背叛/a-58916055?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[即将毕业的阿富汗女大学生库兰的生活一夕变色，能否继续学业成了未知数，从事外交工作的梦更遥不可及。面对充满不确定的未来，她向德国之声吐露心中的忧虑与绝望。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58915004</id>
-  <title><![CDATA[车用芯片短缺困扰美国   美参议员吁台湾多帮忙]]></title>
-  <updated>2021-08-20T07:14:00Z</updated>
-  <published>2021-08-20T07:14:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/车用芯片短缺困扰美国-美参议员吁台湾多帮忙/a-58915004?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国汽车工业以及当地经济仍受车用芯片短缺困扰，即便台湾的芯片代工大厂已经为此增产，美国三位民主党参议员18日再度呼吁台湾帮忙。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58914579</id>
-  <title><![CDATA[美国副总统将访东南亚 寻求支持抗衡中国]]></title>
-  <updated>2021-08-20T04:39:00Z</updated>
-  <published>2021-08-20T04:39:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美国副总统将访东南亚-寻求支持抗衡中国/a-58914579?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国副总统哈里斯22日将展开5天的新加坡及越南的访问之旅。白宫官员强调，哈里斯此行将再次强调「自由开放的印太政策」，重申美国对此区域的承诺。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -395,16 +395,6 @@
   <category term="评论分析"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58855881</id>
-  <title><![CDATA[德国使馆推文伤害了部分日本国民自尊心]]></title>
-  <updated>2021-08-15T07:19:00Z</updated>
-  <published>2021-08-15T07:19:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国使馆推文伤害了部分日本国民自尊心/a-58855881?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[二战结束 76 年之际，德国驻日大使馆对二战中日本和德国有相似之处的评论引发激烈争论。有日本极右翼分子表示，不能把日本同德国相提并论，这一表态又引中韩网民的抗议。德国之声记者Martin Fritz从东京发来以下报道。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58831014</id>
   <title><![CDATA[欧洲大火肆虐：四大问题解疑]]></title>
   <updated>2021-08-15T07:19:00Z</updated>
@@ -413,6 +403,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧洲大火肆虐：四大问题解疑/a-58831014?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[夏天刚过一半，巴尔干半岛、意大利和地中海东南部野火烧毁的土地面积已经超过了一年的平均水平。]]></summary>
   <category term="科技环境"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58855881</id>
+  <title><![CDATA[德国使馆推文伤害了部分日本国民自尊心]]></title>
+  <updated>2021-08-15T07:19:00Z</updated>
+  <published>2021-08-15T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国使馆推文伤害了部分日本国民自尊心/a-58855881?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[二战结束 76 年之际，德国驻日大使馆对二战中日本和德国有相似之处的评论引发激烈争论。有日本极右翼分子表示，不能把日本同德国相提并论，这一表态又引中韩网民的抗议。德国之声记者Martin Fritz从东京发来以下报道。]]></summary>
+  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58819096</id>
@@ -590,15 +590,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -606,6 +597,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="在线报导"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
