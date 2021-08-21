@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Aug 2021 08:27:04 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Aug 2021 08:30:53 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[伯恩斯將被任命為美國駐華大使，曾主張與盟友合作應對中國]]></title>
+            <description><![CDATA[伯恩斯此前接受訪問時曾表示，美中關係對美國來說最具挑戰性，形容兩國競爭不單是貿易和軍事，而是意識形態民主與威權的對抗。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58290500</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58290500</guid>
+            <pubDate>Sat, 21 Aug 2021 08:27:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[拜登稱如果台灣遭入侵將回應，「口誤」還是對台戰略不再「模糊」？]]></title>
             <description><![CDATA[美國官員周四強調，美國對台政策沒有改變。而就在幾小時前，美國總統拜登在一次媒體訪問中表示，如果台灣遭到入侵，他將做出「回應」。拜登此番話引廣泛關注，有觀察者認為拜登是「口誤」。]]></description>
@@ -41,13 +48,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58279287</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/chinese-news-58279287</guid>
             <pubDate>Fri, 20 Aug 2021 08:52:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[塔利班重奪阿富汗、香港「民陣」組織解散、習近平提出「共同富裕」和本周更多精彩故事]]></title>
-            <description><![CDATA[在剛剛過去的一周，BBC中文網以下新聞內容受到讀者的關注。如果你錯過了，帶你一一回顧。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/58279600</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/58279600</guid>
-            <pubDate>Sat, 21 Aug 2021 03:07:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[妮可·基德曼免隔離入境引爭議，香港豁免隔離政策再遭質疑]]></title>
@@ -78,11 +78,11 @@
             <pubDate>Fri, 20 Aug 2021 00:59:43 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[詳解阿富汗塔利班的五大領導人]]></title>
-            <description><![CDATA[塔利班在短短10天內橫掃阿富汗，迅速控制了眾多城鎮，令許多人感到意外。我們對今天塔利班的領導層了解多少呢？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58255815</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58255815</guid>
-            <pubDate>Thu, 19 Aug 2021 01:27:20 GMT</pubDate>
+            <title><![CDATA[塔利班重奪阿富汗、香港「民陣」組織解散、習近平提出「共同富裕」和本周更多精彩故事]]></title>
+            <description><![CDATA[在剛剛過去的一周，BBC中文網以下新聞內容受到讀者的關注。如果你錯過了，帶你一一回顧。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/58279600</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/58279600</guid>
+            <pubDate>Sat, 21 Aug 2021 03:07:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[新冠疫苗：台灣產首款疫苗「高端」 你可能想了解的幾個問題]]></title>
@@ -90,6 +90,13 @@
             <link>https://www.bbc.com/zhongwen/trad/science-58242473</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58242473</guid>
             <pubDate>Tue, 17 Aug 2021 09:52:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[詳解阿富汗塔利班的五大領導人]]></title>
+            <description><![CDATA[塔利班在短短10天內橫掃阿富汗，迅速控制了眾多城鎮，令許多人感到意外。我們對今天塔利班的領導層了解多少呢？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58255815</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58255815</guid>
+            <pubDate>Thu, 19 Aug 2021 01:27:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中國政府入股字節跳動 美議員呼籲拜登再禁TikTok]]></title>
@@ -111,13 +118,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58256526</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58256526</guid>
             <pubDate>Wed, 18 Aug 2021 13:25:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[阿富汗局勢：塔利班重新掌控後的經濟前景和中國可能的考量]]></title>
-            <description><![CDATA[BBC國際台經濟事務記者安德魯·沃克爾分析塔利班重新控制阿富汗之後，有哪些國內和國際的經濟資源？中國在其中將起什麼作用？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58244091</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58244091</guid>
-            <pubDate>Tue, 17 Aug 2021 13:09:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：即將重掌控制權的塔利班是誰？]]></title>
@@ -195,6 +195,13 @@
             <link>https://www.bbc.com/zhongwen/trad/business-58267694</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/business-58267694</guid>
             <pubDate>Thu, 19 Aug 2021 08:37:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[阿富汗局勢：塔利班重新掌控後的經濟前景和中國可能的考量]]></title>
+            <description><![CDATA[BBC國際台經濟事務記者安德魯·沃克爾分析塔利班重新控制阿富汗之後，有哪些國內和國際的經濟資源？中國在其中將起什麼作用？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58244091</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58244091</guid>
+            <pubDate>Tue, 17 Aug 2021 13:09:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：塔利班回歸對國際秩序有何影響]]></title>
