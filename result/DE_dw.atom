@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-21T10:28:37Z</updated>
+ <updated>2021-08-21T10:31:00Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58940163</id>
+  <title><![CDATA[被提名为美国驻华大使  伯恩斯何许人也？]]></title>
+  <updated>2021-08-21T10:06:00Z</updated>
+  <published>2021-08-21T10:06:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/被提名为美国驻华大使-伯恩斯何许人也？/a-58940163?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美中关系紧张之际，美国新驻华大使的身份尤受关注。美国总统拜登正式宣布提名后，人们不禁要问：伯恩斯是谁？他在中国议题上有哪些经验？对华立场如何？]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58940044</id>
+  <title><![CDATA[吴钊燮：“中国想仿效塔利班”]]></title>
+  <updated>2021-08-21T10:04:00Z</updated>
+  <published>2021-08-21T10:04:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/吴钊燮：-中国想仿效塔利班/a-58940044?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[台湾外交部长吴钊燮周六指责中国想“仿效”塔利班，但台湾有决心和能力自卫。吴钊燮表示，台湾人民的愿望和最佳利益包括不受共产主义和独裁主义侵扰。与此同时，塔利班高层周六举行会晤，讨论如何组建“包容”政府。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58939799</id>
   <title><![CDATA[中国异议人士刘冰暂不被德国遣返]]></title>
@@ -185,16 +205,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58914066</id>
-  <title><![CDATA[拜登称美将回应武力犯台  美官员：对台政策不变]]></title>
-  <updated>2021-08-20T01:53:00Z</updated>
-  <published>2021-08-20T01:53:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/拜登称美将回应武力犯台-美官员：对台政策不变/a-58914066?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[近日美国总统拜登在接受ABC专访时，疑似将台湾与其他美国有明确防务承诺的国家混在一起，而美国官员随后也澄清，美国对台的政策并未改变。另外拜登还在这场采访中表示，阿富汗目前出现的混乱局面无法避免。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58910134</id>
   <title><![CDATA[德语媒体：北京为何要为塔利班铺红毯？]]></title>
   <updated>2021-08-19T14:29:00Z</updated>
@@ -213,16 +223,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/回忆：-八一九-政变加快了苏联解体进程/a-58910094?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[1991年8月19日，已经摇摇欲坠的苏联帝国发生军事政变，坦克开进莫斯科市内，苏共总书记戈尔巴乔夫被扣押，全世界的目光都投向克里姆林宫，难道刚刚结束的冷战又要死灰复燃了吗？记者Christian F. Trippe回顾了他所经历的“八一九”政变。]]></summary>
   <category term="新闻广角"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58908823</id>
-  <title><![CDATA[反制“熔断”机制 美限制中国航班载客量]]></title>
-  <updated>2021-08-19T13:22:00Z</updated>
-  <published>2021-08-19T13:22:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/反制-熔断-机制-美限制中国航班载客量/a-58908823?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国政府宣布，将限制中国航空公司部分航班载客量。这是美国不满中国为新冠防疫实施航班“熔断”措施做出的回应。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58898703</id>
