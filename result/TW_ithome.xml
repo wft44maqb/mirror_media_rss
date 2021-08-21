@@ -6,6 +6,23 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>【疫情日報】8月24日至9月6日維持二級警戒，但鬆綁集會人數上限、用餐限制和病房探病</title>
+ <link>https://www.ithome.com.tw/news/146314</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;中央流行疫情指揮中心今（21日）宣布，自8月24日至9月6日兩周仍維持全國二級警戒，但也鬆綁不少措施，如提高室內外集會人數上限、同住親友聚餐不需隔板、梅花坐，開放特定病房探病和境外生入境等。&lt;/p&gt;
+&lt;p&gt;今日新增2例本土案例、8例境外移入，指揮官陳時中表示，疫情雖穩定趨緩，但8月24日至9月6日仍維持二級警戒。這段期間內，民眾外出仍須全程配戴口罩，營業場所和公共場域必須進行人流管制，如室內空間至少1.5米/人（2.25平方米/人）、室外空間至少1米/人（1平方米/人）。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;鬆綁集會人數上限、用餐和探病限制，開放多項室內外活動&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;不過，指揮中心也宣布更多鬆綁措施，比如提高集會活動人數上限為室內80人、室外300人，若超過人數，主辦單位須提報防疫計畫，交由主管機關審核。&lt;/p&gt;
+&lt;p&gt;在餐飲規範方面，8月24日起，同住親友聚餐可不必使用隔板、梅花座，也不需專人分菜。&lt;/p&gt;
+&lt;p&gt;在醫院探病部分，則開放加護病房、安寧病房、呼吸照護病房、精神科病房、兒童病房、身心障礙、病危和住院超過7天以上之探病。&lt;/p&gt;
+&lt;p&gt;另外，陳時中也指出，只要符合主管機關防疫規範，原先列為關閉場所的K書中心、室內遊樂園、海釣場、海泳和浮潛等水域活動，將可開放。但歌舞廳、酒吧和電子遊戲等場所，仍維持關閉。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/210824%E7%B6%AD%E6%8C%81%E7%96%AB%E6%83%85%E8%AD%A6%E6%88%92%E6%A8%99%E6%BA%96%E7%82%BA%E7%AC%AC%E4%BA%8C%E7%B4%9A-03.png&quot; /&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Sat, 21 Aug 2021 06:56:55 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146314 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146314#comments</comments>
+</item>
+<item>
  <title>AWS推出可作為主資料庫的記憶體資料庫服務MemoryDB for Redis</title>
  <link>https://www.ithome.com.tw/news/146312</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS在推出Amazon ElastiCache for Redis全託管記憶體快取服務之後，現在又推出另一款，同樣是相容於Redis的記憶體資料庫服務&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/introducing-amazon-memorydb-for-redis-a-redis-compatible-durable-in-memory-database-service/&quot;&gt;Amazon MemoryDB for Redis&lt;/a&gt;，供開發者建構需要微秒讀取，以及個位數毫秒寫入效能，且具有資料持久性和高可用性的應用程式。&lt;/p&gt;
@@ -195,22 +212,6 @@
  <dc:creator>李靜宜</dc:creator>
  <guid isPermaLink="false">146299 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146299#comments</comments>
-</item>
-<item>
- <title>微軟發表首批官方的Windows 11 ISO</title>
- <link>https://www.ithome.com.tw/news/146300</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blogs.windows.com/windows-insider/2021/08/19/announcing-windows-11-insider-preview-build-22000-160/&quot; target=&quot;_blank&quot;&gt;微軟於周四（8/19）釋出了首批的官方Windows 11 ISOs&lt;/a&gt;，其版本別為Windows 11 Insider Preview Build 22000.132，將允許使用者利用此一映像檔進行Windows 11的升級或全新安裝，前提是必須先加入Windows Insider專案。&lt;/p&gt;
-&lt;p&gt;之前要試用Windows 11預覽版的使用者，多半必須由Windows 10升級到Windows 11，有了ISO檔案之後，就可執行Windows 11的全新安裝。&lt;/p&gt;
-&lt;p&gt;微軟表示，透過這些ISO檔案來安裝Windows 11時，使用者將可體驗全新的設定經驗，因為微軟希望用戶第一次啟用新Windows 11 PC時能夠感到興奮，且依據用戶的意見在設定階段，就讓使用者可替自己的電腦命名。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://46c4ts1tskv22sdav81j9c69-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/44/2021/08/OOBE-DeviceName.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_微軟&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;不過，使用者必須先加入微軟的Windows Insider專案，並選擇Dev或Beta頻道才能下載Windows 11 ISOs。&lt;/p&gt;
-&lt;p&gt;Windows 11是微軟近6年來，&lt;a href=&quot;https://www.ithome.com.tw/news/145242&quot; target=&quot;_blank&quot;&gt;Windows作業系統規模最大的一次改版&lt;/a&gt;，其正式版預計於今年10月或11月出爐，直至明年都將維持免費升級策略。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 20 Aug 2021 08:23:18 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146300 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146300#comments</comments>
 </item>
 </channel>
 </rss>
