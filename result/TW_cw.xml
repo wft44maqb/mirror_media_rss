@@ -1,257 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
-        <title>天下雜誌精選文章</title>
-        <link>http://www.cw.com.tw/</link>
-        <description><![CDATA[天下雜誌幫助您掌握最前瞻的觀念與趨勢，與世界零距離，與台灣超連結。榮獲亞洲出版大獎、亞洲卓越新聞獎首獎等，在混亂的世界中，天下雜誌給您一束最清晰冷靜的聲音。]]></description>
-        <atom:link href="http://www.cw.com.tw/" rel="self"></atom:link>
-                                                <webfeeds:logo>http://cw1.tw:80/CW/images/Photo/C1304349880202.jpg</webfeeds:logo>
-        <image>
-            <url>http://cw1.tw:80/CW/images/Photo/C1304349880202.jpg</url>
-            <title>天下雜誌精選文章</title>
-            <link>http://www.cw.com.tw/</link>
-        </image>
-                                <language>zh-tw</language>
-        <lastBuildDate>Tue, 30 Aug 2016 09:51:41 +0800</lastBuildDate>
-                <item>
-            <title><![CDATA[行為心理學家：好用的3個減肥小技巧]]></title>
-                        <link>https://www.cw.com.tw/article/5114186?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5114186?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[減肥很難有捷徑，不過英國拉夫堡大學（Loughborough University）行為心理學家邁迪岡（Claire Madigan）提供一些小技巧，幫助我們成功邁向理想體態。]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[樂羽嘉編譯]]></dc:creator>
-            <pubDate>Fri, 09 Jul 2021 19:20:11 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202104/article-6065915079054.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[不用餓肚子也能瘦！還讓皮膚更漂亮　日本醫師：「減醣」就能減肥]]></title>
-                        <link>https://www.cw.com.tw/article/5115522?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5115522?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[不用勉強自己餓肚子也可以減肥，日本減重醫師教你如何用「減醣法」瘦身。]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[小喵、工藤孝文]]></dc:creator>
-            <pubDate>Fri, 09 Jul 2021 19:18:34 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202106/article-60dbf16938e59.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[習近平要戰狼變可愛？既自信又不安，中國外交的弔詭兩難]]></title>
-                        <link>https://www.cw.com.tw/article/5115427?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5115427?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[中國創始外交部長周恩來，把外交人員塑造成「文裝解放軍」，這樣的傳統一直延續至今，卻隨著中國日益強大，而陷入兩難的境地。]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[王慶剛]]></dc:creator>
-            <pubDate>Fri, 09 Jul 2021 19:06:46 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202106/article-60d995818b928.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[雙北為何不合作？吳崑玉：關係比兩岸還冷，派什麼數位神童都無解]]></title>
-                        <link>https://www.cw.com.tw/article/5116291?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5116291?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[【吳崑玉專欄】疫情能不能趨緩，雙北是關鍵。中央、台北和新北應去除本位主義，建立口對口分享機制，第一步，或許就從柯P和侯市長熱線開始。]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[吳崑玉]]></dc:creator>
-            <pubDate>Fri, 09 Jul 2021 19:06:00 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e57d1e92249.JPG" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[海地總統遇刺身亡　海地，一個好運不曾眷顧的國家]]></title>
-                        <link>https://www.cw.com.tw/article/5116294?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5116294?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[走過殖民掠奪後的海地，繼續被自己的領導人與犯罪組織掠奪著。命運悲慘，在遭遇天災襲擊後，連救援組織也意外造成更多死亡。政府廢弛，面對疫情，海地是西半球唯一一劑疫苗也沒施打的國家。]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[張詠晴編譯]]></dc:creator>
-            <pubDate>Fri, 09 Jul 2021 19:01:12 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e66bcd7e827.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[滴滴下架台前幕後 低調赴美上市數日後遭遇的嚴厲審查]]></title>
-                        <link>https://www.cw.com.tw/article/5116115?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5116115?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[中國互聯網巨頭滴滴出行6月底在紐交所上市，這是過去七年來中國企業在美最大規模IPO，然而不僅沒有敲鐘，甚至連官方新聞稿都沒有發，低調程度與以往互聯網企業上市時大相徑庭。]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[BBC News 中文]]></dc:creator>
-            <pubDate>Fri, 09 Jul 2021 18:57:14 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e539f9dbaa9.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[雙北唯一隔日到蔬果箱，只花6天就上線！受災戶如何翻身賺封城財？]]></title>
-                        <link>https://www.cw.com.tw/article/5115424?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5115424?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[【企業抗疫實戰｜創業十二談】當危機來襲，經營環境驟變，你能不能用6天，就讓業務180度大轉型？生鮮電商新創「菜蟲農食」辦到了，讓自己從海嘯第一排受災戶，翻身大賺疫情財。他們怎麼做？]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[林佳誼]]></dc:creator>
-            <pubDate>Fri, 09 Jul 2021 18:53:10 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202106/purchase-reauisition-60d975092655d.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[神預言疫情、911　普立茲獎得主萊特：病毒不會消失、永遠循環]]></title>
-                        <link>https://www.cw.com.tw/article/5116097?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5116097?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[【越洋專訪】他的劇本、小說出版後，911、新冠疫情陸續爆發。在虛構與非虛構之間遊走，73歲普立茲獎得主勞倫斯．萊特，如何詮釋新冠疫情帶來的教訓？他又給年輕記者哪些建議？]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[陳一姍採訪整理]]></dc:creator>
-            <pubDate>Fri, 09 Jul 2021 18:49:25 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e542cb53756.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[只公布對自己有利數據？聯亞申請EUA，看懂3大爭議]]></title>
-                        <link>https://www.cw.com.tw/article/5116118?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5116118?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[聯亞生技公布其新冠疫苗2期臨床期中數據、並申請EUA之後，引起諸多討論。聯亞疫苗保護力真的接近莫德納？記者會上只公布對自己有利的數據？本文分析其中3大爭議。]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[張靜慧]]></dc:creator>
-            <pubDate>Fri, 09 Jul 2021 18:32:24 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e5409bec6ca.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[【獨家專訪】送女兒來台、最愛豬血糕，立陶宛疫苗援台關鍵推手為何愛台灣？]]></title>
-                        <link>https://www.cw.com.tw/article/5116292?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5116292?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[立陶宛決定捐贈兩萬疫苗到台灣，背後藏著這位友台副外長10年來和台灣結下的緣分。除了疫苗、設置辦事處，台灣和立陶宛未來還能有哪些合作？]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[陳育晟]]></dc:creator>
-            <pubDate>Fri, 09 Jul 2021 18:22:45 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e57557812cf.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[喝汽水會影響代謝嗎？營養學家解答]]></title>
-                        <link>https://www.cw.com.tw/article/5116092?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5116092?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[汽水對身體並不是那麼健康，算是老生常談了，這種常常搭配速食的飲料，與肥胖及其他數種健康問題風險升高有關。但很多甜食都會造成肥胖問題，汽水的問題不只是糖帶來的熱量，或許也和糖對代謝的影響有關。]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[樂羽嘉編譯]]></dc:creator>
-            <pubDate>Thu, 08 Jul 2021 19:25:38 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e46aeab51db.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[單日確診兩萬，重新擁抱「群體免疫」　英國大解封這次是科學的決策？]]></title>
-                        <link>https://www.cw.com.tw/article/5116096?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5116096?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[每日去確診數高達兩萬的英國，首相強生仍宣布拿下口罩、解除社交距離的全面解封日如期於7月19日生效。過去爭議不休的最終解封，如今愈來愈多科學家贊同，為什麼？]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[田孟心編譯]]></dc:creator>
-            <pubDate>Thu, 08 Jul 2021 19:23:42 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e4c9c4bd2b1.jpeg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[修圖請直說！挪威新社群媒體法案，能拯救少女死亡率嗎？]]></title>
-                        <link>https://www.cw.com.tw/article/5116095?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5116095?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[挪威即將上路的《行銷管制法》宣布，所有在Instagram, Facebook等社群媒體發照片的網紅、廠商們，都須揭露修圖細節，甚至連使用了哪款濾鏡也要說明清楚。促成這項法案的原因是什麼？哪些國家也開始發展類似的規定？]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[田孟心編譯]]></dc:creator>
-            <pubDate>Thu, 08 Jul 2021 19:22:40 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e4a8588d14d.jpeg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[貨櫃海運費用飆漲　還會持續多久？]]></title>
-                        <link>https://www.cw.com.tw/article/5116094?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5116094?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[供應鏈瓶頸持續推升相關海運費用，海運產業認為2022年以前狀況看不到緩解跡象。]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[樂羽嘉編譯]]></dc:creator>
-            <pubDate>Thu, 08 Jul 2021 19:21:47 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e4824b62ef8.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[目擊疫情中的人類追求僥倖　蔣勳：任何地方有災難，都是我的災難]]></title>
-                        <link>https://www.cw.com.tw/article/5115654?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5115654?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[新冠肺炎疫情延燒，此時此刻，每個人看待「幸福」的定義不再相同。作家蔣勳認為，疫情給我們和自己相處的機會，災難過後，或許我們能更深刻體會到好好穿衣、好好吃飯，才是人生的根本。]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[張毓思整理]]></dc:creator>
-            <pubDate>Thu, 08 Jul 2021 19:20:57 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e43e765f5aa.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[官方聯手企業高層槓上外資，醜聞纏身的東芝能再起？]]></title>
-                        <link>https://www.cw.com.tw/article/5115422?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5115422?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[曾瀕臨破產的日本大廠東芝，去年又爆作假帳，外資股東因而要求改革，但在日本官方和高層聯手阻擋下，東芝未來能重振旗鼓嗎？]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[經濟學人]]></dc:creator>
-            <pubDate>Thu, 08 Jul 2021 19:19:24 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202106/purchase-reauisition-60d974fcbfbd0.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[未來熱浪將更頻繁、更致命，我們能如何應對？]]></title>
-                        <link>https://www.cw.com.tw/article/5115573?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5115573?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[美、加西部遭遇近50度高溫的熱浪衝擊，極端高溫的危險不容小覷，面對更頻繁的熱浪威脅，人類可以怎麼辦？]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[張詩瑩編譯]]></dc:creator>
-            <pubDate>Thu, 08 Jul 2021 19:17:50 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e3be8c11a7c.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[「很多客人看完影片就決定買屋」他們如何逆轉疫情，讓業績狂翻倍？]]></title>
-                        <link>https://www.cw.com.tw/article/5115578?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5115578?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[【企業抗疫實戰】全台新冠肺炎疫情升級三級警戒維持近兩個月，各行各業面臨前所未有的嚴峻挑戰。儘管6月全台房屋交易量大幅下滑4成，但永慶房屋與加盟體系祭出奇招做數位轉型，有加盟店的業績居然是去年同期的2倍，他們做對了什麼？]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[劉光瑩]]></dc:creator>
-            <pubDate>Thu, 08 Jul 2021 19:16:28 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60e3e4c123c37.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[中國砸10兆人民幣大煉芯能走向科技自主？華為高層：很難，要時間]]></title>
-                        <link>https://www.cw.com.tw/article/5115412?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5115412?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[中國深知「科技自主」的關鍵在半導體，但要進軍全球市場，恐將碰上中國所有企業都會有的問題：「信任」卡關，中國舉國「煉芯」的政策扶植下，技術和應用層面將有機會？]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[鍾張涵]]></dc:creator>
-            <pubDate>Thu, 08 Jul 2021 19:15:13 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202106/purchase-reauisition-60d96e244f962.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-                <item>
-            <title><![CDATA[獨家》香菜皮蛋豬血糕披薩？來自香港的他，為什麼愛玩台灣食物？]]></title>
-                        <link>https://www.cw.com.tw/article/5115560?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</link>
-            <guid isPermaLink="true">https://www.cw.com.tw/article/5115560?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=Daily</guid>
-            <description><![CDATA[必勝客推出「香菜皮蛋豬血糕比薩」，3種魔王級食材震撼消費者的味蕾。從2019年開始，必勝客不斷推出讓人驚豔的創新口味比薩，從榴槤、臭豆腐、拉麵、湯圓到南北粽，《天下》獨家專訪台灣必勝客團隊，揭密背後的商業策略。]]></description>
-                        <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/"><![CDATA[楊孟軒]]></dc:creator>
-            <pubDate>Thu, 08 Jul 2021 19:10:02 +0800</pubDate>
-                        <enclosure
-                        url="https://storage.googleapis.com/www-cw-com-tw/article/202107/article-60df124dba008.jpg" 
-                        type="image/jpeg" 
-                        />
-                                                                                                        </item>
-            </channel>
-</rss>
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="https://www.cw.com.tw/assets_new/img/favicon.ico">
+	<meta property="og:type" content="website" />
+	<meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="Content-Language" content="zh-tw">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Chrome, Firefox OS and Opera -->	<meta name="theme-color" content="#f2f2f2">	
+	<!-- Windows Phone -->	<meta name="msapplication-navbutton-color" content="#f2f2f2">	
+	<!-- iOS Safari -->	<meta name="apple-mobile-web-app-status-bar-style" content="#f2f2f2">
+	<!-- Owl Stylesheets -->
+	<title>天下雜誌群</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="container">
+			<a href="javascript: void(0)" class="bu_logo"><img src="https://topic.cwbook.com.tw/announcement/deliver_adjust/img/bu_logo.png" alt=""></a>
+			<div class="main_message"><div class="title">系統維護中</div><div class="detail">為提供您更好的服務，</br>本公司將於<span style="font-weight: bold;"> 2021/08/22(日) 上午 05:00 ~ 上午 05:20 (UTC+8) </span>進行維護作業，屆時將<span style="color: #d80c18;">暫停天下雜誌網站、天下雜誌APP等相關服務。</span>。</br>造成您的不便敬請見諒。</div></div>
+
+		<div class="separation"></div>
+		<div class="contact_us">若您有任何問題，歡迎來信天下雜誌群客服中心 (<a href="mailto:bill@cw.com.tw" style="color: #3D414B;">bill@cw.com.tw</a>)，或來電<a href="tel:0226620332" style="color: #3D414B;">02-26620332</a>（服務時間：週一至週五，09:00-17:30，例假日除外）與我們聯繫</div>
+		</div>
+	</div>
+</body>
+</html>
