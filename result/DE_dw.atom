@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-21T13:29:42Z</updated>
+ <updated>2021-08-21T13:32:33Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58942373</id>
+  <title><![CDATA[欧洲杯决赛演变为"超级传播事件"]]></title>
+  <updated>2021-08-21T13:08:00Z</updated>
+  <published>2021-08-21T13:08:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧洲杯决赛演变为-超级传播事件/a-58942373?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[上月在伦敦温布利体育场举行的英格兰对阵意大利的2020年欧洲杯足球决赛最终演变为 "超级传播事件"，有2295人可能已经感染新冠病毒，另有3404人有潜在被感染的可能性。]]></summary>
+  <category term="科技环境"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58940788</id>
   <title><![CDATA[巴基斯坦中国公民再次遭遇自杀式袭击]]></title>
@@ -423,16 +433,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体-新时代的毛泽东不坑自己人/a-58864645?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[奥地利《信使报》认为，国际社会本应该就疫情向中国索取天价赔偿，但是西方国家却忌惮利益受损而不敢这么做。德国《焦点》杂志则抨击了中国的“一带一路”，认为这和毛泽东“大跃进”的主要区别在于：“一带一路”坑害的是外国人。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58863866</id>
-  <title><![CDATA[美气象机构：7月是全球有记录以来最热月份]]></title>
-  <updated>2021-08-14T10:36:00Z</updated>
-  <published>2021-08-14T10:36:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美气象机构：7月是全球有记录以来最热月份/a-58863866?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国国家海洋和大气管理局公布最新数据表示，今年7月是全球有记录以来最热的月份。这无疑再次向人类敲响了气候危机的警钟。]]></summary>
-  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58858471</id>
