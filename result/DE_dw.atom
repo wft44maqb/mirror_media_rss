@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-21T07:57:21Z</updated>
+ <updated>2021-08-21T08:00:06Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58884884</id>
+  <title><![CDATA[医生发懵 亲友不信: 我的"新冠长期病"何时能消失?]]></title>
+  <updated>2021-08-21T07:30:00Z</updated>
+  <published>2021-08-21T07:30:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/医生发懵-亲友不信-我的-新冠长期病-何时能消失/a-58884884?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[新冠肺炎数百万患者长期受到染疫影响。不过，他们当中，很多人还得先努力让医生、亲戚和朋友相信，自己是病了。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58927791</id>
   <title><![CDATA[北京同塔利班频繁互动 邻国们提高警觉]]></title>
@@ -552,16 +562,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/维瓦尔第：c大调协奏曲和g大调协奏曲片段/a-57217730?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[安东尼奥·维瓦尔第作品丰富，是巴洛克音乐的代表人物。请听维瓦尔第C大调协奏曲，作品443号中的快板以及G大调协奏曲，作品第151号中的片段。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58771721</id>
-  <title><![CDATA[乔布斯传记作者将为马斯克作传 ]]></title>
-  <updated>2021-08-05T14:30:00Z</updated>
-  <published>2021-08-05T14:30:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/乔布斯传记作者将为马斯克作传/a-58771721?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[马斯克将成为美国作家艾萨克森传记作品的主人公。艾萨克森几个月前在接受雅虎财经采访时说："在某些方面，他是我们这个时代的乔布斯。" ]]></summary>
   <category term="文化经纬"/>
  </entry>
  <entry>
