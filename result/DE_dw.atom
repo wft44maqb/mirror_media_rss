@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-21T11:59:31Z</updated>
+ <updated>2021-08-21T12:03:09Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58940628</id>
+  <title><![CDATA[默克尔访俄：要求普京向塔利班施压]]></title>
+  <updated>2021-08-21T11:40:00Z</updated>
+  <published>2021-08-21T11:40:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/默克尔访俄：要求普京向塔利班施压/a-58940628?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[这可能是默克尔以德国总理身份对莫斯科的最后一次访问。其中默克尔要求普京与塔利班沟通，让他们允许为西方盟国工作的阿富汗人安全撤离，也谈到俄罗斯反对派纳瓦尔尼、乌克兰局势等问题。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58940163</id>
   <title><![CDATA[被提名为美国驻华大使  伯恩斯何许人也？]]></title>
@@ -193,16 +203,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/英特尔公开与台积电合作细节-以5奈米生产绘图芯片/a-58914555?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[英特尔周四（8月19日）公开与台积电合作的最新细节，将使用台积电5奈米等先进制程技术生产绘图芯片（GPU）。]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58914467</id>
-  <title><![CDATA[阿富汗现塔利班抗议潮 欧盟忧中俄掌控局势]]></title>
-  <updated>2021-08-20T03:56:00Z</updated>
-  <published>2021-08-20T03:56:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗现塔利班抗议潮-欧盟忧中俄掌控局势/a-58914467?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[塔利班面对治理正统性争议，打算透过宗教领袖来弭平，过去侵犯女权，进行公开处决，并炸毁古老的佛教雕像的这个武装组织，真的会在这一次改头换面？]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58910134</id>
