@@ -4,17 +4,17 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-08-21T01:23:37Z</updated>
+  <updated>2021-08-21T01:28:00Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7810474</id>
-    <published>2021-08-21T01:04:46Z</published>
-    <updated>2021-08-21T01:04:46Z</updated>
+    <published>2021-08-21T01:28:00Z</published>
+    <updated>2021-08-21T01:28:00Z</updated>
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/dy2pj324k6mt"/>
     <title>Cloudflare Dashboard IP access rule UI issue</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;21&lt;/var&gt;, &lt;var data-var='time'&gt;01:04&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with Cloudflare Dashboard firewall IP access rule UI. Customer may experience pagination of IP access rule not fully display on the UI&lt;br /&gt;&lt;br /&gt;These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.&lt;br /&gt;&lt;br /&gt;Customers using the IP access rule Dashboard are impacted, but customers can still use API to create IP access rules.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;21&lt;/var&gt;, &lt;var data-var='time'&gt;01:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;21&lt;/var&gt;, &lt;var data-var='time'&gt;01:04&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with Cloudflare Dashboard firewall IP access rule UI. Customer may experience pagination of IP access rule not fully display on the UI&lt;br /&gt;&lt;br /&gt;These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.&lt;br /&gt;&lt;br /&gt;Customers using the IP access rule Dashboard are impacted, but customers can still use API to create IP access rules.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7809800</id>
