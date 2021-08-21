@@ -2,11 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-21T09:30:21.121Z</updated>
+    <updated>2021-08-21T09:35:22.705Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[How does property size affect rentals? A study on two London suburbs]]></title>
+        <id>https://www.thestandnews.com/finance/how-does-property-size-affect-rentals-a-study-on-two-london-suburbs</id>
+        <link href="https://www.thestandnews.com/finance/how-does-property-size-affect-rentals-a-study-on-two-london-suburbs"/>
+        <updated>2021-08-21T09:32:45.267Z</updated>
+        <summary type="html"><![CDATA[It is common knowledge that the bigger the house the higher the price, even though unit prices may actually work in reverse, ie. the smaller the house the higher the per-square-foot price. The phenom…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/0_Ta945.jpg"><figcaption><span>資料圖片，來源：Anthony Delanoix @ Unsplash</span></figcaption></figure><p>It is common knowledge that the bigger the house the higher the price, even though unit prices may actually work in reverse, ie. the smaller the house the higher the per-square-foot price. The phenomenon of higher unit prices for smaller units is likely even more pronounced in densely populated, liquid, and highly commoditised markets like Hong Kong.</p>
+
+<p>In this article, we look at the phenomenon through the eyes of the London housing market. But here, the picture may be more obscured due to a less commoditised (or uniform) housing stock – such as wider variety of land sizes, garden finishes, sun orientations, all factors which could make our size-vs-unit price comparison more difficult.</p>
+
+<p><strong>Landlords can optimise rental income by size bands</strong></p>
+
+<p>We have gathered the asking rent of apartments in a well defined Zone 4 area in London over the past 4-5 years, and the resulting plot shows a very clear relationship between the per square foot (psf) rent and the size of the properties (<em>Chart 1</em>):</p>
+
+<div><figure><img src="https://assets.thestandnews.com/media/photos/01023652734657324.png"><figcaption><span>(Left) Chart 1: Rent vs flat size: inverse relationship; (Right) Chart 2: Detrended rents to better find correlation between rent and size</span></figcaption></figure></div>
+
+<p>This is just the first step in establishing the relationship between our two variables; in order to eliminate the inflationary effect of rental increases over time, we have applied a discount factor derived from average rents over the same period, and by adjusting older data points by this factor, we can establish a ‘detrended rental series’ which more closely reflects the pure size-vs-rent correlation. The result is illustrated in <em>Chart 2</em> above, where the detrended (or real) rent are plotted in red while the original unadjusted (or nominal) rents remain in blue.</p>
+
+<p>One obvious observation of the red datapoints is that they are more tightly packed vertically, and therefore reflect a more authentic underlying relationship with sizes of the properties. Other interesting points to note include:</p>
+
+<ol type="a">
+	<li>the biggest unit rent premium is achieved in the 500-600sf region, dropping from £2.8psf to £2.4psf – a whopping 14% drop (<em>red highlight, Chart 2</em>);</li>
+	<li>rents then stayed almost flat until just over 950sf when the drop reaccelerates from £2.25psf to £1.6psf around the 1,400sf mark – another 29% drop;</li>
+</ol>
+
+<p>These are very good intelligence/insight for any investors who wants to maximise their rental return on investment.</p>
+
+<p><strong>Houses – lower liquidity/transparency than flats</strong></p>
+
+<p>Looking at a nearby neighbourhood where the housing stock is predominantly terrace houses rather than renovated flats, the same rent vs size pattern is also apparent.</p>
+
+<p>However, due to much less emphasis being placed – in the house sector compared to flats sector – on square footage of the premises, there are much fewer listings giving size data for house letting adverts. This may be due to houses tending to offer gardens and other aspects which outweigh purely size considerations for potential tenants. The resulting charted patterns are therefore less representative of the whole sub-sector (hence <em>Charts 3 &amp; 4</em> showing less dense number of dots).</p>
+
+<p>Interesting observations can nevertheless be made in the house sector – where subdivided lettings (ie &lt;500sf listings – see <em>red highlight, Chart 4</em>) are probably more prevalent, while such segmentation is almost unseen in the flat sector:</p>
+
+<div><figure><img src="https://assets.thestandnews.com/media/photos/03043652734657324.png"><figcaption><span>(Left) Chart 3: house rent vs size; (Right) Chart 4: Detrended house rent vs size</span></figcaption></figure></div>
+
+<p>Whether it be enterprising house owners subdividing or friends sharing bedrooms in one property, the economics are even better for the landlord, as the unit rent for a 300sf offering could go as high as £3.4psf, and this is for a neighbourhood slightly down market from the apartment district we sampled at the start of this article.</p>
+
+<p>This is a very ad hoc study on a rarely looked into aspect of the leasing market, and in an obscure corner of London at that. In the overall scheme of things, macro political-economic trends, infrastructure build out, and other local micro factors would of course play bigger roles in affecting how much rent can be earned on any property, and that is where much more work has to be done in advance when investing.</p>
+
+<p><strong>Simple rules as applies to property size</strong></p>
+
+<p>There may be other factors that lend to premiums/discounts on properties (eg each 5 mins walk from subway station reduces rent by say 3%), but in our study here, two linear ratios may be derived for easy consumption by landlords/tenants alike:</p>
+
+<ol type="a">
+	<li>for the flat district, each 500sf flat may have a rent of £2.8psf, with the unit rate dropping by £0.30psf every 200sf increase in size;</li>
+	<li>for house district covered above, each 500sf flat may have a rent of £2.9psf with the unit rate dropping by £0.40psf every 200sf increase in size.</li>
+</ol>
+
+<p>In both cases, the non-linear nature of the size-rent relationship makes it difficult for the average retail landlord to set optimal rents, this is why diligence and research are the most useful tools in ensuring the best returns in property – or in layman’s terms: know your market well and stay focused on it.</p>
+
+<div><figure><img src="https://assets.thestandnews.com/media/photos/05053652734657324.png"><figcaption><span>Chart 5: rules of thumb for the lazy: £0.15 per 100sf for flat market, and £0.35 per 100sf for house market</span></figcaption></figure></div>
+
+<p>&nbsp;</p>
+
+<p><em>The author would like to thank Samson Leung of Hong Kong Baptist University for assisting in data collection, analysis, and drafting this article.</em></p>]]></content>
+        <author>
+            <name>王震宇</name>
+            <uri>https://www.thestandnews.com/author/ericwong</uri>
+        </author>
+        <category label="財經"/>
+        <published>2021-08-21T09:28:14.165Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[澳門學生赴臺讀書　不再吃香？]]></title>
         <id>https://www.thestandnews.com/%E6%BE%B3%E9%96%80/%E6%BE%B3%E9%96%80%E5%AD%B8%E7%94%9F%E8%B5%B4%E8%87%BA%E8%AE%80%E6%9B%B8-%E4%B8%8D%E5%86%8D%E5%90%83%E9%A6%99</id>
@@ -1583,44 +1647,5 @@
         </author>
         <category label="社會"/>
         <published>2021-08-20T14:55:23.639Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[妥協]]></title>
-        <id>https://www.thestandnews.com/culture/%E5%A6%A5%E5%8D%94</id>
-        <link href="https://www.thestandnews.com/culture/%E5%A6%A5%E5%8D%94"/>
-        <updated>2021-08-20T14:38:01.989Z</updated>
-        <summary type="html"><![CDATA[警告，以下從第三段開始，全文嚴重劇透，但《東京蒼穹下》看來已經落畫了，應該可以一寫吧。這一點，好像沒多少人寫過。日本影帝役所廣司飾演釋囚三上正夫，他是孤兒，被父母遺棄，一生是黑幫小混混，因為殺人判囚，獲釋後想改過自新。三上為人衝動，慣用暴力解決問題，但本性善良，有正義感；他獲釋後受盡制度暴力，嘗盡歧視與欺凌，最後在一些好人的幫助下，找到出路。你以為，這是一闕黑道落泊的悲歌、一個不為社會所容納的「…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/U1_M1mFD.png"><figcaption><span>《東京蒼穹下Under the Open Sky》</span></figcaption></figure><p>警告，以下從第三段開始，全文嚴重劇透，但《東京蒼穹下》看來已經落畫了，應該可以一寫吧。這一點，好像沒多少人寫過。</p>
-
-<p>日本影帝役所廣司飾演釋囚三上正夫，他是孤兒，被父母遺棄，一生是黑幫小混混，因為殺人判囚，獲釋後想改過自新。三上為人衝動，慣用暴力解決問題，但本性善良，有正義感；他獲釋後受盡制度暴力，嘗盡歧視與欺凌，最後在一些好人的幫助下，找到出路。</p>
-
-<p>你以為，這是一闕黑道落泊的悲歌、一個不為社會所容納的「更新人士」寫實故事。</p>
-
-<p>如果是這樣，三上正夫為何最後要死？</p>
-
-<p>一切困難與心理障礙已克服，本來在一個風雨夜，他接到前妻問候的電話，微笑着舉頭遙望東京蒼穹下的一顆閃星，故事已可以落幕。但踏入坦途之際，他的生命亦隨之終結。</p>
-
-<p>主角死去，並不突然，一切皆有鋪墊。</p>
-
-<p>三上魯莽，但也嫉惡如仇，常為弱者出頭，也因此為法律與禮教所不容。眾多好人勸勉他，真心誠意鼓勵他改過，社會雖然壓抑，但人間有情，生日會上眾人你一言我一語，三上面容有點勉強，但他承諾改變自己，嘗試接受社會的規範，在潛規則前妥協；結果，他不再抱打不平，遇上欺負弱小的人，他努力控制自己，不再脾氣爆發，也不再挺身而出；面對無知歧視的冷言冷語，他忍氣吞聲，埋藏自己的本性。</p>
-
-<p>他終於融入社會，從前稜角分明，現在一切磨平，失去了自己，雖生猶死。</p>
-
-<p>電影最後一幕，就只剩下那些好人的茫然。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>相關文章：</strong><br>
-<a href="https://www.thestandnews.com/politics/%E5%85%A8%E5%BF%83%E4%BF%9D%E5%AD%98%E7%9C%9F%E7%9A%84%E6%88%91" target="_blank">全心保存真的我</a><br>
-<a href="https://www.thestandnews.com/politics/%E7%A5%9D%E4%BD%A0%E5%9C%A8%E4%BA%82%E6%B5%81%E4%B8%8B%E5%B9%B3%E5%AE%89" target="_blank">祝你在亂流下平安</a></p>
-
-<p>（本文原刊於《明報》專欄<a href="https://news.mingpao.com/pns/%E4%BD%9C%E5%AE%B6%E5%B0%88%E6%AC%84/columnist/20210809/s00311/1628446847565" target="_blank">〈2047 夜〉</a>，此為加長版）<br>
-<a href="https://aukalun.blogspot.com/2021/08/blog-post_90.html" target="_blank">作者網誌</a></p>]]></content>
-        <author>
-            <name>區家麟</name>
-            <uri>https://www.thestandnews.com/author/aukalun</uri>
-        </author>
-        <category label="文化"/>
-        <published>2021-08-20T14:38:01.989Z</published>
     </entry>
 </feed>
