@@ -4,10 +4,27 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sun, 22 Aug 2021 15:23:03 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Aug 2021 15:25:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[新竹城隍廟蔡英文蒞臨，好戲在最後15秒，精彩啊]]></title>
+            <link>https://cofacts.tw/article/7a7ck5fozkkq?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/7a7ck5fozkkq?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sun, 22 Aug 2021 15:23:25 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/7a7ck5fozkkq?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          新竹城隍廟蔡英文蒞臨，好戲在最後15秒，精彩啊
+        
+              <h2><a href="https://cofacts.tw/reply/pfR1bnsBqH8xU4AwloBb">最新回應</a></h2>
+              <p>含有個人意見 by Lin</p>
+              影片內容是最後約 10 秒說了約六七次的蔡英文下台。至於是不是精彩好戲，從畫面中並無法有共識。
+
+              <h2>出處</h2>
+              https://www.facebook.com/History.mirror.tw/
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[【交通部補貼嚴重特殊傳染性肺炎疫情防疫物資費用《公告》】
 有關交通部公路局補貼防⋯⋯]]></title>
@@ -324,25 +341,6 @@ https://www.thenewslens.com/article/39848
               <h2>出處</h2>
               1. https://www.ettoday.net/news/20210822/2061888.htm
 2. https://traffic.tycg.gov.tw/businessD/post/upt.aspx?p0=94155&key=&uid=0&cid=0&con=1&year=&month=&day=&fp=
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[外太空來的彗星隕石他可以溶解鐵釘]]></title>
-            <link>https://cofacts.tw/article/zndxbljl8pnk?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/zndxbljl8pnk?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Sun, 22 Aug 2021 11:47:16 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/zndxbljl8pnk?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          外太空來的彗星隕石他可以溶解鐵釘
-        
-              <h2><a href="https://cofacts.tw/reply/8vSvbXsBqH8xU4Aws3_2">最新回應</a></h2>
-              <p>含有錯誤訊息 by LB the factchecker</p>
-              這則訊息已經被其他訊息查核平台證實為假消息囉!可以到下面這個網址來看!
-https://www.mygopen.com/2021/08/ga-melts.html
-
-              <h2>出處</h2>
-              MyGoPen查證參考：
-https://www.mygopen.com/2021/08/ga-melts.html
             ]]></description>
         </item>
     </channel>
