@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-22T07:29:18Z</updated>
+ <updated>2021-08-22T07:31:36Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58897772</id>
+  <title><![CDATA[东欧国家认清了中国投资？]]></title>
+  <updated>2021-08-22T07:19:00Z</updated>
+  <published>2021-08-22T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东欧国家认清了中国投资？/a-58897772?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国希望在中东欧扩大其影响力。在欧盟东翼，有人呼吁抵制中国的“腐蚀性资本”，但也有人并未看到威胁。]]></summary>
+  <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58888640</id>
+  <title><![CDATA[打动人心是扩大疫苗接种的制胜法宝？]]></title>
+  <updated>2021-08-22T07:19:00Z</updated>
+  <published>2021-08-22T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
+  <category term="科技环境"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58944458</id>
   <title><![CDATA[德语媒体：中国经济为何能持续增长?]]></title>
@@ -203,16 +223,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国新冠疫情进入第四波/a-58918191?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[德国联邦疾控研究中心罗伯特·科赫研究所（RKI）称，德国已经明显开始了第四波新冠疫情，年轻人群受到影响尤其严重。]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58916055</id>
-  <title><![CDATA[阿富汗女大生：外交官梦想破碎丶年轻世代被西方背叛]]></title>
-  <updated>2021-08-20T09:11:00Z</updated>
-  <published>2021-08-20T09:11:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗女大生：外交官梦想破碎丶年轻世代被西方背叛/a-58916055?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[即将毕业的阿富汗女大学生库兰的生活一夕变色，能否继续学业成了未知数，从事外交工作的梦更遥不可及。面对充满不确定的未来，她向德国之声吐露心中的忧虑与绝望。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58914555</id>
@@ -525,16 +535,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58806447</id>
-  <title><![CDATA[中国PPI涨幅9% 消费品物价涨幅回落]]></title>
-  <updated>2021-08-09T10:32:00Z</updated>
-  <published>2021-08-09T10:32:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国ppi涨幅9-消费品物价涨幅回落/a-58806447?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[8月9日，中国国家统计局发布的今年7月主要经济数据显示，工业生产者出厂价格指数（PPI）上涨幅度达9%，鉴于中国是出口大国，这一趋势势必对很多国家的消费者价格产生直接影响。]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58772099</id>
   <title><![CDATA[当德国遇到台湾：德国女足的“台北奇迹”]]></title>
   <updated>2021-08-07T07:16:00Z</updated>
@@ -590,15 +590,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -606,6 +597,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
