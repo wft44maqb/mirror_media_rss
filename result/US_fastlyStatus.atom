@@ -4,7 +4,7 @@
   <link rel="alternate" type="text/html" href="https://status.fastly.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.fastly.com/history.atom"/>
   <title>Fastly Status - Incident History</title>
-  <updated>2021-08-22T09:23:30Z</updated>
+  <updated>2021-08-22T09:36:24Z</updated>
   <author>
     <name>Fastly</name>
   </author>
@@ -26,11 +26,11 @@
   </entry>
   <entry>
     <id>tag:status.fastly.com,2005:Incident/7817000</id>
-    <published>2021-08-22T08:28:56Z</published>
-    <updated>2021-08-22T08:28:56Z</updated>
+    <published>2021-08-22T09:36:24Z</published>
+    <updated>2021-08-22T09:36:24Z</updated>
     <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/7qcqq86ch9rh"/>
     <title>CDN Performance Impact</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;22&lt;/var&gt;, &lt;var data-var='time'&gt;08:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - We're currently investigating potential impact to performance with our CDN services.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;22&lt;/var&gt;, &lt;var data-var='time'&gt;09:36&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;22&lt;/var&gt;, &lt;var data-var='time'&gt;08:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - We're currently investigating potential impact to performance with our CDN services.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.fastly.com,2005:Incident/7802252</id>
