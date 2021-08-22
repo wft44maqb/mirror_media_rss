@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 22 Aug 2021 02:40:56 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Aug 2021 02:43:42 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 22 Aug 2021 02:40:56 GMT</pubDate>
+        <pubDate>Sun, 22 Aug 2021 02:43:42 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -27,13 +27,6 @@
         <category><![CDATA[華爾街日報]]></category>
         <category><![CDATA[華爾街日報中文網]]></category>
         <category><![CDATA[Wall Street Journal]]></category>
-        <item>
-            <title><![CDATA[中國通過數據私隱保護法，嚴厲程度全球居前]]></title>
-            <description><![CDATA[<img width="1280" height="852" src="https://si.wsj.net/public/resources/images/S1-LQ677_cdatal_OR_20210819230703.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國批准了一項全面的私隱保護法，將遏制科技公司對各類數據的收集行為。但政策分析人士說，這不太可能限制中國普遍存在的監控做法。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E9%80%9A%E9%81%8E%E5%85%A8%E7%90%83%E6%9C%80%E5%9A%B4%E6%A0%BC%E7%9A%84%E6%95%B8%E6%93%9A%E7%A7%81%E9%9A%B1%E4%BF%9D%E8%AD%B7%E6%B3%95%E4%B9%8B%E4%B8%80-11629430506</link>
-            <guid isPermaLink="false">CT-BCH-20210820112403</guid>
-            <pubDate>Fri, 20 Aug 2021 11:35:00 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[中國推遲在港實施反制裁法]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ722_hksanc_OR_20210820071934.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據香港人大代表譚耀宗周五表示，全國人大常委會周五決定暫時不推進可能禁止香港銀行和企業遵守對中國公民制裁的計劃，對有關問題繼續進行研究。</p>]]></description>
@@ -61,83 +54,6 @@
             <link>https://cn.wsj.com/articles/%E5%BC%B7%E8%BF%AB%E5%8B%9E%E5%8B%95%E6%8C%87%E7%A8%B1%E5%B0%8E%E8%87%B4%E7%B7%8A%E5%BC%B5%E5%B1%80%E5%8B%A2%E5%8D%87%E7%B4%9A%E4%B9%8B%E9%9A%9B%EF%BC%8C%E4%B8%AD%E5%9C%8B%E9%97%9C%E9%96%89%E4%B8%80%E5%AE%B6%E7%BE%8E%E5%9C%8B%E5%9C%A8%E8%8F%AF%E5%8B%9E%E5%8B%95%E5%AF%A9%E8%A8%88%E6%A9%9F%E6%A7%8B-11629417606</link>
             <guid isPermaLink="false">CT-BGH-20210820074657</guid>
             <pubDate>Fri, 20 Aug 2021 08:05:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[喀布爾機場依然混亂，美軍發射催淚瓦斯以控制人群]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ716_afghan_OR_20210820064918.jpg" class="webfeedsFeaturedVisual" alt=""/><p>周五，喀布爾國際機場的周邊仍然一片混亂，軍方發射催淚瓦斯以控制絕望的人群，而美國官員正在考慮派遣部隊營救被困在塔利班檢查站之外的美國人，並將他們送往機場。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%96%80%E5%B8%83%E7%88%BE%E6%A9%9F%E5%A0%B4%E4%BE%9D%E7%84%B6%E6%B7%B7%E4%BA%82%EF%BC%8C%E7%BE%8E%E8%BB%8D%E7%99%BC%E5%B0%84%E5%82%AC%E6%B7%9A%E7%93%A6%E6%96%AF%E4%BB%A5%E6%8E%A7%E5%88%B6%E4%BA%BA%E7%BE%A4-11629505807</link>
-            <guid isPermaLink="false">CT-BGH-20210821080843</guid>
-            <pubDate>Sat, 21 Aug 2021 01:50:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[報導：FDA下周可能完全批准輝瑞新冠疫苗]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LR051_FDAVAX_OR_20210820175534.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據《紐約時報》周五報導，美國食品藥品管理局正在努力在下周一之前完全批准輝瑞公司與BioNTech的兩劑新冠疫苗。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%A0%B1%E5%B0%8E%EF%BC%9Afda%E4%B8%8B%E5%91%A8%E5%8F%AF%E8%83%BD%E5%AE%8C%E5%85%A8%E6%89%B9%E5%87%86%E8%BC%9D%E7%91%9E%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97-11629508506</link>
-            <guid isPermaLink="false">CT-BIZ-20210821090536</guid>
-            <pubDate>Sat, 21 Aug 2021 02:45:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[美國股市上漲，但是本周下跌]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ693_0820pa_OR_20210820030850.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國股市周五反彈，但是本周下跌，受投資者對經濟前景日益擔憂的影響。道瓊斯指數周五上漲約226點，至35,120.08點，漲幅0.6%。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E8%82%A1%E5%B8%82%E4%B8%8A%E6%BC%B2%EF%BC%8C%E4%BD%86%E6%98%AF%E6%9C%AC%E5%91%A8%E4%B8%8B%E8%B7%8C-11629510306</link>
-            <guid isPermaLink="false">CT-MKT-20210821090042</guid>
-            <pubDate>Sat, 21 Aug 2021 02:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[特斯拉Autopilot系統遭調查之際，馬斯克加倍押注人工智能]]></title>
-            <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LP571_TESLA_OR_20210817170738.jpg" class="webfeedsFeaturedVisual" alt=""/><p>過去一周，特斯拉的先進駕駛輔助功能Autopilot受到越發嚴格的審視。但從該公司首席執行官馬斯克的最新表態來看，這家電動汽車製造商將加倍押注人工智能，其中就包括建造人類形態機器人。</p>]]></description>
-            <link>https://cn.wsj.com/articles/autopilot%E9%81%AD%E8%AA%BF%E6%9F%A5%E4%B9%8B%E9%9A%9B%EF%BC%8C%E9%A6%AC%E6%96%AF%E5%85%8B%E8%88%89%E8%BE%A6%E7%89%B9%E6%96%AF%E6%8B%89ai%E6%97%A5%E6%B4%BB%E5%8B%95-11629429006</link>
-            <guid isPermaLink="false">CT-TEC-20210820105213</guid>
-            <pubDate>Sat, 21 Aug 2021 02:25:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[中概股簡報：《人民日報》呼籲加強互聯網處方監管引發強烈擔憂]]></title>
-            <description><![CDATA[<img width="749" height="499" src="https://si.wsj.net/public/resources/images/BN-IS648_0603cs_P_20150603073143.jpg" class="webfeedsFeaturedVisual" alt=""/><p>阿里巴巴港股續創新低，多家國產獨立遊戲廠商發布反淘寶盜版聯合聲明；報導稱Google曾計劃向騰訊收購Epic Games股份；螞蟻集團螞蟻鏈與天能鋰電達成新能源領域深度合作。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%B8%AD%E6%A6%82%E8%82%A1%E7%B0%A1%E5%A0%B1%EF%BC%9A%E3%80%8A%E4%BA%BA%E6%B0%91%E6%97%A5%E5%A0%B1%E3%80%8B%E5%91%BC%E7%B1%B2%E5%8A%A0%E5%BC%B7%E4%BA%92%E8%81%AF%E7%B6%B2%E8%99%95%E6%96%B9%E7%9B%A3%E7%AE%A1%E5%BC%95%E7%99%BC%E5%BC%B7%E7%83%88%E6%93%94%E6%86%82-11629512534</link>
-            <guid isPermaLink="false">CT-MKT-20210821100829</guid>
-            <pubDate>Sat, 21 Aug 2021 02:31:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[亞馬遜開設實體商店自有道理]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ523_AMAZON_OR_20210819161310.jpg" class="webfeedsFeaturedVisual" alt=""/><p>電商巨頭亞馬遜需要為其不斷髮展的自有品牌尋找展示的渠道，但其他零售商不太可能會出手相助。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%BA%9E%E9%A6%AC%E9%81%9C%E9%96%8B%E8%A8%AD%E5%AF%A6%E9%AB%94%E5%95%86%E5%BA%97%E8%87%AA%E6%9C%89%E9%81%93%E7%90%86-11629442510</link>
-            <guid isPermaLink="false">CT-HRD-20210820141621</guid>
-            <pubDate>Sat, 21 Aug 2021 01:45:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[中國電信A股上市首日走高]]></title>
-            <description><![CDATA[<img width="632" height="810" src="https://si.wsj.net/public/resources/images/BN-BZ282_0319ch_FR_20140319021025.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國電信A股周五在上海上市首日走高，此前該公司通過發行A股融資人民幣470.9億元，成為去年7月以來全球最大規模的新股發行交易。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E9%9B%BB%E4%BF%A1a%E8%82%A1%E4%B8%8A%E5%B8%82%E9%A6%96%E6%97%A5%E8%B5%B0%E9%AB%98-11629425835</link>
-            <guid isPermaLink="false">CT-MKT-20210820100210</guid>
-            <pubDate>Fri, 20 Aug 2021 06:17:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[大眾汽車因晶片短缺而削減一主要工廠產量]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LB235_VWHERD_OR_20210709115359.jpg" class="webfeedsFeaturedVisual" alt=""/><p>德國汽車製造商大眾汽車發言人周五表示，由於半導體短缺，該公司將削減沃爾夫斯堡主要工廠的產量。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%A4%A7%E7%9C%BE%E6%B1%BD%E8%BB%8A%E5%9B%A0%E6%99%B6%E7%89%87%E7%9F%AD%E7%BC%BA%E8%80%8C%E5%89%8A%E6%B8%9B%E4%B8%80%E4%B8%BB%E8%A6%81%E5%B7%A5%E5%BB%A0%E7%94%A2%E9%87%8F-11629450607</link>
-            <guid isPermaLink="false">CT-BIZ-20210820165937</guid>
-            <pubDate>Fri, 20 Aug 2021 09:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[塔利班奪權不到一周，阿富汗女性已開始淡出公眾視線]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ092_AFWOME_OR_20210818173618.jpg" class="webfeedsFeaturedVisual" alt=""/><p>隨著塔利班開始壓制自由，阿富汗女性既害怕外出，也不敢暢所欲言。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%A1%94%E5%88%A9%E7%8F%AD%E5%A5%AA%E6%AC%8A%E4%B8%8D%E5%88%B0%E4%B8%80%E5%91%A8%EF%BC%8C%E9%98%BF%E5%AF%8C%E6%B1%97%E5%A5%B3%E6%80%A7%E5%B7%B2%E9%96%8B%E5%A7%8B%E6%B7%A1%E5%87%BA%E5%85%AC%E5%85%B1%E5%A0%B4%E6%89%80-11629420306</link>
-            <guid isPermaLink="false">CT-BGH-20210820080743</guid>
-            <pubDate>Fri, 20 Aug 2021 02:35:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[學樂集團繼承大戲：CEO突然離世，辦公室戀情和意外遺囑公之於眾]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LI523_SCHOLA_OR_20210729142523.jpg" class="webfeedsFeaturedVisual" alt=""/><p>出版過《哈利·波特》、《神奇校車》等作品的學樂集團是童書出版界的翹楚，長期執掌該公司的理查德·羅賓遜於6月突然離世。根據遺囑，他將學樂的控股權和全部個人財產贈予了公司高管約爾·盧切斯，令其家庭成員大為震驚。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%AD%B8%E6%A8%82%E9%9B%86%E5%9C%98%E7%B9%BC%E6%89%BF%E5%A4%A7%E6%88%B2%EF%BC%9Aceo%E7%AA%81%E7%84%B6%E9%9B%A2%E4%B8%96%EF%BC%8C%E8%BE%A6%E5%85%AC%E5%AE%A4%E6%88%80%E6%83%85%E5%92%8C%E6%84%8F%E5%A4%96%E9%81%BA%E5%9B%91%E5%85%AC%E4%B9%8B%E6%96%BC%E7%9C%BE-11629333137</link>
-            <guid isPermaLink="false">CT-BIZ-20210819080709</guid>
-            <pubDate>Thu, 19 Aug 2021 01:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[圖說美國史上最長戰爭：入侵阿富汗的近20年]]></title>
-            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-DH464_AFWAR2_G_20190822144528.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美軍尚未完成撤軍，塔利班已經奪取阿富汗首都喀布爾。人們越來越擔心，阿富汗可能再現亂局，重演幾十年前的血腥歷史。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%9C%96%E8%AA%AA%E7%BE%8E%E5%9C%8B%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%95%B7%E6%88%B0%E7%88%AD%EF%BC%9A%E5%85%A5%E4%BE%B5%E9%98%BF%E5%AF%8C%E6%B1%97%E7%9A%84%E8%BF%9120%E5%B9%B4-11629161542</link>
-            <guid isPermaLink="false">CT-BGH-20210817080702</guid>
-            <pubDate>Wed, 18 Aug 2021 08:07:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
