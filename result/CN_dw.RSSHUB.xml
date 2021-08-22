@@ -14,7 +14,7 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Sun, 22 Aug 2021 10:36:02 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Aug 2021 10:43:26 GMT</lastBuildDate>
         <ttl>5</ttl>
         
         <item>
@@ -84,6 +84,55 @@
             
             
             <author><![CDATA[亨利]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[自动化预示的危机：保险科技如何帮助转嫁风险？]]></title>
+            <description><![CDATA[<blockquote>自动化时代即将到来。在道路交通层面上，全自动驾驶（Full Self Driving，FSD）与车联网／物联网结合，固然为人们带来无比方便，势将革新未来交通网络生态。然而，自动化背后的潜在危机，又可以利用科技来转嫁风险吗？</blockquote><p>8月16日，美国联邦政府正式向电动车企业Tesla的Autopilot自动辅助驾驶系统展开调查。美国国家公路交通安全管理局（National Highway Traffic Safety Administration，NHTSA）已确认11宗与Tesla自动辅助驾驶系统有关的车祸，部分事故是Tesla在有照明灯、箭咀灯牌或“雪糕筒”等警示物的状况下，撞上泊在路边的紧急服务车辆。</p><p>调查涉及2014至2021年间生产的76.5万辆电动车，涵盖Model S、X、3、Y各系列车型。<b>自动驾驶背后的隐患</b>这次调查，再度惹起外界对Tesla即将将全自动驾驶投入商用化的担忧。目前，获美国监管部门允许在道路使用的属于“自动辅助驾驶系统”，需要车主全程主动监督。</p><p>然而，调查似乎丝毫没有动摇Tesla的野心。Tesla于周四（8月19日）举行人工智能日（AI Day），公布新一代自家研发的Dojo "D1" AI学习芯片，继续铺路全自动驾驶系统落地应用。</p><p>除此之外，全球各大半导体设计大厂对自动驾驶也已虎视眈眈：英伟达（NVIDIA）今年已发表用于自动驾驶车的AI处理器芯片“DRIVE Atlan”，锁定各大车厂即将推出的车款；英特尔（Intel）的全自动驾驶车分别已在纽约、东京、上海等市区进行测试；另一大厂AMD与Tesla的自动驾驶芯片合作研发项目，几年前早已甚嚣尘上。</p><p>因此，姑勿论自动驾驶背后的各种争议，随着车企和芯片厂争相在自动驾驶领域攻城掠地，实现全自动驾驶系统日常普及化的日子，相信现已不远了。</p><figure>
+        <img src="https://media.dwnews.net/hk01/32Em4Lg0ZqjCH2ceJsZSKKIzrOo%3D/320*0/media/images/dw/20210611/480069618434576384381206.jpeg" alt="图为中国上海一架货车在Tesla工厂运送新车。（Reuters）" referrerpolicy="no-referrer">
+        <figcaption>图为中国上海一架货车在Tesla工厂运送新车。（Reuters）</figcaption>
+        </figure><br><p>当然，正如美国监管部门现正忧虑的：电脑技术如何精密也好，没人能保证自动驾驶计算系统永不出错──尽管出现事故的或然率远比人手驾驶为低。</p><p>但若然真的因自动驾驶系统出现问题而发生意外了，谁该来负上风险责任？<b>※ 美国一个调查指出，超过大半受访民众认为目前的自动驾驶车技术仍是“不太安全或非常不安全”<b>“自动化保险”</b>事实上，世界上已有一帮人在想，当日后自动化时代来临，经济及人命损失风险转嫁和承保机制，具体上究竟应该如何实行。</b></p><p><b>例如，英国便有一间初创企业Flock，研发出一个“实时风险引擎”（real time risk engine）。它的创新之处在于与车辆的信息处理系统物联挂钩，标榜以“每秒”及“每米”为基础计算保费，为乘客提供每分每秒的实时保险，按需投保。该保险初创最近更获得美国传奇风投家Chamath Palihapitiya牵头参与首轮融资。</b></p><p><b>按照这类「保险科技」（InsurTech）业界的描述，当车辆实际移动时（包括在全自动驾驶系统启动的情况下）自动触发保险机制，乘保每一段路，保费计算方式则视乎该段路程的长度和时间。</b></p><figure><b>
+        <img src="https://media.dwnews.net/hk01/AoUpiRR77TnBhbR91tk5tublANE%3D/320*0/media/images/dw/20200716/360484042900115456.jpeg" alt="当日后自动化时代来临，经济及人命损失风险转嫁和承保机制，具体上究竟应该如何实行？（Reuters）" referrerpolicy="no-referrer">
+        <figcaption>当日后自动化时代来临，经济及人命损失风险转嫁和承保机制，具体上究竟应该如何实行？（Reuters）</figcaption>
+        </b></figure><b><br><p>“就像你坐Uber，保险将能采用dynamic pricing（动态定价），视乎即时天气、路面塞车情况等，自动调整保费──这就是数据驱动（data-driven）保险的应用。”</p><p>联合创办人安宇昭（Andy）向《香港01》介绍道。</p><p>按照安宇昭的说法，“数据驱动保险”的概念，同样可以应用于各类型交通模式，制定即时性的客制化保险──每程车依据你的实际路程、时间，独立计算保险保费。好处是保障范围及标的极为明确，而且还比传统“大包围”的保险套餐更为划算。</p><figure>
+        <img src="https://media.dwnews.net/hk01/xIXAoJ0TRM5NRd8PQAj5e56sh24%3D/320*0/media/images/dw/20210819/505041176789913600478650.jpeg" alt="安宇昭认为，未来的保险形式必须由数据所驱动。（龚嘉盛摄）" referrerpolicy="no-referrer">
+        <figcaption>安宇昭认为，未来的保险形式必须由数据所驱动。（龚嘉盛摄）</figcaption>
+        </figure><br><p>现在能够实现到的情况是，譬如，登上一辆的士之前，用户只要即时在手机应用程式按键启动保险，自当刻起该一程车便会即时受保。</p><p>“只要你是乘客，无论是坐Uber或是GOGOVAN，一上车就可以通过手机即时启动保险程序。”安宇昭说道。</p><figure>
+        <img src="https://media.dwnews.net/hk01/rDXH1zOsqXDFf65K0O9p-dUgwGE%3D/320*0/media/images/dw/20210817/504354451276959744231408.jpeg" alt="微保险是希望利用科技，向乘客提供每分每秒的实时保险，按需投保，投保门槛变相降低。图为Uber共乘车应用程式介面，非微保险提供者应用程式介面。（Getty Images）" referrerpolicy="no-referrer">
+        <figcaption>微保险是希望利用科技，向乘客提供每分每秒的实时保险，按需投保，投保门槛变相降低。图为Uber共乘车应用程式介面，非微保险提供者应用程式介面。（Getty Images）</figcaption>
+        </figure><br><p>按照业界的未来设想，在将来自动化车联网时代，这种手动启动保险的程序也不需存在，而是让手机应用程式与车辆连结，车辆启动，就自动触发保险，为司机和乘客承保。</p><p>但在此设想实现之前，追求细致化、碎片化的“微保险”模式，现今则愈来愈受业界所重视。</p><p>微保险运用到多种现时盛行的应用科技。譬如，透过大数据分析及机器学习技术，用作分析客户的风险，成为实时计算客户保费的变量；透过GPS精确定位技术，则可以协助日后实现“Uber式”的动态定价，保费按实时路面状况等外在环境因素而自动变更。</p><p>YAS现时也在应用GPS、大数据、机器学习、Open API（开放应用程式介面）等技术，开发针对个别目标群众的微保险计划，包括为乘车、行山、单车、跑步运动提供单次微保险。它们同样以每段路程计算保费，利用低于传统保险收费门槛的方式，向用户提供弹性的非合约制微保险。早前，YAS也与九巴及忠意保险合作，联合开发名为“BUS RYDE”的巴士乘客微保险，矢在为日常巴士乘客提供个人财物保障及人身意外保险。</p><figure>
+        <img src="https://media.dwnews.net/hk01/E8PTxrREXSbXjO1IS133ht9-3ug%3D/320*0/media/images/dw/20210819/505041174180925440254736.jpeg" alt="由左至右：YAS 联合创始人李威霖、安宇昭和市场推广主管负责人方安生。（龚嘉盛摄）" referrerpolicy="no-referrer">
+        <figcaption>由左至右：YAS 联合创始人李威霖、安宇昭和市场推广主管负责人方安生。（龚嘉盛摄）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/hk01/inqpnIyox1KfcnzYr7jLorF6S0A%3D/320*0/media/images/dw/20210817/504353998317293568304168.png" alt="YAS微保险应用程式介面。（YAS微保险提供）" referrerpolicy="no-referrer">
+        <figcaption>YAS微保险应用程式介面。（YAS微保险提供）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/hk01/MbbPoR8xzWIHgwq8KEKM7rkZYUo%3D/320*0/media/images/dw/20210817/504354000615903232478219.png" alt="YAS微保险应用程式介面。（YAS微保险提供）" referrerpolicy="no-referrer">
+        <figcaption>YAS微保险应用程式介面。（YAS微保险提供）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/hk01/sO14185OKqo7kxagxeLZck-wh60%3D/320*0/media/images/dw/20210817/504354003078090752487129.png" alt="YAS微保险应用程式介面。（YAS微保险提供）" referrerpolicy="no-referrer">
+        <figcaption>YAS微保险应用程式介面。（YAS微保险提供）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/hk01/U0u8TDlUz23hc7n5fNkA9hamO38%3D/320*0/media/images/dw/20210817/504354005678690304610582.png" alt="YAS微保险应用程式介面。（YAS微保险提供）" referrerpolicy="no-referrer">
+        <figcaption>YAS微保险应用程式介面。（YAS微保险提供）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/hk01/XVvEBSyA_dlyISbGGn-iXXN07jE%3D/320*0/media/images/dw/20210817/504354008048603136893174.png" alt="YAS微保险应用程式介面。（YAS微保险提供）" referrerpolicy="no-referrer">
+        <figcaption>YAS微保险应用程式介面。（YAS微保险提供）</figcaption>
+        </figure><br><figure>
+        <img src="https://media.dwnews.net/hk01/3OBnxvzzo6smbPlcUC23l91mLLA%3D/320*0/media/images/dw/20210817/504354010645008384039182.png" alt="YAS微保险应用程式介面。（YAS微保险提供）" referrerpolicy="no-referrer">
+        <figcaption>YAS微保险应用程式介面。（YAS微保险提供）</figcaption>
+        </figure><br><p>就算一些传统保险公司，现在也将目光放在微保险，希望它能为他们带来一些年轻的客户群，让他们以低门槛的条件“进场”购买保险。</p><p>“微保险涉及到的，可能仅是一两元的事，你不需投入很大笔资金，就可以随时随地受保。”安宇昭解释道。</p><p>自动化时代，将会为人们带来无比方便和弹性。但是，科技进步背后，必然会衍生出各种新式风险。人们需要通过创造力和思考，尽可能降低这些新科技的危害性。</p><p>固然，世上没有任何东西能够达致“零风险”，要充份对冲这些风险，借助科技本身，或许能够谋求一些解决方案。</p></b>]]></description>
+            <pubDate>Sun, 22 Aug 2021 00:12:02 GMT</pubDate>
+            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60257486/%E8%87%AA%E5%8A%A8%E5%8C%96%E9%A2%84%E7%A4%BA%E7%9A%84%E5%8D%B1%E6%9C%BA%E4%BF%9D%E9%99%A9%E7%A7%91%E6%8A%80%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E8%BD%AC%E5%AB%81%E9%A3%8E%E9%99%A9</guid>
+            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60257486/%E8%87%AA%E5%8A%A8%E5%8C%96%E9%A2%84%E7%A4%BA%E7%9A%84%E5%8D%B1%E6%9C%BA%E4%BF%9D%E9%99%A9%E7%A7%91%E6%8A%80%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E8%BD%AC%E5%AB%81%E9%A3%8E%E9%99%A9</link>
+            
+            
+            
+            <author><![CDATA[伍振中]]></author>
             
                 
             
@@ -504,25 +553,6 @@
             
             
             <author><![CDATA[何文翰]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[俾路支解放军承认袭击中国人车队　昔曾攻击中国驻巴基斯坦使馆]]></title>
-            <description><![CDATA[<blockquote>巴基斯坦俾路支省（Balochistan）瓜达尔（Gwadar）2021年8月20日，有一架载有中国人的车辆遭自杀式炸弹袭击。武装组织俾路支解放军（BLA）同日承认发动袭击。</blockquote><figure>
-        <img src="https://media.dwnews.net/hk01/N7A5Ee5THGSLR0px6eiZACqZSWU%3D/320*0/media/images/dw/20210821/505776907309027328967428.jpeg" alt="巴基斯坦：图为7月30日，巴基斯坦卡拉奇商店店主在市场内玩板球。（Reuters）" referrerpolicy="no-referrer">
-        <figcaption>巴基斯坦：图为7月30日，巴基斯坦卡拉奇商店店主在市场内玩板球。（Reuters）</figcaption>
-        </figure><br><p>BLA发声明称：“BLA已执行一个针对中国工程师车队、‘自我牺牲的’袭击。”</p><p>BLA是俾路支省的分离主义份子之一、对外国投资者感不满，他们2018年11月袭击中国驻巴基斯坦卡拉奇领事馆。2019年5月，瓜达尔一间酒店遇袭，俾路支解放军之后认责，也指袭击是针对中国和外地的投资者。</p><p>俾路支省是巴基斯坦最落后地区，在这次袭击事件发生前，瓜达尔的示威已持续逾一个月，他们不满食水及电力严重短缺威胁他们的生计。有人将这些问题迁怒至中国“一带一路”倡议，认为是它的项目导致资源短缺。<b>推荐阅读：</b></p>]]></description>
-            <pubDate>Sat, 21 Aug 2021 13:24:01 GMT</pubDate>
-            <guid isPermaLink="false">https://www.dwnews.com/%E5%85%A8%E7%90%83/60257708/%E4%BF%BE%E8%B7%AF%E6%94%AF%E8%A7%A3%E6%94%BE%E5%86%9B%E6%89%BF%E8%AE%A4%E8%A2%AD%E5%87%BB%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%BD%A6%E9%98%9F%E6%98%94%E6%9B%BE%E6%94%BB%E5%87%BB%E4%B8%AD%E5%9B%BD%E9%A9%BB%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E4%BD%BF%E9%A6%86</guid>
-            <link>https://www.dwnews.com/%E5%85%A8%E7%90%83/60257708/%E4%BF%BE%E8%B7%AF%E6%94%AF%E8%A7%A3%E6%94%BE%E5%86%9B%E6%89%BF%E8%AE%A4%E8%A2%AD%E5%87%BB%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%BD%A6%E9%98%9F%E6%98%94%E6%9B%BE%E6%94%BB%E5%87%BB%E4%B8%AD%E5%9B%BD%E9%A9%BB%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E4%BD%BF%E9%A6%86</link>
-            
-            
-            
-            <author><![CDATA[郝昭诺]]></author>
             
                 
             
