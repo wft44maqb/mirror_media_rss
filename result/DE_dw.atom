@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-22T09:29:11Z</updated>
+ <updated>2021-08-22T09:30:34Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58949379</id>
+  <title><![CDATA[特朗普批拜登丢掉阿富汗是“史上最大外交耻辱”]]></title>
+  <updated>2021-08-22T09:09:00Z</updated>
+  <published>2021-08-22T09:09:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/特朗普批拜登丢掉阿富汗是-史上最大外交耻辱/a-58949379?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国前总统特朗普批评拜登丢失阿富汗是“最大外交政策耻辱”。在塔利班夺权一周后，喀布尔机场仍一片混乱，周日有7人在混乱推挤中死亡。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58921173</id>
   <title><![CDATA[UNICEF：没有一个孩子能逃脱气候变化的影响]]></title>
@@ -223,16 +233,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/客座评论：塔利班获胜对世界民主的影响/a-58929098?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[塔利班比起20年前更重视外交和形象，但是本质并没有发生改变。政论家张俊华认为，在与塔利班打交道的过程中，西方国家应该想出一个办法：不能让好东西都让中国拿去，而烂摊子都由自己来收。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58924132</id>
-  <title><![CDATA[ “三次分配”助中国减少贫富差距？]]></title>
-  <updated>2021-08-20T11:13:00Z</updated>
-  <published>2021-08-20T11:13:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/三次分配-助中国减少贫富差距？/a-58924132?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[日前习近平主持的一次中共中央财经委会议，在“共同富裕”的议题下提出“三次分配”的规划，引起舆论的关注。什么是“三次分配”，它能减少收入和财富的巨大差距吗？]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58919548</id>
