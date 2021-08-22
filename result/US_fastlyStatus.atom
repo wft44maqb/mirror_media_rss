@@ -4,7 +4,7 @@
   <link rel="alternate" type="text/html" href="https://status.fastly.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.fastly.com/history.atom"/>
   <title>Fastly Status - Incident History</title>
-  <updated>2021-08-20T23:19:39Z</updated>
+  <updated>2021-08-22T08:28:56Z</updated>
   <author>
     <name>Fastly</name>
   </author>
@@ -23,6 +23,14 @@
     <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/67p4n11mfvbq"/>
     <title>Globalsign Intermediate Certificate Rotation</title>
     <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;09:30&lt;/var&gt; - &lt;var data-var='time'&gt;10:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;23:19&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - The time for this to take place is: 9:30-10:00 UTC.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;17&lt;/var&gt;, &lt;var data-var='time'&gt;04:35&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Please be advised that the time of this maintenance event has changed from Aug 24, entire day to Aug 24, 10:30 - 11:00 UTC.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;10&lt;/var&gt;, &lt;var data-var='time'&gt;00:53&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - On August 24, 2021 GlobalSign will rotate their Atlas TLS CAs intermediate certificates.&lt;br /&gt;&lt;br /&gt;Beginning 2022, GlobalSign will start rotating their intermediate certificates on a quarterly basis, on the second Monday of every quarter. &lt;br /&gt;&lt;br /&gt;For customers who are using Fastly TLS managed certificates issued by GlobalSign, also known as Fastly TLS Commercial CA, this change will require action on your part if you are using certificate or public key pinning to avoid any impact to your traffic. &lt;br /&gt;&lt;br /&gt;For more information on the update from GlobalSign, please refer to the following links:&lt;br /&gt;https://www.globalsign.com/en/blog/upcoming-changes-publicly-trusted-tls-certificates &lt;br /&gt;https://support.globalsign.com/atlas/atlas-tls/atlas-tls-ica-rotations-2021&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:status.fastly.com,2005:Incident/7817000</id>
+    <published>2021-08-22T08:28:56Z</published>
+    <updated>2021-08-22T08:28:56Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/7qcqq86ch9rh"/>
+    <title>CDN Performance Impact</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;22&lt;/var&gt;, &lt;var data-var='time'&gt;08:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - We're currently investigating potential impact to performance with our CDN services.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.fastly.com,2005:Incident/7802252</id>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/1ykd4zhgc64r"/>
     <title>Control Plane Maintenance</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;15&lt;/var&gt;, &lt;var data-var='time'&gt;01:55&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;15&lt;/var&gt;, &lt;var data-var='time'&gt;01:30&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;May &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;13:26&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Fastly will be performing scheduled maintenance on the Fastly Application and API. These services will be placed in maintenance mode on 2021-07-15 at 01:30 UTC until 02:00 UTC.&lt;br /&gt;&lt;br /&gt;During this scheduled maintenance, customers will not be able to access service configurations through the Fastly App, and service API calls (with the exception of purging), will return a 503 status code. Historical stats, and WAF rule configuration will also be unavailable. Edge delivery, purging (except purge_all), stats aggregation, and all other content delivery services will be unaffected.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Updated 2021-06-29:&lt;/strong&gt; Maintenance date changed to 2021-07-15&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:status.fastly.com,2005:Incident/7489902</id>
-    <published>2021-07-13T05:48:01Z</published>
-    <updated>2021-07-13T05:48:01Z</updated>
-    <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/8fyp082d67ty"/>
-    <title>Elevated Errors in Lima (LIM)</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;05:48&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;05:42&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;13&lt;/var&gt;, &lt;var data-var='time'&gt;05:35&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - We're investigating elevated errors in Lima (LIM). All other locations and services are unaffected&lt;/p&gt;</content>
   </entry>
 </feed>
