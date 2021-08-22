@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-22T10:28:54Z</updated>
+ <updated>2021-08-22T10:31:29Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58949730</id>
+  <title><![CDATA[刚果（金）关闭多处矿山 缓和中企与当地矛盾]]></title>
+  <updated>2021-08-22T10:19:00Z</updated>
+  <published>2021-08-22T10:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/刚果（金）关闭多处矿山-缓和中企与当地矛盾/a-58949730?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[据法新社报道，刚果民主共和国一个地方政府关闭了数家矿山，以缓和当地居民和中资采矿企业之间的矛盾。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58949379</id>
   <title><![CDATA[特朗普批拜登丢掉阿富汗是“史上最大外交耻辱”]]></title>
