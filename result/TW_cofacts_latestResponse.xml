@@ -4,7 +4,7 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sun, 22 Aug 2021 06:59:31 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Aug 2021 07:02:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
@@ -12,21 +12,19 @@
             <title><![CDATA[https://www.potatomedia.co/post/ccbd8cf6⋯⋯]]></title>
             <link>https://cofacts.tw/article/1k54ltzio45vj?utm_source=Others&amp;utm_medium=RSS</link>
             <guid>https://cofacts.tw/article/1k54ltzio45vj?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Sun, 22 Aug 2021 06:57:09 GMT</pubDate>
+            <pubDate>Sun, 22 Aug 2021 07:01:26 GMT</pubDate>
             <description><![CDATA[
           <h2><a href="https://cofacts.tw/article/1k54ltzio45vj?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
           https://www.potatomedia.co/post/ccbd8cf6-2ae0-48cb-817d-c29c4fe27d85
         
-              <h2><a href="https://cofacts.tw/reply/V_SmbHsBqH8xU4AwFn8P">最新回應</a></h2>
-              <p>含有正確訊息 by LB the factchecker</p>
-              🔎查證疑點1: Natural antibody是否存在?
-⭕經查過後發現Natural Antibody確實存在。Natural antibody(文中暫譯天然抗體)指的是在接觸外來抗原(可以看成是病毒的上可以被我們免疫細胞認出來的標誌，我們的免疫系統接觸到抗原之後，會引發一系列反應，最後由一種免疫細胞叫B細胞產生抗體)之前所產生的抗體。
-
-
-
+              <h2><a href="https://cofacts.tw/reply/W_SqbHsBqH8xU4AwA383">最新回應</a></h2>
+              <p>含有錯誤訊息 by LB the factchecker</p>
+              🔎查證疑點2:「而染疫後痊癒的人，也是靠著後天抗體（T cell immunity）戰勝病毒」一句訊息是否正確?
+❌經查發現此句訊息錯誤。我們身體裡面的T細胞並不會製造抗體，製造抗體的是B細胞。
 
               <h2>出處</h2>
-              1. Natural antibody的定義(經查發現natural antibody還沒有一個一致的定義，我列在上文查證內容裡的定義來自以下一篇editorial) https://www.frontiersin.org/articles/10.3389/fimmu.2017.01795/full
+              1. 維基免疫學教科書中對抗體的介紹(請見抗體定義)
+https://zh.m.wikibooks.org/wiki/%E5%85%8D%E7%96%AB%E5%AD%A6/%E6%8A%97%E4%BD%93%EF%BC%88Antibody%EF%BC%89
             ]]></description>
         </item>
         <item>
