@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-22T12:57:24Z</updated>
+ <updated>2021-08-22T13:00:17Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58950603</id>
+  <title><![CDATA[布林肯与立陶宛外长通话：顶住北京压力]]></title>
+  <updated>2021-08-22T12:53:00Z</updated>
+  <published>2021-08-22T12:53:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/布林肯与立陶宛外长通话：顶住北京压力/a-58950603?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[因提升与台湾的官方关系，波罗的海国家立陶宛受到来自中国的外交压力。美国国务卿布林肯周末同立陶宛外长通话时，强调华盛顿将对该国提供“坚定支持”。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58950341</id>
   <title><![CDATA[杭州市委书记周江勇落马]]></title>
@@ -232,16 +242,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/分析：中国-战狼-外交章法有点乱/a-58933992?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[习近平要求努力塑造中国“可信、可爱、可敬”的形象，但是中国外交官们似乎正在加倍地冒犯西方国家。中国嘲笑新冠病毒从武汉实验室泄露的阴谋论，却又推动同样性质的德特里克堡实验室泄露说。一些西方外交官认为，中国的“战狼“外交章法有点乱，效果适得其反。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58933564</id>
-  <title><![CDATA[中国修法：可生三胎 超生不罚 ]]></title>
-  <updated>2021-08-20T14:43:00Z</updated>
-  <published>2021-08-20T14:43:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国修法：可生三胎-超生不罚/a-58933564?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国人大常委会通过了《计划生育法》修订草案，三胎政策写入其中，并取消了有关超生罚款的规定。 ]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
