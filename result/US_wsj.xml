@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 23 Aug 2021 11:38:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Aug 2021 11:41:07 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 23 Aug 2021 11:38:29 GMT</pubDate>
+        <pubDate>Mon, 23 Aug 2021 11:41:07 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -91,6 +91,13 @@
             <pubDate>Mon, 23 Aug 2021 03:25:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[英特爾將在美國國防部計劃第一階段提供晶圓代工服務]]></title>
+            <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LD438_INTEL_OR_20210715165355.jpg" class="webfeedsFeaturedVisual" alt=""/><p>英特爾公司表示，其將在美國國防部一項計劃的第一階段提供商業晶圓代工服務，該計劃旨在製造國防部系統所需的電路和商業產品。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E8%8B%B1%E7%89%B9%E7%88%BE%E5%B0%87%E5%9C%A8%E7%BE%8E%E5%9C%8B%E5%9C%8B%E9%98%B2%E9%83%A8%E8%A8%88%E5%8A%83%E7%AC%AC%E4%B8%80%E9%9A%8E%E6%AE%B5%E6%8F%90%E4%BE%9B%E6%99%B6%E5%9C%93%E4%BB%A3%E5%B7%A5%E6%9C%8D%E5%8B%99-11629718807</link>
+            <guid isPermaLink="false">CT-BIZ-20210823190445</guid>
+            <pubDate>Mon, 23 Aug 2021 11:40:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Moderna股價一飛沖天]]></title>
             <description><![CDATA[<img width="1280" height="779" src="https://si.wsj.net/public/resources/images/S1-LQ068_VAXSTO_OR_20210818163445.jpg" class="webfeedsFeaturedVisual" alt=""/><p>最近Moderna Inc.股價節節攀升，這家新冠疫苗製造商成為了今年迄今表現最好的標普500指數成份股。</p>]]></description>
             <link>https://cn.wsj.com/articles/moderna%E8%82%A1%E5%83%B9%E4%B8%80%E9%A3%9B%E6%B2%96%E5%A4%A9-11629708606</link>
@@ -103,20 +110,6 @@
             <link>https://cn.wsj.com/articles/%E7%BF%92%E8%BF%91%E5%B9%B3%E7%9E%84%E6%BA%96%E9%AB%98%E6%94%B6%E5%85%A5%E7%B2%BE%E8%8B%B1%EF%BC%8C%E5%A5%A2%E4%BE%88%E5%93%81%E7%89%8C%E5%9C%A8%E8%8F%AF%E9%9A%9B%E9%81%87%E5%8F%97%E9%97%9C%E6%B3%A8-11629703633</link>
             <guid isPermaLink="false">CT-BIZ-20210823150514</guid>
             <pubDate>Mon, 23 Aug 2021 07:32:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[卡特彼勒或許是押注全球建築熱潮的不錯標的]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ062_CATHER_OR_20210818163023.jpg" class="webfeedsFeaturedVisual" alt=""/><p>全球範圍內的基礎設施建設熱潮對建築設備製造商卡特彼勒來說是個好兆頭。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%8D%A1%E7%89%B9%E5%BD%BC%E5%8B%92%E6%88%96%E8%A8%B1%E6%98%AF%E6%8A%BC%E6%B3%A8%E5%85%A8%E7%90%83%E5%BB%BA%E7%AF%89%E7%86%B1%E6%BD%AE%E7%9A%84%E4%B8%8D%E9%8C%AF%E6%A8%99%E7%9A%84-11629702006</link>
-            <guid isPermaLink="false">CT-HRD-20210823142934</guid>
-            <pubDate>Mon, 23 Aug 2021 07:31:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[LG化學股價大跌，此前通用汽車擴大電動車召回範圍]]></title>
-            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-JZ522_GM_G_20210416135644.jpg" class="webfeedsFeaturedVisual" alt=""/><p>LG化學股價周一暴跌，此前通用汽車擴大了對裝有可能存在問題的LG電池的全電動汽車雪佛蘭Bolt的安全召回範圍。</p>]]></description>
-            <link>https://cn.wsj.com/articles/lg%E5%8C%96%E5%AD%B8%E8%82%A1%E5%83%B9%E5%A4%A7%E8%B7%8C%EF%BC%8C%E6%AD%A4%E5%89%8D%E9%80%9A%E7%94%A8%E6%B1%BD%E8%BB%8A%E6%93%B4%E5%A4%A7%E9%9B%BB%E5%8B%95%E8%BB%8A%E5%8F%AC%E5%9B%9E%E7%AF%84%E5%9C%8D-11629688935</link>
-            <guid isPermaLink="false">CT-BIZ-20210823110436</guid>
-            <pubDate>Mon, 23 Aug 2021 03:31:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[塔利班奪權不到一周，阿富汗女性已開始淡出公眾視線]]></title>
