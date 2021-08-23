@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/586" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/586</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/586" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
     <title>PayPal加密貨幣交易跨出美國，進軍英國市場</title>
     <link>https://www.ithome.com.tw/news/146346</link>
@@ -97,6 +97,15 @@ Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密�
      <pubDate>2021-08-21  02:08:55</pubDate>
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146314</guid>
+  </item>
+  <item>
+    <title>InfiniBand進入400Gb/s世代，Nvidia新款網路交換器揭開序幕</title>
+    <link>https://www.ithome.com.tw/review/146313</link>
+    <description> 關於400 Gb乙太網路產品的發展，我們在2019年曾介紹思科與戴爾這兩家公司的產品，在2020年3月，也就是Mellanox被Nvidia完成併購前夕，他們發表了SN4000系列交換器，最高也能支援400 Gb乙太網路（SN4800與SN4700可提供32個400 GbE埠）。
+</description>
+     <pubDate>2021-08-21  11:08:56</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/review/146313</guid>
   </item>
   <item>
     <title>AWS推出可作為主資料庫的記憶體資料庫服務MemoryDB for Redis</title>
@@ -248,14 +257,6 @@ FinOps全名是Cloud Financial Operations或是Cloud Financial Management，顧�
      <pubDate>2021-08-20  10:08:55</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146290</guid>
-  </item>
-  <item>
-    <title>股票交易程式Robinhood財報出爐，有一半的營收來自以狗狗幣為主的加密貨幣交易</title>
-    <link>https://www.ithome.com.tw/news/146289</link>
-    <description> 在7月29日以每股38美元登上那斯達克股市的股票交易程式Robinhood，於周三（8/18）公布了該公司上市後的首次財報，指出今年第二季創下5.65億美元的營收，比去年同期成長131%。儘管營收呈倍數成長，但可能因為Robinhood警告加密貨幣投資的熱潮在今年第三季可能不如第二季，使得Robinhood周四（8/19）盤前即下滑超過10%，股價在44美元左右浮動。</description>
-     <pubDate>2021-08-20  10:08:35</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146289</guid>
   </item>
   </channel>
 </rss>
