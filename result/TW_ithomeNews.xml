@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>微軟開始出貨Windows Server 2022</title>
+    <link>https://www.ithome.com.tw/news/146341</link>
+    <description> 經過半年的預覽，微軟上周正式出貨最新伺服器作業系統Windows Server 2022。</description>
+     <pubDate>2021-08-23  02:08:26</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146341</guid>
+  </item>
+  <item>
     <title>Google裁撤Google Health，蘋果精簡健康App專案</title>
     <link>https://www.ithome.com.tw/news/146340</link>
     <description> 軟體大廠過去幾年大舉投資健康照護領域，不過Business Insider上周報導，Google和蘋果分別裁撤和縮編開發數位健康技術及方案的部門。</description>
@@ -247,14 +255,6 @@ VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔
      <pubDate>2021-08-19  04:08:02</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146276</guid>
-  </item>
-  <item>
-    <title>勒索軟體Conti在攻擊前會先偵察目標組織的營收和保險資料</title>
-    <link>https://www.ithome.com.tw/news/146275</link>
-    <description> 駭客為了增加能夠收到贖金的機會，在下手發動勒索軟體攻擊之前，試圖掌握對方的財務狀態，以便決定要開口索討的金額。威脅情報業者Advanced Intelligence（AdvIntel）在近期的一起攻擊事故裡發現，使用Conti勒索軟體的駭客，在攻擊目標的網路植入勒索軟體之前，先上傳了名為Rclone的開源資料備份工具，複製並竊取受害組織的保單資料。</description>
-     <pubDate>2021-08-19  01:08:08</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146275</guid>
   </item>
   </channel>
 </rss>
