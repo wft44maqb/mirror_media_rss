@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Google更新零信任解決方案BeyondCorp Enterprise，簡化自定義存取政策配置</title>
+ <link>https://www.ithome.com.tw/news/146344</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google更新零信任解決方案BeyondCorp Enterprise，加入3項&lt;a href=&quot;https://cloud.google.com/blog/products/identity-security/new-beyondcorp-enterprise-zero-trust-capabilities&quot;&gt;新功能&lt;/a&gt;，讓用戶可以對其終端使用者，以更安全簡單的方式控制應用程式存取。第1個是對GCP API透過VPC服務控制，提供基用憑證的存取控制，官方提到，不少用戶使用不記名的證書存取雲端控制臺和API，但是當這些證書意外洩漏時，就可能被攻擊者用來進行非法存取。&lt;/p&gt;
+&lt;p&gt;而基於憑證的存取控制，是除了證書之外，還要加上經過驗證的裝置憑證，才能夠進行存取，因此能夠防止憑證被盜或是意外洩漏的風險。現在Google對8種類型的VPC服務控制資源，提供客戶端憑證原生支援，包括GCE、GKE、Cloud KMS、BigQuery和Logging等，之後Google還會繼續增加更多支援的服務。&lt;/p&gt;
+&lt;p&gt;BeyondCorp Enterprise也開始正式提供本地端連接器，供用戶可以連接到本地資源，藉由部署連接器，就能夠使用身份感知代理（Identity-Aware Proxy，IAP），保護Google雲端之外的HTTP或HTTPS本地應用程式，在本地端應用程式發出請求時，IAP會對用戶進行身份驗證和授權，並將請求路由到連接器。&lt;/p&gt;
+&lt;p&gt;另外，Google也在BeyondCorp Enterprise背後的零信任政策引擎Access Context Manager（ACM），添加更多的零信任存取條件，利用這些新屬性，管理員就能夠用更多元的方式制定高精細度的存取控制政策，這3組新屬性分別是時間和日期、證書強度以及Chrome瀏覽器。&lt;/p&gt;
+&lt;p&gt;時間和日期屬性能夠限制終端使用者存取資源的時間和日期，可用於例如輪班工人和臨時員工的存取控制。由於配置雙因素驗證是防止安全漏洞的重要方法，藉由將證書強度當作存取控制政策中的條件，企業就能依據硬體安全金鑰的使用，或是其他形式的多因素驗證，來實施存取控制，BeyondCorp Enterprise現在支援通知推送、SMS認證碼、2SV軟體和硬體金鑰、一次性密碼和任何形式的MFA等驗證方法。&lt;/p&gt;
+&lt;p&gt;對於Chrome瀏覽器用戶，管理員可以設定零信任政策，來確保用戶瀏覽器環境啟用了威脅和資料保護功能，ACM自定義存取等級的新條件包括管理狀態、最小版本、即時URL檢查啟用狀態、檔案上傳下載分析啟用狀態和安全事件回報啟用狀態等。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 23 Aug 2021 07:54:16 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146344 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146344#comments</comments>
+</item>
+<item>
  <title>今年第二季全球對加密貨幣的採用成長881%</title>
  <link>https://www.ithome.com.tw/news/146345</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;加密貨幣市場分析機構Chainalysis上周公布了&lt;a href=&quot;https://blog.chainalysis.com/reports/2021-global-crypto-adoption-index&quot; target=&quot;_blank&quot;&gt;今年第二季的全球加密貨幣採用指標報告&lt;/a&gt;，顯示相較於去年同期，今年第二季全球對加密貨幣的採用大增了881%，且採用的前三名依序是越南、印度與巴基斯坦。&lt;/p&gt;
@@ -157,21 +172,6 @@
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="false">146314 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146314#comments</comments>
-</item>
-<item>
- <title>AWS推出可作為主資料庫的記憶體資料庫服務MemoryDB for Redis</title>
- <link>https://www.ithome.com.tw/news/146312</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS在推出Amazon ElastiCache for Redis全託管記憶體快取服務之後，現在又推出另一款，同樣是相容於Redis的記憶體資料庫服務&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/introducing-amazon-memorydb-for-redis-a-redis-compatible-durable-in-memory-database-service/&quot;&gt;Amazon MemoryDB for Redis&lt;/a&gt;，供開發者建構需要微秒讀取，以及個位數毫秒寫入效能，且具有資料持久性和高可用性的應用程式。&lt;/p&gt;
-&lt;p&gt;由於互動式應用程式需要快速地處理請求和回應，AWS提到，當開發者採用微服務，且架構由許多相互獨立的小服務組成時，低延遲的請求處理和回應速度更是重要。資料庫在應用程式的效能占重要的位置，而要將讀取延遲降低到微秒等級，開發者通常會在持久資料庫前，設置像是Redis等記憶體快取。&lt;/p&gt;
-&lt;p&gt;之前AWS所推出的Amazon ElastiCache for Redis，便是讓用戶在AWS雲端上，使用該服務作為Amazon Aurora或Amazon DynamoDB等持久資料庫的低延遲快取，不過這樣的配置，使用者必須要自己定義維持快取和資料庫同步的邏輯，並且也會產生執行快取和資料庫的成本。&lt;/p&gt;
-&lt;p&gt;而AWS現在推出的Amazon MemoryDB for Redis就是要來簡化這個架構，用戶可以將MemoryDB直接用作單個主要資料庫，而不僅是持久資料庫之前的低延遲快取，也就是說，使用MemoryDB，用戶的所有資料都會儲存在記憶體中，進而實現低延遲和高吞吐量的資料存取能力。MemoryDB使用分散式交易性日誌，能跨可用區域儲存，支援資料恢復和節點重啟，具有高持久性。&lt;/p&gt;
-&lt;p&gt;AWS解釋MemoryDB和ElastiCache適合的情境，MemoryDB能夠成為應用程式的主資料庫，提供資料持久性，而且微秒讀取和毫秒寫入的速度，使用MemoryDB就不需要在資料庫之前添加快取，就可實現互動式應用程式和微服務架構所需要的低延遲。而ElastiCache對讀取和寫入都提供微秒延遲，適用於快取工作負載，可加快現有資料庫的存取速度，在用戶可以接受資料丟失的情況，也可以將ElastiCache用作主資料庫儲存。&lt;/p&gt;
-&lt;p&gt;Amazon MemoryDB for Redis目前已在美東、歐洲和南美洲上線，亞洲則是孟買地區，用戶可以使用AWS控制臺、命令列介面和AWS開發工具包，快速創建MemoryDB叢集，能夠從ElastiCache搬遷到MemoryDB，或是使用儲存在Amazon S3上的Redis備份檔案創建叢集。值得注意的是，目前MemoryDB僅支援R6g Graviton2執行個體。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 20 Aug 2021 15:19:22 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146312 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146312#comments</comments>
 </item>
 </channel>
 </rss>
