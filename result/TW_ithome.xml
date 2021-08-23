@@ -136,7 +136,7 @@
 &lt;p&gt;Sapphire Rapids在架構上採用可模組化的單元設計，搭配EMIB嵌入式多晶片互連技術，提供更高的擴充性。此外，還內建加速引擎，其中針對AI方面的深度學習及訓練需求，內建Intel AMX(Advanced Matrix Extensions)，以專用硬體與指令集，加速距陣乘法的運算，與英特爾原有的指令集相比，AI運算速度提升超過7倍。&lt;/p&gt;
 &lt;p&gt;在記憶體方面，Sapphire Rapids也支援DDR5，以及PCIe 5、HBM等技術。&lt;/p&gt;
 &lt;p&gt;為了釋放資料中心CPU資源，英特爾從過去發展FPGA SmartNIC的經驗為基礎，揭露該公司首款ASIC IPU，稱為Mount Evans，提供高效能網路、儲存卸載功能，降低CPU工作負載。支援NVMe硬體加速、Intel QuickAssist加密及壓縮技術。&lt;/p&gt;
-&lt;p&gt;另外，HPC高效能運算架構也有革新，Ponte Vecchio採用Xe HPC的高效能運算架構，將在2022年推出，內部採用多種不同功能的晶片塊組成，搭配高速晶片互連技術。Ponte Vecchio結合多個製程技術，突顯英特爾日前發表IDM 2.0策略，內部採用Xe-core的運算晶片堆使用台積電N5製程，基底晶片塊使用英特爾自家Intel 7製程，Xe Link高速連結晶片塊則使用台積電N7，搭配英特爾Foveros 3D封裝技術，英特爾宣稱為該公司打造最複雜的SoC。&lt;/p&gt;
+&lt;p&gt;另外，HPC高效能運算架構也有革新，Ponte Vecchio採用Xe HPC的高效能運算架構，將在2022年推出，內部採用多種不同功能的晶片塊組成，搭配高速晶片互連技術。Ponte Vecchio結合多個製程技術，呼應英特爾日前發表的IDM 2.0策略，內部採用Xe-core的運算晶片塊使用台積電N5製程，基底晶片塊使用英特爾自家Intel 7製程，而Xe Link高速連結晶片塊則使用台積電N7，搭配英特爾Foveros 3D封裝技術，英特爾宣稱Ponte Vecchio為該公司打造最複雜的SoC。&lt;/p&gt;
 &lt;p&gt;英特爾以初期晶片測試AI表現，ResNet推論效能可達每秒超過4萬3千張照片，ResNet訓練可達每秒超過3千4百張照片。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
  <pubDate>Fri, 20 Aug 2021 09:54:27 +0000</pubDate>
