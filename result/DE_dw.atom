@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-23T03:58:20Z</updated>
+ <updated>2021-08-23T04:00:23Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58953150</id>
+  <title><![CDATA[媒体：中国可能要求赴美上市公司交出数据控制权]]></title>
+  <updated>2021-08-23T03:31:00Z</updated>
+  <published>2021-08-23T03:31:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/媒体：中国可能要求赴美上市公司交出数据控制权/a-58953150?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国监管机关针对中国公司赴美上市可能采取进一步行动。路透社引述消息人士指出，中国监管机构正在拟定一项新的计划，要求这些想在美国上市的公司将数据管理权移交给第三方公司。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58952913</id>
   <title><![CDATA[拜登考虑延长阿富汗疏散行动 普京忧激进份子冒充难民]]></title>
@@ -115,16 +125,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58897772</id>
-  <title><![CDATA[东欧国家认清了中国投资？]]></title>
-  <updated>2021-08-22T07:19:00Z</updated>
-  <published>2021-08-22T07:19:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东欧国家认清了中国投资？/a-58897772?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国希望在中东欧扩大其影响力。在欧盟东翼，有人呼吁抵制中国的“腐蚀性资本”，但也有人并未看到威胁。]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58888640</id>
   <title><![CDATA[打动人心是扩大疫苗接种的制胜法宝？]]></title>
   <updated>2021-08-22T07:19:00Z</updated>
@@ -133,6 +133,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
   <category term="科技环境"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58897772</id>
+  <title><![CDATA[东欧国家认清了中国投资？]]></title>
+  <updated>2021-08-22T07:19:00Z</updated>
+  <published>2021-08-22T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东欧国家认清了中国投资？/a-58897772?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国希望在中东欧扩大其影响力。在欧盟东翼，有人呼吁抵制中国的“腐蚀性资本”，但也有人并未看到威胁。]]></summary>
+  <category term="经济纵横"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58944458</id>
@@ -212,16 +222,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/吴钊燮：-中国想仿效塔利班/a-58940044?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[台湾外交部长吴钊燮周六指责中国想“仿效”塔利班，但台湾有决心和能力自卫。吴钊燮表示，台湾人民的愿望和最佳利益包括不受共产主义和独裁主义侵扰。与此同时，塔利班高层周六举行会晤，讨论如何组建“包容”政府。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58939799</id>
-  <title><![CDATA[中国异议人士刘冰暂不被德国遣返]]></title>
-  <updated>2021-08-21T09:23:00Z</updated>
-  <published>2021-08-21T09:23:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国异议人士刘冰暂不被德国遣返/a-58939799?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[此前因政治庇护遭拒而面临被遣返中国的异议人士刘冰，日前成功争取到了延期离境。目前，他已经获准离开德国北威州的某处拘留所。根据联合国统计，2012年到2020年，中国人士在海外申请政治庇护的案件数量暴增了7倍。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
