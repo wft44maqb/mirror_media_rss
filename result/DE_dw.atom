@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-22T18:02:44Z</updated>
+ <updated>2021-08-23T02:00:11Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58952913</id>
+  <title><![CDATA[拜登考虑延长阿富汗疏散行动 普京忧激进份子冒充难民]]></title>
+  <updated>2021-08-23T01:25:00Z</updated>
+  <published>2021-08-23T01:25:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/拜登考虑延长阿富汗疏散行动-普京忧激进份子冒充难民/a-58952913?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国总统拜登周日重申，目前他的首要目标是尽快让滞留阿富汗的美国人返国，并表示撤离喀布尔是艰难与痛苦的决定。英国也将在未来一周加快撤离国民的速度。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58950992</id>
   <title><![CDATA[美国副总统哈里斯展开亚洲访问]]></title>
@@ -223,16 +233,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/医生发懵-亲友不信-我的-新冠长期病-何时能消失/a-58884884?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[新冠肺炎数百万患者长期受到染疫影响。不过，他们当中，很多人还得先努力让医生、亲戚和朋友相信，自己是病了。]]></summary>
   <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58927791</id>
-  <title><![CDATA[北京同塔利班频繁互动 邻国们提高警觉]]></title>
-  <updated>2021-08-21T06:38:00Z</updated>
-  <published>2021-08-21T06:38:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/北京同塔利班频繁互动-邻国们提高警觉/a-58927791?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[阿富汗局势急转直下，西方国家纷纷叫停了在当地的发展援助项目。日本和韩国则正在关注：北京是否可以通过与阿富汗新的塔利班政权建立联系来扩大其势力范围。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58933822</id>
