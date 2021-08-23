@@ -24,6 +24,24 @@
  <comments>https://www.ithome.com.tw/news/146340#comments</comments>
 </item>
 <item>
+ <title>殭屍網路發動大規模DDoS攻擊，每秒發出逾1,700萬次HTTP請求</title>
+ <link>https://www.ithome.com.tw/news/146339</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;大規模的分散式阻斷服務攻擊（DDoS）事故，這幾年來已有數起。例如，&lt;a href=&quot;https://www.ithome.com.tw/news/143615&quot;&gt;今年4月資安業者Akamai揭露博奕網站遭到攻擊&lt;/a&gt;，是當時史上規模第3大的事故，流量每秒高達800GB。而最近，內容遞送網路（CDN）暨資安服務業者Cloudflare表示，&lt;a href=&quot;https://blog.cloudflare.com/cloudflare-thwarts-17-2m-rps-ddos-attack-the-largest-ever-reported/&quot;&gt;他們攔阻了一起每秒發出1,720萬次HTTP請求的DDoS攻擊&lt;/a&gt;，鎖定金融產業的客戶而來，該公司指出，這樣的攻擊規模，約是過往規模最大事故的3倍。&lt;/p&gt;
+&lt;p&gt;這樣的請求次數有多大？Cloudflare表示，他們在今年第2季處理的HTTP合法流量請求次數，平均每秒為超過2,500萬次，而在這起事故裡最高峰的請求次數，就接近合法流量請求的7成（68%）。&lt;/p&gt;
+&lt;p&gt;有別於過往的大規模DDoS攻擊，研究人員都是提及流量的規模，而本次Cloudflare則是揭露HTTP流量的請求次數，至於流量的規模為何？該公司並未提及。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/image10-1-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image10-1-s.png&quot; style=&quot;width: 580px; height: 291px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;針對攻擊流量的來源，Cloudflare認為是由殭屍網路發動，這些殭屍網路機器人（Bot）總數超過2萬個，分別來自全世界125個國家。該公司根據來源IP位址清查，印尼可能是殭屍網路機器人最多的國家，占了15%；另外有17%來自印度與巴西。這起攻擊中，殭屍網路機器人在大約30秒之中，總共發出了3.3億次請求，最高峰達到每秒1,720萬次。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/image14-1-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image14-1-s.png&quot; style=&quot;width: 580px; height: 340px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不過，發動攻擊的殭屍網路為何？Cloudflare沒有說明。&lt;/p&gt;
+&lt;p&gt;但在這一波攻擊之前，Cloudflare認為已有預兆，因為他們在最近半個月發現了數起大規模的DDoS攻擊。其中一起發生於上星期，與發動上述事故相同的殭屍網路，鎖定主機服務供應商發動攻擊，最高峰的HTTP攻擊流量請求為每秒近800萬次。&lt;/p&gt;
+&lt;p&gt;而在2週之前，Mirai殭屍網路鎖定了兩家公司下手，其中一家是亞太地區的網際網路、電信，以及主機服務供應商，另一家則是博奕公司。在這些DDoS攻擊行動裡，Cloudflare指出，殭屍網路發動數次超過1Tbps的攻擊，最高峰達到約1.2Tbps。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 23 Aug 2021 05:06:39 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146339 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146339#comments</comments>
+</item>
+<item>
  <title>Google、微軟緊急修補瀏覽器高風險漏洞</title>
  <link>https://www.ithome.com.tw/news/146337</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google與微軟周末緊急釋出更新版Chrome及Chrome-based Edge瀏覽器，以修補6個高風險漏洞。&lt;/p&gt;
@@ -43,7 +61,7 @@
 <item>
  <title>IBM發布首款7奈米Telum處理器，整合AI加速推論晶片，下一代IBM Z大型主機先採用</title>
  <link>https://www.ithome.com.tw/news/146315</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;不讓Apple、Google、AWS專美於前，在今日(8/23 )線上舉行的Hot Chips年會上，硬體大廠IBM公開展示自行研發的全新7奈米處理器Telum，首度整合AI加速運算處理能力，可用於AI或深度學習模型推論。它也是IBM第一款結合AI加速推論功能的處理器晶片，並將先運用到大型主機，來協助解決銀行詐騙、高頻交易等金融難題。首款採用Telum處理器的IBM系統，預計2022年上半年推出。&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;不讓Apple、Google、AWS專美於前，在今日(8/23 )線上舉行的Hot Chips年會上，硬體大廠IBM公開展示自行研發的全新7奈米處理器Telum，整合AI加速運算處理能力，可用於AI或深度學習模型推論。它也是IBM第一款結合AI加速推論功能的處理器晶片，並將先運用到大型主機，來協助解決銀行詐騙、高頻交易等金融難題。首款採用Telum處理器的IBM系統，預計2022年上半年推出。&lt;/p&gt;
 &lt;p&gt;近來，有越來越多科技巨頭，在設計新產品時，不再倚重CPU供應商，反而開始投入研發自家產品專用的CPU晶片，像是Apple筆電的M1晶片、Google手機Tensor晶片，AWS雲端運算的Graviton晶片，以及Nvidia的Grace處理器，都是自研自用，來滿足特定產品應用需求。IBM也成為最新一家自研處理器的科技大廠，在今年Hot Chips年會，首次介紹大型主機處理器晶片Telum出場。&lt;/p&gt;
 &lt;p&gt;IBM的AI研究硬體中心花了3年研發打造出這顆新處理器，它也是IBM首款採用7奈米先進製程生產的CPU，並將由三星負責該晶片生產。根據IBM表示，其內含電晶體數量高達220億個，並且單一晶片內採用17層金屬連接，來完成高密度電路互連，總線長可達約30公里。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-20%20%E4%B8%8A%E5%8D%8810_06_55.png&quot; style=&quot;width: 600px; height: 330px;&quot; /&gt;&lt;/p&gt;
@@ -169,33 +187,6 @@
  <dc:creator>iThome</dc:creator>
  <guid isPermaLink="false">146309 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/article/146309#comments</comments>
-</item>
-<item>
- <title>英特爾揭露下一代PC處理器將採效能及效率核心混合架構，資料中心、HPC也將翻新架構</title>
- <link>https://www.ithome.com.tw/news/146308</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;英特爾在今天(8/20)舉行架構日，對外揭露未來在PC、資料中心、HPC的全新架構，其中的PC處理器，今年將會採用效能與效率兩種x86核心的混合架構設計，而資料中心端，Xeon與HPC也將採用新架構，結合英特爾自家與台積電的製程技術，提升擴充性及資料吞吐能力。&lt;/p&gt;
-&lt;p&gt;英特爾在架構日的一開始，首先介紹了準備從今年開始，在PC處理器上採用新的混合式架構Alder Lake，為英特爾首款混合式架構，最大特色在於結合兩款x86核心，分別稱為效率核心(Efficient Core，先前代號Gracemont)、效能核心(Performance Core，先前代號Golden Cove)。&lt;/p&gt;
-&lt;p&gt;其中，效率核心追求在低功耗下有效率的執行工作負載，以滿足低功耗的行動應用到多核心微服務需求，相較於目前的Skylake微架構，效率核心在相同功耗下，可提高4成的效能，而在多核心處理之下，4個效率核心比4個執行緒的Skylake雙核心，高出8成的效能並降低功耗，或是在相同效能下，降低8成的功耗。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;每核心1執行緒的x86效率核心：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202021-08-20%20%E4%B8%8B%E5%8D%885_45_22.jpg&quot; style=&quot;width: 600px; height: 310px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;而效能核心號稱是英特爾打造的最高效能CPU核心，提升平行作業處理，降低延遲提升效能，以支援大量資料、程式碼的應用。英特爾解釋，效能核心的原則是在低延遲下的最好單執行緒，最短時間做大量資料的處理, , ，根據該公司的說明，效能核心和第11代Core相比，效能核心在相同頻率下，一般工作負載的效能平均能提升19%。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;以低延遲、大量資料及程式碼處理為主的x86效能核心：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202021-08-20%20%E4%B8%8B%E5%8D%885_46_05.jpg&quot; style=&quot;width: 600px; height: 309px;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;搭配效率與效能核心，Alder Lake還採用了Intel Thread Director排程器，Thread Director可根據核心的低階遙測資訊、指令混合比例，將需要較高效能的執行緒交由效能核心處理，或是將需要能源效率的執行緒移至效率核心執行。英特爾表示，該公司與微軟合作，以協助作業系統作出更好的排程決策，微軟將推出的Windows 11已針對Intel Thread Director優化效能。&lt;/p&gt;
-&lt;p&gt;Alder Lake將採用Intel 7製程技術，最高到16個核心(8個效能核心與8個效率核心)，支援到24個執行者，並且支援新的I/O，包括DDR5-4800記憶體、PCIe Gen 5、Thunderbolt 4、Wi-Fi 6E等，功耗設計從9瓦到125瓦，將涵蓋桌上型、筆電到以省電續航力為特色的Ultra Mobile筆電等PC用戶市場。&lt;/p&gt;
-&lt;p&gt;GPU部分，英特爾日前發表高效能GPU品牌Arc，將採用代號Alcemist的Xe-HPG微架構，將採用台積電6奈米製程，鎖定效能級遊戲玩家及內容創作者，預計明年第一季就會有產品問世。Xe-HPG微架構最多支援8個Render Slice及針對DirectX12的固定單元，並內建具有16個向量及距陣引擎的Xe-core。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;資料中心端運算也將採用新架構&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;至於資料中心端，英特爾也揭露了代號為Sapphire Rapids的下一代Xeon可擴充處理器，英特爾表示，新的Xeon處理器可針對資料中心大量且多樣化的工作負載最佳化，在雲端、AI與微服務提升效能。Sapphire Rapids將採Intel 7製程技術，並使用新的效能核心微架構，為針對速度、低延遲，同時兼顧單執行緒應用程式效能所設計。&lt;/p&gt;
-&lt;p&gt;Sapphire Rapids在架構上採用可模組化的單元設計，搭配EMIB嵌入式多晶片互連技術，提供更高的擴充性。此外，還內建加速引擎，其中針對AI方面的深度學習及訓練需求，內建Intel AMX(Advanced Matrix Extensions)，以專用硬體與指令集，加速距陣乘法的運算，與英特爾原有的指令集相比，AI運算速度提升超過7倍。&lt;/p&gt;
-&lt;p&gt;在記憶體方面，Sapphire Rapids也支援DDR5，以及PCIe 5、HBM等技術。&lt;/p&gt;
-&lt;p&gt;為了釋放資料中心CPU資源，英特爾從過去發展FPGA SmartNIC的經驗為基礎，揭露該公司首款ASIC IPU，稱為Mount Evans，提供高效能網路、儲存卸載功能，降低CPU工作負載。支援NVMe硬體加速、Intel QuickAssist加密及壓縮技術。&lt;/p&gt;
-&lt;p&gt;另外，HPC高效能運算架構也有革新，Ponte Vecchio採用Xe HPC的高效能運算架構，將在2022年推出，內部採用多種不同功能的晶片塊組成，搭配高速晶片互連技術。Ponte Vecchio結合多個製程技術，呼應英特爾日前發表的IDM 2.0策略，內部採用Xe-core的運算晶片塊使用台積電N5製程，基底晶片塊使用英特爾自家Intel 7製程，而Xe Link高速連結晶片塊則使用台積電N7，搭配英特爾Foveros 3D封裝技術，英特爾宣稱Ponte Vecchio為該公司打造最複雜的SoC。&lt;/p&gt;
-&lt;p&gt;英特爾以初期晶片測試AI表現，ResNet推論效能可達每秒超過4萬3千張照片，ResNet訓練可達每秒超過3千4百張照片。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 20 Aug 2021 09:54:27 +0000</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="false">146308 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146308#comments</comments>
 </item>
 </channel>
 </rss>

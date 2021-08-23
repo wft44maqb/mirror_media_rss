@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/213/356" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/213/356</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=483&amp;profile=atom" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/213/356" rel="self" type="application/rss+xml" />
       <item>
     <title>Google裁撤Google Health，蘋果精簡健康App專案</title>
     <link>https://www.ithome.com.tw/news/146340</link>
@@ -25,7 +25,7 @@
   <item>
     <title>IBM發布首款7奈米Telum處理器，整合AI加速推論晶片，下一代IBM Z大型主機先採用</title>
     <link>https://www.ithome.com.tw/news/146315</link>
-    <description> 不讓Apple、Google、AWS專美於前，在今日(8/23 )線上舉行的Hot Chips年會上，硬體大廠IBM公開展示自行研發的全新7奈米處理器晶片Telum，首度整合AI加速運算處理能力，可用於AI或深度學習模型推論。它也是IBM第一款結合AI加速晶片的處理器，並將先運用到大型主機，來協助解決銀行詐騙、高頻交易等金融難題。首款採用Telum處理器的IBM系統，預計2022年上半年推出。</description>
+    <description> 不讓Apple、Google、AWS專美於前，在今日(8/23 )線上舉行的Hot Chips年會上，硬體大廠IBM公開展示自行研發的全新7奈米處理器Telum，整合AI加速運算處理能力，可用於AI或深度學習模型推論。它也是IBM第一款結合AI加速推論功能的處理器晶片，並將先運用到大型主機，來協助解決銀行詐騙、高頻交易等金融難題。首款採用Telum處理器的IBM系統，預計2022年上半年推出。</description>
      <pubDate>2021-08-23  12:08:17</pubDate>
  <dc:creator>余至浩</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146315</guid>
