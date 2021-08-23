@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-23T04:58:17Z</updated>
+ <updated>2021-08-23T05:01:13Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58953446</id>
+  <title><![CDATA[上海机场8万人筛检阴性 中国「本土零确诊」疫情回稳]]></title>
+  <updated>2021-08-23T04:35:00Z</updated>
+  <published>2021-08-23T04:35:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/上海机场8万人筛检阴性-中国「本土零确诊」疫情回稳/a-58953446?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国上个月从南京开始传播至多个省市的本土疫情，终于逐渐得到控制。22日中国无本土确诊病例，而上週在上海机场爆发的小规模疫情，已筛检8万名相关人员，均为阴性。]]></summary>
+  <category term="科技环境"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58953150</id>
   <title><![CDATA[媒体：中国可能要求赴美上市公司交出数据控制权]]></title>
@@ -105,16 +115,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58906625</id>
-  <title><![CDATA[柏林——永远的间谍之都]]></title>
-  <updated>2021-08-22T07:40:00Z</updated>
-  <published>2021-08-22T07:40:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58904029</id>
   <title><![CDATA[阿富汗艺术家：“失望、痛苦、愤怒”]]></title>
   <updated>2021-08-22T07:40:00Z</updated>
@@ -125,14 +125,14 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58888640</id>
-  <title><![CDATA[打动人心是扩大疫苗接种的制胜法宝？]]></title>
-  <updated>2021-08-22T07:19:00Z</updated>
-  <published>2021-08-22T07:19:00Z</published>
+  <id>tag:dw.com,2021:58906625</id>
+  <title><![CDATA[柏林——永远的间谍之都]]></title>
+  <updated>2021-08-22T07:40:00Z</updated>
+  <published>2021-08-22T07:40:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
-  <category term="科技环境"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
+  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58897772</id>
@@ -143,6 +143,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东欧国家认清了中国投资？/a-58897772?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国希望在中东欧扩大其影响力。在欧盟东翼，有人呼吁抵制中国的“腐蚀性资本”，但也有人并未看到威胁。]]></summary>
   <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58888640</id>
+  <title><![CDATA[打动人心是扩大疫苗接种的制胜法宝？]]></title>
+  <updated>2021-08-22T07:19:00Z</updated>
+  <published>2021-08-22T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
+  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58944458</id>
@@ -415,16 +425,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58878349</id>
-  <title><![CDATA[德国疫苗接种委员会：12岁以上都建议打疫苗]]></title>
-  <updated>2021-08-16T12:39:00Z</updated>
-  <published>2021-08-16T12:39:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国疫苗接种委员会：12岁以上都建议打疫苗/a-58878349?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[青少年是否也应接种冠状病毒疫苗？在此问题上，德国国内已热辩数周。现在，基于最新数据，国家常设疫苗接种委员会 (Stiko) 也改变了此前的保守立场。]]></summary>
-  <category term="科技环境"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:57217683</id>
   <title><![CDATA[巴赫：小提琴组曲第三号第三乐章]]></title>
   <updated>2021-08-16T12:26:00Z</updated>
@@ -590,15 +590,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -606,6 +597,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
