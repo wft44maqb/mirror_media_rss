@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Mon, 23 Aug 2021 10:42:24 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Aug 2021 10:52:25 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[中國已準備好抓住在阿富汗的黃金機會]]></title>
+            <link><![CDATA[https://cn.nytimes.com/opinion/20210823/china-afghanistan-taliban/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[中國對與塔利班建立更緊密的關係沒有顧慮。北京將為喀布爾提供該國最需要的政治中立和經濟投資。塔利班也承諾保護中國在當地的投資。<p><img src='https://static01.nyt.com/images/2021/08/21/opinion/20zhou/merlin_139949526_48c8c8fd-63a0-41ed-b606-5a6bc56c4a60-articleLarge.jpg' alt=' Farshad Usyan/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Farshad Usyan/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>觀點與評論</category>
+            <dc:creator><![CDATA[周波]]></dc:creator>
+            <pubDate>Mon, 23 Aug 2021 10:51:41 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210823/china-afghanistan-taliban/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[從西貢到喀布爾，歷史的悲劇再次上演]]></title>
             <link><![CDATA[https://cn.nytimes.com/opinion/20210820/afghanistan-vietnam-war-refugees/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[ERIC NAGOURNEY]]></dc:creator>
             <pubDate>Wed, 18 Aug 2021 12:55:14 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210818/who-are-the-taliban/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[美國空軍：喀布爾起飛的運輸機起落架中發現人體殘骸]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210818/afghans-deaths-us-plane/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[喀布爾機場撤離的慘烈場面在全球廣泛傳播。美國空軍證實，在一架C-17運輸機輪艙裡發現人體殘骸。官員未透露具體死難人數，但表示正在就「平民死亡」事件展開調查。<p><img src='https://static01.nyt.com/images/2021/08/17/us/politics/17dc-plane-1/merlin_193374204_a9f5a983-2209-4184-9e85-15663bb6fd2a-articleLarge.jpg' alt='週一，大批民眾聚集在阿富汗喀布爾市的國際機場，試圖離開該國。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>週一，大批民眾聚集在阿富汗喀布爾市的國際機場，試圖離開該國。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[HELENE COOPER,ERIC SCHMITT]]></dc:creator>
-            <pubDate>Wed, 18 Aug 2021 11:07:37 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210818/afghans-deaths-us-plane/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
