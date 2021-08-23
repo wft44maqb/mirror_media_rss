@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/257" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/1252" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/atom/257</link>
+    <link>https://www.ithome.com.tw/latest/rss20/1252</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/atom/257" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/1252" rel="self" type="application/rss+xml" />
       <item>
+    <title>IBM發布首款7奈米Telum處理器，整合AI加速推論晶片，下一代IBM Z大型主機先採用</title>
+    <link>https://www.ithome.com.tw/news/146315</link>
+    <description> 不讓Apple、Google、AWS專美於前，在今日(8/23 )線上舉行的Hot Chips年會上，硬體大廠IBM公開展示自行研發的全新7奈米處理器晶片Telum，首度整合AI加速運算處理能力，可用於AI或深度學習模型推論。它也是IBM第一款結合AI加速晶片的處理器，並將先運用到大型主機，來協助解決銀行詐騙、高頻交易等金融難題。首款採用Telum處理器的IBM系統，預計2022年上半年推出。</description>
+     <pubDate>2021-08-23  12:08:17</pubDate>
+ <dc:creator>余至浩</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146315</guid>
+  </item>
+  <item>
     <title>【疫情日報】8月24日至9月6日維持二級警戒，但鬆綁集會人數上限、用餐限制和病房探病</title>
     <link>https://www.ithome.com.tw/news/146314</link>
     <description> 中央流行疫情指揮中心今（21日）宣布，自8月24日至9月6日兩周仍維持全國二級警戒，但也鬆綁不少措施，如提高室內外集會人數上限、同住親友聚餐不需隔板、梅花坐，開放特定病房探病和境外生入境等。
@@ -246,14 +254,6 @@ VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔
      <pubDate>2021-08-19  11:08:33</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146271</guid>
-  </item>
-  <item>
-    <title>Visual Studio 2022新增安全機制防止開發者意外開啟惡意內容</title>
-    <link>https://www.ithome.com.tw/news/146261</link>
-    <description> 微軟在Visual Studio 2022第3預覽版本重新設計了信任配置功能，其目的是要提高開發者對於陌生程式碼風險的意識，並協助防範惡意攻擊者，從開啟內容到建置和執行應用程式，Visual Studio 2022能夠提供額外的安全防護。</description>
-     <pubDate>2021-08-19  11:08:02</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146261</guid>
   </item>
   </channel>
 </rss>
