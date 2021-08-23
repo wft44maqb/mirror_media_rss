@@ -133,39 +133,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37369593/starbucks-0823/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-23T07:25:00Z</news:publication_date>
-			<news:title>星巴克全新輪船造型門市開幕！「新竹關埔門市」打造S字型外觀、開幕滿額送限定玻璃杯、萬用折疊椅！</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37369304/heineken-easycard-0823/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-23T05:41:00Z</news:publication_date>
-			<news:title>神還原！海尼根推出首款「海尼根0.0零酒精」迷你尺寸3D造型悠遊卡，全台限量1萬組！</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37190339/food-news-aug/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-23T04:44:00Z</news:publication_date>
-			<news:title>【COSMO美食爆吃】8月新品搶先看！東京必買伴手禮「楓糖男孩」、台中最紅花形檸檬塔！</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://www.cosmopolitan.com/tw/beauty/update/a37335392/et-seq/</loc>
 		<news:news>
 			<news:publication>
@@ -438,6 +405,17 @@
 			</news:publication>
 			<news:publication_date>2021-08-21T16:00:00Z</news:publication_date>
 			<news:title>金牛座本週運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37190339/food-news-aug/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-08-21T13:57:00Z</news:publication_date>
+			<news:title>【COSMO美食爆吃】8月新品搶先看！東京必買伴手禮「The maple mania 楓糖男孩」9月快閃台北！</news:title>
 		</news:news>
 	</url>
 	<url>
