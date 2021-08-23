@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-08-23T10:17:23Z</updated>
+ <updated>2021-08-23T10:24:57Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,17 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58955450</id>
+  <title><![CDATA[阿富汗撤离人员陆续抵达德国]]></title>
+  <updated>2021-08-23T10:21:00Z</updated>
+  <published>2021-08-23T10:21:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗撤离人员陆续抵达德国/av-58955450?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[德国国防部上周从阿富汗撤离超过1600人，这批人员已抵达德国。虽然人身安全不再受到威胁，但他们仍心系故乡家人的安危。]]></summary>
+  <category term="时政风云"/>
+  <link rel="enclosure" type="video/mp4" length="10031982" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210823_001_evacuees_01r_sd.mp4" title="阿富汗撤离人员陆续抵达德国"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58879966</id>
   <title><![CDATA[TikTok为何叫人上瘾?]]></title>
@@ -332,16 +343,5 @@
   <summary><![CDATA[“人们只是说，我们应该赞美自己。减肥是件好事，它会使我们更漂亮。我们都是听这样的话长大的。你当然可以赞美自己 但不应该是因为你重了或是轻了。”]]></summary>
   <category term="文化经纬"/>
   <link rel="enclosure" type="video/mp4" length="13604593" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210714_001_schoenheitsideal_sd.mp4" title="帅哥美女才是标准？这个摄影师偏不信！"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58264538</id>
-  <title><![CDATA[苹果日报最终章：香港敢言媒体的殒落]]></title>
-  <updated>2021-07-14T13:04:00Z</updated>
-  <published>2021-07-14T13:04:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/苹果日报最终章：香港敢言媒体的殒落/av-58264538?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[有26年历史的香港《苹果日报》，遭港府引用国安法冻结资产后被迫停刊。这把中国治下最敢言的异议声音，曾经是一国两制的言论自由象征；但在香港实施国安法不足一年，就走进历史。德国之声近距离记录两位留守最后的苹果日报记者，探讨在今天的香港，记者如何在时代剧变中自处？前方还有没有去路？]]></summary>
-  <category term="时政风云"/>
-  <link rel="enclosure" type="video/mp4" length="70701975" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210714_001_appledaily_sd.mp4" title="苹果日报最终章：香港敢言媒体的殒落"/>
  </entry>
 </feed>
