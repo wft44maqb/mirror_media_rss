@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/board/id/18" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/board/id/18</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=318&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/board/id/18" rel="self" type="application/rss+xml" />
       <item>
+    <title>今年第二季全球對加密貨幣的採用成長881%</title>
+    <link>https://www.ithome.com.tw/news/146345</link>
+    <description> 加密貨幣市場分析機構Chainalysis上周公布了今年第二季的全球加密貨幣採用指標報告，顯示相較於去年同期，今年第二季全球對加密貨幣的採用大增了881%，且採用的前三名依序是越南、印度與巴基斯坦。
+Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密貨幣價值、零售交易價值、P2P交易量，再以當地的人均購買力平價進行加權，計算範圍擴及全球154個國家。</description>
+     <pubDate>2021-08-23  03:08:25</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146345</guid>
+  </item>
+  <item>
     <title>馬斯克：穿上有停車標誌的T恤就能愚弄特斯拉</title>
     <link>https://www.ithome.com.tw/news/146343</link>
     <description> 電動車大廠特斯拉（Tesla）在19日舉行的AI Day上，發表了用於特斯拉超級電腦Dojo的最新晶片D1、全自動駕駛（Full Self-Driving）系統，以及人形機器人Tesla Bot。不過，當會議上有人提出特斯拉汽車缺乏3D感應器是否會遭到對抗性攻擊（Adversarial Attacks）時，特斯拉創辦人暨執行長馬斯克（Elon Musk）坦承，他們還沒看到太多這樣的現象，不過他自己曾經利用一件印有停車標誌的T恤，來騙過特斯拉的自動駕駛輔助系統。</description>
@@ -248,14 +257,6 @@ VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔
      <pubDate>2021-08-19  07:08:06</pubDate>
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146280</guid>
-  </item>
-  <item>
-    <title>美國SEC控告3名Netflix前工程師涉及內線交易</title>
-    <link>https://www.ithome.com.tw/news/146278</link>
-    <description> 美國證券交易委員會（Securities and Exchange Commission，SEC）周三（8/18）控告3名Netflix的前工程師及其親友從事內線交易，在2016年至2019年間不當獲利超過300萬美元，違反美國《證券法》（Exchange Act Rule）。</description>
-     <pubDate>2021-08-19  05:08:02</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146278</guid>
   </item>
   </channel>
 </rss>
