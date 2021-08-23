@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-23T09:41:58.060Z</updated>
+    <updated>2021-08-23T09:47:00.305Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -44,6 +44,28 @@
         </author>
         <category label="法庭"/>
         <published>2021-08-23T09:38:20.117Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【接種疫苗】醫學會建議　如醫院達七成員工接種率　可放寬探訪限制]]></title>
+        <id>https://www.thestandnews.com/society/%E6%8E%A5%E7%A8%AE%E7%96%AB%E8%8B%97%E9%86%AB%E5%AD%B8%E6%9C%83%E5%BB%BA%E8%AD%B0-%E5%A6%82%E9%86%AB%E9%99%A2%E9%81%94%E4%B8%83%E6%88%90%E5%93%A1%E5%B7%A5%E6%8E%A5%E7%A8%AE%E7%8E%87-%E5%8F%AF%E6%94%BE%E5%AF%AC%E6%8E%A2%E8%A8%AA%E9%99%90%E5%88%B6</id>
+        <link href="https://www.thestandnews.com/society/%E6%8E%A5%E7%A8%AE%E7%96%AB%E8%8B%97%E9%86%AB%E5%AD%B8%E6%9C%83%E5%BB%BA%E8%AD%B0-%E5%A6%82%E9%86%AB%E9%99%A2%E9%81%94%E4%B8%83%E6%88%90%E5%93%A1%E5%B7%A5%E6%8E%A5%E7%A8%AE%E7%8E%87-%E5%8F%AF%E6%94%BE%E5%AF%AC%E6%8E%A2%E8%A8%AA%E9%99%90%E5%88%B6"/>
+        <updated>2021-08-23T09:42:39.546Z</updated>
+        <summary type="html"><![CDATA[本港二月開始打疫苗至今，只有近六成合資格人口接種。醫學會呼籲前線醫護及市民盡快接種疫苗，又建議如果個別醫院或院舍的接種率達七成以上，可進一步放寬探訪限制。醫學會今 ( 23日 ) 午召開記者會，指醫管局員工應盡快接種疫苗，以護人護己。醫管局員工現時接種與否屬個人選擇。政府本月初宣布，公務員及政府員工、醫管局員工等均必須接種新冠疫苗，否則在 9 月起，便須自費定期接受病毒檢測，其中醫管局已發出內部…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/dr.jpg"><figcaption><span>傳染病顧問委員會聯席主席曾祈殷(右)指，市民均憂慮即使打針，都未能有效抵抗變種病毒，他指現時香港兩款疫苗均可大幅減低患者的重症徵狀，建議市民不應拖延接種。</span></figcaption></figure><p>本港二月開始打疫苗至今，只有近六成合資格人口接種。醫學會呼籲前線醫護及市民盡快接種疫苗，又建議如果個別醫院或院舍的接種率達七成以上，可進一步放寬探訪限制。醫學會今 ( 23日 ) 午召開記者會，指醫管局員工應盡快接種疫苗，以護人護己。醫管局員工現時接種與否屬個人選擇。</p>
+
+<p>政府本月初宣布，公務員及政府員工、醫管局員工等均必須接種新冠疫苗，否則在 9 月起，便須自費定期接受病毒檢測，其中醫管局已發出內部通知。</p>
+
+<p>傳染病顧問委員會聯席主席曾祈殷又指，市民均憂慮即使打針，都未能有效抵抗變種病毒，他指現時香港兩款疫苗均可大幅減低患者的重症徵狀，建議市民不應拖延接種。</p>
+
+<p>現時醫管局有 12 間急症及專科醫院作特別探訪安排，家屬必須完成接種兩劑疫苗不少於14天。探訪安排亦只適用於留院超過一星期的病人，只有一名家屬於指定時段探訪，每星期探訪一至兩次。</p>
+
+<p>曾祈殷指，如個別醫院或院舍員工接種率，達七成以上，可考慮進一步放寬已完成接種疫苗探訪的名額。近來豁免檢疫受爭議，醫學會指政府需重新審視到港人士有關安排，例如豁免前亦要評估其居住環境是否人煙稠密，但具體準則，曾祈殷指由有關當局決定。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-23T09:39:15.699Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[中年男教師涉 8 度非禮兩女童　辯方質疑沒避開及出聲制止]]></title>
@@ -858,25 +880,5 @@
         </author>
         <category label="藝術"/>
         <published>2021-08-23T06:54:03.554Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【4.30 旺角】網媒記者「司令」藏武罪成判囚 8 月　准保釋候訊]]></title>
-        <id>https://www.thestandnews.com/court/430-%E6%97%BA%E8%A7%92%E7%B6%B2%E5%AA%92%E8%A8%98%E8%80%85%E5%8F%B8%E4%BB%A4%E8%97%8F%E6%AD%A6%E7%BD%AA%E6%88%90%E5%88%A4%E5%9B%9A-8-%E6%9C%88-%E5%87%86%E4%BF%9D%E9%87%8B%E5%80%99%E8%A8%8A</id>
-        <link href="https://www.thestandnews.com/court/430-%E6%97%BA%E8%A7%92%E7%B6%B2%E5%AA%92%E8%A8%98%E8%80%85%E5%8F%B8%E4%BB%A4%E8%97%8F%E6%AD%A6%E7%BD%AA%E6%88%90%E5%88%A4%E5%9B%9A-8-%E6%9C%88-%E5%87%86%E4%BF%9D%E9%87%8B%E5%80%99%E8%A8%8A"/>
-        <updated>2021-08-23T05:40:35.479Z</updated>
-        <summary type="html"><![CDATA[去年 8.31 太子事件八個月，28 歲文員被指接載義務記者到旺角時遭警員截停，期間無視警員指令，將私家車撞向警車，警方其後在車上檢獲一把「改裝雨傘」。文員被控危險駕駛及阻差辦公罪，綽號「司令」的網媒記者曾焌熙則被控管有攻擊性武器，兩人早前裁定罪名成立，文員判囚 8 周，記者則判囚 8 個月。曾焌熙今（23 日）於高等法院申請保釋等候上訴，法官李運騰聽罷雙方陳詞後，批准他暫時保釋 4 星期至下月…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/Layer_0_pBP9kj5.png"><figcaption><span>曾焌熙</span></figcaption></figure><p>去年 8.31 太子事件八個月，28 歲文員被指接載義務記者到旺角時遭警員截停，期間無視警員指令，將私家車撞向警車，警方其後在車上檢獲一把「改裝雨傘」。文員被控危險駕駛及阻差辦公罪，綽號「司令」的網媒記者曾焌熙則被控管有攻擊性武器，兩人早前裁定罪名成立，文員判囚 8 周，記者則判囚 8 個月。曾焌熙今（23 日）於高等法院申請保釋等候上訴，法官李運騰聽罷雙方陳詞後，批准他暫時保釋 4 星期至下月 20 日再訊。</p>
-
-<p>申請人曾焌熙的保釋條件包括，現金及人事擔保各 10 萬元、不得離港、交出所有旅遊證件包括BNO、每日到指定警署報到等。</p>
-
-<p>申請人曾焌熙（29 歲，無業）與報稱文員的另一被告，被控一項阻撓在正當執行職務的警務人員罪，指兩人於 2020 年 4 月 30 日，在洗衣街與山東街交界，故意阻撓高級督察高國權、警員秦偉明及警員林浩翔，早前遭裁定罪成。原審裁判官香淑嫻早前判刑時指，曾焌熙毫無悔意，雖然涉案的武器當時放在車尾箱，惟一旦使用可造成嚴重殺傷力，最終判監 8 個月，拒絕被告保釋等候上訴。</p>
-
-<p>案件編號：HCMA369/2021</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="法庭"/>
-        <published>2021-08-23T05:40:35.479Z</published>
     </entry>
 </feed>
