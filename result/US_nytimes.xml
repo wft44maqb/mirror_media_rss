@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Mon, 23 Aug 2021 17:06:04 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Aug 2021 17:16:11 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[美國的「躺平」運動]]></title>
+            <link><![CDATA[https://cn.nytimes.com/opinion/20210823/lying-flat-work-rest/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[「躺平」的支持者相信：工作變得無法忍受，休息是一種抵抗。這一理念也在美國引發共鳴。當事業成為犧牲一切的祭壇，人們選擇「躺平」。<p><img src='https://static01.nyt.com/images/2021/08/22/opinion/22Rosenblum/22Rosenblum-articleLarge.jpg' alt=' Lisk Feng'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Lisk Feng</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>觀點與評論</category>
+            <dc:creator><![CDATA[CASSADY ROSENBLUM]]></dc:creator>
+            <pubDate>Mon, 23 Aug 2021 05:12:10 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210823/lying-flat-work-rest/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[塔利班就組建新政府進行談判，喀布爾機場持續混亂]]></title>
             <link><![CDATA[https://cn.nytimes.com/world/20210823/afghanistan-taliban-biden-karzai/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[MANOHLA DARGIS]]></dc:creator>
             <pubDate>Wed, 18 Aug 2021 03:33:15 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/culture/20210818/in-the-same-breath-review/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[我為我的阿富汗姐妹們擔憂]]></title>
-            <link><![CDATA[https://cn.nytimes.com/opinion/20210818/malala-afghanistan-taliban-women/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[過去20年裡，數百萬阿富汗女性和女童接受了教育。當塔利班捲土重來，她們希冀的未來正在消失。世界必須行動起來幫助她們，刻不容緩。<p><img src='https://static01.nyt.com/images/2021/08/17/opinion/17yousafzai-2/merlin_184788147_ecfda041-15b7-4a80-be4c-7c0519aed06d-articleLarge.jpg' alt=' Miguel Schincariol/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Miguel Schincariol/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
-            <category>觀點與評論</category>
-            <dc:creator><![CDATA[MALALA YOUSAFZAI]]></dc:creator>
-            <pubDate>Wed, 18 Aug 2021 03:00:46 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210818/malala-afghanistan-taliban-women/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
