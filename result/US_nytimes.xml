@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Mon, 23 Aug 2021 17:56:56 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Aug 2021 18:07:00 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[《六人》：「消失」在鐵達尼號上的中國倖存者]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210823/chinese-titanic-survivors-the-six/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[六名中國倖存者的故事在過去一直遭到忽視。他們不僅因《排華法案》被禁止入境美國，還曾在報導中被指為獲救而喬裝為女性。紀錄片《六人》試圖還原他們的真實故事。<p><img src='https://static01.nyt.com/images/2021/08/18/lens/00xp-china-titanic1/00xp-china-titanic1-articleLarge.jpg' alt='1912年，白星航運的泰塔尼克號在海上航行。 Popperfoto, via Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Popperfoto, via Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>1912年，白星航運的泰塔尼克號在海上航行。</p>                    ]]></description>
+            <category>中國</category>
+            <dc:creator><![CDATA[JENNIFER JETT]]></dc:creator>
+            <pubDate>Mon, 23 Aug 2021 06:06:01 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210823/chinese-titanic-survivors-the-six/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[美國的「躺平」運動]]></title>
             <link><![CDATA[https://cn.nytimes.com/opinion/20210823/lying-flat-work-rest/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[《紐約時報》]]></dc:creator>
             <pubDate>Wed, 18 Aug 2021 05:26:46 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210818/hong-kong-university-arrests/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[《同呼吸》：武漢危機與世界常態消失前的最後一刻]]></title>
-            <link><![CDATA[https://cn.nytimes.com/culture/20210818/in-the-same-breath-review/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[《獨生之國》導演王男栿的新作重新審視了新冠大流行。它帶我們回到封城前的武漢，展示了錯誤信息如何塑造普通人的生活，又如何定義了一個民族的自我意識和國家意識。<p><img src='https://static01.nyt.com/images/2021/08/18/arts/18inthesamebreath2/merlin_193170747_75a20fca-632e-49a5-82e5-7abd8c787731-articleLarge.jpg' alt='紀錄片《同呼吸》中的一個場景。 HBO Documentary Films'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>HBO Documentary Films</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>紀錄片《同呼吸》中的一個場景。</p>                    ]]></description>
-            <category>文化</category>
-            <dc:creator><![CDATA[MANOHLA DARGIS]]></dc:creator>
-            <pubDate>Wed, 18 Aug 2021 03:33:15 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/culture/20210818/in-the-same-breath-review/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
