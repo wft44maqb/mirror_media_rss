@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Mon, 23 Aug 2021 14:24:08 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Aug 2021 14:34:16 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[塔利班就組建新政府進行談判，喀布爾機場持續混亂]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210823/afghanistan-taliban-biden-karzai/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[塔利班正與前總統卡爾扎伊及莫斯科等進行接觸，試圖兌現組建「包容性」政府的承諾，並擊敗反對其統治的頑固分子。與此同時，首都喀布爾的混亂仍在繼續。<p><img src='https://static01.nyt.com/images/2021/08/22/world/22-Afghan-Ledeall1/merlin_193550511_cb95adbb-3657-478d-83b6-6446270e300b-articleLarge.jpg' alt='週日，喀布爾機場，阿富汗人向站在防爆牆頂上守衛的美國海軍陸戰隊揮舞著他們的文件。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>週日，喀布爾機場，阿富汗人向站在防爆牆頂上守衛的美國海軍陸戰隊揮舞著他們的文件。</p>                    ]]></description>
+            <category>國際</category>
+            <dc:creator><![CDATA[羅傑·科恩]]></dc:creator>
+            <pubDate>Mon, 23 Aug 2021 02:31:26 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210823/afghanistan-taliban-biden-karzai/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[拜登正式提名前駐北約大使伯恩斯任駐華大使]]></title>
             <link><![CDATA[https://cn.nytimes.com/asia-pacific/20210823/biden-emanuel-burns-china-japan/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[MALALA YOUSAFZAI]]></dc:creator>
             <pubDate>Wed, 18 Aug 2021 03:00:46 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210818/malala-afghanistan-taliban-women/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[塔利班重新掌權，他們會支持恐怖組織嗎？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210818/taliban-afghanistan-al-qaeda/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[人們擔心，在新技術和社群媒體幫助下，阿富汗將再次成為恐怖組織的避風港。但目前，專家們在塔利班的執政方式、可能成為多大威脅等問題上存在分歧。<p><img src='https://static01.nyt.com/images/2021/08/17/world/17afghanistan-terrorism/merlin_193304073_9130bb61-b72b-4118-ab51-3edb0c7f1889-articleLarge.jpg' alt='塔利班成員週日在喀布爾。一名分析人士說，塔利班的勝利可能會鼓勵世界各地的伊斯蘭激進分子。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>塔利班成員週日在喀布爾。一名分析人士說，塔利班的勝利可能會鼓勵世界各地的伊斯蘭激進分子。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[STEVEN ERLANGER]]></dc:creator>
-            <pubDate>Wed, 18 Aug 2021 02:09:17 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210818/taliban-afghanistan-al-qaeda/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
