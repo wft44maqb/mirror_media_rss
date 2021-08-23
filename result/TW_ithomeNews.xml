@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>國際太空站試驗以邊緣運算技術監控太空人健康</title>
+    <link>https://www.ithome.com.tw/news/146348</link>
+    <description> 國際太空站應用邊緣運算技術來監控太空人的健康，結合搭載在國際太空站的HPE的Spaceborne Computer-2邊緣運算系統，還有地球上的Azure雲端服務，來監控太空人因為暴露在高輻射環境，可能出現的健康風險，太空人的血液樣本基因定序資料會先在國際太空站進行預處理，只有需要進一步分析的資料，才會透過頻寬有限的下行鏈結（Downlink）傳輸到地球處理。</description>
+     <pubDate>2021-08-23  09:08:38</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146348</guid>
+  </item>
+  <item>
     <title>PayPal加密貨幣交易跨出美國，進軍英國市場</title>
     <link>https://www.ithome.com.tw/news/146346</link>
     <description> 線上支付服務業者PayPal在去年底開放用戶持有及買賣加密貨幣，今年3月開始支援美國市場以加密貨幣付款，繼之在今日（8/23）宣布</description>
@@ -249,14 +257,6 @@ FinOps全名是Cloud Financial Operations或是Cloud Financial Management，顧�
      <pubDate>2021-08-20  10:08:58</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146281</guid>
-  </item>
-  <item>
-    <title>Nvidia營收持續跨大步，第二季成長68%</title>
-    <link>https://www.ithome.com.tw/news/146290</link>
-    <description> Nvidia周三（8/18）公布該公司截至今年8月1日的2022財年第二季財報，該季創下65.1億美元的營收，再度刷新Nvidia的單季營收紀錄，亦比去年同期成長68%，該季每股盈餘為0.94美元，成長276%。</description>
-     <pubDate>2021-08-20  10:08:55</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146290</guid>
   </item>
   </channel>
 </rss>

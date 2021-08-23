@@ -6,6 +6,26 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>國際太空站試驗以邊緣運算技術監控太空人健康</title>
+ <link>https://www.ithome.com.tw/news/146348</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;國際太空站&lt;a href=&quot;https://azure.microsoft.com/zh-tw/blog/genomics-testing-on-the-iss-with-hpe-spaceborne-computer2-and-azure/&quot;&gt;應用邊緣運算技術來監控太空人的健康&lt;/a&gt;，結合搭載在國際太空站的HPE的Spaceborne Computer-2邊緣運算系統，還有地球上的Azure雲端服務，來監控太空人因為暴露在高輻射環境，可能出現的健康風險，太空人的血液樣本基因定序資料會先在國際太空站進行預處理，只有需要進一步分析的資料，才會透過頻寬有限的下行鏈結（Downlink）傳輸到地球處理。&lt;/p&gt;
+&lt;p&gt;目前國際太空站的這套HPE Spaceborne Computer-2，是在2021年4月才安裝到NG-15太空站，預計要服役2到3年。這件事本身就極具意義，因為過去太空站所用的電腦，通常是專門訂製的硬體和軟體模型，以滿足太空任務的可靠性需求，這些訂製的星載系統開發人員體驗很複雜，與地球上使用的商用系統相比，程式開發速度不只緩慢且困難。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/56f1fcdf-ca48-4a8f-85ce-71ab41624db7.jpg&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;在2017年的時候，HPE所設計的第一代商業系統Spaceborne Computer-1，成功被發射到太空，並且驗證可在太空高輻射的環境中正常運作，並且在今年的時候，擁有2倍運算效能，以及強化人工智慧運算能力，由HPE Edgeline EL4000 Converged Edge系統和HPE ProLiant DL360 Gen10伺服器組成的Spaceborne Computer-2，再次被部署到太空站中。&lt;/p&gt;
+&lt;p&gt;雖然運算能力提升了，但是微軟提到，應用真正的瓶頸是國際太空站和地球之間的傳輸頻寬，Spaceborne Computer-2每周只能從NASA，分配到2小時的通訊頻寬將資料傳輸到地球，最大的下載速度為每秒250 KB，這樣的頻寬還要分配給多個實驗，在這個有限的網路環境，邊緣雲端的概念發揮作用，Spaceborne Computer-2能先對大型資料集進行初步分析和過濾，擷取有趣和意外的內容，再將這些結果傳回地球公有雲上解析。&lt;/p&gt;
+&lt;p&gt;微軟在這些限制提出了一項實驗，監控高輻射暴露下太空人的健康，由於在太空中不像地球有大氣層，阻擋來自宇宙的輻射，因此太空人需要面臨高輻射的威脅，特別越過低空地球軌道，超過范艾倫輻射帶時，所暴露的輻射只會越來越多。&lt;/p&gt;
+&lt;p&gt;微軟的這項實驗，是要存取國際太空站上基因定序儀的資料進行分析，但是基因定序資料量太過龐大，而且輸出要和不斷更新的大型臨床資料庫進行比較，因此下行鏈路的頻寬太小，不足以支援這些操作，因此該實驗使用HPE Spaceborne Computer-2執行初始運算，將擷取的基因序列和參考的DNA片段進行比較，只有在找到差異或是變異時，才下載到HPE地面站。&lt;/p&gt;
+&lt;p&gt;在地球上，這些資料會被傳輸到Azure，並且使用微軟Genomics服務進行運算，將下載資料中的短鹼基對基因定序資料和完整的人類基因組資料庫比對，來確定突變的位置和變化類型，並使用美國國家衛生院的dbSNP資料庫比對讀數，來確定突變所帶來的影響。&lt;/p&gt;
+&lt;p&gt;由於在開發和測試期間，開發人員無法存取HPE Spaceborne Computer-2或HPE地面站，因此研究人員先在Azure模擬驗證了這個實驗，並在8月12日的時候，上傳120MB的程式到國際太空站的Spaceborne Computer-2上執行。&lt;/p&gt;
+&lt;p&gt;根據微軟的試驗，當原始資料為500 KB時，執行時間只需要20分鐘，需要下載至地球的資料只剩4 KB，傳輸時間不到1秒，即便原始資料有150 MB，在 Spaceborne Computer-2執行1小時的預處理後，需要傳輸的資料剩下900 KB，17秒內就能傳輸到地球。&lt;/p&gt;
+&lt;p&gt;目前HPE Spaceborne Computer-2還在邊緣雲端應用的試驗和概念性驗證階段，太空人健康監控應用僅是其中一項專案，這些試驗都會獨立於國際太空站運作的作業系統，微軟提到，隨著人類繼續向太空發展，邊緣雲端運算能力將會越來越重要，使用案例也會增加，作為突破運算資源極限的解決方案。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 23 Aug 2021 13:07:38 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146348 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146348#comments</comments>
+</item>
+<item>
  <title>PayPal加密貨幣交易跨出美國，進軍英國市場</title>
  <link>https://www.ithome.com.tw/news/146346</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;線上支付服務業者PayPal在去年底&lt;a href=&quot;https://www.ithome.com.tw/news/140675&quot; target=&quot;_blank&quot;&gt;開放用戶持有及買賣加密貨幣&lt;/a&gt;，今年3月開始&lt;a href=&quot;https://www.ithome.com.tw/news/143561&quot; target=&quot;_blank&quot;&gt;支援美國市場&lt;/a&gt;以加密貨幣付款，繼之在今日（8/23）宣布&lt;a href=&quot;https://newsroom.paypal-corp.com/2021-08-23-PayPal-Launches-the-Ability-to-Buy,-Hold-and-Sell-Cryptocurrency-in-the-UK&quot; target=&quot;_blank&quot;&gt;將提供英國用戶&lt;/a&gt;透過該平臺買進、持有與銷售加密貨幣。&lt;/p&gt;
@@ -150,24 +170,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146337 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146337#comments</comments>
-</item>
-<item>
- <title>IBM發布首款7奈米Telum處理器，整合AI加速推論晶片，下一代IBM Z大型主機先採用</title>
- <link>https://www.ithome.com.tw/news/146315</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;不讓Apple、Google、AWS專美於前，在今日(8/23 )線上舉行的Hot Chips年會上，硬體大廠IBM公開展示自行研發的全新7奈米處理器Telum，整合AI加速運算處理能力，可用於AI或深度學習模型推論。它也是IBM第一款結合AI加速推論功能的處理器晶片，並將先運用到大型主機，來協助解決銀行詐騙、高頻交易等金融難題。首款採用Telum處理器的IBM系統，預計2022年上半年推出。&lt;/p&gt;
-&lt;p&gt;近來，有越來越多科技巨頭，在設計新產品時，不再倚重CPU供應商，反而開始投入研發自家產品專用的CPU晶片，像是Apple筆電的M1晶片、Google手機Tensor晶片，AWS雲端運算的Graviton晶片，以及Nvidia的Grace處理器，都是自研自用，來滿足特定產品應用需求。IBM也成為最新一家自研處理器的科技大廠，在今年Hot Chips年會，首次介紹大型主機處理器晶片Telum出場。&lt;/p&gt;
-&lt;p&gt;IBM的AI研究硬體中心花了3年研發打造出這顆新處理器，它也是IBM首款採用7奈米先進製程生產的CPU，並將由三星負責該晶片生產。根據IBM表示，其內含電晶體數量高達220億個，並且單一晶片內採用17層金屬連接，來完成高密度電路互連，總線長可達約30公里。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-08-20%20%E4%B8%8A%E5%8D%8810_06_55.png&quot; style=&quot;width: 600px; height: 330px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;在會前一場媒體線上發布會上，IBM已有揭露這顆新處理器，但並未透露詳細規格，但從現有資訊來看，IBM在每個Telum處理器，都內建8個處理器核心，時脈可達5GHz以上，每顆核心最多32MB的L2快取記憶體。 如果對照2019年一款IBM Z15大型主機，其硬體規格則採用一顆時脈達5.2GHz的14奈米Z15 CPU，搭配每核心128KB的L1快取，與4MB的L2快取。 &lt;/p&gt;
-&lt;p&gt;IBM特別強調，Telum處理器是一款整合AI加速推論的處理器晶片，儘管並未提到這個加速晶片的推論效能，但IBM表示，金融企業可以將訓練完的AI或深度學習模型打包，到採用Telum處理器的IBM系統上來部署與進行AI推論，因此，可以就近執行AI與深度學習模型推論，例如運用AI提供金融詐騙偵測與分析，或利用機器學習，加快銀行貸款審核流程，還有處理高吞吐量的金融交易、反洗錢和風險分析等。&lt;/p&gt;
-&lt;p&gt;IBM Z產品管理資深副總Barry Baker也表示，雖然現今在銀行一些交易處理已有結合AI防詐偵測機制，但受限於CPU運算能力，僅能針對部分高價值、高風險交易來使用，透過這個處理器，就沒有這個問題，可以對每筆交易進行偵測，確認所有交易都正常，防止有漏網之魚。&lt;/p&gt;
-&lt;p&gt;Telum處理器也將成為下一代IBM Z大型主機採用的處理器晶片。由於臺灣目前仍有不少大型金融業者的核心系統硬體，採用該公司提供的大型主機系列產品，因此，未來改用新的Telum處理器後，預期也可望加快臺灣金融業AI應用落地。&lt;/p&gt;
-&lt;p&gt;首款採用Telum處理器的IBM系統，預計2022年上半年推出。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 23 Aug 2021 04:02:17 +0000</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="false">146315 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146315#comments</comments>
 </item>
 </channel>
 </rss>
