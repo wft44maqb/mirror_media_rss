@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=318&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>馬斯克：穿上有停車標誌的T恤就能愚弄特斯拉</title>
+    <link>https://www.ithome.com.tw/news/146343</link>
+    <description> 電動車大廠特斯拉（Tesla）在19日舉行的AI Day上，發表了用於特斯拉超級電腦Dojo的最新晶片D1、全自動駕駛（Full Self-Driving）系統，以及人形機器人Tesla Bot。不過，當會議上有人提出特斯拉汽車缺乏3D感應器是否會遭到對抗性攻擊（Adversarial Attacks）時，特斯拉創辦人暨執行長馬斯克（Elon Musk）坦承，他們還沒看到太多這樣的現象，不過他自己曾經利用一件印有停車標誌的T恤，來騙過特斯拉的自動駕駛輔助系統。</description>
+     <pubDate>2021-08-23  02:08:50</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146343</guid>
+  </item>
+  <item>
     <title>馬斯克描繪特斯拉人形機器人Tesla Bot，預計明年推出原型機</title>
     <link>https://www.ithome.com.tw/news/146342</link>
     <description> 電動車大廠特斯拉（Tesla）創辦人暨執行長馬斯克（Elon Musk）在上周四（8/19）舉行的AI Day上，發表了人形機器人Tesla Bot，指出Tesla Bot將可協助人類處理危險、重複與無聊的任務，而且還非常友善，原型機可望於明年問世。
@@ -248,14 +256,6 @@ VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔
      <pubDate>2021-08-19  05:08:02</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146278</guid>
-  </item>
-  <item>
-    <title>研究人員揭露蘋果掃描機制含有安全漏洞，蘋果：那不是蘋果所採用的版本</title>
-    <link>https://www.ithome.com.tw/news/146277</link>
-    <description> 蘋果計畫在今年問世的iOS中嵌入兒童色情掃描機制，以遏制兒童性剝削內容（Child Sexual Abuse Material，CSAM）的散布，然而，隱私與安全專家群起反對，本周一名GitHub用戶Asuhariet Ygvar公布了蘋果用來將CSAM加密的NeuralHash雜湊技術模型，幾小時後就有另一名用戶Cory Cornelius找到該演算法的漏洞，製造了雜湊碰撞（Hash Collisions），讓兩張不同的圖片產生一樣的加密指紋，然而，</description>
-     <pubDate>2021-08-19  05:08:41</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146277</guid>
   </item>
   </channel>
 </rss>
