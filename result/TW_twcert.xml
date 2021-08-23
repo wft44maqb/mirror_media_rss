@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Fri, 20 Aug 2021 09:14:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[求職社群網站 LinkedIn 遭發現漏洞，任何人均可冒名任何公司發布職缺訊息]]></title><link>http://www.twcert.org.tw/tw/cp-104-5026-4e217-1.html</link><description><![CDATA[<p><strong>資安專家發現全球熱門求職求才社群網站 LinkedIn 的流程漏洞：任何人均可冒名任何公司張貼虛假求才訊息，不但能取得求職者的詳細資訊，也能夾帶各種惡意檔案。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Mon, 23 Aug 2021 09:32:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[Razer 電競產品驅動程式 0-day 漏洞，只需插入裝置，即可取得 Windows 10 管理權限]]></title><link>http://www.twcert.org.tw/tw/cp-104-5031-1247c-1.html</link><description><![CDATA[<p><strong>資安專家發現電競品牌 Razer 的驅動程式內含嚴重 0-day 資安漏洞，駭侵者只需插入 Razer 品牌的鍵盤或滑鼠，即可輕鬆取得 Windows 10 的系統管理權限。</strong><br />
+<br />
+資安專家發現電競遊戲控制周邊裝罝品牌 Razer 的 Windows 驅動程式，內含嚴重 0-day 資安漏洞；駭侵者只需插入 Razer 品牌的鍵盤或滑鼠，即可輕鬆取得 Windows 10 的系統管理權限。<br />
+<br />
+發現這個漏洞的資安專家是 johhat，他在 Twitter 上公布這個發生於 Razer Windows 驅動程式的 0-day 漏洞；當用戶在 Windows 10 或 Windows 11 電腦上插入任何 Razer 品牌的鍵盤或滑鼠裝置，Windows 會自動從 Razer 的伺服器下載這些裝置的驅動程式 Razer Synapse Software；此時 Razer Synapse Software 會自 Windows 系統取得管理者權限來進行驅動程式的安裝，並且詢問用戶要把驅動程式安裝在哪個資料夾。<br />
+<br />
+這時用戶只需在對話盒內按下鍵盤上的 SHIFT+滑鼠右鍵，出現的快速選單中，會有一個「Open PowerShell window here」的選項；由於這個 PowerShell 視窗是由具有系統管理員權限的 Razer Synapse Software 所啟動，因此 PowerShell 視窗也具有系統管理員的執行權限。<br />
+<br />
+利用這個方法取得系統管理員執行權限後，有心人士即可在近端系統上為所欲為，包括存取 Windows 系統中的所有檔案，或是安裝任何應用程式，甚至惡意軟體。不過要誘發這個漏洞，駭侵者必須能夠實體存取目標的 Windows 電腦裝置，實體插入 Razer 設備才行。<br />
+<br />
+資安專家 jonhat 在發現這個漏洞後，隨即提報給 Razer 原廠。之後 Razer 表示將儘快推出更新版本，修復此漏洞。</p>]]></description><pubDate>Mon, 23 Aug 2021 09:32:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5031-1247c-1.html</guid></item><item><title><![CDATA[日本加密貨幣交易所 Liquid 遭駭，損失高達 9,400 萬美元以上]]></title><link>http://www.twcert.org.tw/tw/cp-104-5030-d6d2c-1.html</link><description><![CDATA[<p><strong>日本加密貨幣交易所 Liquid，日前發生嚴重駭侵攻擊事件，其熱錢包遭攻擊，損失高達 9,400 萬美元以上。</strong><br />
+<br />
+日本加密貨幣交易所 Liquid，日前發生嚴重駭侵攻擊事件；該交易所用來儲存用戶帳號加密貨幣資產的熱錢包遭到攻擊，目前已知的損失高達 9,400 萬美元以上。<br />
+<br />
+Liquid 是全球規模最大的加密貨幣／法幣交易所之一，擁有八十多萬名註冊用戶，這些用戶的全球分布超過 100 個國家；且該交易所每天的加密貨幣交易額超過 11 億美元。<br />
+<br />
+Liquid 在駭侵攻擊事件發生後，隨即在官方的 Twitter 帳號發布公告，承認其熱錢包遭到駭侵者挾持；該公司立即將尚未遭竊的加貨貨幣資產轉移到較安全的冷錢包中，同時暫停所有加密貨幣相關交易。包括加密貨幣的買賣與轉帳，在調查活動完成之前都無法進行，但法幣的交易與存提款不受影響。<br />
+<br />
+Liquid 也說，被竊取的 9,400 萬美元加密貨幣資產，總共包括 69 種不同的加密貨幣；這些加密貨幣在未經授權的情形下，被轉出到其他加密貨幣交易所或去中心化交易所 (DeFi Swap) 中。<br />
+<br />
+被竊加密資產依各幣種區分，分別為以太幣（ETH） 3,090 萬美元、瑞波幣（XRP）1,290 萬美元、比特幣（BTC）480 萬美元、各種穩定幣 770 萬美元、Tron 20 萬美元、其他代幣共計 3,740 萬美元。<br />
+<br />
+加密貨幣資安專家指出，由於有高達 4,500 萬美元的以太幣，被轉入去中心化交易所如 Uniswap 與 Sushiswap，因此難以追查竊取者的身分，以及其金流動向。<br />
+<br />
+資安專家多次呼籲加密貨幣持有人，儘可能避免將自己的加密貨幣資產，存在風險極高的交易所管理熱錢包中；應轉帳回自己持有的冷錢包中妥善存放，以降低遭竊風險。</p>]]></description><pubDate>Mon, 23 Aug 2021 09:30:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5030-d6d2c-1.html</guid></item><item><title><![CDATA[求職社群網站 LinkedIn 遭發現漏洞，任何人均可冒名任何公司發布職缺訊息]]></title><link>http://www.twcert.org.tw/tw/cp-104-5026-4e217-1.html</link><description><![CDATA[<p><strong>資安專家發現全球熱門求職求才社群網站 LinkedIn 的流程漏洞：任何人均可冒名任何公司張貼虛假求才訊息，不但能取得求職者的詳細資訊，也能夾帶各種惡意檔案。</strong><br />
 <br />
 資安專家 Herman Singh 近曰發現全球熱門求職求才社群網站 LinkedIn，在張貼職缺的流程中存有一個嚴重漏洞，導致任何人均可冒名任何公司張貼虛假求才訊息，不但能取得求職者的詳細資訊，也能夾帶各種惡意檔案，進一步發動各種駭侵攻擊。<br />
 <br />
@@ -229,30 +253,4 @@ Vultur 的作法則有所有不同。它會在受感染的 Android 手機上開�
 <br />
 用戶的 Android 裝置若是感染 Vultur，Vultur 會試圖欺騙用戶給予完整的手機控制權限；一旦成功，Vultur 即可取得完整的手機控制權。另外，當用戶想要移除内含 Vultur 惡意程式碼的 app 時，Vultur 會自動按下「回上頁」按鈕。<br />
 <br />
-用戶如果在 Android 的通知面板中看到一個執行中的螢幕分享程式，名為「Protection Guard」的話，就是遭到 Vultur 的感染；另外，Vultur 也會在受害者的手機中，透過 VNC 遠端遙控功能，安裝更多惡意軟體。</p>]]></description><pubDate>Fri, 30 Jul 2021 09:39:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4966-3fb77-1.html</guid></item><item><title><![CDATA[LockBit 勒贖軟體現可利用群組原則，自動加密 Windows 網域下所有電腦]]></title><link>http://www.twcert.org.tw/tw/cp-104-4964-4ceaa-1.html</link><description><![CDATA[<p><strong>資安專家發現，新版 LockBit 勒贖軟體，可透過 Windows Server 設定的群組原則，自動加密整個 Windows 網域下的所有電腦。使用 Windows Server 的企業網域管理員，應特別提高警覺。</strong><br />
-<br />
-資安專家發現，新版 LockBit 勒贖軟體 2.0 版多出數項新功能，其中一項可透過 Windows Server 設定的群組原則，自動加密整個 Windows 網域下的所有電腦。使用 Windows Server 管理旗下所有電腦的企業網域管理員，應特別提高警覺。<br />
-<br />
-LockBit 勒贖軟體出現於 2019 年 9 月，是一個「勒贖軟體即服務」(Ransomware as a service），想要發動勒贖攻擊的人，可以「租用」他們的服務，並且設定要攻擊的對象。<br />
-<br />
-一旦勒贖攻擊成功令受害者支付贖款，租用服務的人可以得到 70%~80% 的贖金，LockBit 的開發團隊則會收取其餘的贖款做為佣金。<br />
-<br />
-近年來，LockBit 的勒贖攻擊相當猖獗，其團隊成員為了「促銷」，也在許多駭侵相關論壇主動提供各種「支援」；在許多駭侵相關論壇紛紛禁止勒贖相關主題貼文後，LockBit 的活動便轉到該團體自己設立的資料洩露網站中。<br />
-<br />
-在該團體網站中，最近公布的 LockBit 2.0 最新功能中，即包括可利用群組原則，自動感染 Windows 網域控制站旗下所有 Windows 電腦的功能；攻擊者不必自行撰寫程式碼進行勒贖軟體「布署」，只要取得 Windows Server 網域控制器的存取權，就會自動進行布署。<br />
-<br />
-執行時，LockBit 2.0 會自動産生新的群組原則設定檔，並且禁用 Microsoft Defender 的即時防護功能，避免布署活動遭到阻斷。</p>]]></description><pubDate>Fri, 30 Jul 2021 09:36:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4964-4ceaa-1.html</guid></item><item><title><![CDATA[資安調查報告指出，修復高危險性漏洞所需時間，六個月内自 197 天增加至 246 天]]></title><link>http://www.twcert.org.tw/tw/cp-104-4959-a4713-1.html</link><description><![CDATA[<p><strong>資安廠商的調查報告指出，各家廠商修復高危險性資安漏洞所需的時間，在最近 6 個月内，自 197 天增加到 246 天。</strong><br />
-<br />
-資安廠商 NTT Application Security 日前發表的最新 AppSec Flash Report 調查報告指出，各家廠商修復高危險性資安漏洞所需的時間，在最近 6 個月内，自 197 天增加到 246 天。<br />
-<br />
-這份報告主要調查資安漏洞在得到修復前的空窗期長度，因為在空窗期之内，漏洞很可能遭駭侵者用以發動駭侵攻擊。<br />
-<br />
-最新的報告指出，自今年（2021）年初到六月底的半年期間，雖然最主要的五大類漏洞的平均修復日期和過去差別不大，但各種應用程式的漏洞修復空窗期，明顯都拉長了。資安廠商稱「這是常見漏洞修復的系統性失敗」。<br />
-<br />
-根據 NTT Application Security 的資安專家指出，今年上半年一月到六月間，所有漏洞的平均修復需時，自年初的 205 天略為減少到六月的 202 天；而高度危險性的資安漏洞修復需時，卻從年初的 194 天大幅增加到六月的 246 天，多了快要 2 個月。<br />
-<br />
-至於各類型、各種危險程度漏洞的修復比率，也自今年年初的 54%，下降到六月底的 48%；高危險性漏洞的修復比率，更是從年初的 50% 大幅下降到六月底的 38%。<br />
-<br />
-該報告也分析了各種應用程式類型的漏洞出現比例。工具類應用程式中，有高達 65% 至少含有一個嚴重資安漏洞，為所有應用類型之冠。<br />
-<br />
-報告也說，教育、製造、零售、批發商等産業的漏洞修復空窗期，在近期也拉長了 4%；醫療産業的空窗期則拉長了 2%。至於金融保險産業的空窗期則略有改善，減少了 2%。</p>]]></description><pubDate>Thu, 29 Jul 2021 09:02:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4959-a4713-1.html</guid></item></channel></rss>
+用戶如果在 Android 的通知面板中看到一個執行中的螢幕分享程式，名為「Protection Guard」的話，就是遭到 Vultur 的感染；另外，Vultur 也會在受害者的手機中，透過 VNC 遠端遙控功能，安裝更多惡意軟體。</p>]]></description><pubDate>Fri, 30 Jul 2021 09:39:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4966-3fb77-1.html</guid></item></channel></rss>
