@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/213/356" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/213/356</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/213/356" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
     <title>Google裁撤Google Health，蘋果精簡健康App專案</title>
     <link>https://www.ithome.com.tw/news/146340</link>
@@ -12,6 +12,14 @@
      <pubDate>2021-08-23  01:08:04</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146340</guid>
+  </item>
+  <item>
+    <title>殭屍網路發動大規模DDoS攻擊，每秒發出逾1,700萬次HTTP請求</title>
+    <link>https://www.ithome.com.tw/news/146339</link>
+    <description> 大規模的分散式阻斷服務攻擊（DDoS）事故，這幾年來已有數起。例如，今年4月資安業者Akamai揭露博奕網站遭到攻擊，是當時史上規模第3大的事故，流量每秒高達800GB。</description>
+     <pubDate>2021-08-23  01:08:39</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146339</guid>
   </item>
   <item>
     <title>Google、微軟緊急修補瀏覽器高風險漏洞</title>
@@ -247,14 +255,6 @@ VS Code  1.59加入一個方便的預覽功能，便是自動偵測無標題檔
      <pubDate>2021-08-19  01:08:08</pubDate>
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146275</guid>
-  </item>
-  <item>
-    <title>Fortinet抨擊安全廠商在90天保密期限前就揭露其產品漏洞</title>
-    <link>https://www.ithome.com.tw/news/146274</link>
-    <description> 安全研究人員及產品廠商之間的緊張關係再度引爆。網路安全設備商Fortinet批評安全廠商Rapid 7未遵守業界通用的漏洞通報90天保密期，在還沒到90天前就將Fortinet產品漏洞公諸於世。</description>
-     <pubDate>2021-08-19  01:08:38</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146274</guid>
   </item>
   </channel>
 </rss>
