@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-23T05:27:10Z</updated>
+ <updated>2021-08-23T05:30:21Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58953521</id>
+  <title><![CDATA[张崑阳：北京打压不会停止 香港反抗运动将地下化]]></title>
+  <updated>2021-08-23T05:23:00Z</updated>
+  <published>2021-08-23T05:23:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/张崑阳：北京打压不会停止-香港反抗运动将地下化/a-58953521?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[在流亡海外近一年後，香港民主运动人士张崑阳上周宣布将在美国寻求政治庇护。消息传出後，香港保安局也表明将对他「危害国家安全」追究到底。德国之声与他进行专访，了解他如何看待香港局势发展。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58953446</id>
   <title><![CDATA[上海机场8万人筛检阴性 中国「本土零确诊」疫情回稳]]></title>
@@ -222,16 +232,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/被提名为美国驻华大使-伯恩斯何许人也？/a-58940163?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[美中关系紧张之际，美国新驻华大使的身份尤受关注。美国总统拜登正式宣布提名后，人们不禁要问：伯恩斯是谁？他在中国议题上有哪些经验？对华立场如何？]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58940044</id>
-  <title><![CDATA[吴钊燮：“中国想仿效塔利班”]]></title>
-  <updated>2021-08-21T10:04:00Z</updated>
-  <published>2021-08-21T10:04:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/吴钊燮：-中国想仿效塔利班/a-58940044?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[台湾外交部长吴钊燮周六指责中国想“仿效”塔利班，但台湾有决心和能力自卫。吴钊燮表示，台湾人民的愿望和最佳利益包括不受共产主义和独裁主义侵扰。与此同时，塔利班高层周六举行会晤，讨论如何组建“包容”政府。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
