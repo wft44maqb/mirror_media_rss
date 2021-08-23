@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-23T11:52:19Z</updated>
+ <updated>2021-08-23T11:53:57Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58957024</id>
+  <title><![CDATA[热带风暴登陆美国  多地出现灾情 ]]></title>
+  <updated>2021-08-23T11:50:00Z</updated>
+  <published>2021-08-23T11:50:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/热带风暴登陆美国-多地出现灾情/a-58957024?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[当地时间8月22日午时，热带风暴“亨利”（Henri）登陆美国罗得岛州，降下“历史性”大雨，引发大水、导致停电，影响多州，仅南部田纳西州就有至少21人丧生。]]></summary>
+  <category term="科技环境"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58956304</id>
+  <title><![CDATA[阿富汗撤侨乱象  德国外长与情报局互呛]]></title>
+  <updated>2021-08-23T11:20:00Z</updated>
+  <published>2021-08-23T11:20:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗撤侨乱象-德国外长与情报局互呛/a-58956304?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[由于阿富汗撤侨行动出现的混乱局面，德国政府、尤其是外交部长马斯成了众矢之的。而马斯本人则认为情报部门误判局势才造成了今天的严重被动。]]></summary>
+  <category term="新闻广角"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58955265</id>
   <title><![CDATA[默克尔访问乌克兰 对俄发出警告]]></title>
@@ -165,16 +185,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58906625</id>
-  <title><![CDATA[柏林——永远的间谍之都]]></title>
-  <updated>2021-08-22T07:40:00Z</updated>
-  <published>2021-08-22T07:40:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58904029</id>
   <title><![CDATA[阿富汗艺术家：“失望、痛苦、愤怒”]]></title>
   <updated>2021-08-22T07:40:00Z</updated>
@@ -185,14 +195,14 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58888640</id>
-  <title><![CDATA[打动人心是扩大疫苗接种的制胜法宝？]]></title>
-  <updated>2021-08-22T07:19:00Z</updated>
-  <published>2021-08-22T07:19:00Z</published>
+  <id>tag:dw.com,2021:58906625</id>
+  <title><![CDATA[柏林——永远的间谍之都]]></title>
+  <updated>2021-08-22T07:40:00Z</updated>
+  <published>2021-08-22T07:40:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
-  <category term="科技环境"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
+  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58897772</id>
@@ -203,6 +213,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东欧国家认清了中国投资？/a-58897772?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国希望在中东欧扩大其影响力。在欧盟东翼，有人呼吁抵制中国的“腐蚀性资本”，但也有人并未看到威胁。]]></summary>
   <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58888640</id>
+  <title><![CDATA[打动人心是扩大疫苗接种的制胜法宝？]]></title>
+  <updated>2021-08-22T07:19:00Z</updated>
+  <published>2021-08-22T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
+  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58944458</id>
@@ -363,16 +383,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/管控互联网企业-中国立法禁止网络不正当竞争/a-58889106?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国监管当局发布《禁止网络不正当竞争行为规定》草案，征求社会意见。这一法规将是北京管控互联网企业的又一步骤。 ]]></summary>
   <category term="经济纵横"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58886306</id>
-  <title><![CDATA[大火熊熊燃烧！以色列亟需更多灭火飞机]]></title>
-  <updated>2021-08-17T11:13:00Z</updated>
-  <published>2021-08-17T11:13:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/大火熊熊燃烧！以色列亟需更多灭火飞机/a-58886306?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[以色列政府要求国际社会提供支援，帮助该国应对耶路撒冷西部地区森林大火。有消息称，此次严重火灾也可能是人为纵火的结果。]]></summary>
-  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58886242</id>
@@ -580,15 +590,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -596,6 +597,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
