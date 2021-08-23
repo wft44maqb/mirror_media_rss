@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-23T14:50:19Z</updated>
+ <updated>2021-08-23T14:54:09Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,36 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58958928</id>
+  <title><![CDATA[德语媒体：中国严防死堵的防疫战略]]></title>
+  <updated>2021-08-23T14:45:00Z</updated>
+  <published>2021-08-23T14:45:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：中国严防死堵的防疫战略/a-58958928?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[境内发现德尔塔变异病毒后，中国又加强了防疫力度。一旦发现病例，整个小区、甚至整个港口都被严密封锁。]]></summary>
+  <category term="评论分析"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58958766</id>
+  <title><![CDATA[忍无可忍 英国女王考虑起诉哈里王子夫妇]]></title>
+  <updated>2021-08-23T14:22:00Z</updated>
+  <published>2021-08-23T14:22:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/忍无可忍-英国女王考虑起诉哈里王子夫妇/a-58958766?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[据英国《太阳报》报道，英国女王伊丽莎白二世对哈里王子夫妇的反复攻击越来越感到恼火，因此现在正考虑采取法律行动，与二人对簿公堂。]]></summary>
+  <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58958841</id>
+  <title><![CDATA[奥地利总理库尔茨拒绝再接受阿富汗难民]]></title>
+  <updated>2021-08-23T14:22:00Z</updated>
+  <published>2021-08-23T14:22:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/奥地利总理库尔茨拒绝再接受阿富汗难民/a-58958841?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[奥地利总理库尔茨周日接受采访时表示，在他任内，奥地利不会再接收阿富汗难民。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58957115</id>
   <title><![CDATA[塔利班不同意延长西方国家撤军时间表]]></title>
@@ -182,16 +212,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/刚果（金）关闭多处矿山-缓和中企与当地矛盾/a-58949730?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[据法新社报道，刚果民主共和国一个地方政府关闭了数家矿山，以缓和当地居民和中资采矿企业之间的矛盾。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58949379</id>
-  <title><![CDATA[特朗普批拜登丢掉阿富汗是“史上最大外交耻辱”]]></title>
-  <updated>2021-08-22T09:09:00Z</updated>
-  <published>2021-08-22T09:09:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/特朗普批拜登丢掉阿富汗是-史上最大外交耻辱/a-58949379?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国前总统特朗普批评拜登丢失阿富汗是“最大外交政策耻辱”。在塔利班夺权一周后，喀布尔机场仍一片混乱，周日有7人在混乱推挤中死亡。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -475,16 +495,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58871239</id>
-  <title><![CDATA[墙外文摘：中共如何用灾难给自己加分？]]></title>
-  <updated>2021-08-15T14:02:00Z</updated>
-  <published>2021-08-15T14:02:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/墙外文摘：中共如何用灾难给自己加分？/a-58871239?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[有评论指出，2021年河南水灾的“人祸”性质，在郑州悲剧中体现得最为充分。中共有一套成熟而有效的维稳体系，让每一次灾情最终都变成中共政权的政绩，都令一些中国人感恩戴德，从而增添了专制政权的合法性。]]></summary>
-  <category term="评论分析"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58855881</id>
   <title><![CDATA[德国使馆推文伤害了部分日本国民自尊心]]></title>
   <updated>2021-08-15T07:19:00Z</updated>
@@ -522,16 +532,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国新立法计划-企业将受更严格监管/a-58841461?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国国务院8月11日公布了2021-2025年度的《法治政府建设实施纲要》，提出要针对科技创新、反垄断、文化教育以及“涉外法治”等“重要领域”加强立法。路透社及法新社都认为，这意味着北京对经济界的监管力度将进一步加大。]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58840912</id>
-  <title><![CDATA[一例阳性全码头被封 全球供应链恐受阻]]></title>
-  <updated>2021-08-12T11:13:00Z</updated>
-  <published>2021-08-12T11:13:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/一例阳性全码头被封-全球供应链恐受阻/a-58840912?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国继续执行对新冠病毒零容忍的政策。宁波港梅东码头发现1例阳性后，全码头封锁。人们担心此举影响全球供应链。]]></summary>
   <category term="经济纵横"/>
  </entry>
  <entry>

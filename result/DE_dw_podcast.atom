@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-08-23T14:46:45Z</updated>
+ <updated>2021-08-23T14:54:08Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,17 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58958452</id>
+  <title><![CDATA[洪灾之后：抢救葡萄酒大作战]]></title>
+  <updated>2021-08-23T14:25:00Z</updated>
+  <published>2021-08-23T14:25:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/洪灾之后：抢救葡萄酒大作战/av-58958452?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[四周前的洪灾不仅在莱茵兰-普法尔茨州造成严重伤亡，当地的葡萄酒产区也受到重创。葡萄酒农正抢修受损的地窖以及清理布满淤泥的葡萄酒。他们急需外界的援手。]]></summary>
+  <category term="经济纵横"/>
+  <link rel="enclosure" type="video/mp4" length="12084937" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210823_001_ahrtal_01r_sd.mp4" title="洪灾之后：抢救葡萄酒大作战"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58955450</id>
   <title><![CDATA[阿富汗撤离人员陆续抵达德国]]></title>
@@ -332,16 +343,5 @@
   <summary><![CDATA[布什认为，中国的问题是越发威权化。他在任时每次访华必谈人权，但是以一种不让对方尴尬、不激怒对方的方式进行。]]></summary>
   <category term="时政风云"/>
   <link rel="enclosure" type="video/mp4" length="6541806" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210715_001_inesbush_01r_sd.mp4" title="美国前总统布什接受DW采访谈中国"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58269231</id>
-  <title><![CDATA[帅哥美女才是标准？这个摄影师偏不信！]]></title>
-  <updated>2021-07-15T08:51:00Z</updated>
-  <published>2021-07-15T08:51:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/帅哥美女才是标准？这个摄影师偏不信！/av-58269231?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[“人们只是说，我们应该赞美自己。减肥是件好事，它会使我们更漂亮。我们都是听这样的话长大的。你当然可以赞美自己 但不应该是因为你重了或是轻了。”]]></summary>
-  <category term="文化经纬"/>
-  <link rel="enclosure" type="video/mp4" length="13604593" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210714_001_schoenheitsideal_sd.mp4" title="帅哥美女才是标准？这个摄影师偏不信！"/>
  </entry>
 </feed>
