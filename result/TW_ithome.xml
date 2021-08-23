@@ -6,6 +6,24 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Google裁撤Google Health，蘋果精簡健康App專案</title>
+ <link>https://www.ithome.com.tw/news/146340</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;軟體大廠過去幾年大舉投資健康照護領域，不過Business Insider上周報導，&lt;a href=&quot;https://www.businessinsider.com/google-health-shutting-down-david-feinberg-leaves-2021-8&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt;和蘋果分別裁撤和縮編開發數位健康技術及方案的部門。&lt;/p&gt;
+&lt;p&gt;Business Insider上周取得Google搜尋部門主管Jeff Dean發出的內部員工信件，告知Google Health將被裁撤，而部門員工將分批調往他職。其中開發搜尋病患紀錄相關技術的員工將歸Dean管轄，而負責將機器學習用於醫療影像標註或其他處理者，則會轉調由副總裁Yossi Matias主掌的搜尋與AI部門。&lt;/p&gt;
+&lt;p&gt;Google於2018年組織重整成立Google Health，合併AI子公司DeepMind的健康照護部門，並挖來醫療量重量級人物Geisinger Healthcare醫療體系執行長David Feinberg執掌該部門。&lt;/p&gt;
+&lt;p&gt;不過三年來Google Health成果有限，也未能為Google帶來足夠的獲利。&lt;a href=&quot;https://www.ithome.com.tw/news/145213&quot; target=&quot;_blank&quot;&gt;6月Business Insider首度報導Google Health縮編及組織重整&lt;/a&gt;，700名員工中的130人轉調Fitbit。&lt;/p&gt;
+&lt;p&gt;而根據最新報導，Feinberg也已離職，跳槽電子病歷方案商Cerner擔任執行長。&lt;/p&gt;
+&lt;p&gt;另一方面，B&lt;a href=&quot;https://www.businessinsider.com/apple-scaling-back-healthhabit-app-layoffs-2021-8&quot; target=&quot;_blank&quot;&gt;usiness Insider於上周報導&lt;/a&gt;，蘋果近日縮編名為HealthHabit的專案團隊。HealthHabit據傳負責開發蘋果員工健康管理應用，包括設定與紀錄運動目標、紀錄高血壓相關數據，並和公司合作診所的醫師諮詢等等。計畫是讓員工配戴Apple Watch來蒐集心率、走路步數或其他生理資訊，並上傳公司伺服器。&lt;/p&gt;
+&lt;p&gt;HealthHabit是蘋果健康部門（Apple Health）的一部份，後者主要目的是推動蘋果數位健康藍圖，開發蘋果診所、消費者健康App功能開發，像是蒐集心率等資訊，以及其他數位健康工具。Apple Health成員包含數百名工程師、專案管理、資料科學家與醫師等背景，HealthHabit專案則有50多人。&lt;/p&gt;
+&lt;p&gt;這不是第一次HealthHabit傳出即將被蘋果放棄的消息。&lt;a href=&quot;https://www.ithome.com.tw/news/145072&quot; target=&quot;_blank&quot;&gt;華爾街日報6月報導&lt;/a&gt;，HealthHabit推出後遭質疑侵犯員工隱私，員工也不太買單。此外蘋果健康照護的計畫已從初級照護（primary care）轉向最擅長的Apple Watch，開發手錶上的健康功能。&lt;/p&gt;
+&lt;p&gt;報導指出，目前還不清楚HealthHabit何去何從，有可能是再縮小規模，也可能是整個專案關閉。這50多人如果未能在內部移轉到其他專案，則可能會被裁員。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 23 Aug 2021 05:14:04 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146340 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146340#comments</comments>
+</item>
+<item>
  <title>Google、微軟緊急修補瀏覽器高風險漏洞</title>
  <link>https://www.ithome.com.tw/news/146337</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google與微軟周末緊急釋出更新版Chrome及Chrome-based Edge瀏覽器，以修補6個高風險漏洞。&lt;/p&gt;
@@ -178,26 +196,6 @@
  <dc:creator>蘇文彬</dc:creator>
  <guid isPermaLink="false">146308 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146308#comments</comments>
-</item>
-<item>
- <title>雲端新省錢術FinOps</title>
- <link>https://www.ithome.com.tw/voice/146307</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;我有一份每日必讀網站清單，整理了近50個國外的指標性IT新聞網站、活躍社群、意見領袖的連結清單。每天一有空，就會花上半小時，掃過當天最新文章的標題，來追蹤最新的IT情報。&lt;/p&gt;
-&lt;p&gt;前一陣子，突然在好幾個社群和意見領袖Twitter上都看到了一個新單字「FinOps」，立刻引起了我的注意。這是金融科技的新名詞嗎？不是。這是雲端社群從去年開始竄起的新話題。&lt;/p&gt;
-&lt;p&gt;FinOps全名是Cloud Financial Operations或是Cloud Financial Management，顧名思義就是探討雲端維運財務管理的一門學問。為何雲端維運費用的管理，越來越重要，甚至形成了一門學問。&lt;/p&gt;
-&lt;p&gt;一來是企業上雲的比重越來越高，所用的雲端環境也越來越複雜，不只是本地端機房和一朵公雲的混合雲架構，甚至越來越多企業會用2朵或3朵雲。因為在各家雲端供應商所用的雲端服務不相同，業者各自的計價方式相當多元，再加多數雲端服務常按用量計價，會有不同的折扣，甚至是競價折扣的做法，各種複雜的雲端計費方式，簡直讓人眼花撩亂。&lt;/p&gt;
-&lt;p&gt;不只是廠商計價方式的複雜性，容器和K8s技術的盛行，更讓雲端運算資源使用量的估算面臨新的技術性挑戰。要如何衡量一隻API程式所用容器的使用時間，若是使用無伺服器的容器託管服務，可以取得業者提供的用量統計數據，但若是自己上雲端租用虛擬機器來部署了一套K8s平臺，透過自動調度工具來建立一支Ap所需要的Pod叢集資源，要如何計算這個AP所耗用的雲端資源？尤其當K8s用量一多，企業多半會使用自動擴充機制，隨時按照用量增減這支Ap所用的Pod節點數量，如何攤提雲端虛擬機器的租用費用，精算出這一支AP所應負擔的費用成本，就是一大挑戰。&lt;/p&gt;
-&lt;p&gt;而且這不只是一個技術問題，更是維運問題。因為一支AP能運用的雲端資源越多，這支AP的運作效率就能越好，使用者的體驗也越流暢，但相對地，也就越花錢。如何拿捏投入的雲端資源，來提供夠用的使用者體驗，這就是業務抉擇，甚至是攸關顧客經營方式，像是區隔出高速流暢體驗的VIP會員，和一般操作可用的免費會員，這又是經營上的決策問題。&lt;/p&gt;
-&lt;p&gt;所以，這套雲端省錢術鼓勵，企業最好由CIO或CTO帶頭，找來維運人員、工程團隊、業務團隊、產品主管、財務人員和採購人員，共同組成一個FinOps團隊，來建立雲端維運的財務管理作法。&lt;/p&gt;
-&lt;p&gt;FinOps就是一群想要共同鑽研雲端維運財務問題，來降低維運成本的企業，後來也有不少雲端業者加入，所發展出來的一套學問，可說就是一門全新的雲端省錢術。&lt;/p&gt;
-&lt;p&gt;後來還出現了專門推廣FinOps組織，Linux基金會在旗下成立了一個子機構FinOps基金會，來推廣相關的FinOps作法、知識，去年底，FinOps基金會和CNCF組織更聯手發表了一份K8s雲端財務管理白皮書，介紹各種雲端K8s的維運作法。甚至還發展出了一套雲端省錢術的訓練課程和認證，已培養出超過2千5百位的雲端財務管理師。這個基金會的成員不少是大型科技業者，如Google、VMware、或是國際知名顧問公司如Deloitte、Accenture。&lt;/p&gt;
-&lt;p&gt;FinOps基金會在2020年底調查了804家企業上雲遇到的維運財務管理現況，超過35%的企業每年要付給雲端業者數百萬美元的費用，甚至有25%的企業每年的雲端費用超過了1,000萬美元，也難怪必須不斷追求更有效率的雲端維運成本控管作法。&lt;/p&gt;
-&lt;p&gt;在北美，已有近4成企業意識到FinOps的重要性，開始設立FinOps專責團隊，但在亞洲只有7.75%的企業設立這類團隊。不過，隨著後疫新常態，企業越來越倚重各種雲端服務，雲端省錢術勢必在臺灣也將成為一門新顯學。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E7%B7%A8%E8%80%85%E7%9A%84%E8%A9%B1-0&quot;&gt;編者的話&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/finops&quot;&gt;FinOps&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/cloud-financial-operations&quot;&gt;Cloud Financial Operations&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/cloud-financial-management&quot;&gt;Cloud Financial Management&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF%E7%B6%AD%E9%81%8B%E8%B2%A1%E5%8B%99%E7%AE%A1%E7%90%86&quot;&gt;雲端維運財務管理&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF%E7%B6%AD%E9%81%8B%E6%88%90%E6%9C%AC%E6%8E%A7%E7%AE%A1&quot;&gt;雲端維運成本控管&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF%E9%A0%90%E7%AE%97&quot;&gt;雲端預算&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF%E6%9C%8D%E5%8B%99-0&quot;&gt;雲端服務&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/cloud&quot;&gt;Cloud&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF%E7%9C%81%E9%8C%A2%E8%A1%93&quot;&gt;雲端省錢術&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 20 Aug 2021 09:39:30 +0000</pubDate>
- <dc:creator>王宏仁</dc:creator>
- <guid isPermaLink="false">146307 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/voice/146307#comments</comments>
 </item>
 </channel>
 </rss>
