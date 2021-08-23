@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 23 Aug 2021 07:58:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Aug 2021 08:02:59 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[美國副總統哈里斯在東南亞展開外交魅力攻勢]]></title>
+            <description><![CDATA[哈里斯副總統的訪問是拜登政府在東南亞展開外交魅力攻勢的一部分。美國認為，東南亞對美國未來的繁榮和安全至關重要。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58302657</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58302657</guid>
+            <pubDate>Mon, 23 Aug 2021 07:57:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[新冠疫情：「清零」和「共存」之爭難有定論，中國會在北京冬奧前放鬆入境限制嗎？]]></title>
             <description><![CDATA[首次有中國衛健委專家稱，2022年2月的北京冬奧會是中國放鬆入境限制的時機。]]></description>
@@ -64,13 +71,6 @@
             <pubDate>Mon, 23 Aug 2021 07:39:49 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[調味師：創造加工食品味道的發明家]]></title>
-            <description><![CDATA[如果沒有調味師，食品味道不會很好或者無法長時間保持。因此，調味師們調配了各種味道，讓加工食品具有特定的風味。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/57902458</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/57902458</guid>
-            <pubDate>Sun, 22 Aug 2021 14:01:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[阿富汗局勢：瓦罕走廊的歷史與中國和阿富汗的現實聯繫]]></title>
             <description><![CDATA[隨著塔利班迅速拿下喀布爾，國際社會也在密切關注中國下一步的舉動。連接中國與阿富汗的瓦罕走廊再次受到人們關注。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58282128</link>
@@ -90,6 +90,13 @@
             <link>https://www.bbc.com/zhongwen/trad/columns-58295247</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/columns-58295247</guid>
             <pubDate>Sat, 21 Aug 2021 19:07:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[調味師：創造加工食品味道的發明家]]></title>
+            <description><![CDATA[如果沒有調味師，食品味道不會很好或者無法長時間保持。因此，調味師們調配了各種味道，讓加工食品具有特定的風味。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/57902458</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/57902458</guid>
+            <pubDate>Sun, 22 Aug 2021 14:01:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[拜登稱如果台灣遭入侵將回應，「口誤」還是對台戰略不再「模糊」？]]></title>
@@ -169,18 +176,18 @@
             <pubDate>Fri, 20 Aug 2021 10:25:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[新冠疫苗：台灣產首款疫苗「高端」 你可能想了解的幾個問題]]></title>
-            <description><![CDATA[台灣本地生產的首款新冠疫苗「高端」開始預約。高端是全球首款先以「免疫橋接」技術取代三期實驗並通過當地緊急授權（EUA）的新冠疫苗，在台灣引起激烈辯論。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/science-58242473</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58242473</guid>
-            <pubDate>Tue, 17 Aug 2021 09:52:46 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[阿富汗局勢：美國總統拜登撤軍亂局的三個重要問題]]></title>
             <description><![CDATA[BBC北美事務編輯形容，美國從阿富汗撤軍的混亂局面堪稱教科書級別，如果要寫一本書，書名可以是《如何輸得精光》。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58256526</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58256526</guid>
             <pubDate>Wed, 18 Aug 2021 13:25:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新冠疫苗：台灣產首款疫苗「高端」 你可能想了解的幾個問題]]></title>
+            <description><![CDATA[台灣本地生產的首款新冠疫苗「高端」開始預約。高端是全球首款先以「免疫橋接」技術取代三期實驗並通過當地緊急授權（EUA）的新冠疫苗，在台灣引起激烈辯論。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/science-58242473</link>
+            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/science-58242473</guid>
+            <pubDate>Tue, 17 Aug 2021 09:52:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[詳解阿富汗塔利班的五大領導人]]></title>
@@ -699,13 +706,6 @@
             <link>https://www.bbc.com/zhongwen/trad/uk-58186457</link>
             <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/uk-58186457</guid>
             <pubDate>Mon, 16 Aug 2021 14:19:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[新冠疫苗：世衛呼籲暫緩加強針 美國稱「錯誤選擇」]]></title>
-            <description><![CDATA[德爾塔（Delta）變種病毒在世界不少國家蔓延之時，世界衛生組織（WHO）呼籲，至少要在9月底前暫緩使用新冠病毒加強疫苗。不過，美國稱這是「錯誤選擇」。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58097696</link>
-            <guid isPermaLink="true">https://www.bbc.com/zhongwen/trad/world-58097696</guid>
-            <pubDate>Thu, 05 Aug 2021 06:43:43 GMT</pubDate>
         </item>
     </channel>
 </rss>
