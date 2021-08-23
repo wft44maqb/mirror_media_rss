@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-23T10:50:28Z</updated>
+ <updated>2021-08-23T10:53:37Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -185,16 +185,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58897772</id>
-  <title><![CDATA[东欧国家认清了中国投资？]]></title>
-  <updated>2021-08-22T07:19:00Z</updated>
-  <published>2021-08-22T07:19:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东欧国家认清了中国投资？/a-58897772?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国希望在中东欧扩大其影响力。在欧盟东翼，有人呼吁抵制中国的“腐蚀性资本”，但也有人并未看到威胁。]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58888640</id>
   <title><![CDATA[打动人心是扩大疫苗接种的制胜法宝？]]></title>
   <updated>2021-08-22T07:19:00Z</updated>
@@ -203,6 +193,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
   <category term="科技环境"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58897772</id>
+  <title><![CDATA[东欧国家认清了中国投资？]]></title>
+  <updated>2021-08-22T07:19:00Z</updated>
+  <published>2021-08-22T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东欧国家认清了中国投资？/a-58897772?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国希望在中东欧扩大其影响力。在欧盟东翼，有人呼吁抵制中国的“腐蚀性资本”，但也有人并未看到威胁。]]></summary>
+  <category term="经济纵横"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58944458</id>
@@ -222,16 +222,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/香港律师会理事候选人罗彰南宣布退选/a-58944171?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[香港律师会理事候选人之一罗彰南周六发表声明："为了我个人和我家人的安全，我宣布退选。"并称，“我们这个备受尊敬的机构的理事会选举沦落至此，对香港来说是可耻和可悲的一天。”]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58943718</id>
-  <title><![CDATA[喀布尔机场混乱持续 拜登：属史上最难空中撤离行动]]></title>
-  <updated>2021-08-21T14:06:00Z</updated>
-  <published>2021-08-21T14:06:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/喀布尔机场混乱持续-拜登：属史上最难空中撤离行动/a-58943718?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[阿富汗首都喀布尔国际机场依旧一片混乱，美国驻喀布尔大使馆甚至建议当地美国公民避免前往机场。撤离行动继续的同时，有报告称，塔利班正在搜捕前政府和北约的“合作者”。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
