@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-23T12:50:03Z</updated>
+ <updated>2021-08-23T12:53:26Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58957115</id>
+  <title><![CDATA[塔利班不同意延长西方国家撤军时间表]]></title>
+  <updated>2021-08-23T12:48:00Z</updated>
+  <published>2021-08-23T12:48:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班不同意延长西方国家撤军时间表/a-58957115?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[塔利班一名发言人本周一在接受英国天空电视台采访时表示，塔利班不会延长西方军队撤离阿富汗的最后期限8月31日，“否则英美就需要承担相应后果”。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58956928</id>
+  <title><![CDATA[中国关闭美一家劳动审计NGO在华伙伴]]></title>
+  <updated>2021-08-23T12:42:00Z</updated>
+  <published>2021-08-23T12:42:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国关闭美一家劳动审计ngo在华伙伴/a-58956928?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[《华尔街日报》近日报道，中国有关部门关闭了美国劳动审计公司Verite Inc在中国的合作伙伴，并加大力度反击强迫劳动指控。这家公司据悉曾受“良好棉花发展协会”（BCI）邀请，介入新疆棉花供应链“强迫劳动”调查。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58957024</id>
   <title><![CDATA[热带风暴登陆美国  多地出现灾情 ]]></title>
@@ -185,16 +205,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58904029</id>
-  <title><![CDATA[阿富汗艺术家：“失望、痛苦、愤怒”]]></title>
-  <updated>2021-08-22T07:40:00Z</updated>
-  <published>2021-08-22T07:40:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗艺术家：-失望、痛苦、愤怒/a-58904029?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[因害怕塔利班，阿富汗艺术家中有很多人毁掉了自己的作品，另一些人则创作新作品——以示抗议。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58906625</id>
   <title><![CDATA[柏林——永远的间谍之都]]></title>
   <updated>2021-08-22T07:40:00Z</updated>
@@ -202,6 +212,16 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58904029</id>
+  <title><![CDATA[阿富汗艺术家：“失望、痛苦、愤怒”]]></title>
+  <updated>2021-08-22T07:40:00Z</updated>
+  <published>2021-08-22T07:40:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗艺术家：-失望、痛苦、愤怒/a-58904029?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[因害怕塔利班，阿富汗艺术家中有很多人毁掉了自己的作品，另一些人则创作新作品——以示抗议。]]></summary>
   <category term="文化经纬"/>
  </entry>
  <entry>
@@ -233,16 +253,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：中国经济为何能持续增长/a-58944458?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[《商报》认为，中国监管部门近期频频对私营企业进行干预，让全球投资者都感到不安，担心中国失去全球经济稳定器的作用。《每日镜报》则批评说，北京大力干预私营经济，将导致投资者不敢投资中国企业，导致中国经济缺乏足够的创新资金。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58944171</id>
-  <title><![CDATA[香港律师会理事候选人罗彰南宣布退选]]></title>
-  <updated>2021-08-21T14:25:00Z</updated>
-  <published>2021-08-21T14:25:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/香港律师会理事候选人罗彰南宣布退选/a-58944171?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[香港律师会理事候选人之一罗彰南周六发表声明："为了我个人和我家人的安全，我宣布退选。"并称，“我们这个备受尊敬的机构的理事会选举沦落至此，对香港来说是可耻和可悲的一天。”]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58942373</id>
@@ -590,15 +600,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -606,6 +607,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="在线报导"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
