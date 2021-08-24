@@ -9,11 +9,11 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
-    <title>RESOLVED: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:47 PDT.</title>
+    <title>RESOLVED: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:20 PDT.</title>
     <link href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:8DhiwfKvD987f5tJrj1G.8hhHREh7Ds4eHTafj9hi</id>
     <updated>2021-08-24T22:59:30+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:47&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case using &lt;a href="https://cloud.google.com/support"&gt;https://cloud.google.com/support&lt;/a&gt;.&lt;/p&gt;
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case using &lt;a href="https://cloud.google.com/support"&gt;https://cloud.google.com/support&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;(All Times US/Pacific)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 23 August 2021 19:50&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 23 August 2021 21:20&lt;/p&gt;
@@ -99,11 +99,11 @@
 &lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud SQL&lt;/p&gt;</summary>
   </entry><entry>
-    <title>RESOLVED: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:47 PDT.</title>
+    <title>RESOLVED: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:20 PDT.</title>
     <link href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:8DhiwfKvD987f5tJrj1G.AhTKMkhb1hiNG1ipkdec</id>
     <updated>2021-08-24T05:34:21+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:47&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Google Cloud infrastructure components faced issues in australia-southeast2. Most of the services are now fully restored.  The impact is believed to have started at 2021-08-23 19:50 PST.&lt;/p&gt;
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Google Cloud infrastructure components faced issues in australia-southeast2. Most of the services are now fully restored.  The impact is believed to have started at 2021-08-23 19:50 PST.&lt;/p&gt;
 &lt;p&gt;Products impacted and current status:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Cloud FileStore - Service restored. 21:07 PST&lt;/li&gt;
@@ -156,11 +156,11 @@
 &lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google BigQuery&lt;/p&gt;</summary>
   </entry><entry>
-    <title>UPDATE: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:47 PDT.</title>
+    <title>UPDATE: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:20 PDT.</title>
     <link href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:8DhiwfKvD987f5tJrj1G.eSKQwwP53hJK4Lou2DhN</id>
     <updated>2021-08-24T04:59:37+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:47&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2. We have started seeing recovery with our services.
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2. We have started seeing recovery with our services.
 Products impacted and current status:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Cloud FileStore - Customers might see API errors.&lt;/li&gt;
@@ -190,11 +190,11 @@ Customers impacted by this issue may see connectivity issues on Google Cloud Ser
 None at this time…&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Infrastructure Components&lt;/p&gt;</summary>
   </entry><entry>
-    <title>UPDATE: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:47 PDT.</title>
+    <title>UPDATE: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:20 PDT.</title>
     <link href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:8DhiwfKvD987f5tJrj1G.RhAEPqqicYAXGBwCVqzG</id>
     <updated>2021-08-24T04:52:47+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:47&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We are experiencing an issue with Google Cloud infrastructure components  in australia-southeast2 starting 2021-08-23 19:50 PT.&lt;/p&gt;
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We are experiencing an issue with Google Cloud infrastructure components  in australia-southeast2 starting 2021-08-23 19:50 PT.&lt;/p&gt;
 &lt;p&gt;Products impacted:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Google Cloud Load Balancers&lt;/li&gt;
