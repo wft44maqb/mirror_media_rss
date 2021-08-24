@@ -6,6 +6,133 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>CPU三強爭霸</title>
+ <link>https://www.ithome.com.tw/article/146305</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1039-feng_mian_p1-open-960x420_kao_bei_.png?itok=6bLFtvd8&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-featured-article-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/75&quot;&gt;專題故事&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;從2021年3月中到4月底，AMD、Intel相繼推出第三代伺服器平臺，Arm也恰巧發表新的伺服器級處理器技術，導入新的微架構，以及更先進的製程，持續針對效能、I/O、安全提出創新，並於企業IT、雲端服務、高效能運算等領域短兵相接。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 24 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="false">146305 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/article/146305#comments</comments>
+</item>
+<item>
+ <title>【Arm Neoverse V1與N2】邁入5奈米製程，支援PCIe 5.0介面與DDR5記憶體</title>
+ <link>https://www.ithome.com.tw/tech/146304</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/1036-cover4-960-tu_pian_lai_yuan_arm.jpg&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Arm&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;談到Arm處理器，多數人的既定印象可能都是用於智慧型手機或物聯網裝置，然而，由於其具備省電、高效能的特性，早在十年前，就開始有廠商想要基於這個架構，發展伺服器等級的處理器，像是ZT Systems、Calxeda、AppliedMicro、Cavium、Broadcom、Qualcomm等公司，都曾著手進行，但大多因中途取消或後繼無力，而遲遲無法建立整個Arm伺服器生態體系。&lt;/p&gt;
+&lt;p&gt;不過，到了2018年10月情況開始改觀，因為Arm決定親自出手，發展這部份的技術智財與推動相關業務──他們推出一個新的產品線，稱為Neoverse，但他們的目標不僅是打造高效能、低功耗的伺服器平臺，而是希望能夠提供生態系統，使其建構一系列橫跨雲端服務到邊緣運算（cloud to edge）的產品。當時，雲端服務當紅，而邊緣運算正要崛起，因此，如果是軟體、雲端業者，或是兩大處理器平臺廠商喊出這樣的口號，還算合理，但過去從未親自涉入如此廣大領域的Arm，竟喊出這樣的口號，不免讓人懷疑是否真的可行。&lt;/p&gt;
+&lt;p&gt;時至今日，他們提出的應用案例已能回答這個問題。首先，公有雲龍頭業者基於Neoverse智慧財產，設計出兩代處理器，而以此推出多個執行個體服務；再加上日本理化學研究所的超級電腦「富岳」（Fugaku），憑藉著富士通發展的Arm架構處理器A64FX，在2020年6月一舉拿下全球500大超級電腦榜首，震撼整個IT界，而至今這座超級電腦仍蟬聯冠軍寶座，也在在證明了Arm架構在高效能運算領域的確是表現不凡。&lt;/p&gt;
+&lt;p&gt;就技術而言，最晚進入市場的Arm伺服器平臺，在新規格的採用上，也比較沒有顧忌和包袱，當然，當用戶將這些設計實作成處理器時，還是要根據系統或服務承載需求來考量。&lt;/p&gt;
+&lt;p&gt;以2019年2月登場的N1平臺（代號為Ares），以及E1平臺而言，一推出就是64位元運算架構，而且是採用7奈米製程、支援PCIe 4.0介面，前者的設計可支援4到128顆核心，後者則支援100 Gbps的網路處理能力。相較之下，市場上現行的處理器廠商，過去都花了不少時間，才在這幾年間推出具備部分上述規格的產品。&lt;/p&gt;
+&lt;p&gt;相隔兩年之後，Arm在今年4月發表的V1平臺（代號為Zeus），以及N2平臺（代號為Perseus）當中，又繼續將規格推升到新的高度。例如，均可導入5奈米製程，而且支援PCIe 5.0介面與DDR5記憶體。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover4-960-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8FArm.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;｜Arm Neoverse公布最新發展藍圖｜從2018年宣布推出Neoverse產品線，Arm至今已發布兩次平臺更新，第一次是2019年登場的N1與E1，第二次是今年發表的V1與N2。從歷代規格的演進，可看出Arm最大的優勢在於可以導入最新的處理器製程，以及記憶體、I/O介面規格。&lt;/strong&gt;（圖片來源／Arm）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;定出每個世代平臺效能增長目標是30％，打破多年來的業界慣例&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Arm最初發表Neoverse之際，曾列出他們規畫的4個處理器平臺世代發展藍圖，並表明到2021年之前，每年、每一世代的效能提升幅度將會是30％，並將一路從16奈米製程走向7奈米製程、5奈米製程。&lt;/p&gt;
+&lt;p&gt;在IT業界，我們很少看到廠商膽敢提出這樣的承諾，因為根據過往經驗來看，每一世代處理器的效能增長幅度是難以預期的，總要等到廠商正式發布產品之後才能見真章，而Arm居然勇於對市場提出這樣的目標，實屬罕見。&lt;/p&gt;
+&lt;p&gt;若從現在回顧過往Arm是否兌現對於Neoverse的發展承諾，至少在前次與這次世代交替的過程中，他們都提出了新平臺效能增長比例，符合、甚至超越當初的規畫預期。&lt;/p&gt;
+&lt;p&gt;以2019年推出的N1為例，比起2018年Neoverse第一代的16奈米製程Cosmos平臺（相當於Arm處理器平臺Cortex-A72），N1在整數運算效能提升了60％，關鍵雲端作業負載效能也提高2.5倍。Arm同時推出的另一款E1，比起Cortex-A53平臺，可提供7倍的效能、2.4倍的每瓦效能。&lt;/p&gt;
+&lt;p&gt;而2021年發表的V1，相較於N1，新登場的V1整體效能提高50％，針對各種層面的工作負載增長了1.8 倍，在機器學習工作負載的效能，則是提升4倍。&lt;/p&gt;
+&lt;p&gt;另一款同時發表的N2，是率先採用Armv9架構的Neoverse產品，在單執行緒的效能上，比起N1，可提升40％。在超大規模雲端環境中，若N2用於網站伺服器Nginx，相較於N1，效能增長1.3倍。&lt;/p&gt;
+&lt;p&gt;另外，在供電吃緊與空間侷促的邊緣，以及5G應用場域中，比起N1，N2對DPDK封包處理速度，可快上1.2倍。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;從雲端服務突圍，SmartNIC/DPU也開始搭配&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Neoverse幾年前之所以開始受到IT界的關注，AWS應該是最大功臣。因為他們在2018年11月底舉行的年度用戶大會上，宣布推出第一款基於Arm架構的執行個體服務：EC2 A1系列。他們標榜這當中採用自行設計的Graviton處理器，然而，公有雲業者發展自家專用的處理器、加速器晶片，並不是新鮮事，若採用Arm架構，也在眾人的意料之內，然而，這卻是Neoverse初試啼聲。&lt;/p&gt;
+&lt;p&gt;根據Arm官方部落格當時的文章指出，這款由Annapurna Labs設計的AWS Graviton處理器，其實就是基於Neoverse Cosmos平臺而成。&lt;/p&gt;
+&lt;p&gt;一年過後，AWS發表Graviton2處理器，並推出M6g 、C6g 、R6g 等3個系列執行個體服務，分別對應通用型工作負載、運算最佳化型工作負載、記憶體最佳化型工作負載。而Graviton2採用的正是這一年推出的Neoverse N1平臺。&lt;/p&gt;
+&lt;p&gt;而Arm在2021年上半發布Neoverse V1與N2的同時，也揭露更多公有雲業者將基於Neoverse處理器或平臺，推出執行個體服務。例如，Oracle Cloud Infrastructure（OCI）、阿里雲。&lt;/p&gt;
+&lt;p&gt;果不期然，OCI在5月底宣布，正式啟用執行個體服務Ampere A1 Compute，當中採用Ampere公司的Altra處理器，而CPU裡搭配了Arm Neoverse N1核心。阿里雲則是在ECS ARM執行個體服務採用Neoverse N1，4月公布測試結果。&lt;/p&gt;
+&lt;p&gt;在Arm這波宣布的Neoverse案例裡面，有個最近也受到熱烈關注的企業IT產品，那就是DPU。&lt;/p&gt;
+&lt;p&gt;Arm表示，Marvell公司將會基於Neoverse N2平臺，推出OCTEON系列的網路解決方案，預計今年底開始小量出貨，相較於OCTEON前代的網路解決方案，可獲得3倍的效能提升。&lt;/p&gt;
+&lt;p&gt;而在6月，Marvell也宣布，OCTEON 10 DPU將採用5奈米製程，以納入Neoverse N2平臺，預計可獲得3倍效能提升與50％的省電幅度。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover4-600-1-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90Arm.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;｜Neoverse V1的兩大特色｜在Arm現有的處理器設計中，Neoverse V1是他們實現效能第一理念下的產品，當中提供最寬闊的微架構，以便在執行過程中能夠容納更多指令，如此可因應高效能運算，甚至ExaFLOPS等級的運算需求。&lt;/strong&gt;（圖片來源／Arm）&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover4-600-2-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8FArm.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;｜Neoverse N2提供專屬運算資源｜N2最顯著的特色在於單一執行緒效能，以及每瓦效能的表現。而比起前一代平臺N1，N2在單執行緒的效能可提升40%。為何能有這樣的改進幅度？因為N2能讓每個執行緒對應單一核心來執行，而傳統處理器對於執行緒的資源採用共享的方式配置。&lt;/strong&gt;（圖片來源／Arm）&lt;/span&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B&quot;&gt;封面故事&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF&quot;&gt;雲端&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/hpc&quot;&gt;HPC&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/cpu&quot;&gt;CPU&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E4%BC%BA%E6%9C%8D%E5%99%A8-0&quot;&gt;伺服器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%99%95%E7%90%86%E5%99%A8&quot;&gt;處理器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/arm-neoverse-v1&quot;&gt;Arm Neoverse V1&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/arm-neoverse-n2&quot;&gt;Arm Neoverse N2&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/pcie-50&quot;&gt;PCIe 5.0&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/ddr5%E8%A8%98%E6%86%B6%E9%AB%94&quot;&gt;DDR5記憶體&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/smartnic&quot;&gt;SmartNIC&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/dpu&quot;&gt;DPU&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 24 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="false">146304 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/tech/146304#comments</comments>
+</item>
+<item>
+ <title>【AMD第三代EPYC系列】延續二代產品優勢之餘，開始導入Zen 3微架構</title>
+ <link>https://www.ithome.com.tw/tech/146302</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/1036-cover3-960-tu_pian_lai_yuan_amd.png&quot; width=&quot;1412&quot; height=&quot;601&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AMD&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在2017年6月推出代號為Naples的EPYC 7001系列處理器之後，AMD宣告重返伺服器市場，當時以14奈米製程、單顆處理器最多可內建32顆核心與64個執行緒、Zen微架構、8個記憶體通道、128個PCIe 3.0通道等特色，搶盡IT新聞媒體的版面。&lt;/p&gt;
+&lt;p&gt;到了2019年8月，AMD推出第二代EPYC處理器7002系列，代號為Rome，主打的規格特色，依然超越競爭對手的最新產品，例如：採用台積電7奈米製程、單顆處理器最多可內建64顆核心與128個執行緒、Zen 2微架構、8個記憶體通道、128個PCIe 4.0通道等。而在受益於上述技術之下，7002系列處理器的效能可達到7001系列處理器的2倍。&lt;/p&gt;
+&lt;p&gt;今年3月中，AMD發表代號為Millan的第三代EPYC處理器7003系列，最大差異是採用Zen 3微架構，絕大多數特色均同於7002系列，像是：採用台積電7奈米製程、單顆處理器最多可內建64顆核心與128個執行緒、8個記憶體通道、128個PCIe 4.0通道等。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover3-960-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8FAMD.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;｜Zen微架構的演進｜歷經三年的發展，AMD發展的Zen微架構如今已邁入第三代，而EPYC處理器的世代交替，也與Zen架構的演化密不可分。&lt;/strong&gt;（圖片來源／AMD）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;將Zen 3微架構導入AMD伺服器平臺，再度提升運算效能&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%A8%99%E9%A1%8CAMD%20EPYC%20Milan_TopLeft.png&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;在2020年10月，AMD發表Ryzen 5000系列桌上型電腦處理器，率先採用了Zen 3微架構，而後來的伺服器處理器EPYC 7003系列，之所以能在IPC效能提升19％，正是拜Zen 3所賜，另一個與桌上型電腦處理器共通的特色是核心組成方式，以及L3快取記憶體的設計。&lt;/p&gt;
+&lt;p&gt;若以8核心處理器為例，在Zen 3微架構當中，每個核心複合體（Complex）包含了8顆運算核心，以及單顆32 MB 容量的L3快取記憶體，而這32MB又可細分為24 MB處理每顆核心的資料，以及8MB處理共用的資料；在Zen 2微架構當中，是由兩個核心複合體組成，每個核心複合體則包含4顆運算核心，以及1顆16MB容量的L3快取記憶體，這16MB又再平分，針對處理每顆核心的資料與處理共用的資料，各配置8MB。&lt;/p&gt;
+&lt;p&gt;關於Zen 3微架構採用這樣的L3記憶體配置，AMD認為能夠提供更直接的存取方式，因此，在大型虛擬機器的執行上，提供更好的效能（可達到2倍）。&lt;/p&gt;
+&lt;p&gt;在整數運算與浮點運算的管線流程上，Zen 3微架構也予以調整。例如，在作業佇列（Op Queue）之下，增設配送器（dispatch）；對於排程器的配置上，整數運算濃縮了數量、加大窗口，浮點運算則拆分成多個；在每個循環週期執行工作量上，Zen 3可進行3次載入與2次存放（Zen 2則是2次載入與1次存放）。&lt;/p&gt;
+&lt;p&gt;而基於這樣的運算架構調整，AMD表示，INT8整數運算的管線處理能力可提升1倍，浮點運算速度也能加快，因而能將AI推論吞吐量增加1倍。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover3-600-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8FAMD.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;｜Zen 3採用不同的核心與快取配置，希望能進一步提升資料存取效率｜AMD EPYC 7003系列導入Zen 3微架構，調整了處理器內部配置，改以8顆核心為一個核心複合體，能讓8顆核心共用同樣的資料，而對於每顆核心而言，可存取更大量的資料。&lt;/strong&gt;（圖片來源／AMD）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;記憶體加密技術增添新功能，提升資安攻擊因應能力&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;提供處理器層級的硬體安全防護功能，是AMD EPYC這三代以來都相當強調的特色，也是Zen 微架構導入AMD伺服器平臺的賣點之一。&lt;/p&gt;
+&lt;p&gt;在最先的Zen中，AMD開始提供安全加密虛擬化技術（SEV），EPYC 7001系列處理器內建；到了Zen 2，增加安全加密虛擬化-加密狀態技術（SEV-ES），EPYC 7002系列處理器內建這項功能；在Zen 3當中，AMD推出新的安全巢狀記憶體分頁技術（SEV-SNP），EPYC 7003系列處理器開始支援。&lt;/p&gt;
+&lt;p&gt;就系統軟體與雲端服務而言，Linux 4.16版以後的核心，以及GCP的機密VM，都支援SEV；VMware在2019年下半推出vSphere 7.0 Update1，支援進階的SEV-ES；微軟Azure今年將推出的新款機密VM，則可望支援SEV-SNP。&lt;/p&gt;
+&lt;p&gt;除了SEV系列特色，EPYC系列和Ryzen系列一樣，因為採用Zen微架構，所以，普遍內建安全記憶體加密技術（SME）。而在歷代EPYC系列處理器當中，因搭配不同的Zen架構，支援的記憶體金鑰數量也有異同。例如，7001系列僅支援16支，而7002系列與最新推出的7003系列，皆為509支。&lt;/p&gt;
+&lt;p&gt;關於惡意軟體的防護機制，AMD EPYC系列處理器所提供的，不只是上述的記憶體加密技術，從Zen 2微架構之後，AMD在EPYC 7002系列與Ryzen 9系列處理器，均新增了客體模式執行陷阱（GMET）的安全性功能，透過這項基於矽晶片的效能加速技術，搭配SEV使用，可促使Hypervior以更有效率的方式，處理程式碼完整性檢查的工作。&lt;/p&gt;
+&lt;p&gt;到了Zen 3，AMD加入Shadow Stack功能，因此，在EPYC 7003系列與Ryzen 9系列處理器當中，可藉由這項硬體強制執行的程式堆疊防護技術，確認應用系統採用正常的程式堆疊架構，能保留所有回傳位址的記錄，以便進行比較，確保完整性並未遭到破壞。&lt;/p&gt;
+&lt;p&gt;同時，我們能以此對抗基於軟體的攻擊手法，像是控制流程（control-flow）、返回導向程式設計（ROP）。&lt;/p&gt;
+&lt;p&gt;與其他系統平臺的搭配上，AMD的Shadow Stack功能，目前支援微軟研發的硬體強制型堆疊保護技術（Hardware-enforced Stack Protection），也已經在Windows 10作業系統提供。&lt;/p&gt;
+&lt;p&gt;關於這類硬體保護技術，其實不光是AMD這兩款處理器提供，英特爾目前也在第11代Core筆電處理器導入，稱為控制流程強制處理技術（CET）。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1039-%E5%B0%81%E9%9D%A2P3-AMD-%E5%9C%96.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;多家伺服器廠商、雲端業者，都將推出與其搭配的解決方案&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;依循過往新一代伺服器處理器平臺發表的慣例，AMD今年3月發表EPYC 7003系列之際，一口氣找來18家合作廠商站臺，這些橫跨雲端服務、伺服器、超融合平臺、高效能運算、FGPA加速晶片等不同領域的公司，統統被AMD找來拍YouTube影片，宣揚他們即將推出的相關解決方案，可能是因應疫情而以這種方式表態力挺，動態呈現AMD對於整個伺服器生態體系的號召能力，而非僅止於列出全部廠牌的商標。也因此，在這樣的合作關係展示之下，眾家廠商可說是給足AMD面子，也趁機拉抬彼此對於企業IT與雲端應用市場的影響力。&lt;/p&gt;
+&lt;p&gt;在高效能運算領域，AMD也大有斬獲。今年6月拿下全球500大超級電腦第5的Perlmutter，採用的處理器，就是AMD EPYC 7003系列。發展這座超級電腦的單位，是美國的國家能源研究科學運算中心，以及勞倫斯伯克利國家實驗室。&lt;/p&gt;
+&lt;p&gt;同樣在6月舉行的國際超級電腦大會期間，AMD也宣布新消息，標榜更多採用第三代EPYC的超級電腦，而發展這些系統的機構，大多與英國有關，例如，劍橋大學的CSD3、杜倫大學的COSMA8，以及英國氣象局與微軟Azure合作的超級電腦。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B&quot;&gt;封面故事&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF&quot;&gt;雲端&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/hpc&quot;&gt;HPC&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/cpu&quot;&gt;CPU&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E4%BC%BA%E6%9C%8D%E5%99%A8-0&quot;&gt;伺服器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%99%95%E7%90%86%E5%99%A8&quot;&gt;處理器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/amd%E7%AC%AC%E4%B8%89%E4%BB%A3epyc&quot;&gt;AMD第三代EPYC&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/zen-3&quot;&gt;Zen 3&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/pcie-40&quot;&gt;PCIe 4.0&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 24 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="false">146302 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/tech/146302#comments</comments>
+</item>
+<item>
+ <title>【Intel第三代Xeon SP系列】終於導入10奈米製程，正式加入支援PCIe 4.0的行列</title>
+ <link>https://www.ithome.com.tw/tech/146293</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/1036-cover2-960-tu_pian_lai_yuan_ying_te_er_.png&quot; width=&quot;2004&quot; height=&quot;826&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;英特爾&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在伺服器平臺稱霸許久的英特爾（Intel），2017年之後面對重返市場的AMD，面臨不小的同業競爭壓力，不過，每次推出的新一代產品，仍有可觀之處。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;因應廣泛市場需求，提供50款以上選擇，規格演進慢、求穩健經營&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;在2017年，Xeon Scalable處理器（Xeon SP）系列首度登場，英特爾推出了第一代產品（代號為Skylake）。在產品線的設置上，改成4種品牌與系列型號的對應：白金（8100系列）、金（6100系列與5100系列）、銀（4100系列）、銅（3100系列）。若就數量而言，英特爾提供51款處理器機型的選擇。&lt;/p&gt;
+&lt;p&gt;而在處理器平臺的規格上，第一代Xeon Scalable系列採14奈米製程，最多提供28顆核心，記憶體支援DDR4-2666、6個通道，單顆插槽支援1.5 TB記憶體，I/O部份支援48個PCIe 3.0通道。&lt;/p&gt;
+&lt;p&gt;接著是2019年4月登場的第二代Xeon Scalable（代號為Cascade Lake），最大的賣點是內建深度學習加速技術：DL Boost，搭配向量神經網路指令集（VNNI）；而在處理器平臺的規格上，最多可提供56顆核心，記憶體支援DDR4-2933、12個通道，單顆插槽可支援4.5 TB記憶體。&lt;/p&gt;
+&lt;p&gt;在產品線的設置上，英特爾總共發布了67款處理器機型，規模相當驚人。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;第三代Xeon Scalable分兩批發布&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover2-400-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.png&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;在2020年6月，英特爾發表第三代Xeon Scalable（代號為Cooper Lake），主攻4路與8路伺服器，僅推出11款機型，最多可提供28顆核心，記憶體支援DDR4-3200、6個通道，單顆插槽可支援4.5 TB記憶體，繼續主打DL Boost加速特色，並整合Bfloat16支援。&lt;/p&gt;
+&lt;p&gt;到了2021年4月，英特爾發表另一批第三代Xeon Scalable（代號為Ice Lake），終於導入更先進的10奈米製程，支援PCIe 4.0介面，最多提供40顆核心，記憶體支援DDR4-3200、8個通道，單顆插槽支援6 TB記憶體，I/O則支援64個PCIe 4.0通道。就數量而言，英特爾總共發布57款處理器機型。&lt;/p&gt;
+&lt;p&gt;在運算效能上，Ice Lake的表現也亮眼許多，英特爾公布多項他們內部測試數據作為印證。在混合20種常用AI工作負載的狀態下，若以AMD今年推出的第三代EPYC 7763平臺為基準，英特爾最新的第三代Xeon Scalable可達1.5倍效能；若以AMD EPYC 7742處理器搭配Nvidia A100 GPU為基準，英特爾第三代Xeon Scalable可達到1.3倍效能。&lt;/p&gt;
+&lt;p&gt;這樣的成效展現讓人驚豔，令人訝異的是，英特爾打破多年慣例、展現新氣象！因為他們過往只與自家產品比較。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover2-960-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;｜兩代Xeon SP處理器架構比較｜&lt;/span&gt;&lt;/strong&gt;&lt;strong style=&quot;color: rgb(105, 105, 105);&quot;&gt;相較於第二代Xeon Scalable處理器（Cascade Lake），2021年4月發表的第三代Xeon Scalable（Ice Lake）同樣採用網狀互連架構，但最大差異在於處理器核心改用Sunny Cove微架構，以及整合PCIe 4.0控制器、配置4個記憶體控制器（每個控制器可處理2個通道），並且提供3個獨立運作的UPI連結。&lt;/strong&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;（圖片來源／英特爾）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;大舉強化資料安全防護&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ice Lake另一個重點特色則是資安，主打軟體防護擴充指令集（SGX），以及加密加速（Crypto Acceleration）。&lt;/p&gt;
+&lt;p&gt;早在2013年，英特爾已在桌上型電腦、筆電、工作站等級處理器，陸續提供SGX的功能，然而，關於在伺服器級處理器內建SGX的態勢，卻一直不明朗，直到今年，英特爾發表第三代Xeon Scalable系列處理器，宣布內建SGX之後，這項機密運算技術才算正式入駐企業資料中心領域。&lt;/p&gt;
+&lt;p&gt;在伺服器的應用環境當中，SGX能帶來哪些好處？英特爾強調，可在系統內部保護敏感的程式碼與資料，將暴露在惡意軟體與駭客攻擊的層面減至最低。這項防護技術最主要供應的產品，是用於2路伺服器的處理器機型，當中將運用安全區（enclave）來隔離程式碼與資料，這裡能使用的容量最大可達到1TB，應可支援主流工作負載規模。&lt;/p&gt;
+&lt;p&gt;值得一提的是，英特爾也提到SGX能結合本次隨Ice Lake新增的兩個安全技術。一是全記憶體加密技術（TME），能夠針對實體的記憶體提供完全加密機制，強化資料與虛擬機器的保護，他們在2017年底曾對外揭露相關資訊，但可能直到這次Ice Lake發表才真正亮相。&lt;/p&gt;
+&lt;p&gt;另一個是平臺韌體快速復原技術（PFR），當中運用英特爾自家的FPGA技術，而能防護、偵測、修正韌體層面的問題，以達到NIST SP 800-193的要求。透過這項保護技術，能讓伺服器平臺韌體能在執行前，先經過驗證，並在執行過程當中進行監控與過濾，以防遭到有心人士操弄；韌體若發生問題，PFR可在幾分鐘內自動執行回復作業。&lt;/p&gt;
+&lt;p&gt;無論是SGX或TME，都跟資料加密的處理有關，而這也涉及Ice Lake處理器第二個主打的資安特色：關於加密處理的加速技術，會針對重要的加密演算法提供突破以往的效能，可因應日益普遍的各種大量使用加密處理的工作負載。&lt;/p&gt;
+&lt;p&gt;例如，每天處理數百萬筆交易的線上零售業者，就能善用Ice Lake處理器這項功能來提升客戶資料保護，而無需擔憂因此影響使用者得到回應的時間，或是大幅衝擊系統整體效能。&lt;/p&gt;
+&lt;p&gt;Ice Lake也增設新的加密加速功能，例如：向量型AES新指令集（Vector AES-NI）、向量無進位乘法（Vector CLMUL）、英特爾安全雜湊演算法延伸指令集（Intel SHA Extensions）、VPMADD52 指令集、RSA/DH加密協定、有限體新指令集（GFNI）。&lt;/p&gt;
+&lt;p&gt;除了相關的指令集，英特爾也在這一代Xeon處理器演算法執行方式上，提出兩種基於軟體的新加速作法：一是多重資料緩衝處理（Multi-Buffer），可同時處理多個資料緩衝，相較之下，傳統處理器的作法是循序處理每一個資料緩衝；另一是函式縫合（Function Stitching），將兩個演算法融合為單一最佳化演算法，以便盡可能地運用處理器的全部資源，以及提高資料吞吐量。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover2-600-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;｜SGX正式進駐伺服器級處理器｜&lt;/span&gt;&lt;/strong&gt;&lt;strong style=&quot;color: rgb(105, 105, 105);&quot;&gt;歷經多年的發展，英特爾終於在伺服器級處理器，內建軟體防護擴充指令集（SGX），而在最新推出的Ice Lake平臺當中，若是採用2路組態，對於安全區記憶體分頁快取（EPC）的使用，最大可設定到1 TB的空間。&lt;/strong&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;（圖片來源／英特爾）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;多家雲端業者推執行個體，500大超級電腦有8座採用&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ice Lake發表後，目前有哪些案例？以公有雲而言，我們看到三家業者推出服務，例如，Oracle Cloud Infrastructure（OCI）在4月初宣布，推出2個執行個體，分別是VM.Optimized3.Flex與BM.Optimized3.36，各自針對運算密集型與高效能運算型工作負載；微軟Azure陸續於4月、6月宣布，推出3個系列的執行個體的預覽版本，分別是：適合通用型工作負載Dv5系列、適合記憶體密集型工作負載的Ev5系列，以及適合機密型工作負載的DCsv3系列；阿里雲於8月發表第7代ECS系列執行個體服務，包含：適合通用型工作負載的g7系列、適合運算密集型工作負載的c7系列，以及適合記憶體密集型工作負載的c7系列。&lt;/p&gt;
+&lt;p&gt;在高效能運算領域當中，我們可將全球500大超級電腦的處理器採用狀況，作為參考指標。以今年6月公布的排行榜來看，採用Ice Lake處理器的超級電腦有8座，其中一半是德國機構，表現最好的是韓國氣象廳的Maru，拿到第23名。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B&quot;&gt;封面故事&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF&quot;&gt;雲端&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/hpc&quot;&gt;HPC&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/cpu&quot;&gt;CPU&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E4%BC%BA%E6%9C%8D%E5%99%A8-0&quot;&gt;伺服器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%99%95%E7%90%86%E5%99%A8&quot;&gt;處理器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E8%8B%B1%E7%89%B9%E7%88%BE&quot;&gt;英特爾&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/intel&quot;&gt;Intel&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/xeon-sp&quot;&gt;Xeon SP&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/xeon-scalable&quot;&gt;Xeon Scalable&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/ice-lake&quot;&gt;Ice Lake&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E7%AC%AC%E4%B8%89%E4%BB%A3xeon-scalable&quot;&gt;第三代Xeon Scalable&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 24 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="false">146293 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/tech/146293#comments</comments>
+</item>
+<item>
  <title>Chrome強化企業擴充套件管理功能，使用者可請求安裝新套件</title>
  <link>https://www.ithome.com.tw/news/146366</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;有鑒於企業IT管理員管理Chrome擴充套件不容易，因此&lt;a href=&quot;https://cloud.google.com/blog/products/chrome-enterprise/extension-management-enhancements&quot;&gt;Google現在改進Chrome的企業擴充套件管理功能&lt;/a&gt;，讓管理員能以更簡單的方法管理擴充套件，也提供詳盡的資料，供管理員了解擴充套件的使用情況。&lt;/p&gt;
@@ -100,71 +227,6 @@
  <dc:creator>余至浩</dc:creator>
  <guid isPermaLink="false">146357 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146357#comments</comments>
-</item>
-<item>
- <title>Google Play將以國別及裝置為基準，提供更個人化的評價及評論內容</title>
- <link>https://www.ithome.com.tw/news/146356</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;有鑑於開發者所打造的行動程式，在不同的國家或裝置上可能有不同的表現，&lt;a href=&quot;https://android-developers.googleblog.com/2021/08/making-ratings-and-reviews-better-for.html&quot; target=&quot;_blank&quot;&gt;Google決定變更Google Play上的評價與評論政策&lt;/a&gt;，從今年的11月起，Android手機用戶在Google Play上只能看到當地用戶的評價與評論，而從明年初起，平板、Chromebook與穿戴式裝置用戶，也能自Google Play上看到專屬於相關裝置的評價。&lt;/p&gt;
-&lt;p&gt;Google表示，每個地區的用戶對特定程式的評價可能不盡公平，例如有個程式內含只影響單一國家的臭蟲，但其評價效應卻會出現在全球市場，或者是開發者特別改善了程式對平板電腦的支援，然而這些增進可能會被手機用戶忽略。&lt;/p&gt;
-&lt;p&gt;因此Google決定提供更個人化也更細緻的評價系統。從今年的11月起，Google Play的用戶將只能看到所註冊的裝置區域對程式的評價，例如日本用戶只能看到日本使用者對特定程式的評價。&lt;/p&gt;
-&lt;p&gt;明年初則會進一步將評價進行分類，從手機、平板電腦、Chrome OS、穿戴式裝置到Auto，使用者用什麼裝置連至Google Play，就會出現相關裝置用戶對特定程式的評價。&lt;/p&gt;
-&lt;p&gt;這樣一來，使用者就可直接查看當地用戶對特定裝置上的行動程式的評語，而開發者也更清楚程式在每個國家或特定裝置的回饋意見。&lt;/p&gt;
-&lt;p&gt;未來開發者將可檢視特定時間內的評價分析，例如每日、每周或每28天，若搭配所下載的CSV檔案，可更方便進行離線分析。為了讓開發者更容易適應這些新的變更，Google在Google Play執行任何變更的10周前，就會自動分析相關程式可能面臨的評價改變，並在改變幅度超過0.2顆星時通知開發者。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 24 Aug 2021 07:10:42 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146356 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146356#comments</comments>
-</item>
-<item>
- <title>微軟Azure Virtual Desktop現在支援Windows 11</title>
- <link>https://www.ithome.com.tw/news/146354</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟本周宣布&lt;a href=&quot;https://techcommunity.microsoft.com/t5/azure-virtual-desktop/windows-11-preview-is-now-available-on-azure-virtual-desktop/ba-p/2666468&quot; target=&quot;_blank&quot;&gt;雲端虛擬桌面工具Azure Virtual Desktop現在可跑Windows 11預覽版&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;源自Windows Virtual Desktop的Azure Virtual Desktop，是一項桌面虛擬化服務，讓使用者在任何裝置，包括Windows、macOS、Linux、Android、iOS或是HTML5等平臺上，透過網路連線存取位於另一臺Windows機器上的應用程式或檔案。Azure Virtual Desktop支援Windows Server、Windows 7及Windows 8。而Windows 11是Azure Virtual Desktop最新支援的Windows平臺。&lt;/p&gt;
-&lt;p&gt;微軟表示，配合Windows 11，Azure Virtual Desktop提供多連線（multi-session）支援，可在單一Azure VM上供多名使用者連線。現在用戶已經可利用目前仍為預覽版的信任啟動（Trusted Launch）功能，在建立新VM時設定TPM2.0的安全開機功能。利用Azure Virtual Desktop時，VM上可提供和原生環境相同使用經驗，但如果牽涉一些高階顯示效果，像是透明、動畫、圓角等，則需具有足夠等級的GPU支援。&lt;/p&gt;
-&lt;p&gt;現在企業及教育版用戶已經可以Azure Virtual Desktop跑Windows 11測試版，可經由Windows Insider測試方案取得。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://azuremarketplace.microsoft.com/en-US/marketplace/apps/microsoftwindowsdesktop.windows-11-preview?tab=overview&quot; target=&quot;_blank&quot;&gt;Azure Marketplace有3種Windows 11映像檔（測試版）可供下載&lt;/a&gt;，包括Windows 11 Enterprise、Windows 11 Enterprise多連線，以及Windows 11 Enterprise多連線＋Microsoft 365 App。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/145984&quot; target=&quot;_blank&quot;&gt;8月初上線的Windows 365&lt;/a&gt;和Azure Virtual Desktop一樣，可將Windows App和檔案遠端執行於任何用戶裝置上，不過Windows 365是按人頭付費使用組態好的Cloud PC，最低每月20美元，Azure Virtual Desktop則是依用量計價。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 24 Aug 2021 06:58:22 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146354 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146354#comments</comments>
-</item>
-<item>
- <title>CISA警告：駭客正在積極開採ProxyShell漏洞</title>
- <link>https://www.ithome.com.tw/news/146353</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://us-cert.cisa.gov/ncas/current-activity/2021/08/21/urgent-protect-against-active-exploitation-proxyshell&quot; target=&quot;_blank&quot;&gt;美國網路安全及基礎設施安全局（Cybersecurity and Infrastructure Security Agency，CISA）上周警告&lt;/a&gt;，駭客正在積極開採位於Microsoft Exchange的ProxyShell漏洞，呼籲各大組織應儘速修補。&lt;/p&gt;
-&lt;p&gt;ProxyShell實際上是由3個漏洞所串連，分別是微軟於4月修補的&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34473&quot; target=&quot;_blank&quot;&gt;CVE-2021-34473&lt;/a&gt;與&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34523&quot; target=&quot;_blank&quot;&gt;CVE-2021-34523&lt;/a&gt;，以及5月修補的&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-31207&quot; target=&quot;_blank&quot;&gt;CVE-2021-31207&lt;/a&gt;，值得注意的是，其中的CVE-2021-34473與CVE-2021-34523雖在4月就修補，但微軟一直到7月才分配CVE編號給它們，可能會讓許多根據CVE編號進行修補的管理人員，忽略這兩個漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146093&quot; target=&quot;_blank&quot;&gt;這3個漏洞是由臺灣資安業者戴夫寇爾（Devcore）所揭露&lt;/a&gt;，分別屬於遠端程式攻擊漏洞、權限擴張漏洞與安全功能繞過漏洞，它們同時影響Microsoft Exchange Server 2013、2016與2019，串連這些漏洞將允許駭客於系統上執行任意程式。&lt;/p&gt;
-&lt;p&gt;在戴夫寇爾首席研究人員蔡政達（Orange Tsai）於8月初舉行的黑帽大會上，展示了ProxyShell漏洞之後，駭客即開始掃描網路上含有相關漏洞的系統，包括研究人員與駭客也都著手打造針對ProxyShell的攻擊程式。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://doublepulsar.com/multiple-threat-actors-including-a-ransomware-gang-exploiting-exchange-proxyshell-vulnerabilities-c457b1655e9c&quot; target=&quot;_blank&quot;&gt;資安研究人員Kevin Beaumont指出&lt;/a&gt;，ProxyShell漏洞比&lt;a href=&quot;https://www.ithome.com.tw/news/143208&quot; target=&quot;_blank&quot;&gt;ProxyLogon漏洞&lt;/a&gt;更嚴重，因為ProxyShell更容易開採，而且很多組織基本上並未修補。&lt;/p&gt;
-&lt;p&gt;不管是Beaumont自己設置的誘捕系統或是&lt;a href=&quot;https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lockfile-ransomware-new-petitpotam-windows&quot; target=&quot;_blank&quot;&gt;資安業者賽門鐵克&lt;/a&gt;，都已發現駭客正利用ProxyShell漏洞來部署勒索軟體LockFile，且根據賽門鐵克的觀察，7月才看到的LockFile，到了今年8月下旬就已感染全球至少10家組織。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/msp/comments/p8ik84/polite_warning_please_patch_the_newest_exchange/h9qqq83/&quot; target=&quot;_blank&quot;&gt;資安業者Huntress則透過Reddit警告&lt;/a&gt;，已於未修補的Microsoft Exchange伺服器上看到5種不同功能的惡意Web Shell，且在8月22日時，網路上至少還有1,764臺尚未修補ProxyShell漏洞的Exchange伺服器。&lt;/p&gt;
-&lt;p&gt;此外，截至8月22日，Huntress已於短短的4天內，看到164臺Exchange伺服器被成功入侵。&lt;/p&gt;
-&lt;p&gt;總之，ProxyShell漏洞現階段顯然已成為駭客的遊樂園，儘快修補才是上策。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 24 Aug 2021 06:29:02 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146353 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146353#comments</comments>
-</item>
-<item>
- <title>HPE高層人事變動，成立GreenLake部門</title>
- <link>https://www.ithome.com.tw/news/146352</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.hpe.com/us/en/newsroom/blog-post/2021/08/accelerating-hpes-transformation-to-a-cloud-services-business-and-delivery-model.html&quot; target=&quot;_blank&quot;&gt;HPE本周公布高層人事調整&lt;/a&gt;，包括技術長將退休，並成立GreenLake銷售部門，推動以GreenLake為中心以及服務（as a service）導向的公司策略。&lt;/p&gt;
-&lt;p&gt;HPE執行長Antonio Neri指出，新的人事和組織調整有助公司朝向速度及敏捷性轉型，並推動GreenLake成為邊緣到雲端（edge to cloud）平臺的市場龍頭地位。首先，HPE技術長Kumar Sreekanti將退休，直到HPE下個月任命新的技術長。&lt;/p&gt;
-&lt;p&gt;Sreekanti是&lt;a href=&quot;https://www.ithome.com.tw/news/127409&quot; target=&quot;_blank&quot;&gt;HPE 2018年收購&lt;/a&gt;大數據軟體及人工智慧（artificial intelligence，AI）業者Blue Data而加入HPE。他也曾是VMWare雲端基礎架構業務部門研發長。&lt;/p&gt;
-&lt;p&gt;同時HPE也成立GreenLake平臺開發團隊，由新任技術長統轄，開發相關技術。&lt;/p&gt;
-&lt;p&gt;在業務部份方面，HPE也成立GreenLake雲端服務解決方案事業群，將原本分散的HPE軟體部門，包括Ezmeral（包括容器管理、協同、IT自動化、AI等）、GreenLake Lighthouse零信任安全軟體以及相關軟體整合為一。新事業群直屬執行長，將由現任Aruba營運長Vishal Lall執掌。此外還成立GreenLake Cloud Services商用業務（Commercial Business）事業群，主掌GreenLake經銷及Go-to-Market銷售業務。&lt;/p&gt;
-&lt;p&gt;Ezmeral是&lt;a href=&quot;https://www.ithome.com.tw/news/138425&quot; target=&quot;_blank&quot;&gt;HPE去年成立的混合雲平臺軟體品牌&lt;/a&gt;，主要是用來和Red Hat OpenShift及VMware Tenzu競爭。&lt;/p&gt;
-&lt;p&gt;HPE也成立了2個服務團隊由營運長兼管，以確保HPE as a service類別產品的營運、服務及安全功能及運作順暢。&lt;/p&gt;
-&lt;p&gt;這樁收購是7月IBM總裁、原Red Hat執行長 &lt;a href=&quot;https://www.ithome.com.tw/news/145453&quot; target=&quot;_blank&quot;&gt;Jim Whitehurst離職&lt;/a&gt;後，另一個IT大廠的高層人事變動。外界都在等待，Whitehurst下個舞臺在哪，以及IBM能找到誰可取代他。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 24 Aug 2021 04:18:29 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146352 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146352#comments</comments>
 </item>
 </channel>
 </rss>

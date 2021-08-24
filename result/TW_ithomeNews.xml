@@ -6,6 +6,42 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>CPU三強爭霸</title>
+    <link>https://www.ithome.com.tw/article/146305</link>
+    <description> 從2021年3月中到4月底，AMD、Intel相繼推出第三代伺服器平臺，Arm也恰巧發表新的伺服器級處理器技術，導入新的微架構，以及更先進的製程，持續針對效能、I/O、安全提出創新，並於企業IT、雲端服務、高效能運算等領域短兵相接。
+ </description>
+     <pubDate>2021-08-25  07:08:00</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/article/146305</guid>
+  </item>
+  <item>
+    <title>【Arm Neoverse V1與N2】邁入5奈米製程，支援PCIe 5.0介面與DDR5記憶體</title>
+    <link>https://www.ithome.com.tw/tech/146304</link>
+    <description> 談到Arm處理器，多數人的既定印象可能都是用於智慧型手機或物聯網裝置，然而，由於其具備省電、高效能的特性，早在十年前，就開始有廠商想要基於這個架構，發展伺服器等級的處理器，像是ZT Systems、Calxeda、AppliedMicro、Cavium、Broadcom、Qualcomm等公司，都曾著手進行，但大多因中途取消或後繼無力，而遲遲無法建立整個Arm伺服器生態體系。</description>
+     <pubDate>2021-08-25  07:08:00</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/tech/146304</guid>
+  </item>
+  <item>
+    <title>【AMD第三代EPYC系列】延續二代產品優勢之餘，開始導入Zen 3微架構</title>
+    <link>https://www.ithome.com.tw/tech/146302</link>
+    <description> 在2017年6月推出代號為Naples的EPYC 7001系列處理器之後，AMD宣告重返伺服器市場，當時以14奈米製程、單顆處理器最多可內建32顆核心與64個執行緒、Zen微架構、8個記憶體通道、128個PCIe 3.0通道等特色，搶盡IT新聞媒體的版面。
+到了2019年8月，AMD推出第二代EPYC處理器7002系列，代號為Rome，主打的規格特色，依然超越競爭對手的最新產品，例如：採用台積電7奈米製程、單顆處理器最多可內建64顆核心與128個執行緒、Zen 2微架構、8個記憶體通道、128個PCIe 4.0通道等。而在受益於上述技術之下，7002系列處理器的效能可達到7001系列處理器的2倍。</description>
+     <pubDate>2021-08-25  07:08:00</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/tech/146302</guid>
+  </item>
+  <item>
+    <title>【Intel第三代Xeon SP系列】終於導入10奈米製程，正式加入支援PCIe 4.0的行列</title>
+    <link>https://www.ithome.com.tw/tech/146293</link>
+    <description> 在伺服器平臺稱霸許久的英特爾（Intel），2017年之後面對重返市場的AMD，面臨不小的同業競爭壓力，不過，每次推出的新一代產品，仍有可觀之處。
+因應廣泛市場需求，提供50款以上選擇，規格演進慢、求穩健經營
+在2017年，Xeon Scalable處理器（Xeon SP）系列首度登場，英特爾推出了第一代產品（代號為Skylake）。在產品線的設置上，改成4種品牌與系列型號的對應：白金（8100系列）、金（6100系列與5100系列）、銀（4100系列）、銅（3100系列）。若就數量而言，英特爾提供51款處理器機型的選擇。</description>
+     <pubDate>2021-08-25  07:08:00</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/tech/146293</guid>
+  </item>
+  <item>
     <title>Chrome強化企業擴充套件管理功能，使用者可請求安裝新套件</title>
     <link>https://www.ithome.com.tw/news/146366</link>
     <description> 有鑒於企業IT管理員管理Chrome擴充套件不容易，因此Google現在改進Chrome的企業擴充套件管理功能，讓管理員能以更簡單的方法管理擴充套件，也提供詳盡的資料，供管理員了解擴充套件的使用情況。</description>
@@ -219,42 +255,6 @@ Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密�
      <pubDate>2021-08-20  11:08:22</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146312</guid>
-  </item>
-  <item>
-    <title>臉書發布VR遠端協作解決方案Horizon Workrooms</title>
-    <link>https://www.ithome.com.tw/news/146311</link>
-    <description> 臉書推出讓使用者以虛擬實境（VR）的方式，線上交流協作的解決方案Horizon Workrooms，Workrooms讓使用者可以在同一虛擬房間開會、處理文件，或是使用虛擬白板集思廣益，官方提到，這是他們將最新技術整合VR系統Quest 2的新體驗，使用的技術包括混合實境桌面、鍵盤和手部追蹤，遠端桌面串流傳輸、視訊會議、空間音訊以及新的Oculus虛擬形象等。</description>
-     <pubDate>2021-08-20  11:08:22</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146311</guid>
-  </item>
-  <item>
-    <title>Go 1.17改進編譯器提升程式執行效能</title>
-    <link>https://www.ithome.com.tw/news/146303</link>
-    <description> Go團隊發布了最新版本1.17，這個版本改進了編譯器，在傳遞函式參數和結果，使用了新的方法，而這項改進使得Go程式的效能得以提高約5％，amd64平臺的二進位檔案大小減少2％，官方提到，未來版本還會支援更多的平臺。另外，Go 1.17還增加對Windows上64位元Arm架構的支援，因此Go程式可以在更多的裝置上原生運作。</description>
-     <pubDate>2021-08-20  11:08:58</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146303</guid>
-  </item>
-  <item>
-    <title>日本加密貨幣交易所Liquid遭駭，駭客偷走近上億美元加密貨幣</title>
-    <link>https://www.ithome.com.tw/news/146310</link>
-    <description> 針對加密貨幣交易平臺的網路攻擊，近期已有數起事故。例如，去中心化（DeFi）金融平臺Poly Network，在8月10日公告遭到攻擊，駭客轉走了6.1億美元的加密貨幣，雖然事隔不到1天就歸還不法所得，但此起事故仍引起加密貨幣圈的關注。</description>
-     <pubDate>2021-08-20  08:08:45</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146310</guid>
-  </item>
-  <item>
-    <title>MarTech驅動行銷大轉型</title>
-    <link>https://www.ithome.com.tw/article/146309</link>
-    <description> 什麼是「行銷5.0」？「行銷5.0」與1.0到4.0的行銷有何不同呢？科特勒等人告訴我們，行銷從1.0到5.0，代表著五個階段的行銷理念轉變——
-1.0是「產品帶動」的行銷，重視的是「功能」；
-2.0是「顧客導向」的行銷，重視的是「情感」；
-3.0是「人性為本」的行銷，重視的是「精神」。
-至於4.0和5.0，則是3.0的延續。增加的是4.0的數位社群應用，以及5.0的智慧即至科技。簡單說，4.0和5.0談的是「Tech」或是「MarTech」。</description>
-     <pubDate>2021-08-20  06:08:35</pubDate>
- <dc:creator>iThome</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/article/146309</guid>
   </item>
   </channel>
 </rss>
