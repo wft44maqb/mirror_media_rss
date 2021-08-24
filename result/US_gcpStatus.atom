@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Cloud Status Dashboard Updates</title>
-  <updated>2021-08-24T05:43:01+00:00</updated>
+  <updated>2021-08-24T22:59:30+00:00</updated>
   <link href="https://status.cloud.google.com/" rel="alternate" type="text/html"></link>
   <link href="https://status.cloud.google.com/en/feed.atom" rel="self"></link>
   <author>
@@ -9,6 +9,72 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
+    <title>RESOLVED: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:47 PDT.</title>
+    <link href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:8DhiwfKvD987f5tJrj1G.8hhHREh7Ds4eHTafj9hi</id>
+    <updated>2021-08-24T22:59:30+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:47&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case using &lt;a href="https://cloud.google.com/support"&gt;https://cloud.google.com/support&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;(All Times US/Pacific)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 23 August 2021 19:50&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 23 August 2021 21:20&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 1 hours, 30 minutes&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Affected Services and Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud Networking&lt;/li&gt;
+&lt;li&gt;Cloud L7 and L4 Load balancers&lt;/li&gt;
+&lt;li&gt;Cloud Interconnect&lt;/li&gt;
+&lt;li&gt;Cloud NAT&lt;/li&gt;
+&lt;li&gt;Cloud VPN&lt;/li&gt;
+&lt;li&gt;Google Compute Engine&lt;/li&gt;
+&lt;li&gt;Google Kubernetes Engine&lt;/li&gt;
+&lt;li&gt;Cloud Persistent Disk&lt;/li&gt;
+&lt;li&gt;Cloud Cloud Storage&lt;/li&gt;
+&lt;li&gt;Cloud FileStore&lt;/li&gt;
+&lt;li&gt;Cloud Dataproc&lt;/li&gt;
+&lt;li&gt;Cloud Run&lt;/li&gt;
+&lt;li&gt;Cloud SQL&lt;/li&gt;
+&lt;li&gt;Cloud Spanner&lt;/li&gt;
+&lt;li&gt;Cloud Pub/Sub&lt;/li&gt;
+&lt;li&gt;Cloud Dataflow&lt;/li&gt;
+&lt;li&gt;Cloud Dataproc&lt;/li&gt;
+&lt;li&gt;Cloud Firestore&lt;/li&gt;
+&lt;li&gt;Cloud Bigtable&lt;/li&gt;
+&lt;li&gt;Cloud Logging&lt;/li&gt;
+&lt;li&gt;Cloud Monitoring&lt;/li&gt;
+&lt;li&gt;Cloud BigQuery&lt;/li&gt;
+&lt;li&gt;Cloud IAM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Regions/Zones:&lt;/strong&gt; australia-southeast2&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Google Cloud Networking experienced intermittent connectivity issues with Google Cloud Services in australia-southeast2 for 1 hour and 30 minutes. The underlying Cloud Networking impact ended at 20:41, however, some Cloud Services took longer to recover - delaying the all clear until 21:20. Any service that uses Cloud Networking may have seen impact. We have included available details of service specific impact below; however, this may not be a comprehensive accounting of all downstream networking impact. From preliminary analysis, the root cause of the issue was transient voltage at the feeder to the network equipment, causing the equipment to reboot. In order to mitigate the issue, traffic within the australia-southeast2 region was redirected temporarily.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Customer Impact:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud Networking: Public IP traffic connectivity failed from 19:51 to 20:41.&lt;/li&gt;
+&lt;li&gt;Cloud L7 Load Balancers: Partial dataplane query loss and control plane operational delay for External load balancers from 19:50 - 20:12, and Internal load balancers from 19:50 - 20:18.&lt;/li&gt;
+&lt;li&gt;Cloud L4 Load Balancing Inbound public IP traffic was dropped from 19:51 to 20:41.&lt;/li&gt;
+&lt;li&gt;Cloud Interconnect: Up to 100% packet loss between 19:50 and 20:21.&lt;/li&gt;
+&lt;li&gt;Cloud NAT experienced control plane failures from 19:51 to 20:00.&lt;/li&gt;
+&lt;li&gt;Cloud VPN HA dropped up to 83% of traffic between 19:51 and 20:21, while Legacy VPN dropped ~100% of traffic between 19:51 and 20:41.&lt;/li&gt;
+&lt;li&gt;Cloud SQL: 100% error rate from 19:49 to 20:01.&lt;/li&gt;
+&lt;li&gt;Cloud Storage: 100% error rate through 21:20.&lt;/li&gt;
+&lt;li&gt;Cloud Functions:&lt;/li&gt;
+&lt;li&gt;Cloud Run: 100% error rate through 21:19.&lt;/li&gt;
+&lt;li&gt;Cloud Bigtable: 100% error rate from 19:49 to 20:01 and increased latency from 20:01 to 20:13.&lt;/li&gt;
+&lt;li&gt;Cloud Logging: Logs written within the region may have failed to be ingested from 20:07 to 21:18.&lt;/li&gt;
+&lt;li&gt;Cloud Monitoring: Customers may have experienced falsely firing alerts, missed alerts, missing metrics and failed writes from 19:50 to 20:15.&lt;/li&gt;
+&lt;li&gt;Google Compute Engine: Operations to create or modify instances failed from 19:52 to 20:12. Connectivity from instances to other GCP services may be affected until 20:26. Existing instances may have lost network connectivity. Additionally autoscaling had delays or errors collecting input data which may have impacted autoscaling decisions.&lt;/li&gt;
+&lt;li&gt;Google Kubernetes Engine: Control plane operations on regional clusters failed between 19:50 and 20:04. Increased latency from 20:05 to 20:41.  100% of requests to container.googleapis.com failed&lt;/li&gt;
+&lt;li&gt;Persistent Disk: Up to 100% device unavailability between 19:51 and 20:13.&lt;/li&gt;
+&lt;li&gt;Cloud Filestore: Up to 100% error rate from 19:50 to 20:03.&lt;/li&gt;
+&lt;li&gt;Cloud IAM: ~80% error rate from 19:52 to 20:10.&lt;/li&gt;
+&lt;li&gt;Cloud Spanner: 100% error rate between 19:53 and 20:09.&lt;/li&gt;
+&lt;li&gt;Cloud Pub/Sub: Increased error rate and latency of up to 95% between 19:50 and 20:12.&lt;/li&gt;
+&lt;li&gt;Cloud Dataflow: Increased errors starting jobs and making progress on existing jobs between 19:50 and 20:12.&lt;/li&gt;
+&lt;li&gt;Cloud Dataproc: New cluster creation failed from 20:09 until 21:20&lt;/li&gt;
+&lt;li&gt;Cloud Firestore: Control Plane saw ~90% error rates from 19:50 to 20:03. Data plane so no significant impact.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Infrastructure Components&lt;/p&gt;</summary>
+  </entry><entry>
     <title>RESOLVED: We are experiencing a connectivity issue affecting Cloud Dataproc in australia-southeast2</title>
     <link href="https://status.cloud.google.com/incidents/RPBQJ6t6qkJGkKG21Quv" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:RPBQJ6t6qkJGkKG21Quv.UYnqcqYtYkqcPBbrRspq</id>
