@@ -6,170 +6,165 @@
  <description></description>
  <language>zh-hant</language>
 <item>
- <title>國際太空站試驗以邊緣運算技術監控太空人健康</title>
- <link>https://www.ithome.com.tw/news/146348</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;國際太空站&lt;a href=&quot;https://azure.microsoft.com/zh-tw/blog/genomics-testing-on-the-iss-with-hpe-spaceborne-computer2-and-azure/&quot;&gt;應用邊緣運算技術來監控太空人的健康&lt;/a&gt;，結合搭載在國際太空站的HPE的Spaceborne Computer-2邊緣運算系統，還有地球上的Azure雲端服務，來監控太空人因為暴露在高輻射環境，可能出現的健康風險，太空人的血液樣本基因定序資料會先在國際太空站進行預處理，只有需要進一步分析的資料，才會透過頻寬有限的下行鏈結（Downlink）傳輸到地球處理。&lt;/p&gt;
-&lt;p&gt;目前國際太空站的這套HPE Spaceborne Computer-2，是在2021年4月才安裝到NG-15太空站，預計要服役2到3年。這件事本身就極具意義，因為過去太空站所用的電腦，通常是專門訂製的硬體和軟體模型，以滿足太空任務的可靠性需求，這些訂製的星載系統開發人員體驗很複雜，與地球上使用的商用系統相比，程式開發速度不只緩慢且困難。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/56f1fcdf-ca48-4a8f-85ce-71ab41624db7.jpg&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;在2017年的時候，HPE所設計的第一代商業系統Spaceborne Computer-1，成功被發射到太空，並且驗證可在太空高輻射的環境中正常運作，並且在今年的時候，擁有2倍運算效能，以及強化人工智慧運算能力，由HPE Edgeline EL4000 Converged Edge系統和HPE ProLiant DL360 Gen10伺服器組成的Spaceborne Computer-2，再次被部署到太空站中。&lt;/p&gt;
-&lt;p&gt;雖然運算能力提升了，但是微軟提到，應用真正的瓶頸是國際太空站和地球之間的傳輸頻寬，Spaceborne Computer-2每周只能從NASA，分配到2小時的通訊頻寬將資料傳輸到地球，最大的下載速度為每秒250 KB，這樣的頻寬還要分配給多個實驗，在這個有限的網路環境，邊緣雲端的概念發揮作用，Spaceborne Computer-2能先對大型資料集進行初步分析和過濾，擷取有趣和意外的內容，再將這些結果傳回地球公有雲上解析。&lt;/p&gt;
-&lt;p&gt;微軟在這些限制提出了一項實驗，監控高輻射暴露下太空人的健康，由於在太空中不像地球有大氣層，阻擋來自宇宙的輻射，因此太空人需要面臨高輻射的威脅，特別越過低空地球軌道，超過范艾倫輻射帶時，所暴露的輻射只會越來越多。&lt;/p&gt;
-&lt;p&gt;微軟的這項實驗，是要存取國際太空站上基因定序儀的資料進行分析，但是基因定序資料量太過龐大，而且輸出要和不斷更新的大型臨床資料庫進行比較，因此下行鏈路的頻寬太小，不足以支援這些操作，因此該實驗使用HPE Spaceborne Computer-2執行初始運算，將擷取的基因序列和參考的DNA片段進行比較，只有在找到差異或是變異時，才下載到HPE地面站。&lt;/p&gt;
-&lt;p&gt;在地球上，這些資料會被傳輸到Azure，並且使用微軟Genomics服務進行運算，將下載資料中的短鹼基對基因定序資料和完整的人類基因組資料庫比對，來確定突變的位置和變化類型，並使用美國國家衛生院的dbSNP資料庫比對讀數，來確定突變所帶來的影響。&lt;/p&gt;
-&lt;p&gt;由於在開發和測試期間，開發人員無法存取HPE Spaceborne Computer-2或HPE地面站，因此研究人員先在Azure模擬驗證了這個實驗，並在8月12日的時候，上傳120MB的程式到國際太空站的Spaceborne Computer-2上執行。&lt;/p&gt;
-&lt;p&gt;根據微軟的試驗，當原始資料為500 KB時，執行時間只需要20分鐘，需要下載至地球的資料只剩4 KB，傳輸時間不到1秒，即便原始資料有150 MB，在 Spaceborne Computer-2執行1小時的預處理後，需要傳輸的資料剩下900 KB，17秒內就能傳輸到地球。&lt;/p&gt;
-&lt;p&gt;目前HPE Spaceborne Computer-2還在邊緣雲端應用的試驗和概念性驗證階段，太空人健康監控應用僅是其中一項專案，這些試驗都會獨立於國際太空站運作的作業系統，微軟提到，隨著人類繼續向太空發展，邊緣雲端運算能力將會越來越重要，使用案例也會增加，作為突破運算資源極限的解決方案。&lt;/p&gt;
+ <title>Chrome強化企業擴充套件管理功能，使用者可請求安裝新套件</title>
+ <link>https://www.ithome.com.tw/news/146366</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;有鑒於企業IT管理員管理Chrome擴充套件不容易，因此&lt;a href=&quot;https://cloud.google.com/blog/products/chrome-enterprise/extension-management-enhancements&quot;&gt;Google現在改進Chrome的企業擴充套件管理功能&lt;/a&gt;，讓管理員能以更簡單的方法管理擴充套件，也提供詳盡的資料，供管理員了解擴充套件的使用情況。&lt;/p&gt;
+&lt;p&gt;現在管理員可以允許終端用戶請求安裝擴充套件，當終端用戶使用受管制的Chrome瀏覽器和Chrome作業系統，瀏覽Chrome網頁商店時，原本加入Chrome的安裝擴充套件按鈕，會轉變成為請求按鈕，如此擴充套件安裝請求，便會傳送至Chrome瀏覽器雲端管理請求頁面，由管理員審核，一旦審核通過，該擴充套件便會被添加到Chrome中。&lt;/p&gt;
+&lt;p&gt;IT管理員還可以將重要的擴充套件，固定到終端用戶的工具列上，Google提到，擴充套件的配置影響使用者的生產力，因此管理員現在可以標準化終端用戶體驗，同時也能減少IT花費在排除瀏覽器故障的時間。這個功能類似Google在今年早前，所推出的託管書籤功能。&lt;/p&gt;
+&lt;p&gt;對於那些使用成千上百擴充套件的企業，IT管理員現在可以藉由App Details API，獲取擴充套件安裝的相關資訊，並以程式開發方法管理擴充套件的相關風險，或是建立稽核工作流程。另外，管理員現在也可以固定擴充套件版本，使在明確更改版本之前，擴充套件都不會升級。&lt;/p&gt;
+&lt;p&gt;Google在不久前，發布了應用程式和擴充套件報告，供IT能夠深入了解部署中所有已安裝的擴充套件、Chrome應用程式和Android應用程式，管理員可以查看每個應用程式和擴充套件的版本和權限，並且在報告中強制安裝或是封鎖應用程式，而Google現在於報告中，加入更多擴充套件的詳細資訊。&lt;/p&gt;
+&lt;p&gt;管理員可以在報告頁面點擊特定擴充套件，來獲取擴充套件識別碼，還有指向該擴充套件網頁商店的連結，並且查看該擴充套件的隱私政策，也確保符合企業的隱私要求。同時，管理員現在還能夠查看擴充套件請求的權限，掌握這些套件是否具有存取用戶資料的能力，以此作為考量依據來審核終端使用者的擴充套件安裝請求。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 23 Aug 2021 13:07:38 +0000</pubDate>
+ <pubDate>Tue, 24 Aug 2021 12:43:30 +0000</pubDate>
  <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146348 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146348#comments</comments>
+ <guid isPermaLink="false">146366 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146366#comments</comments>
 </item>
 <item>
- <title>PayPal加密貨幣交易跨出美國，進軍英國市場</title>
- <link>https://www.ithome.com.tw/news/146346</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;線上支付服務業者PayPal在去年底&lt;a href=&quot;https://www.ithome.com.tw/news/140675&quot; target=&quot;_blank&quot;&gt;開放用戶持有及買賣加密貨幣&lt;/a&gt;，今年3月開始&lt;a href=&quot;https://www.ithome.com.tw/news/143561&quot; target=&quot;_blank&quot;&gt;支援美國市場&lt;/a&gt;以加密貨幣付款，繼之在今日（8/23）宣布&lt;a href=&quot;https://newsroom.paypal-corp.com/2021-08-23-PayPal-Launches-the-Ability-to-Buy,-Hold-and-Sell-Cryptocurrency-in-the-UK&quot; target=&quot;_blank&quot;&gt;將提供英國用戶&lt;/a&gt;透過該平臺買進、持有與銷售加密貨幣。&lt;/p&gt;
-&lt;p&gt;PayPal用戶只要登入行動程式或PayPal網站，就能查看比特幣（Bitcoin）、以太幣（Ethereum）、比特幣現金（Bitcoin Cash），以及萊特幣（Litecoin）等4種加密貨幣的價格並進行交易，平臺上同時也提供了有關加密貨幣的教育內容與風險問題，而這也是PayPal的加密貨幣服務第一次踩出美國，進軍國際市場。&lt;/p&gt;
-&lt;p&gt;從PayPal所發布的新聞稿看來，英國用戶現在只能買進、持有與售出加密貨幣，尚無法把加密貨幣作為付款選項之一，不過，用戶最低以1英鎊就能購買加密貨幣。&lt;/p&gt;
-&lt;p&gt;負責區塊鏈、加密貨幣與數位貨幣的PayPal副總裁Jose Fernandez da Ponte表示，疫情加速了人們生活各方面的創新與數位變遷，包括消費者對數位化貨幣與數位金融服務的採用，PayPal將會持續與英國及全球的監管機關合作，替形塑數位貨幣於全球金融及商業中的角色帶來有意義的貢獻。&lt;/p&gt;
+ <title>Visa花了15萬美元買進該公司第一個NFT</title>
+ <link>https://www.ithome.com.tw/news/146368</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://usa.visa.com/visa-everywhere/blog/bdp/2021/08/18/nfts-mark-a-1629328216374.html&quot; target=&quot;_blank&quot;&gt;全球第二大卡片支付組織Visa在23日宣布&lt;/a&gt;，已買進該公司第一個「不可替代代幣」（Non-Fungible Token，NFT）產品，那是由Larva Labs創作的CryptoPunk 7610。&lt;a href=&quot;https://www.larvalabs.com/cryptopunks/details/7610&quot; target=&quot;_blank&quot;&gt;此一交易發生在8月18日&lt;/a&gt;，購入價格為49.5個以太幣，約為15萬美元。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0824-cryptopunk%207610.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;NFT是個奠基在區塊鏈上的代幣，與其它加密貨幣不同的是，每個NFT都是獨一無二的，它們並不等值，因此無法直接互相交換，主要作為數位資產的憑證。&lt;/p&gt;
+&lt;p&gt;而Larva Labs則是由兩名軟體開發者Matt Hall與John Watkinson成立的工作室，&lt;a href=&quot;https://larvalabs.com/cryptopunks&quot; target=&quot;_blank&quot;&gt;他們在2017年於以太坊區塊鏈上發表了實驗性專案CryptoPunks&lt;/a&gt;，創作了1萬個獨特的加密龐克角色，包含6,039名男性與3,840名女性，初期開放任何擁有以太坊錢包的使用者免費領取，且很快就被領光，現在則必須透過交易才能取得CryptoPunks角色的所有權。&lt;/p&gt;
+&lt;p&gt;Visa的加密資產負責人Cuy Sheffield表示，CryptoPunks已從早期的實驗性創作成為加密社群的文化標誌，為了了解作為CryptoPunks歷史性NFT專案所扮演的角色，Visa決定買下CryptoPunk 7610。&lt;/p&gt;
+&lt;p&gt;對於NFT，Visa抱持著開放的態度，Sheffield坦承只有時間才能印證NFT是否會成為主流，但認為它可能會在未來的零售、社交媒體、娛樂或商業上占有一席之地，為了協助客戶或合作夥伴也參與NFT，只有身先士卒。&lt;/p&gt;
+&lt;p&gt;Sheffield說，Visa除了企圖傳達對創作者、藝術家或收藏家的支持，共同推動未來的NFT商業，促進買家與賣家之間的交易之外；也想收藏象徵此一特殊文化之機遇與興奮的NFT。&lt;/p&gt;
+&lt;p&gt;Sheffield認為，NFT很有潛力成為創作者經濟的加速器，而且降低個人創作者獲利的門檻，可望導入新形態的社交商務，賦予創作者與收藏者權力。&lt;/p&gt;
+&lt;p&gt;沒有人可以確定NFT在未來是否會成為主流，但去年NFT的交易規模不到1億美元，但光是今年8月的NFT交易量就超過了10億美元，不僅如此，在Visa對外公開買下了CryptoPunk 7610之後，讓CryptoPunk的能見度大增，&lt;a href=&quot;https://twitter.com/larvalabs/status/1430038470379118593&quot; target=&quot;_blank&quot;&gt;Larva Labs透過Twitter宣布&lt;/a&gt;，CryptoPunk在24小時內的交易規模已突破1億美元。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 23 Aug 2021 08:00:58 +0000</pubDate>
+ <pubDate>Tue, 24 Aug 2021 12:33:15 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146346 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146346#comments</comments>
+ <guid isPermaLink="false">146368 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146368#comments</comments>
 </item>
 <item>
- <title>Google更新零信任解決方案BeyondCorp Enterprise，簡化自定義存取政策配置</title>
- <link>https://www.ithome.com.tw/news/146344</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google更新零信任解決方案BeyondCorp Enterprise，加入3項&lt;a href=&quot;https://cloud.google.com/blog/products/identity-security/new-beyondcorp-enterprise-zero-trust-capabilities&quot;&gt;新功能&lt;/a&gt;，讓用戶可以對其終端使用者，以更安全簡單的方式控制應用程式存取。第1個是對GCP API透過VPC服務控制，提供基用憑證的存取控制，官方提到，不少用戶使用不記名的證書存取雲端控制臺和API，但是當這些證書意外洩漏時，就可能被攻擊者用來進行非法存取。&lt;/p&gt;
-&lt;p&gt;而基於憑證的存取控制，是除了證書之外，還要加上經過驗證的裝置憑證，才能夠進行存取，因此能夠防止憑證被盜或是意外洩漏的風險。現在Google對8種類型的VPC服務控制資源，提供客戶端憑證原生支援，包括GCE、GKE、Cloud KMS、BigQuery和Logging等，之後Google還會繼續增加更多支援的服務。&lt;/p&gt;
-&lt;p&gt;BeyondCorp Enterprise也開始正式提供本地端連接器，供用戶可以連接到本地資源，藉由部署連接器，就能夠使用身份感知代理（Identity-Aware Proxy，IAP），保護Google雲端之外的HTTP或HTTPS本地應用程式，在本地端應用程式發出請求時，IAP會對用戶進行身份驗證和授權，並將請求路由到連接器。&lt;/p&gt;
-&lt;p&gt;另外，Google也在BeyondCorp Enterprise背後的零信任政策引擎Access Context Manager（ACM），添加更多的零信任存取條件，利用這些新屬性，管理員就能夠用更多元的方式制定高精細度的存取控制政策，這3組新屬性分別是時間和日期、證書強度以及Chrome瀏覽器。&lt;/p&gt;
-&lt;p&gt;時間和日期屬性能夠限制終端使用者存取資源的時間和日期，可用於例如輪班工人和臨時員工的存取控制。由於配置雙因素驗證是防止安全漏洞的重要方法，藉由將證書強度當作存取控制政策中的條件，企業就能依據硬體安全金鑰的使用，或是其他形式的多因素驗證，來實施存取控制，BeyondCorp Enterprise現在支援通知推送、SMS認證碼、2SV軟體和硬體金鑰、一次性密碼和任何形式的MFA等驗證方法。&lt;/p&gt;
-&lt;p&gt;對於Chrome瀏覽器用戶，管理員可以設定零信任政策，來確保用戶瀏覽器環境啟用了威脅和資料保護功能，ACM自定義存取等級的新條件包括管理狀態、最小版本、即時URL檢查啟用狀態、檔案上傳下載分析啟用狀態和安全事件回報啟用狀態等。&lt;/p&gt;
+ <title>MDN現提供Deno相容性資料</title>
+ <link>https://www.ithome.com.tw/news/146360</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;現在於MDN也查得到Deno的相容性資料，與其他桌面和行動裝置瀏覽器一樣，&lt;a href=&quot;https://deno.com/blog/deno-on-mdn&quot;&gt;Deno相容性表格資料&lt;/a&gt;，也會在所有JavaScript參照頁面，還有部分Web API參照頁面中提供，因此往後開發者在MDN查看技術文件，除了能夠知道該功能在各個瀏覽器上的支援程度外，也能知道Deno的支援度。&lt;/p&gt;
+&lt;p&gt;Deno是Ryan Dahl在Node.js之後，使用Rust語言所創建的新專案，與Node.js相同採用V8引擎，為JavaScript和TypeScript執行環境，Ryan Dahl針對Node.js的十大技術債，提出了Deno這個新的解決方案，讓開發者可以用更簡潔的程式碼，編寫複雜的程式功能。&lt;/p&gt;
+&lt;p&gt;Deno採用現代化的Web API，在Runtime中添加新功能時，首選便是使用瀏覽器API的形式，而這使得開發人員能夠受惠，因爲開發人員已經熟悉這些API，但相對的Deno也獲得好處，因為能夠使用現存的測試。而Web API存在大量的文件，MDN便是網頁平臺檔案的重要來源，MDN包含了超過1萬頁的文件、指南和教學，由社群、Google、Mozilla和Open Web Docs的員工維護。&lt;/p&gt;
+&lt;p&gt;MDN還維護了Web API的Runtime相容性資料，這個資料以相容性圖表的形式顯示在MDN文件頁面上，這些資料從現在起，會加入Deno的相容性資料，開發者可在Array和WebAssembly.LinkError等JavaScript參照頁面，或是fetch和setTimeout等Web API參照頁面中查看。當然，這些資料也可以從mdn/browser-compat-data儲存庫中，以程式開發的方式取得。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 23 Aug 2021 07:54:16 +0000</pubDate>
+ <pubDate>Tue, 24 Aug 2021 12:17:12 +0000</pubDate>
  <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146344 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146344#comments</comments>
+ <guid isPermaLink="false">146360 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146360#comments</comments>
 </item>
 <item>
- <title>今年第二季全球對加密貨幣的採用成長881%</title>
- <link>https://www.ithome.com.tw/news/146345</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;加密貨幣市場分析機構Chainalysis上周公布了&lt;a href=&quot;https://blog.chainalysis.com/reports/2021-global-crypto-adoption-index&quot; target=&quot;_blank&quot;&gt;今年第二季的全球加密貨幣採用指標報告&lt;/a&gt;，顯示相較於去年同期，今年第二季全球對加密貨幣的採用大增了881%，且採用的前三名依序是越南、印度與巴基斯坦。&lt;/p&gt;
-&lt;p&gt;Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密貨幣價值、零售交易價值、P2P交易量，再以當地的人均購買力平價進行加權，計算範圍擴及全球154個國家。&lt;/p&gt;
-&lt;p&gt;分析顯示，每個國家加密貨幣採用率的成長各自有不同的原因，例如新興市場的人民是因為面臨貨幣貶值、傳送或收取匯款，以及進行商業交易才採用加密貨幣，至於北美、西歐或東亞等國家在去年加密貨幣採用率大增的原因，則是來自於機構的投資。&lt;/p&gt;
-&lt;p&gt;而今年第二季新興市場占據了加密貨幣採用率排行榜前幾名的原因，主要是它們有大量的交易奠基在P2P平臺上。Chainalysis說明，其實區塊鏈上看不到P2P交易，然而，P2P卻占了全球加密貨幣交易活動的很大比例，特別是在新興市場，因為新興市場的民眾經常無法存取集中的交易中心，促使他們大量使用P2P交易。&lt;/p&gt;
-&lt;p&gt;加密貨幣在新興市場竄升的另一個原因為許多國家會限制匯出的金額，藉由加密貨幣就能躲避此一限制。&lt;/p&gt;
-&lt;p&gt;儘管去年中國仍位於排行榜上的第四名，美國排第六名，但今年它們雙雙掉到第十三名與第八名。Chainalysis分析其原因，指出除了這兩個市場的P2P交易量大幅下滑之外，美國的加密貨幣交易走向專業化與制度化，以及中國對加密貨幣交易的打壓，形成了當地採用指數下滑的原因。&lt;/p&gt;
-&lt;p&gt;身為加密貨幣的分析業者，Chainalysis認為這一年來加密貨幣採用率飆升，而且不同國家對此皆有多元的貢獻，都顯示出加密貨幣已成為真正的全球現象。&lt;/p&gt;
+ <title>蘋果證實從2019年就開始掃描iCloud郵件是否含有CSAM照片</title>
+ <link>https://www.ithome.com.tw/news/146359</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://9to5mac.com/2021/08/23/apple-scans-icloud-mail-for-csam/&quot; target=&quot;_blank&quot;&gt;9to5Mac指出&lt;/a&gt;，蘋果已向該報證實，該公司從2019年就開始掃描進出 iCloud Mail 的郵件是否含有兒童性剝削內容（Child Sexual Abuse Material，CSAM），也會掃描其它的部份，但並未包含iCloud Photos或iCloud備份。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146064&quot; target=&quot;_blank&quot;&gt;蘋果是在今年的8月初公開揭露&lt;/a&gt;，將於蘋果各作業系統上植入雜湊的CSAM資料庫，當使用者要上傳照片到iCloud時，就會與該資料庫進行比對，一旦符合CSAM資料庫的照片數量達到30張，便會觸發警報並進入人工審查階段，再決定是否關閉該用戶的帳號或通報主管機關。&lt;/p&gt;
+&lt;p&gt;當各界都在質疑蘋果此舉觸犯了使用者的隱私權，&lt;a href=&quot;https://www.ithome.com.tw/news/146122&quot; target=&quot;_blank&quot;&gt;同時也替蘋果平臺留下後門之際&lt;/a&gt;，9to5Mac的編輯發現，&lt;a href=&quot;https://www.ithome.com.tw/news/139405&quot; target=&quot;_blank&quot;&gt;蘋果因與Epic Games打官司而曝光的文件中&lt;/a&gt;，&lt;a href=&quot;https://9to5mac.com/2021/08/20/apples-anti-fraud-chief-child-porn-statement/&quot; target=&quot;_blank&quot;&gt;蘋果反詐騙長Eric Friedman在訊息中透露&lt;/a&gt;，臉書強力打擊假帳號，但在隱私上非常地糟糕，蘋果剛好相反（非常注重隱私），但卻讓蘋果成為散布兒童色情的最佳平臺。&lt;/p&gt;
+&lt;p&gt;這段話吸引了9to5Mac的注意，好奇蘋果怎麼知道自家平臺是散布兒童色情的最佳管道，於是詢問了蘋果，結果蘋果證實了該公司的確自2019年，就開始掃描iCloud Mail的附加檔案是否含有CSAM。&lt;/p&gt;
+&lt;p&gt;蘋果還向9to5Mac坦承，除了iCloud Mail外，他們也掃描了其它少數的資料，但並不包括iCloud備份。&lt;/p&gt;
+&lt;p&gt;不過，就算如此，要宣稱自己是散布兒童色情的最佳平臺，總是得有其它的比較對象，那麼其它平臺如果不是藉由掃描CSAM，又如何能封鎖特定帳號，或是檢舉用戶呢？人們的隱私權在數位時代似乎很難保全。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 23 Aug 2021 07:40:25 +0000</pubDate>
+ <pubDate>Tue, 24 Aug 2021 08:21:41 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146345 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146345#comments</comments>
+ <guid isPermaLink="false">146359 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146359#comments</comments>
 </item>
 <item>
- <title>馬斯克：穿上有停車標誌的T恤就能愚弄特斯拉</title>
- <link>https://www.ithome.com.tw/news/146343</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;電動車大廠特斯拉（Tesla）在19日舉行的&lt;a href=&quot;https://www.youtube.com/watch?v=j0z4FweCy4M&quot; target=&quot;_blank&quot;&gt;AI Day&lt;/a&gt;上，發表了用於特斯拉超級電腦Dojo的最新晶片D1、全自動駕駛（Full Self-Driving）系統，以及人形機器人Tesla Bot。不過，當會議上有人提出特斯拉汽車缺乏3D感應器是否會遭到對抗性攻擊（Adversarial Attacks）時，特斯拉創辦人暨執行長馬斯克（Elon Musk）坦承，他們還沒看到太多這樣的現象，不過他自己曾經利用一件印有停車標誌的T恤，來騙過特斯拉的自動駕駛輔助系統。&lt;/p&gt;
-&lt;p&gt;對抗性攻擊奠基於機器學習技術，是利用偽造的輸入來欺騙模型，如同讓機器學習模型產生幻覺，導致它出現故障或失效。&lt;/p&gt;
-&lt;p&gt;大約在一個月以前，&lt;a href=&quot;https://twitter.com/JordanTeslaTech/status/1418413307862585344&quot; target=&quot;_blank&quot;&gt;有一名特斯拉車主Jordan Nelson在Twitter上張貼了一則影片&lt;/a&gt;，當時他的特斯拉正行駛在美國的高速公路上，啟用了自動駕駛輔助系統，他發現特斯拉的車速忽然變慢了，原因是該系統把天上的大滿月誤認為黃燈標誌了。&lt;/p&gt;
-&lt;p&gt;事實上，特斯拉的自動駕駛輔助系統傳出的誤認事件並不只這一樁，也有車主宣稱它把太陽誤認為紅燈，或者是把廣告牌上的停車標誌當作是真的停車標誌。&lt;/p&gt;
-&lt;p&gt;Nelson在貼文上標註了馬斯克，但馬斯克並未回覆。不過，馬斯克似乎已在AI Day上解答了Nelson的疑問。&lt;/p&gt;
-&lt;p&gt;馬斯克說，他真的有一件印著停車標誌的T恤，而且只要在特斯拉汽車前面揮舞，車子就會停下來，而且他曾經自己證明了這件事。&lt;/p&gt;
-&lt;p&gt;不過，馬斯克也解釋，只要他們看到這類的對抗性攻擊，就會重新訓練汽車，讓系統能夠知道這只是件T恤，而非真的停車標誌。&lt;/p&gt;
-&lt;p&gt;此外，美國國家公路交通安全管理局&lt;a href=&quot;https://www.ithome.com.tw/news/146238&quot; target=&quot;_blank&quot;&gt;（NHTSA）在上周針對特斯拉展開的調查&lt;/a&gt;，也與其自動駕駛輔助系統的認知有關，在天黑的時候啟用自動駕駛輔助系統可能會撞上反光箭頭、路錐或救護交通燈等現場的控制號誌。且從2018年到2021年7月，在美國就已發生11起類似的事故。&lt;/p&gt;
+ <title>Poly Network被盜走的6.1億美元加密貨幣完璧歸趙了</title>
+ <link>https://www.ithome.com.tw/news/146358</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;http://www.ithome.com.tw/news/146138&quot; target=&quot;_blank&quot;&gt;在8月10日遭到駭客攻擊&lt;/a&gt;、並被盜走價值6.1億美元加密貨幣的&lt;a href=&quot;https://medium.com/poly-network/poly-network-commences-full-asset-restoration-7f5c548423b9&quot; target=&quot;_blank&quot;&gt;Poly Network在8月23日宣布&lt;/a&gt;，駭客已經歸還了所有的加密貨幣資產。&lt;/p&gt;
+&lt;p&gt;這是去中心化金融平臺（DeFi）史上規模最大的一次駭客事件，駭客藉由開採Poly Network網路上有關合約調用的安全漏洞，把價值6.1億美元的以太坊代幣、幣安代幣與USDC移轉到自己的錢包，Poly Network立即公布了駭客所使用的錢包位址，號召全球加密貨幣交易平台封鎖相關位址，同時專注於區塊鏈生態體系安全性的慢霧科技（SlowMist）已追蹤到駭客所使用的郵件信箱、IP與裝置指紋。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146161&quot; target=&quot;_blank&quot;&gt;而駭客也在攻擊事件發生的不到24小時內就屈服&lt;/a&gt;，開始歸還所盜走的加密貨幣，一直到23日歸還所有的資產。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ft.com/content/ee970452-02de-4d66-84a1-f2b1345f57d1&quot; target=&quot;_blank&quot;&gt;金融時報還原了Poly Network與駭客協商的過程&lt;/a&gt;，Poly Network先透過以太坊區塊鏈向駭客喊話，希望駭客與之聯繫，隨後雙方就在公開的區塊鏈平臺上溝通。&lt;/p&gt;
+&lt;p&gt;當時這名駭客宣稱他有興趣的不是錢，只是在追求有意義的生活，希望自己的生活充滿冒險，駭進Poly Network則是其中之一，他可能會選擇歸還這些資產，也可能就把它們留在那裡。&lt;/p&gt;
+&lt;p&gt;駭客的發言讓他獲得了「白帽先生」（Mr. White Hat）的稱號，Poly Network則企圖說服白帽先生歸還資產，並提出50萬美元的抓漏獎金，此外，還有超過1,000名的旁觀者陸續送出小費予白帽先生，鼓勵他歸還盜走的加密貨幣，雖然這些小費多半低於1美元，但也累積了數百美元。&lt;/p&gt;
+&lt;p&gt;雖然此事看似圓滿落幕，但金融時報引用賓州大學Wharton商學院的學者Kevin Werbach的看法指出，這對像是Poly這樣的DeFi系統來說是個重大的教訓，區塊鏈也許非常的安全，但僅限於在區塊鏈的世界裡，倘若它必須與區塊鏈以外的世界連結，那麼便可能衍生其它的問題。&lt;/p&gt;
+&lt;p&gt;Poly Network公開感謝白帽先生的合作與信守承諾，但並未透露白帽先生是否收了50萬美元。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 23 Aug 2021 06:37:50 +0000</pubDate>
+ <pubDate>Tue, 24 Aug 2021 08:05:51 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146343 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146343#comments</comments>
+ <guid isPermaLink="false">146358 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146358#comments</comments>
 </item>
 <item>
- <title>馬斯克描繪特斯拉人形機器人Tesla Bot，預計明年推出原型機</title>
- <link>https://www.ithome.com.tw/news/146342</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;電動車大廠特斯拉（Tesla）創辦人暨執行長馬斯克（Elon Musk）在上周四（8/19）舉行的AI Day上，&lt;a href=&quot;https://www.youtube.com/watch?v=HUP6Z5voiS8&quot; target=&quot;_blank&quot;&gt;發表了人形機器人Tesla Bot&lt;/a&gt;，指出Tesla Bot將可協助人類處理危險、重複與無聊的任務，而且還非常友善，原型機可望於明年問世。&lt;/p&gt;
-&lt;p&gt;在AI Day上現身的是一名偽裝成機器人的人類，而且他還在舞臺上跳舞。馬斯克說，特斯拉汽車基本上就是個有輪子的半感知機器人，進化成人形很合理，而且看起來基本上就像這個舞者一樣。&lt;/p&gt;
-&lt;p&gt;根據馬斯克所揭露的規格，Tesla Bot的身高為5呎8吋（173公分），重125磅（56公斤），行走速度為每小時5英里（時速8公里），最多可提45磅（20公斤）的物品，臉部由攝影機及螢幕組成以顯示各種資訊，具備人類等級的手部功能，並以同樣在AI Day上發表的DOJO超級電腦進行訓練。&lt;/p&gt;
-&lt;p&gt;然而，&lt;a href=&quot;https://www.theverge.com/2021/8/20/22633958/tesla-bot-elon-musk-ai-day?scrolla=5eb6d68b7fedc32c19ef33b4&quot; target=&quot;_blank&quot;&gt;The Verge的編輯James Vincent&lt;/a&gt;批評，這只是馬斯克愚弄大眾，以餵養粉絲、吸引懷疑論者、提高股價，讓它成為頭條新聞以讓人們忘記特斯拉汽車正遭到調查的作法而已，&lt;a href=&quot;https://www.wired.com/story/tesla-promised-robot-recruiting-pitch/&quot; target=&quot;_blank&quot;&gt;Wired則認為Tesla Bot可能只是馬克斯用來招募新血的花招&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Vincent的論點包括特斯拉如何能在短短的一年內，趕上&lt;a href=&quot;https://www.ithome.com.tw/news/141966&quot; target=&quot;_blank&quot;&gt;投入雙足機器人研發超過10年的Boston Dynamics&lt;/a&gt;，且英國中央蘭開夏大學的機器人工程講師Carl Berry也認為，馬斯克讓人們對這幾年的機器人發展抱有不切實際的期望。&lt;/p&gt;
-&lt;p&gt;Wired則說，過去馬斯克曾祭出許多承諾，包括2020年會有100萬臺特斯拉自動計程車在路上跑，但現在特斯拉連無人駕駛都還沒辦到，且特斯拉替Model Y設計的新款電池亦遭遇到生產難題。&lt;/p&gt;
-&lt;p&gt;不論如何，馬斯克的確是一個兼具想像力、創意、執行力與毅力的創業家，但也經常禍從口出，例如吵架時會宣稱對方是戀童癖男而被告，或者是在Twitter上公開宣布打算將特斯拉私有化，而遭到美國證券交易委員會的責罰，禁止他擔任特斯拉的董事長。&lt;/p&gt;
-&lt;p&gt;然而，馬斯克成功推出了特斯拉汽車，讓SpaceX開發出超低成本的火箭 ，還提出且正在實踐回收火箭的創舉，也都令人無法漠視Tesla Bot的發表。&lt;/p&gt;
+ <title>臺灣終於有國際級5G驗證開放平臺了！國內5G實驗室首度獲O-RAN聯盟及TIP組織認證</title>
+ <link>https://www.ithome.com.tw/news/146357</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;臺灣有兩間5G開放網路實驗室，由天線製造商耀登集團，以及由經濟部工業局各自打造完成，最近分別通過國際兩大5G電信開放架構組織O-RAN聯盟與TIP組織認可，允許他們可以就近在臺提供5G設備驗測服務，讓網通業者可以採用O-RAN規範或TIP規範的5G驗證開放平臺，來驗證自家5G產品。意味者，臺灣終於有符合國際規格的5G驗證開放平臺，能夠打通國產5G發展的任督二脈，實現國產5G藍圖最後一塊拼圖。&lt;/p&gt;
+&lt;p&gt;在全球5G加速發展趨勢下，5G電信開放架構的採用，也成了近來臺灣推動5G發展的重要政策方針，政府不僅僅號召國內網通廠商加入，來帶動國產5G發展，更要組5G國家隊，加入全球5G供應鏈，將產品及技術輸出國際。為此，NCC今年初更設定目標，5年內要達到4成5G國產品採用率，這些5G國產品全部採用5G開放規格設計。&lt;/p&gt;
+&lt;p&gt;但光有政府號召，網通廠商投入還不夠，想要發展國產5G，還缺少一個重要關鍵，就是要建立屬於自己的國際級5G驗證開放平臺。&lt;/p&gt;
+&lt;p&gt;正因為臺灣一直沒有符合國際規格的5G測試實驗環境，所以，以往國內5G設備商或網通業者只能自行尋找適合的測試環境，或遠赴國外測試，但有了國際級5G驗證開放平臺後，現在網通廠商可以自行選擇要採用O-RAN規格或TIP規格的測試環境，來驗測自家5G產品，而且還有兩間國際級5G實驗室，可提供兩大組織5G開放產品驗證，可以說是，實現國產5G藍圖最後一塊拼圖。&lt;/p&gt;
+&lt;p&gt;這次通過O-RAN聯盟與TIP組織認證的臺灣5G實驗室有兩間，前者是天線網通廠商耀登集團所取得，主要提供5G開放基地臺產品一致性測試，用來驗證產品有無符合聯盟規範與相關標準。後者則是經濟部工業局5G開放網路實驗室拿下，涵蓋測試面向更廣，從5G核網、5G基地臺到終端設備之間的互通、互連測試都包含其中。&lt;/p&gt;
+&lt;p&gt;進一步來看，耀登原本就有自己的獨立實驗室，用來測試自家天線產品，因為開放網路架構的需求興起，所以，這家公司後來才決定將原來實驗室擴建，打造成5G O-RAN產品測試實驗室，並向O-RAN聯盟提交申請。O-RAN聯盟在8月中最新一份&lt;a href=&quot;https://static1.squarespace.com/static/5ad774cce74940d7115044b0/t/611a53ea2436a96c6c7f3a01/1629115370586/O-RAN.EC.August-16-2021-PR.v01.00.pdf&quot;&gt;白皮書&lt;/a&gt;中，正式將該實驗室列入合格名單，成為該聯盟最新一批通過申請的OTIC（開放測試與整合中心）實驗室。目前，O-RAN聯盟在全球共有5座OTIC實驗室，臺灣是亞洲第一座，其餘都在歐洲。值得一提的是，除了OTIC實驗室，耀登還設立5G資安實驗室。耀登預期將在25日一場中華電信揭牌活動上揭露更多訊息。&lt;/p&gt;
+&lt;p&gt;經濟部工業局拿到國際5G驗證平臺許可更早，早在今年5月底，工業局的5G開放網路實驗室，就獲得TIP組織的同意，成為TIP社群實驗室（TIP Community Labs）一員，但從申請到取得資格也花一年多時間，經濟部工業局電子資訊組科長李純孝表示，成為TIP實驗室一員最大好處，只要經過他們驗證合格的5G產品，就能取得官方標章，不僅能夠替業者增加國際公信力與可靠度，產品資訊也會放上官網，讓全球5G業者或建置專網企業都看得到。&lt;/p&gt;
+&lt;p&gt;工業局5G開放網路實驗室，目前設置於桃園智慧創新應用示範中心，不只提供NSA非獨立組網架構的產品測試環境，今年初也開始支援5G SA組網架構，5G頻譜則以主流3.5GHZ為主，啟用至今，有十多家網通業者申請測試，如雲達、和碩、啟碁等。&lt;/p&gt;
+&lt;p&gt;獲得兩大5G開放架構組織認可後，李純孝表示，臺灣現在已能開放兩大5G驗證開放平臺，來提供業者測試5G O-RAN產品或TIP相關設備，並且就近取得官方測試報告證明或標章，讓通過檢測合格的5G開放產品，能夠迅速銷往全球。他也補充表示，目前他們正在與耀登5G實驗室合作，共同協助業者完成相關5G開放產品測試，包含一致性測試、互通測試項目。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 23 Aug 2021 06:25:13 +0000</pubDate>
+ <pubDate>Tue, 24 Aug 2021 07:52:34 +0000</pubDate>
+ <dc:creator>余至浩</dc:creator>
+ <guid isPermaLink="false">146357 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146357#comments</comments>
+</item>
+<item>
+ <title>Google Play將以國別及裝置為基準，提供更個人化的評價及評論內容</title>
+ <link>https://www.ithome.com.tw/news/146356</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;有鑑於開發者所打造的行動程式，在不同的國家或裝置上可能有不同的表現，&lt;a href=&quot;https://android-developers.googleblog.com/2021/08/making-ratings-and-reviews-better-for.html&quot; target=&quot;_blank&quot;&gt;Google決定變更Google Play上的評價與評論政策&lt;/a&gt;，從今年的11月起，Android手機用戶在Google Play上只能看到當地用戶的評價與評論，而從明年初起，平板、Chromebook與穿戴式裝置用戶，也能自Google Play上看到專屬於相關裝置的評價。&lt;/p&gt;
+&lt;p&gt;Google表示，每個地區的用戶對特定程式的評價可能不盡公平，例如有個程式內含只影響單一國家的臭蟲，但其評價效應卻會出現在全球市場，或者是開發者特別改善了程式對平板電腦的支援，然而這些增進可能會被手機用戶忽略。&lt;/p&gt;
+&lt;p&gt;因此Google決定提供更個人化也更細緻的評價系統。從今年的11月起，Google Play的用戶將只能看到所註冊的裝置區域對程式的評價，例如日本用戶只能看到日本使用者對特定程式的評價。&lt;/p&gt;
+&lt;p&gt;明年初則會進一步將評價進行分類，從手機、平板電腦、Chrome OS、穿戴式裝置到Auto，使用者用什麼裝置連至Google Play，就會出現相關裝置用戶對特定程式的評價。&lt;/p&gt;
+&lt;p&gt;這樣一來，使用者就可直接查看當地用戶對特定裝置上的行動程式的評語，而開發者也更清楚程式在每個國家或特定裝置的回饋意見。&lt;/p&gt;
+&lt;p&gt;未來開發者將可檢視特定時間內的評價分析，例如每日、每周或每28天，若搭配所下載的CSV檔案，可更方便進行離線分析。為了讓開發者更容易適應這些新的變更，Google在Google Play執行任何變更的10周前，就會自動分析相關程式可能面臨的評價改變，並在改變幅度超過0.2顆星時通知開發者。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 24 Aug 2021 07:10:42 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146342 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146342#comments</comments>
+ <guid isPermaLink="false">146356 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146356#comments</comments>
 </item>
 <item>
- <title>微軟開始出貨Windows Server 2022</title>
- <link>https://www.ithome.com.tw/news/146341</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;經過半年的預覽，微軟上周正式出貨最新伺服器作業系統Windows Server 2022。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cloudblogs.microsoft.com/windowsserver/2021/03/02/announcing-windows-server-2022-now-in-preview/&quot; target=&quot;_blank&quot;&gt;微軟今年3月公開預覽Windows Server 2022&lt;/a&gt;。&lt;a href=&quot;https://twitter.com/teroalhonen/status/1428745774276481026/photo/1&quot; target=&quot;_blank&quot;&gt;上周使用者發現Server 2022已經透過大量授權合約（Volume Licensing）的服務中心釋出給用戶&lt;/a&gt;。連同Windows 11的ISO檔，&lt;a href=&quot;https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022&quot; target=&quot;_blank&quot;&gt;微軟也於上周釋出了Server 2022的ISO檔&lt;/a&gt;，供用戶下載測試180天。&lt;/p&gt;
-&lt;p&gt;Windows Server 2022提供標準、資料中心及資料中心：Azure版本。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/zh-tw/windows-server/get-started/whats-new-in-windows-server-2022&quot; target=&quot;_blank&quot;&gt;微軟說明&lt;/a&gt;，Windows Server 2022是以Server 2019為基礎，並強化多層次安全，Azure混合雲管理及應用程式開發平臺。多層次安全包括信賴平臺模組 2.0 (TPM 2.0)、韌體保護、虛擬化安全等核心伺服器防護、使用DNS over HTTPS、預設啟用HTTPS。在混合雲管理方面則可透過啟用Azure Arc管理本地部署的Windows伺服器和Azure雲服務，資料中心版本則可支援Azure Automanage熱修補（Hotpatch）功能，可在VM上安裝更新而不需重開機。應用程式平臺改進功能則強化應用程式相容性，以及提升Kubernetes-based Windows 容器的啟動速度。&lt;/p&gt;
-&lt;p&gt;此外Windows Admin Center 也強化安全管理功能，並且協助更快於Azure上部署.NET應用程式等。而Edge瀏覽器也將取代Internet Explorer（IE）內建於Server 2022。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/lifecycle/products/windows-server-2022&quot; target=&quot;_blank&quot;&gt;微軟也於上周更新Server 2022的技術支援網頁&lt;/a&gt;。主流支援從2021年8月18日起到2026年10月13日，延伸支援則到2031年的10月14日止。&lt;/p&gt;
+ <title>微軟Azure Virtual Desktop現在支援Windows 11</title>
+ <link>https://www.ithome.com.tw/news/146354</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟本周宣布&lt;a href=&quot;https://techcommunity.microsoft.com/t5/azure-virtual-desktop/windows-11-preview-is-now-available-on-azure-virtual-desktop/ba-p/2666468&quot; target=&quot;_blank&quot;&gt;雲端虛擬桌面工具Azure Virtual Desktop現在可跑Windows 11預覽版&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;源自Windows Virtual Desktop的Azure Virtual Desktop，是一項桌面虛擬化服務，讓使用者在任何裝置，包括Windows、macOS、Linux、Android、iOS或是HTML5等平臺上，透過網路連線存取位於另一臺Windows機器上的應用程式或檔案。Azure Virtual Desktop支援Windows Server、Windows 7及Windows 8。而Windows 11是Azure Virtual Desktop最新支援的Windows平臺。&lt;/p&gt;
+&lt;p&gt;微軟表示，配合Windows 11，Azure Virtual Desktop提供多連線（multi-session）支援，可在單一Azure VM上供多名使用者連線。現在用戶已經可利用目前仍為預覽版的信任啟動（Trusted Launch）功能，在建立新VM時設定TPM2.0的安全開機功能。利用Azure Virtual Desktop時，VM上可提供和原生環境相同使用經驗，但如果牽涉一些高階顯示效果，像是透明、動畫、圓角等，則需具有足夠等級的GPU支援。&lt;/p&gt;
+&lt;p&gt;現在企業及教育版用戶已經可以Azure Virtual Desktop跑Windows 11測試版，可經由Windows Insider測試方案取得。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://azuremarketplace.microsoft.com/en-US/marketplace/apps/microsoftwindowsdesktop.windows-11-preview?tab=overview&quot; target=&quot;_blank&quot;&gt;Azure Marketplace有3種Windows 11映像檔（測試版）可供下載&lt;/a&gt;，包括Windows 11 Enterprise、Windows 11 Enterprise多連線，以及Windows 11 Enterprise多連線＋Microsoft 365 App。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/145984&quot; target=&quot;_blank&quot;&gt;8月初上線的Windows 365&lt;/a&gt;和Azure Virtual Desktop一樣，可將Windows App和檔案遠端執行於任何用戶裝置上，不過Windows 365是按人頭付費使用組態好的Cloud PC，最低每月20美元，Azure Virtual Desktop則是依用量計價。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 23 Aug 2021 06:10:26 +0000</pubDate>
+ <pubDate>Tue, 24 Aug 2021 06:58:22 +0000</pubDate>
  <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146341 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146341#comments</comments>
+ <guid isPermaLink="false">146354 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146354#comments</comments>
 </item>
 <item>
- <title>Google裁撤Google Health，蘋果精簡健康App專案</title>
- <link>https://www.ithome.com.tw/news/146340</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;軟體大廠過去幾年大舉投資健康照護領域，不過Business Insider上周報導，&lt;a href=&quot;https://www.businessinsider.com/google-health-shutting-down-david-feinberg-leaves-2021-8&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt;和蘋果分別裁撤和縮編開發數位健康技術及方案的部門。&lt;/p&gt;
-&lt;p&gt;Business Insider上周取得Google搜尋部門主管Jeff Dean發出的內部員工信件，告知Google Health將被裁撤，而部門員工將分批調往他職。其中開發搜尋病患紀錄相關技術的員工將歸Dean管轄，而負責將機器學習用於醫療影像標註或其他處理者，則會轉調由副總裁Yossi Matias主掌的搜尋與AI部門。&lt;/p&gt;
-&lt;p&gt;Google於2018年組織重整成立Google Health，合併AI子公司DeepMind的健康照護部門，並挖來醫療量重量級人物Geisinger Healthcare醫療體系執行長David Feinberg執掌該部門。&lt;/p&gt;
-&lt;p&gt;不過三年來Google Health成果有限，也未能為Google帶來足夠的獲利。&lt;a href=&quot;https://www.ithome.com.tw/news/145213&quot; target=&quot;_blank&quot;&gt;6月Business Insider首度報導Google Health縮編及組織重整&lt;/a&gt;，700名員工中的130人轉調Fitbit。&lt;/p&gt;
-&lt;p&gt;而根據最新報導，Feinberg也已離職，跳槽電子病歷方案商Cerner擔任執行長。&lt;/p&gt;
-&lt;p&gt;另一方面，B&lt;a href=&quot;https://www.businessinsider.com/apple-scaling-back-healthhabit-app-layoffs-2021-8&quot; target=&quot;_blank&quot;&gt;usiness Insider於上周報導&lt;/a&gt;，蘋果近日縮編名為HealthHabit的專案團隊。HealthHabit據傳負責開發蘋果員工健康管理應用，包括設定與紀錄運動目標、紀錄高血壓相關數據，並和公司合作診所的醫師諮詢等等。計畫是讓員工配戴Apple Watch來蒐集心率、走路步數或其他生理資訊，並上傳公司伺服器。&lt;/p&gt;
-&lt;p&gt;HealthHabit是蘋果健康部門（Apple Health）的一部份，後者主要目的是推動蘋果數位健康藍圖，開發蘋果診所、消費者健康App功能開發，像是蒐集心率等資訊，以及其他數位健康工具。Apple Health成員包含數百名工程師、專案管理、資料科學家與醫師等背景，HealthHabit專案則有50多人。&lt;/p&gt;
-&lt;p&gt;這不是第一次HealthHabit傳出即將被蘋果放棄的消息。&lt;a href=&quot;https://www.ithome.com.tw/news/145072&quot; target=&quot;_blank&quot;&gt;華爾街日報6月報導&lt;/a&gt;，HealthHabit推出後遭質疑侵犯員工隱私，員工也不太買單。此外蘋果健康照護的計畫已從初級照護（primary care）轉向最擅長的Apple Watch，開發手錶上的健康功能。&lt;/p&gt;
-&lt;p&gt;報導指出，目前還不清楚HealthHabit何去何從，有可能是再縮小規模，也可能是整個專案關閉。這50多人如果未能在內部移轉到其他專案，則可能會被裁員。&lt;/p&gt;
+ <title>CISA警告：駭客正在積極開採ProxyShell漏洞</title>
+ <link>https://www.ithome.com.tw/news/146353</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://us-cert.cisa.gov/ncas/current-activity/2021/08/21/urgent-protect-against-active-exploitation-proxyshell&quot; target=&quot;_blank&quot;&gt;美國網路安全及基礎設施安全局（Cybersecurity and Infrastructure Security Agency，CISA）上周警告&lt;/a&gt;，駭客正在積極開採位於Microsoft Exchange的ProxyShell漏洞，呼籲各大組織應儘速修補。&lt;/p&gt;
+&lt;p&gt;ProxyShell實際上是由3個漏洞所串連，分別是微軟於4月修補的&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34473&quot; target=&quot;_blank&quot;&gt;CVE-2021-34473&lt;/a&gt;與&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34523&quot; target=&quot;_blank&quot;&gt;CVE-2021-34523&lt;/a&gt;，以及5月修補的&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-31207&quot; target=&quot;_blank&quot;&gt;CVE-2021-31207&lt;/a&gt;，值得注意的是，其中的CVE-2021-34473與CVE-2021-34523雖在4月就修補，但微軟一直到7月才分配CVE編號給它們，可能會讓許多根據CVE編號進行修補的管理人員，忽略這兩個漏洞。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146093&quot; target=&quot;_blank&quot;&gt;這3個漏洞是由臺灣資安業者戴夫寇爾（Devcore）所揭露&lt;/a&gt;，分別屬於遠端程式攻擊漏洞、權限擴張漏洞與安全功能繞過漏洞，它們同時影響Microsoft Exchange Server 2013、2016與2019，串連這些漏洞將允許駭客於系統上執行任意程式。&lt;/p&gt;
+&lt;p&gt;在戴夫寇爾首席研究人員蔡政達（Orange Tsai）於8月初舉行的黑帽大會上，展示了ProxyShell漏洞之後，駭客即開始掃描網路上含有相關漏洞的系統，包括研究人員與駭客也都著手打造針對ProxyShell的攻擊程式。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://doublepulsar.com/multiple-threat-actors-including-a-ransomware-gang-exploiting-exchange-proxyshell-vulnerabilities-c457b1655e9c&quot; target=&quot;_blank&quot;&gt;資安研究人員Kevin Beaumont指出&lt;/a&gt;，ProxyShell漏洞比&lt;a href=&quot;https://www.ithome.com.tw/news/143208&quot; target=&quot;_blank&quot;&gt;ProxyLogon漏洞&lt;/a&gt;更嚴重，因為ProxyShell更容易開採，而且很多組織基本上並未修補。&lt;/p&gt;
+&lt;p&gt;不管是Beaumont自己設置的誘捕系統或是&lt;a href=&quot;https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lockfile-ransomware-new-petitpotam-windows&quot; target=&quot;_blank&quot;&gt;資安業者賽門鐵克&lt;/a&gt;，都已發現駭客正利用ProxyShell漏洞來部署勒索軟體LockFile，且根據賽門鐵克的觀察，7月才看到的LockFile，到了今年8月下旬就已感染全球至少10家組織。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/msp/comments/p8ik84/polite_warning_please_patch_the_newest_exchange/h9qqq83/&quot; target=&quot;_blank&quot;&gt;資安業者Huntress則透過Reddit警告&lt;/a&gt;，已於未修補的Microsoft Exchange伺服器上看到5種不同功能的惡意Web Shell，且在8月22日時，網路上至少還有1,764臺尚未修補ProxyShell漏洞的Exchange伺服器。&lt;/p&gt;
+&lt;p&gt;此外，截至8月22日，Huntress已於短短的4天內，看到164臺Exchange伺服器被成功入侵。&lt;/p&gt;
+&lt;p&gt;總之，ProxyShell漏洞現階段顯然已成為駭客的遊樂園，儘快修補才是上策。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 23 Aug 2021 05:14:04 +0000</pubDate>
+ <pubDate>Tue, 24 Aug 2021 06:29:02 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146353 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146353#comments</comments>
+</item>
+<item>
+ <title>HPE高層人事變動，成立GreenLake部門</title>
+ <link>https://www.ithome.com.tw/news/146352</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.hpe.com/us/en/newsroom/blog-post/2021/08/accelerating-hpes-transformation-to-a-cloud-services-business-and-delivery-model.html&quot; target=&quot;_blank&quot;&gt;HPE本周公布高層人事調整&lt;/a&gt;，包括技術長將退休，並成立GreenLake銷售部門，推動以GreenLake為中心以及服務（as a service）導向的公司策略。&lt;/p&gt;
+&lt;p&gt;HPE執行長Antonio Neri指出，新的人事和組織調整有助公司朝向速度及敏捷性轉型，並推動GreenLake成為邊緣到雲端（edge to cloud）平臺的市場龍頭地位。首先，HPE技術長Kumar Sreekanti將退休，直到HPE下個月任命新的技術長。&lt;/p&gt;
+&lt;p&gt;Sreekanti是&lt;a href=&quot;https://www.ithome.com.tw/news/127409&quot; target=&quot;_blank&quot;&gt;HPE 2018年收購&lt;/a&gt;大數據軟體及人工智慧（artificial intelligence，AI）業者Blue Data而加入HPE。他也曾是VMWare雲端基礎架構業務部門研發長。&lt;/p&gt;
+&lt;p&gt;同時HPE也成立GreenLake平臺開發團隊，由新任技術長統轄，開發相關技術。&lt;/p&gt;
+&lt;p&gt;在業務部份方面，HPE也成立GreenLake雲端服務解決方案事業群，將原本分散的HPE軟體部門，包括Ezmeral（包括容器管理、協同、IT自動化、AI等）、GreenLake Lighthouse零信任安全軟體以及相關軟體整合為一。新事業群直屬執行長，將由現任Aruba營運長Vishal Lall執掌。此外還成立GreenLake Cloud Services商用業務（Commercial Business）事業群，主掌GreenLake經銷及Go-to-Market銷售業務。&lt;/p&gt;
+&lt;p&gt;Ezmeral是&lt;a href=&quot;https://www.ithome.com.tw/news/138425&quot; target=&quot;_blank&quot;&gt;HPE去年成立的混合雲平臺軟體品牌&lt;/a&gt;，主要是用來和Red Hat OpenShift及VMware Tenzu競爭。&lt;/p&gt;
+&lt;p&gt;HPE也成立了2個服務團隊由營運長兼管，以確保HPE as a service類別產品的營運、服務及安全功能及運作順暢。&lt;/p&gt;
+&lt;p&gt;這樁收購是7月IBM總裁、原Red Hat執行長 &lt;a href=&quot;https://www.ithome.com.tw/news/145453&quot; target=&quot;_blank&quot;&gt;Jim Whitehurst離職&lt;/a&gt;後，另一個IT大廠的高層人事變動。外界都在等待，Whitehurst下個舞臺在哪，以及IBM能找到誰可取代他。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 24 Aug 2021 04:18:29 +0000</pubDate>
  <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146340 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146340#comments</comments>
-</item>
-<item>
- <title>殭屍網路發動大規模DDoS攻擊，每秒發出逾1,700萬次HTTP請求</title>
- <link>https://www.ithome.com.tw/news/146339</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;大規模的分散式阻斷服務攻擊（DDoS）事故，這幾年來已有數起。例如，&lt;a href=&quot;https://www.ithome.com.tw/news/143615&quot;&gt;今年4月資安業者Akamai揭露博奕網站遭到攻擊&lt;/a&gt;，是當時史上規模第3大的事故，流量每秒高達800GB。而最近，內容遞送網路（CDN）暨資安服務業者Cloudflare表示，&lt;a href=&quot;https://blog.cloudflare.com/cloudflare-thwarts-17-2m-rps-ddos-attack-the-largest-ever-reported/&quot;&gt;他們攔阻了一起每秒發出1,720萬次HTTP請求的DDoS攻擊&lt;/a&gt;，鎖定金融產業的客戶而來，該公司指出，這樣的攻擊規模，約是過往規模最大事故的3倍。&lt;/p&gt;
-&lt;p&gt;這樣的請求次數有多大？Cloudflare表示，他們在今年第2季處理的HTTP合法流量請求次數，平均每秒為超過2,500萬次，而在這起事故裡最高峰的請求次數，就接近合法流量請求的7成（68%）。&lt;/p&gt;
-&lt;p&gt;有別於過往的大規模DDoS攻擊，研究人員都是提及流量的規模，而本次Cloudflare則是揭露HTTP流量的請求次數，至於流量的規模為何？該公司並未提及。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/image10-1-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image10-1-s.png&quot; style=&quot;width: 580px; height: 291px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;針對攻擊流量的來源，Cloudflare認為是由殭屍網路發動，這些殭屍網路機器人（Bot）總數超過2萬個，分別來自全世界125個國家。該公司根據來源IP位址清查，印尼可能是殭屍網路機器人最多的國家，占了15%；另外有17%來自印度與巴西。這起攻擊中，殭屍網路機器人在大約30秒之中，總共發出了3.3億次請求，最高峰達到每秒1,720萬次。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/image14-1-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image14-1-s.png&quot; style=&quot;width: 580px; height: 340px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;不過，發動攻擊的殭屍網路為何？Cloudflare沒有說明。&lt;/p&gt;
-&lt;p&gt;但在這一波攻擊之前，Cloudflare認為已有預兆，因為他們在最近半個月發現了數起大規模的DDoS攻擊。其中一起發生於上星期，與發動上述事故相同的殭屍網路，鎖定主機服務供應商發動攻擊，最高峰的HTTP攻擊流量請求為每秒近800萬次。&lt;/p&gt;
-&lt;p&gt;而在2週之前，Mirai殭屍網路鎖定了兩家公司下手，其中一家是亞太地區的網際網路、電信，以及主機服務供應商，另一家則是博奕公司。在這些DDoS攻擊行動裡，Cloudflare指出，殭屍網路發動數次超過1Tbps的攻擊，最高峰達到約1.2Tbps。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 23 Aug 2021 05:06:39 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146339 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146339#comments</comments>
-</item>
-<item>
- <title>Google、微軟緊急修補瀏覽器高風險漏洞</title>
- <link>https://www.ithome.com.tw/news/146337</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google與微軟周末緊急釋出更新版Chrome及Chrome-based Edge瀏覽器，以修補6個高風險漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.cert-bund.de/advisoryshort/CB-K21-0886%20UPDATE%201&quot; target=&quot;_blank&quot;&gt;德國網路安全應變中心於周末發布安全公告&lt;/a&gt;，顯示Google Chrome及微軟Edge瀏覽器的6個漏洞，可讓遠端攻擊者開採以發動未指明對象的攻擊。這批漏洞被評估為高度風險。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0823-Google%20Chrome%20and%20Microsoft%20Chrome-based%20Edge%20%20vulnerabilities.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;受影響的版本包括Google Chrome 92.0.4515.159以前版本，及Edge 92.0.902.78以前的版本，且同時涵括Linux、MacOS X、UNIX和Windows平臺。&lt;/p&gt;
-&lt;p&gt;6個漏洞包括CVE-2021-30598到CVE-2021-30604。其中CVE-2021-30598和CVE-2021-30599為JavaScript v8引擎的類型混淆漏洞。CVE-2021-30603為WebStudio元件的競爭條件漏洞。CVE-2021-30600、CVE-2021-30601、CVE-2021-30602及CVE-2021-30604，則是分別位於Printing、Extensions API、WebRTC及ANGLE專案中的使用已釋放（Use after free）漏洞。除了WebRTC的漏洞是Google Project Zero找到，其餘都是來自外部研究人員的通報。&lt;/p&gt;
-&lt;p&gt;這是今年V8引擎至少第三度傳出同一類型的漏洞，前兩次分別發生於&lt;a href=&quot;https://www.ithome.com.tw/news/143989&quot; target=&quot;_blank&quot;&gt;4月&lt;/a&gt;及&lt;a href=&quot;https://www.ithome.com.tw/news/144947&quot; target=&quot;_blank&quot;&gt;6月&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Google為了等大部份用戶都更新，而暫時隱藏了這些漏洞的技術細節。Google未說明這批漏洞是否已發生開採活動。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://chromereleases.googleblog.com/2021/08/stable-channel-update-for-desktop.html&quot; target=&quot;_blank&quot;&gt;Google周末釋出穩定版的Chrome 92.0.4515.159版本&lt;/a&gt;，先修補Windows版，Mac和Linux平臺版本則會在未來幾天到幾周陸續部署。&lt;a href=&quot;https://docs.microsoft.com/zh-tw/deployedge/microsoft-edge-relnotes-security#august-19-2021&quot; target=&quot;_blank&quot;&gt;微軟則是釋出穩定版Edge 92.0.902.78版&lt;/a&gt;。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 23 Aug 2021 04:40:17 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146337 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146337#comments</comments>
+ <guid isPermaLink="false">146352 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146352#comments</comments>
 </item>
 </channel>
 </rss>

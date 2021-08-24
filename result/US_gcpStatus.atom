@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Cloud Status Dashboard Updates</title>
-  <updated>2021-08-19T19:05:10+00:00</updated>
+  <updated>2021-08-24T05:43:01+00:00</updated>
   <link href="https://status.cloud.google.com/" rel="alternate" type="text/html"></link>
   <link href="https://status.cloud.google.com/en/feed.atom" rel="self"></link>
   <author>
@@ -9,26 +9,318 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
-    <title>RESOLVED: The issue with Cloud Logging has been resolved for all affected projects.</title>
-    <link href="https://status.cloud.google.com/incidents/CWYZQhBtU4sf2cYJ8AAf" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:CWYZQhBtU4sf2cYJ8AAf.ffFLvLMrv1T54YiqC24E</id>
-    <updated>2021-08-19T19:05:10+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-18 11:15&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-18 15:06&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case using &lt;a href="https://cloud.google.com/support"&gt;https://cloud.google.com/support&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;(All Times US/Pacific)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 18 August 2021 11:15&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 18 August 2021 15:06&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 3 hours, 51 minutes&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Affected Services and Features:&lt;/strong&gt;  Cloud Logging&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Regions/Zones:&lt;/strong&gt; Global&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Cloud Logging experienced increased read errors globally for 3 hours, 51 minutes. From preliminary analysis, the root cause of the issue was due to a large increase in work from an internal service which overwhelmed the available capacity on a backend database. Log ingestion was not impacted.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Customer Impact:&lt;/strong&gt;&lt;/p&gt;
+    <title>RESOLVED: We are experiencing a connectivity issue affecting Cloud Dataproc in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/RPBQJ6t6qkJGkKG21Quv" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:RPBQJ6t6qkJGkKG21Quv.UYnqcqYtYkqcPBbrRspq</id>
+    <updated>2021-08-24T05:43:01+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:14&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:43&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud Dataproc has been resolved for all affected projects as of Monday, 2021-08-23 21:50 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataproc&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: We are experiencing a connectivity issue affecting Cloud Pub/Sub in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/LccZqKpFkxnBijMvQFU3" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:LccZqKpFkxnBijMvQFU3.meGrVwRRfXs6dpBqnjoo</id>
+    <updated>2021-08-24T05:41:36+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:20&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:41&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud Pub/Sub has been resolved for all affected projects as of Monday, 2021-08-23 20:38 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Pub/Sub&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: We are experiencing a connectivity issue affecting Cloud SQL in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/wNRZfELPApTbYeBrVTRy" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:wNRZfELPApTbYeBrVTRy.G2Y5pYpXaEt9XzezUp3U</id>
+    <updated>2021-08-24T05:35:31+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:14&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:35&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud SQL has been resolved for all affected projects as of Monday, 2021-08-23 21:52 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud SQL&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:47 PDT.</title>
+    <link href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:8DhiwfKvD987f5tJrj1G.AhTKMkhb1hiNG1ipkdec</id>
+    <updated>2021-08-24T05:34:21+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:47&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Google Cloud infrastructure components faced issues in australia-southeast2. Most of the services are now fully restored.  The impact is believed to have started at 2021-08-23 19:50 PST.&lt;/p&gt;
+&lt;p&gt;Products impacted and current status:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Customers experienced elevated read failures when attempting to query logs.&lt;/li&gt;
-&lt;li&gt;Customers were unable to access logs in the Cloud Console due to query timeouts.&lt;/li&gt;
+&lt;li&gt;Cloud FileStore - Service restored. 21:07 PST&lt;/li&gt;
+&lt;li&gt;Cloud Networking - Service restored. 20:41 PST&lt;/li&gt;
+&lt;li&gt;Cloud SQL - Customers might still see errors.&lt;/li&gt;
+&lt;li&gt;Cloud VPN - Service fully restored 20:41 PST&lt;/li&gt;
+&lt;li&gt;Cloud GKE - Service fully restored 20:41 PST&lt;/li&gt;
+&lt;li&gt;Cloud Storage - Service fully restored 22:27 PST&lt;/li&gt;
+&lt;li&gt;Cloud Dataproc - Service fully restored. 21:50:36 PST&lt;/li&gt;
+&lt;li&gt;Cloud Run - Service fully restored&lt;/li&gt;
+&lt;li&gt;Cloud Spanner - Service fully restored&lt;/li&gt;
+&lt;li&gt;Cloud Pub/Sub - Service restored. 20:38 PST&lt;/li&gt;
+&lt;li&gt;Cloud Dataflow - Services fully restored at 20:12 PST&lt;/li&gt;
+&lt;li&gt;Cloud Bigtable - Service restored. 21:36 PST&lt;/li&gt;
+&lt;li&gt;Cloud Memorystore - Service restored. 20:03 PST&lt;/li&gt;
+&lt;li&gt;Cloud Logging - Services fully restored - 21:18 PST&lt;/li&gt;
+&lt;li&gt;Cloud BigQuery - Services fully restored - 21:21 PST.&lt;/li&gt;
+&lt;li&gt;Cloud Identity &amp;amp; Security(Cloud Access Policy) - Service fully restored.&lt;/li&gt;
+&lt;li&gt;Cloud Load balancers- Fully restored- 21:47 PST&lt;/li&gt;
+&lt;li&gt;Cloud Persistent Disk - Service fully restored&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Additional details:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The issue has been mitigated and the problematic service has been identified and canceled. Query operations have returned to normal.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Operations&lt;/p&gt;</summary>
+&lt;p&gt;We apologise for the service disruption caused by this issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Infrastructure Components&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: We are experiencing a connectivity issue affecting Google Cloud Storage in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/TSaW8RCnLss2ob5fM2t5" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:TSaW8RCnLss2ob5fM2t5.Xp8intHPwNgB4uioxYur</id>
+    <updated>2021-08-24T05:31:46+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 21:12&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:31&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Google Cloud Storage has been resolved for all affected users as of Monday, 2021-08-23 22:27 US/Pacific. However most users should have seen the impact mitigated as of approximately 21:20 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Storage&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: We are experiencing a connectivity issue affecting Google Cloud Storage in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/TSaW8RCnLss2ob5fM2t5" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:TSaW8RCnLss2ob5fM2t5.9ZvRjx23jNgYLFB3EKqP</id>
+    <updated>2021-08-24T05:20:16+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 21:12&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:31&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: We are experiencing a connectivity issue affecting Google Cloud Storage in australia-southeast2&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue impacting Google Cloud Storage in australia-southeast2 begining at 2021-08-23 19:52 US/Pacific. We believe this issue is linked to &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Storage&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: Connectivity issues affecting BigQuery in australia-southeast2.</title>
+    <link href="https://status.cloud.google.com/incidents/9FtLfPznLEsy2pwmzfYp" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:9FtLfPznLEsy2pwmzfYp.rweJAMSHWRW8jsMYUk5S</id>
+    <updated>2021-08-24T05:14:28+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:14&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:21&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with BigQuery has been resolved for all affected users as of Monday, 2021-08-23 21:21 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google BigQuery&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:47 PDT.</title>
+    <link href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:8DhiwfKvD987f5tJrj1G.eSKQwwP53hJK4Lou2DhN</id>
+    <updated>2021-08-24T04:59:37+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:47&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2. We have started seeing recovery with our services.
+Products impacted and current status:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud FileStore - Customers might see API errors.&lt;/li&gt;
+&lt;li&gt;Cloud Networking - Service restored. 20:41 PST&lt;/li&gt;
+&lt;li&gt;Cloud VPN&lt;/li&gt;
+&lt;li&gt;Cloud GKE - Service fully restored.&lt;/li&gt;
+&lt;li&gt;Cloud Storage - Service fully restored.&lt;/li&gt;
+&lt;li&gt;Cloud Dataproc&lt;/li&gt;
+&lt;li&gt;Cloud Run - Service fully restored&lt;/li&gt;
+&lt;li&gt;Cloud Spanner - Service fully restored&lt;/li&gt;
+&lt;li&gt;Cloud Pub/Sub&lt;/li&gt;
+&lt;li&gt;Cloud Dataflow&lt;/li&gt;
+&lt;li&gt;Cloud Bigtable - Service restored. 21:36 PST&lt;/li&gt;
+&lt;li&gt;Cloud Memorystore - Service restored. 20:03 PST&lt;/li&gt;
+&lt;li&gt;Cloud Logging&lt;/li&gt;
+&lt;li&gt;Cloud BigQuery&lt;/li&gt;
+&lt;li&gt;Cloud Identity &amp;amp; Security(Cloud Access Policy) - Service fully restored.&lt;/li&gt;
+&lt;li&gt;Cloud load balancers- Fully restored&lt;/li&gt;
+&lt;li&gt;Persistent Disk - Service fully restored&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.
+We will provide an update by Monday, 2021-08-23 22:15 US/Pacific with current details.
+We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis:
+Customers impacted by this issue may see connectivity issues on Google Cloud Services.&lt;/p&gt;
+&lt;p&gt;Workaround:
+None at this time…&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Infrastructure Components&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:47 PDT.</title>
+    <link href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:8DhiwfKvD987f5tJrj1G.RhAEPqqicYAXGBwCVqzG</id>
+    <updated>2021-08-24T04:52:47+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:47&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We are experiencing an issue with Google Cloud infrastructure components  in australia-southeast2 starting 2021-08-23 19:50 PT.&lt;/p&gt;
+&lt;p&gt;Products impacted:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Cloud Load Balancers&lt;/li&gt;
+&lt;li&gt;Google Compute Engine - Customers might see failure for creating new VMs.&lt;/li&gt;
+&lt;li&gt;Cloud FileStore - Customers might see API errors.&lt;/li&gt;
+&lt;li&gt;Cloud VPN&lt;/li&gt;
+&lt;li&gt;Cloud GKE&lt;/li&gt;
+&lt;li&gt;Cloud PD&lt;/li&gt;
+&lt;li&gt;Cloud Storage&lt;/li&gt;
+&lt;li&gt;Cloud Dataproc&lt;/li&gt;
+&lt;li&gt;Cloud Run&lt;/li&gt;
+&lt;li&gt;Cloud Spanner&lt;/li&gt;
+&lt;li&gt;Cloud Pub/Sub&lt;/li&gt;
+&lt;li&gt;Cloud Dataflow&lt;/li&gt;
+&lt;li&gt;Cloud Bigtable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.
+We will provide an update by Monday, 2021-08-23 21:45 US/Pacific with current details.
+We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis:
+Customers impacted by this issue may see connectivity issues on Google Cloud Services.&lt;/p&gt;
+&lt;p&gt;Workaround:
+None at this time&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Infrastructure Components&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: We are experiencing a connectivity issue affecting Persistent Disk in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/1LczkFcPKVVPUEw6XBf7" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:1LczkFcPKVVPUEw6XBf7.3kXDHXBaUgPiyre5foY8</id>
+    <updated>2021-08-24T04:49:38+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:18&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:49&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Google Compute Engine Persistent Disk has been resolved for all affected users as of Monday, 2021-08-23 20:13 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: We are experiencing a connectivity issue affecting Cloud Memorystore in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/FWZV7AXUH99PsLc9Eywr" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:FWZV7AXUH99PsLc9Eywr.j1qYez1v8SvDKmt64qwk</id>
+    <updated>2021-08-24T04:48:45+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:21&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:48&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud Memorystore has been resolved for all affected users as of approximately Monday, 2021-08-23 20:03 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Cloud Memorystore&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: We are experiencing a connectivity issue affecting Cloud Bigtable in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/ZzoChnVNAqbWBKC4wcAP" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:ZzoChnVNAqbWBKC4wcAP.pRdtHwhFQgt9Sr5XntPY</id>
+    <updated>2021-08-24T04:40:28+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:24&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:40&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud Bigtable has been resolved for all affected users as of Monday, 2021-08-23 21:36 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Bigtable&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: We are experiencing a connectivity issue affecting Cloud access policy in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/pYnCSa67rJ3Q5FrXxPHg" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:pYnCSa67rJ3Q5FrXxPHg.UxmSXgDQyj9ijHNE2y5d</id>
+    <updated>2021-08-24T04:37:49+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:19&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:37&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud Identity &amp;amp; Security has been resolved for all affected users as of Monday, 2021-08-23 20:10 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Identity and Access Management&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: We are experiencing a connectivity issue affecting Google Kubernetes Engine in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/8aPfN89nkeWJVui93StH" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:8aPfN89nkeWJVui93StH.BmhkrBWEwgL861EdH2Zp</id>
+    <updated>2021-08-24T04:28:15+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:15&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:28&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Google Kubernetes Engine has been resolved for all affected users as of Monday, 2021-08-23 20:41 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Kubernetes Engine&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: Connectivity issues affecting BigQuery in australia-southeast2.</title>
+    <link href="https://status.cloud.google.com/incidents/9FtLfPznLEsy2pwmzfYp" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:9FtLfPznLEsy2pwmzfYp.Xww4kgCkJ4yTdd4kRkCC</id>
+    <updated>2021-08-24T04:23:18+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:14&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:21&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Description: We are experiencing an issue with BigQuery  at australia-southeast2&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;, no further updates will be provided here.&lt;/p&gt;
+&lt;p&gt;We apologise to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google BigQuery&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: The issue with Cloud Networking has been resolved for all affected users as of Monday, 2021-08-23 20:41:13 PDT.
+We thank you for your patience while we worked on resolving the issue.</title>
+    <link href="https://status.cloud.google.com/incidents/NJJp8jkNzFStMyiJZWWD" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:NJJp8jkNzFStMyiJZWWD.T2kxdT1SePXfE2MEPD2q</id>
+    <updated>2021-08-24T04:21:20+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:14&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 20:41&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Description: We are experiencing an issue with Cloud Networking  at australia-southeast2&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;, no further updates will be provided here.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Networking&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: We are experiencing a connectivity issue affecting Persistent Disk in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/1LczkFcPKVVPUEw6XBf7" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:1LczkFcPKVVPUEw6XBf7.hcs9YprPkvHgrSN5C6Zf</id>
+    <updated>2021-08-24T04:18:42+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:18&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:49&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: We are experiencing a connectivity issue affecting Persistent Disk in australia-southeast2&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;, no further updates will be provided here.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: We are experiencing a connectivity issue affecting Cloud access policy in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/pYnCSa67rJ3Q5FrXxPHg" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:pYnCSa67rJ3Q5FrXxPHg.F6hiJZ9BgRxgcNmdA1Ub</id>
+    <updated>2021-08-24T04:18:24+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:19&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:37&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: We are experiencing a connectivity issue affecting Cloud access policy in australia-southeast2&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;, no further updates will be provided here.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Identity and Access Management&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: We are experiencing a connectivity issue affecting Cloud SQL in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/wNRZfELPApTbYeBrVTRy" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:wNRZfELPApTbYeBrVTRy.ybhKA2d8XS2ckGoMppU3</id>
+    <updated>2021-08-24T04:11:11+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:14&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:35&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: We are experiencing a connectivity issue affecting Cloud SQL in australia-southeast2&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;, no further updates will be provided here.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud SQL&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: We are experiencing a connectivity issue affecting Cloud Dataproc in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/RPBQJ6t6qkJGkKG21Quv" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:RPBQJ6t6qkJGkKG21Quv.tfLiAxCrKiaZYUDD9aXA</id>
+    <updated>2021-08-24T04:09:37+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:14&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:43&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: We are experiencing a connectivity issue affecting Cloud Dataproc in australia-southeast2&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;, no further updates will be provided here.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataproc&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: We are experiencing a connectivity issue affecting Cloud Pub/Sub in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/LccZqKpFkxnBijMvQFU3" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:LccZqKpFkxnBijMvQFU3.Yy8re9GPniWjFY5bttD1</id>
+    <updated>2021-08-24T04:08:22+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:20&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:41&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: We are experiencing a connectivity issue affecting Cloud Pub/Sub in australia-southeast2&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;, no further updates will be provided here.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Pub/Sub&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: We are experiencing a connectivity issue affecting Google Kubernetes Engine in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/8aPfN89nkeWJVui93StH" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:8aPfN89nkeWJVui93StH.t6za6RGCAAzpGffimjF5</id>
+    <updated>2021-08-24T04:06:17+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:15&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:28&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: We are experiencing a connectivity issue affecting Google Kubernetes Engine in australia-southeast2&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;, no further updates will be provided here.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Kubernetes Engine&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: We are experiencing a connectivity issue affecting Cloud Bigtable in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/ZzoChnVNAqbWBKC4wcAP" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:ZzoChnVNAqbWBKC4wcAP.uMG2KV62UsMP8xCXv13U</id>
+    <updated>2021-08-24T04:04:02+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:24&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:40&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: We are experiencing a connectivity issue affecting Cloud Bigtable in australia-southeast2&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;, no further updates will be provided here.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Bigtable&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: We are experiencing a connectivity issue affecting Cloud Memorystore in australia-southeast2</title>
+    <link href="https://status.cloud.google.com/incidents/FWZV7AXUH99PsLc9Eywr" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:FWZV7AXUH99PsLc9Eywr.bynU5TqJreCr1nPHVL5k</id>
+    <updated>2021-08-24T04:02:18+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:21&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:48&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: We are experiencing a connectivity issue affecting Cloud Memorystore in australia-southeast2&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;, no further updates will be provided here.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Cloud Memorystore&lt;/p&gt;</summary>
   </entry>
 </feed>

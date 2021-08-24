@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-08-23T20:21:30Z</updated>
+ <updated>2021-08-24T22:28:04Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,28 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58969470</id>
+  <title><![CDATA[叙利亚难民出战东京残奥]]></title>
+  <updated>2021-08-24T13:55:00Z</updated>
+  <published>2021-08-24T13:55:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/叙利亚难民出战东京残奥/av-58969470?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[叙利亚难民Anas因为工作以外导致双腿残疾，皮划艇运动让他重新找回自信。如今他将以难民代表队选手的身份出战东京残奥。]]></summary>
+  <category term="足坛体坛"/>
+  <link rel="enclosure" type="video/mp4" length="13771814" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210824_001_para_01r_sd.mp4" title="叙利亚难民出战东京残奥"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58967357</id>
+  <title><![CDATA[朱丽叶信箱：来自世界各地的爱情烦恼]]></title>
+  <updated>2021-08-24T11:52:00Z</updated>
+  <published>2021-08-24T11:52:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/朱丽叶信箱：来自世界各地的爱情烦恼/av-58967357?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[罗密欧与朱丽叶的故乡维罗纳有个朱丽叶信箱，每年会收到上万封来自世界各地的信件，向朱丽叶倾诉爱情烦恼。]]></summary>
+  <category term="文化经纬"/>
+  <link rel="enclosure" type="video/mp4" length="22911962" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210824_001_juliaclub_01r_sd.mp4" title="朱丽叶信箱：来自世界各地的爱情烦恼"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58958452</id>
   <title><![CDATA[洪灾之后：抢救葡萄酒大作战]]></title>
@@ -321,27 +343,5 @@
   <summary><![CDATA[大概从有人起，就有腐败了。然而究竟什么是腐败？又该如何对抗腐败呢？]]></summary>
   <category term="文化经纬"/>
   <link rel="enclosure" type="video/mp4" length="12676084" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210713_001_6800dkorruption_sd.mp4" title="腐败是怎样产生的？"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58291950</id>
-  <title><![CDATA[“千面总理”默克尔]]></title>
-  <updated>2021-07-17T07:24:00Z</updated>
-  <published>2021-07-17T07:24:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/千面总理-默克尔/av-58291950?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[在默克尔担任德国总理的这16年里，关于她的艺术创作层出不穷。在7月17日她67岁生日之际，我们选出一些她最著名的肖像作品呈现给大家。]]></summary>
-  <category term="文化经纬"/>
-  <link rel="enclosure" type="video/mp4" length="5235033" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210716_001_0dec8merkel2_sd.mp4" title="“千面总理”默克尔"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58280600</id>
-  <title><![CDATA[美国前总统布什接受DW采访谈中国]]></title>
-  <updated>2021-07-15T14:23:00Z</updated>
-  <published>2021-07-15T14:23:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美国前总统布什接受dw采访谈中国/av-58280600?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[布什认为，中国的问题是越发威权化。他在任时每次访华必谈人权，但是以一种不让对方尴尬、不激怒对方的方式进行。]]></summary>
-  <category term="时政风云"/>
-  <link rel="enclosure" type="video/mp4" length="6541806" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210715_001_inesbush_01r_sd.mp4" title="美国前总统布什接受DW采访谈中国"/>
  </entry>
 </feed>
