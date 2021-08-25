@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-25T02:53:19.667Z</updated>
+    <updated>2021-08-25T02:58:22.315Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -28,6 +28,32 @@
         </author>
         <category label="國際"/>
         <published>2021-08-25T02:46:33.087Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[警國安處引用國安法 43 條實施實則　要求支聯會交出資料]]></title>
+        <id>https://www.thestandnews.com/politics/a-%E8%AD%A6%E5%9C%8B%E5%AE%89%E8%99%95%E5%BC%95%E7%94%A8%E5%9C%8B%E5%AE%89%E6%B3%95-43-%E6%A2%9D%E5%AF%A6%E6%96%BD%E5%AF%A6%E5%89%87-%E8%A6%81%E6%B1%82%E6%94%AF%E8%81%AF%E6%9C%83%E4%BA%A4%E5%87%BA%E8%B3%87%E6%96%99</id>
+        <link href="https://www.thestandnews.com/politics/a-%E8%AD%A6%E5%9C%8B%E5%AE%89%E8%99%95%E5%BC%95%E7%94%A8%E5%9C%8B%E5%AE%89%E6%B3%95-43-%E6%A2%9D%E5%AF%A6%E6%96%BD%E5%AF%A6%E5%89%87-%E8%A6%81%E6%B1%82%E6%94%AF%E8%81%AF%E6%9C%83%E4%BA%A4%E5%87%BA%E8%B3%87%E6%96%99"/>
+        <updated>2021-08-25T02:54:15.291Z</updated>
+        <summary type="html"><![CDATA[警察國安處人員今早到支聯會副主席鄒幸彤在中環的辦公室，派送警察國安處的信件，根據國安法 43 條實施細則，要求支聯會交出支聯會資料，鄒幸彤指，除了她之外，所有支聯會常委今日都收到國安處要求交出資料的信件，她譴責警察用國安法向公民社會施壓。據了解，警方是引用國安法 43 條實施細則第 5 條，條文指警務處長可在保安局局長批准下，向外國政治組織或台灣政治組織或外國的代理人，送達書面通知，規定組識或代…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210825-04.png"></figure><p>警察國安處人員今早到支聯會副主席鄒幸彤在中環的辦公室，派送警察國安處的信件，根據國安法 43 條實施細則，要求支聯會交出支聯會資料，鄒幸彤指，除了她之外，所有支聯會常委今日都收到國安處要求交出資料的信件，她譴責警察用國安法向公民社會施壓。</p>
+
+<p>據了解，警方是引用國安法 43 條實施細則第 5 條，條文指警務處長可在保安局局長批准下，向外國政治組織或台灣政治組織或外國的代理人，送達書面通知，規定組識或代理人在指定期限，按指定方式向警務處處長提交指明資料，包括在香港的活動及個人資料、資產、收入、收入來源及開支。</p>
+
+<p>根據國安法 43 條實施細則，若外國及台灣政治性組織或外國及台灣代理人未有按要求向警方提供資料，除非可證明已經盡力或有非可能控制的原因，否則一經定罪，可被判罰款$100,000及監禁六個月；而若涉及提供虛假、不正確或不完整的資料，則可被判罰款$100,000及監禁兩年，但有理由相信有關資料是真實、正確及完整則屬合理辯解。</p>
+
+<p>警方去年中曾引用用國安法 43 條實施細則，申請法庭手令搜查《蘋果日報》，當時逾百名警員到將軍澳的《蘋果日報》大樓搜查。</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="政治"/>
+        <published>2021-08-25T02:36:13.910Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[港台兼職記者被指藏械及無線電　押後 10.25 再提堂]]></title>
@@ -1062,31 +1088,5 @@ FPS ID：5390547<br>
         </author>
         <category label="政治"/>
         <published>2021-08-24T11:19:31.387Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[深水埗夜歸女子遭針筒指嚇槍走手機　警方拘捕疑犯通宵扣查]]></title>
-        <id>https://www.thestandnews.com/society/%E6%B7%B1%E6%B0%B4%E5%9F%97%E5%A4%9C%E6%AD%B8%E5%A5%B3%E5%AD%90%E9%81%AD%E9%87%9D%E7%AD%92%E6%8C%87%E5%9A%87%E6%A7%8D%E8%B5%B0%E6%89%8B%E6%A9%9F-%E8%AD%A6%E6%96%B9%E6%8B%98%E6%8D%95%E7%96%91%E7%8A%AF%E9%80%9A%E5%AE%B5%E6%89%A3%E6%9F%A5</id>
-        <link href="https://www.thestandnews.com/society/%E6%B7%B1%E6%B0%B4%E5%9F%97%E5%A4%9C%E6%AD%B8%E5%A5%B3%E5%AD%90%E9%81%AD%E9%87%9D%E7%AD%92%E6%8C%87%E5%9A%87%E6%A7%8D%E8%B5%B0%E6%89%8B%E6%A9%9F-%E8%AD%A6%E6%96%B9%E6%8B%98%E6%8D%95%E7%96%91%E7%8A%AF%E9%80%9A%E5%AE%B5%E6%89%A3%E6%9F%A5"/>
-        <updated>2021-08-24T11:58:10.026Z</updated>
-        <summary type="html"><![CDATA[一名 25 歲女子上周六 (21 日)晚上獨自返回深水埗寓所時，遭一名劫匪以針筒指嚇行劫，被奪去其價值 7,000 元的手提電話。警方今日 (24 日)在同區拘捕疑犯，由於女事主與疑犯不相識，警方相信劫匪有目標針對夜歸女子犯案，呼籲夜歸人士提高警覺。案發於上周六晚約 10 時 15 分，深水埗警區刑事調查隊第五隊主管高級督察黃瀚緯表示， 25  歲女事主當時放工後獨自返回位於桂林街 30 至 3…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210824-11_copy.png"><figcaption><span>圖片來源：Google Map</span></figcaption></figure><p>一名 25 歲女子上周六 (21 日)晚上獨自返回深水埗寓所時，遭一名劫匪以針筒指嚇行劫，被奪去其價值 7,000 元的手提電話。警方今日 (24 日)在同區拘捕疑犯，由於女事主與疑犯不相識，警方相信劫匪有目標針對夜歸女子犯案，呼籲夜歸人士提高警覺。</p>
-
-<p>案發於上周六晚約 10 時 15 分，深水埗警區刑事調查隊第五隊主管高級督察黃瀚緯表示， 25&nbsp; 歲女事主當時放工後獨自返回位於桂林街 30 至 32 號的單幢式樓宇寓所。她進入大廈的地下鐵閘之後，準備上樓時，一名中國籍男子尾隨拍打大閘，女事主以為他是大廈住戶，遂開啟大閘讓他進入。</p>
-
-<p><strong>被捕男疑犯 40 歲報稱無業</strong></p>
-
-<p>當女事主步行至二樓梯間時，該男子取出一枝針筒，指嚇女事主，威嚇她交出其手提電話。女事主受驚下就範，劫匪得手後即逃離現場。過程中女事主並無受傷，報警求助。</p>
-
-<p>警方今日中午在深水埗基隆街拘捕一名 40 歲本地男子，報稱無業，居於深水埗區，懷疑與案件有關。女事主與疑犯不相識，警方相信劫匪是有目標針對夜歸女子犯案，疑犯將被通宵扣查。</p>
-
-<p>警方呼籲夜歸人士時刻提高警覺，留意有否可疑人士尾隨，避免開啟大廈閘門予陌生人。警方並呼籲目擊案件發生的市民，盡快與深水埗警區刑事調查隊第五隊聯絡，電話為 3661 8884。</p>
-
-<p>&nbsp;</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="社會"/>
-        <published>2021-08-24T11:28:56.759Z</published>
     </entry>
 </feed>
