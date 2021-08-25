@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/3116" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/3116</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/3116" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>中華電信聯手耀登旗下O-RAN認證實驗室，要助國產O-RAN產品搶攻5G市場</title>
+    <link>https://www.ithome.com.tw/news/146383</link>
+    <description> 國內提供天線、實驗室驗測服務的耀登集團旗下耀睿實驗室，近期獲得O-RAN聯盟認證為OTIC(Open Testing and Integration Centre)實驗室，未來將和中華電信合作，協助國內業者搶攻全球5G開放網路商機。
+耀登集團旗下原本就有實驗室，提供4G設備驗測服務，此次耀睿實驗室獲得國際O-RAN聯盟認證，成為全球5家合格的OTIC實驗室之一，其中4家位於德國、義大利、西班牙及法國，具有電信營運商背景，耀睿為唯一一家獨立實驗室，也是亞洲第一家獲得O-RAN聯盟認證的OTIC實驗，該實驗室提供一致性測試、互通性測試、端對端測試，以驗證不同廠牌的網元設備介接、互通性，加速5G開放網路的發展。</description>
+     <pubDate>2021-08-25  05:08:04</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146383</guid>
+  </item>
+  <item>
     <title>AT&amp;amp;T否認被駭遭竊7000萬用戶資料</title>
     <link>https://www.ithome.com.tw/news/146382</link>
     <description> 上周發生美國電信業者T-Mobile數百萬用戶資料遭駭客放上暗網出售，事後T-Mobile也證實是資料庫被駭所致。而另一家電信龍頭AT&amp;amp;T也傳出被駭客入侵，並導致7000萬用戶個資外洩，不過AT&amp;amp;T對此否認。</description>
@@ -247,14 +256,6 @@ PowerApps是微軟力推的低程式碼開發、流程設計等生產力工具�
      <pubDate>2021-08-23  04:08:58</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146346</guid>
-  </item>
-  <item>
-    <title>Google更新零信任解決方案BeyondCorp Enterprise，簡化自定義存取政策配置</title>
-    <link>https://www.ithome.com.tw/news/146344</link>
-    <description> Google更新零信任解決方案BeyondCorp Enterprise，加入3項新功能，讓用戶可以對其終端使用者，以更安全簡單的方式控制應用程式存取。第1個是對GCP API透過VPC服務控制，提供基於憑證的存取控制，官方提到，不少用戶使用不記名的證書存取雲端控制臺和API，但是當這些證書意外洩漏時，就可能被攻擊者用來進行非法存取。</description>
-     <pubDate>2021-08-23  03:08:16</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146344</guid>
   </item>
   </channel>
 </rss>
