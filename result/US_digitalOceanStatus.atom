@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://status.digitalocean.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.digitalocean.com/history.atom"/>
   <title>DigitalOcean Status - Incident History</title>
-  <updated>2021-08-25T23:05:40Z</updated>
+  <updated>2021-08-25T23:26:27Z</updated>
   <author>
     <name>DigitalOcean</name>
   </author>
+  <entry>
+    <id>tag:status.digitalocean.com,2005:Incident/7844255</id>
+    <published>2021-08-25T23:30:00Z</published>
+    <updated>2021-08-25T23:26:27Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/13rlbtv26ky9"/>
+    <title>FRA1 MongoDB Managed Database Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Aug &lt;var data-var='date'&gt;25&lt;/var&gt;, &lt;var data-var='time'&gt;23:30&lt;/var&gt; - &lt;var data-var='time'&gt;23:50&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;25&lt;/var&gt;, &lt;var data-var='time'&gt;23:26&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - During the window of 23:30 UTC to 23:50, our engineering team will be making changes to our MongoDB Managed Databases in FRA1 to improve performance.&lt;br /&gt;&lt;br /&gt;Expected Impact:&lt;br /&gt;&lt;br /&gt;All create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our FRA1 region will be temporarily disabled during maintenance.&lt;br /&gt;&lt;br /&gt;We do not anticipate any impact for existing MongoDB Managed Databases.&lt;br /&gt;&lt;br /&gt;Do not hesitate to contact support by opening a ticket if you have any additional questions or concerns.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.digitalocean.com,2005:Incident/7844037</id>
     <published>2021-08-25T23:05:37Z</published>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/811xq1fgvmww"/>
     <title>Cloud Control Panel</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;20:59&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our Engineering team has resolved the issue impacting Cloud Control Panel and all services should now be functioning normally. Thank you for your patience throughout this process. If you experience any further issues at all, please open a ticket with our Support team.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;20:02&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our Engineering team is currently monitoring an issue impacting Cloud Control Panel functionality. Between approximately 18:30 UTC and 19:30 UTC today, some users may have experienced errors or blank pages in the Cloud Control Panel, particularly when trying to view or deploy apps via App Platform. A fix has already been implemented, and we will continue to monitor the situation closely. We apologize for the inconvenience and will share another update once the matter is fully resolved.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:status.digitalocean.com,2005:Incident/7554399</id>
-    <published>2021-07-20T09:32:57Z</published>
-    <updated>2021-07-20T09:32:57Z</updated>
-    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/hfvv1h39jxc4"/>
-    <title>Spaces API Availability in SFO2</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;09:32&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our Engineering team has resolved the issue with Spaces in our SFO2 region. Spaces availability should now be operating normally. If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel. We apologize for any inconvenience.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;08:52&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our Engineering team has implemented a fix to resolve the issue with API availability for Spaces in our SFO2 region and is monitoring the situation. We will post an update as soon as the issue is fully resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;08:30&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Our Engineering team is investigating an issue with Spaces in our SFO2 region. During this time, users may experience issues with accessing Spaces via our Cloud Control Panel and see timeout errors when working with objects. We apologize for the inconvenience and will share an update once we have more information.&lt;/p&gt;</content>
   </entry>
 </feed>
