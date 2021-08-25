@@ -15,7 +15,7 @@
 	<atom:link href="https://atvnewsonline.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://atvnewsonline.com</link>
 	<description>东南亚</description>
-	<lastBuildDate>Wed, 25 Aug 2021 05:16:01 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 25 Aug 2021 05:18:37 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -37,6 +37,7 @@
 		<dc:creator><![CDATA[亚视新闻]]></dc:creator>
 		<pubDate>Wed, 25 Aug 2021 05:16:00 +0000</pubDate>
 				<category><![CDATA[经济]]></category>
+		<category><![CDATA[快讯]]></category>
 		<category><![CDATA[美联储]]></category>
 		<category><![CDATA[股市]]></category>
 		<category><![CDATA[亚洲股市]]></category>
