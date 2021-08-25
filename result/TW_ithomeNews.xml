@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=113&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=59&amp;rofile=atom" rel="self" type="application/rss+xml" />
       <item>
+    <title>AT&amp;amp;T否認被駭遭竊7000萬用戶資料</title>
+    <link>https://www.ithome.com.tw/news/146382</link>
+    <description> 上周發生美國電信業者T-Mobile數百萬用戶資料遭駭客放上暗網出售，事後T-Mobile也證實是資料庫被駭所致。而另一家電信龍頭AT&amp;amp;T也傳出被駭客入侵，並導致7000萬用戶個資外洩，不過AT&amp;amp;T對此否認。</description>
+     <pubDate>2021-08-25  05:08:40</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146382</guid>
+  </item>
+  <item>
     <title>資安一周第160期：殭屍網路發動大規模DDoS攻擊。駭客以百萬美元贖金分紅利誘，發動勒索軟體攻擊</title>
     <link>https://www.ithome.com.tw/news/146380</link>
     <description> 8/19-8/25必看資安新聞
@@ -247,15 +255,6 @@ PowerApps是微軟力推的低程式碼開發、流程設計等生產力工具�
      <pubDate>2021-08-23  03:08:16</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146344</guid>
-  </item>
-  <item>
-    <title>今年第二季全球對加密貨幣的採用成長881%</title>
-    <link>https://www.ithome.com.tw/news/146345</link>
-    <description> 加密貨幣市場分析機構Chainalysis上周公布了今年第二季的全球加密貨幣採用指標報告，顯示相較於去年同期，今年第二季全球對加密貨幣的採用大增了881%，且採用的前三名依序是越南、印度與巴基斯坦。
-Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密貨幣價值、零售交易價值、P2P交易量，再以當地的人均購買力平價進行加權，計算範圍擴及全球154個國家。</description>
-     <pubDate>2021-08-23  03:08:25</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146345</guid>
   </item>
   </channel>
 </rss>
