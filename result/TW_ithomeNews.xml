@@ -1,11 +1,22 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/213" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/213</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/213" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>資安一周第160期：殭屍網路發動大規模DDoS攻擊。駭客以百萬美元贖金分紅利誘，發動勒索軟體攻擊</title>
+    <link>https://www.ithome.com.tw/news/146380</link>
+    <description> 8/19-8/25必看資安新聞
+ 
+＃DDoS攻擊  ＃殭屍網路
+殭屍網路發動大規模DDoS攻擊，每秒發出逾1,700萬次HTTP請求</description>
+     <pubDate>2021-08-25  04:08:07</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146380</guid>
+  </item>
+  <item>
     <title>美國新創業者Cerebras Systems發表全球首個大腦等級的AI系統</title>
     <link>https://www.ithome.com.tw/news/146379</link>
     <description> 在2016年成立，專注於建置AI與深度學習電腦系統的Cerebras Systems，於24日發表了號稱是全球第一個大腦等級的AI解決方案，藉由一個冰箱大小的CS-2系統，來支援超過120兆個參數的模型，勝過了人腦中所存在的100兆個突觸。</description>
@@ -14,7 +25,7 @@
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146379</guid>
   </item>
   <item>
-    <title>國內爆發多個愛心協會大規模捐款個資外洩，影響機構恐破200間，關鍵資訊服務商網軟遭駭仍在調查中</title>
+    <title>國內爆發愛心協會大規模捐款個資外洩，影響機構恐破200間，關鍵資訊服務商網軟遭駭仍在調查中</title>
     <link>https://www.ithome.com.tw/news/146376</link>
     <description> 最近，臺灣爆發多起愛心捐款協會因個資外洩引發詐騙案件，刑事警察局指出，至8月16日止，已有至少35個愛心協會，因委託同一資訊服務商遭遇此事，受害規模比月初更擴大，而這家也是苦主之一的關鍵廠商，就是負責提供捐款系統公司的網軟科技（intersoft）。
 面對這次的網路攻擊事件，該公司坦言，已委請資安業者協助，清查並強化資安，執法機關也在持續調查，同時他們也持續通知客戶，也就是通知相關愛心協會，將遭駭客攻擊一事告知其客戶，同時，請這些愛心機構向捐款民眾示警，呼籲大家要小心不斷翻新的ATM相關詐騙話術，並注意信用卡盜刷問題。</description>
@@ -245,14 +256,6 @@ Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密�
      <pubDate>2021-08-23  03:08:25</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146345</guid>
-  </item>
-  <item>
-    <title>馬斯克：穿上有停車標誌的T恤就能愚弄特斯拉</title>
-    <link>https://www.ithome.com.tw/news/146343</link>
-    <description> 電動車大廠特斯拉（Tesla）在19日舉行的AI Day上，發表了用於特斯拉超級電腦Dojo的最新晶片D1、全自動駕駛（Full Self-Driving）系統，以及人形機器人Tesla Bot。不過，當會議上有人提出特斯拉汽車缺乏3D感應器是否會遭到對抗性攻擊（Adversarial Attacks）時，特斯拉創辦人暨執行長馬斯克（Elon Musk）坦承，他們還沒看到太多這樣的現象，不過他自己曾經利用一件印有停車標誌的T恤，來騙過特斯拉的自動駕駛輔助系統。</description>
-     <pubDate>2021-08-23  02:08:50</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146343</guid>
   </item>
   </channel>
 </rss>

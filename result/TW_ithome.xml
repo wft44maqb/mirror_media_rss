@@ -6,6 +6,74 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>資安一周第160期：殭屍網路發動大規模DDoS攻擊。駭客以百萬美元贖金分紅利誘，發動勒索軟體攻擊</title>
+ <link>https://www.ithome.com.tw/news/146380</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;8/19-8/25必看資安新聞&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3&gt; &lt;/h3&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃DDoS攻擊  ＃殭屍網路&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;殭屍網路發動大規模DDoS攻擊，每秒發出逾1,700萬次HTTP請求&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;內容遞送網路（CDN）暨資安服務業者Cloudflare表示，他們近期攔阻了一起每秒發出1,720萬次HTTP請求的DDoS攻擊，鎖定金融產業的客戶而來，該公司指出，這樣的攻擊規模，約是過往規模最大事故的3倍。&lt;/p&gt;
+&lt;p&gt;針對攻擊流量的來源，Cloudflare認為是由殭屍網路發動，當中運用的殭屍電腦（Bot）總數超過2萬個，分別來自全世界125個國家。這起攻擊中，殭屍網路機器人在大約30秒之中，總共發出了3.3億次請求，最高峰達到每秒1,720萬次。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146339&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/160-1-ddos-http-requests.png&quot; style=&quot;width: 400px; height: 201px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#808080;&quot;&gt;圖片來源：Cloudflare&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊  ＃內部威脅&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;駭客以百萬美元贖金分紅利誘員工，意圖在企業內部植入勒索軟體&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;郵件安全公司Abnormal Security於8月12日，攔截一批寄送給該公司用戶的可疑電子郵件，寄件者宣稱是DemonWare勒索軟體相關人士，要求收信人參與他們的攻擊計畫，在公司內部植入勒索軟體，假若勒索成功，收信人將能得到100萬美元的高額報酬，寄出這些郵件的人士也留下了電子郵件信箱與Telegram帳號，讓有意參與者與他們聯繫。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146295&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃加密貨幣&lt;/strong&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;日本加密貨幣交易所Liquid驚傳遭駭，駭客偷走近上億美元加密貨幣&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;日本加密貨幣交易所Liqiud於8月19日發出公告，指出他們大約於新加坡時間（SGT）7時50分，發現系統遭到入侵，攻擊者染指Liquid代管的熱錢包，並偷走了數量可觀的以太坊（Ethereum）、比特幣（Bitcoin），以及瑞波幣（Ripple）等多種加密貨幣。Liquid表示，他們正緊急將資產移往冷錢包，並且調查攻擊發生的原因。同時，Liquid亦暫停存取款服務。&lt;/p&gt;
+&lt;p&gt;後來Liquid經過清查表示，本次事故共有9,135萬美元的加密遭竊，總計有69種加密貨幣資產遭到侵占，被轉到其他交易所或是去中心化金融平臺。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146310&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊  ＃漏洞攻擊  ＃網頁瀏覽器&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;Google、微軟緊急修補瀏覽器高風險漏洞&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;德國網路安全應變中心於8月20日，針對Google Chrome及微軟Edge瀏覽器提出警告，指出這些瀏覽器存在6個高度風險的漏洞，而且波及Windows、macOS，以及Linux等作業系統的用戶。&lt;/p&gt;
+&lt;p&gt;兩家廠商獲報後，皆陸續修補上述漏洞。Google於8月16日針對Windows用戶，發布92.0.4515.159版Chrome，並表明接下來即將推送相關修補給macOS與Linux用戶；微軟則是於8月20日，推出Edge 92.0.902.78版。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146337&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/160-2-Chrome-Edge.png&quot; style=&quot;width: 400px; height: 228px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#808080;&quot;&gt;圖片來源：德國網路安全應變中心&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃勒索軟體攻擊&lt;/strong&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;針對勒索軟體Diavol與製作TrickBot的駭客組織的關連，研究人員找到更多線索&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;資安業者Fortinet在7月初揭露名為的Diavol勒索軟體，並基於與Conti有許多共通的特性，認為可能是出自製作Trickbot殭屍病毒的駭客「Wizard Spider」之手。對於這個勒索軟體的研究，最近出現了新的進展：IBM X-Force威脅情報研究團隊指出，他們找到了Diavol的早期開發版本並進行研究，根據程式碼的編排方式來判斷，這款勒索軟體應該就是來自Wizard Spider。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146280&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃殭屍網路  ＃物聯網資安&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;殭屍網路Mozi鎖定Netgear、華為、中興網路閘道發動攻擊&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;微軟揭露新一波殭屍網路Mozi的攻擊，研究人員發現，近期這款殭屍網路病毒針對Netgear、華為、中興（ZTE）等廠牌的網路閘道設備，加入了能夠持續運作的能力。&lt;/p&gt;
+&lt;p&gt;對於這些暴露於上述風險的路由器和網路閘道，微軟建議管理者要使用強密碼，以及安裝最新的修補程式，來防範Mozi的攻擊。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146349&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃金融木馬  ＃CAPTCHA&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;銀行木馬Gozi以冒牌CAPTCHA為幌子，繞過瀏覽器防護機制入侵電腦&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;為了繞過瀏覽器的安全防護機制，攻擊者竟以假的CAPTCHA圖文驗證機制，透過引誘使用者輸入特定的按鍵，其背後目的卻是下載惡意程式。&lt;/p&gt;
+&lt;p&gt;根據Bleeping Computer的報導，安全研究團隊MalwareHunterTeam發現新的散布銀行木馬Gozi（或稱Ursnif）手法，攻擊者在網路流傳影片，一旦使用者想要觀看，這個影片就會要求依序輸入特定按鍵，來驗證是否為人類，但實際上，這些按鍵是讓已於背景下載完成的Gozi，留存在電腦的指令。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146276&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/160-3-fake-captcha.png&quot; style=&quot;width: 400px; height: 295px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;圖片來源：Bleeping Computer&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊  ＃資料外洩  ＃資安險&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;勒索軟體Conti在攻擊前會先偵察目標組織的保險合約&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;威脅情報業者Advanced Intelligence（AdvIntel）在近期的一起攻擊事故裡發現，使用Conti勒索軟體的駭客，在攻擊目標的網路植入勒索軟體之前，先上傳了名為Rclone的開源資料備份工具，複製並竊取受害組織的保險合約資料，目的與他們打算向該組織索討的贖金金額有關。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146275&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃物聯網資安  ＃漏洞攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong&gt;物聯智慧Kalay平臺含有重大漏洞，將允許駭客自遠端存取連網裝置&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;美國網路安全暨基礎架構安全署（CISA）與資安業者FireEye聯手，於8月17日提出警告，臺灣IoT平臺業者物聯智慧（ThroughTek）所打造的Kalay P2P SDK，含有重大漏洞CVE-2021-28372，攻擊者一旦濫用，就能自遠端執行任意程式或存取機密資訊，物聯智慧已修補該漏洞，並呼籲用戶儘快更新。&lt;a href=&quot;https://www.ithome.com.tw/news/146258&quot;&gt;&lt;strong&gt;詳全文&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;知名連鎖餐飲業者鬍鬚張遭勒索軟體攻擊&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;鬍鬚張先後在6月21日、7月2日遭遇2起勒索軟體攻擊，並於7月19日發布公告，並說明資料外洩情形，通知民眾個資外洩可能風險，並說明已經向法務部調查局報案與強化資安。&lt;/p&gt;
+&lt;p&gt;由於許多會員僅提供行動電話聯繫方式，該公司再度於8月12日以簡訊通知會員，告知此次資安事件的調查與因應措施，提醒民眾變更密碼，並且要小心假冒鬍鬚張客服人員的詐騙。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146292&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;&lt;span style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;更多資安動態&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;h3&gt;●&lt;a href=&quot;https://www.ithome.com.tw/news/146260&quot;&gt;近四成企業於12個月內遭遇勒索軟體攻擊事故&lt;/a&gt;&lt;br /&gt;
+●&lt;a href=&quot;https://www.ithome.com.tw/news/146297&quot;&gt;美國人口統計局因資安事故暴露IT管控疏失&lt;/a&gt;&lt;br /&gt;
+●&lt;a href=&quot;https://www.ithome.com.tw/news/146273&quot;&gt;T-Mobile證實遭駭客入侵，近5千萬用戶資料外洩&lt;/a&gt;&lt;/h3&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 25 Aug 2021 08:41:07 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146380 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146380#comments</comments>
+</item>
+<item>
  <title>美國新創業者Cerebras Systems發表全球首個大腦等級的AI系統</title>
  <link>https://www.ithome.com.tw/news/146379</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在2016年成立，專注於建置AI與深度學習電腦系統的Cerebras Systems，於24日發表了&lt;a href=&quot;https://cerebras.net/blog/announcing-the-cerebras-architecture-for-extreme-scale-ai/&quot; target=&quot;_blank&quot;&gt;號稱是全球第一個大腦等級的AI解決方案&lt;/a&gt;，藉由一個冰箱大小的CS-2系統，來支援超過120兆個參數的模型，勝過了人腦中所存在的100兆個突觸。&lt;/p&gt;
@@ -25,7 +93,7 @@
  <comments>https://www.ithome.com.tw/news/146379#comments</comments>
 </item>
 <item>
- <title>國內爆發多個愛心協會大規模捐款個資外洩，影響機構恐破200間，關鍵資訊服務商網軟遭駭仍在調查中</title>
+ <title>國內爆發愛心協會大規模捐款個資外洩，影響機構恐破200間，關鍵資訊服務商網軟遭駭仍在調查中</title>
  <link>https://www.ithome.com.tw/news/146376</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;最近，臺灣爆發多起愛心捐款協會因個資外洩引發詐騙案件，刑事警察局指出，至8月16日止，已有至少35個愛心協會，因委託同一資訊服務商遭遇此事，受害規模比月初更擴大，而這家也是苦主之一的關鍵廠商，就是負責提供捐款系統公司的網軟科技（intersoft）。&lt;/p&gt;
 &lt;p&gt;面對這次的網路攻擊事件，該公司坦言，已委請資安業者協助，清查並強化資安，執法機關也在持續調查，同時他們也持續通知客戶，也就是通知相關愛心協會，將遭駭客攻擊一事告知其客戶，同時，請這些愛心機構向捐款民眾示警，呼籲大家要小心不斷翻新的ATM相關詐騙話術，並注意信用卡盜刷問題。&lt;/p&gt;
@@ -46,7 +114,7 @@
 &lt;p&gt;從上述這些資安強化內容來看，網軟系統在基礎資安防護上，似乎過去仍有一些不足之處，例如系統登入相當缺乏安全防護機制。儘管該業者主要服務的對象是非營利組織，但攻擊者顯然並未因此放過他們，而這樣的資安事件，不僅是對對於其他慈善組織，以及這類型的資訊服務商，都是一個警惕，也突顯任何使用資訊與IT技術的各類型企業與組織，都需要同時考量到資安。&lt;/p&gt;
 &lt;p&gt;另外，由於網軟至今並未對外公告發生資安事件，因此這次資安事件的影響範圍，仍令外界感到憂心。是否只有捐款系統發生資料外洩情況？畢竟，我們從該公司網站公開的案例，可以看到他們的客戶，不只是多個愛心協會，像是在線上金流整合服務中，屏東縣政府也是其客戶，因此，是否各產品服務的所有客戶，都受此次資安事件影響，遭遇資料外洩情形，勢必也都要有所清查。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖5）網軟資料外洩.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%965%EF%BC%89%E7%B6%B2%E8%BB%9F%E8%B3%87%E6%96%99%E5%A4%96%E6%B4%A9.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;在網軟官方網站上，以發布刑事警察局的反詐騙宣導，但還沒有對外公布遭駭客攻擊與資料外洩的資安事件公告。&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;在網軟官方網站上，已在8月3日發布刑事警察局的反詐騙宣導，但至今還沒有對外公布遭駭客攻擊與資料外洩的資安事件。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖10）網軟資料外洩.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%9610%EF%BC%89%E7%B6%B2%E8%BB%9F%E8%B3%87%E6%96%99%E5%A4%96%E6%B4%A9.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖9）網軟資料外洩.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%969%EF%BC%89%E7%B6%B2%E8%BB%9F%E8%B3%87%E6%96%99%E5%A4%96%E6%B4%A9.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -176,16 +244,6 @@
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="false">146369 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146369#comments</comments>
-</item>
-<item>
- <title>CPU三強爭霸</title>
- <link>https://www.ithome.com.tw/article/146305</link>
- <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1039-feng_mian_p1-open-960x420_kao_bei_.png?itok=6bLFtvd8&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-featured-article-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/75&quot;&gt;專題故事&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;從2021年3月中到4月底，AMD、Intel相繼推出第三代伺服器平臺，Arm也恰巧發表新的伺服器級處理器技術，導入新的微架構，以及更先進的製程，持續針對效能、I/O、安全提出創新，並於企業IT、雲端服務、高效能運算等領域短兵相接。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 24 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="false">146305 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/article/146305#comments</comments>
 </item>
 </channel>
 </rss>
