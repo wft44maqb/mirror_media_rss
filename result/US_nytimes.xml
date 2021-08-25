@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 25 Aug 2021 10:14:29 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Aug 2021 10:24:30 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[赴美留學人數回升至疫前水平，中國學生佔比近半]]></title>
+            <link><![CDATA[https://cn.nytimes.com/usa/20210825/international-students-begin-to-return-to-us-universities-after-a-covid-hiatus/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[今年5月和6月，美國批准了11.7萬份F-1學生簽證，其中有5.7萬份發放給了中國學生。此前學生簽證是中美爭端的焦點問題之一，中國當局曾就STEM學科學生被拒簽譴責美國。<p><img src='https://static01.nyt.com/images/2021/08/24/world/24virus-briefing-chinese-students-1sub/merlin_170402511_27570383-721e-415b-9ec7-a26f511d94f8-articleLarge.jpg' alt='去年3月，曼哈頓的哥倫比亞大學校園。2020年，國際學生的簽證數量大幅下降。 Hiroko Masuike/The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Hiroko Masuike/The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>去年3月，曼哈頓的哥倫比亞大學校園。2020年，國際學生的簽證數量大幅下降。</p>                    ]]></description>
+            <category>美國</category>
+            <dc:creator><![CDATA[TIFFANY MAY]]></dc:creator>
+            <pubDate>Wed, 25 Aug 2021 10:21:17 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210825/international-students-begin-to-return-to-us-universities-after-a-covid-hiatus/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[阿富汗敗局考驗美歐聯盟，北約是時候改變了嗎？]]></title>
             <link><![CDATA[https://cn.nytimes.com/world/20210824/afghanistan-europe-nato-biden/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[KATIE BENNER]]></dc:creator>
             <pubDate>Thu, 19 Aug 2021 03:48:43 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210726/chinese-researchers-justice-dept/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[那些曾為美國工作，如今在絕境中等待被拯救的阿富汗女性]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210819/afghanistan-women-protection/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[由於擔心遭到塔利班的報復，那些曾與美國合作過的阿富汗女性正努力抹去與之相關的痕跡。拜登政府承諾將支持阿富汗女性的權利，但她們目前的處境已極其危險。<p><img src='https://static01.nyt.com/images/2021/08/18/us/politics/18dc-diplo-women-1/merlin_193398729_04ed82f3-d9ec-466e-9ef7-1a3a4d2f998e-articleLarge.jpg' alt='美國與20個國家及歐盟一起要求保護阿富汗女性的權利，並承諾提供人道主義援助和其他支持，「以確保她們的聲音能被聽到」。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>美國與20個國家及歐盟一起要求保護阿富汗女性的權利，並承諾提供人道主義援助和其他支持，「以確保她們的聲音能被聽到」。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[LARA JAKES]]></dc:creator>
-            <pubDate>Thu, 19 Aug 2021 03:37:04 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210819/afghanistan-women-protection/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
