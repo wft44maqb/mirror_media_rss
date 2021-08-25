@@ -6,7 +6,7 @@
  <description></description>
  <language>zh-hant</language>
 <item>
- <title>駭客公司NSO Group打造的Pegasus間諜程式，能繞過iOS 14新的BlastDoor沙箱保護機制</title>
+ <title>NSO繞過蘋果於iOS 14新增的BlastDoor沙箱保護機制以植入Pegasus</title>
  <link>https://www.ithome.com.tw/news/146374</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://citizenlab.ca/2021/08/bahrain-hacks-activists-with-nso-group-zero-click-iphone-exploits/&quot; target=&quot;_blank&quot;&gt;加拿大多倫多大學的公民實驗室（Citizen Lab）本周揭露&lt;/a&gt;，該實驗室在9名中東國家巴林的活動份子手機上，發現了由以色列駭客公司NSO Group所開發的Pegasus間諜程式，且研究顯示NSO已成功繞過蘋果甫於iOS 14新增的BlastDoor沙箱保護機制，呼應了&lt;a href=&quot;https://www.ithome.com.tw/news/145754&quot; target=&quot;_blank&quot;&gt;Pegasus專案&lt;/a&gt;的發現。&lt;/p&gt;
 &lt;p&gt;公民實驗室在去年12月指出，有36名卡達半島電視臺（Al Jazeera）員工的iPhone，遭到駭客植入Pegasus間諜程式，且研究顯示當時的Pegasus仍無法感染iOS 14裝置，這促使Google Project Zero團隊針對iOS展開研究，指出蘋果於該作業系統上新增了3項安全機制，其中的BlastDoor可說是iMessages的專屬沙箱，大幅提高了出現記憶體毀損漏洞的攻擊門檻。&lt;/p&gt;
