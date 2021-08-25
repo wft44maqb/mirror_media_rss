@@ -6,7 +6,7 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 25 Aug 2021 18:48:55 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Aug 2021 18:58:57 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
             <item>
@@ -15,8 +15,17 @@
             <description><![CDATA[藉助官媒、社群媒體，甚至說唱歌曲，中國近期大力推動美軍實驗室洩漏說，表明當局擔心被指為疫情負責。相關陰謀論可能進一步攪亂對病毒來源的調查。<p><img src='https://static01.nyt.com/images/2021/08/19/world/00china-disinformation-1/merlin_182797809_1bae1101-159c-4d95-8053-08b48090b5cc-articleLarge.jpg' alt='馬里蘭州德特里克堡實驗室。北京正在兜售毫無根據的理論，稱美國是新冠病毒源頭。 Andrew Harnik/Associated Press'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Andrew Harnik/Associated Press</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>馬里蘭州德特里克堡實驗室。北京正在兜售毫無根據的理論，稱美國是新冠病毒源頭。</p>                    ]]></description>
             <category>中國</category>
             <dc:creator><![CDATA[王霜舟,AMY CHANG CHIEN]]></dc:creator>
-            <pubDate>Wed, 25 Aug 2021 06:09:50 +0800</pubDate>
+            <pubDate>Wed, 25 Aug 2021 06:54:15 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210825/china-conspiracy-theories-coronavirus/zh-hant/]]></guid>
+        </item>
+            <item>
+            <title><![CDATA[當一名亞裔科學家被捲入新冠溯源之爭]]></title>
+            <link><![CDATA[https://cn.nytimes.com/science/20210825/coronavirus-origins-alina-chan/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[艾琳娜·陳提出病毒在被發現前可能已完成突變、在人類之間傳播的假說引發爭議。該理論不僅遭到眾多科學家質疑，也為她招來了實驗室洩漏說支持者的攻擊。<p><img src='https://static01.nyt.com/images/2021/07/15/science/00VIRUS-SCIENTIST1/merlin_189821412_84ae367d-c6d4-4387-b0ab-78cc3f2659d2-videoLarge.jpg' alt=' Tony Luong for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Tony Luong for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>科學</category>
+            <dc:creator><![CDATA[RONI CARYN RABIN]]></dc:creator>
+            <pubDate>Wed, 25 Aug 2021 06:51:39 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/science/20210825/coronavirus-origins-alina-chan/zh-hant/]]></guid>
         </item>
             <item>
             <title><![CDATA[急於挽回失敗形象，拜登借阿富汗撤離行動公關]]></title>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[MICHAEL M. GRYNBAUM,TIFFANY HSU,KATIE ROBERTSON]]></dc:creator>
             <pubDate>Fri, 20 Aug 2021 04:15:16 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210820/afghanistan-news-organizations/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[中國疫苗外交受挫，美國或在亞洲打開新局面]]></title>
-            <link><![CDATA[https://cn.nytimes.com/business/20210820/china-vaccine-us-covid-diplomacy/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[不少國家質疑疫苗有效性，還有國家對中國提供疫苗的附加條件不滿。隨著印尼、泰國都已決定改用其他國家的疫苗，美國或有望借援助恢復與該地區的關係。<p><img src='https://static01.nyt.com/images/2021/08/13/business/00china-vaccine-1/merlin_187355166_f4fc60b9-4b94-4aa1-91c7-3029823200bf-articleLarge.jpg' alt='馬來西亞衛生部長說，現有的供應量用完後，該國將停止使用科興疫苗。 Ahmad Yusni/EPA, via Shutterstock'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Ahmad Yusni/EPA, via Shutterstock</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>馬來西亞衛生部長說，現有的供應量用完後，該國將停止使用科興疫苗。</p>                    ]]></description>
-            <category>商業與經濟</category>
-            <dc:creator><![CDATA[黃瑞黎,STEVEN LEE MYERS]]></dc:creator>
-            <pubDate>Fri, 20 Aug 2021 03:54:50 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210820/china-vaccine-us-covid-diplomacy/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
