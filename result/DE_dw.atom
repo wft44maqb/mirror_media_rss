@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-25T06:30:05Z</updated>
+ <updated>2021-08-25T06:32:58Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58975621</id>
+  <title><![CDATA[成都秋雨教会再遭打压 十多名信徒遭传唤]]></title>
+  <updated>2021-08-25T06:23:00Z</updated>
+  <published>2021-08-25T06:23:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/成都秋雨教会再遭打压-十多名信徒遭传唤/a-58975621?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[近年来多次被中国政府打压的秋雨教会，22日传出有十多名信徒在私人聚会时，遭警察破门而入带到派出所。有两名信徒後来被判14天的行政拘留，其中一人被判罚金1000元人民币。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58975629</id>
+  <title><![CDATA[阿富汗：中国高层与美国中情局各自与塔利班见面]]></title>
+  <updated>2021-08-25T06:02:00Z</updated>
+  <published>2021-08-25T06:02:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗：中国高层与美国中情局各自与塔利班见面/a-58975629?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国媒体引述官员说法称，美国中央情报局局长与塔利班的最高人物秘密会面，另外俄媒则指出，塔利班代表团在喀布尔会见了中国驻阿富汗大使一行人，他们分别谈了什麽？]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58975361</id>
   <title><![CDATA[香港将加强电影审查 「不利国安」恐被撤销上映]]></title>
@@ -103,16 +123,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/南华早报：拜登习近平罗马会面希望渺茫/a-58967744?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[拜登与习近平何时将会面？10月底在罗马举行的20国峰会原本被视为一个契机。不过，据香港《南华早报》报道，两人在罗马面对面会谈的前景已经渺茫。]]></summary>
   <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58967368</id>
-  <title><![CDATA[乌克兰庆祝独立三十周年  敦促俄交还克里米亚]]></title>
-  <updated>2021-08-24T11:47:00Z</updated>
-  <published>2021-08-24T11:47:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/乌克兰庆祝独立三十周年-敦促俄交还克里米亚/a-58967368?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[俄罗斯吞并克里米亚半岛七年之后，乌克兰总统泽连斯基（ Wolodymyr Selenskyj）再度敦促俄罗斯方面归还被占领土。在所谓的克里米亚平台高峰会议上，泽连斯基表示：“反占领的倒计时已经开始。”]]></summary>
-  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58965083</id>

@@ -6,6 +6,22 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>美國5G服務調查：T-Mobile明顯勝出</title>
+ <link>https://www.ithome.com.tw/news/146375</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;科技雜誌PCMag已經連續12年針對美國的行動網路展開調查，此一調查在行動網路的世代轉移上更形重要，雖然美國前三大行動業者早就開始部署5G服務，但&lt;a href=&quot;https://www.ithome.com.tw/news/139907&quot; target=&quot;_blank&quot;&gt;去年的調查顯示5G與4G的速度差不多&lt;/a&gt;，而在經歷一年的發展之後，&lt;a href=&quot;https://www.pcmag.com/news/fastest-mobile-networks-2021&quot; target=&quot;_blank&quot;&gt;PCMag認為&lt;/a&gt;，今年T-Mobile的5G服務已堪稱為全美之冠。&lt;/p&gt;
+&lt;p&gt;這次PCMag派遣了司機，調查美國30個主要都會區與6個鄉村地區的行動網路服務，以查看這些地區三大電信業者的5G服務覆蓋率及速率，發現T-Mobile在當中24個地區居冠，AT&amp;amp;T在8個地區領先，Verizon只贏了兩個地區，剩下的兩個地區則三者不分上下。&lt;/p&gt;
+&lt;p&gt;整體而言，T-Mobile服務的平均下載速率為每秒162.3Mb，上傳速率為每秒28.1Mb，AT&amp;amp;T的平均下載/上傳速率則是98.2Mbps與21.1Mbps，Verizon為93.7 Mbps及21.5 Mbps。&lt;/p&gt;
+&lt;p&gt;PCMag分析，今年T-Mobile的獲勝有跡可循，該公司所推出的中頻段5G服務覆蓋了全球1.65億名民眾，而且能夠穩定提供介於150Mbps至500Mbps的下載速率，光是這點就大勝AT&amp;amp;T與Verizon。&lt;/p&gt;
+&lt;p&gt;不過，倘若身為T-Mobile客戶，卻未能享受這樣的速度，可能是因為消費者持有的是4G手機，而且身處鄉村地區，這時PCMag便會建議消費者改用在4G網路上居冠的AT&amp;amp;T服務。&lt;/p&gt;
+&lt;p&gt;其實Verizon的5G速度更快，其最高的5G下載速率為2216.7 Mbps，超過T-Mobile的1134.4 Mbps與AT&amp;amp;T的1090.9 Mbps，只不過Verizon的5G覆蓋率在這一年來沒有太大的長進，只從去年的2.82%，微幅增加到今年的3.27%。&lt;/p&gt;
+&lt;p&gt;PCMag建議，身處都會區的T-Mobile用戶應該要升級到5G手機，而AT&amp;amp;T或Verizon的用戶則不必急著升級。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 25 Aug 2021 06:31:25 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146375 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146375#comments</comments>
+</item>
+<item>
  <title>NSO繞過蘋果於iOS 14新增的BlastDoor沙箱保護機制以植入Pegasus</title>
  <link>https://www.ithome.com.tw/news/146374</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://citizenlab.ca/2021/08/bahrain-hacks-activists-with-nso-group-zero-click-iphone-exploits/&quot; target=&quot;_blank&quot;&gt;加拿大多倫多大學的公民實驗室（Citizen Lab）本周揭露&lt;/a&gt;，該實驗室在9名中東國家巴林的活動份子手機上，發現了由以色列駭客公司NSO Group所開發的Pegasus間諜程式，且研究顯示NSO已成功繞過蘋果甫於iOS 14新增的BlastDoor沙箱保護機制，呼應了&lt;a href=&quot;https://www.ithome.com.tw/news/145754&quot; target=&quot;_blank&quot;&gt;Pegasus專案&lt;/a&gt;的發現。&lt;/p&gt;
@@ -183,45 +199,6 @@
  <dc:creator>李宗翰</dc:creator>
  <guid isPermaLink="false">146302 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/tech/146302#comments</comments>
-</item>
-<item>
- <title>【Intel第三代Xeon SP系列】終於導入10奈米製程，正式加入支援PCIe 4.0的行列</title>
- <link>https://www.ithome.com.tw/tech/146293</link>
- <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/1036-cover2-960-tu_pian_lai_yuan_ying_te_er_.png&quot; width=&quot;2004&quot; height=&quot;826&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;英特爾&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在伺服器平臺稱霸許久的英特爾（Intel），2017年之後面對重返市場的AMD，面臨不小的同業競爭壓力，不過，每次推出的新一代產品，仍有可觀之處。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;因應廣泛市場需求，提供50款以上選擇，規格演進慢、求穩健經營&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;在2017年，Xeon Scalable處理器（Xeon SP）系列首度登場，英特爾推出了第一代產品（代號為Skylake）。在產品線的設置上，改成4種品牌與系列型號的對應：白金（8100系列）、金（6100系列與5100系列）、銀（4100系列）、銅（3100系列）。若就數量而言，英特爾提供51款處理器機型的選擇。&lt;/p&gt;
-&lt;p&gt;而在處理器平臺的規格上，第一代Xeon Scalable系列採14奈米製程，最多提供28顆核心，記憶體支援DDR4-2666、6個通道，單顆插槽支援1.5 TB記憶體，I/O部份支援48個PCIe 3.0通道。&lt;/p&gt;
-&lt;p&gt;接著是2019年4月登場的第二代Xeon Scalable（代號為Cascade Lake），最大的賣點是內建深度學習加速技術：DL Boost，搭配向量神經網路指令集（VNNI）；而在處理器平臺的規格上，最多可提供56顆核心，記憶體支援DDR4-2933、12個通道，單顆插槽可支援4.5 TB記憶體。&lt;/p&gt;
-&lt;p&gt;在產品線的設置上，英特爾總共發布了67款處理器機型，規模相當驚人。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;第三代Xeon Scalable分兩批發布&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover2-400-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.png&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;在2020年6月，英特爾發表第三代Xeon Scalable（代號為Cooper Lake），主攻4路與8路伺服器，僅推出11款機型，最多可提供28顆核心，記憶體支援DDR4-3200、6個通道，單顆插槽可支援4.5 TB記憶體，繼續主打DL Boost加速特色，並整合Bfloat16支援。&lt;/p&gt;
-&lt;p&gt;到了2021年4月，英特爾發表另一批第三代Xeon Scalable（代號為Ice Lake），終於導入更先進的10奈米製程，支援PCIe 4.0介面，最多提供40顆核心，記憶體支援DDR4-3200、8個通道，單顆插槽支援6 TB記憶體，I/O則支援64個PCIe 4.0通道。就數量而言，英特爾總共發布57款處理器機型。&lt;/p&gt;
-&lt;p&gt;在運算效能上，Ice Lake的表現也亮眼許多，英特爾公布多項他們內部測試數據作為印證。在混合20種常用AI工作負載的狀態下，若以AMD今年推出的第三代EPYC 7763平臺為基準，英特爾最新的第三代Xeon Scalable可達1.5倍效能；若以AMD EPYC 7742處理器搭配Nvidia A100 GPU為基準，英特爾第三代Xeon Scalable可達到1.3倍效能。&lt;/p&gt;
-&lt;p&gt;這樣的成效展現讓人驚豔，令人訝異的是，英特爾打破多年慣例、展現新氣象！因為他們過往只與自家產品比較。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover2-960-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;｜兩代Xeon SP處理器架構比較｜&lt;/span&gt;&lt;/strong&gt;&lt;strong style=&quot;color: rgb(105, 105, 105);&quot;&gt;相較於第二代Xeon Scalable處理器（Cascade Lake），2021年4月發表的第三代Xeon Scalable（Ice Lake）同樣採用網狀互連架構，但最大差異在於處理器核心改用Sunny Cove微架構，以及整合PCIe 4.0控制器、配置4個記憶體控制器（每個控制器可處理2個通道），並且提供3個獨立運作的UPI連結。&lt;/strong&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;（圖片來源／英特爾）&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;大舉強化資料安全防護&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Ice Lake另一個重點特色則是資安，主打軟體防護擴充指令集（SGX），以及加密加速（Crypto Acceleration）。&lt;/p&gt;
-&lt;p&gt;早在2013年，英特爾已在桌上型電腦、筆電、工作站等級處理器，陸續提供SGX的功能，然而，關於在伺服器級處理器內建SGX的態勢，卻一直不明朗，直到今年，英特爾發表第三代Xeon Scalable系列處理器，宣布內建SGX之後，這項機密運算技術才算正式入駐企業資料中心領域。&lt;/p&gt;
-&lt;p&gt;在伺服器的應用環境當中，SGX能帶來哪些好處？英特爾強調，可在系統內部保護敏感的程式碼與資料，將暴露在惡意軟體與駭客攻擊的層面減至最低。這項防護技術最主要供應的產品，是用於2路伺服器的處理器機型，當中將運用安全區（enclave）來隔離程式碼與資料，這裡能使用的容量最大可達到1TB，應可支援主流工作負載規模。&lt;/p&gt;
-&lt;p&gt;值得一提的是，英特爾也提到SGX能結合本次隨Ice Lake新增的兩個安全技術。一是全記憶體加密技術（TME），能夠針對實體的記憶體提供完全加密機制，強化資料與虛擬機器的保護，他們在2017年底曾對外揭露相關資訊，但可能直到這次Ice Lake發表才真正亮相。&lt;/p&gt;
-&lt;p&gt;另一個是平臺韌體快速復原技術（PFR），當中運用英特爾自家的FPGA技術，而能防護、偵測、修正韌體層面的問題，以達到NIST SP 800-193的要求。透過這項保護技術，能讓伺服器平臺韌體能在執行前，先經過驗證，並在執行過程當中進行監控與過濾，以防遭到有心人士操弄；韌體若發生問題，PFR可在幾分鐘內自動執行回復作業。&lt;/p&gt;
-&lt;p&gt;無論是SGX或TME，都跟資料加密的處理有關，而這也涉及Ice Lake處理器第二個主打的資安特色：關於加密處理的加速技術，會針對重要的加密演算法提供突破以往的效能，可因應日益普遍的各種大量使用加密處理的工作負載。&lt;/p&gt;
-&lt;p&gt;例如，每天處理數百萬筆交易的線上零售業者，就能善用Ice Lake處理器這項功能來提升客戶資料保護，而無需擔憂因此影響使用者得到回應的時間，或是大幅衝擊系統整體效能。&lt;/p&gt;
-&lt;p&gt;Ice Lake也增設新的加密加速功能，例如：向量型AES新指令集（Vector AES-NI）、向量無進位乘法（Vector CLMUL）、英特爾安全雜湊演算法延伸指令集（Intel SHA Extensions）、VPMADD52 指令集、RSA/DH加密協定、有限體新指令集（GFNI）。&lt;/p&gt;
-&lt;p&gt;除了相關的指令集，英特爾也在這一代Xeon處理器演算法執行方式上，提出兩種基於軟體的新加速作法：一是多重資料緩衝處理（Multi-Buffer），可同時處理多個資料緩衝，相較之下，傳統處理器的作法是循序處理每一個資料緩衝；另一是函式縫合（Function Stitching），將兩個演算法融合為單一最佳化演算法，以便盡可能地運用處理器的全部資源，以及提高資料吞吐量。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover2-600-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;｜SGX正式進駐伺服器級處理器｜&lt;/span&gt;&lt;/strong&gt;&lt;strong style=&quot;color: rgb(105, 105, 105);&quot;&gt;歷經多年的發展，英特爾終於在伺服器級處理器，內建軟體防護擴充指令集（SGX），而在最新推出的Ice Lake平臺當中，若是採用2路組態，對於安全區記憶體分頁快取（EPC）的使用，最大可設定到1 TB的空間。&lt;/strong&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;（圖片來源／英特爾）&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;多家雲端業者推執行個體，500大超級電腦有8座採用&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Ice Lake發表後，目前有哪些案例？以公有雲而言，我們看到三家業者推出服務，例如，Oracle Cloud Infrastructure（OCI）在4月初宣布，推出2個執行個體，分別是VM.Optimized3.Flex與BM.Optimized3.36，各自針對運算密集型與高效能運算型工作負載；微軟Azure陸續於4月、6月宣布，推出3個系列的執行個體的預覽版本，分別是：適合通用型工作負載Dv5系列、適合記憶體密集型工作負載的Ev5系列，以及適合機密型工作負載的DCsv3系列；阿里雲於8月發表第7代ECS系列執行個體服務，包含：適合通用型工作負載的g7系列、適合運算密集型工作負載的c7系列，以及適合記憶體密集型工作負載的c7系列。&lt;/p&gt;
-&lt;p&gt;在高效能運算領域當中，我們可將全球500大超級電腦的處理器採用狀況，作為參考指標。以今年6月公布的排行榜來看，採用Ice Lake處理器的超級電腦有8座，其中一半是德國機構，表現最好的是韓國氣象廳的Maru，拿到第23名。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B&quot;&gt;封面故事&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF&quot;&gt;雲端&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/hpc&quot;&gt;HPC&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/cpu&quot;&gt;CPU&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E4%BC%BA%E6%9C%8D%E5%99%A8-0&quot;&gt;伺服器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%99%95%E7%90%86%E5%99%A8&quot;&gt;處理器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E8%8B%B1%E7%89%B9%E7%88%BE&quot;&gt;英特爾&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/intel&quot;&gt;Intel&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/xeon-sp&quot;&gt;Xeon SP&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/xeon-scalable&quot;&gt;Xeon Scalable&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/ice-lake&quot;&gt;Ice Lake&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E7%AC%AC%E4%B8%89%E4%BB%A3xeon-scalable&quot;&gt;第三代Xeon Scalable&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 24 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="false">146293 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/tech/146293#comments</comments>
 </item>
 </channel>
 </rss>
