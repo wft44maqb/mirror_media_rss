@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/board/id/18" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/board/id/18</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/board/id/18" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>美國新創業者Cerebras Systems發表全球首個大腦等級的AI系統</title>
+    <link>https://www.ithome.com.tw/news/146379</link>
+    <description> 在2016年成立，專注於建置AI與深度學習電腦系統的Cerebras Systems，於24日發表了號稱是全球第一個大腦等級的AI解決方案，藉由一個冰箱大小的CS-2系統，來支援超過120兆個參數的模型，勝過了人腦中所存在的100兆個突觸。</description>
+     <pubDate>2021-08-25  04:08:50</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146379</guid>
+  </item>
+  <item>
     <title>美國5G服務調查：T-Mobile明顯勝出</title>
     <link>https://www.ithome.com.tw/news/146375</link>
     <description> 科技雜誌PCMag已經連續12年針對美國的行動網路展開調查，此一調查在行動網路的世代轉移上更形重要，雖然美國前三大行動業者早就開始部署5G服務，但去年的調查顯示5G與4G的速度差不多，而在經歷一年的發展之後，PCMag認為，今年T-Mobile的5G服務已堪稱為全美之冠。</description>
@@ -245,14 +253,6 @@ Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密�
      <pubDate>2021-08-23  02:08:13</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146342</guid>
-  </item>
-  <item>
-    <title>微軟開始出貨Windows Server 2022</title>
-    <link>https://www.ithome.com.tw/news/146341</link>
-    <description> 經過半年的預覽，微軟上周正式出貨最新伺服器作業系統Windows Server 2022。</description>
-     <pubDate>2021-08-23  02:08:26</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146341</guid>
   </item>
   </channel>
 </rss>
