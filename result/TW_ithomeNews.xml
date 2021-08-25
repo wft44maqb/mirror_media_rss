@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=271&amp;profile=rss10" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>美國5G服務調查：T-Mobile明顯勝出</title>
+    <link>https://www.ithome.com.tw/news/146375</link>
+    <description> 科技雜誌PCMag已經連續12年針對美國的行動網路展開調查，此一調查在行動網路的世代轉移上更形重要，雖然美國前三大行動業者早就開始部署5G服務，但去年的調查顯示5G與4G的速度差不多，而在經歷一年的發展之後，PCMag認為，今年T-Mobile的5G服務已堪稱為全美之冠。</description>
+     <pubDate>2021-08-25  02:08:25</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146375</guid>
+  </item>
+  <item>
     <title>NSO繞過蘋果於iOS 14新增的BlastDoor沙箱保護機制以植入Pegasus</title>
     <link>https://www.ithome.com.tw/news/146374</link>
     <description> 加拿大多倫多大學的公民實驗室（Citizen Lab）本周揭露，該實驗室在9名中東國家巴林的活動份子手機上，發現了由以色列駭客公司NSO Group所開發的Pegasus間諜程式，且研究顯示NSO已成功繞過蘋果甫於iOS 14新增的BlastDoor沙箱保護機制，呼應了Pegasus專案的發現。</description>
@@ -245,14 +253,6 @@ Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密�
      <pubDate>2021-08-23  02:08:26</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146341</guid>
-  </item>
-  <item>
-    <title>Google裁撤Google Health，蘋果精簡健康App專案</title>
-    <link>https://www.ithome.com.tw/news/146340</link>
-    <description> 軟體大廠過去幾年大舉投資健康照護領域，不過Business Insider上周報導，Google和蘋果分別裁撤和縮編開發數位健康技術及方案的部門。</description>
-     <pubDate>2021-08-23  01:08:04</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146340</guid>
   </item>
   </channel>
 </rss>
