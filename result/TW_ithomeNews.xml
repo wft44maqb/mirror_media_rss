@@ -4,8 +4,24 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=400&amp;profile=atom" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>駭客公司NSO Group打造的Pegasus間諜程式，能繞過iOS 14新的BlastDoor沙箱保護機制</title>
+    <link>https://www.ithome.com.tw/news/146374</link>
+    <description> 加拿大多倫多大學的公民實驗室（Citizen Lab）本周揭露，該實驗室在9名中東國家巴林的活動份子手機上，發現了由以色列駭客公司NSO Group所開發的Pegasus間諜程式，且研究顯示NSO已成功繞過蘋果甫於iOS 14新增的BlastDoor沙箱保護機制，呼應了Pegasus專案的發現。</description>
+     <pubDate>2021-08-25  02:08:28</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146374</guid>
+  </item>
+  <item>
+    <title>Waymo在舊金山測試自駕車載客服務</title>
+    <link>https://www.ithome.com.tw/news/146373</link>
+    <description> Alphabet的自駕車子公司Waymo本周宣布，在舊金山市區提供初步的自駕車載客服務，邀請當地居民參加測試。</description>
+     <pubDate>2021-08-25  01:08:21</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146373</guid>
+  </item>
+  <item>
     <title>有人假冒蘋果客戶支援騙走數千iCloud帳號</title>
     <link>https://www.ithome.com.tw/news/146372</link>
     <description> 美國佛羅里達州的檢察官日前起訴了40歲的Hao Kuo Chi，因為Chi假冒為蘋果的客戶支援部門，去信要求受害者提供iCloud憑證，成功騙走了4,700名iCloud用戶的憑證，並擅自進入306個iCloud帳號，盜取這些帳號的照片及影片。受害者絕大多數是年輕女性，被盜走的內容則多半是清涼照。</description>
@@ -237,23 +253,6 @@ Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密�
      <pubDate>2021-08-23  01:08:04</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146340</guid>
-  </item>
-  <item>
-    <title>殭屍網路發動大規模DDoS攻擊，每秒發出逾1,700萬次HTTP請求</title>
-    <link>https://www.ithome.com.tw/news/146339</link>
-    <description> 大規模的分散式阻斷服務攻擊（DDoS）事故，這幾年來已有數起。例如，今年4月資安業者Akamai揭露博奕網站遭到攻擊，是當時史上規模第3大的事故，流量每秒高達800GB。</description>
-     <pubDate>2021-08-23  01:08:39</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146339</guid>
-  </item>
-  <item>
-    <title>Google、微軟緊急修補瀏覽器高風險漏洞</title>
-    <link>https://www.ithome.com.tw/news/146337</link>
-    <description> Google與微軟周末緊急釋出更新版Chrome及Chrome-based Edge瀏覽器，以修補6個高風險漏洞。
-德國網路安全應變中心於周末發布安全公告，顯示Google Chrome及微軟Edge瀏覽器的6個漏洞，可讓遠端攻擊者開採以發動未指明對象的攻擊。這批漏洞被評估為高度風險。</description>
-     <pubDate>2021-08-23  12:08:17</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146337</guid>
   </item>
   </channel>
 </rss>

@@ -6,6 +6,22 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>駭客公司NSO Group打造的Pegasus間諜程式，能繞過iOS 14新的BlastDoor沙箱保護機制</title>
+ <link>https://www.ithome.com.tw/news/146374</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://citizenlab.ca/2021/08/bahrain-hacks-activists-with-nso-group-zero-click-iphone-exploits/&quot; target=&quot;_blank&quot;&gt;加拿大多倫多大學的公民實驗室（Citizen Lab）本周揭露&lt;/a&gt;，該實驗室在9名中東國家巴林的活動份子手機上，發現了由以色列駭客公司NSO Group所開發的Pegasus間諜程式，且研究顯示NSO已成功繞過蘋果甫於iOS 14新增的BlastDoor沙箱保護機制，呼應了&lt;a href=&quot;https://www.ithome.com.tw/news/145754&quot; target=&quot;_blank&quot;&gt;Pegasus專案&lt;/a&gt;的發現。&lt;/p&gt;
+&lt;p&gt;公民實驗室在去年12月指出，有36名卡達半島電視臺（Al Jazeera）員工的iPhone，遭到駭客植入Pegasus間諜程式，且研究顯示當時的Pegasus仍無法感染iOS 14裝置，這促使Google Project Zero團隊針對iOS展開研究，指出蘋果於該作業系統上新增了3項安全機制，其中的BlastDoor可說是iMessages的專屬沙箱，大幅提高了出現記憶體毀損漏洞的攻擊門檻。&lt;/p&gt;
+&lt;p&gt;然而，公民實驗室最近的研究則發現，NSO已打造了可繞過BlastDoor的攻擊程式Forcedentry，可攻陷iOS 14.4與iOS 14.6。&lt;/p&gt;
+&lt;p&gt;該實驗室亦指出，Forcedentry與國際特赦組織（Amnesty International）安全實驗室（Security Lab）在&lt;a href=&quot;https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/&quot; target=&quot;_blank&quot;&gt;今年7月於Pegasus專案中揭露的Megalodon&lt;/a&gt;，是同一支攻擊程式。&lt;/p&gt;
+&lt;p&gt;事實上，在Pegasus專案報告出爐後，&lt;a href=&quot;https://www.ithome.com.tw/news/145763&quot; target=&quot;_blank&quot;&gt;蘋果已緊急修補了各個作業系統及Safari，釋出了iOS 14.7&lt;/a&gt;，只是蘋果並未提及該修補行動是否與Pegasus專案有關。&lt;/p&gt;
+&lt;p&gt;當公民實驗室披露NSO已繞過BlastDoor安全機制之後，&lt;a href=&quot;https://threatpost.com/pegasus-spyware-uses-iphone-zero-click-imessage-zero-day/168899/&quot; target=&quot;_blank&quot;&gt;負責蘋果安全工程與架構的Ivan Krstić向Threatpost表示&lt;/a&gt;，公民實驗室所描述的攻擊非常複雜，得斥資數百萬美元來開發，壽命還經常很短，且通常是高度針對性，大多數的用戶無需擔心。蘋果發言人亦向Threatpost指出，BlastDoor並非蘋果用來保護iMessage的唯一工具，該公司已強化了iOS 15的保護，且未來也會繼續加強平臺的安全性。&lt;/p&gt;
+&lt;p&gt;現階段的研究僅顯示NSO攻擊程式最多只能開採iOS 14.6，尚未傳出iOS 14.7遭到開採的案例。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 25 Aug 2021 06:08:28 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146374 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146374#comments</comments>
+</item>
+<item>
  <title>Waymo在舊金山測試自駕車載客服務</title>
  <link>https://www.ithome.com.tw/news/146373</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blog.waymo.com/2021/08/welcoming-our-first-riders-in-san.html&quot; target=&quot;_blank&quot;&gt;Alphabet的自駕車子公司Waymo本周宣布&lt;/a&gt;，在舊金山市區提供初步的自駕車載客服務，邀請當地居民參加測試。&lt;/p&gt;
@@ -206,21 +222,6 @@
  <dc:creator>李宗翰</dc:creator>
  <guid isPermaLink="false">146293 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/tech/146293#comments</comments>
-</item>
-<item>
- <title>Chrome強化企業擴充套件管理功能，使用者可請求安裝新套件</title>
- <link>https://www.ithome.com.tw/news/146366</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;有鑒於企業IT管理員管理Chrome擴充套件不容易，因此&lt;a href=&quot;https://cloud.google.com/blog/products/chrome-enterprise/extension-management-enhancements&quot;&gt;Google現在改進Chrome的企業擴充套件管理功能&lt;/a&gt;，讓管理員能以更簡單的方法管理擴充套件，也提供詳盡的資料，供管理員了解擴充套件的使用情況。&lt;/p&gt;
-&lt;p&gt;現在管理員可以允許終端用戶請求安裝擴充套件，當終端用戶使用受管制的Chrome瀏覽器和Chrome作業系統，瀏覽Chrome網頁商店時，原本加入Chrome的安裝擴充套件按鈕，會轉變成為請求按鈕，如此擴充套件安裝請求，便會傳送至Chrome瀏覽器雲端管理請求頁面，由管理員審核，一旦審核通過，該擴充套件便會被添加到Chrome中。&lt;/p&gt;
-&lt;p&gt;IT管理員還可以將重要的擴充套件，固定到終端用戶的工具列上，Google提到，擴充套件的配置影響使用者的生產力，因此管理員現在可以標準化終端用戶體驗，同時也能減少IT花費在排除瀏覽器故障的時間。這個功能類似Google在今年早前，所推出的託管書籤功能。&lt;/p&gt;
-&lt;p&gt;對於那些使用成千上百擴充套件的企業，IT管理員現在可以藉由App Details API，獲取擴充套件安裝的相關資訊，並以程式開發方法管理擴充套件的相關風險，或是建立稽核工作流程。另外，管理員現在也可以固定擴充套件版本，使在明確更改版本之前，擴充套件都不會升級。&lt;/p&gt;
-&lt;p&gt;Google在不久前，發布了應用程式和擴充套件報告，供IT能夠深入了解部署中所有已安裝的擴充套件、Chrome應用程式和Android應用程式，管理員可以查看每個應用程式和擴充套件的版本和權限，並且在報告中強制安裝或是封鎖應用程式，而Google現在於報告中，加入更多擴充套件的詳細資訊。&lt;/p&gt;
-&lt;p&gt;管理員可以在報告頁面點擊特定擴充套件，來獲取擴充套件識別碼，還有指向該擴充套件網頁商店的連結，並且查看該擴充套件的隱私政策，也確保符合企業的隱私要求。同時，管理員現在還能夠查看擴充套件請求的權限，掌握這些套件是否具有存取用戶資料的能力，以此作為考量依據來審核終端使用者的擴充套件安裝請求。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 24 Aug 2021 12:43:30 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146366 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146366#comments</comments>
 </item>
 </channel>
 </rss>
