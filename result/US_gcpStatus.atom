@@ -74,13 +74,5 @@
 &lt;li&gt;Cloud Firestore: Control Plane saw ~90% error rates from 19:50 to 20:03. Data plane so no significant impact.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Infrastructure Components&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>RESOLVED: We are experiencing a connectivity issue affecting Cloud Dataproc in australia-southeast2</title>
-    <link href="https://status.cloud.google.com/incidents/RPBQJ6t6qkJGkKG21Quv" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:RPBQJ6t6qkJGkKG21Quv.UYnqcqYtYkqcPBbrRspq</id>
-    <updated>2021-08-24T05:43:01+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:14&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:43&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud Dataproc has been resolved for all affected projects as of Monday, 2021-08-23 21:50 US/Pacific.&lt;/p&gt;
-&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataproc&lt;/p&gt;</summary>
   </entry>
 </feed>
