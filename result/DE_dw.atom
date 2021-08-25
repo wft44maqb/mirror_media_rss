@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-25T15:01:45Z</updated>
+ <updated>2021-08-25T15:04:05Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58982026</id>
+  <title><![CDATA[胡志明市士兵协助封城 美宣布再捐越南100万剂疫苗]]></title>
+  <updated>2021-08-25T14:38:00Z</updated>
+  <published>2021-08-25T14:38:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/胡志明市士兵协助封城-美宣布再捐越南100万剂疫苗/a-58982026?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[正在越南访问的美国副总统哈里斯本周二宣布，美国将向越南捐赠100万剂生物科技—辉瑞疫苗。越南目前的接种率尚不足2%。为应对感染率激增，胡志明市已部署士兵协助封城。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58981895</id>
   <title><![CDATA[德语媒体：阿富汗乱象与中美对抗]]></title>
@@ -205,16 +215,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58967744</id>
-  <title><![CDATA[南华早报：拜登习近平罗马会面希望渺茫]]></title>
-  <updated>2021-08-24T11:55:00Z</updated>
-  <published>2021-08-24T11:55:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/南华早报：拜登习近平罗马会面希望渺茫/a-58967744?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[拜登与习近平何时将会面？10月底在罗马举行的20国峰会原本被视为一个契机。不过，据香港《南华早报》报道，两人在罗马面对面会谈的前景已经渺茫。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58965083</id>
   <title><![CDATA[三个月内确诊从数百降至个位数  台湾如何做到?]]></title>
   <updated>2021-08-24T10:51:00Z</updated>
@@ -285,16 +285,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58906625</id>
-  <title><![CDATA[柏林——永远的间谍之都]]></title>
-  <updated>2021-08-22T07:40:00Z</updated>
-  <published>2021-08-22T07:40:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58904029</id>
   <title><![CDATA[阿富汗艺术家：“失望、痛苦、愤怒”]]></title>
   <updated>2021-08-22T07:40:00Z</updated>
@@ -302,6 +292,16 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗艺术家：-失望、痛苦、愤怒/a-58904029?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[因害怕塔利班，阿富汗艺术家中有很多人毁掉了自己的作品，另一些人则创作新作品——以示抗议。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58906625</id>
+  <title><![CDATA[柏林——永远的间谍之都]]></title>
+  <updated>2021-08-22T07:40:00Z</updated>
+  <published>2021-08-22T07:40:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
   <category term="文化经纬"/>
  </entry>
  <entry>
@@ -580,15 +580,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -596,6 +587,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
