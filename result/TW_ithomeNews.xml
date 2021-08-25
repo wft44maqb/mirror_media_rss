@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/213/356" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/110" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/213/356</link>
+    <link>https://www.ithome.com.tw/latest/atom/110</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/213/356" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/110" rel="self" type="application/rss+xml" />
       <item>
+    <title>Yahoo奇摩打通旗下3大電商平臺App互導流量，拍賣平臺還將導入跨網比價功能</title>
+    <link>https://www.ithome.com.tw/news/146388</link>
+    <description> Yahoo奇摩今日（8/25）宣布，完整打通旗下3大電商平臺的App：拍賣、超級商城和購物中心，要透過流量互導推升業績，來發揮生態圈綜效。消費者現可從任一平臺App一鍵切換，無縫串連至其他平臺。此外，Yahoo奇摩也與比價網站飛比價格合作，打造跨網比價服務，首先會在拍賣平臺展開測試。
+為快速展現生態圈流量互導的效益，今年４月時，Yahoo奇摩先打通了每月擁有百萬會員的拍賣平臺App，來與超級商城App連結，拓展兩個行動平臺的商品量與多元性。</description>
+     <pubDate>2021-08-25  06:08:17</pubDate>
+ <dc:creator>黃郁芸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146388</guid>
+  </item>
+  <item>
     <title>中華電信聯手耀登旗下O-RAN認證實驗室，要助國產O-RAN產品搶攻5G市場</title>
     <link>https://www.ithome.com.tw/news/146383</link>
     <description> 國內提供天線、實驗室驗測服務的耀登集團旗下耀睿實驗室，近期獲得O-RAN聯盟認證為OTIC(Open Testing and Integration Centre)實驗室，未來將和中華電信合作，協助國內業者搶攻全球5G開放網路商機。
@@ -250,14 +259,6 @@ PowerApps是微軟力推的低程式碼開發、流程設計等生產力工具�
      <pubDate>2021-08-24  11:08:23</pubDate>
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146349</guid>
-  </item>
-  <item>
-    <title>國際太空站試驗以邊緣運算技術監控太空人健康</title>
-    <link>https://www.ithome.com.tw/news/146348</link>
-    <description> 國際太空站應用邊緣運算技術來監控太空人的健康，結合搭載在國際太空站的HPE的Spaceborne Computer-2邊緣運算系統，還有地球上的Azure雲端服務，來監控太空人因為暴露在高輻射環境，可能出現的健康風險，太空人的血液樣本基因定序資料會先在國際太空站進行預處理，只有需要進一步分析的資料，才會透過頻寬有限的下行鏈結（Downlink）傳輸到地球處理。</description>
-     <pubDate>2021-08-23  09:08:38</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146348</guid>
   </item>
   </channel>
 </rss>
