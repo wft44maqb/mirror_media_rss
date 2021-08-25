@@ -2,11 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-25T07:28:46.472Z</updated>
+    <updated>2021-08-25T07:33:49.015Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[【東京殘奧】埃及兵乓運動員　口持球拍、用腳發球完殘奧夢]]></title>
+        <id>https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E6%AE%98%E5%A5%A7%E5%9F%83%E5%8F%8A%E5%85%B5%E4%B9%93%E9%81%8B%E5%8B%95%E5%93%A1-%E5%8F%A3%E6%8C%81%E7%90%83%E6%8B%8D%E7%94%A8%E8%85%B3%E7%99%BC%E7%90%83%E5%AE%8C%E6%AE%98%E5%A5%A7%E5%A4%A2</id>
+        <link href="https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E6%AE%98%E5%A5%A7%E5%9F%83%E5%8F%8A%E5%85%B5%E4%B9%93%E9%81%8B%E5%8B%95%E5%93%A1-%E5%8F%A3%E6%8C%81%E7%90%83%E6%8B%8D%E7%94%A8%E8%85%B3%E7%99%BC%E7%90%83%E5%AE%8C%E6%AE%98%E5%A5%A7%E5%A4%A2"/>
+        <updated>2021-08-25T07:30:22.035Z</updated>
+        <summary type="html"><![CDATA[用口持球拍的埃及殘奧兵乓球選手 Ibrahim Hamadtou，被稱為 2016 里約殘奧最勵志的運動員之一，「永不放棄（Never give up in life）」一直是他的座右銘。他於上屆殘奧男子 6 級兵乓球排名第 11，今日（25 日）再出戰東京殘奧，惟於初賽不敵韓國對手 Park Hong Kyu，以局數 3：0 落敗。今年 48 歲的 Ibrahim Hamadtou 在 10 …]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/egypt.png"><figcaption><span>Photo by Ulrik Pedersen/NurPhoto via Getty Images</span></figcaption></figure><p>用口持球拍的埃及殘奧兵乓球選手 Ibrahim Hamadtou，被稱為 2016 里約殘奧最勵志的運動員之一，「永不放棄（Never give up in life）」一直是他的座右銘。他於上屆殘奧男子 6 級兵乓球排名第 11，今日（25 日）再出戰東京殘奧，惟於初賽不敵韓國對手 Park Hong Kyu，以局數 3：0 落敗。</p>
+
+<p>今年 48 歲的 Ibrahim Hamadtou 在 10 歲的時候，因一次火車意外失去雙手。他成長的村內只有足球和兵乓球，「按道理，我應該踢足球」。有一次，他為 2 個朋友的兵乓球賽計分，兩人為分數爭執時，一人叫他不要干涉，因為他永遠不會打兵乓球，就是這句話激起了他在意外 3 年後開始打兵乓球的決心。</p>
+
+<p>他曾嘗試用腋下夾著球拍但不成功，最終決定用口持球拍，用腳拋球發球。他特別的球法使他因國際兵乓球聯會 YouTube 影片「Nothing Is Impossible」成名，觀看次數逾 332 萬。其後，他成功在 2016 年非洲錦標賽取得第 2，並取得出戰里約殘奧資格，令他夢想成真。</p>
+
+<p>他成功取得殘奧資格後曾言：「我想告訴所有人，世上沒有沒可能的事情。所有人都應做自己喜愛、對自己好的事。殘障不在於四肢，而是在於不堅持自己喜歡的事。」</p>
+
+<p>雖然於里約殘奧落敗於英國 David Wetherill，他在賽後稱「落敗並不一定是失敗（Not all defeats are defeats）」，雖於比賽落敗，卻能贏得經驗、知識。Wetherill 於賽後指能與 Hamadtou 比賽，感到非常光榮，又稱 Hamadtou 為「兵乓球界的傳奇」。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="體育"/>
+        <published>2021-08-25T07:14:32.476Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[真係好奇怪]]></title>
         <id>https://www.thestandnews.com/politics/%E7%9C%9F%E4%BF%82%E5%A5%BD%E5%A5%87%E6%80%AA</id>
@@ -247,10 +269,10 @@
         <published>2021-08-25T02:36:13.910Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[多國「轉軚」與病毒共存　經濟報告指「清零」策略難以持續　港澳經濟壓力大]]></title>
+        <title type="html"><![CDATA[多國「轉軚」與病毒共存　《經濟學人》報告指「清零」策略難以持續　港澳經濟壓力大]]></title>
         <id>https://www.thestandnews.com/international/a_%E5%A4%9A%E5%9C%8B%E8%BD%89%E8%BB%9A%E8%88%87%E7%97%85%E6%AF%92%E5%85%B1%E5%AD%98-%E7%B6%93%E6%BF%9F%E5%A0%B1%E5%91%8A%E6%8C%87%E6%B8%85%E9%9B%B6%E7%AD%96%E7%95%A5%E9%9B%A3%E4%BB%A5%E6%8C%81%E7%BA%8C</id>
         <link href="https://www.thestandnews.com/international/a_%E5%A4%9A%E5%9C%8B%E8%BD%89%E8%BB%9A%E8%88%87%E7%97%85%E6%AF%92%E5%85%B1%E5%AD%98-%E7%B6%93%E6%BF%9F%E5%A0%B1%E5%91%8A%E6%8C%87%E6%B8%85%E9%9B%B6%E7%AD%96%E7%95%A5%E9%9B%A3%E4%BB%A5%E6%8C%81%E7%BA%8C"/>
-        <updated>2021-08-25T05:53:17.648Z</updated>
+        <updated>2021-08-25T07:29:33.211Z</updated>
         <summary type="html"><![CDATA[部份國家原本因疫苗接種率提高、每日新增確診感染人數降低而放寬防疫措施，但全球 COVID-19 疫情因變種病毒株 Delta 而惡化，多國感染人數回升增加醫療系統壓力；封關「清零」還是「與病毒共存」成為現階段很多國家面對的難題，新加坡、澳洲與新西蘭等國都先後指「清零」不可行，已決定或將會考慮與病毒共存，盡快讓國民過正常生活。各國到底應選擇「清零」還是「與病毒共存」？可能人類無一個全球通用的策略，…]]></summary>
         <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/%E7%97%85%E6%AF%92%E5%85%B1%E5%AD%98.png"></figure><p>部份國家原本因疫苗接種率提高、每日新增確診感染人數降低而放寬防疫措施，但全球 COVID-19 疫情因變種病毒株 Delta 而惡化，多國感染人數回升增加醫療系統壓力；封關「清零」還是「與病毒共存」成為現階段很多國家面對的難題，新加坡、澳洲與新西蘭等國都先後指「清零」不可行，已決定或將會考慮與病毒共存，盡快讓國民過正常生活。</p>
 
@@ -549,11 +571,11 @@
         <title type="html"><![CDATA[【東京殘奧】港隊「亞洲蝶后」陳睿琳、新秀張可盈晉級決賽　下午爭港隊首面獎牌]]></title>
         <id>https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E6%AE%98%E5%A5%A7%E6%B8%AF%E9%9A%8A%E4%BA%9E%E6%B4%B2%E8%9D%B6%E5%90%8E%E9%99%B3%E7%9D%BF%E7%90%B3%E6%96%B0%E7%A7%80%E5%BC%B5%E5%8F%AF%E7%9B%88%E6%99%89%E7%B4%9A%E6%B1%BA%E8%B3%BD-%E4%B8%8B%E5%8D%88%E7%88%AD%E6%B8%AF%E9%9A%8A%E9%A6%96%E9%9D%A2%E7%8D%8E%E7%89%8C</id>
         <link href="https://www.thestandnews.com/sport/%E6%9D%B1%E4%BA%AC%E6%AE%98%E5%A5%A7%E6%B8%AF%E9%9A%8A%E4%BA%9E%E6%B4%B2%E8%9D%B6%E5%90%8E%E9%99%B3%E7%9D%BF%E7%90%B3%E6%96%B0%E7%A7%80%E5%BC%B5%E5%8F%AF%E7%9B%88%E6%99%89%E7%B4%9A%E6%B1%BA%E8%B3%BD-%E4%B8%8B%E5%8D%88%E7%88%AD%E6%B8%AF%E9%9A%8A%E9%A6%96%E9%9D%A2%E7%8D%8E%E7%89%8C"/>
-        <updated>2021-08-25T03:50:47.726Z</updated>
-        <summary type="html"><![CDATA[東京殘奧今（25 日）舉辦首日賽事，港隊「亞洲蝶后」陳睿琳及新秀張可盈分別游出 1 分 07 秒 20 及 1 分 10 秒 68，張可盈更刷新個人記錄。兩人分別以第 3 名及第 8 名晉身女子 SM14 級100 米蝶泳決賽，決賽將於今午香港時間 5 時 10 分舉行。年僅 17 歲的香港智障泳手陳睿琳今於小組以首名完成賽事。她於印尼 2018 亞洲殘疾人運動會女子 SM14 級100 米蝶泳…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210825-07.png"><figcaption><span>圖片來源：香港殘疾人奧委會暨傷殘人士體育協會</span></figcaption></figure><p>東京殘奧今（25 日）舉辦首日賽事，港隊「亞洲蝶后」陳睿琳及新秀張可盈分別游出 1 分 07 秒 20 及 1 分 10 秒 68，張可盈更刷新個人記錄。兩人分別以第 3 名及第 8 名晉身女子 SM14 級100 米蝶泳決賽，決賽將於今午香港時間 5 時 10 分舉行。</p>
+        <updated>2021-08-25T07:30:24.556Z</updated>
+        <summary type="html"><![CDATA[東京殘奧今（25 日）舉辦首日賽事，港隊「亞洲蝶后」陳睿琳及新秀張可盈分別游出 1 分 07 秒 20 及 1 分 10 秒 68，張可盈更刷新個人記錄。兩人分別以第 3 名及第 8 名晉身女子 S14 級100 米蝶泳決賽，決賽將於今午香港時間 5 時 10 分舉行。年僅 17 歲的香港智障泳手陳睿琳今於小組以首名完成賽事。她於印尼 2018 亞洲殘疾人運動會女子 S14 級 100 米蝶泳游…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210825-07.png"><figcaption><span>圖片來源：香港殘疾人奧委會暨傷殘人士體育協會</span></figcaption></figure><p>東京殘奧今（25 日）舉辦首日賽事，港隊「亞洲蝶后」陳睿琳及新秀張可盈分別游出 1 分 07 秒 20 及 1 分 10 秒 68，張可盈更刷新個人記錄。兩人分別以第 3 名及第 8 名晉身女子 S14 級100 米蝶泳決賽，決賽將於今午香港時間 5 時 10 分舉行。</p>
 
-<p>年僅 17 歲的香港智障泳手陳睿琳今於小組以首名完成賽事。她於印尼 2018 亞洲殘疾人運動會女子 SM14 級100 米蝶泳游出 1 分 08 秒 56，取得金牌及破亞洲紀錄後，再於 2019 世界殘疾人游泳錦標賽同項比賽游出 1 分 06 秒 45，再次突破自己的亞洲紀錄，並取得銅牌。</p>
+<p>年僅 17 歲的香港智障泳手陳睿琳今於小組以首名完成賽事。她於印尼 2018 亞洲殘疾人運動會女子 S14 級 100 米蝶泳游出 1 分 08 秒 56，取得金牌及破亞洲紀錄後，再於 2019 世界殘疾人游泳錦標賽同項比賽游出 1 分 06 秒 45，再次突破自己的亞洲紀錄，並取得銅牌。</p>
 
 <p>至於男子游泳 S14 級 100 米蝶泳，鄧韋樂游出 1 分 2 秒 53，未能入決賽，外界期待他在星期五的主項男子 S14 級 200 米自由泳會有好表現。</p>
 
@@ -882,34 +904,5 @@
         </author>
         <category label="國際"/>
         <published>2021-08-25T00:50:01.752Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[滾石樂隊鼓手 Charlie Watts 逝世　享壽 80 歲]]></title>
-        <id>https://www.thestandnews.com/international/%E6%BB%BE%E7%9F%B3%E6%A8%82%E9%9A%8A%E9%BC%93%E6%89%8B-charlie-watts-%E9%80%9D%E4%B8%96-%E4%BA%AB%E5%A3%BD-80-%E6%AD%B2</id>
-        <link href="https://www.thestandnews.com/international/%E6%BB%BE%E7%9F%B3%E6%A8%82%E9%9A%8A%E9%BC%93%E6%89%8B-charlie-watts-%E9%80%9D%E4%B8%96-%E4%BA%AB%E5%A3%BD-80-%E6%AD%B2"/>
-        <updated>2021-08-24T20:27:51.506Z</updated>
-        <summary type="html"><![CDATA[英國滾石樂隊鼓手 Charlie Watts  當地時間今日（24 日）於倫敦一所醫院逝世，享壽 80 歲。滾石樂隊公關發聲明指，Charlie Watts 於周二（24 日）於倫敦在家人陪伴下安詳離世。聲明指，Charlie Watts 是一位受人愛戴的丈夫、父親和祖父，同時，作為滾石樂隊的成員，他也是其世代最偉大的鼓手之一。聲明又指，在這困難時間，望家人、樂隊成員和朋友的私隱能得到尊重。披頭…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210824_203343.jpg"><figcaption><span>Charlie Watts（The Rolling Stones twitter圖片）</span></figcaption></figure><p>英國滾石樂隊鼓手 Charlie Watts&nbsp; 當地時間今日（24 日）於倫敦一所醫院逝世，享壽 80 歲。</p>
-
-<p>滾石樂隊公關發聲明指，Charlie Watts 於周二（24 日）於倫敦在家人陪伴下安詳離世。聲明指，Charlie Watts 是一位受人愛戴的丈夫、父親和祖父，同時，作為滾石樂隊的成員，他也是其世代最偉大的鼓手之一。聲明又指，在這困難時間，望家人、樂隊成員和朋友的私隱能得到尊重。</p>
-
-<p>披頭四鼓手 Ringo Starr 亦發文悼念 Charlie Watts，表示會懷念他及願上帝保佑他。</p>
-
-<blockquote class="twitter-tweet">
-<p dir="ltr" lang="en"><a href="https://twitter.com/hashtag/God?src=hash&amp;ref_src=twsrc%5Etfw">#God</a> bless Charlie Watts we’re going to miss you man peace and love to the family Ringo 😎✌️🌟❤️🌈🎶☮️ <a href="https://t.co/3tSFg7EMQG">pic.twitter.com/3tSFg7EMQG</a></p>
-— #RingoStarr (@ringostarrmusic) <a href="https://twitter.com/ringostarrmusic/status/1430214308101705730?ref_src=twsrc%5Etfw">August 24, 2021</a></blockquote>
-<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
-
-<p>Watts 於 1941 年出生，於倫敦 Wembley 長大，其後搬到 Kingsbury 區。Watts 於 1963 年加入滾石樂隊。2016 年，Watts 於滾石雜誌史上百大鼓手評選中名列第 12 名。</p>
-
-<p>Watts 曾於 2004 年接受過咽喉癌治療：本月較早時，有報道指 Watts 要缺席滾石樂隊下月的美國巡迴演唱會，因為他剛接受過治療，需時復元。</p>
-
-<p>相關報道：<a href="https://www.bbc.co.uk/news/entertainment-arts-58316842?at_campaign=64&amp;at_custom1=%5Bpost+type%5D&amp;at_custom4=6A037E64-04F9-11EC-AECF-4BD2923C408C&amp;at_custom2=facebook_page&amp;at_custom3=BBC+News&amp;at_medium=custom7">BBC</a>、<a href="https://www.theguardian.com/music/2021/aug/24/rolling-stones-drummer-charlie-watts-dies-aged-80?CMP=fb_gu&amp;utm_medium=Social&amp;utm_source=Facebook#Echobox=1629823396">衛報</a></p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="國際"/>
-        <published>2021-08-24T19:18:22.587Z</published>
     </entry>
 </feed>
