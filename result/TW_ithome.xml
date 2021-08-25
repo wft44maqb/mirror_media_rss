@@ -6,6 +6,25 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>美國新創業者Cerebras Systems發表全球首個大腦等級的AI系統</title>
+ <link>https://www.ithome.com.tw/news/146379</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在2016年成立，專注於建置AI與深度學習電腦系統的Cerebras Systems，於24日發表了&lt;a href=&quot;https://cerebras.net/blog/announcing-the-cerebras-architecture-for-extreme-scale-ai/&quot; target=&quot;_blank&quot;&gt;號稱是全球第一個大腦等級的AI解決方案&lt;/a&gt;，藉由一個冰箱大小的CS-2系統，來支援超過120兆個參數的模型，勝過了人腦中所存在的100兆個突觸。&lt;/p&gt;
+&lt;p&gt;Cerebras指出，人腦約含有100兆個突觸，而過去最大的AI硬體叢集大概只占人腦的1%，相當於1兆個突觸，而在AI系統上則稱為參數，由於它僅等於人腦的一小部分，這些由繪圖處理器組成的叢集除了要占用數英畝的空間與數兆瓦的功率之外，也必須由專門的團隊來操作。&lt;/p&gt;
+&lt;p&gt;Cerebras所建置的CS-2系統採用了4項創新技術，於小空間創造了與人腦相當的AI能力，這些技術分別是軟體執行架構Cerebras Weight Streaming、記憶體擴張技術Cerebras MemoryX、高效能互連構造Cerebras SwarmX，以及動態的稀疏收集技術Selectable Sparsity。&lt;/p&gt;
+&lt;p&gt;其中，Weight Streaming可將模型參數存放在晶片外，卻可提供像是位於晶片的同樣訓練及推理效能。此一新的執行模型拆解了運算與參數的儲存，讓研究人員能夠彈性地擴展規模與速度，也消除了大叢集可能導致的延遲及記憶體寬頻的問題，還讓使用者能夠在不需變更軟體的狀況下，使用1到192個CS-2。&lt;/p&gt;
+&lt;p&gt;MemoryX則是讓CS-2可支援具備120兆個參數模型的基礎，SwarmX允許Cerebras可連結192個CS-2中的1.63億個AI最佳化核心，藉以訓練單一神經網路，Selectable Sparsity則是用來權衡模型中的稀疏程度，以減少所需的浮點運算效能及解決時間。&lt;/p&gt;
+&lt;p&gt;Cerebras指出，結合上述技術將能輕鬆地解鎖大腦等級的神經網路，並將任務分派到基於AI最佳化核心所組成的叢集上。&lt;/p&gt;
+&lt;p&gt;美國阿貢國家實驗室（Argonne National Laboratory）副主任Rick Stevens表示，前幾年的研究顯示，對於自然語言處理（NLP）模型來說，洞察力與參數成正比，參數愈多，結果便愈好，Cerebras的創新讓參數增加了100倍，將有改變整個產業的潛力。&lt;/p&gt;
+&lt;p&gt;吸引外界注意的還有CS-2系統所採用的WSE-2晶片，它是一個 46,225平方公釐的矽晶片，只比9.7吋的iPad還要大一些，內建2.6兆個電晶體，85萬個AI最佳化核心，40Gb記憶體，20 PB/s記憶體頻寬，以及220 Pb/s的互連頻寬，採用台積電的7奈米製程技術，它是全球最大的電腦晶片，也是地球上最獨特的半導體裝置之一。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0825-Cerebras%20WSE-2.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Cerebras&lt;/span&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 25 Aug 2021 08:30:50 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146379 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146379#comments</comments>
+</item>
+<item>
  <title>美國5G服務調查：T-Mobile明顯勝出</title>
  <link>https://www.ithome.com.tw/news/146375</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;科技雜誌PCMag已經連續12年針對美國的行動網路展開調查，此一調查在行動網路的世代轉移上更形重要，雖然美國前三大行動業者早就開始部署5G服務，但&lt;a href=&quot;https://www.ithome.com.tw/news/139907&quot; target=&quot;_blank&quot;&gt;去年的調查顯示5G與4G的速度差不多&lt;/a&gt;，而在經歷一年的發展之後，&lt;a href=&quot;https://www.pcmag.com/news/fastest-mobile-networks-2021&quot; target=&quot;_blank&quot;&gt;PCMag認為&lt;/a&gt;，今年T-Mobile的5G服務已堪稱為全美之冠。&lt;/p&gt;
@@ -160,45 +179,6 @@
  <dc:creator>李宗翰</dc:creator>
  <guid isPermaLink="false">146304 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/tech/146304#comments</comments>
-</item>
-<item>
- <title>【AMD第三代EPYC系列】延續二代產品優勢之餘，開始導入Zen 3微架構</title>
- <link>https://www.ithome.com.tw/tech/146302</link>
- <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/1036-cover3-960-tu_pian_lai_yuan_amd.png&quot; width=&quot;1412&quot; height=&quot;601&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AMD&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在2017年6月推出代號為Naples的EPYC 7001系列處理器之後，AMD宣告重返伺服器市場，當時以14奈米製程、單顆處理器最多可內建32顆核心與64個執行緒、Zen微架構、8個記憶體通道、128個PCIe 3.0通道等特色，搶盡IT新聞媒體的版面。&lt;/p&gt;
-&lt;p&gt;到了2019年8月，AMD推出第二代EPYC處理器7002系列，代號為Rome，主打的規格特色，依然超越競爭對手的最新產品，例如：採用台積電7奈米製程、單顆處理器最多可內建64顆核心與128個執行緒、Zen 2微架構、8個記憶體通道、128個PCIe 4.0通道等。而在受益於上述技術之下，7002系列處理器的效能可達到7001系列處理器的2倍。&lt;/p&gt;
-&lt;p&gt;今年3月中，AMD發表代號為Millan的第三代EPYC處理器7003系列，最大差異是採用Zen 3微架構，絕大多數特色均同於7002系列，像是：採用台積電7奈米製程、單顆處理器最多可內建64顆核心與128個執行緒、8個記憶體通道、128個PCIe 4.0通道等。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover3-960-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8FAMD.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;｜Zen微架構的演進｜歷經三年的發展，AMD發展的Zen微架構如今已邁入第三代，而EPYC處理器的世代交替，也與Zen架構的演化密不可分。&lt;/strong&gt;（圖片來源／AMD）&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;將Zen 3微架構導入AMD伺服器平臺，再度提升運算效能&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%A8%99%E9%A1%8CAMD%20EPYC%20Milan_TopLeft.png&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;在2020年10月，AMD發表Ryzen 5000系列桌上型電腦處理器，率先採用了Zen 3微架構，而後來的伺服器處理器EPYC 7003系列，之所以能在IPC效能提升19％，正是拜Zen 3所賜，另一個與桌上型電腦處理器共通的特色是核心組成方式，以及L3快取記憶體的設計。&lt;/p&gt;
-&lt;p&gt;若以8核心處理器為例，在Zen 3微架構當中，每個核心複合體（Complex）包含了8顆運算核心，以及單顆32 MB 容量的L3快取記憶體，而這32MB又可細分為24 MB處理每顆核心的資料，以及8MB處理共用的資料；在Zen 2微架構當中，是由兩個核心複合體組成，每個核心複合體則包含4顆運算核心，以及1顆16MB容量的L3快取記憶體，這16MB又再平分，針對處理每顆核心的資料與處理共用的資料，各配置8MB。&lt;/p&gt;
-&lt;p&gt;關於Zen 3微架構採用這樣的L3記憶體配置，AMD認為能夠提供更直接的存取方式，因此，在大型虛擬機器的執行上，提供更好的效能（可達到2倍）。&lt;/p&gt;
-&lt;p&gt;在整數運算與浮點運算的管線流程上，Zen 3微架構也予以調整。例如，在作業佇列（Op Queue）之下，增設配送器（dispatch）；對於排程器的配置上，整數運算濃縮了數量、加大窗口，浮點運算則拆分成多個；在每個循環週期執行工作量上，Zen 3可進行3次載入與2次存放（Zen 2則是2次載入與1次存放）。&lt;/p&gt;
-&lt;p&gt;而基於這樣的運算架構調整，AMD表示，INT8整數運算的管線處理能力可提升1倍，浮點運算速度也能加快，因而能將AI推論吞吐量增加1倍。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1036-cover3-600-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8FAMD.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;｜Zen 3採用不同的核心與快取配置，希望能進一步提升資料存取效率｜AMD EPYC 7003系列導入Zen 3微架構，調整了處理器內部配置，改以8顆核心為一個核心複合體，能讓8顆核心共用同樣的資料，而對於每顆核心而言，可存取更大量的資料。&lt;/strong&gt;（圖片來源／AMD）&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;記憶體加密技術增添新功能，提升資安攻擊因應能力&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;提供處理器層級的硬體安全防護功能，是AMD EPYC這三代以來都相當強調的特色，也是Zen 微架構導入AMD伺服器平臺的賣點之一。&lt;/p&gt;
-&lt;p&gt;在最先的Zen中，AMD開始提供安全加密虛擬化技術（SEV），EPYC 7001系列處理器內建；到了Zen 2，增加安全加密虛擬化-加密狀態技術（SEV-ES），EPYC 7002系列處理器內建這項功能；在Zen 3當中，AMD推出新的安全巢狀記憶體分頁技術（SEV-SNP），EPYC 7003系列處理器開始支援。&lt;/p&gt;
-&lt;p&gt;就系統軟體與雲端服務而言，Linux 4.16版以後的核心，以及GCP的機密VM，都支援SEV；VMware在2019年下半推出vSphere 7.0 Update1，支援進階的SEV-ES；微軟Azure今年將推出的新款機密VM，則可望支援SEV-SNP。&lt;/p&gt;
-&lt;p&gt;除了SEV系列特色，EPYC系列和Ryzen系列一樣，因為採用Zen微架構，所以，普遍內建安全記憶體加密技術（SME）。而在歷代EPYC系列處理器當中，因搭配不同的Zen架構，支援的記憶體金鑰數量也有異同。例如，7001系列僅支援16支，而7002系列與最新推出的7003系列，皆為509支。&lt;/p&gt;
-&lt;p&gt;關於惡意軟體的防護機制，AMD EPYC系列處理器所提供的，不只是上述的記憶體加密技術，從Zen 2微架構之後，AMD在EPYC 7002系列與Ryzen 9系列處理器，均新增了客體模式執行陷阱（GMET）的安全性功能，透過這項基於矽晶片的效能加速技術，搭配SEV使用，可促使Hypervior以更有效率的方式，處理程式碼完整性檢查的工作。&lt;/p&gt;
-&lt;p&gt;到了Zen 3，AMD加入Shadow Stack功能，因此，在EPYC 7003系列與Ryzen 9系列處理器當中，可藉由這項硬體強制執行的程式堆疊防護技術，確認應用系統採用正常的程式堆疊架構，能保留所有回傳位址的記錄，以便進行比較，確保完整性並未遭到破壞。&lt;/p&gt;
-&lt;p&gt;同時，我們能以此對抗基於軟體的攻擊手法，像是控制流程（control-flow）、返回導向程式設計（ROP）。&lt;/p&gt;
-&lt;p&gt;與其他系統平臺的搭配上，AMD的Shadow Stack功能，目前支援微軟研發的硬體強制型堆疊保護技術（Hardware-enforced Stack Protection），也已經在Windows 10作業系統提供。&lt;/p&gt;
-&lt;p&gt;關於這類硬體保護技術，其實不光是AMD這兩款處理器提供，英特爾目前也在第11代Core筆電處理器導入，稱為控制流程強制處理技術（CET）。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1039-%E5%B0%81%E9%9D%A2P3-AMD-%E5%9C%96.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;多家伺服器廠商、雲端業者，都將推出與其搭配的解決方案&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;依循過往新一代伺服器處理器平臺發表的慣例，AMD今年3月發表EPYC 7003系列之際，一口氣找來18家合作廠商站臺，這些橫跨雲端服務、伺服器、超融合平臺、高效能運算、FGPA加速晶片等不同領域的公司，統統被AMD找來拍YouTube影片，宣揚他們即將推出的相關解決方案，可能是因應疫情而以這種方式表態力挺，動態呈現AMD對於整個伺服器生態體系的號召能力，而非僅止於列出全部廠牌的商標。也因此，在這樣的合作關係展示之下，眾家廠商可說是給足AMD面子，也趁機拉抬彼此對於企業IT與雲端應用市場的影響力。&lt;/p&gt;
-&lt;p&gt;在高效能運算領域，AMD也大有斬獲。今年6月拿下全球500大超級電腦第5的Perlmutter，採用的處理器，就是AMD EPYC 7003系列。發展這座超級電腦的單位，是美國的國家能源研究科學運算中心，以及勞倫斯伯克利國家實驗室。&lt;/p&gt;
-&lt;p&gt;同樣在6月舉行的國際超級電腦大會期間，AMD也宣布新消息，標榜更多採用第三代EPYC的超級電腦，而發展這些系統的機構，大多與英國有關，例如，劍橋大學的CSD3、杜倫大學的COSMA8，以及英國氣象局與微軟Azure合作的超級電腦。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B&quot;&gt;封面故事&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF&quot;&gt;雲端&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/hpc&quot;&gt;HPC&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/cpu&quot;&gt;CPU&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E4%BC%BA%E6%9C%8D%E5%99%A8-0&quot;&gt;伺服器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%99%95%E7%90%86%E5%99%A8&quot;&gt;處理器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/amd%E7%AC%AC%E4%B8%89%E4%BB%A3epyc&quot;&gt;AMD第三代EPYC&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/zen-3&quot;&gt;Zen 3&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/pcie-40&quot;&gt;PCIe 4.0&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 24 Aug 2021 23:00:00 +0000</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="false">146302 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/tech/146302#comments</comments>
 </item>
 </channel>
 </rss>
