@@ -90,42 +90,5 @@
     <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:20&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:41&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud Pub/Sub has been resolved for all affected projects as of Monday, 2021-08-23 20:38 US/Pacific.&lt;/p&gt;
 &lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Pub/Sub&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>RESOLVED: We are experiencing a connectivity issue affecting Cloud SQL in australia-southeast2</title>
-    <link href="https://status.cloud.google.com/incidents/wNRZfELPApTbYeBrVTRy" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:wNRZfELPApTbYeBrVTRy.G2Y5pYpXaEt9XzezUp3U</id>
-    <updated>2021-08-24T05:35:31+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:14&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:35&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud SQL has been resolved for all affected projects as of Monday, 2021-08-23 21:52 US/Pacific.&lt;/p&gt;
-&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud SQL&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>RESOLVED: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:20 PDT.</title>
-    <link href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:8DhiwfKvD987f5tJrj1G.AhTKMkhb1hiNG1ipkdec</id>
-    <updated>2021-08-24T05:34:21+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Google Cloud infrastructure components faced issues in australia-southeast2. Most of the services are now fully restored.  The impact is believed to have started at 2021-08-23 19:50 PST.&lt;/p&gt;
-&lt;p&gt;Products impacted and current status:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cloud FileStore - Service restored. 21:07 PST&lt;/li&gt;
-&lt;li&gt;Cloud Networking - Service restored. 20:41 PST&lt;/li&gt;
-&lt;li&gt;Cloud SQL - Customers might still see errors.&lt;/li&gt;
-&lt;li&gt;Cloud VPN - Service fully restored 20:41 PST&lt;/li&gt;
-&lt;li&gt;Cloud GKE - Service fully restored 20:41 PST&lt;/li&gt;
-&lt;li&gt;Cloud Storage - Service fully restored 22:27 PST&lt;/li&gt;
-&lt;li&gt;Cloud Dataproc - Service fully restored. 21:50:36 PST&lt;/li&gt;
-&lt;li&gt;Cloud Run - Service fully restored&lt;/li&gt;
-&lt;li&gt;Cloud Spanner - Service fully restored&lt;/li&gt;
-&lt;li&gt;Cloud Pub/Sub - Service restored. 20:38 PST&lt;/li&gt;
-&lt;li&gt;Cloud Dataflow - Services fully restored at 20:12 PST&lt;/li&gt;
-&lt;li&gt;Cloud Bigtable - Service restored. 21:36 PST&lt;/li&gt;
-&lt;li&gt;Cloud Memorystore - Service restored. 20:03 PST&lt;/li&gt;
-&lt;li&gt;Cloud Logging - Services fully restored - 21:18 PST&lt;/li&gt;
-&lt;li&gt;Cloud BigQuery - Services fully restored - 21:21 PST.&lt;/li&gt;
-&lt;li&gt;Cloud Identity &amp;amp; Security(Cloud Access Policy) - Service fully restored.&lt;/li&gt;
-&lt;li&gt;Cloud Load balancers- Fully restored- 21:47 PST&lt;/li&gt;
-&lt;li&gt;Cloud Persistent Disk - Service fully restored&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We apologise for the service disruption caused by this issue.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Infrastructure Components&lt;/p&gt;</summary>
   </entry>
 </feed>
