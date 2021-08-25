@@ -6,6 +6,22 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>AT&amp;T否認被駭遭竊7000萬用戶資料</title>
+ <link>https://www.ithome.com.tw/news/146382</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;上周發生美國電信業者&lt;a href=&quot;https://www.ithome.com.tw/news/146273&quot; target=&quot;_blank&quot;&gt;T-Mobile&lt;/a&gt;數百萬用戶資料遭駭客放上暗網出售，事後T-Mobile也證實是資料庫被駭所致。而另一家電信龍頭&lt;a href=&quot;https://restoreprivacy.com/att-data-breach-70-million-customers/&quot; target=&quot;_blank&quot;&gt;AT&amp;amp;T也傳出被駭客入侵&lt;/a&gt;，並導致7000萬用戶個資外洩，不過AT&amp;amp;T對此否認。&lt;/p&gt;
+&lt;p&gt;Restore Privacy網站報導，一名「ShinyHunters」的駭客上周在地下網路論壇，出售已取得AT&amp;amp;T 7000萬名用戶的隱私資料。這批資料存取費用為20萬美元，買斷費用則叫價100萬美元。&lt;/p&gt;
+&lt;p&gt;根據駭客張貼出的樣本，他手中的資料疑似包含用戶姓名、手機號碼、住家地址、電子郵件、生日及社會安全碼等，其中後兩者則是駭客解密取得。&lt;/p&gt;
+&lt;p&gt;不過AT&amp;amp;T回覆媒體否認被駭，表示根據該公司調查，在網路上曝光的資訊並不是來自AT&amp;amp;T。&lt;/p&gt;
+&lt;p&gt;這名「ShinyHunters」稍後對媒體指出，AT&amp;amp;T的反應並不令人意外，他相信直到他公布一切資料之前，這家電信業者會持續否認。&lt;/p&gt;
+&lt;p&gt;報導指出，這名駭客之前也曾涉及其他知名公司的資料外洩案。這些案件包括印尼電商平台Tokopedia外洩9100萬用戶帳號資料；網路文學平台Wattpad洩露2.7億筆用戶紀錄；線上PDF轉檔服務Nitro PDF和線上圖像編輯服務Pixlr各外流了7700萬筆用戶紀錄及190萬用戶帳號資料；微軟則被竊走了500GB的程式原始碼並上網兜售。&lt;/p&gt;
+&lt;p&gt;T-Mobile本周證實該公司系統是因為有安全漏洞，使駭客得以存取近5,000萬名用戶包括姓名、生日、社會安全號碼的資料。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 25 Aug 2021 09:34:40 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146382 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146382#comments</comments>
+</item>
+<item>
  <title>資安一周第160期：殭屍網路發動大規模DDoS攻擊。駭客以百萬美元贖金分紅利誘，發動勒索軟體攻擊</title>
  <link>https://www.ithome.com.tw/news/146380</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;8/19-8/25必看資安新聞&lt;/strong&gt;&lt;/h3&gt;
@@ -228,22 +244,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146370 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146370#comments</comments>
-</item>
-<item>
- <title>Google服務網格控制平面Traffic Director，現可簡單配置gRPC服務間的安全通訊</title>
- <link>https://www.ithome.com.tw/news/146369</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://cloud.google.com/blog/products/application-development/add-security-to-grpc-services-with-traffic-director&quot;&gt;Google更新gRPC無代理服務&lt;/a&gt;，解決微服務間通訊的安全痛點，開發者透過Traffic Director控制平面，就夠簡單配置gRPC服務，以TLS/mTLS建立服務之間的安全通訊。&lt;/p&gt;
-&lt;p&gt;gRPC（General-purpose Remote Procedure Calls）是一個由Google發起的開源遠端程序呼叫框架，建立在HTTP/2協定之上，並且使用protobuf作為序列化和反序列化機制，支援各種使用案例和部署模型，能夠用於後端服務間的通訊，或是不同客戶端存取GCP服務的通訊，由於gRPC支援多語言環境，因此能夠讓像是Java客戶端，跟由Go語言編寫的伺服器溝通。&lt;/p&gt;
-&lt;p&gt;gRPC在現今的微服務架構中，扮演重要的角色，當大型單體應用程式分解成較小的微服務時，單體應用程式元件之間的程序內呼叫，便需要轉變成微服務之間的網路呼叫，而gRPC讓這件事變簡單。在去年的時候，Google更新gRPC無代理服務，讓用戶可以讓gRPC客戶端能夠處理和實作流量管理和負載平衡策略，並且還正式支援Traffic Director作為控制平面。&lt;/p&gt;
-&lt;p&gt;但是要讓gRPC網路呼叫和程序內呼叫一樣安全是個挑戰，而TLS/mTLS便能派上用場，最新版本的gRPC讓開發者可以配置政策，以加密服務到服務的通訊。Google新提出的解決方案，克服了服務之間的安全性痛點，包括在客戶端和伺服器上管理和安裝證書，或是從可信的CA綁定身份和發布證書，甚至是輪替證書等。&lt;/p&gt;
-&lt;p&gt;Google提到，在基礎設施中提供工作負載身份、CA和證書管理等功能，同時工作負載函式庫也在服務網格通訊中，利用這些設施來提供服務到服務的TLS/mTLS和身份驗證，這將能大幅節省開發人員和管理員的時間。現在用戶可以使用Traffic Director配置gRPC服務，在服務之間以自動化的方式，建立安全性功能，只需要在客戶端和伺服器配置安全政策，Traffic Director就能夠將其發布到服務中。&lt;/p&gt;
-&lt;p&gt;使用這項Google新提供的安全功能，用戶就可以替網格中所有服務，快速提供金鑰和證書，而金鑰和證書也會自動輪替，因此增加了整體安全性，同時還與GKE整合，並且能和以Envoy為基礎的服務網格無縫互通，像是服務可以位在Envoy代理之後，但是客戶端卻使用gRPC無代理服務網格。&lt;/p&gt;
-&lt;p&gt;Google還會繼續更新gRPC無代理服務，增加服務到服務間通訊的身份驗證功能，並且支援其他部署模型，讓gRPC除了在GKE運作，還能在Compute Engine等服務上執行。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 02:06:26 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146369 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146369#comments</comments>
 </item>
 </channel>
 </rss>
