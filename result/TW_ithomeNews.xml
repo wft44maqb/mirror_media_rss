@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/1597" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/area/id/3" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/atom/1597</link>
+    <link>https://www.ithome.com.tw/latest/area/id/3</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/atom/1597" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/area/id/3" rel="self" type="application/rss+xml" />
       <item>
     <title>2021年8月10大資安新聞</title>
     <link>https://www.ithome.com.tw/news/146389</link>
@@ -12,6 +12,15 @@
      <pubDate>2021-08-25  11:08:14</pubDate>
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146389</guid>
+  </item>
+  <item>
+    <title>5U尺寸可容納1百臺硬碟，Dell推出新一代高密度儲存伺服器</title>
+    <link>https://www.ithome.com.tw/review/146173</link>
+    <description> 針對複雜運算與儲存裝置密集的工作負載需求，Dell EMC在2020年設立了PowerEdge XE系列伺服器，過去我們陸續報導最初發表的XE2420，以及今年上半推出的XE8545，現在我們介紹主打高密度儲存應用的XE7100，於2020年10月推出。
+</description>
+     <pubDate>2021-08-25  10:08:18</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/review/146173</guid>
   </item>
   <item>
     <title>Nvidia推AI Enterprise平臺可在混合雲環境執行虛擬化AI工作負載</title>
@@ -250,14 +259,6 @@
      <pubDate>2021-08-24  02:08:22</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146354</guid>
-  </item>
-  <item>
-    <title>CISA警告：駭客正在積極開採ProxyShell漏洞</title>
-    <link>https://www.ithome.com.tw/news/146353</link>
-    <description> 美國網路安全及基礎設施安全局（Cybersecurity and Infrastructure Security Agency，CISA）上周警告，駭客正在積極開採位於Microsoft Exchange的ProxyShell漏洞，呼籲各大組織應儘速修補。</description>
-     <pubDate>2021-08-24  02:08:02</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146353</guid>
   </item>
   </channel>
 </rss>
