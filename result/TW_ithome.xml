@@ -6,6 +6,22 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Google服務網格控制平面Traffic Director，現可簡單配置gRPC服務間的安全通訊</title>
+ <link>https://www.ithome.com.tw/news/146369</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://cloud.google.com/blog/products/application-development/add-security-to-grpc-services-with-traffic-director&quot;&gt;Google更新gRPC無代理服務&lt;/a&gt;，解決微服務間通訊的安全痛點，開發者透過Traffic Director控制平面，就夠簡單配置gRPC服務，以TLS/mTLS建立服務之間的安全通訊。&lt;/p&gt;
+&lt;p&gt;gRPC（General-purpose Remote Procedure Calls）是一個由Google發起的開源遠端程序呼叫框架，建立在HTTP/2協定之上，並且使用protobuf作為序列化和反序列化機制，支援各種使用案例和部署模型，能夠用於後端服務間的通訊，或是不同客戶端存取GCP服務的通訊，由於gRPC支援多語言環境，因此能夠讓像是Java客戶端，跟由Go語言編寫的伺服器溝通。&lt;/p&gt;
+&lt;p&gt;gRPC在現今的微服務架構中，扮演重要的角色，當大型單體應用程式分解成較小的微服務時，單體應用程式元件之間的程序內呼叫，便需要轉變成微服務之間的網路呼叫，而gRPC讓這件事變簡單。在去年的時候，Google更新gRPC無代理服務，讓用戶可以讓gRPC客戶端能夠處理和實作流量管理和負載平衡策略，並且還正式支援Traffic Director作為控制平面。&lt;/p&gt;
+&lt;p&gt;但是要讓gRPC網路呼叫和程序內呼叫一樣安全是個挑戰，而TLS/mTLS便能派上用場，最新版本的gRPC讓開發者可以配置政策，以加密服務到服務的通訊。Google新提出的解決方案，克服了服務之間的安全性痛點，包括在客戶端和伺服器上管理和安裝證書，或是從可信的CA綁定身份和發布證書，甚至是輪替證書等。&lt;/p&gt;
+&lt;p&gt;Google提到，在基礎設施中提供工作負載身份、CA和證書管理等功能，同時工作負載函式庫也在服務網格通訊中，利用這些設施來提供服務到服務的TLS/mTLS和身份驗證，這將能大幅節省開發人員和管理員的時間。現在用戶可以使用Traffic Director配置gRPC服務，在服務之間以自動化的方式，建立安全性功能，只需要在客戶端和伺服器配置安全政策，Traffic Director就能夠將其發布到服務中。&lt;/p&gt;
+&lt;p&gt;使用這項Google新提供的安全功能，用戶就可以替網格中所有服務，快速提供金鑰和證書，而金鑰和證書也會自動輪替，因此增加了整體安全性，同時還與GKE整合，並且能和以Envoy為基礎的服務網格無縫互通，像是服務可以位在Envoy代理之後，但是客戶端卻使用gRPC無代理服務網格。&lt;/p&gt;
+&lt;p&gt;Google還會繼續更新gRPC無代理服務，增加服務到服務間通訊的身份驗證功能，並且支援其他部署模型，讓gRPC除了在GKE運作，還能在Compute Engine等服務上執行。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 25 Aug 2021 02:06:26 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146369 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146369#comments</comments>
+</item>
+<item>
  <title>CPU三強爭霸</title>
  <link>https://www.ithome.com.tw/article/146305</link>
  <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1039-feng_mian_p1-open-960x420_kao_bei_.png?itok=6bLFtvd8&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-featured-article-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/75&quot;&gt;專題故事&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;從2021年3月中到4月底，AMD、Intel相繼推出第三代伺服器平臺，Arm也恰巧發表新的伺服器級處理器技術，導入新的微架構，以及更先進的製程，持續針對效能、I/O、安全提出創新，並於企業IT、雲端服務、高效能運算等領域短兵相接。&lt;/p&gt;
@@ -209,24 +225,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146358 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146358#comments</comments>
-</item>
-<item>
- <title>臺灣終於有國際級5G驗證開放平臺了！國內5G實驗室首度獲O-RAN聯盟及TIP組織認證</title>
- <link>https://www.ithome.com.tw/news/146357</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;臺灣有兩間5G開放網路實驗室，由天線製造商耀登集團，以及由經濟部工業局各自打造完成，最近分別通過國際兩大5G電信開放架構組織O-RAN聯盟與TIP組織認可，允許他們可以就近在臺提供5G設備驗測服務，讓網通業者可以採用O-RAN規範或TIP規範的5G驗證開放平臺，來驗證自家5G產品。意味者，臺灣終於有符合國際規格的5G驗證開放平臺，能夠打通國產5G發展的任督二脈，實現國產5G藍圖最後一塊拼圖。&lt;/p&gt;
-&lt;p&gt;在全球5G加速發展趨勢下，5G電信開放架構的採用，也成了近來臺灣推動5G發展的重要政策方針，政府不僅僅號召國內網通廠商加入，來帶動國產5G發展，更要組5G國家隊，加入全球5G供應鏈，將產品及技術輸出國際。為此，NCC今年初更設定目標，5年內要達到4成5G國產品採用率，這些5G國產品全部採用5G開放規格設計。&lt;/p&gt;
-&lt;p&gt;但光有政府號召，網通廠商投入還不夠，想要發展國產5G，還缺少一個重要關鍵，就是要建立屬於自己的國際級5G驗證開放平臺。&lt;/p&gt;
-&lt;p&gt;正因為臺灣一直沒有符合國際規格的5G測試實驗環境，所以，以往國內5G設備商或網通業者只能自行尋找適合的測試環境，或遠赴國外測試，但有了國際級5G驗證開放平臺後，現在網通廠商可以自行選擇要採用O-RAN規格或TIP規格的測試環境，來驗測自家5G產品，而且還有兩間國際級5G實驗室，可提供兩大組織5G開放產品驗證，可以說是，實現國產5G藍圖最後一塊拼圖。&lt;/p&gt;
-&lt;p&gt;這次通過O-RAN聯盟與TIP組織認證的臺灣5G實驗室有兩間，前者是天線網通廠商耀登集團所取得，主要提供5G開放基地臺產品一致性測試，用來驗證產品有無符合聯盟規範與相關標準。後者則是經濟部工業局5G開放網路實驗室拿下，涵蓋測試面向更廣，從5G核網、5G基地臺到終端設備之間的互通、互連測試都包含其中。&lt;/p&gt;
-&lt;p&gt;進一步來看，耀登原本就有自己的獨立實驗室，用來測試自家天線產品，因為開放網路架構的需求興起，所以，這家公司後來決定將原來實驗室擴建，打造成5G O-RAN產品測試實驗室，並向O-RAN聯盟提交申請。O-RAN聯盟在8月中最新一份&lt;a href=&quot;https://static1.squarespace.com/static/5ad774cce74940d7115044b0/t/611a53ea2436a96c6c7f3a01/1629115370586/O-RAN.EC.August-16-2021-PR.v01.00.pdf&quot;&gt;白皮書&lt;/a&gt;中，正式將該實驗室列入合格名單，成為該聯盟最新一批通過申請的OTIC（開放測試與整合中心）實驗室。目前，O-RAN聯盟在全球共有5座OTIC實驗室，臺灣是亞洲第一座，其餘都在歐洲。值得一提的是，除了OTIC實驗室，耀登還設立5G資安實驗室。耀登預期將在25日一場中華電信揭牌活動上揭露更多訊息。&lt;/p&gt;
-&lt;p&gt;經濟部工業局拿到國際5G驗證平臺許可更早，早在今年5月底，工業局的5G開放網路實驗室，就獲得TIP組織的同意，成為TIP社群實驗室（TIP Community Labs）一員，但從申請到取得資格也花一年多時間，工業局表示，成為TIP實驗室一員最大好處，只要經過他們驗證合格的5G產品，就能取得官方標章，不僅能夠替業者增加國際公信力與可靠度，產品資訊也會放上官網，讓全球5G業者或建置專網企業都看得到。&lt;/p&gt;
-&lt;p&gt;工業局5G開放網路實驗室，目前設置於桃園智慧創新應用示範中心，不只提供NSA非獨立組網架構的產品測試環境，今年初也開始支援5G SA組網架構，5G頻譜則以主流3.5GHZ為主，啟用至今，有十多家網通業者申請測試，如雲達、和碩、啟碁等。&lt;/p&gt;
-&lt;p&gt;獲得兩大5G開放架構組織認可後，工業局表示，臺灣現在已能開放兩大5G驗證開放平臺，來提供業者測試5G O-RAN產品或TIP相關設備，並能就近取得官方測試報告證明或標章，讓通過檢測合格的5G開放產品，能夠迅速銷往全球。目前工業局正與耀登5G實驗室展開合作，共同協助業者完成相關5G開放產品測試，包含一致性測試、互通測試項目。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 24 Aug 2021 07:52:34 +0000</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="false">146357 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146357#comments</comments>
 </item>
 </channel>
 </rss>
