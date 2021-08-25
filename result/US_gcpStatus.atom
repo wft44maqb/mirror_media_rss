@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Cloud Status Dashboard Updates</title>
-  <updated>2021-08-25T15:18:15+00:00</updated>
+  <updated>2021-08-25T15:22:33+00:00</updated>
   <link href="https://status.cloud.google.com/" rel="alternate" type="text/html"></link>
   <link href="https://status.cloud.google.com/en/feed.atom" rel="self"></link>
   <author>
@@ -9,36 +9,36 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
-    <title>RESOLVED: Dataflow job querying and creation impacted in us-west1</title>
-    <link href="https://status.cloud.google.com/incidents/vcRkm91DVuWNGWMw9w84" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:vcRkm91DVuWNGWMw9w84.bBXv69fnUHYv4VCd5rnn</id>
-    <updated>2021-08-25T15:18:15+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-25 03:39&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-25 04:43&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Google Cloud Dataflow has been resolved for all affected projects as of Wednesday, 2021-08-25 04:42 US/Pacific.&lt;/p&gt;
-&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
-  </entry><entry>
     <title>UPDATE: Dataflow job querying and creation impacted in us-west1</title>
     <link href="https://status.cloud.google.com/incidents/vcRkm91DVuWNGWMw9w84" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:vcRkm91DVuWNGWMw9w84.DzV8gUe6gSrVwi9QEqcM</id>
-    <updated>2021-08-25T11:30:31+00:00</updated>
+    <updated>2021-08-25T15:22:33+00:00</updated>
     <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-25 03:39&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-25 04:43&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Dataflow job querying and creation impacted in us-west1&lt;/p&gt;
 &lt;p&gt;Description: Mitigation work is currently underway by our engineering team.&lt;/p&gt;
 &lt;p&gt;The mitigation is expected to complete by Wednesday, 2021-08-25 06:00 US/Pacific.&lt;/p&gt;
 &lt;p&gt;We will provide more information by Wednesday, 2021-08-25 05:30 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Diagnosis: We beleive starting a Dataflow job or querying existing Dataflow jobs may fail for the customers. However, existing Dataflow jobs should continue to progress as usual.&lt;/p&gt;
+&lt;p&gt;Diagnosis: We believe starting a Dataflow job or querying existing Dataflow jobs may fail for the customers. However, existing Dataflow jobs should continue to progress as usual.&lt;/p&gt;
 &lt;p&gt;Workaround: None at this time.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
   </entry><entry>
     <title>UPDATE: Dataflow job querying and creation impacted in us-west1</title>
     <link href="https://status.cloud.google.com/incidents/vcRkm91DVuWNGWMw9w84" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:vcRkm91DVuWNGWMw9w84.oq4VmaBwJj6xxg3UveJr</id>
-    <updated>2021-08-25T10:39:11+00:00</updated>
+    <updated>2021-08-25T15:22:26+00:00</updated>
     <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-25 03:39&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-25 04:43&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Dataflow job querying and creation impacted in us-west1&lt;/p&gt;
-&lt;p&gt;Description: We are experiencing an issue with Google Cloud infrastructure components in us-west1 beginning at Wednesday, 2021-08-25 01:37 US/Pacific.&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Google Cloud Dataflow in us-west1 beginning at Wednesday, 2021-08-25 01:37 US/Pacific.&lt;/p&gt;
 &lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
 &lt;p&gt;We will provide an update by Wednesday, 2021-08-25 04:30 US/Pacific with current details. We apologize to all who are affected by the disruption.&lt;/p&gt;
-&lt;p&gt;Diagnosis: We beleive starting a Dataflow job or querying existing Dataflow jobs may fail for the customers. However, existing Dataflow jobs should continue to progress as usual.&lt;/p&gt;
+&lt;p&gt;Diagnosis: We believe starting a Dataflow job or querying existing Dataflow jobs may fail for the customers. However, existing Dataflow jobs should continue to progress as usual.&lt;/p&gt;
 &lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: Dataflow job querying and creation impacted in us-west1</title>
+    <link href="https://status.cloud.google.com/incidents/vcRkm91DVuWNGWMw9w84" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:vcRkm91DVuWNGWMw9w84.bBXv69fnUHYv4VCd5rnn</id>
+    <updated>2021-08-25T15:18:15+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-25 03:39&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-25 04:43&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Google Cloud Dataflow has been resolved for all affected projects as of Wednesday, 2021-08-25 04:42 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
   </entry><entry>
     <title>RESOLVED: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:20 PDT.</title>
