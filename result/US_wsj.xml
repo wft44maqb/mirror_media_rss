@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Aug 2021 12:27:27 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Aug 2021 12:30:50 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 25 Aug 2021 12:27:27 GMT</pubDate>
+        <pubDate>Wed, 25 Aug 2021 12:30:50 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -27,6 +27,41 @@
         <category><![CDATA[華爾街日報]]></category>
         <category><![CDATA[華爾街日報中文網]]></category>
         <category><![CDATA[Wall Street Journal]]></category>
+        <item>
+            <title><![CDATA[亞洲低接種率國家因德爾塔疫情陷入生產中斷]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LR519_VIETSU_OR_20210823140727.jpg" class="webfeedsFeaturedVisual" alt=""/><p>由於較低的疫苗接種率和德爾塔毒株的快速傳播，此前未受疫情嚴重影響的越南最近病例激增，被迫關閉了部分工廠。這讓嚴重依賴越南製造業的西方品牌陷入困境。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%BA%9E%E6%B4%B2%E4%BD%8E%E6%8E%A5%E7%A8%AE%E7%8E%87%E5%9C%8B%E5%AE%B6%E5%9B%A0%E5%BE%B7%E7%88%BE%E5%A1%94%E7%96%AB%E6%83%85%E9%99%B7%E5%85%A5%E7%94%9F%E7%94%A2%E4%B8%AD%E6%96%B7-11629861007</link>
+            <guid isPermaLink="false">CT-ECB-20210825103327</guid>
+            <pubDate>Wed, 25 Aug 2021 03:40:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[美國情報機構最新報告未就新冠病毒起源給出明確結論]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LR696_VIRUSF_OR_20210823181359.jpg" class="webfeedsFeaturedVisual" alt=""/><p>兩名美國高級官員稱，美國情報機構周二提交給白宮的有關新冠起源的最新評估報告，沒有就這種病毒是自然傳染給人類還是通過實驗室泄露傳染得出明確結論，這在一定程度上是因為缺乏來自中國的詳細資訊。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%8B%9C%E7%99%BB%E5%B0%87%E7%8D%B2%E5%BE%97%E6%96%B0%E5%86%A0%E7%97%85%E6%AF%92%E8%B5%B7%E6%BA%90%E6%9C%80%E6%96%B0%E5%A0%B1%E5%91%8A%EF%BC%8C%E9%9D%A2%E8%87%A8%E5%BE%9E%E4%B8%AD%E5%9C%8B%E7%8D%B2%E5%8F%96%E8%B3%87%E8%A8%8A%E7%9A%84%E6%8C%91%E6%88%B0-11629849906</link>
+            <guid isPermaLink="false">CT-BGH-20210825074919</guid>
+            <pubDate>Wed, 25 Aug 2021 07:20:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[馬雲代價最高昂的商業教訓：中國只有一位領導人]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ756_JACKMA_OR_20210820101820.jpg" class="webfeedsFeaturedVisual" alt=""/><p>身為阿里巴巴創始人和億萬富豪，馬雲一度比肩貝佐斯、馬斯克和蓋茲等美國科技業傳奇，但他馬失前蹄於忽視了重要警告——在中國，一切仍由國家主席習近平說了算。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E9%A6%AC%E9%9B%B2%E4%BB%A3%E5%83%B9%E6%9C%80%E9%AB%98%E6%98%82%E7%9A%84%E5%95%86%E6%A5%AD%E6%95%99%E8%A8%93%EF%BC%9A%E4%B8%AD%E5%9C%8B%E5%8F%AA%E6%9C%89%E4%B8%80%E4%BD%8D%E9%A0%98%E5%B0%8E%E4%BA%BA-11629707409</link>
+            <guid isPermaLink="false">CT-BCH-20210823154833</guid>
+            <pubDate>Wed, 25 Aug 2021 03:15:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中國財經媒體報導匯總：國務院討論通過東北全面振興「十四五」實施方案]]></title>
+            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-JD371_TONGHU_G_20210202133112.jpg" class="webfeedsFeaturedVisual" alt=""/><p>央行：把促進共同富裕作為金融工作的出發點和著力點；上海國際金融中心建設「十四五」規劃出爐；網信辦：企業所有制的形式不作為關鍵資訊基礎設施認定的依據或條件。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E8%B2%A1%E7%B6%93%E5%AA%92%E9%AB%94%E5%A0%B1%E5%B0%8E%E5%8C%AF%E7%B8%BD%EF%BC%9A%E5%9C%8B%E5%8B%99%E9%99%A2%E8%A8%8E%E8%AB%96%E9%80%9A%E9%81%8E%E6%9D%B1%E5%8C%97%E5%85%A8%E9%9D%A2%E6%8C%AF%E8%88%88%E3%80%8C%E5%8D%81%E5%9B%9B%E4%BA%94%E3%80%8D%E5%AF%A6%E6%96%BD%E6%96%B9%E6%A1%88-11629852434</link>
+            <guid isPermaLink="false">CT-FIN-20210825082224</guid>
+            <pubDate>Wed, 25 Aug 2021 01:01:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[填補華為留下的市場空白，小米成全球最熱智能手機品牌]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LR179_XIAOMI_OR_20210822091143.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國的制裁重挫華為的智能手機業務，小米填補了華為在歐洲、東南亞乃至中國市場留下的空白。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%B0%8F%E7%B1%B36%E6%9C%88%E6%99%BA%E8%83%BD%E6%89%8B%E6%A9%9F%E9%8A%B7%E9%87%8F%E8%BA%8D%E5%B1%85%E5%85%A8%E7%90%83%E7%AC%AC%E4%B8%80-11629774606</link>
+            <guid isPermaLink="false">CT-TEC-20210824104433</guid>
+            <pubDate>Wed, 25 Aug 2021 11:10:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[眾議院通過3.5兆美元預算計劃，設定基建法案投票最後期限]]></title>
             <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LR859_demspl_OR_20210824100621.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國眾議院周二以微弱優勢通過了一項議案，批准了3.5兆美元的預算計劃，並鎖定了9月底對一項約1兆美元基礎設施法案的投票，結束了一些中間派民主黨人和他們的領導人在黨內立法議程上的僵局。</p>]]></description>
@@ -54,6 +89,34 @@
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E5%89%AF%E7%B8%BD%E7%B5%B1%E5%93%88%E8%A3%A1%E6%96%AF%E7%B9%BC%E7%BA%8C%E8%A8%AA%E8%B6%8A%E8%A1%8C%E7%A8%8B%EF%BC%8C%E5%84%98%E7%AE%A1%E6%B2%B3%E5%85%A7%E5%87%BA%E7%8F%BE%E7%96%91%E4%BC%BC%E5%93%88%E7%93%A6%E9%82%A3%E7%B6%9C%E5%90%88%E7%97%87-11629859805</link>
             <guid isPermaLink="false">CT-BGH-20210825103620</guid>
             <pubDate>Wed, 25 Aug 2021 03:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[快手科技第二季度收入大增49%]]></title>
+            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-JA679_0125vi_G_20210124202527.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國科技巨頭快手科技第二季度收入大增49%，至人民幣191.4億元，淨虧損從上年同期的人民幣376億元大幅收窄至人民幣70.4億元。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%BF%AB%E6%89%8B%E7%A7%91%E6%8A%80%E7%AC%AC%E4%BA%8C%E5%AD%A3%E5%BA%A6%E6%94%B6%E5%85%A5%E5%A4%A7%E5%A2%9E49-11629889035</link>
+            <guid isPermaLink="false">CT-TEC-20210825184709</guid>
+            <pubDate>Wed, 25 Aug 2021 11:01:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[煤電增加推升全球電力行業碳排放，亞洲最明顯]]></title>
+            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-KW208_COALMK_G_20210625071011.jpg" class="webfeedsFeaturedVisual" alt=""/><p>能源智庫Ember的一份報告顯示，2021年上半年，為滿足電力需求增長，煤電廠發電量增加，導致全球電力行業的碳排放量超過新冠疫情前的水平。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E7%85%A4%E9%9B%BB%E5%A2%9E%E5%8A%A0%E6%8E%A8%E5%8D%87%E5%85%A8%E7%90%83%E9%9B%BB%E5%8A%9B%E8%A1%8C%E6%A5%AD%E7%A2%B3%E6%8E%92%E6%94%BE%EF%BC%8C%E4%BA%9E%E6%B4%B2%E6%9C%80%E6%98%8E%E9%A1%AF-11629883335</link>
+            <guid isPermaLink="false">CT-BIZ-20210825170551</guid>
+            <pubDate>Wed, 25 Aug 2021 09:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[即使世界重新開放，數字支付巨頭Adyen仍可繼續增長]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LR020_ADYENH_OR_20210820164340.jpg" class="webfeedsFeaturedVisual" alt=""/><p>數字支付提供商Adyen的業務在新冠疫情期間得到了提振，但即使世界重新回到現實生活中的線下購物，其前景似乎也不會受到不利影響，該公司有多種途徑實現進一步發展。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%8D%B3%E4%BD%BF%E4%B8%96%E7%95%8C%E9%87%8D%E6%96%B0%E9%96%8B%E6%94%BE%EF%BC%8C%E6%95%B8%E5%AD%97%E6%94%AF%E4%BB%98%E5%B7%A8%E9%A0%ADadyen%E4%BB%8D%E5%8F%AF%E7%B9%BC%E7%BA%8C%E5%A2%9E%E9%95%B7-11629870607</link>
+            <guid isPermaLink="false">CT-HRD-20210825132944</guid>
+            <pubDate>Wed, 25 Aug 2021 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[宜家嘗試新的門店形式，顧客購物不再走迷宮]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LS135_0824ik_OR_20210824165756.jpg" class="webfeedsFeaturedVisual" alt=""/><p>宜家正在測試兩種新的店面設計，這些設計拋棄了其標誌性的迷宮式賣場方案，該零售商正在探索如何在電子商務時代保持實體店不落伍。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%AE%9C%E5%AE%B6%E5%98%97%E8%A9%A6%E6%96%B0%E7%9A%84%E9%96%80%E5%BA%97%E5%BD%A2%E5%BC%8F%EF%BC%8C%E9%A1%A7%E5%AE%A2%E8%B3%BC%E7%89%A9%E4%B8%8D%E5%86%8D%E8%B5%B0%E8%BF%B7%E5%AE%AE-11629866706</link>
+            <guid isPermaLink="false">CT-BIZ-20210825123042</guid>
+            <pubDate>Wed, 25 Aug 2021 05:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[美國30至39歲人群因新冠住院率創新高]]></title>
