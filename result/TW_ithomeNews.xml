@@ -4,7 +4,7 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=635&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
     <title>中華電信聯手耀登旗下O-RAN認證實驗室，要助國產O-RAN產品搶攻5G市場</title>
     <link>https://www.ithome.com.tw/news/146383</link>
@@ -42,9 +42,9 @@
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146379</guid>
   </item>
   <item>
-    <title>科技部集結5校展示智慧防疫研究成果，大量活用AI、物聯網科技提升防疫效果，更盼藉此催生出新的精準健康產業</title>
+    <title>科技部集結5校展示智慧防疫研究成果，更盼藉此催生出新的精準健康產業</title>
     <link>https://www.ithome.com.tw/news/146377</link>
-    <description> 由科技部去年中投入成立的防疫科學研究中心，集結臺灣大學、陽明交通大學、成功大學、長庚大學及國防醫學院共5間學校，共同投入COVID-19抗疫和防疫科學研究，並在今日（8/25）公開展示一年來研究中心的成果，而且這些防疫研究或應用成果，迄今已有不少醫院或集中檢疫所拿來採用。，
+    <description> 由科技部去年中投入成立的防疫科學研究中心，集結臺灣大學、陽明交通大學、成功大學、長庚大學及國防醫學院共5間學校，共同投入COVID-19抗疫和防疫科學研究，並在今日（8/25）公開展示一年來研究中心的成果，而且這些防疫研究或應用成果，迄今已有不少醫院或集中檢疫所拿來採用。
 科技部部長吳政忠表示，這次防疫中心的成果展示，不只運用原本學理檢測技術，更把AI、5G、物聯網科技帶進來，運用到防疫所需要的監測、預防、檢驗、醫療，以及零接觸照護，來幫助臺灣防疫做得更好，甚至也有機會在臺灣催生出新的精準健康產業。
 整體來看，5間大學研究團隊所展示的防疫研究或應用成果，不少都運用上現在當紅AI、大數據、雲端與物聯網相關技術，來發展出各種智慧防疫應用。</description>
      <pubDate>2021-08-25  03:08:10</pubDate>
