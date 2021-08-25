@@ -129,7 +129,7 @@
 <item>
  <title>科技部集結5校展示智慧防疫研究成果，更盼藉此催生出新的精準健康產業</title>
  <link>https://www.ithome.com.tw/news/146377</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;由科技部去年中投入成立的防疫科學研究中心，集結臺灣大學、陽明交通大學、成功大學、長庚大學及國防醫學院共5間學校，共同投入COVID-19抗疫和防疫科學研究，並在今日（8/25）公開展示一年來研究中心的成果，而且這些防疫研究或應用成果，迄今已有不少醫院或集中檢疫所拿來採用。&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;由科技部去年中投入成立的防疫科學研究中心，集結臺灣大學、陽明交通大學、成功大學、長庚大學及國防醫學院共5間學校，共同投入COVID-19抗疫和防疫科學研究，並在今日（8/25）公開展示一年來研究中心的成果，其中更有不少防疫研究或應用成果，迄今已有醫院或集中檢疫所拿來採用。&lt;/p&gt;
 &lt;p&gt;科技部部長吳政忠表示，這次防疫中心的成果展示，不只運用原本學理檢測技術，更把AI、5G、物聯網科技帶進來，運用到防疫所需要的監測、預防、檢驗、醫療，以及零接觸照護，來幫助臺灣防疫做得更好，甚至也有機會在臺灣催生出新的精準健康產業。&lt;/p&gt;
 &lt;p&gt;整體來看，5間大學研究團隊所展示的防疫研究或應用成果，不少都運用上現在當紅AI、大數據、雲端與物聯網相關技術，來發展出各種智慧防疫應用。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/PXL_20210825_024012746.jpg&quot; style=&quot;width: 600px; height: 338px;&quot; /&gt;&lt;/p&gt;
@@ -166,6 +166,7 @@
 &lt;p&gt;而網軟也向我們說明，過去有些用戶可能設定長度不足又簡單的弱密碼，因此他們現在也提醒用戶，要注意密碼設定問題，而網軟也在系統上新增了雙因素驗證機制，讓用戶可搭配簡訊OTP來驗證，強化系統登入安全。&lt;/p&gt;
 &lt;p&gt;從上述這些資安強化內容來看，網軟系統在基礎資安防護上，似乎過去仍有一些不足之處，例如系統登入相當缺乏安全防護機制。儘管該業者主要服務的對象是非營利組織，但攻擊者顯然並未因此放過他們，而這樣的資安事件，不僅是對對於其他慈善組織，以及這類型的資訊服務商，都是一個警惕，也突顯任何使用資訊與IT技術的各類型企業與組織，都需要同時考量到資安。&lt;/p&gt;
 &lt;p&gt;另外，由於網軟至今並未對外公告發生資安事件，因此這次資安事件的影響範圍，仍令外界感到憂心。是否只有捐款系統發生資料外洩情況？畢竟，我們從該公司網站公開的案例，可以看到他們的客戶，不只是多個愛心協會，像是在線上金流整合服務中，屏東縣政府也是其客戶，因此，是否各產品服務的所有客戶，都受此次資安事件影響，遭遇資料外洩情形，勢必也都要有所清查。&lt;/p&gt;
+&lt;p&gt;是否還有更多可供外界參考的資訊？不具名資安專家表示，從網軟與NPO客戶信件往來的內容，推測該公司的服務可能被上傳惡意程式，也就是基本的上傳漏洞（File Upload），使得攻擊者可以控制伺服器或撈取資料庫原始碼等。不過，這是從有限資訊中的側面推測，詳情還是要等刑事警察局或網軟來說明。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖5）網軟資料外洩.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%965%EF%BC%89%E7%B6%B2%E8%BB%9F%E8%B3%87%E6%96%99%E5%A4%96%E6%B4%A9.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;在網軟官方網站上，已在8月3日發布刑事警察局的反詐騙宣導，但至今還沒有對外公布遭駭客攻擊與資料外洩的資安事件。&lt;/p&gt;
 &lt;/blockquote&gt;
