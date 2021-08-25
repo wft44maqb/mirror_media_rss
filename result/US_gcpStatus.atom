@@ -155,39 +155,5 @@
     <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:14&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:21&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with BigQuery has been resolved for all affected users as of Monday, 2021-08-23 21:21 US/Pacific.&lt;/p&gt;
 &lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google BigQuery&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: Google Cloud infrastructure components faced issues in australia-southeast2 starting 2021-08-23 19:50 PDT. Most of the services are fully restored by 2021-08-23 21:20 PDT.</title>
-    <link href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:8DhiwfKvD987f5tJrj1G.eSKQwwP53hJK4Lou2DhN</id>
-    <updated>2021-08-24T04:59:37+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 19:50&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2. We have started seeing recovery with our services.
-Products impacted and current status:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cloud FileStore - Customers might see API errors.&lt;/li&gt;
-&lt;li&gt;Cloud Networking - Service restored. 20:41 PST&lt;/li&gt;
-&lt;li&gt;Cloud VPN&lt;/li&gt;
-&lt;li&gt;Cloud GKE - Service fully restored.&lt;/li&gt;
-&lt;li&gt;Cloud Storage - Service fully restored.&lt;/li&gt;
-&lt;li&gt;Cloud Dataproc&lt;/li&gt;
-&lt;li&gt;Cloud Run - Service fully restored&lt;/li&gt;
-&lt;li&gt;Cloud Spanner - Service fully restored&lt;/li&gt;
-&lt;li&gt;Cloud Pub/Sub&lt;/li&gt;
-&lt;li&gt;Cloud Dataflow&lt;/li&gt;
-&lt;li&gt;Cloud Bigtable - Service restored. 21:36 PST&lt;/li&gt;
-&lt;li&gt;Cloud Memorystore - Service restored. 20:03 PST&lt;/li&gt;
-&lt;li&gt;Cloud Logging&lt;/li&gt;
-&lt;li&gt;Cloud BigQuery&lt;/li&gt;
-&lt;li&gt;Cloud Identity &amp;amp; Security(Cloud Access Policy) - Service fully restored.&lt;/li&gt;
-&lt;li&gt;Cloud load balancers- Fully restored&lt;/li&gt;
-&lt;li&gt;Persistent Disk - Service fully restored&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Our engineering team continues to investigate the issue.
-We will provide an update by Monday, 2021-08-23 22:15 US/Pacific with current details.
-We apologize to all who are affected by the disruption.&lt;/p&gt;
-&lt;p&gt;Diagnosis:
-Customers impacted by this issue may see connectivity issues on Google Cloud Services.&lt;/p&gt;
-&lt;p&gt;Workaround:
-None at this time…&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Infrastructure Components&lt;/p&gt;</summary>
   </entry>
 </feed>
