@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-25T14:31:25Z</updated>
+ <updated>2021-08-25T14:34:12Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58981895</id>
+  <title><![CDATA[德语媒体：阿富汗乱象与中美对抗]]></title>
+  <updated>2021-08-25T14:24:00Z</updated>
+  <published>2021-08-25T14:24:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：阿富汗乱象与中美对抗/a-58981895?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[正在东南亚访问的美国副总统哈里斯对中国提出强烈谴责，称中国正在对南中国海邻国进行“威胁和恐吓”。而中国则反唇相讥，警告东南亚邻国，阿富汗乱象恰恰说明美国绝不可能成为可靠的伙伴。]]></summary>
+  <category term="评论分析"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58980192</id>
   <title><![CDATA[习近平、普京通电话：中俄将在阿富汗问题上加强合作]]></title>
@@ -402,16 +412,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：北京为何要为塔利班铺红毯？/a-58910134?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[《世界报》指出，虽然中俄对于美国在阿富汗的失败幸灾乐祸，但在阿富汗问题上美俄中的态度相去不远，中国人虽喜谈经济项目，但当下聚焦的是边境安全的不确定性。《巴登日报》认为，为预防阿富汗成为新疆独立势力的助力，北京很早就为塔利班铺上外交红毯。]]></summary>
-  <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58898703</id>
-  <title><![CDATA[德语媒体：帝国坟场与大国棋局]]></title>
-  <updated>2021-08-18T15:00:00Z</updated>
-  <published>2021-08-18T15:00:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：帝国坟场与大国棋局/a-58898703?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[德国《商报》呼吁中美两国在阿富汗问题上开展合作，不要相互指责，这样才能避免阿富汗重新变成恐怖主义温床。瑞士《每日导报》指出，中国并没有支持塔利班，北京与之对话不过是一种实用主义的态度。]]></summary>
   <category term="评论分析"/>
  </entry>
  <entry>
