@@ -133,6 +133,28 @@
 		</news:news>
 	</url>
 	<url>
+		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37392750/7-eleven-familymart/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-08-25T09:54:00Z</news:publication_date>
+			<news:title>歡慶本土0確診「四大超商優惠」總整理！7-ELEVEN、全家、萊爾富、OKmart限時優惠立刻看！</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37391981/we-sweet-kiri/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-08-25T08:50:00Z</news:publication_date>
+			<news:title>全聯推出全新7款乳酪甜點，乳酪控必吃日本星級甜點「第五種乳酪蛋糕」、「羅馬生乳包」！</news:title>
+		</news:news>
+	</url>
+	<url>
 		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37391032/pizzahut-news/</loc>
 		<news:news>
 			<news:publication>
@@ -394,17 +416,6 @@
 			</news:publication>
 			<news:publication_date>2021-08-23T11:06:00Z</news:publication_date>
 			<news:title>梅根和婆婆卡蜜拉「關係破裂」，英媒：卡蜜拉永遠不會原諒她！連美國前總統歐巴馬都公開對梅根的嫌惡〜</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37369328/regent-0823/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-23T10:06:00Z</news:publication_date>
-			<news:title>最後9天！台北晶華酒店推出「買6000送6000餐飲全額回饋」住房專案，讓你爽吃爐烤肋眼牛排、極上炙燒散壽司</news:title>
 		</news:news>
 	</url>
 </urlset>
