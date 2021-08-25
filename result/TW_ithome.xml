@@ -6,6 +6,40 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>2021年8月10大資安新聞</title>
+ <link>https://www.ithome.com.tw/news/146389</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;整個8月出現了相當多重大的資安事故，以及許多影響範圍甚廣的漏洞。值得留意的是不少與物聯網（IoT）設備有關。像是臺灣綜合接入設備（IAD）製造商智易科技（Arcadyan）所生產的路由器，當中曝露的漏洞，不只影響華碩、Buffalo等品牌的多款產品，更是波及許多網路服務供應商（ISP）的設備，漏洞可能影響數百萬臺設備。而瑞昱半導體（Realtek）無線晶片的漏洞，也使得超過200款連網產品受到影響。而物聯網雲端服務平臺Kalay&lt;a href=&quot;https://www.ithome.com.tw/news/146258&quot;&gt;傳出CVSS風險達9.6分的漏洞&lt;/a&gt;，很可能使得採用該平臺的連網設備曝露相關風險。&lt;/p&gt;
+&lt;p&gt;針對連網裝置的攻擊，還有鎖定網路儲存裝置（NAS）而來的事故。先是群暉科技（Synology）發出警告，指出他們&lt;a href=&quot;https://www.ithome.com.tw/news/146131&quot;&gt;偵測到一波殭屍網路病毒StealthWorker攻擊行動&lt;/a&gt;；事隔數日，資安業者Palo Alto Networks揭露勒索軟體eCh0raix（亦被稱為QNAPCrypt）的威力變得更加強大，&lt;a href=&quot;https://www.ithome.com.tw/news/146141&quot;&gt;能同時針對群暉科技與威聯通科技（QNAP）的NAS下手&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;而駭客攻擊連網裝置的目的，很有可能是為了接續能針對企業內部發動進一步的攻擊。例如，&lt;a href=&quot;https://www.ithome.com.tw/news/146349&quot;&gt;殭屍網路病毒Mozi鎖定Netgear、華為、中興（ZTE）等廠牌的網路閘道設備&lt;/a&gt;，並具備持續常駐於受害裝置的能力，攻擊者成功控制這種網路閘道設備後，有可能接下來會藉此傳遞漏洞滲透工具，或者是發動勒索軟體攻擊。&lt;/p&gt;
+&lt;p&gt;論及勒索軟體攻擊的部分，國內有技嘉疑似遭RansomEXX攻擊的事故，以及&lt;a href=&quot;https://www.ithome.com.tw/news/146292&quot;&gt;連鎖餐飲業者鬍鬚張因勒索軟體攻擊而導致客戶資料外洩&lt;/a&gt;的情形。而在國外，則有LockBit 2.0這個新興的勒索軟體，不只攻擊IT顧問公司Accenture，&lt;a href=&quot;https://www.ithome.com.tw/news/146226&quot;&gt;7月在澳洲也出現大量受害組織&lt;/a&gt;。但在這些重大事故之外，我們可以看到有一些過往鮮少、甚至是幾乎沒有出現過的勒索軟體攻擊手法，例如，駭客透過LinkedIn找尋內應，以高額分紅希望員工能在公司的重要Windows伺服器執行勒索軟體，也有攻擊者發起結合客服的BazaCall釣魚郵件攻擊，&lt;a href=&quot;https://www.ithome.com.tw/news/146037&quot;&gt;目的是要在受害者所屬的組織植入Ryuk或Conti勒索軟體&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;而在企業的IT環境裡，繼上個月Windows列印多工緩衝處理器（Print Spooler）被發現數個PrintNightmare漏洞，本月份則有影響AD網域的PetitPotam漏洞，以及由戴夫寇爾（Devcore）研究員揭露的Exchange漏洞ProxyShell，都相當值得留意後續的發展。&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;01.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146091&quot;&gt;近40款智易路由器存在身分驗證漏洞，恐影響數百萬臺設備&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-01.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;02.&lt;/span&gt;&lt;/strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146236&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;瑞昱無線晶片重大漏洞恐波及逾200款連網設備&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-02.jpg&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;03.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146339&quot;&gt;殭屍網路發動大規模DDoS攻擊，每秒發出逾1,700萬次HTTP請求&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-03.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;04.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/145919&quot;&gt;Windows Server用戶小心！PetitPotam漏洞恐讓攻擊者挾持AD網域&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-04.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;05.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146039&quot;&gt;戴夫寇爾研究員因揭露ProxyShell等多項Exchange漏洞，獲Pwnie Awards最佳伺服器漏洞獎&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-05.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;06.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146069&quot;&gt;滲透測試工具Cobalt Strike存在DoS漏洞，可以用來遏阻攻擊行動&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-06.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;07.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146295&quot;&gt;駭客以百萬美元贖金分紅利誘員工，意圖在企業內部植入勒索軟體&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-07.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;08.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146075&quot;&gt;技嘉科技傳出遭勒索軟體攻擊&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-08.jpg&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;9.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146157&quot;&gt;勒索軟體LockBit攻擊IT顧問公司Accenture，要脅限期支付贖金&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-09.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;10.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146310&quot;&gt;日本加密貨幣交易所Liquid驚傳遭駭，駭客偷走近上億美元加密貨幣&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-10.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 25 Aug 2021 15:23:14 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146389 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146389#comments</comments>
+</item>
+<item>
  <title>Nvidia推AI Enterprise平臺可在混合雲環境執行虛擬化AI工作負載</title>
  <link>https://www.ithome.com.tw/news/146387</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Nvidia與VMware在長達一年的合作之後，終於發布了一套人工智慧工具和框架軟體套件&lt;a href=&quot;https://nvidianews.nvidia.com/news/global-availability-of-nvidia-ai-enterprise-makes-ai-accessible-for-every-industry&quot; target=&quot;_blank&quot;&gt;Nvidia AI Enterprise&lt;/a&gt;，Nvidia AI Enterprise能夠虛擬化人工智慧工作負載，在經Nvidia認證的伺服器系統上運作，可讓用戶以管理傳統應用程式的方式，管理新興人工智慧工作負載。&lt;/p&gt;
@@ -242,22 +276,6 @@
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="false">146376 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146376#comments</comments>
-</item>
-<item>
- <title>美國5G服務調查：T-Mobile明顯勝出</title>
- <link>https://www.ithome.com.tw/news/146375</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;科技雜誌PCMag已經連續12年針對美國的行動網路展開調查，此一調查在行動網路的世代轉移上更形重要，雖然美國前三大行動業者早就開始部署5G服務，但&lt;a href=&quot;https://www.ithome.com.tw/news/139907&quot; target=&quot;_blank&quot;&gt;去年的調查顯示5G與4G的速度差不多&lt;/a&gt;，而在經歷一年的發展之後，&lt;a href=&quot;https://www.pcmag.com/news/fastest-mobile-networks-2021&quot; target=&quot;_blank&quot;&gt;PCMag認為&lt;/a&gt;，今年T-Mobile的5G服務已堪稱為全美之冠。&lt;/p&gt;
-&lt;p&gt;這次PCMag派遣了司機，調查美國30個主要都會區與6個鄉村地區的行動網路服務，以查看這些地區三大電信業者的5G服務覆蓋率及速率，發現T-Mobile在當中24個地區居冠，AT&amp;amp;T在8個地區領先，Verizon只贏了兩個地區，剩下的兩個地區則三者不分上下。&lt;/p&gt;
-&lt;p&gt;整體而言，T-Mobile服務的平均下載速率為每秒162.3Mb，上傳速率為每秒28.1Mb，AT&amp;amp;T的平均下載/上傳速率則是98.2Mbps與21.1Mbps，Verizon為93.7 Mbps及21.5 Mbps。&lt;/p&gt;
-&lt;p&gt;PCMag分析，今年T-Mobile的獲勝有跡可循，該公司所推出的中頻段5G服務覆蓋了全美1.65億名民眾，而且能夠穩定提供介於150Mbps至500Mbps的下載速率，光是這點就大勝AT&amp;amp;T與Verizon。&lt;/p&gt;
-&lt;p&gt;不過，倘若身為T-Mobile客戶，卻未能享受這樣的速度，可能是因為消費者持有的是4G手機，而且身處鄉村地區，這時PCMag便會建議消費者改用在4G網路上居冠的AT&amp;amp;T服務。&lt;/p&gt;
-&lt;p&gt;其實Verizon的5G速度更快，其最高的5G下載速率為2216.7 Mbps，超過T-Mobile的1134.4 Mbps與AT&amp;amp;T的1090.9 Mbps，只不過Verizon的5G覆蓋率在這一年來沒有太大的長進，只從去年的2.82%，微幅增加到今年的3.27%。&lt;/p&gt;
-&lt;p&gt;PCMag建議，身處都會區的T-Mobile用戶應該要升級到5G手機，而AT&amp;amp;T或Verizon的用戶則不必急著升級。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 06:31:25 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146375 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146375#comments</comments>
 </item>
 </channel>
 </rss>

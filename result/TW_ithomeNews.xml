@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/1597" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/atom/1597</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/1597" rel="self" type="application/rss+xml" />
       <item>
+    <title>2021年8月10大資安新聞</title>
+    <link>https://www.ithome.com.tw/news/146389</link>
+    <description> 整個8月出現了相當多重大的資安事故，以及許多影響範圍甚廣的漏洞。值得留意的是不少與物聯網（IoT）設備有關。像是臺灣綜合接入設備（IAD）製造商智易科技（Arcadyan）所生產的路由器，當中曝露的漏洞，不只影響華碩、Buffalo等品牌的多款產品，更是波及許多網路服務供應商（ISP）的設備，漏洞可能影響數百萬臺設備。而瑞昱半導體（Realtek）無線晶片的漏洞，也使得超過200款連網產品受到影響。而物聯網雲端服務平臺Kalay傳出CVSS風險達9.6分的漏洞，很可能使得採用該平臺的連網設備曝露相關風險。</description>
+     <pubDate>2021-08-25  11:08:14</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146389</guid>
+  </item>
+  <item>
     <title>Nvidia推AI Enterprise平臺可在混合雲環境執行虛擬化AI工作負載</title>
     <link>https://www.ithome.com.tw/news/146387</link>
     <description> Nvidia與VMware在長達一年的合作之後，終於發布了一套人工智慧工具和框架軟體套件Nvidia AI Enterprise，Nvidia AI Enterprise能夠虛擬化人工智慧工作負載，在經Nvidia認證的伺服器系統上運作，可讓用戶以管理傳統應用程式的方式，管理新興人工智慧工作負載。</description>
@@ -250,14 +258,6 @@
      <pubDate>2021-08-24  02:08:02</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146353</guid>
-  </item>
-  <item>
-    <title>HPE高層人事變動，成立GreenLake部門</title>
-    <link>https://www.ithome.com.tw/news/146352</link>
-    <description> HPE本周公布高層人事調整，包括技術長將退休，並成立GreenLake銷售部門，推動以GreenLake為中心以及服務（as a service）導向的公司策略。</description>
-     <pubDate>2021-08-24  12:08:29</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146352</guid>
   </item>
   </channel>
 </rss>
