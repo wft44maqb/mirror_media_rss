@@ -4,7 +4,7 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=410&amp;profile=atom" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
     <title>Nvidia推AI Enterprise平臺可在混合雲環境執行虛擬化AI工作負載</title>
     <link>https://www.ithome.com.tw/news/146387</link>
