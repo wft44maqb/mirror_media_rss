@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 25 Aug 2021 13:26:51 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Aug 2021 13:37:01 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[美國錯失的機會：阿富汗戰爭本可避免發生？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210825/afghanistan-taliban-deal-united-states/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[2001年，塔利班曾有意與美國談判，但華盛頓堅信可以將其徹底消滅，對交易毫無興趣。如今阿富汗的局勢令一些外交官反思，如果當時促成了塔利班的投降，會發生什麼？<p><img src='https://static01.nyt.com/images/2021/08/22/world/22TALIBANDEAL1/22TALIBANDEAL1-articleLarge.jpg' alt='2001年11月，北方聯盟的一名士兵在喀布爾慶祝戰勝塔利班。 Tyler Hicks for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Tyler Hicks for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>2001年11月，北方聯盟的一名士兵在喀布爾慶祝戰勝塔利班。</p>                    ]]></description>
+            <category>國際</category>
+            <dc:creator><![CDATA[ALISSA J. RUBIN]]></dc:creator>
+            <pubDate>Wed, 25 Aug 2021 01:30:26 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210825/afghanistan-taliban-deal-united-states/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[書評：一場排擠、禁止華人移民的全球運動]]></title>
             <link><![CDATA[https://cn.nytimes.com/culture/20210825/the-chinese-question-mae-ngai/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[CARLOTTA GALL,MARC SANTORA,RICHARD PÉREZ-PEÑA]]></dc:creator>
             <pubDate>Fri, 20 Aug 2021 11:39:49 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210820/afghanistan-protests/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[「壞賬銀行」華融將獲國資救助]]></title>
-            <link><![CDATA[https://cn.nytimes.com/business/20210820/huarong-bailout-china/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[華融去年虧損超過千億元。該公司宣布將從五家國企獲得資金援助，並表示沒有債務重組的計劃。多年來華融與中國金融體系關係緊密，被認為「大到不能倒」，造成監管難題。<p><img src='https://static01.nyt.com/images/2021/08/19/world/19china-badbank-01/merlin_188889084_699ee7c2-aa68-4f30-a1dc-ab0d737cc68f-articleLarge.jpg' alt='4月，華融北京總部。該公司本週表示2020年虧損人民幣1029.03億元。 Thomas Peter/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Thomas Peter/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>4月，華融北京總部。該公司本週表示2020年虧損人民幣1029.03億元。</p>                    ]]></description>
-            <category>商業與經濟</category>
-            <dc:creator><![CDATA[艾莎,曹莉]]></dc:creator>
-            <pubDate>Fri, 20 Aug 2021 10:15:10 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210820/huarong-bailout-china/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
