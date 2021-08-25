@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Aug 2021 09:04:47 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Aug 2021 09:10:53 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -34,6 +34,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58327628?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58327628</guid>
             <pubDate>Wed, 25 Aug 2021 07:54:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[東京殘奧會開幕：惡化的新冠危機與意見兩極的城市]]></title>
+            <description><![CDATA[「相比起奧運會運動員來說，很多殘奧運動員出現重症的風險更高，所以我們要更加小心。」]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58327993?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/sports-58327993</guid>
+            <pubDate>Wed, 25 Aug 2021 09:08:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：美國決策顯示 英美關係並不怎麼特殊]]></title>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/science-57529842?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-57529842</guid>
             <pubDate>Tue, 24 Aug 2021 13:48:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[輝瑞/BioNTech成為首款獲美國全面授權疫苗 是否意味強制接種？]]></title>
-            <description><![CDATA[美國食品藥品監督管理局宣佈全面授權後，美國軍方表示將正式要求所有130萬現役軍人接種該疫苗。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/science-58315303?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-58315303</guid>
-            <pubDate>Tue, 24 Aug 2021 08:34:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[新冠疫情：「清零」和「共存」之爭難有定論，中國會在北京冬奧前放鬆入境限制嗎？]]></title>
@@ -183,6 +183,13 @@
             <pubDate>Mon, 23 Aug 2021 10:02:25 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[輝瑞/BioNTech成為首款獲美國全面授權疫苗 是否意味強制接種？]]></title>
+            <description><![CDATA[美國食品藥品監督管理局宣佈全面授權後，美國軍方表示將正式要求所有130萬現役軍人接種該疫苗。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/science-58315303?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-58315303</guid>
+            <pubDate>Tue, 24 Aug 2021 08:34:08 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[阿富汗局勢：過去20年阿富汗發生了哪些改變？]]></title>
             <description><![CDATA[美國發動的阿富汗戰爭歷時20年。過去20年間阿富汗發生了哪些改變？BBC用圖表和數字讓你一看就明白。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58305992?at_medium=RSS&amp;at_campaign=KARANGA</link>
@@ -195,13 +202,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58302043?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58302043</guid>
             <pubDate>Tue, 24 Aug 2021 00:52:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[阿富汗同性戀者：「我可能會被當場處決」]]></title>
-            <description><![CDATA[在塔利班接管喀布爾，人們紛紛出逃之際，阿富汗的LGBTQ群體正面臨前所未有的危險。一名同性戀男子對BBC傾訴心聲。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58308292?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58308292</guid>
-            <pubDate>Mon, 23 Aug 2021 14:37:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[拜登稱如果台灣遭入侵將回應，「口誤」還是對台戰略不再「模糊」？]]></title>
@@ -239,81 +239,11 @@
             <pubDate>Mon, 23 Aug 2021 12:52:22 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[BBC記者目擊喀布爾機場上的撤離實況]]></title>
-            <description><![CDATA[喀布爾機場已成為阿富汗危機的中心。塔利班接管阿富汗已過去一周，喀布爾機場上擠滿了成千上萬試圖逃離該國的民眾。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58314438?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58314438</guid>
-            <pubDate>Tue, 24 Aug 2021 06:39:27 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[新冠疫苗：解讀免疫橋接，台灣產疫苗「高端」的辯論熱區]]></title>
             <description><![CDATA[有台灣醫學界人士指出，免疫橋接在疫苗研發中十分常見，以往台灣的流感疫苗就是這樣開發。但也有學者對此表示擔憂。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58280257?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58280257</guid>
             <pubDate>Fri, 20 Aug 2021 10:25:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[西藏舉行「和平解放」70週年大會 國際藏人組織稱「沒什麼可慶賀」]]></title>
-            <description><![CDATA[在布達拉宮廣場舉行大會上樹立的習近平巨型肖像圖，引起關注，而出席活動的中國官員強調，沒有共產黨，就沒有新西藏。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58277339?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58277339</guid>
-            <pubDate>Fri, 20 Aug 2021 06:15:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[妮可·基德曼免隔離入境引爭議，香港豁免隔離政策再遭質疑]]></title>
-            <description><![CDATA[過往豁免隔離政策造成的防疫漏洞已招致公眾對於港府優待特殊群體的批評。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58280933?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58280933</guid>
-            <pubDate>Fri, 20 Aug 2021 12:10:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[阿富汗局勢：美軍生物識別設備是否會有利於塔利班識別目標]]></title>
-            <description><![CDATA[有聲音認為，在阿富汗，一種叫做HIIDE的手持設備可能會給面臨塔利班報復的人帶來危險。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58296766?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58296766</guid>
-            <pubDate>Sun, 22 Aug 2021 07:08:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[阿富汗局勢：英國前首相布萊爾稱美國撤軍「悲劇且不必要」]]></title>
-            <description><![CDATA[英國前首相托尼·布萊爾自喀布爾落入塔利班之手後首度開腔。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58297711?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58297711</guid>
-            <pubDate>Sun, 22 Aug 2021 09:40:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[香港國安法首有被告認罪：12港人案李宇軒承認「串謀勾結外國勢力」]]></title>
-            <description><![CDATA[香港媒體報導稱，李宇軒在庭上認罪時鞠躬致歉，這是港區國安法實施以來，首次有被告選擇認罪，法官把案件押後至明年1月再訊。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58264977?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58264977</guid>
-            <pubDate>Thu, 19 Aug 2021 06:25:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[中國政府入股字節跳動 美議員呼籲拜登再禁TikTok]]></title>
-            <description><![CDATA[路透社援引消息人士稱，具有國資背景的網投中文在字節跳動可擁有一個董事會席位。字節跳動可能謀求在美國上市。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58268021?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58268021</guid>
-            <pubDate>Fri, 20 Aug 2021 00:59:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[新冠疫情：中國抗疫專家張文宏因撐「與病毒共存」論遭攻擊 風頭浪尖上敢言專家]]></title>
-            <description><![CDATA[張文宏曾在中國疫情初期讓其科室的中共黨員上一線受到公眾好評。近期他因發聲呼籲中國「與病毒共存」受攻擊。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58171869?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58171869</guid>
-            <pubDate>Fri, 13 Aug 2021 01:22:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[蘋果公司據報在陸港台等地審查鎸刻內容]]></title>
-            <description><![CDATA[一份報告稱，蘋果公司在提供鎸刻服務時，會對提及中國政治人物、異見人士及其他一些話題有關的內容進行審查。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/business-58267694?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/business-58267694</guid>
-            <pubDate>Thu, 19 Aug 2021 08:37:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[香港大學4名學生因「宣揚恐怖主義」被捕，曾就哀悼刺警疑犯引爭議]]></title>
-            <description><![CDATA[香港大學學生會評議會7月通過議案「哀悼」刺警案死亡嫌犯引發爭議，學生會其後撤回議案並道歉，警察國安處指控該次會議有人「宣揚恐怖主義」。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58254671?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58254671</guid>
-            <pubDate>Wed, 18 Aug 2021 07:41:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[從羅馬到東京 60載殘奧會改變的人生]]></title>
@@ -454,13 +384,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58247669?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58247669</guid>
             <pubDate>Wed, 18 Aug 2021 09:51:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[澳大利亞蟒蛇鑽進超市調料架「束手就擒」]]></title>
-            <description><![CDATA[澳大利亞悉尼市郊一條蟒蛇爬上了超級市場內的香料貨架，被正在購物的野生動物拯救員當場「捕獲」。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58265068?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58265068</guid>
-            <pubDate>Thu, 19 Aug 2021 07:57:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[BBC中文合作伙伴]]></title>
