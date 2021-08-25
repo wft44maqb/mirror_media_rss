@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-25T22:15:56.904Z</updated>
+    <updated>2021-08-25T22:20:58.854Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -131,6 +131,28 @@
         </author>
         <category label="政治"/>
         <published>2021-08-24T13:17:19.432Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大公﹕香港民主中國陣線負責人黃元璋受查有否危害國安]]></title>
+        <id>https://www.thestandnews.com/politics/%E5%A4%A7%E5%85%AC%E9%A6%99%E6%B8%AF%E6%B0%91%E4%B8%BB%E4%B8%AD%E5%9C%8B%E9%99%A3%E7%B7%9A%E8%B2%A0%E8%B2%AC%E4%BA%BA%E9%BB%83%E5%85%83%E7%92%8B%E5%8F%97%E6%9F%A5%E6%9C%89%E5%90%A6%E5%8D%B1%E5%AE%B3%E5%9C%8B%E5%AE%89</id>
+        <link href="https://www.thestandnews.com/politics/%E5%A4%A7%E5%85%AC%E9%A6%99%E6%B8%AF%E6%B0%91%E4%B8%BB%E4%B8%AD%E5%9C%8B%E9%99%A3%E7%B7%9A%E8%B2%A0%E8%B2%AC%E4%BA%BA%E9%BB%83%E5%85%83%E7%92%8B%E5%8F%97%E6%9F%A5%E6%9C%89%E5%90%A6%E5%8D%B1%E5%AE%B3%E5%9C%8B%E5%AE%89"/>
+        <updated>2021-08-25T22:17:58.180Z</updated>
+        <summary type="html"><![CDATA[《大公報》引消息指，「香港民主中國陣線」負責人黃元璋正受查，被要求提交資金及活動資料，以查有否危害國安。《大公報》指，香港民主中國陣線「以顛覆國家政權作為政治綱領」，多年來聯同外力舉辦反華示威等，煽動國際社會對中央及港府施壓。報道又指該組織「利用每年 6 月」，與支聯會、民陣、獨立中文筆會等「反中亂港勢力」，在全球發起煽動反共情緒的集會。報道指，香港國安法實施後，該組織香港分部角色稍退，但「國際…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/Federation_for_a_democratic_China_protest_in_Shinjuku_20201004.png"><figcaption><span>民主中國陣線參與日本東京遊行（圖片來源﹕維基百科）</span></figcaption></figure><p><a href="http://www.takungpao.com.hk/news/232109/2021/0826/624485.html">《大公報》引消息指</a>，「香港民主中國陣線」負責人黃元璋正受查，被要求提交資金及活動資料，以查有否危害國安。</p>
+
+<p>《大公報》指，香港民主中國陣線「以顛覆國家政權作為政治綱領」，多年來聯同外力舉辦反華示威等，煽動國際社會對中央及港府施壓。報道又指該組織「利用每年 6 月」，與支聯會、民陣、獨立中文筆會等「反中亂港勢力」，在全球發起煽動反共情緒的集會。</p>
+
+<p>報道指，香港國安法實施後，該組織香港分部角色稍退，但「國際線」依然活躍，如該組織美國分部網站仍頻繁更新「港獨」資訊、抹黑中共，包括堅持稱新冠肺炎為「中共病毒」和恭賀反華人士出獄。</p>
+
+<p>報道亦指獨立中文筆會「鼓吹針對中央及港府的所謂作品」。</p>
+
+<p>現時<a href="http://www.fdc64.org/">民主中國陣線</a>網站無法登入。根據該網站早前資料，該組織於&nbsp;1989 年 9 月 22 日成立於法國巴黎，是海外中國民運組織，主要是由流亡到海外的八九民運參與者和海外的中國大陸留學生發起組建。民陣分支組織和會員活躍於香港、台灣、加拿大、美國、澳洲、紐西蘭、英國、法國、德國、日本、泰國等。《大公報》報道，黃元璋是「香港民主中國陣線」香港分部負責人及現任總部理事會成員。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="政治"/>
+        <published>2021-08-25T21:57:08.555Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【爭選委】李家超﹕資審會諮詢國安委　確保候選人擁護《基本法》]]></title>
@@ -1046,33 +1068,5 @@ Ping Pong 129 Gintonería, Basement, 129 Second Street, Sai Ying Pun</p>
         </author>
         <category label="社會"/>
         <published>2021-08-25T07:45:47.901Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【10.6 反蒙面法】男生被指掟汽油彈　警司否認供詞與片不符　「片段唔等於全部」]]></title>
-        <id>https://www.thestandnews.com/court/106-%E5%8F%8D%E8%92%99%E9%9D%A2%E6%B3%95%E7%94%B7%E7%94%9F%E8%A2%AB%E6%8C%87%E6%8E%9F%E6%B1%BD%E6%B2%B9%E5%BD%88-%E8%AD%A6%E5%8F%B8%E5%90%A6%E8%AA%8D%E4%BE%9B%E8%A9%9E%E8%88%87%E7%89%87%E4%B8%8D%E7%AC%A6-%E7%89%87%E6%AE%B5%E5%94%94%E7%AD%89%E6%96%BC%E5%85%A8%E9%83%A8</id>
-        <link href="https://www.thestandnews.com/court/106-%E5%8F%8D%E8%92%99%E9%9D%A2%E6%B3%95%E7%94%B7%E7%94%9F%E8%A2%AB%E6%8C%87%E6%8E%9F%E6%B1%BD%E6%B2%B9%E5%BD%88-%E8%AD%A6%E5%8F%B8%E5%90%A6%E8%AA%8D%E4%BE%9B%E8%A9%9E%E8%88%87%E7%89%87%E4%B8%8D%E7%AC%A6-%E7%89%87%E6%AE%B5%E5%94%94%E7%AD%89%E6%96%BC%E5%85%A8%E9%83%A8"/>
-        <updated>2021-08-25T10:17:57.264Z</updated>
-        <summary type="html"><![CDATA[前年 10 月 6 日即《禁蒙面法》生效後翌日，網民發起「反極權反緊急法大遊行」，當中 5 人在灣仔被捕，被控一項暴動罪，今（25 日）在西九龍裁判法院續審。警司張志偉供稱，案發當日目睹 15 歲首被告掟汽油彈，當時他全黑打扮、背著白色背囊。辯方播放新聞片段，指現場無人背白色背囊；張同意鏡頭內沒有。辯方又質疑張附近位置沒有黑衣人，張回應：「片段唔等於全部。」案件明日續審。案發時駐守港島總區、警司…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/233960775_4923856964296544_200255210745715998_n.jpg"><figcaption><span>2021.8.25  警司張志偉（左）</span></figcaption></figure><p>前年 10 月 6 日即《禁蒙面法》生效後翌日，網民發起「反極權反緊急法大遊行」，當中 5 人在灣仔被捕，被控一項暴動罪，今（25 日）在西九龍裁判法院續審。警司張志偉供稱，案發當日目睹 15 歲首被告掟汽油彈，當時他全黑打扮、背著白色背囊。辯方播放新聞片段，指現場無人背白色背囊；張同意鏡頭內沒有。辯方又質疑張附近位置沒有黑衣人，張回應：「片段唔等於全部。」案件明日續審。</p>
-
-<p>案發時駐守港島總區、警司張志偉供稱，當日展開掃蕩後，他在軒尼詩道近馬師道時，看到一個蒙面、穿著黑色短衫褲的人，往他方向掟汽油彈，在其左前方 5 至 6 米爆開，當時兩人相距 20 至 30米。黑衣人扔完汽油彈，轉身跑往東面。張看到他背著白色背囊，形容「非常顯眼」，遂上前追截。張追到鵝頸橋附近，扯住黑衣人背囊，並將他按在地上。</p>
-
-<p><strong>警司否認「撈亂」扔汽油彈者身份</strong></p>
-
-<p>辯方不爭議 15 歲首被告被捕，惟質疑警司認錯人。他播放《蘋果日報》直播片段，指張追截首被告期間，有另一人投擲汽油彈，地面亦有一枚汽油彈爆開及冒出火光；張表示當時沒有留意，否認撈亂兩人身份。辯方又質疑張在第二份供詞，「夾硬」指掟汽油彈的人是被告；張否認，指他在首份口供已確認被告身份，之後的供詞只是補充「主觀上的差異」，如時間及距離。</p>
-
-<p>辯方又指張扯低首被告時，用警棍擊打其頭部；張同意，「我想打佢身但佢閃避，打中佢個頭。」辯方再播新聞片段，指汽油彈並非在張面前 5 米降落，其實是超過 50 米；張不同意。辯方指片段中無人背白色背囊，張同意鏡頭內沒有。辯方再指，張附近位置沒有黑衣人，「何來見到汽油彈降落，跟住緊盯住佢（首被告）？」張回應：「片段唔等於全部。」案件明日續審。</p>
-
-<p>被告依次為 15 歲男生、李安翹（17 歲，女學生）、蘇雅賢（20 歲，女學生）、謝兆雄（22 歲，學生）、陳樂燊（25 歲，吉他老師），被控一項暴動罪，指他們於 2019 年 10 月 6 日，在灣仔杜老誌道近軒尼詩道交界，及史釗域道及堅拿道西之間的一段軒尼詩道，連同其他身份不詳的人參與暴動；眾人各被控一項「在身處非法集結時使用蒙面物品」罪，指他們同日同地使用掛耳式口罩及半臉防毒面具。</p>
-
-<p>案件編號：DCCC 1017/2020</p>
-
-<p>&nbsp;</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="法庭"/>
-        <published>2021-08-25T10:17:57.264Z</published>
     </entry>
 </feed>
