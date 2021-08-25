@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-25T04:29:03Z</updated>
+ <updated>2021-08-25T04:32:24Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58975361</id>
+  <title><![CDATA[香港将加强电影审查 「不利国安」恐被撤销上映]]></title>
+  <updated>2021-08-25T04:21:00Z</updated>
+  <published>2021-08-25T04:21:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/香港将加强电影审查-「不利国安」恐被撤销上映/a-58975361?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[《港区国安法》通过以来，影响层面触及各大领域，今年9月初，港府预计修法加强电影审查，「不利国安」的电影将被撤销上映，就连老电影也可能被撤销批准，再次打击香港言论自由。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58975266</id>
   <title><![CDATA[美国恐难定论病毒起源  中国：栽赃报告不可信]]></title>
@@ -203,16 +213,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/热带风暴登陆美国-多地出现灾情/a-58957024?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[当地时间8月22日午时，热带风暴“亨利”（Henri）登陆美国罗得岛州，降下“历史性”大雨，引发大水、导致停电，影响多州，仅南部田纳西州就有至少21人丧生。]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58956304</id>
-  <title><![CDATA[阿富汗撤侨乱象  德国外长与情报局互呛]]></title>
-  <updated>2021-08-23T11:20:00Z</updated>
-  <published>2021-08-23T11:20:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗撤侨乱象-德国外长与情报局互呛/a-58956304?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[由于阿富汗撤侨行动出现的混乱局面，德国政府、尤其是外交部长马斯成了众矢之的。而马斯本人则认为情报部门误判局势才造成了今天的严重被动。]]></summary>
-  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58954840</id>
@@ -532,16 +532,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/提告政府胜诉-台湾澳门同性伴侣顺利结婚/a-58853907?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[在经过 20 个月的争讼，来自台湾与澳门的同志情侣终于在提告台湾户政部门胜诉后顺利于 13 日结婚。台湾法律目前不允许台湾人与来自未通过同性婚姻的国家的另一半在台湾结婚。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58837471</id>
-  <title><![CDATA[台海紧张局势烧至出版界  台湾书籍被冷处理]]></title>
-  <updated>2021-08-12T08:21:00Z</updated>
-  <published>2021-08-12T08:21:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/台海紧张局势烧至出版界-台湾书籍被冷处理/a-58837471?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[两岸关系紧张，也导致台湾书籍在中国出版难度增加，多名台湾编辑及出版社指出，现在就连不涉及敏感议题的美食和旅游书，都很难在中国发行。这是什麽原因呢？]]></summary>
   <category term="文化经纬"/>
  </entry>
  <entry>
