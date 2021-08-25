@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/board/id/18" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/board/id/18</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/board/id/18" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>Google服務網格控制平面Traffic Director，現可簡單配置gRPC服務間的安全通訊</title>
+    <link>https://www.ithome.com.tw/news/146369</link>
+    <description> Google更新gRPC無代理服務，解決微服務間通訊的安全痛點，開發者透過Traffic Director控制平面，就夠簡單配置gRPC服務，以TLS/mTLS建立服務之間的安全通訊。</description>
+     <pubDate>2021-08-25  10:08:26</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146369</guid>
+  </item>
+  <item>
     <title>CPU三強爭霸</title>
     <link>https://www.ithome.com.tw/article/146305</link>
     <description> 從2021年3月中到4月底，AMD、Intel相繼推出第三代伺服器平臺，Arm也恰巧發表新的伺服器級處理器技術，導入新的微架構，以及更先進的製程，持續針對效能、I/O、安全提出創新，並於企業IT、雲端服務、高效能運算等領域短兵相接。
@@ -247,14 +255,6 @@ Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密�
      <pubDate>2021-08-21  11:08:56</pubDate>
  <dc:creator>李宗翰</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/review/146313</guid>
-  </item>
-  <item>
-    <title>AWS推出可作為主資料庫的記憶體資料庫服務MemoryDB for Redis</title>
-    <link>https://www.ithome.com.tw/news/146312</link>
-    <description> AWS在推出Amazon ElastiCache for Redis全託管記憶體快取服務之後，現在又推出另一款，同樣是相容於Redis的記憶體資料庫服務Amazon MemoryDB for Redis，供開發者建構需要微秒讀取，以及個位數毫秒寫入效能，且具有資料持久性和高可用性的應用程式。</description>
-     <pubDate>2021-08-20  11:08:22</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146312</guid>
   </item>
   </channel>
 </rss>
