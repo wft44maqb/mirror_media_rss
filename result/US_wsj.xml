@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Aug 2021 03:47:15 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Aug 2021 03:49:57 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 25 Aug 2021 03:47:14 GMT</pubDate>
+        <pubDate>Wed, 25 Aug 2021 03:49:57 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -91,18 +91,18 @@
             <pubDate>Wed, 25 Aug 2021 03:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[美國預售屋銷量轉為增長，但庫存也在增加]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LR798_NEWHOM_OR_20210824074157.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國房屋建築商上月的預售屋銷量較6月份有所提升。但更重要的消息可能是，建築商有更多的房子要賣。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E9%A0%90%E5%94%AE%E5%B1%8B%E9%8A%B7%E9%87%8F%E8%BD%89%E7%82%BA%E5%A2%9E%E9%95%B7%EF%BC%8C%E4%BD%86%E5%BA%AB%E5%AD%98%E4%B9%9F%E5%9C%A8%E5%A2%9E%E5%8A%A0-11629862505</link>
-            <guid isPermaLink="false">CT-HRD-20210825110007</guid>
-            <pubDate>Wed, 25 Aug 2021 03:35:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[美歐貨幣政策分化，歐元兌美元逼近九個月低點]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LR429_EULOW_OR_20210823122908.jpg" class="webfeedsFeaturedVisual" alt=""/><p>歐元兌美元匯率逼近九個月來的最低水平，眼下投資者押注歐元區將維持較低的利率，而且經濟復甦的速度比美國要慢。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E6%AD%90%E8%B2%A8%E5%B9%A3%E6%94%BF%E7%AD%96%E5%88%86%E5%8C%96%EF%BC%8C%E6%AD%90%E5%85%83%E5%85%8C%E7%BE%8E%E5%85%83%E9%80%BC%E8%BF%91%E4%B9%9D%E5%80%8B%E6%9C%88%E4%BD%8E%E9%BB%9E-11629856807</link>
             <guid isPermaLink="false">CT-FIN-20210825092606</guid>
             <pubDate>Wed, 25 Aug 2021 02:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[美國預售屋銷量轉為增長，但庫存也在增加]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LR798_NEWHOM_OR_20210824074157.jpg" class="webfeedsFeaturedVisual" alt=""/><p>美國房屋建築商上月的預售屋銷量較6月份有所提升。但更重要的消息可能是，建築商有更多的房子要賣。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E9%A0%90%E5%94%AE%E5%B1%8B%E9%8A%B7%E9%87%8F%E8%BD%89%E7%82%BA%E5%A2%9E%E9%95%B7%EF%BC%8C%E4%BD%86%E5%BA%AB%E5%AD%98%E4%B9%9F%E5%9C%A8%E5%A2%9E%E5%8A%A0-11629862505</link>
+            <guid isPermaLink="false">CT-HRD-20210825110007</guid>
+            <pubDate>Wed, 25 Aug 2021 03:35:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[三星將投資2,050億美元擴張晶片和生物技術業務]]></title>
