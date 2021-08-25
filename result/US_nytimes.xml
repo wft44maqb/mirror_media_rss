@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 25 Aug 2021 16:58:37 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Aug 2021 17:08:39 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[急於挽回失敗形象，拜登借阿富汗撤離行動公關]]></title>
+            <link><![CDATA[https://cn.nytimes.com/usa/20210825/airlift-berlin-afghanistan-biden/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[為挽救一度混亂的撤退行動、將美國公民和阿富汗盟友撤出當地，拜登制定的空運計劃每天執行數十架次救援飛行。拜登將其類比為柏林空運。目前撤離總人數已達7.59萬人。<p><img src='https://static01.nyt.com/images/2021/08/23/us/politics/23dc-airlift/merlin_193502427_3f362ce3-ae2d-4762-b123-b2cdba58f74c-articleLarge.jpg' alt='在阿富汗喀布爾的哈米德·卡爾扎伊國際機場外，一架軍用飛機剛剛起飛。截至週二晚上，拜登總統表示，在過去的12小時內，已有1.2萬人從阿富汗首都撤離。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>在阿富汗喀布爾的哈米德·卡爾扎伊國際機場外，一架軍用飛機剛剛起飛。截至週二晚上，拜登總統表示，在過去的12小時內，已有1.2萬人從阿富汗首都撤離。</p>                    ]]></description>
+            <category>美國</category>
+            <dc:creator><![CDATA[DAVID E. SANGER,MICHAEL D. SHEAR]]></dc:creator>
+            <pubDate>Wed, 25 Aug 2021 05:08:06 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210825/airlift-berlin-afghanistan-biden/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[美國錯失的機會：阿富汗戰爭本可避免發生？]]></title>
             <link><![CDATA[https://cn.nytimes.com/world/20210825/afghanistan-taliban-deal-united-states/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[CHOE SANG-HUN]]></dc:creator>
             <pubDate>Fri, 20 Aug 2021 03:41:45 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/asia-pacific/20210820/korea-china-election-young-voters/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[阿富汗多地爆發抗議活動，塔利班武力鎮壓]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210820/afghanistan-protests/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[阿富汗至少四個城市爆發抗議活動，塔利班開槍驅散人群，並加緊搜捕曾與美國和北約合作的人。成千上萬的民眾仍在試圖逃離阿富汗，更多人因恐懼而躲在家中。<p><img src='https://static01.nyt.com/images/2021/08/19/world/19afghanistan-ledeall1/merlin_193431834_df0a44fc-7782-4d46-9536-2d2c8a5af1d5-articleLarge.jpg' alt='塔利班武裝分子週四在喀布爾與抗議者對峙。 Victor J. Blue for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Victor J. Blue for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>塔利班武裝分子週四在喀布爾與抗議者對峙。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[CARLOTTA GALL,MARC SANTORA,RICHARD PÉREZ-PEÑA]]></dc:creator>
-            <pubDate>Fri, 20 Aug 2021 11:39:49 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210820/afghanistan-protests/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
