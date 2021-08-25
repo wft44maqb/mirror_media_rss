@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-25T00:59:32Z</updated>
+ <updated>2021-08-25T01:03:03Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58975177</id>
+  <title><![CDATA[美维持撤军截止日 G7对塔利班诚信存疑]]></title>
+  <updated>2021-08-25T00:53:00Z</updated>
+  <published>2021-08-25T00:53:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美维持撤军截止日-g7对塔利班诚信存疑/a-58975177?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国总统拜登周二(8月24日)表示将按照计划在8月31日前完成撤离阿富汗的行动，塔利班也表示，外国人员撤离行动必须在该日期前完成。不过，七国集团元首仍就8月31日後是否能继续使用喀布尔机场进行讨论。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58970365</id>
   <title><![CDATA[德语媒体：中国抢走了德国的欧洲市场]]></title>
@@ -182,16 +192,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班不同意延长西方国家撤军时间表/a-58957115?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[塔利班一名发言人本周一在接受英国天空电视台采访时表示，塔利班不会延长西方军队撤离阿富汗的最后期限8月31日，“否则英美就需要承担相应后果”。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58956928</id>
-  <title><![CDATA[中国关闭美一家劳动审计NGO在华伙伴]]></title>
-  <updated>2021-08-23T12:42:00Z</updated>
-  <published>2021-08-23T12:42:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国关闭美一家劳动审计ngo在华伙伴/a-58956928?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[《华尔街日报》近日报道，中国有关部门关闭了美国劳动审计公司Verite Inc在中国的合作伙伴，并加大力度反击强迫劳动指控。这家公司据悉曾受“良好棉花发展协会”（BCI）邀请，介入新疆棉花供应链“强迫劳动”调查。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
