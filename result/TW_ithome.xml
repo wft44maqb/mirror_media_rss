@@ -6,6 +6,19 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Npm註冊表將棄用TLS 1.0和TLS 1.1</title>
+ <link>https://www.ithome.com.tw/news/146381</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/&quot;&gt;GitHub宣布&lt;/a&gt;從2021年10月4日開始，所有和Npm網站和註冊表的連接，包括軟體套件安裝，都必須要使用TLS 1.2以上的版本。GitHub考量服務安全性和隱私性，已經在去年的時候，取消GitHub服務對TLS 1.0和TLS 1.1的支援，而現在輪到Npm，棄用公共Npm註冊表npmjs.com的非HTTPS存取，以及TLS 1.0和TLS 1.1。&lt;/p&gt;
+&lt;p&gt;官方提到，目前Npm註冊表99％的流量都已經使用TLS 1.2，因此他們預計大多數用戶不會受到棄用影響。在0.10版本之後釋出的Node.js二元檔案，都支援TLS 1.2，所以使用最近Node.js和Npm版本的用戶，都不需要進行任何的修改。&lt;/p&gt;
+&lt;p&gt;Npm會從2021年10月4日開始，強制執行最低TLS 1.2限制，在之前官方會採取措施提醒可能受影響的用戶，從8月24日開始，未使用TLS 1.2的用戶，在執行Npm命令的時候，會接受到通知，並且提供棄用公告連結。9月22日便會強制限用TLS 1.2一個小時，到了9月27日便會在當天執行兩次的限用，在9月29日的第三次限用，時間將會長達6小時。&lt;/p&gt;
+&lt;p&gt;用戶可以試著停用TLS 1.0和TLS 1.1，並且從HTTPS端點測試安裝套件，當用戶看到TLS錯誤訊息，便可以升級到當前支援的Node.js版本和使用最新的Npm v7，避免受到棄用影響。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 25 Aug 2021 12:54:20 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146381 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146381#comments</comments>
+</item>
+<item>
  <title>Yahoo奇摩打通旗下3大電商平臺App互導流量，拍賣平臺還將導入跨網比價功能</title>
  <link>https://www.ithome.com.tw/news/146388</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Yahoo奇摩今日（8/25）宣布，完整打通旗下3大電商平臺的App：拍賣、超級商城和購物中心，要透過流量互導推升業績，來發揮生態圈綜效。消費者現可從任一平臺App一鍵切換，無縫串連至其他平臺。此外，Yahoo奇摩也與比價網站飛比價格合作，打造跨網比價服務，首先會在拍賣平臺展開測試。&lt;/p&gt;
@@ -247,20 +260,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146374 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146374#comments</comments>
-</item>
-<item>
- <title>Waymo在舊金山測試自駕車載客服務</title>
- <link>https://www.ithome.com.tw/news/146373</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blog.waymo.com/2021/08/welcoming-our-first-riders-in-san.html&quot; target=&quot;_blank&quot;&gt;Alphabet的自駕車子公司Waymo本周宣布&lt;/a&gt;，在舊金山市區提供初步的自駕車載客服務，邀請當地居民參加測試。&lt;/p&gt;
-&lt;p&gt;Waymo上周開始在舊金山提供少數人的自駕車載客服務，本周正式宣布Waymo One Trusted Tester方案擴大開放給舊金山民眾申請加入。在這項測試方案下，參加的「受信任的測試員」都必須簽訂保密協定，測試Waymo Jaguar I-Place 休旅車改造而成的自駕車，前往民眾指定的舊金山市區內任何地點。為了安全，車上還是會配備一名隨車安全人員。不過Waymo沒有說明參加測試自駕車會有幾臺。&lt;/p&gt;
-&lt;p&gt;這是Waymo測試自駕車服務的第二座城市。&lt;a href=&quot;https://www.ithome.com.tw/news/113700&quot; target=&quot;_blank&quot;&gt;2017年Waymo在鳯凰城開始測試自駕車載客服務&lt;/a&gt;。Google表示，截至2020年10月已經累積數萬次的載送服務。鳯凰城目前的自駕車隊約有300臺。去年10月Waymo於鳯凰城的自駕車服務，甚至進展到&lt;a href=&quot;https://www.ithome.com.tw/news/140796&quot; target=&quot;_blank&quot;&gt;沒有隨車安全駕駛員的全自駕服務&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.theverge.com/2021/8/24/22639226/waymo-san-francisco-rides-self-driving-service&quot; target=&quot;_blank&quot;&gt;媒體指出&lt;/a&gt;，和鳯凰城相比，舊金山對自駕車挑戰更大，因為該區氣候多雨且多濃霧，而且許多路是蜿蜒的山坡路段。&lt;/p&gt;
-&lt;p&gt;舊金山民眾可以下載&lt;a href=&quot;https://waymo.com/waymo-one/?loc=sf&quot; target=&quot;_blank&quot;&gt;Waymo OneApp&lt;/a&gt;申請加入測試。Waymo表示，未來會再逐步擴大測試載客量。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 05:52:21 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146373 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146373#comments</comments>
 </item>
 </channel>
 </rss>
