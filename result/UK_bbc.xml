@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Aug 2021 07:52:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Aug 2021 07:57:31 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -29,6 +29,13 @@
             <pubDate>Wed, 25 Aug 2021 05:56:15 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[阿富汗成為頭號鴉片生產國，塔利班是罪魁禍首嗎]]></title>
+            <description><![CDATA[塔利班稱，該組織上次在阿富汗掌權時便已停止了罌粟種植和非法毒品的交易，事實是這樣嗎？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58327628?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58327628</guid>
+            <pubDate>Wed, 25 Aug 2021 07:54:48 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[阿富汗局勢：美國決策顯示 英美關係並不怎麼特殊]]></title>
             <description><![CDATA[在強大的美國和力量弱小許多的英國之間，我們最好把兩國關係理解為一種低層次的伙伴關係。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58315846?at_medium=RSS&amp;at_campaign=KARANGA</link>
@@ -41,13 +48,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58303799?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58303799</guid>
             <pubDate>Tue, 24 Aug 2021 00:53:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[阿富汗局勢：過去20年阿富汗發生了哪些改變？]]></title>
-            <description><![CDATA[美國發動的阿富汗戰爭歷時20年。過去20年間阿富汗發生了哪些改變？BBC用圖表和數字讓你一看就明白。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58305992?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58305992</guid>
-            <pubDate>Tue, 24 Aug 2021 13:11:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[美國副總統哈里斯訪亞洲批中國在南海「威脅他國主權」]]></title>
@@ -127,13 +127,6 @@
             <pubDate>Mon, 23 Aug 2021 07:57:14 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[阿富汗同性戀者：「我可能會被當場處決」]]></title>
-            <description><![CDATA[在塔利班接管喀布爾，人們紛紛出逃之際，阿富汗的LGBTQ群體正面臨前所未有的危險。一名同性戀男子對BBC傾訴心聲。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58308292?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58308292</guid>
-            <pubDate>Mon, 23 Aug 2021 14:37:57 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[習近平提「共同富裕」和「三次分配」 ， 大型私企或成為中國貧富不均的「替罪羊」]]></title>
             <description><![CDATA[中國在過去半年多裏加大力度監管大型民營企業，讓人瞠目結舌，近日一場重要的高層會議透露出「加速度」背後的邏輯。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58265470?at_medium=RSS&amp;at_campaign=KARANGA</link>
@@ -190,11 +183,25 @@
             <pubDate>Mon, 23 Aug 2021 10:02:25 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[阿富汗局勢：過去20年阿富汗發生了哪些改變？]]></title>
+            <description><![CDATA[美國發動的阿富汗戰爭歷時20年。過去20年間阿富汗發生了哪些改變？BBC用圖表和數字讓你一看就明白。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58305992?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58305992</guid>
+            <pubDate>Tue, 24 Aug 2021 13:11:36 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[阿富汗局勢：塔利班掌權後女性最擔心什麼]]></title>
             <description><![CDATA[五位在各自領域有所建樹的阿富汗女性向BBC講述了他們對未來的擔憂。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58302043?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58302043</guid>
             <pubDate>Tue, 24 Aug 2021 00:52:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[阿富汗同性戀者：「我可能會被當場處決」]]></title>
+            <description><![CDATA[在塔利班接管喀布爾，人們紛紛出逃之際，阿富汗的LGBTQ群體正面臨前所未有的危險。一名同性戀男子對BBC傾訴心聲。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58308292?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58308292</guid>
+            <pubDate>Mon, 23 Aug 2021 14:37:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[拜登稱如果台灣遭入侵將回應，「口誤」還是對台戰略不再「模糊」？]]></title>
@@ -233,7 +240,7 @@
         </item>
         <item>
             <title><![CDATA[BBC記者目擊喀布爾機場上的撤離實況]]></title>
-            <description><![CDATA[喀布爾機場已成為阿富汗危機的中心。塔利班接管阿富汗已過去一周，喀布爾機場擠滿了成千上萬試圖逃離該國的民眾。]]></description>
+            <description><![CDATA[喀布爾機場已成為阿富汗危機的中心。塔利班接管阿富汗已過去一周，喀布爾機場上擠滿了成千上萬試圖逃離該國的民眾。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58314438?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58314438</guid>
             <pubDate>Tue, 24 Aug 2021 06:39:27 GMT</pubDate>
