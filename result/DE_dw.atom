@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-25T10:39:13Z</updated>
+ <updated>2021-08-25T10:42:00Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58978178</id>
+  <title><![CDATA[“习近平思想”收入官方教材]]></title>
+  <updated>2021-08-25T10:13:00Z</updated>
+  <published>2021-08-25T10:13:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/习近平思想-收入官方教材/a-58978178?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[教育部在周二公布的新指导方针中说，中国将把 "习近平思想 "纳入国家课程，以帮助在该国青年中 "建立马克思主义信仰"。]]></summary>
+  <category term="新闻广角"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58977774</id>
   <title><![CDATA[德国武装阿富汗军队的1万把手枪恐落入塔利班手中]]></title>
