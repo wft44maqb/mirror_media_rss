@@ -12,7 +12,7 @@
 	<atom:link href="https://www.she.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.she.com</link>
 	<description>分享美容、時裝、潮流和感情資訊. 女性時尚潮流必讀</description>
-	<lastBuildDate>Wed, 25 Aug 2021 07:39:27 +0800</lastBuildDate>
+	<lastBuildDate>Wed, 25 Aug 2021 08:12:17 +0800</lastBuildDate>
 	<language>zh-TW</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -242,9 +242,9 @@
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 293/415 objects using memcached
+Object Caching 290/439 objects using memcached
 Page Caching using memcached 
-Database Caching 3/49 queries in 0.479 seconds using memcached
+Database Caching 19/52 queries in 1.286 seconds using memcached
 
-Served from: she.com @ 2021-08-25 16:09:20 by W3 Total Cache
+Served from: she.com @ 2021-08-25 16:12:26 by W3 Total Cache
 -->
