@@ -1,11 +1,27 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/284" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/284</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/284" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=410&amp;profile=atom" rel="self" type="application/rss+xml" />
       <item>
+    <title>Nvidia推AI Enterprise平臺可在混合雲環境執行虛擬化AI工作負載</title>
+    <link>https://www.ithome.com.tw/news/146387</link>
+    <description> Nvidia與VMware在長達一年的合作之後，終於發布了一套人工智慧工具和框架軟體套件Nvidia AI Enterprise，Nvidia AI Enterprise能夠虛擬化人工智慧工作負載，在經Nvidia認證的伺服器系統上運作，可讓用戶以管理傳統應用程式的方式，管理新興人工智慧工作負載。</description>
+     <pubDate>2021-08-25  08:08:14</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146387</guid>
+  </item>
+  <item>
+    <title>Npm註冊表將棄用TLS 1.0和TLS 1.1</title>
+    <link>https://www.ithome.com.tw/news/146381</link>
+    <description> GitHub宣布從2021年10月4日開始，所有和Npm網站和註冊表的連接，包括軟體套件安裝，都必須要使用TLS 1.2以上的版本。GitHub考量服務安全性和隱私性，已經在去年的時候，取消GitHub服務對TLS 1.0和TLS 1.1的支援，而現在輪到Npm，棄用公共Npm註冊表npmjs.com的非HTTPS存取，以及TLS 1.0和TLS 1.1。</description>
+     <pubDate>2021-08-25  08:08:20</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146381</guid>
+  </item>
+  <item>
     <title>Yahoo奇摩打通旗下3大電商平臺App互導流量，拍賣平臺還將導入跨網比價功能</title>
     <link>https://www.ithome.com.tw/news/146388</link>
     <description> Yahoo奇摩今日（8/25）宣布，完整打通旗下3大電商平臺的App：拍賣、超級商城和購物中心，要透過流量互導推升業績，來發揮生態圈綜效。消費者現可從任一平臺App一鍵切換，無縫串連至其他平臺。此外，Yahoo奇摩也與比價網站飛比價格合作，打造跨網比價服務，首先會在拍賣平臺展開測試。
@@ -242,23 +258,6 @@
      <pubDate>2021-08-24  12:08:29</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146352</guid>
-  </item>
-  <item>
-    <title>微軟PowerApps入口網站預設資料設定，恐使3800萬用戶資料公開於網上</title>
-    <link>https://www.ithome.com.tw/news/146351</link>
-    <description> 安全廠商UpGuard發現，微軟PowerApps入口網站（portal）平臺的預設資料組態問題，導致超過3800萬用戶接種疫苗或個資公開於網路上，受害者包括福特、美國航空及數個州政府。
-PowerApps是微軟力推的低程式碼開發、流程設計等生產力工具。PowerApps 入口網站可讓內部用戶輸入及儲存資訊，且開放外部用戶利用不同的身分識別登入、建立、查詢或瀏覽資料，或是網站上App互動。</description>
-     <pubDate>2021-08-24  12:08:07</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146351</guid>
-  </item>
-  <item>
-    <title>殭屍網路Mozi鎖定Netgear、華為、中興網路閘道發動攻擊，納入持續運作的能力</title>
-    <link>https://www.ithome.com.tw/news/146349</link>
-    <description> 對於許多企業而言，網路閘道（Network Gateway）設備是網際網路與內部環境存取的橋樑，一旦遭到入侵，便有可能導致企業門戶大開，讓攻擊者能對企業內部進一步造成危害，而駭客攻擊這類連網設備的行動，很可能就會運用殭屍網路病毒。例如，最近微軟揭露新一波殭屍網路Mozi的攻擊，研究人員發現，近期這款殭屍網路病毒針對Netgear、華為、中興（ZTE）等廠牌的網路閘道設備，加入了能夠持續運作的能力。</description>
-     <pubDate>2021-08-24  11:08:23</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146349</guid>
   </item>
   </channel>
 </rss>

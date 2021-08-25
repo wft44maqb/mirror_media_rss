@@ -6,6 +6,20 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Nvidia推AI Enterprise平臺可在混合雲環境執行虛擬化AI工作負載</title>
+ <link>https://www.ithome.com.tw/news/146387</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Nvidia與VMware在長達一年的合作之後，終於發布了一套人工智慧工具和框架軟體套件&lt;a href=&quot;https://nvidianews.nvidia.com/news/global-availability-of-nvidia-ai-enterprise-makes-ai-accessible-for-every-industry&quot; target=&quot;_blank&quot;&gt;Nvidia AI Enterprise&lt;/a&gt;，Nvidia AI Enterprise能夠虛擬化人工智慧工作負載，在經Nvidia認證的伺服器系統上運作，可讓用戶以管理傳統應用程式的方式，管理新興人工智慧工作負載。&lt;/p&gt;
+&lt;p&gt;Nvidia AI Enterprise是一個端到端雲端原生的人工智慧和資料分析軟體套件，能夠虛擬化人工智慧工作負載，使其在VMware vSphere上運作，該工具賦予企業在混合雲環境中，快速部署、管理和擴展人工智慧工作負載的能力。&lt;/p&gt;
+&lt;p&gt;該公司提到，Nvidia AI Enterprise供企業開發新型人工智慧應用，並可透過單一平臺進行管理，而且企業還能夠根據資料的位置，無論是在雲端、本地資料中心還是邊緣網路，就近部署人工智慧工作負載。&lt;/p&gt;
+&lt;p&gt;由於Nvidia AI Enterprise使用VMware vSphere，因此讓IT人員能夠以管理傳統企業應用程式相同的方式，輕鬆管理人工智慧工作負載，還能使用大型資料庫和混合雲環境中的工具。目前Atos、戴爾、Gigabyte和超微等公司，都可提供經Nvidia認證，包括A100、A30和A40等GPU系統選擇，使得人工智慧應用程式在vSphere上執行的效能，能和裸機伺服器不相上下。&lt;/p&gt;
+&lt;p&gt;用戶現在可從Nvidia的合作夥伴訂閱Nvidia AI Enterprise，一年訂閱費用每個CPU插槽2,000美元起，永久授權為3,595美元，可加購額外的支援服務。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 25 Aug 2021 12:57:14 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146387 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146387#comments</comments>
+</item>
+<item>
  <title>Npm註冊表將棄用TLS 1.0和TLS 1.1</title>
  <link>https://www.ithome.com.tw/news/146381</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/&quot;&gt;GitHub宣布&lt;/a&gt;從2021年10月4日開始，所有和Npm網站和註冊表的連接，包括軟體套件安裝，都必須要使用TLS 1.2以上的版本。GitHub考量服務安全性和隱私性，已經在去年的時候，取消GitHub服務對TLS 1.0和TLS 1.1的支援，而現在輪到Npm，棄用公共Npm註冊表npmjs.com的非HTTPS存取，以及TLS 1.0和TLS 1.1。&lt;/p&gt;
@@ -244,22 +258,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146375 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146375#comments</comments>
-</item>
-<item>
- <title>NSO繞過蘋果於iOS 14新增的BlastDoor沙箱保護機制以植入Pegasus</title>
- <link>https://www.ithome.com.tw/news/146374</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://citizenlab.ca/2021/08/bahrain-hacks-activists-with-nso-group-zero-click-iphone-exploits/&quot; target=&quot;_blank&quot;&gt;加拿大多倫多大學的公民實驗室（Citizen Lab）本周揭露&lt;/a&gt;，該實驗室在9名中東國家巴林的活動份子手機上，發現了由以色列駭客公司NSO Group所開發的Pegasus間諜程式，且研究顯示NSO已成功繞過蘋果甫於iOS 14新增的BlastDoor沙箱保護機制，呼應了&lt;a href=&quot;https://www.ithome.com.tw/news/145754&quot; target=&quot;_blank&quot;&gt;Pegasus專案&lt;/a&gt;的發現。&lt;/p&gt;
-&lt;p&gt;公民實驗室在去年12月指出，有36名卡達半島電視臺（Al Jazeera）員工的iPhone，遭到駭客植入Pegasus間諜程式，且研究顯示當時的Pegasus仍無法感染iOS 14裝置，這促使Google Project Zero團隊針對iOS展開研究，指出蘋果於該作業系統上新增了3項安全機制，其中的BlastDoor可說是iMessages的專屬沙箱，大幅提高了出現記憶體毀損漏洞的攻擊門檻。&lt;/p&gt;
-&lt;p&gt;然而，公民實驗室最近的研究則發現，NSO已打造了可繞過BlastDoor的攻擊程式Forcedentry，可攻陷iOS 14.4與iOS 14.6。&lt;/p&gt;
-&lt;p&gt;該實驗室亦指出，Forcedentry與國際特赦組織（Amnesty International）安全實驗室（Security Lab）在&lt;a href=&quot;https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/&quot; target=&quot;_blank&quot;&gt;今年7月於Pegasus專案中揭露的Megalodon&lt;/a&gt;，是同一支攻擊程式。&lt;/p&gt;
-&lt;p&gt;事實上，在Pegasus專案報告出爐後，&lt;a href=&quot;https://www.ithome.com.tw/news/145763&quot; target=&quot;_blank&quot;&gt;蘋果已緊急修補了各個作業系統及Safari，釋出了iOS 14.7&lt;/a&gt;，只是蘋果並未提及該修補行動是否與Pegasus專案有關。&lt;/p&gt;
-&lt;p&gt;當公民實驗室披露NSO已繞過BlastDoor安全機制之後，&lt;a href=&quot;https://threatpost.com/pegasus-spyware-uses-iphone-zero-click-imessage-zero-day/168899/&quot; target=&quot;_blank&quot;&gt;負責蘋果安全工程與架構的Ivan Krstić向Threatpost表示&lt;/a&gt;，公民實驗室所描述的攻擊非常複雜，得斥資數百萬美元來開發，壽命還經常很短，且通常是高度針對性，大多數的用戶無需擔心。蘋果發言人亦向Threatpost指出，BlastDoor並非蘋果用來保護iMessage的唯一工具，該公司已強化了iOS 15的保護，且未來也會繼續加強平臺的安全性。&lt;/p&gt;
-&lt;p&gt;現階段的研究僅顯示NSO攻擊程式最多只能開採iOS 14.6，尚未傳出iOS 14.7遭到開採的案例。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 06:08:28 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146374 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146374#comments</comments>
 </item>
 </channel>
 </rss>
