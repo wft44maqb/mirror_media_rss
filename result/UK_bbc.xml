@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Aug 2021 11:14:05 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Aug 2021 11:19:07 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -41,6 +41,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58315866?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58315866</guid>
             <pubDate>Wed, 25 Aug 2021 05:56:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新冠疫情：高盛集團強制其美國員工接種新冠疫苗]]></title>
+            <description><![CDATA[員工、客戶及到訪者均須接種完兩劑新冠疫苗，才能進入這家投資銀行集團的辦公樓。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58330646?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58330646</guid>
+            <pubDate>Wed, 25 Aug 2021 11:15:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京殘奧會開幕：惡化的新冠危機與意見兩極的城市]]></title>
@@ -125,13 +132,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58302657?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58302657</guid>
             <pubDate>Mon, 23 Aug 2021 07:57:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[習近平提「共同富裕」和「三次分配」 ， 大型私企或成為中國貧富不均的「替罪羊」]]></title>
-            <description><![CDATA[中國在過去半年多裏加大力度監管大型民營企業，讓人瞠目結舌，近日一場重要的高層會議透露出「加速度」背後的邏輯。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58265470?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58265470</guid>
-            <pubDate>Fri, 20 Aug 2021 01:00:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：瓦罕走廊的歷史與中國和阿富汗的現實聯繫]]></title>
@@ -314,6 +314,13 @@
             <link>https://www.bbc.com/zhongwen/trad/science-58236166?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-58236166</guid>
             <pubDate>Thu, 19 Aug 2021 08:06:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[習近平提「共同富裕」和「三次分配」 ， 大型私企或成為中國貧富不均的「替罪羊」]]></title>
+            <description><![CDATA[中國在過去半年多裏加大力度監管大型民營企業，讓人瞠目結舌，近日一場重要的高層會議透露出「加速度」背後的邏輯。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58265470?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58265470</guid>
+            <pubDate>Fri, 20 Aug 2021 01:00:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：美國總統拜登撤軍亂局的三個重要問題]]></title>
