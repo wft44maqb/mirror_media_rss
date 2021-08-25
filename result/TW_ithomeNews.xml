@@ -6,6 +6,15 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>同時搭配E Ink顯示器與IPS顯示器，聯想推出雙螢幕超輕薄筆電</title>
+    <link>https://www.ithome.com.tw/review/146347</link>
+    <description> 在1月的美國CES消費電子大展期間，聯想發表多款筆電，我們陸續報導可分離鍵盤使用的ThinkPad X12 Detachable，以及超輕薄筆電ThinkPad X1 Carbon Gen 9，接下來，我們要介紹則是一款雙螢幕筆電，ThinkBook Plus Gen 2i（ThinkBook Plus G2 ITG），在6月正式推出。
+所謂的雙螢幕，是指筆電頂部外殼設置1個12吋電子紙（E Ink）顯示器，而在另一面，也就是我們平時打開筆電開始工作時，所看到的13.3吋IPS顯示器。這兩個螢幕都是低藍光、支援多點觸碰操作（側邊收納了數位筆，當使用者執行特定應用程式時，這支筆會自動彈出），寬度與高度比例為16:10，最高解析度均支援2560 x 1600。</description>
+     <pubDate>2021-08-26  12:08:02</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/review/146347</guid>
+  </item>
+  <item>
     <title>2021年8月10大資安新聞</title>
     <link>https://www.ithome.com.tw/news/146389</link>
     <description> 整個8月出現了相當多重大的資安事故，以及許多影響範圍甚廣的漏洞。值得留意的是不少與物聯網（IoT）設備有關。像是臺灣綜合接入設備（IAD）製造商智易科技（Arcadyan）所生產的路由器，當中曝露的漏洞，不只影響華碩、Buffalo等品牌的多款產品，更是波及許多網路服務供應商（ISP）的設備，漏洞可能影響數百萬臺設備。而瑞昱半導體（Realtek）無線晶片的漏洞，也使得超過200款連網產品受到影響。而物聯網雲端服務平臺Kalay傳出CVSS風險達9.6分的漏洞，很可能使得採用該平臺的連網設備曝露相關風險。</description>
@@ -251,14 +260,6 @@
      <pubDate>2021-08-24  03:08:42</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146356</guid>
-  </item>
-  <item>
-    <title>微軟Azure Virtual Desktop現在支援Windows 11</title>
-    <link>https://www.ithome.com.tw/news/146354</link>
-    <description> 微軟本周宣布雲端虛擬桌面工具Azure Virtual Desktop現在可跑Windows 11預覽版。</description>
-     <pubDate>2021-08-24  02:08:22</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146354</guid>
   </item>
   </channel>
 </rss>
