@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 25 Aug 2021 12:36:24 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Aug 2021 12:46:28 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[書評：一場排擠、禁止華人移民的全球運動]]></title>
+            <link><![CDATA[https://cn.nytimes.com/culture/20210825/the-chinese-question-mae-ngai/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[哥倫比亞大學歷史學教授艾明如在新書中追蹤了美國加州、澳洲和南非華人移民的苦難歷史，有力論證了華人社區是全球資本主義經濟的一個組成部分，也是變革的推動者。<p><img src='https://static01.nyt.com/images/2021/08/16/books/review/Huang/merlin_138536973_65988733-fb80-493f-9957-055fe4695957-articleLarge.jpg' alt='20世紀初，加州移民站的華人女性和孩子。 California Historical Society'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>California Historical Society</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>20世紀初，加州移民站的華人女性和孩子。</p>                    ]]></description>
+            <category>文化</category>
+            <dc:creator><![CDATA[黃運特]]></dc:creator>
+            <pubDate>Wed, 25 Aug 2021 12:45:13 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/culture/20210825/the-chinese-question-mae-ngai/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[美國副總統哈利斯訪問東南亞，強烈抨擊中國]]></title>
             <link><![CDATA[https://cn.nytimes.com/asia-pacific/20210825/kamala-harris-singapore-vietnam/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[艾莎,曹莉]]></dc:creator>
             <pubDate>Fri, 20 Aug 2021 10:15:10 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210820/huarong-bailout-china/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[中國謹慎應對阿富汗局勢：如何與塔利班打交道？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210819/china-afghanistan-taliban/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[塔利班掌權削弱了美國聲望，但也可能製造新的地緣政治風險。北京必須對美國的失敗將如何重塑中美競爭作出判斷。當前中國對介入阿富汗事務態度謹慎。<p><img src='https://static01.nyt.com/images/2021/08/18/world/18china-afghanistan1/merlin_193392162_e7580282-3f34-4283-9996-48e19fa61830-articleLarge.jpg' alt='塔利班武裝人員週三在喀布爾。中國現在不得不趕緊對美國的失敗將如何重塑世界兩大國之間的競爭作出判斷。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>塔利班武裝人員週三在喀布爾。中國現在不得不趕緊對美國的失敗將如何重塑世界兩大國之間的競爭作出判斷。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[儲百亮,STEVEN LEE MYERS]]></dc:creator>
-            <pubDate>Thu, 19 Aug 2021 06:30:35 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210819/china-afghanistan-taliban/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
