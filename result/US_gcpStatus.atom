@@ -127,13 +127,5 @@
 &lt;/ul&gt;
 &lt;p&gt;We apologise for the service disruption caused by this issue.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Infrastructure Components&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>RESOLVED: We are experiencing a connectivity issue affecting Google Cloud Storage in australia-southeast2</title>
-    <link href="https://status.cloud.google.com/incidents/TSaW8RCnLss2ob5fM2t5" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:TSaW8RCnLss2ob5fM2t5.Xp8intHPwNgB4uioxYur</id>
-    <updated>2021-08-24T05:31:46+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 21:12&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 22:31&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Google Cloud Storage has been resolved for all affected users as of Monday, 2021-08-23 22:27 US/Pacific. However most users should have seen the impact mitigated as of approximately 21:20 US/Pacific.&lt;/p&gt;
-&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Storage&lt;/p&gt;</summary>
   </entry>
 </feed>
