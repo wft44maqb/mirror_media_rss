@@ -6,6 +6,84 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>北醫治理三院百萬大數據，再攻FHIR癌症基因資料</title>
+ <link>https://www.ithome.com.tw/people/146306</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;兩年前，臺北醫學大學出現了一個特別的組織。它與資訊處同等，都是一級單位，但職責不只限於學校，更涵蓋3家醫院，一肩扛起北醫體系所有數據管理的重任。&lt;/p&gt;
+&lt;p&gt;帶頭的指揮官，更是一位經驗豐富的IT老將，不僅是萬芳醫院早期發展新一代醫療IT應用的推手，也擔任過首任衛福部資訊處處長，現在更是國際醫療資訊標準協會HL7臺灣分會的理事長。&lt;/p&gt;
+&lt;p&gt;這個組織，就是臺北醫學大學數據處（簡稱北醫大數據處），而這位關鍵人物，就是臺北醫學大學數據處數據長許明暉。「當數據變得非常龐大、複雜時，就需要專責單位分工處理，」許明暉強調：「健康領域更是如此！」&lt;/p&gt;
+&lt;p&gt;甚至，臺灣醫界最常借鏡的美國國衛院（NIH）也早在2018年，設置數據長（Chief Data Officer）一職和資料策略辦公室（ODSS），來建立標準化生醫資料處理流程。隔年，北醫也跟上這股趨勢，在北醫大下設置數據處，來統籌三家附屬醫院和學校的資料管理工作，成為臺灣少數設置數據長的醫療體系。&lt;/p&gt;
+&lt;p&gt;「數據處有如一套共通的基礎設施，」許明暉說明，這樣的角色，整合了附屬醫院和北醫大所有的數據資料，統一提供資料處理服務和客製化資料集，個別單位就不必各自設置相同職責的組織，來處理複雜的數據。許明暉更進一步形容，北醫大數據處就像食材標準化的市場，將龐雜的數據標準化，有如「將原始的食材，製作為料理包，」讓使用者輕鬆烹煮、快速發揮效益。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;健康數據有多複雜？不只3家附屬醫院百萬筆資料要打理&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;不過，健康數據究竟有多複雜，需要北醫體系設置專責單位來應對？這從北醫大數據處打理的資料類型，就能以小窺大。&lt;/p&gt;
+&lt;p&gt;首先，他們得治理北醫體系歷年來累積的大量自有資料，包括北醫附醫、萬芳醫院、雙和醫院等三家醫院，徵得病患同意後所取得的各種臨床資料。&lt;/p&gt;
+&lt;p&gt;這三家醫院擁有近380萬名病患的臨床資料，橫跨近半百個科別，小自病患就醫資訊、治療步驟，大至各種手術、檢驗檢查報告，甚至是癌症相關資訊與基因資料，都包含在內。&lt;/p&gt;
+&lt;p&gt;再來是許明暉所稱的「聯盟資料，」也就是用於跨國研究的健康資料。比如，北醫大去年加入國際觀察性健康數據聯盟（OHDSI），成為全球300多個據點中的一員，以「資料不出門、共享演算成果」的模式，來與國際成員交流、研究。&lt;/p&gt;
+&lt;p&gt;為做到這一點，數據處負責資料格式轉換工作，將內部資料轉換為OHDSI專用資料格式OMOP-CDM（Common Data Model），來展開跨國研究。&lt;/p&gt;
+&lt;p&gt;不過，北醫大數據處還需費心處理一類資料，即大量的外部開放資料。舉例來說，他們整理了美國NIH資助打造的重磅醫學重症資料庫MIMIC-III，提供橫跨11年、包含數十萬名患者的住院資料，來給校內師生和醫院同仁使用，一方面作為教學工具，一方面也作為深入研究的材料。&lt;/p&gt;
+&lt;p&gt;不只如此，北醫大數據處還有個經營健保資料庫的任務。衛福部健保署開放健保資料庫加值研究已有數年，全國研究者除了能在衛福部本部申請研究，也能在全臺10個分中心使用，北醫大就是其一。而北醫大數據處，就負責分中心的維運工作。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;下設四大中心分工，還有AI專家進駐提供代客烹煮的數據分析服務&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;為進一步管理複雜的健康數據，數據處還下設四大中心，來分工負責不同的內外數據服務。&lt;/p&gt;
+&lt;p&gt;比如，健康暨臨床研究資料加值中心負責維運北醫大健保資料庫分中心，甚至進駐多位統計學專家和資料科學家，來提供「代客烹煮」的數據分析服務。&lt;/p&gt;
+&lt;p&gt;研究者若想以健保相關大數據開發AI模型，但本身AI技能不足，就能透過中心專家來打造模型。許明暉比喻：「這就像我們提供處理好的食材，但顧客不會料理，這時就能透過我們的AI專家，來協助烹調。」&lt;/p&gt;
+&lt;p&gt;再來，數據處還有個臨床數據中心，負責整合三家醫院的電子病歷資料，包括病患基本訊息、就醫資訊、檢驗報告、治療步驟等結構化資料，以及醫師記錄、病理報告、醫學影像報告等非結構化資料。臨床數據中心專門將這些資料，彙整為可分析的資料。&lt;/p&gt;
+&lt;p&gt;今年8月，數據處還新設一個北醫非常期待的單位「生物資訊中心」，來專攻精準醫療。這個中心將結合校內高通量生物技術和雲端分析平臺，運用自有的百萬筆臨床數據和需複雜運算才能處理的多體學（Omics）資料，來打造一站式生物數據分析服務。&lt;/p&gt;
+&lt;p&gt;這就是北醫大數據處生物資訊中心的目標。但他們還有一個任務：分擔中研院發起的臺灣精準醫療計畫（TPMI）。這個TPMI計畫，是要打造臺灣百萬人基因資料庫，而北醫大負責收集其中5萬人的基因資料，未來，生物資訊中心還將提供相關資料分析服務。&lt;/p&gt;
+&lt;p&gt;除了這三個中心，數據處下還有一個專精教育數據分析的校務研究中心，來負責教育數據處理。比如，該中心會追蹤學生在校和離校後的表現，進一步協助學校擬定多元入學政策。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;遵循敏捷開發小而美精神，與使用者完善客製化資料集&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;這些資料林林總總，相當複雜，著手處理更煞費苦心。不過，許明暉也分享一套實戰法則，來說明團隊如何打造使用者可立即上手的乾淨資料集。&lt;/p&gt;
+&lt;p&gt;以臨床數據來說，醫院取得病人同意的臨床資料後，會由北醫大資訊處進行資料ETL，將資料放置到特定資料湖，再由數據處接手，展開資料處理工作。&lt;/p&gt;
+&lt;p&gt;這時，為建立符合使用者需求的資料集，數據處會先找出資料集的組成特徵，比如某疾病涵蓋的人口、病患性別比、壽命分類，甚至是超過特定就醫次數的病患數這類細緻特徵。&lt;/p&gt;
+&lt;p&gt;接著就進入建置階段。他們遵循敏捷開發Scrum精神，以每個專案最少3人、最多7人的規模建置資料集。這對擁有20多名人力的數據處來說恰到好處，既不占用過多人力，也不至於不足。&lt;/p&gt;
+&lt;p&gt;過程中，他們每1、2周就檢視進度，以這種小而美、邊執行邊修正的方式，來完善資料集。許明暉更強調：「我們不追求一次做到最完美，而是資料集整理到一定程度後，就先開放申請，讓團隊跟著使用者一起使用。」正是這股跟著使用者一起做的精神，讓數據處更能根據使用者回饋，進一步精進資料集。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1039-%E5%8C%97%E9%86%AB-CDO-%E6%94%9D%E5%BD%B1-%E6%B4%AA%E6%94%BF%E5%81%89-600.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;臺灣這時投入FHIR基因資料標準化，是最好的切入點！─── 臺北醫學大學數據處數據長 許明暉&lt;/strong&gt;　（攝影／洪政偉）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;用NLP工具協助醫師快速抓出病理報告重點&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;不只建置資料集，數據處也會提供AI工具，來優化醫院的臨床作業流程。比如，他們利用一套開源自然語言處理（NLP）模型，打造成可以抓取關鍵文字訊息的AI工具，來加速處理結構鬆散（Free text）的文字型報告。&lt;/p&gt;
+&lt;p&gt;其中最成熟的應用，就是從病理切片報告中，擷取出乳癌三陰性關鍵訊息，並將訊息自動匯出到Excel表格，轉換為結構化資料，來快速提示報告重點、協助醫師決策。&lt;/p&gt;
+&lt;p&gt;「這種三陰性特徵很棘手，」許明暉解釋，三陰性乳癌預後不理想，因此在臨床上備受重視。這類病理報告通常一份數百字，但三陰性特徵不會清楚地集中出現在報告某一處，負責醫師得仔細閱讀所有報告，從不同段落找出這三種特徵才行。&lt;/p&gt;
+&lt;p&gt;因此，透過NLP工具快速從病理報告中整理出這些特徵，就能協助醫生更快制定治療策略，甚至是預測預後。&lt;/p&gt;
+&lt;p&gt;許明暉也希望，這個NLP幫手未來還能更聰明，比如能根據前後文判斷更精準的資訊，「看到醫師寫的數字，就能判斷是年齡、身高還是體重，」他說。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;第一道防線把關資料合法性，還找來美NIH標竿人物給建議&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;打理如此龐雜的健康資料，許明暉透露，數據處還有四大原則來指導。首先是「資料合法性」，他舉例，要取得臨床數據，必須先以知情同意書，告知患者資料去識別化後的用途、取得同意。&lt;/p&gt;
+&lt;p&gt;再來是多元機制原則。比如，醫療資料可用於非營利的教學研究，也能用於藥廠研發新藥等盈利目的，北醫大數據處要做的是，讓患者能選擇資料用途，而非只單純詢問是否願意提供資料。&lt;/p&gt;
+&lt;p&gt;第三個原則是「退出機制」。許明暉解釋，病人既然願意授權資料使用，也應有中途退出的權力。對此，數據處會依意願來調整資料集，刪除中途退出的患者資料、保障退出權力。&lt;/p&gt;
+&lt;p&gt;最後是隱私安全，數據處不僅要將患者資料去識別化，還要確保資料不被有心人士竊取。因此，數據處與資訊處密切合作，由資訊處打理一切IT、資安工作，比如資料湖建置、防火牆設置、運算資源提供等，讓數據處專心負責資料處理工作。&lt;/p&gt;
+&lt;p&gt;但這些還不夠，為進一步與國際接軌，北醫大還請來一位參與過NIH百萬人基因計畫、美國大型電子病歷資料研究計畫的標竿級人物—美國范德堡大學生物統計系主任石瑜，來擔任顧問角色，指導北醫大的數據發展策略，來接軌國際醫療大數據的作法。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;下一步攻癌症、基因資料FHIR化&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;不只藉助標竿大師經驗改善資料管理作法，數據處下一步還要往國際醫療資料交換標準FHIR邁進。這個標準由國際醫療資訊標準協會HL7制定，就像是一套通用的溝通語言，讓不同組織、不同廠牌儀器產出的資料，也能互相溝通。&lt;/p&gt;
+&lt;p&gt;「但這種溝通形式，較適合北美大型市場，對習慣走客製化資料交換規格、規模小的臺灣市場來說，FHIR會推得很辛苦，」許明暉坦言。因此，他們並非要從頭將所有資料轉換為FHIR格式，而是鎖定跨國研究這個目標，來推動FHIR應用，特別是癌症研究資料的FHIR化。&lt;/p&gt;
+&lt;p&gt;他解釋，選在這個時間點投入，是因為以FHIR架構為核心的癌症資料系統mCODE逐年普及，甚至，HL7協會還將mCODE作為旗下FHIR加速器的推廣項目之一，越來越受到各國醫界採用。&lt;/p&gt;
+&lt;p&gt;而且，北醫大數據處加入的OHDSI聯盟，今年更推出能將聯盟OMOP-CDM資料格式自動轉為FHIR格式的工具，讓各成員的數據團隊，能更快建立符合FHIR規格的癌症資料集。對北醫大而言，費了一番功夫將內部資料轉換成聯盟資料的苦功，現在可以很容易地轉換為FHIR格式資料。&lt;/p&gt;
+&lt;p&gt;除了癌症資料，「我們還瞄準基因資料！」許明暉看好這個正在萌芽發展的領域，「美國甚至發起4年計畫，要用FHIR架構推動基因資料標準化！」他直言，基因資料標準化對臺灣非常重要，因為「美國透過4年計畫已逐漸步入正軌，臺灣這時投入，是最好的切入點！」這句話，點出北醫大數據處這位指揮官更遠大的數據願景。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; CDO小檔案 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;strong&gt;許明暉&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;strong&gt;臺北醫學大學數據處數據長&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;學歷：臺北醫學大學醫學科學研究所博士畢業&lt;/p&gt;
+&lt;p&gt;經歷：2005年擔任萬芳醫院醫療資訊副處長，三年後轉任臺北大學資訊長，2013年進入衛福部資訊處，擔任首任處長。2019年回到北醫體系，擔任北醫大數據處數據長，去年起更擔任HL7臺灣理事長&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 機關檔案 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;strong&gt;臺北醫學大學&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;● 成立時間：1960年&lt;/p&gt;
+&lt;p&gt;● 學校宗旨：以培育兼具人文關懷、創新能力，及國際觀的生醫人才，從事醫療保健、生命科學研究，及服務社會之目標為宗旨&lt;/p&gt;
+&lt;p&gt;● 網址：&lt;a href=&quot;http://www.tmu.edu.tw&quot;&gt;www.tmu.edu.tw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;● 地址：臺北市信義區吳興街250號&lt;/p&gt;
+&lt;p&gt;● 員工數：約1,700人&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 數據處檔案 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;● 直屬主管：數據長許明暉&lt;/p&gt;
+&lt;p&gt;● 數據處名稱：臺北醫學大學數據處&lt;/p&gt;
+&lt;p&gt;● 數據處人數：23人&lt;/p&gt;
+&lt;p&gt;● 數據處分工：數據處下設四中心，包括臨床數據中心、健康資料加值暨統計中心、校務研究中心、生物資訊中心，以整合臨床資料庫、健保資料庫、校務資料庫與應用資料庫為目的，為全校師生與附屬醫院同仁提供即時優質的研究資訊服務&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 數據處大事記 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;● 2019年：率先全國成立校院數據處&lt;/p&gt;
+&lt;p&gt;● 2020年：3月提供臨床資料庫釋出服務；5月建立TMU Disease BI平臺，提供研究者隨時查詢院內診斷、手術、用藥等臨床資訊，同月串接本校附屬醫院癌症登記檔，並開放申請；7月串接衛福部死亡登記檔；12月以「OHDSI Taiwan Chapter」身分加入國際健康醫療數據聯盟OHDSI&lt;/p&gt;
+&lt;p&gt;● 2021年：8月組織重整，數據處新成立生物資訊中心，將「統計中心」及「健康暨臨床研究資料加值中心」整併為「健康資料加值暨統計中心」&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/1039-bei_yi_-cdo-she_ying_-hong_zheng_wei_-960.png&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; title=&quot;臺北醫學大學數據處數據長 許明暉　（攝影／洪政偉）&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 25 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146306 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/people/146306#comments</comments>
+</item>
+<item>
  <title>2021年8月10大資安新聞</title>
  <link>https://www.ithome.com.tw/news/146389</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;整個8月出現了相當多重大的資安事故，以及許多影響範圍甚廣的漏洞。值得留意的是不少與物聯網（IoT）設備有關。像是臺灣綜合接入設備（IAD）製造商智易科技（Arcadyan）所生產的路由器，當中曝露的漏洞，不只影響華碩、Buffalo等品牌的多款產品，更是波及許多網路服務供應商（ISP）的設備，漏洞可能影響數百萬臺設備。而瑞昱半導體（Realtek）無線晶片的漏洞，也使得超過200款連網產品受到影響。而物聯網雲端服務平臺Kalay&lt;a href=&quot;https://www.ithome.com.tw/news/146258&quot;&gt;傳出CVSS風險達9.6分的漏洞&lt;/a&gt;，很可能使得採用該平臺的連網設備曝露相關風險。&lt;/p&gt;
@@ -229,53 +307,6 @@
  <dc:creator>余至浩</dc:creator>
  <guid isPermaLink="false">146377 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146377#comments</comments>
-</item>
-<item>
- <title>國內爆發愛心協會大規模捐款個資外洩，影響機構恐破200間，關鍵資訊服務商網軟遭駭仍在調查中</title>
- <link>https://www.ithome.com.tw/news/146376</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;最近，&lt;a href=&quot;https://www.ithome.com.tw/news/146250&quot;&gt;臺灣爆發多起愛心捐款協會因個資外洩引發詐騙案件&lt;/a&gt;，刑事警察局指出，至8月16日止，已有至少35個愛心協會，因委託同一資訊服務商遭遇此事，受害規模比月初更擴大，而這家也是苦主之一的關鍵廠商，就是負責提供捐款系統公司的網軟科技（intersoft）。&lt;/p&gt;
-&lt;p&gt;面對這次的網路攻擊事件，該公司坦言，已委請資安業者協助，清查並強化資安，執法機關也在持續調查，同時他們也持續通知客戶，也就是通知相關愛心協會，將遭駭客攻擊一事告知其客戶，同時，請這些愛心機構向捐款民眾示警，呼籲大家要小心不斷翻新的ATM相關詐騙話術，並注意信用卡盜刷問題。&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;警方調查出現大量冒名多個愛心協會的詐騙，對方已掌握詳細捐款資訊&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;在8月5日，刑事警察局發出詐騙活動的預警，引發全國關注。因為在7月26日到8月1日這一週內，165反詐騙專線統計受理的解除分期付款詐騙案中，有27件的通報對象，竟然不是長年名列其中的電商平臺，而是民眾做愛心的慈善捐款協會遭到冒名，警方並指出，詐騙方掌握了捐款人姓名、電話、捐款金額等資料，藉此取信被害人。&lt;/p&gt;
-&lt;p&gt;當時遭到冒名的慈善機構有6家，刑事警察局股長洪國倫表示，這些愛心協會都委託同一資訊服務商，因此，他們的研發科，以及相關的系統廠商仍在調查與釐清相關資訊。而到了8月16日，我們聯繫警方，請他們提供最新統計數據，此時，冒名愛心協會的詐騙已經增至35家以上。&lt;/p&gt;
-&lt;p&gt;這樣的大規模愛心協會資料外洩狀況，我們在網路上也看到相關討論。例如，有網友在社群網站Plurk當中指出，相關機構的資訊服務商是網軟，他們有200多家基金會客戶，因此，整體的資料外洩情形可能比之前曝光的更嚴重；而我們也看了很多機構的社群網站，也發現網軟的相關消息，例如，「迦南身心障礙養護院」的臉書粉絲專頁上，張貼了來自網軟公司的資安事件通知。當我們查詢網軟這家公司時，恰巧，他們在官方網站上也有公布刑事警察局的防詐騙宣導。因此，我們聯繫網軟，以確認此資安事件的狀況，也了解他們在這起事件面臨的問題，以及造成的影響。&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;影響家數尚未有確切資訊，近期網軟向這些愛心協會通知其資安事件因應措施&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;其實，網軟是提供非營利組織（NPO）資訊服務的業者，包含捐款管理系統、線上金流整合、會員與志工管理系統等。&lt;/p&gt;
-&lt;p&gt;而網軟發生的這起資料外洩事件，的確與上述許多慈善機構捐款個資外洩有極大關連。但是，我們在網軟官方網站上，並未看到他們發布伺服器遭駭或資料外洩相關事件的公告，因此難以得知，到底有多少家愛心協會受影響？以及是否有調查結果？&lt;/p&gt;
-&lt;p&gt;對於近期多家愛心協會遭遇資料外洩，以及網軟向其客戶通知資安事件一事，經我們向網軟詢問後，他們表示，已委請資安廠商協助清查網路攻擊，並檢視現有的基礎架構，強化網路安全與資料安全，法務部調查局也提供協助，同時他們也配合主管機關調查。網軟表示，將等調查結果出爐，再一併說明。換言之，他們目前並無法提供確切資訊。&lt;/p&gt;
-&lt;p&gt;因此，這次資安事件的入侵方式也還沒有具體答案，不確定是網路攻擊者直接入侵網軟，或是入侵某一基金會後再入侵捐款系統。&lt;/p&gt;
-&lt;p&gt;特別的是，由於我們在網路上已看到，兩封由網軟寄送給愛心協會的通知郵件內容，因此我們也向網軟確認其真實性。網軟表示，這些內容確實都是他們寄給愛心協會的通知信，告知已遭駭客攻擊與相關因應。&lt;/p&gt;
-&lt;p&gt;在網軟對愛心協會的通知郵件中，顯示該公司在8月初已告知客戶（相關愛心協會）網軟捐款系統遭駭客攻擊，並提到已封鎖可疑IP位址，限制具風險性的功能。&lt;/p&gt;
-&lt;p&gt;而另一封網軟的通知信中，則在8月中旬說明了這次資安事件的應變現況。&lt;/p&gt;
-&lt;p&gt;例如，除了尋求資安業者提供顧問服務，他們也委請資策會資安科技研究所協助主機相關設定，並建置即時監控系統，偵測網路異常與告警機制；並提到該公司已強化捐款系統的用戶帳號登入安全。包括採取限定IP位址登入，並增加圖形認證與雙因素驗證，以避免外部人員竊取帳號密碼入侵。此外，網軟也提及將持續進行機敏資料加密。&lt;/p&gt;
-&lt;p&gt;而網軟也向我們說明，過去有些用戶可能設定長度不足又簡單的弱密碼，因此他們現在也提醒用戶，要注意密碼設定問題，而網軟也在系統上新增了雙因素驗證機制，讓用戶可搭配簡訊OTP來驗證，強化系統登入安全。&lt;/p&gt;
-&lt;p&gt;從上述這些資安強化內容來看，網軟系統在基礎資安防護上，似乎過去仍有一些不足之處，例如系統登入相當缺乏安全防護機制。儘管該業者主要服務的對象是非營利組織，但攻擊者顯然並未因此放過他們，而這樣的資安事件，不僅是對對於其他慈善組織，以及這類型的資訊服務商，都是一個警惕，也突顯任何使用資訊與IT技術的各類型企業與組織，都需要同時考量到資安。&lt;/p&gt;
-&lt;p&gt;另外，由於網軟至今並未對外公告發生資安事件，因此這次資安事件的影響範圍，仍令外界感到憂心。是否只有捐款系統發生資料外洩情況？畢竟，我們從該公司網站公開的案例，可以看到他們的客戶，不只是多個愛心協會，像是在線上金流整合服務中，屏東縣政府也是其客戶，因此，是否各產品服務的所有客戶，都受此次資安事件影響，遭遇資料外洩情形，勢必也都要有所清查。&lt;/p&gt;
-&lt;p&gt;是否還有更多可供外界參考的資訊？不具名資安專家表示，從網軟與NPO客戶信件往來的內容，推測該公司的服務可能被上傳惡意程式，也就是基本的上傳漏洞（File Upload），使得攻擊者可以控制伺服器或撈取資料庫原始碼等。不過，這是從有限資訊中的側面推測，詳情還是要等刑事警察局或網軟來說明。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖5）網軟資料外洩.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%965%EF%BC%89%E7%B6%B2%E8%BB%9F%E8%B3%87%E6%96%99%E5%A4%96%E6%B4%A9.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;在網軟官方網站上，已在8月3日發布刑事警察局的反詐騙宣導，但至今還沒有對外公布遭駭客攻擊與資料外洩的資安事件。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖10）網軟資料外洩.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%9610%EF%BC%89%E7%B6%B2%E8%BB%9F%E8%B3%87%E6%96%99%E5%A4%96%E6%B4%A9.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖9）網軟資料外洩.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%969%EF%BC%89%E7%B6%B2%E8%BB%9F%E8%B3%87%E6%96%99%E5%A4%96%E6%B4%A9.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖6）網軟資料外洩.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%966%EF%BC%89%E7%B6%B2%E8%BB%9F%E8%B3%87%E6%96%99%E5%A4%96%E6%B4%A9.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;h3&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖8）網軟資料外洩.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%968%EF%BC%89%E7%B6%B2%E8%BB%9F%E8%B3%87%E6%96%99%E5%A4%96%E6%B4%A9.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;blockquote&gt;&lt;p&gt;近期已有許多愛心機構配合警方發布反詐騙宣導，少數機構則說明是社福組織使用的捐款系統廠商遭駭，而在迦南身心障礙養護院的臉書粉絲專頁上，也傳達了他們接獲網軟公司的資安事件通知，當中指出要他們提醒捐款人小心詐騙，並說明該公司現有的資安事件應變措施。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;&lt;strong&gt;對於相關愛心協會的捐款民眾而言，當心假冒其名義的詐騙，並注意信用卡盜刷風險&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;另一方面，為了因應捐款資料外洩可能衍生的風險，包括ATM相關詐騙與信用卡盜刷，網軟也向相關愛心協會發布通知，請他們務必通知捐款人注意。&lt;/p&gt;
-&lt;p&gt;對於使用信用卡捐款的民眾，需注意盜刷風險。雖然海外盜刷方面其實收單銀行自行就可能偵測到並阻擋，但民眾自身還是要留意不明刷卡記錄，一旦發現，應儘速向銀行反應，通常待銀行查證屬實後，消費者無須負擔被盜刷的費用。網軟指出，銀行端會幫助留意盜刷之外，但從目前詐騙現況來看，最不容易被追回詐騙款項的管道，還是ATM操作，還有臨櫃匯款或網路銀行轉帳。因此他們也呼籲相關愛心協會需儘速向捐款人通知，而網軟也會協助機構發送防詐騙簡訊與電子郵件。&lt;/p&gt;
-&lt;p&gt;還要注意的是，詐騙集團會不斷翻新詐騙話術，也會改趁民眾無法確認的時間來詐騙。例如，網軟表示，近期詐騙集團假冒愛心協會客服人員，就開始利用愛心協會遭駭的消息，再向捐款人騙稱需核對個資與信用卡資料，進而騙取相關資訊；另外，近期國內媒體揭露鎮瀾兒童家園均款人遭詐騙，也運用新的手法：詐騙集團利用協會下班時間，趁著晚上打給捐款人。&lt;/p&gt;
-&lt;p&gt;對於各愛心協會的因應情形，網軟也提到相關現況。基本上，大多數協會都很積極通知捐款人，因為這些協會可能已經接獲相當多起民眾詢問。不過他們提醒，詐騙集團可能一波一波發動詐騙，因此要持續提醒民眾。&lt;/p&gt;
-&lt;p&gt;但也有愛心協會仍害怕向民眾宣導，因為這樣可能讓民眾變得不敢捐款。然而，捐款個資外洩情形已經發生，坦然面對更重要。畢竟，已有受害機構工作人員表示，許多捐款民眾通報接到冒用機構名義來電的詐騙，且對方能夠說出捐款日期、捐款者姓名或名義，以及捐款方式等。若捐款民眾不知道狀況，帶來的衝擊與影響其實是更大。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖1）網軟資料外洩(1).jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%961%EF%BC%89%E7%B6%B2%E8%BB%9F%E8%B3%87%E6%96%99%E5%A4%96%E6%B4%A9(1).jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖2）網軟資料外洩.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%962%EF%BC%89%E7%B6%B2%E8%BB%9F%E8%B3%87%E6%96%99%E5%A4%96%E6%B4%A9.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;在8月初，刑事警察局發出詐騙活動的預警，引發高度關注，因為165反詐騙專線受理的解除分期付款詐騙案中，有27件的通報對象竟然是民眾做愛心的慈善捐款協會遭到冒名，警方並指出，詐騙方掌握了捐款人姓名、電話、捐款金額等資料，&lt;span style=&quot;font-family: Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-style: italic;&quot;&gt;藉此取信被害人。&lt;/span&gt;最初民眾通報的對象，包括「台灣樂作創益協會」、「中華育幼機構兒童關懷協會」、「弘化同心共濟會」、「臺灣防盲基金會」、「中華民國兒童癌症基金會」，以及「愛盲基金會」等。接下來，月初出現多起通報的還有「育成社會福利基金會」、「第一社會福利基金會」、「沐風關懷協會」、「微客公益行動協會」與「導盲犬協會」，到了8月中旬（至16日止），警方統計，已經多達35家假冒這類的愛心慈善協會的詐騙，當時接獲超過120件民眾報案，財損更是超過1600萬元。後續，國內媒體報導相關詐騙案的還有，假冒「&lt;a href=&quot;https://www.chinatimes.com/realtimenews/20210821002777-260402?chdtv&quot;&gt;大甲鎮瀾兒童家園&lt;/a&gt;」、「&lt;a href=&quot;https://www.cna.com.tw/news/asoc/202108210095.aspx&quot;&gt;花蓮黎明教養院&lt;/a&gt;」、「&lt;a href=&quot;https://youtu.be/zgCOqceawX0?t=36&quot;&gt;迦南身心障礙養護院&lt;/a&gt;」等。&lt;/p&gt;
-&lt;/blockquote&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 06:31:41 +0000</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="false">146376 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146376#comments</comments>
 </item>
 </channel>
 </rss>

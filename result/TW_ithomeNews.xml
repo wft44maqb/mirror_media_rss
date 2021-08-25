@@ -6,6 +6,16 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>北醫治理三院百萬大數據，再攻FHIR癌症基因資料</title>
+    <link>https://www.ithome.com.tw/people/146306</link>
+    <description> 兩年前，臺北醫學大學出現了一個特別的組織。它與資訊處同等，都是一級單位，但職責不只限於學校，更涵蓋3家醫院，一肩扛起北醫體系所有數據管理的重任。
+帶頭的指揮官，更是一位經驗豐富的IT老將，不僅是萬芳醫院早期發展新一代醫療IT應用的推手，也擔任過首任衛福部資訊處處長，現在更是國際醫療資訊標準協會HL7臺灣分會的理事長。
+這個組織，就是臺北醫學大學數據處（簡稱北醫大數據處），而這位關鍵人物，就是臺北醫學大學數據處數據長許明暉。「當數據變得非常龐大、複雜時，就需要專責單位分工處理，」許明暉強調：「健康領域更是如此！」</description>
+     <pubDate>2021-08-26  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/people/146306</guid>
+  </item>
+  <item>
     <title>同時搭配E Ink顯示器與IPS顯示器，聯想推出雙螢幕超輕薄筆電</title>
     <link>https://www.ithome.com.tw/review/146347</link>
     <description> 在1月的美國CES消費電子大展期間，聯想發表多款筆電，我們陸續報導可分離鍵盤使用的ThinkPad X12 Detachable，以及超輕薄筆電ThinkPad X1 Carbon Gen 9，接下來，我們要介紹則是一款雙螢幕筆電，ThinkBook Plus Gen 2i（ThinkBook Plus G2 ITG），在6月正式推出。
@@ -252,14 +262,6 @@
      <pubDate>2021-08-24  03:08:34</pubDate>
  <dc:creator>余至浩</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146357</guid>
-  </item>
-  <item>
-    <title>Google Play將以國別及裝置為基準，提供更個人化的評價及評論內容</title>
-    <link>https://www.ithome.com.tw/news/146356</link>
-    <description> 有鑑於開發者所打造的行動程式，在不同的國家或裝置上可能有不同的表現，Google決定變更Google Play上的評價與評論政策，從今年的11月起，Android手機用戶在Google Play上只能看到當地用戶的評價與評論，而從明年初起，平板、Chromebook與穿戴式裝置用戶，也能自Google Play上看到專屬於相關裝置的評價。</description>
-     <pubDate>2021-08-24  03:08:42</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146356</guid>
   </item>
   </channel>
 </rss>
