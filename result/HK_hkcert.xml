@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Wed, 25 Aug 2021 10:18:57 +0800</pubDate>
-		<lastBuildDate>Wed, 25 Aug 2021 10:18:57 +0800</lastBuildDate>
+		<pubDate>Wed, 25 Aug 2021 10:21:48 +0800</pubDate>
+		<lastBuildDate>Wed, 25 Aug 2021 10:21:48 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,6 +15,38 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>OpenSSL 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/openssl-multiple-vulnerabilities_20210825</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/openssl-multiple-vulnerabilities_20210825</guid>
+			<pubDate>Wed, 25 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於OpenSSL中發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況及敏感資料洩露。
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			          <li>資料洩露</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>OpenSSL 1.1.1l 之前的 1.1.1 版本</li>
+				<li>OpenSSL 1.0.2za 之前的 1.0.2 版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽軟體供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>更新至:</p>
+			
+			<ul>
+				<li>1.1.1l 版本</li>
+				<li>1.0.2za 版本</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
 		<item>
 			<title>ISC BIND 阻斷服務漏洞</title>
 			<link>https://www.hkcert.org/tc/security-bulletin/isc-bind-denial-of-service-vulnerability_20210820</link>
@@ -793,47 +825,6 @@
 			<ul>
 				<li>供應商已提供更新<br />
 				<a href="https://about.gitlab.com/releases/2021/08/03/security-release-gitlab-14-1-2-released/" target="_blank">https://about.gitlab.com/releases/2021/08/03/security-release-gitlab-14-1-2-released/</a></li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>Linux 內核多個漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210805</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210805</guid>
-			<pubDate>Thu, 05 Aug 2021 09:10:00 +0800</pubDate>
-			<description><![CDATA[  於 Linux 內核發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、權限提升、洩露敏感資料及...
-			  <p>影響</p>
-			  <ul>
-			          <li>阻斷服務</li>
-			          <li>權限提升</li>
-			          <li>資料洩露</li>
-			          <li>篡改</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>SUSE Linux Enterprise Module for Realtime 15-SP2</li>
-				<li>Oracle Linux 6</li>
-				<li>Oracle Linux 7</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<p>&nbsp;</p>
-			
-			<p>安裝供應商提供的修補程式：</p>
-			
-			<p>&nbsp;</p>
-			
-			<p>詳情請參閱以下連結:</p>
-			
-			<ul>
-				<li><a href="https://www.suse.com/support/update/announcement/2021/suse-su-20212599-1/" target="_blank">https://www.suse.com/support/update/announcement/2021/suse-su-20212599-1/</a></li>
-				<li><a href="https://linux.oracle.com/errata/ELSA-2021-9395.html" target="_blank">https://linux.oracle.com/errata/ELSA-2021-9395.html</a></li>
 			</ul>
 			
 			  <hr>
