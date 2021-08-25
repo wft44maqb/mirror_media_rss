@@ -6,6 +6,20 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>有人假冒蘋果客戶支援騙走數千iCloud帳號</title>
+ <link>https://www.ithome.com.tw/news/146372</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://storage.courtlistener.com/recap/gov.uscourts.flmd.392806/gov.uscourts.flmd.392806.1.0.pdf&quot; target=&quot;_blank&quot;&gt;美國佛羅里達州的檢察官日前起訴了40歲的Hao Kuo Chi&lt;/a&gt;，因為Chi假冒為蘋果的客戶支援部門，去信要求受害者提供iCloud憑證，成功騙走了4,700名iCloud用戶的憑證，並擅自進入306個iCloud帳號，盜取這些帳號的照片及影片。受害者絕大多數是年輕女性，被盜走的內容則多半是清涼照。&lt;/p&gt;
+&lt;p&gt;Chi的行徑之所以曝光，是因為他在2018年3月入侵了一位名人的帳號，盜走了這位名人存放在iCloud的照片及影片，且這些內容最後流入了色情網站，受害者報警之後FBI才追查到Chi的位置。&lt;/p&gt;
+&lt;p&gt;調查顯示，Chi擁有applebackupicloud與backupagenticloud兩個Gmail帳號，用來假冒蘋果的客戶支援服務，還在網路上以icloudripper4you為名，推銷入侵iCloud帳號的服務。從2014年到2018年間，Chi總計取得了4,700名iCloud用戶的憑證，擅自進入其中306個iCloud帳號，還從這些帳號下載了62萬張照片與9,000部影片。&lt;/p&gt;
+&lt;p&gt;Chi已坦承犯下4項罪行，包括共謀及未經授權存取受保護的電腦，每項罪名最高可處5年徒刑。&lt;/p&gt;
+&lt;p&gt;在2014年，也曾發生好萊塢上百名女星存放在iCloud上的私密照外洩事件，當時外界一度懷疑是iCloud的安全漏洞所造成，&lt;a href=&quot;https://www.ithome.com.tw/news/90644&quot; target=&quot;_blank&quot;&gt;蘋果調查則發現&lt;/a&gt;駭客是利用社交工程及網釣手法，取得這些女星的iCloud憑證，使得蘋果決定於iCloud上提供雙因素認證服務。不過，Chi的受害者顯然沒有啟用該服務。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 25 Aug 2021 04:06:01 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146372 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146372#comments</comments>
+</item>
+<item>
  <title>小米產品品牌將改採Xiaomi、Redmi雙軌</title>
  <link>https://www.ithome.com.tw/news/146371</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;小米本周公告從2021年第3季開始，將改用Xiaomi取代mi作為產品品牌，採行小米、紅米（Redmi）的雙品牌策略。Mi則轉為純母公司品牌。&lt;/p&gt;
@@ -211,19 +225,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146368 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146368#comments</comments>
-</item>
-<item>
- <title>MDN現提供Deno相容性資料</title>
- <link>https://www.ithome.com.tw/news/146360</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;現在於MDN也查得到Deno的相容性資料，與其他桌面和行動裝置瀏覽器一樣，&lt;a href=&quot;https://deno.com/blog/deno-on-mdn&quot;&gt;Deno相容性表格資料&lt;/a&gt;，也會在所有JavaScript參照頁面，還有部分Web API參照頁面中提供，因此往後開發者在MDN查看技術文件，除了能夠知道該功能在各個瀏覽器上的支援程度外，也能知道Deno的支援度。&lt;/p&gt;
-&lt;p&gt;Deno是Ryan Dahl在Node.js之後，使用Rust語言所創建的新專案，與Node.js相同採用V8引擎，為JavaScript和TypeScript執行環境，Ryan Dahl針對Node.js的十大技術債，提出了Deno這個新的解決方案，讓開發者可以用更簡潔的程式碼，編寫複雜的程式功能。&lt;/p&gt;
-&lt;p&gt;Deno採用現代化的Web API，在Runtime中添加新功能時，首選便是使用瀏覽器API的形式，而這使得開發人員能夠受惠，因爲開發人員已經熟悉這些API，但相對的Deno也獲得好處，因為能夠使用現存的測試。而Web API存在大量的文件，MDN便是網頁平臺檔案的重要來源，MDN包含了超過1萬頁的文件、指南和教學，由社群、Google、Mozilla和Open Web Docs的員工維護。&lt;/p&gt;
-&lt;p&gt;MDN還維護了Web API的Runtime相容性資料，這個資料以相容性圖表的形式顯示在MDN文件頁面上，這些資料從現在起，會加入Deno的相容性資料，開發者可在Array和WebAssembly.LinkError等JavaScript參照頁面，或是fetch和setTimeout等Web API參照頁面中查看。當然，這些資料也可以從mdn/browser-compat-data儲存庫中，以程式開發的方式取得。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 24 Aug 2021 12:17:12 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146360 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146360#comments</comments>
 </item>
 </channel>
 </rss>

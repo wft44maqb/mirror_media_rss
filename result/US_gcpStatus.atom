@@ -349,18 +349,5 @@ We thank you for your patience while we worked on resolving the issue.</title>
 &lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
 &lt;p&gt;Workaround: None at this time.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Pub/Sub&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: We are experiencing a connectivity issue affecting Google Kubernetes Engine in australia-southeast2</title>
-    <link href="https://status.cloud.google.com/incidents/8aPfN89nkeWJVui93StH" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:8aPfN89nkeWJVui93StH.t6za6RGCAAzpGffimjF5</id>
-    <updated>2021-08-24T04:06:17+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-23 20:15&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-23 21:28&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: We are experiencing a connectivity issue affecting Google Kubernetes Engine in australia-southeast2&lt;/p&gt;
-&lt;p&gt;Description: We are experiencing an issue with Google Cloud infrastructure components at australia-southeast2&lt;/p&gt;
-&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
-&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G"&gt;https://status.cloud.google.com/incidents/8DhiwfKvD987f5tJrj1G&lt;/a&gt;, no further updates will be provided here.&lt;/p&gt;
-&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
-&lt;p&gt;Diagnosis: None at this time.&lt;/p&gt;
-&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Kubernetes Engine&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -6,6 +6,23 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>有人假冒蘋果客戶支援騙走數千iCloud帳號</title>
+    <link>https://www.ithome.com.tw/news/146372</link>
+    <description> 美國佛羅里達州的檢察官日前起訴了40歲的Hao Kuo Chi，因為Chi假冒為蘋果的客戶支援部門，去信要求受害者提供iCloud憑證，成功騙走了4,700名iCloud用戶的憑證，並擅自進入306個iCloud帳號，盜取這些帳號的照片及影片。受害者絕大多數是年輕女性，被盜走的內容則多半是清涼照。</description>
+     <pubDate>2021-08-25  12:08:01</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146372</guid>
+  </item>
+  <item>
+    <title>小米產品品牌將改採Xiaomi、Redmi雙軌</title>
+    <link>https://www.ithome.com.tw/news/146371</link>
+    <description> 小米本周公告從2021年第3季開始，將改用Xiaomi取代mi作為產品品牌，採行小米、紅米（Redmi）的雙品牌策略。Mi則轉為純母公司品牌。
+本周XDA Developer率先報導此事，隨後小米發出官方聲明。</description>
+     <pubDate>2021-08-25  11:08:05</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146371</guid>
+  </item>
+  <item>
     <title>臉書正在測試以Facebook App啟動語音通話、視訊的功能</title>
     <link>https://www.ithome.com.tw/news/146370</link>
     <description> 彭博報導，社群龍頭臉書正挑選部份用戶測試以臉書原本的Facebook App啟動視訊或語音通話的功能，而不需啟動Messenger。
@@ -237,24 +254,6 @@ Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密�
      <pubDate>2021-08-23  12:08:17</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146337</guid>
-  </item>
-  <item>
-    <title>IBM發布首款7奈米Telum處理器，整合AI加速推論晶片，下一代IBM Z大型主機先採用</title>
-    <link>https://www.ithome.com.tw/news/146315</link>
-    <description> 不讓Apple、Google、AWS專美於前，在今日(8/23 )線上舉行的Hot Chips年會上，硬體大廠IBM公開展示自行研發的全新7奈米處理器Telum，整合AI加速運算處理能力，可用於AI或深度學習模型推論。它也是IBM第一款結合AI加速推論功能的處理器晶片，並將先運用到大型主機，來協助解決銀行詐騙、高頻交易等金融難題。首款採用Telum處理器的IBM系統，預計2022年上半年推出。</description>
-     <pubDate>2021-08-23  12:08:17</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146315</guid>
-  </item>
-  <item>
-    <title>【疫情日報】8月24日至9月6日維持二級警戒，但鬆綁集會人數上限、用餐限制和病房探病</title>
-    <link>https://www.ithome.com.tw/news/146314</link>
-    <description> 中央流行疫情指揮中心今（21日）宣布，自8月24日至9月6日兩周仍維持全國二級警戒，但也鬆綁不少措施，如提高室內外集會人數上限、同住親友聚餐不需隔板、梅花坐，開放特定病房探病和境外生入境等。
-今日新增2例本土案例、8例境外移入，指揮官陳時中表示，疫情雖穩定趨緩，但8月24日至9月6日仍維持二級警戒。這段期間內，民眾外出仍須全程配戴口罩，營業場所和公共場域必須進行人流管制，如室內空間至少1.5米/人（2.25平方米/人）、室外空間至少1米/人（1平方米/人）。
-鬆綁集會人數上限、用餐和探病限制，開放多項室內外活動</description>
-     <pubDate>2021-08-21  02:08:55</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146314</guid>
   </item>
   </channel>
 </rss>
