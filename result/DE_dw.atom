@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-25T01:58:14Z</updated>
+ <updated>2021-08-25T02:00:15Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58975209</id>
+  <title><![CDATA[谜样病症搅局 哈里斯越南行延误]]></title>
+  <updated>2021-08-25T01:33:00Z</updated>
+  <published>2021-08-25T01:33:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/谜样病症搅局-哈里斯越南行延误/a-58975209?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[哈里斯24日在新加坡发表演讲，指责中国入侵南海后，与当地商界领袖讨论了供应链问题，本来准备在当天下午4点前往越南，但行程却临时被推迟了约3小时，原因是河内爆发「异常健康事件」。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58975177</id>
   <title><![CDATA[美维持撤军截止日 G7对塔利班诚信存疑]]></title>
@@ -185,16 +195,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58957115</id>
-  <title><![CDATA[塔利班不同意延长西方国家撤军时间表]]></title>
-  <updated>2021-08-23T12:48:00Z</updated>
-  <published>2021-08-23T12:48:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班不同意延长西方国家撤军时间表/a-58957115?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[塔利班一名发言人本周一在接受英国天空电视台采访时表示，塔利班不会延长西方军队撤离阿富汗的最后期限8月31日，“否则英美就需要承担相应后果”。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58957024</id>
   <title><![CDATA[热带风暴登陆美国  多地出现灾情 ]]></title>
   <updated>2021-08-23T11:50:00Z</updated>
@@ -255,16 +255,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58906625</id>
-  <title><![CDATA[柏林——永远的间谍之都]]></title>
-  <updated>2021-08-22T07:40:00Z</updated>
-  <published>2021-08-22T07:40:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58904029</id>
   <title><![CDATA[阿富汗艺术家：“失望、痛苦、愤怒”]]></title>
   <updated>2021-08-22T07:40:00Z</updated>
@@ -272,6 +262,16 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗艺术家：-失望、痛苦、愤怒/a-58904029?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[因害怕塔利班，阿富汗艺术家中有很多人毁掉了自己的作品，另一些人则创作新作品——以示抗议。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58906625</id>
+  <title><![CDATA[柏林——永远的间谍之都]]></title>
+  <updated>2021-08-22T07:40:00Z</updated>
+  <published>2021-08-22T07:40:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
   <category term="文化经纬"/>
  </entry>
  <entry>
