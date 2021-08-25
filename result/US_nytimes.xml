@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 25 Aug 2021 10:54:55 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Aug 2021 11:04:56 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[美國副總統哈利斯訪問東南亞，強烈抨擊中國]]></title>
+            <link><![CDATA[https://cn.nytimes.com/asia-pacific/20210825/kamala-harris-singapore-vietnam/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[哈利斯在新加坡發表講話，稱中國在南海「進行脅迫、恐嚇」，「威脅了各國的主權」。在阿富汗無序撤軍陰影下，哈利斯此行被視為對美國信譽的一次考驗。<p><img src='https://static01.nyt.com/images/2021/08/24/world/24harris-asia-01/merlin_193613061_89413bff-66bb-46da-ac76-cd6bde2afcc4-articleLarge.jpg' alt='副總統卡瑪拉·哈利斯週二在新加坡，這是她作為副總統的第二次海外訪問。 Evelyn Hockstein/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Evelyn Hockstein/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>副總統卡瑪拉·哈利斯週二在新加坡，這是她作為副總統的第二次海外訪問。</p>                    ]]></description>
+            <category>亞太</category>
+            <dc:creator><![CDATA[ZOLAN KANNO-YOUNGS]]></dc:creator>
+            <pubDate>Wed, 25 Aug 2021 10:58:08 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/asia-pacific/20210825/kamala-harris-singapore-vietnam/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[赴美留學人數回升至疫前水平，中國學生佔比近半]]></title>
             <link><![CDATA[https://cn.nytimes.com/usa/20210825/international-students-begin-to-return-to-us-universities-after-a-covid-hiatus/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[儲百亮,STEVEN LEE MYERS]]></dc:creator>
             <pubDate>Thu, 19 Aug 2021 06:30:35 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210819/china-afghanistan-taliban/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[美國擬撤銷對五名中國研究人員的簽證欺詐指控]]></title>
-            <link><![CDATA[https://cn.nytimes.com/usa/20210726/chinese-researchers-justice-dept/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[這些研究人員被控隱瞞與中國軍方的聯繫。川普政府曾積極尋求遏制北京竊取知識產權、企業機密和軍事情報，針對這些研究人員的逮捕和起訴是其中的部分舉措。<p><img src='https://static01.nyt.com/images/2021/07/24/us/24dc-justice-1/merlin_173485425_af59089f-6d51-4fb6-94da-6731d0511e04-articleLarge.jpg' alt='美國國務院在週四和週五提出動議，撤銷對一些研究人員提出的簽證欺詐和其他指控。 Ting Shen for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Ting Shen for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>美國國務院在週四和週五提出動議，撤銷對一些研究人員提出的簽證欺詐和其他指控。</p>                    ]]></description>
-            <category>美國</category>
-            <dc:creator><![CDATA[KATIE BENNER]]></dc:creator>
-            <pubDate>Thu, 19 Aug 2021 03:48:43 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210726/chinese-researchers-justice-dept/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
