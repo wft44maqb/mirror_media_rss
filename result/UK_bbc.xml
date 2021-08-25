@@ -9,11 +9,25 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Aug 2021 01:31:37 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Aug 2021 01:38:21 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[阿富汗局勢：塔利班重奪控制權後，中國輿論場如何被反美情緒撕裂]]></title>
+            <description><![CDATA[對塔利班的不同態度如何在中國社交媒體上引發了一場「鍵盤戰爭」？塔利班又為何在中國網民中引發分歧？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58310884?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58310884</guid>
+            <pubDate>Wed, 25 Aug 2021 01:31:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[阿富汗局勢：美國決策顯示 英美關係並不怎麼特殊]]></title>
+            <description><![CDATA[在強大的美國和力量弱小許多的英國之間，我們最好把兩國關係理解為一種低層次的伙伴關係。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58315846?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58315846</guid>
+            <pubDate>Wed, 25 Aug 2021 01:32:47 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[美軍基地德特裏克堡為何會成為中國新冠陰謀論的中心？]]></title>
             <description><![CDATA[大多數美國人可能從未聽過德特裏克堡這個地方，但如今這個名字在中國正在變得家喻戶曉。]]></description>
@@ -43,13 +57,6 @@
             <pubDate>Tue, 24 Aug 2021 07:11:22 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[阿富汗局勢：塔利班掌權後女性最擔心什麼]]></title>
-            <description><![CDATA[五位在各自領域有所建樹的阿富汗女性向BBC講述了他們對未來的擔憂。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58302043?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58302043</guid>
-            <pubDate>Tue, 24 Aug 2021 00:52:53 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[病毒變異：拉姆達和德爾塔和其他變異毒株你需了解的幾個問題]]></title>
             <description><![CDATA[新冠病毒不斷突變，其中傳播最快最廣的先有德爾塔（Delta）、又有拉姆達（Lambda)，它們的超級傳播秘密是什麼？疫苗效力會受影響嗎？]]></description>
             <link>https://www.bbc.com/zhongwen/trad/science-57529842?at_medium=RSS&amp;at_campaign=KARANGA</link>
@@ -62,13 +69,6 @@
             <link>https://www.bbc.com/zhongwen/trad/science-58315303?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-58315303</guid>
             <pubDate>Tue, 24 Aug 2021 08:34:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[從羅馬到東京 60載殘奧會改變的人生]]></title>
-            <description><![CDATA[周二，殘疾人奧運會將在東京開幕，標誌著這項改變無數殘障人士命運的精英體育盛會，走過逾60年歷史。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/sports-58304179?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/sports-58304179</guid>
-            <pubDate>Tue, 24 Aug 2021 00:55:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[英國肉店屠房人手不足求助監獄]]></title>
@@ -183,6 +183,13 @@
             <pubDate>Mon, 23 Aug 2021 10:02:25 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[阿富汗局勢：塔利班掌權後女性最擔心什麼]]></title>
+            <description><![CDATA[五位在各自領域有所建樹的阿富汗女性向BBC講述了他們對未來的擔憂。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58302043?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58302043</guid>
+            <pubDate>Tue, 24 Aug 2021 00:52:53 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[印度殘奧會羽球好手帕拉克講述自己生命的故事]]></title>
             <description><![CDATA[羽毛球在 2020 年東京殘奧會上首次亮相，對印度的後起之秀帕拉克也是如此]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58317033?at_medium=RSS&amp;at_campaign=KARANGA</link>
@@ -279,6 +286,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58254671?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58254671</guid>
             <pubDate>Wed, 18 Aug 2021 07:41:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[從羅馬到東京 60載殘奧會改變的人生]]></title>
+            <description><![CDATA[周二，殘疾人奧運會將在東京開幕，標誌著這項改變無數殘障人士命運的精英體育盛會，走過逾60年歷史。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/sports-58304179?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/sports-58304179</guid>
+            <pubDate>Tue, 24 Aug 2021 00:55:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：塔利班回歸對國際秩序有何影響]]></title>

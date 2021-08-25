@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://status.digitalocean.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.digitalocean.com/history.atom"/>
   <title>DigitalOcean Status - Incident History</title>
-  <updated>2021-08-20T16:24:38Z</updated>
+  <updated>2021-08-25T01:42:44Z</updated>
   <author>
     <name>DigitalOcean</name>
   </author>
+  <entry>
+    <id>tag:status.digitalocean.com,2005:Incident/7837167</id>
+    <published>2021-08-25T01:42:44Z</published>
+    <updated>2021-08-25T01:42:44Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/4mprl48pnyjl"/>
+    <title>MongoDB Cluster Create/Destroy Timeouts</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;25&lt;/var&gt;, &lt;var data-var='time'&gt;01:42&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Our engineering team has identified an issue with MongoDB cluster creates and destroys timing out and is actively working on a fix. We will post an update as soon as additional information is available.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.digitalocean.com,2005:Incident/7793360</id>
     <published>2021-08-18T21:25:24Z</published>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/gcmynxgfmc16"/>
     <title>Spaces Availability in SFO2</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;15&lt;/var&gt;, &lt;var data-var='time'&gt;22:14&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our Engineering team has resolved the issue with Spaces in our SFO2  region. Spaces availability should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;15&lt;/var&gt;, &lt;var data-var='time'&gt;22:02&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our Engineering team has deployed a fix to resolve the availability issues with Spaces in our SFO2 region and is currently monitoring the situation. We will post an update as soon as the issue is fully resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;15&lt;/var&gt;, &lt;var data-var='time'&gt;21:48&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Our Engineering team is investigating an issue with Spaces in our SFO2 region. During this time, users may experience issues with accessing Spaces via our Cloud Control Panel/API and see timeout errors when working with objects. We apologize for the inconvenience and will share an update once we have additional information.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:status.digitalocean.com,2005:Incident/7501333</id>
-    <published>2021-07-14T12:34:49Z</published>
-    <updated>2021-07-15T04:05:08Z</updated>
-    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/mf4dxw8j92kj"/>
-    <title>Spaces Availability in SFO2</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;14&lt;/var&gt;, &lt;var data-var='time'&gt;12:34&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our engineers were observing recurrence of the issues with Spaces API availability in our SFO2 region. They quickly applied the fix and closely monitored the situation as availability improved in the region. &lt;br /&gt;&lt;br /&gt;As of 12:19 UTC, the issue stands completely resolved, and Spaces service should be functioning normally. Thank you for your patience throughout this process, and if you continue to experience problems, please open a ticket with our Support team from within the Cloud Control Panel.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;14&lt;/var&gt;, &lt;var data-var='time'&gt;09:27&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our Engineering team has deployed a fix to resolve the availability issues with Spaces in our SFO2 region and is currently monitoring the situation. We will post an update as soon as the issue is fully resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;14&lt;/var&gt;, &lt;var data-var='time'&gt;08:15&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Our Engineering team is investigating an issue with Spaces in our SFO2 region. During this time, users may experience issues with accessing Spaces via our Cloud Control Panel. We apologize for the inconvenience and will share an update once we have additional information.&lt;/p&gt;</content>
   </entry>
 </feed>
