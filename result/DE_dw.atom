@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-25T11:41:18Z</updated>
+ <updated>2021-08-25T11:43:28Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58978663</id>
+  <title><![CDATA[东京残奥会开幕]]></title>
+  <updated>2021-08-25T11:14:00Z</updated>
+  <published>2021-08-25T11:14:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东京残奥会开幕/a-58978663?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[伴随着盛大的文艺表演，第16届夏季残奥会8月24日晚在日本东京新国立竞技场开幕。本届残奥会共有来自162个代表团的4403名运动员参赛。]]></summary>
+  <category term="足坛体坛"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58978864</id>
   <title><![CDATA[德国大选前民调  社民党首次领先]]></title>
