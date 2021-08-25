@@ -6,6 +6,15 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>臉書正在測試以Facebook App啟動語音通話、視訊的功能</title>
+    <link>https://www.ithome.com.tw/news/146370</link>
+    <description> 彭博報導，社群龍頭臉書正挑選部份用戶測試以臉書原本的Facebook App啟動視訊或語音通話的功能，而不需啟動Messenger。
+臉書Messenger產品管理總監Connor Hayes指出，這項測試正在包括美國及其他地區展開，目的在減少用戶在主要的Facebook App及Messenger之間，來回切換的麻煩。</description>
+     <pubDate>2021-08-25  11:08:53</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146370</guid>
+  </item>
+  <item>
     <title>Google服務網格控制平面Traffic Director，現可簡單配置gRPC服務間的安全通訊</title>
     <link>https://www.ithome.com.tw/news/146369</link>
     <description> Google更新gRPC無代理服務，解決微服務間通訊的安全痛點，開發者透過Traffic Director控制平面，就夠簡單配置gRPC服務，以TLS/mTLS建立服務之間的安全通訊。</description>
@@ -246,15 +255,6 @@ Chainalysis的採用指標有3個衡量標準，分別是區塊鏈上的加密�
      <pubDate>2021-08-21  02:08:55</pubDate>
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146314</guid>
-  </item>
-  <item>
-    <title>InfiniBand進入400Gb/s世代，Nvidia新款網路交換器揭開序幕</title>
-    <link>https://www.ithome.com.tw/review/146313</link>
-    <description> 關於400 Gb乙太網路產品的發展，我們在2019年曾介紹思科與戴爾這兩家公司的產品，在2020年3月，也就是Mellanox被Nvidia完成併購前夕，他們發表了SN4000系列交換器，最高也能支援400 Gb乙太網路（SN4800與SN4700可提供32個400 GbE埠）。
-</description>
-     <pubDate>2021-08-21  11:08:56</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/review/146313</guid>
   </item>
   </channel>
 </rss>
