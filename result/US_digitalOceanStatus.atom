@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://status.digitalocean.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.digitalocean.com/history.atom"/>
   <title>DigitalOcean Status - Incident History</title>
-  <updated>2021-08-26T21:23:37Z</updated>
+  <updated>2021-08-26T21:30:33Z</updated>
   <author>
     <name>DigitalOcean</name>
   </author>
+  <entry>
+    <id>tag:status.digitalocean.com,2005:Incident/7852430</id>
+    <published>2021-08-26T21:30:33Z</published>
+    <updated>2021-08-26T21:30:33Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/xg2kf427rzvg"/>
+    <title>NYC1 MongoDB Managed Database Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;21:30&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;21:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;20:57&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - During the window of 21:00 UTC to 21:30 UTC, our engineering team will be making changes to our MongoDB Managed Databases product in NYC1 to improve performance.&lt;br /&gt;&lt;br /&gt;Expected Impact:&lt;br /&gt;&lt;br /&gt;All create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our NYC1 region will be temporarily disabled during maintenance.&lt;br /&gt;&lt;br /&gt;We do not anticipate any impact for existing MongoDB Managed Databases.&lt;br /&gt;&lt;br /&gt;Do not hesitate to contact support by opening a ticket if you have any additional questions or concerns.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.digitalocean.com,2005:Incident/7852531</id>
     <published>2021-08-26T21:15:09Z</published>
@@ -23,14 +31,6 @@
     <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/z6v9gg0zvf5n"/>
     <title>AMS3 MongoDB Managed Database Maintenance</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;21:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;20:30&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;20:17&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - During the window of 20:30 UTC to 21:00 UTC, our engineering team will be making changes to our MongoDB Managed Databases product in AMS3 to improve performance.&lt;br /&gt;&lt;br /&gt;Expected Impact:&lt;br /&gt;&lt;br /&gt;All create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our AMS3 region will be temporarily disabled during maintenance.&lt;br /&gt;&lt;br /&gt;We do not anticipate any impact for existing MongoDB Managed Databases.&lt;br /&gt;&lt;br /&gt;Do not hesitate to contact support by opening a ticket if you have any additional questions or concerns.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:status.digitalocean.com,2005:Incident/7852430</id>
-    <published>2021-08-26T21:00:19Z</published>
-    <updated>2021-08-26T21:00:19Z</updated>
-    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/xg2kf427rzvg"/>
-    <title>NYC1 MongoDB Managed Database Maintenance</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;21:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;20:57&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - During the window of 21:00 UTC to 21:30 UTC, our engineering team will be making changes to our MongoDB Managed Databases product in NYC1 to improve performance.&lt;br /&gt;&lt;br /&gt;Expected Impact:&lt;br /&gt;&lt;br /&gt;All create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our NYC1 region will be temporarily disabled during maintenance.&lt;br /&gt;&lt;br /&gt;We do not anticipate any impact for existing MongoDB Managed Databases.&lt;br /&gt;&lt;br /&gt;Do not hesitate to contact support by opening a ticket if you have any additional questions or concerns.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.digitalocean.com,2005:Incident/7844255</id>
