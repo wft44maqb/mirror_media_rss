@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-26T01:19:29Z</updated>
+ <updated>2021-08-26T01:22:38Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58985821</id>
+  <title><![CDATA[不顾北京反对 台日将举行安全对话]]></title>
+  <updated>2021-08-26T01:16:00Z</updated>
+  <published>2021-08-26T01:16:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/不顾北京反对-台日将举行安全对话/a-58985821?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[东京在多次表示台湾与日本安全直接相关后，首次与台湾举行安全对话，由双方各派两名议员线上会谈。北京闻讯表示强烈不满。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58985737</id>
   <title><![CDATA[各国加快疏散行动 塔利班传胁迫联合国员工]]></title>
@@ -195,16 +205,6 @@
   <category term="评论分析"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58970010</id>
-  <title><![CDATA[德国新任驻华大使贺岩（Jan Hecker）正式上任]]></title>
-  <updated>2021-08-24T14:42:00Z</updated>
-  <published>2021-08-24T14:42:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国新任驻华大使贺岩（jan-hecker）正式上任/a-58970010?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[德国新任驻华大使贺岩（Jan Hecker）本周二正式走马上任。原计划先回德国为默克尔最后数周总理任期作外交顾问的贺岩，因外交形势的变化，受命留在北京。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58968896</id>
   <title><![CDATA[找不到司机送货 英国麦当劳暂停供应奶昔]]></title>
   <updated>2021-08-24T13:41:00Z</updated>
@@ -285,16 +285,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58904029</id>
-  <title><![CDATA[阿富汗艺术家：“失望、痛苦、愤怒”]]></title>
-  <updated>2021-08-22T07:40:00Z</updated>
-  <published>2021-08-22T07:40:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗艺术家：-失望、痛苦、愤怒/a-58904029?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[因害怕塔利班，阿富汗艺术家中有很多人毁掉了自己的作品，另一些人则创作新作品——以示抗议。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58906625</id>
   <title><![CDATA[柏林——永远的间谍之都]]></title>
   <updated>2021-08-22T07:40:00Z</updated>
@@ -302,6 +292,16 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58904029</id>
+  <title><![CDATA[阿富汗艺术家：“失望、痛苦、愤怒”]]></title>
+  <updated>2021-08-22T07:40:00Z</updated>
+  <published>2021-08-22T07:40:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗艺术家：-失望、痛苦、愤怒/a-58904029?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[因害怕塔利班，阿富汗艺术家中有很多人毁掉了自己的作品，另一些人则创作新作品——以示抗议。]]></summary>
   <category term="文化经纬"/>
  </entry>
  <entry>
