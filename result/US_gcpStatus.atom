@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Cloud Status Dashboard Updates</title>
-  <updated>2021-08-26T21:15:54+00:00</updated>
+  <updated>2021-08-26T21:25:44+00:00</updated>
   <link href="https://status.cloud.google.com/" rel="alternate" type="text/html"></link>
   <link href="https://status.cloud.google.com/en/feed.atom" rel="self"></link>
   <author>
@@ -9,6 +9,20 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
+    <title>UPDATE: Cloud Logging experiencing issue returning results for "tail" commands globally</title>
+    <link href="https://status.cloud.google.com/incidents/XnB6ncPMYd3Tei7XcCE1" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:XnB6ncPMYd3Tei7XcCE1.fPKWXQqCQPu41sVJRkYn</id>
+    <updated>2021-08-26T21:25:44+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-26 14:25&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Cloud Logging experiencing issue returning results for &amp;quot;tail&amp;quot; commands globally&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Cloud Logging.&lt;/p&gt;
+&lt;p&gt;Customers may not be able to look at live logs by running &amp;quot;tail&amp;quot; commands&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;We will provide an update by Thursday, 2021-08-26 14:55 US/Pacific with current details.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customers may not be able to look at live logs by running &amp;quot;tail&amp;quot; commands&lt;/p&gt;
+&lt;p&gt;Workaround: Normal log queries work fine and users can still use streaming in the UI.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Operations&lt;/p&gt;</summary>
+  </entry><entry>
     <title>UPDATE: Anthos On-Prem customers unable to login to admin workstation (starting 2021-08-25 for customers using Anthos OP v1.7.2)</title>
     <link href="https://status.cloud.google.com/incidents/A27EJTBQ6anaCdeNX6zp" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:A27EJTBQ6anaCdeNX6zp.j5MWaYSUeRKpvxpf7Rjm</id>
