@@ -9,11 +9,25 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Aug 2021 01:26:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Aug 2021 01:34:03 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[雙減新政落地滿月 中國教培行業熬過最寒冷的暑假]]></title>
+            <description><![CDATA[除了裁員潮外，大量教培機構扎堆進入素質教育行業，開展圍棋班、美術班等，甚至開展家長培訓，以此尋找新的市場空間，存活下去。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58329276?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58329276</guid>
+            <pubDate>Thu, 26 Aug 2021 01:30:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[馬達加斯加：非洲島國滑向全球首個「氣候變化導致的饑荒」，人們用蝗蟲和仙人掌果腹]]></title>
+            <description><![CDATA[「這些人沒有做任何事導致氣候變化。他們並不用化石燃料……而他們卻首當其衝地承受著氣候變化的影響。」]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58330396?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58330396</guid>
+            <pubDate>Thu, 26 Aug 2021 01:32:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[阿富汗局勢：塔利班重奪控制權後，中國輿論場如何被反美情緒撕裂]]></title>
             <description><![CDATA[對塔利班的不同態度如何在中國社交媒體上引發了一場「鍵盤戰爭」？塔利班又為何在中國網民中引發分歧？]]></description>
@@ -57,25 +71,11 @@
             <pubDate>Wed, 25 Aug 2021 12:58:15 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[新冠疫情：高盛集團強制其美國員工接種新冠疫苗]]></title>
-            <description><![CDATA[員工、客戶及到訪者均須接種完兩劑新冠疫苗，才能進入這家投資銀行集團的辦公樓。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58330646?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58330646</guid>
-            <pubDate>Wed, 25 Aug 2021 11:15:20 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[東京殘奧會開幕：惡化的新冠危機與意見兩極的城市]]></title>
             <description><![CDATA[「相比起奧運會運動員來說，很多殘奧運動員出現重症的風險更高，所以我們要更加小心。」]]></description>
             <link>https://www.bbc.com/zhongwen/trad/sports-58327993?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/sports-58327993</guid>
             <pubDate>Wed, 25 Aug 2021 09:08:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[阿富汗局勢：撤離期限將至，喀布爾機場焦慮恐慌升級]]></title>
-            <description><![CDATA[喀布爾機場撤離工作進展緩慢之際，掌權的塔利班武裝聲稱不再讓美軍撤離阿富汗人民。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58327933?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58327933</guid>
-            <pubDate>Wed, 25 Aug 2021 09:24:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[美軍基地德特裏克堡為何會成為中國新冠陰謀論的中心？]]></title>
@@ -190,6 +190,20 @@
             <pubDate>Tue, 24 Aug 2021 11:47:05 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[阿富汗局勢：撤離期限將至，喀布爾機場焦慮恐慌升級]]></title>
+            <description><![CDATA[喀布爾機場撤離工作進展緩慢之際，掌權的塔利班武裝聲稱不再讓美軍撤離阿富汗人民。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58327933?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58327933</guid>
+            <pubDate>Wed, 25 Aug 2021 09:24:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新冠疫情：高盛集團強制其美國員工接種新冠疫苗]]></title>
+            <description><![CDATA[員工、客戶及到訪者均須接種完兩劑新冠疫苗，才能進入這家投資銀行集團的辦公樓。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58330646?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58330646</guid>
+            <pubDate>Wed, 25 Aug 2021 11:15:20 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[中國官員首次在香港宣講五年發展規劃]]></title>
             <description><![CDATA[香港官員又首次直接回應人大常委會，暫緩表決把《反外國制裁法》在香港實施，形容有多點時間考慮「是好事」。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58304880?at_medium=RSS&amp;at_campaign=KARANGA</link>
@@ -244,13 +258,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58317033?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58317033</guid>
             <pubDate>Tue, 24 Aug 2021 09:49:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[伯恩斯將被任命為美國駐華大使，曾主張與盟友合作應對中國]]></title>
-            <description><![CDATA[伯恩斯此前接受訪問時曾表示，美中關係對美國來說最具挑戰性，形容兩國競爭不單是貿易和軍事，而是意識形態民主與威權的對抗。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58290500?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58290500</guid>
-            <pubDate>Sat, 21 Aug 2021 08:27:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[美國蘇聯冷戰結束序曲 莫斯科政變「八一九事件」來龍去脈]]></title>
