@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://status.digitalocean.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.digitalocean.com/history.atom"/>
   <title>DigitalOcean Status - Incident History</title>
-  <updated>2021-08-26T21:00:35Z</updated>
+  <updated>2021-08-26T21:15:09Z</updated>
   <author>
     <name>DigitalOcean</name>
   </author>
+  <entry>
+    <id>tag:status.digitalocean.com,2005:Incident/7852531</id>
+    <published>2021-08-26T21:15:09Z</published>
+    <updated>2021-08-26T21:15:09Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/dzgzvy41p10d"/>
+    <title>NYC3 MongoDB Managed Database Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;21:15&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;21:14&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - During the window of 21:15 UTC to 21:45 UTC, our engineering team will be making changes to our MongoDB Managed Databases product in NYC3 to improve performance.&lt;br /&gt;&lt;br /&gt;Expected Impact:&lt;br /&gt;&lt;br /&gt;All create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our NYC3 region will be temporarily disabled during maintenance.&lt;br /&gt;&lt;br /&gt;We do not anticipate any impact for existing MongoDB Managed Databases.&lt;br /&gt;&lt;br /&gt;Do not hesitate to contact support by opening a ticket if you have any additional questions or concerns.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.digitalocean.com,2005:Incident/7852211</id>
     <published>2021-08-26T21:00:34Z</published>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/cxtc1cz4h6q2"/>
     <title>Spaces API Availability in NYC3</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;21:30&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our Engineering team has resolved the issue with Spaces in our NYC3 region. Spaces availability should now be operating normally. If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel. We apologize for any inconvenience.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;18:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our engineering team has implemented a fix for the issue affecting Spaces API availability in our NYC3 region and is monitoring the situation closely. Thank you for your patience, and we will post an update as soon as the issue is fully resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;16:07&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Our engineering team is currently investigating an issue impacting Spaces API availability in our NYC3 region. During this time, some users may experience errors when trying to access or manage their Spaces resources in NYC3. We apologize for the inconvenience and will share an update once we have more information.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:status.digitalocean.com,2005:Incident/7571339</id>
-    <published>2021-07-22T04:35:43Z</published>
-    <updated>2021-07-22T04:35:43Z</updated>
-    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/xgtfjx5kcxv7"/>
-    <title>VPC Connectivity for a subset of Droplets in AMS2</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;22&lt;/var&gt;, &lt;var data-var='time'&gt;04:35&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our Engineering team has resolved the issue with VPC Connectivity in AMS2, and Droplet connectivity across VPC networks should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;22&lt;/var&gt;, &lt;var data-var='time'&gt;04:15&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our Engineering team has implemented a fix to resolve the issue with VPC Connectivity of a subset of Droplets in AMS2 and is monitoring the situation. We will post an update as soon as the issue is fully resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;22&lt;/var&gt;, &lt;var data-var='time'&gt;01:31&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Our Engineering team Identified an issue impacting the VPC of a subset of Droplets in AMS2. At this time, users may experience issues communicating with Droplets across VPC networks. We will provide an update as soon as possible. Thank you for your patience.&lt;/p&gt;</content>
   </entry>
 </feed>
