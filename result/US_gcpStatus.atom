@@ -72,33 +72,5 @@ Login onto each node (or use SSH) to run the following command on the node
 sudo chroot /mnt/boot-disk chage -M 99999 ubuntu&lt;/p&gt;
 &lt;p&gt;Note that if the non admin workstation nodes are not SSHable due to the error, you will have to use the mitigation step for admin workstation.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Kubernetes Engine&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>RESOLVED: Google Cloud Dataflow elevated errors starting new or querying existing dataflow jobs in us-west1, asia-east1, asia-northeast1, and europe-west1.</title>
-    <link href="https://status.cloud.google.com/incidents/vcRkm91DVuWNGWMw9w84" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:vcRkm91DVuWNGWMw9w84.g5f5EkUYYDDFtBZ5xhNC</id>
-    <updated>2021-08-25T18:18:50+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-25 01:37&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-25 04:14&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case using &lt;a href="https://cloud.google.com/support"&gt;https://cloud.google.com/support&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;(All Times US/Pacific)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 25 August 2021 01:37&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 25 August 2021 04:14&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 2 hours, 37 minutes&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Affected Services and Features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Google Cloud Dataflow&lt;/li&gt;
-&lt;li&gt;Dataproc Metastore&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Regions/Zones:&lt;/strong&gt; us-west1, asia-east1, asia-northeast1, europe-west1&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Google Cloud Dataflow experienced elevated errors starting new or querying existing dataflow jobs in us-west1, asia-east1, asia-northeast1, and europe-west1 for a duration of 2 hours and 37 minutes. From preliminary analysis, the root cause of the issue was a misconfiguration triggered by a rollout.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Customer Impact:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;500 errors when launching new dataflow jobs.&lt;/li&gt;
-&lt;li&gt;500 errors querying existing dataflow jobs.&lt;/li&gt;
-&lt;li&gt;The majority of the impact for customers was in us-west1, with 33% of job creation and query traffic reporting errors.&lt;/li&gt;
-&lt;li&gt;Dataproc Metastore uses underlying Dataflow jobs for some features, and thus experienced elevated errors of up to 100% on the following API’s in us-west1 from 01:27 to 03:53; Restore, Import (from SQL, Avro), and Export (to Avro).&lt;/li&gt;
-&lt;li&gt;There was a slight re-occurance in europe-west1 between 06:06 and 08:02 with a peak error rate of 3.5%.&lt;/li&gt;
-&lt;li&gt;Existing jobs continued to progress without issue.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
   </entry>
 </feed>
