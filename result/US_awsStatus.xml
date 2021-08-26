@@ -4,13 +4,29 @@
     <title><![CDATA[Amazon Web Services Service Status]]></title>
     <link>http://status.aws.amazon.com/</link>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Aug 2021 00:05:38 PDT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Aug 2021 10:42:38 PDT</lastBuildDate>
     <generator>AWS Service Health Dashboard RSS Generator</generator>
     <description><![CDATA[Amazon Web Services Service Status]]></description>
     <ttl>5</ttl>
     <!-- You seem to care about knowing about your events, why not check out https://docs.aws.amazon.com/health/latest/ug/getting-started-api.html -->
 
 	 
+	 <item>
+	  <title><![CDATA[Service is operating normally: [RESOLVED] IAM errors and propagation latency]]></title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Thu, 26 Aug 2021 10:39:40 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#iam_1629999580</guid>
+	  <description><![CDATA[Between 6:44 AM and 9:12 AM PDT, customers experienced elevated latency and error rates in response to IAM API requests, as well as delays in describing recently created or modified IAM resources. In addition, between 6:44 AM and 10:02 AM, propagation of IAM API updates was delayed in the ME-SOUTH-1, EU-SOUTH-1, AP-EAST-1, and AF-SOUTH-1 regions, and newly created or recently updated IAM users, credentials, roles, and policies may not have been available for authentication and authorization in those regions. Other AWS Services that rely on IAM changes to provision resources, such as CloudFormation, were also impacted. Authentication and authorization for existing users, credentials, roles, policies were not impacted. The issue has been resolved and the service is operating normally.]]></description>
+	 </item>
+         
+	 <item>
+	  <title><![CDATA[Informational message: [RESOLVED] IAM errors and propagation latency]]></title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Thu, 26 Aug 2021 09:52:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#iam_1629996720</guid>
+	  <description><![CDATA[We are investigating elevated latencies and errors on the IAM APIs. In addition, we are investigating propagation delays for recently created or recently updated IAM users, credentials, roles, policies. Authentication and authorization of existing users, credentials, roles, policies are not impacted. Other AWS services like AWS CloudFormation that use IAM roles were also impacted.]]></description>
+	 </item>
+         
 	 <item>
 	  <title><![CDATA[Service is operating normally: [RESOLVED] Elevated Event Delivery Latency]]></title>
 	  <link>http://status.aws.amazon.com/</link>
@@ -115,23 +131,6 @@
 	  <pubDate>Tue, 17 Aug 2021 04:55:56 PDT</pubDate>
 	  <guid isPermaLink="false">http://status.aws.amazon.com/#ecs-us-east-1_1629201356</guid>
 	  <description><![CDATA[We are investigating increased API error rates in the US-EAST-1 Region.]]></description>
-	 </item>
-         
-	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] DescribeImages API]]></title>
-	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Wed, 11 Aug 2021 11:24:35 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#ec2-us-east-1_1628706275</guid>
-	  <description><![CDATA[We have resolved the issue where the virtualization type is incorrectly set in the DescribeImages API call for the EC2 APIs in the US-EAST-1 Region. Starting at 2:43 AM PDT, some images (AMI) returned the incorrect virtualization type (‘paravirt’ instead of ‘hvm’) in a DescribeImages API call. Since some instance types do not support ‘paravirt’ images, this prevented the EC2 Management Console and some EMR jobs from being able to launch new EC2 instances. As of 11:17 AM PDT, the issue has been fully resolved. Instances launched during this time do not need to be relaunched. The issue has been resolved and the service is operating normally.
-]]></description>
-	 </item>
-         
-	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] DescribeImages API]]></title>
-	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Wed, 11 Aug 2021 11:01:43 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#ec2-us-east-1_1628704903</guid>
-	  <description><![CDATA[We have begun to see recovery for some of the affected images (AMI), which are now returning the correct virtualization type. We expect to see full recovery within the next hour, at which time all operations affected by this issue should be operating normally. We will provide an update once we have fully recovered.]]></description>
 	 </item>
         
   </channel>

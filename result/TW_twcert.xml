@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Mon, 23 Aug 2021 09:32:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[Razer 電競產品驅動程式 0-day 漏洞，只需插入裝置，即可取得 Windows 10 管理權限]]></title><link>http://www.twcert.org.tw/tw/cp-104-5031-1247c-1.html</link><description><![CDATA[<p><strong>資安專家發現電競品牌 Razer 的驅動程式內含嚴重 0-day 資安漏洞，駭侵者只需插入 Razer 品牌的鍵盤或滑鼠，即可輕鬆取得 Windows 10 的系統管理權限。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Thu, 26 Aug 2021 09:50:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[駭侵者假冒 OpenSea 交易所客服人員，竊走求助用戶的加密貨幣與 NFT 收藏]]></title><link>http://www.twcert.org.tw/tw/cp-104-5038-e88bf-1.html</link><description><![CDATA[<p><strong>NFT 交易所 OpenSea 遭駭侵者假冒為其客服人員，藉機竊走求助用戶存於錢包內的加密貨幣與 NFT 收藏。</strong><br />
+<br />
+NFT 交易所 OpenSea 近日遭駭侵者在社群平台 Dischord 上假冒為其客服人員，藉機竊走求助用戶存於錢包內的加密貨幣與 NFT 收藏。<br />
+<br />
+據資安專業媒體 BleepingComputer 報導，最近有不明身分的駭侵者，在 NFT（Non-Fungible Token 非同質性代幣）交易網站 OpenSea 在新興社群網站 Dischord 上設立的討論群組中，假冒為 OpenSea 的客服人員，藉以詐騙竊取求助用戶的加密貨幣與 NFT 收藏品。<br />
+<br />
+駭侵者的詐騙手法，是在 OpenSea 的官方 Dischord 頻道中觀察用戶貼文，一旦發現有用戶提出相關問題，便假冒為 OpenSea 官方客服人員，傳遞私訊給貼文用戶，假稱可以解決用戶在 OpenSea 的各種使用問題。受害者往往會因其親切的「服務態度」等話術而受騙上當。<br />
+<br />
+一旦用戶上鉤，駭侵者就會要求受害者連上假冒的「客服系統」伺服器，並且要求用戶開啟電腦畫面分享權限；用戶照做後，駭侵者就會要求用戶「重新同步」通用加密貨幣錢包軟體 MetaMask 的手機版應用程式與桌面版 Google Chrome 瀏覽器外掛程式，並在畫面上顯示含有 MetaMask 用戶設定錢包復原密語的 QR code 畫面。<br />
+<br />
+駭侵者此時即可擷取該 QR code，利用此 QR Code 取得受害用戶的 MetaMask 錢包控制權，輕鬆竊走受害者存於錢包內的加密貨幣與 NFT 收藏品。<br />
+<br />
+OpenSea 表示獲悉用戶遭詐騙一事，但沒有提供受害金額與受害者人數等資訊；該公司呼籲用戶在求助時，應利用該公司官方網站上提供的客服連絡方式，切勿使用如 Dischord 或 Twitter 等社群平台，以免給予駭侵者可乘之機。</p>]]></description><pubDate>Thu, 26 Aug 2021 09:50:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5038-e88bf-1.html</guid></item><item><title><![CDATA[網路服務商記錄到 HTTP DDoS 攻擊強度新高，達每秒 1,700 萬次連線要求]]></title><link>http://www.twcert.org.tw/tw/cp-104-5037-0b287-1.html</link><description><![CDATA[<p><strong>雲端網路服務商指出，分散式服務阻斷攻擊（DDoS）的強度正在不斷提高；今年記錄到的最高攻擊強度，高達每秒鐘 1,700 萬次連線要求。</strong><br />
+<br />
+雲端網路服務商 Cloudflare 日前發表研究報告，指出分散式服務阻斷攻擊（Distributed Denial of Service, DDoS）的攻擊強度，正在逐年不斷提高；今年記錄到的最高攻擊強度，高達每秒鐘 1,700 萬次連線要求。<br />
+<br />
+Cloudflare 指出，該公司的網路保護系統，稍早記錄到一起全球性的 DDoS 攻擊事件，攻擊規模與強度打破該公司歷年來的觀測記錄；除了攻擊強度高達每秒 1,720 萬次連線要求外，其攻擊次數相較於 Cloudflare 在 2021 年第二季的平均服務能量每秒 2,500 次連線要求，也高達 70%。<br />
+<br />
+Cloudflare 在報告中說，該次攻擊發在生七月，持續不到 1 分鐘，是非常短暫而強烈的攻擊，被攻擊的對象是某家金融產業組織，在短短幾十秒的時間內，遭到了 3 億 3,000 萬次連線要求；其中高達每秒 1,500 萬次以上連線要求的強大攻擊密度維持了 15 秒。<br />
+<br />
+Cloudflare 說，這次駭侵者發動的 DDoS 攻擊，係由一個包括至少 20,000 台裝置的僵屍網路所發動的，其連線要求來自全球各地；以 IP 數量來看，高達 15% 的攻擊連線來自印尼，其次為印度與巴西（合計達 17％），接著是越南、烏克蘭、柬埔寨、泰國、孟加拉、俄羅斯、南非、波蘭、阿根廷、巴基斯坦、墨西哥與其他國家。<br />
+<br />
+Cloudflare 也說，除了這次攻擊外，近期也經常觀察到其他強烈的 DDoS 攻擊，主要目標係針對亞太區的網路接取服務供應商、電信業者、網站託管業者與遊戲廠商。</p>]]></description><pubDate>Thu, 26 Aug 2021 09:48:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5037-0b287-1.html</guid></item><item><title><![CDATA[Razer 電競產品驅動程式 0-day 漏洞，只需插入裝置，即可取得 Windows 10 管理權限]]></title><link>http://www.twcert.org.tw/tw/cp-104-5031-1247c-1.html</link><description><![CDATA[<p><strong>資安專家發現電競品牌 Razer 的驅動程式內含嚴重 0-day 資安漏洞，駭侵者只需插入 Razer 品牌的鍵盤或滑鼠，即可輕鬆取得 Windows 10 的系統管理權限。</strong><br />
 <br />
 資安專家發現電競遊戲控制周邊裝罝品牌 Razer 的 Windows 驅動程式，內含嚴重 0-day 資安漏洞；駭侵者只需插入 Razer 品牌的鍵盤或滑鼠，即可輕鬆取得 Windows 10 的系統管理權限。<br />
 <br />
@@ -70,7 +92,30 @@ BleepingComputer 取得駭侵者的說法，指出該批資料包括用戶使用
 <br />
 而當 BleepingComputer 向 T-Mobile 針對此事進行採訪時，T-Mobile 證實該公司發生了駭侵攻擊事件，也證實該公司所屬的伺服器，確實發生過外界不當存取事件，且有部分資料外洩；但該公司說「目前尚未確認是否有顧客個資遭到竊取」。<br />
 <br />
-T-Mobile 在聲明中說，該公司已經會同專家與司法單位，針對此次資料外洩事件積極展開調查；目前也已經關閉駭侵者攻擊使用的進入點；但該公司也說，在調查行動告一段落之前，無法確認外界宣稱的受影響者人數。</p>]]></description><pubDate>Tue, 17 Aug 2021 08:30:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5017-c33a1-1.html</guid></item><item><title><![CDATA[發生於硬體亂數產生器的嚴重錯誤，將導致數十億台 IoT 裝置面臨資安攻擊風險]]></title><link>http://www.twcert.org.tw/tw/cp-104-5013-83391-1.html</link><description><![CDATA[<p><strong>資安廠商發現普遍應用於 IoT 裝置硬體中的「亂數產生器」存有錯誤，可能因此導致全球數十億台 IoT 裝置面臨嚴重資安攻擊風險。</strong><br />
+T-Mobile 在聲明中說，該公司已經會同專家與司法單位，針對此次資料外洩事件積極展開調查；目前也已經關閉駭侵者攻擊使用的進入點；但該公司也說，在調查行動告一段落之前，無法確認外界宣稱的受影響者人數。</p>]]></description><pubDate>Tue, 17 Aug 2021 08:30:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5017-c33a1-1.html</guid></item><item><title><![CDATA[Ford 汽車內部顧客與員工資料，因系統錯誤而於網上曝光]]></title><link>http://www.twcert.org.tw/tw/cp-104-5036-24abf-1.html</link><description><![CDATA[<p><strong>美國 Ford 汽車公司，由於內部客服管理系統的設定錯誤，造成部分員工與顧客的相關資料在網路上曝光可供存取。</strong><br />
+<br />
+美國 Ford （福特）汽車公司日前發生資料安全控管事件，由於內部客服管理系統的設定錯誤，造成部分員工與顧客的相關資料在網路上曝光，可供有心人士直接存取，甚至取得帳號權限。<br />
+<br />
+資安研究人員在美國 Ford 汽車官方網站中發現一個漏洞，可以經由此漏洞進入 Ford 內部伺服器上執行的 Pega Infinity 顧客互動管理系統內，取得諸如用戶資料庫、員工各項記錄與內部派工單等機敏資訊。<br />
+<br />
+研究人員利用 Pega Infinity 一個錯誤設定的漏洞（CVE-2021-27653），透過 Pega Infinity 的客服人員線上對談控制台，即可利用此漏洞存取 Ford 內部的各種系統與資料庫。<br />
+<br />
+研究人員指出，透過這種方法可以取得相當多個人可識別（Personally Identifiable Information, PII），包括以下項目：</p>
+
+<ul>
+	<li>顧客與員工記錄</li>
+	<li>金融服務帳號</li>
+	<li>資料庫名稱與表格</li>
+	<li>OAuth 存取 token</li>
+	<li>內部支援工單</li>
+	<li>附有組織名稱的用戶檔案</li>
+	<li>內部操作介面</li>
+	<li>搜尋列的搜尋記錄</li>
+</ul>
+
+<p>研究人員指出，這些資料外洩可能會對該公司帶來極大衝擊；有心人士可以利用此漏洞，發動進一步的資安攻擊，例如植入更多惡意軟體，以及取得系統控制權之外，外洩的個人可辨識資料，也可用於進一步的釣魚攻擊。<br />
+<br />
+研究人員說，他們在 2021 年 2 月時就向 Pega 提報該漏洞的存在，也透過 HackerOne 漏洞公開計畫提報給 Ford。</p>]]></description><pubDate>Mon, 16 Aug 2021 09:44:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5036-24abf-1.html</guid></item><item><title><![CDATA[發生於硬體亂數產生器的嚴重錯誤，將導致數十億台 IoT 裝置面臨資安攻擊風險]]></title><link>http://www.twcert.org.tw/tw/cp-104-5013-83391-1.html</link><description><![CDATA[<p><strong>資安廠商發現普遍應用於 IoT 裝置硬體中的「亂數產生器」存有錯誤，可能因此導致全球數十億台 IoT 裝置面臨嚴重資安攻擊風險。</strong><br />
 <br />
 資安廠商 Bishop Fox 旗下的研究人員 Dan Petro 與 Allan Cecil，日前發現普遍應用於 IoT 裝置硬體中的「亂數產生器」（Random Number Generator, RNG）存有嚴重錯誤，可能因此導致全球數十億台 IoT 裝置面臨嚴重資安攻擊風險。<br />
 <br />
@@ -215,42 +260,4 @@ Atlas VPN 的資安專家說，該單位會同獨立研究機構 AV-Test，以�
 <br />
 兩種來自知名資安廠商 ESET 與 Kaspersky 的産品 SET Mobile Security 與 Kaspersky Internet Security for Android，表現也相當優秀，僅有 1 支惡意軟體沒有偵測到，成功率達 96.6%。<br />
 <br />
-有鑑於 Android 平台上的惡意軟體為數眾多，建議 Android 手機用戶務必安裝實際有效的防毒防駭軟體，以降低各種遭到駭侵攻擊的風險。</p>]]></description><pubDate>Tue, 03 Aug 2021 08:55:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4979-96546-1.html</guid></item><item><title><![CDATA[資安專家再次發現 Windows Print Server 嚴重漏洞，任何人均可輕易取得系統權限]]></title><link>http://www.twcert.org.tw/tw/cp-104-4976-ae096-1.html</link><description><![CDATA[<p><strong>雖然日前微軟針對 PrintNightmare 0-day 嚴重漏洞進行修復，但資安專家日前再度發現嚴重漏洞，可透過一個特製的印表機驅動程式，讓任何人輕易取得 Windows 系統權限。</strong><br />
-<br />
-雖然日前微軟針對 PrintNightmare 0-day 嚴重漏洞進行修復，但資安專家日前再度發現與 Windows 列印子系統相關的嚴重資安漏洞；駭侵者可透過一個特製的印表機驅動程式，讓任何人輕易取得 Windows 系統權限。<br />
-<br />
-資安專家 Benjamin Delpy 最近針對 Windows 列印子系統中的多項資安漏洞，陸續發表研究報告；最新的一份報告是可以藉由一個特製的印表機驅動程式，進而提升受限 Windows 用戶的權限至系統權限。<br />
-<br />
-Delpy 展示了一種概念證實攻擊方式。他設置了一個放在網路上的列印服務，任何人都可以點擊該連結，然後在其 Windows 系統上安裝一個特製的印表機驅動程式；該驅動程式執行後，會觸發一個漏洞，自動以系統權限執行一個 DLL 檔；該 DLL 即可用系統權限於 C:\Windows\System32 寫入一個必須擁有系統權限才能寫入的 log 檔。<br />
-<br />
-之後 Delpy 稍稍修改該 DLL，只要安裝他提供的特製印表機驅動程式，即可執行該DLL，並且以系統權限叫出命令列輸入行；因此任何人都可以透過這個漏洞，直接取得系統權限並執行任意程式碼。<br />
-<br />
-資安媒體 BleepingComputer 測試該特製的印表機驅動程式時，發現該 DLL 可以關閉 Windows 内建資安防護軟體 Windows Defender，因此能順利提升執行權限。<br />
-<br />
-資安專家建議 Windows 用戶，在微軟針對此問題推出資安修補程式前，可暫時停止 Windows Print Spooler 的運作，或是在防火牆上設定，阻擋來自外部的 SMB 與 RPC 連線要求；也可以在 Windows Server 上設定 PackagePointAndPrintServerList 的群組原則，只允許擁有 admin 權限的用戶安裝印表機驅動程式。</p>]]></description><pubDate>Mon, 02 Aug 2021 09:08:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4976-ae096-1.html</guid></item><item><title><![CDATA[美國國家安全局提供遠距工作者無線設備資安防護指南]]></title><link>http://www.twcert.org.tw/tw/cp-104-4968-5fb2e-1.html</link><description><![CDATA[<p><strong>美國國家安全局於 2021 年 7 月 29 日發表最新的資安指南，針對遠距工作情境下各種無線連線裝置的使用，提供多個防範資安攻擊破壞的安全使用指引。</strong><br />
-<br />
-美國國家安全局（National Security Agency，NSA）於 2021 年 7 月 29 日，發表最新的資安指南；該指南針對遠距工作情境下各種無線連線裝置的使用，提供多個防範資安攻擊破壞的安全使用指引。<br />
-<br />
-該局提供的指引，主要是提供給美國政府旗下如國家安全系統（National Security System）、國防部（Department of Defense）、國防工業與技術基礎（Defense Industry Base）等單位的遠距工作者遵循之用，但也適用於所有官方與民間單位的遠距工作者。<br />
-<br />
-NSA 在指南中指出，駭侵者可以透過藍牙、公眾 Wi-Fi 無線網路、近場通訊（NFC）等方式攻擊各類資訊裝置，造成個人與組織資料、登入資訊與裝置的危害。<br />
-<br />
-該指南要求遠距工作者如有可能，避免連線到任何公眾 Wi-Fi 無線網路，應盡量以企業組織或個人的 Wi-Fi 連線進行加密安全連線，以提高連線安全性；必須使用公眾 Wi-Fi 網路時，特別不需要密碼即可連線的無限制網路時，更應提高警覺。<br />
-<br />
-NSA 指出，即使是需要密碼才能使用的公眾 Wi-Fi 無線網路，其資料傳輸也未必經過加密，且駭客很可能握有解密用的金鑰；因此在使用公眾 Wi-Fi 連線時，最好使用公私單位或個人的 VPN 連線，進一步對傳輸資料進行加密，以提高安全性。<br />
-<br />
-此外，裝置上開放的藍牙連線與 NFC 近場傳輸功能，也有可能遭不肖人士用於駭入裝置並竊取資訊，遠距工作者也應特別注意不明裝置的連線要求。<br />
-<br />
-NSA 在指南中建議用戶，應保持裝置上作業系統與各種軟體更新至最新版本、使用有效的防毒防駭軟體，並在各項服務上使用多階段登入驗證；如果是經常必須連線到無法信任的網路服務（特別是行動裝置），應該經常重新開機。</p>]]></description><pubDate>Fri, 30 Jul 2021 09:42:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4968-5fb2e-1.html</guid></item><item><title><![CDATA[新發現 Android 惡意軟體 Vultur，會透過 VNC 遠端遙控協定竊取用戶密碼]]></title><link>http://www.twcert.org.tw/tw/cp-104-4966-3fb77-1.html</link><description><![CDATA[<p><strong>資安專家發現一個全新的 Android 惡意軟體，會透過可遠端進行遙控操作的 VNC 協定，記錄用戶在手機上的一切操作，同時竊取鍵盤輸入字元與密碼。</strong><br />
-<br />
-荷蘭資安廠商 ThreatFabric 旗下的資安專家，日前發現一個全新的 Android 惡意軟體 Vultur，會透過可遠端進行遙控操作的 VNC 協定，記錄用戶在手機上的一切操作，同時竊取鍵盤輸入字元與密碼。<br />
-<br />
-Vultur 最早是於 2021 年 3 月時被 ThreatFabric 的資安專家觀察到其活動。ThreatFabric 在報告中說，Vultur 變種自其他 Android 惡意軟體；原先的惡意軟體會在用戶開啟其他正常軟體進行登入時，覆蓋一層假冒的登入頁面，藉以騙取用戶輸入的帳號與密碼。<br />
-<br />
-Vultur 的作法則有所有不同。它會在受感染的 Android 手機上開啟一個 VNC 伺服器，並於背景執行；由於 VNC 原本的功能，就是將電腦設備的畫面傳到另一台電腦上，並使用另一台電腦進行遠端遙控，因此感染 Vultur 的手機，其操作畫面就會被傳送到駭侵者設立的控制伺服器錄製下來，Vultur 幕後的駭侵者即可取得各種 app 的登入帳號與密碼。<br />
-<br />
-據 ThreatFabric 的分析，目前遭到 Vultur 感染的 Android 手機，多為先前遭到另一支惡意軟體 Brunhilda malware 感染的受害者；Brunhilda malware 過去曾出現在 Google Play Store 軟體商店中若干 app 之中，其功能之一就是「酬載」其它的惡意軟體程式碼。<br />
-<br />
-用戶的 Android 裝置若是感染 Vultur，Vultur 會試圖欺騙用戶給予完整的手機控制權限；一旦成功，Vultur 即可取得完整的手機控制權。另外，當用戶想要移除内含 Vultur 惡意程式碼的 app 時，Vultur 會自動按下「回上頁」按鈕。<br />
-<br />
-用戶如果在 Android 的通知面板中看到一個執行中的螢幕分享程式，名為「Protection Guard」的話，就是遭到 Vultur 的感染；另外，Vultur 也會在受害者的手機中，透過 VNC 遠端遙控功能，安裝更多惡意軟體。</p>]]></description><pubDate>Fri, 30 Jul 2021 09:39:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4966-3fb77-1.html</guid></item></channel></rss>
+有鑑於 Android 平台上的惡意軟體為數眾多，建議 Android 手機用戶務必安裝實際有效的防毒防駭軟體，以降低各種遭到駭侵攻擊的風險。</p>]]></description><pubDate>Tue, 03 Aug 2021 08:55:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4979-96546-1.html</guid></item></channel></rss>

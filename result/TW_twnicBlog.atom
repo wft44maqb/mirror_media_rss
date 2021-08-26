@@ -7,7 +7,7 @@
 	<title type="text">財團法人台灣網路資訊中心部落格 | TWNIC Blog</title>
 	<subtitle type="text">悠遊寰宇、在地識別</subtitle>
 
-	<updated>2021-08-25T04:08:58Z</updated>
+	<updated>2021-08-26T04:31:07Z</updated>
 
 	<link rel="alternate" type="text/html" href="https://blog.twnic.tw" />
 	<id>https://blog.twnic.tw/feed/atom/</id>
@@ -16,6 +16,42 @@
 	<generator uri="https://wordpress.org/" version="5.6.4">WordPress</generator>
 <icon>https://blog.twnic.tw/wp-content/uploads/2020/04/cropped-favicon-2-32x32.png</icon>
 	<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[CENTR發布2021第一季全球TLD報告]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/26/19550/" />
+
+		<id>https://blog.twnic.tw/?p=19550</id>
+		<updated>2021-08-18T00:00:55Z</updated>
+		<published>2021-08-26T01:45:41Z</published>
+		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="2021第一季TLD報告" /><category scheme="https://blog.twnic.tw" term="CENTR" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0802-0806_CENTR發布2021第一季全球TLD報告-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>歐洲國家頂級域名註冊管理機構委員會（CENTR）發布2021年第一季《全球頂級域名統計報告》，介紹歐洲國碼頂級域名（ccTLD）及全球市場的域名註冊統計資料與趨勢。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/26/19550/">CENTR發布2021第一季全球TLD報告</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/08/26/19550/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0802-0806_CENTR發布2021第一季全球TLD報告-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">歐洲國家頂級域名註冊管理機構委員會（Council of European National Top-Level Domain Registries，CENTR）發布今（2021）年第一季《全球頂級域名統計報告》（CENTRstats Global TLD report），介紹歐洲國碼頂級域名（European country-code Top Level Domain，ccTLDs）及全球市場的域名註冊統計資料與趨勢。</span></p>
+<p><span style="font-weight: 400;">根據報告資料，相較於去年第一季，今年的ccTLD中位數成長4.9%，且域名的購買需求持續成長。報告內容包括域名定價、域名使用方式、成長驅力及市占率等項目，域名註冊情形及趨勢的重點如下：</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">域名的購買需求在2021年第一季持續成長；域名到期／移除率則維持穩定。</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">歐洲ccTLD（僅統計CENTR成員國）的成交價中位數為10歐元（含稅及促銷價），續約價為14歐元（含稅）。2021年4月所記錄的促銷價中位數為6.1歐元（含稅）。</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">25%的ccTLD無法連線或內容無效（例如 HTTP／DNS 錯誤、閘道逾時等），另有16%為閒置域名。</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">在所有歐盟國家中，ccTLD市占率在當地註冊域名中穩定維持54%的中位數，在熱門網站中，ccTLD的市占率則為35%（較去年第一季度成長2%）。</span></li>
+</ul>
+<p><span style="font-weight: 400;">若想閱讀完整報告，可點此</span><a href="https://stats.centr.org/stats/global" target="_blank" rel="noopener"><span style="font-weight: 400;">連結</span></a><span style="font-weight: 400;">。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">CircleID (2021). </span><span style="font-weight: 400;">CENTR Publishes the CENTRstats Global TLD Report for Q1 2021</span><span style="font-weight: 400;">. CircleID.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://www.circleid.com/posts/20210702-centr-publishes-the-centrstats-global-tld-report-for-q1-2021/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.circleid.com/posts/20210702-centr-publishes-the-centrstats-global-tld-report-for-q1-2021/</span></a><span style="font-weight: 400;"> (Jul. 30, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/26/19550/">CENTR發布2021第一季全球TLD報告</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/26/19550/#comments" thr:count="0"/>
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/26/19550/feed/atom/" thr:count="0"/>
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
 		<author>
 			<name>國際瞭望</name>
 					</author>
@@ -149,7 +185,7 @@
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/19/19676/" />
 
 		<id>https://blog.twnic.tw/?p=19676</id>
-		<updated>2021-08-20T05:37:19Z</updated>
+		<updated>2021-08-26T04:31:07Z</updated>
 		<published>2021-08-19T03:46:00Z</published>
 		<category scheme="https://blog.twnic.tw" term="最新消息" /><category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="IGF" /><category scheme="https://blog.twnic.tw" term="網路治理" />
 		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/yIGF-2021--300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>2021亞太青年網路治理論壇將在2021年9月17-20日舉辦，採線上會議模式進行，歡迎18-30歲，對網路治理議題有興趣的大學、研究所及專業青年報名參加。</p>
@@ -228,8 +264,7 @@
 						<div class="elementor-element elementor-element-e5d11c9 elementor-widget elementor-widget-text-editor" data-id="e5d11c9" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 								<div class="elementor-text-editor elementor-clearfix">
-				<p>2021亞太網路青年論壇是由NetMission.Asia所組織的活動，每年與亞太網路治理論壇合作舉辦，提升青年對網路治理議題的關注與認知，並鼓勵對議題的討論。基於聯合國網路治理論壇（Internet Governance Forum）鼓勵多方利害關係人平等參與的基礎上，亞太青年網路論壇提供了年輕世代在網路治理議上自由表達與交換意見、想法的平台。</p>
-<p>今年亞太<span style="font-size: 18px; font-style: normal; font-weight: 400; color: var( --e-global-color-text );">青年網路論壇將會以四天的線上會議模式與一系列的線上社交會面進行，與會者將可與其他來自亞太地區的青年、專業人士與資深講者一同討論目前熱門的網路治理議題。</span></p>					</div>
+				<p><span style="font-size: 14pt;">2021亞太青年網路治理論壇是由NetMission.Asia所組織的活動，每年與亞太網路治理論壇合作舉辦，提升青年對網路治理議題的關注與認知，並鼓勵對議題的討論。基於聯合國網路治理論壇（Internet Governance Forum）鼓勵多方利害關係人平等參與的基礎上，亞太青年網路治理論壇提供了年輕世代在網路治理議上自由表達與交換意見、想法的平台。</span></p><p><span style="font-size: 14pt;">今年亞太青年網路治理論壇<span style="font-style: normal; font-weight: 400; color: var( --e-global-color-text );">將會以四天的線上會議模式與一系列的線上社交會面進行，與會者將可與其他來自亞太地區的青年、專業人士與資深講者一同討論目前熱門的網路治理議題。</span></span></p>					</div>
 						</div>
 				</div>
 						</div>
@@ -2517,37 +2552,6 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 		
 					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/07/22/19194/#comments" thr:count="0"/>
 			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/07/22/19194/feed/atom/" thr:count="0"/>
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[9成的健康app會收集使用者資料]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/07/21/19190/" />
-
-		<id>https://blog.twnic.tw/?p=19190</id>
-		<updated>2021-07-02T00:55:25Z</updated>
-		<published>2021-07-21T00:53:20Z</published>
-		<category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="個人資料" /><category scheme="https://blog.twnic.tw" term="個人隱私" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/9成的健康app會收集使用者資料-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>一篇發表於《英國醫學期刊》（British Medical Journal）的研究指出，9成的健康app會蒐集與追蹤用戶個資，部分app甚至會跨平臺追蹤。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/21/19190/">9成的健康app會收集使用者資料</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/07/21/19190/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/9成的健康app會收集使用者資料-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>一篇發表於《英國醫學期刊》（British Medical Journal）的研究指出，9成的健康app會蒐集與追蹤用戶個資。該研究深入分析Google Play平臺中2萬多款健康app，發現包括許多用於計算步數及卡路里攝取量、管理健康狀況、檢查病症與追蹤月經週期的應用程式，都會要求用戶揭露敏感健康資訊。</p>
-<p>澳洲麥考瑞大學網路安全中心（Macquarie University Cyber Security Hub）講師Muhammad Ikram表示，88%的健康app使用追蹤識別碼及網路cookie追蹤用戶，其中部分app甚至會跨平臺追蹤。此外，28%的app並未於Google Play平臺中提供隱私聲明，以明示其所蒐集的個資項目，此舉已違反Google Play服務條款。</p>
-<p>研究指出，在所有app中，約莫66%可蒐集用戶的廣告識別碼或cookie；33%可蒐集用戶的電郵地址；25%可識別連接至用戶手機的基地臺，用戶所在位置資訊可能因此流出。僅有4%將資料（通常是用戶姓名及所在位置資訊）傳輸給第三方。</p>
-<p>Ikram表示，部分資訊蒐集未經用戶同意，其由第三方（如廣告商及追蹤公司）所完成，目的為追蹤與分析。針對上述情況，Google發言人回應表示，app開發商若須使用用戶個資，須事先經過其同意，若Google發現違規行徑，將採取相關行動。</p>
-<p>即使研究已證明大量app以不當手段取得用戶個資，但研究員發現，在所有用戶評論中，僅有1.3%提出對隱私的擔憂。Ikram表示，用戶應避免安裝未附上隱私政策連結的app，且用戶還應了解這些app如何共享資料，以及其共享資料之對象，這樣用戶才能大致了解有哪些隱私風險存在。</p>
-<p>相關連結：</p>
-<p>Soofia Tariq(2021). Nine out of 10 health apps harvest user data, global study shows. The Guardian.</p>
-<p>檢自：<a href="https://www.theguardian.com/technology/2021/jun/17/nine-out-of-10-health-apps-harvest-user-data-global-study-shows">https://www.theguardian.com/technology/2021/jun/17/nine-out-of-10-health-apps-harvest-user-data-global-study-shows</a>(Jun. 25, 2021)</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/21/19190/">9成的健康app會收集使用者資料</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/07/21/19190/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/07/21/19190/feed/atom/" thr:count="0"/>
 			<thr:total>0</thr:total>
 			</entry>
 	</feed>

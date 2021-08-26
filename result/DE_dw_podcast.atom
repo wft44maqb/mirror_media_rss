@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-08-26T01:52:22Z</updated>
+ <updated>2021-08-26T18:18:11Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,17 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58981726</id>
+  <title><![CDATA[飙轮椅展翅高飞]]></title>
+  <updated>2021-08-26T13:46:00Z</updated>
+  <published>2021-08-26T13:46:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/飙轮椅展翅高飞/av-58981726?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[天生残疾的Alhassane Baldé能操控轮椅飙出惊人时速40公里的惊人速度。他的目标是在东京残奥会上夺下奖牌。]]></summary>
+  <category term="足坛体坛"/>
+  <link rel="enclosure" type="video/mp4" length="17703870" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210825_001_wheelchair_01r_sd.mp4" title="飙轮椅展翅高飞"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58969470</id>
   <title><![CDATA[叙利亚难民出战东京残奥]]></title>
@@ -332,16 +343,5 @@
   <summary><![CDATA[同领导意见不一时，怎么跟他说？会不会被炒了鱿鱼？现在告你几个招数。]]></summary>
   <category term="文化经纬"/>
   <link rel="enclosure" type="video/mp4" length="16099714" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210715_002_leader_01r_sd.mp4" title="怎样对领导说真话？"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58254250</id>
-  <title><![CDATA[腐败是怎样产生的？]]></title>
-  <updated>2021-07-17T09:09:00Z</updated>
-  <published>2021-07-17T09:09:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/腐败是怎样产生的？/av-58254250?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[大概从有人起，就有腐败了。然而究竟什么是腐败？又该如何对抗腐败呢？]]></summary>
-  <category term="文化经纬"/>
-  <link rel="enclosure" type="video/mp4" length="12676084" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210713_001_6800dkorruption_sd.mp4" title="腐败是怎样产生的？"/>
  </entry>
 </feed>
