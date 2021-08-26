@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://status.digitalocean.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.digitalocean.com/history.atom"/>
   <title>DigitalOcean Status - Incident History</title>
-  <updated>2021-08-26T00:23:42Z</updated>
+  <updated>2021-08-26T20:17:50Z</updated>
   <author>
     <name>DigitalOcean</name>
   </author>
+  <entry>
+    <id>tag:status.digitalocean.com,2005:Incident/7852211</id>
+    <published>2021-08-26T20:30:00Z</published>
+    <updated>2021-08-26T20:17:50Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/z6v9gg0zvf5n"/>
+    <title>AMS3 MongoDB Managed Database Maintenance</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;20:30&lt;/var&gt; - &lt;var data-var='time'&gt;21:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;26&lt;/var&gt;, &lt;var data-var='time'&gt;20:17&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - During the window of 20:30 UTC to 21:00 UTC, our engineering team will be making changes to our MongoDB Managed Databases product in AMS3 to improve performance.&lt;br /&gt;&lt;br /&gt;Expected Impact:&lt;br /&gt;&lt;br /&gt;All create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our AMS3 region will be temporarily disabled during maintenance.&lt;br /&gt;&lt;br /&gt;We do not anticipate any impact for existing MongoDB Managed Databases.&lt;br /&gt;&lt;br /&gt;Do not hesitate to contact support by opening a ticket if you have any additional questions or concerns.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.digitalocean.com,2005:Incident/7844255</id>
     <published>2021-08-25T23:50:29Z</published>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/16yk4xjwgnc4"/>
     <title>Networking maintenance in SFO1</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;21&lt;/var&gt;, &lt;var data-var='time'&gt;12:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;21&lt;/var&gt;, &lt;var data-var='time'&gt;08:01&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;21&lt;/var&gt;, &lt;var data-var='time'&gt;07:23&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - During the above window, the networking team will be making changes to our core networking equipment to improve performance and support future functionality in the SFO1 region.&lt;br /&gt;&lt;br /&gt;Expected Impact:&lt;br /&gt;&lt;br /&gt;All resource management events in SFO1 will be temporarily disabled during maintenance. &lt;br /&gt;&lt;br /&gt;We do not anticipate an impact to connectivity for existing Droplets, on either public or private networks, however, you will not be able to perform management events such as power cycle, snapshot, or destroys for the duration of events being disabled.&lt;br /&gt;&lt;br /&gt;Do not hesitate to contact support if you have any additional questions or concerns; you may do so by opening a ticket or replying to this email.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:status.digitalocean.com,2005:Incident/7559347</id>
-    <published>2021-07-20T20:59:15Z</published>
-    <updated>2021-07-20T20:59:16Z</updated>
-    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/811xq1fgvmww"/>
-    <title>Cloud Control Panel</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;20:59&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our Engineering team has resolved the issue impacting Cloud Control Panel and all services should now be functioning normally. Thank you for your patience throughout this process. If you experience any further issues at all, please open a ticket with our Support team.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;20&lt;/var&gt;, &lt;var data-var='time'&gt;20:02&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our Engineering team is currently monitoring an issue impacting Cloud Control Panel functionality. Between approximately 18:30 UTC and 19:30 UTC today, some users may have experienced errors or blank pages in the Cloud Control Panel, particularly when trying to view or deploy apps via App Platform. A fix has already been implemented, and we will continue to monitor the situation closely. We apologize for the inconvenience and will share another update once the matter is fully resolved.&lt;/p&gt;</content>
   </entry>
 </feed>
