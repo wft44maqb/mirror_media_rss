@@ -6,6 +6,38 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>GitLab 14.2開放測試macOS版建置雲，並可即時預覽Markdown輸出</title>
+    <link>https://www.ithome.com.tw/news/146414</link>
+    <description> 新發布的GitLab14.2，更新了不少好用的新功能，像是現在開發者可以在macOS用到建置雲（Build Cloud）。原本GitLab SaaS上Apple生態系開發人員，需要在自己的macOS系統上安裝GitLab Runner，來執行CI/CD工作流程。</description>
+     <pubDate>2021-08-27  10:08:45</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146414</guid>
+  </item>
+  <item>
+    <title>Google機器學習平臺Vertex AI現提供低延遲高安全性的私有端點</title>
+    <link>https://www.ithome.com.tw/news/146415</link>
+    <description> Google宣布在其機器學習平臺Vertex AI上提供私有端點（Private Endpoints），這是Vertex Predictions中的一項新功能，藉由VPC對等連接，用戶可以配置專用的連接與端點通訊，因此用戶的資料就不需要經過網際網路，不只提高安全性，也可以降低線上預測的延遲。</description>
+     <pubDate>2021-08-27  09:08:35</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146415</guid>
+  </item>
+  <item>
+    <title>Cloud周報第118期：英國大型汽車經銷商要將關鍵SAP系統上公雲，國際太空站測試靠邊緣雲端運算監測太空人健康</title>
+    <link>https://www.ithome.com.tw/news/146413</link>
+    <description> 重點新聞（2021/08/19～2021/08/25）</description>
+     <pubDate>2021-08-27  09:08:16</pubDate>
+ <dc:creator>黃郁芸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146413</guid>
+  </item>
+  <item>
+    <title>研究：川普因虛假訊息遭推特限制互動的推文，反在臉書、Reddit大量傳播</title>
+    <link>https://www.ithome.com.tw/news/146411</link>
+    <description> 推特在最近美國總統大選時，使用兩種策略干預Donald Trump（川普）存在錯誤資訊的推文，其一是加上錯誤資訊標籤的軟干預，其二是阻止用戶與該推文互動的硬干預，但是研究發現，與推特沒有干預的推文相比，無論使用哪一種干預手段，都會增加這些推文的傳播，研究人員提到，平臺需要從生態系統層面來考慮內容審核的方法。</description>
+     <pubDate>2021-08-27  09:08:02</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146411</guid>
+  </item>
+  <item>
     <title>AI趨勢周報第175期：為何20分鐘的對話時間，是今年Amazon對話式AI挑戰賽最大亮點？</title>
     <link>https://www.ithome.com.tw/news/146407</link>
     <description> 重點新聞(0820～0826)</description>
@@ -228,40 +260,6 @@
      <pubDate>2021-08-25  01:08:21</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146373</guid>
-  </item>
-  <item>
-    <title>有人假冒蘋果客戶支援騙走數千iCloud帳號</title>
-    <link>https://www.ithome.com.tw/news/146372</link>
-    <description> 美國佛羅里達州的檢察官日前起訴了40歲的Hao Kuo Chi，因為Chi假冒為蘋果的客戶支援部門，去信要求受害者提供iCloud憑證，成功騙走了4,700名iCloud用戶的憑證，並擅自進入306個iCloud帳號，盜取這些帳號的照片及影片。受害者絕大多數是年輕女性，被盜走的內容則多半是清涼照。</description>
-     <pubDate>2021-08-25  12:08:01</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146372</guid>
-  </item>
-  <item>
-    <title>小米產品品牌將改採Xiaomi、Redmi雙軌</title>
-    <link>https://www.ithome.com.tw/news/146371</link>
-    <description> 小米本周公告從2021年第3季開始，將改用Xiaomi取代mi作為產品品牌，採行小米、紅米（Redmi）的雙品牌策略。Mi則轉為純母公司品牌。
-本周XDA Developer率先報導此事，隨後小米發出官方聲明。</description>
-     <pubDate>2021-08-25  11:08:05</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146371</guid>
-  </item>
-  <item>
-    <title>臉書正在測試以Facebook App啟動語音通話、視訊的功能</title>
-    <link>https://www.ithome.com.tw/news/146370</link>
-    <description> 彭博報導，社群龍頭臉書正挑選部份用戶測試以臉書原本的Facebook App啟動視訊或語音通話的功能，而不需啟動Messenger。
-臉書Messenger產品管理總監Connor Hayes指出，這項測試正在包括美國及其他地區展開，目的在減少用戶在主要的Facebook App及Messenger之間，來回切換的麻煩。</description>
-     <pubDate>2021-08-25  11:08:53</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146370</guid>
-  </item>
-  <item>
-    <title>Google服務網格控制平面Traffic Director，現可簡單配置gRPC服務間的安全通訊</title>
-    <link>https://www.ithome.com.tw/news/146369</link>
-    <description> Google更新gRPC無代理服務，解決微服務間通訊的安全痛點，開發者透過Traffic Director控制平面，就夠簡單配置gRPC服務，以TLS/mTLS建立服務之間的安全通訊。</description>
-     <pubDate>2021-08-25  10:08:26</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146369</guid>
   </item>
   </channel>
 </rss>
