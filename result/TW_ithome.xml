@@ -6,6 +6,25 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>駭客重金誘惑，內部員工也必須零信任</title>
+ <link>https://www.ithome.com.tw/voice/146434</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在8月底威力彩開獎前夕，由於頭獎上看27億元，引發全國熱議，因為疫情當前，許多自認在經濟上亟需紓困的民眾，自然很希望自己就是幸運得主，但這樣的現象，也不免讓人擔心是否會出現不惜代價、鋌而走險的行為，例如出賣企業或組織的機密資料，來換取金錢的狀況。&lt;/p&gt;
+&lt;p&gt;過往這類被歸類為商業間諜的行為，可能都有其針對的目標單位，例如重要的政府機構、部門，或是大型企業，但若是執行門檻更低、分紅金額誘人，再加上眼下疫情難緩解而衍生各種經濟危機，極有可能會讓一些員工動搖，而去做攻擊者的內應。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146295&quot; target=&quot;_blank&quot;&gt;在我們的技術編輯周峻佑最近編譯的一篇資安新聞&lt;/a&gt;，就呈現了這樣的現象。對方是發動勒索軟體攻擊的駭客，對公司員工寄出電子郵件，以勒索贖金分紅的4成（相當於100萬美元、約新台幣2800萬元）試圖利誘，希望有權存取特定伺服器的使用者，能協助他們在公司的系統當中執行惡意軟體，以便進行植入與散播，之後也透過加密即時通訊軟體，向有意了解者說明合作方式。&lt;/p&gt;
+&lt;p&gt;這類事件的真實度應該很高，因為也很吻合現在的全球工作者態度，應該會促使企業重新思考現行的資安防護政策，能否因應這種疫情下必須正視的另一種潛在資安風險：內部威脅（Insider Threat）。&lt;/p&gt;
+&lt;p&gt;過往企業面對這類資安威脅時，總以為攻擊者的身分不外乎下列幾種：外部敵對人士、競爭廠商、被上述對象所收買的公司員工、對公司不滿的員工，至於資安意識不足的員工、粗心大意的員工，大多會予以教育訓練與訓斥規範的方式，提升人員的資安認知。但利字當頭，面對這種不請自來的勸誘電子郵件，一家企業、一個組織的眾多從業人員當中，只要有一個心動且配合行動者，企業極有可能陷入嚴重的資安危機。&lt;/p&gt;
+&lt;p&gt;而這筆利誘的金額數字之高，也讓我們相當擔憂後續是否會有人仿效。想想看，與其奪得彩券大獎的機率相比，若與駭客勾搭，神不知鬼不覺（自以為），若能趁機大撈一筆，或許可能擺脫低薪、背負沈重經濟負擔的困境，至於日後被逮住的後果是否嚴重，有些急於發財、翻身者，或許也顧不得了。&lt;/p&gt;
+&lt;p&gt;另一個比較也是相當不堪的。可能有不少企業或組織的資安預算、甚至IT預算、人事預算，是低於這筆錢，如果駭客願意「讓利」，改對使用者祭出銀彈攻勢，我們該從哪些層面來鞏固防禦呢？&lt;/p&gt;
+&lt;p&gt;從技術的角度來看，上述事件勾勒了可行性相當高的攻擊場景：對方以各種迂迴方式跨過實體與網路邊界管制時，能使惡意軟體直接執行在公司的伺服器、存在於內部網路時，我們必須自問：現行的資安配置能否擋住察覺這種「內應」？而從人員管理的角度來審視，公司薪資、工作安排必須要設法合理化，但員工真的知道這類裡應外合的後果有多嚴重嗎？除了被免職，企業平時對於相關的法律責任，平時是否也必須宣導呢？&lt;/p&gt;
+&lt;p&gt;就戰略而言，面對這類收買手法，也不禁讓人佩服過往十分看重利益的駭客，居然也能採取「拿得起、放得下」的態度，願意放下部分收入，來提高植入與滲透的機率。&lt;/p&gt;
+&lt;p&gt;或許就如同遊戲仙劍奇俠傳的招式「乾坤一擲」，除了攻防雙方的技術交鋒，透過耗費大量金錢而對敵人造成巨大傷害，的確也是一種戰略，那麼，你該怎麼接招？顯然，對內部人員實施零信任資安架構，將是企業與組織必備的自保之道。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E8%B3%87%E5%AE%89&quot;&gt;資安&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E5%8B%92%E7%B4%A2%E8%BB%9F%E9%AB%94&quot;&gt;勒索軟體&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B6%E4%BF%A1%E4%BB%BB&quot;&gt;零信任&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/zero-trust&quot;&gt;Zero Trust&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 12:52:27 +0000</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="false">146434 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/voice/146434#comments</comments>
+</item>
+<item>
  <title>Visual Studio在Windows Store上架</title>
  <link>https://www.ithome.com.tw/news/146433</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://twitter.com/shanselman/status/1430368056539115520&quot; target=&quot;_blank&quot;&gt;微軟本周宣布Visual Studio工具&lt;/a&gt;，包括Visual Studio Community 2019及Visual Studio Code，已在Windows 11適用的新版Windows Store軟體市集上架。&lt;/p&gt;
@@ -150,25 +169,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146425 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146425#comments</comments>
-</item>
-<item>
- <title>微軟Azure資料庫服務Cosmos DB含有安全漏洞，將外洩客戶的主要金鑰與存取令牌</title>
- <link>https://www.ithome.com.tw/news/146423</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;專門提供雲端安全服務的資安業者Wiz周四（8/26）揭露，微&lt;a href=&quot;https://www.wiz.io/blog/chaosdb-how-we-hacked-thousands-of-azure-customers-databases&quot; target=&quot;_blank&quot;&gt;軟Azure的Cosmos DB非關聯式資料庫服務含有一系列的安全漏洞&lt;/a&gt;，將允許任何使用者下載、刪除或操控用戶的商業資料庫，或是存取Cosmos DB的底層架構。被Wiz統稱為ChaosDB的漏洞已存在兩年之久，波及Fortune 500排行榜上的許多大型企業，諸如可口可樂、Exxon-Mobil與Citrix等。&lt;/p&gt;
-&lt;p&gt;根據Wiz的說明，微軟是在2019年時於Cosmos DB新增了一項Jupyter Notebook功能，可讓客戶視覺化資料庫並建立客製化的視覺檢視畫面，最初客戶必須手動啟用Jupyter Notebook，但該功能在今年2月成為Cosmos DB的預設值。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://assets-global.website-files.com/60c0e55050c1de1d98a2cccb/61281ec6e8fda297e9a217f5_Blog%20image%20-%20chaos%20cosmos.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Wiz&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;然而，Wiz團隊卻發現Jupyter Notebook含有一系列的錯誤配置，其容器含有一個權限擴張漏洞，得以進入其它客戶的Jupyter Notebook，並取得該客戶的主要金鑰與Notebook存取令牌等機密資訊。在掌握了上述機密資訊之後，駭客就能長期存取受害Cosmos DB帳號的所有資料，還具備完整的讀、寫與刪除權限。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://assets-global.website-files.com/60c0e55050c1de1d98a2cccb/61281edb4af1d4222d99362d_Blog%20image%20-%20chaos%20step%201.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;圖片來源_Wiz&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Wiz團隊表示，在他們向微軟通報之後，微軟於48小時內就關閉了Jupyter Notebook功能，是他們所見過的反應最快的安全團隊。此外，微軟也在周四通知了逾30%的Cosmos DB客戶，要求它們手動輪替存取金鑰以降低風險。&lt;/p&gt;
-&lt;p&gt;微軟只知會了在Wiz研究期間（約一周）受到波及的客戶，然而，Wiz團隊相信，過去曾啟用Jupyter Notebook服務，或是今年2月之後才建立Cosmos DB帳號的用戶，都可能受到ChaosDB漏洞的波及，呼籲它們都應採取保護措施，輪替存取金鑰。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.reuters.com/technology/exclusive-microsoft-warns-thousands-cloud-customers-exposed-databases-emails-2021-08-26/&quot; target=&quot;_blank&quot;&gt;根據路透社的報導&lt;/a&gt;，微軟已坦承相關漏洞的存在，也將支付4萬美元的抓漏獎金予Wiz。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 27 Aug 2021 07:35:58 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146423 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146423#comments</comments>
 </item>
 </channel>
 </rss>
