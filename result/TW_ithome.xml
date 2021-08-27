@@ -6,6 +6,23 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Visual Studio在Windows Store上架</title>
+ <link>https://www.ithome.com.tw/news/146433</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://twitter.com/shanselman/status/1430368056539115520&quot; target=&quot;_blank&quot;&gt;微軟本周宣布Visual Studio工具&lt;/a&gt;，包括Visual Studio Community 2019及Visual Studio Code，已在Windows 11適用的新版Windows Store軟體市集上架。&lt;/p&gt;
+&lt;p&gt;微軟合作夥伴方案經理Scott Hanselman指出，Visual Studio Community 2019及Visual Studio Code將免費提供給參加Windows Insiders方案的用戶。微軟並且不忘提醒，新版Windows Store也允許開發人員上傳未打包的Win32 App。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://pbs.twimg.com/media/E9mwKklUYAMQLLJ?format=jpg&amp;amp;name=900x900&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_微軟&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Visual Studio是微軟6月預告將搬上新版Windows Store最重要的App。其中Visual Studio Community還是完整版Visual Studio。&lt;/p&gt;
+&lt;p&gt;因為早期策略錯誤，包括不開放Win32應用程式，使得Windows Store變得乏善可陳。隨著即將在秋天上市的Windows 11推出，&lt;a href=&quot;https://www.ithome.com.tw/news/145247&quot; target=&quot;_blank&quot;&gt;微軟也宣布Windows Store改版&lt;/a&gt;，支援更多類型App，從UWP（Universal Windows Platform）、.NET、Xamarin，到Win32、Electron、React Native、Java或PWA（Progressive Web App）。&lt;/p&gt;
+&lt;p&gt;另外微軟還透過和Amazon的合作，讓所有Amazon App Appstore上架的Android App或遊戲，都能在Windows Store搜尋到&lt;/p&gt;
+&lt;p&gt;其他已上架Windows Store的有用應用程式還包括Adobe Creative Cloud、Disney+、TikTok、Zoom、以及微軟Microsoft Teams、小作家（Notepad）、小畫家（Paint）等。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 12:47:23 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146433 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146433#comments</comments>
+</item>
+<item>
  <title>新北市擬以1億元分3年推動新一期自駕車沙盒實驗計畫</title>
  <link>https://www.ithome.com.tw/news/146431</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;新北市近期將推動新一期自駕車沙盒實驗計畫，預期將投入1億元分3年，除了在淡水地區建立自駕車測試場域，鼓勵業者加入自駕車測試，還將和業者合作測試自駕巴士，以能為商業運轉的公車路線為目標。&lt;/p&gt;
@@ -152,25 +169,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146423 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146423#comments</comments>
-</item>
-<item>
- <title>研究人員針對勒索軟體LockBit 2.0提出警告，2個月逾50個組織受害</title>
- <link>https://www.ithome.com.tw/news/146421</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;最近半年，有數款新興的勒索軟體發動攻擊，其中自今年6月推出2.0版的LockBit（亦稱為ABCD），不僅&lt;a href=&quot;https://www.ithome.com.tw/news/146157&quot;&gt;攻擊大型IT顧問公司Accenture&lt;/a&gt;，也在澳洲造成災情，使得&lt;a href=&quot;https://www.ithome.com.tw/news/146226&quot;&gt;當地的網路安全中心（ACSC）發布資安通報&lt;/a&gt;，提出緩解措施讓企業加以防範。而最近，&lt;a href=&quot;https://unit42.paloaltonetworks.com/emerging-ransomware-groups/&quot;&gt;資安業者Palo Alto Networks也對於這款勒索軟體提出警告&lt;/a&gt;，並指出在駭客組織推出LockBit 2.0之後，短短2個月就有52個組織成為受害者。&lt;/p&gt;
-&lt;p&gt;勒索軟體LockBit自2019年9月出現，開發者以訂閱制度提供給買家運用，該勒索軟體其中一項特性是加密檔案的速度，號稱在業界名列前茅。而最近引進資安研究人員關注的原因，就是該勒索軟體的開發者推出了LockBit 2.0大改版，根據ACSC提到後繼版本的新功能，是加入名為StealBit的竊密能力。&lt;/p&gt;
-&lt;p&gt;而對於迄今遭到LockBit 2.0攻擊的組織，Palo Alto指出，涵蓋的行業與國家可說是相當廣泛，攻擊者入侵的52個組織，包含會計、汽車、顧問、工程、財務、高科技、醫療、保險、執法單位、法律服務、製造業、非營利能源產業、零售業、物流業，以及公共事業領域等。&lt;/p&gt;
-&lt;p&gt;攻擊者下手目標的國家，除了日前發出警告的澳洲之外，還包含阿根廷、奧地利、比利時、巴西、德國、義大利、馬來西亞、墨西哥、羅馬尼亞、瑞士、英國，以及美國。&lt;/p&gt;
-&lt;p&gt;經營LockBit 2.0的駭客宣稱，他們的勒索軟體加密速度又再度進化，在搭載Xeon E5-2680中央處理器的測試主機上，每秒能加密373MB檔案，加密100GB資料在4分半就能完成；相較今年2月的舊版LockBit，加密速度為每秒266MB，可說是快上不少，而LockBit 2.0的檔案加密速度，更是第3名勒索軟體Cuba（每秒185MB）的2倍。Palo Alto表示，賣家為了吸引攻擊者採用他們的勒索軟體訂閱服務，他們還製作比較表。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/word-image-31-top10.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/word-image-31-top10.png&quot; style=&quot;width: 580px; height: 245px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;與許多勒索軟體相同的是，LockBit 2.0在加密電腦檔案之後，會更換桌布顯示勒索訊息。但比較特別的是，這個桌布也包含了利誘使用者的訊息，表明他們徵求能入侵企業或組織的帳號資料，像是遠端桌面連線（RDP）、VPN、公司電子郵件信箱等，號稱提供這類資料的使用者，有機會賺得數百萬美元，駭客留下名為Tox的即時通訊軟體ID，讓想要參與的人能跟他們聯繫。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/word-image-34-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/word-image-34-s.png&quot; style=&quot;width: 580px; height: 416px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;LockBit 2.0在加密檔案之後，會將桌布更換為「重要檔案已全被加密」的訊息，但比起許多勒索軟體會在桌布說明要如何支付贖金、或者是不要關掉電腦以免資料無法復原等警告，我們可以看到LockBit 2.0的訊息下半部有一大段淺灰色文字，但這段訊息與勒索受害電腦沒有直接關係，而是祭出高額的分紅，想要徵求可以存取其他企業內部網路的帳密資料。&lt;/p&gt;
-&lt;/blockquote&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 27 Aug 2021 07:01:57 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146421 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146421#comments</comments>
 </item>
 </channel>
 </rss>
