@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>微軟終止Android版Office支援Chromebook</title>
+    <link>https://www.ithome.com.tw/news/146416</link>
+    <description> Chromebook上要使用Office變得更不方便了。媒體發現，微軟悄悄終止Android版Office對Chromebook的支援，用戶必須上網使用Web版Office。</description>
+     <pubDate>2021-08-27  10:08:27</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146416</guid>
+  </item>
+  <item>
     <title>GitLab 14.2開放測試macOS版建置雲，並可即時預覽Markdown輸出</title>
     <link>https://www.ithome.com.tw/news/146414</link>
     <description> 新發布的GitLab14.2，更新了不少好用的新功能，像是現在開發者可以在macOS用到建置雲（Build Cloud）。原本GitLab SaaS上Apple生態系開發人員，需要在自己的macOS系統上安裝GitLab Runner，來執行CI/CD工作流程。</description>
@@ -231,7 +239,7 @@
   <item>
     <title>國內爆發愛心協會大規模捐款個資外洩，影響機構恐破200間，關鍵資訊服務商網軟遭駭仍在調查中</title>
     <link>https://www.ithome.com.tw/news/146376</link>
-    <description> 最近，臺灣爆發多起愛心捐款協會因個資外洩引發詐騙案件，刑事警察局指出，至8月16日止，已有至少35個愛心協會，因委託同一資訊服務商遭遇此事，受害規模比月初更擴大，而這家也是苦主之一的關鍵廠商，就是負責提供捐款系統公司的網軟科技（intersoft）。
+    <description> 最近，臺灣爆發多起愛心捐款協會因個資外洩引發詐騙案件，刑事警察局指出，至8月16日止，已有至少35個愛心協會，因委託同一資訊服務商遭遇此事，受害規模比月初更擴大。而這家也是苦主之一的關鍵廠商，經我們追查，就是負責提供捐款系統公司的網軟科技（intersoft）。
 面對這次的網路攻擊事件，該公司坦言，已委請資安業者協助，清查並強化資安，執法機關也在持續調查，同時他們也持續通知客戶，也就是通知相關愛心協會，將遭駭客攻擊一事告知其客戶，同時，請這些愛心機構向捐款民眾示警，呼籲大家要小心不斷翻新的ATM相關詐騙話術，並注意信用卡盜刷問題。</description>
      <pubDate>2021-08-25  02:08:41</pubDate>
  <dc:creator>羅正漢</dc:creator>
@@ -252,14 +260,6 @@
      <pubDate>2021-08-25  02:08:28</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146374</guid>
-  </item>
-  <item>
-    <title>Waymo在舊金山測試自駕車載客服務</title>
-    <link>https://www.ithome.com.tw/news/146373</link>
-    <description> Alphabet的自駕車子公司Waymo本周宣布，在舊金山市區提供初步的自駕車載客服務，邀請當地居民參加測試。</description>
-     <pubDate>2021-08-25  01:08:21</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146373</guid>
   </item>
   </channel>
 </rss>
