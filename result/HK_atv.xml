@@ -15,7 +15,7 @@
 	<atom:link href="https://atvnewsonline.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://atvnewsonline.com</link>
 	<description>东南亚</description>
-	<lastBuildDate>Fri, 27 Aug 2021 16:31:04 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 27 Aug 2021 16:34:17 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -526,11 +526,12 @@
 		<post-id xmlns="com-wordpress:feed-additions:1">22653</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/08/中国加班工作.jpeg</thumbnail>	</item>
 		<item>
 		<title>赵薇疑遭&#8221;封杀&#8221;  中国媒体分析4可能源头</title>
-		<link>https://atvnewsonline.com/breakingnews/22669/</link>
+		<link>https://atvnewsonline.com/entertainment/22669/</link>
 		
 		<dc:creator><![CDATA[Jenny Tiang]]></dc:creator>
 		<pubDate>Fri, 27 Aug 2021 10:00:00 +0000</pubDate>
-				<category><![CDATA[快讯]]></category>
+				<category><![CDATA[娱乐]]></category>
+		<category><![CDATA[快讯]]></category>
 		<category><![CDATA[中国]]></category>
 		<category><![CDATA[娱乐圈]]></category>
 		<category><![CDATA[中国封杀艺人]]></category>
