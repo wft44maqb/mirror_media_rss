@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/feed" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/feed</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/feed" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>蘋果讓步了，同意讓開發者與使用者溝通其它付款方式</title>
+    <link>https://www.ithome.com.tw/news/146419</link>
+    <description> 蘋果在26日宣布，在一起由美國開發者提出的集體訴訟案中，該公司與提告人已達成和解協議，蘋果將同意讓開發者與使用者溝通其它付款方式，以讓使用者選擇自App Store以外的途徑付款，同時蘋果也發表了新聞合作夥伴專案（News Partner Program），邀請獨立媒體加入Apple News，且承諾只會抽取15%的訂閱費用。</description>
+     <pubDate>2021-08-27  11:08:15</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146419</guid>
+  </item>
+  <item>
     <title>Google強化App Engine應用程式安全，加入管理服務帳戶新功能</title>
     <link>https://www.ithome.com.tw/news/146418</link>
     <description> Google更新其無伺服器應用程式託管平臺App Engine，加入兩項新功能，除了提供用戶更多出站流量控制（Egress Controls）能力之外，也加入用戶管理服務帳戶，使得用戶能夠應用最低權限，來增加在App Engine上應用程式的安全性。</description>
@@ -251,15 +259,6 @@
      <pubDate>2021-08-25  03:08:10</pubDate>
  <dc:creator>余至浩</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146377</guid>
-  </item>
-  <item>
-    <title>國內爆發愛心協會大規模捐款個資外洩，影響機構恐破200間，關鍵資訊服務商網軟遭駭仍在調查中</title>
-    <link>https://www.ithome.com.tw/news/146376</link>
-    <description> 最近，臺灣爆發多起愛心捐款協會因個資外洩引發詐騙案件，刑事警察局指出，至8月16日止，已有至少35個愛心協會，因委託同一資訊服務商遭遇此事，受害規模比月初更擴大。而這家也是苦主之一的關鍵廠商，經我們追查，就是負責提供捐款系統公司的網軟科技（intersoft）。
-面對這次的網路攻擊事件，該公司坦言，已委請資安業者協助，清查並強化資安，執法機關也在持續調查，同時他們也持續通知客戶，也就是通知相關愛心協會，將遭駭客攻擊一事告知其客戶，同時，請這些愛心機構向捐款民眾示警，呼籲大家要小心不斷翻新的ATM相關詐騙話術，並注意信用卡盜刷問題。</description>
-     <pubDate>2021-08-25  02:08:41</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146376</guid>
   </item>
   </channel>
 </rss>

