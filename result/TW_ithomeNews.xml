@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>殭屍網路程式正試圖攻擊Realtek晶片SDK漏洞</title>
+    <link>https://www.ithome.com.tw/news/146420</link>
+    <description> 本月稍早安全廠商揭露瑞昱半導體的無線晶片SDK存在多項安全漏洞，影響65家IoT廠商，本周另外二家安全業者相信，已經有駭客盯上採用Realtek晶片的IoT裝置，企圖感染殭屍網路程式。</description>
+     <pubDate>2021-08-27  12:08:44</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146420</guid>
+  </item>
+  <item>
     <title>蘋果讓步了，同意讓開發者與使用者溝通其它付款方式</title>
     <link>https://www.ithome.com.tw/news/146419</link>
     <description> 蘋果在26日宣布，在一起由美國開發者提出的集體訴訟案中，該公司與提告人已達成和解協議，蘋果將同意讓開發者與使用者溝通其它付款方式，以讓使用者選擇自App Store以外的途徑付款，同時蘋果也發表了新聞合作夥伴專案（News Partner Program），邀請獨立媒體加入Apple News，且承諾只會抽取15%的訂閱費用。</description>
@@ -249,16 +257,6 @@
      <pubDate>2021-08-25  04:08:50</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146379</guid>
-  </item>
-  <item>
-    <title>科技部集結5校展示智慧防疫研究成果，更盼藉此催生出新的精準健康產業</title>
-    <link>https://www.ithome.com.tw/news/146377</link>
-    <description> 由科技部去年中投入成立的防疫科學研究中心，集結臺灣大學、陽明交通大學、成功大學、長庚大學及國防醫學院共5間學校，共同投入COVID-19抗疫和防疫科學研究，並在今日（8/25）公開展示一年來研究中心的成果，其中更有不少防疫研究或應用成果，迄今已有醫院或集中檢疫所拿來採用。
-科技部部長吳政忠表示，這次防疫中心的成果展示，不只運用原本學理檢測技術，更把AI、5G、物聯網科技帶進來，運用到防疫所需要的監測、預防、檢驗、醫療，以及零接觸照護，來幫助臺灣防疫做得更好，甚至也有機會在臺灣催生出新的精準健康產業。
-整體來看，5間大學研究團隊所展示的防疫研究或應用成果，不少都運用上現在當紅AI、大數據、雲端與物聯網相關技術，來發展出各種智慧防疫應用。</description>
-     <pubDate>2021-08-25  03:08:10</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146377</guid>
   </item>
   </channel>
 </rss>

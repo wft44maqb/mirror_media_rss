@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-27T04:27:58Z</updated>
+ <updated>2021-08-27T04:31:02Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58997753</id>
+  <title><![CDATA[台湾国防预算创新高 但增幅并无显着提升]]></title>
+  <updated>2021-08-27T04:05:00Z</updated>
+  <published>2021-08-27T04:05:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/台湾国防预算创新高-但增幅并无显着提升/a-58997753?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[随着中国军事压力升高，台湾自身国防实力的发展受外界关注。台湾政府26日宣布2022年度国防预算，新台币3726亿元（约美金133亿元），创下历年新高，但年增幅3%跟往年比较并无显着提升。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58997025</id>
   <title><![CDATA[拜登誓言追捕爆炸案主谋 联合国发起阿富汗会议]]></title>
@@ -76,16 +86,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58991784</id>
-  <title><![CDATA[德政府囤积疫苗计划遭批“自私短视”]]></title>
-  <updated>2021-08-26T12:43:00Z</updated>
-  <published>2021-08-26T12:43:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德政府囤积疫苗计划遭批-自私短视/a-58991784?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[由于新增病例逐日攀升，罗伯特科赫研究所指出，德国已经处于第四波疫情的初期。与此同时，政府有关贮备疫苗以备不时之需的计划则遭到专家们的批评和反对。]]></summary>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58991668</id>
   <title><![CDATA[日本自民党9月底选举新一届党魁]]></title>
   <updated>2021-08-26T12:43:00Z</updated>
@@ -94,6 +94,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/日本自民党9月底选举新一届党魁/a-58991668?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[日本共同社报道称，今天日本自民党在总裁选举管理委员会会议上敲定下一届党魁选举投票时间为9月29日。路透社指出，当前日本正面临着最严重的一波疫情感染，首相菅义伟的支持率已降至30%以下。自民党政务调查委员会前会长岸田文雄宣布参选自民党总裁，与菅义伟再次对决。]]></summary>
   <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58991784</id>
+  <title><![CDATA[德政府囤积疫苗计划遭批“自私短视”]]></title>
+  <updated>2021-08-26T12:43:00Z</updated>
+  <published>2021-08-26T12:43:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德政府囤积疫苗计划遭批-自私短视/a-58991784?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[由于新增病例逐日攀升，罗伯特科赫研究所指出，德国已经处于第四波疫情的初期。与此同时，政府有关贮备疫苗以备不时之需的计划则遭到专家们的批评和反对。]]></summary>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58989597</id>
@@ -213,16 +223,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/留在墨西哥：拜登移民政策受挫/a-58979841?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[美国最高法院当地时间周二（8月24日）裁定，“留在墨西哥”政策不得推翻。该政策由前总统特朗普制定，意在缓解大量中美洲寻求庇护者无序入境难题。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58979126</id>
-  <title><![CDATA[德国可能在本周五停止在阿富汗的人员撤离行动]]></title>
-  <updated>2021-08-25T11:43:00Z</updated>
-  <published>2021-08-25T11:43:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国可能在本周五停止在阿富汗的人员撤离行动/a-58979126?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[德国国防部和外交部传出的消息称，德国从阿富汗撤离人员的“空中桥梁”行动很有可能在本周五后结束。法国甚至准备周四之后便停止人员撤离。德国总理默克尔表示为了保护阿富汗人，德国愿意与塔利班举行谈判，但不会签订无条件协定。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
