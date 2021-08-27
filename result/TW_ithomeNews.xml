@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=224&amp;amp%3Bprofile=atom" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>3月勒索軟體HelloKitty鎖定VMware ESXi發動攻擊，Palo Alto揭露目前災情與受害範圍</title>
+    <link>https://www.ithome.com.tw/news/146432</link>
+    <description> 今年2月，製作電玩《電馭叛客2077》（Cyberpunk 2077）開發商的CD Projekt，驚傳遭到勒索軟體攻擊，後來有資安業者指出，攻擊的勒索軟體名為HelloKitty。</description>
+     <pubDate>2021-08-27  11:08:38</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146432</guid>
+  </item>
+  <item>
     <title>駭客重金誘惑，內部員工也必須零信任</title>
     <link>https://www.ithome.com.tw/voice/146434</link>
     <description> 在8月底威力彩開獎前夕，由於頭獎上看27億元，引發全國熱議，因為疫情當前，許多自認在經濟上亟需紓困的民眾，自然很希望自己就是幸運得主，但這樣的現象，也不免讓人擔心是否會出現不惜代價、鋌而走險的行為，例如出賣企業或組織的機密資料，來換取金錢的狀況。
@@ -243,14 +251,6 @@ CLI 1.0供開發者在終端，無縫地執行端到端工作流程，而現在G
      <pubDate>2021-08-26  12:08:02</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146394</guid>
-  </item>
-  <item>
-    <title>IoT雙周報第98期：Google翻新Nest家用保全產品，整合TPU邊緣運算晶片每秒可執行7.5次ML推論</title>
-    <link>https://www.ithome.com.tw/news/146391</link>
-    <description> 08/07~08/20精選IoT新聞</description>
-     <pubDate>2021-08-26  10:08:52</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146391</guid>
   </item>
   </channel>
 </rss>
