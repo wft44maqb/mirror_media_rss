@@ -6,6 +6,23 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>3月勒索軟體HelloKitty鎖定VMware ESXi發動攻擊，Palo Alto揭露目前災情與受害範圍</title>
+ <link>https://www.ithome.com.tw/news/146432</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;今年2月，製作電玩《電馭叛客2077》（Cyberpunk 2077）開發商的CD Projekt，&lt;a href=&quot;https://www.ithome.com.tw/news/142720&quot;&gt;驚傳遭到勒索軟體攻擊&lt;/a&gt;，後來&lt;a href=&quot;https://www.ithome.com.tw/news/144166&quot;&gt;有資安業者指出，攻擊的勒索軟體名為HelloKitty&lt;/a&gt;。但資安業者Palo Alto Networks指出，目前這款勒索軟體發展出Linux版本，自今年3月開始鎖定伺服器虛擬化平臺VMware ESXi，&lt;a href=&quot;http://unit42.paloaltonetworks.com/emerging-ransomware-groups/&quot;&gt;且已有受害組織並支付贖金&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;HelloKitty最早大約是自2020年底開始出現，主要鎖定Windows作業系統，根據資安公司FireEye的發現，它是從另一款稱做DeathRansom的勒索軟體衍生而來的變種，為了避免受害者透過備份資料復原，HelloKitty會刪除Windows電腦的磁碟區陰影複製（Volume Shadow Copy）內容。&lt;/p&gt;
+&lt;p&gt;在今年7月中旬，&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/linux-version-of-hellokitty-ransomware-targets-vmware-esxi-servers/&quot;&gt;資安研究組織MalwareHunterTeam就發現了數個鎖定VMware ESXi的HelloKitty勒索軟體&lt;/a&gt;，自3月開始發動攻擊，使用ESXi命令列工具（esxcli）關閉虛擬機器（VM），但並未提及受害規模。&lt;/p&gt;
+&lt;p&gt;而對於這款勒索軟體的近況，Palo Alto指出，這款勒索軟體發展可說是相當迅速，近期的版本更是透過Go語言編譯，而且只會在記憶體內載入、執行，這麼做的目的，很可能是為了迴避資安防護系統的偵測。&lt;/p&gt;
+&lt;p&gt;Palo Alto表示，他們在2021年7月，發現檔案名稱為funny_linux.elf的勒索軟體，其中的勒索訊息，措辭與Windows版的HelloKitty相符，他們進一步追查發現， Linux版的HelloKitty，最早約從2020年10月開始發展，並在2021年3月開始攻擊VMware ESXi，研究人員觀察到有6個受影響的組織。&lt;/p&gt;
+&lt;p&gt;這些組織分別是：義大利與荷蘭製藥組織、德國製造商、澳洲工業自動化解決方案業者，以及位於美國的醫療辦公室與股票經紀人。&lt;/p&gt;
+&lt;p&gt;研究人員發現，攻擊者疑似依據受害組織的規模，而開出不同的贖金價碼，他們看到駭客收取的是門羅幣，金額最高的是1千萬美元，最低的則是95萬美元，落差相當大。除了門羅幣，這些駭客也接受以比特幣支付的贖金，但Palo Alto表示，受害組織若是使用比特幣付贖金，攻擊者會收取較高的金額。而研究人員根據駭客提供的比特幣錢包位址進行追蹤，駭客收到3筆款項，總計1,477,872.41美元。&lt;/p&gt;
+&lt;p&gt;而對於攻擊者向受害組織勒索的方式，Palo Alto也從勒索訊息中看到不同的內容，在不同受害組織的HelloKitty軟體裡，駭客留下的聯絡方式，同時具備洋蔥網路（Tor）的網址，以及針對受害單位的Protonmail電子郵件信箱，研究人員依據這個現象研判，可能有多組攻擊者使用相同的惡意軟體程式碼基礎（Codebase）。不過，其中一個受害組織收到的勒索訊息裡，駭客沒有留下聯絡資訊。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 15:14:38 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146432 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146432#comments</comments>
+</item>
+<item>
  <title>駭客重金誘惑，內部員工也必須零信任</title>
  <link>https://www.ithome.com.tw/voice/146434</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在8月底威力彩開獎前夕，由於頭獎上看27億元，引發全國熱議，因為疫情當前，許多自認在經濟上亟需紓困的民眾，自然很希望自己就是幸運得主，但這樣的現象，也不免讓人擔心是否會出現不惜代價、鋌而走險的行為，例如出賣企業或組織的機密資料，來換取金錢的狀況。&lt;/p&gt;
@@ -152,23 +169,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146426 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146426#comments</comments>
-</item>
-<item>
- <title>報告：中國駭入Exchange Server漏洞訓練AI</title>
- <link>https://www.ithome.com.tw/news/146425</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;今年3月間Exchange Server漏洞被揭露且有駭客活動，引發各國政府和企業恐慌，不過一些專家相信，這可能是中國政府完成另一項更重要計畫的手段之一──訓練人工智慧（artificial intelligence，AI）技術。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.npr.org/2021/08/26/1013501080/chinas-microsoft-hack-may-have-had-a-bigger-purpose-than-just-spying&quot; target=&quot;_blank&quot;&gt;美國公共廣播電台（NPR）報導&lt;/a&gt;引述曾協助美國政府情報作戰的官員說法，指出中國利用Exchange Server漏洞蒐集美國民眾及政府資訊，最終目的是用於推進中國AI技術研發。&lt;/p&gt;
-&lt;p&gt;NPR報導指出，2017年中國政府宣佈推動AI為國家優先要務之一。為此中國一方面要培育電腦科學家撰寫演算法，另一方面則開始蒐集開發及訓練演算法必須的大量資料。培育科學家方面，根據報導，截至2017年中國的AI相關論文已經躍居全球之冠，成立的AI公司已超過千家，僅次於美國。在資料方面，除了中國自己的13億人口外，美國專家認為，美國人的資料也在他們的蒐集範圍內。&lt;/p&gt;
-&lt;p&gt;報導引述美國前國家反情報及安全中心主任，現為Evanina Security執行長的William Evanina說法，指出美國第三大消費者信用報告業者Equifax在2017年底爆發的大規模資料外洩，正是中國一次成功的反情報任務。&lt;a href=&quot;https://www.ithome.com.tw/news/135768&quot; target=&quot;_blank&quot;&gt;去年美國司法部控告&lt;/a&gt;中國解放軍人士在2017年入侵Equifax，盜走了1.5億名美國消費者的個人資料。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.intelligence.senate.gov/sites/default/files/documents/os-bevanina-080421.pdf&quot; target=&quot;_blank&quot;&gt;Evanina本月在美國參議院的公聽會上指出&lt;/a&gt;，他相信中國已掌握了80%美國人的資料，甚至比美國官方蒐集的還多，其他行動就是為了蒐集剩下20%。&lt;/p&gt;
-&lt;p&gt;而Exchange Server攻擊就是為了完整這個目的而啟動的計畫之一。微軟於今年3月揭露和中國有關的駭客組織Hafnium，正在開採Exchange Server上合稱ProxyLogon的4個漏洞。有安全公司估計，最初全球有超過40萬臺系統曝險，而在微軟公告一個星期內，&lt;a href=&quot;https://www.ithome.com.tw/news/143079&quot; target=&quot;_blank&quot;&gt;至少有3萬家美國機構，包括州政府、地方公營（如消防、警政）單位、教育機構、電信公司、或是小型店家等遭駭&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;報導引述微軟主管數位犯罪部門副總裁Tom Burt指出，Hafnium活動最早可追溯到2020年6月，即微軟公告的9個月前。Burt指出，微軟原本希望透過Patch Tuesday不動聲色修補Exchange Server漏洞，不料3月發現駭客部署後門程式速度加快，迫使微軟將之公開。&lt;/p&gt;
-&lt;p&gt;不過美國官方仍然定調Exchange Server攻擊為一種監控行為。&lt;a href=&quot;https://www.ithome.com.tw/news/145755&quot; target=&quot;_blank&quot;&gt;7月白宮也聯同英國、歐盟共同宣稱&lt;/a&gt;，中國政府扶植的駭客組織利用微軟今年初爆發的Exchanger Server零時差漏洞，執行大規模網路間諜行動。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 27 Aug 2021 08:13:51 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146425 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146425#comments</comments>
 </item>
 </channel>
 </rss>
