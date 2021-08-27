@@ -4,17 +4,17 @@
   <link rel="alternate" type="text/html" href="https://status.digitalocean.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.digitalocean.com/history.atom"/>
   <title>DigitalOcean Status - Incident History</title>
-  <updated>2021-08-27T20:10:34Z</updated>
+  <updated>2021-08-27T20:23:35Z</updated>
   <author>
     <name>DigitalOcean</name>
   </author>
   <entry>
     <id>tag:status.digitalocean.com,2005:Incident/7859457</id>
-    <published>2021-08-27T20:10:34Z</published>
-    <updated>2021-08-27T20:10:34Z</updated>
+    <published>2021-08-27T20:23:30Z</published>
+    <updated>2021-08-27T20:23:30Z</updated>
     <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/77s975zvyw2w"/>
     <title>MongoDB Managed Databases Maintenance</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;20:10&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;20:05&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - During the above window, our engineering team will be making changes to our MongoDB Managed Databases in SFO3 to improve performance.&lt;br /&gt;&lt;br /&gt;Expected Impact:&lt;br /&gt;&lt;br /&gt;All create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our SFO3 region will be temporarily disabled during maintenance.&lt;br /&gt;&lt;br /&gt;We do not anticipate any impact for existing MongoDB Managed Databases.&lt;br /&gt;&lt;br /&gt;Do not hesitate to contact support if you have any additional questions or concerns; you may do so by opening a ticket or replying to this email.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;20:23&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Scheduled maintenance is still in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;20:10&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;20:05&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - During the above window, our engineering team will be making changes to our MongoDB Managed Databases in SFO3 to improve performance.&lt;br /&gt;&lt;br /&gt;Expected Impact:&lt;br /&gt;&lt;br /&gt;All create and destroy events, as well as adding and removing users for MongoDB Managed Databases in our SFO3 region will be temporarily disabled during maintenance.&lt;br /&gt;&lt;br /&gt;We do not anticipate any impact for existing MongoDB Managed Databases.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.digitalocean.com,2005:Incident/7852778</id>
