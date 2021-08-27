@@ -6,6 +6,15 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>新北市擬以1億元分3年推動新一期自駕車沙盒實驗計畫</title>
+    <link>https://www.ithome.com.tw/news/146431</link>
+    <description> 新北市近期將推動新一期自駕車沙盒實驗計畫，預期將投入1億元分3年，除了在淡水地區建立自駕車測試場域，鼓勵業者加入自駕車測試，還將和業者合作測試自駕巴士，以能為商業運轉的公車路線為目標。
+新北市從2019年開始，以5,000萬元經費投入智駕電動巴士測試，與中華電信、勤崴科技合作，在淡海新市鎮，以購物中心與輕軌站之間為起迄點，來回全長1.2公里，結合道路監視系統、路側設施展開智駕巴士行駛測試，以測試智駕巴士可能遭遇的問題，並借助淡水地區易變的氣候，對自駕巴士的感測器的影響。</description>
+     <pubDate>2021-08-27  06:08:21</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146431</guid>
+  </item>
+  <item>
     <title>Solo.io正式推出企業級服務網格管理平面Gloo Mesh Enterprise</title>
     <link>https://www.ithome.com.tw/news/142797</link>
     <description> FaaS服務新創公司Solo.io正式發布Gloo Mesh Enterprise，這是一個企業級服務網格管理解決方案，可增加服務網格的可用性和可控制性，簡化Istio在多叢集和多雲環境的複雜操作，同時還可以讓用戶以WebAssembly擴充網格資料平面。</description>
@@ -243,15 +252,6 @@ CLI 1.0供開發者在終端，無縫地執行端到端工作流程，而現在G
      <pubDate>2021-08-26  07:08:00</pubDate>
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/people/146306</guid>
-  </item>
-  <item>
-    <title>同時搭配E Ink顯示器與IPS顯示器，聯想推出雙螢幕超輕薄筆電</title>
-    <link>https://www.ithome.com.tw/review/146347</link>
-    <description> 在1月的美國CES消費電子大展期間，聯想發表多款筆電，我們陸續報導可分離鍵盤使用的ThinkPad X12 Detachable，以及超輕薄筆電ThinkPad X1 Carbon Gen 9，接下來，我們要介紹則是一款雙螢幕筆電，ThinkBook Plus Gen 2i（ThinkBook Plus G2 ITG），在6月正式推出。
-所謂的雙螢幕，是指筆電頂部外殼設置1個12吋電子紙（E Ink）顯示器，而在另一面，也就是我們平時打開筆電開始工作時，所看到的13.3吋IPS顯示器。這兩個螢幕都是低藍光、支援多點觸碰操作（側邊收納了數位筆，當使用者執行特定應用程式時，這支筆會自動彈出），寬度與高度比例為16:10，最高解析度均支援2560 x 1600。</description>
-     <pubDate>2021-08-26  12:08:02</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/review/146347</guid>
   </item>
   </channel>
 </rss>
