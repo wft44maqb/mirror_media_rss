@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iThome 新聞</title>
+    <link>https://www.ithome.com.tw/latest</link>
+    <description>iThome 最新新聞</description>
+    <language>zh-hant</language>
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Solo.io正式推出企業級服務網格管理平面Gloo Mesh Enterprise</title>
+    <link>https://www.ithome.com.tw/news/142797</link>
+    <description> FaaS服務新創公司Solo.io正式發布Gloo Mesh Enterprise，這是一個企業級服務網格管理解決方案，可增加服務網格的可用性和可控制性，簡化Istio在多叢集和多雲環境的複雜操作，同時還可以讓用戶以WebAssembly擴充網格資料平面。</description>
+     <pubDate>2021-08-27  04:08:57</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/142797</guid>
+  </item>
+  <item>
+    <title>Netflix開始於波蘭測試遊戲服務</title>
+    <link>https://www.ithome.com.tw/news/146430</link>
+    <description> 網飛（Netflix）26日宣布，已開始於波蘭測試行動遊戲服務，該服務目前只支援Android手機，而且只有兩款：《怪奇物語 1984》（Stranger Things : 1984 ）與《怪奇物語3》（Stranger Things 3）。</description>
+     <pubDate>2021-08-27  04:08:33</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146430</guid>
+  </item>
+  <item>
+    <title>群暉科技：OpenSSL漏洞波及該公司多項產品</title>
+    <link>https://www.ithome.com.tw/news/146428</link>
+    <description> 開源的安全通訊軟體函式庫OpenSSL在24日修補了CVE-2021-3711與CVE-2021-3712兩個安全漏洞，臺灣網路附加儲存（NAS）製造商群暉科技（Synology）很快就警告，該公司有多款NAS及VPN產品受到這兩個漏洞的影響，並正著手修補中。</description>
+     <pubDate>2021-08-27  04:08:30</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146428</guid>
+  </item>
+  <item>
+    <title>捐款個資外洩引發詐騙事件漫延一個月，網軟初期未能反應，引發朝野立委關注</title>
+    <link>https://www.ithome.com.tw/news/146427</link>
+    <description> 這一個月來，國內爆發大規模捐款個資外洩導致民眾誤信的詐騙案，由於警方指出多個公益團體都委託同一資訊服務商的狀況，日前我們也已經追查到這次事件的關鍵廠商，就是負責提供捐款系統公司的網軟科技。因此，先前我們也聯繫到該公司，以確認此資安事件的狀況。然而，由於網軟僅在8月3日發布刑事警察局的反詐騙宣導，至今還沒有對外公布遭駭客攻擊與資料外洩的資安事件。</description>
+     <pubDate>2021-08-27  04:08:15</pubDate>
+ <dc:creator>羅正漢</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146427</guid>
+  </item>
+  <item>
+    <title>GitHub CLI 2.0供開發者自行創建擴充套件</title>
+    <link>https://www.ithome.com.tw/news/146422</link>
+    <description> GitHub發布新的命令列工具CLI 2.0，這個新版本讓開發者能夠使用CLI的功能，來創建擴充套件或是自定義命令，而且開發者也能夠安裝由其他人創建的擴充套件。
+CLI 1.0供開發者在終端，無縫地執行端到端工作流程，而現在GitHub繼續在CLI 1.0的基礎上發展，提供更好的腳本編寫和GitHub Actions使用支援，官方提到，沒有一項工具可以滿足所有人的需求，因此在CLI 2.0中，讓用戶能以簡單的方式，按需求擴充功能，並且安裝來自其他人的擴充套件。</description>
+     <pubDate>2021-08-27  04:08:08</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146422</guid>
+  </item>
+  <item>
+    <title>英國大幅翻修境內的資料法規，與多國建立合作關係推動資料經濟</title>
+    <link>https://www.ithome.com.tw/news/146426</link>
+    <description> 英國26日宣布，將與美國、澳洲、南韓、新加坡、杜拜、國際金融中心與哥倫比亞簽署資料合作協議，互通資料有無以推動資料經濟，並將任命國際隱私專家John Edwards擔任英國的資訊委員，</description>
+     <pubDate>2021-08-27  04:08:37</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146426</guid>
+  </item>
+  <item>
+    <title>報告：中國駭入Exchange Server漏洞訓練AI</title>
+    <link>https://www.ithome.com.tw/news/146425</link>
+    <description> 今年3月間Exchange Server漏洞被揭露且有駭客活動，引發各國政府和企業恐慌，不過一些專家相信，這可能是中國政府完成另一項更重要計畫的手段之一──訓練人工智慧（artificial intelligence，AI）技術。</description>
+     <pubDate>2021-08-27  04:08:51</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146425</guid>
+  </item>
+  <item>
+    <title>微軟Azure資料庫服務Cosmos DB含有安全漏洞，將外洩客戶的主要金鑰與存取令牌</title>
+    <link>https://www.ithome.com.tw/news/146423</link>
+    <description> 專門提供雲端安全服務的資安業者Wiz周四（8/26）揭露，微軟Azure的Cosmos DB非關聯式資料庫服務含有一系列的安全漏洞，將允許任何使用者下載、刪除或操控用戶的商業資料庫，或是存取Cosmos DB的底層架構。被Wiz統稱為ChaosDB的漏洞已存在兩年之久，波及Fortune 500排行榜上的許多大型企業，諸如可口可樂、Exxon-Mobil與Citrix等。</description>
+     <pubDate>2021-08-27  03:08:58</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146423</guid>
+  </item>
+  <item>
+    <title>研究人員針對勒索軟體LockBit 2.0提出警告，2個月逾50個組織受害</title>
+    <link>https://www.ithome.com.tw/news/146421</link>
+    <description> 最近半年，有數款新興的勒索軟體發動攻擊，其中自今年6月推出2.0版的LockBit（亦稱為ABCD），不僅攻擊大型IT顧問公司Accenture，也在澳洲造成災情，使得當地的網路安全中心（ACSC）發布資安通報，提出緩解措施讓企業加以防範。</description>
+     <pubDate>2021-08-27  03:08:57</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146421</guid>
+  </item>
+  <item>
+    <title>殭屍網路程式正試圖攻擊Realtek晶片SDK漏洞</title>
+    <link>https://www.ithome.com.tw/news/146420</link>
+    <description> 本月稍早安全廠商揭露瑞昱半導體的無線晶片SDK存在多項安全漏洞，影響65家IoT廠商，本周另外二家安全業者相信，已經有駭客盯上採用Realtek晶片的IoT裝置，企圖感染殭屍網路程式。</description>
+     <pubDate>2021-08-27  12:08:44</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146420</guid>
+  </item>
+  <item>
+    <title>蘋果讓步了，同意讓開發者與使用者溝通其它付款方式</title>
+    <link>https://www.ithome.com.tw/news/146419</link>
+    <description> 蘋果在26日宣布，在一起由美國開發者提出的集體訴訟案中，該公司與提告人已達成和解協議，蘋果將同意讓開發者與使用者溝通其它付款方式，以讓使用者選擇自App Store以外的途徑付款，同時蘋果也發表了新聞合作夥伴專案（News Partner Program），邀請獨立媒體加入Apple News，且承諾只會抽取15%的訂閱費用。</description>
+     <pubDate>2021-08-27  11:08:15</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146419</guid>
+  </item>
+  <item>
+    <title>Google強化App Engine應用程式安全，加入管理服務帳戶新功能</title>
+    <link>https://www.ithome.com.tw/news/146418</link>
+    <description> Google更新其無伺服器應用程式託管平臺App Engine，加入兩項新功能，除了提供用戶更多出站流量控制（Egress Controls）能力之外，也加入用戶管理服務帳戶，使得用戶能夠應用最低權限，來增加在App Engine上應用程式的安全性。</description>
+     <pubDate>2021-08-27  11:08:04</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146418</guid>
+  </item>
+  <item>
+    <title>Google可能付蘋果150億美元換取預設搜尋引擎地位</title>
+    <link>https://www.ithome.com.tw/news/146417</link>
+    <description> 根據一份分析師估計，今年Google可能付給蘋果150億美元，以換取成為Safari瀏覽器預設搜尋引擎，而在微軟威脅陰影下，明年可能還會增加。</description>
+     <pubDate>2021-08-27  10:08:56</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146417</guid>
+  </item>
+  <item>
+    <title>微軟終止Android版Office支援Chromebook</title>
+    <link>https://www.ithome.com.tw/news/146416</link>
+    <description> Chromebook上要使用Office變得更不方便了。媒體發現，微軟悄悄終止Android版Office對Chromebook的支援，用戶必須上網使用Web版Office。</description>
+     <pubDate>2021-08-27  10:08:27</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146416</guid>
+  </item>
+  <item>
+    <title>GitLab 14.2開放測試macOS版建置雲，並可即時預覽Markdown輸出</title>
+    <link>https://www.ithome.com.tw/news/146414</link>
+    <description> 新發布的GitLab14.2，更新了不少好用的新功能，像是現在開發者可以在macOS用到建置雲（Build Cloud）。原本GitLab SaaS上Apple生態系開發人員，需要在自己的macOS系統上安裝GitLab Runner，來執行CI/CD工作流程。</description>
+     <pubDate>2021-08-27  10:08:45</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146414</guid>
+  </item>
+  <item>
+    <title>Google機器學習平臺Vertex AI現提供低延遲高安全性的私有端點</title>
+    <link>https://www.ithome.com.tw/news/146415</link>
+    <description> Google宣布在其機器學習平臺Vertex AI上提供私有端點（Private Endpoints），這是Vertex Predictions中的一項新功能，藉由VPC對等連接，用戶可以配置專用的連接與端點通訊，因此用戶的資料就不需要經過網際網路，不只提高安全性，也可以降低線上預測的延遲。</description>
+     <pubDate>2021-08-27  09:08:35</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146415</guid>
+  </item>
+  <item>
+    <title>Cloud周報第118期：英國大型汽車經銷商要將關鍵SAP系統上公雲，國際太空站測試靠邊緣雲端運算監測太空人健康</title>
+    <link>https://www.ithome.com.tw/news/146413</link>
+    <description> 重點新聞（2021/08/19～2021/08/25）</description>
+     <pubDate>2021-08-27  09:08:16</pubDate>
+ <dc:creator>黃郁芸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146413</guid>
+  </item>
+  <item>
+    <title>研究：川普因虛假訊息遭推特限制互動的推文，反在臉書、Reddit大量傳播</title>
+    <link>https://www.ithome.com.tw/news/146411</link>
+    <description> 推特在最近美國總統大選時，使用兩種策略干預Donald Trump（川普）存在錯誤資訊的推文，其一是加上錯誤資訊標籤的軟干預，其二是阻止用戶與該推文互動的硬干預，但是研究發現，與推特沒有干預的推文相比，無論使用哪一種干預手段，都會增加這些推文的傳播，研究人員提到，平臺需要從生態系統層面來考慮內容審核的方法。</description>
+     <pubDate>2021-08-27  09:08:02</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146411</guid>
+  </item>
+  <item>
+    <title>AI趨勢周報第175期：為何20分鐘的對話時間，是今年Amazon對話式AI挑戰賽最大亮點？</title>
+    <link>https://www.ithome.com.tw/news/146407</link>
+    <description> 重點新聞(0820～0826)</description>
+     <pubDate>2021-08-26  06:08:33</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146407</guid>
+  </item>
+  <item>
+    <title>勒索軟體LockFile濫用PetitPotam漏洞，掌控AD網域伺服器</title>
+    <link>https://www.ithome.com.tw/news/146406</link>
+    <description> 新的勒索軟體攻擊大肆濫用近期公開的重大漏洞，而使得企業與組織難以招架。例如，賽門鐵克揭露一起名為LockFile勒索軟體的攻擊行動，其中攻擊者先是經由Exchange郵件伺服器，入侵企業內部網路環境，接下來再藉著PetitPotam漏洞（CVE-2021-36942），控制AD網域伺服器，並感染內網的電腦。</description>
+     <pubDate>2021-08-26  05:08:54</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146406</guid>
+  </item>
+  <item>
+    <title>金管會完成第一家公雲虛擬稽核，Google臺灣資料中心是第一家</title>
+    <link>https://www.ithome.com.tw/news/146405</link>
+    <description> Google雲端臺灣總經理謝良承今日（8/26）在國泰金控技術年會一場座談中透露，Google雲端臺灣資料中心已在今年初完成金管會第一次的虛擬稽核了，成為第一家在臺灣完成政府機關稽核的公有雲業者。
+這項藏在謝良承回覆對談提問的資訊，可說是臺灣企業朝雲端發展的一項重磅消息，特別是對須遵循嚴謹資料保護法規的金融業和醫療業的企業。因為，這代表Google雲端資料中心不只符合國際規範，現也符合了臺灣法規的規範。
+金管會於2019年時已宣布開放金融業者上雲，因視銀行上雲為委外作業，所以，在監督、稽核、緊急應變等面向皆對金融機構有所要求和規範，使得金融業在上雲之路上，仍然面對不少挑戰，特別是須確保監管機關可查核雲端業者。</description>
+     <pubDate>2021-08-26  05:08:18</pubDate>
+ <dc:creator>黃郁芸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146405</guid>
+  </item>
+  <item>
+    <title>小米買下自駕車新創Deepmotion</title>
+    <link>https://www.ithome.com.tw/news/146400</link>
+    <description> 小米集團周三（8/25）公布今年第二季的財報，同時宣布將以7,737萬美元的價格，買下中國的自駕車新創深動科技（Deepmotion Tech Limited）。</description>
+     <pubDate>2021-08-26  03:08:06</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146400</guid>
+  </item>
+  <item>
+    <title>美國政府審計辦公室調查：聯邦機構的人臉辨識應用以數位存取及網路安全為大宗</title>
+    <link>https://www.ithome.com.tw/news/146398</link>
+    <description> 美國政府審計辦公室（GAO）本周再度公布美國聯邦機構使用人臉辨識技術（Facial Recognition Technology，FRT）的調查報告，指出在接受調查的24個機構中，有18個正在使用FRT系統，其目的各自不同，但有高達16個機構是應用在數位存取及網路安全上，算是最普及的應用。
+有些機構的FRT只有單一功能，但大多數擁有多重目的。調查顯示，有16個機構是以人臉辨識技術來執行數位存取及網路安全任務，例如要解鎖官方提供的手機或筆電時，或是要存取政府網站時，作為身分識別之用。</description>
+     <pubDate>2021-08-26  02:08:55</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146398</guid>
+  </item>
+  <item>
+    <title>F5修補Big-IP重大漏洞</title>
+    <link>https://www.ithome.com.tw/news/146397</link>
+    <description> F5本周發布安全公告，包含13個高風險及1個允許攻擊者執行指令或刪改檔案的重大安全漏洞。
+此次F5修補的30個漏洞中包括13個高風險漏洞，其中CVE-2021-23031屬於權限升級漏洞。它位於流量管理員UI（TMUI）的組態工具中，一旦遭到開採，具有存取權限的攻擊者就可於系統上執行任意系統指令、新增、刪改檔案，或是關閉服務，甚至可讓攻擊者接管整臺系統。</description>
+     <pubDate>2021-08-26  02:08:38</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146397</guid>
+  </item>
+  <item>
+    <title>白宮舉行資安高峰會：微軟、Google、蘋果、Amazon及IBM等業者共襄盛舉，承諾將大幅改善資安</title>
+    <link>https://www.ithome.com.tw/news/146396</link>
+    <description> 美國總統拜登（Joe Biden）在本周三（8/25）會見了私人企業與教育界的領袖，共同商討如何透過全國的努力來解決美國的資安威脅，除了由政府發起的多個倡議之外，微軟、Google、蘋果、Amazon及IBM等業者也都作出了承諾，其</description>
+     <pubDate>2021-08-26  01:08:00</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146396</guid>
+  </item>
+  <item>
+    <title>美能源部將部署Exascale等級GPU超級電腦Polaris</title>
+    <link>https://www.ithome.com.tw/news/146394</link>
+    <description> 美國能源部下的阿貢國家實驗室（Argonne National Laboratory）昨（25）日宣布，將使用結合HPE、AMD、Nvidia技術打造超過2千顆 GPU的Exascale等級超級電腦，名為Polaris，以支援美國能源部的進階工程及科學研究。</description>
+     <pubDate>2021-08-26  12:08:02</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146394</guid>
+  </item>
+  <item>
+    <title>IoT雙周報第98期：Google翻新Nest家用保全產品，整合TPU邊緣運算晶片每秒可執行7.5次ML推論</title>
+    <link>https://www.ithome.com.tw/news/146391</link>
+    <description> 08/07~08/20精選IoT新聞</description>
+     <pubDate>2021-08-26  10:08:52</pubDate>
+ <dc:creator>余至浩</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146391</guid>
+  </item>
+  <item>
+    <title>AWS Backup新功能Audit Manager可監控備份產生稽核用報告</title>
+    <link>https://www.ithome.com.tw/news/146390</link>
+    <description> AWS宣布推出AWS Backup Audit Manager，這是備份服務AWS Backup的一項新功能，可讓用戶監控和評估備份的法遵狀態，來滿足業務和法規要求，並且讓用戶能夠生成報告，向稽核人員和監管機構說明其法遵狀態。</description>
+     <pubDate>2021-08-26  10:08:15</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146390</guid>
+  </item>
+  <item>
+    <title>北醫治理三院百萬大數據，再攻FHIR癌症基因資料</title>
+    <link>https://www.ithome.com.tw/people/146306</link>
+    <description> 兩年前，臺北醫學大學出現了一個特別的組織。它與資訊處同等，都是一級單位，但職責不只限於學校，更涵蓋3家醫院，一肩扛起北醫體系所有數據管理的重任。
+帶頭的指揮官，更是一位經驗豐富的IT老將，不僅是萬芳醫院早期發展新一代醫療IT應用的推手，也擔任過首任衛福部資訊處處長，現在更是國際醫療資訊標準協會HL7臺灣分會的理事長。
+這個組織，就是臺北醫學大學數據處（簡稱北醫大數據處），而這位關鍵人物，就是臺北醫學大學數據處數據長許明暉。「當數據變得非常龐大、複雜時，就需要專責單位分工處理，」許明暉強調：「健康領域更是如此！」</description>
+     <pubDate>2021-08-26  07:08:00</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/people/146306</guid>
+  </item>
+  <item>
+    <title>同時搭配E Ink顯示器與IPS顯示器，聯想推出雙螢幕超輕薄筆電</title>
+    <link>https://www.ithome.com.tw/review/146347</link>
+    <description> 在1月的美國CES消費電子大展期間，聯想發表多款筆電，我們陸續報導可分離鍵盤使用的ThinkPad X12 Detachable，以及超輕薄筆電ThinkPad X1 Carbon Gen 9，接下來，我們要介紹則是一款雙螢幕筆電，ThinkBook Plus Gen 2i（ThinkBook Plus G2 ITG），在6月正式推出。
+所謂的雙螢幕，是指筆電頂部外殼設置1個12吋電子紙（E Ink）顯示器，而在另一面，也就是我們平時打開筆電開始工作時，所看到的13.3吋IPS顯示器。這兩個螢幕都是低藍光、支援多點觸碰操作（側邊收納了數位筆，當使用者執行特定應用程式時，這支筆會自動彈出），寬度與高度比例為16:10，最高解析度均支援2560 x 1600。</description>
+     <pubDate>2021-08-26  12:08:02</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/review/146347</guid>
+  </item>
+  </channel>
+</rss>
