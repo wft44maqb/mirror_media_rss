@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>Google可能付蘋果150億美元換取預設搜尋引擎地位</title>
+    <link>https://www.ithome.com.tw/news/146417</link>
+    <description> 根據一份分析師估計，今年Google可能付給蘋果150億美元，以換取成為Safari瀏覽器預設搜尋引擎，而在微軟威脅陰影下，明年可能還會增加。</description>
+     <pubDate>2021-08-27  10:08:56</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146417</guid>
+  </item>
+  <item>
     <title>微軟終止Android版Office支援Chromebook</title>
     <link>https://www.ithome.com.tw/news/146416</link>
     <description> Chromebook上要使用Office變得更不方便了。媒體發現，微軟悄悄終止Android版Office對Chromebook的支援，用戶必須上網使用Web版Office。</description>
@@ -252,14 +260,6 @@
      <pubDate>2021-08-25  02:08:25</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146375</guid>
-  </item>
-  <item>
-    <title>NSO繞過蘋果於iOS 14新增的BlastDoor沙箱保護機制以植入Pegasus</title>
-    <link>https://www.ithome.com.tw/news/146374</link>
-    <description> 加拿大多倫多大學的公民實驗室（Citizen Lab）本周揭露，該實驗室在9名中東國家巴林的活動份子手機上，發現了由以色列駭客公司NSO Group所開發的Pegasus間諜程式，且研究顯示NSO已成功繞過蘋果甫於iOS 14新增的BlastDoor沙箱保護機制，呼應了Pegasus專案的發現。</description>
-     <pubDate>2021-08-25  02:08:28</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146374</guid>
   </item>
   </channel>
 </rss>

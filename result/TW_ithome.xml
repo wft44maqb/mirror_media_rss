@@ -6,6 +6,20 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Google可能付蘋果150億美元換取預設搜尋引擎地位</title>
+ <link>https://www.ithome.com.tw/news/146417</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;根據一份分析師估計，今年Google可能付給蘋果150億美元，以換取成為Safari瀏覽器預設搜尋引擎，而在微軟威脅陰影下，明年可能還會增加。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ped30.com/2021/08/25/apple-google-payments-15b/&quot; target=&quot;_blank&quot;&gt;知名資訊專欄作家Philip Elmer-DeWitt&lt;/a&gt;本周引述投資機構Bernstein分析師Toni Sacconaghi的報告，列出近三年Google為了確保成為瀏覽器預設搜尋引擎而付給蘋果的金額。該分析機構依據蘋果公開資料及其他資訊，估計Google 2021年付給蘋果150億美元，比去年的100億大幅增長，推升蘋果服務來到營收850億美元，佔蘋果毛利將近9%。&lt;/p&gt;
+&lt;p&gt;分析師進一步指出，為了防止微軟採取類似方法取代Google搜尋，分析師相信Google仍然會持續「流量取得成本」（TAC，traffic acquisition costs）的策略，估　計2022年付給蘋果180億到200億美元。&lt;/p&gt;
+&lt;p&gt;如果分析機構的數字正確，那蘋果從Google身上賺到的營收呈數倍成長。根據英國主管機關競爭與市場管理署（Competition and Markets Authority）的調查報告，2019年Google支付蘋果15億美元，換取成為Safari的預設搜尋引擎。&lt;/p&gt;
+&lt;p&gt;Google也對其他瀏覽器業者實施類似策略。&lt;a href=&quot;https://www.ithome.com.tw/news/139368&quot; target=&quot;_blank&quot;&gt;媒體去年報導&lt;/a&gt;，Google將以每年4億到4.5億美元的代價，以便能在2021到2023年間成為Firefox預設搜尋引擎。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 02:31:56 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146417 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146417#comments</comments>
+</item>
+<item>
  <title>微軟終止Android版Office支援Chromebook</title>
  <link>https://www.ithome.com.tw/news/146416</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Chromebook上要使用Office變得更不方便了。&lt;a href=&quot;https://www.aboutchromebooks.com/news/microsoft-ending-chromebook-support-for-office-android-apps-in-september/&quot; target=&quot;_blank&quot;&gt;媒體發現&lt;/a&gt;，微軟悄悄終止Android版Office對Chromebook的支援，用戶必須上網使用Web版Office。&lt;/p&gt;
@@ -233,22 +247,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146400 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146400#comments</comments>
-</item>
-<item>
- <title>美國政府審計辦公室調查：聯邦機構的人臉辨識應用以數位存取及網路安全為大宗</title>
- <link>https://www.ithome.com.tw/news/146398</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.gao.gov/assets/gao-21-526.pdf&quot; target=&quot;_blank&quot;&gt;美國政府審計辦公室（GAO）本周再度公布&lt;/a&gt;美國聯邦機構使用人臉辨識技術（Facial Recognition Technology，FRT）的調查報告，指出在接受調查的24個機構中，有18個正在使用FRT系統，其目的各自不同，但有高達16個機構是應用在數位存取及網路安全上，算是最普及的應用。&lt;/p&gt;
-&lt;p&gt;有些機構的FRT只有單一功能，但大多數擁有多重目的。調查顯示，有16個機構是以人臉辨識技術來執行數位存取及網路安全任務，例如要解鎖官方提供的手機或筆電時，或是要存取政府網站時，作為身分識別之用。&lt;/p&gt;
-&lt;p&gt;亦有6個機構利用人臉辨識系統來進行犯罪調查，有時是辨識嫌犯，有時是辨識受害者，而它們使用的可能是商業人臉辨識系統，例如國土安全部（DHS）、司法部（DOJ）、美國衛生及公共服務部（HHS）及美國內政部（DOI）使用了&lt;a href=&quot;https://www.ithome.com.tw/news/135443&quot; target=&quot;_blank&quot;&gt;Clearview AI&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;有5個機構以FRT系統來保障實體安全，包括監控特定人士是否進入了某處，或者是控制某個場所或建築的入口，例如有一個機構以FRT來監控即時影片中是否出現了某些警告名單中的人物，並在發現時通知警衛，包括商務部、國防部、能源部、司法部與美國衛生及公共服務部。&lt;/p&gt;
-&lt;p&gt;美國國土安全部及美國國務院也利用FRT系統來辨識非法入境美國的旅客；有4個機構以FRT來維護國家與國防安全，如偵測恐怖份子。&lt;/p&gt;
-&lt;p&gt;此外，總計有10個機構藉由FRT系統來進行研究，例如有多個機構借助FRT的能力，於疫情期間偵測人們戴口罩的比例，或是用來偵測圖像處理；還有3個機構利用FRT來確認取得臨時通行證的訪客身分，像是國防部、司法部與NASA。&lt;/p&gt;
-&lt;p&gt;值得一提的是，有些機構擁有不只一個FRT系統，例如國防部及司法部各自擁有7個FRT系統，國土安全部則擁有4個FRT系統，而且它們還經常會互通有無。此外，有10個機構打算在2023年以前擴大FRT系統的應用，像是擴大在機場的部署。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 26 Aug 2021 06:46:55 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146398 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146398#comments</comments>
 </item>
 </channel>
 </rss>
