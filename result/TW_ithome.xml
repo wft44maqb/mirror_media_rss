@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>蘋果讓步了，同意讓開發者與使用者溝通其它付款方式</title>
+ <link>https://www.ithome.com.tw/news/146419</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.apple.com/newsroom/2021/08/apple-us-developers-agree-to-app-store-updates/&quot; target=&quot;_blank&quot;&gt;蘋果在26日宣布&lt;/a&gt;，在一起由美國開發者提出的集體訴訟案中，該公司與提告人已與達成和解協議，蘋果將同意讓開發者與使用者溝通其它付款方式，以讓使用者選擇自App Store以外的途徑付款，同時蘋果也發表了新聞合作夥伴專案（News Partner Program），邀請獨立媒體加入Apple News，且承諾只會抽取15%的訂閱費用。&lt;/p&gt;
+&lt;p&gt;此案無關&lt;a href=&quot;https://www.ithome.com.tw/news/139405&quot; target=&quot;_blank&quot;&gt;Epic Games與蘋果之間的訴訟案&lt;/a&gt;，而是有一群美國小型開發者在2019年集體控告蘋果違反反托拉斯法令。&lt;/p&gt;
+&lt;p&gt;根據雙方的協議，雙方同意維持App Store針對小型開發者既有的拆帳架構，亦即年收入低於100萬美元的開發者，只需支付15%的拆帳比例；且App Store的搜尋功能在3年內，都必須基於客觀標準提供搜尋結果，例如下載數、評價及關聯性等；蘋果除了讓開發者能夠申訴被拒絕的程式之外，也將更清楚地闡明上述流程，以及發表年度透明度報告，與外界分享程式審核的各種數據。&lt;/p&gt;
+&lt;p&gt;在此次的協議中，蘋果最大的讓步當屬將允許開發者接觸使用者，提供App Store以外的支付管道。蘋果表示，開發者可透過電子郵件等工具與使用者溝通，且蘋果無法對這些在App Store以外發生的交易收取佣金。&lt;/p&gt;
+&lt;p&gt;另一方面，蘋果準備建立一個基金來協助美國小型的開發者，特別是受到疫情影響的對象，亦發表了新聞合作夥伴專案，邀請獨立媒體加入Apple News，若於Apple News中提供訂閱服務，則僅需支付15%的佣金。&lt;/p&gt;
+&lt;p&gt;此一蘋果與開發者之間的和解協議，將在法院同意之後付諸實行。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 03:50:15 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146419 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146419#comments</comments>
+</item>
+<item>
  <title>Google強化App Engine應用程式安全，加入管理服務帳戶新功能</title>
  <link>https://www.ithome.com.tw/news/146418</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://cloud.google.com/blog/products/serverless/app-engine-egress-controls-and-user-managed-service-accounts&quot; target=&quot;_blank&quot;&gt;Google更新其無伺服器應用程式託管平臺App Engine&lt;/a&gt;，加入兩項新功能，除了提供用戶更多出站流量控制（Egress Controls）能力之外，也加入用戶管理服務帳戶，使得用戶能夠應用最低權限，來增加在App Engine上應用程式的安全性。&lt;/p&gt;
@@ -229,24 +244,6 @@
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="false">146406 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146406#comments</comments>
-</item>
-<item>
- <title>金管會完成第一家公雲虛擬稽核，Google臺灣資料中心是第一家</title>
- <link>https://www.ithome.com.tw/news/146405</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google雲端臺灣總經理謝良承今日（8/26）在國泰金控技術年會一場座談中透露，Google雲端臺灣資料中心已在今年初完成金管會第一次的虛擬稽核了，成為第一家在臺灣完成政府機關稽核的公有雲業者。&lt;/p&gt;
-&lt;p&gt;這項藏在謝良承回覆對談提問的資訊，可說是臺灣企業朝雲端發展的一項重磅消息，特別是對須遵循嚴謹資料保護法規的金融業和醫療業的企業。因為，這代表Google雲端資料中心不只符合國際規範，現也符合了臺灣法規的規範。&lt;/p&gt;
-&lt;p&gt;金管會於2019年時已宣布開放金融業者上雲，因視銀行上雲為委外作業，所以，在監督、稽核、緊急應變等面向皆對金融機構有所要求和規範，使得金融業在上雲之路上，仍然面對不少挑戰，特別是須確保監管機關可查核雲端業者。&lt;/p&gt;
-&lt;p&gt;如今，謝良承在出席座談活動表示：「Google Cloud是唯一一家（公有雲業者）透過政府，今年年初完成臺灣資料中心的第一次虛擬稽核。」經由記者進一步與Google臺灣確認，獲知Google雲端是透過金管會認可的獨立第三方稽核單位，完成對Google雲端臺灣資料中心的虛擬稽核作業。&lt;/p&gt;
-&lt;p&gt;Google領先其他公有雲業者，成為首家在臺完成政府稽核的業者，勢必會加快其他業者完成稽核的速度，有機會帶動新一波企業上雲的浪潮。&lt;/p&gt;
-&lt;p&gt;且除了金管會已開放銀行上雲，身為醫療院所監管單位的衛福部也正在準備開放電子病歷上雲。衛福部資訊處處長龐一鳴於今年5月宣布，衛福部已整合電子病歷上雲託管草案的內部意見，會公開草案以徵詢外部意見。金管會搶先落實的上雲委外作法，也可能成為醫療業上雲規範的參考。&lt;/p&gt;
-&lt;p&gt;不過，現階段Google是三大公有雲業者中，唯一在臺有資料中心已投入運轉的業者。2013年時，Google啟用位在彰化彰濱工業區的旗下臺灣首座資料中心，目前已擴建到第四期，之後，又分別在2019年時，宣布在臺南科技工業園區內，興建在臺第二座資料中心，以及在2020年時，對外證實已在雲林斗六購買6萬坪土地，確定會建立在臺第三座資料中心。總計Google在臺共有三座機房的營運計畫。&lt;/p&gt;
-&lt;p&gt;而身為公有雲第二大業者的微軟，則是在去年10月時宣布，將在臺灣建立Azure區域級雲端資料中心。目前有消息傳出，微軟將在今年底或是明年初啟用臺灣資料中心。&lt;/p&gt;
-&lt;p&gt;三大公有雲業者中僅剩下龍頭AWS，至今尚未發布任何資料中心落地臺灣的興建計畫。相關的消息仍停留在，2017年時，AWS臺灣辦公室送交在臺設立資料中心的第二輪評估報告，給美國總部做進一步的評估。文⊙黃郁芸&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 26 Aug 2021 09:31:18 +0000</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="false">146405 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146405#comments</comments>
 </item>
 </channel>
 </rss>
