@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-27T11:57:27Z</updated>
+ <updated>2021-08-27T12:01:07Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59001385</id>
+  <title><![CDATA[德防长亲赴塔什干慰问联邦国防军官兵]]></title>
+  <updated>2021-08-27T11:44:00Z</updated>
+  <published>2021-08-27T11:44:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德防长亲赴塔什干慰问联邦国防军官兵/a-59001385?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[德国联邦国防军在阿富汗人员撤离任务结束，国防部长克朗普-卡伦鲍尔亲赴乌兹别克斯坦首都塔什干国际机场慰问。该机场是德军撤离使命转运中心。]]></summary>
+  <category term="德国新闻"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59000555</id>
+  <title><![CDATA[英国通信管理局再次对CGTN处以罚款]]></title>
+  <updated>2021-08-27T11:38:00Z</updated>
+  <published>2021-08-27T11:38:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/英国通信管理局再次对cgtn处以罚款/a-59000555?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[英国通信管理局8月26日以违反公平和隐私为由，对中国环球电视网（CGTN) 处以20万英镑罚款。今年3月，该监管机构已对CGTN处以过22.5万英镑罚款。CGTN今年2月被吊销在英国的广播执照，但近日已恢复了在英国的播出。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:57217657</id>
   <title><![CDATA[柴可夫斯基：西班牙舞曲]]></title>
@@ -71,7 +91,7 @@
   <published>2021-08-27T01:53:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/拜登：我们将追捕你们，让你们付出代价/a-58997025?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[26日在喀布尔机场附近发生的两起自杀式爆炸袭击案已经造成至少95名平民人死亡，140人受伤。13名美国军人丧生。美国总统拜登8月26日誓言追捕恐怖袭击者，并要求五角大楼制定相关反击计画。与此同时，美军代表坦承，可能会有更多类似事件发生。]]></summary>
+  <summary><![CDATA[26日在喀布尔机场附近发生的两起自杀式爆炸袭击案已经造成至少95名平民死亡，140人受伤。13名美国军人丧生。美国总统拜登8月26日誓言追捕恐怖袭击者，并要求五角大楼制定相关反击计画。与此同时，美军代表坦承，可能会有更多类似事件发生。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -125,16 +145,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58991784</id>
-  <title><![CDATA[德政府囤积疫苗计划遭批“自私短视”]]></title>
-  <updated>2021-08-26T12:43:00Z</updated>
-  <published>2021-08-26T12:43:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德政府囤积疫苗计划遭批-自私短视/a-58991784?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[由于新增病例逐日攀升，罗伯特科赫研究所指出，德国已经处于第四波疫情的初期。与此同时，政府有关贮备疫苗以备不时之需的计划则遭到专家们的批评和反对。]]></summary>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58991668</id>
   <title><![CDATA[日本自民党9月底选举新一届党魁]]></title>
   <updated>2021-08-26T12:43:00Z</updated>
@@ -143,6 +153,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/日本自民党9月底选举新一届党魁/a-58991668?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[日本共同社报道称，今天日本自民党在总裁选举管理委员会会议上敲定下一届党魁选举投票时间为9月29日。路透社指出，当前日本正面临着最严重的一波疫情感染，首相菅义伟的支持率已降至30%以下。自民党政务调查委员会前会长岸田文雄宣布参选自民党总裁，与菅义伟再次对决。]]></summary>
   <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58991784</id>
+  <title><![CDATA[德政府囤积疫苗计划遭批“自私短视”]]></title>
+  <updated>2021-08-26T12:43:00Z</updated>
+  <published>2021-08-26T12:43:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德政府囤积疫苗计划遭批-自私短视/a-58991784?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[由于新增病例逐日攀升，罗伯特科赫研究所指出，德国已经处于第四波疫情的初期。与此同时，政府有关贮备疫苗以备不时之需的计划则遭到专家们的批评和反对。]]></summary>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58989597</id>
@@ -345,16 +365,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58906625</id>
-  <title><![CDATA[柏林——永远的间谍之都]]></title>
-  <updated>2021-08-22T07:40:00Z</updated>
-  <published>2021-08-22T07:40:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58904029</id>
   <title><![CDATA[阿富汗艺术家：“失望、痛苦、愤怒”]]></title>
   <updated>2021-08-22T07:40:00Z</updated>
@@ -365,14 +375,14 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58897772</id>
-  <title><![CDATA[东欧国家认清了中国投资？]]></title>
-  <updated>2021-08-22T07:19:00Z</updated>
-  <published>2021-08-22T07:19:00Z</published>
+  <id>tag:dw.com,2021:58906625</id>
+  <title><![CDATA[柏林——永远的间谍之都]]></title>
+  <updated>2021-08-22T07:40:00Z</updated>
+  <published>2021-08-22T07:40:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东欧国家认清了中国投资？/a-58897772?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国希望在中东欧扩大其影响力。在欧盟东翼，有人呼吁抵制中国的“腐蚀性资本”，但也有人并未看到威胁。]]></summary>
-  <category term="经济纵横"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
+  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58888640</id>
@@ -383,6 +393,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
   <category term="科技环境"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58897772</id>
+  <title><![CDATA[东欧国家认清了中国投资？]]></title>
+  <updated>2021-08-22T07:19:00Z</updated>
+  <published>2021-08-22T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东欧国家认清了中国投资？/a-58897772?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国希望在中东欧扩大其影响力。在欧盟东翼，有人呼吁抵制中国的“腐蚀性资本”，但也有人并未看到威胁。]]></summary>
+  <category term="经济纵横"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58944458</id>
