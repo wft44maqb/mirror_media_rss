@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 27 Aug 2021 23:20:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Aug 2021 23:23:17 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 27 Aug 2021 23:20:08 GMT</pubDate>
+        <pubDate>Fri, 27 Aug 2021 23:23:17 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -28,11 +28,25 @@
         <category><![CDATA[華爾街日報中文網]]></category>
         <category><![CDATA[Wall Street Journal]]></category>
         <item>
+            <title><![CDATA[中國擬禁止擁有大量敏感數據的互聯網公司赴美上市]]></title>
+            <description><![CDATA[<img width="1280" height="855" src="https://si.wsj.net/public/resources/images/S1-LT111_0827ci_OR_20210827004801.jpg" class="webfeedsFeaturedVisual" alt=""/><p>知情人士透露，中國計劃提出新規，禁止擁有大量敏感消費者數據的公司赴美國上市。中國互聯網公司的海外上市雄心恐將因此受挫。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E6%93%AC%E7%A6%81%E6%AD%A2%E6%93%81%E6%9C%89%E5%A4%A7%E9%87%8F%E6%95%8F%E6%84%9F%E6%95%B8%E6%93%9A%E7%9A%84%E4%BA%92%E8%81%AF%E7%B6%B2%E5%85%AC%E5%8F%B8%E8%B5%B4%E7%BE%8E%E4%B8%8A%E5%B8%82-11630054808</link>
+            <guid isPermaLink="false">CT-FIN-20210827153001</guid>
+            <pubDate>Fri, 27 Aug 2021 09:15:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[美國氣候特使克裡將施壓中國停止資助國際燃煤能源項目]]></title>
             <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LS786_CKERRY_OR_20210826102654.jpg" class="webfeedsFeaturedVisual" alt=""/><p>克裡計劃下周再次訪華時要求中國領導人宣布正式停止為國際燃煤項目提供資金。但北京方面不希望被視為屈服於西方的壓力。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B%E6%B0%A3%E5%80%99%E7%89%B9%E4%BD%BF%E5%85%8B%E8%A3%A1%E5%B0%87%E6%96%BD%E5%A3%93%E4%B8%AD%E5%9C%8B%E5%81%9C%E6%AD%A2%E8%B3%87%E5%8A%A9%E5%9C%8B%E9%9A%9B%E7%87%83%E7%85%A4%E8%83%BD%E6%BA%90%E9%A0%85%E7%9B%AE-11630022705</link>
             <guid isPermaLink="false">CT-BGH-20210827075142</guid>
             <pubDate>Fri, 27 Aug 2021 05:35:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中國恆大預警上半年房地產業務出現虧損]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LS710_everlo_OR_20210826062630.jpg" class="webfeedsFeaturedVisual" alt=""/><p>中國恆大集團稱，其主營房地產業務在2021年上半年發生罕見虧損。這對於這家在過去10年迅速擴張和大舉借債的房地產開發商來說是又一個挫折。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E6%81%86%E5%A4%A7%E9%A0%90%E8%AD%A6%E4%B8%8A%E5%8D%8A%E5%B9%B4%E6%88%BF%E5%9C%B0%E7%94%A2%E6%A5%AD%E5%8B%99%E5%87%BA%E7%8F%BE%E8%99%A7%E6%90%8D-11630022405</link>
+            <guid isPermaLink="false">CT-BIZ-20210827073750</guid>
+            <pubDate>Fri, 27 Aug 2021 02:10:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中國工廠遭遇用工荒——「我們幾乎招不到工人」]]></title>
@@ -70,6 +84,13 @@
             <pubDate>Fri, 27 Aug 2021 02:30:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[美聯儲官員稱縮表時機即將到來]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LN226_FED081_OR_20210811132103.jpg" class="webfeedsFeaturedVisual" alt=""/><p>三位美聯儲官員周四分別在電視採訪中表示，削減央行購債刺激措施的時機即將到來。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E7%BE%8E%E8%81%AF%E5%84%B2%E5%AE%98%E5%93%A1%E7%A8%B1%E7%B8%AE%E8%A1%A8%E6%99%82%E6%A9%9F%E5%8D%B3%E5%B0%87%E5%88%B0%E4%BE%86-11630032605</link>
+            <guid isPermaLink="false">CT-FED-20210827103800</guid>
+            <pubDate>Fri, 27 Aug 2021 03:35:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[吉利旗下電動車公司將向英特爾和寧德時代等投資者籌資5億美元]]></title>
             <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-JY083_0413ge_G_20210413042353.jpg" class="webfeedsFeaturedVisual" alt=""/><p>吉利汽車控股有限公司旗下的高端電動汽車公司極氪智能科技將通過外部投資者籌集5億美元，這些投資者包括英特爾公司、寧德時代新能源科技股份有限公司和中國影片共享平台Bilibili。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E5%90%89%E5%88%A9%E6%97%97%E4%B8%8B%E9%9B%BB%E5%8B%95%E8%BB%8A%E5%85%AC%E5%8F%B8%E5%B0%87%E5%90%91%E8%8B%B1%E7%89%B9%E7%88%BE%E5%92%8C%E5%AF%A7%E5%BE%B7%E6%99%82%E4%BB%A3%E7%AD%89%E6%8A%95%E8%B3%87%E8%80%85%E7%B1%8C%E8%B3%875%E5%84%84%E7%BE%8E%E5%85%83-11630066335</link>
@@ -77,11 +98,25 @@
             <pubDate>Fri, 27 Aug 2021 12:30:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[薩爾瓦多的危險試驗即將開啟：比特幣9月7日正式成為法幣]]></title>
+            <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LR950_ELSALV_OR_20210824122532.jpg" class="webfeedsFeaturedVisual" alt=""/><p>還有不到兩周的時間，中美洲國家薩爾瓦多就將成為首個以比特幣作為法定貨幣的國家。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E8%96%A9%E7%88%BE%E7%93%A6%E5%A4%9A%E7%9A%84%E5%8D%B1%E9%9A%AA%E8%A9%A6%E9%A9%97%E5%8D%B3%E5%B0%87%E9%96%8B%E5%95%9F%EF%BC%9A%E6%AF%94%E7%89%B9%E5%B9%A39%E6%9C%887%E6%97%A5%E6%AD%A3%E5%BC%8F%E6%88%90%E7%82%BA%E6%B3%95%E5%B9%A3-11630036807</link>
+            <guid isPermaLink="false">CT-FIN-20210827111040</guid>
+            <pubDate>Fri, 27 Aug 2021 04:31:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[可持續投資引起監管審視]]></title>
             <description><![CDATA[<img width="1279" height="862" src="https://si.wsj.net/public/resources/images/S1-LS727_DWSHER_OR_20210826075551.jpg" class="webfeedsFeaturedVisual" alt=""/><p>投資行業關於可持續發展的某些說法是難以為繼的。美國對德意志銀行資產管理部門的調查可能有助於篩選出一些虛假的說法。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E5%8F%AF%E6%8C%81%E7%BA%8C%E6%8A%95%E8%B3%87%E5%BC%95%E8%B5%B7%E7%9B%A3%E7%AE%A1%E5%AF%A9%E8%A6%96-11630048806</link>
             <guid isPermaLink="false">CT-HRD-20210827142818</guid>
             <pubDate>Fri, 27 Aug 2021 07:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coinbase的投資者面臨風險]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LS480_COINHE_OR_20210825143019.jpg" class="webfeedsFeaturedVisual" alt=""/><p>Coinbase的股票估值基於這樣一種觀點：未來幾年加密貨幣的普及和接受程度都會越來越高。未來幾個月，監管機構對此可能有話要說。</p>]]></description>
+            <link>https://cn.wsj.com/articles/coinbase%E7%9A%84%E6%8A%95%E8%B3%87%E8%80%85%E9%9D%A2%E8%87%A8%E9%A2%A8%E9%9A%AA-11630046406</link>
+            <guid isPermaLink="false">CT-HRD-20210827141624</guid>
+            <pubDate>Fri, 27 Aug 2021 07:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[從美國軍機墜下身亡的阿富汗17歲足球新星]]></title>
