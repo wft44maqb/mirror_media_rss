@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Google強化App Engine應用程式安全，加入管理服務帳戶新功能</title>
+ <link>https://www.ithome.com.tw/news/146418</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://cloud.google.com/blog/products/serverless/app-engine-egress-controls-and-user-managed-service-accounts&quot; target=&quot;_blank&quot;&gt;Google更新其無伺服器應用程式託管平臺App Engine&lt;/a&gt;，加入兩項新功能，除了提供用戶更多出站流量控制（Egress Controls）能力之外，也加入用戶管理服務帳戶，使得用戶能夠應用最低權限，來增加在App Engine上應用程式的安全性。&lt;/p&gt;
+&lt;p&gt;App Engine為一個完全託管的應用程式平臺，對應用程式的出站流量提供了一個IP地址池，讓用戶能夠不必管理網路細節就能提供服務，對不少用戶方便且已經足夠，不過，有部分App Engine用戶需要對出站請求進行更多的控制，因此Google加入了新功能來滿足這些用戶的需求。&lt;/p&gt;
+&lt;p&gt;App Engine的出站流量控制新功能，借助Cloud VPC服務中的無伺服器VPC存取功能，無伺服器VPC存取功能，可讓用戶配置連接器，將請求從App Engine應用程式路由到自己的VPC網路，而出站流量控制，能使用戶更好地控制使用VPC連接器的流量。&lt;/p&gt;
+&lt;p&gt;Google提到，出站流量控制的重要使用案例，是對App Engine的HTTP請求創建靜態出站IP地址，因為部分App Engine用戶提供的SaaS服務，必須連接到終端用戶網路，不過這些終端用戶通常傾向只對特定來源IP的流量開啟防火牆，而藉由出站流量控制，用戶就可以使用無伺服器VPC存取和Cloud NAT來配置靜態IP地址。&lt;/p&gt;
+&lt;p&gt;App Engine另一項新功能，是讓用戶可以對每個應用程式版本，指定不同的服務帳戶。目前App Engine使用預設服務帳戶，來代表App Engine應用程式和其他GCP服務互動，而這個預設服務帳戶，是在初始App Engine應用程式過程中設定的，用戶可以管理並授予該服務帳戶的權限，但因為這個帳戶被應用程式的所有服務使用，因此無論特定服務需要的權限為何，所有服務都共享同一個權限集。&lt;/p&gt;
+&lt;p&gt;而現在Google加入用戶管理服務帳戶新功能，讓用戶可以對應用程式的每個版本，指定使用不同的服務帳戶，限制每個服務帳戶僅具執行任務需要的權限，而非對單一共享服務帳戶，授予應用程式中的所有服務需要的權限，好處是用戶可以遵循最低權限的最佳實踐。當用戶未指定服務帳戶，則App Engine使用預設服務帳戶。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 03:24:04 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146418 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146418#comments</comments>
+</item>
+<item>
  <title>Google可能付蘋果150億美元換取預設搜尋引擎地位</title>
  <link>https://www.ithome.com.tw/news/146417</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;根據一份分析師估計，今年Google可能付給蘋果150億美元，以換取成為Safari瀏覽器預設搜尋引擎，而在微軟威脅陰影下，明年可能還會增加。&lt;/p&gt;
@@ -232,21 +247,6 @@
  <dc:creator>黃郁芸</dc:creator>
  <guid isPermaLink="false">146405 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146405#comments</comments>
-</item>
-<item>
- <title>小米買下自駕車新創Deepmotion</title>
- <link>https://www.ithome.com.tw/news/146400</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;小米集團周三（8/25）公布今年第二季的財報，同時宣布將以7,737萬美元的價格，&lt;a href=&quot;https://cdn.cnbj1.fds.api.mi-img.com/company/announcement/en-us/%E8%8B%B1%E6%96%87-_2021082500731.pdf&quot; target=&quot;_blank&quot;&gt;買下中國的自駕車新創深動科技（Deepmotion Tech Limited）&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;總部位於北京的深動科技成立於2017年，員工人數尚不到50人，主要開發自動駕駛解決方案，宣稱可整合各種感應器，並透過雲端架構來更新地圖與最佳化的自動駕駛演算法，還標榜可將AI演算法快速部署於不同的嵌入式平臺，以及具備硬體設計能力以解決軟、硬體的搭配問題。&lt;/p&gt;
-&lt;p&gt;目前的深動科技提供自動停車軟體解決方案、感應系統解決方案，以及自動化地圖與高精度定位等模組。不過，在小米宣布此一收購案之後，&lt;a href=&quot;https://deepmotion.ai/&quot; target=&quot;_blank&quot;&gt;深度科技的官網&lt;/a&gt;已無法存取。&lt;/p&gt;
-&lt;p&gt;根據&lt;a href=&quot;https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0330/2021033000824.pdf&quot; target=&quot;_blank&quot;&gt;小米提交給香港交易所的文件&lt;/a&gt;，小米將成立一個全新的子公司來經營智慧電動車業務，初期投入的資金為100億元人民幣（約15.5億美元），而未來10年的總投資可望達到100億美元，並由小米集團的執行長雷軍擔任此一新公司的執行長。&lt;/p&gt;
-&lt;p&gt;小米表示，該公司希望能夠提供高品質的智慧電動車，以讓全球的使用者都能享受智慧生活。&lt;/p&gt;
-&lt;p&gt;小米今年第二季的營收為878億元人民幣，比去年同期增加了64%，獲利為63億元人民幣，成長87.4%。從營收類別來看，手機依然是小米集團最主要的營收來源，該季替小米帶進了592億美元的營收，占小米總營收的67.3%。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 26 Aug 2021 07:52:06 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146400 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146400#comments</comments>
 </item>
 </channel>
 </rss>
