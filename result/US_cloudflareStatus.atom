@@ -4,7 +4,7 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-08-27T05:27:10Z</updated>
+  <updated>2021-08-27T05:27:50Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -18,11 +18,11 @@
   </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7854887</id>
-    <published>2021-08-27T05:27:10Z</published>
-    <updated>2021-08-27T05:27:10Z</updated>
+    <published>2021-08-27T05:27:21Z</published>
+    <updated>2021-08-27T05:27:21Z</updated>
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/6k4vhf15bjpp"/>
     <title>Cloudflare Dashboard Issue</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;05:24&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with the Workers Dashboard.&lt;br /&gt;&lt;br /&gt;Customers using Workers Dashboard are impacted, but customers can still use API to create the route.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;05:27&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;05:24&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with the Workers Dashboard.&lt;br /&gt;&lt;br /&gt;Customers using Workers Dashboard are impacted, but customers can still use API to create the route.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7673758</id>
