@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
+
+<channel>
+	<title>亚马逊AWS官方博客</title>
+	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
+	<link>https://aws.amazon.com/cn/blogs/china/</link>
+	<description>Just another AWS Brew Blogs  site</description>
+	<lastBuildDate>Wed, 25 Aug 2021 03:16:09 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>关于Amazon EKS中Service和Ingress深入分析和研究</title>
+		<link>https://aws.amazon.com/cn/blogs/china/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks/</link>
+				<pubDate>Wed, 25 Aug 2021 03:16:09 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Containers]]></category>
+		<category><![CDATA[Amazon Elastic Kubernetes Service]]></category>
+		<category><![CDATA[Amazon elastic load balancer]]></category>
+
+		<guid isPermaLink="false">f55b4bf47866bdab1e857be08eff6e59ddfbea66</guid>
+				<description>在使用Amazon EKS的过程中，暴露容器化的服务(各种类型的协议),经常会碰到Kubernetes Service和Ingress。它们具体适用的场景和特点是什么了？比如IoT场景下的服务暴露，使用那种方式比较适合了？这里和业务场合相关，也和Service和Ingress技术实现有很大关联。那细节上它们具体是如何实现的了？本文将主要讨论Amazon EKS中Service和Ingress的具体实现细节。知道这些细节后，我们能做出更好的取舍。</description>
+								<content:encoded>&lt;h2&gt;&lt;strong&gt;一、背景介绍&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;在使用Amazon EKS的过程中，暴露容器化的服务(各种类型的协议),经常会碰到Kubernetes Service和Ingress。它们具体适用的场景和特点是什么了？比如IoT场景下的服务暴露，使用那种方式比较适合了？这里和业务场合相关，也和Service和Ingress技术实现有很大关联。那细节上它们具体是如何实现的了？本文将主要讨论Amazon EKS中Service和Ingress的具体实现细节。知道这些细节后，我们能做出更好的取舍。&lt;/p&gt; 
+&lt;p&gt;这里有一个典型的场景，对于一些应用的某些部分，比如常说的前端，可能希望将其暴露给 Amazon EKS集群外部的IP地址，Kubernetes Service和Ingress是常见的两种方式。对于Kubernetes Service允许指定你所需要的Service Tyeps(类型)。Service Types的可能的选项以及具体的特性如下：&lt;/p&gt; 
+&lt;p&gt;(1) ClusterIP: 通过集群的内部IP(虚拟IP/VIP)暴露服务，选择此选项时服务只能够在集群内部访问。 这也是默认的Service类型。&lt;/p&gt; 
+&lt;p&gt;(2) NodePort: 通过每个节点(worker node)上的IP和静态端口(NodePort)暴露服务。 NodePort服务会路由到自动创建的ClusterIP服务。 通过请求&amp;lt;节点 IP&amp;gt;:&amp;lt;节点端口&amp;gt;，你可以从集群的外部访问一个NodePort服务。&lt;/p&gt; 
+&lt;p&gt;(3)LoadBalancer: 使用云提供商的负载均衡器向外部暴露服务。 外部负载均衡器可以将流量路由到自动创建的NodePort服务和 ClusterIP 服务上。&lt;/p&gt; 
+&lt;p&gt;(4) ExternalName：通过返回CNAME和对应值，可以将服务映射到externalName字段的内容（例如，foo.bar.example.com）。 无需创建任何类型代理。&lt;/p&gt; 
+&lt;p&gt;说明：你需要使用kube-dns 1.7及以上版本或者 oreDNS 0.0.8 及以上版本才能使用 ExternalName 类型。&lt;/p&gt; 
+&lt;p&gt;另外，你也可以使用 Ingress 来暴露服务。 Ingress 不是一种Service Tyeps(类型)，但它充当集群提供的服务的入口。 它可以将路由规则整合到一个资源中，因为它可以在同一IP地址下公开多个服务。&lt;/p&gt; 
+&lt;p&gt;上面对Service Tyeps(类型)和Ingress做了大致的介绍，但是你理解它具体是如何实现的吗？又如何根据他的特点来选择和配置呢？接下来我们来讨论Service (ClusterIP, NodePort, LoadBalancer)和Ingress。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;&lt;strong&gt;二、准备知识&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;在分析和研究Service 和Ingress之前，让我们先温顾一下ISO OSI 7层模型和TCP/IP 4层模型。另外还有就是Linux的network stack以及netfilter 和iptables。因为这些都是我们来分析和研究Service和Ingress的前提知识。&lt;/p&gt; 
+&lt;h3&gt;1) ISO OSI 7层模型和TCP/IP 4层模型&lt;/h3&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 开放系统互连模型（ISO OSI 7层模型）是一个概念模型，它对电信或计算系统的通信功能进行了描述和标准化，不考虑其潜在的内部结构和技术。它的目标是使不同的通信系统与标准通信协议具有互操作性。&lt;/p&gt; 
+&lt;p&gt;传输控制协议/互联网协议模型(TCP/IP 4层模型)是指一套管理像以太网这样的IP网络中设备之间通信的规则。它是以一系列的层来实现的。为什么要分层？层允许我们处理复杂的系统，将问题分离成各个组成部分，然后以模块化的方式处理它。这种模块化使系统能够被维护和更新，而不会给系统的其他部分带来麻烦。&lt;/p&gt; 
+&lt;p&gt;ISO OSI 7层模型和TCP/IP 4层模型有如上图的的对应关系。如上各层的信息，可以参考以下的link:&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/OSI_model"&gt;https://en.wikipedia.org/wiki/OSI_model&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;2) Linux Network Stack&lt;/h3&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 上图主要反映Linux Network Stack的层次结构。Linux内核由几个重要部分组成,其中包括进程管理、内存管理、硬件设备驱动、文件系统驱动、网络管理和其他各种部分。其中最大的特性之一是它的网络堆栈(Network Stack)，它最初起源于BSD的网络堆栈，有一个非常简洁的界面，而且组织良好。它的接口范围从与协议无关的层（如一般套接字层接口或设备层）到各种网络协议的特定层。请注意其中的Netfilter层。&lt;/p&gt; 
+&lt;p&gt;下图是详细的发送者和接受者之间的数据传输路径(图片来之 &lt;a href="https://www.cs.cornell.edu/~qizhec/paper/tcp_2021.pdf"&gt;https://www.cs.cornell.edu/~qizhec/paper/tcp_2021.pdf&lt;/a&gt; )&lt;/p&gt; 
+&lt;h3&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 3) netfilter 和iptables&lt;/h3&gt; 
+&lt;p&gt;netfilter官网对netfilter 和iptables有很好介绍和说明，具体如下：&lt;/p&gt; 
+&lt;p&gt;什么是netfilter项目？&lt;/p&gt; 
+&lt;p&gt;netfilter项目是一个社区驱动的协作性的FOSS(开源免费软件)项目，为Linux 2.4.x及以后的内核系列提供包过滤软件。netfilter项目通常与iptables和它的后继者nftables有关。&lt;/p&gt; 
+&lt;p&gt;netfilter项目实现了数据包过滤、网络地址[和端口]转换（NA[P]T）、数据包记录、用户空间数据包排队和其他数据包处理。&lt;/p&gt; 
+&lt;p&gt;iptables是一个通用的防火墙软件，允许你定义规则集。iptables内的每个规则由一些分类器(iptables匹配)和一个连接动作(action)或iptables目标(target)组成。留意这里的action和target.&lt;/p&gt; 
+&lt;p&gt;netfilter主要特点&lt;/p&gt; 
+&lt;p&gt;(1)无状态数据包过滤(IPv4和IPv6)&lt;/p&gt; 
+&lt;p&gt;(2)有状态数据包过滤（IPv4和IPv6&lt;/p&gt; 
+&lt;p&gt;(3)各种网络地址和端口转换，如NAT/NAPT（IPv4和IPv6）。&lt;/p&gt; 
+&lt;p&gt;(4)灵活和可扩展的基础设施&lt;/p&gt; 
+&lt;p&gt;(5)用于第三方扩展的多层次的API&lt;/p&gt; 
+&lt;p&gt;根据如上的内容，netfilter提供的是一个数据包过滤的框架，而iptables只是通过定义的规则集来调用这个框架的工具。所以我们经常使用的工具为iptables。&lt;/p&gt; 
+&lt;p&gt;在netfilter框架中过滤的流程图，来至于&lt;a href="https://en.wikipedia.org/wiki/Netfilter"&gt;https://en.wikipedia.org/wiki/Netfilter&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 上面是详细版本数据包流程图，下面给一个笔者制作的简易易于理解的流程图：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 当我们说iptables，什么是链和表了？经常会说道四表五链。那具体是什么了？如上图&lt;/p&gt; 
+&lt;p&gt;从数据包的角度，进入到Linux Network Stack中的netfilter环节，扮演成网络防火墙的netfilter会根据设定规则来过滤这些数据包，比如拒绝掉ping请求(ICMP包)。这些规则就组织成了形如链的结构–“规则链”。这些链用预定义的标题来命名，五链包括PREROUTING, INPUT, OUTPUT, FORWARD和POSTROUTING。这些链的标题有助于描述netfilter堆栈中的位置和起源。例如，数据包的接收属于PREROUTING，而INPUT代表本地交付的数据，转发的流量则属于FORWARD链。本地产生的输出通过OUTPUT链，而要发送出去的数据包则在POSTROUTING链。另外，链中规则还可以执行自己定义的规则(放置于自定义链中)，这就使额外的处理和迭代成为可能。Kubernetes Service中大量使用了自定义链。&lt;/p&gt; 
+&lt;p&gt;但一条链上有了太多的规则后，如何对这些规则进行管理是个问题。我们可以将具有相同功能的规则集合放在一起，这里就形成了表。iptables已经默认定义了四张表。它们分别是filter, nat, raw, mangle。每个表的引入都是为了服务于一个特定的目的, 就netfilter而言，它以特定的顺序相对于其他表运行一个特定的表，比如上图中的PREROUTING链中表的执行顺序就是raw,mangle和nat。这四表的功能如下：&lt;/p&gt; 
+&lt;p&gt;(1)filter表：负责过滤功能，防火墙；内核模块：iptables_filter&lt;/p&gt; 
+&lt;p&gt;(2)nat表：network address translation，网络地址转换功能；内核模块：iptable_nat&lt;/p&gt; 
+&lt;p&gt;(3)mangle表：拆解报文，做出修改，并重新封装 的功能；内核模块：iptable_mangle&lt;/p&gt; 
+&lt;p&gt;(4)raw表：关闭nat表上启用的连接追踪机制；内核模块：iptable_raw&lt;/p&gt; 
+&lt;p&gt;因为iptables中表和链的关系刚接触理解起来是比较繁琐的，所以建议看如下的博客，写的比较通俗易懂 &lt;a href="https://www.zsythink.net/archives/tag/iptables/page/2"&gt;https://www.zsythink.net/archives/tag/iptables/page/2&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;&lt;strong&gt;三、&lt;/strong&gt;&lt;strong&gt;Service和Ingress分析和研究&lt;/strong&gt;&lt;/h2&gt; 
+&lt;h3&gt;1) 准备实验环境&lt;/h3&gt; 
+&lt;p&gt;此处使用亚马逊云科技的宁夏区域，使用如下的yaml文件，通过eksctl创建EKS集群，具体创建步骤方法可以参考github链接 — &lt;a href="https://github.com/jerryjin2018/AWS-China-EKS-Workshop-2021/blob/main/Lab1:%20Create%20an%20EKS%20cluster%20through%20eksctl.md"&gt;https://github.com/jerryjin2018/AWS-China-EKS-Workshop-2021/blob/main/Lab1:%20Create%20an%20EKS%20cluster%20through%20eksctl.md&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;本次分析和研究用的yaml文件在如下的连接中&lt;a href="https://github.com/jerryjin2018/service_ingress/tree/main/code"&gt;https://github.com/jerryjin2018/service_ingress/tree/main/code&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;eksgo05-cluster.yaml&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-json"&gt;apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: eksgo05
+  region: cn-northwest-1 
+  version: &amp;quot;1.19&amp;quot;
+
+managedNodeGroups:
+  - name: ng-eksgo05-01
+    instanceType: t3.xlarge
+    instanceName: ng-eksgo05
+    desiredCapacity: 3
+    minSize: 1
+    maxSize: 8 
+    volumeSize: 100
+    ssh:
+      publicKeyName: your_key_pair
+      allow: true
+      enableSsm: true 
+    iam:
+      withAddonPolicies:
+        ebs: true
+        fsx: true
+        efs: true&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;查看新建集群的状态：&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl get nodes&lt;/code&gt;&lt;/p&gt; 
+&lt;h3&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 2) 检查每个worker node上iptables中四表的状态&lt;/h3&gt; 
+&lt;p&gt;因为iptables命令就是按照参数-t[表名]来展示规则的。默认是filter表。登陆到其中一台worker node上&lt;/p&gt; 
+&lt;p&gt;2.1)检查filter表&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t filter -vnL | grep ^Chain &amp;amp;&amp;amp; iptables -t filter -vnL | grep ^Chain | wc -l&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; filter表处理有默认的链，还有自定义的链，如KUBE-SERVICES等。共12条链。&lt;/p&gt; 
+&lt;p&gt;2.2)检查nat表&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL | grep ^Chain &amp;amp;&amp;amp; iptables -t nat -vnL | grep ^Chain | wc -l&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; nat表处理有默认的链，还有自定义的链，如KUBE-SERVICES等。共32条链。&lt;/p&gt; 
+&lt;p&gt;2.3)检查raw表&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t raw -vnL | grep ^Chain &amp;amp;&amp;amp; iptables -t raw -vnL | grep ^Chain | wc -l&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; raw表处理有默认的链。&lt;/p&gt; 
+&lt;p&gt;2.4)检查mangle表&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t mangle -vnL | grep ^Chain &amp;amp;&amp;amp; iptables -t mangle -vnL | grep ^Chain | wc -l&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks10.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; mangle表处理有默认的链，还有自定义的链，如KUBE-PROXY-CANARY等。共7条链。&lt;/p&gt; 
+&lt;p&gt;2.5)给node group中增加一个node，看新的node上的iptables中四表的状态&lt;/p&gt; 
+&lt;p&gt;查看目前node group中node的数量&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;aws eks describe-nodegroup&amp;nbsp; --cluster-name eksgo05 --nodegroup-name ng-eksgo05-01 | jq .nodegroup.scalingConfig&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks11.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 增加一个node&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;aws eks update-nodegroup-config --cluster-name eksgo05 --nodegroup-name ng-eksgo05-01 --scaling-config minSize=1,maxSize=8,desiredSize=4&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks12.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 再次检查node group的&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;aws eks describe-nodegroup&amp;nbsp; --cluster-name eksgo05 --nodegroup-name ng-eksgo05-01 | jq .nodegroup.scalingConfig&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks13.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;code&gt;kubectl get nodes&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks14.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks14.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 登陆到这个新增加的worker node上，我们会发现iptables的四张表中的链，包括自定义链（在准备知识中已经解释了）的数量和名称都是一样的，也就是说，默认情况下，所有worker node上的iptables的规则定义是一样，这个和笔者以前了解的分布式的SDN的实现方式是一致的。&lt;/p&gt; 
+&lt;p&gt;将node group仍然调整为3个nodes，具体命令为&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;aws eks update-nodegroup-config --cluster-name eksgo05 --nodegroup-name ng-eksgo05-01 --scaling-config minSize=1,maxSize=8,desiredSize=3&lt;/code&gt;&lt;/p&gt; 
+&lt;h3&gt;3) 分析Service类型是ClusterIP的场景&lt;/h3&gt; 
+&lt;p&gt;3.1)创建类型为ClusterIP的Service和测试的Deployment, testenv_clusterip.yaml&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-json"&gt;---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: net-test
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: net-test
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx-net
+  template:
+    metadata:
+      labels:
+        app: nginx-net
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service-clusterip
+  namespace: net-test
+spec:
+  type: ClusterIP
+  selector:
+    app: nginx-net
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 80
+:
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;code&gt;kubectl apply -f testenv_cluster.yaml &amp;amp;&amp;amp; kubectl get service -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;3.2)检查ClusterIP的Service和对应的nat表中的链&lt;/p&gt; 
+&lt;p&gt;查看创建的类型为ClusterIP的Service对应deployment中的pod&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks15.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks15.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; nat表中的链有iptable默认定义的链(PREROUTING,INPUT,OUTPUT,POSTROUTING)&lt;/p&gt; 
+&lt;p&gt;在测试机器上执行kubectl,我们可以看到我们刚刚创建的名为nginx-service-clusterip 的service，目前为ClusterIP的类型(TYPE)，而且它的CLUSTER-IP地址为10.100.87.207，端口为8080/TCP，也就是通过 nginx-service(10.100.87.207)的8080端口可以访问到target(pod的80端口）&lt;/p&gt; 
+&lt;p&gt;再查看service名为nginx-service-clusterip中的细节以及endpoints和endpointslices clusterip&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl describe service/nginx-service-clusterip -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl get endpoints -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl describe service/nginx-service-clusterip -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl describe endpointslices.discovery.k8s.io/nginx-service-clusterip-kzkhp -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks16.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks16.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 登陆到其中一台worker node上查看iptables 规则，其实在3个worker node上的iptables -t nat -vnL结果基本一样，只是Chain KUBE-SERVICES中具体的规则的顺序不一样&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks17.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks17.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks18.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks18.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks19.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks19.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;nat表中的链有iptable默认定义的链(PREROUTING,INPUT,OUTPUT,POSTROUTING)，来检查CLUSTER IP — 10.100.87.207。我们会发现10.100.87.207 在自定义链 KUBE-SERVICES中定义一条规则，具体如下，并且应用的target/action是KUBE-SVC-7QI22HNU2ECHCQD4&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL&amp;nbsp; | grep -i &amp;quot;10.100.87.207&amp;quot; -B 8&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks20.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks20.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 那我们来检查自定义链 KUBE-SERVICES 和 KUBE-SVC-7QI22HNU2ECHCQD4&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL&amp;nbsp; | grep -i &amp;quot;Chain KUBE-SVC-7QI22HNU2ECHCQD4 &amp;quot; -A 5&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks21.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks21.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 此处需要介绍一下 iptables statistic 模块&lt;a href="https://ipset.netfilter.org/iptables-extensions.man.html"&gt;https://ipset.netfilter.org/iptables-extensions.man.html&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks22.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks22.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 很显然，通过 statistic 模块达到负载均衡的效果，但是这里是3个worker node，如果是4个或是10个pod，情况会是如何的了？那我们先将pod扩展到4个。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl get deployments.apps&amp;nbsp; -n net-test -o wide&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl get pod&amp;nbsp; -n net-test -o wide&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl scale deployments.apps/nginx-deployment --replicas=4 -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl get deployments.apps/nginx-deployment -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks23.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks23.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 再来看看iptables 自定义链 KUBE-SVC-7QI22HNU2ECHCQD4。正如你所见到的，自定义链 KUBE-SVC-7QI22HNU2ECHCQD4的条目发生了变化，它根据增加的pod，而调整了statistic模块 mode random probability后面的值。&lt;/p&gt; 
+&lt;p&gt;扩展到4个pod的情况&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL&amp;nbsp; | grep -i &amp;quot;Chain KUBE-SVC-7QI22HNU2ECHCQD4 &amp;quot; -A 5&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks24.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks24.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 扩展到10个pod的情况&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL&amp;nbsp; | grep -i &amp;quot;Chain KUBE-SVC-7QI22HNU2ECHCQD4 &amp;quot; -A 12&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks25.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks25.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 总结下来，当你扩展pod副本的数量后，Amazon EKS /K8S 会在自定义链 KUBE-SVC-7QI22HNU2ECHCQD4 中定义n条额外的自定义链，n的数量等于pod replicas的数量，每一条自定义链后面的statistic模块 mode random probability后面的值的规律是:&lt;/p&gt; 
+&lt;p&gt;1/n&lt;/p&gt; 
+&lt;p&gt;1/(n-1)&lt;/p&gt; 
+&lt;p&gt;1/(n-2)&lt;/p&gt; 
+&lt;p&gt;…&lt;/p&gt; 
+&lt;p&gt;1/3&lt;/p&gt; 
+&lt;p&gt;1/2&lt;/p&gt; 
+&lt;p&gt;先缩回3个pod，继续分析自定义链 — KUBE-SEP-GFX4GQVKUQKLDQSC, KUBE-SEP-7DVRGHMVAU4TLNCL, KUBE-SEP-OR4TYVRLHR7Z5F7F&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks26.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks26.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 扩展到10个pod的情况&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL&amp;nbsp; | grep -i &amp;quot;Chain KUBE-SEP-GFX4GQVKUQKLDQSC&amp;quot; -A 4&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL&amp;nbsp; | grep -i &amp;quot;Chain KUBE-SEP-7DVRGHMVAU4TLNCL&amp;quot; -A 4&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL&amp;nbsp; | grep -i &amp;quot;Chain KUBE-SEP-OR4TYVRLHR7Z5F7F&amp;quot; -A 4&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks27.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks27.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 那DNAT和MARK target/action意义是什么了？如下的官方文档的介绍。DNAT就是对数据包中的目的地址做NAT(地址转换)，也就是访问到CLUSTER-IP地址10.100.87.207后，会被负载均衡到后端的pod上,而MARK则是给指定的数据包做标识&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks28.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks28.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks29.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks29.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 到这里，对于Service类型是ClusterIP的场景分析结束，ClusterIP就是通过Cluster-IP的虚拟IP(VIP)，结合iptables中的自定义链加上statistic模块和DNAT来做轻量的负载均衡。结合之前的数据包流程图：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks30.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks30.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 这里，你可能会问为什么没有走nat表，而不是走raw表或是mangle表。其实还是这里主要需要实现地址转换(NAT)。数据包在netfilter/iptables中nat表走的链如下:&lt;/p&gt; 
+&lt;h3&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks31.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks31.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 4) 分析Service类型是NodePort的场景&lt;/h3&gt; 
+&lt;p&gt;4.1)创建类型为NodePort的Service和测试的Deployment, testenv_nodeport.yaml&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-json"&gt;---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: net-test
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: net-test
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx-net
+  template:
+    metadata:
+      labels:
+        app: nginx-net
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service-nodeport
+  namespace: net-test
+spec:
+  type: NodePort
+  selector:
+    app: nginx-net
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 80
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;4.2)检查NodePort的Service和对应的nat表中的链&lt;/p&gt; 
+&lt;p&gt;nat表中的链有iptable默认定义的链(PREROUTING,INPUT,OUTPUT,POSTROUTING)&lt;/p&gt; 
+&lt;p&gt;在测试机器上执行kubectl,我们可以看到我们刚刚创建的名为nginx-service-nodeport 的service，目前为NodePort的类型(TYPE)，而且它的CLUSTER-IP地址为10.100.127.14，对的它也有CLUSTER-IP，它的端口是8080:32060/TCP。也就是通过 nginx-service-nodeport(worker node)的32060端口可以访问到target(pod的80端口）&lt;/p&gt; 
+&lt;p&gt;再查看service名为nginx-service- nodeport中的细节以及endpoints和endpointslices&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl get service -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl get endpoints -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl get endpointslices.discovery.k8s.io -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl describe service/nginx-service-nodeport -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks32.png" width="624" height="78" /&gt;&lt;/p&gt; 
+&lt;p&gt;大家很容易想到使用Node Port，为了确保能访问到pod，一定是发生了nat(网络地址翻译)，所以我们来查看nat表。nat表中的链有iptable默认定义的链(PREROUTING,INPUT,OUTPUT,POSTROUTING)，逻辑上数据包进入到linux network stack，是先到PREROUTING链，再结合 iptables -t nat -vnL 输出中在4条链(PREROUTING,INPUT,OUTPUT,POSTROUTING)内容的观察，也会直接查看PREROUTING链的规则。PREROUTING链的target/action还是自定义链 KUBE-SERVICES。接下来还是查看自定义链 KUBE-SERVICES中定义一条规则，具体如下:&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL | grep PREROUTING -A 3&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL | grep &amp;quot;Chain KUBE-SERVICES&amp;quot; -A 10&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks33.png" width="624" height="78" /&gt;&lt;/p&gt; 
+&lt;p&gt;尽管其中有一个条规则，它的destination 是10.100.127.14，但是我们现在创建的service的类型是nodeport，也就意味一定是通过worker node的端口(port)进入到worker node，也就是一定通过了worker node的ip地址,不论是primary ip,还是secondary ip.&lt;/p&gt; 
+&lt;p&gt;这里有一个iptables的addrtype模块，具体功能如下:&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks34.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks34.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;netstat -ntupl| head -n 2 &amp;amp;&amp;amp; netstat -ntupl | grep -i 32060&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks35.png" width="624" height="78" /&gt;我们可以看到worker node的端口32060是被kube-proxy监听，而且是监听了worker node上所有的ip地址。所以进入到worker node的端口32060的数据包匹配的是 KUBE-SERVICES 中 KUBE-NODEPORTS 自定义链。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL | grep &amp;quot;Chain KUBE-NODEPORTS&amp;quot; -A 4&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;iptables -t nat -vnL | grep &amp;quot;Chain KUBE-SVC-NUUJACZKM4EFI6UZ&amp;quot; -A 5&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks36.png" width="624" height="78" /&gt;&lt;/p&gt; 
+&lt;p&gt;那KUBE-NODEPORTS 自定义链包含的具体规则是什么了？如大家可以看到的，自定义链 KUBE-MARK-MASQ 对数据包mark。另外的自定义链 KUBE-SVC-NUUJACZKM4EFI6UZ ，让我们记住这个自定义链 KUBE-SVC-NUUJACZKM4EFI6UZ&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks37.png" width="624" height="78" /&gt;&lt;/p&gt; 
+&lt;p&gt;到这里，大家又看到类似ClusterIP又做了负载均衡。&lt;/p&gt; 
+&lt;p&gt;我们来看看自定义链 KUBE-SERVICES 中destination 是10.100.127.14的规则, 它的target/action也是自定义链 KUBE-SVC-NUUJACZKM4EFI6UZ。所以在iptables 的规则的角度，NodePort变相的使用了ClusterIP(的规则)，而不是直接使用ClusterIP的ip地址。&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks38.png" width="624" height="78" /&gt;&lt;/p&gt; 
+&lt;p&gt;至此，对于Service类型是NodePort的场景分析结束，NodePort就是通过worker node上的kube-proxy将流量引入iptables,结合addrtype模块将数据包再次转到ClusterIP的处理规则上来。进而在结合statistic模块和DNAT来做轻量的负载均衡。具体的在iptables中nat表走的链如下:&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks39.png" width="624" height="78" /&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h3&gt;5) 分析Service类型是LoadBalancer的场景&lt;/h3&gt; 
+&lt;p&gt;Service类型是LoadBalancer的场景，根据yaml文件中Service参数的不同，会创建不同类型的Amazon ELB&lt;/p&gt; 
+&lt;p&gt;5.1)创建类型为LoadBalancer(CLB模式)&lt;/p&gt; 
+&lt;p&gt;创建类型为LoadBalancer的Service和测试的Deployment, testenv_lb_1.yaml, 注意创建Service的部分没有annotation字段&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-json"&gt;---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: net-test
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: net-test
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx-net
+  template:
+    metadata:
+      labels:
+        app: nginx-net
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service-lb
+  namespace: net-test
+#There is no any annotation
+spec:
+  type: LoadBalancer
+  selector:
+    app: nginx-net
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 80&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;5.2)检查LoadBalancer的Service(CLB模式)&lt;/p&gt; 
+&lt;p&gt;在测试机器上执行kubectl,我们可以看到我们刚刚创建的名为nginx-service-lb-1 的service，目前为LoadBalancer的类型(TYPE)，而且它的CLUSTER-IP地址为10.100.115.16，对的它也有CLUSTER-IP，它的端口是8080:32052/TCP。也就是通过 nginx-service-lb-1(也就是Amazon ELB)将数据包分发到 worker node的32052端口可以访问到target(pod的80端口)。注意到这里的EXTERNAL-IP就是Amazon ELB的地址。&lt;/p&gt; 
+&lt;h3&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks40.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks40.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/h3&gt; 
+&lt;p&gt;再查看service名为nginx-service-lb-1中的细节以及endpoints和endpointslices&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl describe service/nginx-service-lb-1 -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl get endpoints -n net-test&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl get endpointslices.discovery.k8s.io -n net-test&lt;/code&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks41.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks41.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我们再到亚马逊云科技的console查看ELB,可以看到在这里创建的是CLB(Classic Load Balancer)&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks42.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks42.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks43.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks43.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 其实当数据包由亚马逊云科技的CLB转发到3个worker node的端口，数据包处理的逻辑和过程和NodePort没有什么本质的差别。此处不再赘述。&lt;/p&gt; 
+&lt;p&gt;5.3) 创建类型为LoadBalancer(NLB instance模式)&lt;/p&gt; 
+&lt;p&gt;创建类型为LoadBalancer的Service和测试的Deployment, testenv_lb_2.yaml, 注意创建Service的部分的annotation字段&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-json"&gt;---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: net-test
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: net-test
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx-net
+  template:
+    metadata:
+      labels:
+        app: nginx-net
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service-lb-2
+  namespace: net-test
+ #There is an important annotation
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-type: nlb
+spec:
+  type: LoadBalancer
+  selector:
+    app: nginx-net
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 80
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks44.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks44.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;其实这次创建的名为nginx-service-lb-2的service和之前创建的nginx-service-lb-1 的service很相似。显示内容基本相同，只是在亚马逊云科技的console查看ELB是显示为NLB。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks45.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks45.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks46.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks46.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks47.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks47.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 其实这次创建的名为nginx-service-lb-2的service和之前创建的nginx-service-lb-1 的service很相似。显示内容基本相同，只是在亚马逊云科技的console查看ELB是显示为NLB。这里就是NLB的instance模式。当数据包由亚马逊云科技的NLB转发到3个worker node的端口，数据包处理的逻辑和过程和NodePort没有什么本质的差别。此处也不再描述&lt;/p&gt; 
+&lt;p&gt;5.4) 创建类型为LoadBalancer(NLB ip模式)&lt;/p&gt; 
+&lt;p&gt;创建类型为LoadBalancer的Service和测试的Deployment, testenv_lb_3.yaml, 注意创建Service的部分的annotation字段&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-json"&gt;---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: net-test
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: net-test
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx-net
+  template:
+    metadata:
+      labels:
+        app: nginx-net
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service-lb-3
+  namespace: net-test
+ #There is an important annotation
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-type: nlb-ip
+spec:
+  type: LoadBalancer
+  selector:
+    app: nginx-net
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 80
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;而这次创建的名为nginx-service-lb-3的service和之前创建的nginx-service-lb-2 的service也很相似。也只是在亚马逊云科技的console查看ELB也显示为NLB。但是这里为ip 模式。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks49.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks49.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks50.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks50.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks51.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks51.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;这里是直接将数据包发到pod的ip地址，因为此处EKS的service的类型为LoadBalancer(IP 模式)。而且pod也具有vpc cidr range内分配的IP 地址，直接arp获得pod对应的内网ip地址的mac，流量就直接转到承载此pod的worker node上。&lt;/p&gt; 
+&lt;h3&gt;6) 分析Ingress&lt;/h3&gt; 
+&lt;p&gt;Ingress 公开了从集群外部到集群内服务的 HTTP 和 HTTPS 路由。 流量路由由 Ingress 资源上定义的规则控制。&lt;/p&gt; 
+&lt;p&gt;Ingress 规则，每个 HTTP 规则都包含以下信息：&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;可选的&lt;/strong&gt;&lt;strong&gt; host&lt;/strong&gt;: 该规则适用于通过指定 IP 地址的所有入站 HTTP 通信。 如果提供了 host（例如 foo.bar.com），则 rules 适用于该 host。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;路径列表&lt;/strong&gt;&lt;strong&gt; paths&lt;/strong&gt;: （例如，/testpath）,每个路径都有一个由 serviceName 和 servicePort 定义的关联后端。 在负载均衡器将流量定向到引用的服务之前，主机和路径都必须匹配传入请求的内容。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;backend（后端）&lt;/strong&gt;: 是 Service 文档中所述的服务和端口名称的组合。 与规则的 host 和 path 匹配的对 Ingress 的 HTTP（和 HTTPS ）请求将发送到列出的 backend。&lt;/p&gt; 
+&lt;p&gt;通常在 Ingress 控制器中会配置 defaultBackend（默认后端），以服务于任何不符合规约中 path 的请求。&lt;/p&gt; 
+&lt;p&gt;6.1)创建ingress和相应的Deployment&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-json"&gt;---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: net-test
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: net-test
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx-net
+  template:
+    metadata:
+      labels:
+        app: nginx-net
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service-clusterip
+  namespace: net-test
+spec:
+  type: ClusterIP
+  selector:
+    app: nginx-net
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 80
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  namespace: net-test
+  name: nginx-ingress
+  annotations:
+    kubernetes.io/ingress.class: alb
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /*
+            backend:
+              serviceName: nginx-service-clusterip
+              servicePort: 8080
+
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks52.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks52.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 正如你在kubernetes官方页面( &lt;a href="https://kubernetes.io/docs/concepts/services-networking/ingress"&gt;https://kubernetes.io/docs/concepts/services-networking/ingress&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;)中看到的那样, Ingress就扮演一个连接器的角色，它将http/https流量引入到Service.但我们可以看到为这个Ingress创建的ALB仍然使用的IP模式。也就是意味着Ingress也会如Service的LoadBalancer类型中的NLB IP模式，流量直接引入到pod的ip地址,因为pod也具有vpc cidr range内分配的IP地址。直接arp获得pod对应的内网ip地址的mac，流量就直接转到承载此pod的worker node上。&lt;/p&gt; 
+&lt;p&gt;另外，尽管此处Service为ClusterIP,其实不论是NodePort还是LoadBalancer,效果也一样，这一点完全体现了Ingress就扮演一个连接器的角色，它将流量直接引入到pod，借助了ALB中的IP模式的优势。&lt;/p&gt; 
+&lt;p&gt;这里可以通过查看 ALB ( k8s-nettest-nginxing-2893a9a207-569319061.cn-northwest-1.elb.amazonaws.com.cn )的target group。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks53.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks53.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks54.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks54.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks55.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks55.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;/h2&gt; 
+&lt;h2&gt;&lt;strong&gt;四、总结&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;在使用Amazon EKS的过程中，Service和Ingress是主要两种服务暴露方式。通过以上的深入分析和研究，我们可以看到Service的ClusterIP，NodePort和LoadBalancer的技术实现，在使用iptables的情况下，都是重度依赖kube-proxy对iptables的规则的操作。这其中ClusterIP是最关键最基础，NodePort又利用了ClusterIP的实现方式，LoadBalancer(CLB和NLB的instance模式)又使用了NodePort提供的功能。对于Service的NLB的ip模式和ingress又是主要利用的就是ALB的ip模式。&lt;/p&gt; 
+&lt;p&gt;根据如上的特性，我们可以在不同的业务场景下选择不同的方式来暴露服务。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;参考材料:&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://blogs.cisco.com/cloud/an-osi-model-for-cloud"&gt;https://blogs.cisco.com/cloud/an-osi-model-for-cloud&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.cisco.com/c/dam/global/fi_fi/assets/docs/SMB_University_120307_Networking_Fundamentals.pdf"&gt;https://www.cisco.com/c/dam/global/fi_fi/assets/docs/SMB_University_120307_Networking_Fundamentals.pdf&lt;/a&gt;&lt;br /&gt; &lt;a href="https://en.wikipedia.org/wiki/OSI_model"&gt;https://en.wikipedia.org/wiki/OSI_model&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.cisco.com/E-Learning/bulk/public/tac/cim/cib/using_cisco_ios_software/linked/tcpip.htm"&gt;https://www.cisco.com/E-Learning/bulk/public/tac/cim/cib/using_cisco_ios_software/linked/tcpip.htm&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13769-5.html"&gt;https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13769-5.html&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.netfilter.org/"&gt;https://www.netfilter.org/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.netfilter.org/projects/iptables/index.html"&gt;https://www.netfilter.org/projects/iptables/index.html&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.zsythink.net/archives/tag/iptables/"&gt;https://www.zsythink.net/archives/tag/iptables/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://ipset.netfilter.org/iptables-extensions.man.html"&gt;https://ipset.netfilter.org/iptables-extensions.man.html&lt;/a&gt;&lt;br /&gt; &lt;a href="https://aws.amazon.com/premiumsupport/knowledge-center/eks-kubernetes-services-cluster/"&gt;https://aws.amazon.com/premiumsupport/knowledge-center/eks-kubernetes-services-cluster/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://kubernetes.io/docs/concepts/services-networking/service/"&gt;https://kubernetes.io/docs/concepts/services-networking/service/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://docs.aws.amazon.com/eks/latest/userguide/network-load-balancing.html"&gt;https://docs.aws.amazon.com/eks/latest/userguide/network-load-balancing.html&lt;/a&gt;&lt;br /&gt; &lt;a href="https://en.wikipedia.org/wiki/OSI_model"&gt;https://en.wikipedia.org/wiki/OSI_model&lt;/a&gt;&lt;br /&gt; &lt;a href="https://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)"&gt;https://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)&lt;/a&gt;&lt;br /&gt; &lt;a href="https://codilime.com/blog/how-to-drop-a-packet-in-linux-in-more-ways-than-one"&gt;https://codilime.com/blog/how-to-drop-a-packet-in-linux-in-more-ways-than-one&lt;/a&gt;&lt;br /&gt; &lt;a href="http://www.jsevy.com/network/Linux_network_stack_walkthrough.html"&gt;http://www.jsevy.com/network/Linux_network_stack_walkthrough.html&lt;/a&gt;&lt;br /&gt; &lt;a href="https://openwrt.org/docs/guide-developer/networking/praxis"&gt;https://openwrt.org/docs/guide-developer/networking/praxis&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.cs.cornell.edu/~qizhec/paper/tcp_2021.pdf"&gt;https://www.cs.cornell.edu/~qizhec/paper/tcp_2021.pdf&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.netfilter.org/"&gt;https://www.netfilter.org/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://en.wikipedia.org/wiki/Netfilter"&gt;https://en.wikipedia.org/wiki/Netfilter&lt;/a&gt;&lt;br /&gt; &lt;a href="https://kubernetes.io/zh/docs/concepts/services-networking/service/"&gt;https://kubernetes.io/zh/docs/concepts/services-networking/service/&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/zhongmij.jpg" width="125" /&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;金忠敏&lt;/h3&gt; 
+  &lt;p&gt;AWS解决方案架构师，现在专注于云计算解决方案和架构的工作。具有超过15年的IT从业经验，曾从事软件开发，售后支持，系统交付，售前等工作。参与过很多大型项目架构设计和实施交付。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt; 
+&lt;h2&gt;&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/dongshic.jpg" width="125" /&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;董仕超&lt;/h3&gt; 
+  &lt;p&gt;AWS 解决方案架构师。负责基于 AWS 的云计算方案架构的咨询和设计，致力于 AWS 云服务在国内和全球的应用和推广，在加入 AWS 前，拥有多年外企售前及运营商 IT 架构、运维经验。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
+		<title>游戏公司多账号管理(一)</title>
+		<link>https://aws.amazon.com/cn/blogs/china/game-company-multi-account-management/</link>
+				<pubDate>Tue, 24 Aug 2021 03:14:56 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Industries]]></category>
+		<category><![CDATA[AWS Config]]></category>
+		<category><![CDATA[AWS Organization]]></category>
+		<category><![CDATA[AWS Single Sign-On]]></category>
+
+		<guid isPermaLink="false">5de028d6e8d5c4b0459f9ae924d001252fb3be6f</guid>
+				<description>通常游戏发行公司每年都要发行数款新游戏，这些游戏可能由公司内部不同的项目组开发，也可能是由其他游戏公司开发。为了实现不同游戏之间的互相独立以及方便的核算每款游戏所使用云计算资源的成本，在AWS上我们推荐为每一款游戏使用单独的账户，这样做的好处是每个游戏都有独立的明细账单，并且不同账户互相独立，有非常好的隔离性。</description>
+								<content:encoded>&lt;p&gt;通常游戏发行公司每年都要发行数款新游戏，这些游戏可能由公司内部不同的项目组开发，也可能是由其他游戏公司开发。为了实现不同游戏之间的互相独立以及方便的核算每款游戏所使用云计算资源的成本，在AWS上我们推荐为每一款游戏使用单独的账户，这样做的好处是每个游戏都有独立的明细账单，并且不同账户互相独立，有非常好的隔离性。&lt;/p&gt; 
+&lt;p&gt;对于稍大规模的游戏公司来说有十几款、甚至几十款游戏同时在运行中是很常见的，那么为每一款游戏使用单独账户的方式，会给游戏公司带来管理与安全方面的挑战。在和不同的游戏公司交流之后，我总结了一下几点挑战：&lt;/p&gt; 
+&lt;p&gt;（1）如何快速为每个游戏单独创建账户并组织这些账户&lt;/p&gt; 
+&lt;p&gt;（2）如何集中式的用户管理与权限分配&lt;/p&gt; 
+&lt;p&gt;（3）如何方便的查看、管理多账户下的资源&lt;/p&gt; 
+&lt;p&gt;（4）如何实现多账户下用户操作的统一审计&lt;/p&gt; 
+&lt;p&gt;（5）如何减少新账户初始化配置工作&lt;/p&gt; 
+&lt;p&gt;（6）如何限制某个账户或者用户资源使用量&lt;/p&gt; 
+&lt;p&gt;由于涉及的服务和内容较多，本篇Blog将先解决前面三个挑战，在后续的博客中再介绍剩下部分的内容。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;（1）如何快速为每个游戏单独创建账户并组织这些账户&lt;/h2&gt; 
+&lt;p&gt;为了保持每款游戏的独立性，建议采用每款游戏一个独立账户的方式，那么首先要解决的就是如何方便快速创建账户。创建AWS账户有两种方式，第一种方式是通过&lt;a href="https://portal.aws.amazon.com/billing/signup#/start"&gt;注册页面&lt;/a&gt;，这种方式需要填写的信息较多，适合公司第一次注册使用AWS；第二种方式就是通过AWS Organizations来创建账户，&lt;a href="https://aws.amazon.com/cn/organizations/"&gt;AWS Organizations&lt;/a&gt;本身的功能介绍以及如何启用请参考官方文档，这里不再赘述。&lt;/p&gt; 
+&lt;p&gt;需要注意的是启用AWS Organizations服务的账户被称为管理账户，下面的操作都是在管理账号下完成的。下面介绍如何在AWS Organizations中创建并组织账户&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;从AWS控制台进入&lt;em&gt;AWS Organizations&lt;/em&gt;&lt;em&gt;服务&lt;/em&gt;，点击&amp;nbsp;&lt;em&gt;AWS &lt;/em&gt;&lt;em&gt;账户&lt;/em&gt;，再点击&amp;nbsp;&lt;em&gt;添加&lt;/em&gt;&lt;em&gt;AWS&lt;/em&gt;&lt;em&gt;账户&lt;/em&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;输入&lt;em&gt;AWS &lt;/em&gt;&lt;em&gt;账户名和电子邮箱地址&lt;/em&gt;后，点击&lt;em&gt;创建&lt;/em&gt;&lt;em&gt;AWS&lt;/em&gt;&lt;em&gt;账户&lt;/em&gt;即可&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;除了新建账户外，还可以把现有的账户通过邀请的方式加入到组织中来。点击&amp;nbsp;&lt;em&gt;邀请&lt;/em&gt;，再点击&lt;em&gt;邀请&lt;/em&gt;&lt;em&gt;AWS账户&lt;/em&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;输入现有其他AWS账户的&lt;em&gt;12&lt;/em&gt;&lt;em&gt;位数字或者邮箱&lt;/em&gt;，点击&lt;em&gt;发送邀请&lt;/em&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;把所有游戏账户都加到组织之后，接下来我们要组织这些账户，以区分哪些账号属于哪款游戏，哪些游戏属于哪个项目组，哪些游戏是第三方开发商开发的等等。比如，我们按游戏项目组组织所有的账户&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;在AWS账户下，选中&lt;em&gt;Root&lt;/em&gt;，点击&lt;em&gt;操作&lt;/em&gt;下拉列表，再点击&lt;em&gt;新建&lt;/em&gt;。通过这种方式我们就可以建立多个项目组&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;在AWS账户下，选中某个账户，点击&lt;em&gt;操作&lt;/em&gt;下拉列表，再点击&lt;em&gt;移动&lt;/em&gt;，可移动到任意组织下。&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;更多详细操作说明请参考以下文档&lt;a href="https://docs.aws.amazon.com/zh_cn/organizations/latest/userguide/orgs_manage_ous.html"&gt;https://docs.aws.amazon.com/zh_cn/organizations/latest/userguide/orgs_manage_ous.html&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;（2）如何集中式的用户管理与权限分配&lt;/h2&gt; 
+&lt;p&gt;在用户管理与权限方面，我看到大部分游戏公司都是在每个账户下面单独创建用户并分配权限，在账户少的情况下还可以应付，随着账号增加用户与权限管理的难度越来越大。&lt;/p&gt; 
+&lt;p&gt;通过AWS Organizations解决了游戏账户申请和组织之后，我们就可以利用AWS Single Sign-On (SSO)这个服务，集中管理多个 AWS 账户的访问与权限，并为用户提供单点登录访问他们的所拥有权限的账户。下面介绍如何在SSO内创建用户、用户组、分配权限以及和Organization组织绑定&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;使用Organization管理账户，从AWS控制台进入AWS SSO服务，点击左边的&lt;em&gt;用户&lt;/em&gt;，然后点击&lt;em&gt;添加用户&lt;/em&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;我们还可以创建用户组，点击左边的 &lt;em&gt;组&lt;/em&gt;，然后点击 &lt;em&gt;创建组&lt;/em&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;将用户加入到某个用户组，点击某个组&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;点击 &lt;em&gt;添加用户&lt;/em&gt;，将用户加到某个用户组&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management10.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;创建完用户之后，下面来介绍创建权限集合，首先点击 &amp;nbsp;&lt;em&gt;AWS&lt;/em&gt;&lt;em&gt;账户&lt;/em&gt;，再点击&lt;em&gt;权限集合&lt;/em&gt;，最好&lt;em&gt;创建权限集合&lt;/em&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management11.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;用户、用户组、权限集合都已经有了，现在为organization的组织指定用户、用户组和分配权限&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management12.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management13.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management14.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management14.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;那么我们如何通过SSO来到登录某个账户呢？&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;首先我们要找到SSO的门户URL，点击 &lt;em&gt;设置&lt;/em&gt;，我们就可以看到用户&lt;em&gt;门户&lt;/em&gt;&lt;em&gt;URL&lt;/em&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management15.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management15.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;打开浏览器，输入url，用户名，点击Next，输入密码&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management16.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management16.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;登录后我们即可看到有权限登录的账户都会显示出来&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management17.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management17.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 使用SSO后不再需要到每个账户下去创建用户、用户组、分配权限，只需要在SSO中集中创建用户、分配权限，再把用户和Organization组织做一个绑定。AWS SSO除了支持在SSO中创建用户外，还可以和你的AD或者通过SAML2.0的方式集成。&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;（3）如何方便的查看、管理多账户下的资源&lt;/h2&gt; 
+&lt;p&gt;通过SSO可以很方便的登录到每一个账户下面去做相应的操作以及查看资源，但是随着账号越来越多，这依然是一个很费时费力的工作。因此我们需要一个更简单的方式帮我们汇总每个账户下所有区域的资源到一个集中地方进行查看和分析。下面介绍两种方式来汇总资源：第一种是通过AWS Resource Groups，Resource Groups可以查看单个账户下所有区域的资源；另一种方式是通过AWS Config这个服务加上Organization可以实现统一查看组织下所有账户的资源情况。下面我们来看一下具体如何操作&lt;/p&gt; 
+&lt;p&gt;第一种通过AWS Resource Groups的方式&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;从AWS控制台进入&lt;em&gt;Resource Groups &amp;amp; Tag Editor&lt;/em&gt;服务，点击&lt;em&gt;Tag Editor&lt;/em&gt;，选择&lt;em&gt;所有区域&lt;/em&gt;，资源类型选择&lt;em&gt;AWS::EC2::Instance&lt;/em&gt;，点击 &lt;em&gt;搜索资源&lt;/em&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management18.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management18.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;各个区域的EC2资源如下&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management19.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management19.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;当然也可以指定Tag来进行资源查找&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;注意：虽然选择了所有的区域，但是由于某些区域还不支持，所以并不是所有的区域资源都能看到&lt;/p&gt; 
+&lt;p&gt;第二种通过Organizations加上AWS Config的方式&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;使用organization管理账户从AWS控制台进入AWS Config服务，首先我们要确认config记录功能已打开，如果没打开的话首先要打开。&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management20.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management20.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;点击左边的 &lt;em&gt;聚合器&lt;/em&gt;，再点击 &lt;em&gt;创建聚合器&lt;/em&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management21.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management21.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;勾上允许 AWS Config 将数据从源账户复制到聚合器账户，输入聚合器名称，选择添加我们的组织，选择想要聚合区域，点击创建聚合器&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management22.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management22.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;这样我们一个聚合器就创建完成了，等待一段时间后（大概10分钟）&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;查询所有账号下的资源&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management23.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management23.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management24.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management24.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;查看所有账号下的EC2 Instances&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management25.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management25.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="list-style-type: none"&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;查看所有账号下的RDS Instances&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management26.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/game-company-multi-account-management26.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在本篇博客中介绍了在AWS上如何快速为每个游戏单独创建账户并组织这些账户；如何集中式的用户管理与权限分配；如何方便的查看、管理多账户下的资源等挑战，在下一篇博客中将进一步介绍多账号下的安全合规、资源合规、成本等内容。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/panwenmi.jpg" width="125" /&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;潘文明&lt;/h3&gt; 
+  &lt;p&gt;AWS解决方案架构师，负责基于 AWS 的云计算方案的咨询与架构设计。专注于游戏行业，帮助客户利用AWS全球基础设施与强大的技术能力打造爆款游戏，降低游戏运行成本。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
+		<title>使用 Step Functions 编排从数据库到数据仓库的数据ETL</title>
+		<link>https://aws.amazon.com/cn/blogs/china/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse/</link>
+				<pubDate>Tue, 24 Aug 2021 02:50:38 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Serverless]]></category>
+		<category><![CDATA[Amazon Redshift]]></category>
+		<category><![CDATA[AWS Glue]]></category>
+		<category><![CDATA[AWS Step Functions]]></category>
+
+		<guid isPermaLink="false">072eb0625cf677b6e06ae9b28901f4a81f197b19</guid>
+				<description>数据仓库是信息的中央存储库。业务分析师、数据工程师、数据科学家和决策者通过商业智能 (BI) 工具、SQL 客户端和其他分析应用程序访问数据。数据和分析已然成为各大企业保持竞争力所不可或缺的部分。企业用户依靠报告、控制面板和分析工具从其数据中获得洞察力、监控企业绩效以及更明智地决策。</description>
+								<content:encoded>&lt;p&gt;数据仓库是信息的中央存储库。业务分析师、数据工程师、数据科学家和决策者通过商业智能 (BI) 工具、SQL 客户端和其他分析应用程序访问数据。数据和分析已然成为各大企业保持竞争力所不可或缺的部分。企业用户依靠报告、控制面板和分析工具从其数据中获得洞察力、监控企业绩效以及更明智地决策。&lt;/p&gt; 
+&lt;p&gt;通常，数据定期从事务系统、关系数据库和其他来源流入数据仓库。这个流入的过程，被称作ETL(Extract-Transform-Load)。在数据爆炸的今天，开发者经常需要通过Hadoop/Spark 集群，配合一些开源组件，如sqoop, Hive, Airflow等实现对海量数据的处理和迁移。除了集群本身的维护，如虚机的配置，操作系统的升级，安全管理，存储的扩展等，还要考虑如性能监控，日志，错误处理等诸多支撑性功能的实现。&lt;/p&gt; 
+&lt;p&gt;本文介绍一个通过亚马逊云Serverless(无服务器)服务提供ETL的方案。它包含了亚马逊云Step Function, Glue, Lambda等组件，实现从mysql 数据库到亚马逊云Redshift 数仓的数据迁移以及迁移后的处理功能。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;架构设计&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;① &amp;nbsp;通过定期执行的源数据爬虫任务，读取业务数据库和数据仓库的源数据。&lt;/p&gt; 
+&lt;p&gt;②&amp;nbsp; 通过Glue服务的ETL Job完成从业务数据库到数据仓库的数据拉取，转化和加载。&lt;/p&gt; 
+&lt;p&gt;③&amp;nbsp; 调用Lambda函数，对数仓中的数据进行进一步的加工，满足企业对数据分层等进一步处理的要求。&lt;/p&gt; 
+&lt;p&gt;这其中，第2步和第3步都是通过Step Function来调度执行，实现可视化的作业管理。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;环境准备&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;首先，在环境中分别创建一个mysql 实例和一个redshift 数仓实例来模拟企业的场景。这里我们设置redshift数据库为“dev”:&lt;/li&gt; 
+ &lt;li&gt;另外，需要创建s3和redshift-data的两个Endpoint 服务，用于VPC内程序的访问&lt;/li&gt; 
+ &lt;li&gt;之后，创建一个SNS topic,用于在出现问题时进行通知&lt;/li&gt; 
+ &lt;li&gt;最后，我们需要为redshift创建一个secret manager 密钥，用于安全访问redshift&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;在这些基础框架建设完毕后，可以分别连接到数仓和数据库中，通过&lt;a href="https://github.com/sun-biao/step-function-etl-redshift/blob/main/sql.script"&gt;https://github.com/sun-biao/step-function-etl-redshift/blob/main/sql.script&lt;/a&gt;&amp;nbsp;中的建表语句，分别创建两个表，table1和table2。 另外在资源中还有一个创建存储过程的语句，可以在redshift中执行，这个存储过程用来模拟企业内部数仓中的执行程序。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;环境搭建&lt;/h2&gt; 
+&lt;h3&gt;第一步： 源数据管理&lt;/h3&gt; 
+&lt;p&gt;一 在AWS Glue/数据库/连接 中，创建两个JDBC连接，分别指向数据库和数仓。&lt;/p&gt; 
+&lt;p&gt;二 在AWS Glue/爬网程序 中点击“创建爬网程序”，分别为库和仓创建两个爬网程序&lt;/p&gt; 
+&lt;p&gt;三 选中爬网程序，点击“运行爬网程序”。在真实场景中，可以设置为定期触发方式，这里我们手动执行。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;四 执行完毕后，点击 AWS Glue/数据库/表 查看添加后的源数据信息。注意这里的表名会根据数据库的名称不同而不同。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;第二步: 创建ETL Job&lt;/h3&gt; 
+&lt;p&gt;一 点击AWS Glue/ETL/作业，点击“添加作业”&lt;/p&gt; 
+&lt;p&gt;二 在“配置作业属性”页面中，输入“名称”并选择一个“角色”。如果角色中为空，参照链接创建一个新的角色：&lt;a href="https://docs.aws.amazon.com/zh_cn/glue/latest/dg/create-service-policy.html"&gt;https://docs.aws.amazon.com/zh_cn/glue/latest/dg/create-service-policy.html&lt;/a&gt;&amp;nbsp;并点击下一步&lt;/p&gt; 
+&lt;p&gt;三 在“选择一个数据源”页面，选中mysql 数据库的table2,点击“下一步”&lt;/p&gt; 
+&lt;p&gt;四 在“选择转换类型”页面，点击“下一步”&lt;/p&gt; 
+&lt;p&gt;五 在“选择一个数据目标”页面，选中redshift数据库的table2，点击“下一步”&lt;/p&gt; 
+&lt;p&gt;六 检查字段mapping后点击“保存作业并编辑脚本”。&lt;/p&gt; 
+&lt;p&gt;七 在最后作业脚本页面，点击“保存”并“运行作业”。如无异常，作业会执行，数据会进入redshift&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;八 在redshift中可以通过“编辑器”对table2进行查询&lt;/p&gt; 
+&lt;p&gt;九 重复上面1-8，创建一个新的作业，选择table1作为源和目标。这样我们就有了两个作业，分别对应table1和table2&lt;/p&gt; 
+&lt;h3&gt;第三步： 创建lambda程序&lt;/h3&gt; 
+&lt;p&gt;一 在AWS Lambda中选择“创建函数”&lt;/p&gt; 
+&lt;p&gt;二 函数名为callredshift, “运行时”选择python3.8。&lt;/p&gt; 
+&lt;p&gt;三 点击“高级设置”，在“VPC”中选择redshift 所在VPC, 安全组选择可以访问Redshift的安全组&lt;/p&gt; 
+&lt;p&gt;四在“配置/常规配置”中，将超时时间设置为25秒。&lt;/p&gt; 
+&lt;p&gt;五 在“配置/权限”中，为当前角色附加 “AdministratorAccess”策略&lt;/p&gt; 
+&lt;p&gt;六 将下列代码粘贴到lambda_function.py中&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-python"&gt;import json
+import boto3
+import time
+
+client = boto3.client('redshift-data')
+def lambda_handler(event, context):
+    print('start.....')
+    try:
+        response = client.execute_statement(
+            ClusterIdentifier='redshift-cluster-1',
+            Database='dev',
+            SecretArn=‘&amp;lt;redshit的Secret Manager ARN&amp;gt;',
+            Sql='call test_sp1(1000000)',
+            # Sql='select count(*) from table1',
+            StatementName='get result'
+        )
+    except Exception as e:
+        subject = &amp;quot;Error:&amp;quot; + &amp;quot;:&amp;quot; + str(e)
+        print(subject)
+        raise
+    query_id = response[&amp;quot;Id&amp;quot;]
+    done = False
+    while not done:
+        time.sleep(1)
+        status = status_check(client, query_id)
+        if status in (&amp;quot;STARTED&amp;quot;, &amp;quot;FAILED&amp;quot;, &amp;quot;FINISHED&amp;quot;):
+            print(&amp;quot;status is: {}&amp;quot;.format(status))
+            break
+    print(response)
+    desc = client.describe_statement(Id=response[&amp;quot;Id&amp;quot;])
+    result = client.get_statement_result(Id=response[&amp;quot;Id&amp;quot;])
+    print(result)
+    return str(result)
+def status_check(client, query_id):
+    desc = client.describe_statement(Id=query_id)
+    status = desc[&amp;quot;Status&amp;quot;]
+    if status == &amp;quot;FAILED&amp;quot;:
+        raise Exception('SQL query failed:' + query_id + &amp;quot;: &amp;quot; + desc[&amp;quot;Error&amp;quot;])
+    return status.strip('&amp;quot;')
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;七 保存后点击“Test”，创建一个“测试事件”后，再次点击”Test“，查看输出结果&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;第四步： 创建Step Functions 状态机&lt;/h3&gt; 
+&lt;p&gt;一 选择“Step Functions/状态机”，点击“创建状态机”&lt;/p&gt; 
+&lt;p&gt;二 使用默认选项，在下面定义中，删除原Json文件，拷贝如下内容：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-json"&gt;{
+  &amp;quot;Comment&amp;quot;: &amp;quot;This is your state machine&amp;quot;,
+  &amp;quot;StartAt&amp;quot;: &amp;quot;Parallel&amp;quot;,
+  &amp;quot;States&amp;quot;: {
+    &amp;quot;Parallel&amp;quot;: {
+      &amp;quot;Type&amp;quot;: &amp;quot;Parallel&amp;quot;,
+      &amp;quot;Branches&amp;quot;: [
+        {
+          &amp;quot;StartAt&amp;quot;: &amp;quot;Table1 Job&amp;quot;,
+          &amp;quot;States&amp;quot;: {
+            &amp;quot;Table1 Job&amp;quot;: {
+              &amp;quot;Type&amp;quot;: &amp;quot;Task&amp;quot;,
+              &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:states:::glue:startJobRun.sync&amp;quot;,
+              &amp;quot;Parameters&amp;quot;: {
+                &amp;quot;JobName&amp;quot;: “&amp;lt;Table1 Job&amp;gt;&amp;quot;
+              },
+              &amp;quot;OutputPath&amp;quot;: &amp;quot;$.JobRunState&amp;quot;,
+              &amp;quot;End&amp;quot;: true
+            }
+          }
+        },
+        {
+          &amp;quot;StartAt&amp;quot;: &amp;quot;Table2 Job&amp;quot;,
+          &amp;quot;States&amp;quot;: {
+            &amp;quot;Table2 Job&amp;quot;: {
+              &amp;quot;Type&amp;quot;: &amp;quot;Task&amp;quot;,
+              &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:states:::glue:startJobRun.sync&amp;quot;,
+              &amp;quot;Parameters&amp;quot;: {
+                &amp;quot;JobName&amp;quot;: &amp;quot;&amp;lt;Table2 Job&amp;gt;&amp;quot;
+              },
+              &amp;quot;OutputPath&amp;quot;: &amp;quot;$.JobRunState&amp;quot;,
+              &amp;quot;End&amp;quot;: true
+            }
+          }
+        }
+      ],
+      &amp;quot;Next&amp;quot;: &amp;quot;Choice&amp;quot;
+    },
+    &amp;quot;Choice&amp;quot;: {
+      &amp;quot;Type&amp;quot;: &amp;quot;Choice&amp;quot;,
+      &amp;quot;Choices&amp;quot;: [
+        {
+          &amp;quot;And&amp;quot;: [
+            {
+              &amp;quot;Variable&amp;quot;: &amp;quot;$[0]&amp;quot;,
+              &amp;quot;StringMatches&amp;quot;: &amp;quot;SUCCEEDED&amp;quot;
+            },
+            {
+              &amp;quot;Variable&amp;quot;: &amp;quot;$[1]&amp;quot;,
+              &amp;quot;StringMatches&amp;quot;: &amp;quot;SUCCEEDED&amp;quot;
+            }
+          ],
+          &amp;quot;Next&amp;quot;: &amp;quot;Call redshift&amp;quot;
+        }
+      ],
+      &amp;quot;Default&amp;quot;: &amp;quot;SNS Publish&amp;quot;
+    },
+    &amp;quot;Call redshift&amp;quot;: {
+      &amp;quot;Type&amp;quot;: &amp;quot;Task&amp;quot;,
+      &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:states:::lambda:invoke&amp;quot;,
+      &amp;quot;OutputPath&amp;quot;: &amp;quot;$.Payload&amp;quot;,
+      &amp;quot;Parameters&amp;quot;: {
+        &amp;quot;Payload.$&amp;quot;: &amp;quot;$&amp;quot;,
+        &amp;quot;FunctionName&amp;quot;: &amp;quot;arn:aws:lambda:&amp;lt;Region的名字，如ap-northeast-1&amp;gt;:&amp;lt;12位账号&amp;gt;:function:callredshift:$LATEST&amp;quot;
+      },
+      &amp;quot;Retry&amp;quot;: [
+        {
+          &amp;quot;ErrorEquals&amp;quot;: [
+            &amp;quot;Lambda.ServiceException&amp;quot;,
+            &amp;quot;Lambda.AWSLambdaException&amp;quot;,
+            &amp;quot;Lambda.SdkClientException&amp;quot;
+          ],
+          &amp;quot;IntervalSeconds&amp;quot;: 2,
+          &amp;quot;MaxAttempts&amp;quot;: 6,
+          &amp;quot;BackoffRate&amp;quot;: 2
+        }
+      ],
+      &amp;quot;End&amp;quot;: true
+    },
+    &amp;quot;SNS Publish&amp;quot;: {
+      &amp;quot;Type&amp;quot;: &amp;quot;Task&amp;quot;,
+      &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:states:::sns:publish&amp;quot;,
+      &amp;quot;Parameters&amp;quot;: {
+        &amp;quot;Message.$&amp;quot;: &amp;quot;$&amp;quot;,
+        &amp;quot;TopicArn&amp;quot;: &amp;quot;arn:aws:sns:&amp;lt;Region的名字，如ap-northeast-1&amp;gt;:&amp;lt;12位账号&amp;gt;:&amp;lt;SNS 主题名&amp;gt;&amp;quot;
+      },
+      &amp;quot;End&amp;quot;: true
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;三 保存后，修改当前状态机的权限为管理员，执行该状态机并查看状态。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;四 点击“图表检查器”中最后一步“Call redshift”,查看右侧步骤输出，确认redshift中的程序被正确调用。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-step-functions-to-orchestrate-data-etl-from-database-to-data-warehouse7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;总结&lt;/h2&gt; 
+&lt;p&gt;一 整个流程中没有除了数据仓库，没有使用任何需要维护的计算资源，实现了“零运维”。&lt;/p&gt; 
+&lt;p&gt;二 Step Functions状态机的每次执行，都提供了完备的流程日志，每个步骤都有详细的输入输出信息，方便调试。&lt;/p&gt; 
+&lt;p&gt;三 依照Step Functions提供逻辑处理功能，通过判断，循环等可以实现客户复杂的逻辑。&lt;/p&gt; 
+&lt;p&gt;四 Step Functions提供强大的服务整合能力，通过整合其它服务，提供诸如报警，数据，计算等等功能。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;参考链接&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/zh_cn/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html"&gt;https://docs.aws.amazon.com/zh_cn/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/zh_cn/redshift/latest/gsg/rs-gsg-sample-data-load-create-cluster.html"&gt;https://docs.aws.amazon.com/zh_cn/redshift/latest/gsg/rs-gsg-sample-data-load-create-cluster.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/zh_cn/vpc/latest/privatelink/vpce-interface.html#create-interface-endpoint"&gt;https://docs.aws.amazon.com/zh_cn/vpc/latest/privatelink/vpce-interface.html#create-interface-endpoint&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/zh_cn/sns/latest/dg/sns-getting-started.html"&gt;https://docs.aws.amazon.com/zh_cn/sns/latest/dg/sns-getting-started.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/zh_cn/secretsmanager/latest/userguide/tutorials_basic.html"&gt;https://docs.aws.amazon.com/zh_cn/secretsmanager/latest/userguide/tutorials_basic.html&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/biaosun.jpg" width="125" /&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;孙标&lt;/h3&gt; 
+  &lt;p&gt;亚马逊云科技资深解决方案架构师。拥有多年金融，移动互联网研发及数字货币交易所架构经验。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
+		<title>新增 — 由最新一代英特尔至强可扩展处理器提供支持的 Amazon EC2 M6i 实例</title>
+		<link>https://aws.amazon.com/cn/blogs/china/new-amazon-ec2-m6i-instances-powered-by-the-latest-generation-intel-xeon-scalable-processors/</link>
+				<pubDate>Thu, 19 Aug 2021 03:45:32 +0000</pubDate>
+		<dc:creator><![CDATA[Danilo Poccia]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">1425ca3ea8c449b55feefccc5d9e1f4e19205b61</guid>
+				<description>去年，我们推出了由 AWS 设计的 Graviton2 处理器支持的第六代 EC2 实例。我们现在正在扩展我们的第六代产品功能，以包括基于 x86 的实例，为依赖 x86 指令的工作负载提供性价比优势。 今天，我很高兴地宣布推出全新通用型 Amazon EC2 M6i 实例，与同类的第五代实例相比，它的性价比提高了 15%。新实例由最新一代英特尔至强可扩展处理器（代号为 Ice Lake）提供支持，全核涡轮频率为 3.5 GHz。</description>
+								<content:encoded>&lt;p&gt;去年，我们推出了由 &lt;a href="https://aws.amazon.com/ec2/graviton/"&gt;AWS 设计的 Graviton2&lt;/a&gt; 处理器支持的第六代 EC2 实例。我们现在正在扩展我们的第六代产品功能，以包括&lt;strong&gt;基于 x86 的实例&lt;/strong&gt;，为依赖 x86 指令的工作负载提供性价比优势。&lt;/p&gt; 
+&lt;p&gt;今天，我很高兴地宣布推出全新通用型 &lt;a href="https://aws.amazon.com/ec2/instance-types/m6i/"&gt;&lt;strong&gt;Amazon EC2 M6i 实例&lt;/strong&gt;&lt;/a&gt;，与同类的第五代实例相比，它的性价比提高了 &lt;strong&gt;15%&lt;/strong&gt;。新实例由最新一代英特尔至强可扩展处理器（代号为 Ice Lake）提供支持，全核涡轮频率为 &lt;strong&gt;3.5 GHz&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;您可能已经注意到，我们现在正在使用实例类型中的“&lt;strong&gt;i&lt;/strong&gt;”后缀来指定实例使用的是&lt;a href="https://aws.amazon.com/intel/"&gt;英特尔处理器&lt;/a&gt;。我们已经使用后缀“&lt;strong&gt;a&lt;/strong&gt;”指代 &lt;a href="https://aws.amazon.com/ec2/amd/"&gt;AMD 处理器&lt;/a&gt;（例如，M5a 实例），对于 &lt;a href="https://aws.amazon.com/ec2/graviton/"&gt;Graviton 处理器&lt;/a&gt;（例如，M6g 实例），我们使用后缀“&lt;strong&gt;g&lt;/strong&gt;”。&lt;/p&gt; 
+&lt;p&gt;与使用英特尔处理器的 M5 实例相比，这种新的实例类型提供：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;更大的实例大小（&lt;strong&gt;m6i.32xlarge&lt;/strong&gt;），具有 128 个 vCPUs 和 512 GiB 内存，这使得整合工作负载和纵向扩展应用程序变得更轻松、更具成本效益。&lt;/li&gt; 
+ &lt;li&gt;计算性价比提高了 &lt;strong&gt;15％&lt;/strong&gt;。&lt;/li&gt; 
+ &lt;li&gt;内存带宽高达 &lt;strong&gt;20％&lt;/strong&gt;。&lt;/li&gt; 
+ &lt;li&gt;&lt;a title="" href="https://aws.amazon.com/ebs/"&gt;Amazon Elastic Block Store (EBS)&lt;/a&gt; 最高 &lt;strong&gt;40 Gbps&lt;/strong&gt;，联网最高速度可达 &lt;strong&gt;50 Gbps&lt;/strong&gt;。&lt;/li&gt; 
+ &lt;li&gt;始终开启的&lt;strong&gt;内存加密&lt;/strong&gt;。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;M6i 实例非常适合运行通用工作负载，例如 Web 和应用程序服务器、&lt;a href="https://aws.amazon.com/containers/"&gt;容器化&lt;/a&gt;应用程序、&lt;a href="https://aws.amazon.com/microservices/"&gt;微服务&lt;/a&gt;和小型数据存储。更高的内存带宽对于 &lt;a href="https://aws.amazon.com/sap/solutions/saphana/"&gt;SAP HANA&lt;/a&gt; 等企业应用程序和&lt;a href="https://aws.amazon.com/hpc/"&gt;高性能计算 (HPC) 工作负载（&lt;/a&gt;如计算&lt;a href="https://aws.amazon.com/hpc/cfd/"&gt;流体动力学 (CFD)）&lt;/a&gt;的帮助尤其明显。&lt;/p&gt; 
+&lt;p&gt;M6i 实例也 &lt;strong&gt;经过了 SAP 认证&lt;/strong&gt;。八年来，SAP 客户一直依赖 Amazon EC2 M 系列实例来处理其任务关键型 SAP 工作负载。相较于 M5 实例，使用 M6i 实例可以让客户的 SAP 应用程序性价比提高多达 &lt;strong&gt;15%&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;m6i 实例有&lt;strong&gt;九种大小&lt;/strong&gt;可供选择（&lt;strong&gt;m6i.metal&lt;/strong&gt; 大小即将推出）：&lt;/p&gt; 
+&lt;table style="border: 2px solid black;border-collapse: collapse;margin-left: auto;margin-right: auto"&gt; 
+ &lt;tbody&gt; 
+  &lt;tr style="border-bottom: 1px solid black;background-color: #e0e0e0"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;名称&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;vCPU 数量&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;内存&lt;br /&gt; (GiB)&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;网络带宽&lt;br /&gt; (Gbps)&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;EBS 吞吐量&lt;br /&gt; (Gbps)&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;&lt;strong&gt;m6i.large&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;2&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;8&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;高达 12.5&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;高达 10&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;&lt;strong&gt;m6i.xlarge&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;4&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;16&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;高达 12.5&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;高达 10&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;&lt;strong&gt;m6i.2xlarge&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;8&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;32&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;高达 12.5&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;高达 10&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;&lt;strong&gt;m6i.4xlarge&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;16&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;64&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;高达 12.5&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;高达 10&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;&lt;strong&gt;m6i.8xlarge&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;32&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;128&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;12.5&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;10&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;&lt;strong&gt;m6i.12xlarge&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;48&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;192&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;18.75&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;15&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;&lt;strong&gt;m6i.16xlarge&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;64&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;256&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;25&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;20&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;&lt;strong&gt;m6i.24xlarge&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;96&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;384&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;37.5&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;30&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;&lt;strong&gt;m6i.32xlarge&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;128&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;512&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;50&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;text-align: center"&gt;40&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/tbody&gt; 
+&lt;/table&gt; 
+&lt;p&gt;新实例基于 &lt;a href="https://aws.amazon.com/ec2/nitro/"&gt;AWS Nitro System&lt;/a&gt; 打造，该系统是构建数据块的集合，将许多传统&lt;strong&gt;虚拟化&lt;/strong&gt;功能转移到专用&lt;strong&gt;硬件&lt;/strong&gt;上，从而提供高性能、高可用性以及高度安全的云实例。&lt;/p&gt; 
+&lt;p&gt;为了在这些新实例上获得最佳联网性能，请将 Elastic Network Adapter (ENA) 驱动程序升级到版本 3。有关更多信息，请参阅本文介绍&lt;a href="https://aws.amazon.com/premiumsupport/knowledge-center/migrate-to-gen6-ec2-instance/"&gt;如何在第六代 EC2 实例上获得最大网络性能&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;M6i 实例支持 &lt;strong&gt;m6i.32xlarge&lt;/strong&gt; 大小的 &lt;a href="https://aws.amazon.com/hpc/efa/"&gt;Elastic Fabric Adapter (EFA)&lt;/a&gt;，适用于受益于较低网络延迟的工作负载，例如 HPC 和视频处理。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;可用性和定价&lt;br /&gt; &lt;/strong&gt;&lt;/span&gt;&lt;a href="https://aws.amazon.com/ec2/instance-types/m6i/"&gt;EC2 M6i 实例&lt;/a&gt;现已在&lt;span title=""&gt;美国东部（弗吉尼亚北部）&lt;/span&gt;、&lt;span title=""&gt;美国西部（俄勒冈）&lt;/span&gt;、&lt;span title=""&gt;美国东部（俄亥俄）&lt;/span&gt;、&lt;span title=""&gt;欧洲（爱尔兰）&lt;/span&gt;、&lt;span title=""&gt;欧洲（法兰克福）&lt;/span&gt;和&lt;span title=""&gt;亚太地区（新加坡）&lt;/span&gt;这六个 AWS 区域推出。像往常的 EC2 实例一样，您将按使用量付费。有关更多信息，请参阅 &lt;a href="https://aws.amazon.com/ec2/pricing/"&gt;EC2 定价页面&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;– &lt;a title="Danilo 的 Twitter" href="https://twitter.com/danilop"&gt;Danilo&lt;/a&gt;&lt;/p&gt;</content:encoded>
+										</item>
+		<item>
+		<title>面向 Amazon Redshift 的跨账户数据共享</title>
+		<link>https://aws.amazon.com/cn/blogs/china/cross-account-data-sharing-for-amazon-redshift/</link>
+				<pubDate>Thu, 19 Aug 2021 03:42:08 +0000</pubDate>
+		<dc:creator><![CDATA[Martin Beeby]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+
+		<guid isPermaLink="false">2bc7ac320fda29261084e669eff74ef29f1ee084</guid>
+				<description>为了在当今快速变化的市场环境中取得成功，企业需要快速分析数据并采取有意义的行动。我们的许多客户都接受了这一概念，因此转型成为数据驱动型组织。 数据驱动型组织将数据视为资产，利用数据提高洞察力并制定更完善的决策。他们使用安全系统来收集、存储和处理数据，并与组织中的人员共享数据，从而充分发挥数据的作用。有些组织甚至将数据和分析作为服务提供给客户、合作伙伴和外部各方，以创造新的收入来源。</description>
+								<content:encoded>&lt;p&gt;为了在当今快速变化的市场环境中取得成功，企业需要快速分析数据并采取有意义的行动。我们的许多客户都接受了这一概念，因此转型成为数据驱动型组织。&lt;/p&gt; 
+&lt;p&gt;数据驱动型组织将数据视为资产，利用数据提高洞察力并制定更完善的决策。他们使用安全系统来收集、存储和处理数据，并与组织中的人员共享数据，从而充分发挥数据的作用。有些组织甚至将数据和分析作为服务提供给客户、合作伙伴和外部各方，以创造新的收入来源。&lt;/p&gt; 
+&lt;p&gt;所有利益相关者都希望共享和使用与单一事实来源同等准确的数据。他们希望能够并发查询数据的实时视图，同时不会出现性能降低，并在需要时准确访问正确的信息。&lt;/p&gt; 
+&lt;p&gt;&lt;a title="" href="https://aws.amazon.com/redshift/"&gt;Amazon Redshift&lt;/a&gt; 是第一款面向云构建的数据仓库组件，其已受到市场的普遍欢迎，成为许多客户数据架构的数据仓库组件。&lt;/p&gt; 
+&lt;p&gt;&lt;span title=""&gt;Amazon Redshift&lt;/span&gt; 用户&lt;a href="https://docs.aws.amazon.com/redshift/latest/dg/datashare-overview.html"&gt;可以与 AWS 账户中的用户共享数据&lt;/a&gt;，但为了与其他 AWS 账户共享和协作处理数据，他们需要从一个系统中提取数据并将其加载到另一个系统中。&lt;/p&gt; 
+&lt;p&gt;为了实现此目标，他们需要执行大量的手动工作来构建和维护不同的提取、转换与加载作业。随着数据共享规模的扩大以及越来越多的利益相关者需要数据，复杂性也随之增加。因此，持续执行保障数据安全所需的监控、合规性和安全最佳实践可能变得困难。&lt;/p&gt; 
+&lt;p&gt;这种共享方式也无法提供完整和最新的数据视图，因为手动流程会导致延迟和数据不一致，从而产生过时的数据、低质量的业务结果以及缓慢的客户响应。&lt;/p&gt; 
+&lt;p&gt;这就是我们为 &lt;span title=""&gt;Amazon Redshift&lt;/span&gt; 创建跨账户数据共享的原因所在。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;为 &lt;span title=""&gt;Amazon Redshift&lt;/span&gt; 引入跨账户数据共享&lt;br /&gt; &lt;/strong&gt;&lt;/span&gt;这项新功能为您提供了一种简单而安全的方式，可以与跨 AWS 账户的任意数量利益相关者共享 Amazon Redshift 数据仓库中全新、完整且一致的数据。它可让您跨组织共享数据并与外部各方协作，同时满足合规性和安全要求。&lt;/p&gt; 
+&lt;p&gt;&lt;span title=""&gt;Amazon Redshift&lt;/span&gt; 使用 IAM 集成、系统表和 &lt;a title="" href="https://aws.amazon.com/cloudtrail/"&gt;AWS CloudTrail&lt;/a&gt; 提供全面的安全控制和审计功能。这可让客户控制和监控消费者之间的数据共享权限和使用情况，并在必要时立即撤消访问权限。&lt;/p&gt; 
+&lt;p&gt;您可以在多个级别 (包括数据库、架构、表、视图、列和用户定义的函数) 共享数据，以提供针对需要访问 &lt;span title=""&gt;Amazon Redshift&lt;/span&gt; 数据的用户和企业量身定制的精细访问控制。&lt;/p&gt; 
+&lt;p&gt;下面详细了解跨账户数据共享的工作原理。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;跨两个账户共享数据&lt;br /&gt; &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;跨账户数据共享是两个步骤的过程。第一步是，生产者群集管理员创建数据共享，添加对象，以及授予对消费者账户的访问权限。第二步是，生产者账户管理员授权共享指定消费者的数据。您可以从 &lt;a title="" href="https://aws.amazon.com/redshift/"&gt;Amazon Redshift&lt;/a&gt; 控制台执行此操作。&lt;/p&gt; 
+&lt;p&gt;首先，在 &lt;span title=""&gt;Amazon Redshift&lt;/span&gt; 控制台中，我创建一个 &lt;span title=""&gt;Amazon Redshift&lt;/span&gt; 集群，然后导入一些示例数据。当集群可用时，我导航到集群详细信息页面，从中选择&lt;strong&gt;数据共享&lt;/strong&gt;选项卡，然后选择&lt;strong&gt;创建数据共享&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter wp-image-53695" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/31/demo-1.jpg" alt="" width="800" height="507" /&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;在&lt;strong&gt;创建数据共享&lt;/strong&gt;页面上，我输入数据共享名称，然后选择数据库。在“公开访问”下，我选择&lt;strong&gt;启用&lt;/strong&gt;，因为我希望将数据共享提供给可公开访问的集群。&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter wp-image-53698" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/31/demo-3-1.jpg" alt="" width="800" height="558" /&gt;&lt;/p&gt; 
+&lt;p&gt;然后，我从数据库中选择想要包含在数据共享中的对象。对于选择与他人共享的内容，我拥有精细控制权。为简单起见，我将共享所有表。但实际上，您可以选择一个或多个表、视图或用户定义的函数。&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-full wp-image-53699" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/31/demo-4.jpg" alt="" width="801" height="814" /&gt;&lt;/p&gt; 
+&lt;p&gt;我需要做的最后一件事就是向数据共享添加一个 AWS 账户。我添加自己的第二个 AWS 账户 ID，然后选择&lt;strong&gt;创建数据共享&lt;/strong&gt;。&lt;br /&gt; &lt;img class="aligncenter size-full wp-image-53700" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/31/demo-5.jpg" alt="" width="807" height="443" /&gt;&lt;/p&gt; 
+&lt;p&gt;为了授权刚创建的数据使用者，我在控制台的&lt;strong&gt;数据共享&lt;/strong&gt;部分中选择&lt;strong&gt;授权&lt;/strong&gt;。&lt;strong&gt;消费者状态&lt;/strong&gt;将从&lt;strong&gt;等待授权&lt;/strong&gt;更改为&lt;strong&gt;已授权&lt;/strong&gt;。现在数据共享已设置完毕，我将切换到自己的辅助账户，向您展示如何在消费者 AWS 账户中使用数据共享。值得注意的是，我需要在辅助账户中使用同一个区域，因为跨账户数据共享不能跨区域运作。&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter wp-image-53704" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/31/demo-auth0.jpg" alt="" width="800" height="497" /&gt;&lt;/p&gt; 
+&lt;p&gt;与生产者类似，数据使用有着相应的流程。首先，您需要将数据共享与消费者账户中的一个或多个集群关联起来。您还可以将数据共享与整个消费者账户关联，以便消费者账户中的当前和未来集群均可以访问该共享。&lt;/p&gt; 
+&lt;p&gt;我登录自己的辅助账户，然后转到控制台的&lt;strong&gt;数据共享&lt;/strong&gt;部分。&amp;nbsp;我选择&lt;strong&gt;从其他账户&lt;/strong&gt;选项卡，然后选择从生产者 AWS 账户共享的 news_blog_datashred。接下来，我选择&lt;strong&gt;关联&lt;/strong&gt;以将数据共享与我账户中的集群关联。&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-full wp-image-53703" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/31/demo-asso.jpg" alt="" width="807" height="418" /&gt;&lt;/p&gt; 
+&lt;p&gt;在集群的详细信息页面上，我选择&lt;strong&gt;从数据共享创建数据库&lt;/strong&gt;，然后输入新数据库的名称。&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-full wp-image-53708" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/31/2021-07-31_12-30-54.jpg" alt="" width="807" height="312" /&gt;&lt;/p&gt; 
+&lt;p&gt;在查询编辑器中，我选择自己的数据库并对作为数据共享一部分提供的所有对象运行查询。&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-full wp-image-53711" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/31/run_query.jpg" alt="" width="807" height="448" /&gt;&lt;/p&gt; 
+&lt;p&gt;当我选择&lt;strong&gt;运行&lt;/strong&gt;时，将从查询中返回数据。务必记住，这是数据的实时视图。生产者数据库中的任何更改都将反映在我的查询中。不需要复制或手动转移数据。&lt;/p&gt; 
+&lt;p&gt;&lt;img class="aligncenter size-full wp-image-53712" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/31/rows.jpg" alt="" width="675" height="388" /&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;注意事项&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;以下是关于跨账户数据共享的几点有趣的事实：&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;安全性&lt;/strong&gt; – 授权和关联操作所需的所有权限均通过 &lt;a title="" href="https://aws.amazon.com/iam/"&gt;AWS Identity and Access Management (IAM)&lt;/a&gt; 进行管理，因此您可以创建 IAM 策略来控制每个用户可以执行哪些操作。有关安全考虑事项，请参阅&lt;a href="https://docs.aws.amazon.com/redshift/latest/dg/control-access.html"&gt;控制跨账户数据集的访问权限&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;加密&lt;/strong&gt; – 生产者和消费者群集必须在同一 AWS 区域中进行加密。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;区域&lt;/strong&gt; – 跨账户数据共享功能现已在以下区域面向所有 Amazon Redshift &lt;a href="https://aws.amazon.com/redshift/pricing/"&gt;RA3 节点类型&lt;/a&gt;推出：美国东部 (弗吉尼亚北部)、美国东部 (俄亥俄)、美国西部 (加利福尼亚北部)、美国西部 (俄勒冈)、亚太地区 (孟买)、亚太地区 (首尔)、亚太地区 (新加坡)、亚太地区 (悉尼)、亚太地区 (东京)、加拿大 (中部)、欧洲 (法兰克福)、欧洲 (爱尔兰)、欧洲 (伦敦)、欧洲 (巴黎)、欧洲 (斯德哥尔摩) 以及南美洲 (圣保罗)。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;定价&lt;/strong&gt; – 跨账户数据共享可以跨位于同一区域的集群之间进行。共享数据没有成本。客户只需为参与共享的 Redshift 集群付费。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://aws.amazon.com/redshift/features/data-sharing/"&gt;&lt;strong&gt;立即试用针对 &lt;span title=""&gt;Amazon Redshift&lt;/span&gt; 的跨账户数据共享。&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;这项新功能现已推出，何不现在就创建集群并进行跨账户数据共享？ 有关如何开始使用的信息，请参阅&lt;a href="https://docs.aws.amazon.com/redshift/latest/dg/across-account.html"&gt;跨 AWS 账户共享数据&lt;/a&gt;。不要忘记告诉我们您是如何取得进展的。&lt;/p&gt; 
+&lt;p&gt;快乐共享！&lt;/p&gt; 
+&lt;p&gt;&lt;a title="Martin 的 Twitter" href="https://twitter.com/thebeebs"&gt; – Martin&lt;/a&gt;&lt;/p&gt;</content:encoded>
+										</item>
+		<item>
+		<title>在AWS上使用AlphaFold进行蛋白质结构预测</title>
+		<link>https://aws.amazon.com/cn/blogs/china/use-alphafold-for-protein-structure-prediction-on-aws/</link>
+				<pubDate>Tue, 17 Aug 2021 03:26:52 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Industries]]></category>
+		<category><![CDATA[Amazon CloudWatch]]></category>
+		<category><![CDATA[Amazon EC2]]></category>
+
+		<guid isPermaLink="false">be2652ecb75d41386e4c43a8ad2c23fb0bc32f02</guid>
+				<description>AlphaFold是一个能根据蛋白质序列预测构象的深度学习模型，2021年7月，DeepMind开源了升级版本AlphaFold v2.0，本文简要描述了如何在AWS上使用AlphaFold进行蛋白质结构预测。</description>
+								<content:encoded>&lt;p&gt;AlphaFold是一个能根据蛋白质序列预测构象的深度学习模型，2021年7月，DeepMind开源了升级版本AlphaFold v2.0，本文简要描述了如何在AWS上使用AlphaFold进行蛋白质结构预测。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;EC2实例设置&lt;/h2&gt; 
+&lt;p&gt;运行AlphaFold需要安装Docker和NVIDIA Container Toolkit，我们可以启动一台运行ECS GPU-optimized AMI的EC2实例，以省去这些工具的安装操作：&lt;/p&gt; 
+&lt;p&gt;启动EC2实例，搜索AMI: amzn2-ami-ecs-gpu-hvm-2.0.2021，选择最新的日期的版本(也可以从https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html查询对于区域的最新Amazon Linux（GPU）AMI ID)&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;如果要使用NVIDIA A100则实例类型可选择p4d.24xlarge，本例测试选择具有4块NVIDIA V100 GPU的p3.8xlarge&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 系统卷100G，增加一个3T的数据卷，卷类型均为gp3&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;实例创建完成后登录系统，格式化并挂载3T的数据盘到/data，具体操作参考该&lt;a href="https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/ebs-using-volumes.html"&gt;文档&lt;/a&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;数据库下载&lt;/h2&gt; 
+&lt;p&gt;1.安装依赖&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;sudo rpm http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;sudo yum install aria2 rsync git vim wget -y&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;2.修改/data目录权限&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;sudo chown ec2-user:ec2-user -R /data&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;3.克隆AlphaFold 代码库并进入alphafold目录&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;git clone https://github.com/deepmind/alphafold.git&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;4.下载数据到/data，因为数据下载加解压可能需要十几个小时的时间，所以使用nohup让下载任务在后台执行&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nohup scripts/download_all_data.sh /data &amp;amp;&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;完成之后在下载目录会有如下文件生成&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-powershell"&gt;$DOWNLOAD_DIR/                          # Total: ~ 2.2 TB (download: 438 GB)
+    bfd/                                   # ~ 1.7 TB (download: 271.6 GB)
+        # 6 files.
+    mgnify/                                # ~ 64 GB (download: 32.9 GB)
+        mgy_clusters_2018_12.fa
+    params/                                # ~ 3.5 GB (download: 3.5 GB)
+        # 5 CASP14 models,
+        # 5 pTM models,
+        # LICENSE,
+        # = 11 files.
+    pdb70/                                 # ~ 56 GB (download: 19.5 GB)
+        # 9 files.
+    pdb_mmcif/                             # ~ 206 GB (download: 46 GB)
+        mmcif_files/
+            # About 180,000 .cif files.
+        obsolete.dat
+    small_fbd/                             # ~ 17 GB (download: 9.6 GB)
+        bfd-first_non_consensus_sequences.fasta
+    uniclust30/                            # ~ 86 GB (download: 24.9 GB)
+        uniclust30_2018_08/
+            # 13 files.
+    uniref90/                              # ~ 58 GB (download: 29.7 GB)
+        uniref90.fasta
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;运行AlphaFold&lt;/h2&gt; 
+&lt;p&gt;1.创建输出目录&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;mkdir -p /tmp/alphafold&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;2.将docker/run_docker.py中的DOWNLOAD_DIR修改为包含下载数据库目录的路径/data, output_dir设置为上一步创建的输出目录&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 3.构建Docker镜像&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;docker build -f docker/Dockerfile -t alphafold .&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;完成后查看&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 4.安装依赖&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;pip3 install -r docker/requirements.txt&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;5.测试文件&lt;/p&gt; 
+&lt;p&gt;打开https://www.predictioncenter.org/casp14/target.cgi?target=T1050，复制Sequence的文本到T1050.fasta文件中&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 6.运行可能需要几个小时时间，可以同样使用nohup命令让任务在后台执行&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nohup python3 docker/run_docker.py --fasta_paths=T1050.fasta --max_template_date=2020-05-14 &amp;amp;&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;一个任务只能使用一块GPU，如果计算实例具有多块GPU，可以利用–gpu_devices参数将多个任务投递到不同的GPU上进行计算，如：&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nohup python3 docker/run_docker.py --fasta_paths=T1050-1.fasta --max_template_date=2020-05-14 --gpu_devices=0 &amp;amp;&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nohup python3 docker/run_docker.py --fasta_paths=T1050-2.fasta --max_template_date=2020-05-14 --gpu_devices=1 &amp;amp;&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;7.完成之后在之前设置的/tmp/alphafold目录下会有结果输出&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;监控配置&lt;/h2&gt; 
+&lt;p&gt;我们可以通过CloudWatch来监控CPU、内存和GPU的使用率，其中CPU监控指标CloudWatch默认就支持，内存监控指标需要通过CloudWatch Agent来实现，GPU监控需要通过一个python程序来实现&lt;/p&gt; 
+&lt;h3&gt;IAM角色&lt;/h3&gt; 
+&lt;p&gt;新建一个具有ClooudWatchAgentServerPolicy权限的角色，取名CW-Role&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws10.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;将它附加到EC2实例上&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws11.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;CloudWatch Agent&lt;/h3&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws12.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 1.安装&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;sudo yum install collectd amazon-cloudwatch-agent -y&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;2.执行如下命令并按提示进行配置，详见附录&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;3.重新启动agent&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -s -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json&lt;/code&gt;&lt;/p&gt; 
+&lt;h3&gt;GPU监控&lt;/h3&gt; 
+&lt;p&gt;1. 下载python脚本&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;wget https://s3.amazonaws.com/aws-bigdata-blog/artifacts/GPUMonitoring/gpumon.py&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;2. vim gpumon.py&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;修改&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;### 选择区域 ####&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;EC2_REGION = 'us-east-1'&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;#在此处选择命名空间参数，名字可以随意取###&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;my_NameSpace = 'AlphaFold'&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;### 选择推送间隔 ####&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;sleep_interval = 10&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;### 选择存储精度 (在 1-60 之间) ####&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;store_reso = 60&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;3. 安装python2的依赖&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;wget &lt;a href="https://bootstrap.pypa.io/pip/2.7/get-pip.py"&gt;https://bootstrap.pypa.io/pip/2.7/get-pip.py&lt;/a&gt;&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;python get-pip.py&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;pip install nvidia-ml-py&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;pip install boto3&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;执行&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nohup python gpumon.py &amp;amp;&lt;/code&gt;&lt;/p&gt; 
+&lt;h3&gt;CloudWatch&lt;/h3&gt; 
+&lt;p&gt;在CloudWatch的指标中可以发现CWAgent和AlphaFold两个命名空间，其中包含了我们所需要的内存和GPU监控指标&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws13.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws14.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws14.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 创建一个控制面板来统一监控这些指标&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws15.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws15.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;测试结果分析&lt;/h2&gt; 
+&lt;p&gt;&lt;code&gt;python3 docker/run_docker.py --fasta_paths=T1050.fasta --max_template_date=2020-05-14&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;结果如下：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws16.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws16.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;只有在模型的推理阶段才会用到GPU，而且只用到了4块GPU中的一块，其余阶段都是用的CPU（https://github.com/deepmind/alphafold/issues/67）&lt;/p&gt; 
+&lt;p&gt;投递两个任务&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nohup python3 docker/run_docker.py --fasta_paths=T1050-1.fasta --max_template_date=2020-05-14 --gpu_devices=0 &amp;gt; a.out &amp;amp;&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nohup python3 docker/run_docker.py --fasta_paths=T1050-2.fasta --max_template_date=2020-05-14 --gpu_devices=1 &amp;gt; b.out &amp;amp;&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;结果如下：&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws17.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws17.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;可以看到用到了2块GPU&lt;/p&gt; 
+&lt;h3&gt;&lt;/h3&gt; 
+&lt;h2&gt;参考&lt;/h2&gt; 
+&lt;p&gt;更详细的AlphaFold使用请参考：https://github.com/deepmind/alphafold&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;附录&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws18.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws18.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;CloudWatch Agent配置示例&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws19.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws19.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws20.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws20.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws21.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-alphafold-for-protein-structure-prediction-on-aws21.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/suliang.jpg" width="125" /&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;孙亮&lt;/h3&gt; 
+  &lt;p&gt;亚马逊云科技解决方案架构师，硕士毕业于浙江大学计算机系。在加入亚马逊云科技之前，拥有多年软件行业开发经验。目前在Public Sector部门主要服务于生命科学和医疗健康相关的行业客户，致力于提供有关HPC、无服务器、数据安全等各类云计算解决方案的咨询与架构设计。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
+		<title>在亚马逊云科技Marketplace上的SaaS架构设计——如何支持跨多账户对接</title>
+		<link>https://aws.amazon.com/cn/blogs/china/saas-architecture-design-on-amazon-cloud-technology-marketplace-how-to-support-cross-account-docking/</link>
+				<pubDate>Fri, 13 Aug 2021 03:25:35 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Marketplace]]></category>
+
+		<guid isPermaLink="false">dac7a9100be8ac924504bca9b943e5e78ddf86f1</guid>
+				<description>为了给企业提供更加易用的应用层软件，越来越多的软件提供商推出了SaaS产品。亚马逊云科技Marketplace(以下简称Marketplace)是一个提供甄选的数字化产品的平台，能够帮助SaaS厂商降低销售成本，触达更多的客户，是很多SaaS厂商的首选。 通过软件即服务（SaaS）产品，您部署了在亚马逊云科技提供的基础设施上的软件，并允许买家可以直接通过Marketplace来使用您的软件。您需要在您的软件中管理客户访问、账户创建、资源配置和账户管理。</description>
+								<content:encoded>&lt;p&gt;为了给企业提供更加易用的应用层软件，越来越多的软件提供商推出了SaaS产品。亚马逊云科技Marketplace(以下简称Marketplace)是一个提供甄选的数字化产品的平台，能够帮助SaaS厂商降低销售成本，触达更多的客户，是很多SaaS厂商的首选。&lt;/p&gt; 
+&lt;p&gt;通过软件即服务（SaaS）产品，您部署了在亚马逊云科技提供的基础设施上的软件，并允许买家可以直接通过Marketplace来使用您的软件。您需要在您的软件中管理客户访问、账户创建、资源配置和账户管理。&lt;/p&gt; 
+&lt;p&gt;在Marketplace中上架您基于SaaS模式的软件过程中，您需要与Marketplace SaaS提供的多个API进行对接，具体对接的方式您可以参考&lt;a href="https://docs.aws.amazon.com/marketplace/latest/userguide/saas-products.html"&gt;卖家指南&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;在您的SaaS中，建议您将与Marketplace SaaS API进行接口集成的部分作为独立模块进行研发和管理，并运行在您的亚马逊云科技账号中。&lt;/p&gt; 
+&lt;p&gt;但因为商务上的诸多因素，很多Marketplace的卖家的亚马逊云科技账号与运行SaaS系统以及对接模块的亚马逊云科技账号并不是同一个账号，而Marketplace SaaS API调用的权限仅会对作为卖家的亚马逊云科技账号打开，那该如何在SaaS架构中安全的获取Marketplace SaaS API调用权限呢？&lt;/p&gt; 
+&lt;p&gt;在这篇文章中，我将介绍在多个亚马逊云科技账户中构建Marketplace SaaS的API对接的最佳实践！&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;&lt;strong&gt;概述&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;对于亚马逊云科技Marketplace中基于SaaS交付的产品中，有多种价格模型可以选择，因为本篇文章中只会涉及接口调用权限的内容，所以在下文中，将以基于订阅的价格模型作为举例。&lt;/p&gt; 
+&lt;p&gt;对SaaS订阅的API、ResolveCustomer和BatchMeterUsage的调用必须由Marketplace卖家账户的凭证来进行权限的获取。这并代表着您的SaaS代码需要在Marketplace卖方账户中运行。在架构设计中，最好的方式是在一个单独的亚马逊云科技账户中管理您的生产代码，并使用跨账户角色和sts:AssumeRole来获得临时凭证，然后可以用来调用Marketplace的计量API。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;&lt;strong&gt;案例背景&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;在本文章的举例中，有两个亚马逊云科技的账户：&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;亚马逊云科技Marketplace&lt;/strong&gt;&lt;strong&gt;卖家账户&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;这是您的企业在亚马逊云科技上注册为卖家的账户。API调用必须从这个账户的相关权限验证后才能进行。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;生产代码的亚马逊云科技账户&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;这是您的SaaS系统所运行的亚马逊云科技账户。&lt;/p&gt; 
+&lt;p&gt;在最佳SaaS on Marketplace架构设计中，使用单一的账户还是多账户各有利弊，单一的亚马逊云科技账户作为Marketplace账户可以简化管理，并避免了客户在查看ISV的产品和服务时出现任何混淆。&lt;/p&gt; 
+&lt;p&gt;但将卖方账户与产品账户分开意味着每个SaaS服务都可以有自己的亚马逊账户，这提供了一个良好的安全和管理边界。当一个卖家有多个产品时，可以使用多个AWS账户来进一步分离各团队的环境。&lt;/p&gt; 
+&lt;p&gt;使用不同的亚马逊云科技Marketplace卖家和生产账户的情况下，有2个亚马逊云科技账户在发挥作用。注册为Marketplace卖方的AWS账户（Seller-Account）和生产代码所在的AWS账户（SaaS-Account）。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;&lt;strong&gt;SaaS&lt;/strong&gt;&lt;strong&gt;架构设计&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;卖家账户在Marketplace上进行了注册并上架了产品，所以该账户有调用计量API的权限。这时，卖家需要确认了该账户有调用Marketplace API权限后，在该账户创建一个IAM角色，在策略配置上允许访问计量API，以及从生产账户来承接该角色的服务，具体承接角色的服务可以根据您的Marketplace SaaS API对接模块的部署方式来决定。&lt;/p&gt; 
+&lt;p&gt;在本文章的例子中，卖方账户中的IAM角色被称为saas-account-role。这有附加的AWSMarketplaceMeteringFullAccess管理策略。IAM角色有一个信任关系，如下所示。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-powershell"&gt;{
+  &amp;quot;Version&amp;quot;: &amp;quot;2012-10-17&amp;quot;,
+  &amp;quot;Statement&amp;quot;: [
+    {
+      &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
+      &amp;quot;Principal&amp;quot;: {
+        &amp;quot;AWS&amp;quot;: &amp;quot;arn:aws:iam:: SaaS-Account:root&amp;quot;
+      },
+      &amp;quot;Action&amp;quot;: &amp;quot;sts:AssumeRole&amp;quot;,
+      &amp;quot;Condition&amp;quot;: {
+        &amp;quot;StringEquals&amp;quot;: {
+          &amp;quot;sts:ExternalId&amp;quot;: &amp;quot;xxxxxxx&amp;quot;
+        }
+      }
+    }
+  ]
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;SaaS应用程序以及与Marketplace API对接的模块部署在生产账户中。该账户没有权限来调用卖家账号上架的那款产品计量API。在您的SaaS架构设计中，应该在这个账号中创建一个IAM角色以及策略，本文章中所举的例子中，与Marketplace API对接的模块部署在Amazon EC2实例中，这时您所创建的角色信任实体应该为Amazon EC2，并在策略中授予sts:AssumeRole的权限，通过EC2实例配置文件将该角色附加到运行SaaS Marketplace API对接的模块的EC2实例。这为该实例提供了临时凭证，可用于签署对亚马逊云科技API调用的请求。这些临时凭证用于调用 sts:AssumeRole 方法，该方法从卖方账户返回临时凭证。这些都是用来调用Marketplace计量API的。&lt;/p&gt; 
+&lt;p&gt;执行sts:AssumeRole命令所需的权限是。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-powershell"&gt;{
+    &amp;quot;Version&amp;quot;: &amp;quot;2012-10-17&amp;quot;,
+    &amp;quot;Statement&amp;quot;: {
+        &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
+        &amp;quot;Action&amp;quot;: &amp;quot;sts:AssumeRole&amp;quot;,
+        &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:iam:: Seller-Account:role/saas-account-role&amp;quot;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;为了使SaaS应用程序的Marketplace API对接的模块能够对Marketplace计量API进行调用，它必须能获取并承接卖家账户中的角色。这是通过调用sts:AssumeRole方法来完成的。如果成功的话，这个调用会返回临时凭证（秘密/访问密钥）。然后，这些凭证可以用来调用计量API。&lt;/p&gt; 
+&lt;p&gt;下面的代码片段显示了您如何调用 assume_role函数来获得卖方账户的临时凭证，该片段为Python代码，其他语言的代码可以参考不同语言的API文档。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-powershell"&gt;import boto3
+
+sts_client = boto3.client('sts')
+
+assumedRoleObject = sts_client.assume_role(
+    RoleArn=&amp;quot;arn:aws:iam::Seller-Account:role/saas-account-role &amp;quot;,
+    RoleSessionName=&amp;quot;AssumeRoleSession1&amp;quot;,
+    ExternalId=&amp;quot;xxxxxxx&amp;quot;)
+
+credentials = assumedRoleObject['Credentials']
+
+client = boto3.client('marketplace-metering','us-east-1', 
+    aws_access_key_id = credentials['AccessKeyId'], 
+    aws_secret_access_key=credentials['SecretAccessKey'], 
+    aws_session_token = credentials['SessionToken'])
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;至此，您的应用程序模块初始化的客户端将会具备调用卖家账户的Marketplace API权限，您可以根据您卖家账户上架的产品id，直接进行多个API的调用以完成与Marketplace的集成。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;&lt;strong&gt;总结&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;该文章中说明了在SaaS架构设计中，如何在多账号的背景下安全的获得Marketplace API的权限并独立分离卖家账号与SaaS应用程序账号，请尽可能的避免直接在卖家账号中创建用户，并将用户的身份凭证以明文的方式永久的配置在您的应用程序中。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/mingyue.jpg" width="125" /&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;张明月&lt;/h3&gt; 
+  &lt;p&gt;合作伙伴解决方案架构师&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
+		<title>在亚马逊云科技Marketplace上的SaaS架构设计——如何支持多产品使用单一账户中心</title>
+		<link>https://aws.amazon.com/cn/blogs/china/saas-architecture-design-on-amazon-cloud-technology-marketplace-how-to-support-multiple-products-using-a-single-account-center/</link>
+				<pubDate>Fri, 13 Aug 2021 03:22:42 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[AWS Marketplace]]></category>
+		<category><![CDATA[Marketplace]]></category>
+
+		<guid isPermaLink="false">7d39b7a69b9fe99a55e1940a180b292f02e43969</guid>
+				<description>为了给企业提供更加易用的应用层软件，越来越多的软件提供商推出了SaaS产品。亚马逊云科技Marketplace(以下简称Marketplace)是一个提供甄选的数字化产品的平台，能够帮助SaaS厂商降低销售成本，触达更多的客户，是很多SaaS厂商的首选。 通过软件即服务（SaaS）产品，您部署了在亚马逊云科技提供的基础设施上的软件，并允许买家可以直接通过Marketplace来使用您的软件。您需要在您的软件中管理客户访问、账户创建、资源配置和账户管理。</description>
+								<content:encoded>&lt;p&gt;为了给企业提供更加易用的应用层软件，越来越多的软件提供商推出了SaaS产品。亚马逊云科技Marketplace(以下简称Marketplace)是一个提供甄选的数字化产品的平台，能够帮助SaaS厂商降低销售成本，触达更多的客户，是很多SaaS厂商的首选。&lt;/p&gt; 
+&lt;p&gt;通过软件即服务（SaaS）产品，您部署了在亚马逊云科技提供的基础设施上的软件，并允许买家可以直接通过Marketplace来使用您的软件。您需要在您的软件中管理客户访问、账户创建、资源配置和账户管理。&lt;/p&gt; 
+&lt;p&gt;在Marketplace中上架您基于SaaS模式的软件过程中，您需要与Marketplace SaaS提供的多个API进行对接，具体对接的方式您可以参考&lt;a href="https://docs.aws.amazon.com/marketplace/latest/userguide/saas-products.html"&gt;卖家指南&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;在您的SaaS中，建议您将与Marketplace SaaS API进行接口集成的部分作为独立模块进行研发和管理，并运行在您的亚马逊云科技账号中。&lt;/p&gt; 
+&lt;p&gt;在上一个文章《在亚马逊云科技Marketplace上的SaaS架构设计（一）——跨多账户对接篇》中，我们基于SaaS架构设计的角度介绍了多个亚马逊云科技账户中构建Marketplace SaaS的API对接的最佳实践，除了多亚马逊云科技的账户情况可能会发生，还会发生另外一种情况，就是卖家将同一个SaaS应用程序，根据功能以及业务上的要求，拆分成了多个SaaS产品上架到了Marketplace中，这意味着同一个卖家账户，在亚马逊云科技Marketplace上架了多款SaaS产品，但是这些SaaS产品的租户与账户系统是相同同时客户登陆的是相同的SaaS应用程序。&lt;/p&gt; 
+&lt;p&gt;在这种情况下，与Marketplace的租户API对接过程将会变得复杂，本文将基于这个场景，进行SaaS架构设计的介绍。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;&lt;strong&gt;租户对接介绍&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;在您的SaaS应用程序与Marketplace API进行对接的过程中，其中一个重要的就是租户的对接，这里涉及到的API为ResolveCustomer。&lt;/p&gt; 
+&lt;p&gt;ResolveCustomer是由SaaS应用程序在注册过程中调用的。当买家在注册过程中访问您提交给我们的落地页面时，买家会通过他们的浏览器提交一个注册令牌。注册令牌通过该API被解析，以获得CustomerIdentifier和产品代码。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;接收新用户 API：&lt;strong&gt;ResolveCustomer&lt;/strong&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;当一个用户从Marketplace订阅并跳转到您的SaaS应用程序后，您将会面临您的应用程序与亚马逊云科技进行用户对接的过程，该用户在第一次到达您的SaaS应用程序时，他具备Amazon Web Service的账户身份，同时该用户在您的SaaS应用程序中载入后，他也具备您的SaaS租户属性，为了日后您与Marketplace进行交互，您需要在这一步骤中进行API集成，完成该用户2个身份的绑定。&lt;/p&gt; 
+&lt;p&gt;ResolveCustomer API是整个SaaS API集成的第一步，也是客户通过Marketplace进入到您的SaaS应用的第一步，在这一步骤中，我们需要通过该API完成两部分工作：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;验证新客户&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;在客户订阅您的产品后，他们将被重定向到执行的URL。该重定向是一个POST请求，包括一个临时令牌。然后，您的应用程序需要通过调用Marketplace计量服务API中的ResolveCustomer，将令牌换成客户ID。在获得客户ID后，将其保存在您的应用程序中，以便将来调用。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;载入您的新客户&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;在成功地验证了一个客户后，让他们加入您的应用程序。例如，让他们填写一个表格来创建一个新的用户账户。或者，为他们提供进入应用程序的后续步骤。您的应用程序可以根据客户的信息来自动化的装载该客户所需要的后续资源与服务。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/saas-architecture-design-on-amazon-cloud-technology-marketplace-how-to-support-multiple-products-using-a-single-account-center1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/saas-architecture-design-on-amazon-cloud-technology-marketplace-how-to-support-multiple-products-using-a-single-account-center1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;如上图所示，在使用ResolveCustomer API的过程中，首先需要从Http Request中获取token，当客户从Marketplace跳转到您的应用程序过程中， Marketplace会给您上线过程中提交的URL发送POST请求，您需要从该请求中通过获取x-amzn-marketplace-token获取该用户的身份token，然后调用ResolveCustomer API获得CustomerIdetifier和ProductCode，其中CustomerIdetifier为该客户在AWS上身份的标示，ProductCode是产品的唯一标识码。&lt;/p&gt; 
+&lt;p&gt;您需要将CustomerIdetifier与ProductCode基于您应用程序逻辑进行业务处理，并用于后续该用户与AWS Marketplace API交互。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;&lt;strong&gt;案例背景&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;以上为正常情况下的租户对接过程，但如果在Marketplace中您使用了相同的卖家账号上架了多款SaaS产品，但这些SaaS应用程序使用了相同的租户注册与验证系统同时客户登陆的是同一套SaaS应用程序，将会面临更加复杂的问题。&lt;/p&gt; 
+&lt;p&gt;对于亚马逊云科技Marketplace中基于SaaS交付的产品中，有多种价格模型可以选择，本篇文章所涉及的内容重点为租户系统对接的设计，订阅模型与合约模型作为仅作为租户系统对接设计的后续行为，所以在下文中，将以基于订阅的价格模型作为举例。&lt;/p&gt; 
+&lt;p&gt;在本文章的举例中，有两个您上架的SaaS产品，分别为&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;SaaS1&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;产品ID为product1111&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;SaaS2&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;产品ID为product2222&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;&lt;strong&gt;SaaS&lt;/strong&gt;&lt;strong&gt;架构设计&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;在正常的情况下，当客户通过Marketplace购买您的产品后，我们会建议您将SaaS应用程序的租户与通过Marketplace API换到的CustomerIdetifier进行绑定，而产品ID则根据您的需求进行合理的持久化，这样您的SaaS应用程序中的用户在产生消费行为过程中，您会将该行为记录并整合到您的用户的租户中，并通过Marketplace API与Marketplace进行计价的交互，在这种背景下，租户对接设计一般为：&lt;/p&gt; 
+&lt;table border="1"&gt; 
+ &lt;tbody&gt; 
+  &lt;tr&gt; 
+   &lt;td width="208"&gt;租户ID&lt;/td&gt; 
+   &lt;td width="208"&gt;用户ID&lt;/td&gt; 
+   &lt;td width="208"&gt;Marketplace_Id&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="208"&gt;AAA&lt;/td&gt; 
+   &lt;td width="208"&gt;111&lt;/td&gt; 
+   &lt;td width="208"&gt;5ha1maxi&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="208"&gt;&lt;/td&gt; 
+   &lt;td width="208"&gt;222&lt;/td&gt; 
+   &lt;td width="208"&gt;5ha1maxi&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="208"&gt;&lt;/td&gt; 
+   &lt;td width="208"&gt;333&lt;/td&gt; 
+   &lt;td width="208"&gt;5ha1maxi&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="208"&gt;BBB&lt;/td&gt; 
+   &lt;td width="208"&gt;111&lt;/td&gt; 
+   &lt;td width="208"&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="208"&gt;&lt;/td&gt; 
+   &lt;td width="208"&gt;222&lt;/td&gt; 
+   &lt;td width="208"&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/tbody&gt; 
+&lt;/table&gt; 
+&lt;p&gt;在上面所举例的租户设计中，Marketplace_Id字段代表着持久化的Marketplace CustomerIdetifier，该字段存在值代表着该租户是通过Marketplace平台进入到SaaS应用程序中，未来该租户的所有计费相关的行为将使用该字段的值，该SaaS应用程序的产品ID以及计费维度和使用量来与Marketplace进行交互，如下所示：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-powershell"&gt;{
+   &amp;quot;ProductCode&amp;quot;: &amp;quot; product1111&amp;quot;,
+   &amp;quot;UsageRecords&amp;quot;: [ 
+      { 
+         &amp;quot;CustomerIdentifier&amp;quot;: &amp;quot;5ha1maxi&amp;quot;,
+         &amp;quot;Dimension&amp;quot;: &amp;quot;Data&amp;quot;,
+         &amp;quot;Quantity&amp;quot;: 2,
+         &amp;quot;Timestamp&amp;quot;: xxxxx
+      }
+   ]
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;但当中您使用了相同的卖家账号上架了多款SaaS产品，但这些SaaS应用程序使用了相同的租户注册与验证系统，这种架构设计会导致以下问题：&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;无法控制&lt;/strong&gt;&lt;strong&gt;SaaS&lt;/strong&gt;&lt;strong&gt;应用程序的权限&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;用户通过Marketplace选择您其中一款SaaS产品购买并注册/登陆后，因为您之前的SaaS架构设计原因，您将无法区别该用户来源于哪个Marketplace中您上架的产品，所以您无法进行SaaS应用程序的权限控制&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;部分情况下无法进行&lt;/strong&gt;&lt;strong&gt;API&lt;/strong&gt;&lt;strong&gt;交互&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;用户通过Marketplace选择您其中一款SaaS产品购买并注册/登陆后，可能会在您的SaaS应用程序中使用了您另外一款上架的SaaS应用程序的功能，您的SaaS应用程序会根据该功能去调用Marketplace计费API与Marketplace交互，但是由于该用户并没有通过Marketplace订阅您的另一款产品，您会得到一个错误的返回。&lt;/p&gt; 
+&lt;p&gt;所以在这种特殊的情况下，您的SaaS架构设计在租户层根据您上架的产品数量来进行标示的区分并与您的租户系统进行绑定，如下图所示：&lt;/p&gt; 
+&lt;table border="1"&gt; 
+ &lt;tbody&gt; 
+  &lt;tr&gt; 
+   &lt;td width="152"&gt;租户ID&lt;/td&gt; 
+   &lt;td width="88"&gt;用户ID&lt;/td&gt; 
+   &lt;td width="198"&gt;Marketplace_Id1&lt;/td&gt; 
+   &lt;td width="186"&gt;Marketplace_Id2&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="152"&gt;AAA&lt;/td&gt; 
+   &lt;td width="88"&gt;111&lt;/td&gt; 
+   &lt;td width="198"&gt;product1111-5ha1maxi&lt;/td&gt; 
+   &lt;td width="186"&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="152"&gt;&lt;/td&gt; 
+   &lt;td width="88"&gt;222&lt;/td&gt; 
+   &lt;td width="198"&gt;product1111-5ha1maxi&lt;/td&gt; 
+   &lt;td width="186"&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="152"&gt;&lt;/td&gt; 
+   &lt;td width="88"&gt;333&lt;/td&gt; 
+   &lt;td width="198"&gt;product1111-5ha1maxi&lt;/td&gt; 
+   &lt;td width="186"&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="152"&gt;BBB&lt;/td&gt; 
+   &lt;td width="88"&gt;111&lt;/td&gt; 
+   &lt;td width="198"&gt;product1111-5ha1maxi&lt;/td&gt; 
+   &lt;td width="186"&gt;Product2222-d92nwk21&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="152"&gt;&lt;/td&gt; 
+   &lt;td width="88"&gt;222&lt;/td&gt; 
+   &lt;td width="198"&gt;product1111-5ha1maxi&lt;/td&gt; 
+   &lt;td width="186"&gt;Product2222-d92nwk21&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/tbody&gt; 
+&lt;/table&gt; 
+&lt;p&gt;或者&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-powershell"&gt;{
+    &amp;quot;Tenant_T&amp;quot;: [
+        {
+            &amp;quot;TenantID&amp;quot;: &amp;quot;AAA&amp;quot;,
+            &amp;quot;User&amp;quot;: [
+                {
+                    &amp;quot;UserID&amp;quot;: &amp;quot;111&amp;quot;
+                },
+                {
+                    &amp;quot;UserID&amp;quot;: &amp;quot;222&amp;quot;
+                },
+                {
+                    &amp;quot;UserID&amp;quot;: &amp;quot;333&amp;quot;
+                }
+            ],
+            &amp;quot;Marketplace&amp;quot;: [
+                {
+			 &amp;quot;ProductID&amp;quot;: &amp;quot;product111&amp;quot;,
+                    &amp;quot;MarketplaceID&amp;quot;: &amp;quot;5ha1maxi&amp;quot;
+                }
+            ]
+        },
+        {
+            &amp;quot;TenantID&amp;quot;: &amp;quot;BBB&amp;quot;,
+            &amp;quot;User&amp;quot;: [
+                {
+                    &amp;quot;UserID&amp;quot;: &amp;quot;111&amp;quot;
+                },
+                {
+                    &amp;quot;UserID&amp;quot;: &amp;quot;222&amp;quot;
+                }
+            ],
+            &amp;quot;Marketplace&amp;quot;: [
+                {
+			 &amp;quot;ProductID&amp;quot;: &amp;quot;product111&amp;quot;,
+                    &amp;quot;MarketplaceID&amp;quot;: &amp;quot;5ha1maxi&amp;quot;
+                },
+                {
+			 &amp;quot;ProductID&amp;quot;: &amp;quot;product222&amp;quot;,
+                    &amp;quot;MarketplaceID&amp;quot;: &amp;quot; d92nwk21&amp;quot;
+                }
+            ]
+        }
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;在这种租户架构下，您可以清晰的区分出Marketplace端的租户，您上架的产品以及您的SaaS应用程序的租户之间的关系，当某一个用户进行您的SaaS应用程序功能的选择时，你需要找到该用户对应的租户以及该租户中通过Marketplace订阅的产品，如果该功能所属的产品已经被订阅，您可以直接使用这些信息于Marketplace API交互进行用量的传输，如果该用户并没有订阅该产品，您的应用程序应该进行相应的处理，比如禁止该用户使用此功能并引导客户至相应的Marketplace上您的产品进行订阅后再进行使用。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;总结&lt;/h2&gt; 
+&lt;p&gt;该文章中说明了在SaaS架构设计中，在根据业务和产品的需求，需要将SaaS应用程序拆分多个产品进行上架的情况下，如何进行SaaS租户的设计以及权限的判断，我们建议您在非必要情况下，不要进行单一SaaS应用程序的的拆分而上架多个Marketplace产品，但如果您的需求必须如此，请您进行好响应的SaaS架构设计避免用户体验的降低或者造成您的损失。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/mingyue.jpg" width="125" /&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;张明月&lt;/h3&gt; 
+  &lt;p&gt;合作伙伴解决方案架构师&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
+		<title>关于Amazon EKS基于Gitlab的CICD实践二 基础架构和应用架构创建篇</title>
+		<link>https://aws.amazon.com/cn/blogs/china/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation/</link>
+				<pubDate>Thu, 12 Aug 2021 03:20:42 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Containers]]></category>
+		<category><![CDATA[Amazon Elastic Container Registry]]></category>
+		<category><![CDATA[Amazon Elastic Kubernetes Service]]></category>
+		<category><![CDATA[Amazon Relational Database Service]]></category>
+
+		<guid isPermaLink="false">5c06ae7d26b381bec101fa44769e4ee9bd748532</guid>
+				<description>在Gitlab的部署和配置完成后，本篇将介绍(三)基础架构的部署和(四)应用架构的部署。Gitlab 可以在代码仓库的根目录定义一个名为 .gitlab-ci.yml 的文件。这个文件是你定义你的CI/CD pipeline的地方。在开始创建和定义你的 .gitlab-ci.yml 之前，我们需要了解GitLab CI/CD中一些概念来描述和运行你的Gitlab CI/CD pipeline。</description>
+								<content:encoded>&lt;p&gt;关于Gitlab的CI/CD的实践具体分成如下的内容，其中一和二已经在上面一篇 &lt;a href="https://aws.amazon.com/cn/blogs/china/about-amazon-eks-gitlab-based-cicd-practice-one-gitlab-deployment-and-configuration/"&gt;&lt;strong&gt;关于Gitlab的CICD的实践&lt;/strong&gt;&lt;strong&gt;一 &lt;/strong&gt;&lt;strong&gt;Gitlab的部署和配置篇&lt;/strong&gt; &lt;/a&gt;中介绍完成了。&lt;/p&gt; 
+&lt;p&gt;(一)部署的架构&lt;br /&gt; (二)Gitlab的部署和配置&lt;br /&gt; (三)基础架构的部署&lt;br /&gt; (1) Amazon RDS 的创建&lt;br /&gt; (2) Amazon EKS的创建&lt;br /&gt; (四)应用架构的部署&lt;br /&gt; (1) Amazon RDS 数据库中数据的部署&lt;br /&gt; (2) Amazon EKS集群中应用的部署&lt;br /&gt; 在Gitlab的部署和配置完成后，本篇将介绍(三)基础架构的部署和(四)应用架构的部署。Gitlab 可以在代码仓库的根目录定义一个名为 .gitlab-ci.yml 的文件。这个文件是你定义你的CI/CD pipeline的地方。在开始创建和定义你的 .gitlab-ci.yml 之前，我们需要了解GitLab CI/CD中一些概念来描述和运行你的Gitlab CI/CD pipeline。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;(三)基础架构的部署&lt;/h2&gt; 
+&lt;h3&gt;&lt;strong&gt;1)pipeline(流水线)&lt;/strong&gt;&lt;/h3&gt; 
+&lt;p&gt;是持续集成、交付和部署的顶级组件。Pipeline由以下部分组成：&lt;br /&gt; &lt;strong&gt;job(工作)&lt;/strong&gt;，它定义了要做什么。例如，编译或测试代码的工作。&lt;br /&gt; &lt;strong&gt;stage(阶段)&lt;/strong&gt;，定义何时运行作业。例如，在编译代码的stage之后运行测试的stage。&lt;br /&gt; 使用stages来定义包含一组job，而stages又被定义在pipeline(流水线)中。在pipeline(流水线)中使用stage来定义某job是那个阶段的一部分。stage的顺序定义了作业的执行顺序。&lt;br /&gt; job是由runner(运行器)执行的。如果有足够多的并发runner，同一stage的多个job可以并行执行。如果一个stage的所有job都成功了，pipeline就会进入下一个stage。如果一个stage中的任何job失败了，下一个stage就不会被执行，pipeline就会提前结束。一般来说，pipeline是自动执行的，一旦创建就不需要干预。然而，有些时候，你可以设定pipeline中的有些阶段是手动来执行，比如删除创建的资源。&lt;br /&gt; 例如如下示例中&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 此示例中定义了三个stages – compile,test,package，同一个stage(package)中的多个job(pack-gz, pack-iso)可以并行执行。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 此示例为此次实践中创建EKS Cluster的流水线，其中也定义了三个stages – build,deploy,destroy，同一个stage的所有job都成功了，pipeline就会进入下一个stage。stage的顺序定义了作业的执行顺序。&lt;br /&gt; Pipeline是GitLab中CI/CD的基本构建块。有三种主要方式来构建pipeline，每一种都有自己的优势。如果需要，这些方法可以混合使用。&lt;br /&gt; &lt;strong&gt;Basic(基本型)&lt;/strong&gt;: 适合于简单的项目，所有的配置都在一个容易找到的地方。&lt;br /&gt; &lt;strong&gt;Directed Acyclic Graph(有向无环图)&lt;/strong&gt;: 适合于需要高效执行的大型复杂项目。&lt;br /&gt; &lt;strong&gt;Child/Parent(子/父流水线)&lt;/strong&gt;: 适合单体项目和有很多独立定义的组件的项目。&lt;br /&gt; 本实践就是结合了 Child/Parent 和 Directed Acyclic Graph。&lt;br /&gt; &lt;strong&gt;有向无环图流水线&lt;/strong&gt;: 如果效率对你来说很重要，你希望所有的东西都能尽可能快地运行，你可以使用有向无环图（DAG）。使用needs关键字来定义job之间的依赖关系。当GitLab知道你的工作之间的关系时，它可以尽可能快地运行一切，甚至在可能的情况下跳过后续阶段。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-powershell"&gt;# Parent gitlab-ci file, which trigger two CICD steps for AWS EKS cluster and RDS for mysql creation
+# And it's also with two CICD steps for applications on EKS and data updating on RDS for mysql
+
+stages:
+- trigger-modules
+
+# child gitlab pipeline for EKS cluster creation
+EKS cluster creation:
+  stage: trigger-modules
+  trigger:
+    include: infra/eks-cluster/eks-gitlab-ci.yml
+  only:
+    changes:
+    - infra/eks-cluster/*
+
+# child gitlab pipeline for RDS for mysql creation
+RDS for mysql creation:
+  stage: trigger-modules
+  trigger:
+    include:  infra/rdsmysql/rdsreal/rds-gitlab-ci.yml
+  only:
+    changes:
+    - infra/rdsmysql/*
+    - infra/rdsmysql/**/*
+
+# child gitlab pipeline for data updating on RDS for mysql
+RDS for app running:
+  stage: trigger-modules
+  trigger:
+    include:  app/rds/app-rds-gitlab-ci.yml
+  only:
+    changes:
+    - app/rds/*
+
+# child gitlab pipeline for applications on EKS
+EKS for app running:
+  stage: trigger-modules
+  trigger:
+    include:  app/eks/app-eks-gitlab-ci.yml
+  only:
+    changes:
+- app/eks/*    
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;strong&gt;子&lt;/strong&gt;&lt;strong&gt;/父流水线&lt;/strong&gt;: 上面是本实践中位于根目录中 .gitlab-ci.yml 文件的内容 ，通过 trigger 关键字来使用子/父流水线。它将Gitlab CICD流水线配置分离成多个文件，使pipeline变得简单和利于理解。你也可以将其与以下内容结合起来。&lt;br /&gt; rules 关键字。例如，只有指定目录的内容(代码)发生变化时，才会触发子流水线。如上实例中的only子句。&lt;br /&gt; include 关键字。在指定具体的子流水线需要执行的文件。&lt;/p&gt; 
+&lt;h3&gt;&lt;strong&gt;2)CI/CD变量是环境变量的一种&lt;/strong&gt;&lt;/h3&gt; 
+&lt;p&gt;你可以用它们来 (1) 控制作业和流水线的行为。(2) 存储你想重复使用的值。(3) 避免在你的.gitlab-ci.yml文件中的硬编码值。本实践，我创建了全局环境变量和在project中的子gitlab-ci.yml文件中定义变量。&lt;/p&gt; 
+&lt;h3&gt;&lt;strong&gt;3)job artifact&lt;/strong&gt;&lt;/h3&gt; 
+&lt;p&gt;job可以输出一个文件和目录的内容，这种输出被称为job artifact，你可以通过使用GitLab用户界面或API下载job artifact。&lt;br /&gt; 为了Gitlab的CI/CD能正常的执行，在准备好了从Github上拉取的代码，并push到自建的Gitlab上。以及配置Gitlab 的环境，现在还需要设置环境变量，因为如下的Gitlab CICD 子流水线使用了这些环境变量。&lt;br /&gt; &lt;code&gt;infra/eks-cluster/eks-gitlab-ci.yml&lt;/code&gt;&lt;br /&gt; &lt;code&gt;infra/rdsmysql/rdsreal/rds-gitlab-ci.yml&lt;/code&gt;&lt;br /&gt; &lt;code&gt;app/eks/app-eks-gitlab-ci.yml&lt;/code&gt;&lt;br /&gt; 这三个都使用如下的环境变量&lt;br /&gt; &lt;code&gt;- 'AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}'&lt;/code&gt;&lt;br /&gt; &lt;code&gt;- 'AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}'&lt;/code&gt;&lt;br /&gt; &lt;code&gt;- 'AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}'&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;app/rds/app-rds-gitlab-ci.yml&lt;/code&gt;&lt;br /&gt; 有如下的环境变量的需求&lt;br /&gt; &lt;code&gt;$DB_HOST_MASTER&lt;/code&gt;&lt;br /&gt; &lt;code&gt;$DB_USER_MASTER&lt;/code&gt;&lt;br /&gt; &lt;code&gt;$DB_PASSWORD_MASTER&lt;/code&gt;&lt;br /&gt; &lt;code&gt;$DB_SCHEMA&lt;/code&gt;&lt;br /&gt; 在Gitlab设置全局环境变量,Menu-Admin-Settings-CICD-Variables-Add variable&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 按如上步骤创建好AWS AKSK 和 RDS 等环境变量。其中RDS的数据信息需要等到RDS for mysql创建好后在设置。最后的设置后的信息如下&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 在Gitlab中的gitlabcicd project中有如下内容&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 1)目录(infra): 通过Gitlab CICD和Terraform自动化的创建和部署亚马逊云科技EKS Cluster和RDS for Mysql. 偏基础设施的团队会更关注这一点.&lt;br /&gt; 2)目录(app): 再通过Gitlab CICD结合AWS EKS,AWS ECR,Docker和Liquibase来达成应用系统的版本迭代和发布. 偏业务的团队会更关注这一块.&lt;br /&gt; 3)文件(.gitlab-ci.yml): Gitlab CICD的主配置文件,来完成主要的CICD的逻辑调度工作.&lt;br /&gt; 4)文件(create_bucket.sh): 因为Terraform作为IaC的工具,需要通过状态文件了解Infrastructure状态,所以需要一个外置存储来存放此状态文件.此shell脚本是来创建S3存储桶和相应的Terraform的状态文件.&lt;br /&gt; infra目录中包含Terraform代码用于自动化的创建EKS Cluster和RDS for Mysql.而Terraform是一个由HashiCorp创建的开源基础设施即代码(IaC)软件工具。用户使用被称为HashiCorp配置语言的声明性配置语言，或可选的JSON来定义和提供数据中心基础设施。更多关于Terraform的信息可以访问如下link：&lt;br /&gt; &lt;a href="https://learn.hashicorp.com/terraform?utm_source=terraform_io&amp;amp;utm_content=terraform_io_hero"&gt;https://learn.hashicorp.com/terraform?utm_source=terraform_io&amp;amp;utm_content=terraform_io_hero&lt;/a&gt;&lt;br /&gt; 使用Git将Terraform编写的IaC的代码提交到Gitlab管理的代码仓库中，并做版本控制，另外结合Gitlab CICD自动化的完成基础设施的部署。因为Terraform编写的IaC的代码不是本文的重点，所以不做过多讨论。如上面描述的因为Terraform作为IaC的工具,需要通过状态文件了解Infrastructure状态,而执行Terraform代码的executor(执行器)为docker，Terraform状态文件会随着docker生命周期结束而丢失。所以需要一个外置存储来存放此状态文件。shell脚本(create_bucket.sh)是来创建S3存储桶和相应的Terraform的状态文件。&lt;br /&gt; &lt;code&gt;# 在您的workstation/笔记本执行如下命令&lt;/code&gt;&lt;br /&gt; &lt;code&gt;cd ~&lt;/code&gt;&lt;br /&gt; &lt;code&gt;cd gitlabcicd&lt;/code&gt;&lt;br /&gt; &lt;code&gt;bash ./create_bucket.sh&lt;/code&gt;&lt;br /&gt; &lt;code&gt;aws s3 ls s3://jerry-terraform-states/&lt;/code&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;替换的s3桶名，可以使用如下命令替换:&lt;br /&gt; sed -i ‘s/^Bucket_Name=\(.*\)/Bucket_Name=your_bucket_name/’ create_bucket.sh&lt;br /&gt; 根据代码仓库的根目录下 .gitlab-ci.yml 文件的定义，触发自动部署infra资源(EKS cluster,RDS),当然也包括其他相关资源，比如VPC，子网和安全组等。需要修改或添加如下指定位置中的文件并使用Git提交，进而来触发pipeline&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 我编辑了上面两个目录中的README.md文件,再执行如下&lt;br /&gt; &lt;code&gt;git add .&lt;/code&gt;&lt;br /&gt; &lt;code&gt;git commit -m &amp;quot;push&amp;quot;&lt;/code&gt;&lt;br /&gt; &lt;code&gt;git push -u origin main&lt;/code&gt;&lt;br /&gt; CICD-Pipelines查看触发的流水线和jobs&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation10.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 可以看到job已经顺利执行完成。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation11.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; EKS集群创建完成后，Destroy stage，我设置成为是手动执行，也就是说，如果你希望删除EKS集群，可以通过点击Destroy旁的播放按钮来触发。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation12.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;同样RDS创建完成，Destroy也是可以手动执行的。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation13.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;EKS集群和RDS创建完成后，有生成artifact，可以通过job页面下载&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation14.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation14.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;其实您也可以修改EKS和RDS的名称以及数据库user名称和密码，具体修改的位置如下。&lt;/p&gt; 
+&lt;p&gt;EKS修改集群名称和VPC IP地址网段的位置:&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-powershell"&gt;infra/eks-cluster/vpc.tf 
+
+variable &amp;quot;general_name&amp;quot; {
+  default     = &amp;quot;cicdeks&amp;quot;
+  description = &amp;quot;general name&amp;quot;
+}
+…
+
+module &amp;quot;vpc&amp;quot; {
+  source  = &amp;quot;terraform-aws-modules/vpc/aws&amp;quot;
+  version = &amp;quot;3.2.0&amp;quot;
+
+  name                 = local.vpc_name
+  cidr                 = &amp;quot;10.98.0.0/18&amp;quot;
+  azs                  = data.aws_availability_zones.available.names
+  private_subnets      = [&amp;quot;10.98.1.0/24&amp;quot;, &amp;quot;10.98.2.0/24&amp;quot;, &amp;quot;10.98.3.0/24&amp;quot;]
+  public_subnets       = [&amp;quot;10.98.4.0/24&amp;quot;, &amp;quot;10.98.5.0/24&amp;quot;, &amp;quot;10.98.6.0/24&amp;quot;]
+  enable_nat_gateway   = true
+  single_nat_gateway   = true
+  enable_dns_hostnames = true
+…
+
+RDS修改database名称和VPC IP地址网段的位置:
+infra/rdsmysql/rdsreal/main.tf 
+
+variable &amp;quot;general_name&amp;quot; {
+  default     = &amp;quot;cicdrds&amp;quot;
+  description = &amp;quot;general name&amp;quot;
+}
+...
+
+module &amp;quot;vpc&amp;quot; {
+  source  = &amp;quot;terraform-aws-modules/vpc/aws&amp;quot;
+  version = &amp;quot;~&amp;gt; 2&amp;quot;
+
+  name = local.vpc_name
+  cidr = &amp;quot;10.99.0.0/18&amp;quot;
+  azs              = [&amp;quot;${local.region}a&amp;quot;, &amp;quot;${local.region}b&amp;quot;, &amp;quot;${local.region}c&amp;quot;]
+  public_subnets   = [&amp;quot;10.99.0.0/24&amp;quot;, &amp;quot;10.99.1.0/24&amp;quot;, &amp;quot;10.99.2.0/24&amp;quot;]
+  database_subnets = [&amp;quot;10.99.7.0/24&amp;quot;, &amp;quot;10.99.8.0/24&amp;quot;, &amp;quot;10.99.9.0/24&amp;quot;]
+...
+
+module &amp;quot;db&amp;quot; {
+  source = &amp;quot;../&amp;quot;
+
+  identifier = local.identifier
+
+  # All available versions: http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.VersionMgmt
+  engine               = &amp;quot;mysql&amp;quot;
+  engine_version       = &amp;quot;8.0.20&amp;quot;
+  family               = &amp;quot;mysql8.0&amp;quot; # DB parameter group
+  major_engine_version = &amp;quot;8.0&amp;quot;      # DB option group
+  instance_class       = &amp;quot;db.t3.large&amp;quot;
+
+  allocated_storage     = 20
+  max_allocated_storage = 100
+  storage_encrypted     = false
+
+  name     = local.name
+# you have to modify the username and password below
+  username = &amp;quot;your_db_user_name&amp;quot;
+  password = &amp;quot;your_db_user_password&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;(四)应用架构的部署&lt;/h2&gt; 
+&lt;p&gt;在部署应用之前，我们可以通过如下步骤获得一些关于EKS cluster和RDS的信息&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation15.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation15.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 这两个artifact,一个是描述EKS集群的信息,一个描述RDS的信息。如果你更改了EKS集群或RDS的名称等信息，请记录下这些内容。修改Gitlab全局环境变量:&lt;br /&gt; &lt;code&gt;DB_HOST_MASTER&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; cicdrds-eoca.*******.rds.cn-northwest-1.amazonaws.com.cn&lt;/code&gt;&lt;br /&gt; &lt;code&gt;DB_USER_MASTER&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; your_db_user_name&lt;/code&gt;&lt;br /&gt; &lt;code&gt;DB_PASSWORD_MASTER&amp;nbsp; your_db_user_password&lt;/code&gt;&lt;br /&gt; &lt;code&gt;DB_SCHEMA&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; cicdrds&lt;/code&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation16.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation16.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 另外，请按照你自己的设定修改app/eks/app-eks-gitlab-ci.yml&lt;/p&gt; 
+&lt;h3&gt;1)环境变量&lt;/h3&gt; 
+&lt;p&gt;特别是下图中的&lt;code&gt;CONTAINER_NAME,CONTAINER_IMAGE,ECR_STR,EKS_CLUSTER_PREFIX&lt;/code&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation17.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation17.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;2)build应用docker镜像&lt;/h3&gt; 
+&lt;p&gt;另外，在 app/eks/app-eks-gitlab-ci.yml 中已经定义了在docker作为executor(执行器)，其中也包含了build应用为docker镜像，并推送到ECR的私有镜像仓库中，也包含了安装awscli,eksctl,kubectl工具，并创建kube config的步骤。&lt;br /&gt; 此处为build应用为docker镜像，并推送到ECR的私有镜像仓库中：&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation18.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation18.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;3)创建ingress&lt;/h3&gt; 
+&lt;p&gt;此处包含了安装awscli,eksctl,kubectl工具，并创建kube config的步骤，当然为了发布web服务，其中也包含了创建ingress的步骤。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation19.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation19.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;4)发布应用&lt;/h3&gt; 
+&lt;p&gt;最终是通过yaml文件来部署应用，当然也可用通过helm来部署&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation20.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation20.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;而对于RDS数据库中内容的设定，使用了Liquibase作为数据库的版本控制，Liquibase作为一个数据库版本管理工具，它实现了(1)数据库升级, (2)数据库回滚, (3)版本标记。这样能很好的满足在业务系统发展的过程中，对数据库中表结构以及表数据的管理做到版本化。&lt;br /&gt; 它的几个核心概念：版本号，管理的数据，差异比较，版本回滚, 版本号由开发人员来维护，使用 author + id的格式。&lt;br /&gt; Liquibase管理的数据最小单元为 changeSet，changeSet被包含在changelog中，changelog 是Liquibase版本控制的核心，Liquibase 通过有序的 changelog 罗列你对数据库的更改，就相当于你对数据变更的日志。Liquibase 使用这个变更日志来审计你的数据库，并执行任何还没有应用到目标数据库的变更操作。changelog支持5种格式来编写 — sql,xml,yaml,json,other 来编写。更多信息可以查看如下链接:&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://docs.liquibase.com/concepts/basic/home.html"&gt;https://docs.liquibase.com/concepts/basic/home.html&lt;/a&gt;&lt;br /&gt; 因为我们使用Liquibase docker镜像作为executor(执行器)，所不需要单独安装和部署，app/rds/app-rds-gitlab-ci.yml具体内容如下。&lt;br /&gt; Liquibase docker镜像作为executor(执行器)：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation21.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation21.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Liquibase执行数据库数据的变更：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation22.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation22.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 我们通过修改 app/rds/README.md 和app/eks/README.md 来触发应用架构的部署。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation23.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation23.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;等EKS部署完测试的应用，在你的workstation执行如下命令&lt;br /&gt; &lt;code&gt;aws eks list-clusters&lt;/code&gt;&lt;br /&gt; &lt;code&gt;aws eks update-kubeconfig --name cicdeks-cluster-***&lt;/code&gt;&lt;br /&gt; &lt;code&gt;kubectl get ingress --all-namespaces&lt;/code&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation24.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation24.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;查看通过ingress暴露的测试应用&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation25.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation25.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 此时，你假如修改你的应用代码(例如app/eks/app.go)，将触发新一轮的应用CICD，当然你也可以加入更多的test(单元测试和集成测试的内容)内容到app/eks/app-eks-gitlab-ci.yml中。&lt;br /&gt; 至此，整个关于Gitlab的CICD的实践就完成了。在整篇博客中我们回顾的DevOps,CICD,GitOps的概念，同时又通过Git,Gitlab结合Terraform, Liquibase, Amazon Elastic Kubernetes Service(EKS), Amazon Relational Database Service (RDS), Amazon Elastic Container Registry(ECR), Docker实践了CICD，在这里也是GitOps。很好的展现了基于Gitlab的CICD的实践。&lt;/p&gt; 
+&lt;h2&gt;参考材料:&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html"&gt;https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html&lt;/a&gt;&lt;br /&gt; &lt;a href="https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools"&gt;https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools&lt;/a&gt;&lt;br /&gt; &lt;a href="https://aws.amazon.com/devops/"&gt;https://aws.amazon.com/devops/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://about.gitlab.com/topics/gitops/"&gt;https://about.gitlab.com/topics/gitops/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.cloudbees.com/gitops/what-is-gitops"&gt;https://www.cloudbees.com/gitops/what-is-gitops&lt;/a&gt;&lt;br /&gt; &lt;a href="https://about.gitlab.com/is-it-any-good/"&gt;https://about.gitlab.com/is-it-any-good/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/"&gt;https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.terraform.io/"&gt;https://www.terraform.io/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.liquibase.org/"&gt;https://www.liquibase.org/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.amazonaws.cn/eks/?nc1=h_ls"&gt;https://www.amazonaws.cn/eks/?nc1=h_ls&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.amazonaws.cn/rds/?nc1=h_ls"&gt;https://www.amazonaws.cn/rds/?nc1=h_ls&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.amazonaws.cn/ecr/?nc1=h_ls"&gt;https://www.amazonaws.cn/ecr/?nc1=h_ls&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.docker.com/"&gt;https://www.docker.com/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://helm.sh/"&gt;https://helm.sh/&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/zhongmij.jpg" width="125" /&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;&lt;a href="https://aws.amazon.com/cn/blogs/china/tag/金忠敏/"&gt;金忠敏&lt;/a&gt;&lt;/h3&gt; 
+  &lt;p&gt;AWS解决方案架构师，现在专注于云计算解决方案和架构的工作。具有超过15年的IT从业经验，曾从事软件开发，售后支持，系统交付，售前等工作。参与过很多大型项目架构设计和实施交付。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt; 
+&lt;h2&gt;&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/xiaoyj.jpg" width="125" /&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;&lt;a href="https://aws.amazon.com/cn/blogs/china/tag/肖元君/"&gt;肖元君&lt;/a&gt;&lt;/h3&gt; 
+  &lt;p&gt;AWS解决方案架构师，负责基于AWS云计算方案的架构咨询和设计实现，同时致力于数据分析与AI的研究与应用。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
+		<title>利用 Amazon Transcribe Call Analytics 从客户对话中提取见解</title>
+		<link>https://aws.amazon.com/cn/blogs/china/extract-insights-from-customer-conversations-with-amazon-transcribe-call-analytics/</link>
+				<pubDate>Thu, 12 Aug 2021 03:15:43 +0000</pubDate>
+		<dc:creator><![CDATA[Julien Simon]]></dc:creator>
+				<category><![CDATA[Artificial Intelligence]]></category>
+
+		<guid isPermaLink="false">cb4140263d323550bbfa92edd2757a8e6a1bfbca</guid>
+				<description>2017 年，我们推出了 Amazon Transcribe，这是一项自动语音识别 (ASR) 服务，用于轻松地为任何应用程序添加语音转文本功能。今天，我非常高兴地宣布推出 Amazon Transcribe Call Analytics，这一全新功能可让您通过一次 API 调用轻松从客户对话中提取宝贵的见解。</description>
+								<content:encoded>&lt;p&gt;2017 年，我们推出了 &lt;a title="" href="https://aws.amazon.com/transcribe/"&gt;Amazon Transcribe&lt;/a&gt;，这是一项自动语音识别 (ASR) 服务，用于轻松地为任何应用程序添加语音转文本功能。今天，我非常高兴地宣布推出 &lt;a title="Amazon Transcribe Call Analytics" href="https://aws.amazon.com/transcribe/call-analytics/"&gt;Amazon Transcribe Call Analytics&lt;/a&gt;，这一全新功能可让您通过一次 API 调用轻松从客户对话中提取宝贵的见解。&lt;/p&gt; 
+&lt;p&gt;每次与潜在客户或现有客户展开的讨论都是了解其需求和期望的绝佳机会。例如，客户服务团队必须找出客户致电的主要原因，并衡量这些通话期间的客户满意度。同样，销售人员尝试衡量客户的兴趣所在及其对特定销售宣传言辞的反应。&lt;/p&gt; 
+&lt;p&gt;因此，许多客户和合作伙伴都希望在不同的应用程序中加入呼叫分析功能，并且无需考虑采用的联系中心提供商。他们通常需要分析的不仅仅是电话，还包括基于 Web 的音频和视频通话 (举例而言)。到目前为止，他们通常整合 AI 服务和专用机器学习模型来实现这一目标，因此他们要求我们提供更简单的解决方案。&lt;/p&gt; 
+&lt;p&gt;我们响应要求并构建了 &lt;a title="Amazon Transcribe Call Analytics" href="https://aws.amazon.com/transcribe/call-analytics/"&gt;Amazon Transcribe Call Analytics&lt;/a&gt;，这一加入 Transcribe 的全新功能是 &lt;a href="https://aws.amazon.com/machine-learning/contact-center-intelligence/"&gt;AWS 联系中心智能&lt;/a&gt;的重要增强。如果您迫不及待地想要试用此功能，请立即跳转到 &lt;a href="https://console.aws.amazon.com/transcribe/#jobsAnalytics"&gt;AWS 控制台&lt;/a&gt;。如果您想了解更多信息，请继续阅读！&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;Amazon Transcribe 呼叫分析简介&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 基于 &lt;a title="Amazon Transcribe" href="https://aws.amazon.com/transcribe/"&gt;Transcribe&lt;/a&gt; 中实施的 ASR，&lt;span title="Transcribe Call Analytics"&gt;Transcribe Call Analytics&lt;/span&gt; 加了专门针对客户呼叫进行训练的自然语言处理 (NLP) 功能，同时进行了优化，以提供高度准确的呼叫转录和可指导行动的见解。通过简单的 API 调用，开发人员现在可以轻松地将呼叫分析功能加入任何应用程序，并从对话中提取客户见解，而无需构建 AI 管道和训练自定义机器学习模型。&lt;/p&gt; 
+&lt;p&gt;&lt;span title="Transcribe Call Analytics"&gt;Transcribe Call Analytics&lt;/span&gt; 的主要功能包括：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;带时间戳的按轮次呼叫转录 (以 21 种语言)。&lt;/li&gt; 
+ &lt;li&gt;问题检测，这会在对话轮次中选择最短的连续单词集，其代表了客户致电的原因。无需进行任何配置或培训即可立即使用此功能。&lt;/li&gt; 
+ &lt;li&gt;基于对话特征的呼叫分类： 
+  &lt;ul&gt; 
+   &lt;li&gt;匹配特定的单词和短语，&lt;/li&gt; 
+   &lt;li&gt;检测非通话时间，&lt;/li&gt; 
+   &lt;li&gt;检测中断，&lt;/li&gt; 
+   &lt;li&gt;分析客户和接线员的情绪。&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;呼叫特征，例如： 
+  &lt;ul&gt; 
+   &lt;li&gt;客户或接线员说话的速度和声调，&lt;/li&gt; 
+   &lt;li&gt;检测非通话时间，&lt;/li&gt; 
+   &lt;li&gt;检测中断。&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;根据文本转录和相应的音频文件中对敏感数据进行密文标记。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;例如，您可以创建规则来标记如下呼叫：客户打断接线员的说话，表现出负面情绪，并且说道：“我想与经理对话”。这些呼叫必然是进展不顺利，值得详细分析！ 您也可以寻找如下呼叫：接线员在前 15 秒内未使用预定义问候语（“欢迎致电 ACME 支持中心，今天有什么可以帮您的吗？”），借此衡量呼叫脚本合规性并帮助主管确认是否应指导接线员。另一种常见的场景是创建规则来标记提及特定产品和服务的对话内容 (“您的 ACME Turbo 2000 真空吸尘器未按预期发挥作用”)，以便掌握需要注意的任何新趋势。&lt;/p&gt; 
+&lt;p&gt;最后但并非最不重要的是，您可以使用其他 AI 服务 (如 &lt;a title="" href="https://aws.amazon.com/translate/"&gt;Amazon Translate&lt;/a&gt;) 或以 &lt;a title="" href="https://aws.amazon.com/sagemaker/"&gt;Amazon SageMaker&lt;/a&gt; 构建的自定义 NLP 模型进一步处理文本转录。&lt;/p&gt; 
+&lt;p&gt;现在，我们来做一个快速演示。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;使用 Amazon Transcribe Call Analytics 提取见解&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 这是一通虚构的支持呼叫，其中一位女士致电银行，报告自己的信用卡和借记卡丢失。声音文件是立体声 WAV 文件 (16 位，8kHz)。&lt;/p&gt; 
+&lt;p&gt;
+ &lt;audio id="audio-52720-1" class="wp-audio-shortcode" style="width: 100%" preload="none" controls="controls"&gt;&lt;/audio&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span title="Transcribe Call Analytics"&gt;Transcribe Call Analytics&lt;/span&gt; 要求在各自的声道中录制接线员和客户的对话内容。我们还需要区分哪个是接线员声道。在立体声文件中，左声道通常是第一个声道 (声道 #0)，右声道则是第二个声道 (声道 #1)。对于此呼叫，情况即是如此。&lt;/p&gt; 
+&lt;p&gt;如果您不确定具体的声道，可以使用多功能的 &lt;a href="https://ffmpeg.org/"&gt;&lt;code&gt;ffmpeg&lt;/code&gt;&lt;/a&gt; 开源工具轻松地将每个声道提取到单独的音频文件中。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;$ ffmpeg -i demo-call.wav -map_channel 0.0.0 channel0.wav -map_channel 0.0.1 channel1.wav&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;您可以使用同样的技术从其他文件类型 (例如视频文件) 中提取音频声道，然后将它们重新组合到立体声音频文件中。可以在 &lt;a href="https://trac.ffmpeg.org/wiki/AudioChannelManipulation"&gt;&lt;code&gt;ffmpeg&lt;/code&gt; 文档&lt;/a&gt;中找到更多相关信息。&lt;/p&gt; 
+&lt;p&gt;现在已确定接线员位于声道 #1 中，因此可以使用 &lt;a href="https://aws.amazon.com/cli/"&gt;AWS CLI&lt;/a&gt; 将音频文件上传到 S3 存储桶。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;$ aws s3 cp launch-call.wav s3://jsimon-transcribe-useast1/demo-call.wav --region us-east-1&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;打开 &lt;span title="Transcribe Call Analytics"&gt;Transcribe Call Analytics&lt;/span&gt; &lt;a href="https://console.aws.amazon.com/transcribe/#jobsAnalytics"&gt;控制台&lt;/a&gt;，从中可以看到各种可用的呼叫类别模板。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-09.54.41.png"&gt;&lt;img class="wp-image-53569 size-full alignnone" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-09.54.41.png" alt="呼叫类别" width="1015" height="577" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我决定创建一个类别以供主管上报。然后，通过几次单击，我就创建了一个名为 &lt;code&gt;welcome-message&lt;/code&gt; 的自定义呼叫类别，以检查接线员是否以适当的欢迎词开始通话。如果需要，我可以添加几个短语进行检查。我们建议您使用短句来尽量减少弹出填充词的可能性 (“嗯”、“呃”等)。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-09.48.52.png"&gt;&lt;img class="size-full wp-image-53568 aligncenter" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-09.48.52.png" alt="呼叫类别" width="719" height="371" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;然后，我使用 Transcribe 中提供的一般模型创建一个呼叫分析任务。我同时启用了自动语言检测功能。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.01.57.png"&gt;&lt;img class="alignnone size-full wp-image-53570" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.01.57.png" alt="创建任务" width="807" height="651" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;接下来，我定义 S3 中音频文件的位置，将声道 #1 标记为接线员声道。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.05.36.png"&gt;&lt;img class="size-full wp-image-53577 aligncenter" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.05.36.png" alt="创建任务" width="807" height="284" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我决定将转录内容存储在我账户中 Transcribe 创建的默认 S3 存储桶内。如果需要，我也可以使用自己的存储桶。然后，我选择一个具备足够权限的 &lt;a title="" href="https://aws.amazon.com/iam/"&gt;AWS Identity and Access Management (IAM)&lt;/a&gt; 角色，然后启动该任务。&lt;/p&gt; 
+&lt;p&gt;大约一分钟后，任务即告完成。控制台包含文本转录的预览以及指向完整 JSON 转录内容的链接。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.44.05.png"&gt;&lt;img class="size-full wp-image-53578 aligncenter" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.44.05.png" alt="查看转录内容" width="991" height="285" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;由于接线员在前 15 秒钟内使用了正确的欢迎语句，因此以之前创建的类别标记此呼叫。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-13.42.19.png"&gt;&lt;img class="alignnone size-full wp-image-53579" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-13.42.19.png" alt="呼叫类别" width="969" height="160" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;下载 JSON 转录后，对话中的每条语句都会附上表示每个单词响度的元数据，该元数据的值范围为 0-100，100 表示非常响亮。以下是第一句话：&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;&amp;quot;BeginOffsetMillis&amp;quot;:440,&amp;quot;EndOffsetMillis&amp;quot;:4960,&lt;br /&gt; &amp;quot;情绪&amp;quot;:&amp;quot;NEUTRAL&amp;quot;,&lt;br /&gt; &amp;quot;ParticipantRole&amp;quot;:&amp;quot;接线员&amp;quot;,&lt;br /&gt; &amp;quot;LoudnessScores&amp;quot;:[78.68,80.4,81.91,78.95,82.34],&lt;br /&gt; &amp;quot;内容&amp;quot;:&amp;quot;您好，感谢您致电本行。我是 Ashley，今天有什么可以帮您的吗？&amp;quot;&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;通过查看下一句话，我发现 &lt;span title="Trancribe Call Analytics"&gt;Transcribe Call Analytics&lt;/span&gt; 自动检测到客户的问题。相应的文本以粗体显示：&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;&amp;quot;内容&amp;quot;: &amp;quot;你好，我需要&lt;strong&gt;取消我的卡片&lt;/strong&gt;。我有一张借记卡和一张信用卡。&amp;quot;,&lt;/code&gt;&lt;br /&gt; &lt;code&gt;&amp;quot;IssuesDetected&amp;quot;:&lt;/code&gt;&lt;code&gt;[&lt;/code&gt;&lt;code&gt;{&lt;/code&gt;&lt;code&gt;&amp;quot;UnredactedCharacterOffsets&amp;quot;:&lt;/code&gt;&lt;code&gt;{&lt;/code&gt;&lt;code&gt;&amp;quot;Begin&amp;quot;: 26,&lt;/code&gt;&lt;code&gt;&amp;quot;End&amp;quot;: 40&lt;/code&gt;&lt;code&gt;}}. . .&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;在转录内容的末尾，我看到了全局呼叫统计数据 (持续时间、通话时间、每分钟单词数、匹配的类别)。Transcribe 还为我提供了总体情绪信息，衡量范围从 -5 (非常负面) 到 +5 (非常正面)。我还得到了四个季度内的详细数据。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;&amp;quot;情绪&amp;quot;:{&amp;quot;OverallSentiment&amp;quot;:{&amp;quot;接线员&amp;quot;:2.6,&amp;quot;客户&amp;quot;:0.2},&lt;br /&gt; &amp;quot;SentimentByPeriod&amp;quot;:{&amp;quot;季度&amp;quot;:&lt;br /&gt; {&amp;quot;接线员&amp;quot;:[&lt;br /&gt; {&amp;quot;分数&amp;quot;:1.9,&amp;quot;BeginOffsetMillis&amp;quot;:0,&amp;quot;EndOffsetMillis&amp;quot;:68457},&lt;br /&gt; {&amp;quot;分数&amp;quot;:-0.7,&amp;quot;BeginOffsetMillis&amp;quot;:68457,&amp;quot;EndOffsetMillis&amp;quot;:136915},&lt;br /&gt; {&amp;quot;分数&amp;quot;:5.0,&amp;quot;BeginOffsetMillis&amp;quot;:136915,&amp;quot;EndOffsetMillis&amp;quot;:205372},&lt;br /&gt; {&amp;quot;分数&amp;quot;:3.0,&amp;quot;BeginOffsetMillis&amp;quot;:205372,&amp;quot;EndOffsetMillis&amp;quot;:273830}],&lt;br /&gt; &amp;quot;客户&amp;quot;:[&lt;br /&gt; {&amp;quot;分数&amp;quot;:-1.7,&amp;quot;BeginOffsetMillis&amp;quot;:0,&amp;quot;EndOffsetMillis&amp;quot;:68165},&lt;br /&gt; {&amp;quot;分数&amp;quot;:0.0,&amp;quot;BeginOffsetMillis&amp;quot;:68165,&amp;quot;EndOffsetMillis&amp;quot;:136330},&lt;br /&gt; {&amp;quot;分数&amp;quot;:0.0,&amp;quot;BeginOffsetMillis&amp;quot;:136330,&amp;quot;EndOffsetMillis&amp;quot;:204495},&lt;br /&gt; {&amp;quot;分数&amp;quot;:2.1,&amp;quot;BeginOffsetMillis&amp;quot;:204495,&amp;quot;EndOffsetMillis&amp;quot;:272660}]}}}&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;可以看到，客户带着负面情绪开始通话，然后迅速变为中立情绪，并以正面的情绪结束通话。这是不错的迹象，表明此次通话得到了令人满意的处理，客户问题已经解决。&lt;/p&gt; 
+&lt;p&gt;如果想要将转录内容转换为带有额外可视化效果的 Word 文档，我的同事 Andrew Kan 构建了一个不错的工具并在 &lt;a href="https://github.com/aws-samples/amazon-transcribe-output-word-document"&gt;Github&lt;/a&gt; 上提供。以下是其工具生成的一份示例报告。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/Capture-d’écran-2021-08-03-à-18.53.03.png"&gt;&lt;img class="size-large wp-image-53794 aligncenter" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/Capture-d’écran-2021-08-03-à-18.53.03-1024x859.png" alt="Andrew 的工具" width="1024" height="859" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;AWS 客户和合作伙伴正在使用 Amazon Transcribe Call Analytics&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://www.talkdesk.com/"&gt;Talkdesk&lt;/a&gt; 高级副总裁兼产品与工程、人工智能、自动化和劳动力全球负责人 &lt;a href="https://www.linkedin.com/in/benrigby/"&gt;Ben Rigby&lt;/a&gt; 告诉我们：“&lt;em&gt;我们的客户每年在联系中心处理数百万个客户服务电话，并且迫切需要提取可指导行动的对话见解，以确保取得积极的业务成果。作为 AWS 联系中心智能合作伙伴，我们通过 Amazon Transcribe 进一步增强呼叫转录功能。随着 Amazon Transcribe Call Analytics 的推出，我们很高兴能够为我们的语音分析和 QM Assist 产品融入更多 AI 功能。这些更深入的见解可以为接线员和主管提供所需的数据，以提升客户服务的速度和质量，同时提高员工生产力。&lt;/em&gt;”&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://successkpi.com/"&gt;SuccessKPI&lt;/a&gt; 首席产品官 &lt;a href="https://www.linkedin.com/in/praphulkumar/"&gt;Paphul Kumar&lt;/a&gt; 补充说道：“&lt;em&gt;Amazon Transcribe Call Analytics API 可让我们以更快的速度、更低的成本向平台添加基于机器学习的功能。借助这一全新的 API，我们不再需要将多个 AI 服务集成在一起，以及在某些领域开发自定义机器学习模型。借助 Transcribe Call Analytics，我们将能够提供对话见解，例如情绪、非通话时间和呼叫类别，以此衡量接线员的表现。这有助于推动更好的呼叫结果，减少接线员流动率，揭示指导接线员的需求以及衡量呼叫脚本合规性。我们未经任何考虑就将 AWS 服务结合到 SuccessKPI 的体验分析平台中。我们期待着把这一极具价值的能力带给大型企业和政府机构。&lt;/em&gt;”&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;开始使用&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 执行单次 API 调用就可从客户对话中提取丰富的见解。您可以立即在以下区域开始使用 &lt;a title="Amazon Transcribe Call Analytics" href="https://aws.amazon.com/transcribe/call-analytics/"&gt;Amazon Transcribe Call Analytics&lt;/a&gt;：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;span title=""&gt;美国西部 (俄勒冈)&lt;/span&gt;、&lt;span title=""&gt;美国东部 (弗吉尼亚北部)&lt;/span&gt;、&lt;/li&gt; 
+ &lt;li&gt;&lt;span title=""&gt;加拿大 (中部)&lt;/span&gt;、&lt;/li&gt; 
+ &lt;li&gt;&lt;span title=""&gt;欧洲 (伦敦)&lt;/span&gt;、&lt;span title=""&gt;欧洲 (法兰克福)&lt;/span&gt;、&lt;/li&gt; 
+ &lt;li&gt;&lt;span title=""&gt;亚太地区 (孟买)&lt;/span&gt;、&lt;span title=""&gt;亚太地区 (新加坡)&lt;/span&gt;、&lt;span title=""&gt;亚太地区 (首尔)&lt;/span&gt;、&lt;span title=""&gt;亚太地区 (东京)&lt;/span&gt;、&lt;span title=""&gt;亚太地区 (悉尼)&lt;/span&gt;。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;请在 &lt;a href="https://console.aws.amazon.com/transcribe/#jobsAnalytics"&gt;AWS 控制台&lt;/a&gt;中尝试此新功能，然后告诉我们您的想法。我们如往常一样期待您的反馈！ 您可以通过您的常用 AWS Support 联系人发送反馈或者将反馈发布到面向 Amazon Transcribe 的 &lt;a href="https://forums.aws.amazon.com/forum.jspa?forumID=278"&gt;AWS 论坛&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;最后一件事：如果您正在寻求易于使用的全渠道云联系中心，请务必了解 &lt;a title="" href="https://aws.amazon.com/connect/"&gt;Amazon Connect&lt;/a&gt; 及其机器学习支持的分析 &lt;a title="" href="https://aws.amazon.com/connect/contact-lens/"&gt;Contact Lens&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;a title="" href="https://aws.amazon.com/developer/community/evangelists/julien-simon/"&gt;– Julien&lt;/a&gt;&lt;/p&gt;</content:encoded>
+										</item>
+	</channel>
+</rss>
