@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-27T03:12:51.023Z</updated>
+    <updated>2021-08-27T03:17:52.740Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -36,6 +36,28 @@
         </author>
         <category label="政治"/>
         <published>2021-08-27T02:56:42.233Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[前區議員盧俊宇否認誤導警方　准保釋至 10.21 預審]]></title>
+        <id>https://www.thestandnews.com/court/%E5%89%8D%E5%8D%80%E8%AD%B0%E5%93%A1%E7%9B%A7%E4%BF%8A%E5%AE%87%E5%90%A6%E8%AA%8D%E8%AA%A4%E5%B0%8E%E8%AD%A6%E6%96%B9-%E5%87%86%E4%BF%9D%E9%87%8B%E8%87%B3-1021-%E9%A0%90%E5%AF%A9</id>
+        <link href="https://www.thestandnews.com/court/%E5%89%8D%E5%8D%80%E8%AD%B0%E5%93%A1%E7%9B%A7%E4%BF%8A%E5%AE%87%E5%90%A6%E8%AA%8D%E8%AA%A4%E5%B0%8E%E8%AD%A6%E6%96%B9-%E5%87%86%E4%BF%9D%E9%87%8B%E8%87%B3-1021-%E9%A0%90%E5%AF%A9"/>
+        <updated>2021-08-27T03:14:29.714Z</updated>
+        <summary type="html"><![CDATA[民主黨前屯門區議員盧俊宇被指去年在 Facebook 專頁發帖，指他出席元朗 7.21 事件紀念活動時，遭警員反手捉緊、恐嚇並帶返警署。惟警方隨後澄清並無此事，並落案起訴他一項「有意圖而提供虛假資料企圖誤導警員」罪。盧今（ 27 日）在粉嶺裁判法院否認控罪，案件押後至 10 月 21 日預審，他獲准以原有條件繼續保釋。被告盧俊宇（ 39 歲，報稱民主黨區議員），被控於 2020 年 11 月 2…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/%E7%9B%A7%E4%BF%8A%E5%AE%87.png"></figure><p>民主黨前屯門區議員盧俊宇被指去年在 Facebook 專頁發帖，指他出席元朗 7.21 事件紀念活動時，遭警員反手捉緊、恐嚇並帶返警署。惟警方隨後澄清並無此事，並落案起訴他一項「有意圖而提供虛假資料企圖誤導警員」罪。盧今（ 27 日）在粉嶺裁判法院否認控罪，案件押後至 10 月 21 日預審，他獲准以原有條件繼續保釋。</p>
+
+<p>被告盧俊宇（ 39 歲，報稱民主黨區議員），被控於 2020 年 11 月 23 日，在新界屯門翠湖路 2 號美樂花園商場地下 39 號舖外提供虛假資料，意圖及故意而誤導香港警務處警長文嘉明，即曾於 2020 年 11 月 21 日於元朗警署外被警察截停及搜查。</p>
+
+<p>去年 11 月 21 日，盧在其 facebook 專頁發文，稱在元朗鳳攸北街公園查問警方行動時，有警員向其使用武力、帶返警署。他其後道歉並刪除帖文，指當日透過電話與助理溝通時，因表達和理解出現「嚴重落差」，令貼文部分內容與事實不符，承諾日後將更謹慎處理網上資訊。</p>
+
+<p>警方早前指，盧發表涉案貼文後，有傳媒報道事件；而因盧俊宇指控「非常嚴重」，警方非常關注事件，並用上「一定程度警力」調查。警方及後發現，盧俊宇當晚沒在元朗區被捕，亦沒進入任何警署。警方又批評，盧俊宇發表失實言論，「公開說謊，捏造事實，造謠抹黑警隊」。</p>
+
+<p>案件編號：FLCC701/2021</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="法庭"/>
+        <published>2021-08-27T03:09:53.121Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[《醫官同謀 Colectiv》：不能失去、卻日漸失去的第四權]]></title>
@@ -157,7 +179,7 @@
         <title type="html"><![CDATA[【開卷樂】虛實交錯的圖像小說 ─ 《辛波絲卡・拼貼人生》]]></title>
         <id>https://www.thestandnews.com/culture/%E9%96%8B%E5%8D%B7%E6%A8%82%E8%99%9B%E5%AF%A6%E4%BA%A4%E9%8C%AF%E7%9A%84%E5%9C%96%E5%83%8F%E5%B0%8F%E8%AA%AA-%E8%BE%9B%E6%B3%A2%E7%B5%B2%E5%8D%A1%E6%8B%BC%E8%B2%BC%E4%BA%BA%E7%94%9F</id>
         <link href="https://www.thestandnews.com/culture/%E9%96%8B%E5%8D%B7%E6%A8%82%E8%99%9B%E5%AF%A6%E4%BA%A4%E9%8C%AF%E7%9A%84%E5%9C%96%E5%83%8F%E5%B0%8F%E8%AA%AA-%E8%BE%9B%E6%B3%A2%E7%B5%B2%E5%8D%A1%E6%8B%BC%E8%B2%BC%E4%BA%BA%E7%94%9F"/>
-        <updated>2021-08-27T02:29:21.370Z</updated>
+        <updated>2021-08-27T03:15:55.015Z</updated>
         <summary type="html"><![CDATA[【文︰朱鳳翎】波蘭詩人辛波絲卡作為1996年諾貝爾文學獎得主，除了寫詩，也喜歡拼貼。將圖畫與圖畫的沉悶邊緣剪去，置在陌生的背景裏。拼貼是一種有趣的藝術，物件本該不在這個位置，貼在這兒，又會有新鮮啟發。拼貼與詩句如此，人生的時空與事件亦然。《辛波絲卡・拼貼人生》這本圖像小說，作者愛麗絲・米蘭尼將真實歷史和文學創作疊加、跳躍地銜接辛波絲卡不同時期的人生。既不像一般傳記小說將偉人的生平巨細無遺地記下，…]]></summary>
         <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/%E8%BE%9B%E6%B3%A2%E7%B5%B2%E5%8D%A1.jpg"></figure><p>【文︰朱鳳翎】</p>
 
@@ -868,41 +890,5 @@
         </author>
         <category label="法庭"/>
         <published>2021-08-26T11:33:05.051Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[九成火災死者來自家居火　消防新例下月生效   市民將可自行安裝火警偵測器]]></title>
-        <id>https://www.thestandnews.com/society/%E4%B9%9D%E6%88%90%E7%81%AB%E7%81%BD%E6%AD%BB%E8%80%85%E4%BE%86%E8%87%AA%E5%AE%B6%E5%B1%85%E7%81%AB-%E6%B6%88%E9%98%B2%E6%96%B0%E4%BE%8B%E4%B8%8B%E6%9C%88%E7%94%9F%E6%95%88-%E5%B8%82%E6%B0%91%E5%B0%87%E5%8F%AF%E8%87%AA%E8%A1%8C%E5%AE%89%E8%A3%9D%E7%81%AB%E8%AD%A6%E5%81%B5%E6%B8%AC%E5%99%A8</id>
-        <link href="https://www.thestandnews.com/society/%E4%B9%9D%E6%88%90%E7%81%AB%E7%81%BD%E6%AD%BB%E8%80%85%E4%BE%86%E8%87%AA%E5%AE%B6%E5%B1%85%E7%81%AB-%E6%B6%88%E9%98%B2%E6%96%B0%E4%BE%8B%E4%B8%8B%E6%9C%88%E7%94%9F%E6%95%88-%E5%B8%82%E6%B0%91%E5%B0%87%E5%8F%AF%E8%87%AA%E8%A1%8C%E5%AE%89%E8%A3%9D%E7%81%AB%E8%AD%A6%E5%81%B5%E6%B8%AC%E5%99%A8"/>
-        <updated>2021-08-26T12:04:00.062Z</updated>
-        <summary type="html"><![CDATA[為提升家居消防安全，政府早前完成修例，豁免獨立火警偵測器須由註冊承辦商安裝的要求，鼓勵市民自行安裝偵測器。新例將於 9 月 1 日實施，消防處亦會推行先導計劃，向獨居長者或少數族裔人士派發偵測器。消防處副消防總長（牌照及審批）李冠友指， 2016 至 2020 年間，有 84 人在樓宇火警中喪生，當中九成屬家居火警。而現代家居材料多為化工合成或塑膠製品，全面燃燒時間僅需 4 分鐘，遠比舊式家具約…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/239495211_10223591517168439_4681780678352720898_n_0n4baEd.jpg"><figcaption><span>2021.8.26　消防處牌照及審批總區政策課高級消防隊長柳應佳，示範火警警報器運作。
-
-攝：PW</span></figcaption></figure><p>為提升家居消防安全，政府早前完成修例，豁免獨立火警偵測器須由註冊承辦商安裝的要求，鼓勵市民自行安裝偵測器。新例將於 9 月 1 日實施，消防處亦會推行先導計劃，向獨居長者或少數族裔人士派發偵測器。</p>
-
-<p>消防處副消防總長（牌照及審批）李冠友指， 2016 至 2020 年間，有 84 人在樓宇火警中喪生，當中九成屬家居火警。而現代家居材料多為化工合成或塑膠製品，全面燃燒時間僅需 4 分鐘，遠比舊式家具約 30 分鐘為少。而外國研究顯示，若家居安裝火警偵測器，火警引致的死亡風險可減低 55%。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/238050973_10223591524888632_5847292544020298422_n_HXz9UUY_9TCLk4Y.jpg"><figcaption><span>2021.8.26　消防處牌照及審批總區副消防總長李冠友（中）政策課高級消防區長吳贊良（左）及高級消防隊長柳應佳（右），出席消防處簡佈會。
-
-攝：PW</span></figcaption></figure></div>
-
-<p>新法例下，市民自行安裝的獨立火警偵測器，毋須要由註冊承辦商安裝和進行年檢，業主亦可豁免偵測器必須有效的法律責任。</p>
-
-<p>獨立火警偵測器一般以煙霧或熱力偵測，若感應火警會發出 80 分貝以上的警報。如用外置乾電池操作一般有效使用一年，內置鋰電池則 10 年有效，偵測器上有按鈕供測試儀器狀態。而每個火警偵測器市面售價介乎 200 元至 800 元不等。</p>
-
-<p>他指，消防處早前亦試驗 22 款市面售賣偵測器，全部均有效運作。而偵測器售價關乎外觀、附帶功能等，市民購買時可留意偵測器是否符合國際標準，處方亦已製作指引，幫助市民選購、安裝和保養。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/238548830_10223591523048586_7850975447894393023_n_S0Q9YVc.jpg"><figcaption><span>2021.8.26　政府早前完成修例，豁免獨立火警偵測器，須由註冊承辦商安裝的要求，鼓勵市民自行安裝偵測器。新例將於 9 月 1 日實施。
-
-攝：PW</span></figcaption></figure></div>
-
-<p>消防處強調，今次豁免只限市民自行安裝的偵測器，其他按消防安全條例等法例和要求下安裝的偵測器，仍需要按法例履行法律。</p>
-
-<p>消防處亦將於下月中推行先導計劃，首輪會向 30 戶獨居長者或少數族裔人士派發偵測器，涉及地區包括深水埗、油尖旺、九龍城、荃灣、港島中區等。</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="社會"/>
-        <published>2021-08-26T12:04:00.062Z</published>
     </entry>
 </feed>
