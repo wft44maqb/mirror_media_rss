@@ -4,7 +4,7 @@
   <link rel="alternate" type="text/html" href="https://status.linode.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.linode.com/history.atom"/>
   <title>Linode Status - Incident History</title>
-  <updated>2021-08-27T13:55:26Z</updated>
+  <updated>2021-08-27T13:59:00Z</updated>
   <author>
     <name>Linode</name>
   </author>
@@ -19,10 +19,10 @@
   <entry>
     <id>tag:status.linode.com,2005:Incident/7856447</id>
     <published>2021-08-27T13:55:25Z</published>
-    <updated>2021-08-27T13:55:26Z</updated>
+    <updated>2021-08-27T13:59:00Z</updated>
     <link rel="alternate" type="text/html" href="https://status.linode.com/incidents/lbwnnl47x4xg"/>
     <title>Service Issue - Block Storage (Newark)</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;13:55&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - We haven’t observed any additional issues with the Block Storage service in Fremont, and will now consider this incident resolved. If you continue to experience problems, please &lt;a href="https://cloud.linode.com/support/tickets"&gt;open a Support ticket&lt;/a&gt; for assistance.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;12:13&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - The issue impacting the Block Storage service in Newark has been identified and a fix has been applied. We will be monitoring this to ensure that the service remains stable. If you are still experiencing issues and unable to open a Support ticket, please call us at 855-454-6633 (+1-609-380-7100 Intl.), or send an email to support@linode.com.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;10:29&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Our team is investigating an issue affecting the Block Storage service in our Newark data center. During this time, users may experience connection timeouts and errors with this service. Reboots and shutdowns may prevent Linodes from booting while Volumes are attached. We will share additional updates as we have more information.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;13:55&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - We haven’t observed any additional issues with the Block Storage service in Newark, and will now consider this incident resolved. If you continue to experience problems, please &lt;a href="https://cloud.linode.com/support/tickets"&gt;open a Support ticket&lt;/a&gt; for assistance.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;12:13&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - The issue impacting the Block Storage service in Newark has been identified and a fix has been applied. We will be monitoring this to ensure that the service remains stable. If you are still experiencing issues and unable to open a Support ticket, please call us at 855-454-6633 (+1-609-380-7100 Intl.), or send an email to support@linode.com.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;10:29&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Our team is investigating an issue affecting the Block Storage service in our Newark data center. During this time, users may experience connection timeouts and errors with this service. Reboots and shutdowns may prevent Linodes from booting while Volumes are attached. We will share additional updates as we have more information.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.linode.com,2005:Incident/7852597</id>
