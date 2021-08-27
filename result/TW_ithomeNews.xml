@@ -4,8 +4,81 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=786&amp;profile=rss20" rel="self" type="application/rss+xml" />
       <item>
+    <title>Solo.io正式推出企業級服務網格管理平面Gloo Mesh Enterprise</title>
+    <link>https://www.ithome.com.tw/news/142797</link>
+    <description> FaaS服務新創公司Solo.io正式發布Gloo Mesh Enterprise，這是一個企業級服務網格管理解決方案，可增加服務網格的可用性和可控制性，簡化Istio在多叢集和多雲環境的複雜操作，同時還可以讓用戶以WebAssembly擴充網格資料平面。</description>
+     <pubDate>2021-08-27  04:08:57</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/142797</guid>
+  </item>
+  <item>
+    <title>Netflix開始於波蘭測試遊戲服務</title>
+    <link>https://www.ithome.com.tw/news/146430</link>
+    <description> 網飛（Netflix）26日宣布，已開始於波蘭測試行動遊戲服務，該服務目前只支援Android手機，而且只有兩款：《怪奇物語 1984》（Stranger Things : 1984 ）與《怪奇物語3》（Stranger Things 3）。</description>
+     <pubDate>2021-08-27  04:08:33</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146430</guid>
+  </item>
+  <item>
+    <title>群暉科技：OpenSSL漏洞波及該公司多項產品</title>
+    <link>https://www.ithome.com.tw/news/146428</link>
+    <description> 開源的安全通訊軟體函式庫OpenSSL在24日修補了CVE-2021-3711與CVE-2021-3712兩個安全漏洞，臺灣網路附加儲存（NAS）製造商群暉科技（Synology）很快就警告，該公司有多款NAS及VPN產品受到這兩個漏洞的影響，並正著手修補中。</description>
+     <pubDate>2021-08-27  04:08:30</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146428</guid>
+  </item>
+  <item>
+    <title>捐款個資外洩引發詐騙事件漫延一個月，網軟初期未能反應，引發朝野立委關注</title>
+    <link>https://www.ithome.com.tw/news/146427</link>
+    <description> 這一個月來，國內爆發大規模捐款個資外洩導致民眾誤信的詐騙案，由於警方指出多個公益團體都委託同一資訊服務商的狀況，日前我們也已經追查到這次事件的關鍵廠商，就是負責提供捐款系統公司的網軟科技。因此，先前我們也聯繫到該公司，以確認此資安事件的狀況。然而，由於網軟僅在8月3日發布刑事警察局的反詐騙宣導，至今還沒有對外公布遭駭客攻擊與資料外洩的資安事件。</description>
+     <pubDate>2021-08-27  04:08:15</pubDate>
+ <dc:creator>羅正漢</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146427</guid>
+  </item>
+  <item>
+    <title>GitHub CLI 2.0供開發者自行創建擴充套件</title>
+    <link>https://www.ithome.com.tw/news/146422</link>
+    <description> GitHub發布新的命令列工具CLI 2.0，這個新版本讓開發者能夠使用CLI的功能，來創建擴充套件或是自定義命令，而且開發者也能夠安裝由其他人創建的擴充套件。
+CLI 1.0供開發者在終端，無縫地執行端到端工作流程，而現在GitHub繼續在CLI 1.0的基礎上發展，提供更好的腳本編寫和GitHub Actions使用支援，官方提到，沒有一項工具可以滿足所有人的需求，因此在CLI 2.0中，讓用戶能以簡單的方式，按需求擴充功能，並且安裝來自其他人的擴充套件。</description>
+     <pubDate>2021-08-27  04:08:08</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146422</guid>
+  </item>
+  <item>
+    <title>英國大幅翻修境內的資料法規，與多國建立合作關係推動資料經濟</title>
+    <link>https://www.ithome.com.tw/news/146426</link>
+    <description> 英國26日宣布，將與美國、澳洲、南韓、新加坡、杜拜、國際金融中心與哥倫比亞簽署資料合作協議，互通資料有無以推動資料經濟，並將任命國際隱私專家John Edwards擔任英國的資訊委員，</description>
+     <pubDate>2021-08-27  04:08:37</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146426</guid>
+  </item>
+  <item>
+    <title>報告：中國駭入Exchange Server漏洞訓練AI</title>
+    <link>https://www.ithome.com.tw/news/146425</link>
+    <description> 今年3月間Exchange Server漏洞被揭露且有駭客活動，引發各國政府和企業恐慌，不過一些專家相信，這可能是中國政府完成另一項更重要計畫的手段之一──訓練人工智慧（artificial intelligence，AI）技術。</description>
+     <pubDate>2021-08-27  04:08:51</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146425</guid>
+  </item>
+  <item>
+    <title>微軟Azure資料庫服務Cosmos DB含有安全漏洞，將外洩客戶的主要金鑰與存取令牌</title>
+    <link>https://www.ithome.com.tw/news/146423</link>
+    <description> 專門提供雲端安全服務的資安業者Wiz周四（8/26）揭露，微軟Azure的Cosmos DB非關聯式資料庫服務含有一系列的安全漏洞，將允許任何使用者下載、刪除或操控用戶的商業資料庫，或是存取Cosmos DB的底層架構。被Wiz統稱為ChaosDB的漏洞已存在兩年之久，波及Fortune 500排行榜上的許多大型企業，諸如可口可樂、Exxon-Mobil與Citrix等。</description>
+     <pubDate>2021-08-27  03:08:58</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146423</guid>
+  </item>
+  <item>
+    <title>研究人員針對勒索軟體LockBit 2.0提出警告，2個月逾50個組織受害</title>
+    <link>https://www.ithome.com.tw/news/146421</link>
+    <description> 最近半年，有數款新興的勒索軟體發動攻擊，其中自今年6月推出2.0版的LockBit（亦稱為ABCD），不僅攻擊大型IT顧問公司Accenture，也在澳洲造成災情，使得當地的網路安全中心（ACSC）發布資安通報，提出緩解措施讓企業加以防範。</description>
+     <pubDate>2021-08-27  03:08:57</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146421</guid>
+  </item>
+  <item>
     <title>殭屍網路程式正試圖攻擊Realtek晶片SDK漏洞</title>
     <link>https://www.ithome.com.tw/news/146420</link>
     <description> 本月稍早安全廠商揭露瑞昱半導體的無線晶片SDK存在多項安全漏洞，影響65家IoT廠商，本周另外二家安全業者相信，已經有駭客盯上採用Realtek晶片的IoT裝置，企圖感染殭屍網路程式。</description>
@@ -179,84 +252,6 @@
      <pubDate>2021-08-26  12:08:02</pubDate>
  <dc:creator>李宗翰</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/review/146347</guid>
-  </item>
-  <item>
-    <title>2021年8月10大資安新聞</title>
-    <link>https://www.ithome.com.tw/news/146389</link>
-    <description> 整個8月出現了相當多重大的資安事故，以及許多影響範圍甚廣的漏洞。值得留意的是不少與物聯網（IoT）設備有關。像是臺灣綜合接入設備（IAD）製造商智易科技（Arcadyan）所生產的路由器，當中曝露的漏洞，不只影響華碩、Buffalo等品牌的多款產品，更是波及許多網路服務供應商（ISP）的設備，漏洞可能影響數百萬臺設備。而瑞昱半導體（Realtek）無線晶片的漏洞，也使得超過200款連網產品受到影響。而物聯網雲端服務平臺Kalay傳出CVSS風險達9.6分的漏洞，很可能使得採用該平臺的連網設備曝露相關風險。</description>
-     <pubDate>2021-08-25  11:08:14</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146389</guid>
-  </item>
-  <item>
-    <title>5U尺寸可容納1百臺硬碟，Dell推出新一代高密度儲存伺服器</title>
-    <link>https://www.ithome.com.tw/review/146173</link>
-    <description> 針對複雜運算與儲存裝置密集的工作負載需求，Dell EMC在2020年設立了PowerEdge XE系列伺服器，過去我們陸續報導最初發表的XE2420，以及今年上半推出的XE8545，現在我們介紹主打高密度儲存應用的XE7100，於2020年10月推出。
-</description>
-     <pubDate>2021-08-25  10:08:18</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/review/146173</guid>
-  </item>
-  <item>
-    <title>Nvidia推AI Enterprise平臺可在混合雲環境執行虛擬化AI工作負載</title>
-    <link>https://www.ithome.com.tw/news/146387</link>
-    <description> Nvidia與VMware在長達一年的合作之後，終於發布了一套人工智慧工具和框架軟體套件Nvidia AI Enterprise，Nvidia AI Enterprise能夠虛擬化人工智慧工作負載，在經Nvidia認證的伺服器系統上運作，可讓用戶以管理傳統應用程式的方式，管理新興人工智慧工作負載。</description>
-     <pubDate>2021-08-25  08:08:14</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146387</guid>
-  </item>
-  <item>
-    <title>Npm註冊表將棄用TLS 1.0和TLS 1.1</title>
-    <link>https://www.ithome.com.tw/news/146381</link>
-    <description> GitHub宣布從2021年10月4日開始，所有和Npm網站和註冊表的連接，包括軟體套件安裝，都必須要使用TLS 1.2以上的版本。GitHub考量服務安全性和隱私性，已經在去年的時候，取消GitHub服務對TLS 1.0和TLS 1.1的支援，而現在輪到Npm，棄用公共Npm註冊表npmjs.com的非HTTPS存取，以及TLS 1.0和TLS 1.1。</description>
-     <pubDate>2021-08-25  08:08:20</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146381</guid>
-  </item>
-  <item>
-    <title>Yahoo奇摩打通旗下3大電商平臺App互導流量，拍賣平臺還將導入跨網比價功能</title>
-    <link>https://www.ithome.com.tw/news/146388</link>
-    <description> Yahoo奇摩今日（8/25）宣布，完整打通旗下3大電商平臺的App：拍賣、超級商城和購物中心，要透過流量互導推升業績，來發揮生態圈綜效。消費者現可從任一平臺App一鍵切換，無縫串連至其他平臺。此外，Yahoo奇摩也與比價網站飛比價格合作，打造跨網比價服務，首先會在拍賣平臺展開測試。
-為快速展現生態圈流量互導的效益，今年４月時，Yahoo奇摩先打通了每月擁有百萬會員的拍賣平臺App，來與超級商城App連結，拓展兩個行動平臺的商品量與多元性。</description>
-     <pubDate>2021-08-25  06:08:17</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146388</guid>
-  </item>
-  <item>
-    <title>中華電信聯手耀登旗下O-RAN認證實驗室，要助國產O-RAN產品搶攻5G市場</title>
-    <link>https://www.ithome.com.tw/news/146383</link>
-    <description> 國內提供天線、實驗室驗測服務的耀登集團旗下耀睿實驗室，近期獲得O-RAN聯盟認證為OTIC(Open Testing and Integration Centre)實驗室，未來將和中華電信合作，協助國內業者搶攻全球5G開放網路商機。
-耀登集團旗下原本就有實驗室，提供4G設備驗測服務，此次耀睿實驗室獲得國際O-RAN聯盟認證，成為全球5家合格的OTIC實驗室之一，其中4家位於德國、義大利、西班牙及法國，具有電信營運商背景，耀睿為唯一一家獨立實驗室，也是亞洲第一家獲得O-RAN聯盟認證的OTIC實驗，該實驗室提供一致性測試、互通性測試、端對端測試，以驗證不同廠牌的網元設備介接、互通性，加速5G開放網路的發展。</description>
-     <pubDate>2021-08-25  05:08:04</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146383</guid>
-  </item>
-  <item>
-    <title>AT&amp;amp;T否認被駭遭竊7000萬用戶資料</title>
-    <link>https://www.ithome.com.tw/news/146382</link>
-    <description> 上周發生美國電信業者T-Mobile數百萬用戶資料遭駭客放上暗網出售，事後T-Mobile也證實是資料庫被駭所致。而另一家電信龍頭AT&amp;amp;T也傳出被駭客入侵，並導致7000萬用戶個資外洩，不過AT&amp;amp;T對此否認。</description>
-     <pubDate>2021-08-25  05:08:40</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146382</guid>
-  </item>
-  <item>
-    <title>資安一周第160期：殭屍網路發動大規模DDoS攻擊。駭客以百萬美元贖金分紅利誘，發動勒索軟體攻擊</title>
-    <link>https://www.ithome.com.tw/news/146380</link>
-    <description> 8/19-8/25必看資安新聞
- 
-＃DDoS攻擊  ＃殭屍網路
-殭屍網路發動大規模DDoS攻擊，每秒發出逾1,700萬次HTTP請求</description>
-     <pubDate>2021-08-25  04:08:07</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146380</guid>
-  </item>
-  <item>
-    <title>美國新創業者Cerebras Systems發表全球首個大腦等級的AI系統</title>
-    <link>https://www.ithome.com.tw/news/146379</link>
-    <description> 在2016年成立，專注於建置AI與深度學習電腦系統的Cerebras Systems，於24日發表了號稱是全球第一個大腦等級的AI解決方案，藉由一個冰箱大小的CS-2系統，來支援超過120兆個參數的模型，勝過了人腦中所存在的100兆個突觸。</description>
-     <pubDate>2021-08-25  04:08:50</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146379</guid>
   </item>
   </channel>
 </rss>

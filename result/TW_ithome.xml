@@ -6,6 +6,154 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Solo.io正式推出企業級服務網格管理平面Gloo Mesh Enterprise</title>
+ <link>https://www.ithome.com.tw/news/142797</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;FaaS服務新創公司Solo.io正式&lt;a href=&quot;https://www.solo.io/blog/gloo-mesh-enterprise-hits-the-ga-milestone/&quot; target=&quot;_blank&quot;&gt;發布Gloo Mesh Enterprise&lt;/a&gt;，這是一個企業級服務網格管理解決方案，可增加服務網格的可用性和可控制性，簡化Istio在多叢集和多雲環境的複雜操作，同時還可以讓用戶以WebAssembly擴充網格資料平面。&lt;/p&gt;
+&lt;p&gt;Gloo Mesh之前被稱為Service Mesh Hub，是一個Kubernetes原生管理平面，最早於2019年的時候發布，目的要提供一個綜合且簡單的方法，操作像是以Istio以及服務代理Envoy為基礎的服務網格，Gloo Mesh提供一個統一的API，讓用戶可以跨多個叢集配置和管理異構服務網格，Gloo Mesh API整合了當前主流的服務網格，並抽象這些網格API之間的差異，也就是說，用戶可以使用單一API，配置不同的服務網格。官方提到，由於不少企業開始建置微服務環境，在使用Istio上遇到不小的障礙，而Gloo Mesh能有助於簡化Istio的操作。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Gloo_Mesh_Diagram-Flat_110320-V2-1536x727.png&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Istio用戶可以從Gloo Mesh獲得多項好處，像是Gloo Mesh能夠協助用戶安裝Istio，並且確保符合FIPS法令規範。一旦用戶安裝了Istio，Gloo Mesh便會提供一個管理平面來監控跨叢集、地區和地理位置的Istio系統，該管理平面是由一組宣告式自定義資源配置，部署在特定Kubernetes叢集的控制器。&lt;/p&gt;
+&lt;p&gt;Gloo Mesh以拉取或是推送模型來與網格通訊，而這取決於企業需要的安全性和操作模型，在推送模型中，Gloo Mesh管理平面直接連接到管理的每個叢集，探索網格資源，並且將配置推送到每個網格控制平面。&lt;/p&gt;
+&lt;p&gt;而對於採用嚴格安全模型的企業，憑證位於各個叢集中，則可以使用拉取模型，在該模型每個叢集都會部署一個代理，該代理連接到管理平面共享探索的資訊，每個代理都會拉取該叢集的配置，因此可達到在保持憑證本地化的情況，供用戶管理遠端叢集。&lt;/p&gt;
+&lt;p&gt;企業版Gloo Mesh能夠讓擁有多叢集、多雲和多地區等複雜環境的企業，以集中式管理工具，強化安全性與可觀察性，在多叢集的環境裡，用戶可以整合不同叢集的不同服務網格，部署單一虛擬網格，以網格層級對該虛擬網格定義流量和存取政策，以大幅簡化管理工作。&lt;/p&gt;
+&lt;p&gt;Gloo Mesh強化Day 2操作，藉由進階API和可觀察性工具，協助開發人員監控和維護系統，其提供的Gloo Portal，可以對Istio中運作的API進行分類並且對外開放，讓開發人員或是其他合作夥伴，能夠更容易使用API。隨著企業的服務網格發展，Gloo Mesh可以讓用戶在其網格，加入回退或是委派等進階功能，同時也促進WebAssembly的開發和部署，讓用戶可將WebAssembly擴展多個叢集中，進而供企業自訂出符合特定需求的服務網格。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 08:56:57 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">142797 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/142797#comments</comments>
+</item>
+<item>
+ <title>Netflix開始於波蘭測試遊戲服務</title>
+ <link>https://www.ithome.com.tw/news/146430</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://twitter.com/NetflixGeeked/status/1430896997238595587&quot; target=&quot;_blank&quot;&gt;網飛（Netflix）26日宣布&lt;/a&gt;，已開始於波蘭測試行動遊戲服務，該服務目前只支援Android手機，而且只有兩款：《怪奇物語 1984》（Stranger Things : 1984 ）與《怪奇物語3》（Stranger Things 3）。&lt;/p&gt;
+&lt;p&gt;網飛是在7月發表第二季營收時，&lt;a href=&quot;https://www.ithome.com.tw/news/145775&quot; target=&quot;_blank&quot;&gt;宣布將踩進遊戲市場&lt;/a&gt;，而&lt;a href=&quot;https://www.ithome.com.tw/news/145658&quot; target=&quot;_blank&quot;&gt;先前彭博社則報導&lt;/a&gt;，網飛挖角了曾任職於美商藝電（Electronic Arts）及臉書的Mike Verdu，來主導該公司的遊戲業務。&lt;/p&gt;
+&lt;p&gt;本周網飛則表示，現在還屬於非常早期的測試階段，現在只是踏出了第一步，未來幾個月還有許多待辦事項。網飛也強調，這些遊戲將不會嵌入廣告，也沒有程式內購買機制，而且遊戲內容將包含在網飛既有的會員服務中，不會額外收費。不過，網飛將聚焦於支援行動裝置的遊戲，暫時並無提供桌面版遊戲的規畫。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 08:53:33 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146430 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146430#comments</comments>
+</item>
+<item>
+ <title>群暉科技：OpenSSL漏洞波及該公司多項產品</title>
+ <link>https://www.ithome.com.tw/news/146428</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;開源的安全通訊軟體函式庫&lt;a href=&quot;https://www.openssl.org/news/secadv/20210824.txt&quot; target=&quot;_blank&quot;&gt;OpenSSL在24日修補了CVE-2021-3711與CVE-2021-3712兩個安全漏洞&lt;/a&gt;，臺灣網路附加儲存（NAS）製造商&lt;a href=&quot;https://www.synology.com/en-us/security/advisory/Synology_SA_21_24&quot; target=&quot;_blank&quot;&gt;群暉科技（Synology）很快就警告&lt;/a&gt;，該公司有多款NAS及VPN產品受到這兩個漏洞的影響，並正著手修補中。&lt;/p&gt;
+&lt;p&gt;其中的CVE-2021-3711為一SM2加密緩衝區溢位漏洞，成功的開採將允許駭客變更應用程式的行為或造成應用程式當掉，其CVSS風險評分為8.1。而CVE-2021-3712則是因假定ASN.1字串是以NUL結束，駭客若迫使應用程式呼叫一個函數，故意使用非以NUL結束的字串，就能觸發該漏洞，導致應用程式當掉或揭露記憶體中的資訊，其CVSS風險評分為5.3。&lt;/p&gt;
+&lt;p&gt;群暉表示，受到這兩個漏洞影響的產品包括不同版本的DiskStation Manager（DSM）與Synology Router Manager（SRM），以及虛擬網路伺服器VPN Plus Server與VPN Server（如下圖所示）。其中，DSM為Synology NAS 專用的作業系統，Synology Router Manager則是Synology路由器作業系統，目前該公司正在修補受到波及的平臺。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0827-synology%20security-500.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.synology.com/en-us/security/advisory/Synology_SA_21_24&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片擷取自群暉科技官方網站&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;color:#696969;&quot;&gt;（截圖時間：8月27日 16:44）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;除了群暉的產品之外，&lt;a href=&quot;https://access.redhat.com/security/cve/cve-2021-3712&quot; target=&quot;_blank&quot;&gt;紅帽也有多個產品受到這兩個漏洞的波及&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;今年8月初，群暉才收到用戶回報有異常數量的IP企圖登入該公司的NAS產品，&lt;a href=&quot;https://www.synology.com/zh-tw/company/news/article/BruteForce/%E7%BE%A4%E6%9A%89%E7%A7%91%E6%8A%80%20Synology%C2%AE%E9%97%9C%E5%BF%83%E6%82%A8%E7%9A%84%E8%B3%87%E6%96%99%E5%AE%89%E5%85%A8%EF%BC%8C%E5%BB%BA%E8%AD%B0%E6%89%80%E6%9C%89%E4%BD%BF%E7%94%A8%E8%80%85%E5%BC%B7%E5%8C%96%E5%B8%B3%E8%99%9F%E8%88%87%E5%AF%86%E7%A2%BC%E5%AE%89%E5%85%A8%E8%A8%AD%E5%AE%9A&quot; target=&quot;_blank&quot;&gt;群暉的調查顯示&lt;/a&gt;，駭客是透過暴力破解法發動攻擊，並非開採系統漏洞，同時建議使用者強化帳號權限與密碼設定。&lt;/p&gt;
+&lt;p&gt;其實群暉自2017年就推出抓漏獎勵專案，&lt;a href=&quot;https://blog.synology.com/cht/what-synology-learn-from-bug-bounty-program&quot; target=&quot;_blank&quot;&gt;截至今年3月&lt;/a&gt;，已與超過200名的資安研究人員或組織合作，所頒發的獎金超過25萬美元。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 08:45:30 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146428 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146428#comments</comments>
+</item>
+<item>
+ <title>捐款個資外洩引發詐騙事件漫延一個月，網軟初期未能反應，引發朝野立委關注</title>
+ <link>https://www.ithome.com.tw/news/146427</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;這一個月來，&lt;a href=&quot;https://www.ithome.com.tw/news/146376&quot;&gt;國內爆發大規模捐款個資外洩導致民眾誤信的詐騙案，由於警方指出多個公益團體都委託同一資訊服務商的狀況，日前我們也已經追查到這次事件的關鍵廠商，就是負責提供捐款系統公司的網軟科技。因此，先前我們也聯繫到該公司，以確認此資安事件的狀況&lt;/a&gt;。然而，由於網軟僅在8月3日發布刑事警察局的反詐騙宣導，至今還沒有對外公布遭駭客攻擊與資料外洩的資安事件。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;捐款民眾在7月底開始遭到詐騙，網軟當時可能還沒意識到資安事件發生&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;儘管網軟透露有限，是否還有更多可供外界參考的資訊？由於「迦南身心障礙養護院」的臉書粉絲專頁有揭露網軟發出的資安事件通知，因此，我們也進一步瞭解情況。該機構表示，迦南本身是在7月28日開始接到捐款者詢問的電話，得知有冒名詐騙的情況，且對方掌握民眾的捐款資訊，因此，迦南在7月29日向網軟反應問題。7月30日，網軟回應表示可能是迦南的內網不安全。&lt;/p&gt;
+&lt;p&gt;顯然，網軟在7月底一開始還沒有意識到問題。到了8月2日，網軟則聯繫迦南，表示要幫忙寄送防詐騙宣導簡訊，然後8月3日向他們表示遭駭客入侵。這段期間，應該是刑事警察局已經接獲大量愛心協會詐騙案，聯繫網軟後才有接下來的應變。之後，網軟每隔幾天開始向協會發出通知信，說明當前狀況及因應措施。&lt;/p&gt;
+&lt;p&gt;除此之外，不具名資安專家表示，從網軟與NPO客戶信件往來的內容，推測該公司的服務可能被上傳惡意程式，也就是基本的上傳漏洞（File Upload），使得攻擊者可以控制伺服器或撈取資料庫原始碼等。不過，這是從有限資訊中的側面推測，詳情還是要等刑事警察局或網軟來說明。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;朝野立委與多家公益團體招開記者會，呼籲重視資安並提醒民眾當心詐騙&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;這起事件持續危害持續擴大，在8月26日，國民黨立委林奕華與民進黨立委邱泰源聯合多個社福團體召開「公益有愛 避免受害」記者會，包括「中華民國兒童癌症基金會」、「中華民國心臟病兒童基金會」、「瑞信兒童醫療基金會」與「台大兒童健康基金會」等8個公益團體與刑事警察局都出席，共同呼籲捐款人留意詐騙訊息勿上當。林奕華也表示，這次記者會其實有邀請該資訊業者，但很遺憾他們並未出席說明。&lt;/p&gt;
+&lt;p&gt;而在這次事件下，也使得企業機構本身與委託業者的資安防護，以及如何將不法分子繩之以法，加強宣導如何教導民眾防詐騙，都受到關注，才能讓愛心人有信心支持這些社福團體。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 08:39:15 +0000</pubDate>
+ <dc:creator>羅正漢</dc:creator>
+ <guid isPermaLink="false">146427 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146427#comments</comments>
+</item>
+<item>
+ <title>GitHub CLI 2.0供開發者自行創建擴充套件</title>
+ <link>https://www.ithome.com.tw/news/146422</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;GitHub發布新的命令列工具&lt;a href=&quot;https://github.blog/2021-08-24-github-cli-2-0-includes-extensions/&quot;&gt;CLI 2.0&lt;/a&gt;，這個新版本讓開發者能夠使用CLI的功能，來創建擴充套件或是自定義命令，而且開發者也能夠安裝由其他人創建的擴充套件。&lt;/p&gt;
+&lt;p&gt;CLI 1.0供開發者在終端，無縫地執行端到端工作流程，而現在GitHub繼續在CLI 1.0的基礎上發展，提供更好的腳本編寫和GitHub Actions使用支援，官方提到，沒有一項工具可以滿足所有人的需求，因此在CLI 2.0中，讓用戶能以簡單的方式，按需求擴充功能，並且安裝來自其他人的擴充套件。&lt;/p&gt;
+&lt;p&gt;每個擴充套件只是一個以gh-為前綴的儲存庫，因此開發者能夠簡單定義擴充套件，而且GitHub也在CLI本身內建工具，讓開發者可以快速使用gh-指令開始創建擴充套件，CLI以一些預先編寫的Bash腳本，創建擴充套件程式碼儲存庫樣板，協助開發者入門。&lt;/p&gt;
+&lt;p&gt;官方創建了一些擴充套件，來展示CLI 2.0擴充套件功能，像是gh user-status能夠從終端快速設定狀態，讓其他團隊成員知道用戶正處於忙碌或是專注模式，而gh contribute擴充套件，能從開源專案中，快速找到用戶可以解決問題，該擴充套件會尋找需要解決或是容易上手，但是尚未有拉取請求關聯的問題。&lt;/p&gt;
+&lt;p&gt;不過，這些擴充套件也不全然只能用於嚴肅的目的，像是gh screensaver就是能夠啟動全螢幕ASCII螢幕保護程式的擴充套件。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 08:30:08 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146422 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146422#comments</comments>
+</item>
+<item>
+ <title>英國大幅翻修境內的資料法規，與多國建立合作關係推動資料經濟</title>
+ <link>https://www.ithome.com.tw/news/146426</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.gov.uk/government/news/uk-unveils-post-brexit-global-data-plans-to-boost-growth-increase-trade-and-improve-healthcare&quot; target=&quot;_blank&quot;&gt;英國26日宣布&lt;/a&gt;，將與美國、澳洲、南韓、新加坡、杜拜、國際金融中心與哥倫比亞簽署資料合作協議，互通資料有無以推動資料經濟，並將任命國際隱私專家John Edwards擔任英國的資訊委員，&lt;a href=&quot;https://www.theguardian.com/technology/2021/aug/26/uk-to-overhaul-privacy-rules-in-post-brexit-departure-from-gdpr&quot; target=&quot;_blank&quot;&gt;《衛報》則分析&lt;/a&gt;，這意謂著脫歐之後的英國，將不再完全遵循由歐盟所制定的GDPR資料隱私法令。&lt;/p&gt;
+&lt;p&gt;英國是在2020年的1月31日正式退出歐盟，過渡期則至2020年的12月31日結束，而GDPR法令從2021年1月起也不再適用於英國，不過，英國於2018年祭出的《資料保護法》（2018 Data Protection Act）原本就參照GDPR法令，讓英國與歐盟之間的資料隱私法令保持一致，一直到本周英國決定修改《資料保護法》。&lt;/p&gt;
+&lt;p&gt;英國數位、文化、媒體暨體育部（Department for Digital, Culture, Media &amp;amp; Sport）表示，資料支撐了創新、全球數位經濟、日常應用程式及雲端運算系統，它推動企業的貿易、國際投資，也支援執法機構的犯罪調查，或者是提供關鍵的公共服務及健康／科學研究。&lt;/p&gt;
+&lt;p&gt;因此，英國決定將與上述國家建立資料合作關係，在確認對方採用高標準的資料保護法令之後，將由英國出口資料服務，未來還可能與印度、巴西、肯亞及印尼結盟，估計可帶來價值110億元英鎊的交易額。&lt;/p&gt;
+&lt;p&gt;該部門認為，減少國際間資料交換的門檻將得以替英國企業開啟全球市場，也能替英國用戶帶來更快、更可靠與更便宜的產品服務，例如GPS導航、視訊通話、線上銀行，或者是強化民眾每日使用零售等程式的能力。&lt;/p&gt;
+&lt;p&gt;英國數位、文化、媒體暨體育大臣Oliver Dowden表示，英國已經脫歐，使得他決定藉由制定全球領先的資料政策來抓住機會，替英國的個人與企業帶來脫歐的紅利，這同時意謂著英國將改革境內的資料法令，讓這些法令是基於常識，而非簡單的勾選。&lt;/p&gt;
+&lt;p&gt;此外，&lt;a href=&quot;https://www.gov.uk/government/news/government-announces-preferred-candidate-for-information-commissioner&quot; target=&quot;_blank&quot;&gt;英國將任命John Edwards擔任負責此事的資訊委員&lt;/a&gt;，Edwards為全球知名的隱私專家，現為紐西蘭的隱私委員，之前曾公開批評臉書放任仇恨言論的散布，為&lt;a href=&quot;https://www.ithome.com.tw/news/130690&quot; target=&quot;_blank&quot;&gt;紐西蘭基督城恐怖行動&lt;/a&gt;的幫兇，也曾指責臉書與Twitter關閉川普（Donald Trump）是武斷且缺乏原則的，贊成監管社交平臺。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 08:24:37 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146426 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146426#comments</comments>
+</item>
+<item>
+ <title>報告：中國駭入Exchange Server漏洞訓練AI</title>
+ <link>https://www.ithome.com.tw/news/146425</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;今年3月間Exchange Server漏洞被揭露且有駭客活動，引發各國政府和企業恐慌，不過一些專家相信，這可能是中國政府完成另一項更重要計畫的手段之一──訓練人工智慧（artificial intelligence，AI）技術。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.npr.org/2021/08/26/1013501080/chinas-microsoft-hack-may-have-had-a-bigger-purpose-than-just-spying&quot; target=&quot;_blank&quot;&gt;美國公共廣播電台（NPR）報導&lt;/a&gt;引述曾協助美國政府情報作戰的官員說法，指出中國利用Exchange Server漏洞蒐集美國民眾及政府資訊，最終目的是用於推進中國AI技術研發。&lt;/p&gt;
+&lt;p&gt;NPR報導指出，2017年中國政府宣佈推動AI為國家優先要務之一。為此中國一方面要培育電腦科學家撰寫演算法，另一方面則開始蒐集開發及訓練演算法必須的大量資料。培育科學家方面，根據報導，截至2017年中國的AI相關論文已經躍居全球之冠，成立的AI公司已超過千家，僅次於美國。在資料方面，除了中國自己的13億人口外，美國專家認為，美國人的資料也在他們的蒐集範圍內。&lt;/p&gt;
+&lt;p&gt;報導引述美國前國家反情報及安全中心主任，現為Evanina Security執行長的William Evanina說法，指出美國第三大消費者信用報告業者Equifax在2017年底爆發的大規模資料外洩，正是中國一次成功的反情報任務。&lt;a href=&quot;https://www.ithome.com.tw/news/135768&quot; target=&quot;_blank&quot;&gt;去年美國司法部控告&lt;/a&gt;中國解放軍人士在2017年入侵Equifax，盜走了1.5億名美國消費者的個人資料。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.intelligence.senate.gov/sites/default/files/documents/os-bevanina-080421.pdf&quot; target=&quot;_blank&quot;&gt;Evanina本月在美國參議院的公聽會上指出&lt;/a&gt;，他相信中國已掌握了80%美國人的資料，甚至比美國官方蒐集的還多，其他行動就是為了蒐集剩下20%。&lt;/p&gt;
+&lt;p&gt;而Exchange Server攻擊就是為了完整這個目的而啟動的計畫之一。微軟於今年3月揭露和中國有關的駭客組織Hafnium，正在開採Exchange Server上合稱ProxyLogon的4個漏洞。有安全公司估計，最初全球有超過40萬臺系統曝險，而在微軟公告一個星期內，&lt;a href=&quot;https://www.ithome.com.tw/news/143079&quot; target=&quot;_blank&quot;&gt;至少有3萬家美國機構，包括州政府、地方公營（如消防、警政）單位、教育機構、電信公司、或是小型店家等遭駭&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;報導引述微軟主管數位犯罪部門副總裁Tom Burt指出，Hafnium活動最早可追溯到2020年6月，即微軟公告的9個月前。Burt指出，微軟原本希望透過Patch Tuesday不動聲色修補Exchange Server漏洞，不料3月發現駭客部署後門程式速度加快，迫使微軟將之公開。&lt;/p&gt;
+&lt;p&gt;不過美國官方仍然定調Exchange Server攻擊為一種監控行為。&lt;a href=&quot;https://www.ithome.com.tw/news/145755&quot; target=&quot;_blank&quot;&gt;7月白宮也聯同英國、歐盟共同宣稱&lt;/a&gt;，中國政府扶植的駭客組織利用微軟今年初爆發的Exchanger Server零時差漏洞，執行大規模網路間諜行動。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 08:13:51 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146425 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146425#comments</comments>
+</item>
+<item>
+ <title>微軟Azure資料庫服務Cosmos DB含有安全漏洞，將外洩客戶的主要金鑰與存取令牌</title>
+ <link>https://www.ithome.com.tw/news/146423</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;專門提供雲端安全服務的資安業者Wiz周四（8/26）揭露，微&lt;a href=&quot;https://www.wiz.io/blog/chaosdb-how-we-hacked-thousands-of-azure-customers-databases&quot; target=&quot;_blank&quot;&gt;軟Azure的Cosmos DB非關聯式資料庫服務含有一系列的安全漏洞&lt;/a&gt;，將允許任何使用者下載、刪除或操控用戶的商業資料庫，或是存取Cosmos DB的底層架構。被Wiz統稱為ChaosDB的漏洞已存在兩年之久，波及Fortune 500排行榜上的許多大型企業，諸如可口可樂、Exxon-Mobil與Citrix等。&lt;/p&gt;
+&lt;p&gt;根據Wiz的說明，微軟是在2019年時於Cosmos DB新增了一項Jupyter Notebook功能，可讓客戶視覺化資料庫並建立客製化的視覺檢視畫面，最初客戶必須手動啟用Jupyter Notebook，但該功能在今年2月成為Cosmos DB的預設值。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://assets-global.website-files.com/60c0e55050c1de1d98a2cccb/61281ec6e8fda297e9a217f5_Blog%20image%20-%20chaos%20cosmos.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Wiz&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;然而，Wiz團隊卻發現Jupyter Notebook含有一系列的錯誤配置，其容器含有一個權限擴張漏洞，得以進入其它客戶的Jupyter Notebook，並取得該客戶的主要金鑰與Notebook存取令牌等機密資訊。在掌握了上述機密資訊之後，駭客就能長期存取受害Cosmos DB帳號的所有資料，還具備完整的讀、寫與刪除權限。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://assets-global.website-files.com/60c0e55050c1de1d98a2cccb/61281edb4af1d4222d99362d_Blog%20image%20-%20chaos%20step%201.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;圖片來源_Wiz&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Wiz團隊表示，在他們向微軟通報之後，微軟於48小時內就關閉了Jupyter Notebook功能，是他們所見過的反應最快的安全團隊。此外，微軟也在周四通知了逾30%的Cosmos DB客戶，要求它們手動輪替存取金鑰以降低風險。&lt;/p&gt;
+&lt;p&gt;微軟只知會了在Wiz研究期間（約一周）受到波及的客戶，然而，Wiz團隊相信，過去曾啟用Jupyter Notebook服務，或是今年2月之後才建立Cosmos DB帳號的用戶，都可能受到ChaosDB漏洞的波及，呼籲它們都應採取保護措施，輪替存取金鑰。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.reuters.com/technology/exclusive-microsoft-warns-thousands-cloud-customers-exposed-databases-emails-2021-08-26/&quot; target=&quot;_blank&quot;&gt;根據路透社的報導&lt;/a&gt;，微軟已坦承相關漏洞的存在，也將支付4萬美元的抓漏獎金予Wiz。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 07:35:58 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146423 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146423#comments</comments>
+</item>
+<item>
+ <title>研究人員針對勒索軟體LockBit 2.0提出警告，2個月逾50個組織受害</title>
+ <link>https://www.ithome.com.tw/news/146421</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;最近半年，有數款新興的勒索軟體發動攻擊，其中自今年6月推出2.0版的LockBit（亦稱為ABCD），不僅&lt;a href=&quot;https://www.ithome.com.tw/news/146157&quot;&gt;攻擊大型IT顧問公司Accenture&lt;/a&gt;，也在澳洲造成災情，使得&lt;a href=&quot;https://www.ithome.com.tw/news/146226&quot;&gt;當地的網路安全中心（ACSC）發布資安通報&lt;/a&gt;，提出緩解措施讓企業加以防範。而最近，&lt;a href=&quot;https://unit42.paloaltonetworks.com/emerging-ransomware-groups/&quot;&gt;資安業者Palo Alto Networks也對於這款勒索軟體提出警告&lt;/a&gt;，並指出在駭客組織推出LockBit 2.0之後，短短2個月就有52個組織成為受害者。&lt;/p&gt;
+&lt;p&gt;勒索軟體LockBit自2019年9月出現，開發者以訂閱制度提供給買家運用，該勒索軟體其中一項特性是加密檔案的速度，號稱在業界名列前茅。而最近引進資安研究人員關注的原因，就是該勒索軟體的開發者推出了LockBit 2.0大改版，根據ACSC提到後繼版本的新功能，是加入名為StealBit的竊密能力。&lt;/p&gt;
+&lt;p&gt;而對於迄今遭到LockBit 2.0攻擊的組織，Palo Alto指出，涵蓋的行業與國家可說是相當廣泛，攻擊者入侵的52個組織，包含會計、汽車、顧問、工程、財務、高科技、醫療、保險、執法單位、法律服務、製造業、非營利能源產業、零售業、物流業，以及公共事業領域等。&lt;/p&gt;
+&lt;p&gt;攻擊者下手目標的國家，除了日前發出警告的澳洲之外，還包含阿根廷、奧地利、比利時、巴西、德國、義大利、馬來西亞、墨西哥、羅馬尼亞、瑞士、英國，以及美國。&lt;/p&gt;
+&lt;p&gt;經營LockBit 2.0的駭客宣稱，他們的勒索軟體加密速度又再度進化，在搭載Xeon E5-2680中央處理器的測試主機上，每秒能加密373MB檔案，加密100GB資料在4分半就能完成；相較今年2月的舊版LockBit，加密速度為每秒266MB，可說是快上不少，而LockBit 2.0的檔案加密速度，更是第3名勒索軟體Cuba（每秒185MB）的2倍。Palo Alto表示，賣家為了吸引攻擊者採用他們的勒索軟體訂閱服務，他們還製作比較表。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/word-image-31-top10.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/word-image-31-top10.png&quot; style=&quot;width: 580px; height: 245px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;與許多勒索軟體相同的是，LockBit 2.0在加密電腦檔案之後，會更換桌布顯示勒索訊息。但比較特別的是，這個桌布也包含了利誘使用者的訊息，表明他們徵求能入侵企業或組織的帳號資料，像是遠端桌面連線（RDP）、VPN、公司電子郵件信箱等，號稱提供這類資料的使用者，有機會賺得數百萬美元，駭客留下名為Tox的即時通訊軟體ID，讓想要參與的人能跟他們聯繫。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/word-image-34-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/word-image-34-s.png&quot; style=&quot;width: 580px; height: 416px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;LockBit 2.0在加密檔案之後，會將桌布更換為「重要檔案已全被加密」的訊息，但比起許多勒索軟體會在桌布說明要如何支付贖金、或者是不要關掉電腦以免資料無法復原等警告，我們可以看到LockBit 2.0的訊息下半部有一大段淺灰色文字，但這段訊息與勒索受害電腦沒有直接關係，而是祭出高額的分紅，想要徵求可以存取其他企業內部網路的帳密資料。&lt;/p&gt;
+&lt;/blockquote&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 27 Aug 2021 07:01:57 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146421 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146421#comments</comments>
+</item>
+<item>
  <title>殭屍網路程式正試圖攻擊Realtek晶片SDK漏洞</title>
  <link>https://www.ithome.com.tw/news/146420</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;本月稍早安全廠商揭露&lt;a href=&quot;https://www.ithome.com.tw/news/146236&quot; target=&quot;_blank&quot;&gt;瑞昱半導體的無線晶片SDK存在多項安全漏洞&lt;/a&gt;，影響65家IoT廠商，本周另外二家安全業者相信，已經有駭客盯上採用Realtek晶片的IoT裝置，企圖感染殭屍網路程式。&lt;/p&gt;
@@ -22,215 +170,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146420 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146420#comments</comments>
-</item>
-<item>
- <title>蘋果讓步了，同意讓開發者與使用者溝通其它付款方式</title>
- <link>https://www.ithome.com.tw/news/146419</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.apple.com/newsroom/2021/08/apple-us-developers-agree-to-app-store-updates/&quot; target=&quot;_blank&quot;&gt;蘋果在26日宣布&lt;/a&gt;，在一起由美國開發者提出的集體訴訟案中，該公司與提告人已達成和解協議，蘋果將同意讓開發者與使用者溝通其它付款方式，以讓使用者選擇自App Store以外的途徑付款，同時蘋果也發表了新聞合作夥伴專案（News Partner Program），邀請獨立媒體加入Apple News，且承諾只會抽取15%的訂閱費用。&lt;/p&gt;
-&lt;p&gt;此案無關&lt;a href=&quot;https://www.ithome.com.tw/news/139405&quot; target=&quot;_blank&quot;&gt;Epic Games與蘋果之間的訴訟案&lt;/a&gt;，而是有一群美國小型開發者在2019年集體控告蘋果違反反托拉斯法令。&lt;/p&gt;
-&lt;p&gt;根據雙方的協議，雙方同意維持App Store針對小型開發者既有的拆帳架構，亦即年收入低於100萬美元的開發者，只需支付15%的拆帳比例；且App Store的搜尋功能在3年內，都必須基於客觀標準提供搜尋結果，例如下載數、評價及關聯性等；蘋果除了讓開發者能夠申訴被拒絕的程式之外，也將更清楚地闡明上述流程，以及發表年度透明度報告，與外界分享程式審核的各種數據。&lt;/p&gt;
-&lt;p&gt;在此次的協議中，蘋果最大的讓步當屬將允許開發者接觸使用者，提供App Store以外的支付管道。蘋果表示，開發者可透過電子郵件等工具與使用者溝通，且蘋果無法對這些在App Store以外發生的交易收取佣金。&lt;/p&gt;
-&lt;p&gt;另一方面，蘋果準備建立一個基金來協助美國小型的開發者，特別是受到疫情影響的對象，亦發表了新聞合作夥伴專案，邀請獨立媒體加入Apple News，若於Apple News中提供訂閱服務，則僅需支付15%的佣金。&lt;/p&gt;
-&lt;p&gt;此一蘋果與開發者之間的和解協議，將在法院同意之後付諸實行。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 27 Aug 2021 03:50:15 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146419 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146419#comments</comments>
-</item>
-<item>
- <title>Google強化App Engine應用程式安全，加入管理服務帳戶新功能</title>
- <link>https://www.ithome.com.tw/news/146418</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://cloud.google.com/blog/products/serverless/app-engine-egress-controls-and-user-managed-service-accounts&quot; target=&quot;_blank&quot;&gt;Google更新其無伺服器應用程式託管平臺App Engine&lt;/a&gt;，加入兩項新功能，除了提供用戶更多出站流量控制（Egress Controls）能力之外，也加入用戶管理服務帳戶，使得用戶能夠應用最低權限，來增加在App Engine上應用程式的安全性。&lt;/p&gt;
-&lt;p&gt;App Engine為一個完全託管的應用程式平臺，對應用程式的出站流量提供了一個IP地址池，讓用戶能夠不必管理網路細節就能提供服務，對不少用戶方便且已經足夠，不過，有部分App Engine用戶需要對出站請求進行更多的控制，因此Google加入了新功能來滿足這些用戶的需求。&lt;/p&gt;
-&lt;p&gt;App Engine的出站流量控制新功能，借助Cloud VPC服務中的無伺服器VPC存取功能，無伺服器VPC存取功能，可讓用戶配置連接器，將請求從App Engine應用程式路由到自己的VPC網路，而出站流量控制，能使用戶更好地控制使用VPC連接器的流量。&lt;/p&gt;
-&lt;p&gt;Google提到，出站流量控制的重要使用案例，是對App Engine的HTTP請求創建靜態出站IP地址，因為部分App Engine用戶提供的SaaS服務，必須連接到終端用戶網路，不過這些終端用戶通常傾向只對特定來源IP的流量開啟防火牆，而藉由出站流量控制，用戶就可以使用無伺服器VPC存取和Cloud NAT來配置靜態IP地址。&lt;/p&gt;
-&lt;p&gt;App Engine另一項新功能，是讓用戶可以對每個應用程式版本，指定不同的服務帳戶。目前App Engine使用預設服務帳戶，來代表App Engine應用程式和其他GCP服務互動，而這個預設服務帳戶，是在初始App Engine應用程式過程中設定的，用戶可以管理並授予該服務帳戶的權限，但因為這個帳戶被應用程式的所有服務使用，因此無論特定服務需要的權限為何，所有服務都共享同一個權限集。&lt;/p&gt;
-&lt;p&gt;而現在Google加入用戶管理服務帳戶新功能，讓用戶可以對應用程式的每個版本，指定使用不同的服務帳戶，限制每個服務帳戶僅具執行任務需要的權限，而非對單一共享服務帳戶，授予應用程式中的所有服務需要的權限，好處是用戶可以遵循最低權限的最佳實踐。當用戶未指定服務帳戶，則App Engine使用預設服務帳戶。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 27 Aug 2021 03:24:04 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146418 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146418#comments</comments>
-</item>
-<item>
- <title>Google可能付蘋果150億美元換取預設搜尋引擎地位</title>
- <link>https://www.ithome.com.tw/news/146417</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;根據一份分析師估計，今年Google可能付給蘋果150億美元，以換取成為Safari瀏覽器預設搜尋引擎，而在微軟威脅陰影下，明年可能還會增加。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ped30.com/2021/08/25/apple-google-payments-15b/&quot; target=&quot;_blank&quot;&gt;知名資訊專欄作家Philip Elmer-DeWitt&lt;/a&gt;本周引述投資機構Bernstein分析師Toni Sacconaghi的報告，列出近三年Google為了確保成為瀏覽器預設搜尋引擎而付給蘋果的金額。該分析機構依據蘋果公開資料及其他資訊，估計Google 2021年付給蘋果150億美元，比去年的100億大幅增長，推升蘋果服務來到營收850億美元，佔蘋果毛利將近9%。&lt;/p&gt;
-&lt;p&gt;分析師進一步指出，為了防止微軟採取類似方法取代Google搜尋，分析師相信Google仍然會持續「流量取得成本」（TAC，traffic acquisition costs）的策略，估　計2022年付給蘋果180億到200億美元。&lt;/p&gt;
-&lt;p&gt;如果分析機構的數字正確，那蘋果從Google身上賺到的營收呈數倍成長。根據英國主管機關競爭與市場管理署（Competition and Markets Authority）的調查報告，2019年Google支付蘋果15億美元，換取成為Safari的預設搜尋引擎。&lt;/p&gt;
-&lt;p&gt;Google也對其他瀏覽器業者實施類似策略。&lt;a href=&quot;https://www.ithome.com.tw/news/139368&quot; target=&quot;_blank&quot;&gt;媒體去年報導&lt;/a&gt;，Google將以每年4億到4.5億美元的代價，以便能在2021到2023年間成為Firefox預設搜尋引擎。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 27 Aug 2021 02:31:56 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146417 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146417#comments</comments>
-</item>
-<item>
- <title>微軟終止Android版Office支援Chromebook</title>
- <link>https://www.ithome.com.tw/news/146416</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Chromebook上要使用Office變得更不方便了。&lt;a href=&quot;https://www.aboutchromebooks.com/news/microsoft-ending-chromebook-support-for-office-android-apps-in-september/&quot; target=&quot;_blank&quot;&gt;媒體發現&lt;/a&gt;，微軟悄悄終止Android版Office對Chromebook的支援，用戶必須上網使用Web版Office。&lt;/p&gt;
-&lt;p&gt;近日漸漸有Chromebook用戶反映Android版Office啟動時，會接獲系統通知指不應該再使用這個應用程式，應連到Office.com使用Web版。AboutChrombooks本周取得微軟回應證實此事。微軟指出，為提供ChromeOS/Chromebook用戶最佳化的體驗，2021年9月18日起微軟應用（Office及Outlook）將轉換成Web體驗（Office.com和Outlook.com）。微軟表示，用戶可以因此獲得「額外且優質」功能，但ChromeOS/Chromebook用戶必須以其微軟帳號或和Microsoft 365訂閱關聯的帳號登入使用。&lt;/p&gt;
-&lt;p&gt;另一方面，微軟還是提供Android版Office，只是不再供Chromebook用戶使用Android版本。媒體分析，這或許是Chromebook一般裝置螢幕尺寸較手機大，使用手機版Office有顯示上的問題，Office團隊必須為其最佳化。然Chromebook雖然出貨持續增多，但數量上仍屬小眾，因此微軟並不想投入資源為Chromebook最佳化一個專用行動版本Office。&lt;/p&gt;
-&lt;p&gt;而這政策方向也已反映在微軟公告網頁上。截至7月17日，針對在Chromebook上執行Office，&lt;a href=&quot;https://web.archive.org/web/20210731012201/https://support.microsoft.com/en-us/office/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad&quot; target=&quot;_blank&quot;&gt;微軟提供的指示&lt;/a&gt;是到Google Play Store下載想要的Office應用，如Word、Outlook或Teams。而在&lt;a href=&quot;https://support.microsoft.com/en-us/office/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad&quot; target=&quot;_blank&quot;&gt;現有版本&lt;/a&gt;，微軟則是要求用戶到&lt;a href=&quot;http://www.office.com&quot;&gt;www.office.com&lt;/a&gt;上，以登入微軟或Microsoft 365關聯的帳號使用。&lt;/p&gt;
-&lt;p&gt;但The Verge分析，這其實也是大趨勢之一，因為ChromeOS上跑Android App效能本來就不好，新一代的PWA可以跨平臺執行，只要有現代化的瀏覽器即可，就連&lt;a href=&quot;https://www.ithome.com.tw/news/137000&quot; target=&quot;_blank&quot;&gt;Google也力推&lt;/a&gt;ChromeOS上以PWA取代Android版本。不過PWA只有裝置連網時才能執行，因此如果Chromebook用戶9月後再使用Office，勢必會變得更麻煩一點。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 27 Aug 2021 02:15:27 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146416 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146416#comments</comments>
-</item>
-<item>
- <title>GitLab 14.2開放測試macOS版建置雲，並可即時預覽Markdown輸出</title>
- <link>https://www.ithome.com.tw/news/146414</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;新發布的&lt;a href=&quot;https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/#track-use-of-dependency-scanning-and-fuzz-testing&quot;&gt;GitLab14.2&lt;/a&gt;，更新了不少好用的新功能，像是現在開發者可以在macOS用到建置雲（Build Cloud）。原本GitLab SaaS上Apple生態系開發人員，需要在自己的macOS系統上安裝GitLab Runner，來執行CI/CD工作流程。&lt;/p&gt;
-&lt;p&gt;但現在於全新的版本上，開發者可以使用適用於macOS的Build Cloud測試版建置應用程式，Build Cloud是一個由GitLab Runner為基礎的建置平臺，並與GitLab SaaS CI/CD整合。獲准的用戶和開源社群計畫成員，已經可以開始使用該Build Cloud測試版，官方提到，用戶仍可以在任何Apple環境、MacStadium和AWS上安裝macOS Runner。&lt;/p&gt;
-&lt;p&gt;GitLab14.2還讓用戶在編輯時，即時預覽Markdown。Markdown是一種快速直覺的語法，可用來編寫豐富的網頁內容，雖然用戶可以從預覽頁籤中，方便地預覽Markdown的渲染輸出，來確定Markdown的效果，但在原始碼和預覽之間切換，可能會破壞用戶的工作流程和體驗。&lt;/p&gt;
-&lt;p&gt;而新的即時預覽功能，在網頁IDE和單一檔案編輯器中，Markdown檔案會出現新的即時預覽選項，只要右鍵點擊編輯器並選擇預覽Markdown，就可以分割螢幕即時預覽Markdown效果，預覽結果會在用戶輸入時即時更新，因此用戶便能快速確認標籤效果，並且確定最終檔案和預期相符。&lt;/p&gt;
-&lt;p&gt;另外，早在GitLab 13.5中整合的Gitpod，可供開發者管理複雜的開發環境，只要在程式碼中定義專案配置後，就能藉由點擊滑鼠，快速啟動預建置的雲端開發環境，官方提到，這種工作流程雖然方便，但是啟動Gitpod環境來審查現有合併請求，這代表切換到目標分支並再次執行建置之前，需要針對主分支建置一個環境。&lt;/p&gt;
-&lt;p&gt;而在GitLab 14.2中，開發者可以直接從合併請求頁面啟動Gitpod，並預先配置使用目標分支，這能夠加快審查速度，並且減少上下文切換。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 27 Aug 2021 02:05:45 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146414 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146414#comments</comments>
-</item>
-<item>
- <title>Google機器學習平臺Vertex AI現提供低延遲高安全性的私有端點</title>
- <link>https://www.ithome.com.tw/news/146415</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google宣布在其機器學習平臺Vertex AI上提供&lt;a href=&quot;https://cloud.google.com/blog/products/ai-machine-learning/creating-a-private-endpoint-on-vertex-ai&quot;&gt;私有端點&lt;/a&gt;（Private Endpoints），這是Vertex Predictions中的一項新功能，藉由VPC對等連接，用戶可以配置專用的連接與端點通訊，因此用戶的資料就不需要經過網際網路，不只提高安全性，也可以降低線上預測的延遲。&lt;/p&gt;
-&lt;p&gt;Vertex AI是Google在2021年開發者大會Google I/O，所發布的全託管機器學習平臺，該平臺由一系列機器學習工具組合而成，簡化企業部署和維護機器學習模型的工作。Vertex AI解決機器學習工具過於破碎，使得開發流程不順暢的問題，Vertex AI提供一致的UI和API，供用戶簡單地操作Google雲端服務，來簡化建構、訓練和部署大規模模型的任務。&lt;/p&gt;
-&lt;p&gt;Google提到，要即時提供機器學習模型預測是一大挑戰，能夠低延遲提供結果，對各產業的機器學習應用都非常重要。而這也就是Google推出Vertex AI私有端點的原因，應用VPC對等連接提供低延遲的網路連接。&lt;/p&gt;
-&lt;p&gt;VPC網路是一種全域資源，由資料中心的地區虛擬子網所構成，所有子網都透過全域網路連接，藉由VPC網路對等連接，用戶可以跨兩個VPC網路連接內部IP地址，無論IP地址是否屬於同一專案或是同一組織，最終使得所有流量都能留在Google網路中。&lt;/p&gt;
-&lt;p&gt;Vertex AI供用戶使用Vertex Predictions，以無伺服器的方式提供機器學習模型服務，用戶可以在雲中託管模型，並且透過REST API進行預測。當用戶要在線上進行模型預測，則需要將模型部署到端點，用戶能選擇端點機器類型和自動縮放等參數，提供低延遲的預測服務。&lt;/p&gt;
-&lt;p&gt;而現在用戶還可以選擇創建私有端點，限制資料永不穿過網際網路，所以私有端點除了能降低系統收到請求的時間，還具有安全性優勢，Google提到，部署模型至私有端點的額外開銷很小，而且實現的效能幾乎與在GKE或GCE自己提供服務相同。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 27 Aug 2021 01:49:35 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146415 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146415#comments</comments>
-</item>
-<item>
- <title>Cloud周報第118期：英國大型汽車經銷商要將關鍵SAP系統上公雲，國際太空站測試靠邊緣雲端運算監測太空人健康</title>
- <link>https://www.ithome.com.tw/news/146413</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(0, 0, 255);&quot;&gt;重點新聞（2021/08/19～2021/08/25）&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  上雲  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;   汽車銷售  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  SAP on Google Cloud  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
-&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;汽車經銷商Inchcape計畫搬遷SAP系統上公雲，提高營運自動化能力&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;業務橫跨36國的英國汽車經銷商Inchcape近日宣布，計畫將自家許多關鍵系統搬遷上GCP平臺，來提高營運自動化能力，進而提升營運效率。計畫上雲的工作負載包含了業務、行銷和營運系統，以及數據。這些系統原先是採用部署在本地端的SAP軟體產品，趁著SAP剛於7月宣布SAP軟體訂閱方案成為GCP訂閱服務之一，Inchcape也趁勢轉換上雲，成為首批在Google雲上執行SAP系統的英國企業。搬遷這批系統上雲後，Inchcape將連結散落各地的各種數據集，至集中且可擴充的平臺，並使用公雲的AI、ML和分析功能，管理和分析各類數據，來重新打造客戶售後服務，以及與汽車製造商間的供應鏈合作。&lt;a href=&quot; https://cloud.google.com/press-releases/2021/0824/inchape&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  外太空  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  太空人健康監控  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  邊緣雲端運算  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
-&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;太空人健康監測也靠邊緣運算，太空站內就近預處理基因定序資料再回傳地球上雲再解析&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E5%9C%961_%E5%A4%AA%E7%A9%BA_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_%E5%BE%AE%E8%BB%9F.png&quot; style=&quot;width: 600px; height: 337px;&quot; /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微軟近日分享正在國際太空站進行的一項實驗，採邊緣雲端運算概念，結合搭載在太空站的邊緣運算系統HPE Spaceborne Computer-2，還有地球上的Azure雲端服務，來監控太空人的健康風險。太空人待在太空站工作時，因缺少地球大氣層阻擋宇宙輻射，長期暴露在高輻射環境中，而面臨嚴重的健康風險，需要透過基因定序資料分析作業，來確認基因是否發生突變。不過，國際太空站基因定序儀的資料量太過龐大，再加上太空站和地球間的傳輸頻寬有限，所以，微軟使用已部署在太空站的運算設備，來分析和過濾大型資料集後，才將結果傳回地面站，再送至Azure執行進一步的解析，發揮邊緣雲端運算的作用。&lt;/p&gt;
-&lt;p&gt;由於在開發和測試期間，開發人員無法存取HPE Spaceborne Computer-2或HPE地面站，因此人員先利用Azure模擬、驗證實驗，並已在8月中上傳120MB的程式到國際太空站的Spaceborne Computer-2執行。根據試驗，150 MB原始資料經Spaceborne Computer-2預處理後，傳回地球的資料剩900KB，且17秒內完成傳輸。微軟表示，隨著人類持續推展太空任務，利用邊緣雲端運算能力突破運算資源的極限，會越來越重要，應用案例也會增加。&lt;a href=&quot; https://azure.microsoft.com/en-us/blog/genomics-testing-on-the-iss-with-hpe-spaceborne-computer2-and-azure/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Gartner  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  魔力象限  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  公有雲  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;Gartner：雲基礎設施和平臺服務市場正在整合，4家公雲拿下全球逾9成市場&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E5%9C%962_Magic%20Quadrant_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_Gartner.png&quot; style=&quot;width: 600px; height: 623px;&quot; /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Gartner日前發布了2021年雲端基礎設施和平臺服務的魔力象限報告，並表示，雲基礎設施和平臺服務市場正在整合，全球9成以上市場集中到4家公雲業者上，包含帶頭的AWS和微軟，以及緊隨他們的阿里巴巴和Google，且整合態勢沒有放緩的跡象。今年依然沒有任何一個新進列名的業者，領導者象限的業者分布與去年相似，依然由AWS大幅領先緊接在後的微軟和Google。阿里巴巴去年處於立基業者象限，因為大量投資、開發獨特技術，且有很多用戶，雖然可服務的地理範圍仍有限，但Gartner也將其改列入到遠見者象限中。甲骨文、IBM和騰訊雲仍然位居立基者象限，而挑戰者象限則空缺。針對雲基礎設施和平臺服務市場目前由少數幾家業者引領的態勢，Gartner表示，主要是因企業尋求的是，具高度可靠性且提供廣泛功能的產業化產品，並期待產品可以滿足所有的工作負載需求，導致精品型雲端供應商無法與全球性大型業者的創新速度競爭。&lt;a href=&quot; https://www.gartner.com/doc/reprints?id=1-271OE4VR&amp;amp;ct=210802&amp;amp;st=sb&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  EC2  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  執行實例  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  x86架構  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;AWS推搭載最新Xeon的新通用型EC2實例，與前一代同類實例相比性價比提高15%&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;AWS近日擴展第六代EC2執行實例的產品項目，推出採x86架構的新通用型執行實例M6i。新執行實例搭載了最新一代英特爾Xeon可擴充處理器，全核心渦輪加速頻率為3.5 GHz，並可提供最高50Gbps的網路頻寬，以及最高40Gbps的Amazon EBS頻寬。整體而言，與EC2第五代同類型執行實例相比，M6i執行實例性價比提高了15％。&lt;/p&gt;
-&lt;p&gt;為執行通用工作負載需求打造的M6i，可用於執行包含網頁和應用程式伺服器、容器化應用程式、微服務和小型資料儲存。AWS總共發布了8種M6i規格型號，以最高規格的型號m6i.32xlarge為例，配備了128個vCPU、50Gbps網路頻寬，以及40Gbps EBS頻寬，還有512GiB記憶體，可供擴充應用程式。因M6i具有更大的記憶體頻寬，可用來執行像是SAP HANA等企業應用程式，或是計算流體力學等高效能運算工作負載。目前新執行實例已先在6個AWS地區上線，包含北維吉尼亞州、法蘭克福、新加坡等。&lt;a href=&quot; https://aws.amazon.com/tw/blogs/aws/new-amazon-ec2-m6i-instances-powered-by-the-latest-generation-intel-xeon-scalable-processors/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  微軟  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 美國政府  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  雲端基礎設施  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
-&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;微軟正式推出最高機密政府雲Azure Government Top Secret，美國安局已經用了&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;微軟日前宣布，專供政府儲存最高機密資訊的最高機密雲Azure Government Top Secret，正式上線，這是除了另一個安全等級較低也可代管政府機密資料的Azure Government Secret之外的新雲端基礎設施，將共同提供給美國情報單位、國防部和聯邦政府安全等級的機構使用。近期多起資安事件波及美國政府單位，促使美國加碼投資聯邦政府的資訊安全建設，包含與微軟合作開發這項新雲端基礎設施Azure Government Top Secret。美國國家安全局現已利用Azure Government Top Secret來執行任務。&lt;/p&gt;
-&lt;p&gt;目前最高機密政府雲提供了60多項服務，包含Azure Kubernetes Service、Azure Functions、Azure App Service、Azure Security Center及安全管理平臺Azure Sentinel等，且日後還會再新增其他Azure服務。Azure Government Top Secret已獲得美國聯邦政府頒發的資訊系統運作授權（ATO），也已符合美國政府的風險管理和認證標準ICD 503，以及經認證設施符合ICD 705的標準。微軟另宣布Azure Government Secret新增了多項服務，目前共有73項服務。&lt;a href=&quot;https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  AWS   &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  記憶體資料庫服務  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Redis  &lt;/span&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;AWS推出記憶體式資料庫服務MemoryDB for Redis，能靠記憶體建立持久性的主資料庫&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E5%9C%963_REDIS_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_AWS.png&quot; style=&quot;width: 600px; height: 532px;&quot; /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;AWS近日推出相容於Redis的記憶體資料庫服務Amazon MemoryDB for Redis，供開發者建置具備微秒讀取、數毫秒內寫入的效能，並且具有資料持久性和高可用性的應用程式。這項新服務可用來作為應用程式的單一主要資料庫。用戶的所有資料都會儲存在記憶體中，進而實現低延遲和高吞吐量的資料存取能力。&lt;/p&gt;
-&lt;p&gt;此外，MemoryDB使用分散式交易性日誌，能跨可用區域儲存資料，來以高持久性支援故障移轉、資料恢復和節點重啟。AWS表示，通過MemoryDB，使用者不需在資料庫前添加快取，就可實現互動式應用程式和微服務架構所需要的低延遲。用戶可以通過AWS控制臺、命令列介面和AWS開發工具包，快速建立MemoryDB叢集，不過，目前MemoryDB僅支援R6g Graviton2執行實例。新服務現階段先在北維吉尼亞州、愛爾蘭、孟買和聖保羅的AWS地區提供。&lt;a href=&quot; https://aws.amazon.com/tw/blogs/aws/introducing-amazon-memorydb-for-redis-a-redis-compatible-durable-in-memory-database-service/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Google雲端  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  零信任解決方案  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  應用程式存取  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
-&lt;p&gt;&lt;strong style=&quot;font-size: 22px;&quot;&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;Google企業級零信任解決方案新增3項功能，管理員可制定更精細的存取控制政策&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Google近期為雲端零信任解決方案BeyondCorp Enterprise，加入3項新功能，來優化終端使用者對關鍵應用程式的存取能力。第一項新功能是基於憑證的存取控制，供用戶透過VPC服務控制GCP API，能夠防止憑證被盜或是意外被洩漏。現在Google對8種類型的VPC服務控制資源，提供客戶端憑證原生支援，包括GCE、GKE、BigQuery和Logging等。另一項新功能是提供本地端連接器，讓用戶連接本地資源時，能夠使用身份感知代理（IAP），保護Google雲端之外的HTTP或HTTPS本地應用程式。最後，Google為零信任政策引擎添加了多種零信任存取條件，供管理員利用3種新屬性，包含時間和日期、證書強度以及Chrome瀏覽器，制定高精細度的存取控制政策。&lt;a href=&quot; https://cloud.google.com/blog/products/identity-security/new-beyondcorp-enterprise-zero-trust-capabilities&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;圖片來源／Inchcape Américas、微軟、Gartner、AWS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  &lt;span style=&quot;color:#FFFFFF;&quot;&gt;更多Cloud動態 &lt;/span&gt; &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1.Azure Virtual Desktop現在支援Windows 11，可經由Windows Insider測試方案取得&lt;/strong&gt;&lt;a href=&quot; https://techcommunity.microsoft.com/t5/azure-virtual-desktop/windows-11-preview-is-now-available-on-azure-virtual-desktop/ba-p/2666468&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2.CDN業者Cloudflare近期阻攔一波大規模鎖定金融業的DDoS攻擊，每秒發出逾1,700萬次HTTP請求&lt;/strong&gt;&lt;a href=&quot; https://blog.cloudflare.com/cloudflare-thwarts-17-2m-rps-ddos-attack-the-largest-ever-reported/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3.微軟預告明年3月調漲企業版Office 365、Microsoft 365價格&lt;/strong&gt;&lt;a href=&quot; https://www.microsoft.com/en-us/microsoft-365/blog/2021/08/19/new-pricing-for-microsoft-365/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;資料來源：iThome整理，2021年8月&lt;/strong&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 27 Aug 2021 01:48:16 +0000</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="false">146413 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146413#comments</comments>
-</item>
-<item>
- <title>研究：川普因虛假訊息遭推特限制互動的推文，反在臉書、Reddit大量傳播</title>
- <link>https://www.ithome.com.tw/news/146411</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;推特在最近美國總統大選時，使用兩種策略干預Donald Trump（川普）存在錯誤資訊的推文，其一是加上錯誤資訊標籤的軟干預，其二是阻止用戶與該推文互動的硬干預，但是&lt;a href=&quot;https://misinforeview.hks.harvard.edu/article/twitter-flagged-donald-trumps-tweets-with-election-misinformation-they-continued-to-spread-both-on-and-off-the-platform/&quot;&gt;研究發現&lt;/a&gt;，與推特沒有干預的推文相比，無論使用哪一種干預手段，都會增加這些推文的傳播，研究人員提到，平臺需要從生態系統層面來考慮內容審核的方法。&lt;/p&gt;
-&lt;p&gt;研究人員分析了美國前總統Donald Trump，從2020年11月1日到2021年1月8日期間發布的推文，部分推文因為含有和選舉相關的錯誤訊息，因此被推特標上存在錯誤訊息的標籤，來警告其他使用者，而研究人員從推特收集資料，包括未被標記的推文，和被加上警告標籤，或是阻止用戶參與的推文，以分析傳播的差異。&lt;/p&gt;
-&lt;p&gt;這項研究有兩項發現，第一是研究人員發現，硬干預能夠成功阻止推文在推特平臺上傳播，但是受到軟干預的推文，比沒有接受任何干預的推文傳播得更遠。從下圖A可以發現，受到硬干預推文的棕色線段，約在一小時後會因為受到推特限制無法被轉推呈現水平，而軟干預推文的黃色線，轉推數比無干預的綠色線還要高上不少，在C圖的參與度比較，也看得出軟干預推文的平均參與程度，大於綠色的無干預推文，而硬干預推文因為限制互動的關係，因此參與度較低。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/twitter_figure.png&quot; style=&quot;width: 580px; height: 702px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;有趣的是，研究人員還分析轉推這些推文的使用者跟隨者人數，轉推硬干預推文的使用者跟隨人數最低，而轉推無干預推文的用戶跟隨者人數最多，平均超過3,000位跟隨者。&lt;/p&gt;
-&lt;p&gt;第二項研究發現則是，和推特上受到軟干預和無干預的推文相比，硬干預的推文在臉書、Instagram和Reddit上傳播的時間更長，範圍也更廣。從下圖A在臉書上的累積貼文數可以清楚看到，受到硬干預的推文，在臉書上受到歡迎的程度，是無干預和軟干預的數倍，而且無論是張貼用戶的訂閱者或是貼文的參與度，硬干預都是三者中最高的。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/facebook_figure.png&quot; style=&quot;width: 580px; height: 700px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;這些資料的觀察，雖然無法確定究竟是推特干預了更有可能被傳播的推文，抑或是干預強化了推文的傳播，不過，研究人員提到，這份研究提供了描述性證據，證明推特標記為錯誤訊息的推文，受到跨平臺的傳播，並且發現當貼文在特定平臺遭到封鎖，仍會以連結、引用和螢幕截圖的形式，在其他主流平臺中大幅傳播。&lt;/p&gt;
-&lt;p&gt;這項研究凸顯了生態系層面的因素，對內容審查的重要性，其結果可被用於往後平臺制定干預錯誤訊息的方法。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 27 Aug 2021 01:47:02 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146411 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146411#comments</comments>
-</item>
-<item>
- <title>AI趨勢周報第175期：為何20分鐘的對話時間，是今年Amazon對話式AI挑戰賽最大亮點？</title>
- <link>https://www.ithome.com.tw/news/146407</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(0, 0, 255);&quot;&gt;重點新聞(0820～0826)&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;對話式AI  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Alexa Prize  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  SocialBot  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;AI和真人天南地北暢聊20分鐘破紀錄，Amazon年度社交機器人挑戰賽最大突破&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Amazon連年舉辦的Alexa Prize社交機器人（SocialBot）挑戰賽最近落幕，前三名由捷克科技大學、史丹佛大學、紐約州立大學水牛城分校等三組團隊拿下，更重要的是，他們的社交機器人與真人的對話，從體育、政治、科技到流行無所不聊，甚至最長可持續&lt;a href=&quot;https://venturebeat.com/2021/08/19/amazon-taps-its-socialbot-challenge-to-boost-conversational-ai/&quot;&gt;20分鐘&lt;/a&gt;之久，沒有冷場，打破了過往社交Chatbot競賽的紀錄。&lt;/p&gt;
-&lt;p&gt;Chabot一直是企業關注的領域，從早期文字QA、多輪對話再到近來的對話式AI，都是要藉自然語言處理（NLP）技術，來提供更接近真人的溝通服務。&lt;/p&gt;
-&lt;p&gt;Amazon舉辦挑戰賽的初衷也是如此。今年的挑戰賽目標，不只要Chatbot達到連貫性、上下文理解、流暢回應，還包括對話時間。今年，所有決賽團隊的平均對話時間為12分42秒，是2020年決賽團隊的2倍以上，更有一組團隊展現良好的對話品質，得到滿分5分肯定。&lt;/p&gt;
-&lt;p&gt;Alexa AI自然語言理解副總Prem Natarajan指出，平均對話時間是一個重要指標，能用來判斷參賽機器人的互動連貫性和流暢度。對話時間能拉長，就表示細部技術大有進展，比如神經回應生成模型（Neural response generation）、常識知識表徵（Common sense knowledge representations）、對話建模、對話策略，以及用大規模Transformer模型強化的自然語言理解系統。這次挑戰賽的成績，顯示了NLP領域研究再次躍進。&lt;a href=&quot;https://www.amazon.science//academic-engagements/czech-technical-university-team-wins-alexa-prize-socialbot-grand-challenge-4&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;div class=&quot;media_embed&quot; height=&quot;516px&quot; width=&quot;918px&quot;&gt;
-&lt;iframe allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;516px&quot; src=&quot;https://www.youtube.com/embed/1Cm36w3GLKw&quot; title=&quot;YouTube video player&quot; width=&quot;918px&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Uber  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;   模型調校 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  機器學習  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;兼顧品質又能減少專家勞力，Uber ML開發平臺靠3大心法高度自動化&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;對Uber來說，機器學習（ML）模型是執行核心業務決策的重要工具。但模型進入生產環境前，得經過實驗階段，仰賴專家探索特徵、調校參數，或執行離線分析、背景測試等等。不過，隨著模型開發工作越多，AI專家人力的需求也越大。如何兼顧模型品質，又能減少對專家勞力的依賴，Uber日前在自家部落格上，接露了自家ML開發平臺米開朗基羅的三大關鍵，透過超參數優化、及早停止、特徵轉換等方法，來提高模型開發的自動化程度。&lt;/p&gt;
-&lt;p&gt;首先，在超參數優化部分，他們用樹狀模型找出已知問題類別的參數，比如針對二元分類問題進行AUC優化、對回歸問題就用MSE優化，也採用目標函數，讓專家針對特定問題，選擇合適的優化目標。為避免過度擬合，Uber在優化函數中加入「懲罰條件」，來捕捉訓練合測試間的表現差異。&lt;/p&gt;
-&lt;p&gt;接著，為加速龐大資料集的超參數搜尋，Uber設計了一項「及早停止」機制，來制止無效的超參數優化。這個機制，能搭配用來評估ML模型表現的學習曲線，來節省無意義的試驗，降低時間和運算成本。&lt;/p&gt;
-&lt;p&gt;最後一項作法，Uber轉換了他們訓練ML模型時常用的地理空間特徵，將經度和緯度轉換為不同的嵌入向量，從中抽取出地理空間訊號。Uber也設計一個自動機制，將主要複合特徵自動併入樹狀模型的訓練，並自動移除重要性較低的複合特徵。&lt;/p&gt;
-&lt;p&gt;不只是這三大機制，Uber米開朗基羅平臺還提供一些輔助工具，來執行重複性高的調校工作，如模型架構搜尋、決定特徵綜效等。整體來說，這些強化機制讓Uber可用單一框架，來一般迭代性的調校工作，也能對已部署的ML模型，進行一次性的全面調校。&lt;a href=&quot;https://eng.uber.com/tuning-model-performance/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/Featured-Image-768x614.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  IIBM  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  數位分身  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  市集  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;IBM布局數位分身服務，打造專屬市集銷售各種實體設備的數位分身&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;IBM不只布局IT、雲端和AI市場，近來也看好數位分身，大推數位分身交換（IBM Digital Exchange）服務，提供了一個線上市集來銷售實體設備的數位分身。&lt;/p&gt;
-&lt;p&gt;主導IBM數位分身研究的IBM傑出工程師Lisa Seacat DeLuca近日&lt;a href=&quot;https://venturebeat.com/2021/08/16/how-ibm-is-using-digital-twins-to-optimize-ai/&quot;&gt;在媒體上透露&lt;/a&gt;，IBM數位分身不只限於一般熟知的工業設備，「只要是能產生數位表徵的物體，都可以建立分身。」她強調，數位分身和AI一體兩面，數位分身能更有效地監控、分享資料，並用這些資料來改善AI模型，同時幫助企業更了解他們的資產。&lt;/p&gt;
-&lt;p&gt;IBM早在去年推出數位分身交換市集，供企業買方和IBM合作夥伴生態系成員交易，IBM合作夥伴可出售故障診斷碼、維護計畫、3D模型及其他與實體物件相關的資料，來讓企業購買。&lt;/p&gt;
-&lt;p&gt;DeLuca指出，這只是數位分身的初步應用，IBM還推出Maximo企業資產管理服務，可進一步搭配數位分身，來預測資產效能、預先維護。&lt;a href=&quot;https://www.ibm.com/products/digital-twin-exchange&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://1.cms.s81c.com/sites/default/files/2021-06/Digital_twin_exchange_overview.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  大型主機 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  AI推論    &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  Telum處理器  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;高頻交易風險運算能更快！IBM發布首款大型主機的AI加速處理器，率先用於金融業&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;還在用大型主機的金融業者有好消息了！IBM日前展示一款自行研發的7奈米處理器Telum，具AI加速運算處理能力，將用於下一代IBM Z大型主機上，來解決銀行詐騙、高頻交易等金融難題。IBM透露，首款採用Telum處理器的IBM系統，將於2022年上半年上市。&lt;/p&gt;
-&lt;p&gt;IBM花了三年時間打造這顆新處理器，未來將由三星生產。IBM指出，金融業者可將訓練好的AI模型打包，部署到採用Telum處理器的IBM系統上，來執行模型推論。如此，就能加速金融AI應用，比如用AI進行金融詐騙偵測、用機器學習加速銀行貸款審核，或是處理高吞吐量的金融交易、反洗錢和風險分析等。&lt;/p&gt;
-&lt;p&gt;目前，臺灣仍有不少大型金融業者的核心系統硬體，採用大型主機，這也將成為Telum處理器搶攻的市場。&lt;a href=&quot;https://www.ibm.com/blogs/systems/ibm-telum-processor-the-next-gen-microprocessor-for-ibm-z-and-ibm-linuxone/&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  VS Code 1.59  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  程式語言  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  機器學習 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;VS Code新版能自動判斷不明檔案中的程式語言！&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;微軟程式碼編輯器VS Code釋出最新1.59版，不只更新圖形介面區域和編輯器，還加入一項預覽功能，能用機器學習技術自動判斷未命名檔案使用的程式語言。&lt;/p&gt;
-&lt;p&gt;這個功能以開源機器學習函式庫Tensorflow.js和社群所貢獻的機器學習模型打造而成。開發者手動啟用該功能後，VS Code就會在撰寫程式的同時偵測語言，並推薦安裝相對應的擴充套件。用戶也可設定對特定語言不啟用自動偵測功能，比如停止自動偵測Markdown無標題檔案等。&lt;a href=&quot;https://code.visualstudio.com/updates/v1_59#_terminal&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://code.visualstudio.com/assets/updates/1_59/terminal-dnd.gif&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  高通  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  無人機平臺  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;  AI引擎  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;高通發表新一代5G AI無人機平臺&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;高通推出全球第一個5G AI無人機平臺Flight RB5 5G，可用來加速各種無人機應用的開發。該平臺具備第5代高通AI引擎，可處理複雜的電腦視覺、感知和自主性功能等任務，比如多目標偵測和追蹤、數位雲臺和立體視野深度，以及路徑規畫、障礙物迴避等功能。&lt;/p&gt;
-&lt;p&gt;另一方面，平臺還具8個QRB5165中央處理器、1個GPU和1個神經處理引擎，還有能捕捉4K和8K解析度影片的攝影鏡頭，可提供電子影像穩定器、水平功能和數位變焦等功能，拍攝出電影品質的影像。而5G和Wi-Fi 6連接能力，能實現長達8公里的可視距離飛行。高通Flight RB5 5G無人機參照設計現在於無人機製造商ModalAI上預售，而開發套件則預計在今年第4季上市。&lt;a href=&quot;https://www.qualcomm.com/news/onq/2021/08/17/qualcomm-flight-rb5-5g-platform-worlds-first-5g-and-ai-enabled-drone-platform&quot;&gt;（詳全文）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://www.qualcomm.com/sites/ember/files/styles/optimize/public/blog/managed-images/qc_onq_flightrb5platform_inline-image.png?itok=8tvgKr4j&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;圖片來源／Amazon、Uber、IBM、微軟、高通&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; AI趨勢近期新聞 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1. 馬斯克描繪特斯拉人形機器人Tesla Bot，預計明年推出原型機&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2. SAP併購AI人力資源平臺SwoopTalent&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3. 史丹佛大學200頁報告詳解超大預訓練模型的優劣和風險&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;資料來源：iThome整理，2021年8月&lt;/p&gt;
-&lt;div id=&quot;gtx-trans&quot; style=&quot;position: absolute; left: 1206px; top: 226.203px;&quot;&gt;
-&lt;div class=&quot;gtx-trans-icon&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 26 Aug 2021 10:21:33 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146407 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146407#comments</comments>
 </item>
 </channel>
 </rss>

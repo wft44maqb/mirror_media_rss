@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-27T05:46:36Z</updated>
+ <updated>2021-08-27T09:26:55Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58998493</id>
+  <title><![CDATA[美民调：过半数美国人支持派军防台 逾六成视中国为威胁]]></title>
+  <updated>2021-08-27T07:48:00Z</updated>
+  <published>2021-08-27T07:48:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美民调：过半数美国人支持派军防台-逾六成视中国为威胁/a-58998493?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[一间美国智库26日发布一项民调，显示有超过一半的受访者支持美国在中国武力犯台时，派军支持台湾，也有将近七成的民众支持美国政府承认台湾为独立国家。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58997968</id>
+  <title><![CDATA[世卫首次发送中国疫苗  南非不想要]]></title>
+  <updated>2021-08-27T06:31:00Z</updated>
+  <published>2021-08-27T06:31:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/世卫首次发送中国疫苗-南非不想要/a-58997968?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[COVAX全球疫苗共享计划因为疫情引发的生产国出口限制而让疫苗数迟迟无法到位，现在世卫要送1亿剂中国疫苗，却有非洲国家说不要，为什么？]]></summary>
+  <category term="科技环境"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58997753</id>
   <title><![CDATA[台湾国防预算创新高 但增幅并无显着提升]]></title>
@@ -26,13 +46,12 @@
  </entry>
  <entry>
   <id>tag:dw.com,2021:58997025</id>
-  <title><![CDATA[拜登誓言追捕爆炸案主谋 联合国发起阿富汗会议]]></title>
+  <title><![CDATA[拜登：我们将追捕你们，让你们付出代价]]></title>
   <updated>2021-08-27T01:53:00Z</updated>
   <published>2021-08-27T01:53:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/拜登誓言追捕爆炸案主谋-联合国发起阿富汗会议/a-58997025?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国总统拜登8月26日誓言追捕在阿富汗喀布尔机场附近发动两起爆炸事件的幕後主使者，
-并要求美国国防部制定相关反击计画。与此同时，美军代表坦承，可能会有更多类似事件发生。]]></summary>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/拜登：我们将追捕你们，让你们付出代价/a-58997025?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[26日在喀布尔机场附近发生的两起自杀式爆炸袭击案已经共造成至少95人死亡，其中13名美国军人丧生。美国总统拜登8月26日誓言追捕恐怖袭击者，并要求五角大楼制定相关反击计画。与此同时，美军代表坦承，可能会有更多类似事件发生。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -86,16 +105,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58991668</id>
-  <title><![CDATA[日本自民党9月底选举新一届党魁]]></title>
-  <updated>2021-08-26T12:43:00Z</updated>
-  <published>2021-08-26T12:43:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/日本自民党9月底选举新一届党魁/a-58991668?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[日本共同社报道称，今天日本自民党在总裁选举管理委员会会议上敲定下一届党魁选举投票时间为9月29日。路透社指出，当前日本正面临着最严重的一波疫情感染，首相菅义伟的支持率已降至30%以下。自民党政务调查委员会前会长岸田文雄宣布参选自民党总裁，与菅义伟再次对决。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58991784</id>
   <title><![CDATA[德政府囤积疫苗计划遭批“自私短视”]]></title>
   <updated>2021-08-26T12:43:00Z</updated>
@@ -104,6 +113,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德政府囤积疫苗计划遭批-自私短视/a-58991784?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[由于新增病例逐日攀升，罗伯特科赫研究所指出，德国已经处于第四波疫情的初期。与此同时，政府有关贮备疫苗以备不时之需的计划则遭到专家们的批评和反对。]]></summary>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58991668</id>
+  <title><![CDATA[日本自民党9月底选举新一届党魁]]></title>
+  <updated>2021-08-26T12:43:00Z</updated>
+  <published>2021-08-26T12:43:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/日本自民党9月底选举新一届党魁/a-58991668?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[日本共同社报道称，今天日本自民党在总裁选举管理委员会会议上敲定下一届党魁选举投票时间为9月29日。路透社指出，当前日本正面临着最严重的一波疫情感染，首相菅义伟的支持率已降至30%以下。自民党政务调查委员会前会长岸田文雄宣布参选自民党总裁，与菅义伟再次对决。]]></summary>
+  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58989597</id>
@@ -213,16 +232,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/习近平、普京通电话：中俄将在阿富汗问题上加强合作/a-58980192?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中俄两国领导人周三（8月25日）通电话，就阿富汗局势交换意见，表达了加强两国合作的意愿。 ]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58979841</id>
-  <title><![CDATA[留在墨西哥：拜登移民政策受挫]]></title>
-  <updated>2021-08-25T11:44:00Z</updated>
-  <published>2021-08-25T11:44:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/留在墨西哥：拜登移民政策受挫/a-58979841?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国最高法院当地时间周二（8月24日）裁定，“留在墨西哥”政策不得推翻。该政策由前总统特朗普制定，意在缓解大量中美洲寻求庇护者无序入境难题。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -356,16 +365,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58897772</id>
-  <title><![CDATA[东欧国家认清了中国投资？]]></title>
-  <updated>2021-08-22T07:19:00Z</updated>
-  <published>2021-08-22T07:19:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东欧国家认清了中国投资？/a-58897772?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国希望在中东欧扩大其影响力。在欧盟东翼，有人呼吁抵制中国的“腐蚀性资本”，但也有人并未看到威胁。]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58888640</id>
   <title><![CDATA[打动人心是扩大疫苗接种的制胜法宝？]]></title>
   <updated>2021-08-22T07:19:00Z</updated>
@@ -374,6 +373,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
   <category term="科技环境"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58897772</id>
+  <title><![CDATA[东欧国家认清了中国投资？]]></title>
+  <updated>2021-08-22T07:19:00Z</updated>
+  <published>2021-08-22T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/东欧国家认清了中国投资？/a-58897772?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国希望在中东欧扩大其影响力。在欧盟东翼，有人呼吁抵制中国的“腐蚀性资本”，但也有人并未看到威胁。]]></summary>
+  <category term="经济纵横"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58944458</id>
@@ -434,16 +443,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/北京意外推迟表决《反外国制裁法》在港实施/a-58919548?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[此前，外界普遍预期，中国全国人大常委会本周将表决通过将《反外国制裁法》纳入香港基本法附件。不过本周五传出消息，人大推迟了相关表决。]]></summary>
   <category term="经济纵横"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58918191</id>
-  <title><![CDATA[德国新冠疫情进入第四波]]></title>
-  <updated>2021-08-20T09:41:00Z</updated>
-  <published>2021-08-20T09:41:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国新冠疫情进入第四波/a-58918191?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[德国联邦疾控研究中心罗伯特·科赫研究所（RKI）称，德国已经明显开始了第四波新冠疫情，年轻人群受到影响尤其严重。]]></summary>
-  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58895283</id>
@@ -581,15 +580,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -597,6 +587,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>

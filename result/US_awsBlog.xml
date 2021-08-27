@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Wed, 25 Aug 2021 03:16:09 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 27 Aug 2021 06:46:01 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,6 +13,322 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>使用 AWS Backup Audit Manager 监控、评估和证明备份合规性</title>
+		<link>https://aws.amazon.com/cn/blogs/china/monitor-evaluate-and-demonstrate-backup-compliance-with-aws-backup-audit-manager/</link>
+				<pubDate>Fri, 27 Aug 2021 06:46:01 +0000</pubDate>
+		<dc:creator><![CDATA[Steve Roberts]]></dc:creator>
+				<category><![CDATA[Security, Identity, & Compliance]]></category>
+
+		<guid isPermaLink="false">706a282d09cd87aa5e8c3dbb3bc555d58a002413</guid>
+				<description>今天，我很高兴地宣布推出 AWS Backup Audit Manager，它是 AWS Backup 的一项新功能，可帮助您监控和评估备份的合规性状态，以满足业务和法规要求，并使您能够生成有助于向审计员和监管机构证明合规性的报告。</description>
+								<content:encoded>&lt;p&gt;今天，我很高兴地宣布推出 &lt;strong&gt;&lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager&lt;/strong&gt;，它是 &lt;strong&gt;&lt;a title="" href="https://aws.amazon.com/backup/"&gt;AWS Backup&lt;/a&gt;&lt;/strong&gt; 的一项新功能，可帮助您监控和评估备份的合规性状态，以满足业务和法规要求，并使您能够生成有助于向审计员和监管机构证明合规性的报告。&lt;/p&gt; 
+&lt;p&gt;&lt;span title=""&gt;AWS Backup&lt;/span&gt; 是一项完全托管式服务，可启动策略驱动的 &lt;span title=""&gt;AWS&lt;/span&gt; 应用程序备份和恢复，能够简化大规模保护数据的流程，而无需自定义脚本和手动流程。但是，客户仍需使用自己的工具来验证备份策略是否得到执行，而且为了向审计员证明合规性，还需要解析备份记录，将其转换为可审计的报告。&lt;/p&gt; 
+&lt;p&gt;现在，您可以通过 &lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager 持续自动地跟踪备份活动，例如备份计划或备份保管库的变更，并自动生成每日报告。&lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager 内置了可自定义的合规性控件。简而言之，控件是具有备份策略参数（例如备份频率或保留期）的过程，这些参数与您的业务合规性和法规要求保持一致。&lt;/p&gt; 
+&lt;p&gt;您可以创建一个框架，以账户和区域为范围，然后向其添加所需的控件。根据控件跟踪备份活动，自动检测违反定义的数据保护策略的情况，使您能够快速采取纠正措施。为跟踪备份活动，&lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager 要求您通过 &lt;a title="" href="https://aws.amazon.com/config/"&gt;AWS Config&lt;/a&gt; 监控备份计划（&lt;code&gt;AWS። Backup። BackupPlan&lt;/code&gt; 资料类型）、备份选择（&lt;code&gt;AWS። Backup። BackupSelection&lt;/code&gt;）、保管库（&lt;code&gt;AWS። Backup። BackupVault&lt;/code&gt;）、恢复点（&lt;code&gt;AWS። Backup። RecoveryPoint&lt;/code&gt;）和&lt;span title=""&gt; AWS Config&lt;/span&gt; 资源合规性（&lt;code&gt;AWS::Config::ResourceCompliance&lt;/code&gt;）。您可以使用&lt;strong&gt;框架&lt;/strong&gt;页面的&lt;strong&gt;资源跟踪&lt;/strong&gt;部分，在 &lt;a title="" href="https://aws.amazon.com/backup/"&gt;AWS Backup&lt;/a&gt; 控制台中查看这些资源的记录状态。&lt;/p&gt; 
+&lt;p&gt;将所需的控件添加到框架后，就可以进行部署。如果要满足不同的内部或监管标准，可以创建和部署其他控件框架。部署框架后，您可以设置自动生成备份活动的每日报告。这些信息将显示在控制面板中，您需要时可随时请求报告。您还可以将结果导入 &lt;a title="AWS Audit Manager" href="https://aws.amazon.com/audit-manager/"&gt; 中&lt;/a&gt;，这是我于 &lt;a title="" href="https://reinvent.awsevents.com/"&gt;AWS re:Invent&lt;/a&gt; 2020 大会期间&lt;a href="https://aws.amazon.com/blogs/aws/aws-audit-manager-simplifies-audit-preparation/" target="_blank" rel="noopener noreferrer"&gt;在此新闻博客文章&lt;/a&gt;中介绍过的一项服务。&lt;/p&gt; 
+&lt;p&gt;此短视频简要概述了新的&lt;span title=""&gt; AWS Backup&lt;/span&gt; Audit Manager 功能。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;可用的控件和备份报告&lt;br /&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager 提供了五种备份治理控件模板和备份活动报告，涵盖备份任务、复制任务和还原任务。这些报告提高了对单个账户和区域备份活动的可见性，帮助您监控运营状况并确定可能需要采取进一步行动的故障。&lt;/p&gt; 
+&lt;p&gt;创建框架时，您需要提供名称、可选描述，然后选择是否使用提供的 &lt;span title=""&gt;AWS Backup&lt;/span&gt; 框架类型（包括五个预定义控件），也可以选择自定义框架。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-create-framework.png"&gt;&lt;img class="alignnone size-full wp-image-54157" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-create-framework.png" alt="创建 AWS Backup Audit Manager 框架" width="900" height="564" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;选择&lt;strong&gt;自定义框架&lt;/strong&gt;将展开面板，显示可用控件、它们的参数以及将它们纳入框架或从框架中排除的选项。五种可用控件的标题分别是：&lt;strong&gt;受备份计划保护的备份资源&lt;/strong&gt;、&lt;strong&gt;备份计划最低频率和最低保留期&lt;/strong&gt;、&lt;strong&gt;备份以防恢复点手动删除&lt;/strong&gt;、&lt;strong&gt;加密的备份恢复点&lt;/strong&gt;和&lt;strong&gt;备份恢复点最短保留期限&lt;/strong&gt;。在每个控件标题的右侧，您将找到一个&lt;strong&gt;信息&lt;/strong&gt;链接，描述了控件评估的内容、频率以及资源符合控件的含义。&lt;/p&gt; 
+&lt;p&gt;让我们来看看几个控件。&lt;strong&gt;受备份计划保护的备份资源&lt;/strong&gt;控件使您可以选择所有受支持的资源，或者由标签、类型或特定资源识别的资源。此控件有助于识别备份覆盖范围中的缺口。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-backup-resoures-control.png"&gt;&lt;img class="size-full wp-image-54158 aligncenter" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-backup-resoures-control.png" alt="受备份计划保护的备份资源控制资源选择" width="755" height="562" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;备份计划最低频率和最低保留期&lt;/strong&gt;控件包含的参数决定了备份计划的备份频率以及恢复点的维持时间。原定设置要求每小时进行一次备份，恢复点应保留一个月，但您可以自定义设置，以满足业务合规性要求。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-backup-frequency-control.png"&gt;&lt;img class="size-full wp-image-54159 aligncenter" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-backup-frequency-control.png" alt="设置备份频率和保留期控件" width="768" height="421" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;完成关于其余控件的选择，纳入控件并根据需要设置适当的参数值，或者将它们从框架中排除，然后单击&lt;strong&gt;创建框架&lt;/strong&gt;来完成这个过程。将创建和部署新框架，这需要几分钟的时间。如果需要，您随时可以返回并编辑框架中的控件和参数。&lt;/p&gt; 
+&lt;p&gt;部署后，框架中的控件将开始评估合规性，您可以通过选择框架在控制台中检查合规性状态。摘要部分根据您部署的控制定义，报告框架的总体合规性状态以及框架中合规或不合规控件的数量。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-framework-compliance-summary.png"&gt;&lt;img class="size-full wp-image-54162 aligncenter" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-framework-compliance-summary.png" alt="框架和控件合规性摘要" width="909" height="325" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;您可以在摘要下方找到一份列表，其中包含框架中每个控件的合规性详细信息，可以按状态筛选。每个控件都详细说明了它是否合规，以及控件所监控的不合规资源的数量。单击控件标题将直接转到&lt;span title=""&gt; AWS Config&lt;/span&gt; 控制面板，您可以查看有关控件标识的资源的更多详细信息。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-framework-control-compliance.png"&gt;&lt;img class="alignnone size-full wp-image-54163" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-framework-control-compliance.png" alt="控件合规性详情" width="910" height="612" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;自动生成的备份活动报告可用于向审计员和监管机构证明合规性。要设置报告，首先单击导航工具栏上的&lt;strong&gt;报告&lt;/strong&gt;条目，然后单击&lt;strong&gt;创建报告计划&lt;/strong&gt;。系统将要求您选择报告模板。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-reports-template.png"&gt;&lt;img class="alignnone size-full wp-image-54169" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-reports-template.png" alt="选择审计报告模板" width="884" height="543" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;选择模板（我选择了&lt;strong&gt;备份任务报告&lt;/strong&gt;）后，您可以填写名称和可选描述，选择要将报告传送到 &lt;a title="" href="https://aws.amazon.com/s3/"&gt;Amazon Simple Storage Service (Amazon S3)&lt;/a&gt; 存储桶的哪个位置以及报告的文件格式，然后单击&lt;strong&gt;创建报告计划&lt;/strong&gt;。报告将每 24 小时更新一次，您随时可以按需运行报告。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-settings.png"&gt;&lt;img class="alignnone size-full wp-image-54171" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-settings.png" alt="编辑报告设置" width="861" height="1097" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;自动或按需运行报告后，要查看报告数据，可以在&lt;strong&gt;报告计划&lt;/strong&gt;列表中选择报告，然后单击&lt;strong&gt;查看报告&lt;/strong&gt;。 将直接转到选定的报告文件的&lt;span title=""&gt; S3&lt;/span&gt; 位置，您可以按所选的文件类型查看一个对象（报告）。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-reports-list.png"&gt;&lt;img class="alignnone size-full wp-image-54172" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-reports-list.png" alt="选择要查看的报告" width="901" height="466" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-files.png"&gt;&lt;img class="alignnone size-full wp-image-54173" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-files.png" alt="Amazon S3 中的报告文件" width="901" height="378" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;下载文件会显示资源评估的时间段、备份任务详细信息、故障或完成状态、状态消息、资源类型和备份计划等。下面，我在电子表格中打开了 CSV 格式文件。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-csv.png"&gt;&lt;img class="alignnone size-full wp-image-54174" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-csv.png" alt="备份报告数据" width="899" height="180" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;span style="text-decoration: underline"&gt;与 Raven Launch 建立合作伙伴关系&lt;/span&gt;&lt;br /&gt; &lt;/strong&gt;通过此次发布，我们很高兴&lt;a href="https://aws.amazon.com/marketplace/pp/prodview-2yil74chd7ihg?ref_=srh_res_product_title" target="_blank" rel="noopener noreferrer"&gt; Open Raven&lt;/a&gt; 成为&lt;span title=""&gt; AWS Backup&lt;/span&gt; 的合作伙伴。Open Raven 是一个云原生数据安全平台，专为保护现代数据湖和仓库而构建。通过从查找所有数据位置到主动识别暴露的各种方法，该平台可解决组织在使用大量基于云的数据时通常会面临的各种问题。&lt;/p&gt; 
+&lt;p&gt;Open Raven 首席技术官 Mark Curphey 谈到了新的&lt;span title=""&gt; AWS Backup&lt;/span&gt; 功能：“要成功地从勒索软件攻击中恢复，组织需要完成两项基础任务来提前规划，即确定关键数据和系统并根据组织要求对它们进行备份，使它们得到保护且能够恢复。&lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager 与 Open Raven 的结合简化了这项工作，消除了猜测和数小时的手动工作。”&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;立即开始使用&lt;span title=""&gt; AWS Backup&lt;/span&gt; Audit Manager&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; &lt;a title="" href="https://aws.amazon.com/backup/"&gt;AWS Backup&lt;/a&gt; Audit Manager 现已在美国东部（弗吉尼亚北部、俄亥俄州）、美国西部（加利福尼亚北部、俄勒冈）、加拿大（中部）、欧洲（法兰克福、爱尔兰、伦敦、巴黎、斯德哥尔摩）、南美洲（圣保罗）、亚太地区（香港、孟买、首尔、新加坡、 悉尼、东京) 和中东（巴林）地区推出。&lt;/p&gt; 
+&lt;p&gt;有关 &lt;span title=""&gt;Backup&lt;/span&gt; Audit Manager 的更多信息，请参阅&lt;span title=""&gt; AWS Backup&lt;/span&gt;&lt;a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/" target="_blank" rel="noopener noreferrer"&gt; 开发人员指南&lt;/a&gt;中的&lt;a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/aws-backup-audit-manager.html" target="_blank" rel="noopener noreferrer"&gt;此部分&lt;/a&gt;。&lt;strong&gt;要开始使用，请访问&lt;a href="https://console.aws.amazon.com/backup"&gt;&lt;span title=""&gt; AWS Backup&lt;/span&gt; 控制台。&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a title="Steve 的 Twitter" href="https://twitter.com/bellevuesteve"&gt; – Steve&lt;/a&gt;&lt;/p&gt;</content:encoded>
+										</item>
+		<item>
+		<title>Amazon EC2！15 岁生日快乐！</title>
+		<link>https://aws.amazon.com/cn/blogs/china/happy-15th-birthday-amazon-ec2/</link>
+				<pubDate>Fri, 27 Aug 2021 06:37:53 +0000</pubDate>
+		<dc:creator><![CDATA[Jeff Barr]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">8278615799a7821a1b794611f1bd4a139c2db943</guid>
+				<description>十五年前的今天，我通过博文宣布发布 Amazon EC2 测试版。我记得，那时发布迫在眉睫，我们还在努力敲定功能集、定价模式和无数其他细节。最终确定了发布日期，但时间恰好与我计划已久的前往墨西哥卡波圣卢卡斯的家庭旅行重叠。但我很淡定，选择带上了手提电脑去度假，记得在撰写博文时，还不得不用毛巾盖住手提电脑，因为只有这样才能看清楚屏幕。我不是 100% 确定，但我相信我是在坐在泳池旁边的躺椅上点击发布按钮的！ 在那个星期剩下的时间里，我都处于离线状态，完全不知道这次发布引起了怎样的轰动。</description>
+								<content:encoded>&lt;p&gt;&lt;img style="float: right;margin-left: 8px;margin-bottom: 8px" src="https://media.amazonwebservices.com/blog/2021/ec2_15_1.png" /&gt;十五年前的今天，我通过博文宣布发布 &lt;a href="https://aws.amazon.com/blogs/aws/amazon_ec2_beta/"&gt;Amazon EC2 测试版&lt;/a&gt;。我记得，那时发布迫在眉睫，我们还在努力敲定功能集、定价模式和无数其他细节。最终确定了发布日期，但时间恰好与我计划已久的前往墨西哥卡波圣卢卡斯的家庭旅行重叠。但我很淡定，选择带上了手提电脑去度假，记得在撰写博文时，还不得不用毛巾盖住手提电脑，因为只有这样才能看清楚屏幕。我不是 100% 确定，但我相信我是在坐在泳池旁边的躺椅上点击&lt;strong&gt;发布&lt;/strong&gt;按钮的！ 在那个星期剩下的时间里，我都处于离线状态，完全不知道这次发布引起了怎样的轰动。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;准备发布&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 在 Andy Jassy 组建这个 AWS 小组，并开始撰写叙述的时候，他给我看了一份文档，其中提议打造 Amazon Execution Service，并询问我，开发人员是否会觉得有用，以及他们是否愿意为它付费。我饶有兴趣地阅读了这份文档，阅毕很是欢欣鼓舞，对他的两个问题的回答都是肯定的。在职业生涯的早期，我曾构建并运行过多个托管在主机托管站点的项目，对于长期合约和难以按需扩展再熟悉不过了。提议的服务将解决这两个基本问题，并能够让像我这样的开发人员更容易应对需求的大幅波动。&lt;/p&gt; 
+&lt;p&gt;EC2 团队必须做出大量决策，才能构建可满足开发人员、企业家和更大组织需求的服务。虽然我不参与决策，但在我看来，他们至少需要在三个主要方面做出决策：功能、定价和详细程度。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;功能&lt;/strong&gt; – 让我们首先回顾 EC2 发布时提供的功能。当时只有一种实例类型，一个区域（&lt;span title=""&gt;美国东部（弗吉尼亚北部）&lt;/span&gt;），并且我们还没有公开可用区的概念。只有为数不多的预构建 Linux 内核可供选择，并在实例启动时分配 IP 地址。所有存储都是暂时的，并且与实例具有相同的生命周期。没有数据块存储，根磁盘镜像 (AMI) 存储在 S3 捆绑中。现在看来，这些功能中的任何一个或所有功能都是发布时所必须提供的，但事实上并没有，而我们的客户马上就开始使用 EC2 了。多年来，我已经采用这样的策略，即创建最小但有用的服务，这使我们能够快速发布并快速迭代（以及添加新功能）以响应客户的反馈。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;定价&lt;/strong&gt; – 我们肯定是要对 EC2 的使用收费，但要决定收费依据的单位并不容易。最终，我们确定按实例小时数收费。与直接购买服务器并在 3 或 5 年期限内折旧，或作为年度合约的一部分每月支付的旧模式相比，这是向前迈出的一大步。即便如此，我们的客户仍有可以从更精细计费方式受益的使用案例，因此我们在 2017 年&lt;a href="https://aws.amazon.com/blogs/aws/new-per-second-billing-for-ec2-instances-and-ebs-volumes/"&gt;针对 EC2 和 EBS 推出了按秒计费&lt;/a&gt;的方式。在背后，AWS 团队还必须构建基础设施，来对客户的使用情况进行测量、跟踪、制表和计费。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;详细程度&lt;/strong&gt; – 这可能不像前两个那么显而易见，但这是我在撰写博文时经常考虑的问题。在发布时，我分享了一个事实，即 EC2 实例（我们后来称为 &lt;strong&gt;m1.small&lt;/strong&gt;）提供了相当于 1.7 GHz Intel Xeon 处理器的计算能力，但我并没有分享实际型号或其他细节。我分享了我们在 &lt;a href="https://www.cl.cam.ac.uk/research/srg/netos/projects/archive/xen/"&gt;Xen&lt;/a&gt; 上构建 EC2 的事实。随着时间的推移，客户告诉我们他们想利用一些专门的处理器功能，因此，我们开始分享这些信息。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;一些令人难忘的 EC2 发布&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 回顾过去的 15 年，我认为我们做对了很多事情，我们也为该服务的发展留下了很大的空间。每一次发布都很重要，但这里我说说让我记忆犹新的几次：&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://aws.amazon.com/blogs/aws/amazon_ec2_beta/"&gt;EC2 发布&lt;/a&gt;（2006年）&lt;/strong&gt; – 这是一切的开始。早期较为重要的扩展成功案例之一发生在 2008 年初，当时 &lt;a href="https://animoto.com/"&gt;Animoto&lt;/a&gt; 在一周内将其使用量从不到 100 个实例扩展到了 3400 个实例（请阅读 &lt;a href="https://aws.amazon.com/blogs/aws/animoto-scali/"&gt;Animoto – 通过爆炸式增长进行扩展&lt;/a&gt;以获取完整故事）。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://aws.amazon.com/blogs/aws/amazon-elastic/"&gt;Amazon Elastic Block Store&lt;/a&gt;（2008 年）&lt;/strong&gt; – 此次发布使我们的客户能够将 EC2 和持久性数据块存储结合使用。如果您看一看那篇文章，您会看到曾经流行的适用于 Firefox 的扩展 ElasticFox 的一些历史屏幕截图。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://aws.amazon.com/blogs/aws/new-aws-load-balancing-automatic-scaling-and-cloud-monitoring-services/"&gt;Elastic Load Balancing/Auto Scaling/CloudWatch&lt;/a&gt;（2009 年）&lt;/strong&gt; – 此次发布使我们的客户能够更轻松地构建可扩展且高度可用的应用程序。引用我自己的话，“Amazon CloudWatch 可监控 Amazon EC2 容量，Auto Scaling 可根据需求动态扩展它，而 Elastic Load Balancing 可在一个或多个可用区中的多个实例之间分配负载。”&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://aws.amazon.com/blogs/aws/introducing-amazon-virtual-private-cloud-vpc/"&gt;Virtual Private Cloud/VPC&lt;/a&gt;（2009 年）&lt;/strong&gt; – 此次发布使我们的客户能够创建逻辑隔离的 EC2 实例集，并通过 IPsec VPN 连接将它们连接到现有网络。它为我们的客户提供了对网络寻址和路由的额外控制，并为未来几年许多额外的联网功能打开了大门。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://aws.amazon.com/blogs/aws/amazon-ec2-update-additional-instance-types-nitro-system-and-cpu-options/"&gt;Nitro 系统&lt;/a&gt;（2017 年）&lt;/strong&gt; – 多年来，我们一直努力重新构想和重建我们的虚拟化基础架构，以追求更高的性能和安全性，此次发布是我们多年工作的结晶（&lt;a href="https://aws.amazon.com/ec2/nitro/"&gt;阅读更多内容&lt;/a&gt;）。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://aws.amazon.com/blogs/aws/new-ec2-instances-a1-powered-by-arm-based-aws-graviton-processors/"&gt;Graviton&lt;/a&gt;（2018 年）&lt;/strong&gt; – 此次发布标志着 Amazon 设计的定制 CPU 的诞生，这些 CPU 专为成本敏感的横向扩展工作负载而设计。自那次发布以来，我们继续在这条进化路线上前进，推出采用 Graviton2 处理器的通用型、计算优化、内存优化和可突增实例。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://aws.amazon.com/ec2/instance-types/"&gt;实例类型&lt;/a&gt;（2006 年至今）&lt;/strong&gt; – 在发布之初，我们只提供一种实例类型，而如今则提供超过四百种实例类型，每一种都旨在让我们的客户能够满足特定使用案例的需求。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;与我们一同庆祝&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 为了庆祝过去 15 年来我们在客户身上看到的令人难以置信的创新，我们将于 8 月 23 日至 24 日举办一场&lt;a href="https://aws.amazon.com/ec2/15th-birthday-event/"&gt;为期两天的现场活动&lt;/a&gt;，涵盖一系列主题。我们将于太平洋夏令时间今天上午 9 点拉开此次活动的序幕，届时 Amazon EC2 副总裁 Dave Brown 将发表主题演讲“15 年创新的经验教训”。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;活动日程&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;table style="border: 2px solid black;border-collapse: collapse;margin-left: auto;margin-right: auto"&gt; 
+ &lt;tbody&gt; 
+  &lt;tr style="border-bottom: 1px solid black;background-color: #e0e0e0"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px;width: 50%"&gt;&lt;strong&gt;8 月 23 日&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;&lt;strong&gt;8 月 24 日&lt;/strong&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;15 年创新的经验教训&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;AWS 无所不在：关于混合云的炉边谈话&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;AWS 芯片创新 15 年&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;深入了解真实世界的 AWS 混合示例&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;为正确的工作负载选择正确的实例&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;AWS Outposts：扩展 AWS 本地部署以获得真正一致的混合体验&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;针对成本和容量优化计算&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;使用混合连接解决方案将您的网络连接到 AWS&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;Amazon Virtual Private Cloud 的演变&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;在 AWS 上加速 ADAS 和自驾车的开发&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;使用 AWS ML 基础设施服务加速 AI/ML 创新&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;使用 AWS ML 芯片加速 AI/ML 的采用&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr style="border-bottom: 1px solid black"&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;使用机器学习和 HPC 加速产品设计&lt;/td&gt; 
+   &lt;td style="border-right: 1px solid black;padding: 4px"&gt;数字孪生：连接物理与数字世界&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/tbody&gt; 
+&lt;/table&gt; 
+&lt;p&gt;&lt;a href="https://aws.amazon.com/ec2/15th-birthday-event/"&gt;在此处注册&lt;/a&gt;并在太平洋时间上午 9 点加入我们，以了解有关 EC2 的更多信息，并与我们一起庆祝吧！&lt;/p&gt; 
+&lt;p&gt;— &lt;a href="https://twitter.com/jeffbarr"&gt;Jeff&lt;/a&gt;&lt;/p&gt;</content:encoded>
+										</item>
+		<item>
+		<title>推出 Amazon MemoryDB for Redis — 一款与 Redisis 兼容、持久的内存数据库服务</title>
+		<link>https://aws.amazon.com/cn/blogs/china/introducing-amazon-memorydb-for-redis-a-redis-compatible-durable-in-memory-database-service/</link>
+				<pubDate>Fri, 27 Aug 2021 06:31:31 +0000</pubDate>
+		<dc:creator><![CDATA[Danilo Poccia]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">e53b0dca6f1ce3aa74c21432627cdb39a7339673</guid>
+				<description>交互式应用程序需要非常快速地处理请求并做出响应，这一要求延伸到架构的所有组件。如果您采用了微服务，并且您的架构由许多相互通信的小型独立服务组成，这一点就更加重要了。</description>
+								<content:encoded>&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;交互式应用程序需要非常快速地处理请求并做出响应，这一要求延伸到架构的所有组件。如果您采用了微服务，并且您的架构由许多相互通信的小型独立服务组成，这一点就更加重要了。&lt;/p&gt; 
+&lt;p&gt;因此，数据库性能对应用程序的成功至关重要。为了将读取延迟减少到微秒，可以在持久数据库之前放置内存缓存。在缓存方面，许多开发人员使用&lt;a href="https://redis.io/"&gt; Redis&lt;/a&gt;，它是一种开源的内存数据结构存储。事实上，根据&lt;a href="https://insights.stackoverflow.com/survey/2021#section-most-loved-dreaded-and-wanted-databases"&gt; Stack Overflow 2021 年开发者调查&lt;/a&gt;，Redis 是五年来最受喜爱的数据库。&lt;/p&gt; 
+&lt;p&gt;要在 AWS 上实施此设置，您可以使用&lt;a href="https://aws.amazon.com/elasticache/redis/"&gt; Amazon ElastiCache for Redis&lt;/a&gt;，它是一项完全托管式内存缓存服务，提供了持久数据库服务（如&lt;a title="" href="https://aws.amazon.com/rds/aurora/"&gt; Amazon Aurora&lt;/a&gt; 或&lt;a title="" href="https://aws.amazon.com/dynamodb/"&gt; Amazon DynamoDB&lt;/a&gt;）之前的低延迟缓存，可最大限度地减少数据丢失。但是，此设置要求您在应用程序中引入自定义代码，使缓存与数据库保持同步。此外，运行缓存和数据库会产生费用。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;推出 Amazon MemoryDB for Redis&lt;br /&gt; &lt;/strong&gt;&lt;/span&gt;今天，我很高兴地宣布正式发布&lt;a href="https://aws.amazon.com/memorydb"&gt; Amazon MemoryDB for Redis&lt;/a&gt;，它是一款新的与 Redis 兼容、持久的内存数据库。MemoryDB 让您可以轻松且经济高效地构建需要&lt;strong&gt;微秒读取&lt;/strong&gt;和&lt;strong&gt;个位数毫秒写入&lt;/strong&gt;性能且具备&lt;strong&gt;数据持久性&lt;/strong&gt;和&lt;strong&gt;高可用性&lt;/strong&gt;的应用程序。&lt;/p&gt; 
+&lt;p&gt;现在，您可以简化架构并将 MemoryDB 作为单一的&lt;strong&gt;主数据库&lt;/strong&gt;，而无需在持久数据库之前使用低延迟缓存。使用 MemoryDB 之后，所有数据都存储在内存中，从而实现低延迟和高吞吐量的数据访问。MemoryDB 使用跨多个&lt;a href="https://aws.amazon.com/about-aws/global-infrastructure/regions_az/#Availability_Zones"&gt;可用区 (AZ)&lt;/a&gt; 存储数据的分布式&lt;a href="https://en.wikipedia.org/wiki/Transaction_log"&gt;事务日志&lt;/a&gt;，可实现高持久性的快速故障转移、数据库恢复和节点重启。&lt;/p&gt; 
+&lt;p&gt;MemoryDB 维持与开源 Redis 的兼容性，并支持您熟悉的同一组 Redis 数据类型、参数和命令。这意味着您目前与开源 Redis 一起使用的代码、应用程序、驱动程序和工具可以与 MemoryDB 一起使用。作为开发人员，您可以立即访问许多数据结构，例如字符串、哈希、列表、集合、包含范围查询的排序集合、位图、&lt;a href="https://en.wikipedia.org/wiki/HyperLogLog"&gt;超日志&lt;/a&gt;、地理空间索引和流。您还可以访问高级功能，例如内置复制、最近最少使用 (LRU) 的移出、事务和自动分区。MemoryDB 与 Redis 6.2 兼容，并将支持在开源中发布的较新版本。&lt;/p&gt; 
+&lt;p&gt;此时，您可能有一个疑问，即 MemoryDB 与 ElastiCache 相比如何，因为这两种服务都可以让您访问 Redis 数据结构和 API：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="padding-bottom: 0.5em"&gt;MemoryDB 可成为应用程序的安全的主数据库，因为它提供了数据持久性、微秒读取和个位数毫秒写入延迟。MemoryDB 使您无需在数据库之前添加缓存，即可实现交互式应用程序和微服务架构所需的低延迟。&lt;/li&gt; 
+ &lt;li&gt;另一方面，ElastiCache 为读取和写入提供了微秒延迟。它非常适合用于缓存您希望加快从现有数据库访问数据的工作负载。对于可能接受数据丢失的用例（例如，您可以从另一个源快速重建数据库），ElastiCache 也可用作主数据存储。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;创建 Amazon MemoryDB 集群&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 在&lt;a href="https://console.aws.amazon.com/memorydb/home"&gt; MemoryDB 控制台&lt;/a&gt;中，我使用左侧导航窗格中的链接转到&lt;strong&gt;集群&lt;/strong&gt;部分，然后选择&lt;strong&gt;创建集群&lt;/strong&gt;。这将打开&lt;strong&gt;集群设置&lt;/strong&gt;，我在其中输入集群的名称和描述。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-create-cluster.png"&gt;&lt;img class="aligncenter size-large wp-image-53887" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-create-cluster-1024x752.png" alt="控制台屏幕截图。" width="1024" height="752" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;所有 MemoryDB 集群都在&lt;a href="https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html#how-it-works-subnet"&gt;虚拟私有云 (VPC)&lt;/a&gt; 中运行。在&lt;strong&gt;子网组&lt;/strong&gt;中，我选择我的一个 VPC 并提供子网列表（集群将使用此列表分配其节点），从而创建子网组。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-subnet-group-vpc.png"&gt;&lt;img class="aligncenter size-large wp-image-53889" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-subnet-group-vpc-1024x568.png" alt="控制台屏幕截图。" width="1024" height="568" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在&lt;strong&gt;集群设置&lt;/strong&gt;中，我可以更改网络端口、控制节点和集群的运行时属性的参数组、节点类型、分片数量以及每个分片的副本数量。存储在集群中的数据在分片之间进行分区。分片数量和每个分片的副本数量决定了我的集群中的节点数量。考虑到每个分片都有一个主节点及其副本，我预计这个集群将有八个节点。&lt;/p&gt; 
+&lt;p&gt;为实现&lt;strong&gt;与 Redis 版本的兼容性&lt;/strong&gt;，我选择 6.2。我将所有其他选项保留为默认值，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-cluster-settings.png"&gt;&lt;img class="aligncenter size-large wp-image-53890" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-cluster-settings-1024x908.png" alt="控制台屏幕截图。" width="1024" height="908" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在&lt;strong&gt;高级设置&lt;/strong&gt; 的&lt;strong&gt;安全&lt;/strong&gt;部分，我为用于子网组的 VPC 添加&lt;code&gt;默认&lt;/code&gt;安全组，然后选择我之前创建的访问控制列表 (ACL)。MemoryDB ACL 基于&lt;a href="https://redis.io/topics/acl"&gt; Redis ACL&lt;/a&gt;，并提供用于连接到集群的用户凭证和权限。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-security.png"&gt;&lt;img class="aligncenter size-large wp-image-53891" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-security-1024x806.png" alt="控制台屏幕截图。" width="1024" height="806" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在&lt;strong&gt;快照&lt;/strong&gt;部分，我保留默认值，使 MemoryDB 自动创建每日快照，并选择 7 天的保留期。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-snapshot.png"&gt;&lt;img class="aligncenter size-large wp-image-53892" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-snapshot-1024x478.png" alt="控制台屏幕截图。" width="1024" height="478" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;对于&lt;strong&gt;维护&lt;/strong&gt;，我保留默认值，然后选择&lt;strong&gt;创建&lt;/strong&gt;。在这一部分，我还可以提供 &lt;a title="" href="https://aws.amazon.com/sns/"&gt;Amazon Simple Notification Service (SNS)&lt;/a&gt; 主题，以便收到重要集群事件的通知。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-maintenance.png"&gt;&lt;img class="aligncenter size-large wp-image-53893" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/11/amazon-memorydb-redis-maintenance-1024x804.png" alt="控制台屏幕截图。" width="1024" height="804" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;几分钟后，集群运行，我可以使用&lt;a href="https://redis.io/topics/rediscli"&gt; Redis 命令行界面&lt;/a&gt;或任何&lt;a href="https://redis.io/clients"&gt; Redis 客户端&lt;/a&gt;进行连接。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;使用 Amazon MemoryDB 作为主数据库&lt;br /&gt; &lt;/strong&gt;&lt;/span&gt;管理客户数据是许多业务流程的关键组件。为测试我的新 Amazon MemoryDB 集群的持久性，我想将其用作客户数据库。为简单起见，让我们在 Python 中构建一个简单的微服务，使我能够使用&lt;a href="https://en.wikipedia.org/wiki/Representational_state_transfer"&gt; REST&lt;/a&gt; API 从 Redis 集群中创建、更新、删除和获取一个或所有客户数据。&lt;/p&gt; 
+&lt;p&gt;这是我的 &lt;code&gt;server.py&lt;/code&gt; 实现的代码：&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-python"&gt;from flask import Flask, request
+from flask_restful import Resource, Api, abort
+from rediscluster import RedisCluster
+import logging
+import os
+import uuid
+
+host = os.environ['HOST']
+port = os.environ['PORT']
+db_host = os.environ['DBHOST']
+db_port = os.environ['DBPORT']
+db_username = os.environ['DBUSERNAME']
+db_password = os.environ['DBPASSWORD']
+
+logging.basicConfig(level=logging.INFO)
+
+redis = RedisCluster(startup_nodes=[{&amp;quot;host&amp;quot;: db_host, &amp;quot;port&amp;quot;: db_port}],
+            decode_responses=True, skip_full_coverage_check=True,
+            ssl=True, username=db_username, password=db_password)
+
+if redis.ping():
+    logging.info(&amp;quot;Connected to Redis&amp;quot;)
+
+app = Flask(__name__)
+api = Api(app)
+
+
+class Customers(Resource):
+
+    def get(self):
+        key_mask = &amp;quot;customer:*&amp;quot;
+        customers = []
+        for key in redis.scan_iter(key_mask):
+            customer_id = key.split(':')[1]
+            customer = redis.hgetall(key)
+            customer['id'] = customer_id
+            customers.append(customer)
+            print(customer)
+        return customers
+
+    def post(self):
+        print(request.json)
+        customer_id = str(uuid.uuid4())
+        key = &amp;quot;customer:&amp;quot; + customer_id
+        redis.hset(key, mapping=request.json)
+        customer = request.json
+        customer['id'] = customer_id
+        return customer, 201
+
+
+class Customers_ID(Resource):
+
+    def get（自我，ustomer_id）：
+        key = &amp;quot;customer:&amp;quot; + customer_id
+        customer = redis.hgetall(key)
+        print(customer)
+        if customer:
+            customer['id'] = customer_id
+            return customer
+        else:
+            abort(404)
+
+    def put(self, customer_id):
+        print(request.json)
+        key = &amp;quot;customer:&amp;quot; + customer_id
+        redis.hset(key, mapping=request.json)
+        return '', 204
+
+    def delete(self, customer_id):
+        key = &amp;quot;customer:&amp;quot; + customer_id
+        redis.delete(key)
+        return '', 204
+
+
+api.add_resource(Customers, '/customers')
+api.add_resource(Customers_ID, '/customers/&amp;lt;customer_id&amp;gt;')
+
+
+if __name__ == '__main__':
+    app.run(host=host, port=port)&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;这是&lt;code&gt; requirements.txt&lt;/code&gt; 文件，它列出了应用程序所需的 Python 模块：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;redis-py-cluster
+Flask
+Flask-RESTful&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;同样的代码适用于 MemoryDB、ElastiCache 或任何 Redis 集群数据库。&lt;/p&gt; 
+&lt;p&gt;我在 MemoryDB 集群所在的 VPC 中启动 &lt;a title="" href="https://aws.amazon.com/ec2/"&gt;Amazon Elastic Compute Cloud (Amazon EC2)&lt;/a&gt; 实例。为了能够连接到 MemoryDB 集群，我分配了&lt;code&gt;默认&lt;/code&gt;安全组。我还添加了另一个安全组，为我提供了对实例的 SSH 访问权限。&lt;/p&gt; 
+&lt;p&gt;我将&lt;code&gt; server.py&lt;/code&gt; 和&lt;code&gt; requirements.txt&lt;/code&gt; 文件复制到实例中，然后安装依赖项：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;pip3 install --user -r requirements.txt&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;现在，我开始微服务：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;python3 server.py&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;在另一个终端连接中，我使用&lt;a href="https://curl.se/"&gt; curl&lt;/a&gt; 在我的数据库中创建一个客户，并在&lt;code&gt; /customers&lt;/code&gt; 资源中使用 HTTP POST：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;curl -i --header &amp;quot;Content-Type: application/json&amp;quot; --request POST \
+     --data '{&amp;quot;name&amp;quot;: &amp;quot;Danilo&amp;quot;, &amp;quot;address&amp;quot;: &amp;quot;Somewhere in London&amp;quot;,
+              &amp;quot;phone&amp;quot;: &amp;quot;+1-555-2106&amp;quot;,&amp;quot;email&amp;quot;: &amp;quot;danilop@example.net&amp;quot;, &amp;quot;balance&amp;quot;: 1000}' \
+     http://localhost:8080/customers&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;结果确认数据已存储并且已向字段添加了唯一 ID（由 Python 代码生成的&lt;a href="https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_(random)"&gt; UUIDv4&lt;/a&gt;）：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;HTTP/1.0 201 CREATED
+Content-Type: application/json
+Content-Length: 172
+Server: Werkzeug/2.0.1 Python/3.7.10
+Date: Wed, 11 Aug 2021 18:16:58 GMT
+
+{&amp;quot;name&amp;quot;: &amp;quot;Danilo&amp;quot;, &amp;quot;address&amp;quot;: &amp;quot;Somewhere in London&amp;quot;,
+ &amp;quot;phone&amp;quot;: &amp;quot;+1-555-2106&amp;quot;, &amp;quot;email&amp;quot;: &amp;quot;danilop@example.net&amp;quot;,
+ &amp;quot;balance&amp;quot;: 1000, &amp;quot;id&amp;quot;: &amp;quot;3894e683-1178-4787-9f7d-118511686415&amp;quot;}&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;所有字段都存储在 Redis Hash 中，密钥是 &lt;code&gt;customer:&amp;lt;id&amp;gt;&lt;/code&gt;。&lt;/p&gt; 
+&lt;p&gt;我重复几次上一个命令，以创建三个客户。客户数据是相同的，但每个数据都有一个唯一 ID。&lt;/p&gt; 
+&lt;p&gt;现在，我获得了一份列表，列出了所有具有到 &lt;code&gt;/customers&lt;/code&gt; 资源 HTTP GET 的客户：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;curl -i http://localhost:8080/customers&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;在代码中，有一个使用&lt;a href="https://redis.io/commands/scan"&gt; SCAN&lt;/a&gt; 命令的匹配键上的 iterator。&amp;nbsp;在响应中，我看到了三位客户的数据：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 526
+Server: Werkzeug/2.0.1 Python/3.7.10
+Date: Wed, 11 Aug 2021 18:20:11 GMT
+
+[{&amp;quot;name&amp;quot;: &amp;quot;Danilo&amp;quot;, &amp;quot;address&amp;quot;: &amp;quot;Somewhere in London&amp;quot;,
+&amp;quot;phone&amp;quot;: &amp;quot;+1-555-2106&amp;quot;, &amp;quot;email&amp;quot;: &amp;quot;danilop@example.net&amp;quot;,
+&amp;quot;balance&amp;quot;: &amp;quot;1000&amp;quot;, &amp;quot;id&amp;quot;: &amp;quot;1d734b6a-56f1-48c0-9a7a-f118d52e0e70&amp;quot;},
+{&amp;quot;name&amp;quot;: &amp;quot;Danilo&amp;quot;, &amp;quot;address&amp;quot;: &amp;quot;Somewhere in London&amp;quot;,
+&amp;quot;phone&amp;quot;: &amp;quot;+1-555-2106&amp;quot;, &amp;quot;email&amp;quot;: &amp;quot;danilop@example.net&amp;quot;,
+&amp;quot;balance&amp;quot;: &amp;quot;1000&amp;quot;, &amp;quot;id&amp;quot;: &amp;quot;89bf6d14-148a-4dfa-a3d4-253492d30d0b&amp;quot;},
+{&amp;quot;name&amp;quot;: &amp;quot;Danilo&amp;quot;, &amp;quot;address&amp;quot;: &amp;quot;Somewhere in London&amp;quot;,
+&amp;quot;phone&amp;quot;: &amp;quot;+1-555-2106&amp;quot;, &amp;quot;email&amp;quot;: &amp;quot;danilop@example.net&amp;quot;,
+&amp;quot;balance&amp;quot;: &amp;quot;1000&amp;quot;, &amp;quot;id&amp;quot;: &amp;quot;3894e683-1178-4787-9f7d-118511686415&amp;quot;}]&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;其中一位客户花费了所有余额。我用包含 ID (&lt;code&gt;/customers/&amp;lt;id&amp;gt;&lt;/code&gt;) 的客户资源 URL 上的 HTTP PUT 更新该字段：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;curl -i --header &amp;quot;Content-Type: application/json&amp;quot; \
+     --request PUT \
+     --data '{&amp;quot;balance&amp;quot;: 0}' \
+     http://localhost:8080/customers/3894e683-1178-4787-9f7d-118511686415&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;该代码正在使用请求数据更新 Redis Hash 的字段。在这种情况下，它将&lt;code&gt;余额&lt;/code&gt;设置为零。我按 ID 获取客户数据，从而验证更新：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;curl -i http://localhost:8080/customers/3894e683-1178-4787-9f7d-118511686415&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;在响应中，我看到余额已更新：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 171
+Server: Werkzeug/2.0.1 Python/3.7.10
+Date: Wed, 11 Aug 2021 18:32:15 GMT
+
+{&amp;quot;name&amp;quot;: &amp;quot;Danilo&amp;quot;, &amp;quot;address&amp;quot;: &amp;quot;Somewhere in London&amp;quot;,
+&amp;quot;phone&amp;quot;: &amp;quot;+1-555-2106&amp;quot;, &amp;quot;email&amp;quot;: &amp;quot;danilop@example.net&amp;quot;,
+&amp;quot;balance&amp;quot;: &amp;quot;0&amp;quot;, &amp;quot;id&amp;quot;: &amp;quot;3894e683-1178-4787-9f7d-118511686415&amp;quot;}&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;这就是 Redis 的力量！ 我只需几行代码就能够创建微服务的框架。最重要的是，MemoryDB 为我提供了生产环境中所需的持久性和高可用性，而无需在后端添加另一个数据库。&lt;/p&gt; 
+&lt;p&gt;根据我的工作负载，我可以通过添加或删除节点来横向扩展我的 MemoryDB 集群，或者通过移动到更大或更小的节点类型进行纵向扩展。MemoryDB 支持使用分片进行写入扩展以及通过添加副本进行读取扩展。我的集群将继续保持在线状态，并在调整运维期间支持读取和写入操作。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;可用性和定价&lt;br /&gt; &lt;/strong&gt;&lt;/span&gt;&lt;a href="https://aws.amazon.com/memorydb"&gt;Amazon MemoryDB for Redis&lt;/a&gt; 现已在美国东部（弗吉尼亚北部）、欧洲（爱尔兰）、亚太地区（孟买）和南美洲（圣保罗）推出，而且即将在更多 AWS 区域推出。&lt;/p&gt; 
+&lt;p&gt;您可以使用&lt;a title="" href="https://console.aws.amazon.com"&gt; AWS 管理控制台&lt;/a&gt;、&lt;a title="" href="https://aws.amazon.com/cli/"&gt;AWS 命令行界面 (CLI) &lt;/a&gt;或 &lt;a title="" href="https://aws.amazon.com/tools/"&gt;AWS 开发工具包&lt;/a&gt;在几分钟内创建 MemoryDB 集群。即将提供&lt;a title="" href="https://aws.amazon.com/cloudformation/"&gt; AWS CloudFormation&lt;/a&gt; 支持。对于节点，MemoryDB 目前支持 R6g &lt;a href="https://aws.amazon.com/ec2/graviton/"&gt;Graviton2&lt;/a&gt; 实例。&lt;/p&gt; 
+&lt;p&gt;要从 ElastiCache for Redis 迁移到 MemoryDB，您可以备份 ElastiCache 集群并将其还原到 MemoryDB 集群。您还可以从存储在 &lt;a title="" href="https://aws.amazon.com/s3/"&gt;Amazon Simple Storage Service (Amazon S3)&lt;/a&gt; 上的 &lt;a href="https://redis.io/topics/persistence"&gt;Redis Database Backup (RDB)&lt;/a&gt; 文件创建新集群。&lt;/p&gt; 
+&lt;p&gt;通过 MemoryDB，您可以根据每个节点的按需实例小时数、写入集群的数据量以及快照存储为实际使用量付费。&amp;nbsp;有关更多信息，请参阅 &lt;a href="https://aws.amazon.com/memorydb/pricing"&gt;MemoryDB 定价页面&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;了解详情&lt;br /&gt; &lt;/strong&gt;&lt;/span&gt;观看以下视频，获得快速概述。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://aws.amazon.com/memorydb"&gt;&lt;strong&gt;立即将 Amazon MemoryDB for Redis 作为您的主数据库。&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;– &lt;a title="Danilo 的 Twitter" href="https://twitter.com/danilop"&gt;Danilo&lt;/a&gt;&lt;/p&gt;</content:encoded>
+										</item>
+		<item>
 		<title>关于Amazon EKS中Service和Ingress深入分析和研究</title>
 		<link>https://aws.amazon.com/cn/blogs/china/in-depth-analysis-and-research-on-service-and-ingress-in-amazon-eks/</link>
 				<pubDate>Wed, 25 Aug 2021 03:16:09 +0000</pubDate>
@@ -1412,479 +1728,6 @@ client = boto3.client('marketplace-metering','us-east-1',
   &lt;p&gt;合作伙伴解决方案架构师&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>在亚马逊云科技Marketplace上的SaaS架构设计——如何支持多产品使用单一账户中心</title>
-		<link>https://aws.amazon.com/cn/blogs/china/saas-architecture-design-on-amazon-cloud-technology-marketplace-how-to-support-multiple-products-using-a-single-account-center/</link>
-				<pubDate>Fri, 13 Aug 2021 03:22:42 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[AWS Marketplace]]></category>
-		<category><![CDATA[Marketplace]]></category>
-
-		<guid isPermaLink="false">7d39b7a69b9fe99a55e1940a180b292f02e43969</guid>
-				<description>为了给企业提供更加易用的应用层软件，越来越多的软件提供商推出了SaaS产品。亚马逊云科技Marketplace(以下简称Marketplace)是一个提供甄选的数字化产品的平台，能够帮助SaaS厂商降低销售成本，触达更多的客户，是很多SaaS厂商的首选。 通过软件即服务（SaaS）产品，您部署了在亚马逊云科技提供的基础设施上的软件，并允许买家可以直接通过Marketplace来使用您的软件。您需要在您的软件中管理客户访问、账户创建、资源配置和账户管理。</description>
-								<content:encoded>&lt;p&gt;为了给企业提供更加易用的应用层软件，越来越多的软件提供商推出了SaaS产品。亚马逊云科技Marketplace(以下简称Marketplace)是一个提供甄选的数字化产品的平台，能够帮助SaaS厂商降低销售成本，触达更多的客户，是很多SaaS厂商的首选。&lt;/p&gt; 
-&lt;p&gt;通过软件即服务（SaaS）产品，您部署了在亚马逊云科技提供的基础设施上的软件，并允许买家可以直接通过Marketplace来使用您的软件。您需要在您的软件中管理客户访问、账户创建、资源配置和账户管理。&lt;/p&gt; 
-&lt;p&gt;在Marketplace中上架您基于SaaS模式的软件过程中，您需要与Marketplace SaaS提供的多个API进行对接，具体对接的方式您可以参考&lt;a href="https://docs.aws.amazon.com/marketplace/latest/userguide/saas-products.html"&gt;卖家指南&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;在您的SaaS中，建议您将与Marketplace SaaS API进行接口集成的部分作为独立模块进行研发和管理，并运行在您的亚马逊云科技账号中。&lt;/p&gt; 
-&lt;p&gt;在上一个文章《在亚马逊云科技Marketplace上的SaaS架构设计（一）——跨多账户对接篇》中，我们基于SaaS架构设计的角度介绍了多个亚马逊云科技账户中构建Marketplace SaaS的API对接的最佳实践，除了多亚马逊云科技的账户情况可能会发生，还会发生另外一种情况，就是卖家将同一个SaaS应用程序，根据功能以及业务上的要求，拆分成了多个SaaS产品上架到了Marketplace中，这意味着同一个卖家账户，在亚马逊云科技Marketplace上架了多款SaaS产品，但是这些SaaS产品的租户与账户系统是相同同时客户登陆的是相同的SaaS应用程序。&lt;/p&gt; 
-&lt;p&gt;在这种情况下，与Marketplace的租户API对接过程将会变得复杂，本文将基于这个场景，进行SaaS架构设计的介绍。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;租户对接介绍&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;在您的SaaS应用程序与Marketplace API进行对接的过程中，其中一个重要的就是租户的对接，这里涉及到的API为ResolveCustomer。&lt;/p&gt; 
-&lt;p&gt;ResolveCustomer是由SaaS应用程序在注册过程中调用的。当买家在注册过程中访问您提交给我们的落地页面时，买家会通过他们的浏览器提交一个注册令牌。注册令牌通过该API被解析，以获得CustomerIdentifier和产品代码。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;接收新用户 API：&lt;strong&gt;ResolveCustomer&lt;/strong&gt;&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;当一个用户从Marketplace订阅并跳转到您的SaaS应用程序后，您将会面临您的应用程序与亚马逊云科技进行用户对接的过程，该用户在第一次到达您的SaaS应用程序时，他具备Amazon Web Service的账户身份，同时该用户在您的SaaS应用程序中载入后，他也具备您的SaaS租户属性，为了日后您与Marketplace进行交互，您需要在这一步骤中进行API集成，完成该用户2个身份的绑定。&lt;/p&gt; 
-&lt;p&gt;ResolveCustomer API是整个SaaS API集成的第一步，也是客户通过Marketplace进入到您的SaaS应用的第一步，在这一步骤中，我们需要通过该API完成两部分工作：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;验证新客户&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;在客户订阅您的产品后，他们将被重定向到执行的URL。该重定向是一个POST请求，包括一个临时令牌。然后，您的应用程序需要通过调用Marketplace计量服务API中的ResolveCustomer，将令牌换成客户ID。在获得客户ID后，将其保存在您的应用程序中，以便将来调用。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;载入您的新客户&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;在成功地验证了一个客户后，让他们加入您的应用程序。例如，让他们填写一个表格来创建一个新的用户账户。或者，为他们提供进入应用程序的后续步骤。您的应用程序可以根据客户的信息来自动化的装载该客户所需要的后续资源与服务。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/saas-architecture-design-on-amazon-cloud-technology-marketplace-how-to-support-multiple-products-using-a-single-account-center1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/saas-architecture-design-on-amazon-cloud-technology-marketplace-how-to-support-multiple-products-using-a-single-account-center1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;如上图所示，在使用ResolveCustomer API的过程中，首先需要从Http Request中获取token，当客户从Marketplace跳转到您的应用程序过程中， Marketplace会给您上线过程中提交的URL发送POST请求，您需要从该请求中通过获取x-amzn-marketplace-token获取该用户的身份token，然后调用ResolveCustomer API获得CustomerIdetifier和ProductCode，其中CustomerIdetifier为该客户在AWS上身份的标示，ProductCode是产品的唯一标识码。&lt;/p&gt; 
-&lt;p&gt;您需要将CustomerIdetifier与ProductCode基于您应用程序逻辑进行业务处理，并用于后续该用户与AWS Marketplace API交互。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;案例背景&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;以上为正常情况下的租户对接过程，但如果在Marketplace中您使用了相同的卖家账号上架了多款SaaS产品，但这些SaaS应用程序使用了相同的租户注册与验证系统同时客户登陆的是同一套SaaS应用程序，将会面临更加复杂的问题。&lt;/p&gt; 
-&lt;p&gt;对于亚马逊云科技Marketplace中基于SaaS交付的产品中，有多种价格模型可以选择，本篇文章所涉及的内容重点为租户系统对接的设计，订阅模型与合约模型作为仅作为租户系统对接设计的后续行为，所以在下文中，将以基于订阅的价格模型作为举例。&lt;/p&gt; 
-&lt;p&gt;在本文章的举例中，有两个您上架的SaaS产品，分别为&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;SaaS1&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;产品ID为product1111&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;SaaS2&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;产品ID为product2222&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;SaaS&lt;/strong&gt;&lt;strong&gt;架构设计&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;在正常的情况下，当客户通过Marketplace购买您的产品后，我们会建议您将SaaS应用程序的租户与通过Marketplace API换到的CustomerIdetifier进行绑定，而产品ID则根据您的需求进行合理的持久化，这样您的SaaS应用程序中的用户在产生消费行为过程中，您会将该行为记录并整合到您的用户的租户中，并通过Marketplace API与Marketplace进行计价的交互，在这种背景下，租户对接设计一般为：&lt;/p&gt; 
-&lt;table border="1"&gt; 
- &lt;tbody&gt; 
-  &lt;tr&gt; 
-   &lt;td width="208"&gt;租户ID&lt;/td&gt; 
-   &lt;td width="208"&gt;用户ID&lt;/td&gt; 
-   &lt;td width="208"&gt;Marketplace_Id&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="208"&gt;AAA&lt;/td&gt; 
-   &lt;td width="208"&gt;111&lt;/td&gt; 
-   &lt;td width="208"&gt;5ha1maxi&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="208"&gt;&lt;/td&gt; 
-   &lt;td width="208"&gt;222&lt;/td&gt; 
-   &lt;td width="208"&gt;5ha1maxi&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="208"&gt;&lt;/td&gt; 
-   &lt;td width="208"&gt;333&lt;/td&gt; 
-   &lt;td width="208"&gt;5ha1maxi&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="208"&gt;BBB&lt;/td&gt; 
-   &lt;td width="208"&gt;111&lt;/td&gt; 
-   &lt;td width="208"&gt;&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="208"&gt;&lt;/td&gt; 
-   &lt;td width="208"&gt;222&lt;/td&gt; 
-   &lt;td width="208"&gt;&lt;/td&gt; 
-  &lt;/tr&gt; 
- &lt;/tbody&gt; 
-&lt;/table&gt; 
-&lt;p&gt;在上面所举例的租户设计中，Marketplace_Id字段代表着持久化的Marketplace CustomerIdetifier，该字段存在值代表着该租户是通过Marketplace平台进入到SaaS应用程序中，未来该租户的所有计费相关的行为将使用该字段的值，该SaaS应用程序的产品ID以及计费维度和使用量来与Marketplace进行交互，如下所示：&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-powershell"&gt;{
-   &amp;quot;ProductCode&amp;quot;: &amp;quot; product1111&amp;quot;,
-   &amp;quot;UsageRecords&amp;quot;: [ 
-      { 
-         &amp;quot;CustomerIdentifier&amp;quot;: &amp;quot;5ha1maxi&amp;quot;,
-         &amp;quot;Dimension&amp;quot;: &amp;quot;Data&amp;quot;,
-         &amp;quot;Quantity&amp;quot;: 2,
-         &amp;quot;Timestamp&amp;quot;: xxxxx
-      }
-   ]
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;但当中您使用了相同的卖家账号上架了多款SaaS产品，但这些SaaS应用程序使用了相同的租户注册与验证系统，这种架构设计会导致以下问题：&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;无法控制&lt;/strong&gt;&lt;strong&gt;SaaS&lt;/strong&gt;&lt;strong&gt;应用程序的权限&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;用户通过Marketplace选择您其中一款SaaS产品购买并注册/登陆后，因为您之前的SaaS架构设计原因，您将无法区别该用户来源于哪个Marketplace中您上架的产品，所以您无法进行SaaS应用程序的权限控制&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;部分情况下无法进行&lt;/strong&gt;&lt;strong&gt;API&lt;/strong&gt;&lt;strong&gt;交互&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;用户通过Marketplace选择您其中一款SaaS产品购买并注册/登陆后，可能会在您的SaaS应用程序中使用了您另外一款上架的SaaS应用程序的功能，您的SaaS应用程序会根据该功能去调用Marketplace计费API与Marketplace交互，但是由于该用户并没有通过Marketplace订阅您的另一款产品，您会得到一个错误的返回。&lt;/p&gt; 
-&lt;p&gt;所以在这种特殊的情况下，您的SaaS架构设计在租户层根据您上架的产品数量来进行标示的区分并与您的租户系统进行绑定，如下图所示：&lt;/p&gt; 
-&lt;table border="1"&gt; 
- &lt;tbody&gt; 
-  &lt;tr&gt; 
-   &lt;td width="152"&gt;租户ID&lt;/td&gt; 
-   &lt;td width="88"&gt;用户ID&lt;/td&gt; 
-   &lt;td width="198"&gt;Marketplace_Id1&lt;/td&gt; 
-   &lt;td width="186"&gt;Marketplace_Id2&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="152"&gt;AAA&lt;/td&gt; 
-   &lt;td width="88"&gt;111&lt;/td&gt; 
-   &lt;td width="198"&gt;product1111-5ha1maxi&lt;/td&gt; 
-   &lt;td width="186"&gt;&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="152"&gt;&lt;/td&gt; 
-   &lt;td width="88"&gt;222&lt;/td&gt; 
-   &lt;td width="198"&gt;product1111-5ha1maxi&lt;/td&gt; 
-   &lt;td width="186"&gt;&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="152"&gt;&lt;/td&gt; 
-   &lt;td width="88"&gt;333&lt;/td&gt; 
-   &lt;td width="198"&gt;product1111-5ha1maxi&lt;/td&gt; 
-   &lt;td width="186"&gt;&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="152"&gt;BBB&lt;/td&gt; 
-   &lt;td width="88"&gt;111&lt;/td&gt; 
-   &lt;td width="198"&gt;product1111-5ha1maxi&lt;/td&gt; 
-   &lt;td width="186"&gt;Product2222-d92nwk21&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="152"&gt;&lt;/td&gt; 
-   &lt;td width="88"&gt;222&lt;/td&gt; 
-   &lt;td width="198"&gt;product1111-5ha1maxi&lt;/td&gt; 
-   &lt;td width="186"&gt;Product2222-d92nwk21&lt;/td&gt; 
-  &lt;/tr&gt; 
- &lt;/tbody&gt; 
-&lt;/table&gt; 
-&lt;p&gt;或者&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-powershell"&gt;{
-    &amp;quot;Tenant_T&amp;quot;: [
-        {
-            &amp;quot;TenantID&amp;quot;: &amp;quot;AAA&amp;quot;,
-            &amp;quot;User&amp;quot;: [
-                {
-                    &amp;quot;UserID&amp;quot;: &amp;quot;111&amp;quot;
-                },
-                {
-                    &amp;quot;UserID&amp;quot;: &amp;quot;222&amp;quot;
-                },
-                {
-                    &amp;quot;UserID&amp;quot;: &amp;quot;333&amp;quot;
-                }
-            ],
-            &amp;quot;Marketplace&amp;quot;: [
-                {
-			 &amp;quot;ProductID&amp;quot;: &amp;quot;product111&amp;quot;,
-                    &amp;quot;MarketplaceID&amp;quot;: &amp;quot;5ha1maxi&amp;quot;
-                }
-            ]
-        },
-        {
-            &amp;quot;TenantID&amp;quot;: &amp;quot;BBB&amp;quot;,
-            &amp;quot;User&amp;quot;: [
-                {
-                    &amp;quot;UserID&amp;quot;: &amp;quot;111&amp;quot;
-                },
-                {
-                    &amp;quot;UserID&amp;quot;: &amp;quot;222&amp;quot;
-                }
-            ],
-            &amp;quot;Marketplace&amp;quot;: [
-                {
-			 &amp;quot;ProductID&amp;quot;: &amp;quot;product111&amp;quot;,
-                    &amp;quot;MarketplaceID&amp;quot;: &amp;quot;5ha1maxi&amp;quot;
-                },
-                {
-			 &amp;quot;ProductID&amp;quot;: &amp;quot;product222&amp;quot;,
-                    &amp;quot;MarketplaceID&amp;quot;: &amp;quot; d92nwk21&amp;quot;
-                }
-            ]
-        }
-    ]
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;在这种租户架构下，您可以清晰的区分出Marketplace端的租户，您上架的产品以及您的SaaS应用程序的租户之间的关系，当某一个用户进行您的SaaS应用程序功能的选择时，你需要找到该用户对应的租户以及该租户中通过Marketplace订阅的产品，如果该功能所属的产品已经被订阅，您可以直接使用这些信息于Marketplace API交互进行用量的传输，如果该用户并没有订阅该产品，您的应用程序应该进行相应的处理，比如禁止该用户使用此功能并引导客户至相应的Marketplace上您的产品进行订阅后再进行使用。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;总结&lt;/h2&gt; 
-&lt;p&gt;该文章中说明了在SaaS架构设计中，在根据业务和产品的需求，需要将SaaS应用程序拆分多个产品进行上架的情况下，如何进行SaaS租户的设计以及权限的判断，我们建议您在非必要情况下，不要进行单一SaaS应用程序的的拆分而上架多个Marketplace产品，但如果您的需求必须如此，请您进行好响应的SaaS架构设计避免用户体验的降低或者造成您的损失。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/mingyue.jpg" width="125" /&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;张明月&lt;/h3&gt; 
-  &lt;p&gt;合作伙伴解决方案架构师&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>关于Amazon EKS基于Gitlab的CICD实践二 基础架构和应用架构创建篇</title>
-		<link>https://aws.amazon.com/cn/blogs/china/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation/</link>
-				<pubDate>Thu, 12 Aug 2021 03:20:42 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Containers]]></category>
-		<category><![CDATA[Amazon Elastic Container Registry]]></category>
-		<category><![CDATA[Amazon Elastic Kubernetes Service]]></category>
-		<category><![CDATA[Amazon Relational Database Service]]></category>
-
-		<guid isPermaLink="false">5c06ae7d26b381bec101fa44769e4ee9bd748532</guid>
-				<description>在Gitlab的部署和配置完成后，本篇将介绍(三)基础架构的部署和(四)应用架构的部署。Gitlab 可以在代码仓库的根目录定义一个名为 .gitlab-ci.yml 的文件。这个文件是你定义你的CI/CD pipeline的地方。在开始创建和定义你的 .gitlab-ci.yml 之前，我们需要了解GitLab CI/CD中一些概念来描述和运行你的Gitlab CI/CD pipeline。</description>
-								<content:encoded>&lt;p&gt;关于Gitlab的CI/CD的实践具体分成如下的内容，其中一和二已经在上面一篇 &lt;a href="https://aws.amazon.com/cn/blogs/china/about-amazon-eks-gitlab-based-cicd-practice-one-gitlab-deployment-and-configuration/"&gt;&lt;strong&gt;关于Gitlab的CICD的实践&lt;/strong&gt;&lt;strong&gt;一 &lt;/strong&gt;&lt;strong&gt;Gitlab的部署和配置篇&lt;/strong&gt; &lt;/a&gt;中介绍完成了。&lt;/p&gt; 
-&lt;p&gt;(一)部署的架构&lt;br /&gt; (二)Gitlab的部署和配置&lt;br /&gt; (三)基础架构的部署&lt;br /&gt; (1) Amazon RDS 的创建&lt;br /&gt; (2) Amazon EKS的创建&lt;br /&gt; (四)应用架构的部署&lt;br /&gt; (1) Amazon RDS 数据库中数据的部署&lt;br /&gt; (2) Amazon EKS集群中应用的部署&lt;br /&gt; 在Gitlab的部署和配置完成后，本篇将介绍(三)基础架构的部署和(四)应用架构的部署。Gitlab 可以在代码仓库的根目录定义一个名为 .gitlab-ci.yml 的文件。这个文件是你定义你的CI/CD pipeline的地方。在开始创建和定义你的 .gitlab-ci.yml 之前，我们需要了解GitLab CI/CD中一些概念来描述和运行你的Gitlab CI/CD pipeline。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;(三)基础架构的部署&lt;/h2&gt; 
-&lt;h3&gt;&lt;strong&gt;1)pipeline(流水线)&lt;/strong&gt;&lt;/h3&gt; 
-&lt;p&gt;是持续集成、交付和部署的顶级组件。Pipeline由以下部分组成：&lt;br /&gt; &lt;strong&gt;job(工作)&lt;/strong&gt;，它定义了要做什么。例如，编译或测试代码的工作。&lt;br /&gt; &lt;strong&gt;stage(阶段)&lt;/strong&gt;，定义何时运行作业。例如，在编译代码的stage之后运行测试的stage。&lt;br /&gt; 使用stages来定义包含一组job，而stages又被定义在pipeline(流水线)中。在pipeline(流水线)中使用stage来定义某job是那个阶段的一部分。stage的顺序定义了作业的执行顺序。&lt;br /&gt; job是由runner(运行器)执行的。如果有足够多的并发runner，同一stage的多个job可以并行执行。如果一个stage的所有job都成功了，pipeline就会进入下一个stage。如果一个stage中的任何job失败了，下一个stage就不会被执行，pipeline就会提前结束。一般来说，pipeline是自动执行的，一旦创建就不需要干预。然而，有些时候，你可以设定pipeline中的有些阶段是手动来执行，比如删除创建的资源。&lt;br /&gt; 例如如下示例中&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 此示例中定义了三个stages – compile,test,package，同一个stage(package)中的多个job(pack-gz, pack-iso)可以并行执行。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 此示例为此次实践中创建EKS Cluster的流水线，其中也定义了三个stages – build,deploy,destroy，同一个stage的所有job都成功了，pipeline就会进入下一个stage。stage的顺序定义了作业的执行顺序。&lt;br /&gt; Pipeline是GitLab中CI/CD的基本构建块。有三种主要方式来构建pipeline，每一种都有自己的优势。如果需要，这些方法可以混合使用。&lt;br /&gt; &lt;strong&gt;Basic(基本型)&lt;/strong&gt;: 适合于简单的项目，所有的配置都在一个容易找到的地方。&lt;br /&gt; &lt;strong&gt;Directed Acyclic Graph(有向无环图)&lt;/strong&gt;: 适合于需要高效执行的大型复杂项目。&lt;br /&gt; &lt;strong&gt;Child/Parent(子/父流水线)&lt;/strong&gt;: 适合单体项目和有很多独立定义的组件的项目。&lt;br /&gt; 本实践就是结合了 Child/Parent 和 Directed Acyclic Graph。&lt;br /&gt; &lt;strong&gt;有向无环图流水线&lt;/strong&gt;: 如果效率对你来说很重要，你希望所有的东西都能尽可能快地运行，你可以使用有向无环图（DAG）。使用needs关键字来定义job之间的依赖关系。当GitLab知道你的工作之间的关系时，它可以尽可能快地运行一切，甚至在可能的情况下跳过后续阶段。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-powershell"&gt;# Parent gitlab-ci file, which trigger two CICD steps for AWS EKS cluster and RDS for mysql creation
-# And it's also with two CICD steps for applications on EKS and data updating on RDS for mysql
-
-stages:
-- trigger-modules
-
-# child gitlab pipeline for EKS cluster creation
-EKS cluster creation:
-  stage: trigger-modules
-  trigger:
-    include: infra/eks-cluster/eks-gitlab-ci.yml
-  only:
-    changes:
-    - infra/eks-cluster/*
-
-# child gitlab pipeline for RDS for mysql creation
-RDS for mysql creation:
-  stage: trigger-modules
-  trigger:
-    include:  infra/rdsmysql/rdsreal/rds-gitlab-ci.yml
-  only:
-    changes:
-    - infra/rdsmysql/*
-    - infra/rdsmysql/**/*
-
-# child gitlab pipeline for data updating on RDS for mysql
-RDS for app running:
-  stage: trigger-modules
-  trigger:
-    include:  app/rds/app-rds-gitlab-ci.yml
-  only:
-    changes:
-    - app/rds/*
-
-# child gitlab pipeline for applications on EKS
-EKS for app running:
-  stage: trigger-modules
-  trigger:
-    include:  app/eks/app-eks-gitlab-ci.yml
-  only:
-    changes:
-- app/eks/*    
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;&lt;strong&gt;子&lt;/strong&gt;&lt;strong&gt;/父流水线&lt;/strong&gt;: 上面是本实践中位于根目录中 .gitlab-ci.yml 文件的内容 ，通过 trigger 关键字来使用子/父流水线。它将Gitlab CICD流水线配置分离成多个文件，使pipeline变得简单和利于理解。你也可以将其与以下内容结合起来。&lt;br /&gt; rules 关键字。例如，只有指定目录的内容(代码)发生变化时，才会触发子流水线。如上实例中的only子句。&lt;br /&gt; include 关键字。在指定具体的子流水线需要执行的文件。&lt;/p&gt; 
-&lt;h3&gt;&lt;strong&gt;2)CI/CD变量是环境变量的一种&lt;/strong&gt;&lt;/h3&gt; 
-&lt;p&gt;你可以用它们来 (1) 控制作业和流水线的行为。(2) 存储你想重复使用的值。(3) 避免在你的.gitlab-ci.yml文件中的硬编码值。本实践，我创建了全局环境变量和在project中的子gitlab-ci.yml文件中定义变量。&lt;/p&gt; 
-&lt;h3&gt;&lt;strong&gt;3)job artifact&lt;/strong&gt;&lt;/h3&gt; 
-&lt;p&gt;job可以输出一个文件和目录的内容，这种输出被称为job artifact，你可以通过使用GitLab用户界面或API下载job artifact。&lt;br /&gt; 为了Gitlab的CI/CD能正常的执行，在准备好了从Github上拉取的代码，并push到自建的Gitlab上。以及配置Gitlab 的环境，现在还需要设置环境变量，因为如下的Gitlab CICD 子流水线使用了这些环境变量。&lt;br /&gt; &lt;code&gt;infra/eks-cluster/eks-gitlab-ci.yml&lt;/code&gt;&lt;br /&gt; &lt;code&gt;infra/rdsmysql/rdsreal/rds-gitlab-ci.yml&lt;/code&gt;&lt;br /&gt; &lt;code&gt;app/eks/app-eks-gitlab-ci.yml&lt;/code&gt;&lt;br /&gt; 这三个都使用如下的环境变量&lt;br /&gt; &lt;code&gt;- 'AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}'&lt;/code&gt;&lt;br /&gt; &lt;code&gt;- 'AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}'&lt;/code&gt;&lt;br /&gt; &lt;code&gt;- 'AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}'&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;app/rds/app-rds-gitlab-ci.yml&lt;/code&gt;&lt;br /&gt; 有如下的环境变量的需求&lt;br /&gt; &lt;code&gt;$DB_HOST_MASTER&lt;/code&gt;&lt;br /&gt; &lt;code&gt;$DB_USER_MASTER&lt;/code&gt;&lt;br /&gt; &lt;code&gt;$DB_PASSWORD_MASTER&lt;/code&gt;&lt;br /&gt; &lt;code&gt;$DB_SCHEMA&lt;/code&gt;&lt;br /&gt; 在Gitlab设置全局环境变量,Menu-Admin-Settings-CICD-Variables-Add variable&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 按如上步骤创建好AWS AKSK 和 RDS 等环境变量。其中RDS的数据信息需要等到RDS for mysql创建好后在设置。最后的设置后的信息如下&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 在Gitlab中的gitlabcicd project中有如下内容&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 1)目录(infra): 通过Gitlab CICD和Terraform自动化的创建和部署亚马逊云科技EKS Cluster和RDS for Mysql. 偏基础设施的团队会更关注这一点.&lt;br /&gt; 2)目录(app): 再通过Gitlab CICD结合AWS EKS,AWS ECR,Docker和Liquibase来达成应用系统的版本迭代和发布. 偏业务的团队会更关注这一块.&lt;br /&gt; 3)文件(.gitlab-ci.yml): Gitlab CICD的主配置文件,来完成主要的CICD的逻辑调度工作.&lt;br /&gt; 4)文件(create_bucket.sh): 因为Terraform作为IaC的工具,需要通过状态文件了解Infrastructure状态,所以需要一个外置存储来存放此状态文件.此shell脚本是来创建S3存储桶和相应的Terraform的状态文件.&lt;br /&gt; infra目录中包含Terraform代码用于自动化的创建EKS Cluster和RDS for Mysql.而Terraform是一个由HashiCorp创建的开源基础设施即代码(IaC)软件工具。用户使用被称为HashiCorp配置语言的声明性配置语言，或可选的JSON来定义和提供数据中心基础设施。更多关于Terraform的信息可以访问如下link：&lt;br /&gt; &lt;a href="https://learn.hashicorp.com/terraform?utm_source=terraform_io&amp;amp;utm_content=terraform_io_hero"&gt;https://learn.hashicorp.com/terraform?utm_source=terraform_io&amp;amp;utm_content=terraform_io_hero&lt;/a&gt;&lt;br /&gt; 使用Git将Terraform编写的IaC的代码提交到Gitlab管理的代码仓库中，并做版本控制，另外结合Gitlab CICD自动化的完成基础设施的部署。因为Terraform编写的IaC的代码不是本文的重点，所以不做过多讨论。如上面描述的因为Terraform作为IaC的工具,需要通过状态文件了解Infrastructure状态,而执行Terraform代码的executor(执行器)为docker，Terraform状态文件会随着docker生命周期结束而丢失。所以需要一个外置存储来存放此状态文件。shell脚本(create_bucket.sh)是来创建S3存储桶和相应的Terraform的状态文件。&lt;br /&gt; &lt;code&gt;# 在您的workstation/笔记本执行如下命令&lt;/code&gt;&lt;br /&gt; &lt;code&gt;cd ~&lt;/code&gt;&lt;br /&gt; &lt;code&gt;cd gitlabcicd&lt;/code&gt;&lt;br /&gt; &lt;code&gt;bash ./create_bucket.sh&lt;/code&gt;&lt;br /&gt; &lt;code&gt;aws s3 ls s3://jerry-terraform-states/&lt;/code&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;替换的s3桶名，可以使用如下命令替换:&lt;br /&gt; sed -i ‘s/^Bucket_Name=\(.*\)/Bucket_Name=your_bucket_name/’ create_bucket.sh&lt;br /&gt; 根据代码仓库的根目录下 .gitlab-ci.yml 文件的定义，触发自动部署infra资源(EKS cluster,RDS),当然也包括其他相关资源，比如VPC，子网和安全组等。需要修改或添加如下指定位置中的文件并使用Git提交，进而来触发pipeline&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 我编辑了上面两个目录中的README.md文件,再执行如下&lt;br /&gt; &lt;code&gt;git add .&lt;/code&gt;&lt;br /&gt; &lt;code&gt;git commit -m &amp;quot;push&amp;quot;&lt;/code&gt;&lt;br /&gt; &lt;code&gt;git push -u origin main&lt;/code&gt;&lt;br /&gt; CICD-Pipelines查看触发的流水线和jobs&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation10.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 可以看到job已经顺利执行完成。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation11.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; EKS集群创建完成后，Destroy stage，我设置成为是手动执行，也就是说，如果你希望删除EKS集群，可以通过点击Destroy旁的播放按钮来触发。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation12.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;同样RDS创建完成，Destroy也是可以手动执行的。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation13.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;EKS集群和RDS创建完成后，有生成artifact，可以通过job页面下载&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation14.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation14.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;其实您也可以修改EKS和RDS的名称以及数据库user名称和密码，具体修改的位置如下。&lt;/p&gt; 
-&lt;p&gt;EKS修改集群名称和VPC IP地址网段的位置:&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-powershell"&gt;infra/eks-cluster/vpc.tf 
-
-variable &amp;quot;general_name&amp;quot; {
-  default     = &amp;quot;cicdeks&amp;quot;
-  description = &amp;quot;general name&amp;quot;
-}
-…
-
-module &amp;quot;vpc&amp;quot; {
-  source  = &amp;quot;terraform-aws-modules/vpc/aws&amp;quot;
-  version = &amp;quot;3.2.0&amp;quot;
-
-  name                 = local.vpc_name
-  cidr                 = &amp;quot;10.98.0.0/18&amp;quot;
-  azs                  = data.aws_availability_zones.available.names
-  private_subnets      = [&amp;quot;10.98.1.0/24&amp;quot;, &amp;quot;10.98.2.0/24&amp;quot;, &amp;quot;10.98.3.0/24&amp;quot;]
-  public_subnets       = [&amp;quot;10.98.4.0/24&amp;quot;, &amp;quot;10.98.5.0/24&amp;quot;, &amp;quot;10.98.6.0/24&amp;quot;]
-  enable_nat_gateway   = true
-  single_nat_gateway   = true
-  enable_dns_hostnames = true
-…
-
-RDS修改database名称和VPC IP地址网段的位置:
-infra/rdsmysql/rdsreal/main.tf 
-
-variable &amp;quot;general_name&amp;quot; {
-  default     = &amp;quot;cicdrds&amp;quot;
-  description = &amp;quot;general name&amp;quot;
-}
-...
-
-module &amp;quot;vpc&amp;quot; {
-  source  = &amp;quot;terraform-aws-modules/vpc/aws&amp;quot;
-  version = &amp;quot;~&amp;gt; 2&amp;quot;
-
-  name = local.vpc_name
-  cidr = &amp;quot;10.99.0.0/18&amp;quot;
-  azs              = [&amp;quot;${local.region}a&amp;quot;, &amp;quot;${local.region}b&amp;quot;, &amp;quot;${local.region}c&amp;quot;]
-  public_subnets   = [&amp;quot;10.99.0.0/24&amp;quot;, &amp;quot;10.99.1.0/24&amp;quot;, &amp;quot;10.99.2.0/24&amp;quot;]
-  database_subnets = [&amp;quot;10.99.7.0/24&amp;quot;, &amp;quot;10.99.8.0/24&amp;quot;, &amp;quot;10.99.9.0/24&amp;quot;]
-...
-
-module &amp;quot;db&amp;quot; {
-  source = &amp;quot;../&amp;quot;
-
-  identifier = local.identifier
-
-  # All available versions: http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.VersionMgmt
-  engine               = &amp;quot;mysql&amp;quot;
-  engine_version       = &amp;quot;8.0.20&amp;quot;
-  family               = &amp;quot;mysql8.0&amp;quot; # DB parameter group
-  major_engine_version = &amp;quot;8.0&amp;quot;      # DB option group
-  instance_class       = &amp;quot;db.t3.large&amp;quot;
-
-  allocated_storage     = 20
-  max_allocated_storage = 100
-  storage_encrypted     = false
-
-  name     = local.name
-# you have to modify the username and password below
-  username = &amp;quot;your_db_user_name&amp;quot;
-  password = &amp;quot;your_db_user_password&amp;quot;
-
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h2&gt;(四)应用架构的部署&lt;/h2&gt; 
-&lt;p&gt;在部署应用之前，我们可以通过如下步骤获得一些关于EKS cluster和RDS的信息&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation15.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation15.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 这两个artifact,一个是描述EKS集群的信息,一个描述RDS的信息。如果你更改了EKS集群或RDS的名称等信息，请记录下这些内容。修改Gitlab全局环境变量:&lt;br /&gt; &lt;code&gt;DB_HOST_MASTER&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; cicdrds-eoca.*******.rds.cn-northwest-1.amazonaws.com.cn&lt;/code&gt;&lt;br /&gt; &lt;code&gt;DB_USER_MASTER&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; your_db_user_name&lt;/code&gt;&lt;br /&gt; &lt;code&gt;DB_PASSWORD_MASTER&amp;nbsp; your_db_user_password&lt;/code&gt;&lt;br /&gt; &lt;code&gt;DB_SCHEMA&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; cicdrds&lt;/code&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation16.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation16.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 另外，请按照你自己的设定修改app/eks/app-eks-gitlab-ci.yml&lt;/p&gt; 
-&lt;h3&gt;1)环境变量&lt;/h3&gt; 
-&lt;p&gt;特别是下图中的&lt;code&gt;CONTAINER_NAME,CONTAINER_IMAGE,ECR_STR,EKS_CLUSTER_PREFIX&lt;/code&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation17.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation17.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h3&gt;2)build应用docker镜像&lt;/h3&gt; 
-&lt;p&gt;另外，在 app/eks/app-eks-gitlab-ci.yml 中已经定义了在docker作为executor(执行器)，其中也包含了build应用为docker镜像，并推送到ECR的私有镜像仓库中，也包含了安装awscli,eksctl,kubectl工具，并创建kube config的步骤。&lt;br /&gt; 此处为build应用为docker镜像，并推送到ECR的私有镜像仓库中：&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation18.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation18.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h3&gt;3)创建ingress&lt;/h3&gt; 
-&lt;p&gt;此处包含了安装awscli,eksctl,kubectl工具，并创建kube config的步骤，当然为了发布web服务，其中也包含了创建ingress的步骤。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation19.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation19.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h3&gt;4)发布应用&lt;/h3&gt; 
-&lt;p&gt;最终是通过yaml文件来部署应用，当然也可用通过helm来部署&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation20.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation20.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;而对于RDS数据库中内容的设定，使用了Liquibase作为数据库的版本控制，Liquibase作为一个数据库版本管理工具，它实现了(1)数据库升级, (2)数据库回滚, (3)版本标记。这样能很好的满足在业务系统发展的过程中，对数据库中表结构以及表数据的管理做到版本化。&lt;br /&gt; 它的几个核心概念：版本号，管理的数据，差异比较，版本回滚, 版本号由开发人员来维护，使用 author + id的格式。&lt;br /&gt; Liquibase管理的数据最小单元为 changeSet，changeSet被包含在changelog中，changelog 是Liquibase版本控制的核心，Liquibase 通过有序的 changelog 罗列你对数据库的更改，就相当于你对数据变更的日志。Liquibase 使用这个变更日志来审计你的数据库，并执行任何还没有应用到目标数据库的变更操作。changelog支持5种格式来编写 — sql,xml,yaml,json,other 来编写。更多信息可以查看如下链接:&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://docs.liquibase.com/concepts/basic/home.html"&gt;https://docs.liquibase.com/concepts/basic/home.html&lt;/a&gt;&lt;br /&gt; 因为我们使用Liquibase docker镜像作为executor(执行器)，所不需要单独安装和部署，app/rds/app-rds-gitlab-ci.yml具体内容如下。&lt;br /&gt; Liquibase docker镜像作为executor(执行器)：&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation21.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation21.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;Liquibase执行数据库数据的变更：&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation22.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation22.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 我们通过修改 app/rds/README.md 和app/eks/README.md 来触发应用架构的部署。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation23.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation23.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;等EKS部署完测试的应用，在你的workstation执行如下命令&lt;br /&gt; &lt;code&gt;aws eks list-clusters&lt;/code&gt;&lt;br /&gt; &lt;code&gt;aws eks update-kubeconfig --name cicdeks-cluster-***&lt;/code&gt;&lt;br /&gt; &lt;code&gt;kubectl get ingress --all-namespaces&lt;/code&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation24.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation24.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;查看通过ingress暴露的测试应用&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation25.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/about-amazon-eks-gitlab-based-cicd-practice-ii-infrastructure-and-application-architecture-creation25.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 此时，你假如修改你的应用代码(例如app/eks/app.go)，将触发新一轮的应用CICD，当然你也可以加入更多的test(单元测试和集成测试的内容)内容到app/eks/app-eks-gitlab-ci.yml中。&lt;br /&gt; 至此，整个关于Gitlab的CICD的实践就完成了。在整篇博客中我们回顾的DevOps,CICD,GitOps的概念，同时又通过Git,Gitlab结合Terraform, Liquibase, Amazon Elastic Kubernetes Service(EKS), Amazon Relational Database Service (RDS), Amazon Elastic Container Registry(ECR), Docker实践了CICD，在这里也是GitOps。很好的展现了基于Gitlab的CICD的实践。&lt;/p&gt; 
-&lt;h2&gt;参考材料:&lt;/h2&gt; 
-&lt;p&gt;&lt;a href="https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html"&gt;https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html&lt;/a&gt;&lt;br /&gt; &lt;a href="https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools"&gt;https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools&lt;/a&gt;&lt;br /&gt; &lt;a href="https://aws.amazon.com/devops/"&gt;https://aws.amazon.com/devops/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://about.gitlab.com/topics/gitops/"&gt;https://about.gitlab.com/topics/gitops/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.cloudbees.com/gitops/what-is-gitops"&gt;https://www.cloudbees.com/gitops/what-is-gitops&lt;/a&gt;&lt;br /&gt; &lt;a href="https://about.gitlab.com/is-it-any-good/"&gt;https://about.gitlab.com/is-it-any-good/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/"&gt;https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.terraform.io/"&gt;https://www.terraform.io/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.liquibase.org/"&gt;https://www.liquibase.org/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.amazonaws.cn/eks/?nc1=h_ls"&gt;https://www.amazonaws.cn/eks/?nc1=h_ls&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.amazonaws.cn/rds/?nc1=h_ls"&gt;https://www.amazonaws.cn/rds/?nc1=h_ls&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.amazonaws.cn/ecr/?nc1=h_ls"&gt;https://www.amazonaws.cn/ecr/?nc1=h_ls&lt;/a&gt;&lt;br /&gt; &lt;a href="https://www.docker.com/"&gt;https://www.docker.com/&lt;/a&gt;&lt;br /&gt; &lt;a href="https://helm.sh/"&gt;https://helm.sh/&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/zhongmij.jpg" width="125" /&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;&lt;a href="https://aws.amazon.com/cn/blogs/china/tag/金忠敏/"&gt;金忠敏&lt;/a&gt;&lt;/h3&gt; 
-  &lt;p&gt;AWS解决方案架构师，现在专注于云计算解决方案和架构的工作。具有超过15年的IT从业经验，曾从事软件开发，售后支持，系统交付，售前等工作。参与过很多大型项目架构设计和实施交付。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/xiaoyj.jpg" width="125" /&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;&lt;a href="https://aws.amazon.com/cn/blogs/china/tag/肖元君/"&gt;肖元君&lt;/a&gt;&lt;/h3&gt; 
-  &lt;p&gt;AWS解决方案架构师，负责基于AWS云计算方案的架构咨询和设计实现，同时致力于数据分析与AI的研究与应用。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>利用 Amazon Transcribe Call Analytics 从客户对话中提取见解</title>
-		<link>https://aws.amazon.com/cn/blogs/china/extract-insights-from-customer-conversations-with-amazon-transcribe-call-analytics/</link>
-				<pubDate>Thu, 12 Aug 2021 03:15:43 +0000</pubDate>
-		<dc:creator><![CDATA[Julien Simon]]></dc:creator>
-				<category><![CDATA[Artificial Intelligence]]></category>
-
-		<guid isPermaLink="false">cb4140263d323550bbfa92edd2757a8e6a1bfbca</guid>
-				<description>2017 年，我们推出了 Amazon Transcribe，这是一项自动语音识别 (ASR) 服务，用于轻松地为任何应用程序添加语音转文本功能。今天，我非常高兴地宣布推出 Amazon Transcribe Call Analytics，这一全新功能可让您通过一次 API 调用轻松从客户对话中提取宝贵的见解。</description>
-								<content:encoded>&lt;p&gt;2017 年，我们推出了 &lt;a title="" href="https://aws.amazon.com/transcribe/"&gt;Amazon Transcribe&lt;/a&gt;，这是一项自动语音识别 (ASR) 服务，用于轻松地为任何应用程序添加语音转文本功能。今天，我非常高兴地宣布推出 &lt;a title="Amazon Transcribe Call Analytics" href="https://aws.amazon.com/transcribe/call-analytics/"&gt;Amazon Transcribe Call Analytics&lt;/a&gt;，这一全新功能可让您通过一次 API 调用轻松从客户对话中提取宝贵的见解。&lt;/p&gt; 
-&lt;p&gt;每次与潜在客户或现有客户展开的讨论都是了解其需求和期望的绝佳机会。例如，客户服务团队必须找出客户致电的主要原因，并衡量这些通话期间的客户满意度。同样，销售人员尝试衡量客户的兴趣所在及其对特定销售宣传言辞的反应。&lt;/p&gt; 
-&lt;p&gt;因此，许多客户和合作伙伴都希望在不同的应用程序中加入呼叫分析功能，并且无需考虑采用的联系中心提供商。他们通常需要分析的不仅仅是电话，还包括基于 Web 的音频和视频通话 (举例而言)。到目前为止，他们通常整合 AI 服务和专用机器学习模型来实现这一目标，因此他们要求我们提供更简单的解决方案。&lt;/p&gt; 
-&lt;p&gt;我们响应要求并构建了 &lt;a title="Amazon Transcribe Call Analytics" href="https://aws.amazon.com/transcribe/call-analytics/"&gt;Amazon Transcribe Call Analytics&lt;/a&gt;，这一加入 Transcribe 的全新功能是 &lt;a href="https://aws.amazon.com/machine-learning/contact-center-intelligence/"&gt;AWS 联系中心智能&lt;/a&gt;的重要增强。如果您迫不及待地想要试用此功能，请立即跳转到 &lt;a href="https://console.aws.amazon.com/transcribe/#jobsAnalytics"&gt;AWS 控制台&lt;/a&gt;。如果您想了解更多信息，请继续阅读！&lt;/p&gt; 
-&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;Amazon Transcribe 呼叫分析简介&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 基于 &lt;a title="Amazon Transcribe" href="https://aws.amazon.com/transcribe/"&gt;Transcribe&lt;/a&gt; 中实施的 ASR，&lt;span title="Transcribe Call Analytics"&gt;Transcribe Call Analytics&lt;/span&gt; 加了专门针对客户呼叫进行训练的自然语言处理 (NLP) 功能，同时进行了优化，以提供高度准确的呼叫转录和可指导行动的见解。通过简单的 API 调用，开发人员现在可以轻松地将呼叫分析功能加入任何应用程序，并从对话中提取客户见解，而无需构建 AI 管道和训练自定义机器学习模型。&lt;/p&gt; 
-&lt;p&gt;&lt;span title="Transcribe Call Analytics"&gt;Transcribe Call Analytics&lt;/span&gt; 的主要功能包括：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;带时间戳的按轮次呼叫转录 (以 21 种语言)。&lt;/li&gt; 
- &lt;li&gt;问题检测，这会在对话轮次中选择最短的连续单词集，其代表了客户致电的原因。无需进行任何配置或培训即可立即使用此功能。&lt;/li&gt; 
- &lt;li&gt;基于对话特征的呼叫分类： 
-  &lt;ul&gt; 
-   &lt;li&gt;匹配特定的单词和短语，&lt;/li&gt; 
-   &lt;li&gt;检测非通话时间，&lt;/li&gt; 
-   &lt;li&gt;检测中断，&lt;/li&gt; 
-   &lt;li&gt;分析客户和接线员的情绪。&lt;/li&gt; 
-  &lt;/ul&gt; &lt;/li&gt; 
- &lt;li&gt;呼叫特征，例如： 
-  &lt;ul&gt; 
-   &lt;li&gt;客户或接线员说话的速度和声调，&lt;/li&gt; 
-   &lt;li&gt;检测非通话时间，&lt;/li&gt; 
-   &lt;li&gt;检测中断。&lt;/li&gt; 
-  &lt;/ul&gt; &lt;/li&gt; 
- &lt;li&gt;根据文本转录和相应的音频文件中对敏感数据进行密文标记。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;例如，您可以创建规则来标记如下呼叫：客户打断接线员的说话，表现出负面情绪，并且说道：“我想与经理对话”。这些呼叫必然是进展不顺利，值得详细分析！ 您也可以寻找如下呼叫：接线员在前 15 秒内未使用预定义问候语（“欢迎致电 ACME 支持中心，今天有什么可以帮您的吗？”），借此衡量呼叫脚本合规性并帮助主管确认是否应指导接线员。另一种常见的场景是创建规则来标记提及特定产品和服务的对话内容 (“您的 ACME Turbo 2000 真空吸尘器未按预期发挥作用”)，以便掌握需要注意的任何新趋势。&lt;/p&gt; 
-&lt;p&gt;最后但并非最不重要的是，您可以使用其他 AI 服务 (如 &lt;a title="" href="https://aws.amazon.com/translate/"&gt;Amazon Translate&lt;/a&gt;) 或以 &lt;a title="" href="https://aws.amazon.com/sagemaker/"&gt;Amazon SageMaker&lt;/a&gt; 构建的自定义 NLP 模型进一步处理文本转录。&lt;/p&gt; 
-&lt;p&gt;现在，我们来做一个快速演示。&lt;/p&gt; 
-&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;使用 Amazon Transcribe Call Analytics 提取见解&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 这是一通虚构的支持呼叫，其中一位女士致电银行，报告自己的信用卡和借记卡丢失。声音文件是立体声 WAV 文件 (16 位，8kHz)。&lt;/p&gt; 
-&lt;p&gt;
- &lt;audio id="audio-52720-1" class="wp-audio-shortcode" style="width: 100%" preload="none" controls="controls"&gt;&lt;/audio&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span title="Transcribe Call Analytics"&gt;Transcribe Call Analytics&lt;/span&gt; 要求在各自的声道中录制接线员和客户的对话内容。我们还需要区分哪个是接线员声道。在立体声文件中，左声道通常是第一个声道 (声道 #0)，右声道则是第二个声道 (声道 #1)。对于此呼叫，情况即是如此。&lt;/p&gt; 
-&lt;p&gt;如果您不确定具体的声道，可以使用多功能的 &lt;a href="https://ffmpeg.org/"&gt;&lt;code&gt;ffmpeg&lt;/code&gt;&lt;/a&gt; 开源工具轻松地将每个声道提取到单独的音频文件中。&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;$ ffmpeg -i demo-call.wav -map_channel 0.0.0 channel0.wav -map_channel 0.0.1 channel1.wav&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;您可以使用同样的技术从其他文件类型 (例如视频文件) 中提取音频声道，然后将它们重新组合到立体声音频文件中。可以在 &lt;a href="https://trac.ffmpeg.org/wiki/AudioChannelManipulation"&gt;&lt;code&gt;ffmpeg&lt;/code&gt; 文档&lt;/a&gt;中找到更多相关信息。&lt;/p&gt; 
-&lt;p&gt;现在已确定接线员位于声道 #1 中，因此可以使用 &lt;a href="https://aws.amazon.com/cli/"&gt;AWS CLI&lt;/a&gt; 将音频文件上传到 S3 存储桶。&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;$ aws s3 cp launch-call.wav s3://jsimon-transcribe-useast1/demo-call.wav --region us-east-1&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;打开 &lt;span title="Transcribe Call Analytics"&gt;Transcribe Call Analytics&lt;/span&gt; &lt;a href="https://console.aws.amazon.com/transcribe/#jobsAnalytics"&gt;控制台&lt;/a&gt;，从中可以看到各种可用的呼叫类别模板。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-09.54.41.png"&gt;&lt;img class="wp-image-53569 size-full alignnone" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-09.54.41.png" alt="呼叫类别" width="1015" height="577" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;我决定创建一个类别以供主管上报。然后，通过几次单击，我就创建了一个名为 &lt;code&gt;welcome-message&lt;/code&gt; 的自定义呼叫类别，以检查接线员是否以适当的欢迎词开始通话。如果需要，我可以添加几个短语进行检查。我们建议您使用短句来尽量减少弹出填充词的可能性 (“嗯”、“呃”等)。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-09.48.52.png"&gt;&lt;img class="size-full wp-image-53568 aligncenter" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-09.48.52.png" alt="呼叫类别" width="719" height="371" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;然后，我使用 Transcribe 中提供的一般模型创建一个呼叫分析任务。我同时启用了自动语言检测功能。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.01.57.png"&gt;&lt;img class="alignnone size-full wp-image-53570" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.01.57.png" alt="创建任务" width="807" height="651" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;接下来，我定义 S3 中音频文件的位置，将声道 #1 标记为接线员声道。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.05.36.png"&gt;&lt;img class="size-full wp-image-53577 aligncenter" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.05.36.png" alt="创建任务" width="807" height="284" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;我决定将转录内容存储在我账户中 Transcribe 创建的默认 S3 存储桶内。如果需要，我也可以使用自己的存储桶。然后，我选择一个具备足够权限的 &lt;a title="" href="https://aws.amazon.com/iam/"&gt;AWS Identity and Access Management (IAM)&lt;/a&gt; 角色，然后启动该任务。&lt;/p&gt; 
-&lt;p&gt;大约一分钟后，任务即告完成。控制台包含文本转录的预览以及指向完整 JSON 转录内容的链接。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.44.05.png"&gt;&lt;img class="size-full wp-image-53578 aligncenter" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-10.44.05.png" alt="查看转录内容" width="991" height="285" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;由于接线员在前 15 秒钟内使用了正确的欢迎语句，因此以之前创建的类别标记此呼叫。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-13.42.19.png"&gt;&lt;img class="alignnone size-full wp-image-53579" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/07/23/Capture-d’écran-2021-07-23-à-13.42.19.png" alt="呼叫类别" width="969" height="160" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;下载 JSON 转录后，对话中的每条语句都会附上表示每个单词响度的元数据，该元数据的值范围为 0-100，100 表示非常响亮。以下是第一句话：&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;&amp;quot;BeginOffsetMillis&amp;quot;:440,&amp;quot;EndOffsetMillis&amp;quot;:4960,&lt;br /&gt; &amp;quot;情绪&amp;quot;:&amp;quot;NEUTRAL&amp;quot;,&lt;br /&gt; &amp;quot;ParticipantRole&amp;quot;:&amp;quot;接线员&amp;quot;,&lt;br /&gt; &amp;quot;LoudnessScores&amp;quot;:[78.68,80.4,81.91,78.95,82.34],&lt;br /&gt; &amp;quot;内容&amp;quot;:&amp;quot;您好，感谢您致电本行。我是 Ashley，今天有什么可以帮您的吗？&amp;quot;&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;通过查看下一句话，我发现 &lt;span title="Trancribe Call Analytics"&gt;Transcribe Call Analytics&lt;/span&gt; 自动检测到客户的问题。相应的文本以粗体显示：&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;&amp;quot;内容&amp;quot;: &amp;quot;你好，我需要&lt;strong&gt;取消我的卡片&lt;/strong&gt;。我有一张借记卡和一张信用卡。&amp;quot;,&lt;/code&gt;&lt;br /&gt; &lt;code&gt;&amp;quot;IssuesDetected&amp;quot;:&lt;/code&gt;&lt;code&gt;[&lt;/code&gt;&lt;code&gt;{&lt;/code&gt;&lt;code&gt;&amp;quot;UnredactedCharacterOffsets&amp;quot;:&lt;/code&gt;&lt;code&gt;{&lt;/code&gt;&lt;code&gt;&amp;quot;Begin&amp;quot;: 26,&lt;/code&gt;&lt;code&gt;&amp;quot;End&amp;quot;: 40&lt;/code&gt;&lt;code&gt;}}. . .&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;在转录内容的末尾，我看到了全局呼叫统计数据 (持续时间、通话时间、每分钟单词数、匹配的类别)。Transcribe 还为我提供了总体情绪信息，衡量范围从 -5 (非常负面) 到 +5 (非常正面)。我还得到了四个季度内的详细数据。&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;&amp;quot;情绪&amp;quot;:{&amp;quot;OverallSentiment&amp;quot;:{&amp;quot;接线员&amp;quot;:2.6,&amp;quot;客户&amp;quot;:0.2},&lt;br /&gt; &amp;quot;SentimentByPeriod&amp;quot;:{&amp;quot;季度&amp;quot;:&lt;br /&gt; {&amp;quot;接线员&amp;quot;:[&lt;br /&gt; {&amp;quot;分数&amp;quot;:1.9,&amp;quot;BeginOffsetMillis&amp;quot;:0,&amp;quot;EndOffsetMillis&amp;quot;:68457},&lt;br /&gt; {&amp;quot;分数&amp;quot;:-0.7,&amp;quot;BeginOffsetMillis&amp;quot;:68457,&amp;quot;EndOffsetMillis&amp;quot;:136915},&lt;br /&gt; {&amp;quot;分数&amp;quot;:5.0,&amp;quot;BeginOffsetMillis&amp;quot;:136915,&amp;quot;EndOffsetMillis&amp;quot;:205372},&lt;br /&gt; {&amp;quot;分数&amp;quot;:3.0,&amp;quot;BeginOffsetMillis&amp;quot;:205372,&amp;quot;EndOffsetMillis&amp;quot;:273830}],&lt;br /&gt; &amp;quot;客户&amp;quot;:[&lt;br /&gt; {&amp;quot;分数&amp;quot;:-1.7,&amp;quot;BeginOffsetMillis&amp;quot;:0,&amp;quot;EndOffsetMillis&amp;quot;:68165},&lt;br /&gt; {&amp;quot;分数&amp;quot;:0.0,&amp;quot;BeginOffsetMillis&amp;quot;:68165,&amp;quot;EndOffsetMillis&amp;quot;:136330},&lt;br /&gt; {&amp;quot;分数&amp;quot;:0.0,&amp;quot;BeginOffsetMillis&amp;quot;:136330,&amp;quot;EndOffsetMillis&amp;quot;:204495},&lt;br /&gt; {&amp;quot;分数&amp;quot;:2.1,&amp;quot;BeginOffsetMillis&amp;quot;:204495,&amp;quot;EndOffsetMillis&amp;quot;:272660}]}}}&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;可以看到，客户带着负面情绪开始通话，然后迅速变为中立情绪，并以正面的情绪结束通话。这是不错的迹象，表明此次通话得到了令人满意的处理，客户问题已经解决。&lt;/p&gt; 
-&lt;p&gt;如果想要将转录内容转换为带有额外可视化效果的 Word 文档，我的同事 Andrew Kan 构建了一个不错的工具并在 &lt;a href="https://github.com/aws-samples/amazon-transcribe-output-word-document"&gt;Github&lt;/a&gt; 上提供。以下是其工具生成的一份示例报告。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/Capture-d’écran-2021-08-03-à-18.53.03.png"&gt;&lt;img class="size-large wp-image-53794 aligncenter" style="border: 1px solid black" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/Capture-d’écran-2021-08-03-à-18.53.03-1024x859.png" alt="Andrew 的工具" width="1024" height="859" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;AWS 客户和合作伙伴正在使用 Amazon Transcribe Call Analytics&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://www.talkdesk.com/"&gt;Talkdesk&lt;/a&gt; 高级副总裁兼产品与工程、人工智能、自动化和劳动力全球负责人 &lt;a href="https://www.linkedin.com/in/benrigby/"&gt;Ben Rigby&lt;/a&gt; 告诉我们：“&lt;em&gt;我们的客户每年在联系中心处理数百万个客户服务电话，并且迫切需要提取可指导行动的对话见解，以确保取得积极的业务成果。作为 AWS 联系中心智能合作伙伴，我们通过 Amazon Transcribe 进一步增强呼叫转录功能。随着 Amazon Transcribe Call Analytics 的推出，我们很高兴能够为我们的语音分析和 QM Assist 产品融入更多 AI 功能。这些更深入的见解可以为接线员和主管提供所需的数据，以提升客户服务的速度和质量，同时提高员工生产力。&lt;/em&gt;”&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://successkpi.com/"&gt;SuccessKPI&lt;/a&gt; 首席产品官 &lt;a href="https://www.linkedin.com/in/praphulkumar/"&gt;Paphul Kumar&lt;/a&gt; 补充说道：“&lt;em&gt;Amazon Transcribe Call Analytics API 可让我们以更快的速度、更低的成本向平台添加基于机器学习的功能。借助这一全新的 API，我们不再需要将多个 AI 服务集成在一起，以及在某些领域开发自定义机器学习模型。借助 Transcribe Call Analytics，我们将能够提供对话见解，例如情绪、非通话时间和呼叫类别，以此衡量接线员的表现。这有助于推动更好的呼叫结果，减少接线员流动率，揭示指导接线员的需求以及衡量呼叫脚本合规性。我们未经任何考虑就将 AWS 服务结合到 SuccessKPI 的体验分析平台中。我们期待着把这一极具价值的能力带给大型企业和政府机构。&lt;/em&gt;”&lt;/p&gt; 
-&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;开始使用&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; 执行单次 API 调用就可从客户对话中提取丰富的见解。您可以立即在以下区域开始使用 &lt;a title="Amazon Transcribe Call Analytics" href="https://aws.amazon.com/transcribe/call-analytics/"&gt;Amazon Transcribe Call Analytics&lt;/a&gt;：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;span title=""&gt;美国西部 (俄勒冈)&lt;/span&gt;、&lt;span title=""&gt;美国东部 (弗吉尼亚北部)&lt;/span&gt;、&lt;/li&gt; 
- &lt;li&gt;&lt;span title=""&gt;加拿大 (中部)&lt;/span&gt;、&lt;/li&gt; 
- &lt;li&gt;&lt;span title=""&gt;欧洲 (伦敦)&lt;/span&gt;、&lt;span title=""&gt;欧洲 (法兰克福)&lt;/span&gt;、&lt;/li&gt; 
- &lt;li&gt;&lt;span title=""&gt;亚太地区 (孟买)&lt;/span&gt;、&lt;span title=""&gt;亚太地区 (新加坡)&lt;/span&gt;、&lt;span title=""&gt;亚太地区 (首尔)&lt;/span&gt;、&lt;span title=""&gt;亚太地区 (东京)&lt;/span&gt;、&lt;span title=""&gt;亚太地区 (悉尼)&lt;/span&gt;。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;请在 &lt;a href="https://console.aws.amazon.com/transcribe/#jobsAnalytics"&gt;AWS 控制台&lt;/a&gt;中尝试此新功能，然后告诉我们您的想法。我们如往常一样期待您的反馈！ 您可以通过您的常用 AWS Support 联系人发送反馈或者将反馈发布到面向 Amazon Transcribe 的 &lt;a href="https://forums.aws.amazon.com/forum.jspa?forumID=278"&gt;AWS 论坛&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;最后一件事：如果您正在寻求易于使用的全渠道云联系中心，请务必了解 &lt;a title="" href="https://aws.amazon.com/connect/"&gt;Amazon Connect&lt;/a&gt; 及其机器学习支持的分析 &lt;a title="" href="https://aws.amazon.com/connect/contact-lens/"&gt;Contact Lens&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;&lt;a title="" href="https://aws.amazon.com/developer/community/evangelists/julien-simon/"&gt;– Julien&lt;/a&gt;&lt;/p&gt;</content:encoded>
 										</item>
 	</channel>
 </rss>
