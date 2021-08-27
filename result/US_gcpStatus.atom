@@ -47,39 +47,5 @@
 &lt;p&gt;Diagnosis: Customers may not be able to look at live logs by running &amp;quot;tail&amp;quot; commands&lt;/p&gt;
 &lt;p&gt;Workaround: Normal log queries work fine and users can still use streaming in the UI.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Operations&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: GKE service is unaffected. Mitigation for issue with Anthos On-Prem admin workstation access, is underway. See further details below.</title>
-    <link href="https://status.cloud.google.com/incidents/A27EJTBQ6anaCdeNX6zp" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:A27EJTBQ6anaCdeNX6zp.j5MWaYSUeRKpvxpf7Rjm</id>
-    <updated>2021-08-26T21:15:54+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-26 06:49&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-26 18:06&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Anthos On-Prem customers unable to login to admin workstation (starting 2021-08-25 for customers using Anthos OP v1.7.2)&lt;/p&gt;
-&lt;p&gt;Description: Mitigation work is currently underway by our engineering team.&lt;/p&gt;
-&lt;p&gt;ETA for the releases:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Release 1.8.2 with the fix is expected to be next Monday (8/29).&lt;/li&gt;
-&lt;li&gt;And hotfix for 1.7.3 is expected to be next Thursday (9/02).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We will provide an update on  Thursday 2021-09-02 by 17:00 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Diagnosis: Customers are unable to login to their admin workstation in both their prod and non-prod environments.&lt;/p&gt;
-&lt;p&gt;Workaround: Mitigation steps for the admin workstation:
-Use a temporary VM to perform the following steps. If you don’t have a VM, you can create an admin workstation at 1.7.1-gke.4 as the temporary VM.&lt;/p&gt;
-&lt;p&gt;1)Ensure the VM and the problematic 1.7.2-gke.2 admin workstation are in power off state.&lt;/p&gt;
-&lt;p&gt;2)Attach the boot disk of the problematic admin workstation to the VM.
-The boot disk is the one with the label Hard disk 1.&lt;/p&gt;
-&lt;p&gt;3)Mount the boot disk inside the VM.
-sudo mkdir -p /mnt/boot-disk
-sudo mount /dev/sdc1 /mnt/boot-disk, assuming the boot disk is identified as dev/sdc1.&lt;/p&gt;
-&lt;p&gt;4)Set the ubuntu user expiration date to unlimited.
-sudo chroot /mnt/boot-disk chage -M 99999 ubuntu&lt;/p&gt;
-&lt;p&gt;5)Shutdown the temporary VM.&lt;/p&gt;
-&lt;p&gt;6)Power on the admin workstation. You should be able to SSH to the admin workstation as usual.&lt;/p&gt;
-&lt;p&gt;7)[Clean up] Delete the temporary VM.&lt;/p&gt;
-&lt;p&gt;Note that this fix will break the CIS benchmark rule[1] 5.4.1.1 Ensure password expiration is 365 days or less.&lt;/p&gt;
-&lt;p&gt;[1]&lt;a href="https://cloud.google.com/anthos/clusters/docs/on-prem/1.7/concepts/cis-ubuntu-benchmark"&gt;https://cloud.google.com/anthos/clusters/docs/on-prem/1.7/concepts/cis-ubuntu-benchmark&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Mitigation steps for non admin workstation nodes (including cluster nodes and Seesaw VM):&lt;/p&gt;
-&lt;p&gt;Login onto each node (or use SSH) to run the following command on the node
-sudo chroot /mnt/boot-disk chage -M 99999 ubuntu&lt;/p&gt;
-&lt;p&gt;Note that if the non admin workstation nodes are not SSHable due to the error, you will have to use the mitigation step for admin workstation.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Kubernetes Engine&lt;/p&gt;</summary>
   </entry>
 </feed>
