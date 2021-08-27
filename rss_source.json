@@ -88,6 +88,7 @@
 	"美國_Vultr_警報@US_vultrAlerts": "https://status.vultr.com/alerts.json",
 	"美國_Fastly_狀態@US_fastlyStatus": "https://status.fastly.com/history.atom",
 	"美國_亞馬遜AWS_狀態@US_awsStatus": "https://status.aws.amazon.com/rss/all.rss",
+	"美國_亞馬遜AWS_博客@US_awsBlog": "https://aws.amazon.com/cn/blogs/china/feed/",
 	"美國_微軟Azure_狀態@US_azureStatus" : "https://azurestatuscdn.azureedge.net/zh-tw/status/feed/",
 	"英國_路透社@UK_reuters.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/reuters/theWire",
 	"英國_BBC@UK_bbc": "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml",
