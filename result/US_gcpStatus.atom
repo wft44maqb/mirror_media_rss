@@ -23,15 +23,5 @@
 &lt;p&gt;If you have questions or are impacted, please open a case with the Support Team and we will work with you until this issue is resolved.&lt;/p&gt;
 &lt;p&gt;No further updates will be provided here. We thank you for your patience while we&amp;#39;re working on resolving the issue.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Kubernetes Engine&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>RESOLVED: Cloud Logging experiencing issue returning results for "tail" commands globally</title>
-    <link href="https://status.cloud.google.com/incidents/XnB6ncPMYd3Tei7XcCE1" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:XnB6ncPMYd3Tei7XcCE1.A7RZ7xvof1vaKewwekyN</id>
-    <updated>2021-08-26T21:53:29+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-26 14:25&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-26 14:53&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud Logging &lt;code&gt;gcloud alpha logging tail&lt;/code&gt; command and any direct calls to the Tailing API is believed to be affecting a very small number of projects and our Engineering Team is working on it.&lt;/p&gt;
-&lt;p&gt;If you have questions or are impacted, please open a case with the Support Team and we will work with you until this issue is resolved.&lt;/p&gt;
-&lt;p&gt;No further updates will be provided here.&lt;/p&gt;
-&lt;p&gt;We thank you for your patience while we&amp;#39;re working on resolving the issue.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Operations&lt;/p&gt;</summary>
   </entry>
 </feed>
