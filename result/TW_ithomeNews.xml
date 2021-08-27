@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/554/8073" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/554/8073</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/554/8073" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>Google強化App Engine應用程式安全，加入管理服務帳戶新功能</title>
+    <link>https://www.ithome.com.tw/news/146418</link>
+    <description> Google更新其無伺服器應用程式託管平臺App Engine，加入兩項新功能，除了提供用戶更多出站流量控制（Egress Controls）能力之外，也加入用戶管理服務帳戶，使得用戶能夠應用最低權限，來增加在App Engine上應用程式的安全性。</description>
+     <pubDate>2021-08-27  11:08:04</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146418</guid>
+  </item>
+  <item>
     <title>Google可能付蘋果150億美元換取預設搜尋引擎地位</title>
     <link>https://www.ithome.com.tw/news/146417</link>
     <description> 根據一份分析師估計，今年Google可能付給蘋果150億美元，以換取成為Safari瀏覽器預設搜尋引擎，而在微軟威脅陰影下，明年可能還會增加。</description>
@@ -252,14 +260,6 @@
      <pubDate>2021-08-25  02:08:41</pubDate>
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146376</guid>
-  </item>
-  <item>
-    <title>美國5G服務調查：T-Mobile明顯勝出</title>
-    <link>https://www.ithome.com.tw/news/146375</link>
-    <description> 科技雜誌PCMag已經連續12年針對美國的行動網路展開調查，此一調查在行動網路的世代轉移上更形重要，雖然美國前三大行動業者早就開始部署5G服務，但去年的調查顯示5G與4G的速度差不多，而在經歷一年的發展之後，PCMag認為，今年T-Mobile的5G服務已堪稱為全美之冠。</description>
-     <pubDate>2021-08-25  02:08:25</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146375</guid>
   </item>
   </channel>
 </rss>
