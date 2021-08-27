@@ -4,7 +4,7 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-08-27T15:30:40Z</updated>
+  <updated>2021-08-27T15:35:52Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -18,11 +18,11 @@
   </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7857693</id>
-    <published>2021-08-27T14:44:36Z</published>
-    <updated>2021-08-27T14:44:36Z</updated>
+    <published>2021-08-27T15:35:43Z</published>
+    <updated>2021-08-27T15:35:43Z</updated>
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/2lz8r5cwyg37"/>
     <title>Network Performance Issues in India</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;14:44&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;14:42&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Network Performance Issues in India&lt;br /&gt;&lt;br /&gt;Cloudflare is investigating issues with network performance in India.&lt;br /&gt;&lt;br /&gt;We are working to analyse and mitigate this problem.  More updates to follow shortly.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;15:35&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;14:44&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;14:42&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Network Performance Issues in India&lt;br /&gt;&lt;br /&gt;Cloudflare is investigating issues with network performance in India.&lt;br /&gt;&lt;br /&gt;We are working to analyse and mitigate this problem.  More updates to follow shortly.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7854887</id>
