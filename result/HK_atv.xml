@@ -15,7 +15,7 @@
 	<atom:link href="https://atvnewsonline.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://atvnewsonline.com</link>
 	<description>东南亚</description>
-	<lastBuildDate>Sat, 28 Aug 2021 03:42:26 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 28 Aug 2021 03:59:58 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -31,6 +31,35 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">193609154</site>	<item>
+		<title>【东京残奥会】大马波尼男子72公斤举重夺首金</title>
+		<link>https://atvnewsonline.com/sport/22847/</link>
+		
+		<dc:creator><![CDATA[廖 于绯]]></dc:creator>
+		<pubDate>Sat, 28 Aug 2021 03:59:23 +0000</pubDate>
+				<category><![CDATA[体育]]></category>
+		<category><![CDATA[快讯]]></category>
+		<category><![CDATA[举重]]></category>
+		<category><![CDATA[金牌]]></category>
+		<category><![CDATA[残奥会]]></category>
+		<guid isPermaLink="false">https://atvnewsonline.com/?p=22847</guid>
+
+					<description><![CDATA[举重名将波尼今日在东京残奥会力量举重男子72公斤级中，为大马夺下本届赛事首金。]]></description>
+										<content:encoded><![CDATA[
+<p>举重名将波尼（Bonnie Bunyau）今日在东京残奥会力量举重男子72公斤级中，为大马夺下本届赛事首金。</p>
+
+
+
+<p>波尼在比赛的前三轮中分别取得217公斤、225公斤、228公斤，提前锁定金牌。他也打破了伊拉克选手拉索保持的赛会纪录227公斤。<br><br>此前，波尼曾在今年6月22日创下230公斤世界纪录。</p>
+
+
+
+<p>波尼在第四轮中，希望以231公斤以打破自己的世界纪录，但无法如愿。<br><br>大马在上届的里约残奥会夺得三面金牌，分别是100米短跑莫哈末里祖安 （Mohamad Ridzuan） 、F20级铅球莫哈末吉雅(Muhammad Ziyad)及T20级跳远阿都拉迪夫(Abdul Latif Romly)</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">22847</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/08/msia-gold-fb.jpg</thumbnail>	</item>
+		<item>
 		<title>泰旅游局&#8221;试水温&#8221;  重开7旅游景点</title>
 		<link>https://atvnewsonline.com/asean/22836/</link>
 		
@@ -645,39 +674,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">22732</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/08/AP21181142514444.jpeg</thumbnail>	</item>
-		<item>
-		<title>新加坡调整防疫方针  排送自助检测仪</title>
-		<link>https://atvnewsonline.com/asean/22787/</link>
-		
-		<dc:creator><![CDATA[李毓琇]]></dc:creator>
-		<pubDate>Fri, 27 Aug 2021 23:00:00 +0000</pubDate>
-				<category><![CDATA[东南亚]]></category>
-		<category><![CDATA[新加坡]]></category>
-		<category><![CDATA[快讯]]></category>
-		<category><![CDATA[新冠肺炎]]></category>
-		<category><![CDATA[疫苗接种]]></category>
-		<category><![CDATA[自助检测仪]]></category>
-		<guid isPermaLink="false">https://atvnewsonline.com/?p=22787</guid>
-
-					<description><![CDATA[新加坡卫生部发文告，从周六（28日）开始，政府将派送六个抗原快速自助检测仪，让当地民众可以居家自行监测。]]></description>
-										<content:encoded><![CDATA[
-<p>随着新加坡的接种率高，当地政府把防疫重点放在检测和追踪健康情况。新加坡卫生部发文告，从周六（28日）开始，政府将派送六个抗原快速自助检测仪，让当地民众可以居家自行监测。</p>
-
-
-
-<p>卫生部强调，教育部和幼儿培育署也将在9月中旬分发三个自助检测仪，给所有符合条件的教育机构的学生和职员。</p>
-
-
-
-<p>文告显示截至8月26日，新加坡过去一个星期的每日平均新增本土病例，从前一个星期的47.1起 增加到76起。在过去一个星期的病例中，98.9%没有症状或症状轻微，无需接受专门医疗照顾。</p>
-
-
-
-<p>新加坡卫生部表示，到8月底，新加坡将达到80%人口接种疫苗的关键目标。37个大规模疫苗接种中心中，其中将关闭4个，其余的疫苗中心将把服务转移到，提供常规的医疗保健。</p>
-]]></content:encoded>
-					
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">22787</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/08/sg-2.jpeg</thumbnail>	</item>
 	</channel>
 </rss>
