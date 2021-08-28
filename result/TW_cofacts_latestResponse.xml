@@ -4,10 +4,37 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sat, 28 Aug 2021 03:32:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Aug 2021 03:35:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[印度Rajasthan 偏遠鄉下
+一位農夫說；晚上野豹會來跟他共眠卻沒人相信，直⋯⋯]]></title>
+            <link>https://cofacts.tw/article/4mivwbv298mc?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/4mivwbv298mc?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sat, 28 Aug 2021 03:32:26 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/4mivwbv298mc?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          印度Rajasthan 偏遠鄉下
+一位農夫說；晚上野豹會來跟他共眠卻沒人相信，直到 放了 攝影機
+        
+              <h2><a href="https://cofacts.tw/reply/BvTQinsBqH8xU4Aw05P4">最新回應</a></h2>
+              <p>含有錯誤訊息 by 邊緣人</p>
+              原本影片的說明欄指出：這些豹被飼養在南非、拍攝者是以前在那邊做過義工才被特別授權拍攝的。
+
+"These captive cheetahs were bred and born at cheetah breeding centers in South Africa; one at Cheetah Experience.
+
+I was granted special permission to spend my nights with the three because I had watched them grow up and built up a relationship with them during past volunteering."
+
+              <h2>出處</h2>
+              原始影片
+https://youtu.be/i3waAOcJkps
+
+英文查核報導：地點在南非而不是印度
+https://www.reuters.com/article/uk-factcheck-cheetahs-south-africa-not-i-idUSKBN2A22OY
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[⚠️⚠️Just now, my colleague received a ca⋯⋯]]></title>
             <link>https://cofacts.tw/article/2vokvrt7jl1fb?utm_source=Others&amp;utm_medium=RSS</link>
@@ -230,27 +257,6 @@ This simulation game event "Basiscamp" is held by members of the Corona Investig
 
 https://www.youtube.com/watch?v=fQaVvaF69D8&t=64s
 Breaking news: BasisCamp - Day 3
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[搶80萬劑BNT 開放意願登記時間公布
-
-https://www.chinati⋯⋯]]></title>
-            <link>https://cofacts.tw/article/18l93hb1znzvi?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/18l93hb1znzvi?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Fri, 27 Aug 2021 09:45:04 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/18l93hb1znzvi?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          搶80萬劑BNT 開放意願登記時間公布
-
-https://www.chinatimes.com/realtimenews/20210827003177-260405 (搶80萬劑BNT 開放意願登記時間公布 - 生活)
-        
-              <h2><a href="https://cofacts.tw/reply/x_T_hnsBqH8xU4AwnZAJ">最新回應</a></h2>
-              <p>含有正確訊息 by uienwt</p>
-              約200萬劑BNT疫苗即將來台，中央流行疫情指揮中心規劃12至18歲學生優先接種，人數約120萬人，剩下的80萬劑，指揮中心今宣布，將自8月28日下午2點起開放在疫苗平台意願登記。
-
-              <h2>出處</h2>
-              https://tw.stock.yahoo.com/news/%E6%94%BF%E6%B2%BB-%E6%90%B680%E8%90%AC%E5%8A%91bnt-%E9%96%8B%E6%94%BE%E6%84%8F%E9%A1%98%E7%99%BB%E8%A8%98%E6%99%82%E9%96%93%E5%85%AC%E5%B8%83-063454386.html
             ]]></description>
         </item>
     </channel>
