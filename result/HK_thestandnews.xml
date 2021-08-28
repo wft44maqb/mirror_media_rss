@@ -2,11 +2,121 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-28T09:47:29.504Z</updated>
+    <updated>2021-08-28T09:52:35.154Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[mRNA 疫苗「發明者」質疑疫苗有害？]]></title>
+        <id>https://www.thestandnews.com/cosmos/mrna-%E7%96%AB%E8%8B%97%E7%99%BC%E6%98%8E%E8%80%85%E8%B3%AA%E7%96%91%E7%96%AB%E8%8B%97%E6%9C%89%E5%AE%B3</id>
+        <link href="https://www.thestandnews.com/cosmos/mrna-%E7%96%AB%E8%8B%97%E7%99%BC%E6%98%8E%E8%80%85%E8%B3%AA%E7%96%91%E7%96%AB%E8%8B%97%E6%9C%89%E5%AE%B3"/>
+        <updated>2021-08-28T09:51:00.419Z</updated>
+        <summary type="html"><![CDATA[現時用作預防2019冠狀病毒病（COVID-19）的疫苗當中，有部分為採用新技術的「mRNA疫苗」，透過注射經修改的mRNA，讓接種者體內部分細胞製造SARS-CoV-2（引起COVID-19的病毒）表面的「刺突蛋白」（spike protein），從而讓免疫系統辨認及製造抗體。疫苗中的mRNA在身體製造刺突蛋白後便會分解，並無遺傳物質，不會如病毒般自我複製。[1]早前YouTube上出現一段宣…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/mRNA-web-V2-01.png"></figure><p>現時用作預防2019冠狀病毒病（COVID-19）的疫苗當中，有部分為採用新技術的「mRNA疫苗」，透過注射經修改的mRNA，讓接種者體內部分細胞製造SARS-CoV-2（引起COVID-19的病毒）表面的「刺突蛋白」（spike protein），從而讓免疫系統辨認及製造抗體。疫苗中的mRNA在身體製造刺突蛋白後便會分解，並無遺傳物質，不會如病毒般自我複製。<a href="https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/different-types-of-covid-19-vaccines/art-20506465"><sup>[1]</sup></a></p>
+
+<p>早前YouTube上出現一段宣稱「刺突蛋白非常危險，具細胞毒性」的網台節目影片&nbsp;<a href="https://www.youtube.com/watch?v=Du2wm5nhTXY"><sup>[2]</sup></a>，Facebook上亦有人以此影片作為理據，質疑現有的mRNA疫苗危險。<a href="https://www.facebook.com/100035902372226/posts/457000352173373"><sup>[3]</sup></a>&nbsp;<a href="https://www.facebook.com/347501365699305/posts/1225018127947620"><sup>[4]</sup></a></p>
+
+<p>影片中有三人發言，包括馬龍（Robert Malone）、韋斯坦（Bret Weinstein）及卻茨（Steve Kirsch）。韋斯坦在影片中整理另外兩人意見，指mRNA疫苗有兩個問題︰<a href="https://youtu.be/Du2wm5nhTXY?t=315"><sup>[5]</sup></a></p>
+
+<blockquote>
+<ol>
+	<li>mRNA疫苗注射後不停留在「它應在的地方」，會散佈全身</li>
+	<li>mRNA疫苗令身體產生的刺突蛋白「非常危險」、具細胞毒性。</li>
+</ol>
+</blockquote>
+
+<p>經查證，<strong>兩個說法均不可信</strong>。另外，馬龍被稱為「mRNA發明者」，然而此說法亦屬誤導。</p>
+
+<div><figure><img src="https://assets.thestandnews.com/media/photos/vlcsnap-2021-08-05-13h02m19s796.jpg"><figcaption><span>DarkHorse Podcast Clips YouTube頻道影片截圖</span></figcaption></figure></div>
+
+<h2 id="-"><strong>誤讀動物研究數據</strong></h2>
+
+<p>第一個論點來自卻茨，他在影片中表示，必度（Byram Bridle）向日本政府取得疫苗的生物分佈數據，發現疫苗在接種後不只留在注射位置，而是會散佈全身，甚至最集中在卵巢。</p>
+
+<p>經查證，<strong><a href="https://www.factchecklab.org/20210828a/">此說法屬誤導內容</a></strong>。</p>
+
+<p>首先，他<strong>錯誤宣稱</strong>必度向日本政府要求公開輝瑞藥廠（Pfizer）申請緊急授權使用疫苗的文件，才獲得有關資料，其說法容易令人誤會有關數據原本未有公開。然而必度的文章明確指出資料來源為《英國醫學期刊 》（The BMJ）一篇文章的參考資料。有關資料亦可見於英國、歐盟等的疫苗審核報告。</p>
+
+<p>其次，必度引用的數據來自一項動物實驗，該實驗向大鼠注射mRNA疫苗用作包住mRNA的兩款脂質納米粒（Lipid Nanoparticles, LNP），再檢視各個部位的LNP含量。卻茨宣稱疫苗聚集最多在卵巢的說法與<strong>數據不符</strong>︰卵巢的LNP濃度數字遠非首位，而且僅佔接種劑量的0.095%，即千分之一以下。</p>
+
+<p>而卻茨宣稱疫苗會「散佈全身」時亦忽略了一點︰根據他所引用的數據，LNP分佈於各部位<strong>比例懸殊</strong>。有關圖表列出的數據顯示，大多數部位在注射後各個時段所檢測到的LNP份量只佔注射劑量不足1%甚至0.1%，而主要檢測到LNP的部位為注射位置以及肝臟，在注射後48小時分別檢測到注射劑量的24.6%及16.2%。此外，考慮到注射劑量及體重，以每公斤劑量計算，大鼠實驗所注射的LNP比人類實際接種疫苗時高出超過10倍。</p>
+
+<p>歐洲藥品管理局（EMA）的有關疫苗審核報告中，審視了其他相關的動物實驗，包括使用遠高於在人體接種劑量的重複劑量毒性試驗，並同意兩款LNP並無任何非臨床的安全問題。</p>
+
+<p>完整查核報告及資料來源請參考︰<a href="https://www.factchecklab.org/20210828a/">【誤導內容】mRNA疫苗注射後不停留在「它應在的地方」？</a></p>
+
+<h2 id="-mrna-"><strong>打 mRNA 疫苗後身體產生刺突蛋白抗體</strong></h2>
+
+<p>第二個論點來自馬龍，他在影片中質疑，疫苗中的mRNA進入細胞後所產生的刺突蛋白具生物活性（biologically active），本應依附在細胞膜上，但如果脫離細胞在身體內游走便會引起副作用，他又認為目前沒有足夠研究證據支持使用疫苗。</p>
+
+<p>經查證，<strong><a href="https://www.factchecklab.org/20210828b/">此說法無足夠證據支持，亦不可信</a></strong>。</p>
+
+<p>馬龍在2021年6月21日於Twitter上宣稱刺突蛋白具細胞毒性，所引用的證據為沙克研究所（Salk Institute）一項研究。該研究為倉鼠注射無法複製但帶有刺突蛋白的「假病毒」，發現對肺部及動脈造成損害。論文作者最後提到，這項結果顯示疫苗令身體產生的刺突蛋白抗體後，<strong>不僅保護接種者免受SARS-CoV-2病毒感染，也能抑制刺突蛋白引起的損傷</strong>，與馬龍宣稱「疫苗危險」的說法相反。</p>
+
+<p>事實上，目前兩款mRNA疫苗所編碼的刺突蛋白經過修改，比起病毒上的刺突蛋白更容易令身體產生阻止感染的抗體。</p>
+
+<p>另一項研究檢測了13名曾接種mRNA疫苗的醫護人員的血漿，從而了解他們身體的刺突蛋白及相關抗體水平。結果發現，接種兩針以後，所有參與者的血漿中的刺突蛋白水平均會降至無法檢測水平。而且從接種者血漿所<strong>檢測到的刺突蛋白含量極低</strong>，遠低於上述沙克研究所實驗所使用的刺突蛋白水平，兩者相差約10萬倍。</p>
+
+<p>此外，兩款預防COVID-19的mRNA疫苗均有數萬人的大型對照研究，對比接種疫苗與安慰劑兩個組別，嚴重不良事件數字並無顯著差異。</p>
+
+<p>各國批准接種後亦有監察接種及不良事件數據，以偵測罕見副作用。例如以色列在大規模接種復必泰疫苗後，發現有證據顯示16至24歲男性接種後會輕微增加心肌炎風險，比例為每3000至6000人有一例，然而預防染病帶來的好處仍然超過有關輕微風險，以色列亦於7月底宣佈為60歲以上長者接種第三針加強劑。</p>
+
+<p>而歐洲藥品管理局的疫苗安全報告中記錄了接種疫苗後出現的不良事件數字，目前<strong>沒有證據</strong>顯示疫苗如馬龍所言「非常危險」。</p>
+
+<p>完整查核報告及資料來源請參考︰<a href="https://www.factchecklab.org/20210828b/">【沒有證據】接種mRNA疫苗後，身體產生的刺突蛋白「非常危險」？</a></p>
+
+<h2 id="-mrna--1"><strong>馬龍難以稱得上是「mRNA 疫苗發明者」</strong></h2>
+
+<p>有Facebook帖文和報導均稱馬龍為mRNA疫苗的發明者，馬龍的網站亦稱他為「mRNA疫苗唯一發明者」（the inventor of mRNA vaccines）。</p>
+
+<p>經查證，<a href="https://www.factchecklab.org/20210828c/">此說法屬<strong>誤導內容</strong></a>。</p>
+
+<p>根據馬龍的說法，他在1990年前後的研究使他成為mRNA疫苗發明者，他亦列出兩篇在頂尖期刊刊登的科學論文支持其說法。翻查資料，其中一篇他有份參與的論文於1990年在《科學》上刊登，既被視為基因療法以至mRNA疫苗發展的重要源頭，該論文的第一作者胡夫（Jon A. Wolff）被視為改變了整個基因療法領域的先驅。</p>
+
+<p>當時該研究僅證明有關概念可行，mRNA疫苗的發展仍面對大量難題，與實際應用還有一大段距離。例如其中一個障礙為mRNA容易引起免疫反應，問題直到2005年卡里高（Katalin Karikó）及韋斯曼（Drew Weissman）等人的研究才有解決辦法，兩人被視為對mRNA疫苗發展貢獻良多。</p>
+
+<p>mRNA疫苗的發展涉及大量科學家，難以歸功於單一「發明者」。即使採用狹窄定義，以1990年胡夫及馬龍等人在《科學》上刊登的研究為理由把團隊視為「mRNA發明者」，撇除當時技術未能應用外，整個團隊的功勞也不能歸於馬龍一人身上（他亦非論文第一作者）。因此稱馬龍為「mRNA疫苗唯一發明者」並不準確，屬<strong>誤導內容</strong>。</p>
+
+<p>完整查核報告及資料來源請參考︰<a href="https://www.factchecklab.org/20210828c/">【誤導內容】Robert Malone是mRNA疫苗發明者？</a></p>
+
+<p>&nbsp;</p>
+
+<p>跟COVID-19疫苗相關的事實查核報告︰</p>
+
+<ul>
+	<li><a href="https://factchecklab.org/20210111/">【錯誤及沒有證據】顧小培指mRNA疫苗無保護作用、或引起肝衰竭和腎衰竭</a></li>
+	<li><a href="https://factchecklab.org/20210524/">【誤導內容】美國COVID疫苗死亡人數逾過去15年總和？</a></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h2 id="--1"><strong>資料來源</strong></h2>
+
+<ol>
+	<li><a href="https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/different-types-of-covid-19-vaccines/art-20506465">Different types of COVID-19 vaccines: How they work (Mayo Clinic)</a></li>
+	<li><a href="https://www.youtube.com/watch?v=Du2wm5nhTXY">Spike protein is very dangerous, it's cytotoxic (Robert Malone, Steve Kirsch, Bret Weinstein)（DarkHorse Podcast Clips YouTube頻道影片）</a></li>
+	<li><a href="https://www.facebook.com/100035902372226/posts/457000352173373">Facebook專頁「雪行者」2021年6月19日帖文</a>（該專頁已被刪除）</li>
+	<li><a href="https://www.facebook.com/347501365699305/posts/1225018127947620">Facebook專頁「敗傲籮即高 嘥仁時 （Bio Sciences）」6月29日帖文</a></li>
+	<li>同 [2]，見影片5分15秒至5分55秒。</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<p>撰寫︰鄭家榆（執行編輯）<br>
+複核︰區家麟（編審成員）<br>
+校正︰劉軒（編審成員）</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.factchecklab.org/20210828/">原刊自事實查核實驗室（Factcheck Lab）</a></p>]]></content>
+        <author>
+            <name>事實查核實驗室 Factcheck Lab</name>
+            <uri>https://www.thestandnews.com/author/factchecklab</uri>
+        </author>
+        <category label="Cosmos"/>
+        <published>2021-08-28T09:49:22.983Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《七救星》要救的是？]]></title>
         <id>https://www.thestandnews.com/personal/%E4%B8%83%E6%95%91%E6%98%9F%E8%A6%81%E6%95%91%E7%9A%84%E6%98%AF</id>
@@ -775,42 +885,5 @@
         </author>
         <category label="國際"/>
         <published>2021-08-28T02:35:48.009Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[食素容易生腎結石嗎？]]></title>
-        <id>https://www.thestandnews.com/%E5%81%A5%E5%BA%B7/%E9%A3%9F%E7%B4%A0%E5%AE%B9%E6%98%93%E7%94%9F%E8%85%8E%E7%B5%90%E7%9F%B3%E5%97%8E</id>
-        <link href="https://www.thestandnews.com/%E5%81%A5%E5%BA%B7/%E9%A3%9F%E7%B4%A0%E5%AE%B9%E6%98%93%E7%94%9F%E8%85%8E%E7%B5%90%E7%9F%B3%E5%97%8E"/>
-        <updated>2021-08-27T14:11:34.576Z</updated>
-        <summary type="html"><![CDATA[【文：黃志榮（註冊營養師、兩間醫院的膳食及營養部主管）】「草酸鈣結石」是腎結石之中最普遍的一種，不少人認為食素會因為食多了蔬菜而增加草酸攝取量，導致容易生腎結石。雖然暫時未有直接關於素食與腎結石的研究，但大部分其他研究也顯示，素食者患有腎結石的風險其實比非素食者為低；而且有大型研究更指出風險低約 31%。縱使大量進食蔬果可能會增加草酸攝取量，但吸收率一般只會在鈣質不足的情況下才可能會增加（其實身…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/bRdRUUtbxO0.jpg"><figcaption><span>資料圖片，來源：Nathan Dumlao @ Unsplash</span></figcaption></figure><p>【文：黃志榮（註冊營養師、兩間醫院的膳食及營養部主管）】</p>
-
-<p>「草酸鈣結石」是腎結石之中最普遍的一種，不少人認為食素會因為食多了蔬菜而增加草酸攝取量，導致容易生腎結石。雖然暫時未有直接關於素食與腎結石的研究，但大部分其他研究也顯示，素食者患有腎結石的風險其實比非素食者為低；而且有大型研究更指出風險低約 31%。</p>
-
-<p>縱使大量進食蔬果可能會增加草酸攝取量，但吸收率一般只會在鈣質不足的情況下才可能會增加（其實身體一般只會吸收 10% 至 15% 的草酸）。有為期五年的隨機對照試驗顯示，攝取鈣質較多的組別，比攝取鈣質較少的組別的腎結石風險足足低約 50%。</p>
-
-<p>透過其他機制，蔬果其實亦有助減低形成腎結石的機會。相反，非素食者因為攝取較多動物蛋白質，生腎結石的風險其實更高。素食者只需確保攝取充足鈣質和水分，減少攝取鈉質，並維持健康體重便可。</p>
-
-<blockquote>
-<p><strong>高鈣質食物</strong></p>
-
-<ul>
-	<li>深綠色多葉蔬菜，如：西蘭花、椰菜、白菜、芥菜、菜芯</li>
-	<li>添加了鈣質的豆漿、米奶、果仁奶等</li>
-	<li>以鈣質凝固的豆腐，如：布包豆腐</li>
-	<li>芝麻、杏仁、奇亞籽</li>
-</ul>
-</blockquote>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/ccf0ba93fc624a4ebaf6ccb4392d992.jpg"><figcaption><span>圖片來源：不吃動物的人網站</span></figcaption></figure></div>
-
-<p>&nbsp;</p>
-
-<p><a href="https://www.frdofanimal.org/post/%E9%A3%9F%E7%B4%A0%E5%AE%B9%E6%98%93%E7%94%9F%E8%85%8E%E7%B5%90%E7%9F%B3%E5%97%8E" target="_blank">不吃動物的人網站</a></p>]]></content>
-        <author>
-            <name>不吃動物的人</name>
-            <uri>https://www.thestandnews.com/author/frdofanimal</uri>
-        </author>
-        <category label="健康"/>
-        <published>2021-08-27T14:11:34.576Z</published>
     </entry>
 </feed>
