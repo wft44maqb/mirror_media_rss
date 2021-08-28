@@ -4,8 +4,15 @@
         <title>Mobile01 最新文章</title>
                 <link>https://www.mobile01.com/newtopics.php</link>
         <description>Mobile01 最新文章</description>
-                <pubDate>Sun, 29 Aug 2021 07:07:01 +0800</pubDate>
+                <pubDate>Sun, 29 Aug 2021 07:27:01 +0800</pubDate>
                         <item>
+            <title>EXCEL其他工作表更新資料</title>
+            <link><![CDATA[https://www.mobile01.com/topicdetail.php?f=511&t=6442160]]></link>
+            <pubDate>Sun, 29 Aug 2021 07:10:55 +0800</pubDate>
+                        <description><![CDATA[<img src="https://attach2.mobile01.com/images/mobile01-facebook.jpg" class="webfeedsFeaturedVisual" />請問我有A和B兩個工作表B是抓取WEB網頁數據A的某些儲存格同步WEB資料有辦法弄個巨集按鈕按了之後會去更新B的資料A就會自動同步而不需要手動切去B更新又切回A謝謝]]></description>
+                                                <category>文書處理</category>
+                    </item>
+                <item>
             <title>啞鈴彎舉多重算厲害？</title>
             <link><![CDATA[https://www.mobile01.com/topicdetail.php?f=697&t=6442159]]></link>
             <pubDate>Sun, 29 Aug 2021 06:38:42 +0800</pubDate>
@@ -1047,13 +1054,6 @@
             <pubDate>Sat, 28 Aug 2021 16:58:33 +0800</pubDate>
                         <description><![CDATA[<img src="https://attach2.mobile01.com/images/mobile01-facebook.jpg" class="webfeedsFeaturedVisual" />平常已經盡量穿裙子或者沒那麼緊身的褲子了看完醫生後，醫生雖然說沒有什麼問題。不過，私密處隱隱約約感覺還是有異味……雖然有人說多喝水也可以改善但水若喝太多常跑廁所會造成我工作上的不便因為實在很困擾這樣]]></description>
                                                 <category>女人心事</category>
-                    </item>
-                <item>
-            <title>請問一下  誤刪line訊息紀錄  兩個禮拜 itunes可以回復成功嗎?</title>
-            <link><![CDATA[https://www.mobile01.com/topicdetail.php?f=627&t=6441927]]></link>
-            <pubDate>Sat, 28 Aug 2021 16:58:09 +0800</pubDate>
-                        <description><![CDATA[<img src="https://attach2.mobile01.com/images/mobile01-facebook.jpg" class="webfeedsFeaturedVisual" />請問一下大家我不小心用電腦版的line 把聊天室刪除了結果同步到手機端我用任何方法都無法回復因為只要回復成功 一但連上網路line的伺服器 就會同步之前刪除聊天室 的指令再刪除一次但我知道line的]]></description>
-                                                <category>iPhone 軟體</category>
                     </item>
             </channel>
 </rss>
