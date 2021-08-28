@@ -15,7 +15,7 @@
 	<atom:link href="https://atvnewsonline.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://atvnewsonline.com</link>
 	<description>东南亚</description>
-	<lastBuildDate>Sat, 28 Aug 2021 01:53:11 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 28 Aug 2021 01:58:16 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -31,6 +31,43 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">193609154</site>	<item>
+		<title>聚焦风险管控课题 拜登国防高官首次与中国军方通话</title>
+		<link>https://atvnewsonline.com/world/22826/</link>
+		
+		<dc:creator><![CDATA[廖 于绯]]></dc:creator>
+		<pubDate>Sat, 28 Aug 2021 02:00:00 +0000</pubDate>
+				<category><![CDATA[国际]]></category>
+		<category><![CDATA[快讯]]></category>
+		<category><![CDATA[中美关系]]></category>
+		<category><![CDATA[拜登政府]]></category>
+		<category><![CDATA[国防安全课题]]></category>
+		<guid isPermaLink="false">https://atvnewsonline.com/?p=22826</guid>
+
+					<description><![CDATA[在阿富汗局势紧张之际，拜登政府首次与中国军方沟通，就安全课题及两国之间的风险管理进行对话。]]></description>
+										<content:encoded><![CDATA[
+<p>在阿富汗局势紧张之际，拜登政府首次与中国军方沟通，就安全课题及两国之间的风险管理进行对话。</p>
+
+
+
+<p>根据路透社报道，美国一名国防部高级官员在周五（27日）与中国军方通过视讯方式，进行了首次对话。<br>一位匿名的美国官员告诉路透社，这次的沟通主要聚焦于两国之间的风险管控。</p>
+
+
+
+<p>这也是自美国总统拜登自今年1月上任以来，中美国防部首次进行对话。</p>
+
+
+
+<p>此前，美国官员也曾透露，美国国防部长奥斯汀尚未与中国国防部长魏凤和进行对话，原因在于哪位中国官员是奥斯汀的对等官员的争论。</p>
+
+
+
+<p>新华社报道，中共国防部新闻发言人谭克非周四（26日）在国防部例行记者会上表示，美方须切实尊重中国的核心利益和重大关切，纠正自身错误言行，多做有利于两国两军关系发展的事情。</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">22826</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/08/中美关系-reuters.jpg</thumbnail>	</item>
+		<item>
 		<title>【评论】被绑架的首相——依斯迈沙比里</title>
 		<link>https://atvnewsonline.com/asean/22717/</link>
 		
@@ -626,30 +663,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">22688</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/08/c9b31090-00fa-4cf1-b3e2-948e6e0995f2.jpg</thumbnail>	</item>
-		<item>
-		<title>委内瑞拉暴雨引发土石流  灾情酿至少20死</title>
-		<link>https://atvnewsonline.com/world/22677/</link>
-		
-		<dc:creator><![CDATA[李毓琇]]></dc:creator>
-		<pubDate>Fri, 27 Aug 2021 13:00:00 +0000</pubDate>
-				<category><![CDATA[视频]]></category>
-		<category><![CDATA[国际]]></category>
-		<category><![CDATA[水灾]]></category>
-		<category><![CDATA[委内瑞拉]]></category>
-		<category><![CDATA[土石流]]></category>
-		<guid isPermaLink="false">https://atvnewsonline.com/?p=22677</guid>
-
-					<description><![CDATA[委内瑞拉西部连日来暴雨，引发土石流和水灾，泥水带来的破坏力相当猛烈，许多房屋倒塌，积水退去但还覆盖着厚厚的泥浆，民众目前都在清理家园。]]></description>
-										<content:encoded><![CDATA[
-<p>委内瑞拉西部连日来暴雨，引发土石流和水灾，泥水带来的破坏力相当猛烈，许多房屋倒塌，积水退去但还覆盖着厚厚的泥浆，民众目前都在清理家园。</p>
-
-
-
-<p>梅里达州还有好几个城镇仍然没有电力供应，而委内瑞拉有超过8000户民宅房屋被暴雨毁损，当地气象局警告，未来10天将会持续降雨，促请民众做好准备。</p>
-]]></content:encoded>
-					
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">22677</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/08/venezuela-flood.jpg</thumbnail><video>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/08/venezuela-flood.mp4</video>	</item>
 	</channel>
 </rss>
