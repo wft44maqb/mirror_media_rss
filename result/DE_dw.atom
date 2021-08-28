@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-28T13:58:40Z</updated>
+ <updated>2021-08-28T14:01:30Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,36 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59012730</id>
+  <title><![CDATA[德语媒体：中国需要一个稳定的阿富汗]]></title>
+  <updated>2021-08-28T13:52:00Z</updated>
+  <published>2021-08-28T13:52:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：中国需要一个稳定的阿富汗/a-59012730?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美军匆忙撤离阿富汗留下的烂摊子，到底由谁来收拾？《每日镜报》认为，中国必须有所行动，因为阿富汗局势稳定符合中国的战略利益。《皇冠报》则指出，中国如今嘲笑美国只是表面现象，实际上正在为伊斯兰极端势力抬头而惊恐万分。]]></summary>
+  <category term="评论分析"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59012745</id>
+  <title><![CDATA[为文化对话颁发歌德奖章]]></title>
+  <updated>2021-08-28T13:52:00Z</updated>
+  <published>2021-08-28T13:52:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/为文化对话颁发歌德奖章/a-59012745?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[8月28日是德国文学巨匠歌德的生日，歌德奖章的颁奖礼也定在这一天。今年的获奖者是喀麦隆社会经济学家贝尔、日本作曲家细川俊夫和中国舞蹈艺术家文慧。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59012656</id>
+  <title><![CDATA[对北京说不？欧盟公共采购合同或将中企排除在外]]></title>
+  <updated>2021-08-28T13:37:00Z</updated>
+  <published>2021-08-28T13:37:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/对北京说不？欧盟公共采购合同或将中企排除在外/a-59012656?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国公司今后可能被排除在欧盟的公共采购合同之外。欧洲人民党党团计划在下周向欧盟议会递交“国际采购工具“（IPI），根据这份文件，那些不开放本国公共采购市场的第三国投标方，也将被排除在欧盟公共合同的招标之外。]]></summary>
+  <category term="经济纵横"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59011557</id>
   <title><![CDATA[气候预报：飓风艾达可能变得"极其危险"]]></title>
@@ -405,16 +435,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58888640</id>
-  <title><![CDATA[打动人心是扩大疫苗接种的制胜法宝？]]></title>
-  <updated>2021-08-22T07:19:00Z</updated>
-  <published>2021-08-22T07:19:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
-  <category term="科技环境"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58897772</id>
   <title><![CDATA[东欧国家认清了中国投资？]]></title>
   <updated>2021-08-22T07:19:00Z</updated>
@@ -425,14 +445,14 @@
   <category term="经济纵横"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58944458</id>
-  <title><![CDATA[德语媒体：中国经济为何能持续增长?]]></title>
-  <updated>2021-08-21T14:52:00Z</updated>
-  <published>2021-08-21T14:52:00Z</published>
+  <id>tag:dw.com,2021:58888640</id>
+  <title><![CDATA[打动人心是扩大疫苗接种的制胜法宝？]]></title>
+  <updated>2021-08-22T07:19:00Z</updated>
+  <published>2021-08-22T07:19:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：中国经济为何能持续增长/a-58944458?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[《商报》认为，中国监管部门近期频频对私营企业进行干预，让全球投资者都感到不安，担心中国失去全球经济稳定器的作用。《每日镜报》则批评说，北京大力干预私营经济，将导致投资者不敢投资中国企业，导致中国经济缺乏足够的创新资金。]]></summary>
-  <category term="评论分析"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
+  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58884884</id>
@@ -475,16 +495,6 @@
   <category term="经济纵横"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58889106</id>
-  <title><![CDATA[管控互联网企业 中国立法禁止网络不正当竞争]]></title>
-  <updated>2021-08-17T14:53:00Z</updated>
-  <published>2021-08-17T14:53:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/管控互联网企业-中国立法禁止网络不正当竞争/a-58889106?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国监管当局发布《禁止网络不正当竞争行为规定》草案，征求社会意见。这一法规将是北京管控互联网企业的又一步骤。 ]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58885172</id>
   <title><![CDATA[被指曾性虐待12岁女童  鲍勃·迪伦遭起诉]]></title>
   <updated>2021-08-17T09:56:00Z</updated>
@@ -512,16 +522,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国metoo有进展？吴亦凡因涉嫌强奸罪被批捕/a-58721211?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国男星吴亦凡因涉“多次诱骗年轻女性发生性关系”遭到北京警方刑事拘留，并于8月16日因涉嫌强奸罪被批捕。此前曾有律师指出，吴亦凡虽是加拿大籍，但若罪名成立将需在中国服刑。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:57217683</id>
-  <title><![CDATA[巴赫：小提琴组曲第三号第三乐章]]></title>
-  <updated>2021-08-16T12:26:00Z</updated>
-  <published>2021-08-16T12:26:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/巴赫：小提琴组曲第三号第三乐章/a-57217683?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[约翰·塞巴斯蒂安·巴赫的无伴奏小提琴奏鸣曲与组曲是音樂史上最著名的小提琴作品之一，大约创作于1720年。]]></summary>
   <category term="文化经纬"/>
  </entry>
  <entry>
@@ -570,15 +570,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -586,6 +577,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
