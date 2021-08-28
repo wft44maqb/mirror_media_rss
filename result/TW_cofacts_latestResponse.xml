@@ -4,10 +4,33 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sat, 28 Aug 2021 08:17:15 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Aug 2021 08:20:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[疫苗發明人說不能注射疫苗，因為將在3～5年內死亡
+打越多劑的人越容易死亡]]></title>
+            <link>https://cofacts.tw/article/3ry5mzevxqemn?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/3ry5mzevxqemn?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sat, 28 Aug 2021 08:20:29 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/3ry5mzevxqemn?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          疫苗發明人說不能注射疫苗，因為將在3～5年內死亡
+打越多劑的人越容易死亡
+        
+              <h2><a href="https://cofacts.tw/reply/2_TYi3sBqH8xU4AwiZPO">最新回應</a></h2>
+              <p>不在查證範圍 by vanillam</p>
+              訊息意思不完整無法查證。
+例如：
+疫苗發明人（指哪一種疫苗？肝炎還是COVID-19還是其他？）
+因為（什麼，某類人還是病毒還是指其他東西？）將在3～5年內死亡・・・
+
+
+              
+              
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[https://vocus.cc/article/60bc2cf5fd89780⋯⋯]]></title>
             <link>https://cofacts.tw/article/mvtvjjpj512z?utm_source=Others&amp;utm_medium=RSS</link>
@@ -542,26 +565,6 @@ https://www.reuters.com/article/uk-factcheck-cheetahs-south-africa-not-i-idUSKBN
 
               <h2>出處</h2>
               https://www.mygopen.com/2021/08/covid-phone.html
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[興達電廠再傳跳機！1機組故障　台電正召開緊急會議 | CTWANT | LINE⋯⋯]]></title>
-            <link>https://cofacts.tw/article/al8dm6tiljw?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/al8dm6tiljw?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Fri, 27 Aug 2021 21:58:47 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/al8dm6tiljw?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          興達電廠再傳跳機！1機組故障　台電正召開緊急會議 | CTWANT | LINE TODAY
-
-https://liff.line.me/1454987169-1WAXAP3K/v2/article/RPOV1j?utm_source=lineshare (興達電廠再傳跳機！1機組故障　台電正召開緊急會議 | CTWANT | LINE TODAY)
-        
-              <h2><a href="https://cofacts.tw/reply/FPSfiXsBqH8xU4AwXJLR">最新回應</a></h2>
-              <p>含有正確訊息 by Lopez</p>
-              513興達電廠跳機停電 是操作錯誤所致，517錯估水力備用電，供電量追不上用電量，727則是核二廠操作問題,經濟部已公佈台電懲處名單25人 台電董事長 總經理各記大過一次，其他懲處名單包括 副總經理、處長、廠長，「都是高階主管」。參考[1]
-
-
-              <h2>出處</h2>
-              [1] 中央社：大停電、核二跳機懲處25人 台電董事長總經理記大過https://www.cna.com.tw/news/firstnews/202108275004.aspx
             ]]></description>
         </item>
     </channel>
