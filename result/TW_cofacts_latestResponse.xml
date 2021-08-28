@@ -4,10 +4,32 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sat, 28 Aug 2021 08:14:34 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Aug 2021 08:17:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[https://vocus.cc/article/60bc2cf5fd89780⋯⋯]]></title>
+            <link>https://cofacts.tw/article/mvtvjjpj512z?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/mvtvjjpj512z?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sat, 28 Aug 2021 08:16:23 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/mvtvjjpj512z?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          https://vocus.cc/article/60bc2cf5fd8978000180121c (讓長輩活下來！打到疫苗前的救命方法，法國研究這麼說 | 陳豐偉 - vocus)
+        
+              <h2><a href="https://cofacts.tw/reply/1_TUi3sBqH8xU4Awy5M8">最新回應</a></h2>
+              <p>含有錯誤訊息 by vanillam</p>
+              美國FDA有說明，並沒有審批以Ivermectin作為治療COVID-19.
+讀者應注意此類訊息，文中從不清楚交待地點（城市及機構名稱），引用的所謂報告，訊息創作人可能也沒看清楚，內文如下：
+There are both epidemiological (i.e. the ecological nature of the data with probability of unmeasured confounding) and virological limitations of the available data, and difficulties in extrapolating in vitro antiviral effects against different coronaviruses to clinical efficacy. However, the plausibility is sufficient to carry out further studies to elucidate whether ivermectin (and moxidectin) is or is not an appropriate candidate for the prevention of COVID‐19.
+
+              <h2>出處</h2>
+              https://www.fda.gov/consumers/consumer-updates/why-you-should-not-use-ivermectin-treat-or-prevent-covid-19
+
+訊息內引述報告原文
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8013623/
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[民進黨大老吳庭光的文章-悲慘的台灣]]></title>
             <link>https://cofacts.tw/article/3hu24kuy14gpx?utm_source=Others&amp;utm_medium=RSS</link>
@@ -540,25 +562,6 @@ https://liff.line.me/1454987169-1WAXAP3K/v2/article/RPOV1j?utm_source=lineshare 
 
               <h2>出處</h2>
               [1] 中央社：大停電、核二跳機懲處25人 台電董事長總經理記大過https://www.cna.com.tw/news/firstnews/202108275004.aspx
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[【獨家】興達電廠一機組再傳故障跳機　台電正召開緊急會議
-https://tw.⋯⋯]]></title>
-            <link>https://cofacts.tw/article/2g7fvohrdnvia?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/2g7fvohrdnvia?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Fri, 27 Aug 2021 21:56:06 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/2g7fvohrdnvia?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          【獨家】興達電廠一機組再傳故障跳機　台電正召開緊急會議
-https://tw.appledaily.com/life/20210517/WCZPLCCQQZFXLB5GALGLDH4SIA/ (【獨家】興達電廠一機組再傳故障跳機　台電正召開緊急會議 ｜ 蘋果新聞網 ｜ 蘋果日報)
-        
-              <h2><a href="https://cofacts.tw/reply/EfSciXsBqH8xU4Aw6JJn">最新回應</a></h2>
-              <p>含有正確訊息 by Lopez</p>
-              513興達電廠跳機停電 是操作錯誤所致，517錯估水力備用電，供電量追不上用電量，727則是核二廠操作問題,經濟部已公佈台電懲處名單25人 台電董事長 總經理各記大過一次，其他懲處名單包括 副總經理、處長、廠長，「都是高階主管」。
-
-              <h2>出處</h2>
-              [1] https://www.cna.com.tw/news/firstnews/202108275004.aspx
             ]]></description>
         </item>
     </channel>
