@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 28 Aug 2021 21:48:42 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Aug 2021 21:51:31 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 28 Aug 2021 21:48:41 GMT</pubDate>
+        <pubDate>Sat, 28 Aug 2021 21:51:31 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -117,6 +117,27 @@
             <link>https://cn.wsj.com/articles/%E5%90%89%E5%88%A9%E6%97%97%E4%B8%8B%E9%9B%BB%E5%8B%95%E8%BB%8A%E5%85%AC%E5%8F%B8%E5%B0%87%E5%90%91%E8%8B%B1%E7%89%B9%E7%88%BE%E5%92%8C%E5%AF%A7%E5%BE%B7%E6%99%82%E4%BB%A3%E7%AD%89%E6%8A%95%E8%B3%87%E8%80%85%E7%B1%8C%E8%B3%875%E5%84%84%E7%BE%8E%E5%85%83-11630066335</link>
             <guid isPermaLink="false">CT-BIZ-20210827195650</guid>
             <pubDate>Fri, 27 Aug 2021 12:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[從美國軍機墜下身亡的阿富汗17歲足球新星]]></title>
+            <description><![CDATA[<img width="1280" height="1278" src="https://si.wsj.net/public/resources/images/S1-LR655_0824FA_OR_20210823173041.jpg" class="webfeedsFeaturedVisual" alt=""/><p>眼看著塔利班湧入喀布爾，扎基·安瓦裡覺得未來一片灰暗。身為阿富汗國家青年足球隊隊員的他擔心再也沒法踢球，不顧一切地試圖離開。隨後，這名少年從美國軍機上墜落的影片在網上瘋傳，成為這場撤離中令全世界觸目驚心的一幕。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%BE%9E%E7%BE%8E%E5%9C%8B%E8%BB%8D%E6%A9%9F%E5%A2%9C%E4%B8%8B%E8%BA%AB%E4%BA%A1%E7%9A%84%E9%98%BF%E5%AF%8C%E6%B1%9717%E6%AD%B2%E8%B6%B3%E7%90%83%E6%96%B0%E6%98%9F-11630046708</link>
+            <guid isPermaLink="false">CT-BGH-20210827143056</guid>
+            <pubDate>Fri, 27 Aug 2021 07:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[美國30至39歲人群因新冠住院率創新高]]></title>
+            <description><![CDATA[<img width="1280" height="914" src="https://si.wsj.net/public/resources/images/S1-LO142_COVIDT_OR_20210813133014.jpg" class="webfeedsFeaturedVisual" alt=""/><p>在新冠疫情爆發的初期，這一年齡段的被感染者基本不需要住院，但傳染性極強的Delta變種病毒使得年輕人也招架不住，而眼下疫苗接種率的提升速度放緩，使得防疫形勢十分嚴峻。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B30%E8%87%B339%E6%AD%B2%E4%BA%BA%E7%BE%A4%E5%9B%A0%E6%96%B0%E5%86%A0%E4%BD%8F%E9%99%A2%E7%8E%87%E5%89%B5%E6%96%B0%E9%AB%98-11629783005</link>
+            <guid isPermaLink="false">CT-BGH-20210824131217</guid>
+            <pubDate>Tue, 24 Aug 2021 06:01:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[塔利班奪權不到一周，阿富汗女性已開始淡出公眾視線]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LQ092_AFWOME_OR_20210818173618.jpg" class="webfeedsFeaturedVisual" alt=""/><p>隨著塔利班開始壓制自由，阿富汗女性既害怕外出，也不敢暢所欲言。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%A1%94%E5%88%A9%E7%8F%AD%E5%A5%AA%E6%AC%8A%E4%B8%8D%E5%88%B0%E4%B8%80%E5%91%A8%EF%BC%8C%E9%98%BF%E5%AF%8C%E6%B1%97%E5%A5%B3%E6%80%A7%E5%B7%B2%E9%96%8B%E5%A7%8B%E6%B7%A1%E5%87%BA%E5%85%AC%E5%85%B1%E5%A0%B4%E6%89%80-11629420306</link>
+            <guid isPermaLink="false">CT-BGH-20210820080743</guid>
+            <pubDate>Fri, 20 Aug 2021 02:35:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
