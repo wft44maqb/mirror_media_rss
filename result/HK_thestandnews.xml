@@ -2,11 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-28T07:01:27.713Z</updated>
+    <updated>2021-08-28T07:06:29.113Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[新增六宗輸入個案　有酒店拒做指定外傭檢疫酒店]]></title>
+        <id>https://www.thestandnews.com/society/%E6%96%B0%E5%A2%9E%E5%85%AD%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-%E6%9C%89%E9%85%92%E5%BA%97%E6%8B%92%E5%81%9A%E6%8C%87%E5%AE%9A%E5%A4%96%E5%82%AD%E6%AA%A2%E7%96%AB%E9%85%92%E5%BA%97</id>
+        <link href="https://www.thestandnews.com/society/%E6%96%B0%E5%A2%9E%E5%85%AD%E5%AE%97%E8%BC%B8%E5%85%A5%E5%80%8B%E6%A1%88-%E6%9C%89%E9%85%92%E5%BA%97%E6%8B%92%E5%81%9A%E6%8C%87%E5%AE%9A%E5%A4%96%E5%82%AD%E6%AA%A2%E7%96%AB%E9%85%92%E5%BA%97"/>
+        <updated>2021-08-28T07:03:47.524Z</updated>
+        <summary type="html"><![CDATA[衞生署錄得 6 宗新增確診個案，均為輸入個案，患者涉及 4 男 2 女，年齡介乎 5 個月大至 53 歲，分別從美國、緬甸、比利時、阿聯酋、菲律賓及阿塞拜疆抵港，當中 4 月曾接種一至兩劑疫苗。至今本港個案累計 12, 101宗（包括一宗疑似個案），過去 14 天（8月 14 日至 27 日）累計報告64宗個案，包括一宗源頭不明本地個案及一宗與輸入個案有流行病學關連的個案，其餘均為輸入個案。政府…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/hotel.png"></figure><p>衞生署錄得 6 宗新增確診個案，均為輸入個案，患者涉及 4 男 2 女，年齡介乎 5 個月大至 53 歲，分別從美國、緬甸、比利時、阿聯酋、菲律賓及阿塞拜疆抵港，當中 4 月曾接種一至兩劑疫苗。</p>
+
+<p>至今本港個案累計 12, 101宗（包括一宗疑似個案），過去 14 天（8月 14 日至 27 日）累計報告64宗個案，包括一宗源頭不明本地個案及一宗與輸入個案有流行病學關連的個案，其餘均為輸入個案。</p>
+
+<p><strong>政府曾拒部分酒店做指定檢疫酒店</strong></p>
+
+<p>就菲傭印傭即將可來港工作，勞工及福利局局長羅致光今早 (28 日) 出席電台節目後稱，政府曾經接觸一些酒店，作為供在印尼或菲律賓完成疫苗接種的外籍家庭傭工檢疫之用的「指定檢疫設施」，但有些酒店不願意參與，現時所公布開始接受申請的荃灣絲麗酒店是暫時唯一一間此時可以提供檢疫房間的酒店。</p>
+
+<p>羅致光續稱，勞福局及勞工處並沒有拒絕任何一間表示有興趣參與該計劃的的酒店，但他承認，在過往政府物色檢疫酒店的安排中，的確有些表示有意的酒店並沒有納入指定檢疫酒店的名單。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-28T06:49:27.818Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[真奇怪，真奇怪，但市民心中有判斷]]></title>
         <id>https://www.thestandnews.com/politics/%E7%9C%9F%E5%A5%87%E6%80%AA%E7%9C%9F%E5%A5%87%E6%80%AA%E4%BD%86%E5%B8%82%E6%B0%91%E5%BF%83%E4%B8%AD%E6%9C%89%E5%88%A4%E6%96%B7</id>
@@ -1121,51 +1143,5 @@ Barchuk, A., Cherkashin, M., Bulina, A. &amp; et al. (2021). Vaccine Effectivene
         </author>
         <category label="政治"/>
         <published>2021-08-27T14:46:11.240Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【UTMB】黃浩聰今再戰殿堂級越野賽　目標 23 小時內完賽]]></title>
-        <id>https://www.thestandnews.com/running/utmb%E9%BB%83%E6%B5%A9%E8%81%B0%E4%BB%8A%E5%86%8D%E6%88%B0%E6%AE%BF%E5%A0%82%E7%B4%9A%E8%B6%8A%E9%87%8E%E8%B3%BD-%E7%9B%AE%E6%A8%99-23-%E5%B0%8F%E6%99%82%E5%85%A7%E5%AE%8C%E8%B3%BD</id>
-        <link href="https://www.thestandnews.com/running/utmb%E9%BB%83%E6%B5%A9%E8%81%B0%E4%BB%8A%E5%86%8D%E6%88%B0%E6%AE%BF%E5%A0%82%E7%B4%9A%E8%B6%8A%E9%87%8E%E8%B3%BD-%E7%9B%AE%E6%A8%99-23-%E5%B0%8F%E6%99%82%E5%85%A7%E5%AE%8C%E8%B3%BD"/>
-        <updated>2021-08-27T15:06:53.096Z</updated>
-        <summary type="html"><![CDATA[【體路專訊】香港越野跑手黃浩聰在法國時間今日（27 日）下午 5 時（即香港時間晚上 11 時）將會出戰 2021 年的 UTMB（環勃朗峰超級越野耐力賽），這位在兩年前參賽曾創下歷史性佳績、成為首位躋身 UTMB 前十名香港跑手的港將今番再度挑戰，目標是在 23 小時內完成全長 171 公里的賽道，挑戰自己兩年前所錄得的 22 小時 47 分 47 秒的完賽時間。（Photo credit: …]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/cr534untM827.png"><figcaption><span>《體路》製圖</span></figcaption></figure><p>【體路專訊】香港越野跑手黃浩聰在法國時間今日（27 日）下午 5 時（即香港時間晚上 11 時）將會出戰 2021 年的 UTMB（環勃朗峰超級越野耐力賽），這位在兩年前參賽曾創下歷史性佳績、成為首位躋身 UTMB 前十名香港跑手的港將今番再度挑戰，目標是在 23 小時內完成全長 171 公里的賽道，挑戰自己兩年前所錄得的 22 小時 47 分 47 秒的完賽時間。</p>
-
-<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2021/08/crosscountry_UTMB_20210827_01.jpeg">
-<figcaption>（Photo credit: UTMB 官網）</figcaption>
-</figure>
-
-<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2021/08/crosscountry_UTMB_20210827_02.jpeg">
-<figcaption>（Photo credit: UTMB 官網）</figcaption>
-</figure>
-
-<p>環勃朗峰超級越野耐力賽是全球享負盛名的越野賽，是全球頂尖越野跑手趨之若鶩、至為神聖的賽事。比賽會在法國東部接壤意大利和瑞士的山區小鎮沙慕尼（Chamonix）展開，賽道全長大約 171 公里，圍繞阿爾卑斯山的最高峰勃朗峰跑一圈，跑手會穿梭法國、瑞士及意大利三個歐洲國家，累計總攀升超過 10,000 米，最後會回到沙慕尼衝線。</p>
-
-<p><img src="https://www.sportsroad.hk/wp-content/uploads/2021/08/crosscountry_UTMB_20210827_04.jpg"></p>
-
-<p>今次並非黃浩聰首次出戰 UTMB，他對上一次出賽是 2019 年，其時錄得的時間為 22 小時 47 分 47 秒，與另一位來自厄瓜多爾的跑手 Joaquin Lopez 以第六名攜手衝線，是成績最好的亞洲跑手之餘，也是歷來第一位在 UTMB 跑入前十名的香港跑手。賽事去年因為新型肺炎疫情的關係，自 2004 年開始舉辦以來第二度「斷纜」，賽事對上一次取消則是 2010 年。談到再次參賽，黃浩聰直言箇中的挑戰相當大。</p>
-
-<p>他說：「我們於 5 月尾才收到今次 UTMB 比賽通知，準備時間比平常短，需要以密集訓練進入狀態，挑戰著身體更大承受限度。出門時更收到消息需延長隔離，但每一次跨越障礙令我帶來更大動力，全力為出賽做好準備。山上的天氣亦是變幻無常，難以預測，故高性能又保暖的裝備一定要準備充足。」根據黃浩聰個人 Instagram 在周四（26 日）的限時動態，寒冷天氣套裝被列為強制裝備，即每位與賽跑手都必須帶上。天氣預報方面，沙慕尼今午 5 時的氣溫預計為攝氏 13 度、濕度為 54%，入夜後溫度會降至個位數字，明日清晨 4 時的溫度預計為攝氏 4 度。</p>
-
-<p><img src="https://www.sportsroad.hk/wp-content/uploads/2021/08/crosscountry_UTMB_20210827_05.jpg"></p>
-
-<p>黃浩聰賽前明言難以預測今屆賽事的排名，故會將目標定在 23 小時內完賽，挑戰兩年前的成績。如果黃浩聰能按目標完成賽事，他將會在香港時間周六（28 日）晚上 10 時前衝線。</p>
-
-<p>黃浩聰在今年 5 月底得悉可以參加今年的 UTMB 後，隨即在 6 月定出訓練計劃，包括在 6 月累積 600 公里及 10,000 米攀升、7 月累積 1,000 公里及 20,000 米攀升，另外也進行了五課長課訓練。</p>
-
-<figure><img src="https://www.sportsroad.hk/wp-content/uploads/2021/08/crosscountry_UTMB_20210827_03.jpeg">
-<figcaption>（Photo credit: Twitter）</figcaption>
-</figure>
-
-<p>UTMB 還有其他多個級別的賽事，當中的 TDS 賽在周三（25 日）發生致命意外，一名捷克跑手墮崖喪生。意外發生後，賽會勒令其時仍未經過 Passeur de Pralognan 的跑手需要折返，只容許已經跑過該路段的選手繼續比賽；TDS 賽的 434 名選手中，最後有 212 人完賽。</p>
-
-<p>&nbsp;</p>
-
-<p>原刊於<a href="https://www.sportsroad.hk/archives/348056" target="_blank">《體路》</a></p>]]></content>
-        <author>
-            <name>體路報道</name>
-            <uri>https://www.thestandnews.com/author/sportsroad</uri>
-        </author>
-        <category label="跑步"/>
-        <published>2021-08-27T15:06:53.096Z</published>
     </entry>
 </feed>
