@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 28 Aug 2021 09:39:05 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Aug 2021 09:43:45 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[新冠病毒：美國公布溯源報告概要，情報機構到底說了什麼]]></title>
+            <description><![CDATA[統領美國18家情報機關的國家情報總監辦公室公布這份報告的概要，其屬下的情報機關分為兩派，一派認為源於與受感染的動物接觸，另一派認為是實驗室事故造成。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58367045?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58367045</guid>
+            <pubDate>Sat, 28 Aug 2021 09:38:24 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[阿富汗局勢：美軍無人機擊斃一名IS-K策劃人員]]></title>
             <description><![CDATA[這次無人機打擊是周四喀布爾機場炸彈襲擊發生後首次公開的行動。「死神」無人機擊中了楠格哈爾省一輛轎車中的IS-K武裝分子，車內兩人均已喪命。]]></description>
@@ -64,18 +71,18 @@
             <pubDate>Fri, 27 Aug 2021 11:42:56 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[中國教育：雙減新政落地滿月 教培行業經歷最寒冷的暑假]]></title>
-            <description><![CDATA[除了裁員潮外，大量教培機構扎堆進入素質教育行業，開展圍棋班、美術班等，甚至開展家長培訓，以此尋找新的市場空間，存活下去。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58329276?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58329276</guid>
-            <pubDate>Thu, 26 Aug 2021 01:30:49 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[飲食與健康：植物性飲食怎樣吃最營養？]]></title>
             <description><![CDATA[英國專家說，健康的植物性飲食「關鍵是要吃多種植物類食材，但不一定完全避免動物產品」。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58334253?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58334253</guid>
             <pubDate>Fri, 27 Aug 2021 13:47:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中國教育：雙減新政落地滿月 教培行業經歷最寒冷的暑假]]></title>
+            <description><![CDATA[除了裁員潮外，大量教培機構扎堆進入素質教育行業，開展圍棋班、美術班等，甚至開展家長培訓，以此尋找新的市場空間，存活下去。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58329276?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58329276</guid>
+            <pubDate>Thu, 26 Aug 2021 01:30:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[塔利班的喀布爾：一位印度僑民撤離喀布爾的經歷]]></title>
@@ -132,13 +139,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58330336?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58330336</guid>
             <pubDate>Wed, 25 Aug 2021 12:58:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[阿富汗成為頭號鴉片生產國，塔利班是罪魁禍首嗎]]></title>
-            <description><![CDATA[塔利班稱，該組織上次在阿富汗掌權時便已停止了罌粟種植和非法毒品的交易，事實是這樣嗎？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58327628?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58327628</guid>
-            <pubDate>Wed, 25 Aug 2021 07:54:48 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：過去20年阿富汗發生了哪些改變？]]></title>
@@ -386,13 +386,6 @@
             <pubDate>Mon, 23 Aug 2021 07:57:14 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[阿富汗局勢：美國總統拜登撤軍亂局的三個重要問題]]></title>
-            <description><![CDATA[BBC北美事務編輯形容，美國從阿富汗撤軍的混亂局面堪稱教科書級別，如果要寫一本書，書名可以是《如何輸得精光》。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58256526?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58256526</guid>
-            <pubDate>Wed, 18 Aug 2021 13:25:51 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[阿富汗局勢：即將重掌控制權的塔利班是誰？]]></title>
             <description><![CDATA[塔利班武裝分子奪取了阿富汗各大主要城市，如今已進入阿富汗首都喀布爾並佔領了總統府。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58229091?at_medium=RSS&amp;at_campaign=KARANGA</link>
@@ -414,18 +407,18 @@
             <pubDate>Thu, 12 Aug 2021 06:39:40 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[阿富汗成為頭號鴉片生產國，塔利班是罪魁禍首嗎]]></title>
+            <description><![CDATA[塔利班稱，該組織上次在阿富汗掌權時便已停止了罌粟種植和非法毒品的交易，事實是這樣嗎？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58327628?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58327628</guid>
+            <pubDate>Wed, 25 Aug 2021 07:54:48 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[台灣語言學習中心進軍美國, 挑戰中國的孔子學院?]]></title>
             <description><![CDATA[台灣今年決定在美、英、法、德國建立20所語言學習中心，相信是要搶佔一些孔子學院退場後留出的華語學習市場。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58170293?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58170293</guid>
             <pubDate>Fri, 13 Aug 2021 01:03:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[阿富汗局勢：「今日阿富汗，明日台灣」？ 美國安顧問稱兩者截然不同]]></title>
-            <description><![CDATA[美國撤軍後阿富汗政府迅速垮台，總統逃往國外，塔利班重新掌控喀布爾引發逃難人潮，阿富汗局勢的發展引發台海兩岸的關注和熱烈討論。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58247669?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58247669</guid>
-            <pubDate>Wed, 18 Aug 2021 09:51:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[BBC中文合作伙伴]]></title>
