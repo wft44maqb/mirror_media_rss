@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 28 Aug 2021 11:22:33 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Aug 2021 11:27:54 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -36,6 +36,13 @@
             <pubDate>Fri, 27 Aug 2021 10:43:43 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[英國外交難題：查戈斯群島爭議的前因後果]]></title>
+            <description><![CDATA[毛里求斯要從英國手中奪取印度洋查戈斯群島的控制權：禁止在島上使用英國郵票。查戈斯群島對印太地區有何重要性？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58358153?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58358153</guid>
+            <pubDate>Sat, 28 Aug 2021 11:13:09 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[阿富汗局勢、美國新冠溯源報告、台灣「高端」疫苗和本周更多重要故事]]></title>
             <description><![CDATA[剛剛過去的一周，BBC中文的以下新聞內容受到讀者的關注。如果你錯過了它們，BBC中文帶你一一回顧。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58353916?at_medium=RSS&amp;at_campaign=KARANGA</link>
@@ -55,13 +62,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58352921?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58352921</guid>
             <pubDate>Fri, 27 Aug 2021 07:14:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[香港《星島日報》美國版貼上「外國代理人」標籤]]></title>
-            <description><![CDATA[《星島日報》並非由中國政府機構直接擁有，但是在今年較早前將大部分股權出售給了中國內地一名富商的女兒。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58341419?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58341419</guid>
-            <pubDate>Fri, 27 Aug 2021 01:02:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：宣稱發動喀布爾機場爆炸的IS-K是家什麼組織]]></title>
@@ -181,6 +181,13 @@
             <link>https://www.bbc.com/zhongwen/trad/science-55846146?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-55846146</guid>
             <pubDate>Tue, 13 Jul 2021 13:59:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[香港《星島日報》美國版貼上「外國代理人」標籤]]></title>
+            <description><![CDATA[《星島日報》並非由中國政府機構直接擁有，但是在今年較早前將大部分股權出售給了中國內地一名富商的女兒。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58341419?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58341419</guid>
+            <pubDate>Fri, 27 Aug 2021 01:02:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[鄭松泰：香港立法會最後一名民主派議員被取消議席]]></title>
