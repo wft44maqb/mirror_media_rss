@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-28T05:36:00.535Z</updated>
+    <updated>2021-08-28T05:41:03.692Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -38,6 +38,30 @@
         </author>
         <category label="社會"/>
         <published>2021-08-28T05:09:31.877Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[旅遊網站還是放棄香港市場好了]]></title>
+        <id>https://www.thestandnews.com/politics/%E6%97%85%E9%81%8A%E7%B6%B2%E7%AB%99%E9%82%84%E6%98%AF%E6%94%BE%E6%A3%84%E9%A6%99%E6%B8%AF%E5%B8%82%E5%A0%B4%E5%A5%BD%E4%BA%86</id>
+        <link href="https://www.thestandnews.com/politics/%E6%97%85%E9%81%8A%E7%B6%B2%E7%AB%99%E9%82%84%E6%98%AF%E6%94%BE%E6%A3%84%E9%A6%99%E6%B8%AF%E5%B8%82%E5%A0%B4%E5%A5%BD%E4%BA%86"/>
+        <updated>2021-08-28T05:37:10.590Z</updated>
+        <summary type="html"><![CDATA[話說我在某旅遊網站一早已是金卡會員，住酒店自動有升級優惠那種。一年前，收到網站通知「知道大家這段時間無法外遊賺取積分，所有會員層級自動延續一年」。然後又過一年，繼續無法外遊，於是數日前又收到網站通知會員層級再次自動延續一年。心想，今時今日，旅遊業認真生意難做。其實很多國家都讓已打針的香港人入境，問題是你去完之後如何回來。香港對旅客入境的嚴苛程度，已讓很多外資員工怨聲載道。趕走外資，原來還是政府最…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210721_Recovered-19.png"></figure><p>話說我在某旅遊網站一早已是金卡會員，住酒店自動有升級優惠那種。一年前，收到網站通知「知道大家這段時間無法外遊賺取積分，所有會員層級自動延續一年」。然後又過一年，繼續無法外遊，於是數日前又收到網站通知會員層級再次自動延續一年。心想，今時今日，旅遊業認真生意難做。</p>
+
+<p>其實很多國家都讓已打針的香港人入境，問題是你去完之後如何回來。香港對旅客入境的嚴苛程度，已讓很多外資員工怨聲載道。趕走外資，原來還是政府最在行。看接種率，成年人其實已過七成，現在問題出在老年人身上，政府再促請甚麼僱主要求也影響不到他們。恐怕是要再有爆發，他們才會去接種。但開關這回事，就算已全民打針，恐怕最後還是不到香港政府自己作主吧？</p>
+
+<p>思前想後，提議旅遊網站還是放棄香港市場好了。</p>
+
+<p>&nbsp;</p>
+
+<p>（標題為編輯所擬）</p>
+
+<p><a href="https://www.facebook.com/594642803906393/posts/4259021880801782/">原刊於作者 facebook</a></p>]]></content>
+        <author>
+            <name>梁啟智</name>
+            <uri>https://www.thestandnews.com/author/%E6%A2%81%E5%95%9F%E6%99%BA</uri>
+        </author>
+        <category label="政治"/>
+        <published>2021-08-28T05:36:32.195Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【東京殘奧】王婷莛 4 強惜負摘銅　奪港隊第一面獎牌]]></title>
@@ -867,40 +891,6 @@ body {
         <published>2021-08-27T15:56:17.267Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[美研究警告不減碳 2100 年 82% 海洋表面變酸變暖　嚴重影響漁業與食物安全]]></title>
-        <id>https://www.thestandnews.com/nature/%E7%BE%8E%E7%A0%94%E7%A9%B6%E8%AD%A6%E5%91%8A%E4%B8%8D%E6%B8%9B%E7%A2%B3-2100-%E5%B9%B4-82-%E6%B5%B7%E6%B4%8B%E8%A1%A8%E9%9D%A2%E8%AE%8A%E9%85%B8%E8%AE%8A%E6%9A%96-%E5%9A%B4%E9%87%8D%E5%BD%B1%E9%9F%BF%E6%BC%81%E6%A5%AD%E8%88%87%E9%A3%9F%E7%89%A9%E5%AE%89%E5%85%A8</id>
-        <link href="https://www.thestandnews.com/nature/%E7%BE%8E%E7%A0%94%E7%A9%B6%E8%AD%A6%E5%91%8A%E4%B8%8D%E6%B8%9B%E7%A2%B3-2100-%E5%B9%B4-82-%E6%B5%B7%E6%B4%8B%E8%A1%A8%E9%9D%A2%E8%AE%8A%E9%85%B8%E8%AE%8A%E6%9A%96-%E5%9A%B4%E9%87%8D%E5%BD%B1%E9%9F%BF%E6%BC%81%E6%A5%AD%E8%88%87%E9%A3%9F%E7%89%A9%E5%AE%89%E5%85%A8"/>
-        <updated>2021-08-27T15:37:21.209Z</updated>
-        <summary type="html"><![CDATA[最新刊於《科學報告》的研究警告，除非人類控制碳排放，否則到本世紀末，地球海表的 95% 將會出現重大變化，影響海洋生物健康，繼而對漁業與食物安全造成嚴重打擊。自工業革命以來，全球海洋已吸收了大約三分之一人類排出的碳，但隨著大氣二氧化碳濃度以至少 300 萬年來，前所未見的速度增加，學者擔心海洋表面氣候，可能會變得不再適合一直存在的物種棲息。在是次研究中，團隊希望了解自 18 世紀中葉以來，碳污染…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/%E6%B5%B7%E8%A1%A8_Rcn0PhY.png"></figure><p><a href="https://doi.org/10.1038/s41598-021-94872-4">最新刊於《科學報告》的研究警告</a>，除非人類控制碳排放，否則到本世紀末，地球海表的 95% 將會出現重大變化，影響海洋生物健康，繼而對漁業與食物安全造成嚴重打擊。</p>
-
-<p>自工業革命以來，全球海洋已吸收了大約三分之一人類排出的碳，但隨著大氣二氧化碳濃度以至少 300 萬年來，前所未見的速度增加，學者擔心海洋表面氣候，可能會變得不再適合一直存在的物種棲息。</p>
-
-<p>在是次研究中，團隊希望了解自 18 世紀中葉以來，碳污染對海洋表面產生甚麼影響，同時預測至 2100 年碳排放的影響。團隊模擬了三個時期的全球海洋氣候，分別是 19 世紀初 (1795-1834) 、 20 世紀後期 (1965-2004) 、和 21 世紀後期 (2065-2114) ，並模擬兩種排放模式，第一個是 RCP 4.5，即假設到 2050 年溫室氣體排放量達到峰值，然後在本世紀剩餘時間緩慢下降，第二個則是 RCP 8.5，即一切照舊、在未來 80 年碳排放繼續上升的場境。</p>
-
-<p>團隊發現，在 RCP 4.5 下，整個 20 世紀存在的 36% 的海洋表面狀況到 2100 年可能會消失。在 RCP8.5 下，數字更急劇增至 95% 。</p>
-
-<p>模型又顯示，雖然海洋表面氣候在 20 世紀幾乎沒有變化跡象，但到 2100 年，多達 82% 的海洋表面可能會經歷近代史上從未見過的氣候，包括更熱、更酸、含有較少對海洋生物生長至關重要的礦物質的海洋。</p>
-
-<p>領導研究的美國東北大學海洋科學中心人口基因學家 Katie Lotterhos 表示，碳污染造成的海洋成分變化，可能會影響所有地表物種。她表明，已因現今氣候而正在消失的物種，必須適應不同生存條件，因現時可見的海水溫度和化學成分，在未來將很少見或不存在。</p>
-
-<p>雖然迄今為止海表物種仍能四處游動以避免異常溫暖或酸性的海洋區域，但研究表明由於近乎均勻的海水變暖和酸化，未來這些生物的選擇可能會受到限制。Lotterhos 補充，現時已有許多海洋物種為了應對暖化而改變了活動範圍，她相信在未來幾十年，在同一地區發現的物種群落會快速變化。因此各國政府需要監測海洋表層物種的變化，同時要停止排放碳。</p>
-
-<p>來源：<br>
-Science Alert, <a href="https://www.sciencealert.com/oceans-in-2100-will-be-hotter-more-acidic-and-more-hostile-for-sea-life">95% of Earth's Ocean Surface Is on Track to Change For The Worse if We Don't Act Now</a>, 27 August 2021</p>
-
-<p>報告：<br>
-Lotterhos, K.E., Láruson, Á.J. &amp; Jiang, LQ. (2021). Novel and disappearing climates in the global surface ocean from 1800 to 2100.&nbsp;<em>Sci Rep</em>&nbsp;11,&nbsp;15535. doi: <a href="https://doi.org/10.1038/s41598-021-94872-4">10.1038/s41598-021-94872-4</a></p>
-
-<p>文／Alan Chiu</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="Green"/>
-        <published>2021-08-27T04:08:01.855Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[俄研究稱國產疫苗 Sputnik V 感染 Delta 後預防入院率達 81%]]></title>
         <id>https://www.thestandnews.com/cosmos/%E4%BF%84%E7%A0%94%E7%A9%B6%E7%A8%B1%E5%9C%8B%E7%94%A2%E7%96%AB%E8%8B%97-sputnik-v-%E6%84%9F%E6%9F%93-delta-%E5%BE%8C%E9%A0%90%E9%98%B2%E5%85%A5%E9%99%A2%E7%8E%87%E9%81%94-81</id>
         <link href="https://www.thestandnews.com/cosmos/%E4%BF%84%E7%A0%94%E7%A9%B6%E7%A8%B1%E5%9C%8B%E7%94%A2%E7%96%AB%E8%8B%97-sputnik-v-%E6%84%9F%E6%9F%93-delta-%E5%BE%8C%E9%A0%90%E9%98%B2%E5%85%A5%E9%99%A2%E7%8E%87%E9%81%94-81"/>
@@ -941,6 +931,40 @@ Barchuk, A., Cherkashin, M., Bulina, A. &amp; et al. (2021). Vaccine Effectivene
         </author>
         <category label="Cosmos"/>
         <published>2021-08-27T08:42:16.352Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美研究警告不減碳 2100 年 82% 海洋表面變酸變暖　嚴重影響漁業與食物安全]]></title>
+        <id>https://www.thestandnews.com/nature/%E7%BE%8E%E7%A0%94%E7%A9%B6%E8%AD%A6%E5%91%8A%E4%B8%8D%E6%B8%9B%E7%A2%B3-2100-%E5%B9%B4-82-%E6%B5%B7%E6%B4%8B%E8%A1%A8%E9%9D%A2%E8%AE%8A%E9%85%B8%E8%AE%8A%E6%9A%96-%E5%9A%B4%E9%87%8D%E5%BD%B1%E9%9F%BF%E6%BC%81%E6%A5%AD%E8%88%87%E9%A3%9F%E7%89%A9%E5%AE%89%E5%85%A8</id>
+        <link href="https://www.thestandnews.com/nature/%E7%BE%8E%E7%A0%94%E7%A9%B6%E8%AD%A6%E5%91%8A%E4%B8%8D%E6%B8%9B%E7%A2%B3-2100-%E5%B9%B4-82-%E6%B5%B7%E6%B4%8B%E8%A1%A8%E9%9D%A2%E8%AE%8A%E9%85%B8%E8%AE%8A%E6%9A%96-%E5%9A%B4%E9%87%8D%E5%BD%B1%E9%9F%BF%E6%BC%81%E6%A5%AD%E8%88%87%E9%A3%9F%E7%89%A9%E5%AE%89%E5%85%A8"/>
+        <updated>2021-08-27T15:37:21.209Z</updated>
+        <summary type="html"><![CDATA[最新刊於《科學報告》的研究警告，除非人類控制碳排放，否則到本世紀末，地球海表的 95% 將會出現重大變化，影響海洋生物健康，繼而對漁業與食物安全造成嚴重打擊。自工業革命以來，全球海洋已吸收了大約三分之一人類排出的碳，但隨著大氣二氧化碳濃度以至少 300 萬年來，前所未見的速度增加，學者擔心海洋表面氣候，可能會變得不再適合一直存在的物種棲息。在是次研究中，團隊希望了解自 18 世紀中葉以來，碳污染…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/%E6%B5%B7%E8%A1%A8_Rcn0PhY.png"></figure><p><a href="https://doi.org/10.1038/s41598-021-94872-4">最新刊於《科學報告》的研究警告</a>，除非人類控制碳排放，否則到本世紀末，地球海表的 95% 將會出現重大變化，影響海洋生物健康，繼而對漁業與食物安全造成嚴重打擊。</p>
+
+<p>自工業革命以來，全球海洋已吸收了大約三分之一人類排出的碳，但隨著大氣二氧化碳濃度以至少 300 萬年來，前所未見的速度增加，學者擔心海洋表面氣候，可能會變得不再適合一直存在的物種棲息。</p>
+
+<p>在是次研究中，團隊希望了解自 18 世紀中葉以來，碳污染對海洋表面產生甚麼影響，同時預測至 2100 年碳排放的影響。團隊模擬了三個時期的全球海洋氣候，分別是 19 世紀初 (1795-1834) 、 20 世紀後期 (1965-2004) 、和 21 世紀後期 (2065-2114) ，並模擬兩種排放模式，第一個是 RCP 4.5，即假設到 2050 年溫室氣體排放量達到峰值，然後在本世紀剩餘時間緩慢下降，第二個則是 RCP 8.5，即一切照舊、在未來 80 年碳排放繼續上升的場境。</p>
+
+<p>團隊發現，在 RCP 4.5 下，整個 20 世紀存在的 36% 的海洋表面狀況到 2100 年可能會消失。在 RCP8.5 下，數字更急劇增至 95% 。</p>
+
+<p>模型又顯示，雖然海洋表面氣候在 20 世紀幾乎沒有變化跡象，但到 2100 年，多達 82% 的海洋表面可能會經歷近代史上從未見過的氣候，包括更熱、更酸、含有較少對海洋生物生長至關重要的礦物質的海洋。</p>
+
+<p>領導研究的美國東北大學海洋科學中心人口基因學家 Katie Lotterhos 表示，碳污染造成的海洋成分變化，可能會影響所有地表物種。她表明，已因現今氣候而正在消失的物種，必須適應不同生存條件，因現時可見的海水溫度和化學成分，在未來將很少見或不存在。</p>
+
+<p>雖然迄今為止海表物種仍能四處游動以避免異常溫暖或酸性的海洋區域，但研究表明由於近乎均勻的海水變暖和酸化，未來這些生物的選擇可能會受到限制。Lotterhos 補充，現時已有許多海洋物種為了應對暖化而改變了活動範圍，她相信在未來幾十年，在同一地區發現的物種群落會快速變化。因此各國政府需要監測海洋表層物種的變化，同時要停止排放碳。</p>
+
+<p>來源：<br>
+Science Alert, <a href="https://www.sciencealert.com/oceans-in-2100-will-be-hotter-more-acidic-and-more-hostile-for-sea-life">95% of Earth's Ocean Surface Is on Track to Change For The Worse if We Don't Act Now</a>, 27 August 2021</p>
+
+<p>報告：<br>
+Lotterhos, K.E., Láruson, Á.J. &amp; Jiang, LQ. (2021). Novel and disappearing climates in the global surface ocean from 1800 to 2100.&nbsp;<em>Sci Rep</em>&nbsp;11,&nbsp;15535. doi: <a href="https://doi.org/10.1038/s41598-021-94872-4">10.1038/s41598-021-94872-4</a></p>
+
+<p>文／Alan Chiu</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="Green"/>
+        <published>2021-08-27T04:08:01.855Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[議員關注網上惡搞國旗　曾國衞稱複製品亦受規管　由執法部門處理]]></title>
@@ -1229,33 +1253,5 @@ Su, F.Z., Fu, D.J., Yan, F.Q. &amp; et al. (2021). Rapid greening response of Ch
         </author>
         <category label="財經"/>
         <published>2021-08-27T13:56:25.581Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[英最高法院院長指港仍有司法獨立、法治　與賀知義留任終院非常任法官]]></title>
-        <id>https://www.thestandnews.com/court/%E8%8B%B1%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E9%99%A2%E9%95%B7%E6%8C%87%E6%B8%AF%E4%BB%8D%E6%9C%89%E5%8F%B8%E6%B3%95%E7%8D%A8%E7%AB%8B%E6%B3%95%E6%B2%BB-%E8%88%87%E8%B3%80%E7%9F%A5%E7%BE%A9%E7%95%99%E4%BB%BB%E7%B5%82%E9%99%A2%E9%9D%9E%E5%B8%B8%E4%BB%BB%E6%B3%95%E5%AE%98</id>
-        <link href="https://www.thestandnews.com/court/%E8%8B%B1%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E9%99%A2%E9%95%B7%E6%8C%87%E6%B8%AF%E4%BB%8D%E6%9C%89%E5%8F%B8%E6%B3%95%E7%8D%A8%E7%AB%8B%E6%B3%95%E6%B2%BB-%E8%88%87%E8%B3%80%E7%9F%A5%E7%BE%A9%E7%95%99%E4%BB%BB%E7%B5%82%E9%99%A2%E9%9D%9E%E5%B8%B8%E4%BB%BB%E6%B3%95%E5%AE%98"/>
-        <updated>2021-08-27T13:08:49.144Z</updated>
-        <summary type="html"><![CDATA[自去年中本港《港區國安法》實施，終審法院先後有兩名非常任法官離任，英國最高法院院長韋彥德則曾指要審視情況，決定英國最高法院的法官是否會繼續擔任非常任法官。韋彥德今（27日）發表聲明，稱與外長藍韜文及大法官巴克蘭一同評估香港的情況後，認為香港很大程度維持司法獨立，裁決符合法治，故會與副院長賀知義續任終院海外非常任法官。聲明提到，韋彥德與外長藍韜文及大法官巴克蘭一同評估香港的情況後，認為香港很大程度…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20-24.png"><figcaption><span>圖片來源：Scottish Legal News, The Law Society Gazette</span></figcaption></figure><p>自去年中本港《港區國安法》實施，終審法院先後有兩名非常任法官離任，英國最高法院院長韋彥德則曾指要審視情況，決定英國最高法院的法官是否會繼續擔任非常任法官。韋彥德今（27日）發表<a href="https://www.supremecourt.uk/news/role-of-uk-judges-on-the-hong-kong-court-of-final-appeal-update.html">聲明</a>，稱與外長藍韜文及大法官巴克蘭一同評估香港的情況後，認為香港很大程度維持司法獨立，裁決符合法治，故會與副院長賀知義續任終院海外非常任法官。</p>
-
-<p>聲明提到，韋彥德與外長藍韜文及大法官巴克蘭一同評估香港的情況後，認為香港很大程度維持司法獨立，裁決符合法治，而香港法律界廣泛支持英國及其他海外法官參與香港終審法院的工作。他表示，在外長藍韜文及大法官巴克蘭全力支持下，與副院長賀知義一同繼續擔任非常任法官。韋彥德同時指，隨著香港的事態發展，將繼續評估情況，並與英國政府討論。</p>
-
-<p>司法機構回應時表示，現時終審法院共有 12 名其他普通法適用地區非常任法官，8 名來自英國、3 名來自澳洲及一人來自加拿大。司法機構指，海外非常任法官參與終審法院聆訊，有助香港與其他普通法司法管轄區保持聯繫，加強公眾對香港司法制度的信心，形容他們對香港終審法院的工作貢獻良多，亦多次獲得肯定。</p>
-
-<p>司法機構表示，韋彥德將分別於 2021 年 8 月 31 日及 9 月 2&nbsp;日透過視像會議參與終審法院兩宗聆訊，而賀知義將於今年稍後參與終審法院聆訊。</p>
-
-<p><strong>曾稱如不能憑良心服務將離任</strong></p>
-
-<p>今年 3 月，韋彥德出席國會最高法院年度聽證會時，指處理是否離任的問題要非常小心，形容舉動會是非常嚴重的一步，但如果香港局勢變到他們不能憑良心服務下去，那他就不會再出任香港法官或任命他人來港。他又指，短期內會再與英外相、大法官舉行定期會面，審視委任英法官至香港終審法院的安排。</p>
-
-<p>《港區國安法》在去年年中生效，韋彥德在去年 7 月發聲明，指條文引起關注，表明「英國最高法院的法官是否會繼續在香港擔任法官，將視乎他們的工作能否維持符合司法獨立及法治」。其後原任非常任法官的施覺民（James Spigelman）辭職，他向傳媒表明請辭與國安法有關；至今年 6 月，英國最高法院前院長何熙怡女男爵亦不續任，她曾表示，國安法到底如何操作尚未明確、仍然充滿疑問。</p>
-
-<p>不過，前加拿大首席大法官麥嘉琳 ( Beverley McLachlin )則在上月決定延任 3 年，稱要守護香港民主的「最後堡壘」，相信她作為加拿大法官，仍有機會審理《國安法》案件。她表明，若本港司法獨立情況受到挑戰，並且違反她的原則，她會毫不猶豫辭任。</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="法庭"/>
-        <published>2021-08-27T12:16:39.319Z</published>
     </entry>
 </feed>
