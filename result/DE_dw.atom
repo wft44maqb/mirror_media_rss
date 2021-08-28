@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-28T09:58:52Z</updated>
+ <updated>2021-08-28T10:02:36Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,36 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59011393</id>
+  <title><![CDATA[美军舰再到台湾海峡"走一圈" 北京强烈抗议]]></title>
+  <updated>2021-08-28T09:57:00Z</updated>
+  <published>2021-08-28T09:57:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美军舰再到台湾海峡-走一圈-北京强烈抗议/a-59011393?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国两艘军舰本周五航经台湾海峡，中国国防部立即做出反应，表示反对和谴责。与此同时，五角大楼高级官员与中国军方举行了拜登上任后的首次会谈。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59011297</id>
+  <title><![CDATA[美军事高官: 中国将速超俄罗斯成美国头号核威胁]]></title>
+  <updated>2021-08-28T09:49:00Z</updated>
+  <published>2021-08-28T09:49:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美军事高官-中国将速超俄罗斯成美国头号核威胁/a-59011297?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国一位高层军事官员表示，处于核武器快速发展中的中国将很快超过俄罗斯，成为美国的最大核威胁。他警告说，美国和中国之间没有任何机制来避免误解。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59011287</id>
+  <title><![CDATA[阿富汗袭击案件 美军展开报复]]></title>
+  <updated>2021-08-28T09:47:00Z</updated>
+  <published>2021-08-28T09:47:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗袭击案件-美军展开报复/a-59011287?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[喀布尔国际机场遭到血腥的恐怖袭击后，美军发动了针对“伊斯兰国”阿富汗分支组织的报复性军事行动。美国驻阿富汗大使馆也再次发出了安全警示。与此同时，白宫方面表示，美国将必须和塔利班合作。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59000443</id>
   <title><![CDATA[柏林的难题：中国]]></title>
@@ -205,16 +235,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58991668</id>
-  <title><![CDATA[日本自民党9月底选举新一届党魁]]></title>
-  <updated>2021-08-26T12:43:00Z</updated>
-  <published>2021-08-26T12:43:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/日本自民党9月底选举新一届党魁/a-58991668?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[日本共同社报道称，今天日本自民党在总裁选举管理委员会会议上敲定下一届党魁选举投票时间为9月29日。路透社指出，当前日本正面临着最严重的一波疫情感染，首相菅义伟的支持率已降至30%以下。自民党政务调查委员会前会长岸田文雄宣布参选自民党总裁，与菅义伟再次对决。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58989597</id>
   <title><![CDATA[英研究报告：新冠疫苗保护效力半年后下降 ]]></title>
   <updated>2021-08-26T10:49:00Z</updated>
@@ -223,26 +243,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/英研究报告：新冠疫苗保护效力半年后下降/a-58989597?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[英国一项研究结果显示，接种完疫苗后6个月后，对新冠病毒感染的保护作用即会减弱。因此研究报告的作者认为，有必要施打加强针。]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58988578</id>
-  <title><![CDATA[亮剑印度？西藏军区举行大规模军演]]></title>
-  <updated>2021-08-26T09:48:00Z</updated>
-  <published>2021-08-26T09:48:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/亮剑印度？西藏军区举行大规模军演/a-58988578?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国近日在海拔4000多米的雪域高原开展“雪域使命-2021”演习。据中国媒体报道，西藏军区组织所属的10多个旅团、近万名士兵参加了演习，显示了解放军“维护中国边境和西藏稳定的决心“。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58988679</id>
-  <title><![CDATA[喀布尔机场外发生多起袭击事件 德国结束撤离行动]]></title>
-  <updated>2021-08-26T09:39:00Z</updated>
-  <published>2021-08-26T09:39:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/喀布尔机场外发生多起袭击事件-德国结束撤离行动/a-58988679?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国国防部称喀布尔机场外周四发生多起袭击事件，造成大量人员伤亡。“伊斯兰国”阿富汗分支宣称对此负责。与此同时，美方撤离行动仍在进行。而德国宣布结束从阿富汗撤离人员的“空中桥梁”行动。美、英、澳此前均向目前仍停留在阿富汗的公民和签证持有者发出预警，喀布尔机场区域存在发生恐怖袭击的高风险。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58986608</id>
