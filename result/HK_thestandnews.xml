@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-28T08:26:58.292Z</updated>
+    <updated>2021-08-28T08:31:59.774Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[九巴免費接載港隊殘奧選手一年　運動員可為巴士命名]]></title>
+        <id>https://www.thestandnews.com/society/a_%E4%B9%9D%E5%B7%B4%E9%80%81%E6%AE%98%E5%A5%A7%E9%81%B8%E6%89%8B%E5%84%AA%E6%83%A0-%E9%81%8B%E5%8B%95%E5%93%A1%E5%8F%AF%E7%82%BA%E5%B7%B4%E5%A3%AB%E5%91%BD%E5%90%8D</id>
+        <link href="https://www.thestandnews.com/society/a_%E4%B9%9D%E5%B7%B4%E9%80%81%E6%AE%98%E5%A5%A7%E9%81%B8%E6%89%8B%E5%84%AA%E6%83%A0-%E9%81%8B%E5%8B%95%E5%93%A1%E5%8F%AF%E7%82%BA%E5%B7%B4%E5%A3%AB%E5%91%BD%E5%90%8D"/>
+        <updated>2021-08-28T08:27:33.325Z</updated>
+        <summary type="html"><![CDATA[2020 東京殘奧如火如荼，香港選手續創佳績，乒乓球手王婷莛今日（28 日）奪得TT11級別單打賽事銅牌。九巴宣佈，送贈香港殘奧運動員一年免費乘坐九巴優惠，並讓代表隊成員為九巴巴士命名。九巴今日宣佈，將向所有參與東京殘奧的香港隊運動員，送贈一年免費乘搭九巴優惠，又邀請他們為巴士命名，每位選手可以為一輛九巴巴士命名。載有命名內容和信息的名牌，將安裝於巴士車廂內的車頭位置。至於推出時間，九巴回覆指，…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/5-06_copy_5fPKeAz.png"></figure><p>2020 東京殘奧如火如荼，香港選手續創佳績，乒乓球手王婷莛今日（28 日）奪得TT11級別單打賽事銅牌。九巴宣佈，送贈香港殘奧運動員一年免費乘坐九巴優惠，並讓代表隊成員為九巴巴士命名。</p>
+
+<p>九巴今日宣佈，將向所有參與東京殘奧的香港隊運動員，送贈一年免費乘搭九巴優惠，又邀請他們為巴士命名，每位選手可以為一輛九巴巴士命名。載有命名內容和信息的名牌，將安裝於巴士車廂內的車頭位置。至於推出時間，九巴回覆指，目前要先與每位運動員聯絡安排改名事宜，故暫時未有推出時間表。</p>
+
+<div>九巴早前已宣佈，為參與東京奧運的香港運動員，送贈一年免費搭巴士優惠和巴士命名權，並推出兩部奧運主題巴士向香港運動員致敬，主要行走 66X 路線，由屯門大興邨來往奧運站，以及 270B路線，由上水來往奧運站。<figure><img src="https://assets.thestandnews.com/media/photos/100821_1.jpg"><figcaption><span>九巴奧運主題巴士。（九巴網站）</span></figcaption></figure></div>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-08-28T07:27:14.738Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如果繪本能成為每個人的樹洞 — 繪本創成展]]></title>
         <id>https://www.thestandnews.com/culture/%E5%A6%82%E6%9E%9C%E7%B9%AA%E6%9C%AC%E8%83%BD%E6%88%90%E7%82%BA%E6%AF%8F%E5%80%8B%E4%BA%BA%E7%9A%84%E6%A8%B9%E6%B4%9E-%E7%B9%AA%E6%9C%AC%E5%89%B5%E6%88%90%E5%B1%95</id>
@@ -1193,23 +1211,5 @@ body {
         </author>
         <category label="政治"/>
         <published>2021-08-27T16:05:08.998Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【回憶返哂嚟】一度傳曼城有意羅致　C 朗闊別 12 年回歸曼聯]]></title>
-        <id>https://www.thestandnews.com/sport/%E5%9B%9E%E6%86%B6%E8%BF%94%E5%93%82%E5%9A%9F%E4%B8%80%E5%BA%A6%E5%82%B3%E6%9B%BC%E5%9F%8E%E6%9C%89%E6%84%8F%E7%BE%85%E8%87%B4-c-%E6%9C%97%E9%97%8A%E5%88%A5-12-%E5%B9%B4%E5%9B%9E%E6%AD%B8%E6%9B%BC%E8%81%AF</id>
-        <link href="https://www.thestandnews.com/sport/%E5%9B%9E%E6%86%B6%E8%BF%94%E5%93%82%E5%9A%9F%E4%B8%80%E5%BA%A6%E5%82%B3%E6%9B%BC%E5%9F%8E%E6%9C%89%E6%84%8F%E7%BE%85%E8%87%B4-c-%E6%9C%97%E9%97%8A%E5%88%A5-12-%E5%B9%B4%E5%9B%9E%E6%AD%B8%E6%9B%BC%E8%81%AF"/>
-        <updated>2021-08-27T16:23:11.991Z</updated>
-        <summary type="html"><![CDATA[英超球會曼聯在其官方網站宣布，現年 36 歲的葡萄牙球星「C 朗」基斯坦奴 ‧ 朗拿度自意甲球隊祖雲達斯加盟。C 朗由 03/04 至 08/09 賽季一直效力曼聯，上陣 292 場，攻入 118 球，之後轉投西甲皇家馬德里。在早前一度有傳，曼聯的同市宿敵曼城會羅致 C 朗，結果卻峰迴路轉，回歸闊別 12 年的舊東家。曼聯官方公布，已經與祖雲達斯達成協議，在談妥個人條款、申請簽證及完成體檢後，C…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/GettyImages-835437044.jpg"><figcaption><span>2009 年的 C 朗 (Photo by Martin Rickett - PA Images/PA Images via Getty Images)</span></figcaption></figure><p><a href="https://www.manutd.com/en/news/detail/official-statement-on-agreement-reached-for-cristiano-ronaldo">英超球會曼聯在其官方網站宣布</a>，現年 36 歲的葡萄牙球星「C 朗」基斯坦奴 ‧ 朗拿度自意甲球隊祖雲達斯加盟。C 朗由&nbsp;03/04 至 08/09 賽季一直效力曼聯，上陣 292 場，攻入 118 球，之後轉投西甲皇家馬德里。在早前一度有傳，曼聯的同市宿敵曼城會羅致 C 朗，結果卻峰迴路轉，回歸闊別 12 年的舊東家。</p>
-
-<p>曼聯官方公布，已經與祖雲達斯達成協議，在談妥個人條款、申請簽證及完成體檢後，C 朗便會回歸曼聯。C 朗曾 5 奪金球獎，亦獲得超過 30 項錦標，包括 5 個歐聯冠軍，亦曾為葡萄牙奪得歐洲國家盃。</p>
-
-<p>在葡萄牙球隊士砵亭出道的 C 朗，在轉投曼聯後一步步踏上「球王」之路，曼聯官方表示，球會的每人都期待著，去歡迎 C 朗回到曼徹斯特市。</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="體育"/>
-        <published>2021-08-27T16:15:04.531Z</published>
     </entry>
 </feed>
