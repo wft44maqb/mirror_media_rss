@@ -4,10 +4,32 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sat, 28 Aug 2021 15:40:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Aug 2021 15:43:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[蔡英文高端沒有針頭]]></title>
+            <link>https://cofacts.tw/article/2mrna6g9eaupi?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/2mrna6g9eaupi?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sat, 28 Aug 2021 15:42:07 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/2mrna6g9eaupi?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          蔡英文高端沒有針頭
+        
+              <h2><a href="https://cofacts.tw/reply/OfRsjXsBqH8xU4Aw4JVb">最新回應</a></h2>
+              <p>含有錯誤訊息 by Lin</p>
+              假的。聯合報、華視新聞的影片畫面都有拍到針頭喔。
+
+              <h2>出處</h2>
+              10:58 接種完成後，後方護理師在手上接過針頭時，可見針頭反射陽光
+https://www.youtube.com/watch?v=cEEzG_chs8k
+
+1:18 秒處可見明顯針頭
+https://www.youtube.com/watch?v=8iSzsVe7WcQ
+
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[中國人民銀行（央行）正式下發通知，規定自9月1日，存款超10萬元人民幣（43萬元⋯⋯]]></title>
             <link>https://cofacts.tw/article/24dwyvwrk9hr8?utm_source=Others&amp;utm_medium=RSS</link>
@@ -280,29 +302,6 @@ https://www.setn.com/News.aspx?NewsID=988596
 
 懒人包／五倍券10月上路！怎麼領、如何加碼？一次看清楚
 https://www.setn.com/News.aspx?NewsID=988230
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[疫苗發明人說不能注射疫苗，因為將在3～5年內死亡
-打越多劑的人越容易死亡]]></title>
-            <link>https://cofacts.tw/article/3ry5mzevxqemn?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/3ry5mzevxqemn?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Sat, 28 Aug 2021 08:20:29 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/3ry5mzevxqemn?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          疫苗發明人說不能注射疫苗，因為將在3～5年內死亡
-打越多劑的人越容易死亡
-        
-              <h2><a href="https://cofacts.tw/reply/2_TYi3sBqH8xU4AwiZPO">最新回應</a></h2>
-              <p>不在查證範圍 by vanillam</p>
-              訊息意思不完整無法查證。
-例如：
-疫苗發明人（指哪一種疫苗？肝炎還是COVID-19還是其他？）
-因為（什麼，某類人還是病毒還是指其他東西？）將在3～5年內死亡・・・
-
-
-              
-              
             ]]></description>
         </item>
     </channel>
