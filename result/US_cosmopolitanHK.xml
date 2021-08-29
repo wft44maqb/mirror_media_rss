@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.cosmopolitan.com.hk/cosmobody/Black-Goji</loc>
-    <news:news><news:publication><news:name>Cosmopolitan HK</news:name><news:language>zh</news:language></news:publication><news:genres>Opinion, PressRelease, UserGenerated</news:genres><news:publication_date>2021-08-29</news:publication_date><news:title>黑杞子點食好？營養師拆解黑杞子功效與禁忌+3款黑杞子食譜推介</news:title><news:keywords>黑杞子,營養師,Food,杞子</news:keywords></news:news>
-  </url>
-  <url>
     <loc>https://www.cosmopolitan.com.hk/beauty/hair-scalp-treatment-and-products</loc>
     <news:news><news:publication><news:name>Cosmopolitan HK</news:name><news:language>zh</news:language></news:publication><news:genres>Opinion, PressRelease, UserGenerated</news:genres><news:publication_date>2021-08-27</news:publication_date><news:title>頭皮護理｜扁塌脫髮頭皮屑多？乾性油性頭皮護理大不同｜頭皮護理療程及產品推薦  </news:title><news:keywords>頭皮護理療程,Hair,頭皮,頭皮屑,頭皮護理,頭髮護理</news:keywords></news:news>
   </url>
@@ -127,5 +123,9 @@
   <url>
     <loc>https://www.cosmopolitan.com.hk/cosmobody/standard-chartered-hk-manathon-2021</loc>
     <news:news><news:publication><news:name>Cosmopolitan HK</news:name><news:language>zh</news:language></news:publication><news:genres>Opinion, PressRelease, UserGenerated</news:genres><news:publication_date>2021-08-23</news:publication_date><news:title>渣馬2021懶人包｜報名及比賽當日8件事｜ 附領取跑手包注意、馬拉松比賽必帶物資清單</news:title><news:keywords>渣馬2021,跑步,馬拉松,跑鞋,渣馬,Move</news:keywords></news:news>
+  </url>
+  <url>
+    <loc>https://www.cosmopolitan.com.hk/cosmobody/SUP-Beginners-must-know</loc>
+    <news:news><news:publication><news:name>Cosmopolitan HK</news:name><news:language>zh</news:language></news:publication><news:genres>Opinion, PressRelease, UserGenerated</news:genres><news:publication_date>2021-08-23</news:publication_date><news:title>玩SUP應該著咩出海？10大直立板新手必知注意事項：服裝/天氣/配件一覽</news:title><news:keywords>水上活動,直立板,Leisure,Move</news:keywords></news:news>
   </url>
 </urlset>
