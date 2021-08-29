@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-29T07:29:39Z</updated>
+ <updated>2021-08-29T07:32:27Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,66 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58991533</id>
+  <title><![CDATA[德国今夏水灾保险损失超预期 ]]></title>
+  <updated>2021-08-29T07:27:00Z</updated>
+  <published>2021-08-29T07:27:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国今夏水灾保险损失超预期/a-58991533?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[德国今年7月中旬遭遇的水灾带来的保险赔付损失已近70亿欧元，超过预估。]]></summary>
+  <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58989290</id>
+  <title><![CDATA[阿富汗变天 网红也纷纷逃离 ]]></title>
+  <updated>2021-08-29T07:27:00Z</updated>
+  <published>2021-08-29T07:27:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗变天-网红也纷纷逃离/a-58989290?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[过去二十年里，年轻一代阿富汗人在互联网如鱼得水。现在，他（她）们中的一些人因塔利班重新掌权而出逃。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58959650</id>
+  <title><![CDATA[德证综指达克斯扩容：从30到40家]]></title>
+  <updated>2021-08-29T07:20:00Z</updated>
+  <published>2021-08-29T07:20:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德证综指达克斯扩容：从30到40家/a-58959650?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[德国最重要证券综合指数——达克斯（DAX）规模将扩大。 33 年前创建时，其成员是30家，未来将扩为40家。根据一项改革计划，这个德国最重要股市晴雨表将于9月重组。]]></summary>
+  <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58981872</id>
+  <title><![CDATA[亚马逊在德国开设第四家研发中心 ]]></title>
+  <updated>2021-08-29T07:20:00Z</updated>
+  <published>2021-08-29T07:20:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/亚马逊在德国开设第四家研发中心/a-58981872?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国互联网巨头亚马逊在德国东部的萨克森州首府德累斯顿设立了一个新研发中心。德累斯顿及周边地区已成为德国的IT高科技产业中心。 ]]></summary>
+  <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58967153</id>
+  <title><![CDATA[研究：西欧洪灾频率或将成倍增加]]></title>
+  <updated>2021-08-29T07:19:00Z</updated>
+  <published>2021-08-29T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/研究：西欧洪灾频率或将成倍增加/a-58967153?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[气候科学家进一步确定了气候变迁和今年7月份西欧极端降雨的关联。该研究的结果显示：人为造成的温度上升，不但提高极端降雨的机率，也使降雨量增加。]]></summary>
+  <category term="科技环境"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59002422</id>
+  <title><![CDATA[美国：数百万租客面临被强制驱逐]]></title>
+  <updated>2021-08-29T07:15:00Z</updated>
+  <published>2021-08-29T07:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美国：数百万租客面临被强制驱逐/a-59002422?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[受疫情影响，美国有大量租客无力支付房租。本月初，卫生部门宣布延长“租客保护令”适用期后，这些租客暂时躲过了被房东强制驱逐的命运。然而好景不长，最高法院又驳回了这项延长令。]]></summary>
+  <category term="新闻广角"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59014764</id>
   <title><![CDATA[两个阿富汗人的故事：被驱逐与被援救]]></title>
@@ -185,16 +245,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:57217657</id>
-  <title><![CDATA[柴可夫斯基：西班牙舞曲]]></title>
-  <updated>2021-08-27T10:31:00Z</updated>
-  <published>2021-08-27T10:31:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柴可夫斯基：西班牙舞曲/a-57217657?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[19世纪伟大的俄罗斯作曲家柴可夫斯基的《天鹅湖》组曲闻名遐迩。请听莫斯科柴可夫斯基交响乐团演奏的组曲中的西班牙舞曲。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59000364</id>
   <title><![CDATA[日台2+2——充满陷阱的在线对话]]></title>
   <updated>2021-08-27T10:31:00Z</updated>
@@ -203,6 +253,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/日台2-2-充满陷阱的在线对话/a-59000364?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[本周五，日台首次举行执政党2+2安全对话。分析人士认为，这标志着日本在台湾问题上的危机意识日益加强。德国政治学者指出，日本对台政策如果转弯幅度过大，对日本利益造成的伤害将大于收益。]]></summary>
   <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:57217657</id>
+  <title><![CDATA[柴可夫斯基：西班牙舞曲]]></title>
+  <updated>2021-08-27T10:31:00Z</updated>
+  <published>2021-08-27T10:31:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柴可夫斯基：西班牙舞曲/a-57217657?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[19世纪伟大的俄罗斯作曲家柴可夫斯基的《天鹅湖》组曲闻名遐迩。请听莫斯科柴可夫斯基交响乐团演奏的组曲中的西班牙舞曲。]]></summary>
+  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58998493</id>
@@ -435,16 +495,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58888640</id>
-  <title><![CDATA[打动人心是扩大疫苗接种的制胜法宝？]]></title>
-  <updated>2021-08-22T07:19:00Z</updated>
-  <published>2021-08-22T07:19:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/打动人心是扩大疫苗接种的制胜法宝？/a-58888640?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[联邦德国政府吁请公民接种疫苗。然而，接种战役停滞不前。心理学家们认为，政治和媒体信息交流中也有失误。如何才能做得更好呢？]]></summary>
-  <category term="科技环境"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58897772</id>
   <title><![CDATA[东欧国家认清了中国投资？]]></title>
   <updated>2021-08-22T07:19:00Z</updated>
@@ -465,36 +515,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58933822</id>
-  <title><![CDATA[中国通过数据保护法 全球最严? 例外颇多?]]></title>
-  <updated>2021-08-20T15:01:00Z</updated>
-  <published>2021-08-20T15:01:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国通过数据保护法-全球最严-例外颇多/a-58933822?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国本周通过的《个人信息保护法》，被认为是全球最严格的数据保护法案之一，在很多方面都参照了欧盟的《通用数据保护条例》。不过，学者指出，两者之间还是存在着很大的不同；对于欧洲在华企业而言，这意味着一定的风险。]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58919548</id>
-  <title><![CDATA[北京意外推迟表决《反外国制裁法》在港实施]]></title>
-  <updated>2021-08-20T10:01:00Z</updated>
-  <published>2021-08-20T10:01:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/北京意外推迟表决《反外国制裁法》在港实施/a-58919548?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[此前，外界普遍预期，中国全国人大常委会本周将表决通过将《反外国制裁法》纳入香港基本法附件。不过本周五传出消息，人大推迟了相关表决。]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58895283</id>
-  <title><![CDATA[NGO：在海外被投诉不负责任的中国企业增加]]></title>
-  <updated>2021-08-18T11:27:00Z</updated>
-  <published>2021-08-18T11:27:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/ngo：在海外被投诉不负责任的中国企业增加/a-58895283?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[英国非盈利机构企业责任资源中心最新发布的一份报告指出，随着中国企业，尤其是能源、建筑（包括基础设施建设）、采矿和金属行业的海外扩张，民间社会和媒体对特别是在亚洲、非洲和拉丁美洲地区与之相关的社会、环境和人权侵犯的报道也不断增加。]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58885172</id>
   <title><![CDATA[被指曾性虐待12岁女童  鲍勃·迪伦遭起诉]]></title>
   <updated>2021-08-17T09:56:00Z</updated>
@@ -512,16 +532,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国整治娱乐圈-80名艺人自发签「德行承诺书」/a-58883336?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国娱乐圈近来有3位艺人接连因丑闻遭封杀，中国政府也频频发声抵制「劣迹艺人」。对此，中国湖南卫视芒果TV旗下80多位艺人自发签署承诺书，强调他们会做「德艺双馨」、「以人民为中心」的艺人。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58721211</id>
-  <title><![CDATA[中国MeToo有进展？吴亦凡因涉嫌强奸罪被批捕]]></title>
-  <updated>2021-08-16T14:05:00Z</updated>
-  <published>2021-08-16T14:05:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国metoo有进展？吴亦凡因涉嫌强奸罪被批捕/a-58721211?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国男星吴亦凡因涉“多次诱骗年轻女性发生性关系”遭到北京警方刑事拘留，并于8月16日因涉嫌强奸罪被批捕。此前曾有律师指出，吴亦凡虽是加拿大籍，但若罪名成立将需在中国服刑。]]></summary>
   <category term="文化经纬"/>
  </entry>
  <entry>
@@ -570,15 +580,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -586,6 +587,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="在线报导"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
