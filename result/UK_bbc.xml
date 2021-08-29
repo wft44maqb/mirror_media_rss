@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 29 Aug 2021 11:14:57 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Aug 2021 11:22:07 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -183,6 +183,13 @@
             <pubDate>Tue, 17 Aug 2021 10:27:59 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[新冠疫苗加強劑：要不要打第三針？應該什麼時候開打？]]></title>
+            <description><![CDATA[多個國家已經或即將啟動新冠疫苗接種加強針普及計劃，也有少數個國家尚未完成第一劑接種目標。第三針該不該打？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/science-58320233?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-58320233</guid>
+            <pubDate>Sun, 29 Aug 2021 10:29:32 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[病毒變異：拉姆達和德爾塔和其他變異毒株你需了解的幾個問題]]></title>
             <description><![CDATA[新冠病毒不斷突變，其中傳播最快最廣的先有德爾塔（Delta）、又有拉姆達（Lambda)，它們的超級傳播秘密是什麼？疫苗效力會受影響嗎？]]></description>
             <link>https://www.bbc.com/zhongwen/trad/science-57529842?at_medium=RSS&amp;at_campaign=KARANGA</link>
@@ -202,13 +209,6 @@
             <link>https://www.bbc.com/zhongwen/trad/science-56737453?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-56737453</guid>
             <pubDate>Wed, 14 Jul 2021 14:52:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[新冠疫苗：「一針、二針或者三針」等問題背後的科學道理]]></title>
-            <description><![CDATA[新冠疫苗為人們帶來希望，也帶來一些困惑，比如打一針夠不夠？必須打兩針嗎 ？為什麼要打第三針？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/science-55846146?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-55846146</guid>
-            <pubDate>Tue, 13 Jul 2021 13:59:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[香港《星島日報》美國版貼上「外國代理人」標籤]]></title>
@@ -391,6 +391,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58265721?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58265721</guid>
             <pubDate>Mon, 23 Aug 2021 00:19:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新冠疫苗：「一針、二針或者三針」等問題背後的科學道理]]></title>
+            <description><![CDATA[新冠疫苗為人們帶來希望，也帶來一些困惑，比如打一針夠不夠？必須打兩針嗎 ？為什麼要打第三針？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/science-55846146?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-55846146</guid>
+            <pubDate>Tue, 13 Jul 2021 13:59:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[習近平提「共同富裕」和「三次分配」 ， 大型私企或成為中國貧富不均的「替罪羊」]]></title>
