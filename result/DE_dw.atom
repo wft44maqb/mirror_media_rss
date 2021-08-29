@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-29T07:58:26Z</updated>
+ <updated>2021-08-29T08:02:09Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -15,16 +15,6 @@
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
  <entry>
-  <id>tag:dw.com,2021:58991533</id>
-  <title><![CDATA[德国今夏水灾保险损失超预期 ]]></title>
-  <updated>2021-08-29T07:27:00Z</updated>
-  <published>2021-08-29T07:27:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国今夏水灾保险损失超预期/a-58991533?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[德国今年7月中旬遭遇的水灾带来的保险赔付损失已近70亿欧元，超过预估。]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58989290</id>
   <title><![CDATA[阿富汗变天 网红也纷纷逃离 ]]></title>
   <updated>2021-08-29T07:27:00Z</updated>
@@ -35,13 +25,13 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58959650</id>
-  <title><![CDATA[德证综指达克斯扩容：从30到40家]]></title>
-  <updated>2021-08-29T07:20:00Z</updated>
-  <published>2021-08-29T07:20:00Z</published>
+  <id>tag:dw.com,2021:58991533</id>
+  <title><![CDATA[德国今夏水灾保险损失超预期 ]]></title>
+  <updated>2021-08-29T07:27:00Z</updated>
+  <published>2021-08-29T07:27:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德证综指达克斯扩容：从30到40家/a-58959650?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[德国最重要证券综合指数——达克斯（DAX）规模将扩大。 33 年前创建时，其成员是30家，未来将扩为40家。根据一项改革计划，这个德国最重要股市晴雨表将于9月重组。]]></summary>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国今夏水灾保险损失超预期/a-58991533?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[德国今年7月中旬遭遇的水灾带来的保险赔付损失已近70亿欧元，超过预估。]]></summary>
   <category term="经济纵横"/>
  </entry>
  <entry>
@@ -52,6 +42,16 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/亚马逊在德国开设第四家研发中心/a-58981872?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[美国互联网巨头亚马逊在德国东部的萨克森州首府德累斯顿设立了一个新研发中心。德累斯顿及周边地区已成为德国的IT高科技产业中心。 ]]></summary>
+  <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58959650</id>
+  <title><![CDATA[德证综指达克斯扩容：从30到40家]]></title>
+  <updated>2021-08-29T07:20:00Z</updated>
+  <published>2021-08-29T07:20:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德证综指达克斯扩容：从30到40家/a-58959650?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[德国最重要证券综合指数——达克斯（DAX）规模将扩大。 33 年前创建时，其成员是30家，未来将扩为40家。根据一项改革计划，这个德国最重要股市晴雨表将于9月重组。]]></summary>
   <category term="经济纵横"/>
  </entry>
  <entry>
@@ -580,15 +580,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -596,6 +587,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
