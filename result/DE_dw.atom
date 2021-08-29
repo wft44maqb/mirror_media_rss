@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-29T13:58:25Z</updated>
+ <updated>2021-08-29T14:02:39Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59019539</id>
+  <title><![CDATA[墙外文摘：中共在全球有多少“有用的白痴”？]]></title>
+  <updated>2021-08-29T13:58:00Z</updated>
+  <published>2021-08-29T13:58:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/墙外文摘：中共在全球有多少-有用的白痴-？/a-59019539?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[有研究者认为，中共在世界各地都有“有用的白痴”。当中央政府起来抵抗中共时，中共就会动用这些地方人士，强化地方层级的影响力工作。中国对外友协打著姊妹市的旗号，系统性推进党的政治及战略目标。]]></summary>
+  <category term="评论分析"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59018351</id>
   <title><![CDATA[新加坡成为全球完全接种率最高国家]]></title>
@@ -45,16 +55,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58981872</id>
-  <title><![CDATA[亚马逊在德国开设第四家研发中心 ]]></title>
-  <updated>2021-08-29T07:20:00Z</updated>
-  <published>2021-08-29T07:20:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/亚马逊在德国开设第四家研发中心/a-58981872?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国互联网巨头亚马逊在德国东部的萨克森州首府德累斯顿设立了一个新研发中心。德累斯顿及周边地区已成为德国的IT高科技产业中心。 ]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58959650</id>
   <title><![CDATA[德证综指达克斯扩容：从30到40家]]></title>
   <updated>2021-08-29T07:20:00Z</updated>
@@ -62,6 +62,16 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德证综指达克斯扩容：从30到40家/a-58959650?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[德国最重要证券综合指数——达克斯（DAX）规模将扩大。 33 年前创建时，其成员是30家，未来将扩为40家。根据一项改革计划，这个德国最重要股市晴雨表将于9月重组。]]></summary>
+  <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58981872</id>
+  <title><![CDATA[亚马逊在德国开设第四家研发中心 ]]></title>
+  <updated>2021-08-29T07:20:00Z</updated>
+  <published>2021-08-29T07:20:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/亚马逊在德国开设第四家研发中心/a-58981872?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国互联网巨头亚马逊在德国东部的萨克森州首府德累斯顿设立了一个新研发中心。德累斯顿及周边地区已成为德国的IT高科技产业中心。 ]]></summary>
   <category term="经济纵横"/>
  </entry>
  <entry>
@@ -105,16 +115,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59012730</id>
-  <title><![CDATA[德语媒体：中国需要一个稳定的阿富汗]]></title>
-  <updated>2021-08-28T13:52:00Z</updated>
-  <published>2021-08-28T13:52:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：中国需要一个稳定的阿富汗/a-59012730?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美军匆忙撤离阿富汗留下的烂摊子，到底由谁来收拾？《每日镜报》认为，中国必须有所行动，因为阿富汗局势稳定符合中国的战略利益。《皇冠报》则指出，中国如今嘲笑美国只是表面现象，实际上正在为伊斯兰极端势力抬头而惊恐万分。]]></summary>
-  <category term="评论分析"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59012745</id>
   <title><![CDATA[为文化对话颁发歌德奖章]]></title>
   <updated>2021-08-28T13:52:00Z</updated>
@@ -123,6 +123,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/为文化对话颁发歌德奖章/a-59012745?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[8月28日是德国文学巨匠歌德的生日，歌德奖章的颁奖礼也定在这一天。今年的获奖者是喀麦隆社会经济学家贝尔、日本作曲家细川俊夫和中国舞蹈艺术家文慧。]]></summary>
   <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59012730</id>
+  <title><![CDATA[德语媒体：中国需要一个稳定的阿富汗]]></title>
+  <updated>2021-08-28T13:52:00Z</updated>
+  <published>2021-08-28T13:52:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：中国需要一个稳定的阿富汗/a-59012730?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美军匆忙撤离阿富汗留下的烂摊子，到底由谁来收拾？《每日镜报》认为，中国必须有所行动，因为阿富汗局势稳定符合中国的战略利益。《皇冠报》则指出，中国如今嘲笑美国只是表面现象，实际上正在为伊斯兰极端势力抬头而惊恐万分。]]></summary>
+  <category term="评论分析"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59012656</id>
@@ -255,16 +265,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59000364</id>
-  <title><![CDATA[日台2+2——充满陷阱的在线对话]]></title>
-  <updated>2021-08-27T10:31:00Z</updated>
-  <published>2021-08-27T10:31:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/日台2-2-充满陷阱的在线对话/a-59000364?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[本周五，日台首次举行执政党2+2安全对话。分析人士认为，这标志着日本在台湾问题上的危机意识日益加强。德国政治学者指出，日本对台政策如果转弯幅度过大，对日本利益造成的伤害将大于收益。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:57217657</id>
   <title><![CDATA[柴可夫斯基：西班牙舞曲]]></title>
   <updated>2021-08-27T10:31:00Z</updated>
@@ -273,6 +273,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柴可夫斯基：西班牙舞曲/a-57217657?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[19世纪伟大的俄罗斯作曲家柴可夫斯基的《天鹅湖》组曲闻名遐迩。请听莫斯科柴可夫斯基交响乐团演奏的组曲中的西班牙舞曲。]]></summary>
   <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59000364</id>
+  <title><![CDATA[日台2+2——充满陷阱的在线对话]]></title>
+  <updated>2021-08-27T10:31:00Z</updated>
+  <published>2021-08-27T10:31:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/日台2-2-充满陷阱的在线对话/a-59000364?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[本周五，日台首次举行执政党2+2安全对话。分析人士认为，这标志着日本在台湾问题上的危机意识日益加强。德国政治学者指出，日本对台政策如果转弯幅度过大，对日本利益造成的伤害将大于收益。]]></summary>
+  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58997968</id>
@@ -455,16 +465,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58949925</id>
-  <title><![CDATA[墙外文摘：台湾和阿富汗的距离有多远？]]></title>
-  <updated>2021-08-22T11:11:00Z</updated>
-  <published>2021-08-22T11:11:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/墙外文摘：台湾和阿富汗的距离有多远？/a-58949925?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[有评论认为，阿富汗从未被视为中国真正的欲谋求影响力的范畴。中国和美国都知道，未来相当一段时间，互相争锋和主要要处理的战略难题和挑战，仍在欧亚大陆的东面、在海上，而不是心脏地带。]]></summary>
-  <category term="评论分析"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58921173</id>
   <title><![CDATA[UNICEF：没有一个孩子能逃脱气候变化的影响]]></title>
   <updated>2021-08-22T08:15:00Z</updated>
@@ -580,15 +580,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -596,6 +587,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
