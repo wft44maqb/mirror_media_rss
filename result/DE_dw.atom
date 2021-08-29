@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-29T09:56:57Z</updated>
+ <updated>2021-08-29T10:01:10Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -15,14 +15,14 @@
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
  <entry>
-  <id>tag:dw.com,2021:58989290</id>
-  <title><![CDATA[阿富汗变天 网红也纷纷逃离 ]]></title>
-  <updated>2021-08-29T07:27:00Z</updated>
-  <published>2021-08-29T07:27:00Z</published>
+  <id>tag:dw.com,2021:59018351</id>
+  <title><![CDATA[新加坡成为全球完全接种率最高国家]]></title>
+  <updated>2021-08-29T09:33:00Z</updated>
+  <published>2021-08-29T09:33:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗变天-网红也纷纷逃离/a-58989290?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[过去二十年里，年轻一代阿富汗人在互联网如鱼得水。现在，他（她）们中的一些人因塔利班重新掌权而出逃。]]></summary>
-  <category term="文化经纬"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/新加坡成为全球完全接种率最高国家/a-59018351?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[据新加坡官方发布的消息，该国八成人口已完成两剂冠病疫苗接种，从而成为全球完全接种率最高的国家。新加坡政府主导的接种计划采用BioNTech-辉瑞和莫德纳两种疫苗，但最近已宣布承认包括中国科兴在内的世卫组织批准的疫苗。]]></summary>
+  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58991533</id>
@@ -33,6 +33,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国今夏水灾保险损失超预期/a-58991533?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[德国今年7月中旬遭遇的水灾带来的保险赔付损失已近70亿欧元，超过预估。]]></summary>
   <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58989290</id>
+  <title><![CDATA[阿富汗变天 网红也纷纷逃离 ]]></title>
+  <updated>2021-08-29T07:27:00Z</updated>
+  <published>2021-08-29T07:27:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗变天-网红也纷纷逃离/a-58989290?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[过去二十年里，年轻一代阿富汗人在互联网如鱼得水。现在，他（她）们中的一些人因塔利班重新掌权而出逃。]]></summary>
+  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58981872</id>
@@ -265,16 +275,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58998493</id>
-  <title><![CDATA[美民调：过半数美国人支持派军防台 逾六成视中国为威胁]]></title>
-  <updated>2021-08-27T07:48:00Z</updated>
-  <published>2021-08-27T07:48:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/美民调：过半数美国人支持派军防台-逾六成视中国为威胁/a-58998493?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[一间美国智库26日发布一项民调，显示有超过一半的受访者支持美国在中国武力犯台时，派军支持台湾，也有将近七成的民众支持美国政府承认台湾为独立国家。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58997968</id>
   <title><![CDATA[世卫首次发送中国疫苗  南非不想要]]></title>
   <updated>2021-08-27T06:31:00Z</updated>
@@ -475,16 +475,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58906625</id>
-  <title><![CDATA[柏林——永远的间谍之都]]></title>
-  <updated>2021-08-22T07:40:00Z</updated>
-  <published>2021-08-22T07:40:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58904029</id>
   <title><![CDATA[阿富汗艺术家：“失望、痛苦、愤怒”]]></title>
   <updated>2021-08-22T07:40:00Z</updated>
@@ -492,6 +482,16 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗艺术家：-失望、痛苦、愤怒/a-58904029?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[因害怕塔利班，阿富汗艺术家中有很多人毁掉了自己的作品，另一些人则创作新作品——以示抗议。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58906625</id>
+  <title><![CDATA[柏林——永远的间谍之都]]></title>
+  <updated>2021-08-22T07:40:00Z</updated>
+  <published>2021-08-22T07:40:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林-永远的间谍之都/a-58906625?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[英国驻德国大使馆的一名雇员因涉嫌为俄罗斯从事间谍活动而被捕。这听起来颇像冷战，但其实并不罕见，特别是在“间谍之都”柏林。]]></summary>
   <category term="文化经纬"/>
  </entry>
  <entry>
@@ -580,15 +580,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="新闻广角"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -596,6 +587,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="在线报导"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="新闻广角"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
