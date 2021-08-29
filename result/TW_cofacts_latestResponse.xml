@@ -4,10 +4,27 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sun, 29 Aug 2021 15:10:44 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Aug 2021 15:13:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[榮總醫師說 輕症新冠狀肺炎可以透過和水、檸檬水、醋而減緩]]></title>
+            <link>https://cofacts.tw/article/1cbhq0bbrr26b?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/1cbhq0bbrr26b?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sun, 29 Aug 2021 15:11:34 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/1cbhq0bbrr26b?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          榮總醫師說 輕症新冠狀肺炎可以透過和水、檸檬水、醋而減緩
+        
+              <h2><a href="https://cofacts.tw/reply/bvR3knsBqH8xU4AwQpjT">最新回應</a></h2>
+              <p>含有錯誤訊息 by Lin</p>
+              假的。並沒有科學證據證實補充維生素 C 能夠「殺死」導致上呼吸道感染的病毒或是阻止其傳播。 美國國家學院（the National Academies）在說明中指出，病毒進入人體內後會自行進行複製，而這些複製的病毒會繼續重複這個複製過程，並在體內傳播。 食用檸檬水並無法阻止或破壞病毒進行複製的能力。此外，美國國家學院也說，儘管檸檬含有維生素 C，是人體所需很重要的營養元素，但沒有證據可以證明維生素 C 能強化人體的免疫系統。
+
+              <h2>出處</h2>
+               https://www.mygopen.com/2020/12/lemon-covid-19.html?m=1
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[吃味道很酸的檸檬就是對身體好]]></title>
             <link>https://cofacts.tw/article/2jv0okenkti8v?utm_source=Others&amp;utm_medium=RSS</link>
@@ -250,26 +267,6 @@ https://timeline.line.me/post/_dZmhmF17-1-XWDjKs6gjW7H3mS4dqLiY7N_YmLg/116299354
               <h2>出處</h2>
               https://tfc-taiwan.org.tw/articles/6120
 
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[https://youtu.be/WAYDjTWqLNg (每天空腹吃1個蘋果，⋯⋯]]></title>
-            <link>https://cofacts.tw/article/125u3wqxkbboz?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/125u3wqxkbboz?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Sun, 29 Aug 2021 14:52:40 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/125u3wqxkbboz?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          https://youtu.be/WAYDjTWqLNg (每天空腹吃1個蘋果，堅持半個月，4個「好處」不請自來！經常吃桃子對心臟好？醫生：常吃桃子的3個好處，很多人不知道)
-        
-              <h2><a href="https://cofacts.tw/reply/W_RlknsBqH8xU4Aw9Zj5">最新回應</a></h2>
-              <p>含有錯誤訊息 by Lin</p>
-              吃蘋果並不能有此類保健的效果，民間療法的治療原理，主要為心理上的安撫，而非生理上的實質治療。除了經過一次又一次的科學實証證明之外，「劑量」及「頻次」也扮演著重要的角色。
-
-
-              <h2>出處</h2>
-              http://www.commonhealth.com.tw/article/article.action?nid=68064&page=1
-民俗療法的效果
-http://www.mygopen.com/2017/10/line_8.html
             ]]></description>
         </item>
     </channel>
