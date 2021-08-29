@@ -4,7 +4,7 @@
   <link rel="alternate" type="text/html" href="https://status.fastly.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.fastly.com/history.atom"/>
   <title>Fastly Status - Incident History</title>
-  <updated>2021-08-29T06:36:14Z</updated>
+  <updated>2021-08-29T07:24:27Z</updated>
   <author>
     <name>Fastly</name>
   </author>
@@ -18,11 +18,11 @@
   </entry>
   <entry>
     <id>tag:status.fastly.com,2005:Incident/7866548</id>
-    <published>2021-08-29T06:36:14Z</published>
-    <updated>2021-08-29T06:36:14Z</updated>
+    <published>2021-08-29T07:24:27Z</published>
+    <updated>2021-08-29T07:24:27Z</updated>
     <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/pvblyyxbtfgp"/>
     <title>Traffic rerouted in Manila (MNL)</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;06:36&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Traffic in Manila (MNL) has been temporarily rerouted. All other locations and services are unaffected.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;07:24&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;06:36&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Traffic in Manila (MNL) has been temporarily rerouted. All other locations and services are unaffected.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:status.fastly.com,2005:Incident/7725124</id>
