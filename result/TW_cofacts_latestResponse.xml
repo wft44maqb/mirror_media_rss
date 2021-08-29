@@ -4,10 +4,41 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sun, 29 Aug 2021 13:07:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Aug 2021 13:10:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[大家約疫苗了嗎？
+醫護）已經打完AZ第一劑的教戰手則
+打疫苗.避開副作用的方法
+⋯⋯]]></title>
+            <link>https://cofacts.tw/article/1mql8072e0esl?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/1mql8072e0esl?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sun, 29 Aug 2021 13:08:52 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/1mql8072e0esl?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          大家約疫苗了嗎？
+醫護）已經打完AZ第一劑的教戰手則
+打疫苗.避開副作用的方法
+
+1.不可空腹打疫苗...飯後打
+2.打針前...喝250cc.溫開水
+3.打完後...喝250cc.溫開水
+多喝水，每個人症狀不同，
+4. 最好再準備個普拿疼，打完每日3次量體溫，高於38度可吃
+5. 打前幾日和打完一週，每日補充維他命C
+6. 前3日少吃甜食或甜度過高的水果
+        
+              <h2><a href="https://cofacts.tw/reply/BvQGknsBqH8xU4Aw7Jir">最新回應</a></h2>
+              <p>含有個人意見 by vanillam</p>
+              此訊息部分錯誤，例如：維他命C是維持免疫功能的重要微量營養素，施打疫苗前是否需大量攝取維他命C，目前沒有相關的研究證實，此做法可直接降低或預防副作用。
+詳細請參看連結.
+
+              <h2>出處</h2>
+              https://tfc-taiwan.org.tw/articles/5947
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[在中國報紙上看不到的新聞。中國戰機撞山！阿彌陀佛！]]></title>
             <link>https://cofacts.tw/article/3ctyi1oc8up11?utm_source=Others&amp;utm_medium=RSS</link>
@@ -233,27 +264,6 @@ https://www.mygopen.com/2017/08/line91.html
               <h2>出處</h2>
               MyGoPen查證參考：
 https://www.mygopen.com/2021/06/luc-montagnier2.html
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[《驚天大喜訊》！
-阿根廷發表，在羊駝體內發現～新冠病毒1000倍的抗體，對任何變⋯⋯]]></title>
-            <link>https://cofacts.tw/article/3gi8mcwh702w3?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/3gi8mcwh702w3?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Sun, 29 Aug 2021 01:55:11 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/3gi8mcwh702w3?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          《驚天大喜訊》！
-阿根廷發表，在羊駝體內發現～新冠病毒1000倍的抗體，對任何變種病毒都有效！
-目前已由實驗室開發技術丶大量複製，將來只要～對口噴吸即可吸收！
-        
-              <h2><a href="https://cofacts.tw/reply/8vSej3sBqH8xU4AwJpUF">最新回應</a></h2>
-              <p>含有錯誤訊息 by ショウ</p>
-              不完全正確，這是德國媒體《Welt》2021 年 8 月的新聞報導。據報導，德國「哥廷根」的研究人員開發出可以有效阻斷新冠病毒的奈米抗體，其對抗冠狀病毒的能力比以前開發的抗體好 1000 倍，而這些抗體是來自羊駝的血液。並非網傳訊息描述的「阿根廷」。
-
-              <h2>出處</h2>
-              MyGoPen查證參考：
-https://www.mygopen.com/2021/08/covid-Alpaca.html
             ]]></description>
         </item>
     </channel>
