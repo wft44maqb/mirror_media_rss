@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Fri, 27 Aug 2021 09:31:39 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 29 Aug 2021 14:21:08 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -15,7 +15,7 @@
 	<item>
 		<title>基于AI技术的智能剪辑方案</title>
 		<link>https://aws.amazon.com/cn/blogs/china/intelligent-editing-scheme-based-on-ai-technology/</link>
-				<pubDate>Fri, 27 Aug 2021 09:31:38 +0000</pubDate>
+				<pubDate>Sun, 29 Aug 2021 14:21:08 +0000</pubDate>
 		<dc:creator><![CDATA[AWS Team]]></dc:creator>
 				<category><![CDATA[Artificial Intelligence]]></category>
 		<category><![CDATA[AI]]></category>
@@ -168,7 +168,7 @@
  &lt;li&gt;利用 AI 技术，自动识别目标任务；&lt;/li&gt; 
  &lt;li&gt;无需准备海量训练样本，无需掌握复杂的机器学习技能。&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;如您希望了解该方案原型的部署细节，可以从这里获得方案源代码及架构详细说明。https://github.com/weiping-bj/Smart-Cutting-using-AWS&lt;/p&gt; 
+&lt;p&gt;如您希望了解该方案原型的部署细节，可以从&lt;a href="https://github.com/weiping-bj/Smart-Cutting-using-AWS"&gt;这里&lt;/a&gt;获得方案源代码及架构详细说明。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;本篇作者&lt;/h2&gt; 
 &lt;footer&gt; 
