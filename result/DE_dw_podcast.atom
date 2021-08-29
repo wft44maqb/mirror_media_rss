@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-08-29T07:29:38Z</updated>
+ <updated>2021-08-29T07:35:33Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,17 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:58994242</id>
+  <title><![CDATA[四天工作制 冰岛人跃跃欲试]]></title>
+  <updated>2021-08-29T07:19:00Z</updated>
+  <published>2021-08-29T07:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/四天工作制-冰岛人跃跃欲试/av-58994242?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[86%的冰岛上班族都已经实现了每星期35小时工作制。现在，冰岛人正在酝酿进一步实现每星期工作4天。最新的一项研究更是显示，四天工作制不仅仅能提升生活幸福感，还能提振经济效率。]]></summary>
+  <category term="经济纵横"/>
+  <link rel="enclosure" type="video/mp4" length="12027950" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210826_001_61247islandarbeit_sd.mp4" title="四天工作制 冰岛人跃跃欲试"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58981726</id>
   <title><![CDATA[飙轮椅展翅高飞]]></title>
@@ -332,16 +343,5 @@
   <summary><![CDATA[德国联邦总统施泰因迈尔在德国西部视察洪水灾情发表讲话时，基民盟总理候选人、北威州州长拉谢特站在背后与旁人聊天哈哈大笑，引发公众愤怒。拉谢特公开表达歉意。]]></summary>
   <category term="德国新闻"/>
   <link rel="enclosure" type="video/mp4" length="6174538" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210719_001_77d43laschet_sd.mp4" title="德总理候选人灾情现场嬉笑引众怒"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58277984</id>
-  <title><![CDATA[怎样对领导说真话？]]></title>
-  <updated>2021-07-18T07:05:00Z</updated>
-  <published>2021-07-18T07:05:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/怎样对领导说真话？/av-58277984?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[同领导意见不一时，怎么跟他说？会不会被炒了鱿鱼？现在告你几个招数。]]></summary>
-  <category term="文化经纬"/>
-  <link rel="enclosure" type="video/mp4" length="16099714" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210715_002_leader_01r_sd.mp4" title="怎样对领导说真话？"/>
  </entry>
 </feed>
