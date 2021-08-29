@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-08-29T00:34:16.078Z</updated>
+    <updated>2021-08-29T00:39:18.541Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -160,6 +160,32 @@
         </author>
         <category label="國際"/>
         <published>2021-08-28T05:49:10.297Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[阿富汗兩運動員抵東京　準備參加殘奧]]></title>
+        <id>https://www.thestandnews.com/international/%E9%98%BF%E5%AF%8C%E6%B1%97%E5%85%A9%E9%81%8B%E5%8B%95%E5%93%A1%E6%8A%B5%E6%9D%B1%E4%BA%AC%E6%BA%96%E5%82%99%E5%8F%83%E5%8A%A0%E6%AE%98%E5%A5%A7</id>
+        <link href="https://www.thestandnews.com/international/%E9%98%BF%E5%AF%8C%E6%B1%97%E5%85%A9%E9%81%8B%E5%8B%95%E5%93%A1%E6%8A%B5%E6%9D%B1%E4%BA%AC%E6%BA%96%E5%82%99%E5%8F%83%E5%8A%A0%E6%AE%98%E5%A5%A7"/>
+        <updated>2021-08-29T00:35:10.818Z</updated>
+        <summary type="html"><![CDATA[塔利班於本月攻陷阿富汗首都喀布爾奪取政權，兩名準備參與東京殘奧的阿富汗運動員，早前因為機場關閉無法離國參賽。國際殘奧委員會於周六（28日）公布，該兩名阿富汗運動員已於周六抵達日本東京，準備參加東京殘奧。根據國際殘奧委員會（International Paralympic Committee, IPC）聲明，該兩名阿富汗運動員分別為跆拳道女運動員Zakia Khudadadi 和田徑運動員 Hos…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/Zakia_Khudadadi1.jpg"><figcaption><span>Zakia Khudadadi（國際殘奧委員會圖片）</span></figcaption></figure><p>塔利班於本月攻陷阿富汗首都喀布爾奪取政權，兩名準備參與東京殘奧的阿富汗運動員，早前因為機場關閉無法離國參賽。國際殘奧委員會於周六（28日）公布，該兩名阿富汗運動員已於周六抵達日本東京，準備參加東京殘奧。</p>
+
+<p>根據國際殘奧委員會（International Paralympic Committee, IPC）聲明，該兩名阿富汗運動員分別為跆拳道女運動員Zakia Khudadadi 和田徑運動員 Hossain Rasouli，他們在一個星期前從阿富汗首都喀布爾撤離，及後乘坐從法國巴黎起飛的航班，到達日本東京。他們在進入選手村前，已進行過新冠病毒檢測。</p>
+
+<div><figure><img src="https://assets.thestandnews.com/media/photos/Hossain_Rasouli_2.jpg"><figcaption><span>Hossain Rasouli（國際殘奧委員會圖片）</span></figcaption></figure></div>
+
+<p>IPC 指，透過參加殘奧和在比賽上的表現，兩位運動員希望為阿富汗和全世界的人民帶來希望、和平和團結。</p>
+
+<p>Zakia Khudadadi 是自 2004 年雅典殘奧會，首位代表阿富汗出戰殘奧的女運動員，將於下月 2 日參加女子 49 公斤跆拳道賽事，而 Rasouli 將於翌日參加男子 400 米跑預賽。</p>
+
+<p>兩名運動員本應於今月 17 日到達東京參賽，但因塔利班奪權而無法離開阿富汗。阿富汗殘奧委員會早前向路透社發布一條影片，在影片中 Khudadadi 請求協助：「我請求所有人，我是一位阿富汗女性，作為阿富汗婦女的代表，請求你們幫助我。」</p>
+
+<p>相關報道：<a href="https://www.reuters.com/world/asia-pacific/two-afghan-athletes-arrive-tokyo-paralympics-2021-08-28/?utm_campaign=trueAnthem%3A+Trending+Content&amp;utm_medium=trueAnthem&amp;utm_source=facebook">路透社</a>、<a href="https://www.theguardian.com/sport/2021/aug/28/afghanistan-duo-arrive-in-tokyo-for-paralympics-after-kabul-evacuation">衛報</a></p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="國際"/>
+        <published>2021-08-29T00:17:29.962Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[香港大會堂紀念花園的初心 — 薪火相傳紀念保衛戰中犧牲的軍人和平民]]></title>
@@ -1310,37 +1336,5 @@ Fair winds and following seas. <a href="https://t.co/4WMZhAjOog">pic.twitter.com
         </author>
         <category label="社會"/>
         <published>2021-08-28T07:27:14.738Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【劏房租管】組織促政府訂立起始租金    劏房戶要求新例規管維修及水電費]]></title>
-        <id>https://www.thestandnews.com/society/ab%E5%8A%8F%E6%88%BF%E7%A7%9F%E7%AE%A1%E7%B5%84%E7%B9%94%E4%BF%83%E6%94%BF%E5%BA%9C%E8%A8%82%E7%AB%8B%E8%B5%B7%E5%A7%8B%E7%A7%9F%E9%87%91-%E5%8A%8F%E6%88%BF%E6%88%B6%E8%A6%81%E6%B1%82%E6%96%B0%E4%BE%8B%E8%A6%8F%E7%AE%A1%E7%B6%AD%E4%BF%AE%E5%8F%8A%E6%B0%B4%E9%9B%BB%E8%B2%BB</id>
-        <link href="https://www.thestandnews.com/society/ab%E5%8A%8F%E6%88%BF%E7%A7%9F%E7%AE%A1%E7%B5%84%E7%B9%94%E4%BF%83%E6%94%BF%E5%BA%9C%E8%A8%82%E7%AB%8B%E8%B5%B7%E5%A7%8B%E7%A7%9F%E9%87%91-%E5%8A%8F%E6%88%BF%E6%88%B6%E8%A6%81%E6%B1%82%E6%96%B0%E4%BE%8B%E8%A6%8F%E7%AE%A1%E7%B6%AD%E4%BF%AE%E5%8F%8A%E6%B0%B4%E9%9B%BB%E8%B2%BB"/>
-        <updated>2021-08-28T08:37:41.717Z</updated>
-        <summary type="html"><![CDATA[管制劏房的《業主及租客（修訂）條例草案》7 月於立法會進入二讀階段，最快本年底實施。關注基層住屋聯席今日 （ 28 日）召開記者會，要求政府堵塞條例草案中的漏洞，包括訂立起始租金、擴闊規管舊租約及單位範圍等。有劏房住戶表示，家中漏水如「瀑布」，又被業主濫收水電費。組織建議，當局應設立條例檢討機制，並在條例刊憲後即時生效，同時規管舊租約，避免有無良業主於「空窗期」內大幅加租甚或中止租約，逼使基層租…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/%E5%8A%8F.png"></figure><p>管制劏房的《業主及租客（修訂）條例草案》7 月於立法會進入二讀階段，最快本年底實施。關注基層住屋聯席今日 （ 28 日）召開記者會，要求政府堵塞條例草案中的漏洞，包括訂立起始租金、擴闊規管舊租約及單位範圍等。有劏房住戶表示，家中漏水如「瀑布」，又被業主濫收水電費。組織建議，當局應設立條例檢討機制，並在條例刊憲後即時生效，同時規管舊租約，避免有無良業主於「空窗期」內大幅加租甚或中止租約，逼使基層租戶簽訂租金高昂的新合約。</p>
-
-<p>已住在劏房 12 年的張先生與妻子居於旺角一間不足百呎的劏房單位，月租 6,500 元。他的房間漏水情況嚴重，每逢紅、黑雨「會好似瀑布咁」，希望條例強制於租約內列明業主維修責任。他又投訴劏房業主濫收水電費，他曾居於太子一劏房單位，其鄰居單位不幸發生火災，燒熔了電錶，其後業主以「估算」形式向他索取多約 400 元電費。後來經社福機構幫助，他發現業主 4 年來向他濫收逾萬元的水電費。經歷近 1 年努力追討過程，他最終討回 8,000 元。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/Image_from_iOS_42_x4fpFYJ.jpg"><figcaption><span>關注基層住屋聯席</span></figcaption></figure></div>
-
-<p><strong>組織擔心郊區寮屋劏房化</strong></p>
-
-<p>全港關注劏房平台胡倬殷則指出，政府現時已掌握不少劏房租戶數據，理應可訂立起始租金，否則一旦業主與租戶另立租約，租客仍難逃貴租命運。對於現時條例建議以 15% 為加租上限，她認為是對劏房租戶極大負擔，要求條例修訂租金增幅的上限至 10% 。</p>
-
-<p>屯門住屋關注團隊甘根明表示，現時新界郊區有過千户寮屋劏房，衛生、交通狀況比普通劏房更惡劣，惟現時條例未有將這類單位涵蓋，擔心會導致郊區寮屋、豬欄屋或貨倉仔「劏房化」。</p>
-
-<div style="line-height:1.38"><figure><img src="https://assets.thestandnews.com/media/photos/Image_from_iOS_40.jpg"><figcaption><span>劏房戶張先生要求政府正視劏房維修及水電費問題</span></figcaption></figure></div>
-
-<div style="line-height:1.38">&nbsp;</div>
-
-<div>
-<p>根據條例草案，政府建議劏房業主與租客必須簽訂列明雙方權利和責任的書面租賃協議。租客會獲為期四年的租住權保障，租期則固定為兩年，期內只可減租不可加租。租期首 12 個月過後，租客可給予一個月通知終止租約，而業主則不可在期內提出終止租約。續租時的租金加幅也受限制，須參照差餉物業估價署編製和公布的私人住宅物業租金指數變動，並以 15% 為上限。</p>
-</div>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="社會"/>
-        <published>2021-08-28T08:16:41.748Z</published>
     </entry>
 </feed>
