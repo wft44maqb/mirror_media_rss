@@ -4,10 +4,30 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sun, 29 Aug 2021 07:09:50 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Aug 2021 07:12:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[有報導稱 BNT疫苗裡面含有99.99‰的石墨稀成分，是真的嗎？]]></title>
+            <link>https://cofacts.tw/article/xx15hk5ajt59?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/xx15hk5ajt59?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sun, 29 Aug 2021 07:12:05 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/xx15hk5ajt59?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          有報導稱 BNT疫苗裡面含有99.99‰的石墨稀成分，是真的嗎？
+        
+              <h2><a href="https://cofacts.tw/reply/GfTAkHsBqH8xU4AwRpfk">最新回應</a></h2>
+              <p>含有錯誤訊息 by 宋思彤</p>
+              根據衛福部疾管署公告的「各廠牌 COVID-19 疫苗之比較一覽表」中，BNT主成分為30mcg新冠病毒RNA。美國食品藥物管理局（FDA）的緊急使用授權公告，三款疫苗（輝瑞、莫德納、BNT）也都沒有石墨烯的成份。
+
+
+
+              <h2>出處</h2>
+              https://www.cdc.gov.tw/Uploads/cbb7ba30-4223-4a21-844b-177fa4215468.pdf
+https://news.ltn.com.tw/news/life/breakingnews/3629980
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[歐洲國家暫停施打AZ]]></title>
             <link>https://cofacts.tw/article/2gfuvcjfrkknw?utm_source=Others&amp;utm_medium=RSS</link>
@@ -285,28 +305,6 @@ https://maldita.es/malditaciencia/20210709/informe-universidad-almeria-vacuna-co
 https://fullfact.org/online/graphene-oxide/
 --
 ℹ️ 此資訊取自「Cofacts 真的假的」訊息回報機器人與查證協作社群，採 CC BY-SA 4.0 授權提供。若欲補充資訊請訪問 Cofacts LINE bot https://line.me/R/ti/p/%40cofacts 。
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[蔡英文高端沒有針頭]]></title>
-            <link>https://cofacts.tw/article/2mrna6g9eaupi?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/2mrna6g9eaupi?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Sat, 28 Aug 2021 15:42:07 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/2mrna6g9eaupi?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          蔡英文高端沒有針頭
-        
-              <h2><a href="https://cofacts.tw/reply/OfRsjXsBqH8xU4Aw4JVb">最新回應</a></h2>
-              <p>含有錯誤訊息 by Lin</p>
-              假的。聯合報、華視新聞的影片畫面都有拍到針頭喔。
-
-              <h2>出處</h2>
-              10:58 接種完成後，後方護理師在手上接過針頭時，可見針頭反射陽光
-https://www.youtube.com/watch?v=cEEzG_chs8k
-
-1:18 秒處可見明顯針頭
-https://www.youtube.com/watch?v=8iSzsVe7WcQ
-
             ]]></description>
         </item>
     </channel>
