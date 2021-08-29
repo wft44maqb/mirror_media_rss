@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-08-29T07:26:16Z</updated>
+ <updated>2021-08-29T07:29:39Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59014764</id>
+  <title><![CDATA[两个阿富汗人的故事：被驱逐与被援救]]></title>
+  <updated>2021-08-29T07:14:00Z</updated>
+  <published>2021-08-29T07:14:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/两个阿富汗人的故事：被驱逐与被援救/a-59014764?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[这是两个阿富汗人不同命运的故事。一个曾经从德国被遣返回国，如今和家人绝望地生活在喀布尔，每天都面临生命危险；另一个曾经从挪威被遣返回国，这次幸运地成为德国首批救援的7名阿富汗人之一，来到了汉堡。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59013296</id>
   <title><![CDATA[中国：娱乐圈震荡不断 “饭圈”遭重拳]]></title>
@@ -175,16 +185,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59000364</id>
-  <title><![CDATA[日台2+2——充满陷阱的在线对话]]></title>
-  <updated>2021-08-27T10:31:00Z</updated>
-  <published>2021-08-27T10:31:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/日台2-2-充满陷阱的在线对话/a-59000364?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[本周五，日台首次举行执政党2+2安全对话。分析人士认为，这标志着日本在台湾问题上的危机意识日益加强。德国政治学者指出，日本对台政策如果转弯幅度过大，对日本利益造成的伤害将大于收益。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:57217657</id>
   <title><![CDATA[柴可夫斯基：西班牙舞曲]]></title>
   <updated>2021-08-27T10:31:00Z</updated>
@@ -193,6 +193,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柴可夫斯基：西班牙舞曲/a-57217657?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[19世纪伟大的俄罗斯作曲家柴可夫斯基的《天鹅湖》组曲闻名遐迩。请听莫斯科柴可夫斯基交响乐团演奏的组曲中的西班牙舞曲。]]></summary>
   <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59000364</id>
+  <title><![CDATA[日台2+2——充满陷阱的在线对话]]></title>
+  <updated>2021-08-27T10:31:00Z</updated>
+  <published>2021-08-27T10:31:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/日台2-2-充满陷阱的在线对话/a-59000364?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[本周五，日台首次举行执政党2+2安全对话。分析人士认为，这标志着日本在台湾问题上的危机意识日益加强。德国政治学者指出，日本对台政策如果转弯幅度过大，对日本利益造成的伤害将大于收益。]]></summary>
+  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58998493</id>
@@ -213,26 +223,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/世卫首次发送中国疫苗-南非不想要/a-58997968?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[COVAX全球疫苗共享计划因为疫情引发的生产国出口限制而让疫苗数迟迟无法到位，现在世卫要送1亿剂中国疫苗，却有非洲国家说不要，为什么？]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58997753</id>
-  <title><![CDATA[台湾国防预算创新高 但增幅并无显着提升]]></title>
-  <updated>2021-08-27T04:05:00Z</updated>
-  <published>2021-08-27T04:05:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/台湾国防预算创新高-但增幅并无显着提升/a-58997753?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[随着中国军事压力升高，台湾自身国防实力的发展受外界关注。台湾政府26日宣布2022年度国防预算，新台币3726亿元（约美金133亿元），创下历年新高，但年增幅3%跟往年比较并无显着提升。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58997025</id>
-  <title><![CDATA[拜登：我们将追捕你们，让你们付出代价]]></title>
-  <updated>2021-08-27T01:53:00Z</updated>
-  <published>2021-08-27T01:53:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/拜登：我们将追捕你们，让你们付出代价/a-58997025?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[26日在喀布尔机场附近发生的两起自杀式爆炸袭击案已经造成至少95名平民死亡，140人受伤。13名美国军人丧生。美国总统拜登8月26日誓言追捕恐怖袭击者，并要求五角大楼制定相关反击计画。与此同时，美军代表坦承，可能会有更多类似事件发生。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58997075</id>
