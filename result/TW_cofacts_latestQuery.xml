@@ -4,7 +4,7 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sun, 29 Aug 2021 13:13:56 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Aug 2021 13:16:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
@@ -127,6 +127,23 @@ https://news.mingpao.com/pns/%E4%B8%AD%E5%9C%8B/article/20201006/s00013/16019207
 
               <h2>出處</h2>
               https://www.cna.com.tw/news/ahel/202108260135.aspx
+            ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[https://youtu.be/WAYDjTWqLNg (每天空腹吃1個蘋果，⋯⋯]]></title>
+            <link>https://cofacts.tw/article/125u3wqxkbboz?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/125u3wqxkbboz?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sun, 29 Aug 2021 10:07:54 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/125u3wqxkbboz?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          https://youtu.be/WAYDjTWqLNg (每天空腹吃1個蘋果，堅持半個月，4個「好處」不請自來！經常吃桃子對心臟好？醫生：常吃桃子的3個好處，很多人不知道)
+        
+              <h2><a href="https://cofacts.tw/reply/DPQMknsBqH8xU4AwKpil">最新回應</a></h2>
+              <p>不在查證範圍 by vanillam</p>
+              只提供連結，沒有提出所需查核什麼，這樣像是吸引點擊率手法。
+
+              
+              
             ]]></description>
         </item>
         <item>
@@ -302,26 +319,6 @@ https://www.freeway.gov.tw/Publish.aspx?cnid=193&p=8627
 
 MyGoPen查證參考：
 https://www.mygopen.com/2017/08/line91.html
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[有報導稱 BNT疫苗裡面含有99.99‰的石墨稀成分，是真的嗎？]]></title>
-            <link>https://cofacts.tw/article/xx15hk5ajt59?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/xx15hk5ajt59?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Sun, 29 Aug 2021 03:33:13 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/xx15hk5ajt59?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          有報導稱 BNT疫苗裡面含有99.99‰的石墨稀成分，是真的嗎？
-        
-              <h2><a href="https://cofacts.tw/reply/GfTAkHsBqH8xU4AwRpfk">最新回應</a></h2>
-              <p>含有錯誤訊息 by 宋思彤</p>
-              根據衛福部疾管署公告的「各廠牌 COVID-19 疫苗之比較一覽表」中，BNT主成分為30mcg新冠病毒RNA。美國食品藥物管理局（FDA）的緊急使用授權公告，三款疫苗（輝瑞、莫德納、BNT）也都沒有石墨烯的成份。
-
-
-
-              <h2>出處</h2>
-              https://www.cdc.gov.tw/Uploads/cbb7ba30-4223-4a21-844b-177fa4215468.pdf
-https://news.ltn.com.tw/news/life/breakingnews/3629980
             ]]></description>
         </item>
     </channel>
