@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Sun, 29 Aug 2021 23:02:31 +0800</pubDate>
-		<lastBuildDate>Sun, 29 Aug 2021 23:02:31 +0800</lastBuildDate>
+		<pubDate>Sun, 29 Aug 2021 23:05:44 +0800</pubDate>
+		<lastBuildDate>Sun, 29 Aug 2021 23:05:44 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,5 +15,964 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>F5 BIG-IP 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/f5-big-ip-multiple-vulnerabilities_20210826</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/f5-big-ip-multiple-vulnerabilities_20210826</guid>
+			<pubDate>Thu, 26 Aug 2021 09:05:00 +0800</pubDate>
+			<description><![CDATA[  於 F5 BIG-IP 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、彷冒、遠端執行任意程式...
+			  <p>影響</p>
+			  <ul>
+			          <li>跨網站指令碼</li>
+			          <li>阻斷服務</li>
+			          <li>遠端執行程式碼</li>
+			          <li>繞過保安限制</li>
+			          <li>資料洩露</li>
+			          <li>仿冒</li>
+			          <li>篡改</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <p>BIG-IP Advanced WAF and ASM systems</p>
+			
+			<p>&nbsp;</p>
+			
+			<p>BIG-IP SSL Profile OCSP</p>
+			
+			<p>&nbsp;</p>
+			
+			<p>BIG-IP (Guided Configuration)</p>
+			
+			<ul>
+				<li>版本 7.0</li>
+				<li>版本 6.0</li>
+				<li>版本 5.0</li>
+				<li>版本 4.1</li>
+				<li>版本 3</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>BIG-IP (APM)</p>
+			
+			<ul>
+				<li>版本 11.6.1 - 11.6.5</li>
+				<li>版本 12.1.0 - 12.1.6</li>
+				<li>版本 13.1.0 - 13.1.4</li>
+				<li>版本 14.1.0 - 14.1.4</li>
+				<li>版本 15.1.0 - 15.1.3</li>
+				<li>版本 16.0.0 - 16.0.1</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>BIG-IP (all modules)</p>
+			
+			<ul>
+				<li>版本 11.6.1 - 11.6.5</li>
+				<li>版本 12.1.0 - 12.1.6</li>
+				<li>版本 13.1.0 - 13.1.4</li>
+				<li>版本 14.1.0 - 14.1.4</li>
+				<li>版本 15.1.0 - 15.1.3</li>
+				<li>版本 16.0.0 - 16.0.1</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>BIG-IP (LTM, AAM, Advanced WAF, AFM, Analytics, APM, ASM, DDHD, DNS, FPS, GTM, Link Controller, PEM, SSLO)</p>
+			
+			<ul>
+				<li>版本 12.1.0 - 12.1.6</li>
+				<li>版本 13.1.0 - 13.1.4</li>
+				<li>版本 14.1.0 - 14.1.4</li>
+				<li>版本 15.1.0 - 15.1.3</li>
+				<li>版本 16.0.0 - 16.0.1</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>BIG-IP (DNS)</p>
+			
+			<ul>
+				<li>版本 12.1.0 - 12.1.6</li>
+				<li>版本 13.1.0 - 13.1.4</li>
+				<li>版本 14.1.0 - 14.1.4</li>
+				<li>版本 15.1.0 - 15.1.3</li>
+				<li>版本 16.0.0 - 16.0.1</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>BIG-IP AFM</p>
+			
+			<ul>
+				<li>版本 12.1.0 - 12.1.6</li>
+				<li>版本 13.1.0 - 13.1.3</li>
+				<li>版本 14.1.0 - 14.1.4</li>
+				<li>版本 15.1.0 - 15.1.2</li>
+				<li>版本 16.0.0 - 16.0.1</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>BIG-IP (DataSafe)</p>
+			
+			<ul>
+				<li>版本 16.0.0 - 16.0.1</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>BIG-IP (Advanced WAF, ASM)</p>
+			
+			<ul>
+				<li>版本 11.6.1 - 11.6.5</li>
+				<li>版本 12.1.0 - 12.1.6</li>
+				<li>版本 13.1.0 - 13.1.4</li>
+				<li>版本 14.1.0 - 14.1.4.1</li>
+				<li>版本 15.1.0 - 15.1.3</li>
+				<li>版本 16.0.0 - 16.0.1</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式：</p>
+			
+			<ul>
+				<li><a href="https://support.f5.com/csp/article/K94255403" target="_blank">https://support.f5.com/csp/article/K94255403</a></li>
+				<li><a href="https://support.f5.com/csp/article/K01153535" target="_blank">https://support.f5.com/csp/article/K01153535</a></li>
+				<li><a href="https://support.f5.com/csp/article/K45407662" target="_blank">https://support.f5.com/csp/article/K45407662</a></li>
+				<li><a href="https://support.f5.com/csp/article/K93231374" target="_blank">https://support.f5.com/csp/article/K93231374</a></li>
+				<li><a href="https://support.f5.com/csp/article/K14903688" target="_blank">https://support.f5.com/csp/article/K14903688</a></li>
+				<li><a href="https://support.f5.com/csp/article/K35408374" target="_blank">https://support.f5.com/csp/article/K35408374</a></li>
+				<li><a href="https://support.f5.com/csp/article/K70652532" target="_blank">https://support.f5.com/csp/article/K70652532</a></li>
+				<li><a href="https://support.f5.com/csp/article/K48321015" target="_blank">https://support.f5.com/csp/article/K48321015</a></li>
+				<li><a href="https://support.f5.com/csp/article/K79428827" target="_blank">https://support.f5.com/csp/article/K79428827</a></li>
+				<li><a href="https://support.f5.com/csp/article/K32734107" target="_blank">https://support.f5.com/csp/article/K32734107</a></li>
+				<li><a href="https://support.f5.com/csp/article/K30523121" target="_blank">https://support.f5.com/csp/article/K30523121</a></li>
+				<li><a href="https://support.f5.com/csp/article/K19012930" target="_blank">https://support.f5.com/csp/article/K19012930</a></li>
+				<li><a href="https://support.f5.com/csp/article/K94941221" target="_blank">https://support.f5.com/csp/article/K94941221</a></li>
+				<li><a href="https://support.f5.com/csp/article/K70415522" target="_blank">https://support.f5.com/csp/article/K70415522</a></li>
+				<li><a href="https://support.f5.com/csp/article/K05043394" target="_blank">https://support.f5.com/csp/article/K05043394</a></li>
+				<li><a href="https://support.f5.com/csp/article/K66782293" target="_blank">https://support.f5.com/csp/article/K66782293</a></li>
+				<li><a href="https://support.f5.com/csp/article/K65397301" target="_blank">https://support.f5.com/csp/article/K65397301</a></li>
+				<li><a href="https://support.f5.com/csp/article/K53854428" target="_blank">https://support.f5.com/csp/article/K53854428</a></li>
+				<li><a href="https://support.f5.com/csp/article/K61643620" target="_blank">https://support.f5.com/csp/article/K61643620</a></li>
+				<li><a href="https://support.f5.com/csp/article/K55543151" target="_blank">https://support.f5.com/csp/article/K55543151</a></li>
+				<li><a href="https://support.f5.com/csp/article/K42526507" target="_blank">https://support.f5.com/csp/article/K42526507</a></li>
+				<li><a href="https://support.f5.com/csp/article/K63163637" target="_blank">https://support.f5.com/csp/article/K63163637</a></li>
+				<li><a href="https://support.f5.com/csp/article/K24301698" target="_blank">https://support.f5.com/csp/article/K24301698</a></li>
+				<li><a href="https://support.f5.com/csp/article/K21435974" target="_blank">https://support.f5.com/csp/article/K21435974</a></li>
+				<li><a href="https://support.f5.com/csp/article/K36942191" target="_blank">https://support.f5.com/csp/article/K36942191</a></li>
+				<li><a href="https://support.f5.com/csp/article/K52420610" target="_blank">https://support.f5.com/csp/article/K52420610</a></li>
+				<li><a href="https://support.f5.com/csp/article/K30291321" target="_blank">https://support.f5.com/csp/article/K30291321</a></li>
+				<li><a href="https://support.f5.com/csp/article/K49549213" target="_blank">https://support.f5.com/csp/article/K49549213</a></li>
+				<li><a href="https://support.f5.com/csp/article/K00602225" target="_blank">https://support.f5.com/csp/article/K00602225</a></li>
+				<li><a href="https://support.f5.com/csp/article/K44553214" target="_blank">https://support.f5.com/csp/article/K44553214</a></li>
+				<li><a href="https://support.f5.com/csp/article/K42051445" target="_blank">https://support.f5.com/csp/article/K42051445</a></li>
+				<li><a href="https://support.f5.com/csp/article/K05314769" target="_blank">https://support.f5.com/csp/article/K05314769</a></li>
+				<li><a href="https://support.f5.com/csp/article/K41351250" target="_blank">https://support.f5.com/csp/article/K41351250</a></li>
+				<li><a href="https://support.f5.com/csp/article/K05391775" target="_blank">https://support.f5.com/csp/article/K05391775</a></li>
+				<li><a href="https://support.f5.com/csp/article/K30150004" target="_blank">https://support.f5.com/csp/article/K30150004</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>思科產品多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/cisco-products-multiple-vulnerabilities_20210826</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/cisco-products-multiple-vulnerabilities_20210826</guid>
+			<pubDate>Thu, 26 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於思科產品發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、權限提升、遠端執行任意...
+			  <p>影響</p>
+			  <ul>
+			          <li>跨網站指令碼</li>
+			          <li>阻斷服務</li>
+			          <li>權限提升</li>
+			          <li>遠端執行程式碼</li>
+			          <li>繞過保安限制</li>
+			          <li>資料洩露</li>
+			          <li>篡改</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>&nbsp;Cisco Application Policy Infrastructure Controller (APIC)</li>
+				<li>Cisco Cloud Application Policy Infrastructure Controller (Cloud APIC)</li>
+				<li>Cisco NX-OS</li>
+				<li>Cisco Nexus 9000 Series Fabric Switches in Application Centric Infrastructure (ACI) Mode</li>
+				<li>Cisco Nexus 9500 Series Switches</li>
+				<li>Cisco UCS Manager software</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式：</p>
+			
+			<ul>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-ssh-dos-MgvmyrQy" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-ssh-dos-MgvmyrQy</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nexus-acl-vrvQYPVe" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nexus-acl-vrvQYPVe</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-naci-afr-UtjfO2D7" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-naci-afr-UtjfO2D7</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n9kaci-tcp-dos-YXukt6gM" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n9kaci-tcp-dos-YXukt6gM</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-naci-mdvul-vrKVgNU" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-naci-mdvul-vrKVgNU</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n9kaci-queue-wedge-cLDDEfKF" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n9kaci-queue-wedge-cLDDEfKF</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-mpls-oam-dos-sGO9x5GM" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-mpls-oam-dos-sGO9x5GM</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-ngoam-dos-LTDb9Hv" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-ngoam-dos-LTDb9Hv</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-login-blockfor-RwjGVEcu" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-login-blockfor-RwjGVEcu</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-capic-chvul-CKfGYBh8" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-capic-chvul-CKfGYBh8</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-capic-frw-Nt3RYxR2" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-capic-frw-Nt3RYxR2</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-capic-mdvul-HBsJBuvW" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-capic-mdvul-HBsJBuvW</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-capic-pesc-pkmGK4J" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-capic-pesc-pkmGK4J</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-capic-scss-bFT75YrM" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-capic-scss-bFT75YrM</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>OpenSSL 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/openssl-multiple-vulnerabilities_20210825</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/openssl-multiple-vulnerabilities_20210825</guid>
+			<pubDate>Wed, 25 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於OpenSSL中發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況及敏感資料洩露。
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			          <li>資料洩露</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>OpenSSL 1.1.1l 之前的 1.1.1 版本</li>
+				<li>OpenSSL 1.0.2za 之前的 1.0.2 版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽軟體供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>更新至:</p>
+			
+			<ul>
+				<li>1.1.1l 版本</li>
+				<li>1.0.2za 版本</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>ISC BIND 阻斷服務漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/isc-bind-denial-of-service-vulnerability_20210820</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/isc-bind-denial-of-service-vulnerability_20210820</guid>
+			<pubDate>Fri, 20 Aug 2021 09:10:00 +0800</pubDate>
+			<description><![CDATA[  於 BIND 發現一個漏洞，遠端攻擊者可利用此漏洞，於目標系統觸發阻斷服務狀況。
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>BIND 9.16.19&nbsp;</li>
+				<li>BIND 9.17.16</li>
+				<li>BIND 9.16.19-S1</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<ul>
+				<li>安裝供應商提供的修補程式：</li>
+				<li>BIND 9.16.20</li>
+				<li>BIND 9.17.17</li>
+				<li>BIND 9.16.20-S1</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>思科產品多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/cisco-products-multiple-vulnerabilities_20210819</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/cisco-products-multiple-vulnerabilities_20210819</guid>
+			<pubDate>Thu, 19 Aug 2021 09:10:00 +0800</pubDate>
+			<description><![CDATA[  於 Cisco Products 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、洩露敏感資料、資料篡改及繞...
+			  <p>影響</p>
+			  <ul>
+			          <li>篡改</li>
+			          <li>繞過保安限制</li>
+			          <li>資料洩露</li>
+			          <li>阻斷服務</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Cisco Secure Email and Web Manager</li>
+				<li>Cisco Web Security Appliance (WSA)</li>
+				<li>Cisco Firepower Threat Defense (FTD)</li>
+				<li>Snort detection engine</li>
+				<li>Cisco 3000 Series Industrial Security Appliances (ISAs)</li>
+				<li>Cisco Small Business RV110W, RV130, RV130W, and RV215W Routers</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>詳情請參閱以下連結﹕</p>
+			
+			<ul>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-spam-jPxUXMk" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-spam-jPxUXMk</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sni-data-exfil-mFgzXqLN" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sni-data-exfil-mFgzXqLN</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5</a></li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><b>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</b>&nbsp;</p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式:</p>
+			
+			<ul>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-spam-jPxUXMk" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-spam-jPxUXMk</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sni-data-exfil-mFgzXqLN" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sni-data-exfil-mFgzXqLN</a></li>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5</a></li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p><strong>注意﹕ </strong>由於 Cisco Small Business RV110W, RV130, RV130W, and RV215W Routers&nbsp;產品已進入生命週期結束流程，因此供應商已停止為這些產品提供修補程式。用戶應盡快更換受影響的產品。</p>
+			
+			<p>&nbsp;</p>
+			
+			<p><strong>臨時處理方法：</strong>禁用受影響的功能。詳情請參閱以下連結：</p>
+			
+			<ul>
+				<li><a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5" target="_blank">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Linux 內核多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210819</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210819</guid>
+			<pubDate>Thu, 19 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Linux 內核發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、遠端執行任意程式碼及洩露...
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			          <li>遠端執行程式碼</li>
+			          <li>資料洩露</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Ubuntu 14.04 ESM</li>
+				<li>Ubuntu 16.04 ESM</li>
+				<li>Ubuntu 18.04 LTS</li>
+				<li>Ubuntu 20.04 LTS</li>
+				<li>Ubuntu 21.04</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式：</p>
+			
+			<ul>
+				<li><a href="https://ubuntu.com/security/notices/USN-5044-1" target="_blank">https://ubuntu.com/security/notices/USN-5044-1</a></li>
+				<li><a href="https://ubuntu.com/security/notices/USN-5045-1" target="_blank">https://ubuntu.com/security/notices/USN-5045-1</a></li>
+				<li><a href="https://ubuntu.com/security/notices/USN-5046-1" target="_blank">https://ubuntu.com/security/notices/USN-5046-1</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>F5 BIG-IP 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/f5-big-ip-multiple-vulnerabilities_20210818</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/f5-big-ip-multiple-vulnerabilities_20210818</guid>
+			<pubDate>Wed, 18 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 F5 BIG-IP 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、洩露敏感資料、資料篡改...
+			  <p>影響</p>
+			  <ul>
+			          <li>跨網站指令碼</li>
+			          <li>阻斷服務</li>
+			          <li>繞過保安限制</li>
+			          <li>資料洩露</li>
+			          <li>篡改</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <p>詳情請參閱以下連結﹕</p>
+			
+			<ul>
+				<li><a href="https://support.f5.com/csp/article/K09940637" target="_blank">https://support.f5.com/csp/article/K09940637</a></li>
+				<li><a href="https://support.f5.com/csp/article/K09604370" target="_blank">https://support.f5.com/csp/article/K09604370</a></li>
+				<li><a href="https://support.f5.com/csp/article/K40540405" target="_blank">https://support.f5.com/csp/article/K40540405</a></li>
+				<li><a href="https://support.f5.com/csp/article/K01869532" target="_blank">https://support.f5.com/csp/article/K01869532</a></li>
+				<li><a href="https://support.f5.com/csp/article/K04337834" target="_blank">https://support.f5.com/csp/article/K04337834</a></li>
+				<li><a href="https://support.f5.com/csp/article/K07020416" target="_blank">https://support.f5.com/csp/article/K07020416</a></li>
+				<li><a href="https://support.f5.com/csp/article/K41412302" target="_blank">https://support.f5.com/csp/article/K41412302</a></li>
+				<li><a href="https://support.f5.com/csp/article/K15104541" target="_blank">https://support.f5.com/csp/article/K15104541</a></li>
+				<li><a href="https://support.f5.com/csp/article/K21350967" target="_blank">https://support.f5.com/csp/article/K21350967</a></li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式：</p>
+			
+			<ul>
+				<li><a href="https://support.f5.com/csp/article/K09940637" target="_blank">https://support.f5.com/csp/article/K09940637</a></li>
+				<li><a href="https://support.f5.com/csp/article/K09604370" target="_blank">https://support.f5.com/csp/article/K09604370</a></li>
+				<li><a href="https://support.f5.com/csp/article/K40540405" target="_blank">https://support.f5.com/csp/article/K40540405</a></li>
+				<li><a href="https://support.f5.com/csp/article/K01869532" target="_blank">https://support.f5.com/csp/article/K01869532</a></li>
+				<li><a href="https://support.f5.com/csp/article/K04337834" target="_blank">https://support.f5.com/csp/article/K04337834</a></li>
+				<li><a href="https://support.f5.com/csp/article/K07020416" target="_blank">https://support.f5.com/csp/article/K07020416</a></li>
+				<li><a href="https://support.f5.com/csp/article/K41412302" target="_blank">https://support.f5.com/csp/article/K41412302</a></li>
+				<li><a href="https://support.f5.com/csp/article/K15104541" target="_blank">https://support.f5.com/csp/article/K15104541</a></li>
+				<li><a href="https://support.f5.com/csp/article/K21350967" target="_blank">https://support.f5.com/csp/article/K21350967</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Google Chrome 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20210817</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20210817</guid>
+			<pubDate>Tue, 17 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Google Chrome 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發遠端執行程式碼、阻斷服務狀況、繞過保安限...
+			  <p>影響</p>
+			  <ul>
+			          <li>遠端執行程式碼</li>
+			          <li>資料洩露</li>
+			          <li>阻斷服務</li>
+			          <li>繞過保安限制</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Google Chrome&nbsp;92.0.4515.159 之前的版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>安裝軟件供應商提供的修補程式：</p>
+			
+			<ul>
+				<li>更新至 92.0.4515.159版本</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>NetApp 產品資料篡改漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/netapp-products-data-manipulation-vulnerability_20210816</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/netapp-products-data-manipulation-vulnerability_20210816</guid>
+			<pubDate>Mon, 16 Aug 2021 09:15:00 +0800</pubDate>
+			<description><![CDATA[  於 NetApp Products 發現一個漏洞，遠端使用者可利用此漏洞，於目標系統觸發洩露敏感資料及資料篡改。
+			  <p>影響</p>
+			  <ul>
+			          <li>資料洩露</li>
+			          <li>篡改</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Active IQ Unified Manager for Linux</li>
+				<li>Active IQ Unified Manager for Microsoft Windows</li>
+				<li>E-Series SANtricity OS Controller Software 11.x</li>
+				<li>E-Series SANtricity Web Services (REST API) for Web Services Proxy</li>
+				<li>Element Plug-in for vCenter Server</li>
+				<li>NetApp SANtricity Cloud Connector</li>
+				<li>Snap Creator Framework</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<ul>
+				<li>安裝供應商提供的修補程式，詳情請參閱以下連結：<br />
+				<a href="https://security.netapp.com/advisory/ntap-20210813-0003/" target="_blank">https://security.netapp.com/advisory/ntap-20210813-0003/</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Microsoft Windows 遠端執行程式碼漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/microsoft-windows-remote-code-execution-vulnerability_20210816</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/microsoft-windows-remote-code-execution-vulnerability_20210816</guid>
+			<pubDate>Mon, 16 Aug 2021 09:10:00 +0800</pubDate>
+			<description><![CDATA[  於 Microsoft Windows 發現一個漏洞，遠端使用者可利用此漏洞，於目標系統觸發遠端執行任意程式碼。
+			  <p>影響</p>
+			  <ul>
+			          <li>遠端執行程式碼</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Windows Print Spooler</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p>注意：</p>
+			
+			<ul>
+				<li>暫無可用的修補程式</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p><strong>對於以上提及的受影響系統，請執行以下臨時處理方法：</strong></p>
+			
+			<ul>
+				<li>停用 Print Spooler service</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p><strong>臨時處理方法影響：</strong>停止和禁用 Print Spooler service 會禁用打印功能(包括遠端)。詳情請參閱以下連結：</p>
+			
+			<ul>
+				<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36958" target="_blank">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36958</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Linux 內核多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210816</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210816</guid>
+			<pubDate>Mon, 16 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Linux 內核發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、權限提升、洩露敏感資料、...
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			          <li>權限提升</li>
+			          <li>資料洩露</li>
+			          <li>篡改</li>
+			          <li>繞過保安限制</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>SUSE MicroOS 5.0</li>
+				<li>SUSE Linux Enterprise Module for Realtime 15-SP2</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式：</p>
+			
+			<ul>
+				<li><a href="https://www.suse.com/support/update/announcement/2021/suse-su-20212678-1/" target="_blank">https://www.suse.com/support/update/announcement/2021/suse-su-20212678-1/</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Node.js 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/node-js-multiple-vulnerabilities_20210813</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/node-js-multiple-vulnerabilities_20210813</guid>
+			<pubDate>Fri, 13 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Node.js 發現一些漏洞，遠端使用者可利用這些漏洞，於目標系統觸發跨網站指令碼、阻斷服務狀況、遠端執行任...
+			  <p>影響</p>
+			  <ul>
+			          <li>跨網站指令碼</li>
+			          <li>阻斷服務</li>
+			          <li>遠端執行程式碼</li>
+			          <li>繞過保安限制</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Node.js 16.x, 14.x, 和 12.x 版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<ul>
+				<li>安裝軟件供應商提供的修補程式：<br />
+				<a href="https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/" target="_blank">https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>蘋果 iTunes 遠端執行程式碼漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/apple-itunes-remote-code-execution-vulnerabilities_20210813</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/apple-itunes-remote-code-execution-vulnerabilities_20210813</guid>
+			<pubDate>Fri, 13 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 蘋果 iTunes 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發遠端執行任意程式碼。
+			  <p>影響</p>
+			  <ul>
+			          <li>遠端執行程式碼</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>iTunes for Windows 12.11.4以前的版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<ul>
+				<li>安裝供應商提供的修補程式：<br />
+				iTunes 12.11.4 視窗版本</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Linux 內核多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210811</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/linux-kernel-multiple-vulnerabilities_20210811</guid>
+			<pubDate>Wed, 11 Aug 2021 09:15:00 +0800</pubDate>
+			<description><![CDATA[  於 Linux Kernel 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、權限提升、洩露敏感資料、資...
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			          <li>權限提升</li>
+			          <li>資料洩露</li>
+			          <li>篡改</li>
+			          <li>繞過保安限制</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Oracle Linux 7</li>
+				<li>Oracle Linux 8</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式：</p>
+			
+			<p>&nbsp;</p>
+			
+			<p>詳情請參閱以下連結:</p>
+			
+			<ul>
+				<li><a href="https://linux.oracle.com/errata/ELSA-2021-9404.html" target="_blank">https://linux.oracle.com/errata/ELSA-2021-9404.html</a></li>
+				<li><a href="https://linux.oracle.com/errata/ELSA-2021-9406.html" target="_blank">https://linux.oracle.com/errata/ELSA-2021-9406.html</a></li>
+				<li><a href="https://linux.oracle.com/errata/ELSA-2021-9407.html" target="_blank">https://linux.oracle.com/errata/ELSA-2021-9407.html</a></li>
+				<li><a href="https://linux.oracle.com/errata/ELBA-2021-9408.html" target="_blank">https://linux.oracle.com/errata/ELBA-2021-9408.html</a></li>
+				<li><a href="https://linux.oracle.com/errata/ELBA-2021-9409.html" target="_blank">https://linux.oracle.com/errata/ELBA-2021-9409.html</a></li>
+				<li><a href="https://linux.oracle.com/errata/ELSA-2021-9410.html" target="_blank">https://linux.oracle.com/errata/ELSA-2021-9410.html</a></li>
+				<li><a href="https://linux.oracle.com/errata/ELBA-2021-9411.html" target="_blank">https://linux.oracle.com/errata/ELBA-2021-9411.html</a></li>
+				<li><a href="https://linux.oracle.com/errata/ELBA-2021-9412.html" target="_blank">https://linux.oracle.com/errata/ELBA-2021-9412.html</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>SAP Business One 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/sap-business-one-multiple-vulnerabilities_20210811</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/sap-business-one-multiple-vulnerabilities_20210811</guid>
+			<pubDate>Wed, 11 Aug 2021 09:10:00 +0800</pubDate>
+			<description><![CDATA[  於 SAP Business One 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發繞過保安限制。
+			  <p>影響</p>
+			  <ul>
+			          <li>繞過保安限制</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>SAP Business One, 10.0&nbsp;版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式：</p>
+			
+			<ul>
+				<li><a href="https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=582222806" target="_blank">https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=582222806</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Adobe 每月保安更新  (2021 年 8 月)</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/adobe-monthly-security-update-august-2021</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/adobe-monthly-security-update-august-2021</guid>
+			<pubDate>Wed, 11 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  Adobe已為產品提供本月保安更新：
+			
+			 
+			
+			
+				
+					
+						受影響產品
+						風險程度
+						影響
+						備註
+						詳情（包括 CVE）
+					
+					
+						Magento
+						 中度風險
+						繞過保安限...
+			  <p>影響</p>
+			  <ul>
+			          <li>權限提升</li>
+			          <li>遠端執行程式碼</li>
+			          <li>阻斷服務</li>
+			          <li>繞過保安限制</li>
+			          <li>跨網站指令碼</li>
+			          <li>資料洩露</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Adobe Commerce 2.4.2 及以前版本</li>
+				<li>Adobe Commerce 2.4.2-p1 及以前版本</li>
+				<li>Adobe Commerce 2.3.7 及以前版本</li>
+				<li>Magento Open Source 2.4.2-p1 及以前版本</li>
+				<li>Magento Open Source 2.3.7 及以前版本</li>
+				<li>Adobe Connect 11.2.2  及以前版本</li>
+				<li>Adobe Media Encoder 15.4 及以前版本</li>
+				<li>Adobe Bridge  11.1 及以前版本</li>
+				<li>Photoshop 2020 21.2.10 及以前版本</li>
+				<li>Photoshop 2021 22.4.3  及以前版本</li>
+				<li>Adobe XMP-Toolkit-SDK 2020.1 及以前版本</li>
+				<li>Adobe Captivate 2019 11.5.5 及以前版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<ul>
+				<li>安裝供應商提供的修補程式。個別產品詳情可參考上表「詳情」一欄或執行軟件更新。</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Mozilla 產品多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/mozilla-products-multiple-vulnerabilities_20210811</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/mozilla-products-multiple-vulnerabilities_20210811</guid>
+			<pubDate>Wed, 11 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Mozilla 產品發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、彷冒、遠端執行任意程式碼...
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			          <li>遠端執行程式碼</li>
+			          <li>仿冒</li>
+			          <li>資料洩露</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <p>以下版本之前的版本﹕</p>
+			
+			<p>&nbsp;</p>
+			
+			<ul>
+				<li>Firefox 91</li>
+				<li>Firefox ESR 78.13</li>
+				<li>Thunderbird 78.13</li>
+				<li>Thunderbird 91</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之官方網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>更新至版本:</p>
+			
+			<p>&nbsp;</p>
+			
+			<ul>
+				<li>Firefox 91</li>
+				<li>Firefox ESR 78.13</li>
+				<li>Thunderbird 78.13</li>
+				<li>Thunderbird 91</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>微軟每月保安更新 (2021 年 8 月)</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/microsoft-monthly-security-update-august-2021</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/microsoft-monthly-security-update-august-2021</guid>
+			<pubDate>Wed, 11 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  微軟已為產品提供本月保安更新：
+			
+			 
+			
+			
+				
+					
+						受影響產品
+						風險程度
+						影響
+						備註
+					
+					
+						Azure
+						 中度風險
+						權限提升
+						資料洩露
+						阻...
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			          <li>權限提升</li>
+			          <li>遠端執行程式碼</li>
+			          <li>資料洩露</li>
+			          <li>仿冒</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Azure</li>
+				<li>微軟 Dynamics</li>
+				<li>微軟 Office</li>
+				<li>視窗</li>
+				<li>延伸安全性更新 (ESU)</li>
+				<li>開發者工具</li>
+				<li>System Center</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽軟體供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<ul>
+				<li>安裝軟件供應商提供的修補程式。</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>F5 BIG-IP 繞過保安限制漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/f5-big-ip-security-restriction-bypass-vulnerability_20210810</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/f5-big-ip-security-restriction-bypass-vulnerability_20210810</guid>
+			<pubDate>Tue, 10 Aug 2021 09:40:00 +0800</pubDate>
+			<description><![CDATA[  於 F5 BIG-IP 發現一個漏洞，遠端攻擊者可利用這漏洞，於目標系統觸發繞過保安限制。
+			  <p>影響</p>
+			  <ul>
+			          <li>繞過保安限制</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <p>BIG-IP (所有模組)</p>
+			
+			<ul>
+				<li>版本 11.6.1 - 11.6.5</li>
+				<li>版本 12.1.0 - 12.1.6</li>
+				<li>版本 13.1.0 - 13.1.4</li>
+				<li>版本 14.1.0 - 14.1.4</li>
+				<li>版本 15.1.0 - 15.1.3</li>
+				<li>版本 16.0.0 - 16.1.0</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>Traffix SDC</p>
+			
+			<ul>
+				<li>版本 5.1.0 - 5.2.0</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<ul>
+				<li><a href="https://support.f5.com/csp/article/K32469285" target="_blank">https://support.f5.com/csp/article/K32469285</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>Microsoft Edge 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/microsoft-edge-multiple-vulnerabilities_20210809</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/microsoft-edge-multiple-vulnerabilities_20210809</guid>
+			<pubDate>Mon, 09 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Microsoft Edge 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發遠端任意執行程式碼、洩露敏感資料及資料篡...
+			  <p>影響</p>
+			  <ul>
+			          <li>遠端執行程式碼</li>
+			          <li>資料洩露</li>
+			          <li>篡改</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Microsoft Edge 92.0.902.67&nbsp;之前的版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp; &nbsp; 供應商已提供更新：</p>
+			
+			<ul>
+				<li>更新至 92.0.902.67&nbsp;版本</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
 	</channel>
 </rss>
