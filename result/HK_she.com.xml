@@ -313,9 +313,9 @@
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 195/440 objects using memcached
+Object Caching 265/402 objects using memcached
 Page Caching using memcached 
-Database Caching 2/57 queries in 1.001 seconds using memcached
+Database Caching 2/50 queries in 0.711 seconds using memcached
 
-Served from: she.com, @ 2021-08-29 22:44:59 by W3 Total Cache
+Served from: she.com, @ 2021-08-29 22:47:45 by W3 Total Cache
 -->
