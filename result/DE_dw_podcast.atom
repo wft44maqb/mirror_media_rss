@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-08-29T07:59:30Z</updated>
+ <updated>2021-08-29T08:05:28Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,17 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59005065</id>
+  <title><![CDATA[废旧塑料3D打印 蜂群远离寄生虫困扰]]></title>
+  <updated>2021-08-29T07:45:00Z</updated>
+  <published>2021-08-29T07:45:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/废旧塑料3d打印-蜂群远离寄生虫困扰/av-59005065?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[德国科学家利用废旧塑料，构建了一种新型人工蜂巢，能够有效防止蜂群遭到寄生虫感染。]]></summary>
+  <category term="科技环境"/>
+  <link rel="enclosure" type="video/mp4" length="8287112" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210827_001_135e1bienen3d_sd.mp4" title="废旧塑料3D打印 蜂群远离寄生虫困扰"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:58994242</id>
   <title><![CDATA[四天工作制 冰岛人跃跃欲试]]></title>
@@ -332,16 +343,5 @@
   <summary><![CDATA[台湾一家食品企业，用两个集装箱的甜品回赠立陶宛，以答谢这个波罗的海小国此前捐赠的2万剂新冠疫苗。立陶宛和台湾即将互设代表处。]]></summary>
   <category term="时政风云"/>
   <link rel="enclosure" type="video/mp4" length="9854606" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210721_001_09acdtwcookie_sd.mp4" title="疫苗换泡芙 台湾立陶宛礼尚往来"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58318301</id>
-  <title><![CDATA[德总理候选人灾情现场嬉笑引众怒]]></title>
-  <updated>2021-07-19T13:42:00Z</updated>
-  <published>2021-07-19T13:42:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德总理候选人灾情现场嬉笑引众怒/av-58318301?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[德国联邦总统施泰因迈尔在德国西部视察洪水灾情发表讲话时，基民盟总理候选人、北威州州长拉谢特站在背后与旁人聊天哈哈大笑，引发公众愤怒。拉谢特公开表达歉意。]]></summary>
-  <category term="德国新闻"/>
-  <link rel="enclosure" type="video/mp4" length="6174538" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210719_001_77d43laschet_sd.mp4" title="德总理候选人灾情现场嬉笑引众怒"/>
  </entry>
 </feed>
