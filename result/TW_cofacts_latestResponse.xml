@@ -4,10 +4,32 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Sun, 29 Aug 2021 13:44:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Aug 2021 13:48:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI3AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2EUPodFbGX0u1ByIDOoYHLeNY9dFBn_6L0AAA&amp;source=Others" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[朋友傳來👉⚠️剛才我朋友接到電話問他有沒有接種疫苗。 如果他已接種疫苗，請按 ⋯⋯]]></title>
+            <link>https://cofacts.tw/article/2cdlxjru6bmgl?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/2cdlxjru6bmgl?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Sun, 29 Aug 2021 13:46:24 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/2cdlxjru6bmgl?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          朋友傳來👉⚠️剛才我朋友接到電話問他有沒有接種疫苗。 如果他已接種疫苗，請按 1； 如果還沒打過疫苗，按2，結果按了1，手機被屏蔽了，他常用的PayMe 和網上銀行信息都被轉移了。
+
+  #大家小心~趕緊轉發給更多人知道！🙏
+
+剛剛朋友傳來的，這樣的詐騙我還不知道，多小心！
+        
+              <h2><a href="https://cofacts.tw/reply/JfQpknsBqH8xU4AwSpix">最新回應</a></h2>
+              <p>不在查證範圍 by vanillam</p>
+              這不是國內的電子支付平台。
+PayMe（官方名稱為PayMe from HSBC）是香港上海滙豐銀行有限公司提供的手機支付服務，目前僅適用於擁有本地電話號碼和銀行的香港用戶。
+
+              
+              
+            ]]></description>
+        </item>
         <item>
             <title><![CDATA[#重磅新聞_蔡英文根本就沒有完成倫敦政經學院的博士論文
 
@@ -212,26 +234,6 @@ https://news.mingpao.com/pns/%E4%B8%AD%E5%9C%8B/article/20201006/s00013/16019207
 
               <h2>出處</h2>
               https://social.yunlin.gov.tw
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[有報導稱 BNT疫苗裡面含有99.99‰的石墨稀成分，是真的嗎？]]></title>
-            <link>https://cofacts.tw/article/xx15hk5ajt59?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/xx15hk5ajt59?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Sun, 29 Aug 2021 07:12:05 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/xx15hk5ajt59?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          有報導稱 BNT疫苗裡面含有99.99‰的石墨稀成分，是真的嗎？
-        
-              <h2><a href="https://cofacts.tw/reply/GfTAkHsBqH8xU4AwRpfk">最新回應</a></h2>
-              <p>含有錯誤訊息 by 宋思彤</p>
-              根據衛福部疾管署公告的「各廠牌 COVID-19 疫苗之比較一覽表」中，BNT主成分為30mcg新冠病毒RNA。美國食品藥物管理局（FDA）的緊急使用授權公告，三款疫苗（輝瑞、莫德納、BNT）也都沒有石墨烯的成份。
-
-
-
-              <h2>出處</h2>
-              https://www.cdc.gov.tw/Uploads/cbb7ba30-4223-4a21-844b-177fa4215468.pdf
-https://news.ltn.com.tw/news/life/breakingnews/3629980
             ]]></description>
         </item>
     </channel>
