@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Mon, 30 Aug 2021 09:43:44 +0800</pubDate>
-		<lastBuildDate>Mon, 30 Aug 2021 09:43:44 +0800</lastBuildDate>
+		<pubDate>Mon, 30 Aug 2021 09:46:22 +0800</pubDate>
+		<lastBuildDate>Mon, 30 Aug 2021 09:46:22 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,6 +15,52 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>NetApp 產品多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/netapp-products-multiple-vulnerabilities_20210830</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/netapp-products-multiple-vulnerabilities_20210830</guid>
+			<pubDate>Mon, 30 Aug 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 NetApp 產品發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、洩露敏感資料及資料篡改。
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			          <li>資料洩露</li>
+			          <li>篡改</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>OnCommand Workflow Automation</li>
+				<li>OnCommand Insight</li>
+				<li>Active IQ Unified Manager for VMware vSphere</li>
+				<li>E-Series SANtricity OS Controller Software 11.x</li>
+				<li>NetApp SolidFire &amp; HCI Management Node</li>
+				<li>ONTAP Select Deploy administration utility</li>
+				<li>Clustered Data ONTAP</li>
+				<li>Clustered Data ONTAP Antivirus Connector</li>
+				<li>NetApp Manageability SDK</li>
+				<li>NetApp SANtricity SMI-S Provider</li>
+				<li>NetApp Storage Encryption</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<ul>
+				<li>安裝供應商提供的修補程式，詳情請參閱以下連結：<br />
+				<a href="https://security.netapp.com/advisory/ntap-20210827-0001/" target="_blank">https://security.netapp.com/advisory/ntap-20210827-0001/</a><br />
+				<a href="https://security.netapp.com/advisory/ntap-20210827-0002/" target="_blank">https://security.netapp.com/advisory/ntap-20210827-0002/</a><br />
+				<a href="https://security.netapp.com/advisory/ntap-20210827-0003/" target="_blank">https://security.netapp.com/advisory/ntap-20210827-0003/</a><br />
+				<a href="https://security.netapp.com/advisory/ntap-20210827-0005/" target="_blank">https://security.netapp.com/advisory/ntap-20210827-0005/</a><br />
+				<a href="https://security.netapp.com/advisory/ntap-20210827-0010/" target="_blank">https://security.netapp.com/advisory/ntap-20210827-0010/</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
 		<item>
 			<title>F5 BIG-IP 多個漏洞</title>
 			<link>https://www.hkcert.org/tc/security-bulletin/f5-big-ip-multiple-vulnerabilities_20210826</link>
@@ -938,37 +984,6 @@
 			
 			<ul>
 				<li><a href="https://support.f5.com/csp/article/K32469285" target="_blank">https://support.f5.com/csp/article/K32469285</a></li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>Microsoft Edge 多個漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/microsoft-edge-multiple-vulnerabilities_20210809</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/microsoft-edge-multiple-vulnerabilities_20210809</guid>
-			<pubDate>Mon, 09 Aug 2021 09:00:00 +0800</pubDate>
-			<description><![CDATA[  於 Microsoft Edge 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發遠端任意執行程式碼、洩露敏感資料及資料篡...
-			  <p>影響</p>
-			  <ul>
-			          <li>遠端執行程式碼</li>
-			          <li>資料洩露</li>
-			          <li>篡改</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>Microsoft Edge 92.0.902.67&nbsp;之前的版本</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<p>&nbsp; &nbsp; 供應商已提供更新：</p>
-			
-			<ul>
-				<li>更新至 92.0.902.67&nbsp;版本</li>
 			</ul>
 			
 			  <hr>
