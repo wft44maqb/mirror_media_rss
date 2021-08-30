@@ -20,6 +20,38 @@
 			<name>國際瞭望</name>
 					</author>
 
+		<title type="html"><![CDATA[中國計畫於2030年達到全國網路僅使用IPv6]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/30/19598/" />
+
+		<id>https://blog.twnic.tw/?p=19598</id>
+		<updated>2021-08-18T00:00:55Z</updated>
+		<published>2021-08-29T23:55:40Z</published>
+		<category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="IPv6" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0819-0823_中國計畫於2030年達到全國網路僅使用IPv6-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>中國國家互聯網信息辦公室（CAC）於2021年7月23日發布《關於加快推進互聯網協議第六版（IPv6）規模部署和應用工作的通知》，其中提到中國將於2030年達成全國僅使用IPv6的願景，各級產業及政府已被告知採取相關行動。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19598/">中國計畫於2030年達到全國網路僅使用IPv6</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/08/30/19598/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0819-0823_中國計畫於2030年達到全國網路僅使用IPv6-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">中國國家互聯網信息辦公室（Central Cyberspace Affairs Commission and Cyberspace Administration，CAC）於2021年7月23日發布</span><a href="http://www.cac.gov.cn/2021-07/23/c_1628629122784001.htm" target="_blank" rel="noopener"><span style="font-weight: 400;">《關於加快推進互聯網協議第六版（IPv6）規模部署和應用工作的通知》</span></a><span style="font-weight: 400;">（以下簡稱《通知》），其中提到中國將於2030年達成全國僅使用IPv6的願景，各級產業及政府已被告知採取相關行動，鼓勵消費者購買新的 Wi-Fi 路由器。</span></p>
+<p><span style="font-weight: 400;">為完成該願景，中國設下預計於2023及2025年達成的階段性目標。到2023年，中國IPv6活躍用戶將達到7億人；使用IPv6的物聯網設備將達到2億臺；新上市的家庭無線路由器將啟用並完全支援IPv6；30%的官方路由器及其他消費者裝置亦被要求使用IPv6；半數的行動裝置訊務及15%固網訊務將通過IPv6。到2023年底，中國將禁止新建網路使用IPv4協定。</span></p>
+<p><span style="font-weight: 400;">到2025年，IPv6 用戶將達到 8 億人；將有4億臺物聯網設備使用IPv6；70%行動裝置訊務將通過IPv6；政府網站及20%固網訊務將被要求使用 IPv6； 50%的家庭路由器將使用IPv6。屆時，95% 的大型商業網站及App必須支援使用IPv6。根據《通知》，全面部署IPv6尚須5年時間。</span></p>
+<p><span style="font-weight: 400;">此外，《通知》還提到將要求私營企業（特別是雲端服務供應商及內容傳遞網路＜Content Delivery Network，CDN＞供應商）確保其產品能通過IPv6順利運作，目前中國已擁有可進行相關測試的基礎設施。</span></p>
+<p><span style="font-weight: 400;">中國早有部署IPv6之決心，並於2017年發布</span><a href="http://www.gov.cn/zhengce/2017-11/26/content_5242389.htm" target="_blank" rel="noopener"><span style="font-weight: 400;">《推進互聯網協議第六版（IPv6）規模部署行動計畫》</span></a><span style="font-weight: 400;">，《通知》可被視為該計畫之延續，其中除強調IPv6部署成果外，「全國僅使用IPv6」的網路願景更是新訂目標。然而，根據CDN供應商Akamai發布的網路現狀（State of the Internet）報告，目前中國IPv6部署率為23.5%，世界排名第32，要在2030年完成全面部署IPv6的願景並不容易，且除了中國之外，目前沒有任何國家提倡部署單一IPv6網路。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Simon Sharwood (2021). China sets goal of running single-stack IPv6 network by 2030, orders upgrade blitz. The Register.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://www.theregister.com/2021/07/26/china_single_stack_ipv6_notice/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.theregister.com/2021/07/26/china_single_stack_ipv6_notice/</span></a><span style="font-weight: 400;"> (Aug. 6, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19598/">中國計畫於2030年達到全國網路僅使用IPv6</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19598/#comments" thr:count="0"/>
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19598/feed/atom/" thr:count="0"/>
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
 		<title type="html"><![CDATA[New gTLD申請回合：下一步]]></title>
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/27/19586/" />
 
@@ -2490,68 +2522,6 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 		
 					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/07/26/19221/#comments" thr:count="0"/>
 			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/07/26/19221/feed/atom/" thr:count="0"/>
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[Hello World：推廣國際化域名]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/07/23/19178/" />
-
-		<id>https://blog.twnic.tw/?p=19178</id>
-		<updated>2021-07-15T23:53:06Z</updated>
-		<published>2021-07-23T00:52:54Z</published>
-		<category scheme="https://blog.twnic.tw" term="技術" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="ICANN" /><category scheme="https://blog.twnic.tw" term="IDN" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/推廣國際化域名-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>ICANN最近發布報告向社群簡介IDN目前進展，為了協助缺乏相關背景知識的讀者更容易閱讀報告，ICANN國際化域名及全球通用（UA）專案資深主任Sarmad Hussain，特別為此撰文並回答幾個與IDN相關的常見問題。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/23/19178/">Hello World：推廣國際化域名</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/07/23/19178/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/推廣國際化域名-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>當我們在談支援全球網際網路的時候，我們應了解，世界上大部分的人並非以英文為母語。國際化域名（Internationalized Domain Names，IDN）是展現ICANN如何在社群引領下，盡力支援包容、多語言網際網路的良好範例。這也符合ICANN維護穩定、安全、單一「全球」網際網路的使命。</p>
-<p>ICANN近期發布一份<a href="https://www.icann.org/en/system/files/files/idns-where-are-we-now-16jun21-en.pdf">報告</a>，向社群簡介IDN目前進展。為了協助缺乏相關背景知識的讀者更容易閱讀報告，ICANN國際化域名及全球通用（Universal Acceptance，UA）專案資深主任Sarmad Hussain，特別為此撰文並回答幾個與IDN相關的常見問題。</p>
-<ul>
-<li>語言（language）和文字（script）有什麼差別？</li>
-</ul>
-<p>語言依不同語言社群使用的語言而異，文字則是用來書寫語言的載體。</p>
-<ul>
-<li>目前IDN頂級域名（Top Level Domain，TLD）中有哪些語言和文字？</li>
-</ul>
-<p>目前根區中共有37種語言、23種文字的IDN頂級域名。語言包括：阿拉伯語、亞美尼亞語、阿薩姆語、Bangla語、白俄羅斯語、Bengali語、保加利亞語、華語、喬治亞語、希臘語、古吉拉特語、希伯來語、印度語、日語、康納達語、喀什米爾語、哈薩克語、韓語、寮國語、馬其頓語、馬來語、馬拉雅拉姆語、蒙古語、奧里亞語、波斯語、旁遮普語、俄羅斯語、梵語、桑塔語、塞爾維亞語、信德語、僧伽羅語、泰米爾語、泰盧固語、泰語、烏克蘭語及烏爾都語。文字則包含：阿拉伯文、亞美尼亞文、Bengali文、西里爾字母、天成文、喬治亞文、希臘文、古吉拉特文、古木基文、漢字、韓文、希伯來文、平假名、片假名、康納達文、寮文、拉丁文、馬來文、奧里亞文、僧伽羅文、泰米爾文、泰盧固文，以及泰文。</p>
-<ul>
-<li>哪些文字可以用於TLD？</li>
-</ul>
-<p>根據根區標籤生成規則（Root Zone Label Generation Rules，RZ-LGR），目前TLD可支援的文字達28種，包括萬國碼標準（Unicode Standard）推薦做為識別碼的文字。</p>
-<ul>
-<li>使用IDN會遇到什麼阻礙嗎？</li>
-</ul>
-<p>ICANN、社群成員，以及業界領先軟體與電子郵件服務供應業者皆致力推動全球通用，意即任何連網裝置及網路應用程式，都應容許使用者輸入、使用包含IDN的域名及電子郵件信箱。這表示組織企業需要時常更新他們提供的系統服務，即時跟上域名空間進展的腳步。希望進一步了解全球通用的讀者，可前往全球通用推廣小組（Universal Acceptance Steering Group，UASG）<a href="http://www.uasg.tech">專屬網站</a>了解更多資訊。</p>
-<ul>
-<li>有多少已發配的IDN頂級域名？</li>
-</ul>
-<p>目前根區中有154筆已發配的IDN頂級域名，其中包含93筆IDN通用頂級域名（gTLD）及61筆IDN國碼頂級域名（ccTLD）。</p>
-<ul>
-<li>有多少筆已註冊的IDN域名？</li>
-</ul>
-<p>根據<a href="https://idnworldreport.eu/charts/idn-numbers/idn-totals-by-year/">IDN World Report</a>，至2010年為止，在ccTLD及gTLD下共有將近830萬筆IDN域名，其中約77%皆註冊於ccTLD之下。</p>
-<ul>
-<li>使用gTLD的IDN註冊域名中，最常見的文字是什麼？</li>
-</ul>
-<p>使用gTLD的IDN註冊域名以中文為大宗（51%），其次為使用拉丁字母的IDN（23%）。</p>
-<ul>
-<li>我可以註冊使用IDN域名嗎？</li>
-</ul>
-<p>可以。你可以透過支援IDN的受理註冊機構或註冊管理機構，註冊使用IDN第二層域名的域名（如「你的名字.TW」）。下一輪new gTLD申請回合開放時，意者亦可申請成為IDN頂級域名的註冊管理機構。</p>
-<p>Sarmad Hussain鼓勵大家閱讀新發布的IDN報告，也可透過ICANN的客製化<a href="https://account.icann.org/login">訂閱功能</a>，即時收到關注議題的相關部落格文章及ICANN公告。</p>
-<p>相關連結：</p>
-<p>Sarmad Hussain(2021). Hello World: Enabling Internationalized Domain Names (IDNs). ICANN Blog.</p>
-<p>檢自：</p>
-<p><a href="https://www.icann.org/en/blogs/details/hello-world-enabling-internationalized-domain-names-idns-16-6-2021-en">https://www.icann.org/en/blogs/details/hello-world-enabling-internationalized-domain-names-idns-16-6-2021-en</a> (2021/06/25)</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/23/19178/">Hello World：推廣國際化域名</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/07/23/19178/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/07/23/19178/feed/atom/" thr:count="0"/>
 			<thr:total>0</thr:total>
 			</entry>
 	</feed>
