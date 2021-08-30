@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 30 Aug 2021 01:10:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Aug 2021 01:17:31 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[台灣本土「高端」疫苗開放接種 引發對其國際認證、疫苗護照和「疫苗外交」的關注]]></title>
+            <description><![CDATA[台灣自產新冠疫苗「高端」在本周開始施打。根據台衛福部公告，截至8月26日止，台灣已經約 40萬多人接種該疫苗。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58341252?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58341252</guid>
+            <pubDate>Mon, 30 Aug 2021 01:10:54 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[阿富汗局勢：美國總統拜登警告喀布爾機場很有可能再遭襲擊]]></title>
             <description><![CDATA[美國總統拜登說，軍方官員告訴他，未來36小時內可能會發生另一次襲擊。美國國務院表示，由於「具體和可信的威脅」，已敦促所有美國公民離開機場附近的區域。]]></description>
@@ -83,20 +90,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58329276?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58329276</guid>
             <pubDate>Thu, 26 Aug 2021 01:30:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[澳洲封城的經濟影響]]></title>
-            <description><![CDATA[【BBC時事一周（粵語）——華人談天下】澳洲特約記者周志強講講澳洲最近疫情轉趨嚴重，封城令對經濟和就業的影響。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/columns-58372616?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/columns-58372616</guid>
-            <pubDate>Sat, 28 Aug 2021 20:32:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[入住納粹主義者的度假屋]]></title>
-            <description><![CDATA[【BBC時事一周（粵語）——記者來鴻】挪威惡名昭著的納粹同黨在峽灣的一間夏季度假小屋，竟然是可以租住的。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/fooc-58372618?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/fooc-58372618</guid>
-            <pubDate>Sun, 29 Aug 2021 03:08:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[東京殘奧會：獎牌榜上哪個國家或地區領先？]]></title>
@@ -230,6 +223,20 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58355895?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58355895</guid>
             <pubDate>Fri, 27 Aug 2021 11:42:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[入住納粹主義者的度假屋]]></title>
+            <description><![CDATA[【BBC時事一周（粵語）——記者來鴻】挪威惡名昭著的納粹同黨在峽灣的一間夏季度假小屋，竟然是可以租住的。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/fooc-58372618?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/fooc-58372618</guid>
+            <pubDate>Sun, 29 Aug 2021 03:08:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[澳洲封城的經濟影響]]></title>
+            <description><![CDATA[【BBC時事一周（粵語）——華人談天下】澳洲特約記者周志強講講澳洲最近疫情轉趨嚴重，封城令對經濟和就業的影響。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/columns-58372616?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/columns-58372616</guid>
+            <pubDate>Sat, 28 Aug 2021 20:32:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[鄭松泰：香港立法會最後一名民主派議員被取消議席]]></title>
