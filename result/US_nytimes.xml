@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Mon, 30 Aug 2021 10:31:20 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 30 Aug 2021 10:41:26 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[中國擴大網路審查，整頓「飯圈」文化]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210830/china-celebrity-culture/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[當局取消明星藝人榜單，呼籲加強監管，並將矛頭直接指向明星：鄭爽因逃稅被罰款、趙薇大量作品被下架。這些舉措均表明，中共想在規範文化方面發揮更強勢的作用。<p><img src='https://static01.nyt.com/images/2021/08/28/world/27china-celebrities-print/27china-celebrities02-articleLarge.jpg' alt='鄭爽去年在南京的表演。監管機構指控這名女演員逃稅，並命令電視台停播她參與演出的內容。 Costfoto/Barcroft Media, via Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Costfoto/Barcroft Media, via Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>鄭爽去年在南京的表演。監管機構指控這名女演員逃稅，並命令電視台停播她參與演出的內容。</p>                    ]]></description>
+            <category>中國</category>
+            <dc:creator><![CDATA[艾莎,AMY CHANG CHIEN,曹莉]]></dc:creator>
+            <pubDate>Mon, 30 Aug 2021 10:32:30 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210830/china-celebrity-culture/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[美新冠溯源報告部分解密，未就病毒起源下定論]]></title>
             <link><![CDATA[https://cn.nytimes.com/usa/20210830/covid-origin-lab-leak/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[TIFFANY MAY]]></dc:creator>
             <pubDate>Wed, 25 Aug 2021 10:21:17 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210825/international-students-begin-to-return-to-us-universities-after-a-covid-hiatus/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[阿富汗敗局考驗美歐聯盟，北約是時候改變了嗎？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210824/afghanistan-europe-nato-biden/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[許多歐洲人愈發認為，不能再依靠美國來保護他們的安全利益。隨著華盛頓將外交政策重點轉向中國，這種焦慮有增無減。但對歐洲而言，獨立的代價是高昂的。<p><img src='https://static01.nyt.com/images/2021/08/23/world/23afghanistan-nato/merlin_193558950_cad59982-36c2-4eac-9d72-c132ed35bee9-articleLarge.jpg' alt='週日，在阿富汗喀布爾關閉的美國大使館外的塔利班成員。 Victor J. Blue for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Victor J. Blue for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>週日，在阿富汗喀布爾關閉的美國大使館外的塔利班成員。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[STEVEN ERLANGER]]></dc:creator>
-            <pubDate>Tue, 24 Aug 2021 03:40:45 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210824/afghanistan-europe-nato-biden/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
