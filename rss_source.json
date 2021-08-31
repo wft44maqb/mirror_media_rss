@@ -1,7 +1,4 @@
 {
-	"中國大陸_多維新聞_全球@CN_dwIntl.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/dwnews/yaowen/global",
-	"中國大陸_多維新聞_熱門@CN_dwHot.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/dwnews/rank",
-	"中國大陸_多維新聞@CN_dw.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/dwnews/yaowen",
 	"台灣_中華民國外交部全球資訊網_即時新聞澄清@TW_mofaClarification": "https://www.mofa.gov.tw/OpenData.aspx?SN=FB09C9C041E34414",
 	"台灣_公共電視@TW_pts": "https://news.pts.org.tw/xml/newsfeed.xml",
 	"台灣_公視P#新聞實驗室_事出有影@TW_ptsPSharpVideo": "https://server-psharp.fontech.co/feed/video",
