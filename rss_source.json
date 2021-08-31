@@ -1,4 +1,8 @@
 {
+	"台灣_華視新聞_熱門@TW_ctsHots": "https://news.cts.com.tw/rss/hots.xml",
+	"台灣_華視新聞_國際@TW_ctsIntl": "https://news.cts.com.tw/rss/international.xml",
+	"台灣_華視新聞_社會@TW_ctsSociety": "https://news.cts.com.tw/rss/society.xml",
+	"台灣_華視新聞_綜合@TW_ctsGeneral": "https://news.cts.com.tw/rss/general.xml",
 	"台灣_中華民國外交部全球資訊網_即時新聞澄清@TW_mofaClarification": "https://www.mofa.gov.tw/OpenData.aspx?SN=FB09C9C041E34414",
 	"台灣_公共電視@TW_pts": "https://news.pts.org.tw/xml/newsfeed.xml",
 	"台灣_公視P#新聞實驗室_事出有影@TW_ptsPSharpVideo": "https://server-psharp.fontech.co/feed/video",
