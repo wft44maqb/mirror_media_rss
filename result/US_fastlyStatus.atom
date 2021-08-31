@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://status.fastly.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.fastly.com/history.atom"/>
   <title>Fastly Status - Incident History</title>
-  <updated>2021-08-29T10:31:27Z</updated>
+  <updated>2021-08-31T02:32:39Z</updated>
   <author>
     <name>Fastly</name>
   </author>
+  <entry>
+    <id>tag:status.fastly.com,2005:Incident/7877834</id>
+    <published>2021-09-02T15:00:00Z</published>
+    <updated>2021-08-31T02:32:39Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/227c8qrbb48g"/>
+    <title>New Data Center: Seoul (ICN)</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Sep &lt;var data-var='date'&gt;2&lt;/var&gt;, &lt;var data-var='time'&gt;15:00&lt;/var&gt; - &lt;var data-var='time'&gt;20:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;31&lt;/var&gt;, &lt;var data-var='time'&gt;02:32&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Please be advised that the billing region information has changed from Asia/Pacific to South Korea&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;30&lt;/var&gt;, &lt;var data-var='time'&gt;23:46&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - As part of Fastly’s global network expansion, we will be adding a Seoul, South Korea (ICN) data center to Fastly's Asia/Pacific network.&lt;br /&gt;&lt;br /&gt;Traffic served by our ICN data center will be aggregated into our South Korea region for billing and stats purposes. We expect that some traffic currently served by our data centers in neighboring regions will shift to ICN. As such, some customers may see a change in their bills. Fastly’s standard billing rates are located at https://www.fastly.com/pricing.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.fastly.com,2005:Incident/7256604</id>
     <published>2021-09-01T16:00:00Z</published>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/8pb6rr6jx8pl"/>
     <title>Elevated Errors in Mumbai (BOM)</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;00:09&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;23:39&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;23:33&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - We're investigating elevated errors in Mumbai (BOM). All other locations and services are unaffected&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:status.fastly.com,2005:Incident/7518792</id>
-    <published>2021-07-15T20:56:39Z</published>
-    <updated>2021-07-15T20:56:39Z</updated>
-    <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/wxctbwhjwhsb"/>
-    <title>Retroactive - Fastly API Performance Issues</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;15&lt;/var&gt;, &lt;var data-var='time'&gt;20:56&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Fastly Engineers detected a performance impacting event affecting the availability of the Fastly API for a subset of API endpoints on 2021-07-15 from approximately 16:00 UTC to 20:34 UTC. CDN delivery, stats aggregation, and all other data plane services were unaffected. The issue has been resolved and we are monitoring performance closely.&lt;/p&gt;</content>
   </entry>
 </feed>

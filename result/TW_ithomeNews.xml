@@ -1,11 +1,106 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/554/1072" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/554/1072</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/554/1072" rel="self" type="application/rss+xml" />
       <item>
+    <title>研究人員揭露Exchange Server新的ProxyToken漏洞，可導致電子郵件被竊取</title>
+    <link>https://www.ithome.com.tw/news/146461</link>
+    <description> 繼ProxyLogon、ProxyShell等重大漏洞後，研究人員再揭露外號ProxyToken的Exchange Server漏洞</description>
+     <pubDate>2021-08-31  01:08:59</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146461</guid>
+  </item>
+  <item>
+    <title>中國出手限制未成年人的遊戲時間，只有周末與假日可以玩網路遊戲</title>
+    <link>https://www.ithome.com.tw/news/146460</link>
+    <description> 中國國家新聞出版署於30日發布了《關於進一步嚴格管理 切實防止未成年人沈迷網路遊戲的通知》，以避免中國的未成年人過度使用或沈迷網路遊戲，嚴格規定未成年人只能在周五到周日、以及法定假日各玩一小時，讓中國遊戲兩大業者騰訊及網易的股價，在31日一開盤就下挫3%以上。
+此一通知嚴格限制了遊戲業者向未成年人提供網路遊戲服務的時間，所有的遊戲業者只能在周五、周六、周日，以及法定假日的每天晚上8點到9點提供1小時的服務予未成年人，其它時間皆不允許。</description>
+     <pubDate>2021-08-31  12:08:13</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146460</guid>
+  </item>
+  <item>
+    <title>臺北市力推BYOD計畫！柯文哲：要讓每位學生都能自帶設備上課，確保線上學習能力</title>
+    <link>https://www.ithome.com.tw/news/146456</link>
+    <description> 為了迎接9/1日開學日，臺北市政府今日不僅提供校園教學和生活指引，也針對即將展開的學校BYOD（學生自備載具到校學習）計畫，提出更多的說明。
+為因應未來可能採取的線上線下混合上課模式，臺北市教育局不久前剛宣布110學年度將展開BYOD計畫，讓市立高中職部分班級學生可以攜帶個人行動設備到校上課，做為課堂上的教學或學習工具使用。
+在今天的臺北市防疫因應記者會上，臺北市市長柯文哲表示，透過這項計畫，未來要讓每位學生都能自帶行動裝置到校上課，來確保學生線上學習能力。他表示，未來可能以一周半天或兩周一天採行BYOD的方式，讓在校學生開始習慣遠距學習的教學模式，並且透過反覆訓練學生逐漸適應遠距開會、遠距上課，就像是現在企業遠距辦公、開會一樣。</description>
+     <pubDate>2021-08-30  04:08:43</pubDate>
+ <dc:creator>余至浩</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146456</guid>
+  </item>
+  <item>
+    <title>Linux 30歲了！你知道Google、YouTube、百度及全球前五百大超級電腦都是基於Linux嗎</title>
+    <link>https://www.ithome.com.tw/news/146455</link>
+    <description> 一名芬蘭軟體工程師Linus Torvalds在1991年的8月25日，於新聞群組中發表了他所撰寫的Linux，當時Torvalds才22歲，謙虛地說這只是他的興趣，作業系統並不強大也沒有很專業，不過，剛度過30歲生日的Linux現已是全球最受歡迎的開源平臺，且同時受到大型企業、超級電腦製造商與開發者的喜愛。
+Linux衍生自Unix作業系統，Torvalds在30年前發表的是Linux核心（Linux Kernel），後來成為許多Linux版本的基礎，涵蓋Debian、Fedora、Ubuntu、 Red Hat Enterprise Linux與SUSE Linux Enterprise Server等。</description>
+     <pubDate>2021-08-30  03:08:41</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146455</guid>
+  </item>
+  <item>
+    <title>T-Mobile：駭客是透過暴力破解入侵該公司伺服器</title>
+    <link>https://www.ithome.com.tw/news/146454</link>
+    <description> 日前坦承遭到駭客入侵的T-Mobile，在本周公布了調查報告，指出駭客是利用對技術系統的知識，再加上專門的工具與技能，進入了T-Mobile的測試環境，再透過暴力破解與其它方法入侵了T-Mobile的其它IT伺服器，才會造成用戶的資料外洩。</description>
+     <pubDate>2021-08-30  02:08:34</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146454</guid>
+  </item>
+  <item>
+    <title>5G趨勢月報第22期：國產5G發展跨出一大步，臺灣終於有國際級5G驗證開放平臺了</title>
+    <link>https://www.ithome.com.tw/news/146453</link>
+    <description> 2021/08/01~08/31精選5G趨勢新聞
+5G開放驗證平臺    O-RAN聯盟 </description>
+     <pubDate>2021-08-30  02:08:01</pubDate>
+ <dc:creator>余至浩</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146453</guid>
+  </item>
+  <item>
+    <title>思科小型企業VPN路由器重大漏洞，但已屆EOL不會有修補程式</title>
+    <link>https://www.ithome.com.tw/news/146452</link>
+    <description> 思科近日針對小型企業VPN路由器產品發布安全公告，警告有引發遠端程式碼執行的重大漏洞。但是思科也表示這些產品已經來到EOL（end of life），因此思科並不打算修補，企業應考慮升級到新產品。</description>
+     <pubDate>2021-08-30  01:08:06</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146452</guid>
+  </item>
+  <item>
+    <title>蘋果將免費維修那些聽不見聲音的iPhone 12手機</title>
+    <link>https://www.ithome.com.tw/news/146451</link>
+    <description> 蘋果上周宣布，有非常少部分的iPhone 12與iPhone 12 Pro裝置因為受話器模組上的某個元件可能會故障，而出現聲音上的問題，並將免費維修這些裝置。
+根據蘋果的說法，假設使用者的iPhone 12或iPhone 12 Pro在撥/接電話之後，受話器沒有發出聲音，很可能就符合免費維修資格。</description>
+     <pubDate>2021-08-30  01:08:17</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146451</guid>
+  </item>
+  <item>
+    <title>中國開始掃盪違規發布財經資訊的自媒體</title>
+    <link>https://www.ithome.com.tw/news/146449</link>
+    <description> 中國國家互聯網信息辦公室（網信辦）在上周五（8/27）宣布，由於部分商業平臺與其自媒體帳號屢屢違規發布財經新聞、扭曲解讀經濟政策與唱衰金融市場，即日起將開始整頓這些商業網站平臺與自媒體。而根據中國媒體的報導，包括微信、抖音與微博等中國知名的社交平臺，都已展開行動。
+網信辦指出，第一階段整治行動的期間為即日起至10月26日，將督促商業平臺清理違規發布的財經資訊，封鎖「黑嘴」、敲詐勒索或社會反映強烈的自媒體帳號，更鼓勵中國的網路用戶向該辦公室檢舉。</description>
+     <pubDate>2021-08-30  11:08:01</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146449</guid>
+  </item>
+  <item>
+    <title>微軟：使用不受支援硬體跑Windows 11未來無法接獲自動更新</title>
+    <link>https://www.ithome.com.tw/news/146448</link>
+    <description> 微軟上周公布執行Windows 11的更新版CPU規格，同時微軟也警告，使用官方不支援硬體跑Windows 11的用戶，需有心理準備未來無法以Windows Update接獲更新。</description>
+     <pubDate>2021-08-30  11:08:11</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146448</guid>
+  </item>
+  <item>
+    <title>運算效能突破360 TFLOPS，特斯拉展示全自駕車AI訓練晶片Dojo D1</title>
+    <link>https://www.ithome.com.tw/news/146447</link>
+    <description> 不讓Nvidia、Google專美於前，在今年Tesla  AI Day活動上，美國電動車大廠特斯拉（Tesla）展現自家最新自駕車應用同時，首度公開揭露一款自製AI訓練晶片Dojo D1，強調擁有GPU的強大運算力，更兼具CPU的運用彈性，以及超高速傳輸頻寬，甚至在AI算力表現也優於Google的TPU v3，可提供362 TFLOPS運算效能，特斯拉不只用它加速AI訓練建立全自動駕駛汽車，未來也將作為首款人型機器人Tesla Bot的AI訓練使用。</description>
+     <pubDate>2021-08-30  09:08:58</pubDate>
+ <dc:creator>余至浩</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146447</guid>
+  </item>
+  <item>
     <title>3月勒索軟體HelloKitty鎖定VMware ESXi發動攻擊，Palo Alto揭露目前災情與受害範圍</title>
     <link>https://www.ithome.com.tw/news/146432</link>
     <description> 今年2月，製作電玩《電馭叛客2077》（Cyberpunk 2077）開發商的CD Projekt，驚傳遭到勒索軟體攻擊，後來有資安業者指出，攻擊的勒索軟體名為HelloKitty。</description>
@@ -159,98 +254,6 @@ CLI 1.0供開發者在終端，無縫地執行端到端工作流程，而現在G
      <pubDate>2021-08-27  10:08:45</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146414</guid>
-  </item>
-  <item>
-    <title>Google機器學習平臺Vertex AI現提供低延遲高安全性的私有端點</title>
-    <link>https://www.ithome.com.tw/news/146415</link>
-    <description> Google宣布在其機器學習平臺Vertex AI上提供私有端點（Private Endpoints），這是Vertex Predictions中的一項新功能，藉由VPC對等連接，用戶可以配置專用的連接與端點通訊，因此用戶的資料就不需要經過網際網路，不只提高安全性，也可以降低線上預測的延遲。</description>
-     <pubDate>2021-08-27  09:08:35</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146415</guid>
-  </item>
-  <item>
-    <title>Cloud周報第118期：英國大型汽車經銷商要將關鍵SAP系統上公雲，國際太空站測試靠邊緣雲端運算監測太空人健康</title>
-    <link>https://www.ithome.com.tw/news/146413</link>
-    <description> 重點新聞（2021/08/19～2021/08/25）</description>
-     <pubDate>2021-08-27  09:08:16</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146413</guid>
-  </item>
-  <item>
-    <title>研究：川普因虛假訊息遭推特限制互動的推文，反在臉書、Reddit大量傳播</title>
-    <link>https://www.ithome.com.tw/news/146411</link>
-    <description> 推特在最近美國總統大選時，使用兩種策略干預Donald Trump（川普）存在錯誤資訊的推文，其一是加上錯誤資訊標籤的軟干預，其二是阻止用戶與該推文互動的硬干預，但是研究發現，與推特沒有干預的推文相比，無論使用哪一種干預手段，都會增加這些推文的傳播，研究人員提到，平臺需要從生態系統層面來考慮內容審核的方法。</description>
-     <pubDate>2021-08-27  09:08:02</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146411</guid>
-  </item>
-  <item>
-    <title>AI趨勢周報第175期：為何20分鐘的對話時間，是今年Amazon對話式AI挑戰賽最大亮點？</title>
-    <link>https://www.ithome.com.tw/news/146407</link>
-    <description> 重點新聞(0820～0826)</description>
-     <pubDate>2021-08-26  06:08:33</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146407</guid>
-  </item>
-  <item>
-    <title>勒索軟體LockFile濫用PetitPotam漏洞，掌控AD網域伺服器</title>
-    <link>https://www.ithome.com.tw/news/146406</link>
-    <description> 新的勒索軟體攻擊大肆濫用近期公開的重大漏洞，而使得企業與組織難以招架。例如，賽門鐵克揭露一起名為LockFile勒索軟體的攻擊行動，其中攻擊者先是經由Exchange郵件伺服器，入侵企業內部網路環境，接下來再藉著PetitPotam漏洞（CVE-2021-36942），控制AD網域伺服器，並感染內網的電腦。</description>
-     <pubDate>2021-08-26  05:08:54</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146406</guid>
-  </item>
-  <item>
-    <title>金管會完成第一家公雲虛擬稽核，Google臺灣資料中心是第一家</title>
-    <link>https://www.ithome.com.tw/news/146405</link>
-    <description> Google雲端臺灣總經理謝良承今日（8/26）在國泰金控技術年會一場座談中透露，Google雲端臺灣資料中心已在今年初完成金管會第一次的虛擬稽核了，成為第一家在臺灣完成政府機關稽核的公有雲業者。
-這項藏在謝良承回覆對談提問的資訊，可說是臺灣企業朝雲端發展的一項重磅消息，特別是對須遵循嚴謹資料保護法規的金融業和醫療業的企業。因為，這代表Google雲端資料中心不只符合國際規範，現也符合了臺灣法規的規範。
-金管會於2019年時已宣布開放金融業者上雲，因視銀行上雲為委外作業，所以，在監督、稽核、緊急應變等面向皆對金融機構有所要求和規範，使得金融業在上雲之路上，仍然面對不少挑戰，特別是須確保監管機關可查核雲端業者。</description>
-     <pubDate>2021-08-26  05:08:18</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146405</guid>
-  </item>
-  <item>
-    <title>小米買下自駕車新創Deepmotion</title>
-    <link>https://www.ithome.com.tw/news/146400</link>
-    <description> 小米集團周三（8/25）公布今年第二季的財報，同時宣布將以7,737萬美元的價格，買下中國的自駕車新創深動科技（Deepmotion Tech Limited）。</description>
-     <pubDate>2021-08-26  03:08:06</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146400</guid>
-  </item>
-  <item>
-    <title>美國政府審計辦公室調查：聯邦機構的人臉辨識應用以數位存取及網路安全為大宗</title>
-    <link>https://www.ithome.com.tw/news/146398</link>
-    <description> 美國政府審計辦公室（GAO）本周再度公布美國聯邦機構使用人臉辨識技術（Facial Recognition Technology，FRT）的調查報告，指出在接受調查的24個機構中，有18個正在使用FRT系統，其目的各自不同，但有高達16個機構是應用在數位存取及網路安全上，算是最普及的應用。
-有些機構的FRT只有單一功能，但大多數擁有多重目的。調查顯示，有16個機構是以人臉辨識技術來執行數位存取及網路安全任務，例如要解鎖官方提供的手機或筆電時，或是要存取政府網站時，作為身分識別之用。</description>
-     <pubDate>2021-08-26  02:08:55</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146398</guid>
-  </item>
-  <item>
-    <title>F5修補Big-IP重大漏洞</title>
-    <link>https://www.ithome.com.tw/news/146397</link>
-    <description> F5本周發布安全公告，包含13個高風險及1個允許攻擊者執行指令或刪改檔案的重大安全漏洞。
-此次F5修補的30個漏洞中包括13個高風險漏洞，其中CVE-2021-23031屬於權限升級漏洞。它位於流量管理員UI（TMUI）的組態工具中，一旦遭到開採，具有存取權限的攻擊者就可於系統上執行任意系統指令、新增、刪改檔案，或是關閉服務，甚至可讓攻擊者接管整臺系統。</description>
-     <pubDate>2021-08-26  02:08:38</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146397</guid>
-  </item>
-  <item>
-    <title>白宮舉行資安高峰會：微軟、Google、蘋果、Amazon及IBM等業者共襄盛舉，承諾將大幅改善資安</title>
-    <link>https://www.ithome.com.tw/news/146396</link>
-    <description> 美國總統拜登（Joe Biden）在本周三（8/25）會見了私人企業與教育界的領袖，共同商討如何透過全國的努力來解決美國的資安威脅，除了由政府發起的多個倡議之外，微軟、Google、蘋果、Amazon及IBM等業者也都作出了承諾，其</description>
-     <pubDate>2021-08-26  01:08:00</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146396</guid>
-  </item>
-  <item>
-    <title>美能源部將部署Exascale等級GPU超級電腦Polaris</title>
-    <link>https://www.ithome.com.tw/news/146394</link>
-    <description> 美國能源部下的阿貢國家實驗室（Argonne National Laboratory）昨（25）日宣布，將使用結合HPE、AMD、Nvidia技術打造超過2千顆 GPU的Exascale等級超級電腦，名為Polaris，以支援美國能源部的進階工程及科學研究。</description>
-     <pubDate>2021-08-26  12:08:02</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146394</guid>
   </item>
   </channel>
 </rss>
