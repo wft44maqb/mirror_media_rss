@@ -6,6 +6,23 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Windows 11將在10月5日正式釋出，符合要求的硬體可免費升級</title>
+ <link>https://www.ithome.com.tw/news/146474</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/145777&quot; target=&quot;_blank&quot;&gt;一如媒體推測&lt;/a&gt;，&lt;a href=&quot;https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/&quot; target=&quot;_blank&quot;&gt;微軟昨（31）日宣布&lt;/a&gt;下一代作業系統Windows 11，將從2021年10月5日正式公開釋出。微軟同時宣布配合推出的新款Windows 11電腦。&lt;/p&gt;
+&lt;p&gt;Windows 11從10月5日當天起開始釋出，符合資格的Windows 10 PC將可以免費升級。但微軟指出，部署過程將分階段逐步進行，以確保良好的安裝經驗。部署過程會根據綜合硬體規格、穩定性指標、裝置年齡及其他因素的分析結果決定。&lt;/p&gt;
+&lt;p&gt;這意謂著大部份的人當天不會立刻接到Windows 11升級通知，只有符合最低硬體規格要求的新裝置會優先升級，之後再逐步推到其他現有Windows PC上。微軟預期所有符合升級資格的Windows 10 PC，會在2022年中完成部署。&lt;/p&gt;
+&lt;p&gt;執行Windows 11的PC至少需要支援TPM 2.0的2核以上64-bit處理器或是SoC，像是Intel第8代處理器、AMD Zen 2，或是Qualcomm 7/8 Series以後的產品，其他規格包括4GB RAM、64GB硬碟、DirectX 12以後的顯卡。至於不到這些規格的電腦，微軟允許可透過下載ISO檔安裝Windows 11，但也強調這些電腦屬於「不受支援」的電腦，Windows Update不會提供更新，似乎希望用戶以為未來可能也無法自動接收功能或安全更新。&lt;/p&gt;
+&lt;p&gt;用戶可透過Windows Update得知是否可以下載安裝。&lt;a href=&quot;https://www.ithome.com.tw/news/146463&quot; target=&quot;_blank&quot;&gt;根據最新Windows預覽版&lt;/a&gt;，Windows Update會加入一段文字告知電腦滿足跑Windows 11的最低硬體要求。使用者也可以到「設定」&amp;gt;「Windows Update」&amp;gt;「檢查更新」看看是否已經有Windows 11可以下載了。&lt;/p&gt;
+&lt;p&gt;微軟之後也會再釋出PC Health Check App，方便使用者判斷硬體規格符合與否。針對企業用戶，&lt;a href=&quot;https://www.microsoft.com/en-us/security/business/microsoft-endpoint-manager&quot; target=&quot;_blank&quot;&gt;微軟昨日公布&lt;/a&gt;整合Configuration Manager及Intune的Microsoft Endpoint Manager，供IT管理員檢視公司裝置是否準備好安裝Windows 11。&lt;/p&gt;
+&lt;p&gt;至於現有Windows 10，微軟將支援到2025年10月14日。微軟預計秋天會釋出Windows 10 21H2更新版。&lt;/p&gt;
+&lt;p&gt;微軟今天並公布包括宏碁、華碩、Dell、HP、聯想、三星等合作夥伴將推出的Windows 11新產品，微軟自己也有Surface Pro 7、Surface Laptop 4推出。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 01 Sep 2021 03:11:24 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146474 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146474#comments</comments>
+</item>
+<item>
  <title>公有雲長期歸檔儲存服務的興起</title>
  <link>https://www.ithome.com.tw/article/146401</link>
  <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1040-feng_mian_gu_shi_p1-open-960x420_kao_bei_.jpeg?itok=QlZL8yCC&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-featured-article-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/75&quot;&gt;專題故事&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;憑藉著近乎無限的擴展能力，以及多重備援的架構，公有雲業者推出的長期歸檔儲存服務，從成本、耐久性與可靠性等層面，都足以挑戰磁帶的地位，成為企業資料長期儲存與法規遵循應用的新選擇。&lt;/p&gt;
@@ -292,21 +309,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146464 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146464#comments</comments>
-</item>
-<item>
- <title>微軟可能以Windows Update告知用戶是否適合升級Windows 11</title>
- <link>https://www.ithome.com.tw/news/146463</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Windows 11可能將在不到2個月後釋出，微軟要讓用戶了解自己的Windows PC是否能升級到Windows 11。除了現有的檢測工具PC Health Check App外，可能會透過Windows Update上更清楚告知。&lt;/p&gt;
-&lt;p&gt;目前用戶如果想知道自己的硬體是否能安裝Windows 11，最方便的是微軟推出的&lt;a href=&quot;https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewpchealth&quot; target=&quot;_blank&quot;&gt;PC Health Check App&lt;/a&gt;。不過&lt;a href=&quot;https://www.windowslatest.com/2021/08/30/windows-update-now-tells-you-if-windows-11-can-be-installed-on-your-pc/&quot; target=&quot;_blank&quot;&gt;Windows Latest&lt;/a&gt;報導，在最近釋出給Insider方案測試人員的Windows 11預覽版（Release Preview）中，Windows Update加了一項通知。字樣如下「Great news—your PC meets the minimum system requirements for Windows 11. Specific timing for when it will be offered can vary as we get it ready for you. Note: Some Windows 10 features aren’t available in Windows 11. Certain apps and features may have additional」，意思是告知用戶的PC滿足Windows 11的最低系統要求。但開放下載時間則視最新作業系統部署時程而定。另外也提供了詳細的裝置規格連結。&lt;/p&gt;
-&lt;p&gt;根據微軟的設計，跑Windows 11的PC至少需要支援TPM 2.0的處理器，包括Intel第8代處理器、AMD Zen 2，或是Qualcomm 7/8 Series以後的產品。&lt;a href=&quot;https://www.ithome.com.tw/news/146448&quot; target=&quot;_blank&quot;&gt;上周微軟小幅增加3款Intel 第7代Core CPU&lt;/a&gt;，包括Core X-series、Xeon W-series和Core i7-7820HQ晶片。但沒有任何第1代AMD Zen CPU入榜。&lt;/p&gt;
-&lt;p&gt;此外Windows Latest報導，微軟自有Surface筆電等產品，也無法升級Windows 11。&lt;/p&gt;
-&lt;p&gt;微軟上周警告，除了官方明列的CPU外，使用其他舊版CPU的PC會被視為「不受支援硬體」。這些PC即使可以下載Media Creation Tool，製作Windows 11安裝媒體手動安裝，但用戶會被告知其裝置處於「不受支援」狀態。不受支援的電腦未來無法經由Windows Update自動下載功能更新，甚至可能連驅動程式、或安全更新也無法自動下載，&lt;/p&gt;
-&lt;p&gt;微軟鼓勵用戶使用受支援的硬體，以確保電腦的安全、穩定及應用程式相容性。電腦不受支援意謂著電腦可能碰到應用程式相容性問題、變得不穩定、無法獲得微軟技術支援，或是電腦無法享受保固。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 31 Aug 2021 07:37:46 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146463 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146463#comments</comments>
 </item>
 </channel>
 </rss>
