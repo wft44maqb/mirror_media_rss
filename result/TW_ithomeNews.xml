@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=613&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>微軟、Verizon合推5G企業專網邊緣運算方案</title>
+    <link>https://www.ithome.com.tw/news/146476</link>
+    <description> 微軟與美國電信業者Verizon宣布，將結合Verizon 5G專網及微軟Azure Stack Edge，推出整合邊緣運算的企業私有行動網路方案。</description>
+     <pubDate>2021-09-01  12:09:35</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146476</guid>
+  </item>
+  <item>
     <title>AWS正式推出全託管監控平臺Grafana服務</title>
     <link>https://www.ithome.com.tw/news/146475</link>
     <description> AWS與Grafana Labs所合作的Amazon Managed Grafana（AMG）服務，已經結束預覽階段現正式發布，這是一項全託管的服務，供用戶簡單地按需創建可擴展的Grafana工作區，視覺化和分析各種來源資料。</description>
@@ -250,14 +258,6 @@ Linux衍生自Unix作業系統，Torvalds在30年前發表的是Linux核心（Li
      <pubDate>2021-08-27  04:08:57</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/142797</guid>
-  </item>
-  <item>
-    <title>Netflix開始於波蘭測試遊戲服務</title>
-    <link>https://www.ithome.com.tw/news/146430</link>
-    <description> 網飛（Netflix）26日宣布，已開始於波蘭測試行動遊戲服務，該服務目前只支援Android手機，而且只有兩款：《怪奇物語 1984》（Stranger Things : 1984 ）與《怪奇物語3》（Stranger Things 3）。</description>
-     <pubDate>2021-08-27  04:08:33</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146430</guid>
   </item>
   </channel>
 </rss>
