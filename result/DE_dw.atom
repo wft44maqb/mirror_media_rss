@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-01T04:50:43Z</updated>
+ <updated>2021-09-01T04:54:30Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59046644</id>
+  <title><![CDATA[台湾国防部：共军具瘫痪台湾防空能力  专家称不至于“全面摧毁”]]></title>
+  <updated>2021-09-01T04:48:00Z</updated>
+  <published>2021-09-01T04:48:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/台湾国防部：共军具瘫痪台湾防空能力-专家称不至于-全面摧毁/a-59046644?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中共在入侵台湾的军事实力上有大幅进展。台湾国防部31日公布年度「中共军力报告书」，指出中共不仅「全盘掌握台湾军事动态」，更已「初具瘫痪台湾防空、制海及反制作战体系的能力」。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59046586</id>
   <title><![CDATA[中国电玩限时禁令：美国家长及中国网民怎么看？]]></title>
@@ -233,26 +243,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/阿富汗150只猫狗乘专机抵达伦敦引争议/a-59029076?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[周日（8月29日）早上，一架来自阿富汗的专机降落在伦敦希思罗机场。机上载有喀布尔一家动物慈善机构的150只猫狗和该机构创始人、英国前士兵保罗·法辛。在喀布尔机场人员大量滞留的情况下， 这一“优先”撤离猫狗的行动在英国引起争议。]]></summary>
   <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59028858</id>
-  <title><![CDATA[“总理三人对决” 民调：肖尔茨胜出]]></title>
-  <updated>2021-08-30T11:10:00Z</updated>
-  <published>2021-08-30T11:10:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/总理三人对决-民调：肖尔茨胜出/a-59028858?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[在距离今年德国大选投票日还剩下4周的时候，总理候选人实况辩论在三人之间举行。会后的民调显示肖尔茨得到的评价最高。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59028635</id>
-  <title><![CDATA[多数德国人主张采取更强硬对华路线]]></title>
-  <updated>2021-08-30T10:46:00Z</updated>
-  <published>2021-08-30T10:46:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/多数德国人主张采取更强硬对华路线/a-59028635?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[最新的民调显示，半数以上德国人认为，即使经济利益受损，也应该对中国采取强硬立场。]]></summary>
-  <category term="德国新闻"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59024425</id>
