@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>微軟、Verizon合推5G企業專網邊緣運算方案</title>
+ <link>https://www.ithome.com.tw/news/146476</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.fiercewireless.com/private-wireless/verizon-turns-up-prem-private-5g-edge-compute-microsoft-azure&quot; target=&quot;_blank&quot;&gt;微軟與美國電信業者Verizon宣布&lt;/a&gt;，將結合Verizon 5G專網及微軟Azure Stack Edge，推出整合邊緣運算的企業私有行動網路方案。&lt;/p&gt;
+&lt;p&gt;名為Verizon 5G Edge with Microsoft Azure Stack Edge的新服務，是整合Verizon 企業5G專網，及微軟Azure邊緣運算及儲存方案而成。前者以Verizon今年6月推出的On Site為核心，將5G網路基礎架構如基地臺、封包核心和無線電設施等，整合成首個提供mmWave頻譜的5G企業專網。而Azure Stack Edge則是邊緣運算方案，扮演雲端儲存閘道，讓企業將本地資料搬移到Azure，且方便本地存取檔案。&lt;/p&gt;
+&lt;p&gt;雙方指出，Verizon 5G Edge with Microsoft Azure Stack Edge是將運算和儲存服務搬到接近客戶的網路邊緣，可提供高頻寬、高效能、低延遲性的安全連網服務，以支援電腦視覺、AR/VR及機器學習等應用。&lt;/p&gt;
+&lt;p&gt;雙方希望這項方案能打入企業市場。潛力應用包括零售業獲取幾近即時的營運資料分析，以精準掌控庫存及供應鏈，製造業掌握工廠設備的運作效能以調整作業等。&lt;/p&gt;
+&lt;p&gt;目前這項方案已有物流業者Ice Mobility部署電腦視覺輔助監控產品包裝，以確保包裝品質。該公司也計畫加值開發，以現場電腦視覺資料提供包裝成本分析，以便反映成本、最佳化包裝流程及倉儲管理作業。&lt;/p&gt;
+&lt;p&gt;這是&lt;a href=&quot;https://www.ithome.com.tw/news/145377&quot; target=&quot;_blank&quot;&gt;微軟今年接收AT&amp;amp;T電信用網路雲端平臺及工程、服務部門&lt;/a&gt;後，最新一項和電信業者的合作。Verizon是微軟電信雲端平臺Azure for Operators的合作夥伴，同時也和&lt;a href=&quot;https://www.ithome.com.tw/news/134592&quot; target=&quot;_blank&quot;&gt;AWS Wavelength邊緣運算平臺合作&lt;/a&gt;，推出5G邊緣網路方案。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 01 Sep 2021 04:44:35 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146476 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146476#comments</comments>
+</item>
+<item>
  <title>AWS正式推出全託管監控平臺Grafana服務</title>
  <link>https://www.ithome.com.tw/news/146475</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS與Grafana Labs所合作的&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/amazon-managed-grafana-is-now-generally-available-with-many-new-features/&quot;&gt;Amazon Managed Grafana（AMG）&lt;/a&gt;服務，已經結束預覽階段現正式發布，這是一項全託管的服務，供用戶簡單地按需創建可擴展的Grafana工作區，視覺化和分析各種來源資料。與預覽階段相比，AMG加入了多項更新，包括升級使用Grafana 8，用戶能從AMG工作區查詢Redis、SAP HANA和Salesforce資料源，還可以使用Grafana API金鑰，以程式開發方式存取Grafana工作區。&lt;/p&gt;
@@ -295,22 +310,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146466 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146466#comments</comments>
-</item>
-<item>
- <title>蘋果買下古典樂串流服務供應商Primephonic</title>
- <link>https://www.ithome.com.tw/news/146465</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.apple.com/newsroom/2021/08/apple-acquires-classical-music-streaming-service-primephonic/?afid=p239%7C10078&amp;amp;cid=aos-ca-aff-ir&quot; target=&quot;_blank&quot;&gt;蘋果周一（8/30）宣布&lt;/a&gt;，已買下知名的古典樂串流服務供應商Primephonic，Primephonic原本的服務將在9月17日下線，取而代之的是，幾個月後Apple Music將會整合Primephonic所提供的古典樂功能，且蘋果也計畫在明年推出古典樂的專屬程式，雙方並未公布交易金額。&lt;/p&gt;
-&lt;p&gt;Primephonic是由一群古典樂愛好者於3年前所創立，提供超過350萬首的古典音樂，基於音質提供每月9.99美元及14.99美元的串流訂閱服務。Primephonic指出，古典樂占全球音樂下載、廣播及CD市場的5%，但在串流上卻僅占1%，因而相信古典樂的串流服務仍有很大的成長空間。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0831-Apple%20acquires%20classical%20music%20streaming%20service%20Primephonic.png&quot; style=&quot;width: 461px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Primephonic是蘋果極少數公開談論的收購對象。蘋果表示，Primephonic具備出色的聆聽經驗，還提供針對古典樂優化的搜尋與瀏覽功能、高品質的聲音、精挑細選的專家建議，以及有關古典樂的曲目及錄音的詳細資訊，有了Primephonic之後，Apple Music訂閱用戶在古典樂的聆聽經驗上，將取得重大的改善。&lt;/p&gt;
-&lt;p&gt;根據蘋果的規畫，Apple Music用戶將會先體驗到Primephonic的播放列表與獨家的古典音樂，繼之將可享受Primephonic的瀏覽與搜尋能力，例如根據作曲家或錄音進行搜尋，還會有詳細的古典樂資訊。此外，明年蘋果還打算釋出整合Primephonic功能的古典樂專用行動程式。&lt;/p&gt;
-&lt;p&gt;Primephonic股東之一的Gordon Getty表示，Primephonic的創立，是為了確保讓古典樂的影響力延續到未來的幾個世代。&lt;/p&gt;
-&lt;p&gt;在決定加入蘋果之後，Primephonic的訂閱服務將在9月7日畫下休止符，既有的用戶除了可依照使用比例退費之外，還可獲得Apple Music免費的6個月服務。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 31 Aug 2021 07:48:35 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146465 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146465#comments</comments>
 </item>
 </channel>
 </rss>
