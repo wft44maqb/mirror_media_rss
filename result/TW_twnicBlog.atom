@@ -7,7 +7,7 @@
 	<title type="text">財團法人台灣網路資訊中心部落格 | TWNIC Blog</title>
 	<subtitle type="text">悠遊寰宇、在地識別</subtitle>
 
-	<updated>2021-08-31T09:51:00Z</updated>
+	<updated>2021-09-01T01:13:15Z</updated>
 
 	<link rel="alternate" type="text/html" href="https://blog.twnic.tw" />
 	<id>https://blog.twnic.tw/feed/atom/</id>
@@ -16,6 +16,76 @@
 	<generator uri="https://wordpress.org/" version="5.6.4">WordPress</generator>
 <icon>https://blog.twnic.tw/wp-content/uploads/2020/04/cropped-favicon-2-32x32.png</icon>
 	<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[APNIC文摘— 衛星通訊及政府管制]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/01/19680/" />
+
+		<id>https://blog.twnic.tw/?p=19680</id>
+		<updated>2021-08-23T00:10:54Z</updated>
+		<published>2021-09-01T00:03:52Z</published>
+		<category scheme="https://blog.twnic.tw" term="技術" /><category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="APNIC" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="衛星通訊" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/8-2_通用域名（gTLD）權利保護機制簡介-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>現在許多人開始吹捧衛星網路，聲稱它的傳輸速率會比地面網路更快。但有一個決定你究竟能否使用衛星網路，甚至網路服務內容是否符合期待的關鍵，是當地的國家法規。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/01/19680/">APNIC文摘— 衛星通訊及政府管制</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/01/19680/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/8-2_通用域名（gTLD）權利保護機制簡介-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">本APNIC文摘原標題為</span><a href="https://blog.apnic.net/2021/08/09/satellite-communication-and-regulation/" target="_blank" rel="noopener"><span style="font-weight: 400;">Satellite communication and regulation</span></a><span style="font-weight: 400;">，由Ulrich Speidel撰文。</span></p>
+<p><span style="font-weight: 400;">低軌道（Low Earth Orbit，LEO）衛星網路服務如Starlink和OneWeb的興起，加上即將推出的Project Kuipe，重新燃起大眾對衛星網際網路通訊的興趣。這些興趣不僅限於低軌衛星能為網路服務未及地區帶來的好處，更多是位於網路發達地區，但對目前使用的網路服務不滿意的人，期待低軌衛星能實現他們對網路的期待。</span></p>
+<p><span style="font-weight: 400;">直至目前為止，衛星網路的主要服務對象，是所在地區沒有光纖、數位用戶線路（digital subscriber line，DSL），或是便宜無線和行動通訊網路的人。現在，許多人開始吹捧衛星網路，聲稱它的傳輸速率會比地面網路更快。作者已經在APNIC部落格發表過</span><a href="https://blog.apnic.net/2021/06/02/everything-you-wanted-to-know-about-leo-satellites-part-3-bandwidth-system-capacity-and-inter-satellite-routing/" target="_blank" rel="noopener"><span style="font-weight: 400;">一系列文章</span></a><span style="font-weight: 400;">，詳盡介紹衛星網路的優缺點，本篇聚焦的重點議題，將決定你究竟可不可以使用衛星網路服務，以及你用的衛星網路服務，能不能做到目前地面網路做不到的事。</span></p>
+<p><span style="font-weight: 400;">這兩件事背後的決定因素，就是國家法規。</span></p>
+<p><span style="font-weight: 400;">衛星通訊利用的是無線電波，這表示在一顆衛星接收訊號的通訊頻道中，必須只存在它要接收的那個訊號，否則輕則通訊干擾，重則衛星可能因此失常。</span></p>
+<p><span style="font-weight: 400;">也因此，同一個地區不能有太多相鄰的衛星，或地面上同時有太多人在同一個頻道上通訊，否則彼此都會被嚴重干擾。這表示，衛星通訊不是隨便把一顆衛星丟到空中，然後任意選一個頻率開始到處互傳訊號。你必須申請頻譜，這代表跟衛星地面站所在國家的監管機構交涉，通常還需要國際之間的協調，協調結果還必須獲得國際通訊聯盟（International Telecommunications Union，ITU）的認可。國際之間的通訊頻道協商是複雜的談判過程，每個國家都希望盡量取得越多頻譜越好，但又不能多到因此惹火其他國家，讓對方開始故意干擾你的訊號，或甚至因此開戰。</span></p>
+<p><span style="font-weight: 400;">高度最高的同步衛星，無論傳輸或接收訊號的範圍都可涵蓋半個地球，這也表示他們的頻譜無論如何一定會與多個國家衝突。其他軌道上的衛星則依軌道傾斜度和高度不同，通常四散在兩個緯度之間，隨著他們經過的國家領土變換通訊頻譜。這的確是更彈性的作法，但也讓運作變得更複雜。然而，無論是同步衛星，或是較低的中軌道衛星和低軌衛星，都受法規限制而無法達到最高傳輸速率。</span></p>
+<p><span style="font-weight: 400;">國際之間的頻譜協調，更容易遇到當地的各種規範阻礙。對國家政府而言，只因為你的衛星會飛過我的國土上方，有辦法跟我國領土內的地面站通訊，並不代表我就希望你的衛星為我國民眾服務。</span></p>
+<p><span style="font-weight: 400;">國家拒絕的原因百百種，有些地方可能網路服務由中央政府壟斷，額外的衛星網路服務等於破壞生意。有些地方可能害怕人民可以透過衛星網路服務，取得政府不想要他們接收的資訊。有些政府則可能提出條件，要求衛星服務供應方封鎖特定網站或服務，才讓對方提供衛星網路服務。在後者情境下，對政府而言最理想的處理方式，是衛星服務業者把控管通訊閘道的地面站設在國內，繳錢連結政府設立的防火牆，由政府一手把關人民可以取得和傳送的資訊。</span></p>
+<p><span style="font-weight: 400;">當然，這種政府行為不僅限於低軌衛星。無線電波無視國界的特性，從過去就常是專制政府的眼中釘。作者來自德國，他至今仍記得所謂的「西方電視」在推倒柏林圍牆中扮演的角色有多關鍵。更不用說二次世界大戰期間，許多德國人在希特勒統治下，仍冒著生命危險聽BBC廣播。也因為這種情形，伊朗政府在1984年立法禁止人民持有或使用無線電視，但大部分民眾仍持續觀看無線電視。</span></p>
+<p><span style="font-weight: 400;">然而，衛星網路和衛星電視不同，知法犯法的難度變得很高。這是因為網路需要雙向通訊，不像電視只由衛星發送訊號給使用者。而一旦使用者必須傳送訊號，就很容易被政府發現，並循線找到訊號來源。</span></p>
+<p><span style="font-weight: 400;">作者指出，有時候即使不在這種嚴格管制衛星通訊的國土境內，使用者仍會受到影響。中國就曾經禁止所有飛過該國領空的外國航空公司利用衛星提供機內無線網路，作者自己也有多次搭乘漢莎航空和全日空往返歐洲及日本時，在中國領空出現網路問題的經驗。同樣的道理，任何在中國登記營業的航空公司，旗下飛機的機內無線網路都位於「防火長城之內」。</span></p>
+<p><span style="font-weight: 400;">Starlink的接受器「Dishy」天線中內建有GPS接收器，是公開的事實。作者認為這個接受器的真實功能是問題關鍵；究竟是為了協助接收器定位衛星，還是確認使用者的「Dishy」接收器沒有被移出基地台？後者技術上而言並無不合理之處，因為Starlink可以透過這種方式，確認特定地區中正在使用服務的訂戶人數。</span></p>
+<p><span style="font-weight: 400;">但換個角度而言，在管制人民網路自由的國家中，這個GPS也很可能被用來封鎖使用者希望取得的網路服務或內容。最糟的情況下，國家當局甚至可能會利用這個GPS資料找到你的位置，登門請你去「喝茶」。</span></p>
+<p><span style="font-weight: 400;">*台灣網路資訊中心（TWNIC）與亞太網路資訊中心（APNIC）合作，定期精選APNIC Blog文章翻譯摘要，提供中心部落格讀者了解目前亞太地區網路發展之最新趨勢。原文標題為</span><a href="https://blog.apnic.net/2021/08/09/satellite-communication-and-regulation/" target="_blank" rel="noopener"><span style="font-weight: 400;">Satellite communication and regulation</span></a><span style="font-weight: 400;">。</span></p>
+<p><span style="font-weight: 400;">圖片來源：</span><a href="https://www.freepik.com/free-vector/satellites-around-earth-scene_9456657.htm#page=2&amp;query=satellite&amp;position=11" target="_blank" rel="noopener"><span style="font-weight: 400;">freepik</span></a></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/01/19680/">APNIC文摘— 衛星通訊及政府管制</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/01/19680/#comments" thr:count="0"/>
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/01/19680/feed/atom/" thr:count="0"/>
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[Facebook與 Instagram 將限制以青少年用戶為目標的廣告投放方式]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/01/19602/" />
+
+		<id>https://blog.twnic.tw/?p=19602</id>
+		<updated>2021-08-18T00:00:55Z</updated>
+		<published>2021-08-31T23:58:30Z</published>
+		<category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="Facebook" /><category scheme="https://blog.twnic.tw" term="Instagram" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0819-0823_Facebook與-Instagram-將限制以青少年用戶為目標的廣告投放方式-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>根據Facebook發布的最新政策，其將修正Facebook 、Messenger及Instagram未滿18歲用戶的廣告投放限制，未來廣告商僅能依據用戶年齡、性別及所在位置對未成年用戶投放廣告。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/01/19602/">Facebook與 Instagram 將限制以青少年用戶為目標的廣告投放方式</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/01/19602/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0819-0823_Facebook與-Instagram-將限制以青少年用戶為目標的廣告投放方式-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">根據Facebook發布的最新政策，其將修正目標為未滿18歲用戶（包括Facebook Messenger及Instagram）的廣告投放限制，未來廣告商僅能依據用戶年齡、性別及所在位置對未成年用戶投放廣告。根據Facebook聲明，新政策將於數周內開始實行，在某些國家或地區，年齡限制可能會上修。</span></p>
+<p><span style="font-weight: 400;">雖然Facebook希望透過修正政策展現誠意，但該企業推出兒少版Instagram的計畫，仍引起倡議團體及美國國會議員</span><a href="https://thehill.com/policy/technology/555064-activists-join-call-for-facebook-to-drop-tone-deaf-instagram-for-kids-plan?rl=1" target="_blank" rel="noopener"><span style="font-weight: 400;">批評</span></a><span style="font-weight: 400;">。</span></p>
+<p><span style="font-weight: 400;">Facebook青年產品副總裁Pavni Diwanji表示，其認為年輕用戶應在受父母管理的情況下使用適齡產品，這也是兒少版Instagram的開發初衷。Facebook承諾將與專家及官員合作，並保證兒少版Instagram不會投放廣告。Facebook也會使用AI技術評估用戶真實年齡，防止未滿13歲孩童透過謊報年齡加入平臺。</span></p>
+<p><span style="font-weight: 400;">此外，Facebook還宣布兩項加強保護Instagram未成年用戶的更新措施。一是將未滿16歲使用者的Instagram設為私人帳號，二則是利用公司自行研發的新技術識別「潛在可疑帳號」，防止擁有可疑帳號的成年人接觸未成年用戶。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Rebecca Klar(2021). Facebook, Instagram to limit targeted ads for teen users. THE HILL.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://thehill.com/policy/technology/564878-facebook-instagram-to-limit-targeted-ads-for-teen-users" target="_blank" rel="noopener"><span style="font-weight: 400;">https://thehill.com/policy/technology/564878-facebook-instagram-to-limit-targeted-ads-for-teen-users</span></a><span style="font-weight: 400;"> (Aug. 6, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/01/19602/">Facebook與 Instagram 將限制以青少年用戶為目標的廣告投放方式</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/01/19602/#comments" thr:count="0"/>
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/01/19602/feed/atom/" thr:count="0"/>
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
 		<author>
 			<name>TWNIC</name>
 					</author>
@@ -72,7 +142,7 @@
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/31/19826/" />
 
 		<id>https://blog.twnic.tw/?p=19826</id>
-		<updated>2021-08-31T09:51:00Z</updated>
+		<updated>2021-09-01T01:13:15Z</updated>
 		<published>2021-08-31T07:46:56Z</published>
 		<category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="IPv6" /><category scheme="https://blog.twnic.tw" term="OPM" />
 		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/Banner-1280-720-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>會議議題將包含網路管轄權、網際安全、網路資源管理及國內業者IPv6經驗分享等主題，並邀請國內外重量級嘉賓進行專題演講，介紹網際網路重要議題之發展。</p>
@@ -82,7 +152,7 @@
 					<content type="html" xml:base="https://blog.twnic.tw/2021/08/31/19826/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/Banner-1280-720-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">為提供臺灣網路界一個可以討論IP網路技術相關議題的社群與機制平台，TWNIC將於10月06日線上舉辦 「第36屆TWNIC IP政策資源管理會議」。</span></p>
 <p><span style="font-size: 14pt;">本會議希望促進網際網路相關產業發展為目標之會議，提供各界有關網路技術研究、產業發展之溝通交流平台，彙集臺灣地區各ISP業者之意見提供相關IP政策及管理機制。</span></p>
 <p><span style="font-size: 14pt;">本次會議議題將包含網路管轄權、網際安全、網路資源管理及國內業者IPv6經驗分享等主題，並邀請國內外重量級嘉賓進行專題演講，介紹網際網路重要議題之發展。</span></p>
-<p><span style="font-size: 14pt;">本會議系列活動場場精彩可期，意者請儘速報名。欲報名及瞭解詳細議程內容，請上活動網址：<a href="https://opm.twnic.tw/36th/" target="_blank" rel="noopener">https://opm.twnic.tw/36th/</a></span></p>
+<p>&nbsp;</p>
 <ul>
 <li><span style="font-size: 14pt;">活動日期：2021年10月06日</span></li>
 <li><span style="font-size: 14pt;">活動地點：YouTube線上直播</span></li>
@@ -2319,118 +2389,6 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 		
 					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/02/19278/#comments" thr:count="0"/>
 			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/02/19278/feed/atom/" thr:count="0"/>
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>電子報</name>
-					</author>
-
-		<title type="html"><![CDATA[「2021 TWNIC IP網路通訊人才培訓教育訓練」歡迎報名參加]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/07/30/19438/" />
-
-		<id>https://blog.twnic.tw/?p=19438</id>
-		<updated>2021-08-06T03:01:38Z</updated>
-		<published>2021-07-30T00:30:37Z</published>
-		<category scheme="https://blog.twnic.tw" term="技術" /><category scheme="https://blog.twnic.tw" term="最新消息" /><category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="202108" /><category scheme="https://blog.twnic.tw" term="DNSSEC" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/105-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>為協助國內推動DNSSEC，並提供DNSSEC相關技術受訓之機會，TWNIC今年舉辦DNSSEC教育訓練，今年本系列教育訓練課程全部免費。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/30/19438/">「2021 TWNIC IP網路通訊人才培訓教育訓練」歡迎報名參加</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/07/30/19438/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/105-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">為協助國內推動DNSSEC，並提供DNSSEC相關技術受訓之機會，TWNIC今年舉辦DNSSEC教育訓練，今年本系列教育訓練課程全部免費。</span></p>
-<p><span style="font-size: 14pt;">此次課程內容如下：</span></p>
-<ol>
-<li><span style="font-size: 14pt;">課程名稱：IP網路通訊人才培訓教育訓練</span></li>
-<li><span style="font-size: 14pt;">課程時間：8月25日(週三) 9:00-12:00</span></li>
-<li><span style="font-size: 14pt;">課程地點：因應疫情，本次活動全部調整為線上進行</span></li>
-<li><span style="font-size: 14pt;">報名網址：<a href="https://training.twnic.tw/ipv6_110/">https://training.twnic.tw/ipv6_110/</a></span></li>
-<li><span style="font-size: 14pt;">課程內容：</span></li>
-</ol>
-<table>
-<tbody>
-<tr>
-<td style="text-align: center;" colspan="2" width="500">『IP網路通訊人才培訓教育訓練』</p>
-<p><strong>DNSSEC-</strong><strong>進階課程</strong>-課程大綱</td>
-</tr>
-<tr>
-<td style="text-align: center;" width="112">時間</td>
-<td style="text-align: center;" width="389">課程內容</td>
-</tr>
-<tr>
-<td style="text-align: center;" width="112">08:40-09:00</td>
-<td style="text-align: center;" width="389">上課準備</td>
-</tr>
-<tr>
-<td style="text-align: center;" width="112">09:00-10:20</td>
-<td style="text-align: center;" width="389">
-<p style="text-align: left;">◎  DNSSEC RR 封包</p>
-<p style="text-align: left;">◎  DNSSEC 實做</p>
-<p style="text-align: left;">◎  ZONE 簽署</p>
-<p style="text-align: left;">◎  NSEC &amp; NSEC3</p>
-<p style="text-align: left;">◎  子網域簽署</p>
-</td>
-</tr>
-<tr>
-<td style="text-align: center;" width="112">10:20-10:40</td>
-<td style="text-align: center;" width="389">休息</td>
-</tr>
-<tr>
-<td style="text-align: center;" width="112">10:40-12:00</td>
-<td style="text-align: center;" width="389">
-<p style="text-align: left;">◎  DNSSEC 驗證</p>
-<p style="text-align: left;">◎  Cache Server</p>
-<p style="text-align: left;">◎  Application</p>
-<p style="text-align: left;">◎  System service</p>
-<p style="text-align: left;">◎  Application</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p><span style="font-size: 14pt;">此次教育訓練課程型態為講習授課，講習授課由老師講授以及示範操作。</span></p>
-<p><span style="font-size: 14pt;">意者請儘速報名，以免向隅。</span></p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/30/19438/">「2021 TWNIC IP網路通訊人才培訓教育訓練」歡迎報名參加</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/07/30/19438/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/07/30/19438/feed/atom/" thr:count="0"/>
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>電子報</name>
-					</author>
-
-		<title type="html"><![CDATA[微軟七月 Patch Tuesday 資安修補包，修復 117 個漏洞，包括 9 個 0-day 漏洞]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/07/30/19459/" />
-
-		<id>https://blog.twnic.tw/?p=19459</id>
-		<updated>2021-07-30T00:25:05Z</updated>
-		<published>2021-07-30T00:28:41Z</published>
-		<category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="202108" /><category scheme="https://blog.twnic.tw" term="國內外重要資安新聞" /><category scheme="https://blog.twnic.tw" term="漏洞" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/110-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>微軟於日前推出 2021 年 7 月 Patch Tuesday 每月資安修補包，微軟各系統用戶應立即更新。微軟於日前推出 2021 年 7 月 Patch Tuesday 每月資安修補包，一共修補多達 117 個漏洞，其中更有 9 個 0-day 漏洞；微軟各系統用戶應立即更新，以避免遭駭侵者利用這些漏洞發動攻擊。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/30/19459/">微軟七月 Patch Tuesday 資安修補包，修復 117 個漏洞，包括 9 個 0-day 漏洞</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/07/30/19459/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/110-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">微軟於日前推出 2021 年 7 月 Patch Tuesday 每月資安修補包，微軟各系統用戶應立即更新。微軟於日前推出 2021 年 7 月 Patch Tuesday 每月資安修補包，一共修補多達 117 個漏洞，其中更有 9 個 0-day 漏洞；微軟各系統用戶應立即更新，以避免遭駭侵者利用這些漏洞發動攻擊。</span></p>
-<p><span style="font-size: 14pt;">以漏洞危險程度評級來說，在這 117 個得到修補的資安漏洞中，有 13 個屬於「嚴重」（Critical）等級，1 個屬於「中度」（Moderate）等級，103 個「重要」（Important）等級。</span></p>
-<p><span style="font-size: 14pt;">以攻擊手法分類的話，在 117 個漏洞中，有多達 44 個屬於遠端執行任意程式碼、32 個為執行權限提升、14 個為資訊洩漏、12 個為服務阻斷、8 個是安全功能遭跳過、7 個是屬於詐騙類型。</span></p>
-<p><span style="font-size: 14pt;">值得注意的是，這 117 個漏洞中，有 9 個是屬於 0-day 即時漏洞，其中有 4 個已遭駭侵者大規模利用於攻擊活動之中；包括先前廣泛用於攻擊的「PrintNightmare」（CVE-2021-34527）。其他 3 個已遭大規模濫用的 0-day 漏洞分別如下：</span></p>
-<p><span style="font-size: 14pt;">CVE-2021-33771：Windows 核心執行權限提升漏洞；</span></p>
-<p><span style="font-size: 14pt;">CVE-2021-34448：指令碼引擎記憶體崩潰漏洞；</span></p>
-<p><span style="font-size: 14pt;">CVE-2021-31979：WIndows 核心執行權限提升漏洞。</span></p>
-<p><span style="font-size: 14pt;">其餘詳細的更新資訊，可以參考微軟隨此次更新修補包一併推出的資安通報列表。</span></p>
-<p><span style="font-size: 14pt;">由於這次微軟修補的漏洞中，有相當多嚴重漏洞，更包括已被大規模濫用的 0-day 漏洞，因此微軟各種産品的用戶與系統管理員，應立即依照各系統的指示與更新功能，安裝並修補這些漏洞，以免遭到駭侵團體鎖定，利用尚未修補的已知漏洞發動攻擊。</span></p>
-<p><span style="font-size: 14pt;"><strong>相關連結</strong></span></p>
-<ol>
-<li><span style="font-size: 14pt;"><a href="https://www.twcert.org.tw/tw/cp-104-4911-8fd16-1.html">TWCERT/CC</a></span></li>
-<li><span style="font-size: 14pt;"><a href="https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5004237-and-kb5004245-cumulative-updates-released/">Windows 10 KB5004237 &amp; KB5004245 cumulative updates released</a></span></li>
-<li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2021-patch-tuesday-fixes-9-zero-days-117-flaws/"><span style="font-size: 14pt;">Microsoft July 2021 Patch Tuesday fixes 9 zero-days, 117 flaws</span></a></li>
-</ol>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/30/19459/">微軟七月 Patch Tuesday 資安修補包，修復 117 個漏洞，包括 9 個 0-day 漏洞</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/07/30/19459/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/07/30/19459/feed/atom/" thr:count="0"/>
 			<thr:total>0</thr:total>
 			</entry>
 	</feed>
