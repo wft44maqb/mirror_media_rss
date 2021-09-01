@@ -6,190 +6,307 @@
  <description></description>
  <language>zh-hant</language>
 <item>
- <title>研究人員揭露Exchange Server新的ProxyToken漏洞，可導致電子郵件被竊取</title>
- <link>https://www.ithome.com.tw/news/146461</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;繼&lt;a href=&quot;https://www.ithome.com.tw/news/143111&quot; target=&quot;_blank&quot;&gt;ProxyLogon&lt;/a&gt;、&lt;a href=&quot;https://www.ithome.com.tw/news/146353&quot; target=&quot;_blank&quot;&gt;ProxyShell&lt;/a&gt;等重大漏洞後，研究人員再揭露外號&lt;a href=&quot;https://www.zerodayinitiative.com/blog/2021/8/30/proxytoken-an-authentication-bypass-in-microsoft-exchange-server&quot; target=&quot;_blank&quot;&gt;ProxyToken&lt;/a&gt;的Exchange Server漏洞，可能導致企業電子郵件被人竊走。微軟已於7月修補了這項漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-33766&quot; target=&quot;_blank&quot;&gt;ProxyToken正式編號CVE-2021-33766&lt;/a&gt;，是由越南VNPT ISC研究人員Le Yuan Tuyen偕同趨勢科技Zero Day Initiative研究發現，並於3月通報微軟。&lt;/p&gt;
-&lt;p&gt;CVE-2021-33766是Exchange Server中的資訊洩露漏洞。利用此一漏洞，未經授權的攻擊者可在屬於任意使用者的信箱執行組態行為，進而將目標受害者帳號的所有郵件複製過來，再轉寄到攻擊者控制的信箱。&lt;/p&gt;
-&lt;p&gt;研究人員解釋，攻擊結合兩項因素。首先是Exchange Server的郵件組態問題。Exchange Server運作分成二部份，一是作為介面的Outlook Web Access或Exchange Control Panel（ecp）前端網站，二是Exchange後端網站。在「委任驗證（delegated authentication）功能」中，前端網站會將需要驗證的/ecp呼叫傳到後端，後端要看到呼叫中有SecurityToken cookie才會動作，進行驗證。然而Exchange Server的預設組態中，並未將負責驗證的模組DelegatedAuthModule載入到後端ECP網站，以致於前端網站在/ecp頁面呼叫中看到SecurityToken cookie不驗證，但後端ECP網站也未啟動驗證。結果是未經驗證的攻擊者呼叫輕易而進入Exchange後端。&lt;/p&gt;
-&lt;p&gt;開採ProxyToken漏洞的第二項因素，是要在/ecp頁面啟動呼叫。呼叫需要有名為ECP Canary的令符。沒有Canary就觸發HTTP 500錯誤訊息，但有趣的是，HTTP 500觸發後反而帶來有效的Canary，使攻擊者得以啟動呼叫。&lt;/p&gt;
-&lt;p&gt;成功呼叫讓攻擊者得以修改Exchange Server組態，設定轉寄規則，進而將郵件轉寄到自己的信箱中。&lt;/p&gt;
-&lt;p&gt;本漏洞屬於風險值7.3的高風險漏洞，發現時間約在&lt;a href=&quot;https://www.ithome.com.tw/news/145927&quot; target=&quot;_blank&quot;&gt;ProxyLogon&lt;/a&gt;揭露後。研究人員通報微軟後，微軟已於7月Patch Tuesday予以修補。&lt;/p&gt;
+ <title>公有雲長期歸檔儲存服務的興起</title>
+ <link>https://www.ithome.com.tw/article/146401</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1040-feng_mian_gu_shi_p1-open-960x420_kao_bei_.jpeg?itok=QlZL8yCC&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-featured-article-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/75&quot;&gt;專題故事&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;憑藉著近乎無限的擴展能力，以及多重備援的架構，公有雲業者推出的長期歸檔儲存服務，從成本、耐久性與可靠性等層面，都足以挑戰磁帶的地位，成為企業資料長期儲存與法規遵循應用的新選擇。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 31 Aug 2021 05:01:59 +0000</pubDate>
+ <pubDate>Tue, 31 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>張明德</dc:creator>
+ <guid isPermaLink="false">146401 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/article/146401#comments</comments>
+</item>
+<item>
+ <title>【長期資料儲存新選擇，一探各家公有雲的異同】總覽6大公有雲業者的長期歸檔服務</title>
+ <link>https://www.ithome.com.tw/tech/146395</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/1040-feng_mian_p4p5-960.png&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;iThome&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;歸檔（Archive）的目的，是因應法規遵循或其他需求而長期保存資料。由於這些需要長期保存的資料中，往往含有敏感性內容，而且涉及的保存期限至少是5年以上，甚至是7到10年，所以用於歸檔儲存的儲存設備，必須具備高安全性，低成本與高耐久性等條件。&lt;/p&gt;
+&lt;p&gt;於是，本地端磁帶設備，便成為企業歸檔應用最普遍選擇的儲存設備。一方面，在本地端資料中心保存歸檔資料，可便於企業管控、確保資料安全。另一方面，磁帶也能提供長期儲存所需的低成本與耐久性。至於公有雲，過去很少會被列入歸檔儲存的選項。&lt;/p&gt;
+&lt;p&gt;公有雲服務的基本型態，是IT基礎資源與服務的代管，以及使用權的租賃，主要訴求是免除用戶端的維運負擔，以及按需採購、依實際需求隨時調整資源使用量的靈活性，特別適合需求波動大，或臨時、短期的IT應用需求，而與講究長期保存的歸檔應用，可說是截然相反。&lt;/p&gt;
+&lt;p&gt;公有雲的使用雖然已經十分普遍，能涵蓋各式各樣的企業IT應用需求，但大多數被用戶放到公有雲上的應用或資料，都不會期待留存5年、10年，然而這卻是歸檔應用的基本要求，與過去典型的公有雲應用型態大異其趣。&lt;/p&gt;
+&lt;p&gt;不過，隨著公有雲服務商持續改善基礎設施與服務架構，近年來推出的公有雲長期儲存服務，在成本、耐久性、安全性等方面，都已能承擔企業歸檔應用的要求，足以成為本地端磁帶設備之外的歸檔儲存選擇。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;新興的公有雲歸檔儲存服務&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;公有雲上的儲存服務已發展了十多年，應用範圍逐漸擴展到企業儲存應用的每一個面向，然而，將觸角延伸到長期歸檔儲存、挑戰磁帶的地位，還是這幾年的事。&lt;/p&gt;
+&lt;p&gt;早在2012年8月，AWS就推出針對長期儲存應用的S3 Glacier服務，不過更能因應歸檔應用的Glacier Deep Archive，是在2019年初才上線。類似的，微軟Azure是在2017年中，發布歸檔儲存用的Azure Archive Blob Storage服務，Google Cloud同類型的Google Cloud Archive服務，更是到2020年初才正式推出。&lt;/p&gt;
+&lt;p&gt;除了前述3大公有雲領頭服務商外，其他主要公有雲服務商的歸檔儲存服務，也大多是這3、4年內才問世，例如IBM Cloud的Object Storage Archive，以及Oracle Cloud的Archive Storage，是分別發表於2018年底與2017年底。&lt;/p&gt;
+&lt;p&gt;也就是說，相較於物件、區塊、檔案等類型的公有雲儲存服務，因應長期儲存應用的公有雲歸檔儲存服務，算是相當晚近才成熟的一種服務類型。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;公有雲歸檔儲存服務的基本型態&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;公有雲長期歸檔儲存服務大多是物件儲存服務的延伸發展，利用物件儲存系統的擴展性、耐久性、可靠性、可用性與存取管制能力，來提供安全、耐久，且具備彈性擴充能力的儲存空間。&lt;/p&gt;
+&lt;p&gt;不過對於歸檔儲存應用來說，關鍵的需求還包括足夠低的成本。&lt;/p&gt;
+&lt;p&gt;公有雲物件儲存服務的底層，基本上是由大容量、低成本的磁碟所組成的大規模分散式物件儲存系統，儘管透過公有雲服務商超大規模採購量，可以相當程度地壓低成本，但標準的公有雲物件儲存服務，單位儲存成本仍然無法與磁帶競爭。因此針對歸檔應用的公有雲歸檔儲存服務的底層，是公有雲物件儲存系統的低成本版本，藉由一系列限制措施，例如：更長的訂閱期限門檻，較低的效能與可用性，還有拉長資料檢索取回（retrieved）延遲時間等，來降低服務營運的負荷與成本，以便提供更具競爭力的單位儲存成本。&lt;/p&gt;
+&lt;p&gt;在這些降低成本的措施中，最特別的是，拉長資料檢索取回延遲時間這一點，這也是歸檔儲存服務與標準型物件儲存服務最大差異所在。&lt;/p&gt;
+&lt;p&gt;標準型物件儲存服務取回資料所需等待的延遲時間，是毫秒等級，而歸檔儲存服務則會將延遲時間拉長到數小時，甚至十數小時。藉由大幅拉長檢索與取回資料的時間，不僅可大幅降低服務商營運負擔，也有條件藉此引進非磁碟類型儲存裝置，進一步降低成本。&lt;/p&gt;
+&lt;p&gt;換句話說，若必須在秒級或分鐘級的延遲內，回應用戶端取回資料的要求，顯然只有使用磁碟裝置才能辦到；但若能允許數小時的延遲，那麼就算使用磁帶設備，也能滿足這樣的延遲時間。&lt;/p&gt;
+&lt;p&gt;事實上，當AWS在2012年推出S3 Glacier儲存服務之初，ZDNet、The Register等IT新聞網站，便曾引用非官方的內部消息指稱，這項服務的底層是基於磁帶，其他還有使用藍光光碟等媒體的推測。由於各公有雲服務商官方很少公布基礎架構細節，這些推測都未能獲得證實，相對地，也並未完全推翻。&lt;/p&gt;
+&lt;p&gt;就我們來看，即使是採用磁碟裝置，當存取延遲拉長到數小時等級之際，也能帶來可觀的營運成本節省，服務商平時可讓磁碟裝置停機離線，待收到用戶的存取要求後，再行開機上線。&lt;/p&gt;
+&lt;p&gt;接下來，我們便從訂閱期限門檻，成本，可用性，耐久性，資料取回延遲，以及安全性功能等幾個面向，來檢視6大公有雲服務商的歸檔儲存服務特性。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;6大公有雲長期歸檔儲存服務比較1：訂閱期限門檻與成本&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;針對通用的標準型物件儲存服務，公有雲業者多半沒有訂閱期限門檻要求，用戶可隨時停止。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;相對的，歸檔儲存服務則要求固定的最短訂閱期限，短則30天，長至180天，所以用戶訂閱前必須評估清楚，否則一旦訂閱後，至少1個月到半年內都無法停止。若用戶提前刪除或搬移歸檔資料，公有雲服務商將會收取等同於剩餘天數的費用。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;對照其他層級物件儲存服務，一般月租費越便宜的服務類型，最低訂閱時間門檻也越長。例如，AWS的標準型S3，沒有最低期限門檻；次一級的非經常存取型S3，則要求最短訂閱30天；歸檔用的S3 Glacier，最短訂閱期限是90天；而成本更低的Glacier Deep Archive，要求至少180天。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;其他公有雲服務商的歸檔儲存服務，最短訂閱期限大多為90天或180天，不過也有例外，像是Google Cloud的Archive Storage要求最短365天的訂閱期，是特別長的一個服務。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;不過，在另一方面，歸檔儲存的基本目的就是長期保存資料，所以較長的訂閱期限門檻，一般來說不會造成太大問題。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;而在成本方面，公有雲歸檔儲存服務的基本費用有3項：（1）儲存空間月租費；（2）上傳寫入資料的費用；（3）取回資料的費用。除了前述基本費用外，寫入與取回資料所產生的網路流量，有時也會另外收取費用。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;其中在儲存空間月租費方面，目前各主要公有雲服務商的收費最低可達每GB 0.00099美元到0.002美元之間，只相當於LTO-8磁帶單位容量成本的1/2至1/5，算是相當有競爭力的價格。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;至於在資料取回費用方面，通常又包含兩部分，一為發出取回的請求，每個請求都必須付費；另一為回傳資料的費用。多數服務商都設定了數個不同的回傳速度層級，並分級收費。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;另外，要特別注意的是，公有雲歸檔服務取回資料的費用，要遠高於儲存空間月租費。以AWS Glacier Deep Archive為例，儲存空間月租費每GB只要0.00099美元，但取回資料的費用是每GB 0.0025美元（大批量模式）或0.02美元（標準模式），比月租費高了2.5倍與20倍。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;這也意味著，雖然歸檔儲存服務的月租費很低，但如果用戶出現了取回資料的需求，且取回的資料量很大，光是取回資料的花費，便會上漲到相當於月租費幾分之一的程度。如果用戶急需取回資料，而選用了較快的回傳速度，費用還會直線升高，這些都是用戶必需考慮的隱藏成本。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/files/1040-%E5%B0%81%E9%9D%A2P4%2BP5-600(1)-big-1835X666.jpg&quot; onclick=&quot;window.open(this.href, &#039;&#039;, &#039;resizable=yes,status=no,location=no,toolbar=no,menubar=yes,fullscreen=no,scrollbars=no,dependent=no,width=1835,height=666&#039;); return false;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1040-%E5%B0%81%E9%9D%A2P4%2BP5-600(1).jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;6大公有雲長期歸檔儲存服務比較2：可用性與耐久性&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;公有雲歸檔儲存服務是建立在物件儲存系統上，因此，本身也繼承了物件儲存系統的可用性與耐久性特性。與其他類型的公有雲儲存服務相比，物件儲存其實是一種「高耐久性」但「低可用性」的服務，可以保證資料長期存放仍不致遺失，但停機、離線、暫時停止存取服務的機率，則相對較高。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;以AWS為例，S3 Glacier與Glacier Deep Archive兩種歸檔儲存服務的耐久性，都和標準S3儲存服務一樣是99.999999999%，也就是11個9，可用性的服務等級協定（SLA）保證，也與S3同樣是99.99%。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;相較下，區塊類型的EBS儲存服務特性截然相反，屬於「高可用性」但「低耐久性」，耐久性是年度故障率為0.1至0.2%，但可用性SLA高達99.999%。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;這也就是說，如果在S3系列服務中存入1千萬個物件，則每年遺失的資料量還不到萬分之一個（或者說平均每1萬年才會遺失1個物件） ，幾乎可以忽略，但99.99%的服務可用性，代表每年至少有將近1小時的停機、無法存取的時間。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;而換成EBS，每1TB資料的年度損失量可能會達到0.1、0.2%的比例（注意這是機率，並不一定會發生），但99.999%的可用性，可以保證每年停機、無法存取的時間只有5分鐘左右。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;對於長期儲存歸檔應用來說，需要確保資料長期存放的完好，因而要求具有高耐久性。但由於平時很少有存取的機會，所以能忍受較低的可用性，因而物件儲存也就成為最合適的儲存類型。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;至於其他公有雲服務商的歸檔儲存服務，就耐久性的規格而言，基本上也都是99.999999999%，11個9的等級，而這樣的組態也是當前公有雲業界，所提供的物件儲存服務標準耐久性規格。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;而在可用性方面，阿里雲的物件歸檔儲存服務的可用性，與AWS同樣是99.99%，每年可能有近1小時無法服務的時間。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;而Google Cloud與Oracle Cloud歸檔儲存服務的可用性，則是較低的99.9%等級，每年停機時間將增加到8小時以上。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;至於微軟與IBM則是屬於離線型式，收到用戶的請求後，才能連接存取，而不是隨時可用。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1040-%E5%B0%81%E9%9D%A2P4%2BP5-600(2).jpg&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;6大公有雲長期歸檔儲存服務比較3：取回歸檔資料的等待延遲時間&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;使用標準的公有雲物件儲存服務時，用戶可隨時取回資料，存取延遲時間只有毫秒等級，用戶幾乎不用等待，就能取回存放的資料。而用於歸檔的物件儲存服務，則為了降低維運負擔與成本之故，通常都設定了以數小時為單位、較長的資料取回（retrieved）時間延遲，也就是說，當用戶發出取回資料的請求，到實際開始接收資料，必須等待數小時之久。這也讓公有雲歸檔儲存服務具備類似磁帶的運作特性，使用磁帶時，同樣也會因等待磁帶的上帶，而產生延遲時間。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;不過，為了因應用戶急需取回資料的緊急狀況，一些服務商提供了不同等級的資料取回速度供用戶選用。例如，AWS S3 Glacier便提供3種資料取回速度的選項——快速、大量與標準，在標準模式下，取回資料的延遲時間通常是1到5小時，在大量模式下，延遲將增加到5到12小時，而在快速模式下，取回資料的延遲只有1到5分鐘。AWS也為這3種資料取回速度分級收費，延遲越短的等級，收費也越貴，快速模式的回傳請求與回傳費用，是大量模式的數倍甚至10倍以上。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;要特別一提的是Google Cloud的歸檔儲存服務，提供低於1秒等級的資料取回速度，與Google Cloud更高階的近線（Nearline）與冷線（Coldline）儲存服務相同，當用戶發出取回歸檔資料的需求後，幾乎不用等待，便可收到資料。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;除了提供特別快速的歸檔資料取回速度外，Google Cloud歸檔儲存服務的資料取回計價分級方式，也與眾不同。多數服務商都是依照回傳延遲速度分級收費，而Google Cloud則是依照取回的資料量分為3級——每月1TB以下，每月1到10TB，以及每月10TB以上，量越大、費用越便宜。因此，我們可以解讀為，或許是Google Cloud是主要公有雲服務商中，最晚推出歸檔儲存服務者，因而特意採取了有別於其他服務商的資料取回收費策略，以便形成區隔。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1040-%E5%B0%81%E9%9D%A2P4%2BP5-600(3).jpg&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;6大公有雲長期歸檔儲存服務比較4：安全性功能&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;公有雲歸檔儲存服務是從物件儲存服務所衍生，基本上也繼承了物件儲存服務的安全性功能，都能提供存取管制、加密，以及一寫多讀（WORM）等3種功能。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B&quot;&gt;封面故事&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E5%85%AC%E6%9C%89%E9%9B%B2&quot;&gt;公有雲&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E7%A3%81%E5%B8%B6&quot;&gt;磁帶&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%95%B7%E6%9C%9F%E6%AD%B8%E6%AA%94%E5%84%B2%E5%AD%98%E6%9C%8D%E5%8B%99&quot;&gt;長期歸檔儲存服務&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%B3%95%E8%A6%8F%E9%81%B5%E5%BE%AA&quot;&gt;法規遵循&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E5%84%B2%E5%AD%98&quot;&gt;儲存&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF&quot;&gt;雲端&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 31 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>張明德</dc:creator>
+ <guid isPermaLink="false">146395 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/tech/146395#comments</comments>
+</item>
+<item>
+ <title>【擺脫磁帶新契機，用公有雲也能長期保存資料】企業資料長期歸檔儲存應用的新選擇</title>
+ <link>https://www.ithome.com.tw/tech/146392</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/1040-feng_mian_p2p3-9602_0.png&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;iThome&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;許久以來，一直作為長期儲存應用標準解決方案的磁帶，正受到公有雲歸檔儲存服務的挑戰。&lt;/p&gt;
+&lt;p&gt;磁帶在電腦應用的歷史已超過半世紀，可說是當前IT技術中的活化石，是從1950年代沿用至今的儲存技術，在各式新興儲存媒體技術衝擊下，磁帶不斷退守應用範圍，至今仍能留在IT應用中的理由只剩一個——作為長期歸檔保存資料的冷儲存媒體。&lt;/p&gt;
+&lt;p&gt;對於不需經常存取、但必須長期保存的冷資料（Cold Data）儲存應用，也就是資料歸檔或封存（Archive）來說，是磁帶最能夠避短揚長的應用場域。&lt;/p&gt;
+&lt;p&gt;歸檔儲存是最基本的儲存應用之一，隨著各式資料保護法律的完善，歸檔儲存的重要性持續提高，涉及面向也越來越廣。過去，歸檔應用集中在政府機構或是金融、醫療等特定行業，而到了今日，幾乎所有行業都有長期保存資料的歸檔應用需求，對於任何企業來說，許多營業相關資料都不能過期後刪除，而需依照法規長期保存，以備日後調閱。&lt;/p&gt;
+&lt;p&gt;然而歸檔這項儲存應用的型態，卻是數十年如一日。20、30年前，企業普遍使用磁帶作為歸檔儲存媒體，這樣的型態一直延續至今，所以，現在歸檔儲存應用，依舊還是以使用磁帶為主流。。&lt;/p&gt;
+&lt;p&gt;一方面，歸檔儲存的存取頻率很低，往往數個月甚至數年才有機會存取一次資料，因而磁帶只能線性存取帶來的效能限制，不會成為太大的問題；另一方面，磁帶又具備了相對較低的儲存成本，以及較長的保存期限，因而特別適用於歸檔儲存涉及的長期資料保存需求，並因應長時間資料累積所需的龐大儲存容量。&lt;/p&gt;
+&lt;p&gt;於是歸檔儲存也就成為磁帶設備的最後堡壘，難以為其他型式的儲存技術所取代，直到最近2、3年，隨著各大公有雲服務商陸續推出專門的歸檔儲存服務，才終於讓磁帶的地位出現鬆動。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;歸檔儲存應用解決方案的必備條件&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;過去十多年以來，陸續曾有多項儲存技術出現，試圖挑戰磁帶的歸檔儲存應用角色，例如，大容量的光學儲存媒體，基於低成本磁碟機、結合重複資料刪除技術的低成本磁碟儲存系統，但都沒有動搖磁帶的地位。&lt;/p&gt;
+&lt;p&gt;一般來說，針對歸檔儲存應用的儲存系統，必須具備這3項基本條件：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;● 儲存媒體成本低：&lt;/strong&gt;長期儲存必然會累積可觀的資料量，因而歸檔儲存用的儲存媒體，必須具備較低的單位容量成本，以免長期使用下來，帶來過高的成本負擔。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;● 儲存媒體的高耐久性與高可靠性：&lt;/strong&gt;歸檔儲存涉及的是至少5年以上的資料保存期限需求，必須確保歷經長時間保存後，仍須能正確地從儲存媒體中讀取資料。因而，儲存媒體必須擁有歷經長時間仍不致變質、損毀的耐久性，以及可正確讀取資料的可靠性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;● 安全性：&lt;/strong&gt;儲存系統或儲存媒體必須提供防止惡意竄改資料的安全性，例如WORM（Write-Once-Read-Many，一寫多讀）功能，或是隔離資料與網路的離線（Off-line）或Air-Gap功能。&lt;/p&gt;
+&lt;p&gt;除了前述3個基本條件外，歸檔儲存系統本身也是一種企業儲存系統，因而也需具備企業儲存系統必備的擴展性，以及管理便利性。&lt;/p&gt;
+&lt;p&gt;從這幾點出發，可以發現磁帶之所以能長期占據歸檔儲存應用主流產品的地位，確實有其優勢，而非僅僅是長期使用慣性而已。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;磁帶在歸檔儲存應用中的優勢&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;首先，磁帶分離了儲存媒體（磁帶匣）與讀寫機構（磁帶機），作為儲存媒體的磁帶匣，沒有複雜的機電高速旋轉部件，因而可以大幅降低成本。其次，磁帶匣也因沒有高速旋轉部件帶來的磨損，因而擁有極高的耐久性，加上磁錄密度相對較低，讀取錯誤率也低於硬碟。&lt;/p&gt;
+&lt;p&gt;磁帶分離儲存媒體與讀寫機構的設計，也帶來了擴展便利性。透過持續添購磁帶匣，理論上磁帶設備擁有無限的容量擴展能力，並能透過引進更多磁帶機與讀寫頭，來提高存取速度。&lt;/p&gt;
+&lt;p&gt;而磁帶機與磁帶分離的設計，還帶來先天上的資料離線隔離安全性，庫存保管的磁帶與讀寫機構平時是實體隔離的，只有經授權的管理者，才能將庫存保管的磁帶掛載到磁帶機中存取，是一種實體的Air-Gap機制與存取權限管制。磁帶設備與磁帶還能提供加密與WORM功能，進一步提高安全性。&lt;/p&gt;
+&lt;p&gt;但另一方面，磁帶本身也存在許多先天缺陷，例如磁帶匣中的磁帶卷採用捲繞設計，雖能提高容量與儲存密度，但也導致其只適合線性的循序存取，而且磁帶卷的纏繞也可能出現問題；磁帶設備分離磁帶與磁帶機、透過磁帶匣抽換存取方式，雖然風險分散，也帶來一系列副作用。&lt;/p&gt;
+&lt;p&gt;對於擁有數百、上千卷磁帶的磁帶應用環境來說，人工作業是不便利的，磁帶的載入、卸載與識別都將成為大麻煩，必須透過自動上帶機（Autoloader）、磁帶櫃（Tape Library）這些自動化機械裝置，利用機械臂來執行磁帶載入與卸載作業，並搭配條碼掃描來識別個別磁帶。但這些內含大量機械可動機構的設備，不僅增加了複雜性，也增加了故障風險，不利於對整體系統的可靠性。&lt;/p&gt;
+&lt;p&gt;然而，對於不需要經常存取的歸檔應用來說，磁帶的前述缺陷都不至於成為太大問題，多數磁帶匣在寫入資料後，可能就不會再有讀取的機會，只需持續保存而已。比較需要費心的部分，主要是如何妥善保管磁帶匣，必須避免日光照射、高溫與受潮、遠離強力磁場，還需定期清潔磁帶機的讀寫頭（就像以前的錄音機或錄影機）。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;歸檔儲存設備的競爭者&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;過去，磁帶在歸檔儲存應用方面的主要競爭對手，是光學儲存媒體，也就是光碟。&lt;/p&gt;
+&lt;p&gt;事實上，光碟與磁帶有許多相似之處，同樣都採取分離儲存媒體（光碟）與讀寫機構（光碟機）的設計，以及相似的卡匣抽換存取方式，具備抽換式媒體所帶來的擴展能力，與離線隔離運作特性，光碟也能提供WORM防竄改功能，亦可利用內含機械臂的光碟櫃，來處理大量光碟的載入與管理。&lt;/p&gt;
+&lt;p&gt;比起磁帶，光學儲存媒體的優勢在於更高的耐久性、可靠性與環境忍受能力，保存期限更勝磁帶，也沒有磁帶的捲繞故障問題。而在效能方面，兩者傳輸率旗鼓相當，但光學儲存的隨機存取能力高於磁帶。&lt;/p&gt;
+&lt;p&gt;光學媒體在歸檔應用中的劣勢則是儲存媒體的成本較高，且儲存媒體的容量遠不如磁帶。&lt;/p&gt;
+&lt;p&gt;舉例來說，即使是專門針對歸檔應用發展的新一代光碟儲存系統，如Panasonic與Sony推出的歸檔光碟（Archival Disc），或是Sony的光碟歸檔系統（Optical Disc Archive），單位容量成本雖較一般光碟低了許多，但比起LTO-8磁帶，仍高了10倍以上。歸檔光碟的單碟容量目前只達到300GB與500GB，內含10到12片光碟的光碟匣只能提供3.6到5.5TB的容量，遠遠不及LTO磁帶。&lt;/p&gt;
+&lt;p&gt;目前主流的LTO-8磁帶擁有單卷12TB的容量，新一代的LTO-9更達到單卷18TB，這也就是說，1卷LTO磁帶可以容納的資料量，若改用歸檔光碟，將須要耗用4、5片光碟匣（內含40到50片光碟）才能保存，這也會大幅增加管理的複雜性。&lt;/p&gt;
+&lt;p&gt;基於上述理由，使得光學媒體只有在較小規模的應用環境中，才有辦法與磁帶競爭。（歸檔光碟與LTO磁帶的規格對比，詳見上一頁附表）。&lt;/p&gt;
+&lt;p&gt;另一個歸檔儲存系統的「顯著」競爭者，是基於大容量、低轉速的低成本近線（Nearline）磁碟，結合分散式儲存軟體平臺，以及重複資料刪除技術的低成本磁碟儲存系統。&lt;/p&gt;
+&lt;p&gt;透過使用硬碟作為儲存媒體，這類儲存伺服器擁有遠高於磁帶的存取速度，管理也比依賴自動上帶機、磁帶櫃這些機械裝置的磁帶更為簡便與可靠，再搭配資料縮減率達到30：1到50：1以上的重複資料刪除技術，還能將單位儲存成本壓低，達到足以應用於長期保存資料的程度。&lt;/p&gt;
+&lt;p&gt;一些磁碟儲存系統產品如Dell Data Domain（現在的PowerProtect DD系列），便是以高效率的重複資料刪除功能，來切入歸檔儲存應用市場。&lt;/p&gt;
+&lt;p&gt;問題在於，基於硬碟的儲存設備，耐久性不如磁帶，必須每隔4、5年便更新硬碟、遷移資料，以確保資料儲存的可靠性，不像磁帶可保存10年以上。&lt;/p&gt;
+&lt;p&gt;除此之外，重複資料刪除技術對於不同性質的資料，縮減效果有著很大的差異，這也使得依靠重複資料刪除技術來壓低儲存成本的磁碟設備，在降低成本的效果上，存在著不確定性，若重複資料刪除效率不彰，那麼磁碟設備的成本將難以與磁帶競爭。&lt;/p&gt;
+&lt;p&gt;因此，如果只考慮5年的資料保存，那麼，低成本磁碟系統還能列為選項之一，但如果需要10年以上的長期資料保存，磁帶仍是更好的選擇。&lt;/p&gt;
+&lt;p&gt;所以，目前來看，這類低成本磁碟儲存系統更適合的角色，是與磁帶相互搭配，組成分層架構，由磁碟設備擔任資料歸檔的過渡中繼站，用於滿足快速取回近期資料的需求，而磁帶則擔任資料最終保存地點。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1040-%E5%B0%81%E9%9D%A2P2%2BP3-600-1.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;挑戰磁帶地位的公有雲儲存服務&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;無論是光學儲存、或是低成本磁碟設備，都未能挑戰磁帶在歸檔儲存應用中的地位。&lt;/p&gt;
+&lt;p&gt;而真正對其存在產生嚴重威脅的解決方案，主要是近年來誕生的公有雲歸檔儲存服務，因為，在成本、耐久、可靠、安全與管理便利性等方面，這類型產品都已能與磁帶一較高下。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;堪與磁帶比擬的低儲存成本&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;公有雲儲存服務的底層，一般是超大規模的磁碟儲存設備，就成本來說，磁碟設備原本難以與磁帶競爭，而且公有雲儲存為了維持服務效能品質的穩定性，原則上都不使用重複資料刪除技術，無法藉此改善儲存空間效率。&lt;/p&gt;
+&lt;p&gt;但公有雲儲存的殺手鐧是「超大規模」透過超大規模的採購與系統建置，能大幅降低攤付到個別元件上的成本，從而提高價格競爭力。&lt;/p&gt;
+&lt;p&gt;除此之外，公有雲的歸檔儲存服務還會再搭配一系列政策限制，例如限制用戶端的傳輸率、檢索與取回資料的頻率，藉此大幅壓低公有雲服務商的維運負荷與成本。而這一連串措施結合起來，也讓公有雲歸檔儲存服務的費用，如今已經能與LTO磁帶競爭。&lt;/p&gt;
+&lt;p&gt;舉例來說，目前每卷12TB容量的LTO-8磁帶，價格最低可達70、80美元左右，也就是每GB成本約為0.006美元；而AWS、Azure、Google等公有雲服務商的歸檔儲存服務，月租費最低可達到每GB約0.001美元的等級，還不到磁帶的1/5。不過磁帶的採購成本是一次性的，而公有雲儲存服務則須持續付費，若以持續使用5年計算，公有雲歸檔儲存服務的每GB成本便要乘上60倍，仍高於磁帶媒體的費用。&lt;/p&gt;
+&lt;p&gt;不過，磁帶使用上，還要考慮到磁帶設備的建置與維運成本，這部分花費遠高於磁帶媒體的成本。相較下，公有雲儲存服務的應用，能為用戶省下本地端歸檔儲存硬體的建置成本及維運費用。&lt;/p&gt;
+&lt;p&gt;但另一方面，公有雲歸檔儲存服務也要考慮到檢索與取回資料的額外收費——若用戶需要取回的資料量較大，那麼取回資料的收費，可能會達到儲存成本的一半以上，從而會大幅拉高用戶使用公有雲歸檔儲存服務的總成本。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;高度的耐久性與可靠性&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;磁帶的一大特點，便是擁有長期保存資料的耐久性，遠非一般本地端磁碟儲存設備所能比擬。&lt;/p&gt;
+&lt;p&gt;不過公有雲服務商以遍佈全球的超大規模資料中心基礎建設為基礎，搭配分散儲存機制，能將歸檔儲存服務損失資料的風險，降到足夠低的程度。&lt;/p&gt;
+&lt;p&gt;目前各主要公有雲歸檔儲存服務，多半都能提供99.999999999%等級的年度耐久性，這意味著在每年平均遺失物件的機率是0.000000001％，也就是說，公有雲並非不會遺失資料，但機率低到幾乎可以忽略。此外，公有雲服務商還會將資料分散複寫到3個分離的站點存放，也進一步提高了資料儲存的可靠性。&lt;/p&gt;
+&lt;p&gt;同時，就現實環境來看，公有雲服務商因為經濟、政治或其他非技術因素而停止服務的風險，還高於公有雲儲存系統失效的機率。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;標準的企業級安全性功能&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;與擁有儲存媒體離線隔離、加密與WORM等安全性功能的磁帶相比，公有雲儲存服務則具有透過帳號的存取權限管制，以及軟體式的加密與WORM功能，除了沒有儲存媒體實體隔離外，其餘都能對應磁帶的安全性功能，已能符合多數企業環境的資安需求。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;長期使用下的相容性&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;磁帶應用有一個麻煩之處，當磁帶規格更新時，將有無法相容於舊磁帶的問題，以LTO磁帶來說，每一世代的磁帶機，便只能向下相容兩個世代的舊磁帶，對於保存超過12至15年以上的舊磁帶，可能會有找不到可相容讀取的磁帶機之虞。&lt;/p&gt;
+&lt;p&gt;相較下，公有雲的歸檔儲存服務大多是建立在物件儲存系統平臺上，運作上是與底層硬體隔離，只要物件儲存格式相容，用戶即可存取。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;極具吸引力的歸檔應用新選擇&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;公有雲歸檔儲存服務之所以能威脅磁帶，關鍵的原因還是在於成本，就長期使用的單位儲存費用來看，公有雲其實未必低於本地端的磁帶設備，但已經屬於同一個價格區間，此外還能讓用戶擺脫建置、管理與保存磁帶設備的負擔，因而成為十分有吸引力的選擇。&lt;/p&gt;
+&lt;p&gt;而這也正是光學儲存與低成本磁碟儲存設備，之所以難以取代磁帶的理由，儲存媒體的成本明顯高於磁帶，但卻又無法免除用戶的維運管理負擔。&lt;/p&gt;
+&lt;p&gt;對於公有雲本身而言，長期歸檔儲存服務，算是一項較新穎的雲端服務，雖然歷史還不長，但公有雲長期歸檔儲存服務，已經迅速成為企業用戶最感興趣的新興應用之一。&lt;/p&gt;
+&lt;p&gt;如市調研究機構Coldago不久前針對2059家美國與歐洲企業，所作的2021儲存與資料管理技術終端用戶報告，便顯示：考慮於2021年部署的儲存應用當中，「歸檔到雲端（Archive to Cloid）」位居第一，「備份到雲端」列第2，而近來聲勢浩大的「容器化儲存」應用則只居第三。&lt;/p&gt;
+&lt;p&gt;從「歸檔到雲端」與「備份到雲端」被用戶視為最高優先的兩項需求，也可看出公有雲上的低成本儲存空間服務，對企業具有強大吸引力，以及企業想擺脫磁帶的迫切需求。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;span style=&quot;font-size:36px;&quot;&gt;&lt;strong&gt;備份與歸檔&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1040-%E5%B0%81%E9%9D%A2P2%2BP3-600-%EF%BC%92V2.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#696969;&quot;&gt;我們這次的主題是歸檔（Archive）這項應用，所涉及的儲存媒體技術，但是，在許多場合，歸檔常常與備份（Backup）並稱，兩者都屬於支援性質，而非生產性質的第二線儲存應用，並且都使用磁帶等低成本儲存媒體作為存放設備，以致有時會有所混淆，但兩者的相似之處也僅止於此。就目的、操作對象來說，兩者都截然不同。&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#696969;&quot;&gt;備份的目的是保護資料，藉由製作線上生產資料的複本，當原始資料損毀時，可利用備份複本還原。歸檔的目的，則是資料生命週期管理的一環，基於長期保存資料的需求（例如法規遵循），將線上生產資料轉存到長期保存儲存媒體上。&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#696969;&quot;&gt;備份的產物，是獨立於線上生產資料外的「複本」，所以備份複本的損毀，不會影響線上資料；歸檔的對象則是「線上生產資料本身」，是將那些已經不活躍、很少有存取機會的歷史性資料，轉存到歸檔系統中，因此歸檔資料一旦損毀，也就損失了線上生產資料本身。&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#696969;&quot;&gt;兩種應用的解決方案，側重點也有所不同。備份解決方案更重視還原效能，可以涵蓋個別資料、應用程式到作業系統的保護；歸檔解決方案則更重視長期保存資料的成本，以及個別資料物件（如個別電子郵件與檔案）的檢索與存取。&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#696969;&quot;&gt;某種層面上，備份系統也能充當歸檔的角色，可以將備份複本長期保存，從而充當歸檔使用，但一般備份軟體缺乏歸檔軟體的個別資料物件層級精細檢索能力，作業效率有限。反過來說，歸檔保存的是歷史資料，而非複本，因而不能當作備份的角色。&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B&quot;&gt;封面故事&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E5%85%AC%E6%9C%89%E9%9B%B2&quot;&gt;公有雲&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E7%A3%81%E5%B8%B6&quot;&gt;磁帶&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%95%B7%E6%9C%9F%E6%AD%B8%E6%AA%94%E5%84%B2%E5%AD%98%E6%9C%8D%E5%8B%99&quot;&gt;長期歸檔儲存服務&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%B3%95%E8%A6%8F%E9%81%B5%E5%BE%AA&quot;&gt;法規遵循&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E5%84%B2%E5%AD%98&quot;&gt;儲存&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E9%9B%B2%E7%AB%AF&quot;&gt;雲端&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 31 Aug 2021 23:00:00 +0000</pubDate>
+ <dc:creator>張明德</dc:creator>
+ <guid isPermaLink="false">146392 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/tech/146392#comments</comments>
+</item>
+<item>
+ <title>首屆國際級工控資安評測出爐，5家業者響應，國內法人機構也參與</title>
+ <link>https://www.ithome.com.tw/news/146469</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;近年來，MITRE ATT&amp;amp;CK已成為企業關注的新資安攻防框架，而這項專案也逐年擴大，甚至成立了MITRE Engenuity公司，專門負責ATT&amp;amp;CK評估計畫的執行。在此當中，除了大眾熟知的ATT&amp;amp;CK for Enterprise完成三輪評估，臺灣資安業者趨勢科技與奧義智慧均兩度連續參加，特別的是，首度&lt;a href=&quot;https://attackevals.mitre-engenuity.org/ics/participants/&quot;&gt;針對工控領域的ATT&amp;amp;CK for ICS評估計畫，評測結果在今年7月中旬出爐&lt;/a&gt;，展現了各業者產品對於Triton系列威脅的偵測能力。&lt;/p&gt;
+&lt;p&gt;面對OT資安威脅，相關產品與解決方案正受全球重視，少見的是，我國資訊工業策進會（資策會）並非商業化產品業者，也以驗證研發能量與取經心態參加。由於國內也有一些資安業者投入工控資安產品研發，未來若能大膽參與這類計畫，或將成為進軍國際的契機，成為日後關注焦點。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;針對ICS領域的評估計畫首度舉辦，5家業者與機構參賽&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;對於日益嚴峻的工控系統安全領域，MITRE之前提出了ATT&amp;amp;CK for ICS，希望建立相關攻擊知識庫來幫助防禦，但直到2020年1月，他們才正式發布其攻擊矩陣與知識庫。&lt;/p&gt;
+&lt;p&gt;接下來，MITRE持續擴大評估領域，到了2020年5月，發布了ATT&amp;amp;CK Evaluations for ICS。在這項評估計畫之下，希望藉由對應ATT＆CK定義攻擊手法而成的模擬攻擊，評估各產品對於工控環境威脅的偵測能力，也幫助這類領域資安業者提高安全能力。&lt;/p&gt;
+&lt;p&gt;這個針對ICS領域的資安評測，首屆的攻擊設想，是2017年造成沙烏地阿拉伯石化設備受害的Trition事件，評估內容可說是貫穿了一系列基於網路與主機的檢測技術。&lt;/p&gt;
+&lt;p&gt;基本上，在這次評測環境中，是由主辦方MITRE Engenuity建立虛擬工廠，模擬完整的鍋爐運作控制環境，當中有2套關鍵系統，包含控制器與製程安全系統，該環境使用Rockwell設備，建立製程安全系統（SIS）的環境。因此，此評測環境並非原本Trisis攻擊的Triconex系統，但整體攻擊手法其實類似。&lt;/p&gt;
+&lt;p&gt;首屆參加者有5位，包括微軟，以及Armis、Claroty、Dragos等廠商，而來自臺灣的資策會，也以自行研發的工業物聯網威脅偵測系統（ICTD）參加。&lt;/p&gt;
+&lt;p&gt;雖然，本次ICS評測的參賽者不多，但從最早針對企業的ATT&amp;amp;CK評測來看，一開始只有7家業者有意願參加，第三輪則已增加到29家業者。因此，儘管ICS領域的資安產品多是這五、六年來興起，但在關鍵基礎設施的安全議題備受關注之際，日後，應該會有更多ICS與OT安全業者響應。&lt;/p&gt;
+&lt;p&gt;關於這次評估計畫，MITRE Engenuity在7月中旬公布結果。具體而言，以Triton為攻擊設想的這次評測，總共採用了ATT&amp;amp;CK for ICS中的17個攻擊技術手法。&lt;/p&gt;
+&lt;p&gt;在整體評測過程中，主辦方將流程分成25大攻擊步驟，以及102個攻擊測試項目，而針對每個攻擊細項的偵測結果，主辦方也延續之前Enterprise的評測，以N/A、無偵測（None）、遙測（Telemetry），以及有效偵測的General、Tactic與Technique來展現。&lt;/p&gt;
+&lt;p&gt;因此，從評測結果中，可讓產品受測方與外界都能清楚了解，在一連串攻擊過程中，資安產品在偵測廣度與深度上的表現。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖2）ATT%26CK評估計畫ICS.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%962%EF%BC%89ATT%26CK%E8%A9%95%E4%BC%B0%E8%A8%88%E7%95%ABICS.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖3）ATT%26CK評估計畫ICS.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%963%EF%BC%89ATT%26CK%E8%A9%95%E4%BC%B0%E8%A8%88%E7%95%ABICS.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;a href=&quot;https://attackevals.mitre-engenuity.org/ics/triton/&quot;&gt;首屆ATT&amp;amp;CK Evaluations for ICS&lt;/a&gt;，以2017年造成沙烏地阿拉伯石化設備受害的Trition事件為攻擊假想，在一連串模擬攻擊過程使用了ATT&amp;amp;CK for ICS中的17個攻擊技術手法，雖然這是MITRE Engenuity第一次發起針對工控領域的評測，但已有5家業者與機構願意配合加入。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（圖5）ATT%26CK評估計畫ICS_Armis.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%965%EF%BC%89ATT%26CK%E8%A9%95%E4%BC%B0%E8%A8%88%E7%95%ABICS_Armis.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;在評測結果中，外界可從25大攻擊步驟或102攻擊細項，了解各業者對於Triton事件攻擊套路的偵測能力。（圖為Armis的評估結果統計圖表）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/system-63-MS-D3_13_A_1-177_MS_13_A_1.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/system-63-MS-D3_13_A_1-177_MS_13_A_1.png&quot; style=&quot;width: 190px; height: 89px;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://s4.itho.me/sites/default/files/images/system-67-II-D3_13_A_1-177_iii_13_A_1.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/system-67-II-D3_13_A_1-177_iii_13_A_1.png&quot; style=&quot;width: 190px;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://s4.itho.me/sites/default/files/images/system-69-CL-D3_13_A_1-177-1__Clorty13_A_1.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/system-69-CL-D3_13_A_1-177-1__Clorty13_A_1.png&quot; style=&quot;width: 190px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/system-64-AR-D2_9_A_1-160_Armis.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/system-64-AR-D2_9_A_1-160_Armis.png&quot; style=&quot;width: 290px;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://s4.itho.me/sites/default/files/images/system-66-DR-D2_9_A_1-160_Dragos.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/system-66-DR-D2_9_A_1-160_Dragos.png&quot; style=&quot;width: 290px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;MITRE ATT&amp;amp;CK的評估計畫中，會檢視每個攻擊步驟與攻擊細項的偵測能力，同時也會將測試當下所記錄到的產品介面截圖並呈現。（圖片來源：MITRE Engenuity，圖為這次５家業者在評測中由主辦方記錄下的截圖）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;隨著首屆ATT&amp;amp;CK Evaluations for ICS結果公布，各家業者也針對結果發布自家偵測防護能力的表現：&lt;/p&gt;
+&lt;p&gt;●&lt;a href=&quot;https://www.armis.com/press-releases/armis-secures-100-visibility-of-all-ot-ics-it-assets-and-real-time-detection-tactics-in-mitre-engenuity-attck-evaluations-for-industrial-control-systems-ics/&quot;&gt;Armis&lt;/a&gt;&lt;br /&gt;
+●&lt;a href=&quot;https://www.claroty.com/2021/07/19/blog-how-claroty-supports-the-mitre-attck-for-ics-framework/&quot;&gt;Claroty&lt;/a&gt;&lt;br /&gt;
+●&lt;a href=&quot;https://www.dragos.com/blog/industry-news/mitre-engenuity-attack-evaluations-for-ics-results/&quot;&gt;Dragos&lt;/a&gt;&lt;br /&gt;
+●&lt;a href=&quot;https://www.iii.org.tw/Press/NewsDtl.aspx?fm_sqno=14&amp;amp;nsp_sqno=2362&quot;&gt;資策會&lt;/a&gt;&lt;br /&gt;
+●&lt;a href=&quot;https://techcommunity.microsoft.com/t5/azure-defender-for-iot/microsoft-scores-highest-in-threat-visibility-coverage-for-mitre/ba-p/2577072&quot;&gt;微軟&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;不只驗證自身技術能量，更希望帶動國內OT資安邁向國際&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;不同於其他工控資安業者，為何國內法人機構會參與這項國際性評測，外界也很好奇。&lt;/p&gt;
+&lt;p&gt;事實上，對於製造業工廠潛藏的資安風險，我國經濟部技術處在近年就以科技專案方式，提供資源給資策會投入資安科技研發。因此，近年資策會資安所已有相關成果，打造出一款工業物聯網威脅偵測系統（ICTD）。&lt;/p&gt;
+&lt;p&gt;關於這次參與評測的動機？我們連繫資策會資安所技術總監張文村，他表示，資安所在工控資安議題的研究已3年多，加上國內業者在工控資安解決方案的發展也相對較少，因此他們打算藉由這樣的機會，除了驗證自身的技術能量，同時希望也吸取相關經驗。&lt;/p&gt;
+&lt;p&gt;張文村表示，他們是在2020年6月，得知這項國際級的工控評測活動將要舉辦。當時，他們新的工控資安計畫處於專案開始階段，正在思考如何延續過往技術基礎，結合業者需求，並透過實務場域來驗證，而在經濟部技術處的資源挹注下，除了以科技專案支持法人單位進行研發，在其他相關計畫中，也有啟動國際認證及協助業者進軍國際市場的規畫，加上當時ATT&amp;amp;CK Evaluations for Enterprise已舉辦兩輪，因此，他們認為，從國內外業者的參與情形來看，不管是在國際上的能見度，以及技術能量評量的公正性，都是可以借重的經驗與機會。&lt;/p&gt;
+&lt;p&gt;不過，他們也表示，以自身財團法人的身分而言，並不適合發展產品，主要還是聚焦在技術與工具的開發。此外，他們希望，將評測活動經驗提供圍培訓與推廣教材，並與本土業者進行交流。言下之意，主要是希望能幫助降低國內業者投入OT資安的門檻，並輔導業者進軍國際。&lt;/p&gt;
+&lt;p&gt;甚至，他們也期望在臺灣建立類似的小型評測環境，幫助國內OT領域資安產品與技術的初步驗證，藉此促進本土產業的發展。&lt;/p&gt;
+&lt;p&gt;至於首屆針對ICS的ATT&amp;amp;CK評測，是如何進行？張文村表示，受到全球疫情影響，原定是參加團隊與防禦系統要一同到主辦單位現場評測，改為僅寄送設備與系統過去，再由主辦單位安裝置標準攻防驗測環境，以線上方式來評測與互動。&lt;/p&gt;
+&lt;p&gt;關於這次評測過程的經驗，若以偵測來源來看，主要有三個面向，包括：Windows log、網路流量與PLC log。張文村認為，他們的白名單偵測機制，在工控環境很有成效，並採用AI異常分析技術，特別的是，由於工控領域未知協定太多，今年他們也聚焦於逆向工程為基礎的協定關鍵特徵萃取。&lt;/p&gt;
+&lt;p&gt;而他們也從這樣的國際評測學到了不少。這是因為，他們的這套ICTD系統隸屬研發計畫，對於產品化的經驗較為不足，因此他們在這次參賽面臨到一些挑戰。例如，在遠距狀況下，首先要確保對方都能會安裝與使用，再者，對於檢測結果在操作介面上的具體呈現上，為了佐證，也令他們團隊花上不少力氣來與對方溝通，像是很多評分除了要跳出警告之外，還要有自動化關聯，以呈現所識別的何種惡意行為。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 31 Aug 2021 14:20:10 +0000</pubDate>
+ <dc:creator>羅正漢</dc:creator>
+ <guid isPermaLink="false">146469 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146469#comments</comments>
+</item>
+<item>
+ <title>釣魚郵件攻擊濫用網址重新導向、雲端服務與自動化真人檢測服務CAPTCHA</title>
+ <link>https://www.ithome.com.tw/news/146468</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;網路釣魚攻擊手法推陳出新，日前有&lt;a href=&quot;https://www.ithome.com.tw/news/146276&quot;&gt;攻擊者利用驗證真人與機器人的CAPTCHA機制&lt;/a&gt;，誘騙受害者下載金融木馬，而&lt;a href=&quot;https://www.ithome.com.tw/news/146184&quot;&gt;根據資安業者Greathon的統計&lt;/a&gt;，濫用Google Meet和Google DoubleClick等工具，重新導向到其他網站的釣魚攻擊手法，也日益升溫，如今攻擊者也將這些方法運用於釣魚郵件上。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.microsoft.com/security/blog/2021/08/26/widespread-credential-phishing-campaign-abuses-open-redirector-links/&quot;&gt;在微軟最近揭露釣魚郵件攻擊行動當中&lt;/a&gt;，我們同樣看到類似的手法。在這事件裡面，駭客為了迴避偵測，廣泛使用合法的寄件者網域名稱，這些網域包含國家級網域（ccTLD）、遭駭的合法網域名稱，以及攻擊者所持有、由網域生成演算法（DGA）所產生的網域名稱。微軟發現，至少有350個網域名稱被用於此次攻擊行動，研究人員認為，這突顯了一個現象，那就是：有許多駭客投入相關攻擊行動。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Fig1_openredirect-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Fig1_openredirect-s.png&quot; style=&quot;width: 580px; height: 135px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;釣魚郵件以通知信為幌子，主旨含有收信人資料與時間&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;關於這波攻擊行動裡的釣魚郵件有哪些共通特徵？微軟指出，信件內容都存在相當顯著的點選按鈕，誘使收信人按下去，以便將他們帶往惡意網站。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Fig3_openredirect-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Fig3_openredirect-s.png&quot; style=&quot;width: 580px; height: 400px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;再者，信件的主旨內容，往往包含收件人的使用者名稱，以及所屬的網域名稱，甚至是日期、時間，以便取信收件人，讓他們相信是針對自己而來的通知。由於網域名稱很可能與組織的名稱相同，使得這類通知看似從組織或是企業所發出。&lt;/p&gt;
+&lt;p&gt;這些信件的主旨，包含了收件人組織將於指定時日舉辦Zoom Meeting的線上會議，或者是使用者密碼異動通知等，而讓受害者信以為真。&lt;/p&gt;
+&lt;p&gt;一旦收信人信以為真，點選信件裡的按鈕，就會重新被引導到攻擊者的網站。但為何釣魚信件裡的連結能通過郵件防護系統的檢查？微軟指出，原因是在於攻擊者使用了特別製作的URL，這些網址看起來是對應合法組織的網域名稱，實際上是透過重新導向的方式，將使用者引導到攻擊者的網站。由於重新導向的做法在企業也相當常見，因此IT人員也很難直接封鎖具有這類URL的電子郵件。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Fig4a_openredirect.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Fig4a_openredirect.png&quot; style=&quot;width: 580px; height: 126px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;運用合法服務來讓人信以為真&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;而在攻擊者的網站中，他們使用了Google的reCAPTCHA服務，藉此避開那些過濾網頁內容檢測的服務，或是規避動態掃描系統，以免這類資安防護機制發現實際的釣魚網頁。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Fig5_openredirect-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Fig5_openredirect-s.png&quot; style=&quot;width: 580px; height: 197px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;收信人若是完成CAPTCHA驗證後，便會看到冒充合法服務（如Office 365）的登入網站，這個網站會預先填入收件人的帳號（電子郵件信箱），甚至可能會包含收件人所屬的公司標誌。如果收信人輸入了密碼，這個網頁便會顯示錯誤訊息，像是連線逾時或是密碼不正確，要求收件人再次輸入密碼。微軟指出，攻擊者這麼做的目的，很可能是為了確保得到正確的密碼。&lt;/p&gt;
+&lt;p&gt;收件人輸入了第二次密碼後，便會被導向合法的Sophos網站，讓人誤以為是安全的。但實際上，剛剛輸入的密碼已經遭到側錄。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/Fig7_openredirect-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Fig7_openredirect-s.png&quot; style=&quot;width: 580px; height: 200px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 31 Aug 2021 11:10:25 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146468 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146468#comments</comments>
+</item>
+<item>
+ <title>字節跳動買下VR頭戴裝置新創Pico</title>
+ <link>https://www.ithome.com.tw/news/146467</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;抖音/TikTok母公司&lt;a href=&quot;https://www.cnbc.com/2021/08/30/tiktok-owner-bytedance-acquires-pico-and-takes-first-step-into-virtual-reality.html&quot; target=&quot;_blank&quot;&gt;字節跳動（ByteDance）向CNBC證實&lt;/a&gt;，已藉由收購中國業者Pico，進入虛擬實境（VR）市場。&lt;/p&gt;
+&lt;p&gt;Pico的中文名稱為「北京小鳥看看科技有限公司」，成立於2015年，主要研發VR科技、互動技術與VR應用等，已開發出的產品包括Pico Neo 3與Pico G2等&lt;a href=&quot;https://www.pico-interactive.com/tw/G2_4K.html&quot; target=&quot;_blank&quot;&gt;獨立式頭戴式VR裝置&lt;/a&gt;，也打造了Pico 遊戲串流助手軟體，以及專替VR獨立裝置所設計的Pico UI。&lt;/p&gt;
+&lt;p&gt;根據中國媒體&lt;a href=&quot;https://news.nweon.com/88799&quot; target=&quot;_blank&quot;&gt;映維網&lt;/a&gt;的報導，Pico在29日發出內部信件向員工說明已被字節跳動所收購，將被整併到字節跳動的VR相關業務上。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.businesswire.com/news/home/20210630005150/en/Facebook-Leads-the-VR-Headset-Market-in-Q1-2021-But-Theres-Plenty-of-Room-for-Others-According-to-IDC&quot; target=&quot;_blank&quot;&gt;IDC今年第一季的全球VR頭戴式裝置出貨量調查顯示&lt;/a&gt;，排名第一的VR頭戴式裝置品牌為臉書旗下的Oculus，約占整體市場2/3的出貨量，而中國的大朋VR（DPVR）與Pico則分占二、三名，另外進入前五名的還有HTC與Sony。&lt;/p&gt;
+&lt;p&gt;IDC並未公布該季的VR出貨量數字，但估計2025年的出貨量可達2,860萬臺，意味著目前市場對VR裝置的需求或興趣並不大。&lt;/p&gt;
+&lt;p&gt;至於雖然市場傳出字節跳動是以50億或90億元人民幣買下了Pico，但雙方都未證實或公布交易數字。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 31 Aug 2021 08:05:21 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146467 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146467#comments</comments>
+</item>
+<item>
+ <title>曼谷航空疑遭LockBit攻擊致客戶資料外洩</title>
+ <link>https://www.ithome.com.tw/news/146466</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.bangkokair.com/press-release/view/clarifies-the-incident-of-a-cybersecurity-attack&quot; target=&quot;_blank&quot;&gt;曼谷航空（Bankok Airways）上周公告&lt;/a&gt;因資安事件導致為數不詳的客戶資料外洩，元兇可能是勒索軟體LockBit。&lt;/p&gt;
+&lt;p&gt;曼谷航空指出今年8月23日他們發現一樁網路攻擊事件，導致資訊系統遭到未授權人士不法存取。該公司強調一經發覺，已立即採取行動阻斷事件並著手調查。&lt;/p&gt;
+&lt;p&gt;目前曼谷航空仍在調查受害資料範圍及受影響的乘客。初步調查證實，攻擊者已經存取了部份客戶個資，包括乘客姓名、國籍、性別、電話號碼、電子郵件信箱、地址、聯絡人、護照資訊、旅行紀錄、部份信用卡資訊及特別餐點資訊等。&lt;/p&gt;
+&lt;p&gt;但航空公司強調本事件不影響公司的飛航運作及航太安全系統。&lt;/p&gt;
+&lt;p&gt;曼谷航空未說明是什麼樣的網路攻擊事件，不過LockBit勒索軟體背後的&lt;a href=&quot;https://twitter.com/darktracer_int/status/1430494830560309249&quot; target=&quot;_blank&quot;&gt;駭客組織最近宣布&lt;/a&gt;，曼谷航空是其最新受害者，他們揚言即將釋出103GB的壓縮檔，並要求曼谷航空在5天內支付贖款。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://therecord.media/bangkok-air-confirms-passenger-pii-leak-after-ransomware-attack/&quot; target=&quot;_blank&quot;&gt;The Record報導&lt;/a&gt;，在得知曼谷航空不願付錢後，駭客已經於周六公布所有超過200GB的檔案。&lt;/p&gt;
+&lt;p&gt;曼谷航空對此表達歉意，也呼籲乘客應小心可能的釣魚信件攻擊。&lt;/p&gt;
+&lt;p&gt;曼谷航空是近日LockBit的最新受害者。本月&lt;a href=&quot;https://www.ithome.com.tw/news/146421&quot; target=&quot;_blank&quot;&gt;澳洲網路安全中心示警&lt;/a&gt;LockBit 2.0肆虐當地製造、零售、專業服務等、營建等產業公司。跨國IT顧問公司Accenture 8月初也傳遭到勒索軟體LockBit攻擊。&lt;a href=&quot;https://www.ithome.com.tw/news/146421&quot; target=&quot;_blank&quot;&gt;Palo Alto&lt;/a&gt;估計2個月內至少有50家組織遇害。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 31 Aug 2021 07:57:39 +0000</pubDate>
  <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146461 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146461#comments</comments>
+ <guid isPermaLink="false">146466 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146466#comments</comments>
 </item>
 <item>
- <title>中國出手限制未成年人的遊戲時間，只有周末與假日可以玩網路遊戲</title>
- <link>https://www.ithome.com.tw/news/146460</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;中國國家新聞出版署於30日&lt;a href=&quot;http://www.nppa.gov.cn/nppa/contents/719/98785.shtml&quot; target=&quot;_blank&quot;&gt;發布&lt;/a&gt;了《關於進一步嚴格管理 切實防止未成年人沈迷網路遊戲的通知》，以避免中國的未成年人過度使用或沈迷網路遊戲，嚴格規定未成年人只能在周五到周日、以及法定假日各玩一小時，讓中國遊戲兩大業者騰訊及網易的股價，在31日一開盤就下挫3%以上。&lt;/p&gt;
-&lt;p&gt;此一通知嚴格限制了遊戲業者向未成年人提供網路遊戲服務的時間，所有的遊戲業者只能在周五、周六、周日，以及法定假日的每天晚上8點到9點提供1小時的服務予未成年人，其它時間皆不允許。&lt;/p&gt;
-&lt;p&gt;另也要求業者必須嚴格落實網路遊戲用戶的帳號實名註冊與登錄要求，不得以任何形式向未實名註冊及登錄的用戶提供遊戲服務；且各級出版管理部門都要加強對此一通知的監督檢查，並依法處置違法的網路遊戲業者。&lt;/p&gt;
-&lt;p&gt;這項通知使得中國主要的手遊及網路遊戲業者騰訊及網易，31日在香港股市一開盤就下挫3%，在疫情的推波助瀾下，騰訊今年股價曾超過700元港幣，網易亦曾突破200元港幣，不過今天雙方股價分別在450元港幣及140元港幣左右徘徊。&lt;/p&gt;
-&lt;p&gt;外界則預期此一政策將嚴重影響中國境內的網路遊戲產業，但可能意外推動桌機遊戲的成長。&lt;/p&gt;
+ <title>蘋果買下古典樂串流服務供應商Primephonic</title>
+ <link>https://www.ithome.com.tw/news/146465</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.apple.com/newsroom/2021/08/apple-acquires-classical-music-streaming-service-primephonic/?afid=p239%7C10078&amp;amp;cid=aos-ca-aff-ir&quot; target=&quot;_blank&quot;&gt;蘋果周一（8/30）宣布&lt;/a&gt;，已買下知名的古典樂串流服務供應商Primephonic，Primephonic原本的服務將在9月17日下線，取而代之的是，幾個月後Apple Music將會整合Primephonic所提供的古典樂功能，且蘋果也計畫在明年推出古典樂的專屬程式，雙方並未公布交易金額。&lt;/p&gt;
+&lt;p&gt;Primephonic是由一群古典樂愛好者於3年前所創立，提供超過350萬首的古典音樂，基於音質提供每月9.99美元及14.99美元的串流訂閱服務。Primephonic指出，古典樂占全球音樂下載、廣播及CD市場的5%，但在串流上卻僅占1%，因而相信古典樂的串流服務仍有很大的成長空間。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0831-Apple%20acquires%20classical%20music%20streaming%20service%20Primephonic.png&quot; style=&quot;width: 461px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Primephonic是蘋果極少數公開談論的收購對象。蘋果表示，Primephonic具備出色的聆聽經驗，還提供針對古典樂優化的搜尋與瀏覽功能、高品質的聲音、精挑細選的專家建議，以及有關古典樂的曲目及錄音的詳細資訊，有了Primephonic之後，Apple Music訂閱用戶在古典樂的聆聽經驗上，將取得重大的改善。&lt;/p&gt;
+&lt;p&gt;根據蘋果的規畫，Apple Music用戶將會先體驗到Primephonic的播放列表與獨家的古典音樂，繼之將可享受Primephonic的瀏覽與搜尋能力，例如根據作曲家或錄音進行搜尋，還會有詳細的古典樂資訊。此外，明年蘋果還打算釋出整合Primephonic功能的古典樂專用行動程式。&lt;/p&gt;
+&lt;p&gt;Primephonic股東之一的Gordon Getty表示，Primephonic的創立，是為了確保讓古典樂的影響力延續到未來的幾個世代。&lt;/p&gt;
+&lt;p&gt;在決定加入蘋果之後，Primephonic的訂閱服務將在9月7日畫下休止符，既有的用戶除了可依照使用比例退費之外，還可獲得Apple Music免費的6個月服務。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 31 Aug 2021 04:07:13 +0000</pubDate>
+ <pubDate>Tue, 31 Aug 2021 07:48:35 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146460 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146460#comments</comments>
+ <guid isPermaLink="false">146465 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146465#comments</comments>
 </item>
 <item>
- <title>臺北市力推BYOD計畫！柯文哲：要讓每位學生都能自帶設備上課，確保線上學習能力</title>
- <link>https://www.ithome.com.tw/news/146456</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;為了迎接9/1日開學日，臺北市政府今日不僅提供校園教學和生活指引，也針對即將展開的學校BYOD（學生自備載具到校學習）計畫，提出更多的說明。&lt;/p&gt;
-&lt;p&gt;為因應未來可能採取的線上線下混合上課模式，臺北市教育局不久前剛宣布110學年度將展開BYOD計畫，讓市立高中職部分班級學生可以攜帶個人行動設備到校上課，做為課堂上的教學或學習工具使用。&lt;/p&gt;
-&lt;p&gt;在今天的臺北市防疫因應記者會上，臺北市市長柯文哲表示，透過這項計畫，未來要讓每位學生都能自帶行動裝置到校上課，來確保學生線上學習能力。他表示，未來可能以一周半天或兩周一天採行BYOD的方式，讓在校學生開始習慣遠距學習的教學模式，並且透過反覆訓練學生逐漸適應遠距開會、遠距上課，就像是現在企業遠距辦公、開會一樣。&lt;/p&gt;
-&lt;p&gt;BYOD最早是運用在企業內，讓員工可以將個人行動裝置帶進工作場所內使用，來存取企業內部應用系統或服務，但必須要受到嚴格管控和確保資安。如今，臺北市也將這個模式帶進學校，讓學校和學生開始學習建立BYOD能力。&lt;/p&gt;
-&lt;p&gt;但想在校園內推動BYOD，不光是學校的網路基礎設施得要有所強化，來支撐全校師生BYOD裝置使用，如何管理這些BYOD裝置，甚至因BYOD衍生的資安問題也將成為一大考驗。&lt;/p&gt;
+ <title>CISA著手打造資安的「不良實踐」列表</title>
+ <link>https://www.ithome.com.tw/news/146464</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;包括資安在內的各個產業經常會以「最佳實踐」（Best Pratices），來描述產生最好結果的方法，不過，美國網路安全及基礎設施安全局&lt;a href=&quot;https://www.cisa.gov/BadPractices&quot; target=&quot;_blank&quot;&gt;（CISA）本周宣布&lt;/a&gt;，將打造資安的「不良實踐」（Bad Practices）來規勸組織儘量避免某些作法，以維護重要基礎設施的安全性。&lt;/p&gt;
+&lt;p&gt;CISA已於GitHub開闢了一個&lt;a href=&quot;https://github.com/cisagov/bad-practices/discussions&quot; target=&quot;_blank&quot;&gt;Bad Practices的討論區&lt;/a&gt;，以與外界交流，同時也先行提出3項不良實踐。&lt;/p&gt;
+&lt;p&gt;CISA指出，所有的組織，特別是那些負責設計重大基礎設施或是國家關鍵功能的組織，都應該部署有效的網路安全計畫，以防範網路威脅，並以適當的方式管理網路風險，而不良實踐則代表著那些特別不安全的作法。&lt;/p&gt;
+&lt;p&gt;目前被CISA認為是不良實踐的三大措施包括：於重要架構中使用已不被支援或生命周期已終止的軟體，指出這樣的作法將會提高國家安全風險，危害國家的經濟安全或國家公共衛生與安全；其次是於重要架構中使用已知、固定或預設的密碼與憑證；第三則是可存取重要架構的管理員，只採用單一認證就能遠端存取。此外，不管是哪一項措施，只要相關的系統是可自網路存取，其風險將會更高。&lt;/p&gt;
+&lt;p&gt;CISA歡迎產業或各級政府的IT專家及管理人員參與討論，以收集各界對不良實踐的看法與意見，並進一步討論如何消除這些現象。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 30 Aug 2021 08:04:43 +0000</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="false">146456 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146456#comments</comments>
-</item>
-<item>
- <title>Linux 30歲了！你知道Google、YouTube、百度及全球前五百大超級電腦都是基於Linux嗎</title>
- <link>https://www.ithome.com.tw/news/146455</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;一名芬蘭軟體工程師Linus Torvalds在1991年的8月25日，於新聞群組中發表了他所撰寫的Linux，當時Torvalds才22歲，謙虛地說這只是他的興趣，作業系統並不強大也沒有很專業，不過，剛度過30歲生日的Linux現已是全球最受歡迎的開源平臺，且同時受到大型企業、超級電腦製造商與開發者的喜愛。&lt;/p&gt;
-&lt;p&gt;Linux衍生自Unix作業系統，Torvalds在30年前發表的是Linux核心（Linux Kernel），後來成為許多Linux版本的基礎，涵蓋Debian、Fedora、Ubuntu、 Red Hat Enterprise Linux與SUSE Linux Enterprise Server等。&lt;/p&gt;
-&lt;p&gt;開源社群把Torvalds於新聞群組中發表Linux的日期當作它的生日，不過，Torvalds正式對外釋出首個Linux Kernel版本的時間，是同年的9月17日。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://linuxfoundation.org/wp-content/uploads/2020-Linux-Foundation-Annual-Report_120520.pdf&quot; target=&quot;_blank&quot;&gt;根據Linux基金會在2020年的統計&lt;/a&gt;，全世界的超級電腦通通都使用Linux，也有6成的汽車採用Linux，並有69%的嵌入式裝置使用Linux。&lt;/p&gt;
-&lt;p&gt;雖然在&lt;a href=&quot;https://www.top500.org/statistics/list/&quot; target=&quot;_blank&quot;&gt;今年6月發布的全球前五百大超級電腦&lt;/a&gt;中，只有52.8%使用最原始的Linux平臺，但其它超級電腦所採用的作業系統也是各種Linux版本，像是CentOS、Cray Linux Environment、Red Hat Enterprise Linux、CentOS Linux 或Ubuntu。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://gs.statcounter.com/os-market-share&quot; target=&quot;_blank&quot;&gt;StatCounter今年7月的全球作業系統市占調查&lt;/a&gt;顯示，奠基於Linux的Android平臺已是全球最熱門的作業系統，市占率為41.56%，微軟的Windows則以30.2%位居第二。&lt;/p&gt;
-&lt;p&gt;另一方面，不少大型網站都是以Linux建置，從Google、YouTube、天貓、QQ到百度等，還有9成的雲端基礎設施是在Linux上運作。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://ubuntu.com/blog/happy-birthday-30-years-of-linux&quot; target=&quot;_blank&quot;&gt;Canonical產品經理Rob Gibbon表示&lt;/a&gt;，對於許多使用者來說，Linux平臺所帶來的能力與彈性，足以媲美甚至超過私有解決方案，此外，許多作業系統的靈感，也都應歸功於開源的Linux專案。&lt;/p&gt;
-&lt;p&gt;Gibbon認為，在來自全球企業、研究機構、學術機構與政府的大量貢獻下，Linux在這30年來已成為運算領域的佼佼者，更是人類成就的標誌性象徵，堪稱為全球人類的資產。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 30 Aug 2021 07:51:41 +0000</pubDate>
+ <pubDate>Tue, 31 Aug 2021 07:43:09 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146455 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146455#comments</comments>
+ <guid isPermaLink="false">146464 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146464#comments</comments>
 </item>
 <item>
- <title>T-Mobile：駭客是透過暴力破解入侵該公司伺服器</title>
- <link>https://www.ithome.com.tw/news/146454</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;日前坦承遭到駭客入侵的T-Mobile，在本周公布了調查報告，指出駭客是利用對技術系統的知識，再加上專門的工具與技能，進入了T-Mobile的測試環境，再透過暴力破解與其它方法入侵了T-Mobile的其它IT伺服器，才會造成用戶的資料外洩。&lt;/p&gt;
-&lt;p&gt;今年8月中旬，&lt;a href=&quot;https://www.ithome.com.tw/news/146215&quot; target=&quot;_blank&quot;&gt;美國媒體發現&lt;/a&gt;有賣家於地下論壇中以6個比特幣（約28萬美元）的價格，兜售號稱含有1億筆T-Mobile用戶的資料庫，隨後T-Mobile坦承遭到駭客入侵，&lt;a href=&quot;https://www.ithome.com.tw/news/146273&quot; target=&quot;_blank&quot;&gt;初步估計&lt;/a&gt;約有4,860萬名用戶的資料外洩，之後又發現有額外的530萬名現有月租型用戶資料遭存取，使得外洩的客戶資料接近5,400萬筆。&lt;/p&gt;
-&lt;p&gt;在T-Mobile偕同資安專家進行了兩周的調查之後，他們找到也關閉了駭客入侵的管道，同時確信駭客的意圖就是要竊取T-Mobile的資料。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.t-mobile.com/news/network/cyberattack-against-tmobile-and-our-customers&quot; target=&quot;_blank&quot;&gt;T-Mobile執行長Mike Sievert表示&lt;/a&gt;，很多人都在詢問客戶資料是如何外洩的，由於執法機關正在進行刑事調查，使得該公司無法揭露太多的細節，簡而言之，駭客利用了他們對技術系統的了解，使用了許多專門的工具與技巧，先進入了T-Mobile的測試環境，繼之透過暴力破解與其它方法入侵T-Mobile的其它伺服器，包括存放客戶資料的伺服器在內。&lt;/p&gt;
-&lt;p&gt;為了避免使用者的身分遭到濫用，T-Mobile提供了兩年免費的身分保護服務，也建議客戶啟用由T-Mobile免費提供的詐騙封鎖計畫，以及重設PIN碼及密碼。&lt;/p&gt;
-&lt;p&gt;Sievert說，他相信駭客會不斷地展開攻擊，因而決定與資安業者Mandiant建立長期的合作關係，並將與顧問公司KPMG結盟，由KPMG徹底檢查T-Mobile所有的安全政策與效能評估，打造一個更安全的環境。&lt;/p&gt;
+ <title>微軟可能以Windows Update告知用戶是否適合升級Windows 11</title>
+ <link>https://www.ithome.com.tw/news/146463</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Windows 11可能將在不到2個月後釋出，微軟要讓用戶了解自己的Windows PC是否能升級到Windows 11。除了現有的檢測工具PC Health Check App外，可能會透過Windows Update上更清楚告知。&lt;/p&gt;
+&lt;p&gt;目前用戶如果想知道自己的硬體是否能安裝Windows 11，最方便的是微軟推出的&lt;a href=&quot;https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewpchealth&quot; target=&quot;_blank&quot;&gt;PC Health Check App&lt;/a&gt;。不過&lt;a href=&quot;https://www.windowslatest.com/2021/08/30/windows-update-now-tells-you-if-windows-11-can-be-installed-on-your-pc/&quot; target=&quot;_blank&quot;&gt;Windows Latest&lt;/a&gt;報導，在最近釋出給Insider方案測試人員的Windows 11預覽版（Release Preview）中，Windows Update加了一項通知。字樣如下「Great news—your PC meets the minimum system requirements for Windows 11. Specific timing for when it will be offered can vary as we get it ready for you. Note: Some Windows 10 features aren’t available in Windows 11. Certain apps and features may have additional」，意思是告知用戶的PC滿足Windows 11的最低系統要求。但開放下載時間則視最新作業系統部署時程而定。另外也提供了詳細的裝置規格連結。&lt;/p&gt;
+&lt;p&gt;根據微軟的設計，跑Windows 11的PC至少需要支援TPM 2.0的處理器，包括Intel第8代處理器、AMD Zen 2，或是Qualcomm 7/8 Series以後的產品。&lt;a href=&quot;https://www.ithome.com.tw/news/146448&quot; target=&quot;_blank&quot;&gt;上周微軟小幅增加3款Intel 第7代Core CPU&lt;/a&gt;，包括Core X-series、Xeon W-series和Core i7-7820HQ晶片。但沒有任何第1代AMD Zen CPU入榜。&lt;/p&gt;
+&lt;p&gt;此外Windows Latest報導，微軟自有Surface筆電等產品，也無法升級Windows 11。&lt;/p&gt;
+&lt;p&gt;微軟上周警告，除了官方明列的CPU外，使用其他舊版CPU的PC會被視為「不受支援硬體」。這些PC即使可以下載Media Creation Tool，製作Windows 11安裝媒體手動安裝，但用戶會被告知其裝置處於「不受支援」狀態。不受支援的電腦未來無法經由Windows Update自動下載功能更新，甚至可能連驅動程式、或安全更新也無法自動下載，&lt;/p&gt;
+&lt;p&gt;微軟鼓勵用戶使用受支援的硬體，以確保電腦的安全、穩定及應用程式相容性。電腦不受支援意謂著電腦可能碰到應用程式相容性問題、變得不穩定、無法獲得微軟技術支援，或是電腦無法享受保固。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 30 Aug 2021 06:04:34 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146454 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146454#comments</comments>
-</item>
-<item>
- <title>5G趨勢月報第22期：國產5G發展跨出一大步，臺灣終於有國際級5G驗證開放平臺了</title>
- <link>https://www.ithome.com.tw/news/146453</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;span style=&quot;color:#0000FF;&quot;&gt;&lt;strong&gt;2021/08/01~08/31精選5G趨勢新聞&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;5G開放驗證平臺 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  O-RAN聯盟 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;獲O-RAN聯盟及TIP組織認可，臺灣5G實驗室首度取得國際級5G驗證開放平臺認證了&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E6%8F%9B%E9%80%99%E5%BC%B5%40%E5%9C%961-%E5%9C%965G%E8%B6%A8%E5%8B%A2%E6%9C%88%E5%A0%B1.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;臺灣有兩間5G開放網路實驗室，由天線製造商耀登集團，以及由經濟部工業局各自打造完成，最近分別通過國際兩大5G電信開放架構組織O-RAN聯盟與TIP組織認可，允許他們可以就近在臺提供5G設備驗測服務，意味者， 臺灣終於有符合國際規格的5G驗證開放平 臺，能夠打通國產5G發展的任督二脈，實現國產5G藍圖最後一塊拼圖。&lt;/p&gt;
-&lt;p&gt;正因為臺灣一直沒有符合國際規格的5G測試實驗環境，所以，以往國內5G設備商或網通業者，只能自行尋找適合的測試環境，或遠赴國外測試， 但有了這兩間國際級5G實驗室，國內網通業者能更方便採用O-RAN規範或TIP規範的5G驗證開放平臺，來驗證自家5G產品，且能就近取得官方測試報告證明或標章，讓通過檢測合格的5G產品，迅速銷往全球。&lt;/p&gt;
-&lt;p&gt;這次通過O-RAN聯盟與TIP組織認證的臺灣5G實驗室有兩間，前者是天線網通廠商耀登集團所取得，主要提供5G開放基地臺產品一致性測試，用來驗證產品有無符合聯盟規範與相關標準。後者則是經濟部工業局5G開放 網路實驗室拿下，涵蓋測試面向更廣，從5G核網、5G基地臺到終端設備之 間的互通、互連測試都包含在內。&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 亞太電信 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 5G共頻共網 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;亞太電信正式啟用商用5G共頻共網服務&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%40%E5%9C%962-%E5%9C%965G%E8%B6%A8%E5%8B%A2%E6%9C%88%E5%A0%B1(1).jpg&quot; style=&quot;width: 600px; height: 263px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;歷經一年等待，亞太電信近日終於通過公平 會審議核准，正式啟用國內第一個5G共頻共網服務，未來將以遠傳電信的3.5GHz頻段5G網路，對外提供5G商用服務。&lt;/p&gt;
-&lt;p&gt;去年9月亞太電信和遠傳達成國內第一個5G共頻共網合作協議，由亞太分攤遠傳九分之二的頻譜費用，換取其取得頻段的20年使用權。相隔一個月，亞太電信 5G開臺，先以MVNO身分與遠傳電信合作推出5G服務。直到今年8月5G共 頻共網服務才正式推出。&lt;/p&gt;
-&lt;p&gt;雖然5G費率方案比其他電信業者晚推出，但亞太電信宣稱其5G服務一啟用已涵蓋全臺網路人口的8成，在共頻共網之下，5G下載速率在80MHz頻 寬之下最快可達到1Gbps，藉此吸引4G用戶轉換5G使用。&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  5G專網 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 日本NTT  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;日本NTT推出全球性5G專網即服務平臺，結合雲端與5G網路切片提供彈性部署和管理&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;近來，日本NTT集團推出全球第一個5G專網即服務平臺，使企業可以在本地、邊緣或雲端來部署和管理自己的5G專網環境。NTT強調，它是一個雲端原生5G專網平臺，企業只要透過它就能迅速在企業內部署5G專網環境， 因為採用雲端技術，所以不只在日本，全球各地都能通用。&lt;/p&gt;
-&lt;p&gt;在這個5G專網即服務平臺內，不只引進自動化流程，NTT還採用最新5G網路切片技術，可提供更具客製化、彈性的專網部署與管理方式，讓企業用戶管理自己的5G專網變得更容易，包括網路速度、應用程式控制、安全和網路覆蓋率等。目前NTT已和德國科隆波昂國際機場展開合作，在當地建立一座大型5G專網，希望借助5G，發展各種機場智慧應用，如智慧行李查驗、自動安全搬運車，以及AR及VR等應用。&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  5G智慧工廠&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt;  5G專網  &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;電子代工大廠緯創導入5G企業專網發展智慧工廠應用&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;國內電子代工大廠緯創資通最近開始導入5G專網建立智慧工廠，發展包括AR遠距協作等各種智慧化應用，來提高人員作業效率。緯創工廠5G專網的建置主要採用中華電信5G基地臺與MEC邊緣運算設備，搭配緯謙在雲端及智慧製造應用相關技術，然後以緯創竹科工廠進行5G專網驗證與導入。&lt;/p&gt;
-&lt;p&gt;緯創利用5G智慧工廠發展新應用，像是透過5G高速率和低延遲的特性，結合AR眼鏡及AR平臺，使得專業技術人員不需要進到現場，遠端能即時支援跨廠產線大型機臺裝機調整、參數調校，有效降低疫情期間接觸風險。還有規畫其他5G智慧工廠應用，包括AGV無人搬運車、AMR自主移動機器人、AI瑕疵檢測、AI人因工程、AIoT產線智慧調參、MR混合實境等應用，協助工廠端降低製程不良率及改善生產效能，以及提升設備稼動率。&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 工業機器人 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 5G   &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;美國機器人製造商Sarcos Robotics正在打造5G工業機器人，利用5G實現遠距操作機器人作業&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%40%E5%9C%963-%E5%9C%965G%E8%B6%A8%E5%8B%A2%E6%9C%88%E5%A0%B1.jpg&quot; style=&quot;width: 600px; height: 263px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;專門開發工業機器人、人型外骨骼裝置的美國機器人製造商Sarcos Robotics正在研發5G工業機器人，他們先在一臺Guardian XT工業機器人身上加入5G通訊能力，這款工業機器人可連接到如懸臂式升降機等高空作業平臺，執行一些複雜或甚至危險性的施工任務，適合運用到航空、汽車、建築、國防、工業製造等領域。&lt;/p&gt;
-&lt;p&gt;為了建立5G網路試驗環境，Sarcos Robotics找來美國電信商T-Mobile 合作，使用其5G網路來進行測試，透過5G大頻寬、低延遲特性，搭配Guardian XT機器人，能夠將現場作業的影像畫面即時回傳，讓公司管理者不用到現場，就能遠端即時監控。他們下一步更要利用5G實現機器人的遠距操作， 讓作業員能夠遠端遙控機器人執行現場作業，如舉起重物，或在高處使用電動工具等，而且能夠更快地執行任務，如同人在現場操作一樣， 讓機器人操控更有彈性，同時提高作業員的安全性。這款5G工業機器人最 快2022年底商用。&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 5G報告 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 5G網路基礎設施   &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;Gartner預測2021全球5G網路基礎設施投資增長逼近4成，達191億美元&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;市調機構Gartner日前發布2021年全球5G網路基礎設施投資最新預測報告， 指出全球5G網路基礎設施市場今年持續保持穩定增長，與去年相比，預期2021年投資將來到35%的正成長，達191億美元，高於4G/LTE的145億美元。&lt;/p&gt;
-&lt;p&gt;Gartner更進一步指出，在整體無線網路基礎設施市場中，5G投資增長最快，預期2022年投資將一舉突破200億美元。Gartner十分看好通訊服務提供 商（CSP）在今明兩年的5G發展。由於COVID-19疫情，改變人們工作型態和娛樂休閒方式，進而加速5G的發展，Gartner預測，到了2024年，全球6成CSP有自己的5G商用服務，提供各主要城市使用。&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 5G手機晶片 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 聯發科   &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:22px;&quot;&gt;&lt;strong&gt;強攻大眾市場，聯發科再推兩款中階及入門5G SoC晶片&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;聯發科前不久替旗下天璣5G家族增添新成員，推出兩款全新5G手機SoC晶片天璣920和天璣810，這兩個5G晶片皆採用6奈米製程，支援Sub-6頻段、NSA與 SA獨立組網模式、5G雙載波聚合、5G雙卡雙待以及VoNR通話服務等功 能。採用兩款5G晶片的終端裝置，將於2021年Q3推出上市。&lt;/p&gt;
-&lt;p&gt;攝影／蘇文彬 圖片來源／亞太電信、聯發科、Sarcos Robotics&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 更多5G動態 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1.新加坡兩大電信商M1與StarHub開始測試5G SA網路服務&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;2.高通發表新一代5G AI無人機平臺&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;strong&gt;3.ABI Research預測2026年全球5G FWA用戶數將突破5,800萬戶&lt;/strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;資料來源：iThome整理，2021年8月&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 30 Aug 2021 06:03:01 +0000</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="false">146453 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146453#comments</comments>
-</item>
-<item>
- <title>思科小型企業VPN路由器重大漏洞，但已屆EOL不會有修補程式</title>
- <link>https://www.ithome.com.tw/news/146452</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-sb-rv-overflow-htpymMB5&quot; target=&quot;_blank&quot;&gt;思科近日針對小型企業VPN路由器產品發布安全公告&lt;/a&gt;，警告有引發遠端程式碼執行的重大漏洞。但是思科也表示這些產品已經來到EOL（end of life），因此思科並不打算修補，企業應考慮升級到新產品。&lt;/p&gt;
-&lt;p&gt;最新漏洞CVE-2021-34730出在小型企業路由器產品的UPnP服務元件，對外部送入的UPnP流量驗證不當所致。攻擊者可以藉由傳送惡意UPnP呼叫來開採，一旦成功可讓攻擊者在以根權限在受害裝置的底層OS執行任意程式碼，或是引發裝置不預期重開機而導致阻斷服務（Denial of Service，DoS）情形。&lt;/p&gt;
-&lt;p&gt;受影響的裝置包括RV110W、RV130、RV130W和RV215W。啟動UPnP者可能曝險。其中，UPnP在LAN的管理介面上預設開啟，但在WAN管理介面上預設為關閉。若LAN及WAN上都安裝了這些裝置，且管理介面都使用預設值的話，仍然會有被攻擊的風險。因此這項漏洞風險值達到CVSS 3.0的9.8，屬於接近滿分的重大漏洞。&lt;/p&gt;
-&lt;p&gt;不過思科表示不會釋出軟體更新來修補漏洞，因為這4款產品都已經來到產品生命周期終點（EoL），即思科不再支援。思科也建議用戶升級到RV132W、RV160或RV160W系列路由器。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 30 Aug 2021 05:18:06 +0000</pubDate>
+ <pubDate>Tue, 31 Aug 2021 07:37:46 +0000</pubDate>
  <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146452 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146452#comments</comments>
-</item>
-<item>
- <title>蘋果將免費維修那些聽不見聲音的iPhone 12手機</title>
- <link>https://www.ithome.com.tw/news/146451</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://support.apple.com/iphone-12-and-iphone-12-pro-service-program-for-no-sound-issues#ntf&quot; target=&quot;_blank&quot;&gt;蘋果上周宣布&lt;/a&gt;，有非常少部分的iPhone 12與iPhone 12 Pro裝置因為受話器模組上的某個元件可能會故障，而出現聲音上的問題，並將免費維修這些裝置。&lt;/p&gt;
-&lt;p&gt;根據蘋果的說法，假設使用者的iPhone 12或iPhone 12 Pro在撥/接電話之後，受話器沒有發出聲音，很可能就符合免費維修資格。&lt;/p&gt;
-&lt;p&gt;受影響的裝置是在2020年10月到今年4月間生產的iPhone 12或iPhone 12 Pro，iPhone 12 mini及iPhone 12 Pro Max則並未受到波及。使用者可逕向蘋果直營門市或蘋果授權維修中心查詢並預約維修服務，蘋果也建議使用者在維修之前應先備份手機內容。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 30 Aug 2021 05:12:17 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146451 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146451#comments</comments>
-</item>
-<item>
- <title>中國開始掃盪違規發布財經資訊的自媒體</title>
- <link>https://www.ithome.com.tw/news/146449</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;中國國家互聯網信息辦公室（網信辦）在上周五（8/27）&lt;a href=&quot;http://www.cac.gov.cn/2021-08/27/c_1631652531513374.htm&quot; target=&quot;_blank&quot;&gt;宣布&lt;/a&gt;，由於部分商業平臺與其自媒體帳號屢屢違規發布財經新聞、扭曲解讀經濟政策與唱衰金融市場，即日起將開始整頓這些商業網站平臺與自媒體。而根據中國媒體的報導，包括微信、抖音與微博等中國知名的社交平臺，都已展開行動。&lt;/p&gt;
-&lt;p&gt;網信辦指出，第一階段整治行動的期間為即日起至10月26日，將督促商業平臺清理違規發布的財經資訊，封鎖「黑嘴」、敲詐勒索或社會反映強烈的自媒體帳號，更鼓勵中國的網路用戶向該辦公室檢舉。&lt;/p&gt;
-&lt;p&gt;網信辦擬定了8項掃盪重點，包括唱空中國經濟、轉載扭曲中國經濟的報導、散布小道消息或造謠、針對合法報導斷章取義、炒作或哄抬個股、炒作負面訊息、炒作社會的惡性事件以煽動恐慌，以及未經過嚴格身分認證的偽造帳號等。&lt;/p&gt;
-&lt;p&gt;在網信辦公布要肅清自媒體的隔天，&lt;a href=&quot;https://weibo.com/1934183965/Kvx0OcsI7?type=comment&quot; target=&quot;_blank&quot;&gt;微博&lt;/a&gt;與&lt;a href=&quot;https://mp.weixin.qq.com/cgi-bin/announce?action=getannouncement&amp;amp;announce_id=11630112418RbAuG&amp;amp;version=&amp;amp;lang=zh_CN&amp;amp;token=&quot; target=&quot;_blank&quot;&gt;微信&lt;/a&gt;就祭出了同樣的公告，&lt;a href=&quot;https://www.sohu.com/a/486465738_121106991&quot; target=&quot;_blank&quot;&gt;中國媒體&lt;/a&gt;則指出，抖音、快手與今日頭條也都將配合網信辦的政策掃盪這些從事違規行為的自媒體帳號。&lt;/p&gt;
-&lt;p&gt;中國習慣以審查及封鎖來對待官方不允許的言論，從人權、領土、疫情，而今則擴張至經濟情勢，目前尚不確定哪些自媒體帳號會受到牽連。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 30 Aug 2021 03:44:01 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146449 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146449#comments</comments>
-</item>
-<item>
- <title>微軟：使用不受支援硬體跑Windows 11未來無法接獲自動更新</title>
- <link>https://www.ithome.com.tw/news/146448</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blogs.windows.com/windows-insider/2021/08/27/update-on-windows-11-minimum-system-requirements-and-the-pc-health-check-app/&quot; target=&quot;_blank&quot;&gt;微軟上周公布執行Windows 11的更新版CPU規格&lt;/a&gt;，同時微軟也警告，使用官方不支援硬體跑Windows 11的用戶，需有心理準備未來無法以Windows Update接獲更新。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/145288&quot; target=&quot;_blank&quot;&gt;6月底微軟公布了&lt;/a&gt;Windows 11首個技術預覽版以及執行最新版Windows的最低硬體要求。根據微軟的規格要求，跑Windows 11的PC至少需要支援TPM 2.0的處理器，包括Intel第8代處理器、AMD Zen 2，或是Qualcomm 7/8 Series以後的產品，理由是為了提供用戶硬體信任根（hardware root-of-trust）的安全保障。但同時&lt;a href=&quot;https://www.ithome.com.tw/news/145317&quot; target=&quot;_blank&quot;&gt;微軟也允許&lt;/a&gt;Windows Insider測試人員及OEM廠商以第7代Intel及AMD Zen 1處理器裝置測試Windows 11。&lt;/p&gt;
-&lt;p&gt;微軟表示，Windows 11公開以來，微軟不斷接收測試用戶社群、Windows愛用者、客戶、合作夥伴提供回饋意見，而根據這陣子測試結果，微軟決定小幅擴大Windows 11的相容處理器名單。微軟Windows小組還是認為64-bit處理器、4GB記憶體、64GB儲存、UEFI安全開機、顯示卡及TPM 2.0，是跑Windows 11最正確的規格底線，但他們發現搭載某些Intel第7代處理器的PC的確能滿足這個要求，因此微軟在&lt;a href=&quot;https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors&quot; target=&quot;_blank&quot;&gt;相容的Intel 處理器清單中&lt;/a&gt;小幅增加了3款，Intel Core X-series、Xeon W-Series、以及Intel Core 7820HQ（部分具備新版驅動程式的產品）。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors&quot; target=&quot;_blank&quot;&gt;AMD CPU清單&lt;/a&gt;則維持不變。微軟表示，和AMD仔細分析第1代AMD Zen處理器後，最後判定AMD名單不會增加。微軟表示也會更新提供檢測硬體相容性的PC Health Check App。&lt;/p&gt;
-&lt;p&gt;但&lt;a href=&quot;https://www.theverge.com/2021/8/28/22646035/microsoft-windows-11-iso-workaround-no-update-guarantee&quot; target=&quot;_blank&quot;&gt;The Verge&lt;/a&gt;報導，微軟表示，搭載較舊版CPU的Windows PC，屬於「不受支援的PC」，因此即使能安裝Windows 11，未來可能也不會再接獲Windows Update更新以提供新功能、甚至安全更新。&lt;/p&gt;
-&lt;p&gt;功能更新問題較好解決：只要手動下載Windows ISO檔即可。較大問題是無法定期獲得安全更新。媒體分析，這可能是恐懼訴求，因為微軟希望嚇退計畫以舊電腦跑Windows 11的用戶，此外，微軟也可能會改變ISO下載的規定讓用戶死了這條心。微軟此時對此並未澄清。&lt;/p&gt;
-&lt;p&gt;一般認為，微軟設下重重限制，骨子裏希望用戶不要原機升級，而是換臺新電腦。&lt;a href=&quot;https://www.ithome.com.tw/news/145974&quot; target=&quot;_blank&quot;&gt;微軟8月初重申&lt;/a&gt;，舊版PC無法以修改群組政策或組態管理員的作法強制安裝新版Windows 11。微軟再次表示，未能滿足最低硬體要求的PC執行Windows 11，核心模式毁損的機率達52%。相較之下，硬體符合最低要求者，不但硬體可用性達99.8%，也更安全，應用相容性問題也更低。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 30 Aug 2021 03:39:11 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146448 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146448#comments</comments>
+ <guid isPermaLink="false">146463 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146463#comments</comments>
 </item>
 </channel>
 </rss>

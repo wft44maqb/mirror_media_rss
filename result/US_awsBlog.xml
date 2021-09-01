@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Tue, 31 Aug 2021 04:25:44 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 31 Aug 2021 10:20:18 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,9 +13,505 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>基于 Nitro Enclave 构建安全的可信执行环境</title>
+		<link>https://aws.amazon.com/cn/blogs/china/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave/</link>
+				<pubDate>Tue, 31 Aug 2021 10:20:18 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Security, Identity, & Compliance]]></category>
+		<category><![CDATA[Amazon EC2]]></category>
+		<category><![CDATA[AWS Certificate Manager]]></category>
+		<category><![CDATA[AWS KMS]]></category>
+
+		<guid isPermaLink="false">fd8724fce745fd981e91ec04870e32556afb194e</guid>
+				<description>Nitro Enclave 使用户可以在亚马逊云科技上，简便，安全地运行隔离的可信计算环境，用于处理私钥，PII等敏感数据，支持 Intel，AMD 芯片的计算实例，没有任何额外费用，具备更好的灵活性和成本效益，且与云原生的安全服务 KMS，ACM 直接集成，为用户提供更好的使用体验和安全性保障。</description>
+								<content:encoded>&lt;h2&gt;前言&lt;/h2&gt; 
+&lt;p&gt;随着移动通信和互联网技术的发展与应用，数据泄漏可能会造成直接的收入损失，并对业务、用户信任和企业声誉产生重大影响，如何在业务更加深入地数字化的同时，在计算环境中确保数据的机密性和完整性，将是企业面临的重大挑战，尤其是在公有云的环境中。&lt;/p&gt; 
+&lt;p&gt;可信执行环境（TEE: Trusted Execution Environment）的提出，正是应对这样的需求。 可信执行环境在芯片层面单独划分出来的一个隔离空间，建立与本地操作系统（例如 Android 和 Microsoft Windows）并行运行的隔离执行环境，保证加载到内部的代码和数据在机密性和完整性方面受到保护，保护敏感代码和数据免受来自本地操作系统潜在漏洞的特权攻击。&lt;/p&gt; 
+&lt;p&gt;可信执行环境典型的业务场景包括：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;strong&gt;私钥安全&lt;/strong&gt;： 用户可以在隔离的安全环境中使用和处理私钥，例如加密和签名，同时阻止父实例上的用户、应用程序查看和获取这些密钥。&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;敏感数据处理&lt;/strong&gt;： 可以在隔离的安全区域内运行应用程序，将个人身份，信用卡号等 PII 敏感数据进行令牌化。同时加密的数据可以发送到安全区域进行解密并处理。在整个过程中，父 EC2 实例将无法查看或访问敏感数据。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;业界常见的可信执行环境的技术包括，Intel SGX 和 ARM TrustZone 等，这个隔离的空间，在 Intel SGX 中被称作 Enclave，而在 ARM TrustZone 中则被称为 Secure World。&lt;/p&gt; 
+&lt;p&gt;亚马逊云科技作为公有云的技术领导者，也推出了 TEE 解决方案，&lt;a href="https://aws.amazon.com/cn/ec2/nitro/nitro-enclaves/"&gt;Nitro Enclave&lt;/a&gt;，使用 Nitro Hypervisor 技术，在 EC2 实例内部，提供 CPU 和内存隔离的一个计算环境。&lt;/p&gt; 
+&lt;p&gt;Nitro Enclave 主要优势：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;隔离和安全的运行环境: 基于 Nitro Hypervisor 实现的完全隔离的 CPU，内存计算环境，无持久化存储，交互式访问和外部网络&lt;/li&gt; 
+ &lt;li&gt;加密证明: Attestation 证明文件允许用户在外部服务中，授权 Enclave 访问权限，和验证 Enclave 中的代码完整性&lt;/li&gt; 
+ &lt;li&gt;灵活: 不需要绑定 CPU 厂商，支持 Intel，AMD 芯片，和任何编程语言&lt;/li&gt; 
+ &lt;li&gt;成本: Nitro Enclave 运行于 EC2 中，无任何额外费用&lt;/li&gt; 
+ &lt;li&gt;云原生安全集成: 与云原生的 KMS，ACM 安全服务直接集成，提供更好的用户体验和安全保障&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;1. Nitro Enclave 介绍&lt;/h2&gt; 
+&lt;h3&gt;1.1 Nitro Enclave 基础介绍&lt;/h3&gt; 
+&lt;p&gt;Nitro Enclaves 是一项 Amazon EC2 功能，允许您从 Amazon EC2 实例创建隔离的执行环境，称为 enclave。 Enclave 是独立的、强化的且高度受限的虚拟机，基于 Nitro Hypervisor 虚拟化技术，确保父实例无法访问隔离的 vCPU 和 enclave 的内存。Enclave 没有持久存储、交互式访问或外部网络，仅支持与其父实例的安全 Socket 连接。 用户无法通过 SSH 进入 enclave，并且父实例的进程、应用程序或用户（root 或 admin）无法访问 enclave 内的数据和应用程序。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;1.2 Attestation 证明文件&lt;/h3&gt; 
+&lt;p&gt;在 Nitro Enclave 中运行程序，除了隔离环境带来的私密性之外，还提供额外的安全特性，加密证明(Cryptographic Attestation)。Attestation 是 Enclave 用来证明其身份并与外部服务建立信任的过程，以及保证数据通信的安全。&lt;/p&gt; 
+&lt;p&gt;Attestation 的目的是根据在特定 enclave 中运行的代码和配置，证明 enclave 是值得信赖的实体。 Nitro Hypervisor 能够生成包含 enclave 详细信息的证明文档，包括 enclave 签名密钥、enclave 映像的哈希值、父实例 ID 的哈希值以及附加 IAM 角色的 ARN 的哈希值。&lt;/p&gt; 
+&lt;p&gt;Enclave Attestation 功能是由 Nitro Hypervisor 中的 Nitro Secure Module (NSM) 组件实现。亚马逊云科技提供了&lt;a href="https://github.com/aws/aws-nitro-enclaves-nsm-api"&gt;一套 helper library&lt;/a&gt;，方便用户在开发 Enclave 程序时，与 NSM 交互， 查询 PCR 和请求 Attestation 证明文件。&lt;/p&gt; 
+&lt;p&gt;关于 Nitro Enclave Attestation 生成的详细过程，可参考&lt;a href="https://github.com/aws/aws-nitro-enclaves-nsm-api/blob/main/docs/attestation_process.md"&gt;此文档&lt;/a&gt;。下面是一个 Attestation 证明文件的结构：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;AttestationDocument = {
+    module_id: text,               ; issuing Nitro hypervisor module ID
+    timestamp: uint .size 8,       ; UTC time when document was created, in
+                                   ; milliseconds since UNIX epoch
+    digest: digest,                ; the digest function used for calculating the
+                                   ; register values
+    pcrs: { + index =&amp;gt; pcr },      ; map of all locked PCRs at the moment the
+                                   ; attestation document was generated
+    certificate: cert,             ; the infrastucture certificate used to sign this
+                                   ; document, DER encoded
+    cabundle: [* cert],            ; issuing CA bundle for infrastructure certificate
+    ? public_key: user_data,       ; an optional DER-encoded key the attestation
+                                   ; consumer can use to encrypt data with
+    ? user_data: user_data,        ; additional signed user data, defined by protocol
+    ? nonce: user_data,            ; an optional cryptographic nonce provided by the
+                                   ; aattestation consumer as a proof of authenticity
+}
+
+cert = bytes .size (1..1024)       ; DER encoded certificate
+user_data = bytes .size (0..1024)
+pcr = bytes .size (32/48/64)       ; PCR content
+index = 0..31
+digest = &amp;quot;SHA384&amp;quot;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;在 Attestation 证明文件中，包含了一个 Public Key，当 Enclave 程序向外部服务发起请求时，带上证明文件，外部应用可以利用该 Public Key，对需要返回 Enclave 的 Response 进行加密， Enclave 收到该 Response 后使用 Private Key 进行解密，确保数据在传输过程中不会被嗅探，且只有发起服务请求的 Enclave 才能解密该 Response。&lt;/p&gt; 
+&lt;p&gt;另外，Attestation 文件中还包括每个 Enclave 一系列属性的哈希值，被称为 PCR (Platform Configuration Registers) 。用户可以使用 PCR 的哈希值在外部服务中创建访问策略，以授予对服务请求的访问权限。 Enclave 有 6 个 PCR，分别对应 Enclave 不同的元数据，其中 PCR 0，1，2 与 Enclave 镜像文件相关，在 Enclave 创建时生成。&lt;/p&gt; 
+&lt;table border="1"&gt; 
+ &lt;thead&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;strong&gt;PCR&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;Hash of&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/thead&gt; 
+ &lt;tbody&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;PCR0&lt;/td&gt; 
+   &lt;td&gt;Enclave image file&lt;/td&gt; 
+   &lt;td&gt;A contiguous measure of the contents of the image file, without the section data.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;PCR1&lt;/td&gt; 
+   &lt;td&gt;Linux kernel and bootstrap&lt;/td&gt; 
+   &lt;td&gt;A contiguous measurement of the kernel and boot ramfs data.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;PCR2&lt;/td&gt; 
+   &lt;td&gt;Application&lt;/td&gt; 
+   &lt;td&gt;A contiguous, in-order measurement of the user applications, without the boot ramfs.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;PCR3&lt;/td&gt; 
+   &lt;td&gt;IAM role assigned to the parent instance&lt;/td&gt; 
+   &lt;td&gt;Ensures that the attestation process succeeds only when the parent instance has the correct IAM role.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;PCR4&lt;/td&gt; 
+   &lt;td&gt;Instance ID of the parent instance&lt;/td&gt; 
+   &lt;td&gt;Ensures that the attestation process succeeds only when the parent instance has a specific instance ID.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;PCR8&lt;/td&gt; 
+   &lt;td&gt;Enclave image file signing certificate&lt;/td&gt; 
+   &lt;td&gt;Ensures that the attestation process succeeds only when the enclave was booted from an enclave image file signed by a specific certificate.&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/tbody&gt; 
+&lt;/table&gt; 
+&lt;p&gt;Attestation 证明文件生成后，还将会由受信任Nitro Hypervisor Attestation Public Key Infrastructure (PKI) ，基于一个 ACM PCA 的根证书进行签署，有效期为 30 年。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;CN=aws.nitro-enclaves, C=US, O=Amazon, OU=AWS&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;用户可以下载该&lt;a href="https://aws-nitro-enclaves.amazonaws.com/AWS_NitroEnclaves_Root-G1.zip"&gt;根证书&lt;/a&gt;，导入到您的任何外部服务中，当 Enclave 中运行的程序需要请求外部服务时，可向 Nitro Hypervisor 申请并签署证明文件，外部服务通过导入的根证书，来验证 Enclave 证明文件的有效性，确保服务请求是来自于特定的 Enclave，从而建立信任。&lt;/p&gt; 
+&lt;p&gt;目前 Amazon Key Management Service (KMS) 和 Amazon Certificate Manager (ACM) 支持与 Nitro Enclave 以及 Attestation 原生集成，Enclave 可借助 vsock 以及父实例上的代理，向 KMS 或 ACM 发起 API 请求，进行加密，解密，和证书申请，更新等操作，同时 KMS 和 ACM 支持对 Enclave 签名的证明文件进行验证，并可将 API Response 用证明文件中的 Public Key 进行加密，确保数据隐私安全。&lt;/p&gt; 
+&lt;p&gt;适用于 Nitro Enclaves 的 ACM 允许您将公有和私有 SSL/TLS 证书与在带有 Nitro Enclaves 的 EC2 实例上运行的 Web 应用一起使用。 亚马逊云科技提供了一个打包好的 ACM for Nitro Enclaves 程序，作为服务(aws-nitro-enclaves-acm) 运行在父实例 Linux 操作系统中，该服务将自动创建和运行 Enclave，与 ACM 交互创建安全私钥，将证书及其私钥分发到 enclave，并管理证书续订，证书的私钥在 enclave 中保持隔离，防止父实例及其用户访问它。 具体部署过程可参照&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave-refapp.html"&gt;官方文档&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;目前，ACM for Nitro Enclaves 支持与运行在 Amazon EC2 实例上的 NGINX 配合使用，以安装证书并无缝替换过期证书，以提供 HTTPS 服务，未来将添加对其他 Web 服务（Apache HTTP）的支持。&lt;/p&gt; 
+&lt;h3&gt;1.3 Nitro Enclave Attestation 与 KMS 集成&lt;/h3&gt; 
+&lt;p&gt;Amazon KMS 是一项云原生的密钥管理服务，用来创建和管理密钥，支持使用密钥进行 Server-side 的加密，解密，签名，验证等操作，还支持生成用于 client-side 加密的密钥。 KMS 内置原生支持 Nitro Enclaves，能够验证来自 Enclave 请求中携带的 Attestation 证明文件，并可以根据证明文件中的 PCR 值，定义密钥策略，来授予对特定 Enclave 的访问权限。&lt;/p&gt; 
+&lt;p&gt;可以在 KMS Policy 中定义的 Condition Key ，对来自 Enclave 发起的以下三个 API 请求，进行 Attestation 验证和 API 请求授权，例如只允许来自指定 Enclave 的 KMS Decrypt API 请求。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;kms:GenerateRandom： 生成随机字符串&lt;/li&gt; 
+ &lt;li&gt;kms:GenerateDataKey： 生成 Data Key，用于 Client-Side 加密&lt;/li&gt; 
+ &lt;li&gt;kms:Decrypt： 对文本或 Data Key 进行解密&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;{
+  &amp;quot;Version&amp;quot;: &amp;quot;2012-10-17&amp;quot;,
+  &amp;quot;Statement&amp;quot;: [{
+    &amp;quot;Sid&amp;quot; : &amp;quot;Enable enclave data processing&amp;quot;,
+    &amp;quot;Effect&amp;quot; : &amp;quot;Allow&amp;quot;,
+    &amp;quot;Principal&amp;quot; : {
+      &amp;quot;AWS&amp;quot; : &amp;quot;arn:aws:iam::123456789012:role/data-processing&amp;quot;
+    },
+    &amp;quot;Action&amp;quot;: [
+      &amp;quot;kms:Decrypt&amp;quot;,
+      &amp;quot;kms:GenerateDataKey&amp;quot;,
+      &amp;quot;kms:GenerateRandom&amp;quot;
+    ],
+    &amp;quot;Resource&amp;quot;: &amp;quot;*&amp;quot;,
+    &amp;quot;Condition&amp;quot;: {
+      &amp;quot;StringEqualsIgnoreCase&amp;quot;: {
+        &amp;quot;kms:RecipientAttestation:ImageSha384&amp;quot;:&amp;quot;EXAMPLE8abcdef7abcdef6abcdef5abcdef4abcdef3abcdef2abcdef1abcdef1abcdef0abcdef1abcdEXAMPLE&amp;quot;,
+        &amp;quot;kms:RecipientAttestation:PCR0&amp;quot;:&amp;quot;EXAMPLEbc2ecbb68ed99a13d7122abfc0666b926a79d5379bc58b9445c84217f59cfdd36c08b2c79552928702EXAMPLE&amp;quot;,
+        &amp;quot;kms:RecipientAttestation:PCR1&amp;quot;:&amp;quot;EXAMPLE050abf6b993c915505f3220e2d82b51aff830ad14cbecc2eec1bf0b4ae749d311c663f464cde9f718aEXAMPLE&amp;quot;, 
+        &amp;quot;kms:RecipientAttestation:PCR2&amp;quot;:&amp;quot;EXAMPLEc300289e872e6ac4d19b0b5ac4a9b020c98295643ff3978610750ce6a86f7edff24e3c0a4a445f2ff8EXAMPLE&amp;quot;
+      }
+    }
+  }]
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;注意： 目前使用 KMS SDK 和 CLI 请求 KMS 时，还不支持添加 attestation 证明文件，所以在 Enclave 中向 KMS 发起以上三个 API 请求时，只能用过 HTTP POST 的方式构建 API 请求，将 attestation 加入到 request parameter 中。同时，KMS将自动使用证明文件中的 Public Key 对 API Response 中的明文进行加密，Enclave 收到 Response 后，需要使用 Private Key 进行解密&lt;/p&gt; 
+&lt;p&gt;例如: 在 KMS Decrypt API Request 中，新增的Recipient字段将包括AttestationDocument证明文件，同时在 API Response 中，原本的Plaintext字段将替换为加密的CiphertextForRecipient字段，明文字段默认被 KMS 使用证明文件中的 Public Key 进行加密。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;# KMS Decrypt Request (New Recipient parameter)
+{
+   &amp;quot;CiphertextBlob&amp;quot;: blob,
+   &amp;quot;EncryptionAlgorithm&amp;quot;: &amp;quot;string&amp;quot;,
+   &amp;quot;EncryptionContext&amp;quot;: { 
+      &amp;quot;string&amp;quot; : &amp;quot;string&amp;quot; 
+   },
+   &amp;quot;GrantTokens&amp;quot;: [ &amp;quot;string&amp;quot; ],
+   &amp;quot;Recipient&amp;quot;: { 
+      &amp;quot;AttestationDocument&amp;quot;: blob,
+      &amp;quot;KeyEncryptionAlgorithm&amp;quot;: &amp;quot;string&amp;quot;
+   }
+}
+
+# KMS Decrypt Response (CiphertextForRecipient returned instead of Plaintext)
+{
+   &amp;quot;CiphertextForRecipient&amp;quot;: blob,
+   &amp;quot;EncryptionAlgorithm&amp;quot;: &amp;quot;string&amp;quot;,
+   &amp;quot;KeyId&amp;quot;: &amp;quot;string&amp;quot;,
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;通过 Nitro Enclave 与 KMS Attestation 的集成，可以确保敏感数据只能在 Enclave 中进行处理，不会被泄漏，嗅探和篡改。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;明文数据只在 Enclave 中可见，隔离的运行环境可确保数据不会嗅探&lt;/li&gt; 
+ &lt;li&gt;在 Enclave 外部只能以加密后的形态对数据进行传输和存储，确保原始数据不会被泄漏&lt;/li&gt; 
+ &lt;li&gt;同时借助 Enclave 的 Attestation，确保 Enclave 中的代码不会被篡改&lt;/li&gt; 
+ &lt;li&gt;通过 KMS 密钥策略，确保数据只能在特定的 Enclave 内部才能被解密&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;1.4 管理和开发 Nitro Enclave 应用&lt;/h3&gt; 
+&lt;p&gt;如果需要开发一个运行于 Enclave 中的应用，需要先将 Enclave 运行所需的代码，依赖包等打包成 Docker 镜像格式， 然后将 Docker 镜像转换成 Enclave 镜像 (.eif)，以启动 Enclave。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Nitro Enclave 提供一个命令行工具 Nitro-CLI，用来创建，部署和管理Enclave:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-build-enclave.html"&gt;nitro-cli build-enclave&lt;/a&gt;: 将 Docker 镜像转换成 Enclave 镜像 (.eif文件)&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;code&gt;nitro-cli build-enclave --docker-uri repository:tag --docker-dir /path_to/dockerfile_directory --output-file enclave_image_filename --private-key key.pem --signing-certificate certificate.pem&lt;/code&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-run-enclave.html"&gt;nitro-cli run-enclave&lt;/a&gt;: 从 Enclave 镜像文件在 EC2 上启动一个 Enclave&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;strong&gt;:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;每台&lt;/strong&gt;&lt;strong&gt; EC2 &lt;/strong&gt;&lt;strong&gt;上只支持运行一个&lt;/strong&gt;&lt;strong&gt; enclave &lt;/strong&gt;&lt;strong&gt;环境，且&lt;/strong&gt;&lt;strong&gt; EC2 &lt;/strong&gt;&lt;strong&gt;实例至少具备&lt;/strong&gt;&lt;strong&gt; 4 &lt;/strong&gt;&lt;strong&gt;个&lt;/strong&gt;&lt;strong&gt; CPU&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nitro-cli run-enclave --cpu-count number_of_vcpus --cpu-ids list_of_vcpu_ids --memory amount_of_memory_in_MiB --eif-path path_to_enclave_image_file [--enclave-cid cid_number] [--debug-mode]&lt;/code&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-describe-enclaves.html"&gt;nitro-cli describe-enclaves&lt;/a&gt;: 查看当前运行的 Enclave&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;code&gt;nitro-cli describe-enclaves&lt;/code&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-console.html"&gt;nitro-cli console&lt;/a&gt;: 以只读模式连接到一个运行的 Enclave，获取 Console 输出.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;strong&gt;:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;只有以&lt;/strong&gt;&lt;strong&gt;–debug-mode&lt;/strong&gt;&lt;strong&gt;模式运行的&lt;/strong&gt;&lt;strong&gt; enclave&lt;/strong&gt;&lt;strong&gt;，才允许&lt;/strong&gt;&lt;strong&gt; console &lt;/strong&gt;&lt;strong&gt;连接&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nitro-cli console --enclave-id enclave_id&lt;/code&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-terminate-enclave.html"&gt;nitro-cli terminate-enclave&lt;/a&gt;: 关闭指定的 enclave&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;code&gt;nitro-cli terminate-enclave --enclave-id enclave_id&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;另外，亚马逊云科技提供一系列工具，方便用户开发 Enclave 应用：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href="http://aws.amazon.com/marketplace/pp/B08R69DKQ1"&gt;Nitro Enclaves Developer AMI&lt;/a&gt;: 包含开发 Enclave 应用程序和构建 Enclave 镜像文件所需的工具和组件，以及示例应用&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://github.com/aws/aws-nitro-enclaves-sdk-c"&gt;Nitro Enclaves SDK&lt;/a&gt;: 一组可用于开发 enclave 应用程序的 c 语言开源库，与KMS 集成，并为 attestation 证明和加密操作提供内置支持。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;2. 搭建一个 Nitro Enclave 示例环境，结合 KMS 实现私钥安全&lt;/h2&gt; 
+&lt;p&gt;下面将以一个私钥管理应用场景的示例，使用 Python 代码演示如何在 Nitro Enclave 中处理私钥数据，并结合 KMS 和 Attestation，保证私钥在加密，解密，存储和签名过程中的安全。该示例将包括：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;创建和部署两个 Enclave，一个实现私钥的生成和加密，另一个实现私钥的解密和签名&lt;/li&gt; 
+ &lt;li&gt;Enclave 通过 vsock 与父实例通信&lt;/li&gt; 
+ &lt;li&gt;Enclave 通过父实例上运行 KMS Proxy，访问 KMS 服务&lt;/li&gt; 
+ &lt;li&gt;Enclave 向 Nitro Hypervisor 请求 Attestation 证明文件&lt;/li&gt; 
+ &lt;li&gt;在 Enclave 中向 KMS 发送 API 请求时，带上证明文件&lt;/li&gt; 
+ &lt;li&gt;KMS 服务配置密钥策略，将密钥的访问权限仅授予特定的 Enclave&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;私钥管理应用场景示例架构图和工作流如下：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;首先创建一个 KMS Key，启动支持 Enclave 的两台 EC2 实例，分别创建和运行 Enclave，vsock 和 KMS Proxy。&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;在 Enclave-1 中通过 kms:GenerateRandom API 生成一个 256 位的私钥，利用私钥生成对应的公钥(ecdsa-p256k1)&lt;/li&gt; 
+ &lt;li&gt;在 Enclave-1 中通过 kms:GenerateDataKey API 获取加密密钥（包括一个明文 DataKey 和一个KMS加密的 DataKey），使用明文 DataKey 对私钥进行 Client-Side 加密&lt;/li&gt; 
+ &lt;li&gt;在 Enclave-1 中，将加密的私钥，加密的 DataKey 和公钥，通过 vsock 发送到父实例&lt;/li&gt; 
+ &lt;li&gt;在 EC2-1 父实例中，将从 vsock 中收到的数据（加密的私钥，加密的 DataKey 和公钥）写入到 DynamoDB 数据库&lt;/li&gt; 
+ &lt;li&gt;在 EC2-2 父实例中，从 DynamoDB 中读取一条数据（私钥ID，加密的私钥，加密的 DataKey 和公钥），通过 vsock 将加密的私钥，加密的 DataKey 和需要被签名的消息，发送给 Enclave-2&lt;/li&gt; 
+ &lt;li&gt;在 Enclave-2 中，从vsock接收数据（加密的私钥，加密的 DataKey 和需要被签名的消息），通过 kms:Decrypt API 对加密的 DataKey 进行解密，获取明文 DataKey&lt;/li&gt; 
+ &lt;li&gt;在 Enclave-2 中，使用明文 DataKey 对加密的私钥进行解密，并使用私钥，对消息进行签名&lt;/li&gt; 
+ &lt;li&gt;在 Enclave-2 中，将签名后的消息通过通过 vsock 发送到父实例&lt;/li&gt; 
+ &lt;li&gt;在 EC2-2 父实例中，对送 vsock 接收到的签名消息，使用公钥进行验证&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;h3&gt;2.1 基础环境部署&lt;/h3&gt; 
+&lt;h4&gt;2.1.1 启动两台 EC2 实例，安装依赖包&lt;/h4&gt; 
+&lt;p&gt;首先创建 EC2 及 Enclave 程序所需的 IAM Role，至少需要具备 DynamoDB 的访问权限。为了简化配置，在 demo 中直接使用了 KMS 和 DynamoDB 托管的 FullAccess 策略。但在生产环境中，不能直接使用托管策略，需要自定义用户策略，进行访问行为和资源级别的精细化授权。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 启动两台 Amazon Linux2 的 m5.xlarge EC2 实例(至少 4 vCPU 的 Nitro 实例类型), 需要手动启用 Enclave (创建 EC2 时默认不启用 enclave )&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 创建 EC2 实例时，在User Data 中，粘贴以下信息，完成安装 Nitro-CLI ，Docker，以及其他 Enclave 程序所需的依赖包，修改 Enclave 可占用的最大内存，下载 Enclave 示例代码等。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;#!/bin/bash
+amazon-linux-extras install aws-nitro-enclaves-cli -y
+yum install aws-nitro-enclaves-cli-devel -y
+usermod -aG ne ec2-user
+systemctl start nitro-enclaves-allocator.service &amp;amp;&amp;amp; systemctl enable nitro-enclaves-allocator.service
+amazon-linux-extras install docker -y
+usermod -aG docker ec2-user
+systemctl start docker &amp;amp;&amp;amp; systemctl enable docker
+yum install git -y
+pip3 install ecdsa
+pip3 install requests
+pip3 install boto3
+sed -i &amp;quot;s/memory_mib: 512/memory_mib: 3072/g&amp;quot; /etc/nitro_enclaves/allocator.yaml
+su ec2-user -c 'cd /home/ec2-user &amp;amp;&amp;amp; git clone https://github.com/hxhwing/Nitro-Enclave-Demo.git'
+shutdown -r now
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;EC2 启动完成后，修改实例名称用于标记：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;第一台 EC2: NitroEnclaveDemo-1，用于生成，加密私钥，存储到 DynamoDB&lt;/li&gt; 
+ &lt;li&gt;第二台 EC2: NitroEnclaveDemo-2，用于解密私钥，签名和验证消息&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h4&gt;2.1.2 创建 KMS Key&lt;/h4&gt; 
+&lt;p&gt;在 Amazon KMS 服务中创建一个对称密钥，用于在 Enclave 中调用 KMS API，进行私钥的生成和加解密。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;第一步： 选择对称密钥&lt;/li&gt; 
+ &lt;li&gt;第二步： 为 Key 添加别名NitroEnclaveDemo&lt;/li&gt; 
+ &lt;li&gt;第三步： 选择 Key 的管理员用户（只有 Key 管理员可以删除或修改 Key 的权限）&lt;/li&gt; 
+ &lt;li&gt;第四步： 密钥使用权限，不选择任何用户或角色&lt;/li&gt; 
+ &lt;li&gt;第五步： 修改自动生成的 Key Policy，在 Statements 中添加以下策略，为前面步骤创建的 EC2 Role 分配 “kms:Decrypt”,”kms:GenerateDataKey”,”kms:GenerateRandom” 权限，暂不配置策略条件&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;       {
+           &amp;quot;Sid&amp;quot;: &amp;quot;Allow NitroEnclave-Demo Role&amp;quot;,
+           &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
+           &amp;quot;Principal&amp;quot;: {
+               &amp;quot;AWS&amp;quot;: &amp;quot;arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo&amp;quot;  # Replace account ID
+           },
+           &amp;quot;Action&amp;quot;: [
+               &amp;quot;kms:GenerateRandom&amp;quot;,
+               &amp;quot;kms:GenerateDataKey&amp;quot;,
+               &amp;quot;kms:Decrypt&amp;quot;
+               ],
+           &amp;quot;Resource&amp;quot;: &amp;quot;*&amp;quot;
+       },
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h4&gt;2.1.3 创建 DynamoDB Table&lt;/h4&gt; 
+&lt;p&gt;创建一个 DynamoDB Table，用于存放加密后的私钥，加密的 DataKey 和公钥。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Table Name:&amp;nbsp;UserToken&lt;/li&gt; 
+ &lt;li&gt;Partition key:&amp;nbsp;userid (String)&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;strong&gt;:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;DynamoDB Table Name &lt;/strong&gt;&lt;strong&gt;和&lt;/strong&gt;&lt;strong&gt; Partition key &lt;/strong&gt;&lt;strong&gt;请与上面完全一致，如果需要修改，请同时相应修改示例程序中&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;client.py&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;的&lt;/strong&gt;&lt;strong&gt; DynamoDB &lt;/strong&gt;&lt;strong&gt;相关代码。&lt;/strong&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h3&gt;2.2 创建Enclave，运行示例代码&lt;/h3&gt; 
+&lt;p&gt;示例代码&amp;nbsp;Nitro-Enclave-Demo&amp;nbsp;已经被自动下载到 ec2-user 用户目录下，示例代码包含两个目录&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;GenerateToken: 运行在第一台 EC2 ，用于生成和加密私钥的 Enclave&lt;/li&gt; 
+ &lt;li&gt;SignVerify: 运行在第二台 EC2，用于解密私钥，签名和验证消息的&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;[ec2-user@ip-172-31-33-19 ~]$ cd Nitro-Enclave-Demo/
+[ec2-user@ip-172-31-33-19 Nitro-Enclave-Demo]$ ls -l
+total 4
+drwxr-xr-x 2 ec2-user ec2-user  206 Aug 28 16:12 GenerateToken
+drwxr-xr-x 2 ec2-user ec2-user   87 Aug 28 16:12 pics
+-rw-r--r-- 1 ec2-user ec2-user 3094 Aug 28 16:12 README.md
+drwxr-xr-x 2 ec2-user ec2-user  189 Aug 28 16:12 SignVerify
+drwxr-xr-x 4 ec2-user ec2-user   51 Aug 28 16:12 src
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;h4&gt;2.2.1 创建和运行第一个 Enclave，生成和加密私钥&lt;/h4&gt; 
+&lt;p&gt;首先登录到第一台 EC2，进入 /home/ec2-user/Nitro-Enclave-Demo/GenerateToken/ 目录，主要包括以下几个文件&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;py: 运行在 Enclave 中的主程序文件，包括：从 KMS 生成私钥，从 KMS 获取 DataKey，加密私钥，将加密后的数据通过vsock发给父实例&lt;/li&gt; 
+ &lt;li&gt;traffic-fowarder.py: 运行在 Enclave 中，用于将 Enclave 访问 KMS 的请求通过 vsock 发送到父实例&lt;/li&gt; 
+ &lt;li&gt;py: 用于获取 Attestation 签名，访问 KMS API，以及解密 KMS API Response&lt;/li&gt; 
+ &lt;li&gt;py: 运行在父实例中的程序文件，包括：从 Enclave 接收加密后的数据，将数据写入到 DynamoDB&lt;/li&gt; 
+ &lt;li&gt;Dockerfile: Docker 镜像文件，&lt;a href="http://main.py/"&gt;py&lt;/a&gt;和&amp;nbsp;&lt;a href="http://traffic-fowarer.py/"&gt;traffic-fowarer.py&lt;/a&gt;&amp;nbsp;都将被打包进容器镜像&lt;/li&gt; 
+ &lt;li&gt;sh: 创建 Docker 镜像，将 Docker 镜像转换为 Enclave 镜像，并运行 Enclave 的自动化脚本&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;运行sh，创建 Enclave 镜像，并以debug-mode&amp;nbsp;运行 Enclave。其中创建 Enclave 镜像完成后，将自动生成该 Enclave 的 PCR 0/1/2，保存到&amp;nbsp;EnclaveImage.log&amp;nbsp;的文件中.&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-33-19 GenerateToken]$ chmod +x build.sh&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-33-19 GenerateToken]$ ./build.sh&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;build 脚本运行完成后， Enclave 将以 debug 模式运行，用户可通过 nitro-cli 连接到运行的 Enclave 控制台，查看 Enclave 运行过程输出到Console的日志，主要用于排错&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nitro-cli console --enclave-id $(nitro-cli describe-enclaves | jq -r &amp;quot;.[0].EnclaveID&amp;quot;)&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;2. 运行 client.py 代码，运行方式如下：&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;python3 client.py &amp;lt;KMS Key-id&amp;gt; &amp;lt;UserID&amp;gt;&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;其中 “KMS Key-id” 为前面步骤中创建的别名为 NitroEnclaveDemo 的 KMS Key， “UserID” 用于标示即将生成的私钥属于哪个用户。&lt;/p&gt; 
+&lt;p&gt;运行&amp;nbsp;client.py&amp;nbsp;代码后，将自动返回从 Enclave 中接收到的数据，并将数据写入到 DynamoDB Table，数据字段包括：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;userid: 用于标示私钥属于哪个用户&lt;/li&gt; 
+ &lt;li&gt;encrypted_privatekey: 在 Enclave 中，被 KMS DataKey 加密后的私钥&lt;/li&gt; 
+ &lt;li&gt;publickey: 在 Enclave 中，由私钥生成的公钥&lt;/li&gt; 
+ &lt;li&gt;encrypted_datakey: KMS 加密后的 DataKey，将用于解密私钥&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-33-19 GenerateToken]$ python3 client.py alias/NitroEnclaveDemo u001&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt; {&amp;quot;userid&amp;quot;: &amp;quot;u001&amp;quot;, &amp;quot;encrypted_privatekey&amp;quot;: &amp;quot;4xiMsmD1VMw1I48HMApw4LzDSWT9lz/x74dMNCz1427hz98t0JzyrFzDd68vrKl0wKB1a/LoLyhi\nvJSgQwSfCA==\n&amp;quot;, &amp;quot;publickey&amp;quot;: &amp;quot;0a0756e60e112d11f0d5e4a88858251f1234e27ea37261da4698d497baa6a52bbe9a3d227534866351086d7220548a4ff00fb081c9b318361cac5dae9c661f8c&amp;quot;, &amp;quot;encrypted_datakey&amp;quot;: &amp;quot;AQIBAHhVM1N8G00xz9DVe3FbnRAxaxNCkCaRYV6/wLYxbwj04QFUWvIkLZ6TYPE2GTUdKvMbAAAAdjB0BgkqhkiG9w0BBwagZzBlAgEAMGAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMhfwZjlaOr8pCQneAgEQgDNMimKpywvNdcpJIgPZUYrhE5uQvzonU5o/uYhPMmZmb/kWotQNH6KSFxuTBdx6FeM0vQs=&amp;quot;} Write User Token to DynamoDB Successfully [ec2-user@ip-172-31-33-19 GenerateToken]$&lt;/code&gt;&lt;/p&gt; 
+&lt;h4&gt;2.2.2 创建和运行第二个 Enclave，解密私钥，签名和验证消息&lt;/h4&gt; 
+&lt;p&gt;登录到第二台 EC2，进入 /home/ec2-user/Nitro-Enclave-Demo/SignVerify 目录：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;main.py: 运行在 Enclave 中的主程序文件，包括：从 KMS 解密 DataKey，用 DataKey 解密私钥，用私钥签名消息，将签名后的消息通过vsock发给父实例&lt;/li&gt; 
+ &lt;li&gt;client.py: 运行在父实例中的程序文件，包括：从 DynamoDB 中读取数据，发送到 Enclave，然后从 Enclave 接收被私钥签名后的消息，并使用公钥验证签名消息&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;运行build.sh，创建 Enclave 镜像，并以debug-mode 运行 Enclave。其中创建 Enclave 镜像完成后，将自动生成该 Enclave 的 PCR 0/1/2，保存到 EnclaveImage.log 的文件中.&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-36-174 SignVerify]$ chmod +x build.sh&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-36-174 SignVerify]$ ./build.sh&lt;/code&gt;&lt;/p&gt; 
+&lt;ol start="2"&gt; 
+ &lt;li&gt;运行client.py代码，运行格式如下：&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;p&gt;&lt;code&gt;python3 client.py &amp;lt;UserID&amp;gt; &amp;lt;Message to be Signed&amp;gt;&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;其中 “UserID” 代表从 DynamoDB 中读取哪个用户的密钥数据，“Message to be Signed” 代表将被发送到 Enclave 中被私钥签名的消息。&lt;/p&gt; 
+&lt;p&gt;运行&amp;nbsp;client.py&amp;nbsp;代码后，将自动返回从 Enclave 中接收到的数据，数据字段包括：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Signed Message: Enclave 中被私钥签名后的消息&lt;/li&gt; 
+ &lt;li&gt;Signed message verified by public key: True/False，表示签名的消息是否可以被公钥验证，确保私钥和公钥没有被修改&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-36-174 SignVerify]$ python3 client.py u001 'Hellow World'&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;Signed Message: 6053cfc42883d03888ba175950e463c1d8164cab8b4873b85af8531a0c6f86b8ad07012107e3322d30118ea24976f8c8f70014119159101ecc1797e7a9f72915&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;Signed message verified by public key: True&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-36-174 SignVerify]$&lt;/code&gt;&lt;/p&gt; 
+&lt;h3&gt;2.3 配置 KMS 密钥策略，根据 Attestation PCR 授权&lt;/h3&gt; 
+&lt;p&gt;当以&amp;nbsp;debug-mode&amp;nbsp;运行 Enclave 时，Attestation 证明文件中的 PCR 为全 0，无法用来在外部服务上作为策略条件，进行权限控制。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nitro-cli run-enclave ...... --debug-mode&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;运行 nitro-cli run-enclave 时，不加–debug-mode, 是以正常模式运行 Enclave，Attestation 证明文件中才会包含 Enclave 正常的 PCR。&lt;/p&gt; 
+&lt;p&gt;首先在 KMS 密钥策略，添加相应的 Condition Key 限制 Attestation PCR ，其中&amp;nbsp;kms:RecipientAttestation:ImageSha384&amp;nbsp;与 PCR 0 为相同的值，每个 Enclave 的 PCR 0/1/2，可以在 Build Enclave 镜像的时候获取，本示例是写到所在代码目录下 EnclaveImage.log 文件中。&lt;/p&gt; 
+&lt;p&gt;在 KMS NitroEnclaveDemo 这个 Key 的密钥策略中，添加以下两条 Deny 权限策略语句，到 KMS Key Policy 的 Statement 字段中：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;第一段策略，授权只有来自 Enclave-1，且携带 Attestation 证明文件才能访问 kms:GenerateDataKey API，注意请替换为您自己的 PCR 0/1/2 Value&lt;/li&gt; 
+ &lt;li&gt;第二段策略，授权只有来自 Enclave-2 ，且携带 Attestation 证明文件才能访问 kms:Decrypt API，注意请替换为您自己的 PCR 0/1/2 Value&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;        {
+            &amp;quot;Sid&amp;quot;: &amp;quot;Only Allow NitroEnclaveDemo-1&amp;quot;,
+            &amp;quot;Effect&amp;quot;: &amp;quot;Deny&amp;quot;,
+            &amp;quot;Principal&amp;quot;: {
+                &amp;quot;AWS&amp;quot;: &amp;quot;arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo&amp;quot;
+            },
+            &amp;quot;Action&amp;quot;: [
+                &amp;quot;kms:GenerateRandom&amp;quot;,
+                &amp;quot;kms:GenerateDataKey&amp;quot;
+            ],
+            &amp;quot;Resource&amp;quot;: &amp;quot;*&amp;quot;,
+            &amp;quot;Condition&amp;quot;: {
+              &amp;quot;StringNotEqualsIgnoreCase&amp;quot;: {
+                &amp;quot;kms:RecipientAttestation:ImageSha384&amp;quot;:&amp;quot;17b041934b2255ae55b07433012e4d41999feda85eb839970645458a35f8571360f32ca68b5178dca8bdecf9fd37c010&amp;quot;,
+                &amp;quot;kms:RecipientAttestation:PCR0&amp;quot;:&amp;quot;17b041934b2255ae55b07433012e4d41999feda85eb839970645458a35f8571360f32ca68b5178dca8bdecf9fd37c010&amp;quot;,
+                &amp;quot;kms:RecipientAttestation:PCR1&amp;quot;:&amp;quot;c35e620586e91ed40ca5ce360eedf77ba673719135951e293121cb3931220b00f87b5a15e94e25c01fecd08fc9139342&amp;quot;, 
+                &amp;quot;kms:RecipientAttestation:PCR2&amp;quot;:&amp;quot;1fc61c8c21fb3ec93ae854341f5b9adc1e7bbc2eb437cc308e5fb2f4787393fe500fa4c894422a92d79eb3ce172c1a8e&amp;quot;
+              }
+            }
+        },
+        {
+            &amp;quot;Sid&amp;quot;: &amp;quot;Only Allow NitroEnclaveDemo-2&amp;quot;,
+            &amp;quot;Effect&amp;quot;: &amp;quot;Deny&amp;quot;,
+            &amp;quot;Principal&amp;quot;: {
+                &amp;quot;AWS&amp;quot;: &amp;quot;arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo&amp;quot;
+            },
+            &amp;quot;Action&amp;quot;: [
+                &amp;quot;kms:Decrypt&amp;quot;
+            ],
+            &amp;quot;Resource&amp;quot;: &amp;quot;*&amp;quot;,
+            &amp;quot;Condition&amp;quot;: {
+              &amp;quot;StringNotEqualsIgnoreCase&amp;quot;: {
+                &amp;quot;kms:RecipientAttestation:ImageSha384&amp;quot;:&amp;quot;810257e9bd2ecad2181fcff508c7547ef0f3c1d446628f5465c955c4f2a2d3cfac9198919999614ffbed8e0b18c6c084&amp;quot;,
+                &amp;quot;kms:RecipientAttestation:PCR0&amp;quot;:&amp;quot;810257e9bd2ecad2181fcff508c7547ef0f3c1d446628f5465c955c4f2a2d3cfac9198919999614ffbed8e0b18c6c084&amp;quot;,
+                &amp;quot;kms:RecipientAttestation:PCR1&amp;quot;:&amp;quot;c35e620586e91ed40ca5ce360eedf77ba673719135951e293121cb3931220b00f87b5a15e94e25c01fecd08fc9139342&amp;quot;, 
+                &amp;quot;kms:RecipientAttestation:PCR2&amp;quot;:&amp;quot;72457ef34f66f041996e7077f55604f0f73b1d2e3fad54881308d38da6d22bc8cd2084ab3b8810b22da629a24eef94e6&amp;quot;
+              }
+            }
+        },
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 在 EC2 上测试直接用 CLI 访问 KMS，提示请求被拒绝，确认密钥策略权限已生效&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-33-19 ~]$ aws kms generate-data-key --key-id alias/NitroEnclaveDemo --number-of-bytes 32 --region ap-northeast-1&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;An error occurred (AccessDeniedException) when calling the GenerateDataKey operation: User: arn:aws:sts::xxxxxxxxxx:assumed-role/NitroEnclave-Demo/i-0e4fc2c648b901c7e is not authorized to perform: kms:GenerateDataKey on resource: arn:aws:kms:ap-northeast-1:xxxxxxxxxx:key/6390f2e0-86d6-46cb-8478-37dcfa6aa2dc with an explicit deny&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;分别在两台 EC2 上执行以下命令，终止前面步骤启动的 Enclave&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;nitro-cli terminate-enclave --enclave-id $(nitro-cli describe-enclaves | jq -r &amp;quot;.[0].EnclaveID&amp;quot;)&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;然后在两台 EC2 上重新启动 Enclave，不添加 –debug-mode 参数&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;## NitroEnclaveDemo-1
+[ec2-user@ip-172-31-33-19 GenerateToken]$ nitro-cli run-enclave --cpu-count 2 --memory 2900 --enclave-cid 10 --eif-path GenerateToken-demo.eif
+Start allocating memory...
+Started enclave with enclave-cid: 10, memory: 3072 MiB, cpu-ids: [1, 3]
+{
+  &amp;quot;EnclaveID&amp;quot;: &amp;quot;i-0e4fc2c648b901c7e-enc17b908ba803d724&amp;quot;,
+  &amp;quot;ProcessID&amp;quot;: 7565,
+  &amp;quot;EnclaveCID&amp;quot;: 10,
+  &amp;quot;NumberOfCPUs&amp;quot;: 2,
+  &amp;quot;CPUIDs&amp;quot;: [
+    1,
+    3
+  ],
+  &amp;quot;MemoryMiB&amp;quot;: 3072
+}
+
+
+## NitroEnclaveDemo-2
+[ec2-user@ip-172-31-36-174 SignVerify]$ nitro-cli run-enclave --cpu-count 2 --memory 2900 --enclave-cid 10 --eif-path SignVerify-demo.eif
+Start allocating memory...
+Started enclave with enclave-cid: 10, memory: 3072 MiB, cpu-ids: [1, 3]
+{
+  &amp;quot;EnclaveID&amp;quot;: &amp;quot;i-0558cbee6ea7a393c-enc17b908f0730bcb2&amp;quot;,
+  &amp;quot;ProcessID&amp;quot;: 7533,
+  &amp;quot;EnclaveCID&amp;quot;: 10,
+  &amp;quot;NumberOfCPUs&amp;quot;: 2,
+  &amp;quot;CPUIDs&amp;quot;: [
+    1,
+    3
+  ],
+  &amp;quot;MemoryMiB&amp;quot;: 3072
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;然后分别在两台 EC2 的父实例上，运行client.py，确认代码能正常运行。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;## NitroEnclaveDemo-1
+[ec2-user@ip-172-31-33-19 GenerateToken]$ python3 client.py alias/NitroEnclaveDemo u010
+{&amp;quot;userid&amp;quot;: &amp;quot;u010&amp;quot;, &amp;quot;encrypted_privatekey&amp;quot;: &amp;quot;h08szIyVaTrjH1TF95+aXooPKC/QZwGRDaZv7Cp/LmFG2FQumbZR49NrnsOYBsS+VxsvPtSlBE2s\nnEYQLMI9lQ==\n&amp;quot;, &amp;quot;publickey&amp;quot;: &amp;quot;9552c9f2c51be3b7143e3cfe9c71f7dcac028d368530ffbbdb34512092611e4996e9e1bcab27e4a879ff630629d7f930d2db84c295e97334d1f3335d31e7ac87&amp;quot;, &amp;quot;encrypted_datakey&amp;quot;: &amp;quot;AQIBAHhVM1N8G00xz9DVe3FbnRAxaxNCkCaRYV6/wLYxbwj04QFKhpZ//ap2EgINgILddtu0AAAAdjB0BgkqhkiG9w0BBwagZzBlAgEAMGAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMScLI1DYM6y6hd0d4AgEQgDO2pbbcrEEd+trVcqiqkFdlhXY/ZVEMoRqRsQAUMdJq24zwGgl6UYOjLCviBHs2wI8jC5A=&amp;quot;}
+Write User Token to DynamoDB Successfully
+[ec2-user@ip-172-31-33-19 GenerateToken]$
+
+## NitroEnclaveDemo-2
+[ec2-user@ip-172-31-36-174 SignVerify]$ python3 client.py u010 'Hello World'
+Signed Message: b27a5c527e218774b316f674eae537ce88b3f986b7f5df583906b1c9a9ba9bb00d2975fe4a065d5a1e74bb6947fe11c8fc90d3ac389be638b2745431de04ebd9
+Signed message verified by public key: True
+[ec2-user@ip-172-31-36-174 SignVerify]$
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;在 CloudTrail 中，查看 KMS API 的请求记录，在来自 Enclave 的请求记录中，将会存在额外的 Attestation 数据。&lt;/p&gt; 
+&lt;p&gt;来自第一台 Enclave 请求 kms:GenerateDataKey 的 CloudTrail：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave10.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 来自第二台 Enclave 请求 kms:Decrypt 的 CloudTrail：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave11.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;总结&lt;/h2&gt; 
+&lt;p&gt;Nitro Enclave 使用户可以在 亚马逊云科技上，简便，安全地运行隔离的可信计算环境，用于处理私钥，PII等敏感数据。另外 Nitro Enclave 不需要强制绑定 CPU 芯片，支持 Intel，AMD 芯片的计算实例，没有任何额外费用，具备更好的灵活性和成本效益，且与云原生的安全服务 KMS，ACM 直接集成，为用户提供更好的使用体验和安全性保障。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/hxh.jpg" width="125" /&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;胡新华&lt;/h3&gt; 
+  &lt;p&gt;AWS解决方案架构师，负责金融行业基于AWS的云计算架构咨询和设计。加入AWS之前就职于IBM，在数据中心IT基础架构相关的解决方案设计和交付方面，具有十多年经验。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
 		<title>云原生编排数据分析管道初探</title>
-		<link>https://aws.amazon.com/cn/blogs/china/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline/</link>
-				<pubDate>Tue, 31 Aug 2021 04:25:44 +0000</pubDate>
+		<link>https://aws.amazon.com/cn/blogs/china/preliminary-study-on-cloud-native-data-analysis-pipeline-orchestration/</link>
+				<pubDate>Tue, 31 Aug 2021 09:38:55 +0000</pubDate>
 		<dc:creator><![CDATA[AWS Team]]></dc:creator>
 				<category><![CDATA[Analytics]]></category>
 		<category><![CDATA[AWS Glue]]></category>
@@ -24,9 +520,9 @@
 		<guid isPermaLink="false">0b70c5edda6b82f38e382a0cee30e9d3989f70d1</guid>
 				<description>公有云是适合数据分析和大数据处理的天然平台。近年来，云服务和开源社区涌现出许多优秀的工作流编排工具，方便就数据分析中复杂的抽取转换加载 (ETL) 过程进行任务编排。要成功运行数据分析管道，需要至少两个必要准备，一是搭建好支持运行数据管道的基础设施。二是编排好数据管道的 ETL 任务顺序。前者涉及运维，后者事关业务。从数据分析的角度，则希望运维难度最小，业务易用度最大。本文从上述两个角度切入，就 Airflow 和状态机支持数据分析管道的情况进行分析，并初步探讨云原生编排数据管道的方法和意义。</description>
 								<content:encoded>&lt;h2&gt;摘要&lt;/h2&gt; 
-&lt;p&gt;公有云是适合数据分析和大数据处理的天然平台。近年来，云服务和开源社区涌现出许多优秀的工作流编排工具，方便就数据分析中复杂的抽取转换加载 (ETL)&amp;nbsp;过程进行任务编排。亚马逊云科技（亚马逊）的 Step Functions 状态机和开源社区的 Airflow 是其中的典型代表。 要成功运行数据分析管道，需要至少两个必要准备，一是搭建好支持运行数据管道的基础设施，例如部署好 Airflow 的调度器和执行器等。二是编排好数据管道的&amp;nbsp;ETL 任务顺序，例如状态机的 JSON 定义文件或者 Airflow 的有向无环图定义。前者涉及运维，后者事关业务。从数据分析的角度，则希望运维难度最小，业务易用度最大。本文从上述两个角度切入，就 Airflow 和状态机支持数据分析管道的情况进行分析，并初步探讨云原生编排数据管道的方法和意义。&lt;/p&gt; 
+&lt;p&gt;公有云是适合数据分析和大数据处理的天然平台。近年来，云服务和开源社区涌现出许多优秀的工作流编排工具，方便就数据分析中复杂的抽取转换加载 (ETL) 过程进行任务编排。亚马逊云科技（亚马逊）的 Step Functions 状态机和开源社区的 Airflow 是其中的典型代表。要成功运行数据分析管道，需要至少两个必要准备，一是搭建好支持运行数据管道的基础设施，例如部署好 Airflow 的调度器和执行器等。二是编排好数据管道的 ETL 任务顺序，例如状态机的 JSON 定义文件或者 Airflow 的有向无环图定义。前者涉及运维，后者事关业务。从数据分析的角度，则希望运维难度最小，业务易用度最大。本文从上述两个角度切入，就 Airflow 和状态机支持数据分析管道的情况进行分析，并初步探讨云原生编排数据管道的方法和意义。&lt;/p&gt; 
 &lt;h2&gt;Abstract&lt;/h2&gt; 
-&lt;p&gt;Public cloud is one of the most suitable&amp;nbsp;platforms for data analysis and big data processing. In recent years, many excellent workflow orchestration tools have&amp;nbsp;proliferated in cloud services and open source communities to facilitate orchestration of complex ETL jobs in data analysis. AWS Step Functions and Airflow from open source community are two typical examples. To run the data analysis pipelines successfully, at least two steps are necessary. Firstly, to build the infrastructure to support running the data pipelines, such as the deployment of Airflow’s schedulers and executors. Secondly, to orchestrate the ETL tasks in the data pipelines, such as the JSON definition of the state machine or Airflow’s directed acyclic graph definition. The former involves dev-ops, while the latter is related to application. From the perspective of data analysis, it is ideal that the difficulty of dev-ops is minimized, and the user-friendliness of application is maximized. This article analyzes how well Airflow and Step Functions support data analysis pipelines from the above two points of view, and preliminarily discusses the methodology and significance of cloud-native services for orchestrating data pipelines.&lt;/p&gt; 
+&lt;p&gt;Public cloud is one of the most suitable platforms for data analysis and big data processing. In recent years, many excellent workflow orchestration tools have proliferated in cloud services and open source communities to facilitate orchestration of complex ETL jobs in data analysis. AWS Step Functions and Airflow from open source community are two typical examples. To run the data analysis pipelines successfully, at least two steps are necessary. Firstly, to build the infrastructure to support running the data pipelines, such as the deployment of Airflow’s schedulers and executors. Secondly, to orchestrate the ETL tasks in the data pipelines, such as the JSON definition of the state machine or Airflow’s directed acyclic graph definition. The former involves dev-ops, while the latter is related to application. From the perspective of data analysis, it is ideal that the difficulty of dev-ops is minimized, and the user-friendliness of application is maximized. This article analyzes how well Airflow and Step Functions support data analysis pipelines from the above two points of view, and preliminarily discusses the methodology and significance of cloud-native services for orchestrating data pipelines.&lt;/p&gt; 
 &lt;h3&gt;目标读者&lt;/h3&gt; 
 &lt;p&gt;本文预期读者需要掌握以下技术的基础知识：&lt;/p&gt; 
 &lt;ul&gt; 
@@ -40,18 +536,18 @@
 &lt;ul&gt; 
  &lt;li&gt;&lt;a href="https://github.com/aws-samples/aws-stepfunctions-data-processing-pipeline"&gt;https://github.com/aws-samples/aws-stepfunctions-data-processing-pipeline&lt;/a&gt;&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;绪论&lt;/h2&gt; 
 &lt;p&gt;2020年11月，亚马逊发布了托管的 Airflow 服务，全称为 Managed Workflows for Apache Airflow (MWAA)，支持 1.10.12 版。2021年5月开始支持 2.0.2 版。但截至目前（2021年8月），中国北京区、宁夏区和香港区皆未提供托管服务。如果要使用 Airflow，则需要自行搭建部署，例如利用 Elastic Container Service。或者换成其他云原生的编排服务，例如 Step Functions 状态机或 Simple Workflow Service。本文以某 MWAA 的数据分析指导教程为引子，介绍 MWAA 资源代码化的方法，并对如何在中国区使用云原生服务达到类似编排数据分析管道的目的，进行初探。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;教程简介&lt;/h2&gt; 
-&lt;p&gt;&lt;a href="https://amazon-mwaa-for-analytics.workshop.aws/en/"&gt;MWAA 数据分析管道指导教程&lt;/a&gt;是指导利用 MWAA 搭建数据分析管道的教程。该分析管道较简单，线性分为五步，分别是监控文件，爬元数据，转换数据，整合数据，保存结果。简单起见，本文将第四步改造为 Glue 任务，不使用 Elastic MapReduce 集群。部署好的数据管道有向无环图如下：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;以 MWAA 为基础的架构图如下所示。虚线和编号表示该数据管道运行时的数据流向和任务执行顺序。此处不同服务的调用是通过 Airflow 的操作符间接完成的，以 Python 定义在数据管道的有向无环图中。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://amazon-mwaa-for-analytics.workshop.aws/en/"&gt;MWAA 数据分析管道指导教程&lt;/a&gt;是指导利用 MWAA 搭建数据分析管道的教程。该分析管道较简单，线性分为五步，分别是监控文件，爬元数据，转换数据，整合数据，保存结果。简单起见，本文将第四步改造为 Glue 任务，不使用 Elastic MapReduce 集群。部署好的数据管道有向无环图如下：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline1.png" width="624" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;以 MWAA 为基础的架构图如下所示。虚线和编号表示该数据管道运行时的数据流向和任务执行顺序。此处不同服务的调用是通过 Airflow 的操作符间接完成的，以 Python 定义在数据管道的有向无环图中。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline2.png" width="500" /&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;根据该教程介绍，完成时间为一小时左右。抛开初学者的因素，所用时间较长主要是因为所涉及的资源及其配置都是在亚马逊控制台上手工完成，非常耗时，效率低下。如果利用资源代码化技术，则部署时间可以在数分钟内完成（排除 MWAA 自身启动需要的约半小时），提高工作效率，尤其在需要多环境部署测试的情况下。&lt;/p&gt; 
 &lt;h3&gt;资源代码化&lt;/h3&gt; 
 &lt;p&gt;利用亚马逊云开发包 (Cloud Development Kit)，可快速构建云资源部署程序。结合相关代码仓库管理工具如 github，可代码化管理资源的创建和修改过程，方便协同工作和排错溯源。限于篇幅以下仅展示关键代码。完整代码请参阅开放源代码。首先建立 Redshift 集群。云开发包建立好集群后，会自动在密码管理器中新建一密码项，即为该集群的连接密码，全程密码无暴露。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;createCluster(landingZone, subnetGroup) {
+ &lt;pre&gt;&lt;code class="lang-js"&gt;createCluster(landingZone, subnetGroup) {
     return new redshift.Cluster(this, &amp;quot;MainCluster&amp;quot;, {
         masterUser: { masterUsername: &amp;quot;admin&amp;quot; },
         vpc: landingZone.vpc,
@@ -67,7 +563,7 @@
 &lt;/div&gt; 
 &lt;p&gt;其次是建立 MWAA 环境。简化起见配置为可以公网访问。实际生产中建议配置为私网访问。MWAA 对网络配置有特别要求，若不达标环境可能无法启动。子网建议配置为私有子网，即有路由到 NAT 网关。具体请参阅使用手册。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;createEnvironment(envName, role, landingZone, bucket) {
+ &lt;pre&gt;&lt;code class="lang-js"&gt;createEnvironment(envName, role, landingZone, bucket) {
     return new airflow.CfnEnvironment(this, &amp;quot;Lab&amp;quot;, {
         name: envName,
         airflowVersion: &amp;quot;2.0.2&amp;quot;,
@@ -87,7 +583,7 @@
 &lt;/div&gt; 
 &lt;p&gt;MWAA 配置好以后，还需要把有向无环图定义文件上传到存储桶指定位置。利用云开发包的 S3 部署模块完成：&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;uploadDagFile(bucket) {
+ &lt;pre&gt;&lt;code class="lang-js"&gt;uploadDagFile(bucket) {
     new deploy.BucketDeployment(this, &amp;quot;DagScript&amp;quot;,
         sources: [deploy.Source.asset(path.join(__dirname, '../../scripts/airflow/lab/dags/'))],
         destinationBucket: bucket,
@@ -95,22 +591,25 @@
     });
 }&lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
-&lt;p&gt;至此就完成了 MWAA 相关资源的部署程序。部署上述 MWAA 大约耗时半小时，因为涉及服务器的启动连接等。部署耗时长也凸显出非无服务器服务的弊端。当环境状态变为“可用”后，点击“打开 Airflow UI”即可打开 Airflow 的控制台。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;部署完成后，根据教程即可完成数据分析管道相关操作。Airflow 控制台可以显示数据管道完成时间甘特图，形象展示各任务耗时多寡。这是其亮点之一。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;至此就完成了 MWAA 相关资源的部署程序。部署上述 MWAA 大约耗时半小时，因为涉及服务器的启动连接等。部署耗时长也凸显出非无服务器服务的弊端。当环境状态变为“可用”后，点击“打开 Airflow UI”即可打开 Airflow 的控制台。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline3.png" width="800" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;部署完成后，根据教程即可完成数据分析管道相关操作。Airflow 控制台可以显示数据管道完成时间甘特图，形象展示各任务耗时多寡。这是其亮点之一。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline4.png" width="800" /&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h3&gt;安全隐患&lt;/h3&gt; 
-&lt;p&gt;最后一步把存储桶文件复制到 Redshift，需要在&amp;nbsp;Airflow 控制台配置到 Redshift 的连接。连接属性包含用户名和密码明文。此处有暴露密码明文的安全隐患。下面介绍的云原生技术通过密码管理器实现无缝连接，可有效规避密码暴露风险，切实提高系统安全水平。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;最后一步把存储桶文件复制到 Redshift，需要在 Airflow 控制台配置到 Redshift 的连接。连接属性包含用户名和密码明文。此处有暴露密码明文的安全隐患。下面介绍的云原生技术通过密码管理器实现无缝连接，可有效规避密码暴露风险，切实提高系统安全水平。&lt;/p&gt; 
 &lt;h2&gt;云原生编排&lt;/h2&gt; 
-&lt;p&gt;目前 MWAA 尚不支持中国区，故需要自行搭建并维护&amp;nbsp;Airflow 环境，例如在 ECS Fargate 上。但是运维难度不容小觑。亚马逊提供了其他编排服务，例如状态机，完全可以代替&amp;nbsp;Airflow 对数据管道进行编排。此外状态机是无服务器的，毋需关心并事先设定服务器数量性能等运维难题。使用云原生服务，和其他服务紧密集成，可最大化服务效益，增强安全性。和教程数据分析管道等价的状态机工作流如下所示。状态机跨服务集成支持直接启动 Glue 任务，较为简单。其他步骤需做些许变通。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;以云原生服务为基础的架构图如下所示。状态机在各服务之间调度，其中 Glue 任务可以直接执行。爬虫任务需要通过 Lambda 函数辅助。把存储桶的数据载入到 Redshift 可以有多种方法完成，例如 Glue 任务可以直接连接 Redshift 并保存数据。为了和教程中的步骤一一对应，此处利用 Lambda 函数来辅助完成。存储桶文件监控则通过跟踪与规则联合完成。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;目前 MWAA 尚不支持中国区，故需要自行搭建并维护 Airflow 环境，例如在 ECS Fargate 上。但是运维难度不容小觑。亚马逊提供了其他编排服务，例如状态机，完全可以代替 Airflow 对数据管道进行编排。此外状态机是无服务器的，毋需关心并事先设定服务器数量性能等运维难题。使用云原生服务，和其他服务紧密集成，可最大化服务效益，增强安全性。和教程数据分析管道等价的状态机工作流如下所示。状态机跨服务集成支持直接启动 Glue 任务，较为简单。其他步骤需做些许变通。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline5.png" width="400" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;以云原生服务为基础的架构图如下所示。状态机在各服务之间调度，其中 Glue 任务可以直接执行。爬虫任务需要通过 Lambda 函数辅助。把存储桶的数据载入到 Redshift 可以有多种方法完成，例如 Glue 任务可以直接连接 Redshift 并保存数据。为了和教程中的步骤一一对应，此处利用 Lambda 函数来辅助完成。存储桶文件监控则通过跟踪与规则联合完成。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline6.png" width="500" /&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h3&gt;爬元数据&lt;/h3&gt; 
 &lt;p&gt;状态机的跨服务集成目前暂不支持调用 Glue 爬虫，需替代方案。此处利用两个 Lambda 函数和轮询机制实现相同功能。启动爬虫很简单：&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;await glue.startCrawler({Name: crawlerName}).promise();&lt;/code&gt;&lt;/pre&gt; 
+ &lt;pre&gt;&lt;code class="lang-js"&gt;await glue.startCrawler({Name: crawlerName}).promise();&lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;p&gt;爬虫状态查询，如果不是“就绪”状态，则等待十秒后再次查询，直至成功或者超时。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;exports.handler = async event =&amp;gt; {
+ &lt;pre&gt;&lt;code class="lang-js"&gt;exports.handler = async event =&amp;gt; {
     response = await glue.getCrawler({Name: event.crawlerName}).promise();
     const state = response.Crawler.State;
     return state == &amp;quot;READY&amp;quot;;
@@ -118,7 +617,7 @@
 &lt;/div&gt; 
 &lt;p&gt;爬虫调用代替方案的其他两步可以利用状态机的“选择”和“等待”原生操作符完成。这里传入变量 next 作为爬虫轮询结束后的下一步操作。以下代码可作为爬虫调用的模版使用。若想提高响应速度可缩短等待时长。一个典型的爬虫任务需时数分钟。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;createCrawlerStep(next) {
+ &lt;pre&gt;&lt;code class="lang-js"&gt;createCrawlerStep(next) {
     const crawlTask = new task.LambdaInvoke(this, &amp;quot;Crawl&amp;quot;, {
         lambdaFunction: this.lambda(&amp;quot;CrawlLambda&amp;quot;, role, &amp;quot;../lambda/crawler/crawl&amp;quot;),
         payload: sf.TaskInput.fromObject({CrawlerTagName: &amp;quot;NF1-Airflow-Lab-RawGreenCrawler&amp;quot;}),
@@ -143,7 +642,7 @@
 &lt;h3&gt;保存结果&lt;/h3&gt; 
 &lt;p&gt;状态机的跨服务集成尚未对 Redshift 提供支持，对保存结果需要替代方案。Airflow 提供 S3ToRedshiftOperator 操作符将数据从存储桶复制到 Redshift 表中。本质上是通过 Redshift 的 COPY 命令实现的。替代方案亦遵循此思路。利用亚马逊软件开发包的 RedshiftData 模块，可以执行 SQL 语言和数据操作命令。此处通过密码 ARN 获取密码，完全规避密码明文暴露的问题。此外 Glue 也提供应用接口支持直接把数据保存到 Redshift。在保存数据到数据仓库之前可多做一步，将目标表做清空操作（truncate 或 delete），避免因原表中有数据导致冗余。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;await data.executeStatement({
+ &lt;pre&gt;&lt;code class="lang-js"&gt;await data.executeStatement({
     ClusterIdentifier: event.ClusterIdentifier,
     Database: event.Database,
     SecretArn: event.SecretArn,
@@ -152,7 +651,7 @@
 &lt;/div&gt; 
 &lt;p&gt;状态机保存结果的替代方案可以一个 Lambda 函数实现。在生产环境，此处建议以更细粒度和最小化原则配置该函数所赋予的权限，夯实系统安全性。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;createCopyS3ToRedshift(bucket, redshift) {
+ &lt;pre&gt;&lt;code class="lang-js"&gt;createCopyS3ToRedshift(bucket, redshift) {
     const dir = bucket.s3UrlForObject(&amp;quot;airflow/lab/data/aggregated&amp;quot;);
     const sql = `copy nyc.green from '${dir}' iam_role '${redshift.role.roleArn}' format as parquet;`;
 
@@ -170,9 +669,9 @@
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;h3&gt;监控文件&lt;/h3&gt; 
-&lt;p&gt;最后还需要处理对存储桶文件的监控任务。Airflow 提供 S3PrefixSensor&amp;nbsp;来监控文件上传到某个桶，进而触发数据管道进行数据处理。此处有多种方式监控存储桶里面的文件。例如 S3 自带的事件通知功能。不过事件通知的目标不支持启动状态机，还需要 Lambda 辅助。或者可以通过 CloudTrail 跟踪桶写入操作，然后通过 EventBridge 的个规则来捕获事件进而触发状态机执行。跟踪只需要关注特定桶特定目录的写入即可。&lt;/p&gt; 
+&lt;p&gt;最后还需要处理对存储桶文件的监控任务。Airflow 提供 S3PrefixSensor 来监控文件上传到某个桶，进而触发数据管道进行数据处理。此处有多种方式监控存储桶里面的文件。例如 S3 自带的事件通知功能。不过事件通知的目标不支持启动状态机，还需要 Lambda 辅助。或者可以通过 CloudTrail 跟踪桶写入操作，然后通过 EventBridge 的个规则来捕获事件进而触发状态机执行。跟踪只需要关注特定桶特定目录的写入即可。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;createTrail(logBucket, monitorBucket) {
+ &lt;pre&gt;&lt;code class="lang-js"&gt;createTrail(logBucket, monitorBucket) {
     const trail = new cloudtrail.Trail(this, 'CloudTrail', {
         bucket: logBucket,
         s3KeyPrefix: &amp;quot;data-trail&amp;quot;,
@@ -183,9 +682,9 @@
     return trail;
 }&lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
-&lt;p&gt;捕获规则和跟踪一样，只需要捕获特定桶特定目录的写入即可，此处利用 prefix&amp;nbsp;前缀操作符来限定。规则目标可以直接启动状态机，开启数据分析管道进程。&lt;/p&gt; 
+&lt;p&gt;捕获规则和跟踪一样，只需要捕获特定桶特定目录的写入即可，此处利用 prefix 前缀操作符来限定。规则目标可以直接启动状态机，开启数据分析管道进程。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;createS3Event(machine, bucket) {
+ &lt;pre&gt;&lt;code class="lang-js"&gt;createS3Event(machine, bucket) {
     new events.Rule(this, &amp;quot;S3StepFunctions&amp;quot;, {
         description: &amp;quot;S3 invoke StepFunctions&amp;quot;,
         eventPattern: {
@@ -202,84 +701,82 @@
     });
 }&lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;方案对比&lt;/h2&gt; 
 &lt;p&gt;至此云原生编排数据分析管道的改造宣告完成。回顾本文，重新审视和对比各项方案的利弊得失，可以更好的帮助读者选择更适合业务场景的方案。例如，如果在中国区新建数据分析管道项目，则建议使用状态机。如果从 Airflow 的老环境迁移上云，则建议使用 MWAA 或者自建 Airflow，这样可以复用积累的代码。亦可两者并行，对新的数据管道用云原生方案。&lt;/p&gt; 
-&lt;table border="1"&gt; 
+&lt;table style="border-collapse: collapse;border: 3px solid grey" border="1"&gt; 
+ &lt;thead&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;状态机&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;MWAA&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;自建 Airflow&lt;/strong&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/thead&gt; 
  &lt;tbody&gt; 
   &lt;tr&gt; 
-   &lt;td width="158"&gt;&lt;/td&gt; 
-   &lt;td width="240"&gt;&lt;strong&gt;状态机&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="86"&gt;&lt;strong&gt;MWAA&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="106"&gt;&lt;strong&gt;自建 Airflow&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;编写语言&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;JSON 及云开发包支持的所有语言&lt;br /&gt; (TypeScript, JavaScript, Python, Java, and C#)&lt;/td&gt; 
+   &lt;td&gt;Python&lt;/td&gt; 
+   &lt;td&gt;Python&lt;/td&gt; 
   &lt;/tr&gt; 
   &lt;tr&gt; 
-   &lt;td width="158"&gt;&lt;strong&gt;编写语言&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="240"&gt;JSON 及云开发包支持的所有语言&lt;br /&gt; (TypeScript, JavaScript, Python, Java, and C#)&lt;/td&gt; 
-   &lt;td width="86"&gt;Python&lt;/td&gt; 
-   &lt;td width="106"&gt;Python&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;支持中国区&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;是&lt;/td&gt; 
+   &lt;td&gt;否&lt;/td&gt; 
+   &lt;td&gt;是&lt;/td&gt; 
   &lt;/tr&gt; 
   &lt;tr&gt; 
-   &lt;td width="158"&gt;&lt;strong&gt;支持中国区&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="240"&gt;是&lt;/td&gt; 
-   &lt;td width="86"&gt;否&lt;/td&gt; 
-   &lt;td width="106"&gt;是&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;无服务器&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;是&lt;/td&gt; 
+   &lt;td&gt;否&lt;/td&gt; 
+   &lt;td&gt;否&lt;/td&gt; 
   &lt;/tr&gt; 
   &lt;tr&gt; 
-   &lt;td width="158"&gt;&lt;strong&gt;无服务器&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="240"&gt;是&lt;/td&gt; 
-   &lt;td width="86"&gt;否&lt;/td&gt; 
-   &lt;td width="106"&gt;否&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;托管服务&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;是&lt;/td&gt; 
+   &lt;td&gt;是&lt;/td&gt; 
+   &lt;td&gt;否&lt;/td&gt; 
   &lt;/tr&gt; 
   &lt;tr&gt; 
-   &lt;td width="158"&gt;&lt;strong&gt;托管服务&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="240"&gt;是&lt;/td&gt; 
-   &lt;td width="86"&gt;是&lt;/td&gt; 
-   &lt;td width="106"&gt;否&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;连接密码暴露&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;否&lt;/td&gt; 
+   &lt;td&gt;是&lt;/td&gt; 
+   &lt;td&gt;是&lt;/td&gt; 
   &lt;/tr&gt; 
   &lt;tr&gt; 
-   &lt;td width="158"&gt;&lt;strong&gt;连接密码暴露&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="240"&gt;否&lt;/td&gt; 
-   &lt;td width="86"&gt;是&lt;/td&gt; 
-   &lt;td width="106"&gt;是&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;开源社区&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;否&lt;/td&gt; 
+   &lt;td&gt;是&lt;/td&gt; 
+   &lt;td&gt;是&lt;/td&gt; 
   &lt;/tr&gt; 
   &lt;tr&gt; 
-   &lt;td width="158"&gt;&lt;strong&gt;开源社区&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="240"&gt;否&lt;/td&gt; 
-   &lt;td width="86"&gt;是&lt;/td&gt; 
-   &lt;td width="106"&gt;是&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;部署时间（近似值）&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;开箱即用&lt;/td&gt; 
+   &lt;td&gt;一小时&lt;/td&gt; 
+   &lt;td&gt;数小时到数天&lt;/td&gt; 
   &lt;/tr&gt; 
   &lt;tr&gt; 
-   &lt;td width="158"&gt;&lt;strong&gt;部署时间（近似值）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="240"&gt;开箱即用&lt;/td&gt; 
-   &lt;td width="86"&gt;一小时&lt;/td&gt; 
-   &lt;td width="106"&gt;数小时到数天&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;Airflow &lt;/strong&gt;&lt;strong&gt;最新版本&lt;/strong&gt;&lt;br /&gt; &lt;strong&gt;（2021&lt;/strong&gt;&lt;strong&gt;年8&lt;/strong&gt;&lt;strong&gt;月）&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;不适用&lt;/td&gt; 
+   &lt;td&gt;2.0.2&lt;/td&gt; 
+   &lt;td&gt;2.1.3&lt;/td&gt; 
   &lt;/tr&gt; 
   &lt;tr&gt; 
-   &lt;td width="158"&gt; &lt;p&gt;&lt;strong&gt;Airflow &lt;/strong&gt;&lt;strong&gt;最新版本&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;（2021&lt;/strong&gt;&lt;strong&gt;年8&lt;/strong&gt;&lt;strong&gt;月）&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt; 
-   &lt;td width="240"&gt;不适用&lt;/td&gt; 
-   &lt;td width="86"&gt;2.0.2&lt;/td&gt; 
-   &lt;td width="106"&gt;2.1.3&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="158"&gt;&lt;strong&gt;服务调度集成&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="240"&gt;云原生&lt;/td&gt; 
-   &lt;td width="86"&gt;通过操作符&lt;/td&gt; 
-   &lt;td width="106"&gt;通过操作符&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;服务调度集成&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;云原生&lt;/td&gt; 
+   &lt;td&gt;通过操作符&lt;/td&gt; 
+   &lt;td&gt;通过操作符&lt;/td&gt; 
   &lt;/tr&gt; 
  &lt;/tbody&gt; 
 &lt;/table&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
 &lt;h2&gt;结论&lt;/h2&gt; 
 &lt;p&gt;本文从 MWAA 的数据分析管道指导教程为引子，介绍利用云开发包快速搭建部署程序的方法，并以状态机为编排平台，尝试改造其为云原生编排的数据管道，辅以几个关键操作的替代方案介绍。本文初步探讨云原生编排数据分析管道的方法，借此抛砖引玉，供读者讨论。从“方案对比”一节可以看出，云原生的编排方案有诸多优势，尤其表现在零部署时间，无服务器化管理，多语言支持和增强安全性上。相信随着跨服务集成的深度和广度越来越高，云原生的编排优势会如虎添翼，成为数据分析管道编排平台的不二选择。&lt;/p&gt; 
 &lt;h3&gt;工作展望&lt;/h3&gt; 
 &lt;p&gt;有几个有趣的展开方向。首先就 Airflow 的诸多操作符，研究云原生改造方法，以期对所有 Airflow 有向无环图皆可支持改造，利于迁移。能自动化改造更佳。其次研究将 Airflow 的数据分析管道以 Glue 的蓝图和工作流为基础进行改造。Glue 蓝图的编排平台和状态机的编排平台是一对有趣的对比。再者就自建 Airflow 的方案如何高效搭建基础设施并降低运维难度亦值得关注。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;参考资料&lt;/h2&gt; 
 &lt;ul&gt; 
  &lt;li&gt;&lt;a href="https://amazon-mwaa-for-analytics.workshop.aws/en/"&gt;MWAA 数据分析管道指导教程&lt;/a&gt;&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;本篇作者&lt;/h2&gt; 
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
@@ -2169,49 +2666,6 @@ log_entry = {
   &lt;p&gt;AWS APN 合作伙伴解决方案架构师，主要负责 AWS (中国)合作伙伴的技术支持工作，同时致力于 AWS 云服务在国内的应用及推广。加入 AWS 前，在 HP（HPE）服务超过7年，历任存储售前工程师、电信行业售前工程师、NFV 解决方案架构师，熟悉传统企业 IT 架构、私有云及混合云部署。&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>使用 AWS Backup Audit Manager 监控、评估和证明备份合规性</title>
-		<link>https://aws.amazon.com/cn/blogs/china/monitor-evaluate-and-demonstrate-backup-compliance-with-aws-backup-audit-manager/</link>
-				<pubDate>Fri, 27 Aug 2021 06:46:01 +0000</pubDate>
-		<dc:creator><![CDATA[Steve Roberts]]></dc:creator>
-				<category><![CDATA[Security, Identity, & Compliance]]></category>
-
-		<guid isPermaLink="false">706a282d09cd87aa5e8c3dbb3bc555d58a002413</guid>
-				<description>今天，我很高兴地宣布推出 AWS Backup Audit Manager，它是 AWS Backup 的一项新功能，可帮助您监控和评估备份的合规性状态，以满足业务和法规要求，并使您能够生成有助于向审计员和监管机构证明合规性的报告。</description>
-								<content:encoded>&lt;p&gt;今天，我很高兴地宣布推出 &lt;strong&gt;&lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager&lt;/strong&gt;，它是 &lt;strong&gt;&lt;a title="" href="https://aws.amazon.com/backup/"&gt;AWS Backup&lt;/a&gt;&lt;/strong&gt; 的一项新功能，可帮助您监控和评估备份的合规性状态，以满足业务和法规要求，并使您能够生成有助于向审计员和监管机构证明合规性的报告。&lt;/p&gt; 
-&lt;p&gt;&lt;span title=""&gt;AWS Backup&lt;/span&gt; 是一项完全托管式服务，可启动策略驱动的 &lt;span title=""&gt;AWS&lt;/span&gt; 应用程序备份和恢复，能够简化大规模保护数据的流程，而无需自定义脚本和手动流程。但是，客户仍需使用自己的工具来验证备份策略是否得到执行，而且为了向审计员证明合规性，还需要解析备份记录，将其转换为可审计的报告。&lt;/p&gt; 
-&lt;p&gt;现在，您可以通过 &lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager 持续自动地跟踪备份活动，例如备份计划或备份保管库的变更，并自动生成每日报告。&lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager 内置了可自定义的合规性控件。简而言之，控件是具有备份策略参数（例如备份频率或保留期）的过程，这些参数与您的业务合规性和法规要求保持一致。&lt;/p&gt; 
-&lt;p&gt;您可以创建一个框架，以账户和区域为范围，然后向其添加所需的控件。根据控件跟踪备份活动，自动检测违反定义的数据保护策略的情况，使您能够快速采取纠正措施。为跟踪备份活动，&lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager 要求您通过 &lt;a title="" href="https://aws.amazon.com/config/"&gt;AWS Config&lt;/a&gt; 监控备份计划（&lt;code&gt;AWS። Backup። BackupPlan&lt;/code&gt; 资料类型）、备份选择（&lt;code&gt;AWS። Backup። BackupSelection&lt;/code&gt;）、保管库（&lt;code&gt;AWS። Backup። BackupVault&lt;/code&gt;）、恢复点（&lt;code&gt;AWS። Backup። RecoveryPoint&lt;/code&gt;）和&lt;span title=""&gt; AWS Config&lt;/span&gt; 资源合规性（&lt;code&gt;AWS::Config::ResourceCompliance&lt;/code&gt;）。您可以使用&lt;strong&gt;框架&lt;/strong&gt;页面的&lt;strong&gt;资源跟踪&lt;/strong&gt;部分，在 &lt;a title="" href="https://aws.amazon.com/backup/"&gt;AWS Backup&lt;/a&gt; 控制台中查看这些资源的记录状态。&lt;/p&gt; 
-&lt;p&gt;将所需的控件添加到框架后，就可以进行部署。如果要满足不同的内部或监管标准，可以创建和部署其他控件框架。部署框架后，您可以设置自动生成备份活动的每日报告。这些信息将显示在控制面板中，您需要时可随时请求报告。您还可以将结果导入 &lt;a title="AWS Audit Manager" href="https://aws.amazon.com/audit-manager/"&gt; 中&lt;/a&gt;，这是我于 &lt;a title="" href="https://reinvent.awsevents.com/"&gt;AWS re:Invent&lt;/a&gt; 2020 大会期间&lt;a href="https://aws.amazon.com/blogs/aws/aws-audit-manager-simplifies-audit-preparation/" target="_blank" rel="noopener noreferrer"&gt;在此新闻博客文章&lt;/a&gt;中介绍过的一项服务。&lt;/p&gt; 
-&lt;p&gt;此短视频简要概述了新的&lt;span title=""&gt; AWS Backup&lt;/span&gt; Audit Manager 功能。&lt;/p&gt; 
-&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;可用的控件和备份报告&lt;br /&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager 提供了五种备份治理控件模板和备份活动报告，涵盖备份任务、复制任务和还原任务。这些报告提高了对单个账户和区域备份活动的可见性，帮助您监控运营状况并确定可能需要采取进一步行动的故障。&lt;/p&gt; 
-&lt;p&gt;创建框架时，您需要提供名称、可选描述，然后选择是否使用提供的 &lt;span title=""&gt;AWS Backup&lt;/span&gt; 框架类型（包括五个预定义控件），也可以选择自定义框架。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-create-framework.png"&gt;&lt;img class="alignnone size-full wp-image-54157" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-create-framework.png" alt="创建 AWS Backup Audit Manager 框架" width="900" height="564" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;选择&lt;strong&gt;自定义框架&lt;/strong&gt;将展开面板，显示可用控件、它们的参数以及将它们纳入框架或从框架中排除的选项。五种可用控件的标题分别是：&lt;strong&gt;受备份计划保护的备份资源&lt;/strong&gt;、&lt;strong&gt;备份计划最低频率和最低保留期&lt;/strong&gt;、&lt;strong&gt;备份以防恢复点手动删除&lt;/strong&gt;、&lt;strong&gt;加密的备份恢复点&lt;/strong&gt;和&lt;strong&gt;备份恢复点最短保留期限&lt;/strong&gt;。在每个控件标题的右侧，您将找到一个&lt;strong&gt;信息&lt;/strong&gt;链接，描述了控件评估的内容、频率以及资源符合控件的含义。&lt;/p&gt; 
-&lt;p&gt;让我们来看看几个控件。&lt;strong&gt;受备份计划保护的备份资源&lt;/strong&gt;控件使您可以选择所有受支持的资源，或者由标签、类型或特定资源识别的资源。此控件有助于识别备份覆盖范围中的缺口。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-backup-resoures-control.png"&gt;&lt;img class="size-full wp-image-54158 aligncenter" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-backup-resoures-control.png" alt="受备份计划保护的备份资源控制资源选择" width="755" height="562" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;备份计划最低频率和最低保留期&lt;/strong&gt;控件包含的参数决定了备份计划的备份频率以及恢复点的维持时间。原定设置要求每小时进行一次备份，恢复点应保留一个月，但您可以自定义设置，以满足业务合规性要求。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-backup-frequency-control.png"&gt;&lt;img class="size-full wp-image-54159 aligncenter" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-backup-frequency-control.png" alt="设置备份频率和保留期控件" width="768" height="421" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;完成关于其余控件的选择，纳入控件并根据需要设置适当的参数值，或者将它们从框架中排除，然后单击&lt;strong&gt;创建框架&lt;/strong&gt;来完成这个过程。将创建和部署新框架，这需要几分钟的时间。如果需要，您随时可以返回并编辑框架中的控件和参数。&lt;/p&gt; 
-&lt;p&gt;部署后，框架中的控件将开始评估合规性，您可以通过选择框架在控制台中检查合规性状态。摘要部分根据您部署的控制定义，报告框架的总体合规性状态以及框架中合规或不合规控件的数量。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-framework-compliance-summary.png"&gt;&lt;img class="size-full wp-image-54162 aligncenter" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-framework-compliance-summary.png" alt="框架和控件合规性摘要" width="909" height="325" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;您可以在摘要下方找到一份列表，其中包含框架中每个控件的合规性详细信息，可以按状态筛选。每个控件都详细说明了它是否合规，以及控件所监控的不合规资源的数量。单击控件标题将直接转到&lt;span title=""&gt; AWS Config&lt;/span&gt; 控制面板，您可以查看有关控件标识的资源的更多详细信息。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-framework-control-compliance.png"&gt;&lt;img class="alignnone size-full wp-image-54163" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-framework-control-compliance.png" alt="控件合规性详情" width="910" height="612" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;自动生成的备份活动报告可用于向审计员和监管机构证明合规性。要设置报告，首先单击导航工具栏上的&lt;strong&gt;报告&lt;/strong&gt;条目，然后单击&lt;strong&gt;创建报告计划&lt;/strong&gt;。系统将要求您选择报告模板。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-reports-template.png"&gt;&lt;img class="alignnone size-full wp-image-54169" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-reports-template.png" alt="选择审计报告模板" width="884" height="543" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;选择模板（我选择了&lt;strong&gt;备份任务报告&lt;/strong&gt;）后，您可以填写名称和可选描述，选择要将报告传送到 &lt;a title="" href="https://aws.amazon.com/s3/"&gt;Amazon Simple Storage Service (Amazon S3)&lt;/a&gt; 存储桶的哪个位置以及报告的文件格式，然后单击&lt;strong&gt;创建报告计划&lt;/strong&gt;。报告将每 24 小时更新一次，您随时可以按需运行报告。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-settings.png"&gt;&lt;img class="alignnone size-full wp-image-54171" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-settings.png" alt="编辑报告设置" width="861" height="1097" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;自动或按需运行报告后，要查看报告数据，可以在&lt;strong&gt;报告计划&lt;/strong&gt;列表中选择报告，然后单击&lt;strong&gt;查看报告&lt;/strong&gt;。 将直接转到选定的报告文件的&lt;span title=""&gt; S3&lt;/span&gt; 位置，您可以按所选的文件类型查看一个对象（报告）。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-reports-list.png"&gt;&lt;img class="alignnone size-full wp-image-54172" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-reports-list.png" alt="选择要查看的报告" width="901" height="466" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-files.png"&gt;&lt;img class="alignnone size-full wp-image-54173" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-files.png" alt="Amazon S3 中的报告文件" width="901" height="378" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;下载文件会显示资源评估的时间段、备份任务详细信息、故障或完成状态、状态消息、资源类型和备份计划等。下面，我在电子表格中打开了 CSV 格式文件。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-csv.png"&gt;&lt;img class="alignnone size-full wp-image-54174" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/backup_audit_manager-report-csv.png" alt="备份报告数据" width="899" height="180" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;&lt;span style="text-decoration: underline"&gt;与 Raven Launch 建立合作伙伴关系&lt;/span&gt;&lt;br /&gt; &lt;/strong&gt;通过此次发布，我们很高兴&lt;a href="https://aws.amazon.com/marketplace/pp/prodview-2yil74chd7ihg?ref_=srh_res_product_title" target="_blank" rel="noopener noreferrer"&gt; Open Raven&lt;/a&gt; 成为&lt;span title=""&gt; AWS Backup&lt;/span&gt; 的合作伙伴。Open Raven 是一个云原生数据安全平台，专为保护现代数据湖和仓库而构建。通过从查找所有数据位置到主动识别暴露的各种方法，该平台可解决组织在使用大量基于云的数据时通常会面临的各种问题。&lt;/p&gt; 
-&lt;p&gt;Open Raven 首席技术官 Mark Curphey 谈到了新的&lt;span title=""&gt; AWS Backup&lt;/span&gt; 功能：“要成功地从勒索软件攻击中恢复，组织需要完成两项基础任务来提前规划，即确定关键数据和系统并根据组织要求对它们进行备份，使它们得到保护且能够恢复。&lt;span title=""&gt;AWS Backup&lt;/span&gt; Audit Manager 与 Open Raven 的结合简化了这项工作，消除了猜测和数小时的手动工作。”&lt;/p&gt; 
-&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;立即开始使用&lt;span title=""&gt; AWS Backup&lt;/span&gt; Audit Manager&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt; &lt;a title="" href="https://aws.amazon.com/backup/"&gt;AWS Backup&lt;/a&gt; Audit Manager 现已在美国东部（弗吉尼亚北部、俄亥俄州）、美国西部（加利福尼亚北部、俄勒冈）、加拿大（中部）、欧洲（法兰克福、爱尔兰、伦敦、巴黎、斯德哥尔摩）、南美洲（圣保罗）、亚太地区（香港、孟买、首尔、新加坡、 悉尼、东京) 和中东（巴林）地区推出。&lt;/p&gt; 
-&lt;p&gt;有关 &lt;span title=""&gt;Backup&lt;/span&gt; Audit Manager 的更多信息，请参阅&lt;span title=""&gt; AWS Backup&lt;/span&gt;&lt;a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/" target="_blank" rel="noopener noreferrer"&gt; 开发人员指南&lt;/a&gt;中的&lt;a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/aws-backup-audit-manager.html" target="_blank" rel="noopener noreferrer"&gt;此部分&lt;/a&gt;。&lt;strong&gt;要开始使用，请访问&lt;a href="https://console.aws.amazon.com/backup"&gt;&lt;span title=""&gt; AWS Backup&lt;/span&gt; 控制台。&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;a title="Steve 的 Twitter" href="https://twitter.com/bellevuesteve"&gt; – Steve&lt;/a&gt;&lt;/p&gt;</content:encoded>
 										</item>
 	</channel>
 </rss>

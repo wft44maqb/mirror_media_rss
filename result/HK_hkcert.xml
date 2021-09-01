@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Tue, 31 Aug 2021 14:03:23 +0800</pubDate>
-		<lastBuildDate>Tue, 31 Aug 2021 14:03:23 +0800</lastBuildDate>
+		<pubDate>Wed, 01 Sep 2021 11:06:22 +0800</pubDate>
+		<lastBuildDate>Wed, 01 Sep 2021 11:06:22 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,6 +15,39 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>Google Chrome 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20210901</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20210901</guid>
+			<pubDate>Wed, 01 Sep 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Google Chrome 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發遠端執行程式碼、阻斷服務狀況、繞過保安限...
+			  <p>影響</p>
+			  <ul>
+			          <li>遠端執行程式碼</li>
+			          <li>資料洩露</li>
+			          <li>阻斷服務</li>
+			          <li>繞過保安限制</li>
+			          <li>仿冒</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Google Chrome&nbsp;93.0.4577.63 之前的版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>安裝軟件供應商提供的修補程式：</p>
+			
+			<ul>
+				<li>更新至 93.0.4577.63 版本</li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
 		<item>
 			<title>NetApp 產品多個漏洞</title>
 			<link>https://www.hkcert.org/tc/security-bulletin/netapp-products-multiple-vulnerabilities_20210830</link>
@@ -940,50 +973,6 @@
 			
 			<ul>
 				<li>安裝軟件供應商提供的修補程式。</li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>F5 BIG-IP 繞過保安限制漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/f5-big-ip-security-restriction-bypass-vulnerability_20210810</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/f5-big-ip-security-restriction-bypass-vulnerability_20210810</guid>
-			<pubDate>Tue, 10 Aug 2021 09:40:00 +0800</pubDate>
-			<description><![CDATA[  於 F5 BIG-IP 發現一個漏洞，遠端攻擊者可利用這漏洞，於目標系統觸發繞過保安限制。
-			  <p>影響</p>
-			  <ul>
-			          <li>繞過保安限制</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <p>BIG-IP (所有模組)</p>
-			
-			<ul>
-				<li>版本 11.6.1 - 11.6.5</li>
-				<li>版本 12.1.0 - 12.1.6</li>
-				<li>版本 13.1.0 - 13.1.4</li>
-				<li>版本 14.1.0 - 14.1.4</li>
-				<li>版本 15.1.0 - 15.1.3</li>
-				<li>版本 16.0.0 - 16.1.0</li>
-			</ul>
-			
-			<p>&nbsp;</p>
-			
-			<p>Traffix SDC</p>
-			
-			<ul>
-				<li>版本 5.1.0 - 5.2.0</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<p>&nbsp;</p>
-			
-			<ul>
-				<li><a href="https://support.f5.com/csp/article/K32469285" target="_blank">https://support.f5.com/csp/article/K32469285</a></li>
 			</ul>
 			
 			  <hr>

@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Thu, 26 Aug 2021 09:50:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[駭侵者假冒 OpenSea 交易所客服人員，竊走求助用戶的加密貨幣與 NFT 收藏]]></title><link>http://www.twcert.org.tw/tw/cp-104-5038-e88bf-1.html</link><description><![CDATA[<p><strong>NFT 交易所 OpenSea 遭駭侵者假冒為其客服人員，藉機竊走求助用戶存於錢包內的加密貨幣與 NFT 收藏。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Tue, 31 Aug 2021 09:03:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[駭侵者詐騙網站管理員，以含惡意 BazaLoader DDoS 軟體的工具清理網站]]></title><link>http://www.twcert.org.tw/tw/cp-104-5051-22f94-1.html</link><description><![CDATA[<p><strong>近來有駭侵者對網站管理員寄發詐騙訊息，假稱其網站內含有惡意 DDoS 程式碼，需用其特製工具清除，實則利用此假工具植入 BazaLoader DDoS 惡意軟體。</strong><br />
+<br />
+近來有駭侵者對多個網站管理員寄發詐騙訊息，假稱其網站程式碼內含有惡意 DDoS（分散式服務阻斷攻擊，Distributed Denial of Service） 程式碼，需用其特製工具清除，否則將對其提告；網站管理員如果不疑有他，利用此假工具清理其網站，就會被植入 BazaLoader DDoS 惡意軟體。<br />
+<br />
+網站開發者 Brian Johnson 指出，他有兩名客戶在最近收到可疑的法律通知信，指稱其所營運的網站遭到駭侵者植入 DDoS 惡意軟體，並對 Intuit、Hubspot 等大型網路服務業者發動 DDoS 攻擊。該信件威脅網站營運者，若不在時限之內，利用信中隨附連結的清理工具，清除其網站內的惡意程式碼，就將面臨後續的司法控告。<br />
+<br />
+該威脅信件中，還附有一個 Google 文件的連結；詐騙者指稱該連結內有目標網站發動 DDoS 攻擊的「證明」，以及指定採用的「清理程式」。<br />
+<br />
+資安專家分析該「清理程式」，發現該清理程式內含一個名為 Bazaloader 的 DDoS 惡意軟體；收到威脅信件的網站管理者，如果真的安裝使用該程式，其網站伺服器反而會被植入 BazaLoader DDoS 惡意軟體，並且從駭侵者設立的控制伺服器中下載如 Cobalt Strike 之類的惡意軟體模組，成為其僵屍網路的一部分。<br />
+<br />
+資安專家也說，除了以網站遭 DDoS 程式感染之外，這類駭侵者也會以其他的理由來詐騙網站管理者，例如假稱該網站內含有侵害著作權的影音或圖片等等，要求網站管理員以其工具進行侵權檔案掃瞄與移除，進而詐騙網站管理員下載安裝同樣的 BazaLoader DDoS 惡意軟體。</p>]]></description><pubDate>Tue, 31 Aug 2021 09:03:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5051-22f94-1.html</guid></item><item><title><![CDATA[微軟示警數千 Azure 用戶可能曝險於 Cosmos DB 嚴重資安漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-5050-67509-1.html</link><description><![CDATA[<p><strong>微軟日前向數千名 Azure 雲端服務用戶示警，指出一個存於 Cosmos DB 的嚴重資安漏洞，可能導致用戶的資料庫遭駭侵者不當存取。</strong><br />
+<br />
+微軟日前向數千名 Microsoft Azure 雲端服務的用戶發出資安警訊，指出一個存於 Cosmos DB 的嚴重資安漏洞，可能導致用戶的資料庫遭駭侵者遠端不當存取。<br />
+<br />
+Azure Cosmos DB 是一個全球使用率相當普及的 NoSQL 資料庫服務，大品牌用戶包括 Mercedes-Benz、Symantec、Coca-cola、Exxon-Mobil、Citrix 等。<br />
+<br />
+該漏洞是於 2021 年 8 月初由資安廠商 Wiz 旗下的研究人員發現，並將此漏洞命名為「ChaosDB」；駭侵者可以用 Cosmos DB 內一個用來幫助用戶進行資料可視化的工具 Jupyter Notebook 功能內的一系列錯誤，來誘發此漏洞，即可取得 Cosmos DB 的用戶登入資訊，包括主要讀寫金鑰；駭侵者這樣可以在無需任何前置作業的情形下，利用此漏洞完全掌控 Azure 用戶的帳號與資料庫內容。<br />
+<br />
+微軟表示，在接獲來自資安廠商的漏洞提報資訊後，該公司已於 48 小時內關閉該漏洞的進入點，藉以封鎖駭侵者使用此漏洞的路徑；雖然該漏洞已於近日得到修復，但微軟在近期又針對 30％ 的 Cosmos DB 用戶發出資安警訊，表示這些用戶可能於 8 月 26 日遭到大規模針對此漏洞發動的駭侵攻擊行動。<br />
+<br />
+Wiz 也指出，駭侵者很可能在該公司發現此漏洞並提報給微軟的數個月之前，就積極利用此一漏洞發動攻擊活動。<br />
+<br />
+微軟也針對其 Azure 用戶提供此漏洞的暫時解決方案，用戶可以依其指南，重新製作不同的資料庫讀寫主要金鑰，並定期更換金鑰；微軟也建議 Azure 用戶考慮使用 Azure Cosmos DB 防火牆服務，並且整合其他虛擬系統，以提高安全性。</p>]]></description><pubDate>Tue, 31 Aug 2021 09:02:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5050-67509-1.html</guid></item><item><title><![CDATA[Mirai 僵屍網路利用晶片 SDK 漏洞，多廠牌無線裝置可能遭植入]]></title><link>http://www.twcert.org.tw/tw/cp-104-5049-b9084-1.html</link><description><![CDATA[<p><strong>資安專家發現採用台灣網通大廠之硬體與其 SDK 的無線連網裝置，含有一系列嚴重資安漏洞，且該漏洞已遭 Mirai 僵屍網路鎖定，發動大規模感染，造成數千萬台各廠牌連網裝置曝險。</strong></p>
+
+<p>資安廠商 IoTInspector 旗下的資安專家，發現採用台灣網通大廠無線網路硬體晶片 RTL819xD 與其 SDK 解決方案的眾多無線連網裝置，含有一系列嚴重資安漏洞，且該漏洞已遭 Mirai 僵屍網路鎖定，發動大規模感染；造成數千萬台各廠牌連網裝置曝露於遭植入僵屍惡意軟體的資安風險。</p>
+
+<p>被發現的漏洞共有 4 個，其 CVE 編號為 CVE-2021-35392 到 CVE-2021-35395，存於 SDK 開發組件中的多個元件；其中最嚴重的漏洞為 CVE-2021-35395，CVSS 危險程度評分高達 9.8 分（滿分為 10 分）；該漏洞存於裝置的 Web 管理界面，可讓駭侵者遠端執行任意程式碼，並且取得裝置控制權。</p>
+
+<p>由於該公司的無線網路晶片受到業界廣泛採用，因此這一系列漏洞的影響範圍甚廣；估計有 65 個品牌、200 以上不同款式無線路由器、IP 攝影機、智慧家電等 IoT 裝置含有此漏洞，裝置台數可能超過數千萬台。</p>
+
+<p>雖然該公司在接獲通報後，很快就在 8 月 13 日發布資安更新，但資安廠商 SAM Seamless Network 觀察到惡名昭彰的 Mirai 僵屍網路，很快就針對這個新發現的漏洞進行版本更新。根據 SAM 的觀察報告，Mirai 自 8 月 18 日起開始在網路上掃瞄尚未修補此漏洞的受影響裝置；SAM 也指出被掃瞄次數最多的裝置，包括 Netis E1+ 無線網路延伸器、Edimax N150、N300 無線路由器、Repotec RP-WR5444 無線路由器等。</p>
+
+<ul>
+	<li>建議採取資安強化措施</li>
+</ul>
+
+<ol>
+	<li>建議 IoT 裝置用戶檢視產品供應商是否已進行漏洞修補並推出更新檔。</li>
+	<li>若產品供應商已推出更新檔，建議用戶應立即進行更新，以免 IoT 裝置遭植入惡意軟體。</li>
+</ol>]]></description><pubDate>Tue, 31 Aug 2021 08:58:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5049-b9084-1.html</guid></item><item><title><![CDATA[駭侵者假冒 OpenSea 交易所客服人員，竊走求助用戶的加密貨幣與 NFT 收藏]]></title><link>http://www.twcert.org.tw/tw/cp-104-5038-e88bf-1.html</link><description><![CDATA[<p><strong>NFT 交易所 OpenSea 遭駭侵者假冒為其客服人員，藉機竊走求助用戶存於錢包內的加密貨幣與 NFT 收藏。</strong><br />
 <br />
 NFT 交易所 OpenSea 近日遭駭侵者在社群平台 Dischord 上假冒為其客服人員，藉機竊走求助用戶存於錢包內的加密貨幣與 NFT 收藏。<br />
 <br />
@@ -207,57 +246,4 @@ Varinos 是利用 DatAdvantage Cloud 服務，收集該公司客戶在使用各�
 <br />
 已經加入 JCDC 計畫的美國各級政府單位，則包括美國國防部、國家安全局、司法部、聯邦調查局、美國網路作戰司令部、國家情報總監辦公室（Office of the Director of National Intelligence）等。<br />
 <br />
-CISA 總監 Jen Esterly 在 JCDC 的新聞稿中指出，同意加入 JCDC 的產業合作伙伴，將與 CISA 和各相關政府單位並肩作戰，共同對抗各種針對美國發動的資安攻擊事件，並且同步發展新的解決方案。</p>]]></description><pubDate>Mon, 09 Aug 2021 09:04:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4994-29640-1.html</guid></item><item><title><![CDATA[國內網通設備大廠修補無線路由器產品的RCE漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-4993-5e1f4-1.html</link><description><![CDATA[<p>國內網通設備大廠於2021年7月13日接獲HITCON ZeroDay漏洞通報平台之資安漏洞通報，修復其無線路由器DIR-819之遠端程式碼執行(Remote Code Execution, RCE)漏洞。</p>
-
-<p>廠商已於2021年8月5日釋出beta版韌體來修正此資安漏洞；擁有這類裝置的用戶，應立即進行更新，以免遭有心人士利用已知的漏洞發動攻擊而造成損失。</p>
-
-<p>相關訊息請點此參考廠商發布之<a href="https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10231" target="_blank" title="韌體修補更新公告(開新視窗)">韌體修補更新公告</a>。</p>
-
-<ul>
-	<li>影響產品：無線路由器DIR-819型號，韌體版本v1.06及先前之版本。</li>
-</ul>
-
-<ul>
-	<li>建議採取資安強化措施：根據廠商釋出之beta版韌體進行更新；待正式版發布後，請依照官方提供之更新公告，將產品更新至已修復版本。</li>
-</ul>]]></description><pubDate>Mon, 09 Aug 2021 09:02:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4993-5e1f4-1.html</guid></item><item><title><![CDATA[避免Synology NAS產品遭駭客攻擊，建議用戶強化帳號與密碼安全設定]]></title><link>http://www.twcert.org.tw/tw/cp-104-4982-765b9-1.html</link><description><![CDATA[<p>群暉科技Synology近日接獲數起使用者詢問，觀察到有異常數量IP企圖嘗試登入NAS產品，經產品安全團隊調查，確認為駭客使用暴力密碼破解手法，而非利用特定系統安全性弱點。Synology也呼籲使用者毋須恐慌，同時建議使用者持續加強帳號權限與密碼設定，以阻斷駭客入侵的可能。</p>
-
-<p>經Synology產品安全團隊分析攻擊樣本，這次事件為知名惡意程式StealthWorker的攻擊，該駭客組織利用暴力密碼破解手法登入受害裝置，植入惡意程式後進行資料加密勒索，再利用受害裝置進一步探索並攻擊更多弱密碼裝置，可能被攻擊的對象包括一般Linux主機及市面上各廠牌NAS。</p>
-
-<p>目前Synology已與國內外相關資安CERT單位展開協作，透過TWCERT/CC對國外通報惡意程式的C&amp;C Server(Command and Control Server)的IP，並請相關單位將其關機，以儘快結束此次攻擊事件。</p>
-
-<p>「Synology將確保您的系統與資料安全視為首要之務，我們不僅成立專責產品安全團隊(PSIRT)，也透過與相關資安單位協作，確實管理並快速回應資安事件。」Synology安全事件應變組經理林涵恩表示，「資安攻擊手法日新月異，我們也呼籲所有Synology使用者透過DiskStationManager(DSM)內建的各項帳號與密碼管理設定，持續加強NAS的安全性，以防範惡意攻擊。」</p>
-
-<p>Synology建議使用者採取以下行動來加強NAS系統安全性：</p>
-
-<ul>
-	<li>於控制台&gt;使用者帳號新增一組具管理員權限的帳號，並停用系統預設的「admin」帳號</li>
-	<li>加強所有帳號密碼的複雜性，並啟用多步驟驗證(如OTP一次性密碼)或是SecureSignIn為帳號提供多一道安全防護</li>
-</ul>
-
-<p>此外，若您擔心設備因使用弱密碼而已遭到攻擊，可以透過下列方式進行檢查：</p>
-
-<ol>
-	<li>登入DSM，至控制台&gt;任務排程表檢查是否被建立異常的程式碼。您也可以透過日誌中心搜尋「ScheduledTask」。</li>
-	<li>檢查FileStation是否有檔案被加密(副檔名可能已被修改)。</li>
-	<li>如有上述提及的任何狀況，請備份您的資料並重新安裝最新正式版本DSM來確保系統完全乾淨。</li>
-</ol>
-
-<p>若有其他不確定性的異狀，建議直接聯絡Synology原廠獲取技術支援：</p>
-
-<ol start="4">
-	<li>請至DSM中的技術與支援中心&gt;支援服務&gt;勾選啟用遠端存取，並提供技術支援識別碼與暫時的DSM帳號密碼。</li>
-</ol>
-
-<p>關於Synology對安全性的努力，歡迎您透過<a href="https://www.synology.com/zh-tw/security" target="_blank" title="產品安全性總覽(開新視窗)">產品安全性總覽</a>瞭解更多。</p>]]></description><pubDate>Fri, 06 Aug 2021 09:19:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4982-765b9-1.html</guid></item><item><title><![CDATA[Google Play Protect 僅能偵測出 31% 的 Android 追蹤監控惡意軟體]]></title><link>http://www.twcert.org.tw/tw/cp-104-4979-96546-1.html</link><description><![CDATA[<p><strong>資安廠商日前發表研究報告，指出 Google Play Store 内建的 Google Play Protect 惡意軟體偵防機制，僅能偵測到 31% 的 Android 追蹤監控惡意軟體，比例遠低於市售商業防毒防駭軟體。</strong><br />
-<br />
-資安廠商 Atlas VPN 旗下的資安研究人員日前發表研究報告，指出 Google Play Store 内建的 Google Play Protect 惡意軟體偵防機制，在測試中表現不佳，僅能偵測到 31% 的 Android 追蹤監控惡意軟體（Stalkerware），成功偵測的比例，遠低於市售商業防毒防駭軟體的一般表現。<br />
-<br />
-Atlas VPN 的資安專家說，該單位會同獨立研究機構 AV-Test，以常見的 29 種 Stalkerware 來測試市售常見的 18 種 Android 專用防毒防駭軟體，結果 Google Play Protect 的表現敬陪末座，29 種追蹤監控惡意軟體，只能成功偵測出 9 種，比例為 31%。<br />
-<br />
-同樣表現不佳的 Android 防毒防駭軟體，還包括由 Norton 推出的 NortonLifeLock Norton 360；29 種惡意軟體中僅偵測出 17 種，成功偵側比例僅為 58.6%。<br />
-<br />
-表現最佳的 Android 防毒防駭軟體有三款，分別是 Antiy AVL、Bitdefender Mobile Security、Trend Micro Mobile Security；這三種軟體都 100% 偵測出全部 29 種追蹤監控惡意軟體。<br />
-<br />
-兩種來自知名資安廠商 ESET 與 Kaspersky 的産品 SET Mobile Security 與 Kaspersky Internet Security for Android，表現也相當優秀，僅有 1 支惡意軟體沒有偵測到，成功率達 96.6%。<br />
-<br />
-有鑑於 Android 平台上的惡意軟體為數眾多，建議 Android 手機用戶務必安裝實際有效的防毒防駭軟體，以降低各種遭到駭侵攻擊的風險。</p>]]></description><pubDate>Tue, 03 Aug 2021 08:55:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4979-96546-1.html</guid></item></channel></rss>
+CISA 總監 Jen Esterly 在 JCDC 的新聞稿中指出，同意加入 JCDC 的產業合作伙伴，將與 CISA 和各相關政府單位並肩作戰，共同對抗各種針對美國發動的資安攻擊事件，並且同步發展新的解決方案。</p>]]></description><pubDate>Mon, 09 Aug 2021 09:04:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4994-29640-1.html</guid></item></channel></rss>

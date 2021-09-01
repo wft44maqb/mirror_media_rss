@@ -1,11 +1,104 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/554/1072" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/554/1072</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/554/1072" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>公有雲長期歸檔儲存服務的興起</title>
+    <link>https://www.ithome.com.tw/article/146401</link>
+    <description> 憑藉著近乎無限的擴展能力，以及多重備援的架構，公有雲業者推出的長期歸檔儲存服務，從成本、耐久性與可靠性等層面，都足以挑戰磁帶的地位，成為企業資料長期儲存與法規遵循應用的新選擇。
+ </description>
+     <pubDate>2021-09-01  07:09:00</pubDate>
+ <dc:creator>張明德</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/article/146401</guid>
+  </item>
+  <item>
+    <title>【長期資料儲存新選擇，一探各家公有雲的異同】總覽6大公有雲業者的長期歸檔服務</title>
+    <link>https://www.ithome.com.tw/tech/146395</link>
+    <description> 歸檔（Archive）的目的，是因應法規遵循或其他需求而長期保存資料。由於這些需要長期保存的資料中，往往含有敏感性內容，而且涉及的保存期限至少是5年以上，甚至是7到10年，所以用於歸檔儲存的儲存設備，必須具備高安全性，低成本與高耐久性等條件。
+於是，本地端磁帶設備，便成為企業歸檔應用最普遍選擇的儲存設備。一方面，在本地端資料中心保存歸檔資料，可便於企業管控、確保資料安全。另一方面，磁帶也能提供長期儲存所需的低成本與耐久性。至於公有雲，過去很少會被列入歸檔儲存的選項。</description>
+     <pubDate>2021-09-01  07:09:00</pubDate>
+ <dc:creator>張明德</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/tech/146395</guid>
+  </item>
+  <item>
+    <title>【擺脫磁帶新契機，用公有雲也能長期保存資料】企業資料長期歸檔儲存應用的新選擇</title>
+    <link>https://www.ithome.com.tw/tech/146392</link>
+    <description> 許久以來，一直作為長期儲存應用標準解決方案的磁帶，正受到公有雲歸檔儲存服務的挑戰。
+磁帶在電腦應用的歷史已超過半世紀，可說是當前IT技術中的活化石，是從1950年代沿用至今的儲存技術，在各式新興儲存媒體技術衝擊下，磁帶不斷退守應用範圍，至今仍能留在IT應用中的理由只剩一個——作為長期歸檔保存資料的冷儲存媒體。
+對於不需經常存取、但必須長期保存的冷資料（Cold Data）儲存應用，也就是資料歸檔或封存（Archive）來說，是磁帶最能夠避短揚長的應用場域。</description>
+     <pubDate>2021-09-01  07:09:00</pubDate>
+ <dc:creator>張明德</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/tech/146392</guid>
+  </item>
+  <item>
+    <title>首屆國際級工控資安評測出爐，5家業者響應，國內法人機構也參與</title>
+    <link>https://www.ithome.com.tw/news/146469</link>
+    <description> 近年來，MITRE ATT&amp;amp;CK已成為企業關注的新資安攻防框架，而這項專案也逐年擴大，甚至成立了MITRE Engenuity公司，專門負責ATT&amp;amp;CK評估計畫的執行。在此當中，除了大眾熟知的ATT&amp;amp;CK for Enterprise完成三輪評估，臺灣資安業者趨勢科技與奧義智慧均兩度連續參加，特別的是，首度針對工控領域的ATT&amp;amp;CK for ICS評估計畫，評測結果在今年7月中旬出爐，展現了各業者產品對於Triton系列威脅的偵測能力。</description>
+     <pubDate>2021-08-31  10:08:10</pubDate>
+ <dc:creator>羅正漢</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146469</guid>
+  </item>
+  <item>
+    <title>釣魚郵件攻擊濫用網址重新導向、雲端服務與自動化真人檢測服務CAPTCHA</title>
+    <link>https://www.ithome.com.tw/news/146468</link>
+    <description> 網路釣魚攻擊手法推陳出新，日前有攻擊者利用驗證真人與機器人的CAPTCHA機制，誘騙受害者下載金融木馬，而根據資安業者Greathon的統計，濫用Google Meet和Google DoubleClick等工具，重新導向到其他網站的釣魚攻擊手法，也日益升溫，如今攻擊者也將這些方法運用於釣魚郵件上。</description>
+     <pubDate>2021-08-31  07:08:25</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146468</guid>
+  </item>
+  <item>
+    <title>字節跳動買下VR頭戴裝置新創Pico</title>
+    <link>https://www.ithome.com.tw/news/146467</link>
+    <description> 抖音/TikTok母公司字節跳動（ByteDance）向CNBC證實，已藉由收購中國業者Pico，進入虛擬實境（VR）市場。</description>
+     <pubDate>2021-08-31  04:08:21</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146467</guid>
+  </item>
+  <item>
+    <title>曼谷航空疑遭LockBit攻擊致客戶資料外洩</title>
+    <link>https://www.ithome.com.tw/news/146466</link>
+    <description> 曼谷航空（Bankok Airways）上周公告因資安事件導致為數不詳的客戶資料外洩，元兇可能是勒索軟體LockBit。
+曼谷航空指出今年8月23日他們發現一樁網路攻擊事件，導致資訊系統遭到未授權人士不法存取。該公司強調一經發覺，已立即採取行動阻斷事件並著手調查。</description>
+     <pubDate>2021-08-31  03:08:39</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146466</guid>
+  </item>
+  <item>
+    <title>蘋果買下古典樂串流服務供應商Primephonic</title>
+    <link>https://www.ithome.com.tw/news/146465</link>
+    <description> 蘋果周一（8/30）宣布，已買下知名的古典樂串流服務供應商Primephonic，Primephonic原本的服務將在9月17日下線，取而代之的是，幾個月後Apple Music將會整合Primephonic所提供的古典樂功能，且蘋果也計畫在明年推出古典樂的專屬程式，雙方並未公布交易金額。</description>
+     <pubDate>2021-08-31  03:08:35</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146465</guid>
+  </item>
+  <item>
+    <title>CISA著手打造資安的「不良實踐」列表</title>
+    <link>https://www.ithome.com.tw/news/146464</link>
+    <description> 包括資安在內的各個產業經常會以「最佳實踐」（Best Pratices），來描述產生最好結果的方法，不過，美國網路安全及基礎設施安全局（CISA）本周宣布，將打造資安的「不良實踐」（Bad Practices）來規勸組織儘量避免某些作法，以維護重要基礎設施的安全性。</description>
+     <pubDate>2021-08-31  03:08:09</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146464</guid>
+  </item>
+  <item>
+    <title>微軟可能以Windows Update告知用戶是否適合升級Windows 11</title>
+    <link>https://www.ithome.com.tw/news/146463</link>
+    <description> Windows 11可能將在不到2個月後釋出，微軟要讓用戶了解自己的Windows PC是否能升級到Windows 11。除了現有的檢測工具PC Health Check App外，可能會透過Windows Update上更清楚告知。</description>
+     <pubDate>2021-08-31  03:08:46</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146463</guid>
+  </item>
+  <item>
+    <title>奈及利亞央行今年將發表基於區塊鏈的數位貨幣eNaira</title>
+    <link>https://www.ithome.com.tw/news/146462</link>
+    <description> 奈及利亞的中央銀行（The Central Bank of Nigeria，CBN）在30日宣布，將與金融科技業者Bitt合作，於今年發表基於區塊鏈的數位貨幣eNaira，可望成為首個發行數位貨幣的非洲國家。</description>
+     <pubDate>2021-08-31  03:08:35</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146462</guid>
+  </item>
+  <item>
     <title>研究人員揭露Exchange Server新的ProxyToken漏洞，可導致電子郵件被竊取</title>
     <link>https://www.ithome.com.tw/news/146461</link>
     <description> 繼ProxyLogon、ProxyShell等重大漏洞後，研究人員再揭露外號ProxyToken的Exchange Server漏洞</description>
@@ -161,99 +254,10 @@ Linux衍生自Unix作業系統，Torvalds在30年前發表的是Linux核心（Li
   <item>
     <title>捐款個資外洩引發詐騙事件漫延一個月，網軟初期未能反應，引發朝野立委關注</title>
     <link>https://www.ithome.com.tw/news/146427</link>
-    <description> 這一個月來，國內爆發大規模捐款個資外洩導致民眾誤信的詐騙案，由於警方指出多個公益團體都委託同一資訊服務商的狀況，日前我們也已經追查到這次事件的關鍵廠商，就是負責提供捐款系統公司的網軟科技。因此，先前我們也聯繫到該公司，以確認此資安事件的狀況。然而，由於網軟僅在8月3日發布刑事警察局的反詐騙宣導，至今還沒有對外公布遭駭客攻擊與資料外洩的資安事件。</description>
+    <description> 這一個月來，國內爆發大規模捐款個資外洩導致民眾誤信的詐騙案，由於警方指出多個公益團體都委託同一資訊服務商的狀況，日前我們也已經追查到這次事件的關鍵廠商，就是負責提供捐款系統公司的網軟科技。因此，先前我們也聯繫到該公司，他們表示此事件正在調查中，並已著手強化資安。然而，由於網軟僅在8月3日發布刑事警察局的反詐騙宣導，至今還沒有對外公布遭駭客攻擊與資料外洩的資安事件，隨著遭詐騙的捐款民眾越來越多，多個公益團體持續飽受個資外洩問題所苦，因此，8月26日有立法委員聯合公益團體與刑事警察局召開記者會，希望能釐清資安、偵辦與防詐議題。。</description>
      <pubDate>2021-08-27  04:08:15</pubDate>
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146427</guid>
-  </item>
-  <item>
-    <title>GitHub CLI 2.0供開發者自行創建擴充套件</title>
-    <link>https://www.ithome.com.tw/news/146422</link>
-    <description> GitHub發布新的命令列工具CLI 2.0，這個新版本讓開發者能夠使用CLI的功能，來創建擴充套件或是自定義命令，而且開發者也能夠安裝由其他人創建的擴充套件。
-CLI 1.0供開發者在終端，無縫地執行端到端工作流程，而現在GitHub繼續在CLI 1.0的基礎上發展，提供更好的腳本編寫和GitHub Actions使用支援，官方提到，沒有一項工具可以滿足所有人的需求，因此在CLI 2.0中，讓用戶能以簡單的方式，按需求擴充功能，並且安裝來自其他人的擴充套件。</description>
-     <pubDate>2021-08-27  04:08:08</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146422</guid>
-  </item>
-  <item>
-    <title>英國大幅翻修境內的資料法規，與多國建立合作關係推動資料經濟</title>
-    <link>https://www.ithome.com.tw/news/146426</link>
-    <description> 英國26日宣布，將與美國、澳洲、南韓、新加坡、杜拜、國際金融中心與哥倫比亞簽署資料合作協議，互通資料有無以推動資料經濟，並將任命國際隱私專家John Edwards擔任英國的資訊委員，</description>
-     <pubDate>2021-08-27  04:08:37</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146426</guid>
-  </item>
-  <item>
-    <title>報告：中國駭入Exchange Server漏洞訓練AI</title>
-    <link>https://www.ithome.com.tw/news/146425</link>
-    <description> 今年3月間Exchange Server漏洞被揭露且有駭客活動，引發各國政府和企業恐慌，不過一些專家相信，這可能是中國政府完成另一項更重要計畫的手段之一──訓練人工智慧（artificial intelligence，AI）技術。</description>
-     <pubDate>2021-08-27  04:08:51</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146425</guid>
-  </item>
-  <item>
-    <title>微軟Azure資料庫服務Cosmos DB含有安全漏洞，將外洩客戶的主要金鑰與存取令牌</title>
-    <link>https://www.ithome.com.tw/news/146423</link>
-    <description> 專門提供雲端安全服務的資安業者Wiz周四（8/26）揭露，微軟Azure的Cosmos DB非關聯式資料庫服務含有一系列的安全漏洞，將允許任何使用者下載、刪除或操控用戶的商業資料庫，或是存取Cosmos DB的底層架構。被Wiz統稱為ChaosDB的漏洞已存在兩年之久，波及Fortune 500排行榜上的許多大型企業，諸如可口可樂、Exxon-Mobil與Citrix等。</description>
-     <pubDate>2021-08-27  03:08:58</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146423</guid>
-  </item>
-  <item>
-    <title>研究人員針對勒索軟體LockBit 2.0提出警告，2個月逾50個組織受害</title>
-    <link>https://www.ithome.com.tw/news/146421</link>
-    <description> 最近半年，有數款新興的勒索軟體發動攻擊，其中自今年6月推出2.0版的LockBit（亦稱為ABCD），不僅攻擊大型IT顧問公司Accenture，也在澳洲造成災情，使得當地的網路安全中心（ACSC）發布資安通報，提出緩解措施讓企業加以防範。</description>
-     <pubDate>2021-08-27  03:08:57</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146421</guid>
-  </item>
-  <item>
-    <title>殭屍網路程式正試圖攻擊Realtek晶片SDK漏洞</title>
-    <link>https://www.ithome.com.tw/news/146420</link>
-    <description> 本月稍早安全廠商揭露瑞昱半導體的無線晶片SDK存在多項安全漏洞，影響65家IoT廠商，本周另外二家安全業者相信，已經有駭客盯上採用Realtek晶片的IoT裝置，企圖感染殭屍網路程式。</description>
-     <pubDate>2021-08-27  12:08:44</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146420</guid>
-  </item>
-  <item>
-    <title>蘋果讓步了，同意讓開發者與使用者溝通其它付款方式</title>
-    <link>https://www.ithome.com.tw/news/146419</link>
-    <description> 蘋果在26日宣布，在一起由美國開發者提出的集體訴訟案中，該公司與提告人已達成和解協議，蘋果將同意讓開發者與使用者溝通其它付款方式，以讓使用者選擇自App Store以外的途徑付款，同時蘋果也發表了新聞合作夥伴專案（News Partner Program），邀請獨立媒體加入Apple News，且承諾只會抽取15%的訂閱費用。</description>
-     <pubDate>2021-08-27  11:08:15</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146419</guid>
-  </item>
-  <item>
-    <title>Google強化App Engine應用程式安全，加入管理服務帳戶新功能</title>
-    <link>https://www.ithome.com.tw/news/146418</link>
-    <description> Google更新其無伺服器應用程式託管平臺App Engine，加入兩項新功能，除了提供用戶更多出站流量控制（Egress Controls）能力之外，也加入用戶管理服務帳戶，使得用戶能夠應用最低權限，來增加在App Engine上應用程式的安全性。</description>
-     <pubDate>2021-08-27  11:08:04</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146418</guid>
-  </item>
-  <item>
-    <title>Google可能付蘋果150億美元換取預設搜尋引擎地位</title>
-    <link>https://www.ithome.com.tw/news/146417</link>
-    <description> 根據一份分析師估計，今年Google可能付給蘋果150億美元，以換取成為Safari瀏覽器預設搜尋引擎，而在微軟威脅陰影下，明年可能還會增加。</description>
-     <pubDate>2021-08-27  10:08:56</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146417</guid>
-  </item>
-  <item>
-    <title>微軟終止Android版Office支援Chromebook</title>
-    <link>https://www.ithome.com.tw/news/146416</link>
-    <description> Chromebook上要使用Office變得更不方便了。媒體發現，微軟悄悄終止Android版Office對Chromebook的支援，用戶必須上網使用Web版Office。</description>
-     <pubDate>2021-08-27  10:08:27</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146416</guid>
-  </item>
-  <item>
-    <title>GitLab 14.2開放測試macOS版建置雲，並可即時預覽Markdown輸出</title>
-    <link>https://www.ithome.com.tw/news/146414</link>
-    <description> 新發布的GitLab14.2，更新了不少好用的新功能，像是現在開發者可以在macOS用到建置雲（Build Cloud）。原本GitLab SaaS上Apple生態系開發人員，需要在自己的macOS系統上安裝GitLab Runner，來執行CI/CD工作流程。</description>
-     <pubDate>2021-08-27  10:08:45</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146414</guid>
   </item>
   </channel>
 </rss>

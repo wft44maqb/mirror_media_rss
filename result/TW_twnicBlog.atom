@@ -7,7 +7,7 @@
 	<title type="text">財團法人台灣網路資訊中心部落格 | TWNIC Blog</title>
 	<subtitle type="text">悠遊寰宇、在地識別</subtitle>
 
-	<updated>2021-08-31T00:23:43Z</updated>
+	<updated>2021-08-31T09:51:00Z</updated>
 
 	<link rel="alternate" type="text/html" href="https://blog.twnic.tw" />
 	<id>https://blog.twnic.tw/feed/atom/</id>
@@ -16,6 +16,188 @@
 	<generator uri="https://wordpress.org/" version="5.6.4">WordPress</generator>
 <icon>https://blog.twnic.tw/wp-content/uploads/2020/04/cropped-favicon-2-32x32.png</icon>
 	<entry>
+		<author>
+			<name>TWNIC</name>
+					</author>
+
+		<title type="html"><![CDATA[瞭解網域名稱、IP及DNS運作機制的基礎漫畫：彭太的網路大冒險]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/31/19780/" />
+
+		<id>https://blog.twnic.tw/?p=19780</id>
+		<updated>2021-08-31T09:03:39Z</updated>
+		<published>2021-08-31T08:13:51Z</published>
+		<category scheme="https://blog.twnic.tw" term="最新消息" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="DNS" /><category scheme="https://blog.twnic.tw" term="HTTPS" /><category scheme="https://blog.twnic.tw" term="IP" /><category scheme="https://blog.twnic.tw" term="網域名稱" />
+		<summary type="html"><![CDATA[<img width="300" height="156" src="https://blog.twnic.tw/wp-content/uploads/2021/08/C1-1-300x156.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>TWNIC與日本域名註冊管理服務公司（JPRS）合作翻譯漫畫小手冊「彭太的網路大冒險（ポン太のネットの大冒険）」，希望以生動活潑的故事介紹平時我們不論是在上網、使用各種應用程式、寄送電子郵件，或是傳送訊息時都會接觸到網際網路不可或缺的網域名稱與DNS系統知識。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19780/">瞭解網域名稱、IP及DNS運作機制的基礎漫畫：彭太的網路大冒險</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/08/31/19780/"><![CDATA[<img width="300" height="156" src="https://blog.twnic.tw/wp-content/uploads/2021/08/C1-1-300x156.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;"><img loading="lazy" class="alignnone wp-image-19813 size-large" src="https://blog.twnic.tw/wp-content/uploads/2021/08/C2-1024x1017.png" alt="" width="1024" height="1017" /></span><br />
+<span style="font-size: 14pt;">你知道每天上網不可或缺的網域名稱、IP位址與網域名稱系統（DNS）等網路核心基礎設施是怎麼運作的嗎？</span></p>
+<p><span style="font-size: 14pt;">財團法人台灣網路資訊中心（Taiwan Network Information Center，TWNIC）與日本域名註冊管理服務公司（Japan Registry Services Co., Ltd.，JPRS）合作翻譯漫畫小手冊「彭太的網路大冒險（ポン太のネットの大冒険）」，JPRS自2010年以來持續免費發行漫畫小手冊，提供日本國高中等教育機構作為教材；希望以生動活潑的故事介紹平時我們不論是在上網、使用各種應用程式、寄送電子郵件，或是傳送訊息時都會接觸到網際網路不可或缺的網域名稱與DNS系統知識。</span></p>
+<p><span style="font-size: 14pt;">截至2017年為止，JPRS已在日本全國發行二十萬冊的漫畫，作為國高中資訊相關教育及資訊課程的輔助教材。</span></p>
+<p><span style="font-size: 14pt;">在本手冊中您可以學習到：</span></p>
+<ul>
+<li><span style="font-size: 14pt;">網域名稱如何代表IP位址</span></li>
+<li><span style="font-size: 14pt;">網域名稱與IP位址的關係</span></li>
+<li><span style="font-size: 14pt;">DNS（網域名稱系統）的角色與將域名轉換為IP位址的機制為何</span></li>
+<li><span style="font-size: 14pt;">網域名稱的類型與不同之處</span></li>
+</ul>
+<p><a href="https://blog.twnic.tw/wp-content/uploads/2021/08/DFEure.png" rel="attachment wp-att-19922"><img loading="lazy" class="aligncenter wp-image-19922 size-full" src="https://blog.twnic.tw/wp-content/uploads/2021/08/DFEure.png" alt="" width="512" height="760" /></a></p>
+<p style="text-align: center;"><span style="font-size: 14pt;"><a href="https://blog.twnic.tw/wp-content/uploads/2021/08/DNSe.png" rel="attachment wp-att-19794"><img loading="lazy" class="aligncenter wp-image-19794 size-full" src="https://blog.twnic.tw/wp-content/uploads/2021/08/DNSe.png" alt="" width="738" height="313" /></a></span><span style="font-size: 14pt;">網域名稱與IP位址的對應說明</span></p>
+<p style="text-align: left;"><span style="font-size: 14pt;">彭太的網路大冒險漫畫可做為認識網路核心基礎設施運作機制的入門，歡迎自下列連結下載閱讀漫畫。</span></p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 33.3333%; text-align: center;"><a href="https://bit.ly/3jtzrTK" target="_blank" rel="noopener"><span style="font-size: 14pt;">中文版</span></a></td>
+<td style="width: 33.3333%; text-align: center;"><a href="http://jprs.jp/related-info/study/ponta.pdf" target="_blank" rel="noopener"><span style="font-size: 14pt;">日文版</span></a></td>
+<td style="width: 33.3333%; text-align: center;"><a href="https://jprs.co.jp/en/ponta.pdf" target="_blank" rel="noopener"><span style="font-size: 14pt;">英文版</span></a></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14pt;">漫畫官方網站為：<a href="https://陣内ポン太.jp" target="_blank" rel="noopener">陣内ポン太.jp</a></span></p>
+<p style="text-align: center;">
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19780/">瞭解網域名稱、IP及DNS運作機制的基礎漫畫：彭太的網路大冒險</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19780/#comments" thr:count="0"/>
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19780/feed/atom/" thr:count="0"/>
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>電子報</name>
+					</author>
+
+		<title type="html"><![CDATA[「第36屆TWNIC IP政策資源管理會議」歡迎您踴躍報名參加！]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/31/19826/" />
+
+		<id>https://blog.twnic.tw/?p=19826</id>
+		<updated>2021-08-31T09:51:00Z</updated>
+		<published>2021-08-31T07:46:56Z</published>
+		<category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="IPv6" /><category scheme="https://blog.twnic.tw" term="OPM" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/Banner-1280-720-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>會議議題將包含網路管轄權、網際安全、網路資源管理及國內業者IPv6經驗分享等主題，並邀請國內外重量級嘉賓進行專題演講，介紹網際網路重要議題之發展。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19826/">「第36屆TWNIC IP政策資源管理會議」歡迎您踴躍報名參加！</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/08/31/19826/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/Banner-1280-720-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">為提供臺灣網路界一個可以討論IP網路技術相關議題的社群與機制平台，TWNIC將於10月06日線上舉辦 「第36屆TWNIC IP政策資源管理會議」。</span></p>
+<p><span style="font-size: 14pt;">本會議希望促進網際網路相關產業發展為目標之會議，提供各界有關網路技術研究、產業發展之溝通交流平台，彙集臺灣地區各ISP業者之意見提供相關IP政策及管理機制。</span></p>
+<p><span style="font-size: 14pt;">本次會議議題將包含網路管轄權、網際安全、網路資源管理及國內業者IPv6經驗分享等主題，並邀請國內外重量級嘉賓進行專題演講，介紹網際網路重要議題之發展。</span></p>
+<p><span style="font-size: 14pt;">本會議系列活動場場精彩可期，意者請儘速報名。欲報名及瞭解詳細議程內容，請上活動網址：<a href="https://opm.twnic.tw/36th/" target="_blank" rel="noopener">https://opm.twnic.tw/36th/</a></span></p>
+<ul>
+<li><span style="font-size: 14pt;">活動日期：2021年10月06日</span></li>
+<li><span style="font-size: 14pt;">活動地點：YouTube線上直播</span></li>
+<li><span style="font-size: 14pt;">參加對象：資訊從業人員、網路管理人員、ISP及電信業者、對網際網路資源發放政策有興趣之社會大眾</span></li>
+<li><span style="font-size: 14pt;">報名費用：免費參加</span></li>
+</ul>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19826/">「第36屆TWNIC IP政策資源管理會議」歡迎您踴躍報名參加！</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19826/#comments" thr:count="0"/>
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19826/feed/atom/" thr:count="0"/>
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>電子報</name>
+					</author>
+
+		<title type="html"><![CDATA[NRI（National and Regional IGF initiative，國家及地區網路治理論壇倡議）]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/31/19876/" />
+
+		<id>https://blog.twnic.tw/?p=19876</id>
+		<updated>2021-08-31T00:09:31Z</updated>
+		<published>2021-08-31T03:47:09Z</published>
+		<category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="202109" /><category scheme="https://blog.twnic.tw" term="IGF" /><category scheme="https://blog.twnic.tw" term="NRI" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/network-1572617_640-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>NRI為獨立組織，從各自社群的角度探討網路治理相關問題，同時按照全球IGF的主要原則行事。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19876/">NRI（National and Regional IGF initiative，國家及地區網路治理論壇倡議）</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/08/31/19876/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/network-1572617_640-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">NRI為獨立組織，從各自社群的角度探討網路治理相關問題，同時按照全球<a href="https://blog.twnic.tw/2021/07/28/19463/">IGF</a>的主要原則行事。截至2021年，聯合國五大區域已有超過135個倡議組織，IGF會定期舉辦NRI交流會議，並在IGF年度會議中與NRI進行協作，支援NRI參與IGF。</span></p>
+<p><span style="font-size: 14pt;">National and Regional IGF initiatives (NRIs) are organic and independent formations that are discussing issues pertaining to Internet Governance from the perspective of their respective communities, while acting in accordance with the main principles of the global IGF.</span></p>
+<p><span style="font-size: 14pt;">As of 2021, there are more than 135 initiatives located in all five UN regions and spread around the world.</span></p>
+<p><span style="font-size: 14pt;">To support the recommendations of the NRIs, the IGF is hosting regular (bi)monthly virtual meetings where the NRI Coordinators share updates, and collaborate on the NRIs engagement to the annual IGF meeting, as well as continuously discussing further enhancements to support the NRIs engagement toward the IGF.</span></p>
+<p><span style="font-size: 14pt;">參考來源：</span></p>
+<p><span style="font-size: 14pt;">Internet Governance Forum. IGF Regional and National Initiatives (2021). Internet Governance Forum.</span></p>
+<p><span style="font-size: 14pt;">檢自：<a href="https://www.intgovforum.org/multilingual/content/igf-regional-and-national-initiatives">https://www.intgovforum.org/multilingual/content/igf-regional-and-national-initiatives</a></span></p>
+<p><span style="font-size: 14pt;">(2021/08/19)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19876/">NRI（National and Regional IGF initiative，國家及地區網路治理論壇倡議）</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19876/#comments" thr:count="0"/>
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19876/feed/atom/" thr:count="0"/>
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>電子報</name>
+					</author>
+
+		<title type="html"><![CDATA[IETF維運與管理領域中負責IPv6相關工作組簡介]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/31/19855/" />
+
+		<id>https://blog.twnic.tw/?p=19855</id>
+		<updated>2021-08-31T00:10:53Z</updated>
+		<published>2021-08-31T02:47:01Z</published>
+		<category scheme="https://blog.twnic.tw" term="技術" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="IETF" /><category scheme="https://blog.twnic.tw" term="Internet" /><category scheme="https://blog.twnic.tw" term="IPv6" /><category scheme="https://blog.twnic.tw" term="RFC" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/touch-screen-1023966_640-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>網際網路工程任務組（Internet Engineering Task Force，IETF），維運與管理領域（Operations and Management Area，OPS）目前持續運作的工作組有15個。其中和IPv6相關工作組包含：v6ops（IPv6 Operations）、nemboned （MBONE Deployment）及dnsop （Domain Name System Operations）。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19855/">IETF維運與管理領域中負責IPv6相關工作組簡介</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/08/31/19855/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/touch-screen-1023966_640-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">網際網路工程任務組（Internet Engineering Task Force，IETF），目前工作任務共分7大<a href="https://blog.twnic.tw/2021/04/28/18303/">領域</a>，其中維運與管理領域（Operations and Management Area，OPS）涵蓋的主要技術領域包括：網路管理、AAA（Authentication, Authorization and Accounting）</span><span style="font-size: 14pt;">和網路面臨的各類型維運問題，例如DNS維運、IPv6維運、維運安全和路由維運。與大多數IETF領域不同，“維運與管理”領域在邏輯上分為兩個獨立功能：“網路管理”和“網路維運”。此領域目前持續運作的工作組有15個。</span></p>
+<p><span style="font-size: 14pt;">以下就和IPv6網路協議的維運與管理相關的工作組（Working Group，WG）進行簡介說明：</span></p>
+<ul>
+<li><span style="font-size: 14pt;">v6ops（IPv6 Operations）WG:</span><br />
+<span style="font-size: 14pt;">IPv6持續進行全球部署中，讓全球網際網路由IPv4-only，IPv6-only，IPv4-IPv6雙軌並行及 IPv6 +轉換網路和節點並存。因此必須正確處理其網路部署規劃，以避免將網路劃分為獨立的IPv4和IPv6網路，並確保所有IPv4和IPv6節點的尋址和連接性。 IPv6部署導致部分IPv4網路關閉。工作組目標為消除IPv4限制，以增進IPv6網路操作的創新。</span><br />
+<span style="font-size: 14pt;">IPv6維運工作組（v6ops）為新的和現有的IPv6網路部署和營運制定指南。</span><br />
+<span style="font-size: 14pt;">v6ops工作組的目標是：</span></li>
+</ul>
+<ol>
+<li><span style="font-size: 14pt;">徵求網路營運商和用戶的意見，以釐清IPv6網路的維運問題，並制定解決方案或替代方案以解決此類型問題。</span></li>
+<li><span style="font-size: 14pt;">徵求網路營運商和用戶的意見，以識別與IPv4網路的營運互通問題，並制定解決方案或替代方案以解決此類型問題。</span></li>
+<li><span style="font-size: 14pt;">徵求有關使用IPv6-only的問題和機會，及由此產生的創新討論和文件。</span></li>
+<li><span style="font-size: 14pt;">在v6ops中開發針對已發現問題的維運解決方案，應該記錄於訊息性或BCP (Best Current Practice) 草案中。</span></li>
+<li><span style="font-size: 14pt;">記錄IPv6網路的操作需求。</span><span style="font-size: 14pt;">此類文件應記錄IPv6的操作經驗，包括在雙軌並行的網路，以覆蓋或轉換服務形式提供IPv4的IPv6網路或IPv6-only的網路中與IPv4的交互運作。</span><br />
+<span style="font-size: 14pt;">特定協議或技術（例如應用、傳輸協議、路由協議、DNS或Sub-IP協議）的IPv6操作和部署問題是負責此類型協議或技術的工作組或相關領域的主要責任。而v6ops工作組可以根據需要向負責的領域/工作組提供意見，並與相關負責的領域/工作組合作審查IPv6營運和部署問題的解決方案。</span><br />
+<span style="font-size: 14pt;">和此工作組相關產出的RFC文件總計多達79筆之多，由最早在2003年公布 [RFC 3574] 標題為『Transition Scenarios for 3GPP Networks』內容主要提列在3GPP封裝網路如GPRS使用IPv4及IPv6傳輸的不同場景應用，以利後續研究。到2021年公佈的[RFC 8978] 標題為『Reaction of IPv6 Stateless Address Autoconfiguration (SLAAC) to Flash-Renumbering Events』內容主要提及當與IPv6前綴相關配置訊息失效時，如何提高網路穩定性及操作的變通方法以避免產生傳輸的問題。另外目前還有5個進行中的草案（Internet-Draft，I-D）。</span></li>
+</ol>
+<ul>
+<li><span style="font-size: 14pt;">mboned（MBONE Deployment）WG：</span><br />
+<span style="font-size: 14pt;">MBONE部署工作組以論壇形式運作，用於協調全球網路，網域間和單個網域中組播路由協議和部署，工程設計和操作。該工作組活動目前包括以下所列：</span></li>
+</ul>
+<ol>
+<li><span style="font-size: 14pt;">在全球網路中記錄組播路由的部署。</span></li>
+<li><span style="font-size: 14pt;">定期接收有關組播技術部署目前狀態的報告。建立“實作和案例”文件，以獲得已部署和正在部署各種組播技術人員的經驗。</span></li>
+<li><span style="font-size: 14pt;">根據報告和其他訊息，向其他相關工作組提供回饋意見。</span></li>
+<li><span style="font-size: 14pt;">開發用於共享操作訊息的機制和程序，幫助組播骨幹網路和互連操作。</span></li>
+<li><span style="font-size: 14pt;">分析對IPv4的需求-IPv6組播過渡解決方案</span></li>
+<li><span style="font-size: 14pt;">開發工具，擴展協議並提供操作和實作建議，以幫助在本機和非本機環境之間/之內進行組播管理、診斷、故障排除和部署。</span></li>
+<li><span style="font-size: 14pt;">路由和組成的成員身份協議的開發超出此工作組範圍。該工作組可以制定需求，並協助負責該協議的其他工作組中的文件進行審閱和提供回饋意見。</span><span style="font-size: 14pt;">和此工作組相關產出的RFC文件總計27筆，由最早在1998年公布 [RFC 2365] 標題為『Administratively Scoped IP Multicast』內容主要提列IPv4 組播空間定義為 239.0.0.0 到 239.255.255.255 的範圍，及用於實現管理範圍內 IP 組播的語義。並提供 IPv6 組播地址 [RFC1884] 和 IPv4 組播地址之間的對應。到2020年公佈的[RFC 8815] 標題為『Deprecating Any-Source Multicast (ASM) for Interdomain Multicast』內容主要建議不要使用任意來源組播 (Any-Source Multicast，ASM) 進行網域間的組播。另有目前還有4個進行中的草案（Internet-Draft，I-D）。</span></li>
+</ol>
+<ul>
+<li><span style="font-size: 14pt;">dnsop（Domain Name System Operations）WG：</span><br />
+<span style="font-size: 14pt;">DNS維運工作組將為DNS軟體和服務的營運及DNS區域的管理制定指南。此準則將提供與DNS區域的營運商和管理員實作DNS協議有關的技術訊息。該小組將執行以下工作項目：</span></li>
+</ul>
+<ol>
+<li><span style="font-size: 14pt;">描述可以在網路上有效，正確地管理，配置和操作網域名稱系統（DNS）軟體的方法。包括根區域名稱服務器，TLD名稱服務器或作為全域DNS一部分的任何其他解析器或服務器。該工作組將製作文件，對網路社群解釋為有效管理和操作DNS軟體和服務（包括根，TLD和遞迴服務器）應採用的過程和機制。</span></li>
+<li><span style="font-size: 14pt;">發布有關DNSSEC操作程序的文件。</span></li>
+<li><span style="font-size: 14pt;">發布有關IPv6和IPv6-IPv4混合網路中DNS操作程序的文件，並提供與DNS相關的IPv6過渡和共存問題的文件和指南。</span></li>
+<li><span style="font-size: 14pt;">發布文件以透過擴充或執行DNS協議來解決DNS協議的操作問題。作為營運商討論的焦點，並為Ops AD和其他工作組提供有關EDNS0選項，新RRTYPE，DNSSEC，記錄合成或擴充DNS以支援其他應用程序的其他機制的建議。</span></li>
+<li><span style="font-size: 14pt;">進行DNS相關議題草案討論，包含記錄現有或新的DNS問題。該工作組將在AD的建議和同意下，與其他領域進行協調，根據現有章程，決定問題是否屬於DNSOP；否則，將與作者和適當的AD一起確定合適的領域以進行後續工作。</span></li>
+<li><span style="font-size: 14pt;">發布以能更好地定義公共DNS根域名，本地名稱或受限命名範圍中使用的DNS之類的名稱及IETF管理的“特殊名稱”註冊表之間的重疊區域的文件，包括如何交換訊息。此項工作必須考慮到DNS本身無法完全解決的問題，並且工作組將斟酌請IETF聯絡人聯繫其他組織。</span><span style="font-size: 14pt;">和此工作組相關產出的RFC文件57份，包含和IPv6相關的文件有：[RFC 3901] 標題為『DNS IPv6 Transport Operational Guidelines』、[RFC 4074] 標題為『Common Misbehavior Against DNS Queries of IPv6 Address』及[RFC 4472] 標題為『Operational Considerations and Issues with IPv6 DNS』等，及17個草案（Internet-Draft，I-D）目前正在進行中。</span></li>
+</ol>
+<p><span style="font-size: 14pt;">更多相關訊息請參閱IETF官方網站所公布資訊。</span></p>
+<p><span style="font-size: 14pt;">參考資料：</span></p>
+<p><span style="font-size: 14pt;"><a href="https://datatracker.ietf.org/wg/v6ops/about/">https://datatracker.ietf.org/wg/v6ops/about/</a></span></p>
+<p><span style="font-size: 14pt;"><a href="https://datatracker.ietf.org/wg/mboned/about/">https://datatracker.ietf.org/wg/mboned/about/</a>  </span></p>
+<p><span style="font-size: 14pt;"><a href="https://datatracker.ietf.org/wg/dnsop/about/">https://datatracker.ietf.org/wg/dnsop/about/</a></span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19855/">IETF維運與管理領域中負責IPv6相關工作組簡介</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19855/#comments" thr:count="0"/>
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19855/feed/atom/" thr:count="0"/>
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
 		<author>
 			<name>電子報</name>
 					</author>
@@ -2249,329 +2431,6 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 		
 					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/07/30/19459/#comments" thr:count="0"/>
 			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/07/30/19459/feed/atom/" thr:count="0"/>
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[域名產業正在規劃「可信任的通知者」刪除規則]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/07/30/19243/" />
-
-		<id>https://blog.twnic.tw/?p=19243</id>
-		<updated>2021-08-05T06:26:38Z</updated>
-		<published>2021-07-29T23:56:57Z</published>
-		<category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="Trusted Notifiers" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/域名產業正在規劃「可信任的通知者」刪除規則-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>域名註冊管理機構與受理註冊機構正在制定一項「可信任的通知者」聯合框架，以加速下架惡意使用域名的作業流程。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/30/19243/">域名產業正在規劃「可信任的通知者」刪除規則</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/07/30/19243/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/域名產業正在規劃「可信任的通知者」刪除規則-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>域名註冊管理機構與受理註冊機構正在制定一個聯合框架，以加速下架惡意使用域名的作業流程。</p>
-<p>這項「可信任的通知者」框架目前尚處於早期討論階段，這是由域名註冊管理機構與受理註冊機構等利害關係團體所共同努力的成果，並在2021年6月中旬甫落幕的ICANN 71會議當中被提出討論。</p>
-<p>框架中所謂的「可信任的通知者」，是常受害於盜版或防冒藥品，必須常常要求下架濫用域名之第三方，同時，合約方（Contracted Parties House，由註冊管理機構及受理註冊機構組成）也信賴這些人不會濫用投訴，提出過度或不實的投訴內容。</p>
-<p>現階段似乎尚未公布任何框架草案，目前一切也仍只是私下討論。但社群成員表示，預計將產出一份共同的期望或共識，以確立何謂「可信任的通知者」，以及他們可以期望與域名業者產生什麼樣的合作關係。</p>
-<p>當然，這框架很明顯已涉及內容規範。但這並非ICANN共識政策，未來即使真的出現任何框架，也將是自願形式，沒有合約限制。</p>
-<p>然而，此類規範亦有所爭議，例如電子前哨基金會（Electronic Frontier Foundation, EFF）的言論自由倡議者便長期抱持反對意見，認為這是「後門內容監管」。</p>
-<p>相關連結：</p>
-<p>Kevin Murphy (2021). Domain firms plan “Trusted Notifier” takedown rules. DOMAININCITE.</p>
-<p>檢自：</p>
-<p><a href="http://domainincite.com/26806-domain-firms-plan-trusted-notifier-takedown-rules">http://domainincite.com/26806-domain-firms-plan-trusted-notifier-takedown-rules</a> (Jul. 2, 2021)</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/30/19243/">域名產業正在規劃「可信任的通知者」刪除規則</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/07/30/19243/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/07/30/19243/feed/atom/" thr:count="0"/>
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>電子報</name>
-					</author>
-
-		<title type="html"><![CDATA[資安廠商發表 2021 年第一季駭侵攻擊報告，攻擊量較去年同期增加 17％]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/07/29/19455/" />
-
-		<id>https://blog.twnic.tw/?p=19455</id>
-		<updated>2021-07-28T13:47:27Z</updated>
-		<published>2021-07-29T09:28:40Z</published>
-		<category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="202108" /><category scheme="https://blog.twnic.tw" term="國內外重要資安新聞" /><category scheme="https://blog.twnic.tw" term="駭侵" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/109-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>資安廠商 Positive Technologies 日前發表 2021 年第一季駭侵攻擊統計報告，報告中指出各種駭侵攻擊活動的數量，較去年同期相比，增加 17％</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/29/19455/">資安廠商發表 2021 年第一季駭侵攻擊報告，攻擊量較去年同期增加 17％</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/07/29/19455/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/109-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">資安廠商 Positive Technologies 日前發表 2021 年第一季駭侵攻擊統計報告，報告中指出各種駭侵攻擊活動的數量，較去年同期相比，增加 17％。</span></p>
-<p><span style="font-size: 14pt;">在所有攻擊活動當中，針對組織發動的佔 88%，針對個人的佔 12%。</span></p>
-<p><span style="font-size: 14pt;">以攻擊的目的來看，針對組織發動的攻擊中，資料竊取佔 62%、詐財佔 43％、激進駭客活動（Hacktivism）佔 9%、利用企業資源發動其他攻擊佔 2%；而企業被竊取的資料中，31% 為個人機敏資訊、24% 為智慧財産權、23% 為登入資訊、醫療資訊、客戶資料庫、付款卡片資訊等各佔 6%。</span></p>
-<p><span style="font-size: 14pt;">針對個人發動的攻擊活動，69％ 是為了取得個人資訊，24% 為了詐取財物、11% 為激進駭客活動；個人被竊取的資料中，51％ 為登入資訊、23% 為個人機敏資訊、12％ 為通訊内容、6% 為金融卡或信用卡資訊%，其他類則為 8%。</span></p>
-<p><span style="font-size: 14pt;">被攻擊的組織類型，政府機關佔比最高，達 12%、其次是製造業佔 11%、科學與教育機構佔 11%、醫療保健機構佔 8%、IT 産業佔 8%、金融業佔 7%、電信業佔 6%、其他産業佔 26％。</span></p>
-<p><span style="font-size: 14pt;">從攻擊手法來看，利用惡意軟體發動的攻擊數量，不論機構或個人都佔 58%、利用社交攻擊手法，機構佔 52%，個人佔 89%。</span></p>
-<p><span style="font-size: 14pt;">值得注意的是，針對政府機關發動的勒贖攻擊，近年來有日益增加的趨勢；觀察政府機關所有攻擊事件中，勒贖攻擊佔所有惡意軟體攻擊的比例，去年（2020 年)第一季到第四季分別為 28%、26%、37％、54％，而到今年（2021 年）第一季已高達 70%。</span></p>
-<p><span style="font-size: 14pt;"><strong>相關連結</strong></span></p>
-<ol>
-<li><span style="font-size: 14pt;"><a href="https://www.twcert.org.tw/tw/cp-104-4920-2db2d-1.html">TWCERT/CC</a></span></li>
-<li><span style="font-size: 14pt;"><a href="https://www.ptsecurity.com/ww-en/analytics/cybersecurity-threatscape-2021-q1/">Cybersecurity threatscape: Q1 2021</a></span></li>
-<li><a href="https://itbrief.com.au/story/cyber-incidents-on-the-rise-as-ransomware-accounts-for-two-thirds-of-all-malware-attacks"><span style="font-size: 14pt;">Cyber incidents on the rise as ransomware accounts for two thirds of all malware attacks</span></a></li>
-</ol>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/29/19455/">資安廠商發表 2021 年第一季駭侵攻擊報告，攻擊量較去年同期增加 17％</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/07/29/19455/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/07/29/19455/feed/atom/" thr:count="0"/>
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>電子報</name>
-					</author>
-
-		<title type="html"><![CDATA[曾駭入 TikTok、Snapchat 的駭侵者，因 Twitter 駭侵攻擊在西班牙被捕]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/07/29/19447/" />
-
-		<id>https://blog.twnic.tw/?p=19447</id>
-		<updated>2021-07-28T08:35:53Z</updated>
-		<published>2021-07-29T07:28:39Z</published>
-		<category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="202108" /><category scheme="https://blog.twnic.tw" term="加密貨幣" /><category scheme="https://blog.twnic.tw" term="國內外重要資安新聞" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/107-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>一名在去年七月犯下 Twitter 名人帳號挾持案件的嫌犯，於日前在西班牙遭到逮捕；他也曾經挾持過其他社群平台如 TikTok 和 Snapchat 上的帳號。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/29/19447/">曾駭入 TikTok、Snapchat 的駭侵者，因 Twitter 駭侵攻擊在西班牙被捕</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/07/29/19447/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/107-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">一名在去年七月犯下 Twitter 名人帳號挾持案件的嫌犯 Joseph O’Connor，於日前在西班牙遭到逮捕；他也曾經犯下挾持其他社群平台如 TikTok 和 Snapchat 上帳號的罪行。</span></p>
-<p><span style="font-size: 14pt;">Joseph O’Connor 是英國籍，現年 22 歲，他和 Mason Sheppard （又名 Chaewon，19 歲，英國籍）、Nima Fazeli（又名 Rolex，22 歲，美國籍）、Graham Ivan Clark（又名 Kirk，美國籍）等其他三人，在去年 7 月時以 SIM swap 與社交工程等方式，成功駭入 Twitter 的内部管理系統，並且挾持多達 130 個名人與著名公司的 Twitter 帳號，並利用這些帳號發布比特幣詐騙訊息；嫌犯假稱任何匯進指定錢包的比特幣，都可以收到兩倍的匯回款，以此吸引被害人匯款。</span></p>
-<p><span style="font-size: 14pt;">在去年的攻擊事件中，被挾持用來發布詐騙訊息的名人或知名公司帳號，包括時為美國總統民主黨候選人的 Joe Biden、Amazon 執行長 Jeff Bezos、美國前總統 Barrack Obama、特斯拉執行長 Elon Musk、前紐約市長 Michael Bloomberg，以及著名投資大師 Warren Buffet，以及全球最大的加密貨幣交易所 Binance、蘋果公司、另一家加密貨幣交易所 Coinbase、共享交通公司 Uber 等。</span></p>
-<p><span style="font-size: 14pt;">該次帳號挾持與比特幣詐騙攻擊中，嫌犯控制的比特幣錢包位置，在 24 小時内收到 383 次比特幣轉入，得到近 13 枚比特幣，當時的幣價相當於 117,000 美元。</span></p>
-<p><span style="font-size: 14pt;">這些嫌犯也將透過 Twitter 内部系統竊得的超短帳號（如@dark、@w、@l、@R9、@50、@vague）等，在相關社群平台上販售。</span></p>
-<p><span style="font-size: 14pt;">這四人目前都被指控多項駭侵罪名。</span></p>
-<p><span style="font-size: 14pt;"><strong>相關連結</strong></span></p>
-<ol>
-<li><span style="font-size: 14pt;"><a href="https://www.twcert.org.tw/tw/cp-104-4947-ccd39-1.html">TWCERT/CC</a></span></li>
-<li><span style="font-size: 14pt;"><a href="https://www.bleepingcomputer.com/news/security/tiktok-snapchat-account-hijacker-arrested-for-role-in-twitter-hack/">TikTok, Snapchat account hijacker arrested for role in Twitter hack</a></span></li>
-<li><a href="https://krebsonsecurity.com/2020/07/whos-behind-wednesdays-epic-twitter-hack/"><span style="font-size: 14pt;">Who’s Behind Wednesday’s Epic Twitter Hack?</span></a></li>
-</ol>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/29/19447/">曾駭入 TikTok、Snapchat 的駭侵者，因 Twitter 駭侵攻擊在西班牙被捕</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/07/29/19447/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/07/29/19447/feed/atom/" thr:count="0"/>
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>電子報</name>
-					</author>
-
-		<title type="html"><![CDATA[TWNIC公布2021年第2季台灣網際網路連線頻寬調查]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/07/29/19430/" />
-
-		<id>https://blog.twnic.tw/?p=19430</id>
-		<updated>2021-07-28T13:46:52Z</updated>
-		<published>2021-07-29T05:31:22Z</published>
-		<category scheme="https://blog.twnic.tw" term="技術" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="202108" /><category scheme="https://blog.twnic.tw" term="連線頻寬調查" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/104-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>2021年6月底統計，我國對外連線總頻寬達5,590,918Mbps，較上一季增750,304Mbps。台灣網路資訊中心每年定期公佈「台灣網際網路連線頻寬調查」提供包含台灣與國際網際網路互動以及國內各ISP互聯狀況最即時、最詳細的網路頻寬連線數據與消長趨勢相關資料。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/29/19430/">TWNIC公布2021年第2季台灣網際網路連線頻寬調查</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/07/29/19430/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/104-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">根據台灣網路資訊中心（TWNIC）進行的「台灣網際網路連線頻寬調查」結果顯示，於2021年6月底統計，我國對外連線總頻寬達5,590,918Mbps[圖一]，較上一季增750,304Mbps。台灣網路資訊中心每年定期公佈網際網路相關數據調查資料。其中「台灣網際網路連線頻寬調查」即提供包含台灣與國際網際網路互動以及國內各ISP互聯狀況最即時、最詳細的網路頻寬連線數據與消長趨勢相關資料。</span></p>
-<p><span style="font-size: 14pt;"><strong><u>關於連線國家與地區</u></strong></span></p>
-<p><span style="font-size: 14pt;">在連線國家/地區方面，於2021年6月底統計，我國與國外15個國家/地區連網。在國外連線頻寬方面，其中美國以2,010,754Mbps連線頻寬居我國最主要的連網國家，其他依序為香港(1,359,284Mbps )、日本(1,246,039Mbps)、新加坡(496,067Mbps)、中國大陸(354,799 Mbps)等[表一]。整體而言，我國對外連線之國家除美國、英國、德國之外，皆以亞太地區為主。</span></p>
-<p><span style="font-size: 14pt;"><strong><u>關於國內外連線頻寬</u></strong></span></p>
-<p><span style="font-size: 14pt;">在國外連線頻寬，HiNet(中華電信數據分公司) 、TFN（台灣固網）、Chief (是方電訊)為我國前三大的連外頻寬機構。</span></p>
-<p><span style="font-size: 14pt;">在國內ISP互連頻寬，TFN（台灣固網）、HiNet(中華電信數據分公司) 、Taiwanmobile (台灣大哥大)、emome(中華電信行動通信分公司) 、NCIC（新世紀資通），為前5大ISP互連頻寬之單位。</span></p>
-<p><span style="font-size: 14pt;">本次調查係以Email通知TWNIC『<a href="https://map.twnic.tw">連線頻寬登錄查詢系統</a>』(<a href="https://map.twnic.tw">https://map.twnic.tw</a>) 之連線頻寬調查聯絡人（共92家），請其在調查日期內至系統登錄本季資料，調查日期為2021年7月5日至2021年7月15日。為了確保連線頻寬資料之正確性，本調查系統有輔佐核校之功能，當兩ISP互連，但兩方填寫資料不一致，或有一方未填寫時，本調查系統會自動將兩邊互連資料不符之處E-mail給兩方填寫人，並請其作進一步之校對。故此調查所列國內連線頻寬資料皆為互連雙方核對無誤之資料。</span></p>
-<p><span style="font-size: 14pt;">本次調查之各項詳細資料，請參閱『<a href="https://map.twnic.tw">連線頻寬登錄查詢系統</a>』，相關查詢要項如下：</span></p>
-<ol>
-<li><span style="font-size: 14pt;">本季頻寬資料</span><br />
-<span style="font-size: 14pt;">請點選『連線頻寬統計報表』，選擇查詢國內或國外連線頻寬，再選擇公布時間2021年7月，將出現本季連線頻寬資料。</span></li>
-</ol>
-<ol start="2">
-<li><span style="font-size: 14pt;">HTML5連線頻寬圖</span><br />
-<span style="font-size: 14pt;">請點選『HTML5連線頻寬圖』，選擇公布時間2021年7月，將出現本季動態連線頻寬圖。</span></li>
-</ol>
-<ol start="3">
-<li><span style="font-size: 14pt;">各家連線調查單位詳細資料</span><br />
-<span style="font-size: 14pt;">請點選『連線調查單位資料查詢』，選擇所欲查詢之連線調查單位之單位屬性與公司名稱後，便出現此連線調查單位詳細資料。</span></li>
-</ol>
-<figure id="attachment_19431" aria-describedby="caption-attachment-19431" style="width: 932px" class="wp-caption aligncenter"><img loading="lazy" class="size-full wp-image-19431" src="https://blog.twnic.tw/wp-content/uploads/2021/07/103.png" alt="" width="932" height="440" /><figcaption id="caption-attachment-19431" class="wp-caption-text">圖一、每年國外連線總頻寬成長圖 (單位：Mbps) 2021/7月製圖</figcaption></figure>
-<table width="918">
-<tbody>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">項目</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">連線國家</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">2020/09</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">2020/12</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">2021/03</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">2021/06</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">佔本百分比</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">與上季成長率</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">1</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">美國</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,801,804</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,910,804</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,910,754</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">2,010,754</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">35.96%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">5.23%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">2</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">香港</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,017,973</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,036,006</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,044,784</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">1,359,284</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">24.31%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">30.10%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">3</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">日本</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">896,484</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,004,039</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,013,839</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">1,246,039</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">22.29%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">22.90%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">4</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">新加坡</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">357,555</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">368,555</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">368,555</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">496,067</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">8.87%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">34.60%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">5</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">中國大陸</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">334,426</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">334,803</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">334,803</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">354,799</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">6.35%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">5.97%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">6</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">南韓</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">65,815</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">65,815</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">65,815</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">65,815</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">1.18%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">0.00%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">8</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">荷蘭</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">20,000</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">20,000</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">20,000</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">20,000</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">0.36%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">0.00%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">9</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">菲律賓</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">11,400</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">11,400</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">11,400</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">11,400</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">0.20%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">0.00%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">10</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">馬來西亞</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">10,674</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">10,674</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">10,674</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">10,674</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">0.19%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">0.00%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">11</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">泰國</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">10,023</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">10,023</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">10,023</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">10,023</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">0.18%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">0.00%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">7</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">英國</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">43,200</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">43,200</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">43,200</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">3,200</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">0.06%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">-92.59%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">12</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">越南</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,411</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,411</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,411</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">1,411</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">0.03%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">0.00%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">13</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">印尼</span></td>
-<td style="text-align: center;" width="120"></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,000</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">1,000</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">1,000</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">0.02%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">0.00%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">14</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">德國</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">100</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">200</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">200</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">300</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">0.01%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">50.00%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"><span style="font-size: 12pt;">15</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">沙烏地阿拉伯</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">156</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">156</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">157</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">156</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">0.00%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">-0.98%</span></td>
-</tr>
-<tr>
-<td style="text-align: center;" width="105"></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">總計</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">4,571,024</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">4,822,084</span></td>
-<td style="text-align: center;" width="120"><span style="font-size: 12pt;">4,840,613</span></td>
-<td style="text-align: center;" width="121"><span style="font-size: 12pt;">5,590,918</span></td>
-<td style="text-align: center;" width="104"><span style="font-size: 12pt;">100.00%</span></td>
-<td style="text-align: center;" width="123"><span style="font-size: 12pt;">15.50%</span></td>
-</tr>
-</tbody>
-</table>
-<p style="text-align: center;"><span style="font-size: 10pt;">表一、台灣對外連線頻寬統計表 (單位：Mbps)  2021/7月製表</span></p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/07/29/19430/">TWNIC公布2021年第2季台灣網際網路連線頻寬調查</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/07/29/19430/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/07/29/19430/feed/atom/" thr:count="0"/>
 			<thr:total>0</thr:total>
 			</entry>
 	</feed>

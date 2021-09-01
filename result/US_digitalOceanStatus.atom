@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://status.digitalocean.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.digitalocean.com/history.atom"/>
   <title>DigitalOcean Status - Incident History</title>
-  <updated>2021-08-27T20:40:32Z</updated>
+  <updated>2021-08-31T22:25:20Z</updated>
   <author>
     <name>DigitalOcean</name>
   </author>
+  <entry>
+    <id>tag:status.digitalocean.com,2005:Incident/7886880</id>
+    <published>2021-08-31T22:25:19Z</published>
+    <updated>2021-08-31T22:25:20Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/t9tfc8myk0nw"/>
+    <title>Block Storage Volumes Timeouts and Errors in NYC1</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;31&lt;/var&gt;, &lt;var data-var='time'&gt;22:25&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our engineering team has resolved the issue with NYC1 Block Storage Volumes, and writing these Volumes should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;31&lt;/var&gt;, &lt;var data-var='time'&gt;22:06&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our engineers have applied a fix, and are monitoring an issue where Block Storage Volumes in our NYC1 region were timing out or showing errors when being written to.&lt;br /&gt;&lt;br /&gt;We will post an update as soon as additional information is available.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.digitalocean.com,2005:Incident/7859457</id>
     <published>2021-08-27T20:40:31Z</published>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/pmvdykrj5rn1"/>
     <title>Kubernetes Cluster Creates on Team Accounts</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;22:10&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our Engineering team has resolved the issue impacting the creation of Kubernetes Clusters on team accounts. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;21:56&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our Engineering team is currently monitoring an issue impacting the creation of Kubernetes Clusters on team accounts. A fix has already been implemented, and we will continue to monitor the situation closely. We apologize for the inconvenience and will share another update once the matter is fully resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;21:11&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Our Engineering team has identified an issue impacting the creation of Kubernetes Clusters on team accounts. Users may experience 403 errors when attempting this. We apologize for the inconvenience and will share another update once there is more information.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:status.digitalocean.com,2005:Incident/7617643</id>
-    <published>2021-07-27T21:16:37Z</published>
-    <updated>2021-07-27T21:16:38Z</updated>
-    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/8n0lvd566k34"/>
-    <title>Spaces Availability in NYC3</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;21:16&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our Engineering team has resolved the issue impacting Spaces availability in our NYC3 region and is monitoring the situation closely. Thank you for your patience throughout this process. If you experience any further issues at all, please open a ticket with our Support team.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;20:40&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our engineering team has implemented a fix for the issue impacting Spaces availability in our NYC3 region and is monitoring the situation closely. Thank you for your patience, and we will post an update as soon as the issue is fully resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;27&lt;/var&gt;, &lt;var data-var='time'&gt;18:56&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Our engineering team is currently investigating an issue impacting Spaces API availability in our NYC3 region. During this time, some users may experience errors when trying to access or manage their Spaces resources in NYC3. We apologize for the inconvenience and will share an update once we have more information.&lt;/p&gt;</content>
   </entry>
 </feed>

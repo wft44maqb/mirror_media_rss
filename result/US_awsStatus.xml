@@ -4,7 +4,7 @@
     <title><![CDATA[Amazon Web Services Service Status]]></title>
     <link>http://status.aws.amazon.com/</link>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Aug 2021 00:05:39 PDT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Aug 2021 16:06:43 PDT</lastBuildDate>
     <generator>AWS Service Health Dashboard RSS Generator</generator>
     <description><![CDATA[Amazon Web Services Service Status]]></description>
     <ttl>5</ttl>
@@ -12,125 +12,123 @@
 
 	 
 	 <item>
-	  <title><![CDATA[Service is operating normally: [RESOLVED] IAM errors and propagation latency]]></title>
+	  <title><![CDATA[Service is operating normally: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Thu, 26 Aug 2021 10:39:40 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#iam_1629999580</guid>
-	  <description><![CDATA[Between 6:44 AM and 9:12 AM PDT, customers experienced elevated latency and error rates in response to IAM API requests, as well as delays in describing recently created or modified IAM resources. In addition, between 6:44 AM and 10:02 AM, propagation of IAM API updates was delayed in the ME-SOUTH-1, EU-SOUTH-1, AP-EAST-1, and AF-SOUTH-1 regions, and newly created or recently updated IAM users, credentials, roles, and policies may not have been available for authentication and authorization in those regions. Other AWS Services that rely on IAM changes to provision resources, such as CloudFormation, were also impacted. Authentication and authorization for existing users, credentials, roles, policies were not impacted. The issue has been resolved and the service is operating normally.]]></description>
+	  <pubDate>Tue, 31 Aug 2021 16:04:22 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-eu-west-1_1630451062</guid>
+	  <description><![CDATA[We have resolved the issue affecting network connectivity within a single Availability Zone (euw1-az2) in the EU-WEST-1 Region. Beginning at 2:19 PM PDT, we experienced network connectivity issues for Network Load Balancer, NAT Gateway and PrivateLink endpoints within the EU-WEST-1 Region. At 3:25 PM PDT, some Network Load Balancers, NAT Gateways and PrivateLink endpoints began to see recovery and by 3:40 PM PDT, all affected Network Load Balancers, NAT Gateways and PrivateLink endpoints had fully recovered. The issue has been resolved and the service is operating normally.]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] IAM errors and propagation latency]]></title>
+	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Thu, 26 Aug 2021 09:52:00 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#iam_1629996720</guid>
-	  <description><![CDATA[We are investigating elevated latencies and errors on the IAM APIs. In addition, we are investigating propagation delays for recently created or recently updated IAM users, credentials, roles, policies. Authentication and authorization of existing users, credentials, roles, policies are not impacted. Other AWS services like AWS CloudFormation that use IAM roles were also impacted.]]></description>
+	  <pubDate>Tue, 31 Aug 2021 15:35:05 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-eu-west-1_1630449305</guid>
+	  <description><![CDATA[We are beginning to see signs of recovery, and continue to work toward full resolution. ]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Service is operating normally: [RESOLVED] Elevated Event Delivery Latency]]></title>
+	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 21:05:11 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#events-us-east-1_1629259511</guid>
-	  <description><![CDATA[Between 8:31 AM and 9:00 PM PDT, we experienced elevated event delivery latency for EventBridge events in the US-EAST-1 Region. Other AWS services that make use of EventBridge are no longer experiencing elevated event delivery latency. The issue has been resolved and the service is operating normally. ]]></description>
+	  <pubDate>Tue, 31 Aug 2021 14:58:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-eu-west-1_1630447080</guid>
+	  <description><![CDATA[We can confirm network connectivity issues affecting a single Availability Zone (euw1-az2) in the EU-WEST-1 Region and are actively working on mitigation. Some other AWS services, including Lambda, ELB, Kinesis, SQS, RDS, CloudWatch and ECS, may also see impact as a result of this issue. A component within the subsystem responsible for the processing of network packets for Network Load Balancer, NAT Gateway and PrivateLink services became impaired and was no longer processing health checks successfully. This resulted in other components no longer accepting new connection requests, as well as elevated packet loss for Network Load Balancer, NAT Gateway and PrivateLink endpoints. For immediate mitigation for NLB, customers should (1) disable ‘cross zone load balancing’ on Network Load Balancer, and then (2) deregister any targets that are in euw1-az2. For NAT Gateway/PrivateLink, you may modify your route tables to direct traffic to NAT Gateways in other Availability Zones or you may disable PrivateLink endpoints in euw1-az2.]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Elevated Event Delivery Latency]]></title>
+	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 20:06:49 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#events-us-east-1_1629256009</guid>
-	  <description><![CDATA[We have completed our actions towards mitigating event delivery latency for EventBridge events in the US-EAST-1 Region. Event delivery latency for new events has fully recovered and we are processing the backlog of previously published events. Other AWS Services that make use of EventBridge are observing improvements in elevated event delivery latency as well.
-]]></description>
+	  <pubDate>Tue, 31 Aug 2021 14:39:02 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-eu-west-1_1630445942</guid>
+	  <description><![CDATA[We are investigating connectivity issues for load balancers in a single Availability Zone (euw1-az2) in the EU-WEST-1 Region.]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Elevated Event Delivery Latency]]></title>
+	  <title><![CDATA[Service is operating normally: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 19:07:00 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#events-us-east-1_1629252420</guid>
-	  <description><![CDATA[We previously took steps towards mitigating event delivery latency based upon the suspected root cause and observed improvements in event delivery latency in the US-EAST-1 Region. We have now identified that we are continuing to see event delivery latency due to the component responsible for matching events with EventBridge rules and are taking further steps to mitigate the issue as we work towards full resolution. Other AWS Services that make use of EventBridge may also observe elevated event delivery latency.]]></description>
+	  <pubDate>Tue, 31 Aug 2021 16:02:41 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630450961</guid>
+	  <description><![CDATA[We have resolved the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. Beginning at 10:58 AM PDT, we experienced network connectivity issues for Network Load Balancer, NAT Gateway and PrivateLink endpoints within the US-WEST-2 Region. At 2:45 PM, some Network Load Balancers, NAT Gateways and PrivateLink endpoints began to see recovery and by 3:35 PM, all affected Network Load Balancers, NAT Gateways and PrivateLink endpoints had fully recovered. The issue has been resolved and the service is operating normally.]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Elevated Event Delivery Latency]]></title>
+	  <title><![CDATA[Service degradation: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 18:17:14 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#events-us-east-1_1629249434</guid>
-	  <description><![CDATA[We continue to take mitigation actions to improve elevated event delivery latency for EventBridge events in the US-EAST-1 Region. While we observe improvement in event delivery latency, we are still experiencing elevated latency in the component responsible for matching events and continue to work towards full resolution. Other AWS Services that make use of EventBridge may also observe elevated event delivery latency.]]></description>
+	  <pubDate>Tue, 31 Aug 2021 15:22:37 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630448557</guid>
+	  <description><![CDATA[We are beginning to see signs of recovery, and continue to work toward full resolution. ]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Elevated Event Delivery Latency]]></title>
+	  <title><![CDATA[Service degradation: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 17:36:35 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#events-us-east-1_1629246995</guid>
-	  <description><![CDATA[We have identified the root cause of the issue resulting in elevated event delivery latency for EventBridge events in the US-EAST-1 Region. We continue to observe further reduction of the delivery latency for more requests. We have completed additional mitigation steps that have led to the reduction in delivery latency and continue to work towards full resolution. Other AWS Services that make use of EventBridge may also observe elevated event delivery latency.]]></description>
+	  <pubDate>Tue, 31 Aug 2021 14:24:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630445040</guid>
+	  <description><![CDATA[We have identified the root cause of the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region and are actively working on mitigation. A component within the subsystem responsible for the processing of network packets for Network Load Balancer, NAT Gateway and PrivateLink services became impaired and was no longer processing health checks successfully. This resulted in other components no longer accepting new connection requests, as well as elevated packet loss for Network Load Balancer, NAT Gateway and PrivateLink endpoints. For immediate mitigation for NLB, customers should (1) disable ‘cross zone load balancing’ on Network Load Balancer, and then (2) deregister any targets that are in usw2-az2. For NAT Gateway/PrivateLink, you may modify your route tables to direct traffic to NAT Gateways in other Availability Zones or you may disable PrivateLink endpoints in usw2-az2. ]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Elevated Event Delivery Latency]]></title>
+	  <title><![CDATA[Service degradation: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 16:39:02 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#events-us-east-1_1629243542</guid>
-	  <description><![CDATA[We have identified the root cause of the issue resulting in elevated event delivery latency for EventBridge events in the US-EAST-1 Region. We are seeing further reduction of the delivery latency for more requests. We have identified the component that is contributing to the event delivery latency and are mitigating impact within this component as we work towards full resolution. Other AWS Services that make use of EventBridge may also observe elevated event delivery latency.]]></description>
+	  <pubDate>Tue, 31 Aug 2021 13:00:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630440000</guid>
+	  <description><![CDATA[We continue to investigate the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. We have narrowed down the issue to an increase in packet loss within the subsystem responsible for the processing of network packets for Network Load Balancer, NAT Gateway and PrivateLink services. The issue continues to only affect the single Availability Zone (usw2-az2) within the US-WEST-2 region, so shifting traffic away from Networking Load Balancer and NAT Gateway within the affected Availability Zone can mitigate the impact. Some other AWS services, including Lambda, ELB, Kinesis, SQS, RDS, CloudWatch and ECS, are seeing impact as a result of this issue. ]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Elevated Event Delivery Latency]]></title>
+	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 15:12:36 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#events-us-east-1_1629238356</guid>
-	  <description><![CDATA[We have identified the root cause of the issue resulting in elevated event delivery latency for EventBridge events in the US-EAST-1 Region. We are seeing further reduction of the delivery latency for some requests. We are exploring further mitigation steps as we continue to work toward full resolution. Other AWS Services that make use of EventBridge may also observe elevated event delivery latency.]]></description>
+	  <pubDate>Tue, 31 Aug 2021 12:10:29 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630437029</guid>
+	  <description><![CDATA[We continue to investigate the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. While we continue to work towards root cause, we believe that the issue is affecting connectivity to Network Load Balancers from EC2 instances, connectivity from Lambda to EC2 instances and other AWS services, as well as connectivity between EC2 and some AWS services using PrivateLink. In an effort to further mitigate the impact, we are shifting some services and network flows away from the affected Availability Zone to mitigate the impact.]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Elevated Event Delivery Latency]]></title>
+	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 13:53:51 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#events-us-east-1_1629233631</guid>
-	  <description><![CDATA[We have identified the root cause of the issue resulting in elevated event delivery latency for EventBridge events in the US-EAST-1 Region. We have taken initial mitigation actions, which have reduced the delivery latency for some requests, and continue to work toward full resolution. Other AWS Services that make use of EventBridge may also observe elevated event delivery latency.]]></description>
+	  <pubDate>Tue, 31 Aug 2021 11:46:53 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630435613</guid>
+	  <description><![CDATA[We are investigating connectivity, provisioning, and target registration issues for load balancers in the US-WEST-2 Region.]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Elevated Event Delivery Latency]]></title>
+	  <title><![CDATA[Service is operating normally: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 12:39:40 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#events-us-east-1_1629229180</guid>
-	  <description><![CDATA[We can confirm elevated event delivery latency for EventBridge events in the US-EAST-1 Region. Other AWS Services that make use of EventBridge may also observe elevated event delivery latency. ]]></description>
+	  <pubDate>Tue, 31 Aug 2021 16:02:45 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#internetconnectivity-us-west-2_1630450965</guid>
+	  <description><![CDATA[We have resolved the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. Beginning at 10:58 AM PDT, we experienced network connectivity issues for Network Load Balancer, NAT Gateway and PrivateLink endpoints within the US-WEST-2 Region. At 2:45 PM, some Network Load Balancers, NAT Gateways and PrivateLink endpoints began to see recovery and by 3:35 PM, all affected Network Load Balancers, NAT Gateways and PrivateLink endpoints had fully recovered. The issue has been resolved and the service is operating normally.]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Service is operating normally: [RESOLVED] Elevated API Error Rates]]></title>
+	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 07:12:12 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#ecs-us-east-1_1629209532</guid>
-	  <description><![CDATA[Between 3:40 AM and 6:45 AM PDT we experienced increased API error rates for ECS in the US-EAST-1 Region. In most cases, API calls succeeded when retried.  We continue to work to recover residual impact and have opened notifications for the remaining impacted customers via the Personal Health Dashboard.]]></description>
+	  <pubDate>Tue, 31 Aug 2021 15:23:15 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#internetconnectivity-us-west-2_1630448595</guid>
+	  <description><![CDATA[We are beginning to see signs of recovery, and continue to work toward full resolution. ]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Elevated API Error Rates]]></title>
+	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 06:15:00 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#ecs-us-east-1_1629206100</guid>
-	  <description><![CDATA[We can confirm increased API error rates for ECS in the US-EAST-1 Region. We have identified the root cause and continue to work towards recovery. In most cases, a retry of the API operation will succeed.
-]]></description>
+	  <pubDate>Tue, 31 Aug 2021 14:26:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#internetconnectivity-us-west-2_1630445160</guid>
+	  <description><![CDATA[We have identified the root cause of the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region and are actively working on mitigation. A component within the subsystem responsible for the processing of network packets for Network Load Balancer, NAT Gateway and PrivateLink services became impaired and was no longer processing health checks successfully. This resulted in other components no longer accepting new connection requests, as well as elevated packet loss for Network Load Balancer, NAT Gateway and PrivateLink endpoints. For immediate mitigation for NLB, customers should (1) disable ‘cross zone load balancing’ on Network Load Balancer, and then (2) deregister any targets that are in usw2-az2. For NAT Gateway/PrivateLink, you may modify your route tables to direct traffic to NAT Gateways in other Availability Zones or you may disable PrivateLink endpoints in usw2-az2.]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Elevated API Error Rates]]></title>
+	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 05:24:40 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#ecs-us-east-1_1629203080</guid>
-	  <description><![CDATA[We can confirm increased API error rates for ECS in the US-EAST-1 Region. We have identified the issue and are working towards mitigation. In most cases, a retry of the API operation will succeed.]]></description>
+	  <pubDate>Tue, 31 Aug 2021 13:00:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#internetconnectivity-us-west-2_1630440000</guid>
+	  <description><![CDATA[We continue to investigate the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. We have narrowed down the issue to an increase in packet loss within the subsystem responsible for the processing of network packets for Network Load Balancer, NAT Gateway and PrivateLink services. The issue continues to only affect the single Availability Zone (usw2-az2) within the US-WEST-2 region, so shifting traffic away from Networking Load Balancer and NAT Gateway within the affected Availability Zone can mitigate the impact. Some other AWS services, including Lambda, ELB, Kinesis, SQS, RDS, CloudWatch and ECS, are seeing impact as a result of this issue. ]]></description>
 	 </item>
          
 	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Elevated API Error Rates]]></title>
+	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 17 Aug 2021 04:55:56 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#ecs-us-east-1_1629201356</guid>
-	  <description><![CDATA[We are investigating increased API error rates in the US-EAST-1 Region.]]></description>
+	  <pubDate>Tue, 31 Aug 2021 12:13:27 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#internetconnectivity-us-west-2_1630437207</guid>
+	  <description><![CDATA[We continue to investigate the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. While we continue to work towards root cause, we believe that the issue is affecting connectivity to Network Load Balancers from EC2 instances, connectivity from Lambda to EC2 instances and other AWS services, as well as connectivity between EC2 and some AWS services using PrivateLink. In an effort to further mitigate the impact, we are shifting some services and network flows away from the affected Availability Zone to mitigate the impact.]]></description>
 	 </item>
         
   </channel>
