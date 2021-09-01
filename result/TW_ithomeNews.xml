@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>南韓通過法令，允許行動程式開發者使用其它付款機制</title>
+    <link>https://www.ithome.com.tw/news/146477</link>
+    <description> 南韓國會在本周二（8/31）通過《電信業務法》（Telecommunications Business Act）修正案，以禁止Google Play或蘋果App Store等大型行動程式市集，強迫程式開發者採用相關平臺的支付系統，也禁止這類市集不合理地延後程式審核或是將程式移除。</description>
+     <pubDate>2021-09-01  01:09:25</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146477</guid>
+  </item>
+  <item>
     <title>微軟、Verizon合推5G企業專網邊緣運算方案</title>
     <link>https://www.ithome.com.tw/news/146476</link>
     <description> 微軟與美國電信業者Verizon宣布，將結合Verizon 5G專網及微軟Azure Stack Edge，推出整合邊緣運算的企業私有行動網路方案。</description>
@@ -250,14 +258,6 @@ Linux衍生自Unix作業系統，Torvalds在30年前發表的是Linux核心（Li
      <pubDate>2021-08-27  06:08:21</pubDate>
  <dc:creator>蘇文彬</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146431</guid>
-  </item>
-  <item>
-    <title>Solo.io正式推出企業級服務網格管理平面Gloo Mesh Enterprise</title>
-    <link>https://www.ithome.com.tw/news/142797</link>
-    <description> FaaS服務新創公司Solo.io正式發布Gloo Mesh Enterprise，這是一個企業級服務網格管理解決方案，可增加服務網格的可用性和可控制性，簡化Istio在多叢集和多雲環境的複雜操作，同時還可以讓用戶以WebAssembly擴充網格資料平面。</description>
-     <pubDate>2021-08-27  04:08:57</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/142797</guid>
   </item>
   </channel>
 </rss>

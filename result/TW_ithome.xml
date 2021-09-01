@@ -6,6 +6,22 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>南韓通過法令，允許行動程式開發者使用其它付款機制</title>
+ <link>https://www.ithome.com.tw/news/146477</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;http://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2Z1F0E7F2Y0Q1S1N3B4Y5U2A2K2P9&quot; target=&quot;_blank&quot;&gt;南韓國會在本周二（8/31）通過《電信業務法》&lt;/a&gt;（Telecommunications Business Act）修正案，以禁止Google Play或蘋果App Store等大型行動程式市集，強迫程式開發者採用相關平臺的支付系統，也禁止這類市集不合理地延後程式審核或是將程式移除。&lt;/p&gt;
+&lt;p&gt;南韓應是全球第一個透過立法削弱程式市集權力的國家，此一修正案將會在南韓總統文在寅簽署之後成為正式法令。違反該法令的平臺，最多會被判罰企業於當地營收的3%。&lt;/p&gt;
+&lt;p&gt;Google Play與蘋果的App Store現為全球最大的兩個行動程式市集，由於蘋果並不開放第三方市集，因此所有的蘋果裝置都必須透過App Store安裝程式，雖然Google允許第三方的Android市集，但Google Play仍是全球最大的Android程式市集。&lt;/p&gt;
+&lt;p&gt;此外，不管是Google Play或App Store，都要求開發者必須採用該平臺的支付系統，以方便這兩家業者針對開發者的收入拆帳，拆帳比例最高為30%。&lt;/p&gt;
+&lt;p&gt;在南韓之前，不管是美國或歐盟都已針對Google Play與App Store是否涉嫌違反反托拉斯法展開調查，調查的方向與南韓本周通過的法令一致，而南韓卻是唯一一個明文規定禁止事項的國家。&lt;/p&gt;
+&lt;p&gt;其實自從遭到各國的調查之後，Google與蘋果都開始修改政策以減少外界的批評，例如針對年營收低於100萬美元的開發者僅收取15%的佣金，&lt;a href=&quot;https://www.ithome.com.tw/news/146419&quot; target=&quot;_blank&quot;&gt;蘋果還在近日同意開發者&lt;/a&gt;可藉由電子郵件等方式與程式用戶聯繫，溝通其它付款方式，讓使用者得以選擇自App Store以外的途徑付款。&lt;/p&gt;
+&lt;p&gt;這波來自全球市場的壓力，可望讓Google與蘋果進一步放寬對行動市集的限制。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 01 Sep 2021 05:05:25 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146477 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146477#comments</comments>
+</item>
+<item>
  <title>微軟、Verizon合推5G企業專網邊緣運算方案</title>
  <link>https://www.ithome.com.tw/news/146476</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.fiercewireless.com/private-wireless/verizon-turns-up-prem-private-5g-edge-compute-microsoft-azure&quot; target=&quot;_blank&quot;&gt;微軟與美國電信業者Verizon宣布&lt;/a&gt;，將結合Verizon 5G專網及微軟Azure Stack Edge，推出整合邊緣運算的企業私有行動網路方案。&lt;/p&gt;
@@ -293,23 +309,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146467 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146467#comments</comments>
-</item>
-<item>
- <title>曼谷航空疑遭LockBit攻擊致客戶資料外洩</title>
- <link>https://www.ithome.com.tw/news/146466</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.bangkokair.com/press-release/view/clarifies-the-incident-of-a-cybersecurity-attack&quot; target=&quot;_blank&quot;&gt;曼谷航空（Bankok Airways）上周公告&lt;/a&gt;因資安事件導致為數不詳的客戶資料外洩，元兇可能是勒索軟體LockBit。&lt;/p&gt;
-&lt;p&gt;曼谷航空指出今年8月23日他們發現一樁網路攻擊事件，導致資訊系統遭到未授權人士不法存取。該公司強調一經發覺，已立即採取行動阻斷事件並著手調查。&lt;/p&gt;
-&lt;p&gt;目前曼谷航空仍在調查受害資料範圍及受影響的乘客。初步調查證實，攻擊者已經存取了部份客戶個資，包括乘客姓名、國籍、性別、電話號碼、電子郵件信箱、地址、聯絡人、護照資訊、旅行紀錄、部份信用卡資訊及特別餐點資訊等。&lt;/p&gt;
-&lt;p&gt;但航空公司強調本事件不影響公司的飛航運作及航太安全系統。&lt;/p&gt;
-&lt;p&gt;曼谷航空未說明是什麼樣的網路攻擊事件，不過LockBit勒索軟體背後的&lt;a href=&quot;https://twitter.com/darktracer_int/status/1430494830560309249&quot; target=&quot;_blank&quot;&gt;駭客組織最近宣布&lt;/a&gt;，曼谷航空是其最新受害者，他們揚言即將釋出103GB的壓縮檔，並要求曼谷航空在5天內支付贖款。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://therecord.media/bangkok-air-confirms-passenger-pii-leak-after-ransomware-attack/&quot; target=&quot;_blank&quot;&gt;The Record報導&lt;/a&gt;，在得知曼谷航空不願付錢後，駭客已經於周六公布所有超過200GB的檔案。&lt;/p&gt;
-&lt;p&gt;曼谷航空對此表達歉意，也呼籲乘客應小心可能的釣魚信件攻擊。&lt;/p&gt;
-&lt;p&gt;曼谷航空是近日LockBit的最新受害者。本月&lt;a href=&quot;https://www.ithome.com.tw/news/146421&quot; target=&quot;_blank&quot;&gt;澳洲網路安全中心示警&lt;/a&gt;LockBit 2.0肆虐當地製造、零售、專業服務等、營建等產業公司。跨國IT顧問公司Accenture 8月初也傳遭到勒索軟體LockBit攻擊。&lt;a href=&quot;https://www.ithome.com.tw/news/146421&quot; target=&quot;_blank&quot;&gt;Palo Alto&lt;/a&gt;估計2個月內至少有50家組織遇害。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 31 Aug 2021 07:57:39 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146466 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146466#comments</comments>
 </item>
 </channel>
 </rss>
