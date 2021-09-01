@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 01 Sep 2021 04:29:36 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Sep 2021 04:32:50 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 01 Sep 2021 04:29:35 GMT</pubDate>
+        <pubDate>Wed, 01 Sep 2021 04:32:50 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -91,6 +91,13 @@
             <pubDate>Wed, 01 Sep 2021 03:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[私人資本引發新的太空競賽]]></title>
+            <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LT890_SPACEH_OR_20210830123321.jpg" class="webfeedsFeaturedVisual" alt=""/><p>人類上一次在月球上行走過去近50年後，私人資本引發了一場新的太空競賽。將富人送入太空成為媒體關注的焦點，但投資者或許應該更加關注發射小型衛星這一較為乏味的業務。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E7%A7%81%E4%BA%BA%E8%B3%87%E6%9C%AC%E5%BC%95%E7%99%BC%E6%96%B0%E7%9A%84%E5%A4%AA%E7%A9%BA%E7%AB%B6%E8%B3%BD-11630470605</link>
+            <guid isPermaLink="false">CT-HRD-20210901113237</guid>
+            <pubDate>Wed, 01 Sep 2021 04:30:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[報導：新款Apple Watch的生產因質量問題被延遲]]></title>
             <description><![CDATA[<img width="76" height="76" src="https://si.wsj.net/public/resources/images/S1-KJ925_gaadpi_A_20210521145308.png" class="webfeedsFeaturedVisual" alt=""/><p>《日本經濟新聞》援引知情人士消息報導，蘋果公司即將推出的Apple Watch的生產已被推遲，在很大程度上是由於這款新智能手錶的複雜設計。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E5%A0%B1%E5%B0%8E%EF%BC%9A%E6%96%B0%E6%AC%BEapple-watch%E7%9A%84%E7%94%9F%E7%94%A2%E5%9B%A0%E8%B3%AA%E9%87%8F%E5%95%8F%E9%A1%8C%E8%A2%AB%E5%BB%B6%E9%81%B2-11630459035</link>
@@ -110,13 +117,6 @@
             <link>https://cn.wsj.com/articles/%E5%AF%8C%E9%81%94%E6%8A%95%E8%B3%87%E7%B9%BC%E7%BA%8C%E6%8B%9B%E5%85%B5%E8%B2%B7%E9%A6%AC%EF%BC%8C%E5%B9%B4%E5%BA%95%E5%89%8D%E5%86%8D%E6%8B%9B%E8%81%989,000%E4%BA%BA-11630454407</link>
             <guid isPermaLink="false">CT-BIZ-20210901074912</guid>
             <pubDate>Wed, 01 Sep 2021 00:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[紐約時報公司旗下產品評論網站Wirecutter將開始收費]]></title>
-            <description><![CDATA[<img width="1279" height="943" src="https://si.wsj.net/public/resources/images/S1-LU090_WIRECU_OR_20210830181352.jpg" class="webfeedsFeaturedVisual" alt=""/><p>紐約時報公司希望在其旗艦新聞產品之外進一步豐富其訂閱業務。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%B4%90%E7%B4%84%E6%99%82%E5%A0%B1%E5%85%AC%E5%8F%B8%E6%97%97%E4%B8%8B%E7%94%A2%E5%93%81%E8%A9%95%E8%AB%96%E7%B6%B2%E7%AB%99wirecutter%E5%B0%87%E9%96%8B%E5%A7%8B%E6%94%B6%E8%B2%BB-11630453805</link>
-            <guid isPermaLink="false">CT-BIZ-20210901074011</guid>
-            <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[想在美國炒房？先看看稅可能有多高]]></title>
