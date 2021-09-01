@@ -6,6 +6,22 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>AWS正式推出全託管監控平臺Grafana服務</title>
+ <link>https://www.ithome.com.tw/news/146475</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS與Grafana Labs所合作的&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/amazon-managed-grafana-is-now-generally-available-with-many-new-features/&quot;&gt;Amazon Managed Grafana（AMG）&lt;/a&gt;服務，已經結束預覽階段現正式發布，這是一項全託管的服務，供用戶簡單地按需創建可擴展的Grafana工作區，視覺化和分析各種來源資料。與預覽階段相比，AMG加入了多項更新，包括升級使用Grafana 8，用戶能從AMG工作區查詢Redis、SAP HANA和Salesforce資料源，還可以使用Grafana API金鑰，以程式開發方式存取Grafana工作區。&lt;/p&gt;
+&lt;p&gt;Grafana是目前熱門的開源監控技術，供用戶創建儀表板，來觀察應用程式的狀態，具有可插拔的資料源模型，並且支援不同類型的時序資料庫和雲端監控供應商，Grafana可整合串連多個開源、雲端和第三方資料源的資料。AMG讓不想自己管理伺服器的用戶，簡單地使用Grafana服務，由AMG管理Grafana的配置、版本升級和安全修補程式，並且能夠自動擴展支援數千個用戶，維持高可用性。&lt;/p&gt;
+&lt;p&gt;用戶能使用AMG查詢、關聯和視覺化多個資料源，包括AWS、GCP和Azure等雲端服務，以簡單地方式收集營運資料，而且AMG還與Amazon託管Prometheus整合，提供容器應用程式完整的觀察性解決方案，而AMG也支援擴充套件，供用戶連接熱門的第三方資料源，像是Datadog、Splunk和New Relic。&lt;/p&gt;
+&lt;p&gt;從預覽版本到正式版本，AWS做了一些升級，新功能包括Grafana升級到版本8，支援更多的資料源、視覺化功能，面板庫供用戶建構可重複使用的儀表板，Prometheus指標瀏覽器可快速尋找和查詢指標，此外，用戶也能用到Grafana 8新加入的狀態時間軸，和狀態歷史視覺化功能。&lt;/p&gt;
+&lt;p&gt;AMG工作區可作為集中查詢額外資料源的工具，用戶透過JSON資料源擴充套件，就能查詢Redis、SAP HANA和Salesforce等資料源。而Grafana API金鑰可讓用戶發布儀表板，或是以程式開發方法存取Grafana工作區，像是使用Terraform來配置資料源和儀表板。另外，利用SAML 2.0（Security Assertion Markup Language 2.0），用戶就可以快速啟動單點登入（SSO）功能。&lt;/p&gt;
+&lt;p&gt;AWS CloudTrail擷取所有來自AMG控制臺的呼叫，以及程式碼對AMG API的呼叫，因此用戶可以記錄用戶、角色和AWS服務對AMG的操作，並且稽核AMG工作區中的變更，像是刪除控制面板和更改資料權限等。&lt;/p&gt;
+&lt;p&gt;目前AMG在10個AWS地區推出，地區涵蓋美東、美西和歐洲，而亞太地區則有新加坡、東京、雪梨與首爾。AMG依工作區活躍用戶數計費；用來發布儀表板的Grafana API金鑰，按每個工作區每月API使用者授權數計費；要直接從Grafana Labs存取企業套件、支援和訓練，則要升級成到Grafana Enterprise計畫。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 01 Sep 2021 03:33:18 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146475 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146475#comments</comments>
+</item>
+<item>
  <title>Windows 11將在10月5日正式釋出，符合要求的硬體可免費升級</title>
  <link>https://www.ithome.com.tw/news/146474</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/145777&quot; target=&quot;_blank&quot;&gt;一如媒體推測&lt;/a&gt;，&lt;a href=&quot;https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/&quot; target=&quot;_blank&quot;&gt;微軟昨（31）日宣布&lt;/a&gt;下一代作業系統Windows 11，將從2021年10月5日正式公開釋出。微軟同時宣布配合推出的新款Windows 11電腦。&lt;/p&gt;
@@ -295,20 +311,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146465 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146465#comments</comments>
-</item>
-<item>
- <title>CISA著手打造資安的「不良實踐」列表</title>
- <link>https://www.ithome.com.tw/news/146464</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;包括資安在內的各個產業經常會以「最佳實踐」（Best Pratices），來描述產生最好結果的方法，不過，美國網路安全及基礎設施安全局&lt;a href=&quot;https://www.cisa.gov/BadPractices&quot; target=&quot;_blank&quot;&gt;（CISA）本周宣布&lt;/a&gt;，將打造資安的「不良實踐」（Bad Practices）來規勸組織儘量避免某些作法，以維護重要基礎設施的安全性。&lt;/p&gt;
-&lt;p&gt;CISA已於GitHub開闢了一個&lt;a href=&quot;https://github.com/cisagov/bad-practices/discussions&quot; target=&quot;_blank&quot;&gt;Bad Practices的討論區&lt;/a&gt;，以與外界交流，同時也先行提出3項不良實踐。&lt;/p&gt;
-&lt;p&gt;CISA指出，所有的組織，特別是那些負責設計重大基礎設施或是國家關鍵功能的組織，都應該部署有效的網路安全計畫，以防範網路威脅，並以適當的方式管理網路風險，而不良實踐則代表著那些特別不安全的作法。&lt;/p&gt;
-&lt;p&gt;目前被CISA認為是不良實踐的三大措施包括：於重要架構中使用已不被支援或生命周期已終止的軟體，指出這樣的作法將會提高國家安全風險，危害國家的經濟安全或國家公共衛生與安全；其次是於重要架構中使用已知、固定或預設的密碼與憑證；第三則是可存取重要架構的管理員，只採用單一認證就能遠端存取。此外，不管是哪一項措施，只要相關的系統是可自網路存取，其風險將會更高。&lt;/p&gt;
-&lt;p&gt;CISA歡迎產業或各級政府的IT專家及管理人員參與討論，以收集各界對不良實踐的看法與意見，並進一步討論如何消除這些現象。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 31 Aug 2021 07:43:09 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146464 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146464#comments</comments>
 </item>
 </channel>
 </rss>
