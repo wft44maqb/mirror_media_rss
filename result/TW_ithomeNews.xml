@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/1710" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/1710</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/1710" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>Windows 11將在10月5日正式釋出，符合要求的硬體可免費升級</title>
+    <link>https://www.ithome.com.tw/news/146474</link>
+    <description> 一如媒體推測，微軟昨（31）日宣布下一代作業系統Windows 11，將從2021年10月5日正式公開釋出。微軟同時宣布配合推出的新款Windows 11電腦。</description>
+     <pubDate>2021-09-01  11:09:24</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146474</guid>
+  </item>
+  <item>
     <title>公有雲長期歸檔儲存服務的興起</title>
     <link>https://www.ithome.com.tw/article/146401</link>
     <description> 憑藉著近乎無限的擴展能力，以及多重備援的架構，公有雲業者推出的長期歸檔儲存服務，從成本、耐久性與可靠性等層面，都足以挑戰磁帶的地位，成為企業資料長期儲存與法規遵循應用的新選擇。
@@ -250,14 +258,6 @@ Linux衍生自Unix作業系統，Torvalds在30年前發表的是Linux核心（Li
      <pubDate>2021-08-27  04:08:30</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146428</guid>
-  </item>
-  <item>
-    <title>捐款個資外洩引發詐騙事件漫延一個月，網軟初期未能反應，引發朝野立委關注</title>
-    <link>https://www.ithome.com.tw/news/146427</link>
-    <description> 這一個月來，國內爆發大規模捐款個資外洩導致民眾誤信的詐騙案，由於警方指出多個公益團體都委託同一資訊服務商的狀況，日前我們也已經追查到這次事件的關鍵廠商，就是負責提供捐款系統公司的網軟科技。因此，先前我們也聯繫到該公司，他們表示此事件正在調查中，並已著手強化資安。然而，由於網軟僅在8月3日發布刑事警察局的反詐騙宣導，至今還沒有對外公布遭駭客攻擊與資料外洩的資安事件，隨著遭詐騙的捐款民眾越來越多，多個公益團體持續飽受個資外洩問題所苦，因此，8月26日有立法委員聯合公益團體與刑事警察局召開記者會，希望能釐清資安、偵辦與防詐議題。。</description>
-     <pubDate>2021-08-27  04:08:15</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146427</guid>
   </item>
   </channel>
 </rss>
