@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/775" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/775</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/775" rel="self" type="application/rss+xml" />
       <item>
     <title>Windows 11測試者若硬體不符要求，將被要求回到Windows 10</title>
     <link>https://www.ithome.com.tw/news/146496</link>
@@ -65,6 +65,14 @@
      <pubDate>2021-09-02  07:09:00</pubDate>
  <dc:creator>林信良</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/voice/146393</guid>
+  </item>
+  <item>
+    <title>【DBS客座文章】星展銀行如何打造大數據平台</title>
+    <link>https://www.ithome.com.tw/news/146484</link>
+    <description> 本文為【星展銀行授權轉載文章】</description>
+     <pubDate>2021-09-01  08:09:30</pubDate>
+ <dc:creator>星展銀行</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146484</guid>
   </item>
   <item>
     <title>資安一周第161期：資策會參與首屆國際級工控資安評測。美國白宮舉行資安高峰會</title>
@@ -253,15 +261,6 @@ Google執行長Sundar Pichai指出，隨著今年稍早疫情好轉，有更多�
      <pubDate>2021-08-31  01:08:59</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146461</guid>
-  </item>
-  <item>
-    <title>第一家曝光！GCP服務應金融機構上雲需求，年初完成獨立第三方單位查核</title>
-    <link>https://www.ithome.com.tw/news/146405</link>
-    <description> Google雲端臺灣總經理謝良承今日（8/26）在國泰金控技術年會一場座談中透露，今年年初，GCP服務已依據金管會法規完成虛擬稽核（Virtual Auditing，或稱遠端查核）。Google是三大公有雲業者中，第一家揭露自家服務應金融機構用戶上雲需求，已接受獨立第三方查核的業者。
-這項藏在謝良承回覆對談提問的資訊，可說是臺灣企業朝雲端發展的一項重磅消息，特別是對須遵循嚴謹資料保護法規的金融業和醫療業的企業。因為，這代表Google雲端服務不只符合國際規範，也符合了更多臺灣法規的規範。</description>
-     <pubDate>2021-08-31  12:08:17</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146405</guid>
   </item>
   </channel>
 </rss>
