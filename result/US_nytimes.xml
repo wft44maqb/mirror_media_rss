@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Thu, 02 Sep 2021 15:06:04 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Sep 2021 15:16:11 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[美國商界敦促拜登推進對華貿易政策]]></title>
+            <link><![CDATA[https://cn.nytimes.com/business/20210902/biden-china-trade-policy/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[美國商界表示，他們對拜登執政七個月以來的對華態度感到失望。目前中美兩國關係仍然存在嚴重裂痕，商界正大力遊說政府取消關稅，但白宮幾乎沒有釋放明確信息。<p><img src='https://static01.nyt.com/images/2021/08/27/business/00dc-chinatrade01alt/merlin_182016750_9e93df61-228f-4988-bbfa-fcfe3f8a8c79-articleLarge.jpg' alt='加利福尼亞的奧克蘭港是接收中國進口貨物的主要港口之一。任何降低關稅的決定都可能在美國產生政治影響，對中國的強硬心態已經滲透到美國兩個主要政黨。 Jim Wilson/The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Wilson/The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>加利福尼亞的奧克蘭港是接收中國進口貨物的主要港口之一。任何降低關稅的決定都可能在美國產生政治影響，對中國的強硬心態已經滲透到美國兩個主要政黨。</p>                    ]]></description>
+            <category>商業與經濟</category>
+            <dc:creator><![CDATA[THOMAS KAPLAN,ALAN RAPPEPORT]]></dc:creator>
+            <pubDate>Thu, 02 Sep 2021 03:08:29 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210902/biden-china-trade-policy/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[拜登：美國用軍事力量「重塑其他國家」的時代已結束]]></title>
             <link><![CDATA[https://cn.nytimes.com/usa/20210902/biden-defends-afghanistan-withdrawal/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[STEPHEN WERTHEIM]]></dc:creator>
             <pubDate>Fri, 27 Aug 2021 05:11:40 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210827/declaration-war-president-congress/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[他曾是美軍翻譯，如今一群美國士兵幫他逃出阿富汗]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210827/afghanistan-interpreters-evacuation/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[「麥奇」曾長期擔任美軍特種部隊的翻譯，塔利班接管喀布爾後，他帶著家人試圖離開，卻發現自己孤立無援。一群曾與其共事的美國軍人展開了一場營救他的全球行動。<p><img src='https://static01.nyt.com/images/2021/08/24/world/24AFGHAN-TRANSLATOR1/24AFGHAN-TRANSLATOR1-articleLarge.jpg' alt='週二凌晨，拖家帶口的人們抵達喀布爾機場，希望搭乘飛機離開阿富汗。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>週二凌晨，拖家帶口的人們抵達喀布爾機場，希望搭乘飛機離開阿富汗。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[FARNAZ FASSIHI]]></dc:creator>
-            <pubDate>Fri, 27 Aug 2021 03:45:24 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210827/afghanistan-interpreters-evacuation/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
