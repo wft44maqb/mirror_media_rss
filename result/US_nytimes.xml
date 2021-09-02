@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Thu, 02 Sep 2021 17:07:27 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Sep 2021 17:17:33 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[各國政府會正式承認塔利班政權嗎？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210902/taliban-un-afghanistan-us/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[面對該如何與再次掌權的塔利班打交道，各國政府仍在謹慎觀望。為什麼外界都在密切關注阿富汗的未來？要獲得國際承認，塔利班需要做些什麼？這裡是我們的分析。<p><img src='https://static01.nyt.com/images/2021/08/31/world/31afghanistan-world-explainer-1/merlin_193943154_f796cd65-df0d-468a-9bff-97b02ee76e6f-articleLarge.jpg' alt='星期二，在喀布爾機場的一支塔利班精銳部隊。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>星期二，在喀布爾機場的一支塔利班精銳部隊。</p>                    ]]></description>
+            <category>國際</category>
+            <dc:creator><![CDATA[STEVEN ERLANGER]]></dc:creator>
+            <pubDate>Thu, 02 Sep 2021 05:13:51 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210902/taliban-un-afghanistan-us/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[美國商界敦促拜登推進對華貿易政策]]></title>
             <link><![CDATA[https://cn.nytimes.com/business/20210902/biden-china-trade-policy/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[JULIAN E. BARNES]]></dc:creator>
             <pubDate>Mon, 30 Aug 2021 10:09:43 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210830/covid-origin-lab-leak/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[美國該由誰來決定是否發動戰爭？]]></title>
-            <link><![CDATA[https://cn.nytimes.com/opinion/20210827/declaration-war-president-congress/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[近年來，美國至少對九個國家進行地面或空中打擊，這些戰爭都由總統發動。但宣戰的責任原本屬於國會，國會不應再推卸這一憲法義務。<p><img src='https://static01.nyt.com/images/2021/08/25/opinion/25Wertheim/25Wertheim-articleLarge.jpg' alt=' O.O.P.S.'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>O.O.P.S.</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
-            <category>觀點與評論</category>
-            <dc:creator><![CDATA[STEPHEN WERTHEIM]]></dc:creator>
-            <pubDate>Fri, 27 Aug 2021 05:11:40 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210827/declaration-war-president-congress/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>

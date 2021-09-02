@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Tue, 31 Aug 2021 09:03:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[駭侵者詐騙網站管理員，以含惡意 BazaLoader DDoS 軟體的工具清理網站]]></title><link>http://www.twcert.org.tw/tw/cp-104-5051-22f94-1.html</link><description><![CDATA[<p><strong>近來有駭侵者對網站管理員寄發詐騙訊息，假稱其網站內含有惡意 DDoS 程式碼，需用其特製工具清除，實則利用此假工具植入 BazaLoader DDoS 惡意軟體。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Thu, 02 Sep 2021 09:15:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[Cream Finance 去中心化加密貨幣交易所遭駭，損失超過 2,900 萬美元資產]]></title><link>http://www.twcert.org.tw/tw/cp-104-5056-f74b0-1.html</link><description><![CDATA[<p><strong>去中心化加密貨幣交易所 Cream Finance 遭不明駭侵者入侵，竊走價值超過 2,900 萬美元的資產。</strong><br />
+<br />
+去中心化加密貨幣交易所 Cream Finance，於 8 月 30 日在 Twitter 貼文公布，該交易所遭不明駭侵者入侵，一共竊走價值超過 2,900 萬美元的資產。<br />
+<br />
+根據 Cream Finance 的貼文指出，被竊走的加密貨幣資產，分別是 418,311,571 枚 AMP 代幣（總值相當於 2,510 萬美元），以及 1308.09 枚以太幣（總值相當於 415 萬美元）。<br />
+<br />
+該交易所也表示，駭侵者是針對該交易所的「閃電借貸」（Flash Loan）功能，發動「重新進入攻擊」（Reentrancy Attack）。所謂閃電借貸是一種在以太坊區塊鏈上執行的智慧合約，Cream Finance 的用戶可以透過此合約，快速獲得貸款以進行後續套利投資，之後再行還款的服務。<br />
+<br />
+據區塊鏈資安專家指出，這次攻擊行動中，駭侵者使用的「重新進入攻擊」，是利用該智慧合約的軟體錯誤，在交易獲得確認或否決之前，以迴圈的方式不斷重覆提領資金。<br />
+<br />
+區塊鏈資安專家也確認 Cream Finance 這次攻擊事件中，駭侵者是利用以太坊存於其 ERC-777 智慧合約標準規範中的一個已知漏洞；過去也有多家去中心化交易所遭駭侵者利用此漏洞發動重新進入攻擊，因而造成加密貨幣資產遭竊。<br />
+<br />
+區塊鏈資安專家說，今年（2021）已發生的各種加密貨幣駭侵攻擊中，針對去中心化金融服務（DeFi, Decentralized Finance）平台的攻擊活動，佔比高達 76%，用戶財損將近 5 億美元；各種去中心化金融服務平台，必須開發出類似防火牆之類的資安防護措施，以對應這類漏洞可能導致的駭侵攻擊行動。</p>]]></description><pubDate>Thu, 02 Sep 2021 09:15:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5056-f74b0-1.html</guid></item><item><title><![CDATA[駭侵者詐騙網站管理員，以含惡意 BazaLoader DDoS 軟體的工具清理網站]]></title><link>http://www.twcert.org.tw/tw/cp-104-5051-22f94-1.html</link><description><![CDATA[<p><strong>近來有駭侵者對網站管理員寄發詐騙訊息，假稱其網站內含有惡意 DDoS 程式碼，需用其特製工具清除，實則利用此假工具植入 BazaLoader DDoS 惡意軟體。</strong><br />
 <br />
 近來有駭侵者對多個網站管理員寄發詐騙訊息，假稱其網站程式碼內含有惡意 DDoS（分散式服務阻斷攻擊，Distributed Denial of Service） 程式碼，需用其特製工具清除，否則將對其提告；網站管理員如果不疑有他，利用此假工具清理其網站，就會被植入 BazaLoader DDoS 惡意軟體。<br />
 <br />
@@ -236,14 +248,4 @@ Varinos 是利用 DatAdvantage Cloud 服務，收集該公司客戶在使用各�
 <br />
 報告也指出，有 15% 的 SaaS 企業用戶員工，會將自己 SaaS 帳號中的資料或檔案，轉存到個人擁有的裝置或個人雲端服務帳號中。<br />
 <br />
-統計數字也說，在所有 SaaS 雲端服務中，有高達 43％ 的帳號處於被放棄的狀態；這些帳號久未使用，但也沒有被各 SaaS 企業用戶的負責管理者將之移除或回收，就此棄之不顧；這對駭侵者來說充滿可趁之機，也對 SaaS 用戶本身造成極大的資安風險。</p>]]></description><pubDate>Tue, 10 Aug 2021 09:07:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4997-d82a3-1.html</guid></item><item><title><![CDATA[美國資安主管機關 CISA 聯手 Google、Amazon、Microsoft 以打擊勒贖攻擊]]></title><link>http://www.twcert.org.tw/tw/cp-104-4994-29640-1.html</link><description><![CDATA[<p><strong>美國資安主管機關 CISA 日前公布一項計畫，結合公部門與民間力量防制勒贖攻擊等資安威脅；首波民間合作單位包括 Amazon、Google、Microsoft 等多家企業。</strong><br />
-<br />
-美國資安主管機關資訊安全與基礎設施安全局（Cybersecurity and Infrastructure Security Agency，CISA），日前公布一項名為「聯合資安防護協作」（Joint Cyber Defense Collaborative，JCDC）的合作計畫；該計畫旨在結合公部門與民間力量，共同防制勒贖攻擊等各種資安威脅。<br />
-<br />
-該專案的目的，是讓 CISA 可以發展各種資安協同防護計畫，結合美國各級政府（聯邦、州與地方政府）以及民間企業或組織的力量，以發揮整體防護戰力，對抗日益猖獗的資安攻擊，保護可能遭到攻擊的各種關鍵基礎設施。<br />
-<br />
-在 JCDC 發表的首波民間合作單位，即包括 Amazon Web Services、Google Cloud、Microsoft、AT&amp;T、Crowdstrike、FireEye Mandiant、Lumen、Palo Alto Networks、Verizon 等多家企業，其業務範圍包括資安防護、雲端服務、電信服務等資安相關的重要關鍵基礎設施。<br />
-<br />
-已經加入 JCDC 計畫的美國各級政府單位，則包括美國國防部、國家安全局、司法部、聯邦調查局、美國網路作戰司令部、國家情報總監辦公室（Office of the Director of National Intelligence）等。<br />
-<br />
-CISA 總監 Jen Esterly 在 JCDC 的新聞稿中指出，同意加入 JCDC 的產業合作伙伴，將與 CISA 和各相關政府單位並肩作戰，共同對抗各種針對美國發動的資安攻擊事件，並且同步發展新的解決方案。</p>]]></description><pubDate>Mon, 09 Aug 2021 09:04:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4994-29640-1.html</guid></item></channel></rss>
+統計數字也說，在所有 SaaS 雲端服務中，有高達 43％ 的帳號處於被放棄的狀態；這些帳號久未使用，但也沒有被各 SaaS 企業用戶的負責管理者將之移除或回收，就此棄之不顧；這對駭侵者來說充滿可趁之機，也對 SaaS 用戶本身造成極大的資安風險。</p>]]></description><pubDate>Tue, 10 Aug 2021 09:07:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4997-d82a3-1.html</guid></item></channel></rss>
