@@ -4,8 +4,107 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=213&amp;amp%3Bprofile=rss20" rel="self" type="application/rss+xml" />
       <item>
+    <title>蘋果Apple Wallet將可存放美國8州的數位駕照與州ID</title>
+    <link>https://www.ithome.com.tw/news/146494</link>
+    <description> 蘋果本周宣布，已與美國8個州合作，讓這些州的民眾可將駕照與州ID資訊存放在iPhone及Apple Watch的Apple Wallet上，率先實施的將是亞利桑那州與喬治亞州，康乃迪克、愛荷華、肯塔基、馬里蘭、奧克拉荷馬及猶他州則會隨後跟上。</description>
+     <pubDate>2021-09-02  12:09:06</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146494</guid>
+  </item>
+  <item>
+    <title>傳Google Chromebook 2023年將採用自有處理器</title>
+    <link>https://www.ithome.com.tw/news/146492</link>
+    <description> 繼Pixel 6手機後，日經亞洲報導，Google也將自行設計Chromebook專用的處理器，預計最快兩年後用於自家筆電。
+日經亞洲引述的3名消息人士指出，Google預計將自行設計的晶片導入到自有筆電及平板，第一款搭載自有處理器的Chromebook預計2023年問世。</description>
+     <pubDate>2021-09-02  12:09:07</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146492</guid>
+  </item>
+  <item>
+    <title>蘋果將開放Reader程式至第三方網站付款</title>
+    <link>https://www.ithome.com.tw/news/146489</link>
+    <description> 蘋果於周三（9/1）宣布，已與日本公平交易委員會（JFTC）達成協議，將允許Reader類別的程式開發者於程式中提供連結，讓使用者連至這些程式的網站進行設定或管理帳號，同時此一變更也將擴大至全球市場。在與蘋果達成協議之後，JFTC亦將終止對蘋果的反托拉斯調查。</description>
+     <pubDate>2021-09-02  11:09:24</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146489</guid>
+  </item>
+  <item>
+    <title>永豐金證券靠API布局程式交易，用數據深化數位經營</title>
+    <link>https://www.ithome.com.tw/people/146399</link>
+    <description> 去年3月，臺灣證券市場全面實施盤中逐筆交易制度，從以往5秒一撮合的集合競價，改採逐筆即時撮合。不只讓成交回報的速度更快也更多，連帶行情報價資訊也跟著變快、變多。這項變革，對高頻交易與程式交易投資人，比如主力大戶或法人帶來很大的衝擊，這群投資人需要更快獲得交易資訊，才來進行整合或策略判斷。</description>
+     <pubDate>2021-09-02  07:09:00</pubDate>
+ <dc:creator>李靜宜</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/people/146399</guid>
+  </item>
+  <item>
+    <title>畫分勢力範圍的K-means</title>
+    <link>https://www.ithome.com.tw/voice/146393</link>
+    <description> 如果有一組資料，沒有任何事先的分類標記，有辦法對它們進行分群（Clustering）嗎？呃……通靈比較快！想要分群，總是必須指定某些條件作為依據。
+而分群演算法有不少，入門時，常會先接觸到K-means分群，因為它概念上容易理解，實作上也不困難，在機器學習的領域，K-means演算被歸類在非監督式（unsupervised）學習，意即無需人類介入標記，也能自動分群。
+以距離來衡量勢力
+從結果來看，K-means分群時，確實是不需要標記，但它並不是沒有任何假設就能自動分群。</description>
+     <pubDate>2021-09-02  07:09:00</pubDate>
+ <dc:creator>林信良</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/voice/146393</guid>
+  </item>
+  <item>
+    <title>資安一周第161期：資策會參與首屆國際級工控資安評測。美國白宮舉行資安高峰會</title>
+    <link>https://www.ithome.com.tw/news/146483</link>
+    <description> 8/26-9/1必看資安新聞
+ 
+＃資安產業動態  ＃工控資安  ＃MITRE ATT&amp;amp;CK
+首屆國際級工控資安評測出爐，資策會也參與這項評估計畫</description>
+     <pubDate>2021-09-01  05:09:27</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146483</guid>
+  </item>
+  <item>
+    <title>Fintech周報第195期：TSP業者資訊揭露平臺已上線，可一站式瀏覽與銀行合作項目與資安認證細節</title>
+    <link>https://www.ithome.com.tw/news/146481</link>
+    <description> </description>
+     <pubDate>2021-09-01  03:09:10</pubDate>
+ <dc:creator>李靜宜</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146481</guid>
+  </item>
+  <item>
+    <title>臉書開發的Go實體框架Ent已轉移至Linux基金會</title>
+    <link>https://www.ithome.com.tw/news/146482</link>
+    <description> 原本由臉書，在2019年所開發的開源Go實體框架Ent，已經成功轉移到Linux基金會下，使其在中立的開源生態系中快速發展，並培養使用者和社群。</description>
+     <pubDate>2021-09-01  03:09:37</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146482</guid>
+  </item>
+  <item>
+    <title>去年美國當地學校受到77次的勒索軟體攻擊，光是停機成本就損失66億美元</title>
+    <link>https://www.ithome.com.tw/news/146480</link>
+    <description> 提供網路安全及隱私消息的Comparitech在本周指出，2020年駭客針對美國地區的學校，總計發動了77次的勒索軟體攻擊，雖然攻擊次數低於2019年的96次，但所影響的學生多達136萬人，高於2019年的81萬人，猜測是駭客愈趨鎖定大型學校為目標所造成的差異。
+過去勒索軟體駭客並不特別青睞學校，2018年的攻擊案件只有10件，但2019年就激增到96件，去年為77件，今年上半年則是39件。</description>
+     <pubDate>2021-09-01  02:09:00</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146480</guid>
+  </item>
+  <item>
+    <title>虛擬黃總還不夠，Nvidia新技術連語音都合成得唯妙唯肖</title>
+    <link>https://www.ithome.com.tw/news/146479</link>
+    <description> 前陣子，Nvidia才揭露今年GTC大會上的創辦人黃仁勳演講，有14秒是「虛擬的」。最近，Nvidia應用深度學習研究部門副總裁Bryan Catanzaro親自上線說明，GTC大會中穿插的旁白，也大多是虛擬合成的聲音。
+他盤點了近年來Nvidia對話式AI的成果，像是輕量語音合成模型、高效能語音分析模型、降噪模型、語音資料集，其中，語音合成模型不只能細緻地呈現音高、腔調和節奏，還能轉換聲音。這是Nvidia首次公開揭露語音合成技術進展。
+GTC大會上穿插的AI旁白</description>
+     <pubDate>2021-09-01  02:09:44</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146479</guid>
+  </item>
+  <item>
+    <title>Google也讓員工明年1月再進公司上班</title>
+    <link>https://www.ithome.com.tw/news/146478</link>
+    <description> 美國COVID-19確診人數再度攀升，繼Amazon、臉書之後，Google昨（31）日也宣布，將美國員工回公司上班的日期再延後到明年1月。
+Google執行長Sundar Pichai指出，隨著今年稍早疫情好轉，有更多員工回公司進行定期或不定期的會議或社交活動，但仍有地方疫情持續，引發不確定性。為此Google決定全球員工自願返回公司（即不強迫回公司）的政策延到2022年1月10日。</description>
+     <pubDate>2021-09-01  01:09:23</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146478</guid>
+  </item>
+  <item>
     <title>南韓通過法令，允許行動程式開發者使用其它付款機制</title>
     <link>https://www.ithome.com.tw/news/146477</link>
     <description> 南韓國會在本周二（8/31）通過《電信業務法》（Telecommunications Business Act）修正案，以禁止Google Play或蘋果App Store等大型行動程式市集，強迫程式開發者採用相關平臺的支付系統，也禁止這類市集不合理地延後程式審核或是將程式移除。</description>
@@ -139,6 +238,15 @@
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146461</guid>
   </item>
   <item>
+    <title>第一家曝光！GCP服務應金融機構上雲需求，年初完成獨立第三方單位查核</title>
+    <link>https://www.ithome.com.tw/news/146405</link>
+    <description> Google雲端臺灣總經理謝良承今日（8/26）在國泰金控技術年會一場座談中透露，今年年初，GCP服務已依據金管會法規完成虛擬稽核（Virtual Auditing，或稱遠端查核）。Google是三大公有雲業者中，第一家揭露自家服務應金融機構用戶上雲需求，已接受獨立第三方查核的業者。
+這項藏在謝良承回覆對談提問的資訊，可說是臺灣企業朝雲端發展的一項重磅消息，特別是對須遵循嚴謹資料保護法規的金融業和醫療業的企業。因為，這代表Google雲端服務不只符合國際規範，也符合了更多臺灣法規的規範。</description>
+     <pubDate>2021-08-31  12:08:17</pubDate>
+ <dc:creator>黃郁芸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146405</guid>
+  </item>
+  <item>
     <title>中國出手限制未成年人的遊戲時間，只有周末與假日可以玩網路遊戲</title>
     <link>https://www.ithome.com.tw/news/146460</link>
     <description> 中國國家新聞出版署於30日發布了《關於進一步嚴格管理 切實防止未成年人沈迷網路遊戲的通知》，以避免中國的未成年人過度使用或沈迷網路遊戲，嚴格規定未成年人只能在周五到周日、以及法定假日各玩一小時，讓中國遊戲兩大業者騰訊及網易的股價，在31日一開盤就下挫3%以上。
@@ -156,108 +264,6 @@
      <pubDate>2021-08-30  04:08:43</pubDate>
  <dc:creator>余至浩</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146456</guid>
-  </item>
-  <item>
-    <title>Linux 30歲了！你知道Google、YouTube、百度及全球前五百大超級電腦都是基於Linux嗎</title>
-    <link>https://www.ithome.com.tw/news/146455</link>
-    <description> 一名芬蘭軟體工程師Linus Torvalds在1991年的8月25日，於新聞群組中發表了他所撰寫的Linux，當時Torvalds才22歲，謙虛地說這只是他的興趣，作業系統並不強大也沒有很專業，不過，剛度過30歲生日的Linux現已是全球最受歡迎的開源平臺，且同時受到大型企業、超級電腦製造商與開發者的喜愛。
-Linux衍生自Unix作業系統，Torvalds在30年前發表的是Linux核心（Linux Kernel），後來成為許多Linux版本的基礎，涵蓋Debian、Fedora、Ubuntu、 Red Hat Enterprise Linux與SUSE Linux Enterprise Server等。</description>
-     <pubDate>2021-08-30  03:08:41</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146455</guid>
-  </item>
-  <item>
-    <title>T-Mobile：駭客是透過暴力破解入侵該公司伺服器</title>
-    <link>https://www.ithome.com.tw/news/146454</link>
-    <description> 日前坦承遭到駭客入侵的T-Mobile，在本周公布了調查報告，指出駭客是利用對技術系統的知識，再加上專門的工具與技能，進入了T-Mobile的測試環境，再透過暴力破解與其它方法入侵了T-Mobile的其它IT伺服器，才會造成用戶的資料外洩。</description>
-     <pubDate>2021-08-30  02:08:34</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146454</guid>
-  </item>
-  <item>
-    <title>5G趨勢月報第22期：國產5G發展跨出一大步，臺灣終於有國際級5G驗證開放平臺了</title>
-    <link>https://www.ithome.com.tw/news/146453</link>
-    <description> 2021/08/01~08/31精選5G趨勢新聞
-5G開放驗證平臺    O-RAN聯盟 </description>
-     <pubDate>2021-08-30  02:08:01</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146453</guid>
-  </item>
-  <item>
-    <title>思科小型企業VPN路由器重大漏洞，但已屆EOL不會有修補程式</title>
-    <link>https://www.ithome.com.tw/news/146452</link>
-    <description> 思科近日針對小型企業VPN路由器產品發布安全公告，警告有引發遠端程式碼執行的重大漏洞。但是思科也表示這些產品已經來到EOL（end of life），因此思科並不打算修補，企業應考慮升級到新產品。</description>
-     <pubDate>2021-08-30  01:08:06</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146452</guid>
-  </item>
-  <item>
-    <title>蘋果將免費維修那些聽不見聲音的iPhone 12手機</title>
-    <link>https://www.ithome.com.tw/news/146451</link>
-    <description> 蘋果上周宣布，有非常少部分的iPhone 12與iPhone 12 Pro裝置因為受話器模組上的某個元件可能會故障，而出現聲音上的問題，並將免費維修這些裝置。
-根據蘋果的說法，假設使用者的iPhone 12或iPhone 12 Pro在撥/接電話之後，受話器沒有發出聲音，很可能就符合免費維修資格。</description>
-     <pubDate>2021-08-30  01:08:17</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146451</guid>
-  </item>
-  <item>
-    <title>中國開始掃盪違規發布財經資訊的自媒體</title>
-    <link>https://www.ithome.com.tw/news/146449</link>
-    <description> 中國國家互聯網信息辦公室（網信辦）在上周五（8/27）宣布，由於部分商業平臺與其自媒體帳號屢屢違規發布財經新聞、扭曲解讀經濟政策與唱衰金融市場，即日起將開始整頓這些商業網站平臺與自媒體。而根據中國媒體的報導，包括微信、抖音與微博等中國知名的社交平臺，都已展開行動。
-網信辦指出，第一階段整治行動的期間為即日起至10月26日，將督促商業平臺清理違規發布的財經資訊，封鎖「黑嘴」、敲詐勒索或社會反映強烈的自媒體帳號，更鼓勵中國的網路用戶向該辦公室檢舉。</description>
-     <pubDate>2021-08-30  11:08:01</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146449</guid>
-  </item>
-  <item>
-    <title>微軟：使用不受支援硬體跑Windows 11未來無法接獲自動更新</title>
-    <link>https://www.ithome.com.tw/news/146448</link>
-    <description> 微軟上周公布執行Windows 11的更新版CPU規格，同時微軟也警告，使用官方不支援硬體跑Windows 11的用戶，需有心理準備未來無法以Windows Update接獲更新。</description>
-     <pubDate>2021-08-30  11:08:11</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146448</guid>
-  </item>
-  <item>
-    <title>運算效能突破360 TFLOPS，特斯拉展示全自駕車AI訓練晶片Dojo D1</title>
-    <link>https://www.ithome.com.tw/news/146447</link>
-    <description> 在今年Tesla  AI Day活動上，美國電動車大廠特斯拉（Tesla）展現自家最新自駕車應用同時，首度公開揭露一款自製AI訓練晶片Dojo D1，強調擁有GPU的強大運算力，更兼具CPU的運用彈性，以及超高速傳輸頻寬，甚至在AI算力表現也優於Google的TPU v3，可提供362 TFLOPS運算效能，特斯拉不只用它加速AI訓練建立全自動駕駛汽車，未來也將作為首款人型機器人Tesla Bot的AI訓練使用。</description>
-     <pubDate>2021-08-30  09:08:58</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146447</guid>
-  </item>
-  <item>
-    <title>3月勒索軟體HelloKitty鎖定VMware ESXi發動攻擊，Palo Alto揭露目前災情與受害範圍</title>
-    <link>https://www.ithome.com.tw/news/146432</link>
-    <description> 今年2月，製作電玩《電馭叛客2077》（Cyberpunk 2077）開發商的CD Projekt，驚傳遭到勒索軟體攻擊，後來有資安業者指出，攻擊的勒索軟體名為HelloKitty。</description>
-     <pubDate>2021-08-27  11:08:38</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146432</guid>
-  </item>
-  <item>
-    <title>駭客重金誘惑，內部員工也必須零信任</title>
-    <link>https://www.ithome.com.tw/voice/146434</link>
-    <description> 在8月底威力彩開獎前夕，由於頭獎上看27億元，引發全國熱議，因為疫情當前，許多自認在經濟上亟需紓困的民眾，自然很希望自己就是幸運得主，但這樣的現象，也不免讓人擔心是否會出現不惜代價、鋌而走險的行為，例如出賣企業或組織的機密資料，來換取金錢的狀況。
-過往這類被歸類為商業間諜的行為，可能都有其針對的目標單位，例如重要的政府機構、部門，或是大型企業，但若是執行門檻更低、分紅金額誘人，再加上眼下疫情難緩解而衍生各種經濟危機，極有可能會讓一些員工動搖，而去做攻擊者的內應。</description>
-     <pubDate>2021-08-27  08:08:27</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/voice/146434</guid>
-  </item>
-  <item>
-    <title>Visual Studio在Windows Store上架</title>
-    <link>https://www.ithome.com.tw/news/146433</link>
-    <description> 微軟本周宣布Visual Studio工具，包括Visual Studio Community 2019及Visual Studio Code，已在Windows 11適用的新版Windows Store軟體市集上架。</description>
-     <pubDate>2021-08-27  08:08:23</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146433</guid>
-  </item>
-  <item>
-    <title>新北市擬以1億元分3年推動新一期自駕車沙盒實驗計畫</title>
-    <link>https://www.ithome.com.tw/news/146431</link>
-    <description> 新北市近期將推動新一期自駕車沙盒實驗計畫，預期將投入1億元分3年，除了在淡水地區建立自駕車測試場域，鼓勵業者加入自駕車測試，還將和業者合作測試自駕巴士，以能為商業運轉的公車路線為目標。
-新北市從2019年開始，以5,000萬元經費投入智駕電動巴士測試，與中華電信、勤崴科技合作，在淡海新市鎮，以購物中心與輕軌站之間為起迄點，來回全長1.2公里，結合道路監視系統、路側設施展開智駕巴士行駛測試，以測試智駕巴士可能遭遇的問題，並借助淡水地區易變的氣候，對自駕巴士的感測器的影響。</description>
-     <pubDate>2021-08-27  06:08:21</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146431</guid>
   </item>
   </channel>
 </rss>

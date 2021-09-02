@@ -4,13 +4,70 @@
     <title><![CDATA[Amazon Web Services Service Status]]></title>
     <link>http://status.aws.amazon.com/</link>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Aug 2021 16:05:50 PDT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Sep 2021 22:09:36 PDT</lastBuildDate>
     <generator>AWS Service Health Dashboard RSS Generator</generator>
     <description><![CDATA[Amazon Web Services Service Status]]></description>
     <ttl>5</ttl>
     <!-- You seem to care about knowing about your events, why not check out https://docs.aws.amazon.com/health/latest/ug/getting-started-api.html -->
 
 	 
+	 <item>
+	  <title><![CDATA[Service is operating normally: [RESOLVED] ネットワーク接続性 | Network Connectivity]]></title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 01 Sep 2021 21:51:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#directconnect-ap-northeast-1_1630558260</guid>
+	  <description><![CDATA[日本時間 2021/09/02 07:30 から 13:42 の間、Direct Connect 接続を利用した AP-NORTHEAST-1 リージョン内の AWS サービスへの通信においてパケットロスの増加が発生しました。今回の事象は、 Direct Connect を利用したネットワークトラフィックを AP-NORTHEAST-1 リージョン内の全てのアベイラビリティーゾーンに接続するのに使用される複数のコアネットワークデバイスの問題に起因しておりました。現在問題は解消し、サービスは正常に稼働しています。
+| Between 3:30 PM and 9:42 PM PDT we experienced elevated packet loss for customers connecting to AWS services within AP-NORTHEAST-1 Region through their Direct Connect connections. This was caused by the loss of serveral core networking devices that are used to connect Direct Connect network traffic to all Availability Zones in the AP-NORTHEAST-1 Region. The issue has been resolved and the service is operating normally.]]></description>
+	 </item>
+         
+	 <item>
+	  <title><![CDATA[Service disruption: [RESOLVED] ネットワーク接続性 | Network Connectivity]]></title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 01 Sep 2021 21:06:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#directconnect-ap-northeast-1_1630555560</guid>
+	  <description><![CDATA[復旧の兆しが確認できておりますが、引き続き事象の完全な解消に取り組んでおります。VPN を使用するワークアラウンドを実施いただいているお客様につきましては、完全な復旧のご連絡まではワークアラウンドを継続してご利用いただくことをお勧めいたします。| We are beginning to see signs of recovery, and continue to work toward full resolution. We suggest that customers that may have implemented the suggested workaround via VPN continue to use this workaround until we advise of full recovery.]]></description>
+	 </item>
+         
+	 <item>
+	  <title><![CDATA[Service disruption: [RESOLVED] ネットワーク接続性 | Network Connectivity]]></title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 01 Sep 2021 20:20:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#directconnect-ap-northeast-1_1630552800</guid>
+	  <description><![CDATA[現在 AP-NORTHEAST-1 リージョン内の故障したデバイスの復旧に取り組んでおりますが、現時点において完全な復旧の目途に関する情報はございません。今回の問題によりサイト間 VPN の接続性への影響はなく、VPN へのフェイルオーバーのオプションがあるお客様に関しては、VPN にフェイルオーバーいただくことをお勧めいたします。Direct Connect Gateway と Transit Gateway をご利用のお客様に関しては、AWS Site-to-Site VPN をご作成いただき Transit Gateway にアタッチしてご利用いただくことをお勧めいたします。こちらの VPN へのフェイルオーバーの設定手順に関しては次の記事をご参照ください: &lt;a href="https://aws.amazon.com/premiumsupport/knowledge-center/dx-configure-dx-and-vpn-failover-tgw/"&gt;https://aws.amazon.com/premiumsupport/knowledge-center/dx-configure-dx-and-vpn-failover-tgw/&lt;/a&gt; | We are continuing to work on recovering a number of failed devices within the AP-NORTHEAST-1 Region, but do not have an ETA on full recovery. VPN connectivity is not impacted by this failure, and those customers that have that option available for failover to VPN are recommended to do so to achieve recovery. For customers using Direct Connect gateway and Transit Gateway, we recommend creating an AWS Site-to-Site VPN and attach it to your Transit Gateway. Instructions for how to do this failover can be found here: &lt;a href="https://aws.amazon.com/premiumsupport/knowledge-center/dx-configure-dx-and-vpn-failover-tgw/"&gt;https://aws.amazon.com/premiumsupport/knowledge-center/dx-configure-dx-and-vpn-failover-tgw/&lt;/a&gt;]]></description>
+	 </item>
+         
+	 <item>
+	  <title><![CDATA[Service degradation: [RESOLVED] ネットワーク接続性 | Network Connectivity]]></title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 01 Sep 2021 19:33:55 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#directconnect-ap-northeast-1_1630550035</guid>
+	  <description><![CDATA[現在 AP-NORTHEAST-1 リージョン内の故障したデバイスの復旧に取り組んでおりますが、現時点において完全な復旧の目途に関する情報はございません。今回の問題によりサイト間 VPN の接続性への影響はなく、VPN へのフェイルオーバーのオプションがあるお客様に関しては、VPN にフェイルオーバーいただくことをお勧めいたします。| We are continuing to work on recovering a number of failed devices within the AP-NORTHEAST-1 Region, but do not have an ETA on full recovery. VPN connectivity is not impacted by this failure, and those customers that have that option available for failover to VPN are recommended to do so to achieve recovery.]]></description>
+	 </item>
+         
+	 <item>
+	  <title><![CDATA[Informational message: [RESOLVED] ネットワーク接続性 | Network Connectivity]]></title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 01 Sep 2021 18:43:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#directconnect-ap-northeast-1_1630546980</guid>
+	  <description><![CDATA[現在引き続き故障したデバイスの復旧を試みており、完全な復旧の目途に関する情報はございません。今回の問題によりサイト間 VPN の接続性への影響はなく、VPN へのフェイルオーバーのオプションがあるお客様に関しては、VPN にフェイルオーバーいただくことをお勧めいたします。| We are still trying to recover the failed devices and do not have an ETA on full recovery. VPN connectivity is not impacted by this failure, and those customers that have that option available for failover are recommended to do so to achieve recovery.]]></description>
+	 </item>
+         
+	 <item>
+	  <title><![CDATA[Informational message: [RESOLVED] ネットワーク接続性 | Network Connectivity]]></title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 01 Sep 2021 18:02:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#directconnect-ap-northeast-1_1630544520</guid>
+	  <description><![CDATA[一部の AWS Direct Connect 接続と AP-NORTHEAST-1 リージョン間にネットワーク接続性の問題について追加の情報をご案内いたします。日本時間 2021/09/02 07:30 からコアネットワークデバイスに複数の問題が発生していることを確認しております。現在、問題が発生したデバイスについて復旧を進めており、デバイスがオンラインの状態に戻ることで接続性の問題が解消することが期待されます。現状では復旧の目途に関する情報はございません。進展がございましたら、随時更新致します。| We wanted to provide some more information for the event affecting some Direct Connect network connectivity in the AP-NORTHEAST-1 Region. Starting at 3:30 PM PDT, we began to experience network connectivity issues due to some failures in core networking devices. We are currently working on restoring these devices and we expect some restoration of connectivity as these devices come back online. We currently do not have an ETA on full recovery and will update further as information comes to hand. ]]></description>
+	 </item>
+         
+	 <item>
+	  <title><![CDATA[Informational message: [RESOLVED] ネットワーク接続性 | Network Connectivity]]></title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 01 Sep 2021 17:39:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#directconnect-ap-northeast-1_1630543140</guid>
+	  <description><![CDATA[日本時間 2021/09/02 07:30 から一部の AWS Direct Connect 接続と AP-NORTHEAST-1 リージョン間にネットワーク接続性の問題が発生していることを確認しております。この問題について調査を行っております。| Starting at 3:30 PM PDT, we began to experience network connectivity issues, impacting AWS Direct Connect connectivity between some AWS Direct Connections and the AP-NORTHEAST-1 Region. We are actively investigating the issue. ]]></description>
+	 </item>
+         
 	 <item>
 	  <title><![CDATA[Service is operating normally: [RESOLVED] Connectivity Issues]]></title>
 	  <link>http://status.aws.amazon.com/</link>
@@ -73,62 +130,6 @@
 	  <pubDate>Tue, 31 Aug 2021 13:00:00 PDT</pubDate>
 	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630440000</guid>
 	  <description><![CDATA[We continue to investigate the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. We have narrowed down the issue to an increase in packet loss within the subsystem responsible for the processing of network packets for Network Load Balancer, NAT Gateway and PrivateLink services. The issue continues to only affect the single Availability Zone (usw2-az2) within the US-WEST-2 region, so shifting traffic away from Networking Load Balancer and NAT Gateway within the affected Availability Zone can mitigate the impact. Some other AWS services, including Lambda, ELB, Kinesis, SQS, RDS, CloudWatch and ECS, are seeing impact as a result of this issue. ]]></description>
-	 </item>
-         
-	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
-	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 31 Aug 2021 12:10:29 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630437029</guid>
-	  <description><![CDATA[We continue to investigate the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. While we continue to work towards root cause, we believe that the issue is affecting connectivity to Network Load Balancers from EC2 instances, connectivity from Lambda to EC2 instances and other AWS services, as well as connectivity between EC2 and some AWS services using PrivateLink. In an effort to further mitigate the impact, we are shifting some services and network flows away from the affected Availability Zone to mitigate the impact.]]></description>
-	 </item>
-         
-	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
-	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 31 Aug 2021 11:46:53 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630435613</guid>
-	  <description><![CDATA[We are investigating connectivity, provisioning, and target registration issues for load balancers in the US-WEST-2 Region.]]></description>
-	 </item>
-         
-	 <item>
-	  <title><![CDATA[Service is operating normally: [RESOLVED] Connectivity Issues]]></title>
-	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 31 Aug 2021 16:02:45 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#internetconnectivity-us-west-2_1630450965</guid>
-	  <description><![CDATA[We have resolved the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. Beginning at 10:58 AM PDT, we experienced network connectivity issues for Network Load Balancer, NAT Gateway and PrivateLink endpoints within the US-WEST-2 Region. At 2:45 PM, some Network Load Balancers, NAT Gateways and PrivateLink endpoints began to see recovery and by 3:35 PM, all affected Network Load Balancers, NAT Gateways and PrivateLink endpoints had fully recovered. The issue has been resolved and the service is operating normally.]]></description>
-	 </item>
-         
-	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
-	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 31 Aug 2021 15:23:15 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#internetconnectivity-us-west-2_1630448595</guid>
-	  <description><![CDATA[We are beginning to see signs of recovery, and continue to work toward full resolution. ]]></description>
-	 </item>
-         
-	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
-	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 31 Aug 2021 14:26:00 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#internetconnectivity-us-west-2_1630445160</guid>
-	  <description><![CDATA[We have identified the root cause of the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region and are actively working on mitigation. A component within the subsystem responsible for the processing of network packets for Network Load Balancer, NAT Gateway and PrivateLink services became impaired and was no longer processing health checks successfully. This resulted in other components no longer accepting new connection requests, as well as elevated packet loss for Network Load Balancer, NAT Gateway and PrivateLink endpoints. For immediate mitigation for NLB, customers should (1) disable ‘cross zone load balancing’ on Network Load Balancer, and then (2) deregister any targets that are in usw2-az2. For NAT Gateway/PrivateLink, you may modify your route tables to direct traffic to NAT Gateways in other Availability Zones or you may disable PrivateLink endpoints in usw2-az2.]]></description>
-	 </item>
-         
-	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
-	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 31 Aug 2021 13:00:00 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#internetconnectivity-us-west-2_1630440000</guid>
-	  <description><![CDATA[We continue to investigate the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. We have narrowed down the issue to an increase in packet loss within the subsystem responsible for the processing of network packets for Network Load Balancer, NAT Gateway and PrivateLink services. The issue continues to only affect the single Availability Zone (usw2-az2) within the US-WEST-2 region, so shifting traffic away from Networking Load Balancer and NAT Gateway within the affected Availability Zone can mitigate the impact. Some other AWS services, including Lambda, ELB, Kinesis, SQS, RDS, CloudWatch and ECS, are seeing impact as a result of this issue. ]]></description>
-	 </item>
-         
-	 <item>
-	  <title><![CDATA[Informational message: [RESOLVED] Connectivity Issues]]></title>
-	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 31 Aug 2021 12:13:27 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#internetconnectivity-us-west-2_1630437207</guid>
-	  <description><![CDATA[We continue to investigate the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. While we continue to work towards root cause, we believe that the issue is affecting connectivity to Network Load Balancers from EC2 instances, connectivity from Lambda to EC2 instances and other AWS services, as well as connectivity between EC2 and some AWS services using PrivateLink. In an effort to further mitigate the impact, we are shifting some services and network flows away from the affected Availability Zone to mitigate the impact.]]></description>
 	 </item>
         
   </channel>

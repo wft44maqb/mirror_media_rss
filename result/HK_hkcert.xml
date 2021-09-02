@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Wed, 01 Sep 2021 13:11:11 +0800</pubDate>
-		<lastBuildDate>Wed, 01 Sep 2021 13:11:11 +0800</lastBuildDate>
+		<pubDate>Thu, 02 Sep 2021 13:28:05 +0800</pubDate>
+		<lastBuildDate>Thu, 02 Sep 2021 13:28:05 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,6 +15,37 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>Node.js 多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/node-js-multiple-vulnerabilities_20210902</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/node-js-multiple-vulnerabilities_20210902</guid>
+			<pubDate>Thu, 02 Sep 2021 09:00:00 +0800</pubDate>
+			<description><![CDATA[  於 Node.js 發現一些漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發遠端執行任意程式碼、繞過保安限制及篡改...
+			  <p>影響</p>
+			  <ul>
+			          <li>遠端執行程式碼</li>
+			          <li>繞過保安限制</li>
+			          <li>篡改</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Node.js&nbsp; v12.22.6 (LTS) 以前的版本</li>
+				<li>Node.js&nbsp; v14.17.6 (LTS)&nbsp;以前的版本</li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<ul>
+				<li>安裝軟件供應商提供的修補程式：<br />
+				<a href="https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases2/" target="_blank">https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases2/</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
 		<item>
 			<title>Google Chrome 多個漏洞</title>
 			<link>https://www.hkcert.org/tc/security-bulletin/google-chrome-multiple-vulnerabilities_20210901</link>
@@ -47,6 +78,13 @@
 			
 			  <hr>
 			]]></description>
+		</item>
+		<item>
+			<title>[Security Blog] 立即修補遙距存取和遙距儲存的保安漏洞</title>
+			<link>https://www.hkcert.org/tc/blog/patch-vulnerabilities-in-remote-access-and-remote-storage-now</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/blog/patch-vulnerabilities-in-remote-access-and-remote-storage-now</guid>
+			<pubDate>Wed, 01 Sep 2021 00:00:00 +0800</pubDate>
+			<description><![CDATA[2019冠狀病毒病使遙距存取方案在遙距工作場景中的應用激增，例如虛擬私人網絡（VPN）、遙距儲存、雲端技術等。然...]]></description>
 		</item>
 		<item>
 			<title>NetApp 產品多個漏洞</title>
@@ -875,104 +913,6 @@
 			
 			<ul>
 				<li>安裝供應商提供的修補程式。個別產品詳情可參考上表「詳情」一欄或執行軟件更新。</li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>Mozilla 產品多個漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/mozilla-products-multiple-vulnerabilities_20210811</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/mozilla-products-multiple-vulnerabilities_20210811</guid>
-			<pubDate>Wed, 11 Aug 2021 09:00:00 +0800</pubDate>
-			<description><![CDATA[  於 Mozilla 產品發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務狀況、彷冒、遠端執行任意程式碼...
-			  <p>影響</p>
-			  <ul>
-			          <li>阻斷服務</li>
-			          <li>遠端執行程式碼</li>
-			          <li>仿冒</li>
-			          <li>資料洩露</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <p>以下版本之前的版本﹕</p>
-			
-			<p>&nbsp;</p>
-			
-			<ul>
-				<li>Firefox 91</li>
-				<li>Firefox ESR 78.13</li>
-				<li>Thunderbird 78.13</li>
-				<li>Thunderbird 91</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之官方網站，以獲得更多詳細資料。</strong></p>
-			
-			<p>更新至版本:</p>
-			
-			<p>&nbsp;</p>
-			
-			<ul>
-				<li>Firefox 91</li>
-				<li>Firefox ESR 78.13</li>
-				<li>Thunderbird 78.13</li>
-				<li>Thunderbird 91</li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>微軟每月保安更新 (2021 年 8 月)</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/microsoft-monthly-security-update-august-2021</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/microsoft-monthly-security-update-august-2021</guid>
-			<pubDate>Wed, 11 Aug 2021 09:00:00 +0800</pubDate>
-			<description><![CDATA[  微軟已為產品提供本月保安更新：
-			
-			 
-			
-			
-				
-					
-						受影響產品
-						風險程度
-						影響
-						備註
-					
-					
-						Azure
-						 中度風險
-						權限提升
-						資料洩露
-						阻...
-			  <p>影響</p>
-			  <ul>
-			          <li>阻斷服務</li>
-			          <li>權限提升</li>
-			          <li>遠端執行程式碼</li>
-			          <li>資料洩露</li>
-			          <li>仿冒</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>Azure</li>
-				<li>微軟 Dynamics</li>
-				<li>微軟 Office</li>
-				<li>視窗</li>
-				<li>延伸安全性更新 (ESU)</li>
-				<li>開發者工具</li>
-				<li>System Center</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽軟體供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<ul>
-				<li>安裝軟件供應商提供的修補程式。</li>
 			</ul>
 			
 			  <hr>

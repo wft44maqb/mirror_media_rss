@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Tue, 31 Aug 2021 10:20:18 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Sep 2021 03:44:40 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -15,7 +15,7 @@
 	<item>
 		<title>基于 Nitro Enclave 构建安全的可信执行环境</title>
 		<link>https://aws.amazon.com/cn/blogs/china/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave/</link>
-				<pubDate>Tue, 31 Aug 2021 10:20:18 +0000</pubDate>
+				<pubDate>Thu, 02 Sep 2021 03:44:40 +0000</pubDate>
 		<dc:creator><![CDATA[AWS Team]]></dc:creator>
 				<category><![CDATA[Security, Identity, & Compliance]]></category>
 		<category><![CDATA[Amazon EC2]]></category>
@@ -42,7 +42,6 @@
  &lt;li&gt;成本: Nitro Enclave 运行于 EC2 中，无任何额外费用&lt;/li&gt; 
  &lt;li&gt;云原生安全集成: 与云原生的 KMS，ACM 安全服务直接集成，提供更好的用户体验和安全保障&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;1. Nitro Enclave 介绍&lt;/h2&gt; 
 &lt;h3&gt;1.1 Nitro Enclave 基础介绍&lt;/h3&gt; 
 &lt;p&gt;Nitro Enclaves 是一项 Amazon EC2 功能，允许您从 Amazon EC2 实例创建隔离的执行环境，称为 enclave。 Enclave 是独立的、强化的且高度受限的虚拟机，基于 Nitro Hypervisor 虚拟化技术，确保父实例无法访问隔离的 vCPU 和 enclave 的内存。Enclave 没有持久存储、交互式访问或外部网络，仅支持与其父实例的安全 Socket 连接。 用户无法通过 SSH 进入 enclave，并且父实例的进程、应用程序或用户（root 或 admin）无法访问 enclave 内的数据和应用程序。&lt;/p&gt; 
@@ -122,7 +121,9 @@ digest = &amp;quot;SHA384&amp;quot;
  &lt;/tbody&gt; 
 &lt;/table&gt; 
 &lt;p&gt;Attestation 证明文件生成后，还将会由受信任Nitro Hypervisor Attestation Public Key Infrastructure (PKI) ，基于一个 ACM PCA 的根证书进行签署，有效期为 30 年。&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;CN=aws.nitro-enclaves, C=US, O=Amazon, OU=AWS&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;CN=aws.nitro-enclaves, C=US, O=Amazon, OU=AWS&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;p&gt;用户可以下载该&lt;a href="https://aws-nitro-enclaves.amazonaws.com/AWS_NitroEnclaves_Root-G1.zip"&gt;根证书&lt;/a&gt;，导入到您的任何外部服务中，当 Enclave 中运行的程序需要请求外部服务时，可向 Nitro Hypervisor 申请并签署证明文件，外部服务通过导入的根证书，来验证 Enclave 证明文件的有效性，确保服务请求是来自于特定的 Enclave，从而建立信任。&lt;/p&gt; 
 &lt;p&gt;目前 Amazon Key Management Service (KMS) 和 Amazon Certificate Manager (ACM) 支持与 Nitro Enclave 以及 Attestation 原生集成，Enclave 可借助 vsock 以及父实例上的代理，向 KMS 或 ACM 发起 API 请求，进行加密，解密，和证书申请，更新等操作，同时 KMS 和 ACM 支持对 Enclave 签名的证明文件进行验证，并可将 API Response 用证明文件中的 Public Key 进行加密，确保数据隐私安全。&lt;/p&gt; 
 &lt;p&gt;适用于 Nitro Enclaves 的 ACM 允许您将公有和私有 SSL/TLS 证书与在带有 Nitro Enclaves 的 EC2 实例上运行的 Web 应用一起使用。 亚马逊云科技提供了一个打包好的 ACM for Nitro Enclaves 程序，作为服务(aws-nitro-enclaves-acm) 运行在父实例 Linux 操作系统中，该服务将自动创建和运行 Enclave，与 ACM 交互创建安全私钥，将证书及其私钥分发到 enclave，并管理证书续订，证书的私钥在 enclave 中保持隔离，防止父实例及其用户访问它。 具体部署过程可参照&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave-refapp.html"&gt;官方文档&lt;/a&gt;。&lt;/p&gt; 
@@ -200,31 +201,40 @@ digest = &amp;quot;SHA384&amp;quot;
 &lt;ul&gt; 
  &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-build-enclave.html"&gt;nitro-cli build-enclave&lt;/a&gt;: 将 Docker 镜像转换成 Enclave 镜像 (.eif文件)&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;code&gt;nitro-cli build-enclave --docker-uri repository:tag --docker-dir /path_to/dockerfile_directory --output-file enclave_image_filename --private-key key.pem --signing-certificate certificate.pem&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli build-enclave --docker-uri repository:tag --docker-dir /path_to/dockerfile_directory --output-file enclave_image_filename --private-key key.pem --signing-certificate certificate.pem&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;ul&gt; 
  &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-run-enclave.html"&gt;nitro-cli run-enclave&lt;/a&gt;: 从 Enclave 镜像文件在 EC2 上启动一个 Enclave&lt;/li&gt; 
 &lt;/ul&gt; 
 &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;strong&gt;:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;每台&lt;/strong&gt;&lt;strong&gt; EC2 &lt;/strong&gt;&lt;strong&gt;上只支持运行一个&lt;/strong&gt;&lt;strong&gt; enclave &lt;/strong&gt;&lt;strong&gt;环境，且&lt;/strong&gt;&lt;strong&gt; EC2 &lt;/strong&gt;&lt;strong&gt;实例至少具备&lt;/strong&gt;&lt;strong&gt; 4 &lt;/strong&gt;&lt;strong&gt;个&lt;/strong&gt;&lt;strong&gt; CPU&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;nitro-cli run-enclave --cpu-count number_of_vcpus --cpu-ids list_of_vcpu_ids --memory amount_of_memory_in_MiB --eif-path path_to_enclave_image_file [--enclave-cid cid_number] [--debug-mode]&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli run-enclave --cpu-count number_of_vcpus --cpu-ids list_of_vcpu_ids --memory amount_of_memory_in_MiB --eif-path path_to_enclave_image_file [--enclave-cid cid_number] [--debug-mode]&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;ul&gt; 
  &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-describe-enclaves.html"&gt;nitro-cli describe-enclaves&lt;/a&gt;: 查看当前运行的 Enclave&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;code&gt;nitro-cli describe-enclaves&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli describe-enclaves&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;ul&gt; 
  &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-console.html"&gt;nitro-cli console&lt;/a&gt;: 以只读模式连接到一个运行的 Enclave，获取 Console 输出.&lt;/li&gt; 
 &lt;/ul&gt; 
 &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;strong&gt;:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;只有以&lt;/strong&gt;&lt;strong&gt;–debug-mode&lt;/strong&gt;&lt;strong&gt;模式运行的&lt;/strong&gt;&lt;strong&gt; enclave&lt;/strong&gt;&lt;strong&gt;，才允许&lt;/strong&gt;&lt;strong&gt; console &lt;/strong&gt;&lt;strong&gt;连接&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;nitro-cli console --enclave-id enclave_id&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli console --enclave-id enclave_id&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;ul&gt; 
  &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-terminate-enclave.html"&gt;nitro-cli terminate-enclave&lt;/a&gt;: 关闭指定的 enclave&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;code&gt;nitro-cli terminate-enclave --enclave-id enclave_id&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli terminate-enclave --enclave-id enclave_id&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;p&gt;另外，亚马逊云科技提供一系列工具，方便用户开发 Enclave 应用：&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;&lt;a href="http://aws.amazon.com/marketplace/pp/B08R69DKQ1"&gt;Nitro Enclaves Developer AMI&lt;/a&gt;: 包含开发 Enclave 应用程序和构建 Enclave 镜像文件所需的工具和组件，以及示例应用&lt;/li&gt; 
  &lt;li&gt;&lt;a href="https://github.com/aws/aws-nitro-enclaves-sdk-c"&gt;Nitro Enclaves SDK&lt;/a&gt;: 一组可用于开发 enclave 应用程序的 c 语言开源库，与KMS 集成，并为 attestation 证明和加密操作提供内置支持。&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;2. 搭建一个 Nitro Enclave 示例环境，结合 KMS 实现私钥安全&lt;/h2&gt; 
 &lt;p&gt;下面将以一个私钥管理应用场景的示例，使用 Python 代码演示如何在 Nitro Enclave 中处理私钥数据，并结合 KMS 和 Attestation，保证私钥在加密，解密，存储和签名过程中的安全。该示例将包括：&lt;/p&gt; 
 &lt;ul&gt; 
@@ -310,7 +320,6 @@ shutdown -r now
  &lt;li&gt;Partition key:&amp;nbsp;userid (String)&lt;/li&gt; 
 &lt;/ul&gt; 
 &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;strong&gt;:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;DynamoDB Table Name &lt;/strong&gt;&lt;strong&gt;和&lt;/strong&gt;&lt;strong&gt; Partition key &lt;/strong&gt;&lt;strong&gt;请与上面完全一致，如果需要修改，请同时相应修改示例程序中&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;client.py&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;的&lt;/strong&gt;&lt;strong&gt; DynamoDB &lt;/strong&gt;&lt;strong&gt;相关代码。&lt;/strong&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h3&gt;2.2 创建Enclave，运行示例代码&lt;/h3&gt; 
 &lt;p&gt;示例代码&amp;nbsp;Nitro-Enclave-Demo&amp;nbsp;已经被自动下载到 ec2-user 用户目录下，示例代码包含两个目录&lt;/p&gt; 
 &lt;ul&gt; 
@@ -331,22 +340,31 @@ drwxr-xr-x 4 ec2-user ec2-user   51 Aug 28 16:12 src
 &lt;h4&gt;2.2.1 创建和运行第一个 Enclave，生成和加密私钥&lt;/h4&gt; 
 &lt;p&gt;首先登录到第一台 EC2，进入 /home/ec2-user/Nitro-Enclave-Demo/GenerateToken/ 目录，主要包括以下几个文件&lt;/p&gt; 
 &lt;ul&gt; 
- &lt;li&gt;py: 运行在 Enclave 中的主程序文件，包括：从 KMS 生成私钥，从 KMS 获取 DataKey，加密私钥，将加密后的数据通过vsock发给父实例&lt;/li&gt; 
+ &lt;li&gt;main.py: 运行在 Enclave 中的主程序文件，包括：从 KMS 生成私钥，从 KMS 获取 DataKey，加密私钥，将加密后的数据通过vsock发给父实例&lt;/li&gt; 
  &lt;li&gt;traffic-fowarder.py: 运行在 Enclave 中，用于将 Enclave 访问 KMS 的请求通过 vsock 发送到父实例&lt;/li&gt; 
- &lt;li&gt;py: 用于获取 Attestation 签名，访问 KMS API，以及解密 KMS API Response&lt;/li&gt; 
- &lt;li&gt;py: 运行在父实例中的程序文件，包括：从 Enclave 接收加密后的数据，将数据写入到 DynamoDB&lt;/li&gt; 
- &lt;li&gt;Dockerfile: Docker 镜像文件，&lt;a href="http://main.py/"&gt;py&lt;/a&gt;和&amp;nbsp;&lt;a href="http://traffic-fowarer.py/"&gt;traffic-fowarer.py&lt;/a&gt;&amp;nbsp;都将被打包进容器镜像&lt;/li&gt; 
- &lt;li&gt;sh: 创建 Docker 镜像，将 Docker 镜像转换为 Enclave 镜像，并运行 Enclave 的自动化脚本&lt;/li&gt; 
+ &lt;li&gt;kms.py: 用于获取 Attestation 签名，访问 KMS API，以及解密 KMS API Response&lt;/li&gt; 
+ &lt;li&gt;client.py: 运行在父实例中的程序文件，包括：从 Enclave 接收加密后的数据，将数据写入到 DynamoDB&lt;/li&gt; 
+ &lt;li&gt;Dockerfile: Docker 镜像文件，&lt;a href="http://main.py/"&gt;main.py&lt;/a&gt;和&amp;nbsp;&lt;a href="http://traffic-fowarer.py/"&gt;traffic-fowarer.py&lt;/a&gt;&amp;nbsp;都将被打包进容器镜像&lt;/li&gt; 
+ &lt;li&gt;build.sh: 创建 Docker 镜像，将 Docker 镜像转换为 Enclave 镜像，并运行 Enclave 的自动化脚本&lt;/li&gt; 
 &lt;/ul&gt; 
 &lt;ol&gt; 
- &lt;li&gt;运行sh，创建 Enclave 镜像，并以debug-mode&amp;nbsp;运行 Enclave。其中创建 Enclave 镜像完成后，将自动生成该 Enclave 的 PCR 0/1/2，保存到&amp;nbsp;EnclaveImage.log&amp;nbsp;的文件中.&lt;/li&gt; 
+ &lt;li&gt;运行build.sh，创建 Enclave 镜像，并以debug-mode 运行 Enclave。其中创建 Enclave 镜像完成后，将自动生成该 Enclave 的 PCR 0/1/2，保存到 EnclaveImage.log 的文件中.&lt;/li&gt; 
 &lt;/ol&gt; 
-&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-33-19 GenerateToken]$ chmod +x build.sh&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-33-19 GenerateToken]$ ./build.sh&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;[ec2-user@ip-172-31-33-19 GenerateToken]$ chmod +x build.sh
+[ec2-user@ip-172-31-33-19 GenerateToken]$ ./build.sh
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;p&gt;build 脚本运行完成后， Enclave 将以 debug 模式运行，用户可通过 nitro-cli 连接到运行的 Enclave 控制台，查看 Enclave 运行过程输出到Console的日志，主要用于排错&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;nitro-cli console --enclave-id $(nitro-cli describe-enclaves | jq -r &amp;quot;.[0].EnclaveID&amp;quot;)&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli console --enclave-id $(nitro-cli describe-enclaves | jq -r &amp;quot;.[0].EnclaveID&amp;quot;)&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;p style="padding-left: 40px"&gt;2. 运行 client.py 代码，运行方式如下：&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;python3 client.py &amp;lt;KMS Key-id&amp;gt; &amp;lt;UserID&amp;gt;&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;div class="hide-language"&gt; 
+  &lt;pre&gt;&lt;code class="lang-python"&gt;python3 client.py &amp;lt;KMS Key-id&amp;gt; &amp;lt;UserID&amp;gt;&lt;/code&gt;&lt;/pre&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt; 
 &lt;p&gt;其中 “KMS Key-id” 为前面步骤中创建的别名为 NitroEnclaveDemo 的 KMS Key， “UserID” 用于标示即将生成的私钥属于哪个用户。&lt;/p&gt; 
 &lt;p&gt;运行&amp;nbsp;client.py&amp;nbsp;代码后，将自动返回从 Enclave 中接收到的数据，并将数据写入到 DynamoDB Table，数据字段包括：&lt;/p&gt; 
 &lt;ul&gt; 
@@ -355,8 +373,10 @@ drwxr-xr-x 4 ec2-user ec2-user   51 Aug 28 16:12 src
  &lt;li&gt;publickey: 在 Enclave 中，由私钥生成的公钥&lt;/li&gt; 
  &lt;li&gt;encrypted_datakey: KMS 加密后的 DataKey，将用于解密私钥&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-33-19 GenerateToken]$ python3 client.py alias/NitroEnclaveDemo u001&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt; {&amp;quot;userid&amp;quot;: &amp;quot;u001&amp;quot;, &amp;quot;encrypted_privatekey&amp;quot;: &amp;quot;4xiMsmD1VMw1I48HMApw4LzDSWT9lz/x74dMNCz1427hz98t0JzyrFzDd68vrKl0wKB1a/LoLyhi\nvJSgQwSfCA==\n&amp;quot;, &amp;quot;publickey&amp;quot;: &amp;quot;0a0756e60e112d11f0d5e4a88858251f1234e27ea37261da4698d497baa6a52bbe9a3d227534866351086d7220548a4ff00fb081c9b318361cac5dae9c661f8c&amp;quot;, &amp;quot;encrypted_datakey&amp;quot;: &amp;quot;AQIBAHhVM1N8G00xz9DVe3FbnRAxaxNCkCaRYV6/wLYxbwj04QFUWvIkLZ6TYPE2GTUdKvMbAAAAdjB0BgkqhkiG9w0BBwagZzBlAgEAMGAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMhfwZjlaOr8pCQneAgEQgDNMimKpywvNdcpJIgPZUYrhE5uQvzonU5o/uYhPMmZmb/kWotQNH6KSFxuTBdx6FeM0vQs=&amp;quot;} Write User Token to DynamoDB Successfully [ec2-user@ip-172-31-33-19 GenerateToken]$&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;[ec2-user@ip-172-31-33-19 GenerateToken]$ python3 client.py alias/NitroEnclaveDemo u001
+ {&amp;quot;userid&amp;quot;: &amp;quot;u001&amp;quot;, &amp;quot;encrypted_privatekey&amp;quot;: &amp;quot;4xiMsmD1VMw1I48HMApw4LzDSWT9lz/x74dMNCz1427hz98t0JzyrFzDd68vrKl0wKB1a/LoLyhi\nvJSgQwSfCA==\n&amp;quot;, &amp;quot;publickey&amp;quot;: &amp;quot;0a0756e60e112d11f0d5e4a88858251f1234e27ea37261da4698d497baa6a52bbe9a3d227534866351086d7220548a4ff00fb081c9b318361cac5dae9c661f8c&amp;quot;, &amp;quot;encrypted_datakey&amp;quot;: &amp;quot;AQIBAHhVM1N8G00xz9DVe3FbnRAxaxNCkCaRYV6/wLYxbwj04QFUWvIkLZ6TYPE2GTUdKvMbAAAAdjB0BgkqhkiG9w0BBwagZzBlAgEAMGAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMhfwZjlaOr8pCQneAgEQgDNMimKpywvNdcpJIgPZUYrhE5uQvzonU5o/uYhPMmZmb/kWotQNH6KSFxuTBdx6FeM0vQs=&amp;quot;} Write User Token to DynamoDB Successfully [ec2-user@ip-172-31-33-19 GenerateToken]$&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;h4&gt;2.2.2 创建和运行第二个 Enclave，解密私钥，签名和验证消息&lt;/h4&gt; 
 &lt;p&gt;登录到第二台 EC2，进入 /home/ec2-user/Nitro-Enclave-Demo/SignVerify 目录：&lt;/p&gt; 
 &lt;ul&gt; 
@@ -366,25 +386,35 @@ drwxr-xr-x 4 ec2-user ec2-user   51 Aug 28 16:12 src
 &lt;ol&gt; 
  &lt;li&gt;运行build.sh，创建 Enclave 镜像，并以debug-mode 运行 Enclave。其中创建 Enclave 镜像完成后，将自动生成该 Enclave 的 PCR 0/1/2，保存到 EnclaveImage.log 的文件中.&lt;/li&gt; 
 &lt;/ol&gt; 
-&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-36-174 SignVerify]$ chmod +x build.sh&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-36-174 SignVerify]$ ./build.sh&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;[ec2-user@ip-172-31-36-174 SignVerify]$ chmod +x build.sh
+[ec2-user@ip-172-31-36-174 SignVerify]$ ./build.sh
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;ol start="2"&gt; 
  &lt;li&gt;运行client.py代码，运行格式如下：&lt;/li&gt; 
 &lt;/ol&gt; 
-&lt;p&gt;&lt;code&gt;python3 client.py &amp;lt;UserID&amp;gt; &amp;lt;Message to be Signed&amp;gt;&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;python3 client.py &amp;lt;UserID&amp;gt; &amp;lt;Message to be Signed&amp;gt;&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;p&gt;其中 “UserID” 代表从 DynamoDB 中读取哪个用户的密钥数据，“Message to be Signed” 代表将被发送到 Enclave 中被私钥签名的消息。&lt;/p&gt; 
 &lt;p&gt;运行&amp;nbsp;client.py&amp;nbsp;代码后，将自动返回从 Enclave 中接收到的数据，数据字段包括：&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;Signed Message: Enclave 中被私钥签名后的消息&lt;/li&gt; 
  &lt;li&gt;Signed message verified by public key: True/False，表示签名的消息是否可以被公钥验证，确保私钥和公钥没有被修改&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-36-174 SignVerify]$ python3 client.py u001 'Hellow World'&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;Signed Message: 6053cfc42883d03888ba175950e463c1d8164cab8b4873b85af8531a0c6f86b8ad07012107e3322d30118ea24976f8c8f70014119159101ecc1797e7a9f72915&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;Signed message verified by public key: True&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-36-174 SignVerify]$&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;[ec2-user@ip-172-31-36-174 SignVerify]$ python3 client.py u001 'Hellow World'
+Signed Message: 6053cfc42883d03888ba175950e463c1d8164cab8b4873b85af8531a0c6f86b8ad07012107e3322d30118ea24976f8c8f70014119159101ecc1797e7a9f72915
+Signed message verified by public key: True
+[ec2-user@ip-172-31-36-174 SignVerify]$
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;h3&gt;2.3 配置 KMS 密钥策略，根据 Attestation PCR 授权&lt;/h3&gt; 
 &lt;p&gt;当以&amp;nbsp;debug-mode&amp;nbsp;运行 Enclave 时，Attestation 证明文件中的 PCR 为全 0，无法用来在外部服务上作为策略条件，进行权限控制。&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;nitro-cli run-enclave ...... --debug-mode&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli run-enclave ...... --debug-mode&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;p&gt;运行 nitro-cli run-enclave 时，不加–debug-mode, 是以正常模式运行 Enclave，Attestation 证明文件中才会包含 Enclave 正常的 PCR。&lt;/p&gt; 
 &lt;p&gt;首先在 KMS 密钥策略，添加相应的 Condition Key 限制 Attestation PCR ，其中&amp;nbsp;kms:RecipientAttestation:ImageSha384&amp;nbsp;与 PCR 0 为相同的值，每个 Enclave 的 PCR 0/1/2，可以在 Build Enclave 镜像的时候获取，本示例是写到所在代码目录下 EnclaveImage.log 文件中。&lt;/p&gt; 
 &lt;p&gt;在 KMS NitroEnclaveDemo 这个 Key 的密钥策略中，添加以下两条 Deny 权限策略语句，到 KMS Key Policy 的 Statement 字段中：&lt;/p&gt; 
@@ -435,10 +465,17 @@ drwxr-xr-x 4 ec2-user ec2-user   51 Aug 28 16:12 src
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 在 EC2 上测试直接用 CLI 访问 KMS，提示请求被拒绝，确认密钥策略权限已生效&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;[ec2-user@ip-172-31-33-19 ~]$ aws kms generate-data-key --key-id alias/NitroEnclaveDemo --number-of-bytes 32 --region ap-northeast-1&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;An error occurred (AccessDeniedException) when calling the GenerateDataKey operation: User: arn:aws:sts::xxxxxxxxxx:assumed-role/NitroEnclave-Demo/i-0e4fc2c648b901c7e is not authorized to perform: kms:GenerateDataKey on resource: arn:aws:kms:ap-northeast-1:xxxxxxxxxx:key/6390f2e0-86d6-46cb-8478-37dcfa6aa2dc with an explicit deny&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;
+[ec2-user@ip-172-31-33-19 ~]$ aws kms generate-data-key --key-id alias/NitroEnclaveDemo --number-of-bytes 32 --region ap-northeast-1
+
+An error occurred (AccessDeniedException) when calling the GenerateDataKey operation: User: arn:aws:sts::xxxxxxxxxx:assumed-role/NitroEnclave-Demo/i-0e4fc2c648b901c7e is not authorized to perform: kms:GenerateDataKey on resource: arn:aws:kms:ap-northeast-1:xxxxxxxxxx:key/6390f2e0-86d6-46cb-8478-37dcfa6aa2dc with an explicit deny
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;p&gt;分别在两台 EC2 上执行以下命令，终止前面步骤启动的 Enclave&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;nitro-cli terminate-enclave --enclave-id $(nitro-cli describe-enclaves | jq -r &amp;quot;.[0].EnclaveID&amp;quot;)&lt;/code&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli terminate-enclave --enclave-id $(nitro-cli describe-enclaves | jq -r &amp;quot;.[0].EnclaveID&amp;quot;)&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
 &lt;p&gt;然后在两台 EC2 上重新启动 Enclave，不添加 –debug-mode 参数&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;## NitroEnclaveDemo-1
@@ -496,7 +533,6 @@ Signed message verified by public key: True
 &lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave11.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h2&gt;总结&lt;/h2&gt; 
 &lt;p&gt;Nitro Enclave 使用户可以在 亚马逊云科技上，简便，安全地运行隔离的可信计算环境，用于处理私钥，PII等敏感数据。另外 Nitro Enclave 不需要强制绑定 CPU 芯片，支持 Intel，AMD 芯片的计算实例，没有任何额外费用，具备更好的灵活性和成本效益，且与云原生的安全服务 KMS，ACM 直接集成，为用户提供更好的使用体验和安全性保障。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;本篇作者&lt;/h2&gt; 
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
@@ -505,6 +541,250 @@ Signed message verified by public key: True
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;胡新华&lt;/h3&gt; 
   &lt;p&gt;AWS解决方案架构师，负责金融行业基于AWS的云计算架构咨询和设计。加入AWS之前就职于IBM，在数据中心IT基础架构相关的解决方案设计和交付方面，具有十多年经验。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
+		<title>增强Amazon Athena对历史查询记录的统计分析功能</title>
+		<link>https://aws.amazon.com/cn/blogs/china/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records/</link>
+				<pubDate>Thu, 02 Sep 2021 03:11:56 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Analytics]]></category>
+		<category><![CDATA[Amazon Athena]]></category>
+
+		<guid isPermaLink="false">5d41f51e363379c2c35c97dc1c407cec8f874090</guid>
+				<description>Amazon Athena 是一种交互式查询服务，让您能够轻松使用标准 SQL 分析 Amazon S3 中的数据。Athena 采用无服务器架构，因此您无需管理任何基础设施，且只需为您运行的查询付费。Athena 简单易用，只需指向您存储在 Amazon S3 中的数据，定义架构并使用标准 SQL 开始查询。</description>
+								<content:encoded>&lt;h2&gt;背景介绍&lt;/h2&gt; 
+&lt;p&gt;Amazon Athena 是一种交互式查询服务，让您能够轻松使用标准 SQL 分析 Amazon S3 中的数据。Athena 采用无服务器架构，因此您无需管理任何基础设施，且只需为您运行的查询付费。Athena 简单易用，只需指向您存储在 Amazon S3 中的数据，定义架构并使用标准 SQL 开始查询。就可在数秒内获取最多的结果。您可以使用Athena 控制台查看成功和失败的查询、下载成功查询结果文件以及查看失败查询的错误详细信息。Athena 将查询历史记录保留 45 天。如果要将查询历史记录保留超过 45 天，您可以检索查询历史记录并将其保存到等 Amazon S3 等数据存储中。本方案自动执行此过程，使用 Athena 和 Amazon S3 API将数据导入到Amazon S3，并使用Athena分析历史数据，结合Amazon CloudTrail的Athena API调用日志可以对Athena的历史SQL执行记录进行多个维度的分析，以便用于评估Athena的使用和优化线上SQL等。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;部署架构&lt;/h2&gt; 
+&lt;p&gt;利用CloudWatch Event定时触发Lambda代码同步Athena历史查询日志到Amazon S3，利用DynamoDB记录每次增量同步的记录位置，Amazon CloudTrail记录Athena API call日志，创建CloudTrail的跟踪，将日志持续导入到S3中，最终通过Athena多维分析历史查询日志和CloudTrail日志并利用Amazon QuickSight进行图表展现。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;方案部署步骤&lt;/h2&gt; 
+&lt;h3&gt;导出Athena查询历史记录日志到Amazon S3&lt;/h3&gt; 
+&lt;p&gt;因为Athena历史查询记录日志只保留45天，我们通过一段Python代码将Athena历史查询记录日志持续的，增量的导入到Amazon S3中，利用DynamoDB记录每次导出的最近位置，下次导出的时候，从上次导出的最新位置开始增量导出，避免产生重复数据，我们也可以将这段代码部署在在Lambda上，通过CloudWatch Event定时触发同步日志到Amazon S3。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;strong&gt;创建&lt;/strong&gt;&lt;strong&gt;DynamoDB表，保存每次增量导入的最新位置&lt;/strong&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;表名称：athena_his_sql&lt;/p&gt; 
+&lt;p&gt;主分区键：workgroup&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;strong&gt;创建&lt;/strong&gt;&lt;strong&gt;Lambda函数athena_his_fun&lt;/strong&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;将下面的脚本复制到Lambda的入口脚本lambda_function.py（Lambda函数执行的角色需要具备操作Amazon S3读写，DynamoDB读写的权限）并修改Lambda的内存（500M）和超时时间（10min）。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;import boto3
+import time
+import io
+import json
+import uuid
+from datetime import datetime, date
+def lambda_handler(event, context):
+    # TODO implement
+    to_scrape=5000
+    page_size=50
+    bucket = &amp;quot;quandata1&amp;quot;
+    prefix = &amp;quot;athena_his/&amp;quot;
+    s3_client = boto3.client('s3')
+    ath = boto3.client('athena')
+    paginator = ath.get_paginator(&amp;quot;list_query_executions&amp;quot;)
+    dynamodb = boto3.resource('dynamodb')
+    def json_serial(obj):
+        if isinstance(obj, (datetime, date)):
+            return obj.isoformat()
+        raise TypeError(&amp;quot;Type %s not serializable&amp;quot; % type(obj))
+    df = []
+    break_flag = False
+    for workgroup in [w['Name'] for w in ath.list_work_groups()['WorkGroups']]:
+        print(f'running {workgroup}')
+        i=0
+        table = dynamodb.Table('athena_his_sql')
+        response = table.get_item(Key={'workgroup': workgroup,})
+        curr_query_id = ''
+        if  (&amp;quot;Item&amp;quot; in response): curr_query_id = response['Item']['curr_query_id']
+        print(&amp;quot;get ddb curr_id: &amp;quot; + workgroup + curr_query_id)
+        args = {&amp;quot;WorkGroup&amp;quot;: workgroup, &amp;quot;PaginationConfig&amp;quot;: {&amp;quot;MaxItems&amp;quot;: to_scrape, &amp;quot;PageSize&amp;quot;: page_size}}
+        for page in paginator.paginate(**args):
+            query_ids = page['QueryExecutionIds']
+            for query_id in query_ids:
+                print(&amp;quot;query_id:&amp;quot; + query_id)
+                if i == 0:
+                    table.update_item(
+                        Key={'workgroup': workgroup,},
+                        UpdateExpression='SET curr_query_id = :val1',
+                        ExpressionAttributeValues={':val1': query_id})
+                    print(&amp;quot;update ddb curr_id: &amp;quot; + query_id)
+                if query_id == curr_query_id:
+                    break_flag=True
+                    break
+                query_metadata = ath.get_query_execution(QueryExecutionId=query_id)['QueryExecution']
+                df.append(query_metadata)
+                i += 1
+            if break_flag==True:
+                break
+            time.sleep(1)
+    json_writer = io.BytesIO()
+    for record in df:
+        line = json.dumps(record, default=json_serial) + &amp;quot;\n&amp;quot;
+        json_writer.write(line.encode())
+    s3_client.put_object(
+        Bucket=bucket,
+        Key=prefix + &amp;quot;%s.json&amp;quot; % uuid.uuid4(),
+        ContentType='text/json',
+        Body=json_writer.getvalue()
+)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;部署完毕后设置利用CloudWatch Event定时触发执行（例如按小时触发）&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 脚本执行后，会在DynamoDB的表athena_his_sql中更新当前最新的查询ID，方便后续增量导出。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 利用Amazon CLI或者控制台检查Amazon S3路径下是否正确上传了日志文件，（注：本方案没有对上传到S3的数据进行分区存放，可以参考下文CloudTrail日志的方式利用Athena的分区投影功能实现自动分区管理）。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;创建Athena历史记录日志表&lt;/h3&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;CREATE EXTERNAL TABLE athena_queries (
+    QueryExecutionId string,
+    Query string,
+    StatementType string,
+    Status struct&amp;lt;State:string,SubmissionDateTime:string,CompletionDateTime:string&amp;gt;,
+    Statistics struct&amp;lt;EngineExecutionTimeInMillis:int,DataScannedInBytes:int, TotalExecutionTimeInMillis:int, QueryQueueTimeInMillis:int, QueryPlanningTimeInMillis:int, ServiceProcessingTimeInMillis:int&amp;gt;,
+    WorkGroup string
+)
+ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
+LOCATION 's3://quandata1/athena_his';
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;h3&gt;创建CloudTrail日志表&lt;/h3&gt; 
+&lt;p&gt;开启CloudTrail跟踪，将CloudTrail日志通过跟踪功能持续保存到S3中。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 创建CloudTrail日志表cloudtrail_logs，建表语句中LOCATION根据实际跟踪配置的S3路径填写。使用Athena分区投影功能自动进行分区管理，降低查询时间和数据扫描量。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;CREATE EXTERNAL TABLE cloudtrail_logs(
+    eventVersion STRING,
+    userIdentity STRUCT&amp;lt;
+        type: STRING,
+        principalId: STRING,
+        arn: STRING,
+        accountId: STRING,
+        invokedBy: STRING,
+        accessKeyId: STRING,
+        userName: STRING,
+        sessionContext: STRUCT&amp;lt;
+            attributes: STRUCT&amp;lt;
+                mfaAuthenticated: STRING,
+                creationDate: STRING&amp;gt;,
+            sessionIssuer: STRUCT&amp;lt;
+                type: STRING,
+                principalId: STRING,
+                arn: STRING,
+                accountId: STRING,
+                userName: STRING&amp;gt;&amp;gt;&amp;gt;,
+    eventTime STRING,
+    eventSource STRING,
+    eventName STRING,
+    awsRegion STRING,
+    sourceIpAddress STRING,
+    userAgent STRING,
+    errorCode STRING,
+    errorMessage STRING,
+    requestParameters STRING,
+    responseElements STRING,
+    additionalEventData STRING,
+    requestId STRING,
+    eventId STRING,
+    readOnly STRING,
+    resources ARRAY&amp;lt;STRUCT&amp;lt;
+        arn: STRING,
+        accountId: STRING,
+        type: STRING&amp;gt;&amp;gt;,
+    eventType STRING,
+    apiVersion STRING,
+    recipientAccountId STRING,
+    serviceEventDetails STRING,
+    sharedEventID STRING,
+    vpcEndpointId STRING
+  )
+PARTITIONED BY (
+   `timestamp` string)
+ROW FORMAT SERDE 'com.amazon.emr.hive.serde.CloudTrailSerde'
+STORED AS INPUTFORMAT 'com.amazon.emr.cloudtrail.CloudTrailInputFormat'
+OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION
+  's3://bucket/AWSLogs/account-id/CloudTrail/aws-region'
+TBLPROPERTIES (
+  'projection.enabled'='true', 
+  'projection.timestamp.format'='yyyy/MM/dd', 
+  'projection.timestamp.interval'='1', 
+  'projection.timestamp.interval.unit'='DAYS', 
+  'projection.timestamp.range'='2021/01/01,NOW', 
+  'projection.timestamp.type'='date', 
+  'storage.location.template'='s3://bucket/AWSLogs/account-id/CloudTrail/aws-region/${timestamp}')
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;&lt;/h2&gt; 
+&lt;h2&gt;使用Athena对数据进行分析&lt;/h2&gt; 
+&lt;p&gt;&lt;strong&gt;查看不同&lt;/strong&gt;&lt;strong&gt;SQL语句的执行总次数排名&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;select count(*),query from athena_queries group by query order by 1 desc limit 10&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;查看执行状态失败的&lt;/strong&gt;&lt;strong&gt;SQL总数&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;select count(*) from athena_queries where status.state='FAILED'&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;查看执行超过特定执行时长的历史&lt;/strong&gt;&lt;strong&gt;SQL&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;select query from athena_queries where statistics.totalexecutiontimeinmillis &amp;gt;=5000&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;查看超过特定数据扫描量的历史&lt;/strong&gt;&lt;strong&gt;SQL&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;select query from athena_queries where statistics.datascannedinbytes &amp;gt;=10741612544&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;根据&lt;/strong&gt;&lt;strong&gt;IAM用户统计数据扫描量&lt;/strong&gt;&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;select sum(b.statistics.datascannedinbytes),
+a.userIdentity.username 
+from 
+cloudtrail_logs a,
+athena_queries b 
+where 
+a.eventsource='athena.amazonaws.com' and a.eventName='StartQueryExecution' and 
+a.responseElements != 'null' and substr(a.responseElements,22,36) = b.queryexecutionid 
+group by 
+a.userIdentity.username
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;使用Amazon Quicksight可视化分析结果&lt;/h2&gt; 
+&lt;p&gt;利用SQL的方式（将cloudtrail_logs和athena_queries两张表联表查询）创建QuickSight中Athena数据集，然后根据实际需要在Amazon QuickSight创建可视化图表。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;select&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.queryexecutionid,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.query,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statementtype,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.status.State,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.status.SubmissionDateTime,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.status.CompletionDateTime,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.EngineExecutionTimeInMillis,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.DataScannedInBytes,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.TotalExecutionTimeInMillis,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.QueryQueueTimeInMillis,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.QueryPlanningTimeInMillis,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.ServiceProcessingTimeInMillis,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.workgroup,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;a.userIdentity.username&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;from&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;cloudtrail_logs a,&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;athena_queries b&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;where&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;a.eventsource='athena.amazonaws.com' and a.eventName='StartQueryExecution' and&lt;/code&gt;&lt;/p&gt; 
+&lt;p style="padding-left: 40px"&gt;&lt;code&gt;a.responseElements != 'null' and substr(a.responseElements,22,36) = b.queryexecutionid&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;创建可视化图表如下&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;总结&lt;/h2&gt; 
+&lt;p&gt;通过本文介绍的方案可以更长时间的保留Athena查询历史日志，通过对Athena历史查询日志的分析，让我们可以直观的了解和掌握Athena的使用细节，查看Top SQL，检测应用性能问题，在时间、用户、SQL语句等多个维度增强对Athena使用的洞察。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;参考链接&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://docs.aws.amazon.com/zh_cn/athena/latest/ug/what-is.html"&gt;https://docs.aws.amazon.com/zh_cn/athena/latest/ug/what-is.html&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://docs.aws.amazon.com/zh_cn/athena/latest/ug/querying.html"&gt;https://docs.aws.amazon.com/zh_cn/athena/latest/ug/querying.html&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://docs.aws.amazon.com/zh_cn/athena/latest/ug/monitor-with-cloudtrail.html"&gt;https://docs.aws.amazon.com/zh_cn/athena/latest/ug/monitor-with-cloudtrail.html&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://docs.aws.amazon.com/athena/latest/ug/cloudtrail-logs.html"&gt;https://docs.aws.amazon.com/athena/latest/ug/cloudtrail-logs.html&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/xiangqua.jpg" width="125" /&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;柳向全&lt;/h3&gt; 
+  &lt;p&gt;AWS 解决方案架构师，负责基于AWS的云计算方案架构的咨询和设计，目前主要专注于容器和大数据技术领域研究和AWS云服务在国内和全球的应用和推广。&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
 										</item>
@@ -2495,175 +2775,6 @@ log_entry = {
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Kapil Pendse&lt;/h3&gt; 
   &lt;p&gt;Amazon Web Services（新加坡）的高级解决方案构架师，拥有超过 15 年的跨多个领域构建技术解决方案的经验，例如云计算、嵌入式系统和机器学习。在空闲时间，Kapil 喜欢沿着新加坡的沿海公园骑行，偶尔享受水獭的陪伴。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>基于AI技术的智能剪辑方案</title>
-		<link>https://aws.amazon.com/cn/blogs/china/intelligent-editing-scheme-based-on-ai-technology/</link>
-				<pubDate>Sun, 29 Aug 2021 14:21:08 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[AI]]></category>
-		<category><![CDATA[Amazon DynamoDB]]></category>
-		<category><![CDATA[Amazon Rekognition]]></category>
-		<category><![CDATA[AWS Elemental MediaConvert]]></category>
-		<category><![CDATA[AWS Lambda]]></category>
-		<category><![CDATA[Media]]></category>
-
-		<guid isPermaLink="false">ca4099e29b5c7c4211ff510b7c39fc6a512c0dee</guid>
-				<description>本文描述了一种基于 AI 技术，针对人脸信息对视频文件进行智能剪辑的方案。</description>
-								<content:encoded>&lt;p&gt;伴随着技术的发展，每天都有海量视频资料产生，但人们往往并不需要视频中的每一个片段。也许您只是想看到自己孩子出现的镜头，或者只关注自己喜欢的明星出演的节目，还可能需要用一些特定人员出现的镜头以制作新的视频。本文将介绍一种基于 AI 技术完成视频智能剪辑的方法。&lt;/p&gt; 
-&lt;p&gt;通过这种方法，您可以从已有视频中快速剪辑出仅包含目标人物的内容。通过 AWS 所提供的托管服务，您无需了解复杂的人脸识别技术或视频编解码技术，甚至无需部署任何服务器资源。您只需要将精力集中在功能实现上。&lt;/p&gt; 
-&lt;p&gt;本方案主要依赖两个核心功能。一，识别视频中的目标人物；二，针对目标任务进行剪辑。前者依赖于人脸识别技术（例如：Amazon Rekognition），后者则属于媒体行业中的视频合成技术（例如：AWS Elemental MediaConvert）。&lt;/p&gt; 
-&lt;p&gt;此外，您需要预先了解 Amazon S3、Amazon DynamoDB、AWS Lambda、Amazon SNS、Amazon API Gateway 服务的基础功能。对这些服务的介绍不在本文范围内，您可以通过官方网站了解它们相关的进一步信息。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;关于人脸识别：&lt;/h2&gt; 
-&lt;p&gt;Amazon Rekognition（下文简称 Rekognition）是 Amazon Web Services 提供的使用机器学习自动执行图像和视频分析的托管服务。Rekognition 提供高度精确的面孔分析和面孔搜索功能，我们将利用这个功能检测、分析并搜索视频中出现的特定面孔。&lt;/p&gt; 
-&lt;h3&gt;面孔检测和分析&lt;/h3&gt; 
-&lt;p&gt;为了实现特定人员的搜索，首先需要告诉 Rekognition 我们要搜索目标人脸特征是什么。这里我们无需了解诸如卷机神经网络、训练样本、迭代次数之类的技术细节，Rekognition 可以检测图像和视频中的人脸，自动提取并存储这些人脸的特征。所以我们需要做的只是向 Rekognition 提供一组目标人群的人脸照片即可。&lt;/p&gt; 
-&lt;p&gt;首先，通过调用 create_collection API 在 Rekognition 中创建一个被称为“集合（以下称作：collection）“的对象，在 collection 中将会存储检测到的人脸特征。collection 只是一个逻辑上的容器，本身并不包含任何的人脸特征信息。所以接下来需要向 collection 中添加这些信息。&lt;/p&gt; 
-&lt;p&gt;添加的过程需要调用 index_faces API，并提供一张保存在 Amazon S3 存储桶上的人脸照片，以及对应的 collection id。Rekognition 会完成人脸特征提取、信息保存的过程。在 collection 中不会保存完整的图片，只是保存人脸特征信息，例如：&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-powershell"&gt;{
-    &amp;quot;FaceModelVersion&amp;quot;: &amp;quot;5.0&amp;quot;,
-    &amp;quot;Faces&amp;quot;: [
-        {
-            &amp;quot;BoundingBox&amp;quot;: {
-                &amp;quot;Width&amp;quot;: 0.5216310024261475,
-                &amp;quot;Top&amp;quot;: 0.3256250023841858,
-                &amp;quot;Left&amp;quot;: 0.13394300639629364,
-                &amp;quot;Height&amp;quot;: 0.3918749988079071
-            },
-            &amp;quot;FaceId&amp;quot;: &amp;quot;0040279c-0178-436e-b70a-e61b074e96b0&amp;quot;,
-            &amp;quot;ExternalImageId&amp;quot;: &amp;quot;image1.jpg&amp;quot;,
-            &amp;quot;Confidence&amp;quot;: 100.0,
-            &amp;quot;ImageId&amp;quot;: &amp;quot;f976e487-3719-5e2d-be8b-ea2724c26991&amp;quot;
-        }
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;默认参数下，Rekognition 只提取这些人脸特征：BoundingBox、Confidence、Pose、Quality、和&amp;nbsp;Landmarks，对于本文中的应用场景已经足够。如果您还需要人脸的年龄、表情、眼睛状态、情绪等更细节的属性，可以在调用 index_faces API 时增加 DetectionAttributes=ALL 的参数设置。这可以满足更广泛的应用场景需求，当然所需要花费的处理时间也会更长。&lt;/p&gt; 
-&lt;p&gt;在保存的参数中，ExternalImageId 是为当前人脸起一个便于记忆的名字。本文介绍的方法将会利用 ExternalImageId 作为在视频中搜索目标人物时使用到的标签名。每次调用 index_faces 时会向 colletion 中添加 1 张人脸信息。如果希望一次性添加多张人脸，需要自行编写代码实现多次调用。&lt;/p&gt; 
-&lt;h3&gt;面孔搜索&lt;/h3&gt; 
-&lt;p&gt;当建立好 collection 并向其中添加了 IndexFaces 后，就可以利用 collection 对视频进行检索。Rekognition Video 提供 start_face_search API 针对视频文件进行人脸信息检索。调用 API 时需提供视频文件存储的位置（视频需存储在 Amazon S3 存储桶中），以及所使用的 collectionId（即：需要针对哪一个人脸进行检索）。&lt;/p&gt; 
-&lt;p&gt;注意，start_face_search API将搜索视频文件中所有的人脸信息。如果搜索到的人脸信息包含在 collection 中，返回结果将包含该人脸的 ExternalImageId。这是一个异步的人脸检测操作，处理时间与 collection 中包含的信息数量以及待处理的视频长度相关。API 调用成功后仅返回生成的 jobId。在调用 API 进行处理时，可以指定 Amazon SNS Topic。这样，当 Rekognition Video 完成视频检索后将会自动向 SNS Topic 发送消息进行提示。&lt;/p&gt; 
-&lt;p&gt;当检索完成后，可以调用 get_face_search API 查看特定 jobId 的检索结果。返回结果示意如下：&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-powershell"&gt;{
-    &amp;quot;JobStatus&amp;quot;: &amp;quot;SUCCEEDED&amp;quot;,
-    &amp;quot;NextToken&amp;quot;: &amp;quot;cbV9RaFdm…&amp;quot;,
-    &amp;quot;VideoMetadata&amp;quot;: {
-        &amp;quot;Codec&amp;quot;: &amp;quot;h264&amp;quot;,
-        &amp;quot;DurationMillis&amp;quot;: 1800000,
-        &amp;quot;Format&amp;quot;: &amp;quot;QuickTime / MOV&amp;quot;,
-        &amp;quot;FrameRate&amp;quot;: 25.0,
-        &amp;quot;FrameHeight&amp;quot;: 480,
-        &amp;quot;FrameWidth&amp;quot;: 856
-    },
-    &amp;quot;Persons&amp;quot;: [
-        {
-            &amp;quot;Timestamp&amp;quot;: 4480,
-            &amp;quot;Person&amp;quot;: {…},
-	&amp;quot;FaceMatches&amp;quot;: [
-                {
-                    &amp;quot;Similarity&amp;quot;: 99.99900817871094,
-                    &amp;quot;Face&amp;quot;: {…},
-                        &amp;quot;ImageId&amp;quot;: &amp;quot;15681d6b-&amp;quot;,
-                        &amp;quot;ExternalImageId&amp;quot;: &amp;quot;xxxxxx&amp;quot;,
-                        &amp;quot;Confidence&amp;quot;: 99.99849700927734
-                    }
-                }
-            ]
-        },
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;返回结果中包含如下主要信息：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;视频的元数据信息（视频时长、帧率等）；&lt;/li&gt; 
- &lt;li&gt;人脸出现的时间戳（以毫秒为单位）；&lt;/li&gt; 
- &lt;li&gt;人脸匹配信息（ExternalImageId，Confidence等）&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;在单次调用 get_face_search API 时，最多只返回 1000 条信息，这显然无法满足长视频的识别需要。因此对于超过 1000 条信息的检索，get_face_search API 在返回结果中会包含 NextToken字段，这是一个指向后 1000 条检索信息的 hash 指针。通过在循环调用 get_face_search API 中逐条包含 NextToken 字段可顺序获得全部检索结果。&lt;/p&gt; 
-&lt;p&gt;本文中所涉及到的场景将会利用检索结果中的如下信息：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;视频文件的帧率；&lt;/li&gt; 
- &lt;li&gt;人脸出现的时间戳；&lt;/li&gt; 
- &lt;li&gt;人脸的 ExternalImageId。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;关于视频合成：&lt;/h2&gt; 
-&lt;p&gt;现在我们已经获得了视频文件中所有人脸出现时的时间码信息，接下来的工作将是基于这些信息进行新的视频合成。这将用到 Amazon Elemental MediaConvert（下文简称 MediaConvert）服务。MediaConvert 是一款具有广播级功能的基于文件的视频转码服务。借助该服务，您能够轻松创建视频点播 (VOD) 内容，实现大规模的广播和多屏幕传输。&lt;/p&gt; 
-&lt;p&gt;在这里我们将使用 MediaConvert 所提供的视频合成功能。我们只需要在创建 MediaConvert 任务时指定好每段视频的起、止时间帧，MediaConvert 将按顺序将所有时间段串行合并为一个新的视频。&lt;/p&gt; 
-&lt;p&gt;Rekognition Video 返回的结果中已经包含了 ExternalImageId，基于这个标记我们直接可以选择要检索出来的人员在哪些时间点出现。然而仍然有两个细节工作需要注意。&lt;/p&gt; 
-&lt;ol&gt; 
- &lt;li&gt;Rekognition Video 返回的结果以毫秒为单位，而 MediaConvert 在视频处理时以帧（HH:MM:SS:FF）为单位。这就需要根据视频原始帧率，在“毫秒”与“帧”之间进行转换。&lt;/li&gt; 
- &lt;li&gt;Rekognition Video 返回的是所有时间点，而不是某个人在视频中出现的时间段。从“时间点”到“时间段”的转换需要使用者通过代码自行时间。例如：当返回结果中两个相邻的 Timestamp 之间间隔大于 1 秒时，我们就可以认为这是两段不同的时间段，如果小于 1 秒则是一段连续时间段中的不同时间点。&lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;p&gt;完成好时间段和视频帧的转换后，可以通过调用 MediaConvert 的 create_job API 创建视频合成任务。&lt;/p&gt; 
-&lt;p&gt;如前文所提到的，MediaConvert 是一款广播级功能的视频转码服务，可设置的参数、可实现的功能非常丰富。下图展示了 MediaConvert 在输出选项组中可设置的部分参数：&lt;/p&gt; 
-&lt;p style="text-align: center"&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/intelligent-editing-scheme-based-on-ai-technology1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/intelligent-editing-scheme-based-on-ai-technology1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 输出参数设置（部分截图）&lt;/p&gt; 
-&lt;p&gt;所有参数均和可以在调用 create_job API 时进行设置，或通过指定 JSON 文件的方式传入。对于 job 所需要的 JSON 文件，使用者不必从零开始编写，只需要在控制台界面中根据自己的需要设置好各项参数，然后选择控制台界面中的“显示作业JSON”选项，将自动生成的内容复制出来生成新的 JSON 文件即可。&lt;/p&gt; 
-&lt;p&gt;为实现本文所涉及的场景，只需要设置基本的输入（待处理视频位置）、输出（处理后视频位置、视频片段起止时间、输出视频名称）参数即可。需要注意的是，在输出选项中“速率控制模式”参数是必填项，支持可变比特率（VBR）、恒定比特率（CBR）以及质量定义的可变比特率（QVBR）三种模式。推荐使用 QVBR 方式，不同分辨率下 QVBR 的推荐参数值可以参考 &lt;a href="https://docs.aws.amazon.com/mediaconvert/latest/ug/cbr-vbr-qvbr.html#qvbr-guidelines"&gt;官方文档&lt;/a&gt; 中的介绍。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;整体设计架构：&lt;/h2&gt; 
-&lt;p&gt;为了进一步提升整体方案的自动化程度，以及对中间数据持久化，本方案中还使用到了 Amazon DynamoDB、AWS Lambda、Amazon SNS、Amazon API Gateway 服务。方案的整体架构如下图所示：&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/intelligent-editing-scheme-based-on-ai-technology2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/intelligent-editing-scheme-based-on-ai-technology2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p style="text-align: center"&gt;方案架构图&lt;/p&gt; 
-&lt;p&gt;方案中使用了如下服务：&lt;/p&gt; 
-&lt;ol&gt; 
- &lt;li&gt;&lt;a href="https://aws.amazon.com/cn/rekognition/"&gt;Amazon Rekognition&lt;/a&gt;：图像和视频分析服务；&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://aws.amazon.com/cn/mediaconvert/"&gt;Amazon Elemental MediaConvert&lt;/a&gt;：具有广播级功能的基于文件的视频转码服务；&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://aws.amazon.com/cn/api-gateway/"&gt;Amazon API Gateway&lt;/a&gt;：一种完全托管的服务，可以帮助开发人员轻松创建、发布、维护、监控和保护任意规模的 API；&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://aws.amazon.com/cn/lambda/"&gt;Amazon Lambda&lt;/a&gt;：一种无服务器的计算服务，让您无需预置或管理服务器、创建可感知工作负载的集群扩展逻辑、维护事件集成或管理运行时，即可运行代码；&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://aws.amazon.com/cn/dynamodb/"&gt;Amazon DynamoDB&lt;/a&gt;：是一个键/值和文档数据库，可以在任何规模的环境中提供个位数的毫秒级性能；&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://aws.amazon.com/cn/s3/"&gt;Amazon S3&lt;/a&gt;：对象存储服务，提供行业领先的可扩展性、数据可用性、安全性和性能；&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://aws.amazon.com/cn/cloudfront/"&gt;Amazon CloudFront&lt;/a&gt;：快速内容分发网络 (CDN) 服务，可以安全地以低延迟和高传输速度向全球客户分发数据、视频、应用程序和 API；&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://aws.amazon.com/cn/sns/"&gt;Amazon SNS&lt;/a&gt;：一项用于应用与应用之间 (A2A) 以及应用与人之间 (A2P) 通信的完全托管型消息收发服务。&lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;p&gt;方案通过 Amazon API Gateway 对外暴露 3 个 REST API：collection-create、faces-search、video-clip。&lt;/p&gt; 
-&lt;p&gt;3 个 API 分别对应后端的 3 个 Amazon Lambda 函数。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;Collection：创建 collection，并从指定的 S3 目录中读取照片，将照片中的人脸信息逐一添加到 collection，以照片的文件名作为人脸信息的 ExternalImageId。需调用 Rekognition 服务的 create_collection 和 index_faces API。&lt;/li&gt; 
- &lt;li&gt;Faces Search：根据指定的 collectionid，对保存在 S3 存储桶中的视频文件进行人脸检索。需调用 Rekognition 服务的 start_face_search API。&lt;/li&gt; 
- &lt;li&gt;Media Clipping：创建 MediaConvert Job，按照指定的 ExternalImageId 合成剪辑后的视频。需调用 MediaConvert 服务的 create_job API&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;如之前所描述的，在调用 start_face_search API 时处理时间较长，一方面需要注意将 Lambda 函数的处理时间适当增加（例如：1分钟），另一方面需要进行自动化的设置以便触发下一步的 Lambda 函数。在自动化设置方面，start_face_search API 支持设置 SNS topic，当作业完成后直接发送消息给对应的 SNS topic，通过这个 topic 触发下一步的操作。以 python 为例，调用 start_face_search API 注意进行如下设置：&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-powershell"&gt;reko_client.start_face_search(
-        Video={
-            'S3Object': {
-                'Bucket': BUCKET,
-                'Name': OBJECT
-            }
-        },
-        CollectionId=collectionId,
-        NotificationChannel={
-            'SNSTopicArn': snsTopic,
-            'RoleArn': roleARN
-        }
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;Lambda 函数 Result Save 被 SNS topic 触发，根据 NextToken 循环调用 Rekognition 的 get_face_search API 获取完整的 face_search 结果，并生成 JSON 文件保存到 S3 存储桶。&lt;/p&gt; 
-&lt;p&gt;上述过程中所生成的 collectionid、jobid 等中间信息均保存在 DynamoDB Table 中。在方案架构图中显示有两个 DynamoDB Table，一个用于保存 collection 信息，另一个用于保存 face_search 的结果信息。您也可以根据自己的需要进行设置。&lt;/p&gt; 
-&lt;p&gt;最后，剪辑好的视频会保存在 S3 存储桶中。为了进一步降低方案的整体成本，剪辑好的视频会通过 cloudfront 进行下载（这将降低在云上产生的流量成本）。在向 S3 存储桶中保存视频时会产生一个事件，这个事件会触发负责通知的 Lambda 函数，生成下载视频时所需要用到的 cloudfront 链接，并向 SNS topic 发送消息，通过 SNS 向订阅者发送 email 进行通知。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;总结：&lt;/h2&gt; 
-&lt;p&gt;本文描述了一种基于 AI 技术，针对人脸信息对视频文件进行智能剪辑的方案。在使用该方案时，您可以：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;无需部署服务器资源，整个方案使用 Amazon Web Services 托管服务；&lt;/li&gt; 
- &lt;li&gt;利用 AI 技术，自动识别目标任务；&lt;/li&gt; 
- &lt;li&gt;无需准备海量训练样本，无需掌握复杂的机器学习技能。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;如您希望了解该方案原型的部署细节，可以从&lt;a href="https://github.com/weiping-bj/Smart-Cutting-using-AWS"&gt;这里&lt;/a&gt;获得方案源代码及架构详细说明。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/lweiping.jpg" width="125" /&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;刘伟平&lt;/h3&gt; 
-  &lt;p&gt;AWS APN 合作伙伴解决方案架构师，主要负责 AWS (中国)合作伙伴的技术支持工作，同时致力于 AWS 云服务在国内的应用及推广。加入 AWS 前，在 HP（HPE）服务超过7年，历任存储售前工程师、电信行业售前工程师、NFV 解决方案架构师，熟悉传统企业 IT 架构、私有云及混合云部署。&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
 										</item>

@@ -7,7 +7,7 @@
 	<title type="text">財團法人台灣網路資訊中心部落格 | TWNIC Blog</title>
 	<subtitle type="text">悠遊寰宇、在地識別</subtitle>
 
-	<updated>2021-09-01T01:13:15Z</updated>
+	<updated>2021-09-01T03:34:49Z</updated>
 
 	<link rel="alternate" type="text/html" href="https://blog.twnic.tw" />
 	<id>https://blog.twnic.tw/feed/atom/</id>
@@ -16,6 +16,45 @@
 	<generator uri="https://wordpress.org/" version="5.6.4">WordPress</generator>
 <icon>https://blog.twnic.tw/wp-content/uploads/2020/04/cropped-favicon-2-32x32.png</icon>
 	<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[.au禁止使用者註冊奧運相關域名]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/02/19604/" />
+
+		<id>https://blog.twnic.tw/?p=19604</id>
+		<updated>2021-08-18T00:00:55Z</updated>
+		<published>2021-09-01T23:58:31Z</published>
+		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term=".AU" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0819-0823_au禁止使用者註冊奧運相關域名-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>國際奧林匹克委員會於2021年7月21日宣布，2032年的奧運將於澳洲布里斯本舉行，一週之後，澳洲國碼頂級域名（ccTLD）註冊管理機構auDA隨即發表部落格文章，要求使用者停止註冊與奧運相關的域名，因為這些域名將無法使用。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/02/19604/">.au禁止使用者註冊奧運相關域名</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/02/19604/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0819-0823_au禁止使用者註冊奧運相關域名-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">國際奧林匹克委員會（International Olympic Committee，簡稱國際奧會）於2021年7月21日宣布，2032年的奧運將於澳洲布里斯本（Brisbane）舉行，一週之後，澳洲國碼頂級域名（Country code top-level domain，ccTLD）註冊管理機構auDA隨即發表部落格文章，要求使用者停止註冊與奧運相關的域名，因為這些域名將無法使用。</span></p>
+<p><span style="font-weight: 400;">auDA在該篇文章中提到，自從國際奧會宣布此項消息之後，便湧入多筆註冊包含「olympics」或相關變形字的域名，然而這些字串均被列入auDA 的保留清單當中，只有澳洲奧委會（Australian Olympic Committee，AOC）才能使用，其他人在未經政府許可的情況下，即使是做為域名的子字串也不被允許。</span></p>
+<p><span style="font-weight: 400;">依據.au的授權規則第2.6條，基於下列三個主要原因會將域名列入保留清單： </span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">包含澳洲法律限制或禁止的單詞、單詞的縮寫，或是由多個單詞首字元組成的縮寫。</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">包含澳洲或其領土的名稱或縮寫，包括「Australia」一詞。</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">可能會對.au及全球域名系統的安全、穩定與完整性構成威脅。</span></li>
+</ol>
+<p><span style="font-weight: 400;">澳洲於1987年公布的《奧林匹克徽章保護法》（Olympic Insignia Protection Act），限制基於商業目的註冊域名，其中包括以下文字：Olympic、Olympics、Olympic Games、Olympiad，以及Olympiads。就奧運會而言，AOC是唯一可以自由註冊「olympics」相關.au域名的組織，讓公眾確信他們正在與一個值得信賴的官方奧運資訊來源互動。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Kevin Murphy (2021). Olympics: Australia preemptively blocking Brisbane 2032 regs. DOMAIN INCITE.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="http://domainincite.com/26900-olympics-australia-preemptively-blocking-brisbane-2032-regs" target="_blank" rel="noopener"><span style="font-weight: 400;">http://domainincite.com/26900-olympics-australia-preemptively-blocking-brisbane-2032-regs</span></a><span style="font-weight: 400;"> (Aug. 6, 2021)</span></p>
+<p><span style="font-weight: 400;">auDA (2021). .au reserved names… why can&#8217;t I register that domain name? auDA.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://www.auda.org.au/blog/au-reserved-names-why-cant-i-register-domain-name" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.auda.org.au/blog/au-reserved-names-why-cant-i-register-domain-name</span></a><span style="font-weight: 400;"> (Aug. 6, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/02/19604/">.au禁止使用者註冊奧運相關域名</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/02/19604/#comments" thr:count="0"/>
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/02/19604/feed/atom/" thr:count="0"/>
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
 		<author>
 			<name>國際瞭望</name>
 					</author>
@@ -142,7 +181,7 @@
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/31/19826/" />
 
 		<id>https://blog.twnic.tw/?p=19826</id>
-		<updated>2021-09-01T01:13:15Z</updated>
+		<updated>2021-09-01T03:34:49Z</updated>
 		<published>2021-08-31T07:46:56Z</published>
 		<category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="IPv6" /><category scheme="https://blog.twnic.tw" term="OPM" />
 		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/Banner-1280-720-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>會議議題將包含網路管轄權、網際安全、網路資源管理及國內業者IPv6經驗分享等主題，並邀請國內外重量級嘉賓進行專題演講，介紹網際網路重要議題之發展。</p>
@@ -152,7 +191,7 @@
 					<content type="html" xml:base="https://blog.twnic.tw/2021/08/31/19826/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/Banner-1280-720-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">為提供臺灣網路界一個可以討論IP網路技術相關議題的社群與機制平台，TWNIC將於10月06日線上舉辦 「第36屆TWNIC IP政策資源管理會議」。</span></p>
 <p><span style="font-size: 14pt;">本會議希望促進網際網路相關產業發展為目標之會議，提供各界有關網路技術研究、產業發展之溝通交流平台，彙集臺灣地區各ISP業者之意見提供相關IP政策及管理機制。</span></p>
 <p><span style="font-size: 14pt;">本次會議議題將包含網路管轄權、網際安全、網路資源管理及國內業者IPv6經驗分享等主題，並邀請國內外重量級嘉賓進行專題演講，介紹網際網路重要議題之發展。</span></p>
-<p>&nbsp;</p>
+<p><span style="font-size: 14pt;">本會議系列活動場場精彩可期，意者請儘速報名。欲報名及瞭解詳細議程內容，請上活動網址：<a href="https://opm.twnic.tw/36th/" target="_blank" rel="noopener">https://opm.twnic.tw/36th/</a></span></p>
 <ul>
 <li><span style="font-size: 14pt;">活動日期：2021年10月06日</span></li>
 <li><span style="font-size: 14pt;">活動地點：YouTube線上直播</span></li>
@@ -2354,41 +2393,6 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 		
 					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/02/19512/#comments" thr:count="0"/>
 			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/02/19512/feed/atom/" thr:count="0"/>
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[A4AI發布「永續網路近用報告」]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/02/19278/" />
-
-		<id>https://blog.twnic.tw/?p=19278</id>
-		<updated>2021-08-06T03:03:05Z</updated>
-		<published>2021-08-01T23:59:51Z</published>
-		<category scheme="https://blog.twnic.tw" term="發展" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="A4AI" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/A4AI發布「永續網路近用報告」-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>可負擔網路聯盟（A4AI）於2021年6月22日發布「永續網路近用報告」，分析了政府單位如何將氣候問題納入其寬頻政策，並審視不作為的後果，同時對於如何打造更環保的網路提出政策建議。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/02/19278/">A4AI發布「永續網路近用報告」</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/02/19278/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/A4AI發布「永續網路近用報告」-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>目前世界上仍有將近一半的人口無法使用網路，如何讓這群人能夠順利連上網路固然是一項重責大任，但是，我們是否同時思考過其背後所隱藏的環境成本，例如：將產生多少碳足跡？對於全球氣候又會造成什麼樣的影響？</p>
-<p>可負擔網路聯盟（Alliance for Affordable Internet，A4AI）於2021年6月22日發布「永續網路近用報告」（Sustainable Access Report），分析了政府單位如何將氣候問題納入其寬頻政策，並審視不作為的後果，同時對於如何打造更環保的網路提出政策建議，內容涵蓋新基礎建設的建構、營運及使用。</p>
-<ul>
-<li><strong>建構：</strong>網路建設對於解決數位落差至關重要，特別是在農村及偏鄉，然而，用於提供網路建設的工具及技術將決定這項基礎建設對於環境的整體影響。</li>
-<li><strong>營運：</strong>當基礎建設完工後，網路的營運便成為金融與環境永續性的問題，並行基礎設施（parallel infrastructure，例如電網）的可用性也相當重要。</li>
-<li><strong>使用：</strong>透過消除網路使用的社會障礙，例如：阻礙婦女及女童使用網路的性別規範，政策制定者可以調整評估網路碳足跡與每位網路使用者碳足跡規模之間的平衡。</li>
-</ul>
-<p>A4AI透過「永續網路近用報告」向社會傳遞：某些政策決定將有助於打造更環保的網路，今天我們所做的選擇，將影響未來十年的網路。點選<a href="https://docs.google.com/document/d/13RtZZ3DLNaDFhefBTGUECDMunGvZ3B_RnoamMCBc3Gg/edit">此連結</a>即可閱讀完整版報告。</p>
-<p>相關連結：</p>
-<p>Alliance for Affordable Internet[A4AI] (2021). Report: Sustainable, Universal Access to the Internet. A4AI.</p>
-<p>檢自：</p>
-<p><a href="https://a4ai.org/research/sustainable-access-report/">https://a4ai.org/research/sustainable-access-report/</a> (Jul. 9, 2021)</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/02/19278/">A4AI發布「永續網路近用報告」</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/02/19278/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/02/19278/feed/atom/" thr:count="0"/>
 			<thr:total>0</thr:total>
 			</entry>
 	</feed>

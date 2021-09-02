@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Cloud Status Dashboard Updates</title>
-  <updated>2021-09-01T00:18:30+00:00</updated>
+  <updated>2021-09-01T20:44:36+00:00</updated>
   <link href="https://status.cloud.google.com/" rel="alternate" type="text/html"></link>
   <link href="https://status.cloud.google.com/en/feed.atom" rel="self"></link>
   <author>
@@ -9,113 +9,30 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
-    <title>RESOLVED: Global: Dataflow Streaming jobs that interact with PubSub are experiencing failures.</title>
-    <link href="https://status.cloud.google.com/incidents/sBT6tcw8bxRArf6Jw19o" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:sBT6tcw8bxRArf6Jw19o.1CqDguwcLFyxsTRMPZDC</id>
-    <updated>2021-09-01T00:18:30+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-31 11:30&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-31 13:16&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Global: Dataflow Streaming jobs that interact with PubSub experienced failures.&lt;/p&gt;
-&lt;p&gt;The issue with Cloud Dataflow has been resolved for all affected users as of Tuesday, 2021-08-31 13:22 US/Pacific.&lt;/p&gt;
-&lt;p&gt;For more information, please follow: &lt;a href="https://status.cloud.google.com/incidents/5yL8cbrpS3ssbYjRZQJv"&gt;https://status.cloud.google.com/incidents/5yL8cbrpS3ssbYjRZQJv&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: Global: Dataflow Streaming jobs that interact with PubSub are experiencing failures.</title>
-    <link href="https://status.cloud.google.com/incidents/sBT6tcw8bxRArf6Jw19o" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:sBT6tcw8bxRArf6Jw19o.Bm2ZNyzw18ivgS7yg9kd</id>
-    <updated>2021-09-01T00:16:59+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-31 11:30&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-31 13:16&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Global: Dataflow Streaming jobs that interact with PubSub are experiencing failures.&lt;/p&gt;
-&lt;p&gt;Description: We are experiencing an issue with Cloud Dataflow beginning at Tuesday, 2021-08-31 11:30 US/Pacific. Our engineering team continues to investigate the issue.&lt;/p&gt;
-&lt;p&gt;For regular status updates, please follow: &lt;a href="https://status.cloud.google.com/incidents/5yL8cbrpS3ssbYjRZQJv"&gt;https://status.cloud.google.com/incidents/5yL8cbrpS3ssbYjRZQJv&lt;/a&gt; where we will provide the next update by Tuesday, 2021-08-31 13:30 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Diagnosis: Customers will experience lagging jobs/watermarks and failure in subscription creation.&lt;/p&gt;
-&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Dataflow&lt;/p&gt;</summary>
-  </entry><entry>
     <title>RESOLVED: Global: Cloud Pubsub experiencing elevated latencies and failures.</title>
     <link href="https://status.cloud.google.com/incidents/5yL8cbrpS3ssbYjRZQJv" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:5yL8cbrpS3ssbYjRZQJv.kamRj87b85bANiusUq3A</id>
-    <updated>2021-08-31T21:17:17+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-31 11:59&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-31 14:17&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud Pub/Sub, Cloud Functions, and Dataflow has been resolved for all affected projects as of Tuesday, 2021-08-31 14:09 US/Pacific, 13:02 US/Pacific, and 13:16 US/Pacific respectively.&lt;/p&gt;
-&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Pub/Sub&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: Global: Cloud Pubsub experiencing elevated latencies and failures.</title>
-    <link href="https://status.cloud.google.com/incidents/5yL8cbrpS3ssbYjRZQJv" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:5yL8cbrpS3ssbYjRZQJv.gAto8V4igpVZrV7LyAVB</id>
-    <updated>2021-08-31T21:01:39+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-31 11:59&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-31 14:17&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Global: Cloud Pubsub experiencing elevated latencies and failures.&lt;/p&gt;
-&lt;p&gt;Description: The issue with Cloud Functions and Dataflow are now resolved and mitigation work is currently underway by our engineering team for Cloud Pub/Sub.&lt;/p&gt;
-&lt;p&gt;The mitigation is expected to complete by Tuesday, 2021-08-31 15:30 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Cloud Pub/Sub:&lt;/p&gt;
+    <id>tag:status.cloud.google.com,2021:feed:5yL8cbrpS3ssbYjRZQJv.SjW45Sd4xHE9xAtQrmFg</id>
+    <updated>2021-09-01T20:44:36+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-31 11:32&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-31 14:09&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case using &lt;a href="https://cloud.google.com/support"&gt;https://cloud.google.com/support&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(All Times US/Pacific)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 31 August 2021 11:32&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 31 August 2021 14:09&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 2 hours, 37 minutes&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Affected Services and Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Impact is ongoing&lt;/li&gt;
-&lt;li&gt;Customers may experience latencies creating subscriptions.&lt;/li&gt;
-&lt;li&gt;Customers are unavailable to lookup their backlog data.&lt;/li&gt;
+&lt;li&gt;Google Cloud Pubsub - AdminOperation CreateSubscription, Backlog Stats Lookup (how many messages are in the queue to be received and acknowledged, how old is the oldest unacknowledged message)&lt;/li&gt;
+&lt;li&gt;Google Cloud Functions - Deployments&lt;/li&gt;
+&lt;li&gt;Google Cloud Dataflow - Jobs and Watermarks&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Cloud Functions:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Regions/Zones:&lt;/strong&gt; Global&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;
+Google Cloud Pubsub experienced problems creating new subscriptions and viewing backlog statistics for a period of 2 hours and 37 minutes.  The Pubsub issue also caused issues with Google Cloud Functions deployments and affected related Google Cloud Dataflow streaming jobs and watermarks. From preliminary analysis, the root cause of the issue was an unhealthy task in our Pubsub change notification system that created a feedback loop with increased errors on backlog stats which scaled up more tasks and put more load on our Pubsub change notification system.   Google Cloud Dataflow Streaming jobs that interact with PubSub were stalled due to the dependency of those jobs on Backlog Stats which are required to calculate the watermark.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Customer Impact:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Impact resolved and customers should no longer experience errors with deployments&lt;/li&gt;
+&lt;li&gt;Google Cloud Pubsub - Users experienced latencies creating subscriptions and viewing their backlog status data such as how many messages they have in the queue to be received and acknowledged and how old is the oldest unacknowledged message)&lt;/li&gt;
+&lt;li&gt;Google Cloud Functions - Users experienced issues with deployments.&lt;/li&gt;
+&lt;li&gt;Google Cloud Dataflow - Streaming jobs that interact with PubSub stalled and experienced lagging watermarks.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Dataflow:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Impact resolved and customers should no longer experience issues with jobs.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you are still experiencing issues with Cloud Functions or Dataflow, please open a support case so we can work with you to resolve those issues.&lt;/p&gt;
-&lt;p&gt;We will provide more information by Tuesday, 2021-08-31 15:30 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Diagnosis: Customers could experience elevated latencies and failures  for Cloud Pub/Sub&lt;/p&gt;
-&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Pub/Sub&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: Global: Cloud Pubsub experiencing elevated latencies and failures.</title>
-    <link href="https://status.cloud.google.com/incidents/5yL8cbrpS3ssbYjRZQJv" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:5yL8cbrpS3ssbYjRZQJv.mj8TuSUnYTxRntpZxZCj</id>
-    <updated>2021-08-31T20:27:10+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-31 11:59&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-31 14:17&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Global: Cloud Pubsub, Cloud Functions and Cloud Dataflow experiencing elevated latencies and failures.&lt;/p&gt;
-&lt;p&gt;Description: The issue with Cloud Functions and Dataflow are now resolved and mitigation work is currently underway by our engineering team for Cloud Pub/Sub.&lt;/p&gt;
-&lt;p&gt;We do not have an ETA for Cloud Pub/Sub mitigation at this point.&lt;/p&gt;
-&lt;p&gt;Cloud Pub/Sub:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Impact is ongoing&lt;/li&gt;
-&lt;li&gt;Customers may experience latencies creating subscriptions.&lt;/li&gt;
-&lt;li&gt;Customers are unavailable to lookup their backlog data.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Cloud Functions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Impact resolved and customers should no longer experience errors with deployments&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Dataflow:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Impact resolved and customers should no longer experience issues with jobs.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you are still experiencing issues with Cloud Functions or Dataflow, please open a support case so we can work with you to resolve those issues.&lt;/p&gt;
-&lt;p&gt;We will provide more information by Tuesday, 2021-08-31 14:30 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Diagnosis: Customers could experience elevated latencies and failures  for Cloud Pub/Sub&lt;/p&gt;
-&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Pub/Sub&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: Global: Cloud Pubsub experiencing elevated latencies and failures.</title>
-    <link href="https://status.cloud.google.com/incidents/5yL8cbrpS3ssbYjRZQJv" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:5yL8cbrpS3ssbYjRZQJv.qLMA9swNonsZk3Mw3kG6</id>
-    <updated>2021-08-31T19:58:35+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-31 11:59&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-31 14:17&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Global: Cloud Pubsub, Cloud Functions and Cloud Dataflow experiencing elevated latencies and failures.&lt;/p&gt;
-&lt;p&gt;Description: We are experiencing an issue with Cloud Pub/Sub, Cloud Functions and Cloud Dataflow beginning at Tuesday, 2021-08-31 11:30 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Cloud Pub/Sub:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Customers may experience latencies creating subscriptions.&lt;/li&gt;
-&lt;li&gt;Customers are unavailable to lookup their backlog data.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Cloud Functions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Users are experiencing errors with deployment&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Dataflow:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Customers may experience lagging jobs/watermarks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
-&lt;p&gt;We will provide an update by Tuesday, 2021-08-31 13:30 US/Pacific with current details.&lt;/p&gt;
-&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
-&lt;p&gt;Diagnosis: Customers could experience elevated latencies and failures  for Cloud Pub/Sub, Cloud Functions and Dataflow jobs.&lt;/p&gt;
-&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Pub/Sub&lt;/p&gt;</summary>
   </entry>
 </feed>

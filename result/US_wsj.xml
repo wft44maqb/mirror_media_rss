@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 01 Sep 2021 05:10:28 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Sep 2021 05:26:02 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 01 Sep 2021 05:10:28 GMT</pubDate>
+        <pubDate>Thu, 02 Sep 2021 05:26:02 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -28,95 +28,102 @@
         <category><![CDATA[華爾街日報中文網]]></category>
         <category><![CDATA[Wall Street Journal]]></category>
         <item>
-            <title><![CDATA[網絡遊戲新規表明中國將監管私人生活、塑造下一代]]></title>
+            <title><![CDATA[蘋果公司將允許Spotify和其他媒體應用使用第三方支付選項]]></title>
+            <description><![CDATA[<img width="1280" height="852" src="https://si.wsj.net/public/resources/images/S1-LV108_APPSTO_OR_20210901214133.jpg" class="webfeedsFeaturedVisual" alt=""/><p>蘋果公司表示，將允許媒體應用創建應用內連結、連至這些公司網站的註冊頁面。這實際上使Spotify和Netflix等公司能夠繞過這家iPhone生產商的訂閱抽成。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E8%98%8B%E6%9E%9C%E5%85%AC%E5%8F%B8%E5%B0%87%E5%85%81%E8%A8%B1spotify%E5%92%8C%E5%85%B6%E4%BB%96%E5%AA%92%E9%AB%94%E6%87%89%E7%94%A8%E4%BD%BF%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9%E6%94%AF%E4%BB%98%E9%81%B8%E9%A0%85-11630548008</link>
+            <guid isPermaLink="false">CT-TEC-20210902094203</guid>
+            <pubDate>Thu, 02 Sep 2021 04:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中國媒體將兩名加拿大人被控刺探國家秘密的兩起案件聯繫起來]]></title>
+            <description><![CDATA[<img width="1280" height="879" src="https://si.wsj.net/public/resources/images/S1-LU941_CSECRE_OR_20210901160342.jpg" class="webfeedsFeaturedVisual" alt=""/><p>《環球時報》報導，兩名因間諜罪被關押在中國的加拿大人之間存在關聯，其中一人曾拍攝中國軍事裝備的照片並分享給另一人。相關案件對中加兩國關係至關重要。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E5%AA%92%E9%AB%94%E5%B0%87%E5%85%A9%E5%90%8D%E5%8A%A0%E6%8B%BF%E5%A4%A7%E4%BA%BA%E8%A2%AB%E6%8E%A7%E5%88%BA%E6%8E%A2%E5%9C%8B%E5%AE%B6%E7%A7%98%E5%AF%86%E7%9A%84%E5%85%A9%E8%B5%B7%E6%A1%88%E4%BB%B6%E8%81%AF%E7%B9%AB%E8%B5%B7%E4%BE%86-11630550706</link>
+            <guid isPermaLink="false">CT-BCH-20210902102454</guid>
+            <pubDate>Thu, 02 Sep 2021 03:15:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新冠疫情致澳門博彩收入持續下滑]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LT720_MACAUC_OR_20210829164721.jpg" class="webfeedsFeaturedVisual" alt=""/><p>8月份澳門博彩業總收入是今年以來的最低月度總額，與疫情前月度平均水平相去甚遠。澳門賭場仍等待遊客大規模重返這座城市。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%96%B0%E5%86%A0%E7%96%AB%E6%83%85%E8%87%B4%E6%BE%B3%E9%96%80%E5%8D%9A%E5%BD%A9%E6%94%B6%E5%85%A5%E6%8C%81%E7%BA%8C%E4%B8%8B%E6%BB%91-11630495633</link>
+            <guid isPermaLink="false">CT-BIZ-20210901191414</guid>
+            <pubDate>Thu, 02 Sep 2021 03:10:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[監管行動數月後，貴州茅台將迎來新董事長]]></title>
+            <description><![CDATA[<img width="1280" height="922" src="https://si.wsj.net/public/resources/images/S1-LU701_MOUTAI_OR_20210901075913.jpg" class="webfeedsFeaturedVisual" alt=""/><p>八個月前，貴州茅台現任董事長高衛東因不當披露銷售預期而被監管機構予以監管關注。接替他的將是另一位貴州官員。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E7%9B%A3%E7%AE%A1%E8%A1%8C%E5%8B%95%E6%95%B8%E6%9C%88%E5%BE%8C%EF%BC%8C%E8%B2%B4%E5%B7%9E%E8%8C%85%E5%8F%B0%E5%B0%87%E8%BF%8E%E4%BE%86%E6%96%B0%E8%91%A3%E4%BA%8B%E9%95%B7-11630548011</link>
+            <guid isPermaLink="false">CT-BIZ-20210902093959</guid>
+            <pubDate>Thu, 02 Sep 2021 02:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中國網游新規釋放信號：政府將監管私人生活、塑造下一代]]></title>
             <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LU390_XIYOUT_OR_20210831130703.jpg" class="webfeedsFeaturedVisual" alt=""/><p>新出台的網絡遊戲規定，加上此前針對粉絲文化、「娘炮」流行文化以及營利性教培服務的行動，都清楚地表明中共打算以數十年來從未有過的程度介入中國民眾的私人生活、更積極地塑造下一代中國人。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E7%B6%B2%E7%B5%A1%E9%81%8A%E6%88%B2%E6%96%B0%E8%A6%8F%E8%A1%A8%E6%98%8E%E4%B8%AD%E5%9C%8B%E5%B0%87%E7%9B%A3%E7%AE%A1%E7%A7%81%E4%BA%BA%E7%94%9F%E6%B4%BB%E3%80%81%E5%A1%91%E9%80%A0%E4%B8%8B%E4%B8%80%E4%BB%A3-11630468807</link>
             <guid isPermaLink="false">CT-BCH-20210901113841</guid>
-            <pubDate>Wed, 01 Sep 2021 04:30:00 GMT</pubDate>
+            <pubDate>Thu, 02 Sep 2021 03:10:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[財新8月中國製造業PMI降至49.2，為去年4月以來首次萎縮]]></title>
-            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-GY255_0731ch_G_20200731005031.jpg" class="webfeedsFeaturedVisual" alt=""/><p>生產指數、新訂單指數和新出口訂單指數悉數落入榮枯線之下，尤其是生產自2020年3月以來首次萎縮。與此同時，通脹壓力仍較大。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E8%B2%A1%E6%96%B08%E6%9C%88%E4%B8%AD%E5%9C%8B%E8%A3%BD%E9%80%A0%E6%A5%ADpmi%E9%99%8D%E8%87%B349-2%EF%BC%8C%E7%82%BA%E5%8E%BB%E5%B9%B44%E6%9C%88%E4%BB%A5%E4%BE%86%E9%A6%96%E6%AC%A1%E8%90%8E%E7%B8%AE-11630465033</link>
-            <guid isPermaLink="false">CT-CEC-20210901104225</guid>
-            <pubDate>Wed, 01 Sep 2021 03:00:00 GMT</pubDate>
+            <title><![CDATA[新冠病例激增重創亞洲製造業活動]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LU685_ASIAFA_OR_20210901064425.jpg" class="webfeedsFeaturedVisual" alt=""/><p>亞洲各地製造業活動勢頭在8月份減弱，新冠疫情反彈加劇了全球供應鏈困境，也印證了亞洲地區經濟復甦步伐放緩的擔憂。該地區製造業的持續困境可能導致鞋類和電子產品等消費品價格上漲。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%96%B0%E5%86%A0%E7%97%85%E4%BE%8B%E6%BF%80%E5%A2%9E%E9%87%8D%E5%89%B5%E4%BA%9E%E6%B4%B2%E8%A3%BD%E9%80%A0%E6%A5%AD%E6%B4%BB%E5%8B%95-11630557006</link>
+            <guid isPermaLink="false">CT-ECB-20210902120452</guid>
+            <pubDate>Thu, 02 Sep 2021 05:10:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[中國恆大部分項目停工，發布違約預警]]></title>
-            <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LU217_EVERCR_OR_20210831075134.jpg" class="webfeedsFeaturedVisual" alt=""/><p>資金情況緊張的中國恆大集團表示，在延遲支付供貨商和承包商款項後，本集團旗下部分房地產項目停工。由此可以看出，中國恆大的財務問題已影響到業務運營。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E6%81%86%E5%A4%A7%E9%83%A8%E5%88%86%E9%A0%85%E7%9B%AE%E5%81%9C%E5%B7%A5%EF%BC%8C%E7%99%BC%E5%B8%83%E9%81%95%E7%B4%84%E9%A0%90%E8%AD%A6-11630459204</link>
-            <guid isPermaLink="false">CT-BIZ-20210901090427</guid>
-            <pubDate>Wed, 01 Sep 2021 01:34:00 GMT</pubDate>
+            <title><![CDATA[塔利班與反對派民兵作戰，在喀布爾掌控新權力]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LU803_AFGHAN_OR_20210901114720.jpg" class="webfeedsFeaturedVisual" alt=""/><p>周三，在阿富汗北部和中部地區，塔利班和當地民兵武裝發生衝突。在美國結束在阿富汗近20年軍事行動的兩天後，該伊斯蘭組織繼續在阿富汗首都喀布爾鞏固其對權力的掌控。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%A1%94%E5%88%A9%E7%8F%AD%E8%88%87%E5%8F%8D%E5%B0%8D%E6%B4%BE%E6%B0%91%E5%85%B5%E4%BD%9C%E6%88%B0%EF%BC%8C%E5%9C%A8%E5%96%80%E5%B8%83%E7%88%BE%E6%8E%8C%E6%8E%A7%E6%96%B0%E6%AC%8A%E5%8A%9B-11630559105</link>
+            <guid isPermaLink="false">CT-BGH-20210902123748</guid>
+            <pubDate>Thu, 02 Sep 2021 05:10:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[中國住建部表示將努力實現全體人民住有所居]]></title>
-            <description><![CDATA[<img width="1242" height="810" src="https://si.wsj.net/public/resources/images/BN-NZ961_chousi_GR_20160512235301.jpg" class="webfeedsFeaturedVisual" alt=""/><p>這一表態響應了中國國家主席習近平兩周前提出的「共同富裕」行動。住建部表示要求城市住房租金年度漲幅不超過5%。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%B8%AD%E5%9C%8B%E4%BD%8F%E5%BB%BA%E9%83%A8%E8%A1%A8%E7%A4%BA%E5%B0%87%E5%8A%AA%E5%8A%9B%E5%AF%A6%E7%8F%BE%E5%85%A8%E9%AB%94%E4%BA%BA%E6%B0%91%E4%BD%8F%E6%9C%89%E6%89%80%E5%B1%85-11630453333</link>
-            <guid isPermaLink="false">CT-BCH-20210901072803</guid>
-            <pubDate>Wed, 01 Sep 2021 01:02:00 GMT</pubDate>
+            <title><![CDATA[拜登會晤澤連斯基，討論能源、俄羅斯和烏克蘭未來與西方關係等問題]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LU874_USUKRA_OR_20210901142710.jpg" class="webfeedsFeaturedVisual" alt=""/><p>拜登和烏克蘭總統澤連斯基討論了雙邊關係、烏俄摩擦以及烏克蘭加入西方的願望。此次會晤的背景是拜登政府此前決定不阻止北溪2號管道的建設。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%8B%9C%E7%99%BB%E6%9C%83%E6%99%A4%E6%BE%A4%E9%80%A3%E6%96%AF%E5%9F%BA%EF%BC%8C%E8%A8%8E%E8%AB%96%E8%83%BD%E6%BA%90%E3%80%81%E4%BF%84%E7%BE%85%E6%96%AF%E5%92%8C%E7%83%8F%E5%85%8B%E8%98%AD%E6%9C%AA%E4%BE%86%E8%88%87%E8%A5%BF%E6%96%B9%E9%97%9C%E4%BF%82%E7%AD%89%E5%95%8F%E9%A1%8C-11630553706</link>
+            <guid isPermaLink="false">CT-BGH-20210902112339</guid>
+            <pubDate>Thu, 02 Sep 2021 04:30:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[商界人士稱嚴格隔離政策恐危及香港金融中心地位]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LT118_0827hk_OR_20210827020106.jpg" class="webfeedsFeaturedVisual" alt=""/><p>為了保持本地新冠病例「零確診」，香港要求大多數來自海外的入境者必須在酒店接受長達三周的隔離。這一策略正在奏效，但招致香港商界團體的批評。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%95%86%E7%95%8C%E4%BA%BA%E5%A3%AB%E7%A8%B1%E5%9A%B4%E6%A0%BC%E9%9A%94%E9%9B%A2%E6%94%BF%E7%AD%96%E6%81%90%E5%8D%B1%E5%8F%8A%E9%A6%99%E6%B8%AF%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%9C%B0%E4%BD%8D-11630315207</link>
-            <guid isPermaLink="false">CT-BCH-20210830165620</guid>
-            <pubDate>Mon, 30 Aug 2021 10:00:00 GMT</pubDate>
+            <title><![CDATA[北韓拒絕了Covax提供的科興新冠疫苗]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LU683_NKVAX_OR_20210901062632.jpg" class="webfeedsFeaturedVisual" alt=""/><p>北韓已經拒絕了由新冠疫苗全球獲取機制提供的大約300萬劑科興疫苗，並表示應將這些疫苗送往疫情更嚴重的國家。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%8C%97%E9%9F%93%E6%8B%92%E7%B5%95%E4%BA%86covax%E6%8F%90%E4%BE%9B%E7%9A%84%E7%A7%91%E8%88%88%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97-11630539605</link>
+            <guid isPermaLink="false">CT-BGH-20210902072348</guid>
+            <pubDate>Thu, 02 Sep 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[塔利班慶祝美國撤離阿富汗，拜登為撤軍辯護]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LU498_BIDENA_OR_20210831160245.jpg" class="webfeedsFeaturedVisual" alt=""/><p>周二，塔利班武裝人員及其支持者在阿富汗各地舉行集會，慶祝持續了20年的外國軍事存在的終結。而在華盛頓，美國總統拜登為他結束阿富汗戰爭的決定以及撤僑撤軍行動進行了辯護。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%A1%94%E5%88%A9%E7%8F%AD%E6%85%B6%E7%A5%9D%E7%BE%8E%E5%9C%8B%E6%92%A4%E9%9B%A2%E9%98%BF%E5%AF%8C%E6%B1%97%EF%BC%8C%E6%8B%9C%E7%99%BB%E7%82%BA%E6%92%A4%E8%BB%8D%E8%BE%AF%E8%AD%B7-11630466107</link>
-            <guid isPermaLink="false">CT-BGH-20210901110208</guid>
-            <pubDate>Wed, 01 Sep 2021 03:55:00 GMT</pubDate>
+            <title><![CDATA[Apple Watch計劃推出血壓檢測和手腕溫度計功能]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LU487_APPLEW_OR_20210831155314.jpg" class="webfeedsFeaturedVisual" alt=""/><p>據消息人士和公司內部文件透露，蘋果公司正在為其智能手錶開發與健康有關的新功能，包括一個告訴用戶他們的血壓升高的工具和一個協助生育計劃的溫度計。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%B6%88%E6%81%AF%E4%BA%BA%E5%A3%AB%E7%A8%B1%E8%98%8B%E6%9E%9C%E6%99%BA%E8%83%BD%E6%89%8B%E9%8C%B6%E8%A8%88%E5%8A%83%E6%8E%A8%E5%87%BA%E8%A1%80%E5%A3%93%E6%AA%A2%E6%B8%AC%E5%92%8C%E6%89%8B%E8%85%95%E6%BA%AB%E5%BA%A6%E8%A8%88%E5%8A%9F%E8%83%BD-11630540205</link>
+            <guid isPermaLink="false">CT-TEC-20210902073412</guid>
+            <pubDate>Thu, 02 Sep 2021 00:35:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[韓國新規開世界先河，Google蘋果應用商店支付壟斷恐被打破]]></title>
-            <description><![CDATA[<img width="1280" height="874" src="https://si.wsj.net/public/resources/images/S1-LU159_0831sk_OR_20210830231731.jpg" class="webfeedsFeaturedVisual" alt=""/><p>根據韓國國民議會周二通過的一項法案，Google和蘋果公司在韓國將不得不向其他支付系統開放其應用商店，兩家公司在數字產品銷售方面有利可圖的佣金收入受到威脅。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E9%9F%93%E5%9C%8B%E6%B3%95%E5%BE%8B%E9%96%8B%E4%B8%96%E7%95%8C%E5%85%88%E6%B2%B3%EF%BC%8C%E7%B5%82%E7%B5%90Google%E5%92%8C%E8%98%8B%E6%9E%9C%E5%85%AC%E5%8F%B8%E5%B0%8D%E6%87%89%E7%94%A8%E5%95%86%E5%BA%97%E7%9A%84%E4%B8%BB%E5%B0%8E-11630408507</link>
-            <guid isPermaLink="false">CT-TEC-20210831185523</guid>
-            <pubDate>Wed, 01 Sep 2021 04:41:00 GMT</pubDate>
+            <title><![CDATA[歐佩克+決定按計劃逐步提高石油產量，未理美國施壓]]></title>
+            <description><![CDATA[<img width="1280" height="852" src="https://si.wsj.net/public/resources/images/S1-LU677_OPEC09_OR_20210901053823.jpg" class="webfeedsFeaturedVisual" alt=""/><p>在周三的一場在線會議上，歐佩克和俄羅斯產油國聯盟選擇按計劃繼續逐步提高產量，暫時抗拒了美國要求該組織更大幅度提高產量的施壓。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%AD%90%E4%BD%A9%E5%85%8B+%E6%B1%BA%E5%AE%9A%E6%8C%89%E8%A8%88%E5%8A%83%E9%80%90%E6%AD%A5%E6%8F%90%E9%AB%98%E7%9F%B3%E6%B2%B9%E7%94%A2%E9%87%8F%EF%BC%8C%E6%9C%AA%E7%90%86%E7%BE%8E%E5%9C%8B%E6%96%BD%E5%A3%93-11630541405</link>
+            <guid isPermaLink="false">CT-FIN-20210902075743</guid>
+            <pubDate>Thu, 02 Sep 2021 00:30:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[美國6月住房價格漲幅升至新紀錄]]></title>
-            <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LU215_CASESH_OR_20210831074307.jpg" class="webfeedsFeaturedVisual" alt=""/><p>由於強勁的需求繼續超過市場上的房屋數量，美國6月份房價漲幅攀升至新紀錄。標普CoreLogic Case-Shiller全國房價指數在截至6月底的一年中上漲了18.6%，高於前一個月16.8%的漲幅。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B6%E6%9C%88%E4%BD%8F%E6%88%BF%E5%83%B9%E6%A0%BC%E6%BC%B2%E5%B9%85%E5%8D%87%E8%87%B3%E6%96%B0%E7%B4%80%E9%8C%84-11630455604</link>
-            <guid isPermaLink="false">CT-ECB-20210901075815</guid>
-            <pubDate>Wed, 01 Sep 2021 00:30:00 GMT</pubDate>
+            <title><![CDATA[亞馬遜要招5.5萬名企業和技術人員]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LU871_AMAZON_OR_20210901141635.jpg" class="webfeedsFeaturedVisual" alt=""/><p>亞馬遜公司表示，在定於9月15日舉行的招聘活動中，該公司希望在全球範圍內招聘約55,000名企業和技術人員。這家電子商務巨頭在繼續實施新冠疫情開始時啟動的大規模招聘活動。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E4%BA%9E%E9%A6%AC%E9%81%9C%E5%B0%8B%E6%B1%82%E5%9C%A8%E7%BE%8E%E5%9C%8B%E6%8B%9B%E8%81%98%E7%B4%844%E8%90%AC%E5%90%8D%E4%BC%81%E6%A5%AD%E5%92%8C%E6%8A%80%E8%A1%93%E5%B4%97%E4%BD%8D%E4%BA%BA%E5%93%A1-11630541105</link>
+            <guid isPermaLink="false">CT-BIZ-20210902074947</guid>
+            <pubDate>Thu, 02 Sep 2021 00:35:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[歐洲熱門旅遊地暫時仍對美國遊客開放]]></title>
-            <description><![CDATA[<img width="1280" height="852" src="https://si.wsj.net/public/resources/images/S1-LU401_USTRAV_OR_20210831131612.jpg" class="webfeedsFeaturedVisual" alt=""/><p>儘管歐盟向成員國政府提出了暫停來自美國的非必要旅行的新建議，但許多歐洲國家並不急於對美國遊客關閉國門。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E6%AD%90%E6%B4%B2%E7%86%B1%E9%96%80%E6%97%85%E9%81%8A%E5%9C%B0%E6%9A%AB%E6%99%82%E4%BB%8D%E5%B0%8D%E7%BE%8E%E5%9C%8B%E9%81%8A%E5%AE%A2%E9%96%8B%E6%94%BE-11630464604</link>
-            <guid isPermaLink="false">CT-BGH-20210901102944</guid>
-            <pubDate>Wed, 01 Sep 2021 03:00:00 GMT</pubDate>
+            <title><![CDATA[SEC正在調查電動送貨卡車製造商Workhorse]]></title>
+            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LU863_WORKHO_OR_20210901134021.jpg" class="webfeedsFeaturedVisual" alt=""/><p>金融監管機構對電動送貨卡車製造商Workhorse展開了調查，這家總部位於俄亥俄州的公司是目前陷入困境的初創公司Lordstown的早期投資者。</p>]]></description>
+            <link>https://cn.wsj.com/articles/sec%E6%AD%A3%E5%9C%A8%E8%AA%BF%E6%9F%A5%E9%9B%BB%E5%8B%95%E9%80%81%E8%B2%A8%E5%8D%A1%E8%BB%8A%E8%A3%BD%E9%80%A0%E5%95%86workhorse-11630542908</link>
+            <guid isPermaLink="false">CT-FIN-20210902082031</guid>
+            <pubDate>Thu, 02 Sep 2021 01:30:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[私人資本引發新的太空競賽]]></title>
-            <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LT890_SPACEH_OR_20210830123321.jpg" class="webfeedsFeaturedVisual" alt=""/><p>人類上一次在月球上行走過去近50年後，私人資本引發了一場新的太空競賽。將富人送入太空成為媒體關注的焦點，但投資者或許應該更加關注發射小型衛星這一較為乏味的業務。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%A7%81%E4%BA%BA%E8%B3%87%E6%9C%AC%E5%BC%95%E7%99%BC%E6%96%B0%E7%9A%84%E5%A4%AA%E7%A9%BA%E7%AB%B6%E8%B3%BD-11630470605</link>
-            <guid isPermaLink="false">CT-HRD-20210901113237</guid>
-            <pubDate>Wed, 01 Sep 2021 05:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[報導：新款Apple Watch的生產因質量問題被延遲]]></title>
-            <description><![CDATA[<img width="76" height="76" src="https://si.wsj.net/public/resources/images/S1-KJ925_gaadpi_A_20210521145308.png" class="webfeedsFeaturedVisual" alt=""/><p>《日本經濟新聞》援引知情人士消息報導，蘋果公司即將推出的Apple Watch的生產已被推遲，在很大程度上是由於這款新智能手錶的複雜設計。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E5%A0%B1%E5%B0%8E%EF%BC%9A%E6%96%B0%E6%AC%BEapple-watch%E7%9A%84%E7%94%9F%E7%94%A2%E5%9B%A0%E8%B3%AA%E9%87%8F%E5%95%8F%E9%A1%8C%E8%A2%AB%E5%BB%B6%E9%81%B2-11630459035</link>
-            <guid isPermaLink="false">CT-TEC-20210901084922</guid>
-            <pubDate>Wed, 01 Sep 2021 01:34:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Google將員工自願返回辦公室的時間推遲到1月10日]]></title>
-            <description><![CDATA[<img width="1280" height="989" src="https://si.wsj.net/public/resources/images/S1-LU388_GOOGLE_OR_20210831125737.jpg" class="webfeedsFeaturedVisual" alt=""/><p>Google將公司員工返回辦公室的計劃推遲到1月10日，成為最新一家因為新冠病例和住院人數不斷上升而延長居家辦公政策的大公司。</p>]]></description>
-            <link>https://cn.wsj.com/articles/Google%E5%B0%87%E5%93%A1%E5%B7%A5%E8%87%AA%E9%A1%98%E8%BF%94%E5%9B%9E%E8%BE%A6%E5%85%AC%E5%AE%A4%E7%9A%84%E6%99%82%E9%96%93%E6%8E%A8%E9%81%B2%E5%88%B01%E6%9C%8810%E6%97%A5-11630455904</link>
-            <guid isPermaLink="false">CT-BIZ-20210901081118</guid>
-            <pubDate>Wed, 01 Sep 2021 00:30:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[企業首席資訊官們稱個人電腦訂單交付等待時間延長至數月]]></title>
-            <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LU427_PCSHIP_OR_20210831142534.jpg" class="webfeedsFeaturedVisual" alt=""/><p>首席資訊官們說，他們購買新個人電腦的訂單在獲得交付方面面臨越來越長的延誤，在某些情況下等待時間從幾周延長到數月。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E4%BC%81%E6%A5%AD%E9%A6%96%E5%B8%AD%E8%B3%87%E8%A8%8A%E5%AE%98%E5%80%91%E7%A8%B1%E5%80%8B%E4%BA%BA%E9%9B%BB%E8%85%A6%E8%A8%82%E5%96%AE%E4%BA%A4%E4%BB%98%E7%AD%89%E5%BE%85%E6%99%82%E9%96%93%E5%BB%B6%E9%95%B7%E8%87%B3%E6%95%B8%E6%9C%88-11630471806</link>
-            <guid isPermaLink="false">CT-BIZ-20210901122559</guid>
-            <pubDate>Wed, 01 Sep 2021 05:00:00 GMT</pubDate>
+            <title><![CDATA[美軍撤離，曾幫助營救拜登的阿富汗翻譯被落下]]></title>
+            <description><![CDATA[<img width="1280" height="960" src="https://si.wsj.net/public/resources/images/S1-LU358_AFBIDE_OR_20210831123427.jpg" class="webfeedsFeaturedVisual" alt=""/><p>13年前，阿富汗翻譯穆罕默德幫助營救了當時被困該國偏遠山谷的時任美國參議員拜登等人。如今美軍撤離，他仍被困阿富汗，說自己正擔驚受怕地躲避塔利班。他請求拜登救他。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E6%9B%BE%E5%9C%A82008%E5%B9%B4%E5%B9%AB%E5%8A%A9%E7%87%9F%E6%95%91%E6%8B%9C%E7%99%BB%E7%9A%84%E9%98%BF%E5%AF%8C%E6%B1%97%E7%BF%BB%E8%AD%AF%E8%AB%8B%E6%B1%82%E7%B8%BD%E7%B5%B1%E5%B9%AB%E5%8A%A9%E8%84%AB%E5%9B%B0-11630454405</link>
+            <guid isPermaLink="false">CT-BGH-20210901074906</guid>
+            <pubDate>Wed, 01 Sep 2021 08:50:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[想在美國炒房？先看看稅可能有多高]]></title>
@@ -131,13 +138,6 @@
             <link>https://cn.wsj.com/articles/%E5%BE%9E%E7%BE%8E%E5%9C%8B%E8%BB%8D%E6%A9%9F%E5%A2%9C%E4%B8%8B%E8%BA%AB%E4%BA%A1%E7%9A%84%E9%98%BF%E5%AF%8C%E6%B1%9717%E6%AD%B2%E8%B6%B3%E7%90%83%E6%96%B0%E6%98%9F-11630046708</link>
             <guid isPermaLink="false">CT-BGH-20210827143056</guid>
             <pubDate>Fri, 27 Aug 2021 07:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[美國30至39歲人群因新冠住院率創新高]]></title>
-            <description><![CDATA[<img width="1280" height="914" src="https://si.wsj.net/public/resources/images/S1-LO142_COVIDT_OR_20210813133014.jpg" class="webfeedsFeaturedVisual" alt=""/><p>在新冠疫情爆發的初期，這一年齡段的被感染者基本不需要住院，但傳染性極強的Delta變種病毒使得年輕人也招架不住，而眼下疫苗接種率的提升速度放緩，使得防疫形勢十分嚴峻。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E7%BE%8E%E5%9C%8B30%E8%87%B339%E6%AD%B2%E4%BA%BA%E7%BE%A4%E5%9B%A0%E6%96%B0%E5%86%A0%E4%BD%8F%E9%99%A2%E7%8E%87%E5%89%B5%E6%96%B0%E9%AB%98-11629783005</link>
-            <guid isPermaLink="false">CT-BGH-20210824131217</guid>
-            <pubDate>Tue, 24 Aug 2021 06:01:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

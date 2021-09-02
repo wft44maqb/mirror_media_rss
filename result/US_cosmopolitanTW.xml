@@ -7,7 +7,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>巨蟹座明日運勢</news:title>
 		</news:news>
 	</url>
@@ -18,7 +18,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>獅子座明日運勢</news:title>
 		</news:news>
 	</url>
@@ -29,7 +29,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>天蠍座明日運勢</news:title>
 		</news:news>
 	</url>
@@ -40,7 +40,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>天秤座明日運勢</news:title>
 		</news:news>
 	</url>
@@ -51,7 +51,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>牡羊座明日運勢</news:title>
 		</news:news>
 	</url>
@@ -62,7 +62,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>處女座明日運勢</news:title>
 		</news:news>
 	</url>
@@ -73,7 +73,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>金牛座明日運勢</news:title>
 		</news:news>
 	</url>
@@ -84,7 +84,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>摩羯座明日運勢</news:title>
 		</news:news>
 	</url>
@@ -95,7 +95,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>雙魚座明日運勢</news:title>
 		</news:news>
 	</url>
@@ -106,7 +106,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>雙子座明日運勢</news:title>
 		</news:news>
 	</url>
@@ -117,7 +117,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>射手座明日運勢</news:title>
 		</news:news>
 	</url>
@@ -128,8 +128,30 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-02T16:00:00Z</news:publication_date>
 			<news:title>水瓶座明日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/entertainment/movies/g37452268/lovers-of-the-red-sky-ep1-2/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-02T03:28:00Z</news:publication_date>
+			<news:title>《紅天機》金裕貞、安孝燮「互換眼睛」！魔王歐巴意外愛上救世主，甜虐劇情不輸《擁抱太陽的月亮》</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37437273/we-bare-bears-products/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T16:04:00Z</news:publication_date>
+			<news:title>熊迷們買起來！華納兄弟推出「熊熊遇見你周邊新品」，熊熊玩偶、超萌T-shirt、除濕盒全都必收</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -139,7 +161,7 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
 			<news:title>摩羯座今日運勢</news:title>
 		</news:news>
 	</url>
@@ -150,8 +172,184 @@
 				<news:name>cosmopolitan.com</news:name>
 				<news:language>tw</news:language>
 			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
 			<news:title>獅子座今日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32681177/aries-today/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:title>牡羊座今日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683119/libra-today/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:title>天秤座今日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32682972/gemini-today/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:title>雙子座今日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683069/virgo-today/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:title>處女座今日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683235/aquarius-today/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:title>水瓶座今日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32682953/taurus-today/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:title>金牛座今日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683250/pisces-today/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:title>雙魚座今日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683141/scorpio-today/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:title>天蠍座今日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683172/sagittarius-today/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:title>射手座今日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32682992/cancer-today/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T16:00:00Z</news:publication_date>
+			<news:title>巨蟹座今日運勢</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/fashion/news/g37450538/coach-rogue-2021/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T10:44:00Z</news:publication_date>
+			<news:title>COACH大勢包款預測！2021「ROGUE 系列包款」，珍妮佛羅培茲、凱特摩斯、木村光希搶先揹！</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/entertainment/movies/g37450031/south-korean-drama/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T09:17:00Z</news:publication_date>
+			<news:title>《海岸村恰恰恰》金宣虎「扮豬吃老虎」追申敏兒，兩人「連珠炮鬥嘴」高甜又爆笑，最純粹浪漫喜劇緊緊抓住觀眾心</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37449990/wanpo-tea-lipton/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T08:12:00Z</news:publication_date>
+			<news:title>2021最潮聯名特調茶！立頓x萬波推出海鹽萊姆紅、珍芋茉莉那堤、青瓜蘆薈檸香綠快閃開賣1個月！</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37449376/mcdonald-s-app/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T08:12:00Z</news:publication_date>
+			<news:title>快更新「麥當勞APP」！立刻享有3大好康優惠，不只送你行動點點卡，還有蛋捲冰淇淋、大麥克免費兌換開吃</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/entertainment/movies/g37449677/the-amazing-grace-of-s/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T07:59:00Z</news:publication_date>
+			<news:title>台灣首部邪教影集！炎亞綸、姚淳耀《我願意》預告公開神秘洗腦儀式，監禁毒打、性愛大尺度畫面曝光，「為了幸福，你願意付出多少代價？」</news:title>
+		</news:news>
+	</url>
+	<url>
+		<loc>https://www.cosmopolitan.com/tw/entertainment/movies/g37449426/malignant/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>cosmopolitan.com</news:name>
+				<news:language>tw</news:language>
+			</news:publication>
+			<news:publication_date>2021-09-01T07:03:00Z</news:publication_date>
+			<news:title>溫子仁回來了！這回不是監製，親自執導恐怖片《疾厄》9/2限制級上映，終極預告出爐，邪惡黑影「開燈出現在身後」嚇到崩潰</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -166,17 +364,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32681177/aries-today/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
-			<news:title>牡羊座今日運勢</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://www.cosmopolitan.com/tw/horoscopes/monthly/a32956316/virgo-monthly/</loc>
 		<news:news>
 			<news:publication>
@@ -188,17 +375,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683119/libra-today/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
-			<news:title>天秤座今日運勢</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://www.cosmopolitan.com/tw/horoscopes/monthly/a32956338/sagittarius-monthly/</loc>
 		<news:news>
 			<news:publication>
@@ -207,17 +383,6 @@
 			</news:publication>
 			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
 			<news:title>射手座本月運勢</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32682972/gemini-today/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
-			<news:title>雙子座今日運勢</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -240,28 +405,6 @@
 			</news:publication>
 			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
 			<news:title>巨蟹座本月運勢</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683069/virgo-today/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
-			<news:title>處女座今日運勢</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683235/aquarius-today/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
-			<news:title>水瓶座今日運勢</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -298,28 +441,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32682953/taurus-today/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
-			<news:title>金牛座今日運勢</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683250/pisces-today/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
-			<news:title>雙魚座今日運勢</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://www.cosmopolitan.com/tw/horoscopes/monthly/a32956348/capricorn-monthly/</loc>
 		<news:news>
 			<news:publication>
@@ -342,17 +463,6 @@
 		</news:news>
 	</url>
 	<url>
-		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683141/scorpio-today/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
-			<news:title>天蠍座今日運勢</news:title>
-		</news:news>
-	</url>
-	<url>
 		<loc>https://www.cosmopolitan.com/tw/beauty/skin/a37401148/sabon-citrusblossom/</loc>
 		<news:news>
 			<news:publication>
@@ -372,28 +482,6 @@
 			</news:publication>
 			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
 			<news:title>雙魚座本月運勢</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32683172/sagittarius-today/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
-			<news:title>射手座今日運勢</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/horoscopes/today/a32682992/cancer-today/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-31T16:00:00Z</news:publication_date>
-			<news:title>巨蟹座今日運勢</news:title>
 		</news:news>
 	</url>
 	<url>
@@ -427,61 +515,6 @@
 			</news:publication>
 			<news:publication_date>2021-08-31T08:13:00Z</news:publication_date>
 			<news:title>「美隊」+「黑寡婦」合拍愛情動作電影《Ghosted》，史嘉蕾喬韓森、克里斯伊凡20年神仙友情，終於變情人，延續漫威宇宙的曖昧</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37427813/4d-face-mask-0830/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-31T03:01:00Z</news:publication_date>
-			<news:title>不脫妝、顯臉小必備！「韓式4D口罩」正夯，推薦仙氣十足JIUJIU「紗霧色系」、超搶眼幸福物語「撞色系列」</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/entertainment/movies/g37428408/yoo-ah-in-hellbound/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-30T10:03:00Z</news:publication_date>
-			<news:title>Netflix韓劇《地獄》預告夠刺激！劉亞仁聯手《屍速列車》導演「揭露陰間真相」，「叫鬼抓人」場面超震撼</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/lifestyle/3c-tech/g37335505/soundcore-products/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-30T08:01:00Z</news:publication_date>
-			<news:title>少女粉耳罩式耳機太夢幻！《Soundcore》推出全新「耳罩式耳機」、隨音樂變換色彩「藍牙音響」！</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/lifestyle/food-and-drink/g37427384/tainan-guohua-street-0830/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-30T07:42:00Z</news:publication_date>
-			<news:title>台南美食推薦！「國華街美食TOP 9」﻿﻿，人氣鱔魚意麵、﻿超夯刈包、草莓牛奶冰等人氣小吃太晚去就沒了</news:title>
-		</news:news>
-	</url>
-	<url>
-		<loc>https://www.cosmopolitan.com/tw/lifestyle/hot-topics/g37427321/carrefour-0830/</loc>
-		<news:news>
-			<news:publication>
-				<news:name>cosmopolitan.com</news:name>
-				<news:language>tw</news:language>
-			</news:publication>
-			<news:publication_date>2021-08-30T05:46:00Z</news:publication_date>
-			<news:title>韓國美食吃起來！「家樂福韓國週」即日起快閃至9/7，超過300款韓國明星商品一次買齊！</news:title>
 		</news:news>
 	</url>
 </urlset>
