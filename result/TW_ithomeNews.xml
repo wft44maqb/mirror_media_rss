@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/775" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/775</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/775" rel="self" type="application/rss+xml" />
       <item>
     <title>美國FTC出手禁止跟蹤軟體SpyFone</title>
     <link>https://www.ithome.com.tw/news/146500</link>
@@ -12,6 +12,16 @@
      <pubDate>2021-09-02  04:09:43</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146500</guid>
+  </item>
+  <item>
+    <title>【專訪健保署署長李伯璋談遠距醫療未來】整合虛擬健保卡，遠距醫療下一步瞄準居家醫療</title>
+    <link>https://www.ithome.com.tw/news/146499</link>
+    <description> 虛擬健保卡應用再突破！健保署近日悄悄推出新機制，就算沒有專用QR Code掃描設備，醫師一樣能用手機專屬App，掃描民眾健保快易通App虛擬健保卡，連上健保雲端系統、查詢病人就醫紀錄，為遠距醫療再添利器。
+這也是繼民眾可直接在健保快易通App手動開卡、不必現場申辦後的另一次重要升級，更凸顯健保署持續力推遠距醫療的決心。
+2年前展開虛擬健保卡試辦計畫，隔年實戰遠距醫療場域</description>
+     <pubDate>2021-09-02  04:09:48</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146499</guid>
   </item>
   <item>
     <title>Twitter測試安全模式以自動封鎖騷擾帳號</title>
@@ -254,14 +264,6 @@ Google執行長Sundar Pichai指出，隨著今年稍早疫情好轉，有更多�
      <pubDate>2021-08-31  03:08:39</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146466</guid>
-  </item>
-  <item>
-    <title>蘋果買下古典樂串流服務供應商Primephonic</title>
-    <link>https://www.ithome.com.tw/news/146465</link>
-    <description> 蘋果周一（8/30）宣布，已買下知名的古典樂串流服務供應商Primephonic，Primephonic原本的服務將在9月17日下線，取而代之的是，幾個月後Apple Music將會整合Primephonic所提供的古典樂功能，且蘋果也計畫在明年推出古典樂的專屬程式，雙方並未公布交易金額。</description>
-     <pubDate>2021-08-31  03:08:35</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146465</guid>
   </item>
   </channel>
 </rss>
