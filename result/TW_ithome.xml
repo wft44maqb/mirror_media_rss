@@ -6,6 +6,138 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>【DBS客座文章】星展銀行如何打造大數據平台</title>
+ <link>https://www.ithome.com.tw/news/146484</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;本文為&lt;span style=&quot;vertical-align: top; color: rgb(255, 140, 0);&quot;&gt;【星展銀行授權轉載文章】&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;譯註：文中所稱之「我們」、「星展銀行」或「星展」皆係指新加坡星展銀行，所提及之金融服務亦為新加坡國內之服務&lt;br /&gt;
+作者：Ashish Bhan,Data Engineering | Cloud Engineering | Enterprise Architecture| Container Ecosystems | Big Data, Analytics and AI/ML Infrastructure | Automation | SRE | DevOps / 翻譯：李沛衡&lt;br /&gt;
+原文出處：&lt;a href=&quot;https://medium.com/dbs-tech-blog/architecting-big-data-at-scale-b5d68801937&quot;&gt;Architecting Big data at Scale&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;&lt;span style=&quot;color:#FF8C00;&quot;&gt;背景&lt;/span&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;大數據分析是在處理龐大且複雜的資料集時所使用的進階分析技術，這些資料集包括結構化、半結構化及非結構化資料，其資料量大小從TB到PB不等。大數據的重要性不在於資料量，而是在於資料的使用方式。您可以透過分析從各管道取得的資料，找到潛在價值，並達成以下目的：&lt;/p&gt;
+&lt;p&gt;• 降低&lt;strong&gt;成本&lt;/strong&gt;&lt;br /&gt;
+• 節省&lt;strong&gt;時間&lt;/strong&gt;&lt;br /&gt;
+• &lt;strong&gt;開發與優化&lt;/strong&gt;產品&lt;br /&gt;
+• 更明智的&lt;strong&gt;決策&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;為了深入理解非結構化資料，並使我們的技術與時俱進，我們從2016年開始使用Cloudera Hadoop來擴展現有資料倉儲架構。四年多來，包括Apache Hadoop(CDH)平台在內的Cloudera Distribution已成為我們資料架構和策略不可或缺的一部分。我們用它支援大部分的業務作業，從消金、企金、投資銀行到法令遵循，開發共超過40個應用程式。其中的精采案例，包括：&lt;/p&gt;
+&lt;p&gt;• 反洗錢和反詐騙&lt;br /&gt;
+• 企金報告&lt;br /&gt;
+• 風險監管平台&lt;br /&gt;
+• 交易平台&lt;br /&gt;
+• 金融平台&lt;br /&gt;
+• 成本分配&lt;br /&gt;
+• 客戶科學&lt;br /&gt;
+• 客戶盡職調查即服務(Customer due diligrance as a service)&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;&lt;span style=&quot;color:#FF8C00;&quot;&gt;利用彈性架構迎向挑戰並推進&lt;/span&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;隨著相關應用與學術的發展，我們不得不在2019年重新設計整個企業之資料平台，以克服幾個未來的挑戰，例如：&lt;/p&gt;
+&lt;p&gt;A. 儲存和計算需求間的落差導致資源浪費&lt;br /&gt;
+B. 硬體採購與供應延遲導致更替時間緩慢&lt;br /&gt;
+C. 數個硬體故障將影響服務之可用性&lt;br /&gt;
+D. 使用單一叢集處理所有工作造成的資源搶奪風險&lt;br /&gt;
+E. 處理多租戶(multi tenancy)造成的「Noisy Neighbor」問題&lt;br /&gt;
+F. 資源需求預測失準佈署新的資源及允許進行實驗&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/dbs-BigData-figure1(1).png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;我們從GCP及AWS在大數據領域的發展汲取靈感，設計了這個可以更有效處理多租戶(multitenancy)、降低資源搶奪風險及營運成本的平台，並確保我們的關鍵應用程式得以正常運行。成功建構及運行一個高可擴展性的資料平台，關鍵是通過落實以下幾點，將計算與儲存功能加以分離：&lt;/p&gt;
+&lt;p&gt;A. 資料儲存平台－具有高彈性和高效能的核心資料儲存平台。&lt;br /&gt;
+B. 微服務－將獨立服務容器化，來封裝多種複雜的大數據工具配置和管理，讓不同應用程式可以按照各自的需求來使用這些容器化的微服務。&lt;br /&gt;
+C. 使用GPU農場共享GPU-利用整合持久叢集（persistent cluster）與臨時叢集（transient cluster）上的GPU來加速運算。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/dbs-BigData-figure2(1).png&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style=&quot;color: rgb(255, 140, 0);&quot;&gt;資料儲存平台&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;軟體定義儲存系統（Software Defined Storage）具有許多優勢，因此我們在2019年利用vSAN重新設計我們的資料儲存平台，這種創新的設計包括：&lt;/p&gt;
+&lt;p&gt;1. 整合叢集中每個ESXi主機儲存個體&lt;br /&gt;
+2. 利用快閃儲存方式優化的解決方案&lt;br /&gt;
+3. 基於VM的資料操作和政策驅動的管理原則&lt;br /&gt;
+4. 基於分散式RAID架構的彈性設計&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/dbs-BigData-figure3(1).png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;這種新架構減輕了我們過去在硬體上遇到的痛點，幫助我們取得了卓越的成效。&lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;color:#FF8C00;&quot;&gt;&lt;strong&gt;新設計現在能夠做的&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;•&lt;strong&gt;增強多租戶(multitenancy)以提高性能：&lt;/strong&gt;我們根據use case和對CDH的存取量對叢集進行分割。如此將允許叢集獨立運行，尤其是在管理程式碼和正式環境問題查詢時提高我們IT團隊的效率。&lt;/p&gt;
+&lt;p&gt;•&lt;strong&gt;降低資源搶奪風險：&lt;/strong&gt;同一叢集中執行過多的應用程式可能導致資源搶奪風險，進而導致效能問題和嚴重停機。我們透過叢集分割最大限度地降低相關風險並提高了校能。&lt;/p&gt;
+&lt;p&gt;•&lt;strong&gt;即時同步：&lt;/strong&gt;Active-Active的設計將確保正式環境和災難復原環境之間的即時同步。隨著我們資料量的提升，我們必須建立可以確保兩個站點始終同步以滿足目標復原時間的能力。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/dbs-BigData-figure4(1).png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;•為了確保這個active-active的伺服器始終擁有數據塊（Data Block）的副本，我們必須更改其放置策略並在HDFS建立客製化的規則。&lt;/p&gt;
+&lt;p&gt;下方程式碼對BlockPlacementPolicyWithNodeGroup的原始碼進行擴充，因為星展銀行目前使用此類別來支援佈署在VMware hypervisor的資料節點。此段程式碼與現有的HDFS專案會存在於同一個套件中(org.apache.hadoop.hdfs.server.blockmanagement)。原先會如此定義是因為有一些受保護的類別無法從外部訪問。&lt;/p&gt;
+&lt;p&gt;大多數功能都保持不變，除了以下BlockPlacementPolicyDefault類別中的函數原型被加以修改以處理數據塊配置。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/dbs-BigData-figure5.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;•此函數在延伸類別中被重新implement以改寫在同一個rack中放置多個副本的預設數據塊配置行為。&lt;/p&gt;
+&lt;p&gt;•&lt;strong&gt;準確的容量調整&lt;/strong&gt;：為了能更準確地預測專案的IT資源使用情況，我們設計了一個儀表板。透過準確的預測，我們確保配置足夠的資源以準時完成專案，並減少延誤和不必要的支出。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/dbs-BigData-figure6.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;•計算和儲存的分離&lt;/strong&gt;：新平台能讓運算單元和儲存單元獨立增長，因此我們得以只針對其中一個部分進行擴展。如此一來我們便能準確且有效地分配必要資源。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;•支應未來的大數據模版&lt;/strong&gt;：重新建構一個敏捷且可擴展的運算框架層，讓我們能以最小的成本適應未來的大數據技術。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;•建立強有力的治理模式以減低成本&lt;/strong&gt;：隨著平台重新設計，我們納入了一個強大的治理框架，以減少投資成本並防止計算和記憶體資源的浪費。我們將此框架轉移到Hadoop平台，優化了我們的計算和資料導入框架，避免因為糟糕的架構設計、批次處理作業和各類查詢引起的系統意外。我們也進一步使用Cloudera API來監控和追蹤需要調整或出現異常的作業。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;•處理小型檔案&lt;/strong&gt;：應用程式傾向於撰寫成小型檔案，因此這需要平台不斷增加NN記憶體。我們隔離了集群以降低由於高CPU處理而導致性能不佳的風險。此外，我們啟用了回報機制以確保應用程式將分區中的檔案合併，以滿足128 MB的建議大小。&lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;color:#FF8C00;&quot;&gt;&lt;strong&gt;透過新設計，我們實現了以下目標：&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;a) 成本最佳化&lt;/strong&gt;&lt;br /&gt;
+透過整合計算和儲存，我們可以避免因設計、批次處理作業和查詢不佳而導致的技術債。2019年，我們透過最佳化計算框架減少了約20%的成本。我們還降低了約75%的佈署成本。這些改良的效益在銀行整體業務中已能具體感受到，其中對於產出風險報告和財務報告感受尤甚。新架構已幫助我們節省了數百萬(新幣)的授權成本。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;b) 提高生產力和上線時間&lt;/strong&gt;&lt;br /&gt;
+隨著佈署的速度加快，我們的IT團隊在佈署相關的工作效率提高了約25%，將我們的佈署時間從三個月減少到四小時。如今他們能更有效率地為各單位提供服務，以更快的速度提供所需要的環境。&lt;/p&gt;
+&lt;p&gt;特別是對於開發人員來說，新的設計架構給了他們莫大的助力。此架構為他們提供了基於詮釋資料(metadata)的框架，使他們在開發新功能和處理新專案時所需的時間幾乎減少了一半。IT團隊從過去需要幾個月的開發時間，到現在可在不到三週的時間內，將應用程式或服務上線以滿足新的業務需求。迄今為止，星展銀行已在此平台上啟用了超過四十個應用程式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;c) 降低風險&lt;/strong&gt;&lt;br /&gt;
+自該架構推出以來，沒有任何利用率損失(availability loss)，這代表我們已經100%降低了資源搶奪風險，同一叢集內的元件不再搶奪計算資源。叢集根據使用模式和CDH元件使用情況進行分割。我們還將Impala和Spark各自的工作量分離開來，並切換改用SSD上的vSAN，從而全面改善I/O。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;d) 愉快且順暢的客戶體驗計劃&lt;/strong&gt;&lt;br /&gt;
+我們將讀取傳輸量提高了十倍，寫入速度提高了兩倍，批次回應時間加快了約72%。IT團隊在處理新的應用佈署方面更有信心。該專案還增強了我們的預測分析能力，藉此改善我們組織內客戶的用戶體驗。有了自動化系統的加入，客戶滿意度提高了約14%。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;&lt;span style=&quot;color:#FF8C00;&quot;&gt;微服務&lt;/span&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;為了支援不斷增長的技術需求，我們建構的資料微服務來加強Cloudera的隨選資料服務。資訊安全框架與CDH緊密結合，使我們能夠遵守銀行業嚴格的法遵規定。&lt;/p&gt;
+&lt;p&gt;我們的核心平台在Cloudera上運行，並遵循共享數據體驗(SDX)的原則，並將臨時叢集作為微服務的消耗品。&lt;/p&gt;
+&lt;p&gt;微服務的構建響應我們的雲端策略，其中一些常見的資料服務可以被虛擬化並以隨選方式提供，並提高資源利用率。這麼做能讓混合雲策略在不更改程式碼的情況下更加順暢。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/dbs-BigData-figure7.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A. 微服務的底層是VMware整合容器和軟體層。&lt;/p&gt;
+&lt;p&gt;B. 服務框架包括：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;a. 控制層&lt;/strong&gt; — 負責用戶與微服務的互動，使他們能夠自助操作。這個介面是一個自行開發的Angular前端，它與動態內容管理服務連接，讓服務能夠不用寫程式就上線。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;b. 後端自動化&lt;/strong&gt; — 負責執行資源的佈署和管理。我們使用Ansible和基於Python的編排器，它與Bitbucket整合，並根據來自前端的選項為每個應用程式創建一個動態的docker compose。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/dbs-BigData-figure8.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;c. API介面&lt;/strong&gt; — 負責以程式碼存取和管理資源。這些API作為動態協和框架（Orchestration framework）的一部分，並允許用戶以API而非UI的方式來執行操作及更改腳本。如此可以靈活地以批次方式啟動和執行腳本。&lt;/p&gt;
+&lt;p&gt;這種配置大量的簡化了IT工作，例如服務目錄編纂、資安和管理。&lt;/p&gt;
+&lt;p&gt;在重新設計的架構中，我們在Hadoop叢集中的工作幾乎100%都是自動化。這讓IT團隊騰出了大量的時間和精力，能將精神用在服務組織內外的客戶，並幫助銀行善用資料工程的準則，以應對快速的變化。&lt;/p&gt;
+&lt;p&gt;我們花了將近兩年的時間將所有應用程式轉移到新的雲原生架構。隨著科技發展，我們已準備好繼續擴充及加快我們的計算框架，讓應用程式和業務部門都能受益，並為企業創造價值。遷移到軟體定義儲存系統和使用固定計算單元(immutable compute)是建構大規模大數據平台的一個重要里程碑。&lt;/p&gt;
+&lt;p&gt;對於大數據而言，運算工作是一個不斷成長的挑戰，需要不斷尋求創新技術新來減少運算足跡和加速批次處理。&lt;/p&gt;
+&lt;h3&gt;&lt;span style=&quot;color:#FF8C00;&quot;&gt;&lt;strong&gt;GPU計算&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;大多數傳統資料湖泊都是建構在傳統的多核心CPU技術上。即使顯著地加強了儲存、記憶體和網絡子系統，幾乎每個企業用戶和系統都被效能所限制，無法使用企業資料湖泊或資料倉儲中的資料進行瞬間爆量的資料分析。&lt;/p&gt;
+&lt;p&gt;GPU技術是由Nvidia等公司多年的研發開創，過去十年在產業中快速成長。在GPU中所含的數千個核心讓它本身就能夠平行處理資料。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/dbs-BigData-figure9.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;GPU通常被放入伺服器中用以增強主要的CPU。它們還提供了更快的I/O，增加CPU和GPU之間往返傳輸的資料量。&lt;/p&gt;
+&lt;p&gt;GPU加速器能夠在執行繁重運算任務時帶來巨大的優勢，但GPU的價格昂貴且要能為應用程式採用亦有一定的學習曲線。因此星展銀行使用vSphere Bitfusion虛擬化硬體加速器（如GPU）來支援AI、ML的工作。vSphere Bitfusion將實體資源從伺服器的特定環境中分離。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/dbs-BigData-figure10.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;此平台可在虛擬化基礎架構中共享GPU，作為網路可存取的資源池，而非讓個別伺服器中的資源獨立。Bitfusion可跨AI框架、雲端、網路以及在虛擬機、容器和Jupyter notebook等環境運行。隨著新硬體加速器的導入，Bitfusion隨時可以將其虛擬化。&lt;/p&gt;
+&lt;p&gt;星展銀行選擇vSphere Bitfusion的原因有：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;a. 可任意動態配置GPU&lt;/strong&gt; — Bitfusion可拆解GPU運算單元並可向連結遠端儲存單元一般動態地將GPU連接到資料中心的任何位置。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;b. 提高部分GPU效率&lt;/strong&gt; — Bitfusion能利用任意部分的GPU。在測試及開發階段支援更多用戶。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;c. 標準化加速器存取&lt;/strong&gt; — 在基礎架構中充分利用GPU，並隨著標準的制定，整合不斷發展的技術。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;d. 應用程式執行時間虛擬化 &lt;/strong&gt;— Bitfusion在程式執行時根據CUDA調用GPU資源，最大限度地提高網路中任何GPU伺服器的利用。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;e. 與任何應用程式一起使用&lt;/strong&gt; — Bitfusion是一個通透層(transparent layer)，它可與任何工作、框架、容器或Jupyter運作。&lt;/p&gt;
+&lt;p&gt;星展銀行使用Apache Spark作為Cloudera框架的一部分，Cloudera框架是一個開源的通用叢集運算框架，為大規模資料處理提供整合分析引擎。&lt;/p&gt;
+&lt;p&gt;Spark利用pyspark函式庫來加速Python程式碼，快速運算Pytorch、Tensorflow等套件。但這也意味著批次程式必須將Scala改寫成Python。&lt;/p&gt;
+&lt;p&gt;我們利用Apache 3.0並結合了基於CUDA-X AI的開源函式庫RAPIDS。Apache Spark的RAPIDS Accelerator具備了RAPIDS cuDF函式庫的強大功能和Spark分散式運算的優點。它使開發人員不需要修改Spark程式碼，就可以在GPU上運行並加速。&lt;/p&gt;
+&lt;p&gt;RAPIDS cuDF函式庫的啟用可透過設定spark configuration classpath和以下設定來達成&lt;/p&gt;
+&lt;p&gt;spark.conf.set(‘spark.rapids.sql.enabled’,’true’)&lt;/p&gt;
+&lt;p&gt;在開源社群和雲端供應商的大力推動之下，資料架構和大數據領域不斷快速發展。星展銀行致力於在科技與現代化資料架構下取得平衡，並確保我們的應用程式皆能具有良好的成本效益。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;免責聲明和重要通知&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;本文章（英文）係由DBS LTD提供並經星展銀行（台灣）（下稱｢本行｣）翻譯為中文，僅供參考，本行及DBS LTD不對使用本文章所引起之任何損失或損害負任何責任。如您有任何疑問或欲參考本文章而為行事之依據，本行建議您諮詢您的專業顧問之意見，以保障您的權益。非經本行之事前書面同意，任何人不得對本文章為複製、轉載、引用、抄襲、修改、散佈或為任何其他方式之使用&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 02 Sep 2021 06:57:32 +0000</pubDate>
+ <dc:creator>星展銀行</dc:creator>
+ <guid isPermaLink="false">146484 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146484#comments</comments>
+</item>
+<item>
+ <title>勒索軟體Hive鎖定醫療機構、缺乏相關因應措施的企業而來</title>
+ <link>https://www.ithome.com.tw/news/146493</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;最近幾個月出現了數個新的勒索軟體家族，且已經在短短的2至3個月出現數十個受害者。例如，自2021年6月開始運作的勒索軟體Hive，鎖定醫療照護供應商，以及缺乏因應勒索軟體攻擊能力的中型組織。&lt;a href=&quot;https://unit42.paloaltonetworks.com/emerging-ransomware-groups/&quot;&gt;資安業者Palo Alto Networks指出&lt;/a&gt;，目前駭客宣稱他們成功攻擊了28個組織，包含1家歐洲的航空公司，以及3家美國組織。他們分別是：硬體零售商、製造業者、法律事務所。駭客將這些受害者公布在名為Hive Leaks的網站上。&lt;/p&gt;
+&lt;p&gt;究竟這個勒索軟體如何入侵受害組織？Palo Alto表示尚不明朗，僅表示背後的駭客組織曾運用多種手法，包含透過買到的帳密存取組織的內部網路、暴力破解，以及釣魚手法等。&lt;/p&gt;
+&lt;p&gt;而根據Palo Alto的調查，這個勒索軟體的運作方式，與許多勒索軟體有些不同。首先，Palo Alto指出，Hive勒索軟體執行後，會產生2個指令碼hive.bat與shadow.bat，用途分別是刪除勒索軟體本身，以及清空磁碟區陰影複製（Volume Shadow Copy）服務的備份資料。而在勒索訊息（HOW_TO_DECRYPT.txt）的內容中，則是要求受害者透過指定的帳號和密碼，存取位於洋蔥網路（Tor）的線上對話網站。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image11-s.png&quot; style=&quot;width: 467px; height: 304px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;一旦受害者成功登入網站，就會看到類似即時通訊軟體的聊天室，讓他們與攻擊者對話，討論支付贖金的細節。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image17.png&quot; style=&quot;width: 580px; height: 228px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Palo Alto發現，這些出現在勒索軟體的帳密，似乎是針對特定受害者所提供，為了證實這項推測，他們試圖取得更多版本的Hive勒索軟體檔案，結果發現2個尚未被駭客列在Hive Leaks網站上的受害組織。因此，遭到Hive勒索軟體攻擊的組織可能有更多。&lt;/p&gt;
+&lt;p&gt;針對Hive勒索軟體的攻擊態勢，&lt;a href=&quot;https://www.ic3.gov/Media/News/2021/210825.pdf&quot;&gt;美國聯邦調查局（FBI）也在8月25日提出警告&lt;/a&gt;，表明&lt;a href=&quot;https://mhsystem.org/cyberattack&quot;&gt;位於俄亥俄州的Memorial Healthcare System&lt;/a&gt;，於8月中旬遭到此勒索軟體的攻擊，攻擊者透過遠端桌面連線（RDP）入侵該醫療單位，FBI認為，Hive此波攻擊很可能針對醫療體系而來。此外，FBI也指出，有部分受害者接到勒贖電話，要求他們付錢換回檔案。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 02 Sep 2021 06:56:54 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146493 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146493#comments</comments>
+</item>
+<item>
  <title>Windows 11測試者若硬體不符要求，將被要求回到Windows 10</title>
  <link>https://www.ithome.com.tw/news/146496</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟鐵了心，如果用戶PC硬體規格不符的話，連測試都不能用Windows 11。&lt;/p&gt;
@@ -259,57 +391,6 @@
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="false">146483 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146483#comments</comments>
-</item>
-<item>
- <title>Fintech周報第195期：TSP業者資訊揭露平臺已上線，可一站式瀏覽與銀行合作項目與資安認證細節</title>
- <link>https://www.ithome.com.tw/news/146481</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3 style=&quot;vertical-align: top; margin: 10px 0px; font-family: 微軟正黑體, sans-serif; font-weight: bold; line-height: 1.25em; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; color: inherit; font-size: 18px;&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; color: rgb(0, 0, 205);&quot;&gt;0828～0903&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 開放銀行 &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 第三方服務提供者 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;TSP業者資訊揭露平臺已上線，可一站式瀏覽與銀行合作項目與資安認證細節&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;金管會去年8月所發布的金融科技發展路徑圖，在資料共享的推動措施之一，是在開放銀行的基礎下，建立金融機構與第三方服務提供者（TSP）合作資訊揭露制度。目前，&lt;a href=&quot;https://www.fisc.com.tw/TSP/&quot;&gt;TSP業者資訊揭露專區&lt;/a&gt;已在7月28日正式上線。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;建立金融機構與TSP合作資訊揭露制度，是由金融科技共創平臺的數據治理組所負責，並由財金資訊公司建置平臺。該平臺目前共上架5家TSP業者所揭露的資訊，分別是臺灣集中保管結算所、遠傳電信、百商數位科技、睿元國際、金尉公司。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;平臺中所揭露的資訊，包括TSP業者的基本資料、服務介紹、開放API開辦階段與銀行合作項目，以及已取得的相關資安認證，更明確列出各TSP業者所獲取的資安認證、驗證單位、驗證範圍，核發資安認證的日期、有效日期等。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;其實，早在2020年6月，英國競爭及市場管理局所成立的開放銀行實施組織（OBIE），便推出了開放銀行App Store，讓消費者與企業等使用者，能在該平臺比較各類產品與服務。截至今年8月底，已有109家開放銀行參與者，包括銀行與第三方服務提供者（TPP），在平臺上架自家產品與服務。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;這個App Store上，也設計了不少功能，以利消費者、企業客戶能找到符合自身最佳的開放銀行解決方案。比如，使用者在平臺上，可一次性瀏覽各家業者所提供的服務類別，包括銀行帳戶整合、會計與稅務、中小企業帳務管理、電子商務支付、產品比對、個人理財工具、身分驗證、現金周轉、投資工具、小額儲蓄、財務保障、慈善捐款、貸款、債務管理建議、外匯等，增添使用者查找時的便利性。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%961_TSP_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_%20TSP%E6%A5%AD%E8%80%85%E8%B3%87%E8%A8%8A%E6%8F%AD%E9%9C%B2%E5%B0%88%E5%8D%80.png&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; Visa &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 環匯 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 手機感應收款 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;將手機變成店家行動刷卡機，Visa與環匯亞太合作推出商家感應式收款服務&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;繼萬事達卡（Mastercard）今年初將Tap On Phone手機感應收款技術導入臺灣，推出手機即行動刷卡機服務。Visa也在近期宣布與支付技術公司環匯（Global Payments）合作，在臺推出手機感應收款服務Mobile Tap手機付。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;Visa臺灣區總經理趙麗芳表示，疫情加速消費者採用數位支付，根據臺灣Visa 2021年7月統計數據顯示，每10筆交易中就有8筆是感應支付。這次與環匯亞太合作推出的手機收款服務，讓商家透過支援NFC感應功能的Android手機或平板電腦，就可將行動裝置變成行動刷卡機，透過感應式支付即能收款。Visa表示，目前該服務聚焦的使用場景包括餐廳、食品外送、展覽參展商等，並將陸續推廣到其他產業。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%962_Mobile%20Tap%E6%89%8B%E6%A9%9F%E4%BB%98_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_Visa.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 加密貨幣交易所 &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 遭駭 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;全球前20大加密貨幣交易所之一Liquid遭駭，駭客竊走69種加密貨幣總價值達9千多萬美元&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;日本加密貨幣交易所Liquid在8月19日發出公告，指出於新加坡時間（SGT）7點50分，發現系統遭到入侵，攻擊者染指Liquid代管的熱錢包，並偷走了數量可觀的以太幣（ETH）、比特幣（BTC），以及瑞波幣（XRP）等多種加密貨幣。Liquid表示，他們正緊急將資產移往冷錢包，並且調查攻擊發生的原因。同時，Liquid亦暫停存取款服務。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;Liquid成立於2014年，總部位於日本，根據加密貨幣行情追蹤網站CoinMarketCap的資料，該公司是全球前20大的加密貨幣交易所。Liquid經過清查後表示，本次事故共有價值9,135萬美元的加密貨幣遭竊，總計有69種加密貨幣資產遭到侵占，被轉到其他交易所或是去中心化金融平臺。其中，有價值1,613萬美元的ERC-20加密貨幣已被凍結。&lt;a href=&quot;https://www.ithome.com.tw/news/146310&quot;&gt;（詳全文）&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 獨資戶線上對保 &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 第一銀行 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;第一銀行開發獨資企業線上對保平臺，讓負責人通過線上核身便能完成對保&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;第一銀行（簡稱一銀）近期推出獨資企業線上對保平臺，針對申請央行紓困貸款特定方案的獨資企業，不用具備工商憑證，只要負責人通過線上核身，就能完成對保手續，乃銀行業界首創服務。該行宣稱，獨資企業負責人完成對保程序後，最快1天內可獲得融資款項。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;一銀表示，考量多數小型獨資企業不具備工商或金融憑證等高規格網路核身工具。因此，開發企業線上對保平臺，負責人及保證人通過線上核身，比如填寫統一編號、身分證字號、額度核准編號等基本資料，便能進行對保。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%963_%E7%8D%A8%E8%B3%87%E6%88%B6%E5%B0%8D%E4%BF%9D_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_%E7%AC%AC%E4%B8%80%E9%8A%80%E8%A1%8C.jpeg&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; NFT &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 創作者經濟 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;Visa以價值15萬美元加密貨幣購買首個NFT，看好NFT將成為創作者經濟的加速器&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;跨國支付組織Visa近期宣布，已買進該公司第一個「不可替代代幣」（Non-Fungible Token，NFT）產品，那是由Larva Labs創作的CryptoPunk 7610，購入價格為49.5個以太幣，約為15萬美元。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;Larva Labs是由兩名軟體開發者Matt Hall與John Watkinson成立的工作室，他們在2017年於以太坊區塊鏈上發表實驗性專案CryptoPunks，創作了1萬個獨特的加密龐克角色，初期開放任何擁有以太坊錢包的使用者免費領取，現在則須透過交易才能取得CryptoPunks角色的所有權。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;Visa的加密資產負責人Cuy Sheffield表示，CryptoPunks已從早期的實驗性創作成為加密社群的文化標誌，為了了解作為CryptoPunks歷史性NFT專案所扮演的角色，Visa決定買下CryptoPunk 7610。&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;對於NFT，Visa抱持著開放的態度，Sheffield坦承只有時間才能印證NFT是否會成為主流，但認為它可能會在未來的零售、社交媒體、娛樂或商業上占有一席之地，為了協助客戶或合作夥伴也參與NFT，只有身先士卒。Sheffield認為，NFT很有潛力成為創作者經濟的加速器，而且降低個人創作者獲利的門檻，可望導入新形態的社交商務，賦予創作者與收藏者權力。&lt;a href=&quot;https://www.ithome.com.tw/news/146368&quot;&gt;（詳全文）&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 遠銀Bankee &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 租屋平臺 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;遠東銀行數位子品牌與租屋平臺合作，推出一站式租屋管理服務&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;遠東銀行旗下社群銀行Bankee，近期與租屋平臺Wholive+ 租屋管家合作，推出一站式租屋管理服務。該行表示，此服務主要想為房東與房客，優化每月收繳房租流程，解決收付租金、管理帳務、繳費提醒等問題，將與租屋平臺共同提供服務給上萬名用戶。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;當房東與房客在租屋平臺完成合約設定後，房東將每月房租、水電費等各項費用資訊發送給房客，房客在收到帳單後點選線上繳租，系統便會連結Bankee社群銀行App，自動帶入房東轉帳帳號與金額來完成轉帳。同時，該平臺提供自動提醒繳租與事後支付提醒。後續，遠東銀行也計畫在平臺上線房東行事曆記錄、租金收取方式如新增年收，或是租屋保險、青年租貸等功能。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%964_%E9%81%A0%E9%8A%80Bankee_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_%E9%81%A0%E6%9D%B1%E9%8A%80%E8%A1%8C.jpeg&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; PayPal &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 英國 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px; color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 加密貨幣 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt; &lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 14pt;&quot;&gt;&lt;span style=&quot;vertical-align: top; font-size: 22px;&quot;&gt;PayPal加密貨幣交易服務跨出美國進軍英國市場，最低1英鎊就能購買加密貨幣&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;線上支付服務業者PayPal在去年底開放用戶持有及買賣加密貨幣，今年3月開始支援美國市場以加密貨幣付款，繼之在8月下旬宣布將提供英國用戶透過該平臺買進、持有與銷售加密貨幣。 &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;PayPal用戶只要登入行動程式或PayPal網站，就能查看比特幣（Bitcoin）、以太幣（Ethereum）、比特幣現金（Bitcoin Cash），以及萊特幣（Litecoin）等4種加密貨幣的價格並進行交易，平臺上同時也提供了有關加密貨幣的教育內容與風險問題，而這也是PayPal的加密貨幣服務第一次踩出美國，進軍國際市場。&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;vertical-align: top; font-family: 微軟正黑體, sans-serif; font-size: 18.6667px;&quot;&gt;從PayPal所發布的新聞稿看來，英國用戶現在只能買進、持有與售出加密貨幣，尚無法把加密貨幣作為付款選項之一，不過，用戶最低以1英鎊就能購買加密貨幣。&lt;a href=&quot;https://www.ithome.com.tw/news/146346&quot;&gt;（詳全文）&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;vertical-align: top; margin: 0px 0px 1.5em; font-size: 14pt; line-height: 2em; font-family: 微軟正黑體, sans-serif; background-color: rgb(247, 247, 247);&quot;&gt;&lt;span style=&quot;font-size: 14pt; vertical-align: top;&quot;&gt;圖片來源／&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Visa&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;第一銀行&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;遠東銀行&lt;/span&gt;&lt;br /&gt;
-責任編輯／李靜宜&lt;br /&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;vertical-align: top; background-color: rgb(51, 153, 255);&quot;&gt; 金融科技近期新聞 &lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong style=&quot;font-size: 14pt; vertical-align: top;&quot;&gt;1&lt;/strong&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;. &lt;/strong&gt;&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146345&quot;&gt;今年Q2全球對加密貨幣的採用成長881%，前3大採用國家是越南、印度與巴基斯坦&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;2.&lt;/strong&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt; &lt;/strong&gt;&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146257&quot;&gt;傳大通銀行（Chase Bank）因不明系統問題，導致客戶資料可被他人查詢&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;3. &lt;/strong&gt;&lt;strong&gt;富邦人壽導入微軟Teams服務，推出一站式視訊投保平臺&lt;/strong&gt;&lt;br /&gt;&lt;strong style=&quot;font-size: 14pt; vertical-align: top;&quot;&gt;資料來源：iThome整理，2021年9月&lt;/strong&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 01 Sep 2021 07:59:10 +0000</pubDate>
- <dc:creator>李靜宜</dc:creator>
- <guid isPermaLink="false">146481 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146481#comments</comments>
-</item>
-<item>
- <title>臉書開發的Go實體框架Ent已轉移至Linux基金會</title>
- <link>https://www.ithome.com.tw/news/146482</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;原本由臉書，在2019年所開發的開源Go實體框架&lt;a href=&quot;https://www.linuxfoundation.org/press-release/ent-joins-the-linux-foundation/&quot;&gt;Ent&lt;/a&gt;，已經成功轉移到Linux基金會下，使其在中立的開源生態系中快速發展，並培養使用者和社群。&lt;/p&gt;
-&lt;p&gt;臉書開發Ent的目的，是要讓開發人員能以較簡單的方式，開發複雜的後端應用程式，Linux基金會提到，開發後端應用程式的開發人員，面臨維護管理不同實體類型程式碼庫的挑戰，這些實體之間的關係非常複雜，而Ent使用圖（Graph）的概念，對應用程式模型建模，並採用先進的程式碼生成技術，創建安全且高效能的程式碼，和其他方法相比，能夠大幅簡化資料庫的工作。&lt;/p&gt;
-&lt;p&gt;Ent類似於傳統的物件關聯對映程式（Object-Relational Mappers），但是採用另一種方法，目的是要有效提高開發人員的生產力。由於在Ent中，是以圖的概念來表示架構，並不是常見的表格導向方法，因此在走訪資料集和表達複雜查詢時更容易，且不容易出錯。&lt;/p&gt;
-&lt;p&gt;而Ent所生成的程式碼，是屬於完全類型安全，這代表在開發過程中，很早就能發現常見的類型錯誤，並且能夠讓程式碼編輯軟體更好地理解Ent程式碼，提供開發人員有用的提示和回應。另外，官方還提到，架構是以實際的Go程式碼定義，這促進豐富功能集發展，包括監控系統的整合，或是資料存取層的隱私授權規則定義等。&lt;/p&gt;
-&lt;p&gt;從2019年以來，臉書、GitHub和Scaleway等企業的工程師，都貢獻過Ent專案程式碼，CNCF和其他開源生態系也採用Ent，Ent創建者和主要維護者Ariel Mashraki提到，他們想要透過開源，和廣泛的用戶聯盟合作。&lt;/p&gt;
-&lt;p&gt;Ariel Mashraki因為最近創建了一家以Ent為基礎，提供資料結構解決方案的公司，因此想將Ent專案託管於中立的Linux基金會，希望讓Ent能夠成為Go中的資料存取產業標準。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 01 Sep 2021 07:31:37 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146482 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146482#comments</comments>
 </item>
 </channel>
 </rss>
