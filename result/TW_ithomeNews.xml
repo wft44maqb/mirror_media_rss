@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/5069/11298" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/5069/11298</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/5069/11298" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
     <title>Twitter測試安全模式以自動封鎖騷擾帳號</title>
     <link>https://www.ithome.com.tw/news/146498</link>
@@ -100,7 +100,7 @@
  <guid isPermaLink="true">https://www.ithome.com.tw/voice/146393</guid>
   </item>
   <item>
-    <title>資安一周第161期：資策會參與首屆國際級工控資安評測。美國白宮舉行資安高峰會</title>
+    <title>資安一周第161期：首屆國際級工控資安評測結果出爐。美國白宮舉行資安高峰會</title>
     <link>https://www.ithome.com.tw/news/146483</link>
     <description> 8/26-9/1必看資安新聞
  
