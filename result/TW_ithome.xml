@@ -6,6 +6,23 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>美國FTC出手禁止跟蹤軟體SpyFone</title>
+ <link>https://www.ithome.com.tw/news/146500</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.ftc.gov/news-events/press-releases/2021/09/ftc-bans-spyfone-and-ceo-from-surveillance-business&quot; target=&quot;_blank&quot;&gt;美國聯邦交易委員會（FTC）周三（9/1）宣布&lt;/a&gt;，將禁止跟蹤軟體業者SpyFone及其執行長Scott Zuckerman從事監控業務，指出SpyFone秘密蒐集及分享手機用戶的實際位置、手機的使用及網路活動，而且經常是在手機用戶不知情的狀態下。&lt;/p&gt;
+&lt;p&gt;跟蹤軟體通常是由監控人安裝在受害者的手機上，監控人可透過電子郵件或網路服務存取受害者的位置、通訊錄、簡訊，甚至是視訊內容，而且它會在背景運作，沒有圖示也沒有通知，美其名為家長用來監控兒童的程式，卻不時受到跟蹤狂或雇主的濫用。&lt;/p&gt;
+&lt;p&gt;2019年時曾有一波針對跟蹤軟體的掃盪行動，&lt;a href=&quot;https://www.ithome.com.tw/news/131934&quot; target=&quot;_blank&quot;&gt;當時Google移除了Google Play上的7款跟蹤軟體&lt;/a&gt;，&lt;a href=&quot;https://www.ithome.com.tw/news/133770&quot; target=&quot;_blank&quot;&gt;FTC出手禁售3款跟蹤軟體&lt;/a&gt;，更&lt;a href=&quot;https://www.ithome.com.tw/news/134367&quot; target=&quot;_blank&quot;&gt;有10個組織共同創立了「抵制跟蹤軟體聯盟」（Coalition Against Stalkerware）&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;至於SpyFone則是美國的跟蹤軟體開發商，縱使&lt;a href=&quot;https://www.spyfone.com/&quot; target=&quot;_blank&quot;&gt;其官網強調&lt;/a&gt;它是用來強化家庭的聯繫，也&lt;a href=&quot;https://www.spyfone.com/faq&quot; target=&quot;_blank&quot;&gt;特別註明&lt;/a&gt;為了抑制非法使用，它不但會在手機上出現圖示，每12個小時還會在手機上出現正在執行跟蹤軟體的訊息，以及自遠端所蒐集的資料內容等。&lt;/p&gt;
+&lt;p&gt;然而，FTC的調查卻發現，SpyFone要求買家繞過手機上的許多安全限制，還提供了指南，協助買家在手機上藏匿跟蹤軟體的蹤跡，以防受害者察覺。此外，有些功能必須在安裝軟體時破解手機，將增加手機的安全風險，或是失去裝置的保固。&lt;/p&gt;
+&lt;p&gt;FTC還批評SpyFone對於所蒐集的資料也未具備足夠的安全保護措施，例如所儲存的機密資料，不管是照片或文字簡訊都未加密，也沒有確保只有經過身分認證的使用者可存取這些機密資料，更以明文傳送買家的存取密碼。在2018年時，SpyFone曾遭到駭客入侵，約有2,200名買家的資料外洩，當時SpyFone曾承諾會與資安專家及執法機構合作展開調查，最後卻不了了之。&lt;/p&gt;
+&lt;p&gt;以上種種使得FTC委員無異議地通過表決，要求SpyFone刪除所有非法蒐集的資料，而且必須通知受害者自己遭到監控，不過此一命令必須經過30天的公眾意見收集之後，才會付諸實行。&lt;/p&gt;
+&lt;p&gt;值得注意的是，這類的跟蹤軟體幾乎都只有在Android平臺上，才能發揮全面的跟蹤功能，SpyFone所提供的付費服務全部都是針對Android裝置。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 02 Sep 2021 08:05:43 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146500 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146500#comments</comments>
+</item>
+<item>
  <title>Twitter測試安全模式以自動封鎖騷擾帳號</title>
  <link>https://www.ithome.com.tw/news/146498</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blog.twitter.com/en_us/topics/product/2021/introducing-safety-mode&quot; target=&quot;_blank&quot;&gt;Twitter於本周三（9/1）宣布&lt;/a&gt;，即日起將於少數的iOS、Android與Twitter.com平臺上的帳號，測試安全模式（Safety Mode）功能，啟用安全模式之後，系統將會自動替該帳號封鎖那些留下侮辱或仇恨字眼的騷擾帳號。目前的測試僅限於啟用英文的Twitter用戶。&lt;/p&gt;
@@ -260,77 +277,6 @@ C. 使用GPU農場共享GPU-利用整合持久叢集（persistent cluster）與�
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146489 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146489#comments</comments>
-</item>
-<item>
- <title>永豐金證券靠API布局程式交易，用數據深化數位經營</title>
- <link>https://www.ithome.com.tw/people/146399</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;去年3月，臺灣證券市場全面實施盤中逐筆交易制度，從以往5秒一撮合的集合競價，改採逐筆即時撮合。不只讓成交回報的速度更快也更多，連帶行情報價資訊也跟著變快、變多。這項變革，對高頻交易與程式交易投資人，比如主力大戶或法人帶來很大的衝擊，這群投資人需要更快獲得交易資訊，才來進行整合或策略判斷。&lt;/p&gt;
-&lt;p&gt;這個變革帶來了新的競爭場域，永豐金證券早在新制上路之前，於前年就展開了布局，在開源專案平臺GitHub上釋出一套下單交易相關的API，稱為永豐金證券Python API，以資料科學家常用的Python API套件和Docker映像檔格式的方式來釋出，主要有跨平臺下單交易和即時行情資訊兩大功能。永豐金證券團隊在後臺使用C++的核心與FPGA事件代理，來提高系統交易的穩定度與快速報價交易。&lt;/p&gt;
-&lt;p&gt;程式交易投資人可以在自家AP中，利用這一套Python API來串接永豐金證券，自行客製自動化交易策略、資金與部位管理策略來自動下單。&lt;/p&gt;
-&lt;p&gt;永豐金證券維護速度也很頻繁，每隔1到2周就會釋出一次API的小更新。根據GitHub上的記錄，這組API每月下載量近5,000次，等於有數千支AP或開發團隊，利用API來進行程式化下單。&lt;/p&gt;
-&lt;p&gt;「透過Python API下單的交易量，單月更達到150億元到180億元之間。」永豐金證券數位金融處處長蘇威嘉，更揭露Python API帶來的業務成效。這個在3年前展開的技術布局，現在成了永豐金證券重要的營收來源之一。&lt;/p&gt;
-&lt;p&gt;交易員出身，擔任過業務主管、資訊主管的蘇威嘉，一路觀察證券市場的轉換，他提到，去年臺灣證券市場接軌國際實施逐筆撮合，加上近年當沖交易稅減半的優惠，打下了程式交易的重要基礎，他認為，程式交易將在未來成為主要趨勢。&lt;/p&gt;
-&lt;p&gt;專業投資人程式交易方式可分為兩類， 一類是使用券商提供以C++或Python程式語言開發的API，另一類是程式交易套裝軟體如MultiCharts。與其花費大把工夫建置套裝下單軟體，再提供給投資人使用，蘇威嘉認為，API更值得大力發展。&lt;/p&gt;
-&lt;p&gt;永豐金證券過去已在自家AP中提供C語言開發的API下單服務，但，蘇威嘉坦言，這批API的使用者多為40歲以上的交易者。後來，永豐金證券重新評估API未來策略，決定改為擁抱Python語言，「主因是Python的潛力最為廣大， 能觸及的層面也最大，又能看到未來趨勢。」他說。&lt;/p&gt;
-&lt;p&gt;蘇威嘉進一步解釋，Python的市占率持續提升，使用人數將會越來越多，尤其對新世代投資人來說，Python比起其他程式語言相對容易上手，可以成為永豐金證券與其他券商競爭的利器之一。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;新成立數位金融處，第三階段轉型為推動數位經營&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Python API只是永豐金證券數位轉型發展的其中一項成果，蘇威嘉表示，過去，如推出證券數位帳戶、定期存股平臺、理財文章平臺，以及建置IT基礎建設等，主要是為發展數位經營打基底。但在今年4月，永豐金證券正式成立了數位金融處，啟動了第三階段數位轉型，要大力推動數位經營。&lt;/p&gt;
-&lt;p&gt;永豐金證券先在去年底展開組織調整，花了3、4個月，來討論新的數位金融處需要那些元素。最後，決定在數位金融處下設立數位業務部、平臺發展部、行銷服務部、數據應用部、投資顧問部等5個子部門。&lt;/p&gt;
-&lt;p&gt;蘇威嘉提到，新組織的成立，讓內部分工更為明確，進而能加速發展數位金融。例如很早就計畫要推出一個選股交易App的專案，但一直無法組成團隊而導致專案頻頻重來，後來改由數位金融處接手，才組成專案團隊上線App。&lt;/p&gt;
-&lt;p&gt;蘇威嘉強調：「第三階段數位轉型，要開始啟動真正的數位經營。」以往，永豐金證券是靠人來經營顧客，例如透過客服人員與營業員，可是，當遇到顧客私下若有建議或負面反應時，不容易即時得知來進行改善，甚至有時真正改善問題了，卻為時已晚，也有些習慣沈默的客群，往往可能默默忍受很久而不會反應，永豐金證券就更難以知道該如何改善。&lt;/p&gt;
-&lt;p&gt;因此，永豐金證券發展數位經營時，決定從一個重要的角度來思考，要假設沒有營業員的情況下，如何在各個平臺中，蒐集顧客的行為資訊與回饋，來逐步調校系統。&lt;/p&gt;
-&lt;p&gt;另一方面，永豐金證券也希望加快系統調整優化的步調，因為他們過往的系統多採取委外開發與維運，每換版一次需耗時1到3個月，現在也決定將開發與維運的主導權回歸到自家團隊，來確保介面、服務開發時有足夠的彈性，可以盡快在第一時間反應。&lt;/p&gt;
-&lt;p&gt;甚至，蘇威嘉坦言，營業員人力有限，多半會依據顧客可以帶來的價值，來決定接觸策略，但難免有一群長尾客戶，一直以來都欠缺了專人來提供服務。不過，他反思，這些長尾客戶真的不需要服務嗎？或者，真的只能帶來這麼少的價值嗎？永豐金證券希望透過數位經營，在長尾客群中，找出另外的新價值，更要經營年輕世代，這些都是他們未來的重點方向。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1040-CDO-%E8%98%87%E5%A8%81%E5%98%89_500_%E6%94%9D%E5%BD%B1_%E6%B4%AA%E6%94%BF%E5%81%89(1).jpg&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;發展數位金融要多年累積，就算走岔路或回到原點，不怕碰壁，最終會找出正確的方向。──永豐金證券數位金融處處長 蘇威嘉　&lt;/strong&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt; &lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;（攝影／洪政偉）&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;聚焦3大策略落實數位經營，建構顧客360度圖譜分析打造數據心臟&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;鎖定發展數位經營這個大主軸，永豐金證券要靠3大策略來落實，包括建立數據心臟，透過數據輔助數位經營，滿足顧客潛在需求；強化一條龍的線上交易服務；以及建立數位業務單位，經營純線上客群。&lt;/p&gt;
-&lt;p&gt;在打造數據心臟部分，永豐金證券委外採用Hadoop建置了一套數位足跡採集系統，主要結合了交易資料、平臺使用習慣、社群互動狀態、行銷回饋的資訊、外部開放資料如市場資訊等各種結構與非結構化數據。蘇威嘉估算，這套數據系統的資料量，每年以數十億條的數量來增長。&lt;/p&gt;
-&lt;p&gt;甚至，永豐金證券還會追蹤自家電子平臺如理財文章App中，非交易段的用戶足跡。他表示，這個內容平臺每月約有幾十萬次的瀏覽量，透過用戶瀏覽相關理財文章的足跡，可以掌握用戶常用功能與服務斷點，更可作為優化自家平臺流程的參考或依據。未來，這些顧客來開戶，獲得同意後也可以整合他們過往在平臺上瀏覽的足跡。&lt;/p&gt;
-&lt;p&gt;而為了減少數據單位、資訊單位協助產製報表的時間與功夫，永豐金證券也建置了一套自助式的內部Cube報表生成服務，業務單位自己就可以獲取數據來分析解決問題。&lt;/p&gt;
-&lt;p&gt;建立了一套數位足跡採集系統後，接下來，永豐金證券開始將各種不同面向的客戶行為軌跡進行整合，透過大數據分析建立客戶標籤，來建構顧客360度圖譜分析。&lt;/p&gt;
-&lt;p&gt;蘇威嘉提到，數據團隊數位分析人員來負責貼標工作，會標示出包括客戶類型、產品類型、產品分類、客戶行為、交易類型，該名顧客進入平臺的時間長短，或是該名顧客即將成為靜止戶等，或是標記顧客使用平臺的生命周期，亦或所用產品的服務面向等， 都會盡可能找出更多特徵來貼標。他認為，等到顧客360度圖譜分析開始應用時，也會有機會再次調校標籤，來讓這些標籤更為精準。&lt;/p&gt;
-&lt;p&gt;蘇威嘉提到，目前已經將360度圖譜分析導入交易系統中，建立了客戶開戶促購流程，開戶後還結合自動觸發機制來促購推播資訊，讓顧客盡快開始嘗試交易系統。一旦顧客完成第一次交易後，交易系統則會再次進行促購等交易流程。為了持續經營顧客，永豐金證券會依據每位顧客的證券庫存資訊來提供個人化的參考資訊。&lt;/p&gt;
-&lt;p&gt;甚至，永豐金證券也考慮要進一步分析交易行為來定義顧客，比如根據交易行為來判斷該名顧客是否為當沖戶，或是歸納出顧客投資標的類型等。不過，他坦言，因為永豐金證券鎖定的是長尾客戶，目前累積的交易行為數據量還不足以定義顧客，得再蒐集更多後續顧客的數據，未來，希望能透過數據發現對顧客的洞察，歸納出顧客行為模式，盡快提供顧客真正想要的東西。&lt;/p&gt;
-&lt;p&gt;透過顧客的360度圖譜建構出來的顧客各面向變數，永豐金證券更進一步藉由AI模型與演算法，對顧客進行精準分銷、客戶經營與風險控管，例如可以將自家投顧單位的分析報告，依據顧客特性，進行更精細的分類，再提供給不同特性的顧客來經營客群。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;成立數位業務服務團隊經營純線上客群&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;不只要用數據來輔助數位經營，今年，永豐金證券數位轉型的另一大重點是成立專門的數位服務組織，由現有語音客服、線上客服團隊，再加上新成立的接單團隊、數位服務團隊與數位經營團隊來組成，負責承接所有數位引流客戶的交易與服務需求，來經營純線上的客群。&lt;/p&gt;
-&lt;p&gt;永豐金證券用了不少數位工具來輔助經營純線上客群。像是透過顧客行為數據的蒐集，來預測這位顧客可能出現的障礙點，主動提供預測性的服務，例如主動發送理財網站內容給持有交易處置股的投資人。此外，也導入客戶體驗管理機制（NPS）蒐集顧客接觸點的回饋，提供即時支援並作為後續流程與平臺優化的依據。&lt;/p&gt;
-&lt;p&gt;不過，永豐金證券內部統計，透過數位引流進來的客群，電子交易比重超過95%，但，這些客群仍會有線下接觸點的需求，除了客服中心的支援，也同樣由數位業務服務團隊將扮演線下接觸點與數位獲客的角色，最終還是希望用數位方式來服務。蘇威嘉表示：「只要是營業員無法觸及到的服務，團隊都盡量要透過數位方式來補足。」&lt;/p&gt;
-&lt;p&gt;不只是大力將面對顧客的各項服務數位化，永豐金證券去年也導入了機器人流程自動化（RPA），來提高內部多項作業的自動化程度。導入的部門包含了借券、結算、業管、財務、會計、人資、資訊、數金等。&lt;/p&gt;
-&lt;p&gt;至今已有不少的RPA應用成果，比如結算部門以往在複委託帳務，無法直接取得交易所得的資訊，如配股、配息、ADR fee等資訊，需人工瀏覽券商網站或交易所網頁進行比對再輸入到系統中；現在，改靠RPA程式自動進行查找與輸入，每次可以減少20分鐘以上的作業時間，也能減少人工輸入錯誤的機率。&lt;/p&gt;
-&lt;p&gt;在帶領數位金融處的過程中，蘇威嘉認為，最大挑戰是人才培育與如何形塑新組織文化。因為，新成立的數位金融處囊括了5個部門，如何確保團隊密切整合，共同落實數位金融經營，成為了非常重要的課題。他選擇以開放、接納不同意見的思維來帶領團隊，藉由開設多個工作坊的方式，塑造團隊合作、勇於溝通的氛圍，更透過專案執行，來訓練數金處的團隊作戰力。&lt;/p&gt;
-&lt;p&gt;開放思維的管理方式，經常會遇到團隊成員提出了跳耀性的創新想法，蘇威嘉會嘗試在主管機關的限制範圍內，與團隊建立起共識，持續發展創新之餘，先逐步打好基礎，等待主管機關一旦開放，就能快速將創新服務推出市場。這正是數金主管，持續讓團隊保持積極前進動力的心法。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;strong&gt;CDO小檔案&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;蘇威嘉&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;永豐金證券數位金融處處長&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;學歷：哥倫比亞大學財務工程系碩士、任色列理工學院資訊系碩士&lt;/p&gt;
-&lt;p&gt;經歷：曾在KBC Financial Products擔任資深交易員。爾後，陸續在永豐金旗下公司擔任要職，曾任永豐金證券（亞洲）營運長、永豐金資產管理（亞洲）總經理、永豐金證券資訊處處長。現任永豐金證券數位金融處處長，統領5大單位往數位經營邁進。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;strong&gt;公司檔案&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;永豐金證券&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;● 成立時間：1988年&lt;/p&gt;
-&lt;p&gt;● 主要業務：永豐金控全資證券子公司，業務範圍涵蓋經紀、自營、承銷、國際、債券及新金融商品等&lt;/p&gt;
-&lt;p&gt;● 董事長：朱士廷&lt;/p&gt;
-&lt;p&gt;● 總經理：江偉源&lt;/p&gt;
-&lt;p&gt;● 年營收：11,135,555（仟元）&lt;/p&gt;
-&lt;p&gt;● 資本額：162.12億元&lt;/p&gt;
-&lt;p&gt;● 員工人數：2,293人&lt;/p&gt;
-&lt;p&gt;● 網址：securities.sinopac.com&lt;/p&gt;
-&lt;p&gt;● 地址：臺北市中正區重慶南路一段2號7樓、18樓及20樓&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;數位部門名稱：數位金融處&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;● 直屬主管：江偉源&lt;/p&gt;
-&lt;p&gt;● 數位部門主管：蘇威嘉&lt;/p&gt;
-&lt;p&gt;● 數位部門人數：86人&lt;/p&gt;
-&lt;p&gt;● 每年部門預算：3億元&lt;/p&gt;
-&lt;p&gt;● 數位部門分工：數位業務部、平臺發展部、行銷服務部、數據應用部、投資顧問部&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;大事記&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;● 2021年4月1日：數位金融處正式成立&lt;/p&gt;
-&lt;p&gt;● 2021年4月27日：大戶投App正式上線&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/1040-cdo-su_wei_jia_960_she_ying_hong_zheng_wei_.png&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; title=&quot;永豐金證券數位金融處處長 蘇威嘉　（攝影／洪政偉）&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 01 Sep 2021 23:00:00 +0000</pubDate>
- <dc:creator>李靜宜</dc:creator>
- <guid isPermaLink="false">146399 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/people/146399#comments</comments>
 </item>
 </channel>
 </rss>

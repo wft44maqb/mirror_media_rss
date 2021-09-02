@@ -4,7 +4,7 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=635&amp;profile=rss20" rel="self" type="application/rss+xml" />
       <item>
     <title>Twitter測試安全模式以自動封鎖騷擾帳號</title>
     <link>https://www.ithome.com.tw/news/146498</link>
