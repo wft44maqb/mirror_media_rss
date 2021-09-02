@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/2065" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/atom/2065</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/2065" rel="self" type="application/rss+xml" />
       <item>
+    <title>Windows 11測試者若硬體不符要求，將被要求回到Windows 10</title>
+    <link>https://www.ithome.com.tw/news/146496</link>
+    <description> 微軟鐵了心，如果用戶PC硬體規格不符的話，連測試都不能用Windows 11。
+一名加入Windows Insider方案的用戶試用Windows 11時接到系統通知，告知他的PC不符合Windows 11執行的最低硬體要求。事實上，他也不具Windows 11 Insider測試方案的資格，因此要求他到Release Preview頻道改安裝Windows 10。</description>
+     <pubDate>2021-09-02  01:09:02</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146496</guid>
+  </item>
+  <item>
     <title>Twitter超級粉絲功能正式於iOS上登場</title>
     <link>https://www.ithome.com.tw/news/146495</link>
     <description> Twitter在今年2月發表的超級粉絲（Super Follows）功能終於在iOS平臺上登場了，擁有大批粉絲的Twitter創作者可以設定2.99美元、4.99美元與9.99美元等3種月租費價格，而Twitter則會在創作者的訂閱收入超過5萭美元門檻之後，才會向創作者抽成。</description>
@@ -253,15 +262,6 @@ Google執行長Sundar Pichai指出，隨著今年稍早疫情好轉，有更多�
      <pubDate>2021-08-31  12:08:17</pubDate>
  <dc:creator>黃郁芸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146405</guid>
-  </item>
-  <item>
-    <title>中國出手限制未成年人的遊戲時間，只有周末與假日可以玩網路遊戲</title>
-    <link>https://www.ithome.com.tw/news/146460</link>
-    <description> 中國國家新聞出版署於30日發布了《關於進一步嚴格管理 切實防止未成年人沈迷網路遊戲的通知》，以避免中國的未成年人過度使用或沈迷網路遊戲，嚴格規定未成年人只能在周五到周日、以及法定假日各玩一小時，讓中國遊戲兩大業者騰訊及網易的股價，在31日一開盤就下挫3%以上。
-此一通知嚴格限制了遊戲業者向未成年人提供網路遊戲服務的時間，所有的遊戲業者只能在周五、周六、周日，以及法定假日的每天晚上8點到9點提供1小時的服務予未成年人，其它時間皆不允許。</description>
-     <pubDate>2021-08-31  12:08:13</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146460</guid>
   </item>
   </channel>
 </rss>
