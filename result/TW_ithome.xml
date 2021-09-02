@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Windows 11測試者若硬體不符要求，將被要求回到Windows 10</title>
+ <link>https://www.ithome.com.tw/news/146496</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟鐵了心，如果用戶PC硬體規格不符的話，連測試都不能用Windows 11。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/BetaWiki/status/1432806974022995971&quot; target=&quot;_blank&quot;&gt;一名加入Windows Insider方案的用戶試用Windows 11時接到系統通知&lt;/a&gt;，告知他的PC不符合Windows 11執行的最低硬體要求。事實上，他也不具Windows 11 Insider測試方案的資格，因此要求他到Release Preview頻道改安裝Windows 10。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mspoweruser.com/microsoft-is-booting-windows-11-insiders-with-non-compliant-pcs-back-to-windows-10/&quot; target=&quot;_blank&quot;&gt;MS Power User報導&lt;/a&gt;，目前忽略這則通知的結果不明，可能只是再也接不到新Windows 11測試版本，但仍然可以持續使用。&lt;/p&gt;
+&lt;p&gt;但是這顯然和微軟今年6月釋出Windows 11預覽版時的公開說法不同。雖然跑正式版本Windows 11的PC，需要符合支援TPM 2.0的64-bit處理器或是SoC，像是Intel第8代處理器、AMD Zen 2或Qualcomm 7/8 Series、4GB RAM及64GB儲存容量等要求，但是&lt;a href=&quot;https://www.ithome.com.tw/news/145317&quot; target=&quot;_blank&quot;&gt;微軟允許不支援TPM 2.0的舊PC也可以下載測試版Windows 11&lt;/a&gt;。顯然現在微軟改變心意。&lt;/p&gt;
+&lt;p&gt;微軟以安全、穩定性及應用程式相容性為由，十分堅持滿足規格要求的PC才能安裝執行Windows 11。微軟表示，不同於Windows 10，Windows 11無法藉由變更群組政策及Intune組態管理功能來強制安裝。微軟上周允許「不受支援」的舊PC以ISO安裝Windows 11，&lt;a href=&quot;https://www.ithome.com.tw/news/146448&quot; target=&quot;_blank&quot;&gt;但警告&lt;/a&gt;這些PC未來無法透過Windows Update自動下載更新。&lt;/p&gt;
+&lt;p&gt;最新版Windows作業系統即將&lt;a href=&quot;https://www.ithome.com.tw/news/146474&quot; target=&quot;_blank&quot;&gt;在今年10月5日開始部署&lt;/a&gt;，符合資格的Windows 10 PC可免費升級。過程中微軟會根據Windows PC的系統規格、裝置年齡等判斷，陸續部署到用戶終端。愈新的電腦愈可能及早從Windows Update接到安裝通知。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 02 Sep 2021 05:32:02 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146496 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146496#comments</comments>
+</item>
+<item>
  <title>Twitter超級粉絲功能正式於iOS上登場</title>
  <link>https://www.ithome.com.tw/news/146495</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Twitter在今年2月發表的&lt;a href=&quot;https://blog.twitter.com/en_us/topics/product/2021/introducing-super-follows&quot; target=&quot;_blank&quot;&gt;超級粉絲（Super Follows）功能終於在iOS平臺上登場&lt;/a&gt;了，擁有大批粉絲的Twitter創作者可以設定2.99美元、4.99美元與9.99美元等3種月租費價格，而Twitter則會在創作者的訂閱收入超過5萭美元門檻之後，才會向創作者抽成。&lt;/p&gt;
@@ -13,7 +28,7 @@
 &lt;p&gt;超級粉絲可望成為除了廣告之外的另一個Twitter營收來源，Twitter認為不管是活動家、媒體人、音樂家、內容策畫書、作家、遊戲玩家、占星專家、護膚/美容專家、喜劇演員或體育專家，都有潛力成為該平臺上的創作者，並藉由超級粉絲功能創造收入。&lt;/p&gt;
 &lt;p&gt;與一般粉絲不同的是，超級粉絲雖然必須繳交月費，但可閱讀創作者所釋出的特別內容，也能與創作者有更緊密的互動，例如護膚專家MakeupforWOC即打算提供個案的治療建議，還會回答超級粉絲的問題；或者是占星專家@tarotbybronx將提供占星術與塔羅牌的深入研究，同時針對超級粉絲提供心靈療法。&lt;/p&gt;
 &lt;p&gt;一般的粉絲只會有藍色的標章，超級粉絲則擁有桃紅色的特殊標章，讓創作者一眼就能辨識超級粉絲。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn.cms-twdigitalassets.com/content/dam/blog-twitter/official/en_us/products/2021/super-follows-sep-2021/consumer_view_of_profile_presubscribe_screen.png.img.fullhd.medium.png&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn.cms-twdigitalassets.com/content/dam/blog-twitter/official/en_us/products/2021/super-follows-sep-2021/consumer_view_of_tweet_thread.png.img.fullhd.medium.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Twitter&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;根據&lt;a href=&quot;https://www.theverge.com/2021/9/1/22651138/twitter-super-follow-launch-subscription-ios?scrolla=5eb6d68b7fedc32c19ef33b4&quot; target=&quot;_blank&quot;&gt;The Verge的報導&lt;/a&gt;，Twitter的超級粉絲採用的是Stripe支付平臺，初期除了Stripe所收取的3%手續費之外，其它97%全數歸創作者所有，Twitter則會一直到創作者所累積的訂閱營收達到5萬美元的門檻之後，才會開始向創作者收取佣金，而屆時創作者仍將保有80%的收入。&lt;/p&gt;
 &lt;p&gt;不過，要向Twitter申請成為可提供超級粉絲服務的創作者必須符合一定的資格，目前的條件是必須擁有1萬人以上的粉絲，年滿18歲，且在過去30天推文超過25次，此外，現階段只開放美國用戶申請。&lt;/p&gt;
@@ -295,21 +310,6 @@
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="false">146482 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146482#comments</comments>
-</item>
-<item>
- <title>去年美國當地學校受到77次的勒索軟體攻擊，光是停機成本就損失66億美元</title>
- <link>https://www.ithome.com.tw/news/146480</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;提供網路安全及隱私消息的&lt;a href=&quot;https://www.comparitech.com/blog/information-security/school-ransomware-attacks/&quot; target=&quot;_blank&quot;&gt;Comparitech在本周指出&lt;/a&gt;，2020年駭客針對美國地區的學校，總計發動了77次的勒索軟體攻擊，雖然攻擊次數低於2019年的96次，但所影響的學生多達136萬人，高於2019年的81萬人，猜測是駭客愈趨鎖定大型學校為目標所造成的差異。&lt;/p&gt;
-&lt;p&gt;過去勒索軟體駭客並不特別青睞學校，2018年的攻擊案件只有10件，但2019年就激增到96件，去年為77件，今年上半年則是39件。&lt;/p&gt;
-&lt;p&gt;調查顯示，在去年的77次攻擊事件中，波及了1,740所學校與136萬名學生，光是學校停機的成本就多達66.2億美元，且還不計算所支付的贖金、恢復正常運作或是改善資安的成本。&lt;/p&gt;
-&lt;p&gt;去年駭客鎖定學校最大的一次攻擊事件，發生在內華達州的克拉克郡學區，那是美國第五大學區，擁有374所學校，受到Maze勒索軟體的攻擊，約有33萬名學生受到影響。由於該郡決定不支付贖金，使得駭客公布了所竊取的學生資訊，大約有4.4萬名學生的資料被公開。&lt;/p&gt;
-&lt;p&gt;Comparitech的分析顯示，駭客向學校勒索的贖金從1萬美元到超過100萬美元，學校的平均停機時間接近7天，恢復期則長達55.4天。&lt;/p&gt;
-&lt;p&gt;至少有5所學校支付了贖金，例如加州大學舊金山分校付了114萬美元予NetWalker駭客，加州社區大學Imperial Valley College付了5.5萬美元給Sodinokibi駭客，德州的Athens Independent School District學區付了駭客5萬美元，同樣位於德州的Sheldon Independent School District 學區付了20萬美元，猶他大學付了45萬美元。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 01 Sep 2021 06:30:00 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146480 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146480#comments</comments>
 </item>
 </channel>
 </rss>

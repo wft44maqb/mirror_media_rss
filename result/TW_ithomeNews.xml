@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=213&amp;amp%3Bprofile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>Twitter超級粉絲功能正式於iOS上登場</title>
+    <link>https://www.ithome.com.tw/news/146495</link>
+    <description> Twitter在今年2月發表的超級粉絲（Super Follows）功能終於在iOS平臺上登場了，擁有大批粉絲的Twitter創作者可以設定2.99美元、4.99美元與9.99美元等3種月租費價格，而Twitter則會在創作者的訂閱收入超過5萭美元門檻之後，才會向創作者抽成。</description>
+     <pubDate>2021-09-02  01:09:05</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146495</guid>
+  </item>
+  <item>
     <title>蘋果Apple Wallet將可存放美國8州的數位駕照與州ID</title>
     <link>https://www.ithome.com.tw/news/146494</link>
     <description> 蘋果本周宣布，已與美國8個州合作，讓這些州的民眾可將駕照與州ID資訊存放在iPhone及Apple Watch的Apple Wallet上，率先實施的將是亞利桑那州與喬治亞州，康乃迪克、愛荷華、肯塔基、馬里蘭、奧克拉荷馬及猶他州則會隨後跟上。</description>
@@ -254,16 +262,6 @@ Google執行長Sundar Pichai指出，隨著今年稍早疫情好轉，有更多�
      <pubDate>2021-08-31  12:08:13</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146460</guid>
-  </item>
-  <item>
-    <title>臺北市力推BYOD計畫！柯文哲：要讓每位學生都能自帶設備上課，確保線上學習能力</title>
-    <link>https://www.ithome.com.tw/news/146456</link>
-    <description> 為了迎接9/1日開學日，臺北市政府今日不僅提供校園教學和生活指引，也針對即將展開的學校BYOD（學生自備載具到校學習）計畫，提出更多的說明。
-為因應未來可能採取的線上線下混合上課模式，臺北市教育局不久前剛宣布110學年度將展開BYOD計畫，讓市立高中職部分班級學生可以攜帶個人行動設備到校上課，做為課堂上的教學或學習工具使用。
-在今天的臺北市防疫因應記者會上，臺北市市長柯文哲表示，透過這項計畫，未來要讓每位學生都能自帶行動裝置到校上課，來確保學生線上學習能力。他表示，未來可能以一周半天或兩周一天採行BYOD的方式，讓在校學生開始習慣遠距學習的教學模式，並且透過反覆訓練學生逐漸適應遠距開會、遠距上課，就像是現在企業遠距辦公、開會一樣。</description>
-     <pubDate>2021-08-30  04:08:43</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146456</guid>
   </item>
   </channel>
 </rss>
