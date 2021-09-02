@@ -6,6 +6,19 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Twitter測試安全模式以自動封鎖騷擾帳號</title>
+ <link>https://www.ithome.com.tw/news/146498</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://blog.twitter.com/en_us/topics/product/2021/introducing-safety-mode&quot; target=&quot;_blank&quot;&gt;Twitter於本周三（9/1）宣布&lt;/a&gt;，即日起將於少數的iOS、Android與Twitter.com平臺上的帳號，測試安全模式（Safety Mode）功能，啟用安全模式之後，系統將會自動替該帳號封鎖那些留下侮辱或仇恨字眼的騷擾帳號。目前的測試僅限於啟用英文的Twitter用戶。&lt;/p&gt;
+&lt;p&gt;Twitter說明，安全模式是為了維護該平臺上良好與健康的互動，一旦有人發送惡意的言論，或是重複回覆，不斷地提及某個使用者而構成騷擾，那麼當使用者啟用該模式之後，系統就會暫時封鎖這些討人厭的帳號，為期7天，在這7天之內，這名被封鎖的用戶將無法再追蹤使用者的帳號，也看不到使用者的推文，亦無法傳送私訊（Direct Messages）。&lt;/p&gt;
+&lt;p&gt;要判斷是否要封鎖某個帳號所評估的標準包括內容與使用者之間的關係，假設對方是使用者所追蹤的對象，或者雙方之間的互動頻繁，那麼就不會執行封鎖。&lt;/p&gt;
+&lt;p&gt;此外，假設使用者發現系統出錯了，那麼同樣可以透過設定功能取消封鎖，而Twitter則會定期監控系統的準確性並改善偵測能力，直至表現良好才會將它部署至全球市場。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 02 Sep 2021 07:19:23 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146498 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146498#comments</comments>
+</item>
+<item>
  <title>【DBS客座文章】星展銀行如何打造大數據平台</title>
  <link>https://www.ithome.com.tw/news/146484</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;本文為&lt;span style=&quot;vertical-align: top; color: rgb(255, 140, 0);&quot;&gt;【星展銀行授權轉載文章】&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -323,74 +336,6 @@ C. 使用GPU農場共享GPU-利用整合持久叢集（persistent cluster）與�
  <dc:creator>林信良</dc:creator>
  <guid isPermaLink="false">146393 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/voice/146393#comments</comments>
-</item>
-<item>
- <title>資安一周第161期：資策會參與首屆國際級工控資安評測。美國白宮舉行資安高峰會</title>
- <link>https://www.ithome.com.tw/news/146483</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;8/26-9/1必看資安新聞&lt;/strong&gt;&lt;/h3&gt;
-&lt;h3&gt; &lt;/h3&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃資安產業動態  ＃工控資安  ＃MITRE ATT&amp;amp;CK&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;首屆國際級工控資安評測出爐，資策會也參與這項評估計畫&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;為推動工控資安產品的進步與發展，MITRE Engenuity舉辦了首屆ATT&amp;amp;CK for ICS評估計畫，攻擊情境的設想，是模擬2017年造成沙烏地阿拉伯石化設備受害的Triton事件，共有5家業者與機構參加， 7月中旬公布評測結果。&lt;/p&gt;
-&lt;p&gt;首屆參加者有5位，包括微軟，以及Armis、Claroty、Dragos等廠商，而來自臺灣的資策會，也以自行研發的工業物聯網威脅偵測系統（ICTD）參加。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146469&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃資安產業動態  ＃國家安全  ＃供應鏈安全&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;白宮舉行資安高峰會，IT巨頭承諾將大幅改善資安&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;美國總統拜登（Joe Biden）在8月25日，會見了私人企業與教育界的領袖，共同商討如何透過全國的努力來解決美國的資安威脅。除了由政府發起的多個倡議之外，微軟、Google、蘋果、Amazon及IBM等業者也都作出了承諾，其中，Google及微軟將在未來5年，分別投入100億及200億美元的資金，來推動供應鏈、開源碼與架構的安全性。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146396&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃漏洞攻擊  ＃ProxyLogon ＃國家安全&lt;/strong&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;中國濫用ProxyLogon漏洞駭入Exchange Server，疑似收集訓練AI的資料&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;今年3月被揭露的ProxyLogon漏洞，且已被駭客用於攻擊行動，有專家認為，這可能與中國政府的一項計畫有關。根據美國公共廣播電台（NPR）的報導，他們取得前美國政府情報作戰官員William Evanina的說法，指出中國利用Exchange Server漏洞的目的，是為了蒐集美國民眾及政府資訊，最終目的是用於推動中國AI技術研發，William Evanina認為，中國政府至少掌握8成美國人的資料。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146425&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;曼谷航空疑遭LockBit攻擊，逾200GB客戶資料外洩&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;曼谷航空（Bankok Airways）發布公告，表示他們於8月23日發現一起網路攻擊事件，導致資訊系統遭到未授權人士不法存取，該公司隨即採取行動阻斷攻擊行為，並著手調查。&lt;/p&gt;
-&lt;p&gt;而對於網路攻擊事件的情況，曼谷航空並未進一步說明。不過，勒索軟體組織LockBit要求曼谷航空在5天內支付贖金，否則將公布103GB壓縮檔案。根據The Record報導，駭客在得知曼谷航空不願付錢之後，於8月25日公布超過200GB的資料。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146466&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/161-1-LockBit-Bangkok-Air.png&quot; style=&quot;width: 400px; height: 269px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;圖片來源：The Record&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃勒索軟體攻擊  ＃漏洞攻擊  ＃PetitPotam  ＃ProxyShell&lt;/strong&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;針勒索軟體LockFile濫用PetitPotam漏洞，掌控AD網域伺服器&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;賽門鐵克揭露名為LockFile勒索軟體的攻擊行動，攻擊者經由Exchange郵件伺服器，入侵企業的內部網路環境，接下來再藉著PetitPotam漏洞（CVE-2021-36942），控制AD網域伺服器，並感染內網的電腦。&lt;/p&gt;
-&lt;p&gt;而針對攻擊者入侵Exchange伺服器的管道，資安研究人員Kevin Beaumont於8月21日指出，根據他自己的蜜罐（Honeypot）所收集的情報， LockFile攻擊者就是利用ProxyShell漏洞來下手。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146406&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊  ＃Linux  ＃虛擬化平臺&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;3月勒索軟體HelloKitty鎖定VMware ESXi發動攻擊，得手至少148萬美元&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;資安業者Palo Alto Networks在7月，發現鎖定VMware ESXi的勒索軟體HelloKitty，在2021年3月開始發動攻擊，研究人員觀察到有6個受影響的組織，遍及義大利、澳洲、德國、荷蘭，以及美國，攻擊者至少得到148萬美元。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146432&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃OpenSSL  ＃物聯網資安&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;群暉科技正著手修補多項產品的OpenSSL漏洞&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;開源的安全通訊軟體函式庫OpenSSL，在8月24日修補了CVE-2021-3711與CVE-2021-3712兩個安全漏洞，臺灣NAS製造商群暉科技（Synology）隨後發出警告，該公司有多款NAS及VPN產品受到這兩個漏洞的影響，他們正著手修補。&lt;/p&gt;
-&lt;p&gt;群暉表示，受到這兩個漏洞影響的產品，包括DiskStation Manager（DSM）、Synology Router Manager（SRM），以及虛擬網路伺服器VPN Plus Server與VPN Server。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146428&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/161-2-gi9EZ2r3L3.png&quot; style=&quot;width: 400px; height: 283px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;圖片來源：群暉科技&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃物聯網資安  ＃SSL VPN&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;思科小型企業VPN路由器驚傳重大漏洞，但不會有修補程式&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;思科於8月18日，針對數款小型企業VPN路由器產品RV110W、RV130、RV130W，以及RV215W，發布安全公告，警告有引發遠端程式碼執行的重大漏洞CVE-2021-34730，一旦攻擊者濫用，將能於作業系統底層執行任意程式碼，或是引發裝置重開機導致服務中斷。&lt;/p&gt;
-&lt;p&gt;不過，這些產品的生命週期已經結束（EOL），因此思科表示不打算修補，企業應考慮升級到新產品。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146452&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/161-3-WsSTaBjMiW.png&quot; style=&quot;width: 400px; height: 245px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#808080;&quot;&gt;圖片來源：思科&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃漏洞揭露&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong&gt;微軟資料庫服務Azure Cosmos DB含有安全漏洞，將外洩客戶的主要金鑰與存取令牌&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;雲端安全服務供應商Wiz於8月26日 揭露，微軟非關聯式資料庫服務Azure Cosmos DB含有一系列安全漏洞，將允許任何使用者下載、刪除或操控用戶的商業資料庫，或是存取Cosmos DB的底層架構。Wiz指出，這些漏洞存在兩年之久，波及財富500大排行榜上的許多大型企業，諸如可口可樂、Exxon-Mobil與Citrix等。&lt;a href=&quot;https://www.ithome.com.tw/news/146423&quot;&gt;&lt;strong&gt;詳全文&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃資料外洩  ＃供應鏈攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;捐款個資外洩引發詐騙事件蔓延，引發朝野立委關注&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;這一個月來，臺灣爆發大規模捐款個資外洩，導致民眾誤信的詐騙案，與多個公益團體都委託資訊服務業者網軟科技有關。&lt;/p&gt;
-&lt;p&gt;隨著遭詐騙的捐款民眾越來越多，多個公益團體持續飽受個資外洩問題所苦，網軟僅在8月3日發布刑事警察局的反詐騙宣導，至今還沒有對外公布遭駭客攻擊與資料外洩的資安事件。對此，8月26日立法委員聯合公益團體與刑事警察局，召開記者會，希望能釐清資安、偵辦與防詐議題。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146427&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2&gt;&lt;span style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;更多資安動態&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;h3&gt;●&lt;a href=&quot;https://www.ithome.com.tw/news/146420&quot;&gt;殭屍網路程式正試圖攻擊瑞昱無線晶片漏洞&lt;/a&gt;&lt;br /&gt;
-●&lt;a href=&quot;https://www.ithome.com.tw/news/146454&quot;&gt;針對資料外洩事故，T-Mobile疑似遭到暴力破解入侵&lt;/a&gt;&lt;br /&gt;
-●&lt;a href=&quot;https://www.ithome.com.tw/news/146382&quot;&gt;AT&amp;amp;T驚傳7千萬用戶資料遭竊，該公司予以否認&lt;/a&gt;&lt;/h3&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 01 Sep 2021 09:46:27 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146483 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146483#comments</comments>
 </item>
 </channel>
 </rss>
