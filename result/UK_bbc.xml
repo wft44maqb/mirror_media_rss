@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Sep 2021 07:54:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Sep 2021 07:58:51 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -43,18 +43,18 @@
             <pubDate>Wed, 01 Sep 2021 19:11:02 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[新冠疫情：朝鮮婉拒200萬劑科興疫苗，「請幫助其它疫情嚴重國家」]]></title>
+            <description><![CDATA[朝鮮稱自己國內無新增病例，但美國和韓國對其說法存疑。朝鮮也是全球為數不多尚未開始大規模接種新冠疫苗的國家之一。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58419612?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58419612</guid>
+            <pubDate>Thu, 02 Sep 2021 07:54:45 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[氣候變化：德國柏林各大學食堂大規模減少肉食]]></title>
             <description><![CDATA[從10月起，柏林各大學食堂菜單組成將是68%純素食，28%素食，以及4%的肉類和魚類。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58408811?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58408811</guid>
             <pubDate>Thu, 02 Sep 2021 02:15:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[健康與環境：含鉛汽油時代終結——美國科學發明與人類百年排毒史]]></title>
-            <description><![CDATA[全球最後提供含鉛汽油的加油站也終於停供了。究竟是誰發明了這種長期禍害環境與健康的有毒燃料？這其中還有一段科學發明和資本利益的故事。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58408671?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58408671</guid>
-            <pubDate>Wed, 01 Sep 2021 19:22:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：拜登稱撤軍標誌武力「改造他國時代結束」 將關注中國競爭等「新挑戰」]]></title>
@@ -258,6 +258,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58387117?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58387117</guid>
             <pubDate>Tue, 31 Aug 2021 19:10:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[健康與環境：含鉛汽油時代終結——美國科學發明與人類百年排毒史]]></title>
+            <description><![CDATA[全球最後提供含鉛汽油的加油站也終於停供了。究竟是誰發明了這種長期禍害環境與健康的有毒燃料？這其中還有一段科學發明和資本利益的故事。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58408671?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58408671</guid>
+            <pubDate>Wed, 01 Sep 2021 19:22:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[新冠疫情：「清零」和「共存」之爭難有定論，中國會在北京冬奧前放鬆入境限制嗎？]]></title>
