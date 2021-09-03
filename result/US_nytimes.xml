@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 03 Sep 2021 13:09:04 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Sep 2021 13:19:20 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[叛亂者如何治理國家：從毛澤東統治看塔利班的未來]]></title>
+            <link><![CDATA[https://cn.nytimes.com/world/20210903/taliban-govern-rebel-history/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[塔利班並非首個在現代接管國家的反抗軍。儘管治理模式各有不同，但從毛澤東到烏干達政府，鞏固威權地位、進行大清洗，以及尋求外界認可都是其得以立足的有效手段。<p><img src='https://static01.nyt.com/images/2021/09/02/world/02int-afghanistan01/merlin_194061558_e6d9df24-094e-4a22-8fb0-255b0a455cd6-articleLarge.jpg' alt='週四，塔利班安全人員在喀布爾機場駛過前總統阿什拉夫·加尼的宣傳畫。 Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>週四，塔利班安全人員在喀布爾機場駛過前總統阿什拉夫·加尼的宣傳畫。</p>                    ]]></description>
+            <category>國際</category>
+            <dc:creator><![CDATA[MAX FISHER]]></dc:creator>
+            <pubDate>Fri, 03 Sep 2021 01:17:59 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210903/taliban-govern-rebel-history/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[中國警告美國：雙邊關係緊張或影響氣候合作]]></title>
             <link><![CDATA[https://cn.nytimes.com/china/20210903/climate-china-us-kerry/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[RAYMOND ZHONG,袁莉]]></dc:creator>
             <pubDate>Mon, 30 Aug 2021 06:04:57 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/technology/20210830/china-didi-crackdown/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[告別曾經的喀布爾，告別一個希望的時代]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210830/kabul-airport-bombing/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[塔利班佔領喀布爾前夕，一位在那裡長大的時報記者返回故鄉，探索和記錄一個希望的時代結束前這座城市的模樣。阿富汗人的生活仍在繼續，但籠罩在許多人心中的是絕望。<p><img src='https://static01.nyt.com/images/2021/08/28/world/28kabul-dispatch1/28kabul-dispatch1-articleLarge.jpg' alt='在被塔利班佔領前不久，阿富汗喀布爾市中心的一名果汁小販。 Mujib Mashal/The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Mujib Mashal/The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>在被塔利班佔領前不久，阿富汗喀布爾市中心的一名果汁小販。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[MUJIB MASHAL]]></dc:creator>
-            <pubDate>Mon, 30 Aug 2021 04:27:23 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210830/kabul-airport-bombing/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>

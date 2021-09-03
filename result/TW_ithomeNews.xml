@@ -1,14 +1,22 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/atom/21" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/atom/21</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/atom/21" rel="self" type="application/rss+xml" />
       <item>
+    <title>AWS提供NetApp ONTAP檔案系統服務</title>
+    <link>https://www.ithome.com.tw/news/146522</link>
+    <description> AWS本周公布支援NetApp ONTAP的雲端檔案系統服務Amazon FSx for NetApp ONTAP。</description>
+     <pubDate>2021-09-03  01:09:45</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146522</guid>
+  </item>
+  <item>
     <title>【記者觀察】特斯拉機器人是玩真的，還是講假的？</title>
     <link>https://www.ithome.com.tw/news/146459</link>
-    <description> 8月底一場Tesla AI Day技術大會上，特斯拉執行長馬斯克宣布將推出以AI為核心的通用人型機器人（Tesla Bot），更誇口一年內就能完成原型，引發不少熱議。但對於特斯拉從電動車跨足機器人，外界幾乎一面倒看衰， 認為他過於天真，甚至有些不切實際，把研發機器人這件事想的太簡單。
+    <description> 8月下旬一場Tesla AI Day技術大會上，特斯拉執行長馬斯克宣布將推出以AI為核心的通用人型機器人（Tesla Bot），更誇口一年內就能完成原型，引發不少熱議。但對於特斯拉從電動車跨足機器人，外界幾乎一面倒看衰， 認為他過於天真，甚至有些不切實際，把研發機器人這件事想的太簡單。
 人稱科技狂人的馬斯克，過去幾年的確提出不少異想天開的構想，有些最後成真，也有些失敗。比如他先前曾提出超級高鐵（Hyperloop）的構想，就是個經常被檢驗的失敗例子，他原先計畫是要打造一條超高速運輸真空隧道來載送乘客，到後來完全偏離原來的構想，變成只是一個電動車專用的輸送隧道。</description>
      <pubDate>2021-09-03  01:09:04</pubDate>
  <dc:creator>余至浩</dc:creator>
@@ -254,15 +262,6 @@ GTC大會上穿插的AI旁白</description>
      <pubDate>2021-09-01  02:09:44</pubDate>
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146479</guid>
-  </item>
-  <item>
-    <title>Google也讓員工明年1月再進公司上班</title>
-    <link>https://www.ithome.com.tw/news/146478</link>
-    <description> 美國COVID-19確診人數再度攀升，繼Amazon、臉書之後，Google昨（31）日也宣布，將美國員工回公司上班的日期再延後到明年1月。
-Google執行長Sundar Pichai指出，隨著今年稍早疫情好轉，有更多員工回公司進行定期或不定期的會議或社交活動，但仍有地方疫情持續，引發不確定性。為此Google決定全球員工自願返回公司（即不強迫回公司）的政策延到2022年1月10日。</description>
-     <pubDate>2021-09-01  01:09:23</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146478</guid>
   </item>
   </channel>
 </rss>

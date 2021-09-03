@@ -6,9 +6,39 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>藍牙BrakTooth漏洞波及逾1,400款產品</title>
+ <link>https://www.ithome.com.tw/news/146523</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://asset-group.github.io/disclosures/braktooth/&quot; target=&quot;_blank&quot;&gt;新加坡科技設計大學（Singapore University of Technology and Design）的研究人員在本周揭露了藍牙漏洞BrakTooth&lt;/a&gt;，BrakTooth集結了逾20種不同的安全漏洞，可能造成服務阻斷或遠端程式攻擊，影響逾1,400款產品，從電腦、手機到鍵盤等，估計全球可能有數十億裝置含有潛在的安全風險。&lt;/p&gt;
+&lt;p&gt;這群研究人員調查的是全球11家業者所開發的13款藍牙系統單晶片（SoC），包括英特爾、高通、德儀（TI）、杰理及Cypress等，總計發現了16個新漏洞，並將它們統稱為BrakTooth漏洞。保守估計有1,423種產品採用了含有漏洞的藍牙SoC，這些產品可能是手機、電腦、喇叭或耳機等聲音裝置、家用娛樂系統、鍵盤或工業設備，例如小米盒子、微軟的Surface筆電、Sony的Xperia XZ2手機、Walmart所銷售的藍牙喇叭，都在受害名單上。&lt;/p&gt;
+&lt;p&gt;這次所發現的新漏洞中，最嚴重的是CVE-2021-28139，它藏匿在Espressif Systems所開發的ESP32 SoC上，因其缺乏越界檢查，因而允許熟悉其韌體架構的駭客，得以執行任意程式。ESP32 SoC被廣泛地應用在各種IoT領域上，如工業自動化、智慧家庭或健身等。多個服務阻斷漏洞則允許駭客干預筆電、手機、耳機、喇叭或機上盒的藍牙運作。&lt;/p&gt;
+&lt;p&gt;研究人員在發現這些漏洞之後，已分別通報受到影響的業者，還獲得了Espressif System及小米的抓漏獎勵，不過，迄今只有Espressif System、Cypress與Bluetrum Technology已修補了相關漏洞，英特爾、高通及杰理正在進行修補。此外，高通並不打算修補其中一款含有漏洞的韌體。德儀則說，除非客戶要求，否則該公司並不打算修補。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 05:17:13 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146523 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146523#comments</comments>
+</item>
+<item>
+ <title>AWS提供NetApp ONTAP檔案系統服務</title>
+ <link>https://www.ithome.com.tw/news/146522</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.businesswire.com/news/home/20210902005650/en/AWS-Announces-General-Availability-of-Amazon-FSx-for-NetApp-ONTAP&quot; target=&quot;_blank&quot;&gt;AWS本周公布&lt;/a&gt;支援NetApp ONTAP的雲端檔案系統服務Amazon FSx for NetApp ONTAP。&lt;/p&gt;
+&lt;p&gt;ONTAP是NetApp設備的底層作業系統，具備資料及檔案系統管理功能，過去都是部署在資料中心的NetApp NAS（Network-Attached Storage）設備上。Amazon FSx for NetApp ONTAP則是將ONTAP檔案系統服務搬上AWS。&lt;/p&gt;
+&lt;p&gt;這項服務主要在滿足企業將資料搬上雲端的需求。在本地部署環境中，儲存管理員用NetApp NAS儲存多用戶及群組資料，並以專屬工具、流程及API來管理ONTAP檔案儲存，但若企業把應用程式搬上雲端，就得放棄熟悉的工具，往往還得花時間及人力重新架構應用程式、工具及工作流程。&lt;/p&gt;
+&lt;p&gt;Amazon FSx for NetApp ONTAP已經正式上線，號稱管理員只要按幾個鍵即可在AWS上啟動、運行及管理NetApp ONTAP環境。企業可用Amazon FSx for NetApp ONTAP配置檔案伺服器、儲存磁碟區、複製資料、升級檔案伺服器軟體或修補程式，以及管理高可用性（high-availability）功能等。&lt;/p&gt;
+&lt;p&gt;這項服務支援ONTAP核心儲存管理功能，包括以多協定存取網路檔案分享、特定時間點資料快照、以及資料複製SnapMirror、FlexClone等。此外，它也支援ONTAP的資料壓縮、去除重覆資料（deduplication）、壓緊（compaction）及隨需配置（thin provisioning）。此外，管理員也可以ONTAP管理員API來管理Amazon FSx for NetApp ONTAP，維持熟悉作業流程。&lt;/p&gt;
+&lt;p&gt;管理員可利用AWS或NetApp的管理介面新增檔案系統。建好後就可在Windows、Linux、macOS用戶端上，以NFS（Network File System）、SMB（Service Message Block）或iSCSI等協定管理雲端檔案系統。另外也可以透過NetApp ONTAP REST API或CLI設定其他ONTAP的功能。&lt;/p&gt;
+&lt;p&gt;針對將資料搬上不同AWS服務區域的企業，Amazon FSx for NetApp ONTAP也支援跨AWS區域的資料複製和備份。Amazon FSx for NetApp ONTAP也可和其他AWS上服務串接，以AWS API和管理工具管理。&lt;/p&gt;
+&lt;p&gt;這是AWS上最新加入的檔案系統服務。在此之前，AWS還提供Amazon FSx for Windows File Server及Amazon FSx for Lustre等雲端檔案系統服務。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 05:05:45 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146522 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146522#comments</comments>
+</item>
+<item>
  <title>【記者觀察】特斯拉機器人是玩真的，還是講假的？</title>
  <link>https://www.ithome.com.tw/news/146459</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;8月底一場Tesla AI Day技術大會上，特斯拉執行長馬斯克宣布將推出以AI為核心的通用人型機器人（Tesla Bot），更誇口一年內就能完成原型，引發不少熱議。但對於特斯拉從電動車跨足機器人，外界幾乎一面倒看衰， 認為他過於天真，甚至有些不切實際，把研發機器人這件事想的太簡單。&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;8月下旬一場Tesla AI Day技術大會上，特斯拉執行長馬斯克宣布將推出以AI為核心的通用人型機器人（Tesla Bot），更誇口一年內就能完成原型，引發不少熱議。但對於特斯拉從電動車跨足機器人，外界幾乎一面倒看衰， 認為他過於天真，甚至有些不切實際，把研發機器人這件事想的太簡單。&lt;/p&gt;
 &lt;p&gt;人稱科技狂人的馬斯克，過去幾年的確提出不少異想天開的構想，有些最後成真，也有些失敗。比如他先前曾提出超級高鐵（Hyperloop）的構想，就是個經常被檢驗的失敗例子，他原先計畫是要打造一條超高速運輸真空隧道來載送乘客，到後來完全偏離原來的構想，變成只是一個電動車專用的輸送隧道。&lt;/p&gt;
 &lt;p&gt;雖然有失敗，也有成真的例子，像是賣翻全球的特斯拉電動車和自駕電動車，一登場就顛覆了眾人原先對於汽車的想像，更讓電動車蔚為風潮，讓不少車廠反過來跟進。不僅如此，他與他的航太公司SpaceX更證明私人企業打造的太空船也能上太空，達成許多國家航太機構都未達到的成就，連NASA都找上門合作。這兩起，都是馬斯克從零經驗到成為產業領導指標的實例。&lt;/p&gt;
 &lt;p&gt;只是上太空、開自駕車還不夠，馬斯克已經預告了他接下來更遠大的構想，就是打造一個通用人型機器人，這個機器人能代替人類處理高危險、重覆或體力勞動的工作，還可以幫你跑腿買東西，就像是人類最好的助手。&lt;/p&gt;
@@ -195,40 +225,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146502 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146502#comments</comments>
-</item>
-<item>
- <title>Amazon今年準備在全球招聘5.5萬名員工</title>
- <link>https://www.ithome.com.tw/news/146501</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.aboutamazon.com/news/job-creation-and-investment/amazon-career-day-2021-is-americas-biggest-training-and-recruiting-event&quot; target=&quot;_blank&quot;&gt;Amazon本周宣布&lt;/a&gt;，計畫於今年9月15日展開的年度Career Day上，在美國招募4萬名企業與科技職位的員工，以及支援Amazon Operations的數萬名時薪員工。&lt;a href=&quot;https://www.reuters.com/technology/exclusive-amazon-ceo-unveils-55000-tech-jobs-first-hiring-push-under-his-watch-2021-09-01/&quot; target=&quot;_blank&quot;&gt;而路透社則報導&lt;/a&gt;，此次Amazon的招募計畫是全球性的，另有1.5萬名新聘員工將以海外市場為主。&lt;/p&gt;
-&lt;p&gt;Career Day是Amazon一年一度的員工招募活動，今年將在線上舉行，全球有興趣的求職者都可報名參加，而且不限資歷、專長或背景，不過，&lt;a href=&quot;https://www.amazoncareerday.com/regions&quot; target=&quot;_blank&quot;&gt;根據Amazon所公布的求職者報名地點&lt;/a&gt;，除了美國與加拿大之外，也歡迎法國、德國、印度、義大利、日本、西班牙與英國的求職者報名，有興趣到這些國家任職的臺灣求職者或者也可考慮參加。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://ir.aboutamazon.com/news-release/news-release-details/2021/Amazon.com-Announces-Second-Quarter-Results-2dcdc6a32/&quot; target=&quot;_blank&quot;&gt;根據Amazon所公布的第二季財報&lt;/a&gt;，該季Amazon包括全職與兼職的全球員工數為133.5萬人，比去年第二季的84萬人高出甚多，而且此一數字並未計算約聘人員或臨時工。疫情讓身為全球電子商務龍頭的Amazon人力需求大增，而為了推動雲端服務AWS的成長，也需才孔亟。&lt;/p&gt;
-&lt;p&gt;Amazon被《富比士》（Forbes）雜誌列為全球最佳雇主的第二名，《財星》（Fortune）雜誌則說Amazon是人們最嚮往的全球企業之一。Amazon則說，不管是在物流中心或辦公室上班的員工，大家都享有帶薪假、最多20周的育兒假、由公司贊助的職業訓練計畫，而且就算是第一線的員工，其平均起薪也有每小時17美元，接近聯邦最低薪資的兩倍。&lt;/p&gt;
-&lt;p&gt;其實去年Amazon也在美國招募了4萬名員工，今年則再度於美國招募4萬名員工。路透社則說，Amazon在全球的企業或科技員工的總數約為27.5萬，今年準備於全球招募的5.5萬名員工，將替該公司帶來20%的新血。&lt;/p&gt;
-&lt;p&gt;在Amazon Career Day 2021上，Amazon將派出1,200名的招聘人員，進行2萬場一對一的職業生涯教練計畫，也會有數千場由Amazon員工所提供的各種職業建議或相關課程，或是有機會參與由Amazon軟體開發經理所主持的程式碼撰寫課程，以及如何通過Amazon面試的指導課程。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 02 Sep 2021 13:00:00 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146501 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146501#comments</comments>
-</item>
-<item>
- <title>勒索軟體AvosLocker已有7個受害組織，部分機密文件已被公開</title>
- <link>https://www.ithome.com.tw/news/146504</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;一款名為AvosLocker的勒索軟體，約自&lt;a href=&quot;https://twitter.com/RakeshKrish12/status/1409406222114058244&quot;&gt;6月底&lt;/a&gt;被發現，而引起資安人員的關注，解析這款勒索軟體的攻擊行為。而到了最近，&lt;a href=&quot;https://unit42.paloaltonetworks.com/emerging-ransomware-groups/&quot;&gt;資安業者Palo Alto Networks指出&lt;/a&gt;，他們發現迄今全球各地至少有7個組織受害，攻擊者開口索討的贖金，從5萬美元到7.5萬美元不等起跳。&lt;/p&gt;
-&lt;p&gt;這款勒索軟體的攻擊行動，最早約於7月4日曝光：&lt;a href=&quot;https://www.bleepingcomputer.com/forums/t/754311/avoslocker-ransomware-avos-support-topic/&quot;&gt;有受害者在新聞網站Bleeping Computer的論壇上，表示遭到勒索軟體AvosLocker攻擊&lt;/a&gt;，他張貼了勒索訊息，想要尋求協助。&lt;/p&gt;
-&lt;p&gt;勒索訊息的內容提及，受害電腦的檔案已經過AES-256演算法加密，並限期4天內付錢，否則攻擊者將會公開部分機密資料，而且贖金將會加倍；若是超過10天，他們就會外洩所有竊得的資料。&lt;/p&gt;
-&lt;p&gt;資安公司Cyble與Malwarebytes陸續揭露AvosLocker的攻擊活動，&lt;a href=&quot;https://blog.cyble.com/2021/07/15/avoslocker-under-the-lens-a-new-sophisticated-ransomware-group/&quot;&gt;Cyble指出&lt;/a&gt;，駭客組織開始以訂閱服務的型式，提供買家相關工具的時間點，應該是在今年6月1日，且已有數個組織的資料，自7月8日開始被外洩。&lt;/p&gt;
-&lt;p&gt;而&lt;a href=&quot;https://blog.malwarebytes.com/threat-intelligence/2021/07/avoslocker-enters-the-ransomware-scene-asks-for-partners/&quot;&gt;Malwarebytes則是指出&lt;/a&gt;，他們在7月中旬調查一起涉及Exchange Server的事故，發現攻擊者的目的，就是要在受害組織植入AvosLocker勒索軟體，該公司並指出攻擊者在遠端手動下達指令，操作這款勒索軟體。&lt;/p&gt;
-&lt;p&gt;到了8月下旬，Palo Alto揭露他們的發現，指出創立AvosLocker的駭客至少在今年的1月1日，就開始使用名為avos的ID，在Dread討論版上宣布他們開始正式運作，並外洩竊得的資料。Dread是位於暗網上，類似Reddit的電子布告欄，駭客用來交換黑市的情報。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/word-image-19-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/word-image-19-s.png&quot; style=&quot;width: 580px; height: 629px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;對於受害的規模，Palo Alto指出，駭客宣稱有6個受害組織，但根據他們的觀察是7個。這些受害組織分別是：位於美國與英國的法律公司、西班牙物流業者、比利時房地產公司、土耳其控股公司、敘利亞交通機構，以及美國某個城市的政府。而且，已有部分文件已經被駭客公開，當中含有組織私有文件，以及能識別個人的資訊。&lt;/p&gt;
-&lt;p&gt;而在贖金的部分，研究人員看到要求5萬美元到7.5萬美元不等的贖金，駭客要求以門羅幣付款，受害者依照指示存取駭客的網站後，就會看到聊天機器人，以及要脅不付款贖金將會增加的倒數計時器，還有付款的指示與QR Code等。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/word-image-23-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/word-image-23-s.png&quot; style=&quot;width: 580px; height: 523px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 02 Sep 2021 11:49:04 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146504 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146504#comments</comments>
 </item>
 </channel>
 </rss>
