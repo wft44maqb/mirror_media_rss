@@ -4,7 +4,7 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-09-03T04:01:12Z</updated>
+  <updated>2021-09-03T04:14:21Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -23,6 +23,14 @@
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/5xxwjqd2lwgp"/>
     <title>Dashboard Maintenance</title>
     <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Sep &lt;var data-var='date'&gt;7&lt;/var&gt;, &lt;var data-var='time'&gt;23:00&lt;/var&gt; UTC &amp;nbsp;-&amp;nbsp; Sep &lt;var data-var='date'&gt;8&lt;/var&gt;, &lt;var data-var='time'&gt;00:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;22:29&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - The Cloudflare Dashboard will be unavailable during this maintenance window in order to improve future resiliency of the system. All dashboard UI actions will be unavailable during the window.  Cloudflare's API and edge will be unaffected during this maintenance.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7907459</id>
+    <published>2021-09-03T04:14:21Z</published>
+    <updated>2021-09-03T04:14:21Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/y1sxp1mlcjkq"/>
+    <title>Cloudflare Dashboard issues</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 3&lt;/var&gt;, &lt;var data-var='time'&gt;04:14&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with Cloudflare Dashboard for WAF.&lt;br /&gt;&lt;br /&gt;These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.&lt;br /&gt;&lt;br /&gt;Some Customers Enabling WAF are impacted as they may not be able to enable it&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7905306</id>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/n44p72qyc4zd"/>
     <title>DNS hostname change failed to clean up the old record</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;18&lt;/var&gt;, &lt;var data-var='time'&gt;18:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Between 17:58 UTC on 7/30/2021 and 17:18 UTC on 8/17/2021, we identified and fixed an issue related to failure to clean up old records after hostname update that impacted some zones behind Cloudflare. We are going through a thorough process to ensure there are no other zones affected.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7790845</id>
-    <published>2021-08-18T14:51:28Z</published>
-    <updated>2021-08-18T14:51:28Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/v4lb3mr7kz4l"/>
-    <title>Firewall Configuration Update Delays</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;18&lt;/var&gt;, &lt;var data-var='time'&gt;14:51&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;18&lt;/var&gt;, &lt;var data-var='time'&gt;14:11&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;18&lt;/var&gt;, &lt;var data-var='time'&gt;13:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is aware of, and investigating an issue which might cause some firewall configurations delay at being published.&lt;br /&gt;&lt;br /&gt;Further detail will be provided as more information becomes available.&lt;/p&gt;</content>
   </entry>
 </feed>
