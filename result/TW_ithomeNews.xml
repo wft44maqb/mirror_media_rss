@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/131" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/131</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/131" rel="self" type="application/rss+xml" />
       <item>
+    <title>HPE拿下NSA 20億美元GreenLake合約</title>
+    <link>https://www.ithome.com.tw/news/146517</link>
+    <description> HPE本周宣布贏得美國國安局20億美元、長達10年的合約，以GreenLake產品部署高效能運算（High Performance Computing，HPC）架構執行AI及大量資料運算的任務。</description>
+     <pubDate>2021-09-03  11:09:20</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146517</guid>
+  </item>
+  <item>
     <title>WhatsApp因違反GDPR遭愛爾蘭罰2.25億歐元</title>
     <link>https://www.ithome.com.tw/news/146516</link>
     <description> 愛爾蘭資料主管機關昨（2）日以臉書旗下通訊軟體WhatsApp未清楚告知消費者及企業用戶說明資料處理，違反了歐盟隱私法GDPR，宣布判罰WhatsApp 2.25億歐元（約74億臺幣）。</description>
@@ -251,14 +259,6 @@ Google執行長Sundar Pichai指出，隨著今年稍早疫情好轉，有更多�
      <pubDate>2021-09-01  12:09:35</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146476</guid>
-  </item>
-  <item>
-    <title>AWS正式推出全託管監控平臺Grafana服務</title>
-    <link>https://www.ithome.com.tw/news/146475</link>
-    <description> AWS與Grafana Labs所合作的Amazon Managed Grafana（AMG）服務，已經結束預覽階段現正式發布，這是一項全託管的服務，供用戶簡單地按需創建可擴展的Grafana工作區，視覺化和分析各種來源資料。</description>
-     <pubDate>2021-09-01  11:09:18</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146475</guid>
   </item>
   </channel>
 </rss>

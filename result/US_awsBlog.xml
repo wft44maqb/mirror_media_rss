@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Fri, 03 Sep 2021 03:45:21 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 03 Sep 2021 03:59:58 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,6 +13,86 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>通过亚马逊云科技Marketplace中合作伙伴（Zenlayer）的产品来加速Amazon S3的访问</title>
+		<link>https://aws.amazon.com/cn/blogs/china/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace/</link>
+				<pubDate>Fri, 03 Sep 2021 03:59:58 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Marketplace]]></category>
+
+		<guid isPermaLink="false">19e4e87c516f11f5d35a00626639a9bb0cda9724</guid>
+				<description>AWS Marketplace 是一个精挑细选的数字化产品目录，您可以使用它来查找、购买、部署和管理构建解决方案及运营业务所需的第三方软件、数据和服务。 AWS Marketplace 囊括了众多常见类别下的数千个软件名录，例如安全、联网、存储、机器学习、IoT、商业智能、数据库和开发运营。 AWS Marketplace 还提供灵活的定价选项和多种部署方法，从而简化了软件的许可和采购。此外, AWS Marketplace 包括 AWS Data Exchange 提供的数据产品。</description>
+								<content:encoded>&lt;h2&gt;1.&amp;nbsp;&amp;nbsp; 相关服务及背景介绍&lt;/h2&gt; 
+&lt;p&gt;&lt;strong&gt;Amazon S3&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Amazon Simple Storage Service (Amazon S3) 是一种面向 Internet 的存储服务。该服务旨在降低网络规模计算的难度。&lt;/p&gt; 
+&lt;p&gt;Amazon S3 提供了一个简单 Web 服务接口，可用于随时在 Web 上的任何位置存储和检索任何数量的数据。此服务让所有开发人员都能访问同一个具备高扩展性、可靠性、安全性和快速价廉的数据存储基础设施，Amazon 用它来运行其全球的网站网络。此服务旨在为开发人员带来最大化的规模效益。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Amazon CloudFront&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Amazon CloudFront 是一项加快将静态和动态 Web 内容（例如 .html、.css、.js 和图像文件）分发给用户的速度的 Web 服务。CloudFront 通过全球数据中心（称作边缘站点）网络传输内容。当用户请求您用 CloudFront 提供的内容时，请求被路由到提供最低延迟（时间延迟）的边缘站点，从而以尽可能最佳的性能传送内容。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;亚马逊云科技&lt;/strong&gt;&lt;strong&gt;Marketplace&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;AWS Marketplace 是一个精挑细选的数字化产品目录，您可以使用它来查找、购买、部署和管理构建解决方案及运营业务所需的第三方软件、数据和服务。 AWS Marketplace 囊括了众多常见类别下的数千个软件名录，例如安全、联网、存储、机器学习、IoT、商业智能、数据库和开发运营。 AWS Marketplace 还提供灵活的定价选项和多种部署方法，从而简化了软件的许可和采购。此外, AWS Marketplace 包括 AWS Data Exchange 提供的数据产品。&lt;/p&gt; 
+&lt;p&gt;您只需几次单击即可快速启动预配置的软件，并可选择 Amazon 系统映像 (AMI) 和软件即服务 (SaaS) 格式以及其他格式的软件解决方案。此外，您还可以浏览和订阅数据产品。灵活的定价选项包括免费试用、每小时、每月、每年、多年和自带许可 (BYOL) 模式。所有这些定价选项都从一个来源计费。AWS 会处理账单和付款，费用将显示在您的 AWS 账单上。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;应用系统或最终用户对于&lt;/strong&gt;&lt;strong&gt;S3对象的访问需求&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;由于Amazon S3的灵活性与可靠性，亚马逊云科技的许多客户都使用S3用于对象的存储，Amazon S3可以用于多种用途，比如数据湖的底层存储、备份文件的存储、日志的收集存储等。&lt;/p&gt; 
+&lt;p&gt;除此之外，许多应用系统也会使用S3作为底层的存储之一，比如一些在线商城系统或者社交系统，会将图片等静态文件存储在Amazon S3之中，而系统的架构设计可能需要最终访问用户通过联合认证后获得相应的角色权限去访问这些位于Amazon S3中的对象。&lt;/p&gt; 
+&lt;p&gt;应用系统在进行全球化的布局过程中，往往需要适用于全球化的客户，这些客户的地理位置较为分散，尤其一些位于偏远或特殊区域的客户，他们可能离应用系统或者Amazon S3所处的区域较远或无法通过亚马逊云科技底层网络到达，这时广域化的互联网会造成较大的延迟和不稳定，这会导致部分用户的体验下降或应用程序无法正常运作。&lt;/p&gt; 
+&lt;h2&gt;2.&amp;nbsp;&amp;nbsp; ZGA（Global Accelerator）功能介绍&lt;/h2&gt; 
+&lt;p&gt;Zenlayer Global Accelerator为全球用户提高了应用程序的可用性和性能。即时加速用户对应用程序、网站和/或在线平台的访问，包括高动态内容（如实时流媒体和播放器操作）或安全操作（如用户身份验证和支付）。&lt;/p&gt; 
+&lt;p&gt;我们的合作伙伴的平台利用180多个边缘位置、专用全球主干网和先进的智能路由技术实现与客户的高速连接，消除延迟和数据包丢失，即使在“最后一英里”也不例。ZGA拥有稳定的高速连接，安全的防护，并采用拥有骨干网络和智能路由技术的全球节点，使用户能够通过接入最近的节点来实现高速连接访问源站，消除跨境跨域访问过程里用户经常遇到的网页加载慢、通讯的延迟以及卡顿。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;联合解决方案优势 ：&lt;/strong&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;直接通过VBR对接亚马逊云科技源站，中间节点与节点之间全程骨干网络 ，回源更迅速稳定，隐私性+性能双保障。&lt;/li&gt; 
+ &lt;li&gt;通过智能解析和全球调度系统为用户选取最优最近的接入方式 。&lt;/li&gt; 
+ &lt;li&gt;支持IP/域名加速。支持http，https，WebSocket，WSS，FTP，SSH，TCP/UDP等多种协议。支持自定义端口及支持私有协议。&lt;/li&gt; 
+ &lt;li&gt;支持源站负载均衡及实时监控，SSL加密传输，黑白名单及IP ALC等功能保护源站安全。&lt;/li&gt; 
+ &lt;li&gt;操作简便，交付敏捷。通过亚马逊云科技Marketplace可以直接试用和购买合作伙伴的产品，加速平台配备了配置界面，只需几分钟就可以将客户接入加速。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;3.&amp;nbsp;&amp;nbsp; ZGA优化Amazon S3常用架构&lt;/h2&gt; 
+&lt;p&gt;客户在亚马逊云科技的某个Region上使用了S3服务，期望可以覆盖全球各地用户的访问&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; ZGA加速S3常用架构&lt;/p&gt; 
+&lt;p&gt;对于可控的用户，固定办公场所可以安装网关就近连接到Zenlayer的边缘POP，获取S3的流量送到全球骨干进行加速。移动用户安装客户端，随时体验S3加速效果。&lt;/p&gt; 
+&lt;p&gt;而对于无法安装硬件网关或客户端的用户，可以直接访问由Zenlayer提供的域名(如：www.xxx.com)替代S3原本的域名，通过Zenlayer全球智能DNS解析服务，自动将访问S3的流量牵引至就近POP，再通过全球骨干转发到距离S3源站最近的POP进行转发，实现对S3的加速.&lt;/p&gt; 
+&lt;h2&gt;4.&amp;nbsp;&amp;nbsp; ZGA集成Amazon Cloudfront加速全球S3&lt;/h2&gt; 
+&lt;p&gt;客户在亚马逊云科技上使用了Amazon S3服务，并在部分节点使用了Amazon CloudFront覆盖当地客户，但当最终用户的某些区域不在CloudFront覆盖范围内，无法让这些用户都快速的访问S3上的内容。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 例如：&lt;/p&gt; 
+&lt;p&gt;用户在美国东部署了S3源站，通过CloudFront服务加速东南亚用户，CloudFront东南亚节点选择在新加坡，本地使用者访问质量得到了优化，但东南亚其它地区的使用者通过互联网访问到CloudFront新加坡节点时体验不佳，导致整体访问效果不好。&lt;/p&gt; 
+&lt;p&gt;ZGA的方案会提供给用户一个额外的URL地址，客户在域名控制平台使用该地址替换CloudFront的CNAME地址，使用者在访问S3域名时，通过智能DNS的解析，会判断出CloudFront无法覆盖的地址，并将这些流量会返回Zenlayer边缘POP的IP地址，如泰国、菲律宾、印尼等，流量就近接入后再通过全球骨干送到新加坡的CloudFront节点，最终由CloudFront节点经亚马逊云科技转发到美国源站，动态快速的扩充了CloudFront的全球覆盖能力。&lt;/p&gt; 
+&lt;h2&gt;5.&amp;nbsp;&amp;nbsp; ZGA加速S3在不同Region的传输&lt;/h2&gt; 
+&lt;p&gt;用户在亚马逊云科技的多个Region都是用了Amazon S3的服务，不同Region间的S3需要做数据同步。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; Zenlayer向客户在亚马逊云科技中不同的Region发起DX连接，按照就近选择原则，通过最近的POP打通到客户不同Region的连接；&lt;/p&gt; 
+&lt;p&gt;由于S3不属于Private服务，客户需要建立Public VIF并绑定到VGW，建立到Zenlayer骨干网的连接通道；&lt;/p&gt; 
+&lt;p&gt;不同的Region通过BGP communities控制BGP宣告的路由信息，只发布本Region的所有public IP，Zenlayer通过DX连接将两个区域的路由同步；&lt;/p&gt; 
+&lt;p&gt;使用亚马逊云科技的S3数据同步功能进行数据的复制时，会依据路由规则通过Zenlayer骨干完成传输；&lt;/p&gt; 
+&lt;h2&gt;6.&amp;nbsp;&amp;nbsp; 如何通过亚马逊云科技Marketplace来交付ZGA&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;合约产品下单&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;步骤一: 打开 &lt;a href="https://aws.amazon.com/marketplace/pp/B08RNQC2WJ"&gt;https://aws.amazon.com/marketplace/pp/B08RNQC2WJ&lt;/a&gt; 后，点击 “Continue to Subscribe” 按钮&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤二: 选择合约期限和续约设置&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤三: 选择您所需要的带宽步骤二: 选择合约期限和续约设置&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤四: 点击“Create Contract” 按钮来创建合约&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤五: 支付此合约&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤六: 点击 “Setup your account“ 按钮设置您的账户，之后将会进入到Zenlayer的Portal网址&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤七: 开始注册Zenlayer账户，可继续遵循用户指导步骤&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;订阅产品下单&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;步骤一: 打开 &lt;a href="https://aws.amazon.com/marketplace/pp/B08S3F2PCF"&gt;https://aws.amazon.com/marketplace/pp/B08S3F2PCF&lt;/a&gt; 后，点击 “Continue to Subscribe” 按钮&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤二: 确认按流量收费价格后点击“Subscribe” 按钮&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace12.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤三: 点击“Setup your account“ 按钮进入到Zenlayer Portal网站设置您的账户步骤二: 确认按流量收费价格后点击“Subscribe” 按钮&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace13.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤四: 开始注册Zenlayer账户，可继续遵循用户指导步骤&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace14.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace14.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;7.&amp;nbsp;&amp;nbsp; 小结步骤四: 开始注册Zenlayer账户，可继续遵循用户指导步骤&lt;/h2&gt; 
+&lt;p&gt;通过本文的介绍，您应该初步了解了如何通过亚马逊云科技以及合作伙伴Zenlayer的联合解决方案来加速您的应用以及终端用户对于Amazon S3中对象的访问，以及如果通过亚马逊云科技Marketplace来对合作伙伴的产品进行试用和购买，如果您需要更多的信息，可以参考亚马逊云科技Marketplace官方文档以及合作伙伴官方网站。&lt;/p&gt; 
+&lt;h2&gt;&lt;/h2&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/mingyue.jpg" width="125"&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;张明月&lt;/h3&gt; 
+  &lt;p&gt;合作伙伴解决方案架构师&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt; 
+&lt;h2&gt;&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/liubing.png" width="125"&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;刘冰&lt;/h3&gt; 
+  &lt;p&gt;Zenlayer，产品经理&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
 		<title>使用Python语言实现Transcribe Streaming的websocket协议</title>
 		<link>https://aws.amazon.com/cn/blogs/china/use-python-language-to-implement-the-websocket-protocol-of-transcribe-streaming/</link>
 				<pubDate>Fri, 03 Sep 2021 03:45:21 +0000</pubDate>
@@ -2558,103 +2638,6 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;David MacKeith&lt;/h3&gt; 
   &lt;p&gt;David MacKeith 负责亚马逊云科技欧洲、中东和非洲 (EMEA) 政府金融服务的业务开发。他在帮助世界各地的政府和金融服务组织转型其运营方式以更好地服务各自的客户和市场方面拥有 20 多年的经验。这包括帮助这些组织在数字货币、货币和市场分析、监管报告和数据收集自动化和优化以及财资管理职能转型等领域开发、试验和部署创新解决方案。在加入亚马逊云科技之前，MacKeith 先生曾在伦敦金融城担任商业交易律师。他拥有剑桥大学的物理学学位。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>如何使用数据网格创建现代包装消费品 (CPG)行业数据架构</title>
-		<link>https://aws.amazon.com/cn/blogs/china/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture/</link>
-				<pubDate>Tue, 31 Aug 2021 02:26:48 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Analytics]]></category>
-		<category><![CDATA[Amazon Glue]]></category>
-		<category><![CDATA[Amazon Lake Formation]]></category>
-
-		<guid isPermaLink="false">a155373d52ed91a040fd538dc72cae34ccf05515</guid>
-				<description>在本博客文章中，我们将深入探讨大规模管理数据的主题，并解释为什么 CPG 应考虑使用数据网格进行数据管理的新方法。</description>
-								<content:encoded>&lt;p&gt;自新冠肺炎 (COVID-19) 疫情以来，我们看到世界各地都在向在线购物和直接面向消费者的销售进行翻天覆地的转变。可以说，包装消费品 (CPG) 行业比任何其他行业都更能感受到这种转变。根据统计，“零售网站&lt;a href="https://www.statista.com/statistics/1112595/covid-19-impact-retail-e-commerce-site-traffic-global/"&gt;在 2020 年 6 月创造了近 220 亿次访问量&lt;/a&gt;，而 2020 年 1 月，其全球访问量为 160.7 亿次。” 网站流量在 6 个月内大幅增长 27%，这加速了公司（特别是 CPG）需要管理的数据量。&lt;/p&gt; 
-&lt;p&gt;历史上，大多数 CPG 并没有直接与消费者交流，因此数据很少，且主要代表了内部信息，例如与零售合作伙伴的订单和运输详情。现在，精明的消费品公司开始跟踪最终用户客户和外部数据，例如搜索分析和社交媒体情绪。在本博客文章中，我们将深入探讨大规模管理数据的主题，并解释为什么 CPG 应考虑使用数据网格进行数据管理的新方法。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;CPG 组织之间的数据流&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;首先，我们从数据生态系统的概述开始。由于数据已成为竞争差异化的一个重要点，因此，很多公司允许各个业务层面的人通过分析和机器学习来使用、转换和增强数据——将数据视为不断发展、不断扩展的资产。这对于利用数据推动产品开发和营销决策的 CPG 品牌经理尤其重要。&lt;/p&gt; 
-&lt;p&gt;现代数据生态系统中有三个核心组：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;strong&gt;数据生产者&lt;/strong&gt;&amp;nbsp;– 拥有传入数据系统或来源（订单、发票、库存等）的领域专家。&lt;/li&gt; 
- &lt;li&gt;&lt;strong&gt;数据平台构建者&lt;/strong&gt;&amp;nbsp;– IT 团队的一部分，其成员拥有不同数据技能，其要求具体取决于公司的成熟度。&lt;/li&gt; 
- &lt;li&gt;&lt;strong&gt;数据消费者&lt;/strong&gt;&amp;nbsp;– 使用数据优化业务、做出决策和定义策略的分析师和运营者。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;CPG 的数据湖面临的挑战和局限&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;&lt;a href="https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/?nc=sn&amp;amp;loc=2"&gt;数据湖&lt;/a&gt;通常用于管理数据的快速增长。该集中式存储库存储结构化和非结构化数据。您可以批量或通过实时流式传输来注入信息。但是，当具有大量数据源的数据扩展到 PB 级时，这种经过验证的技术就有一些局限性：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;strong&gt;安全挑战&lt;/strong&gt;&amp;nbsp;– 实现大规模精细安全性非常困难。&lt;/li&gt; 
- &lt;li&gt;&lt;strong&gt;通用方法&lt;/strong&gt;&amp;nbsp;– 一刀切的方法不允许您针对特定数据集优化数据湖。&lt;/li&gt; 
- &lt;li&gt;&lt;strong&gt;完整性问题&lt;/strong&gt;&amp;nbsp;– 通常，数据输入数据湖后会丢失上下文。&lt;/li&gt; 
- &lt;li&gt;&lt;strong&gt;手动维护&lt;/strong&gt;&amp;nbsp;– 不同的，冲突的数据集需要人工操作。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;这些限制会转化为较长的开发周期和瓶颈，从而无法将数据输入数据湖并从中提取有意义的信息，这意味着许多 CPG IT 部门都在努力地大规模维护和挖掘数据。同时，对于数据消费者来说，访问和分析企业数据可能非常复杂且令人沮丧。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;在数据湖模型中，数据被摄取到企业数据湖中。中央平台团队负责管理安全性、摄取、转换、访问和数据可用性。数据生产者和消费者需要通过集中化团队来存储和访问数据。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;从整体到可管理：一种软件类比&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;由中央 IT 部门管理的数据湖类似于 20 世纪 90 年代的整体软件产品。刚性、相互依赖性和缓慢的开发周期是软件开发中的微服务革命背后的驱动力，它提供了可扩展性、更短的开发周期、隔离安全性和更轻松的管理。&lt;/p&gt; 
-&lt;p&gt;那么我们如何将同样的微服务设计原则应用于数据呢？ 在CPG 行业（以及其他行业）的答案是数据网格。&lt;/p&gt; 
-&lt;p&gt;数据网格是一种相对较新的架构设计，它解决了单体式数据湖架构的缺点，并提供了与软件设计中的微服务类似的益处。在数据网格中，数据本身就是产品，并且由与领域无关的自助式数据基础设施提供支持。数据网格通过以下方式打破了传统数据湖的单体性：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;strong&gt;数据即产品&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;– 在典型的数据湖中，数据湖和数据管道就是产品。在数据网格中，数据以及收集和发布数据的领域和生产者专业知识是产品。&lt;/li&gt; 
- &lt;li&gt;&lt;strong&gt;分散式所有权&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;– 与 IT 集中管理的数据湖不同，数据网格具有分散式所有权。不同的业务领域（数据生产者）负责策划、验证、发布、维护和生命周期管理他们拥有的数据。&lt;/li&gt; 
- &lt;li&gt;&lt;strong&gt;精细、可扩展的访问控制&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;– 由于数据被数据网格中的生产者所拥有，因此由他们指定访问、治理和保留策略以及基于数据粒度的任何自定义访问策略。这样一来，通过将责任和访问控制策略推送给数据所有者，消除了数据湖的集中访问控制瓶颈。&lt;/li&gt; 
- &lt;li&gt;&lt;strong&gt;可扩展的数据发现&lt;/strong&gt;&amp;nbsp;– 数据网格允许消费者根据领域、粒度、质量、频率等发现、识别和订阅数据。这使可扩展的消费者可以访问和发现，并消除对集中式团队的依赖。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;当生产者在数据网格中发布数据时，他们会使用以下属性创建不可变的数据契约：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;数据类型&lt;/li&gt; 
- &lt;li&gt;物理模式&lt;/li&gt; 
- &lt;li&gt;业务特点&lt;/li&gt; 
- &lt;li&gt;分发频率&lt;/li&gt; 
- &lt;li&gt;数据质量声明&lt;/li&gt; 
- &lt;li&gt;生命周期策略&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;数据契约是一种确保在整个企业中可以发现数据的机制。合同属性与数据的整个生命周期相关联，数据消费者可以发现和订阅特定的数据契约属性。&lt;/p&gt; 
-&lt;p&gt;在网格架构中，数据可以存储在生成数据的位置。中央平台团队负责管理安全性，确保契约得到执行，并提供工具和自动化。数据生产者和消费者可以访问和查看整个企业中的所有数据，并可以彼此之间进行通信。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;CPG 行业的数据网格参考架构和用法&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;以下是一种典型的数据网格实现的示例：&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 该设计使用&amp;nbsp;&lt;a href="https://aws.amazon.com/pub-sub-messaging/"&gt;pub/sub 模型&lt;/a&gt;。尽管该解决方案使用&lt;a href="https://aws.amazon.com/lake-formation"&gt;Amazon Lake Formation&lt;/a&gt;&lt;u&gt; 一种可以&lt;/u&gt;简化数据湖创建工作的服务，但您需要手动定义数据源、访问权限和安全策略。您可以使用&amp;nbsp;&lt;a href="https://aws.amazon.com/glue"&gt;Amazon Glue&lt;/a&gt;&amp;nbsp;发现数据目录中的数据，也可以使用契约中定义的属性发现元数据。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;用数据网格管理单独的微服务数据集&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;近年来，CPG 行业投入了大量资金，使用微服务和容器架构实现在线基础设施的现代化。在这种新的设计模式中，每项微服务都会创建单独的数据集（搜索、结账、排序、产品等），且新的不同数据会成倍增加。每个独特的数据流都由不同的数据生产者拥有，并且具有不同的质量、治理和生命周期属性。生产者可以配置数据流以实时或批量上传到数据平台。这种微服务设计能够自然地适合数据网格概念实施模式。&lt;/p&gt; 
-&lt;p&gt;有关 CPG 行业微服务的更多信息，请务必阅读 Danny Yin 的博客文章《&lt;a href="https://aws.amazon.com/blogs/industries/use-this-success-strategy-to-move-to-a-microservice-architecture/"&gt;在 CPG 中迁移到微服务架构的成功策略&lt;/a&gt;》。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;将数据管家指定为&lt;/strong&gt;&lt;strong&gt; CPG 中的数据点人员&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;为了确保数据网格架构的可扩展性，组织通常会指定一名数据管家，他是一位对生产者生成数据的方式、数据本身的契约属性、用户访问控制、数据清洁度和预期的消费者使用模式有深入了解的专人。数据管家的任务是确保数据在整个生命周期中的契约完整性，并帮助管理任何契约修改。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;在数据清洁室中挖掘受限的&lt;/strong&gt;&lt;strong&gt; CPG 数据&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;在这种新兴的使用案例中，清洁室包含原始数据，例如 PII 或 POS 交易数据，这些数据可能受到隐私限制的约束。在清洁室中，数据消费者可以通过充足的匿名化运行聚合查询。数据消费者还可以使用不受限制的数据联合匿名数据进行分析信息，同时遵守隐私要求。数据网格架构通过强制执行数据的契约限制去原生支持清洁室要求。&lt;/p&gt; 
-&lt;p&gt;随着各国采用严格的数据隐私规则，例如&amp;nbsp;&lt;a href="http://www.oecd.org/"&gt;OECD&lt;/a&gt;&amp;nbsp;指南或欧盟《&lt;a href="https://www.consumersinternational.org/media/155133/gdpr-briefing.pdf"&gt;一般数据保护条例&lt;/a&gt;》，管理如何维护、保护、使用和处置数据的规则变得更加复杂。数据网格架构可以正确隔离数据、强制执行安全策略并授予对数据的访问权限。数据优先的设计和数据网格的精细访问控制提供了支持数据隐私要求的原生机制，而不需要昂贵的企业范围的数据项目。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;使用数据网格与&lt;/strong&gt;&lt;strong&gt; CPG 相关的供应商协作&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;很多 CPG 都在试图优化第三方提供商的运营，例如提供原材料和成品的供应链和物流供应商。数据网格是从头开始设计的，以在原生支持 CPG 和供应商之间的协作。内部和外部数据生产者和消费者可以通过商定的契约自由交换数据，而数据不可变性为多供应商系统的高效运行提供了完整性。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;结论&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;数据网格架构是单体数据湖和数据仓库的现代化方法，从而使 CPG 行业能够大规模管理数据。询问亚马逊云科技如何支持您的数据转换。立即&lt;a href="https://pages.awscloud.com/GLOBAL-other-IND-CPG-Contact-Us-2021.html"&gt;联系&lt;/a&gt;您的 Amazon Web Services 账户团队以开始行动，或访问我们的&lt;a href="https://aws.amazon.com/cpg/"&gt;消费性包装品&lt;/a&gt;页面了解更多信息。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/ilanraab.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;Ilan Raab&lt;/h3&gt; 
-  &lt;p&gt;Ilan Raab 是亚马逊云科技消费性包装品 (CPG) 行业的全球技术领导者。Ilan 于 2019 年加入亚马逊云科技，负责定义和执行公司的 CPG 技术策略，其中包括在制造/移动/市场业务领域构建以 CPG 为重点的解决方案。他经常与亚马逊云科技CPG 客户合作，利用尖端的亚马逊云科技技术和思想领导力来帮助他们实现业务转型。在加入 AWS 之前，Ilan 是企业软件和网络领域多家初创公司的工程副总裁兼联合创始人。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/mchiapus.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;Marco Chiapusso&lt;/h3&gt; 
-  &lt;p&gt;Marco Chiapusso 于 2020 年 1 月加入亚马逊云科技，担任欧洲、中东和非洲的解决方案架构经理。他与全球企业客户合作，共享云如何帮助他们提高速度和敏捷性，同时让他们能把更多的时间花在客户身上的最佳实践、技术和策略。在加入亚马逊云科技之前，Marco 担任了多个高级技术职位，领导并共同领导了多项大规模计划，将组织转变为技术赋能型现代公司。其中包括开发和部署一个拥有超过 1PB 数据的现代数据平台，从而提高客户洞察力，并大规模增强机器学习能力。Marco 在 Adidas 的经验和任期涉及多个领域，包括架构、开发、支持、数据、创新（包括 AI 和 IoT）以及组织发展。&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
 										</item>
