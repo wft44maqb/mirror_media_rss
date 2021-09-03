@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-03T09:48:13Z</updated>
+ <updated>2021-09-03T09:52:18Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59072513</id>
+  <title><![CDATA[飓风洪灾重创美国东北部]]></title>
+  <updated>2021-09-03T09:46:00Z</updated>
+  <published>2021-09-03T09:46:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/飓风洪灾重创美国东北部/a-59072513?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国经济文化最繁华的地区在气候变化面前显现出脆弱，不堪一击。一场已渐弱的飓风暴雨造成数十人死亡。]]></summary>
+  <category term="科技环境"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59072317</id>
+  <title><![CDATA[普京历史“不及格” 学生纠正遭校长训斥]]></title>
+  <updated>2021-09-03T09:19:00Z</updated>
+  <published>2021-09-03T09:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/普京历史-不及格-学生纠正遭校长训斥/a-59072317?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[一名俄罗斯高中生在一场座谈会现场指出总统普京的历史知识错误，遭到校长斥责“无礼放肆”。反对派人士则称赞其勇气可嘉。克里姆林宫也对该事件作出回应。]]></summary>
+  <category term="新闻广角"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59071384</id>
   <title><![CDATA[中国国企涉非法收购意大利军用无人机公司]]></title>
@@ -503,16 +523,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柴可夫斯基：西班牙舞曲/a-57217657?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[19世纪伟大的俄罗斯作曲家柴可夫斯基的《天鹅湖》组曲闻名遐迩。请听莫斯科柴可夫斯基交响乐团演奏的组曲中的西班牙舞曲。]]></summary>
   <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58997968</id>
-  <title><![CDATA[世卫首次发送中国疫苗  南非不想要]]></title>
-  <updated>2021-08-27T06:31:00Z</updated>
-  <published>2021-08-27T06:31:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/世卫首次发送中国疫苗-南非不想要/a-58997968?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[COVAX全球疫苗共享计划因为疫情引发的生产国出口限制而让疫苗数迟迟无法到位，现在世卫要送1亿剂中国疫苗，却有非洲国家说不要，为什么？]]></summary>
-  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:58997075</id>
