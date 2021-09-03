@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 03 Sep 2021 10:54:14 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Sep 2021 10:59:03 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[習近平宣佈設立北京證券交易所 時隔30年中國誕下證交所「三胎」]]></title>
+            <description><![CDATA[在定位方面，北交所將堅持服務創新型中小企業的市場定位，尊重創新型中小企業發展規律和成長階段，提升制度包容性和精凖性。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/business-58436181?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/business-58436181</guid>
+            <pubDate>Fri, 03 Sep 2021 10:57:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[中國當局禁止「娘炮」上電視 有學者指「是對民眾生活的不斷蠶食」]]></title>
             <description><![CDATA[中國國家廣電總局表示，為了抵制低俗和庸俗作品的生產，將嚴厲打擊娛樂節目中的「娘炮」審美和「低俗網紅」。]]></description>
@@ -48,13 +55,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58432324?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58432324</guid>
             <pubDate>Fri, 03 Sep 2021 07:54:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[中美關係：氣候變化優先於政治分歧？ 克里訪華未達到目的]]></title>
-            <description><![CDATA[美國氣候特使克里二度訪華，向東道主作出應對氣候變化「比任何政治分歧都重要」的呼籲。不過，他似乎未能得到積極回應。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58429403?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58429403</guid>
-            <pubDate>Thu, 02 Sep 2021 19:51:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[好萊塢電影中關於分娩的六大「謊言」]]></title>
@@ -188,6 +188,13 @@
             <link>https://www.bbc.com/zhongwen/trad/science-57529842?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-57529842</guid>
             <pubDate>Tue, 24 Aug 2021 13:48:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中美關係：氣候變化優先於政治分歧？ 克里訪華未達到目的]]></title>
+            <description><![CDATA[美國氣候特使克里二度訪華，向東道主作出應對氣候變化「比任何政治分歧都重要」的呼籲。不過，他似乎未能得到積極回應。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58429403?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58429403</guid>
+            <pubDate>Thu, 02 Sep 2021 19:51:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[矽谷|硅谷Theranos醜聞：美國80後女富豪從新星到階下囚的跌宕人生]]></title>
