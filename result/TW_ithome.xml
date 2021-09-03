@@ -6,6 +6,29 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>日本農業轉型看上臺灣智慧農機技術，三大茶園AIoT技術落地靜岡實證最快明年產品化</title>
+ <link>https://www.ithome.com.tw/news/146424</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p dir=&quot;ltr&quot;&gt;茶園管理也開始邁向規格化、機械化與數位化！資策會數位服務創新研究所從2018年起，與長生製茶廠、茶業改良場合作，開發了一套農機智慧管理系統，並導入長生製茶廠的代耕場域，提供農機設備的預測維修、駕駛行為追蹤以及茶園管理等三大功能。今年，這套系統更取得日本採茶機市佔達6成的農機企業落合刃物青睞，目前已經在日本展開跨國應用實證，最快明年就會啟動付費機制來販售。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;在農業人口老化的趨勢下，臺灣茶園種植已經走向機械化，比如長生製茶廠過去就從國外引進大型機械，在臺灣多個縣市提供茶園機械代耕服務。觀察到這個現象，資策會在機械化管理的基礎下，開發農機管理系統，目標讓茶園經營者透過更有效的管理模式，來提升茶園產能、精簡人力成本。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;資策會從三大面向來開發系統功能。首先，為了讓新手能快速學會農機駕駛方法，團隊在農機上裝設IoT設備，來追蹤農機駕駛行為，比如依據採茶刀具的升降行為、農機行駛速度、轉彎速度等數據，來評估駕駛人員是否為新手、需不需輔導。同時，藉由蒐集到的數據，團隊也建立了駕駛建議模型，針對新手駕駛提供操作建議，目的要將老練駕駛的經驗，快速傳承給新手駕駛學習。&lt;/p&gt;
+&lt;p&gt;除了以農機數據來推論駕駛行為，資策會也透過農機的機具特性，包括不同環境條件下的油溫、油壓及維運相關參數，來建立農機的維修預測模型。比如農機在高溫的環境下，可能導致液壓系統運作不順暢，機器損壞的機率較高，因此，在不同的環境條件下，經過模型預測，就能進一步判斷農機運作多久可能損壞、什麼時間點應該保養維修。而每臺機器也會因機型不同、茶園土質的不同，產生不同的油耗量差異，資策會也能依據不同環境來建立耗油量預測模型，來建議不同地區應使用的農機機型。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;不只如此，資策會也要將茶園管理經驗數位化，讓管理經驗更容易複製到其他場域。茶園管理也就是派工採收茶葉、茶園修編或噴藥等行為，這些任務通常是依據有經驗者的管理經驗來分派。為了將這些任務的作業時間記錄下來，團隊剛開始先開發了一隻工作回報App，讓上工的人員自行記錄下工作類別與時間，但實際上執行時，卻面臨員工忙於農務工作、疏於回報的問題。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;收到第一線員工的反饋後，團隊將原本要手動填寫的任務，改透過農機IoT結合GPS的資料，來自動蒐集茶園派工記錄。比如當員工發動農機引擎，就能記錄下每一趟任務的起迄時間，透過GPS的定位也可以了解員工被分派到哪一區工作，自動留下數位工作記錄，供員工後續以App來查閱。透過這些工作記錄，就能進一步數位化茶園管理的經驗，以利未來進行經驗傳承。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;資策會指出，透過這套系統，管理者可從數據中了解許多管理資訊，包括追蹤各茶園的採收產能、各駕駛工作表現、各農機維護狀況，藉此優化管理流程。以長生製茶廠為例，在良好的管理模式之下，茶園產能可比一般茶園多30%，且精簡人力成本達50%。&lt;/p&gt;
+&lt;h3 dir=&quot;ltr&quot;&gt;&lt;span style=&quot;color:#FF8C00;&quot;&gt;找出誰來買單？農機管理系統的產品化挑戰&lt;/span&gt;&lt;/h3&gt;
+&lt;p dir=&quot;ltr&quot;&gt;根據長生製茶廠的經驗開發了農機管理系統後，資策會也要將這套系統產品化，向國內外輸出。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;「產品化的最大挑戰，是弄清楚誰有機會付錢。」資策會數位服務創新研究所經理彭永興指出，從過去的經驗來看，要說服農民導入一套軟體系統極其不易，因此，資策會也從另一個角度思考，「農民更願意為哪些產品或服務付錢？」&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;轉念思考後，資策會發現，由於茶園缺工，代耕服務已經是農民要經營茶園的重要一環，意味著農民更願意付錢採購代耕業者的服務；而代耕業者為了提供代耕的機具，也需要向農機廠商採購農機。了解到這層關係後，團隊找到了兩個切入的機會點，一是向代耕業者推廣，二是說服農機廠商買單。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;之所以向代耕業者推廣，是要讓代耕業者提供服務時，能用來加值農機運作、駕駛行為、與茶園工作的管理，藉此提升茶園管理效能，甚至增加茶葉產量，讓農民更願意為代耕服務買單；且對代耕業者來說，在拓展業務時，茶園管理的規模也會擴大，在傳承管理經驗時，也需要一套系統來加速經驗的複製與轉移。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;除了代耕業者，對農機廠商來說，也能在結合這套系統後，透過農機維運與管理功能，為自己的產品加值。也就是說，在提供農機硬體設備的同時，若能輔以一套管理系統，提供如農機GPS追蹤、維護保養建議等服務，就能以此為優勢，以軟硬體結合的方式，推廣給農民與代耕業者搭配採購。&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;目前，資策會正在將這套軟體系統產品化，今年4月開始，與日本採茶機市佔達6成的農機企業落合刃物，在日本靜岡縣展開驗證，最快明年就會啟動付費機制。未來在軟體服務的販售上，資策會也計畫分為入門版、進階版、專業版，設定不同的租用價格來進行販售，讓用戶能按需選擇合適的方案來採用。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 05:32:37 +0000</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="false">146424 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146424#comments</comments>
+</item>
+<item>
  <title>藍牙BrakTooth漏洞波及逾1,400款產品</title>
  <link>https://www.ithome.com.tw/news/146523</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://asset-group.github.io/disclosures/braktooth/&quot; target=&quot;_blank&quot;&gt;新加坡科技設計大學（Singapore University of Technology and Design）的研究人員在本周揭露了藍牙漏洞BrakTooth&lt;/a&gt;，BrakTooth集結了逾20種不同的安全漏洞，可能造成服務阻斷或遠端程式攻擊，影響逾1,400款產品，從電腦、手機到鍵盤等，估計全球可能有數十億裝置含有潛在的安全風險。&lt;/p&gt;
@@ -209,22 +232,6 @@
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="false">146505 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146505#comments</comments>
-</item>
-<item>
- <title>NSA：國安系統應準備好因應量子電腦威脅</title>
- <link>https://www.ithome.com.tw/news/146502</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;一般相信量子電腦對資安最大威脅之一是破解加密系統。&lt;a href=&quot;https://media.defense.gov/2021/Aug/04/2002821837/-1/-1/1/Quantum_FAQs_20210804.PDF&quot; target=&quot;_blank&quot;&gt;本周美國國安局（NSA）說明量子電腦對國安系統的威脅，並勾勒NSA的計畫&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;根據NSA發布的一份《量子電腦與後量子的加密》FAQ文件，提及「攸關加密的量子電腦」（Cryptographically Relevant Quantum Computer，CRQC）對加密系統的影響。所謂CRQC專指可用以攻擊傳統電腦無法破解的加密系統的量子電腦。CRQC可能顛覆現行數位簽章及非對稱金鑰交換作法中，廣為使用的公鑰演算法。&lt;/p&gt;
-&lt;p&gt;NSA指出，美國儲存機密軍事及情報資訊的國安系統（National Security System，NSS）都是用公鑰加密，因此量子電腦被誤用，或是野心份子若建立起CRQC，將對NSS及國安造成危害。&lt;/p&gt;
-&lt;p&gt;為此NSA計畫建立新的加密標準防範CRQC的威脅。NSA表示，雖然現在還不清楚量子電腦的規模和威力何時會用來破解公鑰加密演算法，但因應可能的破解威脅，NSA計畫推動促進「抗量子」（quantum-resistant or quantum-safe）或「後量子」（post-quantum）加密演算法的發展。「抗量子」演算法泛指能抵抗CRQC破解的演算法，而後量子演算法意思相近，則指設計中納入量子電腦威脅的演算法。&lt;/p&gt;
-&lt;p&gt;NSA的目的是經由建立標準及認證，讓美國NSS系統整合新一代演算法。NSA相信即使真的建了新加密演算法，也要花20年以上才能完全部署到美國所有NSS設備。&lt;/p&gt;
-&lt;p&gt;NSA指出目前還沒有一套抗量子公鑰演算法可讓NSS廠商採用。雖然美國國家標準暨技術研究院（National Institute of Standards and Technology，NIST）已經在考慮多種演算法，但尚未有核准者，一旦NIST完成並公布標準，NSA就會提供NSS廠商相關時間表及規畫。NSA也預告，所有美國國安資訊系統的開發廠商及購買單位（即聯邦政府部門）都要有心理準備，必須轉到後量子加密標準。&lt;/p&gt;
-&lt;p&gt;在此之前，NSA表示一般相信AES-256及SHA-384演算法可抵禦大型量子電腦的攻擊，廠商或開發商可以實作此類技術。NSA曾經表示計畫選擇NIST最後決選的晶格（lattice-based）演算法，因而建議廠商開始實驗。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 02 Sep 2021 13:10:00 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146502 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146502#comments</comments>
 </item>
 </channel>
 </rss>

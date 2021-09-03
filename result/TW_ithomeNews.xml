@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/3995" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/3995</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=83&amp;profile=atom" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/3995" rel="self" type="application/rss+xml" />
       <item>
+    <title>日本農業轉型看上臺灣智慧農機技術，三大茶園AIoT技術落地靜岡實證最快明年產品化</title>
+    <link>https://www.ithome.com.tw/news/146424</link>
+    <description> 茶園管理也開始邁向規格化、機械化與數位化！資策會數位服務創新研究所從2018年起，與長生製茶廠、茶業改良場合作，開發了一套農機智慧管理系統，並導入長生製茶廠的代耕場域，提供農機設備的預測維修、駕駛行為追蹤以及茶園管理等三大功能。今年，這套系統更取得日本採茶機市佔達6成的農機企業落合刃物青睞，目前已經在日本展開跨國應用實證，最快明年就會啟動付費機制來販售。
+在農業人口老化的趨勢下，臺灣茶園種植已經走向機械化，比如長生製茶廠過去就從國外引進大型機械，在臺灣多個縣市提供茶園機械代耕服務。觀察到這個現象，資策會在機械化管理的基礎下，開發農機管理系統，目標讓茶園經營者透過更有效的管理模式，來提升茶園產能、精簡人力成本。</description>
+     <pubDate>2021-09-03  01:09:37</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146424</guid>
+  </item>
+  <item>
     <title>藍牙BrakTooth漏洞波及逾1,400款產品</title>
     <link>https://www.ithome.com.tw/news/146523</link>
     <description> 新加坡科技設計大學（Singapore University of Technology and Design）的研究人員在本周揭露了藍牙漏洞BrakTooth，BrakTooth集結了逾20種不同的安全漏洞，可能造成服務阻斷或遠端程式攻擊，影響逾1,400款產品，從電腦、手機到鍵盤等，估計全球可能有數十億裝置含有潛在的安全風險。</description>
@@ -251,15 +260,6 @@
      <pubDate>2021-09-01  03:09:37</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146482</guid>
-  </item>
-  <item>
-    <title>去年美國當地學校受到77次的勒索軟體攻擊，光是停機成本就損失66億美元</title>
-    <link>https://www.ithome.com.tw/news/146480</link>
-    <description> 提供網路安全及隱私消息的Comparitech在本周指出，2020年駭客針對美國地區的學校，總計發動了77次的勒索軟體攻擊，雖然攻擊次數低於2019年的96次，但所影響的學生多達136萬人，高於2019年的81萬人，猜測是駭客愈趨鎖定大型學校為目標所造成的差異。
-過去勒索軟體駭客並不特別青睞學校，2018年的攻擊案件只有10件，但2019年就激增到96件，去年為77件，今年上半年則是39件。</description>
-     <pubDate>2021-09-01  02:09:00</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146480</guid>
   </item>
   </channel>
 </rss>
