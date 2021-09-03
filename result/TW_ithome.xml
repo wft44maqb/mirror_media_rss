@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>微軟首度讓企業客戶測試Windows 10 21H2更新及Windows 11</title>
+ <link>https://www.ithome.com.tw/news/146529</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/windows-it-pro-blog/commercial-previews-for-windows-11-and-windows-10-version-21h2/ba-p/2676467&quot; target=&quot;_blank&quot;&gt;微軟昨（2）日宣布針對企業客戶釋出Windows 11以及Windows 10 21H2的測試版本&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;只要有加入Windows Insider Program for Business測試方案的企業用戶，可以透過Windows Update或Windows Update for Business、Windows Server Update Services（WSUS）、&lt;a href=&quot;https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoftwindowsdesktop.windows-11-preview?tab=Overview&quot; target=&quot;_blank&quot;&gt;Azure Marketplace&lt;/a&gt;和&lt;a href=&quot;https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso&quot; target=&quot;_blank&quot;&gt;Windows Insider方案的ISO檔下載頁&lt;/a&gt;來安裝累積更新。&lt;/p&gt;
+&lt;p&gt;啟動Windows Update或Windows Update for Business的企業用戶，會接獲編號&lt;a href=&quot;https://support.microsoft.com/en-us/topic/september-1-2021-kb5005101-os-builds-19041-1202-19042-1202-and-19043-1202-preview-82a50f27-a56f-4212-96ce-1554e8058dc1&quot; target=&quot;_blank&quot;&gt;KB5005101的累積更新&lt;/a&gt;，前提是PC符合Windows 11的硬體規格門檻。不想測試Windows 11的用戶可以在安裝時選擇「stay on Windows 10 for now」，就會自動下載Windows 10 21H2。同樣的，硬體未達門檻的Insiders測試用戶，也只會接獲21H2。&lt;/p&gt;
+&lt;p&gt;兩個版本都是選擇性更新，用戶也可以完全不安裝。兩者的正式版也都預定在今年10月釋出，&lt;a href=&quot;https://www.ithome.com.tw/news/146474&quot; target=&quot;_blank&quot;&gt;其中最新的電腦愈可能在10月5日後安裝Windows 11&lt;/a&gt;，微軟對21H2則沒有提供明確時間點。&lt;/p&gt;
+&lt;p&gt;作為Windows 10最後一次更新，Windows 10 21H2將是小幅功能強化的版本。Home及Pro版用戶可獲得18個月支援，企業及教育版用戶則可獲得30個月。&lt;/p&gt;
+&lt;p&gt;Windows 10 21H2主要功能包括加入Wi-Fi安全標準WPA3 H2E、支援無密碼登入的Windows Hello for Business、WSL（Windows Subsystem for Linux）和EFLOW（Azure IoT Edge for Linux on Windows）加入GPU支援，以便執行機器學習及其他耗運算資源的作業等。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 06:49:24 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146529 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146529#comments</comments>
+</item>
+<item>
  <title>國家級駭客掀起新時代網路戰爭</title>
  <link>https://www.ithome.com.tw/article/146526</link>
  <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/sha_chong_960.jpg&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;時報文化&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;二○一七年六月二十七日，某件怪異而恐怖之事，開始在全世界的基礎設施中擴散開來。&lt;/p&gt;
@@ -238,26 +253,6 @@
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="false">146515 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146515#comments</comments>
-</item>
-<item>
- <title>Google以分層神經渲染生成遮罩，可個別操縱影片中物體時間軸</title>
- <link>https://www.ithome.com.tw/news/146514</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google發展了一種產生圖像和影片遮罩的新方法，利用分層神經渲染，將影片中的物體和背景分開，產生稱為&lt;a href=&quot;https://ai.googleblog.com/2021/08/introducing-omnimattes-new-approach-to.html&quot;&gt;Omnimatte&lt;/a&gt;的遮罩，與典型分割模型不同之處在於，這個新方法所生成的Omnimatte不僅是物體本身，同時還能分離出和物體有關的其他細節，包括影子、部分透明的軟效果，甚至是輪胎摩擦地面所產生的煙霧，與傳統遮罩相同的地方是，Omnimatte為RGBA圖像，因此能夠用於廣泛的圖像和影片編輯工具。&lt;/p&gt;
-&lt;p&gt;圖像和影片編輯操作，仰賴準確的遮罩（Matte），Google提到，雖然最近的的電腦視覺技術，已經可以產生高品質的遮罩，用來產生合成景深、合成圖像，或是去除圖像背景，但與主體相關的細節，像是陰影、反射和煙霧，通常會被切割演算法忽略。&lt;/p&gt;
-&lt;p&gt;為了產生更實用的遮罩，Google開發了新方法，來切割出包含主體和相關細節的Omnimatte，藉由使用分層神經渲染方法，訓練卷積神經網路（CNN），將主體分割遮罩和背景雜訊圖像，映射到單一Omnimatte中。&lt;/p&gt;
-&lt;p&gt;研究人員提到，因為CNN的特性，能夠良好地學習主體和相關特效之間的關聯性，兩者的相關性越強，CNN就越容易學習，像是（下圖）在路上行走的人與狗，人和人的影子，以及狗和狗的影子之間的空間關係，都是從右向左移動，不過人與狗的影子，或是狗與人的影子，因為關係變化更大，因此相關性也就相對較弱，CNN會先學習較強的相關性，因此能獲得正確的分解結果。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://1.bp.blogspot.com/-Qq3cN8QyjUg/YS5UYDmPN1I/AAAAAAAAICc/CFjjT0MYe681xNRMcB1wukJSPSQ6lXp4ACLcBGAsYHQ/s16000/image5.gif&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;要生成Omnimatte，輸入的影像會被分成多層，每個移動的物體獨立為一層，靜止的背景物體全部被分為另一層，當這些圖層使用Alpha混合合併在一起時，就能重現輸入的影像。Omnimatte能夠被靈活地應用在各種影像處理應用中，像是只要在圖層組合中刪除特定的圖層，就能夠從影片中刪除物體，並且還可以透過複製圖層來複製物體。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://1.bp.blogspot.com/-At-5jhezNCY/YS5WZJ4R8tI/AAAAAAAAIDI/R1ss5X7zw5cuLoIloOyWkY9b8RFsSE68gCLcBGAsYHQ/s16000/image2.gif&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Omnimatte也可以用來操控物體在影片中出現的時間（Retime），研究人員提到，這項特效常被應用在電影之中，但是傳統的作法必須在受控的環境中，為每個單獨的主體拍攝影片，但是分解成為Omnimatte後，即便日常的影片，都能夠簡單地操縱物體時序，只需更改每一個圖層的播放速度，就能達到過去必須要對每個物體重新拍攝，才能達到的效果，而且由於Omnimatte是標準的RGBA圖像，因此可以使用傳統的影片編輯軟體來編輯物體的時間軸。&lt;/p&gt;
-&lt;p&gt;（下圖）影片被分解成三個圖層，每個小孩一層，在原始的影片中，每個小孩跳入水裡的時間不同，但是透過調整Omnimatte播放的時間軸，就能夠讓三個小孩同時跳入水中，並且擁有水花和反射等逼真效果。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://1.bp.blogspot.com/-scdYcnEj-Zs/YS5Wgas87cI/AAAAAAAAIDQ/43nqnHxuRTcl4rSosq-6aM7OrpIgq3aXQCLcBGAsYHQ/s16000/image8.gif&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;不過這個Omnimattes技術仍然有其限制，目前只能用來處理固定相機位置的影像，當相機移動時，便無法精確地捕捉整個背景，部分背景元素可能遮蓋上圖層，另外，CNN在學習相關性上雖然非常強大，但是部分時候產生的結果不如預期，且無法切確掌握原因。研究人員也提到，這項技術可能遭到濫用，即便重新排列的物體，皆為影片中已經存在的內容，但是只要簡單地調整影片內容的順序，就可以被用來產生虛假和誤導性訊息。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 02:02:15 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146514 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146514#comments</comments>
 </item>
 </channel>
 </rss>
