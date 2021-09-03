@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-03T05:30:05Z</updated>
+ <updated>2021-09-03T05:32:06Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59069963</id>
+  <title><![CDATA[传四川百名藏人被捕 疑与保存达赖图像有关]]></title>
+  <updated>2021-09-03T05:08:00Z</updated>
+  <published>2021-09-03T05:08:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/传四川百名藏人被捕-疑与保存达赖图像有关/a-59069963?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[海外藏人组织近日连续发布四川当地超过百名藏人遭警察抓捕的消息，称这些人主要是因被怀疑本存达赖喇嘛图像或与流亡藏人联系而被抓捕。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59070041</id>
+  <title><![CDATA[菅义伟不参加自民党党魁选举  短期内或辞首相]]></title>
+  <updated>2021-09-03T05:08:00Z</updated>
+  <published>2021-09-03T05:08:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/菅义伟不参加自民党党魁选举-短期内或辞首相/a-59070041?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[菅义伟3日表态无意参选9月底的自民党党魁选举，且在党魁任期9月底届满後，也会辞去首相一职，代表上台约1年後就离任。此消息震撼日本政坛，也牵动未来日本政治情势发展。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59069724</id>
   <title><![CDATA[中国挑战美国太阳能板关税  遭世贸组织驳回]]></title>
@@ -185,16 +205,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59054561</id>
-  <title><![CDATA[中国《海上交通安全法》生效  南海情势或更紧张？]]></title>
-  <updated>2021-09-01T14:54:00Z</updated>
-  <published>2021-09-01T14:54:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国《海上交通安全法》生效-南海情势或更紧张？/a-59054561?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国修订后的《海上交通安全法》于9月1日起正式施行。外界认为新的法规意在收紧对通过中方所谓“管辖海域”的外国船只的控制，但实际效果存疑。 ]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59053903</id>
   <title><![CDATA[消息人士：蚂蚁金服数据业务将被整合]]></title>
   <updated>2021-09-01T14:34:00Z</updated>
@@ -233,16 +243,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/普罗科菲耶夫-g小调第二小提琴协奏曲/a-59052324?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[谢尔盖·普罗科菲耶夫(Sergei Sergeyevich Prokofiev)1891年4月23日－1953年3月5日），是原苏联著名作曲家、钢琴家，也是二十世纪最著名的作曲家之一。]]></summary>
   <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59050875</id>
-  <title><![CDATA[中国驻美大使秦刚：中美应“排除干扰、聚焦合作”]]></title>
-  <updated>2021-09-01T12:12:00Z</updated>
-  <published>2021-09-01T12:12:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国驻美大使秦刚：中美应-排除干扰、聚焦合作/a-59050875?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国新任驻美大使秦刚表示，中国从来没有挑战和取代美国、称霸世界的野心，但他同时也敦促美方“不要触碰和挑战中方的红线”。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59042577</id>
