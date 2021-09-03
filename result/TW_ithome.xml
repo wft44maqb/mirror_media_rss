@@ -6,6 +6,76 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>【首次栽種就成功的關鍵是達人經驗數位化】數位分身技術如何走進農漁業</title>
+ <link>https://www.ithome.com.tw/news/146518</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;數位分身，這個製造業當紅的新興技術，也能在農業場域發揮作用。&lt;/p&gt;
+&lt;p&gt;一般來說，數位分身是透過IoT蒐集實體設備的運作數據，建立起虛擬對應的數位分身，來模擬實體設備的狀態改變。雖然農作物是活的植物，無法像機械設備的變化完全可控，但是，擴大到作物與環境的關聯，建立起溫室、栽培場或魚塭等場景的虛擬分身，仍舊可以用來模擬出作物在不同條件下的生長變化。&lt;/p&gt;
+&lt;p&gt;而在臺灣，不只農業，連養殖魚塭、養雞場、甚至是茶園，都開始出現了農業數位分身的應用實例。&lt;/p&gt;
+&lt;p&gt;比如臺南有座養殖漁場中，就打造出了魚塭的數位分身，有能力推測環境改變後對魚蝦生長的影響，適時提醒漁民如何操作設備來因應。&lt;/p&gt;
+&lt;p&gt;另一個實例則是以智慧農場聞名的玉美，他們用來種植番茄的溫室，也建立了農業數位分身，可以事先預判在不同環境條件下，應該採取哪些行為，來確保每一次收成的品質與數量。&lt;/p&gt;
+&lt;p&gt;這套「智慧農業數位分身（Digital Twin Solutions for Smart Farming）」解決方案，更在2019年就揚名海外，獲得了有科技創新奧斯卡獎之稱的美國R&amp;amp;D全球百大科技研發獎（R&amp;amp;D 100 Awards）。&lt;/p&gt;
+&lt;p&gt;資策會數位服務創新研究所就是打造出這項農業數位分身技術的關鍵研發團隊，透過與農漁業者合作，建立多個數位分身示範基地，來驗證技術可行性，更隨著技術發展成熟，將這套技術產品化來銷售。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;如何打造農漁業數位分身？IoT、達人經驗不可或缺&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;「農漁業，是非常重視養殖與栽種知識的產業。」資策會數位服務創新研究所組長邱璟明點出，數位分身技術的關鍵是達人經驗。&lt;/p&gt;
+&lt;p&gt;為了打造數位分身，資策會得針對不同的場域，與各自不同的農漁業達人合作，先蒐集影響作物生長的環境變因，再記錄達人對於這些環境變化所採取的應變行為，以此建立一套環境與達人行為的關聯，用來進一步開發出栽種或養殖的操作建議模型，才能將達人的種植或養殖經驗快速複製到其他生產場域。&lt;/p&gt;
+&lt;p&gt;以養殖魚塭的數位分身技術為例。資策會先與養殖專家歸納出影響養殖的關鍵因素，比如漁民常以判斷「水色」來決定養殖的行動，從技術面來看，就是意味水質可能是影響魚蝦生長的關鍵。&lt;/p&gt;
+&lt;p&gt;下一步，則是找出有哪些關鍵的環境參數會影響水質，再利用魚塭中的IoT設備，自動蒐集環境數據，比如水的溫度、鹽度、PH值、亞硝酸鹽、溶氧量、葉綠素A、氮氣、ORP、濁度等。&lt;/p&gt;
+&lt;p&gt;有了環境數據之後，還要記錄漁民根據環境變化所採取的各種養殖行為。資策會透露，行為參數的記錄方法分為兩種，一類是與設備相關的行為，比如開關水車或飼料投餵器，就可以從設備IoT直接取得資料，另一類是不涉及設備的行為，比如久久一次的投藥行為，就需要靠漁民填寫養殖日誌，來記錄下這些資訊。&lt;/p&gt;
+&lt;p&gt;不只如此，還要記錄下魚蝦的生長狀況，才能了解不同環境控制下，相對應的魚蝦生長狀態。資策會導入了水下即時攝影機，分析拍攝到的影像，來辨識魚蝦的大小、活動力、飼料殘留量，甚至可以進行病徵辨識，以利後續進行養殖參數的調整。&lt;/p&gt;
+&lt;p&gt;利用IoT環境數據、達人行為數據和水下影像的分析數據，可以用來建立養殖建議模型，開發出魚塭數位分身的系統，提供不同環境條件下，漁民所需執行的工作建議，來提升養殖成效。&lt;/p&gt;
+&lt;p&gt;這套在魚塭建立數位分身的流程，也可以運用到番茄溫室的場景，只是不同場景所用的數據蒐集設備會有不同，比如水下攝影機就是魚塭場景特有的設備。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;靠數位分身優化魚塭、溫室與茶園的管理&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;資策會與台塩綠能合作建置的養殖漁業示範場域，就是用了魚塭數位分身來提升魚蝦育成率，因為傳統養殖的魚類育成率約3～5成，蝦類甚至只有1成，運用數位分身來優化養殖管理後，可提高3成育成率；若額外建置循環水系統來過濾水中病菌，更能將整體育成率提升到8～9成，只有少數1成小魚苗無法長大。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%96%E6%AA%943%EF%BC%9A%E9%AD%9A%E5%A1%AD%E7%B3%BB%E7%B5%B1-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E8%B3%87%E7%AD%96%E6%9C%83.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;利用IoT環境數據、達人行為數據和水下影像的分析數據，建立養殖建議模型，在不同環境條件下提供業者養殖建議。&lt;/strong&gt;圖片來源／資策會&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%96%E6%AA%942%EF%BC%9A%E5%A4%AA%E9%99%BD%E8%83%BD%E6%9D%BF-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E8%B3%87%E7%AD%96%E6%9C%83.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;圖為養殖魚塭上方設置的太陽能板。資策會主打數位分生技術在水產育成率超過7成的成效，來突破漁電共生的發展瓶頸，增加漁民導入IoT設備的意願。&lt;/strong&gt;圖片來源／資策會&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;資策會也希望，未來若獲得更多養殖業者採用，將綜合各家業者的數據進行產量預估，作為漁民評估是否持續養殖同類水產的參考，避免盛產卻不豐收的風險。&lt;/p&gt;
+&lt;p&gt;另一個與臺中農委會農試所、玉美生技、國興資訊合作建置的溫室蔬果示範場域，則是要運用數位分身，讓新手農夫「首次栽種即成功」。&lt;/p&gt;
+&lt;p&gt;資策會將溫室的環境數據與達人的操作行為記錄下來，依據兩者之間的關聯性，訓練一套設備操作建議模型，再透過玉美的田間管理App，對新手農夫提供種植建議，來確保栽種品質和數量可以維持在一定水準之上。&lt;/p&gt;
+&lt;p&gt;這也讓玉美訓練新手農夫時，原本只能進行一對一的栽種教學，現在搭配系統提供操作建議，已經能一對三同時教學，人力培訓能量提升三倍。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%96%E6%AA%944%EF%BC%9A%E6%BA%AB%E5%AE%A4%E6%95%B8%E4%BD%8D%E5%88%86%E8%BA%AB-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E8%B3%87%E7%AD%96%E6%9C%83.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;資策會在玉美生技建置溫室蔬果示範場域，運用數位分身技術，在系統中整合種植達人的經驗，對新手農夫提供種植操作建議，來確保栽種品質和數量可以維持在一定水準之上。&lt;/strong&gt;圖片來源／資策會&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%96%E6%AA%945%EF%BC%9A%E6%BA%AB%E5%AE%A4%E7%B3%BB%E7%B5%B1-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E8%B3%87%E7%AD%96%E6%9C%83.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;在IoT數據的蒐集上，團隊選定影響番茄種植的8大環境參數，包括土壤與空氣的溫濕度、CO2、光照度、土壤PH值與導電度，還有人為的設備控制參數，如風扇、側捲簾、天窗與滴灌的開關等。&lt;/strong&gt;圖片來源／資策會&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;不只養殖漁業與溫室蔬果，資策會也將這套數位分身的技術導入茶園，與農委會茶業改良場和長生製茶廠，打造了一個茶園數位分身示範場域，並開發出一套智慧農機管理系統。今年，這套系統更獲得日本農機企業青睞，正在日本靜岡縣展開應用實證。&lt;/p&gt;
+&lt;p&gt;臺灣茶園耕作大多靠大型機械代耕，因此，這套數位分身的模擬標的有三個，分別是駕駛經驗、農機設備與茶園管理，而非種植經驗的傳承。其中，農機駕駛數位分身，是靠蒐集駕駛資訊，讓新手司機能快速複製老手的駕駛經驗；而農機設備的數位分身，則是要掌握不同的農機特性，在不同的環境條件下，來進行保養維修的預測；還有一個是茶園管理的數位分身，主要鎖定管理達人經驗的萃取，來提升茶園管理成效。資策會將這三項技術整合到智慧農機管理系統中，實際驗證結果，茶園產能可比一般茶園多出3成，也能減少5成人力成本。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%96%E6%AA%946%EF%BC%9A%E8%BE%B2%E6%A9%9F%E6%95%B8%E4%BD%8D%E5%88%86%E8%BA%AB-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E8%B3%87%E7%AD%96%E6%9C%83.jpg&quot; style=&quot;color: rgb(105, 105, 105); width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;資策會與長生製茶廠建置了茶園示範場域，建立起駕駛經驗、農機設備與茶園管理的三大數位分身，並將這些技術整合到一套智慧農機管理系統中，目前已經在日本展開驗證。&lt;/strong&gt;圖片來源／資策會&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;數位分身技術擴大落地的關鍵：知識圖譜&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;為了讓特定示範場域建立的知識經驗，也能適用到其他不同的環境，資策會也與臺大合作，試圖將知識圖譜技術運用在農業數位分身中，來建立環境參數與作物生長間的關係，才能在改到異地栽種時，根據環境的差異來進行模型調校。&lt;/p&gt;
+&lt;p&gt;資策會數位服務創新研究所組長杜定傑解釋，農作物栽種模型要落地到不同地區時，必須依據當地的環境參數，進行在地化調校。而調校的關鍵，就是要找出影響作物生長的主要參數，再依據參數間的關係進行調整，比如光照會影響番茄的收成次數，意味著光照是一項重要的環境參數，異地種植就會優先考量光照參數，搭配知識圖譜建立的參數關聯性來調校模型。&lt;/p&gt;
+&lt;p&gt;杜定傑指出，用知識圖譜先建立參數關聯性，作為模型調校的參考依據，可避免模型異地部署時，預測結果產生過大的偏移。&lt;/p&gt;
+&lt;p&gt;杜定傑表示，這也是一種遷移學習（Transfer Learning）的應用。因為農業數位分身的場景中，常面臨資料不足的挑戰，尤其農作物每一期生長時間長達3個月到1年以上，難以取得大量異地的種植資料，重新訓練最適合該地場景的模型。「利用預訓練的模型在異地進行在地化調校，是更合適的作法。」&lt;/p&gt;
+&lt;p&gt;尤其，現階段作物的栽種經驗移植，仍然以國內場域為主，各地的氣候差異相對較小，但未來，若要到國外進行異地種植，就得面對環境差異過大的問題，更需要藉助知識圖譜技術來進行在地化調校，來維持模型預測的準確率。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;邁向產品化，要先找出業者導入誘因&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;在多個場域驗證了數位分身系統，下一步，資策會要將示範場域的軟硬體系統產品化，進行整廠輸出。&lt;/p&gt;
+&lt;p&gt;「農漁業是相對保守的產業，要看到成功案例才敢投資，這是示範基地的存在意義。」邱璟明指出，示範基地是為了彰顯技術導入帶來的成果，但設備配置都採用最高規格，通常是農漁民無法負擔的成本，「如何降低成本來產品化，變成了重要議題。」&lt;/p&gt;
+&lt;p&gt;為了降低成本，邱璟明指出，資策會先選擇找出場域中的關鍵設備，在維持系統成效的前提下來簡化設備配置。例如，養殖漁業示範基地原本設置了9隻水質感測器，實際測試後發現，只需3～5隻感測器，就能達到一定程度的數據蒐集成效，減少數量就能節省不必要的設備成本。&lt;/p&gt;
+&lt;p&gt;「產品化過程要持續這樣做，才能變成真正的解決方案。」邱璟明說。&lt;/p&gt;
+&lt;p&gt;不只精簡設備，資策會也將產品分級，提供不同軟硬體規格的等級分別計價。以溫室蔬果數位分身系統為例，未來規畫分為五級，最高級就是當前示範場域的軟硬體規格，最初級則是免費版栽種App，可人工記錄環境參數與對應的作物生長狀況，再由App提供種植建議。而中間三級的區分，則會依據業者本身擁有的IoT設備，所具備的數據儲存與傳輸能力，來提供不同等級的軟硬體搭配。&lt;/p&gt;
+&lt;p&gt;不只降低成本，為了提高導入說服力，資策會也鎖定潛在商業模式來說服農漁業者。&lt;/p&gt;
+&lt;p&gt;例如溫室蔬果數位分身系統，鎖定的是較具規模的農企業，比如玉美生技。杜定傑解釋，一大誘因是，農企常以契作的形式委託農民代耕，為了確保農民的栽種品質維持一定水準，業主需要並快速複製栽種達人的經驗給經驗較不足的代耕農民。&lt;/p&gt;
+&lt;p&gt;另一方面，玉美農產品也會出貨給連鎖商家，這類連鎖業者對農產品規格或品質常有特別要求，比如麥當勞特別要求番茄的尺寸大小。為了確保種植的作物符合客戶需求，農民更需要有一套技術，來嚴格管控作物的生長條件，以確保品質。&lt;/p&gt;
+&lt;p&gt;不只如此，考量到農產品的價值最終仍是由消費者決定，為了提升產品價值，資策會今年也開始接洽下游的綠色餐廳，透過數位分身的技術將農作物栽種流程透明化，分析歸納出綠色或永續的指標，要將上游農作物生產過程，加入整個綠色供應鏈，來賦予農作物更高的價值，提高消費者的購買意願。&lt;/p&gt;
+&lt;p&gt;或像是在養殖漁業場域，資策會則鎖定了漁電共生的商業模式來推動數位分身系統。邱璟明解釋，政府在漁電共生政策上，為了避免淪於只種電不養殖，強制規定水產育成率需達7成以上。但漁民多半沒有把握能生產達標，雖然電業業者積極推動，漁電共生發展仍遲滯不前。&lt;/p&gt;
+&lt;p&gt;觀察到這個現狀，資策會希望主打數位分生技術在水產育成率超過7成的成效，讓養殖業者更容易達到政府的要求，增加漁民在前期投資IoT設備的誘因，來說服漁業者導入。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;農業數位分身未來三階段發展藍圖&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;資策會規畫了三階段的農業數位分身發展藍圖。第一階段目標，是建立農漁業數位分身，來萃取農業、漁業經驗與管理行為。靠示範基地驗證了技術可行性之後，資策會也展開第二階段計畫，要將萃取到的知識經驗發展成農智財，搭配硬體設備向外輸出，將示範基地應用成果產品化，「未來不只能輸出達人品牌的農產品，更能輸出農智財，打造領域知識即服務的商業模式。」杜定傑表示。&lt;/p&gt;
+&lt;p&gt;產品化後，第一批銷售對象瞄準臺灣的農企業，杜定傑表示，這些企業通常具有更多資本，較願意投資前期導入成本，來移植達人的種植經驗。下一步，目光從國內轉向國外，瞄準規模更大的國外農漁產業，輸出達人栽種系統，發展「異地生產、臺灣管理」的商業模式，直接在國外生產，銷往當地市場。&lt;/p&gt;
+&lt;p&gt;有能力向外輸出農智財後，第三階段則要發展整合式的客製化數位分身系統，則將不同場景的數位分身技術，依據客製化需求，整合成一套軟體系統。杜定傑解釋，不同場域蒐集的IoT數據不同，比如玉美溫室番茄的數位分身系統，可以控制的環境參數多達8項，但其他溫室不一定需要控制這麼多變因，可能只需蒐集空氣與土壤的溫濕度就夠用。&lt;/p&gt;
+&lt;p&gt;因為各場景需求不同，過去開發的數位分身，難以直接部署到另一個新場景，從頭建立數位分身又需長時間蒐集該場域農作物的完整栽種數據。因此，如何將多個既有場域的數位分身，相互疊加、整合，開發出成可以快速導入到更多種新場域的軟體系統，就是第三階段的任務。&lt;/p&gt;
+&lt;p&gt;「一個數位分身不可能適應所有的場景，所以要把不同功能的數位分身整合。」杜定傑強調。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;異地種植、臺灣管理，下一步將技術輸出國際&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;「農業本身有區域性，農產品進、出口容易遭遇貿易壁壘，所以，技術的輸出，變得更為重要。」資策會數位服務創新研究所技術總監洪盟峯指出，為了避開農產品貿易的壁壘問題，若能輸出技術到異地種植，就是臺灣的機會。&lt;/p&gt;
+&lt;p&gt;技術輸出的另一個優勢，則是過去要跨國從事農漁業生產時，通常得靠國內達人前往當地傳授經驗，但這容易讓當地人快速仿效達人的種植或養殖方法，反而助長了未來的競爭對手。因此，若能透過將技術核心直接封裝在系統中，系統輸出異地運作時，就能直接根據環境變化，對當地農漁民提供建議，背後的邏輯、知識經驗較不容易外流。「我們希望透過智財封裝、整廠輸出的方式，讓技術留在臺灣。」杜定傑說。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 04:01:16 +0000</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="false">146518 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146518#comments</comments>
+</item>
+<item>
  <title>HPE拿下NSA 20億美元GreenLake合約</title>
  <link>https://www.ithome.com.tw/news/146517</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.hpe.com/us/en/newsroom/press-release/2021/09/hewlett-packard-enterprise-wins-2b-hpe-greenlake-contract-with-the-national-security-agency.html&quot; target=&quot;_blank&quot;&gt;HPE本周宣布贏得美國國安局20億美元、長達10年的合約&lt;/a&gt;，以GreenLake產品部署高效能運算（High Performance Computing，HPC）架構執行AI及大量資料運算的任務。&lt;/p&gt;
@@ -153,46 +223,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146500 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146500#comments</comments>
-</item>
-<item>
- <title>【專訪健保署署長李伯璋談遠距醫療未來】整合虛擬健保卡，遠距醫療下一步瞄準居家醫療</title>
- <link>https://www.ithome.com.tw/news/146499</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;虛擬健保卡應用再突破！健保署近日悄悄推出新機制，就算沒有專用QR Code掃描設備，醫師一樣能用手機專屬App，掃描民眾健保快易通App虛擬健保卡，連上健保雲端系統、查詢病人就醫紀錄，為遠距醫療再添利器。&lt;/p&gt;
-&lt;p&gt;這也是繼民眾可直接在健保快易通App手動開卡、不必現場申辦後的另一次重要升級，更凸顯健保署持續力推遠距醫療的決心。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;2年前展開虛擬健保卡試辦計畫，隔年實戰遠距醫療場域&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;「虛擬健保卡是遠距醫療的重要工具！」衛福部健保署署長李伯璋說。這句話點出了兩項衛福部重要政策之間的關聯，一是虛擬健保卡，另一是遠距醫療。李伯璋指出，虛擬健保卡不只提供身分認證，還能讓身在遠端線上支援的醫師，得知病人就醫紀錄，包括用藥、檢驗檢查報告、手術等資訊，讓醫師能依此精準地看診、提供解方，就像實體看診那般。&lt;/p&gt;
-&lt;p&gt;甚至可以說，虛擬健保卡的出現，讓遠距醫療可以循著原本實體健保卡驗證的模式，讓醫生在線上獲得授權來存取各項病人的資訊，讓遠距醫療更接近原有實體門診的作業模式，這是串聯實體門診和遠距看診的關鍵一步。&lt;/p&gt;
-&lt;p&gt;這項可能改變臺灣醫療門診模式的重要變革，早從2019年開始啟動。當時健保署找來行政院公共數位創新空間（PDIS），一起推動虛擬健保卡試辦計畫。他們先從遠距門診做起，找來幾家醫學中心、區域醫院和地區醫院，以及北、中、南診所，先以500個個案來測試應用情境。&lt;/p&gt;
-&lt;p&gt;不過，當時設計的第一代操作流程，還稱不上流暢。民眾得先下載虛擬卡專用App、上傳身分證和健保卡照片，再到醫療院所櫃檯出示雙卡，才能開通虛擬健保卡。看診時，民眾還得先出示QR Code和證件照片，經醫事人員掃瞄、虛擬卡註冊中心驗證後，醫師才能取得民眾基本資料，而民眾就醫的相關紀錄，還是得靠醫師插卡實體健保卡取得。整體來說，2019年已經實現了虛擬健保卡的概念，但實際運用上還是相當麻煩，不容易獲得民眾青睞。&lt;/p&gt;
-&lt;p&gt;到了2020年，這些限制慢慢突破，虛擬健保卡更在遠距醫療場域實際派上用場。第二波的試辦計畫，更結合了最新、傳輸頻寬更大的5G技術，來提供五官科（眼科、耳鼻喉科、皮膚科）看診服務，讓位於偏遠地區的民眾，不用出遠門，直接到當地衛生所或醫療站，就能獲得品質更好的遠距診療。&lt;/p&gt;
-&lt;p&gt;同時，原本獨立推出的虛擬卡App，也直接整合至更多人使用的健保快易通App中，民眾不必另外下載專屬App就能使用。而且，偏鄉醫事人員掃描民眾虛擬卡QR Code後，就能讓遠端支援醫師取得民眾就醫資訊，不必再透過實體卡。如此，再加上數位五官鏡設備（如皮膚鏡、口腔鏡）和5G高速網路，遠端醫師更能清楚、準確地利用這些工具來會診。&lt;/p&gt;
-&lt;p&gt;不只應用形式和技術的升級，這次參與的醫院家數也更多，就連藥局、復健機構和居家醫療等醫療周邊機構，也都納入了試辦場域，參與個案更超過2,600例。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;工具更完善，遠距醫療健保給付元年讓兩者更靠近&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;到了今年，虛擬健保卡功能更上層樓，民眾可自行在健保快易通App上開通虛擬健保卡外，健保署甚至透露最近開發的新驗證機制，就算院所沒有專用的QR Code掃描設備，醫師也能透過健保署輕量藍牙App更新版本，來掃描民眾虛擬卡QR Code、查詢健保雲端資料。&lt;/p&gt;
-&lt;p&gt;如此一來，虛擬健保卡應用就能更行動化，就算醫師外出進行居家醫療、沒帶上掃描設備或設備故障了，也能靠手機專用App驗證、調閱資料，讓遠距醫療再一次從設備限制中解放，讓虛擬健保卡運作流程再一次簡化。&lt;/p&gt;
-&lt;p&gt;隨著虛擬健保卡這個關鍵工具越來越完善，臺灣遠距醫療的作法也不斷有新進展。比如，去年底健保署宣布將遠距醫療納入健保給付，撥出一億元經費支持，如今8個月過去了，原本計畫實行的60個偏遠地區鄉鎮中，已有32個鄉鎮提出申請，其中15個鄉鎮已經發揮遠距醫療的效用，還有11個要在今年10月啟動，減少民眾奔波之苦。&lt;/p&gt;
-&lt;p&gt;不只如此，今年5月，COVID-19疫情在臺爆發，另一波遠距醫療應用順勢而起。這次，「我們將遠距醫療中的視訊作法獨立出來，提供給病情穩定的慢性病患使用，」李伯璋強調。換句話說，慢性病患現在可以選擇視訊門診，在家與醫師會診。這是衛福部繼去年2月啟動居家隔離與檢疫民眾視訊診療後，再度放寬適用身分的遠距看診措施，甚至還納入電話問診。&lt;/p&gt;
-&lt;p&gt;這波疫情，讓遠距看診需求和虛擬健保卡應用越走越近。&lt;/p&gt;
-&lt;p&gt;不過，問及遠距醫療和虛擬健保卡應用的再下一步，帶頭推動這些創新服務的李伯璋，卻停頓了一下。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;&lt;strong&gt;遠距醫療應該逐漸放寬，但也得兼顧防弊&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;他預告，遠距醫療會逐步放寬適用場域和身分，比如納入慢性病患，明年也有意加碼健保給付預算。不過，他仍舊強調，遠距醫療、視訊診療這類服務，還是得在「萬不得已」的情況下使用。&lt;/p&gt;
-&lt;p&gt;比如，醫療資源豐沛的臺北市，仍有許多居住在無電梯老舊公寓的患者，這類患者行動不便，就算醫院近在對街，也難以親自就醫。這種場景，就是李伯璋眼中遠距醫療、視訊診療該派上用場的地方。&lt;/p&gt;
-&lt;p&gt;摒除這些特例，「病人也有到醫院的義務。」行醫四十載的他解釋，許多病症還是得面對面看診，才能論斷。比如腹痛，醫師觸診若發現觸感軟，就有可能是腸胃問題，若是硬的觸感，就可能是胃穿孔。這些觸診的感受，仍舊是遠距醫療無法取代之處。&lt;/p&gt;
-&lt;p&gt;再來，他還有另一個考量，也就是公平性。舉例來說，有些疾病的治療不複雜，若有醫院為了賺取點數，執意進行視訊診療，就可能擠壓到真正需要健保給付的醫療行為。&lt;/p&gt;
-&lt;p&gt;李伯璋說明，臺灣的醫療體系，得靠申報才能拿到給付。「我們尊重醫療專業，」他希望，醫院站在病人角度思考，若是病人需要的服務，衛福部會盡量支持，但是，「醫院不要為了申報，而做不實或不必要的申報！」他強調。&lt;/p&gt;
-&lt;p&gt;為了改善現有醫療服務不足之處，也希望能避免健保點數申報浮濫，李伯璋對遠距醫療的放寬方向，提出三大推動重點。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E8%8B%A5%E6%A8%B8-%E6%9D%8E%E4%BC%AF%E7%92%8B-%E5%9C%961-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E5%81%A5%E4%BF%9D%E7%BD%B2.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;遠距醫療下一步將放寬適用範圍和身分，也要加碼明年預算。健保署同時還要推廣虛擬健保卡應用，今年目標要讓1,000家醫事機構採用。─── 衛福部健保署署長李伯璋&lt;/strong&gt;　（圖片來源／健保署）&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;&lt;strong&gt;下一步：虛擬健保卡整合居家醫療、補足遠距醫療不足之處&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;首先是居家醫療場景的放寬，比如，醫師到病患家中看診，雖可透過虛擬健保卡得知患者就醫史資訊，但遇到非專長的疾病時，還是需要諮詢其他專科醫師。藉助視訊，再結合虛擬健保卡提供的資訊，可以與線上共同討論病情和治療方法。李伯璋表示，這種醫療服務模式，有別於狹義的遠距醫療，不只限定於簽約試辦計畫的醫療院所和科別，未來將會放寬進行。&lt;/p&gt;
-&lt;p&gt;再來是急診場景的放寬。李伯璋舉例，比如病人心臟不適，醫院可以先視訊詢問病情，來判斷是否為血管破裂、心絞痛還是血管瘤等，再進行後續治療安排，提高就醫效率。或是患者外傷，醫院可先視訊要求病人做特定動作，來判斷受傷嚴重程度。&lt;/p&gt;
-&lt;p&gt;另一個推動重點是擴大虛擬健保卡應用，來補足遠距醫療的不足。虛擬健保卡目前雖然已有多達494家院所參加試辦，更有2萬多名民眾開通虛擬卡，但還是沒有普及到所有參與遠距醫療計畫的院所，仍有部分醫院的遠距端醫師無法快速調閱健保雲端資訊，醫院也無法過卡、上傳申報資料。因此，健保署今年的目標是，要讓1,000家醫事機構全面採用虛擬健保卡。&lt;/p&gt;
-&lt;p&gt;最後，他也補充，虛擬健保卡也瞄準疫情間開放給特定身分民眾使用的視訊診療，來提供更便利的診療。「未來虛擬健保成功推廣，就不是試辦了！」李伯璋說。文⊙王若樸&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 02 Sep 2021 08:03:48 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146499 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146499#comments</comments>
 </item>
 </channel>
 </rss>

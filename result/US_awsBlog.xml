@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Fri, 03 Sep 2021 03:59:58 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 03 Sep 2021 04:09:00 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,6 +13,40 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>Announcing the latest AWS Heroes – August 2021</title>
+		<link>https://aws.amazon.com/cn/blogs/china/announcing-the-latest-aws-heroes-august-2021/</link>
+				<pubDate>Fri, 03 Sep 2021 04:09:00 +0000</pubDate>
+		<dc:creator><![CDATA[Ross Barich]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">07b49b3d09f57f003e99de21de38d56a06c40a92</guid>
+				<description>AWS 勇士们不遗余力地与社群分享知识，并帮助其他人在 AWS 上更好、更快地进行构建。上个月，我们推出了 AWS 勇士内容库，这是一个资源汇集之地，构建者可以在这里找到灵感并从 AWS 勇士撰写的教学内容中学习，包括博客、视频、幻灯片演示、播客、开源项目等。随着技术社群的日益发展，新的勇士不断涌现，每个季度我们都会表彰来自世界各地的一群杰出人士，他们对社群知识的共享产生重大影响，并受到高度赞赏。</description>
+								<content:encoded>&lt;p&gt;&lt;a href="https://aws.amazon.com/developer/community/heroes/" target="_blank" rel="noopener noreferrer"&gt;AWS 勇士们&lt;/a&gt;不遗余力地与社群分享知识，并帮助其他人在 AWS 上更好、更快地进行构建。上个月，我们推出了 &lt;a href="https://aws.amazon.com/developer/community/heroes/content-library/" target="_blank" rel="noopener noreferrer"&gt;AWS 勇士内容库&lt;/a&gt;，这是一个资源汇集之地，构建者可以在这里找到灵感并从 AWS 勇士撰写的教学内容中学习，包括博客、视频、幻灯片演示、播客、开源项目等。随着技术社群的日益发展，新的勇士不断涌现，每个季度我们都会表彰来自世界各地的一群杰出人士，他们对社群知识的共享产生重大影响，并受到高度赞赏。&lt;/p&gt; 
+&lt;p&gt;今天，我们很高兴地介绍最新的 AWS 勇士们，包括位于喀麦隆和马来西亚的首批勇士：&lt;/p&gt; 
+&lt;h2 style="clear: both"&gt;Denis Astahov – 加拿大温哥华&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://aws.amazon.com/developer/community/heroes/denis-astahov/" target="_blank" rel="noopener noreferrer"&gt;&lt;img class="alignleft" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/19/denis-astahov.jpg" width="175" height="263"&gt;&lt;/a&gt;社群勇士 &lt;a href="https://aws.amazon.com/developer/community/heroes/denis-astahov/" target="_blank" rel="noopener noreferrer"&gt;Denis Astahov&lt;/a&gt; 是 OpsGuru 的一名解决方案构架师，在那里，他使用 Terraform 利用基础设施即代码自动化和开发各种云解决方案。Denis 拥有 YouTube 频道 ADV-IT，他通过该频道向人们讲授各种 IT 知识，尤其是有关 DevOps 的话题，包括 AWS、Terraform、Kubernetes、Ansible、Jenkins、Git、Linux、Python 及许多其他主题。他的频道拥有 7 万多个订阅者和 700 多万观看次数，使其成为俄语社群中 AWS 和 DevOps 知识最受欢迎的免费来源之一。Denis 拥有 10 多项云认证，其中包括 7 项 AWS Certification。&lt;/p&gt; 
+&lt;h2 style="clear: both"&gt;Ivonne Roberts — 美国坦帕&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://aws.amazon.com/developer/community/heroes/ivonne-roberts/" target="_blank" rel="noopener noreferrer"&gt;&lt;img class="alignleft" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/19/ivonne-roberts.jpg" width="175" height="263"&gt;&lt;/a&gt;无服务器勇士&lt;a href="https://aws.amazon.com/developer/community/heroes/ivonne-roberts/" target="_blank" rel="noopener noreferrer"&gt; Ivonne Roberts&lt;/a&gt; 是一名首席软件工程师，拥有逾 15 年的软件开发经验，其中包括十年与 AWS 合作的经验以及五年以上构建无服务器应用程序的经验。近年来，Ivonne 已开始与范围更广的软件工程界分享这些行业知识。在其博客 ivonneroberts.com 和 YouTube 频道 DevWidgets 上，Ivonne 专注于揭开采用无服务器架构的神秘面纱并消除障碍，以及简化软件开发生命周期。&lt;/p&gt; 
+&lt;h2 style="clear: both"&gt;Kaushik Mohanraj — 马来西亚吉隆坡&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://aws.amazon.com/developer/community/heroes/kaushik-mohanraj/" target="_blank" rel="noopener noreferrer"&gt;&lt;img class="alignleft" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/19/kaushik-mohanraj.jpg" width="175" height="263"&gt;&lt;/a&gt;社群勇士&lt;a href="https://aws.amazon.com/developer/community/heroes/kaushik-mohanraj/" target="_blank" rel="noopener noreferrer"&gt; Kaushik Mohanraj&lt;/a&gt; 是马来西亚一家名为 Blazeclan Technologies 的公司的董事。Kaushik 是一位狂热的云从业者，在评估架构良好的解决方案方面拥有丰富的经验，并且是云技术和数字化转型大使。Kaushik 持有 10 项有效的 AWS Certification，这有助于他提供最有针对性且且最佳的解决方案。Kaushik 热衷于打造一个他得以在其中充分发展的社群，因此在 2019 年作为联合组织者加入了马来西亚 AWS 用户组。他还是“大数据中的女性 — 马来西亚分会”的联合总监，旨在为科技领域的女性构建和提供一个平台。&lt;/p&gt; 
+&lt;h2 style="clear: both"&gt;Luc van Donkersgoed — 荷兰乌得勒支&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://aws.amazon.com/developer/community/heroes/luc-van-donkersgoed/" target="_blank" rel="noopener noreferrer"&gt;&lt;img class="alignleft" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/19/luc-van-donkersgoed.jpg" width="175" height="263"&gt;&lt;/a&gt;DevTools 勇士&lt;a href="https://aws.amazon.com/developer/community/heroes/luc-van-donkersgoed/" target="_blank" rel="noopener noreferrer"&gt; Luc van Donkersgoed&lt;/a&gt; 在内心里是一位技术狂热爱好者，他是一名解决方案构架师、软件开发人员，同时也是一位企业家。他着迷于尖端技术。不在 AWS 上设计和构建强大的应用程序时， Luc 很可能正在博客、文章、视频、会议、培训课程和 Twitter 上分享知识。他撰写了一个 共16 节课的 AWS 解决方案构架师专业课程，内容涉及各种主题，包括 AWS CDK 将如何助力新一代无服务器开发人员，他也曾出现在 AWS 开发人员播客中，同时他也在维护 AWS 博客 Twitter Bot。&lt;/p&gt; 
+&lt;h2 style="clear: both"&gt;Rick Hwang — 台湾台北市&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://aws.amazon.com/developer/community/heroes/rick-hwang/" target="_blank" rel="noopener noreferrer"&gt;&lt;img class="alignleft" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/19/rick-hwang.jpg" width="175" height="263"&gt;&lt;/a&gt;社群勇士&lt;a href="https://aws.amazon.com/developer/community/heroes/rick-hwang/" target="_blank" rel="noopener noreferrer"&gt; Rick Hwang&lt;/a&gt; 是位于台湾的 91APP 的一名云与基础设施架构师。他为开发人员授课的热情已在内部通过年度 AWS 培训项目负责人的身份得以彰显，在外部又通过 SRE Taiwan 社群拥有者的身份得以证明。Rick 独立创办了 SRE Taiwan，在过去的 4 年里，通过点对点互动、不断分享内容和主办年度学习小组聚会，招募了 3,600 多名成员。Rick 乐于帮助人们加深对 AWS 和整个云的了解。&lt;/p&gt; 
+&lt;h2 style="clear: both"&gt;Rosius Ndimofor — 喀麦隆杜阿拉&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://aws.amazon.com/developer/community/heroes/rosius-ndimofor/" target="_blank" rel="noopener noreferrer"&gt;&lt;img class="alignleft" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/23/rosius-ndimofor.jpg" width="175" height="263"&gt;&lt;/a&gt;无服务器勇士&lt;a href="https://aws.amazon.com/developer/community/heroes/rosius-ndimofor/" target="_blank" rel="noopener noreferrer"&gt; Rosius Ndimo&lt;/a&gt; 是 Serverless Guru 的一名软件开发人员。8 年来，他始终在为各种客户构建桌面、Web 和移动应用程序。2020 年，Rosius 的朋友向他介绍了 AWS，他随即便被吸引住了，并开始尽可能地学习如何构建 AWS 无服务器应用程序。您会看到 Rosius 在当地每月一次的 AWS 聚会活动中发表演讲，或者从事他的强项：构建无服务器 Web 或移动应用程序并在其博客上记录整个过程。&lt;/p&gt; 
+&lt;h2 style="clear: both"&gt;Setia Budi — 印度尼西亚万隆&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://aws.amazon.com/developer/community/heroes/setia-budi/" target="_blank" rel="noopener noreferrer"&gt;&lt;img class="alignleft" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/19/setia-budi.jpg" width="175" height="263"&gt;&lt;/a&gt;社群勇士&lt;a href="https://aws.amazon.com/developer/community/heroes/setia-budi/" target="_blank" rel="noopener noreferrer"&gt; Setia Budi&lt;/a&gt; 是一名来自印度尼西亚的学者。他经营着一个名为 Indonesia Belajar 的 YouTube 频道，该频道提供与计算机科学和云计算相关的学习资料（以印度尼西亚语提供）。他对 AWS 社区的热情还体现在他在 AWS DevAx Connect 上发表演讲，他正在积极构建一系列与 AWS 服务相关的学习材料，并每周直播 AWS 专家探论云计算的直播会议。&lt;/p&gt; 
+&lt;h2 style="clear: both"&gt;Vinicius Caridá — 巴西圣保罗&lt;/h2&gt; 
+&lt;p&gt;&lt;a href="https://aws.amazon.com/developer/community/heroes/vinicius-carida/" target="_blank" rel="noopener noreferrer"&gt;&lt;img class="alignleft" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/20/vinicius-carida.jpg" width="175" height="263"&gt;&lt;/a&gt;机器学习勇士&lt;a href="https://aws.amazon.com/developer/community/heroes/vinicius-carida/" target="_blank" rel="noopener noreferrer"&gt; Vinicius Caridá（Vini）&lt;/a&gt;是一名计算机工程师，他相信技术、数据和人工智能可以影响人们，进而创造一个更公平、更进步的世界。他喜欢在社交媒体上、YouTube 频道上以及 AWS 圣保罗用户组（他是社群主管）等各种聚会上分享自己关于 AI、NLP 和 MLOps 的知识。Vini 还是开源机器学习框架 TensorFlow 圣保罗的社群主管。他定期参加会议，并为不同背景（学术界、科学界、技术界）和不同成熟程度（初级、中级和高级）的受众撰写文章。&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;如果您想了解有关这些新勇士的详情，或者与附近的勇士联系，请访问 &lt;a href="https://aws.amazon.com/developer/community/heroes/" target="_blank" rel="noopener noreferrer"&gt;AWS 勇士网站&lt;/a&gt;或浏览 &lt;a href="https://aws.amazon.com/developer/community/heroes/content-library/" target="_blank" rel="noopener noreferrer"&gt;AWS 勇士内容库&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;— &lt;a href="https://twitter.com/rossbarich" target="_blank" rel="noopener noreferrer"&gt;Ross&lt;/a&gt;；&lt;/p&gt;</content:encoded>
+										</item>
+		<item>
 		<title>通过亚马逊云科技Marketplace中合作伙伴（Zenlayer）的产品来加速Amazon S3的访问</title>
 		<link>https://aws.amazon.com/cn/blogs/china/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace/</link>
 				<pubDate>Fri, 03 Sep 2021 03:59:58 +0000</pubDate>
@@ -2564,80 +2598,6 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Jeremy Ber&lt;/h3&gt; 
   &lt;p&gt;在过去 5 年中一直从事于遥测数据领域，担任软件工程师、机器学习工程师，最近还担任数据工程师。过去，Jeremy 支持并构建了每天流式传输 TB 级数据的系统，并实时处理复杂的机器学习算法。在 亚马逊云科技，他是解决方案架构师和流数据处理专家，为 Managed Streaming for Kafka (Amazon MSK) 和 Amazon Kinesis 提供支持。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>基于云的数据网格技术如何实现金融监管数据采集</title>
-		<link>https://aws.amazon.com/cn/blogs/china/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection/</link>
-				<pubDate>Tue, 31 Aug 2021 02:42:10 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Analytics]]></category>
-		<category><![CDATA[Amazon Data Exchange]]></category>
-		<category><![CDATA[Amazon EMR]]></category>
-
-		<guid isPermaLink="false">046f3ffc6e562813d8739670002e72b339163bd9</guid>
-				<description>实践证明，现代云技术可以通过汇集数据并使用数据仓库和大数据工具进行分析，以经济高效的方式实现有价值的见解。例如，使用 Amazon EMR 之类的大数据分析工具整合来自证券交易的数据，以实现增强风险管理。对监管机构来说，面临的挑战在于能够通过以受控、高度灵活且经济高效的方式分析各种大型数据集来获取见解和有价值的信息。随着市场的演变和经济风险的变化，监管机构和中央银行的需求也将发生变化，因此监管生态系统必须继续适应所有参与者并具有成本效益。</description>
-								<content:encoded>&lt;h2&gt;&lt;strong&gt;背景&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;中央银行和金融监管机构依赖于从银行和保险公司等受监管的金融机构获取高质量、最新的数据。这些受监管的实体拥有各种各样且不断变化的运营环境，每个机构都独立运营，但必须与监管机构协调交换相关数据。今天，银行支持监管机构提出的数据请求所产生的成本非常高。例如，&lt;a href="https://www.bankofengland.co.uk/-/media/boe/files/report/2019/future-of-finance-report.pdf?la=en&amp;amp;hash=59CEFAEF01C71AA551E7182262E933A699E952FC"&gt;英格兰银行提及了麦肯锡公司 2019 年的一项研究&lt;/a&gt;，该研究估计，英国银行在监管报告方面的每年的支出在 20 亿英镑至 45 亿英镑之间。&lt;/p&gt; 
-&lt;p&gt;实践证明，现代云技术可以通过汇集数据并使用数据仓库和大数据工具进行分析，以经济高效的方式实现有价值的见解。例如，使用&amp;nbsp;&lt;a href="https://aws.amazon.com/emr/"&gt;Amazon EMR&lt;/a&gt;&amp;nbsp;之类的大数据分析工具整合来自证券交易的数据，以实现增强风险管理。对监管机构来说，面临的挑战在于能够通过以受控、高度灵活且经济高效的方式分析各种大型数据集来获取见解和有价值的信息。随着市场的演变和经济风险的变化，监管机构和中央银行的需求也将发生变化，因此监管生态系统必须继续适应所有参与者并具有成本效益。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;介绍数据网格&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;在 martinFowler.com 发表的一篇文章：“&lt;a href="https://martinfowler.com/articles/data-monolith-to-mesh.html"&gt;如何从单体数据湖迁移到分布式数据网格&lt;/a&gt;”中，Zhamak Dehghani 解释了需要对以数据为中心的系统采用新方法的一些原因。Dehghani 认为，每一代“数据平台”都导致了一个集中化的单体，却忽略了生产者（例如大型组织内的部门）在如何优化数据结构为业务目的服务的个性化需求。虽然单体数据湖对于具有直观业务模式的组织来说可以奏效，但随着数据血缘和治理问题管理难度的增加，这对于更复杂的企业而言变得越来越困难。对于参与监管报告和数据收集的独立实体的生态系统来说，问题更为严重。&lt;/p&gt; 
-&lt;p&gt;与“数据网格”概念结合使用的云技术为解决监管报告问题提供了一种有希望的方法。数据网格可以自然地解决与联合监管生态系统相关的数据所有权、治理和血缘问题。在数据网格方法中，每个数据生产者（例如商业银行）都独立维护和更新其已发布的数据。只有当银行选择“发布”新版本的数据集时，订阅的数据消费者（例如 FSI 监管机构）才能看到更改。每个生产者都会控制每个已发布数据集的结构，此结构由数据模式描述。同时，数据消费者可能会从多个数据生产者（例如监管机构管辖下的每家银行）收集公布的数据。然后，数据消费者可以根据需要使用各种不同的云技术来填充数据湖或数据仓库。因此，以灵活而经济高效的方式，监管数据网格使受监管实体能够“弥合其人员、流程和生成数据的系统之间的差距”。&lt;/p&gt; 
-&lt;p&gt;这种数据网格方法的一个关键推动因素是使用自我描述数据。我们可以设想一个基于集中定义的数据模式、包含多个数据生产者和消费者的数据生态系统。但是，鉴于数据生产者运营的内部 IT 系统种类繁多，保持所有参与者的数据严格同步是不现实的——这种方法的执行成本高昂，而且对持续变化非常脆弱。相反，解决此问题的办法是由每个生产者创建一个嵌入式数据模式，以描述每个已发布数据集的当前结构。在监管生态系统中，此元数据可以参考标准术语和监管机构定义的一组数据字段来描述数据，例如“银行综合报告词典”(BIRD) 和欧洲中央银行系统 (ESCB) 的综合报告框架 (IReF) 中定义的数据字段。只要他们遵守法定命名法并提供所有必填的数据字段，数据生产者就可以自由采用自己的数据架构。然后，每当生产者对数据集的内容或结构进行更改时，这些更改都会反映在嵌入式数据模式中。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;实施方法概述&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;&lt;a href="https://aws.amazon.com/data-exchange/"&gt;Amazon Data Exchange&lt;/a&gt;&amp;nbsp;为创建这些安全的多方数据网格环境提供了必要的基础。使用 Amazon Data Exchange “Private”（私有）发布选项，只有经生产者授权的特定数据消费者（例如监管机构）才能查看数据产品并订阅该数据产品。AWS Data Exchange 上发布的每个视图都开启了版本控制，因此，数据消费者可以使用可审计的数据更改记录。数据消费者可以访问此自描述数据，并使用工具（例如 AWS Glue）将其转换为通过数据仓库、数据库或数据湖进行下游处理所需的格式。&lt;/p&gt; 
-&lt;p&gt;最近的博客&lt;a href="https://aws.amazon.com/blogs/apn/analyzing-covid-19-data-with-aws-data-exchange-amazon-redshift-and-tableau/"&gt;分析 COVID-19 数据&lt;/a&gt;展示了以这种方式使用 Amazon Data Exchange 的力量。在此示例中，亚马逊云科技与亚马逊云科技的合作伙伴 Salesforce、Tableau 和 MuleSoft 汇集了可信赖的 COVID-19 数据来源，使其能够通过 Amazon Data Exchange 与感兴趣的第三方共享。这使得数据消费者能够将相关数据提取到他们的分析数据湖中，并根据需要提取和转换数据。Amazon Data Exchange 内的相关数据生产者可以随时提供新版本的数据，并且这些新版本数据的可用性将传达给所有数据消费者。该资源可公开提供，用于支持组织的 COVID 救助工作。在其他使用案例中，也可以使用 Amazon Identity and Access Management 控件严格限制访问权限。&lt;/p&gt; 
-&lt;p&gt;图 1 显示了联合监管报告数据网格环境的概念概述；其中每家受监管银行都是 AWS Data Exchange 数据生产者，每个监管机构都是 Amazon Data Exchange 数据消费者。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p style="text-align: center"&gt;&lt;em&gt;图&lt;/em&gt;&lt;em&gt; 1：监管机构报告数据网格&lt;/em&gt;&lt;/p&gt; 
-&lt;p&gt;图 2 所示的这种环境的实施包括以下阶段：&lt;/p&gt; 
-&lt;ol&gt; 
- &lt;li&gt;受监管银行（Amazon Data Exchange 数据生产者）策划和上传所需的数据构件，以创建其 Amazon Data Exchange 监管报告数据产品。请参阅 AWS Data Exchange 最佳实践。&lt;/li&gt; 
- &lt;li&gt;在适当或需要时，每个数据生产者都会发布其报告数据产品的新修订版本（例如监管数据）。这个新发布的修订版本可能只包括已更改的数据、所有数据或者所有数据和完整的更改历史记录。每个数据生产者可以随时创建和发布修订。&lt;/li&gt; 
- &lt;li&gt;监管机构（数据消费者）会收到更新通知，他们可以自行决定对更新采取行动，在需要时将修订内容纳入报告分析基础设施中。由于每个数据生产者的修订都是自我描述的，因此将这些不同来源映射到数据消费者的标准化数据结构中是一个简单的过程。&lt;/li&gt; 
- &lt;li&gt;可以使用一系列工具和技术对标准化数据进行分析，以搜索特定信息或提取见解。选项包括图关系分析 (Amazon Neptune)、AI/ML 模式识别 (Amazon SageMaker)、传统数据仓库搜索/查询（Amazon Redshift 或 Amazon Athena）和报告生成。&lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;p style="text-align: center"&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; &lt;em&gt;图&lt;/em&gt;&lt;em&gt; 2：联合监管报告数据网格环境的示例实施&lt;/em&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;机会和益处&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;Amazon Data Exchange 方法可以用作高度自适应性和可扩展性的“常用输入层”的基础，监管机构认为这是一个理想的属性（例如，参见 2020 年 1 月发布的英格兰银行关于“&lt;a href="https://www.bankofengland.co.uk/-/media/boe/files/paper/2020/transforming-data-collection-from-the-uk-financial-sector.pdf?la=en&amp;amp;hash=6E6132B4F7AF681CCB425B0171B4CF43D82E7779"&gt;转型数据收集&lt;/a&gt;”的咨询意见）。该文讨论的考虑因素之一是，常用输入层是应采取“推送”还是“拉取”的方法（例如，受监管实体应按照要求向监管机构“推送”数据），或者在必要时，监管机构从每个受监管实体中“提取”数据。监管数据网格架构提供了这两种方法的优势。它为数据生产者提供了“推送”系统的益处，它可以抽象自己底层 IT 系统的复杂性以及更新的时间，而无需直接与监管机构协调。它还允许监管机构在需要时“拉取”所需数据，从而使每家银行免于根据监管机构的要求不断生成新报告或数据提取的负担。&lt;/p&gt; 
-&lt;p&gt;它还为双方提供了进一步的优势。数据生产者有一个本地数据存储库，对于数据生产者来说，它具有作为参考数据存储的潜在价值，并且数据生产者不用承担必须根据监管机构的要求不断生成新报告或数据提取的负担。监管机构的优势是能够创建新的组合数据集并按需分析它们，而无需构建永久的集中式数据湖。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;结论&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;监管机构为实现监管目标而需要收集的数据的数量、及时性和准确性给监管机构和受监管公司带来了挑战。但是，面临的许多业务问题有切实可行的解决方案，可以使用云技术来安全、经济高效且可扩展地开发这些解决方案。我们尤其相信，各方都可以从数据网格技术的应用中受益，以便能够以足够灵活的方式适应不断变化的需求，从而减轻大小型组织的数据收集负担。&lt;/p&gt; 
-&lt;p&gt;基于云的数据网格技术还可以成功地应用于各种其他数据管理要求，从获取第三方和公共数据以帮助进行内部决策制定，到确保内部数据集之间的一致性。这只是云计算改变企业看待他们面临的一些最艰难的数据挑战的方式之一，从而帮助他们创建更敏捷和可持续的解决方案。&lt;/p&gt; 
-&lt;p&gt;要了解有关云计算如何帮助改进监管报告和数据收集的更多信息，请联系：&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/rcnic.png" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;Richard Nicholson&lt;/h3&gt; 
-  &lt;p&gt;Richard 是亚马逊云科技金融服务 EMEA 业务和市场开发团队的首席解决方案架构师。Richard 的工作领域非常广泛，比如前台风险系统架构和后台核心大型机迁移。在加入亚马逊云科技之前，Richard 在自己的公司工作了 18 年，专注于金融服务和工业 IoT 等不同行业的运行时自适应软件系统的开发和使用。作为一名经过培训的天体物理学家，Richard 于 1995 年进入金融服务行业，担任 Salomon Brothers 的基础设施系统管理员。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/rcaven.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;Richard Caven&lt;/h3&gt; 
-  &lt;p&gt;Richard Caven 是英国和爱尔兰以及北欧银行业领先的亚马逊云科技金融服务专家。他负责开发和执行战略计划，以帮助客户迁移到云并推动他们的数字化转型之旅。Richard 于 2018 年从 Barclays 加入亚马逊云科技，担任全球财资职能部门的总经理和首席运营官。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/dmmackei.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;David MacKeith&lt;/h3&gt; 
-  &lt;p&gt;David MacKeith 负责亚马逊云科技欧洲、中东和非洲 (EMEA) 政府金融服务的业务开发。他在帮助世界各地的政府和金融服务组织转型其运营方式以更好地服务各自的客户和市场方面拥有 20 多年的经验。这包括帮助这些组织在数字货币、货币和市场分析、监管报告和数据收集自动化和优化以及财资管理职能转型等领域开发、试验和部署创新解决方案。在加入亚马逊云科技之前，MacKeith 先生曾在伦敦金融城担任商业交易律师。他拥有剑桥大学的物理学学位。&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
 										</item>

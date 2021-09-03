@@ -1,11 +1,22 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/131" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/131</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/131" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>【首次栽種就成功的關鍵是達人經驗數位化】數位分身技術如何走進農漁業</title>
+    <link>https://www.ithome.com.tw/news/146518</link>
+    <description> 數位分身，這個製造業當紅的新興技術，也能在農業場域發揮作用。
+一般來說，數位分身是透過IoT蒐集實體設備的運作數據，建立起虛擬對應的數位分身，來模擬實體設備的狀態改變。雖然農作物是活的植物，無法像機械設備的變化完全可控，但是，擴大到作物與環境的關聯，建立起溫室、栽培場或魚塭等場景的虛擬分身，仍舊可以用來模擬出作物在不同條件下的生長變化。
+而在臺灣，不只農業，連養殖魚塭、養雞場、甚至是茶園，都開始出現了農業數位分身的應用實例。
+比如臺南有座養殖漁場中，就打造出了魚塭的數位分身，有能力推測環境改變後對魚蝦生長的影響，適時提醒漁民如何操作設備來因應。</description>
+     <pubDate>2021-09-03  12:09:16</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146518</guid>
+  </item>
+  <item>
     <title>HPE拿下NSA 20億美元GreenLake合約</title>
     <link>https://www.ithome.com.tw/news/146517</link>
     <description> HPE本周宣布贏得美國國安局20億美元、長達10年的合約，以GreenLake產品部署高效能運算（High Performance Computing，HPC）架構執行AI及大量資料運算的任務。</description>
@@ -251,14 +262,6 @@ Google執行長Sundar Pichai指出，隨著今年稍早疫情好轉，有更多�
      <pubDate>2021-09-01  01:09:25</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146477</guid>
-  </item>
-  <item>
-    <title>微軟、Verizon合推5G企業專網邊緣運算方案</title>
-    <link>https://www.ithome.com.tw/news/146476</link>
-    <description> 微軟與美國電信業者Verizon宣布，將結合Verizon 5G專網及微軟Azure Stack Edge，推出整合邊緣運算的企業私有行動網路方案。</description>
-     <pubDate>2021-09-01  12:09:35</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146476</guid>
   </item>
   </channel>
 </rss>
