@@ -4,8 +4,64 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=399&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>Qt Creator 5.0開始實驗性支援Docker容器</title>
+    <link>https://www.ithome.com.tw/news/146515</link>
+    <description> 跨平臺IDE Qt Creator最新版本5.0，距離上個版本4.15釋出已經一段時間，這次新增了不少重要的實驗性功能，包括使用clangd代替libclang成為C/C++程式碼模型後端，並且提供新的擴充套件，允許使用Linux主機和CMake作為建置系統的用戶，創建Docker裝置作為建置裝置。</description>
+     <pubDate>2021-09-03  10:09:41</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146515</guid>
+  </item>
+  <item>
+    <title>Google以分層神經渲染生成遮罩，可個別操縱影片中物體時間軸</title>
+    <link>https://www.ithome.com.tw/news/146514</link>
+    <description> Google發展了一種產生圖像和影片遮罩的新方法，利用分層神經渲染，將影片中的物體和背景分開，產生稱為Omnimatte的遮罩，與典型分割模型不同之處在於，這個新方法所生成的Omnimatte不僅是物體本身，同時還能分離出和物體有關的其他細節，包括影子、部分透明的軟效果，甚至是輪胎摩擦地面所產生的煙霧，與傳統遮罩相同的地方是，Omnimatte為RGBA圖像，因此能夠用於廣泛的圖像和影片編輯工具。</description>
+     <pubDate>2021-09-03  10:09:15</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146514</guid>
+  </item>
+  <item>
+    <title>GitHub強化平臺Git協定安全性，變更支援的金鑰和簽章演算法</title>
+    <link>https://www.ithome.com.tw/news/146505</link>
+    <description> GitHub團隊進一步提高平臺安全性，決定更改Git協定，在用戶拉取和推送Git資料的時候，提供額外的保護，這些更改包括取消所有DSA金鑰支援、刪除舊的SSH演算法、關閉未加密的Git協定，以及新增要求RSA金鑰等。大部分用戶不會受到影響，只有使用SSH或git://連接的用戶，需要進行相對應的措施。</description>
+     <pubDate>2021-09-03  09:09:54</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146505</guid>
+  </item>
+  <item>
+    <title>NSA：國安系統應準備好因應量子電腦威脅</title>
+    <link>https://www.ithome.com.tw/news/146502</link>
+    <description> 一般相信量子電腦對資安最大威脅之一是破解加密系統。本周美國國安局（NSA）說明量子電腦對國安系統的威脅，並勾勒NSA的計畫。</description>
+     <pubDate>2021-09-02  09:09:00</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146502</guid>
+  </item>
+  <item>
+    <title>Amazon今年準備在全球招聘5.5萬名員工</title>
+    <link>https://www.ithome.com.tw/news/146501</link>
+    <description> Amazon本周宣布，計畫於今年9月15日展開的年度Career Day上，在美國招募4萬名企業與科技職位的員工，以及支援Amazon Operations的數萬名時薪員工。</description>
+     <pubDate>2021-09-02  09:09:00</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146501</guid>
+  </item>
+  <item>
+    <title>勒索軟體AvosLocker已有7個受害組織，部分機密文件已被公開</title>
+    <link>https://www.ithome.com.tw/news/146504</link>
+    <description> 一款名為AvosLocker的勒索軟體，約自6月底被發現，而引起資安人員的關注，解析這款勒索軟體的攻擊行為。而到了最近，資安業者Palo Alto Networks指出，他們發現迄今全球各地至少有7個組織受害，攻擊者開口索討的贖金，從5萬美元到7.5萬美元不等起跳。</description>
+     <pubDate>2021-09-02  07:09:04</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146504</guid>
+  </item>
+  <item>
+    <title>Cloud周報第119期：Google墨爾本雲端區域啟用1個月之際就出事，因網路設備發生異常導致多項服務中斷</title>
+    <link>https://www.ithome.com.tw/news/146503</link>
+    <description> 重點新聞（2021/08/26～2021/09/01）</description>
+     <pubDate>2021-09-02  06:09:11</pubDate>
+ <dc:creator>黃郁芸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146503</guid>
+  </item>
+  <item>
     <title>美國FTC出手禁止跟蹤軟體SpyFone</title>
     <link>https://www.ithome.com.tw/news/146500</link>
     <description> 美國聯邦交易委員會（FTC）周三（9/1）宣布，將禁止跟蹤軟體業者SpyFone及其執行長Scott Zuckerman從事監控業務，指出SpyFone秘密蒐集及分享手機用戶的實際位置、手機的使用及網路活動，而且經常是在手機用戶不知情的狀態下。</description>
@@ -85,7 +141,7 @@
     <title>烤肉爐零售遭勒索軟體攻擊，上櫃貿易百貨業關中公告子公司遭駭</title>
     <link>https://www.ithome.com.tw/news/146491</link>
     <description> 勒索軟體持續危害全球企業，近日國內跨足百貨業的居家熱源廠旗下外國子公司也遇害，臺灣上櫃公司關中在8月30日，於臺灣證券交易所發布即時重大訊息，說明旗下子公司Grand Home Holdings INC.，遭駭客網路攻擊。
-於2003年上櫃的關中公司，是專注於戶外瓦斯烤肉爐具研發與製造的國內大廠，並販售瓦斯統開關（安全開關、瓦斯噴槍、高壓閥），以及高效能瓦斯熱水器等居家熱源產品，主要銷售地點為北美，歐洲與澳洲地區。後續集團版圖擴張，該公司在2008年9月，成立Grand Home Holdings INC.（以下簡稱為GHHs），並買下美國烤肉爐專賣店通路Barbeques Galore，正式跨入零售領域，目前擁有20多個零售據點，也有專門的線上購物網站。</description>
+於2003年上櫃的關中公司，是專注於戶外瓦斯烤肉爐具研發與製造的國內大廠，並販售瓦斯統開關（安全開關、瓦斯噴槍、高壓閥），以及高效能瓦斯熱水器等居家熱源產品，主要銷售地點為北美，歐洲與澳洲地區。後續集團版圖擴張，該公司在2008年9月，成立Grand Home Holdings INC.（以下簡稱為GHHs），並買下美國烤肉爐專賣店通路Barbeques Galore，正式跨入零售領域。</description>
      <pubDate>2021-09-02  12:09:25</pubDate>
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146491</guid>
@@ -203,67 +259,6 @@ Google執行長Sundar Pichai指出，隨著今年稍早疫情好轉，有更多�
      <pubDate>2021-09-01  11:09:24</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146474</guid>
-  </item>
-  <item>
-    <title>公有雲長期歸檔儲存服務的興起</title>
-    <link>https://www.ithome.com.tw/article/146401</link>
-    <description> 憑藉著近乎無限的擴展能力，以及多重備援的架構，公有雲業者推出的長期歸檔儲存服務，從成本、耐久性與可靠性等層面，都足以挑戰磁帶的地位，成為企業資料長期儲存與法規遵循應用的新選擇。
- </description>
-     <pubDate>2021-09-01  07:09:00</pubDate>
- <dc:creator>張明德</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/article/146401</guid>
-  </item>
-  <item>
-    <title>【長期資料儲存新選擇，一探各家公有雲的異同】總覽6大公有雲業者的長期歸檔服務</title>
-    <link>https://www.ithome.com.tw/tech/146395</link>
-    <description> 歸檔（Archive）的目的，是因應法規遵循或其他需求而長期保存資料。由於這些需要長期保存的資料中，往往含有敏感性內容，而且涉及的保存期限至少是5年以上，甚至是7到10年，所以用於歸檔儲存的儲存設備，必須具備高安全性，低成本與高耐久性等條件。
-於是，本地端磁帶設備，便成為企業歸檔應用最普遍選擇的儲存設備。一方面，在本地端資料中心保存歸檔資料，可便於企業管控、確保資料安全。另一方面，磁帶也能提供長期儲存所需的低成本與耐久性。至於公有雲，過去很少會被列入歸檔儲存的選項。</description>
-     <pubDate>2021-09-01  07:09:00</pubDate>
- <dc:creator>張明德</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/tech/146395</guid>
-  </item>
-  <item>
-    <title>【擺脫磁帶新契機，用公有雲也能長期保存資料】企業資料長期歸檔儲存應用的新選擇</title>
-    <link>https://www.ithome.com.tw/tech/146392</link>
-    <description> 許久以來，一直作為長期儲存應用標準解決方案的磁帶，正受到公有雲歸檔儲存服務的挑戰。
-磁帶在電腦應用的歷史已超過半世紀，可說是當前IT技術中的活化石，是從1950年代沿用至今的儲存技術，在各式新興儲存媒體技術衝擊下，磁帶不斷退守應用範圍，至今仍能留在IT應用中的理由只剩一個——作為長期歸檔保存資料的冷儲存媒體。
-對於不需經常存取、但必須長期保存的冷資料（Cold Data）儲存應用，也就是資料歸檔或封存（Archive）來說，是磁帶最能夠避短揚長的應用場域。</description>
-     <pubDate>2021-09-01  07:09:00</pubDate>
- <dc:creator>張明德</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/tech/146392</guid>
-  </item>
-  <item>
-    <title>首屆國際級工控資安評測出爐，5家業者響應，國內法人機構也參與</title>
-    <link>https://www.ithome.com.tw/news/146469</link>
-    <description> 近年來，MITRE ATT&amp;amp;CK已成為企業關注的新資安攻防框架，而這項專案也逐年擴大，甚至成立了MITRE Engenuity公司，專門負責ATT&amp;amp;CK評估計畫的執行。在此當中，除了大眾熟知的ATT&amp;amp;CK for Enterprise完成三輪評估，臺灣資安業者趨勢科技與奧義智慧均兩度連續參加，特別的是，首度針對工控領域的ATT&amp;amp;CK for ICS評估計畫，評測結果在今年7月中旬出爐，展現了各業者產品對於Triton系列威脅的偵測能力。</description>
-     <pubDate>2021-08-31  10:08:10</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146469</guid>
-  </item>
-  <item>
-    <title>釣魚郵件攻擊濫用網址重新導向、雲端服務與自動化真人檢測服務CAPTCHA</title>
-    <link>https://www.ithome.com.tw/news/146468</link>
-    <description> 網路釣魚攻擊手法推陳出新，日前有攻擊者利用驗證真人與機器人的CAPTCHA機制，誘騙受害者下載金融木馬，而根據資安業者Greathon的統計，濫用Google Meet和Google DoubleClick等工具，重新導向到其他網站的釣魚攻擊手法，也日益升溫，如今攻擊者也將這些方法運用於釣魚郵件上。</description>
-     <pubDate>2021-08-31  07:08:25</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146468</guid>
-  </item>
-  <item>
-    <title>字節跳動買下VR頭戴裝置新創Pico</title>
-    <link>https://www.ithome.com.tw/news/146467</link>
-    <description> 抖音/TikTok母公司字節跳動（ByteDance）向CNBC證實，已藉由收購中國業者Pico，進入虛擬實境（VR）市場。</description>
-     <pubDate>2021-08-31  04:08:21</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146467</guid>
-  </item>
-  <item>
-    <title>曼谷航空疑遭LockBit攻擊致客戶資料外洩</title>
-    <link>https://www.ithome.com.tw/news/146466</link>
-    <description> 曼谷航空（Bankok Airways）上周公告因資安事件導致為數不詳的客戶資料外洩，元兇可能是勒索軟體LockBit。
-曼谷航空指出今年8月23日他們發現一樁網路攻擊事件，導致資訊系統遭到未授權人士不法存取。該公司強調一經發覺，已立即採取行動阻斷事件並著手調查。</description>
-     <pubDate>2021-08-31  03:08:39</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146466</guid>
   </item>
   </channel>
 </rss>

@@ -13,9 +13,50 @@
 	<id>https://blog.twnic.tw/feed/atom/</id>
 	<link rel="self" type="application/atom+xml" href="https://blog.twnic.tw/feed/atom/" />
 
-	<generator uri="https://wordpress.org/" version="5.6.4">WordPress</generator>
+	<generator uri="https://wordpress.org/" version="5.8">WordPress</generator>
 <icon>https://blog.twnic.tw/wp-content/uploads/2020/04/cropped-favicon-2-32x32.png</icon>
 	<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[APNIC文摘— 個人意見：Akamai的回應聲明非比尋常]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/03/19606/" />
+
+		<id>https://blog.twnic.tw/?p=19606</id>
+		<updated>2021-08-18T00:00:55Z</updated>
+		<published>2021-09-02T23:58:32Z</published>
+		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="APNIC" /><category scheme="https://blog.twnic.tw" term="CDN" /><category scheme="https://blog.twnic.tw" term="outage" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/APNIC5_8-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>在6月因系統設定失誤導致大規模斷網事件後，內容傳遞網路服務業者Akamai發表了事件調查報告。作者解釋為何這份報告與眾不同，也期許這樣的報告未來成為業界常規。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/03/19606/">APNIC文摘— 個人意見：Akamai的回應聲明非比尋常</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/03/19606/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/APNIC5_8-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">本APNIC文摘原標題為</span><a href="https://blog.apnic.net/2021/07/27/opinion-why-is-this-unusual/" target="_blank" rel="noopener"><span style="font-weight: 400;">Opinion: Why is this unusual?</span></a><span style="font-weight: 400;">，由Geoff Huston撰文。</span></p>
+<p><span style="font-weight: 400;">今年6月連續發生兩起大規模網路斷線事件，內容傳遞網路（content delivery network，CDN）服務供應業者Fastly和Akamai分別因為系統設定上的失誤，導致全球許多重要企業和組織網站斷線。受害者從Amazon、直播平臺Twitch、音樂串流平臺Spotify，到澳洲和紐西蘭大型銀行、香港股市和全球多家航空，幅員遍布全球。</span></p>
+<p><span style="font-weight: 400;">本文作者為APNIC首席科學家，他在7月曾發佈部落格文章，分析CDN集中市場的問題。他在文中指出，我們正在目睹網際網路的許多層面從多元、活躍、高度競爭，逐漸變得高度集中，甚至邁向寡占或獨佔的局面。</span></p>
+<p><span style="font-weight: 400;">然而，這篇文章並非為了再開CDN集中市場的討論。此文目的是帶讀者了解Akamai在大規模斷網事件後發表的解釋聲明，在作者眼裡如何非比尋常。Akamai的回應可參考</span><a href="https://blog.apnic.net/2021/07/27/opinion-why-is-this-unusual/" target="_blank" rel="noopener"><span style="font-weight: 400;">部落格原文</span></a><span style="font-weight: 400;">，作者有全文附錄。</span></p>
+<p><span style="font-weight: 400;">Akamai的回應聲明富含大量資訊，詳細解釋事件發生的根本原因。聲明中不僅陳述他們在問題出現當下的即時補救措施，也說明為了預防事件再次發生採取的行動，以及未來將如何改善監控通報流程的長程計畫。</span></p>
+<p><span style="font-weight: 400;">過去類似事件發生時，當事者回應往往僅模糊表示有些「運作失常」導致「服務中斷」，並指出「目前團隊正在緊急處理中」。這種僅用無意義字眼堆砌而成，彷彿提及任何細節都會導致業者身敗名裂的曖昧聲明，似乎已成為常態。</span></p>
+<p><span style="font-weight: 400;">這也是為何Akamai這篇詳盡誠實的事件報告，如此令人耳目一新。</span></p>
+<p><span style="font-weight: 400;">作者指出，許多其他產業的事後聲明都已不再有這種避重就輕、防衛性質濃厚的問題。航空產業就是個很好的例子，誠實的事件報告並不是為了找戰犯或咎責，而是找出事件發生的原因，了解如何改正現有的安全疏失，避免同樣的事件再次發生。</span></p>
+<p><span style="font-weight: 400;">諸如汽車、核能和化學產業，都是在經歷慘痛教訓後大幅改善服務和產品的安全性，而公開、冷靜且誠實的事件調查是強化安全的唯一途徑。我們應視事件為學習機會，從而了解系統可能如何失靈。也因此，坦誠且完整的事後分析，是避免日後事件重演的關鍵。唯有如此，服務和產品才會越來越安全。</span></p>
+<p><span style="font-weight: 400;">但即使其他產業都已經了解這點，作者批評，資訊科技產業還是認為自己與眾不同。過去十幾年來，軟體銷售業者已經習慣不負責任地販售不安全的問題產品，對業者而言，加強產品的安全韌性只是不必要的開銷。作者認為，這種態度至今仍是業界常態，從近日越來越頻繁的大規模網路斷線事件可見一斑。</span></p>
+<p><span style="font-weight: 400;">「迅捷行動，勇於破壞」（move fast and break things）已成為網路產業的中心思想。這個說法來自Facebook創辦人Mark Zuckerberg，他不僅將此當成企業內部的研發原則，甚至加碼指出「若沒有任何東西被破壞，就表示你動作還不夠快」。</span></p>
+<p><span style="font-weight: 400;">作者也揶揄，我們或許已經該知足，對Facebook不是製造飛機、核電廠或汽車的公司心懷感恩。但如前所述，這種除了速度一概不顧的研發態度已擴散至整個產業，不只Facebook，其他像是Amazon、Applie和Google也都或多或少習慣這種方式，在追求快速創新的路上破壞了不少東西。</span></p>
+<p><span style="font-weight: 400;">從另一個角度而言，資訊科技產業之所以還能逃避冷靜詳盡的事後調查流程，可能是基於「網路斷線事件不會立刻直接危及公共安全」的錯誤假設。事實上，網域名稱系統（Domain Name System，DNS）平臺無法解析域名，乍聽之下可能無足輕重，但若許多其他系統的基礎運作仰賴DNS，那DNS的失靈將導致一連串系統接連失效，骨牌效應的後果不容小覷。</span></p>
+<p><span style="font-weight: 400;">越來越多關鍵公共基礎建設，諸如汽油管線、交通運輸、自來水系統等的中控系統都逐漸數位化，這也代表數位服務基礎建設的安全和韌性，已經是民生基礎穩定的關鍵後盾。我們需要防範的不只是來自外部的惡意網路攻擊；在這些極度複雜且環環相扣的系統中，看似微小的環節失誤也可能造成大規模的系統癱瘓。</span></p>
+<p><span style="font-weight: 400;">其實，Akamai這份事件報告越顯得平凡無奇，對整個產業才是好的發展。這表示所有業者都樂於在事件發生後，投入時間精力探討問題來源。作者再次強調，事後調查和報告不是為了抓戰犯，而是正確了解這些數位建設作為現代社會基礎的重要性，鼓勵公開病灶和規律改善，持續鞏固數位服務的韌性及安全。</span></p>
+<p><span style="font-weight: 400;">作者期許類似詳盡的報告能成為業界常態，也期許業者和大眾都能終於認知到數位服務已和公共安全密不可分，我們也應用對待公共安全的標準對待數位基礎建設。</span></p>
+<p><span style="font-weight: 400;">*台灣網路資訊中心（TWNIC）與亞太網路資訊中心（APNIC）合作，定期精選APNIC Blog文章翻譯摘要，提供中心部落格讀者了解目前亞太地區網路發展之最新趨勢。原文標題為</span><a href="https://blog.apnic.net/2021/07/27/opinion-why-is-this-unusual/" target="_blank" rel="noopener"><span style="font-weight: 400;">Opinion: Why is this unusual?</span></a><span style="font-weight: 400;">。</span></p>
+<p><span style="font-weight: 400;">圖片來源：APNIC Blog</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/03/19606/">APNIC文摘— 個人意見：Akamai的回應聲明非比尋常</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/03/19606/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/03/19606/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
 		<author>
 			<name>國際瞭望</name>
 					</author>
@@ -50,8 +91,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/02/19604/">.au禁止使用者註冊奧運相關域名</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/02/19604/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/02/19604/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/02/19604/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/02/19604/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -89,8 +130,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/01/19680/">APNIC文摘— 衛星通訊及政府管制</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/01/19680/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/01/19680/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/01/19680/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/01/19680/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -120,8 +161,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/01/19602/">Facebook與 Instagram 將限制以青少年用戶為目標的廣告投放方式</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/01/19602/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/01/19602/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/01/19602/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/01/19602/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -168,8 +209,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19780/">瞭解網域名稱、IP及DNS運作機制的基礎漫畫：彭太的網路大冒險</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19780/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19780/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19780/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19780/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -201,8 +242,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19826/">「第36屆TWNIC IP政策資源管理會議」歡迎您踴躍報名參加！</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19826/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19826/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19826/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19826/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -232,8 +273,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19876/">NRI（National and Regional IGF initiative，國家及地區網路治理論壇倡議）</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19876/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19876/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19876/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19876/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -302,8 +343,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19855/">IETF維運與管理領域中負責IPv6相關工作組簡介</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19855/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19855/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19855/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19855/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -329,7 +370,7 @@
 <p><span style="font-size: 14pt;">看見最美麗的.台灣</span></p>
 <p><span style="font-size: 14pt;">.台灣的好身在其中的你我最知道。</span></p>
 <p><span style="font-size: 14pt;">帶您一同發現.台灣：<a href="http://點.台灣">http://點.台灣</a></span></p>
-<div class="ast-oembed-container"><iframe title="點.台灣 - 最在地的網域名稱" width="1140" height="641" src="https://www.youtube.com/embed/nGdWvih--yo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="ast-oembed-container"><iframe loading="lazy" title="點.台灣 - 最在地的網域名稱" width="1140" height="641" src="https://www.youtube.com/embed/nGdWvih--yo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p><span style="font-size: 14pt;">「.台灣」網域名稱起初因應世界趨勢國際化域名IDN（Internationalized Domain Name）而生，為最具台灣代表性之網域名稱，除以中文命名外，去年更開放可以英文命名其網域名稱。</span></p>
 <p><span style="font-size: 14pt;">申請使用「.台灣」網域名稱一來可保護品牌形象，防止侵權，二來還可強化網站SEO，減少被商家社群平台綁架之風險。最重要的是全年無休服務不中斷，保障註冊資料正確性及機密性，並確保DNS設定的完整性。並提供完善爭議處理機制，註冊安心有保障。</span></p>
 <p><span style="font-size: 14pt;">歡迎參考「.台灣」近期受理註冊機構相關優惠：</span></p>
@@ -339,8 +380,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19843/">「點.台灣」影片帶您看見不一樣的.台灣</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19843/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19843/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19843/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19843/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -375,8 +416,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19872/">數千萬台 IoT 裝置內含嚴重資安漏洞，可導致駭侵者取得監看監聽資訊</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19872/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19872/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19872/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19872/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -408,8 +449,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19600/">Amazon因違反 GDPR遭罰款 8.87 億美元</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19600/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19600/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19600/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19600/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -598,8 +639,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19851/">「2021 TWNIC IP網路通訊人才培訓教育訓練」開課預告, 歡迎報名參加</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19851/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19851/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19851/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19851/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -624,8 +665,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19847/">APNIC 52 歡迎各界踴躍參加</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19847/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19847/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19847/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19847/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -664,8 +705,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19839/">「. tw/.台灣」國際化域名IDN近期推出眾多活動</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19839/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19839/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19839/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19839/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -695,8 +736,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19835/">台灣網路講堂：注意力經濟持續發燒，我們該如何看待演算法？會後報導</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19835/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19835/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19835/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19835/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -729,8 +770,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19868/">Razer 電競產品驅動程式 0-day 漏洞，只需插入裝置，即可取得 Windows 10 管理權限</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19868/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19868/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19868/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19868/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -763,8 +804,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19864/">網路服務商記錄到 HTTP DDoS 攻擊強度新高，達每秒 1,700 萬次連線要求</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19864/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19864/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19864/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19864/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -799,8 +840,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19860/">駭侵者假冒 OpenSea 交易所客服人員，竊走求助用戶的加密貨幣與 NFT 收藏</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19860/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19860/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19860/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19860/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -851,8 +892,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19831/">歡迎報名台灣網路講堂：資料治理與國際貿易 — 談跨境資料流通</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19831/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19831/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19831/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19831/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -883,8 +924,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19598/">中國計畫於2030年達到全國網路僅使用IPv6</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19598/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19598/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/30/19598/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/30/19598/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -915,8 +956,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/27/19586/">New gTLD申請回合：下一步</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/27/19586/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/27/19586/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/27/19586/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/27/19586/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -951,8 +992,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/26/19550/">CENTR發布2021第一季全球TLD報告</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/26/19550/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/26/19550/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/26/19550/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/26/19550/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -982,8 +1023,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/25/19552/">TikTok 因隱私漏洞遭荷蘭官方罰款 75萬歐元</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/25/19552/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/25/19552/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/25/19552/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/25/19552/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1013,8 +1054,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/24/19554/">哈佛大學伯克曼網際網路與社會研究中心將成立為期三年的跨學科研究所</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/24/19554/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/24/19554/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/24/19554/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/24/19554/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1044,8 +1085,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/23/19557/">印度透過公私合作招標以完成全國寬頻部署</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/23/19557/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/23/19557/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/23/19557/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/23/19557/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1076,8 +1117,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/20/19516/">為何企業寧可選擇訴訟而不走 UDRP？</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/20/19516/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/20/19516/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/20/19516/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/20/19516/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1281,8 +1322,8 @@
 		<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/19/19676/">2021亞太青年網路治理論壇開放報名</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/19/19676/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/19/19676/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/19/19676/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/19/19676/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1358,8 +1399,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/19/19519/">非洲的網路安全與網路政策展望</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/19/19519/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/19/19519/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/19/19519/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/19/19519/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1414,8 +1455,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/18/19514/">疫情期間的錯誤健康資訊傳播是對公眾的急迫威脅</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/18/19514/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/18/19514/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/18/19514/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/18/19514/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1448,8 +1489,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/18/19510/">網路釣魚仍為勒索軟體最便利的途徑之一</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/18/19510/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/18/19510/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/18/19510/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/18/19510/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1486,8 +1527,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/17/19497/">強化協作：董事會駐各社群團體聯絡人框架</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/17/19497/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/17/19497/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/17/19497/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/17/19497/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1519,8 +1560,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/16/19321/">受到英國脫歐影響而停用的部分域名仍有機會恢復使用</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/16/19321/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/16/19321/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/16/19321/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/16/19321/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1553,8 +1594,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/16/19619/">數千 Facebook 帳號資訊遭全新 Android FlyTrap 惡意軟體竊取</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/16/19619/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/16/19619/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/16/19619/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/16/19619/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1636,8 +1677,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/15/19559/">數位電商模式與法令管制的新思維及調適——以外送平臺為例</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/15/19559/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/15/19559/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/15/19559/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/15/19559/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1669,8 +1710,8 @@
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/13/19323/">少了網路，我們將無法實現永續發展目標</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/13/19323/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/13/19323/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/13/19323/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/13/19323/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1707,8 +1748,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/13/19615/">台灣資安專家發表 MS Exchange Server ProxyShell 漏洞報告後，有駭侵者開始進行惡意掃瞄</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/13/19615/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/13/19615/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/13/19615/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/13/19615/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1745,8 +1786,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/13/19623/">去中心化交易協定 Poly Network 遭駭，被竊資金高達 6.11 億美元</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/13/19623/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/13/19623/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/13/19623/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/13/19623/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1961,8 +2002,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/12/19612/">.tw數位公益計畫徵案</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/12/19612/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/12/19612/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/12/19612/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/12/19612/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -2018,8 +2059,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/12/19325/">IETF進化史</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/12/19325/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/12/19325/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/12/19325/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/12/19325/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -2078,8 +2119,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/11/19581/">歡迎報名台灣網路講堂：注意力經濟持續發燒，我們該如何看待演算法？</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/11/19581/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/11/19581/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/11/19581/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/11/19581/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -2114,8 +2155,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/11/19538/">ICANN域名系統安全威脅防治計畫：進度報告</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/11/19538/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/11/19538/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/11/19538/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/11/19538/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -2146,8 +2187,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/10/19317/">美國國家安全局與合作夥伴共同發布關於全球惡意網路活動的安全建議</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/10/19317/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/10/19317/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/10/19317/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/10/19317/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -2188,8 +2229,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/09/19319/">美國拜登總統發布行政命令，尋求恢復網路中立</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/09/19319/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/09/19319/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/09/19319/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/09/19319/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -2224,8 +2265,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/09/19305/">SSAD實施評估流程問卷，展開實施評估流程</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/09/19305/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/09/19305/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/09/19305/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/09/19305/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -2258,8 +2299,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/06/19227/">註冊資料準確度履約執行情形：GDPR前與後</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/06/19227/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/06/19227/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/06/19227/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/06/19227/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -2288,8 +2329,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/05/19266/">新加坡與英國啟動數位經濟協議討論</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/05/19266/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/05/19266/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/05/19266/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/05/19266/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -2323,8 +2364,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/04/19270/">世界傑出女性聯合呼籲：科技巨頭應為女性創造更安全的網路環境</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/04/19270/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/04/19270/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/04/19270/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/04/19270/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -2358,41 +2399,8 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/03/19274/">低調的網路安全領導者：馬來西亞</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/03/19274/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/03/19274/feed/atom/" thr:count="0"/>
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[萬事達卡因違反印度的資料儲存規範，遭永久禁發新卡]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/02/19512/" />
-
-		<id>https://blog.twnic.tw/?p=19512</id>
-		<updated>2021-08-01T23:53:22Z</updated>
-		<published>2021-08-02T01:50:57Z</published>
-		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="萬事達卡" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/0726-0730_萬事達卡因違反印度的資料儲存規範，遭永久禁發新卡-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>萬事達卡因違反印度的資料儲存規範，遭到印度儲備銀行永久禁發新卡，該項禁令自2021年7月22日生效。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/02/19512/">萬事達卡因違反印度的資料儲存規範，遭永久禁發新卡</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/02/19512/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/0726-0730_萬事達卡因違反印度的資料儲存規範，遭永久禁發新卡-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">萬事達卡（Mastercard）因違反印度的資料儲存規範，遭印度儲備銀行（Reserve Bank of India，RBI）永久禁發新卡，該項禁令自2021年7月22日生效。</span></p>
-<p><span style="font-weight: 400;">RBI於一份通知中表示，萬事達卡未遵守印度2018年實施的資料儲存規範，根據規範，外國信用卡公司僅能將資料儲存於印度境內，以免妨礙印度監管機構的監管權限。</span></p>
-<p><span style="font-weight: 400;">萬事達卡對禁令感到失望，該企業表示，自2018年以來，皆有定期更新法遵情況。失望之餘，該企業亦表示未來將持續與印度當局合作，提供解決政府疑慮的資訊。</span></p>
-<p><span style="font-weight: 400;">三個月前，美國運通（American Express）及大來國際（Diners Club International）兩間信用卡公司，也因類似緣由遭禁發新卡。與市占率小的美國運通不同，萬事達卡與Visa等企業在印度的合作銀行眾多。繼2014至2019年間於印度投入10億美元後，萬事達卡更於2019年宣布看好印度市場，計畫在未來5年內加碼投資10億美元。獨立金融服務顧問Ashvin Parekh表示，該禁令造成印度信用卡市場大幅真空，是Visa的大好機會。而各家銀行不得不重新與萬事達協商發卡事宜，對後者無疑是一大打擊。</span></p>
-<p><span style="font-weight: 400;">印度這項資料儲存規範在2018年曾激起美國企業大量反彈，聲稱規範將增加基礎設施成本、打擊旗下的全球詐欺偵測平臺，也積極向印度政府展開遊說，但RBI並未收回成命。</span></p>
-<p><span style="font-weight: 400;">RBI表示，萬事達卡應通知印度境內的所有發卡銀行遵守禁令，停止發放新卡，至於既有的持卡客戶，將不會受到該禁令影響。</span></p>
-<p><span style="font-weight: 400;">相關連結：</span></p>
-<p><span style="font-weight: 400;">Euan Rocha and Aditya Kalra (2021). India bans Mastercard from issuing new cards in data storage row.</span></p>
-<p><span style="font-weight: 400;">檢自：</span></p>
-<p><a href="https://www.reuters.com/world/india/indias-reserve-bank-bans-mastercard-issuing-new-cards-india-2021-07-14/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.reuters.com/world/india/indias-reserve-bank-bans-mastercard-issuing-new-cards-india-2021-07-14/</span></a><span style="font-weight: 400;"> (Jul. 23, 2021)</span></p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/02/19512/">萬事達卡因違反印度的資料儲存規範，遭永久禁發新卡</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/02/19512/#comments" thr:count="0"/>
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/02/19512/feed/atom/" thr:count="0"/>
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/03/19274/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/03/19274/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 	</feed>

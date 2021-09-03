@@ -6,6 +6,107 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Qt Creator 5.0開始實驗性支援Docker容器</title>
+ <link>https://www.ithome.com.tw/news/146515</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;跨平臺IDE Qt Creator最新版本&lt;a href=&quot;https://www.qt.io/blog/qt-creator-5.0-released&quot;&gt;5.0&lt;/a&gt;，距離上個版本4.15釋出已經一段時間，這次新增了不少重要的實驗性功能，包括使用clangd代替libclang成為C/C++程式碼模型後端，並且提供新的擴充套件，允許使用Linux主機和CMake作為建置系統的用戶，創建Docker裝置作為建置裝置。&lt;/p&gt;
+&lt;p&gt;Qt Creator 5.0重要的實驗性功能總共有兩項，第一項是用戶現在可以選用Clangd，作為C/C++程式碼模型後端，開發團隊提到，Clangd是用來取代基於libclang的程式碼模型，不過因為這項功能還在實驗階段，主要仍使用libclang，因此該功能預設關閉，用戶需要手動啟用。&lt;/p&gt;
+&lt;p&gt;另一個重要的實驗性功能，是支援在Docker容器中建置和執行應用程式，由於這項功能還在非常初期階段，目前僅支援使用CMake作為專案建置系統的Linux主機，用戶必須要先啟用實驗性擴充套件，才能在裝置中創建Docker裝置，並將其設置為建置裝置。&lt;/p&gt;
+&lt;p&gt;在程式碼編輯上，現在開發者重新命名欄位、區域變數和方法等程式碼識別符號，Qt Creator不會再自動選擇和專案沒有直接關係的檔案，像是Qt標頭檔案，即便這些檔案包含了重新命名的符號。而開發者對.ui和.scxml檔案的更改，現在則不需要重新編譯，就能立刻反映在程式碼模型中。&lt;/p&gt;
+&lt;p&gt;Qt Creator 5.0對裝置有更好的支援度，開發團隊除了增加對MSVC ARM工具鏈的支援外，還改進了在M1 Mac上執行Qt Creator英特爾版本的體驗，另外，現在Qt Creator也能夠正確處理Android 12。&lt;/p&gt;
+&lt;p&gt;Qt Creator從4.15版本之後，切換成語義版本控制架構，而Qt Creator 5.0是4.15來第一個更新版本，因此經歷較長的開發時間，官方提到，他們仍遵照增量開發風格，逐漸更新IDE，接下來6.0版本將會在年底發布。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 02:03:41 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146515 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146515#comments</comments>
+</item>
+<item>
+ <title>Google以分層神經渲染生成遮罩，可個別操縱影片中物體時間軸</title>
+ <link>https://www.ithome.com.tw/news/146514</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google發展了一種產生圖像和影片遮罩的新方法，利用分層神經渲染，將影片中的物體和背景分開，產生稱為&lt;a href=&quot;https://ai.googleblog.com/2021/08/introducing-omnimattes-new-approach-to.html&quot;&gt;Omnimatte&lt;/a&gt;的遮罩，與典型分割模型不同之處在於，這個新方法所生成的Omnimatte不僅是物體本身，同時還能分離出和物體有關的其他細節，包括影子、部分透明的軟效果，甚至是輪胎摩擦地面所產生的煙霧，與傳統遮罩相同的地方是，Omnimatte為RGBA圖像，因此能夠用於廣泛的圖像和影片編輯工具。&lt;/p&gt;
+&lt;p&gt;圖像和影片編輯操作，仰賴準確的遮罩（Matte），Google提到，雖然最近的的電腦視覺技術，已經可以產生高品質的遮罩，用來產生合成景深、合成圖像，或是去除圖像背景，但與主體相關的細節，像是陰影、反射和煙霧，通常會被切割演算法忽略。&lt;/p&gt;
+&lt;p&gt;為了產生更實用的遮罩，Google開發了新方法，來切割出包含主體和相關細節的Omnimatte，藉由使用分層神經渲染方法，訓練卷積神經網路（CNN），將主體分割遮罩和背景雜訊圖像，映射到單一Omnimatte中。&lt;/p&gt;
+&lt;p&gt;研究人員提到，因為CNN的特性，能夠良好地學習主體和相關特效之間的關聯性，兩者的相關性越強，CNN就越容易學習，像是（下圖）在路上行走的人與狗，人和人的影子，以及狗和狗的影子之間的空間關係，都是從右向左移動，不過人與狗的影子，或是狗與人的影子，因為關係變化更大，因此相關性也就相對較弱，CNN會先學習較強的相關性，因此能獲得正確的分解結果。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://1.bp.blogspot.com/-Qq3cN8QyjUg/YS5UYDmPN1I/AAAAAAAAICc/CFjjT0MYe681xNRMcB1wukJSPSQ6lXp4ACLcBGAsYHQ/s16000/image5.gif&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;要生成Omnimatte，輸入的影像會被分成多層，每個移動的物體獨立為一層，靜止的背景物體全部被分為另一層，當這些圖層使用Alpha混合合併在一起時，就能重現輸入的影像。Omnimatte能夠被靈活地應用在各種影像處理應用中，像是只要在圖層組合中刪除特定的圖層，就能夠從影片中刪除物體，並且還可以透過複製圖層來複製物體。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://1.bp.blogspot.com/-At-5jhezNCY/YS5WZJ4R8tI/AAAAAAAAIDI/R1ss5X7zw5cuLoIloOyWkY9b8RFsSE68gCLcBGAsYHQ/s16000/image2.gif&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Omnimatte也可以用來操控物體在影片中出現的時間（Retime），研究人員提到，這項特效常被應用在電影之中，但是傳統的作法必須在受控的環境中，為每個單獨的主體拍攝影片，但是分解成為Omnimatte後，即便日常的影片，都能夠簡單地操縱物體時序，只需更改每一個圖層的播放速度，就能達到過去必須要對每個物體重新拍攝，才能達到的效果，而且由於Omnimatte是標準的RGBA圖像，因此可以使用傳統的影片編輯軟體來編輯物體的時間軸。&lt;/p&gt;
+&lt;p&gt;（下圖）影片被分解成三個圖層，每個小孩一層，在原始的影片中，每個小孩跳入水裡的時間不同，但是透過調整Omnimatte播放的時間軸，就能夠讓三個小孩同時跳入水中，並且擁有水花和反射等逼真效果。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://1.bp.blogspot.com/-scdYcnEj-Zs/YS5Wgas87cI/AAAAAAAAIDQ/43nqnHxuRTcl4rSosq-6aM7OrpIgq3aXQCLcBGAsYHQ/s16000/image8.gif&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;不過這個Omnimattes技術仍然有其限制，目前只能用來處理固定相機位置的影像，當相機移動時，便無法精確地捕捉整個背景，部分背景元素可能遮蓋上圖層，另外，CNN在學習相關性上雖然非常強大，但是部分時候產生的結果不如預期，且無法切確掌握原因。研究人員也提到，這項技術可能遭到濫用，即便重新排列的物體，皆為影片中已經存在的內容，但是只要簡單地調整影片內容的順序，就可以被用來產生虛假和誤導性訊息。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 02:02:15 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146514 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146514#comments</comments>
+</item>
+<item>
+ <title>GitHub強化平臺Git協定安全性，變更支援的金鑰和簽章演算法</title>
+ <link>https://www.ithome.com.tw/news/146505</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;GitHub團隊進一步&lt;a href=&quot;https://github.blog/2021-09-01-improving-git-protocol-security-github/&quot;&gt;提高平臺安全性&lt;/a&gt;，決定更改Git協定，在用戶拉取和推送Git資料的時候，提供額外的保護，這些更改包括取消所有DSA金鑰支援、刪除舊的SSH演算法、關閉未加密的Git協定，以及新增要求RSA金鑰等。大部分用戶不會受到影響，只有使用SSH或git://連接的用戶，需要進行相對應的措施。&lt;/p&gt;
+&lt;p&gt;之所以GitHub要更改SSH支援的金鑰以及刪除未加密的Git協定，官方提到，公鑰加密技術仰賴安全演算法和足夠強健的金鑰，來確保用戶的資料安全，而較少位元的意思，通常代表較容易遭到暴力破解，而且較舊的演算法也存在已知的攻擊漏洞，考慮到現代運算能力和攻擊的變化，在2001年被視為安全的技術，在2021年已經不再安全。&lt;/p&gt;
+&lt;p&gt;這些變更包括刪除舊的金鑰類型，官方解釋，DSA金鑰只有80位元安全等級，低於一般標準128位元，而且現在也只有不到0.3％的GitHub請求使用DSA，因此拒絕DSA金鑰能在對極少用戶產生影響的情況下，提高安全性，之後GitHub還會取消對DSA主機金鑰的支援。&lt;/p&gt;
+&lt;p&gt;同時，GitHub還要棄用不安全的簽章演算法，雖然RSA金鑰比DSA強大，但是較舊的Git客戶端，可能會將RSA金鑰和過時的SHA-1簽章演算法一起使用，官方強調，不少SSH客戶端包括OpenSSH 7.2和更新的版本，都已支援SHA-2簽章RSA，這是更安全的配置，但是因為SHA-1簽章演算法很脆弱，因此他們決定不再允許新的RSA客戶端使用SHA-1簽章，而必須使用SHA-2。&lt;/p&gt;
+&lt;p&gt;GitHub還要移除SSH服務的部分演算法，像是hmac-sha1訊息鑑別碼和所有CBC加密也都會被刪除，特別是與不少攻擊相關聯的CBC加密，而官方也表示，根據他們統計資料，現在幾乎所有客戶端都使用更安全的加密和MAC演算法，因此刪除這些不安全的演算法，對用戶影響不大。&lt;/p&gt;
+&lt;p&gt;ECDSA和Ed25519是以橢圓曲線加密為基礎的新標準，提供適度的大小和計算複雜度，GitHub在過去並沒有提供這些作為主機金鑰，但是他們承諾將會開始提供ECDSA和Ed25519作為選項。而在Git協定方面，未加密的git://沒有提供完整性或是身份驗證，所以容易遭到竄改，官方表示，已經很少用戶使用該協定，特別這些協定並無法用來推送程式碼，因此GitHub現在停用對該協定的支援。&lt;/p&gt;
+&lt;p&gt;這些更改會從9月14日開始，一直到2022年3月15日，開發者可以使用OpenSSH 7.2以上版本，使用更新到libssh2 1.9.0的libgit2與其他工具，並且準備接受新的主機金鑰，以避免受到影響。當用戶的Git遠端操作使用https://開頭，則不會受到任何影響。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 01:59:54 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146505 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146505#comments</comments>
+</item>
+<item>
+ <title>NSA：國安系統應準備好因應量子電腦威脅</title>
+ <link>https://www.ithome.com.tw/news/146502</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;一般相信量子電腦對資安最大威脅之一是破解加密系統。&lt;a href=&quot;https://media.defense.gov/2021/Aug/04/2002821837/-1/-1/1/Quantum_FAQs_20210804.PDF&quot; target=&quot;_blank&quot;&gt;本周美國國安局（NSA）說明量子電腦對國安系統的威脅，並勾勒NSA的計畫&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;根據NSA發布的一份《量子電腦與後量子的加密》FAQ文件，提及「攸關加密的量子電腦」（Cryptographically Relevant Quantum Computer，CRQC）對加密系統的影響。所謂CRQC專指可用以攻擊傳統電腦無法破解的加密系統的量子電腦。CRQC可能顛覆現行數位簽章及非對稱金鑰交換作法中，廣為使用的公鑰演算法。&lt;/p&gt;
+&lt;p&gt;NSA指出，美國儲存機密軍事及情報資訊的國安系統（National Security System，NSS）都是用公鑰加密，因此量子電腦被誤用，或是野心份子若建立起CRQC，將對NSS及國安造成危害。&lt;/p&gt;
+&lt;p&gt;為此NSA計畫建立新的加密標準防範CRQC的威脅。NSA表示，雖然現在還不清楚量子電腦的規模和威力何時會用來破解公鑰加密演算法，但因應可能的破解威脅，NSA計畫推動促進「抗量子」（quantum-resistant or quantum-safe）或「後量子」（post-quantum）加密演算法的發展。「抗量子」演算法泛指能抵抗CRQC破解的演算法，而後量子演算法意思相近，則指設計中納入量子電腦威脅的演算法。&lt;/p&gt;
+&lt;p&gt;NSA的目的是經由建立標準及認證，讓美國NSS系統整合新一代演算法。NSA相信即使真的建了新加密演算法，也要花20年以上才能完全部署到美國所有NSS設備。&lt;/p&gt;
+&lt;p&gt;NSA指出目前還沒有一套抗量子公鑰演算法可讓NSS廠商採用。雖然美國國家標準暨技術研究院（National Institute of Standards and Technology，NIST）已經在考慮多種演算法，但尚未有核准者，一旦NIST完成並公布標準，NSA就會提供NSS廠商相關時間表及規畫。NSA也預告，所有美國國安資訊系統的開發廠商及購買單位（即聯邦政府部門）都要有心理準備，必須轉到後量子加密標準。&lt;/p&gt;
+&lt;p&gt;在此之前，NSA表示一般相信AES-256及SHA-384演算法可抵禦大型量子電腦的攻擊，廠商或開發商可以實作此類技術。NSA曾經表示計畫選擇NIST最後決選的晶格（lattice-based）演算法，因而建議廠商開始實驗。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 02 Sep 2021 13:10:00 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146502 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146502#comments</comments>
+</item>
+<item>
+ <title>Amazon今年準備在全球招聘5.5萬名員工</title>
+ <link>https://www.ithome.com.tw/news/146501</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.aboutamazon.com/news/job-creation-and-investment/amazon-career-day-2021-is-americas-biggest-training-and-recruiting-event&quot; target=&quot;_blank&quot;&gt;Amazon本周宣布&lt;/a&gt;，計畫於今年9月15日展開的年度Career Day上，在美國招募4萬名企業與科技職位的員工，以及支援Amazon Operations的數萬名時薪員工。&lt;a href=&quot;https://www.reuters.com/technology/exclusive-amazon-ceo-unveils-55000-tech-jobs-first-hiring-push-under-his-watch-2021-09-01/&quot; target=&quot;_blank&quot;&gt;而路透社則報導&lt;/a&gt;，此次Amazon的招募計畫是全球性的，另有1.5萬名新聘員工將以海外市場為主。&lt;/p&gt;
+&lt;p&gt;Career Day是Amazon一年一度的員工招募活動，今年將在線上舉行，全球有興趣的求職者都可報名參加，而且不限資歷、專長或背景，不過，&lt;a href=&quot;https://www.amazoncareerday.com/regions&quot; target=&quot;_blank&quot;&gt;根據Amazon所公布的求職者報名地點&lt;/a&gt;，除了美國與加拿大之外，也歡迎法國、德國、印度、義大利、日本、西班牙與英國的求職者報名，有興趣到這些國家任職的臺灣求職者或者也可考慮參加。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ir.aboutamazon.com/news-release/news-release-details/2021/Amazon.com-Announces-Second-Quarter-Results-2dcdc6a32/&quot; target=&quot;_blank&quot;&gt;根據Amazon所公布的第二季財報&lt;/a&gt;，該季Amazon包括全職與兼職的全球員工數為133.5萬人，比去年第二季的84萬人高出甚多，而且此一數字並未計算約聘人員或臨時工。疫情讓身為全球電子商務龍頭的Amazon人力需求大增，而為了推動雲端服務AWS的成長，也需才孔亟。&lt;/p&gt;
+&lt;p&gt;Amazon被《富比士》（Forbes）雜誌列為全球最佳雇主的第二名，《財星》（Fortune）雜誌則說Amazon是人們最嚮往的全球企業之一。Amazon則說，不管是在物流中心或辦公室上班的員工，大家都享有帶薪假、最多20周的育兒假、由公司贊助的職業訓練計畫，而且就算是第一線的員工，其平均起薪也有每小時17美元，接近聯邦最低薪資的兩倍。&lt;/p&gt;
+&lt;p&gt;其實去年Amazon也在美國招募了4萬名員工，今年則再度於美國招募4萬名員工。路透社則說，Amazon在全球的企業或科技員工的總數約為27.5萬，今年準備於全球招募的5.5萬名員工，將替該公司帶來20%的新血。&lt;/p&gt;
+&lt;p&gt;在Amazon Career Day 2021上，Amazon將派出1,200名的招聘人員，進行2萬場一對一的職業生涯教練計畫，也會有數千場由Amazon員工所提供的各種職業建議或相關課程，或是有機會參與由Amazon軟體開發經理所主持的程式碼撰寫課程，以及如何通過Amazon面試的指導課程。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 02 Sep 2021 13:00:00 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146501 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146501#comments</comments>
+</item>
+<item>
+ <title>勒索軟體AvosLocker已有7個受害組織，部分機密文件已被公開</title>
+ <link>https://www.ithome.com.tw/news/146504</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;一款名為AvosLocker的勒索軟體，約自&lt;a href=&quot;https://twitter.com/RakeshKrish12/status/1409406222114058244&quot;&gt;6月底&lt;/a&gt;被發現，而引起資安人員的關注，解析這款勒索軟體的攻擊行為。而到了最近，&lt;a href=&quot;https://unit42.paloaltonetworks.com/emerging-ransomware-groups/&quot;&gt;資安業者Palo Alto Networks指出&lt;/a&gt;，他們發現迄今全球各地至少有7個組織受害，攻擊者開口索討的贖金，從5萬美元到7.5萬美元不等起跳。&lt;/p&gt;
+&lt;p&gt;這款勒索軟體的攻擊行動，最早約於7月4日曝光：&lt;a href=&quot;https://www.bleepingcomputer.com/forums/t/754311/avoslocker-ransomware-avos-support-topic/&quot;&gt;有受害者在新聞網站Bleeping Computer的論壇上，表示遭到勒索軟體AvosLocker攻擊&lt;/a&gt;，他張貼了勒索訊息，想要尋求協助。&lt;/p&gt;
+&lt;p&gt;勒索訊息的內容提及，受害電腦的檔案已經過AES-256演算法加密，並限期4天內付錢，否則攻擊者將會公開部分機密資料，而且贖金將會加倍；若是超過10天，他們就會外洩所有竊得的資料。&lt;/p&gt;
+&lt;p&gt;資安公司Cyble與Malwarebytes陸續揭露AvosLocker的攻擊活動，&lt;a href=&quot;https://blog.cyble.com/2021/07/15/avoslocker-under-the-lens-a-new-sophisticated-ransomware-group/&quot;&gt;Cyble指出&lt;/a&gt;，駭客組織開始以訂閱服務的型式，提供買家相關工具的時間點，應該是在今年6月1日，且已有數個組織的資料，自7月8日開始被外洩。&lt;/p&gt;
+&lt;p&gt;而&lt;a href=&quot;https://blog.malwarebytes.com/threat-intelligence/2021/07/avoslocker-enters-the-ransomware-scene-asks-for-partners/&quot;&gt;Malwarebytes則是指出&lt;/a&gt;，他們在7月中旬調查一起涉及Exchange Server的事故，發現攻擊者的目的，就是要在受害組織植入AvosLocker勒索軟體，該公司並指出攻擊者在遠端手動下達指令，操作這款勒索軟體。&lt;/p&gt;
+&lt;p&gt;到了8月下旬，Palo Alto揭露他們的發現，指出創立AvosLocker的駭客至少在今年的1月1日，就開始使用名為avos的ID，在Dread討論版上宣布他們開始正式運作，並外洩竊得的資料。Dread是位於暗網上，類似Reddit的電子布告欄，駭客用來交換黑市的情報。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/word-image-19-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/word-image-19-s.png&quot; style=&quot;width: 580px; height: 629px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;對於受害的規模，Palo Alto指出，駭客宣稱有6個受害組織，但根據他們的觀察是7個。這些受害組織分別是：位於美國與英國的法律公司、西班牙物流業者、比利時房地產公司、土耳其控股公司、敘利亞交通機構，以及美國某個城市的政府。而且，已有部分文件已經被駭客公開，當中含有組織私有文件，以及能識別個人的資訊。&lt;/p&gt;
+&lt;p&gt;而在贖金的部分，研究人員看到要求5萬美元到7.5萬美元不等的贖金，駭客要求以門羅幣付款，受害者依照指示存取駭客的網站後，就會看到聊天機器人，以及要脅不付款贖金將會增加的倒數計時器，還有付款的指示與QR Code等。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/word-image-23-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/word-image-23-s.png&quot; style=&quot;width: 580px; height: 523px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 02 Sep 2021 11:49:04 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146504 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146504#comments</comments>
+</item>
+<item>
  <title>美國FTC出手禁止跟蹤軟體SpyFone</title>
  <link>https://www.ithome.com.tw/news/146500</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.ftc.gov/news-events/press-releases/2021/09/ftc-bans-spyfone-and-ceo-from-surveillance-business&quot; target=&quot;_blank&quot;&gt;美國聯邦交易委員會（FTC）周三（9/1）宣布&lt;/a&gt;，將禁止跟蹤軟體業者SpyFone及其執行長Scott Zuckerman從事監控業務，指出SpyFone秘密蒐集及分享手機用戶的實際位置、手機的使用及網路活動，而且經常是在手機用戶不知情的狀態下。&lt;/p&gt;
@@ -189,128 +290,6 @@ C. 使用GPU農場共享GPU-利用整合持久叢集（persistent cluster）與�
  <dc:creator>星展銀行</dc:creator>
  <guid isPermaLink="false">146484 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146484#comments</comments>
-</item>
-<item>
- <title>勒索軟體Hive鎖定醫療機構、缺乏相關因應措施的企業而來</title>
- <link>https://www.ithome.com.tw/news/146493</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;最近幾個月出現了數個新的勒索軟體家族，且已經在短短的2至3個月出現數十個受害者。例如，自2021年6月開始運作的勒索軟體Hive，鎖定醫療照護供應商，以及缺乏因應勒索軟體攻擊能力的中型組織。&lt;a href=&quot;https://unit42.paloaltonetworks.com/emerging-ransomware-groups/&quot;&gt;資安業者Palo Alto Networks指出&lt;/a&gt;，目前駭客宣稱他們成功攻擊了28個組織，包含1家歐洲的航空公司，以及3家美國組織。他們分別是：硬體零售商、製造業者、法律事務所。駭客將這些受害者公布在名為Hive Leaks的網站上。&lt;/p&gt;
-&lt;p&gt;究竟這個勒索軟體如何入侵受害組織？Palo Alto表示尚不明朗，僅表示背後的駭客組織曾運用多種手法，包含透過買到的帳密存取組織的內部網路、暴力破解，以及釣魚手法等。&lt;/p&gt;
-&lt;p&gt;而根據Palo Alto的調查，這個勒索軟體的運作方式，與許多勒索軟體有些不同。首先，Palo Alto指出，Hive勒索軟體執行後，會產生2個指令碼hive.bat與shadow.bat，用途分別是刪除勒索軟體本身，以及清空磁碟區陰影複製（Volume Shadow Copy）服務的備份資料。而在勒索訊息（HOW_TO_DECRYPT.txt）的內容中，則是要求受害者透過指定的帳號和密碼，存取位於洋蔥網路（Tor）的線上對話網站。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image11-s.png&quot; style=&quot;width: 467px; height: 304px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;一旦受害者成功登入網站，就會看到類似即時通訊軟體的聊天室，讓他們與攻擊者對話，討論支付贖金的細節。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image17.png&quot; style=&quot;width: 580px; height: 228px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Palo Alto發現，這些出現在勒索軟體的帳密，似乎是針對特定受害者所提供，為了證實這項推測，他們試圖取得更多版本的Hive勒索軟體檔案，結果發現2個尚未被駭客列在Hive Leaks網站上的受害組織。因此，遭到Hive勒索軟體攻擊的組織可能有更多。&lt;/p&gt;
-&lt;p&gt;針對Hive勒索軟體的攻擊態勢，&lt;a href=&quot;https://www.ic3.gov/Media/News/2021/210825.pdf&quot;&gt;美國聯邦調查局（FBI）也在8月25日提出警告&lt;/a&gt;，表明&lt;a href=&quot;https://mhsystem.org/cyberattack&quot;&gt;位於俄亥俄州的Memorial Healthcare System&lt;/a&gt;，於8月中旬遭到此勒索軟體的攻擊，攻擊者透過遠端桌面連線（RDP）入侵該醫療單位，FBI認為，Hive此波攻擊很可能針對醫療體系而來。此外，FBI也指出，有部分受害者接到勒贖電話，要求他們付錢換回檔案。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 02 Sep 2021 06:56:54 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146493 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146493#comments</comments>
-</item>
-<item>
- <title>Windows 11測試者若硬體不符要求，將被要求回到Windows 10</title>
- <link>https://www.ithome.com.tw/news/146496</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟鐵了心，如果用戶PC硬體規格不符的話，連測試都不能用Windows 11。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/BetaWiki/status/1432806974022995971&quot; target=&quot;_blank&quot;&gt;一名加入Windows Insider方案的用戶試用Windows 11時接到系統通知&lt;/a&gt;，告知他的PC不符合Windows 11執行的最低硬體要求。事實上，他也不具Windows 11 Insider測試方案的資格，因此要求他到Release Preview頻道改安裝Windows 10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mspoweruser.com/microsoft-is-booting-windows-11-insiders-with-non-compliant-pcs-back-to-windows-10/&quot; target=&quot;_blank&quot;&gt;MS Power User報導&lt;/a&gt;，目前忽略這則通知的結果不明，可能只是再也接不到新Windows 11測試版本，但仍然可以持續使用。&lt;/p&gt;
-&lt;p&gt;但是這顯然和微軟今年6月釋出Windows 11預覽版時的公開說法不同。雖然跑正式版本Windows 11的PC，需要符合支援TPM 2.0的64-bit處理器或是SoC，像是Intel第8代處理器、AMD Zen 2或Qualcomm 7/8 Series、4GB RAM及64GB儲存容量等要求，但是&lt;a href=&quot;https://www.ithome.com.tw/news/145317&quot; target=&quot;_blank&quot;&gt;微軟允許不支援TPM 2.0的舊PC也可以下載測試版Windows 11&lt;/a&gt;。顯然現在微軟改變心意。&lt;/p&gt;
-&lt;p&gt;微軟以安全、穩定性及應用程式相容性為由，十分堅持滿足規格要求的PC才能安裝執行Windows 11。微軟表示，不同於Windows 10，Windows 11無法藉由變更群組政策及Intune組態管理功能來強制安裝。微軟上周允許「不受支援」的舊PC以ISO安裝Windows 11，&lt;a href=&quot;https://www.ithome.com.tw/news/146448&quot; target=&quot;_blank&quot;&gt;但警告&lt;/a&gt;這些PC未來無法透過Windows Update自動下載更新。&lt;/p&gt;
-&lt;p&gt;最新版Windows作業系統即將&lt;a href=&quot;https://www.ithome.com.tw/news/146474&quot; target=&quot;_blank&quot;&gt;在今年10月5日開始部署&lt;/a&gt;，符合資格的Windows 10 PC可免費升級。過程中微軟會根據Windows PC的系統規格、裝置年齡等判斷，陸續部署到用戶終端。愈新的電腦愈可能及早從Windows Update接到安裝通知。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 02 Sep 2021 05:32:02 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146496 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146496#comments</comments>
-</item>
-<item>
- <title>Twitter超級粉絲功能正式於iOS上登場</title>
- <link>https://www.ithome.com.tw/news/146495</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Twitter在今年2月發表的&lt;a href=&quot;https://blog.twitter.com/en_us/topics/product/2021/introducing-super-follows&quot; target=&quot;_blank&quot;&gt;超級粉絲（Super Follows）功能終於在iOS平臺上登場&lt;/a&gt;了，擁有大批粉絲的Twitter創作者可以設定2.99美元、4.99美元與9.99美元等3種月租費價格，而Twitter則會在創作者的訂閱收入超過5萭美元門檻之後，才會向創作者抽成。&lt;/p&gt;
-&lt;p&gt;現階段只有美國與加拿大的iOS用戶可以使用超級粉絲功能，Twitter計畫於未來幾周擴大到全球市場，至於Android版及網頁版Twitter.com也會在可見的未來支援超級粉絲。&lt;/p&gt;
-&lt;p&gt;超級粉絲可望成為除了廣告之外的另一個Twitter營收來源，Twitter認為不管是活動家、媒體人、音樂家、內容策畫書、作家、遊戲玩家、占星專家、護膚/美容專家、喜劇演員或體育專家，都有潛力成為該平臺上的創作者，並藉由超級粉絲功能創造收入。&lt;/p&gt;
-&lt;p&gt;與一般粉絲不同的是，超級粉絲雖然必須繳交月費，但可閱讀創作者所釋出的特別內容，也能與創作者有更緊密的互動，例如護膚專家MakeupforWOC即打算提供個案的治療建議，還會回答超級粉絲的問題；或者是占星專家@tarotbybronx將提供占星術與塔羅牌的深入研究，同時針對超級粉絲提供心靈療法。&lt;/p&gt;
-&lt;p&gt;一般的粉絲只會有藍色的標章，超級粉絲則擁有桃紅色的特殊標章，讓創作者一眼就能辨識超級粉絲。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn.cms-twdigitalassets.com/content/dam/blog-twitter/official/en_us/products/2021/super-follows-sep-2021/consumer_view_of_tweet_thread.png.img.fullhd.medium.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_Twitter&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;根據&lt;a href=&quot;https://www.theverge.com/2021/9/1/22651138/twitter-super-follow-launch-subscription-ios?scrolla=5eb6d68b7fedc32c19ef33b4&quot; target=&quot;_blank&quot;&gt;The Verge的報導&lt;/a&gt;，Twitter的超級粉絲採用的是Stripe支付平臺，初期除了Stripe所收取的3%手續費之外，其它97%全數歸創作者所有，Twitter則會一直到創作者所累積的訂閱營收達到5萬美元的門檻之後，才會開始向創作者收取佣金，而屆時創作者仍將保有80%的收入。&lt;/p&gt;
-&lt;p&gt;不過，要向Twitter申請成為可提供超級粉絲服務的創作者必須符合一定的資格，目前的條件是必須擁有1萬人以上的粉絲，年滿18歲，且在過去30天推文超過25次，此外，現階段只開放美國用戶申請。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 02 Sep 2021 05:19:05 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146495 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146495#comments</comments>
-</item>
-<item>
- <title>蘋果Apple Wallet將可存放美國8州的數位駕照與州ID</title>
- <link>https://www.ithome.com.tw/news/146494</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.apple.com/newsroom/2021/09/apple-announces-first-states-to-adopt-drivers-licenses-and-state-ids-in-wallet/&quot; target=&quot;_blank&quot;&gt;蘋果本周宣布&lt;/a&gt;，已與美國8個州合作，讓這些州的民眾可將駕照與州ID資訊存放在iPhone及Apple Watch的Apple Wallet上，率先實施的將是亞利桑那州與喬治亞州，康乃迪克、愛荷華、肯塔基、馬里蘭、奧克拉荷馬及猶他州則會隨後跟上。&lt;/p&gt;
-&lt;p&gt;蘋果指出，美國的運輸安全管理局（Transportation Security Administration，TSA）已同意在特定機場的道路與安全檢查哨上，讓民眾得以出示Apple Wallet上的駕照或州ID作為身分證明。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://www.apple.com/newsroom/images/product/os/ios/standard/apple_wallet-state-id_hero_08232021_inline.jpg.large.jpg&quot; style=&quot;width: 410px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_蘋果&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;如同把信用卡加入Apple Wallet一樣，要新增駕照或州ID時，只要按下「+」鍵即可，若有與iPhone配對的Apple Watch，也可同時把它們加入Apple Watch上，接著系統會要求使用者利用iPhone來掃描駕照或州ID，並得自拍，以讓州政府認證證件的真偽，為了進一步保障安全性，系統還會詢問使用者是否要進行人臉或頭部移動的安全設定程序。民眾所輸入的證件資訊要等到州政府的核准後，才會正式加入Apple Wallet。&lt;/p&gt;
-&lt;p&gt;在遇到臨檢或查驗身分的時候，民眾只需要將iPhone或Apple Watch靠近讀取的機器，就能顯示TSA所要求的資訊內容，而且只有在民眾完成人臉辨識（Face ID）或指紋辨識（Touch ID）之後才會呈現，民眾完全不需要解鎖手機，也不必交出手機。&lt;/p&gt;
-&lt;p&gt;為了保障民眾的隱私，蘋果強調不管是該公司或州政府，都不會知道民眾是在哪裡顯示他們的身分，存放在手機上的身分資料不僅是加密的，也有預防竄改的安全機制，而採用Face ID及Touch ID則能確保只有民眾本人，才能解鎖這些內容。&lt;/p&gt;
-&lt;p&gt;倘若民眾遺失了手機，則可利用Find My找到手機，鎖住手機，或是自遠端移除手機上的內容。&lt;/p&gt;
-&lt;p&gt;亞利桑那州交通部車輛管理處主任Eric Jorgensen表示，除了創新之外，數位版的駕照替民眾提供了更高的安全及隱私能力，每個人都應該考慮加入。上述8州的民眾可注意各州的開放時程表，這是個自願性的服務，並未強制民眾採用，而TSA則會陸續公布支援數位證件的地點。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 02 Sep 2021 04:31:06 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146494 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146494#comments</comments>
-</item>
-<item>
- <title>傳Google Chromebook 2023年將採用自有處理器</title>
- <link>https://www.ithome.com.tw/news/146492</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;繼Pixel 6手機後，&lt;a href=&quot;https://asia.nikkei.com/Business/Tech/Semiconductors/Google-developing-own-CPUs-for-Chromebook-laptops&quot; target=&quot;_blank&quot;&gt;日經亞洲報導&lt;/a&gt;，Google也將自行設計Chromebook專用的處理器，預計最快兩年後用於自家筆電。&lt;/p&gt;
-&lt;p&gt;日經亞洲引述的3名消息人士指出，Google預計將自行設計的晶片導入到自有筆電及平板，第一款搭載自有處理器的Chromebook預計2023年問世。&lt;/p&gt;
-&lt;p&gt;報導指出，這款處理器和市面上許多行動處理器一樣採用Arm架構，再加上Google客製化的設計和功能。長期而言Google計畫將其自有設計推向筆電和平板。至於2023年以後的規畫則不得而知。&lt;/p&gt;
-&lt;p&gt;這是繼&lt;a href=&quot;https://www.ithome.com.tw/news/146013&quot; target=&quot;_blank&quot;&gt;上個月Google宣布&lt;/a&gt;今年秋天問世的Pixel 6智慧型手機採用自行設計的SoC—Tensor後，使用自有晶片的另一個產品線。&lt;/p&gt;
-&lt;p&gt;Google近年希望逐步在網路廣告外，擴大硬體產品的營收貢獻度，而相關投資也包括新的研發地點。&lt;a href=&quot;https://www.ithome.com.tw/news/146088&quot; target=&quot;_blank&quot;&gt;上個月媒體報導&lt;/a&gt;，Google可能計畫在總部所在地的加州山景市（Mountain View）及聖荷西市之間興建新的研發廠區，提供Google硬體及Nest裝置的研發以及原型製造用。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 02 Sep 2021 04:22:07 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146492 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146492#comments</comments>
-</item>
-<item>
- <title>烤肉爐零售遭勒索軟體攻擊，上櫃貿易百貨業關中公告子公司遭駭</title>
- <link>https://www.ithome.com.tw/news/146491</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;勒索軟體持續危害全球企業，近日國內跨足百貨業的居家熱源廠旗下外國子公司也遇害，臺灣上櫃公司關中在8月30日，於臺灣證券交易所發布即時重大訊息，說明旗下子公司Grand Home Holdings INC.，遭駭客網路攻擊。&lt;/p&gt;
-&lt;p&gt;於2003年上櫃的關中公司，是專注於戶外瓦斯烤肉爐具研發與製造的國內大廠，並販售瓦斯統開關（安全開關、瓦斯噴槍、高壓閥），以及高效能瓦斯熱水器等居家熱源產品，主要銷售地點為北美，歐洲與澳洲地區。後續集團版圖擴張，該公司在2008年9月，成立Grand Home Holdings INC.（以下簡稱為GHHs），並買下美國烤肉爐專賣店通路Barbeques Galore，正式跨入零售領域，目前擁有20多個零售據點，也有專門的線上購物網站。&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;這次事件是因勒索軟體攻擊導致，上櫃與興櫃公司現也必須主動揭露資安事件重大訊息&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;這次的資安事件，就是發生關中公司旗下的Grand Home Holdings INC.（以下簡稱為GHHs）。&lt;/p&gt;
-&lt;p&gt;跟據該公司在公告中提出的說明，GHHs有部分伺服器遭網路攻擊，GHHs已立即啟動資安防禦，隨即進行網路攻擊清查，至於受到影響的內部服務，都已經陸續恢復運作，目前的銷售與日常營運不受影響。&lt;/p&gt;
-&lt;p&gt;在此次資安事件處理過程中，除了GHHs本身的資安團隊，同時也與外部資安公司合作共同因應，另外，也有將監測到的異常網路狀況，通報政府相關執法部門與資安單位。&lt;/p&gt;
-&lt;p&gt;但據可靠消息指出，GHHs遭遇的其實是勒索軟體攻擊，而這樣的事件，也造成重要系統檔案因加密而受影響，受影響時間約一到兩天。可惜，對於這次GHHs的資安事件，在上述公告中，並未說明相關調查結果與更多相關細節。&lt;/p&gt;
-&lt;p&gt;對於子公司遭受網路攻擊一事，關中公司也在公告中表示，已敦請GHHs同步檢視並強化現有的基礎架構，全面提升網路安全等級，以保護資料安全及完整性。&lt;/p&gt;
-&lt;p&gt;而為保障投資人知的權利，現為國內上櫃公司的關中，在8月30日也代子公司對外發布公告。而根據關中的2020年年報，GHHs為關中持股92.22%的子公司。&lt;/p&gt;
-&lt;p&gt;畢竟，資安事件對公司財務業務的影響是越來越高，因此，今年起，國內證交所開始強調主動對外揭露的重要性。例如，&lt;a href=&quot;https://www.ithome.com.tw/news/144098&quot;&gt;臺灣證券交易所在今年4月27日已明訂，上市公司發生重大資安事件需發布重大訊息&lt;/a&gt;，但也要注意的是，證券櫃臺買賣中心隨後在4月29日公告，說明已修正條文，對國內上櫃與興櫃公司有同樣要求，當資安事件造成重大損害或影響時，應發布重大訊息。&lt;/p&gt;
-&lt;p&gt;從近期來看，國內上市公司因資安事件發布重大訊息，例如：&lt;a href=&quot;https://www.ithome.com.tw/news/144654&quot;&gt;記憶體大廠威剛&lt;/a&gt;，以及&lt;a href=&quot;https://www.ithome.com.tw/news/146075&quot;&gt;主機板、個人電腦與伺服器大廠技嘉&lt;/a&gt;，而上櫃公司方面，包括&lt;a href=&quot;https://www.ithome.com.tw/news/145009&quot;&gt;電子零組件業翔名&lt;/a&gt;，以及這次的百貨零售業關中。&lt;/p&gt;
-&lt;p&gt;當然，不只是上市櫃公司，由於駭客攻擊事件不斷發生，但很多事件的影響範圍、衝擊程度等卻不被外人所知，因此，若能通報主管機管，或盡可能將可公開揭露的資訊釋出，將讓國內整體環境更容易注意到相關威脅，也可展現企業對於資安事件處理的積極態度。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%961%EF%BC%89%E9%97%9C%E4%B8%AD%E6%97%97%E4%B8%8B%E7%BE%8E%E5%9C%8B%E5%85%AC%E5%8F%B8%E9%81%AD%E9%A7%AD%E5%AE%A2%E6%94%BB%E6%93%8A_B.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;在8月30日，關中公司在臺灣證券交易所代美國子公司Grand Home Holdings INC.公告其資安事件。（圖片來源：擷取自公開資訊觀測站）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;&lt;strong&gt;近期國內連續有餐飲零售遭勒索軟體攻擊，業者均對外揭露，提醒國內產業留意&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;基本上，這一兩年，臺灣企業一再傳出遭遇勒索軟體攻擊事件，曝光的多是大型電子製造業遇害，但從國際曝光的災情來看，其實遍及各個產業，包括高科技產業、製造業、零售業、醫療、教育、政府機構、交通運輸與社會服務等。尤其是教育與零售，在2020年就有不少資安業者表示災情嚴重。&lt;/p&gt;
-&lt;p&gt;換言之，不要因為國內曝光的勒索軟體攻擊事件，只有高科技與電子製造業。例如，在2019年8月，國內也曾發生數十家醫院同時遭受勒索軟體攻擊，有的院所能夠自行復原，但也傳出有的院所在沒有辦法的情形下，只能被迫選擇支付贖金。&lt;/p&gt;
-&lt;p&gt;最近2021年下半，則是接連有餐飲零售業遇害的消息，包括&lt;a href=&quot;https://www.ithome.com.tw/news/146292&quot;&gt;國內知名連鎖餐飲業者鬍鬚張，他們在6、7月間接連遭受兩次勒索軟體攻擊，所幸他們能夠自行復原系統與檔案，但也通知會員資料外洩問題&lt;/a&gt;，到了8月，關中子公司專業烤肉爐通路業者GHHs，也同樣遭到勒索軟體攻擊。&lt;/p&gt;
-&lt;p&gt;無論如何，企業如何持續強化資安防護與資安韌性，以及提高資安事件應變機制能力，包括事件通報、調查與災難評估等，持續是企業要關心的重點，並要設法將這些資安能量擴及整個公司集團，與合作供應鏈業者。&lt;/p&gt;
-&lt;p&gt;。&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-09-01_181122.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/144098&quot;&gt;今年4月27日，臺灣證券交易所正式明訂，當上市公司發生重大資安事件時，需發布重大訊息對外揭露&lt;/a&gt;。相隔兩日，在今年4月29日，證券櫃臺買賣中心也發布消息，表示已修正「對有價證券上櫃公司重大訊息之查證暨公開處理程序」及「證券商營業處所買賣興櫃股票審查準則」部分條文，因此，上興櫃公司發生資安事件造成重大損害或影響，同樣要發布重大訊息，損失達一定金額者，應召開重大訊息說明記者會。。（圖片來源：擷取自證券櫃檯買賣中心網站）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 16px; background-color: rgb(255, 245, 240);&quot;&gt;財團法人中華民國證券櫃檯買賣中心對有價證券上櫃公司重大訊息之查證暨公開處理程序&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-09-02_163739.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;相關條文包括：第三條、第四條二十六項、第十一條第九項。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 16px; background-color: rgb(255, 245, 240);&quot;&gt;財團法人中華民國證券櫃檯買賣中心證券商營業處所買賣興櫃股票審查準則&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 16px; background-color: rgb(255, 245, 240);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2021-09-02_163936.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;span style=&quot;font-family: Georgia, Times, &amp;quot;Times New Roman&amp;quot;, serif; font-style: italic;&quot;&gt;相關條文包括：&lt;/span&gt;第三十四條二十一項、第三十五條第八項、第五十一條第十三項、第五十二條第八項。&lt;/p&gt;
-&lt;/blockquote&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 02 Sep 2021 04:15:25 +0000</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="false">146491 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146491#comments</comments>
 </item>
 </channel>
 </rss>
