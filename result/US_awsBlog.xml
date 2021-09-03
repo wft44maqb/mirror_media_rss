@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Thu, 02 Sep 2021 03:44:40 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 03 Sep 2021 03:45:21 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,6 +13,258 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>使用Python语言实现Transcribe Streaming的websocket协议</title>
+		<link>https://aws.amazon.com/cn/blogs/china/use-python-language-to-implement-the-websocket-protocol-of-transcribe-streaming/</link>
+				<pubDate>Fri, 03 Sep 2021 03:45:21 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Amazon Transcribe]]></category>
+
+		<guid isPermaLink="false">e21e52547928d10b376260b6094480799af5ab25</guid>
+				<description>Amazon Transcribe是自动语音识别（ASR）服务，可让开发人员轻松地为其应用程序添加语音转文本功能，Transcribe支持文件和流式Streaming的两种音频输入方式，Transcribe Streaming可以应用在会议记录，语音控制交互，语言实时翻译等场景，Streaming方式支持HTTP/2和WebSocket两种协议。本文介绍使用Python语言实现Transcribe Streaming的WebSocket协议。</description>
+								<content:encoded>&lt;h2&gt;概述&lt;/h2&gt; 
+&lt;p&gt;Amazon Transcribe是自动语音识别（ASR）服务，可让开发人员轻松地为其应用程序添加语音转文本功能，Transcribe支持文件和流式Streaming的两种音频输入方式，Transcribe Streaming可以应用在会议记录，语音控制交互，语言实时翻译等场景，Streaming方式支持HTTP/2和WebSocket两种协议。本文介绍使用Python语言实现Transcribe Streaming的WebSocket协议。&lt;/p&gt; 
+&lt;h2&gt;Streaming transcription 接口介绍&lt;/h2&gt; 
+&lt;p&gt;Streaming transcription 接口可以接收音频流并且实时转换为文字，然后将结果返回客户端，同时返回数据中包含partial值，用来标示句子是否结束。&lt;/p&gt; 
+&lt;p&gt;Streaming的数据是被编码的，由prelude和data组成。编码格式详见：https://docs.aws.amazon.com/transcribe/latest/dg/event-stream.html&lt;/p&gt; 
+&lt;h2&gt;Python语言的实现过程和示例&lt;/h2&gt; 
+&lt;p&gt;Python示例程序的运行环境是Python 3.7.9版本。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;添加IAM Policy到你使用到的IAM user&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "transcribestreaming",
+            "Effect": "Allow",
+            "Action": "transcribe:StartStreamTranscriptionWebSocket",
+            "Resource": "*"
+        }
+    ]
+}&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;安装Python的程序包&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Python示例程序需要安装三个程序包websocket-client，boto3和amazon_transcribe；其中boto3是AWS SDK for Python，amazon_transcribe是Amazon Transcribe Streaming SDK，这两个SDK简化了和Amazon Transcribe Service的集成过程。amazon_transcribe的详细说明见：https://github.com/awslabs/amazon-transcribe-streaming-sdk&lt;/p&gt; 
+&lt;p&gt;安装程序包的命令：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;pip3 install boto3
+pip3 install amazon_transcribe
+pip3 install websocket-client&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;Python程序的import部分：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;import hashlib
+import hmac
+import urllib.parse
+from datetime import datetime
+import time
+import ssl
+import json
+import websocket
+import _thread
+from amazon_transcribe.eventstream import EventStreamMessageSerializer
+from amazon_transcribe.eventstream import EventStreamBuffer
+from boto3.session import Session&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;创建签名URL的函数&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;URL签名说明详见：&lt;a href="https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html#websocket-url"&gt;https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html#websocket-url&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Python的实现示例：&lt;/p&gt; 
+&lt;p&gt;下列代码中主体函数是create_pre_signed_url，它将生成访问Streaming transcription 接口的URL，其中包括必要的参数和签名，它需要传入4个参数:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;参数region代表将要调用的Amazon Web Service Region。可查看Streaming支持的region，详见Docs链接的Amazon Transcribe Streaming部分（&lt;a href="https://docs.aws.amazon.com/general/latest/gr/transcribe.html"&gt;https://docs.aws.amazon.com/general/latest/gr/transcribe.html&lt;/a&gt;）&lt;/li&gt; 
+ &lt;li&gt;参数language_code, media_encoding, sample_rate是stream-transcription-websocket接口的参数，定义见https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html#websocket-url&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;def sign(key, msg):
+    return hmac.new(key, msg.encode("utf-8"), hashlib.sha256).digest()
+
+def getSignatureKey(key, dateStamp, region, serviceName):
+    kDate = sign(("AWS4" + key).encode("utf-8"), dateStamp)
+    kRegion = sign(kDate, region)
+    kService = sign(kRegion, serviceName)
+    kSigning = sign(kService, "aws4_request")
+    return kSigning
+
+def create_pre_signed_url(region, language_code, media_encoding, sample_rate):
+    # 获得access key和secret key
+    credentials = Session().get_credentials()
+    access_key_id = credentials.access_key
+    secret_access_key = credentials.secret_key
+
+    method = "GET"
+    service = "transcribe"
+    endpoint = "wss://transcribestreaming." + region + ".amazonaws.com:8443"
+    host = "transcribestreaming." + region + ".amazonaws.com:8443"
+    algorithm = "AWS4-HMAC-SHA256"
+
+    t = datetime.utcnow()
+    amz_date =t.strftime('%Y%m%dT%H%M%SZ')
+    datestamp =t.strftime('%Y%m%d')
+
+    canonical_uri = "/stream-transcription-websocket"
+
+    canonical_headers = "host:" + host + "\n"
+    signed_headers = "host"
+
+    credential_scope = datestamp + "/" + region + "/" + service + "/" + "aws4_request"
+
+    canonical_querystring = "X-Amz-Algorithm=" + algorithm
+    canonical_querystring += "&amp;amp;X-Amz-Credential=" + urllib.parse.quote_plus(access_key_id + "/" + credential_scope)
+    canonical_querystring += "&amp;amp;X-Amz-Date=" + amz_date
+    canonical_querystring += "&amp;amp;X-Amz-Expires=300"
+    canonical_querystring += "&amp;amp;X-Amz-SignedHeaders=" + signed_headers
+    canonical_querystring += "&amp;amp;language-code="+ language_code +"&amp;amp;media-encoding=" + media_encoding +"&amp;amp;sample-rate=" + sample_rate
+
+    # Zero length string for connecting
+    payload_hash = hashlib.sha256(("").encode('utf-8')).hexdigest()
+
+    canonical_request = method + '\n' \
+                        + canonical_uri + '\n' \
+                        + canonical_querystring + '\n' \
+                        + canonical_headers + '\n' \
+                        + signed_headers + '\n' \
+                        + payload_hash
+
+    string_to_sign = algorithm + "\n" \
+                     + amz_date + "\n" \
+                     + credential_scope + "\n" \
+                     + hashlib.sha256(canonical_request.encode("utf-8")).hexdigest()
+
+    signing_key = getSignatureKey(secret_access_key, datestamp, region, service)
+
+    signature = hmac.new(signing_key, string_to_sign.encode("utf-8"),
+                         hashlib.sha256).hexdigest()
+
+    canonical_querystring += "&amp;amp;X-Amz-Signature=" + signature
+
+    request_url = endpoint + canonical_uri + "?" + canonical_querystring
+
+    return request_url
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;编写main函数&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;下面代码中的loop_receiving和send_data函数，作用分别是从Amazon Transcribe Service接收消息，和向Amazon Transcribe Service发送消息。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;def main():
+    url = create_pre_signed_url("us-east-1", "en-US", "pcm", "16000")
+    ws = websocket.create_connection(url, sslopt={"cert_reqs": ssl.CERT_NONE})
+
+    _thread.start_new_thread(loop_receiving, (ws,))
+    print("Receiving...")
+    send_data(ws)
+
+    while True:
+        time.sleep(1)
+main()
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;编写loop_receiving函数&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;该函数位于main函数上方。它将接收Amazon Transcribe Streaming Service的返回数据，并且打印出来。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;def loop_receiving(ws):
+    try:
+        while True:
+            result = ws.recv()
+
+            if result == '':
+                continue
+
+            eventStreamBuffer = EventStreamBuffer()
+
+            eventStreamBuffer.add_data(result)
+            eventStreamMessage = eventStreamBuffer.next()
+
+            stream_payload = eventStreamMessage.payload
+
+            transcript = json.loads(bytes.decode(stream_payload, "UTF-8"))
+
+            print("response:",transcript)
+
+            results = transcript['Transcript']['Results']
+            if len(results)&amp;gt;0:
+                for length in range(len(results)):
+                    if 'IsPartial' in results[length]:
+                        print('IsPartial:', results[length]['IsPartial'])
+
+                    if 'Alternatives' in results[length]:
+                        alternatives = results[length]['Alternatives']
+                        if len(alternatives)&amp;gt;0:
+                            for sublength in range(len(alternatives)):
+                                if 'Transcript' in alternatives[sublength]:
+                                    print('Transcript:', alternatives[sublength]['Transcript'])
+
+
+    except Exception as e:
+        if 'WebSocketConnectionClosedException' == e.__class__.__name__:
+            print("Error: websocket connection is closed")
+        else:
+            print(f"Exception Name: {e.__class__.__name__}")
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;编写send_data函数&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;该函数位于main函数上方。它将发送音频数据到Amazon Transcribe Streaming Service。其中testFile变量是测试音频文件地址，测试音频为pem格式，英语，采样率为16000。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;def send_data(ws):
+
+    testFile = "xxx.pem"
+
+    bufferSize = 1024*16
+
+    stream_headers = {
+        ":message-type": "event",
+        ":event-type": "AudioEvent",
+        ":content-type": "application/octet-stream",
+    }
+
+    eventstream_serializer = EventStreamMessageSerializer()
+
+    with open(testFile, "rb") as source:
+        while True:
+            audio_chunk = source.read(bufferSize)
+            # 将音频数据进行编码
+            event_bytes = eventstream_serializer.serialize(stream_headers, audio_chunk)
+
+            ws.send(event_bytes, opcode = 0x2) # 0 x 2 send binary
+
+            # end with b'' data bytes
+            if len(audio_chunk) == 0:
+                break&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;&lt;/h2&gt; 
+&lt;h2&gt;结论&lt;/h2&gt; 
+&lt;p&gt;在这篇文章中，介绍了如何使用Python语言实现Transcribe Streaming的WebSocket协议，提供了Python的例子供参考，包括签名URL、数据编码、数据流的发送和接收等部分。完整代码见：https://github.com/xuemark/transcribe/blob/master/transcribe_streaming_websocket.py&lt;/p&gt; 
+&lt;h2&gt;参考资料&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/transcribe/latest/dg/what-is-transcribe.html"&gt;https://docs.aws.amazon.com/transcribe/latest/dg/what-is-transcribe.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/transcribe/latest/dg/streaming.html"&gt;https://docs.aws.amazon.com/transcribe/latest/dg/streaming.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html"&gt;https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://aws.amazon.com/transcribe"&gt;https://aws.amazon.com/transcribe&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://github.com/awslabs/amazon-transcribe-streaming-sdk"&gt;https://github.com/awslabs/amazon-transcribe-streaming-sdk&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/markxue.jpg" width="125"&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;薛召兵&lt;/h3&gt; 
+  &lt;p&gt;AWS解决方案架构师，负责帮助客户进行上云架构的设计和咨询。同时致力于AWS容器服务、媒体服务和机器学习服务在国内和全球商业客户的应用和推广，推进企业服务迁移上云进程。有10年以上的软件开发、售前技术支持、系统架构设计等经验。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
 		<title>基于 Nitro Enclave 构建安全的可信执行环境</title>
 		<link>https://aws.amazon.com/cn/blogs/china/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave/</link>
 				<pubDate>Thu, 02 Sep 2021 03:44:40 +0000</pubDate>
@@ -2403,378 +2655,6 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Marco Chiapusso&lt;/h3&gt; 
   &lt;p&gt;Marco Chiapusso 于 2020 年 1 月加入亚马逊云科技，担任欧洲、中东和非洲的解决方案架构经理。他与全球企业客户合作，共享云如何帮助他们提高速度和敏捷性，同时让他们能把更多的时间花在客户身上的最佳实践、技术和策略。在加入亚马逊云科技之前，Marco 担任了多个高级技术职位，领导并共同领导了多项大规模计划，将组织转变为技术赋能型现代公司。其中包括开发和部署一个拥有超过 1PB 数据的现代数据平台，从而提高客户洞察力，并大规模增强机器学习能力。Marco 在 Adidas 的经验和任期涉及多个领域，包括架构、开发、支持、数据、创新（包括 AI 和 IoT）以及组织发展。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>预处理日志以便在 Amazon ES 中进行异常检测</title>
-		<link>https://aws.amazon.com/cn/blogs/china/preprocess-logs-for-anomaly-detection-in-amazon-es-2/</link>
-				<pubDate>Tue, 31 Aug 2021 02:12:05 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Analytics]]></category>
-		<category><![CDATA[Amazon Elasticsearch Service*]]></category>
-
-		<guid isPermaLink="false">2cc55d31977ca5583f876f47cf0ac2e9c4c4acda</guid>
-				<description>Amazon Elasticsearch Service（Amazon ES）支持实时的异常检测，它使用机器学习（ML）主动检测实时流数据中的异常情况。当分析应用程序日志时，它可以用来检测例如异常高的错误率或请求数量的突然变化等异常状况。例如，来自特定地区的食品配送订单数量的突增可能是由于天气变化或该地区用户遇到技术故障造成的。发现这种异常情况可以促进对事件的快速调查和补救。</description>
-								<content:encoded>&lt;p&gt;&lt;a href="https://aws.amazon.com/elasticsearch-service/"&gt;Amazon Elasticsearch Service&lt;/a&gt;（Amazon ES）支持实时的异常检测，它使用机器学习（ML）主动检测实时流数据中的异常情况。当分析应用程序日志时，它可以用来检测例如异常高的错误率或请求数量的突然变化等异常状况。例如，来自特定地区的食品配送订单数量的突增可能是由于天气变化或该地区用户遇到技术故障造成的。发现这种异常情况可以促进对事件的快速调查和补救。&lt;/p&gt; 
-&lt;p&gt;Amazon ES 的异常检测功能使用 Random Cut Forest 算法。这是一种无监督学习算法，它通过数值类型的输入数据点构造决策树，以检测数据中的离群值，这些离群值被视为异常。为了检测日志中的异常情况，我们必须将基于文本的日志文件转换为数值，以便可以用此算法解释它们。在机器学习术语中，这种转换通常称为数据预处理。有很多种数据预处理方法可供使用，在这篇博文中，我将介绍了一些适合日志的方法。&lt;/p&gt; 
-&lt;p&gt;要实现本文中描述的方法，您需要一个将日志文件提取到 Amazon ES 域的日志聚合管道。有关提取 Apache Web 日志的信息，请参阅博客&lt;a href="https://aws.amazon.com/blogs/database/send-apache-web-logs-to-amazon-elasticsearch-service-with-kinesis-firehose/"&gt;使用 Kinesis Firehose 将 Apache Web 日志发送到 Amazon Elasticsearch Service&lt;/a&gt;。有关获取和分析&amp;nbsp;&lt;a href="http://aws.amazon.com/s3"&gt;Amazon Simple Storage Service&lt;/a&gt;&amp;nbsp;(Amazon S3) 服务器访问日志的类似方法，请参阅博客&lt;a href="https://aws.amazon.com/blogs/big-data/analyzing-amazon-s3-server-access-logs-using-amazon-es/"&gt;使用 Amazon ES 分析 Amazon S3 服务器访问日志&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;现在，让我们讨论一些在处理日志文件的复杂结构时可以使用的数据预处理方法。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;将行记录到&lt;/strong&gt;&lt;strong&gt; JSON 文档&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;尽管日志都是文本文件，但通常日志文件对日志消息有一些记录结构，例如每行有一个日志条目。如下图所示，可以解析日志文件中的一行并将其作为包含多个字段的文档存储在 Amazon ES 索引中。此图是如何将&amp;nbsp;&lt;a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html"&gt;Amazon S3 访问日志&lt;/a&gt;中的条目转换为 JSON 文档的示例。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;尽管您可以将 JSON 文档（例如上图）原样提取到 Amazon ES，但是某些文本字段需要进一步的预处理才能用于执行异常检测。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;定类型（&lt;/strong&gt;&lt;strong&gt;nominal）&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;假设您的应用程序收到的主要是 GET 请求，POST 请求的数量要少得多。根据&amp;nbsp;&lt;a href="https://owasp.org/www-community/attacks/Cross_Site_Tracing"&gt;OWASP 安全建议&lt;/a&gt;，也建议禁用 TRACE 和 TRACK 请求方法，因为这些方法可能被滥用于跨站点跟踪。如果您想检测服务器日志中何时出现异常的 HTTP 请求，或者先前数量通常很少的 HTTP 请求数何时出现激增，则可以使用上述 JSON 文档中的&amp;nbsp;request_uri&amp;nbsp;或&amp;nbsp;operation&amp;nbsp;字段。这些字段包含 HTTP 请求方法，但是您必须提取此类字段，然后将其转换为可用于异常检测的数值格式。&lt;/p&gt; 
-&lt;p&gt;这些字段只有少数不同的值，而且这些值没有任何特定的先后顺序。如果我们简单地将 HTTP 方法转换为有序的数字列表，例如 GET = 1、POST = 2 等，我们可能会令异常检测算法误以为 POST 比 GET 大，或 GET + GET 等于 POST。预处理这些字段的更好方法是&lt;a href="https://en.wikipedia.org/wiki/One-hot"&gt;独热编码（one-hot encoding）&lt;/a&gt;。这种方法是将单个文本字段转换为多个二进制字段，每个二进制字段代表原始文本字段的一种可能值。在我们的例子中，这种独热编码的结果是一组共九个二进制字段。如果原始日志中字段的值为 HEAD，则只有预处理数据中的 HEAD 字段的值为 1，而所有其他字段均为零。下表显示了一些示例。&lt;/p&gt; 
-&lt;table border="1" width="100%"&gt; 
- &lt;tbody&gt; 
-  &lt;tr&gt; 
-   &lt;td width="120"&gt;原始日志消息&lt;/td&gt; 
-   &lt;td colspan="9" width="428"&gt;预处理成多个独热编码字段&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="120"&gt;&lt;strong&gt;HTTP 请求方法&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="5"&gt;&lt;strong&gt;GET&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="41"&gt;&lt;strong&gt;HEAD&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="41"&gt;&lt;strong&gt;POST&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="33"&gt;&lt;strong&gt;PUT&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="54"&gt;&lt;strong&gt;DELETE&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="68"&gt;&lt;strong&gt;CONNECT&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="68"&gt;&lt;strong&gt;OPTIONS&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="50"&gt;&lt;strong&gt;TRACE&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="50"&gt;&lt;strong&gt;PATCH&lt;/strong&gt;&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="120"&gt;&lt;strong&gt;GET&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="5"&gt;1&lt;/td&gt; 
-   &lt;td width="41"&gt;0&lt;/td&gt; 
-   &lt;td width="41"&gt;0&lt;/td&gt; 
-   &lt;td width="33"&gt;0&lt;/td&gt; 
-   &lt;td width="54"&gt;0&lt;/td&gt; 
-   &lt;td width="68"&gt;0&lt;/td&gt; 
-   &lt;td width="68"&gt;0&lt;/td&gt; 
-   &lt;td width="50"&gt;0&lt;/td&gt; 
-   &lt;td width="50"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="120"&gt;&lt;strong&gt;POST&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="5"&gt;0&lt;/td&gt; 
-   &lt;td width="41"&gt;0&lt;/td&gt; 
-   &lt;td width="41"&gt;1&lt;/td&gt; 
-   &lt;td width="33"&gt;0&lt;/td&gt; 
-   &lt;td width="54"&gt;0&lt;/td&gt; 
-   &lt;td width="68"&gt;0&lt;/td&gt; 
-   &lt;td width="68"&gt;0&lt;/td&gt; 
-   &lt;td width="50"&gt;0&lt;/td&gt; 
-   &lt;td width="50"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="120"&gt;&lt;strong&gt;OPTIONS&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="5"&gt;0&lt;/td&gt; 
-   &lt;td width="41"&gt;0&lt;/td&gt; 
-   &lt;td width="41"&gt;0&lt;/td&gt; 
-   &lt;td width="33"&gt;0&lt;/td&gt; 
-   &lt;td width="54"&gt;0&lt;/td&gt; 
-   &lt;td width="68"&gt;0&lt;/td&gt; 
-   &lt;td width="68"&gt;1&lt;/td&gt; 
-   &lt;td width="50"&gt;0&lt;/td&gt; 
-   &lt;td width="50"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
- &lt;/tbody&gt; 
-&lt;/table&gt; 
-&lt;p&gt;然后，Amazon ES 异常检测功能可以处理这些生成的字段数据，以便在应用程序接收的 HTTP 请求模式发生变化时检测到异常情况，例如，数量异常高的 DELETE 请求。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;大量定类型&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;许多日志文件包含 HTTP 响应代码、错误代码或某些其他类型的数字代码。这些代码没有任何特定的顺序，但可能取值的数量相当大。在这种情况下，单独使用独热编码不合适，因为它可能导致预处理数据中的字段数量爆炸。&lt;/p&gt; 
-&lt;p&gt;以 HTTP 响应代码为例。这些值是无序的，这意味着并没有特别的理由将 200 设为 OK，400 设为错误请求。就 HTTP 响应代码而言，200 + 200 != 400。但是，字段可能的取值数量相当多 — 超过 60 个。如果我们使用独热编码技术，我们最终会在这 1 个字段中创建 60 多个字段，这会让数据迅速变得无法管理。&lt;/p&gt; 
-&lt;p&gt;然而，根据对 HTTP 状态代码的了解，我们知道这些代码从定义上可以分为五个范围。范围为 100–199 的代码是信息性响应，代码 200–299 表示成功完成请求，300–399 是重定向，400–499 是客户端错误，500–599 是服务器错误。我们可以利用这些知识，将原始值减少到五个值，每个范围一个值（1xx、2xx、3xx、4xx 和 5xx）。现在，这一组五个可能值更容易处理。这些值纯粹是名义的。因此，我们还可以按照上一节所述对这些值进行独热编码。在进行这样的归类和独热编码过程之后的结果类似下表。&lt;/p&gt; 
-&lt;table border="1" width="1247"&gt; 
- &lt;tbody&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;原始日志消息&lt;/td&gt; 
-   &lt;td colspan="5" width="355"&gt;在归类和独热编码后预处理成多个字段&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;HTTP 响应状态代码&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;&lt;strong&gt;1xx&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;&lt;strong&gt;2xx&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;&lt;strong&gt;3xx&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;&lt;strong&gt;4xx&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;&lt;strong&gt;5xx&lt;/strong&gt;&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;100（继续）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;101（切换协议）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;200（OK）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;202（已接受）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;301（永久移动）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;304（未修改）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;400（错误请求）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;401（未经授权）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;404（未找到）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;500（内部服务器错误）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;502（错误网关）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="245"&gt;&lt;strong&gt;503（服务不可用）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;0&lt;/td&gt; 
-   &lt;td width="71"&gt;1&lt;/td&gt; 
-  &lt;/tr&gt; 
- &lt;/tbody&gt; 
-&lt;/table&gt; 
-&lt;p&gt;此预处理的数据现在适用于异常检测。4xx 错误数量的上升或 2xx 响应数量的下降可能对检测特别重要。&lt;/p&gt; 
-&lt;p&gt;以下 Python 代码片段显示了如何对 HTTP 响应状态代码进行归类和独热编码：&lt;/p&gt; 
-&lt;pre&gt;&lt;code class="lang-python"&gt;def http_status_bin_one_hot_encoding(http_status):
-    # returns one hot encoding based on http response status bin
-    # bins are: 1xx, 2xx, 3xx, 4xx, 5xx
-    if 100 &amp;lt;= http_status &amp;lt;= 199: # informational responses
-        return (1, 0, 0, 0, 0)
-    elif 200 &amp;lt;= http_status &amp;lt; 299: # successful responses
-        return (0, 1, 0, 0, 0)
-    elif 300 &amp;lt;= http_status &amp;lt; 399: # redirects
-        return (0, 0, 1, 0, 0)
-    elif 400 &amp;lt;= http_status &amp;lt; 499: # client errors
-        return (0, 0, 0, 1, 0)
-    elif 500 &amp;lt;= http_status &amp;lt; 599: # server errors
-        return (0, 0, 0, 0, 1)
-
-http_1xx, http_2xx, http_3xx, http_4xx, http_5xx = http_status_bin_one_hot_encoding(status)
-
-log_entry = {
-    'timestamp': timestamp,
-    'bucket': "somebucket",
-    'key': "somekey",
-    'operation': "REST.GET.VERSIONING",
-    'request_uri': "GET /awsexamplebucket1?versioning HTTP/1.1",
-    'status_code': status,
-    'http_1xx': http_1xx,
-    'http_2xx': http_2xx,
-    'http_3xx': http_3xx,
-    'http_4xx': http_4xx,
-    'http_5xx': http_5xx,
-    'error_code': "-",
-    'bytes_sent': 113,
-    'object_size': 0
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;定序型（&lt;/strong&gt;&lt;strong&gt;ordinal）&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;日志文件中的某些文本字段包含具有相对顺序的值。例如，日志级别字段可能包含 TRACE、DEBUG、INFO、WARN、ERROR 和 FATAL 等值。这也是日志消息严重性递增的顺序。如下表所示，这些字符串值可以保留此相对顺序转换为数值。&lt;/p&gt; 
-&lt;table border="1"&gt; 
- &lt;tbody&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;日志级别（原始日志消息）&lt;/td&gt; 
-   &lt;td&gt;预处理的日志级别&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;TRACE&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;1&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;DEBUG&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;2&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;INFO&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;3&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;WARN&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;4&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;ERROR&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;5&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;FATAL&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;6&lt;/td&gt; 
-  &lt;/tr&gt; 
- &lt;/tbody&gt; 
-&lt;/table&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;IP 地址&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;日志文件通常具有可以包含大量值的 IP 地址，使用上一段中描述的方法将这些值分类到一起是没有意义的。但是，从地理位置的角度来看这些 IP 地址可能是有意义的。如果应用程序开始从不寻常的地理位置访问，这对检测异常情况可能非常重要。如果日志中没有直接提供国家/地区或城市代码等地理信息，则可以通过使用第三方服务对 IP 地址进行地理定位来获取此信息。实际上，这是将大量 IP 地址分类为少得多的国家/地区或城市代码的过程。尽管这些国家/地区和城市代码仍然是定类型数值，但它们可以与 Amazon ES 的基数（cardinality）汇总一起使用。&lt;/p&gt; 
-&lt;p&gt;在将这些预处理技术应用于示例 Amazon S3 服务器访问日志之后，我们将获得处理完成的 JSON 日志数据：&lt;/p&gt; 
-&lt;pre&gt;&lt;code class="lang-json"&gt;{
-    "bucket_owner": "", //string
-    "bucket": "awsexamplebucket1", //string
-    "timestamp": "06/Feb/2019:00:00:38 +0000",
-    "remote_ip": "192.0.2.3", //string
-    "country_code": 100, //numeric field generated during pre-processing
-    "requester": "", //string
-    "request_id": "3E57427F3EXAMPLE",
-    "operation": "REST.GET.VERSIONING",
-    "key": "-",
-    "request_uri": "GET /awsexamplebucket1?versioning HTTP/1.1",
-    "http_method_get": 1, //nine one-hot encoded fields generated during pre-processing
-    "http_method_post": 0,
-    "http_method_put": 0,
-    "http_method_delete": 0,
-    "http_method_head": 0,
-    "http_method_connect": 0,
-    "http_method_options": 0,
-    "http_method_trace": 0,
-    "http_method_patch": 0,
-    "http_status": 200,
-    "http_1xx": 0, //five one-hot encoded fields generated during pre-processing
-    "http_2xx": 1,
-    "http_3xx": 0,
-    "http_4xx": 0,
-    "http_5xx": 0,
-    "error_code": "-",
-    "bytes_sent": 113,
-    "object_size": "-",
-    "total_time": 7,
-    "turn_around_time": "-",
-    "referer": "-",
-    "user_agent": "S3Console/0.4",
-    "version_id": "-",
-    "host_id": "", //string
-    "signature_version": "SigV2",
-    "cipher_suite": "ECDHE-RSA-AES128-GCM-SHA256",
-    "authentication_type": "AuthHeader",
-    "host_header": "awsexamplebucket1.s3.us-west-1.amazonaws.com",
-    "tls_version": "TLSV1.1"
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;p&gt;这些数据现在可以被提取并索引到 Amazon ES 域中。设置日志预处理管道后，下一个要配置的是&lt;a href="https://opendistro.github.io/for-elasticsearch-docs/docs/ad/#step-1-create-a-detector"&gt;异常检测器&lt;/a&gt;。Amazon ES 异常检测允许您在单个异常检测器中指定最多五个&lt;a href="https://opendistro.github.io/for-elasticsearch-docs/docs/ad/#step-2-add-features-to-your-detector"&gt;特征&lt;/a&gt;（数据中的字段）。这意味着异常检测器可以根据最多五个字段的值来学习数据中的模式。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;聚合&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;需要为每个特征指定适当的聚合函数。这是因为异常检测器汇总了每个检测器间隔内提取的所有文档的值以产生单个聚合值，然后该值用作自动学习数据模式的算法的输入。下图描述了此过程。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;配置正确的特征和相应的聚合函数后，异常检测器开始初始化。在处理足够大量的数据后，检测器进入运行状态。&lt;/p&gt; 
-&lt;p&gt;为了帮助您开始对自己的日志进行异常检测，下表显示了可能对某些常见日志字段有意义的预处理技术和聚合函数。&lt;/p&gt; 
-&lt;table border="1" width="1247"&gt; 
- &lt;tbody&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;日志字段名称&lt;/td&gt; 
-   &lt;td&gt;预处理&lt;/td&gt; 
-   &lt;td&gt;聚合&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;HTTP 响应状态代码&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;独热编码&lt;/td&gt; 
-   &lt;td&gt;总和&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;客户端&lt;/strong&gt;&lt;strong&gt; IP 地址&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;将 IP 地理位置对应到国家/地区或城市代码&lt;/td&gt; 
-   &lt;td&gt;基数&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;日志消息级别（&lt;/strong&gt;&lt;strong&gt;INFO、WARN、ERR、FATAL 等）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;独热编码&lt;/td&gt; 
-   &lt;td&gt;总和&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;错误或异常名称&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;如果有大量可能的值，则映射到数字代码、额外的分类和独热编码&lt;/td&gt; 
-   &lt;td&gt;如果使用单个数字代码字段则用基数；如果使用独热编码则用总和&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;对象大小&lt;/strong&gt;&lt;strong&gt;/发送的字节/内容长度&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;无，使用数值本身&lt;/td&gt; 
-   &lt;td&gt;最小、最大、平均&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;要监控一般流量水平，您可以使用任何数值字段（如响应代码或发送的字节数）来计算每个检测器间隔的日志条目数&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;无，使用数值本身&lt;/td&gt; 
-   &lt;td&gt;count (value_count) — 只需计算在此字段中具有值的文档数&lt;/td&gt; 
-  &lt;/tr&gt; 
- &lt;/tbody&gt; 
-&lt;/table&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;结论&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;IT 团队可以使用 Amazon ES 的异常检测功能对应用程序和基础设施日志实施主动监控和警报。只需要基本脚本或编程技能就能够实现本文中讨论的日志预处理技术 — 无需对机器学习或数据科学有深入的了解。异常检测功能在运行 Elasticsearch 7.4 版或更高版本的 Amazon ES 域中可用。要开始使用，请参阅&amp;nbsp;&lt;a href="https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/ad.html"&gt;Amazon Elasticsearch Service 中的异常检测&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/kapilpen.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;Kapil Pendse&lt;/h3&gt; 
-  &lt;p&gt;Amazon Web Services（新加坡）的高级解决方案构架师，拥有超过 15 年的跨多个领域构建技术解决方案的经验，例如云计算、嵌入式系统和机器学习。在空闲时间，Kapil 喜欢沿着新加坡的沿海公园骑行，偶尔享受水獭的陪伴。&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
 										</item>

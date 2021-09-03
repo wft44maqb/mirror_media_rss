@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-03T03:46:19Z</updated>
+ <updated>2021-09-03T03:58:27Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59069724</id>
+  <title><![CDATA[中国挑战美国太阳能板关税  遭世贸组织驳回]]></title>
+  <updated>2021-09-03T03:29:00Z</updated>
+  <published>2021-09-03T03:29:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国挑战美国太阳能板关税-遭世贸组织驳回/a-59069724?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[世界贸易组织驳回了中国对美国限制太阳能电池板进口措施提起的诉讼，原因为何？]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59056855</id>
   <title><![CDATA[克里：气候议题不是地缘战略武器]]></title>
@@ -232,16 +242,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国驻美大使秦刚：中美应-排除干扰、聚焦合作/a-59050875?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国新任驻美大使秦刚表示，中国从来没有挑战和取代美国、称霸世界的野心，但他同时也敦促美方“不要触碰和挑战中方的红线”。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59050270</id>
-  <title><![CDATA[德外长: 即便恢复使馆 也不等于承认塔利班政权]]></title>
-  <updated>2021-09-01T11:23:00Z</updated>
-  <published>2021-09-01T11:23:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德外长-即便恢复使馆-也不等于承认塔利班政权/a-59050270?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[以美国为首的外国军队撤出阿富汗之后，塔利班重掌大权。国际层面都出现了哪些重要互动，塔利班得到承认的可能性是否存在？]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
