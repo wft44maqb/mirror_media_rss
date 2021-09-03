@@ -15,7 +15,7 @@
 	<atom:link href="https://atvnewsonline.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://atvnewsonline.com</link>
 	<description>东南亚</description>
-	<lastBuildDate>Fri, 03 Sep 2021 09:49:40 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 03 Sep 2021 09:55:46 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -31,6 +31,34 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">193609154</site>	<item>
+		<title>美国无人机空袭炸弹客误伤平民  阿富汗人要求道歉</title>
+		<link>https://atvnewsonline.com/world/24315/</link>
+		
+		<dc:creator><![CDATA[李毓琇]]></dc:creator>
+		<pubDate>Fri, 03 Sep 2021 10:10:00 +0000</pubDate>
+				<category><![CDATA[视频]]></category>
+		<category><![CDATA[国际]]></category>
+		<category><![CDATA[阿富汗]]></category>
+		<category><![CDATA[塔利班]]></category>
+		<guid isPermaLink="false">https://atvnewsonline.com/?p=24315</guid>
+
+					<description><![CDATA[美军在撤离前夕的空袭事件是否因为情报有误，而误伤平民，无论如何对痛失家人的阿富汗人来说，美国欠他们一个道歉。]]></description>
+										<content:encoded><![CDATA[
+<p>现场看到残破不堪，被炸得焦黑的车子，正是上星期四美军空袭喀布尔的残骸，这起爆炸事故不只是炸死了企图发动自杀式恐袭的炸弹客，但也伤及了当地的平民百姓，其中还包括这位年仅8岁的小男童。</p>
+
+
+
+<p>据 CNN报道美国的空袭造成10位喀布尔平民遇难，其中6名是孩童。遇难者的家属拉马尔要求美军道歉，并拿出实质证据，为何空袭要对准他们的家园。</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">24315</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/09/drone-strike-0309-cover.jpg</thumbnail><video>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/09/美国空袭阿富汗-0309.mp4</video>	</item>
+		<item>
 		<title>美联社：德州堕胎禁令将成下届选举关键</title>
 		<link>https://atvnewsonline.com/world/24242/</link>
 		
@@ -566,34 +594,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">24207</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/09/8274_1630484828000.jpg</thumbnail>	</item>
-		<item>
-		<title>数千示威者占据曼谷市中心  扬言天天示威直到巴育下台</title>
-		<link>https://atvnewsonline.com/asean/24225/</link>
-		
-		<dc:creator><![CDATA[蔡家维]]></dc:creator>
-		<pubDate>Fri, 03 Sep 2021 05:03:56 +0000</pubDate>
-				<category><![CDATA[视频]]></category>
-		<category><![CDATA[东南亚]]></category>
-		<category><![CDATA[泰国]]></category>
-		<category><![CDATA[泰国示威]]></category>
-		<category><![CDATA[红杉军]]></category>
-		<guid isPermaLink="false">https://atvnewsonline.com/?p=24225</guid>
-
-					<description><![CDATA[数千名示威者周四晚聚集在曼谷市中心，群情激昂地要求泰国首相巴育下台。]]></description>
-										<content:encoded><![CDATA[
-<p>尽管疫情严峻，但泰国反政府示威者周四（2日）再度上街，抗议政府防疫不力，要求首相巴育下台。</p>
-
-
-
-<p>抗议活动由前红衫军领袖发起，学生抗议团体代表也加入。发起人表示，每天傍晚将集结在曼谷的亚速路口，直到巴育下台为止。</p>
-
-
-
-<p>首相巴育和其余5名内阁部长，目前在国会面对不信任动议辩论，最终投票将于本周六进行。这也是巴育上任后第三次面对不信任动议。</p>
-]]></content:encoded>
-					
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">24225</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/09/thailand-protest.jpg</thumbnail><video>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/09/thailand-protest.mp4</video>	</item>
 	</channel>
 </rss>
