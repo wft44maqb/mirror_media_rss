@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 03 Sep 2021 11:03:32 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Sep 2021 11:08:23 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -43,6 +43,13 @@
             <pubDate>Fri, 03 Sep 2021 01:55:24 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[阿富汗戰爭：四位美國總統如何改變這個國家的命運]]></title>
+            <description><![CDATA[在過去的20年，四位美國總統共同見證了阿富汗戰爭。他們處理衝突的不同方式，體現出他們對美國價值觀和利益的獨特看法。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58436499?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58436499</guid>
+            <pubDate>Fri, 03 Sep 2021 11:06:23 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[塔利班、伊斯蘭國和基地組織有什麼分別]]></title>
             <description><![CDATA[塔利班、基地組織和伊斯蘭國都是伊斯蘭極端組織，但它們的目標和行事方式都十分不一樣，當中更互相有競爭。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/world-58421122?at_medium=RSS&amp;at_campaign=KARANGA</link>
@@ -62,13 +69,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58407717?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58407717</guid>
             <pubDate>Fri, 03 Sep 2021 02:07:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[達芬奇和他身邊的男人們：文藝復興巨匠鮮為人知的感情世界]]></title>
-            <description><![CDATA[達芬奇是世界藝術史上幾乎無人不曉的巨匠。不過，真正知道他為人的估計不多。近年來，一些新劇作開始把這位文藝復興大師的感情世界介紹給世人。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58423272?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58423272</guid>
-            <pubDate>Thu, 02 Sep 2021 19:01:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[拜登大規模刺激計劃密集上路，美國將再創輝煌還是加速沒落]]></title>
@@ -342,6 +342,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58341827?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58341827</guid>
             <pubDate>Thu, 26 Aug 2021 09:42:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[達芬奇和他身邊的男人們：文藝復興巨匠鮮為人知的感情世界]]></title>
+            <description><![CDATA[達芬奇是世界藝術史上幾乎無人不曉的巨匠。不過，真正知道他為人的估計不多。近年來，一些新劇作開始把這位文藝復興大師的感情世界介紹給世人。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58423272?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58423272</guid>
+            <pubDate>Thu, 02 Sep 2021 19:01:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[要小孩還是不要小孩？科學分析哪種人生選擇更「幸福」]]></title>
