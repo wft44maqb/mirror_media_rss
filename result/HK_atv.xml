@@ -15,7 +15,7 @@
 	<atom:link href="https://atvnewsonline.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://atvnewsonline.com</link>
 	<description>东南亚</description>
-	<lastBuildDate>Fri, 03 Sep 2021 04:52:43 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 03 Sep 2021 05:03:57 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -31,6 +31,35 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">193609154</site>	<item>
+		<title>数千示威者占据曼谷市中心  扬言天天示威直到巴育下台</title>
+		<link>https://atvnewsonline.com/asean/24225/</link>
+		
+		<dc:creator><![CDATA[蔡家维]]></dc:creator>
+		<pubDate>Fri, 03 Sep 2021 05:03:56 +0000</pubDate>
+				<category><![CDATA[视频]]></category>
+		<category><![CDATA[东南亚]]></category>
+		<category><![CDATA[泰国]]></category>
+		<category><![CDATA[泰国示威]]></category>
+		<category><![CDATA[红杉军]]></category>
+		<guid isPermaLink="false">https://atvnewsonline.com/?p=24225</guid>
+
+					<description><![CDATA[数千名示威者周四晚聚集在曼谷市中心，群情激昂地要求泰国首相巴育下台。]]></description>
+										<content:encoded><![CDATA[
+<p>尽管疫情严峻，但泰国反政府示威者周四（2日）再度上街，抗议政府防疫不力，要求首相巴育下台。</p>
+
+
+
+<p>抗议活动由前红衫军领袖发起，学生抗议团体代表也加入。发起人表示，每天傍晚将集结在曼谷的亚速路口，直到巴育下台为止。</p>
+
+
+
+<p>首相巴育和其余5名内阁部长，目前在国会面对不信任动议辩论，最终投票将于本周六进行。这也是巴育上任后第三次面对不信任动议。</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">24225</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/09/thailand-protest.jpg</thumbnail><video>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/09/thailand-protest.mp4</video>	</item>
+		<item>
 		<title>抗疫不力  日首相菅义伟拟辞职</title>
 		<link>https://atvnewsonline.com/world/24231/</link>
 		
@@ -610,30 +639,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">24174</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/09/ida-new-york-ap-3.jpeg</thumbnail>	</item>
-		<item>
-		<title>封城练出一手好本领   9岁儿童被称“多塞特郡的达芬奇”</title>
-		<link>https://atvnewsonline.com/world/24049/</link>
-		
-		<dc:creator><![CDATA[yewhui]]></dc:creator>
-		<pubDate>Fri, 03 Sep 2021 01:00:00 +0000</pubDate>
-				<category><![CDATA[视频]]></category>
-		<category><![CDATA[国际]]></category>
-		<category><![CDATA[封城]]></category>
-		<category><![CDATA[艺术]]></category>
-		<category><![CDATA[儿童画家]]></category>
-		<guid isPermaLink="false">https://atvnewsonline.com/?p=24049</guid>
-
-					<description><![CDATA[一张纸，一支笔，在年仅9岁的天才画家格林菲尔德的画笔下，一幅栩栩如生的肖像画就这样诞生。]]></description>
-										<content:encoded><![CDATA[
-<p>一张纸，一支笔，在年仅9岁的天才画家格林菲尔德的画笔下，一幅栩栩如生的肖像画就在他一笔一画之间慢慢成形。这全都是他在封城期间，所磨练出来的技巧。透过影片，一起来欣赏这个被誉为“多塞特郡达芬奇”的孩子，究竟有什么魅力及天分。</p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">24049</post-id><thumbnail>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/09/da-vinci-0209-cover.jpg</thumbnail><video>https://atvoss.oss-cn-hongkong.aliyuncs.com/wp-content/uploads/2021/09/达芬奇-0209.mp4</video>	</item>
 	</channel>
 </rss>

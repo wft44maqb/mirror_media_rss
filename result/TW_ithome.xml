@@ -6,6 +6,29 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>【記者觀察】特斯拉機器人是玩真的，還是講假的？</title>
+ <link>https://www.ithome.com.tw/news/146459</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;8月底一場Tesla AI Day技術大會上，特斯拉執行長馬斯克宣布將推出以AI為核心的通用人型機器人（Tesla Bot），更誇口一年內就能完成原型，引發不少熱議。但對於特斯拉從電動車跨足機器人，外界幾乎一面倒看衰， 認為他過於天真，甚至有些不切實際，把研發機器人這件事想的太簡單。&lt;/p&gt;
+&lt;p&gt;人稱科技狂人的馬斯克，過去幾年的確提出不少異想天開的構想，有些最後成真，也有些失敗。比如他先前曾提出超級高鐵（Hyperloop）的構想，就是個經常被檢驗的失敗例子，他原先計畫是要打造一條超高速運輸真空隧道來載送乘客，到後來完全偏離原來的構想，變成只是一個電動車專用的輸送隧道。&lt;/p&gt;
+&lt;p&gt;雖然有失敗，也有成真的例子，像是賣翻全球的特斯拉電動車和自駕電動車，一登場就顛覆了眾人原先對於汽車的想像，更讓電動車蔚為風潮，讓不少車廠反過來跟進。不僅如此，他與他的航太公司SpaceX更證明私人企業打造的太空船也能上太空，達成許多國家航太機構都未達到的成就，連NASA都找上門合作。這兩起，都是馬斯克從零經驗到成為產業領導指標的實例。&lt;/p&gt;
+&lt;p&gt;只是上太空、開自駕車還不夠，馬斯克已經預告了他接下來更遠大的構想，就是打造一個通用人型機器人，這個機器人能代替人類處理高危險、重覆或體力勞動的工作，還可以幫你跑腿買東西，就像是人類最好的助手。&lt;/p&gt;
+&lt;p&gt;雖說之前失敗的經驗，許多人懷疑特斯拉的機器人，只是噱頭，甚至有人質疑，這家公司意圖藉機器人轉移正遭監管機構調查的焦點，好分散眾人的注意力。但特斯拉不只舉辦這場活動，更在官網上公開將特斯拉機器人，列入企業重大發展項目，與AI及Autopilot自駕車系統研究並列。這家電動車公司更大動作&lt;a href=&quot;https://www.tesla.com/careers/search/?query=Robot&quot;&gt;招募機器人工程背景相關人才&lt;/a&gt;加入，要建立自己的人型機器人團隊。特斯拉已經開始動起來。&lt;/p&gt;
+&lt;p&gt;想當然爾，就算成立了機器人團隊，要讓這個科幻成真，也不是簡單的事，就連投入人型機器人技術研究已經10多年的Boston Dynamics都沒能做到，特斯拉憑什麼？&lt;/p&gt;
+&lt;p&gt;以技術而言，特斯拉過去沒有自己的機器人技術，而是具備自駕車開發技術，但從自駕車到開發人型機器人的過程，兩者之間確實有不少共通的關鍵技術，例如，機器人必須具備即時電腦視覺和精細路線規劃能力，而自駕車也同樣需要，甚至時速上百公里的自駕車需要的即時運算能力更高，才能根據周遭環境變化迅速反應，來調整車輛行駛路線與自動避障。Boston Dynamics研發跑酷機器人同樣用到了這樣AI技術。特斯拉用的更深更廣，靠著路上百萬輛特斯拉電動車至今累積高達1.5 PB（1PB等於1,000TB）的行駛數據，其中包含一百萬個10秒影像和60億個標註物件，用於訓練電腦視覺深度學習模型，還利用類神經網路模擬規畫出最佳化的行進路徑，讓AI的開車能力越來越好。&lt;/p&gt;
+&lt;p&gt;雖然還不清楚，自駕車研發經驗，能否完全套用到機器人身上，但用開發自駕車的技術來研發機器人，特斯拉試圖找出新方法，不走傳統機器人公司的開發方式，反而從另一條思路，運用這些年他們在自駕車建立的AI知識經驗及其技術，來解決當前機器人技術所面臨的難題。所以，特斯拉在同一天也發表了一個算力可達到9 petaFLOPS（每秒千兆次浮點運算）的AI訓練引擎系統，以便加快AI模型訓練建立機器人AI大腦。這是另一個用來訓練自駕車AI的技術，延伸到機器人開發的技術。&lt;/p&gt;
+&lt;p&gt;從商業角度來看，特斯拉在商業模式的創新，有機會為機器人產業注入新能量。尤其，機器人產業正面臨寒冬，多家公司相繼退場，因為這些機器公司，至今尚未找到真正可行的商業模式，甚至沒有足夠獲利支撐營運，來持續長期的研發，幾經易主的Boston Dynamics就是血淋淋的實例。&lt;/p&gt;
+&lt;p&gt;對身價高達7千億美元的特斯拉，就沒有這個問題，至少在資金上無後顧之憂，研發團隊更能專注於機器人研發設計，與其他競爭者相比，這是特斯拉的優勢。這家公司每年研發投入費用高達15億美元，相當於4百多億元臺幣，將是未來機器人研發的最大資金後盾。&lt;/p&gt;
+&lt;p&gt;不過，機器人開發不只燒錢，更耗時，所以，特斯拉選擇從現有自駕車解決方案中切入，找到跟機器人共通之處，包括硬體和軟體，來大幅縮短機器人開發時程。像在硬體部分，特斯拉打算把搭載於自駕電動車上的FSD（全自動輔助駕駛）硬體，直接或縮小放進機器人體內，FSD硬體具有每秒50兆次運算（TOPS） 的推論效能，相當於在身上裝了一個資料中心等級Nvidia Tesla P40 GPU運算加速器，足以作為機器人AI大腦，連頭部攝影鏡頭都與電動車用同一套，專門用於AI視覺處理。也因為是在幾乎相同的硬體平臺上做開發，使用的開發工具也都相同，特斯拉所想的是，讓他們的機器人訓練和AI學習經驗，往後同樣能回饋到自駕車上，獲得更好的運用。&lt;/p&gt;
+&lt;p&gt;特斯拉不只要做，從技術和商業模式來看，也極有能力可以做到，甚至有機會這把件事做得比現有機器人公司更好。&lt;/p&gt;
+&lt;p&gt;想要讓機器人能夠變聰明，不僅要累積足夠資料量，持續提供AI模型做訓練，還要在虛擬和實體環境持續驗證，讓機器人反覆學習應對不同任務場景，更大考驗是規模化，畢竟，特斯拉不是要做技術展示的機器人，而是要能夠商用，這是它與研究為主的跑酷或跳舞機器人最大不同，也是特斯拉機器人能否實現商用的關鍵。 &lt;/p&gt;
+&lt;p&gt;不論如何，特斯拉機器人的原型，最快明年就會亮相，到底馬斯克是玩真的，還是講假的，人型機器人構想能否成真，還是美夢一場，很快就可以見真章。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 05:03:04 +0000</pubDate>
+ <dc:creator>余至浩</dc:creator>
+ <guid isPermaLink="false">146459 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146459#comments</comments>
+</item>
+<item>
  <title>【首次栽種就成功的關鍵是達人經驗數位化】數位分身技術如何走進農漁業</title>
  <link>https://www.ithome.com.tw/news/146518</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;數位分身，這個製造業當紅的新興技術，也能在農業場域發揮作用。&lt;/p&gt;
@@ -206,23 +229,6 @@
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="false">146504 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146504#comments</comments>
-</item>
-<item>
- <title>美國FTC出手禁止跟蹤軟體SpyFone</title>
- <link>https://www.ithome.com.tw/news/146500</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.ftc.gov/news-events/press-releases/2021/09/ftc-bans-spyfone-and-ceo-from-surveillance-business&quot; target=&quot;_blank&quot;&gt;美國聯邦交易委員會（FTC）周三（9/1）宣布&lt;/a&gt;，將禁止跟蹤軟體業者SpyFone及其執行長Scott Zuckerman從事監控業務，指出SpyFone秘密蒐集及分享手機用戶的實際位置、手機的使用及網路活動，而且經常是在手機用戶不知情的狀態下。&lt;/p&gt;
-&lt;p&gt;跟蹤軟體通常是由監控人安裝在受害者的手機上，監控人可透過電子郵件或網路服務存取受害者的位置、通訊錄、簡訊，甚至是視訊內容，而且它會在背景運作，沒有圖示也沒有通知，美其名為家長用來監控兒童的程式，卻不時受到跟蹤狂或雇主的濫用。&lt;/p&gt;
-&lt;p&gt;2019年時曾有一波針對跟蹤軟體的掃盪行動，&lt;a href=&quot;https://www.ithome.com.tw/news/131934&quot; target=&quot;_blank&quot;&gt;當時Google移除了Google Play上的7款跟蹤軟體&lt;/a&gt;，&lt;a href=&quot;https://www.ithome.com.tw/news/133770&quot; target=&quot;_blank&quot;&gt;FTC出手禁售3款跟蹤軟體&lt;/a&gt;，更&lt;a href=&quot;https://www.ithome.com.tw/news/134367&quot; target=&quot;_blank&quot;&gt;有10個組織共同創立了「抵制跟蹤軟體聯盟」（Coalition Against Stalkerware）&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;至於SpyFone則是美國的跟蹤軟體開發商，縱使&lt;a href=&quot;https://www.spyfone.com/&quot; target=&quot;_blank&quot;&gt;其官網強調&lt;/a&gt;它是用來強化家庭的聯繫，也&lt;a href=&quot;https://www.spyfone.com/faq&quot; target=&quot;_blank&quot;&gt;特別註明&lt;/a&gt;為了抑制非法使用，它不但會在手機上出現圖示，每12個小時還會在手機上出現正在執行跟蹤軟體的訊息，以及自遠端所蒐集的資料內容等。&lt;/p&gt;
-&lt;p&gt;然而，FTC的調查卻發現，SpyFone要求買家繞過手機上的許多安全限制，還提供了指南，協助買家在手機上藏匿跟蹤軟體的蹤跡，以防受害者察覺。此外，有些功能必須在安裝軟體時破解手機，將增加手機的安全風險，或是失去裝置的保固。&lt;/p&gt;
-&lt;p&gt;FTC還批評SpyFone對於所蒐集的資料也未具備足夠的安全保護措施，例如所儲存的機密資料，不管是照片或文字簡訊都未加密，也沒有確保只有經過身分認證的使用者可存取這些機密資料，更以明文傳送買家的存取密碼。在2018年時，SpyFone曾遭到駭客入侵，約有2,200名買家的資料外洩，當時SpyFone曾承諾會與資安專家及執法機構合作展開調查，最後卻不了了之。&lt;/p&gt;
-&lt;p&gt;以上種種使得FTC委員無異議地通過表決，要求SpyFone刪除所有非法蒐集的資料，而且必須通知受害者自己遭到監控，不過此一命令必須經過30天的公眾意見收集之後，才會付諸實行。&lt;/p&gt;
-&lt;p&gt;值得注意的是，這類的跟蹤軟體幾乎都只有在Android平臺上，才能發揮全面的跟蹤功能，SpyFone所提供的付費服務全部都是針對Android裝置。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Thu, 02 Sep 2021 08:05:43 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146500 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146500#comments</comments>
 </item>
 </channel>
 </rss>
