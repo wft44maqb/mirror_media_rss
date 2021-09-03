@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=318&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>WhatsApp因違反GDPR遭愛爾蘭罰2.25億歐元</title>
+    <link>https://www.ithome.com.tw/news/146516</link>
+    <description> 愛爾蘭資料主管機關昨（2）日以臉書旗下通訊軟體WhatsApp未清楚告知消費者及企業用戶說明資料處理，違反了歐盟隱私法GDPR，宣布判罰WhatsApp 2.25億歐元（約74億臺幣）。</description>
+     <pubDate>2021-09-03  10:09:27</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146516</guid>
+  </item>
+  <item>
     <title>Qt Creator 5.0開始實驗性支援Docker容器</title>
     <link>https://www.ithome.com.tw/news/146515</link>
     <description> 跨平臺IDE Qt Creator最新版本5.0，距離上個版本4.15釋出已經一段時間，這次新增了不少重要的實驗性功能，包括使用clangd代替libclang成為C/C++程式碼模型後端，並且提供新的擴充套件，允許使用Linux主機和CMake作為建置系統的用戶，創建Docker裝置作為建置裝置。</description>
@@ -251,14 +259,6 @@ Google執行長Sundar Pichai指出，隨著今年稍早疫情好轉，有更多�
      <pubDate>2021-09-01  11:09:18</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146475</guid>
-  </item>
-  <item>
-    <title>Windows 11將在10月5日正式釋出，符合要求的硬體可免費升級</title>
-    <link>https://www.ithome.com.tw/news/146474</link>
-    <description> 一如媒體推測，微軟昨（31）日宣布下一代作業系統Windows 11，將從2021年10月5日正式公開釋出。微軟同時宣布配合推出的新款Windows 11電腦。</description>
-     <pubDate>2021-09-01  11:09:24</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146474</guid>
   </item>
   </channel>
 </rss>
