@@ -4,8 +4,32 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=410&amp;profile=rss20" rel="self" type="application/rss+xml" />
       <item>
+    <title>AWS更新S3智慧分層收費規則，同時開始提供EFS智慧分層功能</title>
+    <link>https://www.ithome.com.tw/news/146531</link>
+    <description> AWS在Storage Day 2021會議上發布了儲存服務更新，包括調整原本Amazon S3智慧分層功能（Intelligent-Tiering）處理短暫和小型物件的費用，並且在雲端檔案儲存服務</description>
+     <pubDate>2021-09-03  04:09:03</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146531</guid>
+  </item>
+  <item>
+    <title>英國兒童線上隱私法Age Appropriate Design Code正式生效，祭出最高4%的兒童隱私罰款</title>
+    <link>https://www.ithome.com.tw/news/146532</link>
+    <description> 英國兒童線上隱私法《Age Appropriate Design Code》（或簡稱Children&#039;s code）於今年的9月2日正式生效了，由於此一法令是奠基於GDPR，因此，違反相關法令的企業最高可能會被判罰全球年營收的4%，或是1,750萬英鎊。</description>
+     <pubDate>2021-09-03  03:09:00</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146532</guid>
+  </item>
+  <item>
+    <title>Check Point買下雲端電子郵件安全業者Avanan</title>
+    <link>https://www.ithome.com.tw/news/146530</link>
+    <description> 資安業者Check Point本周宣布，已買下雲端電子郵件安全業者Avanan，未來將把Avanan服務整合到Check Point Infinity架構中，提供各式的郵件保護服務。</description>
+     <pubDate>2021-09-03  03:09:04</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146530</guid>
+  </item>
+  <item>
     <title>微軟首度讓企業客戶測試Windows 10 21H2更新及Windows 11</title>
     <link>https://www.ithome.com.tw/news/146529</link>
     <description> 微軟昨（2）日宣布針對企業客戶釋出Windows 11以及Windows 10 21H2的測試版本。</description>
@@ -52,7 +76,7 @@
     <title>【記者觀察】特斯拉機器人是玩真的，還是講假的？</title>
     <link>https://www.ithome.com.tw/news/146459</link>
     <description> 8月下旬一場Tesla AI Day技術大會上，特斯拉執行長馬斯克宣布將推出以AI為核心的通用人型機器人（Tesla Bot），更誇口一年內就能完成原型，引發不少熱議。但對於特斯拉從電動車跨足機器人，外界幾乎一面倒看衰， 認為他過於天真，甚至有些不切實際，把研發機器人這件事想的太簡單。
-人稱科技狂人的馬斯克，過去幾年的確提出不少異想天開的構想，有些最後成真，也有些失敗。比如他先前曾提出超級高鐵（Hyperloop）的構想，就是個經常被檢驗的失敗例子，他原先計畫是要打造一條超高速運輸真空隧道來載送乘客，到後來完全偏離原來的構想，變成只是一個電動車專用的輸送隧道。</description>
+人稱科技狂人的馬斯克，過去幾年的確提出不少異想天開的構想，有些最後成真，也有些失敗。比如他先前曾提出超級高鐵（Hyperloop）的構想，就是個經常被檢驗的失敗例子，他原先計畫打造一條超高速運輸真空隧道來載送乘客，到後來完全偏離原來的構想，變成只是一個電動車專用的輸送隧道。</description>
      <pubDate>2021-09-03  01:09:04</pubDate>
  <dc:creator>余至浩</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146459</guid>
@@ -232,36 +256,6 @@
      <pubDate>2021-09-02  11:09:24</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146489</guid>
-  </item>
-  <item>
-    <title>永豐金證券靠API布局程式交易，用數據深化數位經營</title>
-    <link>https://www.ithome.com.tw/people/146399</link>
-    <description> 去年3月，臺灣證券市場全面實施盤中逐筆交易制度，從以往5秒一撮合的集合競價，改採逐筆即時撮合。不只讓成交回報的速度更快也更多，連帶行情報價資訊也跟著變快、變多。這項變革，對高頻交易與程式交易投資人，比如主力大戶或法人帶來很大的衝擊，這群投資人需要更快獲得交易資訊，才來進行整合或策略判斷。</description>
-     <pubDate>2021-09-02  07:09:00</pubDate>
- <dc:creator>李靜宜</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/people/146399</guid>
-  </item>
-  <item>
-    <title>畫分勢力範圍的K-means</title>
-    <link>https://www.ithome.com.tw/voice/146393</link>
-    <description> 如果有一組資料，沒有任何事先的分類標記，有辦法對它們進行分群（Clustering）嗎？呃……通靈比較快！想要分群，總是必須指定某些條件作為依據。
-而分群演算法有不少，入門時，常會先接觸到K-means分群，因為它概念上容易理解，實作上也不困難，在機器學習的領域，K-means演算被歸類在非監督式（unsupervised）學習，意即無需人類介入標記，也能自動分群。
-以距離來衡量勢力
-從結果來看，K-means分群時，確實是不需要標記，但它並不是沒有任何假設就能自動分群。</description>
-     <pubDate>2021-09-02  07:09:00</pubDate>
- <dc:creator>林信良</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/voice/146393</guid>
-  </item>
-  <item>
-    <title>資安一周第161期：首屆國際級工控資安評測結果出爐。美國白宮舉行資安高峰會</title>
-    <link>https://www.ithome.com.tw/news/146483</link>
-    <description> 8/26-9/1必看資安新聞
- 
-＃資安產業動態  ＃工控資安  ＃MITRE ATT&amp;amp;CK
-首屆國際級工控資安評測出爐，資策會也參與這項評估計畫</description>
-     <pubDate>2021-09-01  05:09:27</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146483</guid>
   </item>
   </channel>
 </rss>

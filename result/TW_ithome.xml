@@ -6,6 +6,50 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>AWS更新S3智慧分層收費規則，同時開始提供EFS智慧分層功能</title>
+ <link>https://www.ithome.com.tw/news/146531</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS在Storage Day 2021會議上發布了儲存服務更新，包括&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/amazon-s3-intelligent-tiering-further-automating-cost-savings-for-short-lived-and-small-objects/&quot;&gt;調整原本Amazon S3智慧分層功能（Intelligent-Tiering）&lt;/a&gt;處理短暫和小型物件的費用，並且在雲端檔案儲存服務&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/new-amazon-efs-intelligent-tiering-optimizes-costs-for-workloads-with-changing-access-patterns/&quot;&gt;Amazon EFS開始提供智慧分層功能&lt;/a&gt;，使EFS能夠根據工作負載的存取模式，最佳化儲存成本。&lt;/p&gt;
+&lt;p&gt;AWS在2018年的時候，在Amazon S3提供智慧分層功能，官方提到，由於跨業務部門和團隊，通常無法預測資料存取模式，而藉由S3智慧分層儲存類別，能存取模式變更時，移動資料存放的儲存層，來自動最佳化成本。現在AWS調整S3智慧分層，取消物件使用S3智慧分層時的最短儲存期限，並且不再對小於128 KB的物件收取監控和自動化費用。&lt;/p&gt;
+&lt;p&gt;目前S3智慧分層處理儲存至少30天，且大於128 KB的物件，由於S3智慧分層適用於共享資料集，而這些資料來自不同應用程式、團隊和個人，並且可被用於分析、機器學習、即時監控和其他資料湖用例，AWS提到，組織內許多用戶通常會在不到30天的時間，儲存廣泛物件並且刪除資料子集。&lt;/p&gt;
+&lt;p&gt;AWS提到，他們要讓S3智慧分層，更適用於未知、不斷變化，或是不可預測存取模式資料的理想儲存類別。從現在起，將不再對30天內刪除、轉換和覆蓋的物件按比例收費，而且也不會對小於128 KB的物件，收取監控和自動化費用，涵蓋S3智慧分層儲存類別中的新物件和舊物件。&lt;/p&gt;
+&lt;p&gt;S3中的短暫和小型物件應用智慧分層更便宜之外，AWS也開始在EFS服務提供智慧分層類別。目前Amazon EFS提供四種儲存類別，包括標準（Standard）和標準不頻繁存取（Standard-IA）類別，還有One Zone與One Zone不頻繁存取（One Zone-IA）類別。標準儲存類別可在多個可用區域（AZ）儲存資料，One Zone則只在單一可用區域冗餘儲存資料，價格比標準類別便宜47％，適用於不需要多可用區域存取的工作負載。&lt;/p&gt;
+&lt;p&gt;用戶透過EFS生命周期管理，可以將未存取的檔案移動到較便宜的不頻繁存取類別，以降低儲存成本，但是這需要用戶花費額外的管理成本，而且當誤把需要頻繁存取的檔案，放到不頻繁存取類別，則存取時需要支付額外的資料存取費用。&lt;/p&gt;
+&lt;p&gt;因此AWS現在於EFS加入智慧分層功能，這是一項新的EFS生命周期管理功能，能夠在資料存取模式發生變化時，自動調整資料儲存類別，以最佳化共享檔案的儲存成本，而當用戶重新存取被放置到不頻繁存取類別時，則檔案會被移動回標準或是One Zone儲存類別，用戶不會被收取資料存取費用，僅需支付轉換儲存類別費用。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 08:03:03 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146531 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146531#comments</comments>
+</item>
+<item>
+ <title>英國兒童線上隱私法Age Appropriate Design Code正式生效，祭出最高4%的兒童隱私罰款</title>
+ <link>https://www.ithome.com.tw/news/146532</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://ico.org.uk/for-organisations/guide-to-data-protection/ico-codes-of-practice/age-appropriate-design-a-code-of-practice-for-online-services/&quot; target=&quot;_blank&quot;&gt;英國兒童線上隱私法《Age Appropriate Design Code》（或簡稱Children&#039;s code）於今年的9月2日正式生效了&lt;/a&gt;，由於此一法令是奠基於GDPR，因此，違反相關法令的企業最高可能會被判罰全球年營收的4%，或是1,750萬英鎊。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0903-childrens-code%20ico%20uk.jpg&quot; style=&quot;width: 450px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_英國ICO&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Children&#039;s code的原則為採用最高等級的隱私保護，例如預設值必須關閉地理定位及個人檔案分析功能，也不應要求兒童提供不必要的個人資料，或者是暗示他們關閉隱私保護。該法令其實在去年就頒布了，只是英國政府提供了1年的寬限期，一直到今年的9月2日才強制實施。&lt;/p&gt;
+&lt;p&gt;此一法令適用於任何可能會被兒童存取的資訊社會服務（Information Society Services，ISS），涵蓋了行動程式、電腦軟體、搜尋引擎、社交平臺、傳訊或語音服務、線上市集、串流服務、線上遊戲，以及任何提供產品及服務予網路用戶的網站，或者是用來控制連網玩具或其它連網裝置的電子服務也算是ISS。換句話說，幾乎所有與網路相關的服務都將受到Children&#039;s code的牽制。&lt;/p&gt;
+&lt;p&gt;此外，就算不是針對18歲以下的兒童所設計的網路服務，但有機會被這個族群所存取，也可能受到Children&#039;s code的規範。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 07:52:00 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146532 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146532#comments</comments>
+</item>
+<item>
+ <title>Check Point買下雲端電子郵件安全業者Avanan</title>
+ <link>https://www.ithome.com.tw/news/146530</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.checkpoint.com/press/2021/check-point-software-technologies-acquires-avanan/?utm_source=cp-home&amp;amp;utm_medium=cp-website&quot; target=&quot;_blank&quot;&gt;資安業者Check Point本周宣布&lt;/a&gt;，已買下雲端電子郵件安全業者Avanan，未來將把Avanan服務整合到Check Point Infinity架構中，提供各式的郵件保護服務。&lt;/p&gt;
+&lt;p&gt;成立於2015年的Avanan定位為企業雲端郵件安全解決方案供應商，標榜可偵測及阻擋被郵件安全閘道器與進階威脅防護（Advanced Threat Protection）機制錯過的攻擊，還能根據每個組織使用郵件的習慣來打造客製化的威脅防護，並讓駭客無從得知組織是否採用了Avanan。&lt;/p&gt;
+&lt;p&gt;此外，Avanan所打造的API解決方案，可在惡意郵件抵達收件匣之前就封鎖它。目前Avanan約有100名員工，客戶數為5,000家，保護超過250萬個電子郵件信箱。&lt;/p&gt;
+&lt;p&gt;Check Point指出，電子郵件技術已從就地部署解決方案遷移至雲端，成功入侵企業網路的攻擊行動中，有高達95%源自魚叉式網釣郵件，可見捍衛電子郵件安全的重要性，結合Avanan的技術將可保護組織員工受到來自電子郵件、網站或終端的惡意檔案、惡意URL或網釣攻擊。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 07:35:04 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146530 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146530#comments</comments>
+</item>
+<item>
  <title>微軟首度讓企業客戶測試Windows 10 21H2更新及Windows 11</title>
  <link>https://www.ithome.com.tw/news/146529</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/windows-it-pro-blog/commercial-previews-for-windows-11-and-windows-10-version-21h2/ba-p/2676467&quot; target=&quot;_blank&quot;&gt;微軟昨（2）日宣布針對企業客戶釋出Windows 11以及Windows 10 21H2的測試版本&lt;/a&gt;。&lt;/p&gt;
@@ -117,7 +161,7 @@
  <title>【記者觀察】特斯拉機器人是玩真的，還是講假的？</title>
  <link>https://www.ithome.com.tw/news/146459</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;8月下旬一場Tesla AI Day技術大會上，特斯拉執行長馬斯克宣布將推出以AI為核心的通用人型機器人（Tesla Bot），更誇口一年內就能完成原型，引發不少熱議。但對於特斯拉從電動車跨足機器人，外界幾乎一面倒看衰， 認為他過於天真，甚至有些不切實際，把研發機器人這件事想的太簡單。&lt;/p&gt;
-&lt;p&gt;人稱科技狂人的馬斯克，過去幾年的確提出不少異想天開的構想，有些最後成真，也有些失敗。比如他先前曾提出超級高鐵（Hyperloop）的構想，就是個經常被檢驗的失敗例子，他原先計畫是要打造一條超高速運輸真空隧道來載送乘客，到後來完全偏離原來的構想，變成只是一個電動車專用的輸送隧道。&lt;/p&gt;
+&lt;p&gt;人稱科技狂人的馬斯克，過去幾年的確提出不少異想天開的構想，有些最後成真，也有些失敗。比如他先前曾提出超級高鐵（Hyperloop）的構想，就是個經常被檢驗的失敗例子，他原先計畫打造一條超高速運輸真空隧道來載送乘客，到後來完全偏離原來的構想，變成只是一個電動車專用的輸送隧道。&lt;/p&gt;
 &lt;p&gt;雖然有失敗，也有成真的例子，像是賣翻全球的特斯拉電動車和自駕電動車，一登場就顛覆了眾人原先對於汽車的想像，更讓電動車蔚為風潮，讓不少車廠反過來跟進。不僅如此，他與他的航太公司SpaceX更證明私人企業打造的太空船也能上太空，達成許多國家航太機構都未達到的成就，連NASA都找上門合作。這兩起，都是馬斯克從零經驗到成為產業領導指標的實例。&lt;/p&gt;
 &lt;p&gt;只是上太空、開自駕車還不夠，馬斯克已經預告了他接下來更遠大的構想，就是打造一個通用人型機器人，這個機器人能代替人類處理高危險、重覆或體力勞動的工作，還可以幫你跑腿買東西，就像是人類最好的助手。&lt;/p&gt;
 &lt;p&gt;雖說之前失敗的經驗，許多人懷疑特斯拉的機器人，只是噱頭，甚至有人質疑，這家公司意圖藉機器人轉移正遭監管機構調查的焦點，好分散眾人的注意力。但特斯拉不只舉辦這場活動，更在官網上公開將特斯拉機器人，列入企業重大發展項目，與AI及Autopilot自駕車系統研究並列。這家電動車公司更大動作&lt;a href=&quot;https://www.tesla.com/careers/search/?query=Robot&quot;&gt;招募機器人工程背景相關人才&lt;/a&gt;加入，要建立自己的人型機器人團隊。特斯拉已經開始動起來。&lt;/p&gt;
@@ -207,52 +251,6 @@
  <dc:creator>翁芊儒</dc:creator>
  <guid isPermaLink="false">146518 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146518#comments</comments>
-</item>
-<item>
- <title>HPE拿下NSA 20億美元GreenLake合約</title>
- <link>https://www.ithome.com.tw/news/146517</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.hpe.com/us/en/newsroom/press-release/2021/09/hewlett-packard-enterprise-wins-2b-hpe-greenlake-contract-with-the-national-security-agency.html&quot; target=&quot;_blank&quot;&gt;HPE本周宣布贏得美國國安局20億美元、長達10年的合約&lt;/a&gt;，以GreenLake產品部署高效能運算（High Performance Computing，HPC）架構執行AI及大量資料運算的任務。&lt;/p&gt;
-&lt;p&gt;GreenLake是HPE以服務形式銷售軟、硬體及服務的品牌，提供企業全代管的本地部署私有雲環境。利用HPE Green Lake的私有雲服務，NSA將可在代管HPC環境下，執行深度學習及人工智慧應用。&lt;/p&gt;
-&lt;p&gt;這份10年的GreenLake合約包含HPC及處理巨量資料專用的Apollo系統和ProLiant伺服器。同時，在雙方合約中，HPE打造支援NSA營運的GreenLake平臺，將代管在資料中心業者QTS的資料中心設施內。這套服務將於2022年啟用。&lt;/p&gt;
-&lt;p&gt;這也是HPE本月稍早公布&lt;a href=&quot;https://www.ithome.com.tw/news/146352&quot; target=&quot;_blank&quot;&gt;人事改組&lt;/a&gt;，成立專門服務部門力推GreenLake後宣布取得的大單。&lt;/p&gt;
-&lt;p&gt;另一方面，&lt;a href=&quot;https://www.datacenterdynamics.com/en/news/nsa-awards-secret-10bn-contract-to-aws-microsoft-files-challenge/&quot; target=&quot;_blank&quot;&gt;NSA上個月&lt;/a&gt;也發包了100億美元，名為WildandStormy的混合雲標案，由AWS取得。不過競爭者微軟告上法院，使本標案暫時被凍結。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 03:41:20 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146517 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146517#comments</comments>
-</item>
-<item>
- <title>WhatsApp因違反GDPR遭愛爾蘭罰2.25億歐元</title>
- <link>https://www.ithome.com.tw/news/146516</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;愛爾蘭資料主管機關昨（2）日以臉書旗下通訊軟體WhatsApp未清楚告知消費者及企業用戶說明資料處理，違反了歐盟隱私法GDPR，&lt;a href=&quot;https://edpb.europa.eu/our-work-tools/our-documents/binding-decision-board-art-65/binding-decision-12021-dispute-arisen_en&quot; target=&quot;_blank&quot;&gt;宣布判罰WhatsApp 2.25億歐元&lt;/a&gt;（約74億臺幣）。&lt;/p&gt;
-&lt;p&gt;2018年12月愛爾蘭資料保護委員會（Data Protection Commission，DPC）在接到投訴後啟動對WhatsApp愛爾蘭的調查。愛爾蘭當局指出，本案調查著眼在於個人及企業用戶資料在WhatsApp和臉書其他公司之間如何處理一事上，WhatsApp是否提供說明，以及資訊是否透明。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.reuters.com/technology/irish-data-privacy-watchdog-fines-whatsapp-225-mln-euros-2021-09-02/&quot; target=&quot;_blank&quot;&gt;路透社報導&lt;/a&gt;，原本愛爾蘭當局判罰金額為5000萬歐元，但在歐盟資料保護主管機關要求下，大幅提高到2.25億歐元。&lt;/p&gt;
-&lt;p&gt;此外，在歐盟的壓力下，愛爾蘭政府要求WhatsApp必須在3個月內，而非原本的6個月內修正資料處理措施。&lt;/p&gt;
-&lt;p&gt;WhatsApp官方發出聲明指出，該公司致力於確保用戶隱私，且2018年也提供用戶透明而完整的資訊，對判決結果表達不認同，此外，罰金之高也不符比例原則。WhatsApp也計畫再上訴。&lt;/p&gt;
-&lt;p&gt;本案罰金也是GDPR 2018年5月上路以來的第二高。最高的是&lt;a href=&quot;https://www.reuters.com/business/retail-consumer/amazon-hit-with-886-million-eu-data-privacy-fine-2021-07-30/&quot; target=&quot;_blank&quot;&gt;今年盧森堡政府對Amazon開罰的8.87億歐元&lt;/a&gt;（臺幣290億元）。&lt;/p&gt;
-&lt;p&gt;WhatsApp、IG作為臉書通訊平臺的一部分，令歐盟政府不滿臉書下各個平臺用戶資料互通用於發送個人化廣告。&lt;a href=&quot;https://www.ithome.com.tw/news/144349&quot; target=&quot;_blank&quot;&gt;5月德國資料主管機關下達命令&lt;/a&gt;，禁止臉書處理來自WhatsApp德國用戶的個資，也擬擴大結合歐盟其他國家一同抵制。&lt;/p&gt;
-&lt;p&gt;不光是GDPR，臉書還會有其他麻煩。臉書今年4月傳出5.3億用戶個資外洩事件，&lt;a href=&quot;https://www.ithome.com.tw/news/143664&quot; target=&quot;_blank&quot;&gt;歐盟隱私主管機關也在8月啟動調查&lt;/a&gt;是否包含GDPR上路後外洩的資料。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 02:32:27 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146516 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146516#comments</comments>
-</item>
-<item>
- <title>Qt Creator 5.0開始實驗性支援Docker容器</title>
- <link>https://www.ithome.com.tw/news/146515</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;跨平臺IDE Qt Creator最新版本&lt;a href=&quot;https://www.qt.io/blog/qt-creator-5.0-released&quot;&gt;5.0&lt;/a&gt;，距離上個版本4.15釋出已經一段時間，這次新增了不少重要的實驗性功能，包括使用clangd代替libclang成為C/C++程式碼模型後端，並且提供新的擴充套件，允許使用Linux主機和CMake作為建置系統的用戶，創建Docker裝置作為建置裝置。&lt;/p&gt;
-&lt;p&gt;Qt Creator 5.0重要的實驗性功能總共有兩項，第一項是用戶現在可以選用Clangd，作為C/C++程式碼模型後端，開發團隊提到，Clangd是用來取代基於libclang的程式碼模型，不過因為這項功能還在實驗階段，主要仍使用libclang，因此該功能預設關閉，用戶需要手動啟用。&lt;/p&gt;
-&lt;p&gt;另一個重要的實驗性功能，是支援在Docker容器中建置和執行應用程式，由於這項功能還在非常初期階段，目前僅支援使用CMake作為專案建置系統的Linux主機，用戶必須要先啟用實驗性擴充套件，才能在裝置中創建Docker裝置，並將其設置為建置裝置。&lt;/p&gt;
-&lt;p&gt;在程式碼編輯上，現在開發者重新命名欄位、區域變數和方法等程式碼識別符號，Qt Creator不會再自動選擇和專案沒有直接關係的檔案，像是Qt標頭檔案，即便這些檔案包含了重新命名的符號。而開發者對.ui和.scxml檔案的更改，現在則不需要重新編譯，就能立刻反映在程式碼模型中。&lt;/p&gt;
-&lt;p&gt;Qt Creator 5.0對裝置有更好的支援度，開發團隊除了增加對MSVC ARM工具鏈的支援外，還改進了在M1 Mac上執行Qt Creator英特爾版本的體驗，另外，現在Qt Creator也能夠正確處理Android 12。&lt;/p&gt;
-&lt;p&gt;Qt Creator從4.15版本之後，切換成語義版本控制架構，而Qt Creator 5.0是4.15來第一個更新版本，因此經歷較長的開發時間，官方提到，他們仍遵照增量開發風格，逐漸更新IDE，接下來6.0版本將會在年底發布。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 02:03:41 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146515 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146515#comments</comments>
 </item>
 </channel>
 </rss>
