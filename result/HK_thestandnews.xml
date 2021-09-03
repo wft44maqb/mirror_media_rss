@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-09-03T05:42:44.699Z</updated>
+    <updated>2021-09-03T05:47:46.924Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
@@ -238,42 +238,6 @@
         <published>2021-09-03T03:02:55.063Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【新變種】南美發現病毒株 Mu 　39 國出現　威脅有幾大？]]></title>
-        <id>https://www.thestandnews.com/%E5%81%A5%E5%BA%B7/ab-%E6%96%B0%E8%AE%8A%E7%A8%AE%E5%8D%97%E7%BE%8E%E7%99%BC%E7%8F%BE%E7%97%85%E6%AF%92%E6%A0%AA-mu-39-%E5%9C%8B%E5%87%BA%E7%8F%BE-%E5%A8%81%E8%84%85%E6%9C%89%E5%B9%BE%E5%A4%A7</id>
-        <link href="https://www.thestandnews.com/%E5%81%A5%E5%BA%B7/ab-%E6%96%B0%E8%AE%8A%E7%A8%AE%E5%8D%97%E7%BE%8E%E7%99%BC%E7%8F%BE%E7%97%85%E6%AF%92%E6%A0%AA-mu-39-%E5%9C%8B%E5%87%BA%E7%8F%BE-%E5%A8%81%E8%84%85%E6%9C%89%E5%B9%BE%E5%A4%A7"/>
-        <updated>2021-09-03T04:01:58.338Z</updated>
-        <summary type="html"><![CDATA[世衛本周一（30 日）公佈，將最先在哥倫比亞發現的 COVID-19 變種病毒株 Mu 列為「值得留意變種 (variant of interest) 」，稱其有一組突變令其對疫苗更有抵抗能力，需更多研究以進一步了解該病毒株。Mu 又稱為 B.1.621，現時已在 39 個國家出現。世衛指，初步數據表明， Mu 或利用類似變種病毒株 Beta 方式，逃避免疫防禦，但需要進一步研究證實說法。Mu …]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/Layer_1_copy.png"><figcaption><span>圖片素材來源：
-Alexander Krivitskiy, Quinten Braem @unsplash</span></figcaption></figure><p>世衛本周一（30&nbsp;日）公佈，將最先在哥倫比亞發現的 COVID-19 變種病毒株 Mu 列為「值得留意變種 (variant of interest) 」，稱其有一組突變令其對疫苗更有抵抗能力，需更多研究以進一步了解該病毒株。Mu 又稱為 B.1.621，現時已在 39 個國家出現。世衛指，初步數據表明， Mu 或利用類似變種病毒株 Beta 方式，逃避免疫防禦，但需要進一步研究證實說法。</p>
-
-<p>Mu 於 2021 年 1 月在哥倫比亞首次被發現。除了南美洲，英國、歐洲、美國和香港也報告了病例。雖然 Mu 在全球感染案例中所佔比例不到 0.1% ，但該病毒株在哥倫比亞和厄瓜多爾越來越流行，現時分別佔該兩國確診感染病例的 39% 和 13%。</p>
-
-<p>世衛表明，由於 Mu 與 Delta 共同傳播，將會監測疫情的變化。</p>
-
-<p>英國現時至少發現了 32 宗 Mu 的確診感染病例，感染模式表明是由旅客傳播。英國公共衛生部 7 月份的一份報告指，大多數病例是在倫敦和 20 多歲的人口中發現，部份人已經接種了一劑或兩劑疫苗。部門上月亦發佈了對 Mu 的風險評估，指 Mu 至少與 Beta一樣，對疫苗接種產生的免疫力具有抵抗力，但還需要其他實驗室研究和實際案例提供更多證據； Mu 構成的威脅有多大仍不明確，這將取決於病例在未來數周和幾個月內是否大幅增加。</p>
-
-<p>對 Mu 的部分擔憂，來自該病毒株攜帶的特定基因突變。例如與傳播更快有關、在英國首發現的 Alpha ，擁有的 P681H 突變，同樣在 Mu 出現。其他突變包括 E484K 和 K417N ，可能有助於病毒逃避免疫防禦，亦出現於 Mu 的基因組中。</p>
-
-<p><strong>專家：暫毋須過份憂慮</strong></p>
-
-<p>昆士蘭大學傳染病學及微生物學副較授 Paul Griffin 在 The Conversation 撰文指出，慶幸的是，雖然 Mu 自 2021 年 1 月起出現，但似乎並沒有在&nbsp;Delta 的競爭中勝出， Delta 仍是世上大部分地區的主要流行病毒株。他又指出，如果未來 Mu 的傳播增加甚至打敗 Delta ，就可能會由「值得留意變種 (variant of interest) ，升級至「值得關注變種 (variant of concern) 」。</p>
-
-<p>目前世衛將 4 個種 COVID-19 病毒株列為「值得關注變種」，這些病毒株被視為威脅較大，包括在本港曾發現的 Alpha 及 Delta ，另兩種為 Beta 與 Gamma 。至於「值得留意變種」，除 Mu 外還有 Eta 、 Iota 、 Kappa 與 Lambda 。</p>
-
-<p>Griffin 認為暫時毋須過份憂慮&nbsp;Mu ，因為演化論預測隨時間推移，病毒可能會變得更容易傳播，但不會造成嚴重病徵，因為病毒想要盡可能感染更多宿主，並且不想在可傳播至其他人之前殺死宿主。他又指出，對抗變異病毒株的最好方法是讓盡可能多的人接種疫苗，病毒繁殖和變異的易感宿主就會減少。</p>
-
-<p>來源：<br>
-<a href="https://www.theguardian.com/world/2021/sep/01/who-monitoring-new-coronavirus-variant-named-mu">The Guardian</a>, <a href="https://theconversation.com/whats-the-mu-variant-and-will-we-keep-seeing-more-concerning-variants-167183">The Conversation</a></p>
-
-<p>文／Alan Chiu</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="健康"/>
-        <published>2021-09-03T02:55:57.948Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[香港電台 1973 年以來六千多段影片已永存於區塊鏈]]></title>
         <id>https://www.thestandnews.com/technology/%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%8F%B0-1973-%E5%B9%B4%E4%BB%A5%E4%BE%86%E5%85%AD%E5%8D%83%E5%A4%9A%E6%AE%B5%E5%BD%B1%E7%89%87%E5%B7%B2%E6%B0%B8%E5%AD%98%E6%96%BC%E5%8D%80%E5%A1%8A%E9%8F%88</id>
         <link href="https://www.thestandnews.com/technology/%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%8F%B0-1973-%E5%B9%B4%E4%BB%A5%E4%BE%86%E5%85%AD%E5%8D%83%E5%A4%9A%E6%AE%B5%E5%BD%B1%E7%89%87%E5%B7%B2%E6%B0%B8%E5%AD%98%E6%96%BC%E5%8D%80%E5%A1%8A%E9%8F%88"/>
@@ -348,6 +312,42 @@ Alexander Krivitskiy, Quinten Braem @unsplash</span></figcaption></figure><p>世
         </author>
         <category label="科技"/>
         <published>2021-09-03T04:02:01.435Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【新變種】南美發現病毒株 Mu 　39 國出現　威脅有幾大？]]></title>
+        <id>https://www.thestandnews.com/%E5%81%A5%E5%BA%B7/ab-%E6%96%B0%E8%AE%8A%E7%A8%AE%E5%8D%97%E7%BE%8E%E7%99%BC%E7%8F%BE%E7%97%85%E6%AF%92%E6%A0%AA-mu-39-%E5%9C%8B%E5%87%BA%E7%8F%BE-%E5%A8%81%E8%84%85%E6%9C%89%E5%B9%BE%E5%A4%A7</id>
+        <link href="https://www.thestandnews.com/%E5%81%A5%E5%BA%B7/ab-%E6%96%B0%E8%AE%8A%E7%A8%AE%E5%8D%97%E7%BE%8E%E7%99%BC%E7%8F%BE%E7%97%85%E6%AF%92%E6%A0%AA-mu-39-%E5%9C%8B%E5%87%BA%E7%8F%BE-%E5%A8%81%E8%84%85%E6%9C%89%E5%B9%BE%E5%A4%A7"/>
+        <updated>2021-09-03T04:01:58.338Z</updated>
+        <summary type="html"><![CDATA[世衛本周一（30 日）公佈，將最先在哥倫比亞發現的 COVID-19 變種病毒株 Mu 列為「值得留意變種 (variant of interest) 」，稱其有一組突變令其對疫苗更有抵抗能力，需更多研究以進一步了解該病毒株。Mu 又稱為 B.1.621，現時已在 39 個國家出現。世衛指，初步數據表明， Mu 或利用類似變種病毒株 Beta 方式，逃避免疫防禦，但需要進一步研究證實說法。Mu …]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/Layer_1_copy.png"><figcaption><span>圖片素材來源：
+Alexander Krivitskiy, Quinten Braem @unsplash</span></figcaption></figure><p>世衛本周一（30&nbsp;日）公佈，將最先在哥倫比亞發現的 COVID-19 變種病毒株 Mu 列為「值得留意變種 (variant of interest) 」，稱其有一組突變令其對疫苗更有抵抗能力，需更多研究以進一步了解該病毒株。Mu 又稱為 B.1.621，現時已在 39 個國家出現。世衛指，初步數據表明， Mu 或利用類似變種病毒株 Beta 方式，逃避免疫防禦，但需要進一步研究證實說法。</p>
+
+<p>Mu 於 2021 年 1 月在哥倫比亞首次被發現。除了南美洲，英國、歐洲、美國和香港也報告了病例。雖然 Mu 在全球感染案例中所佔比例不到 0.1% ，但該病毒株在哥倫比亞和厄瓜多爾越來越流行，現時分別佔該兩國確診感染病例的 39% 和 13%。</p>
+
+<p>世衛表明，由於 Mu 與 Delta 共同傳播，將會監測疫情的變化。</p>
+
+<p>英國現時至少發現了 32 宗 Mu 的確診感染病例，感染模式表明是由旅客傳播。英國公共衛生部 7 月份的一份報告指，大多數病例是在倫敦和 20 多歲的人口中發現，部份人已經接種了一劑或兩劑疫苗。部門上月亦發佈了對 Mu 的風險評估，指 Mu 至少與 Beta一樣，對疫苗接種產生的免疫力具有抵抗力，但還需要其他實驗室研究和實際案例提供更多證據； Mu 構成的威脅有多大仍不明確，這將取決於病例在未來數周和幾個月內是否大幅增加。</p>
+
+<p>對 Mu 的部分擔憂，來自該病毒株攜帶的特定基因突變。例如與傳播更快有關、在英國首發現的 Alpha ，擁有的 P681H 突變，同樣在 Mu 出現。其他突變包括 E484K 和 K417N ，可能有助於病毒逃避免疫防禦，亦出現於 Mu 的基因組中。</p>
+
+<p><strong>專家：暫毋須過份憂慮</strong></p>
+
+<p>昆士蘭大學傳染病學及微生物學副較授 Paul Griffin 在 The Conversation 撰文指出，慶幸的是，雖然 Mu 自 2021 年 1 月起出現，但似乎並沒有在&nbsp;Delta 的競爭中勝出， Delta 仍是世上大部分地區的主要流行病毒株。他又指出，如果未來 Mu 的傳播增加甚至打敗 Delta ，就可能會由「值得留意變種 (variant of interest) ，升級至「值得關注變種 (variant of concern) 」。</p>
+
+<p>目前世衛將 4 個種 COVID-19 病毒株列為「值得關注變種」，這些病毒株被視為威脅較大，包括在本港曾發現的 Alpha 及 Delta ，另兩種為 Beta 與 Gamma 。至於「值得留意變種」，除 Mu 外還有 Eta 、 Iota 、 Kappa 與 Lambda 。</p>
+
+<p>Griffin 認為暫時毋須過份憂慮&nbsp;Mu ，因為演化論預測隨時間推移，病毒可能會變得更容易傳播，但不會造成嚴重病徵，因為病毒想要盡可能感染更多宿主，並且不想在可傳播至其他人之前殺死宿主。他又指出，對抗變異病毒株的最好方法是讓盡可能多的人接種疫苗，病毒繁殖和變異的易感宿主就會減少。</p>
+
+<p>來源：<br>
+<a href="https://www.theguardian.com/world/2021/sep/01/who-monitoring-new-coronavirus-variant-named-mu">The Guardian</a>, <a href="https://theconversation.com/whats-the-mu-variant-and-will-we-keep-seeing-more-concerning-variants-167183">The Conversation</a></p>
+
+<p>文／Alan Chiu</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="健康"/>
+        <published>2021-09-03T02:55:57.948Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[光復社會主義、革命時代來臨？]]></title>
@@ -438,34 +438,6 @@ Alexander Krivitskiy, Quinten Braem @unsplash</span></figcaption></figure><p>世
         <published>2021-09-03T03:10:49.260Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[iPhone 用戶指控 Siri 偷聽對話傳廣告商　美國法院受理訴訟]]></title>
-        <id>https://www.thestandnews.com/international/ab-iphone-%E7%94%A8%E6%88%B6%E6%8C%87%E6%8E%A7-siri-%E5%81%B7%E8%81%BD%E5%B0%8D%E8%A9%B1%E5%82%B3%E5%BB%A3%E5%91%8A%E5%95%86-%E7%BE%8E%E5%9C%8B%E6%B3%95%E9%99%A2%E5%8F%97%E7%90%86%E8%A8%B4%E8%A8%9F</id>
-        <link href="https://www.thestandnews.com/international/ab-iphone-%E7%94%A8%E6%88%B6%E6%8C%87%E6%8E%A7-siri-%E5%81%B7%E8%81%BD%E5%B0%8D%E8%A9%B1%E5%82%B3%E5%BB%A3%E5%91%8A%E5%95%86-%E7%BE%8E%E5%9C%8B%E6%B3%95%E9%99%A2%E5%8F%97%E7%90%86%E8%A8%B4%E8%A8%9F"/>
-        <updated>2021-09-03T03:15:39.538Z</updated>
-        <summary type="html"><![CDATA[很多人都遇過類似經歷：跟朋友聊天時提起過某個商品，不久後用手機上網時就會彈出有關商品的廣告。在美國，傳說已經成為真實訴訟個案。路透社報道，聯邦法官決定受理一宗控告蘋果的訴訟，原訴人指控 Siri 侵犯私隱，把他與別人的對話傳送給廣告商。美國地方法官 Jeffrey White 周四 (2 日)作出裁決，宣佈受理一宗關於蘋果手機 Siri 系統的訴訟。位於加州的案中原訴人指控，他與其醫生的私人對話…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/Layer_2_C9sVGWT.png"><figcaption><span>apple siri 系統</span></figcaption></figure><p>很多人都遇過類似經歷：跟朋友聊天時提起過某個商品，不久後用手機上網時就會彈出有關商品的廣告。在美國，傳說已經成為真實訴訟個案。路透社報道，聯邦法官決定受理一宗控告蘋果的訴訟，原訴人指控 Siri 侵犯私隱，把他與別人的對話傳送給廣告商。</p>
-
-<p>美國地方法官 Jeffrey White 周四 (2 日)作出裁決，宣佈受理一宗關於蘋果手機 Siri 系統的訴訟。位於加州的案中原訴人指控，他與其醫生的私人對話曾提及一個手術療程的品牌，導致他收到該療程的廣告。另有兩名原訴人指控，他們曾討論過 Air Jordan 波鞋和 &nbsp;Pit Viper 太陽鏡，導致他們收到這些產品的廣告。</p>
-
-<div><figure><img src="https://assets.thestandnews.com/media/photos/1_IidLm.png"><figcaption><span>資料圖片，來源：David Hurley @ Unsplash</span></figcaption></figure></div>
-
-<p><strong>法官：蘋果私隱設定誤導原訴人</strong></p>
-
-<p>法官裁定，原訴人可嘗試證明 Siri 恒常在意外啟動下記錄他們的私人對話，而蘋果會將這些對話傳給第三方，例如廣告商。法官認為蘋果誤導原訴人，並非基於原訴人對話的內容，而是蘋果的私隱設定足以顯示原訴人對私隱的合理期望。</p>
-
-<p>法官續指，原訴人可以引用聯邦《電子通訊私隱法》(Wiretap Act) 及加州私隱法例索償，亦可循違反合約方向起訴蘋果。不過法官指出，原訴人並未有證明他們蒙受經濟損失，因此原訴人有關不公平競爭的指控，未獲受理。</p>
-
-<p>據彭博報道，案中原訴人早在今年 2 月已入稟控告蘋果，當時法官並未受理案件，原因是原訴人未有充分展示 Siri 截取了他們的談話內容，但法官容許原訴人重新整理案情後再次入稟。本案中代表原訴人的律師行，也曾在今年 7 月入稟加州法院，控告 Google 的語音指令系統，理據與本案相同，同獲法院受理。</p>
-
-<p><a href="https://www.reuters.com/technology/apple-must-face-siri-voice-assistant-privacy-lawsuit-us-judge-2021-09-02/">路透社</a>&nbsp;、<a href="https://www.bloomberg.com/news/articles/2021-09-02/apple-must-face-claim-that-siri-violates-privacy-judge-rules?srnd=markets-vp">彭博</a></p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="國際"/>
-        <published>2021-09-03T03:11:48.560Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[曾處理馬家健冤案　前刑事檢控專員梁卓然　傳獲委任為暫委法官]]></title>
         <id>https://www.thestandnews.com/society/a_%E5%89%8D%E5%88%91%E4%BA%8B%E6%AA%A2%E6%8E%A7%E5%B0%88%E5%93%A1%E5%82%B3%E7%8D%B2%E5%A7%94%E4%BB%BB%E6%9A%AB%E5%A7%94%E6%B3%95%E5%AE%98-%E6%9B%BE%E5%82%B3%E5%87%BA%E8%88%87%E9%84%AD%E8%8B%A5%E9%A9%8A%E4%B8%8D%E5%92%8C</id>
         <link href="https://www.thestandnews.com/society/a_%E5%89%8D%E5%88%91%E4%BA%8B%E6%AA%A2%E6%8E%A7%E5%B0%88%E5%93%A1%E5%82%B3%E7%8D%B2%E5%A7%94%E4%BB%BB%E6%9A%AB%E5%A7%94%E6%B3%95%E5%AE%98-%E6%9B%BE%E5%82%B3%E5%87%BA%E8%88%87%E9%84%AD%E8%8B%A5%E9%A9%8A%E4%B8%8D%E5%92%8C"/>
@@ -497,6 +469,34 @@ Alexander Krivitskiy, Quinten Braem @unsplash</span></figcaption></figure><p>世
         </author>
         <category label="社會"/>
         <published>2021-09-03T02:30:13.305Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhone 用戶指控 Siri 偷聽對話傳廣告商　美國法院受理訴訟]]></title>
+        <id>https://www.thestandnews.com/international/ab-iphone-%E7%94%A8%E6%88%B6%E6%8C%87%E6%8E%A7-siri-%E5%81%B7%E8%81%BD%E5%B0%8D%E8%A9%B1%E5%82%B3%E5%BB%A3%E5%91%8A%E5%95%86-%E7%BE%8E%E5%9C%8B%E6%B3%95%E9%99%A2%E5%8F%97%E7%90%86%E8%A8%B4%E8%A8%9F</id>
+        <link href="https://www.thestandnews.com/international/ab-iphone-%E7%94%A8%E6%88%B6%E6%8C%87%E6%8E%A7-siri-%E5%81%B7%E8%81%BD%E5%B0%8D%E8%A9%B1%E5%82%B3%E5%BB%A3%E5%91%8A%E5%95%86-%E7%BE%8E%E5%9C%8B%E6%B3%95%E9%99%A2%E5%8F%97%E7%90%86%E8%A8%B4%E8%A8%9F"/>
+        <updated>2021-09-03T03:15:39.538Z</updated>
+        <summary type="html"><![CDATA[很多人都遇過類似經歷：跟朋友聊天時提起過某個商品，不久後用手機上網時就會彈出有關商品的廣告。在美國，傳說已經成為真實訴訟個案。路透社報道，聯邦法官決定受理一宗控告蘋果的訴訟，原訴人指控 Siri 侵犯私隱，把他與別人的對話傳送給廣告商。美國地方法官 Jeffrey White 周四 (2 日)作出裁決，宣佈受理一宗關於蘋果手機 Siri 系統的訴訟。位於加州的案中原訴人指控，他與其醫生的私人對話…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/Layer_2_C9sVGWT.png"><figcaption><span>apple siri 系統</span></figcaption></figure><p>很多人都遇過類似經歷：跟朋友聊天時提起過某個商品，不久後用手機上網時就會彈出有關商品的廣告。在美國，傳說已經成為真實訴訟個案。路透社報道，聯邦法官決定受理一宗控告蘋果的訴訟，原訴人指控 Siri 侵犯私隱，把他與別人的對話傳送給廣告商。</p>
+
+<p>美國地方法官 Jeffrey White 周四 (2 日)作出裁決，宣佈受理一宗關於蘋果手機 Siri 系統的訴訟。位於加州的案中原訴人指控，他與其醫生的私人對話曾提及一個手術療程的品牌，導致他收到該療程的廣告。另有兩名原訴人指控，他們曾討論過 Air Jordan 波鞋和 &nbsp;Pit Viper 太陽鏡，導致他們收到這些產品的廣告。</p>
+
+<div><figure><img src="https://assets.thestandnews.com/media/photos/1_IidLm.png"><figcaption><span>資料圖片，來源：David Hurley @ Unsplash</span></figcaption></figure></div>
+
+<p><strong>法官：蘋果私隱設定誤導原訴人</strong></p>
+
+<p>法官裁定，原訴人可嘗試證明 Siri 恒常在意外啟動下記錄他們的私人對話，而蘋果會將這些對話傳給第三方，例如廣告商。法官認為蘋果誤導原訴人，並非基於原訴人對話的內容，而是蘋果的私隱設定足以顯示原訴人對私隱的合理期望。</p>
+
+<p>法官續指，原訴人可以引用聯邦《電子通訊私隱法》(Wiretap Act) 及加州私隱法例索償，亦可循違反合約方向起訴蘋果。不過法官指出，原訴人並未有證明他們蒙受經濟損失，因此原訴人有關不公平競爭的指控，未獲受理。</p>
+
+<p>據彭博報道，案中原訴人早在今年 2 月已入稟控告蘋果，當時法官並未受理案件，原因是原訴人未有充分展示 Siri 截取了他們的談話內容，但法官容許原訴人重新整理案情後再次入稟。本案中代表原訴人的律師行，也曾在今年 7 月入稟加州法院，控告 Google 的語音指令系統，理據與本案相同，同獲法院受理。</p>
+
+<p><a href="https://www.reuters.com/technology/apple-must-face-siri-voice-assistant-privacy-lawsuit-us-judge-2021-09-02/">路透社</a>&nbsp;、<a href="https://www.bloomberg.com/news/articles/2021-09-02/apple-must-face-claim-that-siri-violates-privacy-judge-rules?srnd=markets-vp">彭博</a></p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="國際"/>
+        <published>2021-09-03T03:11:48.560Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【開卷樂】一趟生命的旅行 ─ 《綠皮火車》]]></title>
