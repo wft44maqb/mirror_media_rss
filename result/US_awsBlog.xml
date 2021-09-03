@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Fri, 03 Sep 2021 04:28:17 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 03 Sep 2021 04:30:44 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,6 +13,143 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>使用更具体的 Amazon VPC 路由检查子网到子网的流量</title>
+		<link>https://aws.amazon.com/cn/blogs/china/inspect-subnet-to-subnet-traffic-with-amazon-vpc-more-specific-routing/</link>
+				<pubDate>Fri, 03 Sep 2021 04:30:44 +0000</pubDate>
+		<dc:creator><![CDATA[Sébastien Stormacq]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+
+		<guid isPermaLink="false">308ee0fb555368909267bfb075f24cf12dbcb77e</guid>
+				<description>自 2019 年 12 月以来，Amazon Virtual Private Cloud（VPC）允许您将所有进站流量（也称为南北流量）路由到特定网络接口。您可能出于多种原因使用此功能。例如，使用入侵检测系统（IDS）设备检测进站流量或将进站流量路由到防火墙。</description>
+								<content:encoded>&lt;p&gt;自 2019 年 12 月以来，&lt;a title="" href="https://aws.amazon.com/vpc/"&gt;Amazon Virtual Private Cloud（VPC）&lt;/a&gt;允许您将所有进站流量（也称为&lt;a href="https://en.wikipedia.org/wiki/North-south_traffic"&gt;南北流量&lt;/a&gt;）路由到特定网络接口。您可能出于多种原因使用此功能。例如，使用入侵检测系统（IDS）设备检测进站流量或将进站流量路由到防火墙。&lt;/p&gt; 
+&lt;p&gt;自我们推出此功能以来，许多用户要求我们提供类似的功能来分析从一个子网流向 VPC 内的另一个子网的流量，也称为&lt;a href="https://en.wikipedia.org/wiki/East-west_traffic"&gt;东西流量&lt;/a&gt;。到今天为止，这仍然是不可能的，因为路由表中的路由不能比默认本地路由更具体（有关更多详细信息，请查看&amp;nbsp;&lt;a href="https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html"&gt;VPC 文档&lt;/a&gt;）。简单地说，这意味着任何一个路由的目标使用的 &lt;a href="https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing"&gt;CIDR&lt;/a&gt; 范围都不能小于默认本地路由（即整个 VPC 的 CIDR 范围）。例如，当 VPC 范围为 &lt;code&gt;10.0.0/16&lt;/code&gt; 且子网有 &lt;code&gt;10.0.1.0/24&lt;/code&gt; 时，通向 &lt;code&gt;10.0.1.0/24&lt;/code&gt; 的路由比通向 &lt;code&gt;10.0.0/16&lt;/code&gt; 的路由更具体。&lt;/p&gt; 
+&lt;p&gt;路由表不再有此限制。路由表中的路由可以有比默认本地路由更具体的路由。您可以使用此类更具体的路由将所有流量发送到专用设备或服务，以检测、分析或过滤两个子网之间的所有流量（东西流量）。路由目标可以是连接到您构建或购买的设备的网络接口（ENI）、出于性能或高可用性原因将流量分配到多个设备的 &lt;a href="https://aws.amazon.com/elasticloadbalancing/gateway-load-balancer/"&gt;AWS 网关负载均衡器&lt;/a&gt;（GWLB）终端节点、&lt;a title="" href="https://aws.amazon.com/firewall-manager/"&gt;AWS Firewall Manager&lt;/a&gt; 终端节点或 &lt;a href="https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html"&gt;NAT 网关&lt;/a&gt;。它还允许在子网和 &lt;a href="https://aws.amazon.com/transit-gateway/"&gt;AWS Transit Gateway&lt;/a&gt; 之间插入设备。&lt;/p&gt; 
+&lt;p&gt;可以将设备链接起来，以便在源子网和目标子网之间进行多种类型的分析。例如，您可能希望首先使用防火墙（AWS 托管防火墙或&lt;a href="https://aws.amazon.com/marketplace/solutions/security"&gt;第三方防火墙设备&lt;/a&gt;）筛选流量，然后将流量发送到&lt;a href="https://aws.amazon.com/marketplace/solutions/infrastructure-software/ids-ips"&gt;入侵检测和防御系统&lt;/a&gt;，最后，执行深度数据包检测。您可以从我们的 &lt;a href="https://aws.amazon.com/partners/"&gt;AWS 合作伙伴网络&lt;/a&gt;和 &lt;a href="https://aws.amazon.com/marketplace"&gt;AWS Marketplace&lt;/a&gt; 访问虚拟设备。&lt;/p&gt; 
+&lt;p&gt;链接设备时，每个设备和每个终端节点都必须位于单独的子网中。&lt;/p&gt; 
+&lt;p&gt;让我们动手试试这个新功能。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;工作原理&lt;/strong&gt;&lt;/span&gt;&lt;br&gt; 在本博客文章中，我们假设我有一个具有三个子网的 &lt;span title=""&gt;VPC&lt;/span&gt;。第一个子网是公有子网，有一个堡垒主机。它需要访问资源，例如 API 或第二个子网中的数据库。第二个子网是私有子网。它托管堡垒所需的资源。我写了&lt;a href="https://github.com/sebsto/cdkv2-vpc-example/blob/main/lib/specific-routing-demo-stack.ts"&gt;一个简单的 CDK 脚本&lt;/a&gt;来帮助您部署此设置。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/05/24/Slide1.png"&gt;&lt;img class="aligncenter wp-image-52363 size-large" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/05/24/Slide1-e1621855971954-1024x584.png" alt="更具体的 VPC 路由" width="1024" height="584"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;出于合规性原因，我们公司要求此私有应用程序的流量流经入侵检测系统。&lt;a href="https://github.com/sebsto/cdkv2-vpc-example/blob/main/lib/specific-routing-demo-stack.ts"&gt;CDK 脚本&lt;/a&gt;还创建了第三个子网（私有子网）来托管网络设备。它提供了三个 &lt;a title="" href="https://aws.amazon.com/ec2/"&gt;Amazon Elastic Compute Cloud（Amazon EC2）&lt;/a&gt;实例：堡垒主机、应用程序实例和网络分析设备。该脚本还创建了 NAT 网关，允许引导应用程序实例并使用 &lt;a title="" href="https://aws.amazon.com/systems-manager/"&gt;AWS Systems Manager&lt;/a&gt; Session Manager （SSM）连接到三个实例。&lt;/p&gt; 
+&lt;p&gt;因为这是一个演示，所以网络设备是配置为 IP 路由器的常规 Amazon Linux &lt;span title=""&gt;EC2&lt;/span&gt; 实例。在现实生活中，您可能要使用我们的合作伙伴在 &lt;a title="" href="https://aws.amazon.com/marketplace/"&gt;AWS Marketplace&lt;/a&gt; 上提供的众多设备之一，或者&lt;a href="https://aws.amazon.com/elasticloadbalancing/gateway-load-balancer/"&gt;网关负载均衡器&lt;/a&gt;终端节点或 Network Firewall。&lt;/p&gt; 
+&lt;p&gt;让我们修改路由表以通过设备发送流量。&lt;/p&gt; 
+&lt;p&gt;使用 &lt;a title="" href="https://console.aws.amazon.com"&gt;AWS 管理控制台&lt;/a&gt;或 &lt;a title="" href="https://aws.amazon.com/cli/"&gt;AWS 命令行界面（CLI）&lt;/a&gt;，我向 &lt;code&gt;10.0.0.0/24&lt;/code&gt; 和 &lt;code&gt;10.0.1.0/24&lt;/code&gt; 子网路由表添加了更具体的路由。这些路由指向 &lt;code&gt;eni0&lt;/code&gt;，即流量检测设备的网络接口。&lt;/p&gt; 
+&lt;p&gt;使用 CLI，我首先收集设备的 VPC ID、子网 ID、路由表 ID 和 ENI ID。&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-zsh"&gt;VPC_ID=$(aws                                                    \
+    --region $REGION cloudformation describe-stacks             \
+    --stack-name SpecificRoutingDemoStack                       \
+    --query "Stacks[].Outputs[?OutputKey=='VPCID'].OutputValue" \
+    --output text)
+echo $VPC_ID
+
+APPLICATION_SUBNET_ID=$(aws                                                                      \
+    --region $REGION ec2 describe-instances                                                      \
+    --query "Reservations[].Instances[] | [?Tags[?Key=='Name' &amp;amp;&amp;amp; Value=='application']].NetworkInterfaces[].SubnetId" \
+    --output text)
+echo $APPLICATION_SUBNET_ID
+
+APPLICATION_SUBNET_ROUTE_TABLE=$(aws                                                             \
+    --region $REGION  ec2 describe-route-tables                                                  \
+    --query "RouteTables[?VpcId=='${VPC_ID}'] | [?Associations[?SubnetId=='${APPLICATION_SUBNET_ID}']].RouteTableId" \
+    --output text)
+echo $APPLICATION_SUBNET_ROUTE_TABLE
+
+APPLIANCE_ENI_ID=$(aws                                                                           \
+    --region $REGION ec2 describe-instances                                                      \
+    --query "Reservations[].Instances[] | [?Tags[?Key=='Name' &amp;amp;&amp;amp; Value=='appliance']].NetworkInterfaces[].NetworkInterfaceId" \
+    --output text)
+echo $APPLIANCE_ENI_ID
+
+BASTION_SUBNET_ID=$(aws                                                                         \
+    --region $REGION ec2 describe-instances                                                     \
+    --query "Reservations[].Instances[] | [?Tags[?Key=='Name' &amp;amp;&amp;amp; Value=='BastionHost']].NetworkInterfaces[].SubnetId" \
+    --output text)
+echo $BASTION_SUBNET_ID
+
+BASTION_SUBNET_ROUTE_TABLE=$(aws \
+ --region $REGION ec2 describe-route-tables \
+ --query "RouteTables[?VpcId=='${VPC_ID}'] | [?Associations[?SubnetId=='${BASTION_SUBNET_ID}']].RouteTableId" \
+ --output text)
+echo $BASTION_SUBNET_ROUTE_TABLE&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;接下来，我会添加两条更具体的路由。一条路由通过设备网络接口将来自堡垒公有子网的流量发送到应用程序私有子网。&amp;nbsp;第二条路由与路由回复的方向相反。它通过设备网络接口将更具体的流量从应用程序私有子网路由到堡垒公有子网。&amp;nbsp;感到困惑？ 让我们看看下图：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/05/24/illustration-1.png"&gt;&lt;img class="aligncenter wp-image-52368 size-large" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/05/24/illustration-1-1024x584.png" alt="更具体的 VPC 路由" width="1024" height="584"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;首先，让我们修改堡垒路由表：&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-zsh"&gt;aws ec2 create-route                                  \
+     --region $REGION                                 \
+     --route-table-id $BASTION_SUBNET_ROUTE_TABLE     \
+     --destination-cidr-block 10.0.1.0/24             \
+     --network-interface-id $APPLIANCE_ENI_ID&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;接下来，让我们修改应用程序路由表：&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-zsh"&gt;aws ec2 create-route                                  \
+    --region $REGION                                  \
+    --route-table-id $APPLICATION_SUBNET_ROUTE_TABLE  \
+    --destination-cidr-block 10.0.0.0/24              \
+    --network-interface-id $APPLIANCE_ENI_ID&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;我还可以使用 Amazon VPC 控制台进行这些修改。只需从 Routes (路由) 选项卡中选择“Bastion”(堡垒) 路由表，然后单击 Edit routes (编辑路由) 即可。&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/05/26/2021-05-26_15-33-52.png"&gt;&lt;img class="aligncenter size-large wp-image-52421" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/05/26/2021-05-26_15-33-52-1024x584.png" alt="MSR：选择路由表" width="1024" height="584"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我添加了一个路由，用于将 &lt;code&gt;10.0.1.0/24&lt;/code&gt;（应用程序子网）的流量发送到设备 ENI（&lt;code&gt;eni-055...&lt;/code&gt;）。&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/05/26/2021-05-26_15-35-20.png"&gt;&lt;img class="aligncenter size-large wp-image-52422" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/05/26/2021-05-26_15-35-20-1024x494.png" alt="MSR：创建路由" width="1024" height="494"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;下一步是定义相反的回复路由，将 &lt;code&gt;10.0.0.0/24&lt;/code&gt; 的流量从应用程序子网发送到设备 ENI（&lt;code&gt;eni-05...&lt;/code&gt;）。&amp;nbsp;完成后，应用程序子网路由表应如下所示：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/05/26/2021-05-26_15-36-34.png"&gt;&lt;img class="aligncenter size-large wp-image-52423" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/05/26/2021-05-26_15-36-34-1024x559.png" alt="MSR：最终路由表" width="1024" height="559"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;配置设备实例&lt;/strong&gt;&lt;/span&gt;&lt;br&gt; 最后，我将设备实例配置为转发其接收的所有流量。您的软件设备通常会为您完成此操作。当您使用 &lt;a title="" href="https://aws.amazon.com/marketplace/"&gt;AWS Marketplace&lt;/a&gt; 设备或&lt;a href="https://github.com/sebsto/cdkv2-vpc-example/blob/main/lib/specific-routing-demo-stack.ts"&gt;我为此演示提供的 CDK 脚本&lt;/a&gt;创建的实例时，无需执行额外步骤。如果您使用的是普通 Linux 实例，请完成以下两个额外步骤：&lt;/p&gt; 
+&lt;p&gt;1.连接到 &lt;span title=""&gt;EC2&lt;/span&gt; 设备实例并在内核中配置 IP 流量转发：&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-zsh"&gt;sysctl -w net.ipv4.ip_forward=1
+sysctl -w net.ipv6.conf.all.forwarding=1
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;2.将 &lt;span title=""&gt;EC2&lt;/span&gt; 实例配置为接受除本身之外的其他目标的流量（称为&lt;a href="https://docs.aws.amazon.com/vpc/latest/userguide/VPC_NAT_Instance.html#EIP_Disable_SrcDestCheck"&gt;源/目标检查&lt;/a&gt;）：&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-zsh"&gt;APPLIANCE_ID=$(aws --region $REGION ec2 describe-instances                     \
+     --filter "Name=tag:Name,Values=appliance"                                 \
+     --query "Reservations[].Instances[?State.Name == 'running'].InstanceId[]" \
+     --output text)
+
+aws ec2 modify-instance-attribute --region $REGION     \
+                         --no-source-dest-check        \
+                         --instance-id $APPLIANCE_ID&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;测试设置&lt;/strong&gt;&lt;/span&gt;&lt;br&gt; 设备现已做好将流量转发到其他 &lt;span title=""&gt;EC2&lt;/span&gt; 实例的准备。&lt;/p&gt; 
+&lt;p&gt;如果您使用的是&lt;a href="https://github.com/sebsto/cdkv2-vpc-example"&gt;演示设置&lt;/a&gt;，则堡垒主机上未安装 SSH 密钥。通过 &lt;a title="" href="https://aws.amazon.com/systems-manager/"&gt;AWS Systems Manager&lt;/a&gt; Session Manager 进行访问。&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-zsh"&gt;BASTION_ID=$(aws --region $REGION ec2 describe-instances                      \
+    --filter "Name=tag:Name,Values=BastionHost"                               \
+    --query "Reservations[].Instances[?State.Name == 'running'].InstanceId[]" \
+    --output text)
+
+aws --region $REGION ssm start-session --target $BASTION_ID&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;连接到堡垒主机后，发出以下 &lt;code&gt;cURL&lt;/code&gt; 命令以连接到应用程序主机：&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-zsh"&gt;sh-4.2$ curl -I 10.0.1.239 # use the private IP address of your application host
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 24 May 2021 10:00:22 GMT
+Content-Type: text/html
+Content-Length: 12338
+Last-Modified: Mon, 24 May 2021 09:36:49 GMT
+Connection: keep-alive
+ETag: "60ab73b1-3032"
+Accept-Ranges: bytes&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;要验证流量是否真正流经设备，您可以再次对实例启用源/目标检查。将 &lt;code&gt;--source-dest-check&lt;/code&gt; 参数与上面的 &lt;code&gt;modify-instance-attribute&lt;/code&gt; CLI 命令一起使用。当源/目标检查启用时，流量将受阻。&lt;/p&gt; 
+&lt;p&gt;我还可以连接到设备主机并使用 &lt;code&gt;tcpdump&lt;/code&gt; 命令检测流量。&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-zsh"&gt;(on your laptop)
+APPLIANCE_ID=$(aws --region $REGION ec2 describe-instances     \
+                   --filter "Name=tag:Name,Values=appliance" \
+		   --query "Reservations[].Instances[?State.Name == 'running'].InstanceId[]" \
+  		   --output text)
+
+aws --region $REGION ssm start-session --target $APPLIANCE_ID
+
+(on the appliance host)
+tcpdump -i eth0 host 10.0.0.16 # the private IP address of the bastion host
+
+08:53:22.760055 IP ip-10-0-0-16.us-west-2.compute.internal.46934 &amp;gt; ip-10-0-1-104.us-west-2.compute.internal.http: Flags [S], seq 1077227105, win 26883, options [mss 8961,sackOK,TS val 1954932042 ecr 0,nop,wscale 6], length 0
+08:53:22.760073 IP ip-10-0-0-16.us-west-2.compute.internal.46934 &amp;gt; ip-10-0-1-104.us-west-2.compute.internal.http: Flags [S], seq 1077227105, win 26883, options [mss 8961,sackOK,TS val 1954932042 ecr 0,nop,wscale 6], length 0
+08:53:22.760322 IP ip-10-0-1-104.us-west-2.compute.internal.http &amp;gt; ip-10-0-0-16.us-west-2.compute.internal.46934: Flags [S.], seq 4152624111, ack 1077227106, win 26847, options [mss 8961,sackOK,TS val 4094021737 ecr 1954932042,nop,wscale 6], length 0
+08:53:22.760329 IP ip-10-0-1-104.us-west-2.compute.internal.http &amp;gt; ip-10-0-0-16.us-west-2.compute.internal.46934: Flags [S.], seq 4152624111, ack 1077227106, win 26847, options [mss &lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;清理&lt;/strong&gt;&lt;/span&gt;&lt;br&gt; 如果您使用了&lt;a href="https://github.com/sebsto/cdkv2-vpc-example/blob/main/lib/specific-routing-demo-stack.ts"&gt;我为此博文提供的 CDK 脚本&lt;/a&gt;，请务必在完成后运行 &lt;code&gt;cdk destroy&lt;/code&gt;，这样就无需为我用于此演示的三个 EC2 实例和 NAT 网关付费。在 &lt;code&gt;us-west-2&lt;/code&gt; 中运行演示脚本的&lt;a href="https://calculator.aws/#/estimate?id=a460f21b3c6a0e271aae860ce4482c02389747bd"&gt;费用&lt;/a&gt;为每小时 0.062 美元。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;span style="text-decoration: underline"&gt;注意事项。&lt;/span&gt;&lt;/strong&gt;&lt;br&gt; 在使用更具体的 &lt;span title=""&gt;VPC&lt;/span&gt; 路由时，请记住以下几点：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;您要向其发送流量的网络接口或服务终端节点必须位于专用子网中。它不能位于流量的源子网或目标子网中。&lt;/li&gt; 
+ &lt;li&gt;您可以将设备链接起来。每台设备必须位于其专用子网中。&lt;/li&gt; 
+ &lt;li&gt;您添加的每个子网都会占用一个 IP 地址块。&amp;nbsp;如果您使用的是 IPv4，请注意所用的 IP 地址数量（一个 /24 子网使用来自您的 VPC 的 256 个地址）。子网中允许的最小 CIDR 范围是 /28，它只使用 16 个 IP 地址。&lt;/li&gt; 
+ &lt;li&gt;设备的安全组必须有规则接受所需端口上的传入流量。同样，应用程序的安全组必须授权来自设备安全组或 IP 地址的流量。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;此新功能在所有 AWS 区域均可使用，无需额外付费。&lt;/p&gt; 
+&lt;p&gt;您可以立即开始使用。&lt;/p&gt;</content:encoded>
+										</item>
+		<item>
 		<title>Amazon Textract 更新：8 个亚马逊云科技区域的价格降幅达 32％，异步任务处理时间缩短近 50％</title>
 		<link>https://aws.amazon.com/cn/blogs/china/amazon-textract-updates-up-to-32-price-reduction-in-8-aws-regions-and-up-to-50-reduction-in-asynchronous-job-processing-times/</link>
 				<pubDate>Fri, 03 Sep 2021 04:28:17 +0000</pubDate>
@@ -2260,137 +2397,6 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Huong Nguyen&lt;/h3&gt; 
   &lt;p&gt;亚马逊云科技公司高级产品经理。她负责Amazon SageMaker Studio的用户体验工作。她在企业级及消费级领域拥有13年客户体验与数据驱动产品开发经验。在业余时间，她喜欢读书、享受自然风光和陪伴家人。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>如何注册成为亚马逊云科技 Marketplace海外区卖家</title>
-		<link>https://aws.amazon.com/cn/blogs/china/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace/</link>
-				<pubDate>Tue, 31 Aug 2021 03:38:57 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Marketplace]]></category>
-
-		<guid isPermaLink="false">6caba9bb2943867da8c579fee4e0fc54dae15eb7</guid>
-				<description>亚马逊云科技Marketplace(以下简称Marketplace)是一个提供甄选的数字化产品的平台，分海外区和中国区，产品类型包括AMI映像，CloudFormation Template，SaaS，容器，SageMaker等。Marketplace海外区是中国ISV (Independent Software Vendor)触达亚马逊云科技庞大的海外用户群，拓展海外业务的绝佳选择。为了能够上架产品，首先需要注册成为Marketplace海外区卖家。本文将介绍注册成为卖家的具体流程。</description>
-								<content:encoded>&lt;h2&gt;&lt;strong&gt;1. 概述&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;亚马逊云科技Marketplace(以下简称Marketplace)是一个提供甄选的数字化产品的平台，分海外区和中国区，产品类型包括AMI映像，CloudFormation Template，SaaS，容器，SageMaker，DataExchange，Professional Service等。Marketplace海外区是中国ISV (Independent Software Vendor)触达亚马逊云科技庞大的海外用户群，拓展海外业务的绝佳选择。为了能够上架产品，首先需要注册成为Marketplace海外区卖家。本文将介绍注册成为卖家的具体流程。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;2. 注册只售卖免费产品的卖家&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;如果您的产品是完全免费的，不收取用户任何软件费用，您和用户之间没有资金往来，您可以注册成为只售卖免费产品的卖家。&lt;a href="https://aws.amazon.com/marketplace/search/results?PRICING_MODEL=FREE&amp;amp;filters=PRICING_MODEL"&gt;Marketplace上的免费产品&lt;/a&gt;包括操作系统，开源软件等。具体注册步骤如下：&lt;/p&gt; 
-&lt;ol&gt; 
- &lt;li&gt;登录&lt;a href="https://aws.amazon.com/marketplace/partners/management-tour"&gt;Marketplace海外区主页&lt;/a&gt;，点击“Register Now”&lt;/li&gt; 
- &lt;li&gt;登录您用于注册卖家的亚马逊云科技账号&lt;/li&gt; 
- &lt;li&gt;登录后您会进入&lt;a href="https://aws.amazon.com/marketplace/management/homepage/"&gt;AWS Marketplace Management Portal(AMMP)&lt;/a&gt;，继续填写您的Public Profile，包括公司Logo，公司简称，主页，公司介绍等，这些信息将会对所有用户可见。&lt;/li&gt; 
- &lt;li&gt;提交后，即可完成注册。&lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; 
-&lt;h2&gt;&lt;strong&gt;3. 注册售卖收费产品的卖家&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;如果您的软件产品是Buy Your Own License(BYOL)或者在线收取用户的软件费用，都属于付费产品。要在Marketplace海外区售卖付费的产品，卖家的公司实体必须为以下&lt;a href="https://docs.aws.amazon.com/marketplace/latest/userguide/user-guide-for-sellers.html#eligible-jurisdictions"&gt;Eligible Location&lt;/a&gt;之一：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;Australia&lt;/li&gt; 
- &lt;li&gt;Bahrain&lt;/li&gt; 
- &lt;li&gt;European Union (EU) member state&lt;/li&gt; 
- &lt;li&gt;Hong Kong SAR&lt;/li&gt; 
- &lt;li&gt;Japan&lt;/li&gt; 
- &lt;li&gt;New Zealand&lt;/li&gt; 
- &lt;li&gt;Norway&lt;/li&gt; 
- &lt;li&gt;Qatar&lt;/li&gt; 
- &lt;li&gt;Switzerland&lt;/li&gt; 
- &lt;li&gt;United Arab Emirates (UAE)&lt;/li&gt; 
- &lt;li&gt;United Kingdom (UK)&lt;/li&gt; 
- &lt;li&gt;United States (US)&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;您在以下两个地方所设置的Location必须保持一致，且同时为以上Location之一。&lt;/p&gt; 
-&lt;ol&gt; 
- &lt;li&gt;Billing Console里的Location。&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://aws.amazon.com/marketplace/management/seller-settings/account"&gt;AWS Marketplace Management Portal&lt;/a&gt;里的location&lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;h3&gt;&lt;strong&gt;3.1 设置Billing Console里的Location&lt;/strong&gt;&lt;/h3&gt; 
-&lt;p&gt;基于用户在Billing Console里输入的信息，Amazon Web Service是基于以下逻辑来判断一个账号的location的：&lt;/p&gt; 
-&lt;p&gt;如果您公司实体所在国家有TRN (Tax Registration Number)，则在Billing Console的Tax Setting里填写TRN。后台会根据TRN所在国家决定Location。假如所在国家没有TRN (例如美国，日本，中国等)，则根据优先级，按以下逻辑判断：&lt;/p&gt; 
-&lt;ol&gt; 
- &lt;li&gt;如果Billing Address和所存档信用卡的location一致，则使用Billing Address的location。例如：绑定的美国信用卡，Billing Address也是在美国。那location就是美国。&lt;/li&gt; 
- &lt;li&gt;假如以上条件1不满足，且如果Contact Address和所存档信用卡的location一致，则使用Contact Address的location。&lt;/li&gt; 
- &lt;li&gt;假如以上条件1和2都不满足，则使用Billing Address的&lt;/li&gt; 
- &lt;li&gt;假如以上条件1、2和3都不满足，则使用Contact Address的&lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;p&gt;更多详细信息，请参考&lt;a href="https://aws.amazon.com/cn/tax-help/location/"&gt;https://aws.amazon.com/cn/tax-help/location/&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;3.1.1 设置TRN(Tax Registration Number) – 只对于有TRN的国家和地区适用&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;美国、日本、中国和香港地区没有TRN，不能进行设置。如果您的公司实体在这些国家和地区，请通过设置Billing Address和Contract Address来完成对location的设置。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;3.1.2 设置Billing Address&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;进入AWS控制台，点左侧导航栏的Payment Method，选中Billing Address，点Edit，修改地址为满足要求的location。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;3.1.3 设置Contact Address&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;点击控制台右上方的My Account，在Contact Information部分，点击Edit，修改Contact Address为满足要求的location。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h3&gt;&lt;strong&gt;3.2 设置AWS Marketplace Management Portal上的location&lt;/strong&gt;&lt;/h3&gt; 
-&lt;p&gt;注册成为marketplace卖家过程中，需要在AWS Marketplace Management Portal(AMMP)里设置公司实体相关信息。公司实体所在国家或区域必须和Billing Console里的保持一致，且也是&lt;a href="https://docs.aws.amazon.com/marketplace/latest/userguide/user-guide-for-sellers.html#eligible-jurisdictions"&gt;Eligible Location&lt;/a&gt;之一。&lt;/p&gt; 
-&lt;p&gt;以下是在AMMP中设置location的方法：&lt;/p&gt; 
-&lt;ol&gt; 
- &lt;li style="list-style-type: none"&gt; 
-  &lt;ol&gt; 
-   &lt;li&gt;登录您海外区Amazon Web Service账户，打开AMMP主页: &lt;a href="https://aws.amazon.com/marketplace/management"&gt;https://aws.amazon.com/marketplace/management&lt;/a&gt;&lt;/li&gt; 
-   &lt;li&gt;点击上方的Setting&lt;/li&gt; 
-   &lt;li&gt;点击Payment Information标签页&lt;/li&gt; 
-   &lt;li&gt;设置Tax Information。在Tax Information中设置的国家,必须是&lt;a href="https://docs.aws.amazon.com/marketplace/latest/userguide/user-guide-for-sellers.html#eligible-jurisdictions"&gt;Eligible Location&lt;/a&gt; 之一，且和前面Billing Console中的国家或地区保持一致。&lt;/li&gt; 
-   &lt;li&gt;查看下图框4中显示的business location是否正确，如果不正确，请返回AWS Billing Console，参考1节的内容进行设置。&lt;/li&gt; 
-   &lt;li&gt;假如所有的设置都正确，在框五中，会显示“Publish paid and free products”。表示该卖家可以售卖付费产品。&lt;/li&gt; 
-  &lt;/ol&gt; &lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h3&gt;&lt;strong&gt;3.3 在AWS Marketplace Management Portal里设置用于接收软件售卖款的美国银行账户&lt;/strong&gt;&lt;/h3&gt; 
-&lt;p&gt;卖家需要设置一个银行账户，用于接收售卖软件所得款，Marketplace要求这个账号必须是美国银行账户。如果没有实体的美国银行账户，用户可以通过与Maketplace有合作关系的HyperWallet开通虚拟美国银行账户。在HyperWallet里绑定自己美国之外的银行账户，这样款会先进入HyperWallet的虚拟美国账户，然后再转给卖家在美国外的实体银行账户。具体开通方式如下：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;登录&lt;a href="https://aws.amazon.com/marketplace/management/homepage/"&gt;Amazon Marketplace Management Portal&lt;/a&gt;&lt;/li&gt; 
- &lt;li&gt;点Setting。点页面下端的Payment Information标签，点Complete Banking Information&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;选项： Do you have a US bank account?&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;选：NO&lt;/li&gt; 
- &lt;li&gt;选项: Are you Register with HyperWallet Already?&amp;nbsp;&amp;nbsp;&amp;nbsp; 选: NO&lt;/li&gt; 
- &lt;li&gt;复制Pin Code, 点Sign Up For HyperWallet&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;跳转到hyperwallet，用pincode注册账号&lt;/li&gt; 
- &lt;li&gt;点add transfer method。选择从HyperWallet收款的银行账户所在国家。例如如果您有香港银行账户，请选 Hong Kong SAR China.&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;填写Account Information: bank code, branch code, account number。&lt;/li&gt; 
- &lt;li&gt;下面的address会自动填写。&lt;/li&gt; 
- &lt;li&gt;注意：Account Holder的公司名，必须和Bank account的公司名是一样的。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;香港的银行账户请注意：account number应该是9位数字。如果您的account number是8位数字，多数是内部账号，请咨询开户银行获取外部的9位数account number。如果您的account number是12位，请确认前3位是否为branch code。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;点submit。成功的话，系统返回HyperWallet创建的virtual US account。把文件保存好。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;回到AMMP里的Payment Information 页面，填写US Bank Account&lt;/li&gt; 
- &lt;li&gt;填写HyperWallet里所填的银行账号地址，前面保存的文件里也有。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;填写HyperWallet虚拟美国账户信息&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;点击提交即可&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;当您完成以上设置后，您就可以在AMMP里创建相应的付费产品，开始产品上架流程了。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/hanliang.png" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;韩亮&lt;/h3&gt; 
-  &lt;p&gt;AWS Marketplace技术客户经理&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
 										</item>
