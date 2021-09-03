@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-03T11:16:35Z</updated>
+ <updated>2021-09-03T11:19:40Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59073925</id>
+  <title><![CDATA[台海争议 立陶宛召回驻华大使]]></title>
+  <updated>2021-09-03T11:15:00Z</updated>
+  <published>2021-09-03T11:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/台海争议-立陶宛召回驻华大使/a-59073925?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[立陶宛9月3日表示，该国已召回驻北京大使，以便进行进一步协商。此前，立陶宛和台湾共同宣布，将在首都维尔纽斯设立台湾表处，而非像其他国家一样仅以“台北”名义开设办事处。北京将此举视作对“一个中国”政策的挑战。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59073515</id>
+  <title><![CDATA[太平洋海底电缆 美中争霸新赛场]]></title>
+  <updated>2021-09-03T11:04:00Z</updated>
+  <published>2021-09-03T11:04:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/太平洋海底电缆-美中争霸新赛场/a-59073515?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[太平洋岛国密克罗尼西亚联邦的消息人士向路透社透露，该国将运用美国资金来修建一条海底通信光缆。此前，密克罗尼西亚拒绝了一个有中资企业牵头的海缆建设提案，原因是美国官员表达了对安全问题的担心。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59072513</id>
   <title><![CDATA[飓风洪灾重创美国东北部]]></title>
@@ -202,16 +222,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/谭德赛：我们请求中国给出这些数据/a-59060568?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[世界卫生组织秘书长谭德赛在柏林表示，新冠病毒溯源之所以政治化，是因为没有得到原始数据。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59057101</id>
-  <title><![CDATA[中国官媒称遭押加拿大商人偷拍中国军事装备]]></title>
-  <updated>2021-09-02T05:18:00Z</updated>
-  <published>2021-09-02T05:18:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国官媒称遭押加拿大商人偷拍中国军事装备/a-59057101?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国官媒《环球时报》1日发布独家报导，称斯帕弗曾多次拍摄中国军事装备照片与视频，并把影像提供给境外人士，而他是另一名加拿大人康明凯的重要情报关系人。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -455,16 +465,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59012745</id>
-  <title><![CDATA[为文化对话颁发歌德奖章]]></title>
-  <updated>2021-08-28T13:52:00Z</updated>
-  <published>2021-08-28T13:52:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/为文化对话颁发歌德奖章/a-59012745?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[8月28日是德国文学巨匠歌德的生日，歌德奖章的颁奖礼也定在这一天。今年的获奖者是喀麦隆社会经济学家贝尔、日本作曲家细川俊夫和中国舞蹈艺术家文慧。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59012730</id>
   <title><![CDATA[德语媒体：中国需要一个稳定的阿富汗]]></title>
   <updated>2021-08-28T13:52:00Z</updated>
@@ -473,6 +473,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：中国需要一个稳定的阿富汗/a-59012730?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[美军匆忙撤离阿富汗留下的烂摊子，到底由谁来收拾？《每日镜报》认为，中国必须有所行动，因为阿富汗局势稳定符合中国的战略利益。《皇冠报》则指出，中国如今嘲笑美国只是表面现象，实际上正在为伊斯兰极端势力抬头而惊恐万分。]]></summary>
   <category term="评论分析"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59012745</id>
+  <title><![CDATA[为文化对话颁发歌德奖章]]></title>
+  <updated>2021-08-28T13:52:00Z</updated>
+  <published>2021-08-28T13:52:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/为文化对话颁发歌德奖章/a-59012745?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[8月28日是德国文学巨匠歌德的生日，歌德奖章的颁奖礼也定在这一天。今年的获奖者是喀麦隆社会经济学家贝尔、日本作曲家细川俊夫和中国舞蹈艺术家文慧。]]></summary>
+  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59012656</id>
@@ -493,16 +503,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/气候预报：飓风艾达可能变得-极其危险/a-59011557?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[飓风艾达在古巴西部登陆时为1级，预计在到达美国墨西哥湾海岸时将增强至极其危险的4级。近日的一份报告警告说，全球变暖已经在各地引发环境灾难，我们将看到更多的极端天气事件。]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59000443</id>
-  <title><![CDATA[柏林的难题：中国]]></title>
-  <updated>2021-08-28T06:34:00Z</updated>
-  <published>2021-08-28T06:34:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林的难题：中国/a-59000443?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[有利可图的经济关系与体制竞争相冲突。德国里外难做人：其最强大的盟友和最重要的贸易伙伴——美国和中国——之间的冲突正方兴未艾。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59005240</id>
