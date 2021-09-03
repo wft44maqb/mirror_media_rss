@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 03 Sep 2021 17:12:25 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Sep 2021 17:22:43 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[如果2020隻是人類未來危機的預演]]></title>
+            <link><![CDATA[https://cn.nytimes.com/opinion/20210903/covid-pandemic-global-economy-politics/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[政治、金融和地緣政治的緊張局勢與全球性的自然衝擊交織，世界比以往任何時候都更加分裂，機能失調和治理失敗成為一個世界性的問題。<p><img src='https://static01.nyt.com/images/2021/09/01/opinion/sunday/01Tooze/01Tooze-articleLarge.jpg' alt=' Matt Chase'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Matt Chase</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>觀點與評論</category>
+            <dc:creator><![CDATA[ADAM TOOZE]]></dc:creator>
+            <pubDate>Fri, 03 Sep 2021 05:20:45 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210903/covid-pandemic-global-economy-politics/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[亞裔美國人終於有了屬於我們的超級英雄]]></title>
             <link><![CDATA[https://cn.nytimes.com/opinion/20210903/asian-americans-superheroes-shang-chi/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[THOMAS GIBBONS-NEFF]]></dc:creator>
             <pubDate>Tue, 31 Aug 2021 05:56:06 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210831/us-withdrawal-afghanistan-kabul/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[中國進一步限制未成年人打網遊，非節假日禁玩]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210831/china-online-games/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[根據新規，未成年人只能在週五、週末和節假日的晚上玩一小時網遊。政府表示將加強監管，以確保遊戲公司嚴格執行限制。近期中國出台了一系列與青少年有關的新規定。<p><img src='https://static01.nyt.com/images/2021/08/30/business/30china-games/merlin_157038159_40935234-24e5-41e2-b176-84b4926a56a4-articleLarge.jpg' alt='中國的兒童和青少年可以在週末和節假日的晚上每天玩一個小時的網路遊戲。 Wang Zhao/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Wang Zhao/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>中國的兒童和青少年可以在週末和節假日的晚上每天玩一個小時的網路遊戲。</p>                    ]]></description>
-            <category>中國</category>
-            <dc:creator><![CDATA[儲百亮]]></dc:creator>
-            <pubDate>Tue, 31 Aug 2021 04:22:01 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210831/china-online-games/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
