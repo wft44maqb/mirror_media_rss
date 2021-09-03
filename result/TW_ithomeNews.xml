@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/775" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/775</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/775" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>國家級駭客掀起新時代網路戰爭</title>
+    <link>https://www.ithome.com.tw/article/146526</link>
+    <description> 二○一七年六月二十七日，某件怪異而恐怖之事，開始在全世界的基礎設施中擴散開來。
+賓夕法尼亞州的一群醫院開始延遲手術、拒絕病患掛號。塔斯馬尼亞島的一家吉百利（Cadbury）巧克力工廠不再產出巧克力。製藥巨擘默克集團（Merck）不再生產治療人類乳突病毒的疫苗。
+不久，世界各港口的十七處貨櫃碼頭都無法運作，它們全都屬於世界最大的船舶公司──快桅集團（Maersk）。數萬輛載著貨櫃的十八輪大貨車，開始在這些港埠的入口大排長龍。大船遠道越洋而來，每一艘都載著數十萬個貨櫃，卻發現無人能夠卸貨。全世界緊密交織的自動化系統之重要環節，彷彿受害於某種吞噬腦部的病菌在全球發作，似乎自動忘記了運行方式。</description>
+     <pubDate>2021-09-03  02:09:00</pubDate>
+ <dc:creator>iThome</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/article/146526</guid>
+  </item>
+  <item>
     <title>日本農業轉型看上臺灣智慧農機技術，三大茶園AIoT技術落地靜岡實證最快明年產品化</title>
     <link>https://www.ithome.com.tw/news/146424</link>
     <description> 茶園管理也開始邁向規格化、機械化與數位化！資策會數位服務創新研究所從2018年起，與長生製茶廠、茶業改良場合作，開發了一套農機智慧管理系統，並導入長生製茶廠的代耕場域，提供農機設備的預測維修、駕駛行為追蹤以及茶園管理等三大功能。今年，這套系統更取得日本採茶機市佔達6成的農機企業落合刃物青睞，目前已經在日本展開跨國應用實證，最快明年就會啟動付費機制來販售。
@@ -252,14 +262,6 @@
      <pubDate>2021-09-01  03:09:10</pubDate>
  <dc:creator>李靜宜</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146481</guid>
-  </item>
-  <item>
-    <title>臉書開發的Go實體框架Ent已轉移至Linux基金會</title>
-    <link>https://www.ithome.com.tw/news/146482</link>
-    <description> 原本由臉書，在2019年所開發的開源Go實體框架Ent，已經成功轉移到Linux基金會下，使其在中立的開源生態系中快速發展，並培養使用者和社群。</description>
-     <pubDate>2021-09-01  03:09:37</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146482</guid>
   </item>
   </channel>
 </rss>
