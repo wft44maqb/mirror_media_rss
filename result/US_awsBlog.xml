@@ -45,7 +45,7 @@
 &lt;h2&gt;1. Nitro Enclave 介绍&lt;/h2&gt; 
 &lt;h3&gt;1.1 Nitro Enclave 基础介绍&lt;/h3&gt; 
 &lt;p&gt;Nitro Enclaves 是一项 Amazon EC2 功能，允许您从 Amazon EC2 实例创建隔离的执行环境，称为 enclave。 Enclave 是独立的、强化的且高度受限的虚拟机，基于 Nitro Hypervisor 虚拟化技术，确保父实例无法访问隔离的 vCPU 和 enclave 的内存。Enclave 没有持久存储、交互式访问或外部网络，仅支持与其父实例的安全 Socket 连接。 用户无法通过 SSH 进入 enclave，并且父实例的进程、应用程序或用户（root 或 admin）无法访问 enclave 内的数据和应用程序。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h3&gt;1.2 Attestation 证明文件&lt;/h3&gt; 
 &lt;p&gt;在 Nitro Enclave 中运行程序，除了隔离环境带来的私密性之外，还提供额外的安全特性，加密证明(Cryptographic Attestation)。Attestation 是 Enclave 用来证明其身份并与外部服务建立信任的过程，以及保证数据通信的安全。&lt;/p&gt; 
 &lt;p&gt;Attestation 的目的是根据在特定 enclave 中运行的代码和配置，证明 enclave 是值得信赖的实体。 Nitro Hypervisor 能够生成包含 enclave 详细信息的证明文档，包括 enclave 签名密钥、enclave 映像的哈希值、父实例 ID 的哈希值以及附加 IAM 角色的 ARN 的哈希值。&lt;/p&gt; 
@@ -74,7 +74,7 @@ cert = bytes .size (1..1024)       ; DER encoded certificate
 user_data = bytes .size (0..1024)
 pcr = bytes .size (32/48/64)       ; PCR content
 index = 0..31
-digest = &amp;quot;SHA384&amp;quot;
+digest = "SHA384"
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;p&gt;在 Attestation 证明文件中，包含了一个 Public Key，当 Enclave 程序向外部服务发起请求时，带上证明文件，外部应用可以利用该 Public Key，对需要返回 Enclave 的 Response 进行加密， Enclave 收到该 Response 后使用 Private Key 进行解密，确保数据在传输过程中不会被嗅探，且只有发起服务请求的 Enclave 才能解密该 Response。&lt;/p&gt; 
@@ -138,25 +138,25 @@ digest = &amp;quot;SHA384&amp;quot;
 &lt;/ul&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;{
-  &amp;quot;Version&amp;quot;: &amp;quot;2012-10-17&amp;quot;,
-  &amp;quot;Statement&amp;quot;: [{
-    &amp;quot;Sid&amp;quot; : &amp;quot;Enable enclave data processing&amp;quot;,
-    &amp;quot;Effect&amp;quot; : &amp;quot;Allow&amp;quot;,
-    &amp;quot;Principal&amp;quot; : {
-      &amp;quot;AWS&amp;quot; : &amp;quot;arn:aws:iam::123456789012:role/data-processing&amp;quot;
+  "Version": "2012-10-17",
+  "Statement": [{
+    "Sid" : "Enable enclave data processing",
+    "Effect" : "Allow",
+    "Principal" : {
+      "AWS" : "arn:aws:iam::123456789012:role/data-processing"
     },
-    &amp;quot;Action&amp;quot;: [
-      &amp;quot;kms:Decrypt&amp;quot;,
-      &amp;quot;kms:GenerateDataKey&amp;quot;,
-      &amp;quot;kms:GenerateRandom&amp;quot;
+    "Action": [
+      "kms:Decrypt",
+      "kms:GenerateDataKey",
+      "kms:GenerateRandom"
     ],
-    &amp;quot;Resource&amp;quot;: &amp;quot;*&amp;quot;,
-    &amp;quot;Condition&amp;quot;: {
-      &amp;quot;StringEqualsIgnoreCase&amp;quot;: {
-        &amp;quot;kms:RecipientAttestation:ImageSha384&amp;quot;:&amp;quot;EXAMPLE8abcdef7abcdef6abcdef5abcdef4abcdef3abcdef2abcdef1abcdef1abcdef0abcdef1abcdEXAMPLE&amp;quot;,
-        &amp;quot;kms:RecipientAttestation:PCR0&amp;quot;:&amp;quot;EXAMPLEbc2ecbb68ed99a13d7122abfc0666b926a79d5379bc58b9445c84217f59cfdd36c08b2c79552928702EXAMPLE&amp;quot;,
-        &amp;quot;kms:RecipientAttestation:PCR1&amp;quot;:&amp;quot;EXAMPLE050abf6b993c915505f3220e2d82b51aff830ad14cbecc2eec1bf0b4ae749d311c663f464cde9f718aEXAMPLE&amp;quot;, 
-        &amp;quot;kms:RecipientAttestation:PCR2&amp;quot;:&amp;quot;EXAMPLEc300289e872e6ac4d19b0b5ac4a9b020c98295643ff3978610750ce6a86f7edff24e3c0a4a445f2ff8EXAMPLE&amp;quot;
+    "Resource": "*",
+    "Condition": {
+      "StringEqualsIgnoreCase": {
+        "kms:RecipientAttestation:ImageSha384":"EXAMPLE8abcdef7abcdef6abcdef5abcdef4abcdef3abcdef2abcdef1abcdef1abcdef0abcdef1abcdEXAMPLE",
+        "kms:RecipientAttestation:PCR0":"EXAMPLEbc2ecbb68ed99a13d7122abfc0666b926a79d5379bc58b9445c84217f59cfdd36c08b2c79552928702EXAMPLE",
+        "kms:RecipientAttestation:PCR1":"EXAMPLE050abf6b993c915505f3220e2d82b51aff830ad14cbecc2eec1bf0b4ae749d311c663f464cde9f718aEXAMPLE", 
+        "kms:RecipientAttestation:PCR2":"EXAMPLEc300289e872e6ac4d19b0b5ac4a9b020c98295643ff3978610750ce6a86f7edff24e3c0a4a445f2ff8EXAMPLE"
       }
     }
   }]
@@ -168,23 +168,23 @@ digest = &amp;quot;SHA384&amp;quot;
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;# KMS Decrypt Request (New Recipient parameter)
 {
-   &amp;quot;CiphertextBlob&amp;quot;: blob,
-   &amp;quot;EncryptionAlgorithm&amp;quot;: &amp;quot;string&amp;quot;,
-   &amp;quot;EncryptionContext&amp;quot;: { 
-      &amp;quot;string&amp;quot; : &amp;quot;string&amp;quot; 
+   "CiphertextBlob": blob,
+   "EncryptionAlgorithm": "string",
+   "EncryptionContext": { 
+      "string" : "string" 
    },
-   &amp;quot;GrantTokens&amp;quot;: [ &amp;quot;string&amp;quot; ],
-   &amp;quot;Recipient&amp;quot;: { 
-      &amp;quot;AttestationDocument&amp;quot;: blob,
-      &amp;quot;KeyEncryptionAlgorithm&amp;quot;: &amp;quot;string&amp;quot;
+   "GrantTokens": [ "string" ],
+   "Recipient": { 
+      "AttestationDocument": blob,
+      "KeyEncryptionAlgorithm": "string"
    }
 }
 
 # KMS Decrypt Response (CiphertextForRecipient returned instead of Plaintext)
 {
-   &amp;quot;CiphertextForRecipient&amp;quot;: blob,
-   &amp;quot;EncryptionAlgorithm&amp;quot;: &amp;quot;string&amp;quot;,
-   &amp;quot;KeyId&amp;quot;: &amp;quot;string&amp;quot;,
+   "CiphertextForRecipient": blob,
+   "EncryptionAlgorithm": "string",
+   "KeyId": "string",
 }
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
@@ -196,7 +196,7 @@ digest = &amp;quot;SHA384&amp;quot;
  &lt;li&gt;通过 KMS 密钥策略，确保数据只能在特定的 Enclave 内部才能被解密&lt;/li&gt; 
 &lt;/ul&gt; 
 &lt;h3&gt;1.4 管理和开发 Nitro Enclave 应用&lt;/h3&gt; 
-&lt;p&gt;如果需要开发一个运行于 Enclave 中的应用，需要先将 Enclave 运行所需的代码，依赖包等打包成 Docker 镜像格式， 然后将 Docker 镜像转换成 Enclave 镜像 (.eif)，以启动 Enclave。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;如果需要开发一个运行于 Enclave 中的应用，需要先将 Enclave 运行所需的代码，依赖包等打包成 Docker 镜像格式， 然后将 Docker 镜像转换成 Enclave 镜像 (.eif)，以启动 Enclave。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;Nitro Enclave 提供一个命令行工具 Nitro-CLI，用来创建，部署和管理Enclave:&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-build-enclave.html"&gt;nitro-cli build-enclave&lt;/a&gt;: 将 Docker 镜像转换成 Enclave 镜像 (.eif文件)&lt;/li&gt; 
@@ -245,7 +245,7 @@ digest = &amp;quot;SHA384&amp;quot;
  &lt;li&gt;在 Enclave 中向 KMS 发送 API 请求时，带上证明文件&lt;/li&gt; 
  &lt;li&gt;KMS 服务配置密钥策略，将密钥的访问权限仅授予特定的 Enclave&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;私钥管理应用场景示例架构图和工作流如下：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;私钥管理应用场景示例架构图和工作流如下：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;首先创建一个 KMS Key，启动支持 Enclave 的两台 EC2 实例，分别创建和运行 Enclave，vsock 和 KMS Proxy。&lt;/p&gt; 
 &lt;ol&gt; 
  &lt;li&gt;在 Enclave-1 中通过 kms:GenerateRandom API 生成一个 256 位的私钥，利用私钥生成对应的公钥(ecdsa-p256k1)&lt;/li&gt; 
@@ -261,8 +261,8 @@ digest = &amp;quot;SHA384&amp;quot;
 &lt;h3&gt;2.1 基础环境部署&lt;/h3&gt; 
 &lt;h4&gt;2.1.1 启动两台 EC2 实例，安装依赖包&lt;/h4&gt; 
 &lt;p&gt;首先创建 EC2 及 Enclave 程序所需的 IAM Role，至少需要具备 DynamoDB 的访问权限。为了简化配置，在 demo 中直接使用了 KMS 和 DynamoDB 托管的 FullAccess 策略。但在生产环境中，不能直接使用托管策略，需要自定义用户策略，进行访问行为和资源级别的精细化授权。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 启动两台 Amazon Linux2 的 m5.xlarge EC2 实例(至少 4 vCPU 的 Nitro 实例类型), 需要手动启用 Enclave (创建 EC2 时默认不启用 enclave )&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 创建 EC2 实例时，在User Data 中，粘贴以下信息，完成安装 Nitro-CLI ，Docker，以及其他 Enclave 程序所需的依赖包，修改 Enclave 可占用的最大内存，下载 Enclave 示例代码等。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 启动两台 Amazon Linux2 的 m5.xlarge EC2 实例(至少 4 vCPU 的 Nitro 实例类型), 需要手动启用 Enclave (创建 EC2 时默认不启用 enclave )&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 创建 EC2 实例时，在User Data 中，粘贴以下信息，完成安装 Nitro-CLI ，Docker，以及其他 Enclave 程序所需的依赖包，修改 Enclave 可占用的最大内存，下载 Enclave 示例代码等。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;#!/bin/bash
 amazon-linux-extras install aws-nitro-enclaves-cli -y
@@ -276,7 +276,7 @@ yum install git -y
 pip3 install ecdsa
 pip3 install requests
 pip3 install boto3
-sed -i &amp;quot;s/memory_mib: 512/memory_mib: 3072/g&amp;quot; /etc/nitro_enclaves/allocator.yaml
+sed -i "s/memory_mib: 512/memory_mib: 3072/g" /etc/nitro_enclaves/allocator.yaml
 su ec2-user -c 'cd /home/ec2-user &amp;amp;&amp;amp; git clone https://github.com/hxhwing/Nitro-Enclave-Demo.git'
 shutdown -r now
 &lt;/code&gt;&lt;/pre&gt; 
@@ -286,7 +286,7 @@ shutdown -r now
  &lt;li&gt;第一台 EC2: NitroEnclaveDemo-1，用于生成，加密私钥，存储到 DynamoDB&lt;/li&gt; 
  &lt;li&gt;第二台 EC2: NitroEnclaveDemo-2，用于解密私钥，签名和验证消息&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h4&gt;2.1.2 创建 KMS Key&lt;/h4&gt; 
 &lt;p&gt;在 Amazon KMS 服务中创建一个对称密钥，用于在 Enclave 中调用 KMS API，进行私钥的生成和加解密。&lt;/p&gt; 
 &lt;ul&gt; 
@@ -298,28 +298,28 @@ shutdown -r now
 &lt;/ul&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;       {
-           &amp;quot;Sid&amp;quot;: &amp;quot;Allow NitroEnclave-Demo Role&amp;quot;,
-           &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
-           &amp;quot;Principal&amp;quot;: {
-               &amp;quot;AWS&amp;quot;: &amp;quot;arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo&amp;quot;  # Replace account ID
+           "Sid": "Allow NitroEnclave-Demo Role",
+           "Effect": "Allow",
+           "Principal": {
+               "AWS": "arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo"  # Replace account ID
            },
-           &amp;quot;Action&amp;quot;: [
-               &amp;quot;kms:GenerateRandom&amp;quot;,
-               &amp;quot;kms:GenerateDataKey&amp;quot;,
-               &amp;quot;kms:Decrypt&amp;quot;
+           "Action": [
+               "kms:GenerateRandom",
+               "kms:GenerateDataKey",
+               "kms:Decrypt"
                ],
-           &amp;quot;Resource&amp;quot;: &amp;quot;*&amp;quot;
+           "Resource": "*"
        },
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h4&gt;2.1.3 创建 DynamoDB Table&lt;/h4&gt; 
 &lt;p&gt;创建一个 DynamoDB Table，用于存放加密后的私钥，加密的 DataKey 和公钥。&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;Table Name:&amp;nbsp;UserToken&lt;/li&gt; 
  &lt;li&gt;Partition key:&amp;nbsp;userid (String)&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;strong&gt;:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;DynamoDB Table Name &lt;/strong&gt;&lt;strong&gt;和&lt;/strong&gt;&lt;strong&gt; Partition key &lt;/strong&gt;&lt;strong&gt;请与上面完全一致，如果需要修改，请同时相应修改示例程序中&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;client.py&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;的&lt;/strong&gt;&lt;strong&gt; DynamoDB &lt;/strong&gt;&lt;strong&gt;相关代码。&lt;/strong&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;strong&gt;:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;DynamoDB Table Name &lt;/strong&gt;&lt;strong&gt;和&lt;/strong&gt;&lt;strong&gt; Partition key &lt;/strong&gt;&lt;strong&gt;请与上面完全一致，如果需要修改，请同时相应修改示例程序中&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;client.py&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;的&lt;/strong&gt;&lt;strong&gt; DynamoDB &lt;/strong&gt;&lt;strong&gt;相关代码。&lt;/strong&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h3&gt;2.2 创建Enclave，运行示例代码&lt;/h3&gt; 
 &lt;p&gt;示例代码&amp;nbsp;Nitro-Enclave-Demo&amp;nbsp;已经被自动下载到 ec2-user 用户目录下，示例代码包含两个目录&lt;/p&gt; 
 &lt;ul&gt; 
@@ -357,7 +357,7 @@ drwxr-xr-x 4 ec2-user ec2-user   51 Aug 28 16:12 src
 &lt;/div&gt; 
 &lt;p&gt;build 脚本运行完成后， Enclave 将以 debug 模式运行，用户可通过 nitro-cli 连接到运行的 Enclave 控制台，查看 Enclave 运行过程输出到Console的日志，主要用于排错&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli console --enclave-id $(nitro-cli describe-enclaves | jq -r &amp;quot;.[0].EnclaveID&amp;quot;)&lt;/code&gt;&lt;/pre&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli console --enclave-id $(nitro-cli describe-enclaves | jq -r ".[0].EnclaveID")&lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;p style="padding-left: 40px"&gt;2. 运行 client.py 代码，运行方式如下：&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
@@ -375,7 +375,7 @@ drwxr-xr-x 4 ec2-user ec2-user   51 Aug 28 16:12 src
 &lt;/ul&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;[ec2-user@ip-172-31-33-19 GenerateToken]$ python3 client.py alias/NitroEnclaveDemo u001
- {&amp;quot;userid&amp;quot;: &amp;quot;u001&amp;quot;, &amp;quot;encrypted_privatekey&amp;quot;: &amp;quot;4xiMsmD1VMw1I48HMApw4LzDSWT9lz/x74dMNCz1427hz98t0JzyrFzDd68vrKl0wKB1a/LoLyhi\nvJSgQwSfCA==\n&amp;quot;, &amp;quot;publickey&amp;quot;: &amp;quot;0a0756e60e112d11f0d5e4a88858251f1234e27ea37261da4698d497baa6a52bbe9a3d227534866351086d7220548a4ff00fb081c9b318361cac5dae9c661f8c&amp;quot;, &amp;quot;encrypted_datakey&amp;quot;: &amp;quot;AQIBAHhVM1N8G00xz9DVe3FbnRAxaxNCkCaRYV6/wLYxbwj04QFUWvIkLZ6TYPE2GTUdKvMbAAAAdjB0BgkqhkiG9w0BBwagZzBlAgEAMGAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMhfwZjlaOr8pCQneAgEQgDNMimKpywvNdcpJIgPZUYrhE5uQvzonU5o/uYhPMmZmb/kWotQNH6KSFxuTBdx6FeM0vQs=&amp;quot;} Write User Token to DynamoDB Successfully [ec2-user@ip-172-31-33-19 GenerateToken]$&lt;/code&gt;&lt;/pre&gt; 
+ {"userid": "u001", "encrypted_privatekey": "4xiMsmD1VMw1I48HMApw4LzDSWT9lz/x74dMNCz1427hz98t0JzyrFzDd68vrKl0wKB1a/LoLyhi\nvJSgQwSfCA==\n", "publickey": "0a0756e60e112d11f0d5e4a88858251f1234e27ea37261da4698d497baa6a52bbe9a3d227534866351086d7220548a4ff00fb081c9b318361cac5dae9c661f8c", "encrypted_datakey": "AQIBAHhVM1N8G00xz9DVe3FbnRAxaxNCkCaRYV6/wLYxbwj04QFUWvIkLZ6TYPE2GTUdKvMbAAAAdjB0BgkqhkiG9w0BBwagZzBlAgEAMGAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMhfwZjlaOr8pCQneAgEQgDNMimKpywvNdcpJIgPZUYrhE5uQvzonU5o/uYhPMmZmb/kWotQNH6KSFxuTBdx6FeM0vQs="} Write User Token to DynamoDB Successfully [ec2-user@ip-172-31-33-19 GenerateToken]$&lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;h4&gt;2.2.2 创建和运行第二个 Enclave，解密私钥，签名和验证消息&lt;/h4&gt; 
 &lt;p&gt;登录到第二台 EC2，进入 /home/ec2-user/Nitro-Enclave-Demo/SignVerify 目录：&lt;/p&gt; 
@@ -424,47 +424,47 @@ Signed message verified by public key: True
 &lt;/ul&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;        {
-            &amp;quot;Sid&amp;quot;: &amp;quot;Only Allow NitroEnclaveDemo-1&amp;quot;,
-            &amp;quot;Effect&amp;quot;: &amp;quot;Deny&amp;quot;,
-            &amp;quot;Principal&amp;quot;: {
-                &amp;quot;AWS&amp;quot;: &amp;quot;arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo&amp;quot;
+            "Sid": "Only Allow NitroEnclaveDemo-1",
+            "Effect": "Deny",
+            "Principal": {
+                "AWS": "arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo"
             },
-            &amp;quot;Action&amp;quot;: [
-                &amp;quot;kms:GenerateRandom&amp;quot;,
-                &amp;quot;kms:GenerateDataKey&amp;quot;
+            "Action": [
+                "kms:GenerateRandom",
+                "kms:GenerateDataKey"
             ],
-            &amp;quot;Resource&amp;quot;: &amp;quot;*&amp;quot;,
-            &amp;quot;Condition&amp;quot;: {
-              &amp;quot;StringNotEqualsIgnoreCase&amp;quot;: {
-                &amp;quot;kms:RecipientAttestation:ImageSha384&amp;quot;:&amp;quot;17b041934b2255ae55b07433012e4d41999feda85eb839970645458a35f8571360f32ca68b5178dca8bdecf9fd37c010&amp;quot;,
-                &amp;quot;kms:RecipientAttestation:PCR0&amp;quot;:&amp;quot;17b041934b2255ae55b07433012e4d41999feda85eb839970645458a35f8571360f32ca68b5178dca8bdecf9fd37c010&amp;quot;,
-                &amp;quot;kms:RecipientAttestation:PCR1&amp;quot;:&amp;quot;c35e620586e91ed40ca5ce360eedf77ba673719135951e293121cb3931220b00f87b5a15e94e25c01fecd08fc9139342&amp;quot;, 
-                &amp;quot;kms:RecipientAttestation:PCR2&amp;quot;:&amp;quot;1fc61c8c21fb3ec93ae854341f5b9adc1e7bbc2eb437cc308e5fb2f4787393fe500fa4c894422a92d79eb3ce172c1a8e&amp;quot;
+            "Resource": "*",
+            "Condition": {
+              "StringNotEqualsIgnoreCase": {
+                "kms:RecipientAttestation:ImageSha384":"17b041934b2255ae55b07433012e4d41999feda85eb839970645458a35f8571360f32ca68b5178dca8bdecf9fd37c010",
+                "kms:RecipientAttestation:PCR0":"17b041934b2255ae55b07433012e4d41999feda85eb839970645458a35f8571360f32ca68b5178dca8bdecf9fd37c010",
+                "kms:RecipientAttestation:PCR1":"c35e620586e91ed40ca5ce360eedf77ba673719135951e293121cb3931220b00f87b5a15e94e25c01fecd08fc9139342", 
+                "kms:RecipientAttestation:PCR2":"1fc61c8c21fb3ec93ae854341f5b9adc1e7bbc2eb437cc308e5fb2f4787393fe500fa4c894422a92d79eb3ce172c1a8e"
               }
             }
         },
         {
-            &amp;quot;Sid&amp;quot;: &amp;quot;Only Allow NitroEnclaveDemo-2&amp;quot;,
-            &amp;quot;Effect&amp;quot;: &amp;quot;Deny&amp;quot;,
-            &amp;quot;Principal&amp;quot;: {
-                &amp;quot;AWS&amp;quot;: &amp;quot;arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo&amp;quot;
+            "Sid": "Only Allow NitroEnclaveDemo-2",
+            "Effect": "Deny",
+            "Principal": {
+                "AWS": "arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo"
             },
-            &amp;quot;Action&amp;quot;: [
-                &amp;quot;kms:Decrypt&amp;quot;
+            "Action": [
+                "kms:Decrypt"
             ],
-            &amp;quot;Resource&amp;quot;: &amp;quot;*&amp;quot;,
-            &amp;quot;Condition&amp;quot;: {
-              &amp;quot;StringNotEqualsIgnoreCase&amp;quot;: {
-                &amp;quot;kms:RecipientAttestation:ImageSha384&amp;quot;:&amp;quot;810257e9bd2ecad2181fcff508c7547ef0f3c1d446628f5465c955c4f2a2d3cfac9198919999614ffbed8e0b18c6c084&amp;quot;,
-                &amp;quot;kms:RecipientAttestation:PCR0&amp;quot;:&amp;quot;810257e9bd2ecad2181fcff508c7547ef0f3c1d446628f5465c955c4f2a2d3cfac9198919999614ffbed8e0b18c6c084&amp;quot;,
-                &amp;quot;kms:RecipientAttestation:PCR1&amp;quot;:&amp;quot;c35e620586e91ed40ca5ce360eedf77ba673719135951e293121cb3931220b00f87b5a15e94e25c01fecd08fc9139342&amp;quot;, 
-                &amp;quot;kms:RecipientAttestation:PCR2&amp;quot;:&amp;quot;72457ef34f66f041996e7077f55604f0f73b1d2e3fad54881308d38da6d22bc8cd2084ab3b8810b22da629a24eef94e6&amp;quot;
+            "Resource": "*",
+            "Condition": {
+              "StringNotEqualsIgnoreCase": {
+                "kms:RecipientAttestation:ImageSha384":"810257e9bd2ecad2181fcff508c7547ef0f3c1d446628f5465c955c4f2a2d3cfac9198919999614ffbed8e0b18c6c084",
+                "kms:RecipientAttestation:PCR0":"810257e9bd2ecad2181fcff508c7547ef0f3c1d446628f5465c955c4f2a2d3cfac9198919999614ffbed8e0b18c6c084",
+                "kms:RecipientAttestation:PCR1":"c35e620586e91ed40ca5ce360eedf77ba673719135951e293121cb3931220b00f87b5a15e94e25c01fecd08fc9139342", 
+                "kms:RecipientAttestation:PCR2":"72457ef34f66f041996e7077f55604f0f73b1d2e3fad54881308d38da6d22bc8cd2084ab3b8810b22da629a24eef94e6"
               }
             }
         },
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 在 EC2 上测试直接用 CLI 访问 KMS，提示请求被拒绝，确认密钥策略权限已生效&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 在 EC2 上测试直接用 CLI 访问 KMS，提示请求被拒绝，确认密钥策略权限已生效&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;
 [ec2-user@ip-172-31-33-19 ~]$ aws kms generate-data-key --key-id alias/NitroEnclaveDemo --number-of-bytes 32 --region ap-northeast-1
@@ -474,7 +474,7 @@ An error occurred (AccessDeniedException) when calling the GenerateDataKey opera
 &lt;/div&gt; 
 &lt;p&gt;分别在两台 EC2 上执行以下命令，终止前面步骤启动的 Enclave&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli terminate-enclave --enclave-id $(nitro-cli describe-enclaves | jq -r &amp;quot;.[0].EnclaveID&amp;quot;)&lt;/code&gt;&lt;/pre&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli terminate-enclave --enclave-id $(nitro-cli describe-enclaves | jq -r ".[0].EnclaveID")&lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;p&gt;然后在两台 EC2 上重新启动 Enclave，不添加 –debug-mode 参数&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
@@ -483,15 +483,15 @@ An error occurred (AccessDeniedException) when calling the GenerateDataKey opera
 Start allocating memory...
 Started enclave with enclave-cid: 10, memory: 3072 MiB, cpu-ids: [1, 3]
 {
-  &amp;quot;EnclaveID&amp;quot;: &amp;quot;i-0e4fc2c648b901c7e-enc17b908ba803d724&amp;quot;,
-  &amp;quot;ProcessID&amp;quot;: 7565,
-  &amp;quot;EnclaveCID&amp;quot;: 10,
-  &amp;quot;NumberOfCPUs&amp;quot;: 2,
-  &amp;quot;CPUIDs&amp;quot;: [
+  "EnclaveID": "i-0e4fc2c648b901c7e-enc17b908ba803d724",
+  "ProcessID": 7565,
+  "EnclaveCID": 10,
+  "NumberOfCPUs": 2,
+  "CPUIDs": [
     1,
     3
   ],
-  &amp;quot;MemoryMiB&amp;quot;: 3072
+  "MemoryMiB": 3072
 }
 
 
@@ -500,15 +500,15 @@ Started enclave with enclave-cid: 10, memory: 3072 MiB, cpu-ids: [1, 3]
 Start allocating memory...
 Started enclave with enclave-cid: 10, memory: 3072 MiB, cpu-ids: [1, 3]
 {
-  &amp;quot;EnclaveID&amp;quot;: &amp;quot;i-0558cbee6ea7a393c-enc17b908f0730bcb2&amp;quot;,
-  &amp;quot;ProcessID&amp;quot;: 7533,
-  &amp;quot;EnclaveCID&amp;quot;: 10,
-  &amp;quot;NumberOfCPUs&amp;quot;: 2,
-  &amp;quot;CPUIDs&amp;quot;: [
+  "EnclaveID": "i-0558cbee6ea7a393c-enc17b908f0730bcb2",
+  "ProcessID": 7533,
+  "EnclaveCID": 10,
+  "NumberOfCPUs": 2,
+  "CPUIDs": [
     1,
     3
   ],
-  &amp;quot;MemoryMiB&amp;quot;: 3072
+  "MemoryMiB": 3072
 }
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
@@ -516,7 +516,7 @@ Started enclave with enclave-cid: 10, memory: 3072 MiB, cpu-ids: [1, 3]
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;## NitroEnclaveDemo-1
 [ec2-user@ip-172-31-33-19 GenerateToken]$ python3 client.py alias/NitroEnclaveDemo u010
-{&amp;quot;userid&amp;quot;: &amp;quot;u010&amp;quot;, &amp;quot;encrypted_privatekey&amp;quot;: &amp;quot;h08szIyVaTrjH1TF95+aXooPKC/QZwGRDaZv7Cp/LmFG2FQumbZR49NrnsOYBsS+VxsvPtSlBE2s\nnEYQLMI9lQ==\n&amp;quot;, &amp;quot;publickey&amp;quot;: &amp;quot;9552c9f2c51be3b7143e3cfe9c71f7dcac028d368530ffbbdb34512092611e4996e9e1bcab27e4a879ff630629d7f930d2db84c295e97334d1f3335d31e7ac87&amp;quot;, &amp;quot;encrypted_datakey&amp;quot;: &amp;quot;AQIBAHhVM1N8G00xz9DVe3FbnRAxaxNCkCaRYV6/wLYxbwj04QFKhpZ//ap2EgINgILddtu0AAAAdjB0BgkqhkiG9w0BBwagZzBlAgEAMGAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMScLI1DYM6y6hd0d4AgEQgDO2pbbcrEEd+trVcqiqkFdlhXY/ZVEMoRqRsQAUMdJq24zwGgl6UYOjLCviBHs2wI8jC5A=&amp;quot;}
+{"userid": "u010", "encrypted_privatekey": "h08szIyVaTrjH1TF95+aXooPKC/QZwGRDaZv7Cp/LmFG2FQumbZR49NrnsOYBsS+VxsvPtSlBE2s\nnEYQLMI9lQ==\n", "publickey": "9552c9f2c51be3b7143e3cfe9c71f7dcac028d368530ffbbdb34512092611e4996e9e1bcab27e4a879ff630629d7f930d2db84c295e97334d1f3335d31e7ac87", "encrypted_datakey": "AQIBAHhVM1N8G00xz9DVe3FbnRAxaxNCkCaRYV6/wLYxbwj04QFKhpZ//ap2EgINgILddtu0AAAAdjB0BgkqhkiG9w0BBwagZzBlAgEAMGAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMScLI1DYM6y6hd0d4AgEQgDO2pbbcrEEd+trVcqiqkFdlhXY/ZVEMoRqRsQAUMdJq24zwGgl6UYOjLCviBHs2wI8jC5A="}
 Write User Token to DynamoDB Successfully
 [ec2-user@ip-172-31-33-19 GenerateToken]$
 
@@ -529,15 +529,15 @@ Signed message verified by public key: True
 &lt;/div&gt; 
 &lt;p&gt;在 CloudTrail 中，查看 KMS API 的请求记录，在来自 Enclave 的请求记录中，将会存在额外的 Attestation 数据。&lt;/p&gt; 
 &lt;p&gt;来自第一台 Enclave 请求 kms:GenerateDataKey 的 CloudTrail：&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave10.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 来自第二台 Enclave 请求 kms:Decrypt 的 CloudTrail：&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave11.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 来自第二台 Enclave 请求 kms:Decrypt 的 CloudTrail：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h2&gt;总结&lt;/h2&gt; 
 &lt;p&gt;Nitro Enclave 使用户可以在 亚马逊云科技上，简便，安全地运行隔离的可信计算环境，用于处理私钥，PII等敏感数据。另外 Nitro Enclave 不需要强制绑定 CPU 芯片，支持 Intel，AMD 芯片的计算实例，没有任何额外费用，具备更好的灵活性和成本效益，且与云原生的安全服务 KMS，ACM 直接集成，为用户提供更好的使用体验和安全性保障。&lt;/p&gt; 
 &lt;h2&gt;本篇作者&lt;/h2&gt; 
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/hxh.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/hxh.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;胡新华&lt;/h3&gt; 
   &lt;p&gt;AWS解决方案架构师，负责金融行业基于AWS的云计算架构咨询和设计。加入AWS之前就职于IBM，在数据中心IT基础架构相关的解决方案设计和交付方面，具有十多年经验。&lt;/p&gt; 
@@ -558,7 +558,7 @@ Signed message verified by public key: True
 &lt;p&gt;Amazon Athena 是一种交互式查询服务，让您能够轻松使用标准 SQL 分析 Amazon S3 中的数据。Athena 采用无服务器架构，因此您无需管理任何基础设施，且只需为您运行的查询付费。Athena 简单易用，只需指向您存储在 Amazon S3 中的数据，定义架构并使用标准 SQL 开始查询。就可在数秒内获取最多的结果。您可以使用Athena 控制台查看成功和失败的查询、下载成功查询结果文件以及查看失败查询的错误详细信息。Athena 将查询历史记录保留 45 天。如果要将查询历史记录保留超过 45 天，您可以检索查询历史记录并将其保存到等 Amazon S3 等数据存储中。本方案自动执行此过程，使用 Athena 和 Amazon S3 API将数据导入到Amazon S3，并使用Athena分析历史数据，结合Amazon CloudTrail的Athena API调用日志可以对Athena的历史SQL执行记录进行多个维度的分析，以便用于评估Athena的使用和优化线上SQL等。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;部署架构&lt;/h2&gt; 
-&lt;p&gt;利用CloudWatch Event定时触发Lambda代码同步Athena历史查询日志到Amazon S3，利用DynamoDB记录每次增量同步的记录位置，Amazon CloudTrail记录Athena API call日志，创建CloudTrail的跟踪，将日志持续导入到S3中，最终通过Athena多维分析历史查询日志和CloudTrail日志并利用Amazon QuickSight进行图表展现。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;利用CloudWatch Event定时触发Lambda代码同步Athena历史查询日志到Amazon S3，利用DynamoDB记录每次增量同步的记录位置，Amazon CloudTrail记录Athena API call日志，创建CloudTrail的跟踪，将日志持续导入到S3中，最终通过Athena多维分析历史查询日志和CloudTrail日志并利用Amazon QuickSight进行图表展现。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;方案部署步骤&lt;/h2&gt; 
 &lt;h3&gt;导出Athena查询历史记录日志到Amazon S3&lt;/h3&gt; 
@@ -567,7 +567,7 @@ Signed message verified by public key: True
  &lt;li&gt;&lt;strong&gt;创建&lt;/strong&gt;&lt;strong&gt;DynamoDB表，保存每次增量导入的最新位置&lt;/strong&gt;&lt;/li&gt; 
 &lt;/ul&gt; 
 &lt;p&gt;表名称：athena_his_sql&lt;/p&gt; 
-&lt;p&gt;主分区键：workgroup&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;主分区键：workgroup&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;&lt;strong&gt;创建&lt;/strong&gt;&lt;strong&gt;Lambda函数athena_his_fun&lt;/strong&gt;&lt;/li&gt; 
 &lt;/ul&gt; 
@@ -583,16 +583,16 @@ def lambda_handler(event, context):
     # TODO implement
     to_scrape=5000
     page_size=50
-    bucket = &amp;quot;quandata1&amp;quot;
-    prefix = &amp;quot;athena_his/&amp;quot;
+    bucket = "quandata1"
+    prefix = "athena_his/"
     s3_client = boto3.client('s3')
     ath = boto3.client('athena')
-    paginator = ath.get_paginator(&amp;quot;list_query_executions&amp;quot;)
+    paginator = ath.get_paginator("list_query_executions")
     dynamodb = boto3.resource('dynamodb')
     def json_serial(obj):
         if isinstance(obj, (datetime, date)):
             return obj.isoformat()
-        raise TypeError(&amp;quot;Type %s not serializable&amp;quot; % type(obj))
+        raise TypeError("Type %s not serializable" % type(obj))
     df = []
     break_flag = False
     for workgroup in [w['Name'] for w in ath.list_work_groups()['WorkGroups']]:
@@ -601,19 +601,19 @@ def lambda_handler(event, context):
         table = dynamodb.Table('athena_his_sql')
         response = table.get_item(Key={'workgroup': workgroup,})
         curr_query_id = ''
-        if  (&amp;quot;Item&amp;quot; in response): curr_query_id = response['Item']['curr_query_id']
-        print(&amp;quot;get ddb curr_id: &amp;quot; + workgroup + curr_query_id)
-        args = {&amp;quot;WorkGroup&amp;quot;: workgroup, &amp;quot;PaginationConfig&amp;quot;: {&amp;quot;MaxItems&amp;quot;: to_scrape, &amp;quot;PageSize&amp;quot;: page_size}}
+        if  ("Item" in response): curr_query_id = response['Item']['curr_query_id']
+        print("get ddb curr_id: " + workgroup + curr_query_id)
+        args = {"WorkGroup": workgroup, "PaginationConfig": {"MaxItems": to_scrape, "PageSize": page_size}}
         for page in paginator.paginate(**args):
             query_ids = page['QueryExecutionIds']
             for query_id in query_ids:
-                print(&amp;quot;query_id:&amp;quot; + query_id)
+                print("query_id:" + query_id)
                 if i == 0:
                     table.update_item(
                         Key={'workgroup': workgroup,},
                         UpdateExpression='SET curr_query_id = :val1',
                         ExpressionAttributeValues={':val1': query_id})
-                    print(&amp;quot;update ddb curr_id: &amp;quot; + query_id)
+                    print("update ddb curr_id: " + query_id)
                 if query_id == curr_query_id:
                     break_flag=True
                     break
@@ -625,20 +625,20 @@ def lambda_handler(event, context):
             time.sleep(1)
     json_writer = io.BytesIO()
     for record in df:
-        line = json.dumps(record, default=json_serial) + &amp;quot;\n&amp;quot;
+        line = json.dumps(record, default=json_serial) + "\n"
         json_writer.write(line.encode())
     s3_client.put_object(
         Bucket=bucket,
-        Key=prefix + &amp;quot;%s.json&amp;quot; % uuid.uuid4(),
+        Key=prefix + "%s.json" % uuid.uuid4(),
         ContentType='text/json',
         Body=json_writer.getvalue()
 )
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;p&gt;部署完毕后设置利用CloudWatch Event定时触发执行（例如按小时触发）&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 脚本执行后，会在DynamoDB的表athena_his_sql中更新当前最新的查询ID，方便后续增量导出。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 利用Amazon CLI或者控制台检查Amazon S3路径下是否正确上传了日志文件，（注：本方案没有对上传到S3的数据进行分区存放，可以参考下文CloudTrail日志的方式利用Athena的分区投影功能实现自动分区管理）。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 脚本执行后，会在DynamoDB的表athena_his_sql中更新当前最新的查询ID，方便后续增量导出。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 利用Amazon CLI或者控制台检查Amazon S3路径下是否正确上传了日志文件，（注：本方案没有对上传到S3的数据进行分区存放，可以参考下文CloudTrail日志的方式利用Athena的分区投影功能实现自动分区管理）。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h3&gt;创建Athena历史记录日志表&lt;/h3&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;CREATE EXTERNAL TABLE athena_queries (
@@ -655,7 +655,7 @@ LOCATION 's3://quandata1/athena_his';
 &lt;/div&gt; 
 &lt;h3&gt;创建CloudTrail日志表&lt;/h3&gt; 
 &lt;p&gt;开启CloudTrail跟踪，将CloudTrail日志通过跟踪功能持续保存到S3中。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 创建CloudTrail日志表cloudtrail_logs，建表语句中LOCATION根据实际跟踪配置的S3路径填写。使用Athena分区投影功能自动进行分区管理，降低查询时间和数据扫描量。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 创建CloudTrail日志表cloudtrail_logs，建表语句中LOCATION根据实际跟踪配置的S3路径填写。使用Athena分区投影功能自动进行分区管理，降低查询时间和数据扫描量。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;CREATE EXTERNAL TABLE cloudtrail_logs(
     eventVersion STRING,
@@ -767,7 +767,7 @@ a.userIdentity.username
 &lt;p&gt;&lt;code&gt;where&lt;/code&gt;&lt;/p&gt; 
 &lt;p style="padding-left: 40px"&gt;&lt;code&gt;a.eventsource='athena.amazonaws.com' and a.eventName='StartQueryExecution' and&lt;/code&gt;&lt;/p&gt; 
 &lt;p style="padding-left: 40px"&gt;&lt;code&gt;a.responseElements != 'null' and substr(a.responseElements,22,36) = b.queryexecutionid&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;创建可视化图表如下&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;创建可视化图表如下&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h2&gt;总结&lt;/h2&gt; 
 &lt;p&gt;通过本文介绍的方案可以更长时间的保留Athena查询历史日志，通过对Athena历史查询日志的分析，让我们可以直观的了解和掌握Athena的使用细节，查看Top SQL，检测应用性能问题，在时间、用户、SQL语句等多个维度增强对Athena使用的洞察。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
@@ -781,7 +781,7 @@ a.userIdentity.username
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/xiangqua.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/xiangqua.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;柳向全&lt;/h3&gt; 
   &lt;p&gt;AWS 解决方案架构师，负责基于AWS的云计算方案架构的咨询和设计，目前主要专注于容器和大数据技术领域研究和AWS云服务在国内和全球的应用和推广。&lt;/p&gt; 
@@ -820,16 +820,16 @@ a.userIdentity.username
 &lt;p&gt;2020年11月，亚马逊发布了托管的 Airflow 服务，全称为 Managed Workflows for Apache Airflow (MWAA)，支持 1.10.12 版。2021年5月开始支持 2.0.2 版。但截至目前（2021年8月），中国北京区、宁夏区和香港区皆未提供托管服务。如果要使用 Airflow，则需要自行搭建部署，例如利用 Elastic Container Service。或者换成其他云原生的编排服务，例如 Step Functions 状态机或 Simple Workflow Service。本文以某 MWAA 的数据分析指导教程为引子，介绍 MWAA 资源代码化的方法，并对如何在中国区使用云原生服务达到类似编排数据分析管道的目的，进行初探。&lt;/p&gt; 
 &lt;h2&gt;教程简介&lt;/h2&gt; 
 &lt;p&gt;&lt;a href="https://amazon-mwaa-for-analytics.workshop.aws/en/"&gt;MWAA 数据分析管道指导教程&lt;/a&gt;是指导利用 MWAA 搭建数据分析管道的教程。该分析管道较简单，线性分为五步，分别是监控文件，爬元数据，转换数据，整合数据，保存结果。简单起见，本文将第四步改造为 Glue 任务，不使用 Elastic MapReduce 集群。部署好的数据管道有向无环图如下：&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline1.png" width="624" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline1.png" width="624"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;以 MWAA 为基础的架构图如下所示。虚线和编号表示该数据管道运行时的数据流向和任务执行顺序。此处不同服务的调用是通过 Airflow 的操作符间接完成的，以 Python 定义在数据管道的有向无环图中。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline2.png" width="500" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline2.png" width="500"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;根据该教程介绍，完成时间为一小时左右。抛开初学者的因素，所用时间较长主要是因为所涉及的资源及其配置都是在亚马逊控制台上手工完成，非常耗时，效率低下。如果利用资源代码化技术，则部署时间可以在数分钟内完成（排除 MWAA 自身启动需要的约半小时），提高工作效率，尤其在需要多环境部署测试的情况下。&lt;/p&gt; 
 &lt;h3&gt;资源代码化&lt;/h3&gt; 
 &lt;p&gt;利用亚马逊云开发包 (Cloud Development Kit)，可快速构建云资源部署程序。结合相关代码仓库管理工具如 github，可代码化管理资源的创建和修改过程，方便协同工作和排错溯源。限于篇幅以下仅展示关键代码。完整代码请参阅开放源代码。首先建立 Redshift 集群。云开发包建立好集群后，会自动在密码管理器中新建一密码项，即为该集群的连接密码，全程密码无暴露。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-js"&gt;createCluster(landingZone, subnetGroup) {
-    return new redshift.Cluster(this, &amp;quot;MainCluster&amp;quot;, {
-        masterUser: { masterUsername: &amp;quot;admin&amp;quot; },
+    return new redshift.Cluster(this, "MainCluster", {
+        masterUser: { masterUsername: "admin" },
         vpc: landingZone.vpc,
         numberOfNodes: 2,
         publiclyAccessible: false,
@@ -844,16 +844,16 @@ a.userIdentity.username
 &lt;p&gt;其次是建立 MWAA 环境。简化起见配置为可以公网访问。实际生产中建议配置为私网访问。MWAA 对网络配置有特别要求，若不达标环境可能无法启动。子网建议配置为私有子网，即有路由到 NAT 网关。具体请参阅使用手册。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-js"&gt;createEnvironment(envName, role, landingZone, bucket) {
-    return new airflow.CfnEnvironment(this, &amp;quot;Lab&amp;quot;, {
+    return new airflow.CfnEnvironment(this, "Lab", {
         name: envName,
-        airflowVersion: &amp;quot;2.0.2&amp;quot;,
-        environmentClass: &amp;quot;mw1.small&amp;quot;,
+        airflowVersion: "2.0.2",
+        environmentClass: "mw1.small",
         executionRoleArn: role.roleArn,
         sourceBucketArn: bucket.bucketArn,
-        webserverAccessMode: &amp;quot;PUBLIC_ONLY&amp;quot;,
-        dagS3Path:           &amp;quot;airflow/lab/dags&amp;quot;,
-        pluginsS3Path:       &amp;quot;airflow/lab/plugins/awsairflowlib_202.zip&amp;quot;,
-        requirementsS3Path:  &amp;quot;airflow/lab/requirements/requirements.txt&amp;quot;,
+        webserverAccessMode: "PUBLIC_ONLY",
+        dagS3Path:           "airflow/lab/dags",
+        pluginsS3Path:       "airflow/lab/plugins/awsairflowlib_202.zip",
+        requirementsS3Path:  "airflow/lab/requirements/requirements.txt",
         networkConfiguration: {
             securityGroupIds: [landingZone.securityGroup.securityGroupId],
             subnetIds: landingZone.vpc.privateSubnets.map(subnet =&amp;gt; subnet.subnetId)
@@ -864,7 +864,7 @@ a.userIdentity.username
 &lt;p&gt;MWAA 配置好以后，还需要把有向无环图定义文件上传到存储桶指定位置。利用云开发包的 S3 部署模块完成：&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-js"&gt;uploadDagFile(bucket) {
-    new deploy.BucketDeployment(this, &amp;quot;DagScript&amp;quot;,
+    new deploy.BucketDeployment(this, "DagScript",
         sources: [deploy.Source.asset(path.join(__dirname, '../../scripts/airflow/lab/dags/'))],
         destinationBucket: bucket,
         destinationKeyPrefix: 'airflow/lab/dags/'
@@ -872,16 +872,16 @@ a.userIdentity.username
 }&lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;p&gt;至此就完成了 MWAA 相关资源的部署程序。部署上述 MWAA 大约耗时半小时，因为涉及服务器的启动连接等。部署耗时长也凸显出非无服务器服务的弊端。当环境状态变为“可用”后，点击“打开 Airflow UI”即可打开 Airflow 的控制台。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline3.png" width="800" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline3.png" width="800"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;部署完成后，根据教程即可完成数据分析管道相关操作。Airflow 控制台可以显示数据管道完成时间甘特图，形象展示各任务耗时多寡。这是其亮点之一。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline4.png" width="800" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline4.png" width="800"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h3&gt;安全隐患&lt;/h3&gt; 
 &lt;p&gt;最后一步把存储桶文件复制到 Redshift，需要在 Airflow 控制台配置到 Redshift 的连接。连接属性包含用户名和密码明文。此处有暴露密码明文的安全隐患。下面介绍的云原生技术通过密码管理器实现无缝连接，可有效规避密码暴露风险，切实提高系统安全水平。&lt;/p&gt; 
 &lt;h2&gt;云原生编排&lt;/h2&gt; 
 &lt;p&gt;目前 MWAA 尚不支持中国区，故需要自行搭建并维护 Airflow 环境，例如在 ECS Fargate 上。但是运维难度不容小觑。亚马逊提供了其他编排服务，例如状态机，完全可以代替 Airflow 对数据管道进行编排。此外状态机是无服务器的，毋需关心并事先设定服务器数量性能等运维难题。使用云原生服务，和其他服务紧密集成，可最大化服务效益，增强安全性。和教程数据分析管道等价的状态机工作流如下所示。状态机跨服务集成支持直接启动 Glue 任务，较为简单。其他步骤需做些许变通。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline5.png" width="400" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline5.png" width="400"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;以云原生服务为基础的架构图如下所示。状态机在各服务之间调度，其中 Glue 任务可以直接执行。爬虫任务需要通过 Lambda 函数辅助。把存储桶的数据载入到 Redshift 可以有多种方法完成，例如 Glue 任务可以直接连接 Redshift 并保存数据。为了和教程中的步骤一一对应，此处利用 Lambda 函数来辅助完成。存储桶文件监控则通过跟踪与规则联合完成。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline6.png" width="500" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline6.png" width="500"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h3&gt;爬元数据&lt;/h3&gt; 
 &lt;p&gt;状态机的跨服务集成目前暂不支持调用 Glue 爬虫，需替代方案。此处利用两个 Lambda 函数和轮询机制实现相同功能。启动爬虫很简单：&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
@@ -892,27 +892,27 @@ a.userIdentity.username
  &lt;pre&gt;&lt;code class="lang-js"&gt;exports.handler = async event =&amp;gt; {
     response = await glue.getCrawler({Name: event.crawlerName}).promise();
     const state = response.Crawler.State;
-    return state == &amp;quot;READY&amp;quot;;
+    return state == "READY";
 }&lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;p&gt;爬虫调用代替方案的其他两步可以利用状态机的“选择”和“等待”原生操作符完成。这里传入变量 next 作为爬虫轮询结束后的下一步操作。以下代码可作为爬虫调用的模版使用。若想提高响应速度可缩短等待时长。一个典型的爬虫任务需时数分钟。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-js"&gt;createCrawlerStep(next) {
-    const crawlTask = new task.LambdaInvoke(this, &amp;quot;Crawl&amp;quot;, {
-        lambdaFunction: this.lambda(&amp;quot;CrawlLambda&amp;quot;, role, &amp;quot;../lambda/crawler/crawl&amp;quot;),
-        payload: sf.TaskInput.fromObject({CrawlerTagName: &amp;quot;NF1-Airflow-Lab-RawGreenCrawler&amp;quot;}),
+    const crawlTask = new task.LambdaInvoke(this, "Crawl", {
+        lambdaFunction: this.lambda("CrawlLambda", role, "../lambda/crawler/crawl"),
+        payload: sf.TaskInput.fromObject({CrawlerTagName: "NF1-Airflow-Lab-RawGreenCrawler"}),
         payloadResponseOnly: true,
-        resultPath: &amp;quot;$.crawlerName&amp;quot;,
+        resultPath: "$.crawlerName",
     });
-    const checkCrawled = new task.LambdaInvoke(this, &amp;quot;Check if crawled&amp;quot;, {
-        lambdaFunction: this.lambda(&amp;quot;CheckCrawledLambda&amp;quot;, role, &amp;quot;../../lambda/crawler/check&amp;quot;),
+    const checkCrawled = new task.LambdaInvoke(this, "Check if crawled", {
+        lambdaFunction: this.lambda("CheckCrawledLambda", role, "../../lambda/crawler/check"),
         payloadResponseOnly: true,
-        resultPath: &amp;quot;$.crawled&amp;quot;,
+        resultPath: "$.crawled",
     });
     const wait = 10;
     crawlTask.next(checkCrawled)
-    .next(new sf.Choice(this, &amp;quot;Is crawled?&amp;quot;)
-        .when(sf.Condition.booleanEquals(&amp;quot;$.crawled&amp;quot;, true), next)
+    .next(new sf.Choice(this, "Is crawled?")
+        .when(sf.Condition.booleanEquals("$.crawled", true), next)
         .otherwise(new sf.Wait(this, `Wait for ${wait} Seconds`, {
             time: sf.WaitTime.duration(core.Duration.seconds(wait)),
         }).next(checkCrawled)));
@@ -932,11 +932,11 @@ a.userIdentity.username
 &lt;p&gt;状态机保存结果的替代方案可以一个 Lambda 函数实现。在生产环境，此处建议以更细粒度和最小化原则配置该函数所赋予的权限，夯实系统安全性。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-js"&gt;createCopyS3ToRedshift(bucket, redshift) {
-    const dir = bucket.s3UrlForObject(&amp;quot;airflow/lab/data/aggregated&amp;quot;);
+    const dir = bucket.s3UrlForObject("airflow/lab/data/aggregated");
     const sql = `copy nyc.green from '${dir}' iam_role '${redshift.role.roleArn}' format as parquet;`;
 
-    return new task.LambdaInvoke(this, &amp;quot;Copy S3 to Redshift&amp;quot;, {
-        lambdaFunction: this.lambda(&amp;quot;CopyToRedshiftLambda&amp;quot;, role, &amp;quot;../lambda/redshift/execute&amp;quot;),
+    return new task.LambdaInvoke(this, "Copy S3 to Redshift", {
+        lambdaFunction: this.lambda("CopyToRedshiftLambda", role, "../lambda/redshift/execute"),
         payloadResponseOnly: true,
         payload: sf.TaskInput.fromObject({
             ClusterIdentifier: redshift.cluster.clusterName,
@@ -954,10 +954,10 @@ a.userIdentity.username
  &lt;pre&gt;&lt;code class="lang-js"&gt;createTrail(logBucket, monitorBucket) {
     const trail = new cloudtrail.Trail(this, 'CloudTrail', {
         bucket: logBucket,
-        s3KeyPrefix: &amp;quot;data-trail&amp;quot;,
+        s3KeyPrefix: "data-trail",
     });
     trail.addS3EventSelector(
-        [{bucket: monitorBucket, objectPrefix: &amp;quot;airflow/lab/data/raw&amp;quot;}],
+        [{bucket: monitorBucket, objectPrefix: "airflow/lab/data/raw"}],
         {readWriteType: cloudtrail.ReadWriteType.WRITE_ONLY});
     return trail;
 }&lt;/code&gt;&lt;/pre&gt; 
@@ -965,17 +965,17 @@ a.userIdentity.username
 &lt;p&gt;捕获规则和跟踪一样，只需要捕获特定桶特定目录的写入即可，此处利用 prefix 前缀操作符来限定。规则目标可以直接启动状态机，开启数据分析管道进程。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-js"&gt;createS3Event(machine, bucket) {
-    new events.Rule(this, &amp;quot;S3StepFunctions&amp;quot;, {
-        description: &amp;quot;S3 invoke StepFunctions&amp;quot;,
+    new events.Rule(this, "S3StepFunctions", {
+        description: "S3 invoke StepFunctions",
         eventPattern: {
-            source: [ &amp;quot;aws.s3&amp;quot; ],
-            detailType: [ &amp;quot;AWS API Call via CloudTrail&amp;quot; ],
+            source: [ "aws.s3" ],
+            detailType: [ "AWS API Call via CloudTrail" ],
             detail: {
-                &amp;quot;eventSource&amp;quot;: [ &amp;quot;s3.amazonaws.com&amp;quot; ],
-                &amp;quot;eventName&amp;quot;: [ &amp;quot;PutObject&amp;quot; ],
-                &amp;quot;requestParameters&amp;quot;: {
-                    &amp;quot;bucketName&amp;quot;: [ bucket.bucketName ],
-                    &amp;quot;key&amp;quot;: [{ &amp;quot;prefix&amp;quot;: &amp;quot;airflow/lab/data/raw&amp;quot; }]
+                "eventSource": [ "s3.amazonaws.com" ],
+                "eventName": [ "PutObject" ],
+                "requestParameters": {
+                    "bucketName": [ bucket.bucketName ],
+                    "key": [{ "prefix": "airflow/lab/data/raw" }]
                 }}},
         targets: [ new targets.SfnStateMachine(machine) ]
     });
@@ -995,7 +995,7 @@ a.userIdentity.username
  &lt;tbody&gt; 
   &lt;tr&gt; 
    &lt;td&gt;&lt;strong&gt;编写语言&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;JSON 及云开发包支持的所有语言&lt;br /&gt; (TypeScript, JavaScript, Python, Java, and C#)&lt;/td&gt; 
+   &lt;td&gt;JSON 及云开发包支持的所有语言&lt;br&gt; (TypeScript, JavaScript, Python, Java, and C#)&lt;/td&gt; 
    &lt;td&gt;Python&lt;/td&gt; 
    &lt;td&gt;Python&lt;/td&gt; 
   &lt;/tr&gt; 
@@ -1036,7 +1036,7 @@ a.userIdentity.username
    &lt;td&gt;数小时到数天&lt;/td&gt; 
   &lt;/tr&gt; 
   &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;Airflow &lt;/strong&gt;&lt;strong&gt;最新版本&lt;/strong&gt;&lt;br /&gt; &lt;strong&gt;（2021&lt;/strong&gt;&lt;strong&gt;年8&lt;/strong&gt;&lt;strong&gt;月）&lt;/strong&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;strong&gt;Airflow &lt;/strong&gt;&lt;strong&gt;最新版本&lt;/strong&gt;&lt;br&gt; &lt;strong&gt;（2021&lt;/strong&gt;&lt;strong&gt;年8&lt;/strong&gt;&lt;strong&gt;月）&lt;/strong&gt;&lt;/td&gt; 
    &lt;td&gt;不适用&lt;/td&gt; 
    &lt;td&gt;2.0.2&lt;/td&gt; 
    &lt;td&gt;2.1.3&lt;/td&gt; 
@@ -1061,7 +1061,7 @@ a.userIdentity.username
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/clementy.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/clementy.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;袁文俊&lt;/h3&gt; 
   &lt;p&gt;亚马逊云科技专业服务部顾问。曾在亚马逊美国西雅图总部工作多年，就职于 Amazon Relational Database Service (RDS) 关系型数据库服务开发团队。拥有丰富的后端开发及运维经验。现负责业务持续性及可扩展性运行、企业应用及数据库上云迁移、云上灾难恢复管理系统等架构咨询、方案设计及项目实施工作。他拥有复旦大学理学学士学位和香港大学哲学硕士学位。&lt;/p&gt; 
@@ -1071,7 +1071,7 @@ a.userIdentity.username
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/xzhom.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/xzhom.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;赵鑫&lt;/h3&gt; 
   &lt;p&gt;亚马逊云科技专业服务团队数据架构师，专注于生命科学、自动驾驶领域的数据架构与数据分析&lt;/p&gt; 
@@ -1129,7 +1129,7 @@ a.userIdentity.username
  &lt;/tbody&gt; 
 &lt;/table&gt; 
 &lt;p&gt;考虑到EKS 1.17将于2021年11月终止支持，同时目前绝大部分客户使用的还是EC2的方式，并且因为非托管节点组相对于托管节点组的功能是更早发布，加上早期的托管节点组功能较少的原因，一部分客户还停留在非托管节点组的模式，所以本文的实验通过将非托管节点组转换为托管节点组结合启动模板的方式简化EKS 集群从1.17升级到1.18的升级过程（虽然本实验进行的的是1.17到1.18的升级，但过程和其中的方法对其他EKS版本的升级同样适用，比如从1.15升级到1.16或者1.18升级到1.19）。其中主要内容涵盖：控制平面升级、数据平面非托管节点组迁移到托管节点组、托管节点组升级与变更等。&lt;/p&gt; 
-&lt;p&gt;在升级路径的选择上，也可以先将控制平面由1.17升级到1.18，然后创建托管节点组，再将工作负载由非托管节点组迁移到托管节点组，这样可以减少一次数据平面托管节点组的升级，加快集群整体升级的过程。因为本文的重点是介绍推广托管节点组结合启动模板的实践方法，先升级控制平面再创建托管节点组的做法，笔者测试下来对于文中简单的样例应用Nginx是可以的，遵从K8S官方的&lt;a href="https://kubernetes.io/releases/version-skew-policy/"&gt;Version Skew Policy&lt;/a&gt;：kubelet must not be newer than kube-apiserver, and may be up to two minor versions older。笔者尝试过将控制平面从1.17升级到1.18再连续升级到1.19，然后再创建托管节点组与迁移工作负载也是可以成功通过的，但如果集群中有对1.17到1.18/1.19版本变化敏感或者需要改造的应用，稳妥起见还是建议按照本实验的顺序来操作，并引入必要的测试。有兴趣的读者可以自行测试验证。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在升级路径的选择上，也可以先将控制平面由1.17升级到1.18，然后创建托管节点组，再将工作负载由非托管节点组迁移到托管节点组，这样可以减少一次数据平面托管节点组的升级，加快集群整体升级的过程。因为本文的重点是介绍推广托管节点组结合启动模板的实践方法，先升级控制平面再创建托管节点组的做法，笔者测试下来对于文中简单的样例应用Nginx是可以的，遵从K8S官方的&lt;a href="https://kubernetes.io/releases/version-skew-policy/"&gt;Version Skew Policy&lt;/a&gt;：kubelet must not be newer than kube-apiserver, and may be up to two minor versions older。笔者尝试过将控制平面从1.17升级到1.18再连续升级到1.19，然后再创建托管节点组与迁移工作负载也是可以成功通过的，但如果集群中有对1.17到1.18/1.19版本变化敏感或者需要改造的应用，稳妥起见还是建议按照本实验的顺序来操作，并引入必要的测试。有兴趣的读者可以自行测试验证。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;本文目标读者：EKS运维与管理人员&lt;/p&gt; 
 &lt;p&gt;实验所需时长：3小时&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
@@ -1148,7 +1148,7 @@ a.userIdentity.username
  &lt;pre&gt;&lt;code class="lang-python"&gt;# create a folder for the scripts
 mkdir ~/environment/scripts
 # tools script
-cat &amp;gt; ~/environment/scripts/install-tools &amp;lt;&amp;lt;-&amp;quot;EOF&amp;quot;
+cat &amp;gt; ~/environment/scripts/install-tools &amp;lt;&amp;lt;-"EOF"
 #!/bin/bash -ex
 sudo yum install -y jq gettext bash-completion
 
@@ -1158,15 +1158,15 @@ sudo chmod +x /usr/local/bin/kubectl
 echo 'source &amp;lt;(kubectl completion bash)' &amp;gt;&amp;gt;~/.bashrc
 source ~/.bashrc
 # install eksctl
-curl --silent --location &amp;quot;https://github.com/weaveworks/eksctl/releases/download/latest_release/eksctl_$(uname -s)_amd64.tar.gz&amp;quot; | tar xz -C /tmp
+curl --silent --location "https://github.com/weaveworks/eksctl/releases/download/latest_release/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
 sudo mv -v /tmp/eksctl /usr/local/bin
-if ! [ -x &amp;quot;$(command -v jq)&amp;quot; ] || ! [ -x &amp;quot;$(command -v envsubst)&amp;quot; ] || ! [ -x &amp;quot;$(command -v kubectl)&amp;quot; ] || ! [ -x &amp;quot;$(command -v eksctl)&amp;quot; ] || ! [ -x &amp;quot;$(command -v ssm-cli)&amp;quot; ]; then
+if ! [ -x "$(command -v jq)" ] || ! [ -x "$(command -v envsubst)" ] || ! [ -x "$(command -v kubectl)" ] || ! [ -x "$(command -v eksctl)" ] || ! [ -x "$(command -v ssm-cli)" ]; then
   echo 'ERROR: tools not installed.' &amp;gt;&amp;amp;2
   exit 1
 fi
 #pip install awscli --upgrade --user
 # install aws cli v2
-curl &amp;quot;https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip&amp;quot; -o &amp;quot;awscliv2.zip&amp;quot;
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
 . ~/.bash_profile
@@ -1193,25 +1193,25 @@ export EKS_CLUSTER_NAME=eksworkshop
 export EKS_UNMANAGED_NODEGROUP_NAME=ung-1
 export EKS_MANAGED_NODEGROUP_NAME=mng-1
 export AWS_DEFAULT_REGION=$AWS_REGION
-echo &amp;quot;export ACCOUNT_ID=${ACCOUNT_ID}&amp;quot; &amp;gt;&amp;gt; ~/.bash_profile
-echo &amp;quot;export AWS_REGION=${AWS_REGION}&amp;quot; &amp;gt;&amp;gt; ~/.bash_profile
-echo &amp;quot;export AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}&amp;quot; &amp;gt;&amp;gt; ~/.bashrc
-echo &amp;quot;export EKS_CLUSTER_NAME=${EKS_CLUSTER_NAME}&amp;quot; &amp;gt;&amp;gt; ~/.bashrc
-echo &amp;quot;export EKS_MANAGED_NODEGROUP_NAME=${EKS_MANAGED_NODEGROUP_NAME}&amp;quot; &amp;gt;&amp;gt; ~/.bashrc
-echo &amp;quot;export EKS_UNMANAGED_NODEGROUP_NAME=${EKS_UNMANAGED_NODEGROUP_NAME}&amp;quot; &amp;gt;&amp;gt; ~/.bashrc
+echo "export ACCOUNT_ID=${ACCOUNT_ID}" &amp;gt;&amp;gt; ~/.bash_profile
+echo "export AWS_REGION=${AWS_REGION}" &amp;gt;&amp;gt; ~/.bash_profile
+echo "export AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}" &amp;gt;&amp;gt; ~/.bashrc
+echo "export EKS_CLUSTER_NAME=${EKS_CLUSTER_NAME}" &amp;gt;&amp;gt; ~/.bashrc
+echo "export EKS_MANAGED_NODEGROUP_NAME=${EKS_MANAGED_NODEGROUP_NAME}" &amp;gt;&amp;gt; ~/.bashrc
+echo "export EKS_UNMANAGED_NODEGROUP_NAME=${EKS_UNMANAGED_NODEGROUP_NAME}" &amp;gt;&amp;gt; ~/.bashrc
 aws configure set default.region ${AWS_REGION}
 aws configure get default.region
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;p&gt;运行下列命令创建EKS集群配置模板文件 eks-cluster.yml.template&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;cat &amp;gt; ~/environment/scripts/eks-cluster.yml.template &amp;lt;&amp;lt;-&amp;quot;EOF&amp;quot;
+ &lt;pre&gt;&lt;code class="lang-python"&gt;cat &amp;gt; ~/environment/scripts/eks-cluster.yml.template &amp;lt;&amp;lt;-"EOF"
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 metadata:
   name: $EKS_CLUSTER_NAME
   region: $AWS_REGION
-  version: &amp;quot;1.17&amp;quot;
+  version: "1.17"
 nodeGroups:
   - name: $EKS_UNMANAGED_NODEGROUP_NAME
     minSize: 1
@@ -1244,10 +1244,10 @@ fi
 eksctl create iamidentitymapping --cluster $EKS_CLUSTER_NAME --arn ${rolearn} --group system:masters --username admin
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
-&lt;p&gt;我们可以在EC2控制台看到新创建了2个名称为eksworkshop-ung-1-Node类型为m5.large 的EC2实例，也可以在管理控制台的EKS服务的集群列表中查看刚刚创建好的集群节点、网络和其他集群配置信息。因为我们刚刚创建的是一个非托管节点组，所以如下图所示在EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Compute界面查看托管节点组为空&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 同时，因为eksctl工具的底层实现是依赖CloudFormation服务的，所以可以再CloudFormation服务的管理界面查看为了创建集群而新建的2个CloudFormaiton模板：集群控制平面CloudFormaiton Stack、非托管节点组CloudFormaiton Stack。+&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我们可以在EC2控制台看到新创建了2个名称为eksworkshop-ung-1-Node类型为m5.large 的EC2实例，也可以在管理控制台的EKS服务的集群列表中查看刚刚创建好的集群节点、网络和其他集群配置信息。因为我们刚刚创建的是一个非托管节点组，所以如下图所示在EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Compute界面查看托管节点组为空&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 同时，因为eksctl工具的底层实现是依赖CloudFormation服务的，所以可以再CloudFormation服务的管理界面查看为了创建集群而新建的2个CloudFormaiton模板：集群控制平面CloudFormaiton Stack、非托管节点组CloudFormaiton Stack。+&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h3&gt;部署样例工作负载&lt;/h3&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;cat &amp;gt; ~/environment/scripts/nginx.yaml &amp;lt;&amp;lt;-&amp;quot;EOF&amp;quot;
+ &lt;pre&gt;&lt;code class="lang-python"&gt;cat &amp;gt; ~/environment/scripts/nginx.yaml &amp;lt;&amp;lt;-"EOF"
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -1273,7 +1273,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: &amp;quot;nginx&amp;quot;
+  name: "nginx"
 spec:
   selector:
     app: nginx
@@ -1308,13 +1308,13 @@ kubectl apply -f ~/environment/scripts/nginx.yaml
 &lt;p&gt;运行下列命令设置环境变量并创建托管节点组&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;export LT_ID=$(aws ec2 describe-launch-templates --launch-template-name demo --output json | jq -r '.LaunchTemplates[0].LaunchTemplateId')
-cat &amp;gt; ~/environment/scripts/mng-1.yml.template &amp;lt;&amp;lt;-&amp;quot;EOF&amp;quot;
+cat &amp;gt; ~/environment/scripts/mng-1.yml.template &amp;lt;&amp;lt;-"EOF"
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 metadata:
   name: $EKS_CLUSTER_NAME
   region: $AWS_REGION
-  version: &amp;quot;1.17&amp;quot;
+  version: "1.17"
 managedNodeGroups:
   - name: $EKS_MANAGED_NODEGROUP_NAME
     minSize: 1
@@ -1323,14 +1323,14 @@ managedNodeGroups:
     labels: {role: managed-ng-worker}
     launchTemplate:
       id: $LT_ID
-      version: &amp;quot;1&amp;quot;
+      version: "1"
 EOF
 envsubst &amp;lt; ~/environment/scripts/mng-1.yml.template &amp;gt; ~/environment/scripts/mng-1.yml
 eksctl create nodegroup -f ~/environment/scripts/mng-1.yml
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;/div&gt; 
 &lt;p&gt;整个过程大概需要 3分钟左右。之后我们可以在EC2控制台看到新创建了2个名称为eksworkshop-mng-1类型为m5.large 的EC2实例。同时因为我们刚刚创建的是一个托管节点组，所以如下图所示在EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Compute界面可以查看到刚刚创建的托管节点组。&lt;/p&gt; 
-&lt;p&gt;注意上述托管节点组的配置文件中设置的版本1.17是与控制平面一致的版本，如果托管节点组配置的版本与EKS集群控制平面不一致时，eksctl会自动使用控制平面版本。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 从选中的部分可以看出托管节点组mng-1对应的启动模本名称为demo版本为1。也可以运行下列命令验证 EKS 集群节点组mng-1已经成功创建&lt;/p&gt; 
+&lt;p&gt;注意上述托管节点组的配置文件中设置的版本1.17是与控制平面一致的版本，如果托管节点组配置的版本与EKS集群控制平面不一致时，eksctl会自动使用控制平面版本。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 从选中的部分可以看出托管节点组mng-1对应的启动模本名称为demo版本为1。也可以运行下列命令验证 EKS 集群节点组mng-1已经成功创建&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;eksctl get nodegroup --cluster $EKS_CLUSTER_NAME&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;运行下列命令测试 EKS 集群新加入的两个节点是否正常工作&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;kubectl get nodes --show-labels&lt;/code&gt;&lt;/p&gt; 
@@ -1342,8 +1342,8 @@ kind: ClusterConfig
 metadata:
   name: eksworkshop
   region: us-east-1
-  version: &amp;quot;1.17&amp;quot;
-  availabilityZones: [&amp;quot;us-east-1a&amp;quot;, &amp;quot;us-east-1b&amp;quot;, &amp;quot;us-east-1c&amp;quot;]
+  version: "1.17"
+  availabilityZones: ["us-east-1a", "us-east-1b", "us-east-1c"]
 managedNodeGroups:
 - name: nodegroup
   minSize: 1
@@ -1368,23 +1368,23 @@ managedNodeGroups:
 &lt;p&gt;&lt;code&gt;kubectl get no -w&lt;/code&gt;&lt;/p&gt; 
 &lt;h3&gt;升级集群控制平面&lt;/h3&gt; 
 &lt;p&gt;如下图所示在EKS集群控制台上点击Update Now升级集群控制平面，因为K8S需要逐个版本升级，所以只有1.18目标版本是可选状态。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 升级后如下图所示集群处于Updating状态，整个升级过程大约需要30~40分钟。这步升级操作也可以通过eksctl命令或者aws cli来完成，具体做法请参考&lt;a href="https://docs.amazonaws.cn/eks/latest/userguide/update-cluster.html"&gt;官方文档&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 升级成功后可以看到集群版本变为1.18。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 升级后如下图所示集群处于Updating状态，整个升级过程大约需要30~40分钟。这步升级操作也可以通过eksctl命令或者aws cli来完成，具体做法请参考&lt;a href="https://docs.amazonaws.cn/eks/latest/userguide/update-cluster.html"&gt;官方文档&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 升级成功后可以看到集群版本变为1.18。&lt;/p&gt; 
 &lt;p&gt;需要注意的是如果有多个托管节点组，在升级控制平面之前，需要确认所有的托管节点组都已经升级到控制平面的版本，否则升级时会得到错误提示：Nodegroups xxx must be updated to match cluster version 1.1x before updating cluster version。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h3&gt;升级托管节点组&lt;/h3&gt; 
-&lt;p&gt;如下图所示进入EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Compute可以看到New AMI Release versios are avaiable for 1 Node Group的提示，并且在Node Groups中mng-1的AMI release version列的旁边出现了Update now的链接&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;点击Update now升级托管节点组到1.18&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;如下图所示进入EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Compute可以看到New AMI Release versios are avaiable for 1 Node Group的提示，并且在Node Groups中mng-1的AMI release version列的旁边出现了Update now的链接&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;点击Update now升级托管节点组到1.18&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;在上面的弹出的对话框中可以看到Update Strategy设置为Rolling update，也即滚动更新，点击Update开始节点组升级更新，整个过程需要约20分钟。&lt;/p&gt; 
-&lt;p&gt;其间可以在EC2控制台中查看新旧节点的变化情况，在新启动的实例细节信息里查验AMI name已经改为amazon-eks-node-1.18-v2021xxxx。通过运行命令：kubectl get no可以看到旧的节点被设置为SchedulingDisabled状态，Nginx Pod在被逐步迁移到新的节点上。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;可以通过如下图所示的编辑托管节点组 EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Node Group: mng-1 &amp;gt; Edit Node Group的Node Group update configuration来设置最大不可用节点数目或者比例数，从而控制滚动更新的颗粒度。当然也可以变更最小、最大、期望节点数，k8s labels，taints和tags等其他配置。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance10.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;其间可以在EC2控制台中查看新旧节点的变化情况，在新启动的实例细节信息里查验AMI name已经改为amazon-eks-node-1.18-v2021xxxx。通过运行命令：kubectl get no可以看到旧的节点被设置为SchedulingDisabled状态，Nginx Pod在被逐步迁移到新的节点上。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;可以通过如下图所示的编辑托管节点组 EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Node Group: mng-1 &amp;gt; Edit Node Group的Node Group update configuration来设置最大不可用节点数目或者比例数，从而控制滚动更新的颗粒度。当然也可以变更最小、最大、期望节点数，k8s labels，taints和tags等其他配置。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;相比之下，如果我们这里使用的依旧是非托管节点组，那么在这个步骤中我们就要重新创建一个与控制平面版本一致的1.18的新的非托管节点组，然后将工作负载从旧的1.17的节点组迁移到新的1.18的节点组再删除1.17的非托管节点组，这个过程相对于上述托管节点组的一键升级的流程复杂许多，而且存在一个新旧非托管节点组同时存在的时间窗口给集群的管理与维护增加了难度与不确定性。更令运维人员头疼的是，这个升级过程在后续的版本升级中（比如1.18到1.19）仍然需要重复一遍。对比可见数据平面的升级在托管节点组的支持下变得非常简单方便。&lt;/p&gt; 
 &lt;h3&gt;切换启动模板版本&lt;/h3&gt; 
 &lt;p&gt;在日常集群的维护中，我们经常会有一些变更需求，比如切换实例类型，修改各种资源比如EC2的名称等，这些在非托管节点组是无法实现的，而在配置了启动模板的托管节点组中可以轻松实现，下面将演示将节点组实例类型切换为m5.2xlarge的方法。&lt;/p&gt; 
-&lt;p&gt;基于启动模板demo的版本1新创建一个新版本：version 2，将实例类型设置为m5.2xlarge同时保持其他选项不变。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance11.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;基于启动模板demo的版本1新创建一个新版本：version 2，将实例类型设置为m5.2xlarge同时保持其他选项不变。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;等待托管节点组mng-1升级到1.18完成后，可以看到节点组的AMI release version改为1.18.20-xxxx，同时因为我们增加了一个新的启动模板的版本，点击Change version将mng-1节点组切换到新创建的版本2从而修改节点组的实例类型到m5.2xlarge。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance12.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance13.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 点击Update开始节点组滚动更新，类似的整个过程需要约20分钟。等待更新完毕后，按照相同的方法可以重新切换回版本1。启动模版的版本信息可以通过下列命令导出到yaml作为配置变更管理的一部分通过git等源代码版本管理工具来管理。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance12.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance13.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 点击Update开始节点组滚动更新，类似的整个过程需要约20分钟。等待更新完毕后，按照相同的方法可以重新切换回版本1。启动模版的版本信息可以通过下列命令导出到yaml作为配置变更管理的一部分通过git等源代码版本管理工具来管理。&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;aws ec2 describe-launch-template-versions --launch-template-name demo --output yaml&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;需要注意的是在启动模板的不同版本间做切换目前不支持在有使用EKS优化AMI与自定义AMI的不同版本间切换。否则会得到错误：You cannot specify an image id within the launch template, since your nodegroup is configured to use an EKS optimized AMI（默认EKS优化版本改为自定义AMI版本）或者The request must contain the parameter ImageId（自定义AMI版本改为默认EKS优化版本）。如果有将默认AMI替换为自定义AMI的需求，可以通过创建一个新的托管节点组来引用配置有自定义AMI的启动模板的版本来解决。&lt;/p&gt; 
 &lt;h3&gt;删除EKS集群和Cloud9环境&lt;/h3&gt; 
@@ -1413,7 +1413,7 @@ managedNodeGroups:
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/dapengt.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/dapengt.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;田大鹏&lt;/h3&gt; 
   &lt;p&gt;AWS解决方案架构师，负责帮助客户进行上云架构的设计和咨询。在电商及互联网行业有丰富的咨询和架构设计经验。加入 AWS 前曾于全球领先的存储和虚拟化企业，担任研发主管工程师及研发经理多种职位，负责在线存储及备份系统的多个子系统的高并发、高可用系统架构设计，应用微服务化等敏捷项目。&lt;/p&gt; 
@@ -1423,7 +1423,7 @@ managedNodeGroups:
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/guili.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/guili.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;何归丽&lt;/h3&gt; 
   &lt;p&gt;AWS高级解决方案架构师，负责基于AWS的云计算方案架构的咨询和设计，同时致力于AWS云服务在国内的应用和推广。加入AWS之前在外企软件部门担任系统架构师，有十多年的软件研发和架构设计经验，在微服务架构和容器、企业应用信息安全、DevOps等领域有丰富的经验。&lt;/p&gt; 
@@ -1433,7 +1433,7 @@ managedNodeGroups:
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/panwenmi.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/panwenmi.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;潘文明&lt;/h3&gt; 
   &lt;p&gt;AWS解决方案架构师，负责基于 AWS 的云计算方案的咨询与架构设计。专注于游戏行业，帮助客户利用AWS全球基础设施与强大的技术能力打造爆款游戏，降低游戏运行成本。&lt;/p&gt; 
@@ -1458,7 +1458,7 @@ managedNodeGroups:
  &lt;li&gt;通过API访问数据湖或本地数据存储，且管理员需要在镜像中添加相应驱动程序。&lt;/li&gt; 
  &lt;li&gt;访问后端运行时（也称内核）；除IPython之外，还有R、Julia或其它环境等。您也可以使用本文中概述的方法安装其他自定义内核。&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;在大型企业中，机器学习平台管理员往往需要保证安全团队预先批准第三方软件包及代码，而非直接通过互联网下载。在常见的工作流示例中，机器学习平台团队会批准一组要使用的软件包与框架，使用这些软件包构建自定义容器、测试容器中的漏洞，而后将核准后的镜像推送至私有容器注册表内，例如&lt;a href="https://aws.amazon.com/ecr/"&gt;Amazon Elastic Container Registry&lt;/a&gt;&amp;nbsp;(Amazon ECR)。现在，机器学习平台团队可以将经过核准的镜像直接附加至Studio域内（请参见以下工作流程图）。您只需在Studio中选定所需的获准自定义镜像即可。在当前版本中，单一Studio域最多可以包含30个自定义镜像，您可以根据需求添加新版本或删除镜像。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在大型企业中，机器学习平台管理员往往需要保证安全团队预先批准第三方软件包及代码，而非直接通过互联网下载。在常见的工作流示例中，机器学习平台团队会批准一组要使用的软件包与框架，使用这些软件包构建自定义容器、测试容器中的漏洞，而后将核准后的镜像推送至私有容器注册表内，例如&lt;a href="https://aws.amazon.com/ecr/"&gt;Amazon Elastic Container Registry&lt;/a&gt;&amp;nbsp;(Amazon ECR)。现在，机器学习平台团队可以将经过核准的镜像直接附加至Studio域内（请参见以下工作流程图）。您只需在Studio中选定所需的获准自定义镜像即可。在当前版本中，单一Studio域最多可以包含30个自定义镜像，您可以根据需求添加新版本或删除镜像。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;现在，我们将逐步介绍如何使用此项功能将自定义容器镜像导入Amazon SageMaker Studio notebooks当中。这里主要演示在互联网上使用时的默认方法，您也可以对其稍加修改以配合&lt;a href="https://aws.amazon.com/vpc/"&gt;Amazon Virtual Private Cloud&lt;/a&gt;&amp;nbsp;(Amazon VPC)进行使用。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;先决条件&lt;/h2&gt; 
@@ -1469,44 +1469,44 @@ managedNodeGroups:
 &lt;/ul&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;{
-            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
-            &amp;quot;Action&amp;quot;: [
-                &amp;quot;ecr:CreateRepository&amp;quot;,
-                &amp;quot;ecr:BatchGetImage&amp;quot;,
-                &amp;quot;ecr:CompleteLayerUpload&amp;quot;,
-                &amp;quot;ecr:DescribeImages&amp;quot;,
-                &amp;quot;ecr:DescribeRepositories&amp;quot;,
-                &amp;quot;ecr:UploadLayerPart&amp;quot;,
-                &amp;quot;ecr:ListImages&amp;quot;,
-                &amp;quot;ecr:InitiateLayerUpload&amp;quot;,
-                &amp;quot;ecr:BatchCheckLayerAvailability&amp;quot;,
-                &amp;quot;ecr:GetDownloadUrlForLayer&amp;quot;,
-                &amp;quot;ecr:PutImage&amp;quot;
+            "Effect": "Allow",
+            "Action": [
+                "ecr:CreateRepository",
+                "ecr:BatchGetImage",
+                "ecr:CompleteLayerUpload",
+                "ecr:DescribeImages",
+                "ecr:DescribeRepositories",
+                "ecr:UploadLayerPart",
+                "ecr:ListImages",
+                "ecr:InitiateLayerUpload",
+                "ecr:BatchCheckLayerAvailability",
+                "ecr:GetDownloadUrlForLayer",
+                "ecr:PutImage"
             ],
-            &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:ecr:*:*:repository/smstudio*&amp;quot;
+            "Resource": "arn:aws:ecr:*:*:repository/smstudio*"
         },
         {
-            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
-            &amp;quot;Action&amp;quot;: &amp;quot;ecr:GetAuthorizationToken&amp;quot;,
-            &amp;quot;Resource&amp;quot;: &amp;quot;*&amp;quot;
+            "Effect": "Allow",
+            "Action": "ecr:GetAuthorizationToken",
+            "Resource": "*"
            }
 {
-            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
-            &amp;quot;Action&amp;quot;: [
-                &amp;quot;codebuild:DeleteProject&amp;quot;,
-                &amp;quot;codebuild:CreateProject&amp;quot;,
-                &amp;quot;codebuild:BatchGetBuilds&amp;quot;,
-                &amp;quot;codebuild:StartBuild&amp;quot;
+            "Effect": "Allow",
+            "Action": [
+                "codebuild:DeleteProject",
+                "codebuild:CreateProject",
+                "codebuild:BatchGetBuilds",
+                "codebuild:StartBuild"
             ],
-            &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:codebuild:*:*:project/sagemaker-studio*&amp;quot;
+            "Resource": "arn:aws:codebuild:*:*:project/sagemaker-studio*"
 }
 {
-            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
-            &amp;quot;Action&amp;quot;: &amp;quot;iam:PassRole&amp;quot;,
-            &amp;quot;Resource&amp;quot;: &amp;quot;arn:aws:iam::*:role/*&amp;quot;,
-            &amp;quot;Condition&amp;quot;: {
-                &amp;quot;StringLikeIfExists&amp;quot;: {
-                    &amp;quot;iam:PassedToService&amp;quot;: &amp;quot;codebuild.amazonaws.com&amp;quot;
+            "Effect": "Allow",
+            "Action": "iam:PassRole",
+            "Resource": "arn:aws:iam::*:role/*",
+            "Condition": {
+                "StringLikeIfExists": {
+                    "iam:PassedToService": "codebuild.amazonaws.com"
                 }
             }
 }
@@ -1515,16 +1515,16 @@ managedNodeGroups:
 &lt;p&gt;您的Amazon SageMaker角色还应在Amazon CodeBuild中拥有信任策略，具体如下所示。关于更多详细信息，请参阅&lt;a href="https://aws.amazon.com/blogs/machine-learning/using-the-amazon-sagemaker-studio-image-build-cli-to-build-container-images-from-your-studio-notebooks/"&gt;使用Amazon SageMaker Studio镜像构建CLI在Studio notebooks中构建容器镜像&lt;/a&gt;。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;{
-  &amp;quot;Version&amp;quot;: &amp;quot;2012-10-17&amp;quot;,
-  &amp;quot;Statement&amp;quot;: [
+  "Version": "2012-10-17",
+  "Statement": [
     {
-      &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
-      &amp;quot;Principal&amp;quot;: {
-        &amp;quot;Service&amp;quot;: [
-          &amp;quot;codebuild.amazonaws.com&amp;quot;
+      "Effect": "Allow",
+      "Principal": {
+        "Service": [
+          "codebuild.amazonaws.com"
         ]
       },
-      &amp;quot;Action&amp;quot;: &amp;quot;sts:AssumeRole&amp;quot;
+      "Action": "sts:AssumeRole"
     }
   ]
 }
@@ -1552,7 +1552,7 @@ managedNodeGroups:
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;创建Dockerfile&lt;/h2&gt; 
 &lt;p&gt;为了体现数据科学家使用最新框架进行试验的普遍性需求，我们在本次演练中使用以下Dockerfile，其选择最新的TensorFlow 2.3版本作为基础镜像。您也可以使用自己指定的Dockerfile进行替换。目前，Amazon SageMaker Studio已经能够支持多种基础镜像，例如Ubuntu、Amazon Linux 2等等。Dockerfile将安装运行Juypter notebooks所需要的IPython运行时，同时安装Amazon SageMaker Python SDK与boto3。&lt;/p&gt; 
-&lt;p&gt;除了笔记本电脑之外，除了notebooks之外，数据科学家与机器学习工程师们还经常使用各种流行IDE（例如Visual Studio Code或者Py&amp;Ccedil;harm）在本地notebooks上进行迭代与试验。您可能希望将这些脚本引入云端，借此进行扩展化训练或数据处理。您可以将这些脚本打包进Docker容器之内，并在Amazon SageMaker Studio的本地存储中查看。在以下Dockerfile中，我们复制的train.py&amp;nbsp;脚本是一套用于在MNIST数据集上训练简单深度学习模型的基础脚本。您也可以使用自己的脚本或包含代码的软件包替换此脚本。&lt;/p&gt; 
+&lt;p&gt;除了笔记本电脑之外，除了notebooks之外，数据科学家与机器学习工程师们还经常使用各种流行IDE（例如Visual Studio Code或者PyÇharm）在本地notebooks上进行迭代与试验。您可能希望将这些脚本引入云端，借此进行扩展化训练或数据处理。您可以将这些脚本打包进Docker容器之内，并在Amazon SageMaker Studio的本地存储中查看。在以下Dockerfile中，我们复制的train.py&amp;nbsp;脚本是一套用于在MNIST数据集上训练简单深度学习模型的基础脚本。您也可以使用自己的脚本或包含代码的软件包替换此脚本。&lt;/p&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;FROM tensorflow/tensorflow:2.3.0
 RUN apt-get update 
@@ -1595,18 +1595,18 @@ model.evaluate(x_test, y_test)&lt;/code&gt;&lt;/pre&gt;
  &lt;li&gt;名为&amp;nbsp;app-image-config-input.json&amp;nbsp;的文件，具体内容如下：&lt;/li&gt; 
 &lt;/ul&gt; 
 &lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;&amp;quot;AppImageConfigName&amp;quot;: &amp;quot;custom-tf2&amp;quot;,
-    &amp;quot;KernelGatewayImageConfig&amp;quot;: {
-        &amp;quot;KernelSpecs&amp;quot;: [
+ &lt;pre&gt;&lt;code class="lang-python"&gt;"AppImageConfigName": "custom-tf2",
+    "KernelGatewayImageConfig": {
+        "KernelSpecs": [
             {
-                &amp;quot;Name&amp;quot;: &amp;quot;python3&amp;quot;,
-                &amp;quot;DisplayName&amp;quot;: &amp;quot;Python 3&amp;quot;
+                "Name": "python3",
+                "DisplayName": "Python 3"
             }
         ],
-        &amp;quot;FileSystemConfig&amp;quot;: {
-            &amp;quot;MountPath&amp;quot;: &amp;quot;/root/data&amp;quot;,
-            &amp;quot;DefaultUid&amp;quot;: 0,
-            &amp;quot;DefaultGid&amp;quot;: 0
+        "FileSystemConfig": {
+            "MountPath": "/root/data",
+            "DefaultUid": 0,
+            "DefaultGid": 0
         }
     }
 }
@@ -1618,12 +1618,12 @@ model.evaluate(x_test, y_test)&lt;/code&gt;&lt;/pre&gt;
 &lt;/ul&gt; 
 &lt;div class="hide-language"&gt; 
  &lt;pre&gt;&lt;code class="lang-python"&gt;{
-  &amp;quot;DefaultUserSettings&amp;quot;: {
-    &amp;quot;KernelGatewayAppSettings&amp;quot;: {
-      &amp;quot;CustomImages&amp;quot;: [
+  "DefaultUserSettings": {
+    "KernelGatewayAppSettings": {
+      "CustomImages": [
           {
-                   &amp;quot;ImageName&amp;quot;: &amp;quot;tf2kernel&amp;quot;,
-                   &amp;quot;AppImageConfigName&amp;quot;: &amp;quot;custom-tf2&amp;quot;
+                   "ImageName": "tf2kernel",
+                   "AppImageConfigName": "custom-tf2"
                 }
             ]
         }
@@ -1669,7 +1669,7 @@ aws --region ${REGION} sagemaker create-image \
 
 aws --region ${REGION} sagemaker create-image-version \
     --image-name ${IMAGE_NAME} \
-    --base-image &amp;quot;${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/smstudio-custom:${IMAGE_NAME}&amp;quot;
+    --base-image "${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/smstudio-custom:${IMAGE_NAME}"
     
 ## 为此镜像创建AppImageConfig（根据需要修改app-image-config-input.json中的AppImageConfigName与KernelSpecs参数）
 aws --region ${REGION} sagemaker create-app-image-config --cli-input-json file://app-image-config-input.json
@@ -1689,7 +1689,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;ul&gt; 
  &lt;li&gt;&lt;strong&gt;选择&lt;/strong&gt;&lt;strong&gt;Attach image&lt;/strong&gt;。&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;选择要附加新镜像，还是附加原有镜像。&lt;/li&gt; 
 &lt;/ul&gt; 
@@ -1706,7 +1706,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;ul&gt; 
  &lt;li&gt;&lt;strong&gt;选择&lt;/strong&gt;&lt;strong&gt;Next&lt;/strong&gt;。&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;&lt;strong&gt;在&lt;/strong&gt;&lt;strong&gt;Image name&lt;/strong&gt;部分，输入名称。&lt;/li&gt; 
  &lt;li&gt;在&lt;strong&gt;Image display name&lt;/strong&gt;部分，输入描述性名称。&lt;/li&gt; 
@@ -1715,13 +1715,13 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
  &lt;li&gt;此外，您也可以对镜像做出其他标记。&lt;/li&gt; 
  &lt;li&gt;选择&amp;nbsp;&lt;strong&gt;Next&lt;/strong&gt;。&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;在Kernel name部分，输入Python 3。&lt;/li&gt; 
  &lt;li&gt;&lt;strong&gt;选择&lt;/strong&gt;&lt;strong&gt;Submit&lt;/strong&gt;&lt;strong&gt;。&lt;/strong&gt;&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;绿色复选框代表镜像已被成功附加至域内。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;绿色复选框代表镜像已被成功附加至域内。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;Amazon SageMaker镜像存储将自动对镜像进行版本控制。您可以选择一个预先附加的镜像，而后选择Detach以分离该镜像及所有相关版本，或者选择Attach image以附加新版本。各镜像的版本数量或分离镜像的功能不受限制。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;自定义镜像用户体验&lt;/h2&gt; 
@@ -1731,31 +1731,31 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
  &lt;li&gt;&lt;strong&gt;要启动新活动，请选择&lt;/strong&gt;&lt;strong&gt;Launcher&lt;/strong&gt;。&lt;/li&gt; 
  &lt;li&gt;在&lt;strong&gt;Select a SageMaker image to launch your activity&lt;/strong&gt;&lt;strong&gt;部分，选择&lt;/strong&gt;&lt;strong&gt;tf2kernel&lt;/strong&gt;。&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;&lt;strong&gt;选择&lt;/strong&gt;&lt;strong&gt;Notebook&lt;/strong&gt;图标，使用自定义内核打开一个新notebook。&lt;/li&gt; 
 &lt;/ul&gt; 
 &lt;p&gt;Notebook内核需要几分钟才能启动完成，之后即可开始使用！&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;在notebook中测试您的自定义容器&lt;/h2&gt; 
-&lt;p&gt;在内核启动并开始运行之后，您即可在notebook中运行代码。首先，我们测试Dockerfile中指定的TensorFlow是否为正确版本。在以下截屏中，可以看到我们刚刚创建的notebook正在使用tf2kernel。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在内核启动并开始运行之后，您即可在notebook中运行代码。首先，我们测试Dockerfile中指定的TensorFlow是否为正确版本。在以下截屏中，可以看到我们刚刚创建的notebook正在使用tf2kernel。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;Amazon SageMaker notebooks还会显示本地CPU与内存使用量。&lt;/p&gt; 
-&lt;p&gt;接下来，我们直接在notebook中使用自定义训练脚本。将训练脚本复制到notebook单元中并运行。此脚本会从tf.keras.datasets处下载mnist数据集，并将数据拆分为训练数据集与测试数据集，自定义一项定制化深度神经网络算法，在训练数据集上训练算法，并在测试数据集上测试算法。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;要尝试使用TensorFlow 2.3框架，大家可能希望测试新发布的API，例如Keras中提供的预处理实用程序等新功能。在以下截屏中，我们导入了随TensorFlow 2.3版本发布的keras.layers.experimental&amp;nbsp;库，其中包含用于数据预处理的新API。我们加载其中一个API，而后在notebook中重新运行脚本。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks10.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;接下来，我们直接在notebook中使用自定义训练脚本。将训练脚本复制到notebook单元中并运行。此脚本会从tf.keras.datasets处下载mnist数据集，并将数据拆分为训练数据集与测试数据集，自定义一项定制化深度神经网络算法，在训练数据集上训练算法，并在测试数据集上测试算法。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;要尝试使用TensorFlow 2.3框架，大家可能希望测试新发布的API，例如Keras中提供的预处理实用程序等新功能。在以下截屏中，我们导入了随TensorFlow 2.3版本发布的keras.layers.experimental&amp;nbsp;库，其中包含用于数据预处理的新API。我们加载其中一个API，而后在notebook中重新运行脚本。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;Amazon SageMaker还能够在代码运行过程中动态修改CPU与内存使用率。通过引入自定义容器与训练脚本，此功能使您能够直接在Amazon SageMaker notebook中尝试自定义训练脚本与算法。如果您对Studio notebook中的试验结果感到满意，则可立即启动训练作业。&lt;/p&gt; 
 &lt;p&gt;Docker file中所包含的、使用COPY命令的Python文件或其他自定义文件运行情况如何？Amazon SageMaker Studio会挂载app-image-config-input.json所提供的文件路径中的弹性文件系统，在本示例中我们将其设定为root/data。为了避免Studio覆盖掉需要包含的自定义文件，COPY命令会将train.py文件加载至路径/root当中。要访问此文件，请打开终端或notebook并运行以下代码：&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;! cat /root/train.py&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;这时您应看到以下截屏所示的输出结果。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks11.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;这时您应看到以下截屏所示的输出结果。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;可以看到train.py&amp;nbsp;文件位于指定位置。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;CloudWatch中的日志记录&lt;/h2&gt; 
 &lt;p&gt;Amazon SageMaker Studio还会将内核指标发布至Amazon CloudWatch供您进行故障排查。这些指标将被捕捉至/aws/sagemaker/studio命名空间之内。&lt;/p&gt; 
-&lt;p&gt;要访问日志，请在CloudWatch控制台上选择CloudWatch Logs。在Log groups页面中，输入命名空间以查看与Jupyter服务器及内核网关相关的日志记录。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks12.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;要访问日志，请在CloudWatch控制台上选择CloudWatch Logs。在Log groups页面中，输入命名空间以查看与Jupyter服务器及内核网关相关的日志记录。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks12.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;分离镜像或版本&lt;/h2&gt; 
 &lt;p&gt;您可以从域中分离镜像或特定镜像版本。&lt;/p&gt; 
-&lt;p&gt;要分离镜像及其全部版本，请在Custom images attached to domain表内选定该镜像，而后选择Detach。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks13.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;您还可以选择删除镜像及所有版本，这不会影响到Amazon ECR中的镜像。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks14.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks14.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;要分离镜像及其全部版本，请在Custom images attached to domain表内选定该镜像，而后选择Detach。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks13.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;您还可以选择删除镜像及所有版本，这不会影响到Amazon ECR中的镜像。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks14.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks14.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;要分离镜像的特定版本，请选定该镜像。在Image details页面上，从Image versions attached to domain表中选择目标镜像版本（一个或者多个版本），而后选择Detach。您会看到如上所示的警告及操作选项。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;总结&lt;/h2&gt; 
@@ -1765,7 +1765,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/stenatu.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/stenatu.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Stefan Natu&lt;/h3&gt; 
   &lt;p&gt;亚马逊云科技公司高级机器学习专家。他致力于帮助金融服务客户在亚马逊云科技上构建端到端机器学习解决方案。在业余时间，他喜欢阅读机器学习技术博客、演奏吉他和探索纽约当地的各种美食。&lt;/p&gt; 
@@ -1775,7 +1775,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/jaipreet.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/jaipreet.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Jaipreet Singh&lt;/h3&gt; 
   &lt;p&gt;Amazon SageMaker Studio团队高级软件工程师。他自2017年立项以来就一直从事Amazon SageMaker的开发工作，并为多个Jupyter开源项目做出贡献。业余时间，他喜欢远足和滑雪。&lt;/p&gt; 
@@ -1785,7 +1785,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/huonguh.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/huonguh.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Huong Nguyen&lt;/h3&gt; 
   &lt;p&gt;亚马逊云科技公司高级产品经理。她负责Amazon SageMaker Studio的用户体验工作。她在企业级及消费级领域拥有13年客户体验与数据驱动产品开发经验。在业余时间，她喜欢读书、享受自然风光和陪伴家人。&lt;/p&gt; 
@@ -1847,13 +1847,13 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;p&gt;更多详细信息，请参考&lt;a href="https://aws.amazon.com/cn/tax-help/location/"&gt;https://aws.amazon.com/cn/tax-help/location/&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;strong&gt;3.1.1 设置TRN(Tax Registration Number) – 只对于有TRN的国家和地区适用&lt;/strong&gt;&lt;/p&gt; 
 &lt;p&gt;美国、日本、中国和香港地区没有TRN，不能进行设置。如果您的公司实体在这些国家和地区，请通过设置Billing Address和Contract Address来完成对location的设置。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;strong&gt;3.1.2 设置Billing Address&lt;/strong&gt;&lt;/p&gt; 
 &lt;p&gt;进入AWS控制台，点左侧导航栏的Payment Method，选中Billing Address，点Edit，修改地址为满足要求的location。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;strong&gt;3.1.3 设置Contact Address&lt;/strong&gt;&lt;/p&gt; 
 &lt;p&gt;点击控制台右上方的My Account，在Contact Information部分，点击Edit，修改Contact Address为满足要求的location。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h3&gt;&lt;strong&gt;3.2 设置AWS Marketplace Management Portal上的location&lt;/strong&gt;&lt;/h3&gt; 
 &lt;p&gt;注册成为marketplace卖家过程中，需要在AWS Marketplace Management Portal(AMMP)里设置公司实体相关信息。公司实体所在国家或区域必须和Billing Console里的保持一致，且也是&lt;a href="https://docs.aws.amazon.com/marketplace/latest/userguide/user-guide-for-sellers.html#eligible-jurisdictions"&gt;Eligible Location&lt;/a&gt;之一。&lt;/p&gt; 
 &lt;p&gt;以下是在AMMP中设置location的方法：&lt;/p&gt; 
@@ -1868,45 +1868,45 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
    &lt;li&gt;假如所有的设置都正确，在框五中，会显示“Publish paid and free products”。表示该卖家可以售卖付费产品。&lt;/li&gt; 
   &lt;/ol&gt; &lt;/li&gt; 
 &lt;/ol&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;h3&gt;&lt;strong&gt;3.3 在AWS Marketplace Management Portal里设置用于接收软件售卖款的美国银行账户&lt;/strong&gt;&lt;/h3&gt; 
 &lt;p&gt;卖家需要设置一个银行账户，用于接收售卖软件所得款，Marketplace要求这个账号必须是美国银行账户。如果没有实体的美国银行账户，用户可以通过与Maketplace有合作关系的HyperWallet开通虚拟美国银行账户。在HyperWallet里绑定自己美国之外的银行账户，这样款会先进入HyperWallet的虚拟美国账户，然后再转给卖家在美国外的实体银行账户。具体开通方式如下：&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;登录&lt;a href="https://aws.amazon.com/marketplace/management/homepage/"&gt;Amazon Marketplace Management Portal&lt;/a&gt;&lt;/li&gt; 
  &lt;li&gt;点Setting。点页面下端的Payment Information标签，点Complete Banking Information&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;选项： Do you have a US bank account?&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;选：NO&lt;/li&gt; 
  &lt;li&gt;选项: Are you Register with HyperWallet Already?&amp;nbsp;&amp;nbsp;&amp;nbsp; 选: NO&lt;/li&gt; 
  &lt;li&gt;复制Pin Code, 点Sign Up For HyperWallet&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;跳转到hyperwallet，用pincode注册账号&lt;/li&gt; 
  &lt;li&gt;点add transfer method。选择从HyperWallet收款的银行账户所在国家。例如如果您有香港银行账户，请选 Hong Kong SAR China.&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;填写Account Information: bank code, branch code, account number。&lt;/li&gt; 
  &lt;li&gt;下面的address会自动填写。&lt;/li&gt; 
  &lt;li&gt;注意：Account Holder的公司名，必须和Bank account的公司名是一样的。&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;香港的银行账户请注意：account number应该是9位数字。如果您的account number是8位数字，多数是内部账号，请咨询开户银行获取外部的9位数account number。如果您的account number是12位，请确认前3位是否为branch code。&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;点submit。成功的话，系统返回HyperWallet创建的virtual US account。把文件保存好。&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;回到AMMP里的Payment Information 页面，填写US Bank Account&lt;/li&gt; 
  &lt;li&gt;填写HyperWallet里所填的银行账号地址，前面保存的文件里也有。&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace10.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;填写HyperWallet虚拟美国账户信息&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace11.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-register-as-an-overseas-seller-on-amazon-cloud-technology-marketplace11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;ul&gt; 
  &lt;li&gt;点击提交即可&lt;/li&gt; 
 &lt;/ul&gt; 
@@ -1916,7 +1916,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/hanliang.png" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/hanliang.png" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;韩亮&lt;/h3&gt; 
   &lt;p&gt;AWS Marketplace技术客户经理&lt;/p&gt; 
@@ -1964,12 +1964,12 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;p&gt;此示例展示了创建一个名为&amp;nbsp;stock_table&amp;nbsp;的表，其中包含股票、价格和表示记录股票价格时间的&amp;nbsp;event_time&amp;nbsp;列。WATERMARK&amp;nbsp;子句根据&amp;nbsp;event_time&amp;nbsp;(row_time) 列定义了用于生成水位线的水位线策略。event_time&amp;nbsp;列被定义为&amp;nbsp;Timestamp(3)，是与水位线一起使用的顶级列。WATERMARK定义后面的语法 —&amp;nbsp;FOR event_time AS event_time – INTERVAL ‘5’ SECOND&amp;nbsp;— 声明水位线是根据&lt;a href="https://ci.apache.org/projects/flink/flink-docs-release-1.13/docs/dev/datastream/event-time/built_in/#fixed-amount-of-lateness"&gt;&amp;nbsp;bounded-out-of-orderness&lt;/a&gt; 策略发出的，允许&amp;nbsp;event_time&amp;nbsp;数据有 5 秒的延迟。该表使用 Kinesis 连接器从最新的流位置读取&amp;nbsp;us-east-1&amp;nbsp;区域中名为&amp;nbsp;input-stream&amp;nbsp;的 Kinesis 数据流。&lt;/p&gt; 
 &lt;p&gt;在 Zeppelin 笔记本中运行此语句时，将会根据 CREATE 语句中的声明创建一个&lt;a href="https://aws.amazon.com/glue"&gt;&amp;nbsp;Amazon Glue&lt;/a&gt;&amp;nbsp;数据目录表，该表可立即用于来自 Kinesis Data Streams 的查询。&lt;/p&gt; 
 &lt;p&gt;如果数据目录已包含该表，则无需完成此步骤。您可以如前文所述创建表，也可以使用现有的数据目录表。&lt;/p&gt; 
-&lt;p&gt;以下屏幕截图展示了在 Amazon Glue 数据目录中创建的表。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;以下屏幕截图展示了在 Amazon Glue 数据目录中创建的表。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; &amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;使用实时更新查询数据流&lt;/strong&gt;&lt;/h2&gt; 
 &lt;p&gt;创建表后，可以通过编写 SELECT 语句来执行简单的数据流查询，该语句允许以表格形式或条形图、饼图等显示数据：&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;%flink.ssql(type=update)&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;SELECT * FROM stock_table;&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;从不同图表中选择不同的可视化效果非常简单，可以直接从结果集的左上角选择。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;从不同图表中选择不同的可视化效果非常简单，可以直接从结果集的左上角选择。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;要删除或重新创建此表，您可以导航到 Amazon Glue 控制台中的表目录，手动将其从数据目录中删除，也可以从Amazon Kinesis Data Analytics Studio 笔记本中显式地删除此表：&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;%flink.ssql(type=update)&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;DROP TABLE stock_table;&lt;/code&gt;&lt;/p&gt; 
@@ -1979,7 +1979,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;p&gt;&lt;code&gt;%flink.ssql(type=update)&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;SELECT * FROM stock_table WHERE ticker LIKE 'AM%'&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;如下屏幕截图显示了结果。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio4.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;如下屏幕截图显示了结果。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;用户定义函数&lt;/strong&gt;&lt;/h2&gt; 
 &lt;p&gt;您可以在笔记本中注册用户定义函数 (UDF)，以便在我们的 Flink SQL 查询中使用。必须在表环境中注册才能供Amazon Kinesis Data Analytics Studio 应用程序中的 Flink SQL 使用。UDF 是可以在 Flink SQL 范围之外定义的函数，它们使用自定义逻辑或频繁的转换，通常这些内容不方便在 SQL 中表达出来。&lt;/p&gt; 
@@ -1994,17 +1994,17 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;p&gt;&lt;code&gt;class DateTimeToEpoch extends ScalarFunction {&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;def eval(datetime: LocalDateTime) = datetime.toEpochSecond(ZoneOffset.UTC)&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;}&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;stenv.registerFunction(&amp;quot;dt_to_epoch&amp;quot;, new DateTimeToEpoch())&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;stenv.registerFunction("dt_to_epoch", new DateTimeToEpoch())&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;class ScalaLowerCase extends ScalarFunction {&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;def eval(str: String) = str.toLowerCase&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;}&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;stenv.registerFunction(&amp;quot;to_lower&amp;quot;, new ScalaLowerCase())&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;stenv.registerFunction("to_lower", new ScalaLowerCase())&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;在每个 UDF 定义的底部，Scala 中的&amp;nbsp;stenv(StreamingTableEnvironment) 用于注册指定名称的函数。&lt;/p&gt; 
 &lt;p&gt;注册后，您只需在 Flink SQL 段落中调用 UDF 即可转换我们的数据：&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;%flink.ssql(type=update)&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;SELECT to_lower(ticker) as lowercase_ticker, price, dt_to_epoch(event_time) as epoch_time from stock_table;&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;如下屏幕截图显示了结果。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio5.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;如下屏幕截图显示了结果。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;使用外部数据源（&lt;/strong&gt;&lt;strong&gt;join）来扩充数据&lt;/strong&gt;&lt;/h2&gt; 
 &lt;p&gt;您可能需要使用存储在数据流之外的静态或参考数据来扩充流数据。例如，除了股票交易之外，公司地址和元数据可能流入到关系数据库或Amazon S3上的文件。为了扩充数据流，Flink SQL 允许您将参考数据连接到流数据源。这种扩充静态数据可能有或没有与之关联的时间元素。如果没有关联的时间元素，您可能需要向从外部读取的数据添加时间处理元素，以便将其与基于时间的流连接起来。这是为了避免得到过时的数据，在扩充数据时应注意这一点。&lt;/p&gt; 
@@ -2026,7 +2026,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;p&gt;&lt;code&gt;SELECT ticker, price, company_name, event_time, company_city, company_state_abbrev FROM (SELECT CAST(event_time AS TIMESTAMP) as event_time, ticker, price from stock_table)&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;JOIN company_details_table cd&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;ON ticker=ticker_symbol;&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;在撰写本文时，Flink 存在一个&lt;a href="https://issues.apache.org/jira/browse/FLINK-10211"&gt;限制&lt;/a&gt;，它无法区分间隔连接（两个表都需要时间戳）和常规连接。因此，您需要将&amp;nbsp;rowtime&amp;nbsp;列 event_time 显式转换为常规时间戳，以免其被纳入常规连接中。如果两个表都有时间戳，理想的情况是将它们包含在连接语句的 WHERE 子句中。如下屏幕截图显示了结果。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio6.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在撰写本文时，Flink 存在一个&lt;a href="https://issues.apache.org/jira/browse/FLINK-10211"&gt;限制&lt;/a&gt;，它无法区分间隔连接（两个表都需要时间戳）和常规连接。因此，您需要将&amp;nbsp;rowtime&amp;nbsp;列 event_time 显式转换为常规时间戳，以免其被纳入常规连接中。如果两个表都有时间戳，理想的情况是将它们包含在连接语句的 WHERE 子句中。如下屏幕截图显示了结果。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;滚动（&lt;/strong&gt;&lt;strong&gt;Tumbling）窗口&lt;/strong&gt;&lt;/h2&gt; 
 &lt;p&gt;可将滚动窗口视为在不重叠的时间窗口中的小批次聚合。例如，计算 30 秒内的最高价格，或10 秒内的股票计数。要使用 Apache Flink SQL 执行此功能，请使用以下代码：&lt;/p&gt; 
@@ -2035,7 +2035,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;p&gt;&lt;code&gt;SELECT ticker_symbol, COUNT(ticker_symbol) AS ticker_symbol_count&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;FROM stock_ticker_table&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;GROUP BY TUMBLE(processing_time, INTERVAL '10' second), ticker_symbol;&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;以下截图显示了我们的输出。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio7.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;以下截图显示了我们的输出。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;滑动（&lt;/strong&gt;&lt;strong&gt;Sliding）窗口&lt;/strong&gt;&lt;/h2&gt; 
 &lt;p&gt;滑动窗口（也称为跳跃窗口）与滚动窗口基本相同，区别在于这些窗口可能会重叠。滑动窗口可以每隔 X 秒发出窗口大小为 Y 秒的数据。例如，对于上述使用案例，您可以每隔 5 秒发出一次 10 秒的数据统计：&lt;/p&gt; 
@@ -2044,7 +2044,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;p&gt;&lt;code&gt;SELECT ticker_symbol, COUNT(ticker_symbol) AS ticker_symbol_count&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;FROM stock_ticker_table&lt;/code&gt;&lt;/p&gt; 
 &lt;p&gt;&lt;code&gt;GROUP BY HOP(processing_time, INTERVAL '5' second, INTERVAL '10' second), ticker_symbol;&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;如下屏幕截图显示了结果。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio8.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;如下屏幕截图显示了结果。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;带过滤警报的滑动窗口&lt;/strong&gt;&lt;/h2&gt; 
 &lt;p&gt;要过滤数据流中的记录，以触发某种警报或在下游使用它们，以下示例展示了如何将过滤出的滑动窗口插入聚合计数表中，该表的配置为写入数据流。之后可以使用&lt;a href="http://aws.amazon.com/cloudwatch"&gt;&amp;nbsp;Amazon CloudWatch&lt;/a&gt;&amp;nbsp;或其他触发机制来发出高交易率或其他指标的警报。&lt;/p&gt; 
@@ -2192,7 +2192,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
  &lt;li&gt;&lt;strong&gt;B&lt;/strong&gt;&amp;nbsp;— 第 2—4 行，它们都匹配 DEFINE 子句中的条件&lt;/li&gt; 
  &lt;li&gt;&lt;strong&gt;C&lt;/strong&gt;&amp;nbsp;— 第 5 行，它打破了匹配 B 条件的模式，因此是模式中的最后一行&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;以下屏幕截图展示了完整的例子。&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio9.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;以下屏幕截图展示了完整的例子。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/top-10-flink-sql-queries-to-try-in-amazon-kinesis-data-analytics-studio9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; &amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;Top-N&lt;/strong&gt;&lt;/h2&gt; 
 &lt;p&gt;&lt;a href="https://ci.apache.org/projects/flink/flink-docs-release-1.13/docs/dev/table/sql/queries/topn/"&gt;Top-N 查询&lt;/a&gt;识别按列排序的 N 个最小值或最大值。例如，在需要识别数据流中前 10 个项目或最后 10 个项目的情况下，此查询非常有用。&lt;/p&gt; 
 &lt;p&gt;Flink 可使用&amp;nbsp;OVER&amp;nbsp;窗口子句和筛选表达式的组合来生成 Top-N 查询。OVER / PARTITION&amp;nbsp;BY 子句还可以支持每组的 Top-N。请参阅以下代码：&lt;/p&gt; 
@@ -2228,7 +2228,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/jdber.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/jdber.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Jeremy Ber&lt;/h3&gt; 
   &lt;p&gt;在过去 5 年中一直从事于遥测数据领域，担任软件工程师、机器学习工程师，最近还担任数据工程师。过去，Jeremy 支持并构建了每天流式传输 TB 级数据的系统，并实时处理复杂的机器学习算法。在 亚马逊云科技，他是解决方案架构师和流数据处理专家，为 Managed Streaming for Kafka (Amazon MSK) 和 Amazon Kinesis 提供支持。&lt;/p&gt; 
@@ -2258,7 +2258,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;h2&gt;&lt;strong&gt;实施方法概述&lt;/strong&gt;&lt;/h2&gt; 
 &lt;p&gt;&lt;a href="https://aws.amazon.com/data-exchange/"&gt;Amazon Data Exchange&lt;/a&gt;&amp;nbsp;为创建这些安全的多方数据网格环境提供了必要的基础。使用 Amazon Data Exchange “Private”（私有）发布选项，只有经生产者授权的特定数据消费者（例如监管机构）才能查看数据产品并订阅该数据产品。AWS Data Exchange 上发布的每个视图都开启了版本控制，因此，数据消费者可以使用可审计的数据更改记录。数据消费者可以访问此自描述数据，并使用工具（例如 AWS Glue）将其转换为通过数据仓库、数据库或数据湖进行下游处理所需的格式。&lt;/p&gt; 
 &lt;p&gt;最近的博客&lt;a href="https://aws.amazon.com/blogs/apn/analyzing-covid-19-data-with-aws-data-exchange-amazon-redshift-and-tableau/"&gt;分析 COVID-19 数据&lt;/a&gt;展示了以这种方式使用 Amazon Data Exchange 的力量。在此示例中，亚马逊云科技与亚马逊云科技的合作伙伴 Salesforce、Tableau 和 MuleSoft 汇集了可信赖的 COVID-19 数据来源，使其能够通过 Amazon Data Exchange 与感兴趣的第三方共享。这使得数据消费者能够将相关数据提取到他们的分析数据湖中，并根据需要提取和转换数据。Amazon Data Exchange 内的相关数据生产者可以随时提供新版本的数据，并且这些新版本数据的可用性将传达给所有数据消费者。该资源可公开提供，用于支持组织的 COVID 救助工作。在其他使用案例中，也可以使用 Amazon Identity and Access Management 控件严格限制访问权限。&lt;/p&gt; 
-&lt;p&gt;图 1 显示了联合监管报告数据网格环境的概念概述；其中每家受监管银行都是 AWS Data Exchange 数据生产者，每个监管机构都是 Amazon Data Exchange 数据消费者。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;图 1 显示了联合监管报告数据网格环境的概念概述；其中每家受监管银行都是 AWS Data Exchange 数据生产者，每个监管机构都是 Amazon Data Exchange 数据消费者。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p style="text-align: center"&gt;&lt;em&gt;图&lt;/em&gt;&lt;em&gt; 1：监管机构报告数据网格&lt;/em&gt;&lt;/p&gt; 
 &lt;p&gt;图 2 所示的这种环境的实施包括以下阶段：&lt;/p&gt; 
 &lt;ol&gt; 
@@ -2267,7 +2267,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
  &lt;li&gt;监管机构（数据消费者）会收到更新通知，他们可以自行决定对更新采取行动，在需要时将修订内容纳入报告分析基础设施中。由于每个数据生产者的修订都是自我描述的，因此将这些不同来源映射到数据消费者的标准化数据结构中是一个简单的过程。&lt;/li&gt; 
  &lt;li&gt;可以使用一系列工具和技术对标准化数据进行分析，以搜索特定信息或提取见解。选项包括图关系分析 (Amazon Neptune)、AI/ML 模式识别 (Amazon SageMaker)、传统数据仓库搜索/查询（Amazon Redshift 或 Amazon Athena）和报告生成。&lt;/li&gt; 
 &lt;/ol&gt; 
-&lt;p style="text-align: center"&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; &lt;em&gt;图&lt;/em&gt;&lt;em&gt; 2：联合监管报告数据网格环境的示例实施&lt;/em&gt;&lt;/p&gt; 
+&lt;p style="text-align: center"&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-does-cloud-based-data-grid-technology-realize-financial-supervision-data-collection2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; &lt;em&gt;图&lt;/em&gt;&lt;em&gt; 2：联合监管报告数据网格环境的示例实施&lt;/em&gt;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;机会和益处&lt;/strong&gt;&lt;/h2&gt; 
 &lt;p&gt;Amazon Data Exchange 方法可以用作高度自适应性和可扩展性的“常用输入层”的基础，监管机构认为这是一个理想的属性（例如，参见 2020 年 1 月发布的英格兰银行关于“&lt;a href="https://www.bankofengland.co.uk/-/media/boe/files/paper/2020/transforming-data-collection-from-the-uk-financial-sector.pdf?la=en&amp;amp;hash=6E6132B4F7AF681CCB425B0171B4CF43D82E7779"&gt;转型数据收集&lt;/a&gt;”的咨询意见）。该文讨论的考虑因素之一是，常用输入层是应采取“推送”还是“拉取”的方法（例如，受监管实体应按照要求向监管机构“推送”数据），或者在必要时，监管机构从每个受监管实体中“提取”数据。监管数据网格架构提供了这两种方法的优势。它为数据生产者提供了“推送”系统的益处，它可以抽象自己底层 IT 系统的复杂性以及更新的时间，而无需直接与监管机构协调。它还允许监管机构在需要时“拉取”所需数据，从而使每家银行免于根据监管机构的要求不断生成新报告或数据提取的负担。&lt;/p&gt; 
@@ -2282,7 +2282,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/rcnic.png" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/rcnic.png" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Richard Nicholson&lt;/h3&gt; 
   &lt;p&gt;Richard 是亚马逊云科技金融服务 EMEA 业务和市场开发团队的首席解决方案架构师。Richard 的工作领域非常广泛，比如前台风险系统架构和后台核心大型机迁移。在加入亚马逊云科技之前，Richard 在自己的公司工作了 18 年，专注于金融服务和工业 IoT 等不同行业的运行时自适应软件系统的开发和使用。作为一名经过培训的天体物理学家，Richard 于 1995 年进入金融服务行业，担任 Salomon Brothers 的基础设施系统管理员。&lt;/p&gt; 
@@ -2292,7 +2292,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/rcaven.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/rcaven.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Richard Caven&lt;/h3&gt; 
   &lt;p&gt;Richard Caven 是英国和爱尔兰以及北欧银行业领先的亚马逊云科技金融服务专家。他负责开发和执行战略计划，以帮助客户迁移到云并推动他们的数字化转型之旅。Richard 于 2018 年从 Barclays 加入亚马逊云科技，担任全球财资职能部门的总经理和首席运营官。&lt;/p&gt; 
@@ -2302,7 +2302,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/dmmackei.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/dmmackei.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;David MacKeith&lt;/h3&gt; 
   &lt;p&gt;David MacKeith 负责亚马逊云科技欧洲、中东和非洲 (EMEA) 政府金融服务的业务开发。他在帮助世界各地的政府和金融服务组织转型其运营方式以更好地服务各自的客户和市场方面拥有 20 多年的经验。这包括帮助这些组织在数字货币、货币和市场分析、监管报告和数据收集自动化和优化以及财资管理职能转型等领域开发、试验和部署创新解决方案。在加入亚马逊云科技之前，MacKeith 先生曾在伦敦金融城担任商业交易律师。他拥有剑桥大学的物理学学位。&lt;/p&gt; 
@@ -2340,7 +2340,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
  &lt;li&gt;&lt;strong&gt;完整性问题&lt;/strong&gt;&amp;nbsp;– 通常，数据输入数据湖后会丢失上下文。&lt;/li&gt; 
  &lt;li&gt;&lt;strong&gt;手动维护&lt;/strong&gt;&amp;nbsp;– 不同的，冲突的数据集需要人工操作。&lt;/li&gt; 
 &lt;/ul&gt; 
-&lt;p&gt;这些限制会转化为较长的开发周期和瓶颈，从而无法将数据输入数据湖并从中提取有意义的信息，这意味着许多 CPG IT 部门都在努力地大规模维护和挖掘数据。同时，对于数据消费者来说，访问和分析企业数据可能非常复杂且令人沮丧。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;这些限制会转化为较长的开发周期和瓶颈，从而无法将数据输入数据湖并从中提取有意义的信息，这意味着许多 CPG IT 部门都在努力地大规模维护和挖掘数据。同时，对于数据消费者来说，访问和分析企业数据可能非常复杂且令人沮丧。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;在数据湖模型中，数据被摄取到企业数据湖中。中央平台团队负责管理安全性、摄取、转换、访问和数据可用性。数据生产者和消费者需要通过集中化团队来存储和访问数据。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;从整体到可管理：一种软件类比&lt;/strong&gt;&lt;/h2&gt; 
@@ -2363,10 +2363,10 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
  &lt;li&gt;生命周期策略&lt;/li&gt; 
 &lt;/ul&gt; 
 &lt;p&gt;数据契约是一种确保在整个企业中可以发现数据的机制。合同属性与数据的整个生命周期相关联，数据消费者可以发现和订阅特定的数据契约属性。&lt;/p&gt; 
-&lt;p&gt;在网格架构中，数据可以存储在生成数据的位置。中央平台团队负责管理安全性，确保契约得到执行，并提供工具和自动化。数据生产者和消费者可以访问和查看整个企业中的所有数据，并可以彼此之间进行通信。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在网格架构中，数据可以存储在生成数据的位置。中央平台团队负责管理安全性，确保契约得到执行，并提供工具和自动化。数据生产者和消费者可以访问和查看整个企业中的所有数据，并可以彼此之间进行通信。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;CPG 行业的数据网格参考架构和用法&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;以下是一种典型的数据网格实现的示例：&lt;br /&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture3.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;br /&gt; 该设计使用&amp;nbsp;&lt;a href="https://aws.amazon.com/pub-sub-messaging/"&gt;pub/sub 模型&lt;/a&gt;。尽管该解决方案使用&lt;a href="https://aws.amazon.com/lake-formation"&gt;Amazon Lake Formation&lt;/a&gt;&lt;u&gt; 一种可以&lt;/u&gt;简化数据湖创建工作的服务，但您需要手动定义数据源、访问权限和安全策略。您可以使用&amp;nbsp;&lt;a href="https://aws.amazon.com/glue"&gt;Amazon Glue&lt;/a&gt;&amp;nbsp;发现数据目录中的数据，也可以使用契约中定义的属性发现元数据。&lt;/p&gt; 
+&lt;p&gt;以下是一种典型的数据网格实现的示例：&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-use-data-grids-to-create-modern-consumer-packaged-goods-cpg-industry-data-architecture3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 该设计使用&amp;nbsp;&lt;a href="https://aws.amazon.com/pub-sub-messaging/"&gt;pub/sub 模型&lt;/a&gt;。尽管该解决方案使用&lt;a href="https://aws.amazon.com/lake-formation"&gt;Amazon Lake Formation&lt;/a&gt;&lt;u&gt; 一种可以&lt;/u&gt;简化数据湖创建工作的服务，但您需要手动定义数据源、访问权限和安全策略。您可以使用&amp;nbsp;&lt;a href="https://aws.amazon.com/glue"&gt;Amazon Glue&lt;/a&gt;&amp;nbsp;发现数据目录中的数据，也可以使用契约中定义的属性发现元数据。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;用数据网格管理单独的微服务数据集&lt;/strong&gt;&lt;/h2&gt; 
 &lt;p&gt;近年来，CPG 行业投入了大量资金，使用微服务和容器架构实现在线基础设施的现代化。在这种新的设计模式中，每项微服务都会创建单独的数据集（搜索、结账、排序、产品等），且新的不同数据会成倍增加。每个独特的数据流都由不同的数据生产者拥有，并且具有不同的质量、治理和生命周期属性。生产者可以配置数据流以实时或批量上传到数据平台。这种微服务设计能够自然地适合数据网格概念实施模式。&lt;/p&gt; 
@@ -2389,7 +2389,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/ilanraab.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/ilanraab.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Ilan Raab&lt;/h3&gt; 
   &lt;p&gt;Ilan Raab 是亚马逊云科技消费性包装品 (CPG) 行业的全球技术领导者。Ilan 于 2019 年加入亚马逊云科技，负责定义和执行公司的 CPG 技术策略，其中包括在制造/移动/市场业务领域构建以 CPG 为重点的解决方案。他经常与亚马逊云科技CPG 客户合作，利用尖端的亚马逊云科技技术和思想领导力来帮助他们实现业务转型。在加入 AWS 之前，Ilan 是企业软件和网络领域多家初创公司的工程副总裁兼联合创始人。&lt;/p&gt; 
@@ -2399,7 +2399,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/mchiapus.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/mchiapus.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Marco Chiapusso&lt;/h3&gt; 
   &lt;p&gt;Marco Chiapusso 于 2020 年 1 月加入亚马逊云科技，担任欧洲、中东和非洲的解决方案架构经理。他与全球企业客户合作，共享云如何帮助他们提高速度和敏捷性，同时让他们能把更多的时间花在客户身上的最佳实践、技术和策略。在加入亚马逊云科技之前，Marco 担任了多个高级技术职位，领导并共同领导了多项大规模计划，将组织转变为技术赋能型现代公司。其中包括开发和部署一个拥有超过 1PB 数据的现代数据平台，从而提高客户洞察力，并大规模增强机器学习能力。Marco 在 Adidas 的经验和任期涉及多个领域，包括架构、开发、支持、数据、创新（包括 AI 和 IoT）以及组织发展。&lt;/p&gt; 
@@ -2422,7 +2422,7 @@ aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-inp
 &lt;p&gt;现在，让我们讨论一些在处理日志文件的复杂结构时可以使用的数据预处理方法。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;将行记录到&lt;/strong&gt;&lt;strong&gt; JSON 文档&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;尽管日志都是文本文件，但通常日志文件对日志消息有一些记录结构，例如每行有一个日志条目。如下图所示，可以解析日志文件中的一行并将其作为包含多个字段的文档存储在 Amazon ES 索引中。此图是如何将&amp;nbsp;&lt;a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html"&gt;Amazon S3 访问日志&lt;/a&gt;中的条目转换为 JSON 文档的示例。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-1.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;尽管日志都是文本文件，但通常日志文件对日志消息有一些记录结构，例如每行有一个日志条目。如下图所示，可以解析日志文件中的一行并将其作为包含多个字段的文档存储在 Amazon ES 索引中。此图是如何将&amp;nbsp;&lt;a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html"&gt;Amazon S3 访问日志&lt;/a&gt;中的条目转换为 JSON 文档的示例。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;尽管您可以将 JSON 文档（例如上图）原样提取到 Amazon ES，但是某些文本字段需要进一步的预处理才能用于执行异常检测。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;定类型（&lt;/strong&gt;&lt;strong&gt;nominal）&lt;/strong&gt;&lt;/h2&gt; 
@@ -2622,17 +2622,17 @@ http_1xx, http_2xx, http_3xx, http_4xx, http_5xx = http_status_bin_one_hot_encod
 
 log_entry = {
     'timestamp': timestamp,
-    'bucket': &amp;quot;somebucket&amp;quot;,
-    'key': &amp;quot;somekey&amp;quot;,
-    'operation': &amp;quot;REST.GET.VERSIONING&amp;quot;,
-    'request_uri': &amp;quot;GET /awsexamplebucket1?versioning HTTP/1.1&amp;quot;,
+    'bucket': "somebucket",
+    'key': "somekey",
+    'operation': "REST.GET.VERSIONING",
+    'request_uri': "GET /awsexamplebucket1?versioning HTTP/1.1",
     'status_code': status,
     'http_1xx': http_1xx,
     'http_2xx': http_2xx,
     'http_3xx': http_3xx,
     'http_4xx': http_4xx,
     'http_5xx': http_5xx,
-    'error_code': &amp;quot;-&amp;quot;,
+    'error_code': "-",
     'bytes_sent': 113,
     'object_size': 0
 }
@@ -2677,51 +2677,51 @@ log_entry = {
 &lt;p&gt;日志文件通常具有可以包含大量值的 IP 地址，使用上一段中描述的方法将这些值分类到一起是没有意义的。但是，从地理位置的角度来看这些 IP 地址可能是有意义的。如果应用程序开始从不寻常的地理位置访问，这对检测异常情况可能非常重要。如果日志中没有直接提供国家/地区或城市代码等地理信息，则可以通过使用第三方服务对 IP 地址进行地理定位来获取此信息。实际上，这是将大量 IP 地址分类为少得多的国家/地区或城市代码的过程。尽管这些国家/地区和城市代码仍然是定类型数值，但它们可以与 Amazon ES 的基数（cardinality）汇总一起使用。&lt;/p&gt; 
 &lt;p&gt;在将这些预处理技术应用于示例 Amazon S3 服务器访问日志之后，我们将获得处理完成的 JSON 日志数据：&lt;/p&gt; 
 &lt;pre&gt;&lt;code class="lang-json"&gt;{
-    &amp;quot;bucket_owner&amp;quot;: &amp;quot;&amp;quot;, //string
-    &amp;quot;bucket&amp;quot;: &amp;quot;awsexamplebucket1&amp;quot;, //string
-    &amp;quot;timestamp&amp;quot;: &amp;quot;06/Feb/2019:00:00:38 +0000&amp;quot;,
-    &amp;quot;remote_ip&amp;quot;: &amp;quot;192.0.2.3&amp;quot;, //string
-    &amp;quot;country_code&amp;quot;: 100, //numeric field generated during pre-processing
-    &amp;quot;requester&amp;quot;: &amp;quot;&amp;quot;, //string
-    &amp;quot;request_id&amp;quot;: &amp;quot;3E57427F3EXAMPLE&amp;quot;,
-    &amp;quot;operation&amp;quot;: &amp;quot;REST.GET.VERSIONING&amp;quot;,
-    &amp;quot;key&amp;quot;: &amp;quot;-&amp;quot;,
-    &amp;quot;request_uri&amp;quot;: &amp;quot;GET /awsexamplebucket1?versioning HTTP/1.1&amp;quot;,
-    &amp;quot;http_method_get&amp;quot;: 1, //nine one-hot encoded fields generated during pre-processing
-    &amp;quot;http_method_post&amp;quot;: 0,
-    &amp;quot;http_method_put&amp;quot;: 0,
-    &amp;quot;http_method_delete&amp;quot;: 0,
-    &amp;quot;http_method_head&amp;quot;: 0,
-    &amp;quot;http_method_connect&amp;quot;: 0,
-    &amp;quot;http_method_options&amp;quot;: 0,
-    &amp;quot;http_method_trace&amp;quot;: 0,
-    &amp;quot;http_method_patch&amp;quot;: 0,
-    &amp;quot;http_status&amp;quot;: 200,
-    &amp;quot;http_1xx&amp;quot;: 0, //five one-hot encoded fields generated during pre-processing
-    &amp;quot;http_2xx&amp;quot;: 1,
-    &amp;quot;http_3xx&amp;quot;: 0,
-    &amp;quot;http_4xx&amp;quot;: 0,
-    &amp;quot;http_5xx&amp;quot;: 0,
-    &amp;quot;error_code&amp;quot;: &amp;quot;-&amp;quot;,
-    &amp;quot;bytes_sent&amp;quot;: 113,
-    &amp;quot;object_size&amp;quot;: &amp;quot;-&amp;quot;,
-    &amp;quot;total_time&amp;quot;: 7,
-    &amp;quot;turn_around_time&amp;quot;: &amp;quot;-&amp;quot;,
-    &amp;quot;referer&amp;quot;: &amp;quot;-&amp;quot;,
-    &amp;quot;user_agent&amp;quot;: &amp;quot;S3Console/0.4&amp;quot;,
-    &amp;quot;version_id&amp;quot;: &amp;quot;-&amp;quot;,
-    &amp;quot;host_id&amp;quot;: &amp;quot;&amp;quot;, //string
-    &amp;quot;signature_version&amp;quot;: &amp;quot;SigV2&amp;quot;,
-    &amp;quot;cipher_suite&amp;quot;: &amp;quot;ECDHE-RSA-AES128-GCM-SHA256&amp;quot;,
-    &amp;quot;authentication_type&amp;quot;: &amp;quot;AuthHeader&amp;quot;,
-    &amp;quot;host_header&amp;quot;: &amp;quot;awsexamplebucket1.s3.us-west-1.amazonaws.com&amp;quot;,
-    &amp;quot;tls_version&amp;quot;: &amp;quot;TLSV1.1&amp;quot;
+    "bucket_owner": "", //string
+    "bucket": "awsexamplebucket1", //string
+    "timestamp": "06/Feb/2019:00:00:38 +0000",
+    "remote_ip": "192.0.2.3", //string
+    "country_code": 100, //numeric field generated during pre-processing
+    "requester": "", //string
+    "request_id": "3E57427F3EXAMPLE",
+    "operation": "REST.GET.VERSIONING",
+    "key": "-",
+    "request_uri": "GET /awsexamplebucket1?versioning HTTP/1.1",
+    "http_method_get": 1, //nine one-hot encoded fields generated during pre-processing
+    "http_method_post": 0,
+    "http_method_put": 0,
+    "http_method_delete": 0,
+    "http_method_head": 0,
+    "http_method_connect": 0,
+    "http_method_options": 0,
+    "http_method_trace": 0,
+    "http_method_patch": 0,
+    "http_status": 200,
+    "http_1xx": 0, //five one-hot encoded fields generated during pre-processing
+    "http_2xx": 1,
+    "http_3xx": 0,
+    "http_4xx": 0,
+    "http_5xx": 0,
+    "error_code": "-",
+    "bytes_sent": 113,
+    "object_size": "-",
+    "total_time": 7,
+    "turn_around_time": "-",
+    "referer": "-",
+    "user_agent": "S3Console/0.4",
+    "version_id": "-",
+    "host_id": "", //string
+    "signature_version": "SigV2",
+    "cipher_suite": "ECDHE-RSA-AES128-GCM-SHA256",
+    "authentication_type": "AuthHeader",
+    "host_header": "awsexamplebucket1.s3.us-west-1.amazonaws.com",
+    "tls_version": "TLSV1.1"
 }
 &lt;/code&gt;&lt;/pre&gt; 
 &lt;p&gt;这些数据现在可以被提取并索引到 Amazon ES 域中。设置日志预处理管道后，下一个要配置的是&lt;a href="https://opendistro.github.io/for-elasticsearch-docs/docs/ad/#step-1-create-a-detector"&gt;异常检测器&lt;/a&gt;。Amazon ES 异常检测允许您在单个异常检测器中指定最多五个&lt;a href="https://opendistro.github.io/for-elasticsearch-docs/docs/ad/#step-2-add-features-to-your-detector"&gt;特征&lt;/a&gt;（数据中的字段）。这意味着异常检测器可以根据最多五个字段的值来学习数据中的模式。&lt;/p&gt; 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;h2&gt;&lt;strong&gt;聚合&lt;/strong&gt;&lt;/h2&gt; 
-&lt;p&gt;需要为每个特征指定适当的聚合函数。这是因为异常检测器汇总了每个检测器间隔内提取的所有文档的值以产生单个聚合值，然后该值用作自动学习数据模式的算法的输入。下图描述了此过程。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-2.png" width="624" height="78" /&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;需要为每个特征指定适当的聚合函数。这是因为异常检测器汇总了每个检测器间隔内提取的所有文档的值以产生单个聚合值，然后该值用作自动学习数据模式的算法的输入。下图描述了此过程。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/preprocess-logs-for-anomaly-detection-in-amazon-es-2-2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
 &lt;p&gt;配置正确的特征和相应的聚合函数后，异常检测器开始初始化。在处理足够大量的数据后，检测器进入运行状态。&lt;/p&gt; 
 &lt;p&gt;为了帮助您开始对自己的日志进行异常检测，下表显示了可能对某些常见日志字段有意义的预处理技术和聚合函数。&lt;/p&gt; 
 &lt;table border="1" width="1247"&gt; 
@@ -2771,7 +2771,7 @@ log_entry = {
 &lt;footer&gt; 
  &lt;div class="blog-author-box"&gt; 
   &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/kapilpen.jpg" width="125" /&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/kapilpen.jpg" width="125"&gt;
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;Kapil Pendse&lt;/h3&gt; 
   &lt;p&gt;Amazon Web Services（新加坡）的高级解决方案构架师，拥有超过 15 年的跨多个领域构建技术解决方案的经验，例如云计算、嵌入式系统和机器学习。在空闲时间，Kapil 喜欢沿着新加坡的沿海公园骑行，偶尔享受水獭的陪伴。&lt;/p&gt; 
