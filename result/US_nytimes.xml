@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Fri, 03 Sep 2021 10:26:47 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Sep 2021 10:36:50 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[中國警告美國：雙邊關係緊張或影響氣候合作]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210903/climate-china-us-kerry/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[美國氣候特使凱瑞訪華，在為年底的格拉斯哥氣候峰會做準備。中國外長王毅就雙邊關係和合作前景發表強硬言論。氣候變化有促使兩國合作的可能，也可能成為另一個紛爭點。<p><img src='https://static01.nyt.com/images/2021/09/02/world/02china-us-climate-1/02china-us-climate-1-articleLarge.jpg' alt='氣候變化造成破壞的跡象包括美國西部的火災。 Max Whittaker for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Max Whittaker for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>氣候變化造成破壞的跡象包括美國西部的火災。</p>                    ]]></description>
+            <category>中國</category>
+            <dc:creator><![CDATA[儲百亮,LISA FRIEDMAN]]></dc:creator>
+            <pubDate>Fri, 03 Sep 2021 10:29:43 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210903/climate-china-us-kerry/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[關於全美最嚴厲限制墮胎法案，你應該知道的六個問題]]></title>
             <link><![CDATA[https://cn.nytimes.com/usa/20210902/texas-abortion-law-facts/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[MUJIB MASHAL]]></dc:creator>
             <pubDate>Mon, 30 Aug 2021 04:27:23 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210830/kabul-airport-bombing/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[中國擴大網路審查，整頓「飯圈」文化]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210830/china-celebrity-culture/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[當局取消明星藝人榜單，呼籲加強監管，並將矛頭直接指向明星：鄭爽因逃稅被罰款、趙薇大量作品被下架。這些舉措均表明，中共想在規範文化方面發揮更強勢的作用。<p><img src='https://static01.nyt.com/images/2021/08/28/world/27china-celebrities-print/27china-celebrities02-articleLarge.jpg' alt='鄭爽去年在南京的表演。監管機構指控這名女演員逃稅，並命令電視台停播她參與演出的內容。 Costfoto/Barcroft Media, via Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Costfoto/Barcroft Media, via Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>鄭爽去年在南京的表演。監管機構指控這名女演員逃稅，並命令電視台停播她參與演出的內容。</p>                    ]]></description>
-            <category>中國</category>
-            <dc:creator><![CDATA[艾莎,AMY CHANG CHIEN,曹莉]]></dc:creator>
-            <pubDate>Mon, 30 Aug 2021 12:17:25 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210830/china-celebrity-culture/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
