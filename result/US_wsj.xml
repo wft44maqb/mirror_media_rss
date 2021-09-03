@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 03 Sep 2021 06:10:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Sep 2021 06:13:04 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 03 Sep 2021 06:10:05 GMT</pubDate>
+        <pubDate>Fri, 03 Sep 2021 06:13:04 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -42,18 +42,18 @@
             <pubDate>Fri, 03 Sep 2021 05:45:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[財新8月中國服務業PMI降至46.7，為去年4月後首次收縮]]></title>
-            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-HH233_0831ch_G_20200831022820.jpg" class="webfeedsFeaturedVisual" alt=""/><p>財新中國8月份服務業PMI降至46.7，顯示服務業產出重現實質性收縮，為去年4月後首次。供給、需求、出口、就業等指標悉數收縮，顯示疫情反撲壓制明顯。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E8%B2%A1%E6%96%B08%E6%9C%88%E4%B8%AD%E5%9C%8B%E6%9C%8D%E5%8B%99%E6%A5%ADpmi%E9%99%8D%E8%87%B346-7%EF%BC%8C%E7%82%BA%E5%8E%BB%E5%B9%B44%E6%9C%88%E5%BE%8C%E9%A6%96%E6%AC%A1%E6%94%B6%E7%B8%AE-11630638739</link>
-            <guid isPermaLink="false">CT-CEC-20210903105530</guid>
-            <pubDate>Fri, 03 Sep 2021 04:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[阿里巴巴承諾投入1,000億支持中國政府發起的共同富裕行動]]></title>
             <description><![CDATA[<img width="1280" height="853" src="https://si.wsj.net/public/resources/images/S1-LV209_BABAPL_OR_20210902083113.jpg" class="webfeedsFeaturedVisual" alt=""/><p>阿里巴巴成為最新一家參與共同富裕行動的中國大公司。這一承諾是巨大的，即使對它這樣一家龐大的公司而言。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E6%89%BF%E8%AB%BE%E6%8A%95%E5%85%A51,000%E5%84%84%E6%94%AF%E6%8C%81%E4%B8%AD%E5%9C%8B%E6%94%BF%E5%BA%9C%E7%99%BC%E8%B5%B7%E7%9A%84%E5%85%B1%E5%90%8C%E5%AF%8C%E8%A3%95%E8%A1%8C%E5%8B%95-11630625705</link>
             <guid isPermaLink="false">CT-BIZ-20210903072459</guid>
-            <pubDate>Fri, 03 Sep 2021 06:05:00 GMT</pubDate>
+            <pubDate>Fri, 03 Sep 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[財新8月中國服務業PMI降至46.7，為去年4月後首次收縮]]></title>
+            <description><![CDATA[<img width="553" height="369" src="https://si.wsj.net/public/resources/images/S1-HH233_0831ch_G_20200831022820.jpg" class="webfeedsFeaturedVisual" alt=""/><p>財新中國8月份服務業PMI降至46.7，顯示服務業產出重現實質性收縮，為去年4月後首次。供給、需求、出口、就業等指標悉數收縮，顯示疫情反撲壓制明顯。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E8%B2%A1%E6%96%B08%E6%9C%88%E4%B8%AD%E5%9C%8B%E6%9C%8D%E5%8B%99%E6%A5%ADpmi%E9%99%8D%E8%87%B346-7%EF%BC%8C%E7%82%BA%E5%8E%BB%E5%B9%B44%E6%9C%88%E5%BE%8C%E9%A6%96%E6%AC%A1%E6%94%B6%E7%B8%AE-11630638739</link>
+            <guid isPermaLink="false">CT-CEC-20210903105530</guid>
+            <pubDate>Fri, 03 Sep 2021 06:07:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[新冠病例激增重創亞洲製造業活動]]></title>
@@ -91,18 +91,18 @@
             <pubDate>Fri, 03 Sep 2021 02:35:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[醫療設備類股似乎對德爾塔變異毒株免疫]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LU921_DEVICE_OR_20210901153018.jpg" class="webfeedsFeaturedVisual" alt=""/><p>隨著德爾塔變異毒株在美國蔓延，醫院又面臨新一輪新冠疫情的侵擾。儘管手術量有所下降，但醫療設備類股近來一直表現搶眼，投資者似乎並不擔心疫情給該類股帶來的影響。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E9%86%AB%E7%99%82%E8%A8%AD%E5%82%99%E9%A1%9E%E8%82%A1%E4%BC%BC%E4%B9%8E%E5%B0%8D%E5%BE%B7%E7%88%BE%E5%A1%94%E8%AE%8A%E7%95%B0%E6%AF%92%E6%A0%AA%E5%85%8D%E7%96%AB-11630647907</link>
-            <guid isPermaLink="false">CT-HRD-20210903133016</guid>
-            <pubDate>Fri, 03 Sep 2021 05:45:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[比特幣最新漲勢為何受阻於5萬美元？]]></title>
             <description><![CDATA[<img width="1280" height="1280" src="https://si.wsj.net/public/resources/images/S1-LU907_BITCOI_OR_20210901151415.jpg" class="webfeedsFeaturedVisual" alt=""/><p>一個緣由就是，投資者正轉戰到加密貨幣市場的其他陣地。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E6%AF%94%E7%89%B9%E5%B9%A3%E6%9C%80%E6%96%B0%E6%BC%B2%E5%8B%A2%E7%82%BA%E4%BD%95%E5%8F%97%E9%98%BB%E6%96%BC5%E8%90%AC%E7%BE%8E%E5%85%83%EF%BC%9F-11630644305</link>
             <guid isPermaLink="false">CT-FIN-20210903122357</guid>
             <pubDate>Fri, 03 Sep 2021 05:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[醫療設備類股似乎對德爾塔變異毒株免疫]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LU921_DEVICE_OR_20210901153018.jpg" class="webfeedsFeaturedVisual" alt=""/><p>隨著德爾塔變異毒株在美國蔓延，醫院又面臨新一輪新冠疫情的侵擾。儘管手術量有所下降，但醫療設備類股近來一直表現搶眼，投資者似乎並不擔心疫情給該類股帶來的影響。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E9%86%AB%E7%99%82%E8%A8%AD%E5%82%99%E9%A1%9E%E8%82%A1%E4%BC%BC%E4%B9%8E%E5%B0%8D%E5%BE%B7%E7%88%BE%E5%A1%94%E8%AE%8A%E7%95%B0%E6%AF%92%E6%A0%AA%E5%85%8D%E7%96%AB-11630647907</link>
+            <guid isPermaLink="false">CT-HRD-20210903133016</guid>
+            <pubDate>Fri, 03 Sep 2021 05:45:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[銅多頭頭寸減少，曾經火爆的市場降溫]]></title>
