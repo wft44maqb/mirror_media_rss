@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 03 Sep 2021 08:41:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Sep 2021 08:44:27 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 03 Sep 2021 08:41:44 GMT</pubDate>
+        <pubDate>Fri, 03 Sep 2021 08:44:27 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -105,18 +105,18 @@
             <pubDate>Fri, 03 Sep 2021 08:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[電動車電池爭奪戰催生鋰市場繁榮]]></title>
-            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LU918_LITHIU_OR_20210901152805.jpg" class="webfeedsFeaturedVisual" alt=""/><p>今年，受電動汽車銷量增長推動，用於充電電池的碳酸鋰的價格上升一倍有餘。與大多數大宗商品相比，鋰更有可能成為「新石油」。</p>]]></description>
-            <link>https://cn.wsj.com/articles/%E9%9B%BB%E5%8B%95%E8%BB%8A%E9%9B%BB%E6%B1%A0%E7%88%AD%E5%A5%AA%E6%88%B0%E5%82%AC%E7%94%9F%E9%8B%B0%E5%B8%82%E5%A0%B4%E7%B9%81%E6%A6%AE-11630651507</link>
-            <guid isPermaLink="false">CT-HRD-20210903142650</guid>
-            <pubDate>Fri, 03 Sep 2021 08:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[比特幣最新漲勢為何受阻於5萬美元？]]></title>
             <description><![CDATA[<img width="1280" height="1280" src="https://si.wsj.net/public/resources/images/S1-LU907_BITCOI_OR_20210901151415.jpg" class="webfeedsFeaturedVisual" alt=""/><p>一個緣由就是，投資者正轉戰到加密貨幣市場的其他陣地。</p>]]></description>
             <link>https://cn.wsj.com/articles/%E6%AF%94%E7%89%B9%E5%B9%A3%E6%9C%80%E6%96%B0%E6%BC%B2%E5%8B%A2%E7%82%BA%E4%BD%95%E5%8F%97%E9%98%BB%E6%96%BC5%E8%90%AC%E7%BE%8E%E5%85%83%EF%BC%9F-11630644305</link>
             <guid isPermaLink="false">CT-FIN-20210903122357</guid>
             <pubDate>Fri, 03 Sep 2021 05:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[電動車電池爭奪戰催生鋰市場繁榮]]></title>
+            <description><![CDATA[<img width="1279" height="853" src="https://si.wsj.net/public/resources/images/S1-LU918_LITHIU_OR_20210901152805.jpg" class="webfeedsFeaturedVisual" alt=""/><p>今年，受電動汽車銷量增長推動，用於充電電池的碳酸鋰的價格上升一倍有餘。與大多數大宗商品相比，鋰更有可能成為「新石油」。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E9%9B%BB%E5%8B%95%E8%BB%8A%E9%9B%BB%E6%B1%A0%E7%88%AD%E5%A5%AA%E6%88%B0%E5%82%AC%E7%94%9F%E9%8B%B0%E5%B8%82%E5%A0%B4%E7%B9%81%E6%A6%AE-11630651507</link>
+            <guid isPermaLink="false">CT-HRD-20210903142650</guid>
+            <pubDate>Fri, 03 Sep 2021 08:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[中國網游新規釋放信號：政府將監管私人生活、塑造下一代]]></title>

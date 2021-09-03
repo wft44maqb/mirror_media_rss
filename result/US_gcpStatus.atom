@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Cloud Status Dashboard Updates</title>
-  <updated>2021-09-02T21:21:06+00:00</updated>
+  <updated>2021-09-03T08:43:44+00:00</updated>
   <link href="https://status.cloud.google.com/" rel="alternate" type="text/html"></link>
   <link href="https://status.cloud.google.com/en/feed.atom" rel="self"></link>
   <author>
@@ -9,6 +9,20 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
+    <title>UPDATE: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.</title>
+    <link href="https://status.cloud.google.com/incidents/gwKjX9Lukav15SaFPbBF" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:gwKjX9Lukav15SaFPbBF.Yok1SnSgQuWwovWHdec1</id>
+    <updated>2021-09-03T08:43:44+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 09:22&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.&lt;/p&gt;
+&lt;p&gt;Description: Mitigation work is still underway by our engineering team. The engineering team has confirmed that pausing the VM maintenance has mitigated current customer impact.&lt;/p&gt;
+&lt;p&gt;Zones recovered: us-west1, asia-east1, and asia-southeast1
+Zones recovering: us-central1, europe-west1&lt;/p&gt;
+&lt;p&gt;Suspected Root cause: An internal maintenance operation incorrectly removed too many machines from the service.&lt;/p&gt;
+&lt;p&gt;We will provide more information by Friday, 2021-09-03 13:30 US/Pacific.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customers may see on VM termination/maintenance, replacement VMs cannot acquire Local SSD in order to initialize and therefore VMs will not be able to restart.&lt;/p&gt;
+&lt;p&gt;Workaround: No workaround available at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
+  </entry><entry>
     <title>RESOLVED: GKE service is unaffected. Mitigation for issue with Anthos On-Prem admin workstation access, is underway. See further details below.</title>
     <link href="https://status.cloud.google.com/incidents/A27EJTBQ6anaCdeNX6zp" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:A27EJTBQ6anaCdeNX6zp.2ZtiLQ8RDJjAYZmMxLXZ</id>
