@@ -4,8 +4,16 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=775&amp;profile=atom" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>微軟首度讓企業客戶測試Windows 10 21H2更新及Windows 11</title>
+    <link>https://www.ithome.com.tw/news/146529</link>
+    <description> 微軟昨（2）日宣布針對企業客戶釋出Windows 11以及Windows 10 21H2的測試版本。</description>
+     <pubDate>2021-09-03  02:09:24</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146529</guid>
+  </item>
+  <item>
     <title>國家級駭客掀起新時代網路戰爭</title>
     <link>https://www.ithome.com.tw/article/146526</link>
     <description> 二○一七年六月二十七日，某件怪異而恐怖之事，開始在全世界的基礎設施中擴散開來。
@@ -254,14 +262,6 @@
      <pubDate>2021-09-01  05:09:27</pubDate>
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146483</guid>
-  </item>
-  <item>
-    <title>Fintech周報第195期：TSP業者資訊揭露平臺已上線，可一站式瀏覽與銀行合作項目與資安認證細節</title>
-    <link>https://www.ithome.com.tw/news/146481</link>
-    <description> </description>
-     <pubDate>2021-09-01  03:09:10</pubDate>
- <dc:creator>李靜宜</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146481</guid>
   </item>
   </channel>
 </rss>
