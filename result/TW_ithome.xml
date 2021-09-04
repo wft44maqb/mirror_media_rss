@@ -6,6 +6,38 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>SUSE併購後的第一個版本，Rancher 2.6大幅強化叢集配置功能</title>
+ <link>https://www.ithome.com.tw/news/146534</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://github.com/rancher/rancher/releases/tag/v2.6.0&quot;&gt;Rancher 2.6&lt;/a&gt;是SUSE在去年冬天併購Rancher後，推出的第一個重要版本，開發團隊在這個版本進行了大幅度的更新，像是重新設計Rancher使用者體驗，對入門或是進階的Kubernetes使用者都更加友善，而Rancher 2.6另一個更新重點，則是強化託管叢集配置，改進AKS與GKS叢集生命周期管理。&lt;/p&gt;
+&lt;p&gt;Rancher 2.6強化了AKS和GKS的叢集配置功能，2.6版本是第一個允許用戶在Rancher中，使用其他工具配置AKS的版本，可以將Azure入口等其他工具註冊到Rancher中，配置現有的AKS叢集，而且可以使用AKS配置節點池，以執行自動化擴展。Rancher 2.6也允許用戶配置私有節點和多節點池，並利用Rancher雲端憑證來進行身份驗證。&lt;/p&gt;
+&lt;p&gt;新版Rancher也強化GKE配置功能，支援GKE叢集完整的生命周期管理，允許用戶利用Google雲端平臺中的共享VPC和多節點池，而GKE節點池也能被配置來支援原生自動擴展功能。偏好使用GKE的Rancher用戶，可以使新工具將網路標籤添加到節點池配置中，以便隔離專案網路，限制GKE叢集上專案間的網路存取。&lt;/p&gt;
+&lt;p&gt;Rancher 2.6提供新UI，官方重新設計了叢集瀏覽器，無論是新用戶還是進階用戶，用來瀏覽Kubernetes叢集的Rancher UI皆獲得強化，現在常用的Kubernetes資源，會摺疊成一個子集並且以簡單的術語表示，而所有Kubernetes資源，都可以在瀏覽器中管理並且搜尋。叢集管理員可以從叢集詳細資訊檢視圖中管理專案，且諸如日誌紀錄和監控等叢集工具，都集結在一起，讓用戶更容易探索使用。&lt;/p&gt;
+&lt;p&gt;Rancher 2.6擁有一個新的主頁，在預設登入頁面中，提供Rancher安裝和快速概覽，用戶可以查看目前版本的新增功能、支援，並且快速執行啟動或是配置叢集。新的叢集管理頁面列出所有叢集，讓用戶在同一個地方，管理叢集、憑證和Pod安全政策樣板與驅動程式。&lt;/p&gt;
+&lt;p&gt;官方也在這個版本加入三個技術性預覽功能，其中一個是讓用戶直接從Rancher UI或是API中部署RKE2（RKE Government），而RKE2是Rancher新一代的Kubernetes版本。Rancher還附帶叢集模板，管理員可以利用這些模板，定義新叢集使用節點池、雲端憑證和工具的方式。還有一個預覽功能，則是提供一種使用Windows節點配置自定義RKE2叢集的新方法。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 15:19:17 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146534 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146534#comments</comments>
+</item>
+<item>
+ <title>微軟發布企業級Azure Spring Cloud，提供全託管VMware Tanzu元件</title>
+ <link>https://www.ithome.com.tw/news/146533</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟現在提供&lt;a href=&quot;https://azure.microsoft.com/zh-tw/blog/announcing-azure-spring-cloud-enterprise-fully-managed-vmware-tanzu-components-and-configurability-for-spring-boot-apps/&quot;&gt;企業級Azure Spring Cloud服務&lt;/a&gt;，這是針對企業開發人員最佳化的Spring託管服務，可滿足企業用戶的特殊需求。微軟透過和VMware合作，整合雲端平臺Azure和VMware Tanzu，於Azure Spring Cloud Enterprise添加商業Tanzu元件，來滿足企業對Spring Boot應用程式，在配置、整合、靈活性和支援方面的需求。&lt;/p&gt;
+&lt;p&gt;2019年的時候，微軟和Pivotal（現為VMware）共同發布了Azure Spring Cloud，這是一個Spring Boot應用託管服務，用戶能夠藉由部署JAR檔或是程式碼，使得Azure Spring Cloud自動關聯應用程式和Spring服務Runtime，並由該服務管理動態擴展、安全修復程式，並且提供開箱即用的監控工具。&lt;/p&gt;
+&lt;p&gt;Azure Spring Cloud的目的，是要消除用戶管理基礎設施，以及Spring Cloud中介軟體的複雜工作，讓開發者可以專注於應用程式的開發工作，像是使用其他按需服務，在需要的時候簡單啟動Azure Spring Cloud執行個體。&lt;/p&gt;
+&lt;p&gt;而微軟提到，部分用戶在本地端執行數千個Spring Boot應用程式，需要進階的功能來加速Spring現代化，因此在原本的Azure Spring Cloud加入企業層級。&lt;/p&gt;
+&lt;p&gt;Azure Spring Cloud Enterprise讓用戶可以在Azure基礎上，使用VMware Tanzu元件，由於目前仍在預覽階段，僅提供Tanzu建置服務、Tanzu應用程式配置服務和Tanzu服務註冊表，用戶可以在執行個體上靈活地選用需要的Tanzu元件，微軟也提到，他們會繼續和VMware合作，添加諸如Tanzu Spring Cloud Gateway和Spring Cloud Data Flow等更多Tanzu元件。&lt;/p&gt;
+&lt;p&gt;由於大型企業通常具有較複雜的工作流程，需要對開發環境和流程進行額外的配置，而Azure Spring Cloud Enterprise中的Tanzu建置服務，支援自定義Buildpack配置，可自動化創建和管理容器。用戶可以將現有基於Tanzu元件建置的Spring工作負載，搬遷至Azure Spring Cloud Enterprise，並且使用該服務提供的Spring Cloud基礎設施。&lt;/p&gt;
+&lt;p&gt;Azure Spring Cloud Enterprise還對Spring專案提供VMware Spring Runtime支援，這可讓用戶獲得專家幫助，並且存取專為企業設計的Spring Runtime版本。另外，微軟表示，Azure Spring Cloud Enterprise在全託管的環境中運作，因此用戶也能獲得原本Azure所提供的優點，包括Azure擴展靈活性與全球部署能力。&lt;/p&gt;
+&lt;p&gt;用戶可以透過Azure入口、CLI、資源管理器樣板或Terraform，來創建執行個體，並使用Application Insights或是其他應用程式效能管理工具進行監控，與標準層級相同，企業層級提供開箱即用的聚合日誌、指標、分散式應用程式追蹤和警示功能。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 03 Sep 2021 15:12:27 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146533 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146533#comments</comments>
+</item>
+<item>
  <title>AWS更新S3智慧分層收費規則，同時開始提供EFS智慧分層功能</title>
  <link>https://www.ithome.com.tw/news/146531</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS在Storage Day 2021會議上發布了儲存服務更新，包括&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/amazon-s3-intelligent-tiering-further-automating-cost-savings-for-short-lived-and-small-objects/&quot;&gt;調整原本Amazon S3智慧分層功能（Intelligent-Tiering）&lt;/a&gt;處理短暫和小型物件的費用，並且在雲端檔案儲存服務&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/new-amazon-efs-intelligent-tiering-optimizes-costs-for-workloads-with-changing-access-patterns/&quot;&gt;Amazon EFS開始提供智慧分層功能&lt;/a&gt;，使EFS能夠根據工作負載的存取模式，最佳化儲存成本。&lt;/p&gt;
@@ -156,101 +188,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146522 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146522#comments</comments>
-</item>
-<item>
- <title>特斯拉機器人是玩真的，還是講假的？</title>
- <link>https://www.ithome.com.tw/news/146459</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;8月下旬一場Tesla AI Day技術大會上，特斯拉執行長馬斯克宣布將推出以AI為核心的通用人型機器人（Tesla Bot），更誇口一年內就能完成原型，引發不少熱議。但對於特斯拉從電動車跨足機器人，外界幾乎一面倒看衰， 認為他過於天真，甚至有些不切實際，把研發機器人這件事想的太簡單。&lt;/p&gt;
-&lt;p&gt;人稱科技狂人的馬斯克，過去幾年的確提出不少異想天開的構想，有些最後成真，也有些失敗。比如他先前曾提出超級高鐵（Hyperloop）的構想，就是個經常被檢驗的失敗例子，他原先計畫打造一條超高速運輸真空隧道來載送乘客，到後來完全偏離原來的構想，變成只是一個電動車專用的輸送隧道。&lt;/p&gt;
-&lt;p&gt;雖然有失敗，也有成真的例子，像是賣翻全球的特斯拉電動車和自駕電動車，一登場就顛覆了眾人原先對於汽車的想像，更讓電動車蔚為風潮，讓不少車廠反過來跟進。不僅如此，他與他的航太公司SpaceX更證明私人企業打造的太空船也能上太空，達成許多國家航太機構都未達到的成就，連NASA都找上門合作。這兩起，都是馬斯克從零經驗到成為產業領導指標的實例。&lt;/p&gt;
-&lt;p&gt;只是上太空、開自駕車還不夠，馬斯克已經預告了他接下來更遠大的構想，就是打造一個通用人型機器人，這個機器人能代替人類處理高危險、重覆或體力勞動的工作，還可以幫你跑腿買東西，就像是人類最好的助手。&lt;/p&gt;
-&lt;p&gt;雖說之前失敗的經驗，許多人懷疑特斯拉的機器人，只是噱頭，甚至有人質疑，這家公司意圖藉機器人轉移正遭監管機構調查的焦點，好分散眾人的注意力。但特斯拉不只舉辦這場活動，更在官網上公開將特斯拉機器人，列入企業重大發展項目，與AI及Autopilot自駕車系統研究並列。這家電動車公司更大動作&lt;a href=&quot;https://www.tesla.com/careers/search/?query=Robot&quot;&gt;招募機器人工程背景相關人才&lt;/a&gt;加入，要建立自己的人型機器人團隊。特斯拉已經開始動起來。&lt;/p&gt;
-&lt;p&gt;想當然爾，就算成立了機器人團隊，要讓這個科幻成真，也不是簡單的事，就連投入人型機器人技術研究已經10多年的Boston Dynamics都沒能做到，特斯拉憑什麼？&lt;/p&gt;
-&lt;p&gt;以技術而言，特斯拉過去沒有自己的機器人技術，而是具備自駕車開發技術，但從自駕車到開發人型機器人的過程，兩者之間確實有不少共通的關鍵技術，例如，機器人必須具備即時電腦視覺和精細路線規劃能力，而自駕車也同樣需要，甚至時速上百公里的自駕車需要的即時運算能力更高，才能根據周遭環境變化迅速反應，來調整車輛行駛路線與自動避障。Boston Dynamics研發跑酷機器人同樣用到了這樣AI技術。特斯拉用的更深更廣，靠著路上百萬輛特斯拉電動車至今累積高達1.5 PB（1PB等於1,000TB）的行駛數據，其中包含一百萬個10秒影像和60億個標註物件，用於訓練電腦視覺深度學習模型，還利用類神經網路模擬規畫出最佳化的行進路徑，讓AI的開車能力越來越好。&lt;/p&gt;
-&lt;p&gt;雖然還不清楚，自駕車研發經驗，能否完全套用到機器人身上，但用開發自駕車的技術來研發機器人，特斯拉試圖找出新方法，不走傳統機器人公司的開發方式，反而從另一條思路，運用這些年他們在自駕車建立的AI知識經驗及其技術，來解決當前機器人技術所面臨的難題。所以，特斯拉在同一天也&lt;a href=&quot;https://www.ithome.com.tw/news/146447&quot;&gt;發表&lt;/a&gt;了一個算力可達到9 petaFLOPS（每秒千兆次浮點運算）的AI訓練引擎系統，以便加快AI模型訓練建立機器人AI大腦。這是另一個用來訓練自駕車AI的技術，延伸到機器人開發的技術。&lt;/p&gt;
-&lt;p&gt;從商業角度來看，特斯拉在商業模式的創新，有機會為機器人產業注入新能量。尤其，機器人產業正面臨寒冬，多家公司相繼退場，因為這些機器公司，至今尚未找到真正可行的商業模式，甚至沒有足夠獲利支撐營運，來持續長期的研發，幾經易主的Boston Dynamics就是血淋淋的實例。&lt;/p&gt;
-&lt;p&gt;對身價高達7千億美元的特斯拉，就沒有這個問題，至少在資金上無後顧之憂，研發團隊更能專注於機器人研發設計，與其他競爭者相比，這是特斯拉的優勢。這家公司每年研發投入費用高達15億美元，相當於4百多億元臺幣，將是未來機器人研發的最大資金後盾。&lt;/p&gt;
-&lt;p&gt;不過，機器人開發不只燒錢，更耗時，所以，特斯拉選擇從現有自駕車解決方案中切入，找到跟機器人共通之處，包括硬體和軟體，來大幅縮短機器人開發時程。像在硬體部分，特斯拉打算把搭載於自駕電動車上的FSD（全自動輔助駕駛）硬體，直接或縮小放進機器人體內，FSD硬體具有每秒50兆次運算（TOPS） 的推論效能，相當於在身上裝了一個資料中心等級Nvidia Tesla P40 GPU運算加速器，足以作為機器人AI大腦，連頭部攝影鏡頭都與電動車用同一套，專門用於AI視覺處理。也因為是在幾乎相同的硬體平臺上做開發，使用的開發工具也都相同，特斯拉所想的是，讓他們的機器人訓練和AI學習經驗，往後同樣能回饋到自駕車上，獲得更好的運用。&lt;/p&gt;
-&lt;p&gt;特斯拉不只要做，從技術和商業模式來看，也極有能力可以做到，甚至有機會這把件事做得比現有機器人公司更好。&lt;/p&gt;
-&lt;p&gt;想要讓機器人能夠變聰明，不僅要累積足夠資料量，持續提供AI模型做訓練，還要在虛擬和實體環境持續驗證，讓機器人反覆學習應對不同任務場景，更大考驗是規模化，畢竟，特斯拉不是要做技術展示的機器人，而是要能夠商用，這是它與研究為主的跑酷或跳舞機器人最大不同，也是特斯拉機器人能否實現商用的關鍵。 &lt;/p&gt;
-&lt;p&gt;不論如何，特斯拉機器人的原型，最快明年就會亮相，到底馬斯克是玩真的，還是講假的，人型機器人構想能否成真，還是美夢一場，很快就可以見真章。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 05:03:04 +0000</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="false">146459 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146459#comments</comments>
-</item>
-<item>
- <title>【首次栽種就成功的關鍵是達人經驗數位化】數位分身技術如何走進農漁業</title>
- <link>https://www.ithome.com.tw/news/146518</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;數位分身，這個製造業當紅的新興技術，也能在農業場域發揮作用。&lt;/p&gt;
-&lt;p&gt;一般來說，數位分身是透過IoT蒐集實體設備的運作數據，建立起虛擬對應的數位分身，來模擬實體設備的狀態改變。雖然農作物是活的植物，無法像機械設備的變化完全可控，但是，擴大到作物與環境的關聯，建立起溫室、栽培場或魚塭等場景的虛擬分身，仍舊可以用來模擬出作物在不同條件下的生長變化。&lt;/p&gt;
-&lt;p&gt;而在臺灣，不只農業，連養殖魚塭、養雞場、甚至是茶園，都開始出現了農業數位分身的應用實例。&lt;/p&gt;
-&lt;p&gt;比如臺南有座養殖漁場中，就打造出了魚塭的數位分身，有能力推測環境改變後對魚蝦生長的影響，適時提醒漁民如何操作設備來因應。&lt;/p&gt;
-&lt;p&gt;另一個實例則是以智慧農場聞名的玉美，他們用來種植番茄的溫室，也建立了農業數位分身，可以事先預判在不同環境條件下，應該採取哪些行為，來確保每一次收成的品質與數量。&lt;/p&gt;
-&lt;p&gt;這套「智慧農業數位分身（Digital Twin Solutions for Smart Farming）」解決方案，更在2019年就揚名海外，獲得了有科技創新奧斯卡獎之稱的美國R&amp;amp;D全球百大科技研發獎（R&amp;amp;D 100 Awards）。&lt;/p&gt;
-&lt;p&gt;資策會數位服務創新研究所就是打造出這項農業數位分身技術的關鍵研發團隊，透過與農漁業者合作，建立多個數位分身示範基地，來驗證技術可行性，更隨著技術發展成熟，將這套技術產品化來銷售。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;如何打造農漁業數位分身？IoT、達人經驗不可或缺&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;「農漁業，是非常重視養殖與栽種知識的產業。」資策會數位服務創新研究所組長邱璟明點出，數位分身技術的關鍵是達人經驗。&lt;/p&gt;
-&lt;p&gt;為了打造數位分身，資策會得針對不同的場域，與各自不同的農漁業達人合作，先蒐集影響作物生長的環境變因，再記錄達人對於這些環境變化所採取的應變行為，以此建立一套環境與達人行為的關聯，用來進一步開發出栽種或養殖的操作建議模型，才能將達人的種植或養殖經驗快速複製到其他生產場域。&lt;/p&gt;
-&lt;p&gt;以養殖魚塭的數位分身技術為例。資策會先與養殖專家歸納出影響養殖的關鍵因素，比如漁民常以判斷「水色」來決定養殖的行動，從技術面來看，就是意味水質可能是影響魚蝦生長的關鍵。&lt;/p&gt;
-&lt;p&gt;下一步，則是找出有哪些關鍵的環境參數會影響水質，再利用魚塭中的IoT設備，自動蒐集環境數據，比如水的溫度、鹽度、PH值、亞硝酸鹽、溶氧量、葉綠素A、氮氣、ORP、濁度等。&lt;/p&gt;
-&lt;p&gt;有了環境數據之後，還要記錄漁民根據環境變化所採取的各種養殖行為。資策會透露，行為參數的記錄方法分為兩種，一類是與設備相關的行為，比如開關水車或飼料投餵器，就可以從設備IoT直接取得資料，另一類是不涉及設備的行為，比如久久一次的投藥行為，就需要靠漁民填寫養殖日誌，來記錄下這些資訊。&lt;/p&gt;
-&lt;p&gt;不只如此，還要記錄下魚蝦的生長狀況，才能了解不同環境控制下，相對應的魚蝦生長狀態。資策會導入了水下即時攝影機，分析拍攝到的影像，來辨識魚蝦的大小、活動力、飼料殘留量，甚至可以進行病徵辨識，以利後續進行養殖參數的調整。&lt;/p&gt;
-&lt;p&gt;利用IoT環境數據、達人行為數據和水下影像的分析數據，可以用來建立養殖建議模型，開發出魚塭數位分身的系統，提供不同環境條件下，漁民所需執行的工作建議，來提升養殖成效。&lt;/p&gt;
-&lt;p&gt;這套在魚塭建立數位分身的流程，也可以運用到番茄溫室的場景，只是不同場景所用的數據蒐集設備會有不同，比如水下攝影機就是魚塭場景特有的設備。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;靠數位分身優化魚塭、溫室與茶園的管理&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;資策會與台塩綠能合作建置的養殖漁業示範場域，就是用了魚塭數位分身來提升魚蝦育成率，因為傳統養殖的魚類育成率約3～5成，蝦類甚至只有1成，運用數位分身來優化養殖管理後，可提高3成育成率；若額外建置循環水系統來過濾水中病菌，更能將整體育成率提升到8～9成，只有少數1成小魚苗無法長大。&lt;/p&gt;
-&lt;p&gt;資策會也希望，未來若獲得更多養殖業者採用，將綜合各家業者的數據進行產量預估，作為漁民評估是否持續養殖同類水產的參考，避免盛產卻不豐收的風險。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/9766691D-C9DC-43B5-94B6-928845608C44(1).jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;資策會與台塩綠能合作建置的養殖漁業示範場域，就是透過IoT蒐集環境參數，再數位化達人養殖經驗，以此建立起魚塭數位分身，來提升魚蝦育成率。&lt;/strong&gt;圖片來源／資策會&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%96%E6%AA%943%EF%BC%9A%E9%AD%9A%E5%A1%AD%E7%B3%BB%E7%B5%B1-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E8%B3%87%E7%AD%96%E6%9C%83.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;利用IoT環境數據、達人行為數據和水下影像的分析數據，建立養殖建議模型，在不同環境條件下提供業者養殖建議。&lt;/strong&gt;圖片來源／資策會&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;另一個與臺中農委會農試所、玉美生技、國興資訊合作建置的溫室蔬果示範場域，則是要運用數位分身，讓新手農夫「首次栽種即成功」。&lt;/p&gt;
-&lt;p&gt;資策會將溫室的環境數據與達人的操作行為記錄下來，依據兩者之間的關聯性，訓練一套設備操作建議模型，再透過玉美的田間管理App，對新手農夫提供種植建議，來確保栽種品質和數量可以維持在一定水準之上。&lt;/p&gt;
-&lt;p&gt;這也讓玉美訓練新手農夫時，原本只能進行一對一的栽種教學，現在搭配系統提供操作建議，已經能一對三同時教學，人力培訓能量提升三倍。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%96%E6%AA%944%EF%BC%9A%E6%BA%AB%E5%AE%A4%E6%95%B8%E4%BD%8D%E5%88%86%E8%BA%AB-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E8%B3%87%E7%AD%96%E6%9C%83.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;資策會在玉美生技建置溫室蔬果示範場域，運用數位分身技術，在系統中整合種植達人的經驗，對新手農夫提供種植操作建議，來確保栽種品質和數量可以維持在一定水準之上。&lt;/strong&gt;圖片來源／資策會&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%96%E6%AA%945%EF%BC%9A%E6%BA%AB%E5%AE%A4%E7%B3%BB%E7%B5%B1-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E8%B3%87%E7%AD%96%E6%9C%83.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;在IoT數據的蒐集上，團隊選定影響番茄種植的8大環境參數，包括土壤與空氣的溫濕度、CO2、光照度、土壤PH值與導電度，還有人為的設備控制參數，如風扇、側捲簾、天窗與滴灌的開關等。&lt;/strong&gt;圖片來源／資策會&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;不只養殖漁業與溫室蔬果，資策會也將這套數位分身的技術導入茶園，與農委會茶業改良場和長生製茶廠，打造了一個茶園數位分身示範場域，並開發出一套智慧農機管理系統。今年，這套系統更獲得日本農機企業青睞，正在日本靜岡縣展開應用實證。&lt;/p&gt;
-&lt;p&gt;臺灣茶園耕作大多靠大型機械代耕，因此，這套數位分身的模擬標的有三個，分別是駕駛經驗、農機設備與茶園管理，而非種植經驗的傳承。其中，農機駕駛數位分身，是靠蒐集駕駛資訊，讓新手司機能快速複製老手的駕駛經驗；而農機設備的數位分身，則是要掌握不同的農機特性，在不同的環境條件下，來進行保養維修的預測；還有一個是茶園管理的數位分身，主要鎖定管理達人經驗的萃取，來提升茶園管理成效。資策會將這三項技術整合到智慧農機管理系統中，實際驗證結果，茶園產能可比一般茶園多出3成，也能減少5成人力成本。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%96%E6%AA%946%EF%BC%9A%E8%BE%B2%E6%A9%9F%E6%95%B8%E4%BD%8D%E5%88%86%E8%BA%AB-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E8%B3%87%E7%AD%96%E6%9C%83.jpg&quot; style=&quot;color: rgb(105, 105, 105); width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;資策會與長生製茶廠建置了茶園示範場域，建立起駕駛經驗、農機設備與茶園管理的三大數位分身，並將這些技術整合到一套智慧農機管理系統中，目前已經在日本展開驗證。&lt;/strong&gt;圖片來源／資策會&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;數位分身技術擴大落地的關鍵：知識圖譜&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;為了讓特定示範場域建立的知識經驗，也能適用到其他不同的環境，資策會也與臺大合作，試圖將知識圖譜技術運用在農業數位分身中，來建立環境參數與作物生長間的關係，才能在改到異地栽種時，根據環境的差異來進行模型調校。&lt;/p&gt;
-&lt;p&gt;資策會數位服務創新研究所組長杜定傑解釋，農作物栽種模型要落地到不同地區時，必須依據當地的環境參數，進行在地化調校。而調校的關鍵，就是要找出影響作物生長的主要參數，再依據參數間的關係進行調整，比如光照會影響番茄的收成次數，意味著光照是一項重要的環境參數，異地種植就會優先考量光照參數，搭配知識圖譜建立的參數關聯性來調校模型。&lt;/p&gt;
-&lt;p&gt;杜定傑指出，用知識圖譜先建立參數關聯性，作為模型調校的參考依據，可避免模型異地部署時，預測結果產生過大的偏移。&lt;/p&gt;
-&lt;p&gt;杜定傑表示，這也是一種遷移學習（Transfer Learning）的應用。因為農業數位分身的場景中，常面臨資料不足的挑戰，尤其農作物每一期生長時間長達3個月到1年以上，難以取得大量異地的種植資料，重新訓練最適合該地場景的模型。「利用預訓練的模型在異地進行在地化調校，是更合適的作法。」&lt;/p&gt;
-&lt;p&gt;尤其，現階段作物的栽種經驗移植，仍然以國內場域為主，各地的氣候差異相對較小，但未來，若要到國外進行異地種植，就得面對環境差異過大的問題，更需要藉助知識圖譜技術來進行在地化調校，來維持模型預測的準確率。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;邁向產品化，要先找出業者導入誘因&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;在多個場域驗證了數位分身系統，下一步，資策會要將示範場域的軟硬體系統產品化，進行整廠輸出。&lt;/p&gt;
-&lt;p&gt;「農漁業是相對保守的產業，要看到成功案例才敢投資，這是示範基地的存在意義。」邱璟明指出，示範基地是為了彰顯技術導入帶來的成果，但設備配置都採用最高規格，通常是農漁民無法負擔的成本，「如何降低成本來產品化，變成了重要議題。」&lt;/p&gt;
-&lt;p&gt;為了降低成本，邱璟明指出，資策會先選擇找出場域中的關鍵設備，在維持系統成效的前提下來簡化設備配置。例如，養殖漁業示範基地原本設置了9隻水質感測器，實際測試後發現，只需3～5隻感測器，就能達到一定程度的數據蒐集成效，減少數量就能節省不必要的設備成本。&lt;/p&gt;
-&lt;p&gt;「產品化過程要持續這樣做，才能變成真正的解決方案。」邱璟明說。&lt;/p&gt;
-&lt;p&gt;不只精簡設備，資策會也將產品分級，提供不同軟硬體規格的等級分別計價。以溫室蔬果數位分身系統為例，未來規畫分為五級，最高級就是當前示範場域的軟硬體規格，最初級則是免費版栽種App，可人工記錄環境參數與對應的作物生長狀況，再由App提供種植建議。而中間三級的區分，則會依據業者本身擁有的IoT設備，所具備的數據儲存與傳輸能力，來提供不同等級的軟硬體搭配。&lt;/p&gt;
-&lt;p&gt;不只降低成本，為了提高導入說服力，資策會也鎖定潛在商業模式來說服農漁業者。&lt;/p&gt;
-&lt;p&gt;例如溫室蔬果數位分身系統，鎖定的是較具規模的農企業，比如玉美生技。杜定傑解釋，一大誘因是，農企常以契作的形式委託農民代耕，為了確保農民的栽種品質維持一定水準，業主需要並快速複製栽種達人的經驗給經驗較不足的代耕農民。&lt;/p&gt;
-&lt;p&gt;另一方面，玉美農產品也會出貨給連鎖商家，這類連鎖業者對農產品規格或品質常有特別要求，比如麥當勞特別要求番茄的尺寸大小。為了確保種植的作物符合客戶需求，農民更需要有一套技術，來嚴格管控作物的生長條件，以確保品質。&lt;/p&gt;
-&lt;p&gt;不只如此，考量到農產品的價值最終仍是由消費者決定，為了提升產品價值，資策會今年也開始接洽下游的綠色餐廳，透過數位分身的技術將農作物栽種流程透明化，分析歸納出綠色或永續的指標，要將上游農作物生產過程，加入整個綠色供應鏈，來賦予農作物更高的價值，提高消費者的購買意願。&lt;/p&gt;
-&lt;p&gt;或像是在養殖漁業場域，資策會則鎖定了漁電共生的商業模式來推動數位分身系統。邱璟明解釋，政府在漁電共生政策上，為了避免淪於只種電不養殖，強制規定水產育成率需達7成以上。但漁民多半沒有把握能生產達標，雖然電業業者積極推動，漁電共生發展仍遲滯不前。&lt;/p&gt;
-&lt;p&gt;觀察到這個現狀，資策會希望主打數位分生技術在水產育成率超過7成的成效，讓養殖業者更容易達到政府的要求，增加漁民在前期投資IoT設備的誘因，來說服漁業者導入。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%A0%E5%9C%96%E6%AA%942%EF%BC%9A%E5%A4%AA%E9%99%BD%E8%83%BD%E6%9D%BF-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E8%B3%87%E7%AD%96%E6%9C%83.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;圖為養殖魚塭上方設置的太陽能板。資策會主打數位分生技術在水產育成率超過7成的成效，來突破漁電共生的發展瓶頸，增加漁民導入IoT設備的意願。&lt;/strong&gt;圖片來源／資策會&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;農業數位分身未來三階段發展藍圖&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;資策會規畫了三階段的農業數位分身發展藍圖。第一階段目標，是建立農漁業數位分身，來萃取農業、漁業經驗與管理行為。靠示範基地驗證了技術可行性之後，資策會也展開第二階段計畫，要將萃取到的知識經驗發展成農智財，搭配硬體設備向外輸出，將示範基地應用成果產品化，「未來不只能輸出達人品牌的農產品，更能輸出農智財，打造領域知識即服務的商業模式。」杜定傑表示。&lt;/p&gt;
-&lt;p&gt;產品化後，第一批銷售對象瞄準臺灣的農企業，杜定傑表示，這些企業通常具有更多資本，較願意投資前期導入成本，來移植達人的種植經驗。下一步，目光從國內轉向國外，瞄準規模更大的國外農漁產業，輸出達人栽種系統，發展「異地生產、臺灣管理」的商業模式，直接在國外生產，銷往當地市場。&lt;/p&gt;
-&lt;p&gt;有能力向外輸出農智財後，第三階段則要發展整合式的客製化數位分身系統，則將不同場景的數位分身技術，依據客製化需求，整合成一套軟體系統。杜定傑解釋，不同場域蒐集的IoT數據不同，比如玉美溫室番茄的數位分身系統，可以控制的環境參數多達8項，但其他溫室不一定需要控制這麼多變因，可能只需蒐集空氣與土壤的溫濕度就夠用。&lt;/p&gt;
-&lt;p&gt;因為各場景需求不同，過去開發的數位分身，難以直接部署到另一個新場景，從頭建立數位分身又需長時間蒐集該場域農作物的完整栽種數據。因此，如何將多個既有場域的數位分身，相互疊加、整合，開發出成可以快速導入到更多種新場域的軟體系統，就是第三階段的任務。&lt;/p&gt;
-&lt;p&gt;「一個數位分身不可能適應所有的場景，所以要把不同功能的數位分身整合。」杜定傑強調。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;異地種植、臺灣管理，下一步將技術輸出國際&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;「農業本身有區域性，農產品進、出口容易遭遇貿易壁壘，所以，技術的輸出，變得更為重要。」資策會數位服務創新研究所技術總監洪盟峯指出，為了避開農產品貿易的壁壘問題，若能輸出技術到異地種植，就是臺灣的機會。&lt;/p&gt;
-&lt;p&gt;技術輸出的另一個優勢，則是過去要跨國從事農漁業生產時，通常得靠國內達人前往當地傳授經驗，但這容易讓當地人快速仿效達人的種植或養殖方法，反而助長了未來的競爭對手。因此，若能透過將技術核心直接封裝在系統中，系統輸出異地運作時，就能直接根據環境變化，對當地農漁民提供建議，背後的邏輯、知識經驗較不容易外流。「我們希望透過智財封裝、整廠輸出的方式，讓技術留在臺灣。」杜定傑說。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 04:01:16 +0000</pubDate>
- <dc:creator>翁芊儒</dc:creator>
- <guid isPermaLink="false">146518 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146518#comments</comments>
 </item>
 </channel>
 </rss>

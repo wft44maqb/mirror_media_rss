@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Cloud Status Dashboard Updates</title>
-  <updated>2021-09-03T08:43:44+00:00</updated>
+  <updated>2021-09-03T19:27:00+00:00</updated>
   <link href="https://status.cloud.google.com/" rel="alternate" type="text/html"></link>
   <link href="https://status.cloud.google.com/en/feed.atom" rel="self"></link>
   <author>
@@ -9,11 +9,135 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
+    <title>RESOLVED: europe-west2-c: Cloud networking is currently experiencing issues.</title>
+    <link href="https://status.cloud.google.com/incidents/WzDzgmTjQfAKPJha6Rbb" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:WzDzgmTjQfAKPJha6Rbb.3yQBKTZQVujjCU5TvSbr</id>
+    <updated>2021-09-03T19:27:00+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-03 05:40&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-03 06:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case using &lt;a href="https://cloud.google.com/support"&gt;https://cloud.google.com/support&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(All Times US/Pacific)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 03 September 2021 05:40&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 03 September 2021 06:20&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 40 minutes&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Affected Services and Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud Networking&lt;/li&gt;
+&lt;li&gt;Compute Engine&lt;/li&gt;
+&lt;li&gt;Persistent Disk&lt;/li&gt;
+&lt;li&gt;Kubernetes Engine&lt;/li&gt;
+&lt;li&gt;App Engine&lt;/li&gt;
+&lt;li&gt;Cloud Run&lt;/li&gt;
+&lt;li&gt;Cloud Bigtable&lt;/li&gt;
+&lt;li&gt;Cloud Storage&lt;/li&gt;
+&lt;li&gt;Cloud Filestore&lt;/li&gt;
+&lt;li&gt;Cloud MemoryStore&lt;/li&gt;
+&lt;li&gt;Cloud Monitoring&lt;/li&gt;
+&lt;li&gt;Cloud VPN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Regions/Zones:&lt;/strong&gt; europe-west2-c&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Google Cloud Networking experienced elevated packet loss and latency in europe-west2-c for a duration of 40 minutes. Additional Cloud services that use Cloud Networking experienced similar symptoms. From preliminary analysis, the root cause of the issue was a sudden redirection of traffic from a datacenter that was experiencing an issue.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Customer Impact:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Affected customers may have experienced elevated packet loss and latency as their traffic was temporarily redirected.&lt;/li&gt;
+&lt;li&gt;Google Compute Engine instances experienced failed connectivity and packet loss on ingress, egress, and inter-zonal traffic. Autoscaling was also impacted and may have failed to make decisions.&lt;/li&gt;
+&lt;li&gt;Persistent Disk experienced elevated I/O latency on regional and zonal disks&lt;/li&gt;
+&lt;li&gt;Google Kubernetes Engine clusters experienced 30% of zonal and 5% of regional clusters reporting as unhealthy.&lt;/li&gt;
+&lt;li&gt;Google App Engine and Cloud Run served elevated 500 errors within europe-west2.&lt;/li&gt;
+&lt;li&gt;Cloud Bigtable experienced an elevated error rate and latency on operations within europe-west2.&lt;/li&gt;
+&lt;li&gt;Cloud SQL experienced issues connecting to instances in europe-west2. Affected instances may have lost telemetry data, and HA instances failed over if the primary was in the affected zone.&lt;/li&gt;
+&lt;li&gt;Google Cloud Storage experienced elevated read errors of up to 2.3% in europe-west2.&lt;/li&gt;
+&lt;li&gt;Cloud Filestore instances within europe-west2-c may have been unreachable.&lt;/li&gt;
+&lt;li&gt;Cloud MemoryStore instances within europe-west2 may have been unreachable.&lt;/li&gt;
+&lt;li&gt;Cloud Monitoring experienced delayed or missing metrics from resources in the zone.&lt;/li&gt;
+&lt;li&gt;Cloud VPN experienced a short duration where tunnels went down for a short time before being reestablished.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Networking&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: Google Cloud Storage UI is experiencing some issues</title>
+    <link href="https://status.cloud.google.com/incidents/9dSqbyLnq9ALkVnD84eF" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:9dSqbyLnq9ALkVnD84eF.bLtm8iXnaxGgw7sCKvUS</id>
+    <updated>2021-09-03T16:57:38+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 02:00&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-02 12:00&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case using &lt;a href="https://cloud.google.com/support"&gt;https://cloud.google.com/support&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(All Times US/Pacific)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 02 Sep 2021 02:00&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 02 Sep 2021 12:00&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 10 hours&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Affected Services and Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Cloud Storage - Cloud Console UI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Regions/Zones:&lt;/strong&gt; Global&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Google Cloud Storage (GCS) experienced up to an 85% failure rate globally when creating buckets from the GCS Console UI or other service UI’s which create buckets programmatically.  From preliminary analysis, the increased failure rate was due to a GCS API rollout.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Customer Impact:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Customers experienced errors including “RPO is not supported” when creating new GCS buckets using the Cloud Console UI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Additional details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Customer workarounds included using the gcloud CLI (gsutil), or the API (such as via client libraries).&lt;/li&gt;
+&lt;li&gt;Retrying failed requests may have also succeeded&lt;/li&gt;
+&lt;li&gt;The GCS API rollout has been rolled back which fully restored the service.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Storage&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.</title>
+    <link href="https://status.cloud.google.com/incidents/gwKjX9Lukav15SaFPbBF" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:gwKjX9Lukav15SaFPbBF.Uh6aPhaoz7YUfwYXVHhp</id>
+    <updated>2021-09-03T16:04:17+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 09:22&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-03 09:04&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with VM maintenance on Google Compute Engine has been resolved for all affected users as of Friday, 2021-09-03 08:31 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: europe-west2-c: Cloud networking is currently experiencing issues.</title>
+    <link href="https://status.cloud.google.com/incidents/WzDzgmTjQfAKPJha6Rbb" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:WzDzgmTjQfAKPJha6Rbb.nfvATtJ8k3HmQY3PT1rX</id>
+    <updated>2021-09-03T14:17:32+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-03 05:40&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-03 06:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud Networking has been resolved for all affected users as of Friday, 2021-09-03 06:20 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Networking&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: europe-west2-c: Cloud networking is currently experiencing issues.</title>
+    <link href="https://status.cloud.google.com/incidents/WzDzgmTjQfAKPJha6Rbb" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:WzDzgmTjQfAKPJha6Rbb.Y8Qh8RuGLjSRh8VeHfcY</id>
+    <updated>2021-09-03T14:06:16+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-03 05:40&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-03 06:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: europe-west2-c: Cloud networking is currently experiencing issues.&lt;/p&gt;
+&lt;p&gt;Description: On further investigation we have confirmed the issue is affecting a single zone europe-west2-c.&lt;/p&gt;
+&lt;p&gt;Our engineering team is currently investigating the issue and confirming the current impact to our users.&lt;/p&gt;
+&lt;p&gt;We will provide an update by Friday, 2021-09-03 07:30 US/Pacific with current details.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customer may high latency and packet loss.&lt;/p&gt;
+&lt;p&gt;Workaround: Other Zone and region can be utilized for workaround.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Networking&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: europe-west2-c: Cloud networking is currently experiencing issues.</title>
+    <link href="https://status.cloud.google.com/incidents/WzDzgmTjQfAKPJha6Rbb" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:WzDzgmTjQfAKPJha6Rbb.JXCNPcyDMq4CvaAuEcQf</id>
+    <updated>2021-09-03T14:02:28+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-03 05:40&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-03 06:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: europe-west2: Cloud networking is currently experiencing issues.&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Cloud Networking , beginning at Friday, 2021-09-03 0535 US/Pacific&lt;/p&gt;
+&lt;p&gt;Our engineering team is currently investigating the issue and confirming the current impact to our users.&lt;/p&gt;
+&lt;p&gt;We will provide an update by Friday, 2021-09-03 07:30 US/Pacific with current details.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customer may high latency and packet loss.&lt;/p&gt;
+&lt;p&gt;Workaround: Other Zone and region can be utilized for workaround.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Networking&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: europe-west2-c: Cloud networking is currently experiencing issues.</title>
+    <link href="https://status.cloud.google.com/incidents/WzDzgmTjQfAKPJha6Rbb" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:WzDzgmTjQfAKPJha6Rbb.rD2Uu9WokbVfmS66G69g</id>
+    <updated>2021-09-03T13:39:39+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-03 05:40&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-03 06:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary:  Cloud networking issues being investigated  impacting some user in eu-west2c&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Cloud Networking , beginning at Friday, 2021-09-03 0535 US/Pacific
+Our engineering team continues to investigate the issue.
+We will provide an update by Friday, 2021-09-03 06:59 US/Pacific with current details.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customer may high latency and packet loss&lt;/p&gt;
+&lt;p&gt;Workaround: Other Zone and region are unaffected&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Networking&lt;/p&gt;</summary>
+  </entry><entry>
     <title>UPDATE: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.</title>
     <link href="https://status.cloud.google.com/incidents/gwKjX9Lukav15SaFPbBF" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:gwKjX9Lukav15SaFPbBF.Yok1SnSgQuWwovWHdec1</id>
     <updated>2021-09-03T08:43:44+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 09:22&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.&lt;/p&gt;
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 09:22&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-03 09:04&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.&lt;/p&gt;
 &lt;p&gt;Description: Mitigation work is still underway by our engineering team. The engineering team has confirmed that pausing the VM maintenance has mitigated current customer impact.&lt;/p&gt;
 &lt;p&gt;Zones recovered: us-west1, asia-east1, and asia-southeast1
 Zones recovering: us-central1, europe-west1&lt;/p&gt;
@@ -22,106 +146,5 @@ Zones recovering: us-central1, europe-west1&lt;/p&gt;
 &lt;p&gt;Diagnosis: Customers may see on VM termination/maintenance, replacement VMs cannot acquire Local SSD in order to initialize and therefore VMs will not be able to restart.&lt;/p&gt;
 &lt;p&gt;Workaround: No workaround available at this time.&lt;/p&gt;
 &lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>RESOLVED: GKE service is unaffected. Mitigation for issue with Anthos On-Prem admin workstation access, is underway. See further details below.</title>
-    <link href="https://status.cloud.google.com/incidents/A27EJTBQ6anaCdeNX6zp" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:A27EJTBQ6anaCdeNX6zp.2ZtiLQ8RDJjAYZmMxLXZ</id>
-    <updated>2021-09-02T21:21:06+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-26 06:49&lt;/strong&gt; and ended at &lt;strong&gt;2021-08-26 18:06&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;GKE service is unaffected. Mitigation for issue with Anthos On-Prem admin workstation access, is underway.&lt;/p&gt;
-&lt;p&gt;Fix:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Release 1.8.2 with the fix delivered.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;ETA for the hotfix releases:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hotfix for 1.7.3 is expected to be released by Friday (9/03).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For workaround procedures, please refer to the previous notification down below.&lt;/p&gt;
-&lt;p&gt;If you have questions or are impacted, please open a case with the Support Team and we will work with you until this issue is resolved.&lt;/p&gt;
-&lt;p&gt;No further updates will be provided here. We thank you for your patience while we&amp;#39;re working on resolving the issue.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Kubernetes Engine&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.</title>
-    <link href="https://status.cloud.google.com/incidents/gwKjX9Lukav15SaFPbBF" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:gwKjX9Lukav15SaFPbBF.xXUHjPw35U7gwWnNyXxh</id>
-    <updated>2021-09-02T20:34:06+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 09:22&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.&lt;/p&gt;
-&lt;p&gt;Description: Mitigation work is currently under progress. Engineering has confirmed that pausing the VM maintenance has mitigated current customer impact.&lt;/p&gt;
-&lt;p&gt;Customers may observe loss of local SSD on VM termination till the full resolution is deployed.&lt;/p&gt;
-&lt;p&gt;We will provide more information by Friday, 2021-09-03 13:30 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Diagnosis: Customers may see on VM termination/maintenance, replacement VMs cannot acquire Local SSD in order to initialize and therefore VMs will not be able to restart.&lt;/p&gt;
-&lt;p&gt;Workaround: No workaround available at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.</title>
-    <link href="https://status.cloud.google.com/incidents/gwKjX9Lukav15SaFPbBF" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:gwKjX9Lukav15SaFPbBF.zX8GUABxPqM7NRYrv6Nq</id>
-    <updated>2021-09-02T19:03:24+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 09:22&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.&lt;/p&gt;
-&lt;p&gt;Description: Mitigation work is currently under progress. Engineering team continues to pause the regular VM maintenance operations for SSD machines to mitigate the customer impact.&lt;/p&gt;
-&lt;p&gt;We do not have an ETA for completion of mitigation activities at this point.&lt;/p&gt;
-&lt;p&gt;We will provide more information by Thursday, 2021-09-02 13:30 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Diagnosis: Customers may see on VM termination/maintenance, replacement VMs cannot acquire Local SSD in order to initialize and therefore VMs will not be able to restart.&lt;/p&gt;
-&lt;p&gt;Workaround: No workaround available at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.</title>
-    <link href="https://status.cloud.google.com/incidents/gwKjX9Lukav15SaFPbBF" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:gwKjX9Lukav15SaFPbBF.NTM8BkNy92KKAPX3kx3V</id>
-    <updated>2021-09-02T18:00:11+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 09:22&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.&lt;/p&gt;
-&lt;p&gt;Description: Engineering team has implemented a pause on regular VM maintenance operations for SSD machines to mitigate the customer impact.&lt;/p&gt;
-&lt;p&gt;We do not have an ETA for completion of mitigation activities at this point.&lt;/p&gt;
-&lt;p&gt;We will provide more information by Thursday, 2021-09-02 12:00 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Diagnosis: Customers may see on VM termination/maintenance, replacement VMs cannot acquire Local SSD in order to initialize and therefore VMs will not be able to restart.&lt;/p&gt;
-&lt;p&gt;Workaround: No workaround available at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.</title>
-    <link href="https://status.cloud.google.com/incidents/gwKjX9Lukav15SaFPbBF" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:gwKjX9Lukav15SaFPbBF.Sb2N3tap3CosTCsUJN9z</id>
-    <updated>2021-09-02T16:57:57+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 09:22&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.&lt;/p&gt;
-&lt;p&gt;Description: Engineering team has started mitigation efforts to reduce customer impact.&lt;/p&gt;
-&lt;p&gt;We do not have an ETA for mitigation at this point.&lt;/p&gt;
-&lt;p&gt;We will provide more information by Thursday, 2021-09-02 11:00 US/Pacific.&lt;/p&gt;
-&lt;p&gt;Diagnosis: Customers may see on VM termination/maintenance, replacement VMs cannot acquire Local SSD in order to initialize and therefore VMs will not be able to restart.&lt;/p&gt;
-&lt;p&gt;Workaround: No workaround available at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.</title>
-    <link href="https://status.cloud.google.com/incidents/gwKjX9Lukav15SaFPbBF" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:gwKjX9Lukav15SaFPbBF.5qwPedxZcrGbMg2GYbvC</id>
-    <updated>2021-09-02T16:22:30+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 09:22&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: us-central1, europe-west1, us-west1, asia-east1, asia-southeast1: Issue with VM maintenance on Google Compute Engine.&lt;/p&gt;
-&lt;p&gt;Description: Some customers are experiencing an issue performing VM maintenance activities on Google Compute Engine.&lt;/p&gt;
-&lt;p&gt;Our engineering team is currently investigating the issue.&lt;/p&gt;
-&lt;p&gt;We will provide an update by Thursday, 2021-09-02 10:00 US/Pacific with current details.&lt;/p&gt;
-&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
-&lt;p&gt;Diagnosis: Customers may see on VM termination/maintenance, replacement VMs cannot acquire Local SSD in order to initialize and therefore VMs will not be able to restart.&lt;/p&gt;
-&lt;p&gt;Workaround: No workaround available at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>RESOLVED: Google Cloud Storage UI is experiencing some issues</title>
-    <link href="https://status.cloud.google.com/incidents/9dSqbyLnq9ALkVnD84eF" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:9dSqbyLnq9ALkVnD84eF.uMnVdkXd4t3NCqgLH89S</id>
-    <updated>2021-09-02T15:37:38+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 08:25&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-02 08:37&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Google Cloud Storage is believed to be affecting only the user interface and has a workaround to use gsutil on CLI. Our Engineering Team is currently working on the resolution.&lt;/p&gt;
-&lt;p&gt;If you have questions or are impacted, please open a case with the Support Team and we will work with you until this issue is resolved.&lt;/p&gt;
-&lt;p&gt;We thank you for your patience while we&amp;#39;re working on resolving the issue.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Storage&lt;/p&gt;</summary>
-  </entry><entry>
-    <title>UPDATE: Google Cloud Storage UI is experiencing some issues</title>
-    <link href="https://status.cloud.google.com/incidents/9dSqbyLnq9ALkVnD84eF" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:9dSqbyLnq9ALkVnD84eF.6WyM36Uto9tABe4GutWE</id>
-    <updated>2021-09-02T15:25:23+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-02 08:25&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-02 08:37&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Google Cloud Storage UI is experiencing some issues&lt;/p&gt;
-&lt;p&gt;Description: We are experiencing an issue with Google Cloud Storage beginning at Thursday, 2021-09-02 07:45:57 PDT US/Pacific.&lt;/p&gt;
-&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
-&lt;p&gt;We will provide an update by Thursday, 2021-09-02 08:55 US/Pacific with current details.&lt;/p&gt;
-&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
-&lt;p&gt;Diagnosis: Users attempting to create gcs buckets in pantheon are getting errors&lt;/p&gt;
-&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Storage&lt;/p&gt;</summary>
   </entry>
 </feed>

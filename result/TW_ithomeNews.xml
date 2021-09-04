@@ -6,6 +6,22 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>SUSE併購後的第一個版本，Rancher 2.6大幅強化叢集配置功能</title>
+    <link>https://www.ithome.com.tw/news/146534</link>
+    <description> Rancher 2.6是SUSE在去年冬天併購Rancher後，推出的第一個重要版本，開發團隊在這個版本進行了大幅度的更新，像是重新設計Rancher使用者體驗，對入門或是進階的Kubernetes使用者都更加友善，而Rancher 2.6另一個更新重點，則是強化託管叢集配置，改進AKS與GKS叢集生命周期管理。</description>
+     <pubDate>2021-09-03  11:09:17</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146534</guid>
+  </item>
+  <item>
+    <title>微軟發布企業級Azure Spring Cloud，提供全託管VMware Tanzu元件</title>
+    <link>https://www.ithome.com.tw/news/146533</link>
+    <description> 微軟現在提供企業級Azure Spring Cloud服務，這是針對企業開發人員最佳化的Spring託管服務，可滿足企業用戶的特殊需求。</description>
+     <pubDate>2021-09-03  11:09:27</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146533</guid>
+  </item>
+  <item>
     <title>AWS更新S3智慧分層收費規則，同時開始提供EFS智慧分層功能</title>
     <link>https://www.ithome.com.tw/news/146531</link>
     <description> AWS在Storage Day 2021會議上發布了儲存服務更新，包括調整原本Amazon S3智慧分層功能（Intelligent-Tiering）處理短暫和小型物件的費用，並且在雲端檔案儲存服務</description>
@@ -76,7 +92,7 @@
     <title>特斯拉機器人是玩真的，還是講假的？</title>
     <link>https://www.ithome.com.tw/news/146459</link>
     <description> 8月下旬一場Tesla AI Day技術大會上，特斯拉執行長馬斯克宣布將推出以AI為核心的通用人型機器人（Tesla Bot），更誇口一年內就能完成原型，引發不少熱議。但對於特斯拉從電動車跨足機器人，外界幾乎一面倒看衰， 認為他過於天真，甚至有些不切實際，把研發機器人這件事想的太簡單。
-人稱科技狂人的馬斯克，過去幾年的確提出不少異想天開的構想，有些最後成真，也有些失敗。比如他先前曾提出超級高鐵（Hyperloop）的構想，就是個經常被檢驗的失敗例子，他原先計畫打造一條超高速運輸真空隧道來載送乘客，到後來完全偏離原來的構想，變成只是一個電動車專用的輸送隧道。</description>
+人稱科技狂人的馬斯克，過去幾年的確提出不少異想天開的構想，有些最後成真，也有些失敗。比如他先前曾提出超級高鐵（Hyperloop）的構想，就是個經常被拿來檢驗的失敗例子，他原先計畫打造一條超高速運輸真空隧道來載送乘客，到後來完全偏離原來的構想，變成只是一個電動車專用的輸送隧道。</description>
      <pubDate>2021-09-03  01:09:04</pubDate>
  <dc:creator>余至浩</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146459</guid>
@@ -239,23 +255,6 @@
      <pubDate>2021-09-02  12:09:07</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146492</guid>
-  </item>
-  <item>
-    <title>烤肉爐零售遭勒索軟體攻擊，上櫃貿易百貨業關中公告子公司遭駭</title>
-    <link>https://www.ithome.com.tw/news/146491</link>
-    <description> 勒索軟體持續危害全球企業，近日國內跨足百貨業的居家熱源廠旗下外國子公司也遇害，臺灣上櫃公司關中在8月30日，於臺灣證券交易所發布即時重大訊息，說明旗下子公司Grand Home Holdings INC.，遭駭客網路攻擊。
-於2003年上櫃的關中公司，是專注於戶外瓦斯烤肉爐具研發與製造的國內大廠，並販售瓦斯統開關（安全開關、瓦斯噴槍、高壓閥），以及高效能瓦斯熱水器等居家熱源產品，主要銷售地點為北美，歐洲與澳洲地區。後續集團版圖擴張，該公司在2008年9月，成立Grand Home Holdings INC.（以下簡稱為GHHs），並買下美國烤肉爐專賣店通路Barbeques Galore，正式跨入零售領域。</description>
-     <pubDate>2021-09-02  12:09:25</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146491</guid>
-  </item>
-  <item>
-    <title>蘋果將開放Reader程式至第三方網站付款</title>
-    <link>https://www.ithome.com.tw/news/146489</link>
-    <description> 蘋果於周三（9/1）宣布，已與日本公平交易委員會（JFTC）達成協議，將允許Reader類別的程式開發者於程式中提供連結，讓使用者連至這些程式的網站進行設定或管理帳號，同時此一變更也將擴大至全球市場。在與蘋果達成協議之後，JFTC亦將終止對蘋果的反托拉斯調查。</description>
-     <pubDate>2021-09-02  11:09:24</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146489</guid>
   </item>
   </channel>
 </rss>

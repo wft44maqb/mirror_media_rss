@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-03T12:06:14Z</updated>
+ <updated>2021-09-04T07:07:07Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,46 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59060111</id>
+  <title><![CDATA[9·11恐怖袭击事件20年后]]></title>
+  <updated>2021-09-04T06:50:00Z</updated>
+  <published>2021-09-04T06:50:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/9·11恐怖袭击事件20年后/a-59060111?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[9·11事件20周年即将到来之际，塔利班的旗帜重又在喀布尔上空飘扬。德国联邦刑事局的专家担心，阿富汗再次成为圣战分子的游乐场——其中也包括来自德国的圣战分子。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59078724</id>
+  <title><![CDATA[德语媒体：赵薇哪儿去了？]]></title>
+  <updated>2021-09-03T14:31:00Z</updated>
+  <published>2021-09-03T14:31:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：赵薇哪儿去了？/a-59078724?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[过去几天当中，中国网络上已经完全找不到影星赵薇的任何踪迹。同她有关的视频和文章消失的无影无踪，就连她出演过的热门影视剧也都被下架了。《南德意志报》报道称，中国正在开展一次规模远超以往的针对影视圈的整治行动。]]></summary>
+  <category term="评论分析"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59077497</id>
+  <title><![CDATA[习近平推“共同富裕” 富豪疯狂做公益]]></title>
+  <updated>2021-09-03T13:14:00Z</updated>
+  <published>2021-09-03T13:14:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/习近平推-共同富裕-富豪疯狂做公益/a-59077497?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国领导层出手干预科技企业的“野蛮生长”，新出台的规则令许多行业倍感压力。在习近平“共同富裕”的口号下，许多科技业巨头及富豪们纷纷捐出巨款投入慈善。分析家认为，中国的整顿行动还将持续。 ]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59074568</id>
+  <title><![CDATA[社民党民调后来居上 肖尔茨: 下任总理？]]></title>
+  <updated>2021-09-03T12:10:00Z</updated>
+  <published>2021-09-03T12:10:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/社民党民调后来居上-肖尔茨-下任总理？/a-59074568?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[距离联邦议会大选的日子已经越来越近，社民党的民调支持率也越来越高。最新出台的民调数据显示，社民党之所以能在短时间内迎头赶上，同其首席候选人肖尔茨有着极大的关系。]]></summary>
+  <category term="德国新闻"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59073925</id>
   <title><![CDATA[台海争议 立陶宛召回驻华大使]]></title>
@@ -66,11 +106,11 @@
  </entry>
  <entry>
   <id>tag:dw.com,2021:59069963</id>
-  <title><![CDATA[传四川百名藏人被捕 疑与保存达赖图像有关]]></title>
+  <title><![CDATA[传四川百名藏人被捕 疑与保存达赖喇嘛图像有关]]></title>
   <updated>2021-09-03T07:11:00Z</updated>
   <published>2021-09-03T07:11:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/传四川百名藏人被捕-疑与保存达赖图像有关/a-59069963?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/传四川百名藏人被捕-疑与保存达赖喇嘛图像有关/a-59069963?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[海外藏人组织近日连续发布四川当地超过百名藏人遭警察抓捕的消息，称这些人主要是因被怀疑本存达赖喇嘛图像或与流亡藏人联系而被抓捕。]]></summary>
   <category term="时政风云"/>
  </entry>
@@ -185,26 +225,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59062020</id>
-  <title><![CDATA[德国：雇主无权询问员工是否已接种疫苗]]></title>
-  <updated>2021-09-02T11:51:00Z</updated>
-  <published>2021-09-02T11:51:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国：雇主无权询问员工是否已接种疫苗/a-59062020?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[依照德国劳动保护法，雇主有义务保障员工的身体健康，但依照个人信息保护法，雇主却无权过问员工是否已经接种新冠疫苗。周三颁布的新冠疫情卫生条例并未能帮助雇主摆脱当前的尴尬境地。]]></summary>
-  <category term="德国新闻"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59062284</id>
-  <title><![CDATA[塔利班：中国是“我们的通行证”]]></title>
-  <updated>2021-09-02T11:45:00Z</updated>
-  <published>2021-09-02T11:45:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班：中国是-我们的通行证/a-59062284?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[西方国家军队撤出阿富汗之后，阿富汗亟须资金援助。塔利班高调表示寄希望于来自中国的投资和开发。塔利班还表示，阿富汗女性可以上大学和工作。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59062023</id>
   <title><![CDATA[得州实施"全美最严堕胎法" 美最高法院未说"不"]]></title>
   <updated>2021-09-02T11:44:00Z</updated>
@@ -213,16 +233,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/得州实施-全美最严堕胎法-美最高法院未说-不/a-59062023?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[在美国得州，俗称《六周心跳法》的新堕胎法生效了。根据该法，公民可对涉嫌支持堕胎者提起民事诉讼。该规定尤其引发公愤，拜登也表示这“令人愤怒”，是"公然"侵犯妇女基本权利。]]></summary>
   <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59060568</id>
-  <title><![CDATA[谭德赛：我们请求中国给出这些数据]]></title>
-  <updated>2021-09-02T09:58:00Z</updated>
-  <published>2021-09-02T09:58:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/谭德赛：我们请求中国给出这些数据/a-59060568?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[世界卫生组织秘书长谭德赛在柏林表示，新冠病毒溯源之所以政治化，是因为没有得到原始数据。]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59057004</id>
@@ -425,16 +435,6 @@
   <category term="经济纵横"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:58981872</id>
-  <title><![CDATA[亚马逊在德国开设第四家研发中心 ]]></title>
-  <updated>2021-08-29T07:20:00Z</updated>
-  <published>2021-08-29T07:20:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/亚马逊在德国开设第四家研发中心/a-58981872?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美国互联网巨头亚马逊在德国东部的萨克森州首府德累斯顿设立了一个新研发中心。德累斯顿及周边地区已成为德国的IT高科技产业中心。 ]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:58959650</id>
   <title><![CDATA[德证综指达克斯扩容：从30到40家]]></title>
   <updated>2021-08-29T07:20:00Z</updated>
@@ -442,6 +442,16 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德证综指达克斯扩容：从30到40家/a-58959650?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[德国最重要证券综合指数——达克斯（DAX）规模将扩大。 33 年前创建时，其成员是30家，未来将扩为40家。根据一项改革计划，这个德国最重要股市晴雨表将于9月重组。]]></summary>
+  <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:58981872</id>
+  <title><![CDATA[亚马逊在德国开设第四家研发中心 ]]></title>
+  <updated>2021-08-29T07:20:00Z</updated>
+  <published>2021-08-29T07:20:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/亚马逊在德国开设第四家研发中心/a-58981872?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美国互联网巨头亚马逊在德国东部的萨克森州首府德累斯顿设立了一个新研发中心。德累斯顿及周边地区已成为德国的IT高科技产业中心。 ]]></summary>
   <category term="经济纵横"/>
  </entry>
  <entry>
@@ -465,16 +475,6 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59012730</id>
-  <title><![CDATA[德语媒体：中国需要一个稳定的阿富汗]]></title>
-  <updated>2021-08-28T13:52:00Z</updated>
-  <published>2021-08-28T13:52:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：中国需要一个稳定的阿富汗/a-59012730?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[美军匆忙撤离阿富汗留下的烂摊子，到底由谁来收拾？《每日镜报》认为，中国必须有所行动，因为阿富汗局势稳定符合中国的战略利益。《皇冠报》则指出，中国如今嘲笑美国只是表面现象，实际上正在为伊斯兰极端势力抬头而惊恐万分。]]></summary>
-  <category term="评论分析"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59012745</id>
   <title><![CDATA[为文化对话颁发歌德奖章]]></title>
   <updated>2021-08-28T13:52:00Z</updated>
@@ -485,14 +485,14 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59012656</id>
-  <title><![CDATA[对北京说不？欧盟公共采购合同或将中企排除在外]]></title>
-  <updated>2021-08-28T13:37:00Z</updated>
-  <published>2021-08-28T13:37:00Z</published>
+  <id>tag:dw.com,2021:59012730</id>
+  <title><![CDATA[德语媒体：中国需要一个稳定的阿富汗]]></title>
+  <updated>2021-08-28T13:52:00Z</updated>
+  <published>2021-08-28T13:52:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/对北京说不？欧盟公共采购合同或将中企排除在外/a-59012656?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国公司今后可能被排除在欧盟的公共采购合同之外。欧洲人民党党团计划在下周向欧盟议会递交“国际采购工具“（IPI），根据这份文件，那些不开放本国公共采购市场的第三国投标方，也将被排除在欧盟公共合同的招标之外。]]></summary>
-  <category term="经济纵横"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：中国需要一个稳定的阿富汗/a-59012730?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[美军匆忙撤离阿富汗留下的烂摊子，到底由谁来收拾？《每日镜报》认为，中国必须有所行动，因为阿富汗局势稳定符合中国的战略利益。《皇冠报》则指出，中国如今嘲笑美国只是表面现象，实际上正在为伊斯兰极端势力抬头而惊恐万分。]]></summary>
+  <category term="评论分析"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59011557</id>
@@ -503,16 +503,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/气候预报：飓风艾达可能变得-极其危险/a-59011557?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[飓风艾达在古巴西部登陆时为1级，预计在到达美国墨西哥湾海岸时将增强至极其危险的4级。近日的一份报告警告说，全球变暖已经在各地引发环境灾难，我们将看到更多的极端天气事件。]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59005240</id>
-  <title><![CDATA[德语媒体：打造抗中联盟谈何容易]]></title>
-  <updated>2021-08-27T14:27:00Z</updated>
-  <published>2021-08-27T14:27:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：打造抗中联盟谈何容易/a-59005240?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[对于中国日益强势的扩张行为，东南亚各国大都心存不满。但此次美国副总统哈里斯的亚太之行却也显示出，要想让各国合力对抗中国也绝非易事。]]></summary>
-  <category term="评论分析"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:57217657</id>
@@ -532,16 +522,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/响应中央打击「违法失德」-爱奇艺自砍选秀节目/a-58997075?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[在多个知名影视明星爆出丑闻后，中国政府将矛头指向文艺界，特别是演艺圈，批评「流量明星」带来「不良审美风尚」，也开始大力整顿不健康的「饭圈文化」。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58991807</id>
-  <title><![CDATA[时隔30年《Nevermind》封面男婴起诉Nirvana]]></title>
-  <updated>2021-08-26T14:17:00Z</updated>
-  <published>2021-08-26T14:17:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/时隔30年《nevermind》封面男婴起诉nirvana/a-58991807?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[对于摇滚迷而言，这张图片再熟悉不过，这是著名摇滚乐队Nirvana第二张专辑《Nevermind》的封面。如今，游泳男婴长大成人，他表示这张裸体照片是“性剥削”，说感到自己像在卖身。]]></summary>
   <category term="文化经纬"/>
  </entry>
  <entry>

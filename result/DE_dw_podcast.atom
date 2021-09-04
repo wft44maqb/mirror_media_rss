@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-09-03T12:04:09Z</updated>
+ <updated>2021-09-04T07:08:53Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,28 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59039254</id>
+  <title><![CDATA[芯片供应吃紧 半导体产业方兴未艾]]></title>
+  <updated>2021-09-04T06:50:00Z</updated>
+  <published>2021-09-04T06:50:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/芯片供应吃紧-半导体产业方兴未艾/av-59039254?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[疫情期间，全球芯片供应紧张，许多行业的产能因此严重受限。欧洲国家也在加强对半导体产业的投入：一方面扩建生产线，另一方面也在抓紧培训年轻员工。]]></summary>
+  <category term="经济纵横"/>
+  <link rel="enclosure" type="video/mp4" length="11499695" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210830_001_8a556dresdenwaffel_sd.mp4" title="芯片供应吃紧 半导体产业方兴未艾"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59078603</id>
+  <title><![CDATA[爭奪「蛋蛋杯」冠軍！- 世界睪丸烹飪大賽]]></title>
+  <updated>2021-09-03T14:21:00Z</updated>
+  <published>2021-09-03T14:21:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/爭奪「蛋蛋杯」冠軍！-世界睪丸烹飪大賽/av-59078603?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[塞爾維亞小鎮倫涅維察（Lunjevica）因為一個奇特的美食比賽聞名於世——世界睪丸烹飪大賽。今年的活動也吸引了全球各地的團隊參加，煮熟、烘烤和油炸，參賽者們在現場烹飪了創意十足的佳餚，用的食材皆為動物睪丸。誰是今年的「蛋蛋杯」冠軍呢？]]></summary>
+  <category term="文化经纬"/>
+  <link rel="enclosure" type="video/mp4" length="14831363" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210903_001_5fbdabchi_210902_kochen_1_sd.mp4" title="爭奪「蛋蛋杯」冠軍！- 世界睪丸烹飪大賽"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59066363</id>
   <title><![CDATA[争夺“蛋蛋杯”冠军！- 世界睾丸烹饪大赛]]></title>
@@ -321,27 +343,5 @@
   <summary><![CDATA[亚马逊一个物流中心销毁新品的画面令公众愤怒。德国明令禁止销毁完好无损的商品。但是，人们会遵守吗？疫情造成的库存积压又怎么办呢？]]></summary>
   <category term="经济纵横"/>
   <link rel="enclosure" type="video/mp4" length="8039626" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210726_001_30386amazon_sd.mp4" title="退货的结局是销毁？亚马逊仓库遭遇指责"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58614239</id>
-  <title><![CDATA[洪灾过后 素不相识的志愿者伸出援手]]></title>
-  <updated>2021-07-25T08:23:00Z</updated>
-  <published>2021-07-25T08:23:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/洪灾过后-素不相识的志愿者伸出援手/av-58614239?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[德国西部的洪灾过后，风景如画的小镇满目疮痍。不过，面对堆积成山的废墟，当地居民并没有孤立无援。除了专业的救灾队伍，许多素不相识的志愿者也伸出援手。]]></summary>
-  <category term="德国新闻"/>
-  <link rel="enclosure" type="video/mp4" length="7052379" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210723_001_a2984solidaritaet_sd.mp4" title="洪灾过后 素不相识的志愿者伸出援手"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58614772</id>
-  <title><![CDATA[来德国是为了逃命 去东京是为了梦想]]></title>
-  <updated>2021-07-23T14:12:00Z</updated>
-  <published>2021-07-23T14:12:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/来德国是为了逃命-去东京是为了梦想/av-58614772?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[本届东京奥运会与残奥会上，有29名难民运动员参赛，他们并不代表自己的祖国。因为宗教原因流亡德国的伊朗运动员Saeid Fazloula就是其中之一。]]></summary>
-  <category term="足坛体坛"/>
-  <link rel="enclosure" type="video/mp4" length="11731309" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210723_001_1eb2brefugeeolympics_sd.mp4" title="来德国是为了逃命 去东京是为了梦想"/>
  </entry>
 </feed>

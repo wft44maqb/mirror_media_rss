@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Fri, 03 Sep 2021 04:30:44 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 03 Sep 2021 13:36:50 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,6 +13,232 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>Amazon Managed Grafana 现已全面推出，并具有许多新功能</title>
+		<link>https://aws.amazon.com/cn/blogs/china/amazon-managed-grafana-is-now-generally-available-with-many-new-features/</link>
+				<pubDate>Fri, 03 Sep 2021 13:36:50 +0000</pubDate>
+		<dc:creator><![CDATA[Danilo Poccia]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">d35bdf870737959a67f2dba3bb762a65b082508d</guid>
+				<description>12 月，我们推出了 Amazon Managed Grafana 的预览版，这是一项与 Grafana Labs 合作开发的完全托管服务，可让您轻松使用开源版本和企业版 Grafana 来可视化和分析多个来源的数据。借助 Amazon Managed Grafana，您可以分析指标、日志和跟踪，而无需预置服务器或配置和更新软件。</description>
+								<content:encoded>&lt;p&gt;12 月，我们推出了 &lt;a href="https://aws.amazon.com/grafana/"&gt;Amazon Managed Grafana&lt;/a&gt; 的&lt;a href="https://aws.amazon.com/blogs/aws/announcing-amazon-managed-grafana-service-in-preview/"&gt;预览版&lt;/a&gt;，这是一项&lt;a href="https://grafana.com/blog/2020/12/15/announcing-amazon-managed-service-for-grafana/"&gt;与 Grafana Labs 合作开发&lt;/a&gt;的完全托管服务，可让您轻松使用开源版本和企业版 &lt;a href="https://grafana.com/"&gt;Grafana&lt;/a&gt; 来可视化和分析多个来源的数据。借助 Amazon Managed Grafana，您可以分析指标、日志和跟踪，而无需预置服务器或配置和更新软件。&lt;/p&gt; 
+&lt;p&gt;在预览期间，Amazon Managed Grafana 增加了很多&lt;a href="https://aws.amazon.com/blogs/mt/amazon-managed-service-for-grafana-amg-preview-updated-with-new-capabilities/"&gt;新的功能&lt;/a&gt;。今天，我很高兴地宣布，Amazon Managed Grafana 现已&lt;strong&gt;全面推出&lt;/strong&gt;，并附加全新功能：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li style="padding-bottom: 0.5em"&gt;Grafana 现已&lt;a href="https://grafana.com/docs/grafana/latest/whatsnew/whats-new-in-v8-0/"&gt;升级至版本 8&lt;/a&gt;，并提供了新的数据源、可视化和功能，包括您只需构建一次即可在多个控制面板上重复使用的库面板、一个用于快速查找和查询指标的 Prometheus 指标浏览器，以及全新的状态时间表和状态历史可视化。&lt;/li&gt; 
+ &lt;li style="padding-bottom: 0.5em"&gt;要在 Amazon Managed Grafana 工作区中集中查询其他数据源，您现在可以使用 &lt;a href="https://grafana.com/grafana/plugins/simpod-json-datasource/"&gt;JSON 数据源插件&lt;/a&gt;来查询数据。您现在还可以查询 &lt;a href="https://redis.io/"&gt;Redis&lt;/a&gt;、&lt;a href="https://www.sap.com/products/hana.html"&gt;SAP HANA&lt;/a&gt;、&lt;a href="https://www.salesforce.com/"&gt;Salesforce&lt;/a&gt;、&lt;a href="https://www.servicenow.com/"&gt;ServiceNow&lt;/a&gt;、&lt;a href="https://www.atlassian.com/software/jira"&gt;Atlassian Jira&lt;/a&gt; 以及更多数据源。&lt;/li&gt; 
+ &lt;li style="padding-bottom: 0.5em"&gt;您可以使用 &lt;a href="https://docs.aws.amazon.com/grafana/latest/userguide/Using-Grafana-APIs.html"&gt;Grafana API 密钥&lt;/a&gt;来发布您自己的控制面板或以编程方式访问您的 Grafana 工作区。例如，这是一个可用于添加数据源和控制面板的 &lt;a href="https://aws-observability.github.io/aws-o11y-recipes/recipes/amg-automation-tf/"&gt;Terraform 配方&lt;/a&gt;。&lt;/li&gt; 
+ &lt;li style="padding-bottom: 0.5em"&gt;您可以使用&lt;a href="https://en.wikipedia.org/wiki/SAML_2.0"&gt;安全断言标记语言 2.0 (SAML 2.0)&lt;/a&gt; 来启用对 Amazon Managed Grafana 工作区的单点登录。我们与以下身份提供商 (IdP) 合作，以便在启动时将其集成：&lt;a href="https://www.cyberark.com/"&gt;Cyber​​Ark&lt;/a&gt;、&lt;a href="https://www.okta.com/"&gt;Okta&lt;/a&gt;、&lt;a href="https://www.onelogin.com/"&gt;OneLogin&lt;/a&gt;、&lt;a href="https://www.pingidentity.com/"&gt;Ping Identity&lt;/a&gt; 和 &lt;a href="https://azure.microsoft.com/en-us/services/active-directory/"&gt;Azure Active Directory&lt;/a&gt;。&lt;/li&gt; 
+ &lt;li style="padding-bottom: 0.5em"&gt;&lt;a title="" href="https://aws.amazon.com/cloudtrail/"&gt;AWS CloudTrail&lt;/a&gt; 会捕获来自 Amazon Managed Grafana 控制台的所有调用以及对 Amazon Managed Grafana API 操作的代码调用。通过这种方式，您可以记录用户、角色或 AWS 服务在 Amazon Managed Grafana 中执行的操作。此外，您现在可以审核 Amazon Managed Grafana 工作区中发生的突变，诸如控制面板被删除或者数据源权限被更改。&lt;/li&gt; 
+ &lt;li&gt;该服务在 10 个 &lt;a href="https://aws.amazon.com/about-aws/global-infrastructure/regions_az/#Regions"&gt;AWS 区域&lt;/a&gt;（完整列表位于文章末尾）推出。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;让我们快速演练一下，看看这在实践中是如何运作的。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;使用 Amazon Managed Grafana&lt;br&gt; &lt;/strong&gt;&lt;/span&gt;在 &lt;a href="https://console.aws.amazon.com/grafana/home"&gt;Amazon Managed Grafana 控制台&lt;/a&gt;中，我选择&lt;strong&gt;创建工作区&lt;/strong&gt;。“工作区”是逻辑上隔离的、高度可用的 Grafana 服务器。我输入工作区的名称和描述，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-create-workspace.png"&gt;&lt;img class="aligncenter size-large wp-image-53771" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-create-workspace-1024x567.png" alt="控制台屏幕截图。" width="1024" height="567"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我可以通过 SAML 使用 &lt;a href="https://aws.amazon.com/single-sign-on/"&gt;AWS Single Sign-On (AWS SSO)&lt;/a&gt; 或外部身份提供商对我工作区的用户进行身份验证。为简单起见，我选择 AWS SSO。在后文中，我将展示 SAML 身份验证的工作原理。如果这是您第一次使用 AWS SSO，则您可以查看&lt;a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/prereqs.html"&gt;文档中的先决条件（例如，设置 AWS Organizations）&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/05/amg-auth.png"&gt;&lt;img class="aligncenter wp-image-53844 size-large" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/05/amg-auth-1024x670.png" alt="控制台屏幕截图。" width="1024" height="670"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;然后，我选择&lt;strong&gt;服务托管&lt;/strong&gt;权限类型。这样，Amazon Managed Grafana 会自动预置必要的 IAM 权限，以便访问我在下一步中要选择的 AWS 服务。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-permission-type.png"&gt;&lt;img class="aligncenter size-large wp-image-53773" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-permission-type-1024x346.png" alt="控制台屏幕截图。" width="1024" height="346"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在&lt;strong&gt;服务托管权限设置&lt;/strong&gt;中，我选择监控我当前 AWS 账户中的资源。如果您使用 &lt;a href="https://aws.amazon.com/organizations/"&gt;AWS Organizations&lt;/a&gt; 来集中管理您的 AWS 环境，您可以使用 Grafana 来监控您&lt;a href="https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_ous.html"&gt;组织单位 (OU)&lt;/a&gt; 中的资源。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-permission-access.png"&gt;&lt;img class="aligncenter size-large wp-image-53786" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-permission-access-1024x339.png" alt="控制台屏幕截图。" width="1024" height="339"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我可以选择我计划使用的 AWS 数据源。此配置将创建一个 &lt;a title="" href="https://aws.amazon.com/iam/"&gt;AWS Identity and Access Management (IAM)&lt;/a&gt; 角色，使 Amazon Managed Grafana 能够访问我账户中的这些资源。稍后，在 Grafana 控制台中，我可以将选定的服务设置为数据源。现在，我选择 &lt;a title="" href="https://aws.amazon.com/cloudwatch/"&gt;Amazon CloudWatch&lt;/a&gt;，以便我可以在 Grafana 控制面板中快速可视化 &lt;a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/working_with_metrics.html"&gt;CloudWatch 指标&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;在此，我还配置了将 &lt;a href="https://aws.amazon.com/prometheus/"&gt;Amazon Managed Service for Prometheus (AMP)&lt;/a&gt; 作为数据源的权限，并为我的应用程序提供完全托管的监控解决方案。例如，我可以使用 &lt;a href="https://aws.amazon.com/otel/"&gt;AWS Distro for OpenTelemetry&lt;/a&gt; 或 &lt;a href="https://prometheus.io/"&gt;Prometheus&lt;/a&gt; 服务器作为收集代理，从 &lt;a title="" href="https://aws.amazon.com/eks/"&gt;Amazon Elastic Kubernetes Service (EKS)&lt;/a&gt; 和 &lt;a title="" href="https://aws.amazon.com/ecs/"&gt;Amazon Elastic Container Service (Amazon ECS)&lt;/a&gt; 环境中收集 Prometheus 指标。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/amg-permission-aws-data-sources.png"&gt;&lt;img class="aligncenter size-large wp-image-54028" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/amg-permission-aws-data-sources-1024x829.png" alt="控制台屏幕截图。" width="1024" height="829"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在此步骤中，我还选择 &lt;a title="" href="https://aws.amazon.com/sns/"&gt;Amazon Simple Notification Service (SNS)&lt;/a&gt; 作为通知渠道。与之前的数据源类似，此选项允许 Amazon Managed Grafana 访问 SNS，但不会设置通知渠道。我可以稍后在 Grafana 控制台中执行此操作。具体而言，此设置会将 SNS 发布权限以 &lt;code&gt;grafana&lt;/code&gt; 开头的主题添加到 Amazon Managed Grafana 控制台所创建的 IAM 角色中。如果您希望对 SNS 或任何数据源的权限进行更严格的控制，您可以在 IAM 控制台中编辑角色或对您的工作区使用客户托管权限。&lt;/p&gt; 
+&lt;p&gt;最后，我查看一下所有选项并创建工作区。&lt;/p&gt; 
+&lt;p&gt;几分钟后，工作区准备就绪，我找到了可用于访问 Grafana 控制台的&lt;strong&gt;工作区 URL&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-workspace-summary.png"&gt;&lt;img class="aligncenter size-large wp-image-53776" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-workspace-summary-1024x301.png" alt="控制台屏幕截图。" width="1024" height="301"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我需要至少为 Grafana 工作区分配一个用户或组才能访问工作区 URL。我选择&lt;strong&gt;分配新用户或组&lt;/strong&gt;，然后选择我的一个 AWS SSO 用户。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-aws-sso-auth.png"&gt;&lt;img class="aligncenter size-large wp-image-53778" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-aws-sso-auth-1024x289.png" alt="控制台屏幕截图。" width="1024" height="289"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;默认情况下，该用户被分配了&lt;strong&gt;查看者&lt;/strong&gt;用户类型，对工作区具有“仅查看”权限。要授予此用户创建和管理仪表板和警报的权限，我选择该用户，然后选择&lt;strong&gt;设为管理员&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-aws-sso-admin.png"&gt;&lt;img class="aligncenter size-large wp-image-53779" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-aws-sso-admin-1024x400.png" alt="控制台屏幕截图。" width="1024" height="400"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;回到工作区摘要，我按照工作区 URL 并使用我的 AWS SSO 用户凭证进行登录。我现在使用的是开源版的 Grafana。如果您是一名 Grafana 用户，那么您肯定对一切都很熟悉了。就我的第一个配置，我将专注于 AWS 数据源，因此我选择左侧竖条上的 AWS 徽标。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-aws-data-sources.png"&gt;&lt;img class="aligncenter size-large wp-image-53780" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-aws-data-sources-1024x512.png" alt="控制台屏幕截图。" width="1024" height="512"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在此，我选择 CloudWatch。权限已经设置，因为我之前在服务托管权限设置中选择了 CloudWatch。我选择默认的 AWS 区域并添加数据源。我选择 CloudWatch 数据源，然后在&lt;strong&gt;控制面板&lt;/strong&gt;选项卡上，我找到了一些 AWS 服务的控制面板，例如 &lt;a title="" href="https://aws.amazon.com/ec2/"&gt;Amazon Elastic Compute Cloud (Amazon EC2)&lt;/a&gt;、&lt;a title="" href="https://aws.amazon.com/ebs/"&gt;Amazon Elastic Block Store (EBS)&lt;/a&gt;、&lt;a title="" href="https://aws.amazon.com/lambda/"&gt;AWS Lambda&lt;/a&gt;、&lt;a title="" href="https://aws.amazon.com/rds/"&gt;Amazon Relational Database Service (RDS)&lt;/a&gt; 和 &lt;a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html"&gt;CloudWatch LogsLogs&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-cloudwatch-dashboards.png"&gt;&lt;img class="aligncenter size-large wp-image-53781" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-cloudwatch-dashboards-1024x379.png" alt="控制台屏幕截图。" width="1024" height="379"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我导入 AWS Lambda 控制面板。我现在可以使用 Grafana 来监控我账户中 Lambda 函数的调用、错误和限制。这边就没有屏幕截图了，因为我在这个区域没有什么有趣的数据。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;使用 SAML 身份验证&lt;br&gt; &lt;/strong&gt;&lt;/span&gt;如果我没有启用 AWS SSO，我可以在创建工作区时选择 SAML 身份验证选项，并使用外部身份提供商 (IdP) 对 Amazon Managed Grafana 工作区的用户进行身份验证。对于现有工作区，我可以在工作区摘要中选择&lt;strong&gt;设置 SAML 配置&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;首先，我必须向我的 IdP 提供工作区 ID 和 URL 信息，以便生成用于配置此工作区的 IdP 元数据。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-saml-idp.png"&gt;&lt;img class="aligncenter size-large wp-image-53782" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-saml-idp-1024x254.png" alt="控制台屏幕截图。" width="1024" height="254"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;配置 IdP 后，我通过指定 URL 或复制并粘贴到编辑器来导入 IdP 元数据。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-saml-import-metadata.png"&gt;&lt;img class="aligncenter size-large wp-image-53783" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-saml-import-metadata-1024x252.png" alt="控制台屏幕截图。" width="1024" height="252"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;最后，我可以将 IdP 中的用户权限映射到 Grafana 用户权限，诸如指定哪些用户将在我的 Amazon Managed Grafana 工作区中拥有“管理员”、“编辑者”和“查看者”权限。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-saml-assertion-mapping.png"&gt;&lt;img class="aligncenter size-large wp-image-53784" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/03/amg-saml-assertion-mapping-1024x383.png" alt="控制台屏幕截图。" width="1024" height="383"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;span style="text-decoration: underline"&gt;可用性和定价&lt;/span&gt;&lt;br&gt; &lt;/strong&gt;&lt;a href="https://aws.amazon.com/grafana/"&gt;Amazon Managed Grafana&lt;/a&gt; 现已在 10 个 AWS 区域推出：美国东部（弗吉尼亚北部）、美国东部（俄亥俄）、美国西部（俄勒冈）、欧洲（爱尔兰）、欧洲（法兰克福）、欧洲（伦敦）、亚太地区（新加坡）、亚太地区（东京）、亚太地区（悉尼）和亚太地区（首尔）。有关更多信息，请参阅 &lt;a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/"&gt;AWS 区域服务列表&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;使用 Amazon Managed Grafana，您每月只需为每个工作区中的活跃用户付费。用于发布控制面板的 Grafana API 密钥，每月按每个工作区的 API 用户许可证计费。您可以升级到企业版 Grafana，以便直接从 Grafana Labs 获取企业版插件、支持和按需培训。有关更多信息，&lt;a href="https://aws.amazon.com/grafana/pricing/"&gt;请参阅 Amazon Managed Grafana 定价页面&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://amazon.webex.com/webappng/sites/amazon/meeting/info/d66eaebcfa2c4f448e72c583ca8dcef2?isPopupRegisterView=true"&gt;欲了解更多信息，您可以参加将于 9 月 9 日星期四上午 9:00 PDT / 12:00 pm EDT / 6:00 pm CEST 举行的网络研讨会。&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://aws.amazon.com/grafana/"&gt;立即开始使用 Amazon Managed Grafana，以便可视化和分析任何规模的运营数据。&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;— &lt;a title="Danilo 的 Twitter" href="https://twitter.com/danilop"&gt;Danilo&lt;/a&gt;&lt;/p&gt;</content:encoded>
+										</item>
+		<item>
+		<title>AWS CloudFormation 的新功能 – 从故障点快速重试堆栈操作</title>
+		<link>https://aws.amazon.com/cn/blogs/china/new-for-aws-cloudformation-quickly-retry-stack-operations-from-the-point-of-failure/</link>
+				<pubDate>Fri, 03 Sep 2021 13:35:24 +0000</pubDate>
+		<dc:creator><![CDATA[Danilo Poccia]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">165ee27e85f79d9952436041e30c678bf6993358</guid>
+				<description>AWS CloudFormation 为您提供了一种简单的方法，可以对相关 AWS 和第三方资源集合进行建模，快速、一致地预置它们，并在其整个生命周期中对它们进行管理。CloudFormation 模板描述了所需的资源及其依赖关系，以便您将它们作为堆栈共同启动和配置。您可以使用模板将整个堆栈作为单个单元创建、更新和删除，而不是单独管理资源。</description>
+								<content:encoded>&lt;p&gt;云计算的巨大优势之一是您有权访问可编程基础设施。这可让您管理&lt;a href="https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html"&gt;基础设施即代码&lt;/a&gt;，并将相同的应用程序代码开发实践应用于基础设施预置。&lt;/p&gt; 
+&lt;p&gt;&lt;a title="" href="https://aws.amazon.com/cloudformation/"&gt;AWS CloudFormation&lt;/a&gt; 为您提供了一种简单的方法，可以对相关 AWS 和第三方资源集合进行建模，快速、一致地预置它们，并在其整个生命周期中对它们进行管理。CloudFormation &lt;strong&gt;模板&lt;/strong&gt;描述了所需的资源及其依赖关系，以便您将它们作为&lt;strong&gt;堆栈&lt;/strong&gt;共同启动和配置。您可以使用模板将整个堆栈作为单个单元创建、更新和删除，而不是单独管理资源。&lt;/p&gt; 
+&lt;p&gt;创建或更新堆栈时，您的操作可能会由于不同的原因而失败。例如，模板、模板的参数中可能存在错误，也可能存在模板之外的问题，例如 &lt;a title="" href="https://aws.amazon.com/iam/"&gt;AWS Identity and Access Management (IAM)&lt;/a&gt; 权限错误。发生此类错误时，CloudFormation 会将堆栈回滚到之前的稳定状态。对于堆栈创建，这意味着删除直到出错点之前创建的所有资源。对于堆栈更新，这意味着恢复以前的配置。&lt;/p&gt; 
+&lt;p&gt;回滚到以前状态的操作对于生产环境来说非常合适，但您可能很难理解出现错误的原因。根据模板的复杂性和所涉及资源的数量，您可能会花很多时间等待所有资源回滚，然后再使用正确的配置更新模板并重试该操作。&lt;/p&gt; 
+&lt;p&gt;今天，我很高兴与大家分享的功能是，CloudFormation 目前可让您&lt;strong&gt;禁用&lt;/strong&gt;自动回滚，在错误发生之前&lt;strong&gt;保持&lt;/strong&gt;资源成功创建或更新，以及从故障点&lt;strong&gt;重试&lt;/strong&gt;堆栈操作。通过这种方式，您可以快速迭代以解决和修复错误，并大大减少在开发环境中测试 CloudFormation 模板所需的时间。您可以在创建堆栈、更新堆栈时以及执行&lt;a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html"&gt;更改集&lt;/a&gt;时应用此新功能。我们来看看这些步骤的实际操作。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;快速迭代以解决和修复 CloudFormation 堆栈问题&lt;br&gt; &lt;/strong&gt;&lt;/span&gt;对于我的一个应用程序，我需要设置 &lt;a title="" href="https://aws.amazon.com/s3/"&gt;Amazon Simple Storage Service (Amazon S3)&lt;/a&gt; 存储桶、&lt;a title="" href="https://aws.amazon.com/sqs/"&gt;Amazon Simple Queue Service (SQS)&lt;/a&gt; 队列和 &lt;a title="" href="https://aws.amazon.com/dynamodb/"&gt;Amazon DynamoDB&lt;/a&gt; 表，该表将项目级更改串流至 &lt;a title="" href="https://aws.amazon.com/kinesis/"&gt;Amazon Kinesis&lt;/a&gt; 数据流。对于此设置，我编写了 CloudFormation 模板的第一个版本。&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-yaml"&gt;AWSTemplateFormatVersion: "2010-09-09"
+说明：一个用于解决和修复问题的示例模板
+Parameters:
+  ShardCountParameter:
+    Type: Number
+    说明：Kinesis 流的分区数
+Resources:
+  MyBucket:
+    Type: AWS::S3::Bucket
+  MyQueue:
+    Type: AWS::SQS::Queue
+  MyStream:
+    Type: AWS::Kinesis::Stream
+    Properties:
+      ShardCount: !Ref ShardCountParameter
+  MyTable：
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: "ArtistId"
+          AttributeType: "S"
+        - AttributeName: "Concert"
+          AttributeType: "S"
+        - AttributeName: "TicketSales"
+          AttributeType: "S"
+      KeySchema:
+        - AttributeName: "ArtistId"
+          "KeyType": "HASH"
+        - AttributeName: "Concert"
+          KeyType: "RANGE"
+      KinesisStreamSpecification:
+        StreamArn: !GetAtt MyStream.Arn
+Outputs:
+  BucketName:
+    Value: !Ref MyBucket
+    说明：我的 S3 存储桶的名称
+  QueueName:
+    Value: !GetAtt MyQueue.QueueName
+    说明：我的 SQS 队列的名称
+  StreamName:
+    Value: !Ref MyStream
+    说明：我的 Kinesis 流的名称
+  TableName:
+    Value: !Ref MyTable
+    说明：我的 DynamoDB 表的名称&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;现在，我想用这个模板创建一个堆栈。在 &lt;a href="https://console.aws.amazon.com/cloudformation/home"&gt;CloudFormation 控制台&lt;/a&gt;上，我选择&lt;strong&gt;创建堆栈&lt;/strong&gt;。然后，我上传模板文件并选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-create-stack.png"&gt;&lt;img class="aligncenter size-large wp-image-54040" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-create-stack-1024x659.png" alt="控制台屏幕截图。" width="1024" height="659"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我输入堆栈的名称。然后，我填写堆栈参数。我的模板文件有一个参数 (&lt;code&gt;ShardCountParameter&lt;/code&gt;)，用于配置 Kinesis 数据流的&lt;a href="https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html"&gt;分区数量&lt;/a&gt;。我知道分区数量应该大于或等于 1，但错误地输入 0 并选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-name-parameters.png"&gt;&lt;img class="aligncenter size-large wp-image-54043" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-name-parameters-1024x499.png" alt="控制台屏幕截图。" width="1024" height="499"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;为了创建、修改或删除堆栈中的资源，我使用 &lt;a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html"&gt;IAM 角色&lt;/a&gt;。这样，我就明确界定了 CloudFormation 可用于堆栈操作的权限。此外，我可以使用相同的角色来在标准化和可重复的环境中自动部署堆栈。&lt;/p&gt; 
+&lt;p&gt;在&lt;strong&gt;权限&lt;/strong&gt;中，我选择要用于堆栈操作的 IAM 角色。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-permissions.png"&gt;&lt;img class="aligncenter size-large wp-image-54042" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-permissions-1024x325.png" alt="控制台屏幕截图。" width="1024" height="325"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;现在是使用新功能的时候了！ 在&lt;strong&gt;堆栈故障选项&lt;/strong&gt;中，我选择&lt;strong&gt;保留成功预置的资源&lt;/strong&gt;，以便在出错时保留已创建的资源。失败的资源始终回滚到最近一个已知的稳定状态。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-stack-failure-options.png"&gt;&lt;img class="aligncenter size-large wp-image-54044" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-stack-failure-options-1024x273.png" alt="控制台屏幕截图。" width="1024" height="273"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我将所有其他选项保留为默认值，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。然后，我查看自己的配置并选择&lt;strong&gt;创建堆栈&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;堆栈的创建操作会执行几秒钟，然后由于错误而失败。在&lt;strong&gt;事件&lt;/strong&gt;选项卡中，我查看事件的时间表。开始创建堆栈的事件位于底部。最近的事件位于顶部。由于分区的数量 (&lt;code&gt;ShardCount&lt;/code&gt;) 低于最小值，因此流资源的属性验证失败。因此，堆栈现在处于 &lt;code&gt;CREATE_FAILED&lt;/code&gt; 状态。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-errors-parameter.png"&gt;&lt;img class="aligncenter size-large wp-image-54045" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-errors-parameter-1024x605.png" alt="控制台屏幕截图。" width="1024" height="605"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我选择保留预置的资源，因此在错误发生之前创建的所有资源仍然存在。在&lt;strong&gt;资源&lt;/strong&gt;选项卡中，S3 存储桶和 SQS 队列处于 &lt;code&gt;CREATE_COMPLETE&lt;/code&gt; 状态，而 Kinesis 数据流处于 &lt;code&gt;CREATE_FAILED&lt;/code&gt; 状态。DynamoDB 表的创建取决于 Kinesis 数据流是否可用，因为该表将数据流用于其属性之一 (&lt;code&gt;KinesisStreamSpecification&lt;/code&gt;)。因此，表的创建尚未开始，并且该表不在列表中。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-preserved-resources.png"&gt;&lt;img class="aligncenter size-large wp-image-54046" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-preserved-resources-1024x408.png" alt="控制台屏幕截图。" width="1024" height="408"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;回滚现在已暂停，并且我有一些新的选项：&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;重试&lt;/strong&gt; – 在不作任何更改的情况下重试堆栈操作。如果资源由于模板之外的问题而无法预置，此选项就非常有用。我可以修复这个问题，然后从故障点重试。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;更新&lt;/strong&gt; – 在重试堆栈创建之前更新模板或参数。堆栈更新从最近一个操作因错误而中断的位置开始。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;回滚&lt;/strong&gt; – 回滚到最近一个已知的稳定状态。这类似于默认的 CloudFormation 行为。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-stack-paused-options.png"&gt;&lt;img class="aligncenter size-large wp-image-54048" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-stack-paused-options-1024x204.png" alt="控制台屏幕截图。" width="1024" height="204"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;修复参数中的问题&lt;br&gt; &lt;/strong&gt;&lt;/span&gt;我很快意识到输入了错误的分区数量参数，因此选择&lt;strong&gt;更新&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;我不需要更改模板来修复此错误。&amp;nbsp;在&lt;strong&gt;参数&lt;/strong&gt;中，我修复了之前的错误并输入正确的分区数量：一个分区。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-update-stack-parameters.png"&gt;&lt;img class="aligncenter size-large wp-image-54051" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-update-stack-parameters-1024x308.png" alt="控制台屏幕截图。" width="1024" height="308"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;我将所有其他选项保留为当前值，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;在&lt;strong&gt;更改集预览&lt;/strong&gt;中，我看到更新将尝试修改 Kinesis 流 (当前处于 &lt;code&gt;CREATE_FAILED&lt;/code&gt; 状态) 并添加 DynamoDB 表。我查看其他配置并选择&lt;strong&gt;更新堆栈&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-change-set-preview-1.png"&gt;&lt;img class="aligncenter size-large wp-image-54056" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-change-set-preview-1-1024x389.png" alt="控制台屏幕截图。" width="1024" height="389"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;现在更新进行中。我解决了所有问题吗？ 还没有。一段时间后，更新失败。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;修复模板之外的问题&lt;br&gt; &lt;/strong&gt;&lt;/span&gt;Kinesis 流已创建，但 CloudFormation 担任的 IAM 角色没有创建 DynamoDB 表的权限。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-errors-permissions.png"&gt;&lt;img class="aligncenter wp-image-54057 size-large" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-errors-permissions-1024x488.png" alt="控制台屏幕截图。" width="1024" height="488"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;在 &lt;a href="https://console.aws.amazon.com/iam/home"&gt;IAM 控制台&lt;/a&gt;中，我向堆栈操作使用的角色添加额外权限，以便该角色能够创建 DynamoDB 表。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-iam-permissions.png"&gt;&lt;img class="aligncenter size-large wp-image-54063" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-iam-permissions-1024x315.png" alt="控制台屏幕截图。" width="1024" height="315"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;返回 &lt;a href="https://console.aws.amazon.com/cloudformation/home"&gt;CloudFormation 控制台&lt;/a&gt;，我选择&lt;strong&gt;重试&lt;/strong&gt;选项。具备新权限后，DynamoDB 表的创建将开始，但一段时间后，出现另一个错误。&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;修复模板中的问题&lt;br&gt; &lt;/strong&gt;&lt;/span&gt;这一次，在定义 DynamoDB 表的模板中存在错误。在 &lt;code&gt;AttributeDefinitions&lt;/code&gt; 部分中，有一个未在架构中使用的属性 (&lt;code&gt;TicketSales&lt;/code&gt;)。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-errors-template.png"&gt;&lt;img class="aligncenter size-large wp-image-54058" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-errors-template-1024x185.png" alt="控制台屏幕截图。" width="1024" height="185"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;对于 DynamoDB，模板中定义的属性应用于主键或索引。我更新了模板并删除 &lt;code&gt;TicketSales&lt;/code&gt; 属性定义。&lt;/p&gt; 
+&lt;p&gt;由于正在编辑模板，因此我借此机会将 &lt;code&gt;MinValue&lt;/code&gt; 和 &lt;code&gt;MaxValue&lt;/code&gt; 属性添加到分区数量参数 (&lt;code&gt;ShardCountParameter&lt;/code&gt;) 中。这样，CloudFormation 可以在开始部署之前检查值是否在正确的范围内，而我可以避免进一步的错误。&lt;/p&gt; 
+&lt;p&gt;我选择&lt;strong&gt;更新&lt;/strong&gt;选项。我选择更新当前模板，然后上传新的模板文件。我确认了参数的当前值。然后，我将所有其他选项保留为当前值，接下来选择&lt;strong&gt;更新堆栈&lt;/strong&gt;。&lt;/p&gt; 
+&lt;p&gt;这次，堆栈成功创建，其状态为 &lt;code&gt;UPDATE_COMPLETE&lt;/code&gt;。我可以在&lt;strong&gt;资源&lt;/strong&gt;选项卡中查看所有资源，并在&lt;code&gt;输出&lt;/code&gt;选项卡中查看它们的说明 (基于模板的&lt;strong&gt;输出&lt;/strong&gt;部分)。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-outputs.png"&gt;&lt;img class="aligncenter size-large wp-image-54060" src="https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2021/08/18/cfn-outputs-1024x354.png" alt="控制台屏幕截图。" width="1024" height="354"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;以下是模板的最终版本：&lt;/p&gt; 
+&lt;pre&gt;&lt;code class="lang-yaml"&gt;AWSTemplateFormatVersion: "2010-09-09"
+说明：一个用于解决和修复问题的示例模板
+Parameters:
+  ShardCountParameter:
+    Type: Number
+    MinValue: 1
+    MaxValue: 10
+    说明：Kinesis 流的分区数
+Resources:
+  MyBucket:
+    Type: AWS::S3::Bucket
+  MyQueue:
+    Type: AWS::SQS::Queue
+  MyStream:
+    Type: AWS::Kinesis::Stream
+    Properties:
+      ShardCount: !Ref ShardCountParameter
+  MyTable：
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: "ArtistId"
+          AttributeType: "S"
+        - AttributeName: "Concert"
+          AttributeType: "S"
+      KeySchema:
+        - AttributeName: "ArtistId"
+          "KeyType": "HASH"
+        - AttributeName: "Concert"
+          KeyType: "RANGE"
+      KinesisStreamSpecification:
+        StreamArn: !GetAtt MyStream.Arn
+Outputs:
+  BucketName:
+    Value: !Ref MyBucket
+    说明：我的 S3 存储桶的名称
+  QueueName:
+    Value: !GetAtt MyQueue.QueueName
+    说明：我的 SQS 队列的名称
+  StreamName:
+    Value: !Ref MyStream
+    说明：我的 Kinesis 流的名称
+  TableName:
+    Value: !Ref MyTable
+    说明：我的 DynamoDB 表的名称&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;这是一个简单的示例，但从故障点重试堆栈操作的新功能为我节省了大量时间。它可让我快速解决和修复问题，从而减少了反馈循环并增加了在同一时间内完成的迭代次数。除了使用其进行调试之外，该功能对于模板的增量交互式开发也非常有用。对于更复杂的应用程序，我们将可节省大量的时间！&lt;/p&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;使用 AWS CLI 解决和修复 CloudFormation 堆栈问题&lt;br&gt; &lt;/strong&gt;&lt;/span&gt;我可以使用 &lt;a title="" href="https://aws.amazon.com/cli/"&gt;AWS 命令行界面 (CLI)&lt;/a&gt; 保留成功预置的资源，方法是在创建堆栈、更新堆栈或执行更改集时指定 &lt;code&gt;--disable-rollback&lt;/code&gt; 选项。例如：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;aws cloudformation create-stack --stack-name my-stack \
+    --template-body file://my-template.yaml -–disable-rollback
+aws cloudformation update-stack --stack-name my-stack \
+    --template-body file://my-template.yaml --disable-rollback
+aws cloudformation execute-change-set --stack-name my-stack --change-set-name my-change-set \
+    --template-body file://my-template.yaml --disable-rollback&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;对于现有堆栈，我可以查看是否使用 describe stack 命令启用了 &lt;code&gt;DisableRollback&lt;/code&gt; 属性：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;aws cloudformation describe-stacks --stack-name my-stack&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;我现在可以更新处于 &lt;code&gt;CREATE_FAILED&lt;/code&gt; 或 &lt;code&gt;UPDATE_FAILED&lt;/code&gt; 状态的堆栈。要手动回滚处于&lt;code&gt;CREATE_FAILED&lt;/code&gt; 或 &lt;code&gt;UPDATE_FAILED&lt;/code&gt; 状态的堆栈，我可以使用新的 rollback stack 命令：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre class="unlimited-height-code"&gt;&lt;code class="lang-bash"&gt;aws cloudformation rollback-stack --stack-name my-stack&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;span style="text-decoration: underline"&gt;&lt;strong&gt;可用性和定价&lt;br&gt; &lt;/strong&gt;&lt;/span&gt;&lt;a title="" href="https://aws.amazon.com/cloudformation/"&gt;AWS CloudFormation&lt;/a&gt; 从故障点重试堆栈操作的功能在以下 &lt;a href="https://aws.amazon.com/about-aws/global-infrastructure/regions_az/#Regions"&gt;AWS 区域&lt;/a&gt;免费提供：美国东部 (弗吉尼亚北部、俄亥俄)、美国西部 (俄勒冈、加利福尼亚北部)、AWS GovCloud (美国东部、美国西部)、加拿大 (中部)、欧洲 (法兰克福、爱尔兰、伦敦、米兰、巴黎、斯德哥尔摩)、亚太地区 (香港、孟买、大阪、首尔、新加坡、悉尼、东京)、中东 (巴林)、非洲 (开普敦) 和南美洲 (圣保罗)。&lt;/p&gt; 
+&lt;p&gt;您更喜欢使用熟悉的编程语言 (例如 JavaScript、TypeScript、Python、Java、C# 和 Go) 来定义云应用程序资源吗？ 好消息！ &lt;a title="" href="https://aws.amazon.com/cdk/"&gt;AWS Cloud Development Kit (AWS CDK)&lt;/a&gt; 团队计划在接下来的几周内增加对本文中所介绍新功能的支持。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stack-failure-options.html"&gt;借助从故障点开始重试堆栈操作的新功能，可以用更少的时间来解决和修复 CloudFormation 堆栈问题。&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;— &lt;a title="Danilo 的 Twitter" href="https://twitter.com/danilop"&gt;Danilo&lt;/a&gt;&lt;/p&gt;</content:encoded>
+										</item>
+		<item>
 		<title>使用更具体的 Amazon VPC 路由检查子网到子网的流量</title>
 		<link>https://aws.amazon.com/cn/blogs/china/inspect-subnet-to-subnet-traffic-with-amazon-vpc-more-specific-routing/</link>
 				<pubDate>Fri, 03 Sep 2021 04:30:44 +0000</pubDate>
@@ -1683,720 +1909,6 @@ a.userIdentity.username
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;赵鑫&lt;/h3&gt; 
   &lt;p&gt;亚马逊云科技专业服务团队数据架构师，专注于生命科学、自动驾驶领域的数据架构与数据分析&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>使用托管节点组结合启动模板简化EKS升级与运维</title>
-		<link>https://aws.amazon.com/cn/blogs/china/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance/</link>
-				<pubDate>Tue, 31 Aug 2021 04:09:59 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Containers]]></category>
-		<category><![CDATA[Amazon EKS]]></category>
-		<category><![CDATA[Amazon EKS Managed Node Group]]></category>
-		<category><![CDATA[EC2 Launch Template]]></category>
-
-		<guid isPermaLink="false">c7a2915de4f1e2f686bc64ad252f93fc8fe230e0</guid>
-				<description>随着应用容器化不断流行与深入，采用Kubernetes（K8S）作为容器编排方式的应用也随之增加。作为亚马逊云科技的用户，在云上使用Amazon Web Service托管的K8S服务Elastic Kubernetes Service（EKS）服务的客户也在不断增加。同时根据K8S社区的发布规则K8S每年会有三个小版本的发布， 相应的EKS也会跟随上游K8S的版本发布3个版本，目前支持的版本以及相应终止支持的时间信息可以参考亚马逊EKS发布日历。</description>
-								<content:encoded>&lt;h2&gt;背景&lt;/h2&gt; 
-&lt;p&gt;随着应用容器化不断流行与深入，采用Kubernetes（K8S）作为容器编排方式的应用也随之增加。作为亚马逊云科技的用户，在云上使用Amazon Web Service托管的K8S服务Elastic Kubernetes Service（EKS）服务的客户也在不断增加。同时根据K8S社区的发布规则K8S每年会有三个小版本的发布， 相应的EKS也会跟随上游K8S的版本发布3个版本，目前支持的版本以及相应终止支持的时间信息可以参考&lt;a href="https://docs.aws.amazon.com/zh_cn/eks/latest/userguide/kubernetes-versions.html"&gt;亚马逊EKS发布日历&lt;/a&gt;。每个上游的K8S版本都会有1年支持窗口加上2个月升级过渡窗口，为了保持与K8S社区版本的同步来获得社区的支持，客户每隔一段时间都要对现有的K8S或者EKS集群做升级，也就是说K8S与EKS的升级已经成为常态。&lt;/p&gt; 
-&lt;p&gt;在EKS上这个升级主要涉及到控制平面升级、数据平面升级与插件组件升级。其中以数据平面的升级最为繁琐与复杂，所以本着减少无差别的繁重的运维工作为出发点，本文通过一个端到端的实验详细介绍通过使用托管节点组与启动模板简化客户的升级操作的过程与方法，从而为运维人员减负。并实现应用的平滑升级与灵活回退，进而保证应用与业务的稳定和可用性。&lt;/p&gt; 
-&lt;p&gt;了解EKS的用户或者读者知道EKS的数据平面可以分为有服务器与无服务器两大类：有服务器即采用EC2的方式来运行K8S的应用；无服务器的方式即EKS Fargete，客户将工作负载部署在Fargate的环境而不是自己的VPC内，EKS节点对客户透明。有服务器EC2的节点管理方式又分为两种模式：&lt;a href="https://eksctl.io/usage/eks-managed-nodes/"&gt;托管节点组&lt;/a&gt;（Managed Node Group）与&lt;a href="https://eksctl.io/usage/nodegroup-upgrade/"&gt;非托管节点组&lt;/a&gt;（Unmanaged Node Group）。非托管节点组的命名来自于官方的EKS创建与维护工具eksctl.io文档中Unmanaged Node Group的中文直译，根据EKS官方文档， 非托管节点组模式被称为自行管理的节点（Self-managed nodes），为了简化与对比起见本文统一称为非托管节点组。托管节点组即将集群EC2节点的创建与生命周期管理由EKS服务来自动化管理，不需要客户干预。根据&lt;a href="https://eksctl.io/usage/managing-nodegroups/#nodegroup-immutability"&gt;eksctl对非托管节点组的设计原则&lt;/a&gt;，非托管节点组中的节点除了可以做扩缩容其他配置均不可变。下表列出了两种模式的主要区别：&lt;/p&gt; 
-&lt;table border="1"&gt; 
- &lt;tbody&gt; 
-  &lt;tr&gt; 
-   &lt;td width="94"&gt;项目&lt;/td&gt; 
-   &lt;td width="198"&gt;托管节点组&lt;/td&gt; 
-   &lt;td width="331"&gt;非托管节点组&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="94"&gt;升级方法&lt;/td&gt; 
-   &lt;td width="198"&gt;原地升级&lt;/td&gt; 
-   &lt;td width="331"&gt; &lt;p&gt;需要创建新的非托管节点组&lt;/p&gt; &lt;p&gt;（注：适用于通过eksctl创建的非托管节点组，其他方式可以通过更新CloudFormation&lt;/p&gt; &lt;p&gt;栈的方法更新AMI来升级，细节可以参考：&lt;a href="https://docs.aws.amazon.com/eks/latest/userguide/update-workers.html"&gt;官方文档&lt;/a&gt;）&lt;/p&gt;&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="94"&gt;EKS管理控制台可见&lt;/td&gt; 
-   &lt;td width="198"&gt;是&lt;/td&gt; 
-   &lt;td width="331"&gt;否&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="94"&gt;配置变更支持&lt;/td&gt; 
-   &lt;td width="198"&gt; &lt;p&gt;是（可以变更的选项有：Min Size，Max Size，Desired Size, Kubernetes labels, taints, tags,&lt;/p&gt; &lt;p&gt;Maximum unavailable等配置，其他配置项变更需要通过切换启动模板版本实现。）&lt;/p&gt;&lt;/td&gt; 
-   &lt;td width="331"&gt;否（除节点数量扩缩）&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="94"&gt;支持关联启动模板&lt;/td&gt; 
-   &lt;td width="198"&gt;是&lt;/td&gt; 
-   &lt;td width="331"&gt;否&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td width="94"&gt;自定义AMI支持&lt;/td&gt; 
-   &lt;td width="198"&gt;是&lt;/td&gt; 
-   &lt;td width="331"&gt;是&lt;/td&gt; 
-  &lt;/tr&gt; 
- &lt;/tbody&gt; 
-&lt;/table&gt; 
-&lt;p&gt;考虑到EKS 1.17将于2021年11月终止支持，同时目前绝大部分客户使用的还是EC2的方式，并且因为非托管节点组相对于托管节点组的功能是更早发布，加上早期的托管节点组功能较少的原因，一部分客户还停留在非托管节点组的模式，所以本文的实验通过将非托管节点组转换为托管节点组结合启动模板的方式简化EKS 集群从1.17升级到1.18的升级过程（虽然本实验进行的的是1.17到1.18的升级，但过程和其中的方法对其他EKS版本的升级同样适用，比如从1.15升级到1.16或者1.18升级到1.19）。其中主要内容涵盖：控制平面升级、数据平面非托管节点组迁移到托管节点组、托管节点组升级与变更等。&lt;/p&gt; 
-&lt;p&gt;在升级路径的选择上，也可以先将控制平面由1.17升级到1.18，然后创建托管节点组，再将工作负载由非托管节点组迁移到托管节点组，这样可以减少一次数据平面托管节点组的升级，加快集群整体升级的过程。因为本文的重点是介绍推广托管节点组结合启动模板的实践方法，先升级控制平面再创建托管节点组的做法，笔者测试下来对于文中简单的样例应用Nginx是可以的，遵从K8S官方的&lt;a href="https://kubernetes.io/releases/version-skew-policy/"&gt;Version Skew Policy&lt;/a&gt;：kubelet must not be newer than kube-apiserver, and may be up to two minor versions older。笔者尝试过将控制平面从1.17升级到1.18再连续升级到1.19，然后再创建托管节点组与迁移工作负载也是可以成功通过的，但如果集群中有对1.17到1.18/1.19版本变化敏感或者需要改造的应用，稳妥起见还是建议按照本实验的顺序来操作，并引入必要的测试。有兴趣的读者可以自行测试验证。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;本文目标读者：EKS运维与管理人员&lt;/p&gt; 
-&lt;p&gt;实验所需时长：3小时&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;操作步骤&lt;/h2&gt; 
-&lt;p&gt;前提：当前使用的用户具有Administrator Access权限&lt;/p&gt; 
-&lt;h3&gt;准备Cloud9实验环境&lt;/h3&gt; 
-&lt;p&gt;在AWS管理控制台中选择Cloud9服务，然后创建一个名称为：eksworkshop的环境，将Cost-saving setting选项设置为：After four hours，其他配置保持默认。创建完毕后关闭Welcome和底部的工作区页面，然后在主工作区中打开一个新的Terminal。&lt;/p&gt; 
-&lt;p&gt;在IAM服务中，使用&lt;a href="https://console.aws.amazon.com/iam/home#/roles$new?step=type&amp;amp;commonUseCase=EC2%2BEC2&amp;amp;selectedUseCase=EC2&amp;amp;policies=arn:aws:iam::aws:policy%2FAdministratorAccess"&gt;链接&lt;/a&gt;创建一个名称为：eksworkshop-admin的角色，确认：AWS service和EC2被选中，点击下一步，确认AdministratorAccess策略被选中，点击下一步，跳过Tag选项，点击下一步在Review页面中输入eksworkshop-admin作为新角色的名称，点击创建角色完成创建。&lt;/p&gt; 
-&lt;p&gt;点击&lt;a href="https://console.aws.amazon.com/ec2/v2/home?#Instances:tag:Name=aws-cloud9-eksworkshop;sort=desc:launchTime"&gt;链接&lt;/a&gt;在EC2服务中查看刚刚创建的Cloud9环境对应的EC2实例，选中该实例，然后在菜单选择：Actions / Security / Modify IAM Role，在IAM Role的下拉列表中选择eksworkshop-admin的角色，点击保存。&lt;/p&gt; 
-&lt;p&gt;返回刚刚创建好的Cloud9环境，点击页面右上角的齿轮，打开首选项设置页面，然后选择AWS SETTINGS，关闭AWS managed temporary credentials单选框，最后关闭首选项设置页面。&lt;/p&gt; 
-&lt;p&gt;在打开的终端中运行以下命令确认临时的秘钥凭证已经被删除干净，并验证在返回结果的ARN 中包含eksworkshop-admin。&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;rm -vf ${HOME}/.aws/credentials&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;aws sts get-caller-identity&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;运行下列脚本安装实验所需的Kubernetes 工具：eksctl，kubectl，helm，jq，aws cli&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;# create a folder for the scripts
-mkdir ~/environment/scripts
-# tools script
-cat &amp;gt; ~/environment/scripts/install-tools &amp;lt;&amp;lt;-"EOF"
-#!/bin/bash -ex
-sudo yum install -y jq gettext bash-completion
-
-# install kubectl
-sudo curl --silent --location -o /usr/local/bin/kubectl https://storage.googleapis.com/kubernetes-release/release/v1.18.10/bin/linux/amd64/kubectl
-sudo chmod +x /usr/local/bin/kubectl
-echo 'source &amp;lt;(kubectl completion bash)' &amp;gt;&amp;gt;~/.bashrc
-source ~/.bashrc
-# install eksctl
-curl --silent --location "https://github.com/weaveworks/eksctl/releases/download/latest_release/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
-sudo mv -v /tmp/eksctl /usr/local/bin
-if ! [ -x "$(command -v jq)" ] || ! [ -x "$(command -v envsubst)" ] || ! [ -x "$(command -v kubectl)" ] || ! [ -x "$(command -v eksctl)" ] || ! [ -x "$(command -v ssm-cli)" ]; then
-  echo 'ERROR: tools not installed.' &amp;gt;&amp;amp;2
-  exit 1
-fi
-#pip install awscli --upgrade --user
-# install aws cli v2
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-unzip awscliv2.zip
-sudo ./aws/install
-. ~/.bash_profile
-# install helm 3
-curl -sSL https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
-helm version --short
-helm repo add stable https://charts.helm.sh/stable
-helm completion bash &amp;gt;&amp;gt; ~/.bash_completion
-. /etc/profile.d/bash_completion.sh
-. ~/.bash_completion
-source &amp;lt;(helm completion bash)
-helm repo update
-EOF
-chmod +x ~/environment/scripts/install-tools
-~/environment/scripts/install-tools
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h3&gt;创建EKS集群（版本：1.17）&lt;/h3&gt; 
-&lt;p&gt;配置创建集群需要的环境变量&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;export ACCOUNT_ID=$(aws sts get-caller-identity --output text --query Account)
-export AWS_REGION=$(curl -s 169.254.169.254/latest/dynamic/instance-identity/document | jq -r '.region')
-export EKS_CLUSTER_NAME=eksworkshop
-export EKS_UNMANAGED_NODEGROUP_NAME=ung-1
-export EKS_MANAGED_NODEGROUP_NAME=mng-1
-export AWS_DEFAULT_REGION=$AWS_REGION
-echo "export ACCOUNT_ID=${ACCOUNT_ID}" &amp;gt;&amp;gt; ~/.bash_profile
-echo "export AWS_REGION=${AWS_REGION}" &amp;gt;&amp;gt; ~/.bash_profile
-echo "export AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}" &amp;gt;&amp;gt; ~/.bashrc
-echo "export EKS_CLUSTER_NAME=${EKS_CLUSTER_NAME}" &amp;gt;&amp;gt; ~/.bashrc
-echo "export EKS_MANAGED_NODEGROUP_NAME=${EKS_MANAGED_NODEGROUP_NAME}" &amp;gt;&amp;gt; ~/.bashrc
-echo "export EKS_UNMANAGED_NODEGROUP_NAME=${EKS_UNMANAGED_NODEGROUP_NAME}" &amp;gt;&amp;gt; ~/.bashrc
-aws configure set default.region ${AWS_REGION}
-aws configure get default.region
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;运行下列命令创建EKS集群配置模板文件 eks-cluster.yml.template&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;cat &amp;gt; ~/environment/scripts/eks-cluster.yml.template &amp;lt;&amp;lt;-"EOF"
-apiVersion: eksctl.io/v1alpha5
-kind: ClusterConfig
-metadata:
-  name: $EKS_CLUSTER_NAME
-  region: $AWS_REGION
-  version: "1.17"
-nodeGroups:
-  - name: $EKS_UNMANAGED_NODEGROUP_NAME
-    minSize: 1
-    maxSize: 3
-    desiredCapacity: 2
-    labels: {role: unmanaged-ng-worker}
-    tags:
-      Name: unmanaged-ng-worker
-EOF
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;利用 &lt;a href="https://eksctl.io/"&gt;eksctl &lt;/a&gt;工具来创建 EKS 集群，运行下列命令创建一个 EKS 1.17 的集群，同时会创建一个新的 VPC，并且在该VPC中创建 一个含有2个节点的非托管节点组，整个过程大概需要 20 分钟左右（集群和节点组各10分钟左右）。&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;envsubst &amp;lt; ~/environment/scripts/eks-cluster.yml.template &amp;gt; ~/environment/scripts/eks-cluster.yml&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;eksctl create cluster -f ~/environment/scripts/eks-cluster.yml&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;在EKS服务界面上验证集群eksworkshop已经成功创建。运行下列命令验证 EKS 集群节点组ung-1已经成功创建&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;eksctl get nodegroup --cluster $EKS_CLUSTER_NAME&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;运行下列命令测试 EKS 集群节点是否正常工作&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;kubectl get nodes --show-labels&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;运行下列命令将当前登录管理控制台的用户加入到EKS集群管理员组中，这样使得当前登录用户可以在EKS服务界面上查看集群信息。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;c9builder=$(aws cloud9 describe-environment-memberships --environment-id=$C9_PID | jq -r '.memberships[].userArn')
-if echo ${c9builder} | grep -q user; then
-	rolearn=${c9builder}
-        echo Role ARN: ${rolearn}
-elif echo ${c9builder} | grep -q assumed-role; then
-        assumedrolename=$(echo ${c9builder} | awk -F/ '{print $(NF-1)}')
-        rolearn=$(aws iam get-role --role-name ${assumedrolename} --query Role.Arn --output text) 
-        echo Role ARN: ${rolearn}
-fi
-eksctl create iamidentitymapping --cluster $EKS_CLUSTER_NAME --arn ${rolearn} --group system:masters --username admin
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;我们可以在EC2控制台看到新创建了2个名称为eksworkshop-ung-1-Node类型为m5.large 的EC2实例，也可以在管理控制台的EKS服务的集群列表中查看刚刚创建好的集群节点、网络和其他集群配置信息。因为我们刚刚创建的是一个非托管节点组，所以如下图所示在EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Compute界面查看托管节点组为空&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 同时，因为eksctl工具的底层实现是依赖CloudFormation服务的，所以可以再CloudFormation服务的管理界面查看为了创建集群而新建的2个CloudFormaiton模板：集群控制平面CloudFormaiton Stack、非托管节点组CloudFormaiton Stack。+&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h3&gt;部署样例工作负载&lt;/h3&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;cat &amp;gt; ~/environment/scripts/nginx.yaml &amp;lt;&amp;lt;-"EOF"
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: nginx
-  labels:
-    app: nginx
-spec:
-  replicas: 10
-  selector:
-    matchLabels:
-      app: nginx
-  template:
-    metadata:
-      labels:
-        app: nginx
-    spec:
-      containers:
-      - name: nginx
-        image: nginx
-        ports:
-        - containerPort: 80
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: "nginx"
-spec:
-  selector:
-    app: nginx
-  type: ClusterIP
-  ports:
-  - protocol: TCP
-    port: 80
-    targetPort: 80
-EOF
-kubectl apply -f ~/environment/scripts/nginx.yaml
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;通过下列命令参考样例Nginx程序已经成功部署&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;kubectl get deploy&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;kubectl get po&lt;/code&gt;&lt;/p&gt; 
-&lt;h3&gt;创建启动模板&lt;/h3&gt; 
-&lt;p&gt;进入EC2服务，选择Launch Templates &amp;gt; Create launch template，分别填入&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;Launch template name：demo&lt;/li&gt; 
- &lt;li&gt;Instance type：large&lt;/li&gt; 
- &lt;li&gt;Security groups：在EKS集群管理控制台 EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Networking中显示Cluster security groupInfo的安全组ID&lt;/li&gt; 
- &lt;li&gt;Resource Tags Key: Name, Value: eksworkshop-mng-1, Resource types: Instances&lt;/li&gt; 
- &lt;li&gt;User Data: 如果某些客户在使用非托管节点组的配置YAML文件中有使用：preBootstrapCommands或者overrideBootstrapCommand之类的一些自定义命令，那么在转换到托管节点组加启动模板这种方式后将不再支持，如果继续使用会出现错误：cannot set instanceType, ami, …, preBootstrapCommands, overrideBootstrapCommand, placement in managedNodeGroup when a launch template is supplied。用户可以将这些选项中配置的SHELL命令迁移到User Data中。如果有使用自定义AMI，则必须在User Data中填入下列命令将节点加入到集群，否则会出现错误：node bootstrapping script (UserData) must be set when using a custom AMI。具体User Data输入的MIME格式要求请参考这里的&lt;a href="https://docs.amazonaws.cn/eks/latest/userguide/launch-templates.html"&gt;官方文档&lt;/a&gt;。 
-  &lt;ul&gt; 
-   &lt;li&gt;&lt;code&gt;#!/bin/bash&lt;/code&gt;&lt;/li&gt; 
-   &lt;li&gt;&lt;code&gt;/etc/eks/bootstrap.sh cluster_name&lt;/code&gt;&lt;/li&gt; 
-  &lt;/ul&gt; &lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;点击Create launch template创建启动模板。在启动模板的版本列表中查看刚刚创建好的版本号为1的启动模板，因为启动模板的版本是不可变的，只能通过选择版本1后点击Actions &amp;gt; Modify template (Create new version)来创建新的版本。&lt;/p&gt; 
-&lt;p&gt;如果在EKS集群中有使用自定义AMI，那么可以在创建模板过程中指定已经定义好的AMI。需要注意的是，根据&lt;a href="https://docs.aws.amazon.com/eks/latest/userguide/update-cluster.html"&gt;EKS升级官方文档&lt;/a&gt;在升级控制平面之前要求自定义AMI的节点版本需要与控制平面的版本相同。在本实验中来说就是要求自定义AMI及kubelet版本必须是1.17。这样当控制平面升级到1.18以后就会导致托管节点组还停留在1.17版本，存在一个小版本的差异。这样在托管节点组升级到1.18之前是不能将控制平面升级到版本1.19，否则得到错误提示：Nodegroups xxx must be updated to match cluster version 1.1x before updating cluster version。如果自定义AMI的节点组比控制平面低一个版本，则不能直接在界面上通过点击“Update now”操作来升级节点组。如果后续有继续将版本从1.18升级到更高版本的需求则需要根据目标EKS版本的EKS优化AMI重新定义自己的AMI，通过创建新的启动模板版本来指定这个新的AMI，然后再托管节点组中切换启动模板版本即可完成升级。具体切换启动模板版本的流程可以参考下面的章节“切换启动模板版本”。&lt;/p&gt; 
-&lt;h3&gt;创建托管节点组&lt;/h3&gt; 
-&lt;p&gt;运行下列命令设置环境变量并创建托管节点组&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;export LT_ID=$(aws ec2 describe-launch-templates --launch-template-name demo --output json | jq -r '.LaunchTemplates[0].LaunchTemplateId')
-cat &amp;gt; ~/environment/scripts/mng-1.yml.template &amp;lt;&amp;lt;-"EOF"
-apiVersion: eksctl.io/v1alpha5
-kind: ClusterConfig
-metadata:
-  name: $EKS_CLUSTER_NAME
-  region: $AWS_REGION
-  version: "1.17"
-managedNodeGroups:
-  - name: $EKS_MANAGED_NODEGROUP_NAME
-    minSize: 1
-    maxSize: 3
-    desiredCapacity: 2
-    labels: {role: managed-ng-worker}
-    launchTemplate:
-      id: $LT_ID
-      version: "1"
-EOF
-envsubst &amp;lt; ~/environment/scripts/mng-1.yml.template &amp;gt; ~/environment/scripts/mng-1.yml
-eksctl create nodegroup -f ~/environment/scripts/mng-1.yml
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;整个过程大概需要 3分钟左右。之后我们可以在EC2控制台看到新创建了2个名称为eksworkshop-mng-1类型为m5.large 的EC2实例。同时因为我们刚刚创建的是一个托管节点组，所以如下图所示在EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Compute界面可以查看到刚刚创建的托管节点组。&lt;/p&gt; 
-&lt;p&gt;注意上述托管节点组的配置文件中设置的版本1.17是与控制平面一致的版本，如果托管节点组配置的版本与EKS集群控制平面不一致时，eksctl会自动使用控制平面版本。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 从选中的部分可以看出托管节点组mng-1对应的启动模本名称为demo版本为1。也可以运行下列命令验证 EKS 集群节点组mng-1已经成功创建&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;eksctl get nodegroup --cluster $EKS_CLUSTER_NAME&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;运行下列命令测试 EKS 集群新加入的两个节点是否正常工作&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;kubectl get nodes --show-labels&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;需要特别指出的是启动模板对于创建托管节点组是一个推荐的可选项。不预先配置启动模板，而是直接利用下列的配置文件也可以创建托管节点组。因为在配置中没有显示的配置启动模板，eksctl会根据配置自动生成一个名称为“eksctl-集群名称-nodegroup-托管节点组名称 (N)”的一个启动模板，这个启动模板是由eksctl创建、管理和维护，因此不建议手动创建新版本修改或者复用。这种方式下创建的每个托管节点组的启动模板都是独立的，不能复用，如果有统一配置的需求和后续针对单个节点组的修改需求就更加麻烦。同时因为没有在配置文件中显示的指定启动模板，需要根据命名规则或者在EKS的托管节点组控制界面上查询这个启动模板，所以这种方式不利于配置变更的跟踪。而显示的声明在多个托管节点组中可以共用一个启动模板，当出现不同的配置需求时又可以通过新建启动模板版本来解决，相对于隐式的方式更加灵活高效，所以在本实验中托管节点组采用的是显示的启动模板。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;---
-apiVersion: eksctl.io/v1alpha5
-kind: ClusterConfig
-metadata:
-  name: eksworkshop
-  region: us-east-1
-  version: "1.17"
-  availabilityZones: ["us-east-1a", "us-east-1b", "us-east-1c"]
-managedNodeGroups:
-- name: nodegroup
-  minSize: 1
-  maxSize: 3
-  desiredCapacity: 3
-  instanceType: m5.large
-  ssh:
-    enableSsm: true
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h3&gt;迁移工作负载并删除非托管节点组&lt;/h3&gt; 
-&lt;p&gt;因为非托管节点组的&lt;a href="https://eksctl.io/usage/managing-nodegroups/#nodegroup-immutability"&gt;不可变性&lt;/a&gt;，除了改变节点数量无法更改其配置，所以当遇到升级集群版本的情况是需要创建新的非托管节点组然后迁移负载再删除旧的节点组的方法来实现升级节点组。而托管节点组可以做到原地（In place）升级，所以本实验先将样例工作负载迁移到托管节点组再做集群的升级。&lt;/p&gt; 
-&lt;p&gt;运行下列命令查验当前的nginx pod运行在非托管节点组的节点上&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;kubectl get po -o wide&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;运行下列命令将在非托管节点组的节点上的工作负载驱逐到刚刚创建的托管节点组&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;eksctl drain nodegroup --cluster=$EKS_CLUSTER_NAME --name=$EKS_UNMANAGED_NODEGROUP_NAME&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;运行命令：&lt;code&gt;kubectl get no&lt;/code&gt;可以发现旧节点组的状态已经变为：Ready,SchedulingDisabled，重新运行下列命令查验当前的nginx pod运行在托管节点组的节点上&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;kubectl get po -o wide&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;运行下列命令删除非托管节点组&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;eksctl delete nodegroup --cluster $EKS_CLUSTER_NAME --name $EKS_UNMANAGED_NODEGROUP_NAME&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;运行下列命令监视节点删除情况直至非托管节点组被完全删除。&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;kubectl get no -w&lt;/code&gt;&lt;/p&gt; 
-&lt;h3&gt;升级集群控制平面&lt;/h3&gt; 
-&lt;p&gt;如下图所示在EKS集群控制台上点击Update Now升级集群控制平面，因为K8S需要逐个版本升级，所以只有1.18目标版本是可选状态。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 升级后如下图所示集群处于Updating状态，整个升级过程大约需要30~40分钟。这步升级操作也可以通过eksctl命令或者aws cli来完成，具体做法请参考&lt;a href="https://docs.amazonaws.cn/eks/latest/userguide/update-cluster.html"&gt;官方文档&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 升级成功后可以看到集群版本变为1.18。&lt;/p&gt; 
-&lt;p&gt;需要注意的是如果有多个托管节点组，在升级控制平面之前，需要确认所有的托管节点组都已经升级到控制平面的版本，否则升级时会得到错误提示：Nodegroups xxx must be updated to match cluster version 1.1x before updating cluster version。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h3&gt;升级托管节点组&lt;/h3&gt; 
-&lt;p&gt;如下图所示进入EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Compute可以看到New AMI Release versios are avaiable for 1 Node Group的提示，并且在Node Groups中mng-1的AMI release version列的旁边出现了Update now的链接&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;点击Update now升级托管节点组到1.18&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;在上面的弹出的对话框中可以看到Update Strategy设置为Rolling update，也即滚动更新，点击Update开始节点组升级更新，整个过程需要约20分钟。&lt;/p&gt; 
-&lt;p&gt;其间可以在EC2控制台中查看新旧节点的变化情况，在新启动的实例细节信息里查验AMI name已经改为amazon-eks-node-1.18-v2021xxxx。通过运行命令：kubectl get no可以看到旧的节点被设置为SchedulingDisabled状态，Nginx Pod在被逐步迁移到新的节点上。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;可以通过如下图所示的编辑托管节点组 EKS &amp;gt; Clusters &amp;gt; eksworkshop &amp;gt; Node Group: mng-1 &amp;gt; Edit Node Group的Node Group update configuration来设置最大不可用节点数目或者比例数，从而控制滚动更新的颗粒度。当然也可以变更最小、最大、期望节点数，k8s labels，taints和tags等其他配置。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;相比之下，如果我们这里使用的依旧是非托管节点组，那么在这个步骤中我们就要重新创建一个与控制平面版本一致的1.18的新的非托管节点组，然后将工作负载从旧的1.17的节点组迁移到新的1.18的节点组再删除1.17的非托管节点组，这个过程相对于上述托管节点组的一键升级的流程复杂许多，而且存在一个新旧非托管节点组同时存在的时间窗口给集群的管理与维护增加了难度与不确定性。更令运维人员头疼的是，这个升级过程在后续的版本升级中（比如1.18到1.19）仍然需要重复一遍。对比可见数据平面的升级在托管节点组的支持下变得非常简单方便。&lt;/p&gt; 
-&lt;h3&gt;切换启动模板版本&lt;/h3&gt; 
-&lt;p&gt;在日常集群的维护中，我们经常会有一些变更需求，比如切换实例类型，修改各种资源比如EC2的名称等，这些在非托管节点组是无法实现的，而在配置了启动模板的托管节点组中可以轻松实现，下面将演示将节点组实例类型切换为m5.2xlarge的方法。&lt;/p&gt; 
-&lt;p&gt;基于启动模板demo的版本1新创建一个新版本：version 2，将实例类型设置为m5.2xlarge同时保持其他选项不变。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;等待托管节点组mng-1升级到1.18完成后，可以看到节点组的AMI release version改为1.18.20-xxxx，同时因为我们增加了一个新的启动模板的版本，点击Change version将mng-1节点组切换到新创建的版本2从而修改节点组的实例类型到m5.2xlarge。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance12.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/use-managed-node-groups-combined-with-startup-templates-to-simplify-eks-upgrades-and-operation-and-maintenance13.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 点击Update开始节点组滚动更新，类似的整个过程需要约20分钟。等待更新完毕后，按照相同的方法可以重新切换回版本1。启动模版的版本信息可以通过下列命令导出到yaml作为配置变更管理的一部分通过git等源代码版本管理工具来管理。&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;aws ec2 describe-launch-template-versions --launch-template-name demo --output yaml&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;需要注意的是在启动模板的不同版本间做切换目前不支持在有使用EKS优化AMI与自定义AMI的不同版本间切换。否则会得到错误：You cannot specify an image id within the launch template, since your nodegroup is configured to use an EKS optimized AMI（默认EKS优化版本改为自定义AMI版本）或者The request must contain the parameter ImageId（自定义AMI版本改为默认EKS优化版本）。如果有将默认AMI替换为自定义AMI的需求，可以通过创建一个新的托管节点组来引用配置有自定义AMI的启动模板的版本来解决。&lt;/p&gt; 
-&lt;h3&gt;删除EKS集群和Cloud9环境&lt;/h3&gt; 
-&lt;p&gt;&lt;code&gt;eksctl delete cluster --name $EKS_CLUSTER_NAME&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;最后，在AWS控制台的Cloud9服务的环境列表中删除eksworkshop。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;总结&lt;/h2&gt; 
-&lt;p&gt;本文通过一个端到端的例子说明了将非托管节点组转换到托管节点组来实现工作负载的迁移。同时完成集群和托管节点组从 1.17到1.18的版本升级。最后通过在不同启动模板版本间切换的方法实现了节点组配置的灵活原地更新。需要特别指出虽然上述实验进行的的是1.17到1.18的升级，但过程对于其他EKS版本的升级同样适用，比如从1.18升级到1.19。&lt;/p&gt; 
-&lt;p&gt;相比EKS集群的托管节点组，非托管节点组具有不可变性，所以必须通过新建节点组然后迁移工作负载的方式来更新。而托管节点组则可以通过改变启动模板的版本然后进行滚动更新来实现常用配置的变更，同时在出现失败的情况下支持回退，所以在日常变更管理与集群版本升级上更加简便。并且一个集群或者多个集群中的多个节点组可以共用一个启动模板，极大的简化了维护与管理的成本。另外将多项节点组配置选项转移到启动模板中，实现了节点组配置一定程度的解耦。最后因为启动模板支持多个版本，同一托管节点组可以在同一个启动模板的不同版本间灵活切换，也极大的方便了日常节点组的变更与维护。关于更多托管节点组的新功能请参考&lt;a href="https://aws.amazon.com/blogs/containers/catching-up-with-managed-node-groups-in-amazon-eks/"&gt;托管节点组最新动态博客&lt;/a&gt;与&lt;a href="https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html"&gt;EKS官方文档&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;最后需要指出的是EKS升级的范畴远大于文中介绍的内容，鉴于篇幅所限，其他方面的升级方法请读者自行参考官方K8S升级手册与官方EKS升级文档。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;参考资料&lt;/h2&gt; 
-&lt;ul&gt; 
- &lt;li&gt;https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html&lt;/li&gt; 
- &lt;li&gt;https://eksctl.io/usage/managing-nodegroups/#nodegroup-immutability&lt;/li&gt; 
- &lt;li&gt;https://docs.aws.amazon.com/eks/latest/userguide/eks-compute.html&lt;/li&gt; 
- &lt;li&gt;https://docs.aws.amazon.com/eks/latest/userguide/update-cluster.html&lt;/li&gt; 
- &lt;li&gt;https://aws.amazon.com/blogs/containers/catching-up-with-managed-node-groups-in-amazon-eks/&lt;/li&gt; 
- &lt;li&gt;https://aws.amazon.com/blogs/containers/introducing-launch-template-and-custom-ami-support-in-amazon-eks-managed-node-groups/&lt;/li&gt; 
- &lt;li&gt;https://docs.amazonaws.cn/eks/latest/userguide/launch-templates.html&lt;/li&gt; 
- &lt;li&gt;https://www.eksworkshop.com/&lt;/li&gt; 
- &lt;li&gt;https://eksctl.io/usage/schema/&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/dapengt.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;田大鹏&lt;/h3&gt; 
-  &lt;p&gt;AWS解决方案架构师，负责帮助客户进行上云架构的设计和咨询。在电商及互联网行业有丰富的咨询和架构设计经验。加入 AWS 前曾于全球领先的存储和虚拟化企业，担任研发主管工程师及研发经理多种职位，负责在线存储及备份系统的多个子系统的高并发、高可用系统架构设计，应用微服务化等敏捷项目。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/guili.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;何归丽&lt;/h3&gt; 
-  &lt;p&gt;AWS高级解决方案架构师，负责基于AWS的云计算方案架构的咨询和设计，同时致力于AWS云服务在国内的应用和推广。加入AWS之前在外企软件部门担任系统架构师，有十多年的软件研发和架构设计经验，在微服务架构和容器、企业应用信息安全、DevOps等领域有丰富的经验。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/panwenmi.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;潘文明&lt;/h3&gt; 
-  &lt;p&gt;AWS解决方案架构师，负责基于 AWS 的云计算方案的咨询与架构设计。专注于游戏行业，帮助客户利用AWS全球基础设施与强大的技术能力打造爆款游戏，降低游戏运行成本。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>如何将您的自定义容器镜像导入Amazon SageMaker Studio notebooks</title>
-		<link>https://aws.amazon.com/cn/blogs/china/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks/</link>
-				<pubDate>Tue, 31 Aug 2021 03:41:59 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Amazon SageMaker Studio]]></category>
-
-		<guid isPermaLink="false">75a8705bab975b942b359066fef42d5d15ceef5c</guid>
-				<description>Amazon SageMaker Studio是第一套用于机器学习（ML）的全集成开发环境（IDE）。Amazon SageMaker Studio可帮助数据科学家们快速启动Studio notebooks以探索数据、构建模型、启动Amazon SageMaker训练作业并部署托管端点。Studio notebooks中随附一组预构建镜像，这些镜像由Amazon SageMaker Python SDK&amp;nbsp;与IPython运行时或内核的最新版本构成。凭借此项新功能，您可以轻松将自定义镜像导入Amazon SageMaker notebooks当中。在本文中，我们将具体探讨如何将自定义容器镜像导入Amazon SageMaker notebooks。</description>
-								<content:encoded>&lt;p&gt;&lt;a href="https://aws.amazon.com/sagemaker/"&gt;Amazon SageMaker Studio&lt;/a&gt;是第一套用于机器学习（ML）的全集成开发环境（IDE）。Amazon SageMaker Studio可帮助数据科学家们快速启动Studio notebooks以探索数据、构建模型、启动Amazon SageMaker训练作业并部署托管端点。Studio notebooks中随附一组预构建镜像，这些镜像由&lt;a href="https://sagemaker.readthedocs.io/en/stable/"&gt;Amazon SageMaker Python SDK&lt;/a&gt;&amp;nbsp;与IPython运行时或内核的最新版本构成。凭借此项新功能，您可以轻松将自定义镜像导入Amazon SageMaker notebooks当中。在本文中，我们将具体探讨如何将自定义容器镜像导入Amazon SageMaker notebooks。&lt;/p&gt; 
-&lt;p&gt;开发人员与数据科学家一般需要在以下几种不同用例内使用自定义镜像：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;访问流行机器学习框架（包括TensorFlow、MXNet以及PyTorch等）的特定或最新版本。&lt;/li&gt; 
- &lt;li&gt;将本地开发的自定义代码或算法引入Studio notebooks内以进行快速迭代及模型训练。&lt;/li&gt; 
- &lt;li&gt;通过API访问数据湖或本地数据存储，且管理员需要在镜像中添加相应驱动程序。&lt;/li&gt; 
- &lt;li&gt;访问后端运行时（也称内核）；除IPython之外，还有R、Julia或其它环境等。您也可以使用本文中概述的方法安装其他自定义内核。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;在大型企业中，机器学习平台管理员往往需要保证安全团队预先批准第三方软件包及代码，而非直接通过互联网下载。在常见的工作流示例中，机器学习平台团队会批准一组要使用的软件包与框架，使用这些软件包构建自定义容器、测试容器中的漏洞，而后将核准后的镜像推送至私有容器注册表内，例如&lt;a href="https://aws.amazon.com/ecr/"&gt;Amazon Elastic Container Registry&lt;/a&gt;&amp;nbsp;(Amazon ECR)。现在，机器学习平台团队可以将经过核准的镜像直接附加至Studio域内（请参见以下工作流程图）。您只需在Studio中选定所需的获准自定义镜像即可。在当前版本中，单一Studio域最多可以包含30个自定义镜像，您可以根据需求添加新版本或删除镜像。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;现在，我们将逐步介绍如何使用此项功能将自定义容器镜像导入Amazon SageMaker Studio notebooks当中。这里主要演示在互联网上使用时的默认方法，您也可以对其稍加修改以配合&lt;a href="https://aws.amazon.com/vpc/"&gt;Amazon Virtual Private Cloud&lt;/a&gt;&amp;nbsp;(Amazon VPC)进行使用。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;先决条件&lt;/h2&gt; 
-&lt;p&gt;在开始之前，大家需要满足以下先决条件：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;亚马逊云科技账户。&lt;/li&gt; 
- &lt;li&gt;确保用于访问Amazon SageMaker的角色拥有以下Amazon Web Services身份与访问管理（IAM）权限，使Amazon SageMaker Studio能够在Amazon ECR中以smstudio为前缀创建一个repo，并面向此repo进行镜像推送与提取。要使用现有repo，请将其中的Resource部分替换为您的repo ARN。要构建容器镜像，您可以使用本地Docker客户端，或者直接在Amazon SageMaker Studio中创建镜像。本文采用后一种方法。要在Amazon ECR内创建repo，Amazon SageMaker Studio需要使用&lt;a href="https://aws.amazon.com/codebuild/"&gt;Amazon CodeBuild&lt;/a&gt;；您还需要拥有使用CodeBuild的权限，具体如下所示。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;{
-            "Effect": "Allow",
-            "Action": [
-                "ecr:CreateRepository",
-                "ecr:BatchGetImage",
-                "ecr:CompleteLayerUpload",
-                "ecr:DescribeImages",
-                "ecr:DescribeRepositories",
-                "ecr:UploadLayerPart",
-                "ecr:ListImages",
-                "ecr:InitiateLayerUpload",
-                "ecr:BatchCheckLayerAvailability",
-                "ecr:GetDownloadUrlForLayer",
-                "ecr:PutImage"
-            ],
-            "Resource": "arn:aws:ecr:*:*:repository/smstudio*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": "ecr:GetAuthorizationToken",
-            "Resource": "*"
-           }
-{
-            "Effect": "Allow",
-            "Action": [
-                "codebuild:DeleteProject",
-                "codebuild:CreateProject",
-                "codebuild:BatchGetBuilds",
-                "codebuild:StartBuild"
-            ],
-            "Resource": "arn:aws:codebuild:*:*:project/sagemaker-studio*"
-}
-{
-            "Effect": "Allow",
-            "Action": "iam:PassRole",
-            "Resource": "arn:aws:iam::*:role/*",
-            "Condition": {
-                "StringLikeIfExists": {
-                    "iam:PassedToService": "codebuild.amazonaws.com"
-                }
-            }
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;您的Amazon SageMaker角色还应在Amazon CodeBuild中拥有信任策略，具体如下所示。关于更多详细信息，请参阅&lt;a href="https://aws.amazon.com/blogs/machine-learning/using-the-amazon-sagemaker-studio-image-build-cli-to-build-container-images-from-your-studio-notebooks/"&gt;使用Amazon SageMaker Studio镜像构建CLI在Studio notebooks中构建容器镜像&lt;/a&gt;。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Principal": {
-        "Service": [
-          "codebuild.amazonaws.com"
-        ]
-      },
-      "Action": "sts:AssumeRole"
-    }
-  ]
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;ul&gt; 
- &lt;li&gt;在您的本地机器上安装Amazon Web Services命令行界面（Amazon CLI）。关于详尽操作说明，请参阅&lt;a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html"&gt;安装Amazon&lt;/a&gt; Web Services。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;ul&gt; 
- &lt;li&gt;准备一个SageMaker Studio域。要创建此域，请使用&lt;a href="https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_CreateDomain.html"&gt;CreateDomain&lt;/a&gt;&amp;nbsp;API或者&amp;nbsp;&lt;a href="https://docs.aws.amazon.com/cli/latest/reference/sagemaker/create-domain.html"&gt;create-domain&lt;/a&gt;&amp;nbsp;CLI命令。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;如果您希望使用自有VPC以安全引入自定义容器，则需要完成以下操作：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;带有专有子网的VPC。&lt;/li&gt; 
- &lt;li&gt;用于以下服务的VPC端点： 
-  &lt;ul&gt; 
-   &lt;li&gt;&lt;a href="https://aws.amazon.com/s3/"&gt;Amazon Simple Storage Service&lt;/a&gt;&amp;nbsp;(Amazon S3)&lt;/li&gt; 
-   &lt;li&gt;Amazon SageMaker&lt;/li&gt; 
-   &lt;li&gt;Amazon ECR&lt;/li&gt; 
-   &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/STS/latest/APIReference/welcome.html"&gt;Amazon Security Token Service&lt;/a&gt;&amp;nbsp;(Amazon STS)&lt;/li&gt; 
-   &lt;li&gt;用于构建Docker容器的CodeBuild&lt;/li&gt; 
-  &lt;/ul&gt; &lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;要设置上述资源，请参阅&lt;a href="https://aws.amazon.com/blogs/machine-learning/securing-amazon-sagemaker-studio-connectivity-using-a-private-vpc/"&gt;使用专用VPC保护Amazon SageMaker Studio连接&lt;/a&gt;以及相关&lt;a href="https://github.com/aws-samples/amazon-sagemaker-studio-vpc-blog"&gt;GitHub repo&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;创建Dockerfile&lt;/h2&gt; 
-&lt;p&gt;为了体现数据科学家使用最新框架进行试验的普遍性需求，我们在本次演练中使用以下Dockerfile，其选择最新的TensorFlow 2.3版本作为基础镜像。您也可以使用自己指定的Dockerfile进行替换。目前，Amazon SageMaker Studio已经能够支持多种基础镜像，例如Ubuntu、Amazon Linux 2等等。Dockerfile将安装运行Juypter notebooks所需要的IPython运行时，同时安装Amazon SageMaker Python SDK与boto3。&lt;/p&gt; 
-&lt;p&gt;除了笔记本电脑之外，除了notebooks之外，数据科学家与机器学习工程师们还经常使用各种流行IDE（例如Visual Studio Code或者PyÇharm）在本地notebooks上进行迭代与试验。您可能希望将这些脚本引入云端，借此进行扩展化训练或数据处理。您可以将这些脚本打包进Docker容器之内，并在Amazon SageMaker Studio的本地存储中查看。在以下Dockerfile中，我们复制的train.py&amp;nbsp;脚本是一套用于在MNIST数据集上训练简单深度学习模型的基础脚本。您也可以使用自己的脚本或包含代码的软件包替换此脚本。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;FROM tensorflow/tensorflow:2.3.0
-RUN apt-get update 
-RUN apt-get install -y git
-RUN pip install --upgrade pip
-RUN pip install ipykernel &amp;amp;&amp;amp; \
-    python -m ipykernel install --sys-prefix &amp;amp;&amp;amp; \
-    pip install --quiet --no-cache-dir \
-    'boto3&amp;gt;1.0&amp;lt;2.0' \
-    'sagemaker&amp;gt;2.0&amp;lt;3.0'&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;COPY train.py /root/train.py #可以替换为您的自定义脚本或软件包&lt;/p&gt; 
-&lt;p&gt;以下代码为train.py脚本：&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;import tensorflow as tf
-import os 
-
-mnist = tf.keras.datasets.mnist
-(x_train, y_train), (x_test, y_test) = mnist.load_data()
-x_train, x_test = x_train / 255.0, x_test / 255.0
-
-model = tf.keras.models.Sequential([
-  tf.keras.layers.Flatten(input_shape=(28, 28)),
-  tf.keras.layers.Dense(128, activation='relu'),
-  tf.keras.layers.Dropout(0.2),
-  tf.keras.layers.Dense(10, activation='softmax')
-])
-model.compile(optimizer='adam',
-              loss='sparse_categorical_crossentropy',
-              metrics=['accuracy'])
-model.fit(x_train, y_train, epochs=1)
-model.evaluate(x_test, y_test)&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;除了自定义脚本之外，您也可以添加其他文件，例如可通过&lt;a href="https://aws.amazon.com/secrets-manager/"&gt;Amazon Secrets Manage&lt;/a&gt;r 或&amp;nbsp;&lt;a href="https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html"&gt;Amazon Systems Manager Parameter Store&lt;/a&gt;访问客户端secrets以及环境变量的Python文件、用于连接私有PyPi repo的config文件、或者其他软件包管理工具。您也可以使用自定义镜像复制脚本，但在这种情况下，Dockerfile中的一切ENTRYPOINT或CMD命令均无法运行。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;设置安装文件夹&lt;/h2&gt; 
-&lt;p&gt;您需要在本地机器上创建一个文件夹，并向其中添加以下文件：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;在上一步中创建完成的Dockerfile。&lt;/li&gt; 
- &lt;li&gt;名为&amp;nbsp;app-image-config-input.json&amp;nbsp;的文件，具体内容如下：&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;"AppImageConfigName": "custom-tf2",
-    "KernelGatewayImageConfig": {
-        "KernelSpecs": [
-            {
-                "Name": "python3",
-                "DisplayName": "Python 3"
-            }
-        ],
-        "FileSystemConfig": {
-            "MountPath": "/root/data",
-            "DefaultUid": 0,
-            "DefaultGid": 0
-        }
-    }
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;我们将此Dockerfile的后端内核设置为IPython内核，并提供指向&lt;a href="https://aws.amazon.com/efs/"&gt;Amazon Elastic File System&lt;/a&gt;&amp;nbsp;(Amazon EFS)的挂载路径。Amazon SageMaker可以识别出Juypter定义的内核。例如，对于R内核，您可以将之前代码中的Name部分设置为ir。请注意保证其中的Uid、Gid以及内核名称与Docker镜像中的kernelspecs及用户信息相匹配。要获取这些值，请参阅本&lt;a href="https://github.com/aws-samples/sagemaker-studio-custom-image-samples/blob/main/DEVELOPMENT.md"&gt;文档&lt;/a&gt;。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;使用以下内容创建一个名为&amp;nbsp;default-user-settings.json&amp;nbsp;的文件。如果您需要添加多个自定义镜像，请直接将其添加至&amp;nbsp;CustomImages列表。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;{
-  "DefaultUserSettings": {
-    "KernelGatewayAppSettings": {
-      "CustomImages": [
-          {
-                   "ImageName": "tf2kernel",
-                   "AppImageConfigName": "custom-tf2"
-                }
-            ]
-        }
-    }
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;创建镜像并将其附加至您的Studio域&lt;/h2&gt; 
-&lt;p&gt;如果您已经拥有现成的域，则直接使用新镜像进行更新即可。在本节中，我们将演示现有Studio用户如何进行镜像附加。关于启动新用户的说明，请参阅&lt;a href="https://docs.aws.amazon.com/sagemaker/latest/dg/onboard-iam.html"&gt;使用IAM登入Amazon SageMaker Studio&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;首先，我们使用Amazon SageMaker Studio Docker构建CLI构建Dockerfile，并将其推送至Amazon ECR。请注意，您也可以使用其他方法将容器推送至ECR，例如通过本地Docker客户端以及AWS CLI。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;使用您的用户信息登录至Studio。&lt;/li&gt; 
- &lt;li&gt;将您的Dockerfile、以及其他需要复制到容器当中的代码或依赖项上传至Studio域。&lt;/li&gt; 
- &lt;li&gt;导航至包含Dockerfile的文件夹。&lt;/li&gt; 
- &lt;li&gt;在终端窗口或notebook内 —&amp;gt;&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;code&gt;!pip install sagemaker-studio-image-build&lt;/code&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;导出一个名为IMAGE_NAME的变量，并将其设定为您在&amp;nbsp;default-user-settings.json当中所指定的值。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;sm-docker build . –repository smstudio-custom:IMAGE_NAME&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;如果要使用其他repo，请将以上代码中的smstudio-custom替换为您的repo名称。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;Amazon SageMaker Studio将为您构建Docker镜像，将该镜像推送至Amazon ECR当中一个名为smstudio-custom的repo内，并为其标记适当的镜像名称。要进一步自定义此项功能（例如提供详细的文件路径或其他选项），请参阅&lt;a href="https://aws.amazon.com/blogs/machine-learning/using-the-amazon-sagemaker-studio-image-build-cli-to-build-container-images-from-your-studio-notebooks/"&gt;使用Amazon SageMaker Studio镜像构建CLI在Studio notebooks中构建容器镜像&lt;/a&gt;。要让以上pip命令在专用VPC环境下起效，您需要设置互联网路由或访问专用repo内的相应软件包。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;在之前的安装文件夹中，创建一个名为&amp;nbsp;create-and-update-image.sh的新文件：&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;ACCOUNT_ID=AWS ACCT ID # 替换为您的AWS账户ID
-REGION=us-east-2 # 替换为您的区域
-DOMAINID=d-####### # 替换为您的SageMaker Studio域名称
-IMAGE_NAME=tf2kernel # 替换为您的镜像名称
-
-# 使用Amazon SageMaker Studio
-## 使用ECR中的镜像创建SageMaker镜像（根据需求修改镜像名称）
-ROLE_ARN='The Execution Role ARN for the execution role you want to use'
-
-aws --region ${REGION} sagemaker create-image \
-    --image-name ${IMAGE_NAME} \
-    --role-arn ${ROLE_ARN}
-
-aws --region ${REGION} sagemaker create-image-version \
-    --image-name ${IMAGE_NAME} \
-    --base-image "${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/smstudio-custom:${IMAGE_NAME}"
-    
-## 为此镜像创建AppImageConfig（根据需要修改app-image-config-input.json中的AppImageConfigName与KernelSpecs参数）
-aws --region ${REGION} sagemaker create-app-image-config --cli-input-json file://app-image-config-input.json
-
-## 提供镜像与AppImageConfig以更新此域
-aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-input-json file://default-user-settings.json
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;请参阅Amazon CLI以了解可在&amp;nbsp;&lt;a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sagemaker/create-image.html"&gt;create-image&lt;/a&gt;&amp;nbsp;API中使用的各项参数的详细信息。要检查当前状态，请导航至您的Amazon SageMaker控制台，并在导航面板中选择Amazon SageMaker Studio。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;使用Studio UI附加镜像&lt;/h2&gt; 
-&lt;p&gt;您也可以通过UI完成将镜像附加至Studio域的最后一步。在此用例中，UI将处理镜像与镜像版本的创建操作，并使用附加的镜像完成域更新。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;在Amazon SageMaker控制台上，选择Amazon SageMaker Studio。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;在Control Panel页面上，可以看到已经置备完成的Studio域以及您所创建的所有用户配置。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;strong&gt;选择&lt;/strong&gt;&lt;strong&gt;Attach image&lt;/strong&gt;。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;选择要附加新镜像，还是附加原有镜像。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;ol&gt; 
- &lt;li style="list-style-type: none"&gt; 
-  &lt;ol&gt; 
-   &lt;li style="list-style-type: none"&gt; 
-    &lt;ol&gt; 
-     &lt;li&gt;如果您选择Existing image，请从Amazon SageMaker镜像库中选择一个镜像。&lt;/li&gt; 
-     &lt;li&gt;如果您选择New image，请提供Docker镜像的Amazon ECR注册表路径。此路径需要与Studio域处于同一区域内。ECR repo还需要与您的Studio域处于同一账户内；如果需要跨账户操作，则Studio必须具备相应权限。&lt;/li&gt; 
-    &lt;/ol&gt; &lt;/li&gt; 
-  &lt;/ol&gt; &lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;strong&gt;选择&lt;/strong&gt;&lt;strong&gt;Next&lt;/strong&gt;。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;strong&gt;在&lt;/strong&gt;&lt;strong&gt;Image name&lt;/strong&gt;部分，输入名称。&lt;/li&gt; 
- &lt;li&gt;在&lt;strong&gt;Image display name&lt;/strong&gt;部分，输入描述性名称。&lt;/li&gt; 
- &lt;li&gt;在&amp;nbsp;&lt;strong&gt;Description&lt;/strong&gt;部分，输入标签定义。&lt;/li&gt; 
- &lt;li&gt;在IAM role部分，选择Amazon SageMaker用于向Amazon SageMaker镜像附加Amazon ECR镜像的IAM角色。&lt;/li&gt; 
- &lt;li&gt;此外，您也可以对镜像做出其他标记。&lt;/li&gt; 
- &lt;li&gt;选择&amp;nbsp;&lt;strong&gt;Next&lt;/strong&gt;。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;在Kernel name部分，输入Python 3。&lt;/li&gt; 
- &lt;li&gt;&lt;strong&gt;选择&lt;/strong&gt;&lt;strong&gt;Submit&lt;/strong&gt;&lt;strong&gt;。&lt;/strong&gt;&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;绿色复选框代表镜像已被成功附加至域内。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;Amazon SageMaker镜像存储将自动对镜像进行版本控制。您可以选择一个预先附加的镜像，而后选择Detach以分离该镜像及所有相关版本，或者选择Attach image以附加新版本。各镜像的版本数量或分离镜像的功能不受限制。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;自定义镜像用户体验&lt;/h2&gt; 
-&lt;p&gt;下面，我们尝试Studio的实际用户体验。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;使用您的用户资料登录至Studio。&lt;/li&gt; 
- &lt;li&gt;&lt;strong&gt;要启动新活动，请选择&lt;/strong&gt;&lt;strong&gt;Launcher&lt;/strong&gt;。&lt;/li&gt; 
- &lt;li&gt;在&lt;strong&gt;Select a SageMaker image to launch your activity&lt;/strong&gt;&lt;strong&gt;部分，选择&lt;/strong&gt;&lt;strong&gt;tf2kernel&lt;/strong&gt;。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;strong&gt;选择&lt;/strong&gt;&lt;strong&gt;Notebook&lt;/strong&gt;图标，使用自定义内核打开一个新notebook。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;Notebook内核需要几分钟才能启动完成，之后即可开始使用！&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;在notebook中测试您的自定义容器&lt;/h2&gt; 
-&lt;p&gt;在内核启动并开始运行之后，您即可在notebook中运行代码。首先，我们测试Dockerfile中指定的TensorFlow是否为正确版本。在以下截屏中，可以看到我们刚刚创建的notebook正在使用tf2kernel。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;Amazon SageMaker notebooks还会显示本地CPU与内存使用量。&lt;/p&gt; 
-&lt;p&gt;接下来，我们直接在notebook中使用自定义训练脚本。将训练脚本复制到notebook单元中并运行。此脚本会从tf.keras.datasets处下载mnist数据集，并将数据拆分为训练数据集与测试数据集，自定义一项定制化深度神经网络算法，在训练数据集上训练算法，并在测试数据集上测试算法。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;要尝试使用TensorFlow 2.3框架，大家可能希望测试新发布的API，例如Keras中提供的预处理实用程序等新功能。在以下截屏中，我们导入了随TensorFlow 2.3版本发布的keras.layers.experimental&amp;nbsp;库，其中包含用于数据预处理的新API。我们加载其中一个API，而后在notebook中重新运行脚本。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;Amazon SageMaker还能够在代码运行过程中动态修改CPU与内存使用率。通过引入自定义容器与训练脚本，此功能使您能够直接在Amazon SageMaker notebook中尝试自定义训练脚本与算法。如果您对Studio notebook中的试验结果感到满意，则可立即启动训练作业。&lt;/p&gt; 
-&lt;p&gt;Docker file中所包含的、使用COPY命令的Python文件或其他自定义文件运行情况如何？Amazon SageMaker Studio会挂载app-image-config-input.json所提供的文件路径中的弹性文件系统，在本示例中我们将其设定为root/data。为了避免Studio覆盖掉需要包含的自定义文件，COPY命令会将train.py文件加载至路径/root当中。要访问此文件，请打开终端或notebook并运行以下代码：&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;! cat /root/train.py&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;这时您应看到以下截屏所示的输出结果。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;可以看到train.py&amp;nbsp;文件位于指定位置。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;CloudWatch中的日志记录&lt;/h2&gt; 
-&lt;p&gt;Amazon SageMaker Studio还会将内核指标发布至Amazon CloudWatch供您进行故障排查。这些指标将被捕捉至/aws/sagemaker/studio命名空间之内。&lt;/p&gt; 
-&lt;p&gt;要访问日志，请在CloudWatch控制台上选择CloudWatch Logs。在Log groups页面中，输入命名空间以查看与Jupyter服务器及内核网关相关的日志记录。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks12.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;分离镜像或版本&lt;/h2&gt; 
-&lt;p&gt;您可以从域中分离镜像或特定镜像版本。&lt;/p&gt; 
-&lt;p&gt;要分离镜像及其全部版本，请在Custom images attached to domain表内选定该镜像，而后选择Detach。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks13.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;您还可以选择删除镜像及所有版本，这不会影响到Amazon ECR中的镜像。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks14.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/how-to-import-your-custom-container-image-into-amazon-sagemaker-studio-notebooks14.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;要分离镜像的特定版本，请选定该镜像。在Image details页面上，从Image versions attached to domain表中选择目标镜像版本（一个或者多个版本），而后选择Detach。您会看到如上所示的警告及操作选项。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;总结&lt;/h2&gt; 
-&lt;p&gt;Amazon SageMaker Studio使您能够更轻松地对机器学习模型进行协作、实验、训练及部署。在这之前，数据科学家往往需要通过公共及私有代码repo以及软件包管理工具才能访问最新机器学习框架、自定义脚本以及软件包。现在，您可以将所有相关代码打包进自定义镜像之内，并使用Studio notebook启动这些镜像。这些镜像可供Studio域内的所有用户使用。您也可以使用此项功能使用Python之外的其他流行语言及运行时，包括R、Julia以及Scala等。您可以在&lt;a href="https://github.com/aws-samples/sagemaker-studio-custom-image-samples"&gt;GitHub repo&lt;/a&gt;中找到示例文件。关于此项功能的更多详细信息，请参阅&lt;a href="https://docs.aws.amazon.com/sagemaker/latest/dg/studio-byoi.html"&gt;自带SageMaker镜像&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/stenatu.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;Stefan Natu&lt;/h3&gt; 
-  &lt;p&gt;亚马逊云科技公司高级机器学习专家。他致力于帮助金融服务客户在亚马逊云科技上构建端到端机器学习解决方案。在业余时间，他喜欢阅读机器学习技术博客、演奏吉他和探索纽约当地的各种美食。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/jaipreet.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;Jaipreet Singh&lt;/h3&gt; 
-  &lt;p&gt;Amazon SageMaker Studio团队高级软件工程师。他自2017年立项以来就一直从事Amazon SageMaker的开发工作，并为多个Jupyter开源项目做出贡献。业余时间，他喜欢远足和滑雪。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/huonguh.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;Huong Nguyen&lt;/h3&gt; 
-  &lt;p&gt;亚马逊云科技公司高级产品经理。她负责Amazon SageMaker Studio的用户体验工作。她在企业级及消费级领域拥有13年客户体验与数据驱动产品开发经验。在业余时间，她喜欢读书、享受自然风光和陪伴家人。&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
 										</item>
