@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss10/12528" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss10/12528</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss10/12528" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>紐時：開挖比特幣所使用的電力是Google總用電量的7倍</title>
+    <link>https://www.ithome.com.tw/news/146582</link>
+    <description> 《紐約時報》最近刊出了一篇有關比特幣的專題報導，該報導引用了劍橋比特幣電力消耗指數（Cambridge Bitcoin Electricity Consumption Index，CBECI）的估計，指出開採比特幣一年所使用的電力，是Google全球營運一年總用電量的7倍。</description>
+     <pubDate>2021-09-07  11:09:46</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146582</guid>
+  </item>
+  <item>
     <title>Google以深度學習偵測異常胸腔X光片，可找出訓練資料集未見過的肺部異常</title>
     <link>https://www.ithome.com.tw/news/146578</link>
     <description> Google開發了新型模型，能夠從去識別化資料集中，區分正常和異常的胸腔X光片，Google提到，該模型不只對一般的胸腔異常表現良好，對沒有出現在訓練資料集的肺結核病和COVID-19，也能發現其異常之處，對於未見過的案例具有通用性。</description>
@@ -251,14 +259,6 @@ Reddit創立於2005年，註冊會員可上傳各種內容，從文章、連結�
      <pubDate>2021-09-03  11:09:27</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146533</guid>
-  </item>
-  <item>
-    <title>AWS更新S3智慧分層收費規則，同時開始提供EFS智慧分層功能</title>
-    <link>https://www.ithome.com.tw/news/146531</link>
-    <description> AWS在Storage Day 2021會議上發布了儲存服務更新，包括調整原本Amazon S3智慧分層功能（Intelligent-Tiering）處理短暫和小型物件的費用，並且在雲端檔案儲存服務</description>
-     <pubDate>2021-09-03  04:09:03</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146531</guid>
   </item>
   </channel>
 </rss>
