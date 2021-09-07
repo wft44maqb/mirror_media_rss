@@ -9,18 +9,11 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Sep 2021 09:39:52 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Sep 2021 09:44:21 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
-        <item>
-            <title><![CDATA[香港區議員宣誓本周五開始 未明言是否追討違誓者薪金]]></title>
-            <description><![CDATA[現屆區議會479名議員中已經有多人因為不同原因失去議員資格或請辭，因此只有剩下211名現任議員宣誓。林鄭月娥指區議員如果拒絶宣誓，就會喪失區議員資格。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58472896?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58472896</guid>
-            <pubDate>Tue, 07 Sep 2021 08:06:02 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[國民黨主席選舉開始 「九二共識」能否贏得台灣年輕人支持引發辯論]]></title>
             <description><![CDATA[台灣最大在野黨「中國國民黨」主席競選開跑，四位參選人髮言主軸仍是以兩岸論述為焦點，「九二共識」再次成為國民黨兩岸政策的主軸。]]></description>
@@ -34,6 +27,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58435149?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58435149</guid>
             <pubDate>Mon, 06 Sep 2021 01:24:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[香港區議員宣誓本周五開始 未明言是否追討違誓者薪金]]></title>
+            <description><![CDATA[現屆區議會479名議員中已經有多人因為不同原因失去議員資格或請辭，因此只有剩下211名現任議員宣誓。林鄭月娥指區議員如果拒絶宣誓，就會喪失區議員資格。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58472896?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58472896</guid>
+            <pubDate>Tue, 07 Sep 2021 08:06:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[年輕主義：新世代愈來愈難找工作的因由]]></title>
