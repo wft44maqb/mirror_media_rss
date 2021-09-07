@@ -6,6 +6,56 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>MITRE Engage將取代MITRE Shield，聚焦交戰、拒絕與欺敵領域</title>
+ <link>https://www.ithome.com.tw/news/146581</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;近兩三年來， 在資安界有一套框架當紅， 那就是MITRE ATT&amp;amp;CK框架， 將現實駭客組織入侵技術彙整成攻擊知識庫， 而為了扭轉企業面對攻擊經常處於被動的局面，在2020年8月，MITRE公布主動式防禦（Active Defense）的知識庫，稱為MITRE Shield，希望幫助企業組織成為更好的防守者，近期，MITRE將它重新定名為MITRE Engage，並預告在今年秋季會發布正式版本。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;簡化框架內容，聚焦在交戰、阻斷、欺敵等三大主軸&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;基本上，過去的資安攻防，只能任由攻擊者選擇時間、地點與交戰方式，而MITRE Engage（Shield）的目的，則是希望能反過來，改善作戰計畫，希望防守者可在防禦範圍之內，進一步控制對手，並影響時間、地點與交戰方式，在此過程， 將與攻擊者互動抗衡，並學習與觀察對方使用的手法，阻絕攻擊者，使其無法摸索企業組織的防禦環境。&lt;/p&gt;
+&lt;p&gt;關於名稱的變更，MITRE也提出了解釋。他們從資安社群得到許多技術性意見，因此，將Shield架構簡化，專注在下列三大領域，分別是：對手交戰（Adversary Engagement）、阻斷（Denial），以及欺敵（Deception）。相較之下，過去MITRE Shield的定義，其實還包括網路安全防護的構面。&lt;/p&gt;
+&lt;p&gt;而Engage的目的將更為明確，聚焦於與對手交戰的策略與技術，並彙整成更有計畫與執行力的戰略與具體活動，對於民間企業、政府機構，以及供應商組織等，都可以帶來幫助，做到更主動的資安防護。&lt;/p&gt;
+&lt;p&gt;關於三大主軸的定義，根據MITRE的說明，以交戰的方式而言，其實就是結合了拒絕與欺騙，讓對手在網路攻擊行動上，變得成本增加以及價值降低，目標是要讓對手與其弱點暴露，了解攻擊者的能力與意圖，並讓對方付出更多代價。&lt;/p&gt;
+&lt;p&gt;阻斷與欺敵自然也是重點。以網路阻斷而言，是阻止對手收集情報的能力，或是削弱對手收集情報的努力，同時也用於阻止或破壞對手在行動中的嘗試；以網路欺敵而言，防守方透過亦虛亦實的欺騙手段，來誤導對手，藉由隱瞞關鍵事實與虛構，讓攻擊者無法正確評估，或是採取適當行動。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（主圖）MITRE Engage_B.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E4%B8%BB%E5%9C%96%EF%BC%89MITRE%20Engage_B.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;與舊版MITRE Shield相比，新的&lt;a href=&quot;https://engage.mitre.org/matrix/&quot;&gt;MITRE Engage&lt;/a&gt;將更聚焦在對手交戰、阻斷與欺敵的領域，同時也提出更具體的畫分，包括戰略目標（準備、理解）與交戰目標（暴露、影響與引出），而在目標之下，也分成9大方法與33項具體活動。而MITRE也表示，當MITRE Engage正式版發布後，MITRE Shield將被完全取代，&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;重新定義兩大類型：戰略行動與交戰行動&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;除了簡化其範圍，讓Engage框架內容更明確，MITRE為了消除歧義，因此框架中的項目也有一些變動調整。&lt;/p&gt;
+&lt;p&gt;例如，在ATT&amp;amp;CK矩陣提到的攻擊戰術流程，如Tactics、Techniques等，在Engage矩陣當中，將會使用不同術語。&lt;/p&gt;
+&lt;p&gt;例如，Engage在術語上，將用「方法（Approaches）」，來替代ATT&amp;amp;CK當中採用的「戰術（Tactics）」，同時，也以「活動（Activities）」，來替代ATT&amp;amp;CK中採用的「技法（Techniques）」。&lt;/p&gt;
+&lt;p&gt;因此，現有的Engage矩陣有何不同？簡單來說，之前Shield具有8個戰術階段，以及36項技術手法，現在Engage則畫分為9個方法，以及31個具體活動，同時還新增了更高的目標層級內容，並區分為戰略行動與交戰行動兩種類別。&lt;/p&gt;
+&lt;p&gt;具體而言，Engage擬出了5大目標，包含：準備、暴露、影響、引出與理解。位於最前的「準備」，以及最後的「理解」項目，其實，就是戰略行動的目標，而「暴露」、「影響」、「引出」則是屬於交戰行動的目標。&lt;/p&gt;
+&lt;p&gt;同時，MITRE重新統整出9類交戰方法，依序是：準備項目的計畫（Planning），暴露項目的收集（Collection）、偵測（Detection），影響項目的防護（Prevention）、引導（Direction ）與中斷（Disruption），引出項目的再確保（Reassurance）、動機（Motivation），以及理解項目的分析（Analysis）。&lt;/p&gt;
+&lt;p&gt;至於在各種交戰方法之下，我們可採取哪些具體活動？以戰略行動而言，目前MITRE提出9種具體活動，而以交戰行動而言，可歸為22種具體活動，累計起來共31種。以收集的方法為例，包含API Monitoring、Network Monitoring、Software Manipulation與System Activity Monitoring這四種具體活動。&lt;/p&gt;
+&lt;p&gt;整體而言，新的MITRE Engage不僅將策略與技術這樣的術語，更改為方法與活動，內容也更聚焦，因此具體活動的項目減少了，同時也去除使用情境與機會空間的概念，不過另外增加對手漏洞的概念。&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;如何使用MITRE Engage？&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;隨著MITRE Engage框架的內容即將底定，如何使用也成為廠商與企業關注的焦點。&lt;/p&gt;
+&lt;p&gt;根據MITRE的說明，對於企業資安負責人而言，可了解如何阻斷、欺敵與對手交戰，並將其融入企業網路安全戰略；而對於資安相關的廠商而言，也可將這框架用於了解自家網路欺敵工具，與Engage活動保持一致。文☉羅正漢&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#0099ff;&quot;&gt;&lt;strong&gt;網路安全對策新框架──MITRE D3FEND &lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;在2021年6月，MITRE還新推出了一個名為MITRE D3FEND的資安框架，這是美國國安局（NSA）資助的研究項目，目前是早期發展階段，目的是期望透過這個框架，能建立電腦網路防禦技術的術語，並闡明防禦與攻擊之間的關聯。換言之，這套框架可視為MITREATT&amp;amp;CK的延伸補充。&lt;/p&gt;
+&lt;p&gt;基本上，D3FEND是網路安全對策技術的知識庫，具體來說，它是一份知識圖譜，定義了網路安全對策領域中的關鍵概念，以及相互聯繫這些概念所需關係，做出全面的參照與統整。&lt;/p&gt;
+&lt;p&gt;這個知識庫框架總共歸納出5大類別，分別是：強化（Harden）、偵測（Detect）、隔離（Isolate）、欺敵（Deceive）、驅逐（Evict），並有17個防禦技術面向。簡單來說：&lt;/p&gt;
+&lt;p&gt;●在強化類別，包含應用程式、帳密憑證（Credential）、訊息與平臺這4大面向。&lt;/p&gt;
+&lt;p&gt;●在偵測類別，包含了檔案分析、識別碼分析、訊息分析、網路流量分析、處理程序分析與使用者行為分析這7大面向。&lt;/p&gt;
+&lt;p&gt;●在隔離類別，包含了執行與網路這兩個面向。&lt;/p&gt;
+&lt;p&gt;●在欺敵類別，包含了環境與物件這兩個面向。&lt;/p&gt;
+&lt;p&gt;●在驅逐類別，則有帳密憑證與處理程序的兩個面向。&lt;/p&gt;
+&lt;p&gt;MITRE認為，有了這樣的資訊框架，可直接幫助資安與技術主管，制定更務實地的採購或投資決策。同時，企業如果需詳細了解網路防禦的運作原理，MITRE發展的D3FEND，也會是初期可著手的實用工具。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88BOX%E5%9C%96%EF%BC%89MITRE%20D3FENDs.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;目前MITRE D3FEND最新版本為0.9.3-BETA-1，&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88Box%E5%9C%96%EF%BC%89MITRE%20D3FEND.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%962%EF%BC%89MITRE%20D3FEND.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;MITRE D3FEND在攻防技術概念與關係的呈現上，上圖是一個及極為簡化的圖表，MITRE將設計一個名為Digital Artifact Ontology的流程鏈，希望讓攻防之間的對應更為清楚。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt; &lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 10:41:55 +0000</pubDate>
+ <dc:creator>羅正漢</dc:creator>
+ <guid isPermaLink="false">146581 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146581#comments</comments>
+</item>
+<item>
  <title>工研院以Arm聯手，為新創業者引進Arm IP打造IC設計平臺</title>
  <link>https://www.ithome.com.tw/news/146580</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在經濟部工業局牽線下，國內的工研院和Arm合作，結合工研院的技術、人才、輔導資源，加上Arm的矽智財IP，為新創業者打造IC設計平臺，協助新創業者在研發階段降低IP授權成本。&lt;/p&gt;
@@ -148,28 +198,6 @@
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="false">146563 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146563#comments</comments>
-</item>
-<item>
- <title>強化主管機關落實個資保護監管責任及跨機關協調，行政院建立個資保護執行聯繫機制</title>
- <link>https://www.ithome.com.tw/news/146562</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;為強化政府各機關對個資保護監管措施的落實，行政院建立個人資料保護執行聯繫機制，召開行政院層級的聯繫會議，敦促行政院各主管機關強化對非公務機關業者的監管措施，包括分級管理、個資外洩事件通報、行政檢查等等。&lt;/p&gt;
-&lt;p&gt;行政院於去年12月召開資安事件之個資外洩因應及風險管理會議，會中決議成立行政機關落實個人資料保護執行聯繫會議（以下簡稱聯繫會議），依分級、課責、通報、跨部會協調四項原則，強化政府各機關對非公務機關的個資保護監管責任。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;確立行政院層級的個資保護執行聯繫會議&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;國發會主委龔明鑫、政務委員羅秉成與唐鳳多次開會，確立強化政府所屬機關對個資外洩通報、監管措施，行政院在今年8月11日更公布「行政院及所屬各機關落實個人資料保護聯繫作業要點」，明訂設立行政院層級的聯繫會議，由行政院長指定一位政務委員擔任召集人，三人擔任協同召集，針對個資外洩或其他個人資料侵害事件，不定期召開，邀中央政府機關、縣市政府及專家與學者出席。聯繫會議由國發會擔任幕僚作業單位。&lt;/p&gt;
-&lt;p&gt;根據作業要點，聯繫會議主要工作，包括研議中央目的事業主管機關針對特定事業提出的安全維護辦法、統籌個資外洩事件的監督通報、重大個資外洩事件的主管機關認定及協助事件行政檢查的跨機關協調。其他個資侵害事件的跨部會協調聯繫等等。當主管機關向其他行政機關請求行政協助被拒，可函送國發會，請求聯繫會議協調處理。&lt;/p&gt;
-&lt;p&gt;換言之，過去發生重大個資外洩事件，可能因界線模糊，難以界定主管機關該由哪個機關負責，未來這類重大個資外洩事件會由聯繫會議指定主管機關，迅速啟動監管措施，包括通報、後續的行政檢查。同時，各主管機關啟動行政檢查，請求其他機關行政協助的協調及個資外洩情報分享機制，將由聯繫會議協調及支援。&lt;/p&gt;
-&lt;p&gt;作業要點也定義重大外洩事件，包括行政院、立法院或監察院關切的個資外洩案件，以及媒體顯著報導的外洩個資事件。另外，作業要點也規定，行政院資通安全處、內政部警政署、法務部調查局，應適時向國發會分享個資外洩案件情報。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;要求各主管機關修訂安全維護辦法&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;鑑於國內個資保護主要採取分散管理架構，由各個中央目的事業主管機關，負責監管非公務機關（業者），近日行政院個資保護執行聯繫會議決議，要求各機關修正目前34項針對特定業別訂定的安全維護辦法，新增分級管理、個資外洩事件通報、行政檢查注意規定等等，加強對業者的監管措施。&lt;/p&gt;
-&lt;p&gt;包括對業者使用資通訊系統保存消費者個資且達一定門檻，納入加強管理對象。對使用者身分確認及保護機制、個資顯示隱碼機制、網路傳輸安全加密機制、個資檔案與資料庫存取控制與保護、防止外部網路入侵、非法或異常使用行為的監控與因應機制，訂定資安標準規範。&lt;/p&gt;
-&lt;p&gt;其次，各主管機關對特定業別訂定的安全維護辦法，應明訂業者發生個資外洩事件時，應通報對象、時間、通報事項及行政檢查等。&lt;/p&gt;
-&lt;p&gt;第三是，主管機關於接獲業者通報資料外洩事件72小時內，需向國發會通報，並啟動行政檢查，落實對業者的監管責任。&lt;/p&gt;
-&lt;p&gt;行政院個資保護執行聯繫會議也要求主管機關應就業者的規模、保存個資數量及機敏性質，個資外洩對當事人的影響程度、國際傳輸頻率等等，評估修訂安全維護辦法，要求各部會檢討更新安全維護辦法。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 06 Sep 2021 10:21:10 +0000</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="false">146562 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146562#comments</comments>
 </item>
 </channel>
 </rss>

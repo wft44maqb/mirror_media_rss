@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>MITRE Engage將取代MITRE Shield，聚焦交戰、拒絕與欺敵領域</title>
+    <link>https://www.ithome.com.tw/news/146581</link>
+    <description> 近兩三年來， 在資安界有一套框架當紅， 那就是MITRE ATT&amp;amp;CK框架， 將現實駭客組織入侵技術彙整成攻擊知識庫， 而為了扭轉企業面對攻擊經常處於被動的局面，在2020年8月，MITRE公布主動式防禦（Active Defense）的知識庫，稱為MITRE Shield，希望幫助企業組織成為更好的防守者，近期，MITRE將它重新定名為MITRE Engage，並預告在今年秋季會發布正式版本。</description>
+     <pubDate>2021-09-07  06:09:55</pubDate>
+ <dc:creator>羅正漢</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146581</guid>
+  </item>
+  <item>
     <title>工研院以Arm聯手，為新創業者引進Arm IP打造IC設計平臺</title>
     <link>https://www.ithome.com.tw/news/146580</link>
     <description> 在經濟部工業局牽線下，國內的工研院和Arm合作，結合工研院的技術、人才、輔導資源，加上Arm的矽智財IP，為新創業者打造IC設計平臺，協助新創業者在研發階段降低IP授權成本。
@@ -251,14 +259,6 @@ Reddit創立於2005年，註冊會員可上傳各種內容，從文章、連結�
      <pubDate>2021-09-03  03:09:00</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146532</guid>
-  </item>
-  <item>
-    <title>Check Point買下雲端電子郵件安全業者Avanan</title>
-    <link>https://www.ithome.com.tw/news/146530</link>
-    <description> 資安業者Check Point本周宣布，已買下雲端電子郵件安全業者Avanan，未來將把Avanan服務整合到Check Point Infinity架構中，提供各式的郵件保護服務。</description>
-     <pubDate>2021-09-03  03:09:04</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146530</guid>
   </item>
   </channel>
 </rss>
