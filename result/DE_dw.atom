@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-07T03:55:53Z</updated>
+ <updated>2021-09-07T03:59:24Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59105735</id>
+  <title><![CDATA[新疆人权活动家遭禁入哈萨克]]></title>
+  <updated>2021-09-07T03:45:00Z</updated>
+  <published>2021-09-07T03:45:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/新疆人权活动家遭禁入哈萨克/a-59105735?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[一名为中国新疆穆斯林发声的知名人权活动家对法新社表示被禁止进入哈萨克。哈萨克在经济上高度依赖中国市场。这两者有相关吗？]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59105436</id>
   <title><![CDATA[数据安全有疑虑 五国调查华大基因产品]]></title>
@@ -185,16 +195,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59091539</id>
-  <title><![CDATA[塔利班寻求与德国正式建交]]></title>
-  <updated>2021-09-05T12:58:00Z</updated>
-  <published>2021-09-05T12:58:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班寻求与德国正式建交/a-59091539?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[塔利班发言人在接受德国媒体采访时表示，希望能够从得到外交上的承认和经济上的援助。德国外长马斯曾表示在安全保障和政治局势允许的情况下，可以考虑重新恢复喀布尔使馆。关于德国政府在从阿富汗撤离人员的处理方式，也逐渐成为德国大选最后阶段的选战议题。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59089481</id>
   <title><![CDATA[墙外文摘：留给饭圈的余地不多了]]></title>
   <updated>2021-09-05T07:59:00Z</updated>
@@ -203,16 +203,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/墙外文摘：留给饭圈的余地不多了/a-59089481?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[有评论认为，中共留给饭圈的余地并不多了，或许在“伟大规划”中，她们被要求必须离开个人的天地，走向需要她们的任何地方。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59077830</id>
-  <title><![CDATA[德国“隐形冠军”迎来中国挑战]]></title>
-  <updated>2021-09-05T07:04:00Z</updated>
-  <published>2021-09-05T07:04:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国-隐形冠军-迎来中国挑战/a-59077830?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[德国中小型企业中有一大批“隐形冠军”，它们当中60%在中国设有生产基地，虽然早就熟悉了国际化，但还是感受到来自中国赶超的压力。]]></summary>
-  <category term="经济纵横"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59065287</id>
@@ -233,6 +223,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/在南斯拉夫对抗纳粹的德意志游击队/a-59079805?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[二战期间，南斯拉夫游击队内有一支特殊的“台尔曼营”部队，积极抗击纳粹德国侵略者。这也是整场战争期间，盟军阵营内唯一一支全部由德意志人组成的部队。]]></summary>
   <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59077830</id>
+  <title><![CDATA[德国“隐形冠军”迎来中国挑战]]></title>
+  <updated>2021-09-05T07:04:00Z</updated>
+  <published>2021-09-05T07:04:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国-隐形冠军-迎来中国挑战/a-59077830?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[德国中小型企业中有一大批“隐形冠军”，它们当中60%在中国设有生产基地，虽然早就熟悉了国际化，但还是感受到来自中国赶超的压力。]]></summary>
+  <category term="经济纵横"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59049344</id>
