@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Tue, 07 Sep 2021 16:15:39 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Sep 2021 16:25:41 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[習近平提「共同富裕」，敦促中國富豪分享財富]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210907/china-xi-common-prosperity/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[在習近平為可能第三次連任總書記奠定基礎之際，共產黨急於表明其正在聽取不滿意見，對可能阻礙國家崛起並削弱民眾對領導層信心的貧富差距問題採取行動。<p><img src='https://static01.nyt.com/images/2021/09/02/business/00China-econ-1/00China-economy-1-articleLarge.jpg' alt='習近平已宣布中國共產黨將促進「共同富裕」，此外，他也向企業和企業家施壓，讓其回饋社會。 Ju Peng/Xinhua, via Associated Press'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Ju Peng/Xinhua, via Associated Press</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>習近平已宣布中國共產黨將促進「共同富裕」，此外，他也向企業和企業家施壓，讓其回饋社會。</p>                    ]]></description>
+            <category>中國</category>
+            <dc:creator><![CDATA[儲百亮,艾莎,曹莉]]></dc:creator>
+            <pubDate>Tue, 07 Sep 2021 04:22:08 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210907/china-xi-common-prosperity/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[漫威首位亞裔超級英雄：「尚氣」如何打破刻板印象]]></title>
             <link><![CDATA[https://cn.nytimes.com/culture/20210907/shang-chi-marvel/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[THOMAS FULLER,LIVIA ALBECK-RIPKA,MAX WHITTAKER]]></dc:creator>
             <pubDate>Wed, 01 Sep 2021 04:07:39 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210901/lake-tahoe-nevada-fire/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[一個什麼都缺貨的世界：全球陷入供應鏈大混亂]]></title>
-            <link><![CDATA[https://cn.nytimes.com/business/20210831/supply-chain-shortages/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[從普通消費者到全球各大製造商，延誤、產品短缺和成本上升都為他們帶來新困擾。如果「供應鏈大混亂」帶來的短缺持續到明年，有可能推動大宗商品價格上漲。<p><img src='https://static01.nyt.com/images/2021/08/27/business/00Shortages-1/merlin_193710321_e7fda451-6e8b-42c8-bcb8-c52bc3d274ec-articleLarge.jpg' alt='科爾絲藤·傑斯達爾已放棄了為她在南達科他州布魯金斯市的廚房用品店訂購某些貨物，因為她已厭倦了總告訴顧客她不知道什麼時候到貨。 Tim Gruber for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Tim Gruber for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>科爾絲藤·傑斯達爾已放棄了為她在南達科他州布魯金斯市的廚房用品店訂購某些貨物，因為她已厭倦了總告訴顧客她不知道什麼時候到貨。</p>                    ]]></description>
-            <category>商業與經濟</category>
-            <dc:creator><![CDATA[PETER S. GOODMAN,KEITH BRADSHER]]></dc:creator>
-            <pubDate>Wed, 01 Sep 2021 03:35:08 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210831/supply-chain-shortages/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
