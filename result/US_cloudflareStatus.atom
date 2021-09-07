@@ -4,7 +4,7 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-09-07T02:34:30Z</updated>
+  <updated>2021-09-07T02:40:34Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -23,6 +23,14 @@
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/5xxwjqd2lwgp"/>
     <title>Dashboard Maintenance</title>
     <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Sep &lt;var data-var='date'&gt;7&lt;/var&gt;, &lt;var data-var='time'&gt;23:00&lt;/var&gt; UTC &amp;nbsp;-&amp;nbsp; Sep &lt;var data-var='date'&gt;8&lt;/var&gt;, &lt;var data-var='time'&gt;00:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;22:29&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - The Cloudflare Dashboard will be unavailable during this maintenance window in order to improve future resiliency of the system. All dashboard UI actions will be unavailable during the window.  Cloudflare's API and edge will be unaffected during this maintenance.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7933588</id>
+    <published>2021-09-07T02:40:34Z</published>
+    <updated>2021-09-07T02:40:34Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/vzssywh6hy44"/>
+    <title>Cloudflare Dashboard and Cloudflare API service issues in EMEA region</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;02:40&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with Cloudflare Dashboard and related APIs in EMEA region.&lt;br /&gt;&lt;br /&gt;These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.&lt;br /&gt;&lt;br /&gt;Customers using the Dashboard / Cloudflare APIs are impacted as requests might fail and/or errors may be displayed.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7933275</id>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/2z895fy54bs2"/>
     <title>Network Analytics Delays</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;10:06&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;09:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;08:46&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;06:20&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We are continuing to investigate this issue.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;06:18&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is aware of, and investigating a delay with Network analytics. Further detail will be provided as more information becomes available.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7810474</id>
-    <published>2021-08-21T01:28:00Z</published>
-    <updated>2021-08-21T01:28:00Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/dy2pj324k6mt"/>
-    <title>Cloudflare Dashboard IP access rule UI issue</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;21&lt;/var&gt;, &lt;var data-var='time'&gt;01:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;21&lt;/var&gt;, &lt;var data-var='time'&gt;01:04&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with Cloudflare Dashboard firewall IP access rule UI. Customer may experience pagination of IP access rule not fully display on the UI&lt;br /&gt;&lt;br /&gt;These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.&lt;br /&gt;&lt;br /&gt;Customers using the IP access rule Dashboard are impacted, but customers can still use API to create IP access rules.&lt;/p&gt;</content>
   </entry>
 </feed>
