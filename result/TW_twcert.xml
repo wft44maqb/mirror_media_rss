@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Mon, 06 Sep 2021 09:31:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[美國一離職員工侵入公司系統，刪除 21 GB 資料]]></title><link>http://www.twcert.org.tw/tw/cp-104-5059-1dba4-1.html</link><description><![CDATA[<p><strong>一名原任職於美國紐約信用合作社的離職員工，在遭該單位解僱後，侵入原任職單位的電腦系統，惡意刪除 21 GB 的重要資料。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Tue, 07 Sep 2021 09:29:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[資安研究人員研製幾可亂真的 USB-C 傳輸線，可於 2 公里外遠端無線竊取用戶於鍵盤上輸入的資訊]]></title><link>http://www.twcert.org.tw/tw/cp-104-5062-c965c-1.html</link><description><![CDATA[<p><strong>資安研究人員自製出一條外觀與一般 Lightning 傳輸線完全無異，但內含特製晶片，可以攔截用戶輸入資訊，並無線傳輸至 2 公里之外的駭侵用傳輸線。</strong><br />
+<br />
+一位資安研究人員自製出一條外觀與一般 Lightning 傳輸線完全無異，但內含特製晶片，可以攔截用戶輸入資訊，並透過無線網路，將竊得資訊傳輸至一英哩之外的駭侵用傳輸線。<br />
+<br />
+這名資安研究人員自稱為 MG。MG 推出的這條名為「O.MG」的傳輸線，一端是標準的 USB-C 插頭，另一端則是相容於 Apple 多種產品的 Ligntning 插頭。在 MG 發表的測試影片中，示範了當這條 O.MG 駭侵傳輸線連上 Mac 電腦與 Magic Keyboard 鍵盤後，該傳輸線就會變成一個 Wi-Fi 無線網路熱點，並建立起一個用來傳輸駭侵資訊的無線網路。駭侵者可在最遠達 2 公里處，打開一個瀏覽器界面，遠端接收用戶在該鍵盤上輸入的所有字元。<br />
+<br />
+O.MG 建立的 Web 界面，除了可以竊取用戶的鍵盤輸入字元外，也可以輕易植入各種酬載程式碼；甚至可以設定在當失去連線時自動停止執行酬載程式，或是執行自我毀滅程式，自動清除酬載，以免遭到發現。<br />
+<br />
+MG 推出的這條「O.MG」駭侵傳輸線，實際上是第二代「產品」。該產品的第一代係使用插頭體積較大的 USB-A 對 Lightning 界面；許多人認為日益普及的 USB-C 界面，其體積較小，不足以放置額外的駭侵用晶片電路；但 MG 仍然將之成功實作。<br />
+<br />
+USB-C 版本的 O.MG 駭侵傳輸線，不只可以插在 Apple 的 Magic Keyboard 上竊取資訊，也可以單獨將其 USB-C 插頭插入各種支援 USB-C 界面的平板電腦或手機上。</p>]]></description><pubDate>Tue, 07 Sep 2021 09:29:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5062-c965c-1.html</guid></item><item><title><![CDATA[美國一離職員工侵入公司系統，刪除 21 GB 資料]]></title><link>http://www.twcert.org.tw/tw/cp-104-5059-1dba4-1.html</link><description><![CDATA[<p><strong>一名原任職於美國紐約信用合作社的離職員工，在遭該單位解僱後，侵入原任職單位的電腦系統，惡意刪除 21 GB 的重要資料。</strong><br />
 <br />
 一名原任職於美國紐約信用合作社（New York Credit Union）的離職員工 Juliana Barlie，在遭該單位解僱後，侵入原任職單位的電腦系統，惡意刪除 21 GB 的重要資料，目前已遭司法單位起訴。<br />
 <br />
@@ -228,14 +238,4 @@ Poly Network 提供的服務，是在不同的區塊鏈上轉換加密貨幣，�
 <br />
 FlyTrap 收集到這些資訊後，即會上傳到駭侵者設立的控制伺服器；Zimperium 的資安專家發現該控制伺服器的漏洞並入侵後，取得了該批駭侵者竊得的資料。分析該批資料後，發現感染 FlyTrap 惡意軟體的 Android 手機超過 10,000 台以上，分布遍及全球 144 國，受害的 Facebook 用戶有數千名之多。<br />
 <br />
-值得注意的是，包含 FlyTrap 惡意軟體的 Android App，其用戶介面設計十分精良，且在 Google Play Store 與多個第三方 Android 行動應用程式商店均有上架；雖然在 Zimperium 通報 Google 後，這些惡意軟體已自 Google Play Store 下架，但仍在其他第三方 Android 行動應用程式商店中保持上架狀態。</p>]]></description><pubDate>Wed, 11 Aug 2021 09:45:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5003-d6b79-1.html</guid></item><item><title><![CDATA[台灣資安專家發表 MS Exchange Server ProxyShell 漏洞報告後，有駭侵者開始進行惡意掃瞄]]></title><link>http://www.twcert.org.tw/tw/cp-104-4999-4d782-1.html</link><description><![CDATA[<p><strong>台灣資安廠商研究員在近期的一場學術會議上發表關於 Microsoft Exchange 的資安漏洞相關報告後，即有駭侵者開始利用這些漏洞進行掃瞄，意圖利用這些漏洞發動攻擊。</strong><br />
-<br />
-台灣資安廠商 DEVCORE 研究員蔡政達（Orange Tsai），在近期的一場學術會議 Black Hat talk 上發表關於 Microsoft Exchange 的資安漏洞相關報告後，即有駭侵者開始利用這些漏洞，針對網路上的 Microsoft Exchange Server 進行掃瞄，意圖利用這些漏洞發動攻擊。<br />
-<br />
-駭侵者掃瞄並欲加以利用的一組三個 MS Exchange Server 漏洞，被合稱為 ProxyShell 漏洞，分別是 CVE-2021-34474、CVE-2021-34523 與 CVE-2021-31207，這三個漏洞的組合，可讓駭侵者不需要經過登入驗證，即可在 Microsoft Exchange Server 上遠端執行任意程式碼。<br />
-<br />
-台灣資安廠商 DEVCORE 的首席研究員蔡政達，因為發現這三個漏洞而獲得今年四月 Pwn2Own 2021 駭侵測試的大獎，而這些漏洞也在今年四月到五月之間，由 Microsoft 官方發布的資安修補程式予以修復。<br />
-<br />
-在蔡政達於在 Black Hat talk 上發表研究成果，並解釋 ProxyShell 漏洞可以如何運作後，另有兩位資安研究專家發表了相關技術研究報告，指出如何實作該漏洞的攻擊後，就有另一位資安專家 Kevin Beaumont 發現有駭侵者試圖偵測他設立的 Microsoft Exchange Server 是否有該漏洞可入侵，在進一步追查後，發現有駭侵者開始大規模掃瞄網路上的 Microsoft Exchange Server，以利用 ProxyShell 漏洞發動攻擊。<br />
-<br />
-Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏洞發表更新，但據信整個 Internet 上還有 50% 的 Microsoft Exchange Server 尚未套用這些更新。</p>]]></description><pubDate>Tue, 10 Aug 2021 09:10:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4999-4d782-1.html</guid></item></channel></rss>
+值得注意的是，包含 FlyTrap 惡意軟體的 Android App，其用戶介面設計十分精良，且在 Google Play Store 與多個第三方 Android 行動應用程式商店均有上架；雖然在 Zimperium 通報 Google 後，這些惡意軟體已自 Google Play Store 下架，但仍在其他第三方 Android 行動應用程式商店中保持上架狀態。</p>]]></description><pubDate>Wed, 11 Aug 2021 09:45:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5003-d6b79-1.html</guid></item></channel></rss>
