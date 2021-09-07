@@ -12,7 +12,7 @@
 	<atom:link href="https://www.she.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.she.com</link>
 	<description>分享美容、時裝、潮流和感情資訊. 女性時尚潮流必讀</description>
-	<lastBuildDate>Tue, 07 Sep 2021 12:09:36 +0800</lastBuildDate>
+	<lastBuildDate>Tue, 07 Sep 2021 12:33:58 +0800</lastBuildDate>
 	<language>zh-TW</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -48,6 +48,10 @@
 <p>最後緊記要將頭頂髮絲拉鬆，營造出隨性感，整個髮型無需1分鐘就能完成，非常適合斯文氣質的造型。</p>
 <h3>即看詳細影片教學：</h3>
 <div class="block-yt"><iframe title="趕時間急救「髮寶」！5分鐘速成懶人髮型教學｜she critiques" width="500" height="375" src="https://www.youtube.com/embed/0MyCoraEHh0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p>Editor: Casey Yip<br />
+Videographer: Ivy Chow, Alex Kong、Keith Au<br />
+Video editor: Yung Wu<br />
+Venue: Stain+</p>
 </segment>
 </div><div>
             <p>更多相關文章：</p>
@@ -287,9 +291,9 @@
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 279/320 objects using memcached
+Object Caching 235/414 objects using memcached
 Page Caching using memcached 
-Database Caching 5/24 queries in 0.207 seconds using memcached
+Database Caching 11/71 queries in 0.570 seconds using memcached
 
-Served from: she.com, @ 2021-09-07 20:30:07 by W3 Total Cache
+Served from: she.com, @ 2021-09-07 20:34:02 by W3 Total Cache
 -->
