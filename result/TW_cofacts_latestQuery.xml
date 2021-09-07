@@ -4,7 +4,7 @@
         <title>Cofacts 回報訊息</title>
         <link>https://cofacts.tw/articles?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others</link>
         <description>Cofacts 使用者所回報的訊息</description>
-        <lastBuildDate>Tue, 07 Sep 2021 09:59:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Sep 2021 10:02:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://cofacts.tw/api/articles/atom1?json=XQAAAAI5AAAAAAAAAABBKYjGk5HEXfaX956NQ2q5wHcNK-WpFKRkPTE5ApSFDpgnphJPU2Hl74Xma9r4L2K6UwbJhT1pBzddHxk6P__9njAA&amp;source=Others" rel="self" type="application/rss+xml"/>
@@ -72,6 +72,23 @@
 
               <h2>出處</h2>
               https://zh.wikipedia.org/wiki/%E8%85%B3%E5%BA%95%E6%8C%89%E6%91%A9
+            ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[買便利店（大賣場）的飲料，一定要沖洗過才能喝的原因，現在知道了吧？]]></title>
+            <link>https://cofacts.tw/article/3hvgi842n1sa?utm_source=Others&amp;utm_medium=RSS</link>
+            <guid>https://cofacts.tw/article/3hvgi842n1sa?utm_source=Others&amp;utm_medium=RSS</guid>
+            <pubDate>Tue, 07 Sep 2021 09:10:06 GMT</pubDate>
+            <description><![CDATA[
+          <h2><a href="https://cofacts.tw/article/3hvgi842n1sa?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
+          買便利店（大賣場）的飲料，一定要沖洗過才能喝的原因，現在知道了吧？
+        
+              <h2><a href="https://cofacts.tw/reply/HvS1v3sBqH8xU4AwhbTl">最新回應</a></h2>
+              <p>不在查證範圍 by vanillam</p>
+              文字長度太短，亦欠缺連結，沒有指出要查證什麼。
+
+              
+              
             ]]></description>
         </item>
         <item>
@@ -341,36 +358,6 @@ https://disp.cc/b/163-e0dL
               <h2>出處</h2>
               台灣事實查核中心
 https://tfc-taiwan.org.tw/articles/4913
-            ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[一個沒有受過教育的父親和他的受過高等教育的兒子一起去露營. 他們合力把營帳架好之⋯⋯]]></title>
-            <link>https://cofacts.tw/article/ii2o8ia4uzay?utm_source=Others&amp;utm_medium=RSS</link>
-            <guid>https://cofacts.tw/article/ii2o8ia4uzay?utm_source=Others&amp;utm_medium=RSS</guid>
-            <pubDate>Mon, 06 Sep 2021 08:44:19 GMT</pubDate>
-            <description><![CDATA[
-          <h2><a href="https://cofacts.tw/article/ii2o8ia4uzay?utm_source=Others&utm_medium=RSS">使用者回報訊息</a></h2>
-          一個沒有受過教育的父親和他的受過高等教育的兒子一起去露營. 他們合力把營帳架好之後就睡覺了…
-幾個小時後，父親叫醒了兒子
-
-父親：張開眼睛往上看，你看到了什麼？
-
-兒子：我看到滿天星星.
-
-父親：那告訴了你什麼？
-
-兒子：從天文學上講，它告訴我們有數百萬個星系和行星.
-
-父親賞了兒子一個大巴掌說： 白痴！有人把我們的帳篷偷走了！
-
-結論：莫讓高等教育破壞了我們的一般常識！
-        
-              <h2><a href="https://cofacts.tw/reply/v_TOunsBqH8xU4AwBLD3">最新回應</a></h2>
-              <p>不在查證範圍 by Zzzz</p>
-              故事一則。
-
-              
-              
             ]]></description>
         </item>
     </channel>
