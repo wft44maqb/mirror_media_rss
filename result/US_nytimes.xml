@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Tue, 07 Sep 2021 12:13:18 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Sep 2021 16:15:39 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[漫威首位亞裔超級英雄：「尚氣」如何打破刻板印象]]></title>
+            <link><![CDATA[https://cn.nytimes.com/culture/20210907/shang-chi-marvel/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[這是漫威首部從主演到主創人員都有亞裔參與的大片。有別於原作中「傅滿洲」等種族主義形象，該片主創人員列出了一個「刻板印象」清單，力圖改變亞裔在好萊塢的形象。<p><img src='https://static01.nyt.com/images/2021/09/05/arts/05SHANG-CHI1/05SHANG-CHI1-articleLarge.jpg' alt='劉思慕在《上氣與十戒傳奇》中飾主角。 Jasin Boland/Marvel Studios'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jasin Boland/Marvel Studios</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>劉思慕在《上氣與十戒傳奇》中飾主角。</p>                    ]]></description>
+            <category>文化</category>
+            <dc:creator><![CDATA[ROBERT ITO]]></dc:creator>
+            <pubDate>Tue, 07 Sep 2021 01:33:06 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/culture/20210907/shang-chi-marvel/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[微博大批禁言K-pop明星粉絲團帳號]]></title>
             <link><![CDATA[https://cn.nytimes.com/china/20210907/china-bts-kpop-fans/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[PETER S. GOODMAN,KEITH BRADSHER]]></dc:creator>
             <pubDate>Wed, 01 Sep 2021 03:35:08 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210831/supply-chain-shortages/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[我曾與美國人一起工作，我以為我會得救]]></title>
-            <link><![CDATA[https://cn.nytimes.com/opinion/20210901/afghanistan-taliban-allies/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[最後一架飛機已起飛，撤離的希望已破滅。成千上萬像我這樣的阿富汗人處於更大的危險之中。我們知道，美國撤軍後，我們將沒有好日子。<p><img src='https://static01.nyt.com/images/2021/09/01/opinion/31Rasheed2/31Rasheed2-articleLarge.jpg' alt=' Jim Huylebroek for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Huylebroek for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
-            <category>觀點與評論</category>
-            <dc:creator><![CDATA[RASHEED]]></dc:creator>
-            <pubDate>Wed, 01 Sep 2021 03:33:04 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210901/afghanistan-taliban-allies/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>

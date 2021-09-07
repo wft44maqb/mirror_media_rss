@@ -9,11 +9,18 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Sep 2021 04:11:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Sep 2021 08:21:36 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
         <ttl>15</ttl>
+        <item>
+            <title><![CDATA[香港區議員宣誓本周五開始 未明言是否追討違誓者薪金]]></title>
+            <description><![CDATA[現屆區議會479名議員中已經有多人因為不同原因失去議員資格或請辭，因此只有剩下211名現任議員宣誓。林鄭月娥指區議員如果拒絶宣誓，就會喪失區議員資格。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58472896?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58472896</guid>
+            <pubDate>Tue, 07 Sep 2021 08:06:02 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[國民黨主席選舉開始 「九二共識」能否贏得台灣年輕人支持引發辯論]]></title>
             <description><![CDATA[台灣最大在野黨「中國國民黨」主席競選開跑，四位參選人髮言主軸仍是以兩岸論述為焦點，「九二共識」再次成為國民黨兩岸政策的主軸。]]></description>
@@ -36,11 +43,11 @@
             <pubDate>Mon, 06 Sep 2021 11:02:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[「911主謀」為何從FBI指尖溜走？]]></title>
-            <description><![CDATA[被控策劃20年前那場劫持客機撞入美國地標建築的人如今正被關押候審。但原本，他是否曾有可能在事發前多年便被阻止，從而這場悲劇也避免發生？]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58460852?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58460852</guid>
-            <pubDate>Mon, 06 Sep 2021 08:52:45 GMT</pubDate>
+            <title><![CDATA[兩名加拿大人被中國拘押1000天 康明凱和斯帕弗家人出席遊行籲中方放人]]></title>
+            <description><![CDATA[加拿大前外交官康明凱及商人斯帕弗被中國拘禁1000天，加拿大有組織在首都渥太華發起遊行，呼籲中國釋放兩人，遊行約有300人參與，期間手持「帶他們回家」的標語。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58463588?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58463588</guid>
+            <pubDate>Mon, 06 Sep 2021 10:04:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[北京冬奧凖備就緒，但2008年短暫的「奧運自由」難尋]]></title>
@@ -50,18 +57,11 @@
             <pubDate>Mon, 06 Sep 2021 08:55:16 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[親俄「噴子」被指大規模針對西方媒體網站企圖影響輿論]]></title>
-            <description><![CDATA[研究稱，一些噴子有組織地在西方媒體的網站留下親俄言論，然後俄羅斯媒體引述這些偽裝成英國人或美國人的留言，去支持西方自由民主終結等俄羅斯政府希望帶出的觀點。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58461928?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58461928</guid>
-            <pubDate>Mon, 06 Sep 2021 09:21:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[兩名加拿大人被中國拘押1000天 康明凱和斯帕弗家人出席遊行籲中方放人]]></title>
-            <description><![CDATA[加拿大前外交官康明凱及商人斯帕弗被中國拘禁1000天，加拿大有組織在首都渥太華發起遊行，呼籲中國釋放兩人，遊行約有300人參與，期間手持「帶他們回家」的標語。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58463588?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58463588</guid>
-            <pubDate>Mon, 06 Sep 2021 10:04:34 GMT</pubDate>
+            <title><![CDATA[金日成：韓國教授回憶與朝鮮第一任領導人共進早餐]]></title>
+            <description><![CDATA[金氏家族統治朝鮮已經將近70年，但最初的 「偉大領袖」 如何開啟他的政治道路？朝鮮將在 9 月 9 日慶祝建國日， 102 歲的Kim Hyung-suk（金亨碩）教授講述了他和這位 「開國元勳」 的故事。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58471918?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58471918</guid>
+            <pubDate>Tue, 07 Sep 2021 06:07:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[氣候變化：極地變暖與冬天越來越冷之間的關聯]]></title>
@@ -78,18 +78,18 @@
             <pubDate>Mon, 06 Sep 2021 01:33:35 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[「911主謀」為何從FBI指尖溜走？]]></title>
+            <description><![CDATA[被控策劃20年前那場劫持客機撞入美國地標建築的人如今正被關押候審。但原本，他是否曾有可能在事發前多年便被阻止，從而這場悲劇也避免發生？]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58460852?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58460852</guid>
+            <pubDate>Mon, 06 Sep 2021 08:52:45 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[中國打擊「996」能否解決年輕人的「躺平」焦慮]]></title>
             <description><![CDATA[中國最高法和人社部明確將「996」加班文化認定為違法行為，這種工作制未來會在中國消失嗎？]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58419492?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58419492</guid>
             <pubDate>Fri, 03 Sep 2021 01:55:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[東京殘奧會閉幕 因新冠疫情載入史冊的運動盛會]]></title>
-            <description><![CDATA[國際殘奧委會主席帕森斯說：「考慮到新冠疫情，我相信沒有其他國家能夠像日本這樣舉辦大型賽事。世界絶不會忘記日本所發揮的作用。」]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/world-58456006?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58456006</guid>
-            <pubDate>Sun, 05 Sep 2021 15:42:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[習近平宣佈設立北京證券交易所 時隔30年中國誕下證交所「三胎」]]></title>
@@ -134,13 +134,6 @@
             <pubDate>Fri, 03 Sep 2021 02:07:20 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[高曉松：中國再有娛樂文化名人遭封殺，官方機構長文批評「歷史虛無主義」]]></title>
-            <description><![CDATA[繼趙薇後，另一名與馬雲關係密切的名人高曉松，也遭到封殺。中國歷史研究院發佈長文，羅列高曉松在節目中的多番與官方立場對立的問題言論。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/chinese-news-58396606?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58396606</guid>
-            <pubDate>Wed, 01 Sep 2021 01:38:48 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[中國當局禁止「娘炮」上電視 有學者指「是對民眾生活的不斷蠶食」]]></title>
             <description><![CDATA[中國國家廣電總局表示，為了抵制低俗和庸俗作品的生產，將嚴厲打擊娛樂節目中的「娘炮」審美和「低俗網紅」。]]></description>
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58432243?at_medium=RSS&amp;at_campaign=KARANGA</link>
@@ -153,13 +146,6 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58382752?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58382752</guid>
             <pubDate>Fri, 03 Sep 2021 02:13:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[東京殘奧會：獎牌榜上哪個國家或地區領先？]]></title>
-            <description><![CDATA[BBC中文為你整理數據，找出哪支代表隊的獎牌數量最多。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/sports-58302033?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/sports-58302033</guid>
-            <pubDate>Mon, 23 Aug 2021 03:58:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[新冠疫情：世界各地和你所在地方疫苗接種進展程度]]></title>
@@ -202,6 +188,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58443749?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58443749</guid>
             <pubDate>Fri, 03 Sep 2021 21:08:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[親俄「噴子」被指大規模針對西方媒體網站企圖影響輿論]]></title>
+            <description><![CDATA[研究稱，一些噴子有組織地在西方媒體的網站留下親俄言論，然後俄羅斯媒體引述這些偽裝成英國人或美國人的留言，去支持西方自由民主終結等俄羅斯政府希望帶出的觀點。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58461928?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58461928</guid>
+            <pubDate>Mon, 06 Sep 2021 09:21:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[阿富汗局勢：塔利班驅散喀布爾女性示威 潘傑希爾山谷衝突仍在繼續]]></title>

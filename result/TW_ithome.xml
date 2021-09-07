@@ -6,6 +6,83 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>臉書開源快取引擎CacheLib，連結產業推動快取創新</title>
+ <link>https://www.ithome.com.tw/news/146576</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;臉書對外開源內部已經大量使用的快取引擎&lt;a href=&quot;https://engineering.fb.com/2021/09/02/open-source/cachelib/&quot;&gt;CacheLib&lt;/a&gt;，CacheLib是一個可插拔的程序內快取引擎，可用來建構和擴展高效能服務。臉書目前有70個大型系統，都已經使用CacheLib作為程序內快取，包括社交圖（Social Graph）、內容交付網路、儲存和後備鍵值快取等。除此之外，臉書還開源了基準測試工具CacheBench，供使用者評估不同生產工作負載的快取效能。&lt;/p&gt;
+&lt;p&gt;快取在存取資訊上扮演重要的角色，像是當電子郵件載入時，便需要快取訊息，當用戶在刷新頁面的時候，應用程式便無需重新存取相同的資料。但是臉書提到，大規模的快取，到目前為止仍是一個複雜的工程挑戰。企業必須平衡用戶期望從快取獲得的體驗，以及系統的高效能和成本效益。&lt;/p&gt;
+&lt;p&gt;臉書指出，過去每個快取實作都由不同的功能團隊獨立創建和維護，這種效率不高的原因，是因為忽略了不同快取系統，從部署到維護皆存在相同挑戰。再加上傳統的DRAM快取不只昂貴，擴展也需要更多的電力，因此臉書便開始探索另外的選擇，使用NVM驅動器來強化快取系統。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/CacheLib_chart-copy.jpg&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;雖然DRAM和NVM混合模型存在快取發展潛力，但是要能完全發揮混合模型快取的優勢，需要有新的快取設計，這包括新的啟發式快取研究，能夠透過辨識相關內容，在正確的時間中快取，來突破傳統系統的界線，而臉書現在要藉由開源和產業合作，來推進快取的發展。&lt;/p&gt;
+&lt;p&gt;臉書開發並開源程序內快取引擎CacheLib，CacheLib提供C++函式庫，讓開發人員能夠利用簡單的API，建構並且自定義可擴展的並行快取，同時提供CacheBench，使其成為評估各種快取應用程式的有效基準工具。&lt;/p&gt;
+&lt;p&gt;臉書表示，CacheLib和CacheBench作為開源平臺，有望成為快取創新和基準測試的產業標準。目前臉書開始與研究型大學、硬體製造商和軟體公司合作，推動快取創新。臉書正與推特合作，將CacheLib整合到快取框架Pelikan中，使推特在基礎設施中能以SSD來快取物件，而Pinterest也計畫在機器學習基礎設施中，採用CacheLib來提高預測效能和系統穩定度。不只如此，臉書也和英特爾、Kioxia、三星與WD等硬體製造商合作，共同標準化和強化SSD技術，以改進快取解決方案。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 07:21:38 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146576 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146576#comments</comments>
+</item>
+<item>
+ <title>隱私郵件服務ProtonMail將用戶IP交給警方掀風波</title>
+ <link>https://www.ithome.com.tw/news/146577</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;標榜端對端加密的電子郵件服務供應商ProtonMail，最近成為被使用者砲轟的目標，因為法國警方取得了ProtonMail所提供的用戶IP，並因此逮捕了一些氣候活動家。&lt;a href=&quot;https://protonmail.com/blog/climate-activist-arrest/&quot; target=&quot;_blank&quot;&gt;總部位於瑞士的ProtonMail出面澄清&lt;/a&gt;，該公司遵循的是瑞士警方發出的法院搜索票，而非法國。&lt;/p&gt;
+&lt;p&gt;這些氣候活動家是法國一個反資本主義組織的成員，該組織在法國持續對抗當地的高檔消費、房地產投機與高級餐廳，已成為法國警方眼中的亂源，由於他們經常使用ProtonMail進行聯繫，使得法國警方透過歐洲刑警組織（Europol）與瑞士警方交涉，由瑞士警方取得法院的搜索票，要求ProtonMail交出特定用戶的IP。&lt;/p&gt;
+&lt;p&gt;當一個標榜隱私的電子郵件服務供應商將使用者的IP位址交給警方之後，ProtonMail用戶開始感到慌亂及隱私不保。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://protonmail.com/blog/climate-activist-arrest/&quot; target=&quot;_blank&quot;&gt;ProtonMail創辦人Andy Yen很快就在官網上說明了此事&lt;/a&gt;，指出ProtonMail並不會把資料交給外國政府，只遵循來自瑞士的合法命令，即使如此也無法繞過該公司的加密機制，這代表不管是電子郵件、附件、行事曆或檔案等資料，都不會受到法院命令的影響。&lt;/p&gt;
+&lt;p&gt;Yen強調，ProtonMail持續協助使用者保護他們的隱私，例如在2020年收到來自政府的資料調閱請求中，就針對逾700起提出抗爭，但有些時候的特殊請求在法律上毫無反對的可能性。而依照瑞士的法令，若ProtonMail交出了用戶的資料，也必須通知用戶。&lt;/p&gt;
+&lt;p&gt;Yen說，他們並不知道用戶的身分，因此也不會知道所交出的IP屬於氣候活動家所有，唯一知道的是瑞士政府透過通常用來調查嚴重犯罪的管道，向ProtonMail提出資料的請求。&lt;/p&gt;
+&lt;p&gt;此外，ProtonMail除了提供電子郵件服務之外，也提供了ProtonVPN服務，瑞士法令針對這兩項服務的規定是不同的，無法強迫VPN服務紀錄使用者的資料，而ProtonMail電子郵件用戶亦可使用該公司於2017年所設立的洋蔥網站，以避免IP被追蹤。&lt;/p&gt;
+&lt;p&gt;Yen表示，該公司必須遵守瑞士的法令，就算相關法令不完美，但也提供了制衡的作用，事實上，此次的事件結合了兩個政府（法國與瑞士）與3個機構（法國警方、歐洲刑警組織及瑞士警方），已稱得上是預防濫用司法系統的一個高標準。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 07:11:16 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146577 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146577#comments</comments>
+</item>
+<item>
+ <title>藍牙耳機可能讓使用者被人追蹤</title>
+ <link>https://www.ithome.com.tw/news/146575</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;藍牙耳機很潮、很夯，但是&lt;a href=&quot;https://www.hegnes.tech/2021/09/01/location-tracking-of-wifi-access-point-and-bluetooth-devices/&quot; target=&quot;_blank&quot;&gt;一項研究顯示&lt;/a&gt;，藍牙耳機一項技術問題，可能被有心人士用來跟蹤使用者。而且不用很高明的技巧。&lt;/p&gt;
+&lt;p&gt;挪威Noroff大學一年級學生Bjorn Hegnes，在其一項以網路資安為主題的期末報告中發現這個問題。他運用一臺可攜式網路監聽設備，以12天時間騎單車在奧斯陸約300公里路徑中穿梭12天，蒐集了500萬個Wi-Fi AP（Access Point）及藍牙設備，包括藍牙耳機、智慧型腕帶、電視或汽車的MAC位址，即可以視覺化軟體顯示及分析這些裝置的行經路徑。&lt;/p&gt;
+&lt;p&gt;其中，他蒐集到129款藍牙耳機，包含數個知名品牌，如Beoplay、Bose、Jabra等。他發現，由於藍牙耳機未實作MAC隨機化（MAC randomization），因此Hegnes認為甚至比手機都更容易用來追蹤使用者。相反地，研究中反而蒐集到很少的智慧型手機MAC位址訊號，推論可能是因為用戶使用了SSID、MAC 隨機化來隱藏的結果。&lt;/p&gt;
+&lt;p&gt;這名大學生表示，在研究後他自己也棄藍牙，改用有線耳機。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.theregister.com/2021/09/04/bluetooth_headphones_tracking_oslo/&quot; target=&quot;_blank&quot;&gt;The Register&lt;/a&gt;表示，現代裝置多半都已具備MAC位址隨機化的設計，以確保用戶隱私。&lt;/p&gt;
+&lt;p&gt;這名大學生的研究另一個發現是，奧斯陸市區仍有為數不少用戶家中或企業環境的Wi-Fi AP不安全。其中未加密者近6%，總計未加計或僅用弱加密，像是WEP、WPA比例超過13%。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 06:28:57 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146575 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146575#comments</comments>
+</item>
+<item>
+ <title>程式碼執行漏洞促使Google Tensorflow中止支援YAML</title>
+ <link>https://www.ithome.com.tw/news/146574</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google TensorFlow框架近日傳出受重大風險程式碼執行漏洞影響安全性，&lt;a href=&quot;https://github.com/advisories/GHSA-r6jx-9g48-2r5r&quot; target=&quot;_blank&quot;&gt;為此Google宣布將不再支援YAML格式&lt;/a&gt;，建議開發人員改成其他格式。&lt;/p&gt;
+&lt;p&gt;TensorFlow是一個Google發展並開源出來的機器學習框架，可支援深度學習的各種演算法。&lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2021-37678&quot; target=&quot;_blank&quot;&gt;新發現的漏洞編號CVE-2021-37678&lt;/a&gt;，是8月間&lt;a href=&quot;https://twitter.com/0xsegf/status/1429427152454180870&quot; target=&quot;_blank&quot;&gt;研究人員Arjun Shibu揭露並通報&lt;/a&gt;。它出在TensorFlow使用的Keras開源碼函式庫的Keras Model Handler元件，對序列化輸入資料的驗證不足，導致從YAML格式Keras模型反序列化（deserialization）的過程中觸發權限升級，使Tensorflow和Kera在目標系統上執行任意程式碼。&lt;/p&gt;
+&lt;p&gt;本漏洞影響TensorFlow 2.3.3、2.4.2與2.5.0，風險值達9.3。&lt;a href=&quot;https://github.com/advisories/GHSA-r6jx-9g48-2r5r&quot; target=&quot;_blank&quot;&gt;Google指出&lt;/a&gt;，由於支援YAML格式需要大量作業，因此決定移除。&lt;a href=&quot;https://github.com/tensorflow/tensorflow/commit/23d6383eb6c14084a8fc3bdf164043b974818012&quot; target=&quot;_blank&quot;&gt;Google建議開發人員以JSON取代YAML序列化，或改成H5格式 &lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Google已釋出更新版本TensorFlow 2.6.0，也會在TensorFlow 2.5.1、2.4.3和  2.3.4版標明，因為這些版本仍受影響。Keras則從0.1.0到2.6.0版皆受影響，&lt;a href=&quot;https://github.com/keras-team/keras/releases&quot; target=&quot;_blank&quot;&gt;Keras已於8月初釋出&lt;/a&gt;2.6.0 RC3更新版軟體。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 04:36:27 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146574 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146574#comments</comments>
+</item>
+<item>
+ <title>印尼防疫網站未做好資料庫防護，導致百萬民眾資料外洩</title>
+ <link>https://www.ithome.com.tw/news/146573</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;安全人員發現印尼防疫管理網站未做好防護，讓印尼超過百萬人的COVID-19測試、醫療資料、個資等資訊全部曝露於網上，可能也包括總統佐科威（Joko Widodo）。&lt;/p&gt;
+&lt;p&gt;安全廠商vpnMentor研究人員Noam Rotem及Ran Locar在印尼官方的eHAC（eHealth Alert Card）防疫管理App及網站，發現這樁重大資料外洩。eHAC是印尼政府開發的COVID-19接觸追蹤App，今年才開發完成，要求所有入、出境的旅客，以及國內民眾安裝使用。&lt;/p&gt;
+&lt;p&gt;研究人員指出，他們利用很簡單的技巧，在網路上大規模搜尋未妥善防護的資料庫，很快找到了eHAC使用的Elasticsearch資料庫。他們透過瀏覽器存取，再於URL搜尋條件上下點工夫，即曝露出任何時間點的索引schemata。&lt;/p&gt;
+&lt;p&gt;經過分析，這個2GB的資料庫屬於印尼衛生部，內含140多萬筆資料，分別屬於近130萬人。曝光的資料包括個人可辨識身份資訊（PII）、旅行資訊、醫療紀錄、COVID-19檢測資訊。部份資訊還包含國籍。此外還有eHAC相關的226家醫院、醫師，以及使用該App的印尼官員資訊。&lt;/p&gt;
+&lt;p&gt;vpnMentor是在7月中發現曝光的資料庫，並於7月下旬分別通知印尼衛生部、當地CERT及代管資料庫的Google。一個月後他們才得到印尼政府回應，後者也終於為資料庫加上了防護。&lt;a href=&quot;https://www.reuters.com/technology/indonesia-probes-suspected-data-breach-covid-19-app-2021-08-31/&quot; target=&quot;_blank&quot;&gt;上周印尼政府表示將調查此事&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;雖然研究人員沒有透露任何人員有外洩資訊，但&lt;a href=&quot;https://www.reuters.com/world/asia-pacific/privacy-alarm-indonesia-over-presidents-leaked-vaccine-certificate-2021-09-03/&quot; target=&quot;_blank&quot;&gt;路透社報導&lt;/a&gt;在130萬公民用戶資料外洩事件後，也傳出總統佐科威的疫苗注射護照資料曝光。&lt;/p&gt;
+&lt;p&gt;這是印尼衛生部第二度重大資料外洩。&lt;a href=&quot;https://www.theregister.com/2021/05/24/indonesia_health_data_breach/&quot; target=&quot;_blank&quot;&gt;今年5月&lt;/a&gt;印尼超過100萬健保資料被人放到地下論壇上兜售，不過該國政府表示只有10萬筆資料。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 04:28:34 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146573 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146573#comments</comments>
+</item>
+<item>
  <title>VS Code Python擴充套件翻新測試介面，將棄用舊語言伺服器</title>
  <link>https://www.ithome.com.tw/news/146564</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟發布&lt;a href=&quot;https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2021-release/&quot;&gt;9月適用VS Code的Python擴充套件&lt;/a&gt;新版本，這個版本加入讓開發者方便編輯和測試程式碼功能，同時，官方也宣布終止Python語言伺服器和Python 2.7 IntelliSense的支援。&lt;/p&gt;
@@ -93,109 +170,6 @@
  <dc:creator>周峻佑</dc:creator>
  <guid isPermaLink="false">146560 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146560#comments</comments>
-</item>
-<item>
- <title>蘋果延遲裝置兒童性剝削內容審查功能，EFF呼籲應完全放棄監控計畫</title>
- <link>https://www.ithome.com.tw/news/146557</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;蘋果公司&lt;a href=&quot;https://www.apple.com/child-safety/&quot;&gt;宣布&lt;/a&gt;要暫緩推出備受爭議的兒童安全功能，但是&lt;a href=&quot;https://www.eff.org/deeplinks/2021/09/delays-arent-good-enough-apple-must-abandon-its-surveillance-plans&quot;&gt;電子前線基金會（Electronic Frontier Foundation，EFF）對於這項決定並不滿意&lt;/a&gt;，他們認為蘋果應該完全放棄在用戶手機上掃描兒童內容，才是真正保證用戶隱私，並且遵守原本的全程加密政策。&lt;/p&gt;
-&lt;p&gt;8月蘋果釋出要審查用戶手機內容的消息，計畫在裝置上偵測兒童性剝削內容（Child Sexual Abuse Material，CSAM），這代表該公司將在裝置，包括iOS、iPadOS與macOS上，主動偵測用戶搜尋和散布兒童色情內容的行為。&lt;/p&gt;
-&lt;p&gt;除了家長會在兒童帳戶從訊息應用程式，讀取兒童色情內容時收到通知外，iOS與iPadOS還會主動偵測使用者儲存於iCloud上的兒童色情內容，而蘋果公司會在發現並經人工確認後向執法單位告發。同時，該公司也更新Siri和搜尋功能，在用戶查詢兒童性剝削內容時，提供相關的幫助資源。&lt;/p&gt;
-&lt;p&gt;蘋果公司解釋，藉由運用裝置上機器學習功能，能夠在保護用戶隱私的前提下，打擊兒童性剝削。除了避免兒童受到剝削的侵害，也能限制兒童性剝削材料的傳播。原本蘋果計畫這項針對兒童色情內容的新政策，要隨著iOS 15、iPadOS 15與macOS Monterey在今年上線，並先對美國用戶部署，但是這項新政策卻招來大量公民團體抗議。&lt;/p&gt;
-&lt;p&gt;雖然打擊兒童性剝削內容是社會共識，但是不少團體認為蘋果跨越保護用戶隱私的界線，EFF就認為這項作法，是在該公司的資料儲存和訊息傳輸系統開了後門，往後便會受到政府壓力，向用戶篩選更多內容，並且檢舉用戶的要求。不只是EFF，還有超過5,500位隱私和密碼研究人員連署反對蘋果為打擊兒童色情，而開啟內容掃描的後門。&lt;/p&gt;
-&lt;p&gt;面對這些批評與質疑，蘋果公司重申他們所使用的技術，能夠完全保護使用者的隱私，而且也承諾會拒絕任何政府，在這個兒童性剝削審查系統中，要求進行額外的內容審查。不過，顯然各方對於蘋果公司這個回應仍不滿意，批評輿論持續發酵，逼迫蘋果公司在9月3日更新兒童保護政策的實施，決定在接下來數個月的時間，收集更多意見並且進行改進，屆時再重新發布這些功能。&lt;/p&gt;
-&lt;p&gt;雖然蘋果公司暫緩兒童性剝削內容監控計畫執行，但是EFF仍然認為，蘋果公司唯有完全放棄這個後門，才能向用戶保證服務的隱私與安全。EFF顧慮這項政策實際上創建一個審查基礎設施，使得將來更容易執行更嚴格的監控審查，而且可能使得LGBTQ青年，甚至是虐待家庭中的兒童，暴露在更嚴重的潛在危險中。&lt;/p&gt;
-&lt;p&gt;因此EFF向蘋果公司喊話，應放棄完全監控計畫，同時也再次向該公司提交放棄該計畫的25,000人連署書，而這是在Fight for the Future和OpenMedia等超過50,000個簽名連署書之後，公民團體對蘋果公司的再次呼籲，要求信守保護用戶隱私的承諾。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 06 Sep 2021 08:13:10 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146557 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146557#comments</comments>
-</item>
-<item>
- <title>德州反墮胎法生效，GoDaddy出手關閉告密網站</title>
- <link>https://www.ithome.com.tw/news/146559</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;德州的反墮胎法《德州心跳法案》（Texas Heartbeat Act）在9月1日正式生效了，推崇生命權的Texas Right to Life也開始鼓勵外界透過ProLifeWhistleblower.com網站來提供墮胎者的訊息，不過，網域名稱註冊商暨代管服務業者GoDaddy以該站違反服務條款為由，在9月3日關閉了ProLifeWhistleblower.com。&lt;/p&gt;
-&lt;p&gt;《德州心跳法案》是美國第一個規定懷孕6周以後就禁止墮胎的法案，且允許民眾控告提供墮胎服務的對象，告密且勝訴的人最少可得到1萬美元的獎金。&lt;/p&gt;
-&lt;p&gt;雖然反墮胎法與網路世界似乎沒有直接的關聯，然而，捍衛網路人權的電子前線基金會（EFF）卻認為，它將會對網路言論帶來毀滅性的影響，而GoDaddy則以違反使用條款為由，關閉了鼓勵人們告發墮胎者的ProLifeWhistleblower.com。&lt;/p&gt;
-&lt;p&gt;其中，EFF指出，此一法案創造了一批賞金獵人，獵人們將會利用法庭來懲罰那些在網路上因墮胎言論而激怒他們的人，或者是讓這些人禁言。&lt;/p&gt;
-&lt;p&gt;當《德州心跳法案》在今年5月成為正式法令之後，Texas Right to Life便於7月建置了ProLifeWhistleblower.com，讓民眾能夠檢舉並控訴違反該法令的人士，相關的訴訟案並非針對尋求墮胎的婦女，而是鎖定那些教唆或提供幫助的對象。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/GoDaddy/status/1433819084068622345&quot; target=&quot;_blank&quot;&gt;GoDaddy則在9月2日通知&lt;/a&gt;Texas Right to Life，指出ProLifeWhistleblower.com違反了該公司的服務條款，要求該站遷移到其它平臺，同時會在24小時之後關閉該站的服務。&lt;/p&gt;
-&lt;p&gt;GoDaddy並未明確指出該站所侵犯的條款內容，但&lt;a href=&quot;https://gizmodo.com/here-s-how-you-can-help-shut-down-the-vile-website-for-1847557293?rev=1630527814480&quot; target=&quot;_blank&quot;&gt;Gizmodo猜測&lt;/a&gt;，ProLifeWhistleblower.com違反的是隱私條款，因為GoDaddy禁止任何人在未經他人同意下，公布非公開的個人或實體資訊。&lt;/p&gt;
-&lt;p&gt;至於&lt;a href=&quot;https://texasrighttolife.com/godaddy-cancels-texas-right-to-life-website-prolifewhistleblower/&quot; target=&quot;_blank&quot;&gt;Texas Right to Life則抨擊&lt;/a&gt;，那些支持墮胎的組織花了超過一周的時間想要以流量來摧毀ProLifeWhistleblower.com，在失敗之後，他們轉而騷擾GoDaddy並迫使GoDaddy關閉該網站。&lt;/p&gt;
-&lt;p&gt;ProLifeWhistleblower.com已於9月3日被關閉，現在鍵入該站網址會直接連至Texas Right to Life。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 06 Sep 2021 07:32:09 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146559 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146559#comments</comments>
-</item>
-<item>
- <title>【疫情日報】9月7日至9月20日維持疫情警戒二級、第八輪9月10日開始預約</title>
- <link>https://www.ithome.com.tw/news/146558</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;中央流行疫情指揮中心今（6日）宣布，自9月7日至9月20日兩周仍維持全國二級警戒，警戒措施未有太大變化。同時，指揮中心和教育部也說明疫苗接種注意事項，包括第八期疫苗預約鎖定AZ第二劑群眾和18至22歲民眾、啟動學生登記BNT接種事宜。&lt;/p&gt;
-&lt;p&gt;今日新增9例本土案例、7例境外移入，指揮官陳時中表示，未來兩周仍維持二級警戒，警戒通則大多維持現狀，如外出需全程配戴口罩、集會活動人數上限為室內80人、室外300人，以及營業場所和公共場域的室內空間至少1.5米/人（2.25平方米/人）、室外空間至少1米/人（1平方米/人）。&lt;/p&gt;
-&lt;p&gt;但交通和旅行通則則有條件放寬，比如臺鐵對號列車開放全車座位售票、不售站票，高鐵開放全車座位數售票、維持全車對號座。在國家風景區及觀光遊樂業方面，則將容留量上限提升至8成，遊覽車乘車人數則以核定座位數8成為上限，必須全程戴口罩、禁止飲食。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0906-11%E7%B6%AD%E6%8C%81%E7%96%AB%E6%83%85%E8%AD%A6%E6%88%92%E6%A8%99%E6%BA%96%E7%82%BA%E7%AC%AC%E4%BA%8C%E7%B4%9A.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;今日，指揮中心也公布，COVID-19公費疫苗預約平臺第八期預約將提供AZ疫苗，並開放兩類民眾預約，包括9月10日前符合AZ第二劑接種間隔（滿10周）的民眾，可預約接種第二劑，以及7月19日前登記選擇AZ且滿18歲至22歲的民眾，可預約接種第一劑。&lt;/p&gt;
-&lt;p&gt;第八輪預約時間自9月10日早上10點至12日晚上12點止，施打時間則是9月15日至9月23日。&lt;/p&gt;
-&lt;p&gt;與此同時，教育部也公布學生BNT疫苗接種事宜，接種對象包括國高中、五專前三年，以及9月1日前滿12歲的國小學生。在流程上，學生得先取得疫苗接種意願書、經家長同意後，再由學校造冊、於9月23日起開始施打。&lt;/p&gt;
-&lt;p&gt;另一方面，特殊條件學生也可至COVID-19公費疫苗預約平臺登記意願、預約接種。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/S__80945249.jpg&quot; /&gt;&lt;/p&gt;
-&lt;div id=&quot;gtx-trans&quot; style=&quot;position: absolute; left: 981px; top: 58px;&quot;&gt;
-&lt;div class=&quot;gtx-trans-icon&quot;&gt; &lt;/div&gt;
-&lt;/div&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 06 Sep 2021 07:02:19 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146558 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146558#comments</comments>
-</item>
-<item>
- <title>美國督促各大組織修補正被大量開採的Atlassian Confluence漏洞</title>
- <link>https://www.ithome.com.tw/news/146555</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://twitter.com/CNMF_CyberAlert/status/1433787671785185283&quot; target=&quot;_blank&quot;&gt;美國網戰司令部（US Cyber Command）9月3日警告&lt;/a&gt;，駭客正在大規模開採Atlassian Confluence的CVE-2021-26084安全漏洞，呼籲使用組織應儘速修補&lt;/p&gt;
-&lt;p&gt;Atlassian為一澳洲軟體業者，所打造的Confluence是個基於網頁的團隊協作平臺，Confluence被定位為企業軟體，提供就地部署版本，以及奠基於AWS的軟體即服務版本。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://confluence.atlassian.com/doc/confluence-security-advisory-2021-08-25-1077906215.html&quot; target=&quot;_blank&quot;&gt;Atlassian甫於今年8月25日修補了CVE-2021-26084漏洞&lt;/a&gt;，它是個Confluence Server Webwork的OGNL注射漏洞，將允許未經授權的駭客於Confluence伺服器或資料中心實例上執行任意程式，而且不管採用何種配置都可能被入侵，波及所有的Confluence Server與Data Center版本，被列為重大（Critical）等級的安全漏洞。&lt;/p&gt;
-&lt;p&gt;然而，越南資安研究人員&lt;a href=&quot;https://twitter.com/haxor31337/status/1432731786719551489&quot; target=&quot;_blank&quot;&gt;Tuan Anh Nguyen在8月31日警告&lt;/a&gt;，他已經看到針對該漏洞的大量掃描行動，隔天就有其他的研究人員&lt;a href=&quot;https://github.com/httpvoid/writeups/blob/main/Confluence-RCE.md&quot; target=&quot;_blank&quot;&gt;張貼了CVE-2021-26084漏洞的詳細分析與概念性驗證程式&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;由於相關的概念性驗證程式非常容易使用，將允許駭客向目標伺服器執行任何命令，包括下載其它惡意軟體。&lt;/p&gt;
-&lt;p&gt;這使得美國網戰司令部與Atlassian在9月3日雙雙提出警告，呼籲用戶儘速更新。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;https://confluence.atlassian.com/doc/confluence-security-advisory-2021-08-25-1077906215.html&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0906-Atlassian%20Confluence%20vulnerability-600.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://censys.io/blog/cve-2021-26084-confluenza/?utm_campaign=Rapid%20Response&amp;amp;utm_content=178541966&amp;amp;utm_medium=social&amp;amp;utm_source=twitter&amp;amp;hss_channel=tw-3566263693&quot; target=&quot;_blank&quot;&gt;根據CenSys的偵測&lt;/a&gt;，該公司在8月31日找到13,596個含有漏洞的Confluence實例，9月2日減少到11,689個，9月4日再度降至8,597個。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 06 Sep 2021 06:35:14 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146555 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146555#comments</comments>
-</item>
-<item>
- <title>從賣筆電到研發個人化疫苗，施振榮揭露智慧醫療戰略布局提出2大建議</title>
- <link>https://www.ithome.com.tw/news/146546</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;宏碁集團創辦人暨榮譽董事長施振榮5日在臺灣智慧醫療高峰會上指出，智慧醫療是臺灣最有可能拿下世界第一的產業，因此在智慧醫療戰略佈局上，他呼籲政府要用政策助攻，如衛福部以發展管制並重、食藥署TFDA認證智慧醫材得注重時效性、或健保給付要納入TFDA核准醫材等。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;瞄準最有可能拿下世界第一的醫療AI，用新微笑曲線談商業模式&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在施振榮眼中，醫療AI是臺灣最有潛力拿下世界第一的產業。企業若要踏進這個產業，就得思考商業模式。繼1992年提出著名的微笑曲線模式後，施振榮近年再提出一個多維的「新微笑曲線」模式。&lt;/p&gt;
-&lt;p&gt;這個新微笑曲線模式以用戶體驗為最終目標、以現有或有限資源共享為始，強調體驗經濟和共享經濟，並要有能力翻轉思維、機制和行為。&lt;/p&gt;
-&lt;p&gt;他以醫療AI為例，醫療AI的微笑曲線是資訊通產業和醫療產業，兩者跨領域整合後產生的曲線，以共享和體驗來創造附加價值，而共享需要資通訊產業以IT輔助、體驗需要醫療專業知識加強，他期望兩者共同整合，讓臺灣智慧醫療能取得世界領先地位。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/cover%20shi%20copy.png&quot; /&gt;&lt;br /&gt;&lt;span style=&quot;color:#696969;&quot;&gt;（圖片來源：施振榮）&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;宏碁攻智慧醫療，成立醫療AI子公司要做個人化癌症疫苗&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;於是，在新微笑曲線的思維下，宏碁集團在2018年成立醫療AI子公司宏碁智醫，來進攻智慧醫療產業。施振榮將宏碁智醫定位為AI、大數據公司，而非以生醫、醫療起家，「我們是要透過雙方合作，來發揮我們的ICT專長，」他說。&lt;/p&gt;
-&lt;p&gt;宏碁智醫成立3年來也累積不少成果，比如研發一款通過臺灣TFDA認證的AI輔助診斷工具VeriSee DR，可直接辨識眼底鏡影像，屬於糖尿病引發的視網膜病變風險程度。施振榮強調，這個工具與Google視網膜病變辨識AI的最大不同之處，可在筆電上即可執行，且準確率達93%。該工具也已於泰國、印尼通過國家認證，接下來，宏碁瞄準越南、馬來西亞和菲律賓，要將產品引進缺乏眼科專科醫師的國家。&lt;/p&gt;
-&lt;p&gt;施振榮也有感而發指出，AI發展有三階段，包括模型開發、產品開發與取證、產品落地，臺灣醫療AI目前還是多聚焦於模型開發。但「體驗經濟落地也很重要，」他提倡以內需帶動外銷，也就是將內需化為產品國際化的墊腳石，先以國內市場驗證產品規格，累積落地和認證經驗後，就能進攻龐大的海外市場。&lt;/p&gt;
-&lt;p&gt;另一方面，他也透露，宏碁智醫正在鑽研疫苗研發，特別鎖定抗原預測、mRNA疫苗以及免疫反應三領域。他們的發展策略是，以自身的IT優勢，來打造這三大領域所需的平臺，如AI抗原預測平臺、mRNA疫苗平臺、免疫反應監測平臺，同時尋找生醫、醫療界的合作夥伴，來提供平臺分析所需的資料，比如基因序列分析、疫苗生產製造資料等。宏碁的最終目標，是要針對國人人種和疾病基因標記，研發個人化癌症疫苗，提供最佳化的治療方針。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Screen%20Shot%202021-09-05%20at%2011_28_25%20PM.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;如何佈局智慧醫療？政府要政策助攻、企業則要B2B和B2C並重&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;談到智慧醫療戰略佈局，施振榮提出兩大建議：政府要用政策助攻、企業則要B2B和B2C並重。&lt;/p&gt;
-&lt;p&gt;在政府政策部分，他建議，衛福部應當以管制、發展並重。這是因為，臺灣目前只有經濟部以產業發展為主，其他部會仍以管制為主，但未來將蓬勃發展的領域，都與這些以管制為主的部會息息相關。因此施振榮期望，衛福部能開始培養管制、發展並重的思維。&lt;/p&gt;
-&lt;p&gt;再來，為了讓臺灣有能力與國際競爭，他也建議，負責核准智慧醫材上市的食藥署TFDA認證得注重時效，讓醫材產品在第一時間內上市，而健保也該給付TFDA核准的智慧醫材，來擴大使用。最後則是進一步，由國健署聯手地方政府，將TFDA核准的智慧醫材普及到民眾生活，來提升國民健康。&lt;/p&gt;
-&lt;p&gt;在產業部分，他則認為，臺灣產業交易雖以B2B為大宗，但就長期發展而言，企業應鎖定B2C、B2B2C，特別是客戶體驗。也因此，他建議企業得有新商業模式，導入設計思考來掌握智慧醫療需求和獲利新契機。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;為何投入智慧醫療？施振榮用王道哲學和隱性價值解釋&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;施振榮對智慧醫療的投資，來自他的王道經營思維。&lt;/p&gt;
-&lt;p&gt;這個思維有三大理念，包括講究自強不息（永續經營）的天道、厚德載物（創造價值）的地道，以及仁禮而已（利益平衡）的人道。在這三道之下，則發展出「六面向價值總帳論」準則，也就是他眼中，企業領導人衡量投資的準則。&lt;/p&gt;
-&lt;p&gt;這六面向包括了有形、無形、直接、間接、現在、未來，他指出，有形、直接、現在是人們最容易感受到的顯性價值，而無形、間接、未來則是大家容易忽略的隱性價值，在他看來，智慧醫療就是這類型的隱性價值產業。施振榮強調，身為一個企業領導人，就得瞄準他人容易忽略的隱性價值，「要公正重視、作為長期投資。」&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 06 Sep 2021 06:14:50 +0000</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="false">146546 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146546#comments</comments>
 </item>
 </channel>
 </rss>

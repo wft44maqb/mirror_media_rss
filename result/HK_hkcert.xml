@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Tue, 07 Sep 2021 12:14:07 +0800</pubDate>
-		<lastBuildDate>Tue, 07 Sep 2021 12:14:07 +0800</lastBuildDate>
+		<pubDate>Tue, 07 Sep 2021 16:26:59 +0800</pubDate>
+		<lastBuildDate>Tue, 07 Sep 2021 16:26:59 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -15,6 +15,13 @@
 			<width>144</width>
 			<height>35</height>
 		</image>
+		<item>
+			<title>[Security Blog] 「評估你的網絡保安狀況」線上自我評估工具正式登場</title>
+			<link>https://www.hkcert.org/tc/blog/introducing-check-your-cyber-security-readiness-online-self-assessment-tools</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/blog/introducing-check-your-cyber-security-readiness-online-self-assessment-tools</guid>
+			<pubDate>Tue, 07 Sep 2021 00:00:00 +0800</pubDate>
+			<description><![CDATA[香港電腦保安事故協調中心早前編制了 《中小企網絡安全七大攻略》 保安指南，當中附帶一份簡易使用的清單，幫...]]></description>
+		</item>
 		<item>
 			<title>Node.js 多個漏洞</title>
 			<link>https://www.hkcert.org/tc/security-bulletin/node-js-multiple-vulnerabilities_20210902</link>
@@ -854,65 +861,6 @@
 			
 			<ul>
 				<li><a href="https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=582222806" target="_blank">https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=582222806</a></li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>Adobe 每月保安更新  (2021 年 8 月)</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/adobe-monthly-security-update-august-2021</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/adobe-monthly-security-update-august-2021</guid>
-			<pubDate>Wed, 11 Aug 2021 09:00:00 +0800</pubDate>
-			<description><![CDATA[  Adobe已為產品提供本月保安更新：
-			
-			 
-			
-			
-				
-					
-						受影響產品
-						風險程度
-						影響
-						備註
-						詳情（包括 CVE）
-					
-					
-						Magento
-						 中度風險
-						繞過保安限...
-			  <p>影響</p>
-			  <ul>
-			          <li>權限提升</li>
-			          <li>遠端執行程式碼</li>
-			          <li>阻斷服務</li>
-			          <li>繞過保安限制</li>
-			          <li>跨網站指令碼</li>
-			          <li>資料洩露</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>Adobe Commerce 2.4.2 及以前版本</li>
-				<li>Adobe Commerce 2.4.2-p1 及以前版本</li>
-				<li>Adobe Commerce 2.3.7 及以前版本</li>
-				<li>Magento Open Source 2.4.2-p1 及以前版本</li>
-				<li>Magento Open Source 2.3.7 及以前版本</li>
-				<li>Adobe Connect 11.2.2  及以前版本</li>
-				<li>Adobe Media Encoder 15.4 及以前版本</li>
-				<li>Adobe Bridge  11.1 及以前版本</li>
-				<li>Photoshop 2020 21.2.10 及以前版本</li>
-				<li>Photoshop 2021 22.4.3  及以前版本</li>
-				<li>Adobe XMP-Toolkit-SDK 2020.1 及以前版本</li>
-				<li>Adobe Captivate 2019 11.5.5 及以前版本</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<ul>
-				<li>安裝供應商提供的修補程式。個別產品詳情可參考上表「詳情」一欄或執行軟件更新。</li>
 			</ul>
 			
 			  <hr>

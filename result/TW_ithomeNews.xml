@@ -1,11 +1,52 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/295" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/295</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/295" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>臉書開源快取引擎CacheLib，連結產業推動快取創新</title>
+    <link>https://www.ithome.com.tw/news/146576</link>
+    <description> 臉書對外開源內部已經大量使用的快取引擎CacheLib，CacheLib是一個可插拔的程序內快取引擎，可用來建構和擴展高效能服務。臉書目前有70個大型系統，都已經使用CacheLib作為程序內快取，包括社交圖（Social Graph）、內容交付網路、儲存和後備鍵值快取等。除此之外，臉書還開源了基準測試工具CacheBench，供使用者評估不同生產工作負載的快取效能。</description>
+     <pubDate>2021-09-07  03:09:38</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146576</guid>
+  </item>
+  <item>
+    <title>隱私郵件服務ProtonMail將用戶IP交給警方掀風波</title>
+    <link>https://www.ithome.com.tw/news/146577</link>
+    <description> 標榜端對端加密的電子郵件服務供應商ProtonMail，最近成為被使用者砲轟的目標，因為法國警方取得了ProtonMail所提供的用戶IP，並因此逮捕了一些氣候活動家。總部位於瑞士的ProtonMail出面澄清，該公司遵循的是瑞士警方發出的法院搜索票，而非法國。</description>
+     <pubDate>2021-09-07  03:09:16</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146577</guid>
+  </item>
+  <item>
+    <title>藍牙耳機可能讓使用者被人追蹤</title>
+    <link>https://www.ithome.com.tw/news/146575</link>
+    <description> 藍牙耳機很潮、很夯，但是一項研究顯示，藍牙耳機一項技術問題，可能被有心人士用來跟蹤使用者。而且不用很高明的技巧。</description>
+     <pubDate>2021-09-07  02:09:57</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146575</guid>
+  </item>
+  <item>
+    <title>程式碼執行漏洞促使Google Tensorflow中止支援YAML</title>
+    <link>https://www.ithome.com.tw/news/146574</link>
+    <description> Google TensorFlow框架近日傳出受重大風險程式碼執行漏洞影響安全性，為此Google宣布將不再支援YAML格式，建議開發人員改成其他格式。</description>
+     <pubDate>2021-09-07  12:09:27</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146574</guid>
+  </item>
+  <item>
+    <title>印尼防疫網站未做好資料庫防護，導致百萬民眾資料外洩</title>
+    <link>https://www.ithome.com.tw/news/146573</link>
+    <description> 安全人員發現印尼防疫管理網站未做好防護，讓印尼超過百萬人的COVID-19測試、醫療資料、個資等資訊全部曝露於網上，可能也包括總統佐科威（Joko Widodo）。
+安全廠商vpnMentor研究人員Noam Rotem及Ran Locar在印尼官方的eHAC（eHealth Alert Card）防疫管理App及網站，發現這樁重大資料外洩。eHAC是印尼政府開發的COVID-19接觸追蹤App，今年才開發完成，要求所有入、出境的旅客，以及國內民眾安裝使用。</description>
+     <pubDate>2021-09-07  12:09:34</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146573</guid>
+  </item>
+  <item>
     <title>VS Code Python擴充套件翻新測試介面，將棄用舊語言伺服器</title>
     <link>https://www.ithome.com.tw/news/146564</link>
     <description> 微軟發布9月適用VS Code的Python擴充套件新版本，這個版本加入讓開發者方便編輯和測試程式碼功能，同時，官方也宣布終止Python語言伺服器和Python 2.7 IntelliSense的支援。
@@ -217,50 +258,6 @@ Reddit創立於2005年，註冊會員可上傳各種內容，從文章、連結�
      <pubDate>2021-09-03  02:09:24</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146529</guid>
-  </item>
-  <item>
-    <title>國家級駭客掀起新時代網路戰爭</title>
-    <link>https://www.ithome.com.tw/article/146526</link>
-    <description> 二○一七年六月二十七日，某件怪異而恐怖之事，開始在全世界的基礎設施中擴散開來。
-賓夕法尼亞州的一群醫院開始延遲手術、拒絕病患掛號。塔斯馬尼亞島的一家吉百利（Cadbury）巧克力工廠不再產出巧克力。製藥巨擘默克集團（Merck）不再生產治療人類乳突病毒的疫苗。
-不久，世界各港口的十七處貨櫃碼頭都無法運作，它們全都屬於世界最大的船舶公司──快桅集團（Maersk）。數萬輛載著貨櫃的十八輪大貨車，開始在這些港埠的入口大排長龍。大船遠道越洋而來，每一艘都載著數十萬個貨櫃，卻發現無人能夠卸貨。全世界緊密交織的自動化系統之重要環節，彷彿受害於某種吞噬腦部的病菌在全球發作，似乎自動忘記了運行方式。</description>
-     <pubDate>2021-09-03  02:09:00</pubDate>
- <dc:creator>iThome</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/article/146526</guid>
-  </item>
-  <item>
-    <title>日本農業轉型看上臺灣智慧農機技術，三大茶園AIoT技術落地靜岡實證最快明年產品化</title>
-    <link>https://www.ithome.com.tw/news/146424</link>
-    <description> 茶園管理也開始邁向規格化、機械化與數位化！資策會數位服務創新研究所從2018年起，與長生製茶廠、茶業改良場合作，開發了一套農機智慧管理系統，並導入長生製茶廠的代耕場域，提供農機設備的預測維修、駕駛行為追蹤以及茶園管理等三大功能。今年，這套系統更取得日本採茶機市佔達6成的農機企業落合刃物青睞，目前已經在日本展開跨國應用實證，最快明年就會啟動付費機制來販售。
-在農業人口老化的趨勢下，臺灣茶園種植已經走向機械化，比如長生製茶廠過去就從國外引進大型機械，在臺灣多個縣市提供茶園機械代耕服務。觀察到這個現象，資策會在機械化管理的基礎下，開發農機管理系統，目標讓茶園經營者透過更有效的管理模式，來提升茶園產能、精簡人力成本。</description>
-     <pubDate>2021-09-03  01:09:37</pubDate>
- <dc:creator>翁芊儒</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146424</guid>
-  </item>
-  <item>
-    <title>藍牙BrakTooth漏洞波及逾1,400款產品</title>
-    <link>https://www.ithome.com.tw/news/146523</link>
-    <description> 新加坡科技設計大學（Singapore University of Technology and Design）的研究人員在本周揭露了藍牙漏洞BrakTooth，BrakTooth集結了逾20種不同的安全漏洞，可能造成服務阻斷或遠端程式攻擊，影響逾1,400款產品，從電腦、手機到鍵盤等，估計全球可能有數十億裝置含有潛在的安全風險。</description>
-     <pubDate>2021-09-03  01:09:13</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146523</guid>
-  </item>
-  <item>
-    <title>AWS提供NetApp ONTAP檔案系統服務</title>
-    <link>https://www.ithome.com.tw/news/146522</link>
-    <description> AWS本周公布支援NetApp ONTAP的雲端檔案系統服務Amazon FSx for NetApp ONTAP。</description>
-     <pubDate>2021-09-03  01:09:45</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146522</guid>
-  </item>
-  <item>
-    <title>特斯拉機器人是玩真的，還是講假的？</title>
-    <link>https://www.ithome.com.tw/news/146459</link>
-    <description> 8月下旬一場Tesla AI Day技術大會上，特斯拉執行長馬斯克宣布將推出以AI為核心的通用人型機器人（Tesla Bot），更誇口一年內就能完成原型，引發不少熱議。但對於特斯拉從電動車跨足機器人，外界幾乎一面倒看衰， 認為他過於天真，甚至有些不切實際，把研發機器人這件事想的太簡單。
-人稱科技狂人的馬斯克，過去幾年的確提出不少異想天開的構想，有些最後成真，也有些失敗。比如他先前曾提出超級高鐵（Hyperloop）的構想，就是個經常被拿來檢驗的失敗例子，他原先計畫打造一條超高速運輸真空隧道來載送乘客，到後來完全偏離原來的構想，變成只是一個電動車專用的輸送隧道。</description>
-     <pubDate>2021-09-03  01:09:04</pubDate>
- <dc:creator>余至浩</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146459</guid>
   </item>
   </channel>
 </rss>
