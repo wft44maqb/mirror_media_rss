@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Tue, 07 Sep 2021 17:35:54 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Sep 2021 17:45:56 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[阿里性侵事件涉案男員工獲釋，爭議仍存]]></title>
+            <link><![CDATA[https://cn.nytimes.com/technology/20210907/china-alibaba-rape/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[檢方拒絕對這名前阿里員工提起指控，有關部門稱其行為不構成犯罪，但以猥褻為由將其治安拘留15天。阿里事件引發了對中國科技行業現狀和「我也是」運動的反思。<p><img src='https://static01.nyt.com/images/2021/09/07/world/07alibaba/merlin_193098624_ea630e45-d361-4973-8a57-2ded84b274de-articleLarge.jpg' alt='阿里巴巴在北京的辦公室。這家總部位於中國杭州的電子商務巨頭一直處於中國科技領域性別歧視討論的中心。 Tingshu Wang/Reuters'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Tingshu Wang/Reuters</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>阿里巴巴在北京的辦公室。這家總部位於中國杭州的電子商務巨頭一直處於中國科技領域性別歧視討論的中心。</p>                    ]]></description>
+            <category>科技</category>
+            <dc:creator><![CDATA[孟建國]]></dc:creator>
+            <pubDate>Tue, 07 Sep 2021 05:45:29 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/technology/20210907/china-alibaba-rape/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[習近平提「共同富裕」，敦促中國富豪分享財富]]></title>
             <link><![CDATA[https://cn.nytimes.com/china/20210907/china-xi-common-prosperity/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[CHRISTINA GOLDBAUM,NAJIM RAHIM]]></dc:creator>
             <pubDate>Wed, 01 Sep 2021 05:43:30 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210901/afghan-refugees-future/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[無法撲滅的大火：加州山火預示著怎樣的未來]]></title>
-            <link><![CDATA[https://cn.nytimes.com/usa/20210901/lake-tahoe-nevada-fire/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[數千名消防員、數百輛消防車和幾十架直升機都沒能阻止卡爾多大火在加州肆虐。專家認為，這場大火是對西部地區未來特大火災的警示，試圖完全控制嚴重野火可能是徒勞的。<p><img src='https://static01.nyt.com/images/2021/08/31/us/31tahoe/31tahoe-articleLarge.jpg' alt='週二，一名消防員正在加州邁耶斯搶救一處房屋。 '/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>週二，一名消防員正在加州邁耶斯搶救一處房屋。</p>                    ]]></description>
-            <category>美國</category>
-            <dc:creator><![CDATA[THOMAS FULLER,LIVIA ALBECK-RIPKA,MAX WHITTAKER]]></dc:creator>
-            <pubDate>Wed, 01 Sep 2021 04:07:39 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210901/lake-tahoe-nevada-fire/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
