@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Google以深度學習偵測異常胸腔X光片，可找出訓練資料集未見過的肺部異常</title>
+ <link>https://www.ithome.com.tw/news/146578</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://ai.googleblog.com/2021/09/detecting-abnormal-chest-x-rays-using.html&quot; target=&quot;_blank&quot;&gt;Google開發了新型模型&lt;/a&gt;，能夠從去識別化資料集中，區分正常和異常的胸腔X光片，Google提到，該模型不只對一般的胸腔異常表現良好，對沒有出現在訓練資料集的肺結核病和COVID-19，也能發現其異常之處，對於未見過的案例具有通用性。&lt;/p&gt;
+&lt;p&gt;醫學成像應用機器學習技術，能夠大幅提高胸腔X光影像解釋的精確性、速度和一致性，目前已經有大量的演算法，可用來偵測特定疾病，諸如肺癌、肺結核和氣胸，但是這些偵測特定疾病的模型，應用到臨床上可能會受到限制，像是氣胸偵測器就無法突出顯示癌症的病徵，而肺結核偵測器可能無法辨識出肺炎，Google提到，辨識包含各種類型異常的通用算法，可以顯著促進臨床工作流程。&lt;/p&gt;
+&lt;p&gt;因此Google開發了能夠區分各種胸腔異常狀況的深度學習系統，來解決這個問題，研究人員使用基於EfficientNet-B7架構的深度學習系統，在ImageNet上進行預訓練，接著使用來自印度阿波羅醫院的20萬張去識別化胸腔X光片訓練模型。每一個胸腔X光片都會被標記上正常或是異常的標籤，供模型學習正常和異常的胸腔狀況。&lt;/p&gt;
+&lt;p&gt;研究人員使用各種資料集來測試這個新的深度學習系統，發現該系統能夠精確地區分常見的胸腔異常，同時研究人員也評估了該系統，偵測未遇過疾病的能力，而結果顯示該模型表現依舊良好，能夠非常高比例的發現肺結核病，不過在辨識COVID-19時效能略降，研究人員解釋，有許多案例被系統標記為異常，但是COVID-19為陰性，也就是說，雖然系統在這些案例無法準確地偵測病徵屬於特定疾病，但是仍然可以將其區分為異常。&lt;/p&gt;
+&lt;p&gt;Google的這個新系統有兩個潛在好處，除了按情況加速排序病患之外，也可提高其他胸腔X光影像辨識模型的效果。研究人員為了要了解該模型在臨床工作流程中的幫助，因此將其用在模擬病例優先排序上，異常病例能夠被優先處理，完成流程的時間減少28％，而該模型快速區分正常與異常的能力，能夠將複雜的異常病例，快速轉移給專門的放射科醫師處理，分類需要緊急處理的病患。&lt;/p&gt;
+&lt;p&gt;另外，該深度學習系統還能夠被用作預訓練模型，在資料有限的情況下，改進胸腔X光的其他機器學習演算法，Google最近將正常與異常檢測器，搭配肺結核檢測器一起使用，在缺乏醫療資源的地區，提供肺結核早期診斷的服務。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 15:08:33 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146578 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146578#comments</comments>
+</item>
+<item>
  <title>MITRE Engage將取代MITRE Shield，聚焦交戰、拒絕與欺敵領域</title>
  <link>https://www.ithome.com.tw/news/146581</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;近兩三年來， 在資安界有一套框架當紅， 那就是MITRE ATT&amp;amp;CK框架， 將現實駭客組織入侵技術彙整成攻擊知識庫， 而為了扭轉企業面對攻擊經常處於被動的局面，在2020年8月，MITRE公布主動式防禦（Active Defense）的知識庫，稱為MITRE Shield，希望幫助企業組織成為更好的防守者，近期，MITRE將它重新定名為MITRE Engage，並預告在今年秋季會發布正式版本。&lt;/p&gt;
@@ -183,21 +198,6 @@
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="false">146561 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146561#comments</comments>
-</item>
-<item>
- <title>勒索軟體鎖定農業與食品製造業下手，FBI特別發出公告呼籲各界重視</title>
- <link>https://www.ithome.com.tw/news/146563</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;隨著智慧農業的推動，在農業種植、食品生產的過程之中，往往運用了不少操作科技（OT）的設備，也可能連結IT網路環境，而使得過程能夠更有效率。而這些運用於食品供應鏈的物聯網（IoT）裝置，也可能成為攻擊者的目標，業者因氣候變遷導致食品生產面臨更多挑戰的情況下，對於糧食、肉品、各類加工品的供應，更加雪上加霜。&lt;a href=&quot;https://s3.documentcloud.org/documents/21053966/fbi-bc-cyber-criminal-actors-targeting-the-food-and-agriculture-sector-with-ransomware-attacks.pdf&quot;&gt;美國聯邦調查局（FBI）於9月1日發出警告&lt;/a&gt;，表示勒索軟體駭客目前鎖定食品、農業相關產業大肆發動攻擊，呼籲業者要加強有關的資安防護措施。&lt;/p&gt;
-&lt;p&gt;究竟對於這個產業受害的情形又是如何？FBI並未透露。但該單位強調，根據統計，2019年到2020年之間，勒索軟體攻擊平均的贖金增加了1倍，而且過往會有5至8成的受害組織，會遭到重覆勒索。意味著如果這些食品、農業相關業者抱持著付贖金了事的心態，很有可能會變成駭客不斷勒索的對象。&lt;/p&gt;
-&lt;p&gt;FBI也舉出數起這類產業遭到攻擊的事故，像是跨國肉品公司與美國烘焙公司，先後於2021年5月、7月，遭到REvil（Sodinokibi）勒索軟體攻擊；而2021年3月，美國飲料公司遭到勒索軟體攻擊，而導致生產與出貨等運作都遭到中斷。針對農業生產的部分，在2021年1月，美國一處農地因勒索軟體攻擊導致相關設備停機，損失900萬美元。不過，FBI沒有透露上述的受害公司名稱。&lt;/p&gt;
-&lt;p&gt;事實上，針對大型食品製造業而來的勒索軟體攻擊，曾引起美國總統拜登重視。例如，&lt;a href=&quot;https://www.ithome.com.tw/news/144752&quot;&gt;5月底大型肉品業者JBS傳出遭到網路攻擊&lt;/a&gt;，導致北美與澳洲部分產線運作中斷，影響美國當地肉品供應，&lt;a href=&quot;https://www.ithome.com.tw/news/144768&quot;&gt;美國總統拜登痛斥疑似是遭到俄羅斯駭客的勒索軟體攻擊&lt;/a&gt;，而對俄羅斯政府喊話，要求不該包庇罪犯。&lt;/p&gt;
-&lt;p&gt;而對於FBI提出攻擊者鎖定食品供應鏈的攻擊升溫，也有&lt;a href=&quot;https://blog.malwarebytes.com/awareness/2021/09/fbi-warns-of-ransomware-threat-to-food-and-agriculture/&quot;&gt;資安業者Malwarebytes提出相關觀察&lt;/a&gt;，呼應這樣的態勢：該公司指出，從2019年到2020年，鎖定農業的惡意軟體攻擊爆增超過6倍，而針對食品與飲料製造商的攻擊也增加近7成。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/rise-in-attacks-against-agriculture-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/rise-in-attacks-against-agriculture-s.png&quot; style=&quot;width: 580px; height: 280px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 06 Sep 2021 11:05:50 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146563 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146563#comments</comments>
 </item>
 </channel>
 </rss>

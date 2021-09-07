@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>Google以深度學習偵測異常胸腔X光片，可找出訓練資料集未見過的肺部異常</title>
+    <link>https://www.ithome.com.tw/news/146578</link>
+    <description> Google開發了新型模型，能夠從去識別化資料集中，區分正常和異常的胸腔X光片，Google提到，該模型不只對一般的胸腔異常表現良好，對沒有出現在訓練資料集的肺結核病和COVID-19，也能發現其異常之處，對於未見過的案例具有通用性。</description>
+     <pubDate>2021-09-07  11:09:33</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146578</guid>
+  </item>
+  <item>
     <title>MITRE Engage將取代MITRE Shield，聚焦交戰、拒絕與欺敵領域</title>
     <link>https://www.ithome.com.tw/news/146581</link>
     <description> 近兩三年來， 在資安界有一套框架當紅， 那就是MITRE ATT&amp;amp;CK框架， 將現實駭客組織入侵技術彙整成攻擊知識庫， 而為了扭轉企業面對攻擊經常處於被動的局面，在2020年8月，MITRE公布主動式防禦（Active Defense）的知識庫，稱為MITRE Shield，希望幫助企業組織成為更好的防守者，近期，MITRE將它重新定名為MITRE Engage，並預告在今年秋季會發布正式版本。</description>
@@ -251,14 +259,6 @@ Reddit創立於2005年，註冊會員可上傳各種內容，從文章、連結�
      <pubDate>2021-09-03  04:09:03</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146531</guid>
-  </item>
-  <item>
-    <title>英國兒童線上隱私法正式生效，祭出最高4%的兒童隱私罰款</title>
-    <link>https://www.ithome.com.tw/news/146532</link>
-    <description> 英國兒童線上隱私法《Age Appropriate Design Code》（或簡稱Children&#039;s code）於今年的9月2日正式生效了，由於此一法令是奠基於GDPR，因此，違反相關法令的企業最高可能會被判罰全球年營收的4%，或是1,750萬英鎊。</description>
-     <pubDate>2021-09-03  03:09:00</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146532</guid>
   </item>
   </channel>
 </rss>
