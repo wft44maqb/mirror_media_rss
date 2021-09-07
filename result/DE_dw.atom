@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-07T14:06:55Z</updated>
+ <updated>2021-09-07T14:11:59Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59113209</id>
+  <title><![CDATA[古巴开始为幼儿接种新冠疫苗 ]]></title>
+  <updated>2021-09-07T13:46:00Z</updated>
+  <published>2021-09-07T13:46:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/古巴开始为幼儿接种新冠疫苗/a-59113209?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[古巴成为全球首个让两岁以上儿童接种 COVID-19新冠疫苗的国家。这个加勒比国家自己研制的疫苗未获世卫组织认证。 ]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59111500</id>
   <title><![CDATA[谋求加入一带一路 塔利班继续向中国示好]]></title>
@@ -125,16 +135,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59101575</id>
-  <title><![CDATA[德语媒体：名不副实的伙伴关系]]></title>
-  <updated>2021-09-06T15:01:00Z</updated>
-  <published>2021-09-06T15:01:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：名不副实的伙伴关系/a-59101575?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[刚刚掌控阿富汗的塔利班，近来对北京赞不绝口，也希望尽快获得来自中国的援助和投资。然而，对北京来说，同塔利班结盟也许并非明智的选项。]]></summary>
-  <category term="评论分析"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59101807</id>
   <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
   <updated>2021-09-06T15:01:00Z</updated>
@@ -143,6 +143,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
   <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59101575</id>
+  <title><![CDATA[德语媒体：名不副实的伙伴关系]]></title>
+  <updated>2021-09-06T15:01:00Z</updated>
+  <published>2021-09-06T15:01:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：名不副实的伙伴关系/a-59101575?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[刚刚掌控阿富汗的塔利班，近来对北京赞不绝口，也希望尽快获得来自中国的援助和投资。然而，对北京来说，同塔利班结盟也许并非明智的选项。]]></summary>
+  <category term="评论分析"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59101217</id>
@@ -205,26 +215,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59094413</id>
-  <title><![CDATA[台湾友邦洪都拉斯反对党：若胜选将与中国建交]]></title>
-  <updated>2021-09-06T07:56:00Z</updated>
-  <published>2021-09-06T07:56:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/台湾友邦洪都拉斯反对党：若胜选将与中国建交/a-59094413?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[台湾邦交国洪都拉斯将于11月举行总统选举，左翼反对党「自由重建党」表示，若胜选，会与中国建立外交及商贸关系，这将导致台湾失去邦交国，该政党有可能获胜吗？]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59094706</id>
-  <title><![CDATA[香港壹传媒所有董事辞任 前高管：北京铲除香港的自由媒体]]></title>
-  <updated>2021-09-06T04:44:00Z</updated>
-  <published>2021-09-06T04:44:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/香港壹传媒所有董事辞任-前高管：北京铲除香港的自由媒体/a-59094706?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[壹传媒剩馀的4名董事5日发公告，宣布辞职并计画开始清算公司资产。前壹传媒高管Mark Simon告诉德国之声，壹传媒的例子显示，当任何媒体越过国安法的红线时，港府会以高额法律费用与「监管风暴」来掩埋了它。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59089481</id>
   <title><![CDATA[墙外文摘：留给饭圈的余地不多了]]></title>
   <updated>2021-09-05T07:59:00Z</updated>
@@ -235,14 +225,14 @@
   <category term="评论分析"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59065287</id>
-  <title><![CDATA[单性生殖：无需交配也能繁殖后代？]]></title>
+  <id>tag:dw.com,2021:59077830</id>
+  <title><![CDATA[德国“隐形冠军”迎来中国挑战]]></title>
   <updated>2021-09-05T07:04:00Z</updated>
   <published>2021-09-05T07:04:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/单性生殖：无需交配也能繁殖后代？/a-59065287?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[新近，意大利撒丁岛水族馆一雌鲨鱼在没有与雄鲨鱼交配的情况下分娩的消息引起轰动。鲨鱼“单性生殖”现象是否真的罕见？]]></summary>
-  <category term="科技环境"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国-隐形冠军-迎来中国挑战/a-59077830?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[德国中小型企业中有一大批“隐形冠军”，它们当中60%在中国设有生产基地，虽然早就熟悉了国际化，但还是感受到来自中国赶超的压力。]]></summary>
+  <category term="经济纵横"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59079805</id>
@@ -255,14 +245,14 @@
   <category term="文化经纬"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59077830</id>
-  <title><![CDATA[德国“隐形冠军”迎来中国挑战]]></title>
+  <id>tag:dw.com,2021:59065287</id>
+  <title><![CDATA[单性生殖：无需交配也能繁殖后代？]]></title>
   <updated>2021-09-05T07:04:00Z</updated>
   <published>2021-09-05T07:04:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国-隐形冠军-迎来中国挑战/a-59077830?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[德国中小型企业中有一大批“隐形冠军”，它们当中60%在中国设有生产基地，虽然早就熟悉了国际化，但还是感受到来自中国赶超的压力。]]></summary>
-  <category term="经济纵横"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/单性生殖：无需交配也能繁殖后代？/a-59065287?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[新近，意大利撒丁岛水族馆一雌鲨鱼在没有与雄鲨鱼交配的情况下分娩的消息引起轰动。鲨鱼“单性生殖”现象是否真的罕见？]]></summary>
+  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59049344</id>
