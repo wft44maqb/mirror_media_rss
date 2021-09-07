@@ -9,7 +9,7 @@
             <link>http://www.bbcchinese.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Sep 2021 11:13:40 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Sep 2021 11:20:09 GMT</lastBuildDate>
         <copyright><![CDATA[英國廣播公司 版權所有 ]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <managingEditor><![CDATA[chinese@bbc.co.uk]]></managingEditor>
@@ -34,6 +34,13 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58472896?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58472896</guid>
             <pubDate>Tue, 07 Sep 2021 08:06:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「9/11」事件20週年：「我把自己的『9/11』經歷變成了一本插圖回憶錄」]]></title>
+            <description><![CDATA[根據12歲時寫的日記，艾莉莎出版了《大蘋果日記》，這個漫畫風格的回憶錄展示了她經歷的9/11事件如何改變了她的生活。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/world-58475207?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58475207</guid>
+            <pubDate>Tue, 07 Sep 2021 11:17:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[年輕主義：新世代愈來愈難找工作的因由]]></title>
@@ -69,13 +76,6 @@
             <link>https://www.bbc.com/zhongwen/trad/chinese-news-58471918?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/chinese-news-58471918</guid>
             <pubDate>Tue, 07 Sep 2021 06:07:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[氣候變化：極地變暖與冬天越來越冷之間的關聯]]></title>
-            <description><![CDATA[新的研究發現，極地變暖和美國冬天出現極端寒冷天氣有關，說明了全球變暖反而會讓部分地區的冬天越來越寒冷。]]></description>
-            <link>https://www.bbc.com/zhongwen/trad/science-58441617?at_medium=RSS&amp;at_campaign=KARANGA</link>
-            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-58441617</guid>
-            <pubDate>Mon, 06 Sep 2021 13:41:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[「911主謀」為何從FBI指尖溜走？]]></title>
@@ -188,6 +188,13 @@
             <link>https://www.bbc.com/zhongwen/trad/world-58443749?at_medium=RSS&amp;at_campaign=KARANGA</link>
             <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/world-58443749</guid>
             <pubDate>Fri, 03 Sep 2021 21:08:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[氣候變化：極地變暖與冬天越來越冷之間的關聯]]></title>
+            <description><![CDATA[新的研究發現，極地變暖和美國冬天出現極端寒冷天氣有關，說明了全球變暖反而會讓部分地區的冬天越來越寒冷。]]></description>
+            <link>https://www.bbc.com/zhongwen/trad/science-58441617?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.com/zhongwen/trad/science-58441617</guid>
+            <pubDate>Mon, 06 Sep 2021 13:41:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[親俄「噴子」被指大規模針對西方媒體網站企圖影響輿論]]></title>
