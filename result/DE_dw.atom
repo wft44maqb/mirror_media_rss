@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-07T11:07:14Z</updated>
+ <updated>2021-09-07T11:10:43Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,26 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59110390</id>
+  <title><![CDATA[德国驻华大使骤然离世后 外长吁尊重隐私]]></title>
+  <updated>2021-09-07T11:06:00Z</updated>
+  <published>2021-09-07T11:06:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国驻华大使骤然离世后-外长吁尊重隐私/a-59110390?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[54岁的德国驻华大使贺岩履新后不到两周就突然离世，至今死因不详，这在社交媒体上引发了不少猜测和议论。德国外长马斯表示，即使是外交官也有隐私权，希望外界不要打扰贺岩的家人。作为默克尔信任的助手，贺岩的离世也给德国未来对华事务带来不确定因素。]]></summary>
+  <category term="德国新闻"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59110354</id>
+  <title><![CDATA[京东高层改组 刘强东退居幕后]]></title>
+  <updated>2021-09-07T10:56:00Z</updated>
+  <published>2021-09-07T10:56:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/京东高层改组-刘强东退居幕后/a-59110354?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[京东集团宣布高层改组，京东零售CEO徐雷升任京东集团总裁。京东创办人刘强东未来将把更多的时间投入到长期战略设计、年轻CEO培养和乡村振兴事业中来。]]></summary>
+  <category term="经济纵横"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59110214</id>
   <title><![CDATA[紧急送入医院的德国经济部长自报“平安” ]]></title>
@@ -85,16 +105,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59101807</id>
-  <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
-  <updated>2021-09-06T15:01:00Z</updated>
-  <published>2021-09-06T15:01:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59101575</id>
   <title><![CDATA[德语媒体：名不副实的伙伴关系]]></title>
   <updated>2021-09-06T15:01:00Z</updated>
@@ -103,6 +113,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：名不副实的伙伴关系/a-59101575?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[刚刚掌控阿富汗的塔利班，近来对北京赞不绝口，也希望尽快获得来自中国的援助和投资。然而，对北京来说，同塔利班结盟也许并非明智的选项。]]></summary>
   <category term="评论分析"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59101807</id>
+  <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
+  <updated>2021-09-06T15:01:00Z</updated>
+  <published>2021-09-06T15:01:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
+  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59101217</id>
@@ -175,16 +195,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59095502</id>
-  <title><![CDATA[台湾国防部：19架中国军机进入西南防空识别区 ]]></title>
-  <updated>2021-09-06T07:05:00Z</updated>
-  <published>2021-09-06T07:05:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/台湾国防部：19架中国军机进入西南防空识别区/a-59095502?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中共5日出动19架军机扰台引发讨论，美国有议员忧心北京持续试探美国决心，至於台湾内部怎麽看？专家又是如何解读？]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59094706</id>
   <title><![CDATA[香港壹传媒所有董事辞任 前高管：北京铲除香港的自由媒体]]></title>
   <updated>2021-09-06T04:44:00Z</updated>
@@ -192,16 +202,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/香港壹传媒所有董事辞任-前高管：北京铲除香港的自由媒体/a-59094706?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[壹传媒剩馀的4名董事5日发公告，宣布辞职并计画开始清算公司资产。前壹传媒高管Mark Simon告诉德国之声，壹传媒的例子显示，当任何媒体越过国安法的红线时，港府会以高额法律费用与「监管风暴」来掩埋了它。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59094707</id>
-  <title><![CDATA[德国驻华大使贺岩上任两周骤逝]]></title>
-  <updated>2021-09-06T04:42:00Z</updated>
-  <published>2021-09-06T04:42:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国驻华大使贺岩上任两周骤逝/a-59094707?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[8月24日才履新的德国驻中国大使贺岩6日逝世，终年54岁，德国外交部证实这项消息，并表示深感悲痛和震惊。德国总理默克尔对贺岩表达了深深的敬意，并对家属表达了深切的同情与慰问。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
@@ -213,16 +213,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/墙外文摘：留给饭圈的余地不多了/a-59089481?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[有评论认为，中共留给饭圈的余地并不多了，或许在“伟大规划”中，她们被要求必须离开个人的天地，走向需要她们的任何地方。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59065287</id>
-  <title><![CDATA[单性生殖：无需交配也能繁殖后代？]]></title>
-  <updated>2021-09-05T07:04:00Z</updated>
-  <published>2021-09-05T07:04:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/单性生殖：无需交配也能繁殖后代？/a-59065287?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[新近，意大利撒丁岛水族馆一雌鲨鱼在没有与雄鲨鱼交配的情况下分娩的消息引起轰动。鲨鱼“单性生殖”现象是否真的罕见？]]></summary>
-  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59077830</id>
@@ -243,6 +233,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/在南斯拉夫对抗纳粹的德意志游击队/a-59079805?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[二战期间，南斯拉夫游击队内有一支特殊的“台尔曼营”部队，积极抗击纳粹德国侵略者。这也是整场战争期间，盟军阵营内唯一一支全部由德意志人组成的部队。]]></summary>
   <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59065287</id>
+  <title><![CDATA[单性生殖：无需交配也能繁殖后代？]]></title>
+  <updated>2021-09-05T07:04:00Z</updated>
+  <published>2021-09-05T07:04:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/单性生殖：无需交配也能繁殖后代？/a-59065287?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[新近，意大利撒丁岛水族馆一雌鲨鱼在没有与雄鲨鱼交配的情况下分娩的消息引起轰动。鲨鱼“单性生殖”现象是否真的罕见？]]></summary>
+  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59049344</id>
@@ -423,16 +423,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧盟实现疫苗接种里程碑-世卫却发出严厉警告/a-59041804?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[在欧盟，约70%的成年人已经接种了新冠疫苗。不过这并不意味着欧盟国家可以高枕无忧。世卫组织的欧洲负责人最新提出严厉警告。]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59040221</id>
-  <title><![CDATA[德国火车司机三度罢工  这回将是整整5天 ]]></title>
-  <updated>2021-08-31T12:15:00Z</updated>
-  <published>2021-08-31T12:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国火车司机三度罢工-这回将是整整5天/a-59040221?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[暑假结束，罢工升级：德铁客户们不得不为这一轮薪资谈判中时间最长罢工做好准备。 ]]></summary>
-  <category term="经济纵横"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59038877</id>
