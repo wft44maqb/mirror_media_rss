@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/area/id/1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/area/id/1</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/area/id/1" rel="self" type="application/rss+xml" />
       <item>
+    <title>工研院以Arm聯手，為新創業者引進Arm IP打造IC設計平臺</title>
+    <link>https://www.ithome.com.tw/news/146580</link>
+    <description> 在經濟部工業局牽線下，國內的工研院和Arm合作，結合工研院的技術、人才、輔導資源，加上Arm的矽智財IP，為新創業者打造IC設計平臺，協助新創業者在研發階段降低IP授權成本。
+工業局為推動一站式AIoT服務，委托工研院推動「晶片設計與半導體科技研發應用計畫」的「物聯網晶片化整合服務」、「智慧電子晶片發展計畫」，以及資策會執行的「物聯網智造基地計畫」，以協助國內外新創業者設計優化、研發晶片整合方案，目的在培育IC設計新創業者，不只扶植國內新創，也希望能吸引國外IC新創來臺，增加對臺投資。</description>
+     <pubDate>2021-09-07  06:09:33</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146580</guid>
+  </item>
+  <item>
     <title>臉書開源快取引擎CacheLib，連結產業推動快取創新</title>
     <link>https://www.ithome.com.tw/news/146576</link>
     <description> 臉書對外開源內部已經大量使用的快取引擎CacheLib，CacheLib是一個可插拔的程序內快取引擎，可用來建構和擴展高效能服務。臉書目前有70個大型系統，都已經使用CacheLib作為程序內快取，包括社交圖（Social Graph）、內容交付網路、儲存和後備鍵值快取等。除此之外，臉書還開源了基準測試工具CacheBench，供使用者評估不同生產工作負載的快取效能。</description>
@@ -250,14 +259,6 @@ Reddit創立於2005年，註冊會員可上傳各種內容，從文章、連結�
      <pubDate>2021-09-03  03:09:04</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146530</guid>
-  </item>
-  <item>
-    <title>微軟首度讓企業客戶測試Windows 10 21H2更新及Windows 11</title>
-    <link>https://www.ithome.com.tw/news/146529</link>
-    <description> 微軟昨（2）日宣布針對企業客戶釋出Windows 11以及Windows 10 21H2的測試版本。</description>
-     <pubDate>2021-09-03  02:09:24</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146529</guid>
   </item>
   </channel>
 </rss>
