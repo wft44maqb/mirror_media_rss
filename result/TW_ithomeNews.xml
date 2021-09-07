@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/847/10644" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/847/10644</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/847/10644" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
     <title>MITRE Engage將取代MITRE Shield，聚焦交戰、拒絕與欺敵領域</title>
     <link>https://www.ithome.com.tw/news/146581</link>
@@ -14,7 +14,7 @@
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146581</guid>
   </item>
   <item>
-    <title>工研院以Arm聯手，為新創業者引進Arm IP打造IC設計平臺</title>
+    <title>工研院與Arm聯手，為新創業者引進Arm IP打造IC設計平臺</title>
     <link>https://www.ithome.com.tw/news/146580</link>
     <description> 在經濟部工業局牽線下，國內的工研院和Arm合作，結合工研院的技術、人才、輔導資源，加上Arm的矽智財IP，為新創業者打造IC設計平臺，協助新創業者在研發階段降低IP授權成本。
 工業局為推動一站式AIoT服務，委托工研院推動「晶片設計與半導體科技研發應用計畫」的「物聯網晶片化整合服務」、「智慧電子晶片發展計畫」，以及資策會執行的「物聯網智造基地計畫」，以協助國內外新創業者設計優化、研發晶片整合方案，目的在培育IC設計新創業者，不只扶植國內新創，也希望能吸引國外IC新創來臺，增加對臺投資。</description>
