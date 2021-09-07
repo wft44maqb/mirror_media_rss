@@ -291,9 +291,9 @@ Venue: Stain+</p>
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 207/382 objects using memcached
+Object Caching 204/439 objects using memcached
 Page Caching using memcached 
-Database Caching 6/48 queries in 0.148 seconds using memcached
+Database Caching 3/78 queries in 0.562 seconds using memcached (Request-wide modification query)
 
-Served from: she.com, @ 2021-09-07 22:44:02 by W3 Total Cache
+Served from: she.com, @ 2021-09-07 22:47:20 by W3 Total Cache
 -->
