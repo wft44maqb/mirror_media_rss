@@ -4,8 +4,17 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=58&amp;profile=atom" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>AWS新服務合併量子電腦解決加密金鑰被破解的問題</title>
+    <link>https://www.ithome.com.tw/news/146583</link>
+    <description> AWS一項新服務結合2臺量子電腦產生幾近完美的隨機數，以解決加密金鑰被破解的隱憂。
+隨機數字是現代加密及資料安全技術的基礎。通訊及資料加密，需要以隨機數產生金鑰。然而隨著運算科技的進展卻使隨機數產生法顯露弱點，危及加密的敏感內容，AWS認為量子運算可以解決。</description>
+     <pubDate>2021-09-07  11:09:31</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146583</guid>
+  </item>
+  <item>
     <title>紐時：開挖比特幣所使用的電力是Google總用電量的7倍</title>
     <link>https://www.ithome.com.tw/news/146582</link>
     <description> 《紐約時報》最近刊出了一篇有關比特幣的專題報導，該報導引用了劍橋比特幣電力消耗指數（Cambridge Bitcoin Electricity Consumption Index，CBECI）的估計，指出開採比特幣一年所使用的電力，是Google全球營運一年總用電量的7倍。</description>
@@ -251,14 +260,6 @@ Reddit創立於2005年，註冊會員可上傳各種內容，從文章、連結�
      <pubDate>2021-09-03  11:09:17</pubDate>
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146534</guid>
-  </item>
-  <item>
-    <title>微軟發布企業級Azure Spring Cloud，提供全託管VMware Tanzu元件</title>
-    <link>https://www.ithome.com.tw/news/146533</link>
-    <description> 微軟現在提供企業級Azure Spring Cloud服務，這是針對企業開發人員最佳化的Spring託管服務，可滿足企業用戶的特殊需求。</description>
-     <pubDate>2021-09-03  11:09:27</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146533</guid>
   </item>
   </channel>
 </rss>

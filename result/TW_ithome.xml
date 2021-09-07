@@ -6,6 +6,24 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>AWS新服務合併量子電腦解決加密金鑰被破解的問題</title>
+ <link>https://www.ithome.com.tw/news/146583</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/tw/blogs/quantum-computing/generating-quantum-randomness-with-amazon-braket/&quot; target=&quot;_blank&quot;&gt;AWS一項新服務&lt;/a&gt;結合2臺量子電腦產生幾近完美的隨機數，以解決加密金鑰被破解的隱憂。&lt;/p&gt;
+&lt;p&gt;隨機數字是現代加密及資料安全技術的基礎。通訊及資料加密，需要以隨機數產生金鑰。然而隨著運算科技的進展卻使隨機數產生法顯露弱點，危及加密的敏感內容，AWS認為量子運算可以解決。&lt;/p&gt;
+&lt;p&gt;現代加密金鑰是以環形振盪器以後處理產生一個包含幾位元的隨機種子，這種子再以PRNG（psuedo-random number generators）軟體演算法產生更長的數列。這數列和隨機數的統計特性很相近。Intel Ivy Bridge CPU即內建了一個數位隨機數產生器，這類也叫硬體隨機數產生器（HRNG）。利用美國國家標準與技術研究所（NIST）認證的CPRNG產生的隨機數，基本上可滿足現今資料及通訊加密金鑰的需求。&lt;/p&gt;
+&lt;p&gt;然而傳統技術存在缺點。PRNGS是根據特定運算假設發展，擁有極大運算資源的攻擊者，有可能正確猜出PRNG產生的數字。若實作不當也有問題，例如IoT產品加密需要大量隨機數，但在需求急切情況下，IoT中的HRNG可能無法產生隨機性夠高的數字。另外，虛擬環境下的PRNG可能同一組種子重覆使用，造成不同機器產生相同的隨機數。&lt;/p&gt;
+&lt;p&gt;AWS提出量子隨機產生器（QRNG）來解決傳統隨機數產生法的瓶頸，方法是利用Amazon Braket的量子處理器（QPU）為基礎。Amazon Braket部門研究人員 Mario Berta利用兩個AWS Rigetti Aspen-9和IonQ量子處理器系統，產生兩個獨立的「弱隨機」隨機數，這些隨機數再放入一個名為隨機萃取器（randomness extractor，RE）的傳統演算法計算產出最後的隨機數。&lt;/p&gt;
+&lt;p&gt;他指出，比起傳統HRNG，QRNG有二項優點。一是它的隨機性並非來自傳統物理性，而是依據量子物理性，任何人無法預先得知。此外它產生的原始隨機數並非放入PRNG，而是隨機萃取器（randomness extractors，RE）。RE是將多個來源的隨機數壓縮為一，其處理並不含任何假設，能產生幾近完美的隨機數。&lt;/p&gt;
+&lt;p&gt;他補充，以兩家廠商提供、互相獨立的量子處理器還有個好處：除非兩家聯手，否則即使其中一臺加入後門，也無法破壞結果的隨機性。&lt;/p&gt;
+&lt;p&gt;目前這項服務已開放Amazon Braket企業客戶使用，&lt;a href=&quot;https://github.com/aws/amazon-braket-examples&quot; target=&quot;_blank&quot;&gt;AWS也提供了程式撰寫範例&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;運算力愈來愈大的今天，令人憂心現有加密法安全性。&lt;a href=&quot;https://www.ithome.com.tw/news/146502&quot; target=&quot;_blank&quot;&gt;美國國安局上周指出&lt;/a&gt;，這類「衝擊加密的量子電腦」（Cryptographically Relevant Quantum Computer，CRQC）可能顛覆現行數位簽章及非對稱金鑰交換使用的公鑰演算法，危及美國國安系統（National Security System，NSS），NSA近年計畫推動「抗量子」（quantum-safe）或「後量子」（post-quantum）加密演算法的發展。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 15:35:31 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146583 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146583#comments</comments>
+</item>
+<item>
  <title>紐時：開挖比特幣所使用的電力是Google總用電量的7倍</title>
  <link>https://www.ithome.com.tw/news/146582</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2021/09/03/climate/bitcoin-carbon-footprint-electricity.html&quot; target=&quot;_blank&quot;&gt;《紐約時報》最近刊出了一篇有關比特幣的專題報導&lt;/a&gt;，該報導引用了劍橋比特幣電力消耗指數（&lt;a href=&quot;https://cbeci.org/&quot; target=&quot;_blank&quot;&gt;Cambridge Bitcoin Electricity Consumption Index，CBECI&lt;/a&gt;）的估計，指出開採比特幣一年所使用的電力，是Google全球營運一年總用電量的7倍。&lt;/p&gt;
@@ -182,23 +200,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146573 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146573#comments</comments>
-</item>
-<item>
- <title>VS Code Python擴充套件翻新測試介面，將棄用舊語言伺服器</title>
- <link>https://www.ithome.com.tw/news/146564</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟發布&lt;a href=&quot;https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2021-release/&quot;&gt;9月適用VS Code的Python擴充套件&lt;/a&gt;新版本，這個版本加入讓開發者方便編輯和測試程式碼功能，同時，官方也宣布終止Python語言伺服器和Python 2.7 IntelliSense的支援。&lt;/p&gt;
-&lt;p&gt;從這個版本開始，開發者可以在瀏覽器造訪github.dev時，獲得更豐富的Python編輯體驗。在任何GitHub中的儲存庫、拉取請求或是檔案，只要在鍵盤上點擊「.」還是將網址改為github.dev，便能立即在瀏覽器中，存取網頁程式碼編輯器。&lt;/p&gt;
-&lt;p&gt;而現在於網頁程式碼編輯器github.dev，也能獲得Python語言伺服器Pylance支援，提供部分核心編輯功能，讓開發者對Python程式小幅度編輯更方便，新功能包括依語義突出顯示程式碼、內建程式碼完成以及程式碼瀏覽等。&lt;/p&gt;
-&lt;p&gt;微軟使用VS Code中內建的測試瀏覽器，改進Python測試功能的外觀，新的使用者介面更加穩定，還提供了測試探索、瀏覽和狀態渲染等功能。當用戶啟用Python擴充套件，卻沒有配置Python測試時，測試瀏覽器便會出現配置選項，供開發者進行設定。&lt;/p&gt;
-&lt;p&gt;在測試功能完成配置之後，Python擴充套件便會進行探索存在的測試，而所有測試列表便會呈現在測試瀏覽器中，往後開發者在工作區中，新增、刪除和更新Python檔案時，測試瀏覽器中的列表，也都會自動更新。&lt;/p&gt;
-&lt;p&gt;新版的執行和除錯按鈕也有更新，微軟改進編輯器的執行按鈕，把除錯也納入選項，當開發者點擊執行按鈕，VS Code預設會在終端執行Python檔案，不過開發者現在也可以點選旁邊的下箭頭選單，執行除錯動作。而開發者也能夠自定義除錯選項的動作，藉由修改launch.json檔案就能夠進行修改。&lt;/p&gt;
-&lt;p&gt;除了新功能，微軟也將停止對Python 2.7的IntelliSense的支援，並且結束微軟Python語言伺服器生命周期。目前VS Code對Python 2.7的支援，來自Jedi 0.17，而這個版本為一年前，Jedi最後一個支援Python 2.7的版本，由於Jedi 0.17已過時，因此從2021年10月開始，微軟將僅對Jedi 0.18及更高版本的支援。&lt;/p&gt;
-&lt;p&gt;由於現在Python擴充套件預設使用更高效能、功能豐富的Pylance，而幾乎所有用戶也都已經切換至新的語言伺服器，因此微軟預告，在11月發布的Python擴充套件，將是微軟Python語言伺服器結束生命周期的時候。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Mon, 06 Sep 2021 15:37:34 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146564 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146564#comments</comments>
 </item>
 </channel>
 </rss>
