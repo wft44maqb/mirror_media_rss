@@ -7,7 +7,7 @@
 	<title type="text">財團法人台灣網路資訊中心部落格 | TWNIC Blog</title>
 	<subtitle type="text">悠遊寰宇、在地識別</subtitle>
 
-	<updated>2021-09-02T05:51:04Z</updated>
+	<updated>2021-09-06T07:29:42Z</updated>
 
 	<link rel="alternate" type="text/html" href="https://blog.twnic.tw" />
 	<id>https://blog.twnic.tw/feed/atom/</id>
@@ -20,11 +20,77 @@
 			<name>國際瞭望</name>
 					</author>
 
+		<title type="html"><![CDATA[AWS與Google雲已關閉窺探弱點]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/07/19671/" />
+
+		<id>https://blog.twnic.tw/?p=19671</id>
+		<updated>2021-09-06T00:39:43Z</updated>
+		<published>2021-09-07T00:03:50Z</published>
+		<category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="DNS" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="窺探弱點" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0816-0820_AWS與Google雲已關閉窺探弱點-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>網路安全企業Wiz的研究總監Shir Tamari與技術長 Ami Luttwak參與2021年黑帽安全會議（Black Hat USA 2021）並發表演講，在演講中，他們詳述如何發現存在於Amazon Route53、Google雲端服務及其他DNS伺服器中的網路弱點，目前AWS與Google雲端服務已關閉該弱點。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/07/19671/">AWS與Google雲已關閉窺探弱點</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/07/19671/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0816-0820_AWS與Google雲已關閉窺探弱點-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">網路安全企業Wiz的研究總監Shir Tamari與技術長Ami Luttwak參與2021年黑帽安全會議（Black Hat USA 2021）並發表</span><a href="https://www.blackhat.com/us-21/briefings/schedule/#a-new-class-of-dns-vulnerabilities-affecting-many-dns-as-service-platforms-23563" target="_blank" rel="noopener"><span style="font-weight: 400;">演講</span></a><span style="font-weight: 400;">，在演講中，他們詳述如何發現存在於Amazon Route53、Google雲端服務及其他DNS伺服器中的網路弱點，有心人士將可利用該弱點窺探其他客戶的動態DNS訊務。</span></p>
+<p><span style="font-weight: 400;">Tamari於一篇</span><a href="https://www.wiz.io/blog/black-hat-2021-dns-loophole-makes-nation-state-level-spying-as-easy-as-registering-a-domain" target="_blank" rel="noopener"><span style="font-weight: 400;">部落格文章</span></a><span style="font-weight: 400;">中指出，他們僅透過簡易的手法，便可利用弱點窺探全球500強企業及政府機構在內的15,000個組織，以及數百萬臺裝置的內網訊務。</span></p>
+<p><span style="font-weight: 400;">Tamari在部落格中解釋，Amazon Web Service（AWS）的雲端DNS服務平臺Route 53，總共設有約2,000個伺服器供顧客使用。Route 53提供的是DNS託管服務，而非受理註冊機構提供的域名註冊服務。換句話說，Route 53只負責幫顧客保存DNS紀錄，使用者在Route 53帳戶中新增的域名，本質上與透過受理註冊機構「註冊」的域名大不相同，並不代表使用者實際上擁有這些域名，或成為這些域名的註冊人。也因此，Route 53並不會檢查使用者是否真正擁有他們在帳戶中新增的域名，因為這些域名並不會影響DNS訊務的實際傳輸。</span></p>
+<p><span style="font-weight: 400;">Tamari等人發現的漏洞，是在Route 53的帳戶中新增與Route 53官方伺服器同名的域名，藉此在伺服器內建立一個新的託管區域。只要有人在Route 53新增域名，系統會隨機指定4個伺服器來管理此域名。Tamari等人於是在帳戶中新增了2,000多筆域名，並設定這些域名都由同名的伺服器管理。如此一來，他們得以取得託管區域的部分掌控權，並將訊務導向自己的IP位址。</span></p>
+<p><span style="font-weight: 400;">以上設定完成後，接下來只要任何DNS客戶端向伺服器查詢自己的IP位址，這些查詢也都會跑到Tamari等人設定的IP位址。</span></p>
+<p><span style="font-weight: 400;">透過這個實驗，Tamari與Luttwak發現許多敏感資料，包括電腦名稱、企業員工姓名、辦公地點及組織暴露的重要網路資訊。Tamari表示，目前Amazon及Google已關閉該弱點，但其他DNS伺服器供應商仍未處理。研究人員將弱點歸因於微軟在Windows系統中所使用的動態DNS（RFC 2136）演算法，但由於微軟並未將其視為弱點，因此不打算作任何修正。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Thomas Claburn (2021). All your DNS were belong to us: AWS and Google Cloud shut down spying vulnerability. The Register.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://www.theregister.com/2021/08/06/aws_google_dns/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.theregister.com/2021/08/06/aws_google_dns/</span></a><span style="font-weight: 400;"> (Aug. 13, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/07/19671/">AWS與Google雲已關閉窺探弱點</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/07/19671/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/07/19671/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[後疫情時代的數位身分證]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/06/19668/" />
+
+		<id>https://blog.twnic.tw/?p=19668</id>
+		<updated>2021-09-06T00:39:43Z</updated>
+		<published>2021-09-06T00:03:49Z</published>
+		<category scheme="https://blog.twnic.tw" term="發展" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="數位身分證" /><category scheme="https://blog.twnic.tw" term="歐洲數位身分錢包" />
+		<summary type="html"><![CDATA[<img width="300" height="170" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0816-0820_後疫情時代的數位身分證-300x170.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>COVID-19疫情促使「低接觸經濟」（low-touch economy）蓬勃發展，人們於網路購物或使用電子支付時，透過臉部或指紋識別驗證身分已成為常態。雖然數位身分驗證相當便利，但同時也構成隱私疑慮。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/06/19668/">後疫情時代的數位身分證</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/06/19668/"><![CDATA[<img width="300" height="170" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0816-0820_後疫情時代的數位身分證-300x170.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">COVID-19疫情促使「</span><a href="https://cybernews.com/editorial/the-rise-of-the-low-touch-economy/" target="_blank" rel="noopener"><span style="font-weight: 400;">低接觸經濟</span></a><span style="font-weight: 400;">」（low-touch economy）蓬勃發展，人們於網路購物或使用電子支付時，透過臉部或指紋識別驗證身分已成為常態。雖然數位身分驗證相當便利，但同時也構成隱私疑慮。</span></p>
+<p><span style="font-weight: 400;">隨著COVID-19疫苗問世，隱私爭議可能上升至國家監控及公民自由權的層次。疫苗能降低重症及死亡風險，並因此被視為擺脫疫情的最佳方案，各國政府也開始探索如何設計或利用「疫苗護照」，再次開放經濟、學校、旅遊及社會。</span></p>
+<p><span style="font-weight: 400;">假設COVID-19病毒持續變異導致未來每年皆須接種疫苗，公民的社會參與權利將由是否持有數位身分證及接種疫苗所決定，若疫苗護照中的資料最終出售給私人企業，亦可能損及個人利益。</span></p>
+<p><span style="font-weight: 400;">歐盟執委會（European Commission，EC）推出能取代紙本文件的「</span><a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_21_2663" target="_blank" rel="noopener"><span style="font-weight: 400;">歐洲數位身分錢包</span></a><span style="font-weight: 400;">」（European Digital Identity Wallet），這個供用戶儲存電子身分證及其他官方文件（包括駕照、服藥狀況、年齡及學歷證明等）的App並非強制措施，目的在於限制企業取得、控制及利用公民個資。舉例而言，用戶即使不在Google或Facebook上建立帳戶，也能利用數位身分錢包使用Google或Facebook服務，如此一來，使用者得以更全面管理自己的資料。</span></p>
+<p><span style="font-weight: 400;">另一方面，有了數位身分錢包，社群媒體或其他網站需要的年齡驗證結果也會更加準確。目前各國政府皆在推廣數位身分證，透過該政策，公民無須揭露個資便能驗證身分或年齡。</span></p>
+<p><a href="https://www.weforum.org/agenda/2021/01/davos-agenda-digital-identity-frameworks/" target="_blank" rel="noopener"><span style="font-weight: 400;">世界經濟論壇</span></a><span style="font-weight: 400;">（World Economic Forum，WEF）已開始討論數位身分證將如何改善後疫情時代的生活，但人們也開始擔憂，未來須透過驗證身分及疫苗接種證明換取基本自由，更重要的是，透過數位身分證，政府可以保護公民為由，遂行大規模監控及審查。此外，若所有網路行為皆被追蹤，那麼公民使用網路的習慣及生活方式是否有外洩風險？種種質疑都為政府帶來新的挑戰。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Neil C.Hughes (2021). Digital ID in a post-pandemic world. Cyber News.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://cybernews.com/editorial/digital-id-in-a-post-pandemic-world/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://cybernews.com/editorial/digital-id-in-a-post-pandemic-world/</span></a><span style="font-weight: 400;"> (Aug. 13, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/06/19668/">後疫情時代的數位身分證</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/06/19668/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/06/19668/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
 		<title type="html"><![CDATA[APNIC文摘— 個人意見：Akamai的回應聲明非比尋常]]></title>
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/03/19606/" />
 
 		<id>https://blog.twnic.tw/?p=19606</id>
-		<updated>2021-08-18T00:00:55Z</updated>
+		<updated>2021-09-06T00:39:43Z</updated>
 		<published>2021-09-02T23:58:32Z</published>
 		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="APNIC" /><category scheme="https://blog.twnic.tw" term="CDN" /><category scheme="https://blog.twnic.tw" term="outage" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
 		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/APNIC5_8-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>在6月因系統設定失誤導致大規模斷網事件後，內容傳遞網路服務業者Akamai發表了事件調查報告。作者解釋為何這份報告與眾不同，也期許這樣的報告未來成為業界常規。</p>
@@ -65,7 +131,7 @@
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/02/19604/" />
 
 		<id>https://blog.twnic.tw/?p=19604</id>
-		<updated>2021-08-18T00:00:55Z</updated>
+		<updated>2021-09-06T00:39:43Z</updated>
 		<published>2021-09-01T23:58:31Z</published>
 		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term=".AU" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
 		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0819-0823_au禁止使用者註冊奧運相關域名-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>國際奧林匹克委員會於2021年7月21日宣布，2032年的奧運將於澳洲布里斯本舉行，一週之後，澳洲國碼頂級域名（ccTLD）註冊管理機構auDA隨即發表部落格文章，要求使用者停止註冊與奧運相關的域名，因為這些域名將無法使用。</p>
@@ -104,7 +170,7 @@
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/01/19680/" />
 
 		<id>https://blog.twnic.tw/?p=19680</id>
-		<updated>2021-08-23T00:10:54Z</updated>
+		<updated>2021-09-06T00:39:43Z</updated>
 		<published>2021-09-01T00:03:52Z</published>
 		<category scheme="https://blog.twnic.tw" term="技術" /><category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="APNIC" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="衛星通訊" />
 		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/8-2_通用域名（gTLD）權利保護機制簡介-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>現在許多人開始吹捧衛星網路，聲稱它的傳輸速率會比地面網路更快。但有一個決定你究竟能否使用衛星網路，甚至網路服務內容是否符合期待的關鍵，是當地的國家法規。</p>
@@ -143,7 +209,7 @@
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/01/19602/" />
 
 		<id>https://blog.twnic.tw/?p=19602</id>
-		<updated>2021-08-18T00:00:55Z</updated>
+		<updated>2021-09-06T00:39:43Z</updated>
 		<published>2021-08-31T23:58:30Z</published>
 		<category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="Facebook" /><category scheme="https://blog.twnic.tw" term="Instagram" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
 		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0819-0823_Facebook與-Instagram-將限制以青少年用戶為目標的廣告投放方式-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>根據Facebook發布的最新政策，其將修正Facebook 、Messenger及Instagram未滿18歲用戶的廣告投放限制，未來廣告商僅能依據用戶年齡、性別及所在位置對未成年用戶投放廣告。</p>
@@ -167,6 +233,39 @@
 			</entry>
 		<entry>
 		<author>
+			<name>電子報</name>
+					</author>
+
+		<title type="html"><![CDATA[「第36屆TWNIC IP政策資源管理會議」歡迎您踴躍報名參加！]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/31/19826/" />
+
+		<id>https://blog.twnic.tw/?p=19826</id>
+		<updated>2021-09-06T07:29:42Z</updated>
+		<published>2021-08-31T08:46:56Z</published>
+		<category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="電子報焦點" /><category scheme="https://blog.twnic.tw" term="IPv6" /><category scheme="https://blog.twnic.tw" term="OPM" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/Banner-1280-720-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>會議議題將包含網路管轄權、網際安全、網路資源管理及國內業者IPv6經驗分享等主題，並邀請國內外重量級嘉賓進行專題演講，介紹網際網路重要議題之發展。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19826/">「第36屆TWNIC IP政策資源管理會議」歡迎您踴躍報名參加！</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/08/31/19826/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/Banner-1280-720-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">為提供臺灣網路界一個可以討論IP網路技術相關議題的社群與機制平台，TWNIC將於10月06日線上舉辦 「第36屆TWNIC IP政策資源管理會議」。</span></p>
+<p><span style="font-size: 14pt;">本會議希望促進網際網路相關產業發展為目標之會議，提供各界有關網路技術研究、產業發展之溝通交流平台，彙集臺灣地區各ISP業者之意見提供相關IP政策及管理機制。</span></p>
+<p><span style="font-size: 14pt;">本次會議議題將包含網路管轄權、網際安全、網路資源管理及國內業者IPv6經驗分享等主題，並邀請國內外重量級嘉賓進行專題演講，介紹網際網路重要議題之發展。</span></p>
+<p><span style="font-size: 14pt;">本會議系列活動場場精彩可期，意者請儘速報名。欲報名及瞭解詳細議程內容，請上活動網址：<a href="https://opm.twnic.tw/36th/" target="_blank" rel="noopener">https://opm.twnic.tw/36th/</a></span></p>
+<ul>
+<li><span style="font-size: 14pt;">活動日期：2021年10月06日</span></li>
+<li><span style="font-size: 14pt;">活動地點：YouTube線上直播</span></li>
+<li><span style="font-size: 14pt;">參加對象：資訊從業人員、網路管理人員、ISP及電信業者、對網際網路資源發放政策有興趣之社會大眾</span></li>
+<li><span style="font-size: 14pt;">報名費用：免費參加</span></li>
+</ul>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19826/">「第36屆TWNIC IP政策資源管理會議」歡迎您踴躍報名參加！</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19826/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19826/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
 			<name>TWNIC</name>
 					</author>
 
@@ -174,7 +273,7 @@
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/31/19780/" />
 
 		<id>https://blog.twnic.tw/?p=19780</id>
-		<updated>2021-08-31T09:03:39Z</updated>
+		<updated>2021-09-06T00:29:52Z</updated>
 		<published>2021-08-31T08:13:51Z</published>
 		<category scheme="https://blog.twnic.tw" term="最新消息" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="DNS" /><category scheme="https://blog.twnic.tw" term="HTTPS" /><category scheme="https://blog.twnic.tw" term="IP" /><category scheme="https://blog.twnic.tw" term="網域名稱" />
 		<summary type="html"><![CDATA[<img width="300" height="156" src="https://blog.twnic.tw/wp-content/uploads/2021/08/C1-1-300x156.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>TWNIC與日本域名註冊管理服務公司（JPRS）合作翻譯漫畫小手冊「彭太的網路大冒險（ポン太のネットの大冒険）」，希望以生動活潑的故事介紹平時我們不論是在上網、使用各種應用程式、寄送電子郵件，或是傳送訊息時都會接觸到網際網路不可或缺的網域名稱與DNS系統知識。</p>
@@ -211,39 +310,6 @@
 		
 					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19780/#comments" thr:count="0" />
 			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19780/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>電子報</name>
-					</author>
-
-		<title type="html"><![CDATA[「第36屆TWNIC IP政策資源管理會議」歡迎您踴躍報名參加！]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/31/19826/" />
-
-		<id>https://blog.twnic.tw/?p=19826</id>
-		<updated>2021-09-02T04:17:45Z</updated>
-		<published>2021-08-31T07:46:56Z</published>
-		<category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="電子報焦點" /><category scheme="https://blog.twnic.tw" term="IPv6" /><category scheme="https://blog.twnic.tw" term="OPM" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/Banner-1280-720-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>會議議題將包含網路管轄權、網際安全、網路資源管理及國內業者IPv6經驗分享等主題，並邀請國內外重量級嘉賓進行專題演講，介紹網際網路重要議題之發展。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19826/">「第36屆TWNIC IP政策資源管理會議」歡迎您踴躍報名參加！</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/31/19826/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/Banner-1280-720-1-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">為提供臺灣網路界一個可以討論IP網路技術相關議題的社群與機制平台，TWNIC將於10月06日線上舉辦 「第36屆TWNIC IP政策資源管理會議」。</span></p>
-<p><span style="font-size: 14pt;">本會議希望促進網際網路相關產業發展為目標之會議，提供各界有關網路技術研究、產業發展之溝通交流平台，彙集臺灣地區各ISP業者之意見提供相關IP政策及管理機制。</span></p>
-<p><span style="font-size: 14pt;">本次會議議題將包含網路管轄權、網際安全、網路資源管理及國內業者IPv6經驗分享等主題，並邀請國內外重量級嘉賓進行專題演講，介紹網際網路重要議題之發展。</span></p>
-<p><span style="font-size: 14pt;">本會議系列活動場場精彩可期，意者請儘速報名。欲報名及瞭解詳細議程內容，請上活動網址：<a href="https://opm.twnic.tw/36th/" target="_blank" rel="noopener">https://opm.twnic.tw/36th/</a></span></p>
-<ul>
-<li><span style="font-size: 14pt;">活動日期：2021年10月06日</span></li>
-<li><span style="font-size: 14pt;">活動地點：YouTube線上直播</span></li>
-<li><span style="font-size: 14pt;">參加對象：資訊從業人員、網路管理人員、ISP及電信業者、對網際網路資源發放政策有興趣之社會大眾</span></li>
-<li><span style="font-size: 14pt;">報名費用：免費參加</span></li>
-</ul>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/31/19826/">「第36屆TWNIC IP政策資源管理會議」歡迎您踴躍報名參加！</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/31/19826/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/31/19826/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 		<entry>
@@ -1130,7 +1196,7 @@
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/19/19676/" />
 
 		<id>https://blog.twnic.tw/?p=19676</id>
-		<updated>2021-08-26T04:31:07Z</updated>
+		<updated>2021-09-06T00:28:04Z</updated>
 		<published>2021-08-19T03:46:00Z</published>
 		<category scheme="https://blog.twnic.tw" term="最新消息" /><category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="IGF" /><category scheme="https://blog.twnic.tw" term="網路治理" />
 		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/yIGF-2021--300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>2021亞太青年網路治理論壇將在2021年9月17-20日舉辦，採線上會議模式進行，歡迎18-30歲，對網路治理議題有興趣的大學、研究所及專業青年報名參加。</p>
@@ -2331,76 +2397,6 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 		
 					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/05/19266/#comments" thr:count="0" />
 			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/05/19266/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[世界傑出女性聯合呼籲：科技巨頭應為女性創造更安全的網路環境]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/04/19270/" />
-
-		<id>https://blog.twnic.tw/?p=19270</id>
-		<updated>2021-07-22T05:57:33Z</updated>
-		<published>2021-08-03T23:59:53Z</published>
-		<category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="性別平權" /><category scheme="https://blog.twnic.tw" term="網路暴力" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/世界傑出女性聯合呼籲：科技巨頭應為女性創造更安全的網路環境-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>全球資訊網基金會（World Wide Web Foundation）發布公開信，力促Facebook、Twitter、TikTok及Google四大科技巨頭履行承諾，保障平臺上的女性安全，該信已獲得超過200名世界傑出女性連署。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/04/19270/">世界傑出女性聯合呼籲：科技巨頭應為女性創造更安全的網路環境</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/04/19270/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/世界傑出女性聯合呼籲：科技巨頭應為女性創造更安全的網路環境-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>2021年聯合國世代平權論壇（U.N. Generation Equality Forum）甫落幕。論壇第二天的主題是性別平等，Facebook、Twitter、TikTok及Google四大科技巨頭也提出<a href="https://webfoundation.org/2021/07/generation-equality-commitments/">共同聲明</a>，承諾將打擊網路暴力，積極保障平臺上的女性安全。</p>
-<p>有鑑於此，國際組織全球資訊網基金會（World Wide Web Foundation）發布公開信，敦促這些科技巨頭履行承諾。</p>
-<p>該信獲得超過200名世界傑出女性連署，包括前南非總統曼德拉遺孀Graça Machel、前澳洲首相Julia Gillard、多次大滿貫冠軍得主的美國網壇名將Billie Jean King，以及知名演員Thandiwe Newton、Ashley Judd與Emma Watson。</p>
-<p>信中提到，網際網路已然是21世紀不可或缺的公共場域，但女性身處此空間仍不安全，此情況也將阻礙性別平權持續進步。信中引用由51個國家、超過4,000位女性參與的《經濟學人》（The Economist）2020年研究，指出38%的女性有被網路騷擾的直接經驗。信中也強調，未來女性應更能掌控自己的網路使用體驗；科技公司應該簡化暴力行為提報流程，後續處理情形的追蹤也應該更加簡單。</p>
-<p>Diane Abbott是英國史上首位擔任國會議員的黑人女性，也是連署人之一。Abbott於接受採訪時表示，多年來她飽受網路騷擾之苦，並指出種族歧視與厭女情節仍暗潮洶湧，社群媒體則讓事態變得更糟，每次點開Facebook或Twitter前，她都必須做好看到種族歧視言論的心理準備。</p>
-<p>國際特赦組織（Amnesty International，AI）於2018年做過一項研究，調查英美兩國女性政治人物及記者於Twitter遭遇的網路暴力，研究結果指出，相較於白人女性，黑人女性遭推文羞辱的可能性高出84%。Abbott認為許多年輕女性對從政望之卻步，就是因為他們不想承受這種網路暴力。</p>
-<p>根據這份科技巨頭的承諾，未來使用者在平臺上可以控管參與回覆的對象，同時平臺本身也將進一步強化暴力行為通報機制。</p>
-<p>不少人樂見科技巨頭主動採取行動，但英國反網路暴力團體Glitch的執行長Seyi Akiwowo認為這還不夠。她批評科技巨頭的聲明中對內容規範隻字未提，如何訓練、支援內容審查人員，AI應用於內容審查的方式及限制，也暫無論述。同時，她也認為這些企業仍未正視內部高層人員缺乏多元代表性的現實。</p>
-<p>相關連結：</p>
-<p>Aina J. Khan (2021). Prominent Women Call for Tech Giants to Act Against Online Harassment. The New York Times.</p>
-<p>檢自：</p>
-<p><a href="https://www.nytimes.com/2021/07/01/world/women-online-harassment.html">https://www.nytimes.com/2021/07/01/world/women-online-harassment.html</a> (Jul. 9, 2021)</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/04/19270/">世界傑出女性聯合呼籲：科技巨頭應為女性創造更安全的網路環境</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/04/19270/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/04/19270/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[低調的網路安全領導者：馬來西亞]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/03/19274/" />
-
-		<id>https://blog.twnic.tw/?p=19274</id>
-		<updated>2021-07-25T23:57:54Z</updated>
-		<published>2021-08-02T23:59:52Z</published>
-		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="ITU" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="網路安全指數" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/低調的網路安全強國：馬來西亞-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>根據國際電信聯盟（ITU）發布的全球網路安全指數，馬來西亞榮獲98.06的高分（滿分100），在194個國家中排名第8，該國並非傳統網路強權，但得益於堅實的國家戰略與優質的外交手腕。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/03/19274/">低調的網路安全領導者：馬來西亞</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/03/19274/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/低調的網路安全強國：馬來西亞-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>根據國際電信聯盟（International Telecoms Union，ITU）發布的全球網路安全指數，馬來西亞榮獲98.06的高分（滿分100），在194個國家中排名第8，與俄羅斯及阿拉伯聯合大公國同分，僅以些微差距落後新加坡及南韓。</p>
-<p>在ITU評分的五大領域中，馬來西亞在「處理安全及犯罪的合法框架」、「研發及教育訓練的人才培育」，以及「國際夥伴關係及資訊共享」等三大領域獲得滿分，在組織與技術領域的表現也僅些微失分。自2014年ITU開始排名以來，馬來西亞始終位列前十。</p>
-<p>馬來西亞既非技術強權，亦非盛產駭客的國度，之所以能成為網路安全領導者，倚靠的是國家對網路安全議題的超前部署與堅實的國家戰略。另一方面，廣結盟友、避免樹敵一向是馬來西亞的地緣政治長處，此優勢尤其適用於「資訊是金」的網路安全領域，也值得開發中國家效法。</p>
-<p>馬來西亞的第一個網路安全政策至少可追溯至15年前，當時就訂出許多關鍵領域。如今馬國不僅設有利於資訊共享的關鍵國家資訊基礎建設，還有專門處理緊急事件、每日評估國家安全威脅等級的指揮中心。年度網路安全演習「X-Maya」除了定期測試演練攻擊情境，也包含評量、驗證科技產品安全等級的全套機制。</p>
-<p>上述措施皆非馬來西亞獨創，但ITU的全球網路安全指數首重政府對網路安全議題的投入程度及改善作為，而非國家的網路實力。這也是馬來西亞名列前茅的原因。</p>
-<p>與他國的良好合作關係彌補馬來西亞本身實力的不足。事實上，若只看技術實力，馬國分數將大幅下滑。在綜合評估實力及部署規劃的哈佛大學貝爾佛中心（Belfer Center）排名中，馬來西亞在30個國家裡僅排名第19位。貝爾佛中心的分析指出，馬來西亞的網路防禦能力及對資訊戰的掌握相對不足，也吝於展現攻擊與情蒐實力。</p>
-<p>儘管馬來西亞國內戰略與外交手腕俱佳，但由於低調而不願展現網路實力，該國在國際戰略研究所（International Institute for Strategic Studies，IISS）的網路實力排名中被歸屬為第三階層，落後於澳洲、法國及以色列等國。</p>
-<p>IISS研究員Greg Austin表示，第三階層的國家須透過外交手腕取得強國支持以確保網路安全。對全球事務細緻入微的處理及中立的態度，幫助馬來西亞獲取國際信任，因此得以被納入網路強權的情報網。</p>
-<p>相關連結：</p>
-<p>Tim Culpan (2021). This Asian Nation Is a Quiet Leader in Cybersecurity. Bloomberg Opinion.</p>
-<p>檢自：</p>
-<p><a href="https://www.bloomberg.com/opinion/articles/2021-07-01/malaysia-makes-the-cybersecurity-top-10-with-some-help-from-its-friends">https://www.bloomberg.com/opinion/articles/2021-07-01/malaysia-makes-the-cybersecurity-top-10-with-some-help-from-its-friends</a> (Jul. 9, 2021)</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/03/19274/">低調的網路安全領導者：馬來西亞</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/03/19274/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/03/19274/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 	</feed>

@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Fri, 03 Sep 2021 13:36:50 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 06 Sep 2021 04:34:16 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,6 +13,414 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>AppSync调试方法</title>
+		<link>https://aws.amazon.com/cn/blogs/china/appsync-debugging-method/</link>
+				<pubDate>Mon, 06 Sep 2021 04:34:16 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Analytics]]></category>
+		<category><![CDATA[AWS AppSync]]></category>
+
+		<guid isPermaLink="false">4c5a3c82b2b52a29bbb651679d6013515f529091</guid>
+				<description>GraphQL是一种新的API规范及查询语言，它按照客户的查询需求“不多不少”准确返回查询结果。它通过简明的类型系统描述查询及返回结果。GraphQL 通常通过单入口来提供 HTTP 服务的完整功能，这一实现方式与暴露一组 URL 且每个 URL 只暴露一个资源的 REST API 不同。GraphQL可以通过 GraphQL schema 的持续演进来避免版本控制。</description>
+								<content:encoded>&lt;h2&gt;一. GraphQL简介&lt;/h2&gt; 
+&lt;p&gt;GraphQL是一种新的API规范及查询语言，它按照客户的查询需求“不多不少”准确返回查询结果。它通过简明的类型系统描述查询及返回结果。GraphQL 通常通过单入口来提供 HTTP 服务的完整功能，这一实现方式与暴露一组 URL 且每个 URL 只暴露一个资源的 REST API 不同。GraphQL可以通过 GraphQL schema 的持续演进来避免版本控制。&lt;/p&gt; 
+&lt;p&gt;关于GraphQL的规范请参考：&lt;a href="https://graphql.org/"&gt;https://graphql.org/&lt;/a&gt;。&lt;/p&gt; 
+&lt;h2&gt;二.&amp;nbsp; AppSync简介&lt;/h2&gt; 
+&lt;p&gt;AWS AppSync 是一项完全托管的服务，通过处理与 AWS DynamoDB、Lambda 等数据源之间繁重的安全连接任务来简化 GraphQL API 的开发。添加缓存以提高性能、订阅以支持实时更新以及客户端数据存储以使离线客户端保持同步等操作也一样轻松简单。&lt;/p&gt; 
+&lt;p&gt;通过托管的 GraphQL 订阅，AWS AppSync 可以通过 Websocket 向数百万客户端推送实时数据更新。对于移动和 Web 应用程序，AppSync 还可在设备离线时提供本地数据访问，并在它们重新上线后提供支持自定义冲突解决方案的数据同步功能。&lt;/p&gt; 
+&lt;p&gt;关于AppSync的更详细的介绍请参考：&lt;a href="https://aws.amazon.com/cn/appsync/"&gt;https://aws.amazon.com/cn/appsync/&lt;/a&gt;。&lt;/p&gt; 
+&lt;h2&gt;三. AppSync常见调试工具&lt;/h2&gt; 
+&lt;p&gt;AppSync支持以下认证授权方式：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;API Key&lt;/li&gt; 
+ &lt;li&gt;IAM&lt;/li&gt; 
+ &lt;li&gt;OpenID Connect&lt;/li&gt; 
+ &lt;li&gt;Lambda&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;不同的授权方式，直接影响调试的复杂度。本文以最为常用的API Key及IAM授权方式进行分析。&lt;/p&gt; 
+&lt;table border="1" width="433"&gt; 
+ &lt;tbody&gt; 
+  &lt;tr&gt; 
+   &lt;td rowspan="2" width="87"&gt;tool&lt;/td&gt; 
+   &lt;td colspan="2" width="173"&gt;Query and Mutation&lt;/td&gt; 
+   &lt;td colspan="2" width="173"&gt;Real-time Subscription&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="87"&gt;API Key&lt;/td&gt; 
+   &lt;td width="87"&gt;IAM&lt;/td&gt; 
+   &lt;td width="87"&gt;API Key&lt;/td&gt; 
+   &lt;td width="87"&gt;IAM&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="87"&gt;Postman&lt;/td&gt; 
+   &lt;td width="87"&gt;√&lt;/td&gt; 
+   &lt;td width="87"&gt;√&lt;/td&gt; 
+   &lt;td width="87"&gt;√&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="87"&gt;websocat&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+   &lt;td width="87"&gt;√&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="87"&gt;wscat&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+   &lt;td width="87"&gt;√&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="87"&gt;curl&lt;/td&gt; 
+   &lt;td width="87"&gt;√&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td width="87"&gt;wget&lt;/td&gt; 
+   &lt;td width="87"&gt;√&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+   &lt;td width="87"&gt;x&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/tbody&gt; 
+&lt;/table&gt; 
+&lt;h2&gt;&lt;/h2&gt; 
+&lt;h2&gt;四. AppSync的WebSocket验证授权方法&lt;/h2&gt; 
+&lt;p&gt;AppSync的验证授权遵循&lt;a href="https://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html"&gt;Amazon Web Service v4 Signature&lt;/a&gt;。但是对于real-time subscription，须遵循&lt;a href="https://docs.aws.amazon.com/appsync/latest/devguide/real-time-websocket-client.html"&gt;https://docs.aws.amazon.com/appsync/latest/devguide/real-time-websocket-client.html&lt;/a&gt;，完成websocket协议上的验证授权。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 从上述图例，我们可以明确：&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;Query和Mutation的endpoint协议为HTTPS。&lt;/li&gt; 
+ &lt;li&gt;Real-Time subscription的endpoint协议为WebSocket。即Real-Time subscription无法接入协议为 HTTPS的endpoint。&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;p&gt;在进行Real-Time subscription时，我们需要指定WebSocket sub protocol：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;Sec-WebSocket-Protocol：graphql-ws&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;通过aws cli我们可以获得AppSync的endpoint 信息。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;aws appsync get-graphql-api --api-id b553xzgnijdtjjvli67zc3zmly
+{
+    "graphqlApi": {
+        "name": "demo1",
+        "apiId": "b553xzgnijdtjjvli67zc3zmly",
+        "authenticationType": "API_KEY",
+        "logConfig": {
+            "fieldLogLevel": "ERROR",
+            "cloudWatchLogsRoleArn": "arn:aws-cn:iam::162611943124:role/service-role/appsync-graphqlapi-logs-cn-north-1",
+            "excludeVerboseContent": false
+        },
+        "arn": "arn:aws-cn:appsync:cn-north-1:162611943124:apis/b553xzgnijdtjjvli67zc3zmly",
+        "uris": {
+            "REALTIME": "wss://vlvwhsddczatlel4l4b4k4ygri.appsync-realtime-api.cn-north-1.amazonaws.com.cn/graphql",
+            "GRAPHQL": "https://vlvwhsddczatlel4l4b4k4ygri.appsync-api.cn-north-1.amazonaws.com.cn/graphql"
+        },
+        "tags": {},
+        "xrayEnabled": false
+    }
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;所有的验证授权都是在”GRAPHQL” endpoint上完成，对于Query和Mutation非常易于理解；而实时订阅首先从在”GRAPHQL” endpoint 上获得验证授权信息，然后在”REALTIME” endpoint上进行数据的交互。&lt;/p&gt; 
+&lt;p&gt;客户端在handshake过程中完成与AppSync的验证授权。验证授权过程中必须携带的信息：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;header&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;base64编码的字符串化的JSON对象。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;payload&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;base64编码的负荷。&lt;/p&gt; 
+&lt;p&gt;API KEY的验证授权&lt;/p&gt; 
+&lt;p&gt;基于API KEY的验证授权，其header JSON对象为：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;{
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp; "host":"example1234567890000.appsync-api.us-east-1.amazonaws.com",
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp; "x-api-key":"da2-12345678901234567890123456"
+
+}&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;其payload JSON对象为：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;{}&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;WebSocket连接串为：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;wss://host/graphql?header&amp;amp;amp;payload&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;例如：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;wss://vlvwhsddczatlel4l4b4k4ygri.appsync-realtime-api.cn-north-1.amazonaws.com.cn/graphql?header=eyJob3N0IjogInZsdndoc2RkY3phdGxlbDRsNGI0azR5Z3JpLmFwcHN5bmMtYXBpLmNuLW5vcnRoLTEuYW1hem9uYXdzLmNvbS5jbiIsICJ4LWFwaS1rZXkiOiAiZGEyLWQ3YW5lcDdtYXJobnZuenp6NTQzbjY0ZHZ1In0=&amp;amp;amp;payload=e30=&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;基于IAM的验证授权&lt;/p&gt; 
+&lt;p&gt;基于IAM的验证授权，验证授权http的信息汇总为：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;{
+  url: "https://example1234567890000.appsync-api.us-east-1.amazonaws.com/graphql/connect",
+  data: "{}",
+  method: "POST",
+  headers: {
+    "accept": "application/json, text/javascript",
+    "content-encoding": "amz-1.0",
+    "content-type": "application/json; charset=UTF-8",
+  }
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;基于上述内容进行V4的签名认证，基于规范“/connect”被添加到cannocial uri后，其正确内容应为：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;canonical_uri = '/graphql/connect'&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;基于上述信息完成V4签名后，基于IAM验证授权的header JSON对象为：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;{
+    "accept": "application/json, text/javascript",
+    "content-encoding": "amz-1.0",
+    "content-type": "application/json; charset=UTF-8",
+    "host": "vlvwhsddczatlel4l4b4k4ygri.appsync-api.cn-north-1.amazonaws.com.cn",
+    "x-amz-date": "20210903T065522Z",
+    "Authorization": "AWS4-HMAC-SHA256 Credential=AKIASLXDNK3KFKRBJQU3/20210903/cn-north-1/appsync/aws4_request, SignedHeaders=host;x-amz-date, Signature=a50cc5ab866de3381e5c85ae0fefefb46f7522d62e0a79fb95f9340975382a75"
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;其payload JSON对象为：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;{}&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;其wss链接串为：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;wss://vlvwhsddczatlel4l4b4k4ygri.appsync-realtime-api.cn-north-1.amazonaws.com.cn/graphql?header=eyJhY2NlcHQiOiAiYXBwbGljYXRpb24vanNvbiwgdGV4dC9qYXZhc2NyaXB0IiwgImNvbnRlbnQtZW5jb2RpbmciOiAiYW16LTEuMCIsICJjb250ZW50LXR5cGUiOiAiYXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOCIsICJob3N0IjogInZsdndoc2RkY3phdGxlbDRsNGI0azR5Z3JpLmFwcHN5bmMtYXBpLmNuLW5vcnRoLTEuYW1hem9uYXdzLmNvbS5jbiIsICJ4LWFtei1kYXRlIjogIjIwMjEwOTAzVDA2NTUyMloiLCAiQXV0aG9yaXphdGlvbiI6ICJBV1M0LUhNQUMtU0hBMjU2IENyZWRlbnRpYWw9QUtJQVNMWEROSzNLRktSQkpRVTMvMjAyMTA5MDMvY24tbm9ydGgtMS9hcHBzeW5jL2F3czRfcmVxdWVzdCwgU2lnbmVkSGVhZGVycz1ob3N0O3gtYW16LWRhdGUsIFNpZ25hdHVyZT1hNTBjYzVhYjg2NmRlMzM4MWU1Yzg1YWUwZmVmZWZiNDZmNzUyMmQ2MmUwYTc5ZmI5NWY5MzQwOTc1MzgyYTc1In0=&amp;amp;amp;payload=e30=&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;五. Postman调试&lt;/h2&gt; 
+&lt;h3&gt;（一）基于API Key的Query调试&lt;/h3&gt; 
+&lt;p&gt;选择授权类型为：API Key，设置key：x-api-key，及其值。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 输入查询内容：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;返回查询结果：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;（二）基于API Key的Real-Time Subscription&lt;/h3&gt; 
+&lt;p&gt;第一步，选择New&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 第二步，选择WebSocket Request Beta&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 第三步，在“Params”内依次填入base64编码的：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;header&lt;/li&gt; 
+ &lt;li&gt;payload&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;第四步，在Headers内填入：&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method8.png" width="624" height="78"&gt;&lt;br&gt; 第五步，在“Enter server URL”填入wss endpoint,然后点connect。&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method9.png" width="624" height="78"&gt;第六步，在“Compose Message”内填入订阅信息：&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method10.png" width="624" height="78"&gt;然后点“Send”&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 当有数据更新时，实时接收到更新&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method12.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;（三）基于IAM的实时订阅&lt;/h3&gt; 
+&lt;p&gt;由于涉及到V4签名，基于IAM的实时订阅无法通过Postman等工具进行测试。本文将基于python WebSocket进行测试。&lt;/p&gt; 
+&lt;p&gt;代码可以从https://github.com/picomy/appsync-websocket下载。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;import sys, os, hashlib, hmac
+from base64 import b64encode, decode
+from datetime import datetime
+from uuid import uuid4
+import websocket
+import threading
+import json
+
+# ************************** Reference **************************
+# https://docs.aws.amazon.com/appsync/latest/devguide/real-time-websocket-client.html
+# https://docs.aws.amazon.com/general/latest/gr/sigv4-signed-request-examples.html
+# https://docs.aws.amazon.com/apigateway/api-reference/signing-requests/
+# ************************** Reference **************************
+
+# The client connect to wss_url through websocket protocol 
+wss_url = 'wss://vlvwhsddczatlel4l4b4k4ygri.appsync-realtime-api.cn-north-1.amazonaws.com.cn/graphql'
+
+# The client will authenticate itself from http_url through http protocol
+# Query and mutation will be ran within http_url endpoint
+http_url = 'https://vlvwhsddczatlel4l4b4k4ygri.appsync-api.cn-north-1.amazonaws.com.cn/graphql'
+
+host = http_url.replace('https://','').replace('/graphql','')
+# IAM authentication method
+method = 'POST'
+region = 'cn-north-1'
+service = 'appsync'
+access_key = 'xxxxxxxxxx'
+secret_key = 'xxxxxxxxxx'
+canonical_uri = '/graphql/connect' 
+canonical_querystring = ''
+# payload type has to be string
+payload = '{}'
+accept = "application/json, text/javascript"
+content_encoding = "amz-1.0"
+content_type = "application/json; charset=UTF-8"
+
+# ********************************** AWS V4 Signature **********************************
+def sign(key, msg):
+    return hmac.new(key, msg.encode('utf-8'), hashlib.sha256).digest()
+
+def getSignatureKey(key, dateStamp, regionName, serviceName):
+    kDate = sign(('AWS4' + key).encode('utf-8'), dateStamp)
+    kRegion = sign(kDate, regionName)
+    kService = sign(kRegion, serviceName)
+    kSigning = sign(kService, 'aws4_request')
+    return kSigning
+
+def gen_auth(servic_name, region_name, ak, sk, canonical_uri, canonical_querystring, payload):
+    t = datetime.utcnow()
+    amzdate = t.strftime('%Y%m%dT%H%M%SZ')
+    datestamp = t.strftime('%Y%m%d') # Date w/o time, used in credential scope
+    payload_hash = hashlib.sha256(payload.encode('utf-8')).hexdigest()
+    canonical_headers = 'host:' + host + '\n' + 'x-amz-date:' + amzdate + '\n'
+    signed_headers = 'host;x-amz-date'
+    canonical_request = method + '\n' + canonical_uri + '\n' + canonical_querystring + '\n' + canonical_headers + '\n' + signed_headers + '\n' + payload_hash
+    algorithm = 'AWS4-HMAC-SHA256'
+    credential_scope = datestamp + '/' + region + '/' + service + '/' + 'aws4_request'
+    string_to_sign = algorithm + '\n' +  amzdate + '\n' +  credential_scope + '\n' +  hashlib.sha256(canonical_request.encode('utf-8')).hexdigest()
+    signing_key = getSignatureKey(secret_key, datestamp, region, service)
+    signature = hmac.new(signing_key, (string_to_sign).encode('utf-8'), hashlib.sha256).hexdigest()
+    authorization_header = algorithm + ' ' + 'Credential=' + access_key + '/' + credential_scope + ', ' +  'SignedHeaders=' + signed_headers + ', ' + 'Signature=' + signature
+    return ({'auth_date':amzdate,'auth_header':authorization_header})
+
+# *************************** AppSync: websocket ***************************
+# Generate IAM authentication header
+auth = gen_auth(service,region,access_key,secret_key,canonical_uri,canonical_querystring,payload)
+
+iam_header = {
+    'accept': accept,
+    'content-encoding': content_encoding,
+    'content-type': content_type,
+    'host': host,
+    'x-amz-date': auth['auth_date'],
+    'Authorization': auth['auth_header']
+}
+
+# GraphQL subscription Registration object
+GQL_SUBSCRIPTION = json.dumps({
+        'query': 'subscription MySubscription {subscribeToEventComments(eventId: "0534ad04-fd29-49d6-815a-fa64a80979c1") {commentId content createdAt eventId } }',
+        'variables': {}
+})
+
+
+# Set up Timeout Globals
+timeout_timer = None
+timeout_interval = 10
+# Subscription ID (client generated)
+SUB_ID = str(uuid4())
+
+# Calculate UTC time in ISO format (AWS Friendly): YYYY-MM-DDTHH:mm:ssZ
+def header_time():
+    return datetime.utcnow().isoformat(sep='T',timespec='seconds') + 'Z'
+
+# Encode Using Base 64
+def header_encode( header_obj ):
+    return b64encode(json.dumps(header_obj).encode('utf-8')).decode('utf-8')
+
+# reset the keep alive timeout daemon thread
+def reset_timer( ws ):
+    global timeout_timer
+    global timeout_interval
+
+    if (timeout_timer):
+        timeout_timer.cancel()
+    timeout_timer = threading.Timer( timeout_interval, lambda: ws.close() )
+    timeout_timer.daemon = True
+    timeout_timer.start()
+
+# Socket Event Callbacks, used in WebSocketApp Constructor
+def on_message(ws, message):
+    global timeout_timer
+    global timeout_interval
+
+    print('### message ###')
+    print('&amp;lt;&amp;lt; ' + message)
+
+    message_object = json.loads(message)
+    message_type   = message_object['type']
+
+    if( message_type == 'ka' ):
+        reset_timer(ws)
+
+    elif( message_type == 'connection_ack' ):
+        timeout_interval = int(json.dumps(message_object['payload']['connectionTimeoutMs']))
+        payload = GQL_SUBSCRIPTION
+        canonical_uri ='/graphql'
+        sub_auth = gen_auth(service,region,access_key,secret_key,canonical_uri,canonical_querystring,payload)
+        register = {
+            'id': SUB_ID,
+            'payload': {
+                'data': GQL_SUBSCRIPTION,
+                'extensions': {
+                    'authorization': {
+                        'host': host,
+                        'Authorization': sub_auth['auth_header'],
+                        'x-amz-date': sub_auth['auth_date']
+                    }
+                }
+            },
+            'type': 'start'
+        }
+        start_sub = json.dumps(register)
+        print('&amp;gt;&amp;gt; '+ start_sub )
+        ws.send(start_sub)
+
+    elif(message_type == 'data'):
+        deregister = {
+            'type': 'stop',
+            'id': SUB_ID
+        }
+        end_sub = json.dumps(deregister)
+        print('&amp;gt;&amp;gt; ' + end_sub )
+        ws.send(end_sub)
+
+    elif(message_object['type'] == 'error'):
+        print ('Error from AppSync: ' + message_object['payload'])
+    
+def on_error(ws, error):
+    print('### error ###')
+    print(error)
+
+def on_close(ws):
+    print('### closed ###')
+
+def on_open(ws):
+    print('### opened ###')
+    init = {
+        'type': 'connection_init'
+    }
+    init_conn = json.dumps(init)
+    print('&amp;gt;&amp;gt; '+ init_conn)
+    ws.send(init_conn)
+
+if __name__ == '__main__':
+    # Uncomment to see socket bytestreams
+    #websocket.enableTrace(True)
+
+    # Set up the connection URL, which includes the Authentication Header
+    #   and a payload of '{}'.  All info is base 64 encoded
+    connection_url = wss_url + '?header=' + header_encode(iam_header) + '&amp;amp;payload=e30='
+
+    # Create the websocket connection to AppSync's real-time endpoint
+    #  also defines callback functions for websocket events
+    #  NOTE: The connection requires a subprotocol 'graphql-ws'
+    print( 'Connecting to: ' + connection_url )
+
+    ws = websocket.WebSocketApp( connection_url,
+                            subprotocols=['graphql-ws'],
+                            on_open = on_open,
+                            on_message = on_message,
+                            on_error = on_error,
+                            on_close = on_close,)
+
+    ws.run_forever()
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;实际运行结果：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/AppSync debugging method13.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/picomy.jpg" width="125"&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;杨帅军&lt;/h3&gt; 
+  &lt;p&gt;资深数据架构师，专注于数据处理。目前主要为车企提供数据治理服务。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
 		<title>Amazon Managed Grafana 现已全面推出，并具有许多新功能</title>
 		<link>https://aws.amazon.com/cn/blogs/china/amazon-managed-grafana-is-now-generally-available-with-many-new-features/</link>
 				<pubDate>Fri, 03 Sep 2021 13:36:50 +0000</pubDate>
@@ -1619,296 +2027,6 @@ a.userIdentity.username
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;柳向全&lt;/h3&gt; 
   &lt;p&gt;AWS 解决方案架构师，负责基于AWS的云计算方案架构的咨询和设计，目前主要专注于容器和大数据技术领域研究和AWS云服务在国内和全球的应用和推广。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>云原生编排数据分析管道初探</title>
-		<link>https://aws.amazon.com/cn/blogs/china/preliminary-study-on-cloud-native-data-analysis-pipeline-orchestration/</link>
-				<pubDate>Tue, 31 Aug 2021 09:38:55 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Analytics]]></category>
-		<category><![CDATA[AWS Glue]]></category>
-		<category><![CDATA[AWS Step Functions]]></category>
-
-		<guid isPermaLink="false">0b70c5edda6b82f38e382a0cee30e9d3989f70d1</guid>
-				<description>公有云是适合数据分析和大数据处理的天然平台。近年来，云服务和开源社区涌现出许多优秀的工作流编排工具，方便就数据分析中复杂的抽取转换加载 (ETL) 过程进行任务编排。要成功运行数据分析管道，需要至少两个必要准备，一是搭建好支持运行数据管道的基础设施。二是编排好数据管道的 ETL 任务顺序。前者涉及运维，后者事关业务。从数据分析的角度，则希望运维难度最小，业务易用度最大。本文从上述两个角度切入，就 Airflow 和状态机支持数据分析管道的情况进行分析，并初步探讨云原生编排数据管道的方法和意义。</description>
-								<content:encoded>&lt;h2&gt;摘要&lt;/h2&gt; 
-&lt;p&gt;公有云是适合数据分析和大数据处理的天然平台。近年来，云服务和开源社区涌现出许多优秀的工作流编排工具，方便就数据分析中复杂的抽取转换加载 (ETL) 过程进行任务编排。亚马逊云科技（亚马逊）的 Step Functions 状态机和开源社区的 Airflow 是其中的典型代表。要成功运行数据分析管道，需要至少两个必要准备，一是搭建好支持运行数据管道的基础设施，例如部署好 Airflow 的调度器和执行器等。二是编排好数据管道的 ETL 任务顺序，例如状态机的 JSON 定义文件或者 Airflow 的有向无环图定义。前者涉及运维，后者事关业务。从数据分析的角度，则希望运维难度最小，业务易用度最大。本文从上述两个角度切入，就 Airflow 和状态机支持数据分析管道的情况进行分析，并初步探讨云原生编排数据管道的方法和意义。&lt;/p&gt; 
-&lt;h2&gt;Abstract&lt;/h2&gt; 
-&lt;p&gt;Public cloud is one of the most suitable platforms for data analysis and big data processing. In recent years, many excellent workflow orchestration tools have proliferated in cloud services and open source communities to facilitate orchestration of complex ETL jobs in data analysis. AWS Step Functions and Airflow from open source community are two typical examples. To run the data analysis pipelines successfully, at least two steps are necessary. Firstly, to build the infrastructure to support running the data pipelines, such as the deployment of Airflow’s schedulers and executors. Secondly, to orchestrate the ETL tasks in the data pipelines, such as the JSON definition of the state machine or Airflow’s directed acyclic graph definition. The former involves dev-ops, while the latter is related to application. From the perspective of data analysis, it is ideal that the difficulty of dev-ops is minimized, and the user-friendliness of application is maximized. This article analyzes how well Airflow and Step Functions support data analysis pipelines from the above two points of view, and preliminarily discusses the methodology and significance of cloud-native services for orchestrating data pipelines.&lt;/p&gt; 
-&lt;h3&gt;目标读者&lt;/h3&gt; 
-&lt;p&gt;本文预期读者需要掌握以下技术的基础知识：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;Apache Airflow 及其相关概念&lt;/li&gt; 
- &lt;li&gt;亚马逊开发包：CDK, SDK&lt;/li&gt; 
- &lt;li&gt;亚马逊服务：CloudTrail, EventBridge, Glue, Lambda, MWAA, Redshift, S3, Step Functions, VPC, 密码管理器&lt;/li&gt; 
- &lt;li&gt;语言：Javascript, JSON, Python&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;h3&gt;开放源代码&lt;/h3&gt; 
-&lt;p&gt;本文所述解决方案源代码开放：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;a href="https://github.com/aws-samples/aws-stepfunctions-data-processing-pipeline"&gt;https://github.com/aws-samples/aws-stepfunctions-data-processing-pipeline&lt;/a&gt;&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;h2&gt;绪论&lt;/h2&gt; 
-&lt;p&gt;2020年11月，亚马逊发布了托管的 Airflow 服务，全称为 Managed Workflows for Apache Airflow (MWAA)，支持 1.10.12 版。2021年5月开始支持 2.0.2 版。但截至目前（2021年8月），中国北京区、宁夏区和香港区皆未提供托管服务。如果要使用 Airflow，则需要自行搭建部署，例如利用 Elastic Container Service。或者换成其他云原生的编排服务，例如 Step Functions 状态机或 Simple Workflow Service。本文以某 MWAA 的数据分析指导教程为引子，介绍 MWAA 资源代码化的方法，并对如何在中国区使用云原生服务达到类似编排数据分析管道的目的，进行初探。&lt;/p&gt; 
-&lt;h2&gt;教程简介&lt;/h2&gt; 
-&lt;p&gt;&lt;a href="https://amazon-mwaa-for-analytics.workshop.aws/en/"&gt;MWAA 数据分析管道指导教程&lt;/a&gt;是指导利用 MWAA 搭建数据分析管道的教程。该分析管道较简单，线性分为五步，分别是监控文件，爬元数据，转换数据，整合数据，保存结果。简单起见，本文将第四步改造为 Glue 任务，不使用 Elastic MapReduce 集群。部署好的数据管道有向无环图如下：&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline1.png" width="624"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;以 MWAA 为基础的架构图如下所示。虚线和编号表示该数据管道运行时的数据流向和任务执行顺序。此处不同服务的调用是通过 Airflow 的操作符间接完成的，以 Python 定义在数据管道的有向无环图中。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline2.png" width="500"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;根据该教程介绍，完成时间为一小时左右。抛开初学者的因素，所用时间较长主要是因为所涉及的资源及其配置都是在亚马逊控制台上手工完成，非常耗时，效率低下。如果利用资源代码化技术，则部署时间可以在数分钟内完成（排除 MWAA 自身启动需要的约半小时），提高工作效率，尤其在需要多环境部署测试的情况下。&lt;/p&gt; 
-&lt;h3&gt;资源代码化&lt;/h3&gt; 
-&lt;p&gt;利用亚马逊云开发包 (Cloud Development Kit)，可快速构建云资源部署程序。结合相关代码仓库管理工具如 github，可代码化管理资源的创建和修改过程，方便协同工作和排错溯源。限于篇幅以下仅展示关键代码。完整代码请参阅开放源代码。首先建立 Redshift 集群。云开发包建立好集群后，会自动在密码管理器中新建一密码项，即为该集群的连接密码，全程密码无暴露。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-js"&gt;createCluster(landingZone, subnetGroup) {
-    return new redshift.Cluster(this, "MainCluster", {
-        masterUser: { masterUsername: "admin" },
-        vpc: landingZone.vpc,
-        numberOfNodes: 2,
-        publiclyAccessible: false,
-        defaultDatabaseName: RedshiftStack.DB_NAME,
-        securityGroups: [landingZone.securityGroup],
-        nodeType: redshift.NodeType.DC2_LARGE,
-        roles: [this.role],
-        subnetGroup: subnetGroup
-    })
-}&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;其次是建立 MWAA 环境。简化起见配置为可以公网访问。实际生产中建议配置为私网访问。MWAA 对网络配置有特别要求，若不达标环境可能无法启动。子网建议配置为私有子网，即有路由到 NAT 网关。具体请参阅使用手册。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-js"&gt;createEnvironment(envName, role, landingZone, bucket) {
-    return new airflow.CfnEnvironment(this, "Lab", {
-        name: envName,
-        airflowVersion: "2.0.2",
-        environmentClass: "mw1.small",
-        executionRoleArn: role.roleArn,
-        sourceBucketArn: bucket.bucketArn,
-        webserverAccessMode: "PUBLIC_ONLY",
-        dagS3Path:           "airflow/lab/dags",
-        pluginsS3Path:       "airflow/lab/plugins/awsairflowlib_202.zip",
-        requirementsS3Path:  "airflow/lab/requirements/requirements.txt",
-        networkConfiguration: {
-            securityGroupIds: [landingZone.securityGroup.securityGroupId],
-            subnetIds: landingZone.vpc.privateSubnets.map(subnet =&amp;gt; subnet.subnetId)
-        }
-    });
-}&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;MWAA 配置好以后，还需要把有向无环图定义文件上传到存储桶指定位置。利用云开发包的 S3 部署模块完成：&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-js"&gt;uploadDagFile(bucket) {
-    new deploy.BucketDeployment(this, "DagScript",
-        sources: [deploy.Source.asset(path.join(__dirname, '../../scripts/airflow/lab/dags/'))],
-        destinationBucket: bucket,
-        destinationKeyPrefix: 'airflow/lab/dags/'
-    });
-}&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;至此就完成了 MWAA 相关资源的部署程序。部署上述 MWAA 大约耗时半小时，因为涉及服务器的启动连接等。部署耗时长也凸显出非无服务器服务的弊端。当环境状态变为“可用”后，点击“打开 Airflow UI”即可打开 Airflow 的控制台。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline3.png" width="800"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;部署完成后，根据教程即可完成数据分析管道相关操作。Airflow 控制台可以显示数据管道完成时间甘特图，形象展示各任务耗时多寡。这是其亮点之一。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline4.png" width="800"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h3&gt;安全隐患&lt;/h3&gt; 
-&lt;p&gt;最后一步把存储桶文件复制到 Redshift，需要在 Airflow 控制台配置到 Redshift 的连接。连接属性包含用户名和密码明文。此处有暴露密码明文的安全隐患。下面介绍的云原生技术通过密码管理器实现无缝连接，可有效规避密码暴露风险，切实提高系统安全水平。&lt;/p&gt; 
-&lt;h2&gt;云原生编排&lt;/h2&gt; 
-&lt;p&gt;目前 MWAA 尚不支持中国区，故需要自行搭建并维护 Airflow 环境，例如在 ECS Fargate 上。但是运维难度不容小觑。亚马逊提供了其他编排服务，例如状态机，完全可以代替 Airflow 对数据管道进行编排。此外状态机是无服务器的，毋需关心并事先设定服务器数量性能等运维难题。使用云原生服务，和其他服务紧密集成，可最大化服务效益，增强安全性。和教程数据分析管道等价的状态机工作流如下所示。状态机跨服务集成支持直接启动 Glue 任务，较为简单。其他步骤需做些许变通。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline5.png" width="400"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;以云原生服务为基础的架构图如下所示。状态机在各服务之间调度，其中 Glue 任务可以直接执行。爬虫任务需要通过 Lambda 函数辅助。把存储桶的数据载入到 Redshift 可以有多种方法完成，例如 Glue 任务可以直接连接 Redshift 并保存数据。为了和教程中的步骤一一对应，此处利用 Lambda 函数来辅助完成。存储桶文件监控则通过跟踪与规则联合完成。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/a-preliminary-exploration-of-cloud-native-orchestration-data-analysis-pipeline6.png" width="500"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h3&gt;爬元数据&lt;/h3&gt; 
-&lt;p&gt;状态机的跨服务集成目前暂不支持调用 Glue 爬虫，需替代方案。此处利用两个 Lambda 函数和轮询机制实现相同功能。启动爬虫很简单：&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-js"&gt;await glue.startCrawler({Name: crawlerName}).promise();&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;爬虫状态查询，如果不是“就绪”状态，则等待十秒后再次查询，直至成功或者超时。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-js"&gt;exports.handler = async event =&amp;gt; {
-    response = await glue.getCrawler({Name: event.crawlerName}).promise();
-    const state = response.Crawler.State;
-    return state == "READY";
-}&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;爬虫调用代替方案的其他两步可以利用状态机的“选择”和“等待”原生操作符完成。这里传入变量 next 作为爬虫轮询结束后的下一步操作。以下代码可作为爬虫调用的模版使用。若想提高响应速度可缩短等待时长。一个典型的爬虫任务需时数分钟。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-js"&gt;createCrawlerStep(next) {
-    const crawlTask = new task.LambdaInvoke(this, "Crawl", {
-        lambdaFunction: this.lambda("CrawlLambda", role, "../lambda/crawler/crawl"),
-        payload: sf.TaskInput.fromObject({CrawlerTagName: "NF1-Airflow-Lab-RawGreenCrawler"}),
-        payloadResponseOnly: true,
-        resultPath: "$.crawlerName",
-    });
-    const checkCrawled = new task.LambdaInvoke(this, "Check if crawled", {
-        lambdaFunction: this.lambda("CheckCrawledLambda", role, "../../lambda/crawler/check"),
-        payloadResponseOnly: true,
-        resultPath: "$.crawled",
-    });
-    const wait = 10;
-    crawlTask.next(checkCrawled)
-    .next(new sf.Choice(this, "Is crawled?")
-        .when(sf.Condition.booleanEquals("$.crawled", true), next)
-        .otherwise(new sf.Wait(this, `Wait for ${wait} Seconds`, {
-            time: sf.WaitTime.duration(core.Duration.seconds(wait)),
-        }).next(checkCrawled)));
-    return crawlTask;
-}&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h3&gt;保存结果&lt;/h3&gt; 
-&lt;p&gt;状态机的跨服务集成尚未对 Redshift 提供支持，对保存结果需要替代方案。Airflow 提供 S3ToRedshiftOperator 操作符将数据从存储桶复制到 Redshift 表中。本质上是通过 Redshift 的 COPY 命令实现的。替代方案亦遵循此思路。利用亚马逊软件开发包的 RedshiftData 模块，可以执行 SQL 语言和数据操作命令。此处通过密码 ARN 获取密码，完全规避密码明文暴露的问题。此外 Glue 也提供应用接口支持直接把数据保存到 Redshift。在保存数据到数据仓库之前可多做一步，将目标表做清空操作（truncate 或 delete），避免因原表中有数据导致冗余。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-js"&gt;await data.executeStatement({
-    ClusterIdentifier: event.ClusterIdentifier,
-    Database: event.Database,
-    SecretArn: event.SecretArn,
-    Sql: event.Sql
-}).promise();&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;状态机保存结果的替代方案可以一个 Lambda 函数实现。在生产环境，此处建议以更细粒度和最小化原则配置该函数所赋予的权限，夯实系统安全性。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-js"&gt;createCopyS3ToRedshift(bucket, redshift) {
-    const dir = bucket.s3UrlForObject("airflow/lab/data/aggregated");
-    const sql = `copy nyc.green from '${dir}' iam_role '${redshift.role.roleArn}' format as parquet;`;
-
-    return new task.LambdaInvoke(this, "Copy S3 to Redshift", {
-        lambdaFunction: this.lambda("CopyToRedshiftLambda", role, "../lambda/redshift/execute"),
-        payloadResponseOnly: true,
-        payload: sf.TaskInput.fromObject({
-            ClusterIdentifier: redshift.cluster.clusterName,
-            Database: RedshiftStack.DB_NAME,
-            SecretArn: redshift.cluster.secret.secretArn,
-            Sql: sql,
-        })
-    });
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h3&gt;监控文件&lt;/h3&gt; 
-&lt;p&gt;最后还需要处理对存储桶文件的监控任务。Airflow 提供 S3PrefixSensor 来监控文件上传到某个桶，进而触发数据管道进行数据处理。此处有多种方式监控存储桶里面的文件。例如 S3 自带的事件通知功能。不过事件通知的目标不支持启动状态机，还需要 Lambda 辅助。或者可以通过 CloudTrail 跟踪桶写入操作，然后通过 EventBridge 的个规则来捕获事件进而触发状态机执行。跟踪只需要关注特定桶特定目录的写入即可。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-js"&gt;createTrail(logBucket, monitorBucket) {
-    const trail = new cloudtrail.Trail(this, 'CloudTrail', {
-        bucket: logBucket,
-        s3KeyPrefix: "data-trail",
-    });
-    trail.addS3EventSelector(
-        [{bucket: monitorBucket, objectPrefix: "airflow/lab/data/raw"}],
-        {readWriteType: cloudtrail.ReadWriteType.WRITE_ONLY});
-    return trail;
-}&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;捕获规则和跟踪一样，只需要捕获特定桶特定目录的写入即可，此处利用 prefix 前缀操作符来限定。规则目标可以直接启动状态机，开启数据分析管道进程。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-js"&gt;createS3Event(machine, bucket) {
-    new events.Rule(this, "S3StepFunctions", {
-        description: "S3 invoke StepFunctions",
-        eventPattern: {
-            source: [ "aws.s3" ],
-            detailType: [ "AWS API Call via CloudTrail" ],
-            detail: {
-                "eventSource": [ "s3.amazonaws.com" ],
-                "eventName": [ "PutObject" ],
-                "requestParameters": {
-                    "bucketName": [ bucket.bucketName ],
-                    "key": [{ "prefix": "airflow/lab/data/raw" }]
-                }}},
-        targets: [ new targets.SfnStateMachine(machine) ]
-    });
-}&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h2&gt;方案对比&lt;/h2&gt; 
-&lt;p&gt;至此云原生编排数据分析管道的改造宣告完成。回顾本文，重新审视和对比各项方案的利弊得失，可以更好的帮助读者选择更适合业务场景的方案。例如，如果在中国区新建数据分析管道项目，则建议使用状态机。如果从 Airflow 的老环境迁移上云，则建议使用 MWAA 或者自建 Airflow，这样可以复用积累的代码。亦可两者并行，对新的数据管道用云原生方案。&lt;/p&gt; 
-&lt;table style="border-collapse: collapse;border: 3px solid grey" border="1"&gt; 
- &lt;thead&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;/td&gt; 
-   &lt;td&gt;&lt;strong&gt;状态机&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;&lt;strong&gt;MWAA&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;&lt;strong&gt;自建 Airflow&lt;/strong&gt;&lt;/td&gt; 
-  &lt;/tr&gt; 
- &lt;/thead&gt; 
- &lt;tbody&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;编写语言&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;JSON 及云开发包支持的所有语言&lt;br&gt; (TypeScript, JavaScript, Python, Java, and C#)&lt;/td&gt; 
-   &lt;td&gt;Python&lt;/td&gt; 
-   &lt;td&gt;Python&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;支持中国区&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;是&lt;/td&gt; 
-   &lt;td&gt;否&lt;/td&gt; 
-   &lt;td&gt;是&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;无服务器&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;是&lt;/td&gt; 
-   &lt;td&gt;否&lt;/td&gt; 
-   &lt;td&gt;否&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;托管服务&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;是&lt;/td&gt; 
-   &lt;td&gt;是&lt;/td&gt; 
-   &lt;td&gt;否&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;连接密码暴露&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;否&lt;/td&gt; 
-   &lt;td&gt;是&lt;/td&gt; 
-   &lt;td&gt;是&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;开源社区&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;否&lt;/td&gt; 
-   &lt;td&gt;是&lt;/td&gt; 
-   &lt;td&gt;是&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;部署时间（近似值）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;开箱即用&lt;/td&gt; 
-   &lt;td&gt;一小时&lt;/td&gt; 
-   &lt;td&gt;数小时到数天&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;Airflow &lt;/strong&gt;&lt;strong&gt;最新版本&lt;/strong&gt;&lt;br&gt; &lt;strong&gt;（2021&lt;/strong&gt;&lt;strong&gt;年8&lt;/strong&gt;&lt;strong&gt;月）&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;不适用&lt;/td&gt; 
-   &lt;td&gt;2.0.2&lt;/td&gt; 
-   &lt;td&gt;2.1.3&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;服务调度集成&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;云原生&lt;/td&gt; 
-   &lt;td&gt;通过操作符&lt;/td&gt; 
-   &lt;td&gt;通过操作符&lt;/td&gt; 
-  &lt;/tr&gt; 
- &lt;/tbody&gt; 
-&lt;/table&gt; 
-&lt;h2&gt;结论&lt;/h2&gt; 
-&lt;p&gt;本文从 MWAA 的数据分析管道指导教程为引子，介绍利用云开发包快速搭建部署程序的方法，并以状态机为编排平台，尝试改造其为云原生编排的数据管道，辅以几个关键操作的替代方案介绍。本文初步探讨云原生编排数据分析管道的方法，借此抛砖引玉，供读者讨论。从“方案对比”一节可以看出，云原生的编排方案有诸多优势，尤其表现在零部署时间，无服务器化管理，多语言支持和增强安全性上。相信随着跨服务集成的深度和广度越来越高，云原生的编排优势会如虎添翼，成为数据分析管道编排平台的不二选择。&lt;/p&gt; 
-&lt;h3&gt;工作展望&lt;/h3&gt; 
-&lt;p&gt;有几个有趣的展开方向。首先就 Airflow 的诸多操作符，研究云原生改造方法，以期对所有 Airflow 有向无环图皆可支持改造，利于迁移。能自动化改造更佳。其次研究将 Airflow 的数据分析管道以 Glue 的蓝图和工作流为基础进行改造。Glue 蓝图的编排平台和状态机的编排平台是一对有趣的对比。再者就自建 Airflow 的方案如何高效搭建基础设施并降低运维难度亦值得关注。&lt;/p&gt; 
-&lt;h2&gt;参考资料&lt;/h2&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;a href="https://amazon-mwaa-for-analytics.workshop.aws/en/"&gt;MWAA 数据分析管道指导教程&lt;/a&gt;&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/clementy.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;袁文俊&lt;/h3&gt; 
-  &lt;p&gt;亚马逊云科技专业服务部顾问。曾在亚马逊美国西雅图总部工作多年，就职于 Amazon Relational Database Service (RDS) 关系型数据库服务开发团队。拥有丰富的后端开发及运维经验。现负责业务持续性及可扩展性运行、企业应用及数据库上云迁移、云上灾难恢复管理系统等架构咨询、方案设计及项目实施工作。他拥有复旦大学理学学士学位和香港大学哲学硕士学位。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/xzhom.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;赵鑫&lt;/h3&gt; 
-  &lt;p&gt;亚马逊云科技专业服务团队数据架构师，专注于生命科学、自动驾驶领域的数据架构与数据分析&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
 										</item>

@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://status.fastly.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.fastly.com/history.atom"/>
   <title>Fastly Status - Incident History</title>
-  <updated>2021-09-04T01:12:55Z</updated>
+  <updated>2021-09-06T13:23:31Z</updated>
   <author>
     <name>Fastly</name>
   </author>
+  <entry>
+    <id>tag:status.fastly.com,2005:Incident/7929806</id>
+    <published>2021-09-07T05:00:00Z</published>
+    <updated>2021-09-06T13:15:37Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/8vz4ndfmznwz"/>
+    <title>Capacity Expansion: Ashburn (IAD)</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Sep &lt;var data-var='date'&gt;7&lt;/var&gt;, &lt;var data-var='time'&gt;05:00&lt;/var&gt; - &lt;var data-var='time'&gt;11:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 6&lt;/var&gt;, &lt;var data-var='time'&gt;13:15&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Fastly will be adding capacity at our Ashburn, United States (IAD) data center. End-users may observe connection resets as traffic is migrated onto new hardware. &lt;br /&gt;&lt;br /&gt;In order for customers who use this POP as an Origin Shield to leverage new cache nodes for an expanded cache footprint, customers can either apply a new config version at a time of their choosing, or their shielding configuration will be updated on their behalf 7 days after this maintenance window closes. &lt;br /&gt;&lt;br /&gt;When this change is applied, customers may observe additional origin traffic as new cache nodes retrieve content from origin. Please be sure to check that your origin access lists allow the full range of Fastly IP addresses (https://docs.fastly.com/en/guides/accessing-fastlys-ip-ranges). Customers with any questions or concerns should contact Fastly’s Support team (support@fastly.com).&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.fastly.com,2005:Incident/7877834</id>
     <published>2021-09-02T16:53:26Z</published>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/wggpjv6whcqx"/>
     <title>Retroactive - Impacted Performance in Chennai (MAA)</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt; 2&lt;/var&gt;, &lt;var data-var='time'&gt;17:04&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Fastly Engineers detected a performance impacting event affecting the Chennai (MAA) data center from approximately 2021-08-02 16:33 UTC to 2021-08-02 16:38 UTC. All other data centers and services were unaffected. The issue has been resolved and we are monitoring performance closely.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:status.fastly.com,2005:Incident/7662852</id>
-    <published>2021-08-02T10:30:00Z</published>
-    <updated>2021-08-02T11:02:51Z</updated>
-    <link rel="alternate" type="text/html" href="https://status.fastly.com/incidents/ht7df4zq695h"/>
-    <title>Increased errors with customer origins in a major cloud provider</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt; 2&lt;/var&gt;, &lt;var data-var='time'&gt;10:30&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - There were increased errors across multiple customers with origins in a common cloud provider, unrelated to Fastly's edge cloud platform between 10:33 and 10:40 UTC.&lt;/p&gt;</content>
   </entry>
 </feed>

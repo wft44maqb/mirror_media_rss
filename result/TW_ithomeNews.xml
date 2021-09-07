@@ -6,6 +6,171 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>VS Code Python擴充套件翻新測試介面，將棄用舊語言伺服器</title>
+    <link>https://www.ithome.com.tw/news/146564</link>
+    <description> 微軟發布9月適用VS Code的Python擴充套件新版本，這個版本加入讓開發者方便編輯和測試程式碼功能，同時，官方也宣布終止Python語言伺服器和Python 2.7 IntelliSense的支援。
+從這個版本開始，開發者可以在瀏覽器造訪github.dev時，獲得更豐富的Python編輯體驗。在任何GitHub中的儲存庫、拉取請求或是檔案，只要在鍵盤上點擊「.」還是將網址改為github.dev，便能立即在瀏覽器中，存取網頁程式碼編輯器。</description>
+     <pubDate>2021-09-06  11:09:34</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146564</guid>
+  </item>
+  <item>
+    <title>Databricks發布Serverless SQL，用戶不須管理伺服器即時獲得SQL運算能力</title>
+    <link>https://www.ithome.com.tw/news/146561</link>
+    <description> Databricks SQL現在新增無伺服器功能Databricks Serverless SQL，簡化用戶處理資料和應用人工智慧的麻煩。該無伺服器服務，能夠提供即時運算能力，使用戶能夠一鍵啟用，不需要調校伺服器效能，或是更新修復程式，以最少管理成本執行商業智慧和SQL運算，官方提到，使用Databricks Serverless SQL降低平均總體成本40％。</description>
+     <pubDate>2021-09-06  11:09:01</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146561</guid>
+  </item>
+  <item>
+    <title>勒索軟體鎖定農業與食品製造業下手，FBI特別發出公告呼籲各界重視</title>
+    <link>https://www.ithome.com.tw/news/146563</link>
+    <description> 隨著智慧農業的推動，在農業種植、食品生產的過程之中，往往運用了不少操作科技（OT）的設備，也可能連結IT網路環境，而使得過程能夠更有效率。而這些運用於食品供應鏈的物聯網（IoT）裝置，也可能成為攻擊者的目標，業者因氣候變遷導致食品生產面臨更多挑戰的情況下，對於糧食、肉品、各類加工品的供應，更加雪上加霜。</description>
+     <pubDate>2021-09-06  07:09:50</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146563</guid>
+  </item>
+  <item>
+    <title>積極支援開放式WiFi應用，智邦EdgeCore推出Wi-Fi 6基地臺</title>
+    <link>https://www.ithome.com.tw/review/146538</link>
+    <description> 越來越多的智慧型手機與筆電支援802.11ax（Wi-Fi 6），也就是Wi-Fi 6，大部分網路設備廠商，都陸續發表支援這項標準的消費型與企業級的產品，但也有廠商，直到今年中才正式推出相關的解決方案，例如，智邦集團旗下的鈺登科技（EdgeCore），他們在8月中發表兩款支援Wi-Fi 6的室內型基地臺，分別是EAP101與EAP102，而且，在安全性的部分，它們都支援WPA3的加密防護。</description>
+     <pubDate>2021-09-06  06:09:04</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/review/146538</guid>
+  </item>
+  <item>
+    <title>強化主管機關落實個資保護監管責任及跨機關協調，行政院建立個資保護執行聯繫機制</title>
+    <link>https://www.ithome.com.tw/news/146562</link>
+    <description> 為強化政府各機關對個資保護監管措施的落實，行政院建立個人資料保護執行聯繫機制，召開行政院層級的聯繫會議，敦促行政院各主管機關強化對非公務機關業者的監管措施，包括分級管理、個資外洩事件通報、行政檢查等等。
+行政院於去年12月召開資安事件之個資外洩因應及風險管理會議，會中決議成立行政機關落實個人資料保護執行聯繫會議（以下簡稱聯繫會議），依分級、課責、通報、跨部會協調四項原則，強化政府各機關對非公務機關的個資保護監管責任。
+確立行政院層級的個資保護執行聯繫會議</description>
+     <pubDate>2021-09-06  06:09:10</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146562</guid>
+  </item>
+  <item>
+    <title>惡意程式牟利的方式有了新手法！不只會偷取算力和資料，還會竊取網路頻寬</title>
+    <link>https://www.ithome.com.tw/news/146560</link>
+    <description> 感冒往往會出現咳嗽、發燒，但如今還有可能會引發腸胃炎、呼吸困難等症狀。而惡意軟體對受害電腦帶來的影響，不只是竊取機密資料、電腦運算能力，現在連網路頻寬也不放過。像是可將電腦、手機掛網，分享網路頻寬的軟體，這類合法軟體被稱為網路頻寬共享軟體（Proxyware），由於最近2到3年，有些軟體像是Honeygain、Nanowire等，號稱不需點選廣告或是其他操作就能獲利，使得這種軟體受到使用者關注。但這種軟體現在也被攻擊者盯上，與挖礦工具和惡意軟體並用，來利用他人的電腦牟利。</description>
+     <pubDate>2021-09-06  05:09:06</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146560</guid>
+  </item>
+  <item>
+    <title>內建Wi-Fi 6E、攝影機自動開關，Dell新頂級商用筆電登場</title>
+    <link>https://www.ithome.com.tw/review/146535</link>
+    <description> 今年1月初的美國消費電子大展（CES）期間，Dell推出多款商用筆電，我們現在要介紹的是其中一款機型：Latitude 9420，它和Latitude 9520，可說是去年推出的Latitude 9510的下一代產品，彼此有不少共通點。
+搭配14吋顯示器的Latitude 9420，提供標準筆電與二合一筆電（螢幕可外翻360度且可觸控）的選擇，內建整合喇叭與麥克風的會議揚聲器（Speakerphone），可實現類似手機免持聽筒的功能，也整合兼具自動調整拍攝畫面亮度，以及背景模糊功能的網路攝影機，可因應現今大量使用視訊會議的遠距工作溝通場景。</description>
+     <pubDate>2021-09-06  04:09:56</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/review/146535</guid>
+  </item>
+  <item>
+    <title>蘋果延遲裝置兒童性剝削內容審查功能，EFF呼籲應完全放棄監控計畫</title>
+    <link>https://www.ithome.com.tw/news/146557</link>
+    <description> 蘋果公司宣布要暫緩推出備受爭議的兒童安全功能，但是電子前線基金會（Electronic Frontier Foundation，EFF）對於這項決定並不滿意，他們認為蘋果應該完全放棄在用戶手機上掃描兒童內容，才是真正保證用戶隱私，並且遵守原本的全程加密政策。</description>
+     <pubDate>2021-09-06  04:09:10</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146557</guid>
+  </item>
+  <item>
+    <title>德州反墮胎法生效，GoDaddy出手關閉告密網站</title>
+    <link>https://www.ithome.com.tw/news/146559</link>
+    <description> 德州的反墮胎法《德州心跳法案》（Texas Heartbeat Act）在9月1日正式生效了，推崇生命權的Texas Right to Life也開始鼓勵外界透過ProLifeWhistleblower.com網站來提供墮胎者的訊息，不過，網域名稱註冊商暨代管服務業者GoDaddy以該站違反服務條款為由，在9月3日關閉了ProLifeWhistleblower.com。
+《德州心跳法案》是美國第一個規定懷孕6周以後就禁止墮胎的法案，且允許民眾控告提供墮胎服務的對象，告密且勝訴的人最少可得到1萬美元的獎金。</description>
+     <pubDate>2021-09-06  03:09:09</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146559</guid>
+  </item>
+  <item>
+    <title>【疫情日報】9月7日至9月20日維持疫情警戒二級、第八輪9月10日開始預約</title>
+    <link>https://www.ithome.com.tw/news/146558</link>
+    <description> 中央流行疫情指揮中心今（6日）宣布，自9月7日至9月20日兩周仍維持全國二級警戒，警戒措施未有太大變化。同時，指揮中心和教育部也說明疫苗接種注意事項，包括第八期疫苗預約鎖定AZ第二劑群眾和18至22歲民眾、啟動學生登記BNT接種事宜。
+今日新增9例本土案例、7例境外移入，指揮官陳時中表示，未來兩周仍維持二級警戒，警戒通則大多維持現狀，如外出需全程配戴口罩、集會活動人數上限為室內80人、室外300人，以及營業場所和公共場域的室內空間至少1.5米/人（2.25平方米/人）、室外空間至少1米/人（1平方米/人）。</description>
+     <pubDate>2021-09-06  03:09:19</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146558</guid>
+  </item>
+  <item>
+    <title>美國督促各大組織修補正被大量開採的Atlassian Confluence漏洞</title>
+    <link>https://www.ithome.com.tw/news/146555</link>
+    <description> 美國網戰司令部（US Cyber Command）9月3日警告，駭客正在大規模開採Atlassian Confluence的CVE-2021-26084安全漏洞，呼籲使用組織應儘速修補
+Atlassian為一澳洲軟體業者，所打造的Confluence是個基於網頁的團隊協作平臺，Confluence被定位為企業軟體，提供就地部署版本，以及奠基於AWS的軟體即服務版本。</description>
+     <pubDate>2021-09-06  02:09:14</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146555</guid>
+  </item>
+  <item>
+    <title>從賣筆電到研發個人化疫苗，施振榮揭露智慧醫療戰略布局提出2大建議</title>
+    <link>https://www.ithome.com.tw/news/146546</link>
+    <description> 宏碁集團創辦人暨榮譽董事長施振榮5日在臺灣智慧醫療高峰會上指出，智慧醫療是臺灣最有可能拿下世界第一的產業，因此在智慧醫療戰略佈局上，他呼籲政府要用政策助攻，如衛福部以發展管制並重、食藥署TFDA認證智慧醫材得注重時效性、或健保給付要納入TFDA核准醫材等。
+瞄準最有可能拿下世界第一的醫療AI，用新微笑曲線談商業模式
+在施振榮眼中，醫療AI是臺灣最有潛力拿下世界第一的產業。企業若要踏進這個產業，就得思考商業模式。繼1992年提出著名的微笑曲線模式後，施振榮近年再提出一個多維的「新微笑曲線」模式。</description>
+     <pubDate>2021-09-06  02:09:50</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146546</guid>
+  </item>
+  <item>
+    <title>調查：全美5G平均下載速率以紐約州居冠</title>
+    <link>https://www.ithome.com.tw/news/146554</link>
+    <description> Opensignal近日公布了全美的5G體驗調查，顯示全美5G平均下載速率最高的地方在紐約州，但5G可得性最高的地方為伊利諾州及德州，東岸的11個州都擁有不錯（Good）的遊戲體驗。而雖然所有州的5G影片經驗都不錯，但有些5G手機用戶並未察覺到更好的影片串流品質，原因是他們所訂閱的5G方案只是入門款，使其影片解析度受限。</description>
+     <pubDate>2021-09-06  02:09:11</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146554</guid>
+  </item>
+  <item>
+    <title>報導：新聞社交平臺Reddit預計於明年初上市</title>
+    <link>https://www.ithome.com.tw/news/146553</link>
+    <description> 路透社於上周引述消息來源報導，新聞社交平臺Reddit正準備聘請投資銀行與律師，計畫在明年初登上紐約股市。
+Reddit創立於2005年，註冊會員可上傳各種內容，從文章、連結、照片到影片等，其他會員則會針對這些內容投下贊成或反對的票數，以決定相關內容的排序。有許多內容直接在Reddit發跡，而讓媒體爭相報導，或者是有許多內容原本張貼在名不見經傳的網站上，在Reddit受到關注後帶來龐大的流量。</description>
+     <pubDate>2021-09-06  12:09:30</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146553</guid>
+  </item>
+  <item>
+    <title>德國要求手機廠商提供7年安全更新</title>
+    <link>https://www.ithome.com.tw/news/146551</link>
+    <description> 德國媒體報導，德國政府計畫要求智慧型手機及平板廠商提供長達7年的零件備品及安全更新，以減緩消費者換機的速度。</description>
+     <pubDate>2021-09-06  11:09:44</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146551</guid>
+  </item>
+  <item>
+    <title>思科修補NFV基礎架構軟體重大漏洞</title>
+    <link>https://www.ithome.com.tw/news/146549</link>
+    <description> 思科上周針對網路虛擬化設備一項可能允許攻擊者接管設備的重大漏洞，釋出更新軟體，呼籲用戶應儘速安裝。</description>
+     <pubDate>2021-09-06  10:09:30</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146549</guid>
+  </item>
+  <item>
+    <title>臉書AI將黑人影片誤標為靈長類</title>
+    <link>https://www.ithome.com.tw/news/146548</link>
+    <description> 臉書AI引擎近日將一則主角為黑人的影片，加上「靈長類」的標籤推薦給用戶。臉書已將之撤下。
+紐約時報報導，近日在臉書上部份使用者觀看黑人主題影片時，接到平臺上送來的推薦，問他們是否想繼續觀看「靈長類」的影片。但這則影片其實是英國報紙《每日郵報》（Daily Mail），去年上傳的一則黑人和白人警察及市民吵架的影片。
+消息見報後，臉書立即關閉AI推薦引擎。臉書並道歉指出，雖然他們的AI引擎不斷進步，但仍然不完美，還有進步空間。臉書對看到這些冒犯性推薦的用戶抱歉。</description>
+     <pubDate>2021-09-06  09:09:53</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146548</guid>
+  </item>
+  <item>
+    <title>CircleCI與Datadog和Sumo Logic合作，透過Webhook整合監控工作管線</title>
+    <link>https://www.ithome.com.tw/news/146536</link>
+    <description> DevOps服務供應商CircleCI宣布推出CircleCI Webhook，可用來和第三方應用程式整合，並在CircleCI工作流程中獲取狀態和通知。
+官方提到，用戶可以使用CircleCI平臺來自定義軟體開發程序，像是使以Orbs搭配可重複使用的配置套件，可標準化和擴展CI/CD工作管線，或是使用CircleCI API來創建內部工具，並且和其他產品整合，以獲得更精細的監控。</description>
+     <pubDate>2021-09-06  09:09:14</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146536</guid>
+  </item>
+  <item>
+    <title>Container周報第141期:250人以上大企業注意，Docker桌面版要開始收費了</title>
+    <link>https://www.ithome.com.tw/news/146537</link>
+    <description> 8/1~8/31 精選容器新聞</description>
+     <pubDate>2021-09-05  12:09:34</pubDate>
+ <dc:creator>王宏仁</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146537</guid>
+  </item>
+  <item>
     <title>SUSE併購後的第一個版本，Rancher 2.6大幅強化叢集配置功能</title>
     <link>https://www.ithome.com.tw/news/146534</link>
     <description> Rancher 2.6是SUSE在去年冬天併購Rancher後，推出的第一個重要版本，開發團隊在這個版本進行了大幅度的更新，像是重新設計Rancher使用者體驗，對入門或是進階的Kubernetes使用者都更加友善，而Rancher 2.6另一個更新重點，則是強化託管叢集配置，改進AKS與GKS叢集生命周期管理。</description>
@@ -30,7 +195,7 @@
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146531</guid>
   </item>
   <item>
-    <title>英國兒童線上隱私法Age Appropriate Design Code正式生效，祭出最高4%的兒童隱私罰款</title>
+    <title>英國兒童線上隱私法正式生效，祭出最高4%的兒童隱私罰款</title>
     <link>https://www.ithome.com.tw/news/146532</link>
     <description> 英國兒童線上隱私法《Age Appropriate Design Code》（或簡稱Children&#039;s code）於今年的9月2日正式生效了，由於此一法令是奠基於GDPR，因此，違反相關法令的企業最高可能會被判罰全球年營收的4%，或是1,750萬英鎊。</description>
      <pubDate>2021-09-03  03:09:00</pubDate>
@@ -96,165 +261,6 @@
      <pubDate>2021-09-03  01:09:04</pubDate>
  <dc:creator>余至浩</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146459</guid>
-  </item>
-  <item>
-    <title>【首次栽種就成功的關鍵是達人經驗數位化】數位分身技術如何走進農漁業</title>
-    <link>https://www.ithome.com.tw/news/146518</link>
-    <description> 數位分身，這個製造業當紅的新興技術，也能在農業場域發揮作用。
-一般來說，數位分身是透過IoT蒐集實體設備的運作數據，建立起虛擬對應的數位分身，來模擬實體設備的狀態改變。雖然農作物是活的植物，無法像機械設備的變化完全可控，但是，擴大到作物與環境的關聯，建立起溫室、栽培場或魚塭等場景的虛擬分身，仍舊可以用來模擬出作物在不同條件下的生長變化。
-而在臺灣，不只農業，連養殖魚塭、養雞場、甚至是茶園，都開始出現了農業數位分身的應用實例。
-比如臺南有座養殖漁場中，就打造出了魚塭的數位分身，有能力推測環境改變後對魚蝦生長的影響，適時提醒漁民如何操作設備來因應。</description>
-     <pubDate>2021-09-03  12:09:16</pubDate>
- <dc:creator>翁芊儒</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146518</guid>
-  </item>
-  <item>
-    <title>HPE拿下NSA 20億美元GreenLake合約</title>
-    <link>https://www.ithome.com.tw/news/146517</link>
-    <description> HPE本周宣布贏得美國國安局20億美元、長達10年的合約，以GreenLake產品部署高效能運算（High Performance Computing，HPC）架構執行AI及大量資料運算的任務。</description>
-     <pubDate>2021-09-03  11:09:20</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146517</guid>
-  </item>
-  <item>
-    <title>WhatsApp因違反GDPR遭愛爾蘭罰2.25億歐元</title>
-    <link>https://www.ithome.com.tw/news/146516</link>
-    <description> 愛爾蘭資料主管機關昨（2）日以臉書旗下通訊軟體WhatsApp未清楚告知消費者及企業用戶說明資料處理，違反了歐盟隱私法GDPR，宣布判罰WhatsApp 2.25億歐元（約74億臺幣）。</description>
-     <pubDate>2021-09-03  10:09:27</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146516</guid>
-  </item>
-  <item>
-    <title>Qt Creator 5.0開始實驗性支援Docker容器</title>
-    <link>https://www.ithome.com.tw/news/146515</link>
-    <description> 跨平臺IDE Qt Creator最新版本5.0，距離上個版本4.15釋出已經一段時間，這次新增了不少重要的實驗性功能，包括使用clangd代替libclang成為C/C++程式碼模型後端，並且提供新的擴充套件，允許使用Linux主機和CMake作為建置系統的用戶，創建Docker裝置作為建置裝置。</description>
-     <pubDate>2021-09-03  10:09:41</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146515</guid>
-  </item>
-  <item>
-    <title>Google以分層神經渲染生成遮罩，可個別操縱影片中物體時間軸</title>
-    <link>https://www.ithome.com.tw/news/146514</link>
-    <description> Google發展了一種產生圖像和影片遮罩的新方法，利用分層神經渲染，將影片中的物體和背景分開，產生稱為Omnimatte的遮罩，與典型分割模型不同之處在於，這個新方法所生成的Omnimatte不僅是物體本身，同時還能分離出和物體有關的其他細節，包括影子、部分透明的軟效果，甚至是輪胎摩擦地面所產生的煙霧，與傳統遮罩相同的地方是，Omnimatte為RGBA圖像，因此能夠用於廣泛的圖像和影片編輯工具。</description>
-     <pubDate>2021-09-03  10:09:15</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146514</guid>
-  </item>
-  <item>
-    <title>GitHub強化平臺Git協定安全性，變更支援的金鑰和簽章演算法</title>
-    <link>https://www.ithome.com.tw/news/146505</link>
-    <description> GitHub團隊進一步提高平臺安全性，決定更改Git協定，在用戶拉取和推送Git資料的時候，提供額外的保護，這些更改包括取消所有DSA金鑰支援、刪除舊的SSH演算法、關閉未加密的Git協定，以及新增要求RSA金鑰等。大部分用戶不會受到影響，只有使用SSH或git://連接的用戶，需要進行相對應的措施。</description>
-     <pubDate>2021-09-03  09:09:54</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146505</guid>
-  </item>
-  <item>
-    <title>NSA：國安系統應準備好因應量子電腦威脅</title>
-    <link>https://www.ithome.com.tw/news/146502</link>
-    <description> 一般相信量子電腦對資安最大威脅之一是破解加密系統。本周美國國安局（NSA）說明量子電腦對國安系統的威脅，並勾勒NSA的計畫。</description>
-     <pubDate>2021-09-02  09:09:00</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146502</guid>
-  </item>
-  <item>
-    <title>Amazon今年準備在全球招聘5.5萬名員工</title>
-    <link>https://www.ithome.com.tw/news/146501</link>
-    <description> Amazon本周宣布，計畫於今年9月15日展開的年度Career Day上，在美國招募4萬名企業與科技職位的員工，以及支援Amazon Operations的數萬名時薪員工。</description>
-     <pubDate>2021-09-02  09:09:00</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146501</guid>
-  </item>
-  <item>
-    <title>勒索軟體AvosLocker已有7個受害組織，部分機密文件已被公開</title>
-    <link>https://www.ithome.com.tw/news/146504</link>
-    <description> 一款名為AvosLocker的勒索軟體，約自6月底被發現，而引起資安人員的關注，解析這款勒索軟體的攻擊行為。而到了最近，資安業者Palo Alto Networks指出，他們發現迄今全球各地至少有7個組織受害，攻擊者開口索討的贖金，從5萬美元到7.5萬美元不等起跳。</description>
-     <pubDate>2021-09-02  07:09:04</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146504</guid>
-  </item>
-  <item>
-    <title>Cloud周報第119期：Google墨爾本雲端區域啟用1個月之際就出事，因網路設備發生異常導致多項服務中斷</title>
-    <link>https://www.ithome.com.tw/news/146503</link>
-    <description> 重點新聞（2021/08/26～2021/09/01）</description>
-     <pubDate>2021-09-02  06:09:11</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146503</guid>
-  </item>
-  <item>
-    <title>美國FTC出手禁止跟蹤軟體SpyFone</title>
-    <link>https://www.ithome.com.tw/news/146500</link>
-    <description> 美國聯邦交易委員會（FTC）周三（9/1）宣布，將禁止跟蹤軟體業者SpyFone及其執行長Scott Zuckerman從事監控業務，指出SpyFone秘密蒐集及分享手機用戶的實際位置、手機的使用及網路活動，而且經常是在手機用戶不知情的狀態下。</description>
-     <pubDate>2021-09-02  04:09:43</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146500</guid>
-  </item>
-  <item>
-    <title>【專訪健保署署長李伯璋談遠距醫療未來】整合虛擬健保卡，遠距醫療下一步瞄準居家醫療</title>
-    <link>https://www.ithome.com.tw/news/146499</link>
-    <description> 虛擬健保卡應用再突破！健保署近日悄悄推出新機制，就算沒有專用QR Code掃描設備，醫師一樣能用手機專屬App，掃描民眾健保快易通App虛擬健保卡，連上健保雲端系統、查詢病人就醫紀錄，為遠距醫療再添利器。
-這也是繼民眾可直接在健保快易通App手動開卡、不必現場申辦後的另一次重要升級，更凸顯健保署持續力推遠距醫療的決心。
-2年前展開虛擬健保卡試辦計畫，隔年實戰遠距醫療場域</description>
-     <pubDate>2021-09-02  04:09:48</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146499</guid>
-  </item>
-  <item>
-    <title>Twitter測試安全模式以自動封鎖騷擾帳號</title>
-    <link>https://www.ithome.com.tw/news/146498</link>
-    <description> Twitter於本周三（9/1）宣布，即日起將於少數的iOS、Android與Twitter.com平臺上的帳號，測試安全模式（Safety Mode）功能，啟用安全模式之後，系統將會自動替該帳號封鎖那些留下侮辱或仇恨字眼的騷擾帳號。目前的測試僅限於啟用英文的Twitter用戶。</description>
-     <pubDate>2021-09-02  03:09:23</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146498</guid>
-  </item>
-  <item>
-    <title>【DBS客座文章】星展銀行如何打造大數據平台</title>
-    <link>https://www.ithome.com.tw/news/146484</link>
-    <description> 本文為【星展銀行授權轉載文章】</description>
-     <pubDate>2021-09-02  02:09:32</pubDate>
- <dc:creator>星展銀行</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146484</guid>
-  </item>
-  <item>
-    <title>勒索軟體Hive鎖定醫療機構、缺乏相關因應措施的企業而來</title>
-    <link>https://www.ithome.com.tw/news/146493</link>
-    <description> 最近幾個月出現了數個新的勒索軟體家族，且已經在短短的2至3個月出現數十個受害者。例如，自2021年6月開始運作的勒索軟體Hive，鎖定醫療照護供應商，以及缺乏因應勒索軟體攻擊能力的中型組織。資安業者Palo Alto Networks指出，目前駭客宣稱他們成功攻擊了28個組織，包含1家歐洲的航空公司，以及3家美國組織。他們分別是：硬體零售商、製造業者、法律事務所。駭客將這些受害者公布在名為Hive Leaks的網站上。</description>
-     <pubDate>2021-09-02  02:09:54</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146493</guid>
-  </item>
-  <item>
-    <title>Windows 11測試者若硬體不符要求，將被要求回到Windows 10</title>
-    <link>https://www.ithome.com.tw/news/146496</link>
-    <description> 微軟鐵了心，如果用戶PC硬體規格不符的話，連測試都不能用Windows 11。
-一名加入Windows Insider方案的用戶試用Windows 11時接到系統通知，告知他的PC不符合Windows 11執行的最低硬體要求。事實上，他也不具Windows 11 Insider測試方案的資格，因此要求他到Release Preview頻道改安裝Windows 10。</description>
-     <pubDate>2021-09-02  01:09:02</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146496</guid>
-  </item>
-  <item>
-    <title>Twitter超級粉絲功能正式於iOS上登場</title>
-    <link>https://www.ithome.com.tw/news/146495</link>
-    <description> Twitter在今年2月發表的超級粉絲（Super Follows）功能終於在iOS平臺上登場了，擁有大批粉絲的Twitter創作者可以設定2.99美元、4.99美元與9.99美元等3種月租費價格，而Twitter則會在創作者的訂閱收入超過5萭美元門檻之後，才會向創作者抽成。</description>
-     <pubDate>2021-09-02  01:09:05</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146495</guid>
-  </item>
-  <item>
-    <title>蘋果Apple Wallet將可存放美國8州的數位駕照與州ID</title>
-    <link>https://www.ithome.com.tw/news/146494</link>
-    <description> 蘋果本周宣布，已與美國8個州合作，讓這些州的民眾可將駕照與州ID資訊存放在iPhone及Apple Watch的Apple Wallet上，率先實施的將是亞利桑那州與喬治亞州，康乃迪克、愛荷華、肯塔基、馬里蘭、奧克拉荷馬及猶他州則會隨後跟上。</description>
-     <pubDate>2021-09-02  12:09:06</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146494</guid>
-  </item>
-  <item>
-    <title>傳Google Chromebook 2023年將採用自有處理器</title>
-    <link>https://www.ithome.com.tw/news/146492</link>
-    <description> 繼Pixel 6手機後，日經亞洲報導，Google也將自行設計Chromebook專用的處理器，預計最快兩年後用於自家筆電。
-日經亞洲引述的3名消息人士指出，Google預計將自行設計的晶片導入到自有筆電及平板，第一款搭載自有處理器的Chromebook預計2023年問世。</description>
-     <pubDate>2021-09-02  12:09:07</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146492</guid>
   </item>
   </channel>
 </rss>

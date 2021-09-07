@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-09-04T09:09:55Z</updated>
+ <updated>2021-09-07T02:37:23Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,28 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59099495</id>
+  <title><![CDATA[德国大选是如何进行的？]]></title>
+  <updated>2021-09-06T13:19:00Z</updated>
+  <published>2021-09-06T13:19:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国大选是如何进行的？/av-59099495?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[德国的选举制度很复杂。不过，这种复杂有其道理。在这个视频中，我们为您解释德国大选的方方面面。]]></summary>
+  <category term="时政风云"/>
+  <link rel="enclosure" type="video/mp4" length="22310477" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210906_001_38ff8german-election_sd.mp4" title="德国大选是如何进行的？"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59078721</id>
+  <title><![CDATA[沒有魚 沒有未來 巴爾喀什湖之殤]]></title>
+  <updated>2021-09-05T07:09:00Z</updated>
+  <published>2021-09-05T07:09:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/沒有魚-沒有未來-巴爾喀什湖之殤/av-59078721?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[哈薩克斯坦東南部的巴爾喀什湖的水位正在下降。對於像Balkhash這樣的當地漁民來說，他們的生存受到威脅。科學家們認為，巴爾喀什湖的支流，貫穿中國西部地區的伊犁河遭到過度取水是導致該湖乾涸的一個原因。]]></summary>
+  <category term="科技环境"/>
+  <link rel="enclosure" type="video/mp4" length="11227619" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210903_001_24753bchi_210903_balkhash_1_sd.mp4" title="沒有魚 沒有未來 巴爾喀什湖之殤"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59039254</id>
   <title><![CDATA[芯片供应吃紧 半导体产业方兴未艾]]></title>
@@ -321,27 +343,5 @@
   <summary><![CDATA[德国西部洪灾过后，大量志愿者前往灾区协助清理淤泥，其中也不乏难民的身影。一些难民自发组织了志工小组协助灾区重建，以此报答德国在难民危机中所伸出的援手。]]></summary>
   <category term="科技环境"/>
   <link rel="enclosure" type="video/mp4" length="14654740" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210729_001_syrerhelfen_01r_sd.mp4" title="德国灾后重建 难民组团当志工"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58675220</id>
-  <title><![CDATA[滑板车落伍了！试试轻巧时尚的电动滑板]]></title>
-  <updated>2021-07-28T13:46:00Z</updated>
-  <published>2021-07-28T13:46:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/滑板车落伍了！试试轻巧时尚的电动滑板/av-58675220?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[这款电动滑板续航力可达7公里，体积小而且携带方便。它是否能取代电动滑板车，成为街头代步的新趋势？]]></summary>
-  <category term="科技环境"/>
-  <link rel="enclosure" type="video/mp4" length="6878839" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210728_001_walkcar_01r_sd.mp4" title="滑板车落伍了！试试轻巧时尚的电动滑板"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58648104</id>
-  <title><![CDATA[退货的结局是销毁？亚马逊仓库遭遇指责]]></title>
-  <updated>2021-07-27T13:23:00Z</updated>
-  <published>2021-07-27T13:23:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/退货的结局是销毁？亚马逊仓库遭遇指责/av-58648104?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[亚马逊一个物流中心销毁新品的画面令公众愤怒。德国明令禁止销毁完好无损的商品。但是，人们会遵守吗？疫情造成的库存积压又怎么办呢？]]></summary>
-  <category term="经济纵横"/>
-  <link rel="enclosure" type="video/mp4" length="8039626" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210726_001_30386amazon_sd.mp4" title="退货的结局是销毁？亚马逊仓库遭遇指责"/>
  </entry>
 </feed>

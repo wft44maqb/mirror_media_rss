@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Thu, 02 Sep 2021 09:15:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[Cream Finance 去中心化加密貨幣交易所遭駭，損失超過 2,900 萬美元資產]]></title><link>http://www.twcert.org.tw/tw/cp-104-5056-f74b0-1.html</link><description><![CDATA[<p><strong>去中心化加密貨幣交易所 Cream Finance 遭不明駭侵者入侵，竊走價值超過 2,900 萬美元的資產。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Mon, 06 Sep 2021 09:31:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[美國一離職員工侵入公司系統，刪除 21 GB 資料]]></title><link>http://www.twcert.org.tw/tw/cp-104-5059-1dba4-1.html</link><description><![CDATA[<p><strong>一名原任職於美國紐約信用合作社的離職員工，在遭該單位解僱後，侵入原任職單位的電腦系統，惡意刪除 21 GB 的重要資料。</strong><br />
+<br />
+一名原任職於美國紐約信用合作社（New York Credit Union）的離職員工 Juliana Barlie，在遭該單位解僱後，侵入原任職單位的電腦系統，惡意刪除 21 GB 的重要資料，目前已遭司法單位起訴。<br />
+<br />
+據檢查官 Jacquelyn M. Kasulis 指出，Juliana Barlie 原本在紐約信用合作社擔任遠距工作的兼職員工，在今年 5 月 19 日遭該單位解僱後，於 2 天後以原有的系統登入資訊進入該單位的伺服器，以指令刪除多筆重要業務相關資料。<br />
+<br />
+據調查報告指出，雖然紐約信用合作社的人員，曾要求外包該單位資訊業務的公司，刪除該離職人員的登入權限，但顯然該外包廠商並未及時切實執行；導致 Juiliana Barlie 仍可利用原本工作時設定的登入資訊，登入紐約信用合作社的工作用電腦系統。<br />
+<br />
+Juliana Barlie 於 5 月 21 日登入系統後，以近 40 分鐘的時間，一共刪除了 21.3 GB 的資料，包括近 20,000 個檔案，以及 3,500 個資料夾；而被刪除的資料中，許多是該單位的客戶貸款申請資料，甚至還包括該單位為防範勒贖攻擊而安裝的資安防護軟體。<br />
+<br />
+當事人 Juailiana Barlie 甚至還在數日後，以簡訊將他刪除紐約信合社檔案一事告訴朋友。<br />
+<br />
+雖然紐約信用合作社擁有某些被刪除資料的備份檔案，但仍需額外花費一萬美元左右，以復原遭惡意刪除的檔案；該信用合作社的客戶貸款作業也因而受到影響，許多客戶被迫使用紙本作業申請或繳付貸款餘額。</p>]]></description><pubDate>Mon, 06 Sep 2021 09:31:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5059-1dba4-1.html</guid></item><item><title><![CDATA[多家廠商 SoC 產品中的藍牙堆疊含嚴重 BrakTooth 漏洞，受影響裝置超過十億台]]></title><link>http://www.twcert.org.tw/tw/cp-104-5058-74114-1.html</link><description><![CDATA[<p><strong>資安專家發現十多家廠商產製的單晶片系統，其內部的藍牙連線堆疊存有嚴重資安漏洞 BrakTooth，可導致駭侵者藉以發動多種資安攻擊行動。</strong><br />
+<br />
+資安專家日前發表研究報告，指出發現十多家廠商產製的單晶片系統，其內部的藍牙連線堆疊，存有非常嚴重的資安漏洞（稱為「BrakTooth」），可導致駭侵者藉以發動多種資安攻擊行動。<br />
+<br />
+來自新加坡科技與設計大學的資安研究人員，日前發表針對 BrakTooth 的詳細研究報告；報告指出他們發現 13 家廠商推出的單晶片系統（System-on-a-chip, SoC），其中的藍牙堆疊都存有 BrakTooth 漏洞。<br />
+<br />
+被指含有 BrakTooth 漏洞的 SoC 產品，廣泛用於各種智慧型手機、車用資訊娛樂系統（Infotainment System）、筆記型電腦、桌上型電腦、平板電腦、視聽器材（如電視、音響、藍牙喇叭、藍牙耳機等）、家用娛樂裝置、無線鍵盤、無線滑鼠、玩具、工業設備（如可程式邏輯控制器 PLC）等，數量可能多達十億台以上。<br />
+<br />
+報告也說，生產這些含漏洞 SoC 產品的廠商，包括 Intel、Texas Instruments、Qualcomm、Zhuhai Jieli Technology、Cypress、Bluetrum Technology、Actions Technology、Espressif Systems、Harman International、Silabs 等公司推出的共十三種 SoC 產品。<br />
+<br />
+研究人員說，BrakTooth 漏洞可讓駭侵者藉以發動多種攻擊活動，包括分散式服務阻斷（Distributed Denial of Service, DDoS）攻擊、造成用戶裝置發生「死結」（deadlock）而無法使用藍牙連線、遠端執行任意程式碼等。<br />
+<br />
+這一系列漏洞被指派到多達 20 個 CVE 編號，其中包括 Espreessif Systems、Cypress、Bluetrum Technology 等公司的產品已推出對應的修補程式，其他也有多家公司正在撰寫修補軟體。各藍牙產品用戶應注意更新訊息，以及時更新受影響的裝置。</p>]]></description><pubDate>Mon, 06 Sep 2021 09:29:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5058-74114-1.html</guid></item><item><title><![CDATA[Cream Finance 去中心化加密貨幣交易所遭駭，損失超過 2,900 萬美元資產]]></title><link>http://www.twcert.org.tw/tw/cp-104-5056-f74b0-1.html</link><description><![CDATA[<p><strong>去中心化加密貨幣交易所 Cream Finance 遭不明駭侵者入侵，竊走價值超過 2,900 萬美元的資產。</strong><br />
 <br />
 去中心化加密貨幣交易所 Cream Finance，於 8 月 30 日在 Twitter 貼文公布，該交易所遭不明駭侵者入侵，一共竊走價值超過 2,900 萬美元的資產。<br />
 <br />
@@ -214,38 +238,4 @@ FlyTrap 收集到這些資訊後，即會上傳到駭侵者設立的控制伺服
 <br />
 在蔡政達於在 Black Hat talk 上發表研究成果，並解釋 ProxyShell 漏洞可以如何運作後，另有兩位資安研究專家發表了相關技術研究報告，指出如何實作該漏洞的攻擊後，就有另一位資安專家 Kevin Beaumont 發現有駭侵者試圖偵測他設立的 Microsoft Exchange Server 是否有該漏洞可入侵，在進一步追查後，發現有駭侵者開始大規模掃瞄網路上的 Microsoft Exchange Server，以利用 ProxyShell 漏洞發動攻擊。<br />
 <br />
-Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏洞發表更新，但據信整個 Internet 上還有 50% 的 Microsoft Exchange Server 尚未套用這些更新。</p>]]></description><pubDate>Tue, 10 Aug 2021 09:10:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4999-4d782-1.html</guid></item><item><title><![CDATA[多廠牌路由器登入驗證跳過漏洞，現已遭大規模用於攻擊]]></title><link>http://www.twcert.org.tw/tw/cp-104-4998-a175a-1.html</link><description><![CDATA[<p><strong>網通大廠旗下的資安研究團隊，發現一個出現在多廠牌路由器的嚴重資安漏洞，可導致駭侵者跳過登入驗證過程，直接取得路由器的控制權；該漏洞且已遭駭侵者大規模用於攻擊。</strong><br />
-<br />
-全球網通大廠 Juniper 旗下的資安研究團隊，近日發現一個出現在多廠牌路由器的嚴重資安漏洞，可導致駭侵者跳過登入驗證過程，直接取得路由器的控制權；該漏洞且已遭駭侵者大規模用於攻擊。<br />
-<br />
-資安專家指出，該漏洞出現在各廠牌路由器採用的公版 Arcadyan firmware，目前更多現有駭侵者利用此漏洞跳過路由器登入驗證程序，取得路由器控取權限後，在路由器內安裝名為 Mirai 的僵屍網路惡意軟體。<br />
-<br />
-該漏洞的 CVE 編號為 CVE-2021-20090，發生在 Arcadyan 公版路由器韌體程式的 web 控制界面；攻擊者可以利用這個漏洞，在被攻擊的路由器中啟動 telnet 連線，以命令列方式控制受到感染的路由器。<br />
-<br />
-這個 CVE-2021-20090 漏洞的 CVSS 分數高達 9.9 分（滿分為 10 分）；據資安專家表示該漏洞存於 Arcadyan 公版韌體至少有 10 年以上。<br />
-<br />
-據該團隊發表的研究報告指出，目前已知有 17 個廠牌，20 種以上的各廠牌路由器產品內含此一漏洞，其中包括在台灣比較暢銷的品牌 4 款路由器在內（DSL-AC88U、DSL-AC87VG、DSL-AC3100、DSL-AC68VG）。<br />
-<br />
-值得注意的是，Juniper 是在發表了該漏洞的概念驗證攻擊方法後 2 天，開始觀察到有駭侵者利用此漏洞大規模發動攻擊。<br />
-<br />
-由於含有此漏洞路由器的廠牌極多，用戶應隨時注意原廠發表的更新訊息，在原廠發表的韌體更新程式推出後，應立即進行更新。</p>
-
-<ul>
-	<li>CVE編號：CVE-2021-20090</li>
-</ul>
-
-<ul>
-	<li>影響產品/版本：詳見 Juniper 資安研究報告中列表</li>
-</ul>]]></description><pubDate>Tue, 10 Aug 2021 09:09:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4998-a175a-1.html</guid></item><item><title><![CDATA[資安廠商公布 SaaS 服務資安統計數字，雲端用戶資安設定高達 44% 發生錯誤]]></title><link>http://www.twcert.org.tw/tw/cp-104-4997-d82a3-1.html</link><description><![CDATA[<p><strong>資安廠商日前發表一份關於雲端 SaaS（Software as a Service，軟體即服務）的資安調查報告，發現高達 44% 的用戶資安設定是錯誤的，不當給予過高的操作權限，對 SaaS 用戶的資安造成嚴重潛在風險。</strong><br />
-<br />
-資安廠商 Varonis 日前發表一份關於雲端 SaaS（Software as a Service，軟體即服務）的資安調查報告，發現多種 SaaS 使用者帳號資安設定的錯誤。<br />
-<br />
-Varinos 是利用 DatAdvantage Cloud 服務，收集該公司客戶在使用各種 SaaS 服務，如 Amazon Web Services、Box、GitHub、Google Drive、Jira、Okta、Salesforce、Slack、Zoom 等知名常見 SaaS 服務的資料，經由分析後得到此 SaaS 資安研究報告的統計數字。<br />
-<br />
-在這份報告列舉的多項統計數字中，其中有高達 44% 的 SaaS 用戶，其資安設定是錯誤的；管理者經常不當給予組織成員過高的操作權限，使其可以存取超過其職務所需範圍的資料，或進行不必要的操作；這可能對該 SaaS 使用單位的資安造成嚴重潛在風險。<br />
-<br />
-另外有高達 75% 的約聘工作者使用的 SaaS 帳號，在該約聘人員離職之後，並未立即由管理員進行關閉歸檔的操作，反而持續能夠使用；這種錯誤也很容易造成潛在的資安風險，因為不只是約聘人員可能被駭侵者以各種方法攻擊，造成登入資訊被竊，約聘人員本人也可能竊取之前工作上獲得的資訊。<br />
-<br />
-報告也指出，有 15% 的 SaaS 企業用戶員工，會將自己 SaaS 帳號中的資料或檔案，轉存到個人擁有的裝置或個人雲端服務帳號中。<br />
-<br />
-統計數字也說，在所有 SaaS 雲端服務中，有高達 43％ 的帳號處於被放棄的狀態；這些帳號久未使用，但也沒有被各 SaaS 企業用戶的負責管理者將之移除或回收，就此棄之不顧；這對駭侵者來說充滿可趁之機，也對 SaaS 用戶本身造成極大的資安風險。</p>]]></description><pubDate>Tue, 10 Aug 2021 09:07:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4997-d82a3-1.html</guid></item></channel></rss>
+Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏洞發表更新，但據信整個 Internet 上還有 50% 的 Microsoft Exchange Server 尚未套用這些更新。</p>]]></description><pubDate>Tue, 10 Aug 2021 09:10:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-4999-4d782-1.html</guid></item></channel></rss>

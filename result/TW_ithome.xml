@@ -6,188 +6,196 @@
  <description></description>
  <language>zh-hant</language>
 <item>
- <title>SUSE併購後的第一個版本，Rancher 2.6大幅強化叢集配置功能</title>
- <link>https://www.ithome.com.tw/news/146534</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://github.com/rancher/rancher/releases/tag/v2.6.0&quot;&gt;Rancher 2.6&lt;/a&gt;是SUSE在去年冬天併購Rancher後，推出的第一個重要版本，開發團隊在這個版本進行了大幅度的更新，像是重新設計Rancher使用者體驗，對入門或是進階的Kubernetes使用者都更加友善，而Rancher 2.6另一個更新重點，則是強化託管叢集配置，改進AKS與GKS叢集生命周期管理。&lt;/p&gt;
-&lt;p&gt;Rancher 2.6強化了AKS和GKS的叢集配置功能，2.6版本是第一個允許用戶在Rancher中，使用其他工具配置AKS的版本，可以將Azure入口等其他工具註冊到Rancher中，配置現有的AKS叢集，而且可以使用AKS配置節點池，以執行自動化擴展。Rancher 2.6也允許用戶配置私有節點和多節點池，並利用Rancher雲端憑證來進行身份驗證。&lt;/p&gt;
-&lt;p&gt;新版Rancher也強化GKE配置功能，支援GKE叢集完整的生命周期管理，允許用戶利用Google雲端平臺中的共享VPC和多節點池，而GKE節點池也能被配置來支援原生自動擴展功能。偏好使用GKE的Rancher用戶，可以使新工具將網路標籤添加到節點池配置中，以便隔離專案網路，限制GKE叢集上專案間的網路存取。&lt;/p&gt;
-&lt;p&gt;Rancher 2.6提供新UI，官方重新設計了叢集瀏覽器，無論是新用戶還是進階用戶，用來瀏覽Kubernetes叢集的Rancher UI皆獲得強化，現在常用的Kubernetes資源，會摺疊成一個子集並且以簡單的術語表示，而所有Kubernetes資源，都可以在瀏覽器中管理並且搜尋。叢集管理員可以從叢集詳細資訊檢視圖中管理專案，且諸如日誌紀錄和監控等叢集工具，都集結在一起，讓用戶更容易探索使用。&lt;/p&gt;
-&lt;p&gt;Rancher 2.6擁有一個新的主頁，在預設登入頁面中，提供Rancher安裝和快速概覽，用戶可以查看目前版本的新增功能、支援，並且快速執行啟動或是配置叢集。新的叢集管理頁面列出所有叢集，讓用戶在同一個地方，管理叢集、憑證和Pod安全政策樣板與驅動程式。&lt;/p&gt;
-&lt;p&gt;官方也在這個版本加入三個技術性預覽功能，其中一個是讓用戶直接從Rancher UI或是API中部署RKE2（RKE Government），而RKE2是Rancher新一代的Kubernetes版本。Rancher還附帶叢集模板，管理員可以利用這些模板，定義新叢集使用節點池、雲端憑證和工具的方式。還有一個預覽功能，則是提供一種使用Windows節點配置自定義RKE2叢集的新方法。&lt;/p&gt;
+ <title>VS Code Python擴充套件翻新測試介面，將棄用舊語言伺服器</title>
+ <link>https://www.ithome.com.tw/news/146564</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟發布&lt;a href=&quot;https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2021-release/&quot;&gt;9月適用VS Code的Python擴充套件&lt;/a&gt;新版本，這個版本加入讓開發者方便編輯和測試程式碼功能，同時，官方也宣布終止Python語言伺服器和Python 2.7 IntelliSense的支援。&lt;/p&gt;
+&lt;p&gt;從這個版本開始，開發者可以在瀏覽器造訪github.dev時，獲得更豐富的Python編輯體驗。在任何GitHub中的儲存庫、拉取請求或是檔案，只要在鍵盤上點擊「.」還是將網址改為github.dev，便能立即在瀏覽器中，存取網頁程式碼編輯器。&lt;/p&gt;
+&lt;p&gt;而現在於網頁程式碼編輯器github.dev，也能獲得Python語言伺服器Pylance支援，提供部分核心編輯功能，讓開發者對Python程式小幅度編輯更方便，新功能包括依語義突出顯示程式碼、內建程式碼完成以及程式碼瀏覽等。&lt;/p&gt;
+&lt;p&gt;微軟使用VS Code中內建的測試瀏覽器，改進Python測試功能的外觀，新的使用者介面更加穩定，還提供了測試探索、瀏覽和狀態渲染等功能。當用戶啟用Python擴充套件，卻沒有配置Python測試時，測試瀏覽器便會出現配置選項，供開發者進行設定。&lt;/p&gt;
+&lt;p&gt;在測試功能完成配置之後，Python擴充套件便會進行探索存在的測試，而所有測試列表便會呈現在測試瀏覽器中，往後開發者在工作區中，新增、刪除和更新Python檔案時，測試瀏覽器中的列表，也都會自動更新。&lt;/p&gt;
+&lt;p&gt;新版的執行和除錯按鈕也有更新，微軟改進編輯器的執行按鈕，把除錯也納入選項，當開發者點擊執行按鈕，VS Code預設會在終端執行Python檔案，不過開發者現在也可以點選旁邊的下箭頭選單，執行除錯動作。而開發者也能夠自定義除錯選項的動作，藉由修改launch.json檔案就能夠進行修改。&lt;/p&gt;
+&lt;p&gt;除了新功能，微軟也將停止對Python 2.7的IntelliSense的支援，並且結束微軟Python語言伺服器生命周期。目前VS Code對Python 2.7的支援，來自Jedi 0.17，而這個版本為一年前，Jedi最後一個支援Python 2.7的版本，由於Jedi 0.17已過時，因此從2021年10月開始，微軟將僅對Jedi 0.18及更高版本的支援。&lt;/p&gt;
+&lt;p&gt;由於現在Python擴充套件預設使用更高效能、功能豐富的Pylance，而幾乎所有用戶也都已經切換至新的語言伺服器，因此微軟預告，在11月發布的Python擴充套件，將是微軟Python語言伺服器結束生命周期的時候。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 15:19:17 +0000</pubDate>
+ <pubDate>Mon, 06 Sep 2021 15:37:34 +0000</pubDate>
  <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146534 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146534#comments</comments>
+ <guid isPermaLink="false">146564 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146564#comments</comments>
 </item>
 <item>
- <title>微軟發布企業級Azure Spring Cloud，提供全託管VMware Tanzu元件</title>
- <link>https://www.ithome.com.tw/news/146533</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;微軟現在提供&lt;a href=&quot;https://azure.microsoft.com/zh-tw/blog/announcing-azure-spring-cloud-enterprise-fully-managed-vmware-tanzu-components-and-configurability-for-spring-boot-apps/&quot;&gt;企業級Azure Spring Cloud服務&lt;/a&gt;，這是針對企業開發人員最佳化的Spring託管服務，可滿足企業用戶的特殊需求。微軟透過和VMware合作，整合雲端平臺Azure和VMware Tanzu，於Azure Spring Cloud Enterprise添加商業Tanzu元件，來滿足企業對Spring Boot應用程式，在配置、整合、靈活性和支援方面的需求。&lt;/p&gt;
-&lt;p&gt;2019年的時候，微軟和Pivotal（現為VMware）共同發布了Azure Spring Cloud，這是一個Spring Boot應用託管服務，用戶能夠藉由部署JAR檔或是程式碼，使得Azure Spring Cloud自動關聯應用程式和Spring服務Runtime，並由該服務管理動態擴展、安全修復程式，並且提供開箱即用的監控工具。&lt;/p&gt;
-&lt;p&gt;Azure Spring Cloud的目的，是要消除用戶管理基礎設施，以及Spring Cloud中介軟體的複雜工作，讓開發者可以專注於應用程式的開發工作，像是使用其他按需服務，在需要的時候簡單啟動Azure Spring Cloud執行個體。&lt;/p&gt;
-&lt;p&gt;而微軟提到，部分用戶在本地端執行數千個Spring Boot應用程式，需要進階的功能來加速Spring現代化，因此在原本的Azure Spring Cloud加入企業層級。&lt;/p&gt;
-&lt;p&gt;Azure Spring Cloud Enterprise讓用戶可以在Azure基礎上，使用VMware Tanzu元件，由於目前仍在預覽階段，僅提供Tanzu建置服務、Tanzu應用程式配置服務和Tanzu服務註冊表，用戶可以在執行個體上靈活地選用需要的Tanzu元件，微軟也提到，他們會繼續和VMware合作，添加諸如Tanzu Spring Cloud Gateway和Spring Cloud Data Flow等更多Tanzu元件。&lt;/p&gt;
-&lt;p&gt;由於大型企業通常具有較複雜的工作流程，需要對開發環境和流程進行額外的配置，而Azure Spring Cloud Enterprise中的Tanzu建置服務，支援自定義Buildpack配置，可自動化創建和管理容器。用戶可以將現有基於Tanzu元件建置的Spring工作負載，搬遷至Azure Spring Cloud Enterprise，並且使用該服務提供的Spring Cloud基礎設施。&lt;/p&gt;
-&lt;p&gt;Azure Spring Cloud Enterprise還對Spring專案提供VMware Spring Runtime支援，這可讓用戶獲得專家幫助，並且存取專為企業設計的Spring Runtime版本。另外，微軟表示，Azure Spring Cloud Enterprise在全託管的環境中運作，因此用戶也能獲得原本Azure所提供的優點，包括Azure擴展靈活性與全球部署能力。&lt;/p&gt;
-&lt;p&gt;用戶可以透過Azure入口、CLI、資源管理器樣板或Terraform，來創建執行個體，並使用Application Insights或是其他應用程式效能管理工具進行監控，與標準層級相同，企業層級提供開箱即用的聚合日誌、指標、分散式應用程式追蹤和警示功能。&lt;/p&gt;
+ <title>Databricks發布Serverless SQL，用戶不須管理伺服器即時獲得SQL運算能力</title>
+ <link>https://www.ithome.com.tw/news/146561</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Databricks SQL現在新增無伺服器功能&lt;a href=&quot;https://databricks.com/blog/2021/08/30/announcing-databricks-serverless-sql.html&quot;&gt;Databricks Serverless SQL&lt;/a&gt;，簡化用戶處理資料和應用人工智慧的麻煩。該無伺服器服務，能夠提供即時運算能力，使用戶能夠一鍵啟用，不需要調校伺服器效能，或是更新修復程式，以最少管理成本執行商業智慧和SQL運算，官方提到，使用Databricks Serverless SQL降低平均總體成本40％。&lt;/p&gt;
+&lt;p&gt;Databricks SQL是一個資料湖分析解決方案，用戶能夠在多雲資料湖架構，以較低的成本獲得和資料倉儲相同的效能。Databricks SQL整合像是Tableau和Power BI等商業智慧工具，讓用戶可以用這些工具，查詢資料湖中完整且最新的資料，更方便的是，Databricks SQL提供使用SQL原生介面，補充現有商業智慧工具的不足，讓資料分析師能夠直接在Databricks中查詢資料湖資料，並透過豐富的視覺化工具，來共享資料查詢後的結果，並對資料中的重大變更設置自動警報。&lt;/p&gt;
+&lt;p&gt;而新的Databricks Serverless SQL則是簡化Databricks SQL系統設置，用戶能夠高效能存取湖邊小屋（Lakehouse）執行商業分析，並且輕鬆擴大存取湖邊小屋即時且豐富的資料集。官方解釋，該功能由一群Databricks所管理的伺服器提供服務，可在數秒之內，轉移運算能力給用戶執行查詢，且只需要對執行報告或是查詢時間支付費用。&lt;/p&gt;
+&lt;p&gt;Serverless SQL的核心是一個運作伺服器池的運算平臺，該平臺以Databricks帳戶執行Kubernetes容器，在用戶需要的時候，於15秒內將Kubernetes容器分配給用戶，當許多用戶同時執行報告和查詢時，運算平臺會在叢集中添加更多伺服器，來處理更多的負載，所有的伺服器由Databricks管理配置，並且自動修補和升級系統。&lt;/p&gt;
+&lt;p&gt;這項無伺服器功能，瞄準想要使用自己喜好的商業智慧工具，分析資料湖中資料的資料分析師，用戶可以簡單地將商業智慧工具連接到Serverless SQL，尤其是使用JDBC/ODBC驅動程式的內建連接器，還支援身分驗證。&lt;/p&gt;
+&lt;p&gt;Serverless SQL是專為商業分析師設計，使用者可以按照自己的步調工作，在需要分析時，即時取用運算能力來處理查詢，用戶不需要等待叢集緩慢啟動或是擴展，管理員也不用手動配置，來啟動和關閉支援分析師工作負載的叢集。&lt;/p&gt;
+&lt;p&gt;Databricks Serverless SQL提供用戶即時可用的運算能力，而且在預設情況下，叢集只要閒置10分鐘便會自動關閉，刪除資源準備下一次查詢任務，官方表示，仰賴自動調度，Databricks Serverless SQL能夠降低總體成本，維持與任務相當的運算容量，避免用戶在不活動時，過度配置伺服器叢集。&lt;/p&gt;
+&lt;p&gt;官方強調，每個伺服器具有安全配置，並且所有程序都有三層隔離層保護，分別是Kubernetes容器託管Runtime、託管容器的虛擬機器，以及工作區的虛擬網路，每一層都會被隔離到獨立的工作空間，不共享或是跨網路傳輸流量，容器使用強化配置，虛擬機器一旦關閉後便不再重用，而網路流量則被限制在同一叢集的節點中。&lt;/p&gt;
+&lt;p&gt;Databricks Serverless SQL和Databricks SQL相比，Databricks Serverless SQL能在十幾秒內啟動完畢，並且提供和Databricks SQL相同的查詢執行速度，不需要花費Databricks SQL數分鐘的啟動時間。目前Databricks Serverless SQL已經在AWS上提供公共預覽版，想嚐鮮的用戶已經可以提出申請。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 15:12:27 +0000</pubDate>
+ <pubDate>Mon, 06 Sep 2021 15:34:01 +0000</pubDate>
  <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146533 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146533#comments</comments>
+ <guid isPermaLink="false">146561 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146561#comments</comments>
 </item>
 <item>
- <title>AWS更新S3智慧分層收費規則，同時開始提供EFS智慧分層功能</title>
- <link>https://www.ithome.com.tw/news/146531</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS在Storage Day 2021會議上發布了儲存服務更新，包括&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/amazon-s3-intelligent-tiering-further-automating-cost-savings-for-short-lived-and-small-objects/&quot;&gt;調整原本Amazon S3智慧分層功能（Intelligent-Tiering）&lt;/a&gt;處理短暫和小型物件的費用，並且在雲端檔案儲存服務&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/new-amazon-efs-intelligent-tiering-optimizes-costs-for-workloads-with-changing-access-patterns/&quot;&gt;Amazon EFS開始提供智慧分層功能&lt;/a&gt;，使EFS能夠根據工作負載的存取模式，最佳化儲存成本。&lt;/p&gt;
-&lt;p&gt;AWS在2018年的時候，在Amazon S3提供智慧分層功能，官方提到，由於跨業務部門和團隊，通常無法預測資料存取模式，而藉由S3智慧分層儲存類別，能存取模式變更時，移動資料存放的儲存層，來自動最佳化成本。現在AWS調整S3智慧分層，取消物件使用S3智慧分層時的最短儲存期限，並且不再對小於128 KB的物件收取監控和自動化費用。&lt;/p&gt;
-&lt;p&gt;目前S3智慧分層處理儲存至少30天，且大於128 KB的物件，由於S3智慧分層適用於共享資料集，而這些資料來自不同應用程式、團隊和個人，並且可被用於分析、機器學習、即時監控和其他資料湖用例，AWS提到，組織內許多用戶通常會在不到30天的時間，儲存廣泛物件並且刪除資料子集。&lt;/p&gt;
-&lt;p&gt;AWS提到，他們要讓S3智慧分層，更適用於未知、不斷變化，或是不可預測存取模式資料的理想儲存類別。從現在起，將不再對30天內刪除、轉換和覆蓋的物件按比例收費，而且也不會對小於128 KB的物件，收取監控和自動化費用，涵蓋S3智慧分層儲存類別中的新物件和舊物件。&lt;/p&gt;
-&lt;p&gt;S3中的短暫和小型物件應用智慧分層更便宜之外，AWS也開始在EFS服務提供智慧分層類別。目前Amazon EFS提供四種儲存類別，包括標準（Standard）和標準不頻繁存取（Standard-IA）類別，還有One Zone與One Zone不頻繁存取（One Zone-IA）類別。標準儲存類別可在多個可用區域（AZ）儲存資料，One Zone則只在單一可用區域冗餘儲存資料，價格比標準類別便宜47％，適用於不需要多可用區域存取的工作負載。&lt;/p&gt;
-&lt;p&gt;用戶透過EFS生命周期管理，可以將未存取的檔案移動到較便宜的不頻繁存取類別，以降低儲存成本，但是這需要用戶花費額外的管理成本，而且當誤把需要頻繁存取的檔案，放到不頻繁存取類別，則存取時需要支付額外的資料存取費用。&lt;/p&gt;
-&lt;p&gt;因此AWS現在於EFS加入智慧分層功能，這是一項新的EFS生命周期管理功能，能夠在資料存取模式發生變化時，自動調整資料儲存類別，以最佳化共享檔案的儲存成本，而當用戶重新存取被放置到不頻繁存取類別時，則檔案會被移動回標準或是One Zone儲存類別，用戶不會被收取資料存取費用，僅需支付轉換儲存類別費用。&lt;/p&gt;
+ <title>勒索軟體鎖定農業與食品製造業下手，FBI特別發出公告呼籲各界重視</title>
+ <link>https://www.ithome.com.tw/news/146563</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;隨著智慧農業的推動，在農業種植、食品生產的過程之中，往往運用了不少操作科技（OT）的設備，也可能連結IT網路環境，而使得過程能夠更有效率。而這些運用於食品供應鏈的物聯網（IoT）裝置，也可能成為攻擊者的目標，業者因氣候變遷導致食品生產面臨更多挑戰的情況下，對於糧食、肉品、各類加工品的供應，更加雪上加霜。&lt;a href=&quot;https://s3.documentcloud.org/documents/21053966/fbi-bc-cyber-criminal-actors-targeting-the-food-and-agriculture-sector-with-ransomware-attacks.pdf&quot;&gt;美國聯邦調查局（FBI）於9月1日發出警告&lt;/a&gt;，表示勒索軟體駭客目前鎖定食品、農業相關產業大肆發動攻擊，呼籲業者要加強有關的資安防護措施。&lt;/p&gt;
+&lt;p&gt;究竟對於這個產業受害的情形又是如何？FBI並未透露。但該單位強調，根據統計，2019年到2020年之間，勒索軟體攻擊平均的贖金增加了1倍，而且過往會有5至8成的受害組織，會遭到重覆勒索。意味著如果這些食品、農業相關業者抱持著付贖金了事的心態，很有可能會變成駭客不斷勒索的對象。&lt;/p&gt;
+&lt;p&gt;FBI也舉出數起這類產業遭到攻擊的事故，像是跨國肉品公司與美國烘焙公司，先後於2021年5月、7月，遭到REvil（Sodinokibi）勒索軟體攻擊；而2021年3月，美國飲料公司遭到勒索軟體攻擊，而導致生產與出貨等運作都遭到中斷。針對農業生產的部分，在2021年1月，美國一處農地因勒索軟體攻擊導致相關設備停機，損失900萬美元。不過，FBI沒有透露上述的受害公司名稱。&lt;/p&gt;
+&lt;p&gt;事實上，針對大型食品製造業而來的勒索軟體攻擊，曾引起美國總統拜登重視。例如，&lt;a href=&quot;https://www.ithome.com.tw/news/144752&quot;&gt;5月底大型肉品業者JBS傳出遭到網路攻擊&lt;/a&gt;，導致北美與澳洲部分產線運作中斷，影響美國當地肉品供應，&lt;a href=&quot;https://www.ithome.com.tw/news/144768&quot;&gt;美國總統拜登痛斥疑似是遭到俄羅斯駭客的勒索軟體攻擊&lt;/a&gt;，而對俄羅斯政府喊話，要求不該包庇罪犯。&lt;/p&gt;
+&lt;p&gt;而對於FBI提出攻擊者鎖定食品供應鏈的攻擊升溫，也有&lt;a href=&quot;https://blog.malwarebytes.com/awareness/2021/09/fbi-warns-of-ransomware-threat-to-food-and-agriculture/&quot;&gt;資安業者Malwarebytes提出相關觀察&lt;/a&gt;，呼應這樣的態勢：該公司指出，從2019年到2020年，鎖定農業的惡意軟體攻擊爆增超過6倍，而針對食品與飲料製造商的攻擊也增加近7成。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/rise-in-attacks-against-agriculture-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/rise-in-attacks-against-agriculture-s.png&quot; style=&quot;width: 580px; height: 280px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 08:03:03 +0000</pubDate>
+ <pubDate>Mon, 06 Sep 2021 11:05:50 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146563 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146563#comments</comments>
+</item>
+<item>
+ <title>強化主管機關落實個資保護監管責任及跨機關協調，行政院建立個資保護執行聯繫機制</title>
+ <link>https://www.ithome.com.tw/news/146562</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;為強化政府各機關對個資保護監管措施的落實，行政院建立個人資料保護執行聯繫機制，召開行政院層級的聯繫會議，敦促行政院各主管機關強化對非公務機關業者的監管措施，包括分級管理、個資外洩事件通報、行政檢查等等。&lt;/p&gt;
+&lt;p&gt;行政院於去年12月召開資安事件之個資外洩因應及風險管理會議，會中決議成立行政機關落實個人資料保護執行聯繫會議（以下簡稱聯繫會議），依分級、課責、通報、跨部會協調四項原則，強化政府各機關對非公務機關的個資保護監管責任。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;確立行政院層級的個資保護執行聯繫會議&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;國發會主委龔明鑫、政務委員羅秉成與唐鳳多次開會，確立強化政府所屬機關對個資外洩通報、監管措施，行政院在今年8月11日更公布「行政院及所屬各機關落實個人資料保護聯繫作業要點」，明訂設立行政院層級的聯繫會議，由行政院長指定一位政務委員擔任召集人，三人擔任協同召集，針對個資外洩或其他個人資料侵害事件，不定期召開，邀中央政府機關、縣市政府及專家與學者出席。聯繫會議由國發會擔任幕僚作業單位。&lt;/p&gt;
+&lt;p&gt;根據作業要點，聯繫會議主要工作，包括研議中央目的事業主管機關針對特定事業提出的安全維護辦法、統籌個資外洩事件的監督通報、重大個資外洩事件的主管機關認定及協助事件行政檢查的跨機關協調。其他個資侵害事件的跨部會協調聯繫等等。當主管機關向其他行政機關請求行政協助被拒，可函送國發會，請求聯繫會議協調處理。&lt;/p&gt;
+&lt;p&gt;換言之，過去發生重大個資外洩事件，可能因界線模糊，難以界定主管機關該由哪個機關負責，未來這類重大個資外洩事件會由聯繫會議指定主管機關，迅速啟動監管措施，包括通報、後續的行政檢查。同時，各主管機關啟動行政檢查，請求其他機關行政協助的協調及個資外洩情報分享機制，將由聯繫會議協調及支援。&lt;/p&gt;
+&lt;p&gt;作業要點也定義重大外洩事件，包括行政院、立法院或監察院關切的個資外洩案件，以及媒體顯著報導的外洩個資事件。另外，作業要點也規定，行政院資通安全處、內政部警政署、法務部調查局，應適時向國發會分享個資外洩案件情報。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;要求各主管機關修訂安全維護辦法&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;鑑於國內個資保護主要採取分散管理架構，由各個中央目的事業主管機關，負責監管非公務機關（業者），近日行政院個資保護執行聯繫會議決議，要求各機關修正目前34項針對特定業別訂定的安全維護辦法，新增分級管理、個資外洩事件通報、行政檢查注意規定等等，加強對業者的監管措施。&lt;/p&gt;
+&lt;p&gt;包括對業者使用資通訊系統保存消費者個資且達一定門檻，納入加強管理對象。對使用者身分確認及保護機制、個資顯示隱碼機制、網路傳輸安全加密機制、個資檔案與資料庫存取控制與保護、防止外部網路入侵、非法或異常使用行為的監控與因應機制，訂定資安標準規範。&lt;/p&gt;
+&lt;p&gt;其次，各主管機關對特定業別訂定的安全維護辦法，應明訂業者發生個資外洩事件時，應通報對象、時間、通報事項及行政檢查等。&lt;/p&gt;
+&lt;p&gt;第三是，主管機關於接獲業者通報資料外洩事件72小時內，需向國發會通報，並啟動行政檢查，落實對業者的監管責任。&lt;/p&gt;
+&lt;p&gt;行政院個資保護執行聯繫會議也要求主管機關應就業者的規模、保存個資數量及機敏性質，個資外洩對當事人的影響程度、國際傳輸頻率等等，評估修訂安全維護辦法，要求各部會檢討更新安全維護辦法。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 06 Sep 2021 10:21:10 +0000</pubDate>
+ <dc:creator>蘇文彬</dc:creator>
+ <guid isPermaLink="false">146562 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146562#comments</comments>
+</item>
+<item>
+ <title>惡意程式牟利的方式有了新手法！不只會偷取算力和資料，還會竊取網路頻寬</title>
+ <link>https://www.ithome.com.tw/news/146560</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;感冒往往會出現咳嗽、發燒，但如今還有可能會引發腸胃炎、呼吸困難等症狀。而惡意軟體對受害電腦帶來的影響，不只是竊取機密資料、電腦運算能力，現在連網路頻寬也不放過。像是可將電腦、手機掛網，分享網路頻寬的軟體，這類合法軟體被稱為網路頻寬共享軟體（Proxyware），由於最近2到3年，有些軟體像是Honeygain、Nanowire等，號稱不需點選廣告或是其他操作就能獲利，使得這種軟體受到使用者關注。但這種軟體現在也被攻擊者盯上，與挖礦工具和惡意軟體並用，來利用他人的電腦牟利。&lt;/p&gt;
+&lt;p&gt;例如，&lt;a href=&quot;https://blog.talosintelligence.com/2021/08/proxyware-abuse.html&quot;&gt;資安業者思科於8月31日提出警告&lt;/a&gt;，指出他們發現攻擊者利用Honeygain，來在Windows電腦散布惡意軟體。&lt;/p&gt;
+&lt;p&gt;Honeygain號稱是第一款讓使用者透過分享網路流量賺錢的應用程式，強調使用者只要安裝他們的軟體，就能被動賺得收入，而利用這些流量上網的另一群用戶，則能藉此避免地區的限制，或是遭到審查。該公司宣稱，使用者分享3臺設備的網路流量，每個月約可賺得19美元。而這個應用程式熱門的程度，如果你在網路上搜尋，就能看到不少中文的教學文章，他們甚至分享賺到了多少錢。&lt;/p&gt;
+&lt;p&gt;然而，思科指出，攻擊者看上Honeygain有越來越多的使用者，也打算利用這個系統來獲利。首先，研究人員看到最基本的攻擊手法，是利用無訊息安裝模式，在受害電腦安裝Honeygain，讓網路頻寬在使用者不知情的情況下被賣掉，思科說，在部分事故中，攻擊者還會修補端點電腦，以免電腦跳出警示訊息而東窗事發。&lt;/p&gt;
+&lt;p&gt;但在近期濫用Honeygain的攻擊行動裡，研究人員指出，駭客在植入這個網路頻寬共享軟體的同時，開始在受害電腦同時安裝XMRig挖礦軟體，以及瀏覽器密碼復原工具ChromePass或WebBrowserPassView，來利用這些受害電腦賺取更多錢。思科發現，攻擊者已經發展出一個惡意軟體家族，來在受害電腦植入上述3種軟體，而且，他們看到攻擊者也打算對於另一種名為Nanowire的網路頻寬共享軟體下手。&lt;/p&gt;
+&lt;p&gt;雖然Honeygain也有Android版應用程式，不過思科尚未看到針對這類行動裝置的攻擊行動。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/image41-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image41-s.png&quot; style=&quot;width: 580px; height: 364px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;但這種引起一般使用者留意的網路頻寬共享軟體，為何可能會對於企業造成危險？思科表示，由於這類軟體允許其他電腦透過用戶電腦流量，來瀏覽網頁，而這些流量就看似來自用戶的電腦。若是他人購買流量，瀏覽有問題的網站，就可能導致用戶被ISP封鎖，限制存取網路能力的現象。而不少使用者並不清楚這種風險，很可能安裝於會連線到公司網路的電腦，這麼一來，也會有機會影響到公司網路對外部的連線能力。而上述串連竊密、挖礦的攻擊手法，也可能讓攻擊者能夠入侵企業。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 06 Sep 2021 09:06:06 +0000</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="false">146560 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146560#comments</comments>
+</item>
+<item>
+ <title>蘋果延遲裝置兒童性剝削內容審查功能，EFF呼籲應完全放棄監控計畫</title>
+ <link>https://www.ithome.com.tw/news/146557</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;蘋果公司&lt;a href=&quot;https://www.apple.com/child-safety/&quot;&gt;宣布&lt;/a&gt;要暫緩推出備受爭議的兒童安全功能，但是&lt;a href=&quot;https://www.eff.org/deeplinks/2021/09/delays-arent-good-enough-apple-must-abandon-its-surveillance-plans&quot;&gt;電子前線基金會（Electronic Frontier Foundation，EFF）對於這項決定並不滿意&lt;/a&gt;，他們認為蘋果應該完全放棄在用戶手機上掃描兒童內容，才是真正保證用戶隱私，並且遵守原本的全程加密政策。&lt;/p&gt;
+&lt;p&gt;8月蘋果釋出要審查用戶手機內容的消息，計畫在裝置上偵測兒童性剝削內容（Child Sexual Abuse Material，CSAM），這代表該公司將在裝置，包括iOS、iPadOS與macOS上，主動偵測用戶搜尋和散布兒童色情內容的行為。&lt;/p&gt;
+&lt;p&gt;除了家長會在兒童帳戶從訊息應用程式，讀取兒童色情內容時收到通知外，iOS與iPadOS還會主動偵測使用者儲存於iCloud上的兒童色情內容，而蘋果公司會在發現並經人工確認後向執法單位告發。同時，該公司也更新Siri和搜尋功能，在用戶查詢兒童性剝削內容時，提供相關的幫助資源。&lt;/p&gt;
+&lt;p&gt;蘋果公司解釋，藉由運用裝置上機器學習功能，能夠在保護用戶隱私的前提下，打擊兒童性剝削。除了避免兒童受到剝削的侵害，也能限制兒童性剝削材料的傳播。原本蘋果計畫這項針對兒童色情內容的新政策，要隨著iOS 15、iPadOS 15與macOS Monterey在今年上線，並先對美國用戶部署，但是這項新政策卻招來大量公民團體抗議。&lt;/p&gt;
+&lt;p&gt;雖然打擊兒童性剝削內容是社會共識，但是不少團體認為蘋果跨越保護用戶隱私的界線，EFF就認為這項作法，是在該公司的資料儲存和訊息傳輸系統開了後門，往後便會受到政府壓力，向用戶篩選更多內容，並且檢舉用戶的要求。不只是EFF，還有超過5,500位隱私和密碼研究人員連署反對蘋果為打擊兒童色情，而開啟內容掃描的後門。&lt;/p&gt;
+&lt;p&gt;面對這些批評與質疑，蘋果公司重申他們所使用的技術，能夠完全保護使用者的隱私，而且也承諾會拒絕任何政府，在這個兒童性剝削審查系統中，要求進行額外的內容審查。不過，顯然各方對於蘋果公司這個回應仍不滿意，批評輿論持續發酵，逼迫蘋果公司在9月3日更新兒童保護政策的實施，決定在接下來數個月的時間，收集更多意見並且進行改進，屆時再重新發布這些功能。&lt;/p&gt;
+&lt;p&gt;雖然蘋果公司暫緩兒童性剝削內容監控計畫執行，但是EFF仍然認為，蘋果公司唯有完全放棄這個後門，才能向用戶保證服務的隱私與安全。EFF顧慮這項政策實際上創建一個審查基礎設施，使得將來更容易執行更嚴格的監控審查，而且可能使得LGBTQ青年，甚至是虐待家庭中的兒童，暴露在更嚴重的潛在危險中。&lt;/p&gt;
+&lt;p&gt;因此EFF向蘋果公司喊話，應放棄完全監控計畫，同時也再次向該公司提交放棄該計畫的25,000人連署書，而這是在Fight for the Future和OpenMedia等超過50,000個簽名連署書之後，公民團體對蘋果公司的再次呼籲，要求信守保護用戶隱私的承諾。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 06 Sep 2021 08:13:10 +0000</pubDate>
  <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146531 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146531#comments</comments>
+ <guid isPermaLink="false">146557 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146557#comments</comments>
 </item>
 <item>
- <title>英國兒童線上隱私法Age Appropriate Design Code正式生效，祭出最高4%的兒童隱私罰款</title>
- <link>https://www.ithome.com.tw/news/146532</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://ico.org.uk/for-organisations/guide-to-data-protection/ico-codes-of-practice/age-appropriate-design-a-code-of-practice-for-online-services/&quot; target=&quot;_blank&quot;&gt;英國兒童線上隱私法《Age Appropriate Design Code》（或簡稱Children&#039;s code）於今年的9月2日正式生效了&lt;/a&gt;，由於此一法令是奠基於GDPR，因此，違反相關法令的企業最高可能會被判罰全球年營收的4%，或是1,750萬英鎊。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0903-childrens-code%20ico%20uk.jpg&quot; style=&quot;width: 450px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_英國ICO&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Children&#039;s code的原則為採用最高等級的隱私保護，例如預設值必須關閉地理定位及個人檔案分析功能，也不應要求兒童提供不必要的個人資料，或者是暗示他們關閉隱私保護。該法令其實在去年就頒布了，只是英國政府提供了1年的寬限期，一直到今年的9月2日才強制實施。&lt;/p&gt;
-&lt;p&gt;此一法令適用於任何可能會被兒童存取的資訊社會服務（Information Society Services，ISS），涵蓋了行動程式、電腦軟體、搜尋引擎、社交平臺、傳訊或語音服務、線上市集、串流服務、線上遊戲，以及任何提供產品及服務予網路用戶的網站，或者是用來控制連網玩具或其它連網裝置的電子服務也算是ISS。換句話說，幾乎所有與網路相關的服務都將受到Children&#039;s code的牽制。&lt;/p&gt;
-&lt;p&gt;此外，就算不是針對18歲以下的兒童所設計的網路服務，但有機會被這個族群所存取，也可能受到Children&#039;s code的規範。&lt;/p&gt;
+ <title>德州反墮胎法生效，GoDaddy出手關閉告密網站</title>
+ <link>https://www.ithome.com.tw/news/146559</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;德州的反墮胎法《德州心跳法案》（Texas Heartbeat Act）在9月1日正式生效了，推崇生命權的Texas Right to Life也開始鼓勵外界透過ProLifeWhistleblower.com網站來提供墮胎者的訊息，不過，網域名稱註冊商暨代管服務業者GoDaddy以該站違反服務條款為由，在9月3日關閉了ProLifeWhistleblower.com。&lt;/p&gt;
+&lt;p&gt;《德州心跳法案》是美國第一個規定懷孕6周以後就禁止墮胎的法案，且允許民眾控告提供墮胎服務的對象，告密且勝訴的人最少可得到1萬美元的獎金。&lt;/p&gt;
+&lt;p&gt;雖然反墮胎法與網路世界似乎沒有直接的關聯，然而，捍衛網路人權的電子前線基金會（EFF）卻認為，它將會對網路言論帶來毀滅性的影響，而GoDaddy則以違反使用條款為由，關閉了鼓勵人們告發墮胎者的ProLifeWhistleblower.com。&lt;/p&gt;
+&lt;p&gt;其中，EFF指出，此一法案創造了一批賞金獵人，獵人們將會利用法庭來懲罰那些在網路上因墮胎言論而激怒他們的人，或者是讓這些人禁言。&lt;/p&gt;
+&lt;p&gt;當《德州心跳法案》在今年5月成為正式法令之後，Texas Right to Life便於7月建置了ProLifeWhistleblower.com，讓民眾能夠檢舉並控訴違反該法令的人士，相關的訴訟案並非針對尋求墮胎的婦女，而是鎖定那些教唆或提供幫助的對象。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/GoDaddy/status/1433819084068622345&quot; target=&quot;_blank&quot;&gt;GoDaddy則在9月2日通知&lt;/a&gt;Texas Right to Life，指出ProLifeWhistleblower.com違反了該公司的服務條款，要求該站遷移到其它平臺，同時會在24小時之後關閉該站的服務。&lt;/p&gt;
+&lt;p&gt;GoDaddy並未明確指出該站所侵犯的條款內容，但&lt;a href=&quot;https://gizmodo.com/here-s-how-you-can-help-shut-down-the-vile-website-for-1847557293?rev=1630527814480&quot; target=&quot;_blank&quot;&gt;Gizmodo猜測&lt;/a&gt;，ProLifeWhistleblower.com違反的是隱私條款，因為GoDaddy禁止任何人在未經他人同意下，公布非公開的個人或實體資訊。&lt;/p&gt;
+&lt;p&gt;至於&lt;a href=&quot;https://texasrighttolife.com/godaddy-cancels-texas-right-to-life-website-prolifewhistleblower/&quot; target=&quot;_blank&quot;&gt;Texas Right to Life則抨擊&lt;/a&gt;，那些支持墮胎的組織花了超過一周的時間想要以流量來摧毀ProLifeWhistleblower.com，在失敗之後，他們轉而騷擾GoDaddy並迫使GoDaddy關閉該網站。&lt;/p&gt;
+&lt;p&gt;ProLifeWhistleblower.com已於9月3日被關閉，現在鍵入該站網址會直接連至Texas Right to Life。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 07:52:00 +0000</pubDate>
+ <pubDate>Mon, 06 Sep 2021 07:32:09 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146532 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146532#comments</comments>
+ <guid isPermaLink="false">146559 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146559#comments</comments>
 </item>
 <item>
- <title>Check Point買下雲端電子郵件安全業者Avanan</title>
- <link>https://www.ithome.com.tw/news/146530</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.checkpoint.com/press/2021/check-point-software-technologies-acquires-avanan/?utm_source=cp-home&amp;amp;utm_medium=cp-website&quot; target=&quot;_blank&quot;&gt;資安業者Check Point本周宣布&lt;/a&gt;，已買下雲端電子郵件安全業者Avanan，未來將把Avanan服務整合到Check Point Infinity架構中，提供各式的郵件保護服務。&lt;/p&gt;
-&lt;p&gt;成立於2015年的Avanan定位為企業雲端郵件安全解決方案供應商，標榜可偵測及阻擋被郵件安全閘道器與進階威脅防護（Advanced Threat Protection）機制錯過的攻擊，還能根據每個組織使用郵件的習慣來打造客製化的威脅防護，並讓駭客無從得知組織是否採用了Avanan。&lt;/p&gt;
-&lt;p&gt;此外，Avanan所打造的API解決方案，可在惡意郵件抵達收件匣之前就封鎖它。目前Avanan約有100名員工，客戶數為5,000家，保護超過250萬個電子郵件信箱。&lt;/p&gt;
-&lt;p&gt;Check Point指出，電子郵件技術已從就地部署解決方案遷移至雲端，成功入侵企業網路的攻擊行動中，有高達95%源自魚叉式網釣郵件，可見捍衛電子郵件安全的重要性，結合Avanan的技術將可保護組織員工受到來自電子郵件、網站或終端的惡意檔案、惡意URL或網釣攻擊。&lt;/p&gt;
+ <title>【疫情日報】9月7日至9月20日維持疫情警戒二級、第八輪9月10日開始預約</title>
+ <link>https://www.ithome.com.tw/news/146558</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;中央流行疫情指揮中心今（6日）宣布，自9月7日至9月20日兩周仍維持全國二級警戒，警戒措施未有太大變化。同時，指揮中心和教育部也說明疫苗接種注意事項，包括第八期疫苗預約鎖定AZ第二劑群眾和18至22歲民眾、啟動學生登記BNT接種事宜。&lt;/p&gt;
+&lt;p&gt;今日新增9例本土案例、7例境外移入，指揮官陳時中表示，未來兩周仍維持二級警戒，警戒通則大多維持現狀，如外出需全程配戴口罩、集會活動人數上限為室內80人、室外300人，以及營業場所和公共場域的室內空間至少1.5米/人（2.25平方米/人）、室外空間至少1米/人（1平方米/人）。&lt;/p&gt;
+&lt;p&gt;但交通和旅行通則則有條件放寬，比如臺鐵對號列車開放全車座位售票、不售站票，高鐵開放全車座位數售票、維持全車對號座。在國家風景區及觀光遊樂業方面，則將容留量上限提升至8成，遊覽車乘車人數則以核定座位數8成為上限，必須全程戴口罩、禁止飲食。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0906-11%E7%B6%AD%E6%8C%81%E7%96%AB%E6%83%85%E8%AD%A6%E6%88%92%E6%A8%99%E6%BA%96%E7%82%BA%E7%AC%AC%E4%BA%8C%E7%B4%9A.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;今日，指揮中心也公布，COVID-19公費疫苗預約平臺第八期預約將提供AZ疫苗，並開放兩類民眾預約，包括9月10日前符合AZ第二劑接種間隔（滿10周）的民眾，可預約接種第二劑，以及7月19日前登記選擇AZ且滿18歲至22歲的民眾，可預約接種第一劑。&lt;/p&gt;
+&lt;p&gt;第八輪預約時間自9月10日早上10點至12日晚上12點止，施打時間則是9月15日至9月23日。&lt;/p&gt;
+&lt;p&gt;與此同時，教育部也公布學生BNT疫苗接種事宜，接種對象包括國高中、五專前三年，以及9月1日前滿12歲的國小學生。在流程上，學生得先取得疫苗接種意願書、經家長同意後，再由學校造冊、於9月23日起開始施打。&lt;/p&gt;
+&lt;p&gt;另一方面，特殊條件學生也可至COVID-19公費疫苗預約平臺登記意願、預約接種。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/S__80945249.jpg&quot; /&gt;&lt;/p&gt;
+&lt;div id=&quot;gtx-trans&quot; style=&quot;position: absolute; left: 981px; top: 58px;&quot;&gt;
+&lt;div class=&quot;gtx-trans-icon&quot;&gt; &lt;/div&gt;
+&lt;/div&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 07:35:04 +0000</pubDate>
+ <pubDate>Mon, 06 Sep 2021 07:02:19 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146558 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146558#comments</comments>
+</item>
+<item>
+ <title>美國督促各大組織修補正被大量開採的Atlassian Confluence漏洞</title>
+ <link>https://www.ithome.com.tw/news/146555</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://twitter.com/CNMF_CyberAlert/status/1433787671785185283&quot; target=&quot;_blank&quot;&gt;美國網戰司令部（US Cyber Command）9月3日警告&lt;/a&gt;，駭客正在大規模開採Atlassian Confluence的CVE-2021-26084安全漏洞，呼籲使用組織應儘速修補&lt;/p&gt;
+&lt;p&gt;Atlassian為一澳洲軟體業者，所打造的Confluence是個基於網頁的團隊協作平臺，Confluence被定位為企業軟體，提供就地部署版本，以及奠基於AWS的軟體即服務版本。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://confluence.atlassian.com/doc/confluence-security-advisory-2021-08-25-1077906215.html&quot; target=&quot;_blank&quot;&gt;Atlassian甫於今年8月25日修補了CVE-2021-26084漏洞&lt;/a&gt;，它是個Confluence Server Webwork的OGNL注射漏洞，將允許未經授權的駭客於Confluence伺服器或資料中心實例上執行任意程式，而且不管採用何種配置都可能被入侵，波及所有的Confluence Server與Data Center版本，被列為重大（Critical）等級的安全漏洞。&lt;/p&gt;
+&lt;p&gt;然而，越南資安研究人員&lt;a href=&quot;https://twitter.com/haxor31337/status/1432731786719551489&quot; target=&quot;_blank&quot;&gt;Tuan Anh Nguyen在8月31日警告&lt;/a&gt;，他已經看到針對該漏洞的大量掃描行動，隔天就有其他的研究人員&lt;a href=&quot;https://github.com/httpvoid/writeups/blob/main/Confluence-RCE.md&quot; target=&quot;_blank&quot;&gt;張貼了CVE-2021-26084漏洞的詳細分析與概念性驗證程式&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;由於相關的概念性驗證程式非常容易使用，將允許駭客向目標伺服器執行任何命令，包括下載其它惡意軟體。&lt;/p&gt;
+&lt;p&gt;這使得美國網戰司令部與Atlassian在9月3日雙雙提出警告，呼籲用戶儘速更新。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;https://confluence.atlassian.com/doc/confluence-security-advisory-2021-08-25-1077906215.html&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0906-Atlassian%20Confluence%20vulnerability-600.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://censys.io/blog/cve-2021-26084-confluenza/?utm_campaign=Rapid%20Response&amp;amp;utm_content=178541966&amp;amp;utm_medium=social&amp;amp;utm_source=twitter&amp;amp;hss_channel=tw-3566263693&quot; target=&quot;_blank&quot;&gt;根據CenSys的偵測&lt;/a&gt;，該公司在8月31日找到13,596個含有漏洞的Confluence實例，9月2日減少到11,689個，9月4日再度降至8,597個。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 06 Sep 2021 06:35:14 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146530 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146530#comments</comments>
+ <guid isPermaLink="false">146555 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146555#comments</comments>
 </item>
 <item>
- <title>微軟首度讓企業客戶測試Windows 10 21H2更新及Windows 11</title>
- <link>https://www.ithome.com.tw/news/146529</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/windows-it-pro-blog/commercial-previews-for-windows-11-and-windows-10-version-21h2/ba-p/2676467&quot; target=&quot;_blank&quot;&gt;微軟昨（2）日宣布針對企業客戶釋出Windows 11以及Windows 10 21H2的測試版本&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;只要有加入Windows Insider Program for Business測試方案的企業用戶，可以透過Windows Update或Windows Update for Business、Windows Server Update Services（WSUS）、&lt;a href=&quot;https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoftwindowsdesktop.windows-11-preview?tab=Overview&quot; target=&quot;_blank&quot;&gt;Azure Marketplace&lt;/a&gt;和&lt;a href=&quot;https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso&quot; target=&quot;_blank&quot;&gt;Windows Insider方案的ISO檔下載頁&lt;/a&gt;來安裝累積更新。&lt;/p&gt;
-&lt;p&gt;啟動Windows Update或Windows Update for Business的企業用戶，會接獲編號&lt;a href=&quot;https://support.microsoft.com/en-us/topic/september-1-2021-kb5005101-os-builds-19041-1202-19042-1202-and-19043-1202-preview-82a50f27-a56f-4212-96ce-1554e8058dc1&quot; target=&quot;_blank&quot;&gt;KB5005101的累積更新&lt;/a&gt;，前提是PC符合Windows 11的硬體規格門檻。不想測試Windows 11的用戶可以在安裝時選擇「stay on Windows 10 for now」，就會自動下載Windows 10 21H2。同樣的，硬體未達門檻的Insiders測試用戶，也只會接獲21H2。&lt;/p&gt;
-&lt;p&gt;兩個版本都是選擇性更新，用戶也可以完全不安裝。兩者的正式版也都預定在今年10月釋出，&lt;a href=&quot;https://www.ithome.com.tw/news/146474&quot; target=&quot;_blank&quot;&gt;其中最新的電腦愈可能在10月5日後安裝Windows 11&lt;/a&gt;，微軟對21H2則沒有提供明確時間點。&lt;/p&gt;
-&lt;p&gt;作為Windows 10最後一次更新，Windows 10 21H2將是小幅功能強化的版本。Home及Pro版用戶可獲得18個月支援，企業及教育版用戶則可獲得30個月。&lt;/p&gt;
-&lt;p&gt;Windows 10 21H2主要功能包括加入Wi-Fi安全標準WPA3 H2E、支援無密碼登入的Windows Hello for Business、WSL（Windows Subsystem for Linux）和EFLOW（Azure IoT Edge for Linux on Windows）加入GPU支援，以便執行機器學習及其他耗運算資源的作業等。&lt;/p&gt;
+ <title>從賣筆電到研發個人化疫苗，施振榮揭露智慧醫療戰略布局提出2大建議</title>
+ <link>https://www.ithome.com.tw/news/146546</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;宏碁集團創辦人暨榮譽董事長施振榮5日在臺灣智慧醫療高峰會上指出，智慧醫療是臺灣最有可能拿下世界第一的產業，因此在智慧醫療戰略佈局上，他呼籲政府要用政策助攻，如衛福部以發展管制並重、食藥署TFDA認證智慧醫材得注重時效性、或健保給付要納入TFDA核准醫材等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;瞄準最有可能拿下世界第一的醫療AI，用新微笑曲線談商業模式&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在施振榮眼中，醫療AI是臺灣最有潛力拿下世界第一的產業。企業若要踏進這個產業，就得思考商業模式。繼1992年提出著名的微笑曲線模式後，施振榮近年再提出一個多維的「新微笑曲線」模式。&lt;/p&gt;
+&lt;p&gt;這個新微笑曲線模式以用戶體驗為最終目標、以現有或有限資源共享為始，強調體驗經濟和共享經濟，並要有能力翻轉思維、機制和行為。&lt;/p&gt;
+&lt;p&gt;他以醫療AI為例，醫療AI的微笑曲線是資訊通產業和醫療產業，兩者跨領域整合後產生的曲線，以共享和體驗來創造附加價值，而共享需要資通訊產業以IT輔助、體驗需要醫療專業知識加強，他期望兩者共同整合，讓臺灣智慧醫療能取得世界領先地位。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/cover%20shi%20copy.png&quot; /&gt;&lt;br /&gt;&lt;span style=&quot;color:#696969;&quot;&gt;（圖片來源：施振榮）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;宏碁攻智慧醫療，成立醫療AI子公司要做個人化癌症疫苗&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;於是，在新微笑曲線的思維下，宏碁集團在2018年成立醫療AI子公司宏碁智醫，來進攻智慧醫療產業。施振榮將宏碁智醫定位為AI、大數據公司，而非以生醫、醫療起家，「我們是要透過雙方合作，來發揮我們的ICT專長，」他說。&lt;/p&gt;
+&lt;p&gt;宏碁智醫成立3年來也累積不少成果，比如研發一款通過臺灣TFDA認證的AI輔助診斷工具VeriSee DR，可直接辨識眼底鏡影像，屬於糖尿病引發的視網膜病變風險程度。施振榮強調，這個工具與Google視網膜病變辨識AI的最大不同之處，可在筆電上即可執行，且準確率達93%。該工具也已於泰國、印尼通過國家認證，接下來，宏碁瞄準越南、馬來西亞和菲律賓，要將產品引進缺乏眼科專科醫師的國家。&lt;/p&gt;
+&lt;p&gt;施振榮也有感而發指出，AI發展有三階段，包括模型開發、產品開發與取證、產品落地，臺灣醫療AI目前還是多聚焦於模型開發。但「體驗經濟落地也很重要，」他提倡以內需帶動外銷，也就是將內需化為產品國際化的墊腳石，先以國內市場驗證產品規格，累積落地和認證經驗後，就能進攻龐大的海外市場。&lt;/p&gt;
+&lt;p&gt;另一方面，他也透露，宏碁智醫正在鑽研疫苗研發，特別鎖定抗原預測、mRNA疫苗以及免疫反應三領域。他們的發展策略是，以自身的IT優勢，來打造這三大領域所需的平臺，如AI抗原預測平臺、mRNA疫苗平臺、免疫反應監測平臺，同時尋找生醫、醫療界的合作夥伴，來提供平臺分析所需的資料，比如基因序列分析、疫苗生產製造資料等。宏碁的最終目標，是要針對國人人種和疾病基因標記，研發個人化癌症疫苗，提供最佳化的治療方針。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Screen%20Shot%202021-09-05%20at%2011_28_25%20PM.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;如何佈局智慧醫療？政府要政策助攻、企業則要B2B和B2C並重&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;談到智慧醫療戰略佈局，施振榮提出兩大建議：政府要用政策助攻、企業則要B2B和B2C並重。&lt;/p&gt;
+&lt;p&gt;在政府政策部分，他建議，衛福部應當以管制、發展並重。這是因為，臺灣目前只有經濟部以產業發展為主，其他部會仍以管制為主，但未來將蓬勃發展的領域，都與這些以管制為主的部會息息相關。因此施振榮期望，衛福部能開始培養管制、發展並重的思維。&lt;/p&gt;
+&lt;p&gt;再來，為了讓臺灣有能力與國際競爭，他也建議，負責核准智慧醫材上市的食藥署TFDA認證得注重時效，讓醫材產品在第一時間內上市，而健保也該給付TFDA核准的智慧醫材，來擴大使用。最後則是進一步，由國健署聯手地方政府，將TFDA核准的智慧醫材普及到民眾生活，來提升國民健康。&lt;/p&gt;
+&lt;p&gt;在產業部分，他則認為，臺灣產業交易雖以B2B為大宗，但就長期發展而言，企業應鎖定B2C、B2B2C，特別是客戶體驗。也因此，他建議企業得有新商業模式，導入設計思考來掌握智慧醫療需求和獲利新契機。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size:24px;&quot;&gt;為何投入智慧醫療？施振榮用王道哲學和隱性價值解釋&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;施振榮對智慧醫療的投資，來自他的王道經營思維。&lt;/p&gt;
+&lt;p&gt;這個思維有三大理念，包括講究自強不息（永續經營）的天道、厚德載物（創造價值）的地道，以及仁禮而已（利益平衡）的人道。在這三道之下，則發展出「六面向價值總帳論」準則，也就是他眼中，企業領導人衡量投資的準則。&lt;/p&gt;
+&lt;p&gt;這六面向包括了有形、無形、直接、間接、現在、未來，他指出，有形、直接、現在是人們最容易感受到的顯性價值，而無形、間接、未來則是大家容易忽略的隱性價值，在他看來，智慧醫療就是這類型的隱性價值產業。施振榮強調，身為一個企業領導人，就得瞄準他人容易忽略的隱性價值，「要公正重視、作為長期投資。」&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 06:49:24 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146529 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146529#comments</comments>
-</item>
-<item>
- <title>國家級駭客掀起新時代網路戰爭</title>
- <link>https://www.ithome.com.tw/article/146526</link>
- <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/sha_chong_960.jpg&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;時報文化&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;二○一七年六月二十七日，某件怪異而恐怖之事，開始在全世界的基礎設施中擴散開來。&lt;/p&gt;
-&lt;p&gt;賓夕法尼亞州的一群醫院開始延遲手術、拒絕病患掛號。塔斯馬尼亞島的一家吉百利（Cadbury）巧克力工廠不再產出巧克力。製藥巨擘默克集團（Merck）不再生產治療人類乳突病毒的疫苗。&lt;/p&gt;
-&lt;p&gt;不久，世界各港口的十七處貨櫃碼頭都無法運作，它們全都屬於世界最大的船舶公司──快桅集團（Maersk）。數萬輛載著貨櫃的十八輪大貨車，開始在這些港埠的入口大排長龍。大船遠道越洋而來，每一艘都載著數十萬個貨櫃，卻發現無人能夠卸貨。全世界緊密交織的自動化系統之重要環節，彷彿受害於某種吞噬腦部的病菌在全球發作，似乎自動忘記了運行方式。&lt;/p&gt;
-&lt;p&gt;而在攻擊的震央──烏克蘭，此一技術末日的影響更為集中。自動提款機和信用卡支付系統毫無理由地自動斷線。該國首都基輔的大眾運輸系統癱瘓。政府部門、機場、醫院、郵局，甚至在車諾比（Chernobyl）核電廠廢墟監控輻射劑量的科學家們，全都束手無策地看著他們網路上的幾乎所有電腦遭受一組謎樣的惡性程式碼感染，所有資料一掃而空。&lt;/p&gt;
-&lt;p&gt;這正是網路戰（Cyberwar）的樣貌：一支不可見的兵力能夠從未知的源頭出擊，大規模毀壞構成文明基礎的技術。&lt;/p&gt;
-&lt;p&gt;數十年來，網路安全的先知們（Cassandras）都在警告我們這種事就要來臨。他們告誡我們，駭客們很快就會跳出區區犯罪，甚至國家資助的間諜行為範圍之外，開始利用現代社會數位化的關鍵基礎設施之弱點。當俄國駭客在二○○七年以網路攻擊轟炸愛沙尼亞，將該國幾乎所有網站全都斷線，這場突擊暗示了地緣政治驅動的駭客攻擊可能達到何等規模。兩年後，美國國家安全局名為「震網」（Stuxnet）的惡意軟體悄悄加速了伊朗的核濃縮離心機，直到它們自毀，這次行動展現的則是即將發生之事的另一場預演：它揭示了網路戰工具能夠伸出區區數位之外，甚至進入實體世界防衛最嚴密也最敏感的環節之內。&lt;/p&gt;
-&lt;p&gt;但對於任何從二○一四年初俄國對烏克蘭開戰以來就在觀察的人來說，還有更明確、更直接的預兆。自二○一五年起，一波波惡毒的網路攻擊開始襲擊烏克蘭政府、媒體和交通運輸。它們最終造成了有史以來第一次由駭客造成的停電，這些攻擊切斷了數十萬平民所需的電力。&lt;/p&gt;
-&lt;p&gt;一小群研究者開始發出警報──但多半徒勞無功──指出俄國正把烏克蘭變成網路戰創新手法的測試實驗室。他們告誡，這些進展可能很快就會用來對付美國、北大西洋公約組織，以及對戰爭的這個新面向仍然毫無準備的更廣大世界。而他們指向了由克里姆林宮支持的一支駭客兵力，似乎正是這股勢力發射了這些前所未見的大規模破壞武器：這個集團名為「沙蟲」（Sandworm）。&lt;/p&gt;
-&lt;p&gt;隨後兩年間，沙蟲將會加強進攻，將自己突顯成為全世界最危險的駭客組合，並且重新定義網路戰。最終，在二○一七年六月下旬這命定的一天，這個集團釋出了震撼世界的「不是佩提亞」（NotPetya）蠕蟲，如今公認為史上破壞力最強，代價也最高昂的惡意軟體。在這個過程中，沙蟲前所未見地演示：高度精密、國家資助，動機一如軍方破壞單位的駭客，能夠無遠弗屆地發動攻擊，以損害人類生活的根基，重擊環環相扣、互相依存的系統，並帶來不測之禍。&lt;/p&gt;
-&lt;p&gt;今天，沙蟲及其同類所呈現的全盤威脅籠罩著未來。倘若網路戰不受約束地升級，國家資助之駭客攻擊行動的受害者們，可能都會成為更惡毒、破壞力更強之蠕蟲的攻擊對象。首先演示於烏克蘭的數位攻擊，暗示著近在眼前的反烏托邦，駭客在其中誘發為期數日、數週，甚至更久的停電──此種蓄意剝奪電力的行徑，可能近似於瑪莉亞颶風襲擊波多黎各之後上演的美國悲劇，導致巨大經濟損害，甚至人命損失。或者，駭客在其中破壞工業區的實體設備，引發致命的混亂。或者如同「不是佩提亞」之例，他們就只是在某個戰略時機把數十萬部電腦清空，造成敵國經濟或關鍵基礎設施的數位系統陷入腦死狀態。&lt;/p&gt;
-&lt;p&gt;本書敘述的正是沙蟲的故事，在推進這種網路戰爭反烏托邦的流氓行為者中，他們是至今為止最顯著的範例。內容跟隨著歷時數年之久的調查工作，隨著沙蟲的指紋顯現於一個接一個數位災難現場，追蹤這些駭客並識別其身分、標定其位置，同時喚起大眾注意這個集團所代表的危害，不顧一切地期望能夠加以遏阻。&lt;/p&gt;
-&lt;p&gt;但本書也不只是單一駭客集團的故事，甚至不只是俄國在全世界不計後果地發動這種新型網路戰所帶來更廣泛威脅的故事。它是一場持續至今的更大規模全球軍備競賽的故事。這正是美國與西方不僅無力制止，更由於我們自己率爾採用數位攻擊工具，而直接變本加厲的一場競賽。我們的這一舉動，將一股不受遏制的新混亂力量引進了世界。&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;與俄國的齟齬，導致烏克蘭成為史上第一個被駭客斷電的國家&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;燈光熄滅之時，時鐘正好顯示零時。&lt;/p&gt;
-&lt;p&gt;這是二○一六年十二月的一個週六夜，歐列克西．雅辛斯基（Oleksii Yasinsky）正在烏克蘭首都基輔的公寓裡，與妻子和十來歲的兒子坐在沙發上。這位四十歲的烏克蘭網路安全研究員，和家人們看了一小時奧利佛．史東（Oliver Stone）導演的電影《神鬼駭客：史諾登》（Snowden），這時公寓突然斷電。&lt;/p&gt;
-&lt;p&gt;「駭客不想讓我們看完這部片。」雅辛斯基的妻子開玩笑。她指的是一年前發生的另一件事：二○一五年耶誕節前兩天，一次網路攻擊切斷了將近二十五萬烏克蘭人的民生用電。&lt;/p&gt;
-&lt;p&gt;身為基輔一家網路安全公司首席鑑識分析師的雅辛斯基沒有笑。他查看書桌上的輕便時鐘：時間是零時。正值子夜。&lt;/p&gt;
-&lt;p&gt;雅辛斯基的電視機接上了一臺以備用電池供電的突波保護器，於是這時照亮房間的只剩下螢幕上影像的閃動。延長線插座開始發出悲涼的嗶嗶聲。雅辛斯基起身將它關掉以保存電量，房間突然變得靜寂無聲。&lt;/p&gt;
-&lt;p&gt;他走向廚房，拿出一把蠟燭，將它們點亮。然後他走到廚房窗邊。這位瘦削、沙金色頭髮的工程師望向窗外從未見過的城市景象：公寓大樓周圍的整片天際線一團漆黑。只有遠方燈火從雲層密布的天空反射出的昏暗微光，勾勒出染黑了的現代公寓大樓和蘇聯式高樓的龐大輪廓。&lt;/p&gt;
-&lt;p&gt;記下了確切時間與日期──幾乎是二○一五年十二月輸電網攻擊的整整一週年，雅辛斯基確信這次停電絕不正常。他想到室外的寒冷──氣溫逼近華氏零度──想到成千上萬人家中的氣溫緩緩降低，以及從水泵失效到水管凍結的倒數計時。&lt;/p&gt;
-&lt;p&gt;另一個疑神疑鬼的想法，正是在此時開始，在雅辛斯基腦海中逐漸加深：過去十四個月以來，他發現自己置身於鋪天蓋地而來的危機中心。愈來愈多烏克蘭公司和政府機關請他協助分析接二連三，無休無止地襲擊他們的大量網路攻擊。一個駭客集團似乎是這一切攻擊的幕後操縱者。這時他再也抑制不住這樣的感受：一年多來他一直追蹤著相同指紋的這些幽靈，此時穿越了網際網路的蒼穹，回頭侵入了他的家中。&lt;span style=&quot;color:#696969;&quot;&gt;──本文摘錄《沙蟲駭客：全球最具侵略性和破壞性的克里姆林宮黑客組織，如何掀起新時代網路戰爭》，時報文化提供）&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 書名 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%B2%99%E8%9F%B2_%E5%9C%961_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90_%E6%99%82%E5%A0%B1%E5%87%BA%E7%89%88-300.png&quot; style=&quot;width: 300px;&quot; /&gt;&lt;/p&gt;
-&lt;p class=&quot;rteright&quot;&gt;&lt;span style=&quot;color:#696969;&quot;&gt;圖片來源_時報文化&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;沙蟲駭客（Sandworm）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;安迪．格林伯格（Andy Greenberg）／著；蔡耀緯／譯&lt;/p&gt;
-&lt;p&gt;時報文化出版&lt;/p&gt;
-&lt;p&gt;售價：460 元&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#3399ff;&quot;&gt; 作者簡介 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;安迪．格林伯格（Andy Greenberg）&lt;/p&gt;
-&lt;p&gt;是《連線》雜誌資深記者，主跑資安、隱私權、資訊自由及駭客文化。他的著作包括二○一二年出版的《扼殺祕密的機器》（This Machine Kills Secrets），以烏克蘭網路戰為題，在《連線》撰寫的報導，則獲頒傑拉德伯國際報導獎（Gerald Loeb Award for International Reporting）。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 06:00:00 +0000</pubDate>
- <dc:creator>iThome</dc:creator>
- <guid isPermaLink="false">146526 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/article/146526#comments</comments>
-</item>
-<item>
- <title>日本農業轉型看上臺灣智慧農機技術，三大茶園AIoT技術落地靜岡實證最快明年產品化</title>
- <link>https://www.ithome.com.tw/news/146424</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p dir=&quot;ltr&quot;&gt;茶園管理也開始邁向規格化、機械化與數位化！資策會數位服務創新研究所從2018年起，與長生製茶廠、茶業改良場合作，開發了一套農機智慧管理系統，並導入長生製茶廠的代耕場域，提供農機設備的預測維修、駕駛行為追蹤以及茶園管理等三大功能。今年，這套系統更取得日本採茶機市佔達6成的農機企業落合刃物青睞，目前已經在日本展開跨國應用實證，最快明年就會啟動付費機制來販售。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;在農業人口老化的趨勢下，臺灣茶園種植已經走向機械化，比如長生製茶廠過去就從國外引進大型機械，在臺灣多個縣市提供茶園機械代耕服務。觀察到這個現象，資策會在機械化管理的基礎下，開發農機管理系統，目標讓茶園經營者透過更有效的管理模式，來提升茶園產能、精簡人力成本。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;資策會從三大面向來開發系統功能。首先，為了讓新手能快速學會農機駕駛方法，團隊在農機上裝設IoT設備，來追蹤農機駕駛行為，比如依據採茶刀具的升降行為、農機行駛速度、轉彎速度等數據，來評估駕駛人員是否為新手、需不需輔導。同時，藉由蒐集到的數據，團隊也建立了駕駛建議模型，針對新手駕駛提供操作建議，目的要將老練駕駛的經驗，快速傳承給新手駕駛學習。&lt;/p&gt;
-&lt;p&gt;除了以農機數據來推論駕駛行為，資策會也透過農機的機具特性，包括不同環境條件下的油溫、油壓及維運相關參數，來建立農機的維修預測模型。比如農機在高溫的環境下，可能導致液壓系統運作不順暢，機器損壞的機率較高，因此，在不同的環境條件下，經過模型預測，就能進一步判斷農機運作多久可能損壞、什麼時間點應該保養維修。而每臺機器也會因機型不同、茶園土質的不同，產生不同的油耗量差異，資策會也能依據不同環境來建立耗油量預測模型，來建議不同地區應使用的農機機型。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;不只如此，資策會也要將茶園管理經驗數位化，讓管理經驗更容易複製到其他場域。茶園管理也就是派工採收茶葉、茶園修編或噴藥等行為，這些任務通常是依據有經驗者的管理經驗來分派。為了將這些任務的作業時間記錄下來，團隊剛開始先開發了一隻工作回報App，讓上工的人員自行記錄下工作類別與時間，但實際上執行時，卻面臨員工忙於農務工作、疏於回報的問題。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;收到第一線員工的反饋後，團隊將原本要手動填寫的任務，改透過農機IoT結合GPS的資料，來自動蒐集茶園派工記錄。比如當員工發動農機引擎，就能記錄下每一趟任務的起迄時間，透過GPS的定位也可以了解員工被分派到哪一區工作，自動留下數位工作記錄，供員工後續以App來查閱。透過這些工作記錄，就能進一步數位化茶園管理的經驗，以利未來進行經驗傳承。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;資策會指出，透過這套系統，管理者可從數據中了解許多管理資訊，包括追蹤各茶園的採收產能、各駕駛工作表現、各農機維護狀況，藉此優化管理流程。以長生製茶廠為例，在良好的管理模式之下，茶園產能可比一般茶園多30%，且精簡人力成本達50%。&lt;/p&gt;
-&lt;h3 dir=&quot;ltr&quot;&gt;&lt;span style=&quot;color:#FF8C00;&quot;&gt;找出誰來買單？農機管理系統的產品化挑戰&lt;/span&gt;&lt;/h3&gt;
-&lt;p dir=&quot;ltr&quot;&gt;根據長生製茶廠的經驗開發了農機管理系統後，資策會也要將這套系統產品化，向國內外輸出。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;「產品化的最大挑戰，是弄清楚誰有機會付錢。」資策會數位服務創新研究所經理彭永興指出，從過去的經驗來看，要說服農民導入一套軟體系統極其不易，因此，資策會也從另一個角度思考，「農民更願意為哪些產品或服務付錢？」&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;轉念思考後，資策會發現，由於茶園缺工，代耕服務已經是農民要經營茶園的重要一環，意味著農民更願意付錢採購代耕業者的服務；而代耕業者為了提供代耕的機具，也需要向農機廠商採購農機。了解到這層關係後，團隊找到了兩個切入的機會點，一是向代耕業者推廣，二是說服農機廠商買單。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;之所以向代耕業者推廣，是要讓代耕業者提供服務時，能用來加值農機運作、駕駛行為、與茶園工作的管理，藉此提升茶園管理效能，甚至增加茶葉產量，讓農民更願意為代耕服務買單；且對代耕業者來說，在拓展業務時，茶園管理的規模也會擴大，在傳承管理經驗時，也需要一套系統來加速經驗的複製與轉移。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;除了代耕業者，對農機廠商來說，也能在結合這套系統後，透過農機維運與管理功能，為自己的產品加值。也就是說，在提供農機硬體設備的同時，若能輔以一套管理系統，提供如農機GPS追蹤、維護保養建議等服務，就能以此為優勢，以軟硬體結合的方式，推廣給農民與代耕業者搭配採購。&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;目前，資策會正在將這套軟體系統產品化，今年4月開始，與日本採茶機市佔達6成的農機企業落合刃物，在日本靜岡縣展開驗證，最快明年就會啟動付費機制。未來在軟體服務的販售上，資策會也計畫分為入門版、進階版、專業版，設定不同的租用價格來進行販售，讓用戶能按需選擇合適的方案來採用。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 05:32:37 +0000</pubDate>
- <dc:creator>翁芊儒</dc:creator>
- <guid isPermaLink="false">146424 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146424#comments</comments>
-</item>
-<item>
- <title>藍牙BrakTooth漏洞波及逾1,400款產品</title>
- <link>https://www.ithome.com.tw/news/146523</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://asset-group.github.io/disclosures/braktooth/&quot; target=&quot;_blank&quot;&gt;新加坡科技設計大學（Singapore University of Technology and Design）的研究人員在本周揭露了藍牙漏洞BrakTooth&lt;/a&gt;，BrakTooth集結了逾20種不同的安全漏洞，可能造成服務阻斷或遠端程式攻擊，影響逾1,400款產品，從電腦、手機到鍵盤等，估計全球可能有數十億裝置含有潛在的安全風險。&lt;/p&gt;
-&lt;p&gt;這群研究人員調查的是全球11家業者所開發的13款藍牙系統單晶片（SoC），包括英特爾、高通、德儀（TI）、杰理及Cypress等，總計發現了16個新漏洞，並將它們統稱為BrakTooth漏洞。保守估計有1,423種產品採用了含有漏洞的藍牙SoC，這些產品可能是手機、電腦、喇叭或耳機等聲音裝置、家用娛樂系統、鍵盤或工業設備，例如小米盒子、微軟的Surface筆電、Sony的Xperia XZ2手機、Walmart所銷售的藍牙喇叭，都在受害名單上。&lt;/p&gt;
-&lt;p&gt;這次所發現的新漏洞中，最嚴重的是CVE-2021-28139，它藏匿在Espressif Systems所開發的ESP32 SoC上，因其缺乏越界檢查，因而允許熟悉其韌體架構的駭客，得以執行任意程式。ESP32 SoC被廣泛地應用在各種IoT領域上，如工業自動化、智慧家庭或健身等。多個服務阻斷漏洞則允許駭客干預筆電、手機、耳機、喇叭或機上盒的藍牙運作。&lt;/p&gt;
-&lt;p&gt;研究人員在發現這些漏洞之後，已分別通報受到影響的業者，還獲得了Espressif System及小米的抓漏獎勵，不過，迄今只有Espressif System、Cypress與Bluetrum Technology已修補了相關漏洞，英特爾、高通及杰理正在進行修補。此外，高通並不打算修補其中一款含有漏洞的韌體。德儀則說，除非客戶要求，否則該公司並不打算修補。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 05:17:13 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146523 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146523#comments</comments>
-</item>
-<item>
- <title>AWS提供NetApp ONTAP檔案系統服務</title>
- <link>https://www.ithome.com.tw/news/146522</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.businesswire.com/news/home/20210902005650/en/AWS-Announces-General-Availability-of-Amazon-FSx-for-NetApp-ONTAP&quot; target=&quot;_blank&quot;&gt;AWS本周公布&lt;/a&gt;支援NetApp ONTAP的雲端檔案系統服務Amazon FSx for NetApp ONTAP。&lt;/p&gt;
-&lt;p&gt;ONTAP是NetApp設備的底層作業系統，具備資料及檔案系統管理功能，過去都是部署在資料中心的NetApp NAS（Network-Attached Storage）設備上。Amazon FSx for NetApp ONTAP則是將ONTAP檔案系統服務搬上AWS。&lt;/p&gt;
-&lt;p&gt;這項服務主要在滿足企業將資料搬上雲端的需求。在本地部署環境中，儲存管理員用NetApp NAS儲存多用戶及群組資料，並以專屬工具、流程及API來管理ONTAP檔案儲存，但若企業把應用程式搬上雲端，就得放棄熟悉的工具，往往還得花時間及人力重新架構應用程式、工具及工作流程。&lt;/p&gt;
-&lt;p&gt;Amazon FSx for NetApp ONTAP已經正式上線，號稱管理員只要按幾個鍵即可在AWS上啟動、運行及管理NetApp ONTAP環境。企業可用Amazon FSx for NetApp ONTAP配置檔案伺服器、儲存磁碟區、複製資料、升級檔案伺服器軟體或修補程式，以及管理高可用性（high-availability）功能等。&lt;/p&gt;
-&lt;p&gt;這項服務支援ONTAP核心儲存管理功能，包括以多協定存取網路檔案分享、特定時間點資料快照、以及資料複製SnapMirror、FlexClone等。此外，它也支援ONTAP的資料壓縮、去除重覆資料（deduplication）、壓緊（compaction）及隨需配置（thin provisioning）。此外，管理員也可以ONTAP管理員API來管理Amazon FSx for NetApp ONTAP，維持熟悉作業流程。&lt;/p&gt;
-&lt;p&gt;管理員可利用AWS或NetApp的管理介面新增檔案系統。建好後就可在Windows、Linux、macOS用戶端上，以NFS（Network File System）、SMB（Service Message Block）或iSCSI等協定管理雲端檔案系統。另外也可以透過NetApp ONTAP REST API或CLI設定其他ONTAP的功能。&lt;/p&gt;
-&lt;p&gt;針對將資料搬上不同AWS服務區域的企業，Amazon FSx for NetApp ONTAP也支援跨AWS區域的資料複製和備份。Amazon FSx for NetApp ONTAP也可和其他AWS上服務串接，以AWS API和管理工具管理。&lt;/p&gt;
-&lt;p&gt;這是AWS上最新加入的檔案系統服務。在此之前，AWS還提供Amazon FSx for Windows File Server及Amazon FSx for Lustre等雲端檔案系統服務。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Fri, 03 Sep 2021 05:05:45 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146522 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146522#comments</comments>
+ <pubDate>Mon, 06 Sep 2021 06:14:50 +0000</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="false">146546 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146546#comments</comments>
 </item>
 </channel>
 </rss>
