@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-09-07T03:22:22.585Z</updated>
+    <updated>2021-09-07T03:27:24.308Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[雙旋逼近　康森周六最接近香港　燦都趨向台灣南部]]></title>
+        <id>https://www.thestandnews.com/society/ab%E9%9B%99%E6%97%8B%E9%80%BC%E8%BF%91-%E5%BA%B7%E6%A3%AE%E5%91%A8%E5%85%AD%E6%9C%80%E6%8E%A5%E8%BF%91%E9%A6%99%E6%B8%AF-%E7%87%A6%E9%83%BD%E8%B6%A8%E5%90%91%E5%8F%B0%E7%81%A3%E5%8D%97%E9%83%A8</id>
+        <link href="https://www.thestandnews.com/society/ab%E9%9B%99%E6%97%8B%E9%80%BC%E8%BF%91-%E5%BA%B7%E6%A3%AE%E5%91%A8%E5%85%AD%E6%9C%80%E6%8E%A5%E8%BF%91%E9%A6%99%E6%B8%AF-%E7%87%A6%E9%83%BD%E8%B6%A8%E5%90%91%E5%8F%B0%E7%81%A3%E5%8D%97%E9%83%A8"/>
+        <updated>2021-09-07T03:27:20.736Z</updated>
+        <summary type="html"><![CDATA[兩股熱帶氣旋同時逐步移近華南，今日 （７ 日)上午 10 時，強烈熱帶風暴康森集結在馬尼拉之東南約 420公里，預料向西北移動，時速約 12 公里，橫過菲律賓中部。同時，位於西北太平洋的熱帶風謈已命名為燦都，今早集結在台北之東南約 1880 公里，預料向西北偏西移動，時速約 10 公里，大致移向台灣一帶。依照天文台熱帶氣旋路徑資訊，康森將於本周六 (11 日)上午最接近香港，在香港以南 400 …]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210907-01.png"><figcaption><span>(圖片來源：天文台熱帶氣旋路徑資訊)</span></figcaption></figure><p>兩股熱帶氣旋同時逐步移近華南，今日 （７ 日)上午 10 時，強烈熱帶風暴康森集結在馬尼拉之東南約 420公里，預料向西北移動，時速約 12 公里，橫過菲律賓中部。同時，位於西北太平洋的熱帶風謈已命名為燦都，今早集結在台北之東南約 1880 公里，預料向西北偏西移動，時速約 10 公里，大致移向台灣一帶。</p>
+
+<div><figure><img src="https://assets.thestandnews.com/media/photos/typhoon_WX5iJ4j.jpg"><figcaption><span>(圖片來源：天文台熱帶氣旋路徑資訊)</span></figcaption></figure></div>
+
+<p>依照天文台熱帶氣旋路徑資訊，康森將於本周六 (11 日)上午最接近香港，在香港以南 400 多公里外掠過，屆時已增強為強烈熱帶風暴；燦都則在周日上午 (12 日) 最接近台灣，屆時亦已增強為颱風，其後亦有可能進一步靠近香港。</p>
+
+<p>天文台預測，今日天氣炎熱，部分時間有陽光，局部地區有驟雨。吹和緩偏東風。展望未來兩、三日，部分時間有陽光及酷熱。周末天氣開始轉壞，大致多雲，有幾陣驟雨。周日則多雲，間中有驟雨及幾陣狂風雷暴。</p>]]></content>
+        <author>
+            <name>立場報道</name>
+            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
+        </author>
+        <category label="社會"/>
+        <published>2021-09-07T03:19:08.606Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[蟄居者]]></title>
         <id>https://www.thestandnews.com/international/%E8%9F%84%E5%B1%85%E8%80%85</id>
@@ -2055,33 +2075,5 @@ body {
         </author>
         <category label="社會"/>
         <published>2021-09-06T09:58:10.159Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[港大研究指香港成最長壽地區因低吸煙率　不點名批邵家輝「放生」加熱煙]]></title>
-        <id>https://www.thestandnews.com/society/%E6%B8%AF%E5%A4%A7%E7%A0%94%E7%A9%B6%E6%8C%87%E9%A6%99%E6%B8%AF%E6%88%90%E6%9C%80%E9%95%B7%E5%A3%BD%E5%9C%B0%E5%8D%80%E5%9B%A0%E4%BD%8E%E5%90%B8%E7%85%99%E7%8E%87-%E4%B8%8D%E9%BB%9E%E5%90%8D%E6%89%B9%E9%82%B5%E5%AE%B6%E8%BC%9D%E6%94%BE%E7%94%9F%E5%8A%A0%E7%86%B1%E7%85%99</id>
-        <link href="https://www.thestandnews.com/society/%E6%B8%AF%E5%A4%A7%E7%A0%94%E7%A9%B6%E6%8C%87%E9%A6%99%E6%B8%AF%E6%88%90%E6%9C%80%E9%95%B7%E5%A3%BD%E5%9C%B0%E5%8D%80%E5%9B%A0%E4%BD%8E%E5%90%B8%E7%85%99%E7%8E%87-%E4%B8%8D%E9%BB%9E%E5%90%8D%E6%89%B9%E9%82%B5%E5%AE%B6%E8%BC%9D%E6%94%BE%E7%94%9F%E5%8A%A0%E7%86%B1%E7%85%99"/>
-        <updated>2021-09-06T11:46:30.130Z</updated>
-        <summary type="html"><![CDATA[香港自 2013 年起，超越日本成全球最長壽地區。港大醫學院歷時 8 年研究，分析全球逾 2.6 億死亡個案，比對各國政策、死亡因素後，發現香港預期壽命超越其他高收入國家，其中一半原因是低吸煙率。學院主動提及立法會現時就全禁電子煙和加熱煙拉鋸，不點名批評自由黨邵家輝提出、改為規管加熱煙的修正案，強調希望議會盡快通過全禁。院長梁卓偉指立法會選舉將近，希望選民眼睛雪亮，「睇清楚邊啲立法會代表，鍥而不…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/smoke-14.png"></figure><p>香港自 2013 年起，超越日本成全球最長壽地區。港大醫學院歷時 8 年研究，分析全球逾 2.6 億死亡個案，比對各國政策、死亡因素後，發現香港預期壽命超越其他高收入國家，其中一半原因是低吸煙率。學院主動提及立法會現時就全禁電子煙和加熱煙拉鋸，不點名批評自由黨邵家輝提出、改為規管加熱煙的修正案，強調希望議會盡快通過全禁。院長梁卓偉指立法會選舉將近，希望選民眼睛雪亮，「睇清楚邊啲立法會代表，鍥而不捨做好維護民康的工作，邊啲政黨就算（畀）煙草商游說都企硬」。</p>
-
-<p><strong>香港較他國長壽一半原因是吸煙因素</strong></p>
-
-<p>港大醫學院領導的團隊，包括澳洲國立大學等多所海外院校，分析來自逾 30 個國家、 2 億 6300 萬宗全球死亡個案，再比對香港自 1989 年 142 萬宗死亡個案，指雖然二次大戰後大量移民湧港，但無拉低本港平均預期壽命，關鍵因素是本港低心血管疾病致死率、女性癌症低死亡率構成。團隊分析行為因素，包括各地吸煙概況，發現香港男女吸煙率一直遠低英美及日本，由吸煙引致的死亡個案再與高收入國家比較，亦是處於最低水平，不過一直未有再明顯下降，院長梁卓偉指「唔好沾沾自喜，個個 ( 國家 ) 愈來愈好，我哋係 ( 吸煙引致死亡趨勢 ) 係平」。</p>
-
-<p>研究對比香港與其他高收入國家的生存優勢，男性有一半原因是吸煙因素，令吸煙有關疾病如心血管病的死亡率低，女性就有近 3 成半是此原因。港大醫學院指歸功於香港一早禁止公眾地方吸煙、成立吸煙與健康委員會等。</p>
-
-<p><strong>林大慶不點名批評邵家輝﹕有議員仲想阻撓</strong></p>
-
-<p>公共衞生學院講座教授林大慶提及，立法會 9 月 10 日恢復辯論《2019年吸煙（公眾衞生）（修訂）條例草案》，港府擬全禁電子煙和加熱煙，不點名批評提修正案的邵家輝，「有議員仲想阻撓，禁止電子煙、放生加熱煙，係我哋最擔心嘅事」，強調「放生」加熱煙會一發不可收拾，現時無證據顯示吸食電子煙及加熱煙可減低吸煙的禍害。</p>
-
-<p><strong>梁卓偉籲市民睇清楚立法會代表</strong></p>
-
-<p>梁卓偉指研究本身未公布，但已與醫學雜誌《刺針》總編輯商討，適逢本星期五法案委員會開會，立法會會期又即將完結，「既然有數據，希望唔好錯過呢個時刻」。他又指立法會選舉將近，希望選民眼睛雪亮，「睇清楚邊啲立法會代表，鍥而不捨做好維護民康的工作，邊啲政黨就算（畀）煙草商游說都企硬」。</p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="社會"/>
-        <published>2021-09-06T10:32:41.714Z</published>
     </entry>
 </feed>
