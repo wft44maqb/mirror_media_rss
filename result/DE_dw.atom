@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-08T03:51:30Z</updated>
+ <updated>2021-09-08T03:57:19Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -175,16 +175,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59101807</id>
-  <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
-  <updated>2021-09-06T15:01:00Z</updated>
-  <published>2021-09-06T15:01:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59101575</id>
   <title><![CDATA[德语媒体：名不副实的伙伴关系]]></title>
   <updated>2021-09-06T15:01:00Z</updated>
@@ -193,6 +183,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：名不副实的伙伴关系/a-59101575?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[刚刚掌控阿富汗的塔利班，近来对北京赞不绝口，也希望尽快获得来自中国的援助和投资。然而，对北京来说，同塔利班结盟也许并非明智的选项。]]></summary>
   <category term="评论分析"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59101807</id>
+  <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
+  <updated>2021-09-06T15:01:00Z</updated>
+  <published>2021-09-06T15:01:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
+  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59101217</id>
