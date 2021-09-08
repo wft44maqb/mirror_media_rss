@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-08T09:39:23Z</updated>
+ <updated>2021-09-08T09:42:32Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -235,6 +235,16 @@
   <category term="评论分析"/>
  </entry>
  <entry>
+  <id>tag:dw.com,2021:59065287</id>
+  <title><![CDATA[单性生殖：无需交配也能繁殖后代？]]></title>
+  <updated>2021-09-05T07:04:00Z</updated>
+  <published>2021-09-05T07:04:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/单性生殖：无需交配也能繁殖后代？/a-59065287?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[新近，意大利撒丁岛水族馆一雌鲨鱼在没有与雄鲨鱼交配的情况下分娩的消息引起轰动。鲨鱼“单性生殖”现象是否真的罕见？]]></summary>
+  <category term="科技环境"/>
+ </entry>
+ <entry>
   <id>tag:dw.com,2021:59077830</id>
   <title><![CDATA[德国“隐形冠军”迎来中国挑战]]></title>
   <updated>2021-09-05T07:04:00Z</updated>
@@ -253,16 +263,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/在南斯拉夫对抗纳粹的德意志游击队/a-59079805?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[二战期间，南斯拉夫游击队内有一支特殊的“台尔曼营”部队，积极抗击纳粹德国侵略者。这也是整场战争期间，盟军阵营内唯一一支全部由德意志人组成的部队。]]></summary>
   <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59065287</id>
-  <title><![CDATA[单性生殖：无需交配也能繁殖后代？]]></title>
-  <updated>2021-09-05T07:04:00Z</updated>
-  <published>2021-09-05T07:04:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/单性生殖：无需交配也能繁殖后代？/a-59065287?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[新近，意大利撒丁岛水族馆一雌鲨鱼在没有与雄鲨鱼交配的情况下分娩的消息引起轰动。鲨鱼“单性生殖”现象是否真的罕见？]]></summary>
-  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59049344</id>
@@ -523,6 +523,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/为文化对话颁发歌德奖章/a-59012745?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[8月28日是德国文学巨匠歌德的生日，歌德奖章的颁奖礼也定在这一天。今年的获奖者是喀麦隆社会经济学家贝尔、日本作曲家细川俊夫和中国舞蹈艺术家文慧。]]></summary>
   <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59000443</id>
+  <title><![CDATA[柏林的难题：中国]]></title>
+  <updated>2021-08-28T06:34:00Z</updated>
+  <published>2021-08-28T06:34:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/柏林的难题：中国/a-59000443?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[有利可图的经济关系与体制竞争相冲突。德国里外难做人：其最强大的盟友和最重要的贸易伙伴——美国和中国——之间的冲突正方兴未艾。]]></summary>
+  <category term="时政风云"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/埃以边境发生10年来最严重恐怖袭击事件/a-16146518?maca=chi-rss-chi-all-1127-xml-atom</id>
