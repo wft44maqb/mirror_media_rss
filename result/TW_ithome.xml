@@ -6,6 +6,19 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>蘋果宣布要在9月14日舉行虛擬發表會</title>
+ <link>https://www.ithome.com.tw/news/146592</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;蘋果行銷副總裁&lt;a href=&quot;https://twitter.com/gregjoz/status/1435272731746979840&quot; target=&quot;_blank&quot;&gt;Greg Joswiak本周透過Twitter對外證實&lt;/a&gt;，蘋果即將於下周二（9/14）舉行California Streaming虛擬發表會，而媒體亦已收到邀請函，外界期望蘋果當天將會發表新一代的iPhone、Apple Watch及AirPods產品。&lt;/p&gt;
+&lt;p&gt;這場發表會的時間點為太平洋夏令時間（PDT）9月14日的早上10點，約是臺北時間9月15日的凌晨1點，屆時將直接於線上轉播，開放全球的蘋果粉絲參與。&lt;/p&gt;
+&lt;p&gt;有關iPhone 13的傳聞早就沸沸揚揚，包括蘋果將發表基於A15晶片的4款iPhone，從5.4吋的iPhone 13 mini、6.1吋的iPhone 13、6.1吋的iPhone 13 Pro，到6.7吋的iPhone 13 Pro Max；除了硬體的升級之外，iPhone 13的外型可能與前一代差不多，但會減少瀏海的範圍，也傳出可能支援衛星通話。&lt;/p&gt;
+&lt;p&gt;至於Apple Watch 7在外型上可能有較大的改變，它會有更大的螢幕，而且更薄。另外也會有新一代的AirPods 3問世。比照往年，蘋果亦可望於今年的秋季發表會揭露iOS 15、watchOS 8及tvOS 15等各裝置的最新作業系統。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 08 Sep 2021 05:17:08 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146592 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146592#comments</comments>
+</item>
+<item>
  <title>微軟加入開源雲平臺組織OpenInfra基金會</title>
  <link>https://www.ithome.com.tw/news/146590</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;前身為OpenStack基金會的產業組織&lt;a href=&quot;https://www.businesswire.com/news/home/20210907005721/en/OpenInfra-Foundation-Welcomes-Microsoft-as-Newest-Member-to-Advance-Open-Infrastructure-Use-Cases-Hybrid-Cloud-and-5G-Using-Open-Source-Technologies-OpenStack-and-Airship&quot; target=&quot;_blank&quot;&gt;OpenInfra 基金會昨（7）日宣布&lt;/a&gt;，微軟將加入以貢獻雲端管理技術，以及將OpenStack技術整合入Azure平臺。&lt;/p&gt;
@@ -276,25 +289,6 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146583 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146583#comments</comments>
-</item>
-<item>
- <title>紐時：開挖比特幣所使用的電力是Google總用電量的7倍</title>
- <link>https://www.ithome.com.tw/news/146582</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2021/09/03/climate/bitcoin-carbon-footprint-electricity.html&quot; target=&quot;_blank&quot;&gt;《紐約時報》最近刊出了一篇有關比特幣的專題報導&lt;/a&gt;，該報導引用了劍橋比特幣電力消耗指數（&lt;a href=&quot;https://cbeci.org/&quot; target=&quot;_blank&quot;&gt;Cambridge Bitcoin Electricity Consumption Index，CBECI&lt;/a&gt;）的估計，指出開採比特幣一年所使用的電力，是Google全球營運一年總用電量的7倍。&lt;/p&gt;
-&lt;p&gt;CBECI為劍橋大學賈吉商學院新興金融研究中心（Cambridge Centre for Alternative Finance）的數位資產團隊所負責維護的專案，該專案主要是估計全球開採比特幣的用電量，而且每24小時就會更新一次。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://cbeci.org/cbeci/comparisons&quot; target=&quot;_blank&quot;&gt;根據CBECI在9月7日的估計&lt;/a&gt;，開採比特幣一年的用電量為96.34 TWh（太瓦時），雖然低於全球一年使用空調的2199 TWh，或者是全球資料中心一年200 TWh的耗電量，或者是資料網路所使用的250 TWh，但勝過美國人一年看電視（60 TWh）或開燈（60 TWh）的耗電量。&lt;/p&gt;
-&lt;p&gt;如果是跟一整個國家的耗電量相較，開採比特幣所使用的電力，勝過菲律賓（93.35 TWh）、芬蘭（84.2 TWh）、比利時（82 TWh）、奧地利（66.85 TWh）及以色列（56.4 TWh）等至少16個國家一整年的耗電量。&lt;/p&gt;
-&lt;p&gt;至於紐時則是依據&lt;a href=&quot;https://www.gstatic.com/gumdrop/sustainability/google-2020-environmental-report.pdf&quot; target=&quot;_blank&quot;&gt;Google所發布的2020年環境報告&lt;/a&gt;中所揭露的資料進行計算，該報告顯示，Google在2019年的電力使用量為12,237,198 MWh（兆瓦時），約等於12.24 TWh，只有比特幣一年挖礦所需電力的1/7。&lt;/p&gt;
-&lt;p&gt;紐時分析，挖礦所需的電力與比特幣的價格成正比，在2010年比特幣剛現身之際，使用者只要用自家的電腦就能挖礦，所需的電力微不足道，但當時比特幣的價格也令人不屑一顧。最有名的例子是負責維護比特幣網路的工程師在2010年時，以1萬個比特幣買了2片披薩。然而，時至今日，已經需要藉由價值數千美元的專用機器來挖礦，電力成本也大增，而單一個比特幣的價格就高達5.1萬美元。&lt;/p&gt;
-&lt;p&gt;CBECI專案指出，為了提高利潤，礦工不惜到處搬遷以尋找便宜的電力，像是水力發電盛行的中國西南地區，並在當地因水位下滑而電價上漲時，再度往北遷移到採用燃煤發電的新疆地區。&lt;/p&gt;
-&lt;p&gt;調查顯示，礦工最常使用的電力來源為水力發電、煤炭與天然氣，但他們同時也會利用石油、核能與再生能源，挖礦所使用的大量電力，以及它所帶來的環保問題在近日成為焦點，特斯拉創辦人暨執行長馬斯克&lt;a href=&quot;https://www.ithome.com.tw/news/144386&quot; target=&quot;_blank&quot;&gt;（Elon Musk）在今年5月公開宣布&lt;/a&gt;，為了保護環境，將暫停讓消費者以比特幣買車的方案，而且特斯拉也不會再出售任何的比特幣。&lt;/p&gt;
-&lt;p&gt;事實上，在比特幣挖礦社群中，也有一群人開始推廣以再生能源來挖礦，不過他們的最終目的，是希望比特幣能夠符合現代的ESG永續投資理念，兼具環境保護（Environment）、社會責任（Social）與公司治理（Governance）特性，以推動比特幣成為各大企業合法投資的項目。&lt;/p&gt;
-&lt;p&gt;只不過，再生能源的成本並不低，且全球的再生能源還沒能完全支撐人類的需求，再加上開採比特幣的電力需求太高，比特幣能否成為真正的綠色加密貨幣仍有待觀察。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 15:16:46 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146582 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146582#comments</comments>
 </item>
 </channel>
 </rss>
