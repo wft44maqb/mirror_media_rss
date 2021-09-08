@@ -2,11 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.thestandnews.com/rss</id>
     <title>立場新聞 Stand News - 全部文章</title>
-    <updated>2021-09-08T02:49:04.965Z</updated>
+    <updated>2021-09-08T02:54:07.752Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.thestandnews.com"/>
     <subtitle>《立場新聞》編採獨立自主，不受任何贊助人、財團、權力機構及黨派左右。我們以非牟利原則營運，所有經營盈餘和贊助，只會用於傳媒事業。</subtitle>
     <rights>© 2021 立場新聞. All rights reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[人工智能如何協助提升運動員表現]]></title>
+        <id>https://www.thestandnews.com/technology/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A6%82%E4%BD%95%E5%8D%94%E5%8A%A9%E6%8F%90%E5%8D%87%E9%81%8B%E5%8B%95%E5%93%A1%E8%A1%A8%E7%8F%BE</id>
+        <link href="https://www.thestandnews.com/technology/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A6%82%E4%BD%95%E5%8D%94%E5%8A%A9%E6%8F%90%E5%8D%87%E9%81%8B%E5%8B%95%E5%93%A1%E8%A1%A8%E7%8F%BE"/>
+        <updated>2021-09-07T09:26:44.092Z</updated>
+        <summary type="html"><![CDATA[本屆奧運及殘奧已完滿落幕，香港運動員取得非常亮麗的成績，令人鼓舞。無論是劍擊、舉重、游泳、跑步等項目，表現或技術都是由速度、力量、靈敏度、耐力等因素組成。要讓運動員表現進一步提升，可利用科技協助整個訓練過程。利用人工智能及物聯網技術，訓練時讓視像鏡頭記錄運動員的肢體動作，加上運動員身上所安裝的各種感應器，便可得悉各種數據，從而分析每位運動員的表現。視像鏡頭可說是其中一個重點，因為鏡頭下能捕捉每位…]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/OuJYX2K5DA.jpg"><figcaption><span>資料圖片，來源：Victor Freitas @ Unsplash</span></figcaption></figure><p>本屆奧運及殘奧已完滿落幕，香港運動員取得非常亮麗的成績，令人鼓舞。無論是劍擊、舉重、游泳、跑步等項目，表現或技術都是由速度、力量、靈敏度、耐力等因素組成。要讓運動員表現進一步提升，可利用科技協助整個訓練過程。利用人工智能及物聯網技術，訓練時讓視像鏡頭記錄運動員的肢體動作，加上運動員身上所安裝的各種感應器，便可得悉各種數據，從而分析每位運動員的表現。</p>
+
+<p>視像鏡頭可說是其中一個重點，因為鏡頭下能捕捉每位運動員在訓練時的姿態改變，包括角度、速度、甚至隨著訓練時間過去之姿態變化等，這分析可稱為「人體姿態預測（human post estimation）」。</p>
+
+<p>人體姿態預測之目的為在圖片或短片中找出人體及相對應之人體關節（例如手腕及膝蓋等）並標上記號，再把這些記號連上並組成一個完整的人體線條。人體關節因為細小容易被衣服遮擋，並不容易被定位。但隨著科技進步，現時各種演算法都能輕易作出辨別，而且準確度都非常高。</p>
+
+<p>大部分人體姿態預測均採用卷積神經網絡（Convolutional Neural Network，CNN）這種深度學習演算法。它可從圖片中透過計算每一小部分的資訊及與其他部分之關聯性作深度資訊提取，把發現輸出為不同尺度的 feature map（特徵圖），然後再進行下一階段之演算法學習。</p>
+
+<p>在姿態預測過程中，有以下兩種常用方法：</p>
+
+<p><em>一：由上而下</em></p>
+
+<p>先檢測圖片中每個人的位置，然後對所檢測到的每個人單獨預測身體上的關節位置。運算時間取決於圖片中的人數，人物越多，運算時間越長。其中一款採用由上而下之方法為 AlphaPose。由上海交通大學團隊開發，它既可在圖片或短片中進行姿態預測，亦能在畫面中對動作進行追蹤，而且可把結果輸出為 PNG、JPG、JSON 及 AVI 等格式。</p>
+
+<p><em>二：由下而上</em></p>
+
+<p>由圖片中直接預測所有關節位置，再用關聯度預測每個關節點屬於圖片中的那個人。運算較簡單，時間相對較短。採用由下而上方法的例子為 OpenPose，由卡內基梅隆大學（Carnegie Mellon University）團隊開發。與 Microsoft 的體感遊戲機 Kinect 相比，Kinect 在我們玩遊戲時能追蹤 20 個關鍵點，而 OpenPose 則細緻得多。針對同一個動作，Kinect 可感知到玩家正在舉起一隻手，而 OpenPose 則可認知這個人的手指在指向某個方向。</p>
+
+<p>無論是用那個方法，所得出的結果都是一系列的關節座標位置（亦包括可視化圖像），分析人員利用這些數據計算出肢體移動速度及關節角度等。除了直向地分析同一位運動員在訓練過程中之變化外，亦可橫向地把該名運動員的數據跟其他運動員作比較，從中分析各個強弱點。</p>
+
+<p>假若在鏡頭下真能準確捕捉街上每個人的肢體動作，從而進行分析，真的想像不了有多恐怖。可能你已經在電影中看到相關情節，這種監控主要用來捕捉逃犯。日本在 2019 年，日本電信公司 NTT East 和科技公司 Earth Eye 合作開發一款名為 AI Guardsman 的人工智能系統，用來提防及監測商店中是否有小偷。據他們聲稱，該系統令店內盜竊行為減少了約四成。是因為成功捕捉小偷，還是設置了這套系統造成阻嚇力，繼而把犯案率降低，真的不得而知。</p>
+
+<p>利用科技協助運動員訓練提升表現，或在醫學上應用來監控病人身體康復狀況，這絕對是一件正面的事。數據收集及應用課題相信在未來十年繼續會有廣泛討論。</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.facebook.com/drjackeiwong" target="_blank">作者 Facebook</a>&nbsp;/&nbsp;<a href="https://www.instagram.com/drjackeiwong" target="_blank">Instagram</a>&nbsp;/&nbsp;<a href="https://www.youtube.com/drjackeiwong" target="_blank">YouTube</a></p>]]></content>
+        <author>
+            <name>黃浩基博士（Dr. Jackei Wong）</name>
+            <uri>https://www.thestandnews.com/author/jackeiwong</uri>
+        </author>
+        <category label="科技"/>
+        <published>2021-09-07T09:26:44.092Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【內文有得聽】澳洲麝鴨講「你這該死的傻瓜」錄音曝光]]></title>
         <id>https://www.thestandnews.com/international/%E6%BE%B3%E6%B4%B2%E9%BA%9D%E9%B4%A8%E8%AC%9B%E4%BD%A0%E9%80%99%E8%A9%B2%E6%AD%BB%E7%9A%84%E5%82%BB%E7%93%9C%E9%8C%84%E9%9F%B3%E6%9B%9D%E5%85%89</id>
@@ -962,31 +1002,5 @@
         </author>
         <category label="財經"/>
         <published>2021-09-07T07:30:01.601Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[阿富汗數千人上街反對塔利班統治　塔利班向天開槍驅散　拘多名新聞工作者]]></title>
-        <id>https://www.thestandnews.com/international/%E9%98%BF%E5%AF%8C%E6%B1%97%E6%95%B8%E5%8D%83%E4%BA%BA%E4%B8%8A%E8%A1%97%E5%8F%8D%E5%B0%8D%E5%A1%94%E5%88%A9%E7%8F%AD%E7%B5%B1%E6%B2%BB-%E5%A1%94%E5%88%A9%E7%8F%AD%E5%90%91%E5%A4%A9%E9%96%8B%E6%A7%8D%E9%A9%85%E6%95%A3-%E6%8B%98%E5%A4%9A%E5%90%8D%E6%96%B0%E8%81%9E%E5%B7%A5%E4%BD%9C%E8%80%85</id>
-        <link href="https://www.thestandnews.com/international/%E9%98%BF%E5%AF%8C%E6%B1%97%E6%95%B8%E5%8D%83%E4%BA%BA%E4%B8%8A%E8%A1%97%E5%8F%8D%E5%B0%8D%E5%A1%94%E5%88%A9%E7%8F%AD%E7%B5%B1%E6%B2%BB-%E5%A1%94%E5%88%A9%E7%8F%AD%E5%90%91%E5%A4%A9%E9%96%8B%E6%A7%8D%E9%A9%85%E6%95%A3-%E6%8B%98%E5%A4%9A%E5%90%8D%E6%96%B0%E8%81%9E%E5%B7%A5%E4%BD%9C%E8%80%85"/>
-        <updated>2021-09-07T11:08:39.388Z</updated>
-        <summary type="html"><![CDATA[塔利班在美軍撤走後極速奪權，昨日（6 日）更宣布攻下潘傑希爾省，控制阿富汗全國。今日（7 日）有數以千計阿富汗人走上街頭抗議，要求維護婦女權利並譴責塔利班統治，示威者當中不乏男性。塔利班向天開槍驅散，多名新聞工作者被捕。今日有數千名阿富汗人走上街頭示威，反對塔利班統治。他們又高呼反對巴基斯坦的口號，因為不少人質疑巴基斯坦有份在背後支持塔利班。在首都喀布爾，塔利班向天開槍驅散示威者。影片顯示，現場…]]></summary>
-        <content type="html"><![CDATA[<figure><img src="https://assets.thestandnews.com/media/photos/20210907-11.png"><figcaption><span>圖片來源：Twitter@BBCYaldaHakim</span></figcaption></figure><p>塔利班在美軍撤走後極速奪權，昨日（6 日）更宣布攻下潘傑希爾省，控制阿富汗全國。今日（7 日）有數以千計阿富汗人走上街頭抗議，要求維護婦女權利並譴責塔利班統治，示威者當中不乏男性。塔利班向天開槍驅散，多名新聞工作者被捕。</p>
-
-<p>今日有數千名阿富汗人走上街頭示威，反對塔利班統治。他們又高呼反對巴基斯坦的口號，因為不少人質疑巴基斯坦有份在背後支持塔利班。在首都喀布爾，塔利班向天開槍驅散示威者。影片顯示，現場出現多下槍聲，群眾慌忙走避。</p>
-
-<p>據《BBC》報道，有新聞工作者在拍攝示威現場時受阻。阿富汗媒體「黎明新聞」（Tolo News）報稱其攝影師被拘捕，另有多位本地及海外媒體記者同樣被捕。</p>
-
-<p>過往阿富汗女性已曾上街抗議，但這些示威現場普遍不見男士蹤影。不過今日的反塔利班示威活動上，可以見到有不少男性參與。</p>
-
-<p>昨日塔利班宣布已攻下潘傑希爾省（Panjshir province），<a href="https://www.thestandnews.com/international/a-%E5%A1%94%E5%88%A9%E7%8F%AD%E7%A8%B1%E5%B7%B2%E6%94%BB%E4%BD%94%E5%8F%8D%E5%A1%94%E5%88%A9%E7%8F%AD%E5%8B%A2%E5%8A%9B%E6%9C%80%E5%BE%8C%E9%99%A3%E5%9C%B0%E6%BD%98%E5%82%91%E5%B8%8C%E7%88%BE%E7%9C%81-%E6%8E%A7%E5%88%B6%E5%85%A8%E5%9C%8B">意味已控制阿富汗全國</a>。《華盛頓郵報》引述消息指，之前宣布自己為代理總統、領導反塔利班陣營的前副總統阿姆魯拉薩利赫（Amrullah Saleh），目前已離開潘傑希爾省。</p>
-
-<p>塔利班成員上周五（3 日）曾經在阿富汗首都喀布爾鳴槍「慶祝」，<a href="https://www.thestandnews.com/international/%E5%A1%94%E5%88%A9%E7%8F%AD%E6%88%90%E5%93%A1%E5%90%91%E5%A4%A9%E9%96%8B%E6%A7%8D%E6%85%B6%E7%A5%9D%E8%87%B4-17-%E6%AD%BB-41-%E5%82%B7-%E7%99%BC%E8%A8%80%E4%BA%BA%E7%B1%B2%E5%8B%BF%E9%B3%B4%E6%A7%8D">造成至少 17 死，41 人受傷送院</a>。塔利班發言人 Zabihullah Mujahid 曾呼籲塔利班成員停止向天開槍，強調子彈是公共財產，不應浪費，並且會傷及平民。</p>
-
-<p>相關報道：<a href="https://www.bbc.com/news/world-asia-58472978">BBC</a>／<a href="https://www.france24.com/en/live-news/20210907-taliban-fire-shots-to-disperse-protest-in-kabul">法新社</a></p>]]></content>
-        <author>
-            <name>立場報道</name>
-            <uri>https://www.thestandnews.com/author/standnewsreport</uri>
-        </author>
-        <category label="國際"/>
-        <published>2021-09-07T10:09:53.095Z</published>
     </entry>
 </feed>

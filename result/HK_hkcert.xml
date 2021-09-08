@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Wed, 08 Sep 2021 10:52:27 +0800</pubDate>
-		<lastBuildDate>Wed, 08 Sep 2021 10:52:27 +0800</lastBuildDate>
+		<pubDate>Wed, 08 Sep 2021 10:55:41 +0800</pubDate>
+		<lastBuildDate>Wed, 08 Sep 2021 10:55:41 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -54,6 +54,66 @@
 			
 			<ul>
 				<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444" target="_blank">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444</a></li>
+			</ul>
+			
+			  <hr>
+			]]></description>
+		</item>
+		<item>
+			<title>RedHat Linux 核心多個漏洞</title>
+			<link>https://www.hkcert.org/tc/security-bulletin/redhat-linux-kernel-multiple-vulnerabilities_20210908</link>
+			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/redhat-linux-kernel-multiple-vulnerabilities_20210908</guid>
+			<pubDate>Wed, 08 Sep 2021 09:41:00 +0800</pubDate>
+			<description><![CDATA[  在 RedHat Linux 核心發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發阻斷服務、權限提升、繞過保安限制及資...
+			  <p>影響</p>
+			  <ul>
+			          <li>阻斷服務</li>
+			          <li>權限提升</li>
+			          <li>繞過保安限制</li>
+			          <li>資料洩露</li>
+			      </ul>
+			  <hr>
+			  <p>受影響之系統或技術</p>
+			  <ul>
+				<li>Red Hat CodeReady Linux Builder</li>
+				<li>Red Hat Enterprise Linux for ARM 64</li>
+				<li>Red Hat Enterprise Linux for IBM z Systems</li>
+				<li>Red Hat Enterprise Linux for Power</li>
+				<li>Red Hat Enterprise Linux for Scientific Computing</li>
+				<li>Red Hat Enterprise Linux Desktop</li>
+				<li>Red Hat Enterprise Linux Server</li>
+				<li>Red Hat Enterprise Linux Workstation</li>
+				<li>Red Hat Virtualization Host</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>詳情請參閱以下連結﹕</p>
+			
+			<p>&nbsp;</p>
+			
+			<ul>
+				<li><a href="https://access.redhat.com/errata/RHSA-2021:3438" target="_blank">https://access.redhat.com/errata/RHSA-2021:3438</a></li>
+				<li><a href="https://access.redhat.com/errata/RHSA-2021:3444" target="_blank">https://access.redhat.com/errata/RHSA-2021:3444</a></li>
+				<li><a href="https://access.redhat.com/errata/RHSA-2021:3446" target="_blank">https://access.redhat.com/errata/RHSA-2021:3446</a></li>
+				<li><a href="https://access.redhat.com/errata/RHSA-2021:3447" target="_blank">https://access.redhat.com/errata/RHSA-2021:3447</a></li>
+			</ul>
+			
+			  <hr>
+			  <p>解決方案</p>
+			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
+			
+			<p>&nbsp;</p>
+			
+			<p>安裝供應商提供的修補程式：</p>
+			
+			<p>&nbsp;</p>
+			
+			<ul>
+				<li><a href="https://access.redhat.com/errata/RHSA-2021:3438" target="_blank">https://access.redhat.com/errata/RHSA-2021:3438</a></li>
+				<li><a href="https://access.redhat.com/errata/RHSA-2021:3444" target="_blank">https://access.redhat.com/errata/RHSA-2021:3444</a></li>
+				<li><a href="https://access.redhat.com/errata/RHSA-2021:3446" target="_blank">https://access.redhat.com/errata/RHSA-2021:3446</a></li>
+				<li><a href="https://access.redhat.com/errata/RHSA-2021:3447" target="_blank">https://access.redhat.com/errata/RHSA-2021:3447</a></li>
 			</ul>
 			
 			  <hr>
@@ -848,34 +908,6 @@
 			<ul>
 				<li>安裝軟件供應商提供的修補程式：<br />
 				<a href="https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/" target="_blank">https://nodejs.org/en/blog/vulnerability/aug-2021-security-releases/</a></li>
-			</ul>
-			
-			  <hr>
-			]]></description>
-		</item>
-		<item>
-			<title>蘋果 iTunes 遠端執行程式碼漏洞</title>
-			<link>https://www.hkcert.org/tc/security-bulletin/apple-itunes-remote-code-execution-vulnerabilities_20210813</link>
-			<guid isPermaLink="false">https://www.hkcert.org/tc/security-bulletin/apple-itunes-remote-code-execution-vulnerabilities_20210813</guid>
-			<pubDate>Fri, 13 Aug 2021 09:00:00 +0800</pubDate>
-			<description><![CDATA[  於 蘋果 iTunes 發現多個漏洞，遠端攻擊者可利用這些漏洞，於目標系統觸發遠端執行任意程式碼。
-			  <p>影響</p>
-			  <ul>
-			          <li>遠端執行程式碼</li>
-			      </ul>
-			  <hr>
-			  <p>受影響之系統或技術</p>
-			  <ul>
-				<li>iTunes for Windows 12.11.4以前的版本</li>
-			</ul>
-			
-			  <hr>
-			  <p>解決方案</p>
-			  <p><strong>在安裝軟體之前，請先瀏覽供應商之網站，以獲得更多詳細資料。</strong></p>
-			
-			<ul>
-				<li>安裝供應商提供的修補程式：<br />
-				iTunes 12.11.4 視窗版本</li>
 			</ul>
 			
 			  <hr>
