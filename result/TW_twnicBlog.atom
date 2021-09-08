@@ -20,6 +20,42 @@
 			<name>國際瞭望</name>
 					</author>
 
+		<title type="html"><![CDATA[為何NCSC推薦使用三個隨機單詞組成的密碼]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/08/19673/" />
+
+		<id>https://blog.twnic.tw/?p=19673</id>
+		<updated>2021-09-06T00:39:42Z</updated>
+		<published>2021-09-08T00:03:51Z</published>
+		<category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="NCSC" /><category scheme="https://blog.twnic.tw" term="password" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0816-0820_為何NCSC推薦使用三個隨機單詞組成的密碼-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>英國網路安全中心（NCSC）近期介紹了他們推薦民眾使用三個隨機單詞組合成為密碼的邏輯。傳統的複雜密碼或許難以記住，但犯罪分子卻有可能猜中；相反的，由隨機單詞組成的密碼不僅容易記憶，也具備足夠強度的保護力。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/08/19673/">為何NCSC推薦使用三個隨機單詞組成的密碼</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/08/19673/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0816-0820_為何NCSC推薦使用三個隨機單詞組成的密碼-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">常見的密碼設定原則多會強調「複雜性」（complexity），但因為人類的大腦很難記住隨機字串，因此常會使用可預測的模式（例如用數字０來取代英文字母O），以符合密碼所需的複雜性，相對的，攻擊者也會熟悉這些策略，並據此優化攻擊手法。</span></p>
+<p><span style="font-weight: 400;">英國網路安全中心（National Cyber Security Centre，NCSC）近期在一篇部落格文章中，向民眾介紹他們推薦使用三個隨機單詞組合而成密碼的邏輯。傳統的複雜密碼或許難以記住，但犯罪分子卻有可能猜中；相反的，由隨機單詞組成的密碼不僅容易記憶，也具備足夠強度的保護力，其他原因還包括：</span></p>
+<ul>
+<li style="font-weight: 400;"><b>長度（Length）：</b><span style="font-weight: 400;">由多個單詞組成的密碼，理論上字元數會比獨立的單詞更長。「長度」是密碼的常見要求，透過使用組合單詞所創造出的「密碼單詞」（passphrase），便是實現這項要求的方法之一。</span></li>
+<li style="font-weight: 400;"><b>影響（Impact）：</b><span style="font-weight: 400;">為了提高宣導的成效，NCSC必須採用快速且易於理解的方式，透過不同的媒體向民眾進行推廣。「三個隨機單詞」這句話淺顯易懂，即使民眾並非電腦專家，也很容易理解其推廣內涵。</span></li>
+<li style="font-weight: 400;"><b>新奇（Novelty）：</b><span style="font-weight: 400;">傳統的密碼多為獨立單詞，較容易被犯罪分子猜中，透過「三個隨機單詞」的密碼設定邏輯，可以鼓勵民眾思考過去不曾使用過的密碼組合。</span></li>
+<li style="font-weight: 400;"><b>可用性（Usability）：</b><span style="font-weight: 400;">一般若要符合密碼複雜性，最大的問題是使用者必須花費較多心力去設定、記憶及輸入複雜的密碼，容易造成使用者重複使用密碼；相較之下，要求使用者輸入3個隨機單詞組成的密碼，則相對容易許多。</span></li>
+</ul>
+<p><span style="font-weight: 400;">為了提高密碼被破解的難度，NCSC認為使用者必須增加密碼的多樣性（diversity），降低可被廉價且高效的搜尋演算法破解的密碼數量，而「三個隨機單詞」的密碼設定策略，將可有效鼓勵使用者設計出未曾使用過的密碼，增加密碼的多樣性。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Kate R (2021). The logic behind three random words. NCSC.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://www.ncsc.gov.uk/blog-post/the-logic-behind-three-random-words" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.ncsc.gov.uk/blog-post/the-logic-behind-three-random-words</span></a><span style="font-weight: 400;">　(Aug. 13, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/08/19673/">為何NCSC推薦使用三個隨機單詞組成的密碼</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/08/19673/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/08/19673/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
 		<title type="html"><![CDATA[AWS與Google雲已關閉窺探弱點]]></title>
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/07/19671/" />
 
@@ -2368,36 +2404,6 @@ Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏�
 		
 					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/06/19227/#comments" thr:count="0" />
 			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/06/19227/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[新加坡與英國啟動數位經濟協議討論]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/05/19266/" />
-
-		<id>https://blog.twnic.tw/?p=19266</id>
-		<updated>2021-07-22T05:57:33Z</updated>
-		<published>2021-08-04T23:59:54Z</published>
-		<category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="新加坡" /><category scheme="https://blog.twnic.tw" term="英國" /><category scheme="https://blog.twnic.tw" term="雙邊數位經濟協議" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/新加坡與英國啟動數位經濟協議討論-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>新加坡與英國已就雙邊數位經濟協議（UKSDEA）展開討論，新加坡政府也發布聲明說明雙方合作內容，預期此協議將促進雙方的數位貿易與業務往來。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/05/19266/">新加坡與英國啟動數位經濟協議討論</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/05/19266/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/新加坡與英國啟動數位經濟協議討論-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>新加坡與英國已就雙邊數位經濟協議（UK-Singapore Digital Economy Agreement，UKSDEA）展開討論，新加坡政府也發布聲明說明雙方合作內容，預期此協議將促進雙方的數位貿易與業務往來。過去新加坡已與澳洲、智利及紐西蘭等國簽署類似協議。</p>
-<p>新加坡貿易及工業部（Ministry of Trade and Industry）、通訊及新聞部（Ministry of Communications and Information），以及資通訊媒體發展局（Infocomm Media Development Authority，IMDA）針對該協議發布聯合聲明，根據聲明，雙方合作項目包括：建立可信任的跨境資料傳輸規則；禁止資料落地；同時確保高標準的資料保護制度。協議將透過可互通的數位系統促進雙方數位貿易與業務往來，進一步連結雙方市場。同時，雙方將以網路安全合作為基礎，共同探索新興技術（例如：AI人工智慧）的應用。此外，協議內容還包括雙方利用各自的國內金融中心，並評估兩國技術環境的合作可能，以及新創企業的發展機會。</p>
-<p>新加坡貿易及工業部長S. Iswaran表示，UKSDEA為全球第一個橫跨歐亞的數位經濟協議，該協議將增進區域間的數位連結，使企業能以新加坡與英國為門戶，在歐亞開拓更多機會。</p>
-<p>相關連結：</p>
-<p>Eileen Yu (2021).Singapore, UK begin discussions on digital economy pact. ZD Net.</p>
-<p>檢自：</p>
-<p><a href="https://www.zdnet.com/article/singapore-uk-begin-discussions-on-digital-economy-pact/">https://www.zdnet.com/article/singapore-uk-begin-discussions-on-digital-economy-pact/</a> (Jul. 9, 2021)</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/05/19266/">新加坡與英國啟動數位經濟協議討論</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/05/19266/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/05/19266/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 	</feed>

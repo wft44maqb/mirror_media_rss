@@ -6,6 +6,197 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>2022 Intel運算架構大公開！</title>
+ <link>https://www.ithome.com.tw/article/146528</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1041-feng_mian_gu_shi_-open-zong_han_-960x420_kao_bei_.png?itok=y2fhA2AS&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-featured-article-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/75&quot;&gt;專題故事&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;不讓Nvidia專美於前，處理器大廠英特爾在資料中心領域，除了發展多年的伺服器CPU，也將陸續推出適用於此類應用的GPU與IPU應戰，而在今年8月底，他們打破多年以來的慣例，搶先公布了這些運算平臺即將採用的新架構細節。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 23:00:00 +0000</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="false">146528 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/article/146528#comments</comments>
+</item>
+<item>
+ <title>2022英特爾基礎設施處理器：Mount Evans</title>
+ <link>https://www.ithome.com.tw/tech/146525</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/ipu-1-intel-architecture-day-2021-4-sundar.jpg&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;英特爾&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在資料中心運算平臺當中，中央處理器（CPU）的發展與應用時間最久，這幾年以來，隨著人工智慧／機器學習、高效能運算（HPC）的當紅，繪圖處理器（GPU）也浮上檯面，成為炙手可熱的企業IT重要產品，並大量用於多種協同加速運算的應用場景之中。&lt;/p&gt;
+&lt;p&gt;而在這一兩年來，由於雲端服務引發軟體定義網路的風潮，網路功能虛擬化（NFV）、虛擬網路功能（VNF）等技術應用，相繼浮上檯面，再加上後續有次世代無線寬頻網路5G崛起，帶動了虛擬無線接取網路（vRAN）的技術發展，使得原本只能在高效能運算領域打轉的SmartNIC、資料中心等級的FPGA加速卡產品，也開始廣泛受到各界重視。值此同時，還有人工智慧、機器學習的應用風潮持續發酵，各種創新產品相繼問世，於是，市面上，也出現幾種種融合式微型運算周邊裝置，例如，結合處理器與固態硬碟的運算型儲存裝置（Computational Storage Drive），像是NGD、三星與賽靈思等公司，都陸續推出這類產品。&lt;/p&gt;
+&lt;p&gt;到了2020年5月，Nvidia在自家的GPU技術大會，基於先前併購Mellanox納入的SmartNIC技術與產品，正式提出資料處理器（DPU）的概念，並將其與CPU、GPU並列，成為資料中心等級加速運算主要支柱，自此這類模糊／融合／顛覆既有運算型態的新型解決方案，拉抬至前所未有的市場高度。&lt;/p&gt;
+&lt;p&gt;相較之下，英特爾因為在2015年併購Altera公司的關係，而開始拓展FPGA技術與解決方案，這幾年針對資料中心、雲端服務與電信業數位轉型需求，陸續推出FPGA加速卡、SmartNIC，2018年併購eASIC，各界也在期待英特爾會如何跨入ASIC應用，以及能否針對這部份市場推出相關產品。&lt;/p&gt;
+&lt;p&gt;而這個答案可能會在不久之後揭曉，因為，在今年8月的英特爾架構日，他們宣布將推出基於ASIC架構的產品，研發代號為Mount Evans，而且，在解決方案的類型上，正屬於他們在6月開始主推的新型態產品：基礎設施處理器（Infrastructure Processing Unit，IPU），而IPU在概念與用途上，的確與前面提到的DPU、SmartNIC高度重疊，因為在該公司目前的基礎設施加速產品藍圖當中，除了ASIC架構的 IPU，也包含搭配FPGA的IPU與SmartNIC──英特爾也趁著年度架構日的舉辦，公布兩款IPU相關產品，研發代號分別是Oak Springs Canyon、Arrow Creek。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/IPU-1-Intel-Architecture-Day-2021-4-Sundar-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.JPG&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;第一款ASIC架構IPU首度公開&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;2021年英特爾開始主推基礎設施處理器（IPU），除了既有搭配FPGA的SmartNIC產品，他們也將推出ASIC架構IPU，研發代號Mount Evans，該公司的乙太網路平臺事業群主任工程師暨首席架構師，也在今年英特爾架構日首次公開這款晶片的廬山真面目，以及技術架構概要。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;首款ASIC IPU，整合英特爾自行發展與併購的多家廠商技術&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;關於Mount Evans的開發，英特爾資料平臺事業群技術長Guido Appen表示，是與大型雲端服務供應商一起合作，這款產品的首席架構師Naru Sunder也說，他們從這些業者的實務服務維運上，學習到不少經驗，而這些將會反映在Mount Evans架構設計的取捨上，他強調，這是基於實際工作負載的大規模效能擴充需求，所設計出來的產品，而在能充分因應超大規模執行的就緒狀態下（Hyperscale-ready），他們也針對安全與隔離的功能需求，從底層架構重新設計出整張晶片。&lt;/p&gt;
+&lt;p&gt;在技術創新上，Mount Evans的首要特色是可程式化封包處理引擎，英特爾自詡為業界最佳的技術，可支援多種現行的應用案例，像是虛擬交換器（vSwitch）的卸載，以及虛擬防火牆、虛擬路由器，而且，在發展上，他們表示，有足夠的空間，支援各種未來的應用需求。&lt;/p&gt;
+&lt;p&gt;第二個特色是從Optane固態儲存技術所延伸的技術──NVMe儲存控制器，英特爾實作了硬體加速NVMe儲存介面，使得Mount Evans能夠以此來模擬NVMe裝置。&lt;/p&gt;
+&lt;p&gt;第三是提供新一代的高可靠度傳輸（Reliable Transport）協定，這是與雲端服務供應商合作的成果，能在高度耗損的網路環境中，協助業者與用戶解決「長尾（Long tail）」的延遲性問題。&lt;/p&gt;
+&lt;p&gt;第四種特色則是提供進階的加密與壓縮加速器，可廣泛適用於多種場景，而在這當中，Mount Evans也運用英特爾長期發展的QAT技術（Quick Assist Technology）。&lt;/p&gt;
+&lt;p&gt;除了硬體的強化與最佳化，軟體環境的生態系與支援，對於ASIC IPU能否應用於更多場域，也至關重要。英特爾在此引入2019年併購Barefoot Networks之後的收穫，也就是P4程式語言在IT產業的運用，而在IPU當中，他們將會針對IPU用於可程式化網路的資料層（Data Plane）處理，提供標準應用框架。&lt;/p&gt;
+&lt;p&gt;由於英特爾也在此提到源於Barefoot的可程式化網路軟體開發工具P4 Studio，顯然他們將在此提升IPU的軟體支援。&lt;/p&gt;
+&lt;p&gt;同時，為了善用與發揮IPU的功能特色，英特爾也將延伸既有的基礎設施軟體開發套件，像是DPDK、SPDK。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/IPU-3-Iintel%20IPU%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;英特爾的IPU產品版圖&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;目前英特爾擁有多種運算與網路技術，因此，無論是早先的SmartNIC，或是最新推出的IPU，這幾年以來，都因不同的搭配方式而發展出多種產品，依據今年英特爾架構日公布的IPU資料來看，大致上可分為純ASIC、Xeon處理器搭配FPGA晶片、FPGA晶片搭配英特爾網路晶片等三種類型，英特爾也預告，將來可能會推出整合ASIC與FPGA的產品。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;區分成兩大單元：運算複合體與網路子系統&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;關於Mount Evans晶片的硬體設計架構，英特爾架構日也首度對外公開整體配置。基本上，這款產品可區分成：運算複合體（Compute），以及網路子系統（Network Subsystem），而其中，又以後者最受矚目，因當中結合的技術較為多元、複雜。&lt;/p&gt;
+&lt;p&gt;在網路子系統的部分，英特爾首先強調的技術特色，是200Gb/s網路全雙工連線能力，而且，可同時支援4臺Xeon伺服器存取；其次是RDMA類型存取協定的使用，Mount Evans支援資料中心日益普及的ROCEv2，以及上述的高可靠度傳輸技術。&lt;/p&gt;
+&lt;p&gt;第三是源於Optane固態儲存技術的NVMe引擎，能將高效能的NVMe儲存裝置直接「暴露」給伺服器的處理器存取（意思應是指處理器可直接存取NVMe固態硬碟）。&lt;/p&gt;
+&lt;p&gt;而這項特色能讓基礎設施供應商（雲端服務業者、資料中心管理者）去實作他們想要使用的儲存協定，無論其面對的是硬體加速NVMe over Fabrics，或自行開發的軟體化後端（應指軟體定義）運算系統，均可因此獲益。&lt;/p&gt;
+&lt;p&gt;接著是內建可程式化封包處理器，可執行前述的虛擬交換器卸載、虛擬防火牆、遙測功能，而在真實世界的處理效能上，英特爾表示，可達到每秒2億個封包的規模。&lt;/p&gt;
+&lt;p&gt;最後則是提供線上IPsec加密處理能力，可防護網路傳送的每一個封包。&lt;/p&gt;
+&lt;p&gt;而在運算複合體的部分，英特爾Mount Evans採用的處理器，是Arm的Neoverse N1平臺，當中搭配16顆高時脈核心，以及大容量的系統層級快取，同時，還設置了3個LPDDR4記憶體控制器（可實現3個記憶體通道）。&lt;/p&gt;
+&lt;p&gt;值得注意的是，網路子系統的加速器能運用運算複合體的系統層級快取，作為最末一階的快取，為Mount Evans的兩個主要單元提供大頻寬、低延遲的連接方式，從而促成彈性的硬體與軟體封包處理方式。&lt;/p&gt;
+&lt;p&gt;不僅如此，運算複合體本身內含後備型（lookaside）加密與壓縮引擎，亦即上述Mount Evans支援的QAT技術，目前可支援Zstandard壓縮演算法的處理。&lt;/p&gt;
+&lt;p&gt;最終，運算複合體也配置了雙核心的管理處理器，可針對平臺與調度指揮層提供存取介面，以便支援各種系統管理的要求。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/IPU-2-Mount%20Evans%20diag%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;strong&gt;Mount Evans的技術組成&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;類似當前的DPU、SmartNIC產品，英特爾Mount Evans同樣包含運算、網路等兩大技術單元，其中運算的部分，包含16顆Arm Neoverse N1核心、英特爾QAT技術，以及用於平臺管理的處理器，網路的部分，則內建封包處理引擎、NVMe、200GbE網路、RDMA等技術。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B&quot;&gt;封面故事&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%8B%B1%E7%89%B9%E7%88%BE&quot;&gt;英特爾&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/mount-evans&quot;&gt;Mount Evans&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD%E8%99%95%E7%90%86%E5%99%A8&quot;&gt;基礎設施處理器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/asic&quot;&gt;ASIC&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/ipu&quot;&gt;IPU&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 23:00:00 +0000</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="false">146525 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/tech/146525#comments</comments>
+</item>
+<item>
+ <title>2022英特爾資料中心繪圖處理器：Ponte Vecchio</title>
+ <link>https://www.ithome.com.tw/tech/146524</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/xe-hpc-1-2_stack_sample_tu_pian_lai_yuan_ying_te_er_.png&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;英特爾&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在2019年11月的美國超級電腦大會期間，英特爾宣布，他們將基於自行發展的Xe架構，推出新的通用繪圖處理器（GPU），而為了因應高效能運算的建模與模擬工作負載、機器學習訓練等應用需求，他們預計推出代號為Ponte Vecchio的獨立GPU，基於Xe架構之餘，也將導入英特爾7奈米製程，以及Foveros 3D、EMIB封裝技術，當中會集結HBM記憶體、CXL互連介面等多種技術智財，整合至單一封裝。&lt;/p&gt;
+&lt;p&gt;英特爾期盼透過這樣的產品，搭配新世代Xeon Scalable系列伺服器處理器，也就是代號為Sapphire Rapids的產品，以及橫跨多種運算架構的統一程式開發模式：OneAPI，實現百萬兆級（exascale）運算。當時，他們也宣布美國阿貢國家實驗室Aurora系統，將運用上述產品來建置運算節點。&lt;/p&gt;
+&lt;p&gt;隔年8月的英特爾架構日，他們揭露Xe架構更多資訊，例如，細分為4種微架構，而Ponte Vecchio對應的是其中的Xe-HPC微架構，而在封裝方式上，採用Foveros、CO-EMIB等兩種作法，當中包含多種晶磚（Tile）。&lt;/p&gt;
+&lt;p&gt;到了今年3月舉行的Intel Unleashed線上發表會（也就是英特爾宣布IDM 2.0策略的那場活動），執行長Pat Gelsinger首度公開展示Ponte Vecchio晶片。&lt;/p&gt;
+&lt;p&gt;在6月的歐洲國際超級電腦大會期間，英特爾宣布Ponte Vecchio已過電開機，進入系統驗證階段，並將提供OCP Accelerator Module（OAM）外形的模組，以及基於4張OAM模組而成的子系統，以此支援高效能運算應用下的縱向擴展（Scale-up），以及橫向擴展（Scale-out）部署需求。&lt;/p&gt;
+&lt;p&gt;過了一個月之後，英特爾在他們的Accelerated線上發表會，重申加速製程與封裝創新，再度提及Ponte Vecchio，並表明這系列將是首款採用EMIB與第二代Foveros封裝技術的產品。&lt;/p&gt;
+&lt;p&gt;到了8月，在英特爾召開的年度架構日當中，針對Ponte Vecchio這款資料中心GPU，揭露更多技術層面的資訊。&lt;/p&gt;
+&lt;p&gt;例如，他們首度詳細介紹Xe-HPC微架構的組成，以及延展性。在效能方面，以設計定案送交製造的第一版為例，根據英特爾內部測試，FP32運算效能超過45 TFLOPS，記憶體存取頻寬達到5 TB/s以上，連結頻寬是2 TB/s以上。若使用ResNet框架來進行推論，每秒可處理4.3萬張以上的圖片，若使用ResNet進行訓練，每秒可處理3,400張以上的圖片。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Xe-HPC-1-2%20Stack%20sample-600.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;Xe-HPC 2-Stack型態的Ponte Vecchio&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;英特爾頂級資料中心GPU：Ponte Vecchio，今年已在兩個重要場合亮相，一次是3月的IDM 2.0策略的線上發表會，執行長Pat Gelsinger首度公開展示這款晶片，另一次是英特爾架構日，負責這項產品的總工程師Masooma Bhaiwala，展示Xe-HPC 2-Stack型態的Ponte Vecchio。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Xe-HPC-3product%20%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;提供超越競爭對手的運算效能與I/O頻寬&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;對於Ponte Vecchio運算效能、記憶體頻寬、連結頻寬等規格，英特爾在今年8月英特爾架構日首度公開相關資訊，就產品賣相來看，相當具有市場競爭力，足以威脅Nvidia這幾年主推的A100 GPU，甚至是尚未發布的第四代NVLink。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;採用模組化、多晶磚架構，堪稱英特爾最複雜的晶片設計&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;就晶片設計方式而言，今年英特爾架構日也揭露Ponte Vecchio的特點。它和Sapphire Rapids一樣，也是由多個晶磚（Tile）組合而成，但架構設計上更為複雜，該公司負責這項產品的總工程師Masooma Bhaiwala，甚至將這項產品評為：「從事晶片建構工作30年以來，最複雜的晶片」。&lt;/p&gt;
+&lt;p&gt;簡而言之，這些單元是透過1片EMIB晶磚組裝起來，而能以低耗電、高速的方式，將晶磚與晶磚之間連結起來，而這群晶磚之後會放在Foveros封裝之中。&lt;/p&gt;
+&lt;p&gt;Ponte Vecchio本身所使用的晶磚類型也相當豐富，英特爾先前提到有47片之多，但到底有多少種？&lt;/p&gt;
+&lt;p&gt;他們也在2021架構日，首度揭露這款系統單晶片架構是由8種元件所組成，分別是：運算晶磚（Compute Tile）、Rambo晶磚、Forveros、基礎晶磚（Base Tile）、HBM晶磚、Xe Link晶磚、可容納多個晶磚的封裝（Multi Tile Package）、EMIB晶磚。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Xe-HPC-2-Processing%20%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE-2.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;Ponte Vecchio的硬體製程設計&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;從產品設計工程的角度來看，Ponte Vecchio這款系統單晶片，使用超過1千億顆電晶體，裡面放了47片晶磚（Tile），總共使用5種製程，因此，在架構設計上，相當複雜，也突顯其挑戰性。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;提供運算組建區塊，能以層層堆疊方式擴充GPU應用規模&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;就運算與擴充性而言，Ponte Vecchio不只導入多晶磚式設計，就其採用的Xe-HPC微架構而言，英特爾目前區分成4種階層式組建區塊（building block），包含：核心（Core）、片段（Slice）、堆疊（Stack）、連結（Link），並以圖解方式呈現各自的特色，以及彼此的關係，讓所有人理解GPU規模如何擴充。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;Xe-Core&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;首先是核心，也就是Xe-Core，內含8個向量引擎、8個矩陣引擎（Xe Matrix eXtensions，XMX），以及號稱業界最大的512 KB容量L1快取記憶體。&lt;/p&gt;
+&lt;p&gt;Xe-Core當中的每個向量引擎可支援512位元寬度的向量，以此處理整數運算與浮點運算，若是FP16、FP32、FP64型別，每個週期可分別執行512、256、256個運算。&lt;/p&gt;
+&lt;p&gt;至於矩陣引擎的部分，每個內建8個脈動陣列（systolic array），而且，在每個運算週期中，可執行8組512位元寬度的向量處理。&lt;/p&gt;
+&lt;p&gt;無論是向量引擎或矩陣引擎，都可支援寬型的載入／儲存單元（Load/Restore），每個運算週期可餵送512 Bytes資料。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;Xe-HPC Slice&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Core往上一層就是Slice，這一層的擴充，包含16個Xe Core、16個光線追蹤單元（Ray Tracing Unit）、1個硬體式脈絡交換處理（Hardware Context）。&lt;/p&gt;
+&lt;p&gt;基本上，16個Xe Core能為整個Xe-HPC GPU，提供8 MB的L1快取記憶體（16 x 512 KB）；光線追蹤單元包含多種固定功能的計算。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;Xe-HPC Stack&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;串連更多Xe-HPC Slice，即可組成Xe-HPC Stack，事實上，這個階層也等同於一套完整的GPU。基本上，每1個Xe-HPC Stack，包含了4個Xe-HPC Slice，而此時，也等於坐擁64個Xe Core、64個光線追蹤單元，以及1個硬體式脈絡交換處理。&lt;/p&gt;
+&lt;p&gt;這一層還配更大容量的L2快取記憶體（英特爾稱為Xe Memory Fabric），以及4個HBM2e記憶體控制器、複製引擎（Copy Engine）、媒體引擎（Media Engine），以及8個Xe Link。&lt;/p&gt;
+&lt;p&gt;同時，Xe-HPC的架構支援多堆疊式（Multi-Stack）設計，英特爾強調這也是業界首創的作法。之所以能實現這種方式，主要仰賴的是他們發展的EMIB封裝技術。而且，每一座Xe-HPC Stack堆疊中的Xe Memory Fabric，可以直接相互連結，如此可促成兩座Xe-HPC Stack之間，能有統合、一致的記憶體。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:#B22222;&quot;&gt;&lt;strong&gt;Xe Link&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;這項介面可針對GPU對GPU之間的連結，提供高速、一致的I/O交織存取，支援載入／儲存、大量資料傳輸。&lt;/p&gt;
+&lt;p&gt;同時，它內建了8埠交換器，可用於單節點、8個完全連結的GPU，而不需要其他元件的協助。而這個特色也讓用戶能藉此建立有彈性的拓樸。透過圖解的呈現方式，英特爾也逐一示範單節點的多種GPU連接架構，從最基本的2個GPU，常見的4個GPU，到因應更大型處理需求的6個GPU、8個GPU。而基於這樣的架構，若要做到縱向擴展，不需要額外元件。&lt;/p&gt;
+&lt;p&gt;整體而言，無論是Ponte Vecchio或Xe-HPC，就英特爾本次公布的硬體架構設計，以及層層堆疊的擴充性，的確具有一定的說服力，然而，能否讓市場接受，進而挑戰競爭廠商的領導地位，關鍵可能在於軟體生態系的健全與開放，以及各種應用場景的拓展。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B&quot;&gt;封面故事&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%8B%B1%E7%89%B9%E7%88%BE&quot;&gt;英特爾&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/gpu&quot;&gt;GPU&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E7%B9%AA%E5%9C%96%E8%99%95%E7%90%86%E5%99%A8&quot;&gt;資料中心繪圖處理器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/ponte-vecchio&quot;&gt;Ponte Vecchio&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E9%AB%98%E6%95%88%E8%83%BD%E9%81%8B%E7%AE%97&quot;&gt;高效能運算&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92&quot;&gt;機器學習&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%8B%B1%E7%89%B9%E7%88%BE%E6%9E%B6%E6%A7%8B%E6%97%A5&quot;&gt;英特爾架構日&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 23:00:00 +0000</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="false">146524 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/tech/146524#comments</comments>
+</item>
+<item>
+ <title>英特爾的處理器反攻</title>
+ <link>https://www.ithome.com.tw/voice/146521</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;英特爾竟然首度打破了過去的產品發表慣例，在今年8月底的英特爾架構日，針對下一代Xeon Scalable系列處理器（研發代號為Sapphire Rapids，簡稱SPR），提前公開揭露其技術組成架構。讓英特爾一反常態的關鍵就是競爭對手Nvidia。&lt;/p&gt;
+&lt;p&gt;Nvidia近年來頻頻出招，不只大力發展先進GPU產品，甚至也開始打造超級電腦，還一腳踩進了英特爾的處理器地盤。今年4月，Nvidia執行長黃仁勳在春季線上GTC大會上，首度公開展示一款Arm架構的全新伺服器CPU，這是他們第一款資料中心等級的CPU，強調可以提供TB級資料量吞吐的加速運算。&lt;/p&gt;
+&lt;p&gt;不只GPU，近年來Nvidia也積極布局DPU（資料處理器）產品，現在又多了新的產品線CPU，Nvidia已經推出了3種運算基礎技術，頗有與英特爾正面對決的氣勢。黃仁勳自己更強調：「我們現在是一家3種晶片產品的公司。」&lt;/p&gt;
+&lt;p&gt;Nvidia第一款CPU產品Project Grace，這是去年併購Arm後，Nvidia第二款推出的Arm架構產品，不過，他們還未透露這款CPU更多的細節，例如配置多少核心、採用何種Arm架構或用哪一種製程技術。Nvidia多次強調，這是專門為了超大規模AI與高效能運算而設計的CPU，提供TB級的資料量處理，效能可達目前最快伺服器的10倍。這話一出，就等於是直接向英特爾的處理器叫陣。&lt;/p&gt;
+&lt;p&gt;也難怪，到了下半年，英特爾在架構日上大談下一代Xeon Scalable系列處理器的技術組成架構。尤其，在GTC大會上，黃仁勳介紹Grace處理器時，還特別強調這個處理器所用的Arm核心是下一代主要商用伺服器晶片智慧財產（IP）。&lt;/p&gt;
+&lt;p&gt;所以，英特爾在揭露下一世代伺服器處理器技術架構時，同樣刻意強調，Sapphire Rapids特別區隔出運算、I/O、記憶體，這三大類IP，以建構區塊的形式來呈現特色。這個舉動，頗有與Nvidia互別苗頭的意味。&lt;/p&gt;
+&lt;p&gt;英特爾在Sapphire Rapids用了許多首創的設計，封裝的部分採用新的系統單晶片架構，也就是模組化、磚片型（tiled）架構。同時，它們也是首批採用嵌入式多晶片互連橋接技術（EMIB）的產品，而能維持單體（monolithic）的中央處理器介面。&lt;/p&gt;
+&lt;p&gt;甚至，從這次發表中，可以看出，英特爾對於下一代伺服器處理器，出乎意外地積極擁抱新規格，例如，事前毫無預告，英特爾突然宣布將會支援PCIe 5的I/O介面、CXL 1.1、DDR5記憶體，還要提供內建HBM記憶體的產品款式。這與過去大家印象中，總是耐心等待技術和應用成熟才會積極擁抱的態度，明顯很不一樣。&lt;/p&gt;
+&lt;p&gt;面對Nvidia來勢洶洶的搶進處理器領域，英特爾自然不甘示弱，要展現老大哥的實力，這就是我們1041期&lt;a href=&quot;https://www.ithome.com.tw/article/146528&quot; target=&quot;_blank&quot;&gt;封面故事「2022 Intel運算架構大公開！資料中心篇」&lt;/a&gt;要介紹的重點。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;https://www.ithome.com.tw/article/146528&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1041-%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B-Open-%E5%AE%97%E7%BF%B0-960X420%20%E6%8B%B7%E8%B2%9D.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E8%8B%B1%E7%89%B9%E7%88%BE&quot;&gt;英特爾&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/xeon-scalable&quot;&gt;Xeon Scalable&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E8%99%95%E7%90%86%E5%99%A8&quot;&gt;處理器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/sapphire-rapids&quot;&gt;Sapphire Rapids&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 23:00:00 +0000</pubDate>
+ <dc:creator>王宏仁</dc:creator>
+ <guid isPermaLink="false">146521 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/voice/146521#comments</comments>
+</item>
+<item>
+ <title>2022英特爾伺服器平臺：Sapphire Rapids</title>
+ <link>https://www.ithome.com.tw/tech/146497</link>
+ <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/1041-cover-2-tu_pian_lai_yuan_ying_te_er_-960-v2.png&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;英特爾&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;今年4月初英特爾推出第三代Xeon Scalable系列處理器，沒想到在8月底舉行的英特爾架構日，他們居然打破過去慣例，針對下一代Xeon Scalable系列處理器（研發代號為Sapphire Rapids），提前公開揭露其技術組成架構。&lt;/p&gt;
+&lt;p&gt;相較於過往的伺服器級處理器，Sapphire Rapids採用了許多首創的設計方式。例如，在封裝的部分，這系列處理器採用新的系統單晶片（SOC）架構，也就是模組化、磚片型（tiled）架構，而能具備足夠的延展性；同時，它們也是首批採用嵌入式多晶片互連橋接技術（EMIB）的產品，而能維持單體（monolithic）的中央處理器介面。&lt;/p&gt;
+&lt;p&gt;在關鍵技術規格的搭配上，Sapphire Rapids也罕見地區隔出運算、I/O、記憶體，這三大類智慧財產（IP），以建構區塊的形式來呈現特色，令人眼睛為之一亮。此舉讓人聯想到當紅的Arm，他們正是以提供矽智財授權、供用戶搭配設計晶片而在市場迅速崛起，而英特爾在揭露新世代伺服器處理器技術架構，刻意標榜IP組合的舉動，或許別有用意、有互別苗頭的意味。&lt;/p&gt;
+&lt;p&gt;而單從這些技術組成來看，同樣能發現英特爾對於下一代伺服器處理器，意外採取積極擁抱新規格的態度。例如，他們在毫無預告的狀態下，突然宣布要支援PCIe 5的I/O介面、CXL 1.1互連、DDR5記憶體，以及提供內建HBM記憶體的產品款式。過去英特爾Xeon支援新規格的進度相當遲緩，就連日益普及的PCIe 4.0，也是今年4月推出的第三代Xeon Scalable支援，DDR4-3200記憶體的支援也是如此，相較之下，競爭廠商在前代產品幾次都搶先一步支援新規格，如今態勢改變，英特爾難得採取超前部署的姿態。&lt;/p&gt;
+&lt;p&gt;因此，Sapphire Rapids如今要搶先一步支援上述新規格，此舉可說是顛覆了過去大家的刻板印象。事實上，英特爾過去通常會耐心等待相關技術與應用成熟，屆時再進場提供支援，也難怪各界會詫異有這樣的改變。&lt;/p&gt;
+&lt;p&gt;事實上，綜觀現今的伺服器處理器平臺，目前唯有Arm今年4月底主推的Neoverse V1和N2，打著支援PCIe 5介面、CXL 1.1、DDR5記憶體、HBM記憶體（第三代技術HBM2e）的新規格，而英特爾Sapphire Rapids竟不畏被評為「跟進」，而公開宣稱要支援這些特色，這也是過往所難見到的景況，或許真是大家有志一同，都看好這些技術。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1041-cover-2-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE-600.JPG&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;英特爾下一代伺服器處理器搶先亮相&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;在8月底舉行的英特爾架構日期間，該公司設計工程事業群資深院士暨首席架構師Sailesh Kottapalli，透過線上發表會的形式，介紹了下一代伺服器處理器Sapphire Rapids的整體特色，並且展示實際的產品。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;&lt;strong&gt;採用創新製程與封裝技術，實現模組化系統單晶片架構&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;關於第三代Xeon Scalable之後接班的伺服器處理器，在2020年英特爾架構日上，首度正式提及Sapphire Rapids，他們預告這款處理器將採用Enhanced SuperFin製程，並支援DDR5、PCI 5.0、CXL 1.1等先進規格；同時，這款處理器將內建新的加速功能，像是廣泛針對資料搬移應用的資料流加速器（DSA），以及用於深度學習的進階矩陣延伸指令集（AMX）；供貨時程上，他們將於2021年下半開始生產出貨。&lt;/p&gt;
+&lt;p&gt;到了今年，英特爾目前已連續在三場強調公司轉型策略的重大活動當中，提到Sapphire Rapids的最新技術進展。首先是3月舉行的IDM 2.0策略發表會上，該公司新任執行長Pat Gelsinger表示，他們已經開始提供Sapphire Rapids的樣品給特定用戶，希望年底達到生產階段，並在2022年上半「大躍進」，並預告下一代的伺服器處理器代號，會是「Granite Rapids」，屆時將會導入基於Intel 7奈米製程的運算晶磚（Compute Tiles），當中會結合模組化設計方式，以及他們引以為傲的封裝能力。&lt;/p&gt;
+&lt;p&gt;接著是7月底舉行的Accelerated 2021發表會，公布多項製程與封裝創新消息之餘，也提到新款伺服器處理器進度。&lt;/p&gt;
+&lt;p&gt;以製程而言，由於英特爾採用了新的命名方式，也使得Xeon Scalable系列處理器的下一代與下下一代產品，也將對應不同的製程名稱，如Sapphire Rapids原本是10奈米Enhanced SuperFin製程，現改名為Intel 7製程。至於再下一代的Granite Rapids處理器，先前採用的製程是Intel 7奈米，改名為Intel 4。&lt;/p&gt;
+&lt;p&gt;至於封裝，英特爾表示，Sapphire Rapids將是首款採用EMIB封裝的Xeon處理器量產產品，也會是首款使用4個方塊晶片（dual-reticle-sized）的裝置，提供近乎單體（monolithic）設計的效能。&lt;/p&gt;
+&lt;p&gt;若就EMIB規格來看，Sapphire Rapids的凸點間距（bump pitch）是55微米，而在之後推出的伺服器處理器上，這類規格將會縮減至45微米。&lt;/p&gt;
+&lt;p&gt;英特爾強調，EMIB讓Sapphire Rapids運用嵌入基板的矽晶片互連機制，而不需用到大型矽晶片矽中介層，相較於標準封裝的互連方式，EMIB能提供2倍頻寬密度，以及4倍電力使用效率。&lt;/p&gt;
+&lt;p&gt;關於Sapphire Rapids的封裝方式，8月底舉行的英特爾架構日期間，負責這項產品的總工程師Nevine Nassif，介紹當中採用的新型模組化、磚片型架構，並解釋其為何能具備更大擴展性、超越實體光罩設計限制的理由，關鍵正是導入了EMIB，它能將多個獨立的晶磚，整合到一個封裝，實現單顆邏輯處理器的設計，藉此提供跡近單體晶粒設計的效能、功耗、密度，同時，還能擴充核心數量、快取容量、記憶體容量，以及I/O。她強調，這樣的設計能針對所有的工作負載，提供平衡的擴充性與一致的效能，對於資料中心規模的伸縮度與資源利用率的最佳化而言，這會是關鍵。&lt;/p&gt;
+&lt;p&gt;在軟體應用上，此種架構能提供單一、平衡的統合記憶體存取（UMA），可讓每個執行緒完整存取所有晶磚內蘊含的資源，像是快取、記憶體、I/O，也因此對於整個系統單晶片而言，可以獲得低延遲與大量的跨區存取頻寬（cross-section bandwidth）等好處，進而實現低抖動（low Jitter）的系統穩定執行表現。同時，用戶者還可以在此啟用Sub-NUMA與Sub-UMA層級的叢集，以獲得額外的效能與延遲度改善。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1041-cover-2-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE-600(1).png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;Sapphire Rapids的三大技術組成&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;即將登場的英特爾下一代伺服器處理器Sapphire Rapids，當中實作、結合了許多技術，主要包含了運算、I/O、記憶體等三大類型的技術智財，當中除了英特爾自行研發的製程、封裝、核心微架構、加速器引擎、I/O介面、儲存級記憶體，也有業界最新標準，例如PCIe 5.0、CXL 1.1、DDR5、HBM。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1041-cover-2-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE-600(2).png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;Sapphire Rapids晶片採用新一代模組化設計&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;單體（Monolithic）型態的晶粒（Die）是英特爾Xeon系列處理器沿用多年的設計方式，而在即將問世的Sapphire Rapids身上，他們改用多個晶磚（Tile）的作法，在設計上，可具有更大的擴充性、平衡度，得以如此的箇中關鍵，正是英特爾發展的嵌入式多晶片互連橋接（EMIB）技術，而在這樣的架構之下，處理器的每一個執行緒，都可以完整存取所有晶磚的資源。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;&lt;strong&gt;整合高效能核心與加速器引擎&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;在處理器的組成元件上，過往英特爾在不同世代的產品當中，主要是透過導入新的微架構來提供新的功能特色。而在個人電腦平臺的下一代處理器Alder Lake，以及伺服器平臺的下一代處理器Sapphire Rapids，均採用複合式搭配方式──前者混合搭配兩種微架構：代號為「Gracemont」的高效率核心（Efficient x86 Core，E-Core），以及代號為「Golden Cove」的高效能核心（Performance x86 Core，P-Core）；後者則採用高效能核心，以及多種與資料中心應用有關的加速器引擎，可直接在處理器內部提供異質運算架構。&lt;/p&gt;
+&lt;p&gt;而在Sapphire Rapids採用P-Core之後，可獲得下列好處。首先可受益於Intel 7製程的技術突破，在微架構與每週期指令（IPC）的執行效能上，獲得改善；其次，對於伺服器處理器因為處理資料中心規模的大量程式碼與資料，而出現存取瓶頸的狀況，P-Core在前端設計上，配置數量更多的指令轉譯後備緩衝區（iTLB）、解碼器（支援更大的解碼寬度）、微操作佇列（μop Queue）、微操作快取（μop Cache），同時也改善指令分支預測的精準度，採用更聰明的程式碼預先存取機制，能有效降低L1快取延遲，針對L2快取的完全寫入提供頻寬預測最佳化處理。&lt;/p&gt;
+&lt;p&gt;第三，針對多租戶服務這類資料中心運作模式，P-Core具備多種功能，像是：VM快速遷移、進階的快取與TLB服務品質確保（QoS），以便提供一致的效能。第四，則是提供自主、控管粒度更細緻的電源管理機制，P-Core可因應高時脈的運作，在不發生抖動的狀態下，提升處理器核心的效能。&lt;/p&gt;
+&lt;p&gt;此外，P-Core本身也內建多種加速指令集架構與功能支援，可因應資料中心的應用需求。當中最受矚目的莫過於進階矩陣延伸指令集（AMX），可針對深度學習工作負載當中的張量運算，提供大規模的加速處理，而這也是Sapphire Rapids與Alder Lake所共通的特色。&lt;/p&gt;
+&lt;p&gt;而在運算能力上，有了AMX，可讓Sapphire Rapids具備更強大的AI效能。例如，在每個處理器運算執行週期當中，AMX可以完成2,048個INT8整數運算，以及1,024個BF16浮點運算。&lt;/p&gt;
+&lt;p&gt;另一個是加速器介接架構（AIA），針對加速器、裝置的連接，可在系統的使用者模式（User Mode）層級，以原生、有效率的方式，執行調度、同步、訊號傳遞等任務，而不是到工作繁忙的核心模式（Kernel Mode）執行。&lt;/p&gt;
+&lt;p&gt;搭配功能更強大的運算核心之餘，英特爾在Sapphire Rapids也首度導入加速器引擎的設計，針對資料中心層級通用的作業模式，提供高階的最佳化處理機制，藉此減輕常態下的運作負擔，以及提升P-Core的資源利用率，進而拉抬使用者工作負載的效能。&lt;/p&gt;
+&lt;p&gt;舉例來說，上述AIA，以及後面提到的進階虛擬化功能，也被英特爾歸類於加速器引擎，除了減輕核心模式的經常性負擔，還能避免複雜的記憶體管理。&lt;/p&gt;
+&lt;p&gt;目前Sapphire Rapids還提供哪些加速器引擎？首先是前面我們曾提到的資料串流加速器（DSA），這是專為資料中心環境最常見的資料搬移作業，舉凡封包處理、資料縮減、虛擬機器遷移時的快速建立檢查點，所設計的卸載功能，能夠提升整體工作負載的效能，適用範圍可涵蓋處理器、記憶體、快取，以及各種透過I/O介面連接的記憶體、儲存裝置、網路設備之間的資料搬移活動。&lt;/p&gt;
+&lt;p&gt;而在實際應用上，目前每顆處理器可支援4個DSA加速器實體，根據英特爾進行的Open vSwitch測試當中，處理器利用率能因此減少39％，而在資料搬移的效能上，可改善至2.5倍的幅度。&lt;/p&gt;
+&lt;p&gt;第二個新世代處理器內建的加速器引擎，是英特爾發展已久的Quick Assist Technology（QAT），-而且，Sapphire Rapids將提供的是新一代QAT引擎，可大幅提升效能與實用性，並且不僅支援最常見的加密、雜湊、壓縮等演算法，還能將這些作法串在一起使用。而對於資料中心環境當中，能以加密方式針對全部數據的儲存、傳輸、使用進行保護，面對持續增長的資料量，企業也能善用這項技術，促使相關數據維持在壓縮的格式。英特爾表示，若以QAT來處理這些資料，會比使用P-Core還要快，而且執行同樣的功能時，還能減少需要的運算核心數量。&lt;/p&gt;
+&lt;p&gt;而在加密處理作業上，英特爾表示，QAT如今可提供400Gb/s的效能（對稱式加密），而同時進行壓縮與解壓縮的處理上，均可達到160 Gb/s。而在英特爾運用Zlib L9壓縮演算法的測試當中，處理器使用率降低50％，壓縮速度是未啟用QAT的22倍。相對地，若不啟用QAT，要得到同樣的效能，英特爾預估要運用1千顆P-Core才能達成目的。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1041-cover-2-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE-600(6).png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;提供更寬大、聰明的運算執行架構&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;Sapphire Rapids處理器採用的微架構，是代號為Golden Cove的高效能核心（Performance Core），可針對低存取延遲與單執行緒應用程式，提供更好的處理效能，能強化一般用途的系統執行，也更足以支撐蘊含大量程式碼與資料的應用程式。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1041-cover-2-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE-600(3).png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;內建加速器引擎，在處理器內部實現異質運算&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;過去英特爾處理器通常會以內建各種指令集的方式，就近實現多種加速運算，但Sapphire Rapids於處理器核心之外，增添了加速器引擎的配置，可運用這種方式將常見的工作卸載到加速器引擎執行，為關鍵工作負載騰出更多可用的運算容量。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;&lt;strong&gt;I/O介面大躍進，支援PCIe 5.0、CXL 1.1等業界新規格&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;針對伺服器對於記憶體與加速器擴充需求，Sapphire Rapids支援1.1版的CXL，基本上，CXL是針對處理器、記憶體擴充、加速器的互連機制，它運用PCIe 5.0實體層的基礎設施與PCIe替代協定，可因應高效能運算負載。&lt;/p&gt;
+&lt;p&gt;或許是支援CXL 1.1的關係，Sapphire Rapids也順勢支援PCIe 5.0，提升周邊裝置I/O存取效能，英特爾也針對這部份提供了改良的服務品質確保（QoS），以及DDIO（Data Direct I/O）技術，與這項新規格支援一起推出。&lt;/p&gt;
+&lt;p&gt;而英特爾本身發展的多顆處理器互連技術UPI（Ultra Path Interconnect），是在2017年Xeon Scalable系列處理器推出而一起問世的，當時取代了QPI（QuickPath Interconnect），而經過三代以來的採用，如今也將隨著Sapphire Rapids推出UPI 2.0版，將提供更多連結（4個）、更大的頻寬與更快的傳輸速度（16 GT/s ）。&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;&lt;strong&gt;支援DDR5、HBM新世代記憶體&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;提供平衡的快取與記憶體架構，同樣是Sapphire Rapids的賣點，英特爾希望能在低延遲的狀態下，提供足夠的持續存取頻寬。&lt;/p&gt;
+&lt;p&gt;在內建快取記憶體的部分，Sapphire Rapids支援大容量的共用快取，以便讓整顆處理器能夠動態共享這些內容，因此在L3快取上，英特爾決定配置比過往配置多一倍的容量（100 MB以上），並強化服務品質確保的機制。&lt;/p&gt;
+&lt;p&gt;在伺服器系統DRAM記憶體的搭配上，Sapphire Rapids將會支援DDR5，可獲得頻寬更大（5200 Mbps）、更省電（1.1伏特）等特色，而且，英特爾在此同樣會是搭配4個記憶體控制器，支援8個通道的存取。&lt;/p&gt;
+&lt;p&gt;至於儲存級記憶體應用，英特爾長期主導發展的Optane Persistent Memory，將推出第三代產品，亦即300系列，Sapphire Rapids也會提供支援。&lt;/p&gt;
+&lt;p&gt;除了這些記憶體類型之外，Sapphire Rapids也將在部分產品的版本中，整合高頻寬記憶體（HBM），以因應密集型平行運算的高效能需求，像是高效能運算、機器學習、記憶體內（In-Memory）資料分析等工作負載，屆時將會提供兩種運作模式：以同樣的記憶體區域搭配HBM與DRAM使用的均一模式（Flat Mode），以及支援DRAM記憶體的快取模式。&lt;/p&gt;
+&lt;p&gt;基於上述的新世代記憶體類型，英特爾也將支援記憶體分層應用（Memory Tiering），例如，軟體可存取的HBM+DDR記憶體資源，以及介於HBM與DDR之間的軟體透通式快取。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1041-cover-2-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE-600(4)%2B(5).png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;對於微服務，以及整數與浮點運算的應用，提供大幅提升的效能&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;英特爾架構日公布Sapphire Rapids的效能測試比較結果，在微服務的部分，受益於AIA、DSA、QAT等加速器引擎的使用，以及多種分攤系統經常負擔的處理機制，相較於第二代Xeon Scalable系列處理器，英特爾新發展的下一代伺服器平臺Sapphire Rapids可提升70％的效能（左圖）；而在整數運算與浮點運算上，Sapphire Rapids新增的AMX延伸指令集可帶來相當顯著的效能增長，連帶也能大幅提升機器學習類型工作負載的處理能力（右圖）。&lt;/strong&gt;圖片來源／英特爾 &lt;/span&gt;&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B&quot;&gt;封面故事&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%8B%B1%E7%89%B9%E7%88%BE&quot;&gt;英特爾&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E4%BC%BA%E6%9C%8D%E5%99%A8-0&quot;&gt;伺服器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/sapphire-rapids&quot;&gt;Sapphire Rapids&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/cpu&quot;&gt;CPU&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/gpu&quot;&gt;GPU&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/ipu&quot;&gt;IPU&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/xeon-scalable&quot;&gt;Xeon Scalable&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/soc&quot;&gt;SOC&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E6%A8%A1%E7%B5%84%E5%8C%96%E7%B3%BB%E7%B5%B1%E5%96%AE%E6%99%B6%E7%89%87&quot;&gt;模組化系統單晶片&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/pcie-50&quot;&gt;PCIe 5.0&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/cxl-11&quot;&gt;CXL 1.1&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Sep 2021 23:00:00 +0000</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="false">146497 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/tech/146497#comments</comments>
+</item>
+<item>
  <title>AWS新服務合併量子電腦解決加密金鑰被破解的問題</title>
  <link>https://www.ithome.com.tw/news/146583</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/tw/blogs/quantum-computing/generating-quantum-randomness-with-amazon-braket/&quot; target=&quot;_blank&quot;&gt;AWS一項新服務&lt;/a&gt;結合2臺量子電腦產生幾近完美的隨機數，以解決加密金鑰被破解的隱憂。&lt;/p&gt;
@@ -60,7 +251,7 @@
 <item>
  <title>MITRE Engage將取代MITRE Shield，聚焦交戰、拒絕與欺敵領域</title>
  <link>https://www.ithome.com.tw/news/146581</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;近兩三年來， 在資安界有一套框架當紅， 那就是MITRE ATT&amp;amp;CK框架， 將現實駭客組織入侵技術彙整成攻擊知識庫， 而為了扭轉企業面對攻擊經常處於被動的局面，在2020年8月，MITRE公布主動式防禦（Active Defense）的知識庫，稱為MITRE Shield，希望幫助企業組織成為更好的防守者，近期，MITRE將它重新定名為MITRE Engage，並預告在今年秋季會發布正式版本。&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;近兩三年來， 在資安界有一套框架當紅， 那就是MITRE ATT&amp;amp;CK框架， 將現實駭客組織入侵技術彙整成攻擊知識庫， 而為了扭轉企業面對攻擊經常處於被動的局面，在2020年8月，&lt;a href=&quot;https://www.ithome.com.tw/tech/143477&quot;&gt;MITRE公布主動式防禦（Active Defense）的知識庫，稱為MITRE Shield&lt;/a&gt;，希望幫助企業組織成為更好的防守者，近期，MITRE將它重新定名為MITRE Engage，並預告在今年秋季會發布正式版本。&lt;/p&gt;
 &lt;h3&gt;&lt;strong&gt;簡化框架內容，聚焦在交戰、阻斷、欺敵等三大主軸&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;基本上，過去的資安攻防，只能任由攻擊者選擇時間、地點與交戰方式，而MITRE Engage（Shield）的目的，則是希望能反過來，改善作戰計畫，希望防守者可在防禦範圍之內，進一步控制對手，並影響時間、地點與交戰方式，在此過程， 將與攻擊者互動抗衡，並學習與觀察對方使用的手法，阻絕攻擊者，使其無法摸索企業組織的防禦環境。&lt;/p&gt;
 &lt;p&gt;關於名稱的變更，MITRE也提出了解釋。他們從資安社群得到許多技術性意見，因此，將Shield架構簡化，專注在下列三大領域，分別是：對手交戰（Adversary Engagement）、阻斷（Denial），以及欺敵（Deception）。相較之下，過去MITRE Shield的定義，其實還包括網路安全防護的構面。&lt;/p&gt;
@@ -123,83 +314,6 @@
  <dc:creator>蘇文彬</dc:creator>
  <guid isPermaLink="false">146580 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146580#comments</comments>
-</item>
-<item>
- <title>臉書開源快取引擎CacheLib，連結產業推動快取創新</title>
- <link>https://www.ithome.com.tw/news/146576</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;臉書對外開源內部已經大量使用的快取引擎&lt;a href=&quot;https://engineering.fb.com/2021/09/02/open-source/cachelib/&quot;&gt;CacheLib&lt;/a&gt;，CacheLib是一個可插拔的程序內快取引擎，可用來建構和擴展高效能服務。臉書目前有70個大型系統，都已經使用CacheLib作為程序內快取，包括社交圖（Social Graph）、內容交付網路、儲存和後備鍵值快取等。除此之外，臉書還開源了基準測試工具CacheBench，供使用者評估不同生產工作負載的快取效能。&lt;/p&gt;
-&lt;p&gt;快取在存取資訊上扮演重要的角色，像是當電子郵件載入時，便需要快取訊息，當用戶在刷新頁面的時候，應用程式便無需重新存取相同的資料。但是臉書提到，大規模的快取，到目前為止仍是一個複雜的工程挑戰。企業必須平衡用戶期望從快取獲得的體驗，以及系統的高效能和成本效益。&lt;/p&gt;
-&lt;p&gt;臉書指出，過去每個快取實作都由不同的功能團隊獨立創建和維護，這種效率不高的原因，是因為忽略了不同快取系統，從部署到維護皆存在相同挑戰。再加上傳統的DRAM快取不只昂貴，擴展也需要更多的電力，因此臉書便開始探索另外的選擇，使用NVM驅動器來強化快取系統。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/CacheLib_chart-copy.jpg&quot; style=&quot;width: 580px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;雖然DRAM和NVM混合模型存在快取發展潛力，但是要能完全發揮混合模型快取的優勢，需要有新的快取設計，這包括新的啟發式快取研究，能夠透過辨識相關內容，在正確的時間中快取，來突破傳統系統的界線，而臉書現在要藉由開源和產業合作，來推進快取的發展。&lt;/p&gt;
-&lt;p&gt;臉書開發並開源程序內快取引擎CacheLib，CacheLib提供C++函式庫，讓開發人員能夠利用簡單的API，建構並且自定義可擴展的並行快取，同時提供CacheBench，使其成為評估各種快取應用程式的有效基準工具。&lt;/p&gt;
-&lt;p&gt;臉書表示，CacheLib和CacheBench作為開源平臺，有望成為快取創新和基準測試的產業標準。目前臉書開始與研究型大學、硬體製造商和軟體公司合作，推動快取創新。臉書正與推特合作，將CacheLib整合到快取框架Pelikan中，使推特在基礎設施中能以SSD來快取物件，而Pinterest也計畫在機器學習基礎設施中，採用CacheLib來提高預測效能和系統穩定度。不只如此，臉書也和英特爾、Kioxia、三星與WD等硬體製造商合作，共同標準化和強化SSD技術，以改進快取解決方案。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 07:21:38 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146576 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146576#comments</comments>
-</item>
-<item>
- <title>隱私郵件服務ProtonMail將用戶IP交給警方掀風波</title>
- <link>https://www.ithome.com.tw/news/146577</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;標榜端對端加密的電子郵件服務供應商ProtonMail，最近成為被使用者砲轟的目標，因為法國警方取得了ProtonMail所提供的用戶IP，並因此逮捕了一些氣候活動家。&lt;a href=&quot;https://protonmail.com/blog/climate-activist-arrest/&quot; target=&quot;_blank&quot;&gt;總部位於瑞士的ProtonMail出面澄清&lt;/a&gt;，該公司遵循的是瑞士警方發出的法院搜索票，而非法國。&lt;/p&gt;
-&lt;p&gt;這些氣候活動家是法國一個反資本主義組織的成員，該組織在法國持續對抗當地的高檔消費、房地產投機與高級餐廳，已成為法國警方眼中的亂源，由於他們經常使用ProtonMail進行聯繫，使得法國警方透過歐洲刑警組織（Europol）與瑞士警方交涉，由瑞士警方取得法院的搜索票，要求ProtonMail交出特定用戶的IP。&lt;/p&gt;
-&lt;p&gt;當一個標榜隱私的電子郵件服務供應商將使用者的IP位址交給警方之後，ProtonMail用戶開始感到慌亂及隱私不保。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://protonmail.com/blog/climate-activist-arrest/&quot; target=&quot;_blank&quot;&gt;ProtonMail創辦人Andy Yen很快就在官網上說明了此事&lt;/a&gt;，指出ProtonMail並不會把資料交給外國政府，只遵循來自瑞士的合法命令，即使如此也無法繞過該公司的加密機制，這代表不管是電子郵件、附件、行事曆或檔案等資料，都不會受到法院命令的影響。&lt;/p&gt;
-&lt;p&gt;Yen強調，ProtonMail持續協助使用者保護他們的隱私，例如在2020年收到來自政府的資料調閱請求中，就針對逾700起提出抗爭，但有些時候的特殊請求在法律上毫無反對的可能性。而依照瑞士的法令，若ProtonMail交出了用戶的資料，也必須通知用戶。&lt;/p&gt;
-&lt;p&gt;Yen說，他們並不知道用戶的身分，因此也不會知道所交出的IP屬於氣候活動家所有，唯一知道的是瑞士政府透過通常用來調查嚴重犯罪的管道，向ProtonMail提出資料的請求。&lt;/p&gt;
-&lt;p&gt;此外，ProtonMail除了提供電子郵件服務之外，也提供了ProtonVPN服務，瑞士法令針對這兩項服務的規定是不同的，無法強迫VPN服務紀錄使用者的資料，而ProtonMail電子郵件用戶亦可使用該公司於2017年所設立的洋蔥網站，以避免IP被追蹤。&lt;/p&gt;
-&lt;p&gt;Yen表示，該公司必須遵守瑞士的法令，就算相關法令不完美，但也提供了制衡的作用，事實上，此次的事件結合了兩個政府（法國與瑞士）與3個機構（法國警方、歐洲刑警組織及瑞士警方），已稱得上是預防濫用司法系統的一個高標準。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 07:11:16 +0000</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146577 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146577#comments</comments>
-</item>
-<item>
- <title>藍牙耳機可能讓使用者被人追蹤</title>
- <link>https://www.ithome.com.tw/news/146575</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;藍牙耳機很潮、很夯，但是&lt;a href=&quot;https://www.hegnes.tech/2021/09/01/location-tracking-of-wifi-access-point-and-bluetooth-devices/&quot; target=&quot;_blank&quot;&gt;一項研究顯示&lt;/a&gt;，藍牙耳機一項技術問題，可能被有心人士用來跟蹤使用者。而且不用很高明的技巧。&lt;/p&gt;
-&lt;p&gt;挪威Noroff大學一年級學生Bjorn Hegnes，在其一項以網路資安為主題的期末報告中發現這個問題。他運用一臺可攜式網路監聽設備，以12天時間騎單車在奧斯陸約300公里路徑中穿梭12天，蒐集了500萬個Wi-Fi AP（Access Point）及藍牙設備，包括藍牙耳機、智慧型腕帶、電視或汽車的MAC位址，即可以視覺化軟體顯示及分析這些裝置的行經路徑。&lt;/p&gt;
-&lt;p&gt;其中，他蒐集到129款藍牙耳機，包含數個知名品牌，如Beoplay、Bose、Jabra等。他發現，由於藍牙耳機未實作MAC隨機化（MAC randomization），因此Hegnes認為甚至比手機都更容易用來追蹤使用者。相反地，研究中反而蒐集到很少的智慧型手機MAC位址訊號，推論可能是因為用戶使用了SSID、MAC 隨機化來隱藏的結果。&lt;/p&gt;
-&lt;p&gt;這名大學生表示，在研究後他自己也棄藍牙，改用有線耳機。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.theregister.com/2021/09/04/bluetooth_headphones_tracking_oslo/&quot; target=&quot;_blank&quot;&gt;The Register&lt;/a&gt;表示，現代裝置多半都已具備MAC位址隨機化的設計，以確保用戶隱私。&lt;/p&gt;
-&lt;p&gt;這名大學生的研究另一個發現是，奧斯陸市區仍有為數不少用戶家中或企業環境的Wi-Fi AP不安全。其中未加密者近6%，總計未加計或僅用弱加密，像是WEP、WPA比例超過13%。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 06:28:57 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146575 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146575#comments</comments>
-</item>
-<item>
- <title>程式碼執行漏洞促使Google Tensorflow中止支援YAML</title>
- <link>https://www.ithome.com.tw/news/146574</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google TensorFlow框架近日傳出受重大風險程式碼執行漏洞影響安全性，&lt;a href=&quot;https://github.com/advisories/GHSA-r6jx-9g48-2r5r&quot; target=&quot;_blank&quot;&gt;為此Google宣布將不再支援YAML格式&lt;/a&gt;，建議開發人員改成其他格式。&lt;/p&gt;
-&lt;p&gt;TensorFlow是一個Google發展並開源出來的機器學習框架，可支援深度學習的各種演算法。&lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2021-37678&quot; target=&quot;_blank&quot;&gt;新發現的漏洞編號CVE-2021-37678&lt;/a&gt;，是8月間&lt;a href=&quot;https://twitter.com/0xsegf/status/1429427152454180870&quot; target=&quot;_blank&quot;&gt;研究人員Arjun Shibu揭露並通報&lt;/a&gt;。它出在TensorFlow使用的Keras開源碼函式庫的Keras Model Handler元件，對序列化輸入資料的驗證不足，導致從YAML格式Keras模型反序列化（deserialization）的過程中觸發權限升級，使Tensorflow和Kera在目標系統上執行任意程式碼。&lt;/p&gt;
-&lt;p&gt;本漏洞影響TensorFlow 2.3.3、2.4.2與2.5.0，風險值達9.3。&lt;a href=&quot;https://github.com/advisories/GHSA-r6jx-9g48-2r5r&quot; target=&quot;_blank&quot;&gt;Google指出&lt;/a&gt;，由於支援YAML格式需要大量作業，因此決定移除。&lt;a href=&quot;https://github.com/tensorflow/tensorflow/commit/23d6383eb6c14084a8fc3bdf164043b974818012&quot; target=&quot;_blank&quot;&gt;Google建議開發人員以JSON取代YAML序列化，或改成H5格式 &lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Google已釋出更新版本TensorFlow 2.6.0，也會在TensorFlow 2.5.1、2.4.3和  2.3.4版標明，因為這些版本仍受影響。Keras則從0.1.0到2.6.0版皆受影響，&lt;a href=&quot;https://github.com/keras-team/keras/releases&quot; target=&quot;_blank&quot;&gt;Keras已於8月初釋出&lt;/a&gt;2.6.0 RC3更新版軟體。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 04:36:27 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146574 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146574#comments</comments>
-</item>
-<item>
- <title>印尼防疫網站未做好資料庫防護，導致百萬民眾資料外洩</title>
- <link>https://www.ithome.com.tw/news/146573</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;安全人員發現印尼防疫管理網站未做好防護，讓印尼超過百萬人的COVID-19測試、醫療資料、個資等資訊全部曝露於網上，可能也包括總統佐科威（Joko Widodo）。&lt;/p&gt;
-&lt;p&gt;安全廠商vpnMentor研究人員Noam Rotem及Ran Locar在印尼官方的eHAC（eHealth Alert Card）防疫管理App及網站，發現這樁重大資料外洩。eHAC是印尼政府開發的COVID-19接觸追蹤App，今年才開發完成，要求所有入、出境的旅客，以及國內民眾安裝使用。&lt;/p&gt;
-&lt;p&gt;研究人員指出，他們利用很簡單的技巧，在網路上大規模搜尋未妥善防護的資料庫，很快找到了eHAC使用的Elasticsearch資料庫。他們透過瀏覽器存取，再於URL搜尋條件上下點工夫，即曝露出任何時間點的索引schemata。&lt;/p&gt;
-&lt;p&gt;經過分析，這個2GB的資料庫屬於印尼衛生部，內含140多萬筆資料，分別屬於近130萬人。曝光的資料包括個人可辨識身份資訊（PII）、旅行資訊、醫療紀錄、COVID-19檢測資訊。部份資訊還包含國籍。此外還有eHAC相關的226家醫院、醫師，以及使用該App的印尼官員資訊。&lt;/p&gt;
-&lt;p&gt;vpnMentor是在7月中發現曝光的資料庫，並於7月下旬分別通知印尼衛生部、當地CERT及代管資料庫的Google。一個月後他們才得到印尼政府回應，後者也終於為資料庫加上了防護。&lt;a href=&quot;https://www.reuters.com/technology/indonesia-probes-suspected-data-breach-covid-19-app-2021-08-31/&quot; target=&quot;_blank&quot;&gt;上周印尼政府表示將調查此事&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;雖然研究人員沒有透露任何人員有外洩資訊，但&lt;a href=&quot;https://www.reuters.com/world/asia-pacific/privacy-alarm-indonesia-over-presidents-leaked-vaccine-certificate-2021-09-03/&quot; target=&quot;_blank&quot;&gt;路透社報導&lt;/a&gt;在130萬公民用戶資料外洩事件後，也傳出總統佐科威的疫苗注射護照資料曝光。&lt;/p&gt;
-&lt;p&gt;這是印尼衛生部第二度重大資料外洩。&lt;a href=&quot;https://www.theregister.com/2021/05/24/indonesia_health_data_breach/&quot; target=&quot;_blank&quot;&gt;今年5月&lt;/a&gt;印尼超過100萬健保資料被人放到地下論壇上兜售，不過該國政府表示只有10萬筆資料。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 04:28:34 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146573 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146573#comments</comments>
 </item>
 </channel>
 </rss>

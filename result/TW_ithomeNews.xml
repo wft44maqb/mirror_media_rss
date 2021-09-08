@@ -6,6 +6,49 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>2022 Intel運算架構大公開！</title>
+    <link>https://www.ithome.com.tw/article/146528</link>
+    <description> 不讓Nvidia專美於前，處理器大廠英特爾在資料中心領域，除了發展多年的伺服器CPU，也將陸續推出適用於此類應用的GPU與IPU應戰，而在今年8月底，他們打破多年以來的慣例，搶先公布了這些運算平臺即將採用的新架構細節。
+ </description>
+     <pubDate>2021-09-08  07:09:00</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/article/146528</guid>
+  </item>
+  <item>
+    <title>2022英特爾基礎設施處理器：Mount Evans</title>
+    <link>https://www.ithome.com.tw/tech/146525</link>
+    <description> 在資料中心運算平臺當中，中央處理器（CPU）的發展與應用時間最久，這幾年以來，隨著人工智慧／機器學習、高效能運算（HPC）的當紅，繪圖處理器（GPU）也浮上檯面，成為炙手可熱的企業IT重要產品，並大量用於多種協同加速運算的應用場景之中。</description>
+     <pubDate>2021-09-08  07:09:00</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/tech/146525</guid>
+  </item>
+  <item>
+    <title>2022英特爾資料中心繪圖處理器：Ponte Vecchio</title>
+    <link>https://www.ithome.com.tw/tech/146524</link>
+    <description> 在2019年11月的美國超級電腦大會期間，英特爾宣布，他們將基於自行發展的Xe架構，推出新的通用繪圖處理器（GPU），而為了因應高效能運算的建模與模擬工作負載、機器學習訓練等應用需求，他們預計推出代號為Ponte Vecchio的獨立GPU，基於Xe架構之餘，也將導入英特爾7奈米製程，以及Foveros 3D、EMIB封裝技術，當中會集結HBM記憶體、CXL互連介面等多種技術智財，整合至單一封裝。</description>
+     <pubDate>2021-09-08  07:09:00</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/tech/146524</guid>
+  </item>
+  <item>
+    <title>英特爾的處理器反攻</title>
+    <link>https://www.ithome.com.tw/voice/146521</link>
+    <description> 英特爾竟然首度打破了過去的產品發表慣例，在今年8月底的英特爾架構日，針對下一代Xeon Scalable系列處理器（研發代號為Sapphire Rapids，簡稱SPR），提前公開揭露其技術組成架構。讓英特爾一反常態的關鍵就是競爭對手Nvidia。
+Nvidia近年來頻頻出招，不只大力發展先進GPU產品，甚至也開始打造超級電腦，還一腳踩進了英特爾的處理器地盤。今年4月，Nvidia執行長黃仁勳在春季線上GTC大會上，首度公開展示一款Arm架構的全新伺服器CPU，這是他們第一款資料中心等級的CPU，強調可以提供TB級資料量吞吐的加速運算。</description>
+     <pubDate>2021-09-08  07:09:00</pubDate>
+ <dc:creator>王宏仁</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/voice/146521</guid>
+  </item>
+  <item>
+    <title>2022英特爾伺服器平臺：Sapphire Rapids</title>
+    <link>https://www.ithome.com.tw/tech/146497</link>
+    <description> 今年4月初英特爾推出第三代Xeon Scalable系列處理器，沒想到在8月底舉行的英特爾架構日，他們居然打破過去慣例，針對下一代Xeon Scalable系列處理器（研發代號為Sapphire Rapids），提前公開揭露其技術組成架構。
+相較於過往的伺服器級處理器，Sapphire Rapids採用了許多首創的設計方式。例如，在封裝的部分，這系列處理器採用新的系統單晶片（SOC）架構，也就是模組化、磚片型（tiled）架構，而能具備足夠的延展性；同時，它們也是首批採用嵌入式多晶片互連橋接技術（EMIB）的產品，而能維持單體（monolithic）的中央處理器介面。</description>
+     <pubDate>2021-09-08  07:09:00</pubDate>
+ <dc:creator>李宗翰</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/tech/146497</guid>
+  </item>
+  <item>
     <title>AWS新服務合併量子電腦解決加密金鑰被破解的問題</title>
     <link>https://www.ithome.com.tw/news/146583</link>
     <description> AWS一項新服務結合2臺量子電腦產生幾近完美的隨機數，以解決加密金鑰被破解的隱憂。
@@ -217,49 +260,6 @@ Reddit創立於2005年，註冊會員可上傳各種內容，從文章、連結�
      <pubDate>2021-09-06  11:09:44</pubDate>
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146551</guid>
-  </item>
-  <item>
-    <title>思科修補NFV基礎架構軟體重大漏洞</title>
-    <link>https://www.ithome.com.tw/news/146549</link>
-    <description> 思科上周針對網路虛擬化設備一項可能允許攻擊者接管設備的重大漏洞，釋出更新軟體，呼籲用戶應儘速安裝。</description>
-     <pubDate>2021-09-06  10:09:30</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146549</guid>
-  </item>
-  <item>
-    <title>臉書AI將黑人影片誤標為靈長類</title>
-    <link>https://www.ithome.com.tw/news/146548</link>
-    <description> 臉書AI引擎近日將一則主角為黑人的影片，加上「靈長類」的標籤推薦給用戶。臉書已將之撤下。
-紐約時報報導，近日在臉書上部份使用者觀看黑人主題影片時，接到平臺上送來的推薦，問他們是否想繼續觀看「靈長類」的影片。但這則影片其實是英國報紙《每日郵報》（Daily Mail），去年上傳的一則黑人和白人警察及市民吵架的影片。
-消息見報後，臉書立即關閉AI推薦引擎。臉書並道歉指出，雖然他們的AI引擎不斷進步，但仍然不完美，還有進步空間。臉書對看到這些冒犯性推薦的用戶抱歉。</description>
-     <pubDate>2021-09-06  09:09:53</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146548</guid>
-  </item>
-  <item>
-    <title>CircleCI與Datadog和Sumo Logic合作，透過Webhook整合監控工作管線</title>
-    <link>https://www.ithome.com.tw/news/146536</link>
-    <description> DevOps服務供應商CircleCI宣布推出CircleCI Webhook，可用來和第三方應用程式整合，並在CircleCI工作流程中獲取狀態和通知。
-官方提到，用戶可以使用CircleCI平臺來自定義軟體開發程序，像是使以Orbs搭配可重複使用的配置套件，可標準化和擴展CI/CD工作管線，或是使用CircleCI API來創建內部工具，並且和其他產品整合，以獲得更精細的監控。</description>
-     <pubDate>2021-09-06  09:09:14</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146536</guid>
-  </item>
-  <item>
-    <title>Container周報第141期:250人以上大企業注意，Docker桌面版要開始收費了</title>
-    <link>https://www.ithome.com.tw/news/146537</link>
-    <description> 8/1~8/31 精選容器新聞</description>
-     <pubDate>2021-09-05  12:09:34</pubDate>
- <dc:creator>王宏仁</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146537</guid>
-  </item>
-  <item>
-    <title>SUSE併購後的第一個版本，Rancher 2.6大幅強化叢集配置功能</title>
-    <link>https://www.ithome.com.tw/news/146534</link>
-    <description> Rancher 2.6是SUSE在去年冬天併購Rancher後，推出的第一個重要版本，開發團隊在這個版本進行了大幅度的更新，像是重新設計Rancher使用者體驗，對入門或是進階的Kubernetes使用者都更加友善，而Rancher 2.6另一個更新重點，則是強化託管叢集配置，改進AKS與GKS叢集生命周期管理。</description>
-     <pubDate>2021-09-03  11:09:17</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146534</guid>
   </item>
   </channel>
 </rss>

@@ -4,10 +4,18 @@
   <link rel="alternate" type="text/html" href="https://status.digitalocean.com"/>
   <link rel="self" type="application/atom+xml" href="https://status.digitalocean.com/history.atom"/>
   <title>DigitalOcean Status - Incident History</title>
-  <updated>2021-09-06T23:23:33Z</updated>
+  <updated>2021-09-08T00:20:27Z</updated>
   <author>
     <name>DigitalOcean</name>
   </author>
+  <entry>
+    <id>tag:status.digitalocean.com,2005:Incident/7940860</id>
+    <published>2021-09-08T00:20:27Z</published>
+    <updated>2021-09-08T00:20:27Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/dg1fblqvb362"/>
+    <title>Block Storage Volumes Timeouts and Errors in FRA1</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 8&lt;/var&gt;, &lt;var data-var='time'&gt;00:20&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - Our engineers have identified the cause of the block storage Volumes in FRA1 issue and are actively working on a fix.&lt;br /&gt;&lt;br /&gt;We will post an update as soon as additional information is available.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;23:44&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We are continuing to investigate this issue. However, it has come to our attention that any Droplets or other services with FRA1 Volumes attached should not be power cycled. Power cycling a Droplet or other service with a FRA1 Volume attached may result in the Droplet not being able to power back on until it is detached.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;22:29&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Our engineering team is investigating an issue with block storage Volumes in FRA1. At this time, users may experience issues accessing their Volumes including any read / write operations.&lt;br /&gt;&lt;br /&gt;We apologize for the inconvenience and will share an update once we have more information.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:status.digitalocean.com,2005:Incident/7891169</id>
     <published>2021-09-01T21:23:08Z</published>
@@ -199,13 +207,5 @@
     <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/97ykj3xvwqlr"/>
     <title>Managed Certificate in CDN endpoint</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;10:54&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our engineering team has resolved the issue with Certificate in CDN endpoint, and SSL certificate creations for CDN endpoint should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;10:33&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our engineering team has implemented a fix to resolve the issue with Certificate in CDN endpoint and is monitoring the situation. We will post an update as soon as the issue is fully resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;29&lt;/var&gt;, &lt;var data-var='time'&gt;08:12&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Our Engineering team is investigating an issue with Certificate in CDN endpoint. During this time, users may experience issues when attempting to create SSL certificates for CDN endpoint. We apologize for the inconvenience and will share an update once we have more information.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:status.digitalocean.com,2005:Incident/7625642</id>
-    <published>2021-07-28T21:23:12Z</published>
-    <updated>2021-07-28T21:23:13Z</updated>
-    <link rel="alternate" type="text/html" href="https://status.digitalocean.com/incidents/xhbw5cfnnhlw"/>
-    <title>Multiple Products Down</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;21:23&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - Our Engineering team has continually monitored the result of the implemented fix and has confirmed that the impacted products have been functioning correctly. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience this issue may have caused.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;16:50&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - Our Engineering team has implemented a fix for the issues that caused an impact on multiple products. We are continuing to monitor the situation closely as the functionality of the services recovers. We apologize for the inconvenience and will share another update once the matter is fully resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;16:32&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We are continuing to investigate this issue and we will share an update once we have more information. Thank you for your patience.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Jul &lt;var data-var='date'&gt;28&lt;/var&gt;, &lt;var data-var='time'&gt;16:21&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Our Engineering team is currently investigating an issue impacting multiple products. During this time, users may experience errors when interacting with Cloud Control Panel,  API, and our Community platform. Users may see issues when accessing the Container Registry systems as well. There may be authentication issues for users with Managed Kubernetes clusters. Users may see connectivity issues with their Droplets in the NYC3 region as well. We apologize for any inconvenience and will share more information as soon as it's available.&lt;/p&gt;</content>
   </entry>
 </feed>

@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 08 Sep 2021 02:01:44 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Sep 2021 10:43:48 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[「我必須去前線」：CNN首席國際記者談阿富汗經歷]]></title>
+            <link><![CDATA[https://cn.nytimes.com/usa/20210908/clarissa-ward-cnn-afghanistan/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[克拉麗莎·沃德是美軍撤離阿富汗期間最引人注目的記者之一。9·11事件令她決意開啟記者生涯，從巴格達、阿勒頗到喀布爾，報導任務將她帶到戰火紛飛的衝突地區。<p><img src='https://static01.nyt.com/images/2021/09/07/business/00JPclarissaward-print/00clarissaward-03-articleLarge.jpg' alt='克拉麗莎·沃德在8月份的大部分時間裡一直從阿富汗報導塔利班的重新掌權。之後，她去了巴基斯坦，報導美國撤軍的最後幾天。 William Bonnett'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>William Bonnett</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>克拉麗莎·沃德在8月份的大部分時間裡一直從阿富汗報導塔利班的重新掌權。之後，她去了巴基斯坦，報導美國撤軍的最後幾天。</p>                    ]]></description>
+            <category>美國</category>
+            <dc:creator><![CDATA[KATIE ROBERTSON]]></dc:creator>
+            <pubDate>Wed, 08 Sep 2021 10:31:29 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210908/clarissa-ward-cnn-afghanistan/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[漫威首位亞裔超級英雄：「尚氣」如何打破刻板印象]]></title>
             <link><![CDATA[https://cn.nytimes.com/culture/20210907/shang-chi-marvel/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[黃瑞黎,RAYMOND ZHONG]]></dc:creator>
             <pubDate>Thu, 02 Sep 2021 11:21:17 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/technology/20210902/china-alibaba-rape-metoo/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[逃離塔利班後，阿富汗難民面臨未知的命運]]></title>
-            <link><![CDATA[https://cn.nytimes.com/world/20210901/afghan-refugees-future/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[在艱難搭上離開喀布爾的飛機後，難民被送往卡達的中轉中心等待安置。絕大多數人將陷入漫長的等待，許多人甚至沒有資格入境美國。他們對未來充滿了不確定和擔憂。<p><img src='https://static01.nyt.com/images/2021/08/27/world/27afghan-evacuees/merlin_193615869_d80a6d2b-e0b9-4d8c-9195-99e105508213-articleLarge.jpg' alt='在這張由美國中央司令部發布的照片中，美國士兵在卡達的一個空軍基地準備讓疏散人員上飛機。軍方禁止在該基地進行獨立的新聞攝影。 U.S. Central Command'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>U.S. Central Command</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>在這張由美國中央司令部發布的照片中，美國士兵在卡達的一個空軍基地準備讓疏散人員上飛機。軍方禁止在該基地進行獨立的新聞攝影。</p>                    ]]></description>
-            <category>國際</category>
-            <dc:creator><![CDATA[CHRISTINA GOLDBAUM,NAJIM RAHIM]]></dc:creator>
-            <pubDate>Wed, 01 Sep 2021 05:43:30 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210901/afghan-refugees-future/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>

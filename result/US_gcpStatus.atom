@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Cloud Status Dashboard Updates</title>
-  <updated>2021-09-03T19:27:00+00:00</updated>
+  <updated>2021-09-07T23:16:21+00:00</updated>
   <link href="https://status.cloud.google.com/" rel="alternate" type="text/html"></link>
   <link href="https://status.cloud.google.com/en/feed.atom" rel="self"></link>
   <author>
@@ -9,48 +9,81 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
-    <title>RESOLVED: europe-west2-c: Cloud networking is currently experiencing issues.</title>
-    <link href="https://status.cloud.google.com/incidents/WzDzgmTjQfAKPJha6Rbb" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:WzDzgmTjQfAKPJha6Rbb.3yQBKTZQVujjCU5TvSbr</id>
-    <updated>2021-09-03T19:27:00+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-03 05:40&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-03 06:20&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case using &lt;a href="https://cloud.google.com/support"&gt;https://cloud.google.com/support&lt;/a&gt;&lt;/p&gt;
+    <title>RESOLVED: Regions: (Asia, Western US) &lt;-&gt; (Eastern US, Europe). Packet loss on inter region traffic. Issue stands resolved.</title>
+    <link href="https://status.cloud.google.com/incidents/mRTeQ94fZRLdx2Q7NLLX" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:mRTeQ94fZRLdx2Q7NLLX.GjUd3izuq2wquMKQdxPb</id>
+    <updated>2021-09-07T23:16:21+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-07 15:52&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-07 16:16&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;The issue with Cloud Networking has been resolved for all affected projects as of Tuesday, 2021-09-07 15:45 US/Pacific.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Networking&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: Regions: (Asia, Western US) &lt;-&gt; (Eastern US, Europe). Packet loss on inter region traffic. Issue stands resolved.</title>
+    <link href="https://status.cloud.google.com/incidents/mRTeQ94fZRLdx2Q7NLLX" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:mRTeQ94fZRLdx2Q7NLLX.kZKN3jGPWLcKVGRb3eS6</id>
+    <updated>2021-09-07T23:07:14+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-07 15:52&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-07 16:16&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Regions: (Asia, Western US) &amp;lt;-&amp;gt; (Eastern US, Europe). Packet loss on  inter region traffic. Mitigation completed.&lt;/p&gt;
+&lt;p&gt;Description: We believe the issue with Cloud Networking is mitigated starting 15:45 US/Pacific . Our engineering team continues to work towards full resolution of the issue.&lt;/p&gt;
+&lt;p&gt;We will provide an update by Tuesday, 2021-09-07 16:37 US/Pacific with current details.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customer will see packet loss on traffic between regions in US and Asia&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Networking&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: Regions: (Asia, Western US) &lt;-&gt; (Eastern US, Europe). Packet loss on inter region traffic. Issue stands resolved.</title>
+    <link href="https://status.cloud.google.com/incidents/mRTeQ94fZRLdx2Q7NLLX" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:mRTeQ94fZRLdx2Q7NLLX.8mV2wGnQNTFaZNXwuqyi</id>
+    <updated>2021-09-07T23:05:28+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-07 15:52&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-07 16:16&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Regions: (Asia, Western US) &amp;lt;-&amp;gt; (Eastern US, Europe). Packet loss on  inter region traffic. Mitigation completed.&lt;/p&gt;
+&lt;p&gt;Description: We believe the issue with Cloud Networking is mitigated starting 15:45. Our engineering team continues to work towards full resolution of the issue.&lt;/p&gt;
+&lt;p&gt;We will provide an update by Tuesday, 2021-09-07 16:37 US/Pacific with current details.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customer will see packet loss on traffic between regions in US and Asia&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Networking&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: Regions: (Asia, Western US) &lt;-&gt; (Eastern US, Europe). Packet loss on inter region traffic. Issue stands resolved.</title>
+    <link href="https://status.cloud.google.com/incidents/mRTeQ94fZRLdx2Q7NLLX" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:mRTeQ94fZRLdx2Q7NLLX.LAywga9DqY9F9LBCZY33</id>
+    <updated>2021-09-07T22:57:42+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-07 15:52&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-07 16:16&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Regions: US, Asia: Packet loss reported on GCE traffic between US and Asia&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an issue with Cloud Networking beginning at Tuesday, 2021-09-07 15:04 US/Pacific.&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;We will provide an update by Tuesday, 2021-09-07 16:28 US/Pacific with current details.&lt;/p&gt;
+&lt;p&gt;We apologize to all who are affected by the disruption.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customer will see packet loss on traffic between regions in US and Asia&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Networking&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: us-central1, europe-west1, us-west1, asia-east1: Issue with Local SSDs on Google Compute Engine.</title>
+    <link href="https://status.cloud.google.com/incidents/gwKjX9Lukav15SaFPbBF" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:gwKjX9Lukav15SaFPbBF.eEh1QaM9Z2jZjZs82ZYP</id>
+    <updated>2021-09-07T21:39:46+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-08-31 19:35&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-02 20:55&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case using &lt;a href="https://cloud.google.com/support"&gt;https://cloud.google.com/support&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(All Times US/Pacific)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 03 September 2021 05:40&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 03 September 2021 06:20&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 40 minutes&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 31 August 2021 19:35&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 2 September 2021 20:55&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 2 days, 1 hours, 20 minutes&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Affected Services and Features:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Cloud Networking&lt;/li&gt;
-&lt;li&gt;Compute Engine&lt;/li&gt;
-&lt;li&gt;Persistent Disk&lt;/li&gt;
-&lt;li&gt;Kubernetes Engine&lt;/li&gt;
-&lt;li&gt;App Engine&lt;/li&gt;
-&lt;li&gt;Cloud Run&lt;/li&gt;
-&lt;li&gt;Cloud Bigtable&lt;/li&gt;
-&lt;li&gt;Cloud Storage&lt;/li&gt;
-&lt;li&gt;Cloud Filestore&lt;/li&gt;
-&lt;li&gt;Cloud MemoryStore&lt;/li&gt;
-&lt;li&gt;Cloud Monitoring&lt;/li&gt;
-&lt;li&gt;Cloud VPN&lt;/li&gt;
+&lt;li&gt;Google Compute Engine - Local SSD&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Regions/Zones:&lt;/strong&gt; europe-west2-c&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Regions/Zones:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;us-central1-{a|b|f}&lt;/li&gt;
+&lt;li&gt;europe-west1-b&lt;/li&gt;
+&lt;li&gt;us-west1-a&lt;/li&gt;
+&lt;li&gt;asia-east1-b&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Google Cloud Networking experienced elevated packet loss and latency in europe-west2-c for a duration of 40 minutes. Additional Cloud services that use Cloud Networking experienced similar symptoms. From preliminary analysis, the root cause of the issue was a sudden redirection of traffic from a datacenter that was experiencing an issue.&lt;/p&gt;
+&lt;p&gt;Google Compute Engine (GCE) experienced local solid-state drive (SSD) unavailability for new instances in select zones intermittently for a duration of 2 days, 1 hours, and 20 minutes. From preliminary analysis, the root cause is due to latent issues within the GCE capacity management system.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Customer Impact:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Affected customers may have experienced elevated packet loss and latency as their traffic was temporarily redirected.&lt;/li&gt;
-&lt;li&gt;Google Compute Engine instances experienced failed connectivity and packet loss on ingress, egress, and inter-zonal traffic. Autoscaling was also impacted and may have failed to make decisions.&lt;/li&gt;
-&lt;li&gt;Persistent Disk experienced elevated I/O latency on regional and zonal disks&lt;/li&gt;
-&lt;li&gt;Google Kubernetes Engine clusters experienced 30% of zonal and 5% of regional clusters reporting as unhealthy.&lt;/li&gt;
-&lt;li&gt;Google App Engine and Cloud Run served elevated 500 errors within europe-west2.&lt;/li&gt;
-&lt;li&gt;Cloud Bigtable experienced an elevated error rate and latency on operations within europe-west2.&lt;/li&gt;
-&lt;li&gt;Cloud SQL experienced issues connecting to instances in europe-west2. Affected instances may have lost telemetry data, and HA instances failed over if the primary was in the affected zone.&lt;/li&gt;
-&lt;li&gt;Google Cloud Storage experienced elevated read errors of up to 2.3% in europe-west2.&lt;/li&gt;
-&lt;li&gt;Cloud Filestore instances within europe-west2-c may have been unreachable.&lt;/li&gt;
-&lt;li&gt;Cloud MemoryStore instances within europe-west2 may have been unreachable.&lt;/li&gt;
-&lt;li&gt;Cloud Monitoring experienced delayed or missing metrics from resources in the zone.&lt;/li&gt;
-&lt;li&gt;Cloud VPN experienced a short duration where tunnels went down for a short time before being reestablished.&lt;/li&gt;
+&lt;li&gt;Unable to add Local SSDs to existing/new instances.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Cloud Networking&lt;/p&gt;</summary>
+&lt;p&gt;&lt;strong&gt;Additional details:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The asia-southeast1-b zone was not impacted despite previous communication that suggested it was.&lt;/li&gt;
+&lt;li&gt;Existing instances, or instances that rebooted, were not impacted.&lt;/li&gt;
+&lt;li&gt;Low priority maintenance events on host machines were paused to prevent further impact to customer instances.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
   </entry>
 </feed>

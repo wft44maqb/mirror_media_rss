@@ -4,7 +4,7 @@
   <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com"/>
   <link rel="self" type="application/atom+xml" href="https://www.cloudflarestatus.com/history.atom"/>
   <title>Cloudflare Status - Incident History</title>
-  <updated>2021-09-07T17:58:13Z</updated>
+  <updated>2021-09-08T02:37:35Z</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -17,12 +17,36 @@
     <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Sep &lt;var data-var='date'&gt;11&lt;/var&gt;, &lt;var data-var='time'&gt;17:00&lt;/var&gt; UTC &amp;nbsp;-&amp;nbsp; Sep &lt;var data-var='date'&gt;19&lt;/var&gt;, &lt;var data-var='time'&gt;22:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 2&lt;/var&gt;, &lt;var data-var='time'&gt;19:31&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - Throughout the month of September 2021, we will be performing maintenance on various datacenters. Each window will be between 1am-6am local time of the data center. There is a possibility of a slight increase in latency during these maintenance windows. The most up-to-date schedule can be located here: &lt;a href="https://support.cloudflare.com/hc/en-us/articles/360060050511-Planned-maintenance-for-Cloudflare-data-centers"&gt;Planned maintenance for Cloudflare data centers&lt;/a&gt;.&lt;/p&gt;</content>
   </entry>
   <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7941206</id>
+    <published>2021-09-08T00:33:21Z</published>
+    <updated>2021-09-08T00:33:21Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/n97by22zhqmf"/>
+    <title>Issues with viewing analytics and logs in Cloudflare for Teams Dashboard.</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 8&lt;/var&gt;, &lt;var data-var='time'&gt;00:33&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 8&lt;/var&gt;, &lt;var data-var='time'&gt;00:17&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - Cloudflare is investigating issues viewing Gateway analytics and logging within the Cloudflare for Teams dashboard. Some users are reporting errors when attempting to view logs. This does not impact Gateway HTTP or DNS policy enforcement. Gateway logs are still being captured, but are not visible in the dashboard.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;23:38&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues viewing Gateway analytics and logging within the Cloudflare for Teams dashboard. Some users are reporting errors when attempting to view logs. This does not impact Gateway HTTP or DNS policy enforcement.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7941406</id>
+    <published>2021-09-08T00:23:31Z</published>
+    <updated>2021-09-08T00:23:31Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/fw6dsckcb9cr"/>
+    <title>Performance issue with public resolver 1.1.1.1 in San Jose, CA and Newark, NJ</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 8&lt;/var&gt;, &lt;var data-var='time'&gt;00:23&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 8&lt;/var&gt;, &lt;var data-var='time'&gt;00:20&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - We are rolling out a fix for resolving a performance issue with our Public Resolver 1.1.1.1 server that were observed in San Jose, CA and Newark, NJ.&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7828444</id>
-    <published>2021-09-07T23:00:00Z</published>
-    <updated>2021-08-31T20:55:01Z</updated>
+    <published>2021-09-07T23:28:43Z</published>
+    <updated>2021-09-07T23:28:43Z</updated>
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/5xxwjqd2lwgp"/>
     <title>Dashboard Maintenance</title>
-    <content type="html">&lt;p&gt;&lt;strong&gt;THIS IS A SCHEDULED EVENT Sep &lt;var data-var='date'&gt;7&lt;/var&gt;, &lt;var data-var='time'&gt;23:00&lt;/var&gt; UTC &amp;nbsp;-&amp;nbsp; Sep &lt;var data-var='date'&gt;8&lt;/var&gt;, &lt;var data-var='time'&gt;00:00&lt;/var&gt; UTC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;22:29&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - The Cloudflare Dashboard will be unavailable during this maintenance window in order to improve future resiliency of the system. All dashboard UI actions will be unavailable during the window.  Cloudflare's API and edge will be unaffected during this maintenance.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;23:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Completed&lt;/strong&gt; - The scheduled maintenance has been completed.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;23:01&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;In progress&lt;/strong&gt; - Scheduled maintenance is currently in progress. We will provide updates as necessary.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;22:29&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Scheduled&lt;/strong&gt; - The Cloudflare Dashboard will be unavailable during this maintenance window in order to improve future resiliency of the system. All dashboard UI actions will be unavailable during the window.  Cloudflare's API and edge will be unaffected during this maintenance.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:www.cloudflarestatus.com,2005:Incident/7939414</id>
+    <published>2021-09-07T18:45:52Z</published>
+    <updated>2021-09-07T18:45:52Z</updated>
+    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/k2pkrvvtsm9f"/>
+    <title>Issues with Wrangler tail sending logs</title>
+    <content type="html">&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;18:45&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;18:41&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Sep &lt;var data-var='date'&gt; 7&lt;/var&gt;, &lt;var data-var='time'&gt;18:39&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Workers customers make experience issue using tailing logs through the Cloudflare dashboard and Wrangler.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:www.cloudflarestatus.com,2005:Incident/7933588</id>
@@ -183,29 +207,5 @@
     <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/3ty0dmzvg5p8"/>
     <title>Magic Transit Degraded Performance</title>
     <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;23:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - A retro incident has been declared related to Magic Transit. Impacted customers who have origin behind magic transit may see 530/522  in APAC region through Singapore data center. The impact of event is from 08-24 23:05 UTC to  08-25 01:13 UTC&lt;br /&gt;&lt;br /&gt;The impact has been mitigated.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7830336</id>
-    <published>2021-08-24T17:57:21Z</published>
-    <updated>2021-08-24T17:57:21Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/1j0grfznfsgl"/>
-    <title>Network Performance Issues in TPE</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;17:57&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;14:36&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We are continuing to monitor the situation regarding network performance in Taipei.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;08:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;08:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;06:36&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with network performance in Taipei. &lt;br /&gt;&lt;br /&gt;We are working to analyse and mitigate this problem.  More updates to follow shortly.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7829545</id>
-    <published>2021-08-24T03:47:44Z</published>
-    <updated>2021-08-24T03:47:44Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/r4mljx561br5"/>
-    <title>Cloudflare Dashboard issues</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;03:47&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;24&lt;/var&gt;, &lt;var data-var='time'&gt;03:24&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is investigating issues with Cloudflare Dashboard.&lt;br /&gt;&lt;br /&gt;IP Access Rules page has a long button in Firefox which is preventing Firefox users to add new rules.&lt;br /&gt;Recommendation: Please use another browser like Safari, Chrome.&lt;br /&gt;&lt;br /&gt;These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.&lt;br /&gt;&lt;br /&gt;Customers using the Dashboard are impacted as requests might fail and/or errors may be displayed.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:www.cloudflarestatus.com,2005:Incident/7821723</id>
-    <published>2021-08-23T10:06:52Z</published>
-    <updated>2021-08-23T10:06:52Z</updated>
-    <link rel="alternate" type="text/html" href="https://www.cloudflarestatus.com/incidents/2z895fy54bs2"/>
-    <title>Network Analytics Delays</title>
-    <content type="html">&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;10:06&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - This incident has been resolved.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;09:28&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Monitoring&lt;/strong&gt; - A fix has been implemented and we are monitoring the results.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;08:46&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Identified&lt;/strong&gt; - The issue has been identified and a fix is being implemented.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;06:20&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We are continuing to investigate this issue.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Aug &lt;var data-var='date'&gt;23&lt;/var&gt;, &lt;var data-var='time'&gt;06:18&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - Cloudflare is aware of, and investigating a delay with Network analytics. Further detail will be provided as more information becomes available.&lt;/p&gt;</content>
   </entry>
 </feed>

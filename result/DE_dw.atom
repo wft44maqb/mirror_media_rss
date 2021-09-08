@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-07T18:04:49Z</updated>
+ <updated>2021-09-08T02:53:17Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,46 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59117484</id>
+  <title><![CDATA[塔利班宣布看守政府名单  拜登暗示北京「有安排」]]></title>
+  <updated>2021-09-08T01:42:00Z</updated>
+  <published>2021-09-08T01:42:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班宣布看守政府名单-拜登暗示北京「有安排」/a-59117484?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[塔利班宣布成立伊斯兰主义的「看守政府」，名单出炉让不少人大失所望。人权团体也呼吁，目前积极介入的中俄两国应该关注妇女和儿童的权利。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59105909</id>
+  <title><![CDATA[拒绝提交资料 支联会干部被捕]]></title>
+  <updated>2021-09-08T01:16:00Z</updated>
+  <published>2021-09-08T01:16:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/拒绝提交资料-支联会干部被捕/a-59105909?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[在支联会表明不会向港警缴交资料後，支联会副主席邹幸彤及多名常委被捕。与此同时，港警的逮捕数据显示，至少有7位民主派人士被逮捕後，还押至今超过200日。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59117457</id>
+  <title><![CDATA[帐户遭瑞信关闭 艾未未批「与中国关系奇怪」]]></title>
+  <updated>2021-09-08T01:06:00Z</updated>
+  <published>2021-09-08T01:06:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/帐户遭瑞信关闭-艾未未批「与中国关系奇怪」/a-59117457?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国艺术家艾未未6日在艺术网发布的文章中透露，瑞信银行以他在中国的「犯罪纪录」为由，要关闭他的基金会帐户，并提到年底要开幕的香港M+博物馆要排除他的作品，称该馆此举与作品捐赠者的初衷「背道而驰」。]]></summary>
+  <category term="时政风云"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59105419</id>
+  <title><![CDATA[北约警告中国核威胁 北京:双标]]></title>
+  <updated>2021-09-08T00:41:00Z</updated>
+  <published>2021-09-08T00:41:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/北约警告中国核威胁-北京-双标/a-59105419?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[北约担忧，中国无限制发展核武会带来毁灭性的可能。但北京却说，国际社会真正应该感到关切的是北约的「核共享政策」。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59113410</id>
   <title><![CDATA[德语媒体：默克尔失去了一位不会惹恼北京的战略家]]></title>
@@ -95,16 +135,6 @@
   <category term="经济纵横"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59105909</id>
-  <title><![CDATA[支联会递交信件给警务处长 香港多人还押超过200日]]></title>
-  <updated>2021-09-07T05:04:00Z</updated>
-  <published>2021-09-07T05:04:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/支联会递交信件给警务处长-香港多人还押超过200日/a-59105909?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[在支联会表明不会向港警缴交资料後，香港中联办与港府同日发声明警告支联会。与此同时，港警的逮捕数据显示，至少有7人被逮捕後，还押至今超过200日。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59105739</id>
   <title><![CDATA[塔利班：拿下阿富汗最後一省「国内战争结束」]]></title>
   <updated>2021-09-07T04:13:00Z</updated>
@@ -135,14 +165,14 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59105419</id>
-  <title><![CDATA[北约呼吁中国加入军备控制谈判]]></title>
-  <updated>2021-09-07T00:56:00Z</updated>
-  <published>2021-09-07T00:56:00Z</published>
+  <id>tag:dw.com,2021:59101807</id>
+  <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
+  <updated>2021-09-06T15:01:00Z</updated>
+  <published>2021-09-06T15:01:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/北约呼吁中国加入军备控制谈判/a-59105419?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[在北约的年度军备控制会议上，除了美俄间的军备竞赛外，中国急起直追的核能力受到关注。北约担忧，北京无限制发展核武会带来毁灭性的可能。]]></summary>
-  <category term="时政风云"/>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
+  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59101575</id>
@@ -153,16 +183,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：名不副实的伙伴关系/a-59101575?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[刚刚掌控阿富汗的塔利班，近来对北京赞不绝口，也希望尽快获得来自中国的援助和投资。然而，对北京来说，同塔利班结盟也许并非明智的选项。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59101807</id>
-  <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
-  <updated>2021-09-06T15:01:00Z</updated>
-  <published>2021-09-06T15:01:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
-  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59101217</id>
@@ -205,26 +225,6 @@
   <category term="时政风云"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59098530</id>
-  <title><![CDATA[默克尔：应与塔利班谈判 塔利班：欢迎默克尔访问]]></title>
-  <updated>2021-09-06T11:05:00Z</updated>
-  <published>2021-09-06T11:05:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/默克尔：应与塔利班谈判-塔利班：欢迎默克尔访问/a-59098530?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[德国总理默克尔表示，为了能帮助德国公民和阿富汗雇员前往安全区域，应该与阿富汗塔利班展开谈判。阿富汗塔利班发言人表示欢迎默克尔访问阿富汗，同时他呼吁“所有留在国外，特别是待在德国的阿富汗难民回到自己的国家”。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59098498</id>
-  <title><![CDATA[给民营企业吃定心丸？刘鹤强调支持政策不变]]></title>
-  <updated>2021-09-06T11:00:00Z</updated>
-  <published>2021-09-06T11:00:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/给民营企业吃定心丸？刘鹤强调支持政策不变/a-59098498?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[在多家科技企业受到整治的背景下，中国国务院副总理刘鹤周一在中国国际数字经济博览会上致辞的时候强调，政府支持民营经济发展的方针政策没有变，现在没有改变，将来也不会改变。网友对这一“权威宣示”的反应褒贬不一。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59089481</id>
   <title><![CDATA[墙外文摘：留给饭圈的余地不多了]]></title>
   <updated>2021-09-05T07:59:00Z</updated>
@@ -233,6 +233,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/墙外文摘：留给饭圈的余地不多了/a-59089481?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[有评论认为，中共留给饭圈的余地并不多了，或许在“伟大规划”中，她们被要求必须离开个人的天地，走向需要她们的任何地方。]]></summary>
   <category term="评论分析"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59077830</id>
+  <title><![CDATA[德国“隐形冠军”迎来中国挑战]]></title>
+  <updated>2021-09-05T07:04:00Z</updated>
+  <published>2021-09-05T07:04:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国-隐形冠军-迎来中国挑战/a-59077830?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[德国中小型企业中有一大批“隐形冠军”，它们当中60%在中国设有生产基地，虽然早就熟悉了国际化，但还是感受到来自中国赶超的压力。]]></summary>
+  <category term="经济纵横"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59065287</id>
@@ -253,16 +263,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/在南斯拉夫对抗纳粹的德意志游击队/a-59079805?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[二战期间，南斯拉夫游击队内有一支特殊的“台尔曼营”部队，积极抗击纳粹德国侵略者。这也是整场战争期间，盟军阵营内唯一一支全部由德意志人组成的部队。]]></summary>
   <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59077830</id>
-  <title><![CDATA[德国“隐形冠军”迎来中国挑战]]></title>
-  <updated>2021-09-05T07:04:00Z</updated>
-  <published>2021-09-05T07:04:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国-隐形冠军-迎来中国挑战/a-59077830?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[德国中小型企业中有一大批“隐形冠军”，它们当中60%在中国设有生产基地，虽然早就熟悉了国际化，但还是感受到来自中国赶超的压力。]]></summary>
-  <category term="经济纵横"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59049344</id>
@@ -580,15 +580,6 @@
   <category term="在线报导"/>
  </entry>
  <entry>
-  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
-  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
-  <updated>2012-02-04T20:15:00Z</updated>
-  <published>2012-02-04T20:15:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <category term="在线报导"/>
- </entry>
- <entry>
   <id>https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom</id>
   <title><![CDATA[欧元区主席不再排除希腊破产的可能性]]></title>
   <updated>2012-02-04T20:15:00Z</updated>
@@ -596,6 +587,15 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/欧元区主席不再排除希腊破产的可能性/a-15719125?maca=chi-rss-chi-all-1127-xml-atom"/>
   <category term="新闻广角"/>
+ </entry>
+ <entry>
+  <id>https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom</id>
+  <title><![CDATA[中国称叙利亚问题决议有待进一步商榷]]></title>
+  <updated>2012-02-04T20:15:00Z</updated>
+  <published>2012-02-04T20:15:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国称叙利亚问题决议有待进一步商榷/a-15719124?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <category term="在线报导"/>
  </entry>
  <entry>
   <id>https://www.dw.com/zh/维基解密嫌疑线人曼宁出庭受审/a-15719092?maca=chi-rss-chi-all-1127-xml-atom</id>
