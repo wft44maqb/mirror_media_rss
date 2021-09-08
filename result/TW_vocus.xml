@@ -9,9 +9,17 @@
             <link>https://vocus.cc</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Sep 2021 12:12:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Sep 2021 12:12:49 GMT</lastBuildDate>
         <atom:link href="https://vocus.cc/rss/feed" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[2021  vocus]]></copyright>
+        <item>
+            <title><![CDATA[QA整理包／何時開打、哪些副作用？學生接種BNT疫苗注意事項]]></title>
+            <description><![CDATA[台灣首批93萬劑輝瑞BNT疫苗本月2日早由盧森堡國際貨運航空班機載運，7點運抵桃園國際機場，檢驗封緘後9月23日起開放施打。學生施打前要注意什麼？《聯合新聞網》為大家整理學生施打BNT疫苗注意事項。Q：哪些學生可以施打BNT疫苗？A：首波BNT疫苗將開放12至17歲學生對象造冊接種，其餘再優先提]]></description>
+            <link>https://vocus.cc/article/6138a7b2fd8978000191d1d0</link>
+            <guid isPermaLink="false">6138a7b2fd8978000191d1d0</guid>
+            <dc:creator><![CDATA[小可愛]]></dc:creator>
+            <pubDate>Wed, 08 Sep 2021 12:12:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[讀後感：比利時藝術家用人臉辨識監測議員滑手機次數！AI舉起了人民法槌還是凸顯危機？]]></title>
             <description><![CDATA[每周一篇文章的讀書會心得報告摘要與筆記，本次分享的文章為：比利時藝術家用人臉辨識監測議員滑手機次數！AI舉起了人民法槌還是凸顯危機？1.利用AI來分析政客們在會議期間，是否有滑手機；2.人臉辨識技術被濫用的危險性]]></description>
@@ -3486,13 +3494,6 @@
             <guid isPermaLink="false">613755b9fd897800018ce22d</guid>
             <dc:creator><![CDATA[郭子源]]></dc:creator>
             <pubDate>Tue, 07 Sep 2021 12:19:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[『蕾蕾閱讀#9』我的前半生-亦舒]]></title>
-            <link>https://vocus.cc/article/613755eafd897800018ce342</link>
-            <guid isPermaLink="false">613755eafd897800018ce342</guid>
-            <dc:creator><![CDATA[Olaytalk蕾蕾聊聊]]></dc:creator>
-            <pubDate>Tue, 07 Sep 2021 12:12:21 GMT</pubDate>
         </item>
     </channel>
 </rss>
