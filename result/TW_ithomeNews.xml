@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/635" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/635</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/635" rel="self" type="application/rss+xml" />
       <item>
+    <title>國安局今年上半遭到逾3萬次攻擊，直逼去年總和</title>
+    <link>https://www.ithome.com.tw/news/146601</link>
+    <description> 臺海日益緊張，近期中國軍機幾乎每日都侵犯臺灣防空區域，根據臺灣西南空域臉書粉絲專頁引用國防部的資料統計，截至9月8日，今年已有436架次的中國軍機入侵，已經超越</description>
+     <pubDate>2021-09-08  07:09:02</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146601</guid>
+  </item>
+  <item>
     <title>薩爾瓦多成為全球第一個接納比特幣為法定貨幣的國家</title>
     <link>https://www.ithome.com.tw/news/146598</link>
     <description> 位於中美洲的薩爾瓦多（Republic of El Salvador），在本周二（9/7）正式接納比特幣為法定貨幣，開放比特幣於該國境內合法流通，並在當天釋出官方的Chivo Wallet比特幣錢包，成為全球第一個將比特幣視為法定貨幣的國家。
@@ -252,14 +260,6 @@ Nvidia近年來頻頻出招，不只大力發展先進GPU產品，甚至也開�
      <pubDate>2021-09-06  04:09:56</pubDate>
  <dc:creator>李宗翰</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/review/146535</guid>
-  </item>
-  <item>
-    <title>蘋果延遲裝置兒童性剝削內容審查功能，EFF呼籲應完全放棄監控計畫</title>
-    <link>https://www.ithome.com.tw/news/146557</link>
-    <description> 蘋果公司宣布要暫緩推出備受爭議的兒童安全功能，但是電子前線基金會（Electronic Frontier Foundation，EFF）對於這項決定並不滿意，他們認為蘋果應該完全放棄在用戶手機上掃描兒童內容，才是真正保證用戶隱私，並且遵守原本的全程加密政策。</description>
-     <pubDate>2021-09-06  04:09:10</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146557</guid>
   </item>
   </channel>
 </rss>
