@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/1710" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/1710</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/1710" rel="self" type="application/rss+xml" />
       <item>
+    <title>報告：自動化聘僱系統誤擋了大量可能人才</title>
+    <link>https://www.ithome.com.tw/news/146596</link>
+    <description> 哈佛商業評論一份報告指出，美國企業使用的自動聘僱軟體因為不適當的篩選條件，而將許多潛在人才給刷了下來。</description>
+     <pubDate>2021-09-08  03:09:15</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146596</guid>
+  </item>
+  <item>
     <title>蘋果宣布要在9月14日舉行虛擬發表會</title>
     <link>https://www.ithome.com.tw/news/146592</link>
     <description> 蘋果行銷副總裁Greg Joswiak本周透過Twitter對外證實，蘋果即將於下周二（9/14）舉行California Streaming虛擬發表會，而媒體亦已收到邀請函，外界期望蘋果當天將會發表新一代的iPhone、Apple Watch及AirPods產品。
@@ -250,15 +258,6 @@ Nvidia近年來頻頻出招，不只大力發展先進GPU產品，甚至也開�
      <pubDate>2021-09-06  03:09:19</pubDate>
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146558</guid>
-  </item>
-  <item>
-    <title>美國督促各大組織修補正被大量開採的Atlassian Confluence漏洞</title>
-    <link>https://www.ithome.com.tw/news/146555</link>
-    <description> 美國網戰司令部（US Cyber Command）9月3日警告，駭客正在大規模開採Atlassian Confluence的CVE-2021-26084安全漏洞，呼籲使用組織應儘速修補
-Atlassian為一澳洲軟體業者，所打造的Confluence是個基於網頁的團隊協作平臺，Confluence被定位為企業軟體，提供就地部署版本，以及奠基於AWS的軟體即服務版本。</description>
-     <pubDate>2021-09-06  02:09:14</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146555</guid>
   </item>
   </channel>
 </rss>

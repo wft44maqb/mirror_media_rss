@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-08T07:35:35Z</updated>
+ <updated>2021-09-08T07:40:37Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59119044</id>
+  <title><![CDATA[台湾疫情再起：如何看待确诊数字？疫苗措施需调整吗？]]></title>
+  <updated>2021-09-08T07:23:00Z</updated>
+  <published>2021-09-08T07:23:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/台湾疫情再起：如何看待确诊数字？疫苗措施需调整吗？/a-59119044?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[台湾因机师感染Delta变种病毒及幼儿园群聚感染，而引起人们担忧新一波疫情爆发，在完整疫苗覆盖率不及5%的情况下，防疫政策及观念是否应该调整也引发讨论。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59117835</id>
   <title><![CDATA[「塔利班想剷除我们」 阿富汗同志悲歌]]></title>
@@ -185,16 +195,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59101807</id>
-  <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
-  <updated>2021-09-06T15:01:00Z</updated>
-  <published>2021-09-06T15:01:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59101575</id>
   <title><![CDATA[德语媒体：名不副实的伙伴关系]]></title>
   <updated>2021-09-06T15:01:00Z</updated>
@@ -205,6 +205,16 @@
   <category term="评论分析"/>
  </entry>
  <entry>
+  <id>tag:dw.com,2021:59101807</id>
+  <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
+  <updated>2021-09-06T15:01:00Z</updated>
+  <published>2021-09-06T15:01:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
   <id>tag:dw.com,2021:59101217</id>
   <title><![CDATA[NGO起诉德国5家大企业配合参与新疆强迫劳动]]></title>
   <updated>2021-09-06T14:19:00Z</updated>
@@ -212,16 +222,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/ngo起诉德国5家大企业配合参与新疆强迫劳动/a-59101217?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[非政府组织欧洲宪法和人权中心对成衣企业Hugo Boss和连锁超市Lidl等5家德国企业提出诉讼，指控这些企业的负责人包庇新疆可能存在的强迫劳动并从中获益。这家非政府组织要求联邦检察院对可能存在的强迫劳动以及这5家企业可能需要承担的法律责任进行调查。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59101227</id>
-  <title><![CDATA[不满女性工作 阿富汗男子在柏林捅伤女园丁  ]]></title>
-  <updated>2021-09-06T14:11:00Z</updated>
-  <published>2021-09-06T14:11:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/不满女性工作-阿富汗男子在柏林捅伤女园丁/a-59101227?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[柏林一名58岁园丁脖子被一陌生男子捅数刀。据悉，袭击者是因无法容忍女性工作。 ]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
