@@ -5,8 +5,8 @@
 		<description>資訊保安的重要新聞</description>
 		<link>https://www.hkcert.org/tc/getrss/security-bulletin</link>
 		<atom:link href="https://www.hkcert.org/tc/getrss/security-bulletin" type="application/rss+xml" rel="self"/>
-		<pubDate>Wed, 08 Sep 2021 16:30:05 +0800</pubDate>
-		<lastBuildDate>Wed, 08 Sep 2021 16:30:05 +0800</lastBuildDate>
+		<pubDate>Wed, 08 Sep 2021 16:33:07 +0800</pubDate>
+		<lastBuildDate>Wed, 08 Sep 2021 16:33:07 +0800</lastBuildDate>
 		<ttl>1800</ttl>
 		<image>
 			<url>https://www.hkcert.org/assets/img/rss_image_tc.gif</url>
@@ -24,15 +24,32 @@
 			
 			 
 			
-			注意﹕
-			CVE-2021-40444 漏洞正...
+			這個漏洞影響一個用於Office...
 			  <p>影響</p>
 			  <ul>
 			          <li>遠端執行程式碼</li>
 			      </ul>
 			  <hr>
 			  <p>受影響之系統或技術</p>
-			  <p>詳情請參閱以下連結﹕</p>
+			  <ul>
+				<li>Microsoft Windows 7</li>
+				<li>Microsoft Windows 8.1</li>
+				<li>Microsoft Windows 10</li>
+				<li>Microsoft Windows RT 8.1</li>
+				<li>Microsoft Windows Server version 20H2</li>
+				<li>Microsoft Windows Server version 2004</li>
+				<li>Microsoft Windows Server 2008</li>
+				<li>Microsoft Windows Server 2008 R2</li>
+				<li>Microsoft Windows Server 2012</li>
+				<li>Microsoft Windows Server 2012 R2</li>
+				<li>Microsoft Windows Server 2016</li>
+				<li>Microsoft Windows Server 2019</li>
+				<li>Microsoft Windows Server 2022</li>
+			</ul>
+			
+			<p>&nbsp;</p>
+			
+			<p>詳情請參閱以下連結﹕</p>
 			
 			<p>&nbsp;</p>
 			
@@ -50,11 +67,56 @@
 			
 			<p>&nbsp;</p>
 			
-			<p><strong>對於以上提及的受影響系統，請執行以下臨時處理方法：</strong></p>
+			<p>對於以上提及的受影響系統，請執行以下臨時處理方法停用ActiveX 控制：</p>
 			
-			<ul>
-				<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444" target="_blank">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444</a></li>
-			</ul>
+			<p>&nbsp;</p>
+			
+			<ol>
+				<li>在文字檔中貼上以下內容，並儲存成.reg副檔名：
+				<table class="table" style="width: 100%;">
+					<thead>
+						<tr>
+							<th scope="col">
+							<pre>
+			<span style="font-size:75%;"><code>Windows Registry Editor Version 5.00</code>
+			
+			[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0]
+			&quot;1001&quot;=dword:00000003
+			&quot;1004&quot;=dword:00000003
+			
+			[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1]
+			&quot;1001&quot;=dword:00000003
+			&quot;1004&quot;=dword:00000003
+			
+			[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
+			&quot;1001&quot;=dword:00000003
+			&quot;1004&quot;=dword:00000003
+			
+			[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3]
+			&quot;1001&quot;=dword:00000003
+			&quot;1004&quot;=dword:00000003</span></pre>
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+				</li>
+				<li>連按兩下上述的.reg檔案以套用至你的登錄檔。</li>
+				<li>重啟系統確定新的設定已被套用。</li>
+			</ol>
+			
+			<p>&nbsp;</p>
+			
+			<p><u><strong>臨時處理方法的影響</strong></u></p>
+			
+			<p>這個設定將所有網絡區域中64-bit及32-bit的執行程序URLACTION_DOWNLOAD_SIGNED_ACTIVEX (0x1001) 及&nbsp;URLACTION_DOWNLOAD_UNSIGNED_ACTIVEX (0x1004) 設為DISABLE (3)。新的ActiveX控制不會被安裝。而舊有的ActiveX控制會繼續執行。</p>
+			
+			<p>&nbsp;</p>
+			
+			<p><u><strong>如何將臨時處理方法還原</strong></u></p>
+			
+			<p>刪除在臨時處理方法中加入的登錄檔。</p>
 			
 			  <hr>
 			]]></description>
