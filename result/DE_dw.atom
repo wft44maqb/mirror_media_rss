@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-08T12:37:47Z</updated>
+ <updated>2021-09-08T12:41:00Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59122870</id>
+  <title><![CDATA[德彪西：《月光》]]></title>
+  <updated>2021-09-08T12:18:00Z</updated>
+  <published>2021-09-08T12:18:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德彪西：《月光》/a-59122870?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[法国作曲家德彪西是19世纪末20世纪初最有影响力的作曲家之一，《月光》创作于1890年。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59121732</id>
   <title><![CDATA[索罗斯看空中国 称贝莱德正在酿成“投资悲剧”]]></title>
@@ -195,16 +205,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59101807</id>
-  <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
-  <updated>2021-09-06T15:01:00Z</updated>
-  <published>2021-09-06T15:01:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59101575</id>
   <title><![CDATA[德语媒体：名不副实的伙伴关系]]></title>
   <updated>2021-09-06T15:01:00Z</updated>
@@ -215,6 +215,16 @@
   <category term="评论分析"/>
  </entry>
  <entry>
+  <id>tag:dw.com,2021:59101807</id>
+  <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
+  <updated>2021-09-06T15:01:00Z</updated>
+  <published>2021-09-06T15:01:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
   <id>tag:dw.com,2021:59089481</id>
   <title><![CDATA[墙外文摘：留给饭圈的余地不多了]]></title>
   <updated>2021-09-05T07:59:00Z</updated>
@@ -223,16 +233,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/墙外文摘：留给饭圈的余地不多了/a-59089481?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[有评论认为，中共留给饭圈的余地并不多了，或许在“伟大规划”中，她们被要求必须离开个人的天地，走向需要她们的任何地方。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59079805</id>
-  <title><![CDATA[在南斯拉夫对抗纳粹的德意志游击队]]></title>
-  <updated>2021-09-05T07:04:00Z</updated>
-  <published>2021-09-05T07:04:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/在南斯拉夫对抗纳粹的德意志游击队/a-59079805?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[二战期间，南斯拉夫游击队内有一支特殊的“台尔曼营”部队，积极抗击纳粹德国侵略者。这也是整场战争期间，盟军阵营内唯一一支全部由德意志人组成的部队。]]></summary>
-  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59077830</id>
@@ -253,6 +253,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/单性生殖：无需交配也能繁殖后代？/a-59065287?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[新近，意大利撒丁岛水族馆一雌鲨鱼在没有与雄鲨鱼交配的情况下分娩的消息引起轰动。鲨鱼“单性生殖”现象是否真的罕见？]]></summary>
   <category term="科技环境"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59079805</id>
+  <title><![CDATA[在南斯拉夫对抗纳粹的德意志游击队]]></title>
+  <updated>2021-09-05T07:04:00Z</updated>
+  <published>2021-09-05T07:04:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/在南斯拉夫对抗纳粹的德意志游击队/a-59079805?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[二战期间，南斯拉夫游击队内有一支特殊的“台尔曼营”部队，积极抗击纳粹德国侵略者。这也是整场战争期间，盟军阵营内唯一一支全部由德意志人组成的部队。]]></summary>
+  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59049344</id>
@@ -502,16 +512,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国：娱乐圈震荡不断-饭圈-遭重拳/a-59013296?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[就在外界猜测中国明星赵薇遭全面封杀原因的同时，中国网信办发布通知要求进一步加强“饭圈”乱象治理。]]></summary>
-  <category term="文化经纬"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59012745</id>
-  <title><![CDATA[为文化对话颁发歌德奖章]]></title>
-  <updated>2021-08-28T13:52:00Z</updated>
-  <published>2021-08-28T13:52:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/为文化对话颁发歌德奖章/a-59012745?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[8月28日是德国文学巨匠歌德的生日，歌德奖章的颁奖礼也定在这一天。今年的获奖者是喀麦隆社会经济学家贝尔、日本作曲家细川俊夫和中国舞蹈艺术家文慧。]]></summary>
   <category term="文化经纬"/>
  </entry>
  <entry>
