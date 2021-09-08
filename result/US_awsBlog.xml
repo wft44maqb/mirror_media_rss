@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Wed, 08 Sep 2021 03:47:29 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Sep 2021 04:04:19 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,6 +13,56 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>基于AWS machine learning bot 的 named-entity recognition (NER) 快速解决方案</title>
+		<link>https://aws.amazon.com/cn/blogs/china/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot/</link>
+				<pubDate>Wed, 08 Sep 2021 04:04:19 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Amazon SageMaker]]></category>
+
+		<guid isPermaLink="false">5140953572669cbfb16f7aa1438626e1bf0a9022</guid>
+				<description>本文重点介绍了如何运用ML的 命名实体识别（name entity recognition）来快速构建自然语言处理的API功能。具体内容如下：</description>
+								<content:encoded>&lt;p&gt;Amazon machine learning bot为用户提供了一种快速的开箱即用的解决方案，其底层基于Amazon SageMaker 将机器学习模型的定制及部署实现了高效的自动化。并且， ML bot 提供了可视化、易操作的web user interface界面。用户可以上传具体应用场景的图片或文字数据，快速完成从数据标注，模型训练到模型效果评估的全部流程。&lt;/p&gt; 
+&lt;p&gt;本文重点介绍了如何运用ML的 命名实体识别（name entity recognition）来快速构建自然语言处理的API功能。具体内容如下：&lt;/p&gt; 
+&lt;h2&gt;1. Machine learning bot 框架介绍&lt;/h2&gt; 
+&lt;p&gt;ML bot是一个一键式的打包封装的机器学习解决方案，它提供了多种不同类型的原始机器学习模型，并且可以根据需求通过互相交互来评价模型。在一键式应用的基础上，ML bot也确保了数据的安全性，基于Amazon云技术的加密和授权，用户可以把数据储存在Amazon的云端并直接导入到ML bot的模型当中。ML bot不仅拥有用户友好的人性化交互界面，也为用户提供了实时更新的最新机器学习模型。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;本文中我们采用了ML bot下的命名实体识别模型（NER）。命名实体识别是指识别文本中具有特定意义的实体，主要包括人名、地名、机构名、专有名词等。命名实体识别是信息提取、问答系统、句法分析、机器翻译等应用领域的重要基础工具，作为结构化信息提取的重要步骤，该模型可以在后续阶段通过对不同文本内容的分析然后被应用于快速消费品，金融和医疗等领域中。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;2. 数据集说明&lt;/h2&gt; 
+&lt;p&gt;为了在ML bot上展示我们的模型，我们采用了从社交媒体上采集来的包含命名实体的公开数据集作为我们的训练集。该数据集中的文本采用UTF-8进行编码，每行为一个段落标注，共包括2000段落。所有的实体以如下的格式进行标注： {{实体类型：实体文本}}&lt;/p&gt; 
+&lt;p&gt;标注的实体类别包括以下六种：time: 时间 location: 地点 person_name: 人名 org_name: 组织名 company_name: 公司名 product_name: 产品名。&lt;/p&gt; 
+&lt;p&gt;例：此次{{location:中国}}个展，{{person_name:苏珊菲利普斯}}将与她80多岁高龄的父亲一起合作，哼唱一首古老的{{location:威尔士}}民歌{{product_name:《白蜡林》}}。届时在{{location:画廊大厅}}中将安放6个音箱进行播放，艺术家还特意回到家乡{{location:格拉斯哥}}，同父亲一起在{{org_name:中国音乐学院}}里为作品录制了具有{{location:中国}}元素的音乐片段。&lt;/p&gt; 
+&lt;h2&gt;3. Machine learning bot的named-entity recognition (NER)使用步骤&lt;/h2&gt; 
+&lt;p&gt;由于我们大部分的数据都存储在Amazon海外区的Simple Storage Service（S3）中，本文将着重介绍通过海外区Amazon来部署ML bot，详细的步骤可以参考&lt;a href="http://ml-bot.s3-website.cn-north-1.amazonaws.com.cn/deploy/"&gt;ML bot的documentations&lt;/a&gt;（http://ml-bot.s3-website.cn-north-1.amazonaws.com.cn/deploy/）。首先，我们需要在&lt;a href="https://console.aws.amazon.com/cloudformation/home#/stacks/create/template?stackName=ml-bot&amp;amp;templateURL=https://aws-gcr-solutions.s3.amazonaws.com/ml-bot/v1.1.2/aws-ml-bot.template"&gt;Amazon CloudFormation&lt;/a&gt;上创建一个新的堆栈，并导入预先设置好的ML bot的模板。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;随后在&lt;a href="https://console.aws.amazon.com/cloud9/home"&gt;Cloud9控制台&lt;/a&gt;里面，为刚刚创建好的堆栈新建一个环境，在新建过程始终保持使用默认配置并在完成后为该环境赋予一个具有administrator access的identity and access management（IAM） role，有关Amazon Web Service（AWS）的详细信息可以参考相关的&lt;u&gt;Amazon documentations&lt;/u&gt;（https://aws.amazon.com/iam/）。&lt;/p&gt; 
+&lt;p&gt;最后，在Amazon的&lt;a href="https://console.aws.amazon.com/cognito/users/"&gt;Cognito&lt;/a&gt;用户池中找到与之前创建的堆栈相同UserPoolId的用户池，在该用户池的配置页面中选择“用户和组”并点击“创建用户”，输入用户名和密码等必要信息之后进行邮件确认。从Amazon Cloudformation下找到创建好的堆栈并在Outputs标签下找到CloudFrontDomain，点击进入该页面并使用刚刚设置好的用户名和密码登录并开始使用ML bot。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 在ML bot的主页面下选择“Get Started”并在下一个页面中选中“Named Entity Recognition”模型，上传训练用的数据集所在的S3地址。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;点击“Start Model Training”并等待模型训练完成，在训练过程中可以通过点击“View logs in CloudWatch”来查看模型的训练情况及accuracy的评分（如下图），ML bot的NER模型在使用我们提供的training data下，accuracy基本稳定在0.9以上并在训练过程中逐渐向1.0接近，说明该模型相对比较稳定。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;训练完成的模型可以使用任意的中文文本字段来进行测试，具体结果如下图。经过训练的ML bot的NER模型成功学习了并预测和提取出了时间和组织名相关的命名实体。该条测试用的文本来自于当天的热门新闻。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;4. API部署及测试&lt;/h2&gt; 
+&lt;p&gt;在ML bot的NER模型结果页面的右下角的“Deploy to SageMaker Endpoint”选项可以一键把已经训练好的NER模型部署到Amazon SageMaker Endpoint上作为可调用的API使用，具体的调用方法和结果如下图所示。对比直接在ML bot网站使用NER模型，将模型打包成API使得模型具有更多的灵活性，可以将封装好的模型作为命名实体预测的环节来嵌入到不同的模型流水线中。这一套逻辑和流程不仅操作简单，代码实现也较容易，更可以被应用于多样化的业务场景中，具有一定的普适性。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;5. 结论&lt;/h2&gt; 
+&lt;p&gt;本文介绍了如何运用Amazon ML bot来快速建立NER模型。用户可以把数据安全的储存在Amazon S3上并导入到该模型中来实现机器学习模型的训练。训练完成的模型在预测准确度上表现良好。模型的调用不仅可以在简易操作的Amazon ML bot页面上直接实现，也可以部署到Amazon Sagemaker Endpoint上作为一个独立的API来调用。我们认为该套方案在具备易操作和易实现的前提下，更具有非常广泛的适用性，能够很好的解决一些企业需要机器学习解决方案同时又缺乏相关领域技术经验与积累的商业痛点。&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/andyli.jpg" width="125"&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;Andy Li&lt;/h3&gt; 
+  &lt;p&gt;现任PwC U.S. Acceleration Center Shanghai office的director，是一位专注于数字化、新兴技术（例如：区块链，增强现实/虚拟现实，人工智能）和基于机器学习以及深度学习的高级分析的创新型领袖。行业经验包括金融服务，医疗和高科技领域。同时也是云技术的积极倡导者，热衷于为客户提供领先的服务交付。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt; 
+&lt;h2&gt;&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/seanli.jpg" width="125"&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;Sean Li&lt;/h3&gt; 
+  &lt;p&gt;现任PwC U.S. Acceleration Center Shanghai office的senior data scientist，在解决复杂大数据问题方面的经验丰富同时热衷于研究学习最前端的人工智能技术。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
 		<title>专为构建者打造：AWS 和开放式 3D 引擎的故事 — 开发人员预览</title>
 		<link>https://aws.amazon.com/cn/blogs/china/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview/</link>
 				<pubDate>Wed, 08 Sep 2021 03:47:29 +0000</pubDate>
@@ -1304,538 +1354,6 @@ main()
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;薛召兵&lt;/h3&gt; 
   &lt;p&gt;AWS解决方案架构师，负责帮助客户进行上云架构的设计和咨询。同时致力于AWS容器服务、媒体服务和机器学习服务在国内和全球商业客户的应用和推广，推进企业服务迁移上云进程。有10年以上的软件开发、售前技术支持、系统架构设计等经验。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>基于 Nitro Enclave 构建安全的可信执行环境</title>
-		<link>https://aws.amazon.com/cn/blogs/china/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave/</link>
-				<pubDate>Thu, 02 Sep 2021 03:44:40 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Security, Identity, & Compliance]]></category>
-		<category><![CDATA[Amazon EC2]]></category>
-		<category><![CDATA[AWS Certificate Manager]]></category>
-		<category><![CDATA[AWS KMS]]></category>
-
-		<guid isPermaLink="false">fd8724fce745fd981e91ec04870e32556afb194e</guid>
-				<description>Nitro Enclave 使用户可以在亚马逊云科技上，简便，安全地运行隔离的可信计算环境，用于处理私钥，PII等敏感数据，支持 Intel，AMD 芯片的计算实例，没有任何额外费用，具备更好的灵活性和成本效益，且与云原生的安全服务 KMS，ACM 直接集成，为用户提供更好的使用体验和安全性保障。</description>
-								<content:encoded>&lt;h2&gt;前言&lt;/h2&gt; 
-&lt;p&gt;随着移动通信和互联网技术的发展与应用，数据泄漏可能会造成直接的收入损失，并对业务、用户信任和企业声誉产生重大影响，如何在业务更加深入地数字化的同时，在计算环境中确保数据的机密性和完整性，将是企业面临的重大挑战，尤其是在公有云的环境中。&lt;/p&gt; 
-&lt;p&gt;可信执行环境（TEE: Trusted Execution Environment）的提出，正是应对这样的需求。 可信执行环境在芯片层面单独划分出来的一个隔离空间，建立与本地操作系统（例如 Android 和 Microsoft Windows）并行运行的隔离执行环境，保证加载到内部的代码和数据在机密性和完整性方面受到保护，保护敏感代码和数据免受来自本地操作系统潜在漏洞的特权攻击。&lt;/p&gt; 
-&lt;p&gt;可信执行环境典型的业务场景包括：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;strong&gt;私钥安全&lt;/strong&gt;： 用户可以在隔离的安全环境中使用和处理私钥，例如加密和签名，同时阻止父实例上的用户、应用程序查看和获取这些密钥。&lt;/li&gt; 
- &lt;li&gt;&lt;strong&gt;敏感数据处理&lt;/strong&gt;： 可以在隔离的安全区域内运行应用程序，将个人身份，信用卡号等 PII 敏感数据进行令牌化。同时加密的数据可以发送到安全区域进行解密并处理。在整个过程中，父 EC2 实例将无法查看或访问敏感数据。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;业界常见的可信执行环境的技术包括，Intel SGX 和 ARM TrustZone 等，这个隔离的空间，在 Intel SGX 中被称作 Enclave，而在 ARM TrustZone 中则被称为 Secure World。&lt;/p&gt; 
-&lt;p&gt;亚马逊云科技作为公有云的技术领导者，也推出了 TEE 解决方案，&lt;a href="https://aws.amazon.com/cn/ec2/nitro/nitro-enclaves/"&gt;Nitro Enclave&lt;/a&gt;，使用 Nitro Hypervisor 技术，在 EC2 实例内部，提供 CPU 和内存隔离的一个计算环境。&lt;/p&gt; 
-&lt;p&gt;Nitro Enclave 主要优势：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;隔离和安全的运行环境: 基于 Nitro Hypervisor 实现的完全隔离的 CPU，内存计算环境，无持久化存储，交互式访问和外部网络&lt;/li&gt; 
- &lt;li&gt;加密证明: Attestation 证明文件允许用户在外部服务中，授权 Enclave 访问权限，和验证 Enclave 中的代码完整性&lt;/li&gt; 
- &lt;li&gt;灵活: 不需要绑定 CPU 厂商，支持 Intel，AMD 芯片，和任何编程语言&lt;/li&gt; 
- &lt;li&gt;成本: Nitro Enclave 运行于 EC2 中，无任何额外费用&lt;/li&gt; 
- &lt;li&gt;云原生安全集成: 与云原生的 KMS，ACM 安全服务直接集成，提供更好的用户体验和安全保障&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;h2&gt;1. Nitro Enclave 介绍&lt;/h2&gt; 
-&lt;h3&gt;1.1 Nitro Enclave 基础介绍&lt;/h3&gt; 
-&lt;p&gt;Nitro Enclaves 是一项 Amazon EC2 功能，允许您从 Amazon EC2 实例创建隔离的执行环境，称为 enclave。 Enclave 是独立的、强化的且高度受限的虚拟机，基于 Nitro Hypervisor 虚拟化技术，确保父实例无法访问隔离的 vCPU 和 enclave 的内存。Enclave 没有持久存储、交互式访问或外部网络，仅支持与其父实例的安全 Socket 连接。 用户无法通过 SSH 进入 enclave，并且父实例的进程、应用程序或用户（root 或 admin）无法访问 enclave 内的数据和应用程序。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h3&gt;1.2 Attestation 证明文件&lt;/h3&gt; 
-&lt;p&gt;在 Nitro Enclave 中运行程序，除了隔离环境带来的私密性之外，还提供额外的安全特性，加密证明(Cryptographic Attestation)。Attestation 是 Enclave 用来证明其身份并与外部服务建立信任的过程，以及保证数据通信的安全。&lt;/p&gt; 
-&lt;p&gt;Attestation 的目的是根据在特定 enclave 中运行的代码和配置，证明 enclave 是值得信赖的实体。 Nitro Hypervisor 能够生成包含 enclave 详细信息的证明文档，包括 enclave 签名密钥、enclave 映像的哈希值、父实例 ID 的哈希值以及附加 IAM 角色的 ARN 的哈希值。&lt;/p&gt; 
-&lt;p&gt;Enclave Attestation 功能是由 Nitro Hypervisor 中的 Nitro Secure Module (NSM) 组件实现。亚马逊云科技提供了&lt;a href="https://github.com/aws/aws-nitro-enclaves-nsm-api"&gt;一套 helper library&lt;/a&gt;，方便用户在开发 Enclave 程序时，与 NSM 交互， 查询 PCR 和请求 Attestation 证明文件。&lt;/p&gt; 
-&lt;p&gt;关于 Nitro Enclave Attestation 生成的详细过程，可参考&lt;a href="https://github.com/aws/aws-nitro-enclaves-nsm-api/blob/main/docs/attestation_process.md"&gt;此文档&lt;/a&gt;。下面是一个 Attestation 证明文件的结构：&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;AttestationDocument = {
-    module_id: text,               ; issuing Nitro hypervisor module ID
-    timestamp: uint .size 8,       ; UTC time when document was created, in
-                                   ; milliseconds since UNIX epoch
-    digest: digest,                ; the digest function used for calculating the
-                                   ; register values
-    pcrs: { + index =&amp;gt; pcr },      ; map of all locked PCRs at the moment the
-                                   ; attestation document was generated
-    certificate: cert,             ; the infrastucture certificate used to sign this
-                                   ; document, DER encoded
-    cabundle: [* cert],            ; issuing CA bundle for infrastructure certificate
-    ? public_key: user_data,       ; an optional DER-encoded key the attestation
-                                   ; consumer can use to encrypt data with
-    ? user_data: user_data,        ; additional signed user data, defined by protocol
-    ? nonce: user_data,            ; an optional cryptographic nonce provided by the
-                                   ; aattestation consumer as a proof of authenticity
-}
-
-cert = bytes .size (1..1024)       ; DER encoded certificate
-user_data = bytes .size (0..1024)
-pcr = bytes .size (32/48/64)       ; PCR content
-index = 0..31
-digest = "SHA384"
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;在 Attestation 证明文件中，包含了一个 Public Key，当 Enclave 程序向外部服务发起请求时，带上证明文件，外部应用可以利用该 Public Key，对需要返回 Enclave 的 Response 进行加密， Enclave 收到该 Response 后使用 Private Key 进行解密，确保数据在传输过程中不会被嗅探，且只有发起服务请求的 Enclave 才能解密该 Response。&lt;/p&gt; 
-&lt;p&gt;另外，Attestation 文件中还包括每个 Enclave 一系列属性的哈希值，被称为 PCR (Platform Configuration Registers) 。用户可以使用 PCR 的哈希值在外部服务中创建访问策略，以授予对服务请求的访问权限。 Enclave 有 6 个 PCR，分别对应 Enclave 不同的元数据，其中 PCR 0，1，2 与 Enclave 镜像文件相关，在 Enclave 创建时生成。&lt;/p&gt; 
-&lt;table border="1"&gt; 
- &lt;thead&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;&lt;strong&gt;PCR&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;&lt;strong&gt;Hash of&lt;/strong&gt;&lt;/td&gt; 
-   &lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt; 
-  &lt;/tr&gt; 
- &lt;/thead&gt; 
- &lt;tbody&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;PCR0&lt;/td&gt; 
-   &lt;td&gt;Enclave image file&lt;/td&gt; 
-   &lt;td&gt;A contiguous measure of the contents of the image file, without the section data.&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;PCR1&lt;/td&gt; 
-   &lt;td&gt;Linux kernel and bootstrap&lt;/td&gt; 
-   &lt;td&gt;A contiguous measurement of the kernel and boot ramfs data.&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;PCR2&lt;/td&gt; 
-   &lt;td&gt;Application&lt;/td&gt; 
-   &lt;td&gt;A contiguous, in-order measurement of the user applications, without the boot ramfs.&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;PCR3&lt;/td&gt; 
-   &lt;td&gt;IAM role assigned to the parent instance&lt;/td&gt; 
-   &lt;td&gt;Ensures that the attestation process succeeds only when the parent instance has the correct IAM role.&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;PCR4&lt;/td&gt; 
-   &lt;td&gt;Instance ID of the parent instance&lt;/td&gt; 
-   &lt;td&gt;Ensures that the attestation process succeeds only when the parent instance has a specific instance ID.&lt;/td&gt; 
-  &lt;/tr&gt; 
-  &lt;tr&gt; 
-   &lt;td&gt;PCR8&lt;/td&gt; 
-   &lt;td&gt;Enclave image file signing certificate&lt;/td&gt; 
-   &lt;td&gt;Ensures that the attestation process succeeds only when the enclave was booted from an enclave image file signed by a specific certificate.&lt;/td&gt; 
-  &lt;/tr&gt; 
- &lt;/tbody&gt; 
-&lt;/table&gt; 
-&lt;p&gt;Attestation 证明文件生成后，还将会由受信任Nitro Hypervisor Attestation Public Key Infrastructure (PKI) ，基于一个 ACM PCA 的根证书进行签署，有效期为 30 年。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;CN=aws.nitro-enclaves, C=US, O=Amazon, OU=AWS&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;用户可以下载该&lt;a href="https://aws-nitro-enclaves.amazonaws.com/AWS_NitroEnclaves_Root-G1.zip"&gt;根证书&lt;/a&gt;，导入到您的任何外部服务中，当 Enclave 中运行的程序需要请求外部服务时，可向 Nitro Hypervisor 申请并签署证明文件，外部服务通过导入的根证书，来验证 Enclave 证明文件的有效性，确保服务请求是来自于特定的 Enclave，从而建立信任。&lt;/p&gt; 
-&lt;p&gt;目前 Amazon Key Management Service (KMS) 和 Amazon Certificate Manager (ACM) 支持与 Nitro Enclave 以及 Attestation 原生集成，Enclave 可借助 vsock 以及父实例上的代理，向 KMS 或 ACM 发起 API 请求，进行加密，解密，和证书申请，更新等操作，同时 KMS 和 ACM 支持对 Enclave 签名的证明文件进行验证，并可将 API Response 用证明文件中的 Public Key 进行加密，确保数据隐私安全。&lt;/p&gt; 
-&lt;p&gt;适用于 Nitro Enclaves 的 ACM 允许您将公有和私有 SSL/TLS 证书与在带有 Nitro Enclaves 的 EC2 实例上运行的 Web 应用一起使用。 亚马逊云科技提供了一个打包好的 ACM for Nitro Enclaves 程序，作为服务(aws-nitro-enclaves-acm) 运行在父实例 Linux 操作系统中，该服务将自动创建和运行 Enclave，与 ACM 交互创建安全私钥，将证书及其私钥分发到 enclave，并管理证书续订，证书的私钥在 enclave 中保持隔离，防止父实例及其用户访问它。 具体部署过程可参照&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave-refapp.html"&gt;官方文档&lt;/a&gt;。&lt;/p&gt; 
-&lt;p&gt;目前，ACM for Nitro Enclaves 支持与运行在 Amazon EC2 实例上的 NGINX 配合使用，以安装证书并无缝替换过期证书，以提供 HTTPS 服务，未来将添加对其他 Web 服务（Apache HTTP）的支持。&lt;/p&gt; 
-&lt;h3&gt;1.3 Nitro Enclave Attestation 与 KMS 集成&lt;/h3&gt; 
-&lt;p&gt;Amazon KMS 是一项云原生的密钥管理服务，用来创建和管理密钥，支持使用密钥进行 Server-side 的加密，解密，签名，验证等操作，还支持生成用于 client-side 加密的密钥。 KMS 内置原生支持 Nitro Enclaves，能够验证来自 Enclave 请求中携带的 Attestation 证明文件，并可以根据证明文件中的 PCR 值，定义密钥策略，来授予对特定 Enclave 的访问权限。&lt;/p&gt; 
-&lt;p&gt;可以在 KMS Policy 中定义的 Condition Key ，对来自 Enclave 发起的以下三个 API 请求，进行 Attestation 验证和 API 请求授权，例如只允许来自指定 Enclave 的 KMS Decrypt API 请求。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;kms:GenerateRandom： 生成随机字符串&lt;/li&gt; 
- &lt;li&gt;kms:GenerateDataKey： 生成 Data Key，用于 Client-Side 加密&lt;/li&gt; 
- &lt;li&gt;kms:Decrypt： 对文本或 Data Key 进行解密&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;{
-  "Version": "2012-10-17",
-  "Statement": [{
-    "Sid" : "Enable enclave data processing",
-    "Effect" : "Allow",
-    "Principal" : {
-      "AWS" : "arn:aws:iam::123456789012:role/data-processing"
-    },
-    "Action": [
-      "kms:Decrypt",
-      "kms:GenerateDataKey",
-      "kms:GenerateRandom"
-    ],
-    "Resource": "*",
-    "Condition": {
-      "StringEqualsIgnoreCase": {
-        "kms:RecipientAttestation:ImageSha384":"EXAMPLE8abcdef7abcdef6abcdef5abcdef4abcdef3abcdef2abcdef1abcdef1abcdef0abcdef1abcdEXAMPLE",
-        "kms:RecipientAttestation:PCR0":"EXAMPLEbc2ecbb68ed99a13d7122abfc0666b926a79d5379bc58b9445c84217f59cfdd36c08b2c79552928702EXAMPLE",
-        "kms:RecipientAttestation:PCR1":"EXAMPLE050abf6b993c915505f3220e2d82b51aff830ad14cbecc2eec1bf0b4ae749d311c663f464cde9f718aEXAMPLE", 
-        "kms:RecipientAttestation:PCR2":"EXAMPLEc300289e872e6ac4d19b0b5ac4a9b020c98295643ff3978610750ce6a86f7edff24e3c0a4a445f2ff8EXAMPLE"
-      }
-    }
-  }]
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;注意： 目前使用 KMS SDK 和 CLI 请求 KMS 时，还不支持添加 attestation 证明文件，所以在 Enclave 中向 KMS 发起以上三个 API 请求时，只能用过 HTTP POST 的方式构建 API 请求，将 attestation 加入到 request parameter 中。同时，KMS将自动使用证明文件中的 Public Key 对 API Response 中的明文进行加密，Enclave 收到 Response 后，需要使用 Private Key 进行解密&lt;/p&gt; 
-&lt;p&gt;例如: 在 KMS Decrypt API Request 中，新增的Recipient字段将包括AttestationDocument证明文件，同时在 API Response 中，原本的Plaintext字段将替换为加密的CiphertextForRecipient字段，明文字段默认被 KMS 使用证明文件中的 Public Key 进行加密。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;# KMS Decrypt Request (New Recipient parameter)
-{
-   "CiphertextBlob": blob,
-   "EncryptionAlgorithm": "string",
-   "EncryptionContext": { 
-      "string" : "string" 
-   },
-   "GrantTokens": [ "string" ],
-   "Recipient": { 
-      "AttestationDocument": blob,
-      "KeyEncryptionAlgorithm": "string"
-   }
-}
-
-# KMS Decrypt Response (CiphertextForRecipient returned instead of Plaintext)
-{
-   "CiphertextForRecipient": blob,
-   "EncryptionAlgorithm": "string",
-   "KeyId": "string",
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;通过 Nitro Enclave 与 KMS Attestation 的集成，可以确保敏感数据只能在 Enclave 中进行处理，不会被泄漏，嗅探和篡改。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;明文数据只在 Enclave 中可见，隔离的运行环境可确保数据不会嗅探&lt;/li&gt; 
- &lt;li&gt;在 Enclave 外部只能以加密后的形态对数据进行传输和存储，确保原始数据不会被泄漏&lt;/li&gt; 
- &lt;li&gt;同时借助 Enclave 的 Attestation，确保 Enclave 中的代码不会被篡改&lt;/li&gt; 
- &lt;li&gt;通过 KMS 密钥策略，确保数据只能在特定的 Enclave 内部才能被解密&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;h3&gt;1.4 管理和开发 Nitro Enclave 应用&lt;/h3&gt; 
-&lt;p&gt;如果需要开发一个运行于 Enclave 中的应用，需要先将 Enclave 运行所需的代码，依赖包等打包成 Docker 镜像格式， 然后将 Docker 镜像转换成 Enclave 镜像 (.eif)，以启动 Enclave。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;Nitro Enclave 提供一个命令行工具 Nitro-CLI，用来创建，部署和管理Enclave:&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-build-enclave.html"&gt;nitro-cli build-enclave&lt;/a&gt;: 将 Docker 镜像转换成 Enclave 镜像 (.eif文件)&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli build-enclave --docker-uri repository:tag --docker-dir /path_to/dockerfile_directory --output-file enclave_image_filename --private-key key.pem --signing-certificate certificate.pem&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-run-enclave.html"&gt;nitro-cli run-enclave&lt;/a&gt;: 从 Enclave 镜像文件在 EC2 上启动一个 Enclave&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;strong&gt;:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;每台&lt;/strong&gt;&lt;strong&gt; EC2 &lt;/strong&gt;&lt;strong&gt;上只支持运行一个&lt;/strong&gt;&lt;strong&gt; enclave &lt;/strong&gt;&lt;strong&gt;环境，且&lt;/strong&gt;&lt;strong&gt; EC2 &lt;/strong&gt;&lt;strong&gt;实例至少具备&lt;/strong&gt;&lt;strong&gt; 4 &lt;/strong&gt;&lt;strong&gt;个&lt;/strong&gt;&lt;strong&gt; CPU&lt;/strong&gt;&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli run-enclave --cpu-count number_of_vcpus --cpu-ids list_of_vcpu_ids --memory amount_of_memory_in_MiB --eif-path path_to_enclave_image_file [--enclave-cid cid_number] [--debug-mode]&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-describe-enclaves.html"&gt;nitro-cli describe-enclaves&lt;/a&gt;: 查看当前运行的 Enclave&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli describe-enclaves&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-console.html"&gt;nitro-cli console&lt;/a&gt;: 以只读模式连接到一个运行的 Enclave，获取 Console 输出.&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;strong&gt;:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;只有以&lt;/strong&gt;&lt;strong&gt;–debug-mode&lt;/strong&gt;&lt;strong&gt;模式运行的&lt;/strong&gt;&lt;strong&gt; enclave&lt;/strong&gt;&lt;strong&gt;，才允许&lt;/strong&gt;&lt;strong&gt; console &lt;/strong&gt;&lt;strong&gt;连接&lt;/strong&gt;&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli console --enclave-id enclave_id&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/enclaves/latest/user/cmd-nitro-terminate-enclave.html"&gt;nitro-cli terminate-enclave&lt;/a&gt;: 关闭指定的 enclave&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli terminate-enclave --enclave-id enclave_id&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;另外，亚马逊云科技提供一系列工具，方便用户开发 Enclave 应用：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;a href="http://aws.amazon.com/marketplace/pp/B08R69DKQ1"&gt;Nitro Enclaves Developer AMI&lt;/a&gt;: 包含开发 Enclave 应用程序和构建 Enclave 镜像文件所需的工具和组件，以及示例应用&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://github.com/aws/aws-nitro-enclaves-sdk-c"&gt;Nitro Enclaves SDK&lt;/a&gt;: 一组可用于开发 enclave 应用程序的 c 语言开源库，与KMS 集成，并为 attestation 证明和加密操作提供内置支持。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;h2&gt;2. 搭建一个 Nitro Enclave 示例环境，结合 KMS 实现私钥安全&lt;/h2&gt; 
-&lt;p&gt;下面将以一个私钥管理应用场景的示例，使用 Python 代码演示如何在 Nitro Enclave 中处理私钥数据，并结合 KMS 和 Attestation，保证私钥在加密，解密，存储和签名过程中的安全。该示例将包括：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;创建和部署两个 Enclave，一个实现私钥的生成和加密，另一个实现私钥的解密和签名&lt;/li&gt; 
- &lt;li&gt;Enclave 通过 vsock 与父实例通信&lt;/li&gt; 
- &lt;li&gt;Enclave 通过父实例上运行 KMS Proxy，访问 KMS 服务&lt;/li&gt; 
- &lt;li&gt;Enclave 向 Nitro Hypervisor 请求 Attestation 证明文件&lt;/li&gt; 
- &lt;li&gt;在 Enclave 中向 KMS 发送 API 请求时，带上证明文件&lt;/li&gt; 
- &lt;li&gt;KMS 服务配置密钥策略，将密钥的访问权限仅授予特定的 Enclave&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;私钥管理应用场景示例架构图和工作流如下：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;首先创建一个 KMS Key，启动支持 Enclave 的两台 EC2 实例，分别创建和运行 Enclave，vsock 和 KMS Proxy。&lt;/p&gt; 
-&lt;ol&gt; 
- &lt;li&gt;在 Enclave-1 中通过 kms:GenerateRandom API 生成一个 256 位的私钥，利用私钥生成对应的公钥(ecdsa-p256k1)&lt;/li&gt; 
- &lt;li&gt;在 Enclave-1 中通过 kms:GenerateDataKey API 获取加密密钥（包括一个明文 DataKey 和一个KMS加密的 DataKey），使用明文 DataKey 对私钥进行 Client-Side 加密&lt;/li&gt; 
- &lt;li&gt;在 Enclave-1 中，将加密的私钥，加密的 DataKey 和公钥，通过 vsock 发送到父实例&lt;/li&gt; 
- &lt;li&gt;在 EC2-1 父实例中，将从 vsock 中收到的数据（加密的私钥，加密的 DataKey 和公钥）写入到 DynamoDB 数据库&lt;/li&gt; 
- &lt;li&gt;在 EC2-2 父实例中，从 DynamoDB 中读取一条数据（私钥ID，加密的私钥，加密的 DataKey 和公钥），通过 vsock 将加密的私钥，加密的 DataKey 和需要被签名的消息，发送给 Enclave-2&lt;/li&gt; 
- &lt;li&gt;在 Enclave-2 中，从vsock接收数据（加密的私钥，加密的 DataKey 和需要被签名的消息），通过 kms:Decrypt API 对加密的 DataKey 进行解密，获取明文 DataKey&lt;/li&gt; 
- &lt;li&gt;在 Enclave-2 中，使用明文 DataKey 对加密的私钥进行解密，并使用私钥，对消息进行签名&lt;/li&gt; 
- &lt;li&gt;在 Enclave-2 中，将签名后的消息通过通过 vsock 发送到父实例&lt;/li&gt; 
- &lt;li&gt;在 EC2-2 父实例中，对送 vsock 接收到的签名消息，使用公钥进行验证&lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;h3&gt;2.1 基础环境部署&lt;/h3&gt; 
-&lt;h4&gt;2.1.1 启动两台 EC2 实例，安装依赖包&lt;/h4&gt; 
-&lt;p&gt;首先创建 EC2 及 Enclave 程序所需的 IAM Role，至少需要具备 DynamoDB 的访问权限。为了简化配置，在 demo 中直接使用了 KMS 和 DynamoDB 托管的 FullAccess 策略。但在生产环境中，不能直接使用托管策略，需要自定义用户策略，进行访问行为和资源级别的精细化授权。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 启动两台 Amazon Linux2 的 m5.xlarge EC2 实例(至少 4 vCPU 的 Nitro 实例类型), 需要手动启用 Enclave (创建 EC2 时默认不启用 enclave )&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 创建 EC2 实例时，在User Data 中，粘贴以下信息，完成安装 Nitro-CLI ，Docker，以及其他 Enclave 程序所需的依赖包，修改 Enclave 可占用的最大内存，下载 Enclave 示例代码等。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;#!/bin/bash
-amazon-linux-extras install aws-nitro-enclaves-cli -y
-yum install aws-nitro-enclaves-cli-devel -y
-usermod -aG ne ec2-user
-systemctl start nitro-enclaves-allocator.service &amp;amp;&amp;amp; systemctl enable nitro-enclaves-allocator.service
-amazon-linux-extras install docker -y
-usermod -aG docker ec2-user
-systemctl start docker &amp;amp;&amp;amp; systemctl enable docker
-yum install git -y
-pip3 install ecdsa
-pip3 install requests
-pip3 install boto3
-sed -i "s/memory_mib: 512/memory_mib: 3072/g" /etc/nitro_enclaves/allocator.yaml
-su ec2-user -c 'cd /home/ec2-user &amp;amp;&amp;amp; git clone https://github.com/hxhwing/Nitro-Enclave-Demo.git'
-shutdown -r now
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;EC2 启动完成后，修改实例名称用于标记：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;第一台 EC2: NitroEnclaveDemo-1，用于生成，加密私钥，存储到 DynamoDB&lt;/li&gt; 
- &lt;li&gt;第二台 EC2: NitroEnclaveDemo-2，用于解密私钥，签名和验证消息&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h4&gt;2.1.2 创建 KMS Key&lt;/h4&gt; 
-&lt;p&gt;在 Amazon KMS 服务中创建一个对称密钥，用于在 Enclave 中调用 KMS API，进行私钥的生成和加解密。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;第一步： 选择对称密钥&lt;/li&gt; 
- &lt;li&gt;第二步： 为 Key 添加别名NitroEnclaveDemo&lt;/li&gt; 
- &lt;li&gt;第三步： 选择 Key 的管理员用户（只有 Key 管理员可以删除或修改 Key 的权限）&lt;/li&gt; 
- &lt;li&gt;第四步： 密钥使用权限，不选择任何用户或角色&lt;/li&gt; 
- &lt;li&gt;第五步： 修改自动生成的 Key Policy，在 Statements 中添加以下策略，为前面步骤创建的 EC2 Role 分配 “kms:Decrypt”,”kms:GenerateDataKey”,”kms:GenerateRandom” 权限，暂不配置策略条件&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;       {
-           "Sid": "Allow NitroEnclave-Demo Role",
-           "Effect": "Allow",
-           "Principal": {
-               "AWS": "arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo"  # Replace account ID
-           },
-           "Action": [
-               "kms:GenerateRandom",
-               "kms:GenerateDataKey",
-               "kms:Decrypt"
-               ],
-           "Resource": "*"
-       },
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h4&gt;2.1.3 创建 DynamoDB Table&lt;/h4&gt; 
-&lt;p&gt;创建一个 DynamoDB Table，用于存放加密后的私钥，加密的 DataKey 和公钥。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;Table Name:&amp;nbsp;UserToken&lt;/li&gt; 
- &lt;li&gt;Partition key:&amp;nbsp;userid (String)&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;strong&gt;:&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;DynamoDB Table Name &lt;/strong&gt;&lt;strong&gt;和&lt;/strong&gt;&lt;strong&gt; Partition key &lt;/strong&gt;&lt;strong&gt;请与上面完全一致，如果需要修改，请同时相应修改示例程序中&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;client.py&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;的&lt;/strong&gt;&lt;strong&gt; DynamoDB &lt;/strong&gt;&lt;strong&gt;相关代码。&lt;/strong&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h3&gt;2.2 创建Enclave，运行示例代码&lt;/h3&gt; 
-&lt;p&gt;示例代码&amp;nbsp;Nitro-Enclave-Demo&amp;nbsp;已经被自动下载到 ec2-user 用户目录下，示例代码包含两个目录&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;GenerateToken: 运行在第一台 EC2 ，用于生成和加密私钥的 Enclave&lt;/li&gt; 
- &lt;li&gt;SignVerify: 运行在第二台 EC2，用于解密私钥，签名和验证消息的&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;[ec2-user@ip-172-31-33-19 ~]$ cd Nitro-Enclave-Demo/
-[ec2-user@ip-172-31-33-19 Nitro-Enclave-Demo]$ ls -l
-total 4
-drwxr-xr-x 2 ec2-user ec2-user  206 Aug 28 16:12 GenerateToken
-drwxr-xr-x 2 ec2-user ec2-user   87 Aug 28 16:12 pics
--rw-r--r-- 1 ec2-user ec2-user 3094 Aug 28 16:12 README.md
-drwxr-xr-x 2 ec2-user ec2-user  189 Aug 28 16:12 SignVerify
-drwxr-xr-x 4 ec2-user ec2-user   51 Aug 28 16:12 src
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h4&gt;2.2.1 创建和运行第一个 Enclave，生成和加密私钥&lt;/h4&gt; 
-&lt;p&gt;首先登录到第一台 EC2，进入 /home/ec2-user/Nitro-Enclave-Demo/GenerateToken/ 目录，主要包括以下几个文件&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;main.py: 运行在 Enclave 中的主程序文件，包括：从 KMS 生成私钥，从 KMS 获取 DataKey，加密私钥，将加密后的数据通过vsock发给父实例&lt;/li&gt; 
- &lt;li&gt;traffic-fowarder.py: 运行在 Enclave 中，用于将 Enclave 访问 KMS 的请求通过 vsock 发送到父实例&lt;/li&gt; 
- &lt;li&gt;kms.py: 用于获取 Attestation 签名，访问 KMS API，以及解密 KMS API Response&lt;/li&gt; 
- &lt;li&gt;client.py: 运行在父实例中的程序文件，包括：从 Enclave 接收加密后的数据，将数据写入到 DynamoDB&lt;/li&gt; 
- &lt;li&gt;Dockerfile: Docker 镜像文件，&lt;a href="http://main.py/"&gt;main.py&lt;/a&gt;和&amp;nbsp;&lt;a href="http://traffic-fowarer.py/"&gt;traffic-fowarer.py&lt;/a&gt;&amp;nbsp;都将被打包进容器镜像&lt;/li&gt; 
- &lt;li&gt;build.sh: 创建 Docker 镜像，将 Docker 镜像转换为 Enclave 镜像，并运行 Enclave 的自动化脚本&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;ol&gt; 
- &lt;li&gt;运行build.sh，创建 Enclave 镜像，并以debug-mode 运行 Enclave。其中创建 Enclave 镜像完成后，将自动生成该 Enclave 的 PCR 0/1/2，保存到 EnclaveImage.log 的文件中.&lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;[ec2-user@ip-172-31-33-19 GenerateToken]$ chmod +x build.sh
-[ec2-user@ip-172-31-33-19 GenerateToken]$ ./build.sh
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;build 脚本运行完成后， Enclave 将以 debug 模式运行，用户可通过 nitro-cli 连接到运行的 Enclave 控制台，查看 Enclave 运行过程输出到Console的日志，主要用于排错&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli console --enclave-id $(nitro-cli describe-enclaves | jq -r ".[0].EnclaveID")&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p style="padding-left: 40px"&gt;2. 运行 client.py 代码，运行方式如下：&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;div class="hide-language"&gt; 
-  &lt;pre&gt;&lt;code class="lang-python"&gt;python3 client.py &amp;lt;KMS Key-id&amp;gt; &amp;lt;UserID&amp;gt;&lt;/code&gt;&lt;/pre&gt; 
- &lt;/div&gt; 
-&lt;/div&gt; 
-&lt;p&gt;其中 “KMS Key-id” 为前面步骤中创建的别名为 NitroEnclaveDemo 的 KMS Key， “UserID” 用于标示即将生成的私钥属于哪个用户。&lt;/p&gt; 
-&lt;p&gt;运行&amp;nbsp;client.py&amp;nbsp;代码后，将自动返回从 Enclave 中接收到的数据，并将数据写入到 DynamoDB Table，数据字段包括：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;userid: 用于标示私钥属于哪个用户&lt;/li&gt; 
- &lt;li&gt;encrypted_privatekey: 在 Enclave 中，被 KMS DataKey 加密后的私钥&lt;/li&gt; 
- &lt;li&gt;publickey: 在 Enclave 中，由私钥生成的公钥&lt;/li&gt; 
- &lt;li&gt;encrypted_datakey: KMS 加密后的 DataKey，将用于解密私钥&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;[ec2-user@ip-172-31-33-19 GenerateToken]$ python3 client.py alias/NitroEnclaveDemo u001
- {"userid": "u001", "encrypted_privatekey": "4xiMsmD1VMw1I48HMApw4LzDSWT9lz/x74dMNCz1427hz98t0JzyrFzDd68vrKl0wKB1a/LoLyhi\nvJSgQwSfCA==\n", "publickey": "0a0756e60e112d11f0d5e4a88858251f1234e27ea37261da4698d497baa6a52bbe9a3d227534866351086d7220548a4ff00fb081c9b318361cac5dae9c661f8c", "encrypted_datakey": "AQIBAHhVM1N8G00xz9DVe3FbnRAxaxNCkCaRYV6/wLYxbwj04QFUWvIkLZ6TYPE2GTUdKvMbAAAAdjB0BgkqhkiG9w0BBwagZzBlAgEAMGAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMhfwZjlaOr8pCQneAgEQgDNMimKpywvNdcpJIgPZUYrhE5uQvzonU5o/uYhPMmZmb/kWotQNH6KSFxuTBdx6FeM0vQs="} Write User Token to DynamoDB Successfully [ec2-user@ip-172-31-33-19 GenerateToken]$&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h4&gt;2.2.2 创建和运行第二个 Enclave，解密私钥，签名和验证消息&lt;/h4&gt; 
-&lt;p&gt;登录到第二台 EC2，进入 /home/ec2-user/Nitro-Enclave-Demo/SignVerify 目录：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;main.py: 运行在 Enclave 中的主程序文件，包括：从 KMS 解密 DataKey，用 DataKey 解密私钥，用私钥签名消息，将签名后的消息通过vsock发给父实例&lt;/li&gt; 
- &lt;li&gt;client.py: 运行在父实例中的程序文件，包括：从 DynamoDB 中读取数据，发送到 Enclave，然后从 Enclave 接收被私钥签名后的消息，并使用公钥验证签名消息&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;ol&gt; 
- &lt;li&gt;运行build.sh，创建 Enclave 镜像，并以debug-mode 运行 Enclave。其中创建 Enclave 镜像完成后，将自动生成该 Enclave 的 PCR 0/1/2，保存到 EnclaveImage.log 的文件中.&lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;[ec2-user@ip-172-31-36-174 SignVerify]$ chmod +x build.sh
-[ec2-user@ip-172-31-36-174 SignVerify]$ ./build.sh
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;ol start="2"&gt; 
- &lt;li&gt;运行client.py代码，运行格式如下：&lt;/li&gt; 
-&lt;/ol&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;python3 client.py &amp;lt;UserID&amp;gt; &amp;lt;Message to be Signed&amp;gt;&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;其中 “UserID” 代表从 DynamoDB 中读取哪个用户的密钥数据，“Message to be Signed” 代表将被发送到 Enclave 中被私钥签名的消息。&lt;/p&gt; 
-&lt;p&gt;运行&amp;nbsp;client.py&amp;nbsp;代码后，将自动返回从 Enclave 中接收到的数据，数据字段包括：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;Signed Message: Enclave 中被私钥签名后的消息&lt;/li&gt; 
- &lt;li&gt;Signed message verified by public key: True/False，表示签名的消息是否可以被公钥验证，确保私钥和公钥没有被修改&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;[ec2-user@ip-172-31-36-174 SignVerify]$ python3 client.py u001 'Hellow World'
-Signed Message: 6053cfc42883d03888ba175950e463c1d8164cab8b4873b85af8531a0c6f86b8ad07012107e3322d30118ea24976f8c8f70014119159101ecc1797e7a9f72915
-Signed message verified by public key: True
-[ec2-user@ip-172-31-36-174 SignVerify]$
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h3&gt;2.3 配置 KMS 密钥策略，根据 Attestation PCR 授权&lt;/h3&gt; 
-&lt;p&gt;当以&amp;nbsp;debug-mode&amp;nbsp;运行 Enclave 时，Attestation 证明文件中的 PCR 为全 0，无法用来在外部服务上作为策略条件，进行权限控制。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli run-enclave ...... --debug-mode&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;运行 nitro-cli run-enclave 时，不加–debug-mode, 是以正常模式运行 Enclave，Attestation 证明文件中才会包含 Enclave 正常的 PCR。&lt;/p&gt; 
-&lt;p&gt;首先在 KMS 密钥策略，添加相应的 Condition Key 限制 Attestation PCR ，其中&amp;nbsp;kms:RecipientAttestation:ImageSha384&amp;nbsp;与 PCR 0 为相同的值，每个 Enclave 的 PCR 0/1/2，可以在 Build Enclave 镜像的时候获取，本示例是写到所在代码目录下 EnclaveImage.log 文件中。&lt;/p&gt; 
-&lt;p&gt;在 KMS NitroEnclaveDemo 这个 Key 的密钥策略中，添加以下两条 Deny 权限策略语句，到 KMS Key Policy 的 Statement 字段中：&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;第一段策略，授权只有来自 Enclave-1，且携带 Attestation 证明文件才能访问 kms:GenerateDataKey API，注意请替换为您自己的 PCR 0/1/2 Value&lt;/li&gt; 
- &lt;li&gt;第二段策略，授权只有来自 Enclave-2 ，且携带 Attestation 证明文件才能访问 kms:Decrypt API，注意请替换为您自己的 PCR 0/1/2 Value&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;        {
-            "Sid": "Only Allow NitroEnclaveDemo-1",
-            "Effect": "Deny",
-            "Principal": {
-                "AWS": "arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo"
-            },
-            "Action": [
-                "kms:GenerateRandom",
-                "kms:GenerateDataKey"
-            ],
-            "Resource": "*",
-            "Condition": {
-              "StringNotEqualsIgnoreCase": {
-                "kms:RecipientAttestation:ImageSha384":"17b041934b2255ae55b07433012e4d41999feda85eb839970645458a35f8571360f32ca68b5178dca8bdecf9fd37c010",
-                "kms:RecipientAttestation:PCR0":"17b041934b2255ae55b07433012e4d41999feda85eb839970645458a35f8571360f32ca68b5178dca8bdecf9fd37c010",
-                "kms:RecipientAttestation:PCR1":"c35e620586e91ed40ca5ce360eedf77ba673719135951e293121cb3931220b00f87b5a15e94e25c01fecd08fc9139342", 
-                "kms:RecipientAttestation:PCR2":"1fc61c8c21fb3ec93ae854341f5b9adc1e7bbc2eb437cc308e5fb2f4787393fe500fa4c894422a92d79eb3ce172c1a8e"
-              }
-            }
-        },
-        {
-            "Sid": "Only Allow NitroEnclaveDemo-2",
-            "Effect": "Deny",
-            "Principal": {
-                "AWS": "arn:aws:iam::xxxxxxxxxxx:role/NitroEnclave-Demo"
-            },
-            "Action": [
-                "kms:Decrypt"
-            ],
-            "Resource": "*",
-            "Condition": {
-              "StringNotEqualsIgnoreCase": {
-                "kms:RecipientAttestation:ImageSha384":"810257e9bd2ecad2181fcff508c7547ef0f3c1d446628f5465c955c4f2a2d3cfac9198919999614ffbed8e0b18c6c084",
-                "kms:RecipientAttestation:PCR0":"810257e9bd2ecad2181fcff508c7547ef0f3c1d446628f5465c955c4f2a2d3cfac9198919999614ffbed8e0b18c6c084",
-                "kms:RecipientAttestation:PCR1":"c35e620586e91ed40ca5ce360eedf77ba673719135951e293121cb3931220b00f87b5a15e94e25c01fecd08fc9139342", 
-                "kms:RecipientAttestation:PCR2":"72457ef34f66f041996e7077f55604f0f73b1d2e3fad54881308d38da6d22bc8cd2084ab3b8810b22da629a24eef94e6"
-              }
-            }
-        },
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 在 EC2 上测试直接用 CLI 访问 KMS，提示请求被拒绝，确认密钥策略权限已生效&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;
-[ec2-user@ip-172-31-33-19 ~]$ aws kms generate-data-key --key-id alias/NitroEnclaveDemo --number-of-bytes 32 --region ap-northeast-1
-
-An error occurred (AccessDeniedException) when calling the GenerateDataKey operation: User: arn:aws:sts::xxxxxxxxxx:assumed-role/NitroEnclave-Demo/i-0e4fc2c648b901c7e is not authorized to perform: kms:GenerateDataKey on resource: arn:aws:kms:ap-northeast-1:xxxxxxxxxx:key/6390f2e0-86d6-46cb-8478-37dcfa6aa2dc with an explicit deny
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;分别在两台 EC2 上执行以下命令，终止前面步骤启动的 Enclave&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;nitro-cli terminate-enclave --enclave-id $(nitro-cli describe-enclaves | jq -r ".[0].EnclaveID")&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;然后在两台 EC2 上重新启动 Enclave，不添加 –debug-mode 参数&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;## NitroEnclaveDemo-1
-[ec2-user@ip-172-31-33-19 GenerateToken]$ nitro-cli run-enclave --cpu-count 2 --memory 2900 --enclave-cid 10 --eif-path GenerateToken-demo.eif
-Start allocating memory...
-Started enclave with enclave-cid: 10, memory: 3072 MiB, cpu-ids: [1, 3]
-{
-  "EnclaveID": "i-0e4fc2c648b901c7e-enc17b908ba803d724",
-  "ProcessID": 7565,
-  "EnclaveCID": 10,
-  "NumberOfCPUs": 2,
-  "CPUIDs": [
-    1,
-    3
-  ],
-  "MemoryMiB": 3072
-}
-
-
-## NitroEnclaveDemo-2
-[ec2-user@ip-172-31-36-174 SignVerify]$ nitro-cli run-enclave --cpu-count 2 --memory 2900 --enclave-cid 10 --eif-path SignVerify-demo.eif
-Start allocating memory...
-Started enclave with enclave-cid: 10, memory: 3072 MiB, cpu-ids: [1, 3]
-{
-  "EnclaveID": "i-0558cbee6ea7a393c-enc17b908f0730bcb2",
-  "ProcessID": 7533,
-  "EnclaveCID": 10,
-  "NumberOfCPUs": 2,
-  "CPUIDs": [
-    1,
-    3
-  ],
-  "MemoryMiB": 3072
-}
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;然后分别在两台 EC2 的父实例上，运行client.py，确认代码能正常运行。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;## NitroEnclaveDemo-1
-[ec2-user@ip-172-31-33-19 GenerateToken]$ python3 client.py alias/NitroEnclaveDemo u010
-{"userid": "u010", "encrypted_privatekey": "h08szIyVaTrjH1TF95+aXooPKC/QZwGRDaZv7Cp/LmFG2FQumbZR49NrnsOYBsS+VxsvPtSlBE2s\nnEYQLMI9lQ==\n", "publickey": "9552c9f2c51be3b7143e3cfe9c71f7dcac028d368530ffbbdb34512092611e4996e9e1bcab27e4a879ff630629d7f930d2db84c295e97334d1f3335d31e7ac87", "encrypted_datakey": "AQIBAHhVM1N8G00xz9DVe3FbnRAxaxNCkCaRYV6/wLYxbwj04QFKhpZ//ap2EgINgILddtu0AAAAdjB0BgkqhkiG9w0BBwagZzBlAgEAMGAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMScLI1DYM6y6hd0d4AgEQgDO2pbbcrEEd+trVcqiqkFdlhXY/ZVEMoRqRsQAUMdJq24zwGgl6UYOjLCviBHs2wI8jC5A="}
-Write User Token to DynamoDB Successfully
-[ec2-user@ip-172-31-33-19 GenerateToken]$
-
-## NitroEnclaveDemo-2
-[ec2-user@ip-172-31-36-174 SignVerify]$ python3 client.py u010 'Hello World'
-Signed Message: b27a5c527e218774b316f674eae537ce88b3f986b7f5df583906b1c9a9ba9bb00d2975fe4a065d5a1e74bb6947fe11c8fc90d3ac389be638b2745431de04ebd9
-Signed message verified by public key: True
-[ec2-user@ip-172-31-36-174 SignVerify]$
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;在 CloudTrail 中，查看 KMS API 的请求记录，在来自 Enclave 的请求记录中，将会存在额外的 Attestation 数据。&lt;/p&gt; 
-&lt;p&gt;来自第一台 Enclave 请求 kms:GenerateDataKey 的 CloudTrail：&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 来自第二台 Enclave 请求 kms:Decrypt 的 CloudTrail：&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/build-a-secure-and-trusted-execution-environment-based-on-nitro-enclave11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h2&gt;总结&lt;/h2&gt; 
-&lt;p&gt;Nitro Enclave 使用户可以在 亚马逊云科技上，简便，安全地运行隔离的可信计算环境，用于处理私钥，PII等敏感数据。另外 Nitro Enclave 不需要强制绑定 CPU 芯片，支持 Intel，AMD 芯片的计算实例，没有任何额外费用，具备更好的灵活性和成本效益，且与云原生的安全服务 KMS，ACM 直接集成，为用户提供更好的使用体验和安全性保障。&lt;/p&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/hxh.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;胡新华&lt;/h3&gt; 
-  &lt;p&gt;AWS解决方案架构师，负责金融行业基于AWS的云计算架构咨询和设计。加入AWS之前就职于IBM，在数据中心IT基础架构相关的解决方案设计和交付方面，具有十多年经验。&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
 										</item>
