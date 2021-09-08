@@ -155,7 +155,7 @@
 &lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;對於Ponte Vecchio運算效能、記憶體頻寬、連結頻寬等規格，英特爾在今年8月英特爾架構日首度公開相關資訊，就產品賣相來看，相當具有市場競爭力，足以威脅Nvidia這幾年主推的A100 GPU，甚至是尚未發布的第四代NVLink。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;採用模組化、多晶磚架構，堪稱英特爾最複雜的晶片設計&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;就晶片設計方式而言，今年英特爾架構日也揭露Ponte Vecchio的特點。它和Sapphire Rapids一樣，也是由多個晶磚（Tile）組合而成，但架構設計上更為複雜，該公司負責這項產品的總工程師Masooma Bhaiwala，甚至將這項產品評為：「從事晶片建構工作30年以來，最複雜的晶片」。&lt;/p&gt;
-&lt;p&gt;簡而言之，這些單元是透過1片EMIB晶磚組裝起來，而能以低耗電、高速的方式，將晶磚與晶磚之間連結起來，而這群晶磚之後會放在Foveros封裝之中。&lt;/p&gt;
+&lt;p&gt;簡而言之，這些單元是透過多片EMIB晶磚組裝起來，而能以低耗電、高速的方式，將晶磚與晶磚之間連結起來，而這群晶磚之後會放在Foveros封裝之中。&lt;/p&gt;
 &lt;p&gt;Ponte Vecchio本身所使用的晶磚類型也相當豐富，英特爾先前提到有47片之多，但到底有多少種？&lt;/p&gt;
 &lt;p&gt;他們也在2021架構日，首度揭露這款系統單晶片架構是由8種元件所組成，分別是：運算晶磚（Compute Tile）、Rambo晶磚、Forveros、基礎晶磚（Base Tile）、HBM晶磚、Xe Link晶磚、可容納多個晶磚的封裝（Multi Tile Package）、EMIB晶磚。&lt;/p&gt;
 &lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/Xe-HPC-2-Processing%20%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE-2.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
