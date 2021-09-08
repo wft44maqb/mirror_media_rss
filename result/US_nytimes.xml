@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 08 Sep 2021 16:58:11 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Sep 2021 17:18:22 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[從反恐戰爭轉向對華戰爭？]]></title>
+            <link><![CDATA[https://cn.nytimes.com/opinion/20210908/china-us-xi-biden/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[過去五年，美中一直走在脫離一體化的道路上，甚至可能走向徹底對抗。但與中國的競爭甚至衝突哪些是不可避免的？哪些又是可以抑制的？<p><img src='https://static01.nyt.com/images/2021/09/07/opinion/07friedman-lead/07friedman-lead-articleLarge.jpg' alt=' Wang Zhao/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Wang Zhao/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>觀點與評論</category>
+            <dc:creator><![CDATA[湯馬斯·佛里曼]]></dc:creator>
+            <pubDate>Wed, 08 Sep 2021 05:07:13 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210908/china-us-xi-biden/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[塔利班成立過渡政府，數名高層位列美恐怖分子名單]]></title>
             <link><![CDATA[https://cn.nytimes.com/world/20210908/taliban-women-protest-kabul-afghanistan/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[MAX FISHER]]></dc:creator>
             <pubDate>Fri, 03 Sep 2021 01:17:59 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210903/taliban-govern-rebel-history/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[中國警告美國：雙邊關係緊張或影響氣候合作]]></title>
-            <link><![CDATA[https://cn.nytimes.com/china/20210903/climate-china-us-kerry/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[美國氣候特使凱瑞訪華，為格拉斯哥氣候峰會做準備。中國外長就雙邊關係和合作前景發表強硬言論。氣候變化可能促使兩國合作，也可能成為另一個紛爭點。<p><img src='https://static01.nyt.com/images/2021/09/02/world/02china-us-climate-1/02china-us-climate-1-articleLarge.jpg' alt='氣候變化造成破壞的跡象包括美國西部的火災。 Max Whittaker for The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Max Whittaker for The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>氣候變化造成破壞的跡象包括美國西部的火災。</p>                    ]]></description>
-            <category>中國</category>
-            <dc:creator><![CDATA[儲百亮,LISA FRIEDMAN]]></dc:creator>
-            <pubDate>Fri, 03 Sep 2021 10:29:43 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210903/climate-china-us-kerry/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
