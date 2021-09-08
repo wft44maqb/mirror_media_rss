@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-08T10:56:32Z</updated>
+ <updated>2021-09-08T11:01:29Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59121732</id>
+  <title><![CDATA[索罗斯看空中国 称贝莱德正在酿成“投资悲剧”]]></title>
+  <updated>2021-09-08T10:54:00Z</updated>
+  <published>2021-09-08T10:54:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/索罗斯看空中国-称贝莱德正在酿成-投资悲剧/a-59121732?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[近日，美国金融巨鳄、慈善家索罗斯几度将矛头对准中国，看空对华投资。在他发表于《华尔街日报》的最新文章中，他抨击全球最大的资产管理公司贝莱德向中国倾注巨资，威胁“客户资产和美国等民主国家的安全利益”。贝莱德方面则否认批评。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59120992</id>
   <title><![CDATA[中正纪念堂蒋介石铜像将被移除 江启臣批做法如同“塔利班”]]></title>
@@ -165,16 +175,6 @@
   <category term="经济纵横"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59110214</id>
-  <title><![CDATA[紧急送入医院的德国经济部长自报“平安” ]]></title>
-  <updated>2021-09-07T10:23:00Z</updated>
-  <published>2021-09-07T10:23:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/紧急送入医院的德国经济部长自报-平安/a-59110214?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[阿尔特迈尔部长周一在柏林出席一议会委员会晚宴时感觉不适，被送入医院。周二早晨，他推文公告，身无大碍，去医院乃预防性做法。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59107915</id>
   <title><![CDATA[德国大选后 商界如何与专制中国打交道?]]></title>
   <updated>2021-09-07T08:59:00Z</updated>
@@ -225,6 +225,16 @@
   <category term="评论分析"/>
  </entry>
  <entry>
+  <id>tag:dw.com,2021:59079805</id>
+  <title><![CDATA[在南斯拉夫对抗纳粹的德意志游击队]]></title>
+  <updated>2021-09-05T07:04:00Z</updated>
+  <published>2021-09-05T07:04:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/在南斯拉夫对抗纳粹的德意志游击队/a-59079805?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[二战期间，南斯拉夫游击队内有一支特殊的“台尔曼营”部队，积极抗击纳粹德国侵略者。这也是整场战争期间，盟军阵营内唯一一支全部由德意志人组成的部队。]]></summary>
+  <category term="文化经纬"/>
+ </entry>
+ <entry>
   <id>tag:dw.com,2021:59077830</id>
   <title><![CDATA[德国“隐形冠军”迎来中国挑战]]></title>
   <updated>2021-09-05T07:04:00Z</updated>
@@ -243,16 +253,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/单性生殖：无需交配也能繁殖后代？/a-59065287?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[新近，意大利撒丁岛水族馆一雌鲨鱼在没有与雄鲨鱼交配的情况下分娩的消息引起轰动。鲨鱼“单性生殖”现象是否真的罕见？]]></summary>
   <category term="科技环境"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59079805</id>
-  <title><![CDATA[在南斯拉夫对抗纳粹的德意志游击队]]></title>
-  <updated>2021-09-05T07:04:00Z</updated>
-  <published>2021-09-05T07:04:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/在南斯拉夫对抗纳粹的德意志游击队/a-59079805?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[二战期间，南斯拉夫游击队内有一支特殊的“台尔曼营”部队，积极抗击纳粹德国侵略者。这也是整场战争期间，盟军阵营内唯一一支全部由德意志人组成的部队。]]></summary>
-  <category term="文化经纬"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59049344</id>
