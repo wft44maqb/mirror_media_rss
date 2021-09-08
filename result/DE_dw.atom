@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-08T06:44:45Z</updated>
+ <updated>2021-09-08T06:48:42Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59117835</id>
+  <title><![CDATA[「塔利班想剷除我们」 阿富汗同志悲歌]]></title>
+  <updated>2021-09-08T06:45:00Z</updated>
+  <published>2021-09-08T06:45:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/「塔利班想剷除我们」-阿富汗同志悲歌/a-59117835?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[塔利班再次掌权不到一个月，已开始在街头搜捕LGBT人士，对他们实施殴打、强暴、甚至直接杀害。德国之声访问了受困喀布尔的LGBT人士，记录他们的恐惧，以及他们曾有过的短暂自由。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59117457</id>
   <title><![CDATA[帐户遭瑞信关闭 艾未未批「与中国关系奇怪」]]></title>
@@ -32,16 +42,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/专访：国安法赋予香港执法机关更大权力进行政治打压/a-59117884?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[香港国安法生效一年後，已有数十人在未完成受审的情况下便遭关押。香港法律专家黎恩灏认为，国安法不仅让司法系统承受巨大压力，也严重威胁被告原本应享有的权利。]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59117835</id>
-  <title><![CDATA[「塔利班想剷除我们」 阿富汗同志悲歌]]></title>
-  <updated>2021-09-08T04:43:00Z</updated>
-  <published>2021-09-08T04:43:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/「塔利班想剷除我们」-阿富汗同志悲歌/a-59117835?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[塔利班再次掌权不到一个月，已开始在街头搜捕LGBT人士，对他们实施殴打、强暴、甚至直接杀害。德国之声访问了受困喀布尔的LGBT人士，记录他们的恐惧，以及他们曾有过的短暂自由。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>
