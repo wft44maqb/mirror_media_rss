@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 08 Sep 2021 12:04:41 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Sep 2021 12:14:59 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[中國是時候改變「零容忍」防疫政策了]]></title>
+            <link><![CDATA[https://cn.nytimes.com/opinion/20210908/china-covid-pandemic-delta/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[德爾塔的傳播凸顯出零容忍做法的收益遞減，甚至產生適得其反的效果。更符合中國利益的戰略是專注於預防重症和死亡，並接種高效疫苗。<p><img src='https://static01.nyt.com/images/2021/09/13/opinion/sunday/13huang/13huang-articleLarge.jpg' alt=' Illustration by Jordan Awan; Photograph by Catherine Falls Commercial/Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Illustration by Jordan Awan; Photograph by Catherine Falls Commercial/Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'></p>                    ]]></description>
+            <category>觀點與評論</category>
+            <dc:creator><![CDATA[黃嚴忠]]></dc:creator>
+            <pubDate>Wed, 08 Sep 2021 12:14:04 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/opinion/20210908/china-covid-pandemic-delta/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[「我必須去前線」：CNN首席國際記者談阿富汗經歷]]></title>
             <link><![CDATA[https://cn.nytimes.com/usa/20210908/clarissa-ward-cnn-afghanistan/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[MICHAEL D. SHEAR,JIM TANKERSLEY]]></dc:creator>
             <pubDate>Thu, 02 Sep 2021 02:35:47 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210902/biden-defends-afghanistan-withdrawal/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[大尺度破冰、性別歧視嚴重：阿里企業文化引質疑]]></title>
-            <link><![CDATA[https://cn.nytimes.com/technology/20210902/china-alibaba-rape-metoo/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[時報對九名阿里前員工的採訪表明，隨意的性別歧視在阿里巴巴很常見，女性往往在大尺度團建活動中感到被貶低，而這與該公司試圖塑造的包容性形象大相逕庭。<p><img src='https://static01.nyt.com/images/2021/09/01/business/01china-metoo-1/merlin_194011725_c1749a72-f41e-4d0d-acbb-54fd6e981d0a-articleLarge.jpg' alt='阿里巴巴聯合創始人馬雲在日內瓦的一次會議上表示，該公司成功的一個秘訣是49%的員工是女性。 SOPA Images Limited/Alamy'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>SOPA Images Limited/Alamy</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>阿里巴巴聯合創始人馬雲在日內瓦的一次會議上表示，該公司成功的一個秘訣是49%的員工是女性。</p>                    ]]></description>
-            <category>科技</category>
-            <dc:creator><![CDATA[黃瑞黎,RAYMOND ZHONG]]></dc:creator>
-            <pubDate>Thu, 02 Sep 2021 11:21:17 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/technology/20210902/china-alibaba-rape-metoo/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
