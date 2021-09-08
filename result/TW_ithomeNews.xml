@@ -1,11 +1,28 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/775" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest</link>
+    <link>https://www.ithome.com.tw/latest/rss20/775</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=203&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss/rss20/775" rel="self" type="application/rss+xml" />
       <item>
+    <title>Windows RCE漏洞已有鎖定Office用戶的攻擊，微軟緊急提供緩解指示</title>
+    <link>https://www.ithome.com.tw/news/146584</link>
+    <description> 微軟周二緊急公告Windows中一個遠端程式碼執行（RCE）漏洞已經有攻擊活動，Office用戶可能因開啟惡意文件中標。由於目前尚無修補程式，微軟緊急提供緩解方法。</description>
+     <pubDate>2021-09-08  10:09:19</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146584</guid>
+  </item>
+  <item>
+    <title>因應橫跨25國業務拓展需求，宏碁歐洲總部搬遷3大核心系統上公有雲，目標取代兩座歐洲自有資料中心</title>
+    <link>https://www.ithome.com.tw/news/146579</link>
+    <description> 業務橫跨歐洲、中東及非洲的宏碁泛歐營運總部，2019年時評估自身資訊基礎建設，已無法滿足業務發展需要，因而決定調整IT投資策略，大力擁抱雲端，不只搬遷了3套核心交易系統上公有雲，還大動作導入2套SaaS服務，來簡化IT維運工作，以及借助雲端資源的擴充性，消化交易負載高峰的流量。
+近日，宏碁對外分享當時決定上雲決策關鍵，以及2年來，他們如何一步步搬遷各項系統上雲，擴大採用雲端服務，希望有一天能取代自家兩座歐洲資料中心。</description>
+     <pubDate>2021-09-08  10:09:10</pubDate>
+ <dc:creator>黃郁芸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146579</guid>
+  </item>
+  <item>
     <title>2022 Intel運算架構大公開！</title>
     <link>https://www.ithome.com.tw/article/146528</link>
     <description> 不讓Nvidia專美於前，處理器大廠英特爾在資料中心領域，除了發展多年的伺服器CPU，也將陸續推出適用於此類應用的GPU與IPU應戰，而在今年8月底，他們打破多年以來的慣例，搶先公布了這些運算平臺即將採用的新架構細節。
@@ -243,23 +260,6 @@ Atlassian為一澳洲軟體業者，所打造的Confluence是個基於網頁的�
      <pubDate>2021-09-06  02:09:11</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146554</guid>
-  </item>
-  <item>
-    <title>報導：新聞社交平臺Reddit預計於明年初上市</title>
-    <link>https://www.ithome.com.tw/news/146553</link>
-    <description> 路透社於上周引述消息來源報導，新聞社交平臺Reddit正準備聘請投資銀行與律師，計畫在明年初登上紐約股市。
-Reddit創立於2005年，註冊會員可上傳各種內容，從文章、連結、照片到影片等，其他會員則會針對這些內容投下贊成或反對的票數，以決定相關內容的排序。有許多內容直接在Reddit發跡，而讓媒體爭相報導，或者是有許多內容原本張貼在名不見經傳的網站上，在Reddit受到關注後帶來龐大的流量。</description>
-     <pubDate>2021-09-06  12:09:30</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146553</guid>
-  </item>
-  <item>
-    <title>德國要求手機廠商提供7年安全更新</title>
-    <link>https://www.ithome.com.tw/news/146551</link>
-    <description> 德國媒體報導，德國政府計畫要求智慧型手機及平板廠商提供長達7年的零件備品及安全更新，以減緩消費者換機的速度。</description>
-     <pubDate>2021-09-06  11:09:44</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146551</guid>
   </item>
   </channel>
 </rss>

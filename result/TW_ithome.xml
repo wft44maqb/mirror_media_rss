@@ -9,6 +9,7 @@
  <title>Windows RCE漏洞已有鎖定Office用戶的攻擊，微軟緊急提供緩解指示</title>
  <link>https://www.ithome.com.tw/news/146584</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444&quot; target=&quot;_blank&quot;&gt;微軟周二緊急公告&lt;/a&gt;Windows中一個遠端程式碼執行（RCE）漏洞已經有攻擊活動，Office用戶可能因開啟惡意文件中標。由於目前尚無修補程式，微軟緊急提供緩解方法。&lt;/p&gt;
+&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;http://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0908-CVE-2021-40444-600-1.png&quot; style=&quot;width: 550px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;編號CVE-2021-40444的漏洞，位於Windows內微軟瀏覽器引擎MSHTML，它用於早期微軟瀏覽器如IE（internet explorer）或舊版Edge，但也用於微軟Office中。攻擊者可撰寫內含惡意ActiveX控制的Office文件，由Office程式開啟來觸發。攻擊者必須誘使用戶開啟Office文件，但一旦成功，就可能在用戶電腦上執行任意程式碼，甚至接管整臺系統。&lt;/p&gt;
 &lt;p&gt;CVE-2021-40444風險值達8.8。本漏洞並非權限升級類型，因此低權限用戶安全風險會小於管理員帳號用戶。&lt;/p&gt;
 &lt;p&gt;這項漏洞分別由EXPMON研究人員Haifei Li、Mandiant研究人員 Dhanesh Kizhakkinan、Bryce Abdo及Genwei Jiang ，以及微軟安全情報中心研究人員Rick Cole發現。&lt;/p&gt;
@@ -24,6 +25,33 @@
  <dc:creator>林妍溱</dc:creator>
  <guid isPermaLink="false">146584 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146584#comments</comments>
+</item>
+<item>
+ <title>因應橫跨25國業務拓展需求，宏碁歐洲總部搬遷3大核心系統上公有雲，目標取代兩座歐洲自有資料中心</title>
+ <link>https://www.ithome.com.tw/news/146579</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;業務橫跨歐洲、中東及非洲的宏碁泛歐營運總部，2019年時評估自身資訊基礎建設，已無法滿足業務發展需要，因而決定調整IT投資策略，大力擁抱雲端，不只搬遷了3套核心交易系統上公有雲，還大動作導入2套SaaS服務，來簡化IT維運工作，以及借助雲端資源的擴充性，消化交易負載高峰的流量。&lt;/p&gt;
+&lt;p&gt;近日，宏碁對外分享當時決定上雲決策關鍵，以及2年來，他們如何一步步搬遷各項系統上雲，擴大採用雲端服務，希望有一天能取代自家兩座歐洲資料中心。&lt;/p&gt;
+&lt;p&gt;宏碁泛歐營運總部原先採自建機房的方式，於瑞士和義大利兩國都設有自有資料中心，來支援歐洲、中東和非洲（簡稱EMEA）市場各項業務的系統和服務。2019年時，因應業務發展，宏碁希望增加資訊系統的彈性，改善安全監控的能力和資料備份的效率，然而，若要升級自有資料中心來提升整體IT服務的速度，考驗重重。&lt;/p&gt;
+&lt;p&gt;宏碁泛歐營運總部資訊長暨財務長石太基，點出EMEA營運總部擁抱雲端技術的3大考量。 首先是網路連線的考量，EMEA營運總部業務橫跨25國，原先依靠著專屬網路，連結逾35處辦公室與資料中心，再連結網際網路。石太基表示，各個國家的資訊基礎建設成熟度不同，傳統專屬網路連線速度無法配合宏碁業務的新需求。&lt;/p&gt;
+&lt;p&gt;其次，瑞士和義大利這兩座資料中心的基礎設備，已逼近使用年限，所用的作業系統也相當老舊。要持續使用，石太基表示，需升級整體系統和設備，然而升級成本昂貴。考量需投入龐大資源翻新資料中心，才能滿足業務發展需求，成為促使宏碁決定大規模上雲的關鍵理由。&lt;/p&gt;
+&lt;p&gt;另外，宏碁在歐洲招募IT人才困難重重。石太基表示，相比亞洲、美國，特別是臺灣，不管是企業一直將資通訊領域列為主要投資項目，或是政府持續從教育面培養資通訊人才，歐洲因產業發展特性，缺乏資通人才，他進一步道，近年歐洲各國才調整政策，積極進行數位轉型，導致人才競爭非常激烈。因此，宏碁評估需採用新技術和基礎架構之後，才能吸引人才。&lt;/p&gt;
+&lt;p&gt;宏碁泛歐資訊團隊的上雲計畫，不只要改變IT基礎架構，也得調整系統涵蓋範圍，更要協助使用者採用新技術。石太基表示，這項計畫具前瞻性，但也有風險，需獲得管理層的支持。&lt;/p&gt;
+&lt;p&gt;因此，他帶著資訊團隊花了5周，預演整體雲端轉型計畫的內容，舉行了一場4小時的研討會，向管理層詳細說明計畫，以及可能需投入的技術導入金額，最終，獲得高層一致同意，正式展開上雲之路。石太基表示：「溝通才有信任，有信任才有推動下一次改變的機會。」&lt;/p&gt;
+&lt;p&gt;過去24個月，宏碁泛歐總部資訊團隊已將3 套核心交易系統，搬遷上公有雲，其中包含負責EMEA市場電商業務的交易平臺，以及用來管理EMEA市場供應鏈、顧客、訂單的ERP系統。除此之外，資訊團隊還導入兩套SaaS服務，一套是用於處理電商業務後端作業的平臺，另一套則是支援IT維運人員協作的平臺，供散落35個辦公室的IT人員，可共同合作以即時回應使用者需求。&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;搬遷已運作逾20年ERP系統上雲，資訊團隊遭遇兩大挑戰&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;宏碁泛歐營運總部ERP系統上雲過程中，宏碁集團系統及雲端管理經理Pietro Rossi表示，團隊遭遇了兩大挑戰。首先是基礎架構一致性的挑戰，搬遷工程進入概念驗證階段後，發現必須大量修改基礎架構，整個上雲工程總計超過700項基礎架構設計的更改。Pietro Rossi表示，每次更改若以手動方式進行，都會面臨錯誤發生的可能性。&lt;/p&gt;
+&lt;p&gt;後來，資訊團隊用自動化處理工具AWS Cloud Formation，推動基礎架構即程式碼（IaC），提高基礎架構的一致性，降低錯誤率，同時，通過該雲端工具，取得歷史修改日誌記錄，以建立與生產環境相符的測試環境。&lt;/p&gt;
+&lt;p&gt;除了面對基礎架構一致性的考驗，資訊團隊在重構應用程式的過程中，更遭遇無法擷取程式碼的挑戰。因舊有ERP系統運作超過20年，應用系統缺少了不少特定的檔案或日誌記錄，甚至不少程式碼中直接寫死處理伺服器主機名稱，然而，資訊團隊希望不再參考本地端既有系統，避免因本地端的後端伺服器關閉後，無法執行參考。&lt;/p&gt;
+&lt;p&gt;所以，團隊利用DNS網路服務Route 53解析程式日誌，追蹤所有連結本地端系統的DNS連線，來進行驗證，判斷連線請求是實際要處理的請求，或者只是對傳統伺服器的參考呼叫。Pietro Rossi表示，一旦確認連線是對傳統伺服器的參考呼叫，便會更改應用程式內的硬編碼主機名稱，透過重構應用程式堆疊，來解決問題。&lt;/p&gt;
+&lt;p&gt;搬遷ERP系統上雲後，宏碁資訊團隊的維運工作量大幅減少，也能夠借助雲端擴充性來提升負載高峰期間的工作效能。為了降低上雲的費用，Pietro Rossi說明，夜間還會停用ERP系統。根據宏碁內部統計，整體ERP雲端系統基礎架構成本，約為應用程式總收入的0.015%。&lt;/p&gt;
+&lt;p&gt;石太基則提到，原先IT每逢黑色星期五等大型促銷活動時，都會面臨資源規畫的考驗，如今，電商交易平臺搬上公有雲後，借助雲端服務可彈性擴充的特性，系統能有效地處理負載峰值。2019年，系統正式上雲後，便順利承載當年緊接而來黑色星期五的整體流量。&lt;/p&gt;
+&lt;p&gt;此外，相比於本地端環境作業，資訊人員現於雲端環境部署新程式、更新系統或是備份資料，都明顯快很多。石太基表示，原先需要1到2周安排，如今，縮短至最快3小時內，就可以完成作業，「整體程序效率的提升，非常明顯。」&lt;/p&gt;
+&lt;p&gt;擁抱新技術的道路上，如何持續追蹤技術投資內容，石太基強調，企業須建立符合自身發展的科技架構藍圖，持續檢視資訊科技投資的內容，以確保技術與業務發展方向吻合，才能持續創造公司及品牌的價值。文⊙黃郁芸&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 08 Sep 2021 02:28:10 +0000</pubDate>
+ <dc:creator>黃郁芸</dc:creator>
+ <guid isPermaLink="false">146579 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146579#comments</comments>
 </item>
 <item>
  <title>2022 Intel運算架構大公開！</title>
@@ -267,56 +295,6 @@
  <dc:creator>李建興</dc:creator>
  <guid isPermaLink="false">146578 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146578#comments</comments>
-</item>
-<item>
- <title>MITRE Engage將取代MITRE Shield，聚焦交戰、拒絕與欺敵領域</title>
- <link>https://www.ithome.com.tw/news/146581</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;近兩三年來， 在資安界有一套框架當紅， 那就是MITRE ATT&amp;amp;CK框架， 將現實駭客組織入侵技術彙整成攻擊知識庫， 而為了扭轉企業面對攻擊經常處於被動的局面，在2020年8月，&lt;a href=&quot;https://www.ithome.com.tw/tech/143477&quot;&gt;MITRE公布主動式防禦（Active Defense）的知識庫，稱為MITRE Shield&lt;/a&gt;，希望幫助企業組織成為更好的防守者，近期，MITRE將它重新定名為MITRE Engage，並預告在今年秋季會發布正式版本。&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;簡化框架內容，聚焦在交戰、阻斷、欺敵等三大主軸&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;基本上，過去的資安攻防，只能任由攻擊者選擇時間、地點與交戰方式，而MITRE Engage（Shield）的目的，則是希望能反過來，改善作戰計畫，希望防守者可在防禦範圍之內，進一步控制對手，並影響時間、地點與交戰方式，在此過程， 將與攻擊者互動抗衡，並學習與觀察對方使用的手法，阻絕攻擊者，使其無法摸索企業組織的防禦環境。&lt;/p&gt;
-&lt;p&gt;關於名稱的變更，MITRE也提出了解釋。他們從資安社群得到許多技術性意見，因此，將Shield架構簡化，專注在下列三大領域，分別是：對手交戰（Adversary Engagement）、阻斷（Denial），以及欺敵（Deception）。相較之下，過去MITRE Shield的定義，其實還包括網路安全防護的構面。&lt;/p&gt;
-&lt;p&gt;而Engage的目的將更為明確，聚焦於與對手交戰的策略與技術，並彙整成更有計畫與執行力的戰略與具體活動，對於民間企業、政府機構，以及供應商組織等，都可以帶來幫助，做到更主動的資安防護。&lt;/p&gt;
-&lt;p&gt;關於三大主軸的定義，根據MITRE的說明，以交戰的方式而言，其實就是結合了拒絕與欺騙，讓對手在網路攻擊行動上，變得成本增加以及價值降低，目標是要讓對手與其弱點暴露，了解攻擊者的能力與意圖，並讓對方付出更多代價。&lt;/p&gt;
-&lt;p&gt;阻斷與欺敵自然也是重點。以網路阻斷而言，是阻止對手收集情報的能力，或是削弱對手收集情報的努力，同時也用於阻止或破壞對手在行動中的嘗試；以網路欺敵而言，防守方透過亦虛亦實的欺騙手段，來誤導對手，藉由隱瞞關鍵事實與虛構，讓攻擊者無法正確評估，或是採取適當行動。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://s4.itho.me/sites/default/files/images/（主圖）MITRE Engage_B.jpg&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E4%B8%BB%E5%9C%96%EF%BC%89MITRE%20Engage_B.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;與舊版MITRE Shield相比，新的&lt;a href=&quot;https://engage.mitre.org/matrix/&quot;&gt;MITRE Engage&lt;/a&gt;將更聚焦在對手交戰、阻斷與欺敵的領域，同時也提出更具體的畫分，包括戰略目標（準備、理解）與交戰目標（暴露、影響與引出），而在目標之下，也分成9大方法與33項具體活動。而MITRE也表示，當MITRE Engage正式版發布後，MITRE Shield將被完全取代，&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt;&lt;strong&gt;重新定義兩大類型：戰略行動與交戰行動&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;除了簡化其範圍，讓Engage框架內容更明確，MITRE為了消除歧義，因此框架中的項目也有一些變動調整。&lt;/p&gt;
-&lt;p&gt;例如，在ATT&amp;amp;CK矩陣提到的攻擊戰術流程，如Tactics、Techniques等，在Engage矩陣當中，將會使用不同術語。&lt;/p&gt;
-&lt;p&gt;例如，Engage在術語上，將用「方法（Approaches）」，來替代ATT&amp;amp;CK當中採用的「戰術（Tactics）」，同時，也以「活動（Activities）」，來替代ATT&amp;amp;CK中採用的「技法（Techniques）」。&lt;/p&gt;
-&lt;p&gt;因此，現有的Engage矩陣有何不同？簡單來說，之前Shield具有8個戰術階段，以及36項技術手法，現在Engage則畫分為9個方法，以及31個具體活動，同時還新增了更高的目標層級內容，並區分為戰略行動與交戰行動兩種類別。&lt;/p&gt;
-&lt;p&gt;具體而言，Engage擬出了5大目標，包含：準備、暴露、影響、引出與理解。位於最前的「準備」，以及最後的「理解」項目，其實，就是戰略行動的目標，而「暴露」、「影響」、「引出」則是屬於交戰行動的目標。&lt;/p&gt;
-&lt;p&gt;同時，MITRE重新統整出9類交戰方法，依序是：準備項目的計畫（Planning），暴露項目的收集（Collection）、偵測（Detection），影響項目的防護（Prevention）、引導（Direction ）與中斷（Disruption），引出項目的再確保（Reassurance）、動機（Motivation），以及理解項目的分析（Analysis）。&lt;/p&gt;
-&lt;p&gt;至於在各種交戰方法之下，我們可採取哪些具體活動？以戰略行動而言，目前MITRE提出9種具體活動，而以交戰行動而言，可歸為22種具體活動，累計起來共31種。以收集的方法為例，包含API Monitoring、Network Monitoring、Software Manipulation與System Activity Monitoring這四種具體活動。&lt;/p&gt;
-&lt;p&gt;整體而言，新的MITRE Engage不僅將策略與技術這樣的術語，更改為方法與活動，內容也更聚焦，因此具體活動的項目減少了，同時也去除使用情境與機會空間的概念，不過另外增加對手漏洞的概念。&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;如何使用MITRE Engage？&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;隨著MITRE Engage框架的內容即將底定，如何使用也成為廠商與企業關注的焦點。&lt;/p&gt;
-&lt;p&gt;根據MITRE的說明，對於企業資安負責人而言，可了解如何阻斷、欺敵與對手交戰，並將其融入企業網路安全戰略；而對於資安相關的廠商而言，也可將這框架用於了解自家網路欺敵工具，與Engage活動保持一致。文☉羅正漢&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2 class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color:#0099ff;&quot;&gt;&lt;strong&gt;網路安全對策新框架──MITRE D3FEND &lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;在2021年6月，MITRE還新推出了一個名為MITRE D3FEND的資安框架，這是美國國安局（NSA）資助的研究項目，目前是早期發展階段，目的是期望透過這個框架，能建立電腦網路防禦技術的術語，並闡明防禦與攻擊之間的關聯。換言之，這套框架可視為MITREATT&amp;amp;CK的延伸補充。&lt;/p&gt;
-&lt;p&gt;基本上，D3FEND是網路安全對策技術的知識庫，具體來說，它是一份知識圖譜，定義了網路安全對策領域中的關鍵概念，以及相互聯繫這些概念所需關係，做出全面的參照與統整。&lt;/p&gt;
-&lt;p&gt;這個知識庫框架總共歸納出5大類別，分別是：強化（Harden）、偵測（Detect）、隔離（Isolate）、欺敵（Deceive）、驅逐（Evict），並有17個防禦技術面向。簡單來說：&lt;/p&gt;
-&lt;p&gt;●在強化類別，包含應用程式、帳密憑證（Credential）、訊息與平臺這4大面向。&lt;/p&gt;
-&lt;p&gt;●在偵測類別，包含了檔案分析、識別碼分析、訊息分析、網路流量分析、處理程序分析與使用者行為分析這7大面向。&lt;/p&gt;
-&lt;p&gt;●在隔離類別，包含了執行與網路這兩個面向。&lt;/p&gt;
-&lt;p&gt;●在欺敵類別，包含了環境與物件這兩個面向。&lt;/p&gt;
-&lt;p&gt;●在驅逐類別，則有帳密憑證與處理程序的兩個面向。&lt;/p&gt;
-&lt;p&gt;MITRE認為，有了這樣的資訊框架，可直接幫助資安與技術主管，制定更務實地的採購或投資決策。同時，企業如果需詳細了解網路防禦的運作原理，MITRE發展的D3FEND，也會是初期可著手的實用工具。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88BOX%E5%9C%96%EF%BC%89MITRE%20D3FENDs.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;目前MITRE D3FEND最新版本為0.9.3-BETA-1，&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88Box%E5%9C%96%EF%BC%89MITRE%20D3FEND.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%962%EF%BC%89MITRE%20D3FEND.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;MITRE D3FEND在攻防技術概念與關係的呈現上，上圖是一個及極為簡化的圖表，MITRE將設計一個名為Digital Artifact Ontology的流程鏈，希望讓攻防之間的對應更為清楚。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt; &lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 10:41:55 +0000</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="false">146581 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146581#comments</comments>
 </item>
 </channel>
 </rss>
