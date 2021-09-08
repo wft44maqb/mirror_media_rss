@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-08T10:06:58Z</updated>
+ <updated>2021-09-08T10:10:19Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59120992</id>
+  <title><![CDATA[中正纪念堂蒋介石铜像将被移除 江启臣批做法如同“塔利班”]]></title>
+  <updated>2021-09-08T09:54:00Z</updated>
+  <published>2021-09-08T09:54:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中正纪念堂蒋介石铜像将被移除-江启臣批做法如同-塔利班/a-59120992?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[台湾促进转型正义委员会对外公布台北中正纪念堂转型方案。依照转型方案，纪念堂今后将改作反省威权历史公园，堂体内蒋介石铜像将被移除。国民党主席江启臣怒批，“促转会这些作为跟塔利班没两样，不喜欢的就炸掉，这并非转型正义的宗旨”。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59112666</id>
   <title><![CDATA[日本：菅义伟之后谁主政？ ]]></title>
@@ -145,16 +155,6 @@
   <category term="新闻广角"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59110390</id>
-  <title><![CDATA[德国驻华大使骤然离世后 外长吁尊重隐私]]></title>
-  <updated>2021-09-07T11:06:00Z</updated>
-  <published>2021-09-07T11:06:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国驻华大使骤然离世后-外长吁尊重隐私/a-59110390?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[54岁的德国驻华大使贺岩履新后不到两周就突然离世，至今死因不详，这在社交媒体上引发了不少猜测和议论。德国外长马斯表示，即使是外交官也有隐私权，希望外界不要打扰贺岩的家人。作为默克尔信任的助手，贺岩的离世也给德国未来对华事务带来不确定因素。]]></summary>
-  <category term="德国新闻"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59110354</id>
   <title><![CDATA[京东高层改组 刘强东退居幕后]]></title>
   <updated>2021-09-07T10:56:00Z</updated>
@@ -183,16 +183,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国大选后-商界如何与专制中国打交道/a-59107915?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[德国坚持了数十年的“以贸易促转变”政策已经被证明对中国基本无效。在这一背景下，德国经济界应该怎样与中国做生意？在德国大选前夕，各主要政党议员与德国工业联合会举行了一场线上研讨会。]]></summary>
   <category term="经济纵横"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59105739</id>
-  <title><![CDATA[塔利班：拿下阿富汗最後一省「国内战争结束」]]></title>
-  <updated>2021-09-07T04:13:00Z</updated>
-  <published>2021-09-07T04:13:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/塔利班：拿下阿富汗最後一省「国内战争结束」/a-59105739?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[阿富汗塔利班发言人穆贾希德6日宣布，阿富汗国内的战争已经结束，但反抗组织誓言要「继续战斗」。随着塔利班将成立新政府，阿富汗能恢复平静吗？]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59105436</id>
@@ -235,16 +225,6 @@
   <category term="评论分析"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59065287</id>
-  <title><![CDATA[单性生殖：无需交配也能繁殖后代？]]></title>
-  <updated>2021-09-05T07:04:00Z</updated>
-  <published>2021-09-05T07:04:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/单性生殖：无需交配也能繁殖后代？/a-59065287?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[新近，意大利撒丁岛水族馆一雌鲨鱼在没有与雄鲨鱼交配的情况下分娩的消息引起轰动。鲨鱼“单性生殖”现象是否真的罕见？]]></summary>
-  <category term="科技环境"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59077830</id>
   <title><![CDATA[德国“隐形冠军”迎来中国挑战]]></title>
   <updated>2021-09-05T07:04:00Z</updated>
@@ -253,6 +233,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国-隐形冠军-迎来中国挑战/a-59077830?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[德国中小型企业中有一大批“隐形冠军”，它们当中60%在中国设有生产基地，虽然早就熟悉了国际化，但还是感受到来自中国赶超的压力。]]></summary>
   <category term="经济纵横"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59065287</id>
+  <title><![CDATA[单性生殖：无需交配也能繁殖后代？]]></title>
+  <updated>2021-09-05T07:04:00Z</updated>
+  <published>2021-09-05T07:04:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/单性生殖：无需交配也能繁殖后代？/a-59065287?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[新近，意大利撒丁岛水族馆一雌鲨鱼在没有与雄鲨鱼交配的情况下分娩的消息引起轰动。鲨鱼“单性生殖”现象是否真的罕见？]]></summary>
+  <category term="科技环境"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59079805</id>
@@ -271,7 +261,7 @@
   <published>2021-09-05T07:03:00Z</published>
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/新兴国家-从推动者到被推动者/a-59049344?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[新冠疫情也沉重打击了曾经被视为全球经济增长动力的新兴经济体。这些国家的复苏速度取决于疫苗接种战是否能成功，也取决于美联储。]]></summary>
+  <summary><![CDATA[中国外交部宣布，习近平将于9月9日以视频方式出席金砖国家领导人第十三次会晤。去年在新冠危机下，"金砖国家"中除中国经济增长外，其他四国经济都遭受严重打击。]]></summary>
   <category term="经济纵横"/>
  </entry>
  <entry>
