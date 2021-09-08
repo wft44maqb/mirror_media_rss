@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Wed, 08 Sep 2021 04:04:19 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Sep 2021 04:24:15 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,6 +13,433 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>使用 Amazon Athena 做漏斗分析</title>
+		<link>https://aws.amazon.com/cn/blogs/china/athena-funnel-sum-funnel-count/</link>
+				<pubDate>Wed, 08 Sep 2021 04:24:15 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Analytics]]></category>
+		<category><![CDATA[Amazon Athena]]></category>
+
+		<guid isPermaLink="false">e8c529c5ad3f136a70bf921b1d3e8a9ecc593671</guid>
+				<description>本文介绍了如何使用 Amazon Athena 做漏斗分析，并给出了完整 SQL 设计方案和思路。</description>
+								<content:encoded>&lt;p&gt;在日常的业务运营过程中，管理者常常需要快速了解业务的运转健康状况，识别出瓶颈和问题，并制订应对的计划。要概览业务全景，我们可以借助一些统计工具。「漏斗分析」就是一种常见的工具，它很适合多个环节按时间顺序串联的业务。&lt;/p&gt; 
+&lt;p&gt;现实生活中，很多业务都是多环节串联。比如电商用户可能会浏览推荐的物品、比价、加入购物车、下单购买、评价；再比如培训机构的客户可能会看到广告、咨询、试课、购买、正式上课、续费。&lt;/p&gt; 
+&lt;p&gt;对于这类业务，我们可以把触达每个环节的人数统计出来，并形成一个逐渐递减的「漏斗」，就能看到每个环节的转化情况，定位到目前转化主要是卡在哪个步骤，再针对这个步骤补充定质的调研来确定解决方案。&lt;/p&gt; 
+&lt;p&gt;在这篇文章中，我们将使用 Amazon Athena 来编写这样的一个漏斗分析工具，把一系列的时序数据（访问日志）转化成为每个环节的数量，再把数量转化成递减的漏斗。除了展示最终效果之外，我也会展示整个设计过程，帮助读者调整、设计自己的 SQL 语句。&lt;/p&gt; 
+&lt;h2&gt;Amazon Athena 介绍&lt;/h2&gt; 
+&lt;p&gt;Amazon Athena 是数据湖查询服务。它让用户可以使用 SQL 语句对存在 S3 上的半结构化数据（JSON、CSV、Parquet 等）进行查询。此外，它还是无服务器的服务，这意味着用户无需关心底层硬件资源，仅按照扫描数据的数量来进行收费。不扫描则没有其他闲置费用。&lt;/p&gt; 
+&lt;p&gt;Amazon Athena 是&lt;a href="https://docs.aws.amazon.com/athena/latest/ug/presto-functions.html"&gt;&lt;em&gt;基于 Presto 实现&lt;/em&gt;&lt;/a&gt;的。用户可以使用 Presto 的 SQL 语法和部分内置函数进行查询。&lt;/p&gt; 
+&lt;h2&gt;漏斗分析介绍&lt;/h2&gt; 
+&lt;p&gt;接下来我们来看漏斗分析。&lt;/p&gt; 
+&lt;p&gt;在本文中，「漏斗分析」指的是：统计触达业务流程上每个关键环节的用户人数，并分析每个步骤的留存、转化、跳出率，以找到转化瓶颈。&lt;/p&gt; 
+&lt;p&gt;漏斗分析包含的输入如下：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;strong&gt;分析者关心的事件路径&lt;/strong&gt;。比如我们关心「注册、浏览、下单」，那用户必须严格按照这个顺序来执行每个环节；例如：用户可以只执行「注册」，算走了 1 步，或者执行「注册、浏览」，算走了 2 步，但「注册、搜索、下单」只能算走了 1 步，因为「搜索」不在我们关心的路径内，从而打断了漏斗。&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;漏斗的时间区间&lt;/strong&gt;。比如设置为 10 天，则漏斗包含的环节必须在 10 天内走完，如果用户第 1 天注册了，也浏览了，但是一直到第 20 天才下单，那么这个也只能算走了 1 步。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;漏斗分析的输出有两个：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;strong&gt;漏斗步骤计数&lt;/strong&gt;（FUNNEL_COUNT）。比如 A 用户走了 1 步，B 用户走了 3 步，C 用户走了 2 步，等等。&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;漏斗人数统计&lt;/strong&gt;。（FUNNEL_SUM）。比如走到第 1 步的有 1000 人，这其中走到第 2 步的有 300 人，而这其中走到第 3 步的又有 50 人，等等。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;测试数据准备&lt;/h2&gt; 
+&lt;p&gt;我提前准备好了测试数据。数据结构如下：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;数据字段如下。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;event_name 是事件名字，中英文均可&lt;/li&gt; 
+ &lt;li&gt;user_id 是用户名&lt;/li&gt; 
+ &lt;li&gt;timestamp 是时间戳&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;数据是 JSON 格式，使用 Glue 爬虫进行爬取，录入为数据表，读者也可以自行创建外部表。如果手上没有现成数据，也可以使用 generatedata.com 等模拟数据生成工具来生成简单的测试数据。&lt;/p&gt; 
+&lt;h2&gt;漏斗语句设计过程&lt;/h2&gt; 
+&lt;p&gt;接下来我们来看如何一步步设计出漏斗分析语句。&lt;/p&gt; 
+&lt;h3&gt;简单分类统计&lt;/h3&gt; 
+&lt;p&gt;先来做步骤计数。先按用户来计算事件数量，这是一个分类统计的操作。既然是分类统计，我们直觉可能就会想到使用 GROUP BY 语句，比如：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;SELECT user_id, COUNT(1) AS events_count
+FROM events_table
+GROUP BY user_id&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;这个语句的意思是，计算每个用户分别触发了多少事件。语句执行后，结果如下图：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;限制时间窗口&lt;/h3&gt; 
+&lt;p&gt;这里有一个问题，就是它会统计这个用户所有触发过的事件，包括超出了我们设定的事件窗口范围的事件，所以，我们还需要做一次过滤。比如我们设定的时间区间是 5 天，那么下面示意图中 2020-11-23 以后的事件就必须被过滤掉。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;需要注意的是，这个要求无法用简单的条件判断来解决，因为窗口的起始时间需要根据用户触发第一条事件的时间而定。比如用户 A 是 11 月 21 日触发第一条事件，那么窗口就从 11 月 21 日开始，而用户 B 是 12 月 1 日触发第一条事件，这个窗口则从 12 月 1 日开始。&lt;/p&gt; 
+&lt;p&gt;要做到这一点，我们需要借助一个中间表。这个中间表只包含用户 ID 和这个用户的窗口结束时间，然后再用这个表来联结原来的事件表，从而可以用一个简单的条件判断来过滤掉超过时间窗口的数据。&lt;/p&gt; 
+&lt;p&gt;包含窗口结束的中间表语句如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;SELECT user_id,
+  DATE_ADD('second', 3600 * 24 * 5, MIN(timestamp)) AS max_span
+FROM events_table
+GROUP BY user_id&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;我们首先使用 GROUP BY 按照把每个用户的事件分组，然后使用 MIN() 函数获取每个用户的第一条事件的时间，再使用 DATE_ADD() 函数，在这个时间的基础上增加了 5 天（假设窗口是 5 天），就得到了每个用户窗口结束的时间。&lt;/p&gt; 
+&lt;p&gt;把这个表和简单统计的表联结起来，语句如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;WITH max_spans_table AS
+(
+  SELECT user_id,
+    DATE_ADD('second', 3600 * 24 * 5, MIN(timestamp)) AS max_span
+  FROM events_table
+  GROUP BY user_id
+)
+SELECT e.user_id, COUNT(1) AS event_count
+FROM events_table e
+JOIN max_spans_table m ON e.user_id = m.user_id
+WHERE e.timestamp &amp;lt;= m.max_span
+GROUP BY e.user_id
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;可以看出，这有点类似给第一个表做了一个遍历，并且给用户 ID 相同的条目加上了一个 max_span 参数，然后过滤掉了小于等于这个参数的行。&lt;/p&gt; 
+&lt;h3&gt;指定行为路径&lt;/h3&gt; 
+&lt;p&gt;不过这样还是有问题。虽然我们过滤了窗口外的数据，但并没有办法指定事件路径。我们关心的漏斗可能是「注册、浏览、下单」，但用户的行为可能是「搜索、浏览、下单」。我们还需要指定行为路径。&lt;/p&gt; 
+&lt;p&gt;要在 SQL 语句里面对几条数据的顺序进行判断并不容易。因为 SQL 原本是用于操作和查询集合的，所以对顺序并不敏感。不过，还好事件名称只是简单的字符串，所以我们可以采用取巧的做法，把用户在某个时间窗口内的事件全部拼接成一个长的字符串，然后和我们预期的路径进行对比。&lt;/p&gt; 
+&lt;p&gt;要把多条数据中的字段拼接到一起，我们需要两个函数。首先是 ARRAY_AGG()，用于把多条数据中的某个字段值取出来，组成一个数组。然后是 ARRAY_JOIN()，用于把数组中的字符串拼接到一起。&lt;/p&gt; 
+&lt;p&gt;这里，我们假设我们关心的路径是「注册、询问客服、加入购物车、下单」。&lt;/p&gt; 
+&lt;p&gt;此时的语句如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;WITH max_spans_table AS
+(
+  SELECT user_id,
+    DATE_ADD('second', 3600 * 24 * 5, MIN(timestamp)) AS max_span
+  FROM events_table
+  GROUP BY user_id
+)
+SELECT e.user_id, ARRAY_JOIN(ARRAY_AGG(e.event_name ORDER BY e.timestamp ASC), ',') AS event_seq, COUNT(1) AS event_count
+FROM events_table e
+JOIN max_spans_table m ON e.user_id = m.user_id
+WHERE e.timestamp &amp;lt;= m.max_span
+GROUP BY e.user_id
+HAVING ARRAY_JOIN(ARRAY_AGG(e.event_name), ',') = 'REGISTER,INQUIRY,CART,ORDER'
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;注意虽然我们在 SELECT 时使用了别名 event_seq，但是给列取别名这个动作是在查询完成后在结果集中执行，所以 HAVING 语句中还是需要重复一遍 ARRAY_JOIN() 函数。此外，在 ARRAY_AGG() 函数中，我们还用 timestamp 字段做了排序，确保这些事件名字按照时间顺序拼接。&lt;/p&gt; 
+&lt;p&gt;查询结果如下：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;计算用户的漏斗路径长度&lt;/h3&gt; 
+&lt;p&gt;观察结果，会发现只有 7 个用户，而我们的测试数据集中有数千个用户，这明显不正常。究其原因，是因为我们只简单地比对拼接好的字符串和输入的行为路径，就只能查到全部路径都走完的用户。&lt;/p&gt; 
+&lt;p&gt;比如，我们设定的输入是「A,B,C」，那么按顺序正好触发了这三个事件的用户就会拼接出「A,B,C」字符串从而比对成功。而只触发了 A，或者 A、B 的用户则无法匹配上。此外，A 事件如果不是第一个事件，而是在中间（「D,A,B,C」），又或者在目标事件路径后又触发了别的事件（「A,B,C,D」），简单的匹配都无法对比到。&lt;/p&gt; 
+&lt;p&gt;此时我们需要做两件事：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;找出某个用户的行为路径中第一个事件（比如「A」）所在的行，过滤掉它之前的行，否则路径在中间或者尾部就无法匹配（退一步说，即便可以匹配，我们也无法正确计算窗口时间）&lt;/li&gt; 
+ &lt;li&gt;只保留能以「A」「A,B」和「A,B,C」开头的事件路径，这是我们关心的目标路径&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;这时候我们就会触及 SQL 语言的表现力天花板。在普通编程语言中要做到这两件事很容易，因为我们可以多次循环，使用临时变量，再按需要过滤。而要在 SQL 中做到这样的过滤，就需要曲线救国了。&lt;/p&gt; 
+&lt;p&gt;要做到第一点，我们需要把每个用户的事件单独提出来，删掉我们输入行为路径的第一个事件之前的其他事件。拿下图为例，如果我们关心的事件路径第 1 步是「注册」，那么在「注册」之前的步骤就都要删掉。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;好在 SQL 中有提供「窗口函数」这样的概念。我们可以把每个用户的事件做成一个「窗口」，并且用 ROW_NUMBER() 函数给窗口中的每条数据一个行编号。接下来，我们要找到第一个事件所在的行编号，记录下来。然后，再联结原表，过滤掉这个用户下编号小于我们记录下的编号的行。这和前面的时间窗口过滤异曲同工。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;窗口函数部分语句如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;SELECT *,
+  ROW_NUMBER() OVER (PARTITION BY id ORDER BY timestamp ASC) AS row_number
+FROM events_table&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;使用 OVER () 语句，就形成了一个「窗口」，窗口由 PARTITION BY 指示的字段来作为划分，并且窗口内的数据条目可以排序。这有点像 GROUP BY 的逻辑，只不过 GROUP BY 只能用来做统计，而窗口函数则可以不做统计，只附加行编号。&lt;/p&gt; 
+&lt;p&gt;执行结果如下：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;可以看出，我们给每个用户自己的事件进行了编号，后续只需要查找到我们关心的事件所在的编号并联结原表做过滤即可。&lt;/p&gt; 
+&lt;p&gt;过滤事件做到了，要做到第二点，多重匹配，则相对麻烦。&lt;/p&gt; 
+&lt;p&gt;也许你会想到 LIKE ‘%%’ 等通配语句，但它只能匹配完整包含全部事件步骤的路径，无法匹配仅包含部分步骤的路径。如果使用 STRPOS()，再把两个参数反过来，那么确实可以匹配「A」「A,B」「A,B,C」以及「A,B,C,D,E」，但是却无法匹配「A,E,F,G」这样只以「A」开头的但后续是其他事件的路径。&lt;/p&gt; 
+&lt;p&gt;幸好，我们还有 REDUCE() 函数，可以循环处理数组数据。只需先把行为路径字符串拆成一个数组，然后利用 REDUCE() 函数，使用递归的方式，把后一个字符串附加在前一个结果上，就能得到包含「A」「A,B」「A,B,C」等路径子集的数组，从而进行多重匹配。&lt;/p&gt; 
+&lt;p&gt;要做到这一点，我们除了需要拿到数组中的字符串值，还需要拿到这个值所对应的下标。如果下标为 1 说明是第一个元素，原封不动，否则把当前的字符串取出来，和上一轮的字符串合并，添加到输出数组内。这个用 IF() 函数来做。&lt;/p&gt; 
+&lt;p&gt;REDUCE() 函数本身没有提供下标参数，所以我们需要借助 CARDINALITY() 函数获取数组长度，再用 SEQUENCE() 函数来生成一个顺序数字的数组作为下标列表。遍历这个数组，就达到了类似其他语言的 for 循环或者 enumerate() 的效果。&lt;/p&gt; 
+&lt;p&gt;这部分的语句如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;SELECT REDUCE(
+    SEQUENCE(1, CARDINALITY(event_steps)), ARRAY [], 
+    (s, i) -&amp;gt; 
+      IF(
+        i &amp;gt; 1, 
+        s || (CAST(s[i-1] AS VARCHAR) || ',' || event_steps[i]),
+        s || event_steps[i]), 
+    s -&amp;gt; s) AS event_step_combos
+FROM (
+  SELECT SPLIT('REGISTER,INQUIRY,CART,ORDER', ',') AS event_steps
+)&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;这里用到了 CAST() 函数来把数组值设定为字符串，再使用 || 操作符来做字符串的连接。&lt;/p&gt; 
+&lt;p&gt;下面是本轮的输出示例。因为控制台输出没有明确标明字符串，所以我把输出的部分用红线标记区分了一下。可以看出输出的数组中包含四个字符串，符合我们的要求。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;不过，虽然有了这样一个数组，我们还需要对所有的事件路径做匹配，并且记录下匹配到的到底是「A」、「A,B」还是「A,B,C」，这样我们才能做后续的统计。要做到这一点，我们需要结合几个函数。&lt;/p&gt; 
+&lt;p&gt;首先还是 REDUCE() 和 SEQUENCE() 函数，用于执行循环操作，最后输出一个数字，代表到底匹配到哪一个字符串。最后是 IF()，用于判断是否已经匹配到，如果已经匹配到，则维持原输入什么都不做，而如果没匹配到，则使用 STRPOS() 进行匹配。&lt;/p&gt; 
+&lt;p&gt;因为一旦匹配出结果，就不会再进行匹配，所以我们必须先匹配最长的字符串。这就要求我们使用 REVERSE() 函数把字符串按照从长到短，反向排列。&lt;/p&gt; 
+&lt;p&gt;这又引发一个问题，那就是因为我们的输入时数组反过来了，所以得出的数组下标也是反的。我们还必须再它下标反过来，也即是把下标 1、2、3、4 换成 4、3、2、1。通过分析可知，用数组长度减去下标再加 1 就可以把下标顺序反过来，所以我们把这部分添加上去。&lt;/p&gt; 
+&lt;p&gt;把前面部分代码都融合到一起，此时代码如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;WITH 
+-- 拆分输入的事件路径
+params AS
+(
+  SELECT REVERSE(REDUCE(
+      SEQUENCE(1, CARDINALITY(event_steps)), ARRAY [], 
+      (s, i) -&amp;gt; 
+        IF(
+          i &amp;gt; 1, 
+          s || (CAST(s[i-1] AS VARCHAR) || ',' || event_steps[i]),
+          s || event_steps[i]), 
+      s -&amp;gt; s)) AS event_step_combos
+  FROM (
+    SELECT SPLIT('REGISTER,INQUIRY,CART,ORDER', ',') AS event_steps
+  )
+),
+-- 给各个用户触发的事件进行独立行编号
+events_with_row_numbers_table AS
+(
+  SELECT *,
+    ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY timestamp ASC) AS row_number
+  FROM events_table
+),
+-- 找到用户触发的漏斗中的第一个事件并记录行编号
+events_starter_event_with_row_number AS (
+  SELECT user_id, MAX(row_number) AS starter_event_row_number
+  FROM events_with_row_numbers_table
+  WHERE event_name = 'REGISTER'
+  GROUP BY user_id
+),
+-- 过滤掉漏斗中第一个事件之前的事件
+events_trimmed_table AS (
+  SELECT e.user_id, e.event_name, e.timestamp
+  FROM events_with_row_numbers_table e
+  JOIN events_starter_event_with_row_number er ON e.user_id = er.user_id
+  WHERE e.row_number &amp;gt;= er.starter_event_row_number
+),
+-- 找到时间窗口终点
+max_spans_table AS
+(
+  SELECT user_id,
+    DATE_ADD('second', 3600 * 24 * 5, MIN(timestamp)) AS max_span
+  FROM events_trimmed_table
+  GROUP BY user_id
+),
+-- 把用户的事件组合成一个字符串
+events_seq_table AS
+(
+  SELECT e.user_id, 
+    ARRAY_JOIN(ARRAY_DISTINCT(ARRAY_AGG(e.event_name ORDER BY e.timestamp ASC)), ',') AS event_seq
+  FROM events_trimmed_table e
+  JOIN max_spans_table m ON e.user_id = m.user_id
+  WHERE e.timestamp &amp;lt;= m.max_span
+  GROUP BY e.user_id
+)
+-- 找出用户停在了哪一步
+SELECT e.user_id, e.event_seq, REDUCE(
+  SEQUENCE(1, CARDINALITY(p.event_step_combos)), 
+  0, 
+  (s, i) -&amp;gt; IF(
+    s &amp;gt; 0, 
+    s, 
+    IF(
+      STRPOS(e.event_seq, p.event_step_combos[i]) = 1, 
+      CARDINALITY(p.event_step_combos)-i+1, 
+      0
+    )
+  ), 
+  s -&amp;gt; s
+) AS funnel_step
+FROM events_seq_table e
+CROSS JOIN params p&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;可以看出因为中间表的出现和函数的增加，查询语句已经变得很长了。我加入了注释，帮助读者看清楚每个中间表的目的。&lt;/p&gt; 
+&lt;p&gt;此时结果如下：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;可以看出，能匹配路径中的几个步骤，funnel_step 就是几。这样，我们就获得了每个用户走过的事件路径长度。&lt;/p&gt; 
+&lt;h3&gt;漏斗人数统计&lt;/h3&gt; 
+&lt;p&gt;接下来我们对每个步骤的人数做统计。&lt;/p&gt; 
+&lt;p&gt;我们先计算每个步骤的用户数量，这是一个简单的统计。这部分代码如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;SELECT COUNT(1) AS funnel_step_count
+FROM events_funnel_step_table
+GROUP BY funnel_step&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;可这个语句得出的结果是每个步骤单独的人数，但我们需要的不是单独的人数，而是漏斗，所以我们希望最后呈现的是环环相扣的统计。比如 1000 个人注册，其中 200 个人浏览，其中 15 个人下单。这意味着我们需要对步骤做累加。&lt;/p&gt; 
+&lt;p&gt;这时候我们又需要借助窗口函数。窗口函数中有个特殊版的 SUM() 函数，这个版本的 SUM() 函数会把原来的「求和」变成「窗口间累加」，这符合我们的需要。此时我们省略了 PARTITION BY 语句，这就意味着每条记录自己就是一个窗口，而 SUM() 也变成了「按记录累加」的意思。&lt;/p&gt; 
+&lt;p&gt;这部分代码如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;SELECT 
+  SUM(funnel_step_count) 
+    OVER (ORDER BY funnel_step ASC) 
+    AS funnel_step_acc_sum
+FROM events_funnel_step_count_table&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;观察结果我们会发现，这和我们想的漏斗反过来了。因为漏斗是越来越少，而累加则是越来越多，我们需要用一个总数，逐步减去这个累加值。&lt;/p&gt; 
+&lt;p&gt;这部分代码如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;SELECT (funnel_total_sum-funnel_step_acc_count) AS funnel_step_converts
+FROM events_funnel_step_acc_count_table
+CROSS JOIN (
+  SELECT SUM(funnel_step_count) AS funnel_total_sum
+  FROM events_funnel_step_count_table
+)&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;再次观察结果我们会发现，此时的漏斗最后会变成 0。这是因为我们的累加是从 0 开始，最后也会减到 0，而我们实际上希望只减到倒数第二步然后停止。换句话说，就是我们要用本行的值，去减上一行的累加值。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;对于 SQL 来说，这就意味着一个表对自身做一个联结，但是要错开一行。用语句来表示如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;SELECT e.funnel_step, (funnel_total_sum-e2.funnel_step_acc_count) AS funnel_step_converts
+FROM events_funnel_step_acc_count_table e
+LEFT JOIN events_funnel_step_acc_count_table e2 ON e.funnel_step = e2.funnel_step+1
+CROSS JOIN (
+  SELECT SUM(funnel_step_count) AS funnel_total_sum
+  FROM events_funnel_step_count_table
+)&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;结果如下。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;观察结果又会发现一个问题，那就是第 1 行的值是空的。这是因为当左表是第 1 行时，右表的上一行不存在，所以 LEFT JOIN 的结果是 NULL，而针对 NULL 做数学运算，结果也只能是 NULL。&lt;/p&gt; 
+&lt;p&gt;为解决这个问题，我们使用 COALESCE() 函数。这个函数可以帮助我们设置默认值。它会返回它的参数中第一个非 NULL 的值。我们把这个默认值设置为 0，这样，我们就可以对它进行正常计算。&lt;/p&gt; 
+&lt;p&gt;加上后语句如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;SELECT e.funnel_step, (funnel_total_sum-COALESCE(e2.funnel_step_acc_count, 0)) AS funnel_step_converts
+FROM events_funnel_step_acc_count_table e
+LEFT JOIN events_funnel_step_acc_count_table e2 ON e.funnel_step = e2.funnel_step+1
+CROSS JOIN (
+  SELECT SUM(funnel_step_count) AS funnel_total_sum
+  FROM events_funnel_step_count_table
+)
+ORDER BY funnel_step ASC
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;效果如下：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/athena-funnel-sum-funnel-count12.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;参数提取&lt;/h3&gt; 
+&lt;p&gt;现在我们的目标就达成了。还剩下最后一个问题，那就是我们需要在不同语句，多次手动插入我们的参数。最好是我们能把参数都一次写到第一条语句中，使用起来更方便。&lt;/p&gt; 
+&lt;p&gt;要做到这一点，我们使用 VALUES 来创建一个只有一行的临时表用于存储参数，然后用 AS 来给字段命名。使用时只需要从这个临时表 SELECT 需要的字段即可。&lt;/p&gt; 
+&lt;p&gt;至此，我们用 Amazon Athena 的 SQL 编写了漏斗分析统计函数。因为 Amazon Athena 的底层是基于 Presto，所以这个语句也可以运行于兼容版本的 SQL 引擎上。&lt;/p&gt; 
+&lt;p&gt;最终完整 SQL 语句如下：&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;WITH 
+-- 原始参数
+input AS
+(
+  SELECT time_window, SPLIT(event_chain, ',') AS event_steps
+  FROM (VALUES ('REGISTER,INQUIRY,CART,ORDER', 3600 * 24 * 5))
+  AS input (event_chain, time_window)
+),
+-- 拆分输入的事件路径
+params AS
+(
+  SELECT time_window, event_steps, REVERSE(
+    REDUCE(
+      SEQUENCE(1, CARDINALITY(event_steps)), ARRAY [], 
+      (s, i) -&amp;gt; 
+        IF(
+          i &amp;gt; 1, 
+          s || (CAST(s[i-1] AS VARCHAR) || ',' || event_steps[i]),
+          s || event_steps[i]), 
+      s -&amp;gt; s
+    )
+  ) AS event_step_combos
+  FROM input
+),
+-- 给各个用户触发的事件进行独立行编号
+events_with_row_numbers_table AS
+(
+  SELECT *,
+    ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY timestamp ASC) AS row_number
+  FROM events_table
+),
+-- 找到用户触发的漏斗中的第一个事件并记录行编号
+events_starter_event_with_row_number AS (
+  SELECT user_id, MAX(row_number) AS starter_event_row_number
+  FROM events_with_row_numbers_table
+  WHERE event_name = (SELECT event_steps[1] FROM params)
+  GROUP BY user_id
+),
+-- 过滤掉漏斗中第一个事件之前的事件
+events_trimmed_table AS (
+  SELECT e.user_id, e.event_name, e.timestamp
+  FROM events_with_row_numbers_table e
+  JOIN events_starter_event_with_row_number er ON e.user_id = er.user_id
+  WHERE e.row_number &amp;gt;= er.starter_event_row_number
+),
+-- 找到时间窗口终点
+max_spans_table AS
+(
+  SELECT user_id,
+    DATE_ADD('second', (SELECT time_window FROM params), MIN(timestamp)) AS max_span
+  FROM events_trimmed_table
+  GROUP BY user_id
+),
+-- 把用户的事件组合成一个字符串
+events_seq_table AS
+(
+  SELECT e.user_id, 
+    ARRAY_JOIN(ARRAY_DISTINCT(ARRAY_AGG(e.event_name ORDER BY e.timestamp ASC)), ',') AS event_seq
+  FROM events_trimmed_table e
+  JOIN max_spans_table m ON e.user_id = m.user_id
+  WHERE e.timestamp &amp;lt;= m.max_span
+  GROUP BY e.user_id
+),
+-- 计算每个用户走完的事件路径长度
+events_funnel_step_table AS
+(
+  SELECT e.user_id, e.event_seq, REDUCE(
+    SEQUENCE(1, CARDINALITY(p.event_step_combos)), 
+    0, 
+    (s, i) -&amp;gt; IF(
+      s &amp;gt; 0, 
+      s, 
+      IF(
+        STRPOS(e.event_seq, p.event_step_combos[i]) = 1, 
+        CARDINALITY(p.event_step_combos)-i+1, 
+        0
+      )
+    ), 
+    s -&amp;gt; s
+  ) AS funnel_step
+  FROM events_seq_table e
+  CROSS JOIN params p
+),
+-- 计算走完不同事件路径长度的人数
+events_funnel_step_count_table AS
+(
+  SELECT funnel_step, COUNT(1) AS funnel_step_count
+  FROM events_funnel_step_table
+  GROUP BY funnel_step
+),
+-- 按顺序累加事件路径上每个步骤的人数
+events_funnel_step_acc_count_table AS
+(
+  SELECT funnel_step, SUM(funnel_step_count) OVER (ORDER BY funnel_step ASC) AS funnel_step_acc_count
+  FROM events_funnel_step_count_table
+),
+-- 给用户事件路径长度统计增加一个常用的别名
+funnel_count AS (
+  SELECT * FROM events_funnel_step_count_table
+),
+-- 把累加变成错一行累减获得步骤转化
+funnel_sum AS (
+  SELECT e.funnel_step, (funnel_total_sum-COALESCE(e2.funnel_step_acc_count, 0)) AS funnel_step_converts
+  FROM events_funnel_step_acc_count_table e
+  LEFT JOIN events_funnel_step_acc_count_table e2 ON e.funnel_step = e2.funnel_step+1
+  CROSS JOIN (
+    SELECT MAX(funnel_step_acc_count) AS funnel_total_sum
+    FROM events_funnel_step_acc_count_table
+  )
+  ORDER BY funnel_step ASC
+)
+SELECT *
+FROM funnel_sum&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;每个中间表都可以单独 SELECT 出来作为调试优化之用。最后的 funnel_count 和 funnel_sum 表则可以用于做漏斗分析。&lt;/p&gt; 
+&lt;h2&gt;更多的思考&lt;/h2&gt; 
+&lt;p&gt;使用 SQL 虽然达到了目的，但这个方案仍有改善空间。比如：&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;当事件重复时，比如「A,A,B,B,C,C」，应该如何处理和判断？&lt;/li&gt; 
+ &lt;li&gt;当漏斗重复时，比如「A,B,C,A,B,C」，应该如何处理？&lt;/li&gt; 
+ &lt;li&gt;如果允许中间插入其他步骤，比如「A,B,X,C」，应该如何处理？&lt;/li&gt; 
+ &lt;li&gt;如果参数输入有误，应该如何处理和提示？&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;这些问题没有标准答案。有的问题也许可以在 SQL 内解决，有的问题可能要留给前期 ETL 流程，有的则可能需要专门的应用程序逻辑来判断。读者可以根据实际的情况，对症下药解决。&lt;/p&gt; 
+&lt;p&gt;此外，漏斗分析通常需要对数据做多次扫描，以确保数据连贯发生，并且发生在同一个时间区间，这会直接影响扫描的数据量以及语句执行效率。读者也可以根据自身需要，对原始数据和语句本身进行修改、调整、优化，提升整体执行效率。&lt;/p&gt; 
+&lt;p&gt;最后值得一提的是，从结果可以看出，虽然我们写出来了这样的函数，但是它的可读性并不强。诸如 IF() 函数的嵌套，REDUCE() + SEQUENCE() + CARDINALITY() 的方式来表示简单的 for 循环让人眼花缭乱。使用单行表再加 CROSS JOIN 的方式传递参数，意图也不是很清晰。&lt;/p&gt; 
+&lt;p&gt;诚然，对于日常、固化的分析任务，很多时候我们可以通过 ETL 把数据转换成更方便的统计方式。这不仅更好读、更好维护，也可以提升分析的效率。&lt;/p&gt; 
+&lt;p&gt;不过，笔者认为 SQL 作为相对简单的语言，其快速试错、探索的功能仍然能在业务梳理和设计期极大地提升效率。在数据湖的时代，数据的结构变化很快，可探索的空间也更大，熟练掌握 SQL 就更显得重要。&lt;/p&gt; 
+&lt;h2&gt;总结&lt;/h2&gt; 
+&lt;p&gt;本文介绍了如何使用 Amazon Athena 来进行漏斗分析，并重点介绍了完整的思考过程和中间用到的 SQL 语法及函数。希望能帮助读者对数据湖进行更高效的探索。&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/daizhan.jpg" width="125"&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;张玳&lt;/h3&gt; 
+  &lt;p&gt;AWS 解决方案架构师。十余年企业软件研发、设计和咨询经验，专注企业业务与 AWS 服务的有机结合。译有《软件之道》《精益创业实战》《精益设计》《互联网思维的企业》，著有《体验设计白书》等书籍。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
 		<title>基于AWS machine learning bot 的 named-entity recognition (NER) 快速解决方案</title>
 		<link>https://aws.amazon.com/cn/blogs/china/quick-solution-of-named-entity-recognition-ner-based-on-aws-machine-learning-bot/</link>
 				<pubDate>Wed, 08 Sep 2021 04:04:19 +0000</pubDate>
@@ -1102,258 +1529,6 @@ tcpdump -i eth0 host 10.0.0.16 # the private IP address of the bastion host
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;刘冰&lt;/h3&gt; 
   &lt;p&gt;Zenlayer，产品经理&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>使用Python语言实现Transcribe Streaming的websocket协议</title>
-		<link>https://aws.amazon.com/cn/blogs/china/use-python-language-to-implement-the-websocket-protocol-of-transcribe-streaming/</link>
-				<pubDate>Fri, 03 Sep 2021 03:45:21 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Amazon Transcribe]]></category>
-
-		<guid isPermaLink="false">e21e52547928d10b376260b6094480799af5ab25</guid>
-				<description>Amazon Transcribe是自动语音识别（ASR）服务，可让开发人员轻松地为其应用程序添加语音转文本功能，Transcribe支持文件和流式Streaming的两种音频输入方式，Transcribe Streaming可以应用在会议记录，语音控制交互，语言实时翻译等场景，Streaming方式支持HTTP/2和WebSocket两种协议。本文介绍使用Python语言实现Transcribe Streaming的WebSocket协议。</description>
-								<content:encoded>&lt;h2&gt;概述&lt;/h2&gt; 
-&lt;p&gt;Amazon Transcribe是自动语音识别（ASR）服务，可让开发人员轻松地为其应用程序添加语音转文本功能，Transcribe支持文件和流式Streaming的两种音频输入方式，Transcribe Streaming可以应用在会议记录，语音控制交互，语言实时翻译等场景，Streaming方式支持HTTP/2和WebSocket两种协议。本文介绍使用Python语言实现Transcribe Streaming的WebSocket协议。&lt;/p&gt; 
-&lt;h2&gt;Streaming transcription 接口介绍&lt;/h2&gt; 
-&lt;p&gt;Streaming transcription 接口可以接收音频流并且实时转换为文字，然后将结果返回客户端，同时返回数据中包含partial值，用来标示句子是否结束。&lt;/p&gt; 
-&lt;p&gt;Streaming的数据是被编码的，由prelude和data组成。编码格式详见：https://docs.aws.amazon.com/transcribe/latest/dg/event-stream.html&lt;/p&gt; 
-&lt;h2&gt;Python语言的实现过程和示例&lt;/h2&gt; 
-&lt;p&gt;Python示例程序的运行环境是Python 3.7.9版本。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;添加IAM Policy到你使用到的IAM user&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "transcribestreaming",
-            "Effect": "Allow",
-            "Action": "transcribe:StartStreamTranscriptionWebSocket",
-            "Resource": "*"
-        }
-    ]
-}&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;ul&gt; 
- &lt;li&gt;安装Python的程序包&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;Python示例程序需要安装三个程序包websocket-client，boto3和amazon_transcribe；其中boto3是AWS SDK for Python，amazon_transcribe是Amazon Transcribe Streaming SDK，这两个SDK简化了和Amazon Transcribe Service的集成过程。amazon_transcribe的详细说明见：https://github.com/awslabs/amazon-transcribe-streaming-sdk&lt;/p&gt; 
-&lt;p&gt;安装程序包的命令：&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;pip3 install boto3
-pip3 install amazon_transcribe
-pip3 install websocket-client&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;Python程序的import部分：&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;import hashlib
-import hmac
-import urllib.parse
-from datetime import datetime
-import time
-import ssl
-import json
-import websocket
-import _thread
-from amazon_transcribe.eventstream import EventStreamMessageSerializer
-from amazon_transcribe.eventstream import EventStreamBuffer
-from boto3.session import Session&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;ul&gt; 
- &lt;li&gt;创建签名URL的函数&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;URL签名说明详见：&lt;a href="https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html#websocket-url"&gt;https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html#websocket-url&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;Python的实现示例：&lt;/p&gt; 
-&lt;p&gt;下列代码中主体函数是create_pre_signed_url，它将生成访问Streaming transcription 接口的URL，其中包括必要的参数和签名，它需要传入4个参数:&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;参数region代表将要调用的Amazon Web Service Region。可查看Streaming支持的region，详见Docs链接的Amazon Transcribe Streaming部分（&lt;a href="https://docs.aws.amazon.com/general/latest/gr/transcribe.html"&gt;https://docs.aws.amazon.com/general/latest/gr/transcribe.html&lt;/a&gt;）&lt;/li&gt; 
- &lt;li&gt;参数language_code, media_encoding, sample_rate是stream-transcription-websocket接口的参数，定义见https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html#websocket-url&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;def sign(key, msg):
-    return hmac.new(key, msg.encode("utf-8"), hashlib.sha256).digest()
-
-def getSignatureKey(key, dateStamp, region, serviceName):
-    kDate = sign(("AWS4" + key).encode("utf-8"), dateStamp)
-    kRegion = sign(kDate, region)
-    kService = sign(kRegion, serviceName)
-    kSigning = sign(kService, "aws4_request")
-    return kSigning
-
-def create_pre_signed_url(region, language_code, media_encoding, sample_rate):
-    # 获得access key和secret key
-    credentials = Session().get_credentials()
-    access_key_id = credentials.access_key
-    secret_access_key = credentials.secret_key
-
-    method = "GET"
-    service = "transcribe"
-    endpoint = "wss://transcribestreaming." + region + ".amazonaws.com:8443"
-    host = "transcribestreaming." + region + ".amazonaws.com:8443"
-    algorithm = "AWS4-HMAC-SHA256"
-
-    t = datetime.utcnow()
-    amz_date =t.strftime('%Y%m%dT%H%M%SZ')
-    datestamp =t.strftime('%Y%m%d')
-
-    canonical_uri = "/stream-transcription-websocket"
-
-    canonical_headers = "host:" + host + "\n"
-    signed_headers = "host"
-
-    credential_scope = datestamp + "/" + region + "/" + service + "/" + "aws4_request"
-
-    canonical_querystring = "X-Amz-Algorithm=" + algorithm
-    canonical_querystring += "&amp;amp;X-Amz-Credential=" + urllib.parse.quote_plus(access_key_id + "/" + credential_scope)
-    canonical_querystring += "&amp;amp;X-Amz-Date=" + amz_date
-    canonical_querystring += "&amp;amp;X-Amz-Expires=300"
-    canonical_querystring += "&amp;amp;X-Amz-SignedHeaders=" + signed_headers
-    canonical_querystring += "&amp;amp;language-code="+ language_code +"&amp;amp;media-encoding=" + media_encoding +"&amp;amp;sample-rate=" + sample_rate
-
-    # Zero length string for connecting
-    payload_hash = hashlib.sha256(("").encode('utf-8')).hexdigest()
-
-    canonical_request = method + '\n' \
-                        + canonical_uri + '\n' \
-                        + canonical_querystring + '\n' \
-                        + canonical_headers + '\n' \
-                        + signed_headers + '\n' \
-                        + payload_hash
-
-    string_to_sign = algorithm + "\n" \
-                     + amz_date + "\n" \
-                     + credential_scope + "\n" \
-                     + hashlib.sha256(canonical_request.encode("utf-8")).hexdigest()
-
-    signing_key = getSignatureKey(secret_access_key, datestamp, region, service)
-
-    signature = hmac.new(signing_key, string_to_sign.encode("utf-8"),
-                         hashlib.sha256).hexdigest()
-
-    canonical_querystring += "&amp;amp;X-Amz-Signature=" + signature
-
-    request_url = endpoint + canonical_uri + "?" + canonical_querystring
-
-    return request_url
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;ul&gt; 
- &lt;li&gt;编写main函数&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;下面代码中的loop_receiving和send_data函数，作用分别是从Amazon Transcribe Service接收消息，和向Amazon Transcribe Service发送消息。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;def main():
-    url = create_pre_signed_url("us-east-1", "en-US", "pcm", "16000")
-    ws = websocket.create_connection(url, sslopt={"cert_reqs": ssl.CERT_NONE})
-
-    _thread.start_new_thread(loop_receiving, (ws,))
-    print("Receiving...")
-    send_data(ws)
-
-    while True:
-        time.sleep(1)
-main()
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;ul&gt; 
- &lt;li&gt;编写loop_receiving函数&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;该函数位于main函数上方。它将接收Amazon Transcribe Streaming Service的返回数据，并且打印出来。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;def loop_receiving(ws):
-    try:
-        while True:
-            result = ws.recv()
-
-            if result == '':
-                continue
-
-            eventStreamBuffer = EventStreamBuffer()
-
-            eventStreamBuffer.add_data(result)
-            eventStreamMessage = eventStreamBuffer.next()
-
-            stream_payload = eventStreamMessage.payload
-
-            transcript = json.loads(bytes.decode(stream_payload, "UTF-8"))
-
-            print("response:",transcript)
-
-            results = transcript['Transcript']['Results']
-            if len(results)&amp;gt;0:
-                for length in range(len(results)):
-                    if 'IsPartial' in results[length]:
-                        print('IsPartial:', results[length]['IsPartial'])
-
-                    if 'Alternatives' in results[length]:
-                        alternatives = results[length]['Alternatives']
-                        if len(alternatives)&amp;gt;0:
-                            for sublength in range(len(alternatives)):
-                                if 'Transcript' in alternatives[sublength]:
-                                    print('Transcript:', alternatives[sublength]['Transcript'])
-
-
-    except Exception as e:
-        if 'WebSocketConnectionClosedException' == e.__class__.__name__:
-            print("Error: websocket connection is closed")
-        else:
-            print(f"Exception Name: {e.__class__.__name__}")
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;ul&gt; 
- &lt;li&gt;编写send_data函数&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;该函数位于main函数上方。它将发送音频数据到Amazon Transcribe Streaming Service。其中testFile变量是测试音频文件地址，测试音频为pem格式，英语，采样率为16000。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;def send_data(ws):
-
-    testFile = "xxx.pem"
-
-    bufferSize = 1024*16
-
-    stream_headers = {
-        ":message-type": "event",
-        ":event-type": "AudioEvent",
-        ":content-type": "application/octet-stream",
-    }
-
-    eventstream_serializer = EventStreamMessageSerializer()
-
-    with open(testFile, "rb") as source:
-        while True:
-            audio_chunk = source.read(bufferSize)
-            # 将音频数据进行编码
-            event_bytes = eventstream_serializer.serialize(stream_headers, audio_chunk)
-
-            ws.send(event_bytes, opcode = 0x2) # 0 x 2 send binary
-
-            # end with b'' data bytes
-            if len(audio_chunk) == 0:
-                break&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;h2&gt;结论&lt;/h2&gt; 
-&lt;p&gt;在这篇文章中，介绍了如何使用Python语言实现Transcribe Streaming的WebSocket协议，提供了Python的例子供参考，包括签名URL、数据编码、数据流的发送和接收等部分。完整代码见：https://github.com/xuemark/transcribe/blob/master/transcribe_streaming_websocket.py&lt;/p&gt; 
-&lt;h2&gt;参考资料&lt;/h2&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/transcribe/latest/dg/what-is-transcribe.html"&gt;https://docs.aws.amazon.com/transcribe/latest/dg/what-is-transcribe.html&lt;/a&gt;&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/transcribe/latest/dg/streaming.html"&gt;https://docs.aws.amazon.com/transcribe/latest/dg/streaming.html&lt;/a&gt;&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html"&gt;https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html&lt;/a&gt;&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://aws.amazon.com/transcribe"&gt;https://aws.amazon.com/transcribe&lt;/a&gt;&lt;/li&gt; 
- &lt;li&gt;&lt;a href="https://github.com/awslabs/amazon-transcribe-streaming-sdk"&gt;https://github.com/awslabs/amazon-transcribe-streaming-sdk&lt;/a&gt;&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/markxue.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;薛召兵&lt;/h3&gt; 
-  &lt;p&gt;AWS解决方案架构师，负责帮助客户进行上云架构的设计和咨询。同时致力于AWS容器服务、媒体服务和机器学习服务在国内和全球商业客户的应用和推广，推进企业服务迁移上云进程。有10年以上的软件开发、售前技术支持、系统架构设计等经验。&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
 										</item>
