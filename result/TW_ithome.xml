@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>報告：自動化聘僱系統誤擋了大量可能人才</title>
+ <link>https://www.ithome.com.tw/news/146596</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.hbs.edu/managing-the-future-of-work/Documents/research/hiddenworkers09032021.pdf&quot; target=&quot;_blank&quot;&gt;哈佛商業評論一份報告指出&lt;/a&gt;，美國企業使用的自動聘僱軟體因為不適當的篩選條件，而將許多潛在人才給刷了下來。&lt;/p&gt;
+&lt;p&gt;這份報告指出，歐美企業利用AI自動化聘僱系統，像是應徵者追蹤系統（applicant tracking system，ATS）或聘僱管理系統（recruitment management system，RMS）篩選應徵履歷的比例很高。一項研究顯示，財星500大企業使用ATS的比例達99%，企業規模在千人以上的企業使用RMS者達69%。美國企業使用系統篩選比例為75%，高於德國（54%）及英國（58%）。&lt;/p&gt;
+&lt;p&gt;這份報告試著了解何以許多企業苦於找不到人才，但同時間也很多人找不到工作，不然就是得花很久才找到工作。研究團隊估計，美國有2,700多萬名「被隱形」的工作者。&lt;/p&gt;
+&lt;p&gt;研究團隊認為，企業AI聘僱系統不良的篩選條件，是造成這矛盾現象的可能原因之一。報告指出，大部份ATS/RMS採用負面表列的篩選邏輯，例如轉職期超過半年的求職，較容易被系統依「工作空白期」（work gap）條件篩掉，但是這也可能擋掉了一些因為健康因素、努力「做人」、隨軍人配偶調任等原因而轉換環境的人。此外，企業主設定學歷、證照等條件，但是退伍軍人的能力或可勝任一些難補人的職位，不過他們的履歷會在ATS/RMS排除「不足大學學歷」規則下，上不了企業主的桌面。&lt;/p&gt;
+&lt;p&gt;另外，報告發現潛在人才可能會被ATS/RMS系統預設條件擋掉。78%受訪企業主在尋找中等技能員工時，是沿用或小幅修改現有職位描述（Job description，JB）上，只有1/5會大幅修改現有版本，全新重寫JB者僅8%；尋求高階技能人才時，僅1/4受訪企業主會撰寫全新的JB。結果是JB清單愈來愈長，能篩選到的求職者愈來愈少。報告也指出，太冗長的JB清單也會嚇退資格符合的求職者。&lt;/p&gt;
+&lt;p&gt;這份報告建議企業主使用ATS/RMS系統時，應以正向表列，而非負面排除法，並為一項職位建立適合的職位描述，以擴大求才觸角。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 08 Sep 2021 07:30:15 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146596 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146596#comments</comments>
+</item>
+<item>
  <title>蘋果宣布要在9月14日舉行虛擬發表會</title>
  <link>https://www.ithome.com.tw/news/146592</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;蘋果行銷副總裁&lt;a href=&quot;https://twitter.com/gregjoz/status/1435272731746979840&quot; target=&quot;_blank&quot;&gt;Greg Joswiak本周透過Twitter對外證實&lt;/a&gt;，蘋果即將於下周二（9/14）舉行California Streaming虛擬發表會，而媒體亦已收到邀請函，外界期望蘋果當天將會發表新一代的iPhone、Apple Watch及AirPods產品。&lt;/p&gt;
@@ -271,24 +286,6 @@
  <dc:creator>李宗翰</dc:creator>
  <guid isPermaLink="false">146497 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/tech/146497#comments</comments>
-</item>
-<item>
- <title>AWS新服務合併量子電腦解決加密金鑰被破解的問題</title>
- <link>https://www.ithome.com.tw/news/146583</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/tw/blogs/quantum-computing/generating-quantum-randomness-with-amazon-braket/&quot; target=&quot;_blank&quot;&gt;AWS一項新服務&lt;/a&gt;結合2臺量子電腦產生幾近完美的隨機數，以解決加密金鑰被破解的隱憂。&lt;/p&gt;
-&lt;p&gt;隨機數字是現代加密及資料安全技術的基礎。通訊及資料加密，需要以隨機數產生金鑰。然而隨著運算科技的進展卻使隨機數產生法顯露弱點，危及加密的敏感內容，AWS認為量子運算可以解決。&lt;/p&gt;
-&lt;p&gt;現代加密金鑰是以環形振盪器以後處理產生一個包含幾位元的隨機種子，這種子再以PRNG（psuedo-random number generators）軟體演算法產生更長的數列。這數列和隨機數的統計特性很相近。Intel Ivy Bridge CPU即內建了一個數位隨機數產生器，這類也叫硬體隨機數產生器（HRNG）。利用美國國家標準與技術研究所（NIST）認證的CPRNG產生的隨機數，基本上可滿足現今資料及通訊加密金鑰的需求。&lt;/p&gt;
-&lt;p&gt;然而傳統技術存在缺點。PRNGS是根據特定運算假設發展，擁有極大運算資源的攻擊者，有可能正確猜出PRNG產生的數字。若實作不當也有問題，例如IoT產品加密需要大量隨機數，但在需求急切情況下，IoT中的HRNG可能無法產生隨機性夠高的數字。另外，虛擬環境下的PRNG可能同一組種子重覆使用，造成不同機器產生相同的隨機數。&lt;/p&gt;
-&lt;p&gt;AWS提出量子隨機產生器（QRNG）來解決傳統隨機數產生法的瓶頸，方法是利用Amazon Braket的量子處理器（QPU）為基礎。Amazon Braket部門研究人員 Mario Berta利用兩個AWS Rigetti Aspen-9和IonQ量子處理器系統，產生兩個獨立的「弱隨機」隨機數，這些隨機數再放入一個名為隨機萃取器（randomness extractor，RE）的傳統演算法計算產出最後的隨機數。&lt;/p&gt;
-&lt;p&gt;他指出，比起傳統HRNG，QRNG有二項優點。一是它的隨機性並非來自傳統物理性，而是依據量子物理性，任何人無法預先得知。此外它產生的原始隨機數並非放入PRNG，而是隨機萃取器（randomness extractors，RE）。RE是將多個來源的隨機數壓縮為一，其處理並不含任何假設，能產生幾近完美的隨機數。&lt;/p&gt;
-&lt;p&gt;他補充，以兩家廠商提供、互相獨立的量子處理器還有個好處：除非兩家聯手，否則即使其中一臺加入後門，也無法破壞結果的隨機性。&lt;/p&gt;
-&lt;p&gt;目前這項服務已開放Amazon Braket企業客戶使用，&lt;a href=&quot;https://github.com/aws/amazon-braket-examples&quot; target=&quot;_blank&quot;&gt;AWS也提供了程式撰寫範例&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;運算力愈來愈大的今天，令人憂心現有加密法安全性。&lt;a href=&quot;https://www.ithome.com.tw/news/146502&quot; target=&quot;_blank&quot;&gt;美國國安局上周指出&lt;/a&gt;，這類「衝擊加密的量子電腦」（Cryptographically Relevant Quantum Computer，CRQC）可能顛覆現行數位簽章及非對稱金鑰交換使用的公鑰演算法，危及美國國安系統（National Security System，NSS），NSA近年計畫推動「抗量子」（quantum-safe）或「後量子」（post-quantum）加密演算法的發展。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 15:35:31 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146583 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146583#comments</comments>
 </item>
 </channel>
 </rss>
