@@ -1,11 +1,22 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/775" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/775</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/775" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss?blogId=7&amp;rofile=atom" rel="self" type="application/rss+xml" />
       <item>
+    <title>資安一周第162期：為落實個資保護監管責任及跨機關協調，行政院建立個資保護執行聯繫機制</title>
+    <link>https://www.ithome.com.tw/news/146597</link>
+    <description> 9/2-9/8必看資安新聞
+ 
+＃法規遵循  ＃個資保護
+為落實個資保護監管責任及跨機關協調，行政院建立個資保護執行聯繫機制</description>
+     <pubDate>2021-09-08  03:09:47</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146597</guid>
+  </item>
+  <item>
     <title>報告：自動化聘僱系統誤擋了大量可能人才</title>
     <link>https://www.ithome.com.tw/news/146596</link>
     <description> 哈佛商業評論一份報告指出，美國企業使用的自動聘僱軟體因為不適當的篩選條件，而將許多潛在人才給刷了下來。</description>
@@ -249,15 +260,6 @@ Nvidia近年來頻頻出招，不只大力發展先進GPU產品，甚至也開�
      <pubDate>2021-09-06  03:09:09</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146559</guid>
-  </item>
-  <item>
-    <title>【疫情日報】9月7日至9月20日維持疫情警戒二級、第八輪9月10日開始預約</title>
-    <link>https://www.ithome.com.tw/news/146558</link>
-    <description> 中央流行疫情指揮中心今（6日）宣布，自9月7日至9月20日兩周仍維持全國二級警戒，警戒措施未有太大變化。同時，指揮中心和教育部也說明疫苗接種注意事項，包括第八期疫苗預約鎖定AZ第二劑群眾和18至22歲民眾、啟動學生登記BNT接種事宜。
-今日新增9例本土案例、7例境外移入，指揮官陳時中表示，未來兩周仍維持二級警戒，警戒通則大多維持現狀，如外出需全程配戴口罩、集會活動人數上限為室內80人、室外300人，以及營業場所和公共場域的室內空間至少1.5米/人（2.25平方米/人）、室外空間至少1米/人（1平方米/人）。</description>
-     <pubDate>2021-09-06  03:09:19</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146558</guid>
   </item>
   </channel>
 </rss>
