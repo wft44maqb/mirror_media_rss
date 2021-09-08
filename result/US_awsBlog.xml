@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Wed, 08 Sep 2021 04:24:15 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Sep 2021 04:54:01 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,6 +13,241 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>一文看懂 Amazon EKS 中的网络规划</title>
+		<link>https://aws.amazon.com/cn/blogs/china/understand-the-network-planning-in-amazon-eks-in-one-article/</link>
+				<pubDate>Wed, 08 Sep 2021 04:54:01 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Containers]]></category>
+		<category><![CDATA[eks]]></category>
+		<category><![CDATA[vpc]]></category>
+
+		<guid isPermaLink="false">2afe2bed89eb3683fe48c4483dd3c2c946b9fb1b</guid>
+				<description>在我们的某些业务场景中，我们需要对整个 K8S 的集群网络配置进行一定的定制化，比如我们在多个区域进行 K8S 集群的部署，并且已经规划好每个区域所使用的 IP 地址网段，比如 Node 节点网段，Service 服务网段，Pod 容器网段，那么在创建和管理 K8S 集群的时候，我们就需要对这些网段进行定制化的配置。另外，如果我们随着云上的负载越来越多，可能会遇到前期规划的 VPC 网络地址池太小的问题，我们也可以使用自定义 Pod 网段的方法来扩展 Pod 能使用的网络地址池。</description>
+								<content:encoded>&lt;p&gt;&lt;a href="https://www.amazonaws.cn/eks"&gt;Amazon Elastic Kubernetes Service&lt;/a&gt; (EKS)是一项云上的托管 Kubernetes (K8S) 服务，使用该服务您可以轻松地在亚马逊云上部署、管理和扩展容器化的应用程序。Amazon EKS 会在一个亚马逊区域中的不同可用区内托管 Kubernetes 的管理节点，并提供一定的 SLA 保证，从而消除单点故障和管理节点的运维管理工作。用户只需要管理自己的工作节点，以及底层的 &lt;a href="https://www.amazonaws.cn/ec2/?nc2=h_ql_prod_cp_ec2"&gt;EC2 实例&lt;/a&gt;或者是无服务器化的 &lt;a href="https://www.amazonaws.cn/fargate/?nc2=h_ql_prod_ct_far"&gt;Fargate&lt;/a&gt; 即可。&lt;/p&gt; 
+&lt;p&gt;在我们的某些业务场景中，我们需要对整个 K8S 的集群网络配置进行一定的定制化，比如我们在多个区域进行 K8S 集群的部署，并且已经规划好每个区域所使用的 IP 地址网段，比如 Node 节点网段，Service 服务网段，Pod 容器网段，那么在创建和管理 K8S 集群的时候，我们就需要对这些网段进行定制化的配置。&lt;/p&gt; 
+&lt;p&gt;另外，如果我们随着云上的负载越来越多，可能会遇到前期规划的 VPC 网络地址池太小的问题，我们也可以使用自定义 Pod 网段的方法来扩展 Pod 能使用的网络地址池。&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;本文包含的主要内容有：&lt;/strong&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;如何自定义 Node 节点网段和 Service 服务网段&lt;/li&gt; 
+ &lt;li&gt;如何自定义 Pod 容器网段&lt;/li&gt; 
+ &lt;li&gt;一个 Node 节点如何创建无数量限制的 Pod&lt;/li&gt; 
+ &lt;li&gt;每一个 Pod 绑定单独的公网地址&lt;/li&gt; 
+ &lt;li&gt;一个 Pod 如何绑定多张网卡&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;子网设计&lt;/h2&gt; 
+&lt;p&gt;我们先在美东1区按照下面的网络规划创建环境。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;strong&gt;VPC 网络：&lt;/strong&gt;16.0.0/16&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;Pod&lt;/strong&gt; &lt;strong&gt;网段&lt;/strong&gt;：172.16.10.0/24 和 172.16.11.0/24&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;Node 网段&lt;/strong&gt;：172.16.1.0/24 和 172.16.2.0/24&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;公有网段&lt;/strong&gt;：172.16.100.0/24和172.16.101.0/24&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;服务网段&lt;/strong&gt;：172.17.0.0/24，这是一个虚拟的网段，不需要在VPC子网里面&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;最佳实践：&lt;/strong&gt;所有的网段最好在至少两个可用区内进行构造，这样方便后期做任何高可用的设置。以及万一一个可用区挂了，不影响另外一个可用区的工作负载，也不影响整个 EKS 集群（EKS 集群的管理节点默认是跨域3个可用区的）。&lt;/p&gt; 
+&lt;p&gt;我们首先需要根据这个设置手动创建相应的 VPC，子网，Internet 网关，NAT 网关和相应的路由表，具体就不在这里展开描述了。需要特别注意的是，NAT 网关创建的时候需要选择公有子网，公有子网的路由表需要有一条默认路由去往 Internet 网关。私有子网创建一条默认路由去往 NAT 网关。&lt;/p&gt; 
+&lt;p&gt;整个设计的网络规划图如下所示：&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 子网创建如下：&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;准备工作&lt;/h2&gt; 
+&lt;p&gt;EKS集群创建涉及非常多权限，安全组，IAM 角色和策略的创建，强烈建议使用 EKSCTL 来创建，而不是控制台来创建。另外，如果使用控制台来创建集群，目前还不支持自定义 Service 服务网络，所以对 Service 服务网络有 CIDR 定制需求的话，必须用 EKSCTL 来创建集群。&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;安装 AWS CLI：&lt;a href="https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/install-cliv2.html"&gt;https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/install-cliv2.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;安装 eksctl：&lt;a href="https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html"&gt;https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;安装 kubectl：&lt;a href="https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html"&gt;https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;使用 IAM 创建一个管理员账号（或者使用当前管理员账号），然后将该管理员账号的 AKSK (Access Key ID, Secret Access KEY) 配置到 AWS CLI 中，并且后面保持使用该 AKSK 权限操作集群。具体在这里就不详细讲解了，需要的话可以参考&lt;a href="https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/cli-configure-quickstart.html"&gt;配置基础知识&lt;/a&gt;。&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;如何定义 Node 节点网段和 Service 服务网段&lt;/h2&gt; 
+&lt;p&gt;首先创建文件cluster-demo.yaml，其中serviceIPv4CIDR这个参数定义了我们的 Service 网段的地址，vpc下的参数设置了我们 Node 的网段，并且定义了它是跨域2个可用区的。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: cluster-demo
+  region: us-east-1
+
+kubernetesNetworkConfig:
+  serviceIPv4CIDR: 172.17.0.0/24
+
+vpc:
+  id: "vpc-0b051aa1e4d39f9c3"
+  cidr: "172.16.0.0/16" 
+  subnets:
+    private:
+      us-east-1a:
+        id: "subnet-07c2254d23e8c3607"
+        cidr: "172.16.1.0/24"
+      us-east-1b:
+        id: "subnet-08957bf56343de13a"
+        cidr: "172.16.2.0/24" 
+
+managedNodeGroups:
+  - name: ng-1-workers
+    labels: { role: workers }
+    instanceType: m5.xlarge
+    desiredCapacity: 2
+    volumeSize: 80
+    privateNetworking: true
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;通过以下命令来创建 EKS 的集群以及和一个节点组。eksctl 后台会使用 &lt;a href="https://aws.amazon.com/cloudformation/"&gt;AWS CloudFormation&lt;/a&gt; 来创建底层的依赖资源，我们也可以随时通过控制台找到这个服务来查看部署状态或者部署细节。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;eksctl create cluster --config-file=cluster-demo.yaml&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;等待20分钟左右，集群创建好后，可以看到 service 和 node 的地址已经是在自己定义的地址范围内了。&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 从上图可以看出来，Service 网段已经分配到我们定义的172.17.0.0/24这个网段了，Node 节点的网络也已经是在172.16.1.0/24 和 172.16.2.0/24这两个网段了。&lt;/p&gt; 
+&lt;p&gt;在这个基础上，我们通过命令&lt;code&gt;kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1&lt;/code&gt;直接创建一个 Pod，这个 Pod 的地址会自动在 Node 所在的子网地址中进行分配。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 我们可以看到新部署的 Pod 也是在 172.16.1.0/24 这个网段，&lt;strong&gt;默认情况下 Pod 获取的地址是和 Node 在同一个地址池，如果需要自定义 Pod 网段，我们需要接着往下看。&lt;/strong&gt;&lt;/p&gt; 
+&lt;h2&gt;如何自定义 Pod 容器网段&lt;/h2&gt; 
+&lt;p&gt;如前面所说的，我们可以在一个 VPC 中定义我们 Node 所在的网段，我们可以通过 VPC 的路由表来控制所有 Node 节点之间的通信（不管是 VPC 内部的通信，还是 VPC 与 VPN 或者本地 IDC 的通信）。但是对于 K8S 集群来说，它有自己的网络，比如通过 kubenet 我们可以在 Linux 中创建一个 Linux Bridge，通过这个来解决 Pod 之间通信的问题。但是如果我们要跨不同的节点进行 Pod 之间的通信，我们还需要用到 Container Network Plugins (CNI) 插件，比如常见的 &lt;a href="https://www.tigera.io/project-calico/"&gt;Calico&lt;/a&gt;, &lt;a href="https://github.com/flannel-io/cni-plugin"&gt;Flannel&lt;/a&gt;, &lt;a href="https://www.weave.works/oss/net/"&gt;Weave Net&lt;/a&gt; (EKS 使用的插件）, Canal, kube-router, romana等。&lt;/p&gt; 
+&lt;p&gt;以 EKS 中的 CNI 为例子，每一个 Pod 都会和所在的 Node 节点上的 ENI 网卡上的 Secondary IP 地址做一个1对1的映射，所有的 Pod 在 VPC 层级的网络都会以这个地址作为呈现。也就是说，通过 CNI，我们可以将 Pod 的网络和其他 VPC 内的资源一样，打成一个扁平的大三层网络。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; EKS VPC CNI 架构图&lt;/p&gt; 
+&lt;p&gt;默认情况下，如前面所说，Pod 所获取的 IP 地址是和 Node 处在同一个子网和可用区的，如果我们需要对 Pod 进行自定义的化，需要用到 &lt;a href="https://docs.aws.amazon.com/eks/latest/userguide/cni-custom-network.html"&gt;CNI Custom Networking&lt;/a&gt; 的方法。&lt;/p&gt; 
+&lt;p&gt;首先执行以下简要操作：&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl set env daemonset aws-node -n kube-system AWS_VPC_K8S_CNI_CUSTOM_NETWORK_CFG=true&lt;/code&gt;&lt;br&gt; &lt;code&gt;kubectl describe daemonset aws-node --namespace kube-system | grep Image | cut -d "/" -f 2&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;接着创建文件 us-east-1a.yaml， 需要修改以下的securityGroups的 ID（这个是集群的安全组，如果是通过 eksctl 创建的集群的化，可以到安全组内寻找名字后缀是ClusterSharedNodeSecurityGroup的安全组，记录其 ID 填到下面），subnet（找到给 Pod 分配的子网，记录下其ID到下面）和 name（改为可用区的名字）。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;apiVersion: crd.k8s.amazonaws.com/v1alpha1
+kind: ENIConfig
+metadata: 
+  name: us-east-1a
+spec: 
+  securityGroups: 
+    - sg-0cea1cf2ed938xxxx
+  subnet: subnet-0295e90ae9985xxxx&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;同样在另一个可用区也创建一个类似的文件us-east-1b.yaml如下&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;apiVersion: crd.k8s.amazonaws.com/v1alpha1
+kind: ENIConfig
+metadata: 
+  name: us-east-1b
+spec: 
+  securityGroups: 
+    - sg-0cea1cf2ed938xxxx
+  subnet: subnet-0566721793f91xxxx
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：&lt;strong&gt;以上的文件名需要和 YAML 文件内的 name 保持一致。如果实际情况还涉及到多个可用区，则需要在每一个可用区都创建一个相应的文件。&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;然后我们应用这两个配置文件。这样操作之后，Pod 在启动的时候会自动根据其可用区来分配相应的网段地址。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl apply -f us-east-1a.yaml&lt;/code&gt;&lt;br&gt; &lt;code&gt;kubectl apply -f us-east-1b.yaml&lt;/code&gt;&lt;br&gt; &lt;code&gt;kubectl set env daemonset aws-node -n kube-system ENI_CONFIG_LABEL_DEF=failure-domain.beta.kubernetes.io/zone&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;使用控制台或者 EKSCTL 删除原来的 NodeGroup，使用命令行的话可参照如下：&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;eksctl delete nodegroup --cluster cluster-demo --name ng-1-workers&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;创建一个新的 Node Group 让我们自定义网段的配置生效，首先创建新 NodeGroup 的配置文件new-nodegroup.yaml。这里定义了一个名字为ng-2-workers的节点组，以及它的规格和数量。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: cluster-demo
+  region: us-east-1
+
+managedNodeGroups:
+  - name: ng-2-workers
+    labels: { role: workers }
+    instanceType: m5.xlarge
+    desiredCapacity: 2
+    volumeSize: 80
+    privateNetworking: true
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;创建完文件之后，我们用命令创建该 Node Group。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;eksctl create nodegroup --config-file=new-nodegroup.yaml&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;等待节点组创建成功，然后我们再去查看 Pod 的状态。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; &lt;strong&gt;这个时候我们看到 Pod 已经从我们自定义的网段 172.16.11.0/24 上创建了。&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;但注意，有一部分 EKS 的自带的 Pod（aws-node，kube-proxy等）地址是用 host networking，地址是不能变的。&lt;/p&gt; 
+&lt;h2&gt;一个 Node 节点如何创建无数量限制的 Pod&lt;/h2&gt; 
+&lt;p&gt;在前面的操作中我们会发现，当 Pod 创建出来后，相应的 Node 节点上会出现一个新的 ENI 网卡，网卡上会多出很多 Seconadry IP 地址。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 但不同家族和大小的实例，所能添加的网卡数量，以及每个网卡上能支持的 Secondary IP 的数量是有限的，因此在这个节点上能创建的 Pod 数量也是有限的。比如我们 m5.xlarge 实例类型只能最多创建58个 Pod。具体每个实例的数量限制可以&lt;a href="https://github.com/awslabs/amazon-eks-ami/blob/master/files/eni-max-pods.txt"&gt;查看链接&lt;/a&gt;。&lt;/p&gt; 
+&lt;p&gt;但是在2021年7月份，亚马逊云科技官方&lt;a href="https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-vpc-cni-plugin-increases-pods-per-node-limits/"&gt;发布了一个新的特性&lt;/a&gt;，来解决这个问题，&lt;strong&gt;让我们原本只能创建58个 Pod 的 m5.large实例可以创建110个 Pod，甚至更多！&lt;/strong&gt;&lt;/p&gt; 
+&lt;h3&gt;确保我们的 VPC CNI 的版本&lt;/h3&gt; 
+&lt;p&gt;要使用这个新的功能，首先我们需要确保我们的 VPC CNI 的版本要高于 1.9.0，首先使用以下命令查看目前的版本。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl describe daemonset aws-node --namespace kube-system | grep Image | cut -d "/" -f 2&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 我们看到目前集群的 VPC CNI 版本是 1.75，接下来我们先做一下升级。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;curl -o aws-k8s-cni.yaml https://raw.githubusercontent.com/aws/amazon-vpc-cni-k8s/release-1.9/config/v1.9/aws-k8s-cni.yaml&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl apply -f aws-k8s-cni.yaml&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;升级后再查看 VPC CNI 版本，已经是1.90了。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article9.png" width="624" height="78"&gt;&lt;/a&gt;开启 Prefix 这个新功能。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl set env daemonset aws-node -n kube-system ENABLE_PREFIX_DELEGATION=true&lt;/code&gt;&lt;br&gt; &lt;code&gt;kubectl set env ds aws-node -n kube-system WARM_PREFIX_TARGET=1&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;创建一个新的节点组，我们先&lt;strong&gt;定义最大 Pod 数量是110个&lt;/strong&gt;。前面我们用了一个 YAML 文件创建节点组，这次我们直接用 eksctl 命令来创建节点组。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;eksctl create nodegroup \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --cluster cluster-demo \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --region us-east-1 \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --name ng-3-workers \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --node-type m5.xlarge \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --nodes 1 \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --managed \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --node-private-networking \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --max-pods-per-node 110&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;创建好新的节点之后，我们通过命令 kubectl describe node &amp;lt;Node_NAME&amp;gt; 可以看到我们的 Pod 限制已经生效了。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article10.png" width="624" height="78"&gt;&lt;/a&gt;这里定义的数量是110个，也是开源社区比较推荐的一个节点运行 Pod 数量的最佳实践，当然，也可以根据自己的需要调大这个数值。&lt;/p&gt; 
+&lt;h2&gt;每一个 Pod 绑定单独的公网地址&lt;/h2&gt; 
+&lt;p&gt;在一些场景中，我们可能需要让每一个 Pod 绑定单独的公网地址（即一个公网地址不被多个 Pod 共享）或者甚至是每一个 Pod 绑定一个固定的公网地址。比如一些电商的场景，会用到类似功能。&lt;/p&gt; 
+&lt;p&gt;要做到这个效果，首先我们需要了解到每一个 Pod 都是对应一个 ENI 网卡的 Secondary IP 的，但是针对每一个 Secondary IP，我们可以绑定一个 EIP，来达到每一个 Pod 都能分配一个单独的公网 IP 的效果。&lt;/p&gt; 
+&lt;p&gt;首先保证 Pod 需要在一个公有子网（即这个子网有一个默认路由去往 Internet 网关），这样它才能路由出去，如果 Pod 在私有子网，那么它对外的 IP 地址永远是 NAT 网关的 IP 地址。因为前面的测试中，我们的 Pod 是在私有子网的，我们需要先将其变成公有子网。这里为了方便起见，我们重新创建一个公有子网的 EKS 集群，直接把节点启动在原来创建的公有子网就可以了。&lt;/p&gt; 
+&lt;p&gt;创建文件cluster-demo-2.yaml，并且输入如下内容，创建新的集群 cluster-demo-2。&lt;/p&gt; 
+&lt;div class="hide-language"&gt; 
+ &lt;pre&gt;&lt;code class="lang-python"&gt;apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: cluster-demo-2
+  region: us-east-1
+
+kubernetesNetworkConfig:
+  serviceIPv4CIDR: 172.17.0.0/24
+
+vpc:
+  id: "vpc-0b051aa1e4d39f9c3"
+  cidr: "172.16.0.0/16" 
+  subnets:
+    public:
+      us-east-1a:
+        id: "subnet-0bac7fc918a4a3383"
+        cidr: "172.16.100.0/24"
+      us-east-1b:
+        id: "subnet-025da2132adf0b740"
+        cidr: "172.16.101.0/24"
+
+managedNodeGroups:
+  - name: ng-1-workers
+    labels: { role: workers }
+    instanceType: m5.xlarge
+    desiredCapacity: 2
+    volumeSize: 80
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;/div&gt; 
+&lt;p&gt;然后执行&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;eksctl create cluster --config-file=cluster-demo-2.yaml&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;然后，我们需要将 &lt;a href="https://docs.aws.amazon.com/eks/latest/userguide/external-snat.html"&gt;External SNAT&lt;/a&gt;(Source Network Address Translation) 关闭掉，原因是如果 Pod 的流量要离开 VPC 网络（比如去往互联网，其他 VPC，或者本地 IDC），那么 SNAT 会将这个 Pod 的源 IP 地址转换成这个 Pod 所在的 ENI 上的 Primary IP 地址。因此如果不关闭 SNAT 功能，Pod 去访问互联网的话，会默认使用这个 Pod 所在节点的 Public IP 地址或者 EIP 地址。&lt;/p&gt; 
+&lt;p&gt;使用如下命令来关闭 External SNAT：&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl set env daemonset -n kube-system aws-node AWS_VPC_K8S_CNI_EXTERNALSNAT=true&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;External SNAT 关闭后，我们删除原来的节点组，重新创建一个新的节点组，然后启动一些新的 Pod 进行测试。&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;eksctl delete nodegroup --cluster cluster-demo-2 --name ng-1-workers&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;eksctl create nodegroup \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --cluster cluster-demo-2 \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --region us-east-1 \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --name ng-2-workers \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --node-type m5.xlarge \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --nodes 1 \&lt;/code&gt;&lt;br&gt; &lt;code&gt;&amp;nbsp; --managed&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article11.png" width="624" height="78"&gt;&lt;/a&gt;可以看到我们的 Pod 获得了 IP 地址 172.16.100.177，接着我们去到 EC2 控制台的 ENI 界面找到这个 IP 地址。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article12.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 然后我们给这个地址绑定一个弹性 IP（EIP），选中这个网卡，点击 Actions → Associate Address 即可。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article13.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 关联好后，我们试下进去 Pod 查看这个公有 IP 地址是否生效吧。&lt;/p&gt; 
+&lt;p&gt;通过命令 &lt;code&gt;kubectl get pods -A -o wide&lt;/code&gt; 我们可以找到运行的 Pod 的名字，然后通过&lt;code&gt;kubectl exec kubernetes-bootcamp-57978f5f5d-qp9hg — curl&amp;nbsp;cip.cc&lt;/code&gt; 来进入到容器查看自己的一个公网 IP 地址。&lt;/p&gt; 
+&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article14.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/understand-the-network-planning-in-amazon-eks-in-one-article14.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 我们发现，这个容器已经对外是用 34.196.240.56 这个公网 IP 地址了，这个就是我们刚才关联的 EIP。&lt;/p&gt; 
+&lt;p&gt;除了以上的方式之外，我们还可以通过 AWS CLI 的方法来关联 EIP 和我们的 Pod。这样，我们可以做到不同的 Pod 对外的公网地址是不一样的，或者我们可以根据业务的逻辑来对不同的应用绑定不同的 IP 地址。&lt;/p&gt; 
+&lt;h2&gt;一个 Pod 如何绑定多张网卡&lt;/h2&gt; 
+&lt;p&gt;默认情况下，一个 Pod 会绑定一个 VPC 的 ENI 网卡，并消耗一个 Secondary IP 地址，如果需要一个 Pod 绑定多个地址或者网卡的话，需要用到 Multus 的 CNI 插件，具体可以&lt;a href="https://github.com/aws-samples/eks-install-guide-for-multus/blob/main/README.md"&gt;查看官方文档&lt;/a&gt;，在这里就不再详细展开了。通过 Multus 插件结合上面一小节讲解的公网 IP 映射方法，我们也可以做到一个 Pod 绑定多个公网 IP 地址。&lt;/p&gt; 
+&lt;h2&gt;总结&lt;/h2&gt; 
+&lt;p&gt;通过这篇博客，我们了解到了在多区域，多 VPC 或者是混合云的容器场景中，我们往往需要对 K8S 网络进行提前的规划，以防止未来需要紧急扩容的情况。对不同 K8S 环境，我们可以自定义 Service 服务网络，Node 节点网络，Pod 容器网络，以及每一个 Pod 挂单独的公有 IP 地址甚至是多个公有 IP。另外，通过在 VPC 内附加新的网段，或者利用新的 EKS IP Address Prefix 功能，我们可以在有限的网段或者有限的节点上跑更多数量的 Pod。&lt;/p&gt; 
+&lt;h2&gt;参考文献&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href="https://www.weave.works/technologies/kubernetes-on-aws/"&gt;https://www.weave.works/technologies/kubernetes-on-aws/&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://chrislovecnm.com/kubernetes/cni/choosing-a-cni-provider/"&gt;https://chrislovecnm.com/kubernetes/cni/choosing-a-cni-provider/&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/#kubenet"&gt;https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/#kubenet&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://eksctl.io/introduction/"&gt;https://eksctl.io/introduction/&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://github.com/awslabs/amazon-eks-ami/blob/master/files/eni-max-pods.txt"&gt;https://github.com/awslabs/amazon-eks-ami/blob/master/files/eni-max-pods.txt&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://github.com/aws/amazon-vpc-cni-k8s/blob/master/docs/prefix-and-ip-target.md"&gt;https://github.com/aws/amazon-vpc-cni-k8s/blob/master/docs/prefix-and-ip-target.md&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/eks/latest/userguide/managing-vpc-cni.html"&gt;https://docs.aws.amazon.com/eks/latest/userguide/managing-vpc-cni.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href="https://docs.aws.amazon.com/eks/latest/userguide/external-snat.html"&gt;https://docs.aws.amazon.com/eks/latest/userguide/external-snat.html&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;div class="blog-author-image"&gt;
+   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/peiqingx.jpg" width="125"&gt;
+  &lt;/div&gt; 
+  &lt;h3 class="lb-h4"&gt;肖培庆&lt;/h3&gt; 
+  &lt;p&gt;亚马逊AWS解决方案架构师，负责基于AWS的云计算方案架构的咨询和设计，同时致力于AWS云服务在国内的应用和推广。现主要负责初创企业行业解决方案，曾任职于IBM，联想，Avnet，多年大型企业网络架构和运维经验。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
 		<title>使用 Amazon Athena 做漏斗分析</title>
 		<link>https://aws.amazon.com/cn/blogs/china/athena-funnel-sum-funnel-count/</link>
 				<pubDate>Wed, 08 Sep 2021 04:24:15 +0000</pubDate>
@@ -1451,86 +1686,6 @@ tcpdump -i eth0 host 10.0.0.16 # the private IP address of the bastion host
 &lt;p&gt;&amp;nbsp;&lt;/p&gt; 
 &lt;p&gt;如果您想了解有关这些新勇士的详情，或者与附近的勇士联系，请访问 &lt;a href="https://aws.amazon.com/developer/community/heroes/" target="_blank" rel="noopener noreferrer"&gt;AWS 勇士网站&lt;/a&gt;或浏览 &lt;a href="https://aws.amazon.com/developer/community/heroes/content-library/" target="_blank" rel="noopener noreferrer"&gt;AWS 勇士内容库&lt;/a&gt;。&lt;/p&gt; 
 &lt;p&gt;— &lt;a href="https://twitter.com/rossbarich" target="_blank" rel="noopener noreferrer"&gt;Ross&lt;/a&gt;；&lt;/p&gt;</content:encoded>
-										</item>
-		<item>
-		<title>通过亚马逊云科技Marketplace中合作伙伴（Zenlayer）的产品来加速Amazon S3的访问</title>
-		<link>https://aws.amazon.com/cn/blogs/china/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace/</link>
-				<pubDate>Fri, 03 Sep 2021 03:59:58 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Artificial Intelligence]]></category>
-		<category><![CDATA[Marketplace]]></category>
-
-		<guid isPermaLink="false">19e4e87c516f11f5d35a00626639a9bb0cda9724</guid>
-				<description>AWS Marketplace 是一个精挑细选的数字化产品目录，您可以使用它来查找、购买、部署和管理构建解决方案及运营业务所需的第三方软件、数据和服务。 AWS Marketplace 囊括了众多常见类别下的数千个软件名录，例如安全、联网、存储、机器学习、IoT、商业智能、数据库和开发运营。 AWS Marketplace 还提供灵活的定价选项和多种部署方法，从而简化了软件的许可和采购。此外, AWS Marketplace 包括 AWS Data Exchange 提供的数据产品。</description>
-								<content:encoded>&lt;h2&gt;1.&amp;nbsp;&amp;nbsp; 相关服务及背景介绍&lt;/h2&gt; 
-&lt;p&gt;&lt;strong&gt;Amazon S3&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;Amazon Simple Storage Service (Amazon S3) 是一种面向 Internet 的存储服务。该服务旨在降低网络规模计算的难度。&lt;/p&gt; 
-&lt;p&gt;Amazon S3 提供了一个简单 Web 服务接口，可用于随时在 Web 上的任何位置存储和检索任何数量的数据。此服务让所有开发人员都能访问同一个具备高扩展性、可靠性、安全性和快速价廉的数据存储基础设施，Amazon 用它来运行其全球的网站网络。此服务旨在为开发人员带来最大化的规模效益。&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;Amazon CloudFront&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;Amazon CloudFront 是一项加快将静态和动态 Web 内容（例如 .html、.css、.js 和图像文件）分发给用户的速度的 Web 服务。CloudFront 通过全球数据中心（称作边缘站点）网络传输内容。当用户请求您用 CloudFront 提供的内容时，请求被路由到提供最低延迟（时间延迟）的边缘站点，从而以尽可能最佳的性能传送内容。&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;亚马逊云科技&lt;/strong&gt;&lt;strong&gt;Marketplace&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;AWS Marketplace 是一个精挑细选的数字化产品目录，您可以使用它来查找、购买、部署和管理构建解决方案及运营业务所需的第三方软件、数据和服务。 AWS Marketplace 囊括了众多常见类别下的数千个软件名录，例如安全、联网、存储、机器学习、IoT、商业智能、数据库和开发运营。 AWS Marketplace 还提供灵活的定价选项和多种部署方法，从而简化了软件的许可和采购。此外, AWS Marketplace 包括 AWS Data Exchange 提供的数据产品。&lt;/p&gt; 
-&lt;p&gt;您只需几次单击即可快速启动预配置的软件，并可选择 Amazon 系统映像 (AMI) 和软件即服务 (SaaS) 格式以及其他格式的软件解决方案。此外，您还可以浏览和订阅数据产品。灵活的定价选项包括免费试用、每小时、每月、每年、多年和自带许可 (BYOL) 模式。所有这些定价选项都从一个来源计费。AWS 会处理账单和付款，费用将显示在您的 AWS 账单上。&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;应用系统或最终用户对于&lt;/strong&gt;&lt;strong&gt;S3对象的访问需求&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;由于Amazon S3的灵活性与可靠性，亚马逊云科技的许多客户都使用S3用于对象的存储，Amazon S3可以用于多种用途，比如数据湖的底层存储、备份文件的存储、日志的收集存储等。&lt;/p&gt; 
-&lt;p&gt;除此之外，许多应用系统也会使用S3作为底层的存储之一，比如一些在线商城系统或者社交系统，会将图片等静态文件存储在Amazon S3之中，而系统的架构设计可能需要最终访问用户通过联合认证后获得相应的角色权限去访问这些位于Amazon S3中的对象。&lt;/p&gt; 
-&lt;p&gt;应用系统在进行全球化的布局过程中，往往需要适用于全球化的客户，这些客户的地理位置较为分散，尤其一些位于偏远或特殊区域的客户，他们可能离应用系统或者Amazon S3所处的区域较远或无法通过亚马逊云科技底层网络到达，这时广域化的互联网会造成较大的延迟和不稳定，这会导致部分用户的体验下降或应用程序无法正常运作。&lt;/p&gt; 
-&lt;h2&gt;2.&amp;nbsp;&amp;nbsp; ZGA（Global Accelerator）功能介绍&lt;/h2&gt; 
-&lt;p&gt;Zenlayer Global Accelerator为全球用户提高了应用程序的可用性和性能。即时加速用户对应用程序、网站和/或在线平台的访问，包括高动态内容（如实时流媒体和播放器操作）或安全操作（如用户身份验证和支付）。&lt;/p&gt; 
-&lt;p&gt;我们的合作伙伴的平台利用180多个边缘位置、专用全球主干网和先进的智能路由技术实现与客户的高速连接，消除延迟和数据包丢失，即使在“最后一英里”也不例。ZGA拥有稳定的高速连接，安全的防护，并采用拥有骨干网络和智能路由技术的全球节点，使用户能够通过接入最近的节点来实现高速连接访问源站，消除跨境跨域访问过程里用户经常遇到的网页加载慢、通讯的延迟以及卡顿。&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;联合解决方案优势 ：&lt;/strong&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;直接通过VBR对接亚马逊云科技源站，中间节点与节点之间全程骨干网络 ，回源更迅速稳定，隐私性+性能双保障。&lt;/li&gt; 
- &lt;li&gt;通过智能解析和全球调度系统为用户选取最优最近的接入方式 。&lt;/li&gt; 
- &lt;li&gt;支持IP/域名加速。支持http，https，WebSocket，WSS，FTP，SSH，TCP/UDP等多种协议。支持自定义端口及支持私有协议。&lt;/li&gt; 
- &lt;li&gt;支持源站负载均衡及实时监控，SSL加密传输，黑白名单及IP ALC等功能保护源站安全。&lt;/li&gt; 
- &lt;li&gt;操作简便，交付敏捷。通过亚马逊云科技Marketplace可以直接试用和购买合作伙伴的产品，加速平台配备了配置界面，只需几分钟就可以将客户接入加速。&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;h2&gt;3.&amp;nbsp;&amp;nbsp; ZGA优化Amazon S3常用架构&lt;/h2&gt; 
-&lt;p&gt;客户在亚马逊云科技的某个Region上使用了S3服务，期望可以覆盖全球各地用户的访问&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; ZGA加速S3常用架构&lt;/p&gt; 
-&lt;p&gt;对于可控的用户，固定办公场所可以安装网关就近连接到Zenlayer的边缘POP，获取S3的流量送到全球骨干进行加速。移动用户安装客户端，随时体验S3加速效果。&lt;/p&gt; 
-&lt;p&gt;而对于无法安装硬件网关或客户端的用户，可以直接访问由Zenlayer提供的域名(如：www.xxx.com)替代S3原本的域名，通过Zenlayer全球智能DNS解析服务，自动将访问S3的流量牵引至就近POP，再通过全球骨干转发到距离S3源站最近的POP进行转发，实现对S3的加速.&lt;/p&gt; 
-&lt;h2&gt;4.&amp;nbsp;&amp;nbsp; ZGA集成Amazon Cloudfront加速全球S3&lt;/h2&gt; 
-&lt;p&gt;客户在亚马逊云科技上使用了Amazon S3服务，并在部分节点使用了Amazon CloudFront覆盖当地客户，但当最终用户的某些区域不在CloudFront覆盖范围内，无法让这些用户都快速的访问S3上的内容。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 例如：&lt;/p&gt; 
-&lt;p&gt;用户在美国东部署了S3源站，通过CloudFront服务加速东南亚用户，CloudFront东南亚节点选择在新加坡，本地使用者访问质量得到了优化，但东南亚其它地区的使用者通过互联网访问到CloudFront新加坡节点时体验不佳，导致整体访问效果不好。&lt;/p&gt; 
-&lt;p&gt;ZGA的方案会提供给用户一个额外的URL地址，客户在域名控制平台使用该地址替换CloudFront的CNAME地址，使用者在访问S3域名时，通过智能DNS的解析，会判断出CloudFront无法覆盖的地址，并将这些流量会返回Zenlayer边缘POP的IP地址，如泰国、菲律宾、印尼等，流量就近接入后再通过全球骨干送到新加坡的CloudFront节点，最终由CloudFront节点经亚马逊云科技转发到美国源站，动态快速的扩充了CloudFront的全球覆盖能力。&lt;/p&gt; 
-&lt;h2&gt;5.&amp;nbsp;&amp;nbsp; ZGA加速S3在不同Region的传输&lt;/h2&gt; 
-&lt;p&gt;用户在亚马逊云科技的多个Region都是用了Amazon S3的服务，不同Region间的S3需要做数据同步。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; Zenlayer向客户在亚马逊云科技中不同的Region发起DX连接，按照就近选择原则，通过最近的POP打通到客户不同Region的连接；&lt;/p&gt; 
-&lt;p&gt;由于S3不属于Private服务，客户需要建立Public VIF并绑定到VGW，建立到Zenlayer骨干网的连接通道；&lt;/p&gt; 
-&lt;p&gt;不同的Region通过BGP communities控制BGP宣告的路由信息，只发布本Region的所有public IP，Zenlayer通过DX连接将两个区域的路由同步；&lt;/p&gt; 
-&lt;p&gt;使用亚马逊云科技的S3数据同步功能进行数据的复制时，会依据路由规则通过Zenlayer骨干完成传输；&lt;/p&gt; 
-&lt;h2&gt;6.&amp;nbsp;&amp;nbsp; 如何通过亚马逊云科技Marketplace来交付ZGA&lt;/h2&gt; 
-&lt;ul&gt; 
- &lt;li&gt;合约产品下单&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;步骤一: 打开 &lt;a href="https://aws.amazon.com/marketplace/pp/B08RNQC2WJ"&gt;https://aws.amazon.com/marketplace/pp/B08RNQC2WJ&lt;/a&gt; 后，点击 “Continue to Subscribe” 按钮&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤二: 选择合约期限和续约设置&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤三: 选择您所需要的带宽步骤二: 选择合约期限和续约设置&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤四: 点击“Create Contract” 按钮来创建合约&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤五: 支付此合约&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤六: 点击 “Setup your account“ 按钮设置您的账户，之后将会进入到Zenlayer的Portal网址&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace9.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace9.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤七: 开始注册Zenlayer账户，可继续遵循用户指导步骤&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;订阅产品下单&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;步骤一: 打开 &lt;a href="https://aws.amazon.com/marketplace/pp/B08S3F2PCF"&gt;https://aws.amazon.com/marketplace/pp/B08S3F2PCF&lt;/a&gt; 后，点击 “Continue to Subscribe” 按钮&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace11.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace11.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤二: 确认按流量收费价格后点击“Subscribe” 按钮&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace12.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace12.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤三: 点击“Setup your account“ 按钮进入到Zenlayer Portal网站设置您的账户步骤二: 确认按流量收费价格后点击“Subscribe” 按钮&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace13.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace13.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 步骤四: 开始注册Zenlayer账户，可继续遵循用户指导步骤&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace14.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/accelerate-the-access-of-amazon-s3-through-the-products-of-the-partner-zenlayer-in-the-amazon-cloud-technology-marketplace14.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h2&gt;7.&amp;nbsp;&amp;nbsp; 小结步骤四: 开始注册Zenlayer账户，可继续遵循用户指导步骤&lt;/h2&gt; 
-&lt;p&gt;通过本文的介绍，您应该初步了解了如何通过亚马逊云科技以及合作伙伴Zenlayer的联合解决方案来加速您的应用以及终端用户对于Amazon S3中对象的访问，以及如果通过亚马逊云科技Marketplace来对合作伙伴的产品进行试用和购买，如果您需要更多的信息，可以参考亚马逊云科技Marketplace官方文档以及合作伙伴官方网站。&lt;/p&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/mingyue.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;张明月&lt;/h3&gt; 
-  &lt;p&gt;合作伙伴解决方案架构师&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/liubing.png" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;刘冰&lt;/h3&gt; 
-  &lt;p&gt;Zenlayer，产品经理&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
 										</item>
 	</channel>
 </rss>

@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 08 Sep 2021 12:45:33 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Sep 2021 12:55:42 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[香港警方逮捕維園守夜活動組織團體負責人]]></title>
+            <link><![CDATA[https://cn.nytimes.com/china/20210908/hong-kong-tiananmen-square-vigil/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[警方要求獲得支聯會自「六四」期間成立以來的所有資金來源和成員信息，以調查其是否與外國勢力勾結，違反國安法。拒絕提供信息後，該團體至少四名成員被捕。<p><img src='https://static01.nyt.com/images/2021/09/08/world/08hk-crackdown/merlin_194322624_3c2ac69d-9429-4687-960b-2fec5c7b8ed0-articleLarge.jpg' alt='被捕者包括香港市民支援愛國民主運動聯合會的女副主席鄒幸彤。週二，她在香港接受了媒體採訪。 Anthony Kwan/Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Anthony Kwan/Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>被捕者包括香港市民支援愛國民主運動聯合會的女副主席鄒幸彤。週二，她在香港接受了媒體採訪。</p>                    ]]></description>
+            <category>中國</category>
+            <dc:creator><![CDATA[王霜舟]]></dc:creator>
+            <pubDate>Wed, 08 Sep 2021 12:46:30 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/china/20210908/hong-kong-tiananmen-square-vigil/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[中國是時候改變「零容忍」防疫政策了]]></title>
             <link><![CDATA[https://cn.nytimes.com/opinion/20210908/china-covid-pandemic-delta/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[THOMAS KAPLAN,ALAN RAPPEPORT]]></dc:creator>
             <pubDate>Thu, 02 Sep 2021 03:39:52 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210902/biden-china-trade-policy/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[拜登：美國用軍事力量「重塑其他國家」的時代已結束]]></title>
-            <link><![CDATA[https://cn.nytimes.com/usa/20210902/biden-defends-afghanistan-withdrawal/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[拜登稱將避免動用大量軍隊的地面戰爭，更關注與中俄在經濟和網路安全領域競爭，並側重於使用可以在沒有大量駐軍的情況下發動打擊的軍事技術來對抗威脅。<p><img src='https://static01.nyt.com/images/2021/08/31/world/31afghanistan-briefing-biden2/31afghanistan-briefing-biden2-articleLarge-v2.jpg' alt='週二，白宮，拜登總統就結束阿富汗戰爭發表講話。 Doug Mills/The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Doug Mills/The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>週二，白宮，拜登總統就結束阿富汗戰爭發表講話。</p>                    ]]></description>
-            <category>美國</category>
-            <dc:creator><![CDATA[MICHAEL D. SHEAR,JIM TANKERSLEY]]></dc:creator>
-            <pubDate>Thu, 02 Sep 2021 02:35:47 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210902/biden-defends-afghanistan-withdrawal/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
