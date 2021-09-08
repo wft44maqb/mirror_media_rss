@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-09-08T13:01:13Z</updated>
+ <updated>2021-09-08T13:07:33Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,17 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59113809</id>
+  <title><![CDATA[驻阿富汗老兵的创伤]]></title>
+  <updated>2021-09-08T12:44:00Z</updated>
+  <published>2021-09-08T12:44:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/驻阿富汗老兵的创伤/av-59113809?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[对于许多曾经部署阿富汗的德国退伍军人而言，阿富汗局势的戏剧性发展给他们带来了心理创伤。埃格特(Andreas Eggert)对此深有体会。他警告说，那些对政府丧失信心的老兵可能走向极端。]]></summary>
+  <category term="时政风云"/>
+  <link rel="enclosure" type="video/mp4" length="15481276" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210907_001_c09ffbchi_210907_trauma_sd.mp4" title="驻阿富汗老兵的创伤"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59099495</id>
   <title><![CDATA[德国大选是如何进行的？]]></title>
@@ -332,16 +343,5 @@
   <summary><![CDATA[科技的日新月异，让空拍机永远飘浮空中变成可能。这台靠氦气球飞行的无人空拍机利用太阳能充电并可持续飘浮，从“上帝的视角”拍摄各种美丽景致。]]></summary>
   <category term="科技环境"/>
   <link rel="enclosure" type="video/mp4" length="6766918" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210729_001_drone_01r_sd.mp4" title="上帝视角：永远飘浮的气球空拍机"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58687252</id>
-  <title><![CDATA[德国灾后重建 难民组团当志工]]></title>
-  <updated>2021-07-29T10:55:00Z</updated>
-  <published>2021-07-29T10:55:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国灾后重建-难民组团当志工/av-58687252?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[德国西部洪灾过后，大量志愿者前往灾区协助清理淤泥，其中也不乏难民的身影。一些难民自发组织了志工小组协助灾区重建，以此报答德国在难民危机中所伸出的援手。]]></summary>
-  <category term="科技环境"/>
-  <link rel="enclosure" type="video/mp4" length="14654740" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210729_001_syrerhelfen_01r_sd.mp4" title="德国灾后重建 难民组团当志工"/>
  </entry>
 </feed>
