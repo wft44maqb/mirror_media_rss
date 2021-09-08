@@ -6,9 +6,18 @@
     <language>zh</language>
     <copyright>Copyright 2018  The New York Times Company</copyright>
     <ttl>30</ttl>
-    <lastBuildDate>Wed, 08 Sep 2021 14:56:54 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Sep 2021 15:07:05 +0800</lastBuildDate>
     <generator>nytimes_cn_rss_generator</generator>
     <atom:link href="https://cn.nytimes.com/rss/zh-hant/index.html" rel="self" type="application/rss+xml" />
+            <item>
+            <title><![CDATA[美新冠溯源報告部分解密，未就病毒起源下定論]]></title>
+            <link><![CDATA[https://cn.nytimes.com/usa/20210830/covid-origin-lab-leak/zh-hant/?utm_source=RSS]]></link>
+            <description><![CDATA[美國當局表示，在沒有來自中國的更多合作或新信息源的情況下，情報機構不大可能做出結論。拜登則表示將繼續努力找出病毒起源，並呼籲中國提高溯源透明度。<p><img src='https://static01.nyt.com/images/2021/08/27/us/politics/27dc-virus-wuha/merlin_183163878_60983811-fc10-4d0e-a166-e2a6614afa77-articleLarge.jpg' alt='雖然武漢的兩個實驗室在新冠病毒大流行前一直在研究冠狀病毒，但美國情報機關把注意力主要集中在武漢病毒研究所的工作上。 Hector Retamal/Agence France-Presse — Getty Images'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Hector Retamal/Agence France-Presse — Getty Images</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>雖然武漢的兩個實驗室在新冠病毒大流行前一直在研究冠狀病毒，但美國情報機關把注意力主要集中在武漢病毒研究所的工作上。</p>                    ]]></description>
+            <category>美國</category>
+            <dc:creator><![CDATA[JULIAN E. BARNES]]></dc:creator>
+            <pubDate>Wed, 08 Sep 2021 03:01:19 +0800</pubDate>
+            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/usa/20210830/covid-origin-lab-leak/zh-hant/]]></guid>
+        </item>
             <item>
             <title><![CDATA[習近平提「共同富裕」，敦促中國富豪分享財富]]></title>
             <link><![CDATA[https://cn.nytimes.com/china/20210907/china-xi-common-prosperity/zh-hant/?utm_source=RSS]]></link>
@@ -179,15 +188,6 @@
             <dc:creator><![CDATA[STEVEN ERLANGER]]></dc:creator>
             <pubDate>Thu, 02 Sep 2021 05:13:51 +0800</pubDate>
             <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/world/20210902/taliban-un-afghanistan-us/zh-hant/]]></guid>
-        </item>
-            <item>
-            <title><![CDATA[美國商界敦促拜登推進對華貿易政策]]></title>
-            <link><![CDATA[https://cn.nytimes.com/business/20210902/biden-china-trade-policy/zh-hant/?utm_source=RSS]]></link>
-            <description><![CDATA[美國商界表示，他們對拜登執政七個月以來的對華態度感到失望。目前中美兩國關係仍然存在嚴重裂痕，商界正大力遊說政府取消關稅，但白宮幾乎沒有釋放明確信息。<p><img src='https://static01.nyt.com/images/2021/08/27/business/00dc-chinatrade01alt/merlin_182016750_9e93df61-228f-4988-bbfa-fcfe3f8a8c79-articleLarge.jpg' alt='加利福尼亞的奧克蘭港是接收中國進口貨物的主要港口之一。任何降低關稅的決定都可能在美國產生政治影響，對中國的強硬心態已經滲透到美國兩個主要政黨。 Jim Wilson/The New York Times'/></p>                    <p style='text-align: right; color: gray; font-size: 11px!important; line-height: 10px;'>Jim Wilson/The New York Times</p>                    <p style='text-align: left; color: gray; font-size: 11px!important; line-height: 10px;'>加利福尼亞的奧克蘭港是接收中國進口貨物的主要港口之一。任何降低關稅的決定都可能在美國產生政治影響，對中國的強硬心態已經滲透到美國兩個主要政黨。</p>                    ]]></description>
-            <category>商業與經濟</category>
-            <dc:creator><![CDATA[THOMAS KAPLAN,ALAN RAPPEPORT]]></dc:creator>
-            <pubDate>Thu, 02 Sep 2021 03:39:52 +0800</pubDate>
-            <guid isPermaLink="true"><![CDATA[https://cn.nytimes.com/business/20210902/biden-china-trade-policy/zh-hant/]]></guid>
         </item>
     </channel>
 </rss>
