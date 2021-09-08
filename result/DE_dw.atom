@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-08T05:29:43Z</updated>
+ <updated>2021-09-08T05:33:21Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59117884</id>
+  <title><![CDATA[专访：国安法赋予香港执法机关更大权力进行政治打压]]></title>
+  <updated>2021-09-08T05:29:00Z</updated>
+  <published>2021-09-08T05:29:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/专访：国安法赋予香港执法机关更大权力进行政治打压/a-59117884?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[香港国安法生效一年後，已有数十人在未完成受审的情况下便遭关押。香港法律专家黎恩灏认为，国安法不仅让司法系统承受巨大压力，也严重威胁被告原本应享有的权利。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59117835</id>
   <title><![CDATA[「塔利班想剷除我们」 阿富汗同志悲歌]]></title>
@@ -175,16 +185,6 @@
   <category term="科技环境"/>
  </entry>
  <entry>
-  <id>tag:dw.com,2021:59101575</id>
-  <title><![CDATA[德语媒体：名不副实的伙伴关系]]></title>
-  <updated>2021-09-06T15:01:00Z</updated>
-  <published>2021-09-06T15:01:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：名不副实的伙伴关系/a-59101575?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[刚刚掌控阿富汗的塔利班，近来对北京赞不绝口，也希望尽快获得来自中国的援助和投资。然而，对北京来说，同塔利班结盟也许并非明智的选项。]]></summary>
-  <category term="评论分析"/>
- </entry>
- <entry>
   <id>tag:dw.com,2021:59101807</id>
   <title><![CDATA[“饭圈整治”扩大到韩娱圈 多个粉丝团被禁言]]></title>
   <updated>2021-09-06T15:01:00Z</updated>
@@ -193,6 +193,16 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/饭圈整治-扩大到韩娱圈-多个粉丝团被禁言/a-59101807?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[中国对娱乐圈的整治行动继续扩大，在多名艺人遭封杀、被下架之后，“饭圈”也成为整治目标。近日，多个韩国明星的中国粉丝应援团在微博的账号被禁言，其中BTS成员朴智旻的中国粉丝后援会曾为其生日发起应援行动，1小时集资超过230万元。]]></summary>
   <category term="文化经纬"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59101575</id>
+  <title><![CDATA[德语媒体：名不副实的伙伴关系]]></title>
+  <updated>2021-09-06T15:01:00Z</updated>
+  <published>2021-09-06T15:01:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：名不副实的伙伴关系/a-59101575?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[刚刚掌控阿富汗的塔利班，近来对北京赞不绝口，也希望尽快获得来自中国的援助和投资。然而，对北京来说，同塔利班结盟也许并非明智的选项。]]></summary>
+  <category term="评论分析"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59101217</id>
@@ -212,16 +222,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/不满女性工作-阿富汗男子在柏林捅伤女园丁/a-59101227?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[柏林一名58岁园丁脖子被一陌生男子捅数刀。据悉，袭击者是因无法容忍女性工作。 ]]></summary>
-  <category term="时政风云"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59096806</id>
-  <title><![CDATA[卡扎菲儿子出狱 ]]></title>
-  <updated>2021-09-06T13:24:00Z</updated>
-  <published>2021-09-06T13:24:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/卡扎菲儿子出狱/a-59096806?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[在其父穆阿迈尔·卡扎菲（Muammar Gaddafi）统治利比亚的时代，萨阿迪（Saadi）过着花花公子生活。卡扎菲政权垮台后数年，他被监禁。现在，萨阿迪重获自由。]]></summary>
   <category term="时政风云"/>
  </entry>
  <entry>

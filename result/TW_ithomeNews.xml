@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest/rss20/2529" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.ithome.com.tw/latest" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iThome 新聞</title>
-    <link>https://www.ithome.com.tw/latest/rss20/2529</link>
+    <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss/rss20/2529" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>蘋果宣布要在9月14日舉行虛擬發表會</title>
+    <link>https://www.ithome.com.tw/news/146592</link>
+    <description> 蘋果行銷副總裁Greg Joswiak本周透過Twitter對外證實，蘋果即將於下周二（9/14）舉行California Streaming虛擬發表會，而媒體亦已收到邀請函，外界期望蘋果當天將會發表新一代的iPhone、Apple Watch及AirPods產品。
+這場發表會的時間點為太平洋夏令時間（PDT）9月14日的早上10點，約是臺北時間9月15日的凌晨1點，屆時將直接於線上轉播，開放全球的蘋果粉絲參與。</description>
+     <pubDate>2021-09-08  01:09:08</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146592</guid>
+  </item>
+  <item>
     <title>微軟加入開源雲平臺組織OpenInfra基金會</title>
     <link>https://www.ithome.com.tw/news/146590</link>
     <description> 前身為OpenStack基金會的產業組織OpenInfra 基金會昨（7）日宣布，微軟將加入以貢獻雲端管理技術，以及將OpenStack技術整合入Azure平臺。</description>
@@ -250,16 +259,6 @@ Atlassian為一澳洲軟體業者，所打造的Confluence是個基於網頁的�
      <pubDate>2021-09-06  02:09:14</pubDate>
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146555</guid>
-  </item>
-  <item>
-    <title>從賣筆電到研發個人化疫苗，施振榮揭露智慧醫療戰略布局提出2大建議</title>
-    <link>https://www.ithome.com.tw/news/146546</link>
-    <description> 宏碁集團創辦人暨榮譽董事長施振榮5日在臺灣智慧醫療高峰會上指出，智慧醫療是臺灣最有可能拿下世界第一的產業，因此在智慧醫療戰略佈局上，他呼籲政府要用政策助攻，如衛福部以發展管制並重、食藥署TFDA認證智慧醫材得注重時效性、或健保給付要納入TFDA核准醫材等。
-瞄準最有可能拿下世界第一的醫療AI，用新微笑曲線談商業模式
-在施振榮眼中，醫療AI是臺灣最有潛力拿下世界第一的產業。企業若要踏進這個產業，就得思考商業模式。繼1992年提出著名的微笑曲線模式後，施振榮近年再提出一個多維的「新微笑曲線」模式。</description>
-     <pubDate>2021-09-06  02:09:50</pubDate>
- <dc:creator>王若樸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146546</guid>
   </item>
   </channel>
 </rss>
