@@ -9,9 +9,9 @@
             <link>https://cn.wsj.com/zh-hant</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Sep 2021 02:55:07 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Sep 2021 03:01:13 GMT</lastBuildDate>
         <atom:link href="https://cn.wsj.com/zh-hant/rss" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 08 Sep 2021 02:55:07 GMT</pubDate>
+        <pubDate>Wed, 08 Sep 2021 03:01:13 GMT</pubDate>
         <copyright><![CDATA[Copyright &copy; Dow Jones &amp; Company, Inc.]]></copyright>
         <language><![CDATA[zh-tw]]></language>
         <category><![CDATA[新聞]]></category>
@@ -96,6 +96,13 @@
             <link>https://cn.wsj.com/articles/%E8%98%8B%E6%9E%9C%E5%85%AC%E5%8F%B8%E6%96%99%E5%9C%A89%E6%9C%8814%E6%97%A5%E6%B4%BB%E5%8B%95%E4%B8%8A%E7%99%BC%E5%B8%83%E6%96%B0%E6%AC%BEiphone-11631059205</link>
             <guid isPermaLink="false">CT-BIZ-20210908074850</guid>
             <pubDate>Wed, 08 Sep 2021 02:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[微軟收購影片編輯軟體公司Clipchamp]]></title>
+            <description><![CDATA[<img width="1280" height="854" src="https://si.wsj.net/public/resources/images/S1-LC492_WINDOW_OR_20210713163311.jpg" class="webfeedsFeaturedVisual" alt=""/><p>微軟周二宣布已收購影片編輯軟體公司Clipchamp，交易條款未披露。</p>]]></description>
+            <link>https://cn.wsj.com/articles/%E5%BE%AE%E8%BB%9F%E6%94%B6%E8%B3%BC%E5%BD%B1%E7%89%87%E7%B7%A8%E8%BC%AF%E8%BB%9F%E9%AB%94%E5%85%AC%E5%8F%B8clipchamp-11631070011</link>
+            <guid isPermaLink="false">CT-TEC-20210908103016</guid>
+            <pubDate>Wed, 08 Sep 2021 03:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[英國將加稅支應防疫成本，走在西方國家前列]]></title>

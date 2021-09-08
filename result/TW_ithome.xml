@@ -6,6 +6,26 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>Windows RCE漏洞已有鎖定Office用戶的攻擊，微軟緊急提供緩解指示</title>
+ <link>https://www.ithome.com.tw/news/146584</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444&quot; target=&quot;_blank&quot;&gt;微軟周二緊急公告&lt;/a&gt;Windows中一個遠端程式碼執行（RCE）漏洞已經有攻擊活動，Office用戶可能因開啟惡意文件中標。由於目前尚無修補程式，微軟緊急提供緩解方法。&lt;/p&gt;
+&lt;p&gt;編號CVE-2021-40444的漏洞，位於Windows內微軟瀏覽器引擎MSHTML，它用於早期微軟瀏覽器如IE（internet explorer）或舊版Edge，但也用於微軟Office中。攻擊者可撰寫內含惡意ActiveX控制的Office文件，由Office程式開啟來觸發。攻擊者必須誘使用戶開啟Office文件，但一旦成功，就可能在用戶電腦上執行任意程式碼，甚至接管整臺系統。&lt;/p&gt;
+&lt;p&gt;CVE-2021-40444風險值達8.8。本漏洞並非權限升級類型，因此低權限用戶安全風險會小於管理員帳號用戶。&lt;/p&gt;
+&lt;p&gt;這項漏洞分別由EXPMON研究人員Haifei Li、Mandiant研究人員 Dhanesh Kizhakkinan、Bryce Abdo及Genwei Jiang ，以及微軟安全情報中心研究人員Rick Cole發現。&lt;/p&gt;
+&lt;p&gt;網路上已經有針對本漏洞的攻擊活動。&lt;a href=&quot;https://twitter.com/EXPMON_/status/1435309115883020296&quot; target=&quot;_blank&quot;&gt;EXPMON偵測到鎖定Office用戶的進階零時差攻擊&lt;/a&gt;，該公司已在目前最常見的Windows 10版Office 2019及365產品上複製出攻擊。&lt;/p&gt;
+&lt;p&gt;微軟表示細節仍在調查中，意謂著尚未有修補程式。目前已知受影響的Windows版本包括Windows 7、8.1、Windows 10（涵括1607、1809到20H2）、Server 2008、2012、2016。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/microsoft-shares-temp-fix-for-ongoing-office-365-zero-day-attacks/&quot; target=&quot;_blank&quot;&gt;BleepingComputer引述EXPMON研究人員Haifei Li指出&lt;/a&gt;，攻擊者傳送的是.docx檔，用戶開啟後，Word即載入瀏覽器引擎、開啟攻擊者控制的遠端惡意網頁，同時啟用ActiveX控制下載惡意Cpl檔。&lt;/p&gt;
+&lt;p&gt;但微軟指出，Office預設開啟來自網路上的文件時，都會啟用「保護模式」或沙箱保護Application Guard for Office，兩者都能防範攻擊。但如果用戶關閉保護模式來啟用文件就會受害。&lt;/p&gt;
+&lt;p&gt;此外，微軟的Defender Antivirus及Defender for Endpoint也可偵測到。升級到1.349.22.0以後定義檔的Defender for Endpoint，會顯示「可疑的Cpl檔案執行」警告。&lt;/p&gt;
+&lt;p&gt;關閉IE環境下安裝ActiveX可減緩攻擊。使用者可經由登錄編輯程式變更登錄檔以關閉ActiveX。但微軟也警告，執行不正確不但無法排除風險，還可能引發嚴重問題，而導致電腦必須重灌Windows。&lt;/p&gt;
+&lt;p&gt;微軟、&lt;a href=&quot;https://us-cert.cisa.gov/ncas/current-activity/2021/09/07/microsoft-releases-mitigations-and-workarounds-cve-2021-40444&quot; target=&quot;_blank&quot;&gt;CISA&lt;/a&gt;及研究人員呼籲，一般使用者不要開啟來路不明的Office文件。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 08 Sep 2021 02:55:19 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146584 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146584#comments</comments>
+</item>
+<item>
  <title>2022 Intel運算架構大公開！</title>
  <link>https://www.ithome.com.tw/article/146528</link>
  <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1041-feng_mian_gu_shi_-open-zong_han_-960x420_kao_bei_.png?itok=y2fhA2AS&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-featured-article-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/75&quot;&gt;專題故事&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;不讓Nvidia專美於前，處理器大廠英特爾在資料中心領域，除了發展多年的伺服器CPU，也將陸續推出適用於此類應用的GPU與IPU應戰，而在今年8月底，他們打破多年以來的慣例，搶先公布了這些運算平臺即將採用的新架構細節。&lt;/p&gt;
@@ -297,23 +317,6 @@
  <dc:creator>羅正漢</dc:creator>
  <guid isPermaLink="false">146581 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146581#comments</comments>
-</item>
-<item>
- <title>工研院與Arm聯手，為新創業者引進Arm IP打造IC設計平臺</title>
- <link>https://www.ithome.com.tw/news/146580</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在經濟部工業局牽線下，國內的工研院和Arm合作，結合工研院的技術、人才、輔導資源，加上Arm的矽智財IP，為新創業者打造IC設計平臺，協助新創業者在研發階段降低IP授權成本。&lt;/p&gt;
-&lt;p&gt;工業局為推動一站式AIoT服務，委托工研院推動「晶片設計與半導體科技研發應用計畫」的「物聯網晶片化整合服務」、「智慧電子晶片發展計畫」，以及資策會執行的「物聯網智造基地計畫」，以協助國內外新創業者設計優化、研發晶片整合方案，目的在培育IC設計新創業者，不只扶植國內新創，也希望能吸引國外IC新創來臺，增加對臺投資。&lt;/p&gt;
-&lt;p&gt;為降低IC設計新創IP授權成本，工業局進一步促成工研院與Arm合作，結合工研院在南港的IC設計育成中心、智財經驗及技術平臺、人才，加上Arm的多樣化IP資源，協助新創業者優化晶片設計，透過晶圓下線服務快速設計晶片。&lt;/p&gt;
-&lt;p&gt;為扶植新創業者，Arm去年便推出Flexibile Access新創版計畫，鎖定籌資在500萬美元以下的新創業者，讓創業初期的新創業者，在產品研發階段，得以零成本使用Arm各種智財IP，實驗、開發、設計產品，可使用Arm Cortex-A、R、M，以及Mali GPU、影像訊號處理器ISP。&lt;/p&gt;
-&lt;p&gt;Arm擴大矽智財在國內產學研的布局，除了與工研院合作導入Flexibile Access新創版之外，去年Arm也和國研院旗下的半導體中心聯手，引進Arm Flexible Access for Rearch（Flexible Access學研版），讓學研單位設計AI晶片時可免費使用Arm的相關IP及工具，藉此同時培養相關人才。&lt;/p&gt;
-&lt;p&gt;Arm臺灣總裁曾志光指出，Arm推出Flexible Access新創版計畫後，至今全球已有超過40個包括自駕車、穿戴式醫療、裝置AI的客戶，新創業者加入這項計畫後，可省下為使用的IP取得授權的過程，在研發晶片時實驗、評估各種設計，待晶片設計下線後，再依生產使用IP支付授權費，讓新創業者在資金應用上更彈性，同時加快產品上市時程平均約半年到一年。&lt;/p&gt;
-&lt;p&gt;此次，工研院與Arm合作，工研院電子與光電系統所長吳志毅表示，IC設計新創在創業初期，往往因資金、資源不足，無法取得足夠的IP授權，無法將其創新的構想推向產業化。工研院與Arm的合作可達成三項目標，首先，透過Arm的全球網路及資源，以及臺灣在半導體製造、封裝的優勢，吸引國際IC設計新創來落地臺灣，增加在臺灣的投資、加速生態圈發展；其次，結合工研院的技術、經驗及服務，與Arm的矽智財，可幫助新創業者優化晶片設計、晶圓下線，快速設計出晶片，晶片量產時再支付使用的矽智財費用，助新創業者彈性運用資金，爭取產品快速商品化。第三則是透過Arm連結其全球超過千家技術夥伴的生態系，串接臺灣在IC封裝、製造的優勢，有助於臺灣成為亞太半導體生態系中心。&lt;/p&gt;
-&lt;p&gt;吳志毅補充說明，新創業者有好的創意，但不一定熟悉IC設計，工研院執行的「物聯網晶片化整合服務」，目的即是協助新創業者開發設計出晶片，與Arm的合作，協助新創業者解決矽智財，降低設計研發階段的IP授權成本，加速晶片的產品化。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 10:27:33 +0000</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="false">146580 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146580#comments</comments>
 </item>
 </channel>
 </rss>
