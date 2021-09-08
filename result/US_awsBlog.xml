@@ -5,7 +5,7 @@
 	<atom:link href="https://aws.amazon.com/cn/blogs/china/feed/" rel="self" type="application/rss+xml"/>
 	<link>https://aws.amazon.com/cn/blogs/china/</link>
 	<description>Just another AWS Brew Blogs  site</description>
-	<lastBuildDate>Mon, 06 Sep 2021 04:34:16 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Sep 2021 03:47:29 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -13,6 +13,59 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>专为构建者打造：AWS 和开放式 3D 引擎的故事 — 开发人员预览</title>
+		<link>https://aws.amazon.com/cn/blogs/china/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview/</link>
+				<pubDate>Wed, 08 Sep 2021 03:47:29 +0000</pubDate>
+		<dc:creator><![CDATA[AWS Team]]></dc:creator>
+				<category><![CDATA[Industries]]></category>
+		<category><![CDATA[Amazon Lumberyard]]></category>
+		<category><![CDATA[Amazon O3DE]]></category>
+
+		<guid isPermaLink="false">abdd7308ae3dfe43ed919999f44f58c185ad5771</guid>
+				<description>我们从游戏和模拟开发人员那里听说，他们想要更多的选项，以便在生产管道中进行协作、自定义和创造性控制。从头开始构建 3D 工具成本高昂，需要数年的开发时间，并需要大量的资源来维护。</description>
+								<content:encoded>&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview10.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview10.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 我们从游戏和模拟开发人员那里听说，他们想要更多的选项，以便在生产管道中进行协作、自定义和创造性控制。从头开始构建 3D 工具成本高昂，需要数年的开发时间，并需要大量的资源来维护。这些开发人员最终要么将关键资金花费在重复做别人或者自己已经做过的事情上，要么只好使用难以定制的专有解决方案。&lt;/p&gt; 
+&lt;p&gt;为了解决其中一些挑战，我们在 2016 年推出了 Lumberyard 游戏引擎。Lumberyard 提供了完全免费（无特许权使用费或席位许可证）、源代码可用的实时 3D 开发引擎，以便通过云集成进行快速构建、部署和扩展。过去 5 年中，我们不断地为客户改进产品。我们构建了功能强大的组件实体系统和备受欢迎的 Script Canvas 可视化脚本引擎。我们还收购了 Emotion FX 动画编辑器，创建了模块化 Gem 系统，并实施了许多 Twitch 和 AWS 集成。但有一件事从未改变，那就是我们的使命：为所有人提供世界一流的免费 3D 渲染工具。现在，我们要更进一步。&lt;/p&gt; 
+&lt;h2&gt;开源之旅&lt;/h2&gt; 
+&lt;p&gt;当开始构建 Lumberyard 的后继产品时，我们意识到我们可以做更多事情。如果最终目标是创新，则我们希望使游戏和模拟开发人员能够在开放的社群中与我们并肩合作，这样他们就可以访问技术，为技术做出贡献并推动技术发展。这就是 Linux Foundation &lt;a href="https://youtu.be/6ccjR9qI5YU"&gt;宣布成立 Open 3D Foundation&lt;/a&gt; 的原因，AWS 借助&lt;a href="https://docs.o3de.org/"&gt;开放式 3D 引擎&lt;/a&gt; (O3DE) 为该基金会提供支持。O3DE 是一款支持构建 AAA 级游戏的跨平台开源游戏引擎。作为开源社群的一部分，O3DE 可以提供开发人员实现实时 3D 环境所需的所有工具来扩展游戏和模拟的 3D 开发。该引擎在 Apache 2.0 许可证下授权使用，因此，任何人都可以构建和保留自己的智力资产，并选择回馈项目。&lt;/p&gt; 
+&lt;p&gt;我们花了一年多时间来招募合作伙伴，这些合作伙伴拥有相应的资源和专业知识，最重要的是，他们有动力培养自维护社群。我们与 &lt;a href="https://www.linuxfoundation.org/"&gt;Linux Foundation&lt;/a&gt; 合作，将其作为我们值得信赖的专家开源组织机构，因为它是全球管理大型开源项目最好的机构之一。Linux Foundation 可以提供如此大规模开源项目所需的专家管理水平。我们很高兴能够得到众多合作伙伴的支持，他们与我们一样大力支持为游戏和模拟开发人员提供的选择。这些合作伙伴包括：Accelbyte、Adobe、Apocalypse Studios、Audiokinetic、Backtrace.io、Carbonated、Futurewei、GAMEPOCH、Genvid Technologies、Hadean、Huawei、HERE Technologies、Intel、International Game Developers Association、Kythera AI、Niantic、Open Robotics、PopcornFX、Red Hat、Rochester Institute of Technology、SideFX、Tafi、TLM Partners 和 Wargaming。与成熟的开源基金会合作还意味着打造平衡的生态系统，推动双方共同取得成功。这将产生飞轮效应，影响开源社群的方向和创新以及构建产品的合作伙伴和项目开发人员。最终，这种协作会推动更新的创新。这种模式让我们持续将工作重点放在客户对 Amazon 和 AWS 的期望上，包括大规模支持、云渲染、云中的工作室以及引擎本身的许多原生功能等创新。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;那么发生了什么变化？ 这是使用开源许可证的 Lumberyard 吗？&lt;/h3&gt; 
+&lt;p&gt;简单来说，有很多变化！ 没错，它是开源引擎，根据宽松的 Apache 2.0 许可证授予许可。但是，O3DE 与之前的 Lumberyard 截然不同。我们在很大程度上依赖构建 Lumberyard 的经验，迭代和改进了 O3DE，以实现最终的协作和创造性控制。我们保留了客户最喜欢的 Lumberyard 相关部分，并对其余部分进行了重大修改。我们的目标是构建一款能够在开源环境中经受住时间考验的引擎。由于游戏引擎往往是整体式的，因此，我们在很大程度上倾向于构建具有可扩展性的模块化引擎，从一开始就采用开放标准工具。但是，我们仍然不满意，因此，我们添加了新预制系统、新构建系统、可扩展的 UI、许多新云功能、大量数学库优化、新网络功能以及许许多多的性能改进。此外，我们甚至添加了全新的 PBR 渲染器，它能够通过光线追踪和 GI 支持实现前向+ 和延迟渲染！&lt;/p&gt; 
+&lt;h2&gt;模块化&lt;/h2&gt; 
+&lt;p&gt;我们从头开始将该引擎重新设计为模块化引擎，因此，几乎所有引擎部件都是一个库。开发人员可以完全替换图形渲染器、音频子系统、编辑器、语言支持、网络堆栈、物理系统和其他库，而不影响其他库。核心引擎模块和任何附加组件或插件统称为“Gem”。开发人员可以通过引入 30 多种功能和工具中的任何一种（而不是引入所有功能和工具）来精简项目。他们也可以将这些功能和工具作为独立库来实施。如果开发人员已经拥有引擎并希望减少技术债务或更新代码，可以从开源项目中轻松选择所需的功能，然后将其实施到自己的技术堆栈中。他们也可以创建并合并自己的堆栈。借助 O3DE 的模块化架构添加新功能非常简单，这样开发人员就可以持续创新。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;开源友好型构建系统&lt;/h2&gt; 
+&lt;p&gt;对于开发人员来说，模块化还必须易于理解并允许快速开发，因此，我们决定将整个构建系统移到开源 CMake 系统中。这一选择为各种 IDE（例如 Visual Studio、XCode 等）提供了更好的 CTest、插件库、分析、编辑并继续、快速代码生成及本机项目生成的支持。这种新方法通过适当的依赖关系树来构建所选的目标，并确保只重新构建实际的依赖关系，以便提高迭代开发的速度，进而节省时间。这种模块化特性还允许我们简化项目和 Gem 管理，方法是：删除所有二进制格式，然后将其移到可使用 CMake 编写脚本的人类可读的 JSON 文件。因此，只需简单地更改 JSON 文件中的某一行，即可在项目中添加或删除 Gem。通过博客&lt;a href="https://aws.amazon.com/blogs/gametech/lumberyard-build-system/"&gt;详细了解&lt;/a&gt; Lumberyard 构建系统的未来。&lt;/p&gt; 
+&lt;h2&gt;引擎即 SDK&lt;/h2&gt; 
+&lt;p&gt;Lumberyard 开发人员会发现引擎已经发生了很大的变化。它的构建类似于 SDK，因为对于引擎模块和 Gem，它可以以预编译的形式提供，这可被视为是一种“引擎即 SDK”方法。同样，在项目发生变化时，不需要重新编译预编译的库或 Gem。而且，当新引擎版本发布时，开发人员可以更新核心 Gem，只需解决项目代码本身的编译问题即可。工作室现在可以轻松自定义引擎组件，并根据需要用特定自定义模块替换预构建组件。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Atom 渲染器&lt;/h2&gt; 
+&lt;p&gt;另一个重大变化是 Atom 渲染器，正如预期的那样，它作为 Gem 交付。该渲染器通过提供基于物理的现代渲染器 (PBR) 来支持多个平台，该渲染器符合 ACES 色彩空间标准并完全支持 Vulkan、Metal（开发中）和 DirectX 12 的光线追踪。Atom 随附全局光照 (GI) 和前向+ 渲染，开箱即用，并支持延迟渲染管道。与 O3DE 本身一样，Atom 具有模块化、可编写脚本和数据驱动等特点。我们甚至编写了一种全新的着色语言，称为 AZSL。这种语言利用 Atom 的数据驱动功能，因此，开发人员可以随着新硬件接口的出现不断创新。没错，Atom 是开源且免费的，就像 O3DE 中的其他所有功能一样。请参阅&lt;a href="https://aws.amazon.com/blogs/gametech/splitting-the-atom-introducing-lumberyards-new-photorealistic-renderer/"&gt;这篇博文&lt;/a&gt;，详细了解 Atom 渲染器。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;网络&lt;/h2&gt; 
+&lt;p&gt;O3DE 中包含了全新的网络堆栈，它具有高度灵活的数据驱动模型，支持 TCP/UDP，并在简单的 API 背后抽象了低延迟传输层。该堆栈支持加密和压缩，并具有内置模拟器，用于延迟、抖动、重新排序和丢失。为了确保最低延迟和最高保真度，它支持通过无序不可靠的数据复制进行实体复制、本地预测延迟补偿、针对服务器权限的向后协调，及支持自动去同步检测和修正的可拆分玩家行为。为了确保开发人员可以使用不同的服务器型号，该堆栈支持开箱即用的玩家托管服务器和专用服务器型号。请参阅&lt;a href="https://aws.amazon.com/blogs/gametech/building-battle-tested-network-transport/"&gt;这篇博文&lt;/a&gt;，获取更多开发详情。&lt;/p&gt; 
+&lt;h2&gt;更快、更轻、性能更高&lt;/h2&gt; 
+&lt;p&gt;相较于它的前辈 Lumberyard，O3DE 更轻便、速度更快、性能更高。我们的工程师删除了超过 200 万行旧代码冗余，为开源做好准备。我们创建了新的高性能数学库，这些库利用现代 CPU 和当前 SIMD 指令集。数学是精彩游戏和模拟的核心，我们确保了我们的客户、贡献者和社群拥有非常坚实的工作基础。最终结果将是，帧率提高，平台支持得到改进（尤其是在 ARM 设备上），准确性提高，及可用于动画、特效和游戏运行的计算资源增加。毕竟，3D 引擎中的几乎所有内容都与数学有关！ 请参阅&lt;a href="https://aws.amazon.com/blogs/gametech/building-a-smarter-foundation-math-improvements-in-lumberyard/"&gt;这篇博文&lt;/a&gt;，详细了解我们的高性能数学工作。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;支持云&lt;/h2&gt; 
+&lt;p&gt;我们额外添加了云功能，包括对 Amazon Kinesis、AWS Lambda、Amazon Cognito、Amazon CloudWatch、AWS CloudTrail、AWS IAM、Amazon GameLift 和更新的 AWS C++ SDK 的新支持。借助这些与云服务的深度集成，开发人员能够交付具有可自定义支持功能的游戏和模拟，快速创新，并吸引和留住现有玩家和新玩家。随着合作伙伴和社群不断增加 AWS 之外的更多选项，O3DE 的云功能将进一步增加。此外，在未来几个月里，AWS 将继续构建更多云功能，并支持其他文件格式，涵盖一系列新用例。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;生产力和可扩展性&lt;/h2&gt; 
+&lt;p&gt;工具和管道实施对于简化生产所需的时间同样至关重要。为了帮助加速自定义，我们扩展了 UI 工具，它使用可访问代码接口的 Python 扩展和 Qt 来创建自定义编辑器组件。我们通过新的步骤前和步骤后 Python 绑定极大地更新了资产创建，以允许 FBX 和材料处理的动态处理和自定义行为。这些绑定使技术类游戏艺术家能够编写可拆分、分配或重新定位资产的 Python 脚本，以及从任何输入源创建自定义材料。&lt;/p&gt; 
+&lt;p&gt;许多其他功能也发生了变化，以便社群以新方式对其扩展。Script Canvas 现在支持通过未来本机代码支持编译为 Lua，并通过我们的可扩展行为上下文管理器进行脚本绑定。我们已经从 Lumberyard 管理游戏内部资产的“切片”模型转向了大家都很熟悉的预制模型。我们的模块化标准接口使开发人员能够针对其他 Gem 接口执行直接函数调用，并提供 IDE 自动完成支持。总体而言，我们的目标之一是使开发人员能够在自己的项目中发现和实施功能（无论是整个还是部分功能）。&lt;/p&gt; 
+&lt;h2&gt;后续行动&lt;/h2&gt; 
+&lt;p&gt;开放式 3D 引擎目前已提供开发人员预览版，我们的团队正在努力工作，争取在今年晚些时候提供生产就绪型版本。我们很高兴能与社群和其他 Open 3D Foundation 合作伙伴合作，在未来几个月和几年里不断为引擎添加更多内容。我们将与 Linux Foundation、合作伙伴和大学合作，以帮助实现更多创新，开展令人兴奋的即将宣布的年度 O3DE 新活动，以及举办全球行业展览和骇客马拉松。&lt;/p&gt; 
+&lt;p&gt;我们希望这项开源工作提供游戏和模拟开发平台，任何人都可以利用该平台快速构建更加精彩的游戏和实时模拟。我们相信，现在正是发展 3D 可视化和工具业务的理想时机，希望您能加入我们的旅程。正如我们在 Amazon 常说的那样，现在我们仍然在“第一天”。&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview8.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/built-for-builders-the-story-of-aws-and-the-open-3d-engine-developer-preview8.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;请访问 &lt;a href="https://docs.o3de.org/"&gt;docs.o3de.org&lt;/a&gt; 并&lt;a href="https://youtu.be/6ccjR9qI5YU"&gt;观看视频&lt;/a&gt;，详细了解开放式 3D 引擎计划。&lt;/p&gt; 
+&lt;h2&gt;本篇作者&lt;/h2&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;h3 class="lb-h4"&gt;Amar Mehta&lt;/h3&gt; 
+  &lt;p&gt;Amar Mehta 是 Amazon 游戏科技的模拟和视频游戏 3D 引擎技术团队领导。视频游戏、电影、汽车、建筑、工程和零售行业的开发人员使用该技术，在 AWS 业界领先的云计算服务上实时创建高保真内容。在加入 AWS 之前，Amar 曾领导 Amazon 零售视频游戏部门的多项工作，为全球数十亿玩家带来 AAA 级游戏和独立游戏体验。他曾在初创公司和财富 500 强公司担任技术和业务领导职务。Mehta 先生热衷于促进公平和多元化，他坚信游戏能够降低社会壁垒，改善所有人获得技术的能力。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt; 
+&lt;footer&gt; 
+ &lt;div class="blog-author-box"&gt; 
+  &lt;h3 class="lb-h4"&gt;Royal O’Brien&lt;/h3&gt; 
+  &lt;p&gt;Royal O’Brien 是 Amazon 的一位负责人，其工作是与内部和外部客户合作，解决他们的技术和业务需求。他的大部分时间花在与合作伙伴合作上，为 Open 3D Foundation 创建开源实践和程序。在加入 Amazon 之前，Royal 曾在美国海军陆战队服役，并在模拟和视频游戏行业工作超过 25 年。他曾担任工程师和高管，负责企业发展、风险投资、企业谈判和战略营销计划。他创立并退出了多家公司，帮助为多家财富 500 强公司提供服务和许可技术。作为一名工程师，他拥有视频、电话和数字分发技术领域的多项专利。&lt;/p&gt; 
+ &lt;/div&gt; 
+&lt;/footer&gt;</content:encoded>
+										</item>
+		<item>
 		<title>AppSync调试方法</title>
 		<link>https://aws.amazon.com/cn/blogs/china/appsync-debugging-method/</link>
 				<pubDate>Mon, 06 Sep 2021 04:34:16 +0000</pubDate>
@@ -1783,250 +1836,6 @@ Signed message verified by public key: True
   &lt;/div&gt; 
   &lt;h3 class="lb-h4"&gt;胡新华&lt;/h3&gt; 
   &lt;p&gt;AWS解决方案架构师，负责金融行业基于AWS的云计算架构咨询和设计。加入AWS之前就职于IBM，在数据中心IT基础架构相关的解决方案设计和交付方面，具有十多年经验。&lt;/p&gt; 
- &lt;/div&gt; 
-&lt;/footer&gt;</content:encoded>
-										</item>
-		<item>
-		<title>增强Amazon Athena对历史查询记录的统计分析功能</title>
-		<link>https://aws.amazon.com/cn/blogs/china/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records/</link>
-				<pubDate>Thu, 02 Sep 2021 03:11:56 +0000</pubDate>
-		<dc:creator><![CDATA[AWS Team]]></dc:creator>
-				<category><![CDATA[Analytics]]></category>
-		<category><![CDATA[Amazon Athena]]></category>
-
-		<guid isPermaLink="false">5d41f51e363379c2c35c97dc1c407cec8f874090</guid>
-				<description>Amazon Athena 是一种交互式查询服务，让您能够轻松使用标准 SQL 分析 Amazon S3 中的数据。Athena 采用无服务器架构，因此您无需管理任何基础设施，且只需为您运行的查询付费。Athena 简单易用，只需指向您存储在 Amazon S3 中的数据，定义架构并使用标准 SQL 开始查询。</description>
-								<content:encoded>&lt;h2&gt;背景介绍&lt;/h2&gt; 
-&lt;p&gt;Amazon Athena 是一种交互式查询服务，让您能够轻松使用标准 SQL 分析 Amazon S3 中的数据。Athena 采用无服务器架构，因此您无需管理任何基础设施，且只需为您运行的查询付费。Athena 简单易用，只需指向您存储在 Amazon S3 中的数据，定义架构并使用标准 SQL 开始查询。就可在数秒内获取最多的结果。您可以使用Athena 控制台查看成功和失败的查询、下载成功查询结果文件以及查看失败查询的错误详细信息。Athena 将查询历史记录保留 45 天。如果要将查询历史记录保留超过 45 天，您可以检索查询历史记录并将其保存到等 Amazon S3 等数据存储中。本方案自动执行此过程，使用 Athena 和 Amazon S3 API将数据导入到Amazon S3，并使用Athena分析历史数据，结合Amazon CloudTrail的Athena API调用日志可以对Athena的历史SQL执行记录进行多个维度的分析，以便用于评估Athena的使用和优化线上SQL等。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;部署架构&lt;/h2&gt; 
-&lt;p&gt;利用CloudWatch Event定时触发Lambda代码同步Athena历史查询日志到Amazon S3，利用DynamoDB记录每次增量同步的记录位置，Amazon CloudTrail记录Athena API call日志，创建CloudTrail的跟踪，将日志持续导入到S3中，最终通过Athena多维分析历史查询日志和CloudTrail日志并利用Amazon QuickSight进行图表展现。&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records1.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records1.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;方案部署步骤&lt;/h2&gt; 
-&lt;h3&gt;导出Athena查询历史记录日志到Amazon S3&lt;/h3&gt; 
-&lt;p&gt;因为Athena历史查询记录日志只保留45天，我们通过一段Python代码将Athena历史查询记录日志持续的，增量的导入到Amazon S3中，利用DynamoDB记录每次导出的最近位置，下次导出的时候，从上次导出的最新位置开始增量导出，避免产生重复数据，我们也可以将这段代码部署在在Lambda上，通过CloudWatch Event定时触发同步日志到Amazon S3。&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;strong&gt;创建&lt;/strong&gt;&lt;strong&gt;DynamoDB表，保存每次增量导入的最新位置&lt;/strong&gt;&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;表名称：athena_his_sql&lt;/p&gt; 
-&lt;p&gt;主分区键：workgroup&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records2.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records2.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;ul&gt; 
- &lt;li&gt;&lt;strong&gt;创建&lt;/strong&gt;&lt;strong&gt;Lambda函数athena_his_fun&lt;/strong&gt;&lt;/li&gt; 
-&lt;/ul&gt; 
-&lt;p&gt;将下面的脚本复制到Lambda的入口脚本lambda_function.py（Lambda函数执行的角色需要具备操作Amazon S3读写，DynamoDB读写的权限）并修改Lambda的内存（500M）和超时时间（10min）。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;import boto3
-import time
-import io
-import json
-import uuid
-from datetime import datetime, date
-def lambda_handler(event, context):
-    # TODO implement
-    to_scrape=5000
-    page_size=50
-    bucket = "quandata1"
-    prefix = "athena_his/"
-    s3_client = boto3.client('s3')
-    ath = boto3.client('athena')
-    paginator = ath.get_paginator("list_query_executions")
-    dynamodb = boto3.resource('dynamodb')
-    def json_serial(obj):
-        if isinstance(obj, (datetime, date)):
-            return obj.isoformat()
-        raise TypeError("Type %s not serializable" % type(obj))
-    df = []
-    break_flag = False
-    for workgroup in [w['Name'] for w in ath.list_work_groups()['WorkGroups']]:
-        print(f'running {workgroup}')
-        i=0
-        table = dynamodb.Table('athena_his_sql')
-        response = table.get_item(Key={'workgroup': workgroup,})
-        curr_query_id = ''
-        if  ("Item" in response): curr_query_id = response['Item']['curr_query_id']
-        print("get ddb curr_id: " + workgroup + curr_query_id)
-        args = {"WorkGroup": workgroup, "PaginationConfig": {"MaxItems": to_scrape, "PageSize": page_size}}
-        for page in paginator.paginate(**args):
-            query_ids = page['QueryExecutionIds']
-            for query_id in query_ids:
-                print("query_id:" + query_id)
-                if i == 0:
-                    table.update_item(
-                        Key={'workgroup': workgroup,},
-                        UpdateExpression='SET curr_query_id = :val1',
-                        ExpressionAttributeValues={':val1': query_id})
-                    print("update ddb curr_id: " + query_id)
-                if query_id == curr_query_id:
-                    break_flag=True
-                    break
-                query_metadata = ath.get_query_execution(QueryExecutionId=query_id)['QueryExecution']
-                df.append(query_metadata)
-                i += 1
-            if break_flag==True:
-                break
-            time.sleep(1)
-    json_writer = io.BytesIO()
-    for record in df:
-        line = json.dumps(record, default=json_serial) + "\n"
-        json_writer.write(line.encode())
-    s3_client.put_object(
-        Bucket=bucket,
-        Key=prefix + "%s.json" % uuid.uuid4(),
-        ContentType='text/json',
-        Body=json_writer.getvalue()
-)
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;部署完毕后设置利用CloudWatch Event定时触发执行（例如按小时触发）&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records3.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records3.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 脚本执行后，会在DynamoDB的表athena_his_sql中更新当前最新的查询ID，方便后续增量导出。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records4.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records4.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 利用Amazon CLI或者控制台检查Amazon S3路径下是否正确上传了日志文件，（注：本方案没有对上传到S3的数据进行分区存放，可以参考下文CloudTrail日志的方式利用Athena的分区投影功能实现自动分区管理）。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records5.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records5.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h3&gt;创建Athena历史记录日志表&lt;/h3&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;CREATE EXTERNAL TABLE athena_queries (
-    QueryExecutionId string,
-    Query string,
-    StatementType string,
-    Status struct&amp;lt;State:string,SubmissionDateTime:string,CompletionDateTime:string&amp;gt;,
-    Statistics struct&amp;lt;EngineExecutionTimeInMillis:int,DataScannedInBytes:int, TotalExecutionTimeInMillis:int, QueryQueueTimeInMillis:int, QueryPlanningTimeInMillis:int, ServiceProcessingTimeInMillis:int&amp;gt;,
-    WorkGroup string
-)
-ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
-LOCATION 's3://quandata1/athena_his';
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h3&gt;创建CloudTrail日志表&lt;/h3&gt; 
-&lt;p&gt;开启CloudTrail跟踪，将CloudTrail日志通过跟踪功能持续保存到S3中。&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records6.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records6.png" width="624" height="78"&gt;&lt;/a&gt;&lt;br&gt; 创建CloudTrail日志表cloudtrail_logs，建表语句中LOCATION根据实际跟踪配置的S3路径填写。使用Athena分区投影功能自动进行分区管理，降低查询时间和数据扫描量。&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;CREATE EXTERNAL TABLE cloudtrail_logs(
-    eventVersion STRING,
-    userIdentity STRUCT&amp;lt;
-        type: STRING,
-        principalId: STRING,
-        arn: STRING,
-        accountId: STRING,
-        invokedBy: STRING,
-        accessKeyId: STRING,
-        userName: STRING,
-        sessionContext: STRUCT&amp;lt;
-            attributes: STRUCT&amp;lt;
-                mfaAuthenticated: STRING,
-                creationDate: STRING&amp;gt;,
-            sessionIssuer: STRUCT&amp;lt;
-                type: STRING,
-                principalId: STRING,
-                arn: STRING,
-                accountId: STRING,
-                userName: STRING&amp;gt;&amp;gt;&amp;gt;,
-    eventTime STRING,
-    eventSource STRING,
-    eventName STRING,
-    awsRegion STRING,
-    sourceIpAddress STRING,
-    userAgent STRING,
-    errorCode STRING,
-    errorMessage STRING,
-    requestParameters STRING,
-    responseElements STRING,
-    additionalEventData STRING,
-    requestId STRING,
-    eventId STRING,
-    readOnly STRING,
-    resources ARRAY&amp;lt;STRUCT&amp;lt;
-        arn: STRING,
-        accountId: STRING,
-        type: STRING&amp;gt;&amp;gt;,
-    eventType STRING,
-    apiVersion STRING,
-    recipientAccountId STRING,
-    serviceEventDetails STRING,
-    sharedEventID STRING,
-    vpcEndpointId STRING
-  )
-PARTITIONED BY (
-   `timestamp` string)
-ROW FORMAT SERDE 'com.amazon.emr.hive.serde.CloudTrailSerde'
-STORED AS INPUTFORMAT 'com.amazon.emr.cloudtrail.CloudTrailInputFormat'
-OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
-LOCATION
-  's3://bucket/AWSLogs/account-id/CloudTrail/aws-region'
-TBLPROPERTIES (
-  'projection.enabled'='true', 
-  'projection.timestamp.format'='yyyy/MM/dd', 
-  'projection.timestamp.interval'='1', 
-  'projection.timestamp.interval.unit'='DAYS', 
-  'projection.timestamp.range'='2021/01/01,NOW', 
-  'projection.timestamp.type'='date', 
-  'storage.location.template'='s3://bucket/AWSLogs/account-id/CloudTrail/aws-region/${timestamp}')
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;h2&gt;&lt;/h2&gt; 
-&lt;h2&gt;使用Athena对数据进行分析&lt;/h2&gt; 
-&lt;p&gt;&lt;strong&gt;查看不同&lt;/strong&gt;&lt;strong&gt;SQL语句的执行总次数排名&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;select count(*),query from athena_queries group by query order by 1 desc limit 10&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;查看执行状态失败的&lt;/strong&gt;&lt;strong&gt;SQL总数&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;select count(*) from athena_queries where status.state='FAILED'&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;查看执行超过特定执行时长的历史&lt;/strong&gt;&lt;strong&gt;SQL&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;select query from athena_queries where statistics.totalexecutiontimeinmillis &amp;gt;=5000&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;查看超过特定数据扫描量的历史&lt;/strong&gt;&lt;strong&gt;SQL&lt;/strong&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;select query from athena_queries where statistics.datascannedinbytes &amp;gt;=10741612544&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;strong&gt;根据&lt;/strong&gt;&lt;strong&gt;IAM用户统计数据扫描量&lt;/strong&gt;&lt;/p&gt; 
-&lt;div class="hide-language"&gt; 
- &lt;pre&gt;&lt;code class="lang-python"&gt;select sum(b.statistics.datascannedinbytes),
-a.userIdentity.username 
-from 
-cloudtrail_logs a,
-athena_queries b 
-where 
-a.eventsource='athena.amazonaws.com' and a.eventName='StartQueryExecution' and 
-a.responseElements != 'null' and substr(a.responseElements,22,36) = b.queryexecutionid 
-group by 
-a.userIdentity.username
-&lt;/code&gt;&lt;/pre&gt; 
-&lt;/div&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;使用Amazon Quicksight可视化分析结果&lt;/h2&gt; 
-&lt;p&gt;利用SQL的方式（将cloudtrail_logs和athena_queries两张表联表查询）创建QuickSight中Athena数据集，然后根据实际需要在Amazon QuickSight创建可视化图表。&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;select&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.queryexecutionid,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.query,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statementtype,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.status.State,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.status.SubmissionDateTime,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.status.CompletionDateTime,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.EngineExecutionTimeInMillis,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.DataScannedInBytes,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.TotalExecutionTimeInMillis,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.QueryQueueTimeInMillis,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.QueryPlanningTimeInMillis,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.statistics.ServiceProcessingTimeInMillis,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;b.workgroup,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;a.userIdentity.username&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;from&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;cloudtrail_logs a,&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;athena_queries b&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;code&gt;where&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;a.eventsource='athena.amazonaws.com' and a.eventName='StartQueryExecution' and&lt;/code&gt;&lt;/p&gt; 
-&lt;p style="padding-left: 40px"&gt;&lt;code&gt;a.responseElements != 'null' and substr(a.responseElements,22,36) = b.queryexecutionid&lt;/code&gt;&lt;/p&gt; 
-&lt;p&gt;创建可视化图表如下&lt;br&gt; &lt;a href="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records7.jpg"&gt;&lt;img class="aligncenter size-medium" src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/enhance-amazon-athenas-statistical-analysis-function-for-historical-query-records7.png" width="624" height="78"&gt;&lt;/a&gt;&lt;/p&gt; 
-&lt;h2&gt;总结&lt;/h2&gt; 
-&lt;p&gt;通过本文介绍的方案可以更长时间的保留Athena查询历史日志，通过对Athena历史查询日志的分析，让我们可以直观的了解和掌握Athena的使用细节，查看Top SQL，检测应用性能问题，在时间、用户、SQL语句等多个维度增强对Athena使用的洞察。&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;参考链接&lt;/h2&gt; 
-&lt;p&gt;&lt;a href="https://docs.aws.amazon.com/zh_cn/athena/latest/ug/what-is.html"&gt;https://docs.aws.amazon.com/zh_cn/athena/latest/ug/what-is.html&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://docs.aws.amazon.com/zh_cn/athena/latest/ug/querying.html"&gt;https://docs.aws.amazon.com/zh_cn/athena/latest/ug/querying.html&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://docs.aws.amazon.com/zh_cn/athena/latest/ug/monitor-with-cloudtrail.html"&gt;https://docs.aws.amazon.com/zh_cn/athena/latest/ug/monitor-with-cloudtrail.html&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;a href="https://docs.aws.amazon.com/athena/latest/ug/cloudtrail-logs.html"&gt;https://docs.aws.amazon.com/athena/latest/ug/cloudtrail-logs.html&lt;/a&gt;&lt;/p&gt; 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
-&lt;h2&gt;本篇作者&lt;/h2&gt; 
-&lt;footer&gt; 
- &lt;div class="blog-author-box"&gt; 
-  &lt;div class="blog-author-image"&gt;
-   &lt;img src="https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Author/xiangqua.jpg" width="125"&gt;
-  &lt;/div&gt; 
-  &lt;h3 class="lb-h4"&gt;柳向全&lt;/h3&gt; 
-  &lt;p&gt;AWS 解决方案架构师，负责基于AWS的云计算方案架构的咨询和设计，目前主要专注于容器和大数据技术领域研究和AWS云服务在国内和全球的应用和推广。&lt;/p&gt; 
  &lt;/div&gt; 
 &lt;/footer&gt;</content:encoded>
 										</item>
