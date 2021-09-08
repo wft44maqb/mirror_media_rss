@@ -6,6 +6,21 @@
  <description></description>
  <language>zh-hant</language>
 <item>
+ <title>微軟加入開源雲平臺組織OpenInfra基金會</title>
+ <link>https://www.ithome.com.tw/news/146590</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;前身為OpenStack基金會的產業組織&lt;a href=&quot;https://www.businesswire.com/news/home/20210907005721/en/OpenInfra-Foundation-Welcomes-Microsoft-as-Newest-Member-to-Advance-Open-Infrastructure-Use-Cases-Hybrid-Cloud-and-5G-Using-Open-Source-Technologies-OpenStack-and-Airship&quot; target=&quot;_blank&quot;&gt;OpenInfra 基金會昨（7）日宣布&lt;/a&gt;，微軟將加入以貢獻雲端管理技術，以及將OpenStack技術整合入Azure平臺。&lt;/p&gt;
+&lt;p&gt;OpenStack為開源基礎架構即服務（IaaS）平臺軟體，提供虛擬化公、私有雲開發及管理工具，下有網路、運算、儲存、身分識別、映像服務、CI等多個專案，包括OpenStack、Kata Containers及Airship等。去年10月維護OpenStack專案的OpenStack基金會&lt;a href=&quot;https://opendev.org/openstack/openstackdocstheme/commit/d3cdb8689b35ccd8c36084a4fc9c6079b0fe1a8a&quot; target=&quot;_blank&quot;&gt;改名為OpenInfra基金會&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;OpenInfra基金會現有成員60多家，微軟本周以白金會員身分加入。微軟表示加入後，將在OpenStack/OpenInfra基金會中反映電信客戶的利益，也將積極貢獻OpenInfra專案，未來並尋求將OpenInstra專案整合到Azure雲端。&lt;/p&gt;
+&lt;p&gt;OpenStack/OpenInfra專案技術可用於公、私混合及電信網路、雲端整合的環境。而這也是近年微軟等雲端產業的主流議題。OpenInfra基金會營運長Mark Collier指出，目前9/10的電信網路以OpenStack為基礎，Kata Containers用於螞蟻金服的全球最大支付網路，Airship則扮演AT&amp;amp;T 4G、5G網路的底層。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/145377&quot; target=&quot;_blank&quot;&gt;微軟今年接收AT&amp;amp;T&lt;/a&gt;電信用網路雲端平臺及工程、服務部門，並積極和AT&amp;amp;T、Verizon等電信業者合作，力圖切入5G相關雲端服務市場。微軟加入OpenInfra，其電信雲平臺Azure for Operators將支援在Kubernetes上部署OpenStack軟體，以便將電信客戶軟體定義網路（SDN）由VNF（virtual network functions）邁向CNF（Container Network Functions）轉型。&lt;/p&gt;
+&lt;p&gt;OpenInfra基金會其他白金會員還包括愛立信、臉書、Red Hat、Wind River、AT&amp;amp;T，以及中國的螞蟻集團（Ant Group）、華為、騰訊、烽火科技（FiberHome）等。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 08 Sep 2021 04:17:43 +0000</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="false">146590 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146590#comments</comments>
+</item>
+<item>
  <title>Windows RCE漏洞已有鎖定Office用戶的攻擊，微軟緊急提供緩解指示</title>
  <link>https://www.ithome.com.tw/news/146584</link>
  <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444&quot; target=&quot;_blank&quot;&gt;微軟周二緊急公告&lt;/a&gt;Windows中一個遠端程式碼執行（RCE）漏洞已經有攻擊活動，Office用戶可能因開啟惡意文件中標。由於目前尚無修補程式，微軟緊急提供緩解方法。&lt;/p&gt;
@@ -280,21 +295,6 @@
  <dc:creator>陳曉莉</dc:creator>
  <guid isPermaLink="false">146582 at https://www.ithome.com.tw</guid>
  <comments>https://www.ithome.com.tw/news/146582#comments</comments>
-</item>
-<item>
- <title>Google以深度學習偵測異常胸腔X光片，可找出訓練資料集未見過的肺部異常</title>
- <link>https://www.ithome.com.tw/news/146578</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://ai.googleblog.com/2021/09/detecting-abnormal-chest-x-rays-using.html&quot; target=&quot;_blank&quot;&gt;Google開發了新型模型&lt;/a&gt;，能夠從去識別化資料集中，區分正常和異常的胸腔X光片，Google提到，該模型不只對一般的胸腔異常表現良好，對沒有出現在訓練資料集的肺結核病和COVID-19，也能發現其異常之處，對於未見過的案例具有通用性。&lt;/p&gt;
-&lt;p&gt;醫學成像應用機器學習技術，能夠大幅提高胸腔X光影像解釋的精確性、速度和一致性，目前已經有大量的演算法，可用來偵測特定疾病，諸如肺癌、肺結核和氣胸，但是這些偵測特定疾病的模型，應用到臨床上可能會受到限制，像是氣胸偵測器就無法突出顯示癌症的病徵，而肺結核偵測器可能無法辨識出肺炎，Google提到，辨識包含各種類型異常的通用算法，可以顯著促進臨床工作流程。&lt;/p&gt;
-&lt;p&gt;因此Google開發了能夠區分各種胸腔異常狀況的深度學習系統，來解決這個問題，研究人員使用基於EfficientNet-B7架構的深度學習系統，在ImageNet上進行預訓練，接著使用來自印度阿波羅醫院的20萬張去識別化胸腔X光片訓練模型。每一個胸腔X光片都會被標記上正常或是異常的標籤，供模型學習正常和異常的胸腔狀況。&lt;/p&gt;
-&lt;p&gt;研究人員使用各種資料集來測試這個新的深度學習系統，發現該系統能夠精確地區分常見的胸腔異常，同時研究人員也評估了該系統，偵測未遇過疾病的能力，而結果顯示該模型表現依舊良好，能夠非常高比例的發現肺結核病，不過在辨識COVID-19時效能略降，研究人員解釋，有許多案例被系統標記為異常，但是COVID-19為陰性，也就是說，雖然系統在這些案例無法準確地偵測病徵屬於特定疾病，但是仍然可以將其區分為異常。&lt;/p&gt;
-&lt;p&gt;Google的這個新系統有兩個潛在好處，除了按情況加速排序病患之外，也可提高其他胸腔X光影像辨識模型的效果。研究人員為了要了解該模型在臨床工作流程中的幫助，因此將其用在模擬病例優先排序上，異常病例能夠被優先處理，完成流程的時間減少28％，而該模型快速區分正常與異常的能力，能夠將複雜的異常病例，快速轉移給專門的放射科醫師處理，分類需要緊急處理的病患。&lt;/p&gt;
-&lt;p&gt;另外，該深度學習系統還能夠被用作預訓練模型，在資料有限的情況下，改進胸腔X光的其他機器學習演算法，Google最近將正常與異常檢測器，搭配肺結核檢測器一起使用，在缺乏醫療資源的地區，提供肺結核早期診斷的服務。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 15:08:33 +0000</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="false">146578 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146578#comments</comments>
 </item>
 </channel>
 </rss>

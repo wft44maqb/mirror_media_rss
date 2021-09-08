@@ -6,6 +6,14 @@
     <language>zh-hant</language>
      <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
+    <title>微軟加入開源雲平臺組織OpenInfra基金會</title>
+    <link>https://www.ithome.com.tw/news/146590</link>
+    <description> 前身為OpenStack基金會的產業組織OpenInfra 基金會昨（7）日宣布，微軟將加入以貢獻雲端管理技術，以及將OpenStack技術整合入Azure平臺。</description>
+     <pubDate>2021-09-08  12:09:43</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146590</guid>
+  </item>
+  <item>
     <title>Windows RCE漏洞已有鎖定Office用戶的攻擊，微軟緊急提供緩解指示</title>
     <link>https://www.ithome.com.tw/news/146584</link>
     <description> 微軟周二緊急公告Windows中一個遠端程式碼執行（RCE）漏洞已經有攻擊活動，Office用戶可能因開啟惡意文件中標。由於目前尚無修補程式，微軟緊急提供緩解方法。</description>
@@ -252,14 +260,6 @@ Atlassian為一澳洲軟體業者，所打造的Confluence是個基於網頁的�
      <pubDate>2021-09-06  02:09:50</pubDate>
  <dc:creator>王若樸</dc:creator>
  <guid isPermaLink="true">https://www.ithome.com.tw/news/146546</guid>
-  </item>
-  <item>
-    <title>調查：全美5G平均下載速率以紐約州居冠</title>
-    <link>https://www.ithome.com.tw/news/146554</link>
-    <description> Opensignal近日公布了全美的5G體驗調查，顯示全美5G平均下載速率最高的地方在紐約州，但5G可得性最高的地方為伊利諾州及德州，東岸的11個州都擁有不錯（Good）的遊戲體驗。而雖然所有州的5G影片經驗都不錯，但有些5G手機用戶並未察覺到更好的影片串流品質，原因是他們所訂閱的5G方案只是入門款，使其影片解析度受限。</description>
-     <pubDate>2021-09-06  02:09:11</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146554</guid>
   </item>
   </channel>
 </rss>
