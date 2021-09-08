@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/rss-chi-all</id>
  <title><![CDATA[Deutsche Welle: DW-WORLD.DE]]></title>
  <subtitle><![CDATA[Deutsche Welle: DW-WORLD.DE]]></subtitle>
- <updated>2021-09-08T13:00:38Z</updated>
+ <updated>2021-09-08T13:03:11Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,16 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59122886</id>
+  <title><![CDATA[专访：只要中美不开战，德国就不会“选边站”]]></title>
+  <updated>2021-09-08T12:41:00Z</updated>
+  <published>2021-09-08T12:41:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/专访：只要中美不开战，德国就不会-选边站/a-59122886?maca=chi-rss-chi-all-1127-xml-atom"/>
+  <summary><![CDATA[德国大选已经进入倒计时，默克尔长达16年的总理生涯也接近尾声。如何评价这位“铁娘子”的对华政策？新政府对北京的态度是否会更强硬？在中美对峙持续的情况下，德国该如何处理和这两个大国之间的“三角关系”？德国之声采访了德国波恩大学政治学教授辜学武。]]></summary>
+  <category term="时政风云"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59122870</id>
   <title><![CDATA[德彪西：《月光》]]></title>
@@ -143,16 +153,6 @@
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德语媒体：默克尔失去了一位不会惹恼北京的战略家/a-59113410?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[德国新任驻华大使贺岩（Jan Hecker）突然辞世的消息在德国政界引发巨大震动。贺岩上任后希望继续加强德国和中国之间的交流与伙伴关系。德语媒体分析认为，他的去世不只让默克尔总理失去了一位亲信，同时还失去了一位不会想着惹恼北京的战略家。]]></summary>
   <category term="评论分析"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59113209</id>
-  <title><![CDATA[古巴开始为幼儿接种新冠疫苗 ]]></title>
-  <updated>2021-09-07T13:46:00Z</updated>
-  <published>2021-09-07T13:46:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/古巴开始为幼儿接种新冠疫苗/a-59113209?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[古巴成为全球首个让两岁以上儿童接种 COVID-19新冠疫苗的国家。这个加勒比国家自己研制的疫苗未获世卫组织认证。 ]]></summary>
-  <category term="时政风云"/>
  </entry>
  <entry>
   <id>tag:dw.com,2021:59111500</id>
@@ -382,16 +382,6 @@
   <rights>2021 DW.COM, Deutsche Welle</rights>
   <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/中国持续整顿科技巨头-滴滴、京东组建工会/a-59057004?maca=chi-rss-chi-all-1127-xml-atom"/>
   <summary><![CDATA[在中国监管机构持续整顿中国科技公司的同时，京东与滴滴传出将在中国政府主导的中华全国总工会下组建工会。后者对于叫车司机不公平的薪资待遇受到外界诸多批评。]]></summary>
-  <category term="经济纵横"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:59053903</id>
-  <title><![CDATA[消息人士：蚂蚁金服数据业务将被整合]]></title>
-  <updated>2021-09-01T14:34:00Z</updated>
-  <published>2021-09-01T14:34:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/消息人士：蚂蚁金服数据业务将被整合/a-59053903?maca=chi-rss-chi-all-1127-xml-atom"/>
-  <summary><![CDATA[据路透社报道，多家国有资本企业将和蚂蚁金服合资成立一家个人信用评分公司，从而整合蚂蚁金服的数据业务，以便监管。]]></summary>
   <category term="经济纵横"/>
  </entry>
  <entry>
