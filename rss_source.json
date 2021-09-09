@@ -1,6 +1,6 @@
 {
-	"中國_V2EX_最新@CN_v2exLatest": "https://rsshub-wft44maqb.herokuapp.com/v2ex/topics/latest",
-	"中國_V2EX_熱門@CN_v2exHot": "https://rsshub-wft44maqb.herokuapp.com/v2ex/topics/hot",
+	"中國_V2EX_最新@CN_v2exLatest.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/v2ex/topics/latest",
+	"中國_V2EX_熱門@CN_v2exHot.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/v2ex/topics/hot",
 	"中國_端点星@CN_terminus2049": "https://terminus2049.github.io/atom.xml",
 	"中國_新·品葱@CN_pincong": "https://pincong.rocks/feed",
 	"台灣_中華民國外交部全球資訊網_即時新聞澄清@TW_mofaClarification": "https://www.mofa.gov.tw/OpenData.aspx?SN=FB09C9C041E34414",
@@ -128,7 +128,7 @@
 	"德國_【公視】德國之聲_每日影片節目@DE_dw_podcast": "https://rss.dw.com/atom/podcast_radio_china",
 	"德國_【公視】德國之聲@DE_dw": "https://rss.dw.com/atom/rss-chi-all",
 	"澳門_【公視】澳廣視_即時新聞@MO_tdm": "https://www.tdm.com.mo/global/xml/livenews_rss.php",
-	"澳洲_【公視】ABC@AU_abc": "https://rsshub-wft44maqb.herokuapp.com/abc/chinese",
+	"澳洲_【公視】ABC@AU_abc.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/abc/chinese",
 	"韓國_【公視】KBS_本週焦點@KR_kbsHot": "http://world.kbs.co.kr/rss/rss_hotissue.htm?lang=c",
 	"韓國_【公視】KBS_南北韓@KR_kbsIK": "http://world.kbs.co.kr/rss/rss_news.htm?lang=c&id=IK",
 	"韓國_【公視】KBS_國際@KR_kbsIntl": "http://world.kbs.co.kr/rss/rss_news.htm?lang=c&id=In"
