@@ -1,13 +1,8 @@
-### **無污染dns伺服器（beta）：**
-#### 直連伺服器：（推廌）
+### 直連台灣節點：（推廌）
 ```
 https://wft44maqb.me/dns-query
 ```
-#### 經Cloudflare：（複雜網絡地區用戶有望加強穩定性並減少延遲。）
-```
-https://dns.wft44maqb.me/dns-query
-```
-可靠的上游dns服務供應商‧·開源軟件AdguardHome架設
+#### 路由優化，複雜網絡地區用戶有望加強穩定性並減少延遲。
 
 # RSS鏡像 免翻牆
 ## 中國大陸_多維新聞_全球@CN_dwIntl.RSSHUB
