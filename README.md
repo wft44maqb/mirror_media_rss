@@ -1,8 +1,9 @@
-### 直連台灣節點：（推廌）
+### 直連NextDNS台灣節點：（推廌）
 ```
-https://wft44maqb.me/dns-query
+https://serverfield-tpe-1.edge.nextdns.io/
 ```
 #### 路由優化，複雜網絡地區用戶有望加強穩定性並減少延遲。
+#### 查詢名稱最小化，減少洩漏到中間DNS伺服器的訊息以加強隱私保護。
 
 # RSS鏡像 免翻牆
 ## 中國大陸_多維新聞_全球@CN_dwIntl.RSSHUB
