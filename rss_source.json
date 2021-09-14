@@ -141,7 +141,7 @@
 	"德國_【公視】德國之聲@DE_dw": "https://rss.dw.com/atom/rss-chi-all",
 	"澳門_【公視】澳廣視_即時新聞@MO_tdm": "https://www.tdm.com.mo/global/xml/livenews_rss.php",
 	"澳門_論盡@MO_aamacau": "https://aamacau.com/feed/atom/",
-	"澳洲_【公視】ABC@AU_abc.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/abc/chinese",
+	"澳洲_【公視】ABC@AU_abc": "https://www.abc.net.au/news/feed/8537074/rss_fulltext.xml",
 	"韓國_【公視】KBS_本週焦點@KR_kbsHot": "http://world.kbs.co.kr/rss/rss_hotissue.htm?lang=c",
 	"韓國_【公視】KBS_南北韓@KR_kbsIK": "http://world.kbs.co.kr/rss/rss_news.htm?lang=c&id=IK",
 	"韓國_【公視】KBS_國際@KR_kbsIntl": "http://world.kbs.co.kr/rss/rss_news.htm?lang=c&id=In"
