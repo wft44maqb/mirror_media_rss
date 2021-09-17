@@ -14,8 +14,125 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Fri, 17 Sep 2021 15:04:22 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Sep 2021 15:19:33 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[MacOS Apple Music - 把本地音乐添加到 Apple music 的库里，会另外创建一个副本。有办法避免这一点吗？]]></title>
+            <description><![CDATA[oooolongtea: 我把本地的音乐加入到了 Apple Music 中，我发现音乐文件被加入以后，Apple Music 会创建一个音乐文件的副本，在这个路径下：/Macintosh HD/Users/[用户名]/Music/iTunes/iTunes Media/Music/[歌手名]/[专辑名]/[音乐文件名].mp3<br>有没有办法直接就让 Apple Music 使用我想加入的音乐文件的原文件，不去创建这个副本？<br>我本地音乐有些多，如果每个音乐文件都创建一个类似的副本，会占用大量的空间。<br>多谢各位。]]></description>
+            <pubDate>Fri, 17 Sep 2021 15:10:27 GMT</pubDate>
+            <guid isPermaLink="false">802650</guid>
+            <link>https://www.v2ex.com/t/802650</link>
+            
+            
+            
+            <author><![CDATA[oooolongtea]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[Linux 执行一段 shell 命令加与不加 nohup 到底有什么区别？]]></title>
+            <description><![CDATA[BaseException: <p>请教 Linux 大佬、运维大佬，标题中的问题。下面我先抛砖引玉。</p>
+<blockquote>
+<p>nohup 英文全称 no hang up （不挂起），用于在系统后台不挂断地运行命令，退出终端不会影响程序的运行。
+nohup 命令，在默认情况下（非重定向时），会输出一个名叫 nohup.out 的文件到当前目录下，如果当前目录的 nohup.out 文件不可写，输出重定向到 $HOME/nohup.out 文件中。</p>
+</blockquote>
+<p>以上来自 <a href="https://www.runoob.com/linux/linux-comm-nohup.html" rel="nofollow">https://www.runoob.com/linux/linux-comm-nohup.html</a></p>
+<p>执行一个 java 程序，使用命令 1 或 2</p>
+<ol>
+<li><code>java -jar xxx.jar >> ./xxx.log 2>&1 &</code></li>
+<li><code>nohup java -jar xxx.jar >> ./xxx.log 2>&1 &</code></li>
+</ol>
+<h2>问题 1:</h2>
+<p>我使用命令 1 执行的程序，在退出终端之后，进程依然很好的存活着啊，<code>nohup</code> 的真正作用是什么？</p>
+<h2>问题 2:</h2>
+<p><code>>> ./xxx.log</code> 这个 >> 跟文件之间需要空格吗？还是有没有空格都一样，我经过测试似乎是一样达到目的的。我知道 <code>></code> 是直接覆盖， <code>>></code> 是追加到文件（如果之前文件存在且有内容）。</p>
+<p>谢谢彦祖们。</p>
+]]></description>
+            <pubDate>Fri, 17 Sep 2021 15:10:08 GMT</pubDate>
+            <guid isPermaLink="false">802649</guid>
+            <link>https://www.v2ex.com/t/802649</link>
+            
+            
+            
+            <author><![CDATA[BaseException]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[apple 取货时间预约错了，预约在了周日（要上班）]]></title>
+            <description><![CDATA[zzzain46: <p>可以提前一天取货吗😭有没有老哥有经验</p>
+]]></description>
+            <pubDate>Fri, 17 Sep 2021 15:07:24 GMT</pubDate>
+            <guid isPermaLink="false">802648</guid>
+            <link>https://www.v2ex.com/t/802648</link>
+            
+            
+            
+            <author><![CDATA[zzzain46]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[React 数据请求库 SWR 发布 1.0 正式版本]]></title>
+            <description><![CDATA[shuding: <p>项目地址： <a href="https://github.com/vercel/swr" rel="nofollow">https://github.com/vercel/swr</a><br>
+中文文档： <a href="https://swr.vercel.app/zh-CN" rel="nofollow">https://swr.vercel.app/zh-CN</a></p>
+<p>SWR 是一个轻量且便捷的 React hook 数据请求库，基础功能仅一行代码：</p>
+<pre><code class="language-js">import useSWR from 'swr'
+
+function Profile() {
+  const { data, error } = useSWR('/api/user', fetcher)
+
+  if (error) return <div>failed to load</div>
+  if (!data) return <div>loading...</div>
+  return <div>hello {data.name}!</div>
+}
+</code></pre>
+<p>自带了请求去重、错误重试、缓存、轮询、分页、页面聚焦自动重载、服务端渲染（ SSR/SSG ）、Suspense 、React Native 支持 <a href="https://swr.vercel.app/zh-CN" rel="nofollow">等等功能</a>。</p>
+<h2>1.0 版本变化</h2>
+<ul>
+<li>
+更轻量：在没有删除任何现有功能的前提下，<ul>
+<li>核心减小 41%（压缩后为 24%，3.9 kB ）</li>
+<li>安装包减小 52%</li>
+<li>改进 tree-shaking</li>
+</ul>
+</li>
+<li>支持预加载的数据作为 fallback：对于服务端渲染、静态渲染等场景有更好的支持</li>
+<li>支持 immutable 模式：可定义数据为 immutable，不重复请求</li>
+<li>中间件（ middleware ）支持：多种场景扩展（<a href="https://swr.vercel.app/zh-CN/docs/middleware" rel="nofollow">示例</a>）</li>
+<li>自定义缓存提供层：持久化、离线、测试等场景（<a href="https://swr.vercel.app/zh-CN/docs/advanced/cache" rel="nofollow">文档</a>）</li>
+</ul>
+<p>详情请阅读 1.0 版本博客文章： <a href="https://swr.vercel.app/zh-CN/blog/swr-v1" rel="nofollow">https://swr.vercel.app/zh-CN/blog/swr-v1</a> </p>
+<h2>后续版本计划</h2>
+<ul>
+<li><code>swr@1.1.0-beta.0</code> 测试版本已发布，加入了 <a href="https://twitter.com/shuding_/status/1438543303562174468" rel="nofollow">自动序列化缓存 key 的功能</a>，欢迎尝试</li>
+<li>未来版本考虑中的功能：<code>useSWRMutation</code> 与 <code>useSWRSubscription</code></li>
+</ul>
+<hr>
+<p>欢迎给 SWR 提供贡献和建议： <a href="https://github.com/vercel/swr" rel="nofollow">https://github.com/vercel/swr</a> 或留言！♥</p>
+]]></description>
+            <pubDate>Fri, 17 Sep 2021 15:04:00 GMT</pubDate>
+            <guid isPermaLink="false">802646</guid>
+            <link>https://www.v2ex.com/t/802646</link>
+            
+            
+            
+            <author><![CDATA[shuding]]></author>
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[iPad mini 6 Geekbench5 Compute Metal 13941]]></title>
@@ -700,164 +817,6 @@
             
             
             <author><![CDATA[030]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[上海互联网金融团队招聘 Java ~氛围自由~HC 很多]]></title>
-            <description><![CDATA[wudixiaomianyang: <p>公司是正规持牌机构，小而美吧，965 或者 1075 。15 薪，面试流程快，有简历请推送给我，随时帮你查看面试流程。有兴趣的小伙伴请把简历投递给我： <a href="mailto:zihao.li@xinfei.cn">zihao.li@xinfei.cn</a></p>
-<p>招聘 java 高级开发、资深岗。25-50K</p>
-<p>[岗位职责] </p>
-<ol>
-<li>信贷系统的设计、研发等工作。</li>
-<li>根据产品需求，参与需求评审、功能模块设计、编码实现、自测等，并确保开发质量量与进度。
-[岗位要求] </li>
-<li>本科及以上学历，计算机科学与技术相关专业，从事开发 2 年及以上工作经验，有金融项目开发经验优先；</li>
-<li>熟悉 Unix/Linux 操作系统，精通 Java，go 等任一门语言及相关的后台开发框架；</li>
-<li>熟悉 HTTP 等网络应用协议，能根据 Restful 规范开发接口；</li>
-<li>熟悉数据库设计，具备 MYSQL 数据库设计，优化能力；</li>
-<li>熟练使用 Redis 缓存；</li>
-<li>熟练使用 React，Antd 开发后台管理系统；</li>
-<li>能流畅阅读英文文档，对接外部接口；</li>
-<li>能根据产品需求自行设计开发相关功能；</li>
-<li>了解微服务开发规范；
-10.了解 Docker，K8S 容器加分；
-11.了解华为、阿里云等云平台常用服务。</li>
-</ol>
-]]></description>
-            <pubDate>Fri, 17 Sep 2021 10:34:28 GMT</pubDate>
-            <guid isPermaLink="false">802600</guid>
-            <link>https://www.v2ex.com/t/802600</link>
-            
-            
-            
-            <author><![CDATA[wudixiaomianyang]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[瞎折腾 mac os 格式硬盘 格式化装了 window 还有救吗]]></title>
-            <description><![CDATA[idamien: <p>瞎折腾， 两个 ssd 型号名称一样，一个里面有 mac os 系统， 另外一个是空的格式化好准备装 windows 的</p>
-<p>结果我误认为 mac os 那个是空的，然后删除现有分区，在上面装了 win10 </p>
-<p>现在 win10 上面想恢复原来 mac os 里面的文件，现有的还原软件都试了，默认都是扫描 win 格式的文件</p>
-<p>怎么才能找回原来 mac os 中的部分文件 ， 头疼</p>
-]]></description>
-            <pubDate>Fri, 17 Sep 2021 10:17:52 GMT</pubDate>
-            <guid isPermaLink="false">802599</guid>
-            <link>https://www.v2ex.com/t/802599</link>
-            
-            
-            
-            <author><![CDATA[idamien]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[离职领导不放人]]></title>
-            <description><![CDATA[monetto: <p>如题，已经在 9 月 6 日在内部的企业微信上跟领导说了离职，然后领导说等他找我谈谈。</p>
-<p>然后一直拖，拖了一个多星期才找我谈，谈话结果就是，没人跟我交接，让我把活上线完成再走。</p>
-<p>但是手头这个任务，没法上线，很多模块都是一起测试的，别人那边测试不完，我这边也没法上线。</p>
-<p>直到最近谈了几次，就是不放人，也不安排交接。我这边交接文档都写好了，下家一直在催。</p>
-<p>这种情况怎么办，网上查说，书面提离职一个月之后就必须放人，但是我在企业微信上提的，可以生效吗？</p>
-]]></description>
-            <pubDate>Fri, 17 Sep 2021 10:04:13 GMT</pubDate>
-            <guid isPermaLink="false">802598</guid>
-            <link>https://www.v2ex.com/t/802598</link>
-            
-            
-            
-            <author><![CDATA[monetto]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[冲呀！《算法导论》纸书免费送！定制鼠标垫免费送！]]></title>
-            <description><![CDATA[Try003: <p>这个“金九银十”求职季，职小哥为码农兄弟们准备了一场 <strong>“职遇新生”程序员求职季专属福利</strong>活动，送出一份求职、工作和学习的大礼包。</p>
-<p>完成关注助力任务， <strong>《算法导论》</strong> 实体纸书、<strong>编程语言快捷键鼠标垫</strong>、<strong>求职面试资料包</strong>都可免费领取！！</p>
-<p>活动真实有效，目前参与的人不多，还有很多奖品就等你来带走啦~</p>
-<p><strong>活动介绍</strong></p>
-<p><strong>活动时间：9 月 13 日-9 月 19 日 13:00</strong></p>
-<p><strong>活动对象：深圳地区程序员</strong></p>
-<p><strong>活动福利</strong></p>
-<p><strong>福利一 《算法导论》实体纸书</strong></p>
-<p><img alt="算法导论.png" class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/90ec16f77b3f4725866dd63ead8bbb7f%7Etplv-k3u1fbpfcp-zoom-1.image"></p>
-<p>这是一本<strong>经典的计算机算法图书</strong>，对计算机算法研究进行了全面综合性介绍，内容涵盖基础知识排序顺序统计量、数据结构、高级设计分析技术、高级数据结构、图算法、算法问题选编以及数学基础知识。随书还附有练习和思考题，非常值得学习。</p>
-<p>总之，就是大家都知道的很牛 X 的一本书~</p>
-<p><strong>福利二 程序员快捷键鼠标垫</strong></p>
-<p><img alt="鼠标垫.png" class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7be3e9e7ddf04b7691c798eee98bb3e7%7Etplv-k3u1fbpfcp-zoom-1.image"></p>
-<p>有些鼠标垫，表面上看是鼠标垫，其实，在你工作的时候它还有另一副面孔——<strong>编程语言快捷键大全~</strong></p>
-<p>干活儿的时候突然忘了快捷操作，扫一眼立马找到，可谓是办公神器，怎么能不马上拥有？</p>
-<p><strong>福利三 求职面试资料包</strong></p>
-<p><img alt="求职面试资料包.png" class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a7e4665a6b044ad186db2c31d61a6ee4%7Etplv-k3u1fbpfcp-zoom-1.image"></p>
-<p>正所谓<strong>聪明人不打无准备之仗</strong>，找工作面试，得先准备好敲门砖。</p>
-<p>这份求职面试资料包，包含<strong>简历模板、面试题库、职业性格心理测评等</strong>，相信很大程度上能帮你知己知彼，助你面试成功。</p>
-<p><strong>免费领取方式</strong></p>
-<p>微信搜索关注**公众号 [深圳 IT 好职汇] **</p>
-<p><strong>发送关键词“1024”</strong></p>
-<p>转发活动海报给你的程序员小伙伴</p>
-<p>完成助力任务</p>
-<p>即可<strong>免费领取！</strong></p>
-<p>↓↓</p>
-<p><img alt="分享有礼海报.png" class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/263512a514254480aaf65e2595089a81%7Etplv-k3u1fbpfcp-zoom-1.image" title="分享有礼海报.png"></p>
-<p>*<strong>加码福利</strong></p>
-<p>完成活动中所有助力任务，且<strong>邀请关注数量排名前三</strong>的用户，即可免费领取<strong>资深职业咨询专家 1V1 职业咨询服务</strong>（价值 688 元，包含职业测评、简历诊断、面试辅导等)。</p>
-<p>请知悉：</p>
-<p>（ 1 ）本活动仅限深圳地区程序员参与，非深圳地区收货地址不予发货。</p>
-<p>（ 2 ）实物奖品每人限领一份，以最高阶助力任务奖励为准，10~15 个工作日内发货。</p>
-<p>（ 3 ）本活动最终解释权归活动主办方所有。</p>
-]]></description>
-            <pubDate>Fri, 17 Sep 2021 10:03:59 GMT</pubDate>
-            <guid isPermaLink="false">802597</guid>
-            <link>https://www.v2ex.com/t/802597</link>
-            
-            
-            
-            <author><![CDATA[Try003]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[kex_exchange_identification: write: Connection reset]]></title>
-            <description><![CDATA[AngryPanda: <pre><code class="language-bash">$ ssh -v ubuntu@x.x.x.x
-OpenSSH_for_Windows_8.1p1, LibreSSL 3.0.2
-debug1: Connecting to x.x.x.x [x.x.x.x] port 22.
-debug1: Connection established.
-debug1: identity file C:\\Users\\username/.ssh/id_rsa type 0
-debug1: identity file C:\\Users\\username/.ssh/id_rsa-cert type -1
-debug1: identity file C:\\Users\\username/.ssh/id_dsa type -1
-debug1: identity file C:\\Users\\username/.ssh/id_dsa-cert type -1
-debug1: identity file C:\\Users\\username/.ssh/id_ecdsa type -1
-debug1: identity file C:\\Users\\username/.ssh/id_ecdsa-cert type -1
-debug1: identity file C:\\Users\\username/.ssh/id_ed25519 type -1
-debug1: identity file C:\\Users\\username/.ssh/id_ed25519-cert type -1
-debug1: identity file C:\\Users\\username/.ssh/id_xmss type -1
-debug1: identity file C:\\Users\\username/.ssh/id_xmss-cert type -1
-kex_exchange_identification: write: Connection reset
-</code></pre>
-<p>请问这个是什么情况啊？</p>
-]]></description>
-            <pubDate>Fri, 17 Sep 2021 10:01:48 GMT</pubDate>
-            <guid isPermaLink="false">802596</guid>
-            <link>https://www.v2ex.com/t/802596</link>
-            
-            
-            
-            <author><![CDATA[AngryPanda]]></author>
             
                 
             
