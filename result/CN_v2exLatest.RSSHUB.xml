@@ -14,8 +14,57 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Fri, 17 Sep 2021 14:50:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Sep 2021 15:04:22 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[iPad mini 6 Geekbench5 Compute Metal 13941]]></title>
+            <description><![CDATA[gainsurier: <a target="_blank" href="https://browser.geekbench.com/v5/compute/search?utf8=%E2%9C%93&q=ipad14%2C2" rel="nofollow noopener">https://browser.geekbench.com/v5/compute/search?utf8=%E2%9C%93&q=ipad14%2C2</a><br><br>基本出现在 13700 附近，有三个 12300 的 1.9Ghz 的 CPU 主频的异常值可能是在省电模式跑的，有一个 12225 的 2.9Ghz 的 CPU 主频的分数不明。<br><br>对比参考（取约数）<br>iPad Air 4：12500<br>iPhone 13 Pro/Max：14500<br>iPhone 13/min: 11000<br>iPhone12: 9500<br><br>mini 6 的分数比 13 Pro* 略少一点，不清楚是数据过少，还是存在降频。参照 Air 4 和 12 的差距，让人浮想联翩 Air 4 上那颗 A14 是不是也是 5 核的 GPU....<br><br><a target="_blank" href="https://www.v2ex.com/i/VrWZ6PK5.png" rel="nofollow noopener" title="在新窗口打开图片 VrWZ6PK5.png"><img src="https://i.v2ex.co/VrWZ6PK5.png" class="embedded_image" referrerpolicy="no-referrer"></a>]]></description>
+            <pubDate>Fri, 17 Sep 2021 14:57:39 GMT</pubDate>
+            <guid isPermaLink="false">802643</guid>
+            <link>https://www.v2ex.com/t/802643</link>
+            
+            
+            
+            <author><![CDATA[gainsurier]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[关于 potplayer 配置导出导入]]></title>
+            <description><![CDATA[su0818: <p>旧电脑里导出了 reg 的配置文件，在新电脑上直接运行没有任何作用，谷歌搜了一小时也没找到有效的办法，求助有没有解决的办法啊</p>
+]]></description>
+            <pubDate>Fri, 17 Sep 2021 14:55:04 GMT</pubDate>
+            <guid isPermaLink="false">802642</guid>
+            <link>https://www.v2ex.com/t/802642</link>
+            
+            
+            
+            <author><![CDATA[su0818]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[房贷要选择等额本息还是等额本金？]]></title>
+            <description><![CDATA[miaomiao2014: 房贷要选择等额本息还是等额本金？<br>想听各位宝贵意见，有什么要注意下？]]></description>
+            <pubDate>Fri, 17 Sep 2021 14:51:00 GMT</pubDate>
+            <guid isPermaLink="false">802641</guid>
+            <link>https://www.v2ex.com/t/802641</link>
+            
+            
+            
+            <author><![CDATA[miaomiao2014]]></author>
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[《性爱自修室》第三季回归了]]></title>
@@ -809,99 +858,6 @@ kex_exchange_identification: write: Connection reset
             
             
             <author><![CDATA[AngryPanda]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[「GM_脚本」qBittorrent 批量修改任务 tracker]]></title>
-            <description><![CDATA[wdssmq: 浏览器管理 qBittorrent 时并没有批量替换 tarcker 的功能，可以使用这个脚本实现；<br><br>需要将任务添加到一个分类中；<br><br><a target="_blank" href="https://greasyfork.org/zh-CN/scripts/391688" rel="nofollow noopener">https://greasyfork.org/zh-CN/scripts/391688</a>]]></description>
-            <pubDate>Fri, 17 Sep 2021 09:47:10 GMT</pubDate>
-            <guid isPermaLink="false">802594</guid>
-            <link>https://www.v2ex.com/t/802594</link>
-            
-            
-            
-            <author><![CDATA[wdssmq]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[ibm power s814 有偿 Linux 虚拟化]]></title>
-            <description><![CDATA[glacial: <p>我们有一台 ibm power s814 的小型机，须要做 linux 虚拟化 当测试机用，由于公司没有会操作的，需要找人给做一下，要有是有会的 可以留言联系我，当然这是有偿服务。具体金额我们私聊。坐标北京</p>
-]]></description>
-            <pubDate>Fri, 17 Sep 2021 09:40:39 GMT</pubDate>
-            <guid isPermaLink="false">802592</guid>
-            <link>https://www.v2ex.com/t/802592</link>
-            
-            
-            
-            <author><![CDATA[glacial]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[有没有英语比较好，或者第六感比较强的人，看看这句话怎么理解]]></title>
-            <description><![CDATA[ethan678: <p>This rule enforces the consistent use of either backticks, double, or single quotes.</p>
-<p>这句话来自 eslint 的官方文档。参见
-<a href="https://eslint.org/docs/rules/quotes" rel="nofollow">https://eslint.org/docs/rules/quotes</a></p>
-<p>我觉得是对下面配置中“2”的解释，表示要成对出现。
-这条规则强制单引号、双引号、` 成对使用。</p>
-<p>'quotes': [2, 'single', {
-'avoidEscape': true,
-'allowTemplateLiterals': true
-}],</p>
-]]></description>
-            <pubDate>Fri, 17 Sep 2021 09:26:08 GMT</pubDate>
-            <guid isPermaLink="false">802591</guid>
-            <link>https://www.v2ex.com/t/802591</link>
-            
-            
-            
-            <author><![CDATA[ethan678]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[求帮忙分析一下本行代码的含义]]></title>
-            <description><![CDATA[manyfreebug: <p>源码在： <a href="https://github.com/yued-fe/lulu/blob/master/theme/pure/js/common/ui/Dialog.js#L351" rel="nofollow">https://github.com/yued-fe/lulu/blob/master/theme/pure/js/common/ui/Dialog.js#L351</a></p>
-]]></description>
-            <pubDate>Fri, 17 Sep 2021 09:19:45 GMT</pubDate>
-            <guid isPermaLink="false">802590</guid>
-            <link>https://www.v2ex.com/t/802590</link>
-            
-            
-            
-            <author><![CDATA[manyfreebug]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[如何看待微信小程序团队 fork 了 flutter？]]></title>
-            <description><![CDATA[GhostBoy: <p><a href="https://github.com/wechat-miniprogram/flutter" rel="nofollow">https://github.com/wechat-miniprogram/flutter</a></p>
-<p>是不是可以预测出，以后可以用 flutter 开发小程序？</p>
-]]></description>
-            <pubDate>Fri, 17 Sep 2021 09:18:53 GMT</pubDate>
-            <guid isPermaLink="false">802589</guid>
-            <link>https://www.v2ex.com/t/802589</link>
-            
-            
-            
-            <author><![CDATA[GhostBoy]]></author>
             
                 
             

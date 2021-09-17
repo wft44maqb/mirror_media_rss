@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Cloud Status Dashboard Updates</title>
-  <updated>2021-09-17T14:39:53+00:00</updated>
+  <updated>2021-09-17T15:06:52+00:00</updated>
   <link href="https://status.cloud.google.com/" rel="alternate" type="text/html"></link>
   <link href="https://status.cloud.google.com/en/feed.atom" rel="self"></link>
   <author>
@@ -9,6 +9,18 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
+    <title>UPDATE: Increased VM failure rates in a subset of Google Cloud zones</title>
+    <link href="https://status.cloud.google.com/incidents/rjF86FbooET3FDpMV9w1" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:rjF86FbooET3FDpMV9w1.DfAEhDgor5NbURiCRQeS</id>
+    <updated>2021-09-17T15:06:52+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-17 07:39&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Increased VM failure rates in a subset of Google Cloud zones&lt;/p&gt;
+&lt;p&gt;Description: Mitigation work is currently underway by our engineering team.&lt;/p&gt;
+&lt;p&gt;We do not have an ETA for mitigation at this point.&lt;/p&gt;
+&lt;p&gt;We will provide more information by Friday, 2021-09-17 09:00 US/Pacific.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customers may be experiencing higher VM failure rates.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
+  </entry><entry>
     <title>UPDATE: Increased VM failure rates in a subset of Google Cloud zones</title>
     <link href="https://status.cloud.google.com/incidents/rjF86FbooET3FDpMV9w1" rel="alternate" type="text/html"></link>
     <id>tag:status.cloud.google.com,2021:feed:rjF86FbooET3FDpMV9w1.omEKitVnxeXX8kU6w5ny</id>
