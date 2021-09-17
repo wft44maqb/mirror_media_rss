@@ -14,8 +14,59 @@
         
         <language>zh-cn</language>
         
-        <lastBuildDate>Fri, 17 Sep 2021 14:26:01 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Sep 2021 14:40:25 GMT</lastBuildDate>
         <ttl>5</ttl>
+        
+        <item>
+            <title><![CDATA[很久没听豆瓣 FM 了，今天打开一看发现 1200 多首红心歌曲只能播放 36 首了……]]></title>
+            <description><![CDATA[gotounix: ]]></description>
+            <pubDate>Fri, 17 Sep 2021 14:37:28 GMT</pubDate>
+            <guid isPermaLink="false">802636</guid>
+            <link>https://www.v2ex.com/t/802636</link>
+            
+            
+            
+            <author><![CDATA[gotounix]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[只有程序员可以领取的区块链福利]]></title>
+            <description><![CDATA[journey1: <p>简单明了，只有程序员可以领取的区块链空投
+<a href="https://hosting.4everland.org/#/?invite=QQHILMG3" rel="nofollow">https://hosting.4everland.org/#/?invite=QQHILMG3</a> 空投地址
+登录使用 github 授权之后，new project,按照提示成功发布一个 vue.js 项目，就可以领取 1000 个代币和 30G 的云空间</p>
+]]></description>
+            <pubDate>Fri, 17 Sep 2021 14:33:21 GMT</pubDate>
+            <guid isPermaLink="false">802635</guid>
+            <link>https://www.v2ex.com/t/802635</link>
+            
+            
+            
+            <author><![CDATA[journey1]]></author>
+            
+                
+            
+            
+        </item>
+        
+        <item>
+            <title><![CDATA[迫于要分期，用个 ICBC 的网银我要吐了 Mac/Windows10 下有谁能正常使用的吗？最后手机浏览器居然直接能用？]]></title>
+            <description><![CDATA[dejavuwind: 试了半天，还用 Windows 机器试了，愣是一直提示安装网银控件，我也是服了，<br><br>windows10 好不容易用工行的网银助手装了一堆控件，结果付款跳转的时候还是提示交易超时，是不是几年没更新了？<br><br>还是默认大家都用的 Windows7 ？<br><br>但是手机居然直接就手机验证码登录网银付款成功了？这是什么神仙逻辑啊。]]></description>
+            <pubDate>Fri, 17 Sep 2021 14:33:06 GMT</pubDate>
+            <guid isPermaLink="false">802634</guid>
+            <link>https://www.v2ex.com/t/802634</link>
+            
+            
+            
+            <author><![CDATA[dejavuwind]]></author>
+            
+                
+            
+            
+        </item>
         
         <item>
             <title><![CDATA[[网易互娱][广州] 数据与平台服务部部门直招（大数据、机器学习、研发流水线、应用管理、CMDB、发布下载、立体化监控、服务端性能管理）]]></title>
@@ -893,76 +944,6 @@ kex_exchange_identification: write: Connection reset
             
             
             <author><![CDATA[bleutail]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[安卓和 iPhone 那个适合钉钉远程打卡?]]></title>
-            <description><![CDATA[perpetually: <pre><code>看了一下主流的就两种方案：
-
-1.在家虚拟定位
-2.备用机放公司远程控制
-这两种方案那种更好？安卓还是 iOS ？
-
-</code></pre>
-]]></description>
-            <pubDate>Fri, 17 Sep 2021 09:02:36 GMT</pubDate>
-            <guid isPermaLink="false">802586</guid>
-            <link>https://www.v2ex.com/t/802586</link>
-            
-            
-            
-            <author><![CDATA[perpetually]]></author>
-            
-                
-            
-            
-        </item>
-        
-        <item>
-            <title><![CDATA[开源应用中心｜这款小而强大的开源博客程序，简直让人爱不释手！]]></title>
-            <description><![CDATA[1024jannie: <p><img alt class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://main.qcloudimg.com/raw/423381c1c0caa3ed7c3542d4cf02da34.png"></p>
-<h2>1. 背景</h2>
-<p>ComBlog 是一款简洁博客程序，该博客由 Composer 搭建，文章编写使用 Markdown 语法，容器基于 pimple，路由基于 FastRout，很适合在上边搭建个人的笔记或者知识总结。</p>
-<p><img alt class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://main.qcloudimg.com/raw/b4f2ac8a6ffdd9db005fbdbab89229b8.jpg"></p>
-<h2>2. ComBlog 的特点</h2>
-<p>功能完善且简洁，能快速使用</p>
-<p>支持移动端访问</p>
-<p>接下来，我们来看看如何快速部署和使用起来。</p>
-<h2>3. 安装指引</h2>
-<p>第一步：点击链接直达；或登录腾讯云开源应用中心（ <a href="https://app.cloud.tencent.com/%EF%BC%89%EF%BC%8C%E6%90%9C%E7%B4%A2" rel="nofollow">https://app.cloud.tencent.com/），搜索</a> ComBlog 应用
-<img alt class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://main.qcloudimg.com/raw/5d5f9f487994e436854c1b567a390b53.jpg">
-第二步：点击免费体验或正式开通，开通完成。下图的账号和密码就是你的管理员账号和密码
-<img alt class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://main.qcloudimg.com/raw/e8a36d597d1b13f355ea264642a8ed73.jpg"></p>
-<h2>4. 使用指引</h2>
-<p>4.1 添加文章分类&标签
-笔记在文章分类和分类标签栏目下添加想分享的分类和标签
-<img alt class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://main.qcloudimg.com/raw/19f9ef50a49a909a42d760b2a01dc681.jpg"></p>
-<p>4.2 添加文章
-点击文章管理进行文章添加
-<img alt class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://main.qcloudimg.com/raw/775c3ca66df9c22e091ad597fb0d07c5.jpg">
-文章添加界面可以选择对应的标签和分类，文章内容可以容文本也可以使用 MarkDown 的形式编写最后进行发布</p>
-<p>4.3 查看文章
-打开博客首页就可以看到最新发布的文章
-<img alt class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://main.qcloudimg.com/raw/538c33162925eec1da5bac18bbf8f461.jpg"></p>
-<p><img alt class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://main.qcloudimg.com/raw/7e95949d79ff2d44420752ff6f2c6d0b.jpg"></p>
-<p>4.4 文章管理
-在管理后台可以方便的对文章进行增删改查等操作，并且提供了搜索功能方便快速定位到文章
-<img alt class="embedded_image" loading="lazy" referrerpolicy="no-referrer" rel="noreferrer" src="https://main.qcloudimg.com/raw/76bfa90e423f20e09adf579196fb18d5.jpg"></p>
-<h2>5. 经验小结</h2>
-<p>ComBlog 麻雀虽小五脏俱全，对于喜欢简洁界面的同学来说不失为一种好的选择。
-开源应用中心，提供免费体验版本，你在决策正式部署使用前，也可以通过体验版了解该应用的功能与服务。</p>
-]]></description>
-            <pubDate>Fri, 17 Sep 2021 09:02:15 GMT</pubDate>
-            <guid isPermaLink="false">802585</guid>
-            <link>https://www.v2ex.com/t/802585</link>
-            
-            
-            
-            <author><![CDATA[1024jannie]]></author>
             
                 
             

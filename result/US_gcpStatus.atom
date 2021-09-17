@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Cloud Status Dashboard Updates</title>
-  <updated>2021-09-09T22:25:24+00:00</updated>
+  <updated>2021-09-17T14:39:53+00:00</updated>
   <link href="https://status.cloud.google.com/" rel="alternate" type="text/html"></link>
   <link href="https://status.cloud.google.com/en/feed.atom" rel="self"></link>
   <author>
@@ -9,29 +9,47 @@
   </author>
   <id>https://status.cloud.google.com/</id>
   <entry>
-    <title>RESOLVED: europe-central2, europe-west3: Elevated error rates for GKE control plane</title>
-    <link href="https://status.cloud.google.com/incidents/SDkKgEgDZJCrvutAz3bn" rel="alternate" type="text/html"></link>
-    <id>tag:status.cloud.google.com,2021:feed:SDkKgEgDZJCrvutAz3bn.V5d1JM1qxwuWn2sakrYM</id>
-    <updated>2021-09-09T22:25:24+00:00</updated>
-    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-09 12:06&lt;/strong&gt; and ended at &lt;strong&gt;2021-09-09 12:54&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case using &lt;a href="https://cloud.google.com/support"&gt;https://cloud.google.com/support&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;(All Times US/Pacific)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 09 September 2021 10:46&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 09 September 2021 12:44&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 1 hour, 58 minutes&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Affected Services and Features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Google Kubernetes Engine (GKE) - Cluster operations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Regions/Zones:&lt;/strong&gt; europe-west3 , europe-central2&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Google Kubernetes Engine (GKE) experienced elevated error rates intermittently in europe-west3 and europe-central2 for a duration of 1 hour, 58 minutes. From preliminary analysis, the issue was caused by an ongoing rollout in the backend authentication service. The backend authentication service was rolled back, ending impact at 12:44.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Customer Impact:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Less than 0.5% of cluster operations that require an authentication token experienced elevated error rates.&lt;/li&gt;
-&lt;li&gt;Elevated error rates on GKE master pods that required authorization to change GCE resources.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Additional details:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A retry of the failed operation would have completed successfully.&lt;/p&gt;
-&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Kubernetes Engine&lt;/p&gt;</summary>
+    <title>UPDATE: Increased VM failure rates in a subset of Google Cloud zones</title>
+    <link href="https://status.cloud.google.com/incidents/rjF86FbooET3FDpMV9w1" rel="alternate" type="text/html"></link>
+    <id>tag:status.cloud.google.com,2021:feed:rjF86FbooET3FDpMV9w1.omEKitVnxeXX8kU6w5ny</id>
+    <updated>2021-09-17T14:39:53+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2021-09-17 07:39&lt;/strong&gt; &lt;span&gt;(all times are &lt;strong&gt;US/Pacific&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Summary: Increased VM failure rates in a subset of Google Cloud zones&lt;/p&gt;
+&lt;p&gt;Description: We are experiencing an intermittent issue with Google Compute Engine in the following zones:&lt;/p&gt;
+&lt;p&gt;asia-east1-c
+asia-east2-c
+asia-northeast1-c
+asia-northeast2-c
+asia-northeast3-c
+asia-south1-c
+asia-south2-c
+asia-southeast1-c
+asia-southeast2-c
+australia-southeast1-c
+australia-southeast2-c
+europe-central2-c
+europe-north1-c
+europe-west1-c
+europe-west2-c
+europe-west3-c
+europe-west4-c
+europe-west6-c
+northamerica-northeast1-c
+northamerica-northeast2-c
+southamerica-east1-c
+us-central1-c
+us-central1-f
+us-east1-c
+us-east4-c
+us-west1-c
+us-west2-a
+us-west2-b
+us-west2-c
+us-west3-c
+us-west4-c&lt;/p&gt;
+&lt;p&gt;Our engineering team continues to investigate the issue.&lt;/p&gt;
+&lt;p&gt;We will provide an update by Friday, 2021-09-17 08:10 US/Pacific with current details.&lt;/p&gt;
+&lt;p&gt;Diagnosis: Customers may be experiencing higher VM failure rates.&lt;/p&gt;
+&lt;p&gt;Workaround: None at this time.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Compute Engine&lt;/p&gt;</summary>
   </entry>
 </feed>
