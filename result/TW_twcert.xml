@@ -1,4 +1,157 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>http://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Tue, 07 Sep 2021 09:29:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[資安研究人員研製幾可亂真的 USB-C 傳輸線，可於 2 公里外遠端無線竊取用戶於鍵盤上輸入的資訊]]></title><link>http://www.twcert.org.tw/tw/cp-104-5062-c965c-1.html</link><description><![CDATA[<p><strong>資安研究人員自製出一條外觀與一般 Lightning 傳輸線完全無異，但內含特製晶片，可以攔截用戶輸入資訊，並無線傳輸至 2 公里之外的駭侵用傳輸線。</strong><br />
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title><![CDATA[資安新聞 - TWCERT/CC台灣電腦網路危機處理暨協調中心]]></title><link>https://www.twcert.org.tw/tw/np-104-1.html</link><description>TWCERT/CC台灣電腦網路危機處理暨協調中心 RSS channel.</description><language>zh-tw</language><pubDate>Fri, 17 Sep 2021 08:12:00 GMT</pubDate><copyright>TWCERT/CC</copyright><ttl>20</ttl><item><title><![CDATA[趨勢科技發表 2021 上半年最新資安攻擊分析報告]]></title><link>https://www.twcert.org.tw/tw/cp-104-5103-44f70-1.html</link><description><![CDATA[<p><strong>資安大廠趨勢科技，日前發表 2021 年年中資安攻擊分析報告，針對 2021 年上半年發現的各種資安威脅趨勢提出分析。</strong><br />
+<br />
+全球資安大廠趨勢科技，日前發表一份名為「2021 年年中資安攻擊」的分析報告，針對 2021 年上半年發現的各種資安威脅案例與趨勢提出分析。<br />
+<br />
+該報告有六個部分，分別為勒贖攻擊、進階持續性威脅（Advanced Persistent Threat, APT）、資安漏洞、Covid-19 肺炎疫情相關詐騙與威脅、雲端與 IoT 資安、威脅總體分析等等。<br />
+<br />
+在 2021 年上半年的勒贖攻擊方面，據該公司統計指出，以各種管道如 Email、URL、惡意檔案等攻擊次數，合計超過 700 萬次；其中以金融產業被攻擊次數最多，高達 15,537 次，甚次為政府單位（10,225 次）、製造業（4,957 次）、醫療保健業（4,802 次）、食品飲料業（2,330 次）。最具威脅的勒贖團體則為 DarkSide、REvil、Hello 等。<br />
+<br />
+在 APT 駭侵團體方面，這份報告列出五大在 2021 年上半年最具威脅的 APT 團體，分別為 TeamTNT、Water Pamola、Earth Vetala、Iron Tiger、Earch Wendigo。以 TeamTNT 來說，主要都是鎖定架構在 Amazon Web Services 上的各種網站服務或 Kubernetes 容器，竊取其帳號密碼，取得控制權後植入加密貨幣挖礦程式以牟取暴利。Water Pamola 的攻擊手法則由過去以發送釣魚信件為主，改為在各種網路商店的管理介面中，以 XSS 攻擊其漏洞來取得控制權。<br />
+<br />
+在漏洞方面，趨勢科技指出 2021 年上半年最具威脅性的四大漏洞，分別是 ProxyLogon、Microsoft SharePoint 漏洞、各種 VPN 系統漏洞、PrintNightmare 等。</p>]]></description><pubDate>Fri, 17 Sep 2021 08:12:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5103-44f70-1.html</guid></item><item><title><![CDATA[南非司法部遭勒贖攻擊，所有電腦系統全面停擺，被迫改以人工作業]]></title><link>https://www.twcert.org.tw/tw/cp-104-5102-51153-1.html</link><description><![CDATA[<p><strong>南非司法部日前遭嚴重勒贖攻擊，所有電腦系統內的檔案均遭加密，對內與對外電子化服務全面停擺。</strong><br />
+<br />
+南非司法部（Department of Justice）日前遭嚴重勒贖攻擊，所有內部網路中的電腦系統所存檔案均遭到加密而無法存取，導致該單位對內與對外的電子服務全面停擺。<br />
+<br />
+據南非司法部發言人 Steve Maglangu 表示，這次攻擊行動發生於 9 月 6 日，造成該單位內部網路中的檔案全部遭到加密，單位內部員工與外部公眾都無法存取這些檔案，因此造成該單位的電子化服務無法正常運作。<br />
+<br />
+具體受到影響的業務範圍，包括無法開立各種政府公文、暫停保釋程序、Email 系統與網站系統均無法使用等等。<br />
+<br />
+南非司法部發言人 Steve Maglangu 指出，該單位立即啟動緊急狀況程續，除了正在努力復原系統之外，為確保重要功能仍能繼續運作，包括各種文書的開立，以及法庭的運作，都暫時回復到人工作業模式；但子女扶養費（Child maintainance payment）的支付目前嚴重受阻。<br />
+<br />
+Steve Maglangu 也表示，目前無法確定所有系統何時能夠恢復正常運作；目前該單位正在設立一個全新的 EMail 系統，並將員工逐步轉移至新系統上。不過南非司法部沒有透露任何這次攻擊行動的細節資訊，包括攻擊者身分、攻擊手法等，目前都不得而知。<br />
+<br />
+南非司法部指出，目前沒有任何跡象顯示司法部資料外洩並遭濫用，也沒有任何駭侵團體出面宣稱發動這次攻擊；但資安專家指出，從南非司法部系統恢復所需的甚長時間，加上轉移到新的 Email 系統，研判該單位並未支付贖金給勒贖攻擊者。</p>]]></description><pubDate>Fri, 17 Sep 2021 08:10:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5102-51153-1.html</guid></item><item><title><![CDATA[Apple 推出 iOS、macOS 緊急更新，修補可能遭用於 NSA Pegasus 間諜軟體的 0-day 漏洞]]></title><link>https://www.twcert.org.tw/tw/cp-104-5100-351e4-1.html</link><description><![CDATA[<p><strong>Apple 緊急修復 iOS 中的 2 個 0-day 漏洞，該漏洞過去曾遭間諜軟體 Pegasus 大規模用於攻擊 iPhone 與 Mac 裝置，以進行竊聽與資料竊取。</strong><br />
+<br />
+Apple 推出用於新版 Mac、iOS 裝置的作業系統更新，以緊急修復 iOS 中的 2 個 0-day 漏洞，該漏洞過去曾遭以色列間諜軟體 Pegasus 大規模用於攻擊 iPhone 與 Mac 裝置，以進行竊聽與資料竊取。<br />
+<br />
+獲得修復的 2 個 0-day 漏洞分別是 CVE-2021-30860 與 CVE-2021-30858；CVE-2021-30860 是存於 iOS 與 macOS 中 CoreGraphics 子系統的整數溢位漏洞，駭侵者可利用特製的 PDF 檔案誘發此漏洞，在 iOS 與 macOS 中執行任意程式碼。<br />
+<br />
+另外，CVE-2021-30858 則是一個存於 WebKit 瀏覽器核心引擎中的「使用已釋放記憶體」（use after free）漏洞；駭侵者可利用特製的網頁，在 iPhone 與 Mac 電腦上 執行任意程式碼。<br />
+<br />
+資安廠商 Citizen Lab 的研究人員指出，這兩個漏洞過去都曾遭駭侵者大規模濫用，特別是以色列科技保全公司 NSA 開發的 Pegasus 惡意間諜軟體，可能涉及利用這兩個 0-day 漏洞，讓某些國家的情報單位，針對特定人士進行大規模監聽。<br />
+<br />
+Apple 這次推出的大規模更新，在作業系統方面包括 iOS 14.8、iPad OS 14.8、iPod Touch、Mac 各型電腦、Apple Watch 等硬體裝置；舊版的 macOS Catalina 與 macOS Mojave 中的 Safari 瀏覽器也有更新版本推出，用戶應立即透過系統更新進行漏洞修補，以免遭駭侵者繼續利用未更新的漏洞攻擊。</p>]]></description><pubDate>Fri, 17 Sep 2021 08:06:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5100-351e4-1.html</guid></item><item><title><![CDATA[近期微軟、Apple、Chrome、Adobe發布重大修補程式，建議使用者儘速更新]]></title><link>https://www.twcert.org.tw/tw/cp-104-5090-c8599-1.html</link><description><![CDATA[<p>Microsoft、Apple、Google、Adobe等國際大廠，請關注並盡快進行更新。</p>
+
+<p>請注意，在更新之前，請確保您已備份系統與重要文件。<br />
+&nbsp;</p>
+
+<p><span style="color:#0000CD;"><strong>Microsoft：</strong></span></p>
+
+<p>2021年9月14日，Microsoft針對Windows與相關產品發布安全性更新，修補了數十個安全漏洞，其中包括4個&rdquo;嚴重&rdquo;等級的漏洞。</p>
+
+<ul>
+	<li>編號<a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444" target="_blank" title="CVE-2021-40444(開新視窗)">CVE-2021-40444</a>的漏洞，它會影響Windows 10和許多Windows Server版本上Internet Explorer(IE)的&ldquo;MSHTML&rdquo;組件，Microsoft警告該漏洞已被利用發起攻擊。</li>
+	<li><a href="https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2021-36965" target="_blank" title="CVE-2021-36965(開新視窗)">CVE-2021-36965</a>是關於處理Wi-Fi自動連接的&ldquo;WLAN AutoConfig&rdquo;的漏洞，雖然要利用該漏洞有些許限制，攻擊者與目標必須在同一個Wi-Fi網路中，但仍可能造成極大危害。</li>
+	<li>CVE-2021-28316與CVE-2021-36965類似，皆是&ldquo;WLAN AutoConfig&rdquo;的漏洞，此漏洞可以繞過安全機制的防護。</li>
+	<li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-38639" target="_blank" title="CVE-2021-38639(開新視窗)">CVE-2021-38639</a>和<a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36975" target="_blank" title="CVE-2021-36975(開新視窗)">CVE-2021-36975</a>皆屬於本地端執行的漏洞，雖然在CVSS評分上會比遠端執行低，但因其影響大部份的Windows版本，所以也應被重視且進行更新。<br />
+	&nbsp;</li>
+</ul>
+
+<p><strong><span style="color:#0000CD;">Apple：</span></strong></p>
+
+<p>2021年9月13日，Apple推出1項緊急更新，修正&rdquo;zero-click&rdquo;iOS漏洞(<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30860" target="_blank" title="CVE-2021-30860(開新視窗)">CVE-2021-30860</a>)，在某些Apple設備上開啟文件時執行命令，<a href="https://en.wikipedia.org/wiki/NSO_Group" target="_blank" title="NSO Group(開新視窗)">NSO Group</a>即是使用此漏洞來安裝間諜軟體，遠程監控手機設備。<br />
+&nbsp;</p>
+
+<p><strong><span style="color:#0000CD;">Google：</span></strong></p>
+
+<p>2021年9月13日，Google發布了<a href="https://chromereleases.googleblog.com/2021/09/stable-channel-update-for-desktop.html" target="_blank" title="新版本(開新視窗)">新版本</a>的Chrome瀏覽器，修復九個漏洞，在更新的狀況上，可留意位址欄右側是否出現&ldquo;更新&rdquo;選項卡。如果關閉瀏覽器已有一段時間，可能會看到&ldquo;更新&rdquo;按鈕從綠色變為橙色，然後變為紅色。綠色表示有可用更新已過兩天；橙色表示已過去四天，紅色表示已在更新上落後一周或更長時間。可以將Chrome完全關閉並重新啟動即會自動進行更新。<br />
+&nbsp;</p>
+
+<p><strong><span style="color:#0000CD;">Adobe：</span></strong></p>
+
+<p>Adobe近日亦發布了Reader、Acrobat和<a href="https://helpx.adobe.com/security.html" target="_blank" title="大量其他產品(開新視窗)">大量其他產品</a>的新版本。</p>]]></description><pubDate>Wed, 15 Sep 2021 09:53:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5090-c8599-1.html</guid></item><item><title><![CDATA[發動自社群平台針對支付服務的攻擊，2021 第 2 季比前季大增五倍以上]]></title><link>https://www.twcert.org.tw/tw/cp-104-5089-98246-1.html</link><description><![CDATA[<p><strong>資安廠商指出，來自社群媒體平台，針對支付服務發動的各種攻擊，光在 2021 年第 1&nbsp; 季到第 2 季之間，暴增五倍以上。</strong><br />
+<br />
+資安廠商 Atlas VPN 日前發表研究報告指出，來自社群媒體平台，針對支付服務發動的各種駭侵攻擊活動，光在 2021 年第 1 季到第 2 季之間，暴增高達 561.8%。<br />
+<br />
+Altas VPN 這份研究報告，係與 PhisLabs 合作推出；據 PhisLabs 的資安研究人員表示，在 2021 年第 2 季，透過社群平台發動的各種網路駭侵活動。針對的行業種類增減比較，除了上述支付系統大增 561.8％ 之外，依增加幅度，依序為醫療保健業（187.8%）、廣播電視媒體（112.5%）、加密貨幣（13%）、 信用合作社（4.9%）。<br />
+<br />
+但也有不少行業，在 2021 年第 2 季遭社群平台相關駭侵攻擊的次數，較 2021 年第 1 季減少；包括銀行業（10.2%%）、電子商務（-19.7%）、電信業（-23.5%）、電腦軟體（-49.2%）、網路約會（-52.3%）。<br />
+<br />
+該研究報告也揭露了 2021 年第 2 季，透過社群平台發動的各種攻擊類型比例，其中詐騙佔最大宗，高達 45.6%，其次為假冒他人或品牌身分（21.8%%）、網路攻擊（19.1%）、 資料竊取（13.2%%）、實體威脅（0.3%）。<br />
+<br />
+該報告指出，過去在各種網路攻擊的樣態中，來自社群平台的攻擊，並不是最主要的攻擊來源；然而在 2021 年第 2 季的統計數字，可以看出網路犯罪分子使用社群平台發動攻擊的也開始增加；在 2021 年 1 月時，Atlas VPN 偵測到的社群平台攻擊案例，每月有約 33.6 件，到了 2021 年 6 月則增加到近 50 件。</p>]]></description><pubDate>Wed, 15 Sep 2021 09:52:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5089-98246-1.html</guid></item><item><title><![CDATA[Google 推出 2021 年 9 月 Android 資安漏洞更新]]></title><link>https://www.twcert.org.tw/tw/cp-104-5088-95ded-1.html</link><description><![CDATA[<p><strong>Google 近期推出 2021 年 9 月 Android 資安修補包，一共修復 40 個資安漏洞，其中包括多個嚴重等級漏洞。</strong><br />
+<br />
+Google 近期推出 2021 年 9 月 Android 資安修補包，一共修復多達 40 個資安漏洞，其中包括多個嚴重等級漏洞；Android 裝置用戶應隨時注意裝置原廠推送的更新通知，一有更新可用，即應立刻更新。<br />
+<br />
+在這次 Android 資安修補包分成兩批。9 月 1 日推出的第一批修補包，解決掉的嚴重等級漏洞中，包括一個存於 Android 8.1、9、10、11 等多個版本 Framework 組件的漏洞，其 CVE 編號為 CVE-2021-0687；Google 在這次的資安通報中指出，遠端駭侵者可以利用一個特製的檔案來誘發此漏洞，造成永久性的服務阻斷（permanent denial of service）。<br />
+<br />
+Google 在 Framework 中還修復了多達 6 個其他資安漏洞，都列為「高」等級危險程度；其中有 5 個可讓駭侵者提升執行權限，1 個為資訊不當洩露。<br />
+<br />
+而在第二批於 9 月 5 日推出的 Android 資安修補包中，一共修補了 23 個資安漏洞，分布於 Android 作業系統中的 Kernel、MediaTek、Unisoc、Qualcomm、Qualcomm close-sourced 等多個組件之內。<br />
+<br />
+其中有 7 個嚴重等級的漏洞發生在 Qualcomm closed-source 組件中，此次一併獲得修復。<br />
+<br />
+雖然 Google 定期針對 Android 系統推出資安修補包，但由於用戶手上的 Android 裝置，內部的 Android 系統多半都是原廠修改過的版本，無法直接套用 Google 的更新包，只能接收來自原廠的系統更新；因此用戶應特別注意裝置是否收到原廠系統更新，如有即應立即更新；也應停止使用原廠不再提供更新服務的老舊裝置。</p>]]></description><pubDate>Wed, 15 Sep 2021 09:50:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5088-95ded-1.html</guid></item><item><title><![CDATA[沉寂一時的勒贖團體 REvil，再度開始活動]]></title><link>https://www.twcert.org.tw/tw/cp-104-5085-b3cc5-1.html</link><description><![CDATA[<p><strong>發動過許多大規模勒贖攻擊，但於數個月前突然停止運作的勒贖團體 REvil，近日又重起爐灶，再次開始發動攻擊。</strong><br />
+<br />
+惡名昭彰，在近發動過許多大規模勒贖攻擊， 造成全球各企業組織嚴重損失，但於數個月前突然停止運作的勒贖團體 REvil，近日又重起爐灶，再次開始發動攻擊。<br />
+<br />
+據資安專業媒體 BleepingComputer 報導指出，REvil 原本在 Tor 加密網路上設一個用來展示進行中勒贖攻擊，並警告受害者贖款支付期限的網站，原本自六月該單位發動基於 Kaseya VSA 遠端管理系統漏洞的勒贖攻擊後，自七月起就一直處於關閉狀態；但在 9 月 7 日開始，該網站再度恢復運作；隔天起受害者便可登入該網站，與 REvil 駭侵團體「協商」贖金支付金額。<br />
+<br />
+九月初該網站恢復運作後，有接近一星期的時間，沒有刊登新的勒贖攻擊相關訊息；然而在近日該網站不但恢復運作，資安廠商 VirusTotal 也收集到新的 REvil 勒贖攻擊使用的惡意軟體樣本。<br />
+<br />
+另一方面，REvil 勒贖團體成員，也重新出現在某些駭侵相關論壇中；過去經常代表 REvil 駭侵團體的帳號「UNKN」沒有出現，但有另一個自稱是「REvil」的 ID 指出，該團體的消聲匿跡，是因為他們認為 UNKN 可能遭司法單位逮捕，再加上其發動駭侵使用的基礎設施遭各國司法單位緝獲，該團體因而停止運作；該代也說，之前司法單位宣稱取得的 Kaseya 勒贖解密金鑰，其實是該團體的某個成員對外洩露的。<br />
+<br />
+不過據 BleepingComputer 獲得的情資指出，司法單位對於 REvil 之前的消失，也感到十分驚訝；另一段可能是由資安研究人員與 REvil 成員的網路對話，也指出該團體的短暫消失，「只是暫時休息一下」。<br />
+<br />
+無論如何，REvil 近年來活動最明目張膽，也犯下最多大型勒贖攻擊案件的駭侵團體；各公私營單位都應嚴加防範，避免成為其勒贖攻擊的受害者。</p>]]></description><pubDate>Mon, 13 Sep 2021 09:26:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5085-b3cc5-1.html</guid></item><item><title><![CDATA[駭侵團體 TrickBot 成員在南韓被捕，將引渡至美國受審]]></title><link>https://www.twcert.org.tw/tw/cp-104-5084-e7372-1.html</link><description><![CDATA[<p><strong>惡名昭彰的駭侵團體 TrickBot 犯罪分子，在試圖離開南韓時遭警方逮捕。</strong><br />
+<br />
+一名疑似惡名昭彰的駭侵團體 TrickBot 旗下的犯罪分子，在試圖搭機離開南韓時遭警方逮捕；目前正準備引渡至美國，接受進一步的司法審訊。<br />
+<br />
+據南韓媒體 KBS 報導，這名遭南韓警方逮捕的犯罪嫌疑人，是俄羅斯籍的男性軟體開發人員。他因為受到 COVID-19 疫情影響，無法離開南韓，護照又即將過期；在等待其護照更新約一年半後，於近期搭機離開南韓境內時，因美國方面的引渡要求，遭到南韓警方逮捕。<br />
+<br />
+司法單位認為這名開發者，涉嫌於 2016 時為駭侵團體 TrickBot 進行開發工作，參與開發一個網路瀏覽器專案；當時他住在俄羅斯境內。<br />
+<br />
+駭侵團體 TrickBot 是全球知名的惡意軟體集團，開發多種惡意軟體，包括 TrickBot、BazaLoader、BazaBackdoor、PowerTrick、Anchor 等；這些惡意軟體大多用於攻擊企業所屬網路，以竊取內部機敏資訊，並且部署、發動勒贖攻擊。<br />
+<br />
+近年來多起大型全球勒贖攻擊事件都和 TrickBot 駭侵團體有關，包括著名的 Ryuk 與 Conti 勒贖軟體，據稱都來自 TrickBot。<br />
+<br />
+但該名男性開發者在南韓高等法院出庭應訊時指稱，自己並不知道僱用他的單位是駭侵團體；他說他的工作內容與工作手冊，並沒有涉及惡意軟體的開發。<br />
+<br />
+該名開發者的俄羅斯律師，正在試圖避免該名開發者遭南韓引渡至美國；該律師說，一旦該名開發者被引渡至美國，就很難倖免於嚴重的司法控訴。</p>]]></description><pubDate>Mon, 13 Sep 2021 09:23:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5084-e7372-1.html</guid></item><item><title><![CDATA[Netgear 修復三個嚴重資安漏洞，影響 20 種智慧型網路交換器]]></title><link>https://www.twcert.org.tw/tw/cp-104-5074-92a4f-1.html</link><description><![CDATA[<p><strong>全球網通產品大廠 Netgear 修復影響其二十種智慧型交換器的三個嚴重資安漏洞，駭侵者可利用這些漏洞，完全控制交換器設備。</strong><br />
+<br />
+全球網通產品大廠 Netgear 日前推出韌體更新，修復影響其多達二十種智慧型交換器的三個嚴重資安漏洞；駭侵者可利用這些漏洞，完全控制交換器設備。<br />
+<br />
+這三個將獲修復的漏洞，分別由資安研究人員命名為 The Demon&rsquo;s Cries、Draconian Fear、Seventh Inferno，目前暫無 CVE 編號，但都可能造成這些智慧型交換器的控制權限遭駭侵者取得，進而針對企業內網發動進一步攻擊行動。<br />
+<br />
+Demon&rsquo;s Cries 漏洞的 CVSS 分數高達 8.8 分（滿分為 10 分），據資安專家指出，該漏洞可讓駭侵者跳過登入驗證程序，駭侵者可藉以取得管理者的登入資訊，並且完全掌控受害的交換器設備。<br />
+<br />
+資安研究人員指出，該漏洞存於 Netgear Switch Discover Protocol 之內；研究人員發現一種可以跳過其登入驗證程序的方法，不過駭侵者必須先進入企業內部網路，才能利用這個漏洞。<br />
+<br />
+Draconian Fear 的 CVSS 分數為 7.4 分，駭侵者如果與管理者使用同一個 IP，或假造一個和管理者相同的登入用 IP，即可攔截 Netgear 交換器 web 界面傳送的資訊封包，並且利用其來源檢查的漏洞，進入管理介面之中。<br />
+<br />
+研究人員尚未針對第三個漏洞 Seventh Inferno 推出詳細分析，不過 Netgear 已針對旗下二十種受到這批漏洞影響的機種，推出更新版本的韌體；使用 Netgear 交換器的用戶，應依照 Netgear 資安通報的說明，檢查交換器的型號與版本是否列入受影響名單之列，並且儘速更新。</p>
+
+<ul>
+	<li>影響產品/版本：參見 Netgear 資安通報</li>
+</ul>
+
+<ul>
+	<li>解決方案：更新至最新版本韌體</li>
+</ul>]]></description><pubDate>Fri, 10 Sep 2021 09:39:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5074-92a4f-1.html</guid></item><item><title><![CDATA[微軟針對 CVE-2021-40444 嚴重 0-day 漏洞釋出更新程式，避免 Office 用戶遭 RCE 駭侵攻擊]]></title><link>https://www.twcert.org.tw/tw/cp-104-5064-5cd76-1.html</link><description><![CDATA[<p><strong>微軟緊急推出針對一個嚴重 0-day 漏洞釋出更新程式</strong><strong>；該漏洞可導致駭侵者攻擊 Office 365 與 Office 2019，並且遠端執行任意程式碼。</strong><br />
+<br />
+微軟日前緊急推出針對一個嚴重 0-day 漏洞釋出更新程式；該漏洞可導致駭侵者攻擊 Windows 10 上的 Office 365 與 Office 2019，並且遠端執行任意程式碼。<br />
+<br />
+該漏洞的 CVE 編號為 CVE-2021-40444，其 CVSS 危險程度評分高達 8.8 分（滿分為 10 分），主要受影響的微軟產品，以 Windows 家族作業系統（包括 Windows Server&nbsp; 2008、Windows 8.1 一直到 Windows 10 的各版本）上的 Office 365 與 Office 2019。<br />
+<br />
+該漏洞存於 MSHTML 子系統中，這是一個用來繪製畫面輸出的瀏覽器元件，也用於 Microsoft Office 文件之中；駭侵者可利用內含惡意 ActiveX 控制項目的特製 Microsoft Office 文件檔案來誘發此漏洞。要是受害者開啟含有惡意 ActiveX 控制項目的 Office 文件時，即可能遭到攻擊。<br />
+<br />
+不過微軟也指出，如果用戶是以預覽模式，或是透過 Office 365 中的 Application Guard 來開啟從網路上下載的惡意 Office 文件檔案，由於是處於唯讀狀態，且 Application Guard 預設會將不受信任的文件隔離開來，不可使用連線資源或本機的檔案系統，因此將不會受到攻擊。<br />
+<br />
+另外，如果電腦系統上安裝有啟用中的 Microsoft Defender Antivirus 以及 Defender for EndPoint （版本 1.349.22.0 及更新版本），系統也能受到保護，不會遭到 CVE-2021-40444 的攻擊。<br />
+<br />
+用戶請至微軟網站進行更新</p>
+
+<ul>
+	<li>CVE編號：CVE-2021-40444</li>
+</ul>
+
+<ul>
+	<li>影響產品/版本：包括 Windows Server&nbsp; 2008、Windows 8.1 一直到 Windows 10 的各版本上的 Office 365 與 Office 2019</li>
+</ul>
+
+<ul>
+	<li>解決方案: 進行更新</li>
+</ul>]]></description><pubDate>Thu, 09 Sep 2021 09:20:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5064-5cd76-1.html</guid></item><item><title><![CDATA[資安研究人員研製幾可亂真的 USB-C 傳輸線，可於 2 公里外遠端無線竊取用戶於鍵盤上輸入的資訊]]></title><link>https://www.twcert.org.tw/tw/cp-104-5062-c965c-1.html</link><description><![CDATA[<p><strong>資安研究人員自製出一條外觀與一般 Lightning 傳輸線完全無異，但內含特製晶片，可以攔截用戶輸入資訊，並無線傳輸至 2 公里之外的駭侵用傳輸線。</strong><br />
 <br />
 一位資安研究人員自製出一條外觀與一般 Lightning 傳輸線完全無異，但內含特製晶片，可以攔截用戶輸入資訊，並透過無線網路，將竊得資訊傳輸至一英哩之外的駭侵用傳輸線。<br />
 <br />
@@ -8,7 +161,7 @@ O.MG 建立的 Web 界面，除了可以竊取用戶的鍵盤輸入字元外，�
 <br />
 MG 推出的這條「O.MG」駭侵傳輸線，實際上是第二代「產品」。該產品的第一代係使用插頭體積較大的 USB-A 對 Lightning 界面；許多人認為日益普及的 USB-C 界面，其體積較小，不足以放置額外的駭侵用晶片電路；但 MG 仍然將之成功實作。<br />
 <br />
-USB-C 版本的 O.MG 駭侵傳輸線，不只可以插在 Apple 的 Magic Keyboard 上竊取資訊，也可以單獨將其 USB-C 插頭插入各種支援 USB-C 界面的平板電腦或手機上。</p>]]></description><pubDate>Tue, 07 Sep 2021 09:29:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5062-c965c-1.html</guid></item><item><title><![CDATA[美國一離職員工侵入公司系統，刪除 21 GB 資料]]></title><link>http://www.twcert.org.tw/tw/cp-104-5059-1dba4-1.html</link><description><![CDATA[<p><strong>一名原任職於美國紐約信用合作社的離職員工，在遭該單位解僱後，侵入原任職單位的電腦系統，惡意刪除 21 GB 的重要資料。</strong><br />
+USB-C 版本的 O.MG 駭侵傳輸線，不只可以插在 Apple 的 Magic Keyboard 上竊取資訊，也可以單獨將其 USB-C 插頭插入各種支援 USB-C 界面的平板電腦或手機上。</p>]]></description><pubDate>Tue, 07 Sep 2021 09:29:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5062-c965c-1.html</guid></item><item><title><![CDATA[美國一離職員工侵入公司系統，刪除 21 GB 資料]]></title><link>https://www.twcert.org.tw/tw/cp-104-5059-1dba4-1.html</link><description><![CDATA[<p><strong>一名原任職於美國紐約信用合作社的離職員工，在遭該單位解僱後，侵入原任職單位的電腦系統，惡意刪除 21 GB 的重要資料。</strong><br />
 <br />
 一名原任職於美國紐約信用合作社（New York Credit Union）的離職員工 Juliana Barlie，在遭該單位解僱後，侵入原任職單位的電腦系統，惡意刪除 21 GB 的重要資料，目前已遭司法單位起訴。<br />
 <br />
@@ -20,7 +173,7 @@ Juliana Barlie 於 5 月 21 日登入系統後，以近 40 分鐘的時間，一
 <br />
 當事人 Juailiana Barlie 甚至還在數日後，以簡訊將他刪除紐約信合社檔案一事告訴朋友。<br />
 <br />
-雖然紐約信用合作社擁有某些被刪除資料的備份檔案，但仍需額外花費一萬美元左右，以復原遭惡意刪除的檔案；該信用合作社的客戶貸款作業也因而受到影響，許多客戶被迫使用紙本作業申請或繳付貸款餘額。</p>]]></description><pubDate>Mon, 06 Sep 2021 09:31:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5059-1dba4-1.html</guid></item><item><title><![CDATA[多家廠商 SoC 產品中的藍牙堆疊含嚴重 BrakTooth 漏洞，受影響裝置超過十億台]]></title><link>http://www.twcert.org.tw/tw/cp-104-5058-74114-1.html</link><description><![CDATA[<p><strong>資安專家發現十多家廠商產製的單晶片系統，其內部的藍牙連線堆疊存有嚴重資安漏洞 BrakTooth，可導致駭侵者藉以發動多種資安攻擊行動。</strong><br />
+雖然紐約信用合作社擁有某些被刪除資料的備份檔案，但仍需額外花費一萬美元左右，以復原遭惡意刪除的檔案；該信用合作社的客戶貸款作業也因而受到影響，許多客戶被迫使用紙本作業申請或繳付貸款餘額。</p>]]></description><pubDate>Mon, 06 Sep 2021 09:31:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5059-1dba4-1.html</guid></item><item><title><![CDATA[多家廠商 SoC 產品中的藍牙堆疊含嚴重 BrakTooth 漏洞，受影響裝置超過十億台]]></title><link>https://www.twcert.org.tw/tw/cp-104-5058-74114-1.html</link><description><![CDATA[<p><strong>資安專家發現十多家廠商產製的單晶片系統，其內部的藍牙連線堆疊存有嚴重資安漏洞 BrakTooth，可導致駭侵者藉以發動多種資安攻擊行動。</strong><br />
 <br />
 資安專家日前發表研究報告，指出發現十多家廠商產製的單晶片系統，其內部的藍牙連線堆疊，存有非常嚴重的資安漏洞（稱為「BrakTooth」），可導致駭侵者藉以發動多種資安攻擊行動。<br />
 <br />
@@ -32,7 +185,7 @@ Juliana Barlie 於 5 月 21 日登入系統後，以近 40 分鐘的時間，一
 <br />
 研究人員說，BrakTooth 漏洞可讓駭侵者藉以發動多種攻擊活動，包括分散式服務阻斷（Distributed Denial of Service, DDoS）攻擊、造成用戶裝置發生「死結」（deadlock）而無法使用藍牙連線、遠端執行任意程式碼等。<br />
 <br />
-這一系列漏洞被指派到多達 20 個 CVE 編號，其中包括 Espreessif Systems、Cypress、Bluetrum Technology 等公司的產品已推出對應的修補程式，其他也有多家公司正在撰寫修補軟體。各藍牙產品用戶應注意更新訊息，以及時更新受影響的裝置。</p>]]></description><pubDate>Mon, 06 Sep 2021 09:29:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5058-74114-1.html</guid></item><item><title><![CDATA[Cream Finance 去中心化加密貨幣交易所遭駭，損失超過 2,900 萬美元資產]]></title><link>http://www.twcert.org.tw/tw/cp-104-5056-f74b0-1.html</link><description><![CDATA[<p><strong>去中心化加密貨幣交易所 Cream Finance 遭不明駭侵者入侵，竊走價值超過 2,900 萬美元的資產。</strong><br />
+這一系列漏洞被指派到多達 20 個 CVE 編號，其中包括 Espreessif Systems、Cypress、Bluetrum Technology 等公司的產品已推出對應的修補程式，其他也有多家公司正在撰寫修補軟體。各藍牙產品用戶應注意更新訊息，以及時更新受影響的裝置。</p>]]></description><pubDate>Mon, 06 Sep 2021 09:29:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5058-74114-1.html</guid></item><item><title><![CDATA[Cream Finance 去中心化加密貨幣交易所遭駭，損失超過 2,900 萬美元資產]]></title><link>https://www.twcert.org.tw/tw/cp-104-5056-f74b0-1.html</link><description><![CDATA[<p><strong>去中心化加密貨幣交易所 Cream Finance 遭不明駭侵者入侵，竊走價值超過 2,900 萬美元的資產。</strong><br />
 <br />
 去中心化加密貨幣交易所 Cream Finance，於 8 月 30 日在 Twitter 貼文公布，該交易所遭不明駭侵者入侵，一共竊走價值超過 2,900 萬美元的資產。<br />
 <br />
@@ -44,7 +197,7 @@ Juliana Barlie 於 5 月 21 日登入系統後，以近 40 分鐘的時間，一
 <br />
 區塊鏈資安專家也確認 Cream Finance 這次攻擊事件中，駭侵者是利用以太坊存於其 ERC-777 智慧合約標準規範中的一個已知漏洞；過去也有多家去中心化交易所遭駭侵者利用此漏洞發動重新進入攻擊，因而造成加密貨幣資產遭竊。<br />
 <br />
-區塊鏈資安專家說，今年（2021）已發生的各種加密貨幣駭侵攻擊中，針對去中心化金融服務（DeFi, Decentralized Finance）平台的攻擊活動，佔比高達 76%，用戶財損將近 5 億美元；各種去中心化金融服務平台，必須開發出類似防火牆之類的資安防護措施，以對應這類漏洞可能導致的駭侵攻擊行動。</p>]]></description><pubDate>Thu, 02 Sep 2021 09:15:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5056-f74b0-1.html</guid></item><item><title><![CDATA[駭侵者詐騙網站管理員，以含惡意 BazaLoader DDoS 軟體的工具清理網站]]></title><link>http://www.twcert.org.tw/tw/cp-104-5051-22f94-1.html</link><description><![CDATA[<p><strong>近來有駭侵者對網站管理員寄發詐騙訊息，假稱其網站內含有惡意 DDoS 程式碼，需用其特製工具清除，實則利用此假工具植入 BazaLoader DDoS 惡意軟體。</strong><br />
+區塊鏈資安專家說，今年（2021）已發生的各種加密貨幣駭侵攻擊中，針對去中心化金融服務（DeFi, Decentralized Finance）平台的攻擊活動，佔比高達 76%，用戶財損將近 5 億美元；各種去中心化金融服務平台，必須開發出類似防火牆之類的資安防護措施，以對應這類漏洞可能導致的駭侵攻擊行動。</p>]]></description><pubDate>Thu, 02 Sep 2021 09:15:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5056-f74b0-1.html</guid></item><item><title><![CDATA[駭侵者詐騙網站管理員，以含惡意 BazaLoader DDoS 軟體的工具清理網站]]></title><link>https://www.twcert.org.tw/tw/cp-104-5051-22f94-1.html</link><description><![CDATA[<p><strong>近來有駭侵者對網站管理員寄發詐騙訊息，假稱其網站內含有惡意 DDoS 程式碼，需用其特製工具清除，實則利用此假工具植入 BazaLoader DDoS 惡意軟體。</strong><br />
 <br />
 近來有駭侵者對多個網站管理員寄發詐騙訊息，假稱其網站程式碼內含有惡意 DDoS（分散式服務阻斷攻擊，Distributed Denial of Service） 程式碼，需用其特製工具清除，否則將對其提告；網站管理員如果不疑有他，利用此假工具清理其網站，就會被植入 BazaLoader DDoS 惡意軟體。<br />
 <br />
@@ -54,7 +207,7 @@ Juliana Barlie 於 5 月 21 日登入系統後，以近 40 分鐘的時間，一
 <br />
 資安專家分析該「清理程式」，發現該清理程式內含一個名為 Bazaloader 的 DDoS 惡意軟體；收到威脅信件的網站管理者，如果真的安裝使用該程式，其網站伺服器反而會被植入 BazaLoader DDoS 惡意軟體，並且從駭侵者設立的控制伺服器中下載如 Cobalt Strike 之類的惡意軟體模組，成為其僵屍網路的一部分。<br />
 <br />
-資安專家也說，除了以網站遭 DDoS 程式感染之外，這類駭侵者也會以其他的理由來詐騙網站管理者，例如假稱該網站內含有侵害著作權的影音或圖片等等，要求網站管理員以其工具進行侵權檔案掃瞄與移除，進而詐騙網站管理員下載安裝同樣的 BazaLoader DDoS 惡意軟體。</p>]]></description><pubDate>Tue, 31 Aug 2021 09:03:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5051-22f94-1.html</guid></item><item><title><![CDATA[微軟示警數千 Azure 用戶可能曝險於 Cosmos DB 嚴重資安漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-5050-67509-1.html</link><description><![CDATA[<p><strong>微軟日前向數千名 Azure 雲端服務用戶示警，指出一個存於 Cosmos DB 的嚴重資安漏洞，可能導致用戶的資料庫遭駭侵者不當存取。</strong><br />
+資安專家也說，除了以網站遭 DDoS 程式感染之外，這類駭侵者也會以其他的理由來詐騙網站管理者，例如假稱該網站內含有侵害著作權的影音或圖片等等，要求網站管理員以其工具進行侵權檔案掃瞄與移除，進而詐騙網站管理員下載安裝同樣的 BazaLoader DDoS 惡意軟體。</p>]]></description><pubDate>Tue, 31 Aug 2021 09:03:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5051-22f94-1.html</guid></item><item><title><![CDATA[微軟示警數千 Azure 用戶可能曝險於 Cosmos DB 嚴重資安漏洞]]></title><link>https://www.twcert.org.tw/tw/cp-104-5050-67509-1.html</link><description><![CDATA[<p><strong>微軟日前向數千名 Azure 雲端服務用戶示警，指出一個存於 Cosmos DB 的嚴重資安漏洞，可能導致用戶的資料庫遭駭侵者不當存取。</strong><br />
 <br />
 微軟日前向數千名 Microsoft Azure 雲端服務的用戶發出資安警訊，指出一個存於 Cosmos DB 的嚴重資安漏洞，可能導致用戶的資料庫遭駭侵者遠端不當存取。<br />
 <br />
@@ -66,7 +219,7 @@ Azure Cosmos DB 是一個全球使用率相當普及的 NoSQL 資料庫服務，
 <br />
 Wiz 也指出，駭侵者很可能在該公司發現此漏洞並提報給微軟的數個月之前，就積極利用此一漏洞發動攻擊活動。<br />
 <br />
-微軟也針對其 Azure 用戶提供此漏洞的暫時解決方案，用戶可以依其指南，重新製作不同的資料庫讀寫主要金鑰，並定期更換金鑰；微軟也建議 Azure 用戶考慮使用 Azure Cosmos DB 防火牆服務，並且整合其他虛擬系統，以提高安全性。</p>]]></description><pubDate>Tue, 31 Aug 2021 09:02:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5050-67509-1.html</guid></item><item><title><![CDATA[Mirai 僵屍網路利用晶片 SDK 漏洞，多廠牌無線裝置可能遭植入]]></title><link>http://www.twcert.org.tw/tw/cp-104-5049-b9084-1.html</link><description><![CDATA[<p><strong>資安專家發現採用台灣網通大廠之硬體與其 SDK 的無線連網裝置，含有一系列嚴重資安漏洞，且該漏洞已遭 Mirai 僵屍網路鎖定，發動大規模感染，造成數千萬台各廠牌連網裝置曝險。</strong></p>
+微軟也針對其 Azure 用戶提供此漏洞的暫時解決方案，用戶可以依其指南，重新製作不同的資料庫讀寫主要金鑰，並定期更換金鑰；微軟也建議 Azure 用戶考慮使用 Azure Cosmos DB 防火牆服務，並且整合其他虛擬系統，以提高安全性。</p>]]></description><pubDate>Tue, 31 Aug 2021 09:02:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5050-67509-1.html</guid></item><item><title><![CDATA[Mirai 僵屍網路利用晶片 SDK 漏洞，多廠牌無線裝置可能遭植入]]></title><link>https://www.twcert.org.tw/tw/cp-104-5049-b9084-1.html</link><description><![CDATA[<p><strong>資安專家發現採用台灣網通大廠之硬體與其 SDK 的無線連網裝置，含有一系列嚴重資安漏洞，且該漏洞已遭 Mirai 僵屍網路鎖定，發動大規模感染，造成數千萬台各廠牌連網裝置曝險。</strong></p>
 
 <p>資安廠商 IoTInspector 旗下的資安專家，發現採用台灣網通大廠無線網路硬體晶片 RTL819xD 與其 SDK 解決方案的眾多無線連網裝置，含有一系列嚴重資安漏洞，且該漏洞已遭 Mirai 僵屍網路鎖定，發動大規模感染；造成數千萬台各廠牌連網裝置曝露於遭植入僵屍惡意軟體的資安風險。</p>
 
@@ -83,7 +236,7 @@ Wiz 也指出，駭侵者很可能在該公司發現此漏洞並提報給微軟�
 <ol>
 	<li>建議 IoT 裝置用戶檢視產品供應商是否已進行漏洞修補並推出更新檔。</li>
 	<li>若產品供應商已推出更新檔，建議用戶應立即進行更新，以免 IoT 裝置遭植入惡意軟體。</li>
-</ol>]]></description><pubDate>Tue, 31 Aug 2021 08:58:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5049-b9084-1.html</guid></item><item><title><![CDATA[駭侵者假冒 OpenSea 交易所客服人員，竊走求助用戶的加密貨幣與 NFT 收藏]]></title><link>http://www.twcert.org.tw/tw/cp-104-5038-e88bf-1.html</link><description><![CDATA[<p><strong>NFT 交易所 OpenSea 遭駭侵者假冒為其客服人員，藉機竊走求助用戶存於錢包內的加密貨幣與 NFT 收藏。</strong><br />
+</ol>]]></description><pubDate>Tue, 31 Aug 2021 08:58:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5049-b9084-1.html</guid></item><item><title><![CDATA[駭侵者假冒 OpenSea 交易所客服人員，竊走求助用戶的加密貨幣與 NFT 收藏]]></title><link>https://www.twcert.org.tw/tw/cp-104-5038-e88bf-1.html</link><description><![CDATA[<p><strong>NFT 交易所 OpenSea 遭駭侵者假冒為其客服人員，藉機竊走求助用戶存於錢包內的加密貨幣與 NFT 收藏。</strong><br />
 <br />
 NFT 交易所 OpenSea 近日遭駭侵者在社群平台 Dischord 上假冒為其客服人員，藉機竊走求助用戶存於錢包內的加密貨幣與 NFT 收藏。<br />
 <br />
@@ -95,7 +248,7 @@ NFT 交易所 OpenSea 近日遭駭侵者在社群平台 Dischord 上假冒為其
 <br />
 駭侵者此時即可擷取該 QR code，利用此 QR Code 取得受害用戶的 MetaMask 錢包控制權，輕鬆竊走受害者存於錢包內的加密貨幣與 NFT 收藏品。<br />
 <br />
-OpenSea 表示獲悉用戶遭詐騙一事，但沒有提供受害金額與受害者人數等資訊；該公司呼籲用戶在求助時，應利用該公司官方網站上提供的客服連絡方式，切勿使用如 Dischord 或 Twitter 等社群平台，以免給予駭侵者可乘之機。</p>]]></description><pubDate>Thu, 26 Aug 2021 09:50:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5038-e88bf-1.html</guid></item><item><title><![CDATA[網路服務商記錄到 HTTP DDoS 攻擊強度新高，達每秒 1,700 萬次連線要求]]></title><link>http://www.twcert.org.tw/tw/cp-104-5037-0b287-1.html</link><description><![CDATA[<p><strong>雲端網路服務商指出，分散式服務阻斷攻擊（DDoS）的強度正在不斷提高；今年記錄到的最高攻擊強度，高達每秒鐘 1,700 萬次連線要求。</strong><br />
+OpenSea 表示獲悉用戶遭詐騙一事，但沒有提供受害金額與受害者人數等資訊；該公司呼籲用戶在求助時，應利用該公司官方網站上提供的客服連絡方式，切勿使用如 Dischord 或 Twitter 等社群平台，以免給予駭侵者可乘之機。</p>]]></description><pubDate>Thu, 26 Aug 2021 09:50:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5038-e88bf-1.html</guid></item><item><title><![CDATA[網路服務商記錄到 HTTP DDoS 攻擊強度新高，達每秒 1,700 萬次連線要求]]></title><link>https://www.twcert.org.tw/tw/cp-104-5037-0b287-1.html</link><description><![CDATA[<p><strong>雲端網路服務商指出，分散式服務阻斷攻擊（DDoS）的強度正在不斷提高；今年記錄到的最高攻擊強度，高達每秒鐘 1,700 萬次連線要求。</strong><br />
 <br />
 雲端網路服務商 Cloudflare 日前發表研究報告，指出分散式服務阻斷攻擊（Distributed Denial of Service, DDoS）的攻擊強度，正在逐年不斷提高；今年記錄到的最高攻擊強度，高達每秒鐘 1,700 萬次連線要求。<br />
 <br />
@@ -105,7 +258,7 @@ Cloudflare 在報告中說，該次攻擊發在生七月，持續不到 1 分鐘
 <br />
 Cloudflare 說，這次駭侵者發動的 DDoS 攻擊，係由一個包括至少 20,000 台裝置的僵屍網路所發動的，其連線要求來自全球各地；以 IP 數量來看，高達 15% 的攻擊連線來自印尼，其次為印度與巴西（合計達 17％），接著是越南、烏克蘭、柬埔寨、泰國、孟加拉、俄羅斯、南非、波蘭、阿根廷、巴基斯坦、墨西哥與其他國家。<br />
 <br />
-Cloudflare 也說，除了這次攻擊外，近期也經常觀察到其他強烈的 DDoS 攻擊，主要目標係針對亞太區的網路接取服務供應商、電信業者、網站託管業者與遊戲廠商。</p>]]></description><pubDate>Thu, 26 Aug 2021 09:48:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5037-0b287-1.html</guid></item><item><title><![CDATA[Razer 電競產品驅動程式 0-day 漏洞，只需插入裝置，即可取得 Windows 10 管理權限]]></title><link>http://www.twcert.org.tw/tw/cp-104-5031-1247c-1.html</link><description><![CDATA[<p><strong>資安專家發現電競品牌 Razer 的驅動程式內含嚴重 0-day 資安漏洞，駭侵者只需插入 Razer 品牌的鍵盤或滑鼠，即可輕鬆取得 Windows 10 的系統管理權限。</strong><br />
+Cloudflare 也說，除了這次攻擊外，近期也經常觀察到其他強烈的 DDoS 攻擊，主要目標係針對亞太區的網路接取服務供應商、電信業者、網站託管業者與遊戲廠商。</p>]]></description><pubDate>Thu, 26 Aug 2021 09:48:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5037-0b287-1.html</guid></item><item><title><![CDATA[Razer 電競產品驅動程式 0-day 漏洞，只需插入裝置，即可取得 Windows 10 管理權限]]></title><link>https://www.twcert.org.tw/tw/cp-104-5031-1247c-1.html</link><description><![CDATA[<p><strong>資安專家發現電競品牌 Razer 的驅動程式內含嚴重 0-day 資安漏洞，駭侵者只需插入 Razer 品牌的鍵盤或滑鼠，即可輕鬆取得 Windows 10 的系統管理權限。</strong><br />
 <br />
 資安專家發現電競遊戲控制周邊裝罝品牌 Razer 的 Windows 驅動程式，內含嚴重 0-day 資安漏洞；駭侵者只需插入 Razer 品牌的鍵盤或滑鼠，即可輕鬆取得 Windows 10 的系統管理權限。<br />
 <br />
@@ -115,127 +268,4 @@ Cloudflare 也說，除了這次攻擊外，近期也經常觀察到其他強烈
 <br />
 利用這個方法取得系統管理員執行權限後，有心人士即可在近端系統上為所欲為，包括存取 Windows 系統中的所有檔案，或是安裝任何應用程式，甚至惡意軟體。不過要誘發這個漏洞，駭侵者必須能夠實體存取目標的 Windows 電腦裝置，實體插入 Razer 設備才行。<br />
 <br />
-資安專家 jonhat 在發現這個漏洞後，隨即提報給 Razer 原廠。之後 Razer 表示將儘快推出更新版本，修復此漏洞。</p>]]></description><pubDate>Mon, 23 Aug 2021 09:32:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5031-1247c-1.html</guid></item><item><title><![CDATA[日本加密貨幣交易所 Liquid 遭駭，損失高達 9,400 萬美元以上]]></title><link>http://www.twcert.org.tw/tw/cp-104-5030-d6d2c-1.html</link><description><![CDATA[<p><strong>日本加密貨幣交易所 Liquid，日前發生嚴重駭侵攻擊事件，其熱錢包遭攻擊，損失高達 9,400 萬美元以上。</strong><br />
-<br />
-日本加密貨幣交易所 Liquid，日前發生嚴重駭侵攻擊事件；該交易所用來儲存用戶帳號加密貨幣資產的熱錢包遭到攻擊，目前已知的損失高達 9,400 萬美元以上。<br />
-<br />
-Liquid 是全球規模最大的加密貨幣／法幣交易所之一，擁有八十多萬名註冊用戶，這些用戶的全球分布超過 100 個國家；且該交易所每天的加密貨幣交易額超過 11 億美元。<br />
-<br />
-Liquid 在駭侵攻擊事件發生後，隨即在官方的 Twitter 帳號發布公告，承認其熱錢包遭到駭侵者挾持；該公司立即將尚未遭竊的加貨貨幣資產轉移到較安全的冷錢包中，同時暫停所有加密貨幣相關交易。包括加密貨幣的買賣與轉帳，在調查活動完成之前都無法進行，但法幣的交易與存提款不受影響。<br />
-<br />
-Liquid 也說，被竊取的 9,400 萬美元加密貨幣資產，總共包括 69 種不同的加密貨幣；這些加密貨幣在未經授權的情形下，被轉出到其他加密貨幣交易所或去中心化交易所 (DeFi Swap) 中。<br />
-<br />
-被竊加密資產依各幣種區分，分別為以太幣（ETH） 3,090 萬美元、瑞波幣（XRP）1,290 萬美元、比特幣（BTC）480 萬美元、各種穩定幣 770 萬美元、Tron 20 萬美元、其他代幣共計 3,740 萬美元。<br />
-<br />
-加密貨幣資安專家指出，由於有高達 4,500 萬美元的以太幣，被轉入去中心化交易所如 Uniswap 與 Sushiswap，因此難以追查竊取者的身分，以及其金流動向。<br />
-<br />
-資安專家多次呼籲加密貨幣持有人，儘可能避免將自己的加密貨幣資產，存在風險極高的交易所管理熱錢包中；應轉帳回自己持有的冷錢包中妥善存放，以降低遭竊風險。</p>]]></description><pubDate>Mon, 23 Aug 2021 09:30:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5030-d6d2c-1.html</guid></item><item><title><![CDATA[求職社群網站 LinkedIn 遭發現漏洞，任何人均可冒名任何公司發布職缺訊息]]></title><link>http://www.twcert.org.tw/tw/cp-104-5026-4e217-1.html</link><description><![CDATA[<p><strong>資安專家發現全球熱門求職求才社群網站 LinkedIn 的流程漏洞：任何人均可冒名任何公司張貼虛假求才訊息，不但能取得求職者的詳細資訊，也能夾帶各種惡意檔案。</strong><br />
-<br />
-資安專家 Herman Singh 近曰發現全球熱門求職求才社群網站 LinkedIn，在張貼職缺的流程中存有一個嚴重漏洞，導致任何人均可冒名任何公司張貼虛假求才訊息，不但能取得求職者的詳細資訊，也能夾帶各種惡意檔案，進一步發動各種駭侵攻擊。<br />
-<br />
-據資安專業媒體 BleepingComputer 的測試，LinkedIn 在張貼求才職缺訊息的流程中，預設情形下並未限制僅能由求才公司所屬的帳號來張貼職缺訊息，因此任何人都能「代替」任何公司，在 LinkedIn 上張貼職缺；而且用這種方式張貼出來的職缺，看起來和被冒名公司開出的職缺，幾乎沒有差別。<br />
-<br />
-資安專家指出，LinkedIn 在張貼職缺公告的這個漏洞，將可導致嚴重的資安風險；一來會有很多不知情的求職者，針對虛假的大公司熱門職缺投遞個人履歷，駭侵者可藉以收集大量求職者的機敏個資，包括姓名、性別、Email、照片、工作經歷、連絡方式等資訊，另外還可以在求職訊息中夾帶各式可用來進行駭侵攻擊的元件，例如植入惡意軟體的檔案、將求職者導向惡意網站，以發動釣魚攻擊的連結等等。<br />
-<br />
-BleepingComputer 指出，在 LinkedIn 網站上，並未提供驗證張貼者真實資格的流程，也沒有選項可讓公司行號限制只有哪些帳號可以張貼連結；BleepingComputer 去函微軟公司旗下的 LinkedIn 資安團隊，也沒有得到具體的解釋。<br />
-<br />
-資安專家建議各大公司的人資部門人員，在 LinkedIn 針對此問題提出解決方案前，應該提高警覺，定期巡查自己公司在 LinkedIn 上的相關內容，並且透過搜尋功能，檢視有無任何冒名張貼職缺的情況，發現後即刻回報 LinkedIn 進行處理。</p>]]></description><pubDate>Fri, 20 Aug 2021 09:14:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5026-4e217-1.html</guid></item><item><title><![CDATA[Google 自 Play Store 中下架多個假冒雲端挖礦 app]]></title><link>http://www.twcert.org.tw/tw/cp-104-5024-e6ab7-1.html</link><description><![CDATA[<p><strong>Google 近期自其 Googe Play Store 中下架 8 個蓄意假冒為雲端挖礦服務，實際上會進行各種詐騙的惡意 app；然而資安專家指出在 Google Play Store 上，仍有多個同類惡意 app 並未遭到下架。</strong><br />
-<br />
-Google 近期自其 Googe Play Store 中下架 8 個蓄意假冒為雲端挖礦服務，實際上會進行各種詐騙的惡意 Android app；然而資安廠商趨勢科技旗下的資安專家指出，在 Google Play Store 上，仍有多個同類惡意 app 並未遭到下架。<br />
-<br />
-這些被 Google 下架的惡意雲端挖礦 app，假借幫用戶在雲端挖掘比特幣等加密貨幣為理由，下載安裝這些 app；這些 app 甚至還會鼓勵用戶付費取得更多挖礦算力，分得更多加密貨幣。實際上用戶不但得不到任何加密貨幣分潤，甚至還會被植入大量廣告，或是在不知情的情況下，訂閱昂貴的數位服務。<br />
-<br />
-資安專家指出，在這 8 個遭下架的 app 中，都內建了 1 到 2 個如 FakeMinerPay 或 FakeMinerAd 之類的惡意軟體；其中一個名為 BitFunds 的惡意 app，下載安裝次數突破 100,000 次以上，有兩支 app 甚至還需要付費安裝。<br />
-<br />
-資安專家也說，這些 app 實際上沒有任何挖礦功能，卻會顯示計數器之類的畫面，以愚弄用戶，以為真的正在進行挖礦賺錢的過程；有些 app 還會慫恿用戶付費取得更強大的挖礦能力，賺取更多加密貨幣，「服務費用」從 14.99 美元到高達 189.99 美元不等。<br />
-<br />
-趨勢科技也說有兩支假冒挖礦 app，會對用戶顯示大量廣告；這些 app 會要求用戶觀看廣告，廣告結束後才能繼續挖礦，或是加快挖礦速度；有些 app 甚至還會在背景進行假冒廣告點擊的詐騙活動。<br />
-<br />
-趨勢科技說，雖然 Google 此次移除了 8 個假冒挖礦 app，但在 Google Play Store 中以「cloud mining」（雲端挖礦）來搜尋，仍有非常多可疑的 app 存在，用戶必須提高警覺，避免因一時貪念，下載安裝這類詐騙挖礦 app。</p>]]></description><pubDate>Fri, 20 Aug 2021 09:12:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5024-e6ab7-1.html</guid></item><item><title><![CDATA[數千萬台 IoT 裝置內含嚴重資安漏洞，可導致駭侵者取得監看監聽資訊]]></title><link>http://www.twcert.org.tw/tw/cp-104-5020-e9ab3-1.html</link><description><![CDATA[<p><strong>資安專家發現一個嚴重資安漏洞，存於數千萬台使用 Kalay IoT 雲端平台與開發工具的 IoT 產品中，可導致駭侵者取得這些 IoT 裝置產生的監控資訊，甚至於裝置控制權。</strong><br />
-<br />
-資安廠商 Mandiant 旗下的資安專家，在 2020 年底發現一個嚴重資安漏洞，存於數千萬台使用 Kalay IoT 雲端平台與開發工具的 IoT 產品中；這些 IoT 產品主要是連網監視裝置，該漏洞可導致駭侵者遠端取得這些 IoT 裝置產生的監控資訊，甚至於裝置控制權。<br />
-<br />
-該漏洞的 CVE 編號定為 CVE-2021-21873，發生在提供給 IoT 裝置廠商用以開發軟體所需的開發工具（SDK）內的 Kalay protocol；其 CVSS 危險程度評分高達 9.6 分（滿分為 10 分）。<br />
-<br />
-資安專家指出， 各種支援 Kalay protocol 的 IoT 裝置，只需要提供一個裝置的不重覆識別碼（UID），即可註冊使用 Kalay 雲端服務，並且把監控資料儲存到其雲端伺服器內；而該裝置的用戶在使用 Kalay 提供的行動 app 或 web 界面時，也只需提供該 UID，即可取得存在雲端的監控資料。<br />
-<br />
-由於驗證過程的安全性很薄弱，因此攻擊者可以透過提供 UID，以偽造身分的方式，即可自 Kalay 雲端服務中輕易取得監控畫面或錄音的資料，甚至還能進一步結合其他漏洞，完全控制監裝置。<br />
-<br />
-Mandiant 的資安專家以此漏洞為基礎，發展出的攻擊概念證明程式，可以透過此漏洞掃瞄裝置、註冊並取得 UID、遠端連線到該裝置並登入其控制界面，最終取得監控的畫面與音訊資料。<br />
-<br />
-此漏洞已經緊急推出暫時解決方案，美國資安主管機關 CISA 也發表資安通報，提供技術指導與處理建議。</p>]]></description><pubDate>Thu, 19 Aug 2021 09:33:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5020-e9ab3-1.html</guid></item><item><title><![CDATA[美國行動通訊服務商 T-Mobile 發生大規模客戶資料外洩事件，近億用戶個資遭竊]]></title><link>http://www.twcert.org.tw/tw/cp-104-5017-c33a1-1.html</link><description><![CDATA[<p><strong>美國行動通訊服務商 T-Mobile 有近億顧客資料，日前被放上網路待價而沽；T-Mobile 也證實這批資料被竊，目前正在進行調查作業。</strong><br />
-<br />
-美國大型行動通訊服務商 T-Mobile，日前發生嚴重資安事件；有近億顧客資料日前被放上網路待價而沽；T-Mobile 也證實這批資料被竊，目前正在進行調查作業。<br />
-<br />
-據資安專業媒體 BleepingComputer 報導指出，有駭侵者成功入侵 T-Mobile 的多台資料庫主機，竊得近 1&nbsp;億名 T-Mobile 用戶的多種個資，並放上駭侵相關網站求售。<br />
-<br />
-BleepingComputer 取得駭侵者的說法，指出該批資料包括用戶使用行動裝置的 IMEI 與 IMSI 編號、電話號碼、顧客姓名、裝置安全密碼（PIN）、社會安全碼、駕照號碼與出生年月日等。<br />
-<br />
-駭侵者也說，這批資料中的 IMEI 號碼，最遠可溯及 2004 年。<br />
-<br />
-該批資料是在約兩星期前的一波駭侵攻擊中取得。據 BleepingComputer 報導，駭侵者係透過 ssh 連線到 T-Mobile 所屬內部資料中心的 Oracle Database Server，進而取得這批資料。<br />
-<br />
-而當 BleepingComputer 向 T-Mobile 針對此事進行採訪時，T-Mobile 證實該公司發生了駭侵攻擊事件，也證實該公司所屬的伺服器，確實發生過外界不當存取事件，且有部分資料外洩；但該公司說「目前尚未確認是否有顧客個資遭到竊取」。<br />
-<br />
-T-Mobile 在聲明中說，該公司已經會同專家與司法單位，針對此次資料外洩事件積極展開調查；目前也已經關閉駭侵者攻擊使用的進入點；但該公司也說，在調查行動告一段落之前，無法確認外界宣稱的受影響者人數。</p>]]></description><pubDate>Tue, 17 Aug 2021 08:30:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5017-c33a1-1.html</guid></item><item><title><![CDATA[Ford 汽車內部顧客與員工資料，因系統錯誤而於網上曝光]]></title><link>http://www.twcert.org.tw/tw/cp-104-5036-24abf-1.html</link><description><![CDATA[<p><strong>美國 Ford 汽車公司，由於內部客服管理系統的設定錯誤，造成部分員工與顧客的相關資料在網路上曝光可供存取。</strong><br />
-<br />
-美國 Ford （福特）汽車公司日前發生資料安全控管事件，由於內部客服管理系統的設定錯誤，造成部分員工與顧客的相關資料在網路上曝光，可供有心人士直接存取，甚至取得帳號權限。<br />
-<br />
-資安研究人員在美國 Ford 汽車官方網站中發現一個漏洞，可以經由此漏洞進入 Ford 內部伺服器上執行的 Pega Infinity 顧客互動管理系統內，取得諸如用戶資料庫、員工各項記錄與內部派工單等機敏資訊。<br />
-<br />
-研究人員利用 Pega Infinity 一個錯誤設定的漏洞（CVE-2021-27653），透過 Pega Infinity 的客服人員線上對談控制台，即可利用此漏洞存取 Ford 內部的各種系統與資料庫。<br />
-<br />
-研究人員指出，透過這種方法可以取得相當多個人可識別（Personally Identifiable Information, PII），包括以下項目：</p>
-
-<ul>
-	<li>顧客與員工記錄</li>
-	<li>金融服務帳號</li>
-	<li>資料庫名稱與表格</li>
-	<li>OAuth 存取 token</li>
-	<li>內部支援工單</li>
-	<li>附有組織名稱的用戶檔案</li>
-	<li>內部操作介面</li>
-	<li>搜尋列的搜尋記錄</li>
-</ul>
-
-<p>研究人員指出，這些資料外洩可能會對該公司帶來極大衝擊；有心人士可以利用此漏洞，發動進一步的資安攻擊，例如植入更多惡意軟體，以及取得系統控制權之外，外洩的個人可辨識資料，也可用於進一步的釣魚攻擊。<br />
-<br />
-研究人員說，他們在 2021 年 2 月時就向 Pega 提報該漏洞的存在，也透過 HackerOne 漏洞公開計畫提報給 Ford。</p>]]></description><pubDate>Mon, 16 Aug 2021 09:44:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5036-24abf-1.html</guid></item><item><title><![CDATA[發生於硬體亂數產生器的嚴重錯誤，將導致數十億台 IoT 裝置面臨資安攻擊風險]]></title><link>http://www.twcert.org.tw/tw/cp-104-5013-83391-1.html</link><description><![CDATA[<p><strong>資安廠商發現普遍應用於 IoT 裝置硬體中的「亂數產生器」存有錯誤，可能因此導致全球數十億台 IoT 裝置面臨嚴重資安攻擊風險。</strong><br />
-<br />
-資安廠商 Bishop Fox 旗下的研究人員 Dan Petro 與 Allan Cecil，日前發現普遍應用於 IoT 裝置硬體中的「亂數產生器」（Random Number Generator, RNG）存有嚴重錯誤，可能因此導致全球數十億台 IoT 裝置面臨嚴重資安攻擊風險。<br />
-<br />
-兩位研究人員在報告中指出，這些有問題的硬體亂數產生器，原本應該在每次運作時都隨機產生無法預測的亂數；但在某些需要頻繁產生亂數的使用情境時，有時會產生僅部分無序的亂數，有時產生的亂數都是 0，甚至還可能造成記憶體初始錯誤。<br />
-<br />
-研究人員指出，由於這個亂數產生器的錯誤發生在硬體層，因此無法以作業系統或軟體方式加以修補；研究人員也說而為 IoT 裝置撰寫的軟體，通常都不會針對亂數產生的結果予以嚴密檢查。<br />
-<br />
-由於在各種 IoT 裝置的資料加密過程中，加密金鑰的生成過程，需要使用硬體亂數產生器產生的亂數；一旦這些加密金鑰是有序的、容易預測，甚至根本就是 0 的話，加密的內容就很容易遭到解密，因而使得加密過程變得無效，影響這些 IoT 裝置的資安。<br />
-<br />
-另外，這些 IoT 裝置搭載的作業系統，因為成本和執行效能的考量，大多是簡化的版本，在作業系統層面並未提供軟體亂數產生機制，而這類 IoT 裝置的數量又極多，估計全球約有數十億台已布署的 IoT 裝置。而這些 IoT 裝置在上市後的軟體更新極為困難，因此該錯誤對採用這些 IoT 裝置的公私單位、組織與個人，可能產生嚴重的資安風險。</p>]]></description><pubDate>Fri, 13 Aug 2021 09:17:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5013-83391-1.html</guid></item><item><title><![CDATA[微軟推出 2021 年 8 月 Patch Tuesday 資安修補包，修復 44 個資安漏洞，內含 3 個 0-day 漏洞]]></title><link>http://www.twcert.org.tw/tw/cp-104-5012-32728-1.html</link><description><![CDATA[<p><strong>微軟推出例行性的 2021 年 8 月份 Patch Tuesday 資安修補包，一共修復 44 個資安漏洞，包括 3 個 0-day 漏洞在內；微軟各種產品用戶，應立即更新此修補包。</strong><br />
-<br />
-微軟近日推出例行性的 2021 年 8 月份 Patch Tuesday 每月資安修補包，一共修復微軟多種軟體系統共 44 個資安漏洞，其中更包括 3 個 0-day 漏洞在內；微軟各種產品的用戶，應立即透過系統更新功能，更新此修補包，以降低遭到駭侵攻擊的風險。<br />
-<br />
-在這次推出的資安修補包中，除了 3 個 0-day 資安漏洞外，以資安漏洞的危險程度評及來看，共有 7 個列為「嚴重」（Critical）等級，37 個列為「重要」等級（Important）；若以漏洞性質與錯誤類型來看，共有 13 個屬於可讓駭侵者遠端執行任意程式碼的 RCE 漏洞，8 個屬於資料外洩漏洞，2 個屬於服務阻斷（DoS）漏洞，4 個屬於詐騙（Spoofing）漏洞。<br />
-<br />
-值得一提的是，3 個 0-day 漏洞中，已經有一個遭到駭侵者大規模濫用；這個漏洞是 CVE-2021-36948，是發生在 Windows 10 與 Windows Server 系統中的 Windows Update Medic Service 中的執行權限提升漏洞；駭侵者可以先以較低權限入侵系統，然後利用這個漏洞提升自身的執行權限，在未經授權的情形下執行任意程式碼，發動進一步的攻擊。<br />
-<br />
-另兩個得到修復的 0-day 漏洞是 CVE-2021-36939 與 CVE-2021-36942；前者是發生在 Windows Print Spooler 的遠端執行任意程式碼漏洞，後者是 Windows LSA Spoofing 漏洞。目前這兩個漏洞都還沒有遭到駭侵者大規模濫用。</p>]]></description><pubDate>Fri, 13 Aug 2021 09:16:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5012-32728-1.html</guid></item><item><title><![CDATA[去中心化交易協定 Poly Network 遭駭，被竊資金高達 6.11 億美元]]></title><link>http://www.twcert.org.tw/tw/cp-104-5005-2f8ae-1.html</link><description><![CDATA[<p><strong>跨鏈加密貨幣交易平台 Poly Network，日前發生加密貨幣史上最大駭侵案件；該協定在數個區塊鏈的流動性池同時遭到駭侵攻擊，損失金額高達 6.11 億美元。</strong><br />
-<br />
-提供跨區塊鏈加密貨幣交易轉換的交易平台 Poly Network，日前發生加密貨幣史上最大的駭侵案件；該協定在數個區塊鏈的流動性池，在同一時間遭到駭侵攻擊，被竊取的損失金額高達 6.11 億美元。<br />
-<br />
-Poly Network 提供的服務，是在不同的區塊鏈上轉換加密貨幣，包括比特幣、以太幣與 Ontology。據區塊鏈專業媒體 The Block 的研究人員 Igor Igamberdiev 指出，Poly Network 被攻擊的原因是出在加密問題之上。<br />
-<br />
-這次 Poly Network 被竊事件，同時發生在多個區塊鏈協定上；據目前的估計，Poly Network 在以太坊上被竊的以太幣資金多達 2.73 億美元、在幣安智慧鏈 (Binance Smart Chain）上損失的幣安幣（BNB）也高達 2.53 億美元、而在 Polygon Network 區塊鏈上損失的 USDC 穩定幣則為 8,500 萬美元。<br />
-<br />
-值得一提的是，在這起駭侵事件發生後，管理集中化穩定幣泰達幣（USDT）的 Tether 公司，立即將等值 3,300 萬美元的泰達幣加以鎖定，使得駭客無法進行轉帳洗錢。<br />
-<br />
-不過，幣安交易所的創辦人則在 Twitter 上指出，該公司雖然知道這次攻擊事件，也盡全力提供各式協助，但因為幣安智慧鏈與以太坊都是高度去中心化的區塊鏈，沒有人能夠完全控制該鏈上的活動，因此無法保證任何事，只能在其能力範圍能盡力協助。<br />
-<br />
-目前幣圈各界正在密切注意被竊資金的流向，但駭客很可能透過隱密性較高的門羅幣等其他加密貨幣進行洗錢。該案後續發展仍有待觀察。</p>]]></description><pubDate>Wed, 11 Aug 2021 09:47:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5005-2f8ae-1.html</guid></item><item><title><![CDATA[數千 Facebook 帳號資訊遭全新 Android FlyTrap 惡意軟體竊取]]></title><link>http://www.twcert.org.tw/tw/cp-104-5003-d6b79-1.html</link><description><![CDATA[<p><strong>資安廠商發現一個全新的 Android 惡意軟體 FlyTrap，會藉由提供折價券或有獎徵答遊戲，吸引用戶下載安裝並注入惡意木馬軟體，以竊取用戶的 Facebook 帳號相關資訊。</strong><br />
-<br />
-資安廠商 Zimperium 旗下的研究團隊，日前發現一個全新的 Android 惡意軟體 FlyTrap，會藉由提供折價券或有獎徵答遊戲，吸引用戶下載安裝並注入惡意木馬軟體 FlyTrap，以竊取用戶的 Facebook 帳號相關資訊。<br />
-<br />
-根據 Zimperium 的研究報告指出，FlyTrap 會以簡單的社交工程手法，騙取用戶信任以下載其惡意軟體，並且在該 App 中登入 Facebook 帳號以參加抽獎或其他活動，例如 Netflix 專用折價券或 Google AdWords 的折價券等；受害者依其 App 指示登入其 Facebook 帳號後，該惡意軟體中的木馬程式即可透過內建的 JavaScript 注入以竊取用戶的 Facebook cookie、用戶帳號詳細資訊、所在地、IP 位址等。<br />
-<br />
-FlyTrap 收集到這些資訊後，即會上傳到駭侵者設立的控制伺服器；Zimperium 的資安專家發現該控制伺服器的漏洞並入侵後，取得了該批駭侵者竊得的資料。分析該批資料後，發現感染 FlyTrap 惡意軟體的 Android 手機超過 10,000 台以上，分布遍及全球 144 國，受害的 Facebook 用戶有數千名之多。<br />
-<br />
-值得注意的是，包含 FlyTrap 惡意軟體的 Android App，其用戶介面設計十分精良，且在 Google Play Store 與多個第三方 Android 行動應用程式商店均有上架；雖然在 Zimperium 通報 Google 後，這些惡意軟體已自 Google Play Store 下架，但仍在其他第三方 Android 行動應用程式商店中保持上架狀態。</p>]]></description><pubDate>Wed, 11 Aug 2021 09:45:00 GMT</pubDate><guid>http://www.twcert.org.tw/tw/cp-104-5003-d6b79-1.html</guid></item></channel></rss>
+資安專家 jonhat 在發現這個漏洞後，隨即提報給 Razer 原廠。之後 Razer 表示將儘快推出更新版本，修復此漏洞。</p>]]></description><pubDate>Mon, 23 Aug 2021 09:32:00 GMT</pubDate><guid>https://www.twcert.org.tw/tw/cp-104-5031-1247c-1.html</guid></item></channel></rss>

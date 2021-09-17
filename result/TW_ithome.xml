@@ -6,244 +6,214 @@
  <description></description>
  <language>zh-hant</language>
 <item>
- <title>國安局今年上半遭到逾3萬次攻擊，直逼去年總和</title>
- <link>https://www.ithome.com.tw/news/146601</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;臺海日益緊張，近期中國軍機幾乎每日都侵犯臺灣防空區域，根據臺灣西南空域臉書粉絲專頁引用&lt;a href=&quot;https://www.mnd.gov.tw/PublishTable.aspx?Types=%E5%8D%B3%E6%99%82%E8%BB%8D%E4%BA%8B%E5%8B%95%E6%85%8B&amp;amp;title=%E5%9C%8B%E9%98%B2%E6%B6%88%E6%81%AF&amp;amp;Page=1&quot;&gt;國防部的資料&lt;/a&gt;統計，&lt;a href=&quot;https://www.facebook.com/SouthwestAirspaceofTW/posts/335935591606365&quot;&gt;截至9月8日，今年已有436架次的中國軍機入侵&lt;/a&gt;，已經超越&lt;a href=&quot;https://www.facebook.com/SouthwestAirspaceofTW/posts/320952073104717&quot;&gt;2020年一整年的380架次&lt;/a&gt;。但在看不見的網路攻擊，也同樣出現情勢變得更加惡化的情形。&lt;/p&gt;
-&lt;p&gt;最近國家安全局向立法院提出了民國111年度（2022年度）的預算書內容，引起多家媒體的報導。國安局在預算書中指出，該單位的對外網路，以及公開的網站，在2021年的1月到6日，他們就偵測到30,121次駭客攻擊，並宣稱100％被即時阻絕。這樣的威脅，已經快要追上2020年39,173次的總和。&lt;/p&gt;
-&lt;p&gt;為何駭客攻擊次數變得更加頻繁？根據上述各家媒體引用國安人士的說法，主要是因為中國發動「認知作戰」所致。但認知作戰與駭客攻擊之間的關連為何？這些報導沒有詳細交代。&lt;/p&gt;
-&lt;p&gt;在這則消息中，大多數媒體都提到，2020年全年的攻擊次數為39,173次，但針對30,121次攻擊的統計期間，有的媒體指出是2020年上半，而有些媒體則是指出2021年上半，而經過我們查證之後發現，30,121次攻擊的統計區間，其實應該是從2021年1月至6月的資料。&lt;/p&gt;
+ <title>AWS推出適用於Kafka叢集的託管連接器服務MSK Connect</title>
+ <link>https://www.ithome.com.tw/news/146773</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;AWS發布了Kafka Connect託管叢集服務&lt;a href=&quot;https://aws.amazon.com/tw/blogs/aws/introducing-amazon-msk-connect-stream-data-to-and-from-your-apache-kafka-clusters-using-managed-connectors/&quot;&gt;MSK Connect&lt;/a&gt;。AWS適用於Apache Kafka的Amazon Managed Streaming（MSK），是一項完全託管的服務，可以供用戶簡單地運作Apache Kafka以處理串流資料。AWS提到，在使用Apache Kafka時，用戶可以從物聯網裝置、資料庫更改事件，和網站點擊流量等來源，擷取即時資料，並將其傳送到資料庫和持久儲存。&lt;/p&gt;
+&lt;p&gt;而Kafka Connect是一個Apache Kafka開源元件，其提供一個框架以連接外部系統，像是資料庫、鍵值儲存、搜尋索引和檔案系統，但是手動運作Kafka Connect叢集，需要用戶自己規畫和配置基礎設施，並且處理叢集操作，依工作負載變化對其進行擴展。&lt;/p&gt;
+&lt;p&gt;MSK Connect服務則能夠持續監控連接器的運作狀況和交付狀態，修補並且管理底層硬體，還能自動擴展連接器，以消化吞吐量的變化，讓用戶可以將資源建構在應用程式上，而非管理基礎設施工作。官方強調，MSK Connect和Kafka Connect完全相容，這代表用戶可以不需要變更程式碼，就可以搬遷現有連接器。&lt;/p&gt;
+&lt;p&gt;用戶使用MSK Connect不一定需要使用MSK叢集，其支援Amazon MSK、Apache Kafka，還有與Apache Kafka相容的叢集，作為來源和接受器，只要MSK Connect可以連接到叢集，這些叢集可以是由AWS合作夥伴，或第三方組織自行管理和託管。&lt;/p&gt;
+&lt;p&gt;MSK Connect已在許多雲端服務地區提供，包括美東、美西、歐盟和加拿大等，而亞洲地區則可在東京、雪梨、新加坡、首爾和孟買使用。MSK Connect按使用量付費，連接器使用的資源則根據工作負載自動擴展。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 08 Sep 2021 11:06:02 +0000</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146601 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146601#comments</comments>
+ <pubDate>Fri, 17 Sep 2021 13:26:59 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146773 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146773#comments</comments>
 </item>
 <item>
- <title>薩爾瓦多成為全球第一個接納比特幣為法定貨幣的國家</title>
- <link>https://www.ithome.com.tw/news/146598</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;位於中美洲的薩爾瓦多（Republic of El Salvador），在本周二（9/7）正式接納比特幣為法定貨幣，開放比特幣於該國境內合法流通，並在當天釋出官方的Chivo Wallet比特幣錢包，成為全球第一個將比特幣視為法定貨幣的國家。&lt;/p&gt;
-&lt;p&gt;薩爾瓦多本周釋出的Chivo Wallet支援Android、iOS及華為作業系統，只要下載該錢包的國民，就能獲得等值30美元的比特幣，而該國迄今也已購入550個比特幣，並建立了價值1.5億美元的比特幣信託基金，促進該國的比特幣與美元之間的交易。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0908-chivo%20wallet.jpg&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;從今以後，薩爾瓦多的民眾就能透過Chivo Wallet，以比特幣購買各式產品及服務，而且完全不需手續費，其中一家支援Chivo Wallet的是連鎖書店Libros La Ceiba，為了協助政府推動比特幣，Libros La Ceiba祭出了優惠活動，只要以比特幣購物，買一本書打9折，買兩本打85折，3本是8成，4本就享6折。&lt;/p&gt;
-&lt;p&gt;當然，薩爾瓦多並未強迫民眾使用比特幣，只是讓它成為支付的正式選項之一，也能隨時將比特幣換成現金。&lt;/p&gt;
-&lt;p&gt;現年40歲的&lt;a href=&quot;https://www.presidencia.gob.sv/los-ojos-del-mundo-estan-sobre-el-salvador-que-inicia-una-nueva-era-en-su-economia-con-la-circulacion-del-bitcoin/&quot; target=&quot;_blank&quot;&gt;薩爾瓦多總統Nayib Bukele表示&lt;/a&gt;，這是薩爾瓦多第一次聚集了全世界的目光，而這都歸功於比特幣，讓該國於多年的停滯之後脫穎而出，且全球都在等待比特幣成為合法的流通貨幣，以開啟更多的商業機會，降低成本，還能吸引全球的旅客到薩爾瓦多觀光。&lt;/p&gt;
-&lt;p&gt;位於中美洲的薩爾瓦多面積只有2.1萬平方公里，為臺灣的2/3大，人口數約為680萬，人均購買力平價為8,891美元（臺灣為5.9萬美元），讓比特幣成為官方流通貨幣的確使得這個小國躍上了全球媒體，不過，比特幣的價格並未因此而有太大的波動，還從9月7日的5萬美元跌至8日的4.6萬美元。&lt;/p&gt;
+ <title>聯合國警告：AI將對人權造成威脅，呼籲暫停銷售及使用AI系統</title>
+ <link>https://www.ithome.com.tw/news/146786</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx?NewsID=27469&amp;amp;LangID=E&quot; target=&quot;_blank&quot;&gt;聯合國的人權事務專員Michelle Bachelet在本周警告&lt;/a&gt;，人工智慧（AI）系統可能對人權帶來威脅，呼籲在取得適當的保障之前，各國應該要暫停銷售及使用AI系統，且它對人權的威脅愈高，相關的法令就應該愈嚴格。&lt;/p&gt;
+&lt;p&gt;Bachelet的擔心奠基在聯合國人權辦公室在最近發布的《數位時代隱私權》（&lt;a href=&quot;https://www.ohchr.org/EN/HRBodies/HRC/RegularSessions/Session48/Documents/A_HRC_48_31_AdvanceEditedVersion.docx&quot; target=&quot;_blank&quot;&gt;The Right to Privacy in The Digital Age&lt;/a&gt;）調查報告，該報告分析了各種AI技術如何影響人們的隱私或其它權利，包括健康、教育、行動自由、言論自由或集會自由的權利。&lt;/p&gt;
+&lt;p&gt;Bachelet說，AI現在已經滲透到人們的身、心，甚至是情緒狀態的每個角落，人們利用AI系統來決定誰可以得到公共服務，決定誰可以獲得特定的職位，更影響了人們在網路所看到或能夠分享的資訊。&lt;/p&gt;
+&lt;p&gt;《數位時代隱私權》揭露了AI系統如何仰賴大量的資料，這些資料集所含的資訊通常是藉由不透明的方式來蒐集、共享、合併及分析個人資料而來，它們可能是錯誤的、歧視的、過時或不相關的，此外，長久儲存這些資料還會帶來額外的風險，因為不確定這些資料未來是否會被以任何不明的方式所開採。&lt;/p&gt;
+&lt;p&gt;此外，研究也發現因為AI的失誤而被不公平對待的許多案例，例如被拒絕領取社會福利或是遭到逮捕等。&lt;/p&gt;
+&lt;p&gt;Bachelet認為，有鑑於AI系統的持續及快速成長，如何填補上述的缺口已成為當務之急，由AI執行的決策可能改變、定義，甚至是危害人類的生活，因此需要針對AI的影響力進行系統化的評估與監控，以降低它對人權所帶來的風險，不應再放任人們在毫無限制或監管的狀態下使用AI，並在它帶來嚴重後果時才加以彌補。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 08 Sep 2021 08:05:59 +0000</pubDate>
+ <pubDate>Fri, 17 Sep 2021 13:21:24 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146598 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146598#comments</comments>
+ <guid isPermaLink="false">146786 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146786#comments</comments>
 </item>
 <item>
- <title>資安一周第162期：為落實個資保護監管責任及跨機關協調，行政院建立個資保護執行聯繫機制</title>
- <link>https://www.ithome.com.tw/news/146597</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;h3&gt;&lt;strong style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;9/2-9/8必看資安新聞&lt;/strong&gt;&lt;/h3&gt;
-&lt;h3&gt; &lt;/h3&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃法規遵循  ＃個資保護&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;為落實個資保護監管責任及跨機關協調，行政院建立個資保護執行聯繫機制&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;行政院在8月公布「行政院及所屬各機關落實個人資料保護聯繫作業要點」，當中確立公部門的個資保護執行聯繫機制，由一位政務委員擔任召集人，三位為協同召集人，國發會擔任幕僚作業單位，督促各主管機關落實對各事業的個資監管措施，包括資訊系統保護、個資外洩事件通報及行政檢查等。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146562&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;上櫃貿易百貨業關中公告子公司遭駭&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;近期國內餐飲業與零售業接連遭勒索軟體攻擊事件，國內上櫃貿易百貨業關中在8月30日公告，旗下美國子公司Grand Home Holdings遭受駭客網路攻擊。值得注意的是，隨著櫃買中心明訂上櫃與興櫃公司也應與上市公司一樣要主動揭露資安事件重大訊息，近期已有翔名與關中因資安事件發布公告。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146491&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃勒索軟體攻擊  ＃食品供應鏈&lt;/strong&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;勒索軟體鎖定農業與食品製造業下手，FBI特別發出公告呼籲各界重視&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;氣候變遷導致食品生產面臨更多挑戰，再加上美中貿易大戰持續延燒的情況下，如今勒索軟體駭客也來攪局，對於糧食、肉品、各類加工品的供應，更加雪上加霜。美國聯邦調查局（FBI）於9月1日發出警告，表示勒索軟體駭客目前鎖定食品、農業相關產業大肆發動攻擊，呼籲業者要加強有關的資安防護措施。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146563&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃漏洞攻擊  ＃協作平臺&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;美國督促各大組織修補Atlassian Confluence漏洞&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;美國網戰司令部（US Cyber Command）於9月3日警告，駭客正在大規模掃描Atlassian Confluence安全漏洞CVE-2021-26084，呼籲用戶應儘速修補。&lt;/p&gt;
-&lt;p&gt;這項漏洞Atlassian甫於8月25日修補。但越南資安研究人員Tuan Anh Nguyen在8月31日警告，他已經看到針對該漏洞的大量掃描行動，隔天則有其他的研究人員則公布細節與概念性驗證攻擊程式。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146555&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/162-1-ulD5FmU8Mg.png&quot; style=&quot;width: 400px; height: 100px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;圖片來源：美國網戰司令部&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;strong style=&quot;color: rgb(178, 34, 34); vertical-align: top;&quot;&gt;＃漏洞攻擊&lt;/strong&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;思科修補NFV基礎架構軟體重大漏洞&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;9月1日，思科針對網路虛擬化設備Cisco Enterprise NFV Infrastructure Software（NFVIS）的重大漏洞CVE-2021-34746，推出4.6.1版更新軟體。這項漏洞CVSS風險層級達到9.8分，一旦遭到濫用，攻擊者可能得以接管設備。&lt;/p&gt;
-&lt;p&gt;本漏洞最早由Orange Group的研究人員Cyrille Chatras發現。思科尚未發現使用此漏洞的惡意活動，但根據他們的觀察，網路上已出現概念驗證（PoC）程式。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146549&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/162-2-QQBqnRUYu9.png&quot; style=&quot;width: 400px; height: 242px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#808080;&quot;&gt;圖片來源：思科&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃漏洞攻擊  ＃藍牙&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;藍牙BrakTooth漏洞波及逾1,400款產品&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;新加坡科技設計大學（Singapore University of Technology and Design）揭露藍牙漏洞BrakTooth，當中集結了近20種不同的安全漏洞，這些弱點有可能造成服務阻斷或遠端程式攻擊。基本上，這些漏洞存在於13款藍牙晶片，據保守估計，將會影響1,423款產品，從電腦、手機到鍵盤等，全球可能有數十億裝置，都可能因此而有潛在的安全風險。&lt;/p&gt;
-&lt;p&gt;關於這批漏洞，研究人員已通報受到影響的業者，並獲得Espressif System及小米的抓漏獎勵。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146523&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/162-3-zGKokinMpX.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#808080;&quot;&gt;圖片來源：新加坡科技設計大學&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃惡意軟體攻擊  ＃Proxyware&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;惡意程式牟利的方式有了新手法！不只會偷取算力和資料，還會竊取網路頻寬&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;資安業者思科於8月31日提出警告，指出他們發現攻擊者利用名為Honeygain的網路頻寬共享軟體Proxyware，來暗中賣掉Windows電腦的網路頻寬，而且，攻擊者也會安裝XMRig挖礦軟體，以及瀏覽器密碼復原工具ChromePass或WebBrowserPassView，來利用這些受害電腦賺取更多錢。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146560&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃資料外洩  ＃武漢肺炎&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;印尼防疫網站未做好資料庫防護，百萬民眾資料外洩&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;資安廠商vpnMentor在7月中旬，於印尼政府的防疫管理網站eHAC（eHealth Alert Card），發現未做好防護的Elasticsearch資料庫，資料量為2GB，影響約130萬人。但該公司通報後，一個月後才得到印尼政府回應，資料庫亦加上防護，印尼當局亦於8月31日表示將調查此事。&lt;/p&gt;
-&lt;p&gt;eHAC是印尼政府開發，用於武漢肺炎接觸追蹤App的運作，當局要求所有入、出境的旅客，以及民眾安裝使用上述的追蹤App。此次資料庫未做好防護，可能曝光的資料包括個人可供辨識的身分資訊（PII）、旅行資訊、醫療記錄，以及武漢肺炎檢測資訊等。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146573&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃勒索軟體攻擊&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong&gt;勒索軟體AvosLocker已有7個受害組織，部分機密文件已被公開&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;一款名為AvosLocker的勒索軟體，約自6月底被發現，而引起資安人員的關注，解析這款勒索軟體的攻擊行為。而到了最近，資安業者Palo Alto Networks指出，目前全球各地至少有7個組織受害，攻擊者開口索討的贖金，從5萬美元到7.5萬美元不等，而且，已有部分文件已經被駭客公開，當中含有組織私有文件，以及能識別個人的資訊。&lt;a href=&quot;https://www.ithome.com.tw/news/146504&quot;&gt;&lt;strong&gt;詳全文&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;vertical-align: top; color: rgb(178, 34, 34);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;＃漏洞攻擊  ＃Exchange&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;h2&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;研究人員揭露Exchange Server新漏洞ProxyToken，恐導致電子郵件被竊取&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;越南VNPT ISC研究人員Le Yuan Tuyen，偕同趨勢科技Zero Day Initiative，揭露名為ProxyToken的Exchange Server漏洞（CVE-2021-33766），CVSS風險層級為7.3分。攻擊者一旦利用此漏洞，能在未經授權的情況下，在任意使用者的信箱竄改組態，進而複製這個用戶的所有郵件，並轉寄到攻擊者指定的信箱。研究人員通報微軟後，該公司於7月的例行修補提供更新軟體。&lt;strong&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/146461&quot;&gt;詳全文&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2&gt;&lt;span style=&quot;vertical-align: top; color: rgb(51, 153, 255);&quot;&gt;&lt;strong style=&quot;vertical-align: top;&quot;&gt;更多資安動態&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;h3&gt;●&lt;a href=&quot;https://www.ithome.com.tw/news/146480&quot;&gt;2020年美國學校受到勒索軟體攻擊達77次&lt;/a&gt;&lt;br /&gt;
-●&lt;a href=&quot;https://www.ithome.com.tw/news/146551&quot;&gt;德國要求手機廠商提供7年安全更新惹議&lt;/a&gt;&lt;br /&gt;
-●&lt;a href=&quot;https://www.ithome.com.tw/news/146502&quot;&gt;美國國安局準備因應量子電腦威脅&lt;/a&gt;&lt;/h3&gt;
+ <title>金融木馬ZLoader攻擊德國、澳洲銀行機構，停用Windows內建防毒以規避偵測</title>
+ <link>https://www.ithome.com.tw/news/146775</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;過往攻擊者散布金融木馬的管道，多半是利用內有惡意巨集的Office檔案，作為釣魚郵件進行攻擊。但今年出現了較為複雜的新手法，例如，&lt;a href=&quot;https://www.sentinelone.com/labs/hide-and-seek-new-zloader-infection-chain-comes-with-improved-stealth-and-evasion-mechanisms/&quot;&gt;在金融木馬ZLoader（也稱為Terdot）近期的新攻擊行動中&lt;/a&gt;，駭客透過合法的MSI檔案來散布，並具備停用Windows內建防毒軟體的模組。&lt;/p&gt;
+&lt;p&gt;ZLoader是典型的金融木馬，最早約在2016年出現，是由另一款惡名昭彰的木馬程式Zeus發展而來，原本主要是透過網頁注入（Web Injection）的方式，來竊取Cookies、密碼，以及上網用戶的敏感資訊，攻擊目標是全球各地金融機構的使用者，駭客也運用ZLoader來傳送Egregor、Ryuk等勒索軟體，或是其他的惡意軟體。但如今，攻擊者執行ZLoader的方式，比起以往更加複雜。&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;以Google關鍵字廣告來引誘受害者上鈎&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;例如，資安業者SentinelOne於9月13日，揭露最近一波ZLoader的攻擊行動細節。攻擊者先是透過投放Google廣告，鎖定使用「Team viewer download」作為關鍵字的用戶，一旦使用者點選了攻擊者購買的廣告，就會被引導到冒牌TeamViewer的網站，下載MSI安裝檔案，但實際上，若是使用者執行這個檔案，將會在受害電腦植入ZLoader。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/1-overview-of-ZLoader-infection-chain-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/1-overview-of-ZLoader-infection-chain-s.png&quot; style=&quot;width: 580px; height: 354px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;值得留意的是，有別於許多冒名TeamViewer的惡意程式，這次攻擊者提供的檔案具有合法簽章。SentinelOne指出，該惡意程式憑證署名的時間為今年的8月23日，是由加拿大布蘭普頓軟體公司Flyintellect Inc簽署，但這家公司甫於6月29日登記成立，研究人員推測，該公司很可能是攻擊者為了合法憑證所設立。&lt;/p&gt;
+&lt;p&gt;除了假冒TeamViewer的安裝程式（Team-Viewer.msi），研究人員發現，攻擊者還利用上述的合法憑證，簽署冒牌的Java外掛程式（JavaPlug-in.msi）、Zoom（Zoom.msi），以及Discord（discord.msi）等安裝軟體。SentinelOne指出，他們在發布此次事故的分析結果之際，這4個冒牌安裝程式皆無法透過VirusTotal識別為有害。&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;運用電腦作業系統內建工具側載惡意程式&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;在使用者不疑有他執行這些冒牌安裝程式之後，它們會先隨機產生一些合法的檔案，再透過PowerShell取得更新用的指令碼（Script），接著停用Microsoft Defender所有模組，並將regsvr32、EXE可執行檔案、DLL程式庫設置為例外，以便後續惡意程式的元件不會被攔截。&lt;/p&gt;
+&lt;p&gt;最終攻擊者才會下載名為tim.exe的檔案，並透過檔案總管（explorer.exe），以&lt;a href=&quot;https://www.ithome.com.tw/news/145950&quot;&gt;就地取材&lt;/a&gt;（Living Off The Land Binaries and Scripts，LOLBAS）的方式側載執行，這麼做的目的，是要讓端點偵測與回應系統（EDR）難以串連子母處理程序之間的關連。而這個tim.exe接著會產生惡意指令碼tim.bat，下載ZLoader的酬載DLL檔案（tim.dll）。當然，執行ZLoader的方式也是透過就地取材，由regsvr32側載來運作。&lt;/p&gt;
+&lt;p&gt;什麼是「就地取材（Living Off The Land）」？簡單來說就是利用受害電腦所具備的現成工具，來挾帶惡意軟體，或是執行偵察、下載惡意軟體等工作。而這樣的手法，後來有資安研究人員以使用的工具型態來進行區分，其中同時運用可執行程式（Binary）和指令碼（Script），或者是可執行程式與程式庫（Library）的情況，被稱為LOLBAS。以上述的攻擊過程裡，檔案總管、regsvr32都是攻擊者就地取材所運用的內建軟體。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://s4.itho.me/sites/default/files/images/2-The-first-part-of-the-attack-chain-s.png&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/2-The-first-part-of-the-attack-chain-s.png&quot; style=&quot;width: 580px; height: 235px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;而針對ZLoader的攻擊目標，在SentinelOne連一步分析後，發現了該惡意酬載嵌入澳洲與德國網域列表，且針對銀行機構而來。至於上述攻擊工具檔案名稱的「Tim」，SentinelOne認為是攻擊者所使用的殭屍網路名稱，該公司指出，這個殭屍網路是由超過350個C2中繼站所組成。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 08 Sep 2021 07:52:47 +0000</pubDate>
+ <pubDate>Fri, 17 Sep 2021 10:23:32 +0000</pubDate>
  <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="false">146597 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146597#comments</comments>
+ <guid isPermaLink="false">146775 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146775#comments</comments>
 </item>
 <item>
- <title>報告：企業不當使用自動化聘僱系統，反誤擋了大量可能人才</title>
- <link>https://www.ithome.com.tw/news/146596</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.hbs.edu/managing-the-future-of-work/Documents/research/hiddenworkers09032021.pdf&quot; target=&quot;_blank&quot;&gt;哈佛商業評論一份報告指出&lt;/a&gt;，美國企業使用的自動聘僱軟體因為不適當的篩選條件，而將許多潛在人才給刷了下來。&lt;/p&gt;
-&lt;p&gt;這份報告指出，歐美企業利用AI自動化聘僱系統，像是應徵者追蹤系統（applicant tracking system，ATS）或聘僱管理系統（recruitment management system，RMS）篩選應徵履歷的比例很高。一項研究顯示，財星500大企業使用ATS的比例達99%，企業規模在千人以上的企業使用RMS者達69%。美國企業使用系統篩選比例為75%，高於德國（54%）及英國（58%）。&lt;/p&gt;
-&lt;p&gt;這份報告試著了解何以許多企業苦於找不到人才，但同時間也很多人找不到工作，不然就是得花很久才找到工作。研究團隊估計，美國有2,700多萬名「被隱形」的工作者。&lt;/p&gt;
-&lt;p&gt;研究團隊認為，企業AI聘僱系統不良的篩選條件，是造成這矛盾現象的可能原因之一。報告指出，大部份ATS/RMS採用負面表列的篩選邏輯，例如轉職期超過半年的求職，較容易被系統依「工作空白期」（work gap）條件篩掉，但是這也可能擋掉了一些因為健康因素、努力「做人」、隨軍人配偶調任等原因而轉換環境的人。此外，企業主設定學歷、證照等條件，但是退伍軍人的能力或可勝任一些難補人的職位，不過他們的履歷會在ATS/RMS排除「不足大學學歷」規則下，上不了企業主的桌面。&lt;/p&gt;
-&lt;p&gt;另外，報告發現潛在人才可能會被ATS/RMS系統預設條件擋掉。78%受訪企業主在尋找中等技能員工時，是沿用或小幅修改現有職位描述（Job description，JB）上，只有1/5會大幅修改現有版本，全新重寫JB者僅8%；尋求高階技能人才時，僅1/4受訪企業主會撰寫全新的JB。結果是JB清單愈來愈長，能篩選到的求職者愈來愈少。報告也指出，太冗長的JB清單也會嚇退資格符合的求職者。&lt;/p&gt;
-&lt;p&gt;這份報告建議企業主使用ATS/RMS系統時，應以正向表列，而非負面排除法，並為一項職位建立適合的職位描述，以擴大求才觸角。&lt;/p&gt;
+ <title>IT人才月報第19期：微軟協作工具大更新，Teams不只能自動聚焦發言人還能辨識開會員工是誰</title>
+ <link>https://www.ithome.com.tw/news/146711</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;重點新聞(0806~0914)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 微軟 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 微軟Teams &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 混合辦公 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;strong&gt;微軟協作產品線大更新，Teams能自動追蹤講者，還將有AI教練機你提醒講者如何注意聽眾&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微軟近期發佈了一系列協作產品的更新，包括Teams、Viva與生產力平臺（Power Platform）。為了將Teams的功能從多人線上視訊，擴及到實體與線上共同視訊的混合辦公環境，微軟在Teams會議室系統中加入三大功能，一是AI驅動的發言者追蹤（AI-powered active speaker tracking），能夠透過與會者的音訊、臉部及手勢，在多人會議中偵測正在發言的人，並放大該名與會者的畫面到線上視訊介面中。二是多視訊串流（multiple video streams），能將實體會議室的與會者，擷取每個人像放入不同的視訊窗格中。三是人員辨識（people recognition），能自動辨識與會者的身份，將該員工註冊的身份資料顯示在其視訊窗格中。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image005%20(1).jpg&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Teams智慧相機的發言者追蹤，能透過與會者的音訊、臉部及手勢，在多人會議中偵測正在發言的人，並放大該名與會者的畫面到線上視訊介面中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;為了讓遠距簡報過程更有參與感，微軟宣布推出新功能Cameo，將與PowerPoint整合，能讓簡報者在製作簡報時，將自己的即時視訊畫面融入於簡報中，簡報者可自行決定出現在簡報中的方式及位置。另外，Teams也將在2022年推出新功能演說教練（Speaker Coach），這是已經存在於Power Point中的功能，將會添加到Teams中，能透過AI建議簡報者的語速，在應打斷講者時給予通知，提醒簡報者應注意聽眾反應。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image006.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;新功能Cameo將與PowerPoint整合，能讓簡報者在製作簡報時，能將自己的即時視訊畫面融入於簡報中，&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;微軟也宣布將於9月推出Viva Connections行動應用程式公開預覽版。Viva Connections內建於Teams中，是一個提供使用者獲得內網資訊與對話的單一入口，Viva Connections可提供個人化介面，企業能使用其他應用程式客製化儀表板，讓員工快速找到資源及任務，例如提交財務報表、申請休假或上下班打卡等；企業也能使用調適型卡片（Adaptive Card），針對特定使用者來調整儀表板項目。這項功能目的要確保員工能夠在工作流程中，隨處存取所需的資訊與通知。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/image007(5).jpg&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;微軟將推出Viva Connections行動應用程式公開預覽版。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不只如此，微軟也在Power Platform上發布重返工作場所解決方案（Return to the Workplace solution），提供企業一系列用於確認員工安全的Power Apps及Power BI儀表板，包含疫苗接種證明、個案管理、健康篩檢、設施安全管理等。這些功能也可與企業現有的第三方應用程式整合，並且融入Viva Connections的體驗中。（&lt;a href=&quot;https://news.microsoft.com/hybrid-work-next-phase/&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 臉書 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; VR協作 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 遠距辦公 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;用虛擬分身在虛擬辦公室開會，臉書發布VR遠端協作解決方案Horizon Workrooms&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;臉書推出透過虛擬實境（VR）線上交流協作的解決方案Horizon Workrooms，將混合實境桌面、鍵盤和手部追蹤，遠端桌面串流傳輸、視訊會議、空間音訊以及新的Oculus虛擬分身等技術，與VR系統Quest 2整合，創造虛擬協作辦公新體驗。&lt;/p&gt;
+&lt;p&gt;進一步了解Workrooms，可以想像成一個虛擬會議空間，使用者可以從任何地方，使用虛擬形象加入虛擬實境會議；在虛擬空間中，使用者可以共同開會、處理文件、使用虛擬白板。Workrooms也提供混合實境的體驗，讓實體的辦公桌和相容的鍵盤，也能呈現在這個虛擬空間中，只要結合使用適用於Mac和Windows的Oculus遠端桌面配套應用程式，就可以在虛擬實境中存取電腦，或將檔案帶入虛擬空間中，甚至可以和同事共享螢幕。（&lt;a href=&quot;https://www.ithome.com.tw/news/146311&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/CD21_546-_-NRP-Oculus-Cross-Post_-Horizon-Workrooms-Launch_Inline-3.jpeg&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 資安人才 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 資安卓越中心 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 資安徵才 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;打造國家級資安人才培育重鎮，資安卓越中心現正招募百位技術與研究人才&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在8月5日舉行的全國資訊安全會議的一場演講中，行政院副執行秘書李育杰揭露臺灣政府資安推動最新進展。他指出，&lt;a class=&quot;notion-link-token notion-enable-hover&quot; data-reactroot=&quot;&quot; data-token-index=&quot;1&quot; href=&quot;https://www.ithome.com.tw/news/142509&quot; rel=&quot;noopener noreferrer&quot; style=&quot;cursor:pointer;color:inherit;word-wrap:break-word;text-decoration:inherit&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;link-annotation-unknown-block-id--601178294&quot; style=&quot;border-bottom:0.05em solid;border-color:rgba(55,53,47,0.4);opacity:0.7&quot;&gt;今年初定案將設立的資安卓越中心（Cyber Security Center of Excellence（CCoE）&lt;/span&gt;&lt;/a&gt;，現在已經進入籌備階段，預計明年2022年初就會正式成立。目前，資安卓越中心要招募逾百位技術與研究人員，涵蓋工程師、程式設計師與研究人員，且南北兩地都會設有據點。屆時，這個國家級的資安卓越中心，不僅要增進資安前瞻研究的能量，更要解決組織資安人力不足的問題，做到長期培訓產業所需的資安人才。（&lt;a class=&quot;notion-link-token notion-enable-hover&quot; data-reactroot=&quot;&quot; data-token-index=&quot;3&quot; href=&quot;https://www.ithome.com.tw/news/146249&quot; rel=&quot;noopener noreferrer&quot; style=&quot;cursor:pointer;color:inherit;word-wrap:break-word;text-decoration:inherit&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;link-annotation-unknown-block-id--601061889&quot; style=&quot;border-bottom:0.05em solid;border-color:rgba(55,53,47,0.4);opacity:0.7&quot;&gt;詳全文&lt;/span&gt;&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Linkedin &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 員工培訓 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 技能學習平臺 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;瞄準企業員工培訓需求，Linkedin技能學習平臺將在2週內上市&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Linkedin的技能培養平臺（Linkedin Learning Hub）將在兩周內正式上市，目標成為企業提供給員工使用的學習平臺，以留任或重新培訓員工。技能培養平臺是Linkedin在今年3月新發布的學習平臺，提供個人化的學習體驗，能針對員工的職位、學習的技能與瀏覽活動，推薦關聯性的課程，這個推薦引擎的訓練資料，來自於Linkedin資料庫中上百萬的會員資料與數十億互動數據；另一項特色，則是這個平臺具有社群的功能，員工可以在平臺中相互連結並分享內容，也能透過留言功能與授課者互動；最後，這個平臺能提供企業其員工的學習洞察，分析員工完成的課程內容，已具備或尚未具備的能力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Amazon &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 人才招募 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;Amazon今年全球大動作招聘5.5萬名員工，其中1萬5千名瞄準海外人才&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.aboutamazon.com/news/job-creation-and-investment/amazon-career-day-2021-is-americas-biggest-training-and-recruiting-event&quot;&gt;Amazon計畫&lt;/a&gt;於9月15日展開的年度Career Day上，在美國招募4萬名企業與科技職位的員工，以及支援Amazon Operations的數萬名時薪員工。&lt;a href=&quot;https://www.reuters.com/technology/exclusive-amazon-ceo-unveils-55000-tech-jobs-first-hiring-push-under-his-watch-2021-09-01/&quot;&gt;路透社則報導&lt;/a&gt;，此次Amazon的招募計畫是全球性的，另有1.5萬名新聘員工將以海外市場為主。Career Day是Amazon一年一度的員工招募活動，今年將在線上舉行，全球有興趣的求職者都可報名參加，而且不限資歷、專長或背景，&lt;a href=&quot;https://www.amazoncareerday.com/regions&quot;&gt;根據Amazon所公布的求職者報名地點&lt;/a&gt;，除了美國與加拿大之外，也歡迎法國、德國、印度、義大利、日本、西班牙與英國的求職者報名，有興趣到這些國家任職的臺灣求職者或者也可考慮參加。（&lt;a href=&quot;https://www.ithome.com.tw/news/146501&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 微軟 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 工作趨勢報告 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;微軟發佈新工作趨勢報告，提出強化員工信任與彈性的6大方法&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;微軟最新一份工作趨勢指數報告，綜合了三份微軟對自家員工的調查結果指出，微軟員工與經理對於每週進辦公室的次數期待有差距，員工計劃進辦公室的次數多於經理對員工的期許。比如說，有48%的員工希望每週進辦公室3～4次，但只有28%的經理希望員工這麼做。微軟指出，員工與主管之間的期待落差，凸顯了兩者之間需要更多的溝通，來克服可能帶來的摩擦。&lt;/p&gt;
+&lt;p&gt;微軟也採取6種方法來強化與員工之間的信任與彈性。其一，是保持成長的心態，因為在難以預料的疫情期間，工作上難免會遇到一些起伏，但保持正向的心態，就能將每一個失誤視為學習機會，而非失敗。其二，是要求經理與員工必須一對一對話，比如談論如何在混合模式下工作。其三，則是要求主管遵循2年前引進的經理框架──成為榜樣、像教練一樣帶領員工、並付出關心（Model, coach, care）。&lt;/p&gt;
+&lt;p&gt;其四，是建立團隊協議，因為不確定性會帶來焦慮，所以需要訂定清楚的協議，讓員工了解在混合工作模式下的協作方法。其五，刻意安排混合式的工作會議，微軟甚至發展出混合會議指南，來確保遠距與在辦公室內的與會者，都有權參與會議。最後，則是不要忽視最基礎的生活作息，每個人都需要充足睡眠、每日運動、健康食物、補充水分，以及工作之外的高品質情感連結，都不可忽視，才能帶來生理與心理上的幸福感。（&lt;a href=&quot;https://www.microsoft.com/en-us/worklab/work-trend-index/support-flexibility-in-work-styles&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-09-15%20%E4%B8%8A%E5%8D%8810_25_40.png&quot; style=&quot;width: 997px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; Gartner &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 技術人才短缺 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;Gartner：科技採用腳步加速，64%IT主管認為新興科技導入最大障礙是技術人才不足&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Gartner的一項新調查顯示，64%IT高管將人才短缺視為新興技術的採用障礙，相較於去年比例僅有4%，人才短缺被提及的頻率大幅提升，其他採用障礙還包括實施成本（29%）或資安風險（7%）。調查指出，人才的可獲得性（Talent availability），阻止了6大IT技術的採用，包括運算基礎架構與平臺服務、網路、資安、數位工作場所、IT自動化、儲存與資料庫等，其中，高達75%受訪者認為，IT自動化領域具人才短缺風險，也有41%認為數位工作環境領域缺乏科技人才。&lt;/p&gt;
+&lt;p&gt;不過，撇開人才不足的問題，企業仍然持續加速對新興科技的採用。調查指出，有58%受訪者不是正在增加就是計劃增加2021年的技術投資，去年則僅有29%。其中，強化IT彈性和改進關鍵IT基礎設施是IT領導者在2021年的首要任務，而且，他們將優先投資雲端部署與資安技術。（&lt;a href=&quot;https://www.gartner.com/en/newsroom/press-releases/2021-09-13-gartner-survey-reveals-talent-shortages-as-biggest-barrier-to-emerging-technologies-adoption&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 哈佛商業評論 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 自動化聘僱系統 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 阻擋潛在人才 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;哈佛商業學院提醒：自動聘僱軟體設定不當，恐讓企業錯過大量潛在人才&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.hbs.edu/managing-the-future-of-work/Documents/research/hiddenworkers09032021.pdf&quot;&gt;哈佛商業學校最近一篇研究報告指出&lt;/a&gt;，美國企業使用的自動聘僱軟體因為不適當的篩選條件，而將許多潛在人才給刷了下來。研究團隊認為，企業AI聘僱系統不良的篩選條件，是造成這矛盾現象的可能原因之一。報告指出，大部份ATS/RMS採用負面表列的篩選邏輯，例如轉職期超過半年的求職，較容易被系統依「工作空白期」（work gap）條件篩掉，但是這也可能擋掉了一些因為健康因素、懷孕、隨軍人配偶調任等原因而轉換環境的人。又比如，企業主設定學歷、證照等條件，但是退伍軍人的能力可勝任一些難填補的職缺，但他們的履歷會在ATS/RMS「不足大學學歷」規則下遭排除。&lt;/p&gt;
+&lt;p&gt;因此，這份報告建議企業主使用ATS/RMS系統時，應以正向表列，而非負面排除法，並為一項職位建立適合的職位描述，以擴大求才觸角。（&lt;a href=&quot;https://www.ithome.com.tw/news/146596&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 政府IT徵才 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 美國 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 數位軍團計畫 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;拜登政府發布美國數位軍團計畫，要招募技術型的下一代公務人員&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;美國拜登政府近期宣布美國數位軍團計畫（U.S. Digital Corps），這是一個為期兩年的專案，要吸引職業生涯剛起步的技術人員加入政府團隊。這項計畫由美國總務署（General Services Administration，GSA）的科技轉型服務團隊所主持，目標要建立多元化人才管道並招募下一代公務員。根據GSA表示，這項計劃在今年秋季會開始接受申請，最多提供30名研究員的名額，可申請的機構包過GSA、退伍軍人事務部、消費者金融保護局以及醫療保險和醫療保險服務中心，GSA希望招募熱情、任務驅動的技術人員，更要求這些人員要具備軟體開發、資料科學、設計、資安或其他技術能力。（&lt;a class=&quot;notion-link-token notion-enable-hover&quot; data-reactroot=&quot;&quot; data-token-index=&quot;1&quot; href=&quot;https://digitalcorps.gsa.gov/&quot; rel=&quot;noopener noreferrer&quot; style=&quot;cursor:pointer;color:inherit;word-wrap:break-word;text-decoration:inherit&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;link-annotation-unknown-block-id--1571765848&quot; style=&quot;border-bottom:0.05em solid;border-color:rgba(55,53,47,0.4);opacity:0.7&quot;&gt;詳全文&lt;/span&gt;&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202021-09-15%20%E4%B8%8A%E5%8D%8810_28_04.png&quot; style=&quot;width: 700px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; NASA黑客松 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt;開放資料&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;全球最大NASA黑客松臺北場即將在10月初線上舉辦，用NASA開源資料找永續問題解方&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;由NASA舉辦、邁入第10屆的全球最大黑客松臺北場，今年即將在臺灣10月2日至3日展開，此次競賽是由美國在臺協會（AIT）、臺北市政府、國家實驗研究院國家太空中心及g0v零時政府揪松團協同舉辦，因疫情關係改為與全球線上形式，與全球同步進行。今年挑戰問題簡述也已經公布，涵蓋各領域的議題，包括天文學光變曲線、如何即時分享太空垃圾的位置，或是從衛星數據探討COVID-19的影響變化、如何從太空中觀察與地球生命息息相關的昆蟲多樣性變化等，讓不限年齡、專業與能力的參賽者，必須使用到NASA龐大的開放資料來提出解方，報名直到9月30日止。（&lt;a href=&quot;https://2021.spaceappschallenge.org/locations/taipei/event?utm_source=social_media&amp;amp;utm_medium=dir_promo-video&amp;amp;utm_campaign=nasa_2021&quot;&gt;詳全文&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color: rgb(51, 153, 255);&quot;&gt; 更多IT人才動態 &lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.資策會成立ICT人才培育公司資展國際，目標以40年經驗為基礎培育數位轉型人才（&lt;a href=&quot;https://www.iii.org.tw/Press/NewsDtl.aspx?fm_sqno=14&amp;amp;nsp_sqno=2369&quot;&gt;詳全文&lt;/a&gt;）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;責任編輯／翁芊儒&lt;/p&gt;
+&lt;p&gt;圖片來源／微軟、臉書、U.S. Digital Corps&lt;/p&gt;
+&lt;p&gt;資料來源：iThome整理，2021年9月&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 08 Sep 2021 07:30:15 +0000</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146596 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146596#comments</comments>
+ <pubDate>Fri, 17 Sep 2021 08:29:06 +0000</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="false">146711 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146711#comments</comments>
 </item>
 <item>
- <title>蘋果宣布要在9月14日舉行虛擬發表會</title>
- <link>https://www.ithome.com.tw/news/146592</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;蘋果行銷副總裁&lt;a href=&quot;https://twitter.com/gregjoz/status/1435272731746979840&quot; target=&quot;_blank&quot;&gt;Greg Joswiak本周透過Twitter對外證實&lt;/a&gt;，蘋果即將於下周二（9/14）舉行California Streaming虛擬發表會，而媒體亦已收到邀請函，外界期望蘋果當天將會發表新一代的iPhone、Apple Watch及AirPods產品。&lt;/p&gt;
-&lt;p&gt;這場發表會的時間點為太平洋夏令時間（PDT）9月14日的早上10點，約是臺北時間9月15日的凌晨1點，屆時將直接於線上轉播，開放全球的蘋果粉絲參與。&lt;/p&gt;
-&lt;p&gt;有關iPhone 13的傳聞早就沸沸揚揚，包括蘋果將發表基於A15晶片的4款iPhone，從5.4吋的iPhone 13 mini、6.1吋的iPhone 13、6.1吋的iPhone 13 Pro，到6.7吋的iPhone 13 Pro Max；除了硬體的升級之外，iPhone 13的外型可能與前一代差不多，但會減少瀏海的範圍，也傳出可能支援衛星通話。&lt;/p&gt;
-&lt;p&gt;至於Apple Watch 7在外型上可能有較大的改變，它會有更大的螢幕，而且更薄。另外也會有新一代的AirPods 3問世。比照往年，蘋果亦可望於今年的秋季發表會揭露iOS 15、watchOS 8及tvOS 15等各裝置的最新作業系統。&lt;/p&gt;
+ <title>X Development使用光束通訊替剛果河兩岸提供寬頻服務</title>
+ <link>https://www.ithome.com.tw/news/146770</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Alphabet旗下的研發公司&lt;a href=&quot;https://x.company/blog/posts/taara-beaming-broadband-across-congo/&quot; target=&quot;_blank&quot;&gt;X Development（原為Google X）在16日宣布&lt;/a&gt;，旗下的Taara專案已利用無線光束替非洲剛果河兩岸的Brazzaville與Kinshasa建立寬頻服務，在20天內提供700TB的資料傳輸，且可得性達到99.9%。&lt;/p&gt;
+&lt;p&gt;Taara專案衍生自Alphabet今年落幕的&lt;a href=&quot;https://www.ithome.com.tw/news/142411&quot; target=&quot;_blank&quot;&gt;氣球連網公司Loon&lt;/a&gt;，Loon致力於打造環繞地球的連網高空氣球，雖已成功推出商用服務，但商業化時程太久，再加上風險高於預期，使得Alphabet決定將它關閉，然而，Alphabet並未浪費Loon所開發的技術，而將它們轉移到X Development。&lt;/p&gt;
+&lt;p&gt;當初Loon團隊建立了一個技術，以替距離超過100公里的高空氣球建立資料連結，在兩個節點之間利用光線來傳送資料，如同光纖，但卻是無線的。Taara團隊認為該技術將可用來在特定地區部署寬頻網路，特別是那些因地形限制而難以部署光纖網路的偏遠地區。&lt;/p&gt;
+&lt;p&gt;每一個Taara連結可提供最高20 Gbps的寬頻傳輸，最遠可傳遞20公里。Taara工程總監Baris Erkmen表示，同樣位於剛果的Brazzaville與Kinshasa城市分處剛果河的兩岸，彼此之間的距離只有4.8公里，然而，Kinshasa的連結費用卻是Brazzaville的5倍，因為若要部署光纖網路必須沿著剛果河拉線400公里。&lt;/p&gt;
+&lt;p&gt;於是Taara團隊決定在這兩個城市安裝Taara Link，利用不可見的光束來提供類似光纖的速度，其終端裝置會搜尋彼此，找到彼此的光束並鎖定，以建立高速的寬頻連結。&lt;/p&gt;
+&lt;p&gt;Erkmen指出，長期以來無線光通訊並未被當作可行的寬頻方案，因為它的訊號可靠度會被各種情境影響，不管是霧、霾、雨，或者是小鳥飛過，但他們持續改善光束的指向與追蹤能力，並提高它對環境的適應力，因此，就算遭遇天候與動物的干擾，服務也不會因此而中斷。&lt;/p&gt;
+&lt;p&gt;此外，Taara團隊也開發了網路計畫工具，根據天候等因素自動篩選出適合安裝Taara Link的區域，並歡迎全球有相關需求的網路供應商與該團隊接洽。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 08 Sep 2021 05:17:08 +0000</pubDate>
+ <pubDate>Fri, 17 Sep 2021 07:42:52 +0000</pubDate>
  <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="false">146592 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146592#comments</comments>
+ <guid isPermaLink="false">146770 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146770#comments</comments>
 </item>
 <item>
- <title>微軟加入開源雲平臺組織OpenInfra基金會</title>
- <link>https://www.ithome.com.tw/news/146590</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;前身為OpenStack基金會的產業組織&lt;a href=&quot;https://www.businesswire.com/news/home/20210907005721/en/OpenInfra-Foundation-Welcomes-Microsoft-as-Newest-Member-to-Advance-Open-Infrastructure-Use-Cases-Hybrid-Cloud-and-5G-Using-Open-Source-Technologies-OpenStack-and-Airship&quot; target=&quot;_blank&quot;&gt;OpenInfra 基金會昨（7）日宣布&lt;/a&gt;，微軟將加入以貢獻雲端管理技術，以及將OpenStack技術整合入Azure平臺。&lt;/p&gt;
-&lt;p&gt;OpenStack為開源基礎架構即服務（IaaS）平臺軟體，提供虛擬化公、私有雲開發及管理工具，下有網路、運算、儲存、身分識別、映像服務、CI等多個專案，包括OpenStack、Kata Containers及Airship等。去年10月維護OpenStack專案的OpenStack基金會&lt;a href=&quot;https://opendev.org/openstack/openstackdocstheme/commit/d3cdb8689b35ccd8c36084a4fc9c6079b0fe1a8a&quot; target=&quot;_blank&quot;&gt;改名為OpenInfra基金會&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;OpenInfra基金會現有成員60多家，微軟本周以白金會員身分加入。微軟表示加入後，將在OpenStack/OpenInfra基金會中反映電信客戶的利益，也將積極貢獻OpenInfra專案，未來並尋求將OpenInstra專案整合到Azure雲端。&lt;/p&gt;
-&lt;p&gt;OpenStack/OpenInfra專案技術可用於公、私混合及電信網路、雲端整合的環境。而這也是近年微軟等雲端產業的主流議題。OpenInfra基金會營運長Mark Collier指出，目前9/10的電信網路以OpenStack為基礎，Kata Containers用於螞蟻金服的全球最大支付網路，Airship則扮演AT&amp;amp;T 4G、5G網路的底層。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/145377&quot; target=&quot;_blank&quot;&gt;微軟今年接收AT&amp;amp;T&lt;/a&gt;電信用網路雲端平臺及工程、服務部門，並積極和AT&amp;amp;T、Verizon等電信業者合作，力圖切入5G相關雲端服務市場。微軟加入OpenInfra，其電信雲平臺Azure for Operators將支援在Kubernetes上部署OpenStack軟體，以便將電信客戶軟體定義網路（SDN）由VNF（virtual network functions）邁向CNF（Container Network Functions）轉型。&lt;/p&gt;
-&lt;p&gt;OpenInfra基金會其他白金會員還包括愛立信、臉書、Red Hat、Wind River、AT&amp;amp;T，以及中國的螞蟻集團（Ant Group）、華為、騰訊、烽火科技（FiberHome）等。&lt;/p&gt;
+ <title>Google資助OSTIF對Git和Laravel等重要開源專案進行安全審查</title>
+ <link>https://www.ithome.com.tw/news/146768</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google在8月的時候，宣布要資助1億美元，給幫助修復開源專案漏洞，並維護專案安全性的第三方基金會，現在Google兌現部分這項承諾，宣布&lt;a href=&quot;https://ostif.org/google-is-partnering-with-open-source-technology-improvement-fund-inc-to-sponsor-security-reviews-of-critical-open-source-software/&quot;&gt;支援開源技術改進基金會（Open Source Technology Improvement Fund，OSTIF）&lt;/a&gt;，來提高包括Git和Laravel在內的8大專案安全性。&lt;/p&gt;
+&lt;p&gt;Google所提供的資源，將使OSTIF能夠提供託管稽核計畫（Managed Audit Program），這項計畫會對重要專案，進行深入的安全性審核，第一輪選出的函式庫、框架和應用程式，都對開源生態系有舉足輕重的地位，這些專案包括Git、Lodash、Laravel、Slf4j、Jackson-core和Jackson-databind以及Httpcomponents-core和Httpcomponents-client。&lt;/p&gt;
+&lt;p&gt;OSTIF官方提到，大型企業願意捐助OSTIF，代表OSTIF進行安全審查和程式碼稽核，來提升開源專案安全的模式是成功的。OSTIF集結經驗豐富的團隊，進行有針對性且大範圍的審查，能夠大幅改進這些被廣泛使用的開源專案安全性，例如OSTIF就對用於保護網站的開源DNS解析器進行安全審查，總共修復了1個嚴重、5個高風險和5個中等風險的漏洞，總共進行了48項的改進，以全面提升其安全性。&lt;/p&gt;
+&lt;p&gt;Google的資助讓OSTIF有能力執行託管稽核計畫，這項計畫會從生態系重要開源專案開始，研究人員經研究列出最初託管稽核計畫25個專案，再經由交叉參照OpenSSF安全計分卡，最後共同確定對8個專案進行安全改進，期望對開源生態系產生深遠的影響。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 08 Sep 2021 04:17:43 +0000</pubDate>
+ <pubDate>Fri, 17 Sep 2021 07:24:59 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146768 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146768#comments</comments>
+</item>
+<item>
+ <title>Google雲端讓用戶能夠簡單備份GKE容器應用程式</title>
+ <link>https://www.ithome.com.tw/news/146767</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;Google推出其Kubernetes服務&lt;a href=&quot;https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke&quot;&gt;GKE備份&lt;/a&gt;的預覽功能，讓用戶以雲端原生的方式，保護、管理以及恢復容器化應用程式與資料，並且更簡單地實現服務等級目標，或是自動執行常見的備份和恢復工作，有利於法遵和稽核。&lt;/p&gt;
+&lt;p&gt;採用GKE建置服務的用戶，不少在GKE容器中部署關聯式資料庫，而Google提到，要在無狀態工作負載上部署有狀態工作負載，有資料保護、儲存管理等額外的需求。因此Google現在發布了GKE備份功能，來滿足用戶在GKE上運作資料庫等工作負載的需要。&lt;/p&gt;
+&lt;p&gt;過去GKE用戶需要將有狀態應用程式的資料，和GKE叢集狀態資料分開備份，有狀態應用程式的資料以儲存系統備份的方式保護，而叢集狀態資料則用戶可能要使用自定義腳本，擷取並儲存在獨立的儲存桶中，而有持續備份需求的用戶，必須要自己開發解決方案執行備份，以符合法規要求。&lt;/p&gt;
+&lt;p&gt;在需要恢復的時候，用戶也必須要進行更複雜的調度，像是儲存管理工作，需要將資料在叢集間移動，而這也代表必須花費額外的時間和人力。Google提到，GKE備份是目前第一個提供簡單備份的Kubernetes服務，藉由調度資料保護和恢復，讓用戶能夠以容器層級管理資料。&lt;/p&gt;
+&lt;p&gt;用戶可以使用GKE備份功能，來創建備份計畫，定期備份應用程式資料和GKE叢集狀態資料，並將備份還原到原本地區的叢集，甚至是不同地區的叢集，用戶也能自定義備份，確保重要資料庫工作負載的一致性。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 17 Sep 2021 07:22:57 +0000</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="false">146767 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146767#comments</comments>
+</item>
+<item>
+ <title>Google Cloud傳工程部門改組，以加速擴大雲端市占率</title>
+ <link>https://www.ithome.com.tw/news/146766</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.cnbc.com/2021/09/15/google-cloud-ceo-thomas-kurian-reorganizes-engineering-eyal-manor-out.html&quot; target=&quot;_blank&quot;&gt;CNBC報導&lt;/a&gt;，Google Cloud近日人事異動，替換工程部門主管，以加速擴大雲端市占率。&lt;/p&gt;
+&lt;p&gt;在CNBC取得Google本周的內部公告信件中，Google Cloud主管Thomas Kurian向員工公布此事。這次人事異動主要在主管Google Cloud工程，以及Anthos等產品的部門主管Eyal Manor將離開現職，由Brad Calder取代。&lt;/p&gt;
+&lt;p&gt;Calder將向Kurian直接報告。Kurian指出，Google Cloud有極大機會擴大市場，而在市場變動時，Google Cloud的產品也需變動，組織則需支持成長。他說新的人事調整，將使這位新主管和Cloud領導階層及Google領導團隊，包括CEO Sundar Pichai互動更密切。&lt;/p&gt;
+&lt;p&gt;Google Cloud官方證實這項消息，指出Google Cloud業務持續增長，本來就會隨時評估最佳的組織結構以推動業務。&lt;/p&gt;
+&lt;p&gt;Google還說明，Calder除了負責Google Cloud產品及工程部門外，也會掌管安全及資料分析業務。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.zdnet.com/article/google-cloud-product-engineering-reorgs-under-calder-holzle-to-focus-on-googles-technical-infrastructure/&quot; target=&quot;_blank&quot;&gt;ZDNet則報導&lt;/a&gt;，原先管理Google Cloud產品所有實際工程工作的Urs Hölzle，則將轉為負責Google整體的技術基礎架構。&lt;/p&gt;
+&lt;p&gt;這次改組反映Google對雲端業務的期待。&lt;a href=&quot;https://www.srgresearch.com/articles/quarterly-cloud-market-leaps-to-42b-amazon-microsoft-google-pocket-63-of-dollars-spent&quot; target=&quot;_blank&quot;&gt;根據市調機構Synergy的資料&lt;/a&gt;，全球雲端市場中，Amazon仍以33%居龍頭，微軟Azure以20%次之。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ithome.com.tw/news/129845&quot; target=&quot;_blank&quot;&gt;Kurian 2018年底接任Google Cloud以來&lt;/a&gt;，其市占已從7%成長為10%，居第三位。&lt;/p&gt;
+&lt;p&gt;不過在要求嚴格的客戶眼中，似乎Google Cloud還需要加油。美國國防部今年7月重新規畫《聯合作戰人員雲端能力》（Joint Warfighter Cloud Capability，JWCC）合約，雖然不像先前爭議的JEDI是獨家合約，但美國國防部仍然&lt;a href=&quot;https://www.ithome.com.tw/news/145492&quot; target=&quot;_blank&quot;&gt;只開放AWS及微軟Azure投標&lt;/a&gt;。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 17 Sep 2021 05:12:22 +0000</pubDate>
  <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146590 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146590#comments</comments>
+ <guid isPermaLink="false">146766 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146766#comments</comments>
 </item>
 <item>
- <title>Windows RCE漏洞已有鎖定Office用戶的攻擊，微軟緊急提供緩解指示</title>
- <link>https://www.ithome.com.tw/news/146584</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444&quot; target=&quot;_blank&quot;&gt;微軟周二緊急公告&lt;/a&gt;Windows中一個遠端程式碼執行（RCE）漏洞已經有攻擊活動，Office用戶可能因開啟惡意文件中標。由於目前尚無修補程式，微軟緊急提供緩解方法。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;a href=&quot;http://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/0908-CVE-2021-40444-600-1.png&quot; style=&quot;width: 550px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;編號CVE-2021-40444的漏洞，位於Windows內微軟瀏覽器引擎MSHTML，它用於早期微軟瀏覽器如IE（internet explorer）或舊版Edge，但也用於微軟Office中。攻擊者可撰寫內含惡意ActiveX控制的Office文件，由Office程式開啟來觸發。攻擊者必須誘使用戶開啟Office文件，但一旦成功，就可能在用戶電腦上執行任意程式碼，甚至接管整臺系統。&lt;/p&gt;
-&lt;p&gt;CVE-2021-40444風險值達8.8。本漏洞並非權限升級類型，因此低權限用戶安全風險會小於管理員帳號用戶。&lt;/p&gt;
-&lt;p&gt;這項漏洞分別由EXPMON研究人員Haifei Li、Mandiant研究人員 Dhanesh Kizhakkinan、Bryce Abdo及Genwei Jiang ，以及微軟安全情報中心研究人員Rick Cole發現。&lt;/p&gt;
-&lt;p&gt;網路上已經有針對本漏洞的攻擊活動。&lt;a href=&quot;https://twitter.com/EXPMON_/status/1435309115883020296&quot; target=&quot;_blank&quot;&gt;EXPMON偵測到鎖定Office用戶的進階零時差攻擊&lt;/a&gt;，該公司已在目前最常見的Windows 10版Office 2019及365產品上複製出攻擊。&lt;/p&gt;
-&lt;p&gt;微軟表示細節仍在調查中，意謂著尚未有修補程式。目前已知受影響的Windows版本包括Windows 7、8.1、Windows 10（涵括1607、1809到20H2）、Server 2008、2012、2016。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.bleepingcomputer.com/news/security/microsoft-shares-temp-fix-for-ongoing-office-365-zero-day-attacks/&quot; target=&quot;_blank&quot;&gt;BleepingComputer引述EXPMON研究人員Haifei Li指出&lt;/a&gt;，攻擊者傳送的是.docx檔，用戶開啟後，Word即載入瀏覽器引擎、開啟攻擊者控制的遠端惡意網頁，同時啟用ActiveX控制下載惡意Cpl檔。&lt;/p&gt;
-&lt;p&gt;但微軟指出，Office預設開啟來自網路上的文件時，都會啟用「保護模式」或沙箱保護Application Guard for Office，兩者都能防範攻擊。但如果用戶關閉保護模式來啟用文件就會受害。&lt;/p&gt;
-&lt;p&gt;此外，微軟的Defender Antivirus及Defender for Endpoint也可偵測到。升級到1.349.22.0以後定義檔的Defender for Endpoint，會顯示「可疑的Cpl檔案執行」警告。&lt;/p&gt;
-&lt;p&gt;關閉IE環境下安裝ActiveX可減緩攻擊。使用者可經由登錄編輯程式變更登錄檔以關閉ActiveX。但微軟也警告，執行不正確不但無法排除風險，還可能引發嚴重問題，而導致電腦必須重灌Windows。&lt;/p&gt;
-&lt;p&gt;微軟、&lt;a href=&quot;https://us-cert.cisa.gov/ncas/current-activity/2021/09/07/microsoft-releases-mitigations-and-workarounds-cve-2021-40444&quot; target=&quot;_blank&quot;&gt;CISA&lt;/a&gt;及研究人員呼籲，一般使用者不要開啟來路不明的Office文件。&lt;/p&gt;
+ <title>德國反防疫組織Querdenken遭臉書移除</title>
+ <link>https://www.ithome.com.tw/news/146765</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://about.fb.com/news/2021/09/removing-new-types-of-harmful-networks/&quot; target=&quot;_blank&quot;&gt;臉書在16日宣布&lt;/a&gt;，已於臉書及Instagram平臺上移除德國反防疫組織Querdenken的帳號、粉絲頁與社團，理由是它們持續違反了臉書的社群標準，包括張貼有害的錯誤健康資訊、仇恨言論與煽動暴力。&lt;/p&gt;
+&lt;p&gt;臉書安全政策負責人Nathaniel Gleicher表示，該團隊一直在尋找及阻止那些可能會傷害用戶的惡意活動，從隱蔽的協作影響力活動、間諜活動、詐騙活動，或是專門發送垃圾訊息的活動，通常這些活動都是透過假帳號進行。然而，他們也發現，有些真實的帳號也參與了這些有害的行為，模糊了真帳號及假帳號之間的界線，於是決定也將針對這些帳號採取行動，首波案例之一就是Querdenken組織。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.dw.com/en/meet-germanys-querdenker-covid-protest-movement/a-57049985&quot; target=&quot;_blank&quot;&gt;根據《德國之聲》的報導&lt;/a&gt;，Querdenken的組成份子包括疫情懷疑論者、反疫苗者，以及反封鎖者，該組織認為德國政府為了對抗COVID-19疫情所採取的種種防疫措施，侵犯了人民的自由；此外，雖然Querdenken的遊行抗議活動看起來像是和平的運動，卻經常以暴力收場。&lt;/p&gt;
+&lt;p&gt;至於臉書則將Querdenken組織在該平臺上的活動，歸類為協作社會危害（Coordinated Social Harm），認為此一由真實帳號組成的網路，系統性地違反該平臺的政策，因而決定移除該組織在臉書與Instagram的帳號、粉絲頁與社團，也禁止該組織於臉書平臺上分享它們的網域。&lt;/p&gt;
+&lt;p&gt;Gleicher解釋，Querdenken組織的成員以真實或是重複的帳號，持續張貼及放大違反政策的內容，主要是陰謀論的宣傳，包括宣稱德國政府的防疫政策只是剝奪民眾自由與基本權利之更大計畫的其中一環，在示威活動中也經常以暴力對待記者、警察或醫護人員。&lt;/p&gt;
+&lt;p&gt;總之，臉書認為Querdenken組織違反該平臺對有害健康不實資訊、煽動暴力、霸凌、騷擾及仇恨言論的規定，雖然沒有全面封鎖Querdenken的內容，但會持續觀察，以決定是否採取進一步的行動。&lt;/p&gt;
  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 08 Sep 2021 02:55:19 +0000</pubDate>
+ <pubDate>Fri, 17 Sep 2021 05:00:15 +0000</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="false">146765 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146765#comments</comments>
+</item>
+<item>
+ <title>微軟：Windows MSHTML漏洞已有勒索軟體開採</title>
+ <link>https://www.ithome.com.tw/news/146764</link>
+ <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在&lt;a href=&quot;https://www.ithome.com.tw/news/146584&quot; target=&quot;_blank&quot;&gt;Windows MSHTML漏洞揭露有攻擊活動&lt;/a&gt;一個星期後，微軟昨（16）日指出，有跡象顯示歹徒正在利用這項漏洞，發動勒索軟體攻擊。&lt;/p&gt;
+&lt;p&gt;微軟於9月7日公布編號CVE-2021-40444的Windows重大漏洞，警告已有開採活動，同時提供關閉Active X控制項的緩解指示。隨後&lt;a href=&quot;https://www.ithome.com.tw/news/146733&quot; target=&quot;_blank&quot;&gt;在本周二Patch Tuesday釋出安全更新解決這項漏洞&lt;/a&gt;後，微軟威脅情報中心終於在昨天提供詳細分析。&lt;/p&gt;
+&lt;p&gt;8月份微軟偵測到數個（10個以下）攻擊行動，已經利用惡意Office文件，開採MSHTML引擎中的CVE-2021-40444遠端程式碼執行漏洞，散布特製Cobalt Strike Beacon下載器（loader）。微軟相信，這是駭客行動中早期存取的一部分，透過駭入受害者電腦，以便執行後續行動。&lt;/p&gt;
+&lt;p&gt;攻擊者藉由傳送惡意Office文件誘使用戶開啟，而Office應用程式中的MSHTML/Trident網頁引擎會開啟攻擊者控制的惡意網頁。網頁中的Active X控制項會下載惡意程式到用戶電腦。&lt;/p&gt;
+&lt;p&gt;微軟指出，這些下載器或Beacon連接的網路基礎架構和多個犯罪活動有關，包括一個人為操作的勒索軟體。微軟推測這個是一個犯罪服務（C&amp;amp;C infrastructure as a service），可用於散布Conti勒索軟體。此外，另一些下載器則用以散布殭屍網路程式TrickBot或木馬程式BazaLoader，微軟判斷它和安全廠商Mandiant稱之為UNC 1878或Wizard Spider（Trickbot製作者）有關。微軟判斷利用Cobalt Strike Beacon形成的網路至少有3波不同攻擊行動，其中至少一間企業前後遭到2波不同攻擊。&lt;/p&gt;
+&lt;p&gt;而在微軟9月7日公布CVE-2021-40444安全公告後，當時便有安全研究人員觀察到，陸續有概念驗證（PoC）攻擊工具公布於網路上。&lt;a href=&quot;https://www.ithome.com.tw/news/146650&quot; target=&quot;_blank&quot;&gt;CC/CERT研究員Will Dormann還發現&lt;/a&gt;某個PoC工具經過修改，也能在關閉Active X的裝置上執行程式。&lt;/p&gt;
+&lt;p&gt;微軟指出，他們觀察到在24小時內，多個駭客組織，包括勒索軟體即服務（ransomware as a service）網路已經將公開的PoC程式碼加入其工具組中。&lt;/p&gt;
+&lt;p&gt;微軟證實，關閉Office應用程式執行子行程（child process），可防堵開採CVE-2021-40444。&lt;/p&gt;
+&lt;p&gt;但是微軟還是呼籲使用者安裝9月分的Patch Tuesday安全更新，以防止攻擊者後續行動，也建議用戶執行最新版作業系統（最好是Windows 10），並開啟自動更新功能，以獲取最新版安全修補程式。其他建議包括啟動防毒、端點防護，並且使用裝置管理產品以發現內部網路中未列管的裝置等。&lt;/p&gt;
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 17 Sep 2021 04:38:14 +0000</pubDate>
  <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="false">146584 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146584#comments</comments>
-</item>
-<item>
- <title>因應橫跨25國業務拓展需求，宏碁歐洲總部搬遷3大核心系統上公有雲，目標取代兩座歐洲自有資料中心</title>
- <link>https://www.ithome.com.tw/news/146579</link>
- <description>&lt;div class=&quot;field field-name-field-news-column-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E6%96%B0%E8%81%9E&quot;&gt;新聞&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;業務橫跨歐洲、中東及非洲的宏碁泛歐營運總部，2019年時評估自身資訊基礎建設，已無法滿足業務發展需要，因而決定調整IT投資策略，大力擁抱雲端，不只搬遷了3套核心交易系統上公有雲，還大動作導入2套SaaS服務，來簡化IT維運工作，以及借助雲端資源的擴充性，消化交易負載高峰的流量。&lt;/p&gt;
-&lt;p&gt;近日，宏碁對外分享當時決定上雲決策關鍵，以及2年來，他們如何一步步搬遷各項系統上雲，擴大採用雲端服務，希望有一天能取代自家兩座歐洲資料中心。&lt;/p&gt;
-&lt;p&gt;宏碁泛歐營運總部原先採自建機房的方式，於瑞士和義大利兩國都設有自有資料中心，來支援歐洲、中東和非洲（簡稱EMEA）市場各項業務的系統和服務。2019年時，因應業務發展，宏碁希望增加資訊系統的彈性，改善安全監控的能力和資料備份的效率，然而，若要升級自有資料中心來提升整體IT服務的速度，考驗重重。&lt;/p&gt;
-&lt;p&gt;宏碁泛歐營運總部資訊長暨財務長石太基，點出EMEA營運總部擁抱雲端技術的3大考量。 首先是網路連線的考量，EMEA營運總部業務橫跨25國，原先依靠著專屬網路，連結逾35處辦公室與資料中心，再連結網際網路。石太基表示，各個國家的資訊基礎建設成熟度不同，傳統專屬網路連線速度無法配合宏碁業務的新需求。&lt;/p&gt;
-&lt;p&gt;其次，瑞士和義大利這兩座資料中心的基礎設備，已逼近使用年限，所用的作業系統也相當老舊。要持續使用，石太基表示，需升級整體系統和設備，然而升級成本昂貴。考量需投入龐大資源翻新資料中心，才能滿足業務發展需求，成為促使宏碁決定大規模上雲的關鍵理由。&lt;/p&gt;
-&lt;p&gt;另外，宏碁在歐洲招募IT人才困難重重。石太基表示，相比亞洲、美國，特別是臺灣，不管是企業一直將資通訊領域列為主要投資項目，或是政府持續從教育面培養資通訊人才，歐洲因產業發展特性，缺乏資通人才，他進一步道，近年歐洲各國才調整政策，積極進行數位轉型，導致人才競爭非常激烈。因此，宏碁評估需採用新技術和基礎架構之後，才能吸引人才。&lt;/p&gt;
-&lt;p&gt;宏碁泛歐資訊團隊的上雲計畫，不只要改變IT基礎架構，也得調整系統涵蓋範圍，更要協助使用者採用新技術。石太基表示，這項計畫具前瞻性，但也有風險，需獲得管理層的支持。&lt;/p&gt;
-&lt;p&gt;因此，他帶著資訊團隊花了5周，預演整體雲端轉型計畫的內容，舉行了一場4小時的研討會，向管理層詳細說明計畫，以及可能需投入的技術導入金額，最終，獲得高層一致同意，正式展開上雲之路。石太基表示：「溝通才有信任，有信任才有推動下一次改變的機會。」&lt;/p&gt;
-&lt;p&gt;過去24個月，宏碁泛歐總部資訊團隊已將3 套核心交易系統，搬遷上公有雲，其中包含負責EMEA市場電商業務的交易平臺，以及用來管理EMEA市場供應鏈、顧客、訂單的ERP系統。除此之外，資訊團隊還導入兩套SaaS服務，一套是用於處理電商業務後端作業的平臺，另一套則是支援IT維運人員協作的平臺，供散落35個辦公室的IT人員，可共同合作以即時回應使用者需求。&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;搬遷已運作逾20年ERP系統上雲，資訊團隊遭遇兩大挑戰&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;宏碁泛歐營運總部ERP系統上雲過程中，宏碁集團系統及雲端管理經理Pietro Rossi表示，團隊遭遇了兩大挑戰。首先是基礎架構一致性的挑戰，搬遷工程進入概念驗證階段後，發現必須大量修改基礎架構，整個上雲工程總計超過700項基礎架構設計的更改。Pietro Rossi表示，每次更改若以手動方式進行，都會面臨錯誤發生的可能性。&lt;/p&gt;
-&lt;p&gt;後來，資訊團隊用自動化處理工具AWS Cloud Formation，推動基礎架構即程式碼（IaC），提高基礎架構的一致性，降低錯誤率，同時，通過該雲端工具，取得歷史修改日誌記錄，以建立與生產環境相符的測試環境。&lt;/p&gt;
-&lt;p&gt;除了面對基礎架構一致性的考驗，資訊團隊在重構應用程式的過程中，更遭遇無法擷取程式碼的挑戰。因舊有ERP系統運作超過20年，應用系統缺少了不少特定的檔案或日誌記錄，甚至不少程式碼中直接寫死處理伺服器主機名稱，然而，資訊團隊希望不再參考本地端既有系統，避免因本地端的後端伺服器關閉後，無法執行參考。&lt;/p&gt;
-&lt;p&gt;所以，團隊利用DNS網路服務Route 53解析程式日誌，追蹤所有連結本地端系統的DNS連線，來進行驗證，判斷連線請求是實際要處理的請求，或者只是對傳統伺服器的參考呼叫。Pietro Rossi表示，一旦確認連線是對傳統伺服器的參考呼叫，便會更改應用程式內的硬編碼主機名稱，透過重構應用程式堆疊，來解決問題。&lt;/p&gt;
-&lt;p&gt;搬遷ERP系統上雲後，宏碁資訊團隊的維運工作量大幅減少，也能夠借助雲端擴充性來提升負載高峰期間的工作效能。為了降低上雲的費用，Pietro Rossi說明，夜間還會停用ERP系統。根據宏碁內部統計，整體ERP雲端系統基礎架構成本，約為應用程式總收入的0.015%。&lt;/p&gt;
-&lt;p&gt;石太基則提到，原先IT每逢黑色星期五等大型促銷活動時，都會面臨資源規畫的考驗，如今，電商交易平臺搬上公有雲後，借助雲端服務可彈性擴充的特性，系統能有效地處理負載峰值。2019年，系統正式上雲後，便順利承載當年緊接而來黑色星期五的整體流量。&lt;/p&gt;
-&lt;p&gt;此外，相比於本地端環境作業，資訊人員現於雲端環境部署新程式、更新系統或是備份資料，都明顯快很多。石太基表示，原先需要1到2周安排，如今，縮短至最快3小時內，就可以完成作業，「整體程序效率的提升，非常明顯。」&lt;/p&gt;
-&lt;p&gt;擁抱新技術的道路上，如何持續追蹤技術投資內容，石太基強調，企業須建立符合自身發展的科技架構藍圖，持續檢視資訊科技投資的內容，以確保技術與業務發展方向吻合，才能持續創造公司及品牌的價值。文⊙黃郁芸&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Wed, 08 Sep 2021 02:28:10 +0000</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="false">146579 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/news/146579#comments</comments>
-</item>
-<item>
- <title>2022 Intel運算架構大公開！</title>
- <link>https://www.ithome.com.tw/article/146528</link>
- <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1041-feng_mian_gu_shi_-open-zong_han_-960x420_kao_bei_.png?itok=y2fhA2AS&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-featured-article-category field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/75&quot;&gt;專題故事&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;不讓Nvidia專美於前，處理器大廠英特爾在資料中心領域，除了發展多年的伺服器CPU，也將陸續推出適用於此類應用的GPU與IPU應戰，而在今年8月底，他們打破多年以來的慣例，搶先公布了這些運算平臺即將採用的新架構細節。&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 23:00:00 +0000</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="false">146528 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/article/146528#comments</comments>
-</item>
-<item>
- <title>2022英特爾基礎設施處理器：Mount Evans</title>
- <link>https://www.ithome.com.tw/tech/146525</link>
- <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img src=&quot;https://s4.itho.me/sites/default/files/ipu-1-intel-architecture-day-2021-4-sundar.jpg&quot; width=&quot;960&quot; height=&quot;420&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-photo-source field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;英特爾&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt; &lt;p&gt;在資料中心運算平臺當中，中央處理器（CPU）的發展與應用時間最久，這幾年以來，隨著人工智慧／機器學習、高效能運算（HPC）的當紅，繪圖處理器（GPU）也浮上檯面，成為炙手可熱的企業IT重要產品，並大量用於多種協同加速運算的應用場景之中。&lt;/p&gt;
-&lt;p&gt;而在這一兩年來，由於雲端服務引發軟體定義網路的風潮，網路功能虛擬化（NFV）、虛擬網路功能（VNF）等技術應用，相繼浮上檯面，再加上後續有次世代無線寬頻網路5G崛起，帶動了虛擬無線接取網路（vRAN）的技術發展，使得原本只能在高效能運算領域打轉的SmartNIC、資料中心等級的FPGA加速卡產品，也開始廣泛受到各界重視。值此同時，還有人工智慧、機器學習的應用風潮持續發酵，各種創新產品相繼問世，於是，市面上，也出現幾種種融合式微型運算周邊裝置，例如，結合處理器與固態硬碟的運算型儲存裝置（Computational Storage Drive），像是NGD、三星與賽靈思等公司，都陸續推出這類產品。&lt;/p&gt;
-&lt;p&gt;到了2020年5月，Nvidia在自家的GPU技術大會，基於先前併購Mellanox納入的SmartNIC技術與產品，正式提出資料處理器（DPU）的概念，並將其與CPU、GPU並列，成為資料中心等級加速運算主要支柱，自此這類模糊／融合／顛覆既有運算型態的新型解決方案，拉抬至前所未有的市場高度。&lt;/p&gt;
-&lt;p&gt;相較之下，英特爾因為在2015年併購Altera公司的關係，而開始拓展FPGA技術與解決方案，這幾年針對資料中心、雲端服務與電信業數位轉型需求，陸續推出FPGA加速卡、SmartNIC，2018年併購eASIC，各界也在期待英特爾會如何跨入ASIC應用，以及能否針對這部份市場推出相關產品。&lt;/p&gt;
-&lt;p&gt;而這個答案可能會在不久之後揭曉，因為，在今年8月的英特爾架構日，他們宣布將推出基於ASIC架構的產品，研發代號為Mount Evans，而且，在解決方案的類型上，正屬於他們在6月開始主推的新型態產品：基礎設施處理器（Infrastructure Processing Unit，IPU），而IPU在概念與用途上，的確與前面提到的DPU、SmartNIC高度重疊，因為在該公司目前的基礎設施加速產品藍圖當中，除了ASIC架構的 IPU，也包含搭配FPGA的IPU與SmartNIC──英特爾也趁著年度架構日的舉辦，公布兩款IPU相關產品，研發代號分別是Oak Springs Canyon、Arrow Creek。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/IPU-1-Intel-Architecture-Day-2021-4-Sundar-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.JPG&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;第一款ASIC架構IPU首度公開&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;2021年英特爾開始主推基礎設施處理器（IPU），除了既有搭配FPGA的SmartNIC產品，他們也將推出ASIC架構IPU，研發代號Mount Evans，該公司的乙太網路平臺事業群主任工程師暨首席架構師，也在今年英特爾架構日首次公開這款晶片的廬山真面目，以及技術架構概要。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;首款ASIC IPU，整合英特爾自行發展與併購的多家廠商技術&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;關於Mount Evans的開發，英特爾資料平臺事業群技術長Guido Appen表示，是與大型雲端服務供應商一起合作，這款產品的首席架構師Naru Sunder也說，他們從這些業者的實務服務維運上，學習到不少經驗，而這些將會反映在Mount Evans架構設計的取捨上，他強調，這是基於實際工作負載的大規模效能擴充需求，所設計出來的產品，而在能充分因應超大規模執行的就緒狀態下（Hyperscale-ready），他們也針對安全與隔離的功能需求，從底層架構重新設計出整張晶片。&lt;/p&gt;
-&lt;p&gt;在技術創新上，Mount Evans的首要特色是可程式化封包處理引擎，英特爾自詡為業界最佳的技術，可支援多種現行的應用案例，像是虛擬交換器（vSwitch）的卸載，以及虛擬防火牆、虛擬路由器，而且，在發展上，他們表示，有足夠的空間，支援各種未來的應用需求。&lt;/p&gt;
-&lt;p&gt;第二個特色是從Optane固態儲存技術所延伸的技術──NVMe儲存控制器，英特爾實作了硬體加速NVMe儲存介面，使得Mount Evans能夠以此來模擬NVMe裝置。&lt;/p&gt;
-&lt;p&gt;第三是提供新一代的高可靠度傳輸（Reliable Transport）協定，這是與雲端服務供應商合作的成果，能在高度耗損的網路環境中，協助業者與用戶解決「長尾（Long tail）」的延遲性問題。&lt;/p&gt;
-&lt;p&gt;第四種特色則是提供進階的加密與壓縮加速器，可廣泛適用於多種場景，而在這當中，Mount Evans也運用英特爾長期發展的QAT技術（Quick Assist Technology）。&lt;/p&gt;
-&lt;p&gt;除了硬體的強化與最佳化，軟體環境的生態系與支援，對於ASIC IPU能否應用於更多場域，也至關重要。英特爾在此引入2019年併購Barefoot Networks之後的收穫，也就是P4程式語言在IT產業的運用，而在IPU當中，他們將會針對IPU用於可程式化網路的資料層（Data Plane）處理，提供標準應用框架。&lt;/p&gt;
-&lt;p&gt;由於英特爾也在此提到源於Barefoot的可程式化網路軟體開發工具P4 Studio，顯然他們將在此提升IPU的軟體支援。&lt;/p&gt;
-&lt;p&gt;同時，為了善用與發揮IPU的功能特色，英特爾也將延伸既有的基礎設施軟體開發套件，像是DPDK、SPDK。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/IPU-3-Iintel%20IPU%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;&lt;strong&gt;英特爾的IPU產品版圖&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105);&quot;&gt;&lt;strong&gt;目前英特爾擁有多種運算與網路技術，因此，無論是早先的SmartNIC，或是最新推出的IPU，這幾年以來，都因不同的搭配方式而發展出多種產品，依據今年英特爾架構日公布的IPU資料來看，大致上可分為純ASIC、Xeon處理器搭配FPGA晶片、FPGA晶片搭配英特爾網路晶片等三種類型，英特爾也預告，將來可能會推出整合ASIC與FPGA的產品。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:28px;&quot;&gt;&lt;strong&gt;區分成兩大單元：運算複合體與網路子系統&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;關於Mount Evans晶片的硬體設計架構，英特爾架構日也首度對外公開整體配置。基本上，這款產品可區分成：運算複合體（Compute），以及網路子系統（Network Subsystem），而其中，又以後者最受矚目，因當中結合的技術較為多元、複雜。&lt;/p&gt;
-&lt;p&gt;在網路子系統的部分，英特爾首先強調的技術特色，是200Gb/s網路全雙工連線能力，而且，可同時支援4臺Xeon伺服器存取；其次是RDMA類型存取協定的使用，Mount Evans支援資料中心日益普及的ROCEv2，以及上述的高可靠度傳輸技術。&lt;/p&gt;
-&lt;p&gt;第三是源於Optane固態儲存技術的NVMe引擎，能將高效能的NVMe儲存裝置直接「暴露」給伺服器的處理器存取（意思應是指處理器可直接存取NVMe固態硬碟）。&lt;/p&gt;
-&lt;p&gt;而這項特色能讓基礎設施供應商（雲端服務業者、資料中心管理者）去實作他們想要使用的儲存協定，無論其面對的是硬體加速NVMe over Fabrics，或自行開發的軟體化後端（應指軟體定義）運算系統，均可因此獲益。&lt;/p&gt;
-&lt;p&gt;接著是內建可程式化封包處理器，可執行前述的虛擬交換器卸載、虛擬防火牆、遙測功能，而在真實世界的處理效能上，英特爾表示，可達到每秒2億個封包的規模。&lt;/p&gt;
-&lt;p&gt;最後則是提供線上IPsec加密處理能力，可防護網路傳送的每一個封包。&lt;/p&gt;
-&lt;p&gt;而在運算複合體的部分，英特爾Mount Evans採用的處理器，是Arm的Neoverse N1平臺，當中搭配16顆高時脈核心，以及大容量的系統層級快取，同時，還設置了3個LPDDR4記憶體控制器（可實現3個記憶體通道）。&lt;/p&gt;
-&lt;p&gt;值得注意的是，網路子系統的加速器能運用運算複合體的系統層級快取，作為最末一階的快取，為Mount Evans的兩個主要單元提供大頻寬、低延遲的連接方式，從而促成彈性的硬體與軟體封包處理方式。&lt;/p&gt;
-&lt;p&gt;不僅如此，運算複合體本身內含後備型（lookaside）加密與壓縮引擎，亦即上述Mount Evans支援的QAT技術，目前可支援Zstandard壓縮演算法的處理。&lt;/p&gt;
-&lt;p&gt;最終，運算複合體也配置了雙核心的管理處理器，可針對平臺與調度指揮層提供存取介面，以便支援各種系統管理的要求。&lt;/p&gt;
-&lt;p class=&quot;rtecenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://s4.itho.me/sites/default/files/images/IPU-2-Mount%20Evans%20diag%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%EF%BC%8F%E8%8B%B1%E7%89%B9%E7%88%BE.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#3399ff;&quot;&gt;&lt;strong&gt;Mount Evans的技術組成&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color:#696969;&quot;&gt;&lt;strong&gt;類似當前的DPU、SmartNIC產品，英特爾Mount Evans同樣包含運算、網路等兩大技術單元，其中運算的部分，包含16顆Arm Neoverse N1核心、英特爾QAT技術，以及用於平臺管理的處理器，網路的部分，則內建封包處理引擎、NVMe、200GbE網路、RDMA等技術。&lt;/strong&gt;圖片來源／英特爾&lt;/span&gt;&lt;/p&gt;
- &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/%E5%B0%81%E9%9D%A2%E6%95%85%E4%BA%8B&quot;&gt;封面故事&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E8%8B%B1%E7%89%B9%E7%88%BE&quot;&gt;英特爾&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/mount-evans&quot;&gt;Mount Evans&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/%E5%9F%BA%E7%A4%8E%E8%A8%AD%E6%96%BD%E8%99%95%E7%90%86%E5%99%A8&quot;&gt;基礎設施處理器&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/asic&quot;&gt;ASIC&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/ipu&quot;&gt;IPU&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
- <pubDate>Tue, 07 Sep 2021 23:00:00 +0000</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="false">146525 at https://www.ithome.com.tw</guid>
- <comments>https://www.ithome.com.tw/tech/146525#comments</comments>
+ <guid isPermaLink="false">146764 at https://www.ithome.com.tw</guid>
+ <comments>https://www.ithome.com.tw/news/146764#comments</comments>
 </item>
 </channel>
 </rss>

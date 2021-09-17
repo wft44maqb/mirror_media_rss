@@ -4,13 +4,29 @@
     <title><![CDATA[Amazon Web Services Service Status]]></title>
     <link>http://status.aws.amazon.com/</link>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Sep 2021 00:05:39 PDT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Sep 2021 05:29:39 PDT</lastBuildDate>
     <generator>AWS Service Health Dashboard RSS Generator</generator>
     <description><![CDATA[Amazon Web Services Service Status]]></description>
     <ttl>5</ttl>
     <!-- You seem to care about knowing about your events, why not check out https://docs.aws.amazon.com/health/latest/ug/getting-started-api.html -->
 
 	 
+	 <item>
+	  <title><![CDATA[Service is operating normally: [RESOLVED] API错误率的上升 | API的錯誤率上升 | Increased API error rates]]></title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Fri, 10 Sep 2021 07:30:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#ec2-ap-east-1_1631284200</guid>
+	  <description><![CDATA[在 20:23 至 21:56 (UTC+8) 之间，我们在 AP-EAST-1 区域遇到了 API 和新实例启动错误率增加的情况。发生原因是子系统中的少数主机无法处理 API 请求。 在多数情况下，重试调用 API 之后可成功执行。 目前问题已解决，服务已恢复正常运行。| 在 20:23 至 21:56 (UTC+8) 之間，我們在 AP-EAST-1 區域遇到了 API 和新實例啟動錯誤率增加的情況。發生原因是子系統中的少數主機無法處理 API 請求。 在多數情況下，重試調用 API 之後可成功執行。 目前問題已解決，服務已恢復正常運行。| Between 5:23 AM and 6:56 AM PDT we experienced increased error rates for APIs and new instance launches in the AP-EAST-1 Region. The root cause was a small number of hosts in a subsystem that failed to process API requests. Retries of API calls would have succeeded in many cases. The issue has been resolved and the service is operating normally.]]></description>
+	 </item>
+         
+	 <item>
+	  <title><![CDATA[Informational message: [RESOLVED] API错误率的上升 | API的錯誤率上升 | Increased API error rates]]></title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Fri, 10 Sep 2021 06:39:00 PDT</pubDate>
+	  <guid isPermaLink="false">http://status.aws.amazon.com/#ec2-ap-east-1_1631281140</guid>
+	  <description><![CDATA[我们正在调查AP-EAST-1地区EC2 API错误率的上升，若有新的进展时会立即更新。| 我們正在調查AP-EAST-1地區EC2 API的錯誤率上升，若有新的進展時會立即更新。| We are investigating increased EC2 API error rates in the AP-EAST-1 Region. We will provide more information as it becomes available.]]></description>
+	 </item>
+         
 	 <item>
 	  <title><![CDATA[Service is operating normally: [RESOLVED] ネットワーク接続性 | Network Connectivity]]></title>
 	  <link>http://status.aws.amazon.com/</link>
@@ -114,22 +130,6 @@
 	  <pubDate>Tue, 31 Aug 2021 16:02:41 PDT</pubDate>
 	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630450961</guid>
 	  <description><![CDATA[We have resolved the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region. Beginning at 10:58 AM PDT, we experienced network connectivity issues for Network Load Balancer, NAT Gateway and PrivateLink endpoints within the US-WEST-2 Region. At 2:45 PM, some Network Load Balancers, NAT Gateways and PrivateLink endpoints began to see recovery and by 3:35 PM, all affected Network Load Balancers, NAT Gateways and PrivateLink endpoints had fully recovered. The issue has been resolved and the service is operating normally.]]></description>
-	 </item>
-         
-	 <item>
-	  <title><![CDATA[Service degradation: [RESOLVED] Connectivity Issues]]></title>
-	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 31 Aug 2021 15:22:37 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630448557</guid>
-	  <description><![CDATA[We are beginning to see signs of recovery, and continue to work toward full resolution. ]]></description>
-	 </item>
-         
-	 <item>
-	  <title><![CDATA[Service degradation: [RESOLVED] Connectivity Issues]]></title>
-	  <link>http://status.aws.amazon.com/</link>
-	  <pubDate>Tue, 31 Aug 2021 14:24:00 PDT</pubDate>
-	  <guid isPermaLink="false">http://status.aws.amazon.com/#elb-us-west-2_1630445040</guid>
-	  <description><![CDATA[We have identified the root cause of the issue affecting network connectivity within a single Availability Zone (usw2-az2) in the US-WEST-2 Region and are actively working on mitigation. A component within the subsystem responsible for the processing of network packets for Network Load Balancer, NAT Gateway and PrivateLink services became impaired and was no longer processing health checks successfully. This resulted in other components no longer accepting new connection requests, as well as elevated packet loss for Network Load Balancer, NAT Gateway and PrivateLink endpoints. For immediate mitigation for NLB, customers should (1) disable ‘cross zone load balancing’ on Network Load Balancer, and then (2) deregister any targets that are in usw2-az2. For NAT Gateway/PrivateLink, you may modify your route tables to direct traffic to NAT Gateways in other Availability Zones or you may disable PrivateLink endpoints in usw2-az2. ]]></description>
 	 </item>
         
   </channel>

@@ -7,15 +7,488 @@
 	<title type="text">財團法人台灣網路資訊中心部落格 | TWNIC Blog</title>
 	<subtitle type="text">悠遊寰宇、在地識別</subtitle>
 
-	<updated>2021-09-07T09:04:20Z</updated>
+	<updated>2021-09-15T00:01:00Z</updated>
 
 	<link rel="alternate" type="text/html" href="https://blog.twnic.tw" />
 	<id>https://blog.twnic.tw/feed/atom/</id>
 	<link rel="self" type="application/atom+xml" href="https://blog.twnic.tw/feed/atom/" />
 
-	<generator uri="https://wordpress.org/" version="5.8">WordPress</generator>
+	<generator uri="https://wordpress.org/" version="5.8.1">WordPress</generator>
 <icon>https://blog.twnic.tw/wp-content/uploads/2020/04/cropped-favicon-2-32x32.png</icon>
 	<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[APNIC文摘— 個人意見：內容傳遞網路和網路集中化]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/17/20058/" />
+
+		<id>https://blog.twnic.tw/?p=20058</id>
+		<updated>2021-09-15T00:00:55Z</updated>
+		<published>2021-09-17T01:28:59Z</published>
+		<category scheme="https://blog.twnic.tw" term="發展" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="APNIC" /><category scheme="https://blog.twnic.tw" term="CDN" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="143" src="https://blog.twnic.tw/wp-content/uploads/2021/09/21211-300x143.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>我們正在目睹網際網路的許多層面從多元、活躍、高度競爭，逐漸變得高度集中，甚至邁向寡占或獨佔的局面。高度集中化衍生高度的互相依賴，後果是任一環節出錯，都不再只是為一小撮人帶來些微不便，而將引發殃及多人的大型事故。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/17/20058/">APNIC文摘— 個人意見：內容傳遞網路和網路集中化</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/17/20058/"><![CDATA[<img width="300" height="143" src="https://blog.twnic.tw/wp-content/uploads/2021/09/21211-300x143.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">本APNIC文摘原標題為</span><a href="https://blog.apnic.net/2021/07/02/opinion-cdns-and-centrality/"><span style="font-weight: 400;">Opinion: CDNs and centrality</span></a><span style="font-weight: 400;">，由Geoff Huston撰文。</span></p>
+<p><span style="font-weight: 400;">今年6月17日又有一波大規模網路斷線事件，受害者包括數家澳洲和紐西蘭大型銀行、澳洲郵政、香港股市和全球多家航空。根據事後統計，約500家企業的網站都遭波及，網站因此斷線長達4小時。</span></p>
+<p><span style="font-weight: 400;">這500家企業有什麼共通點，導致他們成為此意外的共同受災戶？答案是：他們都是Akamai的客戶。更精確的說，他們都使用Akamai的Prolexic分散式阻斷服務攻擊（Distributed Denial of Service，DDoS）防護系統。</span></p>
+<p><span style="font-weight: 400;">Akamai的事後聲明解釋，此防護系統非預期停擺的原因，是系統使用的某個路由表數值意外超標。</span></p>
+<p><span style="font-weight: 400;">研發人員在網路路由裝置設計上的永恆課題，就是如何在產品CP值和產品壽命之間取得最佳平衡，而網際網路的成長速度也是重點考量之一。網路持續擴張，維運人員為了跟上變化，也必須定期更新升級裝置。在這永不間斷的競逐長征中，人類總是難免失足。Akamai的事件即為一例。</span></p>
+<p><span style="font-weight: 400;">當然，這問題並非Akamai所獨有。所有網路服務供應業者都希望提供最佳服務品質、最好的價格，同時又永遠超前網路的擴張速度。但就如前所說，馬有失蹄，人有失足，系統總是會出錯或過載，服務斷線也因此在所難免。</span></p>
+<p><span style="font-weight: 400;">今年光是6月就發生兩起大事件，6月初的Fastly事件導致知名網站如美國社群網站Reddit、Amazon、直播平臺Twitch、音樂串流平臺Spotify和影音內容串流服務Hulu斷線。</span></p>
+<p><span style="font-weight: 400;">如同Akamai，6月初的事件並不是駭客攻擊。這比較像內容傳遞網路（content delivery network，CDN）中潛伏的不定時炸彈，總有一天，會因為某個環節的設置出錯，引爆炸彈，導致大批網站斷線。</span></p>
+<p><span style="font-weight: 400;">Fastly的客群廣大，而那麼多人之所以選擇Fastly，大概也是看中它的廣大客群。換句話說，在CDN的世界中，Fastly之所以顯得突出，單純是因為它的規模；而這規模又吸引更多人使用Fastly，進一步擴大其規模。因大而大，這是大的生長循環。</span></p>
+<p><span style="font-weight: 400;">結束背景說明，作者也分享他心目中CDN集中市場的問題。</span></p>
+<p><span style="font-weight: 400;">首先，對企業來說，比起為了分散風險而同時使用多家供應商，只選擇一個CDN供應商並用它提供所有內容和其他服務簡單多了。換句話說，企業的課題不是選擇多家或一家，而是如何選到最好的一家。選定之後，企業和他們的CDN供應商就是命運共同體了。</span></p>
+<p><span style="font-weight: 400;">再者，可以選擇的CDN也沒幾家。如果你的標準是全球規模、足以應付大部分和最激烈的DDoS攻擊，供應商本身會靈活安排以達到內容傳遞最佳化的同時，又可以讓顧客自行控管安全功能（如</span><span style="font-weight: 400;">私有金鑰</span><span style="font-weight: 400;">），那選擇清單大概也寥寥無幾。</span></p>
+<p><span style="font-weight: 400;">Fastly和Akamai都名列使用度最高的CDN供應商，其他就是Amazon CloudFront、Google Cloud、Microsoft的Azure、Cloudfare和Limelight。這樣總共是7家。當然市面上還有其他供應商，有些可能僅服務特定區域，有些則有特殊技術專項。但是，今日的CDN世界，大致就是由上述7家供應商所構成。</span></p>
+<p><span style="font-weight: 400;">作者認為，這才是真正的問題。在網際網路的內容層，幾乎所有人都在使用某種形式的CDN，但可以選擇的CDN供應商屈指可數。在過度集中的CDN市場裡，大型供應商所能提供的服務等級和價格，絕非小型供應商能望其項背。大型業者賺得越多，規模就越大，與其他小型競爭者之間的差距也就越拉越遠。</span></p>
+<p><span style="font-weight: 400;">換句話說，許多小型CDN業者形成的「光環」包圍一小撮CDN巨頭組成的「核心」，就是當代CDN市場的樣貌。小型業者必須提供大型業者缺乏的專門或客製化服務，才有辦法存活。但這個小型業者的營利空間，其實也掌握在大型業者手中；後者選擇提供的服務內容，將直接影響前者的利基大小。這也代表整個CDN市場是大者越大，小者越小。而無可避免的結果，就是業者一旦出包，受到牽連而斷線的網路服務只會越來越多。</span></p>
+<p><span style="font-weight: 400;">一般而言，這種大型事件會導致人們對服務供應商失去信任，甚至開始尋找替代方案。這種時候，股東都會擔心公司股價是否因此下跌。然而，無論是Fastly或Akamai的股價，事件後反而都水漲船高。</span></p>
+<p><span style="font-weight: 400;">在金融市場裡，股市泡沫是指某一特定行業的股票價格自行持續上升或急速發展。投資人認定某公司或產業前景會一路大好，選擇忽視理性的市場評論及收益分析；這樣的投資人一多，就會形成股市泡泡。作者指出，過度集中化的市場尤其容易產生股市泡泡。對投資人來說，投資一家主導市場的公司，等於可以回收整個市場成長的利潤，要是這家公司最後得以獨佔市場，那利潤更能翻上不知幾倍！然而，為了這個預期利潤，市場也可以忽視泡泡背後科技本身不夠穩定，類似事件未來只會繼續發生的事實。</span></p>
+<p><span style="font-weight: 400;">我們正在目睹網際網路的許多層面從多元、活躍、高度競爭，逐漸變得高度集中，甚至邁向寡占或獨佔的局面。高度集中化衍生高度的互相依賴，後果是任一環節出錯，都不再只是為一小撮人帶來些微不便，而將引發殃及多人的大型事故。</span></p>
+<p><span style="font-weight: 400;">最後作者重申，大規模和集中化不一定代表高服務品質。6月的兩起事件就告訴我們，大規模和集中化，其實也讓所有人承受更高的風險。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">*台灣網路資訊中心（TWNIC）與亞太網路資訊中心（APNIC）合作，定期精選APNIC Blog文章翻譯摘要，提供中心部落格讀者了解目前亞太地區網路發展之最新趨勢。原文標題為</span><a href="https://blog.apnic.net/2021/07/02/opinion-cdns-and-centrality/"><span style="font-weight: 400;">Opinion: CDNs and centrality</span></a><span style="font-weight: 400;">。</span></p>
+<p><span style="font-weight: 400;">圖片來源：APNIC Blog</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/17/20058/">APNIC文摘— 個人意見：內容傳遞網路和網路集中化</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/17/20058/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/17/20058/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[視訊串流是否會增加碳排放？]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/17/19784/" />
+
+		<id>https://blog.twnic.tw/?p=19784</id>
+		<updated>2021-09-15T00:00:55Z</updated>
+		<published>2021-09-17T00:31:03Z</published>
+		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="碳排放" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0823-0827_視訊串流是否會增加碳排放？-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>根據英國皇家學會之統計，數位技術所產生的溫室氣體排放量僅占全球的1.4%至5.9%，交通工具則占了大約25%。減少線上休閒活動並無法阻止氣候變遷，若過度關注於此，反而會轉移人們對於其他可實際減少碳排放行為的注意力。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/17/19784/">視訊串流是否會增加碳排放？</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/17/19784/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0823-0827_視訊串流是否會增加碳排放？-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">根據國際能源署（International Energy Agency，IEA）的統計資料，2020（去）年2到4月全球各地實施COVID-19相關警戒限制的高峰期，在視訊會議、線上遊戲、串流媒體及社群媒體的推波助瀾之下，全球網路流量激增近40%。IEA表示，若按照這個速度，到了2022年時，網路流量將會</span><a href="https://www.iea.org/reports/data-centres-and-data-transmission-networks" target="_blank" rel="noopener"><span style="font-weight: 400;">增加一倍</span></a><span style="font-weight: 400;">，此外，預計在2025年時，行動上網的用戶量將可從去年的38億人口躍升至50億。</span></p>
+<p><span style="font-weight: 400;">所有的網路活動都需要靠電力驅動，人們也擔憂這否將導致地球暖化加速惡化。然而，問題的全貌比想像中更複雜。英國環境顧問公司The Carbon Trust 今年</span><a href="https://www.carbontrust.com/news-and-events/news/updated-calculation-released-on-the-carbon-impact-of-online-video-streaming" target="_blank" rel="noopener"><span style="font-weight: 400;">6月的研究</span></a><span style="font-weight: 400;">就發現，觀看影片的碳排放量大約等同於煮開電熱水壺3次，而且畫質高低對碳足跡的影響微乎其微。另一方面，IEA則指出，線上遊戲及影音串流服務儼然成為消費者網路訊務主要來源，進而提高了人們對於資料中心的需求。專家指出，媒體串流業如何邁向更環保的未來，將取決於企業使用的能源類型，以及如何設計自家產品。</span></p>
+<p><span style="font-weight: 400;">根據IEA分析，資料中心在2019僅使用1%的全球總電量，儘管資料中心的總需求增加了60%，但估計到2022年為止所需電量將保持不變。IEA研究員George Kamiya表示，這是因為與其他產業相比，資料中心通常更加節能，且越來越多企業使用再生能源。</span></p>
+<p><span style="font-weight: 400;">根據英國知名科學研究所皇家學會</span><a href="https://royalsociety.org/-/media/policy/projects/digital-technology-and-the-planet/digital-technology-and-the-planet-report.pdf" target="_blank" rel="noopener"><span style="font-weight: 400;">統計</span></a><span style="font-weight: 400;">，數位科技所產生的溫室氣體排放量僅占全球的1.4%至5.9%，相較之下，</span><a href="https://www.iea.org/reports/tracking-transport-2020" target="_blank" rel="noopener"><span style="font-weight: 400;">交通工具就占了大約25%</span></a><span style="font-weight: 400;">。Kamiya表示，減少線上休閒活動並無法阻止氣候變遷，若過度關注於此，反而會轉移人們對於其他可實際減少碳排放行為（例如：減少開車或搭飛機）的注意力。我們需要各國政府實施強而有力的氣候政策，以實現整體結構性的減碳，此外，也可以善用如人工智慧等數位科技，預測及改善家中的用電方式。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Lin Taylor (2021). Climate change: Is video streaming pushing up harmful emissions? World Economic Forum.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://www.weforum.org/agenda/2021/06/coronavirus-pandemic-streaming-video-calls-data-environment-emissions/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.weforum.org/agenda/2021/06/coronavirus-pandemic-streaming-video-calls-data-environment-emissions/</span></a><span style="font-weight: 400;"> (Aug. 20, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/17/19784/">視訊串流是否會增加碳排放？</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/17/19784/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/17/19784/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[NOYB對歐洲網站提出400 多起與cookie相關的投訴]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/16/19782/" />
+
+		<id>https://blog.twnic.tw/?p=19782</id>
+		<updated>2021-09-15T00:00:55Z</updated>
+		<published>2021-09-16T00:31:02Z</published>
+		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="cookie" /><category scheme="https://blog.twnic.tw" term="NOYB" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="170" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0823-0827_NOYB對歐洲網站提出400-多起與cookie相關的投訴-300x170.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>「歐洲數位權利中心」（NOYB）認為歐洲網站誘使用戶點擊接受cookie的行徑已違反GDPR，並提出400多起相關投訴。根據NOYB 2021年5月公布的統計資料，僅3%網路用戶本來就會接受cookie，但卻有超過90%的用戶因網站設計被迫「同意」cookie。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/16/19782/">NOYB對歐洲網站提出400 多起與cookie相關的投訴</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/16/19782/"><![CDATA[<img width="300" height="170" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0823-0827_NOYB對歐洲網站提出400-多起與cookie相關的投訴-300x170.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">非營利組織「歐洲數位權利中心」（NOYB – European Center for Digital Rights）認為歐洲網站誘使用戶點擊接受cookie的行徑已違反《通用資料保護規則》（General Data Protection Regulation，GDPR），並提出400多起相關投訴。早在今（2021）年5月，NOYB已向 516 家公司發出</span><a href="https://noyb.eu/en/noyb-aims-end-cookie-banner-terror-and-issues-more-500-gdpr-complaints" target="_blank" rel="noopener"><span style="font-weight: 400;">投訴通知</span></a><span style="font-weight: 400;">，要求他們在一個月內改善做法以符合規範。</span></p>
+<p><span style="font-weight: 400;">Cookie是一種挾帶小型資料的檔案，網站用它們來識別用戶，並記錄用戶的瀏覽偏好，藉此提供客製化服務。</span></p>
+<p><span style="font-weight: 400;">NOYB指出，根據GDPR，網站須提供用戶「是否同意使用cookie」的明確選項，但許多網站會利用各種設計，讓用戶難以找到除了「接受」以外的選項。NOYB負責人 Max Schrems指出，自發出投訴以來，雖已有將近一半的網站修正違規行為，但整體改善情況仍不盡理想。</span></p>
+<p><span style="font-weight: 400;">NOYB也點名科技巨頭Google與Facebook，指出他們持續違反規範，利用cookie投放個人化廣告。NOYB已針對這兩家企業採取36項額外行動。</span></p>
+<p><span style="font-weight: 400;">根據NOYB今年5月公布的</span><a href="https://www.youtube.com/watch?v=3twfu4_Vv8E" target="_blank" rel="noopener"><span style="font-weight: 400;">統計資料</span></a><span style="font-weight: 400;">，僅3%網路用戶本來就會接受cookie，但卻有超過90%的用戶因網站設計，最終被迫「同意」cookie。法國國家資訊自由委員會 CNIL（Commission Nationale de l’informatique et des Libertés）也正針對違反規定的網站發起類似投訴。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Julie Gaubert (2021). Online privacy watchog files more than 400 complaints related to Internet cookies. euronews.next.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://www.euronews.com/next/2021/08/12/online-privacy-protection-ngo-files-422-complaints-related-to-cookies" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.euronews.com/next/2021/08/12/online-privacy-protection-ngo-files-422-complaints-related-to-cookies</span></a><span style="font-weight: 400;"> (Aug. 20, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/16/19782/">NOYB對歐洲網站提出400 多起與cookie相關的投訴</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/16/19782/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/16/19782/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[Apple的CSAM偵測系統飽受批評]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/15/19779/" />
+
+		<id>https://blog.twnic.tw/?p=19779</id>
+		<updated>2021-09-15T00:00:55Z</updated>
+		<published>2021-09-15T00:31:01Z</published>
+		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="Apple" /><category scheme="https://blog.twnic.tw" term="兒少保護" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="170" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0823-0827_Apple的CSAM偵測系統飽受批評-300x170.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>Apple日前宣布，下次版本更新將在美國用戶的裝置中新增兒少性侵害內容（CSAM）偵測系統，此計畫引發隱私權倡議人士擔憂，包括：電子前哨基金會、WhatsApp 負責人、前Facebook首席安全官，以及美國政府竊聽案吹哨者，均對此提出質疑。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/15/19779/">Apple的CSAM偵測系統飽受批評</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/15/19779/"><![CDATA[<img width="300" height="170" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0823-0827_Apple的CSAM偵測系統飽受批評-300x170.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">Apple日前宣布，下一次版本更新將在美國用戶的裝置中新增</span><a href="https://www.apple.com/child-safety/" target="_blank" rel="noopener"><span style="font-weight: 400;">兒少性侵害內容（Child Sexual Abuse Material，CSAM）偵測系統</span></a><span style="font-weight: 400;">。系統將偵測Apple裝置中的色情照片，並將這些照片與美國失蹤及被剝削兒童中心（National Center for Missing and Exploited Children，NCMEC）及其他兒少安全機構發布之色情影像清單比對，當發現一定數量後透過人工檢查，若判定為兒少色情照片，將鎖帳戶並通報。</span></p>
+<p><span style="font-weight: 400;">Apple的計畫引發隱私權倡議人士擔憂，包括：非營利組織電子前哨基金會（Electronic Frontier Foundation，EFF）、WhatsApp 負責人 Will Cathcart、前Facebook首席安全官Alex Stamos，以及美國政府竊聽案吹哨者Edward Snowden，均對CSAM偵測系統提出質疑。</span></p>
+<p><span style="font-weight: 400;">EFF批評Apple作業系統的調整本質上是在資料系統設置後門，CSAM偵測系統可能進而被政府或其他組織利用。</span></p>
+<p><span style="font-weight: 400;">Will Cathcart認為CSAM偵測系統的本質是監控系統，不同國家政府可根據國內法規，利用該系統審查使用Apple裝置的公民隱私內容。Cathcart強調WhatsApp將不會跟進使用類似系統。</span></p>
+<p><span style="font-weight: 400;">Alex Stamos批評Apple的根本問題在於他們並未為旗下通訊產品建構真正的信任與安全功能，如裝置內建的訊息軟體iMessage中，就缺乏針對不當內容的通報機制。</span></p>
+<p><span style="font-weight: 400;">Edward Snowden則是</span><a href="https://twitter.com/snowden/status/1423469854347169798" target="_blank" rel="noopener"><span style="font-weight: 400;">指控</span></a><span style="font-weight: 400;">Apple正在全球部署大規模監控，認為未來Apple可透過CSAM偵測任何內容。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Chris Duckett (2021). Apple child abuse material scanning in iOS 15 draws fire. ZD Net.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://www.zdnet.com/article/apple-child-abuse-material-scanning-in-ios-15-draws-fire/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.zdnet.com/article/apple-child-abuse-material-scanning-in-ios-15-draws-fire/</span></a><span style="font-weight: 400;"> (Aug. 20, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/15/19779/">Apple的CSAM偵測系統飽受批評</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/15/19779/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/15/19779/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[美國參議院為網路安全投入超過19 億美元預算]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/14/19777/" />
+
+		<id>https://blog.twnic.tw/?p=19777</id>
+		<updated>2021-09-15T00:00:55Z</updated>
+		<published>2021-09-14T00:31:00Z</published>
+		<category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="網路安全" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0823-0827_美國參議院為網路安全投入超過19-億美元預算-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>美國參議院通過總值1兆美元、保護關鍵基礎設施之系列法案，其中超過19億美元將用於保護基礎設施網路安全，目前該法案已提交眾議院，若順利通過，將於下一個財政年度生效。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/14/19777/">美國參議院為網路安全投入超過19 億美元預算</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/14/19777/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0823-0827_美國參議院為網路安全投入超過19-億美元預算-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">美國參議院通過總值1兆美元、保護關鍵基礎設施之系列法案，其中超過19億美元將用於保護基礎設施網路安全，目前該法案已提交眾議院，若順利通過，將於下一個財政年度生效。</span></p>
+<p><span style="font-weight: 400;">在此系列法案中，《州及地方網路安全改進法案》（State and Local Cybersecurity Improvement Act）提出為期4年的補助計畫，將透過國土安全部（Department of Homeland Security，DHS）提供各州及地方政府10億美元的網路安全資金，其中4分之1將用於鄉村地區。</span></p>
+<p><span style="font-weight: 400;">另一項法案是《網路事件應對及回復法案》（Cyber Response and Recovery Act），該法案將授權DHS部長公告涉及重要組織之網路攻擊事件，並為DHS設立為期5年、總值1億美元的基金，協助受網路事件影響的團體。</span></p>
+<p><span style="font-weight: 400;">DHS下轄單位網路安全暨基礎設施安全局（Cybersecurity and Infrastructure Security Agency，CISA）將獲得3,500萬元並用於風險管理之途；DHS 科學與技術理事會（Science and Technology Directorate）將獲得為期5年、超過1.5億美元的網路安全與技術研發資金；今年6月才開始運作的國家網路安全主任（National Cyber Director）辦公室，因沒有任何預算而面臨難以履行職責之窘境，在獲得2,100萬美元資金後，預計情況將有所改善。</span></p>
+<p><span style="font-weight: 400;">最後，該法案還將撥款2.5億美元給能源部（Department of Energy），該款項將用於補助農村及市政設施，另再撥款3.5億美元強化電網安全。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Maggie Miller (2021). Senate includes over $1.9 billion for cybersecurity in infrastructure bill. The Hill.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://thehill.com/policy/cybersecurity/567204-over-1-billion-in-cybersecurity-funds-included-in-senate-passed" target="_blank" rel="noopener"><span style="font-weight: 400;">https://thehill.com/policy/cybersecurity/567204-over-1-billion-in-cybersecurity-funds-included-in-senate-passed</span></a><span style="font-weight: 400;"> (Aug. 20, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/14/19777/">美國參議院為網路安全投入超過19 億美元預算</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/14/19777/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/14/19777/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[APNIC文摘— APNIC 2021年行動計劃主題：網際網路發展能量]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/13/20060/" />
+
+		<id>https://blog.twnic.tw/?p=20060</id>
+		<updated>2021-09-15T00:01:00Z</updated>
+		<published>2021-09-13T01:28:22Z</published>
+		<category scheme="https://blog.twnic.tw" term="技術" /><category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="2021 action plan" /><category scheme="https://blog.twnic.tw" term="APNIC" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="171" src="https://blog.twnic.tw/wp-content/uploads/2021/09/20211-300x171.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>APNIC於2021年成立亞太網際網路發展信託基金，更加速了APNIC基金會的成長規模。今年該信託基金就支援了APNIC基金會6百萬美元，其中一半的專案APNIC的參與其中。這代表APNIC也因此連帶成長，得以為會員提供更多服務和福利。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/13/20060/">APNIC文摘— APNIC 2021年行動計劃主題：網際網路發展能量</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/13/20060/"><![CDATA[<img width="300" height="171" src="https://blog.twnic.tw/wp-content/uploads/2021/09/20211-300x171.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">本APNIC文摘原標題為</span><a href="https://blog.apnic.net/2021/07/09/exploring-apnics-2021-activity-themes-apnic-capacity-for-internet-development/"><span style="font-weight: 400;">Exploring APNIC’s 2021 themes: Capacity for Internet development</span></a><span style="font-weight: 400;">，由APNIC執行長Paul Wilson撰文。</span></p>
+<p><span style="font-weight: 400;">今年3月舉辦的APNIC 51期間，APNIC執行長Paul Wilson介紹了APNIC今（2021）行動計畫的四大主題。參考2020年度APNIC問卷調查結果及社群意見，APNIC執行理事會訂出2021年行動計劃的四個主題：</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">次世代註冊管理服務</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">線上參與</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">未來發展培力</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">APNIC組織韌性</span></li>
+</ul>
+<p><span style="font-weight: 400;">本篇文章為系列第三篇，未來將陸續發布新文章，說明四大主題分別的詳細內容，以及對APNIC會員、社群可能產生的影響。</span></p>
+<p><span style="font-weight: 400;">APNIC於2017年建立了APNIC基金會，目的是幫助亞太地區的網際網路成長。在那之後，基金會已募集上千萬資金，並投入於APNIC既有活動以外的教育訓練及技術協助活動。</span></p>
+<p><span style="font-weight: 400;">這個任務是募集資源、合夥關係及資金的基金會，可被視為APNIC的一部分。換句話說，基金會隸屬於APNIC轄下，許多APNIC員工也都參與執行基金會工作。當然，也有一些專案是由基金會全權執行、或由地區夥伴單位負責。</span></p>
+<p><span style="font-weight: 400;">由於基金會過去三年來的穩定成長，APNIC得以聘僱更多講師及專家，包括超過20位社群講師，以支援基金會出資的活動。當然，這些講師也都會支援APNIC其他教育訓練或培力課程，所有APNIC會員也都均霑其惠。</span></p>
+<p><span style="font-weight: 400;">APNIC於2021年成立亞太網際網路發展信託基金，更加速了APNIC基金會的成長規模。今年該信託基金就支援了APNIC基金會6百萬美元，其中一半的專案APNIC的參與其中。這代表APNIC也因此連帶成長，得以為會員提供更多服務和福利。</span></p>
+<p><span style="font-weight: 400;">上述專案包括：</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">加速建置亞太地區的M-Root根伺服器鏡像Instance。</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">擴充APNIC Academy線上平臺及訓練課程內容，新增課程、加強多語言支援，以及安排技術訓練支援活動。</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">增加訓練活動的數量，也加強與在地APNIC社群講師的聯絡網路。</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">為非技術背景的對象打造網際網路基礎入門課程。</span></li>
+</ul>
+<p><span style="font-weight: 400;">2021年期間，APNIC新增了8個職位以支援上述專案，未來還計畫再新增兩個職位。這些職位包括：</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">技術訓練指導</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">技術訓練調配</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">技術訓練課程規劃</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">平臺研發</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">基礎建設維運</span></li>
+</ul>
+<p><span style="font-weight: 400;">這也代表2021年是APNIC史上增員最多的一年，若缺乏妥善規劃管理，很可能會面臨組織的「生長痛」。APNIC已完成部分調整措施，如重整APNIC的財務和業務支援部門，組織內部的軟體開發也都遵守捷敏式（Agile）軟體開發原則。</span></p>
+<p><span style="font-weight: 400;">因應需管理的資金和專案數量成長，APNIC基金會也調整人員配置和資源規劃，除了原有的專案管理職員，現在有3名APNIC職員專門負責基金會的財務、募資管理，以及評估報告業務。</span></p>
+<p><span style="font-weight: 400;">穩定增加的資金來源已能充分支應基金會的營運成本，這也表示APNIC方面需支援基金會的開銷大幅下降，今年甚至可能不需任何支出。然而，基於協議，APNIC未來10年內仍將為基金會持續運作負起擔保責任。</span></p>
+<p><span style="font-weight: 400;">全球疫情下，許多國家仍在不同程度的封鎖狀態，何時能「回歸正常」也仍充滿不確定。太多的未知導致難以規劃未來計畫，也表示改善組織整體的韌性將是APNIC的第一要務。本系列最後一篇文章便將聚焦於此主題，分享APNIC如何強化組織韌性。</span></p>
+<p><span style="font-weight: 400;">*台灣網路資訊中心（TWNIC）與亞太網路資訊中心（APNIC）合作，定期精選APNIC Blog文章翻譯摘要，提供中心部落格讀者了解目前亞太地區網路發展之最新趨勢。原文標題為</span><a href="https://blog.apnic.net/2021/07/09/exploring-apnics-2021-activity-themes-apnic-capacity-for-internet-development/"><span style="font-weight: 400;">Exploring APNIC’s 2021 themes: Capacity for Internet development</span></a><span style="font-weight: 400;">。</span></p>
+<p><span style="font-weight: 400;">圖片來源：APNIC Blog</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/13/20060/">APNIC文摘— APNIC 2021年行動計劃主題：網際網路發展能量</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/13/20060/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/13/20060/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[打造更數位包容的網際網路]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/13/19765/" />
+
+		<id>https://blog.twnic.tw/?p=19765</id>
+		<updated>2021-09-15T00:01:00Z</updated>
+		<published>2021-09-13T00:30:59Z</published>
+		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="ICANN" /><category scheme="https://blog.twnic.tw" term="Universal Acceptance" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0823-0827_打造更數位包容的網際網路-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>全球通用（UA）是ICANN 2021至2025財政年度戰略計畫的目標之一，為了提升大眾對UA的認識，了解UA面臨的挑戰，並為深受挑戰的利害關係人提供緩解方案，ICANN線上學習平臺推出「介紹全球通用」線上課程，希望進一步推廣全球通用。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/13/19765/">打造更數位包容的網際網路</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/13/19765/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0823-0827_打造更數位包容的網際網路-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">全球通用（Universal Acceptance，UA）是ICANN ORG的重點工作項目，也是ICANN 2021至2025財政年度戰略計畫中的目標。為了達成此目標，很重要的一項工作是提升大眾對UA的認識，了解UA面臨的挑戰，並為深受挑戰的利害關係人提供緩解方案。有鑑於此，ICANN線上學習平臺</span><a href="https://learn.icann.org" target="_blank" rel="noopener"><span style="font-weight: 400;">ICANN Learn</span></a><span style="font-weight: 400;">最近新推出「介紹全球通用」（Introduction to Universal Acceptance）線上課程，希望進一步推廣全球通用。</span></p>
+<p><span style="font-weight: 400;">過去二十幾年來，域名系統（Domain Name System，DNS）因新通用頂級域名（new generic top-level domain，new gTLD）與國際化域名（Internationalized Domain Name，IDN）的推出而持續擴張。目前市面上有超過1,200筆new gTLD，其中也有使用不同文字、字符，長度不一的各種字串（如 .дети、.london、.engineering）。除此之外，更有超過60筆國碼頂級域名（country code top-level domain，ccTLD）都有自己語言的IDN。頂級域名數量的增加及DNS的擴張，不僅鼓勵創新及增加消費者選擇，也降低了全球各地不同語言使用者使用網際網路的障礙。</span></p>
+<p><span style="font-weight: 400;">然而，目前仍有許多應用程式、裝置或系統不支援使用IDN的域名或電子郵件信箱。這也是為什麼ICANN及網際網路社群始終致力推動全球通用（UA），希望使用不同語言文字的域名及電子郵件，都能獲得一樣的待遇，使用者得以自由選擇域名或信箱的語言。</span></p>
+<p><span style="font-weight: 400;">在ICANN Learn最新上架的「介紹全球通用」課程，目標對象包括網際網路社群、技術開發人員、電子郵件服務業者、政府及立法單位。上完本課程者，將具備UA及相關挑戰的基礎知識，也會了解符合UA的社經益處。無論是希望在當地或全球推廣UA的人，或希望將服務系統改成符合UA的技術人員，都將受益於本課程。</span></p>
+<p><span style="font-weight: 400;">全球UA程度越高，我們就能幫助越多不同語言的網路使用者、增加越多的消費者選擇、拓展企業商機、提升電信業者優勢，也更能協助政府及立法人員與人民溝通。越多人認同並參與UA，我們就能越快實現UA。若希望進一步參與此工程，你可以：</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">完成「介紹全球通用」課程；</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">加入UA討論mailing list（</span><a href="https://mm.icann.org/mailman/listinfo/ua-discuss" target="_blank" rel="noopener"><span style="font-weight: 400;">UA-Discuss mailing list</span></a><span style="font-weight: 400;">）；</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">參與UA推廣</span><a href="https://uasg.tech/information/members/working-groups/" target="_blank" rel="noopener"><span style="font-weight: 400;">工作小組</span></a><span style="font-weight: 400;">；</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">將你的服務改成UA友善系統（</span><a href="https://uasg.tech/information/" target="_blank" rel="noopener"><span style="font-weight: 400;">參考資源</span></a><span style="font-weight: 400;">）。</span></li>
+</ul>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Sarmad Hussain, (2021). Learn How You Can Help Build a More Digitally Inclusive Internet. ICANN Blogs.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://www.icann.org/en/blogs/details/learn-how-you-can-help-build-a-more-digitally-inclusive-internet-11-8-2021-en" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.icann.org/en/blogs/details/learn-how-you-can-help-build-a-more-digitally-inclusive-internet-11-8-2021-en</span></a><span style="font-weight: 400;"> (Aug. 20, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/13/19765/">打造更數位包容的網際網路</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/13/19765/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/13/19765/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>TWNIC</name>
+					</author>
+
+		<title type="html"><![CDATA[Netgear 修復三個嚴重資安漏洞，影響 20 種智慧型網路交換器]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/11/20052/" />
+
+		<id>https://blog.twnic.tw/?p=20052</id>
+		<updated>2021-09-11T03:56:28Z</updated>
+		<published>2021-09-11T07:54:05Z</published>
+		<category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="國內外重要資安新聞" /><category scheme="https://blog.twnic.tw" term="資安漏洞" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/09/08621091017392b06e-e1631332581860-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>全球網通產品大廠 Netgear 修復影響其二十種智慧型交換器的三個嚴重資安漏洞，駭侵者可利用這些漏洞，完全控制交換器設備。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/11/20052/">Netgear 修復三個嚴重資安漏洞，影響 20 種智慧型網路交換器</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/11/20052/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/09/08621091017392b06e-e1631332581860-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><section class="cp">全球網通產品大廠 Netgear 日前推出韌體更新，修復影響其多達二十種智慧型交換器的三個嚴重資安漏洞；駭侵者可利用這些漏洞，完全控制交換器設備。這三個將獲修復的漏洞，分別由資安研究人員命名為 The Demon’s Cries、Draconian Fear、Seventh Inferno，目前暫無 CVE 編號，但都可能造成這些智慧型交換器的控制權限遭駭侵者取得，進而針對企業內網發動進一步攻擊行動。Demon’s Cries 漏洞的 CVSS 分數高達 8.8 分（滿分為 10 分），據資安專家指出，該漏洞可讓駭侵者跳過登入驗證程序，駭侵者可藉以取得管理者的登入資訊，並且完全掌控受害的交換器設備。</p>
+<p>資安研究人員指出，該漏洞存於 Netgear Switch Discover Protocol 之內；研究人員發現一種可以跳過其登入驗證程序的方法，不過駭侵者必須先進入企業內部網路，才能利用這個漏洞。</p>
+<p>Draconian Fear 的 CVSS 分數為 7.4 分，駭侵者如果與管理者使用同一個 IP，或假造一個和管理者相同的登入用 IP，即可攔截 Netgear 交換器 web 界面傳送的資訊封包，並且利用其來源檢查的漏洞，進入管理介面之中。</p>
+<p>研究人員尚未針對第三個漏洞 Seventh Inferno 推出詳細分析，不過 Netgear 已針對旗下二十種受到這批漏洞影響的機種，推出更新版本的韌體；使用 Netgear 交換器的用戶，應依照 Netgear 資安通報的說明，檢查交換器的型號與版本是否列入受影響名單之列，並且儘速更新。</p>
+<ul>
+<li>影響產品/版本：參見 Netgear 資安通報</li>
+</ul>
+<ul>
+<li>解決方案：更新至最新版本韌體</li>
+</ul>
+</section>
+<div class="web_link">
+<h3>相關連結</h3>
+<ol>
+<li><a href="https://www.twcert.org.tw/tw/cp-104-5074-92a4f-1.html">TWCERT/CC</a></li>
+<li><a title="Security Advisory for Multiple Vulnerabilities on Some Smart Switches, PSV-2021-0140, PSV-2021-0144,(另開新視窗)" href="https://kb.netgear.com/000063978/Security-Advisory-for-Multiple-Vulnerabilities-on-Some-Smart-Switches-PSV-2021-0140-PSV-2021-0144-PSV-2021-0145" target="_blank" rel="noopener">Security Advisory for Multiple Vulnerabilities on Some Smart Switches, PSV-2021-0140, PSV-2021-0144,</a></li>
+<li><a title="Demon's Cries vulnerability (some NETGEAR smart switches)(另開新視窗)" href="https://gynvael.coldwind.pl/?id=740" target="_blank" rel="noopener">Demon&#8217;s Cries vulnerability (some NETGEAR smart switches)</a></li>
+<li><a title="Draconian Fear vulnerability (some NETGEAR smart switches)(另開新視窗)" href="https://gynvael.coldwind.pl/?id=741" target="_blank" rel="noopener">Draconian Fear vulnerability (some NETGEAR smart switches)</a></li>
+<li><a title="Draconian Fear vulnerability (some NETGEAR smart switches)(另開新視窗)" href="https://gynvael.coldwind.pl/?id=741" target="_blank" rel="noopener">Draconian Fear vulnerability (some NETGEAR smart switches)</a></li>
+<li><a title="Netgear Smart Switches Open to Complete Takeover(另開新視窗)" href="https://threatpost.com/netgear-smart-switches-takeover/169259/" target="_blank" rel="noopener">Netgear Smart Switches Open to Complete Takeover</a></li>
+</ol>
+</div>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/11/20052/">Netgear 修復三個嚴重資安漏洞，影響 20 種智慧型網路交換器</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/11/20052/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/11/20052/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>TWNIC</name>
+					</author>
+
+		<title type="html"><![CDATA[微軟示警數千 Azure 用戶可能曝險於 Cosmos DB 嚴重資安漏洞]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/11/20048/" />
+
+		<id>https://blog.twnic.tw/?p=20048</id>
+		<updated>2021-09-11T03:53:08Z</updated>
+		<published>2021-09-11T03:53:08Z</published>
+		<category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="國內外重要資安新聞" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/09/51021083117035e078-e1631332366658-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>微軟日前向數千名 Azure 雲端服務用戶示警，指出一個存於 Cosmos DB 的嚴重資安漏洞，可能導致用戶的資料庫遭駭侵者不當存取。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/11/20048/">微軟示警數千 Azure 用戶可能曝險於 Cosmos DB 嚴重資安漏洞</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/11/20048/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/09/51021083117035e078-e1631332366658-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><section class="cp">微軟日前向數千名 Microsoft Azure 雲端服務的用戶發出資安警訊，指出一個存於 Cosmos DB 的嚴重資安漏洞，可能導致用戶的資料庫遭駭侵者遠端不當存取。</p>
+<p>Azure Cosmos DB 是一個全球使用率相當普及的 NoSQL 資料庫服務，大品牌用戶包括 Mercedes-Benz、Symantec、Coca-cola、Exxon-Mobil、Citrix 等。</p>
+<p>該漏洞是於 2021 年 8 月初由資安廠商 Wiz 旗下的研究人員發現，並將此漏洞命名為「ChaosDB」；駭侵者可以用 Cosmos DB 內一個用來幫助用戶進行資料可視化的工具 Jupyter Notebook 功能內的一系列錯誤，來誘發此漏洞，即可取得 Cosmos DB 的用戶登入資訊，包括主要讀寫金鑰；駭侵者這樣可以在無需任何前置作業的情形下，利用此漏洞完全掌控 Azure 用戶的帳號與資料庫內容。</p>
+<p>微軟表示，在接獲來自資安廠商的漏洞提報資訊後，該公司已於 48 小時內關閉該漏洞的進入點，藉以封鎖駭侵者使用此漏洞的路徑；雖然該漏洞已於近日得到修復，但微軟在近期又針對 30％ 的 Cosmos DB 用戶發出資安警訊，表示這些用戶可能於 8 月 26 日遭到大規模針對此漏洞發動的駭侵攻擊行動。</p>
+<p>Wiz 也指出，駭侵者很可能在該公司發現此漏洞並提報給微軟的數個月之前，就積極利用此一漏洞發動攻擊活動。</p>
+<p>微軟也針對其 Azure 用戶提供此漏洞的暫時解決方案，用戶可以依其指南，重新製作不同的資料庫讀寫主要金鑰，並定期更換金鑰；微軟也建議 Azure 用戶考慮使用 Azure Cosmos DB 防火牆服務，並且整合其他虛擬系統，以提高安全性。</p>
+</section>
+<div class="web_link">
+<h3>相關連結</h3>
+<ol>
+<li><a href="https://www.twcert.org.tw/tw/cp-104-5050-67509-1.html">TWCERT/CC</a></li>
+<li><a title="CHAOSDB(另開新視窗)" href="https://chaosdb.wiz.io/" target="_blank" rel="noopener">CHAOSDB</a></li>
+<li><a title="Secure access to data in Azure Cosmos DB(另開新視窗)" href="https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data?tabs=using-primary-key#primary-keys" target="_blank" rel="noopener">Secure access to data in Azure Cosmos DB</a></li>
+<li><a title="Microsoft warns Azure customers of critical Cosmos DB vulnerability(另開新視窗)" href="https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-azure-customers-of-critical-cosmos-db-vulnerability/" target="_blank" rel="noopener">Microsoft warns Azure customers of critical Cosmos DB vulnerability</a></li>
+</ol>
+</div>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/11/20048/">微軟示警數千 Azure 用戶可能曝險於 Cosmos DB 嚴重資安漏洞</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/11/20048/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/11/20048/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>TWNIC</name>
+					</author>
+
+		<title type="html"><![CDATA[2021亞太青年網路治理論壇台灣獲選學員介紹]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/10/20026/" />
+
+		<id>https://blog.twnic.tw/?p=20026</id>
+		<updated>2021-09-10T07:03:30Z</updated>
+		<published>2021-09-10T06:53:54Z</published>
+		<category scheme="https://blog.twnic.tw" term="最新消息" /><category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="APyIGF" /><category scheme="https://blog.twnic.tw" term="Internet Governance" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/yIGF-2021--300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>今年亞太青年網路治理論壇將會以四天的線上會議模式與一系列的線上社交會面進行，與會者將可與其他來自亞太地區的青年、專業人士與資深講者一同討論目前熱門的網路治理議題。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/10/20026/">2021亞太青年網路治理論壇台灣獲選學員介紹</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/10/20026/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/yIGF-2021--300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>2021亞太青年網路治理論壇是由NetMission.Asia所組織的活動，每年與亞太網路治理論壇合作舉辦，提升青年對網路治理議題的關注與認知，並鼓勵對議題的討論。基於聯合國網路治理論壇（Internet Governance Forum）鼓勵多方利害關係人平等參與的基礎上，亞太青年網路治理論壇提供了年輕世代在網路治理議上自由表達與交換意見、想法的平台。</p>
+<p>今年亞太青年網路治理論壇將會以四天的線上會議模式與一系列的線上社交活動進行，與會者將可與其他來自亞太地區的青年、專業人士與資深講者一同討論目前熱門的網路治理議題。</p>
+<p>活動日期：2021年9月17-20日<br />
+活動形式：線上參與<br />
+主題：Envisioning a sustainable Internet for today &amp; tomorrow</p>
+<p>本次有三位優秀的學員代表台灣參與本次活動，以下是他們的簡歷：</p>
+<p><a href="https://blog.twnic.tw/wp-content/uploads/2021/09/投影片5.jpg" rel="attachment wp-att-20034"><img loading="lazy" class="alignnone wp-image-20034 size-full" src="https://blog.twnic.tw/wp-content/uploads/2021/09/投影片5.jpg" alt="" width="565" height="753" /></a><a href="https://blog.twnic.tw/wp-content/uploads/2021/09/投影片4.jpg" rel="attachment wp-att-20032"><img loading="lazy" class="alignnone wp-image-20032 size-full" src="https://blog.twnic.tw/wp-content/uploads/2021/09/投影片4.jpg" alt="" width="565" height="753" /></a><a href="https://blog.twnic.tw/wp-content/uploads/2021/09/投影片2.jpg" rel="attachment wp-att-20028"><img loading="lazy" class="alignnone wp-image-20028 size-full" src="https://blog.twnic.tw/wp-content/uploads/2021/09/投影片2.jpg" alt="" width="565" height="753" /></a></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/10/20026/">2021亞太青年網路治理論壇台灣獲選學員介紹</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/10/20026/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/10/20026/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[聯邦網路機構開始合作以保護美國免受網路攻擊]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/10/19666/" />
+
+		<id>https://blog.twnic.tw/?p=19666</id>
+		<updated>2021-09-06T00:39:42Z</updated>
+		<published>2021-09-10T00:03:47Z</published>
+		<category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="網路國防聯合協同計畫" /><category scheme="https://blog.twnic.tw" term="跨單位合作" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0816-0820_聯邦網路機構開始合作以保護美國免受網路攻擊-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>有鑑於美國面臨日益嚴峻的網路攻擊威脅，網路安全暨基礎設施安全局（CISA）設立「網路國防聯合協同計畫」（JCDC），以強化美國網路安全的聯合防禦措施。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/10/19666/">聯邦網路機構開始合作以保護美國免受網路攻擊</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/10/19666/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0816-0820_聯邦網路機構開始合作以保護美國免受網路攻擊-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">有鑑於美國面臨日益嚴峻的網路攻擊威脅，網路安全暨基礎設施安全局（Cybersecurity and Infrastructure Security Agency，CISA）設立「網路國防聯合協同計畫」（Joint Cyber Defense Collaborative，JCDC），以強化美國網路安全的聯合防禦措施。</span></p>
+<p><span style="font-weight: 400;">JCDC的工作將包括：設計並實施全國網路防禦計畫；使公私部門共享網路防禦知識及動態；實施協同行動以緩解網路攻擊影響；以及支援聯合網路防禦演習。</span></p>
+<p><span style="font-weight: 400;">參與JCDC計畫的單位包括：Amazon Web Services（AWS）、電信業者AT&amp;T與Verizon、Google雲端平臺、Microsoft、網路安全企業FireEye Mandiant、聯邦調查局、國防部、司法部、國家安全局，以及其他政府單位。</span></p>
+<p><span style="font-weight: 400;">2021年7月，參議</span><span style="font-weight: 400;">院確立Jen East</span><span style="font-weight: 400;">erly為新任CISA局長，JCDC計畫也是由她拍板定案。</span><span style="font-weight: 400;">Easterly發布聲</span><span style="font-weight: 400;">明指出，該計畫首先將聚焦於打擊勒索軟體，並為雲端服務供應商制定協調網路攻擊事件的框架。</span></p>
+<p><span style="font-weight: 400;">Easterly於黑帽安全會議（Black Hat USA 2021）發表演講並宣布設立JCDC，她表示，JCDC有賴國會內的跨黨派小組「網路空間日晷委員會」（Cyberspace Solarium Commission，CSC），以及國會國土安全委員會的促成。在演講中，Easterly特別感謝眾議員、同時也是CSC委員的Jim Langevin鼎力相助，並強調網路攻擊已威脅美國民主與公民的生活方式，而JCDC所帶來的協同合作網路防禦文化，將可解決網路攻擊難題。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Maggie Miller (2021). Federal cyber agency kicks off collaborative to defend the U.S. against cyberattacks. THE HILL.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://thehill.com/policy/cybersecurity/566585-federal-cyber-agency-stands-up-center-to-defend-the-us-against" target="_blank" rel="noopener"><span style="font-weight: 400;">https://thehill.com/policy/cybersecurity/566585-federal-cyber-agency-stands-up-center-to-defend-the-us-against</span></a><span style="font-weight: 400;"> (Aug. 13, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/10/19666/">聯邦網路機構開始合作以保護美國免受網路攻擊</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/10/19666/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/10/19666/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>TWNIC</name>
+					</author>
+
+		<title type="html"><![CDATA[台灣網路講堂：資料治理與國際貿易 — 談跨境資料流通  會後報導]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/09/19984/" />
+
+		<id>https://blog.twnic.tw/?p=19984</id>
+		<updated>2021-09-10T09:05:52Z</updated>
+		<published>2021-09-09T02:09:01Z</published>
+		<category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="202109" /><category scheme="https://blog.twnic.tw" term="twsig" /><category scheme="https://blog.twnic.tw" term="資料治理" /><category scheme="https://blog.twnic.tw" term="跨境資料" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/歡迎報名台灣網路講堂：資料治理與國際貿易-—-談跨境資料流通TWSIG-S8-1920-1080-main-1-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>分別以「國際貿易協定處理跨境資料流通之困境與機會」及「我國跨境資料流通政策制定之限制與發展」為主題，說明因全球貿易重心轉變，既有貿易規則對跨境資料傳輸的限制與全球資料治理框架制定的挑戰，並進一步探討我國在跨境資料流通政策制定上，應考量之面向與方向建議。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/09/19984/">台灣網路講堂：資料治理與國際貿易 — 談跨境資料流通  會後報導</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/09/19984/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/歡迎報名台灣網路講堂：資料治理與國際貿易-—-談跨境資料流通TWSIG-S8-1920-1080-main-1-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;">(9月8日台北訊) 台灣網路講堂於今日舉辦<a href="https://blog.twnic.tw/videosyt/%e8%b3%87%e6%96%99%e6%b2%bb%e7%90%86%e8%88%87%e5%9c%8b%e9%9a%9b%e8%b2%bf%e6%98%93-%e8%ab%87%e8%b7%a8%e5%a2%83%e8%b3%87%e6%96%99%e6%b5%81%e9%80%9a/">「資料治理與國際貿易 — 談跨境資料流通」</a>，邀請到國立陽明交通大學科技法律研究所陳在方副教授與資策會科技法律研究所顧振豪副所長，分別以「國際貿易協定處理跨境資料流通之困境與機會」及「我國跨境資料流通政策制定之限制與發展」為主題，說明因全球貿易重心轉變，既有貿易規則對跨境資料傳輸的限制與全球資料治理框架制定的挑戰，並進一步探討我國在跨境資料流通政策制定上，應考量之面向與方向建議。</span></p>
+<p><span style="font-size: 14pt;">陳教授認為，用貿易協定來解決跨境資料傳輸問題目前尚未有解方，因為各個國家對於資料跨境流通的立場有很大的差距，例如美國因網路科技產業全球市場地位，尤其鼓勵資料的跨境流通；但歐盟則強調個人資料屬於不可侵犯之人權，不能為貿易推展而有所競爭；中國則將數據認定為國家安全層級的問題更不願意就跨境傳輸做出妥協。在國家與國家之間競爭加劇的情況下，也更難進一步達成協議。</span></p>
+<p><span style="font-size: 14pt;">顧副所長介紹了有關資料跨境流通面臨之問題，歐盟、APEC以及我國跨境流通之規範；其中台灣的跨境流動規定恰好與歐盟相反，是原則允許，例外禁止。而國內其他跨境資料傳輸規定還包括針對特定類型資料的法令，如人體生物資料庫管理條例、金融機構相關辦法等。顧副所長認為，快速的跨境資料流通在當今數位貿易經濟時代是很難阻擋，他也認同從人權與個資保護觀點來構思跨境資料流通的政策，但有關進一步是否要資料在地化的政策，則應更為謹慎，從資料屬性、產業特性、是否要做特殊化處理等不同面向思考，進一步嚴密地診斷與規劃。</span></p>
+<p><span style="font-size: 14pt;">*因應疫情本場次全程直播，直播連結如下：</span></p>
+<p><iframe loading="lazy" title="YouTube video player" src="//www.youtube.com/embed/jnP9TjgYAqI" width="424" height="238" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><span style="font-size: 14pt;">台灣網路講堂網址: <a href="https://twsig.tw">http://twsig.tw/</a></span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/09/19984/">台灣網路講堂：資料治理與國際貿易 — 談跨境資料流通  會後報導</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/09/19984/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/09/19984/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>國際瞭望</name>
+					</author>
+
+		<title type="html"><![CDATA[註冊資料查詢工具功能改善]]></title>
+		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/09/09/19654/" />
+
+		<id>https://blog.twnic.tw/?p=19654</id>
+		<updated>2021-09-06T00:39:42Z</updated>
+		<published>2021-09-09T00:12:03Z</published>
+		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="ICANN" /><category scheme="https://blog.twnic.tw" term="RDAP" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
+		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0816-0820_註冊資料查詢工具功能改善-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>ICANN ORG最近完成註冊資料查詢工具更新，透過本工具，使用者可以查詢域名或網際網路號碼資源的公開註冊資料，如特定域名是否開放註冊，以及域名的註冊時間等。現在，本工具亦支援自治系統號碼（ASN）及IP查詢。</p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/09/19654/">註冊資料查詢工具功能改善</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></summary>
+
+					<content type="html" xml:base="https://blog.twnic.tw/2021/09/09/19654/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0816-0820_註冊資料查詢工具功能改善-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">ICANN ORG最近完成註冊資料查詢工具更新，不僅強化功能，也期望創造更好的使用者體驗。透過本查詢工具，使用者可以查詢域名或網際網路號碼資源的公開註冊資料，如特定域名是否開放註冊，以及域名的註冊時間等。現在，本工具亦支援自治系統號碼（autonomous system number，ASN）及IP查詢。</span><a href="https://lookup.icann.org/" target="_blank" rel="noopener"><span style="font-weight: 400;">點選此處</span></a><span style="font-weight: 400;">即可體驗最新的查詢功能。</span></p>
+<p><span style="font-weight: 400;">如上所述，本工具現在已可支援ASN或IP，以及無類別域間路由（Classless Inter-Domain Routing， CIDR）查詢。使用者只要在搜索欄中輸入ASN或IP，就可以查到區域網際網路註冊管理機構（Regional Internet Registry，RIR）提供的相關註冊資料。其他改善使用者體驗的更新包括：更清楚界定註冊資料存取協定（Registration Data Access Protocol，RDAP）回應顯示的不同聯絡人資料，支援vCard格式擴充程式，以及改善文字呈現方式，在遇到連線問題無法連接RDAP伺服器時，提供使用者一目了然的問題訊息。</span></p>
+<p><span style="font-weight: 400;">公開註冊資料可以有效強化註冊人的責任意識。需要通報域名或IP位址的技術問題或域名濫用行為時，公開註冊資料更是必要資訊。大家都能輕易取得公開註冊資料，是保持網際網路生態系統健康衛生的關鍵。</span></p>
+<p><span style="font-weight: 400;">相關連結：</span></p>
+<p><span style="font-weight: 400;">Eduardo Alvarez (2021). Domain Registration Data: Advanced Lookup Functionality Now Available. ICANN Blogs.</span></p>
+<p><span style="font-weight: 400;">檢自：</span></p>
+<p><a href="https://www.icann.org/en/blogs/details/domain-registration-data-advanced-lookup-functionality-now-available-2-8-2021-en" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.icann.org/en/blogs/details/domain-registration-data-advanced-lookup-functionality-now-available-2-8-2021-en</span></a><span style="font-weight: 400;"> (Aug. 13, 2021)</span></p>
+<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/09/09/19654/">註冊資料查詢工具功能改善</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/09/09/19654/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/09/09/19654/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
 		<author>
 			<name>國際瞭望</name>
 					</author>
@@ -309,7 +782,7 @@
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/31/19780/" />
 
 		<id>https://blog.twnic.tw/?p=19780</id>
-		<updated>2021-09-06T00:29:52Z</updated>
+		<updated>2021-09-11T00:50:54Z</updated>
 		<published>2021-08-31T08:13:51Z</published>
 		<category scheme="https://blog.twnic.tw" term="最新消息" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="DNS" /><category scheme="https://blog.twnic.tw" term="HTTPS" /><category scheme="https://blog.twnic.tw" term="IP" /><category scheme="https://blog.twnic.tw" term="網域名稱" />
 		<summary type="html"><![CDATA[<img width="300" height="156" src="https://blog.twnic.tw/wp-content/uploads/2021/08/C1-1-300x156.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>TWNIC與日本域名註冊管理服務公司（JPRS）合作翻譯漫畫小手冊「彭太的網路大冒險（ポン太のネットの大冒険）」，希望以生動活潑的故事介紹平時我們不論是在上網、使用各種應用程式、寄送電子郵件，或是傳送訊息時都會接觸到網際網路不可或缺的網域名稱與DNS系統知識。</p>
@@ -319,7 +792,7 @@
 					<content type="html" xml:base="https://blog.twnic.tw/2021/08/31/19780/"><![CDATA[<img width="300" height="156" src="https://blog.twnic.tw/wp-content/uploads/2021/08/C1-1-300x156.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-size: 14pt;"><img loading="lazy" class="alignnone wp-image-19813 size-large" src="https://blog.twnic.tw/wp-content/uploads/2021/08/C2-1024x1017.png" alt="" width="1024" height="1017" /></span><br />
 <span style="font-size: 14pt;">你知道每天上網不可或缺的網域名稱、IP位址與網域名稱系統（DNS）等網路核心基礎設施是怎麼運作的嗎？</span></p>
 <p><span style="font-size: 14pt;">財團法人台灣網路資訊中心（Taiwan Network Information Center，TWNIC）與日本域名註冊管理服務公司（Japan Registry Services Co., Ltd.，JPRS）合作翻譯漫畫小手冊「彭太的網路大冒險（ポン太のネットの大冒険）」，JPRS自2010年以來持續免費發行漫畫小手冊，提供日本國高中等教育機構作為教材；希望以生動活潑的故事介紹平時我們不論是在上網、使用各種應用程式、寄送電子郵件，或是傳送訊息時都會接觸到網際網路不可或缺的網域名稱與DNS系統知識。</span></p>
-<p><span style="font-size: 14pt;">截至2017年為止，JPRS已在日本全國發行二十萬冊的漫畫，作為國高中資訊相關教育及資訊課程的輔助教材。</span></p>
+<p><span style="font-size: 14pt;">自發行十二年以來，JPRS已在日本全國1600個學校發行三十一萬冊的漫畫，作為國高中資訊相關教育及資訊課程的輔助教材。</span></p>
 <p><span style="font-size: 14pt;">在本手冊中您可以學習到：</span></p>
 <ul>
 <li><span style="font-size: 14pt;">網域名稱如何代表IP位址</span></li>
@@ -820,7 +1293,7 @@
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/30/19835/" />
 
 		<id>https://blog.twnic.tw/?p=19835</id>
-		<updated>2021-09-02T04:16:36Z</updated>
+		<updated>2021-09-09T02:11:25Z</updated>
 		<published>2021-08-30T03:46:57Z</published>
 		<category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="202109" /><category scheme="https://blog.twnic.tw" term="twsig" /><category scheme="https://blog.twnic.tw" term="資料治理" /><category scheme="https://blog.twnic.tw" term="跨境資料" />
 		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/social-media-6557345_640-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>隨著網際網路出現之後，社群平台科技業者經過演算法分析，在非常短的時間改變了傳播媒體生態及資訊取得的方式，注意力經濟除了過去傳統媒體外，科技業者也扮演重要角色。</p>
@@ -834,7 +1307,7 @@
 <p><span style="font-size: 14pt;">何明諠專案經理引用Tim Wu（吳修銘教授，哥倫比亞大學法學院）的觀點：注意力產業一直都在，問題不是注意力產業本身，而是注意力產業在哪裡賺錢？和過往傳統媒體時代，數位時代在演算法下產生了更大的負面影響，這也是為什麼我們要關心的原因。他也舉出近期大型科技業者公開資訊報告為例，說明人工智慧在內容審核上其實也扮演了很吃重的角色，被用來決定哪些內容應該被移除。為了讓內容審查機制透明化，國外也有公民團體提出聖塔克拉拉原則，就平台業者審查內容的數量、是否告知以及救濟管道等提出建議。對於社群平台業者應當扮演哪一種角色的提問，何明諠也期許大家思考，其實我們對未來社群平台樣貌的想像，等同於我們對網際網路未來樣貌的想像。他也帶出大家可進一步思考的問題，例如網際網路一開始創建所標榜的自由、開放與流通的目標，當今社群媒體的發展現況是否已偏離？每一種的社會價值出現時，本來就只代表著某個或某群人的判斷選擇，而演算法某個程度就是類似的運作，只是更強化了效果而已。</span></p>
 <p><span style="font-size: 14pt;">*因應疫情本場次全程直播，直播連結如下：<br />
 </span><a href="https://blog.twnic.tw/videosyt/注意力經濟持續發燒，我們該如何看待演算法？"><span style="font-size: 14pt;">注意力經濟持續發燒，我們該如何看待演算法？</span></a></p>
-<p><span style="font-size: 14pt;">台灣網路講堂網址: <a href="blank">http://twsig.tw/</a></span></p>
+<p><span style="font-size: 14pt;">台灣網路講堂網址: <a href="https://twsig.tw">http://twsig.tw/</a></span></p>
 <p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/30/19835/">台灣網路講堂：注意力經濟持續發燒，我們該如何看待演算法？會後報導</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
 ]]></content>
 		
@@ -955,7 +1428,7 @@
 		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/30/19831/" />
 
 		<id>https://blog.twnic.tw/?p=19831</id>
-		<updated>2021-09-07T09:04:20Z</updated>
+		<updated>2021-09-09T02:00:31Z</updated>
 		<published>2021-08-30T02:48:22Z</published>
 		<category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="電子報" /><category scheme="https://blog.twnic.tw" term="202109" /><category scheme="https://blog.twnic.tw" term="網域名稱" />
 		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/歡迎報名台灣網路講堂：資料治理與國際貿易-—-談跨境資料流通TWSIG-S8-1920-1080-main-1-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>網路數位服務為使用者帶來了重要的創新利益，透過開創新商機以促進跨境交易之活絡，進而刺激帶動國內市場之經濟發展，已然對社會與政經影響甚鉅。</p>
@@ -1665,745 +2138,6 @@
 		
 					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/16/19321/#comments" thr:count="0" />
 			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/16/19321/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>TWNIC</name>
-					</author>
-
-		<title type="html"><![CDATA[數千 Facebook 帳號資訊遭全新 Android FlyTrap 惡意軟體竊取]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/16/19619/" />
-
-		<id>https://blog.twnic.tw/?p=19619</id>
-		<updated>2021-08-13T01:49:23Z</updated>
-		<published>2021-08-16T05:41:03Z</published>
-		<category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="國內外重要資安事件" /><category scheme="https://blog.twnic.tw" term="國內外重要資安新聞" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0372108111745c0ea8-e1628819357200-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>資安廠商發現一個全新的 Android 惡意軟體 FlyTrap，會藉由提供折價券或有獎徵答遊戲，吸引用戶下載安裝並注入惡意木馬軟體，以竊取用戶的 Facebook 帳號相關資訊。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/16/19619/">數千 Facebook 帳號資訊遭全新 Android FlyTrap 惡意軟體竊取</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/16/19619/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0372108111745c0ea8-e1628819357200-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><section class="cp">資安廠商 Zimperium 旗下的研究團隊，日前發現一個全新的 Android 惡意軟體 FlyTrap，會藉由提供折價券或有獎徵答遊戲，吸引用戶下載安裝並注入惡意木馬軟體 FlyTrap，以竊取用戶的 Facebook 帳號相關資訊。根據 Zimperium 的研究報告指出，FlyTrap 會以簡單的社交工程手法，騙取用戶信任以下載其惡意軟體，並且在該 App 中登入 Facebook 帳號以參加抽獎或其他活動，例如 Netflix 專用折價券或 Google AdWords 的折價券等；受害者依其 App 指示登入其 Facebook 帳號後，該惡意軟體中的木馬程式即可透過內建的 JavaScript 注入以竊取用戶的 Facebook cookie、用戶帳號詳細資訊、所在地、IP 位址等。FlyTrap 收集到這些資訊後，即會上傳到駭侵者設立的控制伺服器；Zimperium 的資安專家發現該控制伺服器的漏洞並入侵後，取得了該批駭侵者竊得的資料。分析該批資料後，發現感染 FlyTrap 惡意軟體的 Android 手機超過 10,000 台以上，分布遍及全球 144 國，受害的 Facebook 用戶有數千名之多。</p>
-<p>值得注意的是，包含 FlyTrap 惡意軟體的 Android App，其用戶介面設計十分精良，且在 Google Play Store 與多個第三方 Android 行動應用程式商店均有上架；雖然在 Zimperium 通報 Google 後，這些惡意軟體已自 Google Play Store 下架，但仍在其他第三方 Android 行動應用程式商店中保持上架狀態。</p>
-</section>
-<div class="web_link">
-<h3>相關連結</h3>
-<ol>
-<li><a href="https://www.twcert.org.tw/tw/cp-104-5003-d6b79-1.html">TWCERT/CC</a></li>
-<li><a title="FlyTrap Android Malware Compromises Thousands of Facebook Accounts(另開新視窗)" href="https://blog.zimperium.com/flytrap-android-malware-compromises-thousands-of-facebook-accounts/" target="_blank" rel="noopener">FlyTrap Android Malware Compromises Thousands of Facebook Accounts</a></li>
-<li><a title="FlyTrap malware hijacks thousands of Facebook accounts(另開新視窗)" href="https://www.bleepingcomputer.com/news/security/flytrap-malware-hijacks-thousands-of-facebook-accounts/" target="_blank" rel="noopener">FlyTrap malware hijacks thousands of Facebook accounts</a></li>
-</ol>
-</div>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/16/19619/">數千 Facebook 帳號資訊遭全新 Android FlyTrap 惡意軟體竊取</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/16/19619/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/16/19619/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>黃士洲</name>
-					</author>
-
-		<title type="html"><![CDATA[數位電商模式與法令管制的新思維及調適——以外送平臺為例]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/15/19559/" />
-
-		<id>https://blog.twnic.tw/?p=19559</id>
-		<updated>2021-08-09T00:00:26Z</updated>
-		<published>2021-08-15T03:45:35Z</published>
-		<category scheme="https://blog.twnic.tw" term="政策" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="外送平臺" /><category scheme="https://blog.twnic.tw" term="專題文章" /><category scheme="https://blog.twnic.tw" term="數位電商" /><category scheme="https://blog.twnic.tw" term="營業稅" /><category scheme="https://blog.twnic.tw" term="網購" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/8-1_數位電商模式與法令管制的新思維及調適-——以外送平臺為例-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>今日的數位電商營運模式與技術背景已有極大革新，結合社群媒體、消費者個資追蹤與雲端大數據分析，準確、分眾行銷等正是數位電商的核心特徵。近年新興的外送平臺營運模式，營業稅的紙本發票即須適應雲端化的挑戰，准許外送平臺代開發票、收據，不失為可行的解決方案。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/15/19559/">數位電商模式與法令管制的新思維及調適——以外送平臺為例</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/15/19559/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/8-1_數位電商模式與法令管制的新思維及調適-——以外送平臺為例-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 100%; text-align: center;">黃士洲<br />
-國立臺北商業大學財政稅務系副教授</td>
-</tr>
-</tbody>
-</table>
-<p><span style="color: #3366ff;"><strong>數位電商與第一代電商差在哪裡？</strong></span></p>
-<p>十多年前開始流行「電子商務」（Electronic Commerce），到現在可以說已經變成包山包海的概念與口號。不過，近幾年電商的營運加入了社群媒體與雲端大數據，從一部分的電商進化到「數位電商」模式。</p>
-<p>一般電商（或稱之為「第一代電商」）模式，例如：網路平臺上開店，作網拍，或透過網路平臺張貼型錄、聯絡與付款方式，相對於最為傳統的實體商業通路，差別在於接單、付款與客服等商業流程透過線上化與電子化而獲得優化。至於數位電商則在一般電商的基礎上，進一步結合社群媒體與雲端大數據，由演算法記錄、追蹤、分析消費者參與互動的資訊與行為，之後再以社群、分享來進行準確、分眾的行銷。</p>
-<p>數位電商的營運大多架構在特定的國際平臺，例如：Facebook、Google Play、YouTube、Amazon，或如蝦皮、阿里巴巴等跨國網拍平臺，也被經濟合作暨發展組織（Organization for Economic Cooperation and Development，OECD）描述為「高度數位化營運模式」（highly digitalized business models），其特徵為在消費者所在國並不需要相當規模的實體營運處所，且仰賴智慧財產權（如：演算法、雲端技術）以及使用者參與貢獻資訊<a href="#note01" name="_ftnref1">[1]</a>。數位電商的特徵雖然開啟了不少新商機，讓零散的商家、個體戶可以快速、低廉的觸及並滿足消費者需求，隨之孕育各式各樣的「零工經濟」（Gig Economy，如：餐飲外送與勞務外包），以及「分享經濟」（Sharing Economy，如：分享機車與錯時停車）。</p>
-<p>相形於第一代電商只是把原來的營業流程予以線上、電子化，數位電商則以大數據與社群媒體來善用消費者資訊，已經不是單純的「量」的「改變」（Change），毋寧宜視之為「質」之「革新」（Transformation），較為恰當。正當數位電商蓬勃發展之際，其營運模式也隨之衍生新的風險與問題。以全球視野來說，最常被提起的是跨境電商課稅漏洞與個資保護。</p>
-<p><span style="color: #3366ff;"><strong>電商營運模式與稅務管制間的彼此調適：外送平臺與發票</strong></span></p>
-<p>有些消費者利用Foodpanda（以下簡稱富胖達）App平臺訂餐，餐點送到後，對發票內容會有點疑慮——我明明線上刷了500元，怎麼富胖達的發票只打服務費50元，剩下餐費怎沒打上呢？再摸摸餐點袋裡，或許會找到餐廳開的餐費發票，或許啥都沒有，這樣對嗎？到底有沒有逃漏稅啊？</p>
-<ul>
-<li><strong>外送平臺營運模式解說</strong></li>
-</ul>
-<p>若要釐清這個問題，得先從外送平臺的營運模式說起：</p>
-<p><a href="https://blog.twnic.tw/wp-content/uploads/2021/08/8-1-1.png"><img loading="lazy" class="aligncenter wp-image-19562 size-full" src="https://blog.twnic.tw/wp-content/uploads/2021/08/8-1-1.png" alt="" width="789" height="442" /></a></p>
-<p>資料來源：本文自行整理</p>
-<p>消費者小華在透過APP平臺向「彭湃牛排館」下單訂購450元的菲力牛排外送特餐，加上50元外送費，用綁定的信用卡一共刷了500元；約莫半小時後，外送員小明提著牛排餐盒，按門鈴在樓下請小華取餐，餐盒旁貼了一張450元的牛排館發票，50元外送費則由平臺商開立雲端發票直接歸戶給小華。</p>
-<p>外送員小明這一單賺到60元外送報酬，彭湃牛排館則是在按照7：3的分成比例，跟平臺結算315元的餐點費。隔天，小華急性腸胃炎住院，醫生懷疑牛排配菜可能感染大腸桿菌，小華致電平臺客服，客服建議小華直接聯繫牛排館求償。</p>
-<ul>
-<li><strong>外送平臺的契約關係</strong></li>
-</ul>
-<p>上面外送平臺的契約關係有兩個主軸，一是訂餐平臺派遣外送員取送餐，其二是合作餐廳販售餐點給消費者，兩組契約關係在法律上彼此獨立，外送平臺只對餐點送達負責，餐點的品質問題則由合作餐廳負責；所以，外送平臺也只對外送/平臺服務部分的收款來開立發票，餐點的銷售額則由合作餐廳開立。如果合作餐廳是不使用統一發票的小規模營業人（每月營收20萬元以下），消費者也就拿不到發票（可能有手開收據）。</p>
-<p>這樣的契約關係，也可參考富胖達的網站說明<a href="#note01" name="_ftnref2">[2]</a>如下：</p>
-<ul>
-<li><strong>請問我消費的發票是如何開立呢？</strong></li>
-</ul>
-<p>foodpanda係專業的餐點網路平臺服務業者，因此您將會收到由foodpanda開立的<strong><u>平臺服務費電子發票</u></strong>。</p>
-<p>您所訂購的餐點係由各個餐廳店家精心製作準備，並且從<strong><u>餐廳店家直接外送至消費者手中，所以您收到餐點的同時，也會一併收到由餐廳店家開立的餐點金額發票/收據</u></strong>。</p>
-<ul>
-<li><strong>請問我訂購的餐點有瑕疵我該向誰求償呢？</strong></li>
-</ul>
-<p>您所訂購的餐點係由各個餐廳店家精心製作準備，並且<strong><u>從餐廳店家直接外送至消費者手中，所以餐點製作瑕疵（例如食品安全）將由餐廳店家直接負責</u></strong>。</p>
-<p>若餐點在<strong><u>運送途中因為碰撞、翻覆導致包裝破損、污損等，屬於外送服務直接致使餐點品質有瑕疵時，則由foodpanda負責</u>。</strong></p>
-<p>富胖達的發票流程對應了雙主軸（餐點與遞送）的契約關係，消費者只拿到一張富胖達的外送服務發票；但也有電商平臺直接按照消費全部總額開立發票，這是怎麼回事？</p>
-<ul>
-<li><strong>UberEats落地臺灣經營基於刷卡與稅務成本考量</strong></li>
-</ul>
-<p>不同於富胖達是境內公司，早先Uber Eats（以下簡稱「吳柏毅」）是以跨境電商（荷蘭登記公司）的身分提供外送服務，為了簡化境內與境外帳務，將餐點費與外送費直接合開一張發票（與富胖達的比較如下表<a href="#_ftn1" name="_ftnref3">[3]</a>）。在2021年2月吳柏毅改以境內子公司營運，換言之，落地成為本地電商<a href="#_ftn2" name="_ftnref4">[4]</a>，比照富胖達營運模式。境外改境內的可能是為了省下1.5%的國外刷卡手續費，以及從消費總額開發票，改為只針對外送費開發票，也可節省相當的營業稅成本。</p>
-<p><a href="https://blog.twnic.tw/wp-content/uploads/2021/08/8-1-2.jpg"><img loading="lazy" class="aligncenter wp-image-19564 size-full" src="https://blog.twnic.tw/wp-content/uploads/2021/08/8-1-2.jpg" alt="" width="600" height="359" /></a></p>
-<p>圖片來源：工商時報</p>
-<p>以消費總額開一張發票，或將餐點費、外送費分由店家與外送平臺各開一張發票，營業稅務成本差別頗大。若由外送平臺按消費總額（如前例的500元），之後外送平臺還得向店家取得餐點費（450元）發票，才能扣抵進項稅額，如果合作店家是不使用統一發票的麵店、早餐店或路邊餐廳等小規模營業人，無法提供可以扣抵的統一發票，這時候餐點費理當內含的營業稅額就得由外送平臺自行吸收，或者向合作店家與消費者提高餐點分潤與外送費，不論何者在外送平臺競爭白熱化、利潤錙銖必較之時，在在都削弱了競爭力。再者，除了無法取得部分店家發票扣抵的問題之外，若以境外電商身分營運，申報營業稅進銷項扣抵時，往往還須核對跨境金流，付出額外帳務處理成本。</p>
-<p><span style="color: #3366ff;"><strong>優化外送平臺的稅務管制流程建議</strong></span></p>
-<p>自2020年起，外送平臺已經成為我們應對疫情衝擊與疫後新常態，不可或缺的重要物流通道，尤其是在2021年5月中實施三級警戒，餐飲業全面禁止內用之後，大小店家都更加仰賴外送平臺服務。但是占掉外送服務一大部分的店家，根本開不出發票來，即便連收據也可能不會主動開立，而企業帳務管理又受到我國特有統一發票制度的制約——「有紙本發票才能報帳、抵稅，儘量不要拿一般收據」<a href="#_ftn3" name="_ftnref5">[5]</a>，相當不利小店家在外送平臺經濟之中的公平競爭。</p>
-<p>若以繼續維持統一發票作為唯一稅務憑證的現行制度為前提，小店家的稅務困境，還是可以透過政策鬆綁與平臺的協力，獲得相當的改善，特別是當外送或其他平臺掌握了特約店家所有銷售資料與金流，定期自動彙報稽徵機關，相當程度減少小店家隱匿銷售額逃漏稅的動機：</p>
-<ol>
-<li>現行普通收據扣抵企業費用有千分之三十的上限限制，可以針對利用平臺銷售的店家，予以適度放寬，或乾脆排除適用。</li>
-<li>依照平臺銷售資料，「小店家」已經達到使用統一發票的標準時，小店家若選擇導入雲端電子發票系統，可申請配套的鼓勵、補助措施。<a id="note01"></a></li>
-<li>允許平臺可以用旗下特約店家的名義，以雲端方式，向消費者代開統一發票或收據，當消費者有扣抵營業稅或列報企業費用的需求時，可以自行列印，視同特約店家所開立。</li>
-</ol>
-<p><a href="#_ftnref1" name="_ftn1">[1]</a> 關於高度數位化營運模式的三項特徵，可參閱OECD, <a href="https://www.oecd-ilibrary.org/docserver/9789264293083-en.pdf?expires=1627290133&amp;id=id&amp;accname=guest&amp;checksum=273C8731E21C66919CF32D4784997FEE" target="_blank" rel="noopener">Tax Challenges Arising from Digitalisation-Interim Report 2018</a>, 第24頁, 第32-35段。</p>
-<p><a href="#_ftnref2" name="_ftn2">[2]</a> Foodpanda.com (2021). 常見問題。</p>
-<p>檢自：<a href="https://www.foodpanda.com.tw/contents/contact.htm" target="_blank" rel="noopener">https://www.foodpanda.com.tw/contents/contact.htm</a> (Jul. 26, 2021)。</p>
-<p><a href="#_ftnref3" name="_ftn3">[3]</a> 工商時報林昱鈞 (2020)。熊貓、UberEats開發票方式大不同。檢自：<a href="https://ctee.com.tw/news/tax-law/215244.html" target="_blank" rel="noopener">https://ctee.com.tw/news/tax-law/215244.html</a>  (Jul. 26, 2021)。</p>
-<p><a href="#_ftnref4" name="_ftn4">[4]</a> 新頭殼newtalk張家寧 (2021)。Uber Eats正式「落地台灣」！2/1起免收海外刷卡手續費。檢自：<a href="https://newtalk.tw/news/view/2021-01-29/530483" target="_blank" rel="noopener">https://newtalk.tw/news/view/2021-01-29/530483</a> (Jul. 26, 2021)。</p>
-<p><a href="#_ftnref5" name="_ftn5">[5]</a> 營業稅法第33條規定，除非財政部例外准許，否則只有依規定取得的統一發票才可以作扣抵稅額的進項憑證；營利事業所得稅查核準則第67條第2項規定，以普通收據列報費用不可以超過營業費用總額的百分之三。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/15/19559/">數位電商模式與法令管制的新思維及調適——以外送平臺為例</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/15/19559/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/15/19559/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[少了網路，我們將無法實現永續發展目標]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/13/19323/" />
-
-		<id>https://blog.twnic.tw/?p=19323</id>
-		<updated>2021-08-18T00:00:56Z</updated>
-		<published>2021-08-13T05:52:04Z</published>
-		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="ISOC" /><category scheme="https://blog.twnic.tw" term="SDG" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/0719-0723_少了網路，我們將無法實現永續發展目標-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>ISOC網路發展專案小組的資深副總裁Jane Coffin，在2021年7月上旬參加了聯合國「永續發展高階政治論壇」（HLPF），她認為這是一個討論如何從COVID-19疫情中持續復甦的絕佳機會，也藉此突顯出網路的不可或缺。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/13/19323/">少了網路，我們將無法實現永續發展目標</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/13/19323/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/0719-0723_少了網路，我們將無法實現永續發展目標-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">網際網路協會（Internet Society，ISOC）網路發展專案小組的資深副總裁Jane Coffin，在2021年7月上旬參加了聯合國「永續發展高階政治論壇」（High Level Political Forum on Sustainable Development，HLPF），她認為這是一個討論如何從COVID-19疫情中持續復甦的絕佳機會，也能藉此突顯出網路的不可或缺。</span></p>
-<p><span style="font-weight: 400;">Coffin表示，她難以想像如果沒有網路，人們要如何在疫情下維持生活，研究人員在防止COVID-19疫情傳播以及合作開發疫苗時，也都會面臨到更大的挑戰。受惠於網路，讓許多人得以選擇居家工作，或是遠距學習。</span></p>
-<p><span style="font-weight: 400;">然而，目前世界上仍有將近一半的人口無法使用網路，原因林林總總，可能是基礎設施不足，或無法負擔上網的服務費用，也可能是因為缺乏相關的數位技能。隨著網路與數位技術日漸重要，如何加緊腳步讓這些人口也能上線，成為更加急迫的問題。</span></p>
-<p><span style="font-weight: 400;">聯合國的永續發展目標（Sustainable Development Goals，SDGs）正是考量到這一點，在過去曾呼籲到了2020年時，最低度開發國家也能達到網路的普及與近用，時至今日，這個目標顯然還很遙遠。</span></p>
-<p><span style="font-weight: 400;">ISOC認為，網路乃是為了大眾而存在，亦認同聯合國秘書長提出的數位合作地圖當中以人為本之做法。近年來，ISOC深刻體認到，這項努力需要仰賴多方利害關係人的參與、由下而上的治理模式，同時以社群為基礎漸進提升，這也是經濟與社會進步可持續的關鍵。</span></p>
-<p><span style="font-weight: 400;">ISOC呼籲各國政府應創造一個有利的環境，讓政府的利害關係人、民間社會組織、企業，以及技術社群成員，得以共同努力尋找創新的解決方案，進而拓展我們邁向網路普及與近用的康莊大道。</span></p>
-<p><span style="font-weight: 400;">相關連結：</span></p>
-<p><span style="font-weight: 400;">Jane Coffin (2021). We Can’t Achieve the Sustainable Development Goals without the Internet. Internet Society.</span></p>
-<p><span style="font-weight: 400;">檢自：</span></p>
-<p><a href="https://www.internetsociety.org/blog/2021/07/we-cant-achieve-the-sustainable-development-goals-without-the-internet/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.internetsociety.org/blog/2021/07/we-cant-achieve-the-sustainable-development-goals-without-the-internet/</span></a><span style="font-weight: 400;"> (Jul. 16, 2021)</span></p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/13/19323/">少了網路，我們將無法實現永續發展目標</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/13/19323/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/13/19323/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>TWNIC</name>
-					</author>
-
-		<title type="html"><![CDATA[台灣資安專家發表 MS Exchange Server ProxyShell 漏洞報告後，有駭侵者開始進行惡意掃瞄]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/13/19615/" />
-
-		<id>https://blog.twnic.tw/?p=19615</id>
-		<updated>2021-08-13T01:43:57Z</updated>
-		<published>2021-08-13T05:40:57Z</published>
-		<category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="國內外重要資安事件" /><category scheme="https://blog.twnic.tw" term="國內外重要資安新聞" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/4712108101712af1af-e1628819006746-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>台灣資安廠商研究員在近期的一場學術會議上發表關於 Microsoft Exchange 的資安漏洞相關報告後，即有駭侵者開始利用這些漏洞進行掃瞄，意圖利用這些漏洞發動攻擊。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/13/19615/">台灣資安專家發表 MS Exchange Server ProxyShell 漏洞報告後，有駭侵者開始進行惡意掃瞄</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/13/19615/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/4712108101712af1af-e1628819006746-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><section class="cp">台灣資安廠商 DEVCORE 研究員蔡政達（Orange Tsai），在近期的一場學術會議 Black Hat talk 上發表關於 Microsoft Exchange 的資安漏洞相關報告後，即有駭侵者開始利用這些漏洞，針對網路上的 Microsoft Exchange Server 進行掃瞄，意圖利用這些漏洞發動攻擊。<br />
-駭侵者掃瞄並欲加以利用的一組三個 MS Exchange Server 漏洞，被合稱為 ProxyShell 漏洞，分別是 CVE-2021-34474、CVE-2021-34523 與 CVE-2021-31207，這三個漏洞的組合，可讓駭侵者不需要經過登入驗證，即可在 Microsoft Exchange Server 上遠端執行任意程式碼。<br />
-台灣資安廠商 DEVCORE 的首席研究員蔡政達，因為發現這三個漏洞而獲得今年四月 Pwn2Own 2021 駭侵測試的大獎，而這些漏洞也在今年四月到五月之間，由 Microsoft 官方發布的資安修補程式予以修復。<br />
-在蔡政達於在 Black Hat talk 上發表研究成果，並解釋 ProxyShell 漏洞可以如何運作後，另有兩位資安研究專家發表了相關技術研究報告，指出如何實作該漏洞的攻擊後，就有另一位資安專家 Kevin Beaumont 發現有駭侵者試圖偵測他設立的 Microsoft Exchange Server 是否有該漏洞可入侵，在進一步追查後，發現有駭侵者開始大規模掃瞄網路上的 Microsoft Exchange Server，以利用 ProxyShell 漏洞發動攻擊。<br />
-Kevin Beaumount 指出，雖然微軟早在四月就針對 ProxyShell 相關漏洞發表更新，但據信整個 Internet 上還有 50% 的 Microsoft Exchange Server 尚未套用這些更新。</p>
-</section>
-<div class="web_link">
-<h3>相關連結</h3>
-<ol>
-<li><a href="https://www.twcert.org.tw/tw/cp-104-4999-4d782-1.html">TWCERT/CC</a></li>
-<li><a title="ProxyLogon is Just the Tip of the Iceberg: A New Attack Surface on Microsoft Exchange Server!(另開新視窗)" href="https://www.blackhat.com/us-21/briefings/schedule/index.html#proxylogon-is-just-the-tip-of-the-iceberg-a-new-attack-surface-on-microsoft-exchange-server-23442" target="_blank" rel="noopener">ProxyLogon is Just the Tip of the Iceberg: A New Attack Surface on Microsoft Exchange Server!</a></li>
-<li><a title="Kevin Beaumont @GossiTheDog(另開新視窗)" href="https://twitter.com/GossiTheDog/status/1422178411385065476" target="_blank" rel="noopener">Kevin Beaumont @GossiTheDog</a></li>
-<li><a title="Kevin Beaumont @GossiTheDog CVE-2021-34473(另開新視窗)" href="https://twitter.com/GossiTheDog/status/1423997607211327491" target="_blank" rel="noopener">Kevin Beaumont @GossiTheDog CVE-2021-34473</a></li>
-</ol>
-</div>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/13/19615/">台灣資安專家發表 MS Exchange Server ProxyShell 漏洞報告後，有駭侵者開始進行惡意掃瞄</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/13/19615/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/13/19615/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>TWNIC</name>
-					</author>
-
-		<title type="html"><![CDATA[去中心化交易協定 Poly Network 遭駭，被竊資金高達 6.11 億美元]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/13/19623/" />
-
-		<id>https://blog.twnic.tw/?p=19623</id>
-		<updated>2021-08-13T01:48:25Z</updated>
-		<published>2021-08-13T01:48:25Z</published>
-		<category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="國內外重要資安事件" /><category scheme="https://blog.twnic.tw" term="國內外重要資安新聞" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/052210811174820103-e1628819291457-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>跨鏈加密貨幣交易平台 Poly Network，日前發生加密貨幣史上最大駭侵案件；該協定在數個區塊鏈的流動性池同時遭到駭侵攻擊，損失金額高達 6.11 億美元。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/13/19623/">去中心化交易協定 Poly Network 遭駭，被竊資金高達 6.11 億美元</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/13/19623/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/052210811174820103-e1628819291457-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><section class="cp">提供跨區塊鏈加密貨幣交易轉換的交易平台 Poly Network，日前發生加密貨幣史上最大的駭侵案件；該協定在數個區塊鏈的流動性池，在同一時間遭到駭侵攻擊，被竊取的損失金額高達 6.11 億美元。</p>
-<p>Poly Network 提供的服務，是在不同的區塊鏈上轉換加密貨幣，包括比特幣、以太幣與 Ontology。據區塊鏈專業媒體 The Block 的研究人員 Igor Igamberdiev 指出，Poly Network 被攻擊的原因是出在加密問題之上。</p>
-<p>這次 Poly Network 被竊事件，同時發生在多個區塊鏈協定上；據目前的估計，Poly Network 在以太坊上被竊的以太幣資金多達 2.73 億美元、在幣安智慧鏈 (Binance Smart Chain）上損失的幣安幣（BNB）也高達 2.53 億美元、而在 Polygon Network 區塊鏈上損失的 USDC 穩定幣則為 8,500 萬美元。</p>
-<p>值得一提的是，在這起駭侵事件發生後，管理集中化穩定幣泰達幣（USDT）的 Tether 公司，立即將等值 3,300 萬美元的泰達幣加以鎖定，使得駭客無法進行轉帳洗錢。</p>
-<p>不過，幣安交易所的創辦人則在 Twitter 上指出，該公司雖然知道這次攻擊事件，也盡全力提供各式協助，但因為幣安智慧鏈與以太坊都是高度去中心化的區塊鏈，沒有人能夠完全控制該鏈上的活動，因此無法保證任何事，只能在其能力範圍能盡力協助。</p>
-<p>目前幣圈各界正在密切注意被竊資金的流向，但駭客很可能透過隱密性較高的門羅幣等其他加密貨幣進行洗錢。該案後續發展仍有待觀察。</p>
-</section>
-<div class="web_link">
-<h3>相關連結</h3>
-<ol>
-<li><a href="https://www.twcert.org.tw/tw/cp-104-5005-2f8ae-1.html">TWCERT/CC</a></li>
-<li><a title="At least $611 million stolen in massive cross-chain hack(另開新視窗)" href="https://www.theblockcrypto.com/post/114045/at-least-611-million-stolen-in-massive-cross-chain-hack" target="_blank" rel="noopener">At least $611 million stolen in massive cross-chain hack</a></li>
-<li><a title="Over $600 million reportedly stolen in cryptocurrency hack(另開新視窗)" href="https://www.bleepingcomputer.com/news/security/over-600-million-reportedly-stolen-in-cryptocurrency-hack/" target="_blank" rel="noopener">Over $600 million reportedly stolen in cryptocurrency hack</a></li>
-</ol>
-</div>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/13/19623/">去中心化交易協定 Poly Network 遭駭，被竊資金高達 6.11 億美元</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/13/19623/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/13/19623/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>TWNIC</name>
-					</author>
-
-		<title type="html"><![CDATA[.tw數位公益計畫徵案]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/12/19612/" />
-
-		<id>https://blog.twnic.tw/?p=19612</id>
-		<updated>2021-08-13T06:11:43Z</updated>
-		<published>2021-08-12T09:34:29Z</published>
-		<category scheme="https://blog.twnic.tw" term="最新消息" /><category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="公益" /><category scheme="https://blog.twnic.tw" term="數位公益" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2020/08/google-grants-4297725_1280-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>本中心秉於回饋社會之宗旨推出.tw網域名稱保留字拍賣，並將拍賣收益所得作為公益用途。2021年度「.tw數位公益計畫」徵案將公開向我國網路社群徵求提案規劃，主題以推動台灣數位網路之應用於社會、文化、教育、外交等鼓勵數位創新之相關主題為此次徵案範圍。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/12/19612/">.tw數位公益計畫徵案</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/12/19612/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2020/08/google-grants-4297725_1280-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>一、說明<br />
-本中心秉於回饋社會之宗旨推出.tw網域名稱保留字拍賣，並將拍賣收益所得作為公益用途。110年度「.tw數位公益計畫」徵案將公開向我國網路社群徵求提案規劃，主題以推動台灣數位網路之應用於社會、文化、教育、外交等鼓勵數位創新之相關主題為此次徵案範圍。</p>
-<p>二、目的<br />
-期能藉由本次公益計畫徵案，在數位時代中共同建置包容性的數位服務，促進數位創新、網路應用，幫助更多數位弱勢族群改善在數位時代下的數位能力。</p>
-<p>三、徵選辦法</p>
-<ol>
-<li>申請資格：本國合法立案之機關或團體。</li>
-<li>申請期間：自公告日起至民國110年9月12日中午12:00截止。</li>
-<li>審核時間：預訂於民國110年9月。</li>
-<li>徵案名額：2名。</li>
-<li>計畫經費：獲選企畫案最高可獲得專案補助經費新台幣 25 萬元整。</li>
-<li>送件方式：</li>
-</ol>
-<ul>
-<li style="list-style-type: none;">
-<ul>
-<li>限採E-mail寄送至<a href="mailto:ia@twnic.tw">ia@twnic.tw</a>。</li>
-<li>郵件主旨應為【.tw數位公益計畫徵案】+聯絡人姓名。<br />
-例如：【.tw數位公益計畫徵案】李大華(上述李大華為聯絡人者姓名之舉例)</li>
-<li>郵件附件請檢附【<a href="https://blog.twnic.tw/wp-content/uploads/2020/08/申請書_tw數位公益計畫徵案-2.pdf">.tw數位公益計畫申請書</a><strong>】</strong>及【計畫書】(限PDF格式)。</li>
-</ul>
-</li>
-</ul>
-<ol start="7">
-<li>提案內容：<br />
-須企劃以推動台灣數位網路之應用於社會、文化、教育、外交等鼓勵數位創新之相關主題。活動企畫書至少應包括以下項目(但不限)：</li>
-</ol>
-<ul>
-<li style="list-style-type: none;">
-<ul>
-<li>企畫名稱：</li>
-<li>活動目的：</li>
-<li>預期成果：</li>
-<li>執行架構：(請以架構圖呈現)</li>
-<li>活動對象：</li>
-<li>執行方式：</li>
-<li>經費規劃： (經費項目不得包括：主持人費、學校場地使用費、設備費、器材、材料費)</li>
-<li>活動時程： (須於111年9月30日前完成)</li>
-<li>執行團隊簡介：</li>
-</ul>
-</li>
-</ul>
-<ol start="8">
-<li>評審標準<br />
-審查將以提案計畫書為主，計畫書內容之應備項目及相關評分說明如下，本中心將於收到提案後，邀請申請單位進行提案簡報說明。</p>
-<table style="height: 50px; width: 95.9284%; border-style: dotted;" width="64.6475%" cellpadding="0">
-<tbody>
-<tr style="height: 10px;">
-<td style="text-align: center; border-style: solid; background-color: #3da5d9; vertical-align: middle; height: 0px; width: 33.2793%;" width="208">評分項目</td>
-<td style="text-align: center; border-style: solid; background-color: #3da5d9; vertical-align: middle; height: 0px; width: 50.8946%;" width="293">審查重點</td>
-<td style="text-align: center; border-style: solid; background-color: #3da5d9; vertical-align: middle; height: 0px; width: 15.6522%;" width="59">配分</td>
-</tr>
-<tr style="height: 182px;">
-<td style="height: 10px; width: 33.2793%;" width="208">提案之專案內容規劃</td>
-<td style="height: 10px; width: 50.8946%;" width="293">
-<ul style="list-style-type: disc;">
-<li>提案內容整體架構。</li>
-<li>符合本案公益目的，具有公益使命之價值效益。</li>
-<li>網路社群的資源連結與運用。</li>
-</ul>
-</td>
-<td style="height: 10px; width: 15.6522%;" width="59">30%</td>
-</tr>
-<tr style="height: 107px;">
-<td style="height: 10px; width: 33.2793%;" width="208">提案企劃可行性及可執行性</td>
-<td style="height: 10px; width: 50.8946%;" width="293">
-<ul style="list-style-type: disc;">
-<li>內外部資源整合</li>
-<li>提案構想實體呈現</li>
-</ul>
-</td>
-<td style="height: 10px; width: 15.6522%;" width="59">30%</td>
-</tr>
-<tr style="height: 62px;">
-<td style="height: 10px; width: 33.2793%;" width="208">執行團隊經驗及能力</td>
-<td style="height: 10px; width: 50.8946%;" width="293">
-<ul style="list-style-type: disc;">
-<li>提案團隊過往經驗及能力</li>
-</ul>
-</td>
-<td style="height: 10px; width: 15.6522%;" width="59">30%</td>
-</tr>
-<tr style="height: 18px;">
-<td style="height: 10px; width: 33.2793%;" width="208">經費規劃</td>
-<td style="height: 10px; width: 50.8946%;" width="293">
-<ul style="list-style-type: disc;">
-<li>經費配置</li>
-</ul>
-</td>
-<td style="height: 10px; width: 15.6522%;" width="59">10%</td>
-</tr>
-<tr style="height: 10px;">
-<td style="height: 10px; width: 84.1739%;" colspan="2" width="501">合計</td>
-<td style="height: 10px; width: 15.6522%;" width="59">100%</td>
-</tr>
-</tbody>
-</table>
-</li>
-</ol>
-<ol start="9">
-<li>其他注意事項：</li>
-</ol>
-<ul>
-<li style="list-style-type: none;">
-<ul>
-<li>各機關或團體申請提案以一件為限。</li>
-<li>計畫執行時程最遲須於民國111年9月30日前完成</li>
-<li>獲選企畫案其執行機關或團體須與本中心簽訂公益活動合作備忘錄，以作為雙方合作之依據。</li>
-<li>本活動補助經費不得使用於申請書所列活動項目以外之項目，未依規定者，本中心有權取消補助經費，執行機關或團體應依規定繳回所有款項。</li>
-<li>執行機關或團體應於執行活動結束後一個月內完成結案，檢附補助經費支出明細表及活動成果報告等相關文件寄回本中心予以備查。原始憑證，請自行留存、整理，以配合相關單位查核。</li>
-<li>執行機關或團體應確實依據計畫內容及補助經費規劃執行各項活動。如需變更原計畫之活動內容，應於活動執行前告知本中心，並取得本中心之同意，方可變更。未依規定者，本中心有權取消補助經費，執行機關或團體應依規定繳回所有款項。</li>
-</ul>
-</li>
-</ul>
-<ol start="10">
-<li>智慧財產權規定事項</li>
-</ol>
-<ul>
-<li style="list-style-type: none;">
-<ul>
-<li>執行機關或團體之計畫案及活動期間出版品(含活動文宣、場地佈置、活動手冊等)不得抄襲他人之商標、智慧財產權，包括專利、營業秘密、著作權、商標表徵、工業設計或著作人格權等。</li>
-<li>若執行機關或團體違反前項規定或遇有第三人主張侵權，本中心將有權取消補助經費，執行機關或團體應依規定繳回所有款項，並負擔一切法律責任。</li>
-</ul>
-</li>
-</ul>
-<p style="text-align: center;"><strong>.tw</strong><strong>數位公益計畫<br />
-</strong><strong>合作備忘錄</strong></p>
-<p>&nbsp;</p>
-<p><u>財團法人台灣網路資訊中心</u> (以下稱「甲方」) 同意補助</p>
-<p><u>                                                 </u> (以下稱「乙方」) 執行「.tw數位公益計畫」。雙方並同意以下條款：</p>
-<p>一、補助金額共新台幣<u>           </u>元整。<br />
-由乙方開立收據後，甲方將補助全額一次匯入乙方指定<br />
-帳        戶：<u><br />
-</u>銀行名稱：<u><br />
-</u>帳         號：<u><br />
-</u>戶         名：<u>                                                                  </u></p>
-<p>二、乙方接受活動補助，義務如下：</p>
-<ol>
-<li>乙方應恪守本活動之工作理念和宗旨，切實執行附件企畫書中所載全部規畫內容，且應達成驗證標準。</li>
-<li>所有活動均應接受甲方查核。未經甲方同意不得變更活動內容。</li>
-<li>乙方應於111年9月30日完成計畫，並於計畫執行結束後一個月內，檢附活動成果報告供甲方備查。</li>
-<li>本案活動成果報告須附活動照片或影片，並提供電子檔，該活動照片或影片無條件授權甲方永久、無償、不限次數/數量利用。</li>
-<li>乙方如未依附件企畫書所載內容執行，甲方有權取消補助經費，乙方應一次全額繳回已撥付之補助款項。</li>
-</ol>
-<p>三、 智慧財產權規定事項</p>
-<ol>
-<li>乙方之計畫書及活動期間出版品(含活動文宣、場地佈置、活動手冊等)不得抄襲他人之商標、智慧財產權，包括專利、營業秘密、著作權、商標表徵、工業設計或著作人格權等。</li>
-<li>如違反前項規定或遇有第三人主張侵權，甲方將有權取消補助經費，受補助單位應依規定繳回所有補助款項，並負擔一切法律責任。</li>
-<li>乙方及受雇人及代理人因執行本合作備忘錄所知悉甲方機密資訊，於本合作期間及終止、屆滿後二年內，均須保守秘密。</li>
-<li>本合作備忘錄之權利義務不得移轉或讓與予任何第三人。未經甲方事前書面同意所為之移轉或讓與對甲方不生效力。</li>
-<li>附件之計畫書為本合作備忘錄之一部份，但如與本本合作備忘錄有任何衝突，應以本合作備忘錄為準。</li>
-<li>如因本合作備忘錄之事項及相關事項發生爭議，雙方應以善意協商解決。如無法解決，應由台灣台北地方法院審理。</li>
-</ol>
-<p>&nbsp;</p>
-<table style="width: 100%; height: 370px;" width="589">
-<tbody>
-<tr style="height: 25px;">
-<td style="height: 25px;" colspan="2" width="287">甲方</td>
-<td style="height: 25px;" colspan="2" width="302">乙方</td>
-</tr>
-<tr style="height: 69px;">
-<td style="height: 69px;" width="79">單  位：</td>
-<td style="height: 69px;" width="208"></td>
-<td style="height: 69px;" width="85">單  位：</td>
-<td style="height: 69px;" width="217"></td>
-</tr>
-<tr style="height: 69px;">
-<td style="height: 69px;" width="79">代表人：</td>
-<td style="height: 69px;" width="208"></td>
-<td style="height: 69px;" width="85">代表人：</td>
-<td style="height: 69px;" width="217"></td>
-</tr>
-<tr style="height: 69px;">
-<td style="height: 69px;" width="79">連絡人：</td>
-<td style="height: 69px;" width="208"></td>
-<td style="height: 69px;" width="85">連絡人：</td>
-<td style="height: 69px;" width="217"></td>
-</tr>
-<tr style="height: 69px;">
-<td style="height: 69px;" width="79">地  址：</td>
-<td style="height: 69px;" width="208"></td>
-<td style="height: 69px;" width="85">地  址：</td>
-<td style="height: 69px;" width="217"></td>
-</tr>
-<tr style="height: 69px;">
-<td style="height: 69px;" width="79">電  話：</td>
-<td style="height: 69px;" width="208"></td>
-<td style="height: 69px;" width="85">電  話：</td>
-<td style="height: 69px;" width="217"></td>
-</tr>
-</tbody>
-</table>
-<p style="text-align: center;">中華民國110年<u>    </u>月<u>     </u>日</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/12/19612/">.tw數位公益計畫徵案</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/12/19612/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/12/19612/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[IETF進化史]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/12/19325/" />
-
-		<id>https://blog.twnic.tw/?p=19325</id>
-		<updated>2021-07-28T08:38:06Z</updated>
-		<published>2021-08-12T05:52:06Z</published>
-		<category scheme="https://blog.twnic.tw" term="發展" /><category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="IETF" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="專題文章" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/7-2_IETF進化史-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>起源於 1969 年的 IETF，今日已是全球最具影響力的標準制定組織。ITUT 的網路安全報告員 Anthony Rutkowski 撰文爬梳 IETF 歷年會議紀錄，藉以了 解 IETF 的參與人口組成變化，如何反映科技與市場幾十年來的劇烈改變，以及 IETF 如何與時俱進。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/12/19325/">IETF進化史</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/12/19325/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/7-2_IETF進化史-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>過去50多年來，網際網路工程任務組（Internet Engineering Task Force，IETF）這個集合體制定了無數網路協定，成功打造今日的數位網路設備及服務全球市場。起始於1969年，這個當初由網路研究人員鬆散組成的智庫，現在已是全球最具影響力的標準制定組織。</p>
-<p>喬治亞理工學院山姆能恩國際事務學院（Sam Nunn School of International Affairs）國際策略、科技及政策中心（Center for International Strategy, Technology, and Policy，CISTP）特聘資深研究員Anthony Rutkowski特別撰寫「The IETF Evolution」一文，透過爬梳IETF歷年會議紀錄，了解IETF的參與人口組成變化，如何反映科技與市場幾十年來的劇烈改變，以及IETF如何與時俱進。他特別聲明，文章目的並非作為「IETF正史」，僅希望透過回溯紀錄，成為一個墊腳石，供更多人進一步了解、剖析IETF的參與人口組成。</p>
-<p>如Rutkowski所述，歷史事實在不同的詮釋角度下，也可能顯得截然不同。本文摘要翻譯Rutkowski「The IETF Evolution」一文，其中陳述的觀點、立場及價值判斷，也請讀者自行斟酌理解。</p>
-<p><span style="color: #3366ff;"><strong>起始（1969 – 1986）</strong></span></p>
-<p>1969年4月，一群高級研究規劃局（Advanced Research Projects Agency，ARPA）的網路研究人員之間，開始流傳「徵求意見稿」（Request for Comments，RFC）文件，這群人與RFC，就是IETF的雛形。這個由Steve Crocker領頭，自稱網路工作組（Network Working Group，NWG）的鬆散組織，成員主要來自2家私人企業及2所大學，再加上ARPA資訊處理技術辦公室（Information Processing Techniques Office，IPTO）的主任。</p>
-<p>到了1971年，NWG的成員已擴充到涵蓋7家私人企業及7所大學，也陸續成立處理如資料管理、網路圖像、電子郵件及各式協定等不同議題的子工作組。但在這之後的15年，NWG並未繼續擴張，成員仍以國防高級研究計劃局（Defense Advanced Research Project Agency，DARPA）相關研究人員為限，RFC也僅在此群體內公開流通。</p>
-<p>同一期間，許多其他重要的網際網路組織也陸續誕生，包括由時任ARPRANET專案經理Vint Cerf在1980年成立的網際網路設定控制委員會（Internet Configuration Control Board，ICCB）。ICCB在之後幾年被網際網路諮詢委員會（Internet Advisory Board）取代，最後正式定名為網際網路架構委員會（Internet Architecture Board，IAB）。</p>
-<p><span style="color: #3366ff;"><strong>初期架構及使命（1986 – 1990）</strong></span></p>
-<p>在1986年DARPA閘道演算法及資料架構任務組（Gateway Algorithms and Data Structures Task Force）的第四屆會議中，以「找出並解決國防部網際網路運作及短期規劃的工程問題」為目的成立了IETF。因此契機，NWG以IETF之名組織化，受到的支持也顯著成長。這個史上第一次的IETF會議（<a href="https://www.ietf.org/proceedings/01.pdf" target="_blank" rel="noopener">IETF#1</a>）共21人參與，與會者由來自13個不同美國政府單位及來自學界、業界的承包單位組成。</p>
-<p>草創之後，IETF在短短幾年內以驚人的速度成長。其中，美國國會透過國家科學基金會（National Science Foundation，NSF），投入250億美金鉅資提拔國內網路研究、標準制定、網路應用研發呈現等產學業界，加上NSF、NASA及教育部都致力推動TCP/IP協定與應用，也是IETF得以迅速茁壯的重要關鍵。</p>
-<p>除此之外，IETF也逐漸擺脫「僅為國防部網路計畫服務」的狹隘任務，廣邀民間企業、其他政府單位，以及不同網際網路標準制定組織參與。到了1987年7月的第6次IETF會議（<a href="https://www.ietf.org/proceedings/06.pdf" target="_blank" rel="noopener">IETF#6</a>），諸如Cisco、HP、IBM及NASA都在出席名單內。</p>
-<p>在這之後，由國家科學基金會網路（National Science Foundation Network，NSFNET）主導，橫貫美洲大陸、使用TCP/IP的網際網路基礎建設也進入建設白熱期，更規劃繼續發展並連接全球網際網路。IETF因此成為與會者交流技術、討論新興應用，合作探討如何結合並連貫現有及未來網路協定的重要場域。</p>
-<p><span style="color: #3366ff;"><strong>重要改變及成長（1990 – 1998）</strong></span></p>
-<p>IETF在1990年登上了世界標準制定的舞臺。1990年2月，世界上主要的網路標準制定組織在美國維吉尼亞州弗瑞德里克斯堡（Fredericksburg）舉行第一次全球高峰會，討論標準組織如何趕上科技及市場變化的速度。會議期間，國際電信聯盟（International Telecommunication Union，ITU）秘書長邀請當時的IAB主席Vint Cerf，向與會者介紹IETF的標準制定流程。IETF開放參與、流程透明、紀錄公開的參與模式前所未有，也因此廣獲關注。</p>
-<p>第23次IETF會議（<a href="https://www.ietf.org/proceedings/23.pdf" target="_blank" rel="noopener">IETF#23</a>）於1992年在聖地牙哥舉行，會議中花了許多時間介紹IETF如何從DARPA下的小型團體，演變成廣納網路研發、營運、經銷及研究人員的開放國際社群，共同為了網際網路的順利運作而努力。本次會議人數已經成長至529人，參與者更不再侷限於美國境內，共有43名來自14個不同國家的外國人參與會議。從會議紀錄中也可看出，越來越多電機與電信系統服務的供應商開始積極參與IETF。</p>
-<p>1994年，IETF發表了「IETF之道」（<a href="https://datatracker.ietf.org/doc/html/rfc1718" target="_blank" rel="noopener">The Tao of IETF</a>）。文件中將IETF定義為「鬆散、自行集結，為了網際網路及相關技術的進化工程提出技術與其他貢獻的一群人」。2001年上述定義將「網際網路及相關技術」改成簡單的「網際網路科技」，到了2006年，又再度簡化為「鬆散、自我集結，為網際網路科技的進化工程提出貢獻的一群人」。2012年，此定義正式以<a href="https://www.ietf.org/about/participate/tao/" target="_blank" rel="noopener">網頁形式</a>公告，可預期未來仍將持續跟著時代演化。</p>
-<p><span style="color: #3366ff;"><strong>巔峰時期（1998 – 2007）</strong></span></p>
-<p>無論在參與人數、業界投入程度，或新市場的創造來說，1998到2007年期間都可視為IETF的巔峰。在這期間，以TCP/IP為基礎的網路建設與商機急速成長擴張，眾人所熟知的網際網路泡沫（dotcom bubble）及隨之引起的電信泡沫（telecom bubble）都發生在這時期。在景氣一路走高的1998年，第43屆IETF會議參與人數達到1,551人，分別來自27個國家、共546個組織。網際網路商業設備及服務供應商更是積極參與IETF，尤其當時TCP/IP技術大量應用於支援電信服務，許多電信業者也因此常出現在IETF會議。然而，狂熱投資的泡泡在2001年破裂後，這些一時踴躍參與IETF的業者也逐漸消失。</p>
-<p>這期間的另一個重點，是IETF逐漸確立其作為網際網路倡議者的政治理念。2004年發布的IETF使命宣言（<a href="https://datatracker.ietf.org/doc/html/rfc3935" target="_blank" rel="noopener">IETF Mission Statement</a>），至今仍是約束IETF工作及變革的基本原則。宣言中，IETF表示網際網路並非價值中立，IETF也不是。IETF希望網際網路能造福共享其「開放公平」理念的社群，並擁抱去集中化、邊緣使用者權利、開源共享等符合IETF核心價值的技術理念。</p>
-<p><span style="color: #3366ff;"><strong>成員延續與演化（2007 – present）</strong></span></p>
-<p>自2007年至今，IETF的參與人口經歷20多年的波折與成長，如今已進入穩定時期。許多不同的組織單位把IETF當成推動自家商品或服務的平臺，繼Cisco之後，華為已成為最踴躍參與IETF的組織，亦有許多企業固定出席IETF。以全球地區分布而言，來自中國的參與人口急遽成長，目前已成為IETF非美籍參與人數第一名。</p>
-<p>全球疫情之下，2021年的<a href="https://datatracker.ietf.org/meeting/110/proceedings" target="_blank" rel="noopener">IETF#100e</a>共有來自68個國家、498個組織的1,329人線上與會。即使全面轉為線上會議，數據顯示無論是參與人數最多的國家或企業，以及與會者國際分布，都和實體會議沒有顯著差異。尤其線上形式免除了旅途開銷，許多企業反而可以派更多員工參與會議。</p>
-<p><span style="color: #3366ff;"><strong>IETF</strong><strong>個人參與者</strong></span></p>
-<p>自從在九○年代脫離國防部計畫及NSF資金後，IETF的風格相較其他業界標準制定組織始終獨樹一幟，以個人身分、而非代表公司出席的參與者比例很高，而且聲量與權力絕不亞於企業代表。</p>
-<p>以個人身分參與IETF的這些人背景十分多元，從由企業出錢贊助、為出資者謀取情報或參與標準制定的電腦科學家或獨立顧問，分享研究或探詢工作機會的學者研究員，到獲補助出席的弱勢或偏遠地區成員。雖然個人參與者是IETF重要的一部分，但如上述受贊助出席的「獨立顧問」，個人參與者究竟是否誠如其所宣稱的代表「個人」，或是以「個人」名義為企業喉舌，尤其IETF做出的決定足以影響市值百億的網際網路市場，這些難以確認的個人參與者身分，不免為整個組織及決策流程蒙上一層不透明的疑慮薄紗。</p>
-<p><span style="color: #3366ff;"><strong>IETF</strong><strong>的國際化</strong></span></p>
-<p>1992年後，IETF的非美籍參與者人數大增，其中以1995至2010年期間成長最快，達到整體參與人口的四成。這些人大部分來自少數幾個歐洲國家及日本。自2010年起，中國參與者成為非美籍參與人口的大宗，並穩定占整體人數近一成。整體而言，即使非美籍的參與人口增加，但以國家數而言，仍然侷限於少數國家。換句話說，名義上為了拓展多元包容，刻意輪換會議場地、在世界不同地區舉辦會議的努力，並未轉換成實際的IETF參與人口多元包容。</p>
-<p><span style="color: #3366ff;"><strong>未來展望</strong></span></p>
-<p>大部分以志願協作為主要工作模式的組織，都會定期檢視成員組成，藉此改善組織的作為與使命，IETF也不例外，最近IAB的RFC五十年（<a href="https://www.rfc-editor.org/rfc/rfc8700.pdf" target="_blank" rel="noopener">Fifty Years of RFCs</a>）即為一例。IETF主席最近也啟動諮詢流程，徵集針對IETF組織效率及改善需求的意見。</p>
-<p>30年前，IETF還年輕時，是個力求改變，樂於與其他歷史更悠久的標準制定組織合作的團體。如今，隨著IETF邁向不惑之年，也面臨如何避免結構僵化、持續聽取社群意見、改善透明度並防止少數利害團體獨大等課題。Rutkowski建議，再次開始積極與其他組織協作，也許是可以考慮的解決之道。</p>
-<p>相關連結：</p>
-<p>Anthony Rutkowski (2021). The IETF Evolution. CircleID.</p>
-<p>檢自：</p>
-<p><a href="https://www.circleid.com/posts/20210526-the-ietf-evolution/" target="_blank" rel="noopener">https://www.circleid.com/posts/20210526-the-ietf-evolution/</a> (Jul. 16, 2021)</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/12/19325/">IETF進化史</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/12/19325/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/12/19325/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>TWNIC</name>
-					</author>
-
-		<title type="html"><![CDATA[歡迎報名台灣網路講堂：注意力經濟持續發燒，我們該如何看待演算法？]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/11/19581/" />
-
-		<id>https://blog.twnic.tw/?p=19581</id>
-		<updated>2021-08-25T04:08:58Z</updated>
-		<published>2021-08-11T05:56:34Z</published>
-		<category scheme="https://blog.twnic.tw" term="最新消息" /><category scheme="https://blog.twnic.tw" term="活動" /><category scheme="https://blog.twnic.tw" term="twsig" /><category scheme="https://blog.twnic.tw" term="注意力" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/TWSIG-S7-1920-1080-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>本座談邀請到不同領域學者與媒體人，分別從社會學、公共政策、媒體、技術與人權角度切入探討注意力經濟中演算法恣意發展下發生的問題，以及減緩這些問題的可能方案。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/11/19581/">歡迎報名台灣網路講堂：注意力經濟持續發燒，我們該如何看待演算法？</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/11/19581/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/TWSIG-S7-1920-1080-300x169.png" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 100%; text-align: center;">台灣網路講堂網站：<a href="http://www.twsig.tw">www.twsig.tw</a></td>
-</tr>
-</tbody>
-</table>
-<h2>活動背景</h2>
-<p>今(2021)年才入加入拜登政府的哥倫比亞大學吳修銘博士曾以「注意力產業」來形容大型的社群平臺科技業者；這些科技業者以全世界數十億網路使用者的注意力為核心，經過演算法分析使用者上網行為與心理意向後，注意力商人能透過這些廣告支持的免費媒體或平臺，使廣告更精準的讓使用者的注意力與商品進行不斷的接觸，使用者用了自身的使用行為與注意力價值交換了免費的網路服務，身為使用者在這個網路生態中，該如何自處？</p>
-<p>如此的發展不禁讓社會開始思考，社群平臺與科技業者利用演算法提供精準接觸服務的商業模式，並靠廣告營利的免付費媒體的傳播推助力下，間而引發與激化在特定議題上之對立甚而仇恨等問題，我們該如何看待這種注意力經濟商業模式對我們社會的影響？應該讓所有的網路使用者取回自己注意力的擁有權，不任由平臺業者恣意傾倒內容？曾擔任Google設計倫理師職務的Tristan Harris曾倡議，獲利最大化的經濟法則應順應科技對人類或環境造成之衝擊而改變，換言之，科技大廠要重新思考「企業成長」的意義。這個倡議有可能實現嗎？有沒有可能因此減緩科技創新？</p>
-<p>本座談邀請到不同領域學者與媒體人，分別從社會學、公共政策、媒體、技術與人權角度切入探討注意力經濟中演算法恣意發展下發生的問題，以及減緩這些問題的可能方案。</p>
-<h2>活動訊息</h2>
-<p>日期：2021年8月26日（四）14:00-16:00</p>
-<p>※本活以線上視訊會議形式辦理</p>
-<h2>活動議程</h2>
-<p>14:00–14:05  開場：梁理旋 主持人（臺灣網路講堂）</p>
-<p>14:35–15:45  焦點座談</p>
-<p>主持人：陶振超 理事長（台灣資訊社會研究學會）</p>
-<p>與談人：</p>
-<ul>
-<li>李政德 副教授（國立成功大學 數據科學研究所）</li>
-</ul>
-<ul>
-<li>李韶曼 助理教授（國立成功大學 敏求智慧運算學院）</li>
-</ul>
-<ul>
-<li>何明諠 研究助理（中央研究院 資訊科技創新研究中心）</li>
-</ul>
-<p>15:45–16:00  線上Q&amp;A</p>
-<p class="has-text-color"><em>主辦單位保留議程更改權利，若有變動以網站公告為主。</em></p>
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 100%; text-align: center;"><a href="https://blog.twnic.tw/videosyt/%e6%b3%a8%e6%84%8f%e5%8a%9b%e7%b6%93%e6%bf%9f%e6%8c%81%e7%ba%8c%e7%99%bc%e7%87%92%ef%bc%8c%e6%88%91%e5%80%91%e8%a9%b2%e5%a6%82%e4%bd%95%e7%9c%8b%e5%be%85%e6%bc%94%e7%ae%97%e6%b3%95%ef%bc%9f/">活動影片</a></td>
-</tr>
-</tbody>
-</table>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/11/19581/">歡迎報名台灣網路講堂：注意力經濟持續發燒，我們該如何看待演算法？</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/11/19581/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/11/19581/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[ICANN域名系統安全威脅防治計畫：進度報告]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/11/19538/" />
-
-		<id>https://blog.twnic.tw/?p=19538</id>
-		<updated>2021-08-08T23:53:31Z</updated>
-		<published>2021-08-11T01:45:42Z</published>
-		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="DNS Abuse" /><category scheme="https://blog.twnic.tw" term="ICANN" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0802-0806_ICANN域名系統安全威脅防治計畫：進度報告-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>ICANN ORG於2021年7月22日舉辦了「ICANN的DNS安全威脅防治專案」線上說明會，請到ICANN相關單位代表，介紹各自進行中的專案及行動，包括合約執行與稽核、域名濫用活動報告，以及「域名安全威脅辨識、蒐集與通報」系統。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/11/19538/">ICANN域名系統安全威脅防治計畫：進度報告</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/11/19538/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/08/0802-0806_ICANN域名系統安全威脅防治計畫：進度報告-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">網域名稱系統（Domain Name System，DNS）濫用始終是ICANN社群中討論最激烈的熱門議題。過去幾年來，ICANN ORG也積極透過各種方式</span><a href="https://www.icann.org/en/blogs/details/icann-orgs-multifaceted-response-to-dns-abuse-20-4-2020-en" target="_blank" rel="noopener"><span style="font-weight: 400;">支援社群</span></a><span style="font-weight: 400;">防治DNS濫用。去（2020）年開始，ICANN ORG啟動組織內跨部門的多功能專案，目的是協調、強化ICANN ORG方面DNS濫用防治的多項支援工作。</span></p>
-<p><span style="font-weight: 400;">究竟如何定義DNS濫用，ICANN社群目前仍未底定全體共識同意的定義。ICANN ORG在協助社群防治DNS濫用的相關工作上，主要使用政府諮詢委員會（Governmental Advisory Committee，GAC）及基本通用頂級域名註冊管理機構協議（Base gTLD Registry Agreement）定義的DNS安全威脅，也就是釣魚、惡意軟體、殭屍網路及網址嫁接。ICANN ORG也將垃圾郵件視為安全濫用的一種，但只有在「郵件名稱為濫用域名」時才適用。</span></p>
-<p><span style="font-weight: 400;">如前所述，ICANN ORG專案的主要目標是支援社群防治DNS安全威脅。本專案有三大主要支柱：</span></p>
-<ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">作為值得信任的資訊來源：提供研究、資料及專業意見，協助基於事實的社群討論。</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">提供工具：研發工具以支援社群的DNS安全威脅防治工作。</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">執行合約規定：透過稽核與投訴調查，執行註冊管理機構協議、驗證受理註冊機構協議及ICANN共識政策。</span></li>
-</ul>
-<p><span style="font-weight: 400;">ICANN ORG於今年7月22日舉辦了「ICANN的DNS安全威脅防治專案」線上說明會，請到ICANN履約部門、全球域名暨戰略部門（Global Domains and Strategy，GDS），以及技術長辦公室（Office of the Chief Technology Officer，OCTO）代表，介紹各自進行中的專案及行動，包括合約執行與稽核、域名濫用活動報告（Domain Activity Abuse Reporting，DAAR），以及「域名安全威脅辨識、蒐集與通報」（domain name security threat identification, collection and reporting，DNSTICR）系統。ICANN亦爲本專案設置</span><a href="https://www.icann.org/resources/pages/dns-security-threat-mitigation-2021-07-19-en" target="_blank" rel="noopener"><span style="font-weight: 400;">專屬網頁</span></a><span style="font-weight: 400;">，有興趣的讀者不妨前往瀏覽，7月22日線上說明會的影片亦已上傳至此處。</span></p>
-<p><span style="font-weight: 400;">相關連結：</span></p>
-<p><span style="font-weight: 400;">Russ Weinstein (2021). Update on ICANN’s DNS Security Threat Mitigation Program. ICANN Blogs.</span></p>
-<p><span style="font-weight: 400;">檢自：</span></p>
-<p><a href="https://www.icann.org/en/blogs/details/update-on-icanns-dns-security-threat-mitigation-program-19-7-2021-en" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.icann.org/en/blogs/details/update-on-icanns-dns-security-threat-mitigation-program-19-7-2021-en</span></a><span style="font-weight: 400;"> (Jul. 30, 2021)</span></p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/11/19538/">ICANN域名系統安全威脅防治計畫：進度報告</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/11/19538/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/11/19538/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[美國國家安全局與合作夥伴共同發布關於全球惡意網路活動的安全建議]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/10/19317/" />
-
-		<id>https://blog.twnic.tw/?p=19317</id>
-		<updated>2021-07-22T05:57:33Z</updated>
-		<published>2021-08-10T05:52:01Z</published>
-		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="資安" /><category scheme="https://blog.twnic.tw" term="GTsSS" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/0719-0723_美國國家安全局與合作夥伴共同發布關於全球惡意網路活動的安全建議-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>美國國家安全局（NSA）與合作夥伴共同發布關於全球惡意網路活動的安全建議，其中劍指俄羅斯情報機構為麻煩製造者。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/10/19317/">美國國家安全局與合作夥伴共同發布關於全球惡意網路活動的安全建議</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/10/19317/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/0719-0723_美國國家安全局與合作夥伴共同發布關於全球惡意網路活動的安全建議-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">美國國家安全局（National Security Agency，NSA）、網路安全暨基礎設施安全局（Cybersecurity and Infrastructure Security Agency，CISA）、聯邦調查局（Federal Bureau of Investigation，FBI）及英國國家網路安全中心（National Cyber Security Centre，NCSC）共同發布關於全球惡意網路活動的安全諮詢文件，文件揭露俄羅斯軍事情報機構GRU（General Staff Main Intelligence Directorate，GRU）自2019年中以來對美國與全球組織的惡意網路行動，且相關攻擊預計將持續發生。</span></p>
-<p><span style="font-weight: 400;">報告指出，GRU的轄下單位GTsSS（85th Main Special Service Center）已鎖定數百個美國及全球組織，並利用暴力破解入侵政府與民間企業網路。報告還揭露GTsSS所使用的攻擊策略、技術及程序（</span><span style="font-weight: 400;">Tactics, Techniques, and Procedures，TTPs</span><span style="font-weight: 400;">），並提出緩解措施建議。</span></p>
-<p><span style="font-weight: 400;">GTsSS的暴力破解手法包括透過大量嘗試登入、使用網上洩漏的登入密碼，或猜測常用密碼排列組合。這些手法並不新奇，但GTsSS的特殊之處，在於其利用軟體容器（containers）大幅擴張攻擊規模。一旦發現有效憑證，GTsSS就會結合憑證與已知的軟體漏洞，進一步深入被害者網路。結合其他技術，駭客得以迴避目標的保全系統，成功蒐集並匯出各種資訊。這些技術細節也都詳錄於建議文件中。</span></p>
-<p><span style="font-weight: 400;">文件中警告，GTsSS幾乎一定會繼續發動攻擊，目標遍及全球，但以美國與歐洲的重要組織為主，包括：政府單位及軍隊、國防承包商、能源公司、高等教育機構、物流公司、律師事務所、媒體、政治顧問或政黨以及智庫，皆是攻擊目標。</span></p>
-<p><span style="font-weight: 400;">面對來勢洶洶的駭侵攻擊，NSA鼓勵國防部（Department of Defense，DoD）、國家安全系統（National Security Systems，NSS）以及國防工業基地（Defense Industrial Base，DIB）的相關系統管理者立刻依報告的入侵威脅指標（indicators of compromise，IOCs）展開檢查，同時採取建議緩解措施，其中以多重身分驗證（multi-factor authentication，MFA）最能有效抵禦暴力破解攻擊。</span></p>
-<p><span style="font-weight: 400;">相關連結：</span></p>
-<p><span style="font-weight: 400;">NSA Press Release (2021). NSA, Partners Release Cybersecurity Advisory on Brute Force Global Cyber Campaign. NSA.</span></p>
-<p><span style="font-weight: 400;">檢自：</span></p>
-<p><a href="https://www.nsa.gov/news-features/press-room/Article/2677750/nsa-partners-release-cybersecurity-advisory-on-brute-force-global-cyber-campaign/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.nsa.gov/news-features/press-room/Article/2677750/nsa-partners-release-cybersecurity-advisory-on-brute-force-global-cyber-campaign/</span></a><span style="font-weight: 400;"> (Jul. 16, 2021)</span></p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/10/19317/">美國國家安全局與合作夥伴共同發布關於全球惡意網路活動的安全建議</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/10/19317/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/10/19317/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[美國拜登總統發布行政命令，尋求恢復網路中立]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/09/19319/" />
-
-		<id>https://blog.twnic.tw/?p=19319</id>
-		<updated>2021-08-09T08:14:34Z</updated>
-		<published>2021-08-09T08:16:02Z</published>
-		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" /><category scheme="https://blog.twnic.tw" term="網路中立" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/0719-0723_美國拜登總統發布行政命令，尋求恢復網路中立-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>美國總統拜登簽署行政命令，其中要求強化針對國內大型企業的監管與問責，以促進市場競爭，同時尋求恢復「網路中立」原則。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/09/19319/">美國拜登總統發布行政命令，尋求恢復網路中立</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/09/19319/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/0719-0723_美國拜登總統發布行政命令，尋求恢復網路中立-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">美國總統拜登簽署任內第52號行政命令，要求針對國內若干產業的主要企業強化監管與問責機制，以期促進市場競爭。</span></p>
-<p><span style="font-weight: 400;">網路寬頻管制為拜登的內政重點，也在命令中占有相當篇幅，其中亦呼籲聯邦通訊委員會（Federal Communications Commission，FCC）訂定管制辦法，改善寬頻產業競爭及透明度。以下是命令中列出的辦法，以及對消費者的可能影響：</span></p>
-<p><b>防止ISP與用戶達成協議：</b></p>
-<p><span style="font-weight: 400;">根據FCC資料，約莫2億美國公民僅能從1至2個寬頻網路選項中做選擇。網路服務供應商（</span><span style="font-weight: 400;">Internet Service Provider，ISP</span><span style="font-weight: 400;">）與房東私下簽約合夥的情形常見於低收入社區，不僅剝奪租戶的寬頻選項，也妨礙其他寬頻業者進入當地市場，若FCC確實採取拜登行政命令中的措施，上述情況可望大幅改善。</span></p>
-<p><b>恢復「寬頻服務內容標示」</b></p>
-<p><span style="font-weight: 400;">所謂的「寬頻服務內容標示」（Broadband Nutrition Label），是在歐巴馬總統任內提出，但之後由川普總統廢除的法案，其要求網路服務業者依標準格式揭露包括價格、加值費用、網速等資訊。若FCC重啟此規定，ISP就必須向FCC如實報告價格、客戶簽約率、網速及可用性資料，供FCC製作標示表。</span></p>
-<p><b>ISP不得訂定過高的解約金</b></p>
-<p><span style="font-weight: 400;">美國ISP時常要求消費者繳納高額解約金，行政命令中鼓勵FCC限制解約金的額度，但並未明確訂出金額上限。無論如何，一旦解約金額有所限制，消費者也將擁有更換ISP的更大彈性。</span></p>
-<p><b>恢復「網路中立」規範</b></p>
-<p><span style="font-weight: 400;">川普2017年廢除歐巴馬總統任內設立的「網路中立」（net neutrality）原則，ISP業者因此可坐地起價，隨意調整頻寬。川普政府後期，共和黨甚至希望進一步擴大此自由。然而，隨著拜登上任，FCC可望重啟網路中立規範，行政命令特別鼓勵FCC重拾網路中立原則，再次禁止ISP恣意封鎖用戶網路或降低網速。</span></p>
-<p><b>行政命令敦促FCC採取行動</b></p>
-<p><span style="font-weight: 400;">行政命令雖不具約束力，但的確是對FCC施壓，敦促對方改善ISP產業的透明度與當責。無論未來FCC是否將採用相關措施，該命令都已為消費者帶來曙光，未來是否會有相應的監管措施仍尚待觀察。</span></p>
-<p><span style="font-weight: 400;">相關連結：</span></p>
-<p><span style="font-weight: 400;">David Anders (2021). Biden seeks return of net neutrality, greater competition among ISPs in executive order. CNET. </span></p>
-<p><span style="font-weight: 400;">檢自：</span></p>
-<p><a href="https://www.cnet.com/home/internet/biden-seeks-return-of-net-neutrality-greater-competition-among-isps-in-executive-order/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.cnet.com/home/internet/biden-seeks-return-of-net-neutrality-greater-competition-among-isps-in-executive-order/</span></a><span style="font-weight: 400;"> (Jul. 16, 2021)</span></p>
-<p><span style="font-weight: 400;">New America (2021). </span><span style="font-weight: 400;">OTI Applauds Bill to Create a ‘Broadband Nutrition Label’.</span></p>
-<p><span style="font-weight: 400;">檢自：</span></p>
-<p><a href="https://www.newamerica.org/oti/press-releases/oti-applauds-bill-to-create-a-broadband-nutrition-label/" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.newamerica.org/oti/press-releases/oti-applauds-bill-to-create-a-broadband-nutrition-label/</span></a><span style="font-weight: 400;">(Jul. 16, 2021)</span></p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/09/19319/">美國拜登總統發布行政命令，尋求恢復網路中立</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/09/19319/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/09/19319/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[SSAD實施評估流程問卷，展開實施評估流程]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/09/19305/" />
-
-		<id>https://blog.twnic.tw/?p=19305</id>
-		<updated>2021-08-09T08:12:23Z</updated>
-		<published>2021-08-09T05:52:00Z</published>
-		<category scheme="https://blog.twnic.tw" term="社群" /><category scheme="https://blog.twnic.tw" term="EPDP" /><category scheme="https://blog.twnic.tw" term="ICANN" /><category scheme="https://blog.twnic.tw" term="ODP" /><category scheme="https://blog.twnic.tw" term="SSAD" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/0719-0723_SSAD實施評估流程問卷：歡迎社群踴躍填寫-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>ICANN於2021年7月8日公告SSAD實施評估流程問卷，希望藉此判斷SSAD潛在使用者的數量，以及SSAD啟用後可能收到的請求多寡。此問卷將是評估SSAD建置工程可行性、相關風險、開銷及所需資源的關鍵環節。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/09/19305/">SSAD實施評估流程問卷，展開實施評估流程</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/09/19305/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/0719-0723_SSAD實施評估流程問卷：歡迎社群踴躍填寫-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p><span style="font-weight: 400;">非公開註冊資料標準化存取/揭露系統（System for Standardized Access / Disclosure to Nonpublic Registration Data，SSAD）是預計以中央化形式處理非公開註冊資料請求的機制，也是「通用頂級域名註冊資料臨時條款加速版政策制定流程」（Expedited Policy Development Procedure on the Temporary Specification for gTLD Registration Data，簡稱 EPDP）第二階段結案報告中提出的建議。由於相關建議十分繁複，如欲確保SSAD的建置工程有效率且避免無預期的突發狀況，必須投入大量資源，也需完善規劃。因此，ICANN董事會於今（2021）年3月25日通過決議，指示ICANN主席暨執行長根據SSAD的</span><a href="https://www.icann.org/en/system/files/files/ssad-non-public-registration-data-odp-scoping-25mar21-en.pdf" target="_blank" rel="noopener"><span style="font-weight: 400;">ODP工作範圍文件</span></a><span style="font-weight: 400;">，展開實施評估流程（Operational Design Phase，ODP）。</span></p>
-<p><span style="font-weight: 400;">ICANN於今年7月8日公告SSAD實施評估流程問卷，希望藉此判斷SSAD潛在使用者的數量，以及SSAD啟用後可能收到的請求多寡。此問卷將是評估SSAD建置工程可行性、相關風險、開銷及所需資源的關鍵環節。</span></p>
-<p><span style="font-weight: 400;">ICANN尤其希望需要非公開註冊資料的社群成員，踴躍填答問卷。ICANN將發送另一份問卷給通用頂級域名（generic top-level domain，gTLD）註冊管理機構及ICANN驗證受理註冊機構，了解他們目前收到的請求數量及相關情形。有了這些資訊，ICANN將可以回答ODP工作範圍文件中這兩個問題：</span></p>
-<ol>
-<li style="font-weight: 400;"><span style="font-weight: 400;">3.1.5.2：SSAD預計應負擔多少請求數量？</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">3.1.5.5：預計有多少使用者會使用此系統？</span></li>
-</ol>
-<p><a href="https://www.icann.org/resources/pages/data-protection-correspondence" target="_blank" rel="noopener"><span style="font-weight: 400;">點此</span></a><span style="font-weight: 400;">瀏覽SSAD實施評估流程問卷調查，調查已於8月6日（23:59 UTC）截止。</span></p>
-<p><span style="font-weight: 400;">若針對問卷內容有任何問題，可寄信至odp-ssad@icann.org。所有寄到此信箱的信件都會公開庫存於ICANN的SSAD評估實施流程</span><a href="https://www.icann.org/ssadodp" target="_blank" rel="noopener"><span style="font-weight: 400;">頁面</span></a><span style="font-weight: 400;">。</span></p>
-<p><span style="font-weight: 400;">相關連結：</span></p>
-<p><span style="font-weight: 400;">ICANN (2021). Community Input Needed: SSAD ODP Questionnaire. ICANN Announcements.</span></p>
-<p><span style="font-weight: 400;">檢自：</span></p>
-<p><a href="https://www.icann.org/en/announcements/details/community-input-needed-ssad-odp-questionnaire-8-7-2021-en#main" target="_blank" rel="noopener"><span style="font-weight: 400;">https://www.icann.org/en/announcements/details/community-input-needed-ssad-odp-questionnaire-8-7-2021-en#main</span></a><span style="font-weight: 400;"> (Jul. 16, 2021)</span></p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/09/19305/">SSAD實施評估流程問卷，展開實施評估流程</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/09/19305/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/09/19305/feed/atom/" thr:count="0" />
-			<thr:total>0</thr:total>
-			</entry>
-		<entry>
-		<author>
-			<name>國際瞭望</name>
-					</author>
-
-		<title type="html"><![CDATA[註冊資料準確度履約執行情形：GDPR前與後]]></title>
-		<link rel="alternate" type="text/html" href="https://blog.twnic.tw/2021/08/06/19227/" />
-
-		<id>https://blog.twnic.tw/?p=19227</id>
-		<updated>2021-07-22T05:57:33Z</updated>
-		<published>2021-08-05T23:56:53Z</published>
-		<category scheme="https://blog.twnic.tw" term="發展" /><category scheme="https://blog.twnic.tw" term="ICANN" /><category scheme="https://blog.twnic.tw" term="即時訊息" /><category scheme="https://blog.twnic.tw" term="國際瞭望" />
-		<summary type="html"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/註冊資料準確度履約執行情形：GDPR前與後-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>ICANN近期發布履約報告，說明GDPR對ICANN ORG針對受理註冊機構「gTLD註冊資料準確度義務」的履約執行情形。</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/06/19227/">註冊資料準確度履約執行情形：GDPR前與後</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></summary>
-
-					<content type="html" xml:base="https://blog.twnic.tw/2021/08/06/19227/"><![CDATA[<img width="300" height="169" src="https://blog.twnic.tw/wp-content/uploads/2021/07/註冊資料準確度履約執行情形：GDPR前與後-300x169.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" loading="lazy" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" /><p>歐盟《通用資料保護規則》（General Data Protection Regulation，GDPR）於2018年5月25日開始實施。ICANN亦於同日納用通用域名（generic top-level domain，gTLD）註冊資料臨時條款（Temporary Specification for gTLD Registration Data，簡稱TempSpec）並實施gTLD註冊資料過渡政策（Interim Registration Data Policy for gTLDs，Interim Policy）。ICANN近期發布履約報告，說明GDPR對ICANN ORG針對受理註冊機構「gTLD註冊資料準確度義務」的履約執行情形。本文僅節錄重點，報告全文可<a href="https://www.icann.org/resources/pages/registration-data-accuracy-obligations-gdpr-2021-06-14-en">參考此處</a>。</p>
-<p>ICANN履約團隊負責執行ICANN政策及協議中明列之gTLD受理註冊機構義務。基於ICANN的受理註冊機構認證協議（<a href="https://www.icann.org/resources/pages/approved-with-specs-2013-09-17-en">2013 Registrar Accreditation Agreement</a>），受理註冊機構必須採取一定步驟，確保旗下註冊通用域名的註冊資料準確。相關步驟包括調查遭舉報不正確的註冊資料、驗證聯絡資訊，以及資料格式驗證等。</p>
-<p>上述註冊資料準確性的相關合約規定，以及ICANN ORG的履約執行，都沒有因GDPR而改變。然而，GDPR實施後，為符合資料保護規範，大部分的註冊資料內容都不再公開，ICANN收到的相關投訴因此驟減。</p>
-<p>2017年1月至2018年5月期間，ICANN履約部門每月平均收到2,774筆關於註冊資料準確度的投訴，並展開共20,834次調查。詳情可參考<a href="https://www.icann.org/resources/pages/registration-data-accuracy-obligations-gdpr-2021-06-14-en">報告全文</a>。</p>
-<p>2018年6月至2020年12月期間，履約部門收到的投訴降至每月1,003筆。數字在GDPR實施後立即下降，主要是因為ICANN收到的外部投訴減少，而且ICANN不再發布WHOIS準確度通報系統（Accuracy Reporting System，ARS）報告。除此之外，缺乏違約證據的投訴比例也增加。本期間履約部門共執行4,417次調查，相關詳情一樣可參考<a href="https://www.icann.org/resources/pages/registration-data-accuracy-obligations-gdpr-2021-06-14-en">報告全文</a>。</p>
-<p>雖然調查案件數隨著投訴數量下降，但GDPR後的調查案件結果和GDPR前執行的調查結果大同小異。大部分投訴都導致域名中止，也有大筆註冊資料因此更正。GDPR實施後，ICANN尚未因為註冊資料準確度相關違規行為，發布任何違約通知。</p>
-<p>ICANN ORG了解，對諸如執法機關、智財權所有人、網路安全研究人員等網路使用者而言，取得準確註冊資料相當重要。ICANN ORG也將持續執行既有的註冊資料準確度相關協議和政策。然而，由於GDPR，潛在投訴者和ICANN自身的履約執行團隊都無法直接取得註冊資料，也因此難以發現註冊資料不正確並修正相關資料。</p>
-<p>相關連結：</p>
-<p>Jamie Hedlund (2021). Enforcement of Registration Data Accuracy Obligations Before and After GDPR. ICANN Blog.</p>
-<p>檢自：</p>
-<p><a href="https://www.icann.org/en/blogs/details/enforcement-of-registration-data-accuracy-obligations-before-and-after-gdpr-14-6-2021-en">https://www.icann.org/en/blogs/details/enforcement-of-registration-data-accuracy-obligations-before-and-after-gdpr-14-6-2021-en</a> (Jul. 2, 2021)</p>
-<p>這篇文章 <a rel="nofollow" href="https://blog.twnic.tw/2021/08/06/19227/">註冊資料準確度履約執行情形：GDPR前與後</a> 最早出現於 <a rel="nofollow" href="https://blog.twnic.tw">財團法人台灣網路資訊中心部落格 | TWNIC Blog</a>。</p>
-]]></content>
-		
-					<link rel="replies" type="text/html" href="https://blog.twnic.tw/2021/08/06/19227/#comments" thr:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://blog.twnic.tw/2021/08/06/19227/feed/atom/" thr:count="0" />
 			<thr:total>0</thr:total>
 			</entry>
 	</feed>

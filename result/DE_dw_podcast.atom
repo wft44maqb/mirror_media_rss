@@ -3,7 +3,7 @@
  <id>http://rss.dw.com/atom/podcast_radio_china</id>
  <title><![CDATA[DW.COM]]></title>
  <subtitle><![CDATA[News, Analysis and Service from Germany and Europe - in 30 Languages]]></subtitle>
- <updated>2021-09-08T13:39:06Z</updated>
+ <updated>2021-09-17T14:39:11Z</updated>
  <author>
   <name>DW.COM, Deutsche Welle</name>
   <email>info@dw.com</email>
@@ -14,6 +14,39 @@
  <icon>https://rss.dw.com/images/dw_icon.png</icon>
  <logo>https://rss.dw.com/images/DW-L-RGB_whitebg.png</logo>
  <rights>2021 DW.COM, Deutsche Welle</rights>
+ <entry>
+  <id>tag:dw.com,2021:59189147</id>
+  <title><![CDATA[德国央行公然洗钱遭曝光！这是怎么回事？]]></title>
+  <updated>2021-09-15T10:02:00Z</updated>
+  <published>2021-09-15T10:02:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/德国央行公然洗钱遭曝光！这是怎么回事？/av-59189147?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[这是真正的“洗钱”……纸币太脏的时候，德国联邦银行（德国央行）就必须对其进行清洗。今年的任务尤其繁重，因为7月的洪水让许多钞票也遭了殃。]]></summary>
+  <category term="经济纵横"/>
+  <link rel="enclosure" type="video/mp4" length="5102417" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210915_001_moneylaundering_sd.mp4" title="德国央行公然洗钱遭曝光！这是怎么回事？"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59168172</id>
+  <title><![CDATA[后默克尔时代的德国对华政策]]></title>
+  <updated>2021-09-14T08:33:00Z</updated>
+  <published>2021-09-14T08:33:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/后默克尔时代的德国对华政策/av-59168172?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[默克尔时代结束后，德国将如何与中国打交道？在重新调整与中国的经济与地缘政治关系的同时，德国对华政策不会出现巨大的变化。]]></summary>
+  <category term="时政风云"/>
+  <link rel="enclosure" type="video/mp4" length="21932425" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210913_001_chinapolitik_sd.mp4" title="后默克尔时代的德国对华政策"/>
+ </entry>
+ <entry>
+  <id>tag:dw.com,2021:59123157</id>
+  <title><![CDATA[长城电动车计划登陆欧洲]]></title>
+  <updated>2021-09-08T12:54:00Z</updated>
+  <published>2021-09-08T12:54:00Z</published>
+  <rights>2021 DW.COM, Deutsche Welle</rights>
+  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/长城电动车计划登陆欧洲/av-59123157?maca=chi-podcast_radio_china-1169-xml-atom"/>
+  <summary><![CDATA[在今年的汽车博览会IAA上，来自中国的长城汽车公司雄心勃勃地宣布，它的电动车不仅将出口欧洲市场，而且还要在欧洲工厂生产制造。]]></summary>
+  <category term="经济纵横"/>
+  <link rel="enclosure" type="video/mp4" length="6515766" href="https://tvdownloaddw-a.akamaihd.net/dwtv_video/flv/vdt_zh/2021/bchi210908_001_auto_01r_sd_sor.mp4" title="长城电动车计划登陆欧洲"/>
+ </entry>
  <entry>
   <id>tag:dw.com,2021:59113809</id>
   <title><![CDATA[驻阿富汗老兵的创伤]]></title>
@@ -310,38 +343,5 @@
   <summary><![CDATA[美国政府高层近日频繁与东南亚国家互动，试图联合应对中国在印太地区的挑战。但英国皇家国际事务研究所（Chatham House）亚洲问题专家Bill Hayton认为，目前华盛顿应该把重点放在另一个议题上。]]></summary>
   <category term="评论分析"/>
   <link rel="enclosure" type="video/mp4" length="9411691" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210804_001_kolumnehaydon_sd.mp4" title="客座评论：如果美国真想在东南亚赢得民心"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58740077</id>
-  <title><![CDATA[致命野火摧残土耳其南部]]></title>
-  <updated>2021-08-03T10:17:00Z</updated>
-  <published>2021-08-03T10:17:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/致命野火摧残土耳其南部/av-58740077?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[致命大火正在土耳其南部蔓延，不少民众家园被毁，还有一些人因此丧生。德国之声记者深入现场，带回第一手报道。]]></summary>
-  <category term="新闻广角"/>
-  <link rel="enclosure" type="video/mp4" length="10629826" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210803_001_turkeyfire_01v_sd.mp4" title="致命野火摧残土耳其南部"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58662077</id>
-  <title><![CDATA[忘掉特斯拉吧！太阳能电动车来了]]></title>
-  <updated>2021-08-01T07:35:00Z</updated>
-  <published>2021-08-01T07:35:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/忘掉特斯拉吧！太阳能电动车来了/av-58662077?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[这可不是普通的电动汽车，而是利用太阳能的新科技。在慕尼黑一个工业园区，德国一家初创公司展示了一款更环保的汽车。]]></summary>
-  <category term="科技环境"/>
-  <link rel="enclosure" type="video/mp4" length="6824867" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210727_001_fbaa1sion_sd.mp4" title="忘掉特斯拉吧！太阳能电动车来了"/>
- </entry>
- <entry>
-  <id>tag:dw.com,2021:58690237</id>
-  <title><![CDATA[上帝视角：永远飘浮的气球空拍机]]></title>
-  <updated>2021-07-29T12:14:00Z</updated>
-  <published>2021-07-29T12:14:00Z</published>
-  <rights>2021 DW.COM, Deutsche Welle</rights>
-  <link rel="alternate" hreflang="zh" href="https://www.dw.com/zh/上帝视角：永远飘浮的气球空拍机/av-58690237?maca=chi-podcast_radio_china-1169-xml-atom"/>
-  <summary><![CDATA[科技的日新月异，让空拍机永远飘浮空中变成可能。这台靠氦气球飞行的无人空拍机利用太阳能充电并可持续飘浮，从“上帝的视角”拍摄各种美丽景致。]]></summary>
-  <category term="科技环境"/>
-  <link rel="enclosure" type="video/mp4" length="6766918" href="https://tvdownloaddw-a.akamaihd.net/Events/mp4/vdt_zh/2021/bchi210729_001_drone_01r_sd.mp4" title="上帝视角：永远飘浮的气球空拍机"/>
  </entry>
 </feed>

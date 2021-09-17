@@ -4,262 +4,255 @@
     <link>https://www.ithome.com.tw/latest</link>
     <description>iThome 最新新聞</description>
     <language>zh-hant</language>
-     <atom:link href="https://www.ithome.com.tw/rss?blogId=494&amp;profile=rss20" rel="self" type="application/rss+xml" />
+     <atom:link href="https://www.ithome.com.tw/rss" rel="self" type="application/rss+xml" />
       <item>
-    <title>國安局今年上半遭到逾3萬次攻擊，直逼去年總和</title>
-    <link>https://www.ithome.com.tw/news/146601</link>
-    <description> 臺海日益緊張，近期中國軍機幾乎每日都侵犯臺灣防空區域，根據臺灣西南空域臉書粉絲專頁引用國防部的資料統計，截至9月8日，今年已有436架次的中國軍機入侵，已經超越</description>
-     <pubDate>2021-09-08  07:09:02</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146601</guid>
-  </item>
-  <item>
-    <title>薩爾瓦多成為全球第一個接納比特幣為法定貨幣的國家</title>
-    <link>https://www.ithome.com.tw/news/146598</link>
-    <description> 位於中美洲的薩爾瓦多（Republic of El Salvador），在本周二（9/7）正式接納比特幣為法定貨幣，開放比特幣於該國境內合法流通，並在當天釋出官方的Chivo Wallet比特幣錢包，成為全球第一個將比特幣視為法定貨幣的國家。
-薩爾瓦多本周釋出的Chivo Wallet支援Android、iOS及華為作業系統，只要下載該錢包的國民，就能獲得等值30美元的比特幣，而該國迄今也已購入550個比特幣，並建立了價值1.5億美元的比特幣信託基金，促進該國的比特幣與美元之間的交易。</description>
-     <pubDate>2021-09-08  04:09:59</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146598</guid>
-  </item>
-  <item>
-    <title>資安一周第162期：為落實個資保護監管責任及跨機關協調，行政院建立個資保護執行聯繫機制</title>
-    <link>https://www.ithome.com.tw/news/146597</link>
-    <description> 9/2-9/8必看資安新聞
- 
-＃法規遵循  ＃個資保護
-為落實個資保護監管責任及跨機關協調，行政院建立個資保護執行聯繫機制</description>
-     <pubDate>2021-09-08  03:09:47</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146597</guid>
-  </item>
-  <item>
-    <title>報告：企業不當使用自動化聘僱系統，反誤擋了大量可能人才</title>
-    <link>https://www.ithome.com.tw/news/146596</link>
-    <description> 哈佛商業評論一份報告指出，美國企業使用的自動聘僱軟體因為不適當的篩選條件，而將許多潛在人才給刷了下來。</description>
-     <pubDate>2021-09-08  03:09:15</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146596</guid>
-  </item>
-  <item>
-    <title>蘋果宣布要在9月14日舉行虛擬發表會</title>
-    <link>https://www.ithome.com.tw/news/146592</link>
-    <description> 蘋果行銷副總裁Greg Joswiak本周透過Twitter對外證實，蘋果即將於下周二（9/14）舉行California Streaming虛擬發表會，而媒體亦已收到邀請函，外界期望蘋果當天將會發表新一代的iPhone、Apple Watch及AirPods產品。
-這場發表會的時間點為太平洋夏令時間（PDT）9月14日的早上10點，約是臺北時間9月15日的凌晨1點，屆時將直接於線上轉播，開放全球的蘋果粉絲參與。</description>
-     <pubDate>2021-09-08  01:09:08</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146592</guid>
-  </item>
-  <item>
-    <title>微軟加入開源雲平臺組織OpenInfra基金會</title>
-    <link>https://www.ithome.com.tw/news/146590</link>
-    <description> 前身為OpenStack基金會的產業組織OpenInfra 基金會昨（7）日宣布，微軟將加入以貢獻雲端管理技術，以及將OpenStack技術整合入Azure平臺。</description>
-     <pubDate>2021-09-08  12:09:43</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146590</guid>
-  </item>
-  <item>
-    <title>Windows RCE漏洞已有鎖定Office用戶的攻擊，微軟緊急提供緩解指示</title>
-    <link>https://www.ithome.com.tw/news/146584</link>
-    <description> 微軟周二緊急公告Windows中一個遠端程式碼執行（RCE）漏洞已經有攻擊活動，Office用戶可能因開啟惡意文件中標。由於目前尚無修補程式，微軟緊急提供緩解方法。</description>
-     <pubDate>2021-09-08  10:09:19</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146584</guid>
-  </item>
-  <item>
-    <title>因應橫跨25國業務拓展需求，宏碁歐洲總部搬遷3大核心系統上公有雲，目標取代兩座歐洲自有資料中心</title>
-    <link>https://www.ithome.com.tw/news/146579</link>
-    <description> 業務橫跨歐洲、中東及非洲的宏碁泛歐營運總部，2019年時評估自身資訊基礎建設，已無法滿足業務發展需要，因而決定調整IT投資策略，大力擁抱雲端，不只搬遷了3套核心交易系統上公有雲，還大動作導入2套SaaS服務，來簡化IT維運工作，以及借助雲端資源的擴充性，消化交易負載高峰的流量。
-近日，宏碁對外分享當時決定上雲決策關鍵，以及2年來，他們如何一步步搬遷各項系統上雲，擴大採用雲端服務，希望有一天能取代自家兩座歐洲資料中心。</description>
-     <pubDate>2021-09-08  10:09:10</pubDate>
- <dc:creator>黃郁芸</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146579</guid>
-  </item>
-  <item>
-    <title>2022 Intel運算架構大公開！</title>
-    <link>https://www.ithome.com.tw/article/146528</link>
-    <description> 不讓Nvidia專美於前，處理器大廠英特爾在資料中心領域，除了發展多年的伺服器CPU，也將陸續推出適用於此類應用的GPU與IPU應戰，而在今年8月底，他們打破多年以來的慣例，搶先公布了這些運算平臺即將採用的新架構細節。
- </description>
-     <pubDate>2021-09-08  07:09:00</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/article/146528</guid>
-  </item>
-  <item>
-    <title>2022英特爾基礎設施處理器：Mount Evans</title>
-    <link>https://www.ithome.com.tw/tech/146525</link>
-    <description> 在資料中心運算平臺當中，中央處理器（CPU）的發展與應用時間最久，這幾年以來，隨著人工智慧／機器學習、高效能運算（HPC）的當紅，繪圖處理器（GPU）也浮上檯面，成為炙手可熱的企業IT重要產品，並大量用於多種協同加速運算的應用場景之中。</description>
-     <pubDate>2021-09-08  07:09:00</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/tech/146525</guid>
-  </item>
-  <item>
-    <title>2022英特爾資料中心繪圖處理器：Ponte Vecchio</title>
-    <link>https://www.ithome.com.tw/tech/146524</link>
-    <description> 在2019年11月的美國超級電腦大會期間，英特爾宣布，他們將基於自行發展的Xe架構，推出新的通用繪圖處理器（GPU），而為了因應高效能運算的建模與模擬工作負載、機器學習訓練等應用需求，他們預計推出代號為Ponte Vecchio的獨立GPU，基於Xe架構之餘，也將導入英特爾7奈米製程，以及Foveros 3D、EMIB封裝技術，當中會集結HBM記憶體、CXL互連介面等多種技術智財，整合至單一封裝。</description>
-     <pubDate>2021-09-08  07:09:00</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/tech/146524</guid>
-  </item>
-  <item>
-    <title>英特爾的處理器反攻</title>
-    <link>https://www.ithome.com.tw/voice/146521</link>
-    <description> 英特爾竟然首度打破了過去的產品發表慣例，在今年8月底的英特爾架構日，針對下一代Xeon Scalable系列處理器（研發代號為Sapphire Rapids，簡稱SPR），提前公開揭露其技術組成架構。讓英特爾一反常態的關鍵就是競爭對手Nvidia。
-Nvidia近年來頻頻出招，不只大力發展先進GPU產品，甚至也開始打造超級電腦，還一腳踩進了英特爾的處理器地盤。今年4月，Nvidia執行長黃仁勳在春季線上GTC大會上，首度公開展示一款Arm架構的全新伺服器CPU，這是他們第一款資料中心等級的CPU，強調可以提供TB級資料量吞吐的加速運算。</description>
-     <pubDate>2021-09-08  07:09:00</pubDate>
- <dc:creator>王宏仁</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/voice/146521</guid>
-  </item>
-  <item>
-    <title>2022英特爾伺服器平臺：Sapphire Rapids</title>
-    <link>https://www.ithome.com.tw/tech/146497</link>
-    <description> 今年4月初英特爾推出第三代Xeon Scalable系列處理器，沒想到在8月底舉行的英特爾架構日，他們居然打破過去慣例，針對下一代Xeon Scalable系列處理器（研發代號為Sapphire Rapids），提前公開揭露其技術組成架構。
-相較於過往的伺服器級處理器，Sapphire Rapids採用了許多首創的設計方式。例如，在封裝的部分，這系列處理器採用新的系統單晶片（SOC）架構，也就是模組化、磚片型（tiled）架構，而能具備足夠的延展性；同時，它們也是首批採用嵌入式多晶片互連橋接技術（EMIB）的產品，而能維持單體（monolithic）的中央處理器介面。</description>
-     <pubDate>2021-09-08  07:09:00</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/tech/146497</guid>
-  </item>
-  <item>
-    <title>AWS新服務合併量子電腦解決加密金鑰被破解的問題</title>
-    <link>https://www.ithome.com.tw/news/146583</link>
-    <description> AWS一項新服務結合2臺量子電腦產生幾近完美的隨機數，以解決加密金鑰被破解的隱憂。
-隨機數字是現代加密及資料安全技術的基礎。通訊及資料加密，需要以隨機數產生金鑰。然而隨著運算科技的進展卻使隨機數產生法顯露弱點，危及加密的敏感內容，AWS認為量子運算可以解決。</description>
-     <pubDate>2021-09-07  11:09:31</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146583</guid>
-  </item>
-  <item>
-    <title>紐時：開挖比特幣所使用的電力是Google總用電量的7倍</title>
-    <link>https://www.ithome.com.tw/news/146582</link>
-    <description> 《紐約時報》最近刊出了一篇有關比特幣的專題報導，該報導引用了劍橋比特幣電力消耗指數（Cambridge Bitcoin Electricity Consumption Index，CBECI）的估計，指出開採比特幣一年所使用的電力，是Google全球營運一年總用電量的7倍。</description>
-     <pubDate>2021-09-07  11:09:46</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146582</guid>
-  </item>
-  <item>
-    <title>Google以深度學習偵測異常胸腔X光片，可找出訓練資料集未見過的肺部異常</title>
-    <link>https://www.ithome.com.tw/news/146578</link>
-    <description> Google開發了新型模型，能夠從去識別化資料集中，區分正常和異常的胸腔X光片，Google提到，該模型不只對一般的胸腔異常表現良好，對沒有出現在訓練資料集的肺結核病和COVID-19，也能發現其異常之處，對於未見過的案例具有通用性。</description>
-     <pubDate>2021-09-07  11:09:33</pubDate>
+    <title>AWS推出適用於Kafka叢集的託管連接器服務MSK Connect</title>
+    <link>https://www.ithome.com.tw/news/146773</link>
+    <description> AWS發布了Kafka Connect託管叢集服務MSK Connect。AWS適用於Apache Kafka的Amazon Managed Streaming（MSK），是一項完全託管的服務，可以供用戶簡單地運作Apache Kafka以處理串流資料。</description>
+     <pubDate>2021-09-17  09:09:59</pubDate>
  <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146578</guid>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146773</guid>
   </item>
   <item>
-    <title>MITRE Engage將取代MITRE Shield，聚焦交戰、拒絕與欺敵領域</title>
-    <link>https://www.ithome.com.tw/news/146581</link>
-    <description> 近兩三年來， 在資安界有一套框架當紅， 那就是MITRE ATT&amp;amp;CK框架， 將現實駭客組織入侵技術彙整成攻擊知識庫， 而為了扭轉企業面對攻擊經常處於被動的局面，在2020年8月，MITRE公布主動式防禦（Active Defense）的知識庫，稱為MITRE Shield，希望幫助企業組織成為更好的防守者，近期，MITRE將它重新定名為MITRE Engage，並預告在今年秋季會發布正式版本。</description>
-     <pubDate>2021-09-07  06:09:55</pubDate>
- <dc:creator>羅正漢</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146581</guid>
+    <title>聯合國警告：AI將對人權造成威脅，呼籲暫停銷售及使用AI系統</title>
+    <link>https://www.ithome.com.tw/news/146786</link>
+    <description> 聯合國的人權事務專員Michelle Bachelet在本周警告，人工智慧（AI）系統可能對人權帶來威脅，呼籲在取得適當的保障之前，各國應該要暫停銷售及使用AI系統，且它對人權的威脅愈高，相關的法令就應該愈嚴格。</description>
+     <pubDate>2021-09-17  09:09:24</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146786</guid>
   </item>
   <item>
-    <title>工研院與Arm聯手，為新創業者引進Arm IP打造IC設計平臺</title>
-    <link>https://www.ithome.com.tw/news/146580</link>
-    <description> 在經濟部工業局牽線下，國內的工研院和Arm合作，結合工研院的技術、人才、輔導資源，加上Arm的矽智財IP，為新創業者打造IC設計平臺，協助新創業者在研發階段降低IP授權成本。
-工業局為推動一站式AIoT服務，委托工研院推動「晶片設計與半導體科技研發應用計畫」的「物聯網晶片化整合服務」、「智慧電子晶片發展計畫」，以及資策會執行的「物聯網智造基地計畫」，以協助國內外新創業者設計優化、研發晶片整合方案，目的在培育IC設計新創業者，不只扶植國內新創，也希望能吸引國外IC新創來臺，增加對臺投資。</description>
-     <pubDate>2021-09-07  06:09:33</pubDate>
+    <title>金融木馬ZLoader攻擊德國、澳洲銀行機構，停用Windows內建防毒以規避偵測</title>
+    <link>https://www.ithome.com.tw/news/146775</link>
+    <description> 過往攻擊者散布金融木馬的管道，多半是利用內有惡意巨集的Office檔案，作為釣魚郵件進行攻擊。但今年出現了較為複雜的新手法，例如，在金融木馬ZLoader（也稱為Terdot）近期的新攻擊行動中，駭客透過合法的MSI檔案來散布，並具備停用Windows內建防毒軟體的模組。</description>
+     <pubDate>2021-09-17  06:09:32</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146775</guid>
+  </item>
+  <item>
+    <title>IT人才月報第19期：微軟協作工具大更新，Teams不只能自動聚焦發言人還能辨識開會員工是誰</title>
+    <link>https://www.ithome.com.tw/news/146711</link>
+    <description> 重點新聞(0806~0914)</description>
+     <pubDate>2021-09-17  04:09:06</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146711</guid>
+  </item>
+  <item>
+    <title>X Development使用光束通訊替剛果河兩岸提供寬頻服務</title>
+    <link>https://www.ithome.com.tw/news/146770</link>
+    <description> Alphabet旗下的研發公司X Development（原為Google X）在16日宣布，旗下的Taara專案已利用無線光束替非洲剛果河兩岸的Brazzaville與Kinshasa建立寬頻服務，在20天內提供700TB的資料傳輸，且可得性達到99.9%。</description>
+     <pubDate>2021-09-17  03:09:52</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146770</guid>
+  </item>
+  <item>
+    <title>Google資助OSTIF對Git和Laravel等重要開源專案進行安全審查</title>
+    <link>https://www.ithome.com.tw/news/146768</link>
+    <description> Google在8月的時候，宣布要資助1億美元，給幫助修復開源專案漏洞，並維護專案安全性的第三方基金會，現在Google兌現部分這項承諾，宣布支援開源技術改進基金會（Open Source Technology Improvement Fund，OSTIF），來提高包括Git和Laravel在內的8大專案安全性。</description>
+     <pubDate>2021-09-17  03:09:59</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146768</guid>
+  </item>
+  <item>
+    <title>Google雲端讓用戶能夠簡單備份GKE容器應用程式</title>
+    <link>https://www.ithome.com.tw/news/146767</link>
+    <description> Google推出其Kubernetes服務GKE備份的預覽功能，讓用戶以雲端原生的方式，保護、管理以及恢復容器化應用程式與資料，並且更簡單地實現服務等級目標，或是自動執行常見的備份和恢復工作，有利於法遵和稽核。</description>
+     <pubDate>2021-09-17  03:09:57</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146767</guid>
+  </item>
+  <item>
+    <title>Google Cloud傳工程部門改組，以加速擴大雲端市占率</title>
+    <link>https://www.ithome.com.tw/news/146766</link>
+    <description> CNBC報導，Google Cloud近日人事異動，替換工程部門主管，以加速擴大雲端市占率。
+在CNBC取得Google本周的內部公告信件中，Google Cloud主管Thomas Kurian向員工公布此事。這次人事異動主要在主管Google Cloud工程，以及Anthos等產品的部門主管Eyal Manor將離開現職，由Brad Calder取代。</description>
+     <pubDate>2021-09-17  01:09:22</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146766</guid>
+  </item>
+  <item>
+    <title>德國反防疫組織Querdenken遭臉書移除</title>
+    <link>https://www.ithome.com.tw/news/146765</link>
+    <description> 臉書在16日宣布，已於臉書及Instagram平臺上移除德國反防疫組織Querdenken的帳號、粉絲頁與社團，理由是它們持續違反了臉書的社群標準，包括張貼有害的錯誤健康資訊、仇恨言論與煽動暴力。</description>
+     <pubDate>2021-09-17  01:09:15</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146765</guid>
+  </item>
+  <item>
+    <title>微軟：Windows MSHTML漏洞已有勒索軟體開採</title>
+    <link>https://www.ithome.com.tw/news/146764</link>
+    <description> 在Windows MSHTML漏洞揭露有攻擊活動一個星期後，微軟昨（16）日指出，有跡象顯示歹徒正在利用這項漏洞，發動勒索軟體攻擊。
+微軟於9月7日公布編號CVE-2021-40444的Windows重大漏洞，警告已有開採活動，同時提供關閉Active X控制項的緩解指示。隨後在本周二Patch Tuesday釋出安全更新解決這項漏洞後，微軟威脅情報中心終於在昨天提供詳細分析。</description>
+     <pubDate>2021-09-17  12:09:14</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146764</guid>
+  </item>
+  <item>
+    <title>帶動英國家用電腦普及的Clive Sinclair去世，享壽81歲</title>
+    <link>https://www.ithome.com.tw/news/146763</link>
+    <description> 發明袖珍計算機、並在英國推出首款低價電腦，帶動英國家用電腦普及的Clive Sinclair在本月16日於家中去世，享壽81歲。
+1940年出生的Sinclair在他21歲的時候，就創立了Sinclair Radionics，並於1972年推出全球首款袖珍計算機。接著他在1973年成立另一家公司Sinclair Research，專門開發家用電腦，於1980年推出首款家用電腦Sinclair ZX80，提供售價為79.95英鎊（新臺幣3,120元）的DIY套件，而組裝完成的產品則以99.95英鎊（新臺幣3,910元）銷售，這是英國首款售價低於100英鎊的家用電腦，只有當時其它家用電腦售價的1/5。</description>
+     <pubDate>2021-09-17  12:09:47</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146763</guid>
+  </item>
+  <item>
+    <title>微軟釋出新版非訂閱桌機版Office，Office 2021訂10月5日推出</title>
+    <link>https://www.ithome.com.tw/news/146760</link>
+    <description> 微軟昨（16）日宣布釋出主要為企業使用的非訂閱Office軟體Windows、Mac新版本，而提供消費者及中小企業使用的Office 2021將於10月5日上市。</description>
+     <pubDate>2021-09-17  10:09:27</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146760</guid>
+  </item>
+  <item>
+    <title>自然語言處理服務Amazon Comprehend現支援Word和PDF文件格式</title>
+    <link>https://www.ithome.com.tw/news/146754</link>
+    <description> AWS更新自然語言處理服務Amazon Comprehend，開始支援Word和PDF文件，讓用戶可以從這些類型的檔案擷取資料。Amazon Comprehend能夠分析不同語言的文字，並且辨識這些文字的內容，諸如人名、地點、品牌和產品等，同時還能理解文本中的關鍵句子和情緒，或對大量文件的內容，依照主題加以分類。</description>
+     <pubDate>2021-09-16  11:09:09</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146754</guid>
+  </item>
+  <item>
+    <title>AI也略懂編舞，指定音樂就可產生對應的3D舞蹈動作序列</title>
+    <link>https://www.ithome.com.tw/news/146753</link>
+    <description> Google人工智慧最新研究，開發出了一種稱為FACT（Full-Attention Cross-modal Transformer）的模型，能夠模仿和理解舞蹈動作，具有聽音樂編舞的能力。除了模型之外，Google還釋出了大規模多模態3D舞蹈動作資料集AIST++，包含5.2小時的1,408個舞蹈動作序列，涵蓋10種舞蹈流派，藉由AIST++ Google證明FACT模型，無論是質性或是定量研究，都優於最先進的方法。</description>
+     <pubDate>2021-09-16  09:09:33</pubDate>
+ <dc:creator>李建興</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146753</guid>
+  </item>
+  <item>
+    <title>如何從海量履歷中脫穎而出？Google臺灣人資長現身說法，告訴你Google青睞的人才特質與錄取撇步</title>
+    <link>https://www.ithome.com.tw/news/146752</link>
+    <description> 面對Google近年來，不斷在臺灣加碼投資，人才需求更是逐年增加，IT人可能都想知道，Google究竟想要哪種人才、徵才標準是什麼？尤其，Google每年全球要收上百萬份履歷，一份履歷投出去，如何才不會石沈大海？Google臺灣今天舉行徵才解密線上說明會，大談Google的徵才標準、流程與文化，更分享，求職者應如何從履歷與面試過程著手，提升自己在一眾人才中的能見度，才能受到Google青睞、脫穎而出。
+首先，IT人才普遍最關注的問題，大概就是，Google究竟想要哪種人才？</description>
+     <pubDate>2021-09-16  07:09:39</pubDate>
+ <dc:creator>翁芊儒</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146752</guid>
+  </item>
+  <item>
+    <title>因疫情而延宕的Unicode 14出爐了</title>
+    <link>https://www.ithome.com.tw/news/146749</link>
+    <description> 統一碼聯盟（Unicode Consortium）於9月14日公布了Unicode 14國際碼標準，Unicode 14原本應該要在今年的3月發布，但因為COVID-19疫情而延宕了半年。
+Unicode 14新增838個字元，使其收錄的字元總數達到144,697個，其中涵蓋了5種新的語言，以及37個新的表情符號。過去幾年的Unicode版本所新增的字元最多都只有一百多個，Unicode 14卻新增超過800個，創下了新紀錄。</description>
+     <pubDate>2021-09-16  04:09:10</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146749</guid>
+  </item>
+  <item>
+    <title>世界首創骨髓抹片AI後又一擊，雲象聯手林口長庚再挑戰血液科病理難題！</title>
+    <link>https://www.ithome.com.tw/news/146747</link>
+    <description> 臺灣數位病理公司雲象與林口長庚紀念醫院今（16日）宣布共同聯手，要打造一套骨髓增生性腫瘤判讀AI，解決血液科長久難治的診斷難題。他們正一方面收集資料，一方面標註資料，同時，雙方也聯手國際知名藥廠諾華，要提供相關治療方法。這是雲象繼前三年聯手臺大醫院、打造世界第一套骨髓抹片資料庫和自動分類計數AI後，再一次挑戰另一道血液病理科難題。
+什麼是骨髓增生性腫瘤？為何連病理科醫師都公難判斷？</description>
+     <pubDate>2021-09-16  03:09:05</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146747</guid>
+  </item>
+  <item>
+    <title>FTC檢查美國五大科技業者過去10年未提報的併購交易，顯示業者利用法規漏洞來逃避反托拉斯審查</title>
+    <link>https://www.ithome.com.tw/news/146746</link>
+    <description> 美國聯邦交易委員會（FTC）自去年2月開始調查Alphabet、Amazon、蘋果、臉書及微軟等美國五大科技業者，在2010年1月至2019年12月底所執行的併購活動，由於這些併購活動的規模都低於《HSR Act》反托拉斯修訂法中必須提報的門檻，因此不必向競爭主管機關提報，也不必向投資人交待，然而，FT</description>
+     <pubDate>2021-09-16  03:09:01</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146746</guid>
+  </item>
+  <item>
+    <title>相機大廠Olympus疑遭勒索軟體BlackMatter攻擊</title>
+    <link>https://www.ithome.com.tw/news/146745</link>
+    <description> 日本相機及光學大廠Olympus本月初遭到疑似BlackMatter的惡意程式攻擊，勒索金額不詳的贖金。</description>
+     <pubDate>2021-09-16  01:09:26</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146745</guid>
+  </item>
+  <item>
+    <title>Google修補2個已發生攻擊的Chrome零時差漏洞</title>
+    <link>https://www.ithome.com.tw/news/146744</link>
+    <description> 在蘋果及微軟相繼釋出安全更新修補旗下軟體漏洞的同時，Google也修補了2個已經發生開採活動的Chrome漏洞。</description>
+     <pubDate>2021-09-16  11:09:05</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146744</guid>
+  </item>
+  <item>
+    <title>Microsoft帳號全面支援無密碼登入，甚至提供用戶能移除所設密碼</title>
+    <link>https://www.ithome.com.tw/news/146743</link>
+    <description> 經過近年宣導密碼登入的管理困難及不安全性，微軟本周宣布將在最近幾個星期內，讓所有微軟帳號可以無密碼登入。</description>
+     <pubDate>2021-09-16  11:09:37</pubDate>
+ <dc:creator>林妍溱</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146743</guid>
+  </item>
+  <item>
+    <title>4百萬張自然人憑證全面行動化，內政部整併IT服務大升級</title>
+    <link>https://www.ithome.com.tw/people/146619</link>
+    <description> 今年5月，臺灣COVID-19疫情大爆發，不少企業紛紛改為遠距或居家辦公，就連政府機關也受到不小衝擊，開始擴大實施居家辦公，尤其在雙北，幾乎一半公務人員改在家上班，來降低接觸風險。受到居家辦公的影響，許多公務員工作方式也因此改變，不僅無法像以前打卡上下班，就連在家要簽完一份公文也很花時間，大大影響了行政效率。但現在有了新解法，內政部即將推出的自然人行動憑證的簽驗章功能，來徹底解決這個問題。
+有了行動憑證的簽驗章功能，居家辦公者以後只需以手機App，掃一下網頁上行動身分識別的QR Code，就能迅速完成線上公文簽核的簽驗章，甚至還可以線上上下班打卡，而且未來不只政府內部能用，連民眾在網路銀行開戶或轉帳交易也能用。負責開發這項新服務，就是內政部資訊中心。</description>
+     <pubDate>2021-09-16  07:09:00</pubDate>
+ <dc:creator>余至浩</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/people/146619</guid>
+  </item>
+  <item>
+    <title>Code+CAD的選擇</title>
+    <link>https://www.ithome.com.tw/voice/146615</link>
+    <description> 何謂Code+CAD？這代表用程式碼進行CAD（Computer-Aided Design）設計。現今可用工具多，也更為成熟，像是OpenSCAD、JSCAD、CadQuery，或是CAD軟體中的外掛設計。
+OpenSCAD與它的衍生</description>
+     <pubDate>2021-09-16  07:09:00</pubDate>
+ <dc:creator>林信良</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/voice/146615</guid>
+  </item>
+  <item>
+    <title>中國利用反詐程式辨識與調查造訪海外金融新聞的使用者</title>
+    <link>https://www.ithome.com.tw/news/146739</link>
+    <description> 中國公安部在今年3月釋出了國家反詐中心行動程式，以替使用者封鎖詐騙電話，或是讓使用者方便檢舉詐騙活動，然而，迄今不僅傳出有些城市強迫人民安裝該程式，英國金融時報則報導，該程式還會追蹤使用者所造訪的海外新聞網站，並在有疑慮時傳喚使用者，或是打電話詢問。</description>
+     <pubDate>2021-09-15  08:09:00</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146739</guid>
+  </item>
+  <item>
+    <title>美國指控3名國內情報人員協助阿拉伯聯合大公國執行駭客行動</title>
+    <link>https://www.ithome.com.tw/news/146737</link>
+    <description> 美國司法部於14日表示，有3名曾替美國情報與軍方機構服務的美國人，在離職後協助阿拉伯聯合大公國（United Arab Emirates，UAE）執行駭客行動，違反了美國的出口管制法令與電腦詐欺相關法令，已與他們簽訂了緩起訴協議，要求他們支付總計168.5萬美元的罰金，並限制了他們未來的就業選擇。</description>
+     <pubDate>2021-09-15  08:09:00</pubDate>
+ <dc:creator>陳曉莉</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146737</guid>
+  </item>
+  <item>
+    <title>攻擊者打造Linux版Cobalt Strike的Beacon，鎖定電信、政府、金融業發動攻擊</title>
+    <link>https://www.ithome.com.tw/news/146740</link>
+    <description> 滲透測試工具Cobalt Strike被用於攻擊的情況，可說是日益頻繁。而這套工具原本是針對Windows環境所打造，如今駭客為了能攻擊Linux電腦，也試圖反組譯並重新改寫，製作適用於這類作業系統的Cobalt Strike的Beacon。</description>
+     <pubDate>2021-09-15  06:09:13</pubDate>
+ <dc:creator>周峻佑</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146740</guid>
+  </item>
+  <item>
+    <title>AI趨勢周報第177期：深化AI國力，美跨司法、國防、商務部組隊給總統與聯邦機構建議</title>
+    <link>https://www.ithome.com.tw/news/146738</link>
+    <description> 重點新聞(0910～0916)</description>
+     <pubDate>2021-09-15  05:09:43</pubDate>
+ <dc:creator>王若樸</dc:creator>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146738</guid>
+  </item>
+  <item>
+    <title>老牌醫療耗材業者中衛加速轉型為品牌商，導入CRM、ERP，還要上雲提升營運彈性</title>
+    <link>https://www.ithome.com.tw/news/146735</link>
+    <description> 「很多人覺得落地比較安全、方便，其實這是一種迷思」，國內老牌醫療耗材業者中國衛生材料生產中心公司(簡稱中衛)營運長張德成如此說。張德成是中衛第三代接班人，近年來積極推動轉型，從傳統醫材製造商轉型為品牌商，內部資訊架構也啟動大改造，包括汰換ERP、導入CRM，甚至借助雲端服務提升效率、營運彈性。
+成立於1947年的中衛，為一家位於彰化的老牌醫材製造商，專門生產醫療耗材，除了在COVID-19疫情期間，獲消費者青睞的彩色醫療口罩之外，還有防護衣、酒精棉片、手套、棉球／棉棒、繃帶等，旗下產品種類多達300，若加上不同規格，多達600、700款之多，大大增加產品管理的複雜性。</description>
+     <pubDate>2021-09-15  05:09:22</pubDate>
  <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146580</guid>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146735</guid>
   </item>
   <item>
-    <title>臉書開源快取引擎CacheLib，連結產業推動快取創新</title>
-    <link>https://www.ithome.com.tw/news/146576</link>
-    <description> 臉書對外開源內部已經大量使用的快取引擎CacheLib，CacheLib是一個可插拔的程序內快取引擎，可用來建構和擴展高效能服務。臉書目前有70個大型系統，都已經使用CacheLib作為程序內快取，包括社交圖（Social Graph）、內容交付網路、儲存和後備鍵值快取等。除此之外，臉書還開源了基準測試工具CacheBench，供使用者評估不同生產工作負載的快取效能。</description>
-     <pubDate>2021-09-07  03:09:38</pubDate>
+    <title>AWS發布多串流影片轉碼專用EC2執行個體VT1</title>
+    <link>https://www.ithome.com.tw/news/146734</link>
+    <description> AWS發布專門用於影音轉檔的EC2執行個體VT1，該執行個體使用賽靈思（Xilinx）Alveo U30媒體加速器轉碼卡，能夠用於轉碼解析度高達4K UHD的多串流影片，與目前最新基於GPU的EC2執行個體相比，每個串流的價格降低30％，和最新的CPU執行個體比起來，更是低了60％。目前Amazon EC2 VT1執行個體已經在美東、美西和歐洲地區提供，亞洲則在東京雲端服務地區推出。</description>
+     <pubDate>2021-09-15  04:09:20</pubDate>
  <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146576</guid>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146734</guid>
   </item>
   <item>
-    <title>隱私郵件服務ProtonMail將用戶IP交給警方掀風波</title>
-    <link>https://www.ithome.com.tw/news/146577</link>
-    <description> 標榜端對端加密的電子郵件服務供應商ProtonMail，最近成為被使用者砲轟的目標，因為法國警方取得了ProtonMail所提供的用戶IP，並因此逮捕了一些氣候活動家。總部位於瑞士的ProtonMail出面澄清，該公司遵循的是瑞士警方發出的法院搜索票，而非法國。</description>
-     <pubDate>2021-09-07  03:09:16</pubDate>
- <dc:creator>陳曉莉</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146577</guid>
-  </item>
-  <item>
-    <title>藍牙耳機可能讓使用者被人追蹤</title>
-    <link>https://www.ithome.com.tw/news/146575</link>
-    <description> 藍牙耳機很潮、很夯，但是一項研究顯示，藍牙耳機一項技術問題，可能被有心人士用來跟蹤使用者。而且不用很高明的技巧。</description>
-     <pubDate>2021-09-07  02:09:57</pubDate>
+    <title>微軟Patch Tuesday修補包含MSHTML引擎等66項漏洞</title>
+    <link>https://www.ithome.com.tw/news/146733</link>
+    <description> 周二微軟釋出9月份Patch Tuesday安全更新，修補66項漏洞，包含已經出現開採程式的Windows MSHTML瀏覽器引擎漏洞，以及1個尚未公開但風險值9.8的Azure管理元件漏洞。</description>
+     <pubDate>2021-09-15  03:09:47</pubDate>
  <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146575</guid>
-  </item>
-  <item>
-    <title>程式碼執行漏洞促使Google Tensorflow中止支援YAML</title>
-    <link>https://www.ithome.com.tw/news/146574</link>
-    <description> Google TensorFlow框架近日傳出受重大風險程式碼執行漏洞影響安全性，為此Google宣布將不再支援YAML格式，建議開發人員改成其他格式。</description>
-     <pubDate>2021-09-07  12:09:27</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146574</guid>
-  </item>
-  <item>
-    <title>印尼防疫網站未做好資料庫防護，導致百萬民眾資料外洩</title>
-    <link>https://www.ithome.com.tw/news/146573</link>
-    <description> 安全人員發現印尼防疫管理網站未做好防護，讓印尼超過百萬人的COVID-19測試、醫療資料、個資等資訊全部曝露於網上，可能也包括總統佐科威（Joko Widodo）。
-安全廠商vpnMentor研究人員Noam Rotem及Ran Locar在印尼官方的eHAC（eHealth Alert Card）防疫管理App及網站，發現這樁重大資料外洩。eHAC是印尼政府開發的COVID-19接觸追蹤App，今年才開發完成，要求所有入、出境的旅客，以及國內民眾安裝使用。</description>
-     <pubDate>2021-09-07  12:09:34</pubDate>
- <dc:creator>林妍溱</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146573</guid>
-  </item>
-  <item>
-    <title>VS Code Python擴充套件翻新測試介面，將棄用舊語言伺服器</title>
-    <link>https://www.ithome.com.tw/news/146564</link>
-    <description> 微軟發布9月適用VS Code的Python擴充套件新版本，這個版本加入讓開發者方便編輯和測試程式碼功能，同時，官方也宣布終止Python語言伺服器和Python 2.7 IntelliSense的支援。
-從這個版本開始，開發者可以在瀏覽器造訪github.dev時，獲得更豐富的Python編輯體驗。在任何GitHub中的儲存庫、拉取請求或是檔案，只要在鍵盤上點擊「.」還是將網址改為github.dev，便能立即在瀏覽器中，存取網頁程式碼編輯器。</description>
-     <pubDate>2021-09-06  11:09:34</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146564</guid>
-  </item>
-  <item>
-    <title>Databricks發布Serverless SQL，用戶不須管理伺服器即時獲得SQL運算能力</title>
-    <link>https://www.ithome.com.tw/news/146561</link>
-    <description> Databricks SQL現在新增無伺服器功能Databricks Serverless SQL，簡化用戶處理資料和應用人工智慧的麻煩。該無伺服器服務，能夠提供即時運算能力，使用戶能夠一鍵啟用，不需要調校伺服器效能，或是更新修復程式，以最少管理成本執行商業智慧和SQL運算，官方提到，使用Databricks Serverless SQL降低平均總體成本40％。</description>
-     <pubDate>2021-09-06  11:09:01</pubDate>
- <dc:creator>李建興</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146561</guid>
-  </item>
-  <item>
-    <title>勒索軟體鎖定農業與食品製造業下手，FBI特別發出公告呼籲各界重視</title>
-    <link>https://www.ithome.com.tw/news/146563</link>
-    <description> 隨著智慧農業的推動，在農業種植、食品生產的過程之中，往往運用了不少操作科技（OT）的設備，也可能連結IT網路環境，而使得過程能夠更有效率。而這些運用於食品供應鏈的物聯網（IoT）裝置，也可能成為攻擊者的目標，業者因氣候變遷導致食品生產面臨更多挑戰的情況下，對於糧食、肉品、各類加工品的供應，更加雪上加霜。</description>
-     <pubDate>2021-09-06  07:09:50</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146563</guid>
-  </item>
-  <item>
-    <title>積極支援開放式WiFi應用，智邦EdgeCore推出Wi-Fi 6基地臺</title>
-    <link>https://www.ithome.com.tw/review/146538</link>
-    <description> 越來越多的智慧型手機與筆電支援802.11ax（Wi-Fi 6），也就是Wi-Fi 6，大部分網路設備廠商，都陸續發表支援這項標準的消費型與企業級的產品，但也有廠商，直到今年中才正式推出相關的解決方案，例如，智邦集團旗下的鈺登科技（EdgeCore），他們在8月中發表兩款支援Wi-Fi 6的室內型基地臺，分別是EAP101與EAP102，而且，在安全性的部分，它們都支援WPA3的加密防護。</description>
-     <pubDate>2021-09-06  06:09:04</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/review/146538</guid>
-  </item>
-  <item>
-    <title>強化主管機關落實個資保護監管責任及跨機關協調，行政院建立個資保護執行聯繫機制</title>
-    <link>https://www.ithome.com.tw/news/146562</link>
-    <description> 為強化政府各機關對個資保護監管措施的落實，行政院建立個人資料保護執行聯繫機制，召開行政院層級的聯繫會議，敦促行政院各主管機關強化對非公務機關業者的監管措施，包括分級管理、個資外洩事件通報、行政檢查等等。
-行政院於去年12月召開資安事件之個資外洩因應及風險管理會議，會中決議成立行政機關落實個人資料保護執行聯繫會議（以下簡稱聯繫會議），依分級、課責、通報、跨部會協調四項原則，強化政府各機關對非公務機關的個資保護監管責任。
-確立行政院層級的個資保護執行聯繫會議</description>
-     <pubDate>2021-09-06  06:09:10</pubDate>
- <dc:creator>蘇文彬</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146562</guid>
-  </item>
-  <item>
-    <title>惡意程式牟利的方式有了新手法！不只會偷取算力和資料，還會竊取網路頻寬</title>
-    <link>https://www.ithome.com.tw/news/146560</link>
-    <description> 感冒往往會出現咳嗽、發燒，但如今還有可能會引發腸胃炎、呼吸困難等症狀。而惡意軟體對受害電腦帶來的影響，不只是竊取機密資料、電腦運算能力，現在連網路頻寬也不放過。像是可將電腦、手機掛網，分享網路頻寬的軟體，這類合法軟體被稱為網路頻寬共享軟體（Proxyware），由於最近2到3年，有些軟體像是Honeygain、Nanowire等，號稱不需點選廣告或是其他操作就能獲利，使得這種軟體受到使用者關注。但這種軟體現在也被攻擊者盯上，與挖礦工具和惡意軟體並用，來利用他人的電腦牟利。</description>
-     <pubDate>2021-09-06  05:09:06</pubDate>
- <dc:creator>周峻佑</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/news/146560</guid>
-  </item>
-  <item>
-    <title>內建Wi-Fi 6E、攝影機自動開關，Dell新頂級商用筆電登場</title>
-    <link>https://www.ithome.com.tw/review/146535</link>
-    <description> 今年1月初的美國消費電子大展（CES）期間，Dell推出多款商用筆電，我們現在要介紹的是其中一款機型：Latitude 9420，它和Latitude 9520，可說是去年推出的Latitude 9510的下一代產品，彼此有不少共通點。
-搭配14吋顯示器的Latitude 9420，提供標準筆電與二合一筆電（螢幕可外翻360度且可觸控）的選擇，內建整合喇叭與麥克風的會議揚聲器（Speakerphone），可實現類似手機免持聽筒的功能，也整合兼具自動調整拍攝畫面亮度，以及背景模糊功能的網路攝影機，可因應現今大量使用視訊會議的遠距工作溝通場景。</description>
-     <pubDate>2021-09-06  04:09:56</pubDate>
- <dc:creator>李宗翰</dc:creator>
- <guid isPermaLink="true">https://www.ithome.com.tw/review/146535</guid>
+ <guid isPermaLink="true">https://www.ithome.com.tw/news/146733</guid>
   </item>
   </channel>
 </rss>
