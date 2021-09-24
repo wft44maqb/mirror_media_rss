@@ -142,6 +142,7 @@
 	"香港_UNWIRE.HK@HK_unwire.hk": "https://feeds2.feedburner.com/unwirelife",
 	"香港_UNWIRE.PRO@HK_unwirePro": "https://unwire.pro/feed/atom/",
 	"新加坡_端傳媒@SG_theinitium": "https://www.theinitium.com/newsfeed/",
+	"新加坡_【公視】8视界@SG_8world.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/telegram/channel/news_8world",
 	"德國_【公視】德國之聲_每日影片節目@DE_dw_podcast": "https://rss.dw.com/atom/podcast_radio_china",
 	"德國_【公視】德國之聲@DE_dw": "https://rss.dw.com/atom/rss-chi-all",
 	"澳門_【公視】澳廣視_即時新聞@MO_tdm": "https://www.tdm.com.mo/global/xml/livenews_rss.php",
