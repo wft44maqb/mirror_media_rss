@@ -10,6 +10,7 @@
 	"中國_NGOCN@CN_ngocn2": "https://ngocn2.org/rss.xml",
 	"中國_竹新社@CN_tnews365.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/telegram/channel/tnews365",
 	"台灣_中華民國外交部全球資訊網_即時新聞澄清@TW_mofaClarification": "https://www.mofa.gov.tw/OpenData.aspx?SN=FB09C9C041E34414",
+	"台灣_UDN轉角國際#高層跟中共關係不簡單@TW_udnGlobal.RSSHUB": "https://rsshub-wft44maqb.herokuapp.com/udn/global/newest"
 	"台灣_【公視】公共電視@TW_pts": "https://news.pts.org.tw/xml/newsfeed.xml",
 	"台灣_【公視】公視P#新聞實驗室_事出有影@TW_ptsPSharpVideo": "https://server-psharp.fontech.co/feed/video",
 	"台灣_【公視】公視P#新聞實驗室_專題策展@TW_ptsPSharpTopic": "https://server-psharp.fontech.co/feed/topic",
