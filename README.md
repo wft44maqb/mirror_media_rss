@@ -2,6 +2,10 @@
 ```
 https://serverfield-tpe-1.edge.nextdns.io/
 ```
+或
+```
+https://ipv4-serverfield-tpe-1.edge.nextdns.io/
+```
 - 路由優化，複雜網絡地區用戶有望加強穩定性並減少延遲。
 - 查詢名稱最小化，減少洩漏到中間DNS伺服器的訊息以加強隱私保護。
 
