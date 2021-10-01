@@ -75,6 +75,7 @@
 	"美國_華爾街日報@US_wsj": "https://cn.wsj.com/zh-hant/rss",
 	"美國_微軟Azure_狀態@US_azureStatus": "https://azurestatuscdn.azureedge.net/zh-tw/status/feed/",
 	"美國_Heroku_狀態@US_herokuStatus": "https://feeds.feedburner.com/herokustatus",
+	"美國_Vercel_狀態@US_vercelStatus": "https://www.vercel-status.com/history.atom",
 	"美國_Bing新聞_中國@US_bingCN": "https://www.bing.com/news/search?q=%E4%B8%AD%E5%9C%8B&format=rss",
 	"美國_Bing新聞_台灣@US_bingTW": "https://www.bing.com/news/search?q=%E5%8F%B0%E7%81%A3&format=rss",
 	"美國_Bing新聞_全球@US_bingIntl": "https://www.bing.com/news/search?q=%E5%85%A8%E7%90%83&format=rss",
