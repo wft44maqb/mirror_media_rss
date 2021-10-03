@@ -162,5 +162,6 @@
 	"澳洲_【公視】ABC@AU_abc": "https://www.abc.net.au/news/feed/8537074/rss_fulltext.xml",
 	"韓國_【公視】KBS_本週焦點@KR_kbsHot": "http://world.kbs.co.kr/rss/rss_hotissue.htm?lang=c",
 	"韓國_【公視】KBS_南北韓@KR_kbsIK": "http://world.kbs.co.kr/rss/rss_news.htm?lang=c&id=IK",
-	"韓國_【公視】KBS_國際@KR_kbsIntl": "http://world.kbs.co.kr/rss/rss_news.htm?lang=c&id=In"
+	"韓國_【公視】KBS_國際@KR_kbsIntl": "http://world.kbs.co.kr/rss/rss_news.htm?lang=c&id=In",
+	"俄羅斯_Adguard博客@RU_AdguardBlog": "https://adguard.com/blog/rss-zh_cn.xml"
 }
