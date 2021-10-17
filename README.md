@@ -1,17 +1,17 @@
-### `QUAD101` — TWNIC免費公眾DNS服務
+### `QUAD101` — 台灣TWNIC免費公眾DNS服務
 ##### Ping值穩定少於100ms、不支援ECS (EDNS Client Subnet)，但**會**加強隱私保護
 ```
 https://101.101.101.101/dns-query
 ```
 
-### `HINET`免費公眾DNS服務
+### 台灣`HINET`免費公眾DNS服務
 ##### Ping值穩定少於100ms
 ```
 https://dns.hinet.net/dns-query
 ```
 
 ### 直連`NextDNS`台灣節點：（推廌）
-###### Ping值穩定少於100ms
+##### Ping值穩定少於100ms
 ```
 https://serverfield-tpe-1.edge.nextdns.io/
 https://serverfield-tpe-1.edge.nextdns.io/{你的配置ID}
