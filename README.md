@@ -3,6 +3,10 @@
 ```
 https://101.101.101.101/dns-query
 ```
+或
+```
+https://dns.twnic.tw/dns-query
+```
 
 ### 台灣`HINET`免費公眾DNS服務
 ##### Ping值穩定少於100ms
