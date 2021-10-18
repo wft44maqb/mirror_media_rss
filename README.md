@@ -15,7 +15,7 @@ https://dns.hinet.net/dns-query
 ```
 
 ### 直連`NextDNS`台灣節點：（推廌）
-##### Ping值穩定少於100ms
+##### Ping值穩定少於100ms，中國大陸（牆內）平均Ping值只有65ms，最快低至15ms 👍🏼
 ```
 https://serverfield-tpe-1.edge.nextdns.io/
 https://serverfield-tpe-1.edge.nextdns.io/{你的配置ID}
@@ -25,6 +25,16 @@ https://serverfield-tpe-1.edge.nextdns.io/{你的配置ID}
 https://ipv4-serverfield-tpe-1.edge.nextdns.io/
 https://ipv4-serverfield-tpe-1.edge.nextdns.io/{你的配置ID}
 ```
+
+### NextDNS其他極低延遲節點：
+##### Ping值穩定少於100ms，中國大陸（牆內）平均Ping值只有80ms跟100ms，最快低至35ms 👍🏼
+```
+https://xtom-osa-1.edge.nextdns.io/
+https://ipv4-xtom-osa-1.edge.nextdns.io/
+https://starry-osa-1.edge.nextdns.io/
+https://ipv4-starry-osa-1.edge.nextdns.io/
+```
+
 - `路由優化`，複雜網絡地區用戶有望加強穩定性並減少延遲。
 - `查詢名稱最小化`，減少洩漏到中間DNS伺服器的訊息以加強隱私保護。
 - `匿名EDNS客戶端子網 (ECS, EDNS Client Subnet)`，在不暴露您的IP位址下加速網路傳輸內容速度。
