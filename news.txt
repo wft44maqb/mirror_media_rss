@@ -1,0 +1,6 @@
+! 支持優質華文新聞，在優質新聞網站上禁用Adblock。
+!
+! 華視 (台灣公視集團成員)
+@@||pagead2.googlesyndication.com^$domain=cts.com.tw
+@@||google.com/adsense/search/$domain=cts.com.tw
+
