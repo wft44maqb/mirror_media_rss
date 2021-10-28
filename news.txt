@@ -1,6 +1,9 @@
-! 支持優質華文新聞，一起在優質新聞網站上禁用Adblock。
+! 支持優質華文新聞，在優質新聞網站上禁用Adblock。
 !
-! 華視 (台灣公視集團成員)
+! 華視 CTS (台灣公視集團成員)
 @@||pagead2.googlesyndication.com^$domain=cts.com.tw
 @@||google.com/adsense/search/$domain=cts.com.tw
-
+!
+! 轉角國際 udn Global (聯合新聞網)
+@@||innity.net^$domain=global.udn.com
+@@/prebid4.$domain=global.udn.com
